@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: blockstream-esplora-openapi.yml
+- filename: blockstream-addresses-api-openapi.yml
   format: yaml
-  label: Blockstream Esplora HTTP API
-  slug: blockstream-esplora-http-api
+  label: Blockstream Addresses API
+  slug: blockstream-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/openapi/blockstream-esplora-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/openapi/blockstream-addresses-api-openapi.yml
+- filename: blockstream-assets-api-openapi.yml
+  format: yaml
+  label: Blockstream Assets API
+  slug: blockstream-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/openapi/blockstream-assets-api-openapi.yml
+- filename: blockstream-blocks-api-openapi.yml
+  format: yaml
+  label: Blockstream Blocks API
+  slug: blockstream-blocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/openapi/blockstream-blocks-api-openapi.yml
+- filename: blockstream-fee-estimates-api-openapi.yml
+  format: yaml
+  label: Blockstream Fee Estimates API
+  slug: blockstream-fee-estimates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/openapi/blockstream-fee-estimates-api-openapi.yml
+- filename: blockstream-mempool-api-openapi.yml
+  format: yaml
+  label: Blockstream Mempool API
+  slug: blockstream-mempool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/openapi/blockstream-mempool-api-openapi.yml
+- filename: blockstream-mining-api-openapi.yml
+  format: yaml
+  label: Blockstream Mining API
+  slug: blockstream-mining-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/openapi/blockstream-mining-api-openapi.yml
+- filename: blockstream-transactions-api-openapi.yml
+  format: yaml
+  label: Blockstream Transactions API
+  slug: blockstream-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/openapi/blockstream-transactions-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

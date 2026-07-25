@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: quo-public-api-v1.json
-  format: json
-  label: Quo Public API
-  slug: quo-public-api
+- filename: quo-calls-api-openapi.yml
+  format: yaml
+  label: Quo Calls API
+  slug: quo-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/openapi/quo-public-api-v1.json
+  url: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/openapi/quo-calls-api-openapi.yml
+- filename: quo-contact-custom-fields-api-openapi.yml
+  format: yaml
+  label: Quo Contact Custom Fields API
+  slug: quo-contact-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/openapi/quo-contact-custom-fields-api-openapi.yml
+- filename: quo-contacts-api-openapi.yml
+  format: yaml
+  label: Quo Contacts API
+  slug: quo-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/openapi/quo-contacts-api-openapi.yml
+- filename: quo-conversations-api-openapi.yml
+  format: yaml
+  label: Quo Conversations API
+  slug: quo-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/openapi/quo-conversations-api-openapi.yml
+- filename: quo-messages-api-openapi.yml
+  format: yaml
+  label: Quo Messages API
+  slug: quo-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/openapi/quo-messages-api-openapi.yml
+- filename: quo-phone-numbers-api-openapi.yml
+  format: yaml
+  label: Quo Phone Numbers API
+  slug: quo-phone-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/openapi/quo-phone-numbers-api-openapi.yml
+- filename: quo-tasks-api-openapi.yml
+  format: yaml
+  label: Quo Tasks API
+  slug: quo-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/openapi/quo-tasks-api-openapi.yml
+- filename: quo-users-api-openapi.yml
+  format: yaml
+  label: Quo Users API
+  slug: quo-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/openapi/quo-users-api-openapi.yml
+- filename: quo-webhooks-api-openapi.yml
+  format: yaml
+  label: Quo Webhooks API
+  slug: quo-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/openapi/quo-webhooks-api-openapi.yml
 certifications:
 - SOC 2
 - HIPAA

@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: instamojo-payments-api.yml
+- filename: instamojo-authentication-api-openapi.yml
+  format: yaml
+  label: Instamojo Authentication API
+  slug: instamojo-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instamojo/refs/heads/main/openapi/instamojo-authentication-api-openapi.yml
+- filename: instamojo-orders-api-openapi.yml
+  format: yaml
+  label: Instamojo Orders API
+  slug: instamojo-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instamojo/refs/heads/main/openapi/instamojo-orders-api-openapi.yml
+- filename: instamojo-payment-requests-api-openapi.yml
+  format: yaml
+  label: Instamojo Payment Requests API
+  slug: instamojo-payment-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instamojo/refs/heads/main/openapi/instamojo-payment-requests-api-openapi.yml
+- filename: instamojo-payments-api-openapi.yml
   format: yaml
   label: Instamojo Payments API
   slug: instamojo-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instamojo/refs/heads/main/openapi/instamojo-payments-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/instamojo/refs/heads/main/openapi/instamojo-payments-api-openapi.yml
+- filename: instamojo-refunds-api-openapi.yml
+  format: yaml
+  label: Instamojo Refunds API
+  slug: instamojo-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instamojo/refs/heads/main/openapi/instamojo-refunds-api-openapi.yml
 description: ''
 domains:
 - caa: []

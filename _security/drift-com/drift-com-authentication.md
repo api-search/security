@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: drift-com-openapi.yml
+- filename: drift-com-accounts-api-openapi.yml
   format: yaml
-  label: Drift REST API
-  slug: drift-rest-api
+  label: Drift Accounts API
+  slug: drift-com-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/openapi/drift-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/openapi/drift-com-accounts-api-openapi.yml
+- filename: drift-com-app-admin-api-openapi.yml
+  format: yaml
+  label: Drift App Admin API
+  slug: drift-com-app-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/openapi/drift-com-app-admin-api-openapi.yml
+- filename: drift-com-contacts-api-openapi.yml
+  format: yaml
+  label: Drift Contacts API
+  slug: drift-com-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/openapi/drift-com-contacts-api-openapi.yml
+- filename: drift-com-conversations-and-messages-api-openapi.yml
+  format: yaml
+  label: Drift Conversations and Messages API
+  slug: drift-com-conversations-and-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/openapi/drift-com-conversations-and-messages-api-openapi.yml
+- filename: drift-com-data-privacy-api-openapi.yml
+  format: yaml
+  label: Drift Data Privacy API
+  slug: drift-com-data-privacy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/openapi/drift-com-data-privacy-api-openapi.yml
+- filename: drift-com-playbooks-api-openapi.yml
+  format: yaml
+  label: Drift Playbooks API
+  slug: drift-com-playbooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/openapi/drift-com-playbooks-api-openapi.yml
+- filename: drift-com-scim-api-api-openapi.yml
+  format: yaml
+  label: Drift SCIM API API
+  slug: drift-com-scim-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/openapi/drift-com-scim-api-api-openapi.yml
+- filename: drift-com-teams-api-openapi.yml
+  format: yaml
+  label: Drift Teams API
+  slug: drift-com-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/openapi/drift-com-teams-api-openapi.yml
+- filename: drift-com-users-api-openapi.yml
+  format: yaml
+  label: Drift Users API
+  slug: drift-com-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/openapi/drift-com-users-api-openapi.yml
 auth_types:
 - http
 description: ''

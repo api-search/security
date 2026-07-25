@@ -1,42 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: messaging-api.yml
+- filename: line-channel-api-openapi.yml
   format: yaml
-  label: LINE Messaging API
-  slug: messaging-api
+  label: LINE Channel API
+  slug: line-channel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/line/line-openapi/main/messaging-api.yml
-- filename: liff.yml
+  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-channel-api-openapi.yml
+- filename: line-info-api-openapi.yml
   format: yaml
-  label: LINE Front-end Framework (LIFF) Server API
-  slug: liff
+  label: LINE Info API
+  slug: line-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/line/line-openapi/main/liff.yml
-- filename: channel-access-token.yml
+  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-info-api-openapi.yml
+- filename: line-message-api-openapi.yml
   format: yaml
-  label: LINE Channel Access Token API
-  slug: channel-access-token
+  label: LINE Message API
+  slug: line-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/line/line-openapi/main/channel-access-token.yml
-- filename: insight.yml
+  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-message-api-openapi.yml
+- filename: line-profile-api-openapi.yml
   format: yaml
-  label: LINE Insight API
-  slug: insight
+  label: LINE Profile API
+  slug: line-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/line/line-openapi/main/insight.yml
-- filename: manage-audience.yml
-  format: yaml
-  label: LINE Manage Audience API
-  slug: manage-audience
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/line/line-openapi/main/manage-audience.yml
-- filename: shop.yml
-  format: yaml
-  label: LINE Shop (Mission Stickers) API
-  slug: shop
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/line/line-openapi/main/shop.yml
+  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-profile-api-openapi.yml
 auth_types:
 - http
 description: ''

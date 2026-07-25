@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: stackmint-openapi.yml
+- filename: stackmint-admin-api-openapi.yml
   format: yaml
-  label: Stackmint Platform API
-  slug: platform-api
+  label: Stackmint Admin API
+  slug: stackmint-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackmint/refs/heads/main/openapi/stackmint-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stackmint/refs/heads/main/openapi/stackmint-admin-api-openapi.yml
+- filename: stackmint-clients-api-openapi.yml
+  format: yaml
+  label: Stackmint Clients API
+  slug: stackmint-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stackmint/refs/heads/main/openapi/stackmint-clients-api-openapi.yml
 auth_types:
 - apiKey
 - http

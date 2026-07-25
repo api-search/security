@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: quay-openapi.yml
+- filename: quay-build-api-openapi.yml
   format: yaml
-  label: Quay
-  slug: quay
+  label: Quay Build API
+  slug: quay-build-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-build-api-openapi.yml
+- filename: quay-manifest-api-openapi.yml
+  format: yaml
+  label: Quay Manifest API
+  slug: quay-manifest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-manifest-api-openapi.yml
+- filename: quay-organization-api-openapi.yml
+  format: yaml
+  label: Quay Organization API
+  slug: quay-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-organization-api-openapi.yml
+- filename: quay-permission-api-openapi.yml
+  format: yaml
+  label: Quay Permission API
+  slug: quay-permission-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-permission-api-openapi.yml
+- filename: quay-repository-api-openapi.yml
+  format: yaml
+  label: Quay Repository API
+  slug: quay-repository-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-repository-api-openapi.yml
+- filename: quay-robot-api-openapi.yml
+  format: yaml
+  label: Quay Robot API
+  slug: quay-robot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-robot-api-openapi.yml
+- filename: quay-security-api-openapi.yml
+  format: yaml
+  label: Quay Security API
+  slug: quay-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-security-api-openapi.yml
+- filename: quay-tag-api-openapi.yml
+  format: yaml
+  label: Quay Tag API
+  slug: quay-tag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-tag-api-openapi.yml
+- filename: quay-team-api-openapi.yml
+  format: yaml
+  label: Quay Team API
+  slug: quay-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-team-api-openapi.yml
+- filename: quay-user-api-openapi.yml
+  format: yaml
+  label: Quay User API
+  slug: quay-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

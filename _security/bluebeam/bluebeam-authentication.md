@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: bluebeam-studio-openapi.yml
+- filename: bluebeam-documents-api-openapi.yml
   format: yaml
-  label: Bluebeam Studio API
-  slug: bluebeam-studio-api
+  label: bluebeam Documents API
+  slug: bluebeam-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/openapi/bluebeam-studio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/openapi/bluebeam-documents-api-openapi.yml
+- filename: bluebeam-markups-api-openapi.yml
+  format: yaml
+  label: bluebeam Markups API
+  slug: bluebeam-markups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/openapi/bluebeam-markups-api-openapi.yml
+- filename: bluebeam-sessions-api-openapi.yml
+  format: yaml
+  label: bluebeam Sessions API
+  slug: bluebeam-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/openapi/bluebeam-sessions-api-openapi.yml
+- filename: bluebeam-users-api-openapi.yml
+  format: yaml
+  label: bluebeam Users API
+  slug: bluebeam-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/openapi/bluebeam-users-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

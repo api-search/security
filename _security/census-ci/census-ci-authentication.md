@@ -1,48 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: census-ci-openapi.yml
+- filename: census-ci-connectors-api-openapi.yml
   format: yaml
-  label: Census Sources API
-  slug: census-sources-api
+  label: Census Connectors API
+  slug: census-ci-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/census-ci/refs/heads/main/openapi/census-ci-openapi.yml
-- filename: census-ci-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/census-ci/refs/heads/main/openapi/census-ci-connectors-api-openapi.yml
+- filename: census-ci-datasets-and-models-api-openapi.yml
+  format: yaml
+  label: Census Datasets and Models API
+  slug: census-ci-datasets-and-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/census-ci/refs/heads/main/openapi/census-ci-datasets-and-models-api-openapi.yml
+- filename: census-ci-destinations-api-openapi.yml
   format: yaml
   label: Census Destinations API
-  slug: census-destinations-api
+  slug: census-ci-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/census-ci/refs/heads/main/openapi/census-ci-openapi.yml
-- filename: census-ci-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/census-ci/refs/heads/main/openapi/census-ci-destinations-api-openapi.yml
+- filename: census-ci-segments-api-openapi.yml
   format: yaml
-  label: Census Syncs API
-  slug: census-syncs-api
+  label: Census Segments API
+  slug: census-ci-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/census-ci/refs/heads/main/openapi/census-ci-openapi.yml
-- filename: census-ci-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/census-ci/refs/heads/main/openapi/census-ci-segments-api-openapi.yml
+- filename: census-ci-sources-api-openapi.yml
+  format: yaml
+  label: Census Sources API
+  slug: census-ci-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/census-ci/refs/heads/main/openapi/census-ci-sources-api-openapi.yml
+- filename: census-ci-sync-runs-api-openapi.yml
   format: yaml
   label: Census Sync Runs API
-  slug: census-sync-runs-api
+  slug: census-ci-sync-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/census-ci/refs/heads/main/openapi/census-ci-openapi.yml
-- filename: census-ci-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/census-ci/refs/heads/main/openapi/census-ci-sync-runs-api-openapi.yml
+- filename: census-ci-syncs-api-openapi.yml
   format: yaml
-  label: Census Datasets & Models API
-  slug: census-datasets-models-api
+  label: Census Syncs API
+  slug: census-ci-syncs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/census-ci/refs/heads/main/openapi/census-ci-openapi.yml
-- filename: census-ci-openapi.yml
-  format: yaml
-  label: Census Connections API
-  slug: census-connections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/census-ci/refs/heads/main/openapi/census-ci-openapi.yml
-- filename: census-ci-openapi.yml
-  format: yaml
-  label: Census Segments & Audiences API
-  slug: census-segments-audiences-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/census-ci/refs/heads/main/openapi/census-ci-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/census-ci/refs/heads/main/openapi/census-ci-syncs-api-openapi.yml
 auth_types:
 - http
 description: ''

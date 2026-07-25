@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: dacast-openapi.yml
-  format: yaml
-  label: Dacast VOD API
-  slug: dacast-vod-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dacast/refs/heads/main/openapi/dacast-openapi.yml
-- filename: dacast-openapi.yml
-  format: yaml
-  label: Dacast Live Channels API
-  slug: dacast-live-channels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dacast/refs/heads/main/openapi/dacast-openapi.yml
-- filename: dacast-openapi.yml
-  format: yaml
-  label: Dacast Playlists API
-  slug: dacast-playlists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dacast/refs/heads/main/openapi/dacast-openapi.yml
-- filename: dacast-openapi.yml
+- filename: dacast-analytics-api-openapi.yml
   format: yaml
   label: Dacast Analytics API
   slug: dacast-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dacast/refs/heads/main/openapi/dacast-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dacast/refs/heads/main/openapi/dacast-analytics-api-openapi.yml
+- filename: dacast-live-channels-api-openapi.yml
+  format: yaml
+  label: Dacast Live Channels API
+  slug: dacast-live-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dacast/refs/heads/main/openapi/dacast-live-channels-api-openapi.yml
+- filename: dacast-playlists-api-openapi.yml
+  format: yaml
+  label: Dacast Playlists API
+  slug: dacast-playlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dacast/refs/heads/main/openapi/dacast-playlists-api-openapi.yml
+- filename: dacast-vod-api-openapi.yml
+  format: yaml
+  label: Dacast VOD API
+  slug: dacast-vod-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dacast/refs/heads/main/openapi/dacast-vod-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,18 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: scalar-api-openapi.yml
+- filename: scalar-api-registry-management-api-openapi.yml
   format: yaml
-  label: Scalar Registry API
-  slug: scalar-registry-api
+  label: Scalar Registry Management API
+  slug: scalar-api-registry-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalar-api/refs/heads/main/openapi/scalar-api-openapi.yml
-- filename: galaxy
+  url: https://raw.githubusercontent.com/api-evangelist/scalar-api/refs/heads/main/openapi/scalar-api-registry-management-api-openapi.yml
+- filename: scalar-api-registry-read-api-openapi.yml
   format: yaml
-  label: Scalar Galaxy API
-  slug: scalar-galaxy-api
+  label: Scalar Registry Read API
+  slug: scalar-api-registry-read-api
   spec_type: OpenAPI
-  url: https://registry.scalar.com/@scalar/apis/galaxy?format=json
+  url: https://raw.githubusercontent.com/api-evangelist/scalar-api/refs/heads/main/openapi/scalar-api-registry-read-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

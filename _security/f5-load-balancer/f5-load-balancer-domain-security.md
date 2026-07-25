@@ -1,23 +1,107 @@
 ---
 api_specs:
-- filename: f5-load-balancer-icontrol-rest-openapi.yml
+- filename: f5-load-balancer-config-api-openapi.yml
   format: yaml
-  label: F5 BIG-IP iControl REST API
-  slug: f5-bigip-icontrol-rest-api
+  label: F5 Load Balancer Config API
+  slug: f5-load-balancer-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-icontrol-rest-openapi.yml
-- filename: f5-load-balancer-as3-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-config-api-openapi.yml
+- filename: f5-load-balancer-data-groups-api-openapi.yml
   format: yaml
-  label: F5 BIG-IP AS3 API
-  slug: f5-bigip-as3-api
+  label: F5 Load Balancer Data Groups API
+  slug: f5-load-balancer-data-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-as3-openapi.yml
-- filename: f5-load-balancer-declarative-onboarding-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-data-groups-api-openapi.yml
+- filename: f5-load-balancer-declarations-api-openapi.yml
   format: yaml
-  label: F5 BIG-IP Declarative Onboarding API
-  slug: f5-bigip-declarative-onboarding-api
+  label: F5 Load Balancer Declarations API
+  slug: f5-load-balancer-declarations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-declarative-onboarding-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-declarations-api-openapi.yml
+- filename: f5-load-balancer-info-api-openapi.yml
+  format: yaml
+  label: F5 Load Balancer Info API
+  slug: f5-load-balancer-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-info-api-openapi.yml
+- filename: f5-load-balancer-inspect-api-openapi.yml
+  format: yaml
+  label: F5 Load Balancer Inspect API
+  slug: f5-load-balancer-inspect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-inspect-api-openapi.yml
+- filename: f5-load-balancer-irules-api-openapi.yml
+  format: yaml
+  label: F5 Load Balancer iRules API
+  slug: f5-load-balancer-irules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-irules-api-openapi.yml
+- filename: f5-load-balancer-monitors-api-openapi.yml
+  format: yaml
+  label: F5 Load Balancer Monitors API
+  slug: f5-load-balancer-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-monitors-api-openapi.yml
+- filename: f5-load-balancer-nodes-api-openapi.yml
+  format: yaml
+  label: F5 Load Balancer Nodes API
+  slug: f5-load-balancer-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-nodes-api-openapi.yml
+- filename: f5-load-balancer-policies-api-openapi.yml
+  format: yaml
+  label: F5 Load Balancer Policies API
+  slug: f5-load-balancer-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-policies-api-openapi.yml
+- filename: f5-load-balancer-pool-members-api-openapi.yml
+  format: yaml
+  label: F5 Load Balancer Pool Members API
+  slug: f5-load-balancer-pool-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-pool-members-api-openapi.yml
+- filename: f5-load-balancer-pools-api-openapi.yml
+  format: yaml
+  label: F5 Load Balancer Pools API
+  slug: f5-load-balancer-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-pools-api-openapi.yml
+- filename: f5-load-balancer-profiles-api-openapi.yml
+  format: yaml
+  label: F5 Load Balancer Profiles API
+  slug: f5-load-balancer-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-profiles-api-openapi.yml
+- filename: f5-load-balancer-snat-pools-api-openapi.yml
+  format: yaml
+  label: F5 Load Balancer SNAT Pools API
+  slug: f5-load-balancer-snat-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-snat-pools-api-openapi.yml
+- filename: f5-load-balancer-ssl-certificates-api-openapi.yml
+  format: yaml
+  label: F5 Load Balancer SSL Certificates API
+  slug: f5-load-balancer-ssl-certificates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-ssl-certificates-api-openapi.yml
+- filename: f5-load-balancer-system-api-openapi.yml
+  format: yaml
+  label: F5 Load Balancer System API
+  slug: f5-load-balancer-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-system-api-openapi.yml
+- filename: f5-load-balancer-tasks-api-openapi.yml
+  format: yaml
+  label: F5 Load Balancer Tasks API
+  slug: f5-load-balancer-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-tasks-api-openapi.yml
+- filename: f5-load-balancer-virtual-servers-api-openapi.yml
+  format: yaml
+  label: F5 Load Balancer Virtual Servers API
+  slug: f5-load-balancer-virtual-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-virtual-servers-api-openapi.yml
 description: ''
 domains:
 - caa:

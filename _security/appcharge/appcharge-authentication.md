@@ -2,12 +2,108 @@
 api_key_in:
 - header
 api_specs:
-- filename: appcharge-openapi.yml
+- filename: appcharge-assets-api-openapi.yml
   format: yaml
-  label: Appcharge Publisher API
-  slug: appcharge-publisher-api
+  label: Appcharge Assets API
+  slug: appcharge-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-assets-api-openapi.yml
+- filename: appcharge-authentication-api-openapi.yml
+  format: yaml
+  label: Appcharge Authentication API
+  slug: appcharge-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-authentication-api-openapi.yml
+- filename: appcharge-badges-api-openapi.yml
+  format: yaml
+  label: Appcharge Badges API
+  slug: appcharge-badges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-badges-api-openapi.yml
+- filename: appcharge-coupons-api-openapi.yml
+  format: yaml
+  label: Appcharge Coupons API
+  slug: appcharge-coupons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-coupons-api-openapi.yml
+- filename: appcharge-general-api-openapi.yml
+  format: yaml
+  label: Appcharge General API
+  slug: appcharge-general-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-general-api-openapi.yml
+- filename: appcharge-localization-api-openapi.yml
+  format: yaml
+  label: Appcharge Localization API
+  slug: appcharge-localization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-localization-api-openapi.yml
+- filename: appcharge-offer-designs-api-openapi.yml
+  format: yaml
+  label: Appcharge Offer Designs API
+  slug: appcharge-offer-designs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-offer-designs-api-openapi.yml
+- filename: appcharge-offers-api-openapi.yml
+  format: yaml
+  label: Appcharge Offers API
+  slug: appcharge-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-offers-api-openapi.yml
+- filename: appcharge-orders-api-openapi.yml
+  format: yaml
+  label: Appcharge Orders API
+  slug: appcharge-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-orders-api-openapi.yml
+- filename: appcharge-personalization-api-openapi.yml
+  format: yaml
+  label: Appcharge Personalization API
+  slug: appcharge-personalization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-personalization-api-openapi.yml
+- filename: appcharge-popups-api-openapi.yml
+  format: yaml
+  label: Appcharge Popups API
+  slug: appcharge-popups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-popups-api-openapi.yml
+- filename: appcharge-portal-content-api-openapi.yml
+  format: yaml
+  label: Appcharge Portal Content API
+  slug: appcharge-portal-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-portal-content-api-openapi.yml
+- filename: appcharge-products-api-openapi.yml
+  format: yaml
+  label: Appcharge Products API
+  slug: appcharge-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-products-api-openapi.yml
+- filename: appcharge-promo-codes-api-openapi.yml
+  format: yaml
+  label: Appcharge Promo Codes API
+  slug: appcharge-promo-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-promo-codes-api-openapi.yml
+- filename: appcharge-rolling-offers-api-openapi.yml
+  format: yaml
+  label: Appcharge Rolling Offers API
+  slug: appcharge-rolling-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-rolling-offers-api-openapi.yml
+- filename: appcharge-store-refresh-popups-api-openapi.yml
+  format: yaml
+  label: Appcharge Store Refresh Popups API
+  slug: appcharge-store-refresh-popups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-store-refresh-popups-api-openapi.yml
+- filename: appcharge-triggered-popups-api-openapi.yml
+  format: yaml
+  label: Appcharge Triggered Popups API
+  slug: appcharge-triggered-popups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-triggered-popups-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

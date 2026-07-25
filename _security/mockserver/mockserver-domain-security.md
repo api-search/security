@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: mockserver-openapi-original.yml
+- filename: mockserver-control-api-openapi.yml
   format: yaml
-  label: MockServer
-  slug: mockserver
+  label: MockServer control API
+  slug: mockserver-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/openapi/mockserver-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/openapi/mockserver-control-api-openapi.yml
+- filename: mockserver-expectation-api-openapi.yml
+  format: yaml
+  label: MockServer expectation API
+  slug: mockserver-expectation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/openapi/mockserver-expectation-api-openapi.yml
+- filename: mockserver-verify-api-openapi.yml
+  format: yaml
+  label: MockServer verify API
+  slug: mockserver-verify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/openapi/mockserver-verify-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,47 +1,41 @@
 ---
 api_specs:
-- filename: veriff-com-openapi.yml
-  format: yaml
-  label: Veriff Sessions API
-  slug: veriff-sessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veriff-com/refs/heads/main/openapi/veriff-com-openapi.yml
-- filename: veriff-com-openapi.yml
-  format: yaml
-  label: Veriff Decisions API
-  slug: veriff-decisions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veriff-com/refs/heads/main/openapi/veriff-com-openapi.yml
-- filename: veriff-com-openapi.yml
-  format: yaml
-  label: Veriff Person API
-  slug: veriff-person-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veriff-com/refs/heads/main/openapi/veriff-com-openapi.yml
-- filename: veriff-com-openapi.yml
-  format: yaml
-  label: Veriff Media API
-  slug: veriff-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veriff-com/refs/heads/main/openapi/veriff-com-openapi.yml
-- filename: veriff-com-openapi.yml
-  format: yaml
-  label: Veriff Watchlist Screening API
-  slug: veriff-watchlist-screening-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veriff-com/refs/heads/main/openapi/veriff-com-openapi.yml
-- filename: veriff-com-openapi.yml
+- filename: veriff-com-attempts-api-openapi.yml
   format: yaml
   label: Veriff Attempts API
-  slug: veriff-attempts-api
+  slug: veriff-com-attempts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veriff-com/refs/heads/main/openapi/veriff-com-openapi.yml
-- filename: veriff-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/veriff-com/refs/heads/main/openapi/veriff-com-attempts-api-openapi.yml
+- filename: veriff-com-decisions-api-openapi.yml
   format: yaml
-  label: Veriff Webhooks API
-  slug: veriff-webhooks-api
+  label: Veriff Decisions API
+  slug: veriff-com-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veriff-com/refs/heads/main/openapi/veriff-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/veriff-com/refs/heads/main/openapi/veriff-com-decisions-api-openapi.yml
+- filename: veriff-com-media-api-openapi.yml
+  format: yaml
+  label: Veriff Media API
+  slug: veriff-com-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veriff-com/refs/heads/main/openapi/veriff-com-media-api-openapi.yml
+- filename: veriff-com-person-api-openapi.yml
+  format: yaml
+  label: Veriff Person API
+  slug: veriff-com-person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veriff-com/refs/heads/main/openapi/veriff-com-person-api-openapi.yml
+- filename: veriff-com-sessions-api-openapi.yml
+  format: yaml
+  label: Veriff Sessions API
+  slug: veriff-com-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veriff-com/refs/heads/main/openapi/veriff-com-sessions-api-openapi.yml
+- filename: veriff-com-watchlist-screening-api-openapi.yml
+  format: yaml
+  label: Veriff Watchlist Screening API
+  slug: veriff-com-watchlist-screening-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veriff-com/refs/heads/main/openapi/veriff-com-watchlist-screening-api-openapi.yml
 description: ''
 domains:
 - caa:

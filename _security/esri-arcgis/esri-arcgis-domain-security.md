@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: esri-arcgis-platform-openapi.yml
+- filename: esri-arcgis-geocoding-api-openapi.yml
   format: yaml
-  label: ESRI ArcGIS Platform API
-  slug: esri-arcgis-platform-api
+  label: ESRI ArcGIS Geocoding API
+  slug: esri-arcgis-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/openapi/esri-arcgis-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/openapi/esri-arcgis-geocoding-api-openapi.yml
+- filename: esri-arcgis-places-api-openapi.yml
+  format: yaml
+  label: ESRI ArcGIS Places API
+  slug: esri-arcgis-places-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/openapi/esri-arcgis-places-api-openapi.yml
+- filename: esri-arcgis-portal-api-openapi.yml
+  format: yaml
+  label: ESRI ArcGIS Portal API
+  slug: esri-arcgis-portal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/openapi/esri-arcgis-portal-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: argo-cd-openapi.json
-  format: json
-  label: Argo CD API
-  slug: argo-cd
+- filename: argo-cd-accountservice-api-openapi.yml
+  format: yaml
+  label: Argo CD AccountService API
+  slug: argo-cd-accountservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/openapi/argo-cd-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/openapi/argo-cd-accountservice-api-openapi.yml
+- filename: argo-cd-applicationservice-api-openapi.yml
+  format: yaml
+  label: Argo CD ApplicationService API
+  slug: argo-cd-applicationservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/openapi/argo-cd-applicationservice-api-openapi.yml
+- filename: argo-cd-applicationsetservice-api-openapi.yml
+  format: yaml
+  label: Argo CD ApplicationSetService API
+  slug: argo-cd-applicationsetservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/openapi/argo-cd-applicationsetservice-api-openapi.yml
+- filename: argo-cd-certificateservice-api-openapi.yml
+  format: yaml
+  label: Argo CD CertificateService API
+  slug: argo-cd-certificateservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/openapi/argo-cd-certificateservice-api-openapi.yml
+- filename: argo-cd-clusterservice-api-openapi.yml
+  format: yaml
+  label: Argo CD ClusterService API
+  slug: argo-cd-clusterservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/openapi/argo-cd-clusterservice-api-openapi.yml
+- filename: argo-cd-gpgkeyservice-api-openapi.yml
+  format: yaml
+  label: Argo CD GPGKeyService API
+  slug: argo-cd-gpgkeyservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/openapi/argo-cd-gpgkeyservice-api-openapi.yml
+- filename: argo-cd-notificationservice-api-openapi.yml
+  format: yaml
+  label: Argo CD NotificationService API
+  slug: argo-cd-notificationservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/openapi/argo-cd-notificationservice-api-openapi.yml
+- filename: argo-cd-projectservice-api-openapi.yml
+  format: yaml
+  label: Argo CD ProjectService API
+  slug: argo-cd-projectservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/openapi/argo-cd-projectservice-api-openapi.yml
+- filename: argo-cd-repocredsservice-api-openapi.yml
+  format: yaml
+  label: Argo CD RepoCredsService API
+  slug: argo-cd-repocredsservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/openapi/argo-cd-repocredsservice-api-openapi.yml
+- filename: argo-cd-repositoryservice-api-openapi.yml
+  format: yaml
+  label: Argo CD RepositoryService API
+  slug: argo-cd-repositoryservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/openapi/argo-cd-repositoryservice-api-openapi.yml
+- filename: argo-cd-sessionservice-api-openapi.yml
+  format: yaml
+  label: Argo CD SessionService API
+  slug: argo-cd-sessionservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/openapi/argo-cd-sessionservice-api-openapi.yml
+- filename: argo-cd-settingsservice-api-openapi.yml
+  format: yaml
+  label: Argo CD SettingsService API
+  slug: argo-cd-settingsservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/openapi/argo-cd-settingsservice-api-openapi.yml
+- filename: argo-cd-versionservice-api-openapi.yml
+  format: yaml
+  label: Argo CD VersionService API
+  slug: argo-cd-versionservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/openapi/argo-cd-versionservice-api-openapi.yml
 description: ''
 domains:
 - caa:

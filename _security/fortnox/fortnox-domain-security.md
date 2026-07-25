@@ -1,59 +1,77 @@
 ---
 api_specs:
-- filename: fortnox-openapi.yml
-  format: yaml
-  label: Fortnox Invoices API
-  slug: fortnox-invoices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-openapi.yml
-- filename: fortnox-openapi.yml
-  format: yaml
-  label: Fortnox Customers API
-  slug: fortnox-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-openapi.yml
-- filename: fortnox-openapi.yml
-  format: yaml
-  label: Fortnox Articles API
-  slug: fortnox-articles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-openapi.yml
-- filename: fortnox-openapi.yml
-  format: yaml
-  label: Fortnox Orders API
-  slug: fortnox-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-openapi.yml
-- filename: fortnox-openapi.yml
-  format: yaml
-  label: Fortnox Offers API
-  slug: fortnox-offers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-openapi.yml
-- filename: fortnox-openapi.yml
-  format: yaml
-  label: Fortnox Bookkeeping API
-  slug: fortnox-bookkeeping-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-openapi.yml
-- filename: fortnox-openapi.yml
-  format: yaml
-  label: Fortnox Suppliers & Supplier Invoices API
-  slug: fortnox-suppliers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-openapi.yml
-- filename: fortnox-openapi.yml
-  format: yaml
-  label: Fortnox Projects API
-  slug: fortnox-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-openapi.yml
 - filename: fortnox-asyncapi.yml
   format: yaml
   label: Fortnox Topics WebSocket API
   slug: fortnox-topics-websocket-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/asyncapi/fortnox-asyncapi.yml
+- filename: fortnox-accounts-api-openapi.yml
+  format: yaml
+  label: Fortnox Accounts API
+  slug: fortnox-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-accounts-api-openapi.yml
+- filename: fortnox-articles-api-openapi.yml
+  format: yaml
+  label: Fortnox Articles API
+  slug: fortnox-articles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-articles-api-openapi.yml
+- filename: fortnox-customers-api-openapi.yml
+  format: yaml
+  label: Fortnox Customers API
+  slug: fortnox-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-customers-api-openapi.yml
+- filename: fortnox-financial-years-api-openapi.yml
+  format: yaml
+  label: Fortnox Financial Years API
+  slug: fortnox-financial-years-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-financial-years-api-openapi.yml
+- filename: fortnox-invoices-api-openapi.yml
+  format: yaml
+  label: Fortnox Invoices API
+  slug: fortnox-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-invoices-api-openapi.yml
+- filename: fortnox-offers-api-openapi.yml
+  format: yaml
+  label: Fortnox Offers API
+  slug: fortnox-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-offers-api-openapi.yml
+- filename: fortnox-orders-api-openapi.yml
+  format: yaml
+  label: Fortnox Orders API
+  slug: fortnox-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-orders-api-openapi.yml
+- filename: fortnox-projects-api-openapi.yml
+  format: yaml
+  label: Fortnox Projects API
+  slug: fortnox-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-projects-api-openapi.yml
+- filename: fortnox-supplier-invoices-api-openapi.yml
+  format: yaml
+  label: Fortnox Supplier Invoices API
+  slug: fortnox-supplier-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-supplier-invoices-api-openapi.yml
+- filename: fortnox-suppliers-api-openapi.yml
+  format: yaml
+  label: Fortnox Suppliers API
+  slug: fortnox-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-suppliers-api-openapi.yml
+- filename: fortnox-vouchers-api-openapi.yml
+  format: yaml
+  label: Fortnox Vouchers API
+  slug: fortnox-vouchers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-vouchers-api-openapi.yml
 description: ''
 domains:
 - caa:

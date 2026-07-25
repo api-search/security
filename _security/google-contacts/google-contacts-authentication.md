@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: contacts.yml
+- filename: google-contacts-contactgroups-api-openapi.yml
   format: yaml
-  label: Google People API v1
-  slug: google-people-api-v1
+  label: Google People API ContactGroups API
+  slug: google-contacts-contactgroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-contacts/refs/heads/main/openapi/contacts.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-contacts/refs/heads/main/openapi/google-contacts-contactgroups-api-openapi.yml
+- filename: google-contacts-people-api-openapi.yml
+  format: yaml
+  label: Google People API People API
+  slug: google-contacts-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-contacts/refs/heads/main/openapi/google-contacts-people-api-openapi.yml
+- filename: google-contacts-people-createcontact-api-openapi.yml
+  format: yaml
+  label: Google People API People:createContact API
+  slug: google-contacts-people-createcontact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-contacts/refs/heads/main/openapi/google-contacts-people-createcontact-api-openapi.yml
+- filename: google-contacts-people-searchcontacts-api-openapi.yml
+  format: yaml
+  label: Google People API People:searchContacts API
+  slug: google-contacts-people-searchcontacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-contacts/refs/heads/main/openapi/google-contacts-people-searchcontacts-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

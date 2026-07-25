@@ -2,18 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi-directory
+- filename: aserto-decision-logs-api-openapi.yml
+  format: yaml
+  label: Aserto Decision Logs API
+  slug: aserto-decision-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-decision-logs-api-openapi.yml
+- filename: aserto-authorizer-api-openapi.yml
   format: yaml
   label: Aserto Authorizer API
   slug: aserto-authorizer-api
   spec_type: OpenAPI
-  url: https://github.com/aserto-dev/openapi-directory
-- filename: openapi-directory
+  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-authorizer-api-openapi.yml
+- filename: aserto-authzen-api-openapi.yml
   format: yaml
-  label: Aserto Directory API
+  label: Aserto authzen API
+  slug: aserto-authzen-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-authzen-api-openapi.yml
+- filename: aserto-decision-logs-api-openapi.yml
+  format: yaml
+  label: Aserto decision_logs API
+  slug: aserto-decision-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-decision-logs-api-openapi.yml
+- filename: aserto-directory-api-openapi.yml
+  format: yaml
+  label: Aserto directory API
   slug: aserto-directory-api
   spec_type: OpenAPI
-  url: https://github.com/aserto-dev/openapi-directory
+  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-directory-api-openapi.yml
+- filename: aserto-info-api-openapi.yml
+  format: yaml
+  label: Aserto Info API
+  slug: aserto-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-info-api-openapi.yml
+- filename: aserto-policy-api-openapi.yml
+  format: yaml
+  label: Aserto Policy API
+  slug: aserto-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-policy-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

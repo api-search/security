@@ -1,113 +1,215 @@
 ---
 api_specs:
-- filename: mv-sistemas-clinic-agenda-openapi.yaml
+- filename: mv-sistemas-agendamento-api-openapi.yml
   format: yaml
-  label: Clinic Agenda
-  slug: clinic-agenda
+  label: MV sistemas Agendamento API
+  slug: mv-sistemas-agendamento-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-clinic-agenda-openapi.yaml
-- filename: mv-sistemas-clinic-connect-attendance-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-agendamento-api-openapi.yml
+- filename: mv-sistemas-agendamento-de-performance-api-openapi.yml
   format: yaml
-  label: 'Clinic Connect : Atendimento'
-  slug: clinic-connect-atendimento
+  label: MV sistemas Agendamento de performance API
+  slug: mv-sistemas-agendamento-de-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-clinic-connect-attendance-openapi.yaml
-- filename: mv-sistemas-clinic-connect-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-agendamento-de-performance-api-openapi.yml
+- filename: mv-sistemas-atendimento-api-openapi.yml
   format: yaml
-  label: Clinic Connect
-  slug: clinic-connect
+  label: MV sistemas Atendimento API
+  slug: mv-sistemas-atendimento-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-clinic-connect-openapi.yaml
-- filename: mv-sistemas-clinic-connect-performance-schedule-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-atendimento-api-openapi.yml
+- filename: mv-sistemas-attendance-api-openapi.yml
   format: yaml
-  label: Clinic Connect - Agendamento de performance API
-  slug: clinic-connect-agendamento-de-performance-api
+  label: MV sistemas Attendance API
+  slug: mv-sistemas-attendance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-clinic-connect-performance-schedule-openapi.yml
-- filename: mv-sistemas-clinic-patient-audit-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-attendance-api-openapi.yml
+- filename: mv-sistemas-auditoria-api-openapi.yml
   format: yaml
-  label: 'Clinic : Auditoria de dados de saúde do paciente'
-  slug: clinic-auditoria-de-dados-de-saúde-do-paciente
+  label: MV sistemas Auditoria API
+  slug: mv-sistemas-auditoria-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-clinic-patient-audit-openapi.yaml
-- filename: mv-sistemas-events-openapi.json
-  format: json
-  label: API para Gestão de Eventos
-  slug: api-para-gestão-de-eventos
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-events-openapi.json
-- filename: mv-sistemas-face-recognition-openapi.json
-  format: json
-  label: Reconhecimento Facial
-  slug: reconhecimento-facial
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-face-recognition-openapi.json
-- filename: mv-sistemas-gestao-beneficiarios-openapi.json
-  format: json
-  label: Gestão de Dados Cadastrais dos Beneficiários
-  slug: gestão-de-dados-cadastrais-dos-beneficiários
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-gestao-beneficiarios-openapi.json
-- filename: mv-sistemas-hub-operadora-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-auditoria-api-openapi.yml
+- filename: mv-sistemas-autentica-o-api-openapi.yml
   format: yaml
-  label: Integração Hub Operadora
-  slug: integração-hub-operadora
+  label: MV sistemas Autenticação API
+  slug: mv-sistemas-autentica-o-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-hub-operadora-openapi.yaml
-- filename: mv-sistemas-news-openapi.json
-  format: json
-  label: News - Global Health
-  slug: news-global-health
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-news-openapi.json
-- filename: mv-sistemas-pendencias-saude-openapi.json
-  format: json
-  label: Gestão de Pendências de Saúde
-  slug: gestão-de-pendências-de-saúde
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-pendencias-saude-openapi.json
-- filename: mv-sistemas-performance-schedule-webhook-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-autentica-o-api-openapi.yml
+- filename: mv-sistemas-benefici-rio-e-carteira-api-openapi.yml
   format: yaml
-  label: Webhook - Agendamento de performance
-  slug: webhook-agendamento-de-performance
+  label: MV sistemas Beneficiário e carteira API
+  slug: mv-sistemas-benefici-rio-e-carteira-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-performance-schedule-webhook-openapi.yml
-- filename: mv-sistemas-personal-attendance-openapi.json
-  format: json
-  label: 'Personal Health : Atendimentos'
-  slug: personal-health-atendimentos
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-personal-attendance-openapi.json
-- filename: mv-sistemas-personal-health-ficha-clinica-openapi.json
-  format: json
-  label: 'Personal Health : Ficha Clínica'
-  slug: personal-health-ficha-clínica
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-personal-health-ficha-clinica-openapi.json
-- filename: mv-sistemas-protocolo-entrada-openapi.json
-  format: json
-  label: Protocolo de Entrada
-  slug: protocolo-de-entrada
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-protocolo-entrada-openapi.json
-- filename: mv-sistemas-regulacao-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-benefici-rio-e-carteira-api-openapi.yml
+- filename: mv-sistemas-cadastros-auxiliares-api-openapi.yml
   format: yaml
-  label: 'Clinic Connect : Regulação'
-  slug: clinic-connect-regulação
+  label: MV sistemas Cadastros auxiliares API
+  slug: mv-sistemas-cadastros-auxiliares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-regulacao-openapi.yaml
-- filename: mv-sistemas-shared-request-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-cadastros-auxiliares-api-openapi.yml
+- filename: mv-sistemas-cl-nicas-api-openapi.yml
   format: yaml
-  label: Compartilhamento de Dados
-  slug: compartilhamento-de-dados
+  label: MV sistemas Clínicas API
+  slug: mv-sistemas-cl-nicas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-shared-request-openapi.yaml
-- filename: mv-sistemas-users-openapi.json
-  format: json
-  label: Users - Global Health
-  slug: users-global-health
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-cl-nicas-api-openapi.yml
+- filename: mv-sistemas-compartilhamento-de-dados-api-openapi.yml
+  format: yaml
+  label: MV sistemas Compartilhamento de Dados API
+  slug: mv-sistemas-compartilhamento-de-dados-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-users-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-compartilhamento-de-dados-api-openapi.yml
+- filename: mv-sistemas-conta-api-openapi.yml
+  format: yaml
+  label: MV sistemas Conta API
+  slug: mv-sistemas-conta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-conta-api-openapi.yml
+- filename: mv-sistemas-conv-nios-api-openapi.yml
+  format: yaml
+  label: MV sistemas Convênios API
+  slug: mv-sistemas-conv-nios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-conv-nios-api-openapi.yml
+- filename: mv-sistemas-exames-api-openapi.yml
+  format: yaml
+  label: MV sistemas Exames API
+  slug: mv-sistemas-exames-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-exames-api-openapi.yml
+- filename: mv-sistemas-financeiro-e-atendimento-api-openapi.yml
+  format: yaml
+  label: MV sistemas Financeiro e atendimento API
+  slug: mv-sistemas-financeiro-e-atendimento-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-financeiro-e-atendimento-api-openapi.yml
+- filename: mv-sistemas-gest-o-de-benefici-rios-api-openapi.yml
+  format: yaml
+  label: MV sistemas Gestão de Beneficiários API
+  slug: mv-sistemas-gest-o-de-benefici-rios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-gest-o-de-benefici-rios-api-openapi.yml
+- filename: mv-sistemas-gest-o-de-eventos-api-openapi.yml
+  format: yaml
+  label: MV sistemas Gestão de Eventos API
+  slug: mv-sistemas-gest-o-de-eventos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-gest-o-de-eventos-api-openapi.yml
+- filename: mv-sistemas-gest-o-de-pend-ncias-api-openapi.yml
+  format: yaml
+  label: MV sistemas Gestão de Pendências API
+  slug: mv-sistemas-gest-o-de-pend-ncias-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-gest-o-de-pend-ncias-api-openapi.yml
+- filename: mv-sistemas-guias-e-utiliza-o-api-openapi.yml
+  format: yaml
+  label: MV sistemas Guias e utilização API
+  slug: mv-sistemas-guias-e-utiliza-o-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-guias-e-utiliza-o-api-openapi.yml
+- filename: mv-sistemas-hor-rios-dispon-veis-api-openapi.yml
+  format: yaml
+  label: MV sistemas Horários Disponíveis API
+  slug: mv-sistemas-hor-rios-dispon-veis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-hor-rios-dispon-veis-api-openapi.yml
+- filename: mv-sistemas-importa-o-de-dados-api-openapi.yml
+  format: yaml
+  label: MV sistemas Importação de Dados API
+  slug: mv-sistemas-importa-o-de-dados-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-importa-o-de-dados-api-openapi.yml
+- filename: mv-sistemas-importa-o-de-dados-biom-tricos-api-openapi.yml
+  format: yaml
+  label: MV sistemas Importação de dados biométricos API
+  slug: mv-sistemas-importa-o-de-dados-biom-tricos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-importa-o-de-dados-biom-tricos-api-openapi.yml
+- filename: mv-sistemas-movimenta-es-de-visitantes-api-openapi.yml
+  format: yaml
+  label: MV sistemas Movimentações de Visitantes API
+  slug: mv-sistemas-movimenta-es-de-visitantes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-movimenta-es-de-visitantes-api-openapi.yml
+- filename: mv-sistemas-news-api-openapi.yml
+  format: yaml
+  label: MV sistemas News API
+  slug: mv-sistemas-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-news-api-openapi.yml
+- filename: mv-sistemas-notification-api-openapi.yml
+  format: yaml
+  label: MV sistemas Notification API
+  slug: mv-sistemas-notification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-notification-api-openapi.yml
+- filename: mv-sistemas-parametriza-o-api-openapi.yml
+  format: yaml
+  label: MV sistemas Parametrização API
+  slug: mv-sistemas-parametriza-o-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-parametriza-o-api-openapi.yml
+- filename: mv-sistemas-person-api-openapi.yml
+  format: yaml
+  label: MV sistemas Person API
+  slug: mv-sistemas-person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-person-api-openapi.yml
+- filename: mv-sistemas-planos-obst-tricos-api-openapi.yml
+  format: yaml
+  label: MV sistemas Planos Obstétricos API
+  slug: mv-sistemas-planos-obst-tricos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-planos-obst-tricos-api-openapi.yml
+- filename: mv-sistemas-presigned-api-openapi.yml
+  format: yaml
+  label: MV sistemas Presigned API
+  slug: mv-sistemas-presigned-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-presigned-api-openapi.yml
+- filename: mv-sistemas-prestadores-usu-rios-api-openapi.yml
+  format: yaml
+  label: MV sistemas Prestadores/Usuários API
+  slug: mv-sistemas-prestadores-usu-rios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-prestadores-usu-rios-api-openapi.yml
+- filename: mv-sistemas-protocolo-de-entrada-api-openapi.yml
+  format: yaml
+  label: MV sistemas Protocolo de Entrada API
+  slug: mv-sistemas-protocolo-de-entrada-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-protocolo-de-entrada-api-openapi.yml
+- filename: mv-sistemas-protocolo-de-reconhecimento-api-openapi.yml
+  format: yaml
+  label: MV sistemas Protocolo de reconhecimento API
+  slug: mv-sistemas-protocolo-de-reconhecimento-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-protocolo-de-reconhecimento-api-openapi.yml
+- filename: mv-sistemas-reconhecimento-facial-api-openapi.yml
+  format: yaml
+  label: MV sistemas Reconhecimento Facial API
+  slug: mv-sistemas-reconhecimento-facial-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-reconhecimento-facial-api-openapi.yml
+- filename: mv-sistemas-regula-o-api-openapi.yml
+  format: yaml
+  label: MV sistemas Regulação API
+  slug: mv-sistemas-regula-o-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-regula-o-api-openapi.yml
+- filename: mv-sistemas-servi-os-api-openapi.yml
+  format: yaml
+  label: MV sistemas Serviços API
+  slug: mv-sistemas-servi-os-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-servi-os-api-openapi.yml
+- filename: mv-sistemas-user-api-openapi.yml
+  format: yaml
+  label: MV sistemas User API
+  slug: mv-sistemas-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/openapi/mv-sistemas-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

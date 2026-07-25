@@ -1,29 +1,101 @@
 ---
 api_specs:
-- filename: overview
+- filename: sap-bi-tools-administration-api-openapi.yml
   format: yaml
-  label: SAP Analytics Cloud API
-  slug: sap-analytics-cloud-api
+  label: SAP BI Tools Administration API
+  slug: sap-bi-tools-administration-api
   spec_type: OpenAPI
-  url: https://api.sap.com/api/SACOpenAPI/overview
-- filename: sap-analytics-cloud-data-export-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-administration-api-openapi.yml
+- filename: sap-bi-tools-authentication-api-openapi.yml
   format: yaml
-  label: SAP Analytics Cloud Data Export API
-  slug: sap-analytics-cloud-data-export-api
+  label: SAP BI Tools Authentication API
+  slug: sap-bi-tools-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-analytics-cloud-data-export-api-openapi.yml
-- filename: overview
+  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-authentication-api-openapi.yml
+- filename: sap-bi-tools-calendars-api-openapi.yml
   format: yaml
-  label: SAP HANA Cloud Data Lake Files REST API
-  slug: sap-hana-cloud-data-lake-files-rest-api
+  label: SAP BI Tools Calendars API
+  slug: sap-bi-tools-calendars-api
   spec_type: OpenAPI
-  url: https://api.sap.com/api/HanaCloudDataLake/overview
-- filename: overview
+  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-calendars-api-openapi.yml
+- filename: sap-bi-tools-cms-query-api-openapi.yml
   format: yaml
-  label: SAP Datasphere API
-  slug: sap-datasphere-api
+  label: SAP BI Tools CMS Query API
+  slug: sap-bi-tools-cms-query-api
   spec_type: OpenAPI
-  url: https://api.sap.com/api/Datasphere/overview
+  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-cms-query-api-openapi.yml
+- filename: sap-bi-tools-content-items-api-openapi.yml
+  format: yaml
+  label: SAP BI Tools Content Items API
+  slug: sap-bi-tools-content-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-content-items-api-openapi.yml
+- filename: sap-bi-tools-fact-data-api-openapi.yml
+  format: yaml
+  label: SAP BI Tools Fact Data API
+  slug: sap-bi-tools-fact-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-fact-data-api-openapi.yml
+- filename: sap-bi-tools-import-api-openapi.yml
+  format: yaml
+  label: SAP BI Tools Import API
+  slug: sap-bi-tools-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-import-api-openapi.yml
+- filename: sap-bi-tools-inbox-api-openapi.yml
+  format: yaml
+  label: SAP BI Tools Inbox API
+  slug: sap-bi-tools-inbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-inbox-api-openapi.yml
+- filename: sap-bi-tools-infostore-api-openapi.yml
+  format: yaml
+  label: SAP BI Tools InfoStore API
+  slug: sap-bi-tools-infostore-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-infostore-api-openapi.yml
+- filename: sap-bi-tools-master-data-api-openapi.yml
+  format: yaml
+  label: SAP BI Tools Master Data API
+  slug: sap-bi-tools-master-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-master-data-api-openapi.yml
+- filename: sap-bi-tools-metadata-api-openapi.yml
+  format: yaml
+  label: SAP BI Tools Metadata API
+  slug: sap-bi-tools-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-metadata-api-openapi.yml
+- filename: sap-bi-tools-resources-api-openapi.yml
+  format: yaml
+  label: SAP BI Tools Resources API
+  slug: sap-bi-tools-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-resources-api-openapi.yml
+- filename: sap-bi-tools-scheduling-api-openapi.yml
+  format: yaml
+  label: SAP BI Tools Scheduling API
+  slug: sap-bi-tools-scheduling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-scheduling-api-openapi.yml
+- filename: sap-bi-tools-stories-api-openapi.yml
+  format: yaml
+  label: SAP BI Tools Stories API
+  slug: sap-bi-tools-stories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-stories-api-openapi.yml
+- filename: sap-bi-tools-teams-api-openapi.yml
+  format: yaml
+  label: SAP BI Tools Teams API
+  slug: sap-bi-tools-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-teams-api-openapi.yml
+- filename: sap-bi-tools-users-api-openapi.yml
+  format: yaml
+  label: SAP BI Tools Users API
+  slug: sap-bi-tools-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

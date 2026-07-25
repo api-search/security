@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: liberty-mutual-insurance-renters-insurance-api-openapi.yml
+- filename: liberty-mutual-insurance-data-api-openapi.yml
   format: yaml
-  label: Liberty Mutual Renters Insurance API
-  slug: renters-insurance-api
+  label: Liberty Mutual Insurance Data API
+  slug: liberty-mutual-insurance-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liberty-mutual-insurance/refs/heads/main/openapi/liberty-mutual-insurance-renters-insurance-api-openapi.yml
-- filename: liberty-mutual-insurance-solaria-labs-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/liberty-mutual-insurance/refs/heads/main/openapi/liberty-mutual-insurance-data-api-openapi.yml
+- filename: liberty-mutual-insurance-policies-api-openapi.yml
   format: yaml
-  label: Liberty Mutual Solaria Labs API
-  slug: solaria-labs-api
+  label: Liberty Mutual Insurance Policies API
+  slug: liberty-mutual-insurance-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liberty-mutual-insurance/refs/heads/main/openapi/liberty-mutual-insurance-solaria-labs-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/liberty-mutual-insurance/refs/heads/main/openapi/liberty-mutual-insurance-policies-api-openapi.yml
+- filename: liberty-mutual-insurance-quotes-api-openapi.yml
+  format: yaml
+  label: Liberty Mutual Insurance Quotes API
+  slug: liberty-mutual-insurance-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liberty-mutual-insurance/refs/heads/main/openapi/liberty-mutual-insurance-quotes-api-openapi.yml
+- filename: liberty-mutual-insurance-safety-api-openapi.yml
+  format: yaml
+  label: Liberty Mutual Insurance Safety API
+  slug: liberty-mutual-insurance-safety-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liberty-mutual-insurance/refs/heads/main/openapi/liberty-mutual-insurance-safety-api-openapi.yml
 description: ''
 domains:
 - caa: []

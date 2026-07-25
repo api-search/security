@@ -1,17 +1,59 @@
 ---
 api_specs:
-- filename: unstructured-platform-api-openapi.yml
+- filename: unstructured-channels-api-openapi.yml
   format: yaml
-  label: Unstructured Platform API
-  slug: unstructured-platform-api
+  label: Unstructured channels API
+  slug: unstructured-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-platform-api-openapi.yml
-- filename: unstructured-partition-endpoint-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-channels-api-openapi.yml
+- filename: unstructured-destinations-api-openapi.yml
   format: yaml
-  label: Unstructured Partition Endpoint
-  slug: unstructured-partition-endpoint
+  label: Unstructured destinations API
+  slug: unstructured-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-partition-endpoint-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-destinations-api-openapi.yml
+- filename: unstructured-general-api-openapi.yml
+  format: yaml
+  label: Unstructured general API
+  slug: unstructured-general-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-general-api-openapi.yml
+- filename: unstructured-jobs-api-openapi.yml
+  format: yaml
+  label: Unstructured jobs API
+  slug: unstructured-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-jobs-api-openapi.yml
+- filename: unstructured-notifications-api-openapi.yml
+  format: yaml
+  label: Unstructured notifications API
+  slug: unstructured-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-notifications-api-openapi.yml
+- filename: unstructured-sources-api-openapi.yml
+  format: yaml
+  label: Unstructured sources API
+  slug: unstructured-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-sources-api-openapi.yml
+- filename: unstructured-templates-api-openapi.yml
+  format: yaml
+  label: Unstructured templates API
+  slug: unstructured-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-templates-api-openapi.yml
+- filename: unstructured-workflow-channels-api-openapi.yml
+  format: yaml
+  label: Unstructured workflow-channels API
+  slug: unstructured-workflow-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-workflow-channels-api-openapi.yml
+- filename: unstructured-workflows-api-openapi.yml
+  format: yaml
+  label: Unstructured workflows API
+  slug: unstructured-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-workflows-api-openapi.yml
 description: ''
 domains:
 - caa:

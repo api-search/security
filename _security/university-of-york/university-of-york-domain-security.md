@@ -1,17 +1,11 @@
 ---
 api_specs:
-- filename: university-of-york-white-rose-research-oai.yaml
+- filename: university-of-york-oai2-api-openapi.yml
   format: yaml
-  label: White Rose Research Online (OAI-PMH)
-  slug: white-rose-research-oai
+  label: University of York Oai2 API
+  slug: university-of-york-oai2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-york/refs/heads/main/openapi/university-of-york-white-rose-research-oai.yaml
-- filename: university-of-york-white-rose-etheses-oai.yaml
-  format: yaml
-  label: White Rose eTheses Online (OAI-PMH)
-  slug: white-rose-etheses-oai
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-york/refs/heads/main/openapi/university-of-york-white-rose-etheses-oai.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-york/refs/heads/main/openapi/university-of-york-oai2-api-openapi.yml
 description: ''
 domains:
 - caa:

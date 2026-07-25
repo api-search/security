@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: picpurify-openapi.yaml
+- filename: picpurify-image-analysis-api-openapi.yml
   format: yaml
-  label: PicPurify Moderation API
-  slug: picpurify
+  label: PicPurify Image Analysis API
+  slug: picpurify-image-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picpurify/refs/heads/main/openapi/picpurify-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/picpurify/refs/heads/main/openapi/picpurify-image-analysis-api-openapi.yml
+- filename: picpurify-video-analysis-api-openapi.yml
+  format: yaml
+  label: PicPurify Video Analysis API
+  slug: picpurify-video-analysis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/picpurify/refs/heads/main/openapi/picpurify-video-analysis-api-openapi.yml
 description: ''
 domains:
 - caa: []

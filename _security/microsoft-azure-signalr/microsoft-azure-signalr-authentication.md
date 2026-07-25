@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: microsoft-azure-signalr-openapi.yml
+- filename: microsoft-azure-signalr-operations-api-openapi.yml
   format: yaml
-  label: Azure SignalR Service REST API
-  slug: rest-api
+  label: Azure SignalR Service Operations API
+  slug: microsoft-azure-signalr-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-signalr/refs/heads/main/openapi/microsoft-azure-signalr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-signalr/refs/heads/main/openapi/microsoft-azure-signalr-operations-api-openapi.yml
+- filename: microsoft-azure-signalr-signalr-api-openapi.yml
+  format: yaml
+  label: Azure SignalR Service SignalR API
+  slug: microsoft-azure-signalr-signalr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-signalr/refs/heads/main/openapi/microsoft-azure-signalr-signalr-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

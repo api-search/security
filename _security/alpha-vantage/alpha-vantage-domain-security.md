@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: alpha-vantage-openapi.yml
+- filename: alpha-vantage-stock-time-series-api-openapi.yml
   format: yaml
-  label: Alpha Vantage Market Data API
-  slug: market-data-api
+  label: Alpha Vantage Stock Time Series API
+  slug: alpha-vantage-stock-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpha-vantage/refs/heads/main/openapi/alpha-vantage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alpha-vantage/refs/heads/main/openapi/alpha-vantage-stock-time-series-api-openapi.yml
 description: ''
 domains:
 - caa: []

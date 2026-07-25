@@ -2,18 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: trustradius-public-openapi.yml
+- filename: trustradius-categories-api-openapi.yml
   format: yaml
-  label: TrustRadius Public API
-  slug: trustradius-public-api
+  label: TrustRadius Categories API
+  slug: trustradius-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/trustradius-public-openapi.yml
-- filename: trustradius-reviews-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/trustradius-categories-api-openapi.yml
+- filename: trustradius-companies-api-openapi.yml
+  format: yaml
+  label: TrustRadius Companies API
+  slug: trustradius-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/trustradius-companies-api-openapi.yml
+- filename: trustradius-products-api-openapi.yml
+  format: yaml
+  label: TrustRadius Products API
+  slug: trustradius-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/trustradius-products-api-openapi.yml
+- filename: trustradius-reviews-api-openapi.yml
   format: yaml
   label: TrustRadius Reviews API
   slug: trustradius-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/trustradius-reviews-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/trustradius-reviews-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

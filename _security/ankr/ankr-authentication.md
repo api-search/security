@@ -2,30 +2,54 @@
 api_key_in:
 - query
 api_specs:
-- filename: ankr-rpc-service-openapi.yml
+- filename: ankr-evm-api-openapi.yml
   format: yaml
-  label: Ankr RPC Service (Node API)
-  slug: ankr-rpc-service
+  label: ankr EVM API
+  slug: ankr-evm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/openapi/ankr-rpc-service-openapi.yml
-- filename: ankr-advanced-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/openapi/ankr-evm-api-openapi.yml
+- filename: ankr-metrics-api-openapi.yml
   format: yaml
-  label: Ankr Advanced API
-  slug: ankr-advanced-api
+  label: ankr Metrics API
+  slug: ankr-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/openapi/ankr-advanced-api-openapi.yml
-- filename: ankr-staking-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/openapi/ankr-metrics-api-openapi.yml
+- filename: ankr-nft-api-openapi.yml
   format: yaml
-  label: Ankr Liquid Staking API
-  slug: ankr-staking-api
+  label: ankr NFT API
+  slug: ankr-nft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/openapi/ankr-staking-api-openapi.yml
-- filename: ankr-automation-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/openapi/ankr-nft-api-openapi.yml
+- filename: ankr-query-api-openapi.yml
   format: yaml
-  label: Ankr Contract Automation API
-  slug: ankr-automation-api
+  label: ankr Query API
+  slug: ankr-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/openapi/ankr-automation-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/openapi/ankr-query-api-openapi.yml
+- filename: ankr-ratio-api-openapi.yml
+  format: yaml
+  label: ankr Ratio API
+  slug: ankr-ratio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/openapi/ankr-ratio-api-openapi.yml
+- filename: ankr-tasks-api-openapi.yml
+  format: yaml
+  label: ankr Tasks API
+  slug: ankr-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/openapi/ankr-tasks-api-openapi.yml
+- filename: ankr-token-api-openapi.yml
+  format: yaml
+  label: ankr Token API
+  slug: ankr-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/openapi/ankr-token-api-openapi.yml
+- filename: ankr-validators-api-openapi.yml
+  format: yaml
+  label: ankr Validators API
+  slug: ankr-validators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/openapi/ankr-validators-api-openapi.yml
 auth_types:
 - apiKey
 - http

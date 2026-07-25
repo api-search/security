@@ -2,30 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: beamable-player-accounts-openapi.yml
+- filename: beamable-basic-api-openapi.yml
   format: yaml
-  label: Beamable Player Accounts API
-  slug: player-accounts
+  label: Beamable Basic API
+  slug: beamable-basic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beamable/refs/heads/main/openapi/beamable-player-accounts-openapi.yml
-- filename: beamable-leaderboards-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beamable/refs/heads/main/openapi/beamable-basic-api-openapi.yml
+- filename: beamable-object-api-openapi.yml
   format: yaml
-  label: Beamable Leaderboards API
-  slug: leaderboards
+  label: Beamable Object API
+  slug: beamable-object-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beamable/refs/heads/main/openapi/beamable-leaderboards-openapi.yml
-- filename: beamable-live-events-openapi.yml
-  format: yaml
-  label: Beamable Live Events API
-  slug: live-events
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beamable/refs/heads/main/openapi/beamable-live-events-openapi.yml
-- filename: beamable-microservices-openapi.yml
-  format: yaml
-  label: Beamable Microservices API
-  slug: microservices
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beamable/refs/heads/main/openapi/beamable-microservices-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beamable/refs/heads/main/openapi/beamable-object-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -2,18 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: placekey-openapi.yml
+- filename: placekey-bulk-api-openapi.yml
+  format: yaml
+  label: Placekey Bulk API
+  slug: placekey-bulk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/placekey/refs/heads/main/openapi/placekey-bulk-api-openapi.yml
+- filename: placekey-lookup-api-openapi.yml
   format: yaml
   label: Placekey Lookup API
   slug: placekey-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/placekey/refs/heads/main/openapi/placekey-openapi.yml
-- filename: placekey-openapi.yml
-  format: yaml
-  label: Placekey Bulk Lookup API
-  slug: placekey-bulk-lookup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/placekey/refs/heads/main/openapi/placekey-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/placekey/refs/heads/main/openapi/placekey-lookup-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

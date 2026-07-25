@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: songstats-openapi.yml
+- filename: songstats-artists-api-openapi.yml
   format: yaml
-  label: Songstats Enterprise API
-  slug: songstats-enterprise-api
+  label: Songstats Artists API
+  slug: songstats-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/openapi/songstats-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/openapi/songstats-artists-api-openapi.yml
+- filename: songstats-collaborators-api-openapi.yml
+  format: yaml
+  label: Songstats Collaborators API
+  slug: songstats-collaborators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/openapi/songstats-collaborators-api-openapi.yml
+- filename: songstats-info-api-openapi.yml
+  format: yaml
+  label: Songstats Info API
+  slug: songstats-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/openapi/songstats-info-api-openapi.yml
+- filename: songstats-labels-api-openapi.yml
+  format: yaml
+  label: Songstats Labels API
+  slug: songstats-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/openapi/songstats-labels-api-openapi.yml
+- filename: songstats-tracks-api-openapi.yml
+  format: yaml
+  label: Songstats Tracks API
+  slug: songstats-tracks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/openapi/songstats-tracks-api-openapi.yml
 description: ''
 domains:
 - caa:

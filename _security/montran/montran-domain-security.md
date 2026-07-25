@@ -1,41 +1,179 @@
 ---
 api_specs:
-- filename: montran-global-payments-hub-openapi.yml
+- filename: montran-account-information-api-openapi.yml
   format: yaml
-  label: Montran Global Payments Hub
-  slug: montran-global-payments-hub
+  label: Montran Account Information API
+  slug: montran-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-global-payments-hub-openapi.yml
-- filename: montran-instant-payments-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-account-information-api-openapi.yml
+- filename: montran-account-structures-api-openapi.yml
   format: yaml
-  label: Montran Instant Payments Gateway
-  slug: montran-instant-payments-gateway
+  label: Montran Account Structures API
+  slug: montran-account-structures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-instant-payments-gateway-openapi.yml
-- filename: montran-payments-connectivity-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-account-structures-api-openapi.yml
+- filename: montran-accounts-api-openapi.yml
   format: yaml
-  label: Montran Payments Connectivity
-  slug: montran-payments-connectivity
+  label: Montran Accounts API
+  slug: montran-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-payments-connectivity-openapi.yml
-- filename: montran-corporate-payments-portal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-accounts-api-openapi.yml
+- filename: montran-alerts-api-openapi.yml
   format: yaml
-  label: Montran Corporate Payments Portal
-  slug: montran-corporate-payments-portal
+  label: Montran Alerts API
+  slug: montran-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-corporate-payments-portal-openapi.yml
-- filename: montran-virtual-accounts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-alerts-api-openapi.yml
+- filename: montran-approvals-api-openapi.yml
   format: yaml
-  label: Montran Virtual Accounts
-  slug: montran-virtual-accounts
+  label: Montran Approvals API
+  slug: montran-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-virtual-accounts-openapi.yml
-- filename: montran-sanctions-screening-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-approvals-api-openapi.yml
+- filename: montran-balances-api-openapi.yml
   format: yaml
-  label: Montran Sanctions Screening
-  slug: montran-sanctions-screening
+  label: Montran Balances API
+  slug: montran-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-sanctions-screening-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-balances-api-openapi.yml
+- filename: montran-beneficiaries-api-openapi.yml
+  format: yaml
+  label: Montran Beneficiaries API
+  slug: montran-beneficiaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-beneficiaries-api-openapi.yml
+- filename: montran-channels-api-openapi.yml
+  format: yaml
+  label: Montran Channels API
+  slug: montran-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-channels-api-openapi.yml
+- filename: montran-clearing-api-openapi.yml
+  format: yaml
+  label: Montran Clearing API
+  slug: montran-clearing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-clearing-api-openapi.yml
+- filename: montran-clearing-systems-api-openapi.yml
+  format: yaml
+  label: Montran Clearing Systems API
+  slug: montran-clearing-systems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-clearing-systems-api-openapi.yml
+- filename: montran-configuration-api-openapi.yml
+  format: yaml
+  label: Montran Configuration API
+  slug: montran-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-configuration-api-openapi.yml
+- filename: montran-consent-api-openapi.yml
+  format: yaml
+  label: Montran Consent API
+  slug: montran-consent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-consent-api-openapi.yml
+- filename: montran-credit-transfers-api-openapi.yml
+  format: yaml
+  label: Montran Credit Transfers API
+  slug: montran-credit-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-credit-transfers-api-openapi.yml
+- filename: montran-direct-debits-api-openapi.yml
+  format: yaml
+  label: Montran Direct Debits API
+  slug: montran-direct-debits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-direct-debits-api-openapi.yml
+- filename: montran-files-api-openapi.yml
+  format: yaml
+  label: Montran Files API
+  slug: montran-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-files-api-openapi.yml
+- filename: montran-instant-payments-api-openapi.yml
+  format: yaml
+  label: Montran Instant Payments API
+  slug: montran-instant-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-instant-payments-api-openapi.yml
+- filename: montran-lists-api-openapi.yml
+  format: yaml
+  label: Montran Lists API
+  slug: montran-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-lists-api-openapi.yml
+- filename: montran-message-formats-api-openapi.yml
+  format: yaml
+  label: Montran Message Formats API
+  slug: montran-message-formats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-message-formats-api-openapi.yml
+- filename: montran-message-routing-api-openapi.yml
+  format: yaml
+  label: Montran Message Routing API
+  slug: montran-message-routing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-message-routing-api-openapi.yml
+- filename: montran-payment-initiation-api-openapi.yml
+  format: yaml
+  label: Montran Payment Initiation API
+  slug: montran-payment-initiation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-payment-initiation-api-openapi.yml
+- filename: montran-payment-status-api-openapi.yml
+  format: yaml
+  label: Montran Payment Status API
+  slug: montran-payment-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-payment-status-api-openapi.yml
+- filename: montran-payments-api-openapi.yml
+  format: yaml
+  label: Montran Payments API
+  slug: montran-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-payments-api-openapi.yml
+- filename: montran-request-to-pay-api-openapi.yml
+  format: yaml
+  label: Montran Request to Pay API
+  slug: montran-request-to-pay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-request-to-pay-api-openapi.yml
+- filename: montran-screening-api-openapi.yml
+  format: yaml
+  label: Montran Screening API
+  slug: montran-screening-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-screening-api-openapi.yml
+- filename: montran-statements-api-openapi.yml
+  format: yaml
+  label: Montran Statements API
+  slug: montran-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-statements-api-openapi.yml
+- filename: montran-swift-api-openapi.yml
+  format: yaml
+  label: Montran SWIFT API
+  slug: montran-swift-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-swift-api-openapi.yml
+- filename: montran-transactions-api-openapi.yml
+  format: yaml
+  label: Montran Transactions API
+  slug: montran-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-transactions-api-openapi.yml
+- filename: montran-virtual-accounts-api-openapi.yml
+  format: yaml
+  label: Montran Virtual Accounts API
+  slug: montran-virtual-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-virtual-accounts-api-openapi.yml
+- filename: montran-virtual-ibans-api-openapi.yml
+  format: yaml
+  label: Montran Virtual IBANs API
+  slug: montran-virtual-ibans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/openapi/montran-virtual-ibans-api-openapi.yml
 description: ''
 domains:
 - caa: []

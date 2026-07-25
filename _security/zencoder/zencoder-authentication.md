@@ -3,12 +3,36 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: zencoder-openapi-original.yml
+- filename: zencoder-accounts-api-openapi.yml
   format: yaml
-  label: Zencoder API
-  slug: zencoder-api
+  label: Zencoder Accounts API
+  slug: zencoder-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zencoder/refs/heads/main/openapi/zencoder-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zencoder/refs/heads/main/openapi/zencoder-accounts-api-openapi.yml
+- filename: zencoder-inputs-api-openapi.yml
+  format: yaml
+  label: Zencoder Inputs API
+  slug: zencoder-inputs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zencoder/refs/heads/main/openapi/zencoder-inputs-api-openapi.yml
+- filename: zencoder-jobs-api-openapi.yml
+  format: yaml
+  label: Zencoder Jobs API
+  slug: zencoder-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zencoder/refs/heads/main/openapi/zencoder-jobs-api-openapi.yml
+- filename: zencoder-outputs-api-openapi.yml
+  format: yaml
+  label: Zencoder Outputs API
+  slug: zencoder-outputs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zencoder/refs/heads/main/openapi/zencoder-outputs-api-openapi.yml
+- filename: zencoder-reports-api-openapi.yml
+  format: yaml
+  label: Zencoder Reports API
+  slug: zencoder-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zencoder/refs/heads/main/openapi/zencoder-reports-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

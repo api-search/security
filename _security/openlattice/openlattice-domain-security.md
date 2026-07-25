@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: openlattice-openapi.yaml
+- filename: openlattice-authorizations-api-openapi.yml
   format: yaml
-  label: OpenLattice API
-  slug: openlattice-api
+  label: OpenLattice authorizations API
+  slug: openlattice-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlattice/refs/heads/main/openapi/openlattice-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/openlattice/refs/heads/main/openapi/openlattice-authorizations-api-openapi.yml
+- filename: openlattice-data-api-openapi.yml
+  format: yaml
+  label: OpenLattice data API
+  slug: openlattice-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openlattice/refs/heads/main/openapi/openlattice-data-api-openapi.yml
+- filename: openlattice-edm-api-openapi.yml
+  format: yaml
+  label: OpenLattice edm API
+  slug: openlattice-edm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openlattice/refs/heads/main/openapi/openlattice-edm-api-openapi.yml
+- filename: openlattice-organizations-api-openapi.yml
+  format: yaml
+  label: OpenLattice organizations API
+  slug: openlattice-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openlattice/refs/heads/main/openapi/openlattice-organizations-api-openapi.yml
+- filename: openlattice-permissions-api-openapi.yml
+  format: yaml
+  label: OpenLattice permissions API
+  slug: openlattice-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openlattice/refs/heads/main/openapi/openlattice-permissions-api-openapi.yml
+- filename: openlattice-principal-api-openapi.yml
+  format: yaml
+  label: OpenLattice principal API
+  slug: openlattice-principal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openlattice/refs/heads/main/openapi/openlattice-principal-api-openapi.yml
+- filename: openlattice-search-api-openapi.yml
+  format: yaml
+  label: OpenLattice search API
+  slug: openlattice-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openlattice/refs/heads/main/openapi/openlattice-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

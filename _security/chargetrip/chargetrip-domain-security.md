@@ -1,35 +1,11 @@
 ---
 api_specs:
-- filename: chargetrip-openapi.yml
+- filename: chargetrip-graphql-api-openapi.yml
   format: yaml
-  label: Chargetrip Route Planning API
-  slug: chargetrip-route-planning-api
+  label: Chargetrip GraphQL API
+  slug: chargetrip-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargetrip/refs/heads/main/openapi/chargetrip-openapi.yml
-- filename: chargetrip-openapi.yml
-  format: yaml
-  label: Chargetrip Stations API
-  slug: chargetrip-stations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargetrip/refs/heads/main/openapi/chargetrip-openapi.yml
-- filename: chargetrip-openapi.yml
-  format: yaml
-  label: Chargetrip Car Database API
-  slug: chargetrip-car-database-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargetrip/refs/heads/main/openapi/chargetrip-openapi.yml
-- filename: chargetrip-openapi.yml
-  format: yaml
-  label: Chargetrip Isolines / Reachability API
-  slug: chargetrip-isolines-reachability-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargetrip/refs/heads/main/openapi/chargetrip-openapi.yml
-- filename: chargetrip-openapi.yml
-  format: yaml
-  label: Chargetrip Operators API
-  slug: chargetrip-operators-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargetrip/refs/heads/main/openapi/chargetrip-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chargetrip/refs/heads/main/openapi/chargetrip-graphql-api-openapi.yml
 description: ''
 domains:
 - caa:

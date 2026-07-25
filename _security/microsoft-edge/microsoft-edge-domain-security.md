@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: microsoft-edge-addons-api.yaml
+- filename: microsoft-edge-browser-api-openapi.yml
   format: yaml
-  label: Microsoft Edge Add-ons API
-  slug: edge-addons-api
+  label: Microsoft Edge Browser API
+  slug: microsoft-edge-browser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/openapi/microsoft-edge-addons-api.yaml
-- filename: microsoft-edge-devtools-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/openapi/microsoft-edge-browser-api-openapi.yml
+- filename: microsoft-edge-packages-api-openapi.yml
   format: yaml
-  label: Microsoft Edge DevTools Protocol HTTP API
-  slug: edge-devtools-api
+  label: Microsoft Edge Packages API
+  slug: microsoft-edge-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/openapi/microsoft-edge-devtools-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/openapi/microsoft-edge-packages-api-openapi.yml
+- filename: microsoft-edge-pages-api-openapi.yml
+  format: yaml
+  label: Microsoft Edge Pages API
+  slug: microsoft-edge-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/openapi/microsoft-edge-pages-api-openapi.yml
+- filename: microsoft-edge-products-api-openapi.yml
+  format: yaml
+  label: Microsoft Edge Products API
+  slug: microsoft-edge-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/openapi/microsoft-edge-products-api-openapi.yml
+- filename: microsoft-edge-publishing-api-openapi.yml
+  format: yaml
+  label: Microsoft Edge Publishing API
+  slug: microsoft-edge-publishing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/openapi/microsoft-edge-publishing-api-openapi.yml
+- filename: microsoft-edge-targets-api-openapi.yml
+  format: yaml
+  label: Microsoft Edge Targets API
+  slug: microsoft-edge-targets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/openapi/microsoft-edge-targets-api-openapi.yml
 description: ''
 domains:
 - caa:

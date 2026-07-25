@@ -1,11 +1,131 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Euler V3 Data API
-  slug: euler-v3-data-api
+- filename: euler-accounts-api-openapi.yml
+  format: yaml
+  label: Euler Finance Accounts API
+  slug: euler-accounts-api
   spec_type: OpenAPI
-  url: https://v3.euler.finance/v3/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-accounts-api-openapi.yml
+- filename: euler-apys-api-openapi.yml
+  format: yaml
+  label: Euler Finance APYs API
+  slug: euler-apys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-apys-api-openapi.yml
+- filename: euler-auth-api-openapi.yml
+  format: yaml
+  label: Euler Finance Auth API
+  slug: euler-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-auth-api-openapi.yml
+- filename: euler-chains-api-openapi.yml
+  format: yaml
+  label: Euler Finance Chains API
+  slug: euler-chains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-chains-api-openapi.yml
+- filename: euler-curator-api-openapi.yml
+  format: yaml
+  label: Euler Finance Curator API
+  slug: euler-curator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-curator-api-openapi.yml
+- filename: euler-earn-api-openapi.yml
+  format: yaml
+  label: Euler Finance Earn API
+  slug: euler-earn-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-earn-api-openapi.yml
+- filename: euler-entities-api-openapi.yml
+  format: yaml
+  label: Euler Finance Entities API
+  slug: euler-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-entities-api-openapi.yml
+- filename: euler-evc-api-openapi.yml
+  format: yaml
+  label: Euler Finance EVC API
+  slug: euler-evc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-evc-api-openapi.yml
+- filename: euler-feeflow-api-openapi.yml
+  format: yaml
+  label: Euler Finance FeeFlow API
+  slug: euler-feeflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-feeflow-api-openapi.yml
+- filename: euler-graphql-api-openapi.yml
+  format: yaml
+  label: Euler Finance GraphQL API
+  slug: euler-graphql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-graphql-api-openapi.yml
+- filename: euler-health-api-openapi.yml
+  format: yaml
+  label: Euler Finance Health API
+  slug: euler-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-health-api-openapi.yml
+- filename: euler-liquidations-api-openapi.yml
+  format: yaml
+  label: Euler Finance Liquidations API
+  slug: euler-liquidations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-liquidations-api-openapi.yml
+- filename: euler-oracles-api-openapi.yml
+  format: yaml
+  label: Euler Finance Oracles API
+  slug: euler-oracles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-oracles-api-openapi.yml
+- filename: euler-prices-api-openapi.yml
+  format: yaml
+  label: Euler Finance Prices API
+  slug: euler-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-prices-api-openapi.yml
+- filename: euler-protocol-api-openapi.yml
+  format: yaml
+  label: Euler Finance Protocol API
+  slug: euler-protocol-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-protocol-api-openapi.yml
+- filename: euler-publicallocator-api-openapi.yml
+  format: yaml
+  label: Euler Finance PublicAllocator API
+  slug: euler-publicallocator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-publicallocator-api-openapi.yml
+- filename: euler-rewards-api-openapi.yml
+  format: yaml
+  label: Euler Finance Rewards API
+  slug: euler-rewards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-rewards-api-openapi.yml
+- filename: euler-termsofuse-api-openapi.yml
+  format: yaml
+  label: Euler Finance TermsOfUse API
+  slug: euler-termsofuse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-termsofuse-api-openapi.yml
+- filename: euler-tokens-api-openapi.yml
+  format: yaml
+  label: Euler Finance Tokens API
+  slug: euler-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-tokens-api-openapi.yml
+- filename: euler-usage-api-openapi.yml
+  format: yaml
+  label: Euler Finance Usage API
+  slug: euler-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-usage-api-openapi.yml
+- filename: euler-vaults-api-openapi.yml
+  format: yaml
+  label: Euler Finance Vaults API
+  slug: euler-vaults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-vaults-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -2,18 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: stigg-openapi.yml
+- filename: stigg-coupons-api-openapi.yml
   format: yaml
-  label: Stigg GraphQL API
-  slug: stigg-graphql
+  label: Stigg Coupons API
+  slug: stigg-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/openapi/stigg-openapi.yml
-- filename: stigg-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/openapi/stigg-coupons-api-openapi.yml
+- filename: stigg-customers-api-openapi.yml
   format: yaml
-  label: Stigg REST API
-  slug: stigg-rest
+  label: Stigg Customers API
+  slug: stigg-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/openapi/stigg-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/openapi/stigg-customers-api-openapi.yml
+- filename: stigg-entitlements-api-openapi.yml
+  format: yaml
+  label: Stigg Entitlements API
+  slug: stigg-entitlements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/openapi/stigg-entitlements-api-openapi.yml
+- filename: stigg-subscriptions-api-openapi.yml
+  format: yaml
+  label: Stigg Subscriptions API
+  slug: stigg-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/openapi/stigg-subscriptions-api-openapi.yml
+- filename: stigg-usage-api-openapi.yml
+  format: yaml
+  label: Stigg Usage API
+  slug: stigg-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/openapi/stigg-usage-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

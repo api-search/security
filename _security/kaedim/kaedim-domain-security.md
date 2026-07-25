@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: kaedim-web-api-openapi.yml
+- filename: kaedim-assets-api-openapi.yml
   format: yaml
-  label: Kaedim Web API
-  slug: kaedim-web-api
+  label: Kaedim Assets API
+  slug: kaedim-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/openapi/kaedim-web-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/openapi/kaedim-assets-api-openapi.yml
+- filename: kaedim-auth-api-openapi.yml
+  format: yaml
+  label: Kaedim Auth API
+  slug: kaedim-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/openapi/kaedim-auth-api-openapi.yml
+- filename: kaedim-generation-api-openapi.yml
+  format: yaml
+  label: Kaedim Generation API
+  slug: kaedim-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/openapi/kaedim-generation-api-openapi.yml
+- filename: kaedim-webhooks-api-openapi.yml
+  format: yaml
+  label: Kaedim Webhooks API
+  slug: kaedim-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/openapi/kaedim-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

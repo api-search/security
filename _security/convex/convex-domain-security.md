@@ -1,29 +1,77 @@
 ---
 api_specs:
-- filename: convex-http-api-openapi.yml
-  format: yaml
-  label: Convex HTTP API
-  slug: http-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-http-api-openapi.yml
-- filename: openapi.json
-  format: json
-  label: Convex Management API
-  slug: management-api
-  spec_type: OpenAPI
-  url: https://api.convex.dev/v1/openapi.json
-- filename: convex-deployment-platform-api-openapi.yml
-  format: yaml
-  label: Convex Deployment Platform API
-  slug: deployment-platform-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-deployment-platform-api-openapi.yml
 - filename: convex-asyncapi.yml
   format: yaml
   label: Convex Sync Protocol
   slug: sync-protocol
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/asyncapi/convex-asyncapi.yml
+- filename: convex-accesstokens-api-openapi.yml
+  format: yaml
+  label: Convex AccessTokens API
+  slug: convex-accesstokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-accesstokens-api-openapi.yml
+- filename: convex-actions-api-openapi.yml
+  format: yaml
+  label: Convex Actions API
+  slug: convex-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-actions-api-openapi.yml
+- filename: convex-customdomains-api-openapi.yml
+  format: yaml
+  label: Convex CustomDomains API
+  slug: convex-customdomains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-customdomains-api-openapi.yml
+- filename: convex-deploykeys-api-openapi.yml
+  format: yaml
+  label: Convex DeployKeys API
+  slug: convex-deploykeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-deploykeys-api-openapi.yml
+- filename: convex-deployments-api-openapi.yml
+  format: yaml
+  label: Convex Deployments API
+  slug: convex-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-deployments-api-openapi.yml
+- filename: convex-environmentvariables-api-openapi.yml
+  format: yaml
+  label: Convex EnvironmentVariables API
+  slug: convex-environmentvariables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-environmentvariables-api-openapi.yml
+- filename: convex-functions-api-openapi.yml
+  format: yaml
+  label: Convex Functions API
+  slug: convex-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-functions-api-openapi.yml
+- filename: convex-mutations-api-openapi.yml
+  format: yaml
+  label: Convex Mutations API
+  slug: convex-mutations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-mutations-api-openapi.yml
+- filename: convex-projects-api-openapi.yml
+  format: yaml
+  label: Convex Projects API
+  slug: convex-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-projects-api-openapi.yml
+- filename: convex-queries-api-openapi.yml
+  format: yaml
+  label: Convex Queries API
+  slug: convex-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-queries-api-openapi.yml
+- filename: convex-teams-api-openapi.yml
+  format: yaml
+  label: Convex Teams API
+  slug: convex-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-teams-api-openapi.yml
 description: ''
 domains:
 - caa: []

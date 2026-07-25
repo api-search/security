@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: onetrust-openapi.yml
+- filename: onetrust-ai-governance-api-openapi.yml
   format: yaml
-  label: OneTrust Platform API
-  slug: platform-api
+  label: OneTrust AI Governance API
+  slug: onetrust-ai-governance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/openapi/onetrust-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/openapi/onetrust-ai-governance-api-openapi.yml
+- filename: onetrust-applications-api-openapi.yml
+  format: yaml
+  label: OneTrust Applications API
+  slug: onetrust-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/openapi/onetrust-applications-api-openapi.yml
+- filename: onetrust-consent-api-openapi.yml
+  format: yaml
+  label: OneTrust Consent API
+  slug: onetrust-consent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/openapi/onetrust-consent-api-openapi.yml
+- filename: onetrust-cookies-api-openapi.yml
+  format: yaml
+  label: OneTrust Cookies API
+  slug: onetrust-cookies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/openapi/onetrust-cookies-api-openapi.yml
+- filename: onetrust-data-subjects-api-openapi.yml
+  format: yaml
+  label: OneTrust Data Subjects API
+  slug: onetrust-data-subjects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/openapi/onetrust-data-subjects-api-openapi.yml
+- filename: onetrust-domains-api-openapi.yml
+  format: yaml
+  label: OneTrust Domains API
+  slug: onetrust-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/openapi/onetrust-domains-api-openapi.yml
+- filename: onetrust-privacy-notices-api-openapi.yml
+  format: yaml
+  label: OneTrust Privacy Notices API
+  slug: onetrust-privacy-notices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/openapi/onetrust-privacy-notices-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

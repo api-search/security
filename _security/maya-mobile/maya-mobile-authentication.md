@@ -1,36 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: maya-mobile-openapi.yml
+- filename: maya-mobile-esims-api-openapi.yml
   format: yaml
-  label: Maya Mobile Plans and Products API
-  slug: plans-products
+  label: Maya Mobile eSIMs API
+  slug: maya-mobile-esims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maya-mobile/refs/heads/main/openapi/maya-mobile-openapi.yml
-- filename: maya-mobile-openapi.yml
-  format: yaml
-  label: Maya Mobile eSIMs and Provisioning API
-  slug: esims-provisioning
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maya-mobile/refs/heads/main/openapi/maya-mobile-openapi.yml
-- filename: maya-mobile-openapi.yml
-  format: yaml
-  label: Maya Mobile Usage and Topup API
-  slug: usage-topup
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maya-mobile/refs/heads/main/openapi/maya-mobile-openapi.yml
-- filename: maya-mobile-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maya-mobile/refs/heads/main/openapi/maya-mobile-esims-api-openapi.yml
+- filename: maya-mobile-orders-api-openapi.yml
   format: yaml
   label: Maya Mobile Orders API
-  slug: orders
+  slug: maya-mobile-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maya-mobile/refs/heads/main/openapi/maya-mobile-openapi.yml
-- filename: maya-mobile-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maya-mobile/refs/heads/main/openapi/maya-mobile-orders-api-openapi.yml
+- filename: maya-mobile-plans-api-openapi.yml
   format: yaml
-  label: Maya Mobile Webhooks
-  slug: webhooks
+  label: Maya Mobile Plans API
+  slug: maya-mobile-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maya-mobile/refs/heads/main/openapi/maya-mobile-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maya-mobile/refs/heads/main/openapi/maya-mobile-plans-api-openapi.yml
+- filename: maya-mobile-usage-api-openapi.yml
+  format: yaml
+  label: Maya Mobile Usage API
+  slug: maya-mobile-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maya-mobile/refs/heads/main/openapi/maya-mobile-usage-api-openapi.yml
 auth_types:
 - http
 description: ''

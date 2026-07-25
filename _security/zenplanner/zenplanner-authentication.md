@@ -1,48 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: zenplanner-openapi.yml
-  format: yaml
-  label: Zen Planner People API
-  slug: zenplanner-people-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-openapi.yml
-- filename: zenplanner-openapi.yml
-  format: yaml
-  label: Zen Planner Memberships API
-  slug: zenplanner-memberships-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-openapi.yml
-- filename: zenplanner-openapi.yml
+- filename: zenplanner-classes-api-openapi.yml
   format: yaml
   label: Zen Planner Classes API
   slug: zenplanner-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-openapi.yml
-- filename: zenplanner-openapi.yml
-  format: yaml
-  label: Zen Planner Locations API
-  slug: zenplanner-locations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-openapi.yml
-- filename: zenplanner-openapi.yml
-  format: yaml
-  label: Zen Planner Programs API
-  slug: zenplanner-programs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-openapi.yml
-- filename: zenplanner-openapi.yml
-  format: yaml
-  label: Zen Planner Prospects API
-  slug: zenplanner-prospects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-openapi.yml
-- filename: zenplanner-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-classes-api-openapi.yml
+- filename: zenplanner-groups-api-openapi.yml
   format: yaml
   label: Zen Planner Groups API
   slug: zenplanner-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-groups-api-openapi.yml
+- filename: zenplanner-locations-api-openapi.yml
+  format: yaml
+  label: Zen Planner Locations API
+  slug: zenplanner-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-locations-api-openapi.yml
+- filename: zenplanner-memberships-api-openapi.yml
+  format: yaml
+  label: Zen Planner Memberships API
+  slug: zenplanner-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-memberships-api-openapi.yml
+- filename: zenplanner-people-api-openapi.yml
+  format: yaml
+  label: Zen Planner People API
+  slug: zenplanner-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-people-api-openapi.yml
+- filename: zenplanner-programs-api-openapi.yml
+  format: yaml
+  label: Zen Planner Programs API
+  slug: zenplanner-programs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-programs-api-openapi.yml
+- filename: zenplanner-prospects-api-openapi.yml
+  format: yaml
+  label: Zen Planner Prospects API
+  slug: zenplanner-prospects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-prospects-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: totalis-openapi-original.json
-  format: json
-  label: Totalis RFQ API
-  slug: totalis-rfq-api
+- filename: totalis-api-keys-api-openapi.yml
+  format: yaml
+  label: Totalis API Keys API
+  slug: totalis-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/openapi/totalis-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/openapi/totalis-api-keys-api-openapi.yml
+- filename: totalis-markets-api-openapi.yml
+  format: yaml
+  label: Totalis Markets API
+  slug: totalis-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/openapi/totalis-markets-api-openapi.yml
+- filename: totalis-portfolio-api-openapi.yml
+  format: yaml
+  label: Totalis Portfolio API
+  slug: totalis-portfolio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/openapi/totalis-portfolio-api-openapi.yml
+- filename: totalis-rfqs-api-openapi.yml
+  format: yaml
+  label: Totalis RFQs API
+  slug: totalis-rfqs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/openapi/totalis-rfqs-api-openapi.yml
+- filename: totalis-user-api-openapi.yml
+  format: yaml
+  label: Totalis User API
+  slug: totalis-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/openapi/totalis-user-api-openapi.yml
+- filename: totalis-vault-api-openapi.yml
+  format: yaml
+  label: Totalis Vault API
+  slug: totalis-vault-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/openapi/totalis-vault-api-openapi.yml
+- filename: totalis-webhooks-api-openapi.yml
+  format: yaml
+  label: Totalis Webhooks API
+  slug: totalis-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/openapi/totalis-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

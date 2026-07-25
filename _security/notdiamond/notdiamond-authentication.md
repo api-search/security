@@ -1,30 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: notdiamond-openapi.yml
-  format: yaml
-  label: Not Diamond Model Select API
-  slug: notdiamond-model-select-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/openapi/notdiamond-openapi.yml
-- filename: notdiamond-openapi.yml
-  format: yaml
-  label: Not Diamond Models API
-  slug: notdiamond-models-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/openapi/notdiamond-openapi.yml
-- filename: notdiamond-openapi.yml
-  format: yaml
-  label: Not Diamond Feedback API
-  slug: notdiamond-feedback-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/openapi/notdiamond-openapi.yml
-- filename: notdiamond-openapi.yml
+- filename: notdiamond-custom-routers-api-openapi.yml
   format: yaml
   label: Not Diamond Custom Routers API
   slug: notdiamond-custom-routers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/openapi/notdiamond-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/openapi/notdiamond-custom-routers-api-openapi.yml
+- filename: notdiamond-feedback-api-openapi.yml
+  format: yaml
+  label: Not Diamond Feedback API
+  slug: notdiamond-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/openapi/notdiamond-feedback-api-openapi.yml
+- filename: notdiamond-model-routing-api-openapi.yml
+  format: yaml
+  label: Not Diamond Model Routing API
+  slug: notdiamond-model-routing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/openapi/notdiamond-model-routing-api-openapi.yml
+- filename: notdiamond-models-api-openapi.yml
+  format: yaml
+  label: Not Diamond Models API
+  slug: notdiamond-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/openapi/notdiamond-models-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: amazon-entity-resolution-openapi.yml
+- filename: amazon-entity-resolution-matchingworkflows-api-openapi.yml
   format: yaml
-  label: Amazon Entity Resolution API
-  slug: amazon-entity-resolution-api
+  label: Amazon Entity Resolution Matchingworkflows API
+  slug: amazon-entity-resolution-matchingworkflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/openapi/amazon-entity-resolution-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/openapi/amazon-entity-resolution-matchingworkflows-api-openapi.yml
+- filename: amazon-entity-resolution-schemas-api-openapi.yml
+  format: yaml
+  label: Amazon Entity Resolution Schemas API
+  slug: amazon-entity-resolution-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/openapi/amazon-entity-resolution-schemas-api-openapi.yml
+- filename: amazon-entity-resolution-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Entity Resolution Tags API
+  slug: amazon-entity-resolution-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/openapi/amazon-entity-resolution-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

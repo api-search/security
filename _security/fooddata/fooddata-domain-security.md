@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: json-spec
+- filename: fooddata-fdc-api-openapi.yml
   format: yaml
-  label: FoodData Central API
-  slug: fooddata-central-api
+  label: FoodData Central FDC API
+  slug: fooddata-fdc-api
   spec_type: OpenAPI
-  url: https://api.nal.usda.gov/fdc/v1/json-spec?api_key=DEMO_KEY
+  url: https://raw.githubusercontent.com/api-evangelist/fooddata/refs/heads/main/openapi/fooddata-fdc-api-openapi.yml
 description: ''
 domains:
 - caa:

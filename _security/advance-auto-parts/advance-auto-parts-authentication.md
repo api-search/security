@@ -2,18 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: advance-auto-parts-catalog-api-openapi.yml
+- filename: advance-auto-parts-cart-api-openapi.yml
   format: yaml
-  label: Advance Auto Parts Catalog API
-  slug: advance-auto-parts-catalog-api
+  label: Advance Auto Parts Cart API
+  slug: advance-auto-parts-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/openapi/advance-auto-parts-catalog-api-openapi.yml
-- filename: advance-auto-parts-commerce-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/openapi/advance-auto-parts-cart-api-openapi.yml
+- filename: advance-auto-parts-inventory-api-openapi.yml
   format: yaml
-  label: Advance Auto Parts Commerce API
-  slug: advance-auto-parts-commerce-api
+  label: Advance Auto Parts Inventory API
+  slug: advance-auto-parts-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/openapi/advance-auto-parts-commerce-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/openapi/advance-auto-parts-inventory-api-openapi.yml
+- filename: advance-auto-parts-loyalty-api-openapi.yml
+  format: yaml
+  label: Advance Auto Parts Loyalty API
+  slug: advance-auto-parts-loyalty-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/openapi/advance-auto-parts-loyalty-api-openapi.yml
+- filename: advance-auto-parts-orders-api-openapi.yml
+  format: yaml
+  label: Advance Auto Parts Orders API
+  slug: advance-auto-parts-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/openapi/advance-auto-parts-orders-api-openapi.yml
+- filename: advance-auto-parts-products-api-openapi.yml
+  format: yaml
+  label: Advance Auto Parts Products API
+  slug: advance-auto-parts-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/openapi/advance-auto-parts-products-api-openapi.yml
+- filename: advance-auto-parts-stores-api-openapi.yml
+  format: yaml
+  label: Advance Auto Parts Stores API
+  slug: advance-auto-parts-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/openapi/advance-auto-parts-stores-api-openapi.yml
+- filename: advance-auto-parts-vehicles-api-openapi.yml
+  format: yaml
+  label: Advance Auto Parts Vehicles API
+  slug: advance-auto-parts-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/openapi/advance-auto-parts-vehicles-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

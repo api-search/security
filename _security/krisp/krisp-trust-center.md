@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: krisp-developers-openapi.yml
+- filename: krisp-sdk-distribution-api-openapi.yml
+  format: yaml
+  label: Krisp SDK Distribution API
+  slug: krisp-sdk-distribution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/krisp/refs/heads/main/openapi/krisp-sdk-distribution-api-openapi.yml
+- filename: krisp-voice-translation-api-openapi.yml
   format: yaml
   label: Krisp Voice Translation API
-  slug: voice-translation
+  slug: krisp-voice-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krisp/refs/heads/main/openapi/krisp-developers-openapi.yml
-- filename: krisp-developers-openapi.yml
-  format: yaml
-  label: Krisp SDK & Model Downloads API
-  slug: sdk-management
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krisp/refs/heads/main/openapi/krisp-developers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/krisp/refs/heads/main/openapi/krisp-voice-translation-api-openapi.yml
 certifications:
 - SOC 2
 - PCI DSS

@@ -1,30 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: microsoft-planner-openapi.yml
+- filename: microsoft-planner-buckets-api-openapi.yml
   format: yaml
-  label: Microsoft Planner API
-  slug: microsoft-planner-api
+  label: Microsoft Planner Buckets API
+  slug: microsoft-planner-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-openapi.yml
-- filename: microsoft-planner-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-buckets-api-openapi.yml
+- filename: microsoft-planner-plan-details-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Plans API
-  slug: microsoft-graph-plans-api
+  label: Microsoft Planner Plan Details API
+  slug: microsoft-planner-plan-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-openapi.yml
-- filename: microsoft-planner-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-plan-details-api-openapi.yml
+- filename: microsoft-planner-plans-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Tasks API
-  slug: microsoft-graph-tasks-api
+  label: Microsoft Planner Plans API
+  slug: microsoft-planner-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-openapi.yml
-- filename: microsoft-planner-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-plans-api-openapi.yml
+- filename: microsoft-planner-task-details-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Buckets API
-  slug: microsoft-graph-buckets-api
+  label: Microsoft Planner Task Details API
+  slug: microsoft-planner-task-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-task-details-api-openapi.yml
+- filename: microsoft-planner-tasks-api-openapi.yml
+  format: yaml
+  label: Microsoft Planner Tasks API
+  slug: microsoft-planner-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-tasks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

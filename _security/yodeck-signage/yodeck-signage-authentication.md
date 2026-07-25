@@ -2,48 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: yodeck-signage-openapi.yml
-  format: yaml
-  label: Yodeck Media API
-  slug: yodeck-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-openapi.yml
-- filename: yodeck-signage-openapi.yml
-  format: yaml
-  label: Yodeck Playlists API
-  slug: yodeck-playlists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-openapi.yml
-- filename: yodeck-signage-openapi.yml
+- filename: yodeck-signage-layouts-api-openapi.yml
   format: yaml
   label: Yodeck Layouts API
-  slug: yodeck-layouts-api
+  slug: yodeck-signage-layouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-openapi.yml
-- filename: yodeck-signage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-layouts-api-openapi.yml
+- filename: yodeck-signage-media-api-openapi.yml
   format: yaml
-  label: Yodeck Screens API
-  slug: yodeck-screens-api
+  label: Yodeck Media API
+  slug: yodeck-signage-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-openapi.yml
-- filename: yodeck-signage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-media-api-openapi.yml
+- filename: yodeck-signage-playlists-api-openapi.yml
+  format: yaml
+  label: Yodeck Playlists API
+  slug: yodeck-signage-playlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-playlists-api-openapi.yml
+- filename: yodeck-signage-schedules-api-openapi.yml
   format: yaml
   label: Yodeck Schedules API
-  slug: yodeck-schedules-api
+  slug: yodeck-signage-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-openapi.yml
-- filename: yodeck-signage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-schedules-api-openapi.yml
+- filename: yodeck-signage-screens-api-openapi.yml
+  format: yaml
+  label: Yodeck Screens API
+  slug: yodeck-signage-screens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-screens-api-openapi.yml
+- filename: yodeck-signage-shows-api-openapi.yml
   format: yaml
   label: Yodeck Shows API
-  slug: yodeck-shows-api
+  slug: yodeck-signage-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-openapi.yml
-- filename: yodeck-signage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-shows-api-openapi.yml
+- filename: yodeck-signage-workspaces-api-openapi.yml
   format: yaml
   label: Yodeck Workspaces API
-  slug: yodeck-workspaces-api
+  slug: yodeck-signage-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-workspaces-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

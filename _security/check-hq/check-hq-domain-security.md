@@ -61,7 +61,7 @@ tags:
 - Fintech
 - Compensation
 - Benefits
-- 1099
+- '1099'
 - W-2
 - Contractor Payments
 - Embedded Finance

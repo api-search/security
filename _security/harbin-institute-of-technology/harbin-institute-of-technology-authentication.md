@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: harbin-institute-of-technology-pure.yaml
+- filename: harbin-institute-of-technology-person-api-openapi.yml
   format: yaml
-  label: HIT Research Portal OAI-PMH
-  slug: pure-oai-pmh
+  label: Harbin Institute of Technology person API
+  slug: harbin-institute-of-technology-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbin-institute-of-technology/refs/heads/main/openapi/harbin-institute-of-technology-pure.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/harbin-institute-of-technology/refs/heads/main/openapi/harbin-institute-of-technology-person-api-openapi.yml
+- filename: harbin-institute-of-technology-researchoutput-api-openapi.yml
+  format: yaml
+  label: Harbin Institute of Technology researchOutput API
+  slug: harbin-institute-of-technology-researchoutput-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harbin-institute-of-technology/refs/heads/main/openapi/harbin-institute-of-technology-researchoutput-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

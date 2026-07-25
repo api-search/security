@@ -1,11 +1,119 @@
 ---
 api_specs:
-- filename: appzen-autonomous-ap-openapi-original.yml
+- filename: appzen-chart-of-accounts-api-openapi.yml
   format: yaml
-  label: Autonomous AP API
-  slug: autonomous-ap-api
+  label: AppZen Chart of Accounts API
+  slug: appzen-chart-of-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/openapi/appzen-autonomous-ap-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/openapi/appzen-chart-of-accounts-api-openapi.yml
+- filename: appzen-custom-data-sets-api-openapi.yml
+  format: yaml
+  label: AppZen Custom Data Sets API
+  slug: appzen-custom-data-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/openapi/appzen-custom-data-sets-api-openapi.yml
+- filename: appzen-documents-api-openapi.yml
+  format: yaml
+  label: AppZen Documents API
+  slug: appzen-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/openapi/appzen-documents-api-openapi.yml
+- filename: appzen-entities-api-openapi.yml
+  format: yaml
+  label: AppZen Entities API
+  slug: appzen-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/openapi/appzen-entities-api-openapi.yml
+- filename: appzen-externally-processed-invoices-api-openapi.yml
+  format: yaml
+  label: AppZen Externally Processed Invoices API
+  slug: appzen-externally-processed-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/openapi/appzen-externally-processed-invoices-api-openapi.yml
+- filename: appzen-goods-receipt-api-openapi.yml
+  format: yaml
+  label: AppZen Goods Receipt API
+  slug: appzen-goods-receipt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/openapi/appzen-goods-receipt-api-openapi.yml
+- filename: appzen-invoice-audit-results-api-openapi.yml
+  format: yaml
+  label: AppZen Invoice Audit Results API
+  slug: appzen-invoice-audit-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/openapi/appzen-invoice-audit-results-api-openapi.yml
+- filename: appzen-invoice-status-sync-api-openapi.yml
+  format: yaml
+  label: AppZen Invoice Status Sync API
+  slug: appzen-invoice-status-sync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/openapi/appzen-invoice-status-sync-api-openapi.yml
+- filename: appzen-invoices-api-openapi.yml
+  format: yaml
+  label: AppZen Invoices API
+  slug: appzen-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/openapi/appzen-invoices-api-openapi.yml
+- filename: appzen-lookup-item-api-openapi.yml
+  format: yaml
+  label: AppZen Lookup Item API
+  slug: appzen-lookup-item-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/openapi/appzen-lookup-item-api-openapi.yml
+- filename: appzen-lookup-table-api-openapi.yml
+  format: yaml
+  label: AppZen Lookup Table API
+  slug: appzen-lookup-table-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/openapi/appzen-lookup-table-api-openapi.yml
+- filename: appzen-payment-terms-api-openapi.yml
+  format: yaml
+  label: AppZen Payment Terms API
+  slug: appzen-payment-terms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/openapi/appzen-payment-terms-api-openapi.yml
+- filename: appzen-processed-invoices-api-openapi.yml
+  format: yaml
+  label: AppZen Processed Invoices API
+  slug: appzen-processed-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/openapi/appzen-processed-invoices-api-openapi.yml
+- filename: appzen-purchase-orders-api-openapi.yml
+  format: yaml
+  label: AppZen Purchase Orders API
+  slug: appzen-purchase-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/openapi/appzen-purchase-orders-api-openapi.yml
+- filename: appzen-suppliers-api-openapi.yml
+  format: yaml
+  label: AppZen Suppliers API
+  slug: appzen-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/openapi/appzen-suppliers-api-openapi.yml
+- filename: appzen-tax-master-api-openapi.yml
+  format: yaml
+  label: AppZen Tax Master API
+  slug: appzen-tax-master-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/openapi/appzen-tax-master-api-openapi.yml
+- filename: appzen-unit-of-measures-api-openapi.yml
+  format: yaml
+  label: AppZen Unit of Measures API
+  slug: appzen-unit-of-measures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/openapi/appzen-unit-of-measures-api-openapi.yml
+- filename: appzen-user-groups-api-openapi.yml
+  format: yaml
+  label: AppZen User Groups API
+  slug: appzen-user-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/openapi/appzen-user-groups-api-openapi.yml
+- filename: appzen-vat-api-openapi.yml
+  format: yaml
+  label: AppZen Vat API
+  slug: appzen-vat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/openapi/appzen-vat-api-openapi.yml
 description: ''
 domains:
 - caa:

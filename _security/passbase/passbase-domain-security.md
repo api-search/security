@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: passbase-verification-openapi.yml
+- filename: passbase-identity-api-openapi.yml
   format: yaml
-  label: Passbase Verifications API
-  slug: passbase-verifications-api
+  label: Passbase Identity API
+  slug: passbase-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passbase/refs/heads/main/openapi/passbase-verification-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/passbase/refs/heads/main/openapi/passbase-identity-api-openapi.yml
+- filename: passbase-project-api-openapi.yml
+  format: yaml
+  label: Passbase Project API
+  slug: passbase-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/passbase/refs/heads/main/openapi/passbase-project-api-openapi.yml
 description: ''
 domains:
 - caa: []

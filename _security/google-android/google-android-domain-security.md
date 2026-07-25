@@ -1,35 +1,53 @@
 ---
 api_specs:
-- filename: rest
+- filename: google-android-android-management-api-api-openapi.yml
   format: yaml
-  label: Android Management API
-  slug: android-management-api
+  label: Google Android Android Management API API
+  slug: google-android-android-management-api-api
   spec_type: OpenAPI
-  url: https://androidmanagement.googleapis.com/$discovery/rest?version=v1
-- filename: rest
+  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-android-management-api-api-openapi.yml
+- filename: google-android-device-api-openapi.yml
   format: yaml
-  label: Google Play Developer API
-  slug: google-play-developer-api
+  label: Google Android Device API
+  slug: google-android-device-api
   spec_type: OpenAPI
-  url: https://androidpublisher.googleapis.com/$discovery/rest?version=v3
-- filename: rest
+  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-device-api-openapi.yml
+- filename: google-android-devices-api-openapi.yml
   format: yaml
-  label: Firebase Cloud Messaging API
-  slug: firebase-cloud-messaging-api
+  label: Google Android Devices API
+  slug: google-android-devices-api
   spec_type: OpenAPI
-  url: https://fcm.googleapis.com/$discovery/rest?version=v1
-- filename: rest
+  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-devices-api-openapi.yml
+- filename: google-android-enrollmenttokens-api-openapi.yml
   format: yaml
-  label: Google Play Games Services API
-  slug: google-play-games-services-api
+  label: Google Android EnrollmentTokens API
+  slug: google-android-enrollmenttokens-api
   spec_type: OpenAPI
-  url: https://www.googleapis.com/discovery/v1/apis/games/v1/rest
-- filename: rest
+  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-enrollmenttokens-api-openapi.yml
+- filename: google-android-enterprises-api-openapi.yml
   format: yaml
-  label: Android Over the Air API
-  slug: android-over-the-air-api
+  label: Google Android Enterprises API
+  slug: google-android-enterprises-api
   spec_type: OpenAPI
-  url: https://androidovertheair.googleapis.com/$discovery/rest?version=v1
+  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-enterprises-api-openapi.yml
+- filename: google-android-policies-api-openapi.yml
+  format: yaml
+  label: Google Android Policies API
+  slug: google-android-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-policies-api-openapi.yml
+- filename: google-android-policy-api-openapi.yml
+  format: yaml
+  label: Google Android Policy API
+  slug: google-android-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-policy-api-openapi.yml
+- filename: google-android-webapps-api-openapi.yml
+  format: yaml
+  label: Google Android WebApps API
+  slug: google-android-webapps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-webapps-api-openapi.yml
 description: ''
 domains:
 - caa:

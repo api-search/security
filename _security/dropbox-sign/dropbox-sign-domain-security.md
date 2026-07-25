@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: openapi.yaml
-  format: yaml
-  label: Dropbox Sign REST API
-  slug: rest-api
-  spec_type: OpenAPI
-  url: https://github.com/hellosign/hellosign-openapi/blob/main/openapi.yaml
 - filename: dropbox-sign-events-asyncapi.yml
   format: yaml
   label: Dropbox Sign Events and Callbacks API
   slug: events-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/dropbox-sign/refs/heads/main/asyncapi/dropbox-sign-events-asyncapi.yml
+- filename: dropbox-sign-account-api-openapi.yml
+  format: yaml
+  label: Dropbox Sign Account API
+  slug: dropbox-sign-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dropbox-sign/refs/heads/main/openapi/dropbox-sign-account-api-openapi.yml
+- filename: dropbox-sign-api-app-api-openapi.yml
+  format: yaml
+  label: Dropbox Sign API App API
+  slug: dropbox-sign-api-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dropbox-sign/refs/heads/main/openapi/dropbox-sign-api-app-api-openapi.yml
+- filename: dropbox-sign-bulk-send-job-api-openapi.yml
+  format: yaml
+  label: Dropbox Sign Bulk Send Job API
+  slug: dropbox-sign-bulk-send-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dropbox-sign/refs/heads/main/openapi/dropbox-sign-bulk-send-job-api-openapi.yml
+- filename: dropbox-sign-embedded-api-openapi.yml
+  format: yaml
+  label: Dropbox Sign Embedded API
+  slug: dropbox-sign-embedded-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dropbox-sign/refs/heads/main/openapi/dropbox-sign-embedded-api-openapi.yml
+- filename: dropbox-sign-fax-api-openapi.yml
+  format: yaml
+  label: Dropbox Sign Fax API
+  slug: dropbox-sign-fax-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dropbox-sign/refs/heads/main/openapi/dropbox-sign-fax-api-openapi.yml
 description: ''
 domains:
 - caa:

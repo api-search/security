@@ -1,53 +1,53 @@
 ---
 api_specs:
-- filename: personal-demographics-service-api
+- filename: nhs-api-codesystem-api-openapi.yml
   format: yaml
-  label: Personal Demographics Service - FHIR API
-  slug: personal-demographics-service-fhir-api
+  label: NHS API CodeSystem API
+  slug: nhs-api-codesystem-api
   spec_type: OpenAPI
-  url: https://github.com/NHSDigital/personal-demographics-service-api
-- filename: gp-connect-access-record-fhir-api
+  url: https://raw.githubusercontent.com/api-evangelist/nhs-api/refs/heads/main/openapi/nhs-api-codesystem-api-openapi.yml
+- filename: nhs-api-list-id-api-openapi.yml
   format: yaml
-  label: GP Connect Access Record Structured - FHIR API
-  slug: gp-connect-access-record-structured-fhir-api
+  label: NHS API List{id} API
+  slug: nhs-api-list-id-api
   spec_type: OpenAPI
-  url: https://github.com/NHSDigital/gp-connect-access-record-fhir-api
-- filename: gp-connect-appointments-management-fhir
+  url: https://raw.githubusercontent.com/api-evangelist/nhs-api/refs/heads/main/openapi/nhs-api-list-id-api-openapi.yml
+- filename: nhs-api-metadata-api-openapi.yml
   format: yaml
-  label: GP Connect Appointment Management - FHIR API
-  slug: gp-connect-appointment-management-fhir-api
+  label: NHS API Metadata API
+  slug: nhs-api-metadata-api
   spec_type: OpenAPI
-  url: https://github.com/NHSDigital/gp-connect-appointments-management-fhir
-- filename: electronic-prescription-service-api
+  url: https://raw.githubusercontent.com/api-evangelist/nhs-api/refs/heads/main/openapi/nhs-api-metadata-api-openapi.yml
+- filename: nhs-api-organization-api-openapi.yml
   format: yaml
-  label: Electronic Prescription Service - FHIR API
-  slug: electronic-prescription-service-fhir-api
+  label: NHS API Organization API
+  slug: nhs-api-organization-api
   spec_type: OpenAPI
-  url: https://github.com/NHSDigital/electronic-prescription-service-api
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/nhs-api/refs/heads/main/openapi/nhs-api-organization-api-openapi.yml
+- filename: nhs-api-organizationaffiliation-api-openapi.yml
   format: yaml
-  label: NHS Login API
-  slug: nhs-login-api
+  label: NHS API OrganizationAffiliation API
+  slug: nhs-api-organizationaffiliation-api
   spec_type: OpenAPI
-  url: https://nhsconnect.github.io/nhslogin/scopes-and-claims/
-- filename: organisation-data-service-fhir-api
+  url: https://raw.githubusercontent.com/api-evangelist/nhs-api/refs/heads/main/openapi/nhs-api-organizationaffiliation-api-openapi.yml
+- filename: nhs-api-r4-api-openapi.yml
   format: yaml
-  label: Organisation Data Service - FHIR API
-  slug: organisation-data-service-fhir-api
+  label: NHS API R4 API
+  slug: nhs-api-r4-api
   spec_type: OpenAPI
-  url: https://github.com/NHSDigital/organisation-data-service-fhir-api
-- filename: spine-directory-service-api
+  url: https://raw.githubusercontent.com/api-evangelist/nhs-api/refs/heads/main/openapi/nhs-api-r4-api-openapi.yml
+- filename: nhs-api-stu3-api-openapi.yml
   format: yaml
-  label: Spine Directory Service - FHIR API
-  slug: spine-directory-service-fhir-api
+  label: NHS API STU3 API
+  slug: nhs-api-stu3-api
   spec_type: OpenAPI
-  url: https://github.com/NHSDigital/spine-directory-service-api
-- filename: e-referrals-service-api
+  url: https://raw.githubusercontent.com/api-evangelist/nhs-api/refs/heads/main/openapi/nhs-api-stu3-api-openapi.yml
+- filename: nhs-api-valueset-api-openapi.yml
   format: yaml
-  label: NHS e-Referral Service - FHIR API
-  slug: nhs-e-referral-service-fhir-api
+  label: NHS API ValueSet API
+  slug: nhs-api-valueset-api
   spec_type: OpenAPI
-  url: https://github.com/NHSDigital/e-referrals-service-api
+  url: https://raw.githubusercontent.com/api-evangelist/nhs-api/refs/heads/main/openapi/nhs-api-valueset-api-openapi.yml
 description: ''
 domains:
 - caa: []

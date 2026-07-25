@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: tms-onconnect-openapi.yml
+- filename: tribune-media-celebrities-api-openapi.yml
   format: yaml
-  label: TMS OnConnect API
-  slug: tms-onconnect
+  label: Tribune Media Celebrities API
+  slug: tribune-media-celebrities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/openapi/tms-onconnect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/openapi/tribune-media-celebrities-api-openapi.yml
+- filename: tribune-media-lineups-api-openapi.yml
+  format: yaml
+  label: Tribune Media Lineups API
+  slug: tribune-media-lineups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/openapi/tribune-media-lineups-api-openapi.yml
+- filename: tribune-media-movies-api-openapi.yml
+  format: yaml
+  label: Tribune Media Movies API
+  slug: tribune-media-movies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/openapi/tribune-media-movies-api-openapi.yml
+- filename: tribune-media-online-video-api-openapi.yml
+  format: yaml
+  label: Tribune Media Online Video API
+  slug: tribune-media-online-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/openapi/tribune-media-online-video-api-openapi.yml
+- filename: tribune-media-programs-api-openapi.yml
+  format: yaml
+  label: Tribune Media Programs API
+  slug: tribune-media-programs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/openapi/tribune-media-programs-api-openapi.yml
+- filename: tribune-media-series-api-openapi.yml
+  format: yaml
+  label: Tribune Media Series API
+  slug: tribune-media-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/openapi/tribune-media-series-api-openapi.yml
+- filename: tribune-media-social-api-openapi.yml
+  format: yaml
+  label: Tribune Media Social API
+  slug: tribune-media-social-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/openapi/tribune-media-social-api-openapi.yml
+- filename: tribune-media-sports-api-openapi.yml
+  format: yaml
+  label: Tribune Media Sports API
+  slug: tribune-media-sports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/openapi/tribune-media-sports-api-openapi.yml
+- filename: tribune-media-stations-api-openapi.yml
+  format: yaml
+  label: Tribune Media Stations API
+  slug: tribune-media-stations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/openapi/tribune-media-stations-api-openapi.yml
+- filename: tribune-media-theatres-api-openapi.yml
+  format: yaml
+  label: Tribune Media Theatres API
+  slug: tribune-media-theatres-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/openapi/tribune-media-theatres-api-openapi.yml
 description: ''
 domains:
 - caa: []

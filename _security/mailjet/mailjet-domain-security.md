@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: mailjet-email-api-openapi.yml
+- filename: mailjet-campaigns-api-openapi.yml
   format: yaml
-  label: Mailjet Email API
-  slug: mailjet-email-api
+  label: Mailjet Campaigns API
+  slug: mailjet-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailjet/refs/heads/main/openapi/mailjet-email-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mailjet/refs/heads/main/openapi/mailjet-campaigns-api-openapi.yml
+- filename: mailjet-contact-lists-api-openapi.yml
+  format: yaml
+  label: Mailjet Contact Lists API
+  slug: mailjet-contact-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailjet/refs/heads/main/openapi/mailjet-contact-lists-api-openapi.yml
+- filename: mailjet-contacts-api-openapi.yml
+  format: yaml
+  label: Mailjet Contacts API
+  slug: mailjet-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailjet/refs/heads/main/openapi/mailjet-contacts-api-openapi.yml
+- filename: mailjet-event-api-openapi.yml
+  format: yaml
+  label: Mailjet Event API
+  slug: mailjet-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailjet/refs/heads/main/openapi/mailjet-event-api-openapi.yml
+- filename: mailjet-send-api-openapi.yml
+  format: yaml
+  label: Mailjet Send API
+  slug: mailjet-send-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailjet/refs/heads/main/openapi/mailjet-send-api-openapi.yml
+- filename: mailjet-senders-api-openapi.yml
+  format: yaml
+  label: Mailjet Senders API
+  slug: mailjet-senders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailjet/refs/heads/main/openapi/mailjet-senders-api-openapi.yml
+- filename: mailjet-statistics-api-openapi.yml
+  format: yaml
+  label: Mailjet Statistics API
+  slug: mailjet-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailjet/refs/heads/main/openapi/mailjet-statistics-api-openapi.yml
+- filename: mailjet-templates-api-openapi.yml
+  format: yaml
+  label: Mailjet Templates API
+  slug: mailjet-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailjet/refs/heads/main/openapi/mailjet-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []

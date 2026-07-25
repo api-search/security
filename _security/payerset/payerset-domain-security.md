@@ -1,29 +1,35 @@
 ---
 api_specs:
-- filename: payerset-openapi.yml
+- filename: payerset-billing-codes-api-openapi.yml
   format: yaml
-  label: Payerset Negotiated Rates
-  slug: negotiated-rates
+  label: Payerset Billing Codes API
+  slug: payerset-billing-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/openapi/payerset-openapi.yml
-- filename: payerset-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/openapi/payerset-billing-codes-api-openapi.yml
+- filename: payerset-hospital-mrf-api-openapi.yml
   format: yaml
-  label: Payerset Rate Search
-  slug: rate-search
+  label: Payerset Hospital MRF API
+  slug: payerset-hospital-mrf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/openapi/payerset-openapi.yml
-- filename: payerset-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/openapi/payerset-hospital-mrf-api-openapi.yml
+- filename: payerset-payers-api-openapi.yml
   format: yaml
-  label: Payerset Datasets
-  slug: datasets
+  label: Payerset Payers API
+  slug: payerset-payers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/openapi/payerset-openapi.yml
-- filename: payerset-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/openapi/payerset-payers-api-openapi.yml
+- filename: payerset-providers-api-openapi.yml
   format: yaml
-  label: Payerset Benchmarks
-  slug: benchmarks
+  label: Payerset Providers API
+  slug: payerset-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/openapi/payerset-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/openapi/payerset-providers-api-openapi.yml
+- filename: payerset-rates-api-openapi.yml
+  format: yaml
+  label: Payerset Rates API
+  slug: payerset-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/openapi/payerset-rates-api-openapi.yml
 description: ''
 domains:
 - caa: []

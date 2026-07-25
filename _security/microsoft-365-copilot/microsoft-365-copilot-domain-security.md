@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: openapi
+- filename: microsoft-365-copilot-connectors-api-openapi.yml
   format: yaml
-  label: Microsoft Graph API
-  slug: microsoft-graph-api
+  label: Microsoft 365 Copilot Connectors API
+  slug: microsoft-365-copilot-connectors-api
   spec_type: OpenAPI
-  url: https://developer.microsoft.com/en-us/graph/docs/concepts/openapi
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/openapi/microsoft-365-copilot-connectors-api-openapi.yml
+- filename: microsoft-365-copilot-external-items-api-openapi.yml
+  format: yaml
+  label: Microsoft 365 Copilot External Items API
+  slug: microsoft-365-copilot-external-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/openapi/microsoft-365-copilot-external-items-api-openapi.yml
+- filename: microsoft-365-copilot-search-api-openapi.yml
+  format: yaml
+  label: Microsoft 365 Copilot Search API
+  slug: microsoft-365-copilot-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/openapi/microsoft-365-copilot-search-api-openapi.yml
+- filename: microsoft-365-copilot-user-content-api-openapi.yml
+  format: yaml
+  label: Microsoft 365 Copilot User Content API
+  slug: microsoft-365-copilot-user-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/openapi/microsoft-365-copilot-user-content-api-openapi.yml
 description: ''
 domains:
 - caa:

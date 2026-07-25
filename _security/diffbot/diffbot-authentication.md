@@ -1,6 +1,49 @@
 ---
 api_key_in:
 - query
+api_specs:
+- filename: diffbot-natural-language-api-openapi.yml
+  format: yaml
+  label: Diffbot Natural Language API
+  slug: diffbot-natural-language-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-natural-language-api-openapi.yml
+- filename: diffbot-extract-api-openapi.yml
+  format: yaml
+  label: Diffbot Extract API
+  slug: diffbot-extract-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-extract-api-openapi.yml
+- filename: diffbot-crawl-api-openapi.yml
+  format: yaml
+  label: Diffbot Crawl API
+  slug: diffbot-crawl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-crawl-api-openapi.yml
+- filename: diffbot-crawl-api-openapi.yml
+  format: yaml
+  label: Diffbot Crawl API
+  slug: diffbot-crawl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-crawl-api-openapi.yml
+- filename: diffbot-extract-api-openapi.yml
+  format: yaml
+  label: Diffbot Extract API
+  slug: diffbot-extract-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-extract-api-openapi.yml
+- filename: diffbot-knowledge-graph-api-openapi.yml
+  format: yaml
+  label: Diffbot Knowledge Graph API
+  slug: diffbot-knowledge-graph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-knowledge-graph-api-openapi.yml
+- filename: diffbot-natural-language-api-openapi.yml
+  format: yaml
+  label: Diffbot Natural Language API
+  slug: diffbot-natural-language-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-natural-language-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

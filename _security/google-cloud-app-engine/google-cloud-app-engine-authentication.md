@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: appengine-openapi.yml
+- filename: google-cloud-app-engine-applications-api-openapi.yml
   format: yaml
-  label: Google Cloud App Engine Admin API
-  slug: google-cloud-app-engine-admin-api
+  label: Google Cloud App Engine Applications API
+  slug: google-cloud-app-engine-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-app-engine/refs/heads/main/openapi/appengine-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-app-engine/refs/heads/main/openapi/google-cloud-app-engine-applications-api-openapi.yml
+- filename: google-cloud-app-engine-apps-api-openapi.yml
+  format: yaml
+  label: Google Cloud App Engine Apps API
+  slug: google-cloud-app-engine-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-app-engine/refs/heads/main/openapi/google-cloud-app-engine-apps-api-openapi.yml
+- filename: google-cloud-app-engine-instances-api-openapi.yml
+  format: yaml
+  label: Google Cloud App Engine Instances API
+  slug: google-cloud-app-engine-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-app-engine/refs/heads/main/openapi/google-cloud-app-engine-instances-api-openapi.yml
+- filename: google-cloud-app-engine-versions-api-openapi.yml
+  format: yaml
+  label: Google Cloud App Engine Versions API
+  slug: google-cloud-app-engine-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-app-engine/refs/heads/main/openapi/google-cloud-app-engine-versions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

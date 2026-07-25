@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: elead-crm-openapi.yml
+- filename: elead-crm-activities-api-openapi.yml
   format: yaml
-  label: Elead Sales Opportunities API
-  slug: elead-crm-sales-opportunities-api
+  label: Elead Activities API
+  slug: elead-crm-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elead-crm/refs/heads/main/openapi/elead-crm-openapi.yml
-- filename: elead-crm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elead-crm/refs/heads/main/openapi/elead-crm-activities-api-openapi.yml
+- filename: elead-crm-customers-api-openapi.yml
   format: yaml
-  label: Elead Sales Customers API
-  slug: elead-crm-sales-customers-api
+  label: Elead Customers API
+  slug: elead-crm-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elead-crm/refs/heads/main/openapi/elead-crm-openapi.yml
-- filename: elead-crm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elead-crm/refs/heads/main/openapi/elead-crm-customers-api-openapi.yml
+- filename: elead-crm-opportunities-api-openapi.yml
   format: yaml
-  label: Elead Sales Activities API
-  slug: elead-crm-sales-activities-api
+  label: Elead Opportunities API
+  slug: elead-crm-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elead-crm/refs/heads/main/openapi/elead-crm-openapi.yml
-- filename: elead-crm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elead-crm/refs/heads/main/openapi/elead-crm-opportunities-api-openapi.yml
+- filename: elead-crm-reference-data-api-openapi.yml
   format: yaml
-  label: Elead Product Reference Data API
-  slug: elead-crm-product-reference-data-api
+  label: Elead Reference Data API
+  slug: elead-crm-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elead-crm/refs/heads/main/openapi/elead-crm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elead-crm/refs/heads/main/openapi/elead-crm-reference-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

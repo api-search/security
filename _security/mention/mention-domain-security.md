@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: mention-openapi.yml
+- filename: mention-accounts-api-openapi.yml
   format: yaml
-  label: Mention API
-  slug: mention-api
+  label: Mention Accounts API
+  slug: mention-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-accounts-api-openapi.yml
+- filename: mention-alerts-api-openapi.yml
+  format: yaml
+  label: Mention Alerts API
+  slug: mention-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-alerts-api-openapi.yml
+- filename: mention-authors-api-openapi.yml
+  format: yaml
+  label: Mention Authors API
+  slug: mention-authors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-authors-api-openapi.yml
+- filename: mention-mentions-api-openapi.yml
+  format: yaml
+  label: Mention Mentions API
+  slug: mention-mentions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-mentions-api-openapi.yml
+- filename: mention-shares-api-openapi.yml
+  format: yaml
+  label: Mention Shares API
+  slug: mention-shares-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-shares-api-openapi.yml
+- filename: mention-stats-api-openapi.yml
+  format: yaml
+  label: Mention Stats API
+  slug: mention-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-stats-api-openapi.yml
+- filename: mention-tags-api-openapi.yml
+  format: yaml
+  label: Mention Tags API
+  slug: mention-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-tags-api-openapi.yml
+- filename: mention-tasks-api-openapi.yml
+  format: yaml
+  label: Mention Tasks API
+  slug: mention-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []

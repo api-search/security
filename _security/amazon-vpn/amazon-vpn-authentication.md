@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-vpn-openapi.yml
+- filename: amazon-vpn-aws-vpn-api-amazon-ec2-query-api-subset-api-openapi.yml
   format: yaml
-  label: AWS VPN API
-  slug: aws-vpn-api
+  label: Amazon VPN AWS VPN API (Amazon EC2 Query API Subset) API
+  slug: amazon-vpn-aws-vpn-api-amazon-ec2-query-api-subset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/openapi/amazon-vpn-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/openapi/amazon-vpn-aws-vpn-api-amazon-ec2-query-api-subset-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

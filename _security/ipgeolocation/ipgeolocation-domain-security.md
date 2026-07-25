@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: ipgeolocation-ip-location-openapi.yml
+- filename: ipgeolocation-asn-lookup-api-openapi.yml
   format: yaml
-  label: IP Geolocation
-  slug: ip-geolocation
+  label: IPGeolocation.io ASN Lookup API
+  slug: ipgeolocation-asn-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/openapi/ipgeolocation-ip-location-openapi.yml
-- filename: ipgeolocation-security-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/openapi/ipgeolocation-asn-lookup-api-openapi.yml
+- filename: ipgeolocation-astronomy-api-openapi.yml
   format: yaml
-  label: IP Security
-  slug: ip-security
+  label: IPGeolocation.io Astronomy API
+  slug: ipgeolocation-astronomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/openapi/ipgeolocation-security-openapi.yml
-- filename: ipgeolocation-asn-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/openapi/ipgeolocation-astronomy-api-openapi.yml
+- filename: ipgeolocation-ip-abuse-contact-api-openapi.yml
   format: yaml
-  label: ASN Lookup
-  slug: asn-lookup
+  label: IPGeolocation.io IP Abuse Contact API
+  slug: ipgeolocation-ip-abuse-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/openapi/ipgeolocation-asn-openapi.yml
-- filename: ipgeolocation-abuse-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/openapi/ipgeolocation-ip-abuse-contact-api-openapi.yml
+- filename: ipgeolocation-ip-geolocation-api-openapi.yml
   format: yaml
-  label: IP Abuse Contact
-  slug: ip-abuse-contact
+  label: IPGeolocation.io IP Geolocation API
+  slug: ipgeolocation-ip-geolocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/openapi/ipgeolocation-abuse-openapi.yml
-- filename: ipgeolocation-timezone-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/openapi/ipgeolocation-ip-geolocation-api-openapi.yml
+- filename: ipgeolocation-ip-security-api-openapi.yml
   format: yaml
-  label: Timezone
-  slug: timezone
+  label: IPGeolocation.io IP Security API
+  slug: ipgeolocation-ip-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/openapi/ipgeolocation-timezone-openapi.yml
-- filename: ipgeolocation-astronomy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/openapi/ipgeolocation-ip-security-api-openapi.yml
+- filename: ipgeolocation-timezone-api-openapi.yml
   format: yaml
-  label: Astronomy
-  slug: astronomy
+  label: IPGeolocation.io Timezone API
+  slug: ipgeolocation-timezone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/openapi/ipgeolocation-astronomy-openapi.yml
-- filename: ipgeolocation-user-agent-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/openapi/ipgeolocation-timezone-api-openapi.yml
+- filename: ipgeolocation-user-agent-api-openapi.yml
   format: yaml
-  label: User Agent
-  slug: user-agent
+  label: IPGeolocation.io User Agent API
+  slug: ipgeolocation-user-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/openapi/ipgeolocation-user-agent-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/openapi/ipgeolocation-user-agent-api-openapi.yml
 description: ''
 domains:
 - caa:

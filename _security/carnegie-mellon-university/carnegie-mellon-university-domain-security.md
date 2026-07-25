@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: carnegie-mellon-university-kilthub-figshare.yaml
+- filename: carnegie-mellon-university-altmetric-api-openapi.yml
   format: yaml
-  label: KiltHub Repository OAI-PMH (figshare)
-  slug: kilthub-oai-pmh
+  label: Carnegie Mellon University altmetric API
+  slug: carnegie-mellon-university-altmetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-kilthub-figshare.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-altmetric-api-openapi.yml
+- filename: carnegie-mellon-university-articles-api-openapi.yml
+  format: yaml
+  label: Carnegie Mellon University articles API
+  slug: carnegie-mellon-university-articles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-articles-api-openapi.yml
+- filename: carnegie-mellon-university-authors-api-openapi.yml
+  format: yaml
+  label: Carnegie Mellon University authors API
+  slug: carnegie-mellon-university-authors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-authors-api-openapi.yml
+- filename: carnegie-mellon-university-collections-api-openapi.yml
+  format: yaml
+  label: Carnegie Mellon University collections API
+  slug: carnegie-mellon-university-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-collections-api-openapi.yml
+- filename: carnegie-mellon-university-institutions-api-openapi.yml
+  format: yaml
+  label: Carnegie Mellon University institutions API
+  slug: carnegie-mellon-university-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-institutions-api-openapi.yml
+- filename: carnegie-mellon-university-oauth-api-openapi.yml
+  format: yaml
+  label: Carnegie Mellon University oauth API
+  slug: carnegie-mellon-university-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-oauth-api-openapi.yml
+- filename: carnegie-mellon-university-other-api-openapi.yml
+  format: yaml
+  label: Carnegie Mellon University other API
+  slug: carnegie-mellon-university-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-other-api-openapi.yml
+- filename: carnegie-mellon-university-profiles-api-openapi.yml
+  format: yaml
+  label: Carnegie Mellon University profiles API
+  slug: carnegie-mellon-university-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-profiles-api-openapi.yml
+- filename: carnegie-mellon-university-projects-api-openapi.yml
+  format: yaml
+  label: Carnegie Mellon University projects API
+  slug: carnegie-mellon-university-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-projects-api-openapi.yml
+- filename: carnegie-mellon-university-symplectic-api-openapi.yml
+  format: yaml
+  label: Carnegie Mellon University symplectic API
+  slug: carnegie-mellon-university-symplectic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-symplectic-api-openapi.yml
 description: ''
 domains:
 - caa: []

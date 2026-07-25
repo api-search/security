@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: europeana-openapi.yml
+- filename: europeana-record-api-openapi.yml
   format: yaml
-  label: Europeana Search and Record API
-  slug: europeana-search-and-record-api
+  label: Europeana Record API
+  slug: europeana-record-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/europeana/refs/heads/main/openapi/europeana-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/europeana/refs/heads/main/openapi/europeana-record-api-openapi.yml
+- filename: europeana-search-api-openapi.yml
+  format: yaml
+  label: Europeana Search API
+  slug: europeana-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/europeana/refs/heads/main/openapi/europeana-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

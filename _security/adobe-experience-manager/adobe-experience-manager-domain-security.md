@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: adobe-experience-manager-openapi.yml
+- filename: adobe-experience-manager-launches-api-openapi.yml
   format: yaml
-  label: Adobe Experience Manager APIs
-  slug: apis
+  label: Adobe Experience Manager Launches API
+  slug: adobe-experience-manager-launches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-manager/refs/heads/main/openapi/adobe-experience-manager-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-manager/refs/heads/main/openapi/adobe-experience-manager-launches-api-openapi.yml
 description: ''
 domains:
 - caa: []

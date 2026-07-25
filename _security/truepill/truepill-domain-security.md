@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: truepill-openapi.yml
+- filename: truepill-insurance-api-openapi.yml
+  format: yaml
+  label: Truepill Insurance API
+  slug: truepill-insurance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/openapi/truepill-insurance-api-openapi.yml
+- filename: truepill-patients-api-openapi.yml
   format: yaml
   label: Truepill Patients API
   slug: truepill-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/openapi/truepill-openapi.yml
-- filename: truepill-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/openapi/truepill-patients-api-openapi.yml
+- filename: truepill-prescriptions-api-openapi.yml
   format: yaml
-  label: Truepill Prescriptions & Orders API
-  slug: truepill-prescriptions-orders-api
+  label: Truepill Prescriptions API
+  slug: truepill-prescriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/openapi/truepill-openapi.yml
-- filename: truepill-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/openapi/truepill-prescriptions-api-openapi.yml
+- filename: truepill-transfers-api-openapi.yml
   format: yaml
-  label: Truepill Medications & Insurance API
-  slug: truepill-medications-insurance-api
+  label: Truepill Transfers API
+  slug: truepill-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/openapi/truepill-openapi.yml
-- filename: truepill-openapi.yml
-  format: yaml
-  label: Truepill Shipments & Fulfillment API
-  slug: truepill-shipments-fulfillment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/openapi/truepill-openapi.yml
-- filename: truepill-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/openapi/truepill-transfers-api-openapi.yml
+- filename: truepill-webhooks-api-openapi.yml
   format: yaml
   label: Truepill Webhooks API
   slug: truepill-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/openapi/truepill-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/openapi/truepill-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

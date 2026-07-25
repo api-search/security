@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: synfutures-rwa-trading-openapi.yml
+- filename: synfutures-cash-api-openapi.yml
   format: yaml
-  label: SynFutures RWA Trading API
-  slug: synfutures-rwa-trading-api
+  label: SynFutures Cash API
+  slug: synfutures-cash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-rwa-trading-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-cash-api-openapi.yml
+- filename: synfutures-market-data-api-openapi.yml
+  format: yaml
+  label: SynFutures Market Data API
+  slug: synfutures-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-market-data-api-openapi.yml
+- filename: synfutures-one-click-api-openapi.yml
+  format: yaml
+  label: SynFutures One Click API
+  slug: synfutures-one-click-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-one-click-api-openapi.yml
+- filename: synfutures-orders-api-openapi.yml
+  format: yaml
+  label: SynFutures Orders API
+  slug: synfutures-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-orders-api-openapi.yml
+- filename: synfutures-portfolio-api-openapi.yml
+  format: yaml
+  label: SynFutures Portfolio API
+  slug: synfutures-portfolio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-portfolio-api-openapi.yml
+- filename: synfutures-stock-api-openapi.yml
+  format: yaml
+  label: SynFutures Stock API
+  slug: synfutures-stock-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-stock-api-openapi.yml
 auth_types:
 - apiKey
 - hmac

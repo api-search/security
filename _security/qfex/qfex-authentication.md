@@ -2,12 +2,6 @@
 api_key_in:
 - header
 api_specs:
-- filename: qfex-openapi-original.yml
-  format: yaml
-  label: QFEX REST API
-  slug: qfex-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/openapi/qfex-openapi-original.yml
 - filename: qfex-mds-asyncapi.yml
   format: yaml
   label: QFEX Market Data WebSocket (MDS)
@@ -20,6 +14,24 @@ api_specs:
   slug: qfex-trade-websocket
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/asyncapi/qfex-trade-asyncapi.yml
+- filename: qfex-market-data-api-openapi.yml
+  format: yaml
+  label: Qfex market-data API
+  slug: qfex-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/openapi/qfex-market-data-api-openapi.yml
+- filename: qfex-pnl-api-openapi.yml
+  format: yaml
+  label: Qfex pnl API
+  slug: qfex-pnl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/openapi/qfex-pnl-api-openapi.yml
+- filename: qfex-user-api-openapi.yml
+  format: yaml
+  label: Qfex user API
+  slug: qfex-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/openapi/qfex-user-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: hitchpin-django-api-openapi.json
-  format: json
-  label: HitchPin Django API (Instant Invoicing)
-  slug: hitchpin-django-api-instant-invoicing
+- filename: hitchpin-instant-invoice-share-api-openapi.yml
+  format: yaml
+  label: HitchPin instant-invoice-share API
+  slug: hitchpin-instant-invoice-share-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/openapi/hitchpin-django-api-openapi.json
-- filename: hitchpin-receipt-rendering-openapi.json
-  format: json
-  label: HitchPin Receipt Rendering Service
-  slug: hitchpin-receipt-rendering-service
+  url: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/openapi/hitchpin-instant-invoice-share-api-openapi.yml
+- filename: hitchpin-instant-invoices-api-openapi.yml
+  format: yaml
+  label: HitchPin instant-invoices API
+  slug: hitchpin-instant-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/openapi/hitchpin-receipt-rendering-openapi.json
-- filename: hitchpin-url-shortener-openapi.json
-  format: json
-  label: HitchPin URL Shortcode Service
-  slug: hitchpin-url-shortcode-service
+  url: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/openapi/hitchpin-instant-invoices-api-openapi.yml
+- filename: hitchpin-rendering-api-openapi.yml
+  format: yaml
+  label: HitchPin rendering API
+  slug: hitchpin-rendering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/openapi/hitchpin-url-shortener-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/openapi/hitchpin-rendering-api-openapi.yml
 description: ''
 domains:
 - caa: []

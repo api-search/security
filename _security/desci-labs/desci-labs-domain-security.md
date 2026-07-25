@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: desci-labs-dpid-resolver-openapi.json
-  format: json
-  label: dPID Resolver API
-  slug: dpid-resolver-api
+- filename: desci-labs-data-api-openapi.yml
+  format: yaml
+  label: DeSci Labs Data API
+  slug: desci-labs-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/openapi/desci-labs-dpid-resolver-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/openapi/desci-labs-data-api-openapi.yml
+- filename: desci-labs-query-api-openapi.yml
+  format: yaml
+  label: DeSci Labs Query API
+  slug: desci-labs-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/openapi/desci-labs-query-api-openapi.yml
+- filename: desci-labs-resolve-api-openapi.yml
+  format: yaml
+  label: DeSci Labs Resolve API
+  slug: desci-labs-resolve-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/openapi/desci-labs-resolve-api-openapi.yml
 description: ''
 domains:
 - caa: []

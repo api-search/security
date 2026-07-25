@@ -1,29 +1,137 @@
 ---
 api_specs:
-- filename: checkout
+- filename: verifone-3ds-authentication-api-openapi.yml
+  format: yaml
+  label: Verifone 3DS Authentication API
+  slug: verifone-3ds-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/verifone-3ds-authentication-api-openapi.yml
+- filename: verifone-batch-api-openapi.yml
+  format: yaml
+  label: Verifone Batch API
+  slug: verifone-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/verifone-batch-api-openapi.yml
+- filename: verifone-billing-agreement-api-openapi.yml
+  format: yaml
+  label: Verifone Billing Agreement API
+  slug: verifone-billing-agreement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/verifone-billing-agreement-api-openapi.yml
+- filename: verifone-billing-plans-api-openapi.yml
+  format: yaml
+  label: Verifone Billing Plans API
+  slug: verifone-billing-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/verifone-billing-plans-api-openapi.yml
+- filename: verifone-checkout-api-openapi.yml
   format: yaml
   label: Verifone Checkout API
   slug: verifone-checkout-api
   spec_type: OpenAPI
-  url: https://docs.verifone.com/api-reference/open-api-references/checkout
-- filename: ecommerce-api.json
-  format: json
-  label: Verifone eCommerce API
-  slug: verifone-ecommerce-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/ecommerce-api.json
-- filename: customer
+  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/verifone-checkout-api-openapi.yml
+- filename: verifone-customer-api-openapi.yml
   format: yaml
   label: Verifone Customer API
   slug: verifone-customer-api
   spec_type: OpenAPI
-  url: https://docs.verifone.com/api-reference/open-api-references/customer
-- filename: order-service
+  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/verifone-customer-api-openapi.yml
+- filename: verifone-ecom-payments-api-openapi.yml
   format: yaml
-  label: Verifone Order Service API
-  slug: verifone-order-service-api
+  label: Verifone Ecom Payments API
+  slug: verifone-ecom-payments-api
   spec_type: OpenAPI
-  url: https://docs.verifone.com/api-reference/open-api-references/order-service
+  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/verifone-ecom-payments-api-openapi.yml
+- filename: verifone-hardware-orders-api-openapi.yml
+  format: yaml
+  label: Verifone Hardware Orders API
+  slug: verifone-hardware-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/verifone-hardware-orders-api-openapi.yml
+- filename: verifone-lookup-api-openapi.yml
+  format: yaml
+  label: Verifone Lookup API
+  slug: verifone-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/verifone-lookup-api-openapi.yml
+- filename: verifone-merchant-maintenance-api-openapi.yml
+  format: yaml
+  label: Verifone Merchant Maintenance API
+  slug: verifone-merchant-maintenance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/verifone-merchant-maintenance-api-openapi.yml
+- filename: verifone-merchant-orders-api-openapi.yml
+  format: yaml
+  label: Verifone Merchant Orders API
+  slug: verifone-merchant-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/verifone-merchant-orders-api-openapi.yml
+- filename: verifone-payment-modifications-api-openapi.yml
+  format: yaml
+  label: Verifone Payment Modifications API
+  slug: verifone-payment-modifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/verifone-payment-modifications-api-openapi.yml
+- filename: verifone-poi-maintenance-api-openapi.yml
+  format: yaml
+  label: Verifone POI Maintenance API
+  slug: verifone-poi-maintenance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/verifone-poi-maintenance-api-openapi.yml
+- filename: verifone-poi-orders-api-openapi.yml
+  format: yaml
+  label: Verifone POI Orders API
+  slug: verifone-poi-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/verifone-poi-orders-api-openapi.yml
+- filename: verifone-products-api-openapi.yml
+  format: yaml
+  label: Verifone Products API
+  slug: verifone-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/verifone-products-api-openapi.yml
+- filename: verifone-reports-api-openapi.yml
+  format: yaml
+  label: Verifone Reports API
+  slug: verifone-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/verifone-reports-api-openapi.yml
+- filename: verifone-subscriptions-api-openapi.yml
+  format: yaml
+  label: Verifone Subscriptions API
+  slug: verifone-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/verifone-subscriptions-api-openapi.yml
+- filename: verifone-templating-api-openapi.yml
+  format: yaml
+  label: Verifone Templating API
+  slug: verifone-templating-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/verifone-templating-api-openapi.yml
+- filename: verifone-theming-api-openapi.yml
+  format: yaml
+  label: Verifone Theming API
+  slug: verifone-theming-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/verifone-theming-api-openapi.yml
+- filename: verifone-token-management-api-openapi.yml
+  format: yaml
+  label: Verifone Token Management API
+  slug: verifone-token-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/verifone-token-management-api-openapi.yml
+- filename: verifone-transaction-api-openapi.yml
+  format: yaml
+  label: Verifone Transaction API
+  slug: verifone-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/verifone-transaction-api-openapi.yml
+- filename: verifone-transactions-api-openapi.yml
+  format: yaml
+  label: Verifone Transactions API
+  slug: verifone-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/openapi/verifone-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

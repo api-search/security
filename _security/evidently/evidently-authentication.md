@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Evidently Platform REST API
-  slug: evidently-platform-rest-api
+- filename: evidently-dashboards-api-openapi.yml
+  format: yaml
+  label: Evidently AI Dashboards API
+  slug: evidently-dashboards-api
   spec_type: OpenAPI
-  url: https://docs.evidentlyai.com/api-reference/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/openapi/evidently-dashboards-api-openapi.yml
+- filename: evidently-projects-api-openapi.yml
+  format: yaml
+  label: Evidently AI Projects API
+  slug: evidently-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/openapi/evidently-projects-api-openapi.yml
+- filename: evidently-service-api-openapi.yml
+  format: yaml
+  label: Evidently AI Service API
+  slug: evidently-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/openapi/evidently-service-api-openapi.yml
+- filename: evidently-snapshots-api-openapi.yml
+  format: yaml
+  label: Evidently AI Snapshots API
+  slug: evidently-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/openapi/evidently-snapshots-api-openapi.yml
 auth_types:
 - http
 description: ''

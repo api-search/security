@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: turso-platform-api-openapi.yml
+- filename: turso-auth-api-openapi.yml
   format: yaml
-  label: Turso Platform API
-  slug: platform-api
+  label: Turso Auth API
+  slug: turso-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/openapi/turso-platform-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/openapi/turso-auth-api-openapi.yml
+- filename: turso-locations-api-openapi.yml
+  format: yaml
+  label: Turso Locations API
+  slug: turso-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/openapi/turso-locations-api-openapi.yml
+- filename: turso-organizations-api-openapi.yml
+  format: yaml
+  label: Turso Organizations API
+  slug: turso-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/openapi/turso-organizations-api-openapi.yml
+- filename: turso-user-api-openapi.yml
+  format: yaml
+  label: Turso User API
+  slug: turso-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/openapi/turso-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: manifold-oauth2-authentication-api.yml
+- filename: manifold-authorization-code-grant-api-openapi.yml
   format: yaml
-  label: Manifold OAuth2 Authentication API
-  slug: oauth2-authentication-api
+  label: Manifold Authorization Code Grant API
+  slug: manifold-authorization-code-grant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manifold/refs/heads/main/openapi/manifold-oauth2-authentication-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/manifold/refs/heads/main/openapi/manifold-authorization-code-grant-api-openapi.yml
+- filename: manifold-signature-grant-api-openapi.yml
+  format: yaml
+  label: Manifold Signature Grant API
+  slug: manifold-signature-grant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manifold/refs/heads/main/openapi/manifold-signature-grant-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,18 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: tristero-api-openapi.json
-  format: json
-  label: Tristero API
-  slug: tristero-api
+- filename: tristero-assets-api-openapi.yml
+  format: yaml
+  label: Tristero Assets API
+  slug: tristero-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tristero/refs/heads/main/openapi/tristero-api-openapi.json
-- filename: tristero-feather-api-openapi.json
-  format: json
-  label: Feather API
-  slug: feather-api
+  url: https://raw.githubusercontent.com/api-evangelist/tristero/refs/heads/main/openapi/tristero-assets-api-openapi.yml
+- filename: tristero-margin-api-openapi.yml
+  format: yaml
+  label: Tristero Margin API
+  slug: tristero-margin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tristero/refs/heads/main/openapi/tristero-feather-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/tristero/refs/heads/main/openapi/tristero-margin-api-openapi.yml
+- filename: tristero-orders-api-openapi.yml
+  format: yaml
+  label: Tristero Orders API
+  slug: tristero-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tristero/refs/heads/main/openapi/tristero-orders-api-openapi.yml
+- filename: tristero-pricing-api-openapi.yml
+  format: yaml
+  label: Tristero Pricing API
+  slug: tristero-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tristero/refs/heads/main/openapi/tristero-pricing-api-openapi.yml
+- filename: tristero-quotes-api-openapi.yml
+  format: yaml
+  label: Tristero Quotes API
+  slug: tristero-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tristero/refs/heads/main/openapi/tristero-quotes-api-openapi.yml
+- filename: tristero-trading-api-openapi.yml
+  format: yaml
+  label: Tristero Trading API
+  slug: tristero-trading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tristero/refs/heads/main/openapi/tristero-trading-api-openapi.yml
+- filename: tristero-wallets-api-openapi.yml
+  format: yaml
+  label: Tristero Wallets API
+  slug: tristero-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tristero/refs/heads/main/openapi/tristero-wallets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

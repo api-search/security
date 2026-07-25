@@ -1,48 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sauce.json
-  format: json
+- filename: sauce-labs-devices-api-openapi.yml
+  format: yaml
+  label: Sauce Labs Devices API
+  slug: sauce-labs-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/openapi/sauce-labs-devices-api-openapi.yml
+- filename: sauce-labs-job-assets-api-openapi.yml
+  format: yaml
+  label: Sauce Labs Job Assets API
+  slug: sauce-labs-job-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/openapi/sauce-labs-job-assets-api-openapi.yml
+- filename: sauce-labs-jobs-api-openapi.yml
+  format: yaml
   label: Sauce Labs Jobs API
-  slug: jobs
+  slug: sauce-labs-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/saucelabs/sauce-docs/refs/heads/main/static/oas/sauce.json
-- filename: rdc.json
-  format: json
-  label: Sauce Labs Real Device API
-  slug: real-devices
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/saucelabs/sauce-docs/refs/heads/main/static/oas/rdc.json
-- filename: real-device-access-api-spec.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/openapi/sauce-labs-jobs-api-openapi.yml
+- filename: sauce-labs-platform-api-openapi.yml
   format: yaml
-  label: Sauce Labs Real Device Access API
-  slug: real-device-access
+  label: Sauce Labs Platform API
+  slug: sauce-labs-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/saucelabs/sauce-docs/refs/heads/main/static/oas/real-device-access-api-spec.yaml
-- filename: accounts.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/openapi/sauce-labs-platform-api-openapi.yml
+- filename: sauce-labs-sessions-api-openapi.yml
   format: yaml
-  label: Sauce Labs Accounts API
-  slug: accounts
+  label: Sauce Labs Sessions API
+  slug: sauce-labs-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/saucelabs/sauce-docs/refs/heads/main/static/oas/accounts.yml
-- filename: buildsv2.json
-  format: json
-  label: Sauce Labs Builds API
-  slug: builds
+  url: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/openapi/sauce-labs-sessions-api-openapi.yml
+- filename: sauce-labs-users-api-openapi.yml
+  format: yaml
+  label: Sauce Labs Users API
+  slug: sauce-labs-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/saucelabs/sauce-docs/refs/heads/main/static/oas/buildsv2.json
-- filename: test-authoring-api.json
-  format: json
-  label: Sauce Labs Test Authoring API
-  slug: test-authoring
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/saucelabs/sauce-docs/refs/heads/main/static/oas/test-authoring-api.json
-- filename: performance.json
-  format: json
-  label: Sauce Labs Performance API
-  slug: performance
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/saucelabs/sauce-docs/refs/heads/main/static/oas/performance.json
+  url: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/openapi/sauce-labs-users-api-openapi.yml
 auth_types:
 - http
 description: ''

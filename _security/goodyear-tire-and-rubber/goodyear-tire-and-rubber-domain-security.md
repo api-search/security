@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: sightline-api.yml
+- filename: goodyear-tire-and-rubber-catalog-api-openapi.yml
   format: yaml
-  label: Goodyear SightLine API
-  slug: sightline-api
+  label: Goodyear Tire & Rubber Catalog API
+  slug: goodyear-tire-and-rubber-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodyear-tire-and-rubber/refs/heads/main/openapi/sightline-api.yml
-- filename: gaas-portal.yml
+  url: https://raw.githubusercontent.com/api-evangelist/goodyear-tire-and-rubber/refs/heads/main/openapi/goodyear-tire-and-rubber-catalog-api-openapi.yml
+- filename: goodyear-tire-and-rubber-friction-api-openapi.yml
   format: yaml
-  label: Goodyear API Management Portal
-  slug: gaas-portal
+  label: Goodyear Tire & Rubber Friction API
+  slug: goodyear-tire-and-rubber-friction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodyear-tire-and-rubber/refs/heads/main/openapi/gaas-portal.yml
+  url: https://raw.githubusercontent.com/api-evangelist/goodyear-tire-and-rubber/refs/heads/main/openapi/goodyear-tire-and-rubber-friction-api-openapi.yml
+- filename: goodyear-tire-and-rubber-service-tickets-api-openapi.yml
+  format: yaml
+  label: Goodyear Tire & Rubber Service Tickets API
+  slug: goodyear-tire-and-rubber-service-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodyear-tire-and-rubber/refs/heads/main/openapi/goodyear-tire-and-rubber-service-tickets-api-openapi.yml
+- filename: goodyear-tire-and-rubber-tires-api-openapi.yml
+  format: yaml
+  label: Goodyear Tire & Rubber Tires API
+  slug: goodyear-tire-and-rubber-tires-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodyear-tire-and-rubber/refs/heads/main/openapi/goodyear-tire-and-rubber-tires-api-openapi.yml
+- filename: goodyear-tire-and-rubber-work-orders-api-openapi.yml
+  format: yaml
+  label: Goodyear Tire & Rubber Work Orders API
+  slug: goodyear-tire-and-rubber-work-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodyear-tire-and-rubber/refs/heads/main/openapi/goodyear-tire-and-rubber-work-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,24 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: flipside-openapi.yml
+- filename: flipside-json-rpc-api-openapi.yml
   format: yaml
-  label: Query Execution (SQL)
-  slug: query-execution-sql
+  label: Flipside Crypto JSON-RPC API
+  slug: flipside-json-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipside/refs/heads/main/openapi/flipside-openapi.yml
-- filename: flipside-openapi.yml
-  format: yaml
-  label: Query Results
-  slug: query-results
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipside/refs/heads/main/openapi/flipside-openapi.yml
-- filename: flipside-openapi.yml
-  format: yaml
-  label: Datasets
-  slug: datasets
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipside/refs/heads/main/openapi/flipside-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flipside/refs/heads/main/openapi/flipside-json-rpc-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

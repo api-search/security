@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: napkin-openapi.yml
+- filename: napkin-visuals-api-openapi.yml
   format: yaml
-  label: Napkin API
-  slug: napkin-api
+  label: Napkin Visuals API
+  slug: napkin-visuals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/napkin/refs/heads/main/openapi/napkin-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/napkin/refs/heads/main/openapi/napkin-visuals-api-openapi.yml
 auth_types:
 - http
 - oauth2

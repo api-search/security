@@ -1,35 +1,185 @@
 ---
 api_specs:
-- filename: cadana-workforce-management-openapi.yaml
+- filename: cadana-balances-api-openapi.yml
   format: yaml
-  label: Business Workforce Management
-  slug: business-workforce-management
+  label: Cadana Balances API
+  slug: cadana-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-workforce-management-openapi.yaml
-- filename: cadana-embedded-payments-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-balances-api-openapi.yml
+- filename: cadana-beneficiaries-api-openapi.yml
   format: yaml
-  label: Embedded Payments
-  slug: embedded-payments
+  label: Cadana Beneficiaries API
+  slug: cadana-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-embedded-payments-openapi.yaml
-- filename: cadana-embedded-consumer-wallets-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-beneficiaries-api-openapi.yml
+- filename: cadana-businesses-api-openapi.yml
   format: yaml
-  label: Embedded Consumer Wallets
-  slug: embedded-consumer-wallets
+  label: Cadana Businesses API
+  slug: cadana-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-embedded-consumer-wallets-openapi.yaml
-- filename: cadana-global-tax-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-businesses-api-openapi.yml
+- filename: cadana-contracts-api-openapi.yml
   format: yaml
-  label: Global Tax Engine
-  slug: global-tax-engine
+  label: Cadana Contracts API
+  slug: cadana-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-global-tax-openapi.yaml
-- filename: cadana-statutory-compliance-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-contracts-api-openapi.yml
+- filename: cadana-custom-auth-api-openapi.yml
   format: yaml
-  label: Statutory Compliance API
-  slug: statutory-compliance-api
+  label: Cadana Custom Auth API
+  slug: cadana-custom-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-statutory-compliance-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-custom-auth-api-openapi.yml
+- filename: cadana-entities-api-openapi.yml
+  format: yaml
+  label: Cadana Entities API
+  slug: cadana-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-entities-api-openapi.yml
+- filename: cadana-events-api-openapi.yml
+  format: yaml
+  label: Cadana Events API
+  slug: cadana-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-events-api-openapi.yml
+- filename: cadana-files-api-openapi.yml
+  format: yaml
+  label: Cadana Files API
+  slug: cadana-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-files-api-openapi.yml
+- filename: cadana-filings-api-openapi.yml
+  format: yaml
+  label: Cadana Filings API
+  slug: cadana-filings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-filings-api-openapi.yml
+- filename: cadana-fx-api-openapi.yml
+  format: yaml
+  label: Cadana FX API
+  slug: cadana-fx-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-fx-api-openapi.yml
+- filename: cadana-instant-pay-api-openapi.yml
+  format: yaml
+  label: Cadana Instant Pay API
+  slug: cadana-instant-pay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-instant-pay-api-openapi.yml
+- filename: cadana-invoices-api-openapi.yml
+  format: yaml
+  label: Cadana Invoices API
+  slug: cadana-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-invoices-api-openapi.yml
+- filename: cadana-jurisdictions-api-openapi.yml
+  format: yaml
+  label: Cadana Jurisdictions API
+  slug: cadana-jurisdictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-jurisdictions-api-openapi.yml
+- filename: cadana-kyb-api-openapi.yml
+  format: yaml
+  label: Cadana KYB API
+  slug: cadana-kyb-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-kyb-api-openapi.yml
+- filename: cadana-milestones-api-openapi.yml
+  format: yaml
+  label: Cadana Milestones API
+  slug: cadana-milestones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-milestones-api-openapi.yml
+- filename: cadana-payouts-api-openapi.yml
+  format: yaml
+  label: Cadana Payouts API
+  slug: cadana-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-payouts-api-openapi.yml
+- filename: cadana-payrolls-api-openapi.yml
+  format: yaml
+  label: Cadana Payrolls API
+  slug: cadana-payrolls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-payrolls-api-openapi.yml
+- filename: cadana-persons-api-openapi.yml
+  format: yaml
+  label: Cadana Persons API
+  slug: cadana-persons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-persons-api-openapi.yml
+- filename: cadana-platform-api-openapi.yml
+  format: yaml
+  label: Cadana Platform API
+  slug: cadana-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-platform-api-openapi.yml
+- filename: cadana-reimbursements-api-openapi.yml
+  format: yaml
+  label: Cadana Reimbursements API
+  slug: cadana-reimbursements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-reimbursements-api-openapi.yml
+- filename: cadana-remittances-api-openapi.yml
+  format: yaml
+  label: Cadana Remittances API
+  slug: cadana-remittances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-remittances-api-openapi.yml
+- filename: cadana-requirements-api-openapi.yml
+  format: yaml
+  label: Cadana Requirements API
+  slug: cadana-requirements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-requirements-api-openapi.yml
+- filename: cadana-resources-api-openapi.yml
+  format: yaml
+  label: Cadana Resources API
+  slug: cadana-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-resources-api-openapi.yml
+- filename: cadana-sandbox-api-openapi.yml
+  format: yaml
+  label: Cadana Sandbox API
+  slug: cadana-sandbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-sandbox-api-openapi.yml
+- filename: cadana-statutory-fields-api-openapi.yml
+  format: yaml
+  label: Cadana Statutory Fields API
+  slug: cadana-statutory-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-statutory-fields-api-openapi.yml
+- filename: cadana-tax-calculator-api-openapi.yml
+  format: yaml
+  label: Cadana Tax Calculator API
+  slug: cadana-tax-calculator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-tax-calculator-api-openapi.yml
+- filename: cadana-transactions-api-openapi.yml
+  format: yaml
+  label: Cadana Transactions API
+  slug: cadana-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-transactions-api-openapi.yml
+- filename: cadana-treasury-api-openapi.yml
+  format: yaml
+  label: Cadana Treasury API
+  slug: cadana-treasury-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-treasury-api-openapi.yml
+- filename: cadana-users-api-openapi.yml
+  format: yaml
+  label: Cadana Users API
+  slug: cadana-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-users-api-openapi.yml
+- filename: cadana-virtual-accounts-api-openapi.yml
+  format: yaml
+  label: Cadana Virtual Accounts API
+  slug: cadana-virtual-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-virtual-accounts-api-openapi.yml
 certifications: []
 description: ''
 kind: trust-center

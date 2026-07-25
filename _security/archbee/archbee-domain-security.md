@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: archbee-api.yaml
+- filename: archbee-members-api-openapi.yml
   format: yaml
-  label: Archbee API
-  slug: archbee-api
+  label: Archbee Members API
+  slug: archbee-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archbee/refs/heads/main/openapi/archbee-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/archbee/refs/heads/main/openapi/archbee-members-api-openapi.yml
+- filename: archbee-pages-api-openapi.yml
+  format: yaml
+  label: Archbee Pages API
+  slug: archbee-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archbee/refs/heads/main/openapi/archbee-pages-api-openapi.yml
+- filename: archbee-spaces-api-openapi.yml
+  format: yaml
+  label: Archbee Spaces API
+  slug: archbee-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archbee/refs/heads/main/openapi/archbee-spaces-api-openapi.yml
 description: ''
 domains:
 - caa: []

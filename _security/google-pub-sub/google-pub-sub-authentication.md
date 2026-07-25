@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: google-pub-sub-openapi.yml
+- filename: google-pub-sub-publish-api-openapi.yml
   format: yaml
-  label: Google Pub/Sub
-  slug: google-pub-sub
+  label: Google Pub/Sub Publish API
+  slug: google-pub-sub-publish-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/openapi/google-pub-sub-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/openapi/google-pub-sub-publish-api-openapi.yml
+- filename: google-pub-sub-schemas-api-openapi.yml
+  format: yaml
+  label: Google Pub/Sub Schemas API
+  slug: google-pub-sub-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/openapi/google-pub-sub-schemas-api-openapi.yml
+- filename: google-pub-sub-snapshots-api-openapi.yml
+  format: yaml
+  label: Google Pub/Sub Snapshots API
+  slug: google-pub-sub-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/openapi/google-pub-sub-snapshots-api-openapi.yml
+- filename: google-pub-sub-subscribe-api-openapi.yml
+  format: yaml
+  label: Google Pub/Sub Subscribe API
+  slug: google-pub-sub-subscribe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/openapi/google-pub-sub-subscribe-api-openapi.yml
+- filename: google-pub-sub-subscriptions-api-openapi.yml
+  format: yaml
+  label: Google Pub/Sub Subscriptions API
+  slug: google-pub-sub-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/openapi/google-pub-sub-subscriptions-api-openapi.yml
+- filename: google-pub-sub-topics-api-openapi.yml
+  format: yaml
+  label: Google Pub/Sub Topics API
+  slug: google-pub-sub-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/openapi/google-pub-sub-topics-api-openapi.yml
 auth_types:
 - http
 - oauth2

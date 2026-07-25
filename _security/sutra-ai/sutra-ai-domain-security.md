@@ -1,23 +1,17 @@
 ---
 api_specs:
-- filename: sutra-ai-openapi.yml
+- filename: sutra-ai-chat-api-openapi.yml
   format: yaml
-  label: SUTRA Chat Completions (Multilingual) API
-  slug: chat-completions-multilingual-api
+  label: SUTRA (Two AI) Chat API
+  slug: sutra-ai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sutra-ai/refs/heads/main/openapi/sutra-ai-openapi.yml
-- filename: sutra-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sutra-ai/refs/heads/main/openapi/sutra-ai-chat-api-openapi.yml
+- filename: sutra-ai-models-api-openapi.yml
   format: yaml
-  label: SUTRA Reasoning API
-  slug: reasoning-api
+  label: SUTRA (Two AI) Models API
+  slug: sutra-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sutra-ai/refs/heads/main/openapi/sutra-ai-openapi.yml
-- filename: sutra-ai-openapi.yml
-  format: yaml
-  label: SUTRA Models API
-  slug: models-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sutra-ai/refs/heads/main/openapi/sutra-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sutra-ai/refs/heads/main/openapi/sutra-ai-models-api-openapi.yml
 description: ''
 domains:
 - caa: []

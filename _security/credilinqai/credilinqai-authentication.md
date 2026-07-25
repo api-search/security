@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: credilinqai-openapi.yml
+- filename: credilinqai-authentication-api-openapi.yml
   format: yaml
-  label: CrediLinq API
-  slug: credilinq-api
+  label: Credilinq.ai Authentication API
+  slug: credilinqai-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-authentication-api-openapi.yml
+- filename: credilinqai-customers-api-openapi.yml
+  format: yaml
+  label: Credilinq.ai Customers API
+  slug: credilinqai-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-customers-api-openapi.yml
+- filename: credilinqai-kyc-api-openapi.yml
+  format: yaml
+  label: Credilinq.ai KYC API
+  slug: credilinqai-kyc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-kyc-api-openapi.yml
+- filename: credilinqai-loans-api-openapi.yml
+  format: yaml
+  label: Credilinq.ai Loans API
+  slug: credilinqai-loans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-loans-api-openapi.yml
+- filename: credilinqai-miscellaneous-api-openapi.yml
+  format: yaml
+  label: Credilinq.ai Miscellaneous API
+  slug: credilinqai-miscellaneous-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-miscellaneous-api-openapi.yml
+- filename: credilinqai-onboarding-api-openapi.yml
+  format: yaml
+  label: Credilinq.ai Onboarding API
+  slug: credilinqai-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-onboarding-api-openapi.yml
+- filename: credilinqai-payment-api-openapi.yml
+  format: yaml
+  label: Credilinq.ai Payment API
+  slug: credilinqai-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-payment-api-openapi.yml
+- filename: credilinqai-report-api-openapi.yml
+  format: yaml
+  label: Credilinq.ai Report API
+  slug: credilinqai-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-report-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -8,6 +8,42 @@ api_specs:
   slug: webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/asyncapi/honeybadger-webhooks-asyncapi.yml
+- filename: honeybadger-check-in-api-openapi.yml
+  format: yaml
+  label: Honeybadger Check In API
+  slug: honeybadger-check-in-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-check-in-api-openapi.yml
+- filename: honeybadger-deploys-api-openapi.yml
+  format: yaml
+  label: Honeybadger Deploys API
+  slug: honeybadger-deploys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-deploys-api-openapi.yml
+- filename: honeybadger-events-api-openapi.yml
+  format: yaml
+  label: Honeybadger Events API
+  slug: honeybadger-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-events-api-openapi.yml
+- filename: honeybadger-notices-api-openapi.yml
+  format: yaml
+  label: Honeybadger Notices API
+  slug: honeybadger-notices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-notices-api-openapi.yml
+- filename: honeybadger-projects-api-openapi.yml
+  format: yaml
+  label: Honeybadger Projects API
+  slug: honeybadger-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-projects-api-openapi.yml
+- filename: honeybadger-source-maps-api-openapi.yml
+  format: yaml
+  label: Honeybadger Source Maps API
+  slug: honeybadger-source-maps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-source-maps-api-openapi.yml
 auth_types:
 - apiKey
 - http

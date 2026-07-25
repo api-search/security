@@ -3,24 +3,138 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: coingecko-crypto-market-data-api-openapi.yml
+- filename: coingecko-asset-platforms-api-openapi.yml
   format: yaml
-  label: CoinGecko Crypto Market Data API
-  slug: crypto-market-data-api
+  label: CoinGecko Asset Platforms API
+  slug: coingecko-asset-platforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-crypto-market-data-api-openapi.yml
-- filename: coingecko-pro-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-asset-platforms-api-openapi.yml
+- filename: coingecko-categories-api-openapi.yml
   format: yaml
-  label: CoinGecko Pro API
-  slug: pro-api
+  label: CoinGecko Categories API
+  slug: coingecko-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-pro-api-openapi.yml
-- filename: coingecko-onchain-dex-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-categories-api-openapi.yml
+- filename: coingecko-coins-api-openapi.yml
   format: yaml
-  label: CoinGecko Onchain DEX API
-  slug: onchain-dex-api
+  label: CoinGecko Coins API
+  slug: coingecko-coins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-onchain-dex-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-coins-api-openapi.yml
+- filename: coingecko-companies-api-openapi.yml
+  format: yaml
+  label: CoinGecko Companies API
+  slug: coingecko-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-companies-api-openapi.yml
+- filename: coingecko-contract-api-openapi.yml
+  format: yaml
+  label: CoinGecko Contract API
+  slug: coingecko-contract-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-contract-api-openapi.yml
+- filename: coingecko-derivatives-api-openapi.yml
+  format: yaml
+  label: CoinGecko Derivatives API
+  slug: coingecko-derivatives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-derivatives-api-openapi.yml
+- filename: coingecko-dexes-api-openapi.yml
+  format: yaml
+  label: CoinGecko DEXes API
+  slug: coingecko-dexes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-dexes-api-openapi.yml
+- filename: coingecko-exchange-rates-api-openapi.yml
+  format: yaml
+  label: CoinGecko Exchange Rates API
+  slug: coingecko-exchange-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-exchange-rates-api-openapi.yml
+- filename: coingecko-exchanges-api-openapi.yml
+  format: yaml
+  label: CoinGecko Exchanges API
+  slug: coingecko-exchanges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-exchanges-api-openapi.yml
+- filename: coingecko-global-api-openapi.yml
+  format: yaml
+  label: CoinGecko Global API
+  slug: coingecko-global-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-global-api-openapi.yml
+- filename: coingecko-networks-api-openapi.yml
+  format: yaml
+  label: CoinGecko Networks API
+  slug: coingecko-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-networks-api-openapi.yml
+- filename: coingecko-nfts-api-openapi.yml
+  format: yaml
+  label: CoinGecko NFTs API
+  slug: coingecko-nfts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-nfts-api-openapi.yml
+- filename: coingecko-ohlcv-api-openapi.yml
+  format: yaml
+  label: CoinGecko OHLCV API
+  slug: coingecko-ohlcv-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-ohlcv-api-openapi.yml
+- filename: coingecko-ping-api-openapi.yml
+  format: yaml
+  label: CoinGecko Ping API
+  slug: coingecko-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-ping-api-openapi.yml
+- filename: coingecko-pools-api-openapi.yml
+  format: yaml
+  label: CoinGecko Pools API
+  slug: coingecko-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-pools-api-openapi.yml
+- filename: coingecko-search-api-openapi.yml
+  format: yaml
+  label: CoinGecko Search API
+  slug: coingecko-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-search-api-openapi.yml
+- filename: coingecko-simple-api-openapi.yml
+  format: yaml
+  label: CoinGecko Simple API
+  slug: coingecko-simple-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-simple-api-openapi.yml
+- filename: coingecko-token-lists-api-openapi.yml
+  format: yaml
+  label: CoinGecko Token Lists API
+  slug: coingecko-token-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-token-lists-api-openapi.yml
+- filename: coingecko-tokens-api-openapi.yml
+  format: yaml
+  label: CoinGecko Tokens API
+  slug: coingecko-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-tokens-api-openapi.yml
+- filename: coingecko-trades-api-openapi.yml
+  format: yaml
+  label: CoinGecko Trades API
+  slug: coingecko-trades-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-trades-api-openapi.yml
+- filename: coingecko-trending-api-openapi.yml
+  format: yaml
+  label: CoinGecko Trending API
+  slug: coingecko-trending-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-trending-api-openapi.yml
+- filename: coingecko-trending-pools-api-openapi.yml
+  format: yaml
+  label: CoinGecko Trending Pools API
+  slug: coingecko-trending-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-trending-pools-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

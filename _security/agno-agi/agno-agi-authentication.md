@@ -1,48 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: agno-agi-openapi.yml
+- filename: agno-agi-agents-api-openapi.yml
   format: yaml
-  label: Agno AgentOS Agents API
-  slug: agno-agentos-agents-api
+  label: Agno Agents API
+  slug: agno-agi-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno-agi/refs/heads/main/openapi/agno-agi-openapi.yml
-- filename: agno-agi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agno-agi/refs/heads/main/openapi/agno-agi-agents-api-openapi.yml
+- filename: agno-agi-evals-api-openapi.yml
   format: yaml
-  label: Agno AgentOS Teams API
-  slug: agno-agentos-teams-api
+  label: Agno Evals API
+  slug: agno-agi-evals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno-agi/refs/heads/main/openapi/agno-agi-openapi.yml
-- filename: agno-agi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agno-agi/refs/heads/main/openapi/agno-agi-evals-api-openapi.yml
+- filename: agno-agi-knowledge-api-openapi.yml
   format: yaml
-  label: Agno AgentOS Workflows API
-  slug: agno-agentos-workflows-api
+  label: Agno Knowledge API
+  slug: agno-agi-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno-agi/refs/heads/main/openapi/agno-agi-openapi.yml
-- filename: agno-agi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agno-agi/refs/heads/main/openapi/agno-agi-knowledge-api-openapi.yml
+- filename: agno-agi-memory-api-openapi.yml
   format: yaml
-  label: Agno AgentOS Sessions API
-  slug: agno-agentos-sessions-api
+  label: Agno Memory API
+  slug: agno-agi-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno-agi/refs/heads/main/openapi/agno-agi-openapi.yml
-- filename: agno-agi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agno-agi/refs/heads/main/openapi/agno-agi-memory-api-openapi.yml
+- filename: agno-agi-sessions-api-openapi.yml
   format: yaml
-  label: Agno AgentOS Memory API
-  slug: agno-agentos-memory-api
+  label: Agno Sessions API
+  slug: agno-agi-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno-agi/refs/heads/main/openapi/agno-agi-openapi.yml
-- filename: agno-agi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agno-agi/refs/heads/main/openapi/agno-agi-sessions-api-openapi.yml
+- filename: agno-agi-teams-api-openapi.yml
   format: yaml
-  label: Agno AgentOS Knowledge API
-  slug: agno-agentos-knowledge-api
+  label: Agno Teams API
+  slug: agno-agi-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno-agi/refs/heads/main/openapi/agno-agi-openapi.yml
-- filename: agno-agi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agno-agi/refs/heads/main/openapi/agno-agi-teams-api-openapi.yml
+- filename: agno-agi-workflows-api-openapi.yml
   format: yaml
-  label: Agno AgentOS Evals API
-  slug: agno-agentos-evals-api
+  label: Agno Workflows API
+  slug: agno-agi-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno-agi/refs/heads/main/openapi/agno-agi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agno-agi/refs/heads/main/openapi/agno-agi-workflows-api-openapi.yml
 auth_types:
 - http
 description: ''

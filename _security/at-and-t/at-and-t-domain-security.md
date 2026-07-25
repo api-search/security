@@ -1,23 +1,77 @@
 ---
 api_specs:
-- filename: at-and-t-sms-api.yaml
+- filename: at-and-t-authentication-api-openapi.yml
   format: yaml
-  label: AT&T SMS API
-  slug: att-sms-api
+  label: AT&T Authentication API
+  slug: at-and-t-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/openapi/at-and-t-sms-api.yaml
-- filename: at-and-t-in-app-messaging-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/openapi/at-and-t-authentication-api-openapi.yml
+- filename: at-and-t-balance-management-api-openapi.yml
   format: yaml
-  label: AT&T In-App Messaging API
-  slug: att-in-app-messaging-api
+  label: AT&T Balance Management API
+  slug: at-and-t-balance-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/openapi/at-and-t-in-app-messaging-api.yaml
-- filename: at-and-t-mvnx-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/openapi/at-and-t-balance-management-api-openapi.yml
+- filename: at-and-t-device-management-api-openapi.yml
   format: yaml
-  label: AT&T MVNX API
-  slug: att-mvnx-api
+  label: AT&T Device Management API
+  slug: at-and-t-device-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/openapi/at-and-t-mvnx-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/openapi/at-and-t-device-management-api-openapi.yml
+- filename: at-and-t-geographic-sites-api-openapi.yml
+  format: yaml
+  label: AT&T Geographic Sites API
+  slug: at-and-t-geographic-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/openapi/at-and-t-geographic-sites-api-openapi.yml
+- filename: at-and-t-inbox-management-api-openapi.yml
+  format: yaml
+  label: AT&T Inbox Management API
+  slug: at-and-t-inbox-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/openapi/at-and-t-inbox-management-api-openapi.yml
+- filename: at-and-t-messages-api-openapi.yml
+  format: yaml
+  label: AT&T Messages API
+  slug: at-and-t-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/openapi/at-and-t-messages-api-openapi.yml
+- filename: at-and-t-number-management-api-openapi.yml
+  format: yaml
+  label: AT&T Number Management API
+  slug: at-and-t-number-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/openapi/at-and-t-number-management-api-openapi.yml
+- filename: at-and-t-porting-api-openapi.yml
+  format: yaml
+  label: AT&T Porting API
+  slug: at-and-t-porting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/openapi/at-and-t-porting-api-openapi.yml
+- filename: at-and-t-product-orders-api-openapi.yml
+  format: yaml
+  label: AT&T Product Orders API
+  slug: at-and-t-product-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/openapi/at-and-t-product-orders-api-openapi.yml
+- filename: at-and-t-service-management-api-openapi.yml
+  format: yaml
+  label: AT&T Service Management API
+  slug: at-and-t-service-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/openapi/at-and-t-service-management-api-openapi.yml
+- filename: at-and-t-sms-messaging-api-openapi.yml
+  format: yaml
+  label: AT&T SMS Messaging API
+  slug: at-and-t-sms-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/openapi/at-and-t-sms-messaging-api-openapi.yml
+- filename: at-and-t-subscriber-management-api-openapi.yml
+  format: yaml
+  label: AT&T Subscriber Management API
+  slug: at-and-t-subscriber-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/openapi/at-and-t-subscriber-management-api-openapi.yml
 description: ''
 domains:
 - caa: []

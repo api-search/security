@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: inflection-ai-inference-api-openapi.yml
+  format: yaml
+  label: Inflection AI Inference API
+  slug: inflection-ai-inference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflection-ai/refs/heads/main/openapi/inflection-ai-inference-api-openapi.yml
 description: ''
 domains:
 - caa: []

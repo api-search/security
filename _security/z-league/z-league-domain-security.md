@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: z-league-crm-lead-openapi.json
-  format: json
-  label: MEGA Public CRM Lead API
-  slug: mega-public-crm-lead-api
+- filename: z-league-leads-api-openapi.yml
+  format: yaml
+  label: Z League Leads API
+  slug: z-league-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main/openapi/z-league-crm-lead-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main/openapi/z-league-leads-api-openapi.yml
+- filename: z-league-webhooks-api-openapi.yml
+  format: yaml
+  label: Z League Webhooks API
+  slug: z-league-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main/openapi/z-league-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

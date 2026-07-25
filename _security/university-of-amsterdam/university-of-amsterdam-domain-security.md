@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: university-of-amsterdam-lod-triply-api.yaml
+- filename: university-of-amsterdam-accounts-api-openapi.yml
   format: yaml
-  label: UvA Library Linked Open Data API (Triply)
-  slug: lod-triply-api
+  label: University of Amsterdam Accounts API
+  slug: university-of-amsterdam-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/openapi/university-of-amsterdam-lod-triply-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/openapi/university-of-amsterdam-accounts-api-openapi.yml
+- filename: university-of-amsterdam-assets-api-openapi.yml
+  format: yaml
+  label: University of Amsterdam Assets API
+  slug: university-of-amsterdam-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/openapi/university-of-amsterdam-assets-api-openapi.yml
+- filename: university-of-amsterdam-datasets-api-openapi.yml
+  format: yaml
+  label: University of Amsterdam Datasets API
+  slug: university-of-amsterdam-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/openapi/university-of-amsterdam-datasets-api-openapi.yml
+- filename: university-of-amsterdam-graphql-api-openapi.yml
+  format: yaml
+  label: University of Amsterdam GraphQL API
+  slug: university-of-amsterdam-graphql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/openapi/university-of-amsterdam-graphql-api-openapi.yml
+- filename: university-of-amsterdam-graphs-api-openapi.yml
+  format: yaml
+  label: University of Amsterdam Graphs API
+  slug: university-of-amsterdam-graphs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/openapi/university-of-amsterdam-graphs-api-openapi.yml
+- filename: university-of-amsterdam-hooks-api-openapi.yml
+  format: yaml
+  label: University of Amsterdam Hooks API
+  slug: university-of-amsterdam-hooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/openapi/university-of-amsterdam-hooks-api-openapi.yml
+- filename: university-of-amsterdam-info-api-openapi.yml
+  format: yaml
+  label: University of Amsterdam Info API
+  slug: university-of-amsterdam-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/openapi/university-of-amsterdam-info-api-openapi.yml
+- filename: university-of-amsterdam-jobs-api-openapi.yml
+  format: yaml
+  label: University of Amsterdam Jobs API
+  slug: university-of-amsterdam-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/openapi/university-of-amsterdam-jobs-api-openapi.yml
+- filename: university-of-amsterdam-prefixes-api-openapi.yml
+  format: yaml
+  label: University of Amsterdam Prefixes API
+  slug: university-of-amsterdam-prefixes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/openapi/university-of-amsterdam-prefixes-api-openapi.yml
+- filename: university-of-amsterdam-queries-api-openapi.yml
+  format: yaml
+  label: University of Amsterdam Queries API
+  slug: university-of-amsterdam-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/openapi/university-of-amsterdam-queries-api-openapi.yml
+- filename: university-of-amsterdam-search-api-openapi.yml
+  format: yaml
+  label: University of Amsterdam Search API
+  slug: university-of-amsterdam-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/openapi/university-of-amsterdam-search-api-openapi.yml
+- filename: university-of-amsterdam-services-api-openapi.yml
+  format: yaml
+  label: University of Amsterdam Services API
+  slug: university-of-amsterdam-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/openapi/university-of-amsterdam-services-api-openapi.yml
+- filename: university-of-amsterdam-sparql-api-openapi.yml
+  format: yaml
+  label: University of Amsterdam SPARQL API
+  slug: university-of-amsterdam-sparql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/openapi/university-of-amsterdam-sparql-api-openapi.yml
+- filename: university-of-amsterdam-stories-api-openapi.yml
+  format: yaml
+  label: University of Amsterdam Stories API
+  slug: university-of-amsterdam-stories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/openapi/university-of-amsterdam-stories-api-openapi.yml
 description: ''
 domains:
 - caa:

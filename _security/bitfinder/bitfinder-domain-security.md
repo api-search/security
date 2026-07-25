@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: bitfinder-awair-openapi.yml
+- filename: bitfinder-air-data-api-openapi.yml
   format: yaml
-  label: Awair Home & OAuth Developer API
-  slug: awair-home-oauth-developer-api
+  label: Bitfinder Air Data API
+  slug: bitfinder-air-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/openapi/bitfinder-awair-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/openapi/bitfinder-air-data-api-openapi.yml
+- filename: bitfinder-devices-api-openapi.yml
+  format: yaml
+  label: Bitfinder Devices API
+  slug: bitfinder-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/openapi/bitfinder-devices-api-openapi.yml
+- filename: bitfinder-user-api-openapi.yml
+  format: yaml
+  label: Bitfinder User API
+  slug: bitfinder-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/openapi/bitfinder-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

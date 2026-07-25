@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: synthego-order-openapi.json
-  format: json
+- filename: synthego-order-api-openapi.yml
+  format: yaml
   label: Synthego Order API
   slug: synthego-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthego/refs/heads/main/openapi/synthego-order-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/synthego/refs/heads/main/openapi/synthego-order-api-openapi.yml
 description: ''
 domains:
 - caa: []

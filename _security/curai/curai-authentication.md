@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: curai-partner-openapi.json
-  format: json
+- filename: curai-partner-api-openapi.yml
+  format: yaml
   label: Curai Partner API
   slug: curai-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/openapi/curai-partner-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/openapi/curai-partner-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

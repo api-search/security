@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: erasmus-university-rotterdam-figshare-data.yaml
+- filename: erasmus-university-rotterdam-altmetric-api-openapi.yml
   format: yaml
-  label: EUR Research Data Repository (Figshare API)
-  slug: figshare-data
+  label: Erasmus University Rotterdam altmetric API
+  slug: erasmus-university-rotterdam-altmetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/openapi/erasmus-university-rotterdam-figshare-data.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/openapi/erasmus-university-rotterdam-altmetric-api-openapi.yml
+- filename: erasmus-university-rotterdam-articles-api-openapi.yml
+  format: yaml
+  label: Erasmus University Rotterdam articles API
+  slug: erasmus-university-rotterdam-articles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/openapi/erasmus-university-rotterdam-articles-api-openapi.yml
+- filename: erasmus-university-rotterdam-authors-api-openapi.yml
+  format: yaml
+  label: Erasmus University Rotterdam authors API
+  slug: erasmus-university-rotterdam-authors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/openapi/erasmus-university-rotterdam-authors-api-openapi.yml
+- filename: erasmus-university-rotterdam-collections-api-openapi.yml
+  format: yaml
+  label: Erasmus University Rotterdam collections API
+  slug: erasmus-university-rotterdam-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/openapi/erasmus-university-rotterdam-collections-api-openapi.yml
+- filename: erasmus-university-rotterdam-institutions-api-openapi.yml
+  format: yaml
+  label: Erasmus University Rotterdam institutions API
+  slug: erasmus-university-rotterdam-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/openapi/erasmus-university-rotterdam-institutions-api-openapi.yml
+- filename: erasmus-university-rotterdam-oauth-api-openapi.yml
+  format: yaml
+  label: Erasmus University Rotterdam oauth API
+  slug: erasmus-university-rotterdam-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/openapi/erasmus-university-rotterdam-oauth-api-openapi.yml
+- filename: erasmus-university-rotterdam-other-api-openapi.yml
+  format: yaml
+  label: Erasmus University Rotterdam other API
+  slug: erasmus-university-rotterdam-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/openapi/erasmus-university-rotterdam-other-api-openapi.yml
+- filename: erasmus-university-rotterdam-profiles-api-openapi.yml
+  format: yaml
+  label: Erasmus University Rotterdam profiles API
+  slug: erasmus-university-rotterdam-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/openapi/erasmus-university-rotterdam-profiles-api-openapi.yml
+- filename: erasmus-university-rotterdam-projects-api-openapi.yml
+  format: yaml
+  label: Erasmus University Rotterdam projects API
+  slug: erasmus-university-rotterdam-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/openapi/erasmus-university-rotterdam-projects-api-openapi.yml
+- filename: erasmus-university-rotterdam-symplectic-api-openapi.yml
+  format: yaml
+  label: Erasmus University Rotterdam symplectic API
+  slug: erasmus-university-rotterdam-symplectic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/openapi/erasmus-university-rotterdam-symplectic-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

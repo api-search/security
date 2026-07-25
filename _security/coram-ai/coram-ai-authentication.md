@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: coram-ai-openapi-original.json
-  format: json
-  label: Coram Developer API
-  slug: coram-developer-api
+- filename: coram-ai-alerts-api-openapi.yml
+  format: yaml
+  label: Coram Ai alerts API
+  slug: coram-ai-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/openapi/coram-ai-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/openapi/coram-ai-alerts-api-openapi.yml
+- filename: coram-ai-camera-groups-api-openapi.yml
+  format: yaml
+  label: Coram Ai camera-groups API
+  slug: coram-ai-camera-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/openapi/coram-ai-camera-groups-api-openapi.yml
+- filename: coram-ai-cameras-api-openapi.yml
+  format: yaml
+  label: Coram Ai cameras API
+  slug: coram-ai-cameras-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/openapi/coram-ai-cameras-api-openapi.yml
+- filename: coram-ai-doors-api-openapi.yml
+  format: yaml
+  label: Coram Ai doors API
+  slug: coram-ai-doors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/openapi/coram-ai-doors-api-openapi.yml
+- filename: coram-ai-events-api-openapi.yml
+  format: yaml
+  label: Coram Ai events API
+  slug: coram-ai-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/openapi/coram-ai-events-api-openapi.yml
+- filename: coram-ai-locations-api-openapi.yml
+  format: yaml
+  label: Coram Ai locations API
+  slug: coram-ai-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/openapi/coram-ai-locations-api-openapi.yml
+- filename: coram-ai-nvrs-api-openapi.yml
+  format: yaml
+  label: Coram Ai nvrs API
+  slug: coram-ai-nvrs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/openapi/coram-ai-nvrs-api-openapi.yml
+- filename: coram-ai-reunification-api-openapi.yml
+  format: yaml
+  label: Coram Ai reunification API
+  slug: coram-ai-reunification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/openapi/coram-ai-reunification-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

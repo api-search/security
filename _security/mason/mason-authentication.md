@@ -1,42 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: mason-apps-openapi.json
-  format: json
+- filename: mason-apps-api-openapi.yml
+  format: yaml
   label: Mason Apps API
   slug: mason-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/openapi/mason-apps-openapi.json
-- filename: mason-generation-openapi.json
-  format: json
-  label: Mason Generation API (Genie)
-  slug: mason-generation-api-genie
+  url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/openapi/mason-apps-api-openapi.yml
+- filename: mason-create-image-api-openapi.yml
+  format: yaml
+  label: Mason Create Image API
+  slug: mason-create-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/openapi/mason-generation-openapi.json
-- filename: mason-tasks-openapi.json
-  format: json
-  label: Mason Creative Tasks API
-  slug: mason-creative-tasks-api
+  url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/openapi/mason-create-image-api-openapi.yml
+- filename: mason-images-api-openapi.yml
+  format: yaml
+  label: Mason Images API
+  slug: mason-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/openapi/mason-tasks-openapi.json
-- filename: mason-search-openapi.json
-  format: json
-  label: Mason Asset Search API
-  slug: mason-asset-search-api
+  url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/openapi/mason-images-api-openapi.yml
+- filename: mason-retrieve-an-image-api-openapi.yml
+  format: yaml
+  label: Mason Retrieve an Image API
+  slug: mason-retrieve-an-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/openapi/mason-search-openapi.json
-- filename: mason-webhooks-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/openapi/mason-retrieve-an-image-api-openapi.yml
+- filename: mason-search-api-openapi.yml
+  format: yaml
+  label: Mason Search API
+  slug: mason-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/openapi/mason-search-api-openapi.yml
+- filename: mason-template-mappings-api-openapi.yml
+  format: yaml
+  label: Mason Template Mappings API
+  slug: mason-template-mappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/openapi/mason-template-mappings-api-openapi.yml
+- filename: mason-tiered-discounts-api-openapi.yml
+  format: yaml
+  label: Mason Tiered Discounts API
+  slug: mason-tiered-discounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/openapi/mason-tiered-discounts-api-openapi.yml
+- filename: mason-webhooks-api-openapi.yml
+  format: yaml
   label: Mason Webhooks API
   slug: mason-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/openapi/mason-webhooks-openapi.json
-- filename: mason-discounts-openapi.json
-  format: json
-  label: Mason Promotion Engine API (Scrooge)
-  slug: mason-promotion-engine-api-scrooge
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/openapi/mason-discounts-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/openapi/mason-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

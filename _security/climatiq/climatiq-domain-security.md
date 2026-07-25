@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: climatiq-openapi.yml
+- filename: climatiq-autopilot-api-openapi.yml
   format: yaml
-  label: Climatiq API
-  slug: climatiq-api
+  label: Climatiq Autopilot API
+  slug: climatiq-autopilot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-autopilot-api-openapi.yml
+- filename: climatiq-cbam-api-openapi.yml
+  format: yaml
+  label: Climatiq CBAM API
+  slug: climatiq-cbam-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-cbam-api-openapi.yml
+- filename: climatiq-classifications-api-openapi.yml
+  format: yaml
+  label: Climatiq Classifications API
+  slug: climatiq-classifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-classifications-api-openapi.yml
+- filename: climatiq-computing-api-openapi.yml
+  format: yaml
+  label: Climatiq Computing API
+  slug: climatiq-computing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-computing-api-openapi.yml
+- filename: climatiq-energy-api-openapi.yml
+  format: yaml
+  label: Climatiq Energy API
+  slug: climatiq-energy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-energy-api-openapi.yml
+- filename: climatiq-estimate-api-openapi.yml
+  format: yaml
+  label: Climatiq Estimate API
+  slug: climatiq-estimate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-estimate-api-openapi.yml
+- filename: climatiq-freight-api-openapi.yml
+  format: yaml
+  label: Climatiq Freight API
+  slug: climatiq-freight-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-freight-api-openapi.yml
+- filename: climatiq-procurement-api-openapi.yml
+  format: yaml
+  label: Climatiq Procurement API
+  slug: climatiq-procurement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-procurement-api-openapi.yml
+- filename: climatiq-reference-api-openapi.yml
+  format: yaml
+  label: Climatiq Reference API
+  slug: climatiq-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-reference-api-openapi.yml
+- filename: climatiq-search-api-openapi.yml
+  format: yaml
+  label: Climatiq Search API
+  slug: climatiq-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-search-api-openapi.yml
+- filename: climatiq-travel-api-openapi.yml
+  format: yaml
+  label: Climatiq Travel API
+  slug: climatiq-travel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-travel-api-openapi.yml
 description: ''
 domains:
 - caa: []

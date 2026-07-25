@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi
+- filename: adobe-sign-base-uris-api-openapi.yml
   format: yaml
-  label: Adobe Acrobat Sign REST API
-  slug: adobe-acrobat-sign-api
+  label: Adobe Acrobat Sign Base URIs API
+  slug: adobe-sign-base-uris-api
   spec_type: OpenAPI
-  url: https://developer.adobe.com/acrobat-sign/docs/overview/sdks/openapi
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-sign/refs/heads/main/openapi/adobe-sign-base-uris-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

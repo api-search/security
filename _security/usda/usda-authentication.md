@@ -2,12 +2,12 @@
 api_key_in:
 - query
 api_specs:
-- filename: fdc_api.html
+- filename: usda-fdc-api-openapi.yml
   format: yaml
-  label: USDA FoodData Central API
-  slug: usda-fooddata-central-api
+  label: USDA FDC API
+  slug: usda-fdc-api
   spec_type: OpenAPI
-  url: https://fdc.nal.usda.gov/api-spec/fdc_api.html
+  url: https://raw.githubusercontent.com/api-evangelist/usda/refs/heads/main/openapi/usda-fdc-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

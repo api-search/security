@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: playfab-openapi.yml
+- filename: playfab-authentication-api-openapi.yml
   format: yaml
-  label: PlayFab Client API
-  slug: playfab-client-api
+  label: PlayFab Authentication API
+  slug: playfab-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playfab/refs/heads/main/openapi/playfab-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/playfab/refs/heads/main/openapi/playfab-authentication-api-openapi.yml
+- filename: playfab-account-api-openapi.yml
+  format: yaml
+  label: PlayFab Account API
+  slug: playfab-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playfab/refs/heads/main/openapi/playfab-account-api-openapi.yml
+- filename: playfab-authentication-api-openapi.yml
+  format: yaml
+  label: PlayFab Authentication API
+  slug: playfab-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playfab/refs/heads/main/openapi/playfab-authentication-api-openapi.yml
 description: ''
 domains:
 - caa:

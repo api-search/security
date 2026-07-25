@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: university-of-adelaide-figshare.yaml
+- filename: university-of-adelaide-altmetric-api-openapi.yml
   format: yaml
-  label: Adelaide Figshare Research Data API
-  slug: figshare
+  label: University of Adelaide altmetric API
+  slug: university-of-adelaide-altmetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/openapi/university-of-adelaide-figshare.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/openapi/university-of-adelaide-altmetric-api-openapi.yml
+- filename: university-of-adelaide-articles-api-openapi.yml
+  format: yaml
+  label: University of Adelaide articles API
+  slug: university-of-adelaide-articles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/openapi/university-of-adelaide-articles-api-openapi.yml
+- filename: university-of-adelaide-authors-api-openapi.yml
+  format: yaml
+  label: University of Adelaide authors API
+  slug: university-of-adelaide-authors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/openapi/university-of-adelaide-authors-api-openapi.yml
+- filename: university-of-adelaide-collections-api-openapi.yml
+  format: yaml
+  label: University of Adelaide collections API
+  slug: university-of-adelaide-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/openapi/university-of-adelaide-collections-api-openapi.yml
+- filename: university-of-adelaide-institutions-api-openapi.yml
+  format: yaml
+  label: University of Adelaide institutions API
+  slug: university-of-adelaide-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/openapi/university-of-adelaide-institutions-api-openapi.yml
+- filename: university-of-adelaide-oauth-api-openapi.yml
+  format: yaml
+  label: University of Adelaide oauth API
+  slug: university-of-adelaide-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/openapi/university-of-adelaide-oauth-api-openapi.yml
+- filename: university-of-adelaide-other-api-openapi.yml
+  format: yaml
+  label: University of Adelaide other API
+  slug: university-of-adelaide-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/openapi/university-of-adelaide-other-api-openapi.yml
+- filename: university-of-adelaide-profiles-api-openapi.yml
+  format: yaml
+  label: University of Adelaide profiles API
+  slug: university-of-adelaide-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/openapi/university-of-adelaide-profiles-api-openapi.yml
+- filename: university-of-adelaide-projects-api-openapi.yml
+  format: yaml
+  label: University of Adelaide projects API
+  slug: university-of-adelaide-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/openapi/university-of-adelaide-projects-api-openapi.yml
+- filename: university-of-adelaide-symplectic-api-openapi.yml
+  format: yaml
+  label: University of Adelaide symplectic API
+  slug: university-of-adelaide-symplectic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/openapi/university-of-adelaide-symplectic-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

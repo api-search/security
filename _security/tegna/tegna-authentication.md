@@ -2,18 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: tegna-audience-one-openapi.yml
+- filename: tegna-audiences-api-openapi.yml
   format: yaml
-  label: TEGNA AudienceOne API
-  slug: audience-one-api
+  label: TEGNA Audiences API
+  slug: tegna-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-audience-one-openapi.yml
-- filename: tegna-premion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-audiences-api-openapi.yml
+- filename: tegna-campaigns-api-openapi.yml
   format: yaml
-  label: TEGNA Premion OTT Advertising API
-  slug: premion-api
+  label: TEGNA Campaigns API
+  slug: tegna-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-premion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-campaigns-api-openapi.yml
+- filename: tegna-creatives-api-openapi.yml
+  format: yaml
+  label: TEGNA Creatives API
+  slug: tegna-creatives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-creatives-api-openapi.yml
+- filename: tegna-inventory-api-openapi.yml
+  format: yaml
+  label: TEGNA Inventory API
+  slug: tegna-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-inventory-api-openapi.yml
+- filename: tegna-markets-api-openapi.yml
+  format: yaml
+  label: TEGNA Markets API
+  slug: tegna-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-markets-api-openapi.yml
+- filename: tegna-ott-campaigns-api-openapi.yml
+  format: yaml
+  label: TEGNA OTT Campaigns API
+  slug: tegna-ott-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-ott-campaigns-api-openapi.yml
+- filename: tegna-reporting-api-openapi.yml
+  format: yaml
+  label: TEGNA Reporting API
+  slug: tegna-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-reporting-api-openapi.yml
 auth_types:
 - apiKey
 - http

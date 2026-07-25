@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: voidpet-discovery-openapi.json
-  format: json
-  label: Voidpet Public Discovery API
-  slug: voidpet-public-discovery-api
+- filename: voidpet-discovery-api-openapi.yml
+  format: yaml
+  label: Voidpet Discovery API
+  slug: voidpet-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voidpet/refs/heads/main/openapi/voidpet-discovery-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/voidpet/refs/heads/main/openapi/voidpet-discovery-api-openapi.yml
+- filename: voidpet-health-api-openapi.yml
+  format: yaml
+  label: Voidpet Health API
+  slug: voidpet-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voidpet/refs/heads/main/openapi/voidpet-health-api-openapi.yml
 auth_types:
 - none
 description: ''

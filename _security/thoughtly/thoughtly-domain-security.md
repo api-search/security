@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Thoughtly API
-  slug: thoughtly-api
+- filename: thoughtly-agent-api-openapi.yml
+  format: yaml
+  label: Thoughtly agent API
+  slug: thoughtly-agent-api
   spec_type: OpenAPI
-  url: https://docs.thoughtly.com/api-reference/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/openapi/thoughtly-agent-api-openapi.yml
+- filename: thoughtly-contact-api-openapi.yml
+  format: yaml
+  label: Thoughtly contact API
+  slug: thoughtly-contact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/openapi/thoughtly-contact-api-openapi.yml
+- filename: thoughtly-user-api-openapi.yml
+  format: yaml
+  label: Thoughtly user API
+  slug: thoughtly-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/openapi/thoughtly-user-api-openapi.yml
+- filename: thoughtly-webhooks-api-openapi.yml
+  format: yaml
+  label: Thoughtly webhooks API
+  slug: thoughtly-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/openapi/thoughtly-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

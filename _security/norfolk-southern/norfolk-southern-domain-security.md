@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: norfolk-southern-shipment-status-api.yml
+- filename: norfolk-southern-gate-receipts-api-openapi.yml
+  format: yaml
+  label: Norfolk Southern Gate Receipts API
+  slug: norfolk-southern-gate-receipts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/openapi/norfolk-southern-gate-receipts-api-openapi.yml
+- filename: norfolk-southern-shipment-status-api-openapi.yml
   format: yaml
   label: Norfolk Southern Shipment Status API
-  slug: shipment-status
+  slug: norfolk-southern-shipment-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/openapi/norfolk-southern-shipment-status-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/openapi/norfolk-southern-shipment-status-api-openapi.yml
+- filename: norfolk-southern-trip-plan-api-openapi.yml
+  format: yaml
+  label: Norfolk Southern Trip Plan API
+  slug: norfolk-southern-trip-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/openapi/norfolk-southern-trip-plan-api-openapi.yml
 description: ''
 domains:
 - caa: []

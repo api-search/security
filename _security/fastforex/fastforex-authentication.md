@@ -3,12 +3,48 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: openapi.yaml
+- filename: fastforex-admin-api-openapi.yml
   format: yaml
-  label: FastForex API
-  slug: fastforex-api
+  label: FastForex admin API
+  slug: fastforex-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/fastforex/openapi/main/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-admin-api-openapi.yml
+- filename: fastforex-crypto-api-openapi.yml
+  format: yaml
+  label: FastForex crypto API
+  slug: fastforex-crypto-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-crypto-api-openapi.yml
+- filename: fastforex-currency-api-openapi.yml
+  format: yaml
+  label: FastForex currency API
+  slug: fastforex-currency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-currency-api-openapi.yml
+- filename: fastforex-fx-api-openapi.yml
+  format: yaml
+  label: FastForex fx API
+  slug: fastforex-fx-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-fx-api-openapi.yml
+- filename: fastforex-plan-extra-api-openapi.yml
+  format: yaml
+  label: FastForex plan-extra API
+  slug: fastforex-plan-extra-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-plan-extra-api-openapi.yml
+- filename: fastforex-plan-one-api-openapi.yml
+  format: yaml
+  label: FastForex plan-one API
+  slug: fastforex-plan-one-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-plan-one-api-openapi.yml
+- filename: fastforex-plan-premium-api-openapi.yml
+  format: yaml
+  label: FastForex plan-premium API
+  slug: fastforex-plan-premium-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-plan-premium-api-openapi.yml
 auth_types:
 - apiKey
 - http

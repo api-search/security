@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: stockx-public-openapi-original.json
-  format: json
-  label: StockX Public API
-  slug: stockx-public-api
+- filename: stockx-batch-api-openapi.yml
+  format: yaml
+  label: StockX Batch API
+  slug: stockx-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/openapi/stockx-public-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/openapi/stockx-batch-api-openapi.yml
+- filename: stockx-catalog-api-openapi.yml
+  format: yaml
+  label: StockX Catalog API
+  slug: stockx-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/openapi/stockx-catalog-api-openapi.yml
+- filename: stockx-listings-api-openapi.yml
+  format: yaml
+  label: StockX Listings API
+  slug: stockx-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/openapi/stockx-listings-api-openapi.yml
+- filename: stockx-order-api-openapi.yml
+  format: yaml
+  label: StockX Order API
+  slug: stockx-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/openapi/stockx-order-api-openapi.yml
 description: ''
 domains:
 - caa: []

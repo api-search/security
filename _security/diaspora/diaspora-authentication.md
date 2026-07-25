@@ -1,12 +1,90 @@
 ---
 api_key_in: []
 api_specs:
-- filename: diaspora-api-openapi.yml
+- filename: diaspora-aspects-api-openapi.yml
   format: yaml
-  label: diaspora* API
-  slug: diaspora-api
+  label: Diaspora Aspects API
+  slug: diaspora-aspects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-aspects-api-openapi.yml
+- filename: diaspora-comments-api-openapi.yml
+  format: yaml
+  label: Diaspora Comments API
+  slug: diaspora-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-comments-api-openapi.yml
+- filename: diaspora-contacts-api-openapi.yml
+  format: yaml
+  label: Diaspora Contacts API
+  slug: diaspora-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-contacts-api-openapi.yml
+- filename: diaspora-conversations-api-openapi.yml
+  format: yaml
+  label: Diaspora Conversations API
+  slug: diaspora-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-conversations-api-openapi.yml
+- filename: diaspora-likes-api-openapi.yml
+  format: yaml
+  label: Diaspora Likes API
+  slug: diaspora-likes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-likes-api-openapi.yml
+- filename: diaspora-notifications-api-openapi.yml
+  format: yaml
+  label: Diaspora Notifications API
+  slug: diaspora-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-notifications-api-openapi.yml
+- filename: diaspora-photos-api-openapi.yml
+  format: yaml
+  label: Diaspora Photos API
+  slug: diaspora-photos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-photos-api-openapi.yml
+- filename: diaspora-post-interactions-api-openapi.yml
+  format: yaml
+  label: Diaspora Post interactions API
+  slug: diaspora-post-interactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-post-interactions-api-openapi.yml
+- filename: diaspora-posts-api-openapi.yml
+  format: yaml
+  label: Diaspora Posts API
+  slug: diaspora-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-posts-api-openapi.yml
+- filename: diaspora-reshares-api-openapi.yml
+  format: yaml
+  label: Diaspora Reshares API
+  slug: diaspora-reshares-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-reshares-api-openapi.yml
+- filename: diaspora-search-api-openapi.yml
+  format: yaml
+  label: Diaspora Search API
+  slug: diaspora-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-search-api-openapi.yml
+- filename: diaspora-streams-api-openapi.yml
+  format: yaml
+  label: Diaspora Streams API
+  slug: diaspora-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-streams-api-openapi.yml
+- filename: diaspora-tag-followings-api-openapi.yml
+  format: yaml
+  label: Diaspora Tag followings API
+  slug: diaspora-tag-followings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-tag-followings-api-openapi.yml
+- filename: diaspora-users-api-openapi.yml
+  format: yaml
+  label: Diaspora Users API
+  slug: diaspora-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-users-api-openapi.yml
 auth_types:
 - openIdConnect
 description: diaspora* authenticates API clients with OpenID Connect Core 1.0. Because diaspora* is decentralized, a manual application registration on a single pod is not sufficient, so the project also implements OpenID Connect Discovery 1.0 and OpenID Connect Dynamic Client Registration 1.0 — an application discovers a pod's endpoints and registers itself at runtime against pods it has never seen before. There is no static API key and no shared client credential across the network.

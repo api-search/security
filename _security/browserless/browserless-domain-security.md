@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: browserless-openapi.yml
+- filename: browserless-browser-rest-apis-api-openapi.yml
   format: yaml
-  label: Browserless Cloud API
-  slug: browser-api
+  label: Browserless Browser REST APIs API
+  slug: browserless-browser-rest-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserless/refs/heads/main/openapi/browserless-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/browserless/refs/heads/main/openapi/browserless-browser-rest-apis-api-openapi.yml
+- filename: browserless-browser-websocket-apis-api-openapi.yml
+  format: yaml
+  label: Browserless Browser WebSocket APIs API
+  slug: browserless-browser-websocket-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/browserless/refs/heads/main/openapi/browserless-browser-websocket-apis-api-openapi.yml
+- filename: browserless-management-rest-apis-api-openapi.yml
+  format: yaml
+  label: Browserless Management REST APIs API
+  slug: browserless-management-rest-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/browserless/refs/heads/main/openapi/browserless-management-rest-apis-api-openapi.yml
 description: ''
 domains:
 - caa: []

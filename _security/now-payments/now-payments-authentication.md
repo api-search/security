@@ -2,18 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi.yml
-  format: yaml
-  label: NOWPayments Payment API
-  slug: nowpayments-payment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/openapi.yml
 - filename: S1a32n38
   format: yaml
   label: NOWPayments Mass Payouts API
   slug: nowpayments-mass-payouts-api
   spec_type: Postman
   url: https://documenter.getpostman.com/view/7907941/S1a32n38
+- filename: now-payments-authentication-api-openapi.yml
+  format: yaml
+  label: NOWPayments Authentication API
+  slug: now-payments-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/now-payments-authentication-api-openapi.yml
+- filename: now-payments-currencies-api-openapi.yml
+  format: yaml
+  label: NOWPayments Currencies API
+  slug: now-payments-currencies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/now-payments-currencies-api-openapi.yml
+- filename: now-payments-estimates-api-openapi.yml
+  format: yaml
+  label: NOWPayments Estimates API
+  slug: now-payments-estimates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/now-payments-estimates-api-openapi.yml
+- filename: now-payments-invoices-api-openapi.yml
+  format: yaml
+  label: NOWPayments Invoices API
+  slug: now-payments-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/now-payments-invoices-api-openapi.yml
+- filename: now-payments-payments-api-openapi.yml
+  format: yaml
+  label: NOWPayments Payments API
+  slug: now-payments-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/now-payments-payments-api-openapi.yml
+- filename: now-payments-payouts-api-openapi.yml
+  format: yaml
+  label: NOWPayments Payouts API
+  slug: now-payments-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/now-payments-payouts-api-openapi.yml
+- filename: now-payments-status-api-openapi.yml
+  format: yaml
+  label: NOWPayments Status API
+  slug: now-payments-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/now-payments-status-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -3,12 +3,54 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: openapi.yml
+- filename: footprint-chain-api-openapi.yml
   format: yaml
-  label: Footprint Analytics Data API
-  slug: footprint-analytics-data-api
+  label: Footprint Analytics Chain API
+  slug: footprint-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/footprint/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/footprint/refs/heads/main/openapi/footprint-chain-api-openapi.yml
+- filename: footprint-defi-api-openapi.yml
+  format: yaml
+  label: Footprint Analytics DeFi API
+  slug: footprint-defi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/footprint/refs/heads/main/openapi/footprint-defi-api-openapi.yml
+- filename: footprint-events-api-openapi.yml
+  format: yaml
+  label: Footprint Analytics Events API
+  slug: footprint-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/footprint/refs/heads/main/openapi/footprint-events-api-openapi.yml
+- filename: footprint-gamefi-api-openapi.yml
+  format: yaml
+  label: Footprint Analytics GameFi API
+  slug: footprint-gamefi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/footprint/refs/heads/main/openapi/footprint-gamefi-api-openapi.yml
+- filename: footprint-nft-api-openapi.yml
+  format: yaml
+  label: Footprint Analytics NFT API
+  slug: footprint-nft-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/footprint/refs/heads/main/openapi/footprint-nft-api-openapi.yml
+- filename: footprint-query-api-openapi.yml
+  format: yaml
+  label: Footprint Analytics Query API
+  slug: footprint-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/footprint/refs/heads/main/openapi/footprint-query-api-openapi.yml
+- filename: footprint-token-api-openapi.yml
+  format: yaml
+  label: Footprint Analytics Token API
+  slug: footprint-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/footprint/refs/heads/main/openapi/footprint-token-api-openapi.yml
+- filename: footprint-wallet-api-openapi.yml
+  format: yaml
+  label: Footprint Analytics Wallet API
+  slug: footprint-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/footprint/refs/heads/main/openapi/footprint-wallet-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

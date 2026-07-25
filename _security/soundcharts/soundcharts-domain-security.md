@@ -1,47 +1,59 @@
 ---
 api_specs:
-- filename: soundcharts-openapi.yml
+- filename: soundcharts-album-api-openapi.yml
   format: yaml
-  label: Soundcharts Artists API
-  slug: artists
+  label: Soundcharts Album API
+  slug: soundcharts-album-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-openapi.yml
-- filename: soundcharts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-album-api-openapi.yml
+- filename: soundcharts-artist-api-openapi.yml
   format: yaml
-  label: Soundcharts Songs API
-  slug: songs
+  label: Soundcharts Artist API
+  slug: soundcharts-artist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-openapi.yml
-- filename: soundcharts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-artist-api-openapi.yml
+- filename: soundcharts-chart-api-openapi.yml
   format: yaml
-  label: Soundcharts Albums API
-  slug: albums
+  label: Soundcharts Chart API
+  slug: soundcharts-chart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-openapi.yml
-- filename: soundcharts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-chart-api-openapi.yml
+- filename: soundcharts-metrics-api-openapi.yml
   format: yaml
-  label: Soundcharts Playlists API
-  slug: playlists
+  label: Soundcharts Metrics API
+  slug: soundcharts-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-openapi.yml
-- filename: soundcharts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-metrics-api-openapi.yml
+- filename: soundcharts-playlist-api-openapi.yml
   format: yaml
-  label: Soundcharts Charts API
-  slug: charts
+  label: Soundcharts Playlist API
+  slug: soundcharts-playlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-openapi.yml
-- filename: soundcharts-openapi.yml
-  format: yaml
-  label: Soundcharts Streaming and Social Metrics API
-  slug: streaming-social-metrics
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-openapi.yml
-- filename: soundcharts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-playlist-api-openapi.yml
+- filename: soundcharts-radio-api-openapi.yml
   format: yaml
   label: Soundcharts Radio API
-  slug: radio
+  slug: soundcharts-radio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-radio-api-openapi.yml
+- filename: soundcharts-referential-api-openapi.yml
+  format: yaml
+  label: Soundcharts Referential API
+  slug: soundcharts-referential-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-referential-api-openapi.yml
+- filename: soundcharts-search-api-openapi.yml
+  format: yaml
+  label: Soundcharts Search API
+  slug: soundcharts-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-search-api-openapi.yml
+- filename: soundcharts-song-api-openapi.yml
+  format: yaml
+  label: Soundcharts Song API
+  slug: soundcharts-song-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-song-api-openapi.yml
 description: ''
 domains:
 - caa: []

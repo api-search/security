@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: reasonblocks-openapi-original.json
-  format: json
-  label: ReasonBlocks REST API
-  slug: reasonblocks-rest-api
+- filename: reasonblocks-billing-api-openapi.yml
+  format: yaml
+  label: ReasonBlocks Billing API
+  slug: reasonblocks-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-billing-api-openapi.yml
+- filename: reasonblocks-codebase-findings-api-openapi.yml
+  format: yaml
+  label: ReasonBlocks Codebase Findings API
+  slug: reasonblocks-codebase-findings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-codebase-findings-api-openapi.yml
+- filename: reasonblocks-health-api-openapi.yml
+  format: yaml
+  label: ReasonBlocks Health API
+  slug: reasonblocks-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-health-api-openapi.yml
+- filename: reasonblocks-monitor-api-openapi.yml
+  format: yaml
+  label: ReasonBlocks monitor API
+  slug: reasonblocks-monitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-monitor-api-openapi.yml
+- filename: reasonblocks-monitor-telemetry-api-openapi.yml
+  format: yaml
+  label: ReasonBlocks Monitor Telemetry API
+  slug: reasonblocks-monitor-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-monitor-telemetry-api-openapi.yml
+- filename: reasonblocks-monitors-api-openapi.yml
+  format: yaml
+  label: ReasonBlocks Monitors API
+  slug: reasonblocks-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-monitors-api-openapi.yml
+- filename: reasonblocks-pattern-library-api-openapi.yml
+  format: yaml
+  label: ReasonBlocks Pattern Library API
+  slug: reasonblocks-pattern-library-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-pattern-library-api-openapi.yml
+- filename: reasonblocks-patterns-traces-api-openapi.yml
+  format: yaml
+  label: ReasonBlocks Patterns & Traces API
+  slug: reasonblocks-patterns-traces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-patterns-traces-api-openapi.yml
+- filename: reasonblocks-scoring-api-openapi.yml
+  format: yaml
+  label: ReasonBlocks Scoring API
+  slug: reasonblocks-scoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-scoring-api-openapi.yml
 description: ''
 domains:
 - caa:

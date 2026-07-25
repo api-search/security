@@ -1,18 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sso-saml-openapi.yml
+- filename: sso-authentication-api-openapi.yml
   format: yaml
-  label: SAML SSO Authentication API
-  slug: saml-authentication
+  label: SSO Authentication API
+  slug: sso-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sso/refs/heads/main/openapi/sso-saml-openapi.yml
-- filename: sso-oidc-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sso/refs/heads/main/openapi/sso-authentication-api-openapi.yml
+- filename: sso-authorization-api-openapi.yml
   format: yaml
-  label: OpenID Connect (OIDC) Authentication API
-  slug: oidc-authentication
+  label: SSO Authorization API
+  slug: sso-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sso/refs/heads/main/openapi/sso-oidc-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sso/refs/heads/main/openapi/sso-authorization-api-openapi.yml
+- filename: sso-discovery-api-openapi.yml
+  format: yaml
+  label: SSO Discovery API
+  slug: sso-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sso/refs/heads/main/openapi/sso-discovery-api-openapi.yml
+- filename: sso-keys-api-openapi.yml
+  format: yaml
+  label: SSO Keys API
+  slug: sso-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sso/refs/heads/main/openapi/sso-keys-api-openapi.yml
+- filename: sso-logout-api-openapi.yml
+  format: yaml
+  label: SSO Logout API
+  slug: sso-logout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sso/refs/heads/main/openapi/sso-logout-api-openapi.yml
+- filename: sso-metadata-api-openapi.yml
+  format: yaml
+  label: SSO Metadata API
+  slug: sso-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sso/refs/heads/main/openapi/sso-metadata-api-openapi.yml
+- filename: sso-token-api-openapi.yml
+  format: yaml
+  label: SSO Token API
+  slug: sso-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sso/refs/heads/main/openapi/sso-token-api-openapi.yml
+- filename: sso-user-info-api-openapi.yml
+  format: yaml
+  label: SSO User Info API
+  slug: sso-user-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sso/refs/heads/main/openapi/sso-user-info-api-openapi.yml
 auth_types:
 - http
 description: ''

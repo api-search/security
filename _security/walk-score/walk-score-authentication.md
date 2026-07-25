@@ -2,18 +2,30 @@
 api_key_in:
 - query
 api_specs:
-- filename: walk-score-openapi.yml
+- filename: walk-score-cities-api-openapi.yml
   format: yaml
-  label: Walk Score API
-  slug: walk-score-api
+  label: Walk Score Cities API
+  slug: walk-score-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/openapi/walk-score-openapi.yml
-- filename: walk-score-transit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/openapi/walk-score-cities-api-openapi.yml
+- filename: walk-score-routes-api-openapi.yml
   format: yaml
-  label: Walk Score Transit API
-  slug: walk-score-transit-api
+  label: Walk Score Routes API
+  slug: walk-score-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/openapi/walk-score-transit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/openapi/walk-score-routes-api-openapi.yml
+- filename: walk-score-scores-api-openapi.yml
+  format: yaml
+  label: Walk Score Scores API
+  slug: walk-score-scores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/openapi/walk-score-scores-api-openapi.yml
+- filename: walk-score-stops-api-openapi.yml
+  format: yaml
+  label: Walk Score Stops API
+  slug: walk-score-stops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/openapi/walk-score-stops-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

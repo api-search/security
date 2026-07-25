@@ -1,312 +1,492 @@
 ---
 api_key_in: []
 api_specs:
-- filename: authorize-openapi-original.yml
+- filename: box-authorization-api-openapi.yml
+  format: yaml
+  label: Box Authorization API
+  slug: box-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-authorization-api-openapi.yml
+- filename: box-authorize-api-openapi.yml
   format: yaml
   label: Box Authorize API
   slug: box-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/authorize-openapi-original.yml
-- filename: oauth2-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-authorize-api-openapi.yml
+- filename: box-classifications-api-openapi.yml
   format: yaml
-  label: Box Oauth2 API
-  slug: box-oauth2-api
+  label: Box Classifications API
+  slug: box-classifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/oauth2-openapi-original.yml
-- filename: files-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-classifications-api-openapi.yml
+- filename: box-classifications-on-files-api-openapi.yml
   format: yaml
-  label: Box Files API
-  slug: box-files-api
+  label: Box Classifications on Files API
+  slug: box-classifications-on-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/files-openapi-original.yml
-- filename: file-requests-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-classifications-on-files-api-openapi.yml
+- filename: box-classifications-on-folders-api-openapi.yml
   format: yaml
-  label: Box File Requests API
-  slug: box-file-requests-api
+  label: Box Classifications on Folders API
+  slug: box-classifications-on-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/file-requests-openapi-original.yml
-- filename: folders-openapi-original.yml
-  format: yaml
-  label: Box Folders API
-  slug: box-folders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/folders-openapi-original.yml
-- filename: folder-locks-openapi-original.yml
-  format: yaml
-  label: Box Folder Locks API
-  slug: box-folder-locks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/folder-locks-openapi-original.yml
-- filename: metadata-templates-openapi-original.yml
-  format: yaml
-  label: Box Metadata Templates API
-  slug: box-metadata-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/metadata-templates-openapi-original.yml
-- filename: metadata-cascade-policies-openapi-original.yml
-  format: yaml
-  label: Box Metadata Cascade Policies API
-  slug: box-metadata-cascade-policies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/metadata-cascade-policies-openapi-original.yml
-- filename: metadata-queries-openapi-original.yml
-  format: yaml
-  label: Box Metadata Queries API
-  slug: box-metadata-queries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/metadata-queries-openapi-original.yml
-- filename: comments-openapi-original.yml
-  format: yaml
-  label: Box Comments API
-  slug: box-comments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/comments-openapi-original.yml
-- filename: collaborations-openapi-original.yml
-  format: yaml
-  label: Box Collaborations API
-  slug: box-collaborations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/collaborations-openapi-original.yml
-- filename: search-openapi-original.yml
-  format: yaml
-  label: Box Search API
-  slug: box-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/search-openapi-original.yml
-- filename: tasks-openapi-original.yml
-  format: yaml
-  label: Box Tasks API
-  slug: box-tasks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/tasks-openapi-original.yml
-- filename: task-assignments-openapi-original.yml
-  format: yaml
-  label: Box Task Assignments API
-  slug: box-task-assignments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/task-assignments-openapi-original.yml
-- filename: shared-items-openapi-original.yml
-  format: yaml
-  label: Box Shared Items API
-  slug: box-shared-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/shared-items-openapi-original.yml
-- filename: shared-itemsfolders-openapi-original.yml
-  format: yaml
-  label: Box Shared Items#folders API
-  slug: box-shared-itemsfolders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/shared-itemsfolders-openapi-original.yml
-- filename: web-links-openapi-original.yml
-  format: yaml
-  label: Box Web Links API
-  slug: box-web-links-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/web-links-openapi-original.yml
-- filename: shared-itemsweb-links-openapi-original.yml
-  format: yaml
-  label: Box Shared Items#web Links API
-  slug: box-shared-itemsweb-links-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/shared-itemsweb-links-openapi-original.yml
-- filename: users-openapi-original.yml
-  format: yaml
-  label: Box Users API
-  slug: box-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/users-openapi-original.yml
-- filename: invites-openapi-original.yml
-  format: yaml
-  label: Box Invites API
-  slug: box-invites-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/invites-openapi-original.yml
-- filename: groups-openapi-original.yml
-  format: yaml
-  label: Box Groups API
-  slug: box-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/groups-openapi-original.yml
-- filename: group-memberships-openapi-original.yml
-  format: yaml
-  label: Box Group Memberships API
-  slug: box-group-memberships-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/group-memberships-openapi-original.yml
-- filename: webhooks-openapi-original.yml
-  format: yaml
-  label: Box Webhooks API
-  slug: box-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/webhooks-openapi-original.yml
-- filename: skill-invocations-openapi-original.yml
-  format: yaml
-  label: Box Skill Invocations API
-  slug: box-skill-invocations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/skill-invocations-openapi-original.yml
-- filename: events-openapi-original.yml
-  format: yaml
-  label: Box Events API
-  slug: box-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/events-openapi-original.yml
-- filename: collections-openapi-original.yml
-  format: yaml
-  label: Box Collections API
-  slug: box-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/collections-openapi-original.yml
-- filename: recent-items-openapi-original.yml
-  format: yaml
-  label: Box Recent Items API
-  slug: box-recent-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/recent-items-openapi-original.yml
-- filename: retention-policies-openapi-original.yml
-  format: yaml
-  label: Box Retention Policies API
-  slug: box-retention-policies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/retention-policies-openapi-original.yml
-- filename: retention-policy-assignments-openapi-original.yml
-  format: yaml
-  label: Box Retention Policy Assignments API
-  slug: box-retention-policy-assignments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/retention-policy-assignments-openapi-original.yml
-- filename: legal-hold-policies-openapi-original.yml
-  format: yaml
-  label: Box Legal Hold Policies API
-  slug: box-legal-hold-policies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/legal-hold-policies-openapi-original.yml
-- filename: legal-hold-policy-assignments-openapi-original.yml
-  format: yaml
-  label: Box Legal Hold Policy Assignments API
-  slug: box-legal-hold-policy-assignments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/legal-hold-policy-assignments-openapi-original.yml
-- filename: file-version-retentions-openapi-original.yml
-  format: yaml
-  label: Box File Version Retentions API
-  slug: box-file-version-retentions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/file-version-retentions-openapi-original.yml
-- filename: file-version-legal-holds-openapi-original.yml
-  format: yaml
-  label: Box File Version Legal Holds API
-  slug: box-file-version-legal-holds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/file-version-legal-holds-openapi-original.yml
-- filename: shield-information-barriers-openapi-original.yml
-  format: yaml
-  label: Box Shield Information Barriers API
-  slug: box-shield-information-barriers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/shield-information-barriers-openapi-original.yml
-- filename: shield-information-barrier-reports-openapi-original.yml
-  format: yaml
-  label: Box Shield Information Barrier Reports API
-  slug: box-shield-information-barrier-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/shield-information-barrier-reports-openapi-original.yml
-- filename: shield-information-barrier-segments-openapi-original.yml
-  format: yaml
-  label: Box Shield Information Barrier Segments API
-  slug: box-shield-information-barrier-segments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/shield-information-barrier-segments-openapi-original.yml
-- filename: shield-information-barrier-segment-members-openapi-original.yml
-  format: yaml
-  label: Box Shield Information Barrier Segment Members API
-  slug: box-shield-information-barrier-segment-members-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/shield-information-barrier-segment-members-openapi-original.yml
-- filename: shield-information-barrier-segment-restrictions-openapi-original.yml
-  format: yaml
-  label: Box Shield Information Barrier Segment Restrictions API
-  slug: box-shield-information-barrier-segment-restrictions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/shield-information-barrier-segment-restrictions-openapi-original.yml
-- filename: device-pinners-openapi-original.yml
-  format: yaml
-  label: Box Device Pinners API
-  slug: box-device-pinners-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/device-pinners-openapi-original.yml
-- filename: enterprises-openapi-original.yml
-  format: yaml
-  label: Box Enterprises API
-  slug: box-enterprises-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/enterprises-openapi-original.yml
-- filename: terms-of-services-openapi-original.yml
-  format: yaml
-  label: Box Terms Of Services API
-  slug: box-terms-of-services-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/terms-of-services-openapi-original.yml
-- filename: terms-of-service-user-statuses-openapi-original.yml
-  format: yaml
-  label: Box Terms Of Service User Statuses API
-  slug: box-terms-of-service-user-statuses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/terms-of-service-user-statuses-openapi-original.yml
-- filename: collaboration-whitelist-entries-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-classifications-on-folders-api-openapi.yml
+- filename: box-collaboration-whitelist-entries-api-openapi.yml
   format: yaml
   label: Box Collaboration Whitelist Entries API
   slug: box-collaboration-whitelist-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/collaboration-whitelist-entries-openapi-original.yml
-- filename: collaboration-whitelist-exempt-targets-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-collaboration-whitelist-entries-api-openapi.yml
+- filename: box-collaboration-whitelist-exempt-targets-api-openapi.yml
   format: yaml
   label: Box Collaboration Whitelist Exempt Targets API
   slug: box-collaboration-whitelist-exempt-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/collaboration-whitelist-exempt-targets-openapi-original.yml
-- filename: storage-policies-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-collaboration-whitelist-exempt-targets-api-openapi.yml
+- filename: box-collaborations-api-openapi.yml
   format: yaml
-  label: Box Storage Policies API
-  slug: box-storage-policies-api
+  label: Box Collaborations API
+  slug: box-collaborations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/storage-policies-openapi-original.yml
-- filename: storage-policy-assignments-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-collaborations-api-openapi.yml
+- filename: box-collaborations-list-api-openapi.yml
   format: yaml
-  label: Box Storage Policy Assignments API
-  slug: box-storage-policy-assignments-api
+  label: Box Collaborations (List) API
+  slug: box-collaborations-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/storage-policy-assignments-openapi-original.yml
-- filename: zip-downloads-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-collaborations-list-api-openapi.yml
+- filename: box-collections-api-openapi.yml
   format: yaml
-  label: Box Zip Downloads API
-  slug: box-zip-downloads-api
+  label: Box Collections API
+  slug: box-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/zip-downloads-openapi-original.yml
-- filename: sign-requests-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-collections-api-openapi.yml
+- filename: box-comments-api-openapi.yml
   format: yaml
-  label: Box Sign Requests API
-  slug: box-sign-requests-api
+  label: Box Comments API
+  slug: box-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/sign-requests-openapi-original.yml
-- filename: workflows-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-comments-api-openapi.yml
+- filename: box-device-pinners-api-openapi.yml
   format: yaml
-  label: Box Workflows API
-  slug: box-workflows-api
+  label: Box Device Pinners API
+  slug: box-device-pinners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/workflows-openapi-original.yml
-- filename: sign-templates-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-device-pinners-api-openapi.yml
+- filename: box-domain-restrictions-for-collaborations-api-openapi.yml
   format: yaml
-  label: Box Sign Templates API
-  slug: box-sign-templates-api
+  label: Box Domain Restrictions for Collaborations API
+  slug: box-domain-restrictions-for-collaborations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/sign-templates-openapi-original.yml
-- filename: integration-mappings-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-domain-restrictions-for-collaborations-api-openapi.yml
+- filename: box-domain-restrictions-user-exemptions-api-openapi.yml
+  format: yaml
+  label: Box Domain Restrictions (User Exemptions) API
+  slug: box-domain-restrictions-user-exemptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-domain-restrictions-user-exemptions-api-openapi.yml
+- filename: box-downloads-api-openapi.yml
+  format: yaml
+  label: Box Downloads API
+  slug: box-downloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-downloads-api-openapi.yml
+- filename: box-email-aliases-api-openapi.yml
+  format: yaml
+  label: Box Email Aliases API
+  slug: box-email-aliases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-email-aliases-api-openapi.yml
+- filename: box-enterprises-api-openapi.yml
+  format: yaml
+  label: Box Enterprises API
+  slug: box-enterprises-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-enterprises-api-openapi.yml
+- filename: box-events-api-openapi.yml
+  format: yaml
+  label: Box Events API
+  slug: box-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-events-api-openapi.yml
+- filename: box-file-requests-api-openapi.yml
+  format: yaml
+  label: Box File Requests API
+  slug: box-file-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-file-requests-api-openapi.yml
+- filename: box-file-version-legal-holds-api-openapi.yml
+  format: yaml
+  label: Box File Version Legal Holds API
+  slug: box-file-version-legal-holds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-file-version-legal-holds-api-openapi.yml
+- filename: box-file-version-retentions-api-openapi.yml
+  format: yaml
+  label: Box File Version Retentions API
+  slug: box-file-version-retentions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-file-version-retentions-api-openapi.yml
+- filename: box-file-versions-api-openapi.yml
+  format: yaml
+  label: Box File Versions API
+  slug: box-file-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-file-versions-api-openapi.yml
+- filename: box-files-api-openapi.yml
+  format: yaml
+  label: Box Files API
+  slug: box-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-files-api-openapi.yml
+- filename: box-folder-locks-api-openapi.yml
+  format: yaml
+  label: Box Folder Locks API
+  slug: box-folder-locks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-folder-locks-api-openapi.yml
+- filename: box-folders-api-openapi.yml
+  format: yaml
+  label: Box Folders API
+  slug: box-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-folders-api-openapi.yml
+- filename: box-group-memberships-api-openapi.yml
+  format: yaml
+  label: Box Group Memberships API
+  slug: box-group-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-group-memberships-api-openapi.yml
+- filename: box-groups-api-openapi.yml
+  format: yaml
+  label: Box Groups API
+  slug: box-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-groups-api-openapi.yml
+- filename: box-integration-mappings-api-openapi.yml
   format: yaml
   label: Box Integration Mappings API
   slug: box-integration-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/integration-mappings-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-integration-mappings-api-openapi.yml
+- filename: box-invites-api-openapi.yml
+  format: yaml
+  label: Box Invites API
+  slug: box-invites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-invites-api-openapi.yml
+- filename: box-legal-hold-policies-api-openapi.yml
+  format: yaml
+  label: Box Legal Hold Policies API
+  slug: box-legal-hold-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-legal-hold-policies-api-openapi.yml
+- filename: box-legal-hold-policy-assignments-api-openapi.yml
+  format: yaml
+  label: Box Legal Hold Policy Assignments API
+  slug: box-legal-hold-policy-assignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-legal-hold-policy-assignments-api-openapi.yml
+- filename: box-metadata-cascade-policies-api-openapi.yml
+  format: yaml
+  label: Box Metadata Cascade Policies API
+  slug: box-metadata-cascade-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-metadata-cascade-policies-api-openapi.yml
+- filename: box-metadata-instances-files-api-openapi.yml
+  format: yaml
+  label: Box Metadata Instances (Files) API
+  slug: box-metadata-instances-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-metadata-instances-files-api-openapi.yml
+- filename: box-metadata-instances-folders-api-openapi.yml
+  format: yaml
+  label: Box Metadata Instances (Folders) API
+  slug: box-metadata-instances-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-metadata-instances-folders-api-openapi.yml
+- filename: box-metadata-queries-api-openapi.yml
+  format: yaml
+  label: Box Metadata Queries API
+  slug: box-metadata-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-metadata-queries-api-openapi.yml
+- filename: box-metadata-templates-api-openapi.yml
+  format: yaml
+  label: Box Metadata Templates API
+  slug: box-metadata-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-metadata-templates-api-openapi.yml
+- filename: box-oauth2-api-openapi.yml
+  format: yaml
+  label: Box Oauth2 API
+  slug: box-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-oauth2-api-openapi.yml
+- filename: box-recent-items-api-openapi.yml
+  format: yaml
+  label: Box Recent Items API
+  slug: box-recent-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-recent-items-api-openapi.yml
+- filename: box-retention-policies-api-openapi.yml
+  format: yaml
+  label: Box Retention Policies API
+  slug: box-retention-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-retention-policies-api-openapi.yml
+- filename: box-retention-policy-assignments-api-openapi.yml
+  format: yaml
+  label: Box Retention Policy Assignments API
+  slug: box-retention-policy-assignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-retention-policy-assignments-api-openapi.yml
+- filename: box-search-api-openapi.yml
+  format: yaml
+  label: Box Search API
+  slug: box-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-search-api-openapi.yml
+- filename: box-session-termination-api-openapi.yml
+  format: yaml
+  label: Box Session Termination API
+  slug: box-session-termination-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-session-termination-api-openapi.yml
+- filename: box-shared-items-api-openapi.yml
+  format: yaml
+  label: Box Shared Items API
+  slug: box-shared-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-shared-items-api-openapi.yml
+- filename: box-shared-items-folders-api-openapi.yml
+  format: yaml
+  label: Box Shared Items#folders API
+  slug: box-shared-items-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-shared-items-folders-api-openapi.yml
+- filename: box-shared-items-web-links-api-openapi.yml
+  format: yaml
+  label: Box Shared Items#web Links API
+  slug: box-shared-items-web-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-shared-items-web-links-api-openapi.yml
+- filename: box-shared-links-files-api-openapi.yml
+  format: yaml
+  label: Box Shared Links (Files) API
+  slug: box-shared-links-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-shared-links-files-api-openapi.yml
+- filename: box-shared-links-folders-api-openapi.yml
+  format: yaml
+  label: Box Shared Links (Folders) API
+  slug: box-shared-links-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-shared-links-folders-api-openapi.yml
+- filename: box-shared-links-web-links-api-openapi.yml
+  format: yaml
+  label: Box Shared Links (Web Links) API
+  slug: box-shared-links-web-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-shared-links-web-links-api-openapi.yml
+- filename: box-shield-information-barrier-reports-api-openapi.yml
+  format: yaml
+  label: Box Shield Information Barrier Reports API
+  slug: box-shield-information-barrier-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-shield-information-barrier-reports-api-openapi.yml
+- filename: box-shield-information-barrier-segment-members-api-openapi.yml
+  format: yaml
+  label: Box Shield Information Barrier Segment Members API
+  slug: box-shield-information-barrier-segment-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-shield-information-barrier-segment-members-api-openapi.yml
+- filename: box-shield-information-barrier-segment-restrictions-api-openapi.yml
+  format: yaml
+  label: Box Shield Information Barrier Segment Restrictions API
+  slug: box-shield-information-barrier-segment-restrictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-shield-information-barrier-segment-restrictions-api-openapi.yml
+- filename: box-shield-information-barrier-segments-api-openapi.yml
+  format: yaml
+  label: Box Shield Information Barrier Segments API
+  slug: box-shield-information-barrier-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-shield-information-barrier-segments-api-openapi.yml
+- filename: box-shield-information-barriers-api-openapi.yml
+  format: yaml
+  label: Box Shield Information Barriers API
+  slug: box-shield-information-barriers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-shield-information-barriers-api-openapi.yml
+- filename: box-sign-requests-api-openapi.yml
+  format: yaml
+  label: Box Sign Requests API
+  slug: box-sign-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-sign-requests-api-openapi.yml
+- filename: box-sign-templates-api-openapi.yml
+  format: yaml
+  label: Box Sign Templates API
+  slug: box-sign-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-sign-templates-api-openapi.yml
+- filename: box-skill-invocations-api-openapi.yml
+  format: yaml
+  label: Box Skill Invocations API
+  slug: box-skill-invocations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-skill-invocations-api-openapi.yml
+- filename: box-skills-api-openapi.yml
+  format: yaml
+  label: Box Skills API
+  slug: box-skills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-skills-api-openapi.yml
+- filename: box-standard-and-zones-storage-policies-api-openapi.yml
+  format: yaml
+  label: Box Standard and Zones Storage Policies API
+  slug: box-standard-and-zones-storage-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-standard-and-zones-storage-policies-api-openapi.yml
+- filename: box-standard-and-zones-storage-policy-assignments-api-openapi.yml
+  format: yaml
+  label: Box Standard and Zones Storage Policy Assignments API
+  slug: box-standard-and-zones-storage-policy-assignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-standard-and-zones-storage-policy-assignments-api-openapi.yml
+- filename: box-storage-policies-api-openapi.yml
+  format: yaml
+  label: Box Storage Policies API
+  slug: box-storage-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-storage-policies-api-openapi.yml
+- filename: box-storage-policy-assignments-api-openapi.yml
+  format: yaml
+  label: Box Storage Policy Assignments API
+  slug: box-storage-policy-assignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-storage-policy-assignments-api-openapi.yml
+- filename: box-task-assignments-api-openapi.yml
+  format: yaml
+  label: Box Task Assignments API
+  slug: box-task-assignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-task-assignments-api-openapi.yml
+- filename: box-tasks-api-openapi.yml
+  format: yaml
+  label: Box Tasks API
+  slug: box-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-tasks-api-openapi.yml
+- filename: box-terms-of-service-api-openapi.yml
+  format: yaml
+  label: Box Terms of Service API
+  slug: box-terms-of-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-terms-of-service-api-openapi.yml
+- filename: box-terms-of-service-user-statuses-api-openapi.yml
+  format: yaml
+  label: Box Terms of Service User Statuses API
+  slug: box-terms-of-service-user-statuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-terms-of-service-user-statuses-api-openapi.yml
+- filename: box-terms-of-services-api-openapi.yml
+  format: yaml
+  label: Box Terms of Services API
+  slug: box-terms-of-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-terms-of-services-api-openapi.yml
+- filename: box-transfer-folders-api-openapi.yml
+  format: yaml
+  label: Box Transfer Folders API
+  slug: box-transfer-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-transfer-folders-api-openapi.yml
+- filename: box-trashed-files-api-openapi.yml
+  format: yaml
+  label: Box Trashed Files API
+  slug: box-trashed-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-trashed-files-api-openapi.yml
+- filename: box-trashed-folders-api-openapi.yml
+  format: yaml
+  label: Box Trashed Folders API
+  slug: box-trashed-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-trashed-folders-api-openapi.yml
+- filename: box-trashed-items-api-openapi.yml
+  format: yaml
+  label: Box Trashed Items API
+  slug: box-trashed-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-trashed-items-api-openapi.yml
+- filename: box-trashed-web-links-api-openapi.yml
+  format: yaml
+  label: Box Trashed Web Links API
+  slug: box-trashed-web-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-trashed-web-links-api-openapi.yml
+- filename: box-uploads-api-openapi.yml
+  format: yaml
+  label: Box Uploads API
+  slug: box-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-uploads-api-openapi.yml
+- filename: box-uploads-chunked-api-openapi.yml
+  format: yaml
+  label: Box Uploads (Chunked) API
+  slug: box-uploads-chunked-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-uploads-chunked-api-openapi.yml
+- filename: box-user-avatars-api-openapi.yml
+  format: yaml
+  label: Box User Avatars API
+  slug: box-user-avatars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-user-avatars-api-openapi.yml
+- filename: box-users-api-openapi.yml
+  format: yaml
+  label: Box Users API
+  slug: box-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-users-api-openapi.yml
+- filename: box-watermarks-files-api-openapi.yml
+  format: yaml
+  label: Box Watermarks (Files) API
+  slug: box-watermarks-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-watermarks-files-api-openapi.yml
+- filename: box-watermarks-folders-api-openapi.yml
+  format: yaml
+  label: Box Watermarks (Folders) API
+  slug: box-watermarks-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-watermarks-folders-api-openapi.yml
+- filename: box-web-links-api-openapi.yml
+  format: yaml
+  label: Box Web Links API
+  slug: box-web-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-web-links-api-openapi.yml
+- filename: box-webhooks-api-openapi.yml
+  format: yaml
+  label: Box Webhooks API
+  slug: box-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-webhooks-api-openapi.yml
+- filename: box-workflows-api-openapi.yml
+  format: yaml
+  label: Box Workflows API
+  slug: box-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-workflows-api-openapi.yml
+- filename: box-zip-downloads-api-openapi.yml
+  format: yaml
+  label: Box Zip Downloads API
+  slug: box-zip-downloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-zip-downloads-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

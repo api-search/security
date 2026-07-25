@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: thegamesdb-openapi.yml
+- filename: thegamesdb-developers-api-openapi.yml
   format: yaml
-  label: TheGamesDB API
-  slug: thegamesdb
+  label: TheGamesDB Developers API
+  slug: thegamesdb-developers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/openapi/thegamesdb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/openapi/thegamesdb-developers-api-openapi.yml
+- filename: thegamesdb-games-api-openapi.yml
+  format: yaml
+  label: TheGamesDB Games API
+  slug: thegamesdb-games-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/openapi/thegamesdb-games-api-openapi.yml
+- filename: thegamesdb-genres-api-openapi.yml
+  format: yaml
+  label: TheGamesDB Genres API
+  slug: thegamesdb-genres-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/openapi/thegamesdb-genres-api-openapi.yml
+- filename: thegamesdb-platforms-api-openapi.yml
+  format: yaml
+  label: TheGamesDB Platforms API
+  slug: thegamesdb-platforms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/openapi/thegamesdb-platforms-api-openapi.yml
+- filename: thegamesdb-publishers-api-openapi.yml
+  format: yaml
+  label: TheGamesDB Publishers API
+  slug: thegamesdb-publishers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/openapi/thegamesdb-publishers-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,24 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: postiz-openapi.yml
+- filename: postiz-analytics-api-openapi.yml
+  format: yaml
+  label: Postiz Analytics API
+  slug: postiz-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/openapi/postiz-analytics-api-openapi.yml
+- filename: postiz-integrations-api-openapi.yml
+  format: yaml
+  label: Postiz Integrations API
+  slug: postiz-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/openapi/postiz-integrations-api-openapi.yml
+- filename: postiz-notifications-api-openapi.yml
+  format: yaml
+  label: Postiz Notifications API
+  slug: postiz-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/openapi/postiz-notifications-api-openapi.yml
+- filename: postiz-posts-api-openapi.yml
   format: yaml
   label: Postiz Posts API
-  slug: posts
+  slug: postiz-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/openapi/postiz-openapi.yml
-- filename: postiz-openapi.yml
-  format: yaml
-  label: Postiz Integrations and Channels API
-  slug: integrations-channels
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/openapi/postiz-openapi.yml
-- filename: postiz-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/openapi/postiz-posts-api-openapi.yml
+- filename: postiz-uploads-api-openapi.yml
   format: yaml
   label: Postiz Uploads API
-  slug: uploads
+  slug: postiz-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/openapi/postiz-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/openapi/postiz-uploads-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

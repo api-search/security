@@ -1,35 +1,17 @@
 ---
 api_specs:
-- filename: shellrecharge-openapi.yml
+- filename: shellrecharge-locations-api-openapi.yml
   format: yaml
-  label: ShellRecharge EV Public Locations API
-  slug: shellrecharge-public-locations-api
+  label: ShellRecharge Locations API
+  slug: shellrecharge-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shellrecharge/refs/heads/main/openapi/shellrecharge-openapi.yml
-- filename: shellrecharge-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shellrecharge/refs/heads/main/openapi/shellrecharge-locations-api-openapi.yml
+- filename: shellrecharge-sessions-api-openapi.yml
   format: yaml
-  label: ShellRecharge EV Public Charge Sessions API
-  slug: shellrecharge-public-charge-sessions-api
+  label: ShellRecharge Sessions API
+  slug: shellrecharge-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shellrecharge/refs/heads/main/openapi/shellrecharge-openapi.yml
-- filename: shellrecharge-openapi.yml
-  format: yaml
-  label: ShellRecharge OCPI API
-  slug: shellrecharge-ocpi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shellrecharge/refs/heads/main/openapi/shellrecharge-openapi.yml
-- filename: shellrecharge-openapi.yml
-  format: yaml
-  label: ShellRecharge Tariffs API
-  slug: shellrecharge-tariffs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shellrecharge/refs/heads/main/openapi/shellrecharge-openapi.yml
-- filename: shellrecharge-openapi.yml
-  format: yaml
-  label: ShellRecharge Tokens API
-  slug: shellrecharge-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shellrecharge/refs/heads/main/openapi/shellrecharge-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shellrecharge/refs/heads/main/openapi/shellrecharge-sessions-api-openapi.yml
 description: ''
 domains:
 - caa: []

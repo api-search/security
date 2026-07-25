@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: DocSpring API
-  slug: docspring-api
+- filename: docspring-authentication-api-openapi.yml
+  format: yaml
+  label: DocSpring Authentication API
+  slug: docspring-authentication-api
   spec_type: OpenAPI
-  url: https://docspring.com/api-docs/v1/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/docspring/refs/heads/main/openapi/docspring-authentication-api-openapi.yml
+- filename: docspring-combine-pdfs-api-openapi.yml
+  format: yaml
+  label: DocSpring Combine PDFs API
+  slug: docspring-combine-pdfs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docspring/refs/heads/main/openapi/docspring-combine-pdfs-api-openapi.yml
+- filename: docspring-custom-files-api-openapi.yml
+  format: yaml
+  label: DocSpring Custom Files API
+  slug: docspring-custom-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docspring/refs/heads/main/openapi/docspring-custom-files-api-openapi.yml
+- filename: docspring-data-requests-api-openapi.yml
+  format: yaml
+  label: DocSpring Data Requests API
+  slug: docspring-data-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docspring/refs/heads/main/openapi/docspring-data-requests-api-openapi.yml
+- filename: docspring-folders-api-openapi.yml
+  format: yaml
+  label: DocSpring Folders API
+  slug: docspring-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docspring/refs/heads/main/openapi/docspring-folders-api-openapi.yml
+- filename: docspring-pdf-submissions-api-openapi.yml
+  format: yaml
+  label: DocSpring PDF Submissions API
+  slug: docspring-pdf-submissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docspring/refs/heads/main/openapi/docspring-pdf-submissions-api-openapi.yml
+- filename: docspring-submission-batches-api-openapi.yml
+  format: yaml
+  label: DocSpring Submission Batches API
+  slug: docspring-submission-batches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docspring/refs/heads/main/openapi/docspring-submission-batches-api-openapi.yml
+- filename: docspring-templates-api-openapi.yml
+  format: yaml
+  label: DocSpring Templates API
+  slug: docspring-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docspring/refs/heads/main/openapi/docspring-templates-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

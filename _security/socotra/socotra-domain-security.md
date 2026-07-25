@@ -1,11 +1,113 @@
 ---
 api_specs:
-- filename: socotra-openapi-original.json
-  format: json
-  label: Socotra Insurance Suite API
-  slug: socotra-insurance-suite-api
+- filename: socotra-auth-api-openapi.yml
+  format: yaml
+  label: Socotra Auth API
+  slug: socotra-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-auth-api-openapi.yml
+- filename: socotra-auxdata-api-openapi.yml
+  format: yaml
+  label: Socotra Auxdata API
+  slug: socotra-auxdata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-auxdata-api-openapi.yml
+- filename: socotra-billing-api-openapi.yml
+  format: yaml
+  label: Socotra Billing API
+  slug: socotra-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-billing-api-openapi.yml
+- filename: socotra-business-stats-api-openapi.yml
+  format: yaml
+  label: Socotra Business Stats API
+  slug: socotra-business-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-business-stats-api-openapi.yml
+- filename: socotra-claim-api-openapi.yml
+  format: yaml
+  label: Socotra Claim API
+  slug: socotra-claim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-claim-api-openapi.yml
+- filename: socotra-compliance-api-openapi.yml
+  format: yaml
+  label: Socotra Compliance API
+  slug: socotra-compliance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-compliance-api-openapi.yml
+- filename: socotra-config-api-openapi.yml
+  format: yaml
+  label: Socotra Config API
+  slug: socotra-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-config-api-openapi.yml
+- filename: socotra-contact-api-openapi.yml
+  format: yaml
+  label: Socotra Contact API
+  slug: socotra-contact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-contact-api-openapi.yml
+- filename: socotra-document-api-openapi.yml
+  format: yaml
+  label: Socotra Document API
+  slug: socotra-document-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-document-api-openapi.yml
+- filename: socotra-event-api-openapi.yml
+  format: yaml
+  label: Socotra Event API
+  slug: socotra-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-event-api-openapi.yml
+- filename: socotra-migration-api-openapi.yml
+  format: yaml
+  label: Socotra Migration API
+  slug: socotra-migration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-migration-api-openapi.yml
+- filename: socotra-payment-execution-api-openapi.yml
+  format: yaml
+  label: Socotra Payment Execution API
+  slug: socotra-payment-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-payment-execution-api-openapi.yml
+- filename: socotra-plugin-api-openapi.yml
+  format: yaml
+  label: Socotra Plugin API
+  slug: socotra-plugin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-plugin-api-openapi.yml
+- filename: socotra-policy-api-openapi.yml
+  format: yaml
+  label: Socotra Policy API
+  slug: socotra-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-policy-api-openapi.yml
+- filename: socotra-producers-api-openapi.yml
+  format: yaml
+  label: Socotra Producers API
+  slug: socotra-producers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-producers-api-openapi.yml
+- filename: socotra-resource-api-openapi.yml
+  format: yaml
+  label: Socotra Resource API
+  slug: socotra-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-resource-api-openapi.yml
+- filename: socotra-search-api-openapi.yml
+  format: yaml
+  label: Socotra Search API
+  slug: socotra-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-search-api-openapi.yml
+- filename: socotra-work-management-api-openapi.yml
+  format: yaml
+  label: Socotra Work Management API
+  slug: socotra-work-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-work-management-api-openapi.yml
 description: ''
 domains:
 - caa: []

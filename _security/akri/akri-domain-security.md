@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: akri-metrics-openapi.yaml
+- filename: akri-metrics-api-openapi.yml
   format: yaml
   label: Akri Metrics API
-  slug: metrics-api
+  slug: akri-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akri/refs/heads/main/openapi/akri-metrics-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/akri/refs/heads/main/openapi/akri-metrics-api-openapi.yml
 description: ''
 domains:
 - caa: []

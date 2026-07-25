@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: durable-functions-http-api-openapi.yml
+- filename: durable-functions-entities-api-openapi.yml
   format: yaml
-  label: Azure Durable Functions HTTP API
-  slug: durable-functions-http-api
+  label: Azure Durable Functions Entities API
+  slug: durable-functions-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/durable-functions/refs/heads/main/openapi/durable-functions-http-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/durable-functions/refs/heads/main/openapi/durable-functions-entities-api-openapi.yml
+- filename: durable-functions-orchestrations-api-openapi.yml
+  format: yaml
+  label: Azure Durable Functions Orchestrations API
+  slug: durable-functions-orchestrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/durable-functions/refs/heads/main/openapi/durable-functions-orchestrations-api-openapi.yml
 description: ''
 domains:
 - caa:

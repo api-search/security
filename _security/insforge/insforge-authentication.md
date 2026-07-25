@@ -2,90 +2,72 @@
 api_key_in:
 - header
 api_specs:
-- filename: insforge-auth-openapi.yaml
+- filename: insforge-admin-api-openapi.yml
   format: yaml
-  label: Insforge Authentication API
-  slug: insforge-authentication-api
+  label: Insforge Admin API
+  slug: insforge-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-auth-openapi.yaml
-- filename: insforge-payments-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-admin-api-openapi.yml
+- filename: insforge-channels-api-openapi.yml
   format: yaml
-  label: Insforge Payments API
-  slug: insforge-payments-api
+  label: Insforge Channels API
+  slug: insforge-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-payments-openapi.yaml
-- filename: insforge-storage-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-channels-api-openapi.yml
+- filename: insforge-client-api-openapi.yml
   format: yaml
-  label: Insforge Storage API
-  slug: insforge-storage-api
+  label: Insforge Client API
+  slug: insforge-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-storage-openapi.yaml
-- filename: insforge-deployments-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-client-api-openapi.yml
+- filename: insforge-configuration-api-openapi.yml
   format: yaml
-  label: Insforge Deployments API
-  slug: insforge-deployments-api
+  label: Insforge Configuration API
+  slug: insforge-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-deployments-openapi.yaml
-- filename: insforge-realtime-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-configuration-api-openapi.yml
+- filename: insforge-messages-api-openapi.yml
   format: yaml
-  label: Insforge Realtime API
-  slug: insforge-realtime-api
+  label: Insforge Messages API
+  slug: insforge-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-realtime-openapi.yaml
-- filename: insforge-functions-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-messages-api-openapi.yml
+- filename: insforge-payment-webhooks-api-openapi.yml
   format: yaml
-  label: Insforge Functions API
-  slug: insforge-functions-api
+  label: Insforge Payment Webhooks API
+  slug: insforge-payment-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-functions-openapi.yaml
-- filename: insforge-ai-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-payment-webhooks-api-openapi.yml
+- filename: insforge-permissions-api-openapi.yml
   format: yaml
-  label: Insforge AI API
-  slug: insforge-ai-api
+  label: Insforge Permissions API
+  slug: insforge-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-ai-openapi.yaml
-- filename: insforge-tables-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-permissions-api-openapi.yml
+- filename: insforge-razorpay-payments-api-openapi.yml
   format: yaml
-  label: Insforge Tables API
-  slug: insforge-tables-api
+  label: Insforge Razorpay Payments API
+  slug: insforge-razorpay-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-tables-openapi.yaml
-- filename: insforge-records-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-razorpay-payments-api-openapi.yml
+- filename: insforge-s3-access-keys-api-openapi.yml
   format: yaml
-  label: Insforge Records API
-  slug: insforge-records-api
+  label: Insforge S3 Access Keys API
+  slug: insforge-s3-access-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-records-openapi.yaml
-- filename: insforge-metadata-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-s3-access-keys-api-openapi.yml
+- filename: insforge-s3-protocol-api-openapi.yml
   format: yaml
-  label: Insforge Metadata API
-  slug: insforge-metadata-api
+  label: Insforge S3 Protocol API
+  slug: insforge-s3-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-metadata-openapi.yaml
-- filename: insforge-secrets-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-s3-protocol-api-openapi.yml
+- filename: insforge-stripe-payments-api-openapi.yml
   format: yaml
-  label: Insforge Secrets API
-  slug: insforge-secrets-api
+  label: Insforge Stripe Payments API
+  slug: insforge-stripe-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-secrets-openapi.yaml
-- filename: insforge-email-openapi.yaml
-  format: yaml
-  label: Insforge Email API
-  slug: insforge-email-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-email-openapi.yaml
-- filename: insforge-logs-openapi.yaml
-  format: yaml
-  label: Insforge Logs API
-  slug: insforge-logs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-logs-openapi.yaml
-- filename: insforge-health-openapi.yaml
-  format: yaml
-  label: Insforge Health API
-  slug: insforge-health-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-health-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-stripe-payments-api-openapi.yml
 auth_types:
 - apiKey
 - http

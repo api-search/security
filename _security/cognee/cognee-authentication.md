@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: docs
+- filename: cognee-agents-api-openapi.yml
   format: yaml
-  label: Cognee REST API
-  slug: cognee-rest-api
+  label: Cognee agents API
+  slug: cognee-agents-api
   spec_type: OpenAPI
-  url: https://api.cognee.ai/docs
+  url: https://raw.githubusercontent.com/api-evangelist/cognee/refs/heads/main/openapi/cognee-agents-api-openapi.yml
+- filename: cognee-cognify-api-openapi.yml
+  format: yaml
+  label: Cognee cognify API
+  slug: cognee-cognify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognee/refs/heads/main/openapi/cognee-cognify-api-openapi.yml
+- filename: cognee-data-api-openapi.yml
+  format: yaml
+  label: Cognee data API
+  slug: cognee-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognee/refs/heads/main/openapi/cognee-data-api-openapi.yml
+- filename: cognee-datasets-api-openapi.yml
+  format: yaml
+  label: Cognee datasets API
+  slug: cognee-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognee/refs/heads/main/openapi/cognee-datasets-api-openapi.yml
+- filename: cognee-health-api-openapi.yml
+  format: yaml
+  label: Cognee health API
+  slug: cognee-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognee/refs/heads/main/openapi/cognee-health-api-openapi.yml
+- filename: cognee-search-api-openapi.yml
+  format: yaml
+  label: Cognee search API
+  slug: cognee-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognee/refs/heads/main/openapi/cognee-search-api-openapi.yml
+- filename: cognee-settings-api-openapi.yml
+  format: yaml
+  label: Cognee settings API
+  slug: cognee-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognee/refs/heads/main/openapi/cognee-settings-api-openapi.yml
 auth_types:
 - apiKey
 - http

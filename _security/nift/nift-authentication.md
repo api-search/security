@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: nift-partners-openapi.yml
+- filename: nift-customers-api-openapi.yml
   format: yaml
-  label: Nift Partners API
-  slug: nift-partners-api
+  label: NIFT Customers API
+  slug: nift-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/openapi/nift-partners-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/openapi/nift-customers-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,29 +1,35 @@
 ---
 api_specs:
-- filename: openapi.yaml
-  format: yaml
-  label: Vercel REST API
-  slug: vercel-rest-api
-  spec_type: OpenAPI
-  url: https://openapi.vercel.sh/
-- filename: vercel-ai-gateway-openapi.yml
-  format: yaml
-  label: Vercel AI Gateway API
-  slug: vercel-ai-gateway-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/openapi/vercel-ai-gateway-openapi.yml
 - filename: vercel-webhooks-asyncapi.yml
   format: yaml
   label: Vercel Webhooks
   slug: vercel-webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/asyncapi/vercel-webhooks-asyncapi.yml
-- filename: vercel-v0-platform-openapi.yml
+- filename: vercel-chat-api-openapi.yml
   format: yaml
-  label: V0 Platform API
-  slug: v0-platform-api
+  label: Vercel Chat API
+  slug: vercel-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/openapi/vercel-v0-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/openapi/vercel-chat-api-openapi.yml
+- filename: vercel-chats-api-openapi.yml
+  format: yaml
+  label: Vercel Chats API
+  slug: vercel-chats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/openapi/vercel-chats-api-openapi.yml
+- filename: vercel-embeddings-api-openapi.yml
+  format: yaml
+  label: Vercel Embeddings API
+  slug: vercel-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/openapi/vercel-embeddings-api-openapi.yml
+- filename: vercel-models-api-openapi.yml
+  format: yaml
+  label: Vercel Models API
+  slug: vercel-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/openapi/vercel-models-api-openapi.yml
 description: ''
 domains:
 - caa:

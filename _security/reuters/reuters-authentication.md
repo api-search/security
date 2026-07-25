@@ -2,12 +2,30 @@
 api_key_in:
 - query
 api_specs:
-- filename: reuters-connect-api-openapi.yml
+- filename: reuters-authentication-api-openapi.yml
   format: yaml
-  label: Reuters Connect API
-  slug: reuters-connect-api
+  label: Reuters Authentication API
+  slug: reuters-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reuters/refs/heads/main/openapi/reuters-connect-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reuters/refs/heads/main/openapi/reuters-authentication-api-openapi.yml
+- filename: reuters-channels-api-openapi.yml
+  format: yaml
+  label: Reuters Channels API
+  slug: reuters-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reuters/refs/heads/main/openapi/reuters-channels-api-openapi.yml
+- filename: reuters-items-api-openapi.yml
+  format: yaml
+  label: Reuters Items API
+  slug: reuters-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reuters/refs/heads/main/openapi/reuters-items-api-openapi.yml
+- filename: reuters-search-api-openapi.yml
+  format: yaml
+  label: Reuters Search API
+  slug: reuters-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reuters/refs/heads/main/openapi/reuters-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

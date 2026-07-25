@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: exchangerate-openapi.yml
+- filename: exchangerate-account-api-openapi.yml
   format: yaml
-  label: ExchangeRate-API
-  slug: exchangerate-api
+  label: ExchangeRate-API Account API
+  slug: exchangerate-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate/refs/heads/main/openapi/exchangerate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/exchangerate/refs/heads/main/openapi/exchangerate-account-api-openapi.yml
+- filename: exchangerate-currencies-api-openapi.yml
+  format: yaml
+  label: ExchangeRate-API Currencies API
+  slug: exchangerate-currencies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exchangerate/refs/heads/main/openapi/exchangerate-currencies-api-openapi.yml
+- filename: exchangerate-exchange-rates-api-openapi.yml
+  format: yaml
+  label: ExchangeRate-API Exchange Rates API
+  slug: exchangerate-exchange-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exchangerate/refs/heads/main/openapi/exchangerate-exchange-rates-api-openapi.yml
 auth_types:
 - http
 description: ''

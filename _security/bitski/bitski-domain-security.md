@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: bitski-nft-service-openapi-original.json
-  format: json
-  label: Bitski NFT Service APIs
-  slug: bitski-nft-service-apis
+- filename: bitski-activity-api-openapi.yml
+  format: yaml
+  label: Bitski activity API
+  slug: bitski-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/openapi/bitski-nft-service-openapi-original.json
-- filename: bitski-wallet-experience-openapi-original.json
-  format: json
-  label: Bitski Wallet Experience APIs
-  slug: bitski-wallet-experience-apis
+  url: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/openapi/bitski-activity-api-openapi.yml
+- filename: bitski-commerce-api-openapi.yml
+  format: yaml
+  label: Bitski Commerce API
+  slug: bitski-commerce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/openapi/bitski-wallet-experience-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/openapi/bitski-commerce-api-openapi.yml
+- filename: bitski-droplinks-api-openapi.yml
+  format: yaml
+  label: Bitski Droplinks API
+  slug: bitski-droplinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/openapi/bitski-droplinks-api-openapi.yml
+- filename: bitski-minting-api-openapi.yml
+  format: yaml
+  label: Bitski Minting API
+  slug: bitski-minting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/openapi/bitski-minting-api-openapi.yml
+- filename: bitski-token-gating-api-openapi.yml
+  format: yaml
+  label: Bitski Token Gating API
+  slug: bitski-token-gating-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/openapi/bitski-token-gating-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,42 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: arcjet-openapi.yml
+- filename: arcjet-decide-api-openapi.yml
   format: yaml
   label: Arcjet Decide API
   slug: arcjet-decide-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/openapi/arcjet-openapi.yml
-- filename: arcjet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/openapi/arcjet-decide-api-openapi.yml
+- filename: arcjet-report-api-openapi.yml
   format: yaml
-  label: Arcjet Rate Limiting
-  slug: arcjet-rate-limiting
+  label: Arcjet Report API
+  slug: arcjet-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/openapi/arcjet-openapi.yml
-- filename: arcjet-openapi.yml
-  format: yaml
-  label: Arcjet Bot Detection
-  slug: arcjet-bot-detection
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/openapi/arcjet-openapi.yml
-- filename: arcjet-openapi.yml
-  format: yaml
-  label: Arcjet Email Validation
-  slug: arcjet-email-validation
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/openapi/arcjet-openapi.yml
-- filename: arcjet-openapi.yml
-  format: yaml
-  label: Arcjet Sensitive Information Detection
-  slug: arcjet-sensitive-info-detection
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/openapi/arcjet-openapi.yml
-- filename: arcjet-openapi.yml
-  format: yaml
-  label: Arcjet Shield WAF
-  slug: arcjet-shield-waf
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/openapi/arcjet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/openapi/arcjet-report-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

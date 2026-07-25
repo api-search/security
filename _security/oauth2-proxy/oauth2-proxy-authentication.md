@@ -2,12 +2,42 @@
 api_key_in:
 - cookie
 api_specs:
-- filename: oauth2-proxy-openapi.yml
+- filename: oauth2-proxy-metrics-api-openapi.yml
   format: yaml
-  label: Oauth2-Proxy
-  slug: oauth2-proxy
+  label: Oauth2-Proxy Metrics API
+  slug: oauth2-proxy-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oauth2-proxy/refs/heads/main/openapi/oauth2-proxy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oauth2-proxy/refs/heads/main/openapi/oauth2-proxy-metrics-api-openapi.yml
+- filename: oauth2-proxy-oauth2-api-openapi.yml
+  format: yaml
+  label: Oauth2-Proxy Oauth2 API
+  slug: oauth2-proxy-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oauth2-proxy/refs/heads/main/openapi/oauth2-proxy-oauth2-api-openapi.yml
+- filename: oauth2-proxy-oauth2-proxy-endpoints-api-openapi.yml
+  format: yaml
+  label: Oauth2-Proxy OAuth2 Proxy Endpoints API
+  slug: oauth2-proxy-oauth2-proxy-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oauth2-proxy/refs/heads/main/openapi/oauth2-proxy-oauth2-proxy-endpoints-api-openapi.yml
+- filename: oauth2-proxy-ping-api-openapi.yml
+  format: yaml
+  label: Oauth2-Proxy Ping API
+  slug: oauth2-proxy-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oauth2-proxy/refs/heads/main/openapi/oauth2-proxy-ping-api-openapi.yml
+- filename: oauth2-proxy-ready-api-openapi.yml
+  format: yaml
+  label: Oauth2-Proxy Ready API
+  slug: oauth2-proxy-ready-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oauth2-proxy/refs/heads/main/openapi/oauth2-proxy-ready-api-openapi.yml
+- filename: oauth2-proxy-robots-txt-api-openapi.yml
+  format: yaml
+  label: Oauth2-Proxy Robots.txt API
+  slug: oauth2-proxy-robots-txt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oauth2-proxy/refs/heads/main/openapi/oauth2-proxy-robots-txt-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

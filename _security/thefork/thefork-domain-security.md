@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: thefork-b2b-openapi.yml
+- filename: thefork-customers-api-openapi.yml
   format: yaml
-  label: TheFork B2B API
-  slug: rest-api
+  label: TheFork Customers API
+  slug: thefork-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-b2b-openapi.yml
-- filename: thefork-pos-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-customers-api-openapi.yml
+- filename: thefork-orders-api-openapi.yml
   format: yaml
-  label: TheFork POS API
-  slug: pos-api
+  label: TheFork Orders API
+  slug: thefork-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-pos-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-orders-api-openapi.yml
+- filename: thefork-reservations-api-openapi.yml
+  format: yaml
+  label: TheFork Reservations API
+  slug: thefork-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-reservations-api-openapi.yml
+- filename: thefork-reviews-api-openapi.yml
+  format: yaml
+  label: TheFork Reviews API
+  slug: thefork-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-reviews-api-openapi.yml
 description: ''
 domains:
 - caa: []

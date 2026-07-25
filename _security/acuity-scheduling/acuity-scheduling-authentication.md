@@ -7,6 +7,24 @@ api_specs:
   slug: webhooks-asyncapi
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/acuity-scheduling/refs/heads/main/openapi/acuity-scheduling-asyncapi.yml
+- filename: acuity-scheduling-appointments-api-openapi.yml
+  format: yaml
+  label: Acuity Scheduling Appointments API
+  slug: acuity-scheduling-appointments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acuity-scheduling/refs/heads/main/openapi/acuity-scheduling-appointments-api-openapi.yml
+- filename: acuity-scheduling-meta-api-openapi.yml
+  format: yaml
+  label: Acuity Scheduling Meta API
+  slug: acuity-scheduling-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acuity-scheduling/refs/heads/main/openapi/acuity-scheduling-meta-api-openapi.yml
+- filename: acuity-scheduling-payments-api-openapi.yml
+  format: yaml
+  label: Acuity Scheduling Payments API
+  slug: acuity-scheduling-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acuity-scheduling/refs/heads/main/openapi/acuity-scheduling-payments-api-openapi.yml
 auth_types:
 - http
 description: ''

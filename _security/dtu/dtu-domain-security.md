@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: dtu-data.yaml
+- filename: dtu-articles-api-openapi.yml
   format: yaml
-  label: DTU Data (Figshare API)
-  slug: data
+  label: Technical University of Denmark articles API
+  slug: dtu-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dtu/refs/heads/main/openapi/dtu-data.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/dtu/refs/heads/main/openapi/dtu-articles-api-openapi.yml
+- filename: dtu-institutions-api-openapi.yml
+  format: yaml
+  label: Technical University of Denmark institutions API
+  slug: dtu-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dtu/refs/heads/main/openapi/dtu-institutions-api-openapi.yml
 description: ''
 domains:
 - caa: []

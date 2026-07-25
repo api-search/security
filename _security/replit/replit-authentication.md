@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: replit-openapi.yml
+- filename: replit-deployments-api-openapi.yml
   format: yaml
-  label: Replit
-  slug: replit
+  label: Replit Deployments API
+  slug: replit-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/openapi/replit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/openapi/replit-deployments-api-openapi.yml
+- filename: replit-repls-api-openapi.yml
+  format: yaml
+  label: Replit Repls API
+  slug: replit-repls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/openapi/replit-repls-api-openapi.yml
+- filename: replit-users-api-openapi.yml
+  format: yaml
+  label: Replit Users API
+  slug: replit-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/openapi/replit-users-api-openapi.yml
 auth_types:
 - http
 description: ''

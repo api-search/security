@@ -1,35 +1,29 @@
 ---
 api_specs:
-- filename: surfe-b2b-openapi.yml
+- filename: surfe-b2b-account-api-openapi.yml
   format: yaml
-  label: Surfe People Enrichment API
-  slug: surfe-b2b-people-enrichment-api
+  label: Surfe Account API
+  slug: surfe-b2b-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surfe-b2b/refs/heads/main/openapi/surfe-b2b-openapi.yml
-- filename: surfe-b2b-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/surfe-b2b/refs/heads/main/openapi/surfe-b2b-account-api-openapi.yml
+- filename: surfe-b2b-companies-api-openapi.yml
   format: yaml
-  label: Surfe People Search API
-  slug: surfe-b2b-people-search-api
+  label: Surfe Companies API
+  slug: surfe-b2b-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surfe-b2b/refs/heads/main/openapi/surfe-b2b-openapi.yml
-- filename: surfe-b2b-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/surfe-b2b/refs/heads/main/openapi/surfe-b2b-companies-api-openapi.yml
+- filename: surfe-b2b-people-api-openapi.yml
   format: yaml
-  label: Surfe Company Enrichment API
-  slug: surfe-b2b-company-enrichment-api
+  label: Surfe People API
+  slug: surfe-b2b-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surfe-b2b/refs/heads/main/openapi/surfe-b2b-openapi.yml
-- filename: surfe-b2b-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/surfe-b2b/refs/heads/main/openapi/surfe-b2b-people-api-openapi.yml
+- filename: surfe-b2b-recommendations-api-openapi.yml
   format: yaml
-  label: Surfe Company Search API
-  slug: surfe-b2b-company-search-api
+  label: Surfe Recommendations API
+  slug: surfe-b2b-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surfe-b2b/refs/heads/main/openapi/surfe-b2b-openapi.yml
-- filename: surfe-b2b-openapi.yml
-  format: yaml
-  label: Surfe Credits API
-  slug: surfe-b2b-credits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surfe-b2b/refs/heads/main/openapi/surfe-b2b-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/surfe-b2b/refs/heads/main/openapi/surfe-b2b-recommendations-api-openapi.yml
 description: ''
 domains:
 - caa: []

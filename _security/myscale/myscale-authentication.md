@@ -2,24 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: myscale-openapi.yml
+- filename: myscale-query-api-openapi.yml
   format: yaml
-  label: MyScale SQL Interface (ClickHouse HTTP)
-  slug: myscale-sql-http-interface
+  label: MyScale Query API
+  slug: myscale-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myscale/refs/heads/main/openapi/myscale-openapi.yml
-- filename: myscale-openapi.yml
-  format: yaml
-  label: MyScale Vector Search (SQL)
-  slug: myscale-vector-search-sql
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myscale/refs/heads/main/openapi/myscale-openapi.yml
-- filename: myscale-openapi.yml
-  format: yaml
-  label: MyScale Python SDK (clickhouse-connect)
-  slug: myscale-python-sdk
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myscale/refs/heads/main/openapi/myscale-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/myscale/refs/heads/main/openapi/myscale-query-api-openapi.yml
 auth_types:
 - apiKey
 - http

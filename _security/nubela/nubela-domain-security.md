@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: nubela-openapi.yml
+- filename: nubela-company-api-openapi.yml
   format: yaml
-  label: Nubela Proxycurl
-  slug: proxycurl
+  label: Nubela Company API
+  slug: nubela-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nubela/refs/heads/main/openapi/nubela-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nubela/refs/heads/main/openapi/nubela-company-api-openapi.yml
+- filename: nubela-competitor-api-openapi.yml
+  format: yaml
+  label: Nubela Competitor API
+  slug: nubela-competitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nubela/refs/heads/main/openapi/nubela-competitor-api-openapi.yml
+- filename: nubela-customer-api-openapi.yml
+  format: yaml
+  label: Nubela Customer API
+  slug: nubela-customer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nubela/refs/heads/main/openapi/nubela-customer-api-openapi.yml
+- filename: nubela-employee-api-openapi.yml
+  format: yaml
+  label: Nubela Employee API
+  slug: nubela-employee-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nubela/refs/heads/main/openapi/nubela-employee-api-openapi.yml
 description: ''
 domains:
 - caa: []

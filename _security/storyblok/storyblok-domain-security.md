@@ -1,29 +1,71 @@
 ---
 api_specs:
-- filename: storyblok-content-delivery-api-v2-openapi.yml
-  format: yaml
-  label: Storyblok Content Delivery API
-  slug: storyblok-content-delivery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-content-delivery-api-v2-openapi.yml
-- filename: storyblok-management-api-openapi.yml
-  format: yaml
-  label: Storyblok Management API
-  slug: storyblok-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-management-api-openapi.yml
-- filename: storyblok-image-service-openapi.yml
-  format: yaml
-  label: Storyblok Image Service
-  slug: storyblok-image-service
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-image-service-openapi.yml
 - filename: storyblok-webhooks-asyncapi.yml
   format: yaml
   label: Storyblok Webhooks
   slug: storyblok-webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/asyncapi/storyblok-webhooks-asyncapi.yml
+- filename: storyblok-assets-api-openapi.yml
+  format: yaml
+  label: Storyblok Assets API
+  slug: storyblok-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-assets-api-openapi.yml
+- filename: storyblok-collaborators-api-openapi.yml
+  format: yaml
+  label: Storyblok Collaborators API
+  slug: storyblok-collaborators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-collaborators-api-openapi.yml
+- filename: storyblok-components-api-openapi.yml
+  format: yaml
+  label: Storyblok Components API
+  slug: storyblok-components-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-components-api-openapi.yml
+- filename: storyblok-datasources-api-openapi.yml
+  format: yaml
+  label: Storyblok Datasources API
+  slug: storyblok-datasources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-datasources-api-openapi.yml
+- filename: storyblok-image-transformation-api-openapi.yml
+  format: yaml
+  label: Storyblok Image Transformation API
+  slug: storyblok-image-transformation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-image-transformation-api-openapi.yml
+- filename: storyblok-links-api-openapi.yml
+  format: yaml
+  label: Storyblok Links API
+  slug: storyblok-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-links-api-openapi.yml
+- filename: storyblok-spaces-api-openapi.yml
+  format: yaml
+  label: Storyblok Spaces API
+  slug: storyblok-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-spaces-api-openapi.yml
+- filename: storyblok-stories-api-openapi.yml
+  format: yaml
+  label: Storyblok Stories API
+  slug: storyblok-stories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-stories-api-openapi.yml
+- filename: storyblok-tags-api-openapi.yml
+  format: yaml
+  label: Storyblok Tags API
+  slug: storyblok-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-tags-api-openapi.yml
+- filename: storyblok-webhooks-api-openapi.yml
+  format: yaml
+  label: Storyblok Webhooks API
+  slug: storyblok-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

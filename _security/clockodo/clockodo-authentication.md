@@ -2,12 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: clockodo-openapi.yml
+- filename: clockodo-absences-api-openapi.yml
   format: yaml
-  label: Clockodo API
-  slug: clockodo-api
+  label: Clockodo Absences API
+  slug: clockodo-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/openapi/clockodo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/openapi/clockodo-absences-api-openapi.yml
+- filename: clockodo-clock-api-openapi.yml
+  format: yaml
+  label: Clockodo Clock API
+  slug: clockodo-clock-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/openapi/clockodo-clock-api-openapi.yml
+- filename: clockodo-customers-api-openapi.yml
+  format: yaml
+  label: Clockodo Customers API
+  slug: clockodo-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/openapi/clockodo-customers-api-openapi.yml
+- filename: clockodo-entries-api-openapi.yml
+  format: yaml
+  label: Clockodo Entries API
+  slug: clockodo-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/openapi/clockodo-entries-api-openapi.yml
+- filename: clockodo-holidaysquota-api-openapi.yml
+  format: yaml
+  label: Clockodo HolidaysQuota API
+  slug: clockodo-holidaysquota-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/openapi/clockodo-holidaysquota-api-openapi.yml
+- filename: clockodo-lumpsumservices-api-openapi.yml
+  format: yaml
+  label: Clockodo LumpSumServices API
+  slug: clockodo-lumpsumservices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/openapi/clockodo-lumpsumservices-api-openapi.yml
+- filename: clockodo-projects-api-openapi.yml
+  format: yaml
+  label: Clockodo Projects API
+  slug: clockodo-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/openapi/clockodo-projects-api-openapi.yml
+- filename: clockodo-services-api-openapi.yml
+  format: yaml
+  label: Clockodo Services API
+  slug: clockodo-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/openapi/clockodo-services-api-openapi.yml
+- filename: clockodo-users-api-openapi.yml
+  format: yaml
+  label: Clockodo Users API
+  slug: clockodo-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/openapi/clockodo-users-api-openapi.yml
 auth_types:
 - apiKey
 - http

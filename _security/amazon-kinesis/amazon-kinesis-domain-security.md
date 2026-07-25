@@ -1,47 +1,71 @@
 ---
 api_specs:
-- filename: amazon-kinesis-data-streams-openapi.yml
+- filename: amazon-kinesis-account-api-openapi.yml
   format: yaml
-  label: Amazon Kinesis Data Streams
-  slug: amazon-kinesis-data-streams
+  label: Amazon Kinesis Account API
+  slug: amazon-kinesis-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis/refs/heads/main/openapi/amazon-kinesis-data-streams-openapi.yml
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis/refs/heads/main/openapi/amazon-kinesis-account-api-openapi.yml
+- filename: amazon-kinesis-consumers-api-openapi.yml
   format: yaml
-  label: Amazon Data Firehose
-  slug: amazon-data-firehose
+  label: Amazon Kinesis Consumers API
+  slug: amazon-kinesis-consumers-api
   spec_type: OpenAPI
-  url: https://api.apis.guru/v2/specs/amazonaws.com/firehose/2015-08-04/openapi.yaml
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis/refs/heads/main/openapi/amazon-kinesis-consumers-api-openapi.yml
+- filename: amazon-kinesis-encryption-api-openapi.yml
   format: yaml
-  label: Amazon Managed Service for Apache Flink
-  slug: amazon-managed-service-for-apache-flink
+  label: Amazon Kinesis Encryption API
+  slug: amazon-kinesis-encryption-api
   spec_type: OpenAPI
-  url: https://api.apis.guru/v2/specs/amazonaws.com/kinesisanalyticsv2/2018-05-23/openapi.yaml
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis/refs/heads/main/openapi/amazon-kinesis-encryption-api-openapi.yml
+- filename: amazon-kinesis-monitoring-api-openapi.yml
   format: yaml
-  label: Amazon Kinesis Video Streams
-  slug: amazon-kinesis-video-streams
+  label: Amazon Kinesis Monitoring API
+  slug: amazon-kinesis-monitoring-api
   spec_type: OpenAPI
-  url: https://api.apis.guru/v2/specs/amazonaws.com/kinesisvideo/2017-09-30/openapi.yaml
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis/refs/heads/main/openapi/amazon-kinesis-monitoring-api-openapi.yml
+- filename: amazon-kinesis-policies-api-openapi.yml
   format: yaml
-  label: Amazon Kinesis Video Streams Media
-  slug: amazon-kinesis-video-streams-media
+  label: Amazon Kinesis Policies API
+  slug: amazon-kinesis-policies-api
   spec_type: OpenAPI
-  url: https://api.apis.guru/v2/specs/amazonaws.com/kinesis-video-media/2017-09-30/openapi.yaml
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis/refs/heads/main/openapi/amazon-kinesis-policies-api-openapi.yml
+- filename: amazon-kinesis-records-api-openapi.yml
   format: yaml
-  label: Amazon Kinesis Video Streams Archived Media
-  slug: amazon-kinesis-video-streams-archived-media
+  label: Amazon Kinesis Records API
+  slug: amazon-kinesis-records-api
   spec_type: OpenAPI
-  url: https://api.apis.guru/v2/specs/amazonaws.com/kinesis-video-archived-media/2017-09-30/openapi.yaml
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis/refs/heads/main/openapi/amazon-kinesis-records-api-openapi.yml
+- filename: amazon-kinesis-shards-api-openapi.yml
   format: yaml
-  label: Amazon Kinesis Video Signaling Channels
-  slug: amazon-kinesis-video-signaling-channels
+  label: Amazon Kinesis Shards API
+  slug: amazon-kinesis-shards-api
   spec_type: OpenAPI
-  url: https://api.apis.guru/v2/specs/amazonaws.com/kinesis-video-signaling/2019-12-04/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis/refs/heads/main/openapi/amazon-kinesis-shards-api-openapi.yml
+- filename: amazon-kinesis-streams-api-openapi.yml
+  format: yaml
+  label: Amazon Kinesis Streams API
+  slug: amazon-kinesis-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis/refs/heads/main/openapi/amazon-kinesis-streams-api-openapi.yml
+- filename: amazon-kinesis-x-amz-target-kinesis-20131202-addtagstostream-api-openapi.yml
+  format: yaml
+  label: 'Amazon Kinesis #X Amz Target=Kinesis 20131202.AddTagsToStream API'
+  slug: amazon-kinesis-x-amz-target-kinesis-20131202-addtagstostream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis/refs/heads/main/openapi/amazon-kinesis-x-amz-target-kinesis-20131202-addtagstostream-api-openapi.yml
+- filename: amazon-kinesis-x-amz-target-kinesis-20131202-listtagsforstream-api-openapi.yml
+  format: yaml
+  label: 'Amazon Kinesis #X Amz Target=Kinesis 20131202.ListTagsForStream API'
+  slug: amazon-kinesis-x-amz-target-kinesis-20131202-listtagsforstream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis/refs/heads/main/openapi/amazon-kinesis-x-amz-target-kinesis-20131202-listtagsforstream-api-openapi.yml
+- filename: amazon-kinesis-x-amz-target-kinesis-20131202-removetagsfromstream-api-openapi.yml
+  format: yaml
+  label: 'Amazon Kinesis #X Amz Target=Kinesis 20131202.RemoveTagsFromStream API'
+  slug: amazon-kinesis-x-amz-target-kinesis-20131202-removetagsfromstream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis/refs/heads/main/openapi/amazon-kinesis-x-amz-target-kinesis-20131202-removetagsfromstream-api-openapi.yml
 description: ''
 domains:
 - caa: []

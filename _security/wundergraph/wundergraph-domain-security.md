@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: wundergraph-cosmo-platform-openapi.yml
+- filename: wundergraph-analytics-api-openapi.yml
   format: yaml
-  label: WunderGraph Cosmo Platform API
-  slug: cosmo-platform
+  label: WunderGraph Analytics API
+  slug: wundergraph-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/openapi/wundergraph-cosmo-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/openapi/wundergraph-analytics-api-openapi.yml
+- filename: wundergraph-api-keys-api-openapi.yml
+  format: yaml
+  label: WunderGraph API Keys API
+  slug: wundergraph-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/openapi/wundergraph-api-keys-api-openapi.yml
+- filename: wundergraph-feature-flags-api-openapi.yml
+  format: yaml
+  label: WunderGraph Feature Flags API
+  slug: wundergraph-feature-flags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/openapi/wundergraph-feature-flags-api-openapi.yml
+- filename: wundergraph-feature-subgraphs-api-openapi.yml
+  format: yaml
+  label: WunderGraph Feature Subgraphs API
+  slug: wundergraph-feature-subgraphs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/openapi/wundergraph-feature-subgraphs-api-openapi.yml
+- filename: wundergraph-federated-graphs-api-openapi.yml
+  format: yaml
+  label: WunderGraph Federated Graphs API
+  slug: wundergraph-federated-graphs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/openapi/wundergraph-federated-graphs-api-openapi.yml
+- filename: wundergraph-monographs-api-openapi.yml
+  format: yaml
+  label: WunderGraph Monographs API
+  slug: wundergraph-monographs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/openapi/wundergraph-monographs-api-openapi.yml
+- filename: wundergraph-namespaces-api-openapi.yml
+  format: yaml
+  label: WunderGraph Namespaces API
+  slug: wundergraph-namespaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/openapi/wundergraph-namespaces-api-openapi.yml
+- filename: wundergraph-router-api-openapi.yml
+  format: yaml
+  label: WunderGraph Router API
+  slug: wundergraph-router-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/openapi/wundergraph-router-api-openapi.yml
+- filename: wundergraph-schema-contracts-api-openapi.yml
+  format: yaml
+  label: WunderGraph Schema Contracts API
+  slug: wundergraph-schema-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/openapi/wundergraph-schema-contracts-api-openapi.yml
+- filename: wundergraph-subgraphs-api-openapi.yml
+  format: yaml
+  label: WunderGraph Subgraphs API
+  slug: wundergraph-subgraphs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/openapi/wundergraph-subgraphs-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: vectara-openapi.yml
-  format: yaml
-  label: Vectara REST API
-  slug: vectara-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-openapi.yml
-- filename: vectara-openapi.yml
-  format: yaml
-  label: Vectara Corpora API
-  slug: vectara-corpora-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-openapi.yml
-- filename: vectara-openapi.yml
-  format: yaml
-  label: Vectara Indexing API
-  slug: vectara-indexing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-openapi.yml
-- filename: vectara-openapi.yml
-  format: yaml
-  label: Vectara Query API
-  slug: vectara-query-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-openapi.yml
-- filename: vectara-openapi.yml
+- filename: vectara-agents-api-openapi.yml
   format: yaml
   label: Vectara Agents API
   slug: vectara-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-agents-api-openapi.yml
+- filename: vectara-authentication-api-openapi.yml
+  format: yaml
+  label: Vectara Authentication API
+  slug: vectara-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-authentication-api-openapi.yml
+- filename: vectara-corpora-api-openapi.yml
+  format: yaml
+  label: Vectara Corpora API
+  slug: vectara-corpora-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-corpora-api-openapi.yml
+- filename: vectara-documents-api-openapi.yml
+  format: yaml
+  label: Vectara Documents API
+  slug: vectara-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-documents-api-openapi.yml
+- filename: vectara-pipelines-api-openapi.yml
+  format: yaml
+  label: Vectara Pipelines API
+  slug: vectara-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-pipelines-api-openapi.yml
+- filename: vectara-query-api-openapi.yml
+  format: yaml
+  label: Vectara Query API
+  slug: vectara-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-query-api-openapi.yml
+- filename: vectara-tools-api-openapi.yml
+  format: yaml
+  label: Vectara Tools API
+  slug: vectara-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-tools-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

@@ -12,36 +12,6 @@ api_specs:
   slug: soracom-group-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-group-api-openapi.yml
-- filename: soracom-harvest-api-openapi.yml
-  format: yaml
-  label: Soracom Harvest API
-  slug: soracom-harvest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-harvest-api-openapi.yml
-- filename: soracom-inventory-api-openapi.yml
-  format: yaml
-  label: Soracom Inventory API
-  slug: soracom-inventory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-inventory-api-openapi.yml
-- filename: soracom-napter-api-openapi.yml
-  format: yaml
-  label: Soracom Napter API
-  slug: soracom-napter-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-napter-api-openapi.yml
-- filename: soracom-event-handler-api-openapi.yml
-  format: yaml
-  label: Soracom Event Handler API
-  slug: soracom-event-handler-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-event-handler-api-openapi.yml
-- filename: soracom-vpg-api-openapi.yml
-  format: yaml
-  label: Soracom Virtual Private Gateway API
-  slug: soracom-vpg-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-vpg-api-openapi.yml
 - filename: soracom-billing-api-openapi.yml
   format: yaml
   label: Soracom Billing API
@@ -60,30 +30,12 @@ api_specs:
   slug: soracom-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-auth-api-openapi.yml
-- filename: soracom-analysis-query-api-openapi.yml
-  format: yaml
-  label: Soracom Analysis and Query API
-  slug: soracom-analysis-query-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-analysis-query-api-openapi.yml
 - filename: soracom-lagoon-api-openapi.yml
   format: yaml
   label: Soracom Lagoon API
   slug: soracom-lagoon-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-lagoon-api-openapi.yml
-- filename: soracom-lorawan-api-openapi.yml
-  format: yaml
-  label: Soracom Air for LoRaWAN API
-  slug: soracom-lorawan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-lorawan-api-openapi.yml
-- filename: soracom-sigfox-api-openapi.yml
-  format: yaml
-  label: Soracom Air for Sigfox API
-  slug: soracom-sigfox-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-sigfox-api-openapi.yml
 - filename: soracom-soracam-api-openapi.yml
   format: yaml
   label: Soracom Cloud Camera Services API
@@ -96,18 +48,228 @@ api_specs:
   slug: soracom-batch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-batch-api-openapi.yml
-- filename: soracom-platform-api-openapi.yml
+- filename: soracom-analysis-api-openapi.yml
   format: yaml
-  label: Soracom Platform API (Aggregate)
-  slug: soracom-platform-api
+  label: Soracom Analysis API
+  slug: soracom-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-platform-api-openapi.yml
-- filename: soracom-sandbox-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-analysis-api-openapi.yml
+- filename: soracom-api-sandbox-coupon-api-openapi.yml
   format: yaml
-  label: Soracom Sandbox API
-  slug: soracom-sandbox-api
+  label: 'Soracom API Sandbox: Coupon API'
+  slug: soracom-api-sandbox-coupon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-sandbox-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-api-sandbox-coupon-api-openapi.yml
+- filename: soracom-api-sandbox-operator-api-openapi.yml
+  format: yaml
+  label: 'Soracom API Sandbox: Operator API'
+  slug: soracom-api-sandbox-operator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-api-sandbox-operator-api-openapi.yml
+- filename: soracom-api-sandbox-order-api-openapi.yml
+  format: yaml
+  label: 'Soracom API Sandbox: Order API'
+  slug: soracom-api-sandbox-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-api-sandbox-order-api-openapi.yml
+- filename: soracom-api-sandbox-stats-api-openapi.yml
+  format: yaml
+  label: 'Soracom API Sandbox: Stats API'
+  slug: soracom-api-sandbox-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-api-sandbox-stats-api-openapi.yml
+- filename: soracom-api-sandbox-subscriber-api-openapi.yml
+  format: yaml
+  label: 'Soracom API Sandbox: Subscriber API'
+  slug: soracom-api-sandbox-subscriber-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-api-sandbox-subscriber-api-openapi.yml
+- filename: soracom-auditlog-api-openapi.yml
+  format: yaml
+  label: Soracom AuditLog API
+  slug: soracom-auditlog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-auditlog-api-openapi.yml
+- filename: soracom-celllocation-api-openapi.yml
+  format: yaml
+  label: Soracom CellLocation API
+  slug: soracom-celllocation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-celllocation-api-openapi.yml
+- filename: soracom-credential-api-openapi.yml
+  format: yaml
+  label: Soracom Credential API
+  slug: soracom-credential-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-credential-api-openapi.yml
+- filename: soracom-dataentry-api-openapi.yml
+  format: yaml
+  label: Soracom DataEntry API
+  slug: soracom-dataentry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-dataentry-api-openapi.yml
+- filename: soracom-device-api-openapi.yml
+  format: yaml
+  label: Soracom Device API
+  slug: soracom-device-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-device-api-openapi.yml
+- filename: soracom-deviceobjectmodel-api-openapi.yml
+  format: yaml
+  label: Soracom DeviceObjectModel API
+  slug: soracom-deviceobjectmodel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-deviceobjectmodel-api-openapi.yml
+- filename: soracom-diagnostic-api-openapi.yml
+  format: yaml
+  label: Soracom Diagnostic API
+  slug: soracom-diagnostic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-diagnostic-api-openapi.yml
+- filename: soracom-email-api-openapi.yml
+  format: yaml
+  label: Soracom Email API
+  slug: soracom-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-email-api-openapi.yml
+- filename: soracom-eventhandler-api-openapi.yml
+  format: yaml
+  label: Soracom EventHandler API
+  slug: soracom-eventhandler-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-eventhandler-api-openapi.yml
+- filename: soracom-fileentry-api-openapi.yml
+  format: yaml
+  label: Soracom FileEntry API
+  slug: soracom-fileentry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-fileentry-api-openapi.yml
+- filename: soracom-files-api-openapi.yml
+  format: yaml
+  label: Soracom Files API
+  slug: soracom-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-files-api-openapi.yml
+- filename: soracom-gadget-api-openapi.yml
+  format: yaml
+  label: Soracom Gadget API
+  slug: soracom-gadget-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-gadget-api-openapi.yml
+- filename: soracom-log-api-openapi.yml
+  format: yaml
+  label: Soracom Log API
+  slug: soracom-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-log-api-openapi.yml
+- filename: soracom-loradevice-api-openapi.yml
+  format: yaml
+  label: Soracom LoraDevice API
+  slug: soracom-loradevice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-loradevice-api-openapi.yml
+- filename: soracom-loragateway-api-openapi.yml
+  format: yaml
+  label: Soracom LoraGateway API
+  slug: soracom-loragateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-loragateway-api-openapi.yml
+- filename: soracom-loranetworkset-api-openapi.yml
+  format: yaml
+  label: Soracom LoraNetworkSet API
+  slug: soracom-loranetworkset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-loranetworkset-api-openapi.yml
+- filename: soracom-operator-api-openapi.yml
+  format: yaml
+  label: Soracom Operator API
+  slug: soracom-operator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-operator-api-openapi.yml
+- filename: soracom-order-api-openapi.yml
+  format: yaml
+  label: Soracom Order API
+  slug: soracom-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-order-api-openapi.yml
+- filename: soracom-payment-api-openapi.yml
+  format: yaml
+  label: Soracom Payment API
+  slug: soracom-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-payment-api-openapi.yml
+- filename: soracom-portmapping-api-openapi.yml
+  format: yaml
+  label: Soracom PortMapping API
+  slug: soracom-portmapping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-portmapping-api-openapi.yml
+- filename: soracom-query-api-openapi.yml
+  format: yaml
+  label: Soracom Query API
+  slug: soracom-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-query-api-openapi.yml
+- filename: soracom-resourcesummary-api-openapi.yml
+  format: yaml
+  label: Soracom ResourceSummary API
+  slug: soracom-resourcesummary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-resourcesummary-api-openapi.yml
+- filename: soracom-role-api-openapi.yml
+  format: yaml
+  label: Soracom Role API
+  slug: soracom-role-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-role-api-openapi.yml
+- filename: soracom-shippingaddress-api-openapi.yml
+  format: yaml
+  label: Soracom ShippingAddress API
+  slug: soracom-shippingaddress-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-shippingaddress-api-openapi.yml
+- filename: soracom-sigfoxdevice-api-openapi.yml
+  format: yaml
+  label: Soracom SigfoxDevice API
+  slug: soracom-sigfoxdevice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-sigfoxdevice-api-openapi.yml
+- filename: soracom-simprofileorder-api-openapi.yml
+  format: yaml
+  label: Soracom SimProfileOrder API
+  slug: soracom-simprofileorder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-simprofileorder-api-openapi.yml
+- filename: soracom-soralet-api-openapi.yml
+  format: yaml
+  label: Soracom Soralet API
+  slug: soracom-soralet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-soralet-api-openapi.yml
+- filename: soracom-subscriber-api-openapi.yml
+  format: yaml
+  label: Soracom Subscriber API
+  slug: soracom-subscriber-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-subscriber-api-openapi.yml
+- filename: soracom-systemnotification-api-openapi.yml
+  format: yaml
+  label: Soracom SystemNotification API
+  slug: soracom-systemnotification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-systemnotification-api-openapi.yml
+- filename: soracom-user-api-openapi.yml
+  format: yaml
+  label: Soracom User API
+  slug: soracom-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-user-api-openapi.yml
+- filename: soracom-virtualprivategateway-api-openapi.yml
+  format: yaml
+  label: Soracom VirtualPrivateGateway API
+  slug: soracom-virtualprivategateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-virtualprivategateway-api-openapi.yml
 description: ''
 domains:
 - caa: []

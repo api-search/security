@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: usebraintrust-network-stats-openapi.yml
+- filename: usebraintrust-dashboard-api-openapi.yml
   format: yaml
-  label: Braintrust Network Stats API
-  slug: braintrust-network-stats-api
+  label: Braintrust (Talent Network) dashboard API
+  slug: usebraintrust-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usebraintrust/refs/heads/main/openapi/usebraintrust-network-stats-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usebraintrust/refs/heads/main/openapi/usebraintrust-dashboard-api-openapi.yml
 description: ''
 domains:
 - caa: []

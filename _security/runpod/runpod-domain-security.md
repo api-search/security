@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: RunPod REST API
-  slug: rest-api
+- filename: runpod-billing-api-openapi.yml
+  format: yaml
+  label: RunPod Billing API
+  slug: runpod-billing-api
   spec_type: OpenAPI
-  url: https://rest.runpod.io/v1/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-billing-api-openapi.yml
+- filename: runpod-containerregistryauth-api-openapi.yml
+  format: yaml
+  label: RunPod Containerregistryauth API
+  slug: runpod-containerregistryauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-containerregistryauth-api-openapi.yml
+- filename: runpod-docs-api-openapi.yml
+  format: yaml
+  label: RunPod Docs API
+  slug: runpod-docs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-docs-api-openapi.yml
+- filename: runpod-endpoints-api-openapi.yml
+  format: yaml
+  label: RunPod Endpoints API
+  slug: runpod-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-endpoints-api-openapi.yml
+- filename: runpod-networkvolumes-api-openapi.yml
+  format: yaml
+  label: RunPod Networkvolumes API
+  slug: runpod-networkvolumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-networkvolumes-api-openapi.yml
+- filename: runpod-openapi-json-api-openapi.yml
+  format: yaml
+  label: RunPod Openapi.json API
+  slug: runpod-openapi-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-openapi-json-api-openapi.yml
+- filename: runpod-pods-api-openapi.yml
+  format: yaml
+  label: RunPod Pods API
+  slug: runpod-pods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-pods-api-openapi.yml
+- filename: runpod-templates-api-openapi.yml
+  format: yaml
+  label: RunPod Templates API
+  slug: runpod-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: drip-openapi.yml
+- filename: drip-accounts-api-openapi.yml
   format: yaml
-  label: Drip REST API
-  slug: drip-api
+  label: Drip Accounts API
+  slug: drip-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-accounts-api-openapi.yml
+- filename: drip-broadcasts-api-openapi.yml
+  format: yaml
+  label: Drip Broadcasts API
+  slug: drip-broadcasts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-broadcasts-api-openapi.yml
+- filename: drip-campaigns-api-openapi.yml
+  format: yaml
+  label: Drip Campaigns API
+  slug: drip-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-campaigns-api-openapi.yml
+- filename: drip-conversions-api-openapi.yml
+  format: yaml
+  label: Drip Conversions API
+  slug: drip-conversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-conversions-api-openapi.yml
+- filename: drip-custom-fields-api-openapi.yml
+  format: yaml
+  label: Drip Custom Fields API
+  slug: drip-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-custom-fields-api-openapi.yml
+- filename: drip-events-api-openapi.yml
+  format: yaml
+  label: Drip Events API
+  slug: drip-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-events-api-openapi.yml
+- filename: drip-forms-api-openapi.yml
+  format: yaml
+  label: Drip Forms API
+  slug: drip-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-forms-api-openapi.yml
+- filename: drip-orders-api-openapi.yml
+  format: yaml
+  label: Drip Orders API
+  slug: drip-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-orders-api-openapi.yml
+- filename: drip-shopper-activity-api-openapi.yml
+  format: yaml
+  label: Drip Shopper Activity API
+  slug: drip-shopper-activity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-shopper-activity-api-openapi.yml
+- filename: drip-subscribers-api-openapi.yml
+  format: yaml
+  label: Drip Subscribers API
+  slug: drip-subscribers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-subscribers-api-openapi.yml
 description: ''
 domains:
 - caa: []

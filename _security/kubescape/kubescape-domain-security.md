@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: kubescape-openapi.yml
-  format: yaml
-  label: Kubescape Posture & Compliance API
-  slug: kubescape-posture-compliance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-openapi.yml
-- filename: kubescape-openapi.yml
-  format: yaml
-  label: Kubescape Vulnerabilities API
-  slug: kubescape-vulnerabilities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-openapi.yml
-- filename: kubescape-openapi.yml
-  format: yaml
-  label: Kubescape Runtime Security API
-  slug: kubescape-runtime-security-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-openapi.yml
-- filename: kubescape-openapi.yml
-  format: yaml
-  label: Kubescape Network Policies API
-  slug: kubescape-network-policies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-openapi.yml
-- filename: kubescape-openapi.yml
-  format: yaml
-  label: Kubescape Registry & Repository Scanning API
-  slug: kubescape-registry-repository-scanning-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-openapi.yml
-- filename: kubescape-openapi.yml
+- filename: kubescape-access-keys-api-openapi.yml
   format: yaml
   label: Kubescape Access Keys API
   slug: kubescape-access-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-access-keys-api-openapi.yml
+- filename: kubescape-network-policies-api-openapi.yml
+  format: yaml
+  label: Kubescape Network Policies API
+  slug: kubescape-network-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-network-policies-api-openapi.yml
+- filename: kubescape-posture-compliance-api-openapi.yml
+  format: yaml
+  label: Kubescape Posture & Compliance API
+  slug: kubescape-posture-compliance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-posture-compliance-api-openapi.yml
+- filename: kubescape-registry-repository-api-openapi.yml
+  format: yaml
+  label: Kubescape Registry & Repository API
+  slug: kubescape-registry-repository-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-registry-repository-api-openapi.yml
+- filename: kubescape-runtime-security-api-openapi.yml
+  format: yaml
+  label: Kubescape Runtime Security API
+  slug: kubescape-runtime-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-runtime-security-api-openapi.yml
+- filename: kubescape-vulnerabilities-api-openapi.yml
+  format: yaml
+  label: Kubescape Vulnerabilities API
+  slug: kubescape-vulnerabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-vulnerabilities-api-openapi.yml
 description: ''
 domains:
 - caa: []

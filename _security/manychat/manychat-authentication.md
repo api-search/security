@@ -7,6 +7,30 @@ api_specs:
   slug: rest-api
   spec_type: OpenAPI
   url: https://api.manychat.com/swagger
+- filename: manychat-page-api-openapi.yml
+  format: yaml
+  label: ManyChat Page API
+  slug: manychat-page-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/openapi/manychat-page-api-openapi.yml
+- filename: manychat-profile-api-openapi.yml
+  format: yaml
+  label: ManyChat Profile API
+  slug: manychat-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/openapi/manychat-profile-api-openapi.yml
+- filename: manychat-sending-api-openapi.yml
+  format: yaml
+  label: ManyChat Sending API
+  slug: manychat-sending-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/openapi/manychat-sending-api-openapi.yml
+- filename: manychat-subscriber-api-openapi.yml
+  format: yaml
+  label: ManyChat Subscriber API
+  slug: manychat-subscriber-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/openapi/manychat-subscriber-api-openapi.yml
 auth_types:
 - http
 description: ''

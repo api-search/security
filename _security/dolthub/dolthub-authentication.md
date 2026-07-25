@@ -2,24 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: dolthub-openapi.yml
+- filename: dolthub-branches-api-openapi.yml
   format: yaml
-  label: DoltHub SQL Query API
-  slug: dolthub-sql-query-api
+  label: DoltHub Branches API
+  slug: dolthub-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/openapi/dolthub-openapi.yml
-- filename: dolthub-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/openapi/dolthub-branches-api-openapi.yml
+- filename: dolthub-databases-api-openapi.yml
   format: yaml
-  label: DoltHub Write API
-  slug: dolthub-write-api
+  label: DoltHub Databases API
+  slug: dolthub-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/openapi/dolthub-openapi.yml
-- filename: dolthub-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/openapi/dolthub-databases-api-openapi.yml
+- filename: dolthub-jobs-api-openapi.yml
   format: yaml
-  label: DoltHub Repositories and Branches API
-  slug: dolthub-repositories-branches-api
+  label: DoltHub Jobs API
+  slug: dolthub-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/openapi/dolthub-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/openapi/dolthub-jobs-api-openapi.yml
+- filename: dolthub-operations-api-openapi.yml
+  format: yaml
+  label: DoltHub Operations API
+  slug: dolthub-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/openapi/dolthub-operations-api-openapi.yml
+- filename: dolthub-pull-requests-api-openapi.yml
+  format: yaml
+  label: DoltHub Pull Requests API
+  slug: dolthub-pull-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/openapi/dolthub-pull-requests-api-openapi.yml
+- filename: dolthub-sql-api-openapi.yml
+  format: yaml
+  label: DoltHub SQL API
+  slug: dolthub-sql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/openapi/dolthub-sql-api-openapi.yml
+- filename: dolthub-tags-api-openapi.yml
+  format: yaml
+  label: DoltHub Tags API
+  slug: dolthub-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/openapi/dolthub-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

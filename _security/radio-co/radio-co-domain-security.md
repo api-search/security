@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: radio-co-openapi.yml
+- filename: radio-co-station-api-openapi.yml
   format: yaml
-  label: Radio.co
-  slug: radio-co
+  label: Radio.co Station API
+  slug: radio-co-station-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-co/refs/heads/main/openapi/radio-co-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/radio-co/refs/heads/main/openapi/radio-co-station-api-openapi.yml
+- filename: radio-co-track-api-openapi.yml
+  format: yaml
+  label: Radio.co Track API
+  slug: radio-co-track-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radio-co/refs/heads/main/openapi/radio-co-track-api-openapi.yml
 description: ''
 domains:
 - caa: []

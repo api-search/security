@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: pixieset-openapi.yml
+- filename: pixieset-clients-api-openapi.yml
   format: yaml
-  label: Pixieset Studio Clients & CRM API
-  slug: pixieset-studio-clients-crm-api
+  label: Pixieset Clients API
+  slug: pixieset-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-openapi.yml
-- filename: pixieset-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-clients-api-openapi.yml
+- filename: pixieset-collections-api-openapi.yml
   format: yaml
-  label: Pixieset Studio Sessions & Booking API
-  slug: pixieset-studio-sessions-booking-api
+  label: Pixieset Collections API
+  slug: pixieset-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-openapi.yml
-- filename: pixieset-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-collections-api-openapi.yml
+- filename: pixieset-contracts-api-openapi.yml
   format: yaml
-  label: Pixieset Studio Invoices & Payments API
-  slug: pixieset-studio-invoices-payments-api
+  label: Pixieset Contracts API
+  slug: pixieset-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-openapi.yml
-- filename: pixieset-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-contracts-api-openapi.yml
+- filename: pixieset-invoices-api-openapi.yml
   format: yaml
-  label: Pixieset Studio Contracts API
-  slug: pixieset-studio-contracts-api
+  label: Pixieset Invoices API
+  slug: pixieset-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-openapi.yml
-- filename: pixieset-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-invoices-api-openapi.yml
+- filename: pixieset-sessions-api-openapi.yml
   format: yaml
-  label: Pixieset Gallery Collections & Delivery API
-  slug: pixieset-gallery-collections-delivery-api
+  label: Pixieset Sessions API
+  slug: pixieset-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-sessions-api-openapi.yml
 description: ''
 domains:
 - caa:

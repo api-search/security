@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: odata-batch-api-openapi.yml
+  format: yaml
+  label: OData $Batch API
+  slug: odata-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/odata/refs/heads/main/openapi/odata-batch-api-openapi.yml
+- filename: odata-metadata-api-openapi.yml
+  format: yaml
+  label: OData $Metadata API
+  slug: odata-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/odata/refs/heads/main/openapi/odata-metadata-api-openapi.yml
+- filename: odata-odata-service-api-api-openapi.yml
+  format: yaml
+  label: OData OData Service API API
+  slug: odata-odata-service-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/odata/refs/heads/main/openapi/odata-odata-service-api-api-openapi.yml
 description: ''
 domains:
 - caa:

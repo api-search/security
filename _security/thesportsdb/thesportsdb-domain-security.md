@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: thesportsdb-openapi.yml
+- filename: thesportsdb-events-api-openapi.yml
   format: yaml
-  label: TheSportsDB API
-  slug: thesportsdb
+  label: TheSportsDB Events API
+  slug: thesportsdb-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thesportsdb/refs/heads/main/openapi/thesportsdb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thesportsdb/refs/heads/main/openapi/thesportsdb-events-api-openapi.yml
+- filename: thesportsdb-lists-api-openapi.yml
+  format: yaml
+  label: TheSportsDB Lists API
+  slug: thesportsdb-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thesportsdb/refs/heads/main/openapi/thesportsdb-lists-api-openapi.yml
+- filename: thesportsdb-lookup-api-openapi.yml
+  format: yaml
+  label: TheSportsDB Lookup API
+  slug: thesportsdb-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thesportsdb/refs/heads/main/openapi/thesportsdb-lookup-api-openapi.yml
+- filename: thesportsdb-search-api-openapi.yml
+  format: yaml
+  label: TheSportsDB Search API
+  slug: thesportsdb-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thesportsdb/refs/heads/main/openapi/thesportsdb-search-api-openapi.yml
+- filename: thesportsdb-seasons-api-openapi.yml
+  format: yaml
+  label: TheSportsDB Seasons API
+  slug: thesportsdb-seasons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thesportsdb/refs/heads/main/openapi/thesportsdb-seasons-api-openapi.yml
 description: ''
 domains:
 - caa: []

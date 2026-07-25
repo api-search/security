@@ -1,71 +1,89 @@
 ---
 api_specs:
-- filename: orange-business-number-verification-openapi.yml
+- filename: orange-business-check-device-swap-api-openapi.yml
   format: yaml
-  label: Orange Business Number Verification API
-  slug: orange-business-number-verification-api
+  label: Orange Business Check Device Swap API
+  slug: orange-business-check-device-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-number-verification-openapi.yml
-- filename: orange-business-sim-swap-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-check-device-swap-api-openapi.yml
+- filename: orange-business-check-sim-swap-api-openapi.yml
   format: yaml
-  label: Orange Business SIM Swap API
-  slug: orange-business-sim-swap-api
+  label: Orange Business Check SIM swap API
+  slug: orange-business-check-sim-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-sim-swap-openapi.yml
-- filename: orange-business-device-swap-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-check-sim-swap-api-openapi.yml
+- filename: orange-business-device-reachability-status-api-openapi.yml
   format: yaml
-  label: Orange Business Device Swap API
-  slug: orange-business-device-swap-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-device-swap-openapi.yml
-- filename: orange-business-kyc-match-openapi.yml
-  format: yaml
-  label: Orange Business KYC Match API
-  slug: orange-business-kyc-match-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-kyc-match-openapi.yml
-- filename: orange-business-device-location-retrieval-openapi.yml
-  format: yaml
-  label: Orange Business Device Location Retrieval API
-  slug: orange-business-device-location-retrieval-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-device-location-retrieval-openapi.yml
-- filename: orange-business-device-location-verification-openapi.yml
-  format: yaml
-  label: Orange Business Device Location Verification API
-  slug: orange-business-device-location-verification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-device-location-verification-openapi.yml
-- filename: orange-business-geofencing-openapi.yml
-  format: yaml
-  label: Orange Business Geofencing API
-  slug: orange-business-geofencing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-geofencing-openapi.yml
-- filename: orange-business-device-reachability-status-openapi.yml
-  format: yaml
-  label: Orange Business Device Reachability Status API
+  label: Orange Business Device reachability status API
   slug: orange-business-device-reachability-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-device-reachability-status-openapi.yml
-- filename: orange-business-device-roaming-status-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-device-reachability-status-api-openapi.yml
+- filename: orange-business-geofencing-subscriptions-api-openapi.yml
   format: yaml
-  label: Orange Business Device Roaming Status API
-  slug: orange-business-device-roaming-status-api
+  label: Orange Business Geofencing subscriptions API
+  slug: orange-business-geofencing-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-device-roaming-status-openapi.yml
-- filename: orange-business-quality-on-demand-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-geofencing-subscriptions-api-openapi.yml
+- filename: orange-business-location-retrieval-api-openapi.yml
   format: yaml
-  label: Orange Business Quality on Demand API
-  slug: orange-business-quality-on-demand-api
+  label: Orange Business Location retrieval API
+  slug: orange-business-location-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-quality-on-demand-openapi.yml
-- filename: orange-business-population-density-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-location-retrieval-api-openapi.yml
+- filename: orange-business-location-verification-api-openapi.yml
+  format: yaml
+  label: Orange Business Location verification API
+  slug: orange-business-location-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-location-verification-api-openapi.yml
+- filename: orange-business-match-api-openapi.yml
+  format: yaml
+  label: Orange Business Match API
+  slug: orange-business-match-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-match-api-openapi.yml
+- filename: orange-business-phone-number-share-api-openapi.yml
+  format: yaml
+  label: Orange Business Phone number share API
+  slug: orange-business-phone-number-share-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-phone-number-share-api-openapi.yml
+- filename: orange-business-phone-number-verify-api-openapi.yml
+  format: yaml
+  label: Orange Business Phone number verify API
+  slug: orange-business-phone-number-verify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-phone-number-verify-api-openapi.yml
+- filename: orange-business-population-density-data-api-openapi.yml
   format: yaml
   label: Orange Business Population Density Data API
   slug: orange-business-population-density-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-population-density-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-population-density-data-api-openapi.yml
+- filename: orange-business-qos-sessions-api-openapi.yml
+  format: yaml
+  label: Orange Business QoS Sessions API
+  slug: orange-business-qos-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-qos-sessions-api-openapi.yml
+- filename: orange-business-retrieve-device-swap-date-api-openapi.yml
+  format: yaml
+  label: Orange Business Retrieve Device Swap Date API
+  slug: orange-business-retrieve-device-swap-date-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-retrieve-device-swap-date-api-openapi.yml
+- filename: orange-business-retrieve-sim-swap-date-api-openapi.yml
+  format: yaml
+  label: Orange Business Retrieve SIM swap date API
+  slug: orange-business-retrieve-sim-swap-date-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-retrieve-sim-swap-date-api-openapi.yml
+- filename: orange-business-roaming-status-retrieval-api-openapi.yml
+  format: yaml
+  label: Orange Business Roaming status retrieval API
+  slug: orange-business-roaming-status-retrieval-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-roaming-status-retrieval-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: cmic-construction-erp-openapi.yml
+- filename: cmic-cost-tracking-api-openapi.yml
   format: yaml
-  label: CMiC Construction ERP API
-  slug: cmic-api
+  label: CMiC Cost Tracking API
+  slug: cmic-cost-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/openapi/cmic-construction-erp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/openapi/cmic-cost-tracking-api-openapi.yml
+- filename: cmic-documents-api-openapi.yml
+  format: yaml
+  label: CMiC Documents API
+  slug: cmic-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/openapi/cmic-documents-api-openapi.yml
+- filename: cmic-equipment-api-openapi.yml
+  format: yaml
+  label: CMiC Equipment API
+  slug: cmic-equipment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/openapi/cmic-equipment-api-openapi.yml
+- filename: cmic-jobs-api-openapi.yml
+  format: yaml
+  label: CMiC Jobs API
+  slug: cmic-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/openapi/cmic-jobs-api-openapi.yml
+- filename: cmic-projects-api-openapi.yml
+  format: yaml
+  label: CMiC Projects API
+  slug: cmic-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/openapi/cmic-projects-api-openapi.yml
+- filename: cmic-subcontractors-api-openapi.yml
+  format: yaml
+  label: CMiC Subcontractors API
+  slug: cmic-subcontractors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/openapi/cmic-subcontractors-api-openapi.yml
 description: ''
 domains:
 - caa:

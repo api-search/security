@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: puppet-openapi.yml
+- filename: puppet-commands-api-openapi.yml
   format: yaml
-  label: Puppet Enterprise Orchestrator API
-  slug: orchestrator
+  label: Puppet Commands API
+  slug: puppet-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puppet/refs/heads/main/openapi/puppet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/puppet/refs/heads/main/openapi/puppet-commands-api-openapi.yml
+- filename: puppet-jobs-api-openapi.yml
+  format: yaml
+  label: Puppet Jobs API
+  slug: puppet-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puppet/refs/heads/main/openapi/puppet-jobs-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

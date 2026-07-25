@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: hightouch-openapi.yml
+- filename: hightouch-destinations-api-openapi.yml
   format: yaml
-  label: Hightouch API
-  slug: hightouch-api
+  label: Hightouch Destinations API
+  slug: hightouch-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-destinations-api-openapi.yml
+- filename: hightouch-models-api-openapi.yml
+  format: yaml
+  label: Hightouch Models API
+  slug: hightouch-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-models-api-openapi.yml
+- filename: hightouch-sources-api-openapi.yml
+  format: yaml
+  label: Hightouch Sources API
+  slug: hightouch-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-sources-api-openapi.yml
+- filename: hightouch-syncs-api-openapi.yml
+  format: yaml
+  label: Hightouch Syncs API
+  slug: hightouch-syncs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-syncs-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

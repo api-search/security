@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: infor-ion-api-gateway-openapi.yml
+- filename: infor-ion-documents-api-openapi.yml
   format: yaml
-  label: Infor ION API Gateway
-  slug: infor-ion-api-gateway
+  label: Infor ION Documents API
+  slug: infor-ion-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/openapi/infor-ion-api-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/openapi/infor-ion-documents-api-openapi.yml
+- filename: infor-m3-api-api-openapi.yml
+  format: yaml
+  label: Infor M3 API API
+  slug: infor-m3-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/openapi/infor-m3-api-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

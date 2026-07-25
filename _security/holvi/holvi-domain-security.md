@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: holvi-psd2-openapi.yml
+- filename: holvi-account-information-api-openapi.yml
   format: yaml
-  label: Holvi PSD2 API
-  slug: holvi-psd2-api
+  label: Holvi Account Information API
+  slug: holvi-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/openapi/holvi-psd2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/openapi/holvi-account-information-api-openapi.yml
+- filename: holvi-consent-api-openapi.yml
+  format: yaml
+  label: Holvi Consent API
+  slug: holvi-consent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/openapi/holvi-consent-api-openapi.yml
+- filename: holvi-payment-initiation-api-openapi.yml
+  format: yaml
+  label: Holvi Payment Initiation API
+  slug: holvi-payment-initiation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/openapi/holvi-payment-initiation-api-openapi.yml
+- filename: holvi-third-party-provider-api-openapi.yml
+  format: yaml
+  label: Holvi Third Party Provider API
+  slug: holvi-third-party-provider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/openapi/holvi-third-party-provider-api-openapi.yml
 description: ''
 domains:
 - caa: []

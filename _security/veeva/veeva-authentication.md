@@ -2,18 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: veeva-vault-openapi.yml
+- filename: veeva-authentication-api-openapi.yml
   format: yaml
-  label: Veeva Vault Platform API
-  slug: veeva-vault-api
+  label: veeva Authentication API
+  slug: veeva-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/openapi/veeva-vault-openapi.yml
-- filename: veeva-vault-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/openapi/veeva-authentication-api-openapi.yml
+- filename: veeva-documents-api-openapi.yml
   format: yaml
-  label: Veeva Vault Query Language (VQL) API
-  slug: veeva-vault-query-language
+  label: veeva Documents API
+  slug: veeva-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/openapi/veeva-vault-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/openapi/veeva-documents-api-openapi.yml
+- filename: veeva-objects-api-openapi.yml
+  format: yaml
+  label: veeva Objects API
+  slug: veeva-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/openapi/veeva-objects-api-openapi.yml
+- filename: veeva-query-api-openapi.yml
+  format: yaml
+  label: veeva Query API
+  slug: veeva-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/openapi/veeva-query-api-openapi.yml
+- filename: veeva-users-api-openapi.yml
+  format: yaml
+  label: veeva Users API
+  slug: veeva-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/openapi/veeva-users-api-openapi.yml
+- filename: veeva-workflows-api-openapi.yml
+  format: yaml
+  label: veeva Workflows API
+  slug: veeva-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/openapi/veeva-workflows-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

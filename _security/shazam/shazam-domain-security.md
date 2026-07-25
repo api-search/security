@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: shazam-rest-api-openapi.yml
+- filename: shazam-albums-api-openapi.yml
   format: yaml
-  label: Shazam REST API (RapidAPI)
-  slug: shazam-rest-api
+  label: Shazam Albums API
+  slug: shazam-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/openapi/shazam-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/openapi/shazam-albums-api-openapi.yml
+- filename: shazam-artists-api-openapi.yml
+  format: yaml
+  label: Shazam Artists API
+  slug: shazam-artists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/openapi/shazam-artists-api-openapi.yml
+- filename: shazam-charts-api-openapi.yml
+  format: yaml
+  label: Shazam Charts API
+  slug: shazam-charts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/openapi/shazam-charts-api-openapi.yml
+- filename: shazam-recognition-api-openapi.yml
+  format: yaml
+  label: Shazam Recognition API
+  slug: shazam-recognition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/openapi/shazam-recognition-api-openapi.yml
+- filename: shazam-search-api-openapi.yml
+  format: yaml
+  label: Shazam Search API
+  slug: shazam-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/openapi/shazam-search-api-openapi.yml
+- filename: shazam-tracks-api-openapi.yml
+  format: yaml
+  label: Shazam Tracks API
+  slug: shazam-tracks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/openapi/shazam-tracks-api-openapi.yml
 description: ''
 domains:
 - caa:

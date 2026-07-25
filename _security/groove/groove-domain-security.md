@@ -1,17 +1,65 @@
 ---
 api_specs:
-- filename: groove-openapi.yml
-  format: yaml
-  label: Groove REST API v1
-  slug: rest-api-v1
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-openapi.yml
 - filename: groove-webhooks-asyncapi.yml
   format: yaml
   label: Groove Webhooks
   slug: webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/asyncapi/groove-webhooks-asyncapi.yml
+- filename: groove-agents-api-openapi.yml
+  format: yaml
+  label: Groove Agents API
+  slug: groove-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-agents-api-openapi.yml
+- filename: groove-attachments-api-openapi.yml
+  format: yaml
+  label: Groove Attachments API
+  slug: groove-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-attachments-api-openapi.yml
+- filename: groove-customers-api-openapi.yml
+  format: yaml
+  label: Groove Customers API
+  slug: groove-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-customers-api-openapi.yml
+- filename: groove-folders-api-openapi.yml
+  format: yaml
+  label: Groove Folders API
+  slug: groove-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-folders-api-openapi.yml
+- filename: groove-groups-api-openapi.yml
+  format: yaml
+  label: Groove Groups API
+  slug: groove-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-groups-api-openapi.yml
+- filename: groove-mailboxes-api-openapi.yml
+  format: yaml
+  label: Groove Mailboxes API
+  slug: groove-mailboxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-mailboxes-api-openapi.yml
+- filename: groove-messages-api-openapi.yml
+  format: yaml
+  label: Groove Messages API
+  slug: groove-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-messages-api-openapi.yml
+- filename: groove-tickets-api-openapi.yml
+  format: yaml
+  label: Groove Tickets API
+  slug: groove-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-tickets-api-openapi.yml
+- filename: groove-webhooks-api-openapi.yml
+  format: yaml
+  label: Groove Webhooks API
+  slug: groove-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

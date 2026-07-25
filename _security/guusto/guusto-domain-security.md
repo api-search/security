@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: guusto-openapi.yml
-  format: yaml
-  label: Guusto Gifts API
-  slug: guusto-gifts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guusto/refs/heads/main/openapi/guusto-openapi.yml
-- filename: guusto-openapi.yml
+- filename: guusto-account-budget-api-openapi.yml
   format: yaml
   label: Guusto Account Budget API
   slug: guusto-account-budget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guusto/refs/heads/main/openapi/guusto-openapi.yml
-- filename: guusto-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/guusto/refs/heads/main/openapi/guusto-account-budget-api-openapi.yml
+- filename: guusto-order-gift-api-openapi.yml
+  format: yaml
+  label: Guusto Order Gift API
+  slug: guusto-order-gift-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guusto/refs/heads/main/openapi/guusto-order-gift-api-openapi.yml
+- filename: guusto-reports-api-openapi.yml
   format: yaml
   label: Guusto Reports API
   slug: guusto-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guusto/refs/heads/main/openapi/guusto-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/guusto/refs/heads/main/openapi/guusto-reports-api-openapi.yml
 description: ''
 domains:
 - caa: []

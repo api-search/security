@@ -1,11 +1,83 @@
 ---
 api_specs:
+- filename: aircall-calls-api-openapi.yml
+  format: yaml
+  label: Aircall Calls API
+  slug: aircall-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aircall/refs/heads/main/openapi/aircall-calls-api-openapi.yml
+- filename: aircall-numbers-api-openapi.yml
+  format: yaml
+  label: Aircall Numbers API
+  slug: aircall-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aircall/refs/heads/main/openapi/aircall-numbers-api-openapi.yml
+- filename: aircall-contacts-api-openapi.yml
+  format: yaml
+  label: Aircall Contacts API
+  slug: aircall-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aircall/refs/heads/main/openapi/aircall-contacts-api-openapi.yml
 - filename: aircall-webhooks-asyncapi.yml
   format: yaml
   label: Aircall Webhooks API
   slug: aircall-webhooks-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/aircall/refs/heads/main/asyncapi/aircall-webhooks-asyncapi.yml
+- filename: aircall-conversation-intelligence-api-openapi.yml
+  format: yaml
+  label: Aircall Conversation Intelligence API
+  slug: aircall-conversation-intelligence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aircall/refs/heads/main/openapi/aircall-conversation-intelligence-api-openapi.yml
+- filename: aircall-calls-api-openapi.yml
+  format: yaml
+  label: Aircall Calls API
+  slug: aircall-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aircall/refs/heads/main/openapi/aircall-calls-api-openapi.yml
+- filename: aircall-contacts-api-openapi.yml
+  format: yaml
+  label: Aircall Contacts API
+  slug: aircall-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aircall/refs/heads/main/openapi/aircall-contacts-api-openapi.yml
+- filename: aircall-conversation-intelligence-api-openapi.yml
+  format: yaml
+  label: Aircall Conversation Intelligence API
+  slug: aircall-conversation-intelligence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aircall/refs/heads/main/openapi/aircall-conversation-intelligence-api-openapi.yml
+- filename: aircall-numbers-api-openapi.yml
+  format: yaml
+  label: Aircall Numbers API
+  slug: aircall-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aircall/refs/heads/main/openapi/aircall-numbers-api-openapi.yml
+- filename: aircall-tags-api-openapi.yml
+  format: yaml
+  label: Aircall Tags API
+  slug: aircall-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aircall/refs/heads/main/openapi/aircall-tags-api-openapi.yml
+- filename: aircall-teams-api-openapi.yml
+  format: yaml
+  label: Aircall Teams API
+  slug: aircall-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aircall/refs/heads/main/openapi/aircall-teams-api-openapi.yml
+- filename: aircall-users-api-openapi.yml
+  format: yaml
+  label: Aircall Users API
+  slug: aircall-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aircall/refs/heads/main/openapi/aircall-users-api-openapi.yml
+- filename: aircall-webhooks-api-openapi.yml
+  format: yaml
+  label: Aircall Webhooks API
+  slug: aircall-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aircall/refs/heads/main/openapi/aircall-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

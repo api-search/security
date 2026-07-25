@@ -2,42 +2,96 @@
 api_key_in:
 - header
 api_specs:
-- filename: vmware-vsphere-api-openapi.yml
+- filename: vmware-clusters-api-openapi.yml
   format: yaml
-  label: vSphere API
-  slug: vsphere-api
+  label: VMware Clusters API
+  slug: vmware-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-vsphere-api-openapi.yml
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-clusters-api-openapi.yml
+- filename: vmware-content-library-api-openapi.yml
   format: yaml
-  label: vCloud Director API
-  slug: vcloud-director-api
+  label: VMware Content Library API
+  slug: vmware-content-library-api
   spec_type: OpenAPI
-  url: https://developer.vmware.com/apis/vmware-cloud-director/latest/openapi/
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-content-library-api-openapi.yml
+- filename: vmware-datacenters-api-openapi.yml
   format: yaml
-  label: NSX-T Data Center API
-  slug: nsx-t-data-center-api
+  label: VMware Datacenters API
+  slug: vmware-datacenters-api
   spec_type: OpenAPI
-  url: https://developer.vmware.com/apis/nsx-t/latest/openapi/
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-datacenters-api-openapi.yml
+- filename: vmware-datastores-api-openapi.yml
   format: yaml
-  label: vRealize Automation API
-  slug: vrealize-automation-api
+  label: VMware Datastores API
+  slug: vmware-datastores-api
   spec_type: OpenAPI
-  url: https://developer.vmware.com/apis/vrealize-automation/latest/openapi/
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-datastores-api-openapi.yml
+- filename: vmware-folders-api-openapi.yml
   format: yaml
-  label: VMware Cloud on AWS API
-  slug: vmware-cloud-on-aws-api
+  label: VMware Folders API
+  slug: vmware-folders-api
   spec_type: OpenAPI
-  url: https://developer.vmware.com/apis/vmc/latest/openapi/
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-folders-api-openapi.yml
+- filename: vmware-hosts-api-openapi.yml
   format: yaml
-  label: vRealize Operations API
-  slug: vrealize-operations-api
+  label: VMware Hosts API
+  slug: vmware-hosts-api
   spec_type: OpenAPI
-  url: https://developer.vmware.com/apis/vrealize-operations/latest/openapi/
+  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-hosts-api-openapi.yml
+- filename: vmware-networks-api-openapi.yml
+  format: yaml
+  label: VMware Networks API
+  slug: vmware-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-networks-api-openapi.yml
+- filename: vmware-resource-pools-api-openapi.yml
+  format: yaml
+  label: VMware Resource Pools API
+  slug: vmware-resource-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-resource-pools-api-openapi.yml
+- filename: vmware-session-api-openapi.yml
+  format: yaml
+  label: VMware Session API
+  slug: vmware-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-session-api-openapi.yml
+- filename: vmware-storage-policies-api-openapi.yml
+  format: yaml
+  label: VMware Storage Policies API
+  slug: vmware-storage-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-storage-policies-api-openapi.yml
+- filename: vmware-tagging-api-openapi.yml
+  format: yaml
+  label: VMware Tagging API
+  slug: vmware-tagging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-tagging-api-openapi.yml
+- filename: vmware-vm-guest-api-openapi.yml
+  format: yaml
+  label: VMware VM Guest API
+  slug: vmware-vm-guest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-vm-guest-api-openapi.yml
+- filename: vmware-vm-hardware-api-openapi.yml
+  format: yaml
+  label: VMware VM Hardware API
+  slug: vmware-vm-hardware-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-vm-hardware-api-openapi.yml
+- filename: vmware-vm-power-api-openapi.yml
+  format: yaml
+  label: VMware VM Power API
+  slug: vmware-vm-power-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-vm-power-api-openapi.yml
+- filename: vmware-vms-api-openapi.yml
+  format: yaml
+  label: VMware VMs API
+  slug: vmware-vms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-vms-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: agco-agcommand-api-openapi.yml
+- filename: agco-locations-api-openapi.yml
   format: yaml
-  label: AGCO AgCommand API
-  slug: agcommand-api
+  label: agco Locations API
+  slug: agco-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/openapi/agco-agcommand-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/openapi/agco-locations-api-openapi.yml
+- filename: agco-machines-api-openapi.yml
+  format: yaml
+  label: agco Machines API
+  slug: agco-machines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/openapi/agco-machines-api-openapi.yml
+- filename: agco-telemetry-api-openapi.yml
+  format: yaml
+  label: agco Telemetry API
+  slug: agco-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/openapi/agco-telemetry-api-openapi.yml
 description: ''
 domains:
 - caa: []

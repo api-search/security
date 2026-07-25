@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: squillo-platform-openapi.yml
+- filename: squillo-connectors-api-openapi.yml
   format: yaml
-  label: Squillo Platform API
-  slug: squillo-platform
+  label: Squillo Connectors API
+  slug: squillo-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/openapi/squillo-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/openapi/squillo-connectors-api-openapi.yml
+- filename: squillo-executions-api-openapi.yml
+  format: yaml
+  label: Squillo Executions API
+  slug: squillo-executions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/openapi/squillo-executions-api-openapi.yml
+- filename: squillo-variables-api-openapi.yml
+  format: yaml
+  label: Squillo Variables API
+  slug: squillo-variables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/openapi/squillo-variables-api-openapi.yml
+- filename: squillo-workflows-api-openapi.yml
+  format: yaml
+  label: Squillo Workflows API
+  slug: squillo-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/openapi/squillo-workflows-api-openapi.yml
 auth_types:
 - http
 description: ''

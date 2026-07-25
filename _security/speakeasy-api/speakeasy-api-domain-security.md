@@ -1,77 +1,83 @@
 ---
 api_specs:
-- filename: speakeasy-api-openapi.yaml
+- filename: speakeasy-api-artifacts-api-openapi.yml
   format: yaml
-  label: Speakeasy API Registry (Artifacts) API
-  slug: speakeasy-api-registry-artifacts-api
+  label: Speakeasy Artifacts API
+  slug: speakeasy-api-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-openapi.yaml
-- filename: speakeasy-api-openapi.yaml
-  format: yaml
-  label: Speakeasy Workspaces API
-  slug: speakeasy-api-workspaces-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-openapi.yaml
-- filename: speakeasy-api-openapi.yaml
-  format: yaml
-  label: Speakeasy Organizations API
-  slug: speakeasy-api-organizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-openapi.yaml
-- filename: speakeasy-api-openapi.yaml
-  format: yaml
-  label: Speakeasy Schema Store API
-  slug: speakeasy-api-schema-store-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-openapi.yaml
-- filename: speakeasy-api-openapi.yaml
-  format: yaml
-  label: Speakeasy Code Samples API
-  slug: speakeasy-api-code-samples-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-openapi.yaml
-- filename: speakeasy-api-openapi.yaml
-  format: yaml
-  label: Speakeasy Generation Events API
-  slug: speakeasy-api-generation-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-openapi.yaml
-- filename: speakeasy-api-openapi.yaml
-  format: yaml
-  label: Speakeasy Reports API
-  slug: speakeasy-api-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-openapi.yaml
-- filename: speakeasy-api-openapi.yaml
-  format: yaml
-  label: Speakeasy GitHub Automation API
-  slug: speakeasy-api-github-automation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-openapi.yaml
-- filename: speakeasy-api-openapi.yaml
-  format: yaml
-  label: Speakeasy Suggest (OpenAPI AI) API
-  slug: speakeasy-api-suggest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-openapi.yaml
-- filename: speakeasy-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-artifacts-api-openapi.yml
+- filename: speakeasy-api-auth-api-openapi.yml
   format: yaml
   label: Speakeasy Auth API
   slug: speakeasy-api-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-openapi.yaml
-- filename: speakeasy-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-auth-api-openapi.yml
+- filename: speakeasy-api-codesamples-api-openapi.yml
   format: yaml
-  label: Speakeasy Publishing Tokens API
-  slug: speakeasy-api-publishing-tokens-api
+  label: Speakeasy CodeSamples API
+  slug: speakeasy-api-codesamples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-openapi.yaml
-- filename: speakeasy-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-codesamples-api-openapi.yml
+- filename: speakeasy-api-events-api-openapi.yml
+  format: yaml
+  label: Speakeasy Events API
+  slug: speakeasy-api-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-events-api-openapi.yml
+- filename: speakeasy-api-github-api-openapi.yml
+  format: yaml
+  label: Speakeasy Github API
+  slug: speakeasy-api-github-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-github-api-openapi.yml
+- filename: speakeasy-api-organizations-api-openapi.yml
+  format: yaml
+  label: Speakeasy Organizations API
+  slug: speakeasy-api-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-organizations-api-openapi.yml
+- filename: speakeasy-api-publishingtokens-api-openapi.yml
+  format: yaml
+  label: Speakeasy PublishingTokens API
+  slug: speakeasy-api-publishingtokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-publishingtokens-api-openapi.yml
+- filename: speakeasy-api-reports-api-openapi.yml
+  format: yaml
+  label: Speakeasy Reports API
+  slug: speakeasy-api-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-reports-api-openapi.yml
+- filename: speakeasy-api-schemastore-api-openapi.yml
+  format: yaml
+  label: Speakeasy SchemaStore API
+  slug: speakeasy-api-schemastore-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-schemastore-api-openapi.yml
+- filename: speakeasy-api-shorturls-api-openapi.yml
+  format: yaml
+  label: Speakeasy ShortURLs API
+  slug: speakeasy-api-shorturls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-shorturls-api-openapi.yml
+- filename: speakeasy-api-subscriptions-api-openapi.yml
   format: yaml
   label: Speakeasy Subscriptions API
   slug: speakeasy-api-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-subscriptions-api-openapi.yml
+- filename: speakeasy-api-suggest-api-openapi.yml
+  format: yaml
+  label: Speakeasy Suggest API
+  slug: speakeasy-api-suggest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-suggest-api-openapi.yml
+- filename: speakeasy-api-workspaces-api-openapi.yml
+  format: yaml
+  label: Speakeasy Workspaces API
+  slug: speakeasy-api-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/openapi/speakeasy-api-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []

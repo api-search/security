@@ -1,11 +1,287 @@
 ---
 api_specs:
-- filename: swagger.json
-  format: json
-  label: Arduino IoT Cloud API
-  slug: arduino-iot-cloud-api
+- filename: arduino-binaries-v2-api-openapi.yml
+  format: yaml
+  label: Arduino binaries_v2 API
+  slug: arduino-binaries-v2-api
   spec_type: OpenAPI
-  url: http://api2.arduino.cc/iot/swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-binaries-v2-api-openapi.yml
+- filename: arduino-cleanup-api-openapi.yml
+  format: yaml
+  label: Arduino cleanup API
+  slug: arduino-cleanup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-cleanup-api-openapi.yml
+- filename: arduino-clients-v1-api-openapi.yml
+  format: yaml
+  label: Arduino clients_v1 API
+  slug: arduino-clients-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-clients-v1-api-openapi.yml
+- filename: arduino-compact-dashboards-v2-api-openapi.yml
+  format: yaml
+  label: Arduino compact_dashboards_v2 API
+  slug: arduino-compact-dashboards-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-compact-dashboards-v2-api-openapi.yml
+- filename: arduino-compact-devices-v2-api-openapi.yml
+  format: yaml
+  label: Arduino compact_devices_v2 API
+  slug: arduino-compact-devices-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-compact-devices-v2-api-openapi.yml
+- filename: arduino-compact-things-v2-api-openapi.yml
+  format: yaml
+  label: Arduino compact_things_v2 API
+  slug: arduino-compact-things-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-compact-things-v2-api-openapi.yml
+- filename: arduino-compact-triggers-v1-api-openapi.yml
+  format: yaml
+  label: Arduino compact_triggers_v1 API
+  slug: arduino-compact-triggers-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-compact-triggers-v1-api-openapi.yml
+- filename: arduino-dashboard-shares-v1-api-openapi.yml
+  format: yaml
+  label: Arduino dashboard_shares_v1 API
+  slug: arduino-dashboard-shares-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-dashboard-shares-v1-api-openapi.yml
+- filename: arduino-dashboards-v2-api-openapi.yml
+  format: yaml
+  label: Arduino dashboards_v2 API
+  slug: arduino-dashboards-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-dashboards-v2-api-openapi.yml
+- filename: arduino-dashboards-v3-api-openapi.yml
+  format: yaml
+  label: Arduino dashboards_v3 API
+  slug: arduino-dashboards-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-dashboards-v3-api-openapi.yml
+- filename: arduino-devices-tags-v2-api-openapi.yml
+  format: yaml
+  label: Arduino devices_tags_v2 API
+  slug: arduino-devices-tags-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-devices-tags-v2-api-openapi.yml
+- filename: arduino-devices-v2-api-openapi.yml
+  format: yaml
+  label: Arduino devices_v2 API
+  slug: arduino-devices-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-devices-v2-api-openapi.yml
+- filename: arduino-devices-v2-certs-api-openapi.yml
+  format: yaml
+  label: Arduino devices_v2_certs API
+  slug: arduino-devices-v2-certs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-devices-v2-certs-api-openapi.yml
+- filename: arduino-devices-v2-metadata-api-openapi.yml
+  format: yaml
+  label: Arduino devices_v2_metadata API
+  slug: arduino-devices-v2-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-devices-v2-metadata-api-openapi.yml
+- filename: arduino-devices-v2-ota-api-openapi.yml
+  format: yaml
+  label: Arduino devices_v2_ota API
+  slug: arduino-devices-v2-ota-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-devices-v2-ota-api-openapi.yml
+- filename: arduino-devices-v2-pass-api-openapi.yml
+  format: yaml
+  label: Arduino devices_v2_pass API
+  slug: arduino-devices-v2-pass-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-devices-v2-pass-api-openapi.yml
+- filename: arduino-devices-v2-pubkeys-api-openapi.yml
+  format: yaml
+  label: Arduino devices_v2_pubkeys API
+  slug: arduino-devices-v2-pubkeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-devices-v2-pubkeys-api-openapi.yml
+- filename: arduino-devices-v2-tags-api-openapi.yml
+  format: yaml
+  label: Arduino devices_v2_tags API
+  slug: arduino-devices-v2-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-devices-v2-tags-api-openapi.yml
+- filename: arduino-devices-v2-webhooks-api-openapi.yml
+  format: yaml
+  label: Arduino devices_v2_webhooks API
+  slug: arduino-devices-v2-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-devices-v2-webhooks-api-openapi.yml
+- filename: arduino-iot-api-openapi.yml
+  format: yaml
+  label: Arduino Iot API
+  slug: arduino-iot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-iot-api-openapi.yml
+- filename: arduino-lora-app-v1-api-openapi.yml
+  format: yaml
+  label: Arduino lora_app_v1 API
+  slug: arduino-lora-app-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-lora-app-v1-api-openapi.yml
+- filename: arduino-lora-apps-v1-api-openapi.yml
+  format: yaml
+  label: Arduino lora_apps_v1 API
+  slug: arduino-lora-apps-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-lora-apps-v1-api-openapi.yml
+- filename: arduino-lora-devices-v1-api-openapi.yml
+  format: yaml
+  label: Arduino lora_devices_v1 API
+  slug: arduino-lora-devices-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-lora-devices-v1-api-openapi.yml
+- filename: arduino-lora-freq-plan-v1-api-openapi.yml
+  format: yaml
+  label: Arduino lora_freq_plan_v1 API
+  slug: arduino-lora-freq-plan-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-lora-freq-plan-v1-api-openapi.yml
+- filename: arduino-lora-gw-v1-api-openapi.yml
+  format: yaml
+  label: Arduino lora_gw_v1 API
+  slug: arduino-lora-gw-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-lora-gw-v1-api-openapi.yml
+- filename: arduino-manage-api-openapi.yml
+  format: yaml
+  label: Arduino manage API
+  slug: arduino-manage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-manage-api-openapi.yml
+- filename: arduino-network-credentials-v1-api-openapi.yml
+  format: yaml
+  label: Arduino network_credentials_v1 API
+  slug: arduino-network-credentials-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-network-credentials-v1-api-openapi.yml
+- filename: arduino-ota-api-openapi.yml
+  format: yaml
+  label: Arduino ota API
+  slug: arduino-ota-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-ota-api-openapi.yml
+- filename: arduino-properties-api-openapi.yml
+  format: yaml
+  label: Arduino properties API
+  slug: arduino-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-properties-api-openapi.yml
+- filename: arduino-properties-v2-api-openapi.yml
+  format: yaml
+  label: Arduino properties_v2 API
+  slug: arduino-properties-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-properties-v2-api-openapi.yml
+- filename: arduino-property-types-v1-api-openapi.yml
+  format: yaml
+  label: Arduino property_types_v1 API
+  slug: arduino-property-types-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-property-types-v1-api-openapi.yml
+- filename: arduino-series-v1-api-openapi.yml
+  format: yaml
+  label: Arduino series_v1 API
+  slug: arduino-series-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-series-v1-api-openapi.yml
+- filename: arduino-series-v2-api-openapi.yml
+  format: yaml
+  label: Arduino series_v2 API
+  slug: arduino-series-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-series-v2-api-openapi.yml
+- filename: arduino-supported-v1-api-openapi.yml
+  format: yaml
+  label: Arduino supported_v1 API
+  slug: arduino-supported-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-supported-v1-api-openapi.yml
+- filename: arduino-sync-v1-api-openapi.yml
+  format: yaml
+  label: Arduino sync_v1 API
+  slug: arduino-sync-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-sync-v1-api-openapi.yml
+- filename: arduino-templates-api-openapi.yml
+  format: yaml
+  label: Arduino templates API
+  slug: arduino-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-templates-api-openapi.yml
+- filename: arduino-thing-properties-v1-api-openapi.yml
+  format: yaml
+  label: Arduino thing_properties_v1 API
+  slug: arduino-thing-properties-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-thing-properties-v1-api-openapi.yml
+- filename: arduino-things-tags-v2-api-openapi.yml
+  format: yaml
+  label: Arduino things_tags_v2 API
+  slug: arduino-things-tags-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-things-tags-v2-api-openapi.yml
+- filename: arduino-things-v1-api-openapi.yml
+  format: yaml
+  label: Arduino things_v1 API
+  slug: arduino-things-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-things-v1-api-openapi.yml
+- filename: arduino-things-v1-tags-api-openapi.yml
+  format: yaml
+  label: Arduino things_v1_tags API
+  slug: arduino-things-v1-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-things-v1-tags-api-openapi.yml
+- filename: arduino-things-v2-api-openapi.yml
+  format: yaml
+  label: Arduino things_v2 API
+  slug: arduino-things-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-things-v2-api-openapi.yml
+- filename: arduino-things-v2-tags-api-openapi.yml
+  format: yaml
+  label: Arduino things_v2_tags API
+  slug: arduino-things-v2-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-things-v2-tags-api-openapi.yml
+- filename: arduino-timezones-api-openapi.yml
+  format: yaml
+  label: Arduino timezones API
+  slug: arduino-timezones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-timezones-api-openapi.yml
+- filename: arduino-triggers-v1-api-openapi.yml
+  format: yaml
+  label: Arduino triggers_v1 API
+  slug: arduino-triggers-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-triggers-v1-api-openapi.yml
+- filename: arduino-usage-internal-api-openapi.yml
+  format: yaml
+  label: Arduino usage_internal API
+  slug: arduino-usage-internal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-usage-internal-api-openapi.yml
+- filename: arduino-usage-v1-api-openapi.yml
+  format: yaml
+  label: Arduino usage_v1 API
+  slug: arduino-usage-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-usage-v1-api-openapi.yml
+- filename: arduino-users-v1-api-openapi.yml
+  format: yaml
+  label: Arduino users_v1 API
+  slug: arduino-users-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/openapi/arduino-users-v1-api-openapi.yml
 description: ''
 domains:
 - caa: []

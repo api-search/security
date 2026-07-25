@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: quadrant-api-openapi.json
-  format: json
-  label: Quadrant API
-  slug: quadrant-api
+- filename: quadrant-api-v2-alerts-api-openapi.yml
+  format: yaml
+  label: Quadrant API v2 alerts API
+  slug: quadrant-api-v2-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrant-api/main/openapi/quadrant-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/quadrant-api/refs/heads/main/openapi/quadrant-api-v2-alerts-api-openapi.yml
 description: ''
 domains:
 - caa: []

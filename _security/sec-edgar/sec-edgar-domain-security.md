@@ -1,23 +1,29 @@
 ---
 api_specs:
-- filename: sec-edgar-submissions-openapi.yml
+- filename: sec-edgar-company-facts-api-openapi.yml
   format: yaml
-  label: SEC EDGAR Full-Text Search API
+  label: sec-edgar Company Facts API
+  slug: sec-edgar-company-facts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sec-edgar/refs/heads/main/openapi/sec-edgar-company-facts-api-openapi.yml
+- filename: sec-edgar-full-text-search-api-openapi.yml
+  format: yaml
+  label: sec-edgar Full-Text Search API
   slug: sec-edgar-full-text-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-edgar/refs/heads/main/openapi/sec-edgar-submissions-openapi.yml
-- filename: sec-edgar-submissions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sec-edgar/refs/heads/main/openapi/sec-edgar-full-text-search-api-openapi.yml
+- filename: sec-edgar-submissions-api-openapi.yml
   format: yaml
-  label: SEC EDGAR Submissions API
+  label: sec-edgar Submissions API
   slug: sec-edgar-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-edgar/refs/heads/main/openapi/sec-edgar-submissions-openapi.yml
-- filename: sec-edgar-submissions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sec-edgar/refs/heads/main/openapi/sec-edgar-submissions-api-openapi.yml
+- filename: sec-edgar-xbrl-api-openapi.yml
   format: yaml
-  label: SEC EDGAR XBRL Company Facts API
+  label: sec-edgar XBRL API
   slug: sec-edgar-xbrl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-edgar/refs/heads/main/openapi/sec-edgar-submissions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sec-edgar/refs/heads/main/openapi/sec-edgar-xbrl-api-openapi.yml
 description: ''
 domains:
 - caa:

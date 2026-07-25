@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: kyverno-policy-reporter-openapi.yml
+- filename: kyverno-clusterpolicyreports-api-openapi.yml
   format: yaml
-  label: Kyverno Policy Reporter API
-  slug: kyverno-policy-reporter-api
+  label: Kyverno ClusterPolicyReports API
+  slug: kyverno-clusterpolicyreports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-policy-reporter-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-clusterpolicyreports-api-openapi.yml
+- filename: kyverno-health-api-openapi.yml
+  format: yaml
+  label: Kyverno Health API
+  slug: kyverno-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-health-api-openapi.yml
+- filename: kyverno-namespaces-api-openapi.yml
+  format: yaml
+  label: Kyverno Namespaces API
+  slug: kyverno-namespaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-namespaces-api-openapi.yml
+- filename: kyverno-policies-api-openapi.yml
+  format: yaml
+  label: Kyverno Policies API
+  slug: kyverno-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-policies-api-openapi.yml
+- filename: kyverno-policyreports-api-openapi.yml
+  format: yaml
+  label: Kyverno PolicyReports API
+  slug: kyverno-policyreports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-policyreports-api-openapi.yml
+- filename: kyverno-results-api-openapi.yml
+  format: yaml
+  label: Kyverno Results API
+  slug: kyverno-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-results-api-openapi.yml
+- filename: kyverno-sources-api-openapi.yml
+  format: yaml
+  label: Kyverno Sources API
+  slug: kyverno-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-sources-api-openapi.yml
 description: ''
 domains:
 - caa: []

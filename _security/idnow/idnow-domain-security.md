@@ -1,35 +1,29 @@
 ---
 api_specs:
-- filename: idnow-openapi.yml
+- filename: idnow-authentication-api-openapi.yml
+  format: yaml
+  label: IDnow Authentication API
+  slug: idnow-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idnow/refs/heads/main/openapi/idnow-authentication-api-openapi.yml
+- filename: idnow-identifications-api-openapi.yml
   format: yaml
   label: IDnow Identifications API
   slug: idnow-identifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idnow/refs/heads/main/openapi/idnow-openapi.yml
-- filename: idnow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/idnow/refs/heads/main/openapi/idnow-identifications-api-openapi.yml
+- filename: idnow-results-api-openapi.yml
   format: yaml
-  label: IDnow Results & Retrieval API
+  label: IDnow Results API
   slug: idnow-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idnow/refs/heads/main/openapi/idnow-openapi.yml
-- filename: idnow-openapi.yml
-  format: yaml
-  label: IDnow AutoIdent API
-  slug: idnow-autoident-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idnow/refs/heads/main/openapi/idnow-openapi.yml
-- filename: idnow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/idnow/refs/heads/main/openapi/idnow-results-api-openapi.yml
+- filename: idnow-videoident-api-openapi.yml
   format: yaml
   label: IDnow VideoIdent API
   slug: idnow-videoident-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idnow/refs/heads/main/openapi/idnow-openapi.yml
-- filename: idnow-openapi.yml
-  format: yaml
-  label: IDnow Webhooks
-  slug: idnow-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idnow/refs/heads/main/openapi/idnow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/idnow/refs/heads/main/openapi/idnow-videoident-api-openapi.yml
 description: ''
 domains:
 - caa:

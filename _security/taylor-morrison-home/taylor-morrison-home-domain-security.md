@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: taylor-morrison-home-search-openapi.yml
+- filename: taylor-morrison-home-communities-api-openapi.yml
   format: yaml
-  label: Taylor Morrison Home Search API
-  slug: taylor-morrison-home-search-api
+  label: taylor-morrison-home Communities API
+  slug: taylor-morrison-home-communities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-search-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-communities-api-openapi.yml
+- filename: taylor-morrison-home-design-api-openapi.yml
+  format: yaml
+  label: taylor-morrison-home Design API
+  slug: taylor-morrison-home-design-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-design-api-openapi.yml
+- filename: taylor-morrison-home-floor-plans-api-openapi.yml
+  format: yaml
+  label: taylor-morrison-home Floor Plans API
+  slug: taylor-morrison-home-floor-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-floor-plans-api-openapi.yml
+- filename: taylor-morrison-home-homes-api-openapi.yml
+  format: yaml
+  label: taylor-morrison-home Homes API
+  slug: taylor-morrison-home-homes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-homes-api-openapi.yml
+- filename: taylor-morrison-home-lots-api-openapi.yml
+  format: yaml
+  label: taylor-morrison-home Lots API
+  slug: taylor-morrison-home-lots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-lots-api-openapi.yml
+- filename: taylor-morrison-home-reservations-api-openapi.yml
+  format: yaml
+  label: taylor-morrison-home Reservations API
+  slug: taylor-morrison-home-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-reservations-api-openapi.yml
 description: ''
 domains:
 - caa: []

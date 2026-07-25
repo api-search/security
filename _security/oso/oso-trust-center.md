@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: api
+- filename: oso-centralized-authorization-data-api-openapi.yml
   format: yaml
-  label: Oso Cloud Authorization API
-  slug: oso-cloud-authorization-api
+  label: Oso Cloud Centralized Authorization Data API
+  slug: oso-centralized-authorization-data-api
   spec_type: OpenAPI
-  url: https://www.osohq.com/docs/reference/api
+  url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/openapi/oso-centralized-authorization-data-api-openapi.yml
+- filename: oso-check-api-api-openapi.yml
+  format: yaml
+  label: Oso Cloud Check API API
+  slug: oso-check-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/openapi/oso-check-api-api-openapi.yml
+- filename: oso-local-check-api-api-openapi.yml
+  format: yaml
+  label: Oso Cloud Local Check API API
+  slug: oso-local-check-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/openapi/oso-local-check-api-api-openapi.yml
+- filename: oso-policy-api-openapi.yml
+  format: yaml
+  label: Oso Cloud Policy API
+  slug: oso-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/openapi/oso-policy-api-openapi.yml
 certifications:
 - SOC 2
 description: ''

@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: crowdin-openapi.yml
+- filename: crowdin-files-api-openapi.yml
   format: yaml
-  label: Crowdin REST API v2
-  slug: api-v2
+  label: Crowdin Files API
+  slug: crowdin-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-files-api-openapi.yml
+- filename: crowdin-glossaries-api-openapi.yml
+  format: yaml
+  label: Crowdin Glossaries API
+  slug: crowdin-glossaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-glossaries-api-openapi.yml
+- filename: crowdin-projects-api-openapi.yml
+  format: yaml
+  label: Crowdin Projects API
+  slug: crowdin-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-projects-api-openapi.yml
+- filename: crowdin-screenshots-api-openapi.yml
+  format: yaml
+  label: Crowdin Screenshots API
+  slug: crowdin-screenshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-screenshots-api-openapi.yml
+- filename: crowdin-sourcestrings-api-openapi.yml
+  format: yaml
+  label: Crowdin SourceStrings API
+  slug: crowdin-sourcestrings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-sourcestrings-api-openapi.yml
+- filename: crowdin-stringtranslations-api-openapi.yml
+  format: yaml
+  label: Crowdin StringTranslations API
+  slug: crowdin-stringtranslations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-stringtranslations-api-openapi.yml
+- filename: crowdin-webhooks-api-openapi.yml
+  format: yaml
+  label: Crowdin Webhooks API
+  slug: crowdin-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

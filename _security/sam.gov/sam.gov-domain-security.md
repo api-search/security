@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: sam-gov-location-services-openapi.yml
+- filename: sam.gov-cities-api-openapi.yml
   format: yaml
-  label: SAM.gov Public Location Services API
-  slug: location-services-api
+  label: SAM.gov Cities API
+  slug: sam.gov-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sam.gov/refs/heads/main/openapi/sam-gov-location-services-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sam.gov/refs/heads/main/openapi/sam.gov-cities-api-openapi.yml
+- filename: sam.gov-states-api-openapi.yml
+  format: yaml
+  label: SAM.gov States API
+  slug: sam.gov-states-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sam.gov/refs/heads/main/openapi/sam.gov-states-api-openapi.yml
+- filename: sam.gov-zip-codes-api-openapi.yml
+  format: yaml
+  label: SAM.gov ZIP Codes API
+  slug: sam.gov-zip-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sam.gov/refs/heads/main/openapi/sam.gov-zip-codes-api-openapi.yml
 description: ''
 domains:
 - caa: []

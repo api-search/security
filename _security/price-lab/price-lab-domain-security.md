@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: price-lab-openapi.yml
+- filename: price-lab-authentication-api-openapi.yml
   format: yaml
-  label: Price Lab API
-  slug: price-lab-api
+  label: Price Lab Authentication API
+  slug: price-lab-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-authentication-api-openapi.yml
+- filename: price-lab-categories-api-openapi.yml
+  format: yaml
+  label: Price Lab Categories API
+  slug: price-lab-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-categories-api-openapi.yml
+- filename: price-lab-competitor-pricing-api-openapi.yml
+  format: yaml
+  label: Price Lab Competitor Pricing API
+  slug: price-lab-competitor-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-competitor-pricing-api-openapi.yml
+- filename: price-lab-data-import-api-openapi.yml
+  format: yaml
+  label: Price Lab Data Import API
+  slug: price-lab-data-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-data-import-api-openapi.yml
+- filename: price-lab-electronic-price-tags-api-openapi.yml
+  format: yaml
+  label: Price Lab Electronic Price Tags API
+  slug: price-lab-electronic-price-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-electronic-price-tags-api-openapi.yml
+- filename: price-lab-price-management-api-openapi.yml
+  format: yaml
+  label: Price Lab Price Management API
+  slug: price-lab-price-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-price-management-api-openapi.yml
+- filename: price-lab-products-api-openapi.yml
+  format: yaml
+  label: Price Lab Products API
+  slug: price-lab-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-products-api-openapi.yml
+- filename: price-lab-recommendations-api-openapi.yml
+  format: yaml
+  label: Price Lab Recommendations API
+  slug: price-lab-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-recommendations-api-openapi.yml
+- filename: price-lab-users-api-openapi.yml
+  format: yaml
+  label: Price Lab Users API
+  slug: price-lab-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: carsxe-auth-api-openapi.yml
+  format: yaml
+  label: CarsXE Auth API
+  slug: carsxe-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/openapi/carsxe-auth-api-openapi.yml
+- filename: carsxe-market-value-api-openapi.yml
+  format: yaml
+  label: CarsXE Market Value API
+  slug: carsxe-market-value-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/openapi/carsxe-market-value-api-openapi.yml
+- filename: carsxe-plate-api-openapi.yml
+  format: yaml
+  label: CarsXE Plate API
+  slug: carsxe-plate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/openapi/carsxe-plate-api-openapi.yml
+- filename: carsxe-recalls-api-openapi.yml
+  format: yaml
+  label: CarsXE Recalls API
+  slug: carsxe-recalls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/openapi/carsxe-recalls-api-openapi.yml
+- filename: carsxe-specifications-api-openapi.yml
+  format: yaml
+  label: CarsXE Specifications API
+  slug: carsxe-specifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/openapi/carsxe-specifications-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

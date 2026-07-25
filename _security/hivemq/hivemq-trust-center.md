@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: openapi.yaml
-  format: yaml
-  label: HiveMQ REST API
-  slug: rest-api
-  spec_type: OpenAPI
-  url: https://docs.hivemq.com/hivemq/latest/rest-api/specification/
 - filename: hivemq-asyncapi.yml
   format: yaml
   label: HiveMQ MQTT over WebSocket
   slug: mqtt-websocket
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/asyncapi/hivemq-asyncapi.yml
+- filename: hivemq-data-hub-api-openapi.yml
+  format: yaml
+  label: HiveMQ Data Hub API
+  slug: hivemq-data-hub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/openapi/hivemq-data-hub-api-openapi.yml
+- filename: hivemq-management-api-openapi.yml
+  format: yaml
+  label: HiveMQ Management API
+  slug: hivemq-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/openapi/hivemq-management-api-openapi.yml
+- filename: hivemq-mqtt-api-openapi.yml
+  format: yaml
+  label: HiveMQ Mqtt API
+  slug: hivemq-mqtt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/openapi/hivemq-mqtt-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

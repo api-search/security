@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: artifact-hub-openapi.yml
+- filename: artifact-hub-api-keys-api-openapi.yml
   format: yaml
-  label: Artifact Hub API
-  slug: artifact-hub-api
+  label: Artifact Hub API Keys API
+  slug: artifact-hub-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/openapi/artifact-hub-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/openapi/artifact-hub-api-keys-api-openapi.yml
+- filename: artifact-hub-organizations-api-openapi.yml
+  format: yaml
+  label: Artifact Hub Organizations API
+  slug: artifact-hub-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/openapi/artifact-hub-organizations-api-openapi.yml
+- filename: artifact-hub-packages-api-openapi.yml
+  format: yaml
+  label: Artifact Hub Packages API
+  slug: artifact-hub-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/openapi/artifact-hub-packages-api-openapi.yml
+- filename: artifact-hub-repositories-api-openapi.yml
+  format: yaml
+  label: Artifact Hub Repositories API
+  slug: artifact-hub-repositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/openapi/artifact-hub-repositories-api-openapi.yml
+- filename: artifact-hub-stats-api-openapi.yml
+  format: yaml
+  label: Artifact Hub Stats API
+  slug: artifact-hub-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/openapi/artifact-hub-stats-api-openapi.yml
+- filename: artifact-hub-subscriptions-api-openapi.yml
+  format: yaml
+  label: Artifact Hub Subscriptions API
+  slug: artifact-hub-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/openapi/artifact-hub-subscriptions-api-openapi.yml
+- filename: artifact-hub-users-api-openapi.yml
+  format: yaml
+  label: Artifact Hub Users API
+  slug: artifact-hub-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/openapi/artifact-hub-users-api-openapi.yml
+- filename: artifact-hub-webhooks-api-openapi.yml
+  format: yaml
+  label: Artifact Hub Webhooks API
+  slug: artifact-hub-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/openapi/artifact-hub-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

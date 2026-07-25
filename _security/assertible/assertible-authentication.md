@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: assertible-openapi.yml
+- filename: assertible-deployments-api-openapi.yml
   format: yaml
-  label: Assertible API
-  slug: assertible-api
+  label: Assertible Deployments API
+  slug: assertible-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/openapi/assertible-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/openapi/assertible-deployments-api-openapi.yml
 auth_types:
 - http
 description: ''

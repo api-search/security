@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: apptio-openapi.yaml
+- filename: apptio-budgets-api-openapi.yml
   format: yaml
-  label: Apptio API
-  slug: apptio-api
+  label: Apptio Budgets API
+  slug: apptio-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptio/refs/heads/main/openapi/apptio-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apptio/refs/heads/main/openapi/apptio-budgets-api-openapi.yml
+- filename: apptio-cost-allocations-api-openapi.yml
+  format: yaml
+  label: Apptio Cost Allocations API
+  slug: apptio-cost-allocations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apptio/refs/heads/main/openapi/apptio-cost-allocations-api-openapi.yml
+- filename: apptio-reports-api-openapi.yml
+  format: yaml
+  label: Apptio Reports API
+  slug: apptio-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apptio/refs/heads/main/openapi/apptio-reports-api-openapi.yml
 description: ''
 domains:
 - caa: []

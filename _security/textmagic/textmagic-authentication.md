@@ -2,48 +2,72 @@
 api_key_in:
 - header
 api_specs:
-- filename: textmagic-openapi.yml
+- filename: textmagic-bulk-api-openapi.yml
+  format: yaml
+  label: Textmagic Bulk API
+  slug: textmagic-bulk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-bulk-api-openapi.yml
+- filename: textmagic-chats-api-openapi.yml
+  format: yaml
+  label: Textmagic Chats API
+  slug: textmagic-chats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-chats-api-openapi.yml
+- filename: textmagic-contacts-api-openapi.yml
+  format: yaml
+  label: Textmagic Contacts API
+  slug: textmagic-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-contacts-api-openapi.yml
+- filename: textmagic-lists-api-openapi.yml
+  format: yaml
+  label: Textmagic Lists API
+  slug: textmagic-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-lists-api-openapi.yml
+- filename: textmagic-messages-api-openapi.yml
   format: yaml
   label: Textmagic Messages API
   slug: textmagic-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-openapi.yml
-- filename: textmagic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-messages-api-openapi.yml
+- filename: textmagic-numbers-api-openapi.yml
   format: yaml
-  label: Textmagic Bulk Messaging API
-  slug: textmagic-bulk-api
+  label: Textmagic Numbers API
+  slug: textmagic-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-openapi.yml
-- filename: textmagic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-numbers-api-openapi.yml
+- filename: textmagic-replies-api-openapi.yml
   format: yaml
-  label: Textmagic Chats and Replies API
-  slug: textmagic-chats-replies-api
+  label: Textmagic Replies API
+  slug: textmagic-replies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-openapi.yml
-- filename: textmagic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-replies-api-openapi.yml
+- filename: textmagic-schedules-api-openapi.yml
   format: yaml
-  label: Textmagic Contacts and Lists API
-  slug: textmagic-contacts-lists-api
+  label: Textmagic Schedules API
+  slug: textmagic-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-openapi.yml
-- filename: textmagic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-schedules-api-openapi.yml
+- filename: textmagic-sender-ids-api-openapi.yml
+  format: yaml
+  label: Textmagic Sender IDs API
+  slug: textmagic-sender-ids-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-sender-ids-api-openapi.yml
+- filename: textmagic-stats-api-openapi.yml
+  format: yaml
+  label: Textmagic Stats API
+  slug: textmagic-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-stats-api-openapi.yml
+- filename: textmagic-templates-api-openapi.yml
   format: yaml
   label: Textmagic Templates API
   slug: textmagic-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-openapi.yml
-- filename: textmagic-openapi.yml
-  format: yaml
-  label: Textmagic Scheduled Messages API
-  slug: textmagic-schedules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-openapi.yml
-- filename: textmagic-openapi.yml
-  format: yaml
-  label: Textmagic Sender IDs and Numbers API
-  slug: textmagic-senderids-numbers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-templates-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

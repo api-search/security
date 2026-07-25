@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: docraptor-openapi.yml
+- filename: docraptor-async-documents-api-openapi.yml
   format: yaml
-  label: DocRaptor REST API
-  slug: rest
+  label: DocRaptor Async Documents API
+  slug: docraptor-async-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docraptor/refs/heads/main/openapi/docraptor-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/docraptor/refs/heads/main/openapi/docraptor-async-documents-api-openapi.yml
+- filename: docraptor-documents-api-openapi.yml
+  format: yaml
+  label: DocRaptor Documents API
+  slug: docraptor-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docraptor/refs/heads/main/openapi/docraptor-documents-api-openapi.yml
 auth_types:
 - http
 description: ''

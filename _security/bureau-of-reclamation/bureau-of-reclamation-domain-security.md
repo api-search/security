@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: bureau-of-reclamation-openapi.yml
+- filename: bureau-of-reclamation-catalog-api-openapi.yml
   format: yaml
-  label: Reclamation Information Sharing Environment (RISE) API
-  slug: reclamation-information-sharing-environment-rise
+  label: Bureau of Reclamation Catalog API
+  slug: bureau-of-reclamation-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/openapi/bureau-of-reclamation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/openapi/bureau-of-reclamation-catalog-api-openapi.yml
+- filename: bureau-of-reclamation-locations-api-openapi.yml
+  format: yaml
+  label: Bureau of Reclamation Locations API
+  slug: bureau-of-reclamation-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/openapi/bureau-of-reclamation-locations-api-openapi.yml
+- filename: bureau-of-reclamation-model-runs-api-openapi.yml
+  format: yaml
+  label: Bureau of Reclamation Model Runs API
+  slug: bureau-of-reclamation-model-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/openapi/bureau-of-reclamation-model-runs-api-openapi.yml
+- filename: bureau-of-reclamation-parameters-api-openapi.yml
+  format: yaml
+  label: Bureau of Reclamation Parameters API
+  slug: bureau-of-reclamation-parameters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/openapi/bureau-of-reclamation-parameters-api-openapi.yml
+- filename: bureau-of-reclamation-reference-data-api-openapi.yml
+  format: yaml
+  label: Bureau of Reclamation Reference Data API
+  slug: bureau-of-reclamation-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/openapi/bureau-of-reclamation-reference-data-api-openapi.yml
+- filename: bureau-of-reclamation-results-api-openapi.yml
+  format: yaml
+  label: Bureau of Reclamation Results API
+  slug: bureau-of-reclamation-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/openapi/bureau-of-reclamation-results-api-openapi.yml
 description: ''
 domains:
 - caa: []

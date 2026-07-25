@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: cvent-hospitality-cloud-authentication-api-openapi.yml
+  format: yaml
+  label: Cvent Hospitality Cloud Authentication API
+  slug: cvent-hospitality-cloud-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-hospitality-cloud/refs/heads/main/openapi/cvent-hospitality-cloud-authentication-api-openapi.yml
+- filename: cvent-hospitality-cloud-connections-api-openapi.yml
+  format: yaml
+  label: Cvent Hospitality Cloud Connections API
+  slug: cvent-hospitality-cloud-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-hospitality-cloud/refs/heads/main/openapi/cvent-hospitality-cloud-connections-api-openapi.yml
+- filename: cvent-hospitality-cloud-events-api-openapi.yml
+  format: yaml
+  label: Cvent Hospitality Cloud Events API
+  slug: cvent-hospitality-cloud-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-hospitality-cloud/refs/heads/main/openapi/cvent-hospitality-cloud-events-api-openapi.yml
+- filename: cvent-hospitality-cloud-hotels-api-openapi.yml
+  format: yaml
+  label: Cvent Hospitality Cloud Hotels API
+  slug: cvent-hospitality-cloud-hotels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-hospitality-cloud/refs/heads/main/openapi/cvent-hospitality-cloud-hotels-api-openapi.yml
+- filename: cvent-hospitality-cloud-reservationrequests-api-openapi.yml
+  format: yaml
+  label: Cvent Hospitality Cloud ReservationRequests API
+  slug: cvent-hospitality-cloud-reservationrequests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-hospitality-cloud/refs/heads/main/openapi/cvent-hospitality-cloud-reservationrequests-api-openapi.yml
+- filename: cvent-hospitality-cloud-roomtypes-api-openapi.yml
+  format: yaml
+  label: Cvent Hospitality Cloud RoomTypes API
+  slug: cvent-hospitality-cloud-roomtypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-hospitality-cloud/refs/heads/main/openapi/cvent-hospitality-cloud-roomtypes-api-openapi.yml
 description: ''
 domains:
 - caa:

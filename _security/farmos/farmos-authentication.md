@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: farmos-farmos-api-openapi.yml
+- filename: farmos-assets-api-openapi.yml
   format: yaml
-  label: farmOS JSON:API
-  slug: farmos-api
+  label: farmOS Assets API
+  slug: farmos-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-farmos-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-assets-api-openapi.yml
+- filename: farmos-logs-api-openapi.yml
+  format: yaml
+  label: farmOS Logs API
+  slug: farmos-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-logs-api-openapi.yml
+- filename: farmos-plans-api-openapi.yml
+  format: yaml
+  label: farmOS Plans API
+  slug: farmos-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-plans-api-openapi.yml
+- filename: farmos-quantities-api-openapi.yml
+  format: yaml
+  label: farmOS Quantities API
+  slug: farmos-quantities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-quantities-api-openapi.yml
+- filename: farmos-server-info-api-openapi.yml
+  format: yaml
+  label: farmOS Server Info API
+  slug: farmos-server-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-server-info-api-openapi.yml
+- filename: farmos-taxonomy-api-openapi.yml
+  format: yaml
+  label: farmOS Taxonomy API
+  slug: farmos-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-taxonomy-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

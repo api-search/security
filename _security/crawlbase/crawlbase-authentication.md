@@ -1,36 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: crawlbase-openapi.yml
+- filename: crawlbase-crawling-api-api-openapi.yml
   format: yaml
-  label: Crawlbase Crawling API
-  slug: crawlbase-crawling-api
+  label: Crawlbase Crawling API API
+  slug: crawlbase-crawling-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-openapi.yml
-- filename: crawlbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-crawling-api-api-openapi.yml
+- filename: crawlbase-leads-api-api-openapi.yml
   format: yaml
-  label: Crawlbase Scraper API
-  slug: crawlbase-scraper-api
+  label: Crawlbase Leads API API
+  slug: crawlbase-leads-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-openapi.yml
-- filename: crawlbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-leads-api-api-openapi.yml
+- filename: crawlbase-scraper-api-api-openapi.yml
   format: yaml
-  label: Crawlbase Cloud Storage API
-  slug: crawlbase-storage-api
+  label: Crawlbase Scraper API API
+  slug: crawlbase-scraper-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-openapi.yml
-- filename: crawlbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-scraper-api-api-openapi.yml
+- filename: crawlbase-screenshots-api-api-openapi.yml
   format: yaml
-  label: Crawlbase Screenshots API
-  slug: crawlbase-screenshots-api
+  label: Crawlbase Screenshots API API
+  slug: crawlbase-screenshots-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-openapi.yml
-- filename: crawlbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-screenshots-api-api-openapi.yml
+- filename: crawlbase-storage-api-api-openapi.yml
   format: yaml
-  label: Crawlbase Leads API
-  slug: crawlbase-leads-api
+  label: Crawlbase Storage API API
+  slug: crawlbase-storage-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-storage-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

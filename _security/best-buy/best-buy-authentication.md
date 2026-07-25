@@ -2,24 +2,24 @@
 api_key_in:
 - query
 api_specs:
-- filename: best-buy-products-api.yaml
+- filename: best-buy-products-api-openapi.yml
   format: yaml
   label: Best Buy Products API
-  slug: products-api
+  slug: best-buy-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/openapi/best-buy-products-api.yaml
-- filename: best-buy-stores-api.yaml
-  format: yaml
-  label: Best Buy Stores API
-  slug: stores-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/openapi/best-buy-stores-api.yaml
-- filename: best-buy-recommendations-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/openapi/best-buy-products-api-openapi.yml
+- filename: best-buy-recommendations-api-openapi.yml
   format: yaml
   label: Best Buy Recommendations API
-  slug: recommendations-api
+  slug: best-buy-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/openapi/best-buy-recommendations-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/openapi/best-buy-recommendations-api-openapi.yml
+- filename: best-buy-stores-api-openapi.yml
+  format: yaml
+  label: Best Buy Stores API
+  slug: best-buy-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/openapi/best-buy-stores-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

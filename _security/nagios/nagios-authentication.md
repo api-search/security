@@ -3,24 +3,72 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: nagios-xi-openapi.yml
+- filename: nagios-config-api-openapi.yml
   format: yaml
-  label: Nagios XI REST API
-  slug: xi-rest-api
+  label: Nagios Config API
+  slug: nagios-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-xi-openapi.yml
-- filename: ncpa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-config-api-openapi.yml
+- filename: nagios-cpu-api-openapi.yml
   format: yaml
-  label: NCPA (Nagios Cross-Platform Agent) API
-  slug: ncpa-api
+  label: Nagios CPU API
+  slug: nagios-cpu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/ncpa-openapi.yml
-- filename: nrdp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-cpu-api-openapi.yml
+- filename: nagios-disk-api-openapi.yml
   format: yaml
-  label: NRDP (Nagios Remote Data Processor) API
-  slug: nrdp-api
+  label: Nagios Disk API
+  slug: nagios-disk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nrdp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-disk-api-openapi.yml
+- filename: nagios-interface-api-openapi.yml
+  format: yaml
+  label: Nagios Interface API
+  slug: nagios-interface-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-interface-api-openapi.yml
+- filename: nagios-memory-api-openapi.yml
+  format: yaml
+  label: Nagios Memory API
+  slug: nagios-memory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-memory-api-openapi.yml
+- filename: nagios-objects-api-openapi.yml
+  format: yaml
+  label: Nagios Objects API
+  slug: nagios-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-objects-api-openapi.yml
+- filename: nagios-plugins-api-openapi.yml
+  format: yaml
+  label: Nagios Plugins API
+  slug: nagios-plugins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-plugins-api-openapi.yml
+- filename: nagios-processes-api-openapi.yml
+  format: yaml
+  label: Nagios Processes API
+  slug: nagios-processes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-processes-api-openapi.yml
+- filename: nagios-services-api-openapi.yml
+  format: yaml
+  label: Nagios Services API
+  slug: nagios-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-services-api-openapi.yml
+- filename: nagios-submission-api-openapi.yml
+  format: yaml
+  label: Nagios Submission API
+  slug: nagios-submission-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-submission-api-openapi.yml
+- filename: nagios-system-api-openapi.yml
+  format: yaml
+  label: Nagios System API
+  slug: nagios-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-system-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: apache-jmeter-rest-api.yaml
+- filename: apache-jmeter-results-api-openapi.yml
   format: yaml
-  label: Apache JMeter REST API
-  slug: rest-api
+  label: Apache JMeter Results API
+  slug: apache-jmeter-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-jmeter/refs/heads/main/openapi/apache-jmeter-rest-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-jmeter/refs/heads/main/openapi/apache-jmeter-results-api-openapi.yml
+- filename: apache-jmeter-status-api-openapi.yml
+  format: yaml
+  label: Apache JMeter Status API
+  slug: apache-jmeter-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-jmeter/refs/heads/main/openapi/apache-jmeter-status-api-openapi.yml
+- filename: apache-jmeter-tests-api-openapi.yml
+  format: yaml
+  label: Apache JMeter Tests API
+  slug: apache-jmeter-tests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-jmeter/refs/heads/main/openapi/apache-jmeter-tests-api-openapi.yml
 description: ''
 domains:
 - caa:

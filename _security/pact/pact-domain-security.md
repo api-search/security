@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: pact-openapi.yml
+- filename: pact-index-api-openapi.yml
   format: yaml
-  label: Pact Broker API
-  slug: pact-broker
+  label: Pact Index API
+  slug: pact-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/openapi/pact-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/openapi/pact-index-api-openapi.yml
+- filename: pact-pacticipants-api-openapi.yml
+  format: yaml
+  label: Pact Pacticipants API
+  slug: pact-pacticipants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/openapi/pact-pacticipants-api-openapi.yml
+- filename: pact-pacts-api-openapi.yml
+  format: yaml
+  label: Pact Pacts API
+  slug: pact-pacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/openapi/pact-pacts-api-openapi.yml
+- filename: pact-verifications-api-openapi.yml
+  format: yaml
+  label: Pact Verifications API
+  slug: pact-verifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/openapi/pact-verifications-api-openapi.yml
+- filename: pact-webhooks-api-openapi.yml
+  format: yaml
+  label: Pact Webhooks API
+  slug: pact-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/openapi/pact-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

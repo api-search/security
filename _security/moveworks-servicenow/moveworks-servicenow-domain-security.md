@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: moveworks-servicenow-data-api-openapi.yml
+- filename: moveworks-servicenow-records-api-openapi.yml
   format: yaml
-  label: Moveworks Data API
-  slug: moveworks-data-api
+  label: Moveworks (ServiceNow) Records API
+  slug: moveworks-servicenow-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks-servicenow/refs/heads/main/openapi/moveworks-servicenow-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moveworks-servicenow/refs/heads/main/openapi/moveworks-servicenow-records-api-openapi.yml
 description: ''
 domains:
 - caa:

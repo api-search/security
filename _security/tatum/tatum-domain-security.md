@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: tatum-openapi.yml
+- filename: tatum-data-api-openapi.yml
   format: yaml
   label: Tatum Data API
-  slug: data-api
+  slug: tatum-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tatum/refs/heads/main/openapi/tatum-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tatum/refs/heads/main/openapi/tatum-data-api-openapi.yml
+- filename: tatum-rates-api-openapi.yml
+  format: yaml
+  label: Tatum Rates API
+  slug: tatum-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tatum/refs/heads/main/openapi/tatum-rates-api-openapi.yml
 description: ''
 domains:
 - caa:

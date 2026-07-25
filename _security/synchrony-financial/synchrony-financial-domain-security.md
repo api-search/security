@@ -1,17 +1,53 @@
 ---
 api_specs:
-- filename: synchrony-financial-credit-authorization-openapi.yml
+- filename: synchrony-financial-applications-api-openapi.yml
   format: yaml
-  label: Synchrony Credit Authorization API
-  slug: credit-authorization
+  label: Synchrony Financial Applications API
+  slug: synchrony-financial-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/openapi/synchrony-financial-credit-authorization-openapi.yml
-- filename: synchrony-financial-quickscreen-apply-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/openapi/synchrony-financial-applications-api-openapi.yml
+- filename: synchrony-financial-decisions-api-openapi.yml
   format: yaml
-  label: Synchrony Quickscreen Apply API
-  slug: quickscreen-apply
+  label: Synchrony Financial Decisions API
+  slug: synchrony-financial-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/openapi/synchrony-financial-quickscreen-apply-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/openapi/synchrony-financial-decisions-api-openapi.yml
+- filename: synchrony-financial-payments-api-openapi.yml
+  format: yaml
+  label: Synchrony Financial Payments API
+  slug: synchrony-financial-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/openapi/synchrony-financial-payments-api-openapi.yml
+- filename: synchrony-financial-preapprovals-api-openapi.yml
+  format: yaml
+  label: Synchrony Financial Preapprovals API
+  slug: synchrony-financial-preapprovals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/openapi/synchrony-financial-preapprovals-api-openapi.yml
+- filename: synchrony-financial-preauthorizations-api-openapi.yml
+  format: yaml
+  label: Synchrony Financial Preauthorizations API
+  slug: synchrony-financial-preauthorizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/openapi/synchrony-financial-preauthorizations-api-openapi.yml
+- filename: synchrony-financial-purchases-api-openapi.yml
+  format: yaml
+  label: Synchrony Financial Purchases API
+  slug: synchrony-financial-purchases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/openapi/synchrony-financial-purchases-api-openapi.yml
+- filename: synchrony-financial-refunds-api-openapi.yml
+  format: yaml
+  label: Synchrony Financial Refunds API
+  slug: synchrony-financial-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/openapi/synchrony-financial-refunds-api-openapi.yml
+- filename: synchrony-financial-reversals-api-openapi.yml
+  format: yaml
+  label: Synchrony Financial Reversals API
+  slug: synchrony-financial-reversals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/openapi/synchrony-financial-reversals-api-openapi.yml
 description: ''
 domains:
 - caa: []

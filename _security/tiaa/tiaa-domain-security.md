@@ -1,17 +1,59 @@
 ---
 api_specs:
-- filename: tiaa-fdx-openapi.yml
+- filename: tiaa-accounts-api-openapi.yml
   format: yaml
-  label: TIAA Financial Data Exchange API
-  slug: tiaa-fdx-api
+  label: TIAA Accounts API
+  slug: tiaa-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-fdx-openapi.yml
-- filename: tiaa-sia-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-accounts-api-openapi.yml
+- filename: tiaa-contributions-api-openapi.yml
   format: yaml
-  label: TIAA Secure Income Account API
-  slug: tiaa-sia-api
+  label: TIAA Contributions API
+  slug: tiaa-contributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-sia-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-contributions-api-openapi.yml
+- filename: tiaa-customer-api-openapi.yml
+  format: yaml
+  label: TIAA Customer API
+  slug: tiaa-customer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-customer-api-openapi.yml
+- filename: tiaa-investments-api-openapi.yml
+  format: yaml
+  label: TIAA Investments API
+  slug: tiaa-investments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-investments-api-openapi.yml
+- filename: tiaa-participants-api-openapi.yml
+  format: yaml
+  label: TIAA Participants API
+  slug: tiaa-participants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-participants-api-openapi.yml
+- filename: tiaa-plans-api-openapi.yml
+  format: yaml
+  label: TIAA Plans API
+  slug: tiaa-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-plans-api-openapi.yml
+- filename: tiaa-projections-api-openapi.yml
+  format: yaml
+  label: TIAA Projections API
+  slug: tiaa-projections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-projections-api-openapi.yml
+- filename: tiaa-tax-api-openapi.yml
+  format: yaml
+  label: TIAA Tax API
+  slug: tiaa-tax-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-tax-api-openapi.yml
+- filename: tiaa-transactions-api-openapi.yml
+  format: yaml
+  label: TIAA Transactions API
+  slug: tiaa-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:

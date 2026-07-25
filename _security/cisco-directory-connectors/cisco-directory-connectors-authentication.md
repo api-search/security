@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cisco-directory-connectors-openapi.yml
+- filename: cisco-directory-connectors-groups-api-openapi.yml
   format: yaml
-  label: Cisco Directory Connector API
-  slug: cisco-directory-connector-api
+  label: Cisco Directory Connectors Groups API
+  slug: cisco-directory-connectors-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-directory-connectors/refs/heads/main/openapi/cisco-directory-connectors-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-directory-connectors/refs/heads/main/openapi/cisco-directory-connectors-groups-api-openapi.yml
+- filename: cisco-directory-connectors-people-api-openapi.yml
+  format: yaml
+  label: Cisco Directory Connectors People API
+  slug: cisco-directory-connectors-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-directory-connectors/refs/heads/main/openapi/cisco-directory-connectors-people-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: datahub-openapi-openapi.yml
-  format: yaml
-  label: DataHub OpenAPI
-  slug: datahub-openapi
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/openapi/datahub-openapi-openapi.yml
 - filename: datahub-actions-asyncapi.yml
   format: yaml
   label: DataHub Actions Framework
   slug: datahub-actions-framework
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/asyncapi/datahub-actions-asyncapi.yml
+- filename: datahub-batch-api-openapi.yml
+  format: yaml
+  label: DataHub Batch API
+  slug: datahub-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/openapi/datahub-batch-api-openapi.yml
+- filename: datahub-entities-api-openapi.yml
+  format: yaml
+  label: DataHub Entities API
+  slug: datahub-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/openapi/datahub-entities-api-openapi.yml
+- filename: datahub-platform-api-openapi.yml
+  format: yaml
+  label: DataHub Platform API
+  slug: datahub-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/openapi/datahub-platform-api-openapi.yml
+- filename: datahub-relationships-api-openapi.yml
+  format: yaml
+  label: DataHub Relationships API
+  slug: datahub-relationships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/openapi/datahub-relationships-api-openapi.yml
+- filename: datahub-timeline-api-openapi.yml
+  format: yaml
+  label: DataHub Timeline API
+  slug: datahub-timeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/openapi/datahub-timeline-api-openapi.yml
 description: ''
 domains:
 - caa: []

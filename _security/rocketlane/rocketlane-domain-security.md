@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: rocketlane-openapi-original.json
-  format: json
-  label: Rocketlane API
-  slug: rocketlane-api
+- filename: rocketlane-comments-api-openapi.yml
+  format: yaml
+  label: Rocketlane Comments API
+  slug: rocketlane-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-comments-api-openapi.yml
+- filename: rocketlane-conversations-api-openapi.yml
+  format: yaml
+  label: Rocketlane Conversations API
+  slug: rocketlane-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-conversations-api-openapi.yml
+- filename: rocketlane-fields-api-openapi.yml
+  format: yaml
+  label: Rocketlane Fields API
+  slug: rocketlane-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-fields-api-openapi.yml
+- filename: rocketlane-invoices-api-openapi.yml
+  format: yaml
+  label: Rocketlane Invoices API
+  slug: rocketlane-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-invoices-api-openapi.yml
+- filename: rocketlane-phases-api-openapi.yml
+  format: yaml
+  label: Rocketlane Phases API
+  slug: rocketlane-phases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-phases-api-openapi.yml
+- filename: rocketlane-projects-api-openapi.yml
+  format: yaml
+  label: Rocketlane Projects API
+  slug: rocketlane-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-projects-api-openapi.yml
+- filename: rocketlane-resource-allocations-api-openapi.yml
+  format: yaml
+  label: Rocketlane Resource Allocations API
+  slug: rocketlane-resource-allocations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-resource-allocations-api-openapi.yml
+- filename: rocketlane-space-documents-api-openapi.yml
+  format: yaml
+  label: Rocketlane Space Documents API
+  slug: rocketlane-space-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-space-documents-api-openapi.yml
+- filename: rocketlane-spaces-api-openapi.yml
+  format: yaml
+  label: Rocketlane Spaces API
+  slug: rocketlane-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-spaces-api-openapi.yml
+- filename: rocketlane-tasks-api-openapi.yml
+  format: yaml
+  label: Rocketlane Tasks API
+  slug: rocketlane-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-tasks-api-openapi.yml
+- filename: rocketlane-time-offs-api-openapi.yml
+  format: yaml
+  label: Rocketlane Time-Offs API
+  slug: rocketlane-time-offs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-time-offs-api-openapi.yml
+- filename: rocketlane-time-tracking-api-openapi.yml
+  format: yaml
+  label: Rocketlane Time Tracking API
+  slug: rocketlane-time-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-time-tracking-api-openapi.yml
+- filename: rocketlane-users-api-openapi.yml
+  format: yaml
+  label: Rocketlane Users API
+  slug: rocketlane-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

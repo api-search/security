@@ -1,35 +1,155 @@
 ---
 api_specs:
-- filename: process
+- filename: sentinel-hub-async-process-api-openapi.yml
   format: yaml
-  label: Sentinel Hub Process API
-  slug: process
+  label: Sentinel Hub async_process API
+  slug: sentinel-hub-async-process-api
   spec_type: OpenAPI
-  url: https://docs.sentinel-hub.com/api/latest/reference/#tag/process
-- filename: catalog
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-async-process-api-openapi.yml
+- filename: sentinel-hub-batch-statistical-api-openapi.yml
   format: yaml
-  label: Sentinel Hub Catalog API
-  slug: catalog
+  label: Sentinel Hub batch_statistical API
+  slug: sentinel-hub-batch-statistical-api
   spec_type: OpenAPI
-  url: https://docs.sentinel-hub.com/api/latest/reference/#tag/catalog
-- filename: statistical
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-batch-statistical-api-openapi.yml
+- filename: sentinel-hub-batch-v2-process-api-openapi.yml
   format: yaml
-  label: Sentinel Hub Statistical API
-  slug: statistical
+  label: Sentinel Hub batch_v2_process API
+  slug: sentinel-hub-batch-v2-process-api
   spec_type: OpenAPI
-  url: https://docs.sentinel-hub.com/api/latest/reference/#tag/statistical
-- filename: batch_process
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-batch-v2-process-api-openapi.yml
+- filename: sentinel-hub-batch-v2-tiling-grid-api-openapi.yml
   format: yaml
-  label: Sentinel Hub Batch Processing API
-  slug: batch
+  label: Sentinel Hub batch_v2_tiling_grid API
+  slug: sentinel-hub-batch-v2-tiling-grid-api
   spec_type: OpenAPI
-  url: https://docs.sentinel-hub.com/api/latest/reference/#tag/batch_process
-- filename: byoc
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-batch-v2-tiling-grid-api-openapi.yml
+- filename: sentinel-hub-byoc-collection-api-openapi.yml
   format: yaml
-  label: Sentinel Hub BYOC API
-  slug: byoc
+  label: Sentinel Hub byoc_collection API
+  slug: sentinel-hub-byoc-collection-api
   spec_type: OpenAPI
-  url: https://docs.sentinel-hub.com/api/latest/reference/#tag/byoc
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-byoc-collection-api-openapi.yml
+- filename: sentinel-hub-byoc-tile-api-openapi.yml
+  format: yaml
+  label: Sentinel Hub byoc_tile API
+  slug: sentinel-hub-byoc-tile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-byoc-tile-api-openapi.yml
+- filename: sentinel-hub-catalog-collections-api-openapi.yml
+  format: yaml
+  label: Sentinel Hub catalog_collections API
+  slug: sentinel-hub-catalog-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-catalog-collections-api-openapi.yml
+- filename: sentinel-hub-catalog-core-api-openapi.yml
+  format: yaml
+  label: Sentinel Hub catalog_core API
+  slug: sentinel-hub-catalog-core-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-catalog-core-api-openapi.yml
+- filename: sentinel-hub-catalog-features-api-openapi.yml
+  format: yaml
+  label: Sentinel Hub catalog_features API
+  slug: sentinel-hub-catalog-features-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-catalog-features-api-openapi.yml
+- filename: sentinel-hub-catalog-item-search-api-openapi.yml
+  format: yaml
+  label: Sentinel Hub catalog_item_search API
+  slug: sentinel-hub-catalog-item-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-catalog-item-search-api-openapi.yml
+- filename: sentinel-hub-dataimport-delivery-api-openapi.yml
+  format: yaml
+  label: Sentinel Hub dataimport_delivery API
+  slug: sentinel-hub-dataimport-delivery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-dataimport-delivery-api-openapi.yml
+- filename: sentinel-hub-dataimport-order-api-openapi.yml
+  format: yaml
+  label: Sentinel Hub dataimport_order API
+  slug: sentinel-hub-dataimport-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-dataimport-order-api-openapi.yml
+- filename: sentinel-hub-dataimport-product-api-openapi.yml
+  format: yaml
+  label: Sentinel Hub dataimport_product API
+  slug: sentinel-hub-dataimport-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-dataimport-product-api-openapi.yml
+- filename: sentinel-hub-dataimport-quota-api-openapi.yml
+  format: yaml
+  label: Sentinel Hub dataimport_quota API
+  slug: sentinel-hub-dataimport-quota-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-dataimport-quota-api-openapi.yml
+- filename: sentinel-hub-dataimport-search-api-openapi.yml
+  format: yaml
+  label: Sentinel Hub dataimport_search API
+  slug: sentinel-hub-dataimport-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-dataimport-search-api-openapi.yml
+- filename: sentinel-hub-dataimport-subscription-api-openapi.yml
+  format: yaml
+  label: Sentinel Hub dataimport_subscription API
+  slug: sentinel-hub-dataimport-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-dataimport-subscription-api-openapi.yml
+- filename: sentinel-hub-dataimport-subscription-delivery-api-openapi.yml
+  format: yaml
+  label: Sentinel Hub dataimport_subscription_delivery API
+  slug: sentinel-hub-dataimport-subscription-delivery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-dataimport-subscription-delivery-api-openapi.yml
+- filename: sentinel-hub-dataimport-subscription-tile-delivery-api-openapi.yml
+  format: yaml
+  label: Sentinel Hub dataimport_subscription_tile_delivery API
+  slug: sentinel-hub-dataimport-subscription-tile-delivery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-dataimport-subscription-tile-delivery-api-openapi.yml
+- filename: sentinel-hub-dataimport-tile-delivery-api-openapi.yml
+  format: yaml
+  label: Sentinel Hub dataimport_tile_delivery API
+  slug: sentinel-hub-dataimport-tile-delivery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-dataimport-tile-delivery-api-openapi.yml
+- filename: sentinel-hub-metadata-collection-api-openapi.yml
+  format: yaml
+  label: Sentinel Hub metadata_collection API
+  slug: sentinel-hub-metadata-collection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-metadata-collection-api-openapi.yml
+- filename: sentinel-hub-metadata-location-api-openapi.yml
+  format: yaml
+  label: Sentinel Hub metadata_location API
+  slug: sentinel-hub-metadata-location-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-metadata-location-api-openapi.yml
+- filename: sentinel-hub-process-api-openapi.yml
+  format: yaml
+  label: Sentinel Hub process API
+  slug: sentinel-hub-process-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-process-api-openapi.yml
+- filename: sentinel-hub-statistical-api-openapi.yml
+  format: yaml
+  label: Sentinel Hub statistical API
+  slug: sentinel-hub-statistical-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-statistical-api-openapi.yml
+- filename: sentinel-hub-zarr-array-api-openapi.yml
+  format: yaml
+  label: Sentinel Hub zarr_array API
+  slug: sentinel-hub-zarr-array-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-zarr-array-api-openapi.yml
+- filename: sentinel-hub-zarr-collection-api-openapi.yml
+  format: yaml
+  label: Sentinel Hub zarr_collection API
+  slug: sentinel-hub-zarr-collection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/openapi/sentinel-hub-zarr-collection-api-openapi.yml
 description: ''
 domains:
 - caa: []

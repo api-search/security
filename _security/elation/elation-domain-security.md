@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: llms.txt
+- filename: elation-allergies-api-openapi.yml
   format: yaml
-  label: Elation Health REST API
-  slug: elation-health-api
+  label: Elation Health Allergies API
+  slug: elation-allergies-api
   spec_type: OpenAPI
-  url: https://docs.elationhealth.com/llms.txt
+  url: https://raw.githubusercontent.com/api-evangelist/elation/refs/heads/main/openapi/elation-allergies-api-openapi.yml
+- filename: elation-appointments-api-openapi.yml
+  format: yaml
+  label: Elation Health Appointments API
+  slug: elation-appointments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation/refs/heads/main/openapi/elation-appointments-api-openapi.yml
+- filename: elation-authentication-api-openapi.yml
+  format: yaml
+  label: Elation Health Authentication API
+  slug: elation-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation/refs/heads/main/openapi/elation-authentication-api-openapi.yml
+- filename: elation-billing-api-openapi.yml
+  format: yaml
+  label: Elation Health Billing API
+  slug: elation-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation/refs/heads/main/openapi/elation-billing-api-openapi.yml
+- filename: elation-insurance-api-openapi.yml
+  format: yaml
+  label: Elation Health Insurance API
+  slug: elation-insurance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation/refs/heads/main/openapi/elation-insurance-api-openapi.yml
+- filename: elation-lab-orders-api-openapi.yml
+  format: yaml
+  label: Elation Health Lab Orders API
+  slug: elation-lab-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation/refs/heads/main/openapi/elation-lab-orders-api-openapi.yml
+- filename: elation-medications-api-openapi.yml
+  format: yaml
+  label: Elation Health Medications API
+  slug: elation-medications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation/refs/heads/main/openapi/elation-medications-api-openapi.yml
+- filename: elation-messaging-api-openapi.yml
+  format: yaml
+  label: Elation Health Messaging API
+  slug: elation-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation/refs/heads/main/openapi/elation-messaging-api-openapi.yml
+- filename: elation-patients-api-openapi.yml
+  format: yaml
+  label: Elation Health Patients API
+  slug: elation-patients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation/refs/heads/main/openapi/elation-patients-api-openapi.yml
+- filename: elation-physicians-api-openapi.yml
+  format: yaml
+  label: Elation Health Physicians API
+  slug: elation-physicians-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation/refs/heads/main/openapi/elation-physicians-api-openapi.yml
+- filename: elation-practices-api-openapi.yml
+  format: yaml
+  label: Elation Health Practices API
+  slug: elation-practices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation/refs/heads/main/openapi/elation-practices-api-openapi.yml
+- filename: elation-problems-api-openapi.yml
+  format: yaml
+  label: Elation Health Problems API
+  slug: elation-problems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation/refs/heads/main/openapi/elation-problems-api-openapi.yml
+- filename: elation-visit-notes-api-openapi.yml
+  format: yaml
+  label: Elation Health Visit Notes API
+  slug: elation-visit-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation/refs/heads/main/openapi/elation-visit-notes-api-openapi.yml
 description: ''
 domains:
 - caa: []

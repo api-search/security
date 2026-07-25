@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: hcp-openapi.yml
+- filename: hcp-apps-api-openapi.yml
   format: yaml
-  label: HCP Vault Secrets API
-  slug: hcp-vault-secrets
+  label: HashiCorp Cloud Platform Apps API
+  slug: hcp-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/openapi/hcp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/openapi/hcp-apps-api-openapi.yml
+- filename: hcp-gateway-api-openapi.yml
+  format: yaml
+  label: HashiCorp Cloud Platform Gateway API
+  slug: hcp-gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/openapi/hcp-gateway-api-openapi.yml
+- filename: hcp-integrations-api-openapi.yml
+  format: yaml
+  label: HashiCorp Cloud Platform Integrations API
+  slug: hcp-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/openapi/hcp-integrations-api-openapi.yml
+- filename: hcp-secrets-api-openapi.yml
+  format: yaml
+  label: HashiCorp Cloud Platform Secrets API
+  slug: hcp-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/openapi/hcp-secrets-api-openapi.yml
+- filename: hcp-sync-api-openapi.yml
+  format: yaml
+  label: HashiCorp Cloud Platform Sync API
+  slug: hcp-sync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/openapi/hcp-sync-api-openapi.yml
 auth_types:
 - http
 description: ''

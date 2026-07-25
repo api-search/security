@@ -3,54 +3,54 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: systran-openapi.yml
-  format: yaml
-  label: SYSTRAN Translation API
-  slug: systran-translation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-openapi.yml
-- filename: systran-openapi.yml
-  format: yaml
-  label: SYSTRAN File Translation API
-  slug: systran-file-translation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-openapi.yml
-- filename: systran-openapi.yml
-  format: yaml
-  label: SYSTRAN Supported Languages API
-  slug: systran-supported-languages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-openapi.yml
-- filename: systran-openapi.yml
-  format: yaml
-  label: SYSTRAN Language Detection API
-  slug: systran-language-detection-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-openapi.yml
-- filename: systran-openapi.yml
-  format: yaml
-  label: SYSTRAN NLP API
-  slug: systran-nlp-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-openapi.yml
-- filename: systran-openapi.yml
-  format: yaml
-  label: SYSTRAN Dictionary API
-  slug: systran-dictionary-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-openapi.yml
-- filename: systran-openapi.yml
-  format: yaml
-  label: SYSTRAN Profiles API
-  slug: systran-profiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-openapi.yml
-- filename: systran-openapi.yml
+- filename: systran-corpus-api-openapi.yml
   format: yaml
   label: SYSTRAN Corpus API
   slug: systran-corpus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-corpus-api-openapi.yml
+- filename: systran-dictionary-api-openapi.yml
+  format: yaml
+  label: SYSTRAN Dictionary API
+  slug: systran-dictionary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-dictionary-api-openapi.yml
+- filename: systran-file-translation-api-openapi.yml
+  format: yaml
+  label: SYSTRAN File Translation API
+  slug: systran-file-translation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-file-translation-api-openapi.yml
+- filename: systran-language-detection-api-openapi.yml
+  format: yaml
+  label: SYSTRAN Language Detection API
+  slug: systran-language-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-language-detection-api-openapi.yml
+- filename: systran-nlp-api-openapi.yml
+  format: yaml
+  label: SYSTRAN NLP API
+  slug: systran-nlp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-nlp-api-openapi.yml
+- filename: systran-profiles-api-openapi.yml
+  format: yaml
+  label: SYSTRAN Profiles API
+  slug: systran-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-profiles-api-openapi.yml
+- filename: systran-supported-languages-api-openapi.yml
+  format: yaml
+  label: SYSTRAN Supported Languages API
+  slug: systran-supported-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-supported-languages-api-openapi.yml
+- filename: systran-translation-api-openapi.yml
+  format: yaml
+  label: SYSTRAN Translation API
+  slug: systran-translation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-translation-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

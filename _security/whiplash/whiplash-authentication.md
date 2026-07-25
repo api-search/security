@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: api.v2.html
+- filename: whiplash-bundle-items-api-openapi.yml
   format: yaml
-  label: Whiplash API
-  slug: whiplash-api
+  label: Whiplash Bundle Items API
+  slug: whiplash-bundle-items-api
   spec_type: OpenAPI
-  url: https://developers.getwhiplash.com/api.v2.html
+  url: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/openapi/whiplash-bundle-items-api-openapi.yml
+- filename: whiplash-consumer-returns-api-openapi.yml
+  format: yaml
+  label: Whiplash Consumer Returns API
+  slug: whiplash-consumer-returns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/openapi/whiplash-consumer-returns-api-openapi.yml
+- filename: whiplash-customers-api-openapi.yml
+  format: yaml
+  label: Whiplash Customers API
+  slug: whiplash-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/openapi/whiplash-customers-api-openapi.yml
+- filename: whiplash-documents-api-openapi.yml
+  format: yaml
+  label: Whiplash Documents API
+  slug: whiplash-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/openapi/whiplash-documents-api-openapi.yml
+- filename: whiplash-items-api-openapi.yml
+  format: yaml
+  label: Whiplash Items API
+  slug: whiplash-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/openapi/whiplash-items-api-openapi.yml
+- filename: whiplash-notification-events-api-openapi.yml
+  format: yaml
+  label: Whiplash Notification Events API
+  slug: whiplash-notification-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/openapi/whiplash-notification-events-api-openapi.yml
+- filename: whiplash-notification-subscriptions-api-openapi.yml
+  format: yaml
+  label: Whiplash Notification Subscriptions API
+  slug: whiplash-notification-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/openapi/whiplash-notification-subscriptions-api-openapi.yml
+- filename: whiplash-orders-api-openapi.yml
+  format: yaml
+  label: Whiplash Orders API
+  slug: whiplash-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/openapi/whiplash-orders-api-openapi.yml
+- filename: whiplash-shipnotices-api-openapi.yml
+  format: yaml
+  label: Whiplash Shipnotices API
+  slug: whiplash-shipnotices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/openapi/whiplash-shipnotices-api-openapi.yml
+- filename: whiplash-simulate-api-openapi.yml
+  format: yaml
+  label: Whiplash Simulate API
+  slug: whiplash-simulate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/openapi/whiplash-simulate-api-openapi.yml
 auth_types:
 - http
 description: ''

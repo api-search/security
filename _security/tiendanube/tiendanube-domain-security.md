@@ -1,65 +1,77 @@
 ---
 api_specs:
-- filename: tiendanube-openapi.yml
-  format: yaml
-  label: Tiendanube Products API
-  slug: tiendanube-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-openapi.yml
-- filename: tiendanube-openapi.yml
-  format: yaml
-  label: Tiendanube Product Variants API
-  slug: tiendanube-product-variants-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-openapi.yml
-- filename: tiendanube-openapi.yml
+- filename: tiendanube-categories-api-openapi.yml
   format: yaml
   label: Tiendanube Categories API
   slug: tiendanube-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-openapi.yml
-- filename: tiendanube-openapi.yml
-  format: yaml
-  label: Tiendanube Orders API
-  slug: tiendanube-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-openapi.yml
-- filename: tiendanube-openapi.yml
-  format: yaml
-  label: Tiendanube Customers API
-  slug: tiendanube-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-openapi.yml
-- filename: tiendanube-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-categories-api-openapi.yml
+- filename: tiendanube-coupons-api-openapi.yml
   format: yaml
   label: Tiendanube Coupons API
   slug: tiendanube-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-openapi.yml
-- filename: tiendanube-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-coupons-api-openapi.yml
+- filename: tiendanube-customers-api-openapi.yml
   format: yaml
-  label: Tiendanube Webhooks API
-  slug: tiendanube-webhooks-api
+  label: Tiendanube Customers API
+  slug: tiendanube-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-openapi.yml
-- filename: tiendanube-openapi.yml
-  format: yaml
-  label: Tiendanube Scripts API
-  slug: tiendanube-scripts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-openapi.yml
-- filename: tiendanube-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-customers-api-openapi.yml
+- filename: tiendanube-fulfillment-orders-api-openapi.yml
   format: yaml
   label: Tiendanube Fulfillment Orders API
   slug: tiendanube-fulfillment-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-openapi.yml
-- filename: tiendanube-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-fulfillment-orders-api-openapi.yml
+- filename: tiendanube-orders-api-openapi.yml
   format: yaml
-  label: Tiendanube Payment and Shipping Providers API
-  slug: tiendanube-payment-shipping-providers-api
+  label: Tiendanube Orders API
+  slug: tiendanube-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-orders-api-openapi.yml
+- filename: tiendanube-payment-providers-api-openapi.yml
+  format: yaml
+  label: Tiendanube Payment Providers API
+  slug: tiendanube-payment-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-payment-providers-api-openapi.yml
+- filename: tiendanube-product-images-api-openapi.yml
+  format: yaml
+  label: Tiendanube Product Images API
+  slug: tiendanube-product-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-product-images-api-openapi.yml
+- filename: tiendanube-product-variants-api-openapi.yml
+  format: yaml
+  label: Tiendanube Product Variants API
+  slug: tiendanube-product-variants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-product-variants-api-openapi.yml
+- filename: tiendanube-products-api-openapi.yml
+  format: yaml
+  label: Tiendanube Products API
+  slug: tiendanube-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-products-api-openapi.yml
+- filename: tiendanube-scripts-api-openapi.yml
+  format: yaml
+  label: Tiendanube Scripts API
+  slug: tiendanube-scripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-scripts-api-openapi.yml
+- filename: tiendanube-shipping-carriers-api-openapi.yml
+  format: yaml
+  label: Tiendanube Shipping Carriers API
+  slug: tiendanube-shipping-carriers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-shipping-carriers-api-openapi.yml
+- filename: tiendanube-webhooks-api-openapi.yml
+  format: yaml
+  label: Tiendanube Webhooks API
+  slug: tiendanube-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Crystal Reports REST API
-  slug: rest-api
+- filename: crystal-reports-authentication-api-openapi.yml
+  format: yaml
+  label: Crystal Reports Authentication API
+  slug: crystal-reports-authentication-api
   spec_type: OpenAPI
-  url: https://api.sap.com/crystal/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-authentication-api-openapi.yml
+- filename: crystal-reports-export-api-openapi.yml
+  format: yaml
+  label: Crystal Reports Export API
+  slug: crystal-reports-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-export-api-openapi.yml
+- filename: crystal-reports-instances-api-openapi.yml
+  format: yaml
+  label: Crystal Reports Instances API
+  slug: crystal-reports-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-instances-api-openapi.yml
+- filename: crystal-reports-metadata-api-openapi.yml
+  format: yaml
+  label: Crystal Reports Metadata API
+  slug: crystal-reports-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-metadata-api-openapi.yml
+- filename: crystal-reports-odata-api-openapi.yml
+  format: yaml
+  label: Crystal Reports OData API
+  slug: crystal-reports-odata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-odata-api-openapi.yml
+- filename: crystal-reports-reports-api-openapi.yml
+  format: yaml
+  label: Crystal Reports Reports API
+  slug: crystal-reports-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-reports-api-openapi.yml
+- filename: crystal-reports-repository-api-openapi.yml
+  format: yaml
+  label: Crystal Reports Repository API
+  slug: crystal-reports-repository-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-repository-api-openapi.yml
 auth_types:
 - apiKey
 - http

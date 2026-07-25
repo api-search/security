@@ -1,84 +1,90 @@
 ---
 api_key_in: []
 api_specs:
-- filename: letta-ai-openapi.yml
+- filename: letta-ai-agent-templates-api-openapi.yml
+  format: yaml
+  label: Letta Agent Templates API
+  slug: letta-ai-agent-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-agent-templates-api-openapi.yml
+- filename: letta-ai-agents-api-openapi.yml
   format: yaml
   label: Letta Agents API
   slug: letta-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-openapi.yml
-- filename: letta-ai-openapi.yml
-  format: yaml
-  label: Letta Messages API
-  slug: letta-ai-messages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-openapi.yml
-- filename: letta-ai-openapi.yml
-  format: yaml
-  label: Letta Memory Blocks API
-  slug: letta-ai-memory-blocks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-openapi.yml
-- filename: letta-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-agents-api-openapi.yml
+- filename: letta-ai-archival-memory-api-openapi.yml
   format: yaml
   label: Letta Archival Memory API
   slug: letta-ai-archival-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-openapi.yml
-- filename: letta-ai-openapi.yml
-  format: yaml
-  label: Letta Tools API
-  slug: letta-ai-tools-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-openapi.yml
-- filename: letta-ai-openapi.yml
-  format: yaml
-  label: Letta MCP Servers API
-  slug: letta-ai-mcp-servers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-openapi.yml
-- filename: letta-ai-openapi.yml
-  format: yaml
-  label: Letta Sources and Files API
-  slug: letta-ai-sources-files-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-openapi.yml
-- filename: letta-ai-openapi.yml
-  format: yaml
-  label: Letta Identities API
-  slug: letta-ai-identities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-openapi.yml
-- filename: letta-ai-openapi.yml
-  format: yaml
-  label: Letta Multi-Agent Groups API
-  slug: letta-ai-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-openapi.yml
-- filename: letta-ai-openapi.yml
-  format: yaml
-  label: Letta Models and Providers API
-  slug: letta-ai-models-providers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-openapi.yml
-- filename: letta-ai-openapi.yml
-  format: yaml
-  label: Letta Runs, Jobs and Steps API
-  slug: letta-ai-runs-jobs-steps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-openapi.yml
-- filename: letta-ai-openapi.yml
-  format: yaml
-  label: Letta Agent Templates API
-  slug: letta-ai-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-openapi.yml
-- filename: letta-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-archival-memory-api-openapi.yml
+- filename: letta-ai-chat-completions-api-openapi.yml
   format: yaml
   label: Letta Chat Completions API
   slug: letta-ai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-chat-completions-api-openapi.yml
+- filename: letta-ai-identities-api-openapi.yml
+  format: yaml
+  label: Letta Identities API
+  slug: letta-ai-identities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-identities-api-openapi.yml
+- filename: letta-ai-mcp-servers-api-openapi.yml
+  format: yaml
+  label: Letta MCP Servers API
+  slug: letta-ai-mcp-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-mcp-servers-api-openapi.yml
+- filename: letta-ai-memory-blocks-api-openapi.yml
+  format: yaml
+  label: Letta Memory Blocks API
+  slug: letta-ai-memory-blocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-memory-blocks-api-openapi.yml
+- filename: letta-ai-models-and-providers-api-openapi.yml
+  format: yaml
+  label: Letta Models and Providers API
+  slug: letta-ai-models-and-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-models-and-providers-api-openapi.yml
+- filename: letta-ai-multi-agent-groups-api-openapi.yml
+  format: yaml
+  label: Letta Multi-Agent Groups API
+  slug: letta-ai-multi-agent-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-multi-agent-groups-api-openapi.yml
+- filename: letta-ai-runs-jobs-and-steps-api-openapi.yml
+  format: yaml
+  label: Letta Runs, Jobs and Steps API
+  slug: letta-ai-runs-jobs-and-steps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-runs-jobs-and-steps-api-openapi.yml
+- filename: letta-ai-sources-and-files-api-openapi.yml
+  format: yaml
+  label: Letta Sources and Files API
+  slug: letta-ai-sources-and-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-sources-and-files-api-openapi.yml
+- filename: letta-ai-tag-api-openapi.yml
+  format: yaml
+  label: Letta Tag API
+  slug: letta-ai-tag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-tag-api-openapi.yml
+- filename: letta-ai-tools-api-openapi.yml
+  format: yaml
+  label: Letta Tools API
+  slug: letta-ai-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-tools-api-openapi.yml
+- filename: letta-ai-voice-api-openapi.yml
+  format: yaml
+  label: Letta Voice API
+  slug: letta-ai-voice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/openapi/letta-ai-voice-api-openapi.yml
 auth_types:
 - http
 description: ''

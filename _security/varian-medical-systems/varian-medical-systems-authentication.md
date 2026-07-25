@@ -1,12 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: varian-aria-fhir-openapi.yml
+- filename: varian-medical-systems-allergyintolerance-api-openapi.yml
   format: yaml
-  label: ARIA FHIR API
-  slug: aria-fhir-api
+  label: Varian Medical Systems AllergyIntolerance API
+  slug: varian-medical-systems-allergyintolerance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-aria-fhir-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-allergyintolerance-api-openapi.yml
+- filename: varian-medical-systems-careplan-api-openapi.yml
+  format: yaml
+  label: Varian Medical Systems CarePlan API
+  slug: varian-medical-systems-careplan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-careplan-api-openapi.yml
+- filename: varian-medical-systems-condition-api-openapi.yml
+  format: yaml
+  label: Varian Medical Systems Condition API
+  slug: varian-medical-systems-condition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-condition-api-openapi.yml
+- filename: varian-medical-systems-diagnosticreport-api-openapi.yml
+  format: yaml
+  label: Varian Medical Systems DiagnosticReport API
+  slug: varian-medical-systems-diagnosticreport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-diagnosticreport-api-openapi.yml
+- filename: varian-medical-systems-documentreference-api-openapi.yml
+  format: yaml
+  label: Varian Medical Systems DocumentReference API
+  slug: varian-medical-systems-documentreference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-documentreference-api-openapi.yml
+- filename: varian-medical-systems-goal-api-openapi.yml
+  format: yaml
+  label: Varian Medical Systems Goal API
+  slug: varian-medical-systems-goal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-goal-api-openapi.yml
+- filename: varian-medical-systems-medicationrequest-api-openapi.yml
+  format: yaml
+  label: Varian Medical Systems MedicationRequest API
+  slug: varian-medical-systems-medicationrequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-medicationrequest-api-openapi.yml
+- filename: varian-medical-systems-metadata-api-openapi.yml
+  format: yaml
+  label: Varian Medical Systems Metadata API
+  slug: varian-medical-systems-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-metadata-api-openapi.yml
+- filename: varian-medical-systems-observation-api-openapi.yml
+  format: yaml
+  label: Varian Medical Systems Observation API
+  slug: varian-medical-systems-observation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-observation-api-openapi.yml
+- filename: varian-medical-systems-patient-api-openapi.yml
+  format: yaml
+  label: Varian Medical Systems Patient API
+  slug: varian-medical-systems-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-patient-api-openapi.yml
+- filename: varian-medical-systems-procedure-api-openapi.yml
+  format: yaml
+  label: Varian Medical Systems Procedure API
+  slug: varian-medical-systems-procedure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-procedure-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

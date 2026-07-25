@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: codesphere-openapi-original.json
-  format: json
-  label: Codesphere Public API
-  slug: codesphere-public-api
+- filename: codesphere-clusters-api-openapi.yml
+  format: yaml
+  label: Codesphere clusters API
+  slug: codesphere-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-clusters-api-openapi.yml
+- filename: codesphere-domains-api-openapi.yml
+  format: yaml
+  label: Codesphere domains API
+  slug: codesphere-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-domains-api-openapi.yml
+- filename: codesphere-managed-services-api-openapi.yml
+  format: yaml
+  label: Codesphere managed-services API
+  slug: codesphere-managed-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-managed-services-api-openapi.yml
+- filename: codesphere-metadata-api-openapi.yml
+  format: yaml
+  label: Codesphere metadata API
+  slug: codesphere-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-metadata-api-openapi.yml
+- filename: codesphere-organizations-api-openapi.yml
+  format: yaml
+  label: Codesphere organizations API
+  slug: codesphere-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-organizations-api-openapi.yml
+- filename: codesphere-ssh-api-openapi.yml
+  format: yaml
+  label: Codesphere ssh API
+  slug: codesphere-ssh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-ssh-api-openapi.yml
+- filename: codesphere-teams-api-openapi.yml
+  format: yaml
+  label: Codesphere teams API
+  slug: codesphere-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-teams-api-openapi.yml
+- filename: codesphere-usage-api-openapi.yml
+  format: yaml
+  label: Codesphere usage API
+  slug: codesphere-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-usage-api-openapi.yml
+- filename: codesphere-vault-api-openapi.yml
+  format: yaml
+  label: Codesphere vault API
+  slug: codesphere-vault-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-vault-api-openapi.yml
+- filename: codesphere-workspaces-api-openapi.yml
+  format: yaml
+  label: Codesphere workspaces API
+  slug: codesphere-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''

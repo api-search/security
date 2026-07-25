@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: valora-api-openapi.yml
+- filename: valora-hooks-api-openapi.yml
   format: yaml
-  label: Valora API
-  slug: valora-api
+  label: Valora hooks API
+  slug: valora-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valora/refs/heads/main/openapi/valora-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/valora/refs/heads/main/openapi/valora-hooks-api-openapi.yml
+- filename: valora-nfts-api-openapi.yml
+  format: yaml
+  label: Valora nfts API
+  slug: valora-nfts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valora/refs/heads/main/openapi/valora-nfts-api-openapi.yml
+- filename: valora-swaps-api-openapi.yml
+  format: yaml
+  label: Valora swaps API
+  slug: valora-swaps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valora/refs/heads/main/openapi/valora-swaps-api-openapi.yml
+- filename: valora-tokens-api-openapi.yml
+  format: yaml
+  label: Valora tokens API
+  slug: valora-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valora/refs/heads/main/openapi/valora-tokens-api-openapi.yml
+- filename: valora-transactions-api-openapi.yml
+  format: yaml
+  label: Valora transactions API
+  slug: valora-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valora/refs/heads/main/openapi/valora-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

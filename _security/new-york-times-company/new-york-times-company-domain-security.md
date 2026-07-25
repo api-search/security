@@ -1,71 +1,95 @@
 ---
 api_specs:
-- filename: article-search-v2-openapi.yml
+- filename: new-york-times-company-archive-api-openapi.yml
   format: yaml
-  label: Article Search API
-  slug: article-search-api
+  label: The New York Times Company Archive API
+  slug: new-york-times-company-archive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/article-search-v2-openapi.yml
-- filename: top-stories-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/new-york-times-company-archive-api-openapi.yml
+- filename: new-york-times-company-content-api-openapi.yml
   format: yaml
-  label: Top Stories API
-  slug: top-stories-api
+  label: The New York Times Company Content API
+  slug: new-york-times-company-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/top-stories-v2-openapi.yml
-- filename: most-popular-api-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/new-york-times-company-content-api-openapi.yml
+- filename: new-york-times-company-content-json-api-openapi.yml
   format: yaml
-  label: Most Popular API
-  slug: most-popular-api
+  label: The New York Times Company Content.json API
+  slug: new-york-times-company-content-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/most-popular-api-v2-openapi.yml
-- filename: timeswire-v3-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/new-york-times-company-content-json-api-openapi.yml
+- filename: new-york-times-company-events-api-openapi.yml
   format: yaml
-  label: Times Newswire API
-  slug: times-newswire-api
+  label: The New York Times Company Events API
+  slug: new-york-times-company-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/timeswire-v3-openapi.yml
-- filename: archive-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/new-york-times-company-events-api-openapi.yml
+- filename: new-york-times-company-lists-api-openapi.yml
   format: yaml
-  label: Archive API
-  slug: archive-api
+  label: The New York Times Company Lists API
+  slug: new-york-times-company-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/archive-api-openapi.yml
-- filename: books-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/new-york-times-company-lists-api-openapi.yml
+- filename: new-york-times-company-lists-json-api-openapi.yml
   format: yaml
-  label: Books API
-  slug: books-api
+  label: The New York Times Company Lists.json API
+  slug: new-york-times-company-lists-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/books-api-openapi.yml
-- filename: movie-reviews-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/new-york-times-company-lists-json-api-openapi.yml
+- filename: new-york-times-company-most-popular-api-openapi.yml
   format: yaml
-  label: Movie Reviews API
-  slug: movie-reviews-api
+  label: The New York Times Company Most Popular API
+  slug: new-york-times-company-most-popular-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/movie-reviews-v2-openapi.yml
-- filename: times-tags-v3-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/new-york-times-company-most-popular-api-openapi.yml
+- filename: new-york-times-company-movies-api-openapi.yml
   format: yaml
-  label: TimesTags API
-  slug: timestags-api
+  label: The New York Times Company Movies API
+  slug: new-york-times-company-movies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/times-tags-v3-openapi.yml
-- filename: semantic-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/new-york-times-company-movies-api-openapi.yml
+- filename: new-york-times-company-name-api-openapi.yml
   format: yaml
-  label: Semantic API
-  slug: semantic-api
+  label: The New York Times Company Name API
+  slug: new-york-times-company-name-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/semantic-api-openapi.yml
-- filename: geo-api-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/new-york-times-company-name-api-openapi.yml
+- filename: new-york-times-company-reviews-json-api-openapi.yml
   format: yaml
-  label: Geographic API
-  slug: geographic-api
+  label: The New York Times Company Reviews.json API
+  slug: new-york-times-company-reviews-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/geo-api-v2-openapi.yml
-- filename: community-api-v3-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/new-york-times-company-reviews-json-api-openapi.yml
+- filename: new-york-times-company-search-api-openapi.yml
   format: yaml
-  label: Community API (Deprecated)
-  slug: community-api-deprecated
+  label: The New York Times Company Search API
+  slug: new-york-times-company-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/community-api-v3-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/new-york-times-company-search-api-openapi.yml
+- filename: new-york-times-company-search-json-api-openapi.yml
+  format: yaml
+  label: The New York Times Company Search.json API
+  slug: new-york-times-company-search-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/new-york-times-company-search-json-api-openapi.yml
+- filename: new-york-times-company-stories-api-openapi.yml
+  format: yaml
+  label: The New York Times Company Stories API
+  slug: new-york-times-company-stories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/new-york-times-company-stories-api-openapi.yml
+- filename: new-york-times-company-timestags-api-openapi.yml
+  format: yaml
+  label: The New York Times Company Timestags API
+  slug: new-york-times-company-timestags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/new-york-times-company-timestags-api-openapi.yml
+- filename: new-york-times-company-user-content-api-openapi.yml
+  format: yaml
+  label: The New York Times Company User Content API
+  slug: new-york-times-company-user-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/openapi/new-york-times-company-user-content-api-openapi.yml
 description: ''
 domains:
 - caa:

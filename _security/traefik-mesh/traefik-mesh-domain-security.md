@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: traefik-mesh-controller-openapi.yml
+- filename: traefik-mesh-configuration-api-openapi.yml
   format: yaml
-  label: Traefik Mesh Controller API
-  slug: controller-api
+  label: Traefik Mesh Configuration API
+  slug: traefik-mesh-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traefik-mesh/refs/heads/main/openapi/traefik-mesh-controller-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/traefik-mesh/refs/heads/main/openapi/traefik-mesh-configuration-api-openapi.yml
+- filename: traefik-mesh-status-api-openapi.yml
+  format: yaml
+  label: Traefik Mesh Status API
+  slug: traefik-mesh-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traefik-mesh/refs/heads/main/openapi/traefik-mesh-status-api-openapi.yml
+- filename: traefik-mesh-topology-api-openapi.yml
+  format: yaml
+  label: Traefik Mesh Topology API
+  slug: traefik-mesh-topology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traefik-mesh/refs/heads/main/openapi/traefik-mesh-topology-api-openapi.yml
 description: ''
 domains:
 - caa:

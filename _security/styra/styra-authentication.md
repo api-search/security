@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: styra-enterprise-opa-openapi.yaml
+- filename: styra-batch-api-openapi.yml
   format: yaml
-  label: Styra Enterprise OPA / OPA REST API
-  slug: styra-enterprise-opa-opa-rest-api
+  label: Styra Batch API
+  slug: styra-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/styra/refs/heads/main/openapi/styra-enterprise-opa-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/styra/refs/heads/main/openapi/styra-batch-api-openapi.yml
+- filename: styra-compile-api-openapi.yml
+  format: yaml
+  label: Styra Compile API
+  slug: styra-compile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/styra/refs/heads/main/openapi/styra-compile-api-openapi.yml
+- filename: styra-data-api-openapi.yml
+  format: yaml
+  label: Styra Data API
+  slug: styra-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/styra/refs/heads/main/openapi/styra-data-api-openapi.yml
+- filename: styra-enterprise-opa-rest-api-api-openapi.yml
+  format: yaml
+  label: Styra Enterprise OPA REST API API
+  slug: styra-enterprise-opa-rest-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/styra/refs/heads/main/openapi/styra-enterprise-opa-rest-api-api-openapi.yml
+- filename: styra-health-api-openapi.yml
+  format: yaml
+  label: Styra Health API
+  slug: styra-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/styra/refs/heads/main/openapi/styra-health-api-openapi.yml
 auth_types:
 - http
 description: ''

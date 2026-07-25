@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: callrail-openapi.yml
+- filename: callrail-accounts-api-openapi.yml
   format: yaml
-  label: CallRail v3 API
-  slug: v3-api
+  label: CallRail Accounts API
+  slug: callrail-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callrail/refs/heads/main/openapi/callrail-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/callrail/refs/heads/main/openapi/callrail-accounts-api-openapi.yml
+- filename: callrail-calls-api-openapi.yml
+  format: yaml
+  label: CallRail Calls API
+  slug: callrail-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/callrail/refs/heads/main/openapi/callrail-calls-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

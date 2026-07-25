@@ -1,71 +1,71 @@
 ---
 api_specs:
-- filename: storable-openapi.yml
-  format: yaml
-  label: Storable Tenants API
-  slug: storable-tenants-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-openapi.yml
-- filename: storable-openapi.yml
-  format: yaml
-  label: Storable Units & Rate Management API
-  slug: storable-units-rate-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-openapi.yml
-- filename: storable-openapi.yml
-  format: yaml
-  label: Storable Ledgers & Payments API
-  slug: storable-ledgers-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-openapi.yml
-- filename: storable-openapi.yml
-  format: yaml
-  label: Storable Leads & Reservations API
-  slug: storable-leads-reservations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-openapi.yml
-- filename: storable-openapi.yml
-  format: yaml
-  label: Storable Move Ins & Move Outs API
-  slug: storable-move-ins-move-outs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-openapi.yml
-- filename: storable-openapi.yml
-  format: yaml
-  label: Storable Gate Access API
-  slug: storable-gate-access-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-openapi.yml
-- filename: storable-openapi.yml
-  format: yaml
-  label: Storable Insurance API
-  slug: storable-insurance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-openapi.yml
-- filename: storable-openapi.yml
-  format: yaml
-  label: Storable Tasks API
-  slug: storable-tasks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-openapi.yml
-- filename: storable-openapi.yml
-  format: yaml
-  label: Storable Documents & eSign API
-  slug: storable-documents-esign-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-openapi.yml
-- filename: storable-openapi.yml
+- filename: storable-delinquency-auctions-api-openapi.yml
   format: yaml
   label: Storable Delinquency & Auctions API
   slug: storable-delinquency-auctions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-openapi.yml
-- filename: storable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-delinquency-auctions-api-openapi.yml
+- filename: storable-documents-esign-api-openapi.yml
+  format: yaml
+  label: Storable Documents & eSign API
+  slug: storable-documents-esign-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-documents-esign-api-openapi.yml
+- filename: storable-gate-access-api-openapi.yml
+  format: yaml
+  label: Storable Gate Access API
+  slug: storable-gate-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-gate-access-api-openapi.yml
+- filename: storable-insurance-api-openapi.yml
+  format: yaml
+  label: Storable Insurance API
+  slug: storable-insurance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-insurance-api-openapi.yml
+- filename: storable-leads-reservations-api-openapi.yml
+  format: yaml
+  label: Storable Leads & Reservations API
+  slug: storable-leads-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-leads-reservations-api-openapi.yml
+- filename: storable-ledgers-payments-api-openapi.yml
+  format: yaml
+  label: Storable Ledgers & Payments API
+  slug: storable-ledgers-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-ledgers-payments-api-openapi.yml
+- filename: storable-move-ins-outs-api-openapi.yml
+  format: yaml
+  label: Storable Move Ins & Outs API
+  slug: storable-move-ins-outs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-move-ins-outs-api-openapi.yml
+- filename: storable-reporting-api-openapi.yml
   format: yaml
   label: Storable Reporting API
   slug: storable-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-reporting-api-openapi.yml
+- filename: storable-tasks-api-openapi.yml
+  format: yaml
+  label: Storable Tasks API
+  slug: storable-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-tasks-api-openapi.yml
+- filename: storable-tenants-api-openapi.yml
+  format: yaml
+  label: Storable Tenants API
+  slug: storable-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-tenants-api-openapi.yml
+- filename: storable-units-rates-api-openapi.yml
+  format: yaml
+  label: Storable Units & Rates API
+  slug: storable-units-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-units-rates-api-openapi.yml
 description: ''
 domains:
 - caa: []

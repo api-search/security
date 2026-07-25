@@ -1,29 +1,53 @@
 ---
 api_specs:
-- filename: alaska-air-flight-status-openapi.yaml
+- filename: alaska-air-airports-api-openapi.yml
+  format: yaml
+  label: Alaska Airlines Airports API
+  slug: alaska-air-airports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-airports-api-openapi.yml
+- filename: alaska-air-flight-status-api-openapi.yml
   format: yaml
   label: Alaska Airlines Flight Status API
-  slug: flight-status-api
+  slug: alaska-air-flight-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-flight-status-openapi.yaml
-- filename: alaska-air-flight-schedules-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-flight-status-api-openapi.yml
+- filename: alaska-air-members-api-openapi.yml
   format: yaml
-  label: Alaska Airlines Flight Schedules API
-  slug: flight-schedules-api
+  label: Alaska Airlines Members API
+  slug: alaska-air-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-flight-schedules-openapi.yaml
-- filename: alaska-air-cargo-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-members-api-openapi.yml
+- filename: alaska-air-partner-miles-api-openapi.yml
   format: yaml
-  label: Alaska Air Cargo API
-  slug: cargo-api
+  label: Alaska Airlines Partner Miles API
+  slug: alaska-air-partner-miles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-cargo-openapi.yaml
-- filename: alaska-air-mileage-plan-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-partner-miles-api-openapi.yml
+- filename: alaska-air-rates-api-openapi.yml
   format: yaml
-  label: Alaska Airlines Mileage Plan API
-  slug: mileage-plan-api
+  label: Alaska Airlines Rates API
+  slug: alaska-air-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-mileage-plan-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-rates-api-openapi.yml
+- filename: alaska-air-schedules-api-openapi.yml
+  format: yaml
+  label: Alaska Airlines Schedules API
+  slug: alaska-air-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-schedules-api-openapi.yml
+- filename: alaska-air-shipments-api-openapi.yml
+  format: yaml
+  label: Alaska Airlines Shipments API
+  slug: alaska-air-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-shipments-api-openapi.yml
+- filename: alaska-air-transactions-api-openapi.yml
+  format: yaml
+  label: Alaska Airlines Transactions API
+  slug: alaska-air-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

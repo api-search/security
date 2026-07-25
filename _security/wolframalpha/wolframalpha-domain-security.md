@@ -1,41 +1,17 @@
 ---
 api_specs:
-- filename: wolframalpha-llm-api-openapi.yml
+- filename: wolframalpha-classification-api-openapi.yml
   format: yaml
-  label: Wolfram|Alpha LLM API
-  slug: llm-api
+  label: Wolfram|Alpha Classification API
+  slug: wolframalpha-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wolframalpha/refs/heads/main/openapi/wolframalpha-llm-api-openapi.yml
-- filename: wolframalpha-full-results-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wolframalpha/refs/heads/main/openapi/wolframalpha-classification-api-openapi.yml
+- filename: wolframalpha-queries-api-openapi.yml
   format: yaml
-  label: Wolfram|Alpha Full Results API
-  slug: full-results-api
+  label: Wolfram|Alpha Queries API
+  slug: wolframalpha-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wolframalpha/refs/heads/main/openapi/wolframalpha-full-results-api-openapi.yml
-- filename: wolframalpha-short-answers-api-openapi.yml
-  format: yaml
-  label: Wolfram|Alpha Short Answers API
-  slug: short-answers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wolframalpha/refs/heads/main/openapi/wolframalpha-short-answers-api-openapi.yml
-- filename: wolframalpha-simple-api-openapi.yml
-  format: yaml
-  label: Wolfram|Alpha Simple API
-  slug: simple-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wolframalpha/refs/heads/main/openapi/wolframalpha-simple-api-openapi.yml
-- filename: wolframalpha-spoken-results-api-openapi.yml
-  format: yaml
-  label: Wolfram|Alpha Spoken Results API
-  slug: spoken-results-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wolframalpha/refs/heads/main/openapi/wolframalpha-spoken-results-api-openapi.yml
-- filename: wolframalpha-fast-query-recognizer-api-openapi.yml
-  format: yaml
-  label: Wolfram|Alpha Fast Query Recognizer API
-  slug: fast-query-recognizer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wolframalpha/refs/heads/main/openapi/wolframalpha-fast-query-recognizer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wolframalpha/refs/heads/main/openapi/wolframalpha-queries-api-openapi.yml
 description: ''
 domains:
 - caa: []

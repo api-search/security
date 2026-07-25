@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: segments-ai-openapi.yml
+- filename: segments-ai-datasets-api-openapi.yml
   format: yaml
   label: Segments.ai Datasets API
-  slug: datasets
+  slug: segments-ai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-openapi.yml
-- filename: segments-ai-openapi.yml
-  format: yaml
-  label: Segments.ai Samples API
-  slug: samples
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-openapi.yml
-- filename: segments-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-datasets-api-openapi.yml
+- filename: segments-ai-labels-api-openapi.yml
   format: yaml
   label: Segments.ai Labels API
-  slug: labels
+  slug: segments-ai-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-openapi.yml
-- filename: segments-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-labels-api-openapi.yml
+- filename: segments-ai-labelsets-api-openapi.yml
   format: yaml
   label: Segments.ai Labelsets API
-  slug: labelsets
+  slug: segments-ai-labelsets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-openapi.yml
-- filename: segments-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-labelsets-api-openapi.yml
+- filename: segments-ai-releases-api-openapi.yml
   format: yaml
   label: Segments.ai Releases API
-  slug: releases
+  slug: segments-ai-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-releases-api-openapi.yml
+- filename: segments-ai-samples-api-openapi.yml
+  format: yaml
+  label: Segments.ai Samples API
+  slug: segments-ai-samples-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-samples-api-openapi.yml
 description: ''
 domains:
 - caa: []

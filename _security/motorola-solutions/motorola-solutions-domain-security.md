@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: motorola-solutions-motorola-api-openapi.yml
+- filename: motorola-solutions-public-safety-api-openapi.yml
   format: yaml
-  label: Motorola Solutions API
-  slug: motorola-api
+  label: Motorola Solutions Public Safety API
+  slug: motorola-solutions-public-safety-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/motorola-solutions/refs/heads/main/openapi/motorola-solutions-motorola-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/motorola-solutions/refs/heads/main/openapi/motorola-solutions-public-safety-api-openapi.yml
 description: ''
 domains:
 - caa: []

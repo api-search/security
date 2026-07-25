@@ -1,42 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: graphite-dev-openapi.yml
+- filename: graphite-dev-authentication-api-openapi.yml
   format: yaml
-  label: Graphite GitHub App
-  slug: graphite-github-app
+  label: Graphite Authentication API
+  slug: graphite-dev-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphite-dev/refs/heads/main/openapi/graphite-dev-openapi.yml
-- filename: graphite-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/graphite-dev/refs/heads/main/openapi/graphite-dev-authentication-api-openapi.yml
+- filename: graphite-dev-github-app-api-openapi.yml
   format: yaml
-  label: Graphite CLI (gt)
-  slug: graphite-cli
+  label: Graphite GitHub App API
+  slug: graphite-dev-github-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphite-dev/refs/heads/main/openapi/graphite-dev-openapi.yml
-- filename: graphite-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/graphite-dev/refs/heads/main/openapi/graphite-dev-github-app-api-openapi.yml
+- filename: graphite-dev-merge-queue-api-openapi.yml
   format: yaml
-  label: Graphite GT MCP Server
-  slug: graphite-mcp
+  label: Graphite Merge Queue API
+  slug: graphite-dev-merge-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphite-dev/refs/heads/main/openapi/graphite-dev-openapi.yml
-- filename: graphite-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/graphite-dev/refs/heads/main/openapi/graphite-dev-merge-queue-api-openapi.yml
+- filename: graphite-dev-stacks-api-openapi.yml
   format: yaml
-  label: Graphite Agent (Diamond) AI Code Review
-  slug: graphite-agent-diamond
+  label: Graphite Stacks API
+  slug: graphite-dev-stacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphite-dev/refs/heads/main/openapi/graphite-dev-openapi.yml
-- filename: graphite-dev-openapi.yml
-  format: yaml
-  label: Graphite Merge Queue
-  slug: graphite-merge-queue
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphite-dev/refs/heads/main/openapi/graphite-dev-openapi.yml
-- filename: graphite-dev-openapi.yml
-  format: yaml
-  label: Graphite Insights
-  slug: graphite-insights
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphite-dev/refs/heads/main/openapi/graphite-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/graphite-dev/refs/heads/main/openapi/graphite-dev-stacks-api-openapi.yml
 auth_types:
 - http
 description: ''

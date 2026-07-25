@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: nightfall-ai-openapi.yml
+- filename: nightfall-ai-scan-api-openapi.yml
   format: yaml
-  label: Nightfall AI
-  slug: nightfall-ai
+  label: Nightfall AI Scan API
+  slug: nightfall-ai-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nightfall-ai/refs/heads/main/openapi/nightfall-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nightfall-ai/refs/heads/main/openapi/nightfall-ai-scan-api-openapi.yml
+- filename: nightfall-ai-scans-api-openapi.yml
+  format: yaml
+  label: Nightfall AI Scans API
+  slug: nightfall-ai-scans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nightfall-ai/refs/heads/main/openapi/nightfall-ai-scans-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

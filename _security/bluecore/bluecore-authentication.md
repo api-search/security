@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: bluecore-openapi.yml
+- filename: bluecore-authn-api-openapi.yml
   format: yaml
-  label: Bluecore API
-  slug: bluecore-api
+  label: Bluecore Authn API
+  slug: bluecore-authn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-authn-api-openapi.yml
+- filename: bluecore-campaignsapipublic-api-openapi.yml
+  format: yaml
+  label: Bluecore CampaignsAPIPublic API
+  slug: bluecore-campaignsapipublic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-campaignsapipublic-api-openapi.yml
+- filename: bluecore-direct-send-api-openapi.yml
+  format: yaml
+  label: Bluecore Direct send API
+  slug: bluecore-direct-send-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-direct-send-api-openapi.yml
+- filename: bluecore-eligibility-api-openapi.yml
+  format: yaml
+  label: Bluecore Eligibility API
+  slug: bluecore-eligibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-eligibility-api-openapi.yml
+- filename: bluecore-profile-api-openapi.yml
+  format: yaml
+  label: Bluecore Profile API
+  slug: bluecore-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-profile-api-openapi.yml
+- filename: bluecore-transactional-api-openapi.yml
+  format: yaml
+  label: Bluecore Transactional API
+  slug: bluecore-transactional-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-transactional-api-openapi.yml
 auth_types:
 - oauth2
 - http-bearer

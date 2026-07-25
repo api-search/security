@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: factory-i-o-web-api.yaml
+- filename: factory-i-o-tag-values-api-openapi.yml
   format: yaml
-  label: FACTORY I/O Web API
-  slug: factory-i-o
+  label: FACTORY I/O Tag Values API
+  slug: factory-i-o-tag-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factory-i-o/refs/heads/main/openapi/factory-i-o-web-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/factory-i-o/refs/heads/main/openapi/factory-i-o-tag-values-api-openapi.yml
+- filename: factory-i-o-tag-values-by-name-api-openapi.yml
+  format: yaml
+  label: FACTORY I/O Tag Values by Name API
+  slug: factory-i-o-tag-values-by-name-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/factory-i-o/refs/heads/main/openapi/factory-i-o-tag-values-by-name-api-openapi.yml
+- filename: factory-i-o-tags-api-openapi.yml
+  format: yaml
+  label: FACTORY I/O Tags API
+  slug: factory-i-o-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/factory-i-o/refs/heads/main/openapi/factory-i-o-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

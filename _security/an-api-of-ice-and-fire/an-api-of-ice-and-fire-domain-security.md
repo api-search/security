@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: an-api-of-ice-and-fire-openapi.yml
+- filename: an-api-of-ice-and-fire-books-api-openapi.yml
   format: yaml
-  label: An API of Ice And Fire
-  slug: an-api-of-ice-and-fire
+  label: An API of Ice And Fire Books API
+  slug: an-api-of-ice-and-fire-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/an-api-of-ice-and-fire/refs/heads/main/openapi/an-api-of-ice-and-fire-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/an-api-of-ice-and-fire/refs/heads/main/openapi/an-api-of-ice-and-fire-books-api-openapi.yml
+- filename: an-api-of-ice-and-fire-characters-api-openapi.yml
+  format: yaml
+  label: An API of Ice And Fire Characters API
+  slug: an-api-of-ice-and-fire-characters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/an-api-of-ice-and-fire/refs/heads/main/openapi/an-api-of-ice-and-fire-characters-api-openapi.yml
+- filename: an-api-of-ice-and-fire-houses-api-openapi.yml
+  format: yaml
+  label: An API of Ice And Fire Houses API
+  slug: an-api-of-ice-and-fire-houses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/an-api-of-ice-and-fire/refs/heads/main/openapi/an-api-of-ice-and-fire-houses-api-openapi.yml
+- filename: an-api-of-ice-and-fire-root-api-openapi.yml
+  format: yaml
+  label: An API of Ice And Fire Root API
+  slug: an-api-of-ice-and-fire-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/an-api-of-ice-and-fire/refs/heads/main/openapi/an-api-of-ice-and-fire-root-api-openapi.yml
 description: ''
 domains:
 - caa: []

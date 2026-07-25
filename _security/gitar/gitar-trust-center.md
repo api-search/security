@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: gitar-openapi-original.json
-  format: json
-  label: Gitar External API
-  slug: gitar-external-api
+- filename: gitar-gitlab-mr-status-api-openapi.yml
+  format: yaml
+  label: Gitar GitLab MR Status API
+  slug: gitar-gitlab-mr-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/openapi/gitar-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/openapi/gitar-gitlab-mr-status-api-openapi.yml
+- filename: gitar-gitlab-projects-api-openapi.yml
+  format: yaml
+  label: Gitar GitLab Projects API
+  slug: gitar-gitlab-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/openapi/gitar-gitlab-projects-api-openapi.yml
+- filename: gitar-installation-health-api-openapi.yml
+  format: yaml
+  label: Gitar Installation Health API
+  slug: gitar-installation-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/openapi/gitar-installation-health-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

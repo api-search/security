@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: typeform-openapi.yml
-  format: yaml
-  label: Typeform Create API
-  slug: create
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/openapi/typeform-openapi.yml
 - filename: typeform-asyncapi.yml
   format: yaml
   label: Typeform Webhooks API
   slug: webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/asyncapi/typeform-asyncapi.yml
+- filename: typeform-forms-api-openapi.yml
+  format: yaml
+  label: Typeform Forms API
+  slug: typeform-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/openapi/typeform-forms-api-openapi.yml
+- filename: typeform-images-api-openapi.yml
+  format: yaml
+  label: Typeform Images API
+  slug: typeform-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/openapi/typeform-images-api-openapi.yml
+- filename: typeform-themes-api-openapi.yml
+  format: yaml
+  label: Typeform Themes API
+  slug: typeform-themes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/openapi/typeform-themes-api-openapi.yml
 description: ''
 domains:
 - caa:

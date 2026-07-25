@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-privatelink-openapi.yaml
+- filename: amazon-privatelink-endpoint-connections-api-openapi.yml
   format: yaml
-  label: AWS PrivateLink API
-  slug: aws-privatelink-api
+  label: Amazon PrivateLink Endpoint Connections API
+  slug: amazon-privatelink-endpoint-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/openapi/amazon-privatelink-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/openapi/amazon-privatelink-endpoint-connections-api-openapi.yml
+- filename: amazon-privatelink-endpoint-services-api-openapi.yml
+  format: yaml
+  label: Amazon PrivateLink Endpoint Services API
+  slug: amazon-privatelink-endpoint-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/openapi/amazon-privatelink-endpoint-services-api-openapi.yml
+- filename: amazon-privatelink-principals-api-openapi.yml
+  format: yaml
+  label: Amazon PrivateLink Principals API
+  slug: amazon-privatelink-principals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/openapi/amazon-privatelink-principals-api-openapi.yml
+- filename: amazon-privatelink-vpc-endpoints-api-openapi.yml
+  format: yaml
+  label: Amazon PrivateLink VPC Endpoints API
+  slug: amazon-privatelink-vpc-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/openapi/amazon-privatelink-vpc-endpoints-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

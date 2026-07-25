@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: crossplane-kubernetes-api-openapi.yml
+- filename: crossplane-compositeresourcedefinitions-api-openapi.yml
   format: yaml
-  label: Crossplane Kubernetes API
-  slug: crossplane-kubernetes-api
+  label: Crossplane CompositeResourceDefinitions API
+  slug: crossplane-compositeresourcedefinitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-kubernetes-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-compositeresourcedefinitions-api-openapi.yml
+- filename: crossplane-compositions-api-openapi.yml
+  format: yaml
+  label: Crossplane Compositions API
+  slug: crossplane-compositions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-compositions-api-openapi.yml
+- filename: crossplane-configurations-api-openapi.yml
+  format: yaml
+  label: Crossplane Configurations API
+  slug: crossplane-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-configurations-api-openapi.yml
+- filename: crossplane-deploymentruntimeconfigs-api-openapi.yml
+  format: yaml
+  label: Crossplane DeploymentRuntimeConfigs API
+  slug: crossplane-deploymentruntimeconfigs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-deploymentruntimeconfigs-api-openapi.yml
+- filename: crossplane-environmentconfigs-api-openapi.yml
+  format: yaml
+  label: Crossplane EnvironmentConfigs API
+  slug: crossplane-environmentconfigs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-environmentconfigs-api-openapi.yml
+- filename: crossplane-functions-api-openapi.yml
+  format: yaml
+  label: Crossplane Functions API
+  slug: crossplane-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-functions-api-openapi.yml
+- filename: crossplane-providers-api-openapi.yml
+  format: yaml
+  label: Crossplane Providers API
+  slug: crossplane-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-providers-api-openapi.yml
 description: ''
 domains:
 - caa: []

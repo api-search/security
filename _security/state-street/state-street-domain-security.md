@@ -1,17 +1,53 @@
 ---
 api_specs:
-- filename: state-street-alpha-data-platform-openapi.yml
+- filename: state-street-baskets-api-openapi.yml
   format: yaml
-  label: Alpha Data Platform API
-  slug: alpha-data-platform-api
+  label: State Street Baskets API
+  slug: state-street-baskets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/openapi/state-street-alpha-data-platform-openapi.yml
-- filename: state-street-fund-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/openapi/state-street-baskets-api-openapi.yml
+- filename: state-street-funds-api-openapi.yml
   format: yaml
-  label: Fund Connect API
-  slug: fund-connect-api
+  label: State Street Funds API
+  slug: state-street-funds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/openapi/state-street-fund-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/openapi/state-street-funds-api-openapi.yml
+- filename: state-street-orders-api-openapi.yml
+  format: yaml
+  label: State Street Orders API
+  slug: state-street-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/openapi/state-street-orders-api-openapi.yml
+- filename: state-street-performance-api-openapi.yml
+  format: yaml
+  label: State Street Performance API
+  slug: state-street-performance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/openapi/state-street-performance-api-openapi.yml
+- filename: state-street-portfolios-api-openapi.yml
+  format: yaml
+  label: State Street Portfolios API
+  slug: state-street-portfolios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/openapi/state-street-portfolios-api-openapi.yml
+- filename: state-street-positions-api-openapi.yml
+  format: yaml
+  label: State Street Positions API
+  slug: state-street-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/openapi/state-street-positions-api-openapi.yml
+- filename: state-street-risk-api-openapi.yml
+  format: yaml
+  label: State Street Risk API
+  slug: state-street-risk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/openapi/state-street-risk-api-openapi.yml
+- filename: state-street-transactions-api-openapi.yml
+  format: yaml
+  label: State Street Transactions API
+  slug: state-street-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/openapi/state-street-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: trato-openapi.yml
+- filename: trato-contracts-api-openapi.yml
   format: yaml
-  label: TRATO Contract API
-  slug: trato-contract-api
+  label: Trato Contracts API
+  slug: trato-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/openapi/trato-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/openapi/trato-contracts-api-openapi.yml
+- filename: trato-custom-properties-api-openapi.yml
+  format: yaml
+  label: Trato Custom Properties API
+  slug: trato-custom-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/openapi/trato-custom-properties-api-openapi.yml
+- filename: trato-participants-api-openapi.yml
+  format: yaml
+  label: Trato Participants API
+  slug: trato-participants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/openapi/trato-participants-api-openapi.yml
+- filename: trato-spectators-api-openapi.yml
+  format: yaml
+  label: Trato Spectators API
+  slug: trato-spectators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/openapi/trato-spectators-api-openapi.yml
+- filename: trato-templates-api-openapi.yml
+  format: yaml
+  label: Trato Templates API
+  slug: trato-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/openapi/trato-templates-api-openapi.yml
 auth_types:
 - http
 description: ''

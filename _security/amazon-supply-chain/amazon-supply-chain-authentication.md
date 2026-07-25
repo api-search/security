@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-supply-chain.yaml
+- filename: amazon-supply-chain-bill-of-materials-api-openapi.yml
   format: yaml
-  label: AWS Supply Chain API
-  slug: aws-supply-chain-api
+  label: Amazon Supply Chain Bill of Materials API
+  slug: amazon-supply-chain-bill-of-materials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/openapi/amazon-supply-chain.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/openapi/amazon-supply-chain-bill-of-materials-api-openapi.yml
+- filename: amazon-supply-chain-data-integration-events-api-openapi.yml
+  format: yaml
+  label: Amazon Supply Chain Data Integration Events API
+  slug: amazon-supply-chain-data-integration-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/openapi/amazon-supply-chain-data-integration-events-api-openapi.yml
+- filename: amazon-supply-chain-data-integration-flows-api-openapi.yml
+  format: yaml
+  label: Amazon Supply Chain Data Integration Flows API
+  slug: amazon-supply-chain-data-integration-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/openapi/amazon-supply-chain-data-integration-flows-api-openapi.yml
+- filename: amazon-supply-chain-data-lake-api-openapi.yml
+  format: yaml
+  label: Amazon Supply Chain Data Lake API
+  slug: amazon-supply-chain-data-lake-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/openapi/amazon-supply-chain-data-lake-api-openapi.yml
+- filename: amazon-supply-chain-instances-api-openapi.yml
+  format: yaml
+  label: Amazon Supply Chain Instances API
+  slug: amazon-supply-chain-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/openapi/amazon-supply-chain-instances-api-openapi.yml
+- filename: amazon-supply-chain-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Supply Chain Tags API
+  slug: amazon-supply-chain-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/openapi/amazon-supply-chain-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

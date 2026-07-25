@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: impala-hotels-openapi-original.json
-  format: json
-  label: Impala Hotel Booking API
-  slug: impala-hotel-booking-api
+- filename: impala-bookings-api-openapi.yml
+  format: yaml
+  label: Impala Bookings API
+  slug: impala-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/openapi/impala-hotels-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/openapi/impala-bookings-api-openapi.yml
+- filename: impala-hotels-api-openapi.yml
+  format: yaml
+  label: Impala Hotels API
+  slug: impala-hotels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/openapi/impala-hotels-api-openapi.yml
+- filename: impala-rate-calendar-api-openapi.yml
+  format: yaml
+  label: Impala Rate Calendar API
+  slug: impala-rate-calendar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/openapi/impala-rate-calendar-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: getresponse-openapi.yml
+- filename: getresponse-accounts-api-openapi.yml
   format: yaml
-  label: GetResponse API v3
-  slug: rest-api
+  label: GetResponse Accounts API
+  slug: getresponse-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-accounts-api-openapi.yml
+- filename: getresponse-autoresponders-api-openapi.yml
+  format: yaml
+  label: GetResponse Autoresponders API
+  slug: getresponse-autoresponders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-autoresponders-api-openapi.yml
+- filename: getresponse-campaigns-api-openapi.yml
+  format: yaml
+  label: GetResponse Campaigns API
+  slug: getresponse-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-campaigns-api-openapi.yml
+- filename: getresponse-contacts-api-openapi.yml
+  format: yaml
+  label: GetResponse Contacts API
+  slug: getresponse-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-contacts-api-openapi.yml
+- filename: getresponse-custom-fields-api-openapi.yml
+  format: yaml
+  label: GetResponse Custom Fields API
+  slug: getresponse-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-custom-fields-api-openapi.yml
+- filename: getresponse-newsletters-api-openapi.yml
+  format: yaml
+  label: GetResponse Newsletters API
+  slug: getresponse-newsletters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-newsletters-api-openapi.yml
+- filename: getresponse-tags-api-openapi.yml
+  format: yaml
+  label: GetResponse Tags API
+  slug: getresponse-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-tags-api-openapi.yml
+- filename: getresponse-webhooks-api-openapi.yml
+  format: yaml
+  label: GetResponse Webhooks API
+  slug: getresponse-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-webhooks-api-openapi.yml
 certifications:
 - SOC 2
 - PCI DSS

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: delighted-delighted-api-openapi.yml
+- filename: delighted-autopilot-api-openapi.yml
   format: yaml
-  label: Delighted API
-  slug: delighted-api
+  label: Delighted Autopilot API
+  slug: delighted-autopilot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/openapi/delighted-delighted-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/openapi/delighted-autopilot-api-openapi.yml
+- filename: delighted-bounces-api-openapi.yml
+  format: yaml
+  label: Delighted Bounces API
+  slug: delighted-bounces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/openapi/delighted-bounces-api-openapi.yml
+- filename: delighted-metrics-api-openapi.yml
+  format: yaml
+  label: Delighted Metrics API
+  slug: delighted-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/openapi/delighted-metrics-api-openapi.yml
+- filename: delighted-people-api-openapi.yml
+  format: yaml
+  label: Delighted People API
+  slug: delighted-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/openapi/delighted-people-api-openapi.yml
+- filename: delighted-survey-responses-api-openapi.yml
+  format: yaml
+  label: Delighted Survey Responses API
+  slug: delighted-survey-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/openapi/delighted-survey-responses-api-openapi.yml
+- filename: delighted-unsubscribes-api-openapi.yml
+  format: yaml
+  label: Delighted Unsubscribes API
+  slug: delighted-unsubscribes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/openapi/delighted-unsubscribes-api-openapi.yml
 description: ''
 domains:
 - caa: []

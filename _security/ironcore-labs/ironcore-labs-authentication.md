@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: ironcore-labs-vendor-bridge-openapi.yml
+- filename: ironcore-labs-configuration-assignment-api-openapi.yml
   format: yaml
-  label: IronCore Vendor API Bridge
-  slug: ironcore-vendor-api-bridge
+  label: IronCore Labs Configuration Assignment API
+  slug: ironcore-labs-configuration-assignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/openapi/ironcore-labs-vendor-bridge-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/openapi/ironcore-labs-configuration-assignment-api-openapi.yml
+- filename: ironcore-labs-kms-configuration-api-openapi.yml
+  format: yaml
+  label: IronCore Labs KMS Configuration API
+  slug: ironcore-labs-kms-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/openapi/ironcore-labs-kms-configuration-api-openapi.yml
+- filename: ironcore-labs-tag-api-openapi.yml
+  format: yaml
+  label: IronCore Labs Tag API
+  slug: ironcore-labs-tag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/openapi/ironcore-labs-tag-api-openapi.yml
+- filename: ironcore-labs-tenant-api-openapi.yml
+  format: yaml
+  label: IronCore Labs Tenant API
+  slug: ironcore-labs-tenant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/openapi/ironcore-labs-tenant-api-openapi.yml
+- filename: ironcore-labs-tenant-secret-api-openapi.yml
+  format: yaml
+  label: IronCore Labs Tenant Secret API
+  slug: ironcore-labs-tenant-secret-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/openapi/ironcore-labs-tenant-secret-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

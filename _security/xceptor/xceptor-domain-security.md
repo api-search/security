@@ -1,23 +1,71 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Xceptor REST API
-  slug: xceptor-rest-api
-  spec_type: OpenAPI
-  url: https://api.xceptor.com/v1/openapi.json
 - filename: workflows
   format: yaml
   label: Xceptor Workflow API
   slug: xceptor-workflow-api
   spec_type: Postman
   url: https://www.postman.com/xceptor/workspace/workflows
-- filename: xceptor-document-upload-api-openapi.yml
+- filename: xceptor-authentication-api-openapi.yml
   format: yaml
-  label: Xceptor Document Upload API
-  slug: xceptor-document-upload-api
+  label: Xceptor Authentication API
+  slug: xceptor-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-document-upload-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-authentication-api-openapi.yml
+- filename: xceptor-data-sources-api-openapi.yml
+  format: yaml
+  label: Xceptor Data Sources API
+  slug: xceptor-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-data-sources-api-openapi.yml
+- filename: xceptor-documents-api-openapi.yml
+  format: yaml
+  label: Xceptor Documents API
+  slug: xceptor-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-documents-api-openapi.yml
+- filename: xceptor-extraction-api-openapi.yml
+  format: yaml
+  label: Xceptor Extraction API
+  slug: xceptor-extraction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-extraction-api-openapi.yml
+- filename: xceptor-health-api-openapi.yml
+  format: yaml
+  label: Xceptor Health API
+  slug: xceptor-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-health-api-openapi.yml
+- filename: xceptor-jobs-api-openapi.yml
+  format: yaml
+  label: Xceptor Jobs API
+  slug: xceptor-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-jobs-api-openapi.yml
+- filename: xceptor-templates-api-openapi.yml
+  format: yaml
+  label: Xceptor Templates API
+  slug: xceptor-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-templates-api-openapi.yml
+- filename: xceptor-workflow-runs-api-openapi.yml
+  format: yaml
+  label: Xceptor Workflow Runs API
+  slug: xceptor-workflow-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-workflow-runs-api-openapi.yml
+- filename: xceptor-workflow-steps-api-openapi.yml
+  format: yaml
+  label: Xceptor Workflow Steps API
+  slug: xceptor-workflow-steps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-workflow-steps-api-openapi.yml
+- filename: xceptor-workflows-api-openapi.yml
+  format: yaml
+  label: Xceptor Workflows API
+  slug: xceptor-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []

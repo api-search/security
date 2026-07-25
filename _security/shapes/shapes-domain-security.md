@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: shapes-api-openapi.yml
+- filename: shapes-chat-api-openapi.yml
   format: yaml
-  label: Shapes API
-  slug: shapes-api
+  label: Shapes Chat API
+  slug: shapes-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapes/refs/heads/main/openapi/shapes-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shapes/refs/heads/main/openapi/shapes-chat-api-openapi.yml
+- filename: shapes-models-api-openapi.yml
+  format: yaml
+  label: Shapes Models API
+  slug: shapes-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shapes/refs/heads/main/openapi/shapes-models-api-openapi.yml
+- filename: shapes-shapes-api-openapi.yml
+  format: yaml
+  label: Shapes Shapes API
+  slug: shapes-shapes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shapes/refs/heads/main/openapi/shapes-shapes-api-openapi.yml
 description: ''
 domains:
 - caa: []

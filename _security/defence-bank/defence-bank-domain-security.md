@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: defence-bank-cds-banking-products-openapi.yml
+- filename: defence-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Defence Bank CDR Product Reference Data API
-  slug: defence-bank-cdr-product-reference-data-api
+  label: Defence Bank Banking Account Balances API
+  slug: defence-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/openapi/defence-bank-cds-banking-products-openapi.yml
-- filename: defence-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/openapi/defence-bank-banking-account-balances-api-openapi.yml
+- filename: defence-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Defence Bank CDR Accounts & Balances API
-  slug: defence-bank-cdr-accounts-balances-api
+  label: Defence Bank Banking Account Direct Debits API
+  slug: defence-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/openapi/defence-bank-cds-banking-products-openapi.yml
-- filename: defence-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/openapi/defence-bank-banking-account-direct-debits-api-openapi.yml
+- filename: defence-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Defence Bank CDR Transactions API
-  slug: defence-bank-cdr-transactions-api
+  label: Defence Bank Banking Account Scheduled Payments API
+  slug: defence-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/openapi/defence-bank-cds-banking-products-openapi.yml
-- filename: defence-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/openapi/defence-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: defence-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Defence Bank CDR Direct Debits & Scheduled Payments API
-  slug: defence-bank-cdr-direct-debits-scheduled-payments-api
+  label: Defence Bank Banking Account Transactions API
+  slug: defence-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/openapi/defence-bank-cds-banking-products-openapi.yml
-- filename: defence-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/openapi/defence-bank-banking-account-transactions-api-openapi.yml
+- filename: defence-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: Defence Bank CDR Payees API
-  slug: defence-bank-cdr-payees-api
+  label: Defence Bank Banking Accounts API
+  slug: defence-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/openapi/defence-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/openapi/defence-bank-banking-accounts-api-openapi.yml
+- filename: defence-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: Defence Bank Banking Payees API
+  slug: defence-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/openapi/defence-bank-banking-payees-api-openapi.yml
+- filename: defence-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: Defence Bank Banking Products API
+  slug: defence-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/openapi/defence-bank-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

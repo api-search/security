@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: spacex-rest-api-openapi.yml
+- filename: spacex-capsules-api-openapi.yml
   format: yaml
-  label: SpaceX REST API (v4 + v5)
-  slug: rest-api
+  label: SpaceX (Community API) Capsules API
+  slug: spacex-capsules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-capsules-api-openapi.yml
+- filename: spacex-company-api-openapi.yml
+  format: yaml
+  label: SpaceX (Community API) Company API
+  slug: spacex-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-company-api-openapi.yml
+- filename: spacex-cores-api-openapi.yml
+  format: yaml
+  label: SpaceX (Community API) Cores API
+  slug: spacex-cores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-cores-api-openapi.yml
+- filename: spacex-crew-api-openapi.yml
+  format: yaml
+  label: SpaceX (Community API) Crew API
+  slug: spacex-crew-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-crew-api-openapi.yml
+- filename: spacex-dragons-api-openapi.yml
+  format: yaml
+  label: SpaceX (Community API) Dragons API
+  slug: spacex-dragons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-dragons-api-openapi.yml
+- filename: spacex-history-api-openapi.yml
+  format: yaml
+  label: SpaceX (Community API) History API
+  slug: spacex-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-history-api-openapi.yml
+- filename: spacex-landpads-api-openapi.yml
+  format: yaml
+  label: SpaceX (Community API) Landpads API
+  slug: spacex-landpads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-landpads-api-openapi.yml
+- filename: spacex-launches-api-openapi.yml
+  format: yaml
+  label: SpaceX (Community API) Launches API
+  slug: spacex-launches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-launches-api-openapi.yml
+- filename: spacex-launchpads-api-openapi.yml
+  format: yaml
+  label: SpaceX (Community API) Launchpads API
+  slug: spacex-launchpads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-launchpads-api-openapi.yml
+- filename: spacex-payloads-api-openapi.yml
+  format: yaml
+  label: SpaceX (Community API) Payloads API
+  slug: spacex-payloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-payloads-api-openapi.yml
+- filename: spacex-roadster-api-openapi.yml
+  format: yaml
+  label: SpaceX (Community API) Roadster API
+  slug: spacex-roadster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-roadster-api-openapi.yml
+- filename: spacex-rockets-api-openapi.yml
+  format: yaml
+  label: SpaceX (Community API) Rockets API
+  slug: spacex-rockets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-rockets-api-openapi.yml
+- filename: spacex-ships-api-openapi.yml
+  format: yaml
+  label: SpaceX (Community API) Ships API
+  slug: spacex-ships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-ships-api-openapi.yml
+- filename: spacex-starlink-api-openapi.yml
+  format: yaml
+  label: SpaceX (Community API) Starlink API
+  slug: spacex-starlink-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-starlink-api-openapi.yml
 description: ''
 domains:
 - caa: []

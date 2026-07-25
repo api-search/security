@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: derivadex-exchange-openapi.yml
+- filename: derivadex-market-api-openapi.yml
   format: yaml
-  label: DerivaDEX Exchange & Stats API
-  slug: derivadex-exchange-api
+  label: DerivaDEX Market API
+  slug: derivadex-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/derivadex/refs/heads/main/openapi/derivadex-exchange-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/derivadex/refs/heads/main/openapi/derivadex-market-api-openapi.yml
+- filename: derivadex-stats-api-openapi.yml
+  format: yaml
+  label: DerivaDEX Stats API
+  slug: derivadex-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/derivadex/refs/heads/main/openapi/derivadex-stats-api-openapi.yml
+- filename: derivadex-system-api-openapi.yml
+  format: yaml
+  label: DerivaDEX System API
+  slug: derivadex-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/derivadex/refs/heads/main/openapi/derivadex-system-api-openapi.yml
 description: ''
 domains:
 - caa: []

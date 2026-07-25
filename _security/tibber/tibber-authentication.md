@@ -7,12 +7,24 @@ api_specs:
   slug: tibber-graphql-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/openapi/tibber-graphql-api-openapi.yml
-- filename: tibber-data-api-openapi.yml
+- filename: tibber-devices-api-openapi.yml
   format: yaml
-  label: Tibber Data API
-  slug: tibber-data-api
+  label: Tibber Devices API
+  slug: tibber-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/openapi/tibber-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/openapi/tibber-devices-api-openapi.yml
+- filename: tibber-history-api-openapi.yml
+  format: yaml
+  label: Tibber History API
+  slug: tibber-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/openapi/tibber-history-api-openapi.yml
+- filename: tibber-homes-api-openapi.yml
+  format: yaml
+  label: Tibber Homes API
+  slug: tibber-homes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/openapi/tibber-homes-api-openapi.yml
 auth_types:
 - http
 - oauth2

@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: buxfer-openapi.yml
+- filename: buxfer-accounts-api-openapi.yml
   format: yaml
-  label: Buxfer API
-  slug: buxfer-api
+  label: Buxfer Accounts API
+  slug: buxfer-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/openapi/buxfer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/openapi/buxfer-accounts-api-openapi.yml
+- filename: buxfer-authentication-api-openapi.yml
+  format: yaml
+  label: Buxfer Authentication API
+  slug: buxfer-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/openapi/buxfer-authentication-api-openapi.yml
+- filename: buxfer-organization-api-openapi.yml
+  format: yaml
+  label: Buxfer Organization API
+  slug: buxfer-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/openapi/buxfer-organization-api-openapi.yml
+- filename: buxfer-social-api-openapi.yml
+  format: yaml
+  label: Buxfer Social API
+  slug: buxfer-social-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/openapi/buxfer-social-api-openapi.yml
+- filename: buxfer-transactions-api-openapi.yml
+  format: yaml
+  label: Buxfer Transactions API
+  slug: buxfer-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/openapi/buxfer-transactions-api-openapi.yml
 certifications:
 - ISO 27001
 - PCI DSS

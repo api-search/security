@@ -1,12 +1,90 @@
 ---
 api_key_in: []
 api_specs:
-- filename: charmhealth-fhir-api-openapi.yml
+- filename: charmhealth-allergyintolerance-api-openapi.yml
   format: yaml
-  label: CharmHealth FHIR API
-  slug: fhir-api
+  label: CharmHealth AllergyIntolerance API
+  slug: charmhealth-allergyintolerance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-fhir-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-allergyintolerance-api-openapi.yml
+- filename: charmhealth-appointment-api-openapi.yml
+  format: yaml
+  label: CharmHealth Appointment API
+  slug: charmhealth-appointment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-appointment-api-openapi.yml
+- filename: charmhealth-capability-api-openapi.yml
+  format: yaml
+  label: CharmHealth Capability API
+  slug: charmhealth-capability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-capability-api-openapi.yml
+- filename: charmhealth-careplan-api-openapi.yml
+  format: yaml
+  label: CharmHealth CarePlan API
+  slug: charmhealth-careplan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-careplan-api-openapi.yml
+- filename: charmhealth-careteam-api-openapi.yml
+  format: yaml
+  label: CharmHealth CareTeam API
+  slug: charmhealth-careteam-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-careteam-api-openapi.yml
+- filename: charmhealth-condition-api-openapi.yml
+  format: yaml
+  label: CharmHealth Condition API
+  slug: charmhealth-condition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-condition-api-openapi.yml
+- filename: charmhealth-documentreference-api-openapi.yml
+  format: yaml
+  label: CharmHealth DocumentReference API
+  slug: charmhealth-documentreference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-documentreference-api-openapi.yml
+- filename: charmhealth-encounter-api-openapi.yml
+  format: yaml
+  label: CharmHealth Encounter API
+  slug: charmhealth-encounter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-encounter-api-openapi.yml
+- filename: charmhealth-immunization-api-openapi.yml
+  format: yaml
+  label: CharmHealth Immunization API
+  slug: charmhealth-immunization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-immunization-api-openapi.yml
+- filename: charmhealth-medicationrequest-api-openapi.yml
+  format: yaml
+  label: CharmHealth MedicationRequest API
+  slug: charmhealth-medicationrequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-medicationrequest-api-openapi.yml
+- filename: charmhealth-observation-api-openapi.yml
+  format: yaml
+  label: CharmHealth Observation API
+  slug: charmhealth-observation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-observation-api-openapi.yml
+- filename: charmhealth-organization-api-openapi.yml
+  format: yaml
+  label: CharmHealth Organization API
+  slug: charmhealth-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-organization-api-openapi.yml
+- filename: charmhealth-patient-api-openapi.yml
+  format: yaml
+  label: CharmHealth Patient API
+  slug: charmhealth-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-patient-api-openapi.yml
+- filename: charmhealth-practitioner-api-openapi.yml
+  format: yaml
+  label: CharmHealth Practitioner API
+  slug: charmhealth-practitioner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-practitioner-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

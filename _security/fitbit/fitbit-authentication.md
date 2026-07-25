@@ -1,78 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: fitbit-activity-api-openapi.yml
-  format: yaml
-  label: Fitbit Activity API
-  slug: fitbit-activity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/openapi/fitbit-activity-api-openapi.yml
-- filename: fitbit-heart-rate-api-openapi.yml
-  format: yaml
-  label: Fitbit Heart Rate API
-  slug: fitbit-heart-rate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/openapi/fitbit-heart-rate-api-openapi.yml
-- filename: fitbit-sleep-api-openapi.yml
-  format: yaml
-  label: Fitbit Sleep API
-  slug: fitbit-sleep-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/openapi/fitbit-sleep-api-openapi.yml
-- filename: fitbit-body-api-openapi.yml
-  format: yaml
-  label: Fitbit Body API
-  slug: fitbit-body-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/openapi/fitbit-body-api-openapi.yml
-- filename: fitbit-nutrition-api-openapi.yml
-  format: yaml
-  label: Fitbit Nutrition API
-  slug: fitbit-nutrition-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/openapi/fitbit-nutrition-api-openapi.yml
 - filename: fitbit-user-api-openapi.yml
   format: yaml
   label: Fitbit User API
   slug: fitbit-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/openapi/fitbit-user-api-openapi.yml
-- filename: fitbit-devices-api-openapi.yml
+- filename: fitbit-foods-api-openapi.yml
   format: yaml
-  label: Fitbit Devices API
-  slug: fitbit-devices-api
+  label: Fitbit Foods API
+  slug: fitbit-foods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/openapi/fitbit-devices-api-openapi.yml
-- filename: fitbit-subscriptions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/openapi/fitbit-foods-api-openapi.yml
+- filename: fitbit-oauth2-api-openapi.yml
   format: yaml
-  label: Fitbit Subscriptions API
-  slug: fitbit-subscriptions-api
+  label: Fitbit Oauth2 API
+  slug: fitbit-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/openapi/fitbit-subscriptions-api-openapi.yml
-- filename: fitbit-friends-api-openapi.yml
-  format: yaml
-  label: Fitbit Friends API
-  slug: fitbit-friends-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/openapi/fitbit-friends-api-openapi.yml
-- filename: fitbit-spo2-breathing-temperature-api-openapi.yml
-  format: yaml
-  label: Fitbit SpO2, Breathing Rate, Temperature, HRV, and Cardio Fitness API
-  slug: fitbit-spo2-breathing-temperature-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/openapi/fitbit-spo2-breathing-temperature-api-openapi.yml
-- filename: fitbit-ecg-irn-api-openapi.yml
-  format: yaml
-  label: Fitbit ECG and Irregular Rhythm Notifications API
-  slug: fitbit-ecg-irn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/openapi/fitbit-ecg-irn-api-openapi.yml
-- filename: fitbit-authorization-api-openapi.yml
-  format: yaml
-  label: Fitbit Authorization API
-  slug: fitbit-authorization-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/openapi/fitbit-authorization-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/openapi/fitbit-oauth2-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

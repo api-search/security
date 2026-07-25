@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: forum-openapi-original.yml
+- filename: forum-account-api-openapi.yml
   format: yaml
-  label: Forum API
-  slug: forum-api
+  label: Forum Account API
+  slug: forum-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-account-api-openapi.yml
+- filename: forum-exchange-api-openapi.yml
+  format: yaml
+  label: Forum Exchange API
+  slug: forum-exchange-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-exchange-api-openapi.yml
+- filename: forum-fills-api-openapi.yml
+  format: yaml
+  label: Forum Fills API
+  slug: forum-fills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-fills-api-openapi.yml
+- filename: forum-funding-api-openapi.yml
+  format: yaml
+  label: Forum Funding API
+  slug: forum-funding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-funding-api-openapi.yml
+- filename: forum-indices-api-openapi.yml
+  format: yaml
+  label: Forum Indices API
+  slug: forum-indices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-indices-api-openapi.yml
+- filename: forum-market-data-api-openapi.yml
+  format: yaml
+  label: Forum Market Data API
+  slug: forum-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-market-data-api-openapi.yml
+- filename: forum-markets-api-openapi.yml
+  format: yaml
+  label: Forum Markets API
+  slug: forum-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-markets-api-openapi.yml
+- filename: forum-orders-api-openapi.yml
+  format: yaml
+  label: Forum Orders API
+  slug: forum-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-orders-api-openapi.yml
+- filename: forum-positions-api-openapi.yml
+  format: yaml
+  label: Forum Positions API
+  slug: forum-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-positions-api-openapi.yml
 description: ''
 domains:
 - caa: []

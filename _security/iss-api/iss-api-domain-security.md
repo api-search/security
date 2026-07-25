@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: iss_location.html
+- filename: iss-api-astronauts-api-openapi.yml
   format: yaml
-  label: ISS Current Location
-  slug: iss-location-now
+  label: ISS Location API (Open Notify) Astronauts API
+  slug: iss-api-astronauts-api
   spec_type: OpenAPI
-  url: https://open-notify-api.readthedocs.io/en/latest/iss_location.html
+  url: https://raw.githubusercontent.com/api-evangelist/iss-api/refs/heads/main/openapi/iss-api-astronauts-api-openapi.yml
+- filename: iss-api-iss-location-api-openapi.yml
+  format: yaml
+  label: ISS Location API (Open Notify) ISS Location API
+  slug: iss-api-iss-location-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iss-api/refs/heads/main/openapi/iss-api-iss-location-api-openapi.yml
 description: ''
 domains:
 - caa: []

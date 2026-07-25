@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: hume-bank-cds-banking-products-openapi.yml
+- filename: hume-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Hume Bank CDR Product Reference Data API
-  slug: hume-bank-cdr-product-reference-data-api
+  label: Hume Bank Banking Account Balances API
+  slug: hume-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/openapi/hume-bank-cds-banking-products-openapi.yml
-- filename: hume-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/openapi/hume-bank-banking-account-balances-api-openapi.yml
+- filename: hume-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Hume Bank CDR Accounts & Balances API
-  slug: hume-bank-cdr-accounts-balances-api
+  label: Hume Bank Banking Account Direct Debits API
+  slug: hume-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/openapi/hume-bank-cds-banking-products-openapi.yml
-- filename: hume-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/openapi/hume-bank-banking-account-direct-debits-api-openapi.yml
+- filename: hume-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Hume Bank CDR Transactions API
-  slug: hume-bank-cdr-transactions-api
+  label: Hume Bank Banking Account Scheduled Payments API
+  slug: hume-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/openapi/hume-bank-cds-banking-products-openapi.yml
-- filename: hume-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/openapi/hume-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: hume-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Hume Bank CDR Direct Debits & Scheduled Payments API
-  slug: hume-bank-cdr-direct-debits-scheduled-payments-api
+  label: Hume Bank Banking Account Transactions API
+  slug: hume-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/openapi/hume-bank-cds-banking-products-openapi.yml
-- filename: hume-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/openapi/hume-bank-banking-account-transactions-api-openapi.yml
+- filename: hume-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: Hume Bank CDR Payees API
-  slug: hume-bank-cdr-payees-api
+  label: Hume Bank Banking Accounts API
+  slug: hume-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/openapi/hume-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/openapi/hume-bank-banking-accounts-api-openapi.yml
+- filename: hume-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: Hume Bank Banking Payees API
+  slug: hume-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/openapi/hume-bank-banking-payees-api-openapi.yml
+- filename: hume-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: Hume Bank Banking Products API
+  slug: hume-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/openapi/hume-bank-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

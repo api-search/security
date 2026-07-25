@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: reson8-openapi.yml
+- filename: reson8-auth-api-openapi.yml
   format: yaml
-  label: Reson8 Speech-to-Text API
+  label: Reson8 Auth API
+  slug: reson8-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reson8/refs/heads/main/openapi/reson8-auth-api-openapi.yml
+- filename: reson8-custom-models-api-openapi.yml
+  format: yaml
+  label: Reson8 Custom Models API
+  slug: reson8-custom-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reson8/refs/heads/main/openapi/reson8-custom-models-api-openapi.yml
+- filename: reson8-speech-to-text-api-openapi.yml
+  format: yaml
+  label: Reson8 Speech to Text API
   slug: reson8-speech-to-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reson8/refs/heads/main/openapi/reson8-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reson8/refs/heads/main/openapi/reson8-speech-to-text-api-openapi.yml
 auth_types:
 - apiKey
 - http-bearer

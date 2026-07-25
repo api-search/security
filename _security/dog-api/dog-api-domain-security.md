@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: dog-api.yml
+- filename: dog-api-breeds-api-openapi.yml
   format: yaml
-  label: Dog API
-  slug: dog-api
+  label: Dog API Breeds API
+  slug: dog-api-breeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/heads/main/openapi/dog-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/heads/main/openapi/dog-api-breeds-api-openapi.yml
+- filename: dog-api-images-api-openapi.yml
+  format: yaml
+  label: Dog API Images API
+  slug: dog-api-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/heads/main/openapi/dog-api-images-api-openapi.yml
+- filename: dog-api-info-api-openapi.yml
+  format: yaml
+  label: Dog API Info API
+  slug: dog-api-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/heads/main/openapi/dog-api-info-api-openapi.yml
 description: ''
 domains:
 - caa: []

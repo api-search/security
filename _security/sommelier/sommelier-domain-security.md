@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: sommelier-api-openapi.yml
+- filename: sommelier-integrations-api-openapi.yml
   format: yaml
-  label: Sommelier Finance API
-  slug: sommelier-finance-api
+  label: Sommelier Integrations API
+  slug: sommelier-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/openapi/sommelier-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/openapi/sommelier-integrations-api-openapi.yml
+- filename: sommelier-protocol-api-openapi.yml
+  format: yaml
+  label: Sommelier Protocol API
+  slug: sommelier-protocol-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/openapi/sommelier-protocol-api-openapi.yml
+- filename: sommelier-vault-data-api-openapi.yml
+  format: yaml
+  label: Sommelier Vault Data API
+  slug: sommelier-vault-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/openapi/sommelier-vault-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

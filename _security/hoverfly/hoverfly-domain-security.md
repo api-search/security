@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: hoverfly-openapi.yml
+- filename: hoverfly-cache-api-openapi.yml
   format: yaml
-  label: Hoverfly Admin API
-  slug: hoverfly-admin-api
+  label: Hoverfly Cache API
+  slug: hoverfly-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-cache-api-openapi.yml
+- filename: hoverfly-diff-api-openapi.yml
+  format: yaml
+  label: Hoverfly Diff API
+  slug: hoverfly-diff-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-diff-api-openapi.yml
+- filename: hoverfly-hoverfly-api-openapi.yml
+  format: yaml
+  label: Hoverfly Hoverfly API
+  slug: hoverfly-hoverfly-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-hoverfly-api-openapi.yml
+- filename: hoverfly-journal-api-openapi.yml
+  format: yaml
+  label: Hoverfly Journal API
+  slug: hoverfly-journal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-journal-api-openapi.yml
+- filename: hoverfly-logs-api-openapi.yml
+  format: yaml
+  label: Hoverfly Logs API
+  slug: hoverfly-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-logs-api-openapi.yml
+- filename: hoverfly-post-serve-actions-api-openapi.yml
+  format: yaml
+  label: Hoverfly Post-Serve Actions API
+  slug: hoverfly-post-serve-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-post-serve-actions-api-openapi.yml
+- filename: hoverfly-simulation-api-openapi.yml
+  format: yaml
+  label: Hoverfly Simulation API
+  slug: hoverfly-simulation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-simulation-api-openapi.yml
+- filename: hoverfly-state-api-openapi.yml
+  format: yaml
+  label: Hoverfly State API
+  slug: hoverfly-state-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-state-api-openapi.yml
+- filename: hoverfly-system-api-openapi.yml
+  format: yaml
+  label: Hoverfly System API
+  slug: hoverfly-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-system-api-openapi.yml
+- filename: hoverfly-templating-data-api-openapi.yml
+  format: yaml
+  label: Hoverfly Templating Data API
+  slug: hoverfly-templating-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-templating-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

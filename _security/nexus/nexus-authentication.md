@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: nexus-openapi.yml
+- filename: nexus-assets-api-openapi.yml
   format: yaml
-  label: Nexus Repository Manager REST API
-  slug: nexus-rest-api
+  label: Nexus Repository Manager Assets API
+  slug: nexus-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-assets-api-openapi.yml
+- filename: nexus-blobstores-api-openapi.yml
+  format: yaml
+  label: Nexus Repository Manager BlobStores API
+  slug: nexus-blobstores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-blobstores-api-openapi.yml
+- filename: nexus-components-api-openapi.yml
+  format: yaml
+  label: Nexus Repository Manager Components API
+  slug: nexus-components-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-components-api-openapi.yml
+- filename: nexus-repositories-api-openapi.yml
+  format: yaml
+  label: Nexus Repository Manager Repositories API
+  slug: nexus-repositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-repositories-api-openapi.yml
+- filename: nexus-search-api-openapi.yml
+  format: yaml
+  label: Nexus Repository Manager Search API
+  slug: nexus-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-search-api-openapi.yml
+- filename: nexus-security-api-openapi.yml
+  format: yaml
+  label: Nexus Repository Manager Security API
+  slug: nexus-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-security-api-openapi.yml
+- filename: nexus-status-api-openapi.yml
+  format: yaml
+  label: Nexus Repository Manager Status API
+  slug: nexus-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-status-api-openapi.yml
+- filename: nexus-tasks-api-openapi.yml
+  format: yaml
+  label: Nexus Repository Manager Tasks API
+  slug: nexus-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-tasks-api-openapi.yml
 auth_types:
 - http
 description: ''

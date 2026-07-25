@@ -1,11 +1,95 @@
 ---
 api_specs:
-- filename: sheeva-openapi.yml
+- filename: sheeva-authentication-api-openapi.yml
   format: yaml
-  label: SheevaConnect API
-  slug: sheevaconnect-api
+  label: Sheeva Authentication API
+  slug: sheeva-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-authentication-api-openapi.yml
+- filename: sheeva-credit-cards-api-openapi.yml
+  format: yaml
+  label: Sheeva Credit Cards API
+  slug: sheeva-credit-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-credit-cards-api-openapi.yml
+- filename: sheeva-driver-alerts-api-openapi.yml
+  format: yaml
+  label: Sheeva Driver Alerts API
+  slug: sheeva-driver-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-driver-alerts-api-openapi.yml
+- filename: sheeva-driver-api-openapi.yml
+  format: yaml
+  label: Sheeva Driver API
+  slug: sheeva-driver-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-driver-api-openapi.yml
+- filename: sheeva-feedback-api-openapi.yml
+  format: yaml
+  label: Sheeva Feedback API
+  slug: sheeva-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-feedback-api-openapi.yml
+- filename: sheeva-loyalty-api-openapi.yml
+  format: yaml
+  label: Sheeva Loyalty API
+  slug: sheeva-loyalty-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-loyalty-api-openapi.yml
+- filename: sheeva-parking-api-openapi.yml
+  format: yaml
+  label: Sheeva Parking API
+  slug: sheeva-parking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-parking-api-openapi.yml
+- filename: sheeva-payments-api-openapi.yml
+  format: yaml
+  label: Sheeva Payments API
+  slug: sheeva-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-payments-api-openapi.yml
+- filename: sheeva-service-hubs-points-of-interest-api-openapi.yml
+  format: yaml
+  label: Sheeva Service Hubs (Points Of Interest) API
+  slug: sheeva-service-hubs-points-of-interest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-service-hubs-points-of-interest-api-openapi.yml
+- filename: sheeva-session-api-openapi.yml
+  format: yaml
+  label: Sheeva Session API
+  slug: sheeva-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-session-api-openapi.yml
+- filename: sheeva-transactions-api-openapi.yml
+  format: yaml
+  label: Sheeva Transactions API
+  slug: sheeva-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-transactions-api-openapi.yml
+- filename: sheeva-upi-api-openapi.yml
+  format: yaml
+  label: Sheeva UPI API
+  slug: sheeva-upi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-upi-api-openapi.yml
+- filename: sheeva-vehicle-api-openapi.yml
+  format: yaml
+  label: Sheeva Vehicle API
+  slug: sheeva-vehicle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-vehicle-api-openapi.yml
+- filename: sheeva-vehicle-events-api-openapi.yml
+  format: yaml
+  label: Sheeva Vehicle Events API
+  slug: sheeva-vehicle-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-vehicle-events-api-openapi.yml
+- filename: sheeva-webhooks-api-openapi.yml
+  format: yaml
+  label: Sheeva Webhooks API
+  slug: sheeva-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

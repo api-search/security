@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sas-viya-rest-api-openapi.yml
+- filename: sas-businessrules-api-openapi.yml
   format: yaml
-  label: SAS Viya REST API
-  slug: viya-rest-api
+  label: SAS Institute BusinessRules API
+  slug: sas-businessrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-viya-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-businessrules-api-openapi.yml
+- filename: sas-cas-api-openapi.yml
+  format: yaml
+  label: SAS Institute CAS API
+  slug: sas-cas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-cas-api-openapi.yml
+- filename: sas-decisions-api-openapi.yml
+  format: yaml
+  label: SAS Institute Decisions API
+  slug: sas-decisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-decisions-api-openapi.yml
+- filename: sas-files-api-openapi.yml
+  format: yaml
+  label: SAS Institute Files API
+  slug: sas-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-files-api-openapi.yml
+- filename: sas-folders-api-openapi.yml
+  format: yaml
+  label: SAS Institute Folders API
+  slug: sas-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-folders-api-openapi.yml
+- filename: sas-identities-api-openapi.yml
+  format: yaml
+  label: SAS Institute Identities API
+  slug: sas-identities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-identities-api-openapi.yml
+- filename: sas-jobs-api-openapi.yml
+  format: yaml
+  label: SAS Institute Jobs API
+  slug: sas-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-jobs-api-openapi.yml
+- filename: sas-logon-api-openapi.yml
+  format: yaml
+  label: SAS Institute Logon API
+  slug: sas-logon-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-logon-api-openapi.yml
+- filename: sas-models-api-openapi.yml
+  format: yaml
+  label: SAS Institute Models API
+  slug: sas-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-models-api-openapi.yml
+- filename: sas-reports-api-openapi.yml
+  format: yaml
+  label: SAS Institute Reports API
+  slug: sas-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-reports-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,17 +1,71 @@
 ---
 api_specs:
-- filename: watchguard-cloud-platform-openapi.yml
+- filename: watchguard-accounts-api-openapi.yml
   format: yaml
-  label: WatchGuard Cloud Platform API
-  slug: watchguard-cloud-platform-api
+  label: WatchGuard Accounts API
+  slug: watchguard-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-cloud-platform-openapi.yml
-- filename: watchguard-endpoint-security-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-accounts-api-openapi.yml
+- filename: watchguard-activations-api-openapi.yml
   format: yaml
-  label: WatchGuard Endpoint Security Management API
-  slug: watchguard-endpoint-security-api
+  label: WatchGuard Activations API
+  slug: watchguard-activations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-endpoint-security-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-activations-api-openapi.yml
+- filename: watchguard-allocations-api-openapi.yml
+  format: yaml
+  label: WatchGuard Allocations API
+  slug: watchguard-allocations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-allocations-api-openapi.yml
+- filename: watchguard-authorization-api-openapi.yml
+  format: yaml
+  label: WatchGuard Authorization API
+  slug: watchguard-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-authorization-api-openapi.yml
+- filename: watchguard-configurations-api-openapi.yml
+  format: yaml
+  label: WatchGuard Configurations API
+  slug: watchguard-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-configurations-api-openapi.yml
+- filename: watchguard-device-actions-api-openapi.yml
+  format: yaml
+  label: WatchGuard Device Actions API
+  slug: watchguard-device-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-device-actions-api-openapi.yml
+- filename: watchguard-devices-api-openapi.yml
+  format: yaml
+  label: WatchGuard Devices API
+  slug: watchguard-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-devices-api-openapi.yml
+- filename: watchguard-licenses-api-openapi.yml
+  format: yaml
+  label: WatchGuard Licenses API
+  slug: watchguard-licenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-licenses-api-openapi.yml
+- filename: watchguard-operators-api-openapi.yml
+  format: yaml
+  label: WatchGuard Operators API
+  slug: watchguard-operators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-operators-api-openapi.yml
+- filename: watchguard-risk-assessment-api-openapi.yml
+  format: yaml
+  label: WatchGuard Risk Assessment API
+  slug: watchguard-risk-assessment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-risk-assessment-api-openapi.yml
+- filename: watchguard-security-events-api-openapi.yml
+  format: yaml
+  label: WatchGuard Security Events API
+  slug: watchguard-security-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-security-events-api-openapi.yml
 description: ''
 domains:
 - caa:

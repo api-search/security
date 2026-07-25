@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: symantec-sepm-api-openapi.yml
+- filename: symantec-administrators-api-openapi.yml
   format: yaml
-  label: Symantec Endpoint Protection Manager API
-  slug: sepm-api
+  label: Symantec Administrators API
+  slug: symantec-administrators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/openapi/symantec-sepm-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/openapi/symantec-administrators-api-openapi.yml
+- filename: symantec-api-version-api-openapi.yml
+  format: yaml
+  label: Symantec API Version API
+  slug: symantec-api-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/openapi/symantec-api-version-api-openapi.yml
+- filename: symantec-authentication-api-openapi.yml
+  format: yaml
+  label: Symantec Authentication API
+  slug: symantec-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/openapi/symantec-authentication-api-openapi.yml
+- filename: symantec-computers-api-openapi.yml
+  format: yaml
+  label: Symantec Computers API
+  slug: symantec-computers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/openapi/symantec-computers-api-openapi.yml
+- filename: symantec-groups-api-openapi.yml
+  format: yaml
+  label: Symantec Groups API
+  slug: symantec-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/openapi/symantec-groups-api-openapi.yml
 auth_types:
 - http
 description: ''

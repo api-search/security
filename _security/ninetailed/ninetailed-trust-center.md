@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: ninetailed-events-api-openapi.yml
   format: yaml
-  label: Ninetailed Experience API
-  slug: ninetailed-experience-api
+  label: Ninetailed Events API
+  slug: ninetailed-events-api
   spec_type: OpenAPI
-  url: https://www.contentful.com/developers/docs/ninetailed/experience-api/
+  url: https://raw.githubusercontent.com/api-evangelist/ninetailed/refs/heads/main/openapi/ninetailed-events-api-openapi.yml
+- filename: ninetailed-profiles-api-openapi.yml
+  format: yaml
+  label: Ninetailed Profiles API
+  slug: ninetailed-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ninetailed/refs/heads/main/openapi/ninetailed-profiles-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

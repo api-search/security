@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: openreplay-openapi.yml
+- filename: openreplay-assist-api-openapi.yml
   format: yaml
-  label: OpenReplay API
-  slug: openreplay-api
+  label: OpenReplay Assist API
+  slug: openreplay-assist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/openapi/openreplay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/openapi/openreplay-assist-api-openapi.yml
+- filename: openreplay-events-api-openapi.yml
+  format: yaml
+  label: OpenReplay Events API
+  slug: openreplay-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/openapi/openreplay-events-api-openapi.yml
+- filename: openreplay-jobs-api-openapi.yml
+  format: yaml
+  label: OpenReplay Jobs API
+  slug: openreplay-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/openapi/openreplay-jobs-api-openapi.yml
+- filename: openreplay-projects-api-openapi.yml
+  format: yaml
+  label: OpenReplay Projects API
+  slug: openreplay-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/openapi/openreplay-projects-api-openapi.yml
+- filename: openreplay-sessions-api-openapi.yml
+  format: yaml
+  label: OpenReplay Sessions API
+  slug: openreplay-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/openapi/openreplay-sessions-api-openapi.yml
+- filename: openreplay-users-api-openapi.yml
+  format: yaml
+  label: OpenReplay Users API
+  slug: openreplay-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/openapi/openreplay-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

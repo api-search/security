@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: konfetti-store-openapi.yml
+- filename: konfetti-account-api-openapi.yml
   format: yaml
-  label: konfetti Store API
-  slug: store
+  label: konfetti account API
+  slug: konfetti-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-store-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-account-api-openapi.yml
+- filename: konfetti-auth-api-openapi.yml
+  format: yaml
+  label: konfetti auth API
+  slug: konfetti-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-auth-api-openapi.yml
+- filename: konfetti-catalog-api-openapi.yml
+  format: yaml
+  label: konfetti catalog API
+  slug: konfetti-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-catalog-api-openapi.yml
+- filename: konfetti-checkout-api-openapi.yml
+  format: yaml
+  label: konfetti checkout API
+  slug: konfetti-checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-checkout-api-openapi.yml
+- filename: konfetti-requests-api-openapi.yml
+  format: yaml
+  label: konfetti requests API
+  slug: konfetti-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-requests-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: arcadia-plug-api-openapi.yml
+- filename: arcadia-power-accounts-api-openapi.yml
   format: yaml
-  label: Arcadia Plug API
-  slug: arcadia-plug-api
+  label: Arcadia Accounts API
+  slug: arcadia-power-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-plug-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-accounts-api-openapi.yml
+- filename: arcadia-power-credentials-api-openapi.yml
+  format: yaml
+  label: Arcadia Credentials API
+  slug: arcadia-power-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-credentials-api-openapi.yml
+- filename: arcadia-power-files-api-openapi.yml
+  format: yaml
+  label: Arcadia Files API
+  slug: arcadia-power-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-files-api-openapi.yml
+- filename: arcadia-power-intervals-api-openapi.yml
+  format: yaml
+  label: Arcadia Intervals API
+  slug: arcadia-power-intervals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-intervals-api-openapi.yml
+- filename: arcadia-power-meters-api-openapi.yml
+  format: yaml
+  label: Arcadia Meters API
+  slug: arcadia-power-meters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-meters-api-openapi.yml
+- filename: arcadia-power-oauth-api-openapi.yml
+  format: yaml
+  label: Arcadia OAuth API
+  slug: arcadia-power-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-oauth-api-openapi.yml
+- filename: arcadia-power-organizations-api-openapi.yml
+  format: yaml
+  label: Arcadia Organizations API
+  slug: arcadia-power-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-organizations-api-openapi.yml
+- filename: arcadia-power-providers-api-openapi.yml
+  format: yaml
+  label: Arcadia Providers API
+  slug: arcadia-power-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-providers-api-openapi.yml
+- filename: arcadia-power-sites-api-openapi.yml
+  format: yaml
+  label: Arcadia Sites API
+  slug: arcadia-power-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-sites-api-openapi.yml
+- filename: arcadia-power-statements-api-openapi.yml
+  format: yaml
+  label: Arcadia Statements API
+  slug: arcadia-power-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-statements-api-openapi.yml
+- filename: arcadia-power-webhooks-api-openapi.yml
+  format: yaml
+  label: Arcadia Webhooks API
+  slug: arcadia-power-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-webhooks-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

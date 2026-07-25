@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: what3words-openapi.yml
+- filename: what3words-autosuggest-api-openapi.yml
   format: yaml
-  label: what3words Public API
-  slug: public-api
+  label: what3words Autosuggest API
+  slug: what3words-autosuggest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/what3words/refs/heads/main/openapi/what3words-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/what3words/refs/heads/main/openapi/what3words-autosuggest-api-openapi.yml
+- filename: what3words-available-languages-api-openapi.yml
+  format: yaml
+  label: what3words Available Languages API
+  slug: what3words-available-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/what3words/refs/heads/main/openapi/what3words-available-languages-api-openapi.yml
+- filename: what3words-convert-to-3wa-api-openapi.yml
+  format: yaml
+  label: what3words Convert To 3wa API
+  slug: what3words-convert-to-3wa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/what3words/refs/heads/main/openapi/what3words-convert-to-3wa-api-openapi.yml
+- filename: what3words-convert-to-coordinates-api-openapi.yml
+  format: yaml
+  label: what3words Convert To Coordinates API
+  slug: what3words-convert-to-coordinates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/what3words/refs/heads/main/openapi/what3words-convert-to-coordinates-api-openapi.yml
+- filename: what3words-grid-section-api-openapi.yml
+  format: yaml
+  label: what3words Grid Section API
+  slug: what3words-grid-section-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/what3words/refs/heads/main/openapi/what3words-grid-section-api-openapi.yml
 description: ''
 domains:
 - caa: []

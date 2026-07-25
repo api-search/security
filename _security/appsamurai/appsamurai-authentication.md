@@ -2,12 +2,12 @@
 api_key_in:
 - path
 api_specs:
-- filename: appsamurai-campaign-spend-openapi.yml
+- filename: appsamurai-campaign-spend-api-openapi.yml
   format: yaml
-  label: AppSamurai Campaign Spend API
+  label: Appsamurai Campaign Spend API
   slug: appsamurai-campaign-spend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/openapi/appsamurai-campaign-spend-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/openapi/appsamurai-campaign-spend-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

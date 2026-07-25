@@ -2,42 +2,42 @@
 api_key_in:
 - path
 api_specs:
-- filename: goalserve-openapi.yml
-  format: yaml
-  label: GoalServe Live Scores API
-  slug: goalserve-live-scores-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/openapi/goalserve-openapi.yml
-- filename: goalserve-openapi.yml
-  format: yaml
-  label: GoalServe Fixtures and Schedules API
-  slug: goalserve-fixtures-schedules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/openapi/goalserve-openapi.yml
-- filename: goalserve-openapi.yml
-  format: yaml
-  label: GoalServe Standings API
-  slug: goalserve-standings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/openapi/goalserve-openapi.yml
-- filename: goalserve-openapi.yml
-  format: yaml
-  label: GoalServe Odds API
-  slug: goalserve-odds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/openapi/goalserve-openapi.yml
-- filename: goalserve-openapi.yml
+- filename: goalserve-commentaries-api-openapi.yml
   format: yaml
   label: GoalServe Commentaries API
   slug: goalserve-commentaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/openapi/goalserve-openapi.yml
-- filename: goalserve-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/openapi/goalserve-commentaries-api-openapi.yml
+- filename: goalserve-fixtures-api-openapi.yml
   format: yaml
-  label: GoalServe Team and Player Data API
-  slug: goalserve-team-player-data-api
+  label: GoalServe Fixtures API
+  slug: goalserve-fixtures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/openapi/goalserve-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/openapi/goalserve-fixtures-api-openapi.yml
+- filename: goalserve-live-scores-api-openapi.yml
+  format: yaml
+  label: GoalServe Live Scores API
+  slug: goalserve-live-scores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/openapi/goalserve-live-scores-api-openapi.yml
+- filename: goalserve-player-data-api-openapi.yml
+  format: yaml
+  label: GoalServe Player Data API
+  slug: goalserve-player-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/openapi/goalserve-player-data-api-openapi.yml
+- filename: goalserve-standings-api-openapi.yml
+  format: yaml
+  label: GoalServe Standings API
+  slug: goalserve-standings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/openapi/goalserve-standings-api-openapi.yml
+- filename: goalserve-team-data-api-openapi.yml
+  format: yaml
+  label: GoalServe Team Data API
+  slug: goalserve-team-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/openapi/goalserve-team-data-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

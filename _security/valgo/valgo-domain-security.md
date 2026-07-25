@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: valgo-humanbaselines-openapi.json
-  format: json
-  label: Human Crash Baselines API
-  slug: human-crash-baselines-api
+- filename: valgo-compute-api-openapi.yml
+  format: yaml
+  label: Valgo Compute API
+  slug: valgo-compute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-humanbaselines-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-compute-api-openapi.yml
+- filename: valgo-compute-batch-api-openapi.yml
+  format: yaml
+  label: Valgo Compute Batch API
+  slug: valgo-compute-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-compute-batch-api-openapi.yml
+- filename: valgo-compute-depot-route-api-openapi.yml
+  format: yaml
+  label: Valgo Compute Depot Route API
+  slug: valgo-compute-depot-route-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-compute-depot-route-api-openapi.yml
+- filename: valgo-compute-route-api-openapi.yml
+  format: yaml
+  label: Valgo Compute Route API
+  slug: valgo-compute-route-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-compute-route-api-openapi.yml
+- filename: valgo-health-api-openapi.yml
+  format: yaml
+  label: Valgo Health API
+  slug: valgo-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-health-api-openapi.yml
+- filename: valgo-manifest-api-openapi.yml
+  format: yaml
+  label: Valgo Manifest API
+  slug: valgo-manifest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-manifest-api-openapi.yml
+- filename: valgo-request-api-key-api-openapi.yml
+  format: yaml
+  label: Valgo Request Api Key API
+  slug: valgo-request-api-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-request-api-key-api-openapi.yml
+- filename: valgo-v1-api-openapi.yml
+  format: yaml
+  label: Valgo v1 API
+  slug: valgo-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-v1-api-openapi.yml
 description: ''
 domains:
 - caa: []

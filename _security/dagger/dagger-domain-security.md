@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: dagger-graphql-api-openapi.yml
+  format: yaml
+  label: Dagger GraphQL API
+  slug: dagger-graphql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/openapi/dagger-graphql-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,18 +1,78 @@
 ---
 api_key_in: []
 api_specs:
-- filename: resolve-merchant-api-openapi.yaml
+- filename: resolve-access-keys-api-openapi.yml
   format: yaml
-  label: Resolve Merchant API
-  slug: resolve-merchant-api
+  label: Resolve Access Keys API
+  slug: resolve-access-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-merchant-api-openapi.yaml
-- filename: resolve-partners-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-access-keys-api-openapi.yml
+- filename: resolve-charges-api-openapi.yml
   format: yaml
-  label: Resolve Partners API
-  slug: resolve-partners-api
+  label: Resolve Charges API
+  slug: resolve-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-partners-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-charges-api-openapi.yml
+- filename: resolve-credit-notes-api-openapi.yml
+  format: yaml
+  label: Resolve Credit Notes API
+  slug: resolve-credit-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-credit-notes-api-openapi.yml
+- filename: resolve-customers-api-openapi.yml
+  format: yaml
+  label: Resolve Customers API
+  slug: resolve-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-customers-api-openapi.yml
+- filename: resolve-invoices-api-openapi.yml
+  format: yaml
+  label: Resolve Invoices API
+  slug: resolve-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-invoices-api-openapi.yml
+- filename: resolve-merchants-api-openapi.yml
+  format: yaml
+  label: Resolve Merchants API
+  slug: resolve-merchants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-merchants-api-openapi.yml
+- filename: resolve-orders-api-openapi.yml
+  format: yaml
+  label: Resolve Orders API
+  slug: resolve-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-orders-api-openapi.yml
+- filename: resolve-payments-api-openapi.yml
+  format: yaml
+  label: Resolve Payments API
+  slug: resolve-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-payments-api-openapi.yml
+- filename: resolve-payout-transactions-api-openapi.yml
+  format: yaml
+  label: Resolve Payout Transactions API
+  slug: resolve-payout-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-payout-transactions-api-openapi.yml
+- filename: resolve-payouts-api-openapi.yml
+  format: yaml
+  label: Resolve Payouts API
+  slug: resolve-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-payouts-api-openapi.yml
+- filename: resolve-shipments-api-openapi.yml
+  format: yaml
+  label: Resolve Shipments API
+  slug: resolve-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-shipments-api-openapi.yml
+- filename: resolve-webhooks-api-openapi.yml
+  format: yaml
+  label: Resolve Webhooks API
+  slug: resolve-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

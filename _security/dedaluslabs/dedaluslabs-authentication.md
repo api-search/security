@@ -2,18 +2,102 @@
 api_key_in:
 - header
 api_specs:
-- filename: dedaluslabs-agents-openapi-original.json
-  format: json
-  label: Dedalus Agents API
-  slug: dedalus-agents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-agents-openapi-original.json
-- filename: dedaluslabs-machines-openapi-original.yml
+- filename: dedaluslabs-audio-api-openapi.yml
   format: yaml
-  label: Dedalus Cloud Services (Machines) API
-  slug: dedalus-cloud-services-machines-api
+  label: Dedalus Labs Audio API
+  slug: dedaluslabs-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-machines-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-audio-api-openapi.yml
+- filename: dedaluslabs-chat-api-openapi.yml
+  format: yaml
+  label: Dedalus Labs Chat API
+  slug: dedaluslabs-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-chat-api-openapi.yml
+- filename: dedaluslabs-dedalus-api-api-openapi.yml
+  format: yaml
+  label: Dedalus Labs Dedalus API API
+  slug: dedaluslabs-dedalus-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-dedalus-api-api-openapi.yml
+- filename: dedaluslabs-health-api-openapi.yml
+  format: yaml
+  label: Dedalus Labs Health API
+  slug: dedaluslabs-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-health-api-openapi.yml
+- filename: dedaluslabs-images-api-openapi.yml
+  format: yaml
+  label: Dedalus Labs Images API
+  slug: dedaluslabs-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-images-api-openapi.yml
+- filename: dedaluslabs-machine-artifacts-api-openapi.yml
+  format: yaml
+  label: Dedalus Labs Machine Artifacts API
+  slug: dedaluslabs-machine-artifacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-machine-artifacts-api-openapi.yml
+- filename: dedaluslabs-machine-executions-api-openapi.yml
+  format: yaml
+  label: Dedalus Labs Machine Executions API
+  slug: dedaluslabs-machine-executions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-machine-executions-api-openapi.yml
+- filename: dedaluslabs-machine-lifecycle-api-openapi.yml
+  format: yaml
+  label: Dedalus Labs Machine Lifecycle API
+  slug: dedaluslabs-machine-lifecycle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-machine-lifecycle-api-openapi.yml
+- filename: dedaluslabs-machine-previews-api-openapi.yml
+  format: yaml
+  label: Dedalus Labs Machine Previews API
+  slug: dedaluslabs-machine-previews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-machine-previews-api-openapi.yml
+- filename: dedaluslabs-machine-ssh-api-openapi.yml
+  format: yaml
+  label: Dedalus Labs Machine SSH API
+  slug: dedaluslabs-machine-ssh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-machine-ssh-api-openapi.yml
+- filename: dedaluslabs-machine-terminals-api-openapi.yml
+  format: yaml
+  label: Dedalus Labs Machine Terminals API
+  slug: dedaluslabs-machine-terminals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-machine-terminals-api-openapi.yml
+- filename: dedaluslabs-marketplace-api-openapi.yml
+  format: yaml
+  label: Dedalus Labs Marketplace API
+  slug: dedaluslabs-marketplace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-marketplace-api-openapi.yml
+- filename: dedaluslabs-ocr-api-openapi.yml
+  format: yaml
+  label: Dedalus Labs OCR API
+  slug: dedaluslabs-ocr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-ocr-api-openapi.yml
+- filename: dedaluslabs-private-api-openapi.yml
+  format: yaml
+  label: Dedalus Labs private API
+  slug: dedaluslabs-private-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-private-api-openapi.yml
+- filename: dedaluslabs-v1-api-openapi.yml
+  format: yaml
+  label: Dedalus Labs V1 API
+  slug: dedaluslabs-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-v1-api-openapi.yml
+- filename: dedaluslabs-webhooks-api-openapi.yml
+  format: yaml
+  label: Dedalus Labs Webhooks API
+  slug: dedaluslabs-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: sonarly-openapi.yml
+- filename: sonarly-bugs-api-openapi.yml
   format: yaml
-  label: Sonarly API
-  slug: sonarly-api
+  label: Sonarly Bugs API
+  slug: sonarly-bugs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarly/refs/heads/main/openapi/sonarly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sonarly/refs/heads/main/openapi/sonarly-bugs-api-openapi.yml
+- filename: sonarly-incidents-api-openapi.yml
+  format: yaml
+  label: Sonarly Incidents API
+  slug: sonarly-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonarly/refs/heads/main/openapi/sonarly-incidents-api-openapi.yml
+- filename: sonarly-setup-api-openapi.yml
+  format: yaml
+  label: Sonarly Setup API
+  slug: sonarly-setup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonarly/refs/heads/main/openapi/sonarly-setup-api-openapi.yml
 description: ''
 domains:
 - caa: []

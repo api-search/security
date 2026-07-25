@@ -1,30 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: midpage-openapi.yml
+- filename: midpage-opinions-api-openapi.yml
   format: yaml
-  label: Midpage Case Law Search API
-  slug: case-law-search
+  label: Midpage Opinions API
+  slug: midpage-opinions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midpage/refs/heads/main/openapi/midpage-openapi.yml
-- filename: midpage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/midpage/refs/heads/main/openapi/midpage-opinions-api-openapi.yml
+- filename: midpage-search-api-openapi.yml
   format: yaml
-  label: Midpage Document Retrieval API
-  slug: document-retrieval
+  label: Midpage Search API
+  slug: midpage-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midpage/refs/heads/main/openapi/midpage-openapi.yml
-- filename: midpage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/midpage/refs/heads/main/openapi/midpage-search-api-openapi.yml
+- filename: midpage-user-api-openapi.yml
   format: yaml
-  label: Midpage Citations API
-  slug: citations
+  label: Midpage User API
+  slug: midpage-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midpage/refs/heads/main/openapi/midpage-openapi.yml
-- filename: midpage-openapi.yml
-  format: yaml
-  label: Midpage Semantic Search API
-  slug: semantic-search
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midpage/refs/heads/main/openapi/midpage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/midpage/refs/heads/main/openapi/midpage-user-api-openapi.yml
 auth_types:
 - http
 description: ''

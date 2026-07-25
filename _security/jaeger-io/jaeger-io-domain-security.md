@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: jaeger-query-api-openapi.yml
+- filename: jaeger-io-collectorservice-api-openapi.yml
   format: yaml
-  label: Jaeger Query API
-  slug: jaeger-query-api
+  label: Jaeger CollectorService API
+  slug: jaeger-io-collectorservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaeger-io/refs/heads/main/openapi/jaeger-query-api-openapi.yml
-- filename: jaeger-collector-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jaeger-io/refs/heads/main/openapi/jaeger-io-collectorservice-api-openapi.yml
+- filename: jaeger-io-queryservice-api-openapi.yml
   format: yaml
-  label: Jaeger Collector API
-  slug: jaeger-collector-api
+  label: Jaeger QueryService API
+  slug: jaeger-io-queryservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaeger-io/refs/heads/main/openapi/jaeger-collector-api-openapi.yml
-- filename: jaeger-sampling-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jaeger-io/refs/heads/main/openapi/jaeger-io-queryservice-api-openapi.yml
+- filename: jaeger-io-samplingmanager-api-openapi.yml
   format: yaml
-  label: Jaeger Sampling Manager API
-  slug: jaeger-sampling-api
+  label: Jaeger SamplingManager API
+  slug: jaeger-io-samplingmanager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaeger-io/refs/heads/main/openapi/jaeger-sampling-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jaeger-io/refs/heads/main/openapi/jaeger-io-samplingmanager-api-openapi.yml
 description: ''
 domains:
 - caa: []

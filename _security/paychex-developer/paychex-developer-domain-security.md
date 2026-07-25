@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: paychex-payroll-companies-openapi.yml
+- filename: paychex-developer-companies-api-openapi.yml
   format: yaml
-  label: Paychex Payroll Companies API
-  slug: paychex-payroll-companies-api
+  label: Paychex Companies API
+  slug: paychex-developer-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/openapi/paychex-payroll-companies-openapi.yml
-- filename: paychex-workers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/openapi/paychex-developer-companies-api-openapi.yml
+- filename: paychex-developer-time-entries-api-openapi.yml
+  format: yaml
+  label: Paychex Time Entries API
+  slug: paychex-developer-time-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/openapi/paychex-developer-time-entries-api-openapi.yml
+- filename: paychex-developer-workers-api-openapi.yml
   format: yaml
   label: Paychex Workers API
-  slug: paychex-workers-api
+  slug: paychex-developer-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/openapi/paychex-workers-openapi.yml
-- filename: paychex-time-openapi.yml
-  format: yaml
-  label: Paychex Time API
-  slug: paychex-time-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/openapi/paychex-time-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/openapi/paychex-developer-workers-api-openapi.yml
 description: ''
 domains:
 - caa: []

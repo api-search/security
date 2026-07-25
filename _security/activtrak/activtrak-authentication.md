@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: activtrak-openapi-original.yaml
+- filename: activtrak-administration-api-openapi.yml
   format: yaml
-  label: ActivTrak Public APIs
-  slug: activtrak-public-apis
+  label: ActivTrak Administration API
+  slug: activtrak-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/openapi/activtrak-openapi-original.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/openapi/activtrak-administration-api-openapi.yml
+- filename: activtrak-administration-scim-api-openapi.yml
+  format: yaml
+  label: ActivTrak Administration - SCIM API
+  slug: activtrak-administration-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/openapi/activtrak-administration-scim-api-openapi.yml
+- filename: activtrak-bulk-import-api-openapi.yml
+  format: yaml
+  label: ActivTrak Bulk Import API
+  slug: activtrak-bulk-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/openapi/activtrak-bulk-import-api-openapi.yml
+- filename: activtrak-reports-api-openapi.yml
+  format: yaml
+  label: ActivTrak Reports API
+  slug: activtrak-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/openapi/activtrak-reports-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

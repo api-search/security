@@ -2,42 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: hotelbeds-openapi.yml
+- filename: hotelbeds-activities-api-openapi.yml
   format: yaml
-  label: Hotel Booking API
-  slug: hotel-booking-api
+  label: Hotelbeds Activities API
+  slug: hotelbeds-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/openapi/hotelbeds-openapi.yml
-- filename: hotelbeds-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/openapi/hotelbeds-activities-api-openapi.yml
+- filename: hotelbeds-booking-api-openapi.yml
   format: yaml
-  label: Hotel Content API
-  slug: hotel-content-api
+  label: Hotelbeds Booking API
+  slug: hotelbeds-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/openapi/hotelbeds-openapi.yml
-- filename: hotelbeds-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/openapi/hotelbeds-booking-api-openapi.yml
+- filename: hotelbeds-cache-api-openapi.yml
   format: yaml
-  label: Cache Rates API
-  slug: cache-rates-api
+  label: Hotelbeds Cache API
+  slug: hotelbeds-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/openapi/hotelbeds-openapi.yml
-- filename: hotelbeds-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/openapi/hotelbeds-cache-api-openapi.yml
+- filename: hotelbeds-content-api-openapi.yml
   format: yaml
-  label: Activities API
-  slug: activities-api
+  label: Hotelbeds Content API
+  slug: hotelbeds-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/openapi/hotelbeds-openapi.yml
-- filename: hotelbeds-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/openapi/hotelbeds-content-api-openapi.yml
+- filename: hotelbeds-transfers-api-openapi.yml
   format: yaml
-  label: Transfers API
-  slug: transfers-api
+  label: Hotelbeds Transfers API
+  slug: hotelbeds-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/openapi/hotelbeds-openapi.yml
-- filename: hotelbeds-openapi.yml
-  format: yaml
-  label: Webhooks
-  slug: webhooks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/openapi/hotelbeds-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/openapi/hotelbeds-transfers-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

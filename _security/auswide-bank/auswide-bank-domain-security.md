@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: auswide-bank-cds-banking-products-openapi.yml
+- filename: auswide-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Auswide Bank CDR Product Reference Data API
-  slug: auswide-bank-cdr-product-reference-data-api
+  label: Auswide Bank Banking Account Balances API
+  slug: auswide-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/openapi/auswide-bank-cds-banking-products-openapi.yml
-- filename: auswide-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/openapi/auswide-bank-banking-account-balances-api-openapi.yml
+- filename: auswide-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Auswide Bank CDR Accounts & Balances API
-  slug: auswide-bank-cdr-accounts-balances-api
+  label: Auswide Bank Banking Account Direct Debits API
+  slug: auswide-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/openapi/auswide-bank-cds-banking-products-openapi.yml
-- filename: auswide-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/openapi/auswide-bank-banking-account-direct-debits-api-openapi.yml
+- filename: auswide-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Auswide Bank CDR Transactions API
-  slug: auswide-bank-cdr-transactions-api
+  label: Auswide Bank Banking Account Scheduled Payments API
+  slug: auswide-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/openapi/auswide-bank-cds-banking-products-openapi.yml
-- filename: auswide-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/openapi/auswide-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: auswide-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Auswide Bank CDR Direct Debits & Scheduled Payments API
-  slug: auswide-bank-cdr-direct-debits-scheduled-payments-api
+  label: Auswide Bank Banking Account Transactions API
+  slug: auswide-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/openapi/auswide-bank-cds-banking-products-openapi.yml
-- filename: auswide-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/openapi/auswide-bank-banking-account-transactions-api-openapi.yml
+- filename: auswide-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: Auswide Bank CDR Payees API
-  slug: auswide-bank-cdr-payees-api
+  label: Auswide Bank Banking Accounts API
+  slug: auswide-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/openapi/auswide-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/openapi/auswide-bank-banking-accounts-api-openapi.yml
+- filename: auswide-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: Auswide Bank Banking Payees API
+  slug: auswide-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/openapi/auswide-bank-banking-payees-api-openapi.yml
+- filename: auswide-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: Auswide Bank Banking Products API
+  slug: auswide-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/openapi/auswide-bank-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

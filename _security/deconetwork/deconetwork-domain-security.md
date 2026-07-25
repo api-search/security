@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: deconetwork-openapi.yml
+- filename: deconetwork-inventory-api-openapi.yml
   format: yaml
-  label: DecoNetwork Order Management API
-  slug: deconetwork-order-management-api
+  label: DecoNetwork Inventory API
+  slug: deconetwork-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deconetwork/refs/heads/main/openapi/deconetwork-openapi.yml
-- filename: deconetwork-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deconetwork/refs/heads/main/openapi/deconetwork-inventory-api-openapi.yml
+- filename: deconetwork-orders-api-openapi.yml
   format: yaml
-  label: DecoNetwork Product Management API
-  slug: deconetwork-product-management-api
+  label: DecoNetwork Orders API
+  slug: deconetwork-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deconetwork/refs/heads/main/openapi/deconetwork-openapi.yml
-- filename: deconetwork-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deconetwork/refs/heads/main/openapi/deconetwork-orders-api-openapi.yml
+- filename: deconetwork-products-api-openapi.yml
   format: yaml
-  label: DecoNetwork Inventory Management API
-  slug: deconetwork-inventory-management-api
+  label: DecoNetwork Products API
+  slug: deconetwork-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deconetwork/refs/heads/main/openapi/deconetwork-openapi.yml
-- filename: deconetwork-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deconetwork/refs/heads/main/openapi/deconetwork-products-api-openapi.yml
+- filename: deconetwork-purchase-orders-api-openapi.yml
   format: yaml
-  label: DecoNetwork Purchase Order Management API
-  slug: deconetwork-purchase-order-management-api
+  label: DecoNetwork Purchase Orders API
+  slug: deconetwork-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deconetwork/refs/heads/main/openapi/deconetwork-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deconetwork/refs/heads/main/openapi/deconetwork-purchase-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []

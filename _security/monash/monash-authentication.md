@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: monash-figshare.yaml
+- filename: monash-altmetric-api-openapi.yml
   format: yaml
-  label: Monash University Research Repository (monash.figshare)
-  slug: figshare
+  label: Monash University altmetric API
+  slug: monash-altmetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monash/refs/heads/main/openapi/monash-figshare.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/monash/refs/heads/main/openapi/monash-altmetric-api-openapi.yml
+- filename: monash-articles-api-openapi.yml
+  format: yaml
+  label: Monash University articles API
+  slug: monash-articles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monash/refs/heads/main/openapi/monash-articles-api-openapi.yml
+- filename: monash-authors-api-openapi.yml
+  format: yaml
+  label: Monash University authors API
+  slug: monash-authors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monash/refs/heads/main/openapi/monash-authors-api-openapi.yml
+- filename: monash-collections-api-openapi.yml
+  format: yaml
+  label: Monash University collections API
+  slug: monash-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monash/refs/heads/main/openapi/monash-collections-api-openapi.yml
+- filename: monash-institutions-api-openapi.yml
+  format: yaml
+  label: Monash University institutions API
+  slug: monash-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monash/refs/heads/main/openapi/monash-institutions-api-openapi.yml
+- filename: monash-oauth-api-openapi.yml
+  format: yaml
+  label: Monash University oauth API
+  slug: monash-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monash/refs/heads/main/openapi/monash-oauth-api-openapi.yml
+- filename: monash-other-api-openapi.yml
+  format: yaml
+  label: Monash University other API
+  slug: monash-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monash/refs/heads/main/openapi/monash-other-api-openapi.yml
+- filename: monash-profiles-api-openapi.yml
+  format: yaml
+  label: Monash University profiles API
+  slug: monash-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monash/refs/heads/main/openapi/monash-profiles-api-openapi.yml
+- filename: monash-projects-api-openapi.yml
+  format: yaml
+  label: Monash University projects API
+  slug: monash-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monash/refs/heads/main/openapi/monash-projects-api-openapi.yml
+- filename: monash-symplectic-api-openapi.yml
+  format: yaml
+  label: Monash University symplectic API
+  slug: monash-symplectic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monash/refs/heads/main/openapi/monash-symplectic-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

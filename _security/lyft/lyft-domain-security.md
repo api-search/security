@@ -1,17 +1,47 @@
 ---
 api_specs:
-- filename: lyft-ride-sharing-openapi.yml
+- filename: lyft-concierge-rides-api-openapi.yml
   format: yaml
-  label: Lyft Ride-Sharing API
-  slug: ride-sharing-api
+  label: lyft Concierge Rides API
+  slug: lyft-concierge-rides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-ride-sharing-openapi.yml
-- filename: lyft-concierge-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-concierge-rides-api-openapi.yml
+- filename: lyft-cost-estimates-api-openapi.yml
   format: yaml
-  label: Lyft Concierge API
-  slug: concierge-api
+  label: lyft Cost Estimates API
+  slug: lyft-cost-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-concierge-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-cost-estimates-api-openapi.yml
+- filename: lyft-drivers-api-openapi.yml
+  format: yaml
+  label: lyft Drivers API
+  slug: lyft-drivers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-drivers-api-openapi.yml
+- filename: lyft-eta-api-openapi.yml
+  format: yaml
+  label: lyft ETA API
+  slug: lyft-eta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-eta-api-openapi.yml
+- filename: lyft-profile-api-openapi.yml
+  format: yaml
+  label: lyft Profile API
+  slug: lyft-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-profile-api-openapi.yml
+- filename: lyft-ride-types-api-openapi.yml
+  format: yaml
+  label: lyft Ride Types API
+  slug: lyft-ride-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-ride-types-api-openapi.yml
+- filename: lyft-rides-api-openapi.yml
+  format: yaml
+  label: lyft Rides API
+  slug: lyft-rides-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-rides-api-openapi.yml
 description: ''
 domains:
 - caa:

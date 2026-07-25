@@ -2,24 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: dialect-alerts-openapi.json
-  format: json
-  label: Dialect Alerts V2 API
-  slug: dialect-alerts-v2-api
+- filename: dialect-blink-api-openapi.yml
+  format: yaml
+  label: Dialect Blink API
+  slug: dialect-blink-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/openapi/dialect-alerts-openapi.json
-- filename: dialect-blinks-openapi.json
-  format: json
-  label: Dialect Blinks API
-  slug: dialect-blinks-api
+  url: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/openapi/dialect-blink-api-openapi.yml
+- filename: dialect-blink-data-table-api-openapi.yml
+  format: yaml
+  label: Dialect Blink Data Table API
+  slug: dialect-blink-data-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/openapi/dialect-blinks-openapi.json
-- filename: dialect-markets-openapi.json
-  format: json
-  label: Dialect Markets & Positions API
-  slug: dialect-markets-positions-api
+  url: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/openapi/dialect-blink-data-table-api-openapi.yml
+- filename: dialect-blink-lists-api-openapi.yml
+  format: yaml
+  label: Dialect Blink Lists API
+  slug: dialect-blink-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/openapi/dialect-markets-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/openapi/dialect-blink-lists-api-openapi.yml
+- filename: dialect-blink-preview-api-openapi.yml
+  format: yaml
+  label: Dialect Blink Preview API
+  slug: dialect-blink-preview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/openapi/dialect-blink-preview-api-openapi.yml
+- filename: dialect-channels-api-openapi.yml
+  format: yaml
+  label: Dialect Channels API
+  slug: dialect-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/openapi/dialect-channels-api-openapi.yml
+- filename: dialect-inbox-api-openapi.yml
+  format: yaml
+  label: Dialect Inbox API
+  slug: dialect-inbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/openapi/dialect-inbox-api-openapi.yml
+- filename: dialect-markets-api-openapi.yml
+  format: yaml
+  label: Dialect Markets API
+  slug: dialect-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/openapi/dialect-markets-api-openapi.yml
+- filename: dialect-positions-api-openapi.yml
+  format: yaml
+  label: Dialect Positions API
+  slug: dialect-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/openapi/dialect-positions-api-openapi.yml
+- filename: dialect-send-api-openapi.yml
+  format: yaml
+  label: Dialect Send API
+  slug: dialect-send-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/openapi/dialect-send-api-openapi.yml
 auth_types:
 - apiKey
 - http

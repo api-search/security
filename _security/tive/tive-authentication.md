@@ -1,36 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tive-openapi.yml
-  format: yaml
-  label: Tive Shipments API
-  slug: tive-shipments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-openapi.yml
-- filename: tive-openapi.yml
-  format: yaml
-  label: Tive Trackers / Devices API
-  slug: tive-trackers-devices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-openapi.yml
-- filename: tive-openapi.yml
-  format: yaml
-  label: Tive Sensor Data API
-  slug: tive-sensor-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-openapi.yml
-- filename: tive-openapi.yml
+- filename: tive-alerts-api-openapi.yml
   format: yaml
   label: Tive Alerts API
   slug: tive-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-openapi.yml
-- filename: tive-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-alerts-api-openapi.yml
+- filename: tive-authentication-api-openapi.yml
+  format: yaml
+  label: Tive Authentication API
+  slug: tive-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-authentication-api-openapi.yml
+- filename: tive-devices-api-openapi.yml
+  format: yaml
+  label: Tive Devices API
+  slug: tive-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-devices-api-openapi.yml
+- filename: tive-sensor-data-api-openapi.yml
+  format: yaml
+  label: Tive Sensor Data API
+  slug: tive-sensor-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-sensor-data-api-openapi.yml
+- filename: tive-shipments-api-openapi.yml
+  format: yaml
+  label: Tive Shipments API
+  slug: tive-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-shipments-api-openapi.yml
+- filename: tive-webhooks-api-openapi.yml
   format: yaml
   label: Tive Webhooks API
   slug: tive-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

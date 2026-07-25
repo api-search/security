@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: ourpeople-openapi.yml
+- filename: ourpeople-authentication-api-openapi.yml
   format: yaml
-  label: OurPeople API
-  slug: ourpeople-api
+  label: OurPeople Authentication API
+  slug: ourpeople-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ourpeople/refs/heads/main/openapi/ourpeople-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ourpeople/refs/heads/main/openapi/ourpeople-authentication-api-openapi.yml
+- filename: ourpeople-broadcasts-api-openapi.yml
+  format: yaml
+  label: OurPeople Broadcasts API
+  slug: ourpeople-broadcasts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ourpeople/refs/heads/main/openapi/ourpeople-broadcasts-api-openapi.yml
 description: ''
 domains:
 - caa: []

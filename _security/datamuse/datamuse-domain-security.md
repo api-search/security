@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: datamuse-openapi.yml
+- filename: datamuse-suggestions-api-openapi.yml
   format: yaml
-  label: Datamuse API
-  slug: datamuse-api
+  label: Datamuse Suggestions API
+  slug: datamuse-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datamuse/refs/heads/main/openapi/datamuse-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/datamuse/refs/heads/main/openapi/datamuse-suggestions-api-openapi.yml
+- filename: datamuse-words-api-openapi.yml
+  format: yaml
+  label: Datamuse Words API
+  slug: datamuse-words-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datamuse/refs/heads/main/openapi/datamuse-words-api-openapi.yml
 description: ''
 domains:
 - caa: []

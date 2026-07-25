@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: brella-openapi.yml
-  format: yaml
-  label: Brella Events API
-  slug: brella-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brella/refs/heads/main/openapi/brella-openapi.yml
-- filename: brella-openapi.yml
+- filename: brella-attendees-api-openapi.yml
   format: yaml
   label: Brella Attendees API
   slug: brella-attendees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brella/refs/heads/main/openapi/brella-openapi.yml
-- filename: brella-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brella/refs/heads/main/openapi/brella-attendees-api-openapi.yml
+- filename: brella-events-api-openapi.yml
   format: yaml
-  label: Brella Speakers API
-  slug: brella-speakers-api
+  label: Brella Events API
+  slug: brella-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brella/refs/heads/main/openapi/brella-openapi.yml
-- filename: brella-openapi.yml
-  format: yaml
-  label: Brella Sponsors API
-  slug: brella-sponsors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brella/refs/heads/main/openapi/brella-openapi.yml
-- filename: brella-openapi.yml
-  format: yaml
-  label: Brella Schedule API
-  slug: brella-schedule-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brella/refs/heads/main/openapi/brella-openapi.yml
-- filename: brella-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brella/refs/heads/main/openapi/brella-events-api-openapi.yml
+- filename: brella-invites-api-openapi.yml
   format: yaml
   label: Brella Invites API
   slug: brella-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brella/refs/heads/main/openapi/brella-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brella/refs/heads/main/openapi/brella-invites-api-openapi.yml
+- filename: brella-schedule-api-openapi.yml
+  format: yaml
+  label: Brella Schedule API
+  slug: brella-schedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brella/refs/heads/main/openapi/brella-schedule-api-openapi.yml
+- filename: brella-speakers-api-openapi.yml
+  format: yaml
+  label: Brella Speakers API
+  slug: brella-speakers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brella/refs/heads/main/openapi/brella-speakers-api-openapi.yml
+- filename: brella-sponsors-api-openapi.yml
+  format: yaml
+  label: Brella Sponsors API
+  slug: brella-sponsors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brella/refs/heads/main/openapi/brella-sponsors-api-openapi.yml
 description: ''
 domains:
 - caa:

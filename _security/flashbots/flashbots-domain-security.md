@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: flashbots-flashbots-auction-mev-share-relay-json-rpc-api-openapi.yml
+  format: yaml
+  label: Flashbots Flashbots Auction & MEV Share Relay (JSON RPC) API
+  slug: flashbots-flashbots-auction-mev-share-relay-json-rpc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flashbots/refs/heads/main/openapi/flashbots-flashbots-auction-mev-share-relay-json-rpc-api-openapi.yml
 description: ''
 domains:
 - caa: []

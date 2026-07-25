@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: schema-registry.yml
+- filename: confluent-schema-registry-compatibility-api-openapi.yml
   format: yaml
-  label: Confluent Schema Registry REST API
-  slug: schema-registry-rest-api
+  label: Confluent Schema Registry Compatibility API
+  slug: confluent-schema-registry-compatibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/openapi/schema-registry.yml
+  url: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/openapi/confluent-schema-registry-compatibility-api-openapi.yml
+- filename: confluent-schema-registry-mode-api-openapi.yml
+  format: yaml
+  label: Confluent Schema Registry Mode API
+  slug: confluent-schema-registry-mode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/openapi/confluent-schema-registry-mode-api-openapi.yml
+- filename: confluent-schema-registry-schemas-api-openapi.yml
+  format: yaml
+  label: Confluent Schema Registry Schemas API
+  slug: confluent-schema-registry-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/openapi/confluent-schema-registry-schemas-api-openapi.yml
+- filename: confluent-schema-registry-server-api-openapi.yml
+  format: yaml
+  label: Confluent Schema Registry Server API
+  slug: confluent-schema-registry-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/openapi/confluent-schema-registry-server-api-openapi.yml
+- filename: confluent-schema-registry-subjects-api-openapi.yml
+  format: yaml
+  label: Confluent Schema Registry Subjects API
+  slug: confluent-schema-registry-subjects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/openapi/confluent-schema-registry-subjects-api-openapi.yml
 description: ''
 domains:
 - caa: []

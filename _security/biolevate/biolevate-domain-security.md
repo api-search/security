@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: biolevate-api-original.json
-  format: json
-  label: Biolevate API
-  slug: biolevate-api
+- filename: biolevate-agent-api-openapi.yml
+  format: yaml
+  label: Biolevate Agent API
+  slug: biolevate-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/openapi/biolevate-api-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/openapi/biolevate-agent-api-openapi.yml
+- filename: biolevate-collections-api-openapi.yml
+  format: yaml
+  label: Biolevate Collections API
+  slug: biolevate-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/openapi/biolevate-collections-api-openapi.yml
+- filename: biolevate-extraction-api-openapi.yml
+  format: yaml
+  label: Biolevate Extraction API
+  slug: biolevate-extraction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/openapi/biolevate-extraction-api-openapi.yml
+- filename: biolevate-files-api-openapi.yml
+  format: yaml
+  label: Biolevate Files API
+  slug: biolevate-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/openapi/biolevate-files-api-openapi.yml
+- filename: biolevate-find-similar-files-api-openapi.yml
+  format: yaml
+  label: Biolevate Find similar files API
+  slug: biolevate-find-similar-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/openapi/biolevate-find-similar-files-api-openapi.yml
+- filename: biolevate-multi-dimensional-extraction-api-openapi.yml
+  format: yaml
+  label: Biolevate Multi-Dimensional Extraction API
+  slug: biolevate-multi-dimensional-extraction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/openapi/biolevate-multi-dimensional-extraction-api-openapi.yml
+- filename: biolevate-provider-items-api-openapi.yml
+  format: yaml
+  label: Biolevate Provider Items API
+  slug: biolevate-provider-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/openapi/biolevate-provider-items-api-openapi.yml
+- filename: biolevate-providers-api-openapi.yml
+  format: yaml
+  label: Biolevate Providers API
+  slug: biolevate-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/openapi/biolevate-providers-api-openapi.yml
+- filename: biolevate-question-answering-api-openapi.yml
+  format: yaml
+  label: Biolevate Question Answering API
+  slug: biolevate-question-answering-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/openapi/biolevate-question-answering-api-openapi.yml
 description: ''
 domains:
 - caa: []

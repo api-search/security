@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: metamap-openapi.yml
+- filename: metamap-authentication-api-openapi.yml
   format: yaml
-  label: MetaMap API
-  slug: metamap-api
+  label: MetaMap Authentication API
+  slug: metamap-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-authentication-api-openapi.yml
+- filename: metamap-background-checks-api-openapi.yml
+  format: yaml
+  label: MetaMap Background Checks API
+  slug: metamap-background-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-background-checks-api-openapi.yml
+- filename: metamap-credit-checks-api-openapi.yml
+  format: yaml
+  label: MetaMap Credit Checks API
+  slug: metamap-credit-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-credit-checks-api-openapi.yml
+- filename: metamap-custom-watchlists-api-openapi.yml
+  format: yaml
+  label: MetaMap Custom Watchlists API
+  slug: metamap-custom-watchlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-custom-watchlists-api-openapi.yml
+- filename: metamap-email-checks-api-openapi.yml
+  format: yaml
+  label: MetaMap Email Checks API
+  slug: metamap-email-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-email-checks-api-openapi.yml
+- filename: metamap-govchecks-api-openapi.yml
+  format: yaml
+  label: MetaMap GovChecks API
+  slug: metamap-govchecks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-govchecks-api-openapi.yml
+- filename: metamap-phone-checks-api-openapi.yml
+  format: yaml
+  label: MetaMap Phone Checks API
+  slug: metamap-phone-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-phone-checks-api-openapi.yml
+- filename: metamap-verifications-api-openapi.yml
+  format: yaml
+  label: MetaMap Verifications API
+  slug: metamap-verifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-verifications-api-openapi.yml
+- filename: metamap-watchlist-checks-api-openapi.yml
+  format: yaml
+  label: MetaMap Watchlist Checks API
+  slug: metamap-watchlist-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-watchlist-checks-api-openapi.yml
+- filename: metamap-webhooks-api-openapi.yml
+  format: yaml
+  label: MetaMap Webhooks API
+  slug: metamap-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

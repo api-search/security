@@ -1,17 +1,83 @@
 ---
 api_specs:
-- filename: farcaster-hub-rest-api.json
-  format: json
-  label: Airstack Farcaster Hub API
-  slug: airstack-farcaster-hub-api
+- filename: airstack-casts-api-openapi.yml
+  format: yaml
+  label: Airstack Casts API
+  slug: airstack-casts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/farcaster-hub-rest-api.json
-- filename: farcaster-webhooks-api.json
-  format: json
-  label: Airstack Farcaster Webhooks API
-  slug: airstack-farcaster-webhooks-api
+  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-casts-api-openapi.yml
+- filename: airstack-fids-api-openapi.yml
+  format: yaml
+  label: Airstack FIDs API
+  slug: airstack-fids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/farcaster-webhooks-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-fids-api-openapi.yml
+- filename: airstack-hubevents-api-openapi.yml
+  format: yaml
+  label: Airstack HubEvents API
+  slug: airstack-hubevents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-hubevents-api-openapi.yml
+- filename: airstack-links-api-openapi.yml
+  format: yaml
+  label: Airstack Links API
+  slug: airstack-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-links-api-openapi.yml
+- filename: airstack-onchainevents-api-openapi.yml
+  format: yaml
+  label: Airstack OnChainEvents API
+  slug: airstack-onchainevents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-onchainevents-api-openapi.yml
+- filename: airstack-reactions-api-openapi.yml
+  format: yaml
+  label: Airstack Reactions API
+  slug: airstack-reactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-reactions-api-openapi.yml
+- filename: airstack-storage-api-openapi.yml
+  format: yaml
+  label: Airstack Storage API
+  slug: airstack-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-storage-api-openapi.yml
+- filename: airstack-submitmessage-api-openapi.yml
+  format: yaml
+  label: Airstack SubmitMessage API
+  slug: airstack-submitmessage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-submitmessage-api-openapi.yml
+- filename: airstack-userdata-api-openapi.yml
+  format: yaml
+  label: Airstack UserData API
+  slug: airstack-userdata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-userdata-api-openapi.yml
+- filename: airstack-usernames-api-openapi.yml
+  format: yaml
+  label: Airstack Usernames API
+  slug: airstack-usernames-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-usernames-api-openapi.yml
+- filename: airstack-validatemessage-api-openapi.yml
+  format: yaml
+  label: Airstack ValidateMessage API
+  slug: airstack-validatemessage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-validatemessage-api-openapi.yml
+- filename: airstack-verifications-api-openapi.yml
+  format: yaml
+  label: Airstack Verifications API
+  slug: airstack-verifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-verifications-api-openapi.yml
+- filename: airstack-webhooks-api-openapi.yml
+  format: yaml
+  label: Airstack Webhooks API
+  slug: airstack-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

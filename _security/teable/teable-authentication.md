@@ -1,48 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: teable-openapi.yml
+- filename: teable-attachment-api-openapi.yml
   format: yaml
-  label: Teable Spaces API
-  slug: teable-spaces-api
+  label: Teable Attachment API
+  slug: teable-attachment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/openapi/teable-openapi.yml
-- filename: teable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/openapi/teable-attachment-api-openapi.yml
+- filename: teable-base-api-openapi.yml
   format: yaml
-  label: Teable Bases API
-  slug: teable-bases-api
+  label: Teable Base API
+  slug: teable-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/openapi/teable-openapi.yml
-- filename: teable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/openapi/teable-base-api-openapi.yml
+- filename: teable-field-api-openapi.yml
   format: yaml
-  label: Teable Tables API
-  slug: teable-tables-api
+  label: Teable Field API
+  slug: teable-field-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/openapi/teable-openapi.yml
-- filename: teable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/openapi/teable-field-api-openapi.yml
+- filename: teable-record-api-openapi.yml
   format: yaml
-  label: Teable Fields API
-  slug: teable-fields-api
+  label: Teable Record API
+  slug: teable-record-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/openapi/teable-openapi.yml
-- filename: teable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/openapi/teable-record-api-openapi.yml
+- filename: teable-space-api-openapi.yml
   format: yaml
-  label: Teable Records API
-  slug: teable-records-api
+  label: Teable Space API
+  slug: teable-space-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/openapi/teable-openapi.yml
-- filename: teable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/openapi/teable-space-api-openapi.yml
+- filename: teable-table-api-openapi.yml
   format: yaml
-  label: Teable Views API
-  slug: teable-views-api
+  label: Teable Table API
+  slug: teable-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/openapi/teable-openapi.yml
-- filename: teable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/openapi/teable-table-api-openapi.yml
+- filename: teable-view-api-openapi.yml
   format: yaml
-  label: Teable Attachments API
-  slug: teable-attachments-api
+  label: Teable View API
+  slug: teable-view-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/openapi/teable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/openapi/teable-view-api-openapi.yml
 auth_types:
 - http
 description: ''

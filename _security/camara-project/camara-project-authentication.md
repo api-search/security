@@ -1,96 +1,186 @@
 ---
 api_key_in: []
 api_specs:
-- filename: number-verification-openapi.yml
+- filename: camara-project-age-verification-api-openapi.yml
   format: yaml
-  label: CAMARA Number Verification API
-  slug: number-verification
+  label: CAMARA Project Age Verification API
+  slug: camara-project-age-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/number-verification-openapi.yml
-- filename: sim-swap-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-age-verification-api-openapi.yml
+- filename: camara-project-call-forwarding-information-retrieval-api-openapi.yml
   format: yaml
-  label: CAMARA SIM Swap API
-  slug: sim-swap
+  label: CAMARA Project Call Forwarding information retrieval API
+  slug: camara-project-call-forwarding-information-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/sim-swap-openapi.yml
-- filename: device-location-retrieval-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-call-forwarding-information-retrieval-api-openapi.yml
+- filename: camara-project-check-device-swap-api-openapi.yml
   format: yaml
-  label: CAMARA Device Location API
-  slug: device-location
+  label: CAMARA Project Check Device Swap API
+  slug: camara-project-check-device-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/device-location-retrieval-openapi.yml
-- filename: quality-on-demand-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-check-device-swap-api-openapi.yml
+- filename: camara-project-check-sim-swap-api-openapi.yml
   format: yaml
-  label: CAMARA Quality on Demand API
-  slug: quality-on-demand
+  label: CAMARA Project Check SIM swap API
+  slug: camara-project-check-sim-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/quality-on-demand-openapi.yml
-- filename: device-status-connected-network-type-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-check-sim-swap-api-openapi.yml
+- filename: camara-project-connected-network-type-api-openapi.yml
   format: yaml
-  label: CAMARA Device Status API
-  slug: device-status
+  label: CAMARA Project Connected Network Type API
+  slug: camara-project-connected-network-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/device-status-connected-network-type-openapi.yml
-- filename: kyc-match-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-connected-network-type-api-openapi.yml
+- filename: camara-project-device-reachability-status-api-openapi.yml
   format: yaml
-  label: CAMARA Know Your Customer API
-  slug: know-your-customer
+  label: CAMARA Project Device reachability status API
+  slug: camara-project-device-reachability-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/kyc-match-openapi.yml
-- filename: one-time-password-sms-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-device-reachability-status-api-openapi.yml
+- filename: camara-project-discovery-api-openapi.yml
   format: yaml
-  label: CAMARA One Time Password SMS API
-  slug: one-time-password-sms
+  label: CAMARA Project Discovery API
+  slug: camara-project-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/one-time-password-sms-openapi.yml
-- filename: device-swap-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-discovery-api-openapi.yml
+- filename: camara-project-fill-in-api-openapi.yml
   format: yaml
-  label: CAMARA Device Swap API
-  slug: device-swap
+  label: CAMARA Project Fill-in API
+  slug: camara-project-fill-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/device-swap-openapi.yml
-- filename: simple-edge-discovery-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-fill-in-api-openapi.yml
+- filename: camara-project-geofencing-subscriptions-api-openapi.yml
   format: yaml
-  label: CAMARA Simple Edge Discovery API
-  slug: simple-edge-discovery
+  label: CAMARA Project Geofencing subscriptions API
+  slug: camara-project-geofencing-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/simple-edge-discovery-openapi.yml
-- filename: carrier-billing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-geofencing-subscriptions-api-openapi.yml
+- filename: camara-project-home-devices-qod-api-openapi.yml
   format: yaml
-  label: CAMARA Carrier Billing Checkout API
-  slug: carrier-billing
+  label: CAMARA Project Home Devices QoD API
+  slug: camara-project-home-devices-qod-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/carrier-billing-openapi.yml
-- filename: population-density-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-home-devices-qod-api-openapi.yml
+- filename: camara-project-location-retrieval-api-openapi.yml
   format: yaml
-  label: CAMARA Population Density Data API
-  slug: population-density-data
+  label: CAMARA Project Location retrieval API
+  slug: camara-project-location-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/population-density-data-openapi.yml
-- filename: home-devices-qod-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-location-retrieval-api-openapi.yml
+- filename: camara-project-location-verification-api-openapi.yml
   format: yaml
-  label: CAMARA Home Devices Quality on Demand API
-  slug: home-devices-qod
+  label: CAMARA Project Location verification API
+  slug: camara-project-location-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/home-devices-qod-openapi.yml
-- filename: call-forwarding-signal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-location-verification-api-openapi.yml
+- filename: camara-project-match-api-openapi.yml
   format: yaml
-  label: CAMARA Call Forwarding Signal API
-  slug: call-forwarding-signal
+  label: CAMARA Project Match API
+  slug: camara-project-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/call-forwarding-signal-openapi.yml
-- filename: sms-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-match-api-openapi.yml
+- filename: camara-project-network-quality-api-openapi.yml
   format: yaml
-  label: CAMARA Short Message Service API
-  slug: sms
+  label: CAMARA Project Network Quality API
+  slug: camara-project-network-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/sms-openapi.yml
-- filename: connectivity-insights-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-network-quality-api-openapi.yml
+- filename: camara-project-one-step-payment-api-openapi.yml
   format: yaml
-  label: CAMARA Connectivity Insights API
-  slug: connectivity-insights
+  label: CAMARA Project One Step Payment API
+  slug: camara-project-one-step-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/connectivity-insights-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-one-step-payment-api-openapi.yml
+- filename: camara-project-otp-management-api-openapi.yml
+  format: yaml
+  label: CAMARA Project OTP Management API
+  slug: camara-project-otp-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-otp-management-api-openapi.yml
+- filename: camara-project-payment-api-openapi.yml
+  format: yaml
+  label: CAMARA Project Payment API
+  slug: camara-project-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-payment-api-openapi.yml
+- filename: camara-project-phone-number-share-api-openapi.yml
+  format: yaml
+  label: CAMARA Project Phone number share API
+  slug: camara-project-phone-number-share-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-phone-number-share-api-openapi.yml
+- filename: camara-project-phone-number-verify-api-openapi.yml
+  format: yaml
+  label: CAMARA Project Phone number verify API
+  slug: camara-project-phone-number-verify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-phone-number-verify-api-openapi.yml
+- filename: camara-project-population-density-data-api-openapi.yml
+  format: yaml
+  label: CAMARA Project Population Density Data API
+  slug: camara-project-population-density-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-population-density-data-api-openapi.yml
+- filename: camara-project-qos-assignment-api-openapi.yml
+  format: yaml
+  label: CAMARA Project QoS Assignment API
+  slug: camara-project-qos-assignment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-qos-assignment-api-openapi.yml
+- filename: camara-project-qos-profiles-api-openapi.yml
+  format: yaml
+  label: CAMARA Project QoS Profiles API
+  slug: camara-project-qos-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-qos-profiles-api-openapi.yml
+- filename: camara-project-qos-sessions-api-openapi.yml
+  format: yaml
+  label: CAMARA Project QoS Sessions API
+  slug: camara-project-qos-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-qos-sessions-api-openapi.yml
+- filename: camara-project-retrieve-device-swap-date-api-openapi.yml
+  format: yaml
+  label: CAMARA Project Retrieve Device Swap Date API
+  slug: camara-project-retrieve-device-swap-date-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-retrieve-device-swap-date-api-openapi.yml
+- filename: camara-project-retrieve-sim-swap-date-api-openapi.yml
+  format: yaml
+  label: CAMARA Project Retrieve SIM swap date API
+  slug: camara-project-retrieve-sim-swap-date-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-retrieve-sim-swap-date-api-openapi.yml
+- filename: camara-project-roaming-status-retrieval-api-openapi.yml
+  format: yaml
+  label: CAMARA Project Roaming status retrieval API
+  slug: camara-project-roaming-status-retrieval-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-roaming-status-retrieval-api-openapi.yml
+- filename: camara-project-send-sms-api-openapi.yml
+  format: yaml
+  label: CAMARA Project Send SMS API
+  slug: camara-project-send-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-send-sms-api-openapi.yml
+- filename: camara-project-sim-swap-subscription-api-openapi.yml
+  format: yaml
+  label: CAMARA Project Sim Swap Subscription API
+  slug: camara-project-sim-swap-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-sim-swap-subscription-api-openapi.yml
+- filename: camara-project-two-step-payment-api-openapi.yml
+  format: yaml
+  label: CAMARA Project Two Step Payment API
+  slug: camara-project-two-step-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-two-step-payment-api-openapi.yml
+- filename: camara-project-unconditional-call-forwarding-information-retrieval-api-openapi.yml
+  format: yaml
+  label: CAMARA Project Unconditional Call Forwarding information retrieval API
+  slug: camara-project-unconditional-call-forwarding-information-retrieval-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-unconditional-call-forwarding-information-retrieval-api-openapi.yml
 auth_types:
 - http
 - openIdConnect

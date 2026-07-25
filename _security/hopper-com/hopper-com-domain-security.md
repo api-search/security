@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: hopper-airlines-openapi.yml
+- filename: hopper-com-analytics-api-openapi.yml
   format: yaml
-  label: HTS Airline API
-  slug: hts-airline-api
+  label: Hopper Analytics API
+  slug: hopper-com-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopper-com/refs/heads/main/openapi/hopper-airlines-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hopper-com/refs/heads/main/openapi/hopper-com-analytics-api-openapi.yml
+- filename: hopper-com-authentication-api-openapi.yml
+  format: yaml
+  label: Hopper Authentication API
+  slug: hopper-com-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopper-com/refs/heads/main/openapi/hopper-com-authentication-api-openapi.yml
+- filename: hopper-com-cancel-for-any-reason-cfar-api-openapi.yml
+  format: yaml
+  label: Hopper Cancel For Any Reason (CFAR) API
+  slug: hopper-com-cancel-for-any-reason-cfar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopper-com/refs/heads/main/openapi/hopper-com-cancel-for-any-reason-cfar-api-openapi.yml
+- filename: hopper-com-disruption-guarantee-dg-api-openapi.yml
+  format: yaml
+  label: Hopper Disruption Guarantee (DG) API
+  slug: hopper-com-disruption-guarantee-dg-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopper-com/refs/heads/main/openapi/hopper-com-disruption-guarantee-dg-api-openapi.yml
+- filename: hopper-com-sessions-api-openapi.yml
+  format: yaml
+  label: Hopper Sessions API
+  slug: hopper-com-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopper-com/refs/heads/main/openapi/hopper-com-sessions-api-openapi.yml
 description: ''
 domains:
 - caa:

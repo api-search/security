@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: luxury-presence-cms-openapi.json
-  format: json
-  label: Luxury Presence Public API
-  slug: luxury-presence-public-api
+- filename: luxury-presence-agents-api-openapi.yml
+  format: yaml
+  label: Luxury Presence Agents API
+  slug: luxury-presence-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/openapi/luxury-presence-cms-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/openapi/luxury-presence-agents-api-openapi.yml
+- filename: luxury-presence-media-api-openapi.yml
+  format: yaml
+  label: Luxury Presence Media API
+  slug: luxury-presence-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/openapi/luxury-presence-media-api-openapi.yml
+- filename: luxury-presence-offices-api-openapi.yml
+  format: yaml
+  label: Luxury Presence Offices API
+  slug: luxury-presence-offices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/openapi/luxury-presence-offices-api-openapi.yml
+- filename: luxury-presence-teams-api-openapi.yml
+  format: yaml
+  label: Luxury Presence Teams API
+  slug: luxury-presence-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/openapi/luxury-presence-teams-api-openapi.yml
+- filename: luxury-presence-webhooks-api-openapi.yml
+  format: yaml
+  label: Luxury Presence Webhooks API
+  slug: luxury-presence-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/openapi/luxury-presence-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -3,12 +3,30 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: openapi.yml
+- filename: dpla-authentication-api-openapi.yml
   format: yaml
-  label: DPLA Items API
-  slug: items-api
+  label: Digital Public Library of America Authentication API
+  slug: dpla-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dpla/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dpla/refs/heads/main/openapi/dpla-authentication-api-openapi.yml
+- filename: dpla-items-api-openapi.yml
+  format: yaml
+  label: Digital Public Library of America Items API
+  slug: dpla-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dpla/refs/heads/main/openapi/dpla-items-api-openapi.yml
+- filename: dpla-primary-source-sets-api-openapi.yml
+  format: yaml
+  label: Digital Public Library of America Primary Source Sets API
+  slug: dpla-primary-source-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dpla/refs/heads/main/openapi/dpla-primary-source-sets-api-openapi.yml
+- filename: dpla-utilities-api-openapi.yml
+  format: yaml
+  label: Digital Public Library of America Utilities API
+  slug: dpla-utilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dpla/refs/heads/main/openapi/dpla-utilities-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

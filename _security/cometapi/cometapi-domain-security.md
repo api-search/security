@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: cometapi-unified-api-openapi.yml
+- filename: cometapi-audio-api-openapi.yml
   format: yaml
-  label: CometAPI Unified API
-  slug: cometapi-unified-api
+  label: CometAPI Audio API
+  slug: cometapi-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cometapi/refs/heads/main/openapi/cometapi-unified-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cometapi/refs/heads/main/openapi/cometapi-audio-api-openapi.yml
+- filename: cometapi-chat-api-openapi.yml
+  format: yaml
+  label: CometAPI Chat API
+  slug: cometapi-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cometapi/refs/heads/main/openapi/cometapi-chat-api-openapi.yml
+- filename: cometapi-embeddings-api-openapi.yml
+  format: yaml
+  label: CometAPI Embeddings API
+  slug: cometapi-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cometapi/refs/heads/main/openapi/cometapi-embeddings-api-openapi.yml
+- filename: cometapi-images-api-openapi.yml
+  format: yaml
+  label: CometAPI Images API
+  slug: cometapi-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cometapi/refs/heads/main/openapi/cometapi-images-api-openapi.yml
+- filename: cometapi-models-api-openapi.yml
+  format: yaml
+  label: CometAPI Models API
+  slug: cometapi-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cometapi/refs/heads/main/openapi/cometapi-models-api-openapi.yml
+- filename: cometapi-video-api-openapi.yml
+  format: yaml
+  label: CometAPI Video API
+  slug: cometapi-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cometapi/refs/heads/main/openapi/cometapi-video-api-openapi.yml
 description: ''
 domains:
 - caa: []

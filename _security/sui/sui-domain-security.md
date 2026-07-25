@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Sui gRPC API
-  slug: sui-grpc-api
+- filename: sui-coin-query-api-api-openapi.yml
+  format: yaml
+  label: Sui Coin Query API API
+  slug: sui-coin-query-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-coin-query-api-api-openapi.yml
+- filename: sui-extended-api-api-openapi.yml
+  format: yaml
+  label: Sui Extended API API
+  slug: sui-extended-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-extended-api-api-openapi.yml
+- filename: sui-governance-read-api-api-openapi.yml
+  format: yaml
+  label: Sui Governance Read API API
+  slug: sui-governance-read-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-governance-read-api-api-openapi.yml
+- filename: sui-move-utils-api-openapi.yml
+  format: yaml
+  label: Sui Move Utils API
+  slug: sui-move-utils-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-move-utils-api-openapi.yml
+- filename: sui-pubsub-api-openapi.yml
+  format: yaml
+  label: Sui PubSub API
+  slug: sui-pubsub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-pubsub-api-openapi.yml
+- filename: sui-read-api-api-openapi.yml
+  format: yaml
+  label: Sui Read API API
+  slug: sui-read-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-read-api-api-openapi.yml
+- filename: sui-transaction-builder-api-api-openapi.yml
+  format: yaml
+  label: Sui Transaction Builder API API
+  slug: sui-transaction-builder-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-transaction-builder-api-api-openapi.yml
+- filename: sui-websocket-api-openapi.yml
+  format: yaml
+  label: Sui Websocket API
+  slug: sui-websocket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-websocket-api-openapi.yml
+- filename: sui-write-api-api-openapi.yml
+  format: yaml
+  label: Sui Write API API
+  slug: sui-write-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-write-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: holidays-api-openapi.yml
+- filename: holidays-countries-api-openapi.yml
   format: yaml
-  label: Holiday API — Holidays
-  slug: holidays
+  label: Holiday API Countries API
+  slug: holidays-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/openapi/holidays-api-openapi.yml
-- filename: holidays-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/openapi/holidays-countries-api-openapi.yml
+- filename: holidays-holidays-api-openapi.yml
   format: yaml
-  label: Holiday API — Countries
-  slug: countries
+  label: Holiday API Holidays API
+  slug: holidays-holidays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/openapi/holidays-api-openapi.yml
-- filename: holidays-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/openapi/holidays-holidays-api-openapi.yml
+- filename: holidays-languages-api-openapi.yml
   format: yaml
-  label: Holiday API — Languages
-  slug: languages
+  label: Holiday API Languages API
+  slug: holidays-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/openapi/holidays-api-openapi.yml
-- filename: holidays-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/openapi/holidays-languages-api-openapi.yml
+- filename: holidays-workdays-api-openapi.yml
   format: yaml
-  label: Holiday API — Workdays
-  slug: workdays
+  label: Holiday API Workdays API
+  slug: holidays-workdays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/openapi/holidays-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/openapi/holidays-workdays-api-openapi.yml
 description: ''
 domains:
 - caa: []

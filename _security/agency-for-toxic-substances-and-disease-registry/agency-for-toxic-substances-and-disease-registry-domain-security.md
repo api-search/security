@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: atsdr-toxic-substance-profiles-openapi.yml
+- filename: agency-for-toxic-substances-and-disease-registry-exposure-investigations-api-openapi.yml
   format: yaml
-  label: ATSDR Toxic Substance Profiles API
-  slug: atsdr-toxic-substance-profiles-api
+  label: Agency for Toxic Substances and Disease Registry Exposure Investigations API
+  slug: agency-for-toxic-substances-and-disease-registry-exposure-investigations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agency-for-toxic-substances-and-disease-registry/refs/heads/main/openapi/atsdr-toxic-substance-profiles-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agency-for-toxic-substances-and-disease-registry/refs/heads/main/openapi/agency-for-toxic-substances-and-disease-registry-exposure-investigations-api-openapi.yml
+- filename: agency-for-toxic-substances-and-disease-registry-minimum-risk-levels-api-openapi.yml
+  format: yaml
+  label: Agency for Toxic Substances and Disease Registry Minimum Risk Levels API
+  slug: agency-for-toxic-substances-and-disease-registry-minimum-risk-levels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agency-for-toxic-substances-and-disease-registry/refs/heads/main/openapi/agency-for-toxic-substances-and-disease-registry-minimum-risk-levels-api-openapi.yml
+- filename: agency-for-toxic-substances-and-disease-registry-substance-priority-list-api-openapi.yml
+  format: yaml
+  label: Agency for Toxic Substances and Disease Registry Substance Priority List API
+  slug: agency-for-toxic-substances-and-disease-registry-substance-priority-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agency-for-toxic-substances-and-disease-registry/refs/heads/main/openapi/agency-for-toxic-substances-and-disease-registry-substance-priority-list-api-openapi.yml
+- filename: agency-for-toxic-substances-and-disease-registry-toxicological-profiles-api-openapi.yml
+  format: yaml
+  label: Agency for Toxic Substances and Disease Registry Toxicological Profiles API
+  slug: agency-for-toxic-substances-and-disease-registry-toxicological-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agency-for-toxic-substances-and-disease-registry/refs/heads/main/openapi/agency-for-toxic-substances-and-disease-registry-toxicological-profiles-api-openapi.yml
 description: ''
 domains:
 - caa: []

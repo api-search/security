@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: eventuate-api.yml
+- filename: eventuate-entities-api-openapi.yml
   format: yaml
-  label: Eventuate
-  slug: eventuate
+  label: Eventuate Entities API
+  slug: eventuate-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventuate/refs/heads/main/openapi/eventuate-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/eventuate/refs/heads/main/openapi/eventuate-entities-api-openapi.yml
+- filename: eventuate-events-api-openapi.yml
+  format: yaml
+  label: Eventuate Events API
+  slug: eventuate-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eventuate/refs/heads/main/openapi/eventuate-events-api-openapi.yml
+- filename: eventuate-subscriptions-api-openapi.yml
+  format: yaml
+  label: Eventuate Subscriptions API
+  slug: eventuate-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eventuate/refs/heads/main/openapi/eventuate-subscriptions-api-openapi.yml
+- filename: eventuate-system-api-openapi.yml
+  format: yaml
+  label: Eventuate System API
+  slug: eventuate-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eventuate/refs/heads/main/openapi/eventuate-system-api-openapi.yml
 description: ''
 domains:
 - caa: []

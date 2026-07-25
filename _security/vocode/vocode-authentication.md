@@ -1,42 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: vocode-openapi.yml
-  format: yaml
-  label: Vocode Calls API
-  slug: vocode-calls-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-openapi.yml
-- filename: vocode-openapi.yml
-  format: yaml
-  label: Vocode Agents API
-  slug: vocode-agents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-openapi.yml
-- filename: vocode-openapi.yml
-  format: yaml
-  label: Vocode Phone Numbers API
-  slug: vocode-phone-numbers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-openapi.yml
-- filename: vocode-openapi.yml
+- filename: vocode-actions-api-openapi.yml
   format: yaml
   label: Vocode Actions API
   slug: vocode-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-openapi.yml
-- filename: vocode-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-actions-api-openapi.yml
+- filename: vocode-agents-api-openapi.yml
+  format: yaml
+  label: Vocode Agents API
+  slug: vocode-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-agents-api-openapi.yml
+- filename: vocode-calls-api-openapi.yml
+  format: yaml
+  label: Vocode Calls API
+  slug: vocode-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-calls-api-openapi.yml
+- filename: vocode-numbers-api-openapi.yml
+  format: yaml
+  label: Vocode Numbers API
+  slug: vocode-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-numbers-api-openapi.yml
+- filename: vocode-usage-api-openapi.yml
+  format: yaml
+  label: Vocode Usage API
+  slug: vocode-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-usage-api-openapi.yml
+- filename: vocode-voices-api-openapi.yml
   format: yaml
   label: Vocode Voices API
   slug: vocode-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-openapi.yml
-- filename: vocode-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-voices-api-openapi.yml
+- filename: vocode-webhooks-api-openapi.yml
   format: yaml
   label: Vocode Webhooks API
   slug: vocode-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: streamone-ion-openapi.yml
+- filename: tech-data-authentication-api-openapi.yml
   format: yaml
-  label: TD SYNNEX StreamOne Ion API
-  slug: streamone-ion-api
+  label: Tech Data Authentication API
+  slug: tech-data-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/openapi/streamone-ion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/openapi/tech-data-authentication-api-openapi.yml
+- filename: tech-data-cart-items-api-openapi.yml
+  format: yaml
+  label: Tech Data Cart Items API
+  slug: tech-data-cart-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/openapi/tech-data-cart-items-api-openapi.yml
+- filename: tech-data-carts-api-openapi.yml
+  format: yaml
+  label: Tech Data Carts API
+  slug: tech-data-carts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/openapi/tech-data-carts-api-openapi.yml
+- filename: tech-data-cloud-providers-api-openapi.yml
+  format: yaml
+  label: Tech Data Cloud Providers API
+  slug: tech-data-cloud-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/openapi/tech-data-cloud-providers-api-openapi.yml
+- filename: tech-data-customers-api-openapi.yml
+  format: yaml
+  label: Tech Data Customers API
+  slug: tech-data-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/openapi/tech-data-customers-api-openapi.yml
+- filename: tech-data-orders-api-openapi.yml
+  format: yaml
+  label: Tech Data Orders API
+  slug: tech-data-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/openapi/tech-data-orders-api-openapi.yml
+- filename: tech-data-products-api-openapi.yml
+  format: yaml
+  label: Tech Data Products API
+  slug: tech-data-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/openapi/tech-data-products-api-openapi.yml
+- filename: tech-data-provisioning-templates-api-openapi.yml
+  format: yaml
+  label: Tech Data Provisioning Templates API
+  slug: tech-data-provisioning-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/openapi/tech-data-provisioning-templates-api-openapi.yml
+- filename: tech-data-reports-api-openapi.yml
+  format: yaml
+  label: Tech Data Reports API
+  slug: tech-data-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/openapi/tech-data-reports-api-openapi.yml
+- filename: tech-data-subscriptions-api-openapi.yml
+  format: yaml
+  label: Tech Data Subscriptions API
+  slug: tech-data-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/openapi/tech-data-subscriptions-api-openapi.yml
 auth_types:
 - http
 description: ''

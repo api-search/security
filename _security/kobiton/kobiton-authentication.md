@@ -1,42 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: kobiton-openapi.yml
+- filename: kobiton-apps-api-openapi.yml
+  format: yaml
+  label: Kobiton Apps API
+  slug: kobiton-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-apps-api-openapi.yml
+- filename: kobiton-data-sets-api-openapi.yml
+  format: yaml
+  label: Kobiton Data Sets API
+  slug: kobiton-data-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-data-sets-api-openapi.yml
+- filename: kobiton-devices-api-openapi.yml
   format: yaml
   label: Kobiton Devices API
   slug: kobiton-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-openapi.yml
-- filename: kobiton-openapi.yml
-  format: yaml
-  label: Kobiton Sessions API
-  slug: kobiton-sessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-openapi.yml
-- filename: kobiton-openapi.yml
-  format: yaml
-  label: Kobiton Scriptless Automation API
-  slug: kobiton-scriptless-automation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-openapi.yml
-- filename: kobiton-openapi.yml
-  format: yaml
-  label: Kobiton Apps Repository API
-  slug: kobiton-apps-repository-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-openapi.yml
-- filename: kobiton-openapi.yml
-  format: yaml
-  label: Kobiton Data-Driven Testing API
-  slug: kobiton-data-driven-testing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-openapi.yml
-- filename: kobiton-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-devices-api-openapi.yml
+- filename: kobiton-organization-api-openapi.yml
   format: yaml
   label: Kobiton Organization API
   slug: kobiton-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-organization-api-openapi.yml
+- filename: kobiton-scriptless-automation-api-openapi.yml
+  format: yaml
+  label: Kobiton Scriptless Automation API
+  slug: kobiton-scriptless-automation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-scriptless-automation-api-openapi.yml
+- filename: kobiton-sessions-api-openapi.yml
+  format: yaml
+  label: Kobiton Sessions API
+  slug: kobiton-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-sessions-api-openapi.yml
 auth_types:
 - http
 description: ''

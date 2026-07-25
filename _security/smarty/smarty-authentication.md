@@ -2,60 +2,42 @@
 api_key_in:
 - query
 api_specs:
-- filename: smarty-us-street-address-api-openapi.yml
+- filename: smarty-lookup-api-openapi.yml
   format: yaml
-  label: US Street Address API
-  slug: us-street-address-api
+  label: Smarty Lookup API
+  slug: smarty-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-us-street-address-api-openapi.yml
-- filename: smarty-us-autocomplete-pro-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-lookup-api-openapi.yml
+- filename: smarty-reverse-geo-api-openapi.yml
   format: yaml
-  label: US Autocomplete Pro API
-  slug: us-autocomplete-pro-api
+  label: Smarty reverse-geo API
+  slug: smarty-reverse-geo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-us-autocomplete-pro-api-openapi.yml
-- filename: smarty-us-zipcode-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-reverse-geo-api-openapi.yml
+- filename: smarty-street-address-api-openapi.yml
   format: yaml
-  label: US ZIP Code API
-  slug: us-zipcode-api
+  label: Smarty street-address API
+  slug: smarty-street-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-us-zipcode-api-openapi.yml
-- filename: smarty-us-reverse-geocode-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-street-address-api-openapi.yml
+- filename: smarty-us-enrichment-api-openapi.yml
   format: yaml
-  label: US Reverse Geocode API
-  slug: us-reverse-geocode-api
+  label: Smarty us-enrichment API
+  slug: smarty-us-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-us-reverse-geocode-api-openapi.yml
-- filename: smarty-us-address-enrichment-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-us-enrichment-api-openapi.yml
+- filename: smarty-us-extract-api-api-openapi.yml
   format: yaml
-  label: US Address Enrichment API
-  slug: us-address-enrichment-api
+  label: Smarty US Extract API API
+  slug: smarty-us-extract-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-us-address-enrichment-api-openapi.yml
-- filename: smarty-us-extract-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-us-extract-api-api-openapi.yml
+- filename: smarty-verify-api-openapi.yml
   format: yaml
-  label: US Extract API
-  slug: us-extract-api
+  label: Smarty Verify API
+  slug: smarty-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-us-extract-api-openapi.yml
-- filename: smarty-international-street-address-api-openapi.yml
-  format: yaml
-  label: International Street Address API
-  slug: international-street-address-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-international-street-address-api-openapi.yml
-- filename: smarty-international-address-autocomplete-api-openapi.yml
-  format: yaml
-  label: International Address Autocomplete API
-  slug: international-address-autocomplete-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-international-address-autocomplete-api-openapi.yml
-- filename: smarty-international-postal-code-api-openapi.yml
-  format: yaml
-  label: International Postal Code API
-  slug: international-postal-code-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-international-postal-code-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-verify-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

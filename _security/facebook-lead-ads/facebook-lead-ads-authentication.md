@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: facebook-lead-ads-openapi.yml
+- filename: facebook-lead-ads-bulk-leads-api-openapi.yml
   format: yaml
-  label: Meta Marketing API - Lead Ads
-  slug: graph-api
+  label: Facebook Lead Ads Bulk Leads API
+  slug: facebook-lead-ads-bulk-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/openapi/facebook-lead-ads-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/openapi/facebook-lead-ads-bulk-leads-api-openapi.yml
+- filename: facebook-lead-ads-leadgen-forms-api-openapi.yml
+  format: yaml
+  label: Facebook Lead Ads Leadgen Forms API
+  slug: facebook-lead-ads-leadgen-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/openapi/facebook-lead-ads-leadgen-forms-api-openapi.yml
+- filename: facebook-lead-ads-leads-api-openapi.yml
+  format: yaml
+  label: Facebook Lead Ads Leads API
+  slug: facebook-lead-ads-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/openapi/facebook-lead-ads-leads-api-openapi.yml
+- filename: facebook-lead-ads-meta-marketing-api-lead-ads-api-openapi.yml
+  format: yaml
+  label: Facebook Lead Ads Meta Marketing API Lead Ads API
+  slug: facebook-lead-ads-meta-marketing-api-lead-ads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/openapi/facebook-lead-ads-meta-marketing-api-lead-ads-api-openapi.yml
+- filename: facebook-lead-ads-subscribed-apps-api-openapi.yml
+  format: yaml
+  label: Facebook Lead Ads Subscribed Apps API
+  slug: facebook-lead-ads-subscribed-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/openapi/facebook-lead-ads-subscribed-apps-api-openapi.yml
+- filename: facebook-lead-ads-subscriptions-api-openapi.yml
+  format: yaml
+  label: Facebook Lead Ads Subscriptions API
+  slug: facebook-lead-ads-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/openapi/facebook-lead-ads-subscriptions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

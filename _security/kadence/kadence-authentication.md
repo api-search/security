@@ -1,12 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: kadence-public-api-openapi.yml
+- filename: kadence-bookable-day-api-openapi.yml
   format: yaml
-  label: Kadence Public API
-  slug: kadence-public-api
+  label: Kadence Bookable Day API
+  slug: kadence-bookable-day-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-public-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-bookable-day-api-openapi.yml
+- filename: kadence-bookable-onsite-pass-api-openapi.yml
+  format: yaml
+  label: Kadence Bookable Onsite Pass API
+  slug: kadence-bookable-onsite-pass-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-bookable-onsite-pass-api-openapi.yml
+- filename: kadence-bookable-space-api-openapi.yml
+  format: yaml
+  label: Kadence Bookable Space API
+  slug: kadence-bookable-space-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-bookable-space-api-openapi.yml
+- filename: kadence-booking-api-openapi.yml
+  format: yaml
+  label: Kadence Booking API
+  slug: kadence-booking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-booking-api-openapi.yml
+- filename: kadence-building-api-openapi.yml
+  format: yaml
+  label: Kadence Building API
+  slug: kadence-building-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-building-api-openapi.yml
+- filename: kadence-floor-api-openapi.yml
+  format: yaml
+  label: Kadence Floor API
+  slug: kadence-floor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-floor-api-openapi.yml
+- filename: kadence-neighborhood-api-openapi.yml
+  format: yaml
+  label: Kadence Neighborhood API
+  slug: kadence-neighborhood-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-neighborhood-api-openapi.yml
+- filename: kadence-space-api-openapi.yml
+  format: yaml
+  label: Kadence Space API
+  slug: kadence-space-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-space-api-openapi.yml
+- filename: kadence-user-api-openapi.yml
+  format: yaml
+  label: Kadence User API
+  slug: kadence-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-user-api-openapi.yml
+- filename: kadence-visit-api-openapi.yml
+  format: yaml
+  label: Kadence Visit API
+  slug: kadence-visit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-visit-api-openapi.yml
+- filename: kadence-visitor-api-openapi.yml
+  format: yaml
+  label: Kadence Visitor API
+  slug: kadence-visitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-visitor-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

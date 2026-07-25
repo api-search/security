@@ -1,42 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: enrich-so-openapi.yml
+- filename: enrich-so-account-api-openapi.yml
   format: yaml
-  label: Enrich Person Enrichment API
-  slug: enrich-so-person-enrichment-api
+  label: Enrich Account API
+  slug: enrich-so-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-openapi.yml
-- filename: enrich-so-openapi.yml
-  format: yaml
-  label: Enrich Email Finder API
-  slug: enrich-so-email-finder-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-openapi.yml
-- filename: enrich-so-openapi.yml
-  format: yaml
-  label: Enrich Email Verification API
-  slug: enrich-so-email-verification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-openapi.yml
-- filename: enrich-so-openapi.yml
-  format: yaml
-  label: Enrich Phone Finder API
-  slug: enrich-so-phone-finder-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-openapi.yml
-- filename: enrich-so-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-account-api-openapi.yml
+- filename: enrich-so-company-intelligence-api-openapi.yml
   format: yaml
   label: Enrich Company Intelligence API
   slug: enrich-so-company-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-openapi.yml
-- filename: enrich-so-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-company-intelligence-api-openapi.yml
+- filename: enrich-so-email-finder-api-openapi.yml
+  format: yaml
+  label: Enrich Email Finder API
+  slug: enrich-so-email-finder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-email-finder-api-openapi.yml
+- filename: enrich-so-email-verification-api-openapi.yml
+  format: yaml
+  label: Enrich Email Verification API
+  slug: enrich-so-email-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-email-verification-api-openapi.yml
+- filename: enrich-so-lead-finder-api-openapi.yml
   format: yaml
   label: Enrich Lead Finder API
   slug: enrich-so-lead-finder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-lead-finder-api-openapi.yml
+- filename: enrich-so-person-enrichment-api-openapi.yml
+  format: yaml
+  label: Enrich Person Enrichment API
+  slug: enrich-so-person-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-person-enrichment-api-openapi.yml
+- filename: enrich-so-phone-finder-api-openapi.yml
+  format: yaml
+  label: Enrich Phone Finder API
+  slug: enrich-so-phone-finder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-phone-finder-api-openapi.yml
 auth_types:
 - apiKey
 - http

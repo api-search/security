@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: the-token-company-openapi.yml
+- filename: the-token-company-compression-api-openapi.yml
   format: yaml
   label: The Token Company Compression API
   slug: the-token-company-compression-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/openapi/the-token-company-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/openapi/the-token-company-compression-api-openapi.yml
+- filename: the-token-company-search-api-openapi.yml
+  format: yaml
+  label: The Token Company Search API
+  slug: the-token-company-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/openapi/the-token-company-search-api-openapi.yml
 auth_types:
 - http
 description: ''

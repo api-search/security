@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: inception-labs-openapi-original.json
-  format: json
-  label: Inception API
-  slug: inception-labs-api
+- filename: inception-labs-chat-api-openapi.yml
+  format: yaml
+  label: Inception Labs Chat API
+  slug: inception-labs-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inception-labs/refs/heads/main/openapi/inception-labs-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/inception-labs/refs/heads/main/openapi/inception-labs-chat-api-openapi.yml
+- filename: inception-labs-edit-api-openapi.yml
+  format: yaml
+  label: Inception Labs Edit API
+  slug: inception-labs-edit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inception-labs/refs/heads/main/openapi/inception-labs-edit-api-openapi.yml
+- filename: inception-labs-fim-api-openapi.yml
+  format: yaml
+  label: Inception Labs FIM API
+  slug: inception-labs-fim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inception-labs/refs/heads/main/openapi/inception-labs-fim-api-openapi.yml
+- filename: inception-labs-models-api-openapi.yml
+  format: yaml
+  label: Inception Labs Models API
+  slug: inception-labs-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inception-labs/refs/heads/main/openapi/inception-labs-models-api-openapi.yml
 description: ''
 domains:
 - caa:

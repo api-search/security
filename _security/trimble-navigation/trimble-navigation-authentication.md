@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: trimble-mobile-manager-openapi.yml
+- filename: trimble-navigation-catalyst-api-openapi.yml
   format: yaml
-  label: Trimble Mobile Manager API
-  slug: trimble-mobile-manager
+  label: Trimble Navigation Catalyst API
+  slug: trimble-navigation-catalyst-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble-navigation/refs/heads/main/openapi/trimble-mobile-manager-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trimble-navigation/refs/heads/main/openapi/trimble-navigation-catalyst-api-openapi.yml
+- filename: trimble-navigation-corrections-api-openapi.yml
+  format: yaml
+  label: Trimble Navigation Corrections API
+  slug: trimble-navigation-corrections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trimble-navigation/refs/heads/main/openapi/trimble-navigation-corrections-api-openapi.yml
+- filename: trimble-navigation-positioning-api-openapi.yml
+  format: yaml
+  label: Trimble Navigation Positioning API
+  slug: trimble-navigation-positioning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trimble-navigation/refs/heads/main/openapi/trimble-navigation-positioning-api-openapi.yml
+- filename: trimble-navigation-receiver-api-openapi.yml
+  format: yaml
+  label: Trimble Navigation Receiver API
+  slug: trimble-navigation-receiver-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trimble-navigation/refs/heads/main/openapi/trimble-navigation-receiver-api-openapi.yml
+- filename: trimble-navigation-system-api-openapi.yml
+  format: yaml
+  label: Trimble Navigation System API
+  slug: trimble-navigation-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trimble-navigation/refs/heads/main/openapi/trimble-navigation-system-api-openapi.yml
 auth_types:
 - http
 description: ''

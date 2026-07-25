@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: mycase-open-api-openapi.yml
+- filename: mycase-case-stages-api-openapi.yml
   format: yaml
-  label: MyCase Open API
-  slug: open-api
+  label: MyCase Case Stages API
+  slug: mycase-case-stages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/openapi/mycase-open-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/openapi/mycase-case-stages-api-openapi.yml
+- filename: mycase-cases-api-openapi.yml
+  format: yaml
+  label: MyCase Cases API
+  slug: mycase-cases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/openapi/mycase-cases-api-openapi.yml
+- filename: mycase-companies-api-openapi.yml
+  format: yaml
+  label: MyCase Companies API
+  slug: mycase-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/openapi/mycase-companies-api-openapi.yml
+- filename: mycase-contacts-api-openapi.yml
+  format: yaml
+  label: MyCase Contacts API
+  slug: mycase-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/openapi/mycase-contacts-api-openapi.yml
+- filename: mycase-documents-api-openapi.yml
+  format: yaml
+  label: MyCase Documents API
+  slug: mycase-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/openapi/mycase-documents-api-openapi.yml
+- filename: mycase-events-api-openapi.yml
+  format: yaml
+  label: MyCase Events API
+  slug: mycase-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/openapi/mycase-events-api-openapi.yml
+- filename: mycase-firm-api-openapi.yml
+  format: yaml
+  label: MyCase Firm API
+  slug: mycase-firm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/openapi/mycase-firm-api-openapi.yml
 description: ''
 domains:
 - caa:

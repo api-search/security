@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: hakuna-openapi.yml
+- filename: hakuna-absences-api-openapi.yml
   format: yaml
-  label: hakuna Time Tracking API
-  slug: hakuna-time-tracking-api
+  label: Hakuna Absences API
+  slug: hakuna-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-absences-api-openapi.yml
+- filename: hakuna-company-api-openapi.yml
+  format: yaml
+  label: Hakuna Company API
+  slug: hakuna-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-company-api-openapi.yml
+- filename: hakuna-management-api-openapi.yml
+  format: yaml
+  label: Hakuna Management API
+  slug: hakuna-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-management-api-openapi.yml
+- filename: hakuna-organization-api-openapi.yml
+  format: yaml
+  label: Hakuna Organization API
+  slug: hakuna-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-organization-api-openapi.yml
+- filename: hakuna-overview-api-openapi.yml
+  format: yaml
+  label: Hakuna Overview API
+  slug: hakuna-overview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-overview-api-openapi.yml
+- filename: hakuna-projects-api-openapi.yml
+  format: yaml
+  label: Hakuna Projects API
+  slug: hakuna-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-projects-api-openapi.yml
+- filename: hakuna-tasks-api-openapi.yml
+  format: yaml
+  label: Hakuna Tasks API
+  slug: hakuna-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-tasks-api-openapi.yml
+- filename: hakuna-time-entries-api-openapi.yml
+  format: yaml
+  label: Hakuna Time Entries API
+  slug: hakuna-time-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-time-entries-api-openapi.yml
+- filename: hakuna-timer-api-openapi.yml
+  format: yaml
+  label: Hakuna Timer API
+  slug: hakuna-timer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-timer-api-openapi.yml
+- filename: hakuna-users-api-openapi.yml
+  format: yaml
+  label: Hakuna Users API
+  slug: hakuna-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

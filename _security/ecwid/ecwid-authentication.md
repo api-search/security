@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ecwid-openapi.yml
+- filename: ecwid-categories-api-openapi.yml
   format: yaml
-  label: Ecwid REST API
-  slug: rest-api
+  label: Ecwid by Lightspeed Categories API
+  slug: ecwid-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/openapi/ecwid-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/openapi/ecwid-categories-api-openapi.yml
+- filename: ecwid-customers-api-openapi.yml
+  format: yaml
+  label: Ecwid by Lightspeed Customers API
+  slug: ecwid-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/openapi/ecwid-customers-api-openapi.yml
+- filename: ecwid-discount-coupons-api-openapi.yml
+  format: yaml
+  label: Ecwid by Lightspeed Discount Coupons API
+  slug: ecwid-discount-coupons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/openapi/ecwid-discount-coupons-api-openapi.yml
+- filename: ecwid-orders-api-openapi.yml
+  format: yaml
+  label: Ecwid by Lightspeed Orders API
+  slug: ecwid-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/openapi/ecwid-orders-api-openapi.yml
+- filename: ecwid-products-api-openapi.yml
+  format: yaml
+  label: Ecwid by Lightspeed Products API
+  slug: ecwid-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/openapi/ecwid-products-api-openapi.yml
+- filename: ecwid-profile-api-openapi.yml
+  format: yaml
+  label: Ecwid by Lightspeed Profile API
+  slug: ecwid-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/openapi/ecwid-profile-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: amazon-fargate-openapi.yml
+- filename: amazon-fargate-account-settings-api-openapi.yml
   format: yaml
-  label: Amazon Fargate API
-  slug: amazon-fargate-api
+  label: Amazon Fargate Account Settings API
+  slug: amazon-fargate-account-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-account-settings-api-openapi.yml
+- filename: amazon-fargate-clusters-api-openapi.yml
+  format: yaml
+  label: Amazon Fargate Clusters API
+  slug: amazon-fargate-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-clusters-api-openapi.yml
+- filename: amazon-fargate-services-api-openapi.yml
+  format: yaml
+  label: Amazon Fargate Services API
+  slug: amazon-fargate-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-services-api-openapi.yml
+- filename: amazon-fargate-tagging-api-openapi.yml
+  format: yaml
+  label: Amazon Fargate Tagging API
+  slug: amazon-fargate-tagging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-tagging-api-openapi.yml
+- filename: amazon-fargate-task-definitions-api-openapi.yml
+  format: yaml
+  label: Amazon Fargate Task Definitions API
+  slug: amazon-fargate-task-definitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-task-definitions-api-openapi.yml
+- filename: amazon-fargate-tasks-api-openapi.yml
+  format: yaml
+  label: Amazon Fargate Tasks API
+  slug: amazon-fargate-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []

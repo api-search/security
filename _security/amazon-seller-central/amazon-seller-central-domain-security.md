@@ -1,11 +1,77 @@
 ---
 api_specs:
-- filename: amazon-seller-central-openapi.yml
+- filename: amazon-seller-central-authentication-api-openapi.yml
   format: yaml
-  label: Amazon Selling Partner API (SP-API)
-  slug: sp-api
+  label: Amazon Selling Partner API Authentication API
+  slug: amazon-seller-central-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-authentication-api-openapi.yml
+- filename: amazon-seller-central-catalog-api-openapi.yml
+  format: yaml
+  label: Amazon Selling Partner API Catalog API
+  slug: amazon-seller-central-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-catalog-api-openapi.yml
+- filename: amazon-seller-central-feeds-api-openapi.yml
+  format: yaml
+  label: Amazon Selling Partner API Feeds API
+  slug: amazon-seller-central-feeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-feeds-api-openapi.yml
+- filename: amazon-seller-central-finances-api-openapi.yml
+  format: yaml
+  label: Amazon Selling Partner API Finances API
+  slug: amazon-seller-central-finances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-finances-api-openapi.yml
+- filename: amazon-seller-central-inventory-api-openapi.yml
+  format: yaml
+  label: Amazon Selling Partner API Inventory API
+  slug: amazon-seller-central-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-inventory-api-openapi.yml
+- filename: amazon-seller-central-listings-api-openapi.yml
+  format: yaml
+  label: Amazon Selling Partner API Listings API
+  slug: amazon-seller-central-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-listings-api-openapi.yml
+- filename: amazon-seller-central-notifications-api-openapi.yml
+  format: yaml
+  label: Amazon Selling Partner API Notifications API
+  slug: amazon-seller-central-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-notifications-api-openapi.yml
+- filename: amazon-seller-central-orders-api-openapi.yml
+  format: yaml
+  label: Amazon Selling Partner API Orders API
+  slug: amazon-seller-central-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-orders-api-openapi.yml
+- filename: amazon-seller-central-pricing-api-openapi.yml
+  format: yaml
+  label: Amazon Selling Partner API Pricing API
+  slug: amazon-seller-central-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-pricing-api-openapi.yml
+- filename: amazon-seller-central-reports-api-openapi.yml
+  format: yaml
+  label: Amazon Selling Partner API Reports API
+  slug: amazon-seller-central-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-reports-api-openapi.yml
+- filename: amazon-seller-central-shipping-api-openapi.yml
+  format: yaml
+  label: Amazon Selling Partner API Shipping API
+  slug: amazon-seller-central-shipping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-shipping-api-openapi.yml
+- filename: amazon-seller-central-tokens-api-openapi.yml
+  format: yaml
+  label: Amazon Selling Partner API Tokens API
+  slug: amazon-seller-central-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-tokens-api-openapi.yml
 description: ''
 domains:
 - caa: []

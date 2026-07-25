@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: interos-openapi.json
-  format: json
-  label: Interos API
-  slug: interos-api
+- filename: interos-groups-api-openapi.yml
+  format: yaml
+  label: Interos Groups API
+  slug: interos-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/openapi/interos-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/openapi/interos-groups-api-openapi.yml
+- filename: interos-health-api-openapi.yml
+  format: yaml
+  label: Interos health API
+  slug: interos-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/openapi/interos-health-api-openapi.yml
+- filename: interos-organizations-api-openapi.yml
+  format: yaml
+  label: Interos Organizations API
+  slug: interos-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/openapi/interos-organizations-api-openapi.yml
+- filename: interos-relationships-api-openapi.yml
+  format: yaml
+  label: Interos Relationships API
+  slug: interos-relationships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/openapi/interos-relationships-api-openapi.yml
+- filename: interos-watchtower-api-openapi.yml
+  format: yaml
+  label: Interos Watchtower API
+  slug: interos-watchtower-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/openapi/interos-watchtower-api-openapi.yml
 description: ''
 domains:
 - caa: []

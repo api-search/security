@@ -3,42 +3,72 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: applovin-max-revenue-reporting.yaml
+- filename: applovin-ad-units-api-openapi.yml
   format: yaml
-  label: AppLovin MAX Revenue Reporting API
-  slug: applovin-max-revenue-reporting
+  label: AppLovin Ad Units API
+  slug: applovin-ad-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-max-revenue-reporting.yaml
-- filename: applovin-max-ad-unit-management.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-ad-units-api-openapi.yml
+- filename: applovin-asset-reporting-api-openapi.yml
   format: yaml
-  label: AppLovin MAX Ad Unit Management API
-  slug: applovin-max-ad-unit-management
+  label: AppLovin Asset Reporting API
+  slug: applovin-asset-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-max-ad-unit-management.yaml
-- filename: applovin-growth-reporting.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-asset-reporting-api-openapi.yml
+- filename: applovin-assets-api-openapi.yml
   format: yaml
-  label: AppLovin Growth (Axon / AppDiscovery) Reporting API
-  slug: applovin-growth-reporting
+  label: AppLovin Assets API
+  slug: applovin-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-growth-reporting.yaml
-- filename: applovin-growth-asset-reporting.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-assets-api-openapi.yml
+- filename: applovin-campaigns-api-openapi.yml
   format: yaml
-  label: AppLovin Growth Asset Reporting API
-  slug: applovin-growth-asset-reporting
+  label: AppLovin Campaigns API
+  slug: applovin-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-growth-asset-reporting.yaml
-- filename: applovin-axon-campaign-management.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-campaigns-api-openapi.yml
+- filename: applovin-conversion-events-api-openapi.yml
   format: yaml
-  label: AppLovin Axon Campaign Management API
-  slug: applovin-axon-campaign-management
+  label: AppLovin Conversion Events API
+  slug: applovin-conversion-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-axon-campaign-management.yaml
-- filename: applovin-conversion-api-lead-gen.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-conversion-events-api-openapi.yml
+- filename: applovin-creative-sets-api-openapi.yml
   format: yaml
-  label: AppLovin Conversion API for Lead Generation
-  slug: applovin-conversion-api-lead-gen
+  label: AppLovin Creative Sets API
+  slug: applovin-creative-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-conversion-api-lead-gen.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-creative-sets-api-openapi.yml
+- filename: applovin-experiments-api-openapi.yml
+  format: yaml
+  label: AppLovin Experiments API
+  slug: applovin-experiments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-experiments-api-openapi.yml
+- filename: applovin-growth-reporting-api-openapi.yml
+  format: yaml
+  label: AppLovin Growth Reporting API
+  slug: applovin-growth-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-growth-reporting-api-openapi.yml
+- filename: applovin-revenue-reporting-api-openapi.yml
+  format: yaml
+  label: AppLovin Revenue Reporting API
+  slug: applovin-revenue-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-revenue-reporting-api-openapi.yml
+- filename: applovin-test-devices-api-openapi.yml
+  format: yaml
+  label: AppLovin Test Devices API
+  slug: applovin-test-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-test-devices-api-openapi.yml
+- filename: applovin-waterfalls-api-openapi.yml
+  format: yaml
+  label: AppLovin Waterfalls API
+  slug: applovin-waterfalls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-waterfalls-api-openapi.yml
 auth_types:
 - apiKey
 - http

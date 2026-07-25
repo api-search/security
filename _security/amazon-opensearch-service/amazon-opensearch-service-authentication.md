@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: Welcome.html
+- filename: amazon-opensearch-service-domains-api-openapi.yml
   format: yaml
-  label: Amazon OpenSearch Service API
-  slug: amazon-opensearch-service-api
+  label: Amazon OpenSearch Service Domains API
+  slug: amazon-opensearch-service-domains-api
   spec_type: OpenAPI
-  url: https://docs.aws.amazon.com/opensearch-service/latest/APIReference/Welcome.html
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch-service/refs/heads/main/openapi/amazon-opensearch-service-domains-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

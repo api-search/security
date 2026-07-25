@@ -2,66 +2,78 @@
 api_key_in:
 - header
 api_specs:
-- filename: sparkpost-transmissions-openapi.yml
+- filename: sparkpost-dkim-keys-api-openapi.yml
   format: yaml
-  label: SparkPost Transmissions API
-  slug: transmissions
+  label: SparkPost DKIM Keys API
+  slug: sparkpost-dkim-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-transmissions-openapi.yml
-- filename: sparkpost-templates-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-dkim-keys-api-openapi.yml
+- filename: sparkpost-events-api-openapi.yml
   format: yaml
-  label: SparkPost Templates API
-  slug: templates
+  label: SparkPost Events API
+  slug: sparkpost-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-templates-openapi.yml
-- filename: sparkpost-metrics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-events-api-openapi.yml
+- filename: sparkpost-inbound-domains-api-openapi.yml
+  format: yaml
+  label: SparkPost Inbound Domains API
+  slug: sparkpost-inbound-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-inbound-domains-api-openapi.yml
+- filename: sparkpost-metrics-api-openapi.yml
   format: yaml
   label: SparkPost Metrics API
-  slug: metrics
+  slug: sparkpost-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-metrics-openapi.yml
-- filename: sparkpost-events-openapi.yml
-  format: yaml
-  label: SparkPost Message Events API
-  slug: events
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-events-openapi.yml
-- filename: sparkpost-webhooks-openapi.yml
-  format: yaml
-  label: SparkPost Webhooks API
-  slug: webhooks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-webhooks-openapi.yml
-- filename: sparkpost-suppression-list-openapi.yml
-  format: yaml
-  label: SparkPost Suppression List API
-  slug: suppression-list
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-suppression-list-openapi.yml
-- filename: sparkpost-recipient-lists-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-metrics-api-openapi.yml
+- filename: sparkpost-recipient-lists-api-openapi.yml
   format: yaml
   label: SparkPost Recipient Lists API
-  slug: recipient-lists
+  slug: sparkpost-recipient-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-recipient-lists-openapi.yml
-- filename: sparkpost-sending-domains-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-recipient-lists-api-openapi.yml
+- filename: sparkpost-relay-webhooks-api-openapi.yml
+  format: yaml
+  label: SparkPost Relay Webhooks API
+  slug: sparkpost-relay-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-relay-webhooks-api-openapi.yml
+- filename: sparkpost-sending-domains-api-openapi.yml
   format: yaml
   label: SparkPost Sending Domains API
-  slug: sending-domains
+  slug: sparkpost-sending-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-sending-domains-openapi.yml
-- filename: sparkpost-subaccounts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-sending-domains-api-openapi.yml
+- filename: sparkpost-subaccounts-api-openapi.yml
   format: yaml
   label: SparkPost Subaccounts API
-  slug: subaccounts
+  slug: sparkpost-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-subaccounts-openapi.yml
-- filename: sparkpost-inbound-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-subaccounts-api-openapi.yml
+- filename: sparkpost-suppression-list-api-openapi.yml
   format: yaml
-  label: SparkPost Inbound Domains & Relay Webhooks API
-  slug: inbound
+  label: SparkPost Suppression List API
+  slug: sparkpost-suppression-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-inbound-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-suppression-list-api-openapi.yml
+- filename: sparkpost-templates-api-openapi.yml
+  format: yaml
+  label: SparkPost Templates API
+  slug: sparkpost-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-templates-api-openapi.yml
+- filename: sparkpost-transmissions-api-openapi.yml
+  format: yaml
+  label: SparkPost Transmissions API
+  slug: sparkpost-transmissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-transmissions-api-openapi.yml
+- filename: sparkpost-webhooks-api-openapi.yml
+  format: yaml
+  label: SparkPost Webhooks API
+  slug: sparkpost-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

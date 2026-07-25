@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: azure-management-openapi.yaml
+- filename: azure-resource-groups-api-openapi.yml
   format: yaml
-  label: Azure Compute API
-  slug: azure-compute-api
+  label: Microsoft Azure Resource Groups API
+  slug: azure-resource-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure/refs/heads/main/openapi/azure-management-openapi.yaml
-- filename: azure-management-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/azure/refs/heads/main/openapi/azure-resource-groups-api-openapi.yml
+- filename: azure-resources-api-openapi.yml
   format: yaml
-  label: Azure Storage API
-  slug: azure-storage-api
+  label: Microsoft Azure Resources API
+  slug: azure-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure/refs/heads/main/openapi/azure-management-openapi.yaml
-- filename: azure-management-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/azure/refs/heads/main/openapi/azure-resources-api-openapi.yml
+- filename: azure-subscriptions-api-openapi.yml
   format: yaml
-  label: Azure Cognitive Services API
-  slug: azure-cognitive-services-api
+  label: Microsoft Azure Subscriptions API
+  slug: azure-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure/refs/heads/main/openapi/azure-management-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/azure/refs/heads/main/openapi/azure-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa:

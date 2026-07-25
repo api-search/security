@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: national-institutes-of-health-openapi.yml
+- filename: national-institutes-of-health-projects-api-openapi.yml
   format: yaml
-  label: NIH RePORTER API
-  slug: reporter-api
+  label: National Institutes of Health Projects API
+  slug: national-institutes-of-health-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/main/openapi/national-institutes-of-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/refs/heads/main/openapi/national-institutes-of-health-projects-api-openapi.yml
+- filename: national-institutes-of-health-publications-api-openapi.yml
+  format: yaml
+  label: National Institutes of Health Publications API
+  slug: national-institutes-of-health-publications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/refs/heads/main/openapi/national-institutes-of-health-publications-api-openapi.yml
 description: ''
 domains:
 - caa:

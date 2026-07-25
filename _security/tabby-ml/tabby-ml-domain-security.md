@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: tabby-ml-openapi.yml
+- filename: tabby-ml-chat-api-openapi.yml
   format: yaml
-  label: Tabby Code Completions API
-  slug: tabby-ml-code-completions-api
+  label: Tabby Chat API
+  slug: tabby-ml-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby-ml/refs/heads/main/openapi/tabby-ml-openapi.yml
-- filename: tabby-ml-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tabby-ml/refs/heads/main/openapi/tabby-ml-chat-api-openapi.yml
+- filename: tabby-ml-completions-api-openapi.yml
   format: yaml
-  label: Tabby Chat Completions API
-  slug: tabby-ml-chat-completions-api
+  label: Tabby Completions API
+  slug: tabby-ml-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby-ml/refs/heads/main/openapi/tabby-ml-openapi.yml
-- filename: tabby-ml-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tabby-ml/refs/heads/main/openapi/tabby-ml-completions-api-openapi.yml
+- filename: tabby-ml-events-api-openapi.yml
   format: yaml
-  label: Tabby Doc Ingestion API
-  slug: tabby-ml-answer-engine-ingestion-api
+  label: Tabby Events API
+  slug: tabby-ml-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby-ml/refs/heads/main/openapi/tabby-ml-openapi.yml
-- filename: tabby-ml-openapi.yml
-  format: yaml
-  label: Tabby Models API
-  slug: tabby-ml-models-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby-ml/refs/heads/main/openapi/tabby-ml-openapi.yml
-- filename: tabby-ml-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tabby-ml/refs/heads/main/openapi/tabby-ml-events-api-openapi.yml
+- filename: tabby-ml-health-api-openapi.yml
   format: yaml
   label: Tabby Health API
   slug: tabby-ml-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby-ml/refs/heads/main/openapi/tabby-ml-openapi.yml
-- filename: tabby-ml-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tabby-ml/refs/heads/main/openapi/tabby-ml-health-api-openapi.yml
+- filename: tabby-ml-ingestion-api-openapi.yml
   format: yaml
-  label: Tabby Events API
-  slug: tabby-ml-events-telemetry-api
+  label: Tabby Ingestion API
+  slug: tabby-ml-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby-ml/refs/heads/main/openapi/tabby-ml-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tabby-ml/refs/heads/main/openapi/tabby-ml-ingestion-api-openapi.yml
+- filename: tabby-ml-models-api-openapi.yml
+  format: yaml
+  label: Tabby Models API
+  slug: tabby-ml-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabby-ml/refs/heads/main/openapi/tabby-ml-models-api-openapi.yml
 description: ''
 domains:
 - caa: []

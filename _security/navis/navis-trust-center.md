@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: navis-n4-openapi.yml
+- filename: navis-gate-api-openapi.yml
   format: yaml
-  label: NAVIS N4 Terminal Operating System API
-  slug: n4
+  label: Navis (Kaleris) Gate API
+  slug: navis-gate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/openapi/navis-n4-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/openapi/navis-gate-api-openapi.yml
+- filename: navis-holds-api-openapi.yml
+  format: yaml
+  label: Navis (Kaleris) Holds API
+  slug: navis-holds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/openapi/navis-holds-api-openapi.yml
+- filename: navis-operations-api-openapi.yml
+  format: yaml
+  label: Navis (Kaleris) Operations API
+  slug: navis-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/openapi/navis-operations-api-openapi.yml
+- filename: navis-units-api-openapi.yml
+  format: yaml
+  label: Navis (Kaleris) Units API
+  slug: navis-units-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/openapi/navis-units-api-openapi.yml
+- filename: navis-vessel-visits-api-openapi.yml
+  format: yaml
+  label: Navis (Kaleris) Vessel Visits API
+  slug: navis-vessel-visits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/openapi/navis-vessel-visits-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

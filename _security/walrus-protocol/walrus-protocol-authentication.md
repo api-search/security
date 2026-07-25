@@ -1,18 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: walrus-protocol-aggregator-openapi.json
-  format: json
-  label: Walrus Aggregator API
-  slug: walrus-aggregator-api
+- filename: walrus-protocol-routes-api-openapi.yml
+  format: yaml
+  label: Walrus Protocol routes API
+  slug: walrus-protocol-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/openapi/walrus-protocol-aggregator-openapi.json
-- filename: walrus-protocol-publisher-openapi.json
-  format: json
-  label: Walrus Publisher API
-  slug: walrus-publisher-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/openapi/walrus-protocol-publisher-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/openapi/walrus-protocol-routes-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

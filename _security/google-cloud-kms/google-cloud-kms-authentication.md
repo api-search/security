@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-kms-crypto-keys-api-openapi.yml
   format: yaml
-  label: Google Cloud KMS API
-  slug: google-cloud-kms-api
+  label: Google Cloud KMS Crypto Keys API
+  slug: google-cloud-kms-crypto-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/openapi/google-cloud-kms-crypto-keys-api-openapi.yml
+- filename: google-cloud-kms-crypto-operations-api-openapi.yml
+  format: yaml
+  label: Google Cloud KMS Crypto Operations API
+  slug: google-cloud-kms-crypto-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/openapi/google-cloud-kms-crypto-operations-api-openapi.yml
+- filename: google-cloud-kms-key-rings-api-openapi.yml
+  format: yaml
+  label: Google Cloud KMS Key Rings API
+  slug: google-cloud-kms-key-rings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/openapi/google-cloud-kms-key-rings-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

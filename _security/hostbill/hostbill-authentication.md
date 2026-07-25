@@ -2,12 +2,54 @@
 api_key_in:
 - query
 api_specs:
-- filename: hostbill-openapi.yml
+- filename: hostbill-accounts-api-openapi.yml
+  format: yaml
+  label: HostBill Accounts API
+  slug: hostbill-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hostbill/refs/heads/main/openapi/hostbill-accounts-api-openapi.yml
+- filename: hostbill-admin-api-openapi.yml
   format: yaml
   label: HostBill Admin API
   slug: hostbill-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostbill/refs/heads/main/openapi/hostbill-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hostbill/refs/heads/main/openapi/hostbill-admin-api-openapi.yml
+- filename: hostbill-clients-api-openapi.yml
+  format: yaml
+  label: HostBill Clients API
+  slug: hostbill-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hostbill/refs/heads/main/openapi/hostbill-clients-api-openapi.yml
+- filename: hostbill-domains-api-openapi.yml
+  format: yaml
+  label: HostBill Domains API
+  slug: hostbill-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hostbill/refs/heads/main/openapi/hostbill-domains-api-openapi.yml
+- filename: hostbill-invoices-api-openapi.yml
+  format: yaml
+  label: HostBill Invoices API
+  slug: hostbill-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hostbill/refs/heads/main/openapi/hostbill-invoices-api-openapi.yml
+- filename: hostbill-orders-api-openapi.yml
+  format: yaml
+  label: HostBill Orders API
+  slug: hostbill-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hostbill/refs/heads/main/openapi/hostbill-orders-api-openapi.yml
+- filename: hostbill-tickets-api-openapi.yml
+  format: yaml
+  label: HostBill Tickets API
+  slug: hostbill-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hostbill/refs/heads/main/openapi/hostbill-tickets-api-openapi.yml
+- filename: hostbill-transactions-api-openapi.yml
+  format: yaml
+  label: HostBill Transactions API
+  slug: hostbill-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hostbill/refs/heads/main/openapi/hostbill-transactions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

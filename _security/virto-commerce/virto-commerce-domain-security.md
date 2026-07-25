@@ -1,65 +1,65 @@
 ---
 api_specs:
-- filename: VirtoCommerce.Catalog
+- filename: virto-commerce-catalog-api-openapi.yml
   format: yaml
   label: Virto Commerce Catalog API
-  slug: catalog
+  slug: virto-commerce-catalog-api
   spec_type: OpenAPI
-  url: https://virtostart-demo-admin.govirto.com/docs/v3/VirtoCommerce.Catalog
-- filename: VirtoCommerce.Pricing
+  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-catalog-api-openapi.yml
+- filename: virto-commerce-companies-and-contacts-api-openapi.yml
   format: yaml
-  label: Virto Commerce Pricing API
-  slug: pricing
+  label: Virto Commerce Companies and Contacts API
+  slug: virto-commerce-companies-and-contacts-api
   spec_type: OpenAPI
-  url: https://virtostart-demo-admin.govirto.com/docs/v3/VirtoCommerce.Pricing
-- filename: VirtoCommerce.Inventory
+  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-companies-and-contacts-api-openapi.yml
+- filename: virto-commerce-inventory-api-openapi.yml
   format: yaml
   label: Virto Commerce Inventory API
-  slug: inventory
+  slug: virto-commerce-inventory-api
   spec_type: OpenAPI
-  url: https://virtostart-demo-admin.govirto.com/docs/v3/VirtoCommerce.Inventory
-- filename: VirtoCommerce.Orders
-  format: yaml
-  label: Virto Commerce Order Management API
-  slug: orders
-  spec_type: OpenAPI
-  url: https://virtostart-demo-admin.govirto.com/docs/v3/VirtoCommerce.Orders
-- filename: VirtoCommerce.Cart
-  format: yaml
-  label: Virto Commerce Shopping Cart API
-  slug: cart
-  spec_type: OpenAPI
-  url: https://virtostart-demo-admin.govirto.com/docs/v3/VirtoCommerce.Cart
-- filename: VirtoCommerce.Customer
-  format: yaml
-  label: Virto Commerce Customer API
-  slug: customer
-  spec_type: OpenAPI
-  url: https://virtostart-demo-admin.govirto.com/docs/v3/VirtoCommerce.Customer
-- filename: VirtoCommerce.Marketing
+  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-inventory-api-openapi.yml
+- filename: virto-commerce-marketing-api-openapi.yml
   format: yaml
   label: Virto Commerce Marketing API
-  slug: marketing
+  slug: virto-commerce-marketing-api
   spec_type: OpenAPI
-  url: https://virtostart-demo-admin.govirto.com/docs/v3/VirtoCommerce.Marketing
-- filename: VirtoCommerce.Quote
+  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-marketing-api-openapi.yml
+- filename: virto-commerce-order-management-api-openapi.yml
+  format: yaml
+  label: Virto Commerce Order Management API
+  slug: virto-commerce-order-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-order-management-api-openapi.yml
+- filename: virto-commerce-pricing-api-openapi.yml
+  format: yaml
+  label: Virto Commerce Pricing API
+  slug: virto-commerce-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-pricing-api-openapi.yml
+- filename: virto-commerce-quotes-api-openapi.yml
   format: yaml
   label: Virto Commerce Quotes API
-  slug: quotes
+  slug: virto-commerce-quotes-api
   spec_type: OpenAPI
-  url: https://virtostart-demo-admin.govirto.com/docs/v3/VirtoCommerce.Quote
-- filename: VirtoCommerce.Store
+  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-quotes-api-openapi.yml
+- filename: virto-commerce-shopping-cart-api-openapi.yml
+  format: yaml
+  label: Virto Commerce Shopping Cart API
+  slug: virto-commerce-shopping-cart-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-shopping-cart-api-openapi.yml
+- filename: virto-commerce-store-api-openapi.yml
   format: yaml
   label: Virto Commerce Store API
-  slug: store
+  slug: virto-commerce-store-api
   spec_type: OpenAPI
-  url: https://virtostart-demo-admin.govirto.com/docs/v3/VirtoCommerce.Store
-- filename: VirtoCommerce.Platform
+  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-store-api-openapi.yml
+- filename: virto-commerce-virtocommerce-platform-api-openapi.yml
   format: yaml
-  label: Virto Commerce Platform API
-  slug: platform
+  label: Virto Commerce VirtoCommerce Platform API
+  slug: virto-commerce-virtocommerce-platform-api
   spec_type: OpenAPI
-  url: https://virtostart-demo-admin.govirto.com/docs/v3/VirtoCommerce.Platform
+  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-virtocommerce-platform-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: signal-server-openapi.yml
+- filename: signal-accounts-api-openapi.yml
   format: yaml
-  label: Signal Server
-  slug: signal-server
+  label: Signal Accounts API
+  slug: signal-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-server-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-accounts-api-openapi.yml
+- filename: signal-attachments-api-openapi.yml
+  format: yaml
+  label: Signal Attachments API
+  slug: signal-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-attachments-api-openapi.yml
+- filename: signal-certificates-api-openapi.yml
+  format: yaml
+  label: Signal Certificates API
+  slug: signal-certificates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-certificates-api-openapi.yml
+- filename: signal-devices-api-openapi.yml
+  format: yaml
+  label: Signal Devices API
+  slug: signal-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-devices-api-openapi.yml
+- filename: signal-keys-api-openapi.yml
+  format: yaml
+  label: Signal Keys API
+  slug: signal-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-keys-api-openapi.yml
+- filename: signal-messages-api-openapi.yml
+  format: yaml
+  label: Signal Messages API
+  slug: signal-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-messages-api-openapi.yml
+- filename: signal-profiles-api-openapi.yml
+  format: yaml
+  label: Signal Profiles API
+  slug: signal-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-profiles-api-openapi.yml
+- filename: signal-registration-api-openapi.yml
+  format: yaml
+  label: Signal Registration API
+  slug: signal-registration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-registration-api-openapi.yml
+- filename: signal-stickers-api-openapi.yml
+  format: yaml
+  label: Signal Stickers API
+  slug: signal-stickers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-stickers-api-openapi.yml
 description: ''
 domains:
 - caa: []

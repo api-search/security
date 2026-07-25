@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: opsramp-openapi.yml
+- filename: opsramp-alerts-api-openapi.yml
   format: yaml
-  label: OpsRamp
-  slug: opsramp
+  label: OpsRamp Alerts API
+  slug: opsramp-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-alerts-api-openapi.yml
+- filename: opsramp-alerts-search-api-openapi.yml
+  format: yaml
+  label: OpsRamp Alerts Search API
+  slug: opsramp-alerts-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-alerts-search-api-openapi.yml
+- filename: opsramp-jobs-api-openapi.yml
+  format: yaml
+  label: OpsRamp Jobs API
+  slug: opsramp-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-jobs-api-openapi.yml
+- filename: opsramp-monitoring-api-openapi.yml
+  format: yaml
+  label: OpsRamp Monitoring API
+  slug: opsramp-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-monitoring-api-openapi.yml
+- filename: opsramp-resourcemonitors-api-openapi.yml
+  format: yaml
+  label: OpsRamp Resourcemonitors API
+  slug: opsramp-resourcemonitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-resourcemonitors-api-openapi.yml
+- filename: opsramp-resources-api-openapi.yml
+  format: yaml
+  label: OpsRamp Resources API
+  slug: opsramp-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-resources-api-openapi.yml
+- filename: opsramp-resources-search-api-openapi.yml
+  format: yaml
+  label: OpsRamp Resources Search API
+  slug: opsramp-resources-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-resources-search-api-openapi.yml
+- filename: opsramp-tenancy-api-openapi.yml
+  format: yaml
+  label: OpsRamp Tenancy API
+  slug: opsramp-tenancy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-tenancy-api-openapi.yml
+- filename: opsramp-ticketentity-api-openapi.yml
+  format: yaml
+  label: OpsRamp Ticketentity API
+  slug: opsramp-ticketentity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-ticketentity-api-openapi.yml
+- filename: opsramp-ticketentity-search-api-openapi.yml
+  format: yaml
+  label: OpsRamp Ticketentity Search API
+  slug: opsramp-ticketentity-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-ticketentity-search-api-openapi.yml
 description: ''
 domains:
 - caa:

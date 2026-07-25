@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: ryft-ingest-openapi.yml
+- filename: ryft-ingest-api-openapi.yml
   format: yaml
   label: Ryft Ingest API
   slug: ryft-ingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ryft/refs/heads/main/openapi/ryft-ingest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ryft/refs/heads/main/openapi/ryft-ingest-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

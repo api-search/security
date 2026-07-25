@@ -1,41 +1,47 @@
 ---
 api_specs:
-- filename: turvo-openapi.yml
-  format: yaml
-  label: Turvo Shipments API
-  slug: turvo-shipments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-openapi.yml
-- filename: turvo-openapi.yml
-  format: yaml
-  label: Turvo Orders API
-  slug: turvo-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-openapi.yml
-- filename: turvo-openapi.yml
-  format: yaml
-  label: Turvo Locations API
-  slug: turvo-locations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-openapi.yml
-- filename: turvo-openapi.yml
+- filename: turvo-accounts-api-openapi.yml
   format: yaml
   label: Turvo Accounts API
   slug: turvo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-openapi.yml
-- filename: turvo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-accounts-api-openapi.yml
+- filename: turvo-authentication-api-openapi.yml
+  format: yaml
+  label: Turvo Authentication API
+  slug: turvo-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-authentication-api-openapi.yml
+- filename: turvo-carriers-api-openapi.yml
   format: yaml
   label: Turvo Carriers API
   slug: turvo-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-openapi.yml
-- filename: turvo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-carriers-api-openapi.yml
+- filename: turvo-locations-api-openapi.yml
+  format: yaml
+  label: Turvo Locations API
+  slug: turvo-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-locations-api-openapi.yml
+- filename: turvo-orders-api-openapi.yml
+  format: yaml
+  label: Turvo Orders API
+  slug: turvo-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-orders-api-openapi.yml
+- filename: turvo-shipments-api-openapi.yml
+  format: yaml
+  label: Turvo Shipments API
+  slug: turvo-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-shipments-api-openapi.yml
+- filename: turvo-tracking-api-openapi.yml
   format: yaml
   label: Turvo Tracking API
   slug: turvo-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-tracking-api-openapi.yml
 description: ''
 domains:
 - caa:

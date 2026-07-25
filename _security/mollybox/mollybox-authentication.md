@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: mollybox-arcflow-openapi.json
-  format: json
-  label: Arcflow API
-  slug: arcflow-api
+- filename: mollybox-admin-api-openapi.yml
+  format: yaml
+  label: MollyBox Admin API
+  slug: mollybox-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mollybox/refs/heads/main/openapi/mollybox-arcflow-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/mollybox/refs/heads/main/openapi/mollybox-admin-api-openapi.yml
+- filename: mollybox-health-api-openapi.yml
+  format: yaml
+  label: MollyBox Health API
+  slug: mollybox-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mollybox/refs/heads/main/openapi/mollybox-health-api-openapi.yml
+- filename: mollybox-me-api-openapi.yml
+  format: yaml
+  label: MollyBox Me API
+  slug: mollybox-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mollybox/refs/heads/main/openapi/mollybox-me-api-openapi.yml
+- filename: mollybox-resources-api-openapi.yml
+  format: yaml
+  label: MollyBox Resources API
+  slug: mollybox-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mollybox/refs/heads/main/openapi/mollybox-resources-api-openapi.yml
 auth_types:
 - http
 description: ''

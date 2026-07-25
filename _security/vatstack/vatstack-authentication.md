@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi
+- filename: vatstack-batches-api-openapi.yml
   format: yaml
-  label: Vatstack API
-  slug: vatstack-api
+  label: Vatstack Batches API
+  slug: vatstack-batches-api
   spec_type: OpenAPI
-  url: https://github.com/vatstack/openapi
+  url: https://raw.githubusercontent.com/api-evangelist/vatstack/refs/heads/main/openapi/vatstack-batches-api-openapi.yml
+- filename: vatstack-evidences-api-openapi.yml
+  format: yaml
+  label: Vatstack Evidences API
+  slug: vatstack-evidences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vatstack/refs/heads/main/openapi/vatstack-evidences-api-openapi.yml
+- filename: vatstack-hits-api-openapi.yml
+  format: yaml
+  label: Vatstack Hits API
+  slug: vatstack-hits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vatstack/refs/heads/main/openapi/vatstack-hits-api-openapi.yml
+- filename: vatstack-quotes-api-openapi.yml
+  format: yaml
+  label: Vatstack Quotes API
+  slug: vatstack-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vatstack/refs/heads/main/openapi/vatstack-quotes-api-openapi.yml
+- filename: vatstack-rates-api-openapi.yml
+  format: yaml
+  label: Vatstack Rates API
+  slug: vatstack-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vatstack/refs/heads/main/openapi/vatstack-rates-api-openapi.yml
+- filename: vatstack-supplies-api-openapi.yml
+  format: yaml
+  label: Vatstack Supplies API
+  slug: vatstack-supplies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vatstack/refs/heads/main/openapi/vatstack-supplies-api-openapi.yml
+- filename: vatstack-validations-api-openapi.yml
+  format: yaml
+  label: Vatstack Validations API
+  slug: vatstack-validations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vatstack/refs/heads/main/openapi/vatstack-validations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

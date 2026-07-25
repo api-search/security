@@ -1,72 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: hathora-openapi.yml
+- filename: hathora-appsv2-api-openapi.yml
   format: yaml
-  label: Hathora Auth API
-  slug: hathora-auth-api
+  label: Hathora AppsV2 API
+  slug: hathora-appsv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-openapi.yml
-- filename: hathora-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-appsv2-api-openapi.yml
+- filename: hathora-authv1-api-openapi.yml
   format: yaml
-  label: Hathora Apps API
-  slug: hathora-apps-api
+  label: Hathora AuthV1 API
+  slug: hathora-authv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-openapi.yml
-- filename: hathora-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-authv1-api-openapi.yml
+- filename: hathora-billingv1-api-openapi.yml
   format: yaml
-  label: Hathora Builds API
-  slug: hathora-builds-api
+  label: Hathora BillingV1 API
+  slug: hathora-billingv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-openapi.yml
-- filename: hathora-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-billingv1-api-openapi.yml
+- filename: hathora-buildsv3-api-openapi.yml
   format: yaml
-  label: Hathora Deployments API
-  slug: hathora-deployments-api
+  label: Hathora BuildsV3 API
+  slug: hathora-buildsv3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-openapi.yml
-- filename: hathora-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-buildsv3-api-openapi.yml
+- filename: hathora-deploymentsv3-api-openapi.yml
   format: yaml
-  label: Hathora Processes API
-  slug: hathora-processes-api
+  label: Hathora DeploymentsV3 API
+  slug: hathora-deploymentsv3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-openapi.yml
-- filename: hathora-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-deploymentsv3-api-openapi.yml
+- filename: hathora-discoveryv2-api-openapi.yml
   format: yaml
-  label: Hathora Rooms API
-  slug: hathora-rooms-api
+  label: Hathora DiscoveryV2 API
+  slug: hathora-discoveryv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-openapi.yml
-- filename: hathora-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-discoveryv2-api-openapi.yml
+- filename: hathora-logsv1-api-openapi.yml
   format: yaml
-  label: Hathora Discovery API
-  slug: hathora-discovery-api
+  label: Hathora LogsV1 API
+  slug: hathora-logsv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-openapi.yml
-- filename: hathora-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-logsv1-api-openapi.yml
+- filename: hathora-metricsv1-api-openapi.yml
   format: yaml
-  label: Hathora Logs API
-  slug: hathora-logs-api
+  label: Hathora MetricsV1 API
+  slug: hathora-metricsv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-openapi.yml
-- filename: hathora-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-metricsv1-api-openapi.yml
+- filename: hathora-processesv3-api-openapi.yml
   format: yaml
-  label: Hathora Metrics API
-  slug: hathora-metrics-api
+  label: Hathora ProcessesV3 API
+  slug: hathora-processesv3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-openapi.yml
-- filename: hathora-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-processesv3-api-openapi.yml
+- filename: hathora-roomsv2-api-openapi.yml
   format: yaml
-  label: Hathora Billing API
-  slug: hathora-billing-api
+  label: Hathora RoomsV2 API
+  slug: hathora-roomsv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-openapi.yml
-- filename: hathora-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-roomsv2-api-openapi.yml
+- filename: hathora-tokensv1-api-openapi.yml
   format: yaml
-  label: Hathora Tokens API
-  slug: hathora-tokens-api
+  label: Hathora TokensV1 API
+  slug: hathora-tokensv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-tokensv1-api-openapi.yml
 auth_types:
 - http
 description: ''

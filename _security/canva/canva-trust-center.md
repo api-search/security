@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: canva-assets-api-openapi.yml
   format: yaml
-  label: Canva Connect API
-  slug: canva-connect-api
+  label: Canva Assets API
+  slug: canva-assets-api
   spec_type: OpenAPI
-  url: https://www.canva.com/developers/docs/connect-api/openapi/
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-assets-api-openapi.yml
+- filename: canva-autofills-api-openapi.yml
+  format: yaml
+  label: Canva Autofills API
+  slug: canva-autofills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-autofills-api-openapi.yml
+- filename: canva-brand-templates-api-openapi.yml
+  format: yaml
+  label: Canva Brand Templates API
+  slug: canva-brand-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-brand-templates-api-openapi.yml
+- filename: canva-comments-api-openapi.yml
+  format: yaml
+  label: Canva Comments API
+  slug: canva-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-comments-api-openapi.yml
+- filename: canva-designs-api-openapi.yml
+  format: yaml
+  label: Canva Designs API
+  slug: canva-designs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-designs-api-openapi.yml
+- filename: canva-exports-api-openapi.yml
+  format: yaml
+  label: Canva Exports API
+  slug: canva-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-exports-api-openapi.yml
+- filename: canva-folders-api-openapi.yml
+  format: yaml
+  label: Canva Folders API
+  slug: canva-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-folders-api-openapi.yml
+- filename: canva-resizes-api-openapi.yml
+  format: yaml
+  label: Canva Resizes API
+  slug: canva-resizes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-resizes-api-openapi.yml
+- filename: canva-users-api-openapi.yml
+  format: yaml
+  label: Canva Users API
+  slug: canva-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-users-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

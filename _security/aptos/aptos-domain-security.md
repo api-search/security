@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: spec.yaml
+- filename: aptos-accounts-api-openapi.yml
   format: yaml
-  label: Aptos Fullnode REST API
-  slug: fullnode-rest-api
+  label: Aptos Accounts API
+  slug: aptos-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/aptos-labs/aptos-core/main/api/doc/spec.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/openapi/aptos-accounts-api-openapi.yml
+- filename: aptos-blocks-api-openapi.yml
+  format: yaml
+  label: Aptos Blocks API
+  slug: aptos-blocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/openapi/aptos-blocks-api-openapi.yml
+- filename: aptos-events-api-openapi.yml
+  format: yaml
+  label: Aptos Events API
+  slug: aptos-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/openapi/aptos-events-api-openapi.yml
+- filename: aptos-general-api-openapi.yml
+  format: yaml
+  label: Aptos General API
+  slug: aptos-general-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/openapi/aptos-general-api-openapi.yml
+- filename: aptos-tables-api-openapi.yml
+  format: yaml
+  label: Aptos Tables API
+  slug: aptos-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/openapi/aptos-tables-api-openapi.yml
+- filename: aptos-transactions-api-openapi.yml
+  format: yaml
+  label: Aptos Transactions API
+  slug: aptos-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/openapi/aptos-transactions-api-openapi.yml
+- filename: aptos-view-api-openapi.yml
+  format: yaml
+  label: Aptos View API
+  slug: aptos-view-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/openapi/aptos-view-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,42 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: vonage-video-openapi.yml
+- filename: vonage-video-archives-api-openapi.yml
   format: yaml
-  label: Vonage Video Sessions API
-  slug: vonage-video-sessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-openapi.yml
-- filename: vonage-video-openapi.yml
-  format: yaml
-  label: Vonage Video Streams & Signaling API
-  slug: vonage-video-streams-signaling-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-openapi.yml
-- filename: vonage-video-openapi.yml
-  format: yaml
-  label: Vonage Video Archives API
+  label: Vonage Video API Archives API
   slug: vonage-video-archives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-openapi.yml
-- filename: vonage-video-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-archives-api-openapi.yml
+- filename: vonage-video-broadcasts-api-openapi.yml
   format: yaml
-  label: Vonage Video Broadcasts API
+  label: Vonage Video API Broadcasts API
   slug: vonage-video-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-openapi.yml
-- filename: vonage-video-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-broadcasts-api-openapi.yml
+- filename: vonage-video-captions-api-openapi.yml
   format: yaml
-  label: Vonage Video SIP & Render API
-  slug: vonage-video-sip-render-api
+  label: Vonage Video API Captions API
+  slug: vonage-video-captions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-openapi.yml
-- filename: vonage-video-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-captions-api-openapi.yml
+- filename: vonage-video-moderation-api-openapi.yml
   format: yaml
-  label: Vonage Video Webhooks API
-  slug: vonage-video-webhooks-api
+  label: Vonage Video API Moderation API
+  slug: vonage-video-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-moderation-api-openapi.yml
+- filename: vonage-video-render-api-openapi.yml
+  format: yaml
+  label: Vonage Video API Render API
+  slug: vonage-video-render-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-render-api-openapi.yml
+- filename: vonage-video-sessions-api-openapi.yml
+  format: yaml
+  label: Vonage Video API Sessions API
+  slug: vonage-video-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-sessions-api-openapi.yml
+- filename: vonage-video-signaling-api-openapi.yml
+  format: yaml
+  label: Vonage Video API Signaling API
+  slug: vonage-video-signaling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-signaling-api-openapi.yml
+- filename: vonage-video-sip-api-openapi.yml
+  format: yaml
+  label: Vonage Video API SIP API
+  slug: vonage-video-sip-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-sip-api-openapi.yml
+- filename: vonage-video-streams-api-openapi.yml
+  format: yaml
+  label: Vonage Video API Streams API
+  slug: vonage-video-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-streams-api-openapi.yml
 auth_types:
 - http
 description: ''

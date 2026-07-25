@@ -2,12 +2,24 @@
 api_key_in:
 - query
 api_specs:
-- filename: openapi.yml
+- filename: nasa-mars-manifests-api-openapi.yml
   format: yaml
-  label: NASA Mars Rover Photos API
-  slug: nasa-mars-rover-photos
+  label: NASA Mars Rovers Manifests API
+  slug: nasa-mars-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-mars/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nasa-mars/refs/heads/main/openapi/nasa-mars-manifests-api-openapi.yml
+- filename: nasa-mars-photos-api-openapi.yml
+  format: yaml
+  label: NASA Mars Rovers Photos API
+  slug: nasa-mars-photos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa-mars/refs/heads/main/openapi/nasa-mars-photos-api-openapi.yml
+- filename: nasa-mars-rovers-api-openapi.yml
+  format: yaml
+  label: NASA Mars Rovers Rovers API
+  slug: nasa-mars-rovers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa-mars/refs/heads/main/openapi/nasa-mars-rovers-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

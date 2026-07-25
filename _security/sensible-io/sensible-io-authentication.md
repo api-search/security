@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sensible-io-openapi.yml
+- filename: sensible-io-account-api-openapi.yml
   format: yaml
-  label: Sensible REST API
-  slug: rest
+  label: Sensible Account API
+  slug: sensible-io-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensible-io/refs/heads/main/openapi/sensible-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sensible-io/refs/heads/main/openapi/sensible-io-account-api-openapi.yml
+- filename: sensible-io-classify-api-openapi.yml
+  format: yaml
+  label: Sensible Classify API
+  slug: sensible-io-classify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sensible-io/refs/heads/main/openapi/sensible-io-classify-api-openapi.yml
+- filename: sensible-io-configs-api-openapi.yml
+  format: yaml
+  label: Sensible Configs API
+  slug: sensible-io-configs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sensible-io/refs/heads/main/openapi/sensible-io-configs-api-openapi.yml
+- filename: sensible-io-document-types-api-openapi.yml
+  format: yaml
+  label: Sensible Document Types API
+  slug: sensible-io-document-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sensible-io/refs/heads/main/openapi/sensible-io-document-types-api-openapi.yml
+- filename: sensible-io-documents-api-openapi.yml
+  format: yaml
+  label: Sensible Documents API
+  slug: sensible-io-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sensible-io/refs/heads/main/openapi/sensible-io-documents-api-openapi.yml
+- filename: sensible-io-extract-api-openapi.yml
+  format: yaml
+  label: Sensible Extract API
+  slug: sensible-io-extract-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sensible-io/refs/heads/main/openapi/sensible-io-extract-api-openapi.yml
+- filename: sensible-io-reference-documents-api-openapi.yml
+  format: yaml
+  label: Sensible Reference Documents API
+  slug: sensible-io-reference-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sensible-io/refs/heads/main/openapi/sensible-io-reference-documents-api-openapi.yml
+- filename: sensible-io-upload-api-openapi.yml
+  format: yaml
+  label: Sensible Upload API
+  slug: sensible-io-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sensible-io/refs/heads/main/openapi/sensible-io-upload-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: JamBase Data API
-  slug: jambase-data-api
+- filename: jambase-artists-api-openapi.yml
+  format: yaml
+  label: JamBase Artists API
+  slug: jambase-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/openapi/jambase-artists-api-openapi.yml
+- filename: jambase-events-api-openapi.yml
+  format: yaml
+  label: JamBase Events API
+  slug: jambase-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/openapi/jambase-events-api-openapi.yml
+- filename: jambase-genres-api-openapi.yml
+  format: yaml
+  label: JamBase Genres API
+  slug: jambase-genres-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/openapi/jambase-genres-api-openapi.yml
+- filename: jambase-geographies-api-openapi.yml
+  format: yaml
+  label: JamBase Geographies API
+  slug: jambase-geographies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/openapi/jambase-geographies-api-openapi.yml
+- filename: jambase-lookups-api-openapi.yml
+  format: yaml
+  label: JamBase Lookups API
+  slug: jambase-lookups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/openapi/jambase-lookups-api-openapi.yml
+- filename: jambase-streams-api-openapi.yml
+  format: yaml
+  label: JamBase Streams API
+  slug: jambase-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/openapi/jambase-streams-api-openapi.yml
+- filename: jambase-venues-api-openapi.yml
+  format: yaml
+  label: JamBase Venues API
+  slug: jambase-venues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/openapi/jambase-venues-api-openapi.yml
 auth_types:
 - http
 description: ''

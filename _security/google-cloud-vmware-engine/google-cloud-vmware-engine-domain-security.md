@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: vmwareengine-openapi.yml
+- filename: google-cloud-vmware-engine-clusters-api-openapi.yml
   format: yaml
-  label: Google Cloud VMware Engine API
-  slug: google-cloud-vmware-engine-api
+  label: Google Cloud VMware Engine Clusters API
+  slug: google-cloud-vmware-engine-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vmware-engine/refs/heads/main/openapi/vmwareengine-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vmware-engine/refs/heads/main/openapi/google-cloud-vmware-engine-clusters-api-openapi.yml
+- filename: google-cloud-vmware-engine-networkpolicies-api-openapi.yml
+  format: yaml
+  label: Google Cloud VMware Engine NetworkPolicies API
+  slug: google-cloud-vmware-engine-networkpolicies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vmware-engine/refs/heads/main/openapi/google-cloud-vmware-engine-networkpolicies-api-openapi.yml
+- filename: google-cloud-vmware-engine-privateclouds-api-openapi.yml
+  format: yaml
+  label: Google Cloud VMware Engine PrivateClouds API
+  slug: google-cloud-vmware-engine-privateclouds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vmware-engine/refs/heads/main/openapi/google-cloud-vmware-engine-privateclouds-api-openapi.yml
 description: ''
 domains:
 - caa:

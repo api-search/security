@@ -1,12 +1,126 @@
 ---
 api_key_in: []
 api_specs:
-- filename: angle-api-openapi.json
-  format: json
-  label: Angle API
-  slug: angle-api
+- filename: angle-allowances-api-openapi.yml
+  format: yaml
+  label: Angle Allowances API
+  slug: angle-allowances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-allowances-api-openapi.yml
+- filename: angle-angle-protocol-data-api-openapi.yml
+  format: yaml
+  label: Angle Angle Protocol Data API
+  slug: angle-angle-protocol-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-angle-protocol-data-api-openapi.yml
+- filename: angle-app-api-openapi.yml
+  format: yaml
+  label: Angle App API
+  slug: angle-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-app-api-openapi.yml
+- filename: angle-apr-api-openapi.yml
+  format: yaml
+  label: Angle Apr API
+  slug: angle-apr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-apr-api-openapi.yml
+- filename: angle-balances-api-openapi.yml
+  format: yaml
+  label: Angle Balances API
+  slug: angle-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-balances-api-openapi.yml
+- filename: angle-borrow-api-openapi.yml
+  format: yaml
+  label: Angle Borrow API
+  slug: angle-borrow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-borrow-api-openapi.yml
+- filename: angle-bridge-api-openapi.yml
+  format: yaml
+  label: Angle Bridge API
+  slug: angle-bridge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-bridge-api-openapi.yml
+- filename: angle-dao-api-openapi.yml
+  format: yaml
+  label: Angle Dao API
+  slug: angle-dao-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-dao-api-openapi.yml
+- filename: angle-helpers-api-openapi.yml
+  format: yaml
+  label: Angle Helpers API
+  slug: angle-helpers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-helpers-api-openapi.yml
+- filename: angle-incentives-api-openapi.yml
+  format: yaml
+  label: Angle Incentives API
+  slug: angle-incentives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-incentives-api-openapi.yml
+- filename: angle-integrators-api-openapi.yml
+  format: yaml
+  label: Angle Integrators API
+  slug: angle-integrators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-integrators-api-openapi.yml
+- filename: angle-perpetuals-api-openapi.yml
+  format: yaml
+  label: Angle Perpetuals API
+  slug: angle-perpetuals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-perpetuals-api-openapi.yml
+- filename: angle-pools-api-openapi.yml
+  format: yaml
+  label: Angle Pools API
+  slug: angle-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-pools-api-openapi.yml
+- filename: angle-prices-api-openapi.yml
+  format: yaml
+  label: Angle Prices API
+  slug: angle-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-prices-api-openapi.yml
+- filename: angle-savings-api-openapi.yml
+  format: yaml
+  label: Angle Savings API
+  slug: angle-savings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-savings-api-openapi.yml
+- filename: angle-tvl-api-openapi.yml
+  format: yaml
+  label: Angle Tvl API
+  slug: angle-tvl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-tvl-api-openapi.yml
+- filename: angle-user-related-information-api-openapi.yml
+  format: yaml
+  label: Angle User related information API
+  slug: angle-user-related-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-user-related-information-api-openapi.yml
+- filename: angle-vaultmanagers-api-openapi.yml
+  format: yaml
+  label: Angle VaultManagers API
+  slug: angle-vaultmanagers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-vaultmanagers-api-openapi.yml
+- filename: angle-vaults-api-openapi.yml
+  format: yaml
+  label: Angle Vaults API
+  slug: angle-vaults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-vaults-api-openapi.yml
+- filename: angle-volume-api-openapi.yml
+  format: yaml
+  label: Angle Volume API
+  slug: angle-volume-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-volume-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

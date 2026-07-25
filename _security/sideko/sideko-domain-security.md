@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: sideko-openapi.yml
+- filename: sideko-api-projects-api-openapi.yml
   format: yaml
-  label: Sideko API
-  slug: sideko-api
+  label: Sideko API Projects API
+  slug: sideko-api-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/openapi/sideko-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/openapi/sideko-api-projects-api-openapi.yml
+- filename: sideko-api-versions-api-openapi.yml
+  format: yaml
+  label: Sideko API Versions API
+  slug: sideko-api-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/openapi/sideko-api-versions-api-openapi.yml
+- filename: sideko-authentication-api-openapi.yml
+  format: yaml
+  label: Sideko Authentication API
+  slug: sideko-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/openapi/sideko-authentication-api-openapi.yml
+- filename: sideko-documentation-api-openapi.yml
+  format: yaml
+  label: Sideko Documentation API
+  slug: sideko-documentation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/openapi/sideko-documentation-api-openapi.yml
+- filename: sideko-linting-api-openapi.yml
+  format: yaml
+  label: Sideko Linting API
+  slug: sideko-linting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/openapi/sideko-linting-api-openapi.yml
+- filename: sideko-mcp-generation-api-openapi.yml
+  format: yaml
+  label: Sideko MCP Generation API
+  slug: sideko-mcp-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/openapi/sideko-mcp-generation-api-openapi.yml
+- filename: sideko-mock-servers-api-openapi.yml
+  format: yaml
+  label: Sideko Mock Servers API
+  slug: sideko-mock-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/openapi/sideko-mock-servers-api-openapi.yml
+- filename: sideko-sdk-generation-api-openapi.yml
+  format: yaml
+  label: Sideko SDK Generation API
+  slug: sideko-sdk-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/openapi/sideko-sdk-generation-api-openapi.yml
 description: ''
 domains:
 - caa:

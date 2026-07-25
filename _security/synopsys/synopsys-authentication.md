@@ -2,24 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: synopsys-polaris-openapi.yml
-  format: yaml
-  label: Synopsys Polaris API
-  slug: polaris
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-polaris-openapi.yml
 - filename: cim-openapi.html
   format: yaml
   label: Synopsys Coverity REST API
   slug: coverity
   spec_type: OpenAPI
   url: https://documentation.blackduck.com/bundle/coverity-docs/page/cim-api-docs/openapi/cim-openapi.html
-- filename: synopsys-cloud-openlink-openapi.yml
+- filename: synopsys-entitlements-api-openapi.yml
   format: yaml
-  label: Synopsys Cloud OpenLink API
-  slug: cloud-openlink
+  label: Synopsys Entitlements API
+  slug: synopsys-entitlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-cloud-openlink-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-entitlements-api-openapi.yml
+- filename: synopsys-issues-api-openapi.yml
+  format: yaml
+  label: Synopsys Issues API
+  slug: synopsys-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-issues-api-openapi.yml
+- filename: synopsys-licenses-api-openapi.yml
+  format: yaml
+  label: Synopsys Licenses API
+  slug: synopsys-licenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-licenses-api-openapi.yml
+- filename: synopsys-projects-api-openapi.yml
+  format: yaml
+  label: Synopsys Projects API
+  slug: synopsys-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-projects-api-openapi.yml
+- filename: synopsys-reports-api-openapi.yml
+  format: yaml
+  label: Synopsys Reports API
+  slug: synopsys-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-reports-api-openapi.yml
+- filename: synopsys-scans-api-openapi.yml
+  format: yaml
+  label: Synopsys Scans API
+  slug: synopsys-scans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-scans-api-openapi.yml
 auth_types:
 - apiKey
 - http

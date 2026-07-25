@@ -1,47 +1,65 @@
 ---
 api_specs:
-- filename: belvo-openapi.yml
-  format: yaml
-  label: Belvo Links API
-  slug: belvo-links-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/belvo/refs/heads/main/openapi/belvo-openapi.yml
-- filename: belvo-openapi.yml
+- filename: belvo-accounts-api-openapi.yml
   format: yaml
   label: Belvo Accounts API
   slug: belvo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/belvo/refs/heads/main/openapi/belvo-openapi.yml
-- filename: belvo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/belvo/refs/heads/main/openapi/belvo-accounts-api-openapi.yml
+- filename: belvo-balances-api-openapi.yml
   format: yaml
-  label: Belvo Transactions & Balances API
-  slug: belvo-transactions-balances-api
+  label: Belvo Balances API
+  slug: belvo-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/belvo/refs/heads/main/openapi/belvo-openapi.yml
-- filename: belvo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/belvo/refs/heads/main/openapi/belvo-balances-api-openapi.yml
+- filename: belvo-incomes-api-openapi.yml
   format: yaml
-  label: Belvo Owners & Incomes API
-  slug: belvo-owners-incomes-api
+  label: Belvo Incomes API
+  slug: belvo-incomes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/belvo/refs/heads/main/openapi/belvo-openapi.yml
-- filename: belvo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/belvo/refs/heads/main/openapi/belvo-incomes-api-openapi.yml
+- filename: belvo-institutions-api-openapi.yml
   format: yaml
   label: Belvo Institutions API
   slug: belvo-institutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/belvo/refs/heads/main/openapi/belvo-openapi.yml
-- filename: belvo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/belvo/refs/heads/main/openapi/belvo-institutions-api-openapi.yml
+- filename: belvo-links-api-openapi.yml
   format: yaml
-  label: Belvo Payments (Brazil / Pix) API
-  slug: belvo-payments-api
+  label: Belvo Links API
+  slug: belvo-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/belvo/refs/heads/main/openapi/belvo-openapi.yml
-- filename: belvo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/belvo/refs/heads/main/openapi/belvo-links-api-openapi.yml
+- filename: belvo-owners-api-openapi.yml
+  format: yaml
+  label: Belvo Owners API
+  slug: belvo-owners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/belvo/refs/heads/main/openapi/belvo-owners-api-openapi.yml
+- filename: belvo-payments-brazil-api-openapi.yml
+  format: yaml
+  label: Belvo Payments (Brazil) API
+  slug: belvo-payments-brazil-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/belvo/refs/heads/main/openapi/belvo-payments-brazil-api-openapi.yml
+- filename: belvo-recurring-expenses-api-openapi.yml
+  format: yaml
+  label: Belvo Recurring Expenses API
+  slug: belvo-recurring-expenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/belvo/refs/heads/main/openapi/belvo-recurring-expenses-api-openapi.yml
+- filename: belvo-transactions-api-openapi.yml
+  format: yaml
+  label: Belvo Transactions API
+  slug: belvo-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/belvo/refs/heads/main/openapi/belvo-transactions-api-openapi.yml
+- filename: belvo-webhooks-api-openapi.yml
   format: yaml
   label: Belvo Webhooks API
   slug: belvo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/belvo/refs/heads/main/openapi/belvo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/belvo/refs/heads/main/openapi/belvo-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

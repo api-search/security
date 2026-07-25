@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: rook-ceph-object-storage-openapi.yml
+- filename: rook-buckets-api-openapi.yml
   format: yaml
-  label: Rook Ceph Object Storage API
-  slug: rook-ceph-object-storage-api
+  label: Rook Buckets API
+  slug: rook-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/openapi/rook-ceph-object-storage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/openapi/rook-buckets-api-openapi.yml
+- filename: rook-multipart-uploads-api-openapi.yml
+  format: yaml
+  label: Rook Multipart Uploads API
+  slug: rook-multipart-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/openapi/rook-multipart-uploads-api-openapi.yml
+- filename: rook-objects-api-openapi.yml
+  format: yaml
+  label: Rook Objects API
+  slug: rook-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/openapi/rook-objects-api-openapi.yml
 description: ''
 domains:
 - caa: []

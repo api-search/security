@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: highnote-openapi.yml
+- filename: highnote-graphql-api-openapi.yml
   format: yaml
-  label: Highnote Card Issuing API
-  slug: card-issuing
+  label: Highnote Issuing API
+  slug: highnote-issuing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-openapi.yml
-- filename: highnote-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-graphql-api-openapi.yml
+- filename: highnote-graphql-api-openapi.yml
   format: yaml
-  label: Highnote Account Holders API
-  slug: account-holders
+  label: Highnote Account Holders & Onboarding API
+  slug: highnote-account-holders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-openapi.yml
-- filename: highnote-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-graphql-api-openapi.yml
+- filename: highnote-graphql-api-openapi.yml
   format: yaml
-  label: Highnote Financial Accounts API
-  slug: financial-accounts
+  label: Highnote Acquiring API
+  slug: highnote-acquiring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-openapi.yml
-- filename: highnote-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-graphql-api-openapi.yml
+- filename: highnote-graphql-api-openapi.yml
   format: yaml
-  label: Highnote Transactions API
-  slug: transactions
+  label: Highnote Money Movement API
+  slug: highnote-money-movement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-openapi.yml
-- filename: highnote-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-graphql-api-openapi.yml
+- filename: highnote-graphql-api-openapi.yml
   format: yaml
-  label: Highnote Transfers API
-  slug: transfers
+  label: Highnote Transactions & Disputes API
+  slug: highnote-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-openapi.yml
-- filename: highnote-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-graphql-api-openapi.yml
+- filename: highnote-graphql-api-openapi.yml
   format: yaml
-  label: Highnote Collaborative Authorization API
-  slug: collaborative-authorization
+  label: Highnote Spend Controls & Collaborative Authorization API
+  slug: highnote-spend-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-openapi.yml
-- filename: highnote-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-graphql-api-openapi.yml
+- filename: highnote-graphql-api-openapi.yml
   format: yaml
-  label: Highnote Webhooks & Notifications API
-  slug: webhooks
+  label: Highnote Webhooks & Event Notifications API
+  slug: highnote-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-graphql-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -84,10 +84,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Card Issuing
+- Card Acquiring
 - Embedded Finance
+- Banking-as-a-Service
 - Fintech
 - Payments
 - GraphQL
 - Ledger
 - Credit
+- Money Movement
+- ACH
+- KYC
+- United States
 ---

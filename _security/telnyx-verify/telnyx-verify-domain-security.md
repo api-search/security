@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: telnyx-verify-openapi.yml
+- filename: telnyx-verify-number-lookup-api-openapi.yml
   format: yaml
-  label: Telnyx Verify Verifications API
-  slug: telnyx-verify-verifications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx-verify/refs/heads/main/openapi/telnyx-verify-openapi.yml
-- filename: telnyx-verify-openapi.yml
-  format: yaml
-  label: Telnyx Verify Profiles API
-  slug: telnyx-verify-profiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx-verify/refs/heads/main/openapi/telnyx-verify-openapi.yml
-- filename: telnyx-verify-openapi.yml
-  format: yaml
-  label: Telnyx Number Lookup API
+  label: Telnyx Verify API Number Lookup API
   slug: telnyx-verify-number-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx-verify/refs/heads/main/openapi/telnyx-verify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telnyx-verify/refs/heads/main/openapi/telnyx-verify-number-lookup-api-openapi.yml
+- filename: telnyx-verify-verify-api-openapi.yml
+  format: yaml
+  label: Telnyx Verify API Verify API
+  slug: telnyx-verify-verify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telnyx-verify/refs/heads/main/openapi/telnyx-verify-verify-api-openapi.yml
+- filename: telnyx-verify-verify-profiles-api-openapi.yml
+  format: yaml
+  label: Telnyx Verify API Verify Profiles API
+  slug: telnyx-verify-verify-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telnyx-verify/refs/heads/main/openapi/telnyx-verify-verify-profiles-api-openapi.yml
 description: ''
 domains:
 - caa:

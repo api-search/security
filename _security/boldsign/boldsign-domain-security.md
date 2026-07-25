@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: index.html
+- filename: boldsign-branding-api-openapi.yml
   format: yaml
-  label: BoldSign eSignature API
-  slug: boldsign-esignature-api
+  label: BoldSign Branding API
+  slug: boldsign-branding-api
   spec_type: OpenAPI
-  url: https://api.boldsign.com/swagger/index.html
+  url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/openapi/boldsign-branding-api-openapi.yml
+- filename: boldsign-contacts-api-openapi.yml
+  format: yaml
+  label: BoldSign Contacts API
+  slug: boldsign-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/openapi/boldsign-contacts-api-openapi.yml
+- filename: boldsign-custom-field-api-openapi.yml
+  format: yaml
+  label: BoldSign Custom Field API
+  slug: boldsign-custom-field-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/openapi/boldsign-custom-field-api-openapi.yml
+- filename: boldsign-document-api-openapi.yml
+  format: yaml
+  label: BoldSign Document API
+  slug: boldsign-document-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/openapi/boldsign-document-api-openapi.yml
+- filename: boldsign-groupcontacts-api-openapi.yml
+  format: yaml
+  label: BoldSign GroupContacts API
+  slug: boldsign-groupcontacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/openapi/boldsign-groupcontacts-api-openapi.yml
+- filename: boldsign-identity-verification-api-openapi.yml
+  format: yaml
+  label: BoldSign Identity Verification API
+  slug: boldsign-identity-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/openapi/boldsign-identity-verification-api-openapi.yml
+- filename: boldsign-plan-api-openapi.yml
+  format: yaml
+  label: BoldSign Plan API
+  slug: boldsign-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/openapi/boldsign-plan-api-openapi.yml
+- filename: boldsign-sender-identities-api-openapi.yml
+  format: yaml
+  label: BoldSign Sender Identities API
+  slug: boldsign-sender-identities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/openapi/boldsign-sender-identities-api-openapi.yml
+- filename: boldsign-teams-api-openapi.yml
+  format: yaml
+  label: BoldSign Teams API
+  slug: boldsign-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/openapi/boldsign-teams-api-openapi.yml
+- filename: boldsign-template-api-openapi.yml
+  format: yaml
+  label: BoldSign Template API
+  slug: boldsign-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/openapi/boldsign-template-api-openapi.yml
+- filename: boldsign-user-api-openapi.yml
+  format: yaml
+  label: BoldSign User API
+  slug: boldsign-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/openapi/boldsign-user-api-openapi.yml
 description: ''
 domains:
 - caa:

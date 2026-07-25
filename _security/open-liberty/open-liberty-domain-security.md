@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: open-liberty-admin.json
-  format: json
-  label: Open Liberty
-  slug: open-liberty
+- filename: open-liberty-configuration-api-openapi.yml
+  format: yaml
+  label: Open Liberty Configuration API
+  slug: open-liberty-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/openapi/open-liberty-admin.json
+  url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/openapi/open-liberty-configuration-api-openapi.yml
+- filename: open-liberty-health-api-openapi.yml
+  format: yaml
+  label: Open Liberty Health API
+  slug: open-liberty-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/openapi/open-liberty-health-api-openapi.yml
+- filename: open-liberty-metrics-api-openapi.yml
+  format: yaml
+  label: Open Liberty Metrics API
+  slug: open-liberty-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/openapi/open-liberty-metrics-api-openapi.yml
 description: ''
 domains:
 - caa: []

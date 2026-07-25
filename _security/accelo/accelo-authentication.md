@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: accelo-openapi.yml
+- filename: accelo-activities-api-openapi.yml
   format: yaml
-  label: Accelo REST API
-  slug: accelo-api
+  label: Accelo Activities API
+  slug: accelo-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-activities-api-openapi.yml
+- filename: accelo-companies-api-openapi.yml
+  format: yaml
+  label: Accelo Companies API
+  slug: accelo-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-companies-api-openapi.yml
+- filename: accelo-contacts-api-openapi.yml
+  format: yaml
+  label: Accelo Contacts API
+  slug: accelo-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-contacts-api-openapi.yml
+- filename: accelo-issues-api-openapi.yml
+  format: yaml
+  label: Accelo Issues API
+  slug: accelo-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-issues-api-openapi.yml
+- filename: accelo-jobs-api-openapi.yml
+  format: yaml
+  label: Accelo Jobs API
+  slug: accelo-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-jobs-api-openapi.yml
+- filename: accelo-oauth-api-openapi.yml
+  format: yaml
+  label: Accelo OAuth API
+  slug: accelo-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-oauth-api-openapi.yml
+- filename: accelo-tasks-api-openapi.yml
+  format: yaml
+  label: Accelo Tasks API
+  slug: accelo-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-tasks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

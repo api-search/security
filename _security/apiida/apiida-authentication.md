@@ -1,18 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: apiida-api-control-plane-openapi.yml
+- filename: apiida-alarms-api-openapi.yml
   format: yaml
-  label: APIIDA API Control Plane
-  slug: api-control-plane
+  label: APIIDA Alarms API
+  slug: apiida-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-api-control-plane-openapi.yml
-- filename: apiida-api-gateway-manager-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-alarms-api-openapi.yml
+- filename: apiida-apis-api-openapi.yml
   format: yaml
-  label: APIIDA API Gateway Manager
-  slug: api-gateway-manager
+  label: APIIDA Apis API
+  slug: apiida-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-api-gateway-manager-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-apis-api-openapi.yml
+- filename: apiida-deployments-api-openapi.yml
+  format: yaml
+  label: APIIDA Deployments API
+  slug: apiida-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-deployments-api-openapi.yml
+- filename: apiida-gateways-api-openapi.yml
+  format: yaml
+  label: APIIDA Gateways API
+  slug: apiida-gateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-gateways-api-openapi.yml
+- filename: apiida-monitoring-api-openapi.yml
+  format: yaml
+  label: APIIDA Monitoring API
+  slug: apiida-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-monitoring-api-openapi.yml
+- filename: apiida-versions-api-openapi.yml
+  format: yaml
+  label: APIIDA Versions API
+  slug: apiida-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-versions-api-openapi.yml
 auth_types:
 - http
 description: ''

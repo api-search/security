@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: geoapify-forward-geocoding-api-openapi.yml
+- filename: geoapify-geocode-api-openapi.yml
   format: yaml
-  label: Forward Geocoding API
-  slug: forward-geocoding
+  label: Geoapify Geocode API
+  slug: geoapify-geocode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-forward-geocoding-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-geocode-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,41 +1,47 @@
 ---
 api_specs:
-- filename: shootproof-openapi.yml
-  format: yaml
-  label: ShootProof Studios API
-  slug: shootproof-studios-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-openapi.yml
-- filename: shootproof-openapi.yml
-  format: yaml
-  label: ShootProof Events & Galleries API
-  slug: shootproof-events-galleries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-openapi.yml
-- filename: shootproof-openapi.yml
-  format: yaml
-  label: ShootProof Photos API
-  slug: shootproof-photos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-openapi.yml
-- filename: shootproof-openapi.yml
+- filename: shootproof-clients-api-openapi.yml
   format: yaml
   label: ShootProof Clients API
   slug: shootproof-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-openapi.yml
-- filename: shootproof-openapi.yml
-  format: yaml
-  label: ShootProof Orders API
-  slug: shootproof-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-openapi.yml
-- filename: shootproof-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-clients-api-openapi.yml
+- filename: shootproof-contracts-api-openapi.yml
   format: yaml
   label: ShootProof Contracts API
   slug: shootproof-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-contracts-api-openapi.yml
+- filename: shootproof-events-galleries-api-openapi.yml
+  format: yaml
+  label: ShootProof Events & Galleries API
+  slug: shootproof-events-galleries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-events-galleries-api-openapi.yml
+- filename: shootproof-orders-api-openapi.yml
+  format: yaml
+  label: ShootProof Orders API
+  slug: shootproof-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-orders-api-openapi.yml
+- filename: shootproof-photos-api-openapi.yml
+  format: yaml
+  label: ShootProof Photos API
+  slug: shootproof-photos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-photos-api-openapi.yml
+- filename: shootproof-service-description-api-openapi.yml
+  format: yaml
+  label: ShootProof Service Description API
+  slug: shootproof-service-description-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-service-description-api-openapi.yml
+- filename: shootproof-studios-api-openapi.yml
+  format: yaml
+  label: ShootProof Studios API
+  slug: shootproof-studios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-studios-api-openapi.yml
 description: ''
 domains:
 - caa: []

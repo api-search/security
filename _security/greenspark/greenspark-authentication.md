@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: greenspark-openapi.yml
+- filename: greenspark-account-api-openapi.yml
   format: yaml
-  label: Greenspark Climate API
-  slug: greenspark-climate-api
+  label: Greenspark Account API
+  slug: greenspark-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/openapi/greenspark-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/openapi/greenspark-account-api-openapi.yml
+- filename: greenspark-email-api-openapi.yml
+  format: yaml
+  label: Greenspark Email API
+  slug: greenspark-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/openapi/greenspark-email-api-openapi.yml
+- filename: greenspark-estimations-api-openapi.yml
+  format: yaml
+  label: Greenspark Estimations API
+  slug: greenspark-estimations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/openapi/greenspark-estimations-api-openapi.yml
+- filename: greenspark-impacts-api-openapi.yml
+  format: yaml
+  label: Greenspark Impacts API
+  slug: greenspark-impacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/openapi/greenspark-impacts-api-openapi.yml
+- filename: greenspark-projects-api-openapi.yml
+  format: yaml
+  label: Greenspark Projects API
+  slug: greenspark-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/openapi/greenspark-projects-api-openapi.yml
+- filename: greenspark-reports-api-openapi.yml
+  format: yaml
+  label: Greenspark Reports API
+  slug: greenspark-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/openapi/greenspark-reports-api-openapi.yml
+- filename: greenspark-widgets-api-openapi.yml
+  format: yaml
+  label: Greenspark Widgets API
+  slug: greenspark-widgets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/openapi/greenspark-widgets-api-openapi.yml
 auth_types:
 - apiKey
 description: 'Greenspark authenticates every API call with a single API key sent in the x-api-key request header. Keys are created in the Greenspark dashboard and are environment-bound: a sandbox key only works against the sandbox host and a production key only against production. No OAuth2/OIDC is offered.'

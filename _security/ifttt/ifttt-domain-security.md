@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: ifttt-openapi.yml
+- filename: ifttt-trigger-api-openapi.yml
   format: yaml
-  label: IFTTT Maker Webhooks API
-  slug: webhooks-api
+  label: IFTTT Trigger API
+  slug: ifttt-trigger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ifttt/refs/heads/main/openapi/ifttt-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ifttt/refs/heads/main/openapi/ifttt-trigger-api-openapi.yml
 description: ''
 domains:
 - caa:

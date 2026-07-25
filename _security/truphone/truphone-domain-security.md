@@ -1,29 +1,35 @@
 ---
 api_specs:
-- filename: truphone-openapi.yml
+- filename: truphone-connectivity-api-openapi.yml
   format: yaml
-  label: Truphone (1GLOBAL) SIMs / eSIMs API
-  slug: truphone-sims-esims-api
+  label: Truphone (1GLOBAL) Connectivity API
+  slug: truphone-connectivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/openapi/truphone-openapi.yml
-- filename: truphone-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/openapi/truphone-connectivity-api-openapi.yml
+- filename: truphone-devices-api-openapi.yml
   format: yaml
-  label: Truphone (1GLOBAL) Connectivity / Usage API
-  slug: truphone-connectivity-usage-api
+  label: Truphone (1GLOBAL) Devices API
+  slug: truphone-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/openapi/truphone-openapi.yml
-- filename: truphone-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/openapi/truphone-devices-api-openapi.yml
+- filename: truphone-organization-api-openapi.yml
+  format: yaml
+  label: Truphone (1GLOBAL) Organization API
+  slug: truphone-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/openapi/truphone-organization-api-openapi.yml
+- filename: truphone-plans-api-openapi.yml
   format: yaml
   label: Truphone (1GLOBAL) Plans API
   slug: truphone-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/openapi/truphone-openapi.yml
-- filename: truphone-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/openapi/truphone-plans-api-openapi.yml
+- filename: truphone-sims-api-openapi.yml
   format: yaml
-  label: Truphone (1GLOBAL) Device Management API
-  slug: truphone-device-management-api
+  label: Truphone (1GLOBAL) SIMs API
+  slug: truphone-sims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/openapi/truphone-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/openapi/truphone-sims-api-openapi.yml
 description: ''
 domains:
 - caa: []

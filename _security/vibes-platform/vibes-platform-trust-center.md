@@ -1,17 +1,65 @@
 ---
 api_specs:
-- filename: vibes-platform-openapi.yml
+- filename: vibes-platform-acquisition-campaigns-api-openapi.yml
   format: yaml
-  label: Vibes Platform API
-  slug: vibes-platform-api
+  label: Vibes Platform Acquisition Campaigns API
+  slug: vibes-platform-acquisition-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-openapi.yml
-- filename: vibes-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-acquisition-campaigns-api-openapi.yml
+- filename: vibes-platform-broadcasts-api-openapi.yml
   format: yaml
-  label: Vibes Connect API
-  slug: vibes-connect-api
+  label: Vibes Platform Broadcasts API
+  slug: vibes-platform-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-broadcasts-api-openapi.yml
+- filename: vibes-platform-callbacks-api-openapi.yml
+  format: yaml
+  label: Vibes Platform Callbacks API
+  slug: vibes-platform-callbacks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-callbacks-api-openapi.yml
+- filename: vibes-platform-carrier-lookup-api-openapi.yml
+  format: yaml
+  label: Vibes Platform Carrier Lookup API
+  slug: vibes-platform-carrier-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-carrier-lookup-api-openapi.yml
+- filename: vibes-platform-events-api-openapi.yml
+  format: yaml
+  label: Vibes Platform Events API
+  slug: vibes-platform-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-events-api-openapi.yml
+- filename: vibes-platform-inbound-messages-api-openapi.yml
+  format: yaml
+  label: Vibes Platform Inbound Messages API
+  slug: vibes-platform-inbound-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-inbound-messages-api-openapi.yml
+- filename: vibes-platform-messages-api-openapi.yml
+  format: yaml
+  label: Vibes Platform Messages API
+  slug: vibes-platform-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-messages-api-openapi.yml
+- filename: vibes-platform-persons-api-openapi.yml
+  format: yaml
+  label: Vibes Platform Persons API
+  slug: vibes-platform-persons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-persons-api-openapi.yml
+- filename: vibes-platform-subscription-lists-api-openapi.yml
+  format: yaml
+  label: Vibes Platform Subscription Lists API
+  slug: vibes-platform-subscription-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-subscription-lists-api-openapi.yml
+- filename: vibes-platform-wallet-passes-api-openapi.yml
+  format: yaml
+  label: Vibes Platform Wallet Passes API
+  slug: vibes-platform-wallet-passes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-wallet-passes-api-openapi.yml
 certifications:
 - SOC 2
 - GDPR

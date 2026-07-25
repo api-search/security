@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: seventh-sense-opencv-fr-openapi.json
-  format: json
-  label: OpenCV Face Recognition API
-  slug: opencv-face-recognition-api
+- filename: seventh-sense-collections-api-openapi.yml
+  format: yaml
+  label: Seventh Sense Collections API
+  slug: seventh-sense-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/openapi/seventh-sense-opencv-fr-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/openapi/seventh-sense-collections-api-openapi.yml
+- filename: seventh-sense-face-anti-spoofing-liveness-api-openapi.yml
+  format: yaml
+  label: Seventh Sense Face Anti-Spoofing / Liveness API
+  slug: seventh-sense-face-anti-spoofing-liveness-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/openapi/seventh-sense-face-anti-spoofing-liveness-api-openapi.yml
+- filename: seventh-sense-face-verification-api-openapi.yml
+  format: yaml
+  label: Seventh Sense Face Verification API
+  slug: seventh-sense-face-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/openapi/seventh-sense-face-verification-api-openapi.yml
+- filename: seventh-sense-persons-api-openapi.yml
+  format: yaml
+  label: Seventh Sense Persons API
+  slug: seventh-sense-persons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/openapi/seventh-sense-persons-api-openapi.yml
+- filename: seventh-sense-search-api-openapi.yml
+  format: yaml
+  label: Seventh Sense Search API
+  slug: seventh-sense-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/openapi/seventh-sense-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

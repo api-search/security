@@ -1,53 +1,77 @@
 ---
 api_specs:
-- filename: commercelayer-openapi.yml
+- filename: commercelayer-addresses-api-openapi.yml
   format: yaml
-  label: Commerce Layer SKUs, Prices & Stock API
-  slug: skus-prices-stock
+  label: Commerce Layer Addresses API
+  slug: commercelayer-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/openapi/commercelayer-openapi.yml
-- filename: commercelayer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/openapi/commercelayer-addresses-api-openapi.yml
+- filename: commercelayer-customers-api-openapi.yml
   format: yaml
-  label: Commerce Layer Orders & Line Items API
-  slug: orders-line-items
+  label: Commerce Layer Customers API
+  slug: commercelayer-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/openapi/commercelayer-openapi.yml
-- filename: commercelayer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/openapi/commercelayer-customers-api-openapi.yml
+- filename: commercelayer-line-items-api-openapi.yml
   format: yaml
-  label: Commerce Layer Customers & Addresses API
-  slug: customers-addresses
+  label: Commerce Layer Line Items API
+  slug: commercelayer-line-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/openapi/commercelayer-openapi.yml
-- filename: commercelayer-openapi.yml
-  format: yaml
-  label: Commerce Layer Shipments API
-  slug: shipments
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/openapi/commercelayer-openapi.yml
-- filename: commercelayer-openapi.yml
-  format: yaml
-  label: Commerce Layer Payments API
-  slug: payments
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/openapi/commercelayer-openapi.yml
-- filename: commercelayer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/openapi/commercelayer-line-items-api-openapi.yml
+- filename: commercelayer-markets-api-openapi.yml
   format: yaml
   label: Commerce Layer Markets API
-  slug: markets
+  slug: commercelayer-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/openapi/commercelayer-openapi.yml
-- filename: commercelayer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/openapi/commercelayer-markets-api-openapi.yml
+- filename: commercelayer-orders-api-openapi.yml
+  format: yaml
+  label: Commerce Layer Orders API
+  slug: commercelayer-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/openapi/commercelayer-orders-api-openapi.yml
+- filename: commercelayer-payment-methods-api-openapi.yml
+  format: yaml
+  label: Commerce Layer Payment Methods API
+  slug: commercelayer-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/openapi/commercelayer-payment-methods-api-openapi.yml
+- filename: commercelayer-prices-api-openapi.yml
+  format: yaml
+  label: Commerce Layer Prices API
+  slug: commercelayer-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/openapi/commercelayer-prices-api-openapi.yml
+- filename: commercelayer-promotions-api-openapi.yml
   format: yaml
   label: Commerce Layer Promotions API
-  slug: promotions
+  slug: commercelayer-promotions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/openapi/commercelayer-openapi.yml
-- filename: commercelayer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/openapi/commercelayer-promotions-api-openapi.yml
+- filename: commercelayer-shipments-api-openapi.yml
+  format: yaml
+  label: Commerce Layer Shipments API
+  slug: commercelayer-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/openapi/commercelayer-shipments-api-openapi.yml
+- filename: commercelayer-skus-api-openapi.yml
+  format: yaml
+  label: Commerce Layer SKUs API
+  slug: commercelayer-skus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/openapi/commercelayer-skus-api-openapi.yml
+- filename: commercelayer-stock-items-api-openapi.yml
+  format: yaml
+  label: Commerce Layer Stock Items API
+  slug: commercelayer-stock-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/openapi/commercelayer-stock-items-api-openapi.yml
+- filename: commercelayer-webhooks-api-openapi.yml
   format: yaml
   label: Commerce Layer Webhooks API
-  slug: webhooks
+  slug: commercelayer-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/openapi/commercelayer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/openapi/commercelayer-webhooks-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

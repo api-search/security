@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: opensky-rest-api.json
-  format: json
-  label: OpenSky Network REST API
-  slug: opensky-network-rest-api
+- filename: opensky-flights-api-openapi.yml
+  format: yaml
+  label: OpenSky Network Flights API
+  slug: opensky-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/openapi/opensky-rest-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/openapi/opensky-flights-api-openapi.yml
+- filename: opensky-state-vectors-api-openapi.yml
+  format: yaml
+  label: OpenSky Network State Vectors API
+  slug: opensky-state-vectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/openapi/opensky-state-vectors-api-openapi.yml
+- filename: opensky-tracks-api-openapi.yml
+  format: yaml
+  label: OpenSky Network Tracks API
+  slug: opensky-tracks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/openapi/opensky-tracks-api-openapi.yml
 auth_types:
 - http
 description: ''

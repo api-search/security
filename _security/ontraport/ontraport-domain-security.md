@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: ontraport-openapi.yml
+- filename: ontraport-metadata-api-openapi.yml
   format: yaml
-  label: Ontraport REST API
-  slug: rest-api
+  label: Ontraport Metadata API
+  slug: ontraport-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/openapi/ontraport-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/openapi/ontraport-metadata-api-openapi.yml
+- filename: ontraport-objects-api-openapi.yml
+  format: yaml
+  label: Ontraport Objects API
+  slug: ontraport-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/openapi/ontraport-objects-api-openapi.yml
 description: ''
 domains:
 - caa: []

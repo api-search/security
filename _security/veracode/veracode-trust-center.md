@@ -1,29 +1,71 @@
 ---
 api_specs:
-- filename: veracode-applications-openapi.yml
+- filename: veracode-api-credentials-api-openapi.yml
   format: yaml
-  label: Veracode Applications REST API
+  label: Veracode API Credentials API
+  slug: veracode-api-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-api-credentials-api-openapi.yml
+- filename: veracode-applications-api-openapi.yml
+  format: yaml
+  label: Veracode Applications API
   slug: veracode-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-applications-openapi.yml
-- filename: veracode-findings-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-applications-api-openapi.yml
+- filename: veracode-business-units-api-openapi.yml
   format: yaml
-  label: Veracode Findings REST API
+  label: Veracode Business Units API
+  slug: veracode-business-units-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-business-units-api-openapi.yml
+- filename: veracode-findings-api-openapi.yml
+  format: yaml
+  label: Veracode Findings API
   slug: veracode-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-findings-openapi.yml
-- filename: veracode-identity-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-findings-api-openapi.yml
+- filename: veracode-manual-penetration-testing-api-openapi.yml
   format: yaml
-  label: Veracode Identity REST API
-  slug: veracode-identity-api
+  label: Veracode Manual Penetration Testing API
+  slug: veracode-manual-penetration-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-identity-openapi.yml
-- filename: veracode-reporting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-manual-penetration-testing-api-openapi.yml
+- filename: veracode-policy-evaluations-api-openapi.yml
   format: yaml
-  label: Veracode Reporting REST API
-  slug: veracode-reporting-api
+  label: Veracode Policy Evaluations API
+  slug: veracode-policy-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-reporting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-policy-evaluations-api-openapi.yml
+- filename: veracode-reports-api-openapi.yml
+  format: yaml
+  label: Veracode Reports API
+  slug: veracode-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-reports-api-openapi.yml
+- filename: veracode-roles-api-openapi.yml
+  format: yaml
+  label: Veracode Roles API
+  slug: veracode-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-roles-api-openapi.yml
+- filename: veracode-sandboxes-api-openapi.yml
+  format: yaml
+  label: Veracode Sandboxes API
+  slug: veracode-sandboxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-sandboxes-api-openapi.yml
+- filename: veracode-teams-api-openapi.yml
+  format: yaml
+  label: Veracode Teams API
+  slug: veracode-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-teams-api-openapi.yml
+- filename: veracode-users-api-openapi.yml
+  format: yaml
+  label: Veracode Users API
+  slug: veracode-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-users-api-openapi.yml
 certifications:
 - SOC 2
 - FedRAMP

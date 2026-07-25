@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: azure-container-instances-openapi.yaml
+- filename: azure-container-instances-operations-api-openapi.yml
   format: yaml
-  label: Azure Container Instances
-  slug: azure-container-instances
+  label: Azure Container Instances Operations API
+  slug: azure-container-instances-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-operations-api-openapi.yml
+- filename: azure-container-instances-subscriptions-api-openapi.yml
+  format: yaml
+  label: Azure Container Instances Subscriptions API
+  slug: azure-container-instances-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-subscriptions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

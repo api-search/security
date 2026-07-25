@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: docs.pdffiller.com
+- filename: pdffiller-applications-api-openapi.yml
   format: yaml
-  label: PDFfiller REST API
-  slug: pdffiller-api
+  label: PDFfiller Applications API
+  slug: pdffiller-applications-api
   spec_type: OpenAPI
-  url: https://docs.pdffiller.com
+  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-applications-api-openapi.yml
+- filename: pdffiller-auth-api-openapi.yml
+  format: yaml
+  label: PDFfiller Auth API
+  slug: pdffiller-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-auth-api-openapi.yml
+- filename: pdffiller-callbacks-api-openapi.yml
+  format: yaml
+  label: PDFfiller Callbacks API
+  slug: pdffiller-callbacks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-callbacks-api-openapi.yml
+- filename: pdffiller-custom-logos-api-openapi.yml
+  format: yaml
+  label: PDFfiller Custom Logos API
+  slug: pdffiller-custom-logos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-custom-logos-api-openapi.yml
+- filename: pdffiller-fillable-forms-api-openapi.yml
+  format: yaml
+  label: PDFfiller Fillable Forms API
+  slug: pdffiller-fillable-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-fillable-forms-api-openapi.yml
+- filename: pdffiller-folders-api-openapi.yml
+  format: yaml
+  label: PDFfiller Folders API
+  slug: pdffiller-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-folders-api-openapi.yml
+- filename: pdffiller-signature-requests-api-openapi.yml
+  format: yaml
+  label: PDFfiller Signature Requests API
+  slug: pdffiller-signature-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-signature-requests-api-openapi.yml
+- filename: pdffiller-templates-api-openapi.yml
+  format: yaml
+  label: PDFfiller Templates API
+  slug: pdffiller-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-templates-api-openapi.yml
+- filename: pdffiller-tokens-api-openapi.yml
+  format: yaml
+  label: PDFfiller Tokens API
+  slug: pdffiller-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-tokens-api-openapi.yml
+- filename: pdffiller-tools-api-openapi.yml
+  format: yaml
+  label: PDFfiller Tools API
+  slug: pdffiller-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-tools-api-openapi.yml
+- filename: pdffiller-users-api-openapi.yml
+  format: yaml
+  label: PDFfiller Users API
+  slug: pdffiller-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

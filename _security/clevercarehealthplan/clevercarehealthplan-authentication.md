@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: clevercarehealthplan-fhir-openapi.yml
+- filename: clevercarehealthplan-drug-formulary-api-openapi.yml
   format: yaml
-  label: Clever Care Health Plan FHIR R4 API
-  slug: clever-care-health-plan-fhir-r4-api
+  label: Clever Care Health Plan Drug Formulary API
+  slug: clevercarehealthplan-drug-formulary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clevercarehealthplan/refs/heads/main/openapi/clevercarehealthplan-fhir-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clevercarehealthplan/refs/heads/main/openapi/clevercarehealthplan-drug-formulary-api-openapi.yml
+- filename: clevercarehealthplan-patient-access-api-openapi.yml
+  format: yaml
+  label: Clever Care Health Plan Patient Access API
+  slug: clevercarehealthplan-patient-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clevercarehealthplan/refs/heads/main/openapi/clevercarehealthplan-patient-access-api-openapi.yml
+- filename: clevercarehealthplan-provider-directory-api-openapi.yml
+  format: yaml
+  label: Clever Care Health Plan Provider Directory API
+  slug: clevercarehealthplan-provider-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clevercarehealthplan/refs/heads/main/openapi/clevercarehealthplan-provider-directory-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

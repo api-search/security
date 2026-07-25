@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: limitless-ai-chats-api-openapi.yml
   format: yaml
-  label: Limitless Developer API
-  slug: developer-api
+  label: Limitless Chats API
+  slug: limitless-ai-chats-api
   spec_type: OpenAPI
-  url: https://api.limitless.ai/v1/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/openapi/limitless-ai-chats-api-openapi.yml
+- filename: limitless-ai-download-audio-api-openapi.yml
+  format: yaml
+  label: Limitless Download Audio API
+  slug: limitless-ai-download-audio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/openapi/limitless-ai-download-audio-api-openapi.yml
+- filename: limitless-ai-lifelogs-api-openapi.yml
+  format: yaml
+  label: Limitless Lifelogs API
+  slug: limitless-ai-lifelogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/openapi/limitless-ai-lifelogs-api-openapi.yml
+- filename: limitless-ai-limitless-developer-api-api-openapi.yml
+  format: yaml
+  label: Limitless Limitless Developer API API
+  slug: limitless-ai-limitless-developer-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/openapi/limitless-ai-limitless-developer-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

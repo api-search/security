@@ -1,35 +1,41 @@
 ---
 api_specs:
-- filename: nowcerts-openapi.yml
+- filename: nowcerts-authentication-api-openapi.yml
   format: yaml
-  label: NowCerts Insureds API
-  slug: nowcerts-insureds-api
+  label: NowCerts Authentication API
+  slug: nowcerts-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowcerts/refs/heads/main/openapi/nowcerts-openapi.yml
-- filename: nowcerts-openapi.yml
-  format: yaml
-  label: NowCerts Policies API
-  slug: nowcerts-policies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowcerts/refs/heads/main/openapi/nowcerts-openapi.yml
-- filename: nowcerts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nowcerts/refs/heads/main/openapi/nowcerts-authentication-api-openapi.yml
+- filename: nowcerts-carriers-api-openapi.yml
   format: yaml
   label: NowCerts Carriers API
   slug: nowcerts-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowcerts/refs/heads/main/openapi/nowcerts-openapi.yml
-- filename: nowcerts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nowcerts/refs/heads/main/openapi/nowcerts-carriers-api-openapi.yml
+- filename: nowcerts-endorsements-api-openapi.yml
   format: yaml
   label: NowCerts Endorsements API
   slug: nowcerts-endorsements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowcerts/refs/heads/main/openapi/nowcerts-openapi.yml
-- filename: nowcerts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nowcerts/refs/heads/main/openapi/nowcerts-endorsements-api-openapi.yml
+- filename: nowcerts-insureds-api-openapi.yml
+  format: yaml
+  label: NowCerts Insureds API
+  slug: nowcerts-insureds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nowcerts/refs/heads/main/openapi/nowcerts-insureds-api-openapi.yml
+- filename: nowcerts-policies-api-openapi.yml
+  format: yaml
+  label: NowCerts Policies API
+  slug: nowcerts-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nowcerts/refs/heads/main/openapi/nowcerts-policies-api-openapi.yml
+- filename: nowcerts-tasks-api-openapi.yml
   format: yaml
   label: NowCerts Tasks API
   slug: nowcerts-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowcerts/refs/heads/main/openapi/nowcerts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nowcerts/refs/heads/main/openapi/nowcerts-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,17 +1,83 @@
 ---
 api_specs:
-- filename: codeproject-rest-api-openapi.yml
+- filename: codeproject-articles-api-openapi.yml
   format: yaml
-  label: CodeProject REST API
-  slug: codeproject-api
+  label: CodeProject Articles API
+  slug: codeproject-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-rest-api-openapi.yml
-- filename: codeproject-ai-server-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-articles-api-openapi.yml
+- filename: codeproject-audio-api-openapi.yml
   format: yaml
-  label: CodeProject.AI Server API
-  slug: codeproject-ai-server
+  label: CodeProject Audio API
+  slug: codeproject-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-ai-server-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-audio-api-openapi.yml
+- filename: codeproject-forummessages-api-openapi.yml
+  format: yaml
+  label: CodeProject ForumMessages API
+  slug: codeproject-forummessages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-forummessages-api-openapi.yml
+- filename: codeproject-image-processing-api-openapi.yml
+  format: yaml
+  label: CodeProject Image-Processing API
+  slug: codeproject-image-processing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-image-processing-api-openapi.yml
+- filename: codeproject-my-api-openapi.yml
+  format: yaml
+  label: CodeProject My API
+  slug: codeproject-my-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-my-api-openapi.yml
+- filename: codeproject-questions-api-openapi.yml
+  format: yaml
+  label: CodeProject Questions API
+  slug: codeproject-questions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-questions-api-openapi.yml
+- filename: codeproject-status-api-openapi.yml
+  format: yaml
+  label: CodeProject Status API
+  slug: codeproject-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-status-api-openapi.yml
+- filename: codeproject-text-api-openapi.yml
+  format: yaml
+  label: CodeProject Text API
+  slug: codeproject-text-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-text-api-openapi.yml
+- filename: codeproject-training-api-openapi.yml
+  format: yaml
+  label: CodeProject Training API
+  slug: codeproject-training-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-training-api-openapi.yml
+- filename: codeproject-vision-alpr-api-openapi.yml
+  format: yaml
+  label: CodeProject Vision-ALPR API
+  slug: codeproject-vision-alpr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-vision-alpr-api-openapi.yml
+- filename: codeproject-vision-detection-api-openapi.yml
+  format: yaml
+  label: CodeProject Vision-Detection API
+  slug: codeproject-vision-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-vision-detection-api-openapi.yml
+- filename: codeproject-vision-face-api-openapi.yml
+  format: yaml
+  label: CodeProject Vision-Face API
+  slug: codeproject-vision-face-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-vision-face-api-openapi.yml
+- filename: codeproject-vision-scene-api-openapi.yml
+  format: yaml
+  label: CodeProject Vision-Scene API
+  slug: codeproject-vision-scene-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-vision-scene-api-openapi.yml
 description: ''
 domains:
 - caa: []

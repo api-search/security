@@ -1,23 +1,29 @@
 ---
 api_specs:
-- filename: lbank-spot-market-rest-api.json
-  format: json
-  label: LBank Spot Market REST API
-  slug: spot-market-rest-api
+- filename: lbank-account-api-openapi.yml
+  format: yaml
+  label: LBank Account API
+  slug: lbank-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lbank/refs/heads/main/openapi/lbank-spot-market-rest-api.json
-- filename: lbank-spot-trading-rest-api.json
-  format: json
-  label: LBank Spot Trading REST API
-  slug: spot-trading-rest-api
+  url: https://raw.githubusercontent.com/api-evangelist/lbank/refs/heads/main/openapi/lbank-account-api-openapi.yml
+- filename: lbank-market-data-api-openapi.yml
+  format: yaml
+  label: LBank Market Data API
+  slug: lbank-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lbank/refs/heads/main/openapi/lbank-spot-trading-rest-api.json
-- filename: lbank-wallet-rest-api.json
-  format: json
-  label: LBank Wallet REST API
-  slug: wallet-rest-api
+  url: https://raw.githubusercontent.com/api-evangelist/lbank/refs/heads/main/openapi/lbank-market-data-api-openapi.yml
+- filename: lbank-orders-api-openapi.yml
+  format: yaml
+  label: LBank Orders API
+  slug: lbank-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lbank/refs/heads/main/openapi/lbank-wallet-rest-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/lbank/refs/heads/main/openapi/lbank-orders-api-openapi.yml
+- filename: lbank-wallet-api-openapi.yml
+  format: yaml
+  label: LBank Wallet API
+  slug: lbank-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lbank/refs/heads/main/openapi/lbank-wallet-api-openapi.yml
 description: ''
 domains:
 - caa: []

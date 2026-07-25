@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: compute.json
-  format: json
-  label: Azure Compute API
-  slug: azure-compute-api
+- filename: azure-cloud-availability-sets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Cloud Availability Sets API
+  slug: azure-cloud-availability-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/compute/resource-manager/Microsoft.Compute/stable/2023-03-01/compute.json
-- filename: storage.json
-  format: json
-  label: Azure Storage API
-  slug: azure-storage-api
+  url: https://raw.githubusercontent.com/api-evangelist/azure-cloud/refs/heads/main/openapi/azure-cloud-availability-sets-api-openapi.yml
+- filename: azure-cloud-disks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Cloud Disks API
+  slug: azure-cloud-disks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/storage/resource-manager/Microsoft.Storage/stable/2023-01-01/storage.json
+  url: https://raw.githubusercontent.com/api-evangelist/azure-cloud/refs/heads/main/openapi/azure-cloud-disks-api-openapi.yml
+- filename: azure-cloud-snapshots-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Cloud Snapshots API
+  slug: azure-cloud-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-cloud/refs/heads/main/openapi/azure-cloud-snapshots-api-openapi.yml
+- filename: azure-cloud-virtual-machine-scale-sets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Cloud Virtual Machine Scale Sets API
+  slug: azure-cloud-virtual-machine-scale-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-cloud/refs/heads/main/openapi/azure-cloud-virtual-machine-scale-sets-api-openapi.yml
+- filename: azure-cloud-virtual-machines-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Cloud Virtual Machines API
+  slug: azure-cloud-virtual-machines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-cloud/refs/heads/main/openapi/azure-cloud-virtual-machines-api-openapi.yml
 description: ''
 domains:
 - caa:

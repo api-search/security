@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: materials-zone-openapi.json
-  format: json
-  label: Materials Zone API
-  slug: materials-zone-api
+- filename: materials-zone-files-api-openapi.yml
+  format: yaml
+  label: Materials Zone files API
+  slug: materials-zone-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/openapi/materials-zone-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/openapi/materials-zone-files-api-openapi.yml
+- filename: materials-zone-folders-api-openapi.yml
+  format: yaml
+  label: Materials Zone folders API
+  slug: materials-zone-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/openapi/materials-zone-folders-api-openapi.yml
+- filename: materials-zone-items-api-openapi.yml
+  format: yaml
+  label: Materials Zone items API
+  slug: materials-zone-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/openapi/materials-zone-items-api-openapi.yml
+- filename: materials-zone-jobs-api-openapi.yml
+  format: yaml
+  label: Materials Zone jobs API
+  slug: materials-zone-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/openapi/materials-zone-jobs-api-openapi.yml
+- filename: materials-zone-measurements-api-openapi.yml
+  format: yaml
+  label: Materials Zone measurements API
+  slug: materials-zone-measurements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/openapi/materials-zone-measurements-api-openapi.yml
+- filename: materials-zone-parameters-api-openapi.yml
+  format: yaml
+  label: Materials Zone parameters API
+  slug: materials-zone-parameters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/openapi/materials-zone-parameters-api-openapi.yml
+- filename: materials-zone-parsers-api-openapi.yml
+  format: yaml
+  label: Materials Zone parsers API
+  slug: materials-zone-parsers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/openapi/materials-zone-parsers-api-openapi.yml
+- filename: materials-zone-protocols-api-openapi.yml
+  format: yaml
+  label: Materials Zone protocols API
+  slug: materials-zone-protocols-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/openapi/materials-zone-protocols-api-openapi.yml
+- filename: materials-zone-tables-api-openapi.yml
+  format: yaml
+  label: Materials Zone tables API
+  slug: materials-zone-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/openapi/materials-zone-tables-api-openapi.yml
 description: ''
 domains:
 - caa: []

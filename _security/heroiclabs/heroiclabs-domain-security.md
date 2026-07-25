@@ -6,12 +6,18 @@ api_specs:
   slug: nakama-api
   spec_type: OpenAPI
   url: https://heroiclabs.github.io/nakama-docs/
-- filename: heroiclabs-hiro-rpc-api-openapi.yml
+- filename: heroiclabs-console-api-openapi.yml
   format: yaml
-  label: Hiro RPC API
-  slug: hiro-api
+  label: Heroic Labs Console API
+  slug: heroiclabs-console-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/openapi/heroiclabs-hiro-rpc-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/openapi/heroiclabs-console-api-openapi.yml
+- filename: heroiclabs-rpc-api-openapi.yml
+  format: yaml
+  label: Heroic Labs Rpc API
+  slug: heroiclabs-rpc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/openapi/heroiclabs-rpc-api-openapi.yml
 description: ''
 domains:
 - caa: []

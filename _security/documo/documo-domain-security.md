@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: documo-openapi.yml
-  format: yaml
-  label: Documo Fax API
-  slug: fax
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documo/refs/heads/main/openapi/documo-openapi.yml
-- filename: documo-openapi.yml
-  format: yaml
-  label: Documo Numbers API
-  slug: numbers
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documo/refs/heads/main/openapi/documo-openapi.yml
-- filename: documo-openapi.yml
-  format: yaml
-  label: Documo Webhooks API
-  slug: webhooks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documo/refs/heads/main/openapi/documo-openapi.yml
-- filename: documo-openapi.yml
+- filename: documo-account-api-openapi.yml
   format: yaml
   label: Documo Account API
-  slug: account
+  slug: documo-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documo/refs/heads/main/openapi/documo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/documo/refs/heads/main/openapi/documo-account-api-openapi.yml
+- filename: documo-fax-api-openapi.yml
+  format: yaml
+  label: Documo Fax API
+  slug: documo-fax-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/documo/refs/heads/main/openapi/documo-fax-api-openapi.yml
+- filename: documo-numbers-api-openapi.yml
+  format: yaml
+  label: Documo Numbers API
+  slug: documo-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/documo/refs/heads/main/openapi/documo-numbers-api-openapi.yml
+- filename: documo-webhooks-api-openapi.yml
+  format: yaml
+  label: Documo Webhooks API
+  slug: documo-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/documo/refs/heads/main/openapi/documo-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

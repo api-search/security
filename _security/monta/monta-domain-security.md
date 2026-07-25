@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: monta-openapi.yml
+- filename: monta-authentication-api-openapi.yml
   format: yaml
-  label: Monta Charge Points
-  slug: charge-points
+  label: Monta Authentication API
+  slug: monta-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/openapi/monta-openapi.yml
-- filename: monta-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/openapi/monta-authentication-api-openapi.yml
+- filename: monta-charge-points-api-openapi.yml
   format: yaml
-  label: Monta Charges and Sessions
-  slug: charges-sessions
+  label: Monta Charge Points API
+  slug: monta-charge-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/openapi/monta-openapi.yml
-- filename: monta-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/openapi/monta-charge-points-api-openapi.yml
+- filename: monta-charges-api-openapi.yml
   format: yaml
-  label: Monta Teams
-  slug: teams
+  label: Monta Charges API
+  slug: monta-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/openapi/monta-openapi.yml
-- filename: monta-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/openapi/monta-charges-api-openapi.yml
+- filename: monta-utilities-api-openapi.yml
   format: yaml
-  label: Monta Wallets and Transactions
-  slug: wallets-transactions
+  label: Monta Utilities API
+  slug: monta-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/openapi/monta-openapi.yml
-- filename: monta-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/openapi/monta-utilities-api-openapi.yml
+- filename: monta-wallet-transactions-api-openapi.yml
   format: yaml
-  label: Monta Tariffs and Plans
-  slug: tariffs-plans
+  label: Monta Wallet Transactions API
+  slug: monta-wallet-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/openapi/monta-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/openapi/monta-wallet-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: yutori-openapi-original.json
-  format: json
-  label: Yutori API
-  slug: yutori-api
+- filename: yutori-browsing-api-openapi.yml
+  format: yaml
+  label: Yutori Browsing API
+  slug: yutori-browsing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/openapi/yutori-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/openapi/yutori-browsing-api-openapi.yml
+- filename: yutori-chat-completions-api-openapi.yml
+  format: yaml
+  label: Yutori Chat Completions API
+  slug: yutori-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/openapi/yutori-chat-completions-api-openapi.yml
+- filename: yutori-health-api-openapi.yml
+  format: yaml
+  label: Yutori Health API
+  slug: yutori-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/openapi/yutori-health-api-openapi.yml
+- filename: yutori-research-api-openapi.yml
+  format: yaml
+  label: Yutori Research API
+  slug: yutori-research-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/openapi/yutori-research-api-openapi.yml
+- filename: yutori-scouting-api-openapi.yml
+  format: yaml
+  label: Yutori Scouting API
+  slug: yutori-scouting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/openapi/yutori-scouting-api-openapi.yml
 auth_types:
 - apiKey
 - http

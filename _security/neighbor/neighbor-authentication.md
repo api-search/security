@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: neighbor-openapi.yml
+- filename: neighbor-public-api-openapi.yml
   format: yaml
-  label: Neighbor
-  slug: neighbor
+  label: Neighbor Public API
+  slug: neighbor-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neighbor/refs/heads/main/openapi/neighbor-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/neighbor/refs/heads/main/openapi/neighbor-public-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

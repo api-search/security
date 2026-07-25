@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: zayo-openapi-original.yml
+- filename: zayo-maintenance-cases-api-openapi.yml
   format: yaml
-  label: Zayo APIs
-  slug: zayo-apis
+  label: Zayo Maintenance Cases API
+  slug: zayo-maintenance-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-maintenance-cases-api-openapi.yml
+- filename: zayo-network-discovery-api-openapi.yml
+  format: yaml
+  label: Zayo Network Discovery API
+  slug: zayo-network-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-network-discovery-api-openapi.yml
+- filename: zayo-order-api-openapi.yml
+  format: yaml
+  label: Zayo Order API
+  slug: zayo-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-order-api-openapi.yml
+- filename: zayo-product-catalog-api-openapi.yml
+  format: yaml
+  label: Zayo Product Catalog API
+  slug: zayo-product-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-product-catalog-api-openapi.yml
+- filename: zayo-quote-api-openapi.yml
+  format: yaml
+  label: Zayo Quote API
+  slug: zayo-quote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-quote-api-openapi.yml
+- filename: zayo-service-inventory-api-openapi.yml
+  format: yaml
+  label: Zayo Service Inventory API
+  slug: zayo-service-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-service-inventory-api-openapi.yml
+- filename: zayo-ticket-catalog-api-openapi.yml
+  format: yaml
+  label: Zayo Ticket Catalog API
+  slug: zayo-ticket-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-ticket-catalog-api-openapi.yml
+- filename: zayo-ticketing-api-openapi.yml
+  format: yaml
+  label: Zayo Ticketing API
+  slug: zayo-ticketing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-ticketing-api-openapi.yml
 description: ''
 domains:
 - caa:

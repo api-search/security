@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: schema
+- filename: worldtimeapi-geo-api-openapi.yml
   format: yaml
-  label: World Time API
-  slug: world-time-api
+  label: World Time API Geo API
+  slug: worldtimeapi-geo-api
   spec_type: OpenAPI
-  url: https://timeapi.world/schema
+  url: https://raw.githubusercontent.com/api-evangelist/worldtimeapi/refs/heads/main/openapi/worldtimeapi-geo-api-openapi.yml
+- filename: worldtimeapi-geo-txt-api-openapi.yml
+  format: yaml
+  label: World Time API Geo.txt API
+  slug: worldtimeapi-geo-txt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worldtimeapi/refs/heads/main/openapi/worldtimeapi-geo-txt-api-openapi.yml
+- filename: worldtimeapi-ip-api-openapi.yml
+  format: yaml
+  label: World Time API Ip API
+  slug: worldtimeapi-ip-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worldtimeapi/refs/heads/main/openapi/worldtimeapi-ip-api-openapi.yml
+- filename: worldtimeapi-ip-txt-api-openapi.yml
+  format: yaml
+  label: World Time API Ip.txt API
+  slug: worldtimeapi-ip-txt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worldtimeapi/refs/heads/main/openapi/worldtimeapi-ip-txt-api-openapi.yml
+- filename: worldtimeapi-timezone-api-openapi.yml
+  format: yaml
+  label: World Time API Timezone API
+  slug: worldtimeapi-timezone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worldtimeapi/refs/heads/main/openapi/worldtimeapi-timezone-api-openapi.yml
+- filename: worldtimeapi-timezone-txt-api-openapi.yml
+  format: yaml
+  label: World Time API Timezone.txt API
+  slug: worldtimeapi-timezone-txt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worldtimeapi/refs/heads/main/openapi/worldtimeapi-timezone-txt-api-openapi.yml
 description: ''
 domains:
 - caa: []

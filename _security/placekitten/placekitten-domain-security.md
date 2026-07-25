@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: placekitten-openapi.yml
+- filename: placekitten-image-api-openapi.yml
   format: yaml
-  label: PlaceKitten
-  slug: placekitten
+  label: PlaceKitten Image API
+  slug: placekitten-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/placekitten/refs/heads/main/openapi/placekitten-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/placekitten/refs/heads/main/openapi/placekitten-image-api-openapi.yml
 description: ''
 domains:
 - caa: []

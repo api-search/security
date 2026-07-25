@@ -1,47 +1,155 @@
 ---
 api_specs:
-- filename: systemd1-openapi.yml
+- filename: systemd-boot-api-openapi.yml
   format: yaml
-  label: systemd Manager (org.freedesktop.systemd1)
-  slug: org-freedesktop-systemd1
+  label: systemd Boot API
+  slug: systemd-boot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd1-openapi.yml
-- filename: login1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-boot-api-openapi.yml
+- filename: systemd-cache-api-openapi.yml
   format: yaml
-  label: systemd-logind (org.freedesktop.login1)
-  slug: org-freedesktop-login1
+  label: systemd Cache API
+  slug: systemd-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/login1-openapi.yml
-- filename: network1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-cache-api-openapi.yml
+- filename: systemd-cgroups-api-openapi.yml
   format: yaml
-  label: systemd-networkd (org.freedesktop.network1)
-  slug: org-freedesktop-network1
+  label: systemd Cgroups API
+  slug: systemd-cgroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/network1-openapi.yml
-- filename: resolve1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-cgroups-api-openapi.yml
+- filename: systemd-configuration-api-openapi.yml
   format: yaml
-  label: systemd-resolved (org.freedesktop.resolve1)
-  slug: org-freedesktop-resolve1
+  label: systemd Configuration API
+  slug: systemd-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/resolve1-openapi.yml
-- filename: machine1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-configuration-api-openapi.yml
+- filename: systemd-credentials-api-openapi.yml
   format: yaml
-  label: systemd-machined (org.freedesktop.machine1)
-  slug: org-freedesktop-machine1
+  label: systemd Credentials API
+  slug: systemd-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/machine1-openapi.yml
-- filename: hostname1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-credentials-api-openapi.yml
+- filename: systemd-hostname-api-openapi.yml
   format: yaml
-  label: systemd-hostnamed (org.freedesktop.hostname1)
-  slug: org-freedesktop-hostname1
+  label: systemd Hostname API
+  slug: systemd-hostname-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/hostname1-openapi.yml
-- filename: varlink-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-hostname-api-openapi.yml
+- filename: systemd-image-api-openapi.yml
   format: yaml
-  label: systemd Varlink Interfaces (io.systemd.*)
-  slug: io-systemd-varlink
+  label: systemd Image API
+  slug: systemd-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/varlink-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-image-api-openapi.yml
+- filename: systemd-images-api-openapi.yml
+  format: yaml
+  label: systemd Images API
+  slug: systemd-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-images-api-openapi.yml
+- filename: systemd-inhibitors-api-openapi.yml
+  format: yaml
+  label: systemd Inhibitors API
+  slug: systemd-inhibitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-inhibitors-api-openapi.yml
+- filename: systemd-jobs-api-openapi.yml
+  format: yaml
+  label: systemd Jobs API
+  slug: systemd-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-jobs-api-openapi.yml
+- filename: systemd-links-api-openapi.yml
+  format: yaml
+  label: systemd Links API
+  slug: systemd-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-links-api-openapi.yml
+- filename: systemd-machine-info-api-openapi.yml
+  format: yaml
+  label: systemd Machine Info API
+  slug: systemd-machine-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-machine-info-api-openapi.yml
+- filename: systemd-machines-api-openapi.yml
+  format: yaml
+  label: systemd Machines API
+  slug: systemd-machines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-machines-api-openapi.yml
+- filename: systemd-manager-api-openapi.yml
+  format: yaml
+  label: systemd Manager API
+  slug: systemd-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-manager-api-openapi.yml
+- filename: systemd-pcr-api-openapi.yml
+  format: yaml
+  label: systemd PCR API
+  slug: systemd-pcr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-pcr-api-openapi.yml
+- filename: systemd-power-api-openapi.yml
+  format: yaml
+  label: systemd Power API
+  slug: systemd-power-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-power-api-openapi.yml
+- filename: systemd-resolution-api-openapi.yml
+  format: yaml
+  label: systemd Resolution API
+  slug: systemd-resolution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-resolution-api-openapi.yml
+- filename: systemd-resolve-api-openapi.yml
+  format: yaml
+  label: systemd Resolve API
+  slug: systemd-resolve-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-resolve-api-openapi.yml
+- filename: systemd-seats-api-openapi.yml
+  format: yaml
+  label: systemd Seats API
+  slug: systemd-seats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-seats-api-openapi.yml
+- filename: systemd-sessions-api-openapi.yml
+  format: yaml
+  label: systemd Sessions API
+  slug: systemd-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-sessions-api-openapi.yml
+- filename: systemd-snapshots-api-openapi.yml
+  format: yaml
+  label: systemd Snapshots API
+  slug: systemd-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-snapshots-api-openapi.yml
+- filename: systemd-unit-api-openapi.yml
+  format: yaml
+  label: systemd Unit API
+  slug: systemd-unit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-unit-api-openapi.yml
+- filename: systemd-units-api-openapi.yml
+  format: yaml
+  label: systemd Units API
+  slug: systemd-units-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-units-api-openapi.yml
+- filename: systemd-userdatabase-api-openapi.yml
+  format: yaml
+  label: systemd UserDatabase API
+  slug: systemd-userdatabase-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-userdatabase-api-openapi.yml
+- filename: systemd-users-api-openapi.yml
+  format: yaml
+  label: systemd Users API
+  slug: systemd-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/openapi/systemd-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

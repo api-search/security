@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: shoppable-cloud-openapi-original.yml
+- filename: shoppable-catalog-api-openapi.yml
   format: yaml
-  label: Shoppable Commerce API Suite
-  slug: shoppable-commerce-api-suite
+  label: Shoppable Catalog API
+  slug: shoppable-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/openapi/shoppable-cloud-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/openapi/shoppable-catalog-api-openapi.yml
+- filename: shoppable-checkout-api-openapi.yml
+  format: yaml
+  label: Shoppable Checkout API
+  slug: shoppable-checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/openapi/shoppable-checkout-api-openapi.yml
+- filename: shoppable-merchants-api-openapi.yml
+  format: yaml
+  label: Shoppable Merchants API
+  slug: shoppable-merchants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/openapi/shoppable-merchants-api-openapi.yml
+- filename: shoppable-orderdata-api-openapi.yml
+  format: yaml
+  label: Shoppable OrderData API
+  slug: shoppable-orderdata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/openapi/shoppable-orderdata-api-openapi.yml
+- filename: shoppable-orders-api-openapi.yml
+  format: yaml
+  label: Shoppable Orders API
+  slug: shoppable-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/openapi/shoppable-orders-api-openapi.yml
+- filename: shoppable-products-api-openapi.yml
+  format: yaml
+  label: Shoppable Products API
+  slug: shoppable-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/openapi/shoppable-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

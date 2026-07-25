@@ -1,47 +1,71 @@
 ---
 api_specs:
-- filename: terminal-shop-openapi.yml
+- filename: terminal-shop-address-api-openapi.yml
   format: yaml
-  label: Terminal Products API
-  slug: products
+  label: Terminal Address API
+  slug: terminal-shop-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-openapi.yml
-- filename: terminal-shop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-address-api-openapi.yml
+- filename: terminal-shop-app-api-openapi.yml
+  format: yaml
+  label: Terminal App API
+  slug: terminal-shop-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-app-api-openapi.yml
+- filename: terminal-shop-card-api-openapi.yml
+  format: yaml
+  label: Terminal Card API
+  slug: terminal-shop-card-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-card-api-openapi.yml
+- filename: terminal-shop-cart-api-openapi.yml
   format: yaml
   label: Terminal Cart API
-  slug: cart
+  slug: terminal-shop-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-openapi.yml
-- filename: terminal-shop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-cart-api-openapi.yml
+- filename: terminal-shop-email-api-openapi.yml
   format: yaml
-  label: Terminal Orders API
-  slug: orders
+  label: Terminal Email API
+  slug: terminal-shop-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-openapi.yml
-- filename: terminal-shop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-email-api-openapi.yml
+- filename: terminal-shop-order-api-openapi.yml
   format: yaml
-  label: Terminal Subscriptions API
-  slug: subscriptions
+  label: Terminal Order API
+  slug: terminal-shop-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-openapi.yml
-- filename: terminal-shop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-order-api-openapi.yml
+- filename: terminal-shop-product-api-openapi.yml
   format: yaml
-  label: Terminal Addresses & Cards API
-  slug: addresses-cards
+  label: Terminal Product API
+  slug: terminal-shop-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-openapi.yml
-- filename: terminal-shop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-product-api-openapi.yml
+- filename: terminal-shop-profile-api-openapi.yml
   format: yaml
   label: Terminal Profile API
-  slug: profile
+  slug: terminal-shop-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-openapi.yml
-- filename: terminal-shop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-profile-api-openapi.yml
+- filename: terminal-shop-subscription-api-openapi.yml
   format: yaml
-  label: Terminal Tokens & Apps API
-  slug: tokens
+  label: Terminal Subscription API
+  slug: terminal-shop-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-subscription-api-openapi.yml
+- filename: terminal-shop-token-api-openapi.yml
+  format: yaml
+  label: Terminal Token API
+  slug: terminal-shop-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-token-api-openapi.yml
+- filename: terminal-shop-view-api-openapi.yml
+  format: yaml
+  label: Terminal View API
+  slug: terminal-shop-view-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-view-api-openapi.yml
 description: ''
 domains:
 - caa:

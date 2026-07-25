@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cyberark-conjur-openapi.yml
+- filename: cyberark-authentication-api-openapi.yml
   format: yaml
-  label: CyberArk Conjur Secrets Manager API
-  slug: conjur
+  label: CyberArk Authentication API
+  slug: cyberark-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-conjur-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-authentication-api-openapi.yml
+- filename: cyberark-health-api-openapi.yml
+  format: yaml
+  label: CyberArk Health API
+  slug: cyberark-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-health-api-openapi.yml
+- filename: cyberark-policies-api-openapi.yml
+  format: yaml
+  label: CyberArk Policies API
+  slug: cyberark-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-policies-api-openapi.yml
+- filename: cyberark-publickeys-api-openapi.yml
+  format: yaml
+  label: CyberArk PublicKeys API
+  slug: cyberark-publickeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-publickeys-api-openapi.yml
+- filename: cyberark-resources-api-openapi.yml
+  format: yaml
+  label: CyberArk Resources API
+  slug: cyberark-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-resources-api-openapi.yml
+- filename: cyberark-roles-api-openapi.yml
+  format: yaml
+  label: CyberArk Roles API
+  slug: cyberark-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-roles-api-openapi.yml
+- filename: cyberark-secrets-api-openapi.yml
+  format: yaml
+  label: CyberArk Secrets API
+  slug: cyberark-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-secrets-api-openapi.yml
 auth_types:
 - http
 description: ''

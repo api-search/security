@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: allianz-future-cloud-platform-services.yaml
+- filename: allianz-future-cloud-platform-deployments-api-openapi.yml
+  format: yaml
+  label: Allianz Future Cloud Platform Deployments API
+  slug: allianz-future-cloud-platform-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-deployments-api-openapi.yml
+- filename: allianz-future-cloud-platform-infrastructure-api-openapi.yml
+  format: yaml
+  label: Allianz Future Cloud Platform Infrastructure API
+  slug: allianz-future-cloud-platform-infrastructure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-infrastructure-api-openapi.yml
+- filename: allianz-future-cloud-platform-namespaces-api-openapi.yml
+  format: yaml
+  label: Allianz Future Cloud Platform Namespaces API
+  slug: allianz-future-cloud-platform-namespaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-namespaces-api-openapi.yml
+- filename: allianz-future-cloud-platform-observability-api-openapi.yml
+  format: yaml
+  label: Allianz Future Cloud Platform Observability API
+  slug: allianz-future-cloud-platform-observability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-observability-api-openapi.yml
+- filename: allianz-future-cloud-platform-services-api-openapi.yml
   format: yaml
   label: Allianz Future Cloud Platform Services API
-  slug: platform-services-api
+  slug: allianz-future-cloud-platform-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-services.yaml
-- filename: allianz-future-cloud-platform-policy.yaml
-  format: yaml
-  label: Allianz Insurance Policy Microservice API
-  slug: policy-microservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-policy.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-services-api-openapi.yml
 description: ''
 domains:
 - caa: []

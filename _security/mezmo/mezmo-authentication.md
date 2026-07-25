@@ -2,66 +2,120 @@
 api_key_in:
 - header
 api_specs:
-- filename: mezmo-log-ingestion-api-openapi.yml
-  format: yaml
-  label: Mezmo Log Ingestion API
-  slug: mezmo-log-ingestion-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-log-ingestion-api-openapi.yml
-- filename: mezmo-log-export-api-openapi.yml
-  format: yaml
-  label: Mezmo Log Export API
-  slug: mezmo-log-export-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-log-export-api-openapi.yml
 - filename: mezmo-views-api-openapi.yml
   format: yaml
   label: Mezmo Views API
   slug: mezmo-views-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-views-api-openapi.yml
-- filename: mezmo-alerts-api-openapi.yml
-  format: yaml
-  label: Mezmo Alerts API
-  slug: mezmo-alerts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-alerts-api-openapi.yml
 - filename: mezmo-archiving-api-openapi.yml
   format: yaml
   label: Mezmo Archiving API
   slug: mezmo-archiving-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-archiving-api-openapi.yml
-- filename: mezmo-ingestion-control-api-openapi.yml
-  format: yaml
-  label: Mezmo Ingestion Control API
-  slug: mezmo-ingestion-control-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-ingestion-control-api-openapi.yml
 - filename: mezmo-usage-api-openapi.yml
   format: yaml
   label: Mezmo Usage API
   slug: mezmo-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-usage-api-openapi.yml
-- filename: mezmo-pipeline-api-openapi.yml
+- filename: mezmo-auditevents-api-openapi.yml
   format: yaml
-  label: Mezmo Pipeline API
-  slug: mezmo-pipeline-api
+  label: Mezmo AuditEvents API
+  slug: mezmo-auditevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-pipeline-api-openapi.yml
-- filename: mezmo-pipeline-classification-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-auditevents-api-openapi.yml
+- filename: mezmo-classification-api-openapi.yml
   format: yaml
-  label: Mezmo Pipeline Classification API
-  slug: mezmo-pipeline-classification-api
+  label: Mezmo Classification API
+  slug: mezmo-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-pipeline-classification-api-openapi.yml
-- filename: mezmo-edge-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-classification-api-openapi.yml
+- filename: mezmo-deployments-api-openapi.yml
   format: yaml
-  label: Mezmo Edge API
-  slug: mezmo-edge-api
+  label: Mezmo Deployments API
+  slug: mezmo-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-edge-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-deployments-api-openapi.yml
+- filename: mezmo-destinations-api-openapi.yml
+  format: yaml
+  label: Mezmo Destinations API
+  slug: mezmo-destinations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-destinations-api-openapi.yml
+- filename: mezmo-edgeclients-api-openapi.yml
+  format: yaml
+  label: Mezmo EdgeClients API
+  slug: mezmo-edgeclients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-edgeclients-api-openapi.yml
+- filename: mezmo-exclusions-api-openapi.yml
+  format: yaml
+  label: Mezmo Exclusions API
+  slug: mezmo-exclusions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-exclusions-api-openapi.yml
+- filename: mezmo-export-api-openapi.yml
+  format: yaml
+  label: Mezmo Export API
+  slug: mezmo-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-export-api-openapi.yml
+- filename: mezmo-heartbeats-api-openapi.yml
+  format: yaml
+  label: Mezmo Heartbeats API
+  slug: mezmo-heartbeats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-heartbeats-api-openapi.yml
+- filename: mezmo-logs-api-openapi.yml
+  format: yaml
+  label: Mezmo Logs API
+  slug: mezmo-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-logs-api-openapi.yml
+- filename: mezmo-metrics-api-openapi.yml
+  format: yaml
+  label: Mezmo Metrics API
+  slug: mezmo-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-metrics-api-openapi.yml
+- filename: mezmo-pipelines-api-openapi.yml
+  format: yaml
+  label: Mezmo Pipelines API
+  slug: mezmo-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-pipelines-api-openapi.yml
+- filename: mezmo-presetalerts-api-openapi.yml
+  format: yaml
+  label: Mezmo PresetAlerts API
+  slug: mezmo-presetalerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-presetalerts-api-openapi.yml
+- filename: mezmo-processors-api-openapi.yml
+  format: yaml
+  label: Mezmo Processors API
+  slug: mezmo-processors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-processors-api-openapi.yml
+- filename: mezmo-sources-api-openapi.yml
+  format: yaml
+  label: Mezmo Sources API
+  slug: mezmo-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-sources-api-openapi.yml
+- filename: mezmo-suspension-api-openapi.yml
+  format: yaml
+  label: Mezmo Suspension API
+  slug: mezmo-suspension-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-suspension-api-openapi.yml
+- filename: mezmo-tasks-api-openapi.yml
+  format: yaml
+  label: Mezmo Tasks API
+  slug: mezmo-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-tasks-api-openapi.yml
 auth_types:
 - apiKey
 - http

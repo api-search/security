@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: api-docs.defillama.com
+- filename: hegic-accounts-api-openapi.yml
   format: yaml
-  label: DefiLlama Hegic Protocol API
-  slug: defillama-hegic-protocol-api
+  label: Hegic Accounts API
+  slug: hegic-accounts-api
   spec_type: OpenAPI
-  url: https://api-docs.defillama.com
+  url: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/openapi/hegic-accounts-api-openapi.yml
+- filename: hegic-contracts-api-openapi.yml
+  format: yaml
+  label: Hegic Contracts API
+  slug: hegic-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/openapi/hegic-contracts-api-openapi.yml
+- filename: hegic-fees-api-openapi.yml
+  format: yaml
+  label: Hegic Fees API
+  slug: hegic-fees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/openapi/hegic-fees-api-openapi.yml
+- filename: hegic-options-api-openapi.yml
+  format: yaml
+  label: Hegic Options API
+  slug: hegic-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/openapi/hegic-options-api-openapi.yml
+- filename: hegic-prices-api-openapi.yml
+  format: yaml
+  label: Hegic Prices API
+  slug: hegic-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/openapi/hegic-prices-api-openapi.yml
+- filename: hegic-tokens-api-openapi.yml
+  format: yaml
+  label: Hegic Tokens API
+  slug: hegic-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/openapi/hegic-tokens-api-openapi.yml
+- filename: hegic-tvl-api-openapi.yml
+  format: yaml
+  label: Hegic TVL API
+  slug: hegic-tvl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/openapi/hegic-tvl-api-openapi.yml
 description: ''
 domains:
 - caa: []

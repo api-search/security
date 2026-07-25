@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: amazon-freertos-openapi.yml
+- filename: amazon-freertos-ota-updates-api-openapi.yml
   format: yaml
-  label: Amazon FreeRTOS API
-  slug: amazon-freertos-api
+  label: Amazon FreeRTOS OTA Updates API
+  slug: amazon-freertos-ota-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/openapi/amazon-freertos-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/openapi/amazon-freertos-ota-updates-api-openapi.yml
+- filename: amazon-freertos-software-configurations-api-openapi.yml
+  format: yaml
+  label: Amazon FreeRTOS Software Configurations API
+  slug: amazon-freertos-software-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/openapi/amazon-freertos-software-configurations-api-openapi.yml
+- filename: amazon-freertos-tags-api-openapi.yml
+  format: yaml
+  label: Amazon FreeRTOS Tags API
+  slug: amazon-freertos-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/openapi/amazon-freertos-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

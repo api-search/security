@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: magaya-openapi.yml
-  format: yaml
-  label: Magaya Shipments API
-  slug: magaya-shipments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-openapi.yml
-- filename: magaya-openapi.yml
-  format: yaml
-  label: Magaya Warehouse Receipts API
-  slug: magaya-warehouse-receipts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-openapi.yml
-- filename: magaya-openapi.yml
+- filename: magaya-invoices-api-openapi.yml
   format: yaml
   label: Magaya Invoices API
   slug: magaya-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-openapi.yml
-- filename: magaya-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-invoices-api-openapi.yml
+- filename: magaya-items-api-openapi.yml
   format: yaml
   label: Magaya Items API
   slug: magaya-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-openapi.yml
-- filename: magaya-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-items-api-openapi.yml
+- filename: magaya-shipments-api-openapi.yml
+  format: yaml
+  label: Magaya Shipments API
+  slug: magaya-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-shipments-api-openapi.yml
+- filename: magaya-transactions-api-openapi.yml
   format: yaml
   label: Magaya Transactions API
   slug: magaya-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-transactions-api-openapi.yml
+- filename: magaya-warehouse-receipts-api-openapi.yml
+  format: yaml
+  label: Magaya Warehouse Receipts API
+  slug: magaya-warehouse-receipts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-warehouse-receipts-api-openapi.yml
 description: ''
 domains:
 - caa: []

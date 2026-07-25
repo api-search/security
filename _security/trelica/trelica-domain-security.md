@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: trelica-rest-api-openapi.yml
+- filename: trelica-application-users-api-openapi.yml
   format: yaml
-  label: Trelica REST API
-  slug: trelica
+  label: Trelica Application Users API
+  slug: trelica-application-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-application-users-api-openapi.yml
+- filename: trelica-applications-api-openapi.yml
+  format: yaml
+  label: Trelica Applications API
+  slug: trelica-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-applications-api-openapi.yml
+- filename: trelica-assets-api-openapi.yml
+  format: yaml
+  label: Trelica Assets API
+  slug: trelica-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-assets-api-openapi.yml
+- filename: trelica-audit-log-api-openapi.yml
+  format: yaml
+  label: Trelica Audit Log API
+  slug: trelica-audit-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-audit-log-api-openapi.yml
+- filename: trelica-contracts-api-openapi.yml
+  format: yaml
+  label: Trelica Contracts API
+  slug: trelica-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-contracts-api-openapi.yml
+- filename: trelica-people-api-openapi.yml
+  format: yaml
+  label: Trelica People API
+  slug: trelica-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-people-api-openapi.yml
+- filename: trelica-users-scim-api-openapi.yml
+  format: yaml
+  label: Trelica Users (SCIM) API
+  slug: trelica-users-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-users-scim-api-openapi.yml
+- filename: trelica-workflows-api-openapi.yml
+  format: yaml
+  label: Trelica Workflows API
+  slug: trelica-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-workflows-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Ally Financial Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for ALLY Financial, probed live across 2 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: ALLY Financial
+overview: 'Domain security posture for Ally Financial, probed live across 2 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Ally Financial
 provider_slug: ally-financial
 slug: ally-financial-domain-security
 source_filename: ally-financial-domain-security.yml
@@ -30,5 +30,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ally-financial/refs/heads/main/security/ally-financial-domain-security.yml
 summary_line: DMARC
 tags:
+- Banking
+- Auto Finance
+- Investing
+- Lending
+- Open Finance
+- United States
+- Super-Regional Bank
 - Fortune 500
 ---

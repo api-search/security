@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: leaseaccelerator-api-openapi.yml
+- filename: leaseaccelerator-documents-api-openapi.yml
   format: yaml
-  label: LeaseAccelerator API
-  slug: leaseaccelerator-api
+  label: LeaseAccelerator Documents API
+  slug: leaseaccelerator-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-documents-api-openapi.yml
+- filename: leaseaccelerator-events-api-openapi.yml
+  format: yaml
+  label: LeaseAccelerator Events API
+  slug: leaseaccelerator-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-events-api-openapi.yml
+- filename: leaseaccelerator-financials-api-openapi.yml
+  format: yaml
+  label: LeaseAccelerator Financials API
+  slug: leaseaccelerator-financials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-financials-api-openapi.yml
+- filename: leaseaccelerator-portfolio-api-openapi.yml
+  format: yaml
+  label: LeaseAccelerator Portfolio API
+  slug: leaseaccelerator-portfolio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-portfolio-api-openapi.yml
+- filename: leaseaccelerator-process-status-api-openapi.yml
+  format: yaml
+  label: LeaseAccelerator Process Status API
+  slug: leaseaccelerator-process-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-process-status-api-openapi.yml
+- filename: leaseaccelerator-reference-data-api-openapi.yml
+  format: yaml
+  label: LeaseAccelerator Reference Data API
+  slug: leaseaccelerator-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-reference-data-api-openapi.yml
+- filename: leaseaccelerator-reporting-api-openapi.yml
+  format: yaml
+  label: LeaseAccelerator Reporting API
+  slug: leaseaccelerator-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-reporting-api-openapi.yml
+- filename: leaseaccelerator-search-api-openapi.yml
+  format: yaml
+  label: LeaseAccelerator Search API
+  slug: leaseaccelerator-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-search-api-openapi.yml
+- filename: leaseaccelerator-user-provisioning-api-openapi.yml
+  format: yaml
+  label: LeaseAccelerator User Provisioning API
+  slug: leaseaccelerator-user-provisioning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-user-provisioning-api-openapi.yml
 certifications:
 - SOC 2 Type 2
 - SOC 1 Type 2

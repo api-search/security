@@ -1,17 +1,47 @@
 ---
 api_specs:
-- filename: unitedhealthcare-provider-api-openapi.yml
+- filename: unitedhealthcare-claims-api-openapi.yml
   format: yaml
-  label: UnitedHealthcare Provider API
-  slug: provider-api
+  label: UnitedHealthcare Claims API
+  slug: unitedhealthcare-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/openapi/unitedhealthcare-provider-api-openapi.yml
-- filename: unitedhealthcare-interoperability-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/openapi/unitedhealthcare-claims-api-openapi.yml
+- filename: unitedhealthcare-eligibility-api-openapi.yml
   format: yaml
-  label: UnitedHealthcare Interoperability API
-  slug: interoperability-api
+  label: UnitedHealthcare Eligibility API
+  slug: unitedhealthcare-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/openapi/unitedhealthcare-interoperability-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/openapi/unitedhealthcare-eligibility-api-openapi.yml
+- filename: unitedhealthcare-formulary-api-openapi.yml
+  format: yaml
+  label: UnitedHealthcare Formulary API
+  slug: unitedhealthcare-formulary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/openapi/unitedhealthcare-formulary-api-openapi.yml
+- filename: unitedhealthcare-patient-access-api-openapi.yml
+  format: yaml
+  label: UnitedHealthcare Patient Access API
+  slug: unitedhealthcare-patient-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/openapi/unitedhealthcare-patient-access-api-openapi.yml
+- filename: unitedhealthcare-prior-authorization-api-openapi.yml
+  format: yaml
+  label: UnitedHealthcare Prior Authorization API
+  slug: unitedhealthcare-prior-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/openapi/unitedhealthcare-prior-authorization-api-openapi.yml
+- filename: unitedhealthcare-provider-directory-api-openapi.yml
+  format: yaml
+  label: UnitedHealthcare Provider Directory API
+  slug: unitedhealthcare-provider-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/openapi/unitedhealthcare-provider-directory-api-openapi.yml
+- filename: unitedhealthcare-providers-api-openapi.yml
+  format: yaml
+  label: UnitedHealthcare Providers API
+  slug: unitedhealthcare-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/openapi/unitedhealthcare-providers-api-openapi.yml
 description: ''
 domains:
 - caa: []

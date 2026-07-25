@@ -2,66 +2,66 @@
 api_key_in:
 - query
 api_specs:
-- filename: qgiv-openapi.yml
-  format: yaml
-  label: Qgiv Transactions API
-  slug: qgiv-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-openapi.yml
-- filename: qgiv-openapi.yml
-  format: yaml
-  label: Qgiv Recurring Donations API
-  slug: qgiv-recurring-donations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-openapi.yml
-- filename: qgiv-openapi.yml
-  format: yaml
-  label: Qgiv Refunds API
-  slug: qgiv-refunds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-openapi.yml
-- filename: qgiv-openapi.yml
-  format: yaml
-  label: Qgiv Peer-to-Peer Registrations API
-  slug: qgiv-peer-to-peer-registrations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-openapi.yml
-- filename: qgiv-openapi.yml
-  format: yaml
-  label: Qgiv Events API
-  slug: qgiv-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-openapi.yml
-- filename: qgiv-openapi.yml
+- filename: qgiv-account-settings-api-openapi.yml
   format: yaml
   label: Qgiv Account Settings API
   slug: qgiv-account-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-openapi.yml
-- filename: qgiv-openapi.yml
-  format: yaml
-  label: Qgiv Custom Fields API
-  slug: qgiv-custom-fields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-openapi.yml
-- filename: qgiv-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-account-settings-api-openapi.yml
+- filename: qgiv-custom-amounts-api-openapi.yml
   format: yaml
   label: Qgiv Custom Amounts API
   slug: qgiv-custom-amounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-openapi.yml
-- filename: qgiv-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-custom-amounts-api-openapi.yml
+- filename: qgiv-custom-fields-api-openapi.yml
+  format: yaml
+  label: Qgiv Custom Fields API
+  slug: qgiv-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-custom-fields-api-openapi.yml
+- filename: qgiv-events-api-openapi.yml
+  format: yaml
+  label: Qgiv Events API
+  slug: qgiv-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-events-api-openapi.yml
+- filename: qgiv-mappings-api-openapi.yml
+  format: yaml
+  label: Qgiv Mappings API
+  slug: qgiv-mappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-mappings-api-openapi.yml
+- filename: qgiv-recurring-api-openapi.yml
+  format: yaml
+  label: Qgiv Recurring API
+  slug: qgiv-recurring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-recurring-api-openapi.yml
+- filename: qgiv-refunds-api-openapi.yml
+  format: yaml
+  label: Qgiv Refunds API
+  slug: qgiv-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-refunds-api-openapi.yml
+- filename: qgiv-registrations-api-openapi.yml
+  format: yaml
+  label: Qgiv Registrations API
+  slug: qgiv-registrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-registrations-api-openapi.yml
+- filename: qgiv-statements-api-openapi.yml
   format: yaml
   label: Qgiv Statements API
   slug: qgiv-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-openapi.yml
-- filename: qgiv-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-statements-api-openapi.yml
+- filename: qgiv-transactions-api-openapi.yml
   format: yaml
-  label: Qgiv Report Mappings API
-  slug: qgiv-report-mappings-api
+  label: Qgiv Transactions API
+  slug: qgiv-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-transactions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

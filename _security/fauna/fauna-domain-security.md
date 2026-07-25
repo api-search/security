@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: fauna-core-http-api-openapi.yml
-  format: yaml
-  label: Fauna Core HTTP API
-  slug: core-http-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/openapi/fauna-core-http-api-openapi.yml
 - filename: fauna-event-streaming-asyncapi.yml
   format: yaml
   label: Fauna Event Streaming API
@@ -18,6 +12,24 @@ api_specs:
   slug: graphql-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/openapi/fauna-graphql-api-openapi.yml
+- filename: fauna-eventfeeds-api-openapi.yml
+  format: yaml
+  label: fauna EventFeeds API
+  slug: fauna-eventfeeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/openapi/fauna-eventfeeds-api-openapi.yml
+- filename: fauna-query-api-openapi.yml
+  format: yaml
+  label: fauna Query API
+  slug: fauna-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/openapi/fauna-query-api-openapi.yml
+- filename: fauna-schema-api-openapi.yml
+  format: yaml
+  label: fauna Schema API
+  slug: fauna-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/openapi/fauna-schema-api-openapi.yml
 description: ''
 domains:
 - caa: []

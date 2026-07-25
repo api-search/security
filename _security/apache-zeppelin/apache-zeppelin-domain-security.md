@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: apache-zeppelin-openapi.yml
+- filename: apache-zeppelin-notebook-api-openapi.yml
   format: yaml
-  label: Apache Zeppelin REST API
-  slug: apache-zeppelin-rest-api
+  label: Apache Zeppelin Notebook API
+  slug: apache-zeppelin-notebook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-zeppelin/refs/heads/main/openapi/apache-zeppelin-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-zeppelin/refs/heads/main/openapi/apache-zeppelin-notebook-api-openapi.yml
 description: ''
 domains:
 - caa:

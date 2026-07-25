@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Reka API
-  slug: reka-api
+- filename: reka-chat-api-openapi.yml
+  format: yaml
+  label: Reka Chat API
+  slug: reka-chat-api
   spec_type: OpenAPI
-  url: https://api.reka.ai/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-chat-api-openapi.yml
+- filename: reka-clips-api-openapi.yml
+  format: yaml
+  label: Reka Clips API
+  slug: reka-clips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-clips-api-openapi.yml
+- filename: reka-models-api-openapi.yml
+  format: yaml
+  label: Reka Models API
+  slug: reka-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-models-api-openapi.yml
+- filename: reka-qa-api-openapi.yml
+  format: yaml
+  label: Reka QA API
+  slug: reka-qa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-qa-api-openapi.yml
+- filename: reka-research-api-openapi.yml
+  format: yaml
+  label: Reka Research API
+  slug: reka-research-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-research-api-openapi.yml
+- filename: reka-search-api-openapi.yml
+  format: yaml
+  label: Reka Search API
+  slug: reka-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-search-api-openapi.yml
+- filename: reka-speech-api-openapi.yml
+  format: yaml
+  label: Reka Speech API
+  slug: reka-speech-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-speech-api-openapi.yml
+- filename: reka-videogroups-api-openapi.yml
+  format: yaml
+  label: Reka VideoGroups API
+  slug: reka-videogroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-videogroups-api-openapi.yml
+- filename: reka-videos-api-openapi.yml
+  format: yaml
+  label: Reka Videos API
+  slug: reka-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-videos-api-openapi.yml
 auth_types:
 - http
 description: ''

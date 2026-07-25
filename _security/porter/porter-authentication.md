@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: porter-bundle-openapi.yml
+- filename: porter-bundles-api-openapi.yml
   format: yaml
-  label: Porter Bundle API
-  slug: porter-bundle-api
+  label: Porter Bundles API
+  slug: porter-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/openapi/porter-bundle-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/openapi/porter-bundles-api-openapi.yml
+- filename: porter-credentialsets-api-openapi.yml
+  format: yaml
+  label: Porter CredentialSets API
+  slug: porter-credentialsets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/openapi/porter-credentialsets-api-openapi.yml
+- filename: porter-installations-api-openapi.yml
+  format: yaml
+  label: Porter Installations API
+  slug: porter-installations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/openapi/porter-installations-api-openapi.yml
+- filename: porter-parametersets-api-openapi.yml
+  format: yaml
+  label: Porter ParameterSets API
+  slug: porter-parametersets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/openapi/porter-parametersets-api-openapi.yml
+- filename: porter-runs-api-openapi.yml
+  format: yaml
+  label: Porter Runs API
+  slug: porter-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/openapi/porter-runs-api-openapi.yml
 auth_types:
 - http
 description: ''

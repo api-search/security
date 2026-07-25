@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: release-openapi-original.json
-  format: json
-  label: Release Platform API
-  slug: release-platform-api
+- filename: release-accounts-api-openapi.yml
+  format: yaml
+  label: Release Accounts API
+  slug: release-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/openapi/release-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/openapi/release-accounts-api-openapi.yml
+- filename: release-apps-api-openapi.yml
+  format: yaml
+  label: Release Apps API
+  slug: release-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/openapi/release-apps-api-openapi.yml
+- filename: release-builds-api-openapi.yml
+  format: yaml
+  label: Release Builds API
+  slug: release-builds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/openapi/release-builds-api-openapi.yml
+- filename: release-clusters-api-openapi.yml
+  format: yaml
+  label: Release Clusters API
+  slug: release-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/openapi/release-clusters-api-openapi.yml
+- filename: release-configs-api-openapi.yml
+  format: yaml
+  label: Release Configs API
+  slug: release-configs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/openapi/release-configs-api-openapi.yml
+- filename: release-deploys-api-openapi.yml
+  format: yaml
+  label: Release Deploys API
+  slug: release-deploys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/openapi/release-deploys-api-openapi.yml
+- filename: release-environments-api-openapi.yml
+  format: yaml
+  label: Release Environments API
+  slug: release-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/openapi/release-environments-api-openapi.yml
+- filename: release-instances-api-openapi.yml
+  format: yaml
+  label: Release Instances API
+  slug: release-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/openapi/release-instances-api-openapi.yml
+- filename: release-remote-development-api-openapi.yml
+  format: yaml
+  label: Release Remote Development API
+  slug: release-remote-development-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/openapi/release-remote-development-api-openapi.yml
 certifications:
 - SOC 2
 description: ''

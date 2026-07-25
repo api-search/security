@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: seon-docs-openapi.yml
+- filename: seon-docs-aml-api-openapi.yml
+  format: yaml
+  label: SEON AML API
+  slug: seon-docs-aml-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seon-docs/refs/heads/main/openapi/seon-docs-aml-api-openapi.yml
+- filename: seon-docs-bin-api-openapi.yml
+  format: yaml
+  label: SEON BIN API
+  slug: seon-docs-bin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seon-docs/refs/heads/main/openapi/seon-docs-bin-api-openapi.yml
+- filename: seon-docs-email-api-openapi.yml
+  format: yaml
+  label: SEON Email API
+  slug: seon-docs-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seon-docs/refs/heads/main/openapi/seon-docs-email-api-openapi.yml
+- filename: seon-docs-fraud-api-openapi.yml
   format: yaml
   label: SEON Fraud API
-  slug: fraud-api
+  slug: seon-docs-fraud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seon-docs/refs/heads/main/openapi/seon-docs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/seon-docs/refs/heads/main/openapi/seon-docs-fraud-api-openapi.yml
+- filename: seon-docs-ip-api-openapi.yml
+  format: yaml
+  label: SEON IP API
+  slug: seon-docs-ip-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seon-docs/refs/heads/main/openapi/seon-docs-ip-api-openapi.yml
+- filename: seon-docs-phone-api-openapi.yml
+  format: yaml
+  label: SEON Phone API
+  slug: seon-docs-phone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seon-docs/refs/heads/main/openapi/seon-docs-phone-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

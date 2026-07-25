@@ -1,29 +1,47 @@
 ---
 api_specs:
-- filename: olo-ordering-openapi.yml
-  format: yaml
-  label: Olo Ordering API
-  slug: olo-ordering
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-ordering-openapi.yml
-- filename: olo-ordering-openapi.yml
-  format: yaml
-  label: Olo Rails API
-  slug: olo-rails
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-ordering-openapi.yml
-- filename: olo-promotions-openapi.yml
-  format: yaml
-  label: Olo Loyalty API
-  slug: olo-loyalty
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-promotions-openapi.yml
 - filename: olo-webhooks-asyncapi.yml
   format: yaml
   label: Olo Webhooks
   slug: olo-webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/asyncapi/olo-webhooks-asyncapi.yml
+- filename: olo-accounts-api-openapi.yml
+  format: yaml
+  label: Olo Accounts API
+  slug: olo-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-accounts-api-openapi.yml
+- filename: olo-accruals-api-openapi.yml
+  format: yaml
+  label: Olo Accruals API
+  slug: olo-accruals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-accruals-api-openapi.yml
+- filename: olo-brand-api-openapi.yml
+  format: yaml
+  label: Olo Brand API
+  slug: olo-brand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-brand-api-openapi.yml
+- filename: olo-promotions-api-openapi.yml
+  format: yaml
+  label: Olo Promotions API
+  slug: olo-promotions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-promotions-api-openapi.yml
+- filename: olo-rails-api-openapi.yml
+  format: yaml
+  label: Olo Rails API
+  slug: olo-rails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-rails-api-openapi.yml
+- filename: olo-users-api-openapi.yml
+  format: yaml
+  label: Olo Users API
+  slug: olo-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-users-api-openapi.yml
 certifications:
 - SOC 2
 - PCI DSS

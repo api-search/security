@@ -58,9 +58,14 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Banking
 - Financial Services
-- FX
+- United States
+- Money Center Bank
 - Open Banking
+- Open Finance
+- Treasury and Trade Solutions
+- CitiConnect
 - Payments
-- Treasury
+- FX
+- Corporate Banking
 - Fortune 100
 ---

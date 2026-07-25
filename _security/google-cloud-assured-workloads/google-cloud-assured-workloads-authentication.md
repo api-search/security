@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: assured-workloads-api-openapi.yml
+- filename: google-cloud-assured-workloads-violations-api-openapi.yml
   format: yaml
-  label: Assured Workloads API
-  slug: assured-workloads-api
+  label: Google Cloud Assured Workloads Violations API
+  slug: google-cloud-assured-workloads-violations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-assured-workloads/refs/heads/main/openapi/assured-workloads-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-assured-workloads/refs/heads/main/openapi/google-cloud-assured-workloads-violations-api-openapi.yml
+- filename: google-cloud-assured-workloads-workloads-api-openapi.yml
+  format: yaml
+  label: Google Cloud Assured Workloads Workloads API
+  slug: google-cloud-assured-workloads-workloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-assured-workloads/refs/heads/main/openapi/google-cloud-assured-workloads-workloads-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

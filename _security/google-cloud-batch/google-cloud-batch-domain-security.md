@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: batch-openapi.yml
+- filename: google-cloud-batch-jobs-api-openapi.yml
   format: yaml
-  label: Google Cloud Batch API
-  slug: google-cloud-batch-api
+  label: Google Cloud Batch Jobs API
+  slug: google-cloud-batch-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-batch/refs/heads/main/openapi/batch-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-batch/refs/heads/main/openapi/google-cloud-batch-jobs-api-openapi.yml
+- filename: google-cloud-batch-tasks-api-openapi.yml
+  format: yaml
+  label: Google Cloud Batch Tasks API
+  slug: google-cloud-batch-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-batch/refs/heads/main/openapi/google-cloud-batch-tasks-api-openapi.yml
 description: ''
 domains:
 - caa:

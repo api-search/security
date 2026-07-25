@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: setlistfm-openapi.yml
+- filename: setlistfm-artists-api-openapi.yml
   format: yaml
   label: setlist.fm Artists API
   slug: setlistfm-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlistfm/refs/heads/main/openapi/setlistfm-openapi.yml
-- filename: setlistfm-openapi.yml
-  format: yaml
-  label: setlist.fm Setlists API
-  slug: setlistfm-setlists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlistfm/refs/heads/main/openapi/setlistfm-openapi.yml
-- filename: setlistfm-openapi.yml
-  format: yaml
-  label: setlist.fm Venues API
-  slug: setlistfm-venues-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlistfm/refs/heads/main/openapi/setlistfm-openapi.yml
-- filename: setlistfm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/setlistfm/refs/heads/main/openapi/setlistfm-artists-api-openapi.yml
+- filename: setlistfm-cities-api-openapi.yml
   format: yaml
   label: setlist.fm Cities API
   slug: setlistfm-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlistfm/refs/heads/main/openapi/setlistfm-openapi.yml
-- filename: setlistfm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/setlistfm/refs/heads/main/openapi/setlistfm-cities-api-openapi.yml
+- filename: setlistfm-countries-api-openapi.yml
   format: yaml
   label: setlist.fm Countries API
   slug: setlistfm-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlistfm/refs/heads/main/openapi/setlistfm-openapi.yml
-- filename: setlistfm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/setlistfm/refs/heads/main/openapi/setlistfm-countries-api-openapi.yml
+- filename: setlistfm-search-api-openapi.yml
   format: yaml
   label: setlist.fm Search API
   slug: setlistfm-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlistfm/refs/heads/main/openapi/setlistfm-openapi.yml
-- filename: setlistfm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/setlistfm/refs/heads/main/openapi/setlistfm-search-api-openapi.yml
+- filename: setlistfm-setlists-api-openapi.yml
+  format: yaml
+  label: setlist.fm Setlists API
+  slug: setlistfm-setlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlistfm/refs/heads/main/openapi/setlistfm-setlists-api-openapi.yml
+- filename: setlistfm-user-api-openapi.yml
   format: yaml
   label: setlist.fm User API
   slug: setlistfm-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlistfm/refs/heads/main/openapi/setlistfm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/setlistfm/refs/heads/main/openapi/setlistfm-user-api-openapi.yml
+- filename: setlistfm-venues-api-openapi.yml
+  format: yaml
+  label: setlist.fm Venues API
+  slug: setlistfm-venues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlistfm/refs/heads/main/openapi/setlistfm-venues-api-openapi.yml
 description: ''
 domains:
 - caa: []

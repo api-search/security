@@ -1,11 +1,101 @@
 ---
 api_specs:
-- filename: voltair-api-openapi-original.yml
+- filename: voltair-apikeys-api-openapi.yml
   format: yaml
-  label: Voltair API
-  slug: voltair-api
+  label: Voltair ApiKeys API
+  slug: voltair-apikeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-apikeys-api-openapi.yml
+- filename: voltair-assets-api-openapi.yml
+  format: yaml
+  label: Voltair Assets API
+  slug: voltair-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-assets-api-openapi.yml
+- filename: voltair-clusters-api-openapi.yml
+  format: yaml
+  label: Voltair Clusters API
+  slug: voltair-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-clusters-api-openapi.yml
+- filename: voltair-clustervisits-api-openapi.yml
+  format: yaml
+  label: Voltair ClusterVisits API
+  slug: voltair-clustervisits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-clustervisits-api-openapi.yml
+- filename: voltair-events-api-openapi.yml
+  format: yaml
+  label: Voltair Events API
+  slug: voltair-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-events-api-openapi.yml
+- filename: voltair-identity-api-openapi.yml
+  format: yaml
+  label: Voltair Identity API
+  slug: voltair-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-identity-api-openapi.yml
+- filename: voltair-inspections-api-openapi.yml
+  format: yaml
+  label: Voltair Inspections API
+  slug: voltair-inspections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-inspections-api-openapi.yml
+- filename: voltair-media-api-openapi.yml
+  format: yaml
+  label: Voltair Media API
+  slug: voltair-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-media-api-openapi.yml
+- filename: voltair-missions-api-openapi.yml
+  format: yaml
+  label: Voltair Missions API
+  slug: voltair-missions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-missions-api-openapi.yml
+- filename: voltair-organization-api-openapi.yml
+  format: yaml
+  label: Voltair Organization API
+  slug: voltair-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-organization-api-openapi.yml
+- filename: voltair-roles-api-openapi.yml
+  format: yaml
+  label: Voltair Roles API
+  slug: voltair-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-roles-api-openapi.yml
+- filename: voltair-sites-api-openapi.yml
+  format: yaml
+  label: Voltair Sites API
+  slug: voltair-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-sites-api-openapi.yml
+- filename: voltair-sitevisits-api-openapi.yml
+  format: yaml
+  label: Voltair SiteVisits API
+  slug: voltair-sitevisits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-sitevisits-api-openapi.yml
+- filename: voltair-transactions-api-openapi.yml
+  format: yaml
+  label: Voltair Transactions API
+  slug: voltair-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-transactions-api-openapi.yml
+- filename: voltair-users-api-openapi.yml
+  format: yaml
+  label: Voltair Users API
+  slug: voltair-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-users-api-openapi.yml
+- filename: voltair-webhooks-api-openapi.yml
+  format: yaml
+  label: Voltair Webhooks API
+  slug: voltair-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

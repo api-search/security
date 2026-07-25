@@ -1,36 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: kpler-openapi.yml
+- filename: kpler-aggregations-api-openapi.yml
   format: yaml
-  label: Kpler Liquids API
-  slug: kpler-liquids-api
+  label: Kpler Aggregations API
+  slug: kpler-aggregations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/openapi/kpler-openapi.yml
-- filename: kpler-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/openapi/kpler-aggregations-api-openapi.yml
+- filename: kpler-authentication-api-openapi.yml
   format: yaml
-  label: Kpler LNG API
-  slug: kpler-lng-api
+  label: Kpler Authentication API
+  slug: kpler-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/openapi/kpler-openapi.yml
-- filename: kpler-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/openapi/kpler-authentication-api-openapi.yml
+- filename: kpler-facts-api-openapi.yml
   format: yaml
-  label: Kpler LPG API
-  slug: kpler-lpg-api
+  label: Kpler Facts API
+  slug: kpler-facts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/openapi/kpler-openapi.yml
-- filename: kpler-openapi.yml
-  format: yaml
-  label: Kpler Dry Bulk API
-  slug: kpler-dry-bulk-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/openapi/kpler-openapi.yml
-- filename: kpler-openapi.yml
-  format: yaml
-  label: Kpler Freight API
-  slug: kpler-freight-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/openapi/kpler-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/openapi/kpler-facts-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,6 +1,55 @@
 ---
 api_key_in:
 - header
+api_specs:
+- filename: datadome-account-api-openapi.yml
+  format: yaml
+  label: DataDome Account API
+  slug: datadome-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/openapi/datadome-account-api-openapi.yml
+- filename: datadome-accountprotect-api-openapi.yml
+  format: yaml
+  label: DataDome AccountProtect API
+  slug: datadome-accountprotect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/openapi/datadome-accountprotect-api-openapi.yml
+- filename: datadome-customrules-api-openapi.yml
+  format: yaml
+  label: DataDome CustomRules API
+  slug: datadome-customrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/openapi/datadome-customrules-api-openapi.yml
+- filename: datadome-endpoints-api-openapi.yml
+  format: yaml
+  label: DataDome Endpoints API
+  slug: datadome-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/openapi/datadome-endpoints-api-openapi.yml
+- filename: datadome-priorities-api-openapi.yml
+  format: yaml
+  label: DataDome Priorities API
+  slug: datadome-priorities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/openapi/datadome-priorities-api-openapi.yml
+- filename: datadome-templates-api-openapi.yml
+  format: yaml
+  label: DataDome Templates API
+  slug: datadome-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/openapi/datadome-templates-api-openapi.yml
+- filename: datadome-trustedproxies-api-openapi.yml
+  format: yaml
+  label: DataDome TrustedProxies API
+  slug: datadome-trustedproxies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/openapi/datadome-trustedproxies-api-openapi.yml
+- filename: datadome-verifiedmodels-api-openapi.yml
+  format: yaml
+  label: DataDome VerifiedModels API
+  slug: datadome-verifiedmodels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/openapi/datadome-verifiedmodels-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

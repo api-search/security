@@ -1,17 +1,47 @@
 ---
 api_specs:
-- filename: instabug-mcp-server-openapi.yml
-  format: yaml
-  label: Luciq MCP Server
-  slug: mcp-server
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/openapi/instabug-mcp-server-openapi.yml
 - filename: instabug-webhooks-asyncapi.yml
   format: yaml
   label: Luciq Webhooks
   slug: webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/asyncapi/instabug-webhooks-asyncapi.yml
+- filename: instabug-app-hangs-api-openapi.yml
+  format: yaml
+  label: Instabug (Luciq) App Hangs API
+  slug: instabug-app-hangs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/openapi/instabug-app-hangs-api-openapi.yml
+- filename: instabug-applications-api-openapi.yml
+  format: yaml
+  label: Instabug (Luciq) Applications API
+  slug: instabug-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/openapi/instabug-applications-api-openapi.yml
+- filename: instabug-bugs-api-openapi.yml
+  format: yaml
+  label: Instabug (Luciq) Bugs API
+  slug: instabug-bugs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/openapi/instabug-bugs-api-openapi.yml
+- filename: instabug-crashes-api-openapi.yml
+  format: yaml
+  label: Instabug (Luciq) Crashes API
+  slug: instabug-crashes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/openapi/instabug-crashes-api-openapi.yml
+- filename: instabug-occurrences-api-openapi.yml
+  format: yaml
+  label: Instabug (Luciq) Occurrences API
+  slug: instabug-occurrences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/openapi/instabug-occurrences-api-openapi.yml
+- filename: instabug-reviews-api-openapi.yml
+  format: yaml
+  label: Instabug (Luciq) Reviews API
+  slug: instabug-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/openapi/instabug-reviews-api-openapi.yml
 description: ''
 domains:
 - caa: []

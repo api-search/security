@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: cloudera-openapi.yml
+- filename: cloudera-dataengineering-api-openapi.yml
   format: yaml
-  label: Cloudera CDP Public Cloud Control Plane API
-  slug: cdp-control-plane
+  label: Cloudera DataEngineering API
+  slug: cloudera-dataengineering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-dataengineering-api-openapi.yml
+- filename: cloudera-datahub-api-openapi.yml
+  format: yaml
+  label: Cloudera Datahub API
+  slug: cloudera-datahub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-datahub-api-openapi.yml
+- filename: cloudera-datalake-api-openapi.yml
+  format: yaml
+  label: Cloudera Datalake API
+  slug: cloudera-datalake-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-datalake-api-openapi.yml
+- filename: cloudera-environments-api-openapi.yml
+  format: yaml
+  label: Cloudera Environments API
+  slug: cloudera-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-environments-api-openapi.yml
+- filename: cloudera-iam-api-openapi.yml
+  format: yaml
+  label: Cloudera IAM API
+  slug: cloudera-iam-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-iam-api-openapi.yml
+- filename: cloudera-ml-api-openapi.yml
+  format: yaml
+  label: Cloudera ML API
+  slug: cloudera-ml-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-ml-api-openapi.yml
 description: ''
 domains:
 - caa:

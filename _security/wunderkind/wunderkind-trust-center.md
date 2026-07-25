@@ -1,29 +1,41 @@
 ---
 api_specs:
-- filename: wunderkind-email-openapi.yml
+- filename: wunderkind-email-api-openapi.yml
   format: yaml
   label: Wunderkind Email API
   slug: wunderkind-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-email-openapi.yml
-- filename: wunderkind-identity-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-email-api-openapi.yml
+- filename: wunderkind-id-resolution-api-openapi.yml
+  format: yaml
+  label: Wunderkind Id Resolution API
+  slug: wunderkind-id-resolution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-id-resolution-api-openapi.yml
+- filename: wunderkind-identity-api-openapi.yml
   format: yaml
   label: Wunderkind Identity API
   slug: wunderkind-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-identity-openapi.yml
-- filename: wunderkind-ucrm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-identity-api-openapi.yml
+- filename: wunderkind-send-event-api-openapi.yml
   format: yaml
-  label: Wunderkind UCRM API
+  label: Wunderkind Send Event API
+  slug: wunderkind-send-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-send-event-api-openapi.yml
+- filename: wunderkind-ucrm-api-openapi.yml
+  format: yaml
+  label: Wunderkind Ucrm API
   slug: wunderkind-ucrm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-ucrm-openapi.yml
-- filename: wunderkind-event-ingestion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-ucrm-api-openapi.yml
+- filename: wunderkind-wunderhook-api-openapi.yml
   format: yaml
-  label: Wunderkind Event Ingestion API
-  slug: wunderkind-event-ingestion-api
+  label: Wunderkind Wunderhook API
+  slug: wunderkind-wunderhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-event-ingestion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-wunderhook-api-openapi.yml
 certifications: []
 description: ''
 kind: trust-center

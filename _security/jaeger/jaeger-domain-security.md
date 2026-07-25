@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: jaeger-query-api.yml
+- filename: jaeger-dependencies-api-openapi.yml
   format: yaml
-  label: Jaeger Query API
-  slug: jaeger-query-api
+  label: Jaeger Dependencies API
+  slug: jaeger-dependencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaeger/refs/heads/main/openapi/jaeger-query-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jaeger/refs/heads/main/openapi/jaeger-dependencies-api-openapi.yml
+- filename: jaeger-metrics-api-openapi.yml
+  format: yaml
+  label: Jaeger Metrics API
+  slug: jaeger-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jaeger/refs/heads/main/openapi/jaeger-metrics-api-openapi.yml
+- filename: jaeger-services-api-openapi.yml
+  format: yaml
+  label: Jaeger Services API
+  slug: jaeger-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jaeger/refs/heads/main/openapi/jaeger-services-api-openapi.yml
+- filename: jaeger-traces-api-openapi.yml
+  format: yaml
+  label: Jaeger Traces API
+  slug: jaeger-traces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jaeger/refs/heads/main/openapi/jaeger-traces-api-openapi.yml
 description: ''
 domains:
 - caa: []

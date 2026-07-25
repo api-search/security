@@ -1,53 +1,101 @@
 ---
 api_specs:
-- filename: brushfire-openapi.json
-  format: json
-  label: Brushfire Events API
-  slug: brushfire-events-api
+- filename: brushfire-accesscodes-api-openapi.yml
+  format: yaml
+  label: Brushfire AccessCodes API
+  slug: brushfire-accesscodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-openapi.json
-- filename: brushfire-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-accesscodes-api-openapi.yml
+- filename: brushfire-accounts-api-openapi.yml
+  format: yaml
+  label: Brushfire Accounts API
+  slug: brushfire-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-accounts-api-openapi.yml
+- filename: brushfire-attendees-api-openapi.yml
+  format: yaml
   label: Brushfire Attendees API
   slug: brushfire-attendees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-openapi.json
-- filename: brushfire-openapi.json
-  format: json
-  label: Brushfire Orders API
-  slug: brushfire-orders-api
+  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-attendees-api-openapi.yml
+- filename: brushfire-cart-api-openapi.yml
+  format: yaml
+  label: Brushfire Cart API
+  slug: brushfire-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-openapi.json
-- filename: brushfire-openapi.json
-  format: json
-  label: Brushfire Cart & Checkout API
-  slug: brushfire-cart-checkout-api
+  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-cart-api-openapi.yml
+- filename: brushfire-clients-api-openapi.yml
+  format: yaml
+  label: Brushfire Clients API
+  slug: brushfire-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-openapi.json
-- filename: brushfire-openapi.json
-  format: json
-  label: Brushfire Sessions & Check-In API
-  slug: brushfire-sessions-checkin-api
+  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-clients-api-openapi.yml
+- filename: brushfire-data-api-openapi.yml
+  format: yaml
+  label: Brushfire Data API
+  slug: brushfire-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-openapi.json
-- filename: brushfire-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-data-api-openapi.yml
+- filename: brushfire-events-api-openapi.yml
+  format: yaml
+  label: Brushfire Events API
+  slug: brushfire-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-events-api-openapi.yml
+- filename: brushfire-exchanges-api-openapi.yml
+  format: yaml
+  label: Brushfire Exchanges API
+  slug: brushfire-exchanges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-exchanges-api-openapi.yml
+- filename: brushfire-groups-api-openapi.yml
+  format: yaml
   label: Brushfire Groups API
   slug: brushfire-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-openapi.json
-- filename: brushfire-openapi.json
-  format: json
-  label: Brushfire Promotions & Access Codes API
-  slug: brushfire-promotions-accesscodes-api
+  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-groups-api-openapi.yml
+- filename: brushfire-hooks-api-openapi.yml
+  format: yaml
+  label: Brushfire Hooks API
+  slug: brushfire-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-openapi.json
-- filename: brushfire-openapi.json
-  format: json
-  label: Brushfire Webhooks (Hooks) API
-  slug: brushfire-webhooks-api
+  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-hooks-api-openapi.yml
+- filename: brushfire-lookups-api-openapi.yml
+  format: yaml
+  label: Brushfire Lookups API
+  slug: brushfire-lookups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-lookups-api-openapi.yml
+- filename: brushfire-orders-api-openapi.yml
+  format: yaml
+  label: Brushfire Orders API
+  slug: brushfire-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-orders-api-openapi.yml
+- filename: brushfire-paymentprofiles-api-openapi.yml
+  format: yaml
+  label: Brushfire PaymentProfiles API
+  slug: brushfire-paymentprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-paymentprofiles-api-openapi.yml
+- filename: brushfire-promotions-api-openapi.yml
+  format: yaml
+  label: Brushfire Promotions API
+  slug: brushfire-promotions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-promotions-api-openapi.yml
+- filename: brushfire-regions-api-openapi.yml
+  format: yaml
+  label: Brushfire Regions API
+  slug: brushfire-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-regions-api-openapi.yml
+- filename: brushfire-sessions-api-openapi.yml
+  format: yaml
+  label: Brushfire Sessions API
+  slug: brushfire-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-sessions-api-openapi.yml
 description: ''
 domains:
 - caa:

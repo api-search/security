@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: plerion-openapi-original.yml
+- filename: plerion-alerts-api-openapi.yml
   format: yaml
-  label: Plerion API
-  slug: plerion-api
+  label: Plerion Alerts API
+  slug: plerion-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plerion/refs/heads/main/openapi/plerion-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/plerion/refs/heads/main/openapi/plerion-alerts-api-openapi.yml
+- filename: plerion-asset-groups-api-openapi.yml
+  format: yaml
+  label: Plerion Asset groups API
+  slug: plerion-asset-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plerion/refs/heads/main/openapi/plerion-asset-groups-api-openapi.yml
+- filename: plerion-assets-api-openapi.yml
+  format: yaml
+  label: Plerion Assets API
+  slug: plerion-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plerion/refs/heads/main/openapi/plerion-assets-api-openapi.yml
+- filename: plerion-audit-logs-api-openapi.yml
+  format: yaml
+  label: Plerion Audit logs API
+  slug: plerion-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plerion/refs/heads/main/openapi/plerion-audit-logs-api-openapi.yml
+- filename: plerion-aws-integration-api-openapi.yml
+  format: yaml
+  label: Plerion AWS integration API
+  slug: plerion-aws-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plerion/refs/heads/main/openapi/plerion-aws-integration-api-openapi.yml
+- filename: plerion-code-security-api-openapi.yml
+  format: yaml
+  label: Plerion Code security API
+  slug: plerion-code-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plerion/refs/heads/main/openapi/plerion-code-security-api-openapi.yml
+- filename: plerion-compliance-frameworks-api-openapi.yml
+  format: yaml
+  label: Plerion Compliance frameworks API
+  slug: plerion-compliance-frameworks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plerion/refs/heads/main/openapi/plerion-compliance-frameworks-api-openapi.yml
+- filename: plerion-findings-api-openapi.yml
+  format: yaml
+  label: Plerion Findings API
+  slug: plerion-findings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plerion/refs/heads/main/openapi/plerion-findings-api-openapi.yml
+- filename: plerion-integrations-api-openapi.yml
+  format: yaml
+  label: Plerion Integrations API
+  slug: plerion-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plerion/refs/heads/main/openapi/plerion-integrations-api-openapi.yml
+- filename: plerion-risks-api-openapi.yml
+  format: yaml
+  label: Plerion Risks API
+  slug: plerion-risks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plerion/refs/heads/main/openapi/plerion-risks-api-openapi.yml
+- filename: plerion-tenant-api-openapi.yml
+  format: yaml
+  label: Plerion Tenant API
+  slug: plerion-tenant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plerion/refs/heads/main/openapi/plerion-tenant-api-openapi.yml
+- filename: plerion-vulnerabilities-api-openapi.yml
+  format: yaml
+  label: Plerion Vulnerabilities API
+  slug: plerion-vulnerabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plerion/refs/heads/main/openapi/plerion-vulnerabilities-api-openapi.yml
+- filename: plerion-well-architected-frameworks-api-openapi.yml
+  format: yaml
+  label: Plerion Well-Architected frameworks API
+  slug: plerion-well-architected-frameworks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plerion/refs/heads/main/openapi/plerion-well-architected-frameworks-api-openapi.yml
 description: ''
 domains:
 - caa: []

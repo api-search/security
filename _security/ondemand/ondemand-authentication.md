@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: ondemand-openapi.json
-  format: json
-  label: OnDemand AI API
-  slug: ondemand-ai-api
+- filename: ondemand-chat-api-openapi.yml
+  format: yaml
+  label: Ondemand Chat API
+  slug: ondemand-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/openapi/ondemand-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/openapi/ondemand-chat-api-openapi.yml
+- filename: ondemand-config-api-openapi.yml
+  format: yaml
+  label: Ondemand Config API
+  slug: ondemand-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/openapi/ondemand-config-api-openapi.yml
+- filename: ondemand-execute-api-openapi.yml
+  format: yaml
+  label: Ondemand Execute API
+  slug: ondemand-execute-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/openapi/ondemand-execute-api-openapi.yml
+- filename: ondemand-media-api-openapi.yml
+  format: yaml
+  label: Ondemand Media API
+  slug: ondemand-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/openapi/ondemand-media-api-openapi.yml
+- filename: ondemand-user-api-openapi.yml
+  format: yaml
+  label: Ondemand User API
+  slug: ondemand-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/openapi/ondemand-user-api-openapi.yml
+- filename: ondemand-workflow-api-openapi.yml
+  format: yaml
+  label: Ondemand Workflow API
+  slug: ondemand-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/openapi/ondemand-workflow-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

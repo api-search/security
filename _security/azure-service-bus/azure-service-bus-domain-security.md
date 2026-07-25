@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: azure-service-bus-openapi.yml
+- filename: azure-service-bus-namespaces-api-openapi.yml
   format: yaml
-  label: Azure Service Bus
-  slug: azure-service-bus
+  label: Azure Service Bus Namespaces API
+  slug: azure-service-bus-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/openapi/azure-service-bus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/openapi/azure-service-bus-namespaces-api-openapi.yml
+- filename: azure-service-bus-queues-api-openapi.yml
+  format: yaml
+  label: Azure Service Bus Queues API
+  slug: azure-service-bus-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/openapi/azure-service-bus-queues-api-openapi.yml
+- filename: azure-service-bus-subscriptions-api-openapi.yml
+  format: yaml
+  label: Azure Service Bus Subscriptions API
+  slug: azure-service-bus-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/openapi/azure-service-bus-subscriptions-api-openapi.yml
+- filename: azure-service-bus-topics-api-openapi.yml
+  format: yaml
+  label: Azure Service Bus Topics API
+  slug: azure-service-bus-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/openapi/azure-service-bus-topics-api-openapi.yml
 description: ''
 domains:
 - caa:

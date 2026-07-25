@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: colossyan-openapi.yml
+- filename: colossyan-avatars-api-openapi.yml
+  format: yaml
+  label: Colossyan Avatars API
+  slug: colossyan-avatars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/openapi/colossyan-avatars-api-openapi.yml
+- filename: colossyan-experimental-api-openapi.yml
+  format: yaml
+  label: Colossyan Experimental API
+  slug: colossyan-experimental-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/openapi/colossyan-experimental-api-openapi.yml
+- filename: colossyan-generated-videos-api-openapi.yml
+  format: yaml
+  label: Colossyan Generated Videos API
+  slug: colossyan-generated-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/openapi/colossyan-generated-videos-api-openapi.yml
+- filename: colossyan-video-generation-api-openapi.yml
   format: yaml
   label: Colossyan Video Generation API
-  slug: video-generation
+  slug: colossyan-video-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/openapi/colossyan-openapi.yml
-- filename: colossyan-openapi.yml
-  format: yaml
-  label: Colossyan Avatars / Presenters API
-  slug: avatars-presenters
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/openapi/colossyan-openapi.yml
-- filename: colossyan-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/openapi/colossyan-video-generation-api-openapi.yml
+- filename: colossyan-voices-api-openapi.yml
   format: yaml
   label: Colossyan Voices API
-  slug: voices
+  slug: colossyan-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/openapi/colossyan-openapi.yml
-- filename: colossyan-openapi.yml
-  format: yaml
-  label: Colossyan Templates API
-  slug: templates
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/openapi/colossyan-openapi.yml
-- filename: colossyan-openapi.yml
-  format: yaml
-  label: Colossyan Job Status / Webhooks API
-  slug: job-status-webhooks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/openapi/colossyan-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/openapi/colossyan-voices-api-openapi.yml
 description: ''
 domains:
 - caa:

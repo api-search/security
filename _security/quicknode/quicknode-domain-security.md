@@ -6,24 +6,54 @@ api_specs:
   slug: core-rpc
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/asyncapi/quicknode-asyncapi.yml
-- filename: quicknode-streams-openapi.yml
+- filename: quicknode-account-api-openapi.yml
   format: yaml
-  label: QuickNode Streams
-  slug: streams
+  label: QuickNode Account API
+  slug: quicknode-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-streams-openapi.yml
-- filename: quicknode-ipfs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-account-api-openapi.yml
+- filename: quicknode-batch-api-openapi.yml
   format: yaml
-  label: QuickNode IPFS API
-  slug: ipfs
+  label: QuickNode Batch API
+  slug: quicknode-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-ipfs-openapi.yml
-- filename: quicknode-key-value-store-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-batch-api-openapi.yml
+- filename: quicknode-database-api-openapi.yml
   format: yaml
-  label: QuickNode Key-Value Store
-  slug: kv-store
+  label: QuickNode Database API
+  slug: quicknode-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-key-value-store-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-database-api-openapi.yml
+- filename: quicknode-gateway-api-openapi.yml
+  format: yaml
+  label: QuickNode Gateway API
+  slug: quicknode-gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-gateway-api-openapi.yml
+- filename: quicknode-keys-api-openapi.yml
+  format: yaml
+  label: QuickNode Keys API
+  slug: quicknode-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-keys-api-openapi.yml
+- filename: quicknode-logs-api-openapi.yml
+  format: yaml
+  label: QuickNode Logs API
+  slug: quicknode-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-logs-api-openapi.yml
+- filename: quicknode-pinning-api-openapi.yml
+  format: yaml
+  label: QuickNode Pinning API
+  slug: quicknode-pinning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-pinning-api-openapi.yml
+- filename: quicknode-streams-api-openapi.yml
+  format: yaml
+  label: QuickNode Streams API
+  slug: quicknode-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-streams-api-openapi.yml
 description: ''
 domains:
 - caa:

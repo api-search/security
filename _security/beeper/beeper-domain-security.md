@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: beeper-desktop-api-openapi-original.yml
+- filename: beeper-accounts-api-openapi.yml
   format: yaml
-  label: Beeper Desktop API
-  slug: beeper-desktop-api
+  label: Beeper Accounts API
+  slug: beeper-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/openapi/beeper-desktop-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/openapi/beeper-accounts-api-openapi.yml
+- filename: beeper-app-api-openapi.yml
+  format: yaml
+  label: Beeper App API
+  slug: beeper-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/openapi/beeper-app-api-openapi.yml
+- filename: beeper-chats-api-openapi.yml
+  format: yaml
+  label: Beeper Chats API
+  slug: beeper-chats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/openapi/beeper-chats-api-openapi.yml
+- filename: beeper-contacts-api-openapi.yml
+  format: yaml
+  label: Beeper Contacts API
+  slug: beeper-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/openapi/beeper-contacts-api-openapi.yml
+- filename: beeper-files-api-openapi.yml
+  format: yaml
+  label: Beeper Files API
+  slug: beeper-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/openapi/beeper-files-api-openapi.yml
+- filename: beeper-messages-api-openapi.yml
+  format: yaml
+  label: Beeper Messages API
+  slug: beeper-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/openapi/beeper-messages-api-openapi.yml
+- filename: beeper-server-api-openapi.yml
+  format: yaml
+  label: Beeper Server API
+  slug: beeper-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/openapi/beeper-server-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: payfit-absences-api-openapi.yml
+  format: yaml
+  label: PayFit Absences API
+  slug: payfit-absences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/openapi/payfit-absences-api-openapi.yml
+- filename: payfit-collaborators-api-openapi.yml
+  format: yaml
+  label: PayFit Collaborators API
+  slug: payfit-collaborators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/openapi/payfit-collaborators-api-openapi.yml
+- filename: payfit-company-api-openapi.yml
+  format: yaml
+  label: PayFit Company API
+  slug: payfit-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/openapi/payfit-company-api-openapi.yml
+- filename: payfit-contracts-api-openapi.yml
+  format: yaml
+  label: PayFit Contracts API
+  slug: payfit-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/openapi/payfit-contracts-api-openapi.yml
+- filename: payfit-documents-api-openapi.yml
+  format: yaml
+  label: PayFit Documents API
+  slug: payfit-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/openapi/payfit-documents-api-openapi.yml
+- filename: payfit-insurance-api-openapi.yml
+  format: yaml
+  label: PayFit Insurance API
+  slug: payfit-insurance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/openapi/payfit-insurance-api-openapi.yml
+- filename: payfit-payslips-api-openapi.yml
+  format: yaml
+  label: PayFit Payslips API
+  slug: payfit-payslips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/openapi/payfit-payslips-api-openapi.yml
 certifications:
 - ISO 27001
 description: ''

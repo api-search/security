@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: questdb-openapi.yml
+- filename: questdb-chk-api-openapi.yml
   format: yaml
-  label: QuestDB HTTP REST API
-  slug: rest-http
+  label: QuestDB Chk API
+  slug: questdb-chk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/openapi/questdb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/openapi/questdb-chk-api-openapi.yml
+- filename: questdb-exec-api-openapi.yml
+  format: yaml
+  label: QuestDB Exec API
+  slug: questdb-exec-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/openapi/questdb-exec-api-openapi.yml
+- filename: questdb-exp-api-openapi.yml
+  format: yaml
+  label: QuestDB Exp API
+  slug: questdb-exp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/openapi/questdb-exp-api-openapi.yml
+- filename: questdb-imp-api-openapi.yml
+  format: yaml
+  label: QuestDB Imp API
+  slug: questdb-imp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/openapi/questdb-imp-api-openapi.yml
+- filename: questdb-settings-api-openapi.yml
+  format: yaml
+  label: QuestDB Settings API
+  slug: questdb-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/openapi/questdb-settings-api-openapi.yml
+- filename: questdb-write-api-openapi.yml
+  format: yaml
+  label: QuestDB Write API
+  slug: questdb-write-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/openapi/questdb-write-api-openapi.yml
 auth_types:
 - http
 description: ''

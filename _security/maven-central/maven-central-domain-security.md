@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: maven-central-search-openapi.yml
+- filename: maven-central-deployment-api-openapi.yml
+  format: yaml
+  label: Maven Central Deployment API
+  slug: maven-central-deployment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maven-central/refs/heads/main/openapi/maven-central-deployment-api-openapi.yml
+- filename: maven-central-download-api-openapi.yml
+  format: yaml
+  label: Maven Central Download API
+  slug: maven-central-download-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maven-central/refs/heads/main/openapi/maven-central-download-api-openapi.yml
+- filename: maven-central-search-api-openapi.yml
   format: yaml
   label: Maven Central Search API
   slug: maven-central-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-central/refs/heads/main/openapi/maven-central-search-openapi.yml
-- filename: maven-central-portal-openapi.yml
-  format: yaml
-  label: Central Portal Publishing API
-  slug: central-portal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-central/refs/heads/main/openapi/maven-central-portal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maven-central/refs/heads/main/openapi/maven-central-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

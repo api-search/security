@@ -2,30 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: komerce-shipping-cost-openapi.yml
+- filename: komerce-cost-api-openapi.yml
   format: yaml
-  label: RajaOngkir Shipping Cost API
-  slug: shipping-cost
+  label: Komerce Cost API
+  slug: komerce-cost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-shipping-cost-openapi.yml
-- filename: komerce-shipping-delivery-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-cost-api-openapi.yml
+- filename: komerce-destinations-api-openapi.yml
   format: yaml
-  label: Komerce Shipping Delivery API (Komship)
-  slug: shipping-delivery
+  label: Komerce Destinations API
+  slug: komerce-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-shipping-delivery-openapi.yml
-- filename: komerce-payment-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-destinations-api-openapi.yml
+- filename: komerce-orders-api-openapi.yml
   format: yaml
-  label: Komerce Payment Service API
-  slug: payment
+  label: Komerce Orders API
+  slug: komerce-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-payment-openapi.yml
-- filename: komerce-qrisly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-orders-api-openapi.yml
+- filename: komerce-payments-api-openapi.yml
   format: yaml
-  label: Komerce QRISLY API
-  slug: qrisly
+  label: Komerce Payments API
+  slug: komerce-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-qrisly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-payments-api-openapi.yml
+- filename: komerce-pickup-api-openapi.yml
+  format: yaml
+  label: Komerce Pickup API
+  slug: komerce-pickup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-pickup-api-openapi.yml
+- filename: komerce-qris-api-openapi.yml
+  format: yaml
+  label: Komerce QRIS API
+  slug: komerce-qris-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-qris-api-openapi.yml
+- filename: komerce-tracking-api-openapi.yml
+  format: yaml
+  label: Komerce Tracking API
+  slug: komerce-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-tracking-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

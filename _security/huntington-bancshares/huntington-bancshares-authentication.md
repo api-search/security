@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: huntington-bank-treasury-management-api-openapi.yml
+- filename: huntington-bancshares-accounts-api-openapi.yml
   format: yaml
-  label: Huntington Bank Treasury Management API
-  slug: treasury-management-api
+  label: Huntington Bancshares Accounts API
+  slug: huntington-bancshares-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/openapi/huntington-bank-treasury-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/openapi/huntington-bancshares-accounts-api-openapi.yml
+- filename: huntington-bancshares-payments-api-openapi.yml
+  format: yaml
+  label: Huntington Bancshares Payments API
+  slug: huntington-bancshares-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/openapi/huntington-bancshares-payments-api-openapi.yml
+- filename: huntington-bancshares-transactions-api-openapi.yml
+  format: yaml
+  label: Huntington Bancshares Transactions API
+  slug: huntington-bancshares-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/openapi/huntington-bancshares-transactions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

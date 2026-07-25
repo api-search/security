@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: apache-pdfbox-api.yaml
+- filename: apache-pdfbox-documents-api-openapi.yml
   format: yaml
-  label: Apache PDFBox
-  slug: apache-pdfbox
+  label: Apache PDFBox Documents API
+  slug: apache-pdfbox-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pdfbox/refs/heads/main/openapi/apache-pdfbox-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-pdfbox/refs/heads/main/openapi/apache-pdfbox-documents-api-openapi.yml
+- filename: apache-pdfbox-forms-api-openapi.yml
+  format: yaml
+  label: Apache PDFBox Forms API
+  slug: apache-pdfbox-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-pdfbox/refs/heads/main/openapi/apache-pdfbox-forms-api-openapi.yml
+- filename: apache-pdfbox-operations-api-openapi.yml
+  format: yaml
+  label: Apache PDFBox Operations API
+  slug: apache-pdfbox-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-pdfbox/refs/heads/main/openapi/apache-pdfbox-operations-api-openapi.yml
+- filename: apache-pdfbox-pages-api-openapi.yml
+  format: yaml
+  label: Apache PDFBox Pages API
+  slug: apache-pdfbox-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-pdfbox/refs/heads/main/openapi/apache-pdfbox-pages-api-openapi.yml
+- filename: apache-pdfbox-signatures-api-openapi.yml
+  format: yaml
+  label: Apache PDFBox Signatures API
+  slug: apache-pdfbox-signatures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-pdfbox/refs/heads/main/openapi/apache-pdfbox-signatures-api-openapi.yml
 description: ''
 domains:
 - caa:

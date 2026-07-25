@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: botpress-admin-api-openapi.yml
+  format: yaml
+  label: Botpress Admin API
+  slug: botpress-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/botpress/refs/heads/main/openapi/botpress-admin-api-openapi.yml
+- filename: botpress-conversations-api-openapi.yml
+  format: yaml
+  label: Botpress Conversations API
+  slug: botpress-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/botpress/refs/heads/main/openapi/botpress-conversations-api-openapi.yml
+- filename: botpress-files-api-openapi.yml
+  format: yaml
+  label: Botpress Files API
+  slug: botpress-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/botpress/refs/heads/main/openapi/botpress-files-api-openapi.yml
+- filename: botpress-messages-api-openapi.yml
+  format: yaml
+  label: Botpress Messages API
+  slug: botpress-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/botpress/refs/heads/main/openapi/botpress-messages-api-openapi.yml
+- filename: botpress-tables-api-openapi.yml
+  format: yaml
+  label: Botpress Tables API
+  slug: botpress-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/botpress/refs/heads/main/openapi/botpress-tables-api-openapi.yml
+- filename: botpress-users-api-openapi.yml
+  format: yaml
+  label: Botpress Users API
+  slug: botpress-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/botpress/refs/heads/main/openapi/botpress-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

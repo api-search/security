@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: amazon-timestream-openapi.yml
+- filename: amazon-timestream-databases-api-openapi.yml
   format: yaml
-  label: Amazon Timestream API
-  slug: amazon-timestream-api
+  label: Amazon Timestream Databases API
+  slug: amazon-timestream-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/openapi/amazon-timestream-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/openapi/amazon-timestream-databases-api-openapi.yml
+- filename: amazon-timestream-query-api-openapi.yml
+  format: yaml
+  label: Amazon Timestream Query API
+  slug: amazon-timestream-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/openapi/amazon-timestream-query-api-openapi.yml
+- filename: amazon-timestream-tables-api-openapi.yml
+  format: yaml
+  label: Amazon Timestream Tables API
+  slug: amazon-timestream-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/openapi/amazon-timestream-tables-api-openapi.yml
+- filename: amazon-timestream-write-api-openapi.yml
+  format: yaml
+  label: Amazon Timestream Write API
+  slug: amazon-timestream-write-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/openapi/amazon-timestream-write-api-openapi.yml
 description: ''
 domains:
 - caa: []

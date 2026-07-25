@@ -2,24 +2,108 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-s3-rest-api-openapi.yml
-  format: yaml
-  label: Amazon S3 REST API
-  slug: amazon-s3-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-rest-api-openapi.yml
-- filename: amazon-s3-control-api-openapi.yml
-  format: yaml
-  label: Amazon S3 Control API
-  slug: amazon-s3-control-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-control-api-openapi.yml
 - filename: amazon-s3-tables-api-openapi.yml
   format: yaml
   label: Amazon S3 Tables API
   slug: amazon-s3-tables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-tables-api-openapi.yml
+- filename: amazon-s3-access-control-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Access Control API
+  slug: amazon-s3-access-control-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-access-control-api-openapi.yml
+- filename: amazon-s3-access-grants-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Access Grants API
+  slug: amazon-s3-access-grants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-access-grants-api-openapi.yml
+- filename: amazon-s3-access-points-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Access Points API
+  slug: amazon-s3-access-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-access-points-api-openapi.yml
+- filename: amazon-s3-batch-operations-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Batch Operations API
+  slug: amazon-s3-batch-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-batch-operations-api-openapi.yml
+- filename: amazon-s3-bucket-configuration-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Bucket Configuration API
+  slug: amazon-s3-bucket-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-bucket-configuration-api-openapi.yml
+- filename: amazon-s3-buckets-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Buckets API
+  slug: amazon-s3-buckets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-buckets-api-openapi.yml
+- filename: amazon-s3-multi-region-access-points-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Multi-Region Access Points API
+  slug: amazon-s3-multi-region-access-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-multi-region-access-points-api-openapi.yml
+- filename: amazon-s3-multipart-upload-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Multipart Upload API
+  slug: amazon-s3-multipart-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-multipart-upload-api-openapi.yml
+- filename: amazon-s3-namespaces-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Namespaces API
+  slug: amazon-s3-namespaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-namespaces-api-openapi.yml
+- filename: amazon-s3-objects-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Objects API
+  slug: amazon-s3-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-objects-api-openapi.yml
+- filename: amazon-s3-public-access-block-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Public Access Block API
+  slug: amazon-s3-public-access-block-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-public-access-block-api-openapi.yml
+- filename: amazon-s3-storage-lens-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Storage Lens API
+  slug: amazon-s3-storage-lens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-storage-lens-api-openapi.yml
+- filename: amazon-s3-table-buckets-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Table Buckets API
+  slug: amazon-s3-table-buckets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-table-buckets-api-openapi.yml
+- filename: amazon-s3-table-maintenance-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Table Maintenance API
+  slug: amazon-s3-table-maintenance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-table-maintenance-api-openapi.yml
+- filename: amazon-s3-table-policy-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Table Policy API
+  slug: amazon-s3-table-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-table-policy-api-openapi.yml
+- filename: amazon-s3-tagging-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Tagging API
+  slug: amazon-s3-tagging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-tagging-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,23 +1,29 @@
 ---
 api_specs:
-- filename: sobot-online-openapi.json
-  format: json
-  label: Sobot Online Chat API
-  slug: sobot-online-chat-api
+- filename: sobot-agent-api-openapi.yml
+  format: yaml
+  label: Sobot Agent API
+  slug: sobot-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sobot/refs/heads/main/openapi/sobot-online-openapi.json
-- filename: sobot-basic-openapi.json
-  format: json
-  label: Sobot Basic (Agent) API
-  slug: sobot-basic-agent-api
+  url: https://raw.githubusercontent.com/api-evangelist/sobot/refs/heads/main/openapi/sobot-agent-api-openapi.yml
+- filename: sobot-basic-public-service-api-openapi.yml
+  format: yaml
+  label: Sobot basic-public/service/坐席信息管理 API
+  slug: sobot-basic-public-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sobot/refs/heads/main/openapi/sobot-basic-openapi.json
-- filename: sobot-voice-openapi.json
-  format: json
-  label: Sobot Voice Extension API
-  slug: sobot-voice-extension-api
+  url: https://raw.githubusercontent.com/api-evangelist/sobot/refs/heads/main/openapi/sobot-basic-public-service-api-openapi.yml
+- filename: sobot-exts-api-openapi.yml
+  format: yaml
+  label: Sobot Exts API
+  slug: sobot-exts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sobot/refs/heads/main/openapi/sobot-voice-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/sobot/refs/heads/main/openapi/sobot-exts-api-openapi.yml
+- filename: sobot-user-api-openapi.yml
+  format: yaml
+  label: Sobot User API
+  slug: sobot-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sobot/refs/heads/main/openapi/sobot-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

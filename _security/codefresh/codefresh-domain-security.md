@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: codefresh-openapi.yml
+- filename: codefresh-access-control-api-openapi.yml
   format: yaml
-  label: Codefresh REST API
-  slug: rest-api
+  label: Codefresh Access Control API
+  slug: codefresh-access-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codefresh/refs/heads/main/openapi/codefresh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/codefresh/refs/heads/main/openapi/codefresh-access-control-api-openapi.yml
+- filename: codefresh-accounts-api-openapi.yml
+  format: yaml
+  label: Codefresh Accounts API
+  slug: codefresh-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codefresh/refs/heads/main/openapi/codefresh-accounts-api-openapi.yml
+- filename: codefresh-admin-api-openapi.yml
+  format: yaml
+  label: Codefresh Admin API
+  slug: codefresh-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codefresh/refs/heads/main/openapi/codefresh-admin-api-openapi.yml
+- filename: codefresh-annotations-api-openapi.yml
+  format: yaml
+  label: Codefresh Annotations API
+  slug: codefresh-annotations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codefresh/refs/heads/main/openapi/codefresh-annotations-api-openapi.yml
+- filename: codefresh-audit-api-openapi.yml
+  format: yaml
+  label: Codefresh Audit API
+  slug: codefresh-audit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codefresh/refs/heads/main/openapi/codefresh-audit-api-openapi.yml
+- filename: codefresh-auth-api-openapi.yml
+  format: yaml
+  label: Codefresh Auth API
+  slug: codefresh-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codefresh/refs/heads/main/openapi/codefresh-auth-api-openapi.yml
+- filename: codefresh-builds-api-openapi.yml
+  format: yaml
+  label: Codefresh Builds API
+  slug: codefresh-builds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codefresh/refs/heads/main/openapi/codefresh-builds-api-openapi.yml
+- filename: codefresh-clusters-api-openapi.yml
+  format: yaml
+  label: Codefresh Clusters API
+  slug: codefresh-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codefresh/refs/heads/main/openapi/codefresh-clusters-api-openapi.yml
+- filename: codefresh-contexts-api-openapi.yml
+  format: yaml
+  label: Codefresh Contexts API
+  slug: codefresh-contexts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codefresh/refs/heads/main/openapi/codefresh-contexts-api-openapi.yml
+- filename: codefresh-environments-api-openapi.yml
+  format: yaml
+  label: Codefresh Environments API
+  slug: codefresh-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codefresh/refs/heads/main/openapi/codefresh-environments-api-openapi.yml
+- filename: codefresh-features-api-openapi.yml
+  format: yaml
+  label: Codefresh Features API
+  slug: codefresh-features-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codefresh/refs/heads/main/openapi/codefresh-features-api-openapi.yml
+- filename: codefresh-helm-api-openapi.yml
+  format: yaml
+  label: Codefresh Helm API
+  slug: codefresh-helm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codefresh/refs/heads/main/openapi/codefresh-helm-api-openapi.yml
+- filename: codefresh-workflows-api-openapi.yml
+  format: yaml
+  label: Codefresh Workflows API
+  slug: codefresh-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codefresh/refs/heads/main/openapi/codefresh-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []

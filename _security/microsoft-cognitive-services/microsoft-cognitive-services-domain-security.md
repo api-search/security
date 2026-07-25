@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-cognitive-services-imageanalysis-api-openapi.yml
+  format: yaml
+  label: Microsoft Cognitive Services ImageAnalysis API
+  slug: microsoft-cognitive-services-imageanalysis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-cognitive-services/refs/heads/main/openapi/microsoft-cognitive-services-imageanalysis-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,41 +1,53 @@
 ---
 api_specs:
-- filename: hologram-openapi.yml
+- filename: hologram-cellular-links-api-openapi.yml
   format: yaml
-  label: Hologram Devices & SIMs API
-  slug: hologram-devices-sims-api
+  label: Hologram Cellular Links API
+  slug: hologram-cellular-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/openapi/hologram-openapi.yml
-- filename: hologram-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/openapi/hologram-cellular-links-api-openapi.yml
+- filename: hologram-devices-api-openapi.yml
   format: yaml
-  label: Hologram Data Usage API
-  slug: hologram-data-usage-api
+  label: Hologram Devices API
+  slug: hologram-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/openapi/hologram-openapi.yml
-- filename: hologram-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/openapi/hologram-devices-api-openapi.yml
+- filename: hologram-messaging-api-openapi.yml
   format: yaml
-  label: Hologram SMS & Messaging API
-  slug: hologram-sms-messaging-api
+  label: Hologram Messaging API
+  slug: hologram-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/openapi/hologram-openapi.yml
-- filename: hologram-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/openapi/hologram-messaging-api-openapi.yml
+- filename: hologram-plans-api-openapi.yml
   format: yaml
   label: Hologram Plans API
   slug: hologram-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/openapi/hologram-openapi.yml
-- filename: hologram-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/openapi/hologram-plans-api-openapi.yml
+- filename: hologram-sms-api-openapi.yml
+  format: yaml
+  label: Hologram SMS API
+  slug: hologram-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/openapi/hologram-sms-api-openapi.yml
+- filename: hologram-tags-api-openapi.yml
   format: yaml
   label: Hologram Tags API
   slug: hologram-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/openapi/hologram-openapi.yml
-- filename: hologram-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/openapi/hologram-tags-api-openapi.yml
+- filename: hologram-usage-api-openapi.yml
+  format: yaml
+  label: Hologram Usage API
+  slug: hologram-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/openapi/hologram-usage-api-openapi.yml
+- filename: hologram-webhooks-api-openapi.yml
   format: yaml
   label: Hologram Webhooks API
   slug: hologram-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/openapi/hologram-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/openapi/hologram-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

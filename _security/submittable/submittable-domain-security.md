@@ -1,47 +1,65 @@
 ---
 api_specs:
-- filename: submittable-openapi.yml
+- filename: submittable-assignments-api-openapi.yml
   format: yaml
-  label: Submittable Submissions API
-  slug: submittable-submissions-api
+  label: Submittable Assignments API
+  slug: submittable-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-openapi.yml
-- filename: submittable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-assignments-api-openapi.yml
+- filename: submittable-entries-api-openapi.yml
   format: yaml
   label: Submittable Entries API
   slug: submittable-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-openapi.yml
-- filename: submittable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-entries-api-openapi.yml
+- filename: submittable-funds-api-openapi.yml
   format: yaml
-  label: Submittable Projects and Forms API
-  slug: submittable-projects-forms-api
+  label: Submittable Funds API
+  slug: submittable-funds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-openapi.yml
-- filename: submittable-openapi.yml
-  format: yaml
-  label: Submittable Users (Submitters) API
-  slug: submittable-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-openapi.yml
-- filename: submittable-openapi.yml
-  format: yaml
-  label: Submittable Teams and Reviews API
-  slug: submittable-teams-reviews-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-openapi.yml
-- filename: submittable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-funds-api-openapi.yml
+- filename: submittable-labels-api-openapi.yml
   format: yaml
   label: Submittable Labels API
   slug: submittable-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-openapi.yml
-- filename: submittable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-labels-api-openapi.yml
+- filename: submittable-messaging-api-openapi.yml
   format: yaml
-  label: Submittable Funds and Payments API
-  slug: submittable-funds-api
+  label: Submittable Messaging API
+  slug: submittable-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-messaging-api-openapi.yml
+- filename: submittable-payments-api-openapi.yml
+  format: yaml
+  label: Submittable Payments API
+  slug: submittable-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-payments-api-openapi.yml
+- filename: submittable-projects-api-openapi.yml
+  format: yaml
+  label: Submittable Projects API
+  slug: submittable-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-projects-api-openapi.yml
+- filename: submittable-submissions-api-openapi.yml
+  format: yaml
+  label: Submittable Submissions API
+  slug: submittable-submissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-submissions-api-openapi.yml
+- filename: submittable-teams-api-openapi.yml
+  format: yaml
+  label: Submittable Teams API
+  slug: submittable-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-teams-api-openapi.yml
+- filename: submittable-users-api-openapi.yml
+  format: yaml
+  label: Submittable Users API
+  slug: submittable-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

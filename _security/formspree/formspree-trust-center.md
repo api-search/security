@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: formspree-forms-api-openapi.yml
+  format: yaml
+  label: Formspree Forms API
+  slug: formspree-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formspree/refs/heads/main/openapi/formspree-forms-api-openapi.yml
 certifications:
 - SOC 2
 - GDPR

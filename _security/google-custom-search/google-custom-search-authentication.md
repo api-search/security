@@ -2,12 +2,12 @@
 api_key_in:
 - query
 api_specs:
-- filename: openapi.yml
+- filename: google-custom-search-customsearch-api-openapi.yml
   format: yaml
-  label: Google Custom Search JSON API
-  slug: google-custom-search-json-api
+  label: Google Custom Search Customsearch API
+  slug: google-custom-search-customsearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-custom-search/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-custom-search/refs/heads/main/openapi/google-custom-search-customsearch-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

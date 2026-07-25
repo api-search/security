@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: doc.json
-  format: json
-  label: ISBNdb API
-  slug: isbndb-api
+- filename: isbndb-author-api-openapi.yml
+  format: yaml
+  label: ISBNdb Author API
+  slug: isbndb-author-api
   spec_type: OpenAPI
-  url: https://api2.isbndb.com/doc.json
+  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-author-api-openapi.yml
+- filename: isbndb-books-api-openapi.yml
+  format: yaml
+  label: ISBNdb Books API
+  slug: isbndb-books-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-books-api-openapi.yml
+- filename: isbndb-feed-api-openapi.yml
+  format: yaml
+  label: ISBNdb Feed API
+  slug: isbndb-feed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-feed-api-openapi.yml
+- filename: isbndb-key-api-openapi.yml
+  format: yaml
+  label: ISBNdb Key API
+  slug: isbndb-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-key-api-openapi.yml
+- filename: isbndb-publisher-api-openapi.yml
+  format: yaml
+  label: ISBNdb Publisher API
+  slug: isbndb-publisher-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-publisher-api-openapi.yml
+- filename: isbndb-search-api-openapi.yml
+  format: yaml
+  label: ISBNdb Search API
+  slug: isbndb-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-search-api-openapi.yml
+- filename: isbndb-stats-api-openapi.yml
+  format: yaml
+  label: ISBNdb Stats API
+  slug: isbndb-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-stats-api-openapi.yml
+- filename: isbndb-subject-api-openapi.yml
+  format: yaml
+  label: ISBNdb Subject API
+  slug: isbndb-subject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-subject-api-openapi.yml
 description: ''
 domains:
 - caa: []

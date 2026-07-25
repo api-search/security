@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: the-predictive-index-integrations-openapi.yml
+- filename: the-predictive-index-behavioral-assessments-api-openapi.yml
   format: yaml
-  label: The Predictive Index Integration API
-  slug: the-predictive-index-integration-api
+  label: The Predictive Index Behavioral Assessments API
+  slug: the-predictive-index-behavioral-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/openapi/the-predictive-index-integrations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/openapi/the-predictive-index-behavioral-assessments-api-openapi.yml
+- filename: the-predictive-index-candidates-api-openapi.yml
+  format: yaml
+  label: The Predictive Index Candidates API
+  slug: the-predictive-index-candidates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/openapi/the-predictive-index-candidates-api-openapi.yml
+- filename: the-predictive-index-employees-api-openapi.yml
+  format: yaml
+  label: The Predictive Index Employees API
+  slug: the-predictive-index-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/openapi/the-predictive-index-employees-api-openapi.yml
+- filename: the-predictive-index-jobs-api-openapi.yml
+  format: yaml
+  label: The Predictive Index Jobs API
+  slug: the-predictive-index-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/openapi/the-predictive-index-jobs-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: carbone-openapi.yml
+- filename: carbone-render-api-openapi.yml
   format: yaml
-  label: Carbone Cloud HTTP API
-  slug: cloud
+  label: Carbone Render API
+  slug: carbone-render-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbone/refs/heads/main/openapi/carbone-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/carbone/refs/heads/main/openapi/carbone-render-api-openapi.yml
+- filename: carbone-status-api-openapi.yml
+  format: yaml
+  label: Carbone Status API
+  slug: carbone-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carbone/refs/heads/main/openapi/carbone-status-api-openapi.yml
+- filename: carbone-template-api-openapi.yml
+  format: yaml
+  label: Carbone Template API
+  slug: carbone-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carbone/refs/heads/main/openapi/carbone-template-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,12 +2,48 @@
 api_key_in:
 - query
 api_specs:
-- filename: here-apis-openapi.yml
+- filename: here-autocomplete-api-openapi.yml
   format: yaml
-  label: HERE APIs
-  slug: here-apis
+  label: HERE Autocomplete API
+  slug: here-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/here/refs/heads/main/properties/here-apis-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/here/refs/heads/main/openapi/here-autocomplete-api-openapi.yml
+- filename: here-autosuggest-api-openapi.yml
+  format: yaml
+  label: HERE Autosuggest API
+  slug: here-autosuggest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/here/refs/heads/main/openapi/here-autosuggest-api-openapi.yml
+- filename: here-browse-api-openapi.yml
+  format: yaml
+  label: HERE Browse API
+  slug: here-browse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/here/refs/heads/main/openapi/here-browse-api-openapi.yml
+- filename: here-discover-api-openapi.yml
+  format: yaml
+  label: HERE Discover API
+  slug: here-discover-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/here/refs/heads/main/openapi/here-discover-api-openapi.yml
+- filename: here-geocode-api-openapi.yml
+  format: yaml
+  label: HERE Geocode API
+  slug: here-geocode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/here/refs/heads/main/openapi/here-geocode-api-openapi.yml
+- filename: here-lookup-api-openapi.yml
+  format: yaml
+  label: HERE Lookup API
+  slug: here-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/here/refs/heads/main/openapi/here-lookup-api-openapi.yml
+- filename: here-reverse-geocode-api-openapi.yml
+  format: yaml
+  label: HERE Reverse Geocode API
+  slug: here-reverse-geocode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/here/refs/heads/main/openapi/here-reverse-geocode-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: dify-openapi.yml
+- filename: dify-chat-api-openapi.yml
   format: yaml
-  label: Dify
-  slug: dify
+  label: Dify Chat API
+  slug: dify-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/openapi/dify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/openapi/dify-chat-api-openapi.yml
+- filename: dify-completion-api-openapi.yml
+  format: yaml
+  label: Dify Completion API
+  slug: dify-completion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/openapi/dify-completion-api-openapi.yml
+- filename: dify-conversations-api-openapi.yml
+  format: yaml
+  label: Dify Conversations API
+  slug: dify-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/openapi/dify-conversations-api-openapi.yml
+- filename: dify-datasets-api-openapi.yml
+  format: yaml
+  label: Dify Datasets API
+  slug: dify-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/openapi/dify-datasets-api-openapi.yml
+- filename: dify-files-api-openapi.yml
+  format: yaml
+  label: Dify Files API
+  slug: dify-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/openapi/dify-files-api-openapi.yml
+- filename: dify-workflows-api-openapi.yml
+  format: yaml
+  label: Dify Workflows API
+  slug: dify-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/openapi/dify-workflows-api-openapi.yml
 auth_types:
 - http
 description: ''

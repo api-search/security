@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: amazon-codecatalyst-openapi-original.yaml
+- filename: amazon-codecatalyst-accesstokens-api-openapi.yml
   format: yaml
-  label: Amazon CodeCatalyst API
-  slug: amazon-codecatalyst-api
+  label: Amazon CodeCatalyst AccessTokens API
+  slug: amazon-codecatalyst-accesstokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/openapi/amazon-codecatalyst-openapi-original.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/openapi/amazon-codecatalyst-accesstokens-api-openapi.yml
+- filename: amazon-codecatalyst-session-api-openapi.yml
+  format: yaml
+  label: Amazon CodeCatalyst Session API
+  slug: amazon-codecatalyst-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/openapi/amazon-codecatalyst-session-api-openapi.yml
+- filename: amazon-codecatalyst-spaces-api-openapi.yml
+  format: yaml
+  label: Amazon CodeCatalyst Spaces API
+  slug: amazon-codecatalyst-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/openapi/amazon-codecatalyst-spaces-api-openapi.yml
+- filename: amazon-codecatalyst-userdetails-api-openapi.yml
+  format: yaml
+  label: Amazon CodeCatalyst UserDetails API
+  slug: amazon-codecatalyst-userdetails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/openapi/amazon-codecatalyst-userdetails-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

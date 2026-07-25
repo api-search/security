@@ -1,36 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: lorikeet-openapi.yml
+- filename: lorikeet-conversations-api-openapi.yml
   format: yaml
   label: Lorikeet Conversations API
   slug: lorikeet-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lorikeet/refs/heads/main/openapi/lorikeet-openapi.yml
-- filename: lorikeet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lorikeet/refs/heads/main/openapi/lorikeet-conversations-api-openapi.yml
+- filename: lorikeet-knowledge-api-openapi.yml
+  format: yaml
+  label: Lorikeet Knowledge API
+  slug: lorikeet-knowledge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lorikeet/refs/heads/main/openapi/lorikeet-knowledge-api-openapi.yml
+- filename: lorikeet-messages-api-openapi.yml
   format: yaml
   label: Lorikeet Messages API
   slug: lorikeet-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lorikeet/refs/heads/main/openapi/lorikeet-openapi.yml
-- filename: lorikeet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lorikeet/refs/heads/main/openapi/lorikeet-messages-api-openapi.yml
+- filename: lorikeet-webhooks-api-openapi.yml
   format: yaml
-  label: Lorikeet Webhooks & Events API
-  slug: lorikeet-webhooks-events-api
+  label: Lorikeet Webhooks API
+  slug: lorikeet-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lorikeet/refs/heads/main/openapi/lorikeet-openapi.yml
-- filename: lorikeet-openapi.yml
-  format: yaml
-  label: Lorikeet Actions & Tools API
-  slug: lorikeet-actions-tools-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lorikeet/refs/heads/main/openapi/lorikeet-openapi.yml
-- filename: lorikeet-openapi.yml
-  format: yaml
-  label: Lorikeet Knowledge Ingestion API
-  slug: lorikeet-knowledge-ingestion-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lorikeet/refs/heads/main/openapi/lorikeet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lorikeet/refs/heads/main/openapi/lorikeet-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -2,6 +2,43 @@
 api_key_in:
 - header
 - query
+api_specs:
+- filename: openchargemap-comment-api-openapi.yml
+  format: yaml
+  label: Open Charge Map Comment API
+  slug: openchargemap-comment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-openchargemap/refs/heads/main/openapi/openchargemap-comment-api-openapi.yml
+- filename: openchargemap-mediaitem-api-openapi.yml
+  format: yaml
+  label: Open Charge Map Mediaitem API
+  slug: openchargemap-mediaitem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-openchargemap/refs/heads/main/openapi/openchargemap-mediaitem-api-openapi.yml
+- filename: openchargemap-openapi-api-openapi.yml
+  format: yaml
+  label: Open Charge Map Openapi API
+  slug: openchargemap-openapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-openchargemap/refs/heads/main/openapi/openchargemap-openapi-api-openapi.yml
+- filename: openchargemap-poi-api-openapi.yml
+  format: yaml
+  label: Open Charge Map Poi API
+  slug: openchargemap-poi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-openchargemap/refs/heads/main/openapi/openchargemap-poi-api-openapi.yml
+- filename: openchargemap-profile-api-openapi.yml
+  format: yaml
+  label: Open Charge Map Profile API
+  slug: openchargemap-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-openchargemap/refs/heads/main/openapi/openchargemap-profile-api-openapi.yml
+- filename: openchargemap-referencedata-api-openapi.yml
+  format: yaml
+  label: Open Charge Map Referencedata API
+  slug: openchargemap-referencedata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-openchargemap/refs/heads/main/openapi/openchargemap-referencedata-api-openapi.yml
 auth_types:
 - apiKey
 - http

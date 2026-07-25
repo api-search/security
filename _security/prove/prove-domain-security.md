@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: prove-openapi.yml
+- filename: prove-auth-api-openapi.yml
   format: yaml
-  label: Prove Identity Verification (v3 Flows)
-  slug: identity-verification-v3-flows
+  label: Prove Auth API
+  slug: prove-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-openapi.yml
-- filename: prove-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-auth-api-openapi.yml
+- filename: prove-authentication-api-openapi.yml
   format: yaml
-  label: Prove Trust Score (Unified Authentication)
-  slug: trust-score
+  label: Prove Authentication API
+  slug: prove-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-openapi.yml
-- filename: prove-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-authentication-api-openapi.yml
+- filename: prove-domain-api-openapi.yml
   format: yaml
-  label: Prove Pre-Fill (Identity Discovery)
-  slug: pre-fill
+  label: Prove Domain API
+  slug: prove-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-openapi.yml
-- filename: prove-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-domain-api-openapi.yml
+- filename: prove-identity-api-openapi.yml
   format: yaml
-  label: Prove Auth
-  slug: auth
+  label: Prove Identity API
+  slug: prove-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-openapi.yml
-- filename: prove-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-identity-api-openapi.yml
+- filename: prove-identity-verification-api-openapi.yml
   format: yaml
-  label: Prove Identity Manager
-  slug: identity
+  label: Prove Identity Verification API
+  slug: prove-identity-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-identity-verification-api-openapi.yml
+- filename: prove-pre-fill-api-openapi.yml
+  format: yaml
+  label: Prove Pre-Fill API
+  slug: prove-pre-fill-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-pre-fill-api-openapi.yml
+- filename: prove-trust-score-api-openapi.yml
+  format: yaml
+  label: Prove Trust Score API
+  slug: prove-trust-score-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-trust-score-api-openapi.yml
 description: ''
 domains:
 - caa: []

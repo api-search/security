@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: amazon-codeguru-profiler-openapi-original.yaml
+- filename: amazon-codeguru-profiler-internal-api-openapi.yml
   format: yaml
-  label: Amazon CodeGuru Profiler API
-  slug: amazon-codeguru-profiler-api
+  label: Amazon CodeGuru Profiler Internal API
+  slug: amazon-codeguru-profiler-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/openapi/amazon-codeguru-profiler-openapi-original.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/openapi/amazon-codeguru-profiler-internal-api-openapi.yml
+- filename: amazon-codeguru-profiler-profilinggroups-api-openapi.yml
+  format: yaml
+  label: Amazon CodeGuru Profiler ProfilingGroups API
+  slug: amazon-codeguru-profiler-profilinggroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/openapi/amazon-codeguru-profiler-profilinggroups-api-openapi.yml
+- filename: amazon-codeguru-profiler-profilinggroups-clienttoken-api-openapi.yml
+  format: yaml
+  label: Amazon CodeGuru Profiler ProfilingGroups#clientToken API
+  slug: amazon-codeguru-profiler-profilinggroups-clienttoken-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/openapi/amazon-codeguru-profiler-profilinggroups-clienttoken-api-openapi.yml
+- filename: amazon-codeguru-profiler-tags-api-openapi.yml
+  format: yaml
+  label: Amazon CodeGuru Profiler Tags API
+  slug: amazon-codeguru-profiler-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/openapi/amazon-codeguru-profiler-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

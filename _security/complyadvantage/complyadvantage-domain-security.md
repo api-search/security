@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: complyadvantage-openapi.yml
-  format: yaml
-  label: ComplyAdvantage Search API
-  slug: complyadvantage-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-openapi.yml
-- filename: complyadvantage-openapi.yml
-  format: yaml
-  label: ComplyAdvantage Monitored Search API
-  slug: complyadvantage-monitored-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-openapi.yml
-- filename: complyadvantage-openapi.yml
+- filename: complyadvantage-case-management-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Case Management API
   slug: complyadvantage-case-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-openapi.yml
-- filename: complyadvantage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-case-management-api-openapi.yml
+- filename: complyadvantage-monitored-searches-api-openapi.yml
+  format: yaml
+  label: ComplyAdvantage Monitored Searches API
+  slug: complyadvantage-monitored-searches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-monitored-searches-api-openapi.yml
+- filename: complyadvantage-searches-api-openapi.yml
+  format: yaml
+  label: ComplyAdvantage Searches API
+  slug: complyadvantage-searches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-searches-api-openapi.yml
+- filename: complyadvantage-users-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Users API
   slug: complyadvantage-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-users-api-openapi.yml
 description: ''
 domains:
 - caa:

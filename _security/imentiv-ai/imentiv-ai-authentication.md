@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: imentiv-ai-openapi.yml
+- filename: imentiv-ai-ai-insights-api-api-openapi.yml
   format: yaml
-  label: Imentiv AI API
-  slug: imentiv-ai-api
+  label: Imentiv AI AI Insights API API
+  slug: imentiv-ai-ai-insights-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/main/openapi/imentiv-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-ai-insights-api-api-openapi.yml
+- filename: imentiv-ai-audio-emotion-api-api-openapi.yml
+  format: yaml
+  label: Imentiv AI Audio Emotion API API
+  slug: imentiv-ai-audio-emotion-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-audio-emotion-api-api-openapi.yml
+- filename: imentiv-ai-image-emotion-api-api-openapi.yml
+  format: yaml
+  label: Imentiv AI Image Emotion API API
+  slug: imentiv-ai-image-emotion-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-image-emotion-api-api-openapi.yml
+- filename: imentiv-ai-report-api-api-openapi.yml
+  format: yaml
+  label: Imentiv AI Report API API
+  slug: imentiv-ai-report-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-report-api-api-openapi.yml
+- filename: imentiv-ai-text-emotion-api-api-openapi.yml
+  format: yaml
+  label: Imentiv AI Text Emotion API API
+  slug: imentiv-ai-text-emotion-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-text-emotion-api-api-openapi.yml
+- filename: imentiv-ai-video-emotion-api-api-openapi.yml
+  format: yaml
+  label: Imentiv AI Video Emotion API API
+  slug: imentiv-ai-video-emotion-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-video-emotion-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

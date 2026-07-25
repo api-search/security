@@ -1,59 +1,71 @@
 ---
 api_specs:
-- filename: velma-2-batch-openapi-original.yml
+- filename: modulate-velma-2-accent-batch-api-openapi.yml
   format: yaml
-  label: Velma-2 Voice Intelligence API
-  slug: velma-2
+  label: Modulate Velma 2 Accent Batch API
+  slug: modulate-velma-2-accent-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/openapi/velma-2-batch-openapi-original.yml
-- filename: stt-batch-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/openapi/modulate-velma-2-accent-batch-api-openapi.yml
+- filename: modulate-velma-2-ai-music-detection-batch-api-openapi.yml
   format: yaml
-  label: Speech-to-Text Transcription API
-  slug: stt
+  label: Modulate Velma 2 Ai Music Detection Batch API
+  slug: modulate-velma-2-ai-music-detection-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/openapi/stt-batch-openapi-original.yml
-- filename: synthetic-voice-detection-batch-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/openapi/modulate-velma-2-ai-music-detection-batch-api-openapi.yml
+- filename: modulate-velma-2-batch-api-openapi.yml
   format: yaml
-  label: Deepfake (Synthetic Voice) Detection API
-  slug: deepfake-detection
+  label: Modulate Velma 2 Batch API
+  slug: modulate-velma-2-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/openapi/synthetic-voice-detection-batch-openapi-original.yml
-- filename: pii-phi-redaction-batch-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/openapi/modulate-velma-2-batch-api-openapi.yml
+- filename: modulate-velma-2-emotion-batch-api-openapi.yml
   format: yaml
-  label: PII/PHI Redaction API
-  slug: pii-phi-redaction
+  label: Modulate Velma 2 Emotion Batch API
+  slug: modulate-velma-2-emotion-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/openapi/pii-phi-redaction-batch-openapi-original.yml
-- filename: emotion-batch-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/openapi/modulate-velma-2-emotion-batch-api-openapi.yml
+- filename: modulate-velma-2-language-detection-batch-api-openapi.yml
   format: yaml
-  label: Emotion Detection API
-  slug: emotion-detection
+  label: Modulate Velma 2 Language Detection Batch API
+  slug: modulate-velma-2-language-detection-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/openapi/emotion-batch-openapi-original.yml
-- filename: accent-batch-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/openapi/modulate-velma-2-language-detection-batch-api-openapi.yml
+- filename: modulate-velma-2-music-detection-batch-api-openapi.yml
   format: yaml
-  label: Accent Detection API
-  slug: accent-detection
+  label: Modulate Velma 2 Music Detection Batch API
+  slug: modulate-velma-2-music-detection-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/openapi/accent-batch-openapi-original.yml
-- filename: language-detection-batch-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/openapi/modulate-velma-2-music-detection-batch-api-openapi.yml
+- filename: modulate-velma-2-pii-phi-redaction-batch-api-openapi.yml
   format: yaml
-  label: Language Detection API
-  slug: language-detection
+  label: Modulate Velma 2 Pii Phi Redaction Batch API
+  slug: modulate-velma-2-pii-phi-redaction-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/openapi/language-detection-batch-openapi-original.yml
-- filename: music-detection-batch-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/openapi/modulate-velma-2-pii-phi-redaction-batch-api-openapi.yml
+- filename: modulate-velma-2-stt-batch-api-openapi.yml
   format: yaml
-  label: Music & Speech Detection API
-  slug: music-detection
+  label: Modulate Velma 2 Stt Batch API
+  slug: modulate-velma-2-stt-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/openapi/music-detection-batch-openapi-original.yml
-- filename: ai-music-detection-batch-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/openapi/modulate-velma-2-stt-batch-api-openapi.yml
+- filename: modulate-velma-2-stt-batch-english-vfast-api-openapi.yml
   format: yaml
-  label: AI Music Detection API
-  slug: ai-music-detection
+  label: Modulate Velma 2 Stt Batch English Vfast API
+  slug: modulate-velma-2-stt-batch-english-vfast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/openapi/ai-music-detection-batch-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/openapi/modulate-velma-2-stt-batch-english-vfast-api-openapi.yml
+- filename: modulate-velma-2-stt-batch-multilingual-vfast-api-openapi.yml
+  format: yaml
+  label: Modulate Velma 2 Stt Batch Multilingual Vfast API
+  slug: modulate-velma-2-stt-batch-multilingual-vfast-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/openapi/modulate-velma-2-stt-batch-multilingual-vfast-api-openapi.yml
+- filename: modulate-velma-2-synthetic-voice-detection-batch-api-openapi.yml
+  format: yaml
+  label: Modulate Velma 2 Synthetic Voice Detection Batch API
+  slug: modulate-velma-2-synthetic-voice-detection-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/openapi/modulate-velma-2-synthetic-voice-detection-batch-api-openapi.yml
 description: ''
 domains:
 - caa: []

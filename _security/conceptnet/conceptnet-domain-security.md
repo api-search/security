@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: conceptnet-concepts-api-openapi.yml
   format: yaml
-  label: ConceptNet REST API
-  slug: conceptnet-rest-api
+  label: ConceptNet Concepts API
+  slug: conceptnet-concepts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conceptnet/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/conceptnet/refs/heads/main/openapi/conceptnet-concepts-api-openapi.yml
+- filename: conceptnet-edges-api-openapi.yml
+  format: yaml
+  label: ConceptNet Edges API
+  slug: conceptnet-edges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conceptnet/refs/heads/main/openapi/conceptnet-edges-api-openapi.yml
+- filename: conceptnet-query-api-openapi.yml
+  format: yaml
+  label: ConceptNet Query API
+  slug: conceptnet-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conceptnet/refs/heads/main/openapi/conceptnet-query-api-openapi.yml
+- filename: conceptnet-relations-api-openapi.yml
+  format: yaml
+  label: ConceptNet Relations API
+  slug: conceptnet-relations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conceptnet/refs/heads/main/openapi/conceptnet-relations-api-openapi.yml
+- filename: conceptnet-similarity-api-openapi.yml
+  format: yaml
+  label: ConceptNet Similarity API
+  slug: conceptnet-similarity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conceptnet/refs/heads/main/openapi/conceptnet-similarity-api-openapi.yml
+- filename: conceptnet-sources-api-openapi.yml
+  format: yaml
+  label: ConceptNet Sources API
+  slug: conceptnet-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conceptnet/refs/heads/main/openapi/conceptnet-sources-api-openapi.yml
+- filename: conceptnet-utilities-api-openapi.yml
+  format: yaml
+  label: ConceptNet Utilities API
+  slug: conceptnet-utilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conceptnet/refs/heads/main/openapi/conceptnet-utilities-api-openapi.yml
 description: ''
 domains:
 - caa: []

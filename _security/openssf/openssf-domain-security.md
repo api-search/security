@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: openssf-osv-openapi.yml
+- filename: openssf-projects-api-openapi.yml
   format: yaml
-  label: OSV (Open Source Vulnerabilities) API
-  slug: osv-api
+  label: OpenSSF Projects API
+  slug: openssf-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/openapi/openssf-osv-openapi.yml
-- filename: openssf-scorecard-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/openapi/openssf-projects-api-openapi.yml
+- filename: openssf-query-api-openapi.yml
   format: yaml
-  label: OpenSSF Scorecard API
-  slug: scorecard-api
+  label: OpenSSF Query API
+  slug: openssf-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/openapi/openssf-scorecard-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/openapi/openssf-query-api-openapi.yml
+- filename: openssf-querybatch-api-openapi.yml
+  format: yaml
+  label: OpenSSF Querybatch API
+  slug: openssf-querybatch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/openapi/openssf-querybatch-api-openapi.yml
+- filename: openssf-v1experimental-api-openapi.yml
+  format: yaml
+  label: OpenSSF V1experimental API
+  slug: openssf-v1experimental-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/openapi/openssf-v1experimental-api-openapi.yml
+- filename: openssf-vulns-api-openapi.yml
+  format: yaml
+  label: OpenSSF Vulns API
+  slug: openssf-vulns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/openapi/openssf-vulns-api-openapi.yml
 description: ''
 domains:
 - caa: []

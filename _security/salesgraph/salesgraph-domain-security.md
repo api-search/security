@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: salesgraph-openapi.yml
+- filename: salesgraph-audit-api-openapi.yml
   format: yaml
-  label: Salesgraph REST API
-  slug: salesgraph-rest-api
+  label: Salesgraph Audit API
+  slug: salesgraph-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/openapi/salesgraph-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/openapi/salesgraph-audit-api-openapi.yml
+- filename: salesgraph-commands-api-openapi.yml
+  format: yaml
+  label: Salesgraph Commands API
+  slug: salesgraph-commands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/openapi/salesgraph-commands-api-openapi.yml
+- filename: salesgraph-runs-api-openapi.yml
+  format: yaml
+  label: Salesgraph Runs API
+  slug: salesgraph-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/openapi/salesgraph-runs-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,30 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: pdfgeneratorapi-openapi.yml
+- filename: pdfgeneratorapi-documents-api-openapi.yml
+  format: yaml
+  label: PDF Generator API Documents API
+  slug: pdfgeneratorapi-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdfgeneratorapi/refs/heads/main/openapi/pdfgeneratorapi-documents-api-openapi.yml
+- filename: pdfgeneratorapi-templates-api-openapi.yml
   format: yaml
   label: PDF Generator API Templates API
   slug: pdfgeneratorapi-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfgeneratorapi/refs/heads/main/openapi/pdfgeneratorapi-openapi.yml
-- filename: pdfgeneratorapi-openapi.yml
-  format: yaml
-  label: PDF Generator API Documents / Generate API
-  slug: pdfgeneratorapi-documents-generate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfgeneratorapi/refs/heads/main/openapi/pdfgeneratorapi-openapi.yml
-- filename: pdfgeneratorapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pdfgeneratorapi/refs/heads/main/openapi/pdfgeneratorapi-templates-api-openapi.yml
+- filename: pdfgeneratorapi-workspaces-api-openapi.yml
   format: yaml
   label: PDF Generator API Workspaces API
   slug: pdfgeneratorapi-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfgeneratorapi/refs/heads/main/openapi/pdfgeneratorapi-openapi.yml
-- filename: pdfgeneratorapi-openapi.yml
-  format: yaml
-  label: PDF Generator API Data Fields API
-  slug: pdfgeneratorapi-data-fields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfgeneratorapi/refs/heads/main/openapi/pdfgeneratorapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pdfgeneratorapi/refs/heads/main/openapi/pdfgeneratorapi-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,41 +1,47 @@
 ---
 api_specs:
-- filename: corbado-openapi.yml
+- filename: corbado-connecttokens-api-openapi.yml
   format: yaml
-  label: Corbado Users API
-  slug: corbado-users-api
+  label: Corbado ConnectTokens API
+  slug: corbado-connecttokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-openapi.yml
-- filename: corbado-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-connecttokens-api-openapi.yml
+- filename: corbado-exports-api-openapi.yml
+  format: yaml
+  label: Corbado Exports API
+  slug: corbado-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-exports-api-openapi.yml
+- filename: corbado-identifiers-api-openapi.yml
   format: yaml
   label: Corbado Identifiers API
   slug: corbado-identifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-openapi.yml
-- filename: corbado-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-identifiers-api-openapi.yml
+- filename: corbado-passkeyevents-api-openapi.yml
   format: yaml
-  label: Corbado Sessions API
-  slug: corbado-sessions-api
+  label: Corbado PasskeyEvents API
+  slug: corbado-passkeyevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-openapi.yml
-- filename: corbado-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-passkeyevents-api-openapi.yml
+- filename: corbado-passkeys-api-openapi.yml
   format: yaml
   label: Corbado Passkeys API
   slug: corbado-passkeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-openapi.yml
-- filename: corbado-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-passkeys-api-openapi.yml
+- filename: corbado-sessions-api-openapi.yml
   format: yaml
-  label: Corbado Connect Tokens API
-  slug: corbado-connect-tokens-api
+  label: Corbado Sessions API
+  slug: corbado-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-openapi.yml
-- filename: corbado-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-sessions-api-openapi.yml
+- filename: corbado-users-api-openapi.yml
   format: yaml
-  label: Corbado Projects API
-  slug: corbado-projects-api
+  label: Corbado Users API
+  slug: corbado-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-users-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: maxar-authentication-api-openapi.yml
+  format: yaml
+  label: Maxar Authentication API
+  slug: maxar-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maxar/refs/heads/main/openapi/maxar-authentication-api-openapi.yml
+- filename: maxar-discovery-api-openapi.yml
+  format: yaml
+  label: Maxar Discovery API
+  slug: maxar-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maxar/refs/heads/main/openapi/maxar-discovery-api-openapi.yml
+- filename: maxar-ordering-api-openapi.yml
+  format: yaml
+  label: Maxar Ordering API
+  slug: maxar-ordering-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maxar/refs/heads/main/openapi/maxar-ordering-api-openapi.yml
 description: ''
 domains:
 - caa: []

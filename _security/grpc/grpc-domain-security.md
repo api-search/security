@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: openapi.yml
-  format: yaml
-  label: gRPC-Web Proxy API
-  slug: grpc-web-proxy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/openapi.yml
 - filename: asyncapi.yml
   format: yaml
   label: gRPC Health Checking Service
@@ -18,6 +12,24 @@ api_specs:
   slug: grpc-server-reflection
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/asyncapi.yml
+- filename: grpc-channelz-api-openapi.yml
+  format: yaml
+  label: gRPC Channelz API
+  slug: grpc-channelz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/openapi/grpc-channelz-api-openapi.yml
+- filename: grpc-health-checking-api-openapi.yml
+  format: yaml
+  label: gRPC Health Checking API
+  slug: grpc-health-checking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/openapi/grpc-health-checking-api-openapi.yml
+- filename: grpc-reflection-api-openapi.yml
+  format: yaml
+  label: gRPC Reflection API
+  slug: grpc-reflection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/openapi/grpc-reflection-api-openapi.yml
 description: ''
 domains:
 - caa: []

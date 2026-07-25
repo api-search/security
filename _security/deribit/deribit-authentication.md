@@ -1,18 +1,114 @@
 ---
 api_key_in: []
 api_specs:
-- filename: deribit_openapi.json
-  format: json
-  label: Deribit REST API
-  slug: deribit-rest-api
-  spec_type: OpenAPI
-  url: https://docs.deribit.com/specifications/deribit_openapi.json
 - filename: asyncapi.yaml
   format: yaml
   label: Deribit WebSocket API
   slug: deribit-websocket-api
   spec_type: AsyncAPI
   url: https://docs.deribit.com/
+- filename: deribit-account-management-api-openapi.yml
+  format: yaml
+  label: Deribit Account Management API
+  slug: deribit-account-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-account-management-api-openapi.yml
+- filename: deribit-authentication-api-openapi.yml
+  format: yaml
+  label: Deribit Authentication API
+  slug: deribit-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-authentication-api-openapi.yml
+- filename: deribit-block-rfq-api-openapi.yml
+  format: yaml
+  label: Deribit Block RFQ API
+  slug: deribit-block-rfq-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-block-rfq-api-openapi.yml
+- filename: deribit-block-trade-api-openapi.yml
+  format: yaml
+  label: Deribit Block Trade API
+  slug: deribit-block-trade-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-block-trade-api-openapi.yml
+- filename: deribit-combo-books-api-openapi.yml
+  format: yaml
+  label: Deribit Combo Books API
+  slug: deribit-combo-books-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-combo-books-api-openapi.yml
+- filename: deribit-mark-price-api-openapi.yml
+  format: yaml
+  label: Deribit Mark Price API
+  slug: deribit-mark-price-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-mark-price-api-openapi.yml
+- filename: deribit-market-data-api-openapi.yml
+  format: yaml
+  label: Deribit Market Data API
+  slug: deribit-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-market-data-api-openapi.yml
+- filename: deribit-matching-engine-api-openapi.yml
+  format: yaml
+  label: Deribit Matching Engine API
+  slug: deribit-matching-engine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-matching-engine-api-openapi.yml
+- filename: deribit-portfolio-management-api-openapi.yml
+  format: yaml
+  label: Deribit Portfolio Management API
+  slug: deribit-portfolio-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-portfolio-management-api-openapi.yml
+- filename: deribit-private-api-openapi.yml
+  format: yaml
+  label: Deribit Private API
+  slug: deribit-private-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-private-api-openapi.yml
+- filename: deribit-public-api-openapi.yml
+  format: yaml
+  label: Deribit Public API
+  slug: deribit-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-public-api-openapi.yml
+- filename: deribit-session-management-api-openapi.yml
+  format: yaml
+  label: Deribit Session Management API
+  slug: deribit-session-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-session-management-api-openapi.yml
+- filename: deribit-subscription-management-api-openapi.yml
+  format: yaml
+  label: Deribit Subscription Management API
+  slug: deribit-subscription-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-subscription-management-api-openapi.yml
+- filename: deribit-supporting-api-openapi.yml
+  format: yaml
+  label: Deribit Supporting API
+  slug: deribit-supporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-supporting-api-openapi.yml
+- filename: deribit-trading-api-openapi.yml
+  format: yaml
+  label: Deribit Trading API
+  slug: deribit-trading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-trading-api-openapi.yml
+- filename: deribit-wallet-api-openapi.yml
+  format: yaml
+  label: Deribit Wallet API
+  slug: deribit-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-wallet-api-openapi.yml
+- filename: deribit-websocket-only-api-openapi.yml
+  format: yaml
+  label: Deribit WebSocket Only API
+  slug: deribit-websocket-only-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-websocket-only-api-openapi.yml
 auth_types:
 - http
 description: ''

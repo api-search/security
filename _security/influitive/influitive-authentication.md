@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: influitive-events-openapi.json
-  format: json
+- filename: influitive-events-api-openapi.yml
+  format: yaml
   label: Influitive Events API
   slug: influitive-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/influitive/refs/heads/main/openapi/influitive-events-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/influitive/refs/heads/main/openapi/influitive-events-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

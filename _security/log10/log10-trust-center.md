@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: log10-logging-openapi.yml
+- filename: log10-feedback-api-openapi.yml
   format: yaml
-  label: Log10 LLM Logging API
-  slug: log10-llm-logging-api
+  label: Log10 Feedback API
+  slug: log10-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/openapi/log10-logging-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/openapi/log10-feedback-api-openapi.yml
+- filename: log10-completions-api-openapi.yml
+  format: yaml
+  label: Log10 Completions API
+  slug: log10-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/openapi/log10-completions-api-openapi.yml
+- filename: log10-feedback-api-openapi.yml
+  format: yaml
+  label: Log10 Feedback API
+  slug: log10-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/openapi/log10-feedback-api-openapi.yml
+- filename: log10-feedbacktasks-api-openapi.yml
+  format: yaml
+  label: Log10 FeedbackTasks API
+  slug: log10-feedbacktasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/openapi/log10-feedbacktasks-api-openapi.yml
+- filename: log10-sessions-api-openapi.yml
+  format: yaml
+  label: Log10 Sessions API
+  slug: log10-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/openapi/log10-sessions-api-openapi.yml
 certifications:
 - SOC 2
 - HIPAA

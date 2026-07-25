@@ -1,23 +1,17 @@
 ---
 api_specs:
-- filename: doctly-ai-openapi.yml
+- filename: doctly-ai-documents-api-openapi.yml
   format: yaml
-  label: Doctly Documents Parse API
-  slug: doctly-documents-parse-api
+  label: Doctly Documents API
+  slug: doctly-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doctly-ai/refs/heads/main/openapi/doctly-ai-openapi.yml
-- filename: doctly-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doctly-ai/refs/heads/main/openapi/doctly-ai-documents-api-openapi.yml
+- filename: doctly-ai-extractors-api-openapi.yml
   format: yaml
-  label: Doctly Extract API
-  slug: doctly-extract-api
+  label: Doctly Extractors API
+  slug: doctly-ai-extractors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doctly-ai/refs/heads/main/openapi/doctly-ai-openapi.yml
-- filename: doctly-ai-openapi.yml
-  format: yaml
-  label: Doctly Status and Results API
-  slug: doctly-status-results-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doctly-ai/refs/heads/main/openapi/doctly-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doctly-ai/refs/heads/main/openapi/doctly-ai-extractors-api-openapi.yml
 description: ''
 domains:
 - caa: []

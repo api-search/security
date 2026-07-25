@@ -1,42 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: bonusly-openapi.yml
-  format: yaml
-  label: Bonusly Bonuses API
-  slug: bonusly-bonuses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-openapi.yml
-- filename: bonusly-openapi.yml
-  format: yaml
-  label: Bonusly Users API
-  slug: bonusly-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-openapi.yml
-- filename: bonusly-openapi.yml
-  format: yaml
-  label: Bonusly Rewards API
-  slug: bonusly-rewards-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-openapi.yml
-- filename: bonusly-openapi.yml
-  format: yaml
-  label: Bonusly Redemptions API
-  slug: bonusly-redemptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-openapi.yml
-- filename: bonusly-openapi.yml
+- filename: bonusly-analytics-api-openapi.yml
   format: yaml
   label: Bonusly Analytics API
   slug: bonusly-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-openapi.yml
-- filename: bonusly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-analytics-api-openapi.yml
+- filename: bonusly-bonuses-api-openapi.yml
+  format: yaml
+  label: Bonusly Bonuses API
+  slug: bonusly-bonuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-bonuses-api-openapi.yml
+- filename: bonusly-company-api-openapi.yml
   format: yaml
   label: Bonusly Company API
   slug: bonusly-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-company-api-openapi.yml
+- filename: bonusly-redemptions-api-openapi.yml
+  format: yaml
+  label: Bonusly Redemptions API
+  slug: bonusly-redemptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-redemptions-api-openapi.yml
+- filename: bonusly-rewards-api-openapi.yml
+  format: yaml
+  label: Bonusly Rewards API
+  slug: bonusly-rewards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-rewards-api-openapi.yml
+- filename: bonusly-users-api-openapi.yml
+  format: yaml
+  label: Bonusly Users API
+  slug: bonusly-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-users-api-openapi.yml
 auth_types:
 - http
 description: ''

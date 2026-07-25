@@ -1,54 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: pagarme-openapi.yml
+- filename: pagarme-anticipations-api-openapi.yml
   format: yaml
-  label: Pagar.me Orders API
-  slug: pagarme-orders-api
+  label: Pagar.me Anticipations API
+  slug: pagarme-anticipations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pagarme/refs/heads/main/openapi/pagarme-openapi.yml
-- filename: pagarme-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pagarme/refs/heads/main/openapi/pagarme-anticipations-api-openapi.yml
+- filename: pagarme-cards-api-openapi.yml
+  format: yaml
+  label: Pagar.me Cards API
+  slug: pagarme-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pagarme/refs/heads/main/openapi/pagarme-cards-api-openapi.yml
+- filename: pagarme-charges-api-openapi.yml
   format: yaml
   label: Pagar.me Charges API
   slug: pagarme-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pagarme/refs/heads/main/openapi/pagarme-openapi.yml
-- filename: pagarme-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pagarme/refs/heads/main/openapi/pagarme-charges-api-openapi.yml
+- filename: pagarme-customers-api-openapi.yml
   format: yaml
-  label: Pagar.me Customers and Cards API
-  slug: pagarme-customers-cards-api
+  label: Pagar.me Customers API
+  slug: pagarme-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pagarme/refs/heads/main/openapi/pagarme-openapi.yml
-- filename: pagarme-openapi.yml
-  format: yaml
-  label: Pagar.me Subscriptions and Plans API
-  slug: pagarme-subscriptions-plans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pagarme/refs/heads/main/openapi/pagarme-openapi.yml
-- filename: pagarme-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pagarme/refs/heads/main/openapi/pagarme-customers-api-openapi.yml
+- filename: pagarme-invoices-api-openapi.yml
   format: yaml
   label: Pagar.me Invoices API
   slug: pagarme-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pagarme/refs/heads/main/openapi/pagarme-openapi.yml
-- filename: pagarme-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pagarme/refs/heads/main/openapi/pagarme-invoices-api-openapi.yml
+- filename: pagarme-orders-api-openapi.yml
   format: yaml
-  label: Pagar.me Recipients and Split API
-  slug: pagarme-recipients-split-api
+  label: Pagar.me Orders API
+  slug: pagarme-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pagarme/refs/heads/main/openapi/pagarme-openapi.yml
-- filename: pagarme-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pagarme/refs/heads/main/openapi/pagarme-orders-api-openapi.yml
+- filename: pagarme-plans-api-openapi.yml
+  format: yaml
+  label: Pagar.me Plans API
+  slug: pagarme-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pagarme/refs/heads/main/openapi/pagarme-plans-api-openapi.yml
+- filename: pagarme-recipients-api-openapi.yml
+  format: yaml
+  label: Pagar.me Recipients API
+  slug: pagarme-recipients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pagarme/refs/heads/main/openapi/pagarme-recipients-api-openapi.yml
+- filename: pagarme-subscriptions-api-openapi.yml
+  format: yaml
+  label: Pagar.me Subscriptions API
+  slug: pagarme-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pagarme/refs/heads/main/openapi/pagarme-subscriptions-api-openapi.yml
+- filename: pagarme-transfers-api-openapi.yml
   format: yaml
   label: Pagar.me Transfers API
   slug: pagarme-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pagarme/refs/heads/main/openapi/pagarme-openapi.yml
-- filename: pagarme-openapi.yml
-  format: yaml
-  label: Pagar.me Webhooks API
-  slug: pagarme-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pagarme/refs/heads/main/openapi/pagarme-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pagarme/refs/heads/main/openapi/pagarme-transfers-api-openapi.yml
 auth_types:
 - http
 description: ''

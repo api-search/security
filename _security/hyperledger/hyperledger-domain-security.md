@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: hyperledger-openapi.yml
+- filename: hyperledger-eth-api-openapi.yml
   format: yaml
-  label: Hyperledger Besu API
-  slug: hyperledger-besu-api
+  label: Hyperledger Eth API
+  slug: hyperledger-eth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperledger/refs/heads/main/openapi/hyperledger-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hyperledger/refs/heads/main/openapi/hyperledger-eth-api-openapi.yml
 description: ''
 domains:
 - caa: []

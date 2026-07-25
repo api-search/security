@@ -1,47 +1,101 @@
 ---
 api_specs:
-- filename: taboola-backstage-campaigns-api-openapi.yml
+- filename: taboola-accounts-api-openapi.yml
   format: yaml
-  label: Taboola Backstage Campaigns API
-  slug: taboola-backstage-campaigns-api
+  label: Taboola Accounts API
+  slug: taboola-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-backstage-campaigns-api-openapi.yml
-- filename: taboola-backstage-items-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-accounts-api-openapi.yml
+- filename: taboola-audience-targeting-api-openapi.yml
   format: yaml
-  label: Taboola Backstage Campaign Items API
-  slug: taboola-backstage-items-api
+  label: Taboola Audience Targeting API
+  slug: taboola-audience-targeting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-backstage-items-api-openapi.yml
-- filename: taboola-backstage-audiences-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-audience-targeting-api-openapi.yml
+- filename: taboola-bulk-items-api-openapi.yml
   format: yaml
-  label: Taboola Backstage Audiences API
-  slug: taboola-backstage-audiences-api
+  label: Taboola Bulk Items API
+  slug: taboola-bulk-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-backstage-audiences-api-openapi.yml
-- filename: taboola-backstage-conversions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-bulk-items-api-openapi.yml
+- filename: taboola-bulk-operations-api-openapi.yml
   format: yaml
-  label: Taboola Backstage Conversions API
-  slug: taboola-backstage-conversions-api
+  label: Taboola Bulk Operations API
+  slug: taboola-bulk-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-backstage-conversions-api-openapi.yml
-- filename: taboola-backstage-reports-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-bulk-operations-api-openapi.yml
+- filename: taboola-campaign-items-api-openapi.yml
   format: yaml
-  label: Taboola Backstage Reports API
-  slug: taboola-backstage-reports-api
+  label: Taboola Campaign Items API
+  slug: taboola-campaign-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-backstage-reports-api-openapi.yml
-- filename: taboola-backstage-dictionary-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-campaign-items-api-openapi.yml
+- filename: taboola-campaigns-api-openapi.yml
   format: yaml
-  label: Taboola Backstage Dictionary API
-  slug: taboola-backstage-dictionary-api
+  label: Taboola Campaigns API
+  slug: taboola-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-backstage-dictionary-api-openapi.yml
-- filename: taboola-backstage-accounts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-campaigns-api-openapi.yml
+- filename: taboola-combined-audiences-api-openapi.yml
   format: yaml
-  label: Taboola Backstage Accounts API
-  slug: taboola-backstage-accounts-api
+  label: Taboola Combined Audiences API
+  slug: taboola-combined-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-backstage-accounts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-combined-audiences-api-openapi.yml
+- filename: taboola-conversion-rules-api-openapi.yml
+  format: yaml
+  label: Taboola Conversion Rules API
+  slug: taboola-conversion-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-conversion-rules-api-openapi.yml
+- filename: taboola-custom-audiences-api-openapi.yml
+  format: yaml
+  label: Taboola Custom Audiences API
+  slug: taboola-custom-audiences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-custom-audiences-api-openapi.yml
+- filename: taboola-dictionary-api-openapi.yml
+  format: yaml
+  label: Taboola Dictionary API
+  slug: taboola-dictionary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-dictionary-api-openapi.yml
+- filename: taboola-first-party-audiences-api-openapi.yml
+  format: yaml
+  label: Taboola First Party Audiences API
+  slug: taboola-first-party-audiences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-first-party-audiences-api-openapi.yml
+- filename: taboola-lookalike-audiences-api-openapi.yml
+  format: yaml
+  label: Taboola Lookalike Audiences API
+  slug: taboola-lookalike-audiences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-lookalike-audiences-api-openapi.yml
+- filename: taboola-marketplace-audiences-api-openapi.yml
+  format: yaml
+  label: Taboola Marketplace Audiences API
+  slug: taboola-marketplace-audiences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-marketplace-audiences-api-openapi.yml
+- filename: taboola-reach-estimator-api-openapi.yml
+  format: yaml
+  label: Taboola Reach Estimator API
+  slug: taboola-reach-estimator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-reach-estimator-api-openapi.yml
+- filename: taboola-reports-api-openapi.yml
+  format: yaml
+  label: Taboola Reports API
+  slug: taboola-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-reports-api-openapi.yml
+- filename: taboola-video-items-api-openapi.yml
+  format: yaml
+  label: Taboola Video Items API
+  slug: taboola-video-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-video-items-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,23 +1,65 @@
 ---
 api_specs:
-- filename: confident-cannabis-lab-openapi.json
-  format: json
-  label: Confident Cannabis API - Lab Endpoints
-  slug: confident-cannabis-api-lab-endpoints
+- filename: confident-cannabis-client-info-api-openapi.yml
+  format: yaml
+  label: Confident Cannabis Client Info API
+  slug: confident-cannabis-client-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/openapi/confident-cannabis-lab-openapi.json
-- filename: confident-cannabis-client-openapi.json
-  format: json
-  label: Confident Cannabis API - Client Endpoints
-  slug: confident-cannabis-api-client-endpoints
+  url: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/openapi/confident-cannabis-client-info-api-openapi.yml
+- filename: confident-cannabis-clients-api-openapi.yml
+  format: yaml
+  label: Confident Cannabis Clients API
+  slug: confident-cannabis-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/openapi/confident-cannabis-client-openapi.json
-- filename: confident-cannabis-common-openapi.json
-  format: json
-  label: Confident Cannabis API - Common Reference Data
-  slug: confident-cannabis-api-common-reference-data
+  url: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/openapi/confident-cannabis-clients-api-openapi.yml
+- filename: confident-cannabis-lab-info-api-openapi.yml
+  format: yaml
+  label: Confident Cannabis Lab Info API
+  slug: confident-cannabis-lab-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/openapi/confident-cannabis-common-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/openapi/confident-cannabis-lab-info-api-openapi.yml
+- filename: confident-cannabis-labs-api-openapi.yml
+  format: yaml
+  label: Confident Cannabis Labs API
+  slug: confident-cannabis-labs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/openapi/confident-cannabis-labs-api-openapi.yml
+- filename: confident-cannabis-order-status-api-openapi.yml
+  format: yaml
+  label: Confident Cannabis Order Status API
+  slug: confident-cannabis-order-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/openapi/confident-cannabis-order-status-api-openapi.yml
+- filename: confident-cannabis-orders-api-openapi.yml
+  format: yaml
+  label: Confident Cannabis Orders API
+  slug: confident-cannabis-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/openapi/confident-cannabis-orders-api-openapi.yml
+- filename: confident-cannabis-reference-data-api-openapi.yml
+  format: yaml
+  label: Confident Cannabis Reference Data API
+  slug: confident-cannabis-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/openapi/confident-cannabis-reference-data-api-openapi.yml
+- filename: confident-cannabis-sample-files-api-openapi.yml
+  format: yaml
+  label: Confident Cannabis Sample Files API
+  slug: confident-cannabis-sample-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/openapi/confident-cannabis-sample-files-api-openapi.yml
+- filename: confident-cannabis-samples-api-openapi.yml
+  format: yaml
+  label: Confident Cannabis Samples API
+  slug: confident-cannabis-samples-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/openapi/confident-cannabis-samples-api-openapi.yml
+- filename: confident-cannabis-test-results-api-openapi.yml
+  format: yaml
+  label: Confident Cannabis Test Results API
+  slug: confident-cannabis-test-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/openapi/confident-cannabis-test-results-api-openapi.yml
 description: ''
 domains:
 - caa: []

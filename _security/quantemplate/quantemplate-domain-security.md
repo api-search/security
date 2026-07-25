@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: quantemplate-fabric-openapi.yml
+- filename: quantemplate-fabricapi-api-openapi.yml
   format: yaml
-  label: Quantemplate FabricAPI
-  slug: quantemplate-fabricapi
+  label: QuanTemplate FabricAPI API
+  slug: quantemplate-fabricapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quantemplate/refs/heads/main/openapi/quantemplate-fabric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quantemplate/refs/heads/main/openapi/quantemplate-fabricapi-api-openapi.yml
 description: ''
 domains:
 - caa: []

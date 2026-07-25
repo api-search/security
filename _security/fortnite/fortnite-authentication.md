@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: fortnite-tracker.yaml
+- filename: fortnite-challenges-api-openapi.yml
   format: yaml
-  label: Fortnite Tracker
-  slug: fortnite-tracker
+  label: Fortnite Tracker Challenges API
+  slug: fortnite-challenges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/openapi/fortnite-tracker.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/openapi/fortnite-challenges-api-openapi.yml
+- filename: fortnite-leaderboards-api-openapi.yml
+  format: yaml
+  label: Fortnite Tracker Leaderboards API
+  slug: fortnite-leaderboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/openapi/fortnite-leaderboards-api-openapi.yml
+- filename: fortnite-power-rankings-api-openapi.yml
+  format: yaml
+  label: Fortnite Tracker Power Rankings API
+  slug: fortnite-power-rankings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/openapi/fortnite-power-rankings-api-openapi.yml
+- filename: fortnite-profile-api-openapi.yml
+  format: yaml
+  label: Fortnite Tracker Profile API
+  slug: fortnite-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/openapi/fortnite-profile-api-openapi.yml
+- filename: fortnite-store-api-openapi.yml
+  format: yaml
+  label: Fortnite Tracker Store API
+  slug: fortnite-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/openapi/fortnite-store-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

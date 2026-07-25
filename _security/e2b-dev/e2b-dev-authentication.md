@@ -2,36 +2,78 @@
 api_key_in:
 - header
 api_specs:
-- filename: e2b-api-openapi.yml
+- filename: e2b-dev-access-tokens-api-openapi.yml
   format: yaml
-  label: E2B Sandbox API
-  slug: e2b-sandbox-api
+  label: E2B access-tokens API
+  slug: e2b-dev-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-api-openapi.yml
-- filename: e2b-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-access-tokens-api-openapi.yml
+- filename: e2b-dev-admin-api-openapi.yml
   format: yaml
-  label: E2B Template API
-  slug: e2b-template-api
+  label: E2B admin API
+  slug: e2b-dev-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-api-openapi.yml
-- filename: e2b-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-admin-api-openapi.yml
+- filename: e2b-dev-api-keys-api-openapi.yml
   format: yaml
-  label: E2B Volume API
-  slug: e2b-volume-api
+  label: E2B api-keys API
+  slug: e2b-dev-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-api-openapi.yml
-- filename: e2b-events-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-api-keys-api-openapi.yml
+- filename: e2b-dev-auth-api-openapi.yml
   format: yaml
-  label: E2B Sandbox Events and Webhooks API
-  slug: e2b-events-api
+  label: E2B auth API
+  slug: e2b-dev-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-events-openapi.yml
-- filename: e2b-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-auth-api-openapi.yml
+- filename: e2b-dev-events-api-openapi.yml
   format: yaml
-  label: E2B Team and Identity API
-  slug: e2b-team-api
+  label: E2B events API
+  slug: e2b-dev-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-events-api-openapi.yml
+- filename: e2b-dev-health-api-openapi.yml
+  format: yaml
+  label: E2B Health API
+  slug: e2b-dev-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-health-api-openapi.yml
+- filename: e2b-dev-sandboxes-api-openapi.yml
+  format: yaml
+  label: E2B sandboxes API
+  slug: e2b-dev-sandboxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-sandboxes-api-openapi.yml
+- filename: e2b-dev-snapshots-api-openapi.yml
+  format: yaml
+  label: E2B snapshots API
+  slug: e2b-dev-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-snapshots-api-openapi.yml
+- filename: e2b-dev-tags-api-openapi.yml
+  format: yaml
+  label: E2B tags API
+  slug: e2b-dev-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-tags-api-openapi.yml
+- filename: e2b-dev-templates-api-openapi.yml
+  format: yaml
+  label: E2B templates API
+  slug: e2b-dev-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-templates-api-openapi.yml
+- filename: e2b-dev-volumes-api-openapi.yml
+  format: yaml
+  label: E2B volumes API
+  slug: e2b-dev-volumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-volumes-api-openapi.yml
+- filename: e2b-dev-webhooks-api-openapi.yml
+  format: yaml
+  label: E2B webhooks API
+  slug: e2b-dev-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http

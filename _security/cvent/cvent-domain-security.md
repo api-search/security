@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: cvent-openapi.yml
+- filename: cvent-attendees-api-openapi.yml
   format: yaml
-  label: Cvent REST API
-  slug: rest-api
+  label: Cvent Attendees API
+  slug: cvent-attendees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/openapi/cvent-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/openapi/cvent-attendees-api-openapi.yml
+- filename: cvent-contacts-api-openapi.yml
+  format: yaml
+  label: Cvent Contacts API
+  slug: cvent-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/openapi/cvent-contacts-api-openapi.yml
+- filename: cvent-events-api-openapi.yml
+  format: yaml
+  label: Cvent Events API
+  slug: cvent-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/openapi/cvent-events-api-openapi.yml
+- filename: cvent-exhibitors-api-openapi.yml
+  format: yaml
+  label: Cvent Exhibitors API
+  slug: cvent-exhibitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/openapi/cvent-exhibitors-api-openapi.yml
+- filename: cvent-oauth-api-openapi.yml
+  format: yaml
+  label: Cvent OAuth API
+  slug: cvent-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/openapi/cvent-oauth-api-openapi.yml
+- filename: cvent-sessions-api-openapi.yml
+  format: yaml
+  label: Cvent Sessions API
+  slug: cvent-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/openapi/cvent-sessions-api-openapi.yml
+- filename: cvent-webhooks-api-openapi.yml
+  format: yaml
+  label: Cvent Webhooks API
+  slug: cvent-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/openapi/cvent-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

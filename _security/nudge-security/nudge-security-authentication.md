@@ -1,12 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: nudge-security-openapi.yml
+- filename: nudge-security-accounts-api-openapi.yml
   format: yaml
-  label: Nudge Security API
-  slug: rest-api
+  label: Nudge Security Accounts API
+  slug: nudge-security-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-accounts-api-openapi.yml
+- filename: nudge-security-app-integrations-api-openapi.yml
+  format: yaml
+  label: Nudge Security App Integrations API
+  slug: nudge-security-app-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-app-integrations-api-openapi.yml
+- filename: nudge-security-apps-api-openapi.yml
+  format: yaml
+  label: Nudge Security Apps API
+  slug: nudge-security-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-apps-api-openapi.yml
+- filename: nudge-security-events-api-openapi.yml
+  format: yaml
+  label: Nudge Security Events API
+  slug: nudge-security-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-events-api-openapi.yml
+- filename: nudge-security-fields-api-openapi.yml
+  format: yaml
+  label: Nudge Security Fields API
+  slug: nudge-security-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-fields-api-openapi.yml
+- filename: nudge-security-findings-api-openapi.yml
+  format: yaml
+  label: Nudge Security Findings API
+  slug: nudge-security-findings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-findings-api-openapi.yml
+- filename: nudge-security-labels-api-openapi.yml
+  format: yaml
+  label: Nudge Security Labels API
+  slug: nudge-security-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-labels-api-openapi.yml
+- filename: nudge-security-notifications-api-openapi.yml
+  format: yaml
+  label: Nudge Security Notifications API
+  slug: nudge-security-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-notifications-api-openapi.yml
+- filename: nudge-security-oauth-grants-api-openapi.yml
+  format: yaml
+  label: Nudge Security OAuth Grants API
+  slug: nudge-security-oauth-grants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-oauth-grants-api-openapi.yml
+- filename: nudge-security-user-groups-api-openapi.yml
+  format: yaml
+  label: Nudge Security User Groups API
+  slug: nudge-security-user-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-user-groups-api-openapi.yml
+- filename: nudge-security-users-api-openapi.yml
+  format: yaml
+  label: Nudge Security Users API
+  slug: nudge-security-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-users-api-openapi.yml
 auth_types:
 - http
 description: ''

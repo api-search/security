@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: zally-api.yml
+- filename: zally-api-violations-api-openapi.yml
   format: yaml
-  label: Zally API
-  slug: zally-api
+  label: Zally Api Violations API
+  slug: zally-api-violations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/openapi/zally-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/openapi/zally-api-violations-api-openapi.yml
+- filename: zally-review-statistics-api-openapi.yml
+  format: yaml
+  label: Zally Review Statistics API
+  slug: zally-review-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/openapi/zally-review-statistics-api-openapi.yml
+- filename: zally-supported-rules-api-openapi.yml
+  format: yaml
+  label: Zally Supported Rules API
+  slug: zally-supported-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/openapi/zally-supported-rules-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: spinnaker-gate-openapi.yml
+- filename: spinnaker-applications-api-openapi.yml
   format: yaml
-  label: Spinnaker Gate API
-  slug: spinnaker-gate-api
+  label: Spinnaker Applications API
+  slug: spinnaker-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-gate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-applications-api-openapi.yml
+- filename: spinnaker-build-services-api-openapi.yml
+  format: yaml
+  label: Spinnaker Build Services API
+  slug: spinnaker-build-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-build-services-api-openapi.yml
+- filename: spinnaker-clusters-api-openapi.yml
+  format: yaml
+  label: Spinnaker Clusters API
+  slug: spinnaker-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-clusters-api-openapi.yml
+- filename: spinnaker-images-api-openapi.yml
+  format: yaml
+  label: Spinnaker Images API
+  slug: spinnaker-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-images-api-openapi.yml
+- filename: spinnaker-load-balancers-api-openapi.yml
+  format: yaml
+  label: Spinnaker Load Balancers API
+  slug: spinnaker-load-balancers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-load-balancers-api-openapi.yml
+- filename: spinnaker-pipelines-api-openapi.yml
+  format: yaml
+  label: Spinnaker Pipelines API
+  slug: spinnaker-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-pipelines-api-openapi.yml
+- filename: spinnaker-projects-api-openapi.yml
+  format: yaml
+  label: Spinnaker Projects API
+  slug: spinnaker-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-projects-api-openapi.yml
+- filename: spinnaker-search-api-openapi.yml
+  format: yaml
+  label: Spinnaker Search API
+  slug: spinnaker-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-search-api-openapi.yml
+- filename: spinnaker-tasks-api-openapi.yml
+  format: yaml
+  label: Spinnaker Tasks API
+  slug: spinnaker-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []

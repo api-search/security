@@ -2,36 +2,66 @@
 api_key_in:
 - header
 api_specs:
-- filename: searchcraft-openapi.yml
+- filename: searchcraft-authentication-api-openapi.yml
   format: yaml
-  label: Searchcraft Index API
-  slug: searchcraft-index-api
+  label: Searchcraft Authentication API
+  slug: searchcraft-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-openapi.yml
-- filename: searchcraft-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-authentication-api-openapi.yml
+- filename: searchcraft-documents-api-openapi.yml
   format: yaml
-  label: Searchcraft Documents / Ingest API
+  label: Searchcraft Documents API
   slug: searchcraft-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-openapi.yml
-- filename: searchcraft-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-documents-api-openapi.yml
+- filename: searchcraft-federation-api-openapi.yml
+  format: yaml
+  label: Searchcraft Federation API
+  slug: searchcraft-federation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-federation-api-openapi.yml
+- filename: searchcraft-healthcheck-api-openapi.yml
+  format: yaml
+  label: Searchcraft Healthcheck API
+  slug: searchcraft-healthcheck-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-healthcheck-api-openapi.yml
+- filename: searchcraft-indexes-api-openapi.yml
+  format: yaml
+  label: Searchcraft Indexes API
+  slug: searchcraft-indexes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-indexes-api-openapi.yml
+- filename: searchcraft-measure-api-openapi.yml
+  format: yaml
+  label: Searchcraft Measure API
+  slug: searchcraft-measure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-measure-api-openapi.yml
+- filename: searchcraft-search-api-openapi.yml
   format: yaml
   label: Searchcraft Search API
   slug: searchcraft-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-openapi.yml
-- filename: searchcraft-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-search-api-openapi.yml
+- filename: searchcraft-stopwords-api-openapi.yml
   format: yaml
-  label: Searchcraft Federated Search API
-  slug: searchcraft-federated-search-api
+  label: Searchcraft Stopwords API
+  slug: searchcraft-stopwords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-openapi.yml
-- filename: searchcraft-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-stopwords-api-openapi.yml
+- filename: searchcraft-synonyms-api-openapi.yml
   format: yaml
-  label: Searchcraft Synonyms & Stopwords API
-  slug: searchcraft-synonyms-stopwords-api
+  label: Searchcraft Synonyms API
+  slug: searchcraft-synonyms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-synonyms-api-openapi.yml
+- filename: searchcraft-transactions-api-openapi.yml
+  format: yaml
+  label: Searchcraft Transactions API
+  slug: searchcraft-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-transactions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

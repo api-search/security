@@ -1,36 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ratehawk-openapi.yml
+- filename: ratehawk-booking-api-openapi.yml
+  format: yaml
+  label: RateHawk Booking API
+  slug: ratehawk-booking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-booking-api-openapi.yml
+- filename: ratehawk-cancellation-api-openapi.yml
+  format: yaml
+  label: RateHawk Cancellation API
+  slug: ratehawk-cancellation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-cancellation-api-openapi.yml
+- filename: ratehawk-hotel-content-api-openapi.yml
+  format: yaml
+  label: RateHawk Hotel Content API
+  slug: ratehawk-hotel-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-hotel-content-api-openapi.yml
+- filename: ratehawk-hotel-search-api-openapi.yml
   format: yaml
   label: RateHawk Hotel Search API
-  slug: hotel-search
+  slug: ratehawk-hotel-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-openapi.yml
-- filename: ratehawk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-hotel-search-api-openapi.yml
+- filename: ratehawk-orders-api-openapi.yml
   format: yaml
-  label: RateHawk Hotel Page / Prebook API
-  slug: hotel-page-prebook
+  label: RateHawk Orders API
+  slug: ratehawk-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-openapi.yml
-- filename: ratehawk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-orders-api-openapi.yml
+- filename: ratehawk-prebook-api-openapi.yml
   format: yaml
-  label: RateHawk Order Booking API
-  slug: order-booking
+  label: RateHawk Prebook API
+  slug: ratehawk-prebook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-openapi.yml
-- filename: ratehawk-openapi.yml
-  format: yaml
-  label: RateHawk Hotel Content / Static API
-  slug: hotel-content-static
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-openapi.yml
-- filename: ratehawk-openapi.yml
-  format: yaml
-  label: RateHawk Webhooks
-  slug: webhooks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-prebook-api-openapi.yml
 auth_types:
 - http
 description: ''

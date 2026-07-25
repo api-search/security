@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: wis2-gdc.weather.gc.ca
+- filename: wmo-jobs-api-openapi.yml
   format: yaml
-  label: WIS2 Global Discovery Catalogue API
-  slug: wis2-global-discovery-catalogue-api
+  label: World Meteorological Organization jobs API
+  slug: wmo-jobs-api
   spec_type: OpenAPI
-  url: https://wis2-gdc.weather.gc.ca
+  url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-jobs-api-openapi.yml
+- filename: wmo-pywcmp-wis2-wcmp2-ets-api-openapi.yml
+  format: yaml
+  label: World Meteorological Organization pywcmp-wis2-wcmp2-ets API
+  slug: wmo-pywcmp-wis2-wcmp2-ets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-pywcmp-wis2-wcmp2-ets-api-openapi.yml
+- filename: wmo-pywcmp-wis2-wcmp2-kpi-api-openapi.yml
+  format: yaml
+  label: World Meteorological Organization pywcmp-wis2-wcmp2-kpi API
+  slug: wmo-pywcmp-wis2-wcmp2-kpi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-pywcmp-wis2-wcmp2-kpi-api-openapi.yml
+- filename: wmo-server-api-openapi.yml
+  format: yaml
+  label: World Meteorological Organization server API
+  slug: wmo-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-server-api-openapi.yml
+- filename: wmo-wis2-discovery-metadata-api-openapi.yml
+  format: yaml
+  label: World Meteorological Organization wis2-discovery-metadata API
+  slug: wmo-wis2-discovery-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-wis2-discovery-metadata-api-openapi.yml
 description: ''
 domains:
 - caa: []

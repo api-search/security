@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: macroscope-webhook-api.json
-  format: json
-  label: Macroscope Agent Webhook API
-  slug: macroscope-agent-webhook-api
+- filename: macroscope-workspaces-api-openapi.yml
+  format: yaml
+  label: Macroscope Workspaces API
+  slug: macroscope-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macroscope/refs/heads/main/openapi/macroscope-webhook-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/macroscope/refs/heads/main/openapi/macroscope-workspaces-api-openapi.yml
 auth_types: []
 description: 'Authentication profile for Macroscope''s agent webhook API. The API uses two distinct credentials at two stages: a per-webhook API key (sent as the X-Webhook-Secret header) to trigger the agent, and a short-lived signed job token (sent as an Authorization: Bearer header) to poll for that one job''s result. There is no OAuth. Keys are created per webhook in the web app.'
 kind: authentication

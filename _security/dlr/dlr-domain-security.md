@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: openapi
+- filename: dlr-capabilities-api-openapi.yml
   format: yaml
-  label: EOC Geoservice STAC API
-  slug: eoc-geoservice-stac-api
+  label: DLR Capabilities API
+  slug: dlr-capabilities-api
   spec_type: OpenAPI
-  url: https://geoservice.dlr.de/eoc/ogc/stac/v1/openapi
+  url: https://raw.githubusercontent.com/api-evangelist/dlr/refs/heads/main/openapi/dlr-capabilities-api-openapi.yml
+- filename: dlr-data-api-openapi.yml
+  format: yaml
+  label: DLR Data API
+  slug: dlr-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dlr/refs/heads/main/openapi/dlr-data-api-openapi.yml
+- filename: dlr-stac-api-openapi.yml
+  format: yaml
+  label: DLR STAC API
+  slug: dlr-stac-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dlr/refs/heads/main/openapi/dlr-stac-api-openapi.yml
 description: ''
 domains:
 - caa: []

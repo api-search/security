@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: bolt-account-api-openapi.yml
+  format: yaml
+  label: Bolt Account API
+  slug: bolt-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolt/refs/heads/main/openapi/bolt-account-api-openapi.yml
+- filename: bolt-callbacks-api-openapi.yml
+  format: yaml
+  label: Bolt Callbacks API
+  slug: bolt-callbacks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolt/refs/heads/main/openapi/bolt-callbacks-api-openapi.yml
+- filename: bolt-oauth-api-openapi.yml
+  format: yaml
+  label: Bolt OAuth API
+  slug: bolt-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolt/refs/heads/main/openapi/bolt-oauth-api-openapi.yml
+- filename: bolt-orders-api-openapi.yml
+  format: yaml
+  label: Bolt Orders API
+  slug: bolt-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolt/refs/heads/main/openapi/bolt-orders-api-openapi.yml
+- filename: bolt-payments-api-openapi.yml
+  format: yaml
+  label: Bolt Payments API
+  slug: bolt-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolt/refs/heads/main/openapi/bolt-payments-api-openapi.yml
+- filename: bolt-testing-api-openapi.yml
+  format: yaml
+  label: Bolt Testing API
+  slug: bolt-testing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolt/refs/heads/main/openapi/bolt-testing-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

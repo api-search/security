@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: perfectscale-perfectscale-openapi.yml
+- filename: perfectscale-authentication-api-openapi.yml
   format: yaml
-  label: PerfectScale Public API
-  slug: perfectscale
+  label: PerfectScale Authentication API
+  slug: perfectscale-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perfectscale/refs/heads/main/openapi/perfectscale-perfectscale-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/perfectscale/refs/heads/main/openapi/perfectscale-authentication-api-openapi.yml
+- filename: perfectscale-automation-api-openapi.yml
+  format: yaml
+  label: PerfectScale Automation API
+  slug: perfectscale-automation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perfectscale/refs/heads/main/openapi/perfectscale-automation-api-openapi.yml
+- filename: perfectscale-clusters-api-openapi.yml
+  format: yaml
+  label: PerfectScale Clusters API
+  slug: perfectscale-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perfectscale/refs/heads/main/openapi/perfectscale-clusters-api-openapi.yml
+- filename: perfectscale-workloads-api-openapi.yml
+  format: yaml
+  label: PerfectScale Workloads API
+  slug: perfectscale-workloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perfectscale/refs/heads/main/openapi/perfectscale-workloads-api-openapi.yml
 description: ''
 domains:
 - caa: []

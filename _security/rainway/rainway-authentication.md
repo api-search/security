@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: rainway-hub-api-openapi.yml
+- filename: rainway-peers-api-openapi.yml
   format: yaml
-  label: Rainway Hub API
-  slug: rainway-hub-api
+  label: Rainway Peers API
+  slug: rainway-peers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainway/refs/heads/main/openapi/rainway-hub-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rainway/refs/heads/main/openapi/rainway-peers-api-openapi.yml
 auth_types:
 - http
 description: ''

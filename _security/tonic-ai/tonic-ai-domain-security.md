@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: tonic-ai-openapi.yml
+- filename: tonic-ai-generate-data-api-openapi.yml
   format: yaml
-  label: Tonic Structural REST API
-  slug: structural-api
+  label: Tonic.ai Generate Data API
+  slug: tonic-ai-generate-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tonic-ai/refs/heads/main/openapi/tonic-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tonic-ai/refs/heads/main/openapi/tonic-ai-generate-data-api-openapi.yml
+- filename: tonic-ai-table-relationships-api-openapi.yml
+  format: yaml
+  label: Tonic.ai Table Relationships API
+  slug: tonic-ai-table-relationships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tonic-ai/refs/heads/main/openapi/tonic-ai-table-relationships-api-openapi.yml
+- filename: tonic-ai-workspaces-api-openapi.yml
+  format: yaml
+  label: Tonic.ai Workspaces API
+  slug: tonic-ai-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tonic-ai/refs/heads/main/openapi/tonic-ai-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: fyndiq-merchant-api-openapi.yml
+- filename: fyndiq-articles-api-openapi.yml
   format: yaml
-  label: Fyndiq Merchant API
-  slug: fyndiq-merchant-api
+  label: Fyndiq Articles API
+  slug: fyndiq-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-merchant-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-articles-api-openapi.yml
+- filename: fyndiq-orders-api-openapi.yml
+  format: yaml
+  label: Fyndiq Orders API
+  slug: fyndiq-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-orders-api-openapi.yml
 auth_types:
 - http
 description: ''

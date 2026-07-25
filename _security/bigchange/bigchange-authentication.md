@@ -1,60 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: bigchange-openapi.yml
+- filename: bigchange-assets-api-openapi.yml
   format: yaml
-  label: BigChange Jobs API
-  slug: bigchange-jobs-api
+  label: BigChange Assets API
+  slug: bigchange-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-openapi.yml
-- filename: bigchange-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-assets-api-openapi.yml
+- filename: bigchange-contacts-api-openapi.yml
   format: yaml
-  label: BigChange Contacts and Persons API
-  slug: bigchange-contacts-persons-api
+  label: BigChange Contacts API
+  slug: bigchange-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-openapi.yml
-- filename: bigchange-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-contacts-api-openapi.yml
+- filename: bigchange-finance-api-openapi.yml
   format: yaml
   label: BigChange Finance API
   slug: bigchange-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-openapi.yml
-- filename: bigchange-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-finance-api-openapi.yml
+- filename: bigchange-jobs-api-openapi.yml
   format: yaml
-  label: BigChange Stock and Inventory API
-  slug: bigchange-stock-api
+  label: BigChange Jobs API
+  slug: bigchange-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-openapi.yml
-- filename: bigchange-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-jobs-api-openapi.yml
+- filename: bigchange-persons-api-openapi.yml
   format: yaml
-  label: BigChange Resources, Users and Vehicles API
-  slug: bigchange-resources-fleet-api
+  label: BigChange Persons API
+  slug: bigchange-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-openapi.yml
-- filename: bigchange-openapi.yml
-  format: yaml
-  label: BigChange Notes and Worksheets API
-  slug: bigchange-notes-worksheets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-openapi.yml
-- filename: bigchange-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-persons-api-openapi.yml
+- filename: bigchange-reference-data-api-openapi.yml
   format: yaml
   label: BigChange Reference Data API
   slug: bigchange-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-openapi.yml
-- filename: swagger.json
-  format: json
-  label: BigChange Asset Management API
-  slug: bigchange-asset-management-api
+  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-reference-data-api-openapi.yml
+- filename: bigchange-resources-api-openapi.yml
+  format: yaml
+  label: BigChange Resources API
+  slug: bigchange-resources-api
   spec_type: OpenAPI
-  url: https://api.bigchange.com/swagger/asset-management/v1/swagger.json
-- filename: swagger.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-resources-api-openapi.yml
+- filename: bigchange-stock-api-openapi.yml
+  format: yaml
+  label: BigChange Stock API
+  slug: bigchange-stock-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-stock-api-openapi.yml
+- filename: bigchange-users-api-openapi.yml
+  format: yaml
+  label: BigChange Users API
+  slug: bigchange-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-users-api-openapi.yml
+- filename: bigchange-vehicles-api-openapi.yml
+  format: yaml
+  label: BigChange Vehicles API
+  slug: bigchange-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-vehicles-api-openapi.yml
+- filename: bigchange-webhooks-api-openapi.yml
+  format: yaml
   label: BigChange Webhooks API
   slug: bigchange-webhooks-api
   spec_type: OpenAPI
-  url: https://api.bigchange.com/swagger/webhooks/v1/swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

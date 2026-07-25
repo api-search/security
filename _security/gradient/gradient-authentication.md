@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: gradient-cloud-openapi.yml
+- filename: gradient-chat-api-openapi.yml
   format: yaml
-  label: Gradient Cloud AI API
-  slug: gradient-cloud-ai-api
+  label: Gradient Chat API
+  slug: gradient-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/openapi/gradient-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/openapi/gradient-chat-api-openapi.yml
+- filename: gradient-completions-api-openapi.yml
+  format: yaml
+  label: Gradient Completions API
+  slug: gradient-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/openapi/gradient-completions-api-openapi.yml
+- filename: gradient-models-api-openapi.yml
+  format: yaml
+  label: Gradient Models API
+  slug: gradient-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/openapi/gradient-models-api-openapi.yml
 auth_types:
 - http
 description: ''

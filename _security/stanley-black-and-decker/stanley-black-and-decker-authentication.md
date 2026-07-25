@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: stanley-black-and-decker-tool-connect-api-openapi.yml
+- filename: stanley-black-and-decker-assets-api-openapi.yml
   format: yaml
-  label: DEWALT Tool Connect API
-  slug: dewalt-tool-connect-api
+  label: Stanley Black & Decker Assets API
+  slug: stanley-black-and-decker-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/openapi/stanley-black-and-decker-tool-connect-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/openapi/stanley-black-and-decker-assets-api-openapi.yml
+- filename: stanley-black-and-decker-batteries-api-openapi.yml
+  format: yaml
+  label: Stanley Black & Decker Batteries API
+  slug: stanley-black-and-decker-batteries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/openapi/stanley-black-and-decker-batteries-api-openapi.yml
+- filename: stanley-black-and-decker-jobsites-api-openapi.yml
+  format: yaml
+  label: Stanley Black & Decker Jobsites API
+  slug: stanley-black-and-decker-jobsites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/openapi/stanley-black-and-decker-jobsites-api-openapi.yml
+- filename: stanley-black-and-decker-tools-api-openapi.yml
+  format: yaml
+  label: Stanley Black & Decker Tools API
+  slug: stanley-black-and-decker-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/openapi/stanley-black-and-decker-tools-api-openapi.yml
+- filename: stanley-black-and-decker-users-api-openapi.yml
+  format: yaml
+  label: Stanley Black & Decker Users API
+  slug: stanley-black-and-decker-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/openapi/stanley-black-and-decker-users-api-openapi.yml
 auth_types:
 - http
 description: ''

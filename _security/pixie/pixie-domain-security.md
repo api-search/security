@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: pixie-openapi.yml
+- filename: pixie-clusters-api-openapi.yml
   format: yaml
-  label: Pixie API
-  slug: pixie
+  label: Pixie Clusters API
+  slug: pixie-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/openapi/pixie-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/openapi/pixie-clusters-api-openapi.yml
+- filename: pixie-health-api-openapi.yml
+  format: yaml
+  label: Pixie Health API
+  slug: pixie-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/openapi/pixie-health-api-openapi.yml
+- filename: pixie-scripts-api-openapi.yml
+  format: yaml
+  label: Pixie Scripts API
+  slug: pixie-scripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/openapi/pixie-scripts-api-openapi.yml
 description: ''
 domains:
 - caa: []

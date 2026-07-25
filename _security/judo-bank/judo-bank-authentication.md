@@ -1,36 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: judo-bank-cds-banking-products-openapi.yml
+- filename: judo-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Judo Bank CDR Product Reference Data API
-  slug: judo-bank-cdr-product-reference-data-api
+  label: Judo Bank Banking Account Balances API
+  slug: judo-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/openapi/judo-bank-cds-banking-products-openapi.yml
-- filename: judo-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/openapi/judo-bank-banking-account-balances-api-openapi.yml
+- filename: judo-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Judo Bank CDR Accounts & Balances API
-  slug: judo-bank-cdr-accounts-balances-api
+  label: Judo Bank Banking Account Direct Debits API
+  slug: judo-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/openapi/judo-bank-cds-banking-products-openapi.yml
-- filename: judo-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/openapi/judo-bank-banking-account-direct-debits-api-openapi.yml
+- filename: judo-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Judo Bank CDR Transactions API
-  slug: judo-bank-cdr-transactions-api
+  label: Judo Bank Banking Account Scheduled Payments API
+  slug: judo-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/openapi/judo-bank-cds-banking-products-openapi.yml
-- filename: judo-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/openapi/judo-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: judo-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Judo Bank CDR Direct Debits & Scheduled Payments API
-  slug: judo-bank-cdr-direct-debits-scheduled-payments-api
+  label: Judo Bank Banking Account Transactions API
+  slug: judo-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/openapi/judo-bank-cds-banking-products-openapi.yml
-- filename: judo-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/openapi/judo-bank-banking-account-transactions-api-openapi.yml
+- filename: judo-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: Judo Bank CDR Payees API
-  slug: judo-bank-cdr-payees-api
+  label: Judo Bank Banking Accounts API
+  slug: judo-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/openapi/judo-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/openapi/judo-bank-banking-accounts-api-openapi.yml
+- filename: judo-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: Judo Bank Banking Payees API
+  slug: judo-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/openapi/judo-bank-banking-payees-api-openapi.yml
+- filename: judo-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: Judo Bank Banking Products API
+  slug: judo-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/openapi/judo-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2

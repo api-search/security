@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: xmatters-openapi.yml
+- filename: xmatters-devices-api-openapi.yml
   format: yaml
-  label: xMatters REST API
-  slug: rest-api
+  label: xMatters Devices API
+  slug: xmatters-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-devices-api-openapi.yml
+- filename: xmatters-events-api-openapi.yml
+  format: yaml
+  label: xMatters Events API
+  slug: xmatters-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-events-api-openapi.yml
+- filename: xmatters-groups-api-openapi.yml
+  format: yaml
+  label: xMatters Groups API
+  slug: xmatters-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-groups-api-openapi.yml
+- filename: xmatters-integrations-api-openapi.yml
+  format: yaml
+  label: xMatters Integrations API
+  slug: xmatters-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-integrations-api-openapi.yml
+- filename: xmatters-oncall-api-openapi.yml
+  format: yaml
+  label: xMatters OnCall API
+  slug: xmatters-oncall-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-oncall-api-openapi.yml
+- filename: xmatters-people-api-openapi.yml
+  format: yaml
+  label: xMatters People API
+  slug: xmatters-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-people-api-openapi.yml
+- filename: xmatters-plans-api-openapi.yml
+  format: yaml
+  label: xMatters Plans API
+  slug: xmatters-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-plans-api-openapi.yml
+- filename: xmatters-scenarios-api-openapi.yml
+  format: yaml
+  label: xMatters Scenarios API
+  slug: xmatters-scenarios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-scenarios-api-openapi.yml
+- filename: xmatters-services-api-openapi.yml
+  format: yaml
+  label: xMatters Services API
+  slug: xmatters-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-services-api-openapi.yml
+- filename: xmatters-shifts-api-openapi.yml
+  format: yaml
+  label: xMatters Shifts API
+  slug: xmatters-shifts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-shifts-api-openapi.yml
 description: ''
 domains:
 - caa:

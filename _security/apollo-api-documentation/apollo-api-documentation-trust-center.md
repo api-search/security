@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: apollo-api-documentation-openapi.yml
+- filename: apollo-api-documentation-accounts-api-openapi.yml
   format: yaml
-  label: Apollo REST API
-  slug: apollo-rest-api
+  label: Apollo API Documentation Accounts API
+  slug: apollo-api-documentation-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/openapi/apollo-api-documentation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/openapi/apollo-api-documentation-accounts-api-openapi.yml
+- filename: apollo-api-documentation-contacts-api-openapi.yml
+  format: yaml
+  label: Apollo API Documentation Contacts API
+  slug: apollo-api-documentation-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/openapi/apollo-api-documentation-contacts-api-openapi.yml
+- filename: apollo-api-documentation-email-accounts-api-openapi.yml
+  format: yaml
+  label: Apollo API Documentation Email Accounts API
+  slug: apollo-api-documentation-email-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/openapi/apollo-api-documentation-email-accounts-api-openapi.yml
+- filename: apollo-api-documentation-emailer-campaigns-api-openapi.yml
+  format: yaml
+  label: Apollo API Documentation Emailer Campaigns API
+  slug: apollo-api-documentation-emailer-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/openapi/apollo-api-documentation-emailer-campaigns-api-openapi.yml
+- filename: apollo-api-documentation-mixed-companies-api-openapi.yml
+  format: yaml
+  label: Apollo API Documentation Mixed Companies API
+  slug: apollo-api-documentation-mixed-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/openapi/apollo-api-documentation-mixed-companies-api-openapi.yml
+- filename: apollo-api-documentation-mixed-people-api-openapi.yml
+  format: yaml
+  label: Apollo API Documentation Mixed People API
+  slug: apollo-api-documentation-mixed-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/openapi/apollo-api-documentation-mixed-people-api-openapi.yml
+- filename: apollo-api-documentation-opportunities-api-openapi.yml
+  format: yaml
+  label: Apollo API Documentation Opportunities API
+  slug: apollo-api-documentation-opportunities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/openapi/apollo-api-documentation-opportunities-api-openapi.yml
+- filename: apollo-api-documentation-organizations-api-openapi.yml
+  format: yaml
+  label: Apollo API Documentation Organizations API
+  slug: apollo-api-documentation-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/openapi/apollo-api-documentation-organizations-api-openapi.yml
+- filename: apollo-api-documentation-people-api-openapi.yml
+  format: yaml
+  label: Apollo API Documentation People API
+  slug: apollo-api-documentation-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/openapi/apollo-api-documentation-people-api-openapi.yml
+- filename: apollo-api-documentation-phone-calls-api-openapi.yml
+  format: yaml
+  label: Apollo API Documentation Phone Calls API
+  slug: apollo-api-documentation-phone-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/openapi/apollo-api-documentation-phone-calls-api-openapi.yml
+- filename: apollo-api-documentation-sync-report-api-openapi.yml
+  format: yaml
+  label: Apollo API Documentation Sync Report API
+  slug: apollo-api-documentation-sync-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/openapi/apollo-api-documentation-sync-report-api-openapi.yml
+- filename: apollo-api-documentation-tasks-api-openapi.yml
+  format: yaml
+  label: Apollo API Documentation Tasks API
+  slug: apollo-api-documentation-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/openapi/apollo-api-documentation-tasks-api-openapi.yml
+- filename: apollo-api-documentation-usage-stats-api-openapi.yml
+  format: yaml
+  label: Apollo API Documentation Usage Stats API
+  slug: apollo-api-documentation-usage-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/openapi/apollo-api-documentation-usage-stats-api-openapi.yml
+- filename: apollo-api-documentation-users-api-openapi.yml
+  format: yaml
+  label: Apollo API Documentation Users API
+  slug: apollo-api-documentation-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/openapi/apollo-api-documentation-users-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,12 +1,114 @@
 ---
 api_key_in: []
 api_specs:
-- filename: elementum-openapi-original.json
-  format: json
-  label: Elementum API
-  slug: elementum-api
+- filename: elementum-access-token-api-openapi.yml
+  format: yaml
+  label: Elementum Access Token API
+  slug: elementum-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-access-token-api-openapi.yml
+- filename: elementum-agents-api-openapi.yml
+  format: yaml
+  label: Elementum Agents API
+  slug: elementum-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-agents-api-openapi.yml
+- filename: elementum-apps-api-openapi.yml
+  format: yaml
+  label: Elementum Apps API
+  slug: elementum-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-apps-api-openapi.yml
+- filename: elementum-attachments-api-openapi.yml
+  format: yaml
+  label: Elementum Attachments API
+  slug: elementum-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-attachments-api-openapi.yml
+- filename: elementum-automations-api-openapi.yml
+  format: yaml
+  label: Elementum Automations API
+  slug: elementum-automations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-automations-api-openapi.yml
+- filename: elementum-comments-api-openapi.yml
+  format: yaml
+  label: Elementum Comments API
+  slug: elementum-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-comments-api-openapi.yml
+- filename: elementum-domains-api-openapi.yml
+  format: yaml
+  label: Elementum Domains API
+  slug: elementum-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-domains-api-openapi.yml
+- filename: elementum-elements-api-openapi.yml
+  format: yaml
+  label: Elementum Elements API
+  slug: elementum-elements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-elements-api-openapi.yml
+- filename: elementum-flows-api-openapi.yml
+  format: yaml
+  label: Elementum Flows API
+  slug: elementum-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-flows-api-openapi.yml
+- filename: elementum-groups-api-openapi.yml
+  format: yaml
+  label: Elementum Groups API
+  slug: elementum-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-groups-api-openapi.yml
+- filename: elementum-records-api-openapi.yml
+  format: yaml
+  label: Elementum Records API
+  slug: elementum-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-records-api-openapi.yml
+- filename: elementum-related-items-api-openapi.yml
+  format: yaml
+  label: Elementum Related-items API
+  slug: elementum-related-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-related-items-api-openapi.yml
+- filename: elementum-search-tables-api-openapi.yml
+  format: yaml
+  label: Elementum Search Tables API
+  slug: elementum-search-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-search-tables-api-openapi.yml
+- filename: elementum-skills-api-openapi.yml
+  format: yaml
+  label: Elementum Skills API
+  slug: elementum-skills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-skills-api-openapi.yml
+- filename: elementum-tables-api-openapi.yml
+  format: yaml
+  label: Elementum Tables API
+  slug: elementum-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-tables-api-openapi.yml
+- filename: elementum-users-api-openapi.yml
+  format: yaml
+  label: Elementum Users API
+  slug: elementum-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-users-api-openapi.yml
+- filename: elementum-views-api-openapi.yml
+  format: yaml
+  label: Elementum Views API
+  slug: elementum-views-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-views-api-openapi.yml
+- filename: elementum-watchers-api-openapi.yml
+  format: yaml
+  label: Elementum Watchers API
+  slug: elementum-watchers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-watchers-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

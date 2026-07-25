@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: river-markets-openapi-original.json
-  format: json
-  label: River Markets API
-  slug: river-markets-api
+- filename: river-markets-balance-api-openapi.yml
+  format: yaml
+  label: River Markets balance API
+  slug: river-markets-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-balance-api-openapi.yml
+- filename: river-markets-complex-orders-api-openapi.yml
+  format: yaml
+  label: River Markets complex-orders API
+  slug: river-markets-complex-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-complex-orders-api-openapi.yml
+- filename: river-markets-fair-values-api-openapi.yml
+  format: yaml
+  label: River Markets fair-values API
+  slug: river-markets-fair-values-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-fair-values-api-openapi.yml
+- filename: river-markets-fills-api-openapi.yml
+  format: yaml
+  label: River Markets fills API
+  slug: river-markets-fills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-fills-api-openapi.yml
+- filename: river-markets-generic-assets-api-openapi.yml
+  format: yaml
+  label: River Markets generic-assets API
+  slug: river-markets-generic-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-generic-assets-api-openapi.yml
+- filename: river-markets-markets-api-openapi.yml
+  format: yaml
+  label: River Markets markets API
+  slug: river-markets-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-markets-api-openapi.yml
+- filename: river-markets-orderbooks-api-openapi.yml
+  format: yaml
+  label: River Markets orderbooks API
+  slug: river-markets-orderbooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-orderbooks-api-openapi.yml
+- filename: river-markets-orders-api-openapi.yml
+  format: yaml
+  label: River Markets orders API
+  slug: river-markets-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-orders-api-openapi.yml
+- filename: river-markets-positions-api-openapi.yml
+  format: yaml
+  label: River Markets positions API
+  slug: river-markets-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-positions-api-openapi.yml
+- filename: river-markets-prices-api-openapi.yml
+  format: yaml
+  label: River Markets prices API
+  slug: river-markets-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-prices-api-openapi.yml
+- filename: river-markets-subaccounts-api-openapi.yml
+  format: yaml
+  label: River Markets subaccounts API
+  slug: river-markets-subaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-subaccounts-api-openapi.yml
+- filename: river-markets-tradeprints-api-openapi.yml
+  format: yaml
+  label: River Markets tradeprints API
+  slug: river-markets-tradeprints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-tradeprints-api-openapi.yml
+- filename: river-markets-watchlists-api-openapi.yml
+  format: yaml
+  label: River Markets watchlists API
+  slug: river-markets-watchlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-watchlists-api-openapi.yml
 description: ''
 domains:
 - caa: []

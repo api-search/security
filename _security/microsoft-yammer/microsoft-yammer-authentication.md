@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: microsoft-yammer-openapi.yml
+- filename: microsoft-yammer-files-api-openapi.yml
   format: yaml
-  label: Yammer REST API
-  slug: rest-api
+  label: Microsoft Yammer Files API
+  slug: microsoft-yammer-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-files-api-openapi.yml
+- filename: microsoft-yammer-groups-api-openapi.yml
+  format: yaml
+  label: Microsoft Yammer Groups API
+  slug: microsoft-yammer-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-groups-api-openapi.yml
+- filename: microsoft-yammer-messages-api-openapi.yml
+  format: yaml
+  label: Microsoft Yammer Messages API
+  slug: microsoft-yammer-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-messages-api-openapi.yml
+- filename: microsoft-yammer-networks-api-openapi.yml
+  format: yaml
+  label: Microsoft Yammer Networks API
+  slug: microsoft-yammer-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-networks-api-openapi.yml
+- filename: microsoft-yammer-search-api-openapi.yml
+  format: yaml
+  label: Microsoft Yammer Search API
+  slug: microsoft-yammer-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-search-api-openapi.yml
+- filename: microsoft-yammer-subscriptions-api-openapi.yml
+  format: yaml
+  label: Microsoft Yammer Subscriptions API
+  slug: microsoft-yammer-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-subscriptions-api-openapi.yml
+- filename: microsoft-yammer-threads-api-openapi.yml
+  format: yaml
+  label: Microsoft Yammer Threads API
+  slug: microsoft-yammer-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-threads-api-openapi.yml
+- filename: microsoft-yammer-topics-api-openapi.yml
+  format: yaml
+  label: Microsoft Yammer Topics API
+  slug: microsoft-yammer-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-topics-api-openapi.yml
+- filename: microsoft-yammer-users-api-openapi.yml
+  format: yaml
+  label: Microsoft Yammer Users API
+  slug: microsoft-yammer-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-users-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

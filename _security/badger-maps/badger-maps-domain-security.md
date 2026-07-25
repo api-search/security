@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: badger-maps-openapi.yml
+- filename: badger-maps-accounts-api-openapi.yml
   format: yaml
   label: Badger Maps Accounts API
   slug: badger-maps-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/openapi/badger-maps-openapi.yml
-- filename: badger-maps-openapi.yml
-  format: yaml
-  label: Badger Maps Locations API
-  slug: badger-maps-locations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/openapi/badger-maps-openapi.yml
-- filename: badger-maps-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/openapi/badger-maps-accounts-api-openapi.yml
+- filename: badger-maps-check-ins-api-openapi.yml
   format: yaml
   label: Badger Maps Check-Ins API
   slug: badger-maps-check-ins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/openapi/badger-maps-openapi.yml
-- filename: badger-maps-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/openapi/badger-maps-check-ins-api-openapi.yml
+- filename: badger-maps-locations-api-openapi.yml
+  format: yaml
+  label: Badger Maps Locations API
+  slug: badger-maps-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/openapi/badger-maps-locations-api-openapi.yml
+- filename: badger-maps-routes-api-openapi.yml
   format: yaml
   label: Badger Maps Routes API
   slug: badger-maps-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/openapi/badger-maps-openapi.yml
-- filename: badger-maps-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/openapi/badger-maps-routes-api-openapi.yml
+- filename: badger-maps-users-api-openapi.yml
   format: yaml
   label: Badger Maps Users API
   slug: badger-maps-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/openapi/badger-maps-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/openapi/badger-maps-users-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,60 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: conta-azul-acquittance-openapi.yml
+- filename: conta-azul-v1-api-openapi.yml
   format: yaml
-  label: Conta Azul Baixas (Acquittance)
-  slug: conta-azul-baixas-acquittance
+  label: Conta Azul v1 API
+  slug: conta-azul-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-acquittance-openapi.yml
-- filename: conta-azul-charge-openapi.yml
-  format: yaml
-  label: Conta Azul Cobranças (Charges)
-  slug: conta-azul-cobranças-charges
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-charge-openapi.yml
-- filename: conta-azul-contracts-openapi.yml
-  format: yaml
-  label: Conta Azul Contratos (Contracts)
-  slug: conta-azul-contratos-contracts
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-contracts-openapi.yml
-- filename: conta-azul-financial-openapi.yml
-  format: yaml
-  label: Conta Azul Financeiro (Financial)
-  slug: conta-azul-financeiro-financial
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-financial-openapi.yml
-- filename: conta-azul-inventory-openapi.yml
-  format: yaml
-  label: Conta Azul Produtos (Inventory)
-  slug: conta-azul-produtos-inventory
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-inventory-openapi.yml
-- filename: conta-azul-proposal-openapi.yml
-  format: yaml
-  label: Conta Azul Orçamentos (Proposals)
-  slug: conta-azul-orçamentos-proposals
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-proposal-openapi.yml
-- filename: conta-azul-protocol-openapi.yml
-  format: yaml
-  label: Conta Azul Protocolos (Protocol)
-  slug: conta-azul-protocolos-protocol
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-protocol-openapi.yml
-- filename: conta-azul-sales-openapi.yml
-  format: yaml
-  label: Conta Azul Vendas (Sales)
-  slug: conta-azul-vendas-sales
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-sales-openapi.yml
-- filename: conta-azul-scheduled-sales-openapi.yml
-  format: yaml
-  label: Conta Azul Vendas Programadas (Scheduled Sales)
-  slug: conta-azul-vendas-programadas-scheduled-sales
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-scheduled-sales-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-v1-api-openapi.yml
 auth_types:
 - oauth2
 - http

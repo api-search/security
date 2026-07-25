@@ -1,11 +1,95 @@
 ---
 api_specs:
-- filename: dub-openapi.yml
+- filename: dub-analytics-api-openapi.yml
+  format: yaml
+  label: Dub Analytics API
+  slug: dub-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-analytics-api-openapi.yml
+- filename: dub-bounties-api-openapi.yml
+  format: yaml
+  label: Dub Bounties API
+  slug: dub-bounties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-bounties-api-openapi.yml
+- filename: dub-commissions-api-openapi.yml
+  format: yaml
+  label: Dub Commissions API
+  slug: dub-commissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-commissions-api-openapi.yml
+- filename: dub-customers-api-openapi.yml
+  format: yaml
+  label: Dub Customers API
+  slug: dub-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-customers-api-openapi.yml
+- filename: dub-domains-api-openapi.yml
+  format: yaml
+  label: Dub Domains API
+  slug: dub-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-domains-api-openapi.yml
+- filename: dub-embed-tokens-api-openapi.yml
+  format: yaml
+  label: Dub Embed Tokens API
+  slug: dub-embed-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-embed-tokens-api-openapi.yml
+- filename: dub-events-api-openapi.yml
+  format: yaml
+  label: Dub Events API
+  slug: dub-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-events-api-openapi.yml
+- filename: dub-folders-api-openapi.yml
+  format: yaml
+  label: Dub Folders API
+  slug: dub-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-folders-api-openapi.yml
+- filename: dub-links-api-openapi.yml
   format: yaml
   label: Dub Links API
-  slug: links
+  slug: dub-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-links-api-openapi.yml
+- filename: dub-partner-applications-api-openapi.yml
+  format: yaml
+  label: Dub Partner Applications API
+  slug: dub-partner-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-partner-applications-api-openapi.yml
+- filename: dub-partners-api-openapi.yml
+  format: yaml
+  label: Dub Partners API
+  slug: dub-partners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-partners-api-openapi.yml
+- filename: dub-payouts-api-openapi.yml
+  format: yaml
+  label: Dub Payouts API
+  slug: dub-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-payouts-api-openapi.yml
+- filename: dub-qr-codes-api-openapi.yml
+  format: yaml
+  label: Dub QR Codes API
+  slug: dub-qr-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-qr-codes-api-openapi.yml
+- filename: dub-tags-api-openapi.yml
+  format: yaml
+  label: Dub Tags API
+  slug: dub-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-tags-api-openapi.yml
+- filename: dub-track-api-openapi.yml
+  format: yaml
+  label: Dub Track API
+  slug: dub-track-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-track-api-openapi.yml
 description: ''
 domains:
 - caa:

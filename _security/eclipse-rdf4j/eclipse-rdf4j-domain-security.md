@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: rdf4j-server-rest-api-openapi.yml
+- filename: eclipse-rdf4j-contexts-api-openapi.yml
   format: yaml
-  label: RDF4J Server REST API
-  slug: rdf4j-server-rest-api
+  label: Eclipse RDF4J Contexts API
+  slug: eclipse-rdf4j-contexts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/main/openapi/rdf4j-server-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-contexts-api-openapi.yml
+- filename: eclipse-rdf4j-namespaces-api-openapi.yml
+  format: yaml
+  label: Eclipse RDF4J Namespaces API
+  slug: eclipse-rdf4j-namespaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-namespaces-api-openapi.yml
+- filename: eclipse-rdf4j-protocol-api-openapi.yml
+  format: yaml
+  label: Eclipse RDF4J Protocol API
+  slug: eclipse-rdf4j-protocol-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-protocol-api-openapi.yml
+- filename: eclipse-rdf4j-repositories-api-openapi.yml
+  format: yaml
+  label: Eclipse RDF4J Repositories API
+  slug: eclipse-rdf4j-repositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-repositories-api-openapi.yml
+- filename: eclipse-rdf4j-size-api-openapi.yml
+  format: yaml
+  label: Eclipse RDF4J Size API
+  slug: eclipse-rdf4j-size-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-size-api-openapi.yml
+- filename: eclipse-rdf4j-statements-api-openapi.yml
+  format: yaml
+  label: Eclipse RDF4J Statements API
+  slug: eclipse-rdf4j-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-statements-api-openapi.yml
+- filename: eclipse-rdf4j-transactions-api-openapi.yml
+  format: yaml
+  label: Eclipse RDF4J Transactions API
+  slug: eclipse-rdf4j-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:

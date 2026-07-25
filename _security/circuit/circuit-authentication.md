@@ -1,12 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: circuit-v1-openapi-original.json
-  format: json
-  label: Spoke Public API
-  slug: spoke-public-api
+- filename: circuit-depots-api-openapi.yml
+  format: yaml
+  label: Circuit Depots API
+  slug: circuit-depots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circuit/refs/heads/main/openapi/circuit-v1-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/circuit/refs/heads/main/openapi/circuit-depots-api-openapi.yml
+- filename: circuit-drivers-api-openapi.yml
+  format: yaml
+  label: Circuit Drivers API
+  slug: circuit-drivers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circuit/refs/heads/main/openapi/circuit-drivers-api-openapi.yml
+- filename: circuit-live-plans-api-openapi.yml
+  format: yaml
+  label: Circuit Live Plans API
+  slug: circuit-live-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circuit/refs/heads/main/openapi/circuit-live-plans-api-openapi.yml
+- filename: circuit-live-stops-api-openapi.yml
+  format: yaml
+  label: Circuit Live Stops API
+  slug: circuit-live-stops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circuit/refs/heads/main/openapi/circuit-live-stops-api-openapi.yml
+- filename: circuit-members-api-openapi.yml
+  format: yaml
+  label: Circuit Members API
+  slug: circuit-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circuit/refs/heads/main/openapi/circuit-members-api-openapi.yml
+- filename: circuit-operations-api-openapi.yml
+  format: yaml
+  label: Circuit Operations API
+  slug: circuit-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circuit/refs/heads/main/openapi/circuit-operations-api-openapi.yml
+- filename: circuit-plans-api-openapi.yml
+  format: yaml
+  label: Circuit Plans API
+  slug: circuit-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circuit/refs/heads/main/openapi/circuit-plans-api-openapi.yml
+- filename: circuit-routes-api-openapi.yml
+  format: yaml
+  label: Circuit Routes API
+  slug: circuit-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circuit/refs/heads/main/openapi/circuit-routes-api-openapi.yml
+- filename: circuit-stops-api-openapi.yml
+  format: yaml
+  label: Circuit Stops API
+  slug: circuit-stops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circuit/refs/heads/main/openapi/circuit-stops-api-openapi.yml
+- filename: circuit-team-api-openapi.yml
+  format: yaml
+  label: Circuit Team API
+  slug: circuit-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circuit/refs/heads/main/openapi/circuit-team-api-openapi.yml
+- filename: circuit-unassigned-stops-api-openapi.yml
+  format: yaml
+  label: Circuit Unassigned Stops API
+  slug: circuit-unassigned-stops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circuit/refs/heads/main/openapi/circuit-unassigned-stops-api-openapi.yml
 auth_types:
 - http
 description: ''

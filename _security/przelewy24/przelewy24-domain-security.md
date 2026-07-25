@@ -1,29 +1,83 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: przelewy24-additional-api-functionality-api-openapi.yml
   format: yaml
-  label: Przelewy24 REST API
-  slug: przelewy24-rest-api
+  label: Przelewy24 Additional API functionality API
+  slug: przelewy24-additional-api-functionality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi.yml
-- filename: openapi-marketplace.yml
+  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-additional-api-functionality-api-openapi.yml
+- filename: przelewy24-additional-services-mass-payments-transactions-api-openapi.yml
   format: yaml
-  label: Przelewy24 Marketplace API
-  slug: przelewy24-marketplace-api
+  label: Przelewy24 Additional services Mass Payments Transactions API
+  slug: przelewy24-additional-services-mass-payments-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/openapi-marketplace.yml
-- filename: openapi-extended.yml
+  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-additional-services-mass-payments-transactions-api-openapi.yml
+- filename: przelewy24-apay-api-api-openapi.yml
   format: yaml
-  label: Przelewy24 Extended API
-  slug: przelewy24-extended-api
+  label: Przelewy24 APay API API
+  slug: przelewy24-apay-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/openapi-extended.yml
-- filename: openapi-ekspres.yml
+  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-apay-api-api-openapi.yml
+- filename: przelewy24-blik-api-api-openapi.yml
   format: yaml
-  label: Przelewy24 Ekspres API
-  slug: przelewy24-ekspres-api
+  label: Przelewy24 BLIK API API
+  slug: przelewy24-blik-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/openapi-ekspres.yml
+  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-blik-api-api-openapi.yml
+- filename: przelewy24-card-api-api-openapi.yml
+  format: yaml
+  label: Przelewy24 Card API API
+  slug: przelewy24-card-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-card-api-api-openapi.yml
+- filename: przelewy24-ekspres-p24-api-api-openapi.yml
+  format: yaml
+  label: Przelewy24 Ekspres P24 API API
+  slug: przelewy24-ekspres-p24-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-ekspres-p24-api-api-openapi.yml
+- filename: przelewy24-gpay-api-api-openapi.yml
+  format: yaml
+  label: Przelewy24 GPay API API
+  slug: przelewy24-gpay-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-gpay-api-api-openapi.yml
+- filename: przelewy24-marketplace-management-api-api-openapi.yml
+  format: yaml
+  label: Przelewy24 Marketplace Management API API
+  slug: przelewy24-marketplace-management-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-marketplace-management-api-api-openapi.yml
+- filename: przelewy24-marketplace-merchant-api-api-openapi.yml
+  format: yaml
+  label: Przelewy24 Marketplace Merchant API API
+  slug: przelewy24-marketplace-merchant-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-marketplace-merchant-api-api-openapi.yml
+- filename: przelewy24-marketplace-partner-api-api-openapi.yml
+  format: yaml
+  label: Przelewy24 Marketplace Partner API API
+  slug: przelewy24-marketplace-partner-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-marketplace-partner-api-api-openapi.yml
+- filename: przelewy24-recursion-dopayment-api-openapi.yml
+  format: yaml
+  label: Przelewy24 Recursion (doPayment) API
+  slug: przelewy24-recursion-dopayment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-recursion-dopayment-api-openapi.yml
+- filename: przelewy24-report-api-api-openapi.yml
+  format: yaml
+  label: Przelewy24 Report API API
+  slug: przelewy24-report-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-report-api-api-openapi.yml
+- filename: przelewy24-transaction-service-api-api-openapi.yml
+  format: yaml
+  label: Przelewy24 Transaction service API API
+  slug: przelewy24-transaction-service-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-transaction-service-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

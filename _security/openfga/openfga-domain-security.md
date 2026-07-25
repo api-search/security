@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: openfga-openapi.json
-  format: json
-  label: OpenFGA Authorization API
-  slug: openfga-api
+- filename: openfga-assertions-api-openapi.yml
+  format: yaml
+  label: OpenFGA Assertions API
+  slug: openfga-assertions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openfga/refs/heads/main/openapi/openfga-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/openfga/refs/heads/main/openapi/openfga-assertions-api-openapi.yml
+- filename: openfga-authorization-models-api-openapi.yml
+  format: yaml
+  label: OpenFGA Authorization Models API
+  slug: openfga-authorization-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openfga/refs/heads/main/openapi/openfga-authorization-models-api-openapi.yml
+- filename: openfga-authzenservice-api-openapi.yml
+  format: yaml
+  label: OpenFGA AuthZenService API
+  slug: openfga-authzenservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openfga/refs/heads/main/openapi/openfga-authzenservice-api-openapi.yml
+- filename: openfga-relationship-queries-api-openapi.yml
+  format: yaml
+  label: OpenFGA Relationship Queries API
+  slug: openfga-relationship-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openfga/refs/heads/main/openapi/openfga-relationship-queries-api-openapi.yml
+- filename: openfga-relationship-tuples-api-openapi.yml
+  format: yaml
+  label: OpenFGA Relationship Tuples API
+  slug: openfga-relationship-tuples-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openfga/refs/heads/main/openapi/openfga-relationship-tuples-api-openapi.yml
+- filename: openfga-stores-api-openapi.yml
+  format: yaml
+  label: OpenFGA Stores API
+  slug: openfga-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openfga/refs/heads/main/openapi/openfga-stores-api-openapi.yml
 description: ''
 domains:
 - caa: []

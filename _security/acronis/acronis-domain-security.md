@@ -1,23 +1,71 @@
 ---
 api_specs:
-- filename: acronis-account-management-openapi.yaml
+- filename: acronis-activities-api-openapi.yml
   format: yaml
-  label: Acronis Account Management API
-  slug: account-management-api
+  label: Acronis Activities API
+  slug: acronis-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-account-management-openapi.yaml
-- filename: acronis-agent-management-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-activities-api-openapi.yml
+- filename: acronis-agent-updates-api-openapi.yml
   format: yaml
-  label: Acronis Agent Management REST API
-  slug: agent-management-rest-api
+  label: Acronis Agent Updates API
+  slug: acronis-agent-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-agent-management-openapi.yaml
-- filename: acronis-task-manager-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-agent-updates-api-openapi.yml
+- filename: acronis-agents-api-openapi.yml
   format: yaml
-  label: Acronis Task Manager API
-  slug: task-manager-api
+  label: Acronis Agents API
+  slug: acronis-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-task-manager-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-agents-api-openapi.yml
+- filename: acronis-authentication-api-openapi.yml
+  format: yaml
+  label: Acronis Authentication API
+  slug: acronis-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-authentication-api-openapi.yml
+- filename: acronis-clients-api-openapi.yml
+  format: yaml
+  label: Acronis Clients API
+  slug: acronis-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-clients-api-openapi.yml
+- filename: acronis-hardware-nodes-api-openapi.yml
+  format: yaml
+  label: Acronis Hardware Nodes API
+  slug: acronis-hardware-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-hardware-nodes-api-openapi.yml
+- filename: acronis-licensing-api-openapi.yml
+  format: yaml
+  label: Acronis Licensing API
+  slug: acronis-licensing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-licensing-api-openapi.yml
+- filename: acronis-tasks-api-openapi.yml
+  format: yaml
+  label: Acronis Tasks API
+  slug: acronis-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-tasks-api-openapi.yml
+- filename: acronis-tenants-api-openapi.yml
+  format: yaml
+  label: Acronis Tenants API
+  slug: acronis-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-tenants-api-openapi.yml
+- filename: acronis-usage-api-openapi.yml
+  format: yaml
+  label: Acronis Usage API
+  slug: acronis-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-usage-api-openapi.yml
+- filename: acronis-users-api-openapi.yml
+  format: yaml
+  label: Acronis Users API
+  slug: acronis-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-users-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: qlik-cloud-openapi.yml
+- filename: qlik-cloud-api-keys-api-openapi.yml
   format: yaml
-  label: Qlik Cloud REST API
-  slug: qlik-cloud-rest-api
+  label: Qlik Cloud Api Keys API
+  slug: qlik-cloud-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/openapi/qlik-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/openapi/qlik-cloud-api-keys-api-openapi.yml
+- filename: qlik-cloud-apps-api-openapi.yml
+  format: yaml
+  label: Qlik Cloud Apps API
+  slug: qlik-cloud-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/openapi/qlik-cloud-apps-api-openapi.yml
+- filename: qlik-cloud-csrf-token-api-openapi.yml
+  format: yaml
+  label: Qlik Cloud Csrf Token API
+  slug: qlik-cloud-csrf-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/openapi/qlik-cloud-csrf-token-api-openapi.yml
+- filename: qlik-cloud-spaces-api-openapi.yml
+  format: yaml
+  label: Qlik Cloud Spaces API
+  slug: qlik-cloud-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/openapi/qlik-cloud-spaces-api-openapi.yml
+- filename: qlik-cloud-users-api-openapi.yml
+  format: yaml
+  label: Qlik Cloud Users API
+  slug: qlik-cloud-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/openapi/qlik-cloud-users-api-openapi.yml
+- filename: qlik-cloud-webhooks-api-openapi.yml
+  format: yaml
+  label: Qlik Cloud Webhooks API
+  slug: qlik-cloud-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/openapi/qlik-cloud-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

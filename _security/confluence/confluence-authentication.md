@@ -1,18 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: swagger.v3.json
-  format: json
-  label: Confluence Cloud REST API v1
-  slug: confluence-cloud-rest-api-v1
-  spec_type: OpenAPI
-  url: https://dac-static.atlassian.com/cloud/confluence/swagger.v3.json
-- filename: openapi.yaml
+- filename: confluence-space-api-openapi.yml
   format: yaml
-  label: Confluence Cloud REST API v2
-  slug: confluence-cloud-rest-api-v2
+  label: Confluence Space API
+  slug: confluence-space-api
   spec_type: OpenAPI
-  url: https://developer.atlassian.com/cloud/confluence/rest/v2/api-spec/
+  url: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/openapi/confluence-space-api-openapi.yml
+- filename: confluence-attachment-api-openapi.yml
+  format: yaml
+  label: Confluence Attachment API
+  slug: confluence-attachment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/openapi/confluence-attachment-api-openapi.yml
+- filename: confluence-blog-post-api-openapi.yml
+  format: yaml
+  label: Confluence Blog Post API
+  slug: confluence-blog-post-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/openapi/confluence-blog-post-api-openapi.yml
+- filename: confluence-comment-api-openapi.yml
+  format: yaml
+  label: Confluence Comment API
+  slug: confluence-comment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/openapi/confluence-comment-api-openapi.yml
+- filename: confluence-label-api-openapi.yml
+  format: yaml
+  label: Confluence Label API
+  slug: confluence-label-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/openapi/confluence-label-api-openapi.yml
+- filename: confluence-page-api-openapi.yml
+  format: yaml
+  label: Confluence Page API
+  slug: confluence-page-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/openapi/confluence-page-api-openapi.yml
+- filename: confluence-space-api-openapi.yml
+  format: yaml
+  label: Confluence Space API
+  slug: confluence-space-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/openapi/confluence-space-api-openapi.yml
 auth_types:
 - http
 - oauth2

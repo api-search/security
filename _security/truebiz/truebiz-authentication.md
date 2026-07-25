@@ -2,12 +2,72 @@
 api_key_in:
 - header
 api_specs:
-- filename: truebiz-openapi-original.json
-  format: json
+- filename: truebiz-async-web-presence-review-api-openapi.yml
+  format: yaml
+  label: TrueBiz Async Web Presence Review API
+  slug: truebiz-async-web-presence-review-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/openapi/truebiz-async-web-presence-review-api-openapi.yml
+- filename: truebiz-fraud-searches-api-openapi.yml
+  format: yaml
+  label: TrueBiz Fraud Searches API
+  slug: truebiz-fraud-searches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/openapi/truebiz-fraud-searches-api-openapi.yml
+- filename: truebiz-history-api-openapi.yml
+  format: yaml
+  label: TrueBiz History API
+  slug: truebiz-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/openapi/truebiz-history-api-openapi.yml
+- filename: truebiz-industry-discovery-api-openapi.yml
+  format: yaml
+  label: TrueBiz Industry Discovery API
+  slug: truebiz-industry-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/openapi/truebiz-industry-discovery-api-openapi.yml
+- filename: truebiz-industry-discovery-history-api-openapi.yml
+  format: yaml
+  label: TrueBiz Industry Discovery History API
+  slug: truebiz-industry-discovery-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/openapi/truebiz-industry-discovery-history-api-openapi.yml
+- filename: truebiz-monitoring-alerts-api-openapi.yml
+  format: yaml
+  label: TrueBiz Monitoring Alerts API
+  slug: truebiz-monitoring-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/openapi/truebiz-monitoring-alerts-api-openapi.yml
+- filename: truebiz-monitoring-domains-api-openapi.yml
+  format: yaml
+  label: TrueBiz Monitoring Domains API
+  slug: truebiz-monitoring-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/openapi/truebiz-monitoring-domains-api-openapi.yml
+- filename: truebiz-web-presence-review-api-openapi.yml
+  format: yaml
   label: TrueBiz Web Presence Review API
   slug: truebiz-web-presence-review-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/openapi/truebiz-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/openapi/truebiz-web-presence-review-api-openapi.yml
+- filename: truebiz-web-presence-review-blocklist-api-openapi.yml
+  format: yaml
+  label: TrueBiz Web Presence Review Blocklist API
+  slug: truebiz-web-presence-review-blocklist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/openapi/truebiz-web-presence-review-blocklist-api-openapi.yml
+- filename: truebiz-web-presence-review-history-api-openapi.yml
+  format: yaml
+  label: TrueBiz Web Presence Review History API
+  slug: truebiz-web-presence-review-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/openapi/truebiz-web-presence-review-history-api-openapi.yml
+- filename: truebiz-website-status-api-openapi.yml
+  format: yaml
+  label: TrueBiz Website Status API
+  slug: truebiz-website-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/openapi/truebiz-website-status-api-openapi.yml
 auth_types:
 - apiKey
 - http

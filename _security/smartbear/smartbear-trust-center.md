@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: smartbear-swaggerhub-openapi.yml
+- filename: smartbear-apis-api-openapi.yml
   format: yaml
-  label: SwaggerHub API
-  slug: swaggerhub
+  label: SmartBear APIs API
+  slug: smartbear-apis-api
   spec_type: OpenAPI
-  url: https://openapi/smartbear-swaggerhub-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/openapi/smartbear-apis-api-openapi.yml
+- filename: smartbear-domains-api-openapi.yml
+  format: yaml
+  label: SmartBear Domains API
+  slug: smartbear-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/openapi/smartbear-domains-api-openapi.yml
+- filename: smartbear-integrations-api-openapi.yml
+  format: yaml
+  label: SmartBear Integrations API
+  slug: smartbear-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/openapi/smartbear-integrations-api-openapi.yml
+- filename: smartbear-organizations-api-openapi.yml
+  format: yaml
+  label: SmartBear Organizations API
+  slug: smartbear-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/openapi/smartbear-organizations-api-openapi.yml
+- filename: smartbear-projects-api-openapi.yml
+  format: yaml
+  label: SmartBear Projects API
+  slug: smartbear-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/openapi/smartbear-projects-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

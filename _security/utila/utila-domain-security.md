@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: utila-v2-openapi-original.json
-  format: json
-  label: Utila API v2
-  slug: utila-api
+- filename: utila-address-book-api-openapi.yml
+  format: yaml
+  label: Utila Address Book API
+  slug: utila-address-book-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utila/refs/heads/main/openapi/utila-v2-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/utila/refs/heads/main/openapi/utila-address-book-api-openapi.yml
+- filename: utila-assets-api-openapi.yml
+  format: yaml
+  label: Utila Assets API
+  slug: utila-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utila/refs/heads/main/openapi/utila-assets-api-openapi.yml
+- filename: utila-balances-api-openapi.yml
+  format: yaml
+  label: Utila Balances API
+  slug: utila-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utila/refs/heads/main/openapi/utila-balances-api-openapi.yml
+- filename: utila-blockchains-api-openapi.yml
+  format: yaml
+  label: Utila Blockchains API
+  slug: utila-blockchains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utila/refs/heads/main/openapi/utila-blockchains-api-openapi.yml
+- filename: utila-transactions-api-openapi.yml
+  format: yaml
+  label: Utila Transactions API
+  slug: utila-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utila/refs/heads/main/openapi/utila-transactions-api-openapi.yml
+- filename: utila-vaults-api-openapi.yml
+  format: yaml
+  label: Utila Vaults API
+  slug: utila-vaults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utila/refs/heads/main/openapi/utila-vaults-api-openapi.yml
+- filename: utila-wallets-api-openapi.yml
+  format: yaml
+  label: Utila Wallets API
+  slug: utila-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utila/refs/heads/main/openapi/utila-wallets-api-openapi.yml
 description: ''
 domains:
 - caa: []

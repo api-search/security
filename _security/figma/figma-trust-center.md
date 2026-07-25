@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: figma-api-openapi.yml
-  format: yaml
-  label: Figma API
-  slug: figma-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-api-openapi.yml
-- filename: figma-rest-api-openapi.yml
-  format: yaml
-  label: Figma REST API
-  slug: figma-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-rest-api-openapi.yml
 - filename: figma-files-api-openapi.yml
   format: yaml
   label: Figma Files API
@@ -42,12 +30,6 @@ api_specs:
   slug: figma-me-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-me-api-openapi.yml
-- filename: figma-rest-api-openapi.yml
-  format: yaml
-  label: Figma Components API
-  slug: figma-components-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-rest-api-openapi.yml
 - filename: figma-component-sets-api-openapi.yml
   format: yaml
   label: Figma Component Sets API
@@ -78,36 +60,42 @@ api_specs:
   slug: figma-dev-resources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-dev-resources-api-openapi.yml
-- filename: figma-analytics-api-openapi.yml
-  format: yaml
-  label: Figma Analytics API
-  slug: figma-analytics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-analytics-api-openapi.yml
-- filename: figma-rest-api-openapi.yml
+- filename: figma-comments-api-openapi.yml
   format: yaml
   label: Figma Comments API
   slug: figma-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-rest-api-openapi.yml
-- filename: figma-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-comments-api-openapi.yml
+- filename: figma-components-api-openapi.yml
   format: yaml
-  label: Figma Version History API
-  slug: figma-version-history-api
+  label: Figma Components API
+  slug: figma-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-rest-api-openapi.yml
-- filename: figma-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-components-api-openapi.yml
+- filename: figma-keys-api-openapi.yml
   format: yaml
-  label: Figma Variables API
-  slug: figma-variables-api
+  label: Figma Keys API
+  slug: figma-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-rest-api-openapi.yml
-- filename: figma-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-keys-api-openapi.yml
+- filename: figma-library-analytics-api-openapi.yml
   format: yaml
   label: Figma Library Analytics API
   slug: figma-library-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-library-analytics-api-openapi.yml
+- filename: figma-users-api-openapi.yml
+  format: yaml
+  label: Figma Users API
+  slug: figma-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-users-api-openapi.yml
+- filename: figma-webhooks-api-openapi.yml
+  format: yaml
+  label: Figma Webhooks API
+  slug: figma-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-webhooks-api-openapi.yml
 certifications:
 - SOC 2 Type II
 - SOC 3

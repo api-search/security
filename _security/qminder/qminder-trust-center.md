@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: qminder-openapi-original.json
-  format: json
-  label: Qminder REST API
-  slug: qminder-rest-api
+- filename: qminder-appointments-api-openapi.yml
+  format: yaml
+  label: Qminder Appointments API
+  slug: qminder-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/openapi/qminder-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/openapi/qminder-appointments-api-openapi.yml
+- filename: qminder-input-fields-api-openapi.yml
+  format: yaml
+  label: Qminder Input Fields API
+  slug: qminder-input-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/openapi/qminder-input-fields-api-openapi.yml
+- filename: qminder-lines-api-openapi.yml
+  format: yaml
+  label: Qminder Lines API
+  slug: qminder-lines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/openapi/qminder-lines-api-openapi.yml
+- filename: qminder-locations-api-openapi.yml
+  format: yaml
+  label: Qminder Locations API
+  slug: qminder-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/openapi/qminder-locations-api-openapi.yml
+- filename: qminder-tickets-api-openapi.yml
+  format: yaml
+  label: Qminder Tickets API
+  slug: qminder-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/openapi/qminder-tickets-api-openapi.yml
+- filename: qminder-users-api-openapi.yml
+  format: yaml
+  label: Qminder Users API
+  slug: qminder-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/openapi/qminder-users-api-openapi.yml
+- filename: qminder-webhooks-api-openapi.yml
+  format: yaml
+  label: Qminder Webhooks API
+  slug: qminder-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/openapi/qminder-webhooks-api-openapi.yml
 certifications:
 - SOC 2
 - HIPAA

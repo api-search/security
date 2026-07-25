@@ -1,30 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: bytescale-openapi.yml
+- filename: bytescale-files-api-openapi.yml
   format: yaml
-  label: Bytescale File Upload API
-  slug: bytescale-file-upload-api
+  label: Bytescale Files API
+  slug: bytescale-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytescale/refs/heads/main/openapi/bytescale-openapi.yml
-- filename: bytescale-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bytescale/refs/heads/main/openapi/bytescale-files-api-openapi.yml
+- filename: bytescale-folders-api-openapi.yml
   format: yaml
-  label: Bytescale Files Management API
-  slug: bytescale-files-management-api
+  label: Bytescale Folders API
+  slug: bytescale-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytescale/refs/heads/main/openapi/bytescale-openapi.yml
-- filename: bytescale-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bytescale/refs/heads/main/openapi/bytescale-folders-api-openapi.yml
+- filename: bytescale-upload-api-openapi.yml
   format: yaml
-  label: Bytescale Image / Video Processing API
-  slug: bytescale-image-video-processing-api
+  label: Bytescale Upload API
+  slug: bytescale-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytescale/refs/heads/main/openapi/bytescale-openapi.yml
-- filename: bytescale-openapi.yml
-  format: yaml
-  label: Bytescale CDN / Serving API
-  slug: bytescale-cdn-serving-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytescale/refs/heads/main/openapi/bytescale-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bytescale/refs/heads/main/openapi/bytescale-upload-api-openapi.yml
 auth_types:
 - http
 description: ''

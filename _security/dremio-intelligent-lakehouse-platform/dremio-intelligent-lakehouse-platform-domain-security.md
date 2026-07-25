@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: dremio-intelligent-lakehouse-platform-openapi.yml
+- filename: dremio-intelligent-lakehouse-platform-authentication-api-openapi.yml
   format: yaml
-  label: Dremio | Intelligent Lakehouse Platform
-  slug: dremio-intelligent-lakehouse-platform
+  label: Dremio | Intelligent Lakehouse Platform Authentication API
+  slug: dremio-intelligent-lakehouse-platform-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-authentication-api-openapi.yml
+- filename: dremio-intelligent-lakehouse-platform-catalog-api-openapi.yml
+  format: yaml
+  label: Dremio | Intelligent Lakehouse Platform Catalog API
+  slug: dremio-intelligent-lakehouse-platform-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-catalog-api-openapi.yml
+- filename: dremio-intelligent-lakehouse-platform-jobs-api-openapi.yml
+  format: yaml
+  label: Dremio | Intelligent Lakehouse Platform Jobs API
+  slug: dremio-intelligent-lakehouse-platform-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-jobs-api-openapi.yml
+- filename: dremio-intelligent-lakehouse-platform-pat-api-openapi.yml
+  format: yaml
+  label: Dremio | Intelligent Lakehouse Platform PAT API
+  slug: dremio-intelligent-lakehouse-platform-pat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-pat-api-openapi.yml
+- filename: dremio-intelligent-lakehouse-platform-reflections-api-openapi.yml
+  format: yaml
+  label: Dremio | Intelligent Lakehouse Platform Reflections API
+  slug: dremio-intelligent-lakehouse-platform-reflections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-reflections-api-openapi.yml
+- filename: dremio-intelligent-lakehouse-platform-roles-api-openapi.yml
+  format: yaml
+  label: Dremio | Intelligent Lakehouse Platform Roles API
+  slug: dremio-intelligent-lakehouse-platform-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-roles-api-openapi.yml
+- filename: dremio-intelligent-lakehouse-platform-scripts-api-openapi.yml
+  format: yaml
+  label: Dremio | Intelligent Lakehouse Platform Scripts API
+  slug: dremio-intelligent-lakehouse-platform-scripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-scripts-api-openapi.yml
+- filename: dremio-intelligent-lakehouse-platform-sources-api-openapi.yml
+  format: yaml
+  label: Dremio | Intelligent Lakehouse Platform Sources API
+  slug: dremio-intelligent-lakehouse-platform-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-sources-api-openapi.yml
 description: ''
 domains:
 - caa: []

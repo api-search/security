@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: milvus-collections-api-openapi.yml
+  format: yaml
+  label: Milvus Collections API
+  slug: milvus-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/milvus/refs/heads/main/openapi/milvus-collections-api-openapi.yml
+- filename: milvus-entities-api-openapi.yml
+  format: yaml
+  label: Milvus Entities API
+  slug: milvus-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/milvus/refs/heads/main/openapi/milvus-entities-api-openapi.yml
+- filename: milvus-indexes-api-openapi.yml
+  format: yaml
+  label: Milvus Indexes API
+  slug: milvus-indexes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/milvus/refs/heads/main/openapi/milvus-indexes-api-openapi.yml
+- filename: milvus-partitions-api-openapi.yml
+  format: yaml
+  label: Milvus Partitions API
+  slug: milvus-partitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/milvus/refs/heads/main/openapi/milvus-partitions-api-openapi.yml
+- filename: milvus-roles-api-openapi.yml
+  format: yaml
+  label: Milvus Roles API
+  slug: milvus-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/milvus/refs/heads/main/openapi/milvus-roles-api-openapi.yml
+- filename: milvus-users-api-openapi.yml
+  format: yaml
+  label: Milvus Users API
+  slug: milvus-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/milvus/refs/heads/main/openapi/milvus-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

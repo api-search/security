@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: bfe-management-api.yaml
+- filename: bfe-debug-api-openapi.yml
   format: yaml
-  label: BFE Management API
-  slug: bfe-management-api
+  label: BFE Debug API
+  slug: bfe-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bfe/refs/heads/main/openapi/bfe-management-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/bfe/refs/heads/main/openapi/bfe-debug-api-openapi.yml
+- filename: bfe-monitor-api-openapi.yml
+  format: yaml
+  label: BFE Monitor API
+  slug: bfe-monitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bfe/refs/heads/main/openapi/bfe-monitor-api-openapi.yml
+- filename: bfe-reload-api-openapi.yml
+  format: yaml
+  label: BFE Reload API
+  slug: bfe-reload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bfe/refs/heads/main/openapi/bfe-reload-api-openapi.yml
 description: ''
 domains:
 - caa: []

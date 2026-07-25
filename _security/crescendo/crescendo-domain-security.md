@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: crescendo-platform-openapi-original.json
-  format: json
-  label: Crescendo Platform API
-  slug: crescendo-platform-api
+- filename: crescendo-mcp-api-openapi.yml
+  format: yaml
+  label: Crescendo MCP API
+  slug: crescendo-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crescendo/refs/heads/main/openapi/crescendo-platform-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/crescendo/refs/heads/main/openapi/crescendo-mcp-api-openapi.yml
+- filename: crescendo-provisioning-api-openapi.yml
+  format: yaml
+  label: Crescendo Provisioning API
+  slug: crescendo-provisioning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crescendo/refs/heads/main/openapi/crescendo-provisioning-api-openapi.yml
+- filename: crescendo-reporting-api-openapi.yml
+  format: yaml
+  label: Crescendo Reporting API
+  slug: crescendo-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crescendo/refs/heads/main/openapi/crescendo-reporting-api-openapi.yml
+- filename: crescendo-service-api-openapi.yml
+  format: yaml
+  label: Crescendo Service API
+  slug: crescendo-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crescendo/refs/heads/main/openapi/crescendo-service-api-openapi.yml
+- filename: crescendo-voc-api-openapi.yml
+  format: yaml
+  label: Crescendo VOC API
+  slug: crescendo-voc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crescendo/refs/heads/main/openapi/crescendo-voc-api-openapi.yml
 description: ''
 domains:
 - caa: []

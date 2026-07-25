@@ -1,42 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sequence-hq-openapi.yml
-  format: yaml
-  label: Sequence Customers API
-  slug: sequence-hq-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-openapi.yml
-- filename: sequence-hq-openapi.yml
-  format: yaml
-  label: Sequence Usage & Metering API
-  slug: sequence-hq-usage-metering-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-openapi.yml
-- filename: sequence-hq-openapi.yml
+- filename: sequence-hq-billing-schedules-api-openapi.yml
   format: yaml
   label: Sequence Billing Schedules API
   slug: sequence-hq-billing-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-openapi.yml
-- filename: sequence-hq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-billing-schedules-api-openapi.yml
+- filename: sequence-hq-customers-api-openapi.yml
   format: yaml
-  label: Sequence Invoices & Credit Notes API
-  slug: sequence-hq-invoices-credit-notes-api
+  label: Sequence Customers API
+  slug: sequence-hq-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-openapi.yml
-- filename: sequence-hq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-customers-api-openapi.yml
+- filename: sequence-hq-invoices-api-openapi.yml
   format: yaml
-  label: Sequence Products & Prices API
-  slug: sequence-hq-products-prices-api
+  label: Sequence Invoices API
+  slug: sequence-hq-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-openapi.yml
-- filename: sequence-hq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-invoices-api-openapi.yml
+- filename: sequence-hq-products-api-openapi.yml
+  format: yaml
+  label: Sequence Products API
+  slug: sequence-hq-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-products-api-openapi.yml
+- filename: sequence-hq-quotes-api-openapi.yml
   format: yaml
   label: Sequence Quotes API
   slug: sequence-hq-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-quotes-api-openapi.yml
+- filename: sequence-hq-usage-api-openapi.yml
+  format: yaml
+  label: Sequence Usage API
+  slug: sequence-hq-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-usage-api-openapi.yml
 auth_types:
 - http
 description: ''

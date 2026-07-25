@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openpipe-openapi.json
-  format: json
-  label: OpenPipe Platform API
-  slug: platform
+- filename: openpipe-chat-api-openapi.yml
+  format: yaml
+  label: OpenPipe Chat API
+  slug: openpipe-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-chat-api-openapi.yml
+- filename: openpipe-check-cache-api-openapi.yml
+  format: yaml
+  label: OpenPipe Check Cache API
+  slug: openpipe-check-cache-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-check-cache-api-openapi.yml
+- filename: openpipe-criteria-api-openapi.yml
+  format: yaml
+  label: OpenPipe Criteria API
+  slug: openpipe-criteria-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-criteria-api-openapi.yml
+- filename: openpipe-datasets-api-openapi.yml
+  format: yaml
+  label: OpenPipe Datasets API
+  slug: openpipe-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-datasets-api-openapi.yml
+- filename: openpipe-local-testing-only-get-latest-logged-call-api-openapi.yml
+  format: yaml
+  label: OpenPipe Local Testing Only Get Latest Logged Call API
+  slug: openpipe-local-testing-only-get-latest-logged-call-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-local-testing-only-get-latest-logged-call-api-openapi.yml
+- filename: openpipe-logs-api-openapi.yml
+  format: yaml
+  label: OpenPipe Logs API
+  slug: openpipe-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-logs-api-openapi.yml
+- filename: openpipe-models-api-openapi.yml
+  format: yaml
+  label: OpenPipe Models API
+  slug: openpipe-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-models-api-openapi.yml
+- filename: openpipe-report-anthropic-api-openapi.yml
+  format: yaml
+  label: OpenPipe Report Anthropic API
+  slug: openpipe-report-anthropic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-report-anthropic-api-openapi.yml
+- filename: openpipe-report-api-openapi.yml
+  format: yaml
+  label: OpenPipe Report API
+  slug: openpipe-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-report-api-openapi.yml
+- filename: openpipe-unstable-api-openapi.yml
+  format: yaml
+  label: OpenPipe Unstable API
+  slug: openpipe-unstable-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-unstable-api-openapi.yml
 auth_types:
 - http
 description: ''

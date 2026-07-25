@@ -2,60 +2,156 @@
 api_key_in:
 - header
 api_specs:
-- filename: appdynamics-controller-rest-api-openapi.yml
+- filename: appdynamics-actions-api-openapi.yml
   format: yaml
-  label: AppDynamics Controller REST API
-  slug: controller-rest-api
+  label: AppDynamics Actions API
+  slug: appdynamics-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-controller-rest-api-openapi.yml
-- filename: appdynamics-metric-and-snapshot-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-actions-api-openapi.yml
+- filename: appdynamics-actions-export-import-api-openapi.yml
   format: yaml
-  label: AppDynamics Metric and Snapshot API
-  slug: metric-and-snapshot-api
+  label: AppDynamics Actions Export/Import API
+  slug: appdynamics-actions-export-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-metric-and-snapshot-api-openapi.yml
-- filename: appdynamics-alert-and-respond-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-actions-export-import-api-openapi.yml
+- filename: appdynamics-applications-api-openapi.yml
   format: yaml
-  label: AppDynamics Alert and Respond API
-  slug: alert-and-respond-api
+  label: AppDynamics Applications API
+  slug: appdynamics-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-alert-and-respond-api-openapi.yml
-- filename: appdynamics-configuration-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-applications-api-openapi.yml
+- filename: appdynamics-backends-api-openapi.yml
   format: yaml
-  label: AppDynamics Configuration API
-  slug: configuration-api
+  label: AppDynamics Backends API
+  slug: appdynamics-backends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-configuration-api-openapi.yml
-- filename: appdynamics-analytics-events-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-backends-api-openapi.yml
+- filename: appdynamics-business-transactions-api-openapi.yml
   format: yaml
-  label: AppDynamics Analytics Events API
-  slug: analytics-events-api
+  label: AppDynamics Business Transactions API
+  slug: appdynamics-business-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-analytics-events-api-openapi.yml
-- filename: appdynamics-database-agent-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-business-transactions-api-openapi.yml
+- filename: appdynamics-configurations-api-openapi.yml
   format: yaml
-  label: AppDynamics Database Agent API
-  slug: database-agent-api
+  label: AppDynamics Configurations API
+  slug: appdynamics-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-database-agent-api-openapi.yml
-- filename: appdynamics-machine-agent-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-configurations-api-openapi.yml
+- filename: appdynamics-connections-api-openapi.yml
   format: yaml
-  label: AppDynamics Machine Agent API
-  slug: machine-agent-api
+  label: AppDynamics Connections API
+  slug: appdynamics-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-machine-agent-api-openapi.yml
-- filename: appdynamics-cloud-observability-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-connections-api-openapi.yml
+- filename: appdynamics-custom-dashboards-export-import-api-openapi.yml
   format: yaml
-  label: Cisco Cloud Observability API
-  slug: cloud-observability-api
+  label: AppDynamics Custom Dashboards Export/Import API
+  slug: appdynamics-custom-dashboards-export-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-cloud-observability-api-openapi.yml
-- filename: appdynamics-authentication-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-custom-dashboards-export-import-api-openapi.yml
+- filename: appdynamics-custom-metrics-api-openapi.yml
   format: yaml
-  label: AppDynamics OAuth Authentication API
-  slug: authentication-api
+  label: AppDynamics Custom Metrics API
+  slug: appdynamics-custom-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-authentication-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-custom-metrics-api-openapi.yml
+- filename: appdynamics-database-collectors-api-openapi.yml
+  format: yaml
+  label: AppDynamics Database Collectors API
+  slug: appdynamics-database-collectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-database-collectors-api-openapi.yml
+- filename: appdynamics-events-api-openapi.yml
+  format: yaml
+  label: AppDynamics Events API
+  slug: appdynamics-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-events-api-openapi.yml
+- filename: appdynamics-health-rules-api-openapi.yml
+  format: yaml
+  label: AppDynamics Health Rules API
+  slug: appdynamics-health-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-health-rules-api-openapi.yml
+- filename: appdynamics-health-rules-export-import-api-openapi.yml
+  format: yaml
+  label: AppDynamics Health Rules Export/Import API
+  slug: appdynamics-health-rules-export-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-health-rules-export-import-api-openapi.yml
+- filename: appdynamics-metrics-api-openapi.yml
+  format: yaml
+  label: AppDynamics Metrics API
+  slug: appdynamics-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-metrics-api-openapi.yml
+- filename: appdynamics-nodes-api-openapi.yml
+  format: yaml
+  label: AppDynamics Nodes API
+  slug: appdynamics-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-nodes-api-openapi.yml
+- filename: appdynamics-oauth-tokens-api-openapi.yml
+  format: yaml
+  label: AppDynamics OAuth Tokens API
+  slug: appdynamics-oauth-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-oauth-tokens-api-openapi.yml
+- filename: appdynamics-policies-api-openapi.yml
+  format: yaml
+  label: AppDynamics Policies API
+  slug: appdynamics-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-policies-api-openapi.yml
+- filename: appdynamics-queries-api-openapi.yml
+  format: yaml
+  label: AppDynamics Queries API
+  slug: appdynamics-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-queries-api-openapi.yml
+- filename: appdynamics-query-service-api-openapi.yml
+  format: yaml
+  label: AppDynamics Query Service API
+  slug: appdynamics-query-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-query-service-api-openapi.yml
+- filename: appdynamics-reference-data-api-openapi.yml
+  format: yaml
+  label: AppDynamics Reference Data API
+  slug: appdynamics-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-reference-data-api-openapi.yml
+- filename: appdynamics-schemas-api-openapi.yml
+  format: yaml
+  label: AppDynamics Schemas API
+  slug: appdynamics-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-schemas-api-openapi.yml
+- filename: appdynamics-server-status-api-openapi.yml
+  format: yaml
+  label: AppDynamics Server Status API
+  slug: appdynamics-server-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-server-status-api-openapi.yml
+- filename: appdynamics-snapshots-api-openapi.yml
+  format: yaml
+  label: AppDynamics Snapshots API
+  slug: appdynamics-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-snapshots-api-openapi.yml
+- filename: appdynamics-tiers-api-openapi.yml
+  format: yaml
+  label: AppDynamics Tiers API
+  slug: appdynamics-tiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-tiers-api-openapi.yml
+- filename: appdynamics-transaction-detection-export-import-api-openapi.yml
+  format: yaml
+  label: AppDynamics Transaction Detection Export/Import API
+  slug: appdynamics-transaction-detection-export-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-transaction-detection-export-import-api-openapi.yml
 auth_types:
 - apiKey
 - http

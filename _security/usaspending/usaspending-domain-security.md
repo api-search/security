@@ -1,59 +1,59 @@
 ---
 api_specs:
-- filename: usaspending-openapi.yml
+- filename: usaspending-agency-api-openapi.yml
   format: yaml
-  label: USAspending Awards Search API
-  slug: usaspending-awards-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-openapi.yml
-- filename: usaspending-openapi.yml
-  format: yaml
-  label: USAspending Agency API
+  label: USAspending.gov Agency API
   slug: usaspending-agency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-openapi.yml
-- filename: usaspending-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-agency-api-openapi.yml
+- filename: usaspending-awards-search-api-openapi.yml
   format: yaml
-  label: USAspending Recipient API
-  slug: usaspending-recipient-api
+  label: USAspending.gov Awards Search API
+  slug: usaspending-awards-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-openapi.yml
-- filename: usaspending-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-awards-search-api-openapi.yml
+- filename: usaspending-budget-functions-api-openapi.yml
   format: yaml
-  label: USAspending Federal Account API
-  slug: usaspending-federal-account-api
+  label: USAspending.gov Budget Functions API
+  slug: usaspending-budget-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-openapi.yml
-- filename: usaspending-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-budget-functions-api-openapi.yml
+- filename: usaspending-bulk-download-api-openapi.yml
   format: yaml
-  label: USAspending Budget Function API
-  slug: usaspending-budget-function-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-openapi.yml
-- filename: usaspending-openapi.yml
-  format: yaml
-  label: USAspending Disaster/Emergency Funding (COVID-19) API
-  slug: usaspending-disaster-emergency-funding-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-openapi.yml
-- filename: usaspending-openapi.yml
-  format: yaml
-  label: USAspending Bulk Download API
+  label: USAspending.gov Bulk Download API
   slug: usaspending-bulk-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-openapi.yml
-- filename: usaspending-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-bulk-download-api-openapi.yml
+- filename: usaspending-disaster-api-openapi.yml
   format: yaml
-  label: USAspending References & Autocomplete API
-  slug: usaspending-references-autocomplete-api
+  label: USAspending.gov Disaster API
+  slug: usaspending-disaster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-openapi.yml
-- filename: usaspending-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-disaster-api-openapi.yml
+- filename: usaspending-federal-accounts-api-openapi.yml
   format: yaml
-  label: USAspending Subawards API
+  label: USAspending.gov Federal Accounts API
+  slug: usaspending-federal-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-federal-accounts-api-openapi.yml
+- filename: usaspending-recipient-api-openapi.yml
+  format: yaml
+  label: USAspending.gov Recipient API
+  slug: usaspending-recipient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-recipient-api-openapi.yml
+- filename: usaspending-references-api-openapi.yml
+  format: yaml
+  label: USAspending.gov References API
+  slug: usaspending-references-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-references-api-openapi.yml
+- filename: usaspending-subawards-api-openapi.yml
+  format: yaml
+  label: USAspending.gov Subawards API
   slug: usaspending-subawards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-subawards-api-openapi.yml
 description: ''
 domains:
 - caa: []

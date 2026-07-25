@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: star-wars-openapi.json
-  format: json
-  label: Star Wars REST API
-  slug: star-wars-api
+- filename: star-wars-films-api-openapi.yml
+  format: yaml
+  label: Star Wars API Films API
+  slug: star-wars-films-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/star-wars/refs/heads/main/openapi/star-wars-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/star-wars/refs/heads/main/openapi/star-wars-films-api-openapi.yml
+- filename: star-wars-people-api-openapi.yml
+  format: yaml
+  label: Star Wars API People API
+  slug: star-wars-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/star-wars/refs/heads/main/openapi/star-wars-people-api-openapi.yml
+- filename: star-wars-planets-api-openapi.yml
+  format: yaml
+  label: Star Wars API Planets API
+  slug: star-wars-planets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/star-wars/refs/heads/main/openapi/star-wars-planets-api-openapi.yml
+- filename: star-wars-species-api-openapi.yml
+  format: yaml
+  label: Star Wars API Species API
+  slug: star-wars-species-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/star-wars/refs/heads/main/openapi/star-wars-species-api-openapi.yml
+- filename: star-wars-starships-api-openapi.yml
+  format: yaml
+  label: Star Wars API Starships API
+  slug: star-wars-starships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/star-wars/refs/heads/main/openapi/star-wars-starships-api-openapi.yml
+- filename: star-wars-vehicles-api-openapi.yml
+  format: yaml
+  label: Star Wars API Vehicles API
+  slug: star-wars-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/star-wars/refs/heads/main/openapi/star-wars-vehicles-api-openapi.yml
 description: ''
 domains:
 - caa: []

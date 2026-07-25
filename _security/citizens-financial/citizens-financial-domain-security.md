@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: citizens-bank-accounts-api-openapi.yml
+- filename: citizens-financial-accounts-api-openapi.yml
   format: yaml
-  label: Citizens Bank Accounts API
-  slug: accounts-api
+  label: Citizens Financial Accounts API
+  slug: citizens-financial-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial/refs/heads/main/openapi/citizens-bank-accounts-api-openapi.yml
-- filename: citizens-bank-atm-locator-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial/refs/heads/main/openapi/citizens-financial-accounts-api-openapi.yml
+- filename: citizens-financial-atm-locations-api-openapi.yml
   format: yaml
-  label: Citizens Bank ATM Locator API
-  slug: atm-locator-api
+  label: Citizens Financial ATM Locations API
+  slug: citizens-financial-atm-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial/refs/heads/main/openapi/citizens-bank-atm-locator-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial/refs/heads/main/openapi/citizens-financial-atm-locations-api-openapi.yml
+- filename: citizens-financial-transactions-api-openapi.yml
+  format: yaml
+  label: Citizens Financial Transactions API
+  slug: citizens-financial-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial/refs/heads/main/openapi/citizens-financial-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:

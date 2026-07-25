@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-vpc-firewalls-api-openapi.yml
   format: yaml
-  label: Google Cloud VPC API
-  slug: google-cloud-vpc-api
+  label: Google Cloud VPC Firewalls API
+  slug: google-cloud-vpc-firewalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vpc/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vpc/refs/heads/main/openapi/google-cloud-vpc-firewalls-api-openapi.yml
+- filename: google-cloud-vpc-networks-api-openapi.yml
+  format: yaml
+  label: Google Cloud VPC Networks API
+  slug: google-cloud-vpc-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vpc/refs/heads/main/openapi/google-cloud-vpc-networks-api-openapi.yml
+- filename: google-cloud-vpc-routes-api-openapi.yml
+  format: yaml
+  label: Google Cloud VPC Routes API
+  slug: google-cloud-vpc-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vpc/refs/heads/main/openapi/google-cloud-vpc-routes-api-openapi.yml
+- filename: google-cloud-vpc-subnetworks-api-openapi.yml
+  format: yaml
+  label: Google Cloud VPC Subnetworks API
+  slug: google-cloud-vpc-subnetworks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vpc/refs/heads/main/openapi/google-cloud-vpc-subnetworks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

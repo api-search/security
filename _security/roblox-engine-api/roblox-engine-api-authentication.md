@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi
+- filename: roblox-engine-api-assets-api-openapi.yml
   format: yaml
-  label: Roblox Open Cloud API
-  slug: roblox-open-cloud-api
+  label: Roblox Engine API Assets API
+  slug: roblox-engine-api-assets-api
   spec_type: OpenAPI
-  url: https://create.roblox.com/docs/cloud/reference/openapi
+  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-assets-api-openapi.yml
+- filename: roblox-engine-api-data-stores-api-openapi.yml
+  format: yaml
+  label: Roblox Engine API Data Stores API
+  slug: roblox-engine-api-data-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-data-stores-api-openapi.yml
+- filename: roblox-engine-api-groups-api-openapi.yml
+  format: yaml
+  label: Roblox Engine API Groups API
+  slug: roblox-engine-api-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-groups-api-openapi.yml
+- filename: roblox-engine-api-messaging-api-openapi.yml
+  format: yaml
+  label: Roblox Engine API Messaging API
+  slug: roblox-engine-api-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-messaging-api-openapi.yml
+- filename: roblox-engine-api-places-api-openapi.yml
+  format: yaml
+  label: Roblox Engine API Places API
+  slug: roblox-engine-api-places-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-places-api-openapi.yml
+- filename: roblox-engine-api-universes-api-openapi.yml
+  format: yaml
+  label: Roblox Engine API Universes API
+  slug: roblox-engine-api-universes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-universes-api-openapi.yml
+- filename: roblox-engine-api-users-api-openapi.yml
+  format: yaml
+  label: Roblox Engine API Users API
+  slug: roblox-engine-api-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

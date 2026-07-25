@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: restack-openapi.yml
+- filename: restack-agents-api-openapi.yml
   format: yaml
-  label: Restack
-  slug: restack
+  label: Restack Agents API
+  slug: restack-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/openapi/restack-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/openapi/restack-agents-api-openapi.yml
+- filename: restack-system-api-openapi.yml
+  format: yaml
+  label: Restack System API
+  slug: restack-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/openapi/restack-system-api-openapi.yml
+- filename: restack-workflows-api-openapi.yml
+  format: yaml
+  label: Restack Workflows API
+  slug: restack-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/openapi/restack-workflows-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -2,18 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: tillo-gift-card-openapi.yml
+- filename: tillo-balance-api-openapi.yml
   format: yaml
-  label: Tillo Gift Card API
-  slug: tillo-gift-card-api
+  label: Tillo Balance API
+  slug: tillo-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/openapi/tillo-gift-card-openapi.yml
-- filename: tillo-gift-card-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/openapi/tillo-balance-api-openapi.yml
+- filename: tillo-brands-api-openapi.yml
   format: yaml
-  label: Tillo Float Management API
+  label: Tillo Brands API
+  slug: tillo-brands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/openapi/tillo-brands-api-openapi.yml
+- filename: tillo-digital-cards-api-openapi.yml
+  format: yaml
+  label: Tillo Digital Cards API
+  slug: tillo-digital-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/openapi/tillo-digital-cards-api-openapi.yml
+- filename: tillo-float-api-openapi.yml
+  format: yaml
+  label: Tillo Float API
   slug: tillo-float-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/openapi/tillo-gift-card-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/openapi/tillo-float-api-openapi.yml
+- filename: tillo-orders-api-openapi.yml
+  format: yaml
+  label: Tillo Orders API
+  slug: tillo-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/openapi/tillo-orders-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

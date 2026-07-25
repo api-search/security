@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: manticore.yml
+- filename: manticore-index-api-openapi.yml
   format: yaml
-  label: Manticore Search REST API
-  slug: manticore-search-rest-api
+  label: Manticore Search Index API
+  slug: manticore-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/manticoresoftware/openapi/master/manticore.yml
+  url: https://raw.githubusercontent.com/api-evangelist/manticore/refs/heads/main/openapi/manticore-index-api-openapi.yml
+- filename: manticore-search-api-openapi.yml
+  format: yaml
+  label: Manticore Search Search API
+  slug: manticore-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manticore/refs/heads/main/openapi/manticore-search-api-openapi.yml
+- filename: manticore-utils-api-openapi.yml
+  format: yaml
+  label: Manticore Search utils API
+  slug: manticore-utils-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manticore/refs/heads/main/openapi/manticore-utils-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: nasdaq-data-link-timeseries-openapi.yml
+- filename: quandl-databases-api-openapi.yml
   format: yaml
-  label: Nasdaq Data Link REST API (Time-Series)
-  slug: nasdaq-data-link-timeseries-api
+  label: Quandl (Nasdaq Data Link) Databases API
+  slug: quandl-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/openapi/nasdaq-data-link-timeseries-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/openapi/quandl-databases-api-openapi.yml
+- filename: quandl-datasets-api-openapi.yml
+  format: yaml
+  label: Quandl (Nasdaq Data Link) Datasets API
+  slug: quandl-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/openapi/quandl-datasets-api-openapi.yml
+- filename: quandl-tables-api-openapi.yml
+  format: yaml
+  label: Quandl (Nasdaq Data Link) Tables API
+  slug: quandl-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/openapi/quandl-tables-api-openapi.yml
 description: ''
 domains:
 - caa: []

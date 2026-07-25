@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: mlsgrid-reso-web-api-openapi.yml
+- filename: mlsgrid-lookup-api-openapi.yml
   format: yaml
-  label: MLS Grid RESO Web API
-  slug: mlsgrid-reso-web-api
+  label: mlsgrid Lookup API
+  slug: mlsgrid-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/openapi/mlsgrid-reso-web-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/openapi/mlsgrid-lookup-api-openapi.yml
+- filename: mlsgrid-media-api-openapi.yml
+  format: yaml
+  label: mlsgrid Media API
+  slug: mlsgrid-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/openapi/mlsgrid-media-api-openapi.yml
+- filename: mlsgrid-member-api-openapi.yml
+  format: yaml
+  label: mlsgrid Member API
+  slug: mlsgrid-member-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/openapi/mlsgrid-member-api-openapi.yml
+- filename: mlsgrid-metadata-api-openapi.yml
+  format: yaml
+  label: mlsgrid Metadata API
+  slug: mlsgrid-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/openapi/mlsgrid-metadata-api-openapi.yml
+- filename: mlsgrid-office-api-openapi.yml
+  format: yaml
+  label: mlsgrid Office API
+  slug: mlsgrid-office-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/openapi/mlsgrid-office-api-openapi.yml
+- filename: mlsgrid-openhouse-api-openapi.yml
+  format: yaml
+  label: mlsgrid OpenHouse API
+  slug: mlsgrid-openhouse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/openapi/mlsgrid-openhouse-api-openapi.yml
+- filename: mlsgrid-property-api-openapi.yml
+  format: yaml
+  label: mlsgrid Property API
+  slug: mlsgrid-property-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/openapi/mlsgrid-property-api-openapi.yml
 description: ''
 domains:
 - caa: []

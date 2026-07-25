@@ -1,168 +1,156 @@
 ---
 api_key_in: []
 api_specs:
-- filename: walmart-marketplace-feeds-openapi-original.yml
+- filename: walmart-assortment-recommendations-api-openapi.yml
   format: yaml
-  label: Walmart Marketplace Feeds API
+  label: Walmart Assortment Recommendations API
+  slug: walmart-assortment-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-assortment-recommendations-api-openapi.yml
+- filename: walmart-authorization-api-openapi.yml
+  format: yaml
+  label: Walmart Authorization API
+  slug: walmart-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-authorization-api-openapi.yml
+- filename: walmart-dsv-cost-api-openapi.yml
+  format: yaml
+  label: Walmart DSV Cost API
+  slug: walmart-dsv-cost-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-dsv-cost-api-openapi.yml
+- filename: walmart-dsv-orders-api-openapi.yml
+  format: yaml
+  label: Walmart DSV Orders API
+  slug: walmart-dsv-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-dsv-orders-api-openapi.yml
+- filename: walmart-feeds-api-openapi.yml
+  format: yaml
+  label: Walmart Feeds API
   slug: walmart-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-marketplace-feeds-openapi-original.yml
-- filename: walmart-marketplace-items-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-feeds-api-openapi.yml
+- filename: walmart-fulfillment-api-openapi.yml
   format: yaml
-  label: Walmart Marketplace Items API
-  slug: walmart-items-api
+  label: Walmart Fulfillment API
+  slug: walmart-fulfillment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-marketplace-items-openapi-original.yml
-- filename: walmart-marketplace-prices-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-fulfillment-api-openapi.yml
+- filename: walmart-insight-api-openapi.yml
   format: yaml
-  label: Walmart Marketplace Prices API
-  slug: walmart-prices-api
+  label: Walmart Insight API
+  slug: walmart-insight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-marketplace-prices-openapi-original.yml
-- filename: walmart-marketplace-promotions-openapi-original.yml
-  format: yaml
-  label: Walmart Promotions API
-  slug: walmart-promotion-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-marketplace-promotions-openapi-original.yml
-- filename: walmart-marketplace-orders-openapi-original.yml
-  format: yaml
-  label: Walmart Orders API
-  slug: walmart-order-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-marketplace-orders-openapi-original.yml
-- filename: walmart-marketplace-returns-openapi-original.yml
-  format: yaml
-  label: Walmart Returns API
-  slug: walmart-returns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-marketplace-returns-openapi-original.yml
-- filename: walmart-marketplace-inventory-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-insight-api-openapi.yml
+- filename: walmart-inventory-api-openapi.yml
   format: yaml
   label: Walmart Inventory API
   slug: walmart-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-marketplace-inventory-openapi-original.yml
-- filename: walmart-dropship-vendor-costs-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-inventory-api-openapi.yml
+- filename: walmart-items-api-openapi.yml
   format: yaml
-  label: Walmart Dropship Vendor Costs API
-  slug: walmart-dropship-vendor-costs-api
+  label: Walmart Items API
+  slug: walmart-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-dropship-vendor-costs-openapi-original.yml
-- filename: walmart-dropship-vendor-inventory-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-items-api-openapi.yml
+- filename: walmart-lag-time-api-openapi.yml
   format: yaml
-  label: Walmart Dropship Vendor Inventory API
-  slug: walmart-dropship-vendor-inventory-api
+  label: Walmart Lag Time API
+  slug: walmart-lag-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-dropship-vendor-inventory-openapi-original.yml
-- filename: walmart-dropship-vendor-items-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-lag-time-api-openapi.yml
+- filename: walmart-listing-quality-api-openapi.yml
   format: yaml
-  label: Walmart Dropship Vendor Items API
-  slug: walmart-dropship-vendor-items-api
+  label: Walmart Listing Quality API
+  slug: walmart-listing-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-dropship-vendor-items-openapi-original.yml
-- filename: walmart-dropship-vendor-lag-time-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-listing-quality-api-openapi.yml
+- filename: walmart-notifications-api-openapi.yml
   format: yaml
-  label: Walmart Dropship Vendor Lag Time API
-  slug: walmart-dropship-vendor-lag-time-api
+  label: Walmart Notifications API
+  slug: walmart-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-dropship-vendor-lag-time-openapi-original.yml
-- filename: walmart-dropship-vendor-on-request-reports-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-notifications-api-openapi.yml
+- filename: walmart-on-request-report-api-openapi.yml
   format: yaml
-  label: Walmart Dropship Vendor On-Request Reports API
-  slug: walmart-dropship-vendor-on-request-reports-api
+  label: Walmart On-Request Report API
+  slug: walmart-on-request-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-dropship-vendor-on-request-reports-openapi-original.yml
-- filename: walmart-dropship-vendor-orders-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-on-request-report-api-openapi.yml
+- filename: walmart-on-request-reports-api-openapi.yml
   format: yaml
-  label: Walmart Dropship Vendor Orders API
-  slug: walmart-dropship-vendor-orders-api
+  label: Walmart On Request Reports API
+  slug: walmart-on-request-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-dropship-vendor-orders-openapi-original.yml
-- filename: walmart-dropship-vendor-pre-generated-reports-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-on-request-reports-api-openapi.yml
+- filename: walmart-orders-api-openapi.yml
   format: yaml
-  label: Walmart Dropship Vendor Orders API
-  slug: walmart-dropship-vendor-pre-generated-reports-api
+  label: Walmart Orders API
+  slug: walmart-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-dropship-vendor-pre-generated-reports-openapi-original.yml
-- filename: walmart-marketplace-authentication-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-orders-api-openapi.yml
+- filename: walmart-pre-generated-reports-api-openapi.yml
   format: yaml
-  label: Walmart Marketplace Authentication API
-  slug: walmart-marketplace-authentication-api
+  label: Walmart Pre-Generated Reports API
+  slug: walmart-pre-generated-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-marketplace-authentication-openapi-original.yml
-- filename: walmart-marketplace-fulfillment-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-pre-generated-reports-api-openapi.yml
+- filename: walmart-prices-api-openapi.yml
   format: yaml
-  label: Walmart Marketplace Fulfillment API
-  slug: walmart-marketplace-fulfillment-api
+  label: Walmart Prices API
+  slug: walmart-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-marketplace-fulfillment-openapi-original.yml
-- filename: walmart-marketplace-insights-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-prices-api-openapi.yml
+- filename: walmart-promotions-api-openapi.yml
   format: yaml
-  label: Walmart Marketplace Insights API
-  slug: walmart-marketplace-insights-api
+  label: Walmart Promotions API
+  slug: walmart-promotions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-marketplace-insights-openapi-original.yml
-- filename: walmart-marketplace-lag-time-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-promotions-api-openapi.yml
+- filename: walmart-reports-api-openapi.yml
   format: yaml
-  label: Walmart Marketplace Lag Time API
-  slug: walmart-marketplace-lag-time-api
+  label: Walmart Reports API
+  slug: walmart-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-marketplace-lag-time-openapi-original.yml
-- filename: walmart-marketplace-notifications-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-reports-api-openapi.yml
+- filename: walmart-returns-refunds-api-openapi.yml
   format: yaml
-  label: Walmart Marketplace Notifications API
-  slug: walmart-marketplace-notifications-api
+  label: Walmart Returns/Refunds API
+  slug: walmart-returns-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-marketplace-notifications-openapi-original.yml
-- filename: walmart-marketplace-on-request-reports-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-returns-refunds-api-openapi.yml
+- filename: walmart-reviews-api-openapi.yml
   format: yaml
-  label: Walmart Marketplace On-Request Reports API
-  slug: walmart-marketplace-on-request-reports-api
+  label: Walmart Reviews API
+  slug: walmart-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-marketplace-on-request-reports-openapi-original.yml
-- filename: walmart-marketplace-recommendations-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-reviews-api-openapi.yml
+- filename: walmart-rules-api-openapi.yml
   format: yaml
-  label: Walmart Marketplace Recommendations API
-  slug: walmart-marketplace-recommendations-api
+  label: Walmart Rules API
+  slug: walmart-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-marketplace-recommendations-openapi-original.yml
-- filename: walmart-marketplace-reports-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-rules-api-openapi.yml
+- filename: walmart-settings-api-openapi.yml
   format: yaml
-  label: Walmart Marketplace Reports API
-  slug: walmart-marketplace-reports-api
+  label: Walmart Settings API
+  slug: walmart-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-marketplace-reports-openapi-original.yml
-- filename: walmart-marketplace-reviews-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-settings-api-openapi.yml
+- filename: walmart-ship-with-walmart-api-openapi.yml
   format: yaml
-  label: Walmart Marketplace Reviews API
-  slug: walmart-marketplace-reviews-api
+  label: Walmart Ship with Walmart API
+  slug: walmart-ship-with-walmart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-marketplace-reviews-openapi-original.yml
-- filename: walmart-marketplace-rules-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-ship-with-walmart-api-openapi.yml
+- filename: walmart-utilities-api-openapi.yml
   format: yaml
-  label: Walmart Marketplace Rules API
-  slug: walmart-marketplace-rules-api
+  label: Walmart Utilities API
+  slug: walmart-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-marketplace-rules-openapi-original.yml
-- filename: walmart-marketplace-settings-openapi-original.yml
-  format: yaml
-  label: Walmart Marketplace Settings API
-  slug: walmart-marketplace-settings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-marketplace-settings-openapi-original.yml
-- filename: walmart-marketplace-shipping-openapi-original.yml
-  format: yaml
-  label: Walmart Marketplace Shipping API
-  slug: walmart-marketplace-shipping-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-marketplace-shipping-openapi-original.yml
-- filename: walmart-marketplace-utilities-openapi-original.yml
-  format: yaml
-  label: Walmart Marketplace Utilities API
-  slug: walmart-marketplace-utilities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-marketplace-utilities-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-utilities-api-openapi.yml
 auth_types:
 - http
 description: ''

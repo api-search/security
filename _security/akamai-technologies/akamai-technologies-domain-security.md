@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: akamai-technologies-openapi.yml
+- filename: akamai-technologies-deletions-api-openapi.yml
   format: yaml
-  label: Akamai Technologies API
-  slug: akamai-technologies-api
+  label: Akamai Technologies Deletions API
+  slug: akamai-technologies-deletions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akamai-technologies/refs/heads/main/openapi/akamai-technologies-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/akamai-technologies/refs/heads/main/openapi/akamai-technologies-deletions-api-openapi.yml
+- filename: akamai-technologies-invalidations-api-openapi.yml
+  format: yaml
+  label: Akamai Technologies Invalidations API
+  slug: akamai-technologies-invalidations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akamai-technologies/refs/heads/main/openapi/akamai-technologies-invalidations-api-openapi.yml
+- filename: akamai-technologies-status-api-openapi.yml
+  format: yaml
+  label: Akamai Technologies Status API
+  slug: akamai-technologies-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akamai-technologies/refs/heads/main/openapi/akamai-technologies-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

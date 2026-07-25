@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: jupyter-hub-openapi.yml
+- filename: jupyter-hub-groups-api-openapi.yml
   format: yaml
-  label: JupyterHub REST API
-  slug: jupyterhub-rest-api
+  label: JupyterHub Groups API
+  slug: jupyter-hub-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-hub/refs/heads/main/openapi/jupyter-hub-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jupyter-hub/refs/heads/main/openapi/jupyter-hub-groups-api-openapi.yml
+- filename: jupyter-hub-hub-api-openapi.yml
+  format: yaml
+  label: JupyterHub Hub API
+  slug: jupyter-hub-hub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jupyter-hub/refs/heads/main/openapi/jupyter-hub-hub-api-openapi.yml
+- filename: jupyter-hub-services-api-openapi.yml
+  format: yaml
+  label: JupyterHub Services API
+  slug: jupyter-hub-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jupyter-hub/refs/heads/main/openapi/jupyter-hub-services-api-openapi.yml
+- filename: jupyter-hub-tokens-api-openapi.yml
+  format: yaml
+  label: JupyterHub Tokens API
+  slug: jupyter-hub-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jupyter-hub/refs/heads/main/openapi/jupyter-hub-tokens-api-openapi.yml
+- filename: jupyter-hub-users-api-openapi.yml
+  format: yaml
+  label: JupyterHub Users API
+  slug: jupyter-hub-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jupyter-hub/refs/heads/main/openapi/jupyter-hub-users-api-openapi.yml
 auth_types:
 - http
 description: ''

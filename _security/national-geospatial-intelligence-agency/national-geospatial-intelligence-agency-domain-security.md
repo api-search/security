@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: national-geospatial-intelligence-agency-openapi.json
-  format: json
-  label: NGA Earth-Info REST API
-  slug: earth-info-rest-api
+- filename: national-geospatial-intelligence-agency-clock-api-openapi.yml
+  format: yaml
+  label: National Geospatial-Intelligence Agency Clock API
+  slug: national-geospatial-intelligence-agency-clock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/main/openapi/national-geospatial-intelligence-agency-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/refs/heads/main/openapi/national-geospatial-intelligence-agency-clock-api-openapi.yml
+- filename: national-geospatial-intelligence-agency-eopp-api-openapi.yml
+  format: yaml
+  label: National Geospatial-Intelligence Agency EOPP API
+  slug: national-geospatial-intelligence-agency-eopp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/refs/heads/main/openapi/national-geospatial-intelligence-agency-eopp-api-openapi.yml
+- filename: national-geospatial-intelligence-agency-ephemeris-api-openapi.yml
+  format: yaml
+  label: National Geospatial-Intelligence Agency Ephemeris API
+  slug: national-geospatial-intelligence-agency-ephemeris-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/refs/heads/main/openapi/national-geospatial-intelligence-agency-ephemeris-api-openapi.yml
+- filename: national-geospatial-intelligence-agency-orbit-api-openapi.yml
+  format: yaml
+  label: National Geospatial-Intelligence Agency Orbit API
+  slug: national-geospatial-intelligence-agency-orbit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/refs/heads/main/openapi/national-geospatial-intelligence-agency-orbit-api-openapi.yml
 description: ''
 domains:
 - caa: []

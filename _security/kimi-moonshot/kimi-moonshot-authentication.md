@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: kimi-moonshot-openapi.json
-  format: json
-  label: Kimi Chat Completions API
-  slug: chat-completions
+- filename: kimi-moonshot-batch-api-openapi.yml
+  format: yaml
+  label: Kimi (Moonshot AI) Batch API
+  slug: kimi-moonshot-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kimi-moonshot/refs/heads/main/openapi/kimi-moonshot-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/kimi-moonshot/refs/heads/main/openapi/kimi-moonshot-batch-api-openapi.yml
+- filename: kimi-moonshot-billing-api-openapi.yml
+  format: yaml
+  label: Kimi (Moonshot AI) Billing API
+  slug: kimi-moonshot-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kimi-moonshot/refs/heads/main/openapi/kimi-moonshot-billing-api-openapi.yml
+- filename: kimi-moonshot-chat-api-openapi.yml
+  format: yaml
+  label: Kimi (Moonshot AI) Chat API
+  slug: kimi-moonshot-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kimi-moonshot/refs/heads/main/openapi/kimi-moonshot-chat-api-openapi.yml
+- filename: kimi-moonshot-files-api-openapi.yml
+  format: yaml
+  label: Kimi (Moonshot AI) Files API
+  slug: kimi-moonshot-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kimi-moonshot/refs/heads/main/openapi/kimi-moonshot-files-api-openapi.yml
+- filename: kimi-moonshot-models-api-openapi.yml
+  format: yaml
+  label: Kimi (Moonshot AI) Models API
+  slug: kimi-moonshot-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kimi-moonshot/refs/heads/main/openapi/kimi-moonshot-models-api-openapi.yml
+- filename: kimi-moonshot-utilities-api-openapi.yml
+  format: yaml
+  label: Kimi (Moonshot AI) Utilities API
+  slug: kimi-moonshot-utilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kimi-moonshot/refs/heads/main/openapi/kimi-moonshot-utilities-api-openapi.yml
 auth_types:
 - http
 description: ''

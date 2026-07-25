@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: tempo-http-api.yml
+- filename: grafana-tempo-echo-api-openapi.yml
   format: yaml
-  label: Grafana Tempo HTTP API
-  slug: tempo-http-api
+  label: Grafana Tempo Echo API
+  slug: grafana-tempo-echo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/openapi/tempo-http-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/openapi/grafana-tempo-echo-api-openapi.yml
+- filename: grafana-tempo-metrics-api-openapi.yml
+  format: yaml
+  label: Grafana Tempo Metrics API
+  slug: grafana-tempo-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/openapi/grafana-tempo-metrics-api-openapi.yml
+- filename: grafana-tempo-ready-api-openapi.yml
+  format: yaml
+  label: Grafana Tempo Ready API
+  slug: grafana-tempo-ready-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/openapi/grafana-tempo-ready-api-openapi.yml
+- filename: grafana-tempo-search-api-openapi.yml
+  format: yaml
+  label: Grafana Tempo Search API
+  slug: grafana-tempo-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/openapi/grafana-tempo-search-api-openapi.yml
+- filename: grafana-tempo-status-api-openapi.yml
+  format: yaml
+  label: Grafana Tempo Status API
+  slug: grafana-tempo-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/openapi/grafana-tempo-status-api-openapi.yml
+- filename: grafana-tempo-traces-api-openapi.yml
+  format: yaml
+  label: Grafana Tempo Traces API
+  slug: grafana-tempo-traces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/openapi/grafana-tempo-traces-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,12 +2,108 @@
 api_key_in:
 - header
 api_specs:
-- filename: planetscale-platform-api-openapi.yml
+- filename: planetscale-backups-api-openapi.yml
   format: yaml
-  label: PlanetScale Platform API
-  slug: platform-api
+  label: planetscale Backups API
+  slug: planetscale-backups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/openapi/planetscale-platform-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/openapi/planetscale-backups-api-openapi.yml
+- filename: planetscale-billing-api-openapi.yml
+  format: yaml
+  label: planetscale Billing API
+  slug: planetscale-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/openapi/planetscale-billing-api-openapi.yml
+- filename: planetscale-bouncers-api-openapi.yml
+  format: yaml
+  label: planetscale Bouncers API
+  slug: planetscale-bouncers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/openapi/planetscale-bouncers-api-openapi.yml
+- filename: planetscale-branches-api-openapi.yml
+  format: yaml
+  label: planetscale Branches API
+  slug: planetscale-branches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/openapi/planetscale-branches-api-openapi.yml
+- filename: planetscale-cluster-sizes-api-openapi.yml
+  format: yaml
+  label: planetscale Cluster Sizes API
+  slug: planetscale-cluster-sizes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/openapi/planetscale-cluster-sizes-api-openapi.yml
+- filename: planetscale-databases-api-openapi.yml
+  format: yaml
+  label: planetscale Databases API
+  slug: planetscale-databases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/openapi/planetscale-databases-api-openapi.yml
+- filename: planetscale-deploy-requests-api-openapi.yml
+  format: yaml
+  label: planetscale Deploy Requests API
+  slug: planetscale-deploy-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/openapi/planetscale-deploy-requests-api-openapi.yml
+- filename: planetscale-ip-restrictions-api-openapi.yml
+  format: yaml
+  label: planetscale IP Restrictions API
+  slug: planetscale-ip-restrictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/openapi/planetscale-ip-restrictions-api-openapi.yml
+- filename: planetscale-organization-members-api-openapi.yml
+  format: yaml
+  label: planetscale Organization Members API
+  slug: planetscale-organization-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/openapi/planetscale-organization-members-api-openapi.yml
+- filename: planetscale-organizations-api-openapi.yml
+  format: yaml
+  label: planetscale Organizations API
+  slug: planetscale-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/openapi/planetscale-organizations-api-openapi.yml
+- filename: planetscale-passwords-api-openapi.yml
+  format: yaml
+  label: planetscale Passwords API
+  slug: planetscale-passwords-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/openapi/planetscale-passwords-api-openapi.yml
+- filename: planetscale-query-patterns-api-openapi.yml
+  format: yaml
+  label: planetscale Query Patterns API
+  slug: planetscale-query-patterns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/openapi/planetscale-query-patterns-api-openapi.yml
+- filename: planetscale-roles-api-openapi.yml
+  format: yaml
+  label: planetscale Roles API
+  slug: planetscale-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/openapi/planetscale-roles-api-openapi.yml
+- filename: planetscale-schema-recommendations-api-openapi.yml
+  format: yaml
+  label: planetscale Schema Recommendations API
+  slug: planetscale-schema-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/openapi/planetscale-schema-recommendations-api-openapi.yml
+- filename: planetscale-service-tokens-api-openapi.yml
+  format: yaml
+  label: planetscale Service Tokens API
+  slug: planetscale-service-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/openapi/planetscale-service-tokens-api-openapi.yml
+- filename: planetscale-teams-api-openapi.yml
+  format: yaml
+  label: planetscale Teams API
+  slug: planetscale-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/openapi/planetscale-teams-api-openapi.yml
+- filename: planetscale-webhooks-api-openapi.yml
+  format: yaml
+  label: planetscale Webhooks API
+  slug: planetscale-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/openapi/planetscale-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http

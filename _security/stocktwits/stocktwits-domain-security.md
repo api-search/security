@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: stocktwits-openapi-original.json
-  format: json
-  label: StockTwits API v2
-  slug: stocktwits-api-v2
+- filename: stocktwits-account-api-openapi.yml
+  format: yaml
+  label: StockTwits Account API
+  slug: stocktwits-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-account-api-openapi.yml
+- filename: stocktwits-deletions-api-openapi.yml
+  format: yaml
+  label: StockTwits Deletions API
+  slug: stocktwits-deletions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-deletions-api-openapi.yml
+- filename: stocktwits-friendships-api-openapi.yml
+  format: yaml
+  label: StockTwits Friendships API
+  slug: stocktwits-friendships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-friendships-api-openapi.yml
+- filename: stocktwits-graph-social-api-openapi.yml
+  format: yaml
+  label: StockTwits Graph (Social) API
+  slug: stocktwits-graph-social-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-graph-social-api-openapi.yml
+- filename: stocktwits-messages-api-openapi.yml
+  format: yaml
+  label: StockTwits Messages API
+  slug: stocktwits-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-messages-api-openapi.yml
+- filename: stocktwits-search-api-openapi.yml
+  format: yaml
+  label: StockTwits Search API
+  slug: stocktwits-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-search-api-openapi.yml
+- filename: stocktwits-streams-api-openapi.yml
+  format: yaml
+  label: StockTwits Streams API
+  slug: stocktwits-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-streams-api-openapi.yml
+- filename: stocktwits-trending-api-openapi.yml
+  format: yaml
+  label: StockTwits Trending API
+  slug: stocktwits-trending-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-trending-api-openapi.yml
+- filename: stocktwits-watchlists-api-openapi.yml
+  format: yaml
+  label: StockTwits Watchlists API
+  slug: stocktwits-watchlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-watchlists-api-openapi.yml
 description: ''
 domains:
 - caa: []

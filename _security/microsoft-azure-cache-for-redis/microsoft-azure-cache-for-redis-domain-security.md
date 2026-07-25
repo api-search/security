@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: microsoft-azure-cache-for-redis-openapi.yml
+- filename: microsoft-azure-cache-for-redis-operations-api-openapi.yml
   format: yaml
-  label: Azure Cache for Redis REST API
-  slug: rest-api
+  label: microsoft-azure-cache-for-redis Operations API
+  slug: microsoft-azure-cache-for-redis-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/openapi/microsoft-azure-cache-for-redis-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/openapi/microsoft-azure-cache-for-redis-operations-api-openapi.yml
+- filename: microsoft-azure-cache-for-redis-redis-api-openapi.yml
+  format: yaml
+  label: microsoft-azure-cache-for-redis Redis API
+  slug: microsoft-azure-cache-for-redis-redis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/openapi/microsoft-azure-cache-for-redis-redis-api-openapi.yml
 description: ''
 domains:
 - caa:

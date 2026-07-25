@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: toornament-openapi.yml
+- filename: toornament-disciplines-api-openapi.yml
   format: yaml
-  label: Toornament Organizer API
-  slug: organizer-api
+  label: Toornament Disciplines API
+  slug: toornament-disciplines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-disciplines-api-openapi.yml
+- filename: toornament-matches-api-openapi.yml
+  format: yaml
+  label: Toornament Matches API
+  slug: toornament-matches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-matches-api-openapi.yml
+- filename: toornament-participants-api-openapi.yml
+  format: yaml
+  label: Toornament Participants API
+  slug: toornament-participants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-participants-api-openapi.yml
+- filename: toornament-rankings-api-openapi.yml
+  format: yaml
+  label: Toornament Rankings API
+  slug: toornament-rankings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-rankings-api-openapi.yml
+- filename: toornament-registrations-api-openapi.yml
+  format: yaml
+  label: Toornament Registrations API
+  slug: toornament-registrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-registrations-api-openapi.yml
+- filename: toornament-stages-api-openapi.yml
+  format: yaml
+  label: Toornament Stages API
+  slug: toornament-stages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-stages-api-openapi.yml
+- filename: toornament-tournaments-api-openapi.yml
+  format: yaml
+  label: Toornament Tournaments API
+  slug: toornament-tournaments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-tournaments-api-openapi.yml
+- filename: toornament-webhooks-api-openapi.yml
+  format: yaml
+  label: Toornament Webhooks API
+  slug: toornament-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

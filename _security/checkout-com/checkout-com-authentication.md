@@ -1,5 +1,36 @@
 ---
 api_key_in: []
+api_specs:
+- filename: checkout-com-customers-api-openapi.yml
+  format: yaml
+  label: Checkout.com Customers API
+  slug: checkout-com-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/openapi/checkout-com-customers-api-openapi.yml
+- filename: checkout-com-instruments-api-openapi.yml
+  format: yaml
+  label: Checkout.com Instruments API
+  slug: checkout-com-instruments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/openapi/checkout-com-instruments-api-openapi.yml
+- filename: checkout-com-payments-api-openapi.yml
+  format: yaml
+  label: Checkout.com Payments API
+  slug: checkout-com-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/openapi/checkout-com-payments-api-openapi.yml
+- filename: checkout-com-tokens-api-openapi.yml
+  format: yaml
+  label: Checkout.com Tokens API
+  slug: checkout-com-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/openapi/checkout-com-tokens-api-openapi.yml
+- filename: checkout-com-workflows-api-openapi.yml
+  format: yaml
+  label: Checkout.com Workflows API
+  slug: checkout-com-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/openapi/checkout-com-workflows-api-openapi.yml
 auth_types:
 - http
 - oauth2

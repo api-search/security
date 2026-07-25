@@ -2,12 +2,48 @@
 api_key_in:
 - query
 api_specs:
-- filename: constellation-brands-openapi.yml
+- filename: constellation-brands-bottleshots-api-openapi.yml
   format: yaml
-  label: Product Items API
-  slug: product
+  label: Constellation Brands BottleShots API
+  slug: constellation-brands-bottleshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constellation-brands/refs/heads/main/openapi/constellation-brands-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/constellation-brands/refs/heads/main/openapi/constellation-brands-bottleshots-api-openapi.yml
+- filename: constellation-brands-hotsheets-api-openapi.yml
+  format: yaml
+  label: Constellation Brands HotSheets API
+  slug: constellation-brands-hotsheets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constellation-brands/refs/heads/main/openapi/constellation-brands-hotsheets-api-openapi.yml
+- filename: constellation-brands-items-api-openapi.yml
+  format: yaml
+  label: Constellation Brands Items API
+  slug: constellation-brands-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constellation-brands/refs/heads/main/openapi/constellation-brands-items-api-openapi.yml
+- filename: constellation-brands-neckhangers-api-openapi.yml
+  format: yaml
+  label: Constellation Brands NeckHangers API
+  slug: constellation-brands-neckhangers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constellation-brands/refs/heads/main/openapi/constellation-brands-neckhangers-api-openapi.yml
+- filename: constellation-brands-recipes-api-openapi.yml
+  format: yaml
+  label: Constellation Brands Recipes API
+  slug: constellation-brands-recipes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constellation-brands/refs/heads/main/openapi/constellation-brands-recipes-api-openapi.yml
+- filename: constellation-brands-shelftalkers-api-openapi.yml
+  format: yaml
+  label: Constellation Brands ShelfTalkers API
+  slug: constellation-brands-shelftalkers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constellation-brands/refs/heads/main/openapi/constellation-brands-shelftalkers-api-openapi.yml
+- filename: constellation-brands-tastingnotes-api-openapi.yml
+  format: yaml
+  label: Constellation Brands TastingNotes API
+  slug: constellation-brands-tastingnotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constellation-brands/refs/heads/main/openapi/constellation-brands-tastingnotes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

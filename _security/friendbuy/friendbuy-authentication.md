@@ -1,36 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: friendbuy-openapi.yml
-  format: yaml
-  label: Friendbuy Customers API
-  slug: friendbuy-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/openapi/friendbuy-openapi.yml
-- filename: friendbuy-openapi.yml
-  format: yaml
-  label: Friendbuy Referrals API
-  slug: friendbuy-referrals-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/openapi/friendbuy-openapi.yml
-- filename: friendbuy-openapi.yml
-  format: yaml
-  label: Friendbuy Events API
-  slug: friendbuy-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/openapi/friendbuy-openapi.yml
-- filename: friendbuy-openapi.yml
+- filename: friendbuy-analytics-api-openapi.yml
   format: yaml
   label: Friendbuy Analytics API
   slug: friendbuy-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/openapi/friendbuy-openapi.yml
-- filename: friendbuy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/openapi/friendbuy-analytics-api-openapi.yml
+- filename: friendbuy-authorization-api-openapi.yml
+  format: yaml
+  label: Friendbuy Authorization API
+  slug: friendbuy-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/openapi/friendbuy-authorization-api-openapi.yml
+- filename: friendbuy-customers-api-openapi.yml
+  format: yaml
+  label: Friendbuy Customers API
+  slug: friendbuy-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/openapi/friendbuy-customers-api-openapi.yml
+- filename: friendbuy-events-api-openapi.yml
+  format: yaml
+  label: Friendbuy Events API
+  slug: friendbuy-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/openapi/friendbuy-events-api-openapi.yml
+- filename: friendbuy-management-api-openapi.yml
+  format: yaml
+  label: Friendbuy Management API
+  slug: friendbuy-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/openapi/friendbuy-management-api-openapi.yml
+- filename: friendbuy-referrals-api-openapi.yml
+  format: yaml
+  label: Friendbuy Referrals API
+  slug: friendbuy-referrals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/openapi/friendbuy-referrals-api-openapi.yml
+- filename: friendbuy-rewards-loyalty-api-openapi.yml
   format: yaml
   label: Friendbuy Rewards & Loyalty API
   slug: friendbuy-rewards-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/openapi/friendbuy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/openapi/friendbuy-rewards-loyalty-api-openapi.yml
 auth_types:
 - http
 description: ''

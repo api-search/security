@@ -1,23 +1,47 @@
 ---
 api_specs:
-- filename: neo4j-http-api-openapi.yml
-  format: yaml
-  label: Neo4j HTTP API
-  slug: http-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-http-api-openapi.yml
 - filename: neo4j-query-api-openapi.yml
   format: yaml
   label: Neo4j Query API
   slug: query-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-query-api-openapi.yml
-- filename: neo4j-aura-api-openapi.yml
+- filename: neo4j-authentication-api-openapi.yml
   format: yaml
-  label: Neo4j Aura API
-  slug: aura-api
+  label: Neo4j Authentication API
+  slug: neo4j-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-aura-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-authentication-api-openapi.yml
+- filename: neo4j-discovery-api-openapi.yml
+  format: yaml
+  label: Neo4j Discovery API
+  slug: neo4j-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-discovery-api-openapi.yml
+- filename: neo4j-instances-api-openapi.yml
+  format: yaml
+  label: Neo4j Instances API
+  slug: neo4j-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-instances-api-openapi.yml
+- filename: neo4j-snapshots-api-openapi.yml
+  format: yaml
+  label: Neo4j Snapshots API
+  slug: neo4j-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-snapshots-api-openapi.yml
+- filename: neo4j-tenants-api-openapi.yml
+  format: yaml
+  label: Neo4j Tenants API
+  slug: neo4j-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-tenants-api-openapi.yml
+- filename: neo4j-transactions-api-openapi.yml
+  format: yaml
+  label: Neo4j Transactions API
+  slug: neo4j-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:

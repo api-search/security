@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: tratta-openapi.yml
+- filename: tratta-bulk-operations-api-openapi.yml
   format: yaml
-  label: Tratta API
-  slug: tratta
+  label: Tratta Bulk Operations API
+  slug: tratta-bulk-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tratta/refs/heads/main/openapi/tratta-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tratta/refs/heads/main/openapi/tratta-bulk-operations-api-openapi.yml
+- filename: tratta-charges-api-openapi.yml
+  format: yaml
+  label: Tratta Charges API
+  slug: tratta-charges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tratta/refs/heads/main/openapi/tratta-charges-api-openapi.yml
+- filename: tratta-customer-sessions-api-openapi.yml
+  format: yaml
+  label: Tratta Customer Sessions API
+  slug: tratta-customer-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tratta/refs/heads/main/openapi/tratta-customer-sessions-api-openapi.yml
+- filename: tratta-customers-api-openapi.yml
+  format: yaml
+  label: Tratta Customers API
+  slug: tratta-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tratta/refs/heads/main/openapi/tratta-customers-api-openapi.yml
+- filename: tratta-debt-accounts-api-openapi.yml
+  format: yaml
+  label: Tratta Debt Accounts API
+  slug: tratta-debt-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tratta/refs/heads/main/openapi/tratta-debt-accounts-api-openapi.yml
+- filename: tratta-payment-methods-api-openapi.yml
+  format: yaml
+  label: Tratta Payment Methods API
+  slug: tratta-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tratta/refs/heads/main/openapi/tratta-payment-methods-api-openapi.yml
+- filename: tratta-payment-plans-api-openapi.yml
+  format: yaml
+  label: Tratta Payment Plans API
+  slug: tratta-payment-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tratta/refs/heads/main/openapi/tratta-payment-plans-api-openapi.yml
+- filename: tratta-tickets-api-openapi.yml
+  format: yaml
+  label: Tratta Tickets API
+  slug: tratta-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tratta/refs/heads/main/openapi/tratta-tickets-api-openapi.yml
+- filename: tratta-transactions-api-openapi.yml
+  format: yaml
+  label: Tratta Transactions API
+  slug: tratta-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tratta/refs/heads/main/openapi/tratta-transactions-api-openapi.yml
+- filename: tratta-webhooks-api-openapi.yml
+  format: yaml
+  label: Tratta Webhooks API
+  slug: tratta-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tratta/refs/heads/main/openapi/tratta-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

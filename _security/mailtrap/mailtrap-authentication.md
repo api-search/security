@@ -2,18 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: mailtrap-email-api-openapi.yml
+- filename: mailtrap-inboxes-api-openapi.yml
   format: yaml
-  label: Mailtrap Email Sending API
-  slug: mailtrap-email-api
+  label: Mailtrap Inboxes API
+  slug: mailtrap-inboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailtrap/refs/heads/main/openapi/mailtrap-email-api-openapi.yml
-- filename: mailtrap-email-sandbox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mailtrap/refs/heads/main/openapi/mailtrap-inboxes-api-openapi.yml
+- filename: mailtrap-messages-api-openapi.yml
   format: yaml
-  label: Mailtrap Email Sandbox API
-  slug: mailtrap-email-sandbox
+  label: Mailtrap Messages API
+  slug: mailtrap-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailtrap/refs/heads/main/openapi/mailtrap-email-sandbox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mailtrap/refs/heads/main/openapi/mailtrap-messages-api-openapi.yml
+- filename: mailtrap-send-api-openapi.yml
+  format: yaml
+  label: Mailtrap Send API
+  slug: mailtrap-send-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailtrap/refs/heads/main/openapi/mailtrap-send-api-openapi.yml
 auth_types:
 - apiKey
 - http

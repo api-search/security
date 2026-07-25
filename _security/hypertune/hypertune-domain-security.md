@@ -1,23 +1,11 @@
 ---
 api_specs:
-- filename: hypertune-openapi.yml
+- filename: hypertune-graphql-api-openapi.yml
   format: yaml
-  label: Hypertune Flag Evaluation / Config (GraphQL / SDK) API
-  slug: hypertune-flag-evaluation-graphql-api
+  label: Hypertune GraphQL API
+  slug: hypertune-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypertune/refs/heads/main/openapi/hypertune-openapi.yml
-- filename: hypertune-openapi.yml
-  format: yaml
-  label: Hypertune Edge Config Delivery API
-  slug: hypertune-edge-config-delivery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypertune/refs/heads/main/openapi/hypertune-openapi.yml
-- filename: hypertune-openapi.yml
-  format: yaml
-  label: Hypertune Analytics / Events API
-  slug: hypertune-analytics-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypertune/refs/heads/main/openapi/hypertune-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hypertune/refs/heads/main/openapi/hypertune-graphql-api-openapi.yml
 description: ''
 domains:
 - caa: []

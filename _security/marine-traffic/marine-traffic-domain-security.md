@@ -1,53 +1,89 @@
 ---
 api_specs:
-- filename: marine-traffic-vessel-positions-openapi.yml
+- filename: marine-traffic-ais-api-api-openapi.yml
   format: yaml
-  label: MarineTraffic Vessel Positions API
-  slug: marine-traffic-vessel-positions-api
+  label: MarineTraffic AIS API API
+  slug: marine-traffic-ais-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-vessel-positions-openapi.yml
-- filename: marine-traffic-events-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-ais-api-api-openapi.yml
+- filename: marine-traffic-balances-api-openapi.yml
   format: yaml
-  label: MarineTraffic Events API
-  slug: marine-traffic-events-api
+  label: MarineTraffic Balances API
+  slug: marine-traffic-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-events-openapi.yml
-- filename: marine-traffic-vessels-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-balances-api-openapi.yml
+- filename: marine-traffic-fleets-api-openapi.yml
   format: yaml
-  label: MarineTraffic Vessels Data API
-  slug: marine-traffic-vessels-data-api
+  label: MarineTraffic Fleets API
+  slug: marine-traffic-fleets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-vessels-data-openapi.yml
-- filename: marine-traffic-voyage-info-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-fleets-api-openapi.yml
+- filename: marine-traffic-passage-plans-api-openapi.yml
   format: yaml
-  label: MarineTraffic Voyage Information API
-  slug: marine-traffic-voyage-information-api
+  label: MarineTraffic Passage Plans API
+  slug: marine-traffic-passage-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-voyage-info-openapi.yml
-- filename: marine-traffic-ports-info-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-passage-plans-api-openapi.yml
+- filename: marine-traffic-port-events-api-openapi.yml
+  format: yaml
+  label: MarineTraffic Port Events API
+  slug: marine-traffic-port-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-port-events-api-openapi.yml
+- filename: marine-traffic-ports-information-api-openapi.yml
   format: yaml
   label: MarineTraffic Ports Information API
   slug: marine-traffic-ports-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-ports-info-openapi.yml
-- filename: marine-traffic-routing-openapi.yml
-  format: yaml
-  label: MarineTraffic Routing Information API
-  slug: marine-traffic-routing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-routing-openapi.yml
-- filename: marine-traffic-reverse-geocoding-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-ports-information-api-openapi.yml
+- filename: marine-traffic-reverse-geocoding-api-openapi.yml
   format: yaml
   label: MarineTraffic Reverse Geocoding API
   slug: marine-traffic-reverse-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-reverse-geocoding-openapi.yml
-- filename: marine-traffic-power-user-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-reverse-geocoding-api-openapi.yml
+- filename: marine-traffic-routing-information-api-openapi.yml
   format: yaml
-  label: MarineTraffic Power User API
-  slug: marine-traffic-power-user-api
+  label: MarineTraffic Routing Information API
+  slug: marine-traffic-routing-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-power-user-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-routing-information-api-openapi.yml
+- filename: marine-traffic-search-vessel-api-openapi.yml
+  format: yaml
+  label: MarineTraffic Search Vessel API
+  slug: marine-traffic-search-vessel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-search-vessel-api-openapi.yml
+- filename: marine-traffic-single-vessel-events-api-openapi.yml
+  format: yaml
+  label: MarineTraffic Single Vessel Events API
+  slug: marine-traffic-single-vessel-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-single-vessel-events-api-openapi.yml
+- filename: marine-traffic-vessel-historical-track-api-openapi.yml
+  format: yaml
+  label: MarineTraffic Vessel Historical Track API
+  slug: marine-traffic-vessel-historical-track-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-vessel-historical-track-api-openapi.yml
+- filename: marine-traffic-vessel-information-api-openapi.yml
+  format: yaml
+  label: MarineTraffic Vessel Information API
+  slug: marine-traffic-vessel-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-vessel-information-api-openapi.yml
+- filename: marine-traffic-vessel-positions-legacy-api-api-openapi.yml
+  format: yaml
+  label: MarineTraffic Vessel Positions (Legacy API) API
+  slug: marine-traffic-vessel-positions-legacy-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-vessel-positions-legacy-api-api-openapi.yml
+- filename: marine-traffic-voyage-information-api-openapi.yml
+  format: yaml
+  label: MarineTraffic Voyage Information API
+  slug: marine-traffic-voyage-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-voyage-information-api-openapi.yml
 description: ''
 domains:
 - caa: []

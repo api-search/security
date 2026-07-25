@@ -2,12 +2,108 @@
 api_key_in:
 - header
 api_specs:
-- filename: swagger.yaml
+- filename: constant-contact-account-services-api-openapi.yml
   format: yaml
-  label: Constant Contact V3 API
-  slug: v3
+  label: Constant Contact Account Services API
+  slug: constant-contact-account-services-api
   spec_type: OpenAPI
-  url: https://api.cc.email/v3/swagger.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-account-services-api-openapi.yml
+- filename: constant-contact-bulk-activities-api-openapi.yml
+  format: yaml
+  label: Constant Contact Bulk Activities API
+  slug: constant-contact-bulk-activities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-bulk-activities-api-openapi.yml
+- filename: constant-contact-contact-lists-api-openapi.yml
+  format: yaml
+  label: Constant Contact Contact Lists API
+  slug: constant-contact-contact-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-contact-lists-api-openapi.yml
+- filename: constant-contact-contact-tags-api-openapi.yml
+  format: yaml
+  label: Constant Contact Contact Tags API
+  slug: constant-contact-contact-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-contact-tags-api-openapi.yml
+- filename: constant-contact-contacts-api-openapi.yml
+  format: yaml
+  label: Constant Contact Contacts API
+  slug: constant-contact-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-contacts-api-openapi.yml
+- filename: constant-contact-contacts-custom-fields-api-openapi.yml
+  format: yaml
+  label: Constant Contact Contacts Custom Fields API
+  slug: constant-contact-contacts-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-contacts-custom-fields-api-openapi.yml
+- filename: constant-contact-contacts-reporting-api-openapi.yml
+  format: yaml
+  label: Constant Contact Contacts Reporting API
+  slug: constant-contact-contacts-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-contacts-reporting-api-openapi.yml
+- filename: constant-contact-email-campaigns-ab-tests-api-openapi.yml
+  format: yaml
+  label: Constant Contact Email Campaigns AB Tests API
+  slug: constant-contact-email-campaigns-ab-tests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-email-campaigns-ab-tests-api-openapi.yml
+- filename: constant-contact-email-campaigns-api-openapi.yml
+  format: yaml
+  label: Constant Contact Email Campaigns API
+  slug: constant-contact-email-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-email-campaigns-api-openapi.yml
+- filename: constant-contact-email-reporting-api-openapi.yml
+  format: yaml
+  label: Constant Contact Email Reporting API
+  slug: constant-contact-email-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-email-reporting-api-openapi.yml
+- filename: constant-contact-email-scheduling-api-openapi.yml
+  format: yaml
+  label: Constant Contact Email Scheduling API
+  slug: constant-contact-email-scheduling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-email-scheduling-api-openapi.yml
+- filename: constant-contact-events-api-openapi.yml
+  format: yaml
+  label: Constant Contact Events API
+  slug: constant-contact-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-events-api-openapi.yml
+- filename: constant-contact-landing-pages-reporting-api-openapi.yml
+  format: yaml
+  label: Constant Contact Landing Pages Reporting API
+  slug: constant-contact-landing-pages-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-landing-pages-reporting-api-openapi.yml
+- filename: constant-contact-segments-api-openapi.yml
+  format: yaml
+  label: Constant Contact Segments API
+  slug: constant-contact-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-segments-api-openapi.yml
+- filename: constant-contact-sms-reporting-api-openapi.yml
+  format: yaml
+  label: Constant Contact SMS Reporting API
+  slug: constant-contact-sms-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-sms-reporting-api-openapi.yml
+- filename: constant-contact-technology-partners-api-openapi.yml
+  format: yaml
+  label: Constant Contact Technology Partners API
+  slug: constant-contact-technology-partners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-technology-partners-api-openapi.yml
+- filename: constant-contact-technology-partners-webhooks-api-openapi.yml
+  format: yaml
+  label: Constant Contact Technology Partners Webhooks API
+  slug: constant-contact-technology-partners-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-technology-partners-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

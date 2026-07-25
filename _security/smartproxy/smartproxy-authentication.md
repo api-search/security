@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: smartproxy-openapi.yml
+- filename: smartproxy-authentication-api-openapi.yml
   format: yaml
-  label: Smartproxy Account Management API
-  slug: proxy-management-api
+  label: Smartproxy Authentication API
+  slug: smartproxy-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-authentication-api-openapi.yml
+- filename: smartproxy-endpoints-api-openapi.yml
+  format: yaml
+  label: Smartproxy Endpoints API
+  slug: smartproxy-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-endpoints-api-openapi.yml
+- filename: smartproxy-sub-users-api-openapi.yml
+  format: yaml
+  label: Smartproxy Sub-Users API
+  slug: smartproxy-sub-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-sub-users-api-openapi.yml
+- filename: smartproxy-subscriptions-api-openapi.yml
+  format: yaml
+  label: Smartproxy Subscriptions API
+  slug: smartproxy-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-subscriptions-api-openapi.yml
+- filename: smartproxy-traffic-api-openapi.yml
+  format: yaml
+  label: Smartproxy Traffic API
+  slug: smartproxy-traffic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-traffic-api-openapi.yml
+- filename: smartproxy-whitelisted-ips-api-openapi.yml
+  format: yaml
+  label: Smartproxy Whitelisted IPs API
+  slug: smartproxy-whitelisted-ips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-whitelisted-ips-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: exactly-ai-public-openapi-original.json
-  format: json
-  label: Exactly Public API
-  slug: exactly-public-api
+- filename: exactly-ai-images-v1-api-openapi.yml
+  format: yaml
+  label: Exactly Ai Images v1 API
+  slug: exactly-ai-images-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/openapi/exactly-ai-public-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/openapi/exactly-ai-images-v1-api-openapi.yml
+- filename: exactly-ai-models-v1-api-openapi.yml
+  format: yaml
+  label: Exactly Ai Models v1 API
+  slug: exactly-ai-models-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/openapi/exactly-ai-models-v1-api-openapi.yml
 description: ''
 domains:
 - caa: []

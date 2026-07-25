@@ -1,53 +1,59 @@
 ---
 api_specs:
-- filename: atomic-fi-openapi.yml
+- filename: atomic-fi-access-tokens-api-openapi.yml
   format: yaml
   label: Atomic Access Tokens API
   slug: atomic-fi-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-openapi.yml
-- filename: atomic-fi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-access-tokens-api-openapi.yml
+- filename: atomic-fi-company-api-openapi.yml
   format: yaml
-  label: Atomic Transact SDK
-  slug: atomic-fi-transact-sdk
+  label: Atomic Company API
+  slug: atomic-fi-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-openapi.yml
-- filename: atomic-fi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-company-api-openapi.yml
+- filename: atomic-fi-data-api-openapi.yml
   format: yaml
-  label: Atomic Tasks API
-  slug: atomic-fi-tasks-api
+  label: Atomic Data API
+  slug: atomic-fi-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-openapi.yml
-- filename: atomic-fi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-data-api-openapi.yml
+- filename: atomic-fi-linked-accounts-api-openapi.yml
   format: yaml
-  label: Atomic Deposit API
-  slug: atomic-fi-deposit-api
+  label: Atomic Linked Accounts API
+  slug: atomic-fi-linked-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-openapi.yml
-- filename: atomic-fi-openapi.yml
-  format: yaml
-  label: Atomic Verify API
-  slug: atomic-fi-verify-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-openapi.yml
-- filename: atomic-fi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-linked-accounts-api-openapi.yml
+- filename: atomic-fi-paylink-api-openapi.yml
   format: yaml
   label: Atomic PayLink API
   slug: atomic-fi-paylink-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-openapi.yml
-- filename: atomic-fi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-paylink-api-openapi.yml
+- filename: atomic-fi-secrets-api-openapi.yml
   format: yaml
-  label: Atomic Data & Transactions API
-  slug: atomic-fi-data-api
+  label: Atomic Secrets API
+  slug: atomic-fi-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-openapi.yml
-- filename: atomic-fi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-secrets-api-openapi.yml
+- filename: atomic-fi-tasks-api-openapi.yml
+  format: yaml
+  label: Atomic Tasks API
+  slug: atomic-fi-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-tasks-api-openapi.yml
+- filename: atomic-fi-users-api-openapi.yml
+  format: yaml
+  label: Atomic Users API
+  slug: atomic-fi-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-users-api-openapi.yml
+- filename: atomic-fi-webhooks-api-openapi.yml
   format: yaml
   label: Atomic Webhooks API
   slug: atomic-fi-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

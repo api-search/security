@@ -1,18 +1,78 @@
 ---
 api_key_in: []
 api_specs:
-- filename: canvas.openapi.yaml
+- filename: instructure-externaltool-api-openapi.yml
   format: yaml
-  label: Canvas LMS REST API
-  slug: canvas-lms-rest-api
+  label: Instructure ExternalTool API
+  slug: instructure-externaltool-api
   spec_type: OpenAPI
-  url: https://github.com/instructure/canvas-lms/blob/master/public/doc/openapi/canvas.openapi.yaml
-- filename: instructure-canvas-lti-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-externaltool-api-openapi.yml
+- filename: instructure-lti-accountexternaltool-api-openapi.yml
   format: yaml
-  label: Canvas LTI 1.3 API
-  slug: canvas-lti-api
+  label: Instructure Lti::AccountExternalTool API
+  slug: instructure-lti-accountexternaltool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-canvas-lti-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-accountexternaltool-api-openapi.yml
+- filename: instructure-lti-accountlookup-api-openapi.yml
+  format: yaml
+  label: Instructure Lti::AccountLookup API
+  slug: instructure-lti-accountlookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-accountlookup-api-openapi.yml
+- filename: instructure-lti-dataservice-api-openapi.yml
+  format: yaml
+  label: Instructure Lti::DataService API
+  slug: instructure-lti-dataservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-dataservice-api-openapi.yml
+- filename: instructure-lti-ims-authentication-api-openapi.yml
+  format: yaml
+  label: Instructure Lti::IMS::Authentication API
+  slug: instructure-lti-ims-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-ims-authentication-api-openapi.yml
+- filename: instructure-lti-ims-dynamicregistration-api-openapi.yml
+  format: yaml
+  label: Instructure Lti::IMS::DynamicRegistration API
+  slug: instructure-lti-ims-dynamicregistration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-ims-dynamicregistration-api-openapi.yml
+- filename: instructure-lti-ims-lineitem-api-openapi.yml
+  format: yaml
+  label: Instructure Lti::IMS::LineItem API
+  slug: instructure-lti-ims-lineitem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-ims-lineitem-api-openapi.yml
+- filename: instructure-lti-ims-namesandrole-api-openapi.yml
+  format: yaml
+  label: Instructure Lti::IMS::NamesAndRole API
+  slug: instructure-lti-ims-namesandrole-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-ims-namesandrole-api-openapi.yml
+- filename: instructure-lti-ims-result-api-openapi.yml
+  format: yaml
+  label: Instructure Lti::IMS::Result API
+  slug: instructure-lti-ims-result-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-ims-result-api-openapi.yml
+- filename: instructure-lti-membershipservice-api-openapi.yml
+  format: yaml
+  label: Instructure Lti::MembershipService API
+  slug: instructure-lti-membershipservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-membershipservice-api-openapi.yml
+- filename: instructure-lti-toolconfigurationsapi-api-openapi.yml
+  format: yaml
+  label: Instructure Lti::ToolConfigurationsApi API
+  slug: instructure-lti-toolconfigurationsapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-toolconfigurationsapi-api-openapi.yml
+- filename: instructure-security-api-openapi.yml
+  format: yaml
+  label: Instructure Security API
+  slug: instructure-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-security-api-openapi.yml
 auth_types:
 - http
 - oauth2

@@ -1,23 +1,107 @@
 ---
 api_specs:
-- filename: bloomberg-data-license-api.yml
+- filename: bloomberg-aim-broker-strategies-api-openapi.yml
   format: yaml
-  label: Bloomberg Data License API
-  slug: bloomberg-data-license-api
+  label: Bloomberg AIM Broker Strategies API
+  slug: bloomberg-aim-broker-strategies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-data-license-api.yml
-- filename: bloomberg-emsx-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-broker-strategies-api-openapi.yml
+- filename: bloomberg-aim-catalogs-api-openapi.yml
   format: yaml
-  label: Bloomberg EMSX API
-  slug: bloomberg-emsx-api
+  label: Bloomberg AIM Catalogs API
+  slug: bloomberg-aim-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-emsx-api.yml
-- filename: bloomberg-http-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-catalogs-api-openapi.yml
+- filename: bloomberg-aim-distributions-api-openapi.yml
   format: yaml
-  label: Bloomberg HTTP API
-  slug: bloomberg-http-api
+  label: Bloomberg AIM Distributions API
+  slug: bloomberg-aim-distributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-http-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-distributions-api-openapi.yml
+- filename: bloomberg-aim-field-lists-api-openapi.yml
+  format: yaml
+  label: Bloomberg AIM Field Lists API
+  slug: bloomberg-aim-field-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-field-lists-api-openapi.yml
+- filename: bloomberg-aim-field-search-api-openapi.yml
+  format: yaml
+  label: Bloomberg AIM Field Search API
+  slug: bloomberg-aim-field-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-field-search-api-openapi.yml
+- filename: bloomberg-aim-fills-api-openapi.yml
+  format: yaml
+  label: Bloomberg AIM Fills API
+  slug: bloomberg-aim-fills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-fills-api-openapi.yml
+- filename: bloomberg-aim-historical-data-api-openapi.yml
+  format: yaml
+  label: Bloomberg AIM Historical Data API
+  slug: bloomberg-aim-historical-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-historical-data-api-openapi.yml
+- filename: bloomberg-aim-instruments-api-openapi.yml
+  format: yaml
+  label: Bloomberg AIM Instruments API
+  slug: bloomberg-aim-instruments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-instruments-api-openapi.yml
+- filename: bloomberg-aim-intraday-data-api-openapi.yml
+  format: yaml
+  label: Bloomberg AIM Intraday Data API
+  slug: bloomberg-aim-intraday-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-intraday-data-api-openapi.yml
+- filename: bloomberg-aim-orders-api-openapi.yml
+  format: yaml
+  label: Bloomberg AIM Orders API
+  slug: bloomberg-aim-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-orders-api-openapi.yml
+- filename: bloomberg-aim-reference-data-api-openapi.yml
+  format: yaml
+  label: Bloomberg AIM Reference Data API
+  slug: bloomberg-aim-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-reference-data-api-openapi.yml
+- filename: bloomberg-aim-replies-api-openapi.yml
+  format: yaml
+  label: Bloomberg AIM Replies API
+  slug: bloomberg-aim-replies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-replies-api-openapi.yml
+- filename: bloomberg-aim-requests-api-openapi.yml
+  format: yaml
+  label: Bloomberg AIM Requests API
+  slug: bloomberg-aim-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-requests-api-openapi.yml
+- filename: bloomberg-aim-routes-api-openapi.yml
+  format: yaml
+  label: Bloomberg AIM Routes API
+  slug: bloomberg-aim-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-routes-api-openapi.yml
+- filename: bloomberg-aim-teams-api-openapi.yml
+  format: yaml
+  label: Bloomberg AIM Teams API
+  slug: bloomberg-aim-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-teams-api-openapi.yml
+- filename: bloomberg-aim-triggers-api-openapi.yml
+  format: yaml
+  label: Bloomberg AIM Triggers API
+  slug: bloomberg-aim-triggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-triggers-api-openapi.yml
+- filename: bloomberg-aim-universes-api-openapi.yml
+  format: yaml
+  label: Bloomberg AIM Universes API
+  slug: bloomberg-aim-universes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-universes-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-interconnect-interconnectattachments-api-openapi.yml
   format: yaml
-  label: Google Cloud Interconnect API
-  slug: google-cloud-interconnect-api
+  label: Google Cloud Interconnect InterconnectAttachments API
+  slug: google-cloud-interconnect-interconnectattachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-interconnect/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-interconnect/refs/heads/main/openapi/google-cloud-interconnect-interconnectattachments-api-openapi.yml
+- filename: google-cloud-interconnect-interconnectlocations-api-openapi.yml
+  format: yaml
+  label: Google Cloud Interconnect InterconnectLocations API
+  slug: google-cloud-interconnect-interconnectlocations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-interconnect/refs/heads/main/openapi/google-cloud-interconnect-interconnectlocations-api-openapi.yml
+- filename: google-cloud-interconnect-interconnects-api-openapi.yml
+  format: yaml
+  label: Google Cloud Interconnect Interconnects API
+  slug: google-cloud-interconnect-interconnects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-interconnect/refs/heads/main/openapi/google-cloud-interconnect-interconnects-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

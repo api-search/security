@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: wootric-openapi.yml
+- filename: wootric-declines-api-openapi.yml
   format: yaml
-  label: Wootric API
-  slug: wootric-api
+  label: Wootric Declines API
+  slug: wootric-declines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/openapi/wootric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/openapi/wootric-declines-api-openapi.yml
+- filename: wootric-email-surveys-api-openapi.yml
+  format: yaml
+  label: Wootric Email Surveys API
+  slug: wootric-email-surveys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/openapi/wootric-email-surveys-api-openapi.yml
+- filename: wootric-end-users-api-openapi.yml
+  format: yaml
+  label: Wootric End Users API
+  slug: wootric-end-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/openapi/wootric-end-users-api-openapi.yml
+- filename: wootric-metrics-api-openapi.yml
+  format: yaml
+  label: Wootric Metrics API
+  slug: wootric-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/openapi/wootric-metrics-api-openapi.yml
+- filename: wootric-responses-api-openapi.yml
+  format: yaml
+  label: Wootric Responses API
+  slug: wootric-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/openapi/wootric-responses-api-openapi.yml
+- filename: wootric-segments-api-openapi.yml
+  format: yaml
+  label: Wootric Segments API
+  slug: wootric-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/openapi/wootric-segments-api-openapi.yml
+- filename: wootric-settings-api-openapi.yml
+  format: yaml
+  label: Wootric Settings API
+  slug: wootric-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/openapi/wootric-settings-api-openapi.yml
+- filename: wootric-survey-templates-api-openapi.yml
+  format: yaml
+  label: Wootric Survey Templates API
+  slug: wootric-survey-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/openapi/wootric-survey-templates-api-openapi.yml
 description: ''
 domains:
 - caa:

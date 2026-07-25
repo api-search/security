@@ -2,18 +2,24 @@
 api_key_in:
 - query
 api_specs:
-- filename: loopme-reporting-openapi.yml
+- filename: loopme-ad-serving-api-openapi.yml
   format: yaml
-  label: LoopMe Reporting API
-  slug: loopme-reporting-api
+  label: LoopMe Ad Serving API
+  slug: loopme-ad-serving-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/openapi/loopme-reporting-openapi.yml
-- filename: loopme-s2s-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/openapi/loopme-ad-serving-api-openapi.yml
+- filename: loopme-advertiser-reporting-api-openapi.yml
   format: yaml
-  label: LoopMe S2S Ad Request API
-  slug: loopme-s2s-ad-request-api
+  label: LoopMe Advertiser Reporting API
+  slug: loopme-advertiser-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/openapi/loopme-s2s-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/openapi/loopme-advertiser-reporting-api-openapi.yml
+- filename: loopme-publisher-reporting-api-openapi.yml
+  format: yaml
+  label: LoopMe Publisher Reporting API
+  slug: loopme-publisher-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/openapi/loopme-publisher-reporting-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,77 +1,131 @@
 ---
 api_specs:
-- filename: cartesia-ai-openapi.yml
-  format: yaml
-  label: Cartesia Text-to-Speech API
-  slug: cartesia-ai-text-to-speech-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-openapi.yml
 - filename: cartesia-ai-asyncapi.yml
   format: yaml
   label: Cartesia TTS WebSocket API
   slug: cartesia-ai-tts-websocket-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/asyncapi/cartesia-ai-asyncapi.yml
-- filename: cartesia-ai-openapi.yml
-  format: yaml
-  label: Cartesia Speech-to-Text API
-  slug: cartesia-ai-speech-to-text-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-openapi.yml
 - filename: cartesia-ai-asyncapi.yml
   format: yaml
   label: Cartesia STT WebSocket API
   slug: cartesia-ai-stt-websocket-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/asyncapi/cartesia-ai-asyncapi.yml
-- filename: cartesia-ai-openapi.yml
+- filename: cartesia-ai-agents-api-openapi.yml
   format: yaml
-  label: Cartesia Voices API
-  slug: cartesia-ai-voices-api
+  label: Cartesia Agents API
+  slug: cartesia-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-openapi.yml
-- filename: cartesia-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-agents-api-openapi.yml
+- filename: cartesia-ai-api-keys-api-openapi.yml
   format: yaml
-  label: Cartesia Voice Changer API
-  slug: cartesia-ai-voice-changer-api
+  label: Cartesia API Keys API
+  slug: cartesia-ai-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-openapi.yml
-- filename: cartesia-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-api-keys-api-openapi.yml
+- filename: cartesia-ai-auth-api-openapi.yml
   format: yaml
-  label: Cartesia Infill API
-  slug: cartesia-ai-infill-api
+  label: Cartesia Auth API
+  slug: cartesia-ai-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-openapi.yml
-- filename: cartesia-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-auth-api-openapi.yml
+- filename: cartesia-ai-calls-api-openapi.yml
+  format: yaml
+  label: Cartesia Calls API
+  slug: cartesia-ai-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-calls-api-openapi.yml
+- filename: cartesia-ai-datasets-api-openapi.yml
   format: yaml
   label: Cartesia Datasets API
   slug: cartesia-ai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-openapi.yml
-- filename: cartesia-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-datasets-api-openapi.yml
+- filename: cartesia-ai-deployments-api-openapi.yml
+  format: yaml
+  label: Cartesia Deployments API
+  slug: cartesia-ai-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-deployments-api-openapi.yml
+- filename: cartesia-ai-infill-api-openapi.yml
+  format: yaml
+  label: Cartesia Infill API
+  slug: cartesia-ai-infill-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-infill-api-openapi.yml
+- filename: cartesia-ai-knowledge-base-api-openapi.yml
+  format: yaml
+  label: Cartesia Knowledge Base API
+  slug: cartesia-ai-knowledge-base-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-knowledge-base-api-openapi.yml
+- filename: cartesia-ai-metrics-api-openapi.yml
+  format: yaml
+  label: Cartesia Metrics API
+  slug: cartesia-ai-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-metrics-api-openapi.yml
+- filename: cartesia-ai-phone-numbers-api-openapi.yml
+  format: yaml
+  label: Cartesia Phone Numbers API
+  slug: cartesia-ai-phone-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-phone-numbers-api-openapi.yml
+- filename: cartesia-ai-pronunciation-dictionaries-api-openapi.yml
   format: yaml
   label: Cartesia Pronunciation Dictionaries API
   slug: cartesia-ai-pronunciation-dictionaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-openapi.yml
-- filename: cartesia-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-pronunciation-dictionaries-api-openapi.yml
+- filename: cartesia-ai-providers-api-openapi.yml
   format: yaml
-  label: Cartesia API Keys and Auth API
-  slug: cartesia-ai-api-keys-auth-api
+  label: Cartesia Providers API
+  slug: cartesia-ai-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-openapi.yml
-- filename: cartesia-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-providers-api-openapi.yml
+- filename: cartesia-ai-speech-to-text-api-openapi.yml
   format: yaml
-  label: Cartesia Voice Agents API
-  slug: cartesia-ai-voice-agents-api
+  label: Cartesia Speech-to-Text API
+  slug: cartesia-ai-speech-to-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-openapi.yml
-- filename: cartesia-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-speech-to-text-api-openapi.yml
+- filename: cartesia-ai-status-api-openapi.yml
+  format: yaml
+  label: Cartesia Status API
+  slug: cartesia-ai-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-status-api-openapi.yml
+- filename: cartesia-ai-text-to-speech-api-openapi.yml
+  format: yaml
+  label: Cartesia Text-to-Speech API
+  slug: cartesia-ai-text-to-speech-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-text-to-speech-api-openapi.yml
+- filename: cartesia-ai-usage-api-openapi.yml
   format: yaml
   label: Cartesia Usage API
   slug: cartesia-ai-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-usage-api-openapi.yml
+- filename: cartesia-ai-voice-changer-api-openapi.yml
+  format: yaml
+  label: Cartesia Voice Changer API
+  slug: cartesia-ai-voice-changer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-voice-changer-api-openapi.yml
+- filename: cartesia-ai-voices-api-openapi.yml
+  format: yaml
+  label: Cartesia Voices API
+  slug: cartesia-ai-voices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-voices-api-openapi.yml
+- filename: cartesia-ai-webhooks-api-openapi.yml
+  format: yaml
+  label: Cartesia Webhooks API
+  slug: cartesia-ai-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

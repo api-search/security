@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: mirage-openapi-original.json
-  format: json
-  label: Mirage Video API
-  slug: mirage-video-api
+- filename: mirage-audio-api-openapi.yml
+  format: yaml
+  label: Mirage Audio API
+  slug: mirage-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-audio-api-openapi.yml
+- filename: mirage-health-api-openapi.yml
+  format: yaml
+  label: Mirage health API
+  slug: mirage-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-health-api-openapi.yml
+- filename: mirage-internal-api-openapi.yml
+  format: yaml
+  label: Mirage internal API
+  slug: mirage-internal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-internal-api-openapi.yml
+- filename: mirage-meta-text-overlays-api-openapi.yml
+  format: yaml
+  label: Mirage Meta Text Overlays API
+  slug: mirage-meta-text-overlays-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-meta-text-overlays-api-openapi.yml
+- filename: mirage-root-api-openapi.yml
+  format: yaml
+  label: Mirage root API
+  slug: mirage-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-root-api-openapi.yml
+- filename: mirage-video-captions-api-openapi.yml
+  format: yaml
+  label: Mirage Video Captions API
+  slug: mirage-video-captions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-video-captions-api-openapi.yml
+- filename: mirage-videos-api-openapi.yml
+  format: yaml
+  label: Mirage Videos API
+  slug: mirage-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-videos-api-openapi.yml
 description: ''
 domains:
 - caa:

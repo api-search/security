@@ -1,30 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: pdfmonkey-openapi.yml
-  format: yaml
-  label: PDFMonkey Documents API
-  slug: documents
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfmonkey/refs/heads/main/openapi/pdfmonkey-openapi.yml
-- filename: pdfmonkey-openapi.yml
+- filename: pdfmonkey-document-cards-api-openapi.yml
   format: yaml
   label: PDFMonkey Document Cards API
-  slug: document-cards
+  slug: pdfmonkey-document-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfmonkey/refs/heads/main/openapi/pdfmonkey-openapi.yml
-- filename: pdfmonkey-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pdfmonkey/refs/heads/main/openapi/pdfmonkey-document-cards-api-openapi.yml
+- filename: pdfmonkey-documents-api-openapi.yml
+  format: yaml
+  label: PDFMonkey Documents API
+  slug: pdfmonkey-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdfmonkey/refs/heads/main/openapi/pdfmonkey-documents-api-openapi.yml
+- filename: pdfmonkey-templates-api-openapi.yml
   format: yaml
   label: PDFMonkey Templates API
-  slug: templates
+  slug: pdfmonkey-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfmonkey/refs/heads/main/openapi/pdfmonkey-openapi.yml
-- filename: pdfmonkey-openapi.yml
-  format: yaml
-  label: PDFMonkey Webhooks
-  slug: webhooks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfmonkey/refs/heads/main/openapi/pdfmonkey-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pdfmonkey/refs/heads/main/openapi/pdfmonkey-templates-api-openapi.yml
 auth_types:
 - http
 description: ''

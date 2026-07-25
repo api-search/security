@@ -1,23 +1,47 @@
 ---
 api_specs:
-- filename: blade-v2-openapi.json
-  format: json
-  label: Sushi Price API
-  slug: sushi-price-api
+- filename: sushiswap-deposit-api-openapi.yml
+  format: yaml
+  label: SushiSwap Deposit API
+  slug: sushiswap-deposit-api
   spec_type: OpenAPI
-  url: https://docs.sushi.com/blade-v2-openapi.json
-- filename: blade-v2-openapi.json
-  format: json
-  label: Sushi Quote API
-  slug: sushi-quote-api
+  url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-deposit-api-openapi.yml
+- filename: sushiswap-liquidity-providers-api-openapi.yml
+  format: yaml
+  label: SushiSwap liquidity-providers API
+  slug: sushiswap-liquidity-providers-api
   spec_type: OpenAPI
-  url: https://docs.sushi.com/blade-v2-openapi.json
-- filename: blade-v2-openapi.json
-  format: json
-  label: Sushi Swap API
-  slug: sushi-swap-api
+  url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-liquidity-providers-api-openapi.yml
+- filename: sushiswap-pool-api-openapi.yml
+  format: yaml
+  label: SushiSwap Pool API
+  slug: sushiswap-pool-api
   spec_type: OpenAPI
-  url: https://docs.sushi.com/blade-v2-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-pool-api-openapi.yml
+- filename: sushiswap-price-api-openapi.yml
+  format: yaml
+  label: SushiSwap price API
+  slug: sushiswap-price-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-price-api-openapi.yml
+- filename: sushiswap-quote-api-openapi.yml
+  format: yaml
+  label: SushiSwap Quote API
+  slug: sushiswap-quote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-quote-api-openapi.yml
+- filename: sushiswap-swap-api-openapi.yml
+  format: yaml
+  label: SushiSwap swap API
+  slug: sushiswap-swap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-swap-api-openapi.yml
+- filename: sushiswap-token-api-openapi.yml
+  format: yaml
+  label: SushiSwap token API
+  slug: sushiswap-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-token-api-openapi.yml
 description: ''
 domains:
 - caa:

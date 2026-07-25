@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: archer-daniels-midland-commodity-data-api-openapi.yml
+- filename: archer-daniels-midland-commodities-api-openapi.yml
   format: yaml
-  label: Archer Daniels Midland Commodity Data API
-  slug: commodity-data-api
+  label: Archer Daniels Midland Commodities API
+  slug: archer-daniels-midland-commodities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/openapi/archer-daniels-midland-commodity-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/openapi/archer-daniels-midland-commodities-api-openapi.yml
+- filename: archer-daniels-midland-locations-api-openapi.yml
+  format: yaml
+  label: Archer Daniels Midland Locations API
+  slug: archer-daniels-midland-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/openapi/archer-daniels-midland-locations-api-openapi.yml
+- filename: archer-daniels-midland-products-api-openapi.yml
+  format: yaml
+  label: Archer Daniels Midland Products API
+  slug: archer-daniels-midland-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/openapi/archer-daniels-midland-products-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

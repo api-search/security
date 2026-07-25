@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: chargedesk-rest-api-openapi.yml
+- filename: chargedesk-charges-api-openapi.yml
   format: yaml
-  label: ChargeDesk REST API
-  slug: chargedesk-rest-api
+  label: ChargeDesk Charges API
+  slug: chargedesk-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargedesk/refs/heads/main/openapi/chargedesk-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chargedesk/refs/heads/main/openapi/chargedesk-charges-api-openapi.yml
+- filename: chargedesk-customers-api-openapi.yml
+  format: yaml
+  label: ChargeDesk Customers API
+  slug: chargedesk-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chargedesk/refs/heads/main/openapi/chargedesk-customers-api-openapi.yml
+- filename: chargedesk-gateway-api-openapi.yml
+  format: yaml
+  label: ChargeDesk Gateway API
+  slug: chargedesk-gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chargedesk/refs/heads/main/openapi/chargedesk-gateway-api-openapi.yml
+- filename: chargedesk-products-api-openapi.yml
+  format: yaml
+  label: ChargeDesk Products API
+  slug: chargedesk-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chargedesk/refs/heads/main/openapi/chargedesk-products-api-openapi.yml
+- filename: chargedesk-subscriptions-api-openapi.yml
+  format: yaml
+  label: ChargeDesk Subscriptions API
+  slug: chargedesk-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chargedesk/refs/heads/main/openapi/chargedesk-subscriptions-api-openapi.yml
+- filename: chargedesk-webhooks-api-openapi.yml
+  format: yaml
+  label: ChargeDesk Webhooks API
+  slug: chargedesk-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chargedesk/refs/heads/main/openapi/chargedesk-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

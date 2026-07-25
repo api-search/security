@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: servicecatalog
+- filename: s-and-p-global-authentication-api-openapi.yml
   format: yaml
-  label: S&P Global Commodity Insights API
-  slug: commodity-insights
+  label: S&P Global Authentication API
+  slug: s-and-p-global-authentication-api
   spec_type: OpenAPI
-  url: https://developer.spglobal.com/commodityinsights/servicecatalog
-- filename: s-and-p-global-kensho-link-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/s-and-p-global/refs/heads/main/openapi/s-and-p-global-authentication-api-openapi.yml
+- filename: s-and-p-global-entity-resolution-api-openapi.yml
   format: yaml
-  label: Kensho Link API
-  slug: kensho-link
+  label: S&P Global Entity Resolution API
+  slug: s-and-p-global-entity-resolution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s-and-p-global/refs/heads/main/openapi/s-and-p-global-kensho-link-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/s-and-p-global/refs/heads/main/openapi/s-and-p-global-entity-resolution-api-openapi.yml
+- filename: s-and-p-global-market-data-api-openapi.yml
+  format: yaml
+  label: S&P Global Market Data API
+  slug: s-and-p-global-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/s-and-p-global/refs/heads/main/openapi/s-and-p-global-market-data-api-openapi.yml
+- filename: s-and-p-global-reference-data-api-openapi.yml
+  format: yaml
+  label: S&P Global Reference Data API
+  slug: s-and-p-global-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/s-and-p-global/refs/heads/main/openapi/s-and-p-global-reference-data-api-openapi.yml
+- filename: s-and-p-global-search-api-openapi.yml
+  format: yaml
+  label: S&P Global Search API
+  slug: s-and-p-global-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/s-and-p-global/refs/heads/main/openapi/s-and-p-global-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,35 +1,41 @@
 ---
 api_specs:
-- filename: bitwarden-public-swagger.json
-  format: json
-  label: Bitwarden Public API - Members
-  slug: public-members
+- filename: bitwarden-collections-api-openapi.yml
+  format: yaml
+  label: Bitwarden Collections API
+  slug: bitwarden-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-public-swagger.json
-- filename: bitwarden-public-swagger.json
-  format: json
-  label: Bitwarden Public API - Groups
-  slug: public-groups
+  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-collections-api-openapi.yml
+- filename: bitwarden-events-api-openapi.yml
+  format: yaml
+  label: Bitwarden Events API
+  slug: bitwarden-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-public-swagger.json
-- filename: bitwarden-public-swagger.json
-  format: json
-  label: Bitwarden Public API - Collections
-  slug: public-collections
+  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-events-api-openapi.yml
+- filename: bitwarden-groups-api-openapi.yml
+  format: yaml
+  label: Bitwarden Groups API
+  slug: bitwarden-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-public-swagger.json
-- filename: bitwarden-public-swagger.json
-  format: json
-  label: Bitwarden Public API - Policies
-  slug: public-policies
+  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-groups-api-openapi.yml
+- filename: bitwarden-members-api-openapi.yml
+  format: yaml
+  label: Bitwarden Members API
+  slug: bitwarden-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-public-swagger.json
-- filename: bitwarden-public-swagger.json
-  format: json
-  label: Bitwarden Public API - Event Logs
-  slug: public-events
+  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-members-api-openapi.yml
+- filename: bitwarden-organization-api-openapi.yml
+  format: yaml
+  label: Bitwarden Organization API
+  slug: bitwarden-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-public-swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-organization-api-openapi.yml
+- filename: bitwarden-policies-api-openapi.yml
+  format: yaml
+  label: Bitwarden Policies API
+  slug: bitwarden-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-policies-api-openapi.yml
 description: ''
 domains:
 - caa:

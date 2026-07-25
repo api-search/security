@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: teamohana-openapi-original.json
-  format: json
-  label: TeamOhana Public API
-  slug: teamohana-public-api
+- filename: teamohana-discovery-api-openapi.yml
+  format: yaml
+  label: TeamOhana Discovery API
+  slug: teamohana-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/openapi/teamohana-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/openapi/teamohana-discovery-api-openapi.yml
+- filename: teamohana-headcount-api-openapi.yml
+  format: yaml
+  label: TeamOhana Headcount API
+  slug: teamohana-headcount-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/openapi/teamohana-headcount-api-openapi.yml
+- filename: teamohana-scenario-api-openapi.yml
+  format: yaml
+  label: TeamOhana Scenario API
+  slug: teamohana-scenario-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/openapi/teamohana-scenario-api-openapi.yml
+- filename: teamohana-scim-api-openapi.yml
+  format: yaml
+  label: TeamOhana SCIM API
+  slug: teamohana-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/openapi/teamohana-scim-api-openapi.yml
 description: ''
 domains:
 - caa: []

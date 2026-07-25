@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: mytomorrows-enterprise-search-openapi.json
-  format: json
-  label: Enterprise Search API
-  slug: enterprise-search-api
+- filename: mytomorrows-legacy-graphql-proxy-api-openapi.yml
+  format: yaml
+  label: myTomorrows Legacy GraphQL Proxy API
+  slug: mytomorrows-legacy-graphql-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-enterprise-search-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-legacy-graphql-proxy-api-openapi.yml
+- filename: mytomorrows-public-api-openapi.yml
+  format: yaml
+  label: myTomorrows Public API
+  slug: mytomorrows-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-public-api-openapi.yml
+- filename: mytomorrows-system-api-openapi.yml
+  format: yaml
+  label: myTomorrows System API
+  slug: mytomorrows-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-system-api-openapi.yml
+- filename: mytomorrows-v1-api-openapi.yml
+  format: yaml
+  label: myTomorrows V1 API
+  slug: mytomorrows-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-v1-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

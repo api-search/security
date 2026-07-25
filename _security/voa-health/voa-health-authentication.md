@@ -1,18 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: voa-health-rnds-openapi.yml
+- filename: voa-health-authentication-api-openapi.yml
   format: yaml
-  label: Voa RNDS Integration API
-  slug: voa-rnds-integration-api
+  label: VOA Health Authentication API
+  slug: voa-health-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/openapi/voa-health-rnds-openapi.yml
-- filename: voa-health-identify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/openapi/voa-health-authentication-api-openapi.yml
+- filename: voa-health-rnds-api-openapi.yml
   format: yaml
-  label: Voa Integration Identify API
-  slug: voa-integration-identify-api
+  label: VOA Health RNDS API
+  slug: voa-health-rnds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/openapi/voa-health-identify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/openapi/voa-health-rnds-api-openapi.yml
 auth_types: []
 description: Voa uses a two-token model. A long-lived Auth Token identifies the integrating partner (dev convenience, sent as the x-voa-token header). For production, that Auth Token is exchanged per-consultation for a short-lived Bearer JWT (POST /integration/identify/) which authorizes iFrame/plugin embedding and all Voa integration API calls, including RNDS. Voa's own server-to-RNDS leg additionally uses ICP-Brasil A1 mutual-TLS (not exposed to API clients).
 kind: authentication

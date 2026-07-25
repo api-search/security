@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: openapi-specs
+- filename: bird-faq-api-openapi.yml
   format: yaml
-  label: Bird Channels API
-  slug: bird-channels-api
+  label: Bird FAQ API
+  slug: bird-faq-api
   spec_type: OpenAPI
-  url: https://github.com/messagebird/openapi-specs
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-faq-api-openapi.yml
+- filename: bird-intent-api-openapi.yml
+  format: yaml
+  label: Bird Intent API
+  slug: bird-intent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-intent-api-openapi.yml
+- filename: bird-languagedetection-api-openapi.yml
+  format: yaml
+  label: Bird LanguageDetection API
+  slug: bird-languagedetection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-languagedetection-api-openapi.yml
+- filename: bird-namedentityrecognition-api-openapi.yml
+  format: yaml
+  label: Bird NamedEntityRecognition API
+  slug: bird-namedentityrecognition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-namedentityrecognition-api-openapi.yml
+- filename: bird-sms-messaging-api-openapi.yml
+  format: yaml
+  label: Bird SMS Messaging API
+  slug: bird-sms-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-sms-messaging-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,17 +1,47 @@
 ---
 api_specs:
-- filename: deepdub-api-openapi-original.json
-  format: json
-  label: Deepdub Text-to-Speech API
-  slug: deepdub-text-to-speech-api
+- filename: deepdub-dubbing-api-openapi.yml
+  format: yaml
+  label: Deepdub Dubbing API
+  slug: deepdub-dubbing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/openapi/deepdub-api-openapi-original.json
-- filename: deepdub-managed-dub-openapi-original.json
-  format: json
-  label: Deepdub Managed Dubbing API
-  slug: deepdub-managed-dubbing-api
+  url: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/openapi/deepdub-dubbing-api-openapi.yml
+- filename: deepdub-gender-detection-api-openapi.yml
+  format: yaml
+  label: Deepdub Gender Detection API
+  slug: deepdub-gender-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/openapi/deepdub-managed-dub-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/openapi/deepdub-gender-detection-api-openapi.yml
+- filename: deepdub-infrastructure-api-openapi.yml
+  format: yaml
+  label: Deepdub Infrastructure API
+  slug: deepdub-infrastructure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/openapi/deepdub-infrastructure-api-openapi.yml
+- filename: deepdub-issues-api-openapi.yml
+  format: yaml
+  label: Deepdub Issues API
+  slug: deepdub-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/openapi/deepdub-issues-api-openapi.yml
+- filename: deepdub-tts-api-openapi.yml
+  format: yaml
+  label: Deepdub TTS API
+  slug: deepdub-tts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/openapi/deepdub-tts-api-openapi.yml
+- filename: deepdub-usage-api-openapi.yml
+  format: yaml
+  label: Deepdub Usage API
+  slug: deepdub-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/openapi/deepdub-usage-api-openapi.yml
+- filename: deepdub-voice-api-openapi.yml
+  format: yaml
+  label: Deepdub Voice API
+  slug: deepdub-voice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/openapi/deepdub-voice-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -2,48 +2,132 @@
 api_key_in:
 - query
 api_specs:
-- filename: authentication-openapi.yml
+- filename: maxar-technologies-accounts-api-openapi.yml
   format: yaml
-  label: Vantor Hub Authentication API
-  slug: authentication
+  label: Maxar Technologies Accounts API
+  slug: maxar-technologies-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/authentication-openapi.yml
-- filename: discovery-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/maxar-technologies-accounts-api-openapi.yml
+- filename: maxar-technologies-api-keys-api-openapi.yml
   format: yaml
-  label: Vantor Hub Discovery API
-  slug: discovery
+  label: Maxar Technologies API Keys API
+  slug: maxar-technologies-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/discovery-openapi.yml
-- filename: admin-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/maxar-technologies-api-keys-api-openapi.yml
+- filename: maxar-technologies-collections-api-openapi.yml
   format: yaml
-  label: Vantor Hub Account Services API
-  slug: admin
+  label: Maxar Technologies Collections API
+  slug: maxar-technologies-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/admin-openapi.yml
-- filename: streaming-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/maxar-technologies-collections-api-openapi.yml
+- filename: maxar-technologies-credits-api-openapi.yml
   format: yaml
-  label: Maxar Geospatial Platform Streaming API
-  slug: streaming
+  label: Maxar Technologies Credits API
+  slug: maxar-technologies-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/streaming-openapi.yml
-- filename: ordering-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/maxar-technologies-credits-api-openapi.yml
+- filename: maxar-technologies-deliveries-api-openapi.yml
   format: yaml
-  label: Maxar Geospatial Platform Ordering API
-  slug: ordering
+  label: Maxar Technologies Deliveries API
+  slug: maxar-technologies-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/ordering-openapi.yml
-- filename: tasking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/maxar-technologies-deliveries-api-openapi.yml
+- filename: maxar-technologies-estimates-api-openapi.yml
   format: yaml
-  label: Maxar Geospatial Platform Tasking API
-  slug: tasking
+  label: Maxar Technologies Estimates API
+  slug: maxar-technologies-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/tasking-openapi.yml
-- filename: monitoring-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/maxar-technologies-estimates-api-openapi.yml
+- filename: maxar-technologies-events-api-openapi.yml
   format: yaml
-  label: Maxar Geospatial Platform Monitoring API
-  slug: monitoring
+  label: Maxar Technologies Events API
+  slug: maxar-technologies-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/monitoring-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/maxar-technologies-events-api-openapi.yml
+- filename: maxar-technologies-feasibility-api-openapi.yml
+  format: yaml
+  label: Maxar Technologies Feasibility API
+  slug: maxar-technologies-feasibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/maxar-technologies-feasibility-api-openapi.yml
+- filename: maxar-technologies-image-api-openapi.yml
+  format: yaml
+  label: Maxar Technologies Image API
+  slug: maxar-technologies-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/maxar-technologies-image-api-openapi.yml
+- filename: maxar-technologies-introspection-api-openapi.yml
+  format: yaml
+  label: Maxar Technologies Introspection API
+  slug: maxar-technologies-introspection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/maxar-technologies-introspection-api-openapi.yml
+- filename: maxar-technologies-items-api-openapi.yml
+  format: yaml
+  label: Maxar Technologies Items API
+  slug: maxar-technologies-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/maxar-technologies-items-api-openapi.yml
+- filename: maxar-technologies-monitors-api-openapi.yml
+  format: yaml
+  label: Maxar Technologies Monitors API
+  slug: maxar-technologies-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/maxar-technologies-monitors-api-openapi.yml
+- filename: maxar-technologies-orders-api-openapi.yml
+  format: yaml
+  label: Maxar Technologies Orders API
+  slug: maxar-technologies-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/maxar-technologies-orders-api-openapi.yml
+- filename: maxar-technologies-search-api-openapi.yml
+  format: yaml
+  label: Maxar Technologies Search API
+  slug: maxar-technologies-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/maxar-technologies-search-api-openapi.yml
+- filename: maxar-technologies-subscriptions-api-openapi.yml
+  format: yaml
+  label: Maxar Technologies Subscriptions API
+  slug: maxar-technologies-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/maxar-technologies-subscriptions-api-openapi.yml
+- filename: maxar-technologies-tasks-api-openapi.yml
+  format: yaml
+  label: Maxar Technologies Tasks API
+  slug: maxar-technologies-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/maxar-technologies-tasks-api-openapi.yml
+- filename: maxar-technologies-tokens-api-openapi.yml
+  format: yaml
+  label: Maxar Technologies Tokens API
+  slug: maxar-technologies-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/maxar-technologies-tokens-api-openapi.yml
+- filename: maxar-technologies-users-api-openapi.yml
+  format: yaml
+  label: Maxar Technologies Users API
+  slug: maxar-technologies-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/maxar-technologies-users-api-openapi.yml
+- filename: maxar-technologies-wfs-api-openapi.yml
+  format: yaml
+  label: Maxar Technologies WFS API
+  slug: maxar-technologies-wfs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/maxar-technologies-wfs-api-openapi.yml
+- filename: maxar-technologies-wms-api-openapi.yml
+  format: yaml
+  label: Maxar Technologies WMS API
+  slug: maxar-technologies-wms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/maxar-technologies-wms-api-openapi.yml
+- filename: maxar-technologies-wmts-api-openapi.yml
+  format: yaml
+  label: Maxar Technologies WMTS API
+  slug: maxar-technologies-wmts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/openapi/maxar-technologies-wmts-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: zipkin2-api.yaml
+- filename: apache-zipkin-autocomplete-api-openapi.yml
   format: yaml
-  label: Apache Zipkin REST API
-  slug: apache-zipkin-api
+  label: Apache Zipkin autocomplete API
+  slug: apache-zipkin-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/openzipkin/zipkin-api/master/zipkin2-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-zipkin/refs/heads/main/openapi/apache-zipkin-autocomplete-api-openapi.yml
+- filename: apache-zipkin-services-api-openapi.yml
+  format: yaml
+  label: Apache Zipkin services API
+  slug: apache-zipkin-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-zipkin/refs/heads/main/openapi/apache-zipkin-services-api-openapi.yml
+- filename: apache-zipkin-spans-api-openapi.yml
+  format: yaml
+  label: Apache Zipkin spans API
+  slug: apache-zipkin-spans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-zipkin/refs/heads/main/openapi/apache-zipkin-spans-api-openapi.yml
+- filename: apache-zipkin-traces-api-openapi.yml
+  format: yaml
+  label: Apache Zipkin traces API
+  slug: apache-zipkin-traces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-zipkin/refs/heads/main/openapi/apache-zipkin-traces-api-openapi.yml
 description: ''
 domains:
 - caa: []

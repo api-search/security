@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: emailengine-openapi.yml
+- filename: emailengine-account-api-openapi.yml
   format: yaml
-  label: EmailEngine API
-  slug: emailengine
+  label: EmailEngine Account API
+  slug: emailengine-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/openapi/emailengine-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/openapi/emailengine-account-api-openapi.yml
+- filename: emailengine-accounts-api-openapi.yml
+  format: yaml
+  label: EmailEngine Accounts API
+  slug: emailengine-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/openapi/emailengine-accounts-api-openapi.yml
+- filename: emailengine-autoconfig-api-openapi.yml
+  format: yaml
+  label: EmailEngine Autoconfig API
+  slug: emailengine-autoconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/openapi/emailengine-autoconfig-api-openapi.yml
+- filename: emailengine-deliverytest-api-openapi.yml
+  format: yaml
+  label: EmailEngine Deliverytest API
+  slug: emailengine-deliverytest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/openapi/emailengine-deliverytest-api-openapi.yml
+- filename: emailengine-gateways-api-openapi.yml
+  format: yaml
+  label: EmailEngine Gateways API
+  slug: emailengine-gateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/openapi/emailengine-gateways-api-openapi.yml
+- filename: emailengine-license-api-openapi.yml
+  format: yaml
+  label: EmailEngine License API
+  slug: emailengine-license-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/openapi/emailengine-license-api-openapi.yml
+- filename: emailengine-logs-api-openapi.yml
+  format: yaml
+  label: EmailEngine Logs API
+  slug: emailengine-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/openapi/emailengine-logs-api-openapi.yml
+- filename: emailengine-oauth2-api-openapi.yml
+  format: yaml
+  label: EmailEngine Oauth2 API
+  slug: emailengine-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/openapi/emailengine-oauth2-api-openapi.yml
+- filename: emailengine-outbox-api-openapi.yml
+  format: yaml
+  label: EmailEngine Outbox API
+  slug: emailengine-outbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/openapi/emailengine-outbox-api-openapi.yml
+- filename: emailengine-stats-api-openapi.yml
+  format: yaml
+  label: EmailEngine Stats API
+  slug: emailengine-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/openapi/emailengine-stats-api-openapi.yml
+- filename: emailengine-templates-api-openapi.yml
+  format: yaml
+  label: EmailEngine Templates API
+  slug: emailengine-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/openapi/emailengine-templates-api-openapi.yml
+- filename: emailengine-tokens-api-openapi.yml
+  format: yaml
+  label: EmailEngine Tokens API
+  slug: emailengine-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/openapi/emailengine-tokens-api-openapi.yml
+- filename: emailengine-webhookroutes-api-openapi.yml
+  format: yaml
+  label: EmailEngine Webhookroutes API
+  slug: emailengine-webhookroutes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/openapi/emailengine-webhookroutes-api-openapi.yml
 description: ''
 domains:
 - caa: []

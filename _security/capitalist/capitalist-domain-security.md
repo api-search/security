@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: capitalist-openapi.yml
+- filename: capitalist-capitalist-payments-api-api-openapi.yml
   format: yaml
-  label: Capitalist API
-  slug: capitalist-api
+  label: Capitalist Capitalist Payments API API
+  slug: capitalist-capitalist-payments-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-capitalist-payments-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

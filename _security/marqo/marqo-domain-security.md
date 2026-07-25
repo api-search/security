@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: marqo-openapi.yml
+- filename: marqo-documents-api-openapi.yml
   format: yaml
-  label: Marqo REST API
-  slug: marqo-rest-api
+  label: Marqo Documents API
+  slug: marqo-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/openapi/marqo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/openapi/marqo-documents-api-openapi.yml
+- filename: marqo-embeddings-api-openapi.yml
+  format: yaml
+  label: Marqo Embeddings API
+  slug: marqo-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/openapi/marqo-embeddings-api-openapi.yml
+- filename: marqo-indexes-api-openapi.yml
+  format: yaml
+  label: Marqo Indexes API
+  slug: marqo-indexes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/openapi/marqo-indexes-api-openapi.yml
+- filename: marqo-models-api-openapi.yml
+  format: yaml
+  label: Marqo Models API
+  slug: marqo-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/openapi/marqo-models-api-openapi.yml
+- filename: marqo-recommendations-api-openapi.yml
+  format: yaml
+  label: Marqo Recommendations API
+  slug: marqo-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/openapi/marqo-recommendations-api-openapi.yml
+- filename: marqo-search-api-openapi.yml
+  format: yaml
+  label: Marqo Search API
+  slug: marqo-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/openapi/marqo-search-api-openapi.yml
+- filename: marqo-telemetry-api-openapi.yml
+  format: yaml
+  label: Marqo Telemetry API
+  slug: marqo-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/openapi/marqo-telemetry-api-openapi.yml
 description: ''
 domains:
 - caa:

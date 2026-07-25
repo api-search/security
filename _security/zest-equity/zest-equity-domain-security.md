@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: zest-equity-openapi-original.json
-  format: json
-  label: Zest Public API
-  slug: zest-public-api
+- filename: zest-equity-authentication-api-openapi.yml
+  format: yaml
+  label: Zest Equity Authentication API
+  slug: zest-equity-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-authentication-api-openapi.yml
+- filename: zest-equity-contracts-api-openapi.yml
+  format: yaml
+  label: Zest Equity Contracts API
+  slug: zest-equity-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-contracts-api-openapi.yml
+- filename: zest-equity-investors-api-openapi.yml
+  format: yaml
+  label: Zest Equity Investors API
+  slug: zest-equity-investors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-investors-api-openapi.yml
+- filename: zest-equity-spv-requests-api-openapi.yml
+  format: yaml
+  label: Zest Equity SPV Requests API
+  slug: zest-equity-spv-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-spv-requests-api-openapi.yml
+- filename: zest-equity-subscription-forms-api-openapi.yml
+  format: yaml
+  label: Zest Equity Subscription Forms API
+  slug: zest-equity-subscription-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-subscription-forms-api-openapi.yml
+- filename: zest-equity-subscription-fundings-api-openapi.yml
+  format: yaml
+  label: Zest Equity Subscription Fundings API
+  slug: zest-equity-subscription-fundings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-subscription-fundings-api-openapi.yml
+- filename: zest-equity-subscriptions-api-openapi.yml
+  format: yaml
+  label: Zest Equity Subscriptions API
+  slug: zest-equity-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-subscriptions-api-openapi.yml
+- filename: zest-equity-system-api-openapi.yml
+  format: yaml
+  label: Zest Equity System API
+  slug: zest-equity-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-system-api-openapi.yml
 description: ''
 domains:
 - caa: []

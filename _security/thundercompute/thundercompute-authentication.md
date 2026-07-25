@@ -1,24 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: thundercompute-openapi.yml
+- filename: thundercompute-instances-api-openapi.yml
   format: yaml
   label: Thunder Compute Instances API
   slug: thundercompute-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-openapi.yml
-- filename: thundercompute-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-instances-api-openapi.yml
+- filename: thundercompute-pricing-api-openapi.yml
+  format: yaml
+  label: Thunder Compute Pricing API
+  slug: thundercompute-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-pricing-api-openapi.yml
+- filename: thundercompute-snapshots-api-openapi.yml
   format: yaml
   label: Thunder Compute Snapshots API
   slug: thundercompute-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-openapi.yml
-- filename: thundercompute-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-snapshots-api-openapi.yml
+- filename: thundercompute-specs-api-openapi.yml
   format: yaml
-  label: Thunder Compute Account API
-  slug: thundercompute-account-api
+  label: Thunder Compute Specs API
+  slug: thundercompute-specs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-specs-api-openapi.yml
+- filename: thundercompute-ssh-keys-api-openapi.yml
+  format: yaml
+  label: Thunder Compute SSH Keys API
+  slug: thundercompute-ssh-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-ssh-keys-api-openapi.yml
+- filename: thundercompute-templates-api-openapi.yml
+  format: yaml
+  label: Thunder Compute Templates API
+  slug: thundercompute-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-templates-api-openapi.yml
+- filename: thundercompute-tokens-api-openapi.yml
+  format: yaml
+  label: Thunder Compute Tokens API
+  slug: thundercompute-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-tokens-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: uncovr-api-openapi-original.json
-  format: json
-  label: Uncovr API
-  slug: uncovr-api
+- filename: uncovr-inference-v3-backwards-compatible-api-openapi.yml
+  format: yaml
+  label: Uncovr Inference (V3, Backwards Compatible) API
+  slug: uncovr-inference-v3-backwards-compatible-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uncovr/refs/heads/main/openapi/uncovr-api-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/uncovr/refs/heads/main/openapi/uncovr-inference-v3-backwards-compatible-api-openapi.yml
 auth_types:
 - http
 description: ''

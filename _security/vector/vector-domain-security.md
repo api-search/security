@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: vector-observability-api-openapi.yml
+- filename: vector-health-api-openapi.yml
   format: yaml
-  label: Vector Observability API
-  slug: vector-observability-api
+  label: Vector Health API
+  slug: vector-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vector/refs/heads/main/openapi/vector-observability-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vector/refs/heads/main/openapi/vector-health-api-openapi.yml
 description: ''
 domains:
 - caa: []

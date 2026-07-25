@@ -1,545 +1,3389 @@
 ---
 api_specs:
-- filename: admin-openapi-original.yml
+- filename: microsoft-graph-admin-admin-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Admin
-  slug: microsoft-graph-admin
+  label: Microsoft Graph Admin.admin API
+  slug: microsoft-graph-admin-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/admin-openapi-original.yml
-- filename: agreementacceptances-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-admin-admin-api-openapi.yml
+- filename: microsoft-graph-admin-adminmicrosoft365apps-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Agreement Acceptances
-  slug: microsoft-graph-agreement-acceptances
+  label: Microsoft Graph admin.adminMicrosoft365Apps API
+  slug: microsoft-graph-admin-adminmicrosoft365apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/agreementacceptances-openapi-original.yml
-- filename: agreements-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-admin-adminmicrosoft365apps-api-openapi.yml
+- filename: microsoft-graph-admin-adminreportsettings-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Agreements
-  slug: microsoft-graph-agreements
+  label: Microsoft Graph admin.adminReportSettings API
+  slug: microsoft-graph-admin-adminreportsettings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/agreements-openapi-original.yml
-- filename: appcatalogs-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-admin-adminreportsettings-api-openapi.yml
+- filename: microsoft-graph-admin-consent-policy-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Applicaiton Catalogs
-  slug: microsoft-graph-applicaiton-catalogs
+  label: Microsoft Graph Admin Consent Policy API
+  slug: microsoft-graph-admin-consent-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/appcatalogs-openapi-original.yml
-- filename: applications-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-admin-consent-policy-api-openapi.yml
+- filename: microsoft-graph-admin-edge-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Applications
-  slug: microsoft-graph-applications
+  label: Microsoft Graph Admin.edge API
+  slug: microsoft-graph-admin-edge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/applications-openapi-original.yml
-- filename: applicationtemplates-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-admin-edge-api-openapi.yml
+- filename: microsoft-graph-admin-peopleadminsettings-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Application Templates
-  slug: microsoft-graph-application-templates
+  label: Microsoft Graph admin.peopleAdminSettings API
+  slug: microsoft-graph-admin-peopleadminsettings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/applicationtemplates-openapi-original.yml
-- filename: auditlogs-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-admin-peopleadminsettings-api-openapi.yml
+- filename: microsoft-graph-admin-serviceannouncement-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Audit Logs
-  slug: microsoft-graph-audit-logs
+  label: Microsoft Graph admin.serviceAnnouncement API
+  slug: microsoft-graph-admin-serviceannouncement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/auditlogs-openapi-original.yml
-- filename: authenticationmethodconfigurations-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-admin-serviceannouncement-api-openapi.yml
+- filename: microsoft-graph-admin-sharepoint-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Authentication Method Configurations
-  slug: microsoft-graph-authentication-method-configurations
+  label: Microsoft Graph Admin.sharepoint API
+  slug: microsoft-graph-admin-sharepoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/authenticationmethodconfigurations-openapi-original.yml
-- filename: authenticationmethodspolicy-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-admin-sharepoint-api-openapi.yml
+- filename: microsoft-graph-administration-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Authentication Methods Policies
-  slug: microsoft-graph-authentication-methods-policies
+  label: Microsoft Graph Administration API
+  slug: microsoft-graph-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/authenticationmethodspolicy-openapi-original.yml
-- filename: certificatebasedauthconfiguration-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-administration-api-openapi.yml
+- filename: microsoft-graph-administrative-units-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Certificate Based Authorization Configuration
-  slug: microsoft-graph-certificate-based-authorization-configuration
+  label: Microsoft Graph Administrative Units API
+  slug: microsoft-graph-administrative-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/certificatebasedauthconfiguration-openapi-original.yml
-- filename: chats-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-administrative-units-api-openapi.yml
+- filename: microsoft-graph-agreement-acceptances-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Chats
-  slug: microsoft-graph-chats
+  label: Microsoft Graph Agreement Acceptances API
+  slug: microsoft-graph-agreement-acceptances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/chats-openapi-original.yml
-- filename: communications-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-agreement-acceptances-api-openapi.yml
+- filename: microsoft-graph-agreement-file-localizations-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Communications
-  slug: microsoft-graph-communications
+  label: Microsoft Graph Agreement File Localizations API
+  slug: microsoft-graph-agreement-file-localizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/communications-openapi-original.yml
-- filename: compliance-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-agreement-file-localizations-api-openapi.yml
+- filename: microsoft-graph-agreement-file-versions-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Compliance
-  slug: microsoft-graph-compliance
+  label: Microsoft Graph Agreement File Versions API
+  slug: microsoft-graph-agreement-file-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/compliance-openapi-original.yml
-- filename: connections-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-agreement-file-versions-api-openapi.yml
+- filename: microsoft-graph-agreement-files-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Connections
-  slug: microsoft-graph-connections
+  label: Microsoft Graph Agreement Files API
+  slug: microsoft-graph-agreement-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/connections-openapi-original.yml
-- filename: contacts-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-agreement-files-api-openapi.yml
+- filename: microsoft-graph-agreementacceptances-agreementacceptance-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Contacts
-  slug: microsoft-graph-contacts
+  label: Microsoft Graph agreementAcceptances.agreementAcceptance API
+  slug: microsoft-graph-agreementacceptances-agreementacceptance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/contacts-openapi-original.yml
-- filename: contracts-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-agreementacceptances-agreementacceptance-api-openapi.yml
+- filename: microsoft-graph-agreements-agreement-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Contracts
-  slug: microsoft-graph-contracts
+  label: Microsoft Graph Agreements.agreement API
+  slug: microsoft-graph-agreements-agreement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/contracts-openapi-original.yml
-- filename: copilot-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-agreements-agreement-api-openapi.yml
+- filename: microsoft-graph-agreements-agreementacceptance-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Copilot
-  slug: microsoft-graph-copilot
+  label: Microsoft Graph agreements.agreementAcceptance API
+  slug: microsoft-graph-agreements-agreementacceptance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/copilot-openapi-original.yml
-- filename: datapolicyoperations-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-agreements-agreementacceptance-api-openapi.yml
+- filename: microsoft-graph-agreements-agreementfile-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Data Policy Operations
-  slug: microsoft-graph-data-policy-operations
+  label: Microsoft Graph agreements.agreementFile API
+  slug: microsoft-graph-agreements-agreementfile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/datapolicyoperations-openapi-original.yml
-- filename: deviceappmanagement-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-agreements-agreementfile-api-openapi.yml
+- filename: microsoft-graph-agreements-agreementfilelocalization-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Device Application Management
-  slug: microsoft-graph-device-application-management
+  label: Microsoft Graph agreements.agreementFileLocalization API
+  slug: microsoft-graph-agreements-agreementfilelocalization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/deviceappmanagement-openapi-original.yml
-- filename: devicemanagement-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-agreements-agreementfilelocalization-api-openapi.yml
+- filename: microsoft-graph-agreements-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Device Management
-  slug: microsoft-graph-device-management
+  label: Microsoft Graph Agreements API
+  slug: microsoft-graph-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/devicemanagement-openapi-original.yml
-- filename: devices-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-agreements-api-openapi.yml
+- filename: microsoft-graph-app-catalogs-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Devices
-  slug: microsoft-graph-devices
+  label: Microsoft Graph App Catalogs API
+  slug: microsoft-graph-app-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/devices-openapi-original.yml
-- filename: directory-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-app-catalogs-api-openapi.yml
+- filename: microsoft-graph-app-catalogs-teams-apps-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Directory
-  slug: microsoft-graph-directory
+  label: Microsoft Graph App Catalogs Teams Apps API
+  slug: microsoft-graph-app-catalogs-teams-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/directory-openapi-original.yml
-- filename: directoryobjects-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-app-catalogs-teams-apps-api-openapi.yml
+- filename: microsoft-graph-appcatalogs-appcatalogs-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Directory Objects
-  slug: microsoft-graph-directory-objects
+  label: Microsoft Graph appCatalogs.appCatalogs API
+  slug: microsoft-graph-appcatalogs-appcatalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/directoryobjects-openapi-original.yml
-- filename: directoryroles-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-appcatalogs-appcatalogs-api-openapi.yml
+- filename: microsoft-graph-appcatalogs-teamsapp-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Directory Roles
-  slug: microsoft-graph-directory-roles
+  label: Microsoft Graph appCatalogs.teamsApp API
+  slug: microsoft-graph-appcatalogs-teamsapp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/directoryroles-openapi-original.yml
-- filename: directoryroletemplates-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-appcatalogs-teamsapp-api-openapi.yml
+- filename: microsoft-graph-application-templates-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Directory Role Templates
-  slug: microsoft-graph-directory-role-templates
+  label: Microsoft Graph Application Templates API
+  slug: microsoft-graph-application-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/directoryroletemplates-openapi-original.yml
-- filename: domaindnsrecords-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-application-templates-api-openapi.yml
+- filename: microsoft-graph-application-templates-instantiate-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Domain DNS Records
-  slug: microsoft-graph-domain-dns-records
+  label: Microsoft Graph Application Templates Instantiate API
+  slug: microsoft-graph-application-templates-instantiate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/domaindnsrecords-openapi-original.yml
-- filename: domains-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-application-templates-instantiate-api-openapi.yml
+- filename: microsoft-graph-applications-add-key-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Domains
-  slug: microsoft-graph-domains
+  label: Microsoft Graph Applications Add Key API
+  slug: microsoft-graph-applications-add-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/domains-openapi-original.yml
-- filename: drives-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-add-key-api-openapi.yml
+- filename: microsoft-graph-applications-add-password-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Drives
-  slug: microsoft-graph-drives
+  label: Microsoft Graph Applications Add Password API
+  slug: microsoft-graph-applications-add-password-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/drives-openapi-original.yml
-- filename: education-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-add-password-api-openapi.yml
+- filename: microsoft-graph-applications-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Education
-  slug: microsoft-graph-education
+  label: Microsoft Graph Applications API
+  slug: microsoft-graph-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/education-openapi-original.yml
-- filename: employeeexperience-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-api-openapi.yml
+- filename: microsoft-graph-applications-app-id-app-id-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Employee Experience
-  slug: microsoft-graph-employee-experience
+  label: Microsoft Graph Applications(app Id='{app Id}') API
+  slug: microsoft-graph-applications-app-id-app-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/employeeexperience-openapi-original.yml
-- filename: external-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-app-id-app-id-api-openapi.yml
+- filename: microsoft-graph-applications-app-management-policies-api-openapi.yml
   format: yaml
-  label: Microsoft Graph External
-  slug: microsoft-graph-external
+  label: Microsoft Graph Applications App Management Policies API
+  slug: microsoft-graph-applications-app-management-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/external-openapi-original.yml
-- filename: filteroperators-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-app-management-policies-api-openapi.yml
+- filename: microsoft-graph-applications-application-actions-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Filter Operators
-  slug: microsoft-graph-filter-operators
+  label: Microsoft Graph applications.application.Actions API
+  slug: microsoft-graph-applications-application-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/filteroperators-openapi-original.yml
-- filename: functions-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-application-actions-api-openapi.yml
+- filename: microsoft-graph-applications-application-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Functions
-  slug: microsoft-graph-functions
+  label: Microsoft Graph Applications.application API
+  slug: microsoft-graph-applications-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/functions-openapi-original.yml
-- filename: grouplifecyclepolicies-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-application-api-openapi.yml
+- filename: microsoft-graph-applications-application-functions-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Group Lifecycle Policies
-  slug: microsoft-graph-group-lifecycle-policies
+  label: Microsoft Graph applications.application.Functions API
+  slug: microsoft-graph-applications-application-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/grouplifecyclepolicies-openapi-original.yml
-- filename: groups-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-application-functions-api-openapi.yml
+- filename: microsoft-graph-applications-appmanagementpolicy-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Groups
-  slug: microsoft-graph-groups
+  label: Microsoft Graph applications.appManagementPolicy API
+  slug: microsoft-graph-applications-appmanagementpolicy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/groups-openapi-original.yml
-- filename: groupsettings-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-appmanagementpolicy-api-openapi.yml
+- filename: microsoft-graph-applications-check-member-groups-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Group Settings
-  slug: microsoft-graph-group-settings
+  label: Microsoft Graph Applications Check Member Groups API
+  slug: microsoft-graph-applications-check-member-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/groupsettings-openapi-original.yml
-- filename: groupsettingtemplates-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-check-member-groups-api-openapi.yml
+- filename: microsoft-graph-applications-check-member-objects-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Group Setting Templates
-  slug: microsoft-graph-group-setting-templates
+  label: Microsoft Graph Applications Check Member Objects API
+  slug: microsoft-graph-applications-check-member-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/groupsettingtemplates-openapi-original.yml
-- filename: identity-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-check-member-objects-api-openapi.yml
+- filename: microsoft-graph-applications-created-on-behalf-of-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Identity
-  slug: microsoft-graph-identity
+  label: Microsoft Graph Applications Created on Behalf Of API
+  slug: microsoft-graph-applications-created-on-behalf-of-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/identity-openapi-original.yml
-- filename: identitygovernance-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-created-on-behalf-of-api-openapi.yml
+- filename: microsoft-graph-applications-delta-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Identity Governance
-  slug: microsoft-graph-identity-governance
+  label: Microsoft Graph Applications Delta() API
+  slug: microsoft-graph-applications-delta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/identitygovernance-openapi-original.yml
-- filename: identityprotection-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-delta-api-openapi.yml
+- filename: microsoft-graph-applications-directoryobject-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Identity Protection
-  slug: microsoft-graph-identity-protection
+  label: Microsoft Graph applications.directoryObject API
+  slug: microsoft-graph-applications-directoryobject-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/identityprotection-openapi-original.yml
-- filename: identityproviders-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-directoryobject-api-openapi.yml
+- filename: microsoft-graph-applications-extension-properties-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Identity Providers
-  slug: microsoft-graph-identity-providers
+  label: Microsoft Graph Applications Extension Properties API
+  slug: microsoft-graph-applications-extension-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/identityproviders-openapi-original.yml
-- filename: informationprotection-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-extension-properties-api-openapi.yml
+- filename: microsoft-graph-applications-extensionproperty-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Information Protection
-  slug: microsoft-graph-information-protection
+  label: Microsoft Graph applications.extensionProperty API
+  slug: microsoft-graph-applications-extensionproperty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/informationprotection-openapi-original.yml
-- filename: invitations-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-extensionproperty-api-openapi.yml
+- filename: microsoft-graph-applications-federated-identity-credentials-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Invitations
-  slug: microsoft-graph-invitations
+  label: Microsoft Graph Applications Federated Identity Credentials API
+  slug: microsoft-graph-applications-federated-identity-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/invitations-openapi-original.yml
-- filename: me-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-federated-identity-credentials-api-openapi.yml
+- filename: microsoft-graph-applications-federated-identity-credentials-name-name-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Me
-  slug: microsoft-graph-me
+  label: Microsoft Graph Applications Federated Identity Credentials(name='{name}') API
+  slug: microsoft-graph-applications-federated-identity-credentials-name-name-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/me-openapi-original.yml
-- filename: oauth2permissiongrants-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-federated-identity-credentials-name-name-api-openapi.yml
+- filename: microsoft-graph-applications-federatedidentitycredential-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Oauth2 Permission Grants
-  slug: microsoft-graph-oauth2-permission-grants
+  label: Microsoft Graph applications.federatedIdentityCredential API
+  slug: microsoft-graph-applications-federatedidentitycredential-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/oauth2permissiongrants-openapi-original.yml
-- filename: organization-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-federatedidentitycredential-api-openapi.yml
+- filename: microsoft-graph-applications-get-available-extension-properties-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Organizations
-  slug: microsoft-graph-organizations
+  label: Microsoft Graph Applications Get Available Extension Properties API
+  slug: microsoft-graph-applications-get-available-extension-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/organization-openapi-original.yml
-- filename: permissiongrants-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-get-available-extension-properties-api-openapi.yml
+- filename: microsoft-graph-applications-get-by-ids-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Permission Grants
-  slug: microsoft-graph-permission-grants
+  label: Microsoft Graph Applications Get by Ids API
+  slug: microsoft-graph-applications-get-by-ids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/permissiongrants-openapi-original.yml
-- filename: places-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-get-by-ids-api-openapi.yml
+- filename: microsoft-graph-applications-get-member-groups-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Places
-  slug: microsoft-graph-places
+  label: Microsoft Graph Applications Get Member Groups API
+  slug: microsoft-graph-applications-get-member-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/places-openapi-original.yml
-- filename: planner-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-get-member-groups-api-openapi.yml
+- filename: microsoft-graph-applications-get-member-objects-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Planner
-  slug: microsoft-graph-planner
+  label: Microsoft Graph Applications Get Member Objects API
+  slug: microsoft-graph-applications-get-member-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/planner-openapi-original.yml
-- filename: policies-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-get-member-objects-api-openapi.yml
+- filename: microsoft-graph-applications-home-realm-discovery-policies-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Policies
-  slug: microsoft-graph-policies
+  label: Microsoft Graph Applications Home Realm Discovery Policies API
+  slug: microsoft-graph-applications-home-realm-discovery-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/policies-openapi-original.yml
-- filename: print-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-home-realm-discovery-policies-api-openapi.yml
+- filename: microsoft-graph-applications-homerealmdiscoverypolicy-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Print
-  slug: microsoft-graph-print
+  label: Microsoft Graph applications.homeRealmDiscoveryPolicy API
+  slug: microsoft-graph-applications-homerealmdiscoverypolicy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/print-openapi-original.yml
-- filename: privacy-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-homerealmdiscoverypolicy-api-openapi.yml
+- filename: microsoft-graph-applications-logo-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Privacy
-  slug: microsoft-graph-privacy
+  label: Microsoft Graph Applications Logo API
+  slug: microsoft-graph-applications-logo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/privacy-openapi-original.yml
-- filename: reports-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-logo-api-openapi.yml
+- filename: microsoft-graph-applications-owners-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Reports
-  slug: microsoft-graph-reports
+  label: Microsoft Graph Applications Owners API
+  slug: microsoft-graph-applications-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/reports-openapi-original.yml
-- filename: rolemanagement-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-owners-api-openapi.yml
+- filename: microsoft-graph-applications-remove-key-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Role Management
-  slug: microsoft-graph-role-management
+  label: Microsoft Graph Applications Remove Key API
+  slug: microsoft-graph-applications-remove-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/rolemanagement-openapi-original.yml
-- filename: schemaextensions-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-remove-key-api-openapi.yml
+- filename: microsoft-graph-applications-remove-password-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Schema Extensions
-  slug: microsoft-graph-schema-extensions
+  label: Microsoft Graph Applications Remove Password API
+  slug: microsoft-graph-applications-remove-password-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/schemaextensions-openapi-original.yml
-- filename: scopedrolememberships-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-remove-password-api-openapi.yml
+- filename: microsoft-graph-applications-restore-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Scoped Role Memberships
-  slug: microsoft-graph-scoped-role-memberships
+  label: Microsoft Graph Applications Restore API
+  slug: microsoft-graph-applications-restore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/scopedrolememberships-openapi-original.yml
-- filename: search-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-restore-api-openapi.yml
+- filename: microsoft-graph-applications-set-verified-publisher-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Search
-  slug: microsoft-graph-search
+  label: Microsoft Graph Applications Set Verified Publisher API
+  slug: microsoft-graph-applications-set-verified-publisher-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/search-openapi-original.yml
-- filename: security-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-set-verified-publisher-api-openapi.yml
+- filename: microsoft-graph-applications-synchronization-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Security
-  slug: microsoft-graph-security
+  label: Microsoft Graph Applications Synchronization API
+  slug: microsoft-graph-applications-synchronization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/security-openapi-original.yml
-- filename: serviceprincipals-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-synchronization-api-openapi.yml
+- filename: microsoft-graph-applications-token-issuance-policies-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Service Principals
-  slug: microsoft-graph-service-principals
+  label: Microsoft Graph Applications Token Issuance Policies API
+  slug: microsoft-graph-applications-token-issuance-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/serviceprincipals-openapi-original.yml
-- filename: shares-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-token-issuance-policies-api-openapi.yml
+- filename: microsoft-graph-applications-token-lifetime-policies-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Shares
-  slug: microsoft-graph-shares
+  label: Microsoft Graph Applications Token Lifetime Policies API
+  slug: microsoft-graph-applications-token-lifetime-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/shares-openapi-original.yml
-- filename: sites-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-token-lifetime-policies-api-openapi.yml
+- filename: microsoft-graph-applications-tokenissuancepolicy-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Sites
-  slug: microsoft-graph-sites
+  label: Microsoft Graph applications.tokenIssuancePolicy API
+  slug: microsoft-graph-applications-tokenissuancepolicy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/sites-openapi-original.yml
-- filename: solutions-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-tokenissuancepolicy-api-openapi.yml
+- filename: microsoft-graph-applications-tokenlifetimepolicy-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Solutions
-  slug: microsoft-graph-solutions
+  label: Microsoft Graph applications.tokenLifetimePolicy API
+  slug: microsoft-graph-applications-tokenlifetimepolicy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/solutions-openapi-original.yml
-- filename: storage-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-tokenlifetimepolicy-api-openapi.yml
+- filename: microsoft-graph-applications-unique-name-unique-name-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Storage
-  slug: microsoft-graph-storage
+  label: Microsoft Graph Applications(unique Name='{unique Name}') API
+  slug: microsoft-graph-applications-unique-name-unique-name-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/storage-openapi-original.yml
-- filename: subscribedskus-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-unique-name-unique-name-api-openapi.yml
+- filename: microsoft-graph-applications-unset-verified-publisher-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Subscribed SKUs
-  slug: microsoft-graph-subscribed-skus
+  label: Microsoft Graph Applications Unset Verified Publisher API
+  slug: microsoft-graph-applications-unset-verified-publisher-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/subscribedskus-openapi-original.yml
-- filename: subscriptions-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-unset-verified-publisher-api-openapi.yml
+- filename: microsoft-graph-applications-validate-properties-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Subscriptions
-  slug: microsoft-graph-subscriptions
+  label: Microsoft Graph Applications Validate Properties API
+  slug: microsoft-graph-applications-validate-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/subscriptions-openapi-original.yml
-- filename: teams-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-validate-properties-api-openapi.yml
+- filename: microsoft-graph-applicationtemplates-applicationtemplate-actions-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Teams
-  slug: microsoft-graph-teams
+  label: Microsoft Graph applicationTemplates.applicationTemplate.Actions API
+  slug: microsoft-graph-applicationtemplates-applicationtemplate-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/teams-openapi-original.yml
-- filename: teamstemplates-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applicationtemplates-applicationtemplate-actions-api-openapi.yml
+- filename: microsoft-graph-applicationtemplates-applicationtemplate-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Teams Templates
-  slug: microsoft-graph-teams-templates
+  label: Microsoft Graph applicationTemplates.applicationTemplate API
+  slug: microsoft-graph-applicationtemplates-applicationtemplate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/teamstemplates-openapi-original.yml
-- filename: teamwork-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applicationtemplates-applicationtemplate-api-openapi.yml
+- filename: microsoft-graph-audit-logs-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Teamwork
-  slug: microsoft-graph-teamwork
+  label: Microsoft Graph Audit Logs API
+  slug: microsoft-graph-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/teamwork-openapi-original.yml
-- filename: tenantrelationships-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-audit-logs-api-openapi.yml
+- filename: microsoft-graph-audit-logs-directory-audits-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Tenant Relationships
-  slug: microsoft-graph-tenant-relationships
+  label: Microsoft Graph Audit Logs Directory Audits API
+  slug: microsoft-graph-audit-logs-directory-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/tenantrelationships-openapi-original.yml
-- filename: users-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-audit-logs-directory-audits-api-openapi.yml
+- filename: microsoft-graph-audit-logs-provisioning-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Users
-  slug: microsoft-graph-users
+  label: Microsoft Graph Audit Logs Provisioning API
+  slug: microsoft-graph-audit-logs-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/users-openapi-original.yml
-- filename: token-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-audit-logs-provisioning-api-openapi.yml
+- filename: microsoft-graph-audit-logs-sign-ins-api-openapi.yml
   format: yaml
-  label: Token
-  slug: token
+  label: Microsoft Graph Audit Logs Sign Ins API
+  slug: microsoft-graph-audit-logs-sign-ins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/properties/token-openapi-original.yml
-- filename: workspaces-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-audit-logs-sign-ins-api-openapi.yml
+- filename: microsoft-graph-auditlogs-auditlogroot-api-openapi.yml
   format: yaml
-  label: Workspaces
-  slug: workspaces
+  label: Microsoft Graph auditLogs.auditLogRoot API
+  slug: microsoft-graph-auditlogs-auditlogroot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/properties/workspaces-openapi-original.yml
-- filename: sites-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-auditlogs-auditlogroot-api-openapi.yml
+- filename: microsoft-graph-auditlogs-directoryaudit-api-openapi.yml
   format: yaml
-  label: Sites
-  slug: sites
+  label: Microsoft Graph auditLogs.directoryAudit API
+  slug: microsoft-graph-auditlogs-directoryaudit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/sites-openapi-original.yml
-- filename: collections-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-auditlogs-directoryaudit-api-openapi.yml
+- filename: microsoft-graph-auditlogs-provisioningobjectsummary-api-openapi.yml
   format: yaml
-  label: Collections
-  slug: collections
+  label: Microsoft Graph auditLogs.provisioningObjectSummary API
+  slug: microsoft-graph-auditlogs-provisioningobjectsummary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/properties/collections-openapi-original.yml
-- filename: pages-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-auditlogs-provisioningobjectsummary-api-openapi.yml
+- filename: microsoft-graph-auditlogs-signin-api-openapi.yml
   format: yaml
-  label: Pages
-  slug: pages
+  label: Microsoft Graph auditLogs.signIn API
+  slug: microsoft-graph-auditlogs-signin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/properties/pages-openapi-original.yml
-- filename: assets-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-auditlogs-signin-api-openapi.yml
+- filename: microsoft-graph-authenticationmethodconfigurations-authenticationmethodconfiguration-api-openapi.yml
   format: yaml
-  label: Assets
-  slug: assets
+  label: Microsoft Graph authenticationMethodConfigurations.authenticationMethodConfiguration API
+  slug: microsoft-graph-authenticationmethodconfigurations-authenticationmethodconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/properties/assets-openapi-original.yml
-- filename: asset-folders-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-authenticationmethodconfigurations-authenticationmethodconfiguration-api-openapi.yml
+- filename: microsoft-graph-authenticationmethodspolicy-authenticationmethodconfiguration-api-openapi.yml
   format: yaml
-  label: Asset Folders
-  slug: asset-folders
+  label: Microsoft Graph authenticationMethodsPolicy.authenticationMethodConfiguration API
+  slug: microsoft-graph-authenticationmethodspolicy-authenticationmethodconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/properties/asset-folders-openapi-original.yml
-- filename: webhooks-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-authenticationmethodspolicy-authenticationmethodconfiguration-api-openapi.yml
+- filename: microsoft-graph-authenticationmethodspolicy-authenticationmethodspolicy-api-openapi.yml
   format: yaml
-  label: Webhooks
-  slug: webhooks
+  label: Microsoft Graph authenticationMethodsPolicy.authenticationMethodsPolicy API
+  slug: microsoft-graph-authenticationmethodspolicy-authenticationmethodspolicy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/properties/webhooks-openapi-original.yml
-- filename: forms-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-authenticationmethodspolicy-authenticationmethodspolicy-api-openapi.yml
+- filename: microsoft-graph-browser-site-lists-api-openapi.yml
   format: yaml
-  label: Forms
-  slug: forms
+  label: Microsoft Graph Browser Site Lists API
+  slug: microsoft-graph-browser-site-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/properties/forms-openapi-original.yml
-- filename: form-submissions-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-browser-site-lists-api-openapi.yml
+- filename: microsoft-graph-certificatebasedauthconfiguration-certificatebasedauthconfiguration-api-openapi.yml
   format: yaml
-  label: Form Submissions
-  slug: form-submissions
+  label: Microsoft Graph certificateBasedAuthConfiguration.certificateBasedAuthConfiguration API
+  slug: microsoft-graph-certificatebasedauthconfiguration-certificatebasedauthconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/properties/form-submissions-openapi-original.yml
-- filename: token-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-certificatebasedauthconfiguration-certificatebasedauthconfiguration-api-openapi.yml
+- filename: microsoft-graph-chats-chat-actions-api-openapi.yml
   format: yaml
-  label: Token
-  slug: token
+  label: Microsoft Graph chats.chat.Actions API
+  slug: microsoft-graph-chats-chat-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/properties/token-openapi-original.yml
-- filename: workspaces-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-chats-chat-actions-api-openapi.yml
+- filename: microsoft-graph-chats-chat-api-openapi.yml
   format: yaml
-  label: Workspaces
-  slug: workspaces
+  label: Microsoft Graph Chats.chat API
+  slug: microsoft-graph-chats-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/properties/workspaces-openapi-original.yml
-- filename: sites-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-chats-chat-api-openapi.yml
+- filename: microsoft-graph-chats-chat-functions-api-openapi.yml
   format: yaml
-  label: Sites
-  slug: sites
+  label: Microsoft Graph chats.chat.Functions API
+  slug: microsoft-graph-chats-chat-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/sites-openapi-original.yml
-- filename: collections-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-chats-chat-functions-api-openapi.yml
+- filename: microsoft-graph-chats-chatmessage-api-openapi.yml
   format: yaml
-  label: Collections
-  slug: collections
+  label: Microsoft Graph chats.chatMessage API
+  slug: microsoft-graph-chats-chatmessage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/properties/collections-openapi-original.yml
-- filename: pages-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-chats-chatmessage-api-openapi.yml
+- filename: microsoft-graph-chats-chatmessageinfo-api-openapi.yml
   format: yaml
-  label: Pages
-  slug: pages
+  label: Microsoft Graph chats.chatMessageInfo API
+  slug: microsoft-graph-chats-chatmessageinfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/properties/pages-openapi-original.yml
-- filename: assets-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-chats-chatmessageinfo-api-openapi.yml
+- filename: microsoft-graph-chats-conversationmember-api-openapi.yml
   format: yaml
-  label: Assets
-  slug: assets
+  label: Microsoft Graph chats.conversationMember API
+  slug: microsoft-graph-chats-conversationmember-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/properties/assets-openapi-original.yml
-- filename: asset-folders-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-chats-conversationmember-api-openapi.yml
+- filename: microsoft-graph-chats-pinnedchatmessageinfo-api-openapi.yml
   format: yaml
-  label: Asset Folders
-  slug: asset-folders
+  label: Microsoft Graph chats.pinnedChatMessageInfo API
+  slug: microsoft-graph-chats-pinnedchatmessageinfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/properties/asset-folders-openapi-original.yml
-- filename: webhooks-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-chats-pinnedchatmessageinfo-api-openapi.yml
+- filename: microsoft-graph-chats-resourcespecificpermissiongrant-api-openapi.yml
   format: yaml
-  label: Webhooks
-  slug: webhooks
+  label: Microsoft Graph chats.resourceSpecificPermissionGrant API
+  slug: microsoft-graph-chats-resourcespecificpermissiongrant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/properties/webhooks-openapi-original.yml
-- filename: forms-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-chats-resourcespecificpermissiongrant-api-openapi.yml
+- filename: microsoft-graph-chats-teamsappinstallation-api-openapi.yml
   format: yaml
-  label: Forms
-  slug: forms
+  label: Microsoft Graph chats.teamsAppInstallation API
+  slug: microsoft-graph-chats-teamsappinstallation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/properties/forms-openapi-original.yml
-- filename: form-submissions-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-chats-teamsappinstallation-api-openapi.yml
+- filename: microsoft-graph-chats-teamstab-api-openapi.yml
   format: yaml
-  label: Form Submissions
-  slug: form-submissions
+  label: Microsoft Graph chats.teamsTab API
+  slug: microsoft-graph-chats-teamstab-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/properties/form-submissions-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-chats-teamstab-api-openapi.yml
+- filename: microsoft-graph-communications-call-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Communications.call API
+  slug: microsoft-graph-communications-call-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-communications-call-api-openapi.yml
+- filename: microsoft-graph-communications-callrecord-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph communications.callRecord API
+  slug: microsoft-graph-communications-callrecord-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-communications-callrecord-api-openapi.yml
+- filename: microsoft-graph-communications-cloudcommunications-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph communications.cloudCommunications.Actions API
+  slug: microsoft-graph-communications-cloudcommunications-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-communications-cloudcommunications-actions-api-openapi.yml
+- filename: microsoft-graph-communications-cloudcommunications-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph communications.cloudCommunications API
+  slug: microsoft-graph-communications-cloudcommunications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-communications-cloudcommunications-api-openapi.yml
+- filename: microsoft-graph-communications-cloudcommunications-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph communications.cloudCommunications.Functions API
+  slug: microsoft-graph-communications-cloudcommunications-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-communications-cloudcommunications-functions-api-openapi.yml
+- filename: microsoft-graph-communications-onlinemeeting-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph communications.onlineMeeting API
+  slug: microsoft-graph-communications-onlinemeeting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-communications-onlinemeeting-api-openapi.yml
+- filename: microsoft-graph-communications-onlinemeetingengagementconversation-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph communications.onlineMeetingEngagementConversation API
+  slug: microsoft-graph-communications-onlinemeetingengagementconversation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-communications-onlinemeetingengagementconversation-api-openapi.yml
+- filename: microsoft-graph-communications-presence-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Communications.presence API
+  slug: microsoft-graph-communications-presence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-communications-presence-api-openapi.yml
+- filename: microsoft-graph-compliance-compliance-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Compliance.compliance API
+  slug: microsoft-graph-compliance-compliance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-compliance-compliance-api-openapi.yml
+- filename: microsoft-graph-connections-connectionoperation-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph connections.connectionOperation API
+  slug: microsoft-graph-connections-connectionoperation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-connections-connectionoperation-api-openapi.yml
+- filename: microsoft-graph-connections-externalconnection-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph connections.externalConnection API
+  slug: microsoft-graph-connections-externalconnection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-connections-externalconnection-api-openapi.yml
+- filename: microsoft-graph-connections-externalgroup-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph connections.externalGroup API
+  slug: microsoft-graph-connections-externalgroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-connections-externalgroup-api-openapi.yml
+- filename: microsoft-graph-connections-externalitem-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph connections.externalItem API
+  slug: microsoft-graph-connections-externalitem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-connections-externalitem-api-openapi.yml
+- filename: microsoft-graph-connections-schema-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Connections.schema API
+  slug: microsoft-graph-connections-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-connections-schema-api-openapi.yml
+- filename: microsoft-graph-contacts-directoryobject-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph contacts.directoryObject API
+  slug: microsoft-graph-contacts-directoryobject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-contacts-directoryobject-api-openapi.yml
+- filename: microsoft-graph-contacts-onpremisessyncbehavior-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph contacts.onPremisesSyncBehavior API
+  slug: microsoft-graph-contacts-onpremisessyncbehavior-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-contacts-onpremisessyncbehavior-api-openapi.yml
+- filename: microsoft-graph-contacts-orgcontact-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph contacts.orgContact.Actions API
+  slug: microsoft-graph-contacts-orgcontact-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-contacts-orgcontact-actions-api-openapi.yml
+- filename: microsoft-graph-contacts-orgcontact-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph contacts.orgContact API
+  slug: microsoft-graph-contacts-orgcontact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-contacts-orgcontact-api-openapi.yml
+- filename: microsoft-graph-contacts-orgcontact-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph contacts.orgContact.Functions API
+  slug: microsoft-graph-contacts-orgcontact-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-contacts-orgcontact-functions-api-openapi.yml
+- filename: microsoft-graph-contacts-serviceprovisioningerror-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph contacts.serviceProvisioningError API
+  slug: microsoft-graph-contacts-serviceprovisioningerror-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-contacts-serviceprovisioningerror-api-openapi.yml
+- filename: microsoft-graph-contracts-contract-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph contracts.contract.Actions API
+  slug: microsoft-graph-contracts-contract-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-contracts-contract-actions-api-openapi.yml
+- filename: microsoft-graph-contracts-contract-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Contracts.contract API
+  slug: microsoft-graph-contracts-contract-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-contracts-contract-api-openapi.yml
+- filename: microsoft-graph-contracts-contract-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph contracts.contract.Functions API
+  slug: microsoft-graph-contracts-contract-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-contracts-contract-functions-api-openapi.yml
+- filename: microsoft-graph-copilot-administration-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Copilot Administration API
+  slug: microsoft-graph-copilot-administration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-copilot-administration-api-openapi.yml
+- filename: microsoft-graph-copilot-aiinteractionhistory-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph copilot.aiInteractionHistory API
+  slug: microsoft-graph-copilot-aiinteractionhistory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-copilot-aiinteractionhistory-api-openapi.yml
+- filename: microsoft-graph-copilot-aiuser-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph copilot.aiUser API
+  slug: microsoft-graph-copilot-aiuser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-copilot-aiuser-api-openapi.yml
+- filename: microsoft-graph-copilot-copilotadmin-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph copilot.copilotAdmin API
+  slug: microsoft-graph-copilot-copilotadmin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-copilot-copilotadmin-api-openapi.yml
+- filename: microsoft-graph-copilot-copilotreportroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph copilot.copilotReportRoot API
+  slug: microsoft-graph-copilot-copilotreportroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-copilot-copilotreportroot-api-openapi.yml
+- filename: microsoft-graph-copilot-copilotroot-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph copilot.copilotRoot.Actions API
+  slug: microsoft-graph-copilot-copilotroot-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-copilot-copilotroot-actions-api-openapi.yml
+- filename: microsoft-graph-copilot-copilotroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph copilot.copilotRoot API
+  slug: microsoft-graph-copilot-copilotroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-copilot-copilotroot-api-openapi.yml
+- filename: microsoft-graph-current-user-acceptances-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Current User Acceptances API
+  slug: microsoft-graph-current-user-acceptances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-current-user-acceptances-api-openapi.yml
+- filename: microsoft-graph-datapolicyoperations-datapolicyoperation-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph dataPolicyOperations.dataPolicyOperation API
+  slug: microsoft-graph-datapolicyoperations-datapolicyoperation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-datapolicyoperations-datapolicyoperation-api-openapi.yml
+- filename: microsoft-graph-deviceappmanagement-androidmanagedappprotection-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceAppManagement.androidManagedAppProtection API
+  slug: microsoft-graph-deviceappmanagement-androidmanagedappprotection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-deviceappmanagement-androidmanagedappprotection-api-openapi.yml
+- filename: microsoft-graph-deviceappmanagement-defaultmanagedappprotection-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceAppManagement.defaultManagedAppProtection API
+  slug: microsoft-graph-deviceappmanagement-defaultmanagedappprotection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-deviceappmanagement-defaultmanagedappprotection-api-openapi.yml
+- filename: microsoft-graph-deviceappmanagement-deviceappmanagement-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceAppManagement.deviceAppManagement.Actions API
+  slug: microsoft-graph-deviceappmanagement-deviceappmanagement-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-deviceappmanagement-deviceappmanagement-actions-api-openapi.yml
+- filename: microsoft-graph-deviceappmanagement-deviceappmanagement-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceAppManagement.deviceAppManagement API
+  slug: microsoft-graph-deviceappmanagement-deviceappmanagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-deviceappmanagement-deviceappmanagement-api-openapi.yml
+- filename: microsoft-graph-deviceappmanagement-iosmanagedappprotection-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceAppManagement.iosManagedAppProtection API
+  slug: microsoft-graph-deviceappmanagement-iosmanagedappprotection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-deviceappmanagement-iosmanagedappprotection-api-openapi.yml
+- filename: microsoft-graph-deviceappmanagement-managedapppolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceAppManagement.managedAppPolicy API
+  slug: microsoft-graph-deviceappmanagement-managedapppolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-deviceappmanagement-managedapppolicy-api-openapi.yml
+- filename: microsoft-graph-deviceappmanagement-managedappregistration-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceAppManagement.managedAppRegistration API
+  slug: microsoft-graph-deviceappmanagement-managedappregistration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-deviceappmanagement-managedappregistration-api-openapi.yml
+- filename: microsoft-graph-deviceappmanagement-managedappstatus-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceAppManagement.managedAppStatus API
+  slug: microsoft-graph-deviceappmanagement-managedappstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-deviceappmanagement-managedappstatus-api-openapi.yml
+- filename: microsoft-graph-deviceappmanagement-manageddevicemobileappconfiguration-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceAppManagement.managedDeviceMobileAppConfiguration API
+  slug: microsoft-graph-deviceappmanagement-manageddevicemobileappconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-deviceappmanagement-manageddevicemobileappconfiguration-api-openapi.yml
+- filename: microsoft-graph-deviceappmanagement-managedebook-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceAppManagement.managedEBook API
+  slug: microsoft-graph-deviceappmanagement-managedebook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-deviceappmanagement-managedebook-api-openapi.yml
+- filename: microsoft-graph-deviceappmanagement-mdmwindowsinformationprotectionpolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceAppManagement.mdmWindowsInformationProtectionPolicy API
+  slug: microsoft-graph-deviceappmanagement-mdmwindowsinformationprotectionpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-deviceappmanagement-mdmwindowsinformationprotectionpolicy-api-openapi.yml
+- filename: microsoft-graph-deviceappmanagement-mobileapp-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceAppManagement.mobileApp API
+  slug: microsoft-graph-deviceappmanagement-mobileapp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-deviceappmanagement-mobileapp-api-openapi.yml
+- filename: microsoft-graph-deviceappmanagement-mobileappcategory-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceAppManagement.mobileAppCategory API
+  slug: microsoft-graph-deviceappmanagement-mobileappcategory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-deviceappmanagement-mobileappcategory-api-openapi.yml
+- filename: microsoft-graph-deviceappmanagement-mobileapprelationship-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceAppManagement.mobileAppRelationship API
+  slug: microsoft-graph-deviceappmanagement-mobileapprelationship-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-deviceappmanagement-mobileapprelationship-api-openapi.yml
+- filename: microsoft-graph-deviceappmanagement-targetedmanagedappconfiguration-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceAppManagement.targetedManagedAppConfiguration API
+  slug: microsoft-graph-deviceappmanagement-targetedmanagedappconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-deviceappmanagement-targetedmanagedappconfiguration-api-openapi.yml
+- filename: microsoft-graph-deviceappmanagement-vpptoken-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceAppManagement.vppToken API
+  slug: microsoft-graph-deviceappmanagement-vpptoken-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-deviceappmanagement-vpptoken-api-openapi.yml
+- filename: microsoft-graph-deviceappmanagement-windowsinformationprotectionpolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceAppManagement.windowsInformationProtectionPolicy API
+  slug: microsoft-graph-deviceappmanagement-windowsinformationprotectionpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-deviceappmanagement-windowsinformationprotectionpolicy-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-applepushnotificationcertificate-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.applePushNotificationCertificate API
+  slug: microsoft-graph-devicemanagement-applepushnotificationcertificate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-applepushnotificationcertificate-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-auditevent-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.auditEvent API
+  slug: microsoft-graph-devicemanagement-auditevent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-auditevent-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-compliancemanagementpartner-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.complianceManagementPartner API
+  slug: microsoft-graph-devicemanagement-compliancemanagementpartner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-compliancemanagementpartner-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-detectedapp-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.detectedApp API
+  slug: microsoft-graph-devicemanagement-detectedapp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-detectedapp-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-deviceandappmanagementroleassignment-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.deviceAndAppManagementRoleAssignment API
+  slug: microsoft-graph-devicemanagement-deviceandappmanagementroleassignment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-deviceandappmanagementroleassignment-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-devicecategory-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.deviceCategory API
+  slug: microsoft-graph-devicemanagement-devicecategory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-devicecategory-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-devicecompliancepolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.deviceCompliancePolicy API
+  slug: microsoft-graph-devicemanagement-devicecompliancepolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-devicecompliancepolicy-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-devicecompliancepolicydevicestatesummary-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.deviceCompliancePolicyDeviceStateSummary API
+  slug: microsoft-graph-devicemanagement-devicecompliancepolicydevicestatesummary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-devicecompliancepolicydevicestatesummary-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-devicecompliancepolicysettingstatesummary-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.deviceCompliancePolicySettingStateSummary API
+  slug: microsoft-graph-devicemanagement-devicecompliancepolicysettingstatesummary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-devicecompliancepolicysettingstatesummary-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-deviceconfiguration-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.deviceConfiguration API
+  slug: microsoft-graph-devicemanagement-deviceconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-deviceconfiguration-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-deviceconfigurationdevicestatesummary-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.deviceConfigurationDeviceStateSummary API
+  slug: microsoft-graph-devicemanagement-deviceconfigurationdevicestatesummary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-deviceconfigurationdevicestatesummary-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-deviceenrollmentconfiguration-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.deviceEnrollmentConfiguration API
+  slug: microsoft-graph-devicemanagement-deviceenrollmentconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-deviceenrollmentconfiguration-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-devicemanagement-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.deviceManagement API
+  slug: microsoft-graph-devicemanagement-devicemanagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-devicemanagement-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-devicemanagement-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.deviceManagement.Functions API
+  slug: microsoft-graph-devicemanagement-devicemanagement-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-devicemanagement-functions-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-devicemanagementexchangeconnector-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.deviceManagementExchangeConnector API
+  slug: microsoft-graph-devicemanagement-devicemanagementexchangeconnector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-devicemanagementexchangeconnector-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-devicemanagementpartner-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.deviceManagementPartner API
+  slug: microsoft-graph-devicemanagement-devicemanagementpartner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-devicemanagementpartner-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-devicemanagementreports-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.deviceManagementReports API
+  slug: microsoft-graph-devicemanagement-devicemanagementreports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-devicemanagementreports-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-devicemanagementtroubleshootingevent-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.deviceManagementTroubleshootingEvent API
+  slug: microsoft-graph-devicemanagement-devicemanagementtroubleshootingevent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-devicemanagementtroubleshootingevent-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-importedwindowsautopilotdeviceidentity-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.importedWindowsAutopilotDeviceIdentity API
+  slug: microsoft-graph-devicemanagement-importedwindowsautopilotdeviceidentity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-importedwindowsautopilotdeviceidentity-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-iosupdatedevicestatus-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.iosUpdateDeviceStatus API
+  slug: microsoft-graph-devicemanagement-iosupdatedevicestatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-iosupdatedevicestatus-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-manageddevice-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.managedDevice API
+  slug: microsoft-graph-devicemanagement-manageddevice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-manageddevice-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-manageddeviceoverview-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.managedDeviceOverview API
+  slug: microsoft-graph-devicemanagement-manageddeviceoverview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-manageddeviceoverview-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-mobileapptroubleshootingevent-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.mobileAppTroubleshootingEvent API
+  slug: microsoft-graph-devicemanagement-mobileapptroubleshootingevent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-mobileapptroubleshootingevent-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-mobilethreatdefenseconnector-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.mobileThreatDefenseConnector API
+  slug: microsoft-graph-devicemanagement-mobilethreatdefenseconnector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-mobilethreatdefenseconnector-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-notificationmessagetemplate-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.notificationMessageTemplate API
+  slug: microsoft-graph-devicemanagement-notificationmessagetemplate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-notificationmessagetemplate-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-onpremisesconditionalaccesssettings-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.onPremisesConditionalAccessSettings API
+  slug: microsoft-graph-devicemanagement-onpremisesconditionalaccesssettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-onpremisesconditionalaccesssettings-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-remoteassistancepartner-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.remoteAssistancePartner API
+  slug: microsoft-graph-devicemanagement-remoteassistancepartner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-remoteassistancepartner-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-resourceoperation-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.resourceOperation API
+  slug: microsoft-graph-devicemanagement-resourceoperation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-resourceoperation-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-roledefinition-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.roleDefinition API
+  slug: microsoft-graph-devicemanagement-roledefinition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-roledefinition-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-softwareupdatestatussummary-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.softwareUpdateStatusSummary API
+  slug: microsoft-graph-devicemanagement-softwareupdatestatussummary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-softwareupdatestatussummary-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-termsandconditions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.termsAndConditions API
+  slug: microsoft-graph-devicemanagement-termsandconditions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-termsandconditions-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthapplicationperformance-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.userExperienceAnalyticsAppHealthApplicationPerformance API
+  slug: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthapplicationperformance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-userexperienceanalyticsapphealthapplicationperformance-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthappperformancebyappversiondetails-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.userExperienceAnalyticsAppHealthAppPerformanceByAppVersionDetails API
+  slug: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthappperformancebyappversiondetails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-userexperienceanalyticsapphealthappperformancebyappversiondetails-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthappperformancebyappversiondeviceid-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.userExperienceAnalyticsAppHealthAppPerformanceByAppVersionDeviceId API
+  slug: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthappperformancebyappversiondeviceid-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-userexperienceanalyticsapphealthappperformancebyappversiondeviceid-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthappperformancebyosversion-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.userExperienceAnalyticsAppHealthAppPerformanceByOSVersion API
+  slug: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthappperformancebyosversion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-userexperienceanalyticsapphealthappperformancebyosversion-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthdevicemodelperformance-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.userExperienceAnalyticsAppHealthDeviceModelPerformance API
+  slug: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthdevicemodelperformance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-userexperienceanalyticsapphealthdevicemodelperformance-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthdeviceperformance-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.userExperienceAnalyticsAppHealthDevicePerformance API
+  slug: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthdeviceperformance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-userexperienceanalyticsapphealthdeviceperformance-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthdeviceperformancedetails-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.userExperienceAnalyticsAppHealthDevicePerformanceDetails API
+  slug: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthdeviceperformancedetails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-userexperienceanalyticsapphealthdeviceperformancedetails-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthosversionperformance-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.userExperienceAnalyticsAppHealthOSVersionPerformance API
+  slug: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthosversionperformance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-userexperienceanalyticsapphealthosversionperformance-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-userexperienceanalyticsbaseline-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.userExperienceAnalyticsBaseline API
+  slug: microsoft-graph-devicemanagement-userexperienceanalyticsbaseline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-userexperienceanalyticsbaseline-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-userexperienceanalyticscategory-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.userExperienceAnalyticsCategory API
+  slug: microsoft-graph-devicemanagement-userexperienceanalyticscategory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-userexperienceanalyticscategory-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-userexperienceanalyticsdeviceperformance-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.userExperienceAnalyticsDevicePerformance API
+  slug: microsoft-graph-devicemanagement-userexperienceanalyticsdeviceperformance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-userexperienceanalyticsdeviceperformance-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-userexperienceanalyticsdevicescores-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.userExperienceAnalyticsDeviceScores API
+  slug: microsoft-graph-devicemanagement-userexperienceanalyticsdevicescores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-userexperienceanalyticsdevicescores-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-userexperienceanalyticsdevicestartuphistory-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.userExperienceAnalyticsDeviceStartupHistory API
+  slug: microsoft-graph-devicemanagement-userexperienceanalyticsdevicestartuphistory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-userexperienceanalyticsdevicestartuphistory-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-userexperienceanalyticsdevicestartupprocess-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.userExperienceAnalyticsDeviceStartupProcess API
+  slug: microsoft-graph-devicemanagement-userexperienceanalyticsdevicestartupprocess-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-userexperienceanalyticsdevicestartupprocess-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-userexperienceanalyticsdevicestartupprocessperformance-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.userExperienceAnalyticsDeviceStartupProcessPerformance API
+  slug: microsoft-graph-devicemanagement-userexperienceanalyticsdevicestartupprocessperformance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-userexperienceanalyticsdevicestartupprocessperformance-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-userexperienceanalyticsmetrichistory-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.userExperienceAnalyticsMetricHistory API
+  slug: microsoft-graph-devicemanagement-userexperienceanalyticsmetrichistory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-userexperienceanalyticsmetrichistory-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-userexperienceanalyticsmodelscores-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.userExperienceAnalyticsModelScores API
+  slug: microsoft-graph-devicemanagement-userexperienceanalyticsmodelscores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-userexperienceanalyticsmodelscores-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-userexperienceanalyticsoverview-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.userExperienceAnalyticsOverview API
+  slug: microsoft-graph-devicemanagement-userexperienceanalyticsoverview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-userexperienceanalyticsoverview-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-userexperienceanalyticsscorehistory-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.userExperienceAnalyticsScoreHistory API
+  slug: microsoft-graph-devicemanagement-userexperienceanalyticsscorehistory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-userexperienceanalyticsscorehistory-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-userexperienceanalyticsworkfromanywherehardwarereadinessmetric-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.userExperienceAnalyticsWorkFromAnywhereHardwareReadinessMetric API
+  slug: microsoft-graph-devicemanagement-userexperienceanalyticsworkfromanywherehardwarereadinessmetric-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-userexperienceanalyticsworkfromanywherehardwarereadinessmetric-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-userexperienceanalyticsworkfromanywheremetric-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.userExperienceAnalyticsWorkFromAnywhereMetric API
+  slug: microsoft-graph-devicemanagement-userexperienceanalyticsworkfromanywheremetric-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-userexperienceanalyticsworkfromanywheremetric-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-userexperienceanalyticsworkfromanywheremodelperformance-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.userExperienceAnalyticsWorkFromAnywhereModelPerformance API
+  slug: microsoft-graph-devicemanagement-userexperienceanalyticsworkfromanywheremodelperformance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-userexperienceanalyticsworkfromanywheremodelperformance-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-virtualendpoint-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.virtualEndpoint API
+  slug: microsoft-graph-devicemanagement-virtualendpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-virtualendpoint-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-windowsautopilotdeviceidentity-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.windowsAutopilotDeviceIdentity API
+  slug: microsoft-graph-devicemanagement-windowsautopilotdeviceidentity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-windowsautopilotdeviceidentity-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-windowsinformationprotectionapplearningsummary-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.windowsInformationProtectionAppLearningSummary API
+  slug: microsoft-graph-devicemanagement-windowsinformationprotectionapplearningsummary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-windowsinformationprotectionapplearningsummary-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-windowsinformationprotectionnetworklearningsummary-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.windowsInformationProtectionNetworkLearningSummary API
+  slug: microsoft-graph-devicemanagement-windowsinformationprotectionnetworklearningsummary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-windowsinformationprotectionnetworklearningsummary-api-openapi.yml
+- filename: microsoft-graph-devicemanagement-windowsmalwareinformation-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph deviceManagement.windowsMalwareInformation API
+  slug: microsoft-graph-devicemanagement-windowsmalwareinformation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devicemanagement-windowsmalwareinformation-api-openapi.yml
+- filename: microsoft-graph-devices-device-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph devices.device.Actions API
+  slug: microsoft-graph-devices-device-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devices-device-actions-api-openapi.yml
+- filename: microsoft-graph-devices-device-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Devices.device API
+  slug: microsoft-graph-devices-device-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devices-device-api-openapi.yml
+- filename: microsoft-graph-devices-device-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph devices.device.Functions API
+  slug: microsoft-graph-devices-device-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devices-device-functions-api-openapi.yml
+- filename: microsoft-graph-devices-directoryobject-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph devices.directoryObject API
+  slug: microsoft-graph-devices-directoryobject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devices-directoryobject-api-openapi.yml
+- filename: microsoft-graph-devices-extension-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Devices.extension API
+  slug: microsoft-graph-devices-extension-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-devices-extension-api-openapi.yml
+- filename: microsoft-graph-directory-administrativeunit-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph directory.administrativeUnit API
+  slug: microsoft-graph-directory-administrativeunit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-directory-administrativeunit-api-openapi.yml
+- filename: microsoft-graph-directory-attributeset-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph directory.attributeSet API
+  slug: microsoft-graph-directory-attributeset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-directory-attributeset-api-openapi.yml
+- filename: microsoft-graph-directory-companysubscription-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph directory.companySubscription API
+  slug: microsoft-graph-directory-companysubscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-directory-companysubscription-api-openapi.yml
+- filename: microsoft-graph-directory-customsecurityattributedefinition-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph directory.customSecurityAttributeDefinition API
+  slug: microsoft-graph-directory-customsecurityattributedefinition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-directory-customsecurityattributedefinition-api-openapi.yml
+- filename: microsoft-graph-directory-devicelocalcredentialinfo-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph directory.deviceLocalCredentialInfo API
+  slug: microsoft-graph-directory-devicelocalcredentialinfo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-directory-devicelocalcredentialinfo-api-openapi.yml
+- filename: microsoft-graph-directory-directory-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Directory.directory API
+  slug: microsoft-graph-directory-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-directory-directory-api-openapi.yml
+- filename: microsoft-graph-directory-directoryobject-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph directory.directoryObject API
+  slug: microsoft-graph-directory-directoryobject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-directory-directoryobject-api-openapi.yml
+- filename: microsoft-graph-directory-identityproviderbase-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph directory.identityProviderBase API
+  slug: microsoft-graph-directory-identityproviderbase-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-directory-identityproviderbase-api-openapi.yml
+- filename: microsoft-graph-directory-onpremisesdirectorysynchronization-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph directory.onPremisesDirectorySynchronization API
+  slug: microsoft-graph-directory-onpremisesdirectorysynchronization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-directory-onpremisesdirectorysynchronization-api-openapi.yml
+- filename: microsoft-graph-directory-publickeyinfrastructureroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph directory.publicKeyInfrastructureRoot API
+  slug: microsoft-graph-directory-publickeyinfrastructureroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-directory-publickeyinfrastructureroot-api-openapi.yml
+- filename: microsoft-graph-directoryobjects-directoryobject-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph directoryObjects.directoryObject.Actions API
+  slug: microsoft-graph-directoryobjects-directoryobject-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-directoryobjects-directoryobject-actions-api-openapi.yml
+- filename: microsoft-graph-directoryobjects-directoryobject-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph directoryObjects.directoryObject API
+  slug: microsoft-graph-directoryobjects-directoryobject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-directoryobjects-directoryobject-api-openapi.yml
+- filename: microsoft-graph-directoryobjects-directoryobject-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph directoryObjects.directoryObject.Functions API
+  slug: microsoft-graph-directoryobjects-directoryobject-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-directoryobjects-directoryobject-functions-api-openapi.yml
+- filename: microsoft-graph-directoryroles-directoryobject-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph directoryRoles.directoryObject API
+  slug: microsoft-graph-directoryroles-directoryobject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-directoryroles-directoryobject-api-openapi.yml
+- filename: microsoft-graph-directoryroles-directoryrole-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph directoryRoles.directoryRole.Actions API
+  slug: microsoft-graph-directoryroles-directoryrole-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-directoryroles-directoryrole-actions-api-openapi.yml
+- filename: microsoft-graph-directoryroles-directoryrole-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph directoryRoles.directoryRole API
+  slug: microsoft-graph-directoryroles-directoryrole-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-directoryroles-directoryrole-api-openapi.yml
+- filename: microsoft-graph-directoryroles-directoryrole-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph directoryRoles.directoryRole.Functions API
+  slug: microsoft-graph-directoryroles-directoryrole-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-directoryroles-directoryrole-functions-api-openapi.yml
+- filename: microsoft-graph-directoryroles-scopedrolemembership-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph directoryRoles.scopedRoleMembership API
+  slug: microsoft-graph-directoryroles-scopedrolemembership-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-directoryroles-scopedrolemembership-api-openapi.yml
+- filename: microsoft-graph-directoryroletemplates-directoryroletemplate-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph directoryRoleTemplates.directoryRoleTemplate.Actions API
+  slug: microsoft-graph-directoryroletemplates-directoryroletemplate-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-directoryroletemplates-directoryroletemplate-actions-api-openapi.yml
+- filename: microsoft-graph-directoryroletemplates-directoryroletemplate-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph directoryRoleTemplates.directoryRoleTemplate API
+  slug: microsoft-graph-directoryroletemplates-directoryroletemplate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-directoryroletemplates-directoryroletemplate-api-openapi.yml
+- filename: microsoft-graph-directoryroletemplates-directoryroletemplate-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph directoryRoleTemplates.directoryRoleTemplate.Functions API
+  slug: microsoft-graph-directoryroletemplates-directoryroletemplate-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-directoryroletemplates-directoryroletemplate-functions-api-openapi.yml
+- filename: microsoft-graph-domaindnsrecords-domaindnsrecord-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph domainDnsRecords.domainDnsRecord API
+  slug: microsoft-graph-domaindnsrecords-domaindnsrecord-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-domaindnsrecords-domaindnsrecord-api-openapi.yml
+- filename: microsoft-graph-domains-directoryobject-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph domains.directoryObject API
+  slug: microsoft-graph-domains-directoryobject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-domains-directoryobject-api-openapi.yml
+- filename: microsoft-graph-domains-domain-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph domains.domain.Actions API
+  slug: microsoft-graph-domains-domain-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-domains-domain-actions-api-openapi.yml
+- filename: microsoft-graph-domains-domain-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Domains.domain API
+  slug: microsoft-graph-domains-domain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-domains-domain-api-openapi.yml
+- filename: microsoft-graph-domains-domaindnsrecord-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph domains.domainDnsRecord API
+  slug: microsoft-graph-domains-domaindnsrecord-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-domains-domaindnsrecord-api-openapi.yml
+- filename: microsoft-graph-domains-internaldomainfederation-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph domains.internalDomainFederation API
+  slug: microsoft-graph-domains-internaldomainfederation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-domains-internaldomainfederation-api-openapi.yml
+- filename: microsoft-graph-drives-drive-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph drives.drive.Actions API
+  slug: microsoft-graph-drives-drive-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-drives-drive-actions-api-openapi.yml
+- filename: microsoft-graph-drives-drive-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Drives.drive API
+  slug: microsoft-graph-drives-drive-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-drives-drive-api-openapi.yml
+- filename: microsoft-graph-drives-drive-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph drives.drive.Functions API
+  slug: microsoft-graph-drives-drive-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-drives-drive-functions-api-openapi.yml
+- filename: microsoft-graph-drives-driveitem-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph drives.driveItem API
+  slug: microsoft-graph-drives-driveitem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-drives-driveitem-api-openapi.yml
+- filename: microsoft-graph-drives-list-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Drives.list API
+  slug: microsoft-graph-drives-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-drives-list-api-openapi.yml
+- filename: microsoft-graph-drives-user-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Drives.user API
+  slug: microsoft-graph-drives-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-drives-user-api-openapi.yml
+- filename: microsoft-graph-edge-browser-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Edge Browser API
+  slug: microsoft-graph-edge-browser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-edge-browser-api-openapi.yml
+- filename: microsoft-graph-education-educationclass-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph education.educationClass API
+  slug: microsoft-graph-education-educationclass-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-education-educationclass-api-openapi.yml
+- filename: microsoft-graph-education-educationroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph education.educationRoot API
+  slug: microsoft-graph-education-educationroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-education-educationroot-api-openapi.yml
+- filename: microsoft-graph-education-educationschool-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph education.educationSchool API
+  slug: microsoft-graph-education-educationschool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-education-educationschool-api-openapi.yml
+- filename: microsoft-graph-education-educationuser-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph education.educationUser API
+  slug: microsoft-graph-education-educationuser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-education-educationuser-api-openapi.yml
+- filename: microsoft-graph-education-reportsroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph education.reportsRoot API
+  slug: microsoft-graph-education-reportsroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-education-reportsroot-api-openapi.yml
+- filename: microsoft-graph-employeeexperience-community-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph employeeExperience.community API
+  slug: microsoft-graph-employeeexperience-community-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-employeeexperience-community-api-openapi.yml
+- filename: microsoft-graph-employeeexperience-employeeexperience-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph employeeExperience.employeeExperience API
+  slug: microsoft-graph-employeeexperience-employeeexperience-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-employeeexperience-employeeexperience-api-openapi.yml
+- filename: microsoft-graph-employeeexperience-engagementasyncoperation-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph employeeExperience.engagementAsyncOperation API
+  slug: microsoft-graph-employeeexperience-engagementasyncoperation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-employeeexperience-engagementasyncoperation-api-openapi.yml
+- filename: microsoft-graph-employeeexperience-engagementrole-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph employeeExperience.engagementRole API
+  slug: microsoft-graph-employeeexperience-engagementrole-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-employeeexperience-engagementrole-api-openapi.yml
+- filename: microsoft-graph-employeeexperience-learningcourseactivity-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph employeeExperience.learningCourseActivity API
+  slug: microsoft-graph-employeeexperience-learningcourseactivity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-employeeexperience-learningcourseactivity-api-openapi.yml
+- filename: microsoft-graph-employeeexperience-learningprovider-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph employeeExperience.learningProvider API
+  slug: microsoft-graph-employeeexperience-learningprovider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-employeeexperience-learningprovider-api-openapi.yml
+- filename: microsoft-graph-external-external-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph External.external API
+  slug: microsoft-graph-external-external-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-external-external-api-openapi.yml
+- filename: microsoft-graph-external-externalconnection-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph external.externalConnection API
+  slug: microsoft-graph-external-externalconnection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-external-externalconnection-api-openapi.yml
+- filename: microsoft-graph-filteroperators-filteroperatorschema-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph filterOperators.filterOperatorSchema API
+  slug: microsoft-graph-filteroperators-filteroperatorschema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-filteroperators-filteroperatorschema-api-openapi.yml
+- filename: microsoft-graph-functions-attributemappingfunctionschema-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph functions.attributeMappingFunctionSchema API
+  slug: microsoft-graph-functions-attributemappingfunctionschema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-functions-attributemappingfunctionschema-api-openapi.yml
+- filename: microsoft-graph-grouplifecyclepolicies-grouplifecyclepolicy-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph groupLifecyclePolicies.groupLifecyclePolicy.Actions API
+  slug: microsoft-graph-grouplifecyclepolicies-grouplifecyclepolicy-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-grouplifecyclepolicies-grouplifecyclepolicy-actions-api-openapi.yml
+- filename: microsoft-graph-grouplifecyclepolicies-grouplifecyclepolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph groupLifecyclePolicies.groupLifecyclePolicy API
+  slug: microsoft-graph-grouplifecyclepolicies-grouplifecyclepolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-grouplifecyclepolicies-grouplifecyclepolicy-api-openapi.yml
+- filename: microsoft-graph-groups-approleassignment-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph groups.appRoleAssignment API
+  slug: microsoft-graph-groups-approleassignment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groups-approleassignment-api-openapi.yml
+- filename: microsoft-graph-groups-calendar-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Groups.calendar API
+  slug: microsoft-graph-groups-calendar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groups-calendar-api-openapi.yml
+- filename: microsoft-graph-groups-conversation-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Groups.conversation API
+  slug: microsoft-graph-groups-conversation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groups-conversation-api-openapi.yml
+- filename: microsoft-graph-groups-conversationthread-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph groups.conversationThread API
+  slug: microsoft-graph-groups-conversationthread-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groups-conversationthread-api-openapi.yml
+- filename: microsoft-graph-groups-directoryobject-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph groups.directoryObject API
+  slug: microsoft-graph-groups-directoryobject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groups-directoryobject-api-openapi.yml
+- filename: microsoft-graph-groups-drive-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Groups.drive API
+  slug: microsoft-graph-groups-drive-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groups-drive-api-openapi.yml
+- filename: microsoft-graph-groups-event-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Groups.event API
+  slug: microsoft-graph-groups-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groups-event-api-openapi.yml
+- filename: microsoft-graph-groups-extension-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Groups.extension API
+  slug: microsoft-graph-groups-extension-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groups-extension-api-openapi.yml
+- filename: microsoft-graph-groups-group-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph groups.group.Actions API
+  slug: microsoft-graph-groups-group-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groups-group-actions-api-openapi.yml
+- filename: microsoft-graph-groups-group-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Groups.group API
+  slug: microsoft-graph-groups-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groups-group-api-openapi.yml
+- filename: microsoft-graph-groups-group-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph groups.group.Functions API
+  slug: microsoft-graph-groups-group-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groups-group-functions-api-openapi.yml
+- filename: microsoft-graph-groups-grouplifecyclepolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph groups.groupLifecyclePolicy API
+  slug: microsoft-graph-groups-grouplifecyclepolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groups-grouplifecyclepolicy-api-openapi.yml
+- filename: microsoft-graph-groups-groupsetting-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph groups.groupSetting API
+  slug: microsoft-graph-groups-groupsetting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groups-groupsetting-api-openapi.yml
+- filename: microsoft-graph-groups-onenote-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Groups.onenote API
+  slug: microsoft-graph-groups-onenote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groups-onenote-api-openapi.yml
+- filename: microsoft-graph-groups-onpremisessyncbehavior-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph groups.onPremisesSyncBehavior API
+  slug: microsoft-graph-groups-onpremisessyncbehavior-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groups-onpremisessyncbehavior-api-openapi.yml
+- filename: microsoft-graph-groups-plannergroup-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph groups.plannerGroup API
+  slug: microsoft-graph-groups-plannergroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groups-plannergroup-api-openapi.yml
+- filename: microsoft-graph-groups-profilephoto-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph groups.profilePhoto API
+  slug: microsoft-graph-groups-profilephoto-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groups-profilephoto-api-openapi.yml
+- filename: microsoft-graph-groups-resourcespecificpermissiongrant-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph groups.resourceSpecificPermissionGrant API
+  slug: microsoft-graph-groups-resourcespecificpermissiongrant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groups-resourcespecificpermissiongrant-api-openapi.yml
+- filename: microsoft-graph-groups-serviceprovisioningerror-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph groups.serviceProvisioningError API
+  slug: microsoft-graph-groups-serviceprovisioningerror-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groups-serviceprovisioningerror-api-openapi.yml
+- filename: microsoft-graph-groups-site-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Groups.site API
+  slug: microsoft-graph-groups-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groups-site-api-openapi.yml
+- filename: microsoft-graph-groups-team-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Groups.team API
+  slug: microsoft-graph-groups-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groups-team-api-openapi.yml
+- filename: microsoft-graph-groupsettings-groupsetting-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph groupSettings.groupSetting API
+  slug: microsoft-graph-groupsettings-groupsetting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groupsettings-groupsetting-api-openapi.yml
+- filename: microsoft-graph-groupsettingtemplates-groupsettingtemplate-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph groupSettingTemplates.groupSettingTemplate.Actions API
+  slug: microsoft-graph-groupsettingtemplates-groupsettingtemplate-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groupsettingtemplates-groupsettingtemplate-actions-api-openapi.yml
+- filename: microsoft-graph-groupsettingtemplates-groupsettingtemplate-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph groupSettingTemplates.groupSettingTemplate API
+  slug: microsoft-graph-groupsettingtemplates-groupsettingtemplate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groupsettingtemplates-groupsettingtemplate-api-openapi.yml
+- filename: microsoft-graph-groupsettingtemplates-groupsettingtemplate-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph groupSettingTemplates.groupSettingTemplate.Functions API
+  slug: microsoft-graph-groupsettingtemplates-groupsettingtemplate-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groupsettingtemplates-groupsettingtemplate-functions-api-openapi.yml
+- filename: microsoft-graph-identity-authentication-events-flows-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Identity Authentication Events Flows API
+  slug: microsoft-graph-identity-authentication-events-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identity-authentication-events-flows-api-openapi.yml
+- filename: microsoft-graph-identity-authenticationeventlistener-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identity.authenticationEventListener API
+  slug: microsoft-graph-identity-authenticationeventlistener-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identity-authenticationeventlistener-api-openapi.yml
+- filename: microsoft-graph-identity-authenticationeventsflow-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identity.authenticationEventsFlow API
+  slug: microsoft-graph-identity-authenticationeventsflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identity-authenticationeventsflow-api-openapi.yml
+- filename: microsoft-graph-identity-b2xidentityuserflow-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identity.b2xIdentityUserFlow API
+  slug: microsoft-graph-identity-b2xidentityuserflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identity-b2xidentityuserflow-api-openapi.yml
+- filename: microsoft-graph-identity-conditionalaccessroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identity.conditionalAccessRoot API
+  slug: microsoft-graph-identity-conditionalaccessroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identity-conditionalaccessroot-api-openapi.yml
+- filename: microsoft-graph-identity-customauthenticationextension-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identity.customAuthenticationExtension API
+  slug: microsoft-graph-identity-customauthenticationextension-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identity-customauthenticationextension-api-openapi.yml
+- filename: microsoft-graph-identity-governance-acceptances-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Identity Governance Acceptances API
+  slug: microsoft-graph-identity-governance-acceptances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identity-governance-acceptances-api-openapi.yml
+- filename: microsoft-graph-identity-identityapiconnector-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identity.identityApiConnector API
+  slug: microsoft-graph-identity-identityapiconnector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identity-identityapiconnector-api-openapi.yml
+- filename: microsoft-graph-identity-identitycontainer-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identity.identityContainer API
+  slug: microsoft-graph-identity-identitycontainer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identity-identitycontainer-api-openapi.yml
+- filename: microsoft-graph-identity-identityproviderbase-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identity.identityProviderBase API
+  slug: microsoft-graph-identity-identityproviderbase-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identity-identityproviderbase-api-openapi.yml
+- filename: microsoft-graph-identity-identityuserflowattribute-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identity.identityUserFlowAttribute API
+  slug: microsoft-graph-identity-identityuserflowattribute-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identity-identityuserflowattribute-api-openapi.yml
+- filename: microsoft-graph-identity-riskpreventioncontainer-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identity.riskPreventionContainer API
+  slug: microsoft-graph-identity-riskpreventioncontainer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identity-riskpreventioncontainer-api-openapi.yml
+- filename: microsoft-graph-identitygovernance-accessreviewset-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identityGovernance.accessReviewSet API
+  slug: microsoft-graph-identitygovernance-accessreviewset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identitygovernance-accessreviewset-api-openapi.yml
+- filename: microsoft-graph-identitygovernance-appconsentapprovalroute-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identityGovernance.appConsentApprovalRoute API
+  slug: microsoft-graph-identitygovernance-appconsentapprovalroute-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identitygovernance-appconsentapprovalroute-api-openapi.yml
+- filename: microsoft-graph-identitygovernance-entitlementmanagement-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identityGovernance.entitlementManagement API
+  slug: microsoft-graph-identitygovernance-entitlementmanagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identitygovernance-entitlementmanagement-api-openapi.yml
+- filename: microsoft-graph-identitygovernance-identitygovernance-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identityGovernance.identityGovernance API
+  slug: microsoft-graph-identitygovernance-identitygovernance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identitygovernance-identitygovernance-api-openapi.yml
+- filename: microsoft-graph-identitygovernance-lifecycleworkflowscontainer-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identityGovernance.lifecycleWorkflowsContainer API
+  slug: microsoft-graph-identitygovernance-lifecycleworkflowscontainer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identitygovernance-lifecycleworkflowscontainer-api-openapi.yml
+- filename: microsoft-graph-identitygovernance-privilegedaccessroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identityGovernance.privilegedAccessRoot API
+  slug: microsoft-graph-identitygovernance-privilegedaccessroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identitygovernance-privilegedaccessroot-api-openapi.yml
+- filename: microsoft-graph-identitygovernance-termsofusecontainer-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identityGovernance.termsOfUseContainer API
+  slug: microsoft-graph-identitygovernance-termsofusecontainer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identitygovernance-termsofusecontainer-api-openapi.yml
+- filename: microsoft-graph-identityprotection-identityprotectionroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identityProtection.identityProtectionRoot API
+  slug: microsoft-graph-identityprotection-identityprotectionroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identityprotection-identityprotectionroot-api-openapi.yml
+- filename: microsoft-graph-identityprotection-riskdetection-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identityProtection.riskDetection API
+  slug: microsoft-graph-identityprotection-riskdetection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identityprotection-riskdetection-api-openapi.yml
+- filename: microsoft-graph-identityprotection-riskyserviceprincipal-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identityProtection.riskyServicePrincipal API
+  slug: microsoft-graph-identityprotection-riskyserviceprincipal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identityprotection-riskyserviceprincipal-api-openapi.yml
+- filename: microsoft-graph-identityprotection-riskyuser-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identityProtection.riskyUser API
+  slug: microsoft-graph-identityprotection-riskyuser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identityprotection-riskyuser-api-openapi.yml
+- filename: microsoft-graph-identityprotection-serviceprincipalriskdetection-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identityProtection.servicePrincipalRiskDetection API
+  slug: microsoft-graph-identityprotection-serviceprincipalriskdetection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identityprotection-serviceprincipalriskdetection-api-openapi.yml
+- filename: microsoft-graph-identityproviders-identityprovider-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identityProviders.identityProvider API
+  slug: microsoft-graph-identityproviders-identityprovider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identityproviders-identityprovider-api-openapi.yml
+- filename: microsoft-graph-identityproviders-identityprovider-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph identityProviders.identityProvider.Functions API
+  slug: microsoft-graph-identityproviders-identityprovider-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identityproviders-identityprovider-functions-api-openapi.yml
+- filename: microsoft-graph-informationprotection-bitlocker-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph informationProtection.bitlocker API
+  slug: microsoft-graph-informationprotection-bitlocker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-informationprotection-bitlocker-api-openapi.yml
+- filename: microsoft-graph-informationprotection-informationprotection-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph informationProtection.informationProtection API
+  slug: microsoft-graph-informationprotection-informationprotection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-informationprotection-informationprotection-api-openapi.yml
+- filename: microsoft-graph-informationprotection-threatassessmentrequest-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph informationProtection.threatAssessmentRequest API
+  slug: microsoft-graph-informationprotection-threatassessmentrequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-informationprotection-threatassessmentrequest-api-openapi.yml
+- filename: microsoft-graph-internet-explorer-mode-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Internet Explorer Mode API
+  slug: microsoft-graph-internet-explorer-mode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-internet-explorer-mode-api-openapi.yml
+- filename: microsoft-graph-invitations-directoryobject-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph invitations.directoryObject API
+  slug: microsoft-graph-invitations-directoryobject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-invitations-directoryobject-api-openapi.yml
+- filename: microsoft-graph-invitations-invitation-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Invitations.invitation API
+  slug: microsoft-graph-invitations-invitation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-invitations-invitation-api-openapi.yml
+- filename: microsoft-graph-invitations-user-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Invitations.user API
+  slug: microsoft-graph-invitations-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-invitations-user-api-openapi.yml
+- filename: microsoft-graph-me-agreementacceptance-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.agreementAcceptance API
+  slug: microsoft-graph-me-agreementacceptance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-agreementacceptance-api-openapi.yml
+- filename: microsoft-graph-me-approleassignment-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.appRoleAssignment API
+  slug: microsoft-graph-me-approleassignment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-approleassignment-api-openapi.yml
+- filename: microsoft-graph-me-authentication-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Me.authentication API
+  slug: microsoft-graph-me-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-authentication-api-openapi.yml
+- filename: microsoft-graph-me-calendar-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Me.calendar API
+  slug: microsoft-graph-me-calendar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-calendar-api-openapi.yml
+- filename: microsoft-graph-me-calendargroup-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.calendarGroup API
+  slug: microsoft-graph-me-calendargroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-calendargroup-api-openapi.yml
+- filename: microsoft-graph-me-chat-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Me.chat API
+  slug: microsoft-graph-me-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-chat-api-openapi.yml
+- filename: microsoft-graph-me-cloudclipboardroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.cloudClipboardRoot API
+  slug: microsoft-graph-me-cloudclipboardroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-cloudclipboardroot-api-openapi.yml
+- filename: microsoft-graph-me-cloudpc-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.cloudPC API
+  slug: microsoft-graph-me-cloudpc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-cloudpc-api-openapi.yml
+- filename: microsoft-graph-me-contact-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Me.contact API
+  slug: microsoft-graph-me-contact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-contact-api-openapi.yml
+- filename: microsoft-graph-me-contactfolder-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.contactFolder API
+  slug: microsoft-graph-me-contactfolder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-contactfolder-api-openapi.yml
+- filename: microsoft-graph-me-devicemanagementtroubleshootingevent-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.deviceManagementTroubleshootingEvent API
+  slug: microsoft-graph-me-devicemanagementtroubleshootingevent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-devicemanagementtroubleshootingevent-api-openapi.yml
+- filename: microsoft-graph-me-directoryobject-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.directoryObject API
+  slug: microsoft-graph-me-directoryobject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-directoryobject-api-openapi.yml
+- filename: microsoft-graph-me-drive-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Me.drive API
+  slug: microsoft-graph-me-drive-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-drive-api-openapi.yml
+- filename: microsoft-graph-me-employeeexperienceuser-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.employeeExperienceUser API
+  slug: microsoft-graph-me-employeeexperienceuser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-employeeexperienceuser-api-openapi.yml
+- filename: microsoft-graph-me-event-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Me.event API
+  slug: microsoft-graph-me-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-event-api-openapi.yml
+- filename: microsoft-graph-me-extension-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Me.extension API
+  slug: microsoft-graph-me-extension-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-extension-api-openapi.yml
+- filename: microsoft-graph-me-inferenceclassification-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.inferenceClassification API
+  slug: microsoft-graph-me-inferenceclassification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-inferenceclassification-api-openapi.yml
+- filename: microsoft-graph-me-iteminsights-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.itemInsights API
+  slug: microsoft-graph-me-iteminsights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-iteminsights-api-openapi.yml
+- filename: microsoft-graph-me-licensedetails-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.licenseDetails API
+  slug: microsoft-graph-me-licensedetails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-licensedetails-api-openapi.yml
+- filename: microsoft-graph-me-mailboxsettings-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.mailboxSettings API
+  slug: microsoft-graph-me-mailboxsettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-mailboxsettings-api-openapi.yml
+- filename: microsoft-graph-me-mailfolder-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.mailFolder API
+  slug: microsoft-graph-me-mailfolder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-mailfolder-api-openapi.yml
+- filename: microsoft-graph-me-managedappregistration-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.managedAppRegistration API
+  slug: microsoft-graph-me-managedappregistration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-managedappregistration-api-openapi.yml
+- filename: microsoft-graph-me-manageddevice-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.managedDevice API
+  slug: microsoft-graph-me-manageddevice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-manageddevice-api-openapi.yml
+- filename: microsoft-graph-me-message-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Me.message API
+  slug: microsoft-graph-me-message-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-message-api-openapi.yml
+- filename: microsoft-graph-me-oauth2permissiongrant-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.oAuth2PermissionGrant API
+  slug: microsoft-graph-me-oauth2permissiongrant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-oauth2permissiongrant-api-openapi.yml
+- filename: microsoft-graph-me-onenote-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Me.onenote API
+  slug: microsoft-graph-me-onenote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-onenote-api-openapi.yml
+- filename: microsoft-graph-me-onlinemeeting-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.onlineMeeting API
+  slug: microsoft-graph-me-onlinemeeting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-onlinemeeting-api-openapi.yml
+- filename: microsoft-graph-me-outlookuser-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.outlookUser API
+  slug: microsoft-graph-me-outlookuser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-outlookuser-api-openapi.yml
+- filename: microsoft-graph-me-person-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Me.person API
+  slug: microsoft-graph-me-person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-person-api-openapi.yml
+- filename: microsoft-graph-me-planneruser-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.plannerUser API
+  slug: microsoft-graph-me-planneruser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-planneruser-api-openapi.yml
+- filename: microsoft-graph-me-presence-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Me.presence API
+  slug: microsoft-graph-me-presence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-presence-api-openapi.yml
+- filename: microsoft-graph-me-profilephoto-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.profilePhoto API
+  slug: microsoft-graph-me-profilephoto-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-profilephoto-api-openapi.yml
+- filename: microsoft-graph-me-resourcespecificpermissiongrant-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.resourceSpecificPermissionGrant API
+  slug: microsoft-graph-me-resourcespecificpermissiongrant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-resourcespecificpermissiongrant-api-openapi.yml
+- filename: microsoft-graph-me-scopedrolemembership-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.scopedRoleMembership API
+  slug: microsoft-graph-me-scopedrolemembership-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-scopedrolemembership-api-openapi.yml
+- filename: microsoft-graph-me-serviceprovisioningerror-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.serviceProvisioningError API
+  slug: microsoft-graph-me-serviceprovisioningerror-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-serviceprovisioningerror-api-openapi.yml
+- filename: microsoft-graph-me-site-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Me.site API
+  slug: microsoft-graph-me-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-site-api-openapi.yml
+- filename: microsoft-graph-me-team-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Me.team API
+  slug: microsoft-graph-me-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-team-api-openapi.yml
+- filename: microsoft-graph-me-todo-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Me.todo API
+  slug: microsoft-graph-me-todo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-todo-api-openapi.yml
+- filename: microsoft-graph-me-user-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.user.Actions API
+  slug: microsoft-graph-me-user-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-user-actions-api-openapi.yml
+- filename: microsoft-graph-me-user-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Me.user API
+  slug: microsoft-graph-me-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-user-api-openapi.yml
+- filename: microsoft-graph-me-user-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.user.Functions API
+  slug: microsoft-graph-me-user-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-user-functions-api-openapi.yml
+- filename: microsoft-graph-me-useractivity-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.userActivity API
+  slug: microsoft-graph-me-useractivity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-useractivity-api-openapi.yml
+- filename: microsoft-graph-me-userdatasecurityandgovernance-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.userDataSecurityAndGovernance API
+  slug: microsoft-graph-me-userdatasecurityandgovernance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-userdatasecurityandgovernance-api-openapi.yml
+- filename: microsoft-graph-me-usersettings-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.userSettings API
+  slug: microsoft-graph-me-usersettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-usersettings-api-openapi.yml
+- filename: microsoft-graph-me-usersolutionroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.userSolutionRoot API
+  slug: microsoft-graph-me-usersolutionroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-usersolutionroot-api-openapi.yml
+- filename: microsoft-graph-me-userteamwork-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph me.userTeamwork API
+  slug: microsoft-graph-me-userteamwork-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-userteamwork-api-openapi.yml
+- filename: microsoft-graph-microsoft-365-apps-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Microsoft 365 Apps API
+  slug: microsoft-graph-microsoft-365-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-microsoft-365-apps-api-openapi.yml
+- filename: microsoft-graph-oauth2permissiongrants-oauth2permissiongrant-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph oauth2PermissionGrants.oAuth2PermissionGrant API
+  slug: microsoft-graph-oauth2permissiongrants-oauth2permissiongrant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-oauth2permissiongrants-oauth2permissiongrant-api-openapi.yml
+- filename: microsoft-graph-oauth2permissiongrants-oauth2permissiongrant-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph oauth2PermissionGrants.oAuth2PermissionGrant.Functions API
+  slug: microsoft-graph-oauth2permissiongrants-oauth2permissiongrant-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-oauth2permissiongrants-oauth2permissiongrant-functions-api-openapi.yml
+- filename: microsoft-graph-organization-certificatebasedauthconfiguration-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph organization.certificateBasedAuthConfiguration API
+  slug: microsoft-graph-organization-certificatebasedauthconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-organization-certificatebasedauthconfiguration-api-openapi.yml
+- filename: microsoft-graph-organization-extension-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Organization.extension API
+  slug: microsoft-graph-organization-extension-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-organization-extension-api-openapi.yml
+- filename: microsoft-graph-organization-organization-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph organization.organization.Actions API
+  slug: microsoft-graph-organization-organization-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-organization-organization-actions-api-openapi.yml
+- filename: microsoft-graph-organization-organization-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Organization.organization API
+  slug: microsoft-graph-organization-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-organization-organization-api-openapi.yml
+- filename: microsoft-graph-organization-organization-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph organization.organization.Functions API
+  slug: microsoft-graph-organization-organization-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-organization-organization-functions-api-openapi.yml
+- filename: microsoft-graph-organization-organizationalbranding-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph organization.organizationalBranding API
+  slug: microsoft-graph-organization-organizationalbranding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-organization-organizationalbranding-api-openapi.yml
+- filename: microsoft-graph-permissiongrants-resourcespecificpermissiongrant-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph permissionGrants.resourceSpecificPermissionGrant.Actions API
+  slug: microsoft-graph-permissiongrants-resourcespecificpermissiongrant-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-permissiongrants-resourcespecificpermissiongrant-actions-api-openapi.yml
+- filename: microsoft-graph-permissiongrants-resourcespecificpermissiongrant-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph permissionGrants.resourceSpecificPermissionGrant API
+  slug: microsoft-graph-permissiongrants-resourcespecificpermissiongrant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-permissiongrants-resourcespecificpermissiongrant-api-openapi.yml
+- filename: microsoft-graph-permissiongrants-resourcespecificpermissiongrant-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph permissionGrants.resourceSpecificPermissionGrant.Functions API
+  slug: microsoft-graph-permissiongrants-resourcespecificpermissiongrant-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-permissiongrants-resourcespecificpermissiongrant-functions-api-openapi.yml
+- filename: microsoft-graph-places-buildingmap-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph places.buildingMap API
+  slug: microsoft-graph-places-buildingmap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-places-buildingmap-api-openapi.yml
+- filename: microsoft-graph-places-checkinclaim-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph places.checkInClaim API
+  slug: microsoft-graph-places-checkinclaim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-places-checkinclaim-api-openapi.yml
+- filename: microsoft-graph-places-place-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Places.place API
+  slug: microsoft-graph-places-place-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-places-place-api-openapi.yml
+- filename: microsoft-graph-places-place-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph places.place.Functions API
+  slug: microsoft-graph-places-place-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-places-place-functions-api-openapi.yml
+- filename: microsoft-graph-places-room-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Places.room API
+  slug: microsoft-graph-places-room-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-places-room-api-openapi.yml
+- filename: microsoft-graph-places-workspace-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Places.workspace API
+  slug: microsoft-graph-places-workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-places-workspace-api-openapi.yml
+- filename: microsoft-graph-planner-planner-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Planner.planner API
+  slug: microsoft-graph-planner-planner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-planner-planner-api-openapi.yml
+- filename: microsoft-graph-planner-plannerbucket-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph planner.plannerBucket API
+  slug: microsoft-graph-planner-plannerbucket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-planner-plannerbucket-api-openapi.yml
+- filename: microsoft-graph-planner-plannerplan-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph planner.plannerPlan API
+  slug: microsoft-graph-planner-plannerplan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-planner-plannerplan-api-openapi.yml
+- filename: microsoft-graph-planner-plannertask-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph planner.plannerTask API
+  slug: microsoft-graph-planner-plannertask-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-planner-plannertask-api-openapi.yml
+- filename: microsoft-graph-policies-activitybasedtimeoutpolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph policies.activityBasedTimeoutPolicy API
+  slug: microsoft-graph-policies-activitybasedtimeoutpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-policies-activitybasedtimeoutpolicy-api-openapi.yml
+- filename: microsoft-graph-policies-adminconsentrequestpolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph policies.adminConsentRequestPolicy API
+  slug: microsoft-graph-policies-adminconsentrequestpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-policies-adminconsentrequestpolicy-api-openapi.yml
+- filename: microsoft-graph-policies-appmanagementpolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph policies.appManagementPolicy API
+  slug: microsoft-graph-policies-appmanagementpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-policies-appmanagementpolicy-api-openapi.yml
+- filename: microsoft-graph-policies-authenticationflowspolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph policies.authenticationFlowsPolicy API
+  slug: microsoft-graph-policies-authenticationflowspolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-policies-authenticationflowspolicy-api-openapi.yml
+- filename: microsoft-graph-policies-authenticationmethodspolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph policies.authenticationMethodsPolicy API
+  slug: microsoft-graph-policies-authenticationmethodspolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-policies-authenticationmethodspolicy-api-openapi.yml
+- filename: microsoft-graph-policies-authenticationstrengthpolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph policies.authenticationStrengthPolicy API
+  slug: microsoft-graph-policies-authenticationstrengthpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-policies-authenticationstrengthpolicy-api-openapi.yml
+- filename: microsoft-graph-policies-authorizationpolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph policies.authorizationPolicy API
+  slug: microsoft-graph-policies-authorizationpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-policies-authorizationpolicy-api-openapi.yml
+- filename: microsoft-graph-policies-claimsmappingpolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph policies.claimsMappingPolicy API
+  slug: microsoft-graph-policies-claimsmappingpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-policies-claimsmappingpolicy-api-openapi.yml
+- filename: microsoft-graph-policies-conditionalaccesspolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph policies.conditionalAccessPolicy API
+  slug: microsoft-graph-policies-conditionalaccesspolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-policies-conditionalaccesspolicy-api-openapi.yml
+- filename: microsoft-graph-policies-crosstenantaccesspolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph policies.crossTenantAccessPolicy API
+  slug: microsoft-graph-policies-crosstenantaccesspolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-policies-crosstenantaccesspolicy-api-openapi.yml
+- filename: microsoft-graph-policies-deviceregistrationpolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph policies.deviceRegistrationPolicy API
+  slug: microsoft-graph-policies-deviceregistrationpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-policies-deviceregistrationpolicy-api-openapi.yml
+- filename: microsoft-graph-policies-featurerolloutpolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph policies.featureRolloutPolicy API
+  slug: microsoft-graph-policies-featurerolloutpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-policies-featurerolloutpolicy-api-openapi.yml
+- filename: microsoft-graph-policies-homerealmdiscoverypolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph policies.homeRealmDiscoveryPolicy API
+  slug: microsoft-graph-policies-homerealmdiscoverypolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-policies-homerealmdiscoverypolicy-api-openapi.yml
+- filename: microsoft-graph-policies-identitysecuritydefaultsenforcementpolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph policies.identitySecurityDefaultsEnforcementPolicy API
+  slug: microsoft-graph-policies-identitysecuritydefaultsenforcementpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-policies-identitysecuritydefaultsenforcementpolicy-api-openapi.yml
+- filename: microsoft-graph-policies-permissiongrantpolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph policies.permissionGrantPolicy API
+  slug: microsoft-graph-policies-permissiongrantpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-policies-permissiongrantpolicy-api-openapi.yml
+- filename: microsoft-graph-policies-policyroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph policies.policyRoot API
+  slug: microsoft-graph-policies-policyroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-policies-policyroot-api-openapi.yml
+- filename: microsoft-graph-policies-tenantappmanagementpolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph policies.tenantAppManagementPolicy API
+  slug: microsoft-graph-policies-tenantappmanagementpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-policies-tenantappmanagementpolicy-api-openapi.yml
+- filename: microsoft-graph-policies-tokenissuancepolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph policies.tokenIssuancePolicy API
+  slug: microsoft-graph-policies-tokenissuancepolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-policies-tokenissuancepolicy-api-openapi.yml
+- filename: microsoft-graph-policies-tokenlifetimepolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph policies.tokenLifetimePolicy API
+  slug: microsoft-graph-policies-tokenlifetimepolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-policies-tokenlifetimepolicy-api-openapi.yml
+- filename: microsoft-graph-policies-unifiedrolemanagementpolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph policies.unifiedRoleManagementPolicy API
+  slug: microsoft-graph-policies-unifiedrolemanagementpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-policies-unifiedrolemanagementpolicy-api-openapi.yml
+- filename: microsoft-graph-policies-unifiedrolemanagementpolicyassignment-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph policies.unifiedRoleManagementPolicyAssignment API
+  slug: microsoft-graph-policies-unifiedrolemanagementpolicyassignment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-policies-unifiedrolemanagementpolicyassignment-api-openapi.yml
+- filename: microsoft-graph-print-print-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Print.print API
+  slug: microsoft-graph-print-print-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-print-print-api-openapi.yml
+- filename: microsoft-graph-print-printconnector-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph print.printConnector API
+  slug: microsoft-graph-print-printconnector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-print-printconnector-api-openapi.yml
+- filename: microsoft-graph-print-printer-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Print.printer API
+  slug: microsoft-graph-print-printer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-print-printer-api-openapi.yml
+- filename: microsoft-graph-print-printershare-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph print.printerShare API
+  slug: microsoft-graph-print-printershare-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-print-printershare-api-openapi.yml
+- filename: microsoft-graph-print-printoperation-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph print.printOperation API
+  slug: microsoft-graph-print-printoperation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-print-printoperation-api-openapi.yml
+- filename: microsoft-graph-print-printservice-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph print.printService API
+  slug: microsoft-graph-print-printservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-print-printservice-api-openapi.yml
+- filename: microsoft-graph-print-printtaskdefinition-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph print.printTaskDefinition API
+  slug: microsoft-graph-print-printtaskdefinition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-print-printtaskdefinition-api-openapi.yml
+- filename: microsoft-graph-privacy-privacy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Privacy.privacy API
+  slug: microsoft-graph-privacy-privacy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-privacy-privacy-api-openapi.yml
+- filename: microsoft-graph-privacy-subjectrightsrequest-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph privacy.subjectRightsRequest API
+  slug: microsoft-graph-privacy-subjectrightsrequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-privacy-subjectrightsrequest-api-openapi.yml
+- filename: microsoft-graph-report-settings-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Report Settings API
+  slug: microsoft-graph-report-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-report-settings-api-openapi.yml
+- filename: microsoft-graph-reports-authenticationmethodsroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph reports.authenticationMethodsRoot API
+  slug: microsoft-graph-reports-authenticationmethodsroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-reports-authenticationmethodsroot-api-openapi.yml
+- filename: microsoft-graph-reports-partners-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Reports.partners API
+  slug: microsoft-graph-reports-partners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-reports-partners-api-openapi.yml
+- filename: microsoft-graph-reports-printusagebyprinter-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph reports.printUsageByPrinter API
+  slug: microsoft-graph-reports-printusagebyprinter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-reports-printusagebyprinter-api-openapi.yml
+- filename: microsoft-graph-reports-printusagebyuser-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph reports.printUsageByUser API
+  slug: microsoft-graph-reports-printusagebyuser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-reports-printusagebyuser-api-openapi.yml
+- filename: microsoft-graph-reports-reportroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph reports.reportRoot API
+  slug: microsoft-graph-reports-reportroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-reports-reportroot-api-openapi.yml
+- filename: microsoft-graph-reports-reportroot-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph reports.reportRoot.Functions API
+  slug: microsoft-graph-reports-reportroot-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-reports-reportroot-functions-api-openapi.yml
+- filename: microsoft-graph-reports-securityreportsroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph reports.securityReportsRoot API
+  slug: microsoft-graph-reports-securityreportsroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-reports-securityreportsroot-api-openapi.yml
+- filename: microsoft-graph-rolemanagement-rbacapplication-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph roleManagement.rbacApplication API
+  slug: microsoft-graph-rolemanagement-rbacapplication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-rolemanagement-rbacapplication-api-openapi.yml
+- filename: microsoft-graph-rolemanagement-rolemanagement-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph roleManagement.roleManagement API
+  slug: microsoft-graph-rolemanagement-rolemanagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-rolemanagement-rolemanagement-api-openapi.yml
+- filename: microsoft-graph-schemaextensions-schemaextension-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph schemaExtensions.schemaExtension API
+  slug: microsoft-graph-schemaextensions-schemaextension-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-schemaextensions-schemaextension-api-openapi.yml
+- filename: microsoft-graph-scopedrolememberships-scopedrolemembership-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph scopedRoleMemberships.scopedRoleMembership API
+  slug: microsoft-graph-scopedrolememberships-scopedrolemembership-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-scopedrolememberships-scopedrolemembership-api-openapi.yml
+- filename: microsoft-graph-search-acronym-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Search.acronym API
+  slug: microsoft-graph-search-acronym-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-search-acronym-api-openapi.yml
+- filename: microsoft-graph-search-bookmark-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Search.bookmark API
+  slug: microsoft-graph-search-bookmark-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-search-bookmark-api-openapi.yml
+- filename: microsoft-graph-search-qna-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Search.qna API
+  slug: microsoft-graph-search-qna-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-search-qna-api-openapi.yml
+- filename: microsoft-graph-search-searchentity-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph search.searchEntity.Actions API
+  slug: microsoft-graph-search-searchentity-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-search-searchentity-actions-api-openapi.yml
+- filename: microsoft-graph-search-searchentity-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph search.searchEntity API
+  slug: microsoft-graph-search-searchentity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-search-searchentity-api-openapi.yml
+- filename: microsoft-graph-security-alert-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Security.alert API
+  slug: microsoft-graph-security-alert-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-security-alert-api-openapi.yml
+- filename: microsoft-graph-security-attacksimulationroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph security.attackSimulationRoot API
+  slug: microsoft-graph-security-attacksimulationroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-security-attacksimulationroot-api-openapi.yml
+- filename: microsoft-graph-security-casesroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph security.casesRoot API
+  slug: microsoft-graph-security-casesroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-security-casesroot-api-openapi.yml
+- filename: microsoft-graph-security-identitycontainer-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph security.identityContainer API
+  slug: microsoft-graph-security-identitycontainer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-security-identitycontainer-api-openapi.yml
+- filename: microsoft-graph-security-incident-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Security.incident API
+  slug: microsoft-graph-security-incident-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-security-incident-api-openapi.yml
+- filename: microsoft-graph-security-labelsroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph security.labelsRoot API
+  slug: microsoft-graph-security-labelsroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-security-labelsroot-api-openapi.yml
+- filename: microsoft-graph-security-securescore-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph security.secureScore API
+  slug: microsoft-graph-security-securescore-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-security-securescore-api-openapi.yml
+- filename: microsoft-graph-security-securescorecontrolprofile-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph security.secureScoreControlProfile API
+  slug: microsoft-graph-security-securescorecontrolprofile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-security-securescorecontrolprofile-api-openapi.yml
+- filename: microsoft-graph-security-security-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph security.security.Actions API
+  slug: microsoft-graph-security-security-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-security-security-actions-api-openapi.yml
+- filename: microsoft-graph-security-security-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Security.security API
+  slug: microsoft-graph-security-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-security-security-api-openapi.yml
+- filename: microsoft-graph-security-subjectrightsrequest-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph security.subjectRightsRequest API
+  slug: microsoft-graph-security-subjectrightsrequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-security-subjectrightsrequest-api-openapi.yml
+- filename: microsoft-graph-security-tenantdatasecurityandgovernance-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph security.tenantDataSecurityAndGovernance API
+  slug: microsoft-graph-security-tenantdatasecurityandgovernance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-security-tenantdatasecurityandgovernance-api-openapi.yml
+- filename: microsoft-graph-security-threatintelligence-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph security.threatIntelligence API
+  slug: microsoft-graph-security-threatintelligence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-security-threatintelligence-api-openapi.yml
+- filename: microsoft-graph-security-triggersroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph security.triggersRoot API
+  slug: microsoft-graph-security-triggersroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-security-triggersroot-api-openapi.yml
+- filename: microsoft-graph-security-triggertypesroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph security.triggerTypesRoot API
+  slug: microsoft-graph-security-triggertypesroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-security-triggertypesroot-api-openapi.yml
+- filename: microsoft-graph-service-announcements-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Service Announcements API
+  slug: microsoft-graph-service-announcements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-service-announcements-api-openapi.yml
+- filename: microsoft-graph-serviceprincipals-appmanagementpolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph servicePrincipals.appManagementPolicy API
+  slug: microsoft-graph-serviceprincipals-appmanagementpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-serviceprincipals-appmanagementpolicy-api-openapi.yml
+- filename: microsoft-graph-serviceprincipals-approleassignment-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph servicePrincipals.appRoleAssignment API
+  slug: microsoft-graph-serviceprincipals-approleassignment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-serviceprincipals-approleassignment-api-openapi.yml
+- filename: microsoft-graph-serviceprincipals-claimsmappingpolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph servicePrincipals.claimsMappingPolicy API
+  slug: microsoft-graph-serviceprincipals-claimsmappingpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-serviceprincipals-claimsmappingpolicy-api-openapi.yml
+- filename: microsoft-graph-serviceprincipals-delegatedpermissionclassification-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph servicePrincipals.delegatedPermissionClassification API
+  slug: microsoft-graph-serviceprincipals-delegatedpermissionclassification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-serviceprincipals-delegatedpermissionclassification-api-openapi.yml
+- filename: microsoft-graph-serviceprincipals-directoryobject-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph servicePrincipals.directoryObject API
+  slug: microsoft-graph-serviceprincipals-directoryobject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-serviceprincipals-directoryobject-api-openapi.yml
+- filename: microsoft-graph-serviceprincipals-endpoint-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph servicePrincipals.endpoint API
+  slug: microsoft-graph-serviceprincipals-endpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-serviceprincipals-endpoint-api-openapi.yml
+- filename: microsoft-graph-serviceprincipals-federatedidentitycredential-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph servicePrincipals.federatedIdentityCredential API
+  slug: microsoft-graph-serviceprincipals-federatedidentitycredential-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-serviceprincipals-federatedidentitycredential-api-openapi.yml
+- filename: microsoft-graph-serviceprincipals-homerealmdiscoverypolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph servicePrincipals.homeRealmDiscoveryPolicy API
+  slug: microsoft-graph-serviceprincipals-homerealmdiscoverypolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-serviceprincipals-homerealmdiscoverypolicy-api-openapi.yml
+- filename: microsoft-graph-serviceprincipals-oauth2permissiongrant-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph servicePrincipals.oAuth2PermissionGrant API
+  slug: microsoft-graph-serviceprincipals-oauth2permissiongrant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-serviceprincipals-oauth2permissiongrant-api-openapi.yml
+- filename: microsoft-graph-serviceprincipals-remotedesktopsecurityconfiguration-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph servicePrincipals.remoteDesktopSecurityConfiguration API
+  slug: microsoft-graph-serviceprincipals-remotedesktopsecurityconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-serviceprincipals-remotedesktopsecurityconfiguration-api-openapi.yml
+- filename: microsoft-graph-serviceprincipals-serviceprincipal-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph servicePrincipals.servicePrincipal.Actions API
+  slug: microsoft-graph-serviceprincipals-serviceprincipal-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-serviceprincipals-serviceprincipal-actions-api-openapi.yml
+- filename: microsoft-graph-serviceprincipals-serviceprincipal-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph servicePrincipals.servicePrincipal API
+  slug: microsoft-graph-serviceprincipals-serviceprincipal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-serviceprincipals-serviceprincipal-api-openapi.yml
+- filename: microsoft-graph-serviceprincipals-serviceprincipal-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph servicePrincipals.servicePrincipal.Functions API
+  slug: microsoft-graph-serviceprincipals-serviceprincipal-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-serviceprincipals-serviceprincipal-functions-api-openapi.yml
+- filename: microsoft-graph-serviceprincipals-synchronization-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph servicePrincipals.synchronization API
+  slug: microsoft-graph-serviceprincipals-synchronization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-serviceprincipals-synchronization-api-openapi.yml
+- filename: microsoft-graph-serviceprincipals-tokenissuancepolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph servicePrincipals.tokenIssuancePolicy API
+  slug: microsoft-graph-serviceprincipals-tokenissuancepolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-serviceprincipals-tokenissuancepolicy-api-openapi.yml
+- filename: microsoft-graph-serviceprincipals-tokenlifetimepolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph servicePrincipals.tokenLifetimePolicy API
+  slug: microsoft-graph-serviceprincipals-tokenlifetimepolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-serviceprincipals-tokenlifetimepolicy-api-openapi.yml
+- filename: microsoft-graph-sharepoint-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph SharePoint API
+  slug: microsoft-graph-sharepoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-sharepoint-api-openapi.yml
+- filename: microsoft-graph-shares-driveitem-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph shares.driveItem API
+  slug: microsoft-graph-shares-driveitem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-shares-driveitem-api-openapi.yml
+- filename: microsoft-graph-shares-list-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Shares.list API
+  slug: microsoft-graph-shares-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-shares-list-api-openapi.yml
+- filename: microsoft-graph-shares-listitem-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph shares.listItem API
+  slug: microsoft-graph-shares-listitem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-shares-listitem-api-openapi.yml
+- filename: microsoft-graph-shares-permission-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Shares.permission API
+  slug: microsoft-graph-shares-permission-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-shares-permission-api-openapi.yml
+- filename: microsoft-graph-shares-shareddriveitem-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph shares.sharedDriveItem API
+  slug: microsoft-graph-shares-shareddriveitem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-shares-shareddriveitem-api-openapi.yml
+- filename: microsoft-graph-shares-site-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Shares.site API
+  slug: microsoft-graph-shares-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-shares-site-api-openapi.yml
+- filename: microsoft-graph-shares-user-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Shares.user API
+  slug: microsoft-graph-shares-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-shares-user-api-openapi.yml
+- filename: microsoft-graph-sites-baseitem-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph sites.baseItem API
+  slug: microsoft-graph-sites-baseitem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-sites-baseitem-api-openapi.yml
+- filename: microsoft-graph-sites-basesitepage-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph sites.baseSitePage API
+  slug: microsoft-graph-sites-basesitepage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-sites-basesitepage-api-openapi.yml
+- filename: microsoft-graph-sites-columndefinition-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph sites.columnDefinition API
+  slug: microsoft-graph-sites-columndefinition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-sites-columndefinition-api-openapi.yml
+- filename: microsoft-graph-sites-contenttype-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph sites.contentType API
+  slug: microsoft-graph-sites-contenttype-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-sites-contenttype-api-openapi.yml
+- filename: microsoft-graph-sites-drive-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Sites.drive API
+  slug: microsoft-graph-sites-drive-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-sites-drive-api-openapi.yml
+- filename: microsoft-graph-sites-itemanalytics-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph sites.itemAnalytics API
+  slug: microsoft-graph-sites-itemanalytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-sites-itemanalytics-api-openapi.yml
+- filename: microsoft-graph-sites-list-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Sites.list API
+  slug: microsoft-graph-sites-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-sites-list-api-openapi.yml
+- filename: microsoft-graph-sites-onenote-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Sites.onenote API
+  slug: microsoft-graph-sites-onenote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-sites-onenote-api-openapi.yml
+- filename: microsoft-graph-sites-permission-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Sites.permission API
+  slug: microsoft-graph-sites-permission-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-sites-permission-api-openapi.yml
+- filename: microsoft-graph-sites-richlongrunningoperation-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph sites.richLongRunningOperation API
+  slug: microsoft-graph-sites-richlongrunningoperation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-sites-richlongrunningoperation-api-openapi.yml
+- filename: microsoft-graph-sites-site-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph sites.site.Actions API
+  slug: microsoft-graph-sites-site-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-sites-site-actions-api-openapi.yml
+- filename: microsoft-graph-sites-site-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Sites.site API
+  slug: microsoft-graph-sites-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-sites-site-api-openapi.yml
+- filename: microsoft-graph-sites-site-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph sites.site.Functions API
+  slug: microsoft-graph-sites-site-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-sites-site-functions-api-openapi.yml
+- filename: microsoft-graph-sites-store-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Sites.store API
+  slug: microsoft-graph-sites-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-sites-store-api-openapi.yml
+- filename: microsoft-graph-sites-user-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Sites.user API
+  slug: microsoft-graph-sites-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-sites-user-api-openapi.yml
+- filename: microsoft-graph-solutions-backuprestoreroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph solutions.backupRestoreRoot API
+  slug: microsoft-graph-solutions-backuprestoreroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-solutions-backuprestoreroot-api-openapi.yml
+- filename: microsoft-graph-solutions-bookingbusiness-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph solutions.bookingBusiness API
+  slug: microsoft-graph-solutions-bookingbusiness-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-solutions-bookingbusiness-api-openapi.yml
+- filename: microsoft-graph-solutions-bookingcurrency-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph solutions.bookingCurrency API
+  slug: microsoft-graph-solutions-bookingcurrency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-solutions-bookingcurrency-api-openapi.yml
+- filename: microsoft-graph-solutions-solutionsroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph solutions.solutionsRoot API
+  slug: microsoft-graph-solutions-solutionsroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-solutions-solutionsroot-api-openapi.yml
+- filename: microsoft-graph-solutions-virtualeventsroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph solutions.virtualEventsRoot API
+  slug: microsoft-graph-solutions-virtualeventsroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-solutions-virtualeventsroot-api-openapi.yml
+- filename: microsoft-graph-storage-filestorage-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph storage.fileStorage API
+  slug: microsoft-graph-storage-filestorage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-storage-filestorage-api-openapi.yml
+- filename: microsoft-graph-storage-storage-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Storage.storage API
+  slug: microsoft-graph-storage-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-storage-storage-api-openapi.yml
+- filename: microsoft-graph-storage-storagesettings-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph storage.storageSettings API
+  slug: microsoft-graph-storage-storagesettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-storage-storagesettings-api-openapi.yml
+- filename: microsoft-graph-subscribedskus-subscribedsku-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph subscribedSkus.subscribedSku API
+  slug: microsoft-graph-subscribedskus-subscribedsku-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-subscribedskus-subscribedsku-api-openapi.yml
+- filename: microsoft-graph-subscriptions-subscription-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph subscriptions.subscription.Actions API
+  slug: microsoft-graph-subscriptions-subscription-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-subscriptions-subscription-actions-api-openapi.yml
+- filename: microsoft-graph-subscriptions-subscription-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Subscriptions.subscription API
+  slug: microsoft-graph-subscriptions-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-subscriptions-subscription-api-openapi.yml
+- filename: microsoft-graph-teams-channel-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Teams.channel API
+  slug: microsoft-graph-teams-channel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-teams-channel-api-openapi.yml
+- filename: microsoft-graph-teams-conversationmember-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph teams.conversationMember API
+  slug: microsoft-graph-teams-conversationmember-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-teams-conversationmember-api-openapi.yml
+- filename: microsoft-graph-teams-group-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Teams.group API
+  slug: microsoft-graph-teams-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-teams-group-api-openapi.yml
+- filename: microsoft-graph-teams-profilephoto-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph teams.profilePhoto API
+  slug: microsoft-graph-teams-profilephoto-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-teams-profilephoto-api-openapi.yml
+- filename: microsoft-graph-teams-resourcespecificpermissiongrant-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph teams.resourceSpecificPermissionGrant API
+  slug: microsoft-graph-teams-resourcespecificpermissiongrant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-teams-resourcespecificpermissiongrant-api-openapi.yml
+- filename: microsoft-graph-teams-schedule-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Teams.schedule API
+  slug: microsoft-graph-teams-schedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-teams-schedule-api-openapi.yml
+- filename: microsoft-graph-teams-team-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph teams.team.Actions API
+  slug: microsoft-graph-teams-team-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-teams-team-actions-api-openapi.yml
+- filename: microsoft-graph-teams-team-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Teams.team API
+  slug: microsoft-graph-teams-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-teams-team-api-openapi.yml
+- filename: microsoft-graph-teams-team-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph teams.team.Functions API
+  slug: microsoft-graph-teams-team-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-teams-team-functions-api-openapi.yml
+- filename: microsoft-graph-teams-teamsappinstallation-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph teams.teamsAppInstallation API
+  slug: microsoft-graph-teams-teamsappinstallation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-teams-teamsappinstallation-api-openapi.yml
+- filename: microsoft-graph-teams-teamsasyncoperation-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph teams.teamsAsyncOperation API
+  slug: microsoft-graph-teams-teamsasyncoperation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-teams-teamsasyncoperation-api-openapi.yml
+- filename: microsoft-graph-teams-teamstemplate-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph teams.teamsTemplate API
+  slug: microsoft-graph-teams-teamstemplate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-teams-teamstemplate-api-openapi.yml
+- filename: microsoft-graph-teams-teamworktag-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph teams.teamworkTag API
+  slug: microsoft-graph-teams-teamworktag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-teams-teamworktag-api-openapi.yml
+- filename: microsoft-graph-teamstemplates-teamstemplate-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph teamsTemplates.teamsTemplate API
+  slug: microsoft-graph-teamstemplates-teamstemplate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-teamstemplates-teamstemplate-api-openapi.yml
+- filename: microsoft-graph-teamwork-deletedchat-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph teamwork.deletedChat API
+  slug: microsoft-graph-teamwork-deletedchat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-teamwork-deletedchat-api-openapi.yml
+- filename: microsoft-graph-teamwork-deletedteam-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph teamwork.deletedTeam API
+  slug: microsoft-graph-teamwork-deletedteam-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-teamwork-deletedteam-api-openapi.yml
+- filename: microsoft-graph-teamwork-teamsappsettings-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph teamwork.teamsAppSettings API
+  slug: microsoft-graph-teamwork-teamsappsettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-teamwork-teamsappsettings-api-openapi.yml
+- filename: microsoft-graph-teamwork-teamwork-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph teamwork.teamwork.Actions API
+  slug: microsoft-graph-teamwork-teamwork-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-teamwork-teamwork-actions-api-openapi.yml
+- filename: microsoft-graph-teamwork-teamwork-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Teamwork.teamwork API
+  slug: microsoft-graph-teamwork-teamwork-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-teamwork-teamwork-api-openapi.yml
+- filename: microsoft-graph-teamwork-workforceintegration-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph teamwork.workforceIntegration API
+  slug: microsoft-graph-teamwork-workforceintegration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-teamwork-workforceintegration-api-openapi.yml
+- filename: microsoft-graph-tenantrelationships-delegatedadmincustomer-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph tenantRelationships.delegatedAdminCustomer API
+  slug: microsoft-graph-tenantrelationships-delegatedadmincustomer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-tenantrelationships-delegatedadmincustomer-api-openapi.yml
+- filename: microsoft-graph-tenantrelationships-delegatedadminrelationship-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph tenantRelationships.delegatedAdminRelationship API
+  slug: microsoft-graph-tenantrelationships-delegatedadminrelationship-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-tenantrelationships-delegatedadminrelationship-api-openapi.yml
+- filename: microsoft-graph-tenantrelationships-multitenantorganization-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph tenantRelationships.multiTenantOrganization API
+  slug: microsoft-graph-tenantrelationships-multitenantorganization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-tenantrelationships-multitenantorganization-api-openapi.yml
+- filename: microsoft-graph-tenantrelationships-tenantrelationship-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph tenantRelationships.tenantRelationship API
+  slug: microsoft-graph-tenantrelationships-tenantrelationship-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-tenantrelationships-tenantrelationship-api-openapi.yml
+- filename: microsoft-graph-tenantrelationships-tenantrelationship-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph tenantRelationships.tenantRelationship.Functions API
+  slug: microsoft-graph-tenantrelationships-tenantrelationship-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-tenantrelationships-tenantrelationship-functions-api-openapi.yml
+- filename: microsoft-graph-user-acceptances-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph User Acceptances API
+  slug: microsoft-graph-user-acceptances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-user-acceptances-api-openapi.yml
+- filename: microsoft-graph-users-agreementacceptance-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.agreementAcceptance API
+  slug: microsoft-graph-users-agreementacceptance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-agreementacceptance-api-openapi.yml
+- filename: microsoft-graph-users-approleassignment-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.appRoleAssignment API
+  slug: microsoft-graph-users-approleassignment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-approleassignment-api-openapi.yml
+- filename: microsoft-graph-users-authentication-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Users.authentication API
+  slug: microsoft-graph-users-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-authentication-api-openapi.yml
+- filename: microsoft-graph-users-calendar-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Users.calendar API
+  slug: microsoft-graph-users-calendar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-calendar-api-openapi.yml
+- filename: microsoft-graph-users-calendargroup-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.calendarGroup API
+  slug: microsoft-graph-users-calendargroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-calendargroup-api-openapi.yml
+- filename: microsoft-graph-users-chat-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Users.chat API
+  slug: microsoft-graph-users-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-chat-api-openapi.yml
+- filename: microsoft-graph-users-cloudclipboardroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.cloudClipboardRoot API
+  slug: microsoft-graph-users-cloudclipboardroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-cloudclipboardroot-api-openapi.yml
+- filename: microsoft-graph-users-cloudpc-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.cloudPC API
+  slug: microsoft-graph-users-cloudpc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-cloudpc-api-openapi.yml
+- filename: microsoft-graph-users-contact-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Users.contact API
+  slug: microsoft-graph-users-contact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-contact-api-openapi.yml
+- filename: microsoft-graph-users-contactfolder-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.contactFolder API
+  slug: microsoft-graph-users-contactfolder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-contactfolder-api-openapi.yml
+- filename: microsoft-graph-users-devicemanagementtroubleshootingevent-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.deviceManagementTroubleshootingEvent API
+  slug: microsoft-graph-users-devicemanagementtroubleshootingevent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-devicemanagementtroubleshootingevent-api-openapi.yml
+- filename: microsoft-graph-users-directoryobject-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.directoryObject API
+  slug: microsoft-graph-users-directoryobject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-directoryobject-api-openapi.yml
+- filename: microsoft-graph-users-drive-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Users.drive API
+  slug: microsoft-graph-users-drive-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-drive-api-openapi.yml
+- filename: microsoft-graph-users-employeeexperienceuser-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.employeeExperienceUser API
+  slug: microsoft-graph-users-employeeexperienceuser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-employeeexperienceuser-api-openapi.yml
+- filename: microsoft-graph-users-event-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Users.event API
+  slug: microsoft-graph-users-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-event-api-openapi.yml
+- filename: microsoft-graph-users-extension-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Users.extension API
+  slug: microsoft-graph-users-extension-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-extension-api-openapi.yml
+- filename: microsoft-graph-users-inferenceclassification-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.inferenceClassification API
+  slug: microsoft-graph-users-inferenceclassification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-inferenceclassification-api-openapi.yml
+- filename: microsoft-graph-users-iteminsights-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.itemInsights API
+  slug: microsoft-graph-users-iteminsights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-iteminsights-api-openapi.yml
+- filename: microsoft-graph-users-licensedetails-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.licenseDetails API
+  slug: microsoft-graph-users-licensedetails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-licensedetails-api-openapi.yml
+- filename: microsoft-graph-users-mailboxsettings-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.mailboxSettings API
+  slug: microsoft-graph-users-mailboxsettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-mailboxsettings-api-openapi.yml
+- filename: microsoft-graph-users-mailfolder-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.mailFolder API
+  slug: microsoft-graph-users-mailfolder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-mailfolder-api-openapi.yml
+- filename: microsoft-graph-users-managedappregistration-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.managedAppRegistration API
+  slug: microsoft-graph-users-managedappregistration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-managedappregistration-api-openapi.yml
+- filename: microsoft-graph-users-manageddevice-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.managedDevice API
+  slug: microsoft-graph-users-manageddevice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-manageddevice-api-openapi.yml
+- filename: microsoft-graph-users-message-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Users.message API
+  slug: microsoft-graph-users-message-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-message-api-openapi.yml
+- filename: microsoft-graph-users-oauth2permissiongrant-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.oAuth2PermissionGrant API
+  slug: microsoft-graph-users-oauth2permissiongrant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-oauth2permissiongrant-api-openapi.yml
+- filename: microsoft-graph-users-onenote-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Users.onenote API
+  slug: microsoft-graph-users-onenote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-onenote-api-openapi.yml
+- filename: microsoft-graph-users-onlinemeeting-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.onlineMeeting API
+  slug: microsoft-graph-users-onlinemeeting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-onlinemeeting-api-openapi.yml
+- filename: microsoft-graph-users-outlookuser-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.outlookUser API
+  slug: microsoft-graph-users-outlookuser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-outlookuser-api-openapi.yml
+- filename: microsoft-graph-users-person-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Users.person API
+  slug: microsoft-graph-users-person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-person-api-openapi.yml
+- filename: microsoft-graph-users-planneruser-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.plannerUser API
+  slug: microsoft-graph-users-planneruser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-planneruser-api-openapi.yml
+- filename: microsoft-graph-users-presence-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Users.presence API
+  slug: microsoft-graph-users-presence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-presence-api-openapi.yml
+- filename: microsoft-graph-users-profilephoto-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.profilePhoto API
+  slug: microsoft-graph-users-profilephoto-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-profilephoto-api-openapi.yml
+- filename: microsoft-graph-users-resourcespecificpermissiongrant-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.resourceSpecificPermissionGrant API
+  slug: microsoft-graph-users-resourcespecificpermissiongrant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-resourcespecificpermissiongrant-api-openapi.yml
+- filename: microsoft-graph-users-scopedrolemembership-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.scopedRoleMembership API
+  slug: microsoft-graph-users-scopedrolemembership-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-scopedrolemembership-api-openapi.yml
+- filename: microsoft-graph-users-serviceprovisioningerror-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.serviceProvisioningError API
+  slug: microsoft-graph-users-serviceprovisioningerror-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-serviceprovisioningerror-api-openapi.yml
+- filename: microsoft-graph-users-site-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Users.site API
+  slug: microsoft-graph-users-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-site-api-openapi.yml
+- filename: microsoft-graph-users-team-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Users.team API
+  slug: microsoft-graph-users-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-team-api-openapi.yml
+- filename: microsoft-graph-users-todo-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Users.todo API
+  slug: microsoft-graph-users-todo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-todo-api-openapi.yml
+- filename: microsoft-graph-users-user-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.user.Actions API
+  slug: microsoft-graph-users-user-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-user-actions-api-openapi.yml
+- filename: microsoft-graph-users-user-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Users.user API
+  slug: microsoft-graph-users-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-user-api-openapi.yml
+- filename: microsoft-graph-users-user-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.user.Functions API
+  slug: microsoft-graph-users-user-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-user-functions-api-openapi.yml
+- filename: microsoft-graph-users-useractivity-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.userActivity API
+  slug: microsoft-graph-users-useractivity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-useractivity-api-openapi.yml
+- filename: microsoft-graph-users-userdatasecurityandgovernance-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.userDataSecurityAndGovernance API
+  slug: microsoft-graph-users-userdatasecurityandgovernance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-userdatasecurityandgovernance-api-openapi.yml
+- filename: microsoft-graph-users-usersettings-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.userSettings API
+  slug: microsoft-graph-users-usersettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-usersettings-api-openapi.yml
+- filename: microsoft-graph-users-usersolutionroot-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.userSolutionRoot API
+  slug: microsoft-graph-users-usersolutionroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-usersolutionroot-api-openapi.yml
+- filename: microsoft-graph-users-userteamwork-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph users.userTeamwork API
+  slug: microsoft-graph-users-userteamwork-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-userteamwork-api-openapi.yml
 description: ''
 domains:
 - caa:

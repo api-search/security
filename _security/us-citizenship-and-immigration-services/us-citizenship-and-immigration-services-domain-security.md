@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: uscis-case-status-api-openapi.yml
+- filename: us-citizenship-and-immigration-services-case-status-api-openapi.yml
   format: yaml
-  label: USCIS Case Status API
-  slug: uscis-case-status-api
+  label: US Citizenship and Immigration Services Case Status API
+  slug: us-citizenship-and-immigration-services-case-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/openapi/uscis-case-status-api-openapi.yml
-- filename: uscis-foia-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/openapi/us-citizenship-and-immigration-services-case-status-api-openapi.yml
+- filename: us-citizenship-and-immigration-services-foia-requests-api-openapi.yml
   format: yaml
-  label: USCIS FOIA Request and Status API
-  slug: uscis-foia-request-and-status-api
+  label: US Citizenship and Immigration Services FOIA Requests API
+  slug: us-citizenship-and-immigration-services-foia-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/openapi/uscis-foia-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/openapi/us-citizenship-and-immigration-services-foia-requests-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-chat-customemojis-api-openapi.yml
   format: yaml
-  label: Google Chat API
-  slug: google-chat-api
+  label: Google Chat customEmojis API
+  slug: google-chat-customemojis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/google-chat-customemojis-api-openapi.yml
+- filename: google-chat-google-chat-api-api-openapi.yml
+  format: yaml
+  label: Google Chat Google Chat API API
+  slug: google-chat-google-chat-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/google-chat-google-chat-api-api-openapi.yml
+- filename: google-chat-members-api-openapi.yml
+  format: yaml
+  label: Google Chat Members API
+  slug: google-chat-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/google-chat-members-api-openapi.yml
+- filename: google-chat-messages-api-openapi.yml
+  format: yaml
+  label: Google Chat Messages API
+  slug: google-chat-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/google-chat-messages-api-openapi.yml
+- filename: google-chat-reactions-api-openapi.yml
+  format: yaml
+  label: Google Chat Reactions API
+  slug: google-chat-reactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/google-chat-reactions-api-openapi.yml
+- filename: google-chat-spaces-api-openapi.yml
+  format: yaml
+  label: Google Chat Spaces API
+  slug: google-chat-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/google-chat-spaces-api-openapi.yml
+- filename: google-chat-spaces-setup-api-openapi.yml
+  format: yaml
+  label: Google Chat Spaces:setup API
+  slug: google-chat-spaces-setup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/google-chat-spaces-setup-api-openapi.yml
 description: ''
 domains:
 - caa:

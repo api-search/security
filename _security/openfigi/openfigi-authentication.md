@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: openfigi-openapi.json
-  format: json
-  label: OpenFIGI API
-  slug: openfigi
+- filename: openfigi-filter-api-openapi.yml
+  format: yaml
+  label: OpenFIGI Filter API
+  slug: openfigi-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/openapi/openfigi-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/openapi/openfigi-filter-api-openapi.yml
+- filename: openfigi-mapping-api-openapi.yml
+  format: yaml
+  label: OpenFIGI Mapping API
+  slug: openfigi-mapping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/openapi/openfigi-mapping-api-openapi.yml
+- filename: openfigi-search-api-openapi.yml
+  format: yaml
+  label: OpenFIGI Search API
+  slug: openfigi-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/openapi/openfigi-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

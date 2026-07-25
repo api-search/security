@@ -14,6 +14,42 @@ api_specs:
   slug: agents-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/asyncapi/playht-asyncapi.yml
+- filename: playht-agents-api-openapi.yml
+  format: yaml
+  label: PlayHT Agents API
+  slug: playht-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-agents-api-openapi.yml
+- filename: playht-conversations-api-openapi.yml
+  format: yaml
+  label: PlayHT Conversations API
+  slug: playht-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-conversations-api-openapi.yml
+- filename: playht-external-functions-api-openapi.yml
+  format: yaml
+  label: PlayHT External Functions API
+  slug: playht-external-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-external-functions-api-openapi.yml
+- filename: playht-playnote-api-openapi.yml
+  format: yaml
+  label: PlayHT PlayNote API
+  slug: playht-playnote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-playnote-api-openapi.yml
+- filename: playht-tts-api-openapi.yml
+  format: yaml
+  label: PlayHT TTS API
+  slug: playht-tts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-tts-api-openapi.yml
+- filename: playht-voices-api-openapi.yml
+  format: yaml
+  label: PlayHT Voices API
+  slug: playht-voices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-voices-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

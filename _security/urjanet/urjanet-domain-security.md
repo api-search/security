@@ -1,35 +1,41 @@
 ---
 api_specs:
-- filename: urjanet-openapi.yml
+- filename: urjanet-authentication-api-openapi.yml
+  format: yaml
+  label: Urjanet Authentication API
+  slug: urjanet-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/openapi/urjanet-authentication-api-openapi.yml
+- filename: urjanet-credentials-connections-api-openapi.yml
   format: yaml
   label: Urjanet Credentials & Connections API
   slug: urjanet-credentials-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/openapi/urjanet-openapi.yml
-- filename: urjanet-openapi.yml
-  format: yaml
-  label: Urjanet Statements & Bills API
-  slug: urjanet-statements-bills-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/openapi/urjanet-openapi.yml
-- filename: urjanet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/openapi/urjanet-credentials-connections-api-openapi.yml
+- filename: urjanet-meters-api-openapi.yml
   format: yaml
   label: Urjanet Meters API
   slug: urjanet-meters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/openapi/urjanet-openapi.yml
-- filename: urjanet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/openapi/urjanet-meters-api-openapi.yml
+- filename: urjanet-statements-bills-api-openapi.yml
   format: yaml
-  label: Urjanet Usage Data API
-  slug: urjanet-usage-data-api
+  label: Urjanet Statements & Bills API
+  slug: urjanet-statements-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/openapi/urjanet-openapi.yml
-- filename: urjanet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/openapi/urjanet-statements-bills-api-openapi.yml
+- filename: urjanet-users-api-openapi.yml
+  format: yaml
+  label: Urjanet Users API
+  slug: urjanet-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/openapi/urjanet-users-api-openapi.yml
+- filename: urjanet-webhooks-api-openapi.yml
   format: yaml
   label: Urjanet Webhooks API
   slug: urjanet-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/openapi/urjanet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/openapi/urjanet-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

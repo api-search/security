@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: freepik-openapi.yml
+- filename: freepik-audio-api-openapi.yml
   format: yaml
-  label: Freepik
-  slug: freepik
+  label: Freepik Audio API
+  slug: freepik-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freepik/refs/heads/main/openapi/freepik-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freepik/refs/heads/main/openapi/freepik-audio-api-openapi.yml
+- filename: freepik-image-editing-api-openapi.yml
+  format: yaml
+  label: Freepik Image Editing API
+  slug: freepik-image-editing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freepik/refs/heads/main/openapi/freepik-image-editing-api-openapi.yml
+- filename: freepik-image-generation-api-openapi.yml
+  format: yaml
+  label: Freepik Image Generation API
+  slug: freepik-image-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freepik/refs/heads/main/openapi/freepik-image-generation-api-openapi.yml
+- filename: freepik-resources-api-openapi.yml
+  format: yaml
+  label: Freepik Resources API
+  slug: freepik-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freepik/refs/heads/main/openapi/freepik-resources-api-openapi.yml
+- filename: freepik-tasks-api-openapi.yml
+  format: yaml
+  label: Freepik Tasks API
+  slug: freepik-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freepik/refs/heads/main/openapi/freepik-tasks-api-openapi.yml
+- filename: freepik-video-generation-api-openapi.yml
+  format: yaml
+  label: Freepik Video Generation API
+  slug: freepik-video-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freepik/refs/heads/main/openapi/freepik-video-generation-api-openapi.yml
 description: ''
 domains:
 - caa:

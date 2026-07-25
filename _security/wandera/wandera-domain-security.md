@@ -6,6 +6,12 @@ api_specs:
   slug: wandera-radar-risk-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/openapi/wandera-risk-api-openapi.yml
+- filename: wandera-authentication-api-openapi.yml
+  format: yaml
+  label: Wandera Authentication API
+  slug: wandera-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/openapi/wandera-authentication-api-openapi.yml
 description: ''
 domains:
 - caa:

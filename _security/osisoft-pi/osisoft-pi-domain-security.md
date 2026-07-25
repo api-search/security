@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: osisoft-pi-web-api-openapi.yml
+- filename: osisoft-pi-assetservers-api-openapi.yml
   format: yaml
-  label: OSIsoft PI Web API
-  slug: pi-web-api
+  label: osisoft-pi AssetServers API
+  slug: osisoft-pi-assetservers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/openapi/osisoft-pi-web-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/openapi/osisoft-pi-assetservers-api-openapi.yml
+- filename: osisoft-pi-attributes-api-openapi.yml
+  format: yaml
+  label: osisoft-pi Attributes API
+  slug: osisoft-pi-attributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/openapi/osisoft-pi-attributes-api-openapi.yml
+- filename: osisoft-pi-batchrequests-api-openapi.yml
+  format: yaml
+  label: osisoft-pi BatchRequests API
+  slug: osisoft-pi-batchrequests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/openapi/osisoft-pi-batchrequests-api-openapi.yml
+- filename: osisoft-pi-dataservers-api-openapi.yml
+  format: yaml
+  label: osisoft-pi DataServers API
+  slug: osisoft-pi-dataservers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/openapi/osisoft-pi-dataservers-api-openapi.yml
+- filename: osisoft-pi-elements-api-openapi.yml
+  format: yaml
+  label: osisoft-pi Elements API
+  slug: osisoft-pi-elements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/openapi/osisoft-pi-elements-api-openapi.yml
+- filename: osisoft-pi-eventframes-api-openapi.yml
+  format: yaml
+  label: osisoft-pi EventFrames API
+  slug: osisoft-pi-eventframes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/openapi/osisoft-pi-eventframes-api-openapi.yml
+- filename: osisoft-pi-pipoints-api-openapi.yml
+  format: yaml
+  label: osisoft-pi PIPoints API
+  slug: osisoft-pi-pipoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/openapi/osisoft-pi-pipoints-api-openapi.yml
+- filename: osisoft-pi-streams-api-openapi.yml
+  format: yaml
+  label: osisoft-pi Streams API
+  slug: osisoft-pi-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/openapi/osisoft-pi-streams-api-openapi.yml
 description: ''
 domains:
 - caa:

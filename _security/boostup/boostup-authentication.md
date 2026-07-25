@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: boostup-openapi-original.json
-  format: json
+- filename: boostup-export-api-openapi.yml
+  format: yaml
   label: Boostup Export API
   slug: boostup-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/openapi/boostup-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/openapi/boostup-export-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

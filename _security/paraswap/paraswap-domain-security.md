@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: ae3be6da4dbc8376e17f526f04ada75d
+- filename: paraswap-tokens-api-openapi.yml
   format: yaml
-  label: ParaSwap Market API
-  slug: paraswap-market-api
+  label: ParaSwap Tokens API
+  slug: paraswap-tokens-api
   spec_type: OpenAPI
-  url: https://gist.github.com/SpotLabsNET/ae3be6da4dbc8376e17f526f04ada75d
+  url: https://raw.githubusercontent.com/api-evangelist/paraswap/refs/heads/main/openapi/paraswap-tokens-api-openapi.yml
+- filename: paraswap-prices-api-openapi.yml
+  format: yaml
+  label: ParaSwap prices API
+  slug: paraswap-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paraswap/refs/heads/main/openapi/paraswap-prices-api-openapi.yml
+- filename: paraswap-tokens-api-openapi.yml
+  format: yaml
+  label: ParaSwap tokens API
+  slug: paraswap-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paraswap/refs/heads/main/openapi/paraswap-tokens-api-openapi.yml
+- filename: paraswap-transactions-api-openapi.yml
+  format: yaml
+  label: ParaSwap transactions API
+  slug: paraswap-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paraswap/refs/heads/main/openapi/paraswap-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

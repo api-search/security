@@ -1,36 +1,108 @@
 ---
 api_key_in: []
 api_specs:
-- filename: covalent-foundational-api-openapi.yml
+- filename: covalent-abi-api-openapi.yml
   format: yaml
-  label: GoldRush Foundational API
-  slug: goldrush-foundational-api
+  label: Covalent ABI API
+  slug: covalent-abi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-foundational-api-openapi.yml
-- filename: covalent-streaming-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-abi-api-openapi.yml
+- filename: covalent-balances-api-openapi.yml
   format: yaml
-  label: GoldRush Streaming API
-  slug: goldrush-streaming-api
+  label: Covalent Balances API
+  slug: covalent-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-streaming-api-openapi.yml
-- filename: covalent-pipeline-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-balances-api-openapi.yml
+- filename: covalent-base-api-openapi.yml
   format: yaml
-  label: GoldRush Pipeline API
-  slug: goldrush-pipeline-api
+  label: Covalent Base API
+  slug: covalent-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-pipeline-api-openapi.yml
-- filename: covalent-hyperliquid-info-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-base-api-openapi.yml
+- filename: covalent-bitcoin-api-openapi.yml
   format: yaml
-  label: GoldRush Hyperliquid Info API
-  slug: goldrush-hyperliquid-info-api
+  label: Covalent Bitcoin API
+  slug: covalent-bitcoin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-hyperliquid-info-api-openapi.yml
-- filename: covalent-x402-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-bitcoin-api-openapi.yml
+- filename: covalent-cross-chain-api-openapi.yml
   format: yaml
-  label: GoldRush x402 API
-  slug: goldrush-x402-api
+  label: Covalent Cross-Chain API
+  slug: covalent-cross-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-x402-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-cross-chain-api-openapi.yml
+- filename: covalent-data-api-openapi.yml
+  format: yaml
+  label: Covalent Data API
+  slug: covalent-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-data-api-openapi.yml
+- filename: covalent-destinations-api-openapi.yml
+  format: yaml
+  label: Covalent Destinations API
+  slug: covalent-destinations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-destinations-api-openapi.yml
+- filename: covalent-discovery-api-openapi.yml
+  format: yaml
+  label: Covalent Discovery API
+  slug: covalent-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-discovery-api-openapi.yml
+- filename: covalent-graphql-api-openapi.yml
+  format: yaml
+  label: Covalent GraphQL API
+  slug: covalent-graphql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-graphql-api-openapi.yml
+- filename: covalent-info-api-openapi.yml
+  format: yaml
+  label: Covalent Info API
+  slug: covalent-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-info-api-openapi.yml
+- filename: covalent-nft-api-openapi.yml
+  format: yaml
+  label: Covalent NFT API
+  slug: covalent-nft-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-nft-api-openapi.yml
+- filename: covalent-pipelines-api-openapi.yml
+  format: yaml
+  label: Covalent Pipelines API
+  slug: covalent-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-pipelines-api-openapi.yml
+- filename: covalent-pricing-api-openapi.yml
+  format: yaml
+  label: Covalent Pricing API
+  slug: covalent-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-pricing-api-openapi.yml
+- filename: covalent-queries-api-openapi.yml
+  format: yaml
+  label: Covalent Queries API
+  slug: covalent-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-queries-api-openapi.yml
+- filename: covalent-security-api-openapi.yml
+  format: yaml
+  label: Covalent Security API
+  slug: covalent-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-security-api-openapi.yml
+- filename: covalent-transactions-api-openapi.yml
+  format: yaml
+  label: Covalent Transactions API
+  slug: covalent-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-transactions-api-openapi.yml
+- filename: covalent-transforms-api-openapi.yml
+  format: yaml
+  label: Covalent Transforms API
+  slug: covalent-transforms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-transforms-api-openapi.yml
 auth_types:
 - http
 description: ''

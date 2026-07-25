@@ -1,36 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: bayou-energy-openapi.yml
-  format: yaml
-  label: Bayou Energy Customers API
-  slug: customers
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/openapi/bayou-energy-openapi.yml
-- filename: bayou-energy-openapi.yml
+- filename: bayou-energy-bills-api-openapi.yml
   format: yaml
   label: Bayou Energy Bills API
-  slug: bills
+  slug: bayou-energy-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/openapi/bayou-energy-openapi.yml
-- filename: bayou-energy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/openapi/bayou-energy-bills-api-openapi.yml
+- filename: bayou-energy-customers-api-openapi.yml
+  format: yaml
+  label: Bayou Energy Customers API
+  slug: bayou-energy-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/openapi/bayou-energy-customers-api-openapi.yml
+- filename: bayou-energy-intervals-api-openapi.yml
   format: yaml
   label: Bayou Energy Intervals API
-  slug: intervals
+  slug: bayou-energy-intervals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/openapi/bayou-energy-openapi.yml
-- filename: bayou-energy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/openapi/bayou-energy-intervals-api-openapi.yml
+- filename: bayou-energy-utilities-api-openapi.yml
   format: yaml
-  label: Bayou Energy Meters API
-  slug: meters
+  label: Bayou Energy Utilities API
+  slug: bayou-energy-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/openapi/bayou-energy-openapi.yml
-- filename: bayou-energy-openapi.yml
-  format: yaml
-  label: Bayou Energy Webhooks API
-  slug: webhooks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/openapi/bayou-energy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/openapi/bayou-energy-utilities-api-openapi.yml
 auth_types:
 - http
 description: ''

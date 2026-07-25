@@ -2,30 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: telefonie-voice-openapi.yml
+- filename: telefonie-available-numbers-api-openapi.yml
   format: yaml
-  label: Telefonie Voice API
-  slug: telefonie-voice-api
+  label: Telefonie Available Numbers API
+  slug: telefonie-available-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefonie/refs/heads/main/openapi/telefonie-voice-openapi.yml
-- filename: telefonie-sms-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telefonie/refs/heads/main/openapi/telefonie-available-numbers-api-openapi.yml
+- filename: telefonie-calls-api-openapi.yml
   format: yaml
-  label: Telefonie SMS API
-  slug: telefonie-sms-api
+  label: Telefonie Calls API
+  slug: telefonie-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefonie/refs/heads/main/openapi/telefonie-sms-openapi.yml
-- filename: telefonie-numbers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telefonie/refs/heads/main/openapi/telefonie-calls-api-openapi.yml
+- filename: telefonie-conferences-api-openapi.yml
   format: yaml
-  label: Telefonie Number Management API
-  slug: telefonie-number-management-api
+  label: Telefonie Conferences API
+  slug: telefonie-conferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefonie/refs/heads/main/openapi/telefonie-numbers-openapi.yml
-- filename: telefonie-recording-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telefonie/refs/heads/main/openapi/telefonie-conferences-api-openapi.yml
+- filename: telefonie-messages-api-openapi.yml
   format: yaml
-  label: Telefonie Call Recording API
-  slug: telefonie-call-recording-api
+  label: Telefonie Messages API
+  slug: telefonie-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefonie/refs/heads/main/openapi/telefonie-recording-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telefonie/refs/heads/main/openapi/telefonie-messages-api-openapi.yml
+- filename: telefonie-owned-numbers-api-openapi.yml
+  format: yaml
+  label: Telefonie Owned Numbers API
+  slug: telefonie-owned-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telefonie/refs/heads/main/openapi/telefonie-owned-numbers-api-openapi.yml
+- filename: telefonie-recordings-api-openapi.yml
+  format: yaml
+  label: Telefonie Recordings API
+  slug: telefonie-recordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telefonie/refs/heads/main/openapi/telefonie-recordings-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,18 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: apple-pay-js-openapi.yml
+- filename: apple-pay-merchant-registration-api-openapi.yml
   format: yaml
-  label: Apple Pay JS API
-  slug: apple-pay-js-api
+  label: Apple Pay Merchant Registration API
+  slug: apple-pay-merchant-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/openapi/apple-pay-js-openapi.yml
-- filename: apple-pay-payment-token-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/openapi/apple-pay-merchant-registration-api-openapi.yml
+- filename: apple-pay-merchant-validation-api-openapi.yml
   format: yaml
-  label: Apple Pay Payment Token API
-  slug: apple-pay-payment-token-api
+  label: Apple Pay Merchant Validation API
+  slug: apple-pay-merchant-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/openapi/apple-pay-payment-token-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/openapi/apple-pay-merchant-validation-api-openapi.yml
+- filename: apple-pay-payment-processing-api-openapi.yml
+  format: yaml
+  label: Apple Pay Payment Processing API
+  slug: apple-pay-payment-processing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/openapi/apple-pay-payment-processing-api-openapi.yml
+- filename: apple-pay-payment-status-api-openapi.yml
+  format: yaml
+  label: Apple Pay Payment Status API
+  slug: apple-pay-payment-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/openapi/apple-pay-payment-status-api-openapi.yml
 auth_types:
 - mutualTLS
 description: ''

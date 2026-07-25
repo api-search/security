@@ -1,60 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tekmetric-openapi.yml
-  format: yaml
-  label: Tekmetric Shops API
-  slug: tekmetric-shops-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-openapi.yml
-- filename: tekmetric-openapi.yml
-  format: yaml
-  label: Tekmetric Customers API
-  slug: tekmetric-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-openapi.yml
-- filename: tekmetric-openapi.yml
-  format: yaml
-  label: Tekmetric Vehicles API
-  slug: tekmetric-vehicles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-openapi.yml
-- filename: tekmetric-openapi.yml
-  format: yaml
-  label: Tekmetric Repair Orders API
-  slug: tekmetric-repair-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-openapi.yml
-- filename: tekmetric-openapi.yml
-  format: yaml
-  label: Tekmetric Jobs API
-  slug: tekmetric-jobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-openapi.yml
-- filename: tekmetric-openapi.yml
-  format: yaml
-  label: Tekmetric Employees API
-  slug: tekmetric-employees-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-openapi.yml
-- filename: tekmetric-openapi.yml
+- filename: tekmetric-appointments-api-openapi.yml
   format: yaml
   label: Tekmetric Appointments API
   slug: tekmetric-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-openapi.yml
-- filename: tekmetric-openapi.yml
-  format: yaml
-  label: Tekmetric Inventory API
-  slug: tekmetric-inventory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-openapi.yml
-- filename: tekmetric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-appointments-api-openapi.yml
+- filename: tekmetric-canned-jobs-api-openapi.yml
   format: yaml
   label: Tekmetric Canned Jobs API
   slug: tekmetric-canned-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-canned-jobs-api-openapi.yml
+- filename: tekmetric-customers-api-openapi.yml
+  format: yaml
+  label: Tekmetric Customers API
+  slug: tekmetric-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-customers-api-openapi.yml
+- filename: tekmetric-employees-api-openapi.yml
+  format: yaml
+  label: Tekmetric Employees API
+  slug: tekmetric-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-employees-api-openapi.yml
+- filename: tekmetric-inventory-api-openapi.yml
+  format: yaml
+  label: Tekmetric Inventory API
+  slug: tekmetric-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-inventory-api-openapi.yml
+- filename: tekmetric-jobs-api-openapi.yml
+  format: yaml
+  label: Tekmetric Jobs API
+  slug: tekmetric-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-jobs-api-openapi.yml
+- filename: tekmetric-repair-orders-api-openapi.yml
+  format: yaml
+  label: Tekmetric Repair Orders API
+  slug: tekmetric-repair-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-repair-orders-api-openapi.yml
+- filename: tekmetric-shops-api-openapi.yml
+  format: yaml
+  label: Tekmetric Shops API
+  slug: tekmetric-shops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-shops-api-openapi.yml
+- filename: tekmetric-vehicles-api-openapi.yml
+  format: yaml
+  label: Tekmetric Vehicles API
+  slug: tekmetric-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-vehicles-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

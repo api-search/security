@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-news-headlines-api-openapi.yml
   format: yaml
-  label: Google News RSS API
-  slug: google-news-rss-api
+  label: Google News RSS Headlines API
+  slug: google-news-headlines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/openapi/google-news-headlines-api-openapi.yml
+- filename: google-news-search-api-openapi.yml
+  format: yaml
+  label: Google News RSS Search API
+  slug: google-news-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/openapi/google-news-search-api-openapi.yml
+- filename: google-news-topics-api-openapi.yml
+  format: yaml
+  label: Google News RSS Topics API
+  slug: google-news-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/openapi/google-news-topics-api-openapi.yml
 description: ''
 domains:
 - caa:

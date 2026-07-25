@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: rainbird-technologies-openapi-original.json
-  format: json
-  label: Rainbird API
-  slug: rainbird-api
+- filename: rainbird-technologies-decisions-api-openapi.yml
+  format: yaml
+  label: Rainbird Technologies Decisions API
+  slug: rainbird-technologies-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/openapi/rainbird-technologies-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/openapi/rainbird-technologies-decisions-api-openapi.yml
+- filename: rainbird-technologies-evidence-api-openapi.yml
+  format: yaml
+  label: Rainbird Technologies Evidence API
+  slug: rainbird-technologies-evidence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/openapi/rainbird-technologies-evidence-api-openapi.yml
+- filename: rainbird-technologies-platform-api-openapi.yml
+  format: yaml
+  label: Rainbird Technologies Platform API
+  slug: rainbird-technologies-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/openapi/rainbird-technologies-platform-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

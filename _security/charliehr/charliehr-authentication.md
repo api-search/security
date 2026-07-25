@@ -1,30 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: charliehr-openapi.yml
+- filename: charliehr-company-api-openapi.yml
   format: yaml
-  label: CharlieHR Team Members
-  slug: team-members
+  label: CharlieHR Company API
+  slug: charliehr-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-openapi.yml
-- filename: charliehr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-company-api-openapi.yml
+- filename: charliehr-leave-absences-api-openapi.yml
   format: yaml
-  label: CharlieHR Leave / Absences
-  slug: leave-absences
+  label: CharlieHR Leave / Absences API
+  slug: charliehr-leave-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-openapi.yml
-- filename: charliehr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-leave-absences-api-openapi.yml
+- filename: charliehr-leave-allowances-api-openapi.yml
   format: yaml
-  label: CharlieHR Leave Allowances
-  slug: leave-allowances
+  label: CharlieHR Leave Allowances API
+  slug: charliehr-leave-allowances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-openapi.yml
-- filename: charliehr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-leave-allowances-api-openapi.yml
+- filename: charliehr-team-members-api-openapi.yml
   format: yaml
-  label: CharlieHR Company
-  slug: company
+  label: CharlieHR Team Members API
+  slug: charliehr-team-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-team-members-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,23 +1,71 @@
 ---
 api_specs:
-- filename: bridge-reso-web-api-openapi.yml
+- filename: bridge-mls-agents-api-openapi.yml
   format: yaml
-  label: Bridge RESO Web API
-  slug: bridge-reso-web-api
+  label: Bridge Agents API
+  slug: bridge-mls-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/openapi/bridge-reso-web-api-openapi.yml
-- filename: bridge-web-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/openapi/bridge-mls-agents-api-openapi.yml
+- filename: bridge-mls-listings-api-openapi.yml
   format: yaml
-  label: Bridge Web API
-  slug: bridge-web-api
+  label: Bridge Listings API
+  slug: bridge-mls-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/openapi/bridge-web-api-openapi.yml
-- filename: bridge-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/openapi/bridge-mls-listings-api-openapi.yml
+- filename: bridge-mls-media-api-openapi.yml
+  format: yaml
+  label: Bridge Media API
+  slug: bridge-mls-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/openapi/bridge-mls-media-api-openapi.yml
+- filename: bridge-mls-member-api-openapi.yml
+  format: yaml
+  label: Bridge Member API
+  slug: bridge-mls-member-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/openapi/bridge-mls-member-api-openapi.yml
+- filename: bridge-mls-metadata-api-openapi.yml
+  format: yaml
+  label: Bridge Metadata API
+  slug: bridge-mls-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/openapi/bridge-mls-metadata-api-openapi.yml
+- filename: bridge-mls-office-api-openapi.yml
+  format: yaml
+  label: Bridge Office API
+  slug: bridge-mls-office-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/openapi/bridge-mls-office-api-openapi.yml
+- filename: bridge-mls-offices-api-openapi.yml
+  format: yaml
+  label: Bridge Offices API
+  slug: bridge-mls-offices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/openapi/bridge-mls-offices-api-openapi.yml
+- filename: bridge-mls-openhouse-api-openapi.yml
+  format: yaml
+  label: Bridge OpenHouse API
+  slug: bridge-mls-openhouse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/openapi/bridge-mls-openhouse-api-openapi.yml
+- filename: bridge-mls-openhouses-api-openapi.yml
+  format: yaml
+  label: Bridge OpenHouses API
+  slug: bridge-mls-openhouses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/openapi/bridge-mls-openhouses-api-openapi.yml
+- filename: bridge-mls-property-api-openapi.yml
+  format: yaml
+  label: Bridge Property API
+  slug: bridge-mls-property-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/openapi/bridge-mls-property-api-openapi.yml
+- filename: bridge-mls-webhooks-api-openapi.yml
   format: yaml
   label: Bridge Webhooks API
-  slug: bridge-webhooks-api
+  slug: bridge-mls-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/openapi/bridge-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/openapi/bridge-mls-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

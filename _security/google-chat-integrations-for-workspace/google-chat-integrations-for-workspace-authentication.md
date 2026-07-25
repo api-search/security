@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: google-chat-integrations-for-workspace-openapi.yml
+- filename: google-chat-integrations-for-workspace-customemojis-api-openapi.yml
   format: yaml
-  label: Google Chat API
-  slug: chat-api
+  label: Google Chat Integrations for Workspace CustomEmojis API
+  slug: google-chat-integrations-for-workspace-customemojis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/openapi/google-chat-integrations-for-workspace-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/openapi/google-chat-integrations-for-workspace-customemojis-api-openapi.yml
+- filename: google-chat-integrations-for-workspace-google-chat-api-api-openapi.yml
+  format: yaml
+  label: Google Chat Integrations for Workspace Google Chat API API
+  slug: google-chat-integrations-for-workspace-google-chat-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/openapi/google-chat-integrations-for-workspace-google-chat-api-api-openapi.yml
+- filename: google-chat-integrations-for-workspace-members-api-openapi.yml
+  format: yaml
+  label: Google Chat Integrations for Workspace Members API
+  slug: google-chat-integrations-for-workspace-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/openapi/google-chat-integrations-for-workspace-members-api-openapi.yml
+- filename: google-chat-integrations-for-workspace-message-api-openapi.yml
+  format: yaml
+  label: Google Chat Integrations for Workspace Message API
+  slug: google-chat-integrations-for-workspace-message-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/openapi/google-chat-integrations-for-workspace-message-api-openapi.yml
+- filename: google-chat-integrations-for-workspace-messages-api-openapi.yml
+  format: yaml
+  label: Google Chat Integrations for Workspace Messages API
+  slug: google-chat-integrations-for-workspace-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/openapi/google-chat-integrations-for-workspace-messages-api-openapi.yml
+- filename: google-chat-integrations-for-workspace-reactions-api-openapi.yml
+  format: yaml
+  label: Google Chat Integrations for Workspace Reactions API
+  slug: google-chat-integrations-for-workspace-reactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/openapi/google-chat-integrations-for-workspace-reactions-api-openapi.yml
+- filename: google-chat-integrations-for-workspace-spaces-api-openapi.yml
+  format: yaml
+  label: Google Chat Integrations for Workspace Spaces API
+  slug: google-chat-integrations-for-workspace-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/openapi/google-chat-integrations-for-workspace-spaces-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

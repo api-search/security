@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: beyond-openapi-original.yml
+- filename: beyond-accounts-api-openapi.yml
   format: yaml
-  label: Beyond Pricing Public API
-  slug: beyond-pricing-public-api
+  label: Beyond Accounts API
+  slug: beyond-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/openapi/beyond-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/openapi/beyond-accounts-api-openapi.yml
+- filename: beyond-compsets-api-openapi.yml
+  format: yaml
+  label: Beyond Compsets API
+  slug: beyond-compsets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/openapi/beyond-compsets-api-openapi.yml
+- filename: beyond-customizations-api-openapi.yml
+  format: yaml
+  label: Beyond Customizations API
+  slug: beyond-customizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/openapi/beyond-customizations-api-openapi.yml
+- filename: beyond-insights-api-openapi.yml
+  format: yaml
+  label: Beyond Insights API
+  slug: beyond-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/openapi/beyond-insights-api-openapi.yml
+- filename: beyond-listings-api-openapi.yml
+  format: yaml
+  label: Beyond Listings API
+  slug: beyond-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/openapi/beyond-listings-api-openapi.yml
+- filename: beyond-oauth2-api-openapi.yml
+  format: yaml
+  label: Beyond OAuth2 API
+  slug: beyond-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/openapi/beyond-oauth2-api-openapi.yml
+- filename: beyond-users-api-openapi.yml
+  format: yaml
+  label: Beyond Users API
+  slug: beyond-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/openapi/beyond-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

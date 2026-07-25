@@ -2,12 +2,24 @@
 api_key_in:
 - cookie
 api_specs:
-- filename: fundamental-research-labs-openapi-original.json
-  format: json
-  label: Shortcut API
-  slug: shortcut-api
+- filename: fundamental-research-labs-authentication-api-openapi.yml
+  format: yaml
+  label: Fundamental Research Labs Authentication API
+  slug: fundamental-research-labs-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/openapi/fundamental-research-labs-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/openapi/fundamental-research-labs-authentication-api-openapi.yml
+- filename: fundamental-research-labs-spreadsheets-api-openapi.yml
+  format: yaml
+  label: Fundamental Research Labs Spreadsheets API
+  slug: fundamental-research-labs-spreadsheets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/openapi/fundamental-research-labs-spreadsheets-api-openapi.yml
+- filename: fundamental-research-labs-usage-api-openapi.yml
+  format: yaml
+  label: Fundamental Research Labs Usage API
+  slug: fundamental-research-labs-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/openapi/fundamental-research-labs-usage-api-openapi.yml
 auth_types:
 - apiKey
 - http

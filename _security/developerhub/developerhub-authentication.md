@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: developerhub-openapi.yml
+- filename: developerhub-documentation-api-openapi.yml
   format: yaml
-  label: DeveloperHub Documentation Platform
-  slug: platform
+  label: DeveloperHub Documentation API
+  slug: developerhub-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-documentation-api-openapi.yml
+- filename: developerhub-pages-api-openapi.yml
+  format: yaml
+  label: DeveloperHub Pages API
+  slug: developerhub-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-pages-api-openapi.yml
+- filename: developerhub-project-api-openapi.yml
+  format: yaml
+  label: DeveloperHub Project API
+  slug: developerhub-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-project-api-openapi.yml
+- filename: developerhub-reader-access-api-openapi.yml
+  format: yaml
+  label: DeveloperHub Reader Access API
+  slug: developerhub-reader-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-reader-access-api-openapi.yml
+- filename: developerhub-references-api-openapi.yml
+  format: yaml
+  label: DeveloperHub References API
+  slug: developerhub-references-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-references-api-openapi.yml
+- filename: developerhub-versions-api-openapi.yml
+  format: yaml
+  label: DeveloperHub Versions API
+  slug: developerhub-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-versions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

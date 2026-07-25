@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: tyntec-number-verification-openapi.yml
-  format: yaml
-  label: tyntec Number Verification API
-  slug: tyntec-number-verification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyntec/refs/heads/main/openapi/tyntec-number-verification-openapi.yml
-- filename: tyntec-number-verification-openapi.yml
+- filename: tyntec-number-information-api-openapi.yml
   format: yaml
   label: tyntec Number Information API
   slug: tyntec-number-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyntec/refs/heads/main/openapi/tyntec-number-verification-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tyntec/refs/heads/main/openapi/tyntec-number-information-api-openapi.yml
+- filename: tyntec-number-verification-api-openapi.yml
+  format: yaml
+  label: tyntec Number Verification API
+  slug: tyntec-number-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tyntec/refs/heads/main/openapi/tyntec-number-verification-api-openapi.yml
+- filename: tyntec-service-api-openapi.yml
+  format: yaml
+  label: tyntec Service API
+  slug: tyntec-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tyntec/refs/heads/main/openapi/tyntec-service-api-openapi.yml
+- filename: tyntec-verify-templates-api-openapi.yml
+  format: yaml
+  label: tyntec Verify Templates API
+  slug: tyntec-verify-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tyntec/refs/heads/main/openapi/tyntec-verify-templates-api-openapi.yml
 description: ''
 domains:
 - dmarc: true

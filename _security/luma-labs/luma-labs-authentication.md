@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: luma-labs-openapi.yml
+- filename: luma-labs-concepts-api-openapi.yml
   format: yaml
-  label: Luma Dream Machine API
-  slug: dream-machine-api
+  label: Luma AI Concepts API
+  slug: luma-labs-concepts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma-labs/refs/heads/main/openapi/luma-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/luma-labs/refs/heads/main/openapi/luma-labs-concepts-api-openapi.yml
+- filename: luma-labs-credits-api-openapi.yml
+  format: yaml
+  label: Luma AI Credits API
+  slug: luma-labs-credits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma-labs/refs/heads/main/openapi/luma-labs-credits-api-openapi.yml
+- filename: luma-labs-generations-api-openapi.yml
+  format: yaml
+  label: Luma AI Generations API
+  slug: luma-labs-generations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma-labs/refs/heads/main/openapi/luma-labs-generations-api-openapi.yml
+- filename: luma-labs-image-api-openapi.yml
+  format: yaml
+  label: Luma AI Image API
+  slug: luma-labs-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma-labs/refs/heads/main/openapi/luma-labs-image-api-openapi.yml
+- filename: luma-labs-system-api-openapi.yml
+  format: yaml
+  label: Luma AI System API
+  slug: luma-labs-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma-labs/refs/heads/main/openapi/luma-labs-system-api-openapi.yml
+- filename: luma-labs-video-api-openapi.yml
+  format: yaml
+  label: Luma AI Video API
+  slug: luma-labs-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma-labs/refs/heads/main/openapi/luma-labs-video-api-openapi.yml
 auth_types:
 - http
 description: ''

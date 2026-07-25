@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: screenleap-openapi.yml
+- filename: screenleap-screen-shares-api-openapi.yml
   format: yaml
-  label: Screenleap API
-  slug: screenleap-api
+  label: Screenleap Screen Shares API
+  slug: screenleap-screen-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenleap/refs/heads/main/openapi/screenleap-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/screenleap/refs/heads/main/openapi/screenleap-screen-shares-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

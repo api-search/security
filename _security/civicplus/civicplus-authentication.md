@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: civicplus-seeclickfix-open311-openapi-original.yml
+- filename: civicplus-request-api-openapi.yml
   format: yaml
-  label: SeeClickFix API v2
-  slug: seeclickfix-api-v2
+  label: CivicPlus Request API
+  slug: civicplus-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/openapi/civicplus-seeclickfix-open311-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/openapi/civicplus-request-api-openapi.yml
+- filename: civicplus-requests-response-format-api-openapi.yml
+  format: yaml
+  label: CivicPlus Requests.{response Format} API
+  slug: civicplus-requests-response-format-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/openapi/civicplus-requests-response-format-api-openapi.yml
+- filename: civicplus-services-api-openapi.yml
+  format: yaml
+  label: CivicPlus Services API
+  slug: civicplus-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/openapi/civicplus-services-api-openapi.yml
+- filename: civicplus-services-response-format-api-openapi.yml
+  format: yaml
+  label: CivicPlus Services.{response Format} API
+  slug: civicplus-services-response-format-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/openapi/civicplus-services-response-format-api-openapi.yml
+- filename: civicplus-tokens-api-openapi.yml
+  format: yaml
+  label: CivicPlus Tokens API
+  slug: civicplus-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/openapi/civicplus-tokens-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -58,7 +82,7 @@ tags:
 - Government
 - GovTech
 - Local Government
-- 311
+- '311'
 - Civic Engagement
 - Public Records
 - Service Requests

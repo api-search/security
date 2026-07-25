@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: v4.json
-  format: json
-  label: Bitly API v4
-  slug: bitly-api
+- filename: bitly-bitlinks-api-openapi.yml
+  format: yaml
+  label: Bitly Bitlinks API
+  slug: bitly-bitlinks-api
   spec_type: OpenAPI
-  url: https://dev.bitly.com/v4/v4.json
+  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-bitlinks-api-openapi.yml
+- filename: bitly-bsds-api-openapi.yml
+  format: yaml
+  label: Bitly BSDs API
+  slug: bitly-bsds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-bsds-api-openapi.yml
+- filename: bitly-campaigns-api-openapi.yml
+  format: yaml
+  label: Bitly Campaigns API
+  slug: bitly-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-campaigns-api-openapi.yml
+- filename: bitly-channels-api-openapi.yml
+  format: yaml
+  label: Bitly Channels API
+  slug: bitly-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-channels-api-openapi.yml
+- filename: bitly-custom-bitlinks-api-openapi.yml
+  format: yaml
+  label: Bitly Custom Bitlinks API
+  slug: bitly-custom-bitlinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-custom-bitlinks-api-openapi.yml
+- filename: bitly-group-metrics-api-openapi.yml
+  format: yaml
+  label: Bitly Group Metrics API
+  slug: bitly-group-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-group-metrics-api-openapi.yml
+- filename: bitly-groups-api-openapi.yml
+  format: yaml
+  label: Bitly Groups API
+  slug: bitly-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-groups-api-openapi.yml
+- filename: bitly-metrics-api-openapi.yml
+  format: yaml
+  label: Bitly Metrics API
+  slug: bitly-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-metrics-api-openapi.yml
+- filename: bitly-organizations-api-openapi.yml
+  format: yaml
+  label: Bitly Organizations API
+  slug: bitly-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-organizations-api-openapi.yml
+- filename: bitly-qr-codes-api-openapi.yml
+  format: yaml
+  label: Bitly QR Codes API
+  slug: bitly-qr-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-qr-codes-api-openapi.yml
 auth_types:
 - http
 description: ''

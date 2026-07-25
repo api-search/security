@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Perforce Helix Core API
-  slug: perforce-helix-core-api
-  spec_type: OpenAPI
-  url: https://api.perforce.com/helix-core/openapi.json
-- filename: perforce-helix-swarm-openapi.yml
+- filename: perforce-activity-api-openapi.yml
   format: yaml
-  label: Perforce Helix Swarm API
-  slug: perforce-helix-swarm-api
+  label: Perforce Activity API
+  slug: perforce-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/openapi/perforce-helix-swarm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/openapi/perforce-activity-api-openapi.yml
+- filename: perforce-changes-api-openapi.yml
+  format: yaml
+  label: Perforce Changes API
+  slug: perforce-changes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/openapi/perforce-changes-api-openapi.yml
+- filename: perforce-comments-api-openapi.yml
+  format: yaml
+  label: Perforce Comments API
+  slug: perforce-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/openapi/perforce-comments-api-openapi.yml
+- filename: perforce-projects-api-openapi.yml
+  format: yaml
+  label: Perforce Projects API
+  slug: perforce-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/openapi/perforce-projects-api-openapi.yml
+- filename: perforce-reviews-api-openapi.yml
+  format: yaml
+  label: Perforce Reviews API
+  slug: perforce-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/openapi/perforce-reviews-api-openapi.yml
+- filename: perforce-version-api-openapi.yml
+  format: yaml
+  label: Perforce Version API
+  slug: perforce-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/openapi/perforce-version-api-openapi.yml
 description: ''
 domains:
 - caa:

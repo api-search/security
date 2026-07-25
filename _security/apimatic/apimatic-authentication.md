@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: apimatic-platform-api.yaml
+- filename: apimatic-apis-api-openapi.yml
   format: yaml
-  label: APIMatic Platform API
-  slug: apimatic-platform-api
+  label: APIMatic APIs API
+  slug: apimatic-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-platform-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-apis-api-openapi.yml
+- filename: apimatic-portals-api-openapi.yml
+  format: yaml
+  label: APIMatic Portals API
+  slug: apimatic-portals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-portals-api-openapi.yml
+- filename: apimatic-sdk-generation-api-openapi.yml
+  format: yaml
+  label: APIMatic SDK Generation API
+  slug: apimatic-sdk-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-sdk-generation-api-openapi.yml
+- filename: apimatic-transformation-api-openapi.yml
+  format: yaml
+  label: APIMatic Transformation API
+  slug: apimatic-transformation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-transformation-api-openapi.yml
+- filename: apimatic-validation-api-openapi.yml
+  format: yaml
+  label: APIMatic Validation API
+  slug: apimatic-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-validation-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

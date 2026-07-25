@@ -1,48 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: eight-sleep-openapi.yml
-  format: yaml
-  label: Eight Sleep Authentication API
-  slug: eight-sleep-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-openapi.yml
-- filename: eight-sleep-openapi.yml
-  format: yaml
-  label: Eight Sleep User API
-  slug: eight-sleep-user-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-openapi.yml
-- filename: eight-sleep-openapi.yml
-  format: yaml
-  label: Eight Sleep Device API
-  slug: eight-sleep-device-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-openapi.yml
-- filename: eight-sleep-openapi.yml
-  format: yaml
-  label: Eight Sleep Temperature API
-  slug: eight-sleep-temperature-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-openapi.yml
-- filename: eight-sleep-openapi.yml
-  format: yaml
-  label: Eight Sleep Trends API
-  slug: eight-sleep-trends-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-openapi.yml
-- filename: eight-sleep-openapi.yml
-  format: yaml
-  label: Eight Sleep Base API
-  slug: eight-sleep-base-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-openapi.yml
-- filename: eight-sleep-openapi.yml
+- filename: eight-sleep-alarms-api-openapi.yml
   format: yaml
   label: Eight Sleep Alarms API
   slug: eight-sleep-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-alarms-api-openapi.yml
+- filename: eight-sleep-authentication-api-openapi.yml
+  format: yaml
+  label: Eight Sleep Authentication API
+  slug: eight-sleep-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-authentication-api-openapi.yml
+- filename: eight-sleep-base-api-openapi.yml
+  format: yaml
+  label: Eight Sleep Base API
+  slug: eight-sleep-base-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-base-api-openapi.yml
+- filename: eight-sleep-device-api-openapi.yml
+  format: yaml
+  label: Eight Sleep Device API
+  slug: eight-sleep-device-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-device-api-openapi.yml
+- filename: eight-sleep-temperature-api-openapi.yml
+  format: yaml
+  label: Eight Sleep Temperature API
+  slug: eight-sleep-temperature-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-temperature-api-openapi.yml
+- filename: eight-sleep-trends-api-openapi.yml
+  format: yaml
+  label: Eight Sleep Trends API
+  slug: eight-sleep-trends-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-trends-api-openapi.yml
+- filename: eight-sleep-user-api-openapi.yml
+  format: yaml
+  label: Eight Sleep User API
+  slug: eight-sleep-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-user-api-openapi.yml
 auth_types:
 - http
 description: ''

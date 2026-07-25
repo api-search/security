@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: assurant-apex-insurance-api-openapi.yml
+- filename: assurant-claims-api-openapi.yml
   format: yaml
-  label: Assurant APEX Embedded Insurance API
-  slug: apex-insurance-api
+  label: Assurant Claims API
+  slug: assurant-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assurant/refs/heads/main/openapi/assurant-apex-insurance-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/assurant/refs/heads/main/openapi/assurant-claims-api-openapi.yml
+- filename: assurant-enrollments-api-openapi.yml
+  format: yaml
+  label: Assurant Enrollments API
+  slug: assurant-enrollments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/assurant/refs/heads/main/openapi/assurant-enrollments-api-openapi.yml
+- filename: assurant-policies-api-openapi.yml
+  format: yaml
+  label: Assurant Policies API
+  slug: assurant-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/assurant/refs/heads/main/openapi/assurant-policies-api-openapi.yml
+- filename: assurant-products-api-openapi.yml
+  format: yaml
+  label: Assurant Products API
+  slug: assurant-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/assurant/refs/heads/main/openapi/assurant-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

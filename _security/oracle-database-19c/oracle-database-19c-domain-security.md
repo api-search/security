@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: oracle-database-19c-ords-openapi.yml
+- filename: oracle-database-19c-autorest-api-openapi.yml
   format: yaml
-  label: Oracle REST Data Services (ORDS)
-  slug: oracle-rest-data-services-ords
+  label: Oracle Database 19c AutoREST API
+  slug: oracle-database-19c-autorest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-database-19c/refs/heads/main/openapi/oracle-database-19c-ords-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database-19c/refs/heads/main/openapi/oracle-database-19c-autorest-api-openapi.yml
+- filename: oracle-database-19c-metadata-api-openapi.yml
+  format: yaml
+  label: Oracle Database 19c Metadata API
+  slug: oracle-database-19c-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database-19c/refs/heads/main/openapi/oracle-database-19c-metadata-api-openapi.yml
+- filename: oracle-database-19c-soda-api-openapi.yml
+  format: yaml
+  label: Oracle Database 19c SODA API
+  slug: oracle-database-19c-soda-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database-19c/refs/heads/main/openapi/oracle-database-19c-soda-api-openapi.yml
+- filename: oracle-database-19c-sql-api-openapi.yml
+  format: yaml
+  label: Oracle Database 19c SQL API
+  slug: oracle-database-19c-sql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database-19c/refs/heads/main/openapi/oracle-database-19c-sql-api-openapi.yml
 description: ''
 domains:
 - caa:

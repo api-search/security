@@ -1,11 +1,113 @@
 ---
 api_specs:
-- filename: upguard-cyberrisk-openapi-original.json
-  format: json
-  label: UpGuard CyberRisk API
-  slug: upguard-cyberrisk-api
+- filename: upguard-breaches-api-openapi.yml
+  format: yaml
+  label: UpGuard breaches API
+  slug: upguard-breaches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-cyberrisk-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-breaches-api-openapi.yml
+- filename: upguard-bulk-api-openapi.yml
+  format: yaml
+  label: UpGuard bulk API
+  slug: upguard-bulk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-bulk-api-openapi.yml
+- filename: upguard-dataleaks-api-openapi.yml
+  format: yaml
+  label: UpGuard dataleaks API
+  slug: upguard-dataleaks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-dataleaks-api-openapi.yml
+- filename: upguard-domains-api-openapi.yml
+  format: yaml
+  label: UpGuard domains API
+  slug: upguard-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-domains-api-openapi.yml
+- filename: upguard-ips-api-openapi.yml
+  format: yaml
+  label: UpGuard ips API
+  slug: upguard-ips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-ips-api-openapi.yml
+- filename: upguard-labels-api-openapi.yml
+  format: yaml
+  label: UpGuard labels API
+  slug: upguard-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-labels-api-openapi.yml
+- filename: upguard-notifications-api-openapi.yml
+  format: yaml
+  label: UpGuard notifications API
+  slug: upguard-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-notifications-api-openapi.yml
+- filename: upguard-organisation-api-openapi.yml
+  format: yaml
+  label: UpGuard organisation API
+  slug: upguard-organisation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-organisation-api-openapi.yml
+- filename: upguard-reports-api-openapi.yml
+  format: yaml
+  label: UpGuard reports API
+  slug: upguard-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-reports-api-openapi.yml
+- filename: upguard-risks-api-openapi.yml
+  format: yaml
+  label: UpGuard risks API
+  slug: upguard-risks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-risks-api-openapi.yml
+- filename: upguard-subsidiaries-api-openapi.yml
+  format: yaml
+  label: UpGuard subsidiaries API
+  slug: upguard-subsidiaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-subsidiaries-api-openapi.yml
+- filename: upguard-threatmonitoring-api-openapi.yml
+  format: yaml
+  label: UpGuard threatmonitoring API
+  slug: upguard-threatmonitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-threatmonitoring-api-openapi.yml
+- filename: upguard-trust-exchange-api-openapi.yml
+  format: yaml
+  label: UpGuard trust_exchange API
+  slug: upguard-trust-exchange-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-trust-exchange-api-openapi.yml
+- filename: upguard-typosquat-api-openapi.yml
+  format: yaml
+  label: UpGuard typosquat API
+  slug: upguard-typosquat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-typosquat-api-openapi.yml
+- filename: upguard-userrisk-api-openapi.yml
+  format: yaml
+  label: UpGuard userrisk API
+  slug: upguard-userrisk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-userrisk-api-openapi.yml
+- filename: upguard-vendors-api-openapi.yml
+  format: yaml
+  label: UpGuard vendors API
+  slug: upguard-vendors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-vendors-api-openapi.yml
+- filename: upguard-vulnerabilities-api-openapi.yml
+  format: yaml
+  label: UpGuard vulnerabilities API
+  slug: upguard-vulnerabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-vulnerabilities-api-openapi.yml
+- filename: upguard-webhooks-api-openapi.yml
+  format: yaml
+  label: UpGuard webhooks API
+  slug: upguard-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

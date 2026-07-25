@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: ternary-openapi.yml
+- filename: ternary-anomaly-detection-api-openapi.yml
   format: yaml
-  label: Ternary API
-  slug: ternary-api
+  label: Ternary Anomaly Detection API
+  slug: ternary-anomaly-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/openapi/ternary-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/openapi/ternary-anomaly-detection-api-openapi.yml
+- filename: ternary-commitments-api-openapi.yml
+  format: yaml
+  label: Ternary Commitments API
+  slug: ternary-commitments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/openapi/ternary-commitments-api-openapi.yml
+- filename: ternary-cost-allocation-api-openapi.yml
+  format: yaml
+  label: Ternary Cost Allocation API
+  slug: ternary-cost-allocation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/openapi/ternary-cost-allocation-api-openapi.yml
+- filename: ternary-forecasting-api-openapi.yml
+  format: yaml
+  label: Ternary Forecasting API
+  slug: ternary-forecasting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/openapi/ternary-forecasting-api-openapi.yml
+- filename: ternary-kubernetes-api-openapi.yml
+  format: yaml
+  label: Ternary Kubernetes API
+  slug: ternary-kubernetes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/openapi/ternary-kubernetes-api-openapi.yml
+- filename: ternary-reporting-api-openapi.yml
+  format: yaml
+  label: Ternary Reporting API
+  slug: ternary-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/openapi/ternary-reporting-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

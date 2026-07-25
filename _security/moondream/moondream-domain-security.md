@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: moondream-openapi.yml
+- filename: moondream-openai-compatibility-api-openapi.yml
   format: yaml
-  label: Moondream Cloud API
-  slug: moondream-cloud-api
+  label: Moondream OpenAI Compatibility API
+  slug: moondream-openai-compatibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/openapi/moondream-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/openapi/moondream-openai-compatibility-api-openapi.yml
+- filename: moondream-skills-api-openapi.yml
+  format: yaml
+  label: Moondream Skills API
+  slug: moondream-skills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/openapi/moondream-skills-api-openapi.yml
 description: ''
 domains:
 - caa: []

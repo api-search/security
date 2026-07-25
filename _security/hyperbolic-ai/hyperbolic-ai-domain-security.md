@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: hyperbolic-chat-completions-api-openapi.yml
-  format: yaml
-  label: Hyperbolic Chat Completions API
-  slug: hyperbolic-chat-completions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/openapi/hyperbolic-chat-completions-api-openapi.yml
-- filename: hyperbolic-completions-api-openapi.yml
-  format: yaml
-  label: Hyperbolic Completions API
-  slug: hyperbolic-completions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/openapi/hyperbolic-completions-api-openapi.yml
-- filename: hyperbolic-image-generation-api-openapi.yml
-  format: yaml
-  label: Hyperbolic Image Generation API
-  slug: hyperbolic-image-generation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/openapi/hyperbolic-image-generation-api-openapi.yml
-- filename: hyperbolic-audio-generation-api-openapi.yml
+- filename: hyperbolic-ai-audio-generation-api-openapi.yml
   format: yaml
   label: Hyperbolic Audio Generation API
-  slug: hyperbolic-audio-generation-api
+  slug: hyperbolic-ai-audio-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/openapi/hyperbolic-audio-generation-api-openapi.yml
-- filename: hyperbolic-models-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/openapi/hyperbolic-ai-audio-generation-api-openapi.yml
+- filename: hyperbolic-ai-chat-completions-api-openapi.yml
+  format: yaml
+  label: Hyperbolic Chat Completions API
+  slug: hyperbolic-ai-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/openapi/hyperbolic-ai-chat-completions-api-openapi.yml
+- filename: hyperbolic-ai-completions-api-openapi.yml
+  format: yaml
+  label: Hyperbolic Completions API
+  slug: hyperbolic-ai-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/openapi/hyperbolic-ai-completions-api-openapi.yml
+- filename: hyperbolic-ai-image-generation-api-openapi.yml
+  format: yaml
+  label: Hyperbolic Image Generation API
+  slug: hyperbolic-ai-image-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/openapi/hyperbolic-ai-image-generation-api-openapi.yml
+- filename: hyperbolic-ai-models-api-openapi.yml
   format: yaml
   label: Hyperbolic Models API
-  slug: hyperbolic-models-api
+  slug: hyperbolic-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/openapi/hyperbolic-models-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/openapi/hyperbolic-ai-models-api-openapi.yml
 description: ''
 domains:
 - caa: []

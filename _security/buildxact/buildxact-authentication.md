@@ -2,18 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: buildxact-public-api-openapi.yml
-  format: yaml
-  label: Buildxact Public API
-  slug: buildxact-public-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildxact/refs/heads/main/openapi/buildxact-public-api-openapi.yml
 - filename: buildxact-webhooks-asyncapi.yml
   format: yaml
   label: Buildxact Webhooks
   slug: buildxact-webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/buildxact/refs/heads/main/asyncapi/buildxact-webhooks-asyncapi.yml
+- filename: buildxact-authentication-api-openapi.yml
+  format: yaml
+  label: Buildxact Authentication API
+  slug: buildxact-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buildxact/refs/heads/main/openapi/buildxact-authentication-api-openapi.yml
+- filename: buildxact-estimate-items-api-openapi.yml
+  format: yaml
+  label: Buildxact Estimate Items API
+  slug: buildxact-estimate-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buildxact/refs/heads/main/openapi/buildxact-estimate-items-api-openapi.yml
+- filename: buildxact-estimates-api-openapi.yml
+  format: yaml
+  label: Buildxact Estimates API
+  slug: buildxact-estimates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buildxact/refs/heads/main/openapi/buildxact-estimates-api-openapi.yml
+- filename: buildxact-tax-context-api-openapi.yml
+  format: yaml
+  label: Buildxact Tax Context API
+  slug: buildxact-tax-context-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buildxact/refs/heads/main/openapi/buildxact-tax-context-api-openapi.yml
 auth_types:
 - apiKey
 - http

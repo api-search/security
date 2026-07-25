@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: zenlytic-embed-openapi.yml
+- filename: zenlytic-embedding-api-openapi.yml
   format: yaml
-  label: Zenlytic Signed Embedding API
-  slug: zenlytic-signed-embedding-api
+  label: Zenlytic Embedding API
+  slug: zenlytic-embedding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenlytic/refs/heads/main/openapi/zenlytic-embed-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zenlytic/refs/heads/main/openapi/zenlytic-embedding-api-openapi.yml
 description: ''
 domains:
 - caa:

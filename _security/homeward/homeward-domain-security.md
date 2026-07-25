@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: homeward-offer-estimate-openapi.yml
+- filename: homeward-buybox-api-openapi.yml
   format: yaml
-  label: Homeward Offer Estimate API
-  slug: homeward-offer-estimate-api
+  label: Homeward Buybox API
+  slug: homeward-buybox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/openapi/homeward-offer-estimate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/openapi/homeward-buybox-api-openapi.yml
+- filename: homeward-finalization-api-openapi.yml
+  format: yaml
+  label: Homeward Finalization API
+  slug: homeward-finalization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/openapi/homeward-finalization-api-openapi.yml
+- filename: homeward-offer-requests-api-openapi.yml
+  format: yaml
+  label: Homeward Offer Requests API
+  slug: homeward-offer-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/openapi/homeward-offer-requests-api-openapi.yml
 description: ''
 domains:
 - caa: []

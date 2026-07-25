@@ -1,17 +1,89 @@
 ---
 api_specs:
-- filename: leapsome-content-api-openapi.yml
+- filename: leapsome-absences-api-openapi.yml
   format: yaml
-  label: Leapsome Content API
-  slug: leapsome-content-api
+  label: Leapsome absences API
+  slug: leapsome-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-content-api-openapi.yml
-- filename: leapsome-scim-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-absences-api-openapi.yml
+- filename: leapsome-accessroles-api-openapi.yml
   format: yaml
-  label: Leapsome SCIM API
-  slug: leapsome-scim-api
+  label: Leapsome accessRoles API
+  slug: leapsome-accessroles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-scim-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-accessroles-api-openapi.yml
+- filename: leapsome-auth-api-openapi.yml
+  format: yaml
+  label: Leapsome auth API
+  slug: leapsome-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-auth-api-openapi.yml
+- filename: leapsome-documents-api-openapi.yml
+  format: yaml
+  label: Leapsome documents API
+  slug: leapsome-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-documents-api-openapi.yml
+- filename: leapsome-feedback-api-openapi.yml
+  format: yaml
+  label: Leapsome feedback API
+  slug: leapsome-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-feedback-api-openapi.yml
+- filename: leapsome-goals-api-openapi.yml
+  format: yaml
+  label: Leapsome goals API
+  slug: leapsome-goals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-goals-api-openapi.yml
+- filename: leapsome-groups-api-openapi.yml
+  format: yaml
+  label: Leapsome Groups API
+  slug: leapsome-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-groups-api-openapi.yml
+- filename: leapsome-leapsome-api-api-openapi.yml
+  format: yaml
+  label: Leapsome Leapsome API API
+  slug: leapsome-leapsome-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-leapsome-api-api-openapi.yml
+- filename: leapsome-payroll-api-openapi.yml
+  format: yaml
+  label: Leapsome payroll API
+  slug: leapsome-payroll-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-payroll-api-openapi.yml
+- filename: leapsome-reviews-api-openapi.yml
+  format: yaml
+  label: Leapsome reviews API
+  slug: leapsome-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-reviews-api-openapi.yml
+- filename: leapsome-schemas-api-openapi.yml
+  format: yaml
+  label: Leapsome Schemas API
+  slug: leapsome-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-schemas-api-openapi.yml
+- filename: leapsome-timetracking-api-openapi.yml
+  format: yaml
+  label: Leapsome timeTracking API
+  slug: leapsome-timetracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-timetracking-api-openapi.yml
+- filename: leapsome-users-api-openapi.yml
+  format: yaml
+  label: Leapsome users API
+  slug: leapsome-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-users-api-openapi.yml
+- filename: leapsome-worklocations-api-openapi.yml
+  format: yaml
+  label: Leapsome workLocations API
+  slug: leapsome-worklocations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-worklocations-api-openapi.yml
 description: ''
 domains:
 - caa: []

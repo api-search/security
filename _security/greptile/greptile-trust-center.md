@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: greptile-openapi.yml
+- filename: greptile-query-api-openapi.yml
   format: yaml
   label: Greptile Query API
   slug: greptile-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/openapi/greptile-openapi.yml
-- filename: greptile-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/openapi/greptile-query-api-openapi.yml
+- filename: greptile-repositories-api-openapi.yml
   format: yaml
-  label: Greptile Repositories (Indexing) API
+  label: Greptile Repositories API
   slug: greptile-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/openapi/greptile-openapi.yml
-- filename: greptile-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/openapi/greptile-repositories-api-openapi.yml
+- filename: greptile-search-api-openapi.yml
   format: yaml
   label: Greptile Search API
   slug: greptile-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/openapi/greptile-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/openapi/greptile-search-api-openapi.yml
 certifications:
 - SOC 2
 description: ''

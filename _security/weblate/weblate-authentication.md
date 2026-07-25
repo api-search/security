@@ -3,12 +3,132 @@ api_key_in:
 - cookie
 - header
 api_specs:
-- filename: openapi.yaml
+- filename: weblate-addons-api-openapi.yml
   format: yaml
-  label: Weblate REST API
-  slug: weblate-rest-api
+  label: Weblate addons API
+  slug: weblate-addons-api
   spec_type: OpenAPI
-  url: https://hosted.weblate.org/api/schema/
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-addons-api-openapi.yml
+- filename: weblate-categories-api-openapi.yml
+  format: yaml
+  label: Weblate categories API
+  slug: weblate-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-categories-api-openapi.yml
+- filename: weblate-changes-api-openapi.yml
+  format: yaml
+  label: Weblate changes API
+  slug: weblate-changes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-changes-api-openapi.yml
+- filename: weblate-component-lists-api-openapi.yml
+  format: yaml
+  label: Weblate component-lists API
+  slug: weblate-component-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-component-lists-api-openapi.yml
+- filename: weblate-components-api-openapi.yml
+  format: yaml
+  label: Weblate components API
+  slug: weblate-components-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-components-api-openapi.yml
+- filename: weblate-contributions-api-openapi.yml
+  format: yaml
+  label: Weblate contributions API
+  slug: weblate-contributions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-contributions-api-openapi.yml
+- filename: weblate-groups-api-openapi.yml
+  format: yaml
+  label: Weblate groups API
+  slug: weblate-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-groups-api-openapi.yml
+- filename: weblate-hooks-api-openapi.yml
+  format: yaml
+  label: Weblate hooks API
+  slug: weblate-hooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-hooks-api-openapi.yml
+- filename: weblate-languages-api-openapi.yml
+  format: yaml
+  label: Weblate languages API
+  slug: weblate-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-languages-api-openapi.yml
+- filename: weblate-memory-api-openapi.yml
+  format: yaml
+  label: Weblate memory API
+  slug: weblate-memory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-memory-api-openapi.yml
+- filename: weblate-metrics-api-openapi.yml
+  format: yaml
+  label: Weblate metrics API
+  slug: weblate-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-metrics-api-openapi.yml
+- filename: weblate-projects-api-openapi.yml
+  format: yaml
+  label: Weblate projects API
+  slug: weblate-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-projects-api-openapi.yml
+- filename: weblate-roles-api-openapi.yml
+  format: yaml
+  label: Weblate roles API
+  slug: weblate-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-roles-api-openapi.yml
+- filename: weblate-schema-api-openapi.yml
+  format: yaml
+  label: Weblate schema API
+  slug: weblate-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-schema-api-openapi.yml
+- filename: weblate-screenshots-api-openapi.yml
+  format: yaml
+  label: Weblate screenshots API
+  slug: weblate-screenshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-screenshots-api-openapi.yml
+- filename: weblate-search-api-openapi.yml
+  format: yaml
+  label: Weblate search API
+  slug: weblate-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-search-api-openapi.yml
+- filename: weblate-statistics-api-openapi.yml
+  format: yaml
+  label: Weblate statistics API
+  slug: weblate-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-statistics-api-openapi.yml
+- filename: weblate-tasks-api-openapi.yml
+  format: yaml
+  label: Weblate tasks API
+  slug: weblate-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-tasks-api-openapi.yml
+- filename: weblate-translations-api-openapi.yml
+  format: yaml
+  label: Weblate translations API
+  slug: weblate-translations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-translations-api-openapi.yml
+- filename: weblate-units-api-openapi.yml
+  format: yaml
+  label: Weblate units API
+  slug: weblate-units-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-units-api-openapi.yml
+- filename: weblate-users-api-openapi.yml
+  format: yaml
+  label: Weblate users API
+  slug: weblate-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

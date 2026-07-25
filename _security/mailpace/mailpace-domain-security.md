@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: mailpace-openapi.yml
+- filename: mailpace-api-tokens-api-openapi.yml
   format: yaml
-  label: MailPace Send Email API
-  slug: mailpace-send-email-api
+  label: MailPace API Tokens API
+  slug: mailpace-api-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailpace/refs/heads/main/openapi/mailpace-openapi.yml
-- filename: mailpace-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mailpace/refs/heads/main/openapi/mailpace-api-tokens-api-openapi.yml
+- filename: mailpace-domains-api-openapi.yml
   format: yaml
   label: MailPace Domains API
   slug: mailpace-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailpace/refs/heads/main/openapi/mailpace-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mailpace/refs/heads/main/openapi/mailpace-domains-api-openapi.yml
+- filename: mailpace-send-api-openapi.yml
+  format: yaml
+  label: MailPace Send API
+  slug: mailpace-send-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailpace/refs/heads/main/openapi/mailpace-send-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: usersnap-api-openapi-original.json
-  format: json
-  label: Usersnap Platform REST API
-  slug: usersnap-platform-rest-api
+- filename: usersnap-feedback-api-openapi.yml
+  format: yaml
+  label: Usersnap feedback API
+  slug: usersnap-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/openapi/usersnap-api-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/openapi/usersnap-feedback-api-openapi.yml
+- filename: usersnap-pre-submit-api-openapi.yml
+  format: yaml
+  label: Usersnap pre_submit API
+  slug: usersnap-pre-submit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/openapi/usersnap-pre-submit-api-openapi.yml
+- filename: usersnap-project-api-openapi.yml
+  format: yaml
+  label: Usersnap project API
+  slug: usersnap-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/openapi/usersnap-project-api-openapi.yml
+- filename: usersnap-submit-api-openapi.yml
+  format: yaml
+  label: Usersnap submit API
+  slug: usersnap-submit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/openapi/usersnap-submit-api-openapi.yml
 certifications: []
 description: ''
 kind: trust-center

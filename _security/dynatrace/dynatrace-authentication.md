@@ -2,42 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: dynatrace-metrics-api-v2-openapi.yml
+- filename: dynatrace-entities-api-openapi.yml
   format: yaml
-  label: Dynatrace Metrics API v2
-  slug: dynatrace-metrics-api-v2
+  label: Dynatrace Entities API
+  slug: dynatrace-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-metrics-api-v2-openapi.yml
-- filename: dynatrace-log-monitoring-api-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-entities-api-openapi.yml
+- filename: dynatrace-environments-api-openapi.yml
   format: yaml
-  label: Dynatrace Log Monitoring API v2
-  slug: dynatrace-log-monitoring-api-v2
+  label: Dynatrace Environments API
+  slug: dynatrace-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-log-monitoring-api-v2-openapi.yml
-- filename: dynatrace-account-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-environments-api-openapi.yml
+- filename: dynatrace-events-api-openapi.yml
   format: yaml
-  label: Dynatrace Account Management API
-  slug: dynatrace-account-management-api
+  label: Dynatrace Events API
+  slug: dynatrace-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-account-management-api-openapi.yml
-- filename: dynatrace-events-api-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-events-api-openapi.yml
+- filename: dynatrace-groups-api-openapi.yml
   format: yaml
-  label: Dynatrace Events API v2
-  slug: dynatrace-events-api-v2
+  label: Dynatrace Groups API
+  slug: dynatrace-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-events-api-v2-openapi.yml
-- filename: dynatrace-problems-api-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-groups-api-openapi.yml
+- filename: dynatrace-logs-api-openapi.yml
   format: yaml
-  label: Dynatrace Problems API v2
-  slug: dynatrace-problems-api-v2
+  label: Dynatrace Logs API
+  slug: dynatrace-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-problems-api-v2-openapi.yml
-- filename: dynatrace-entities-api-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-logs-api-openapi.yml
+- filename: dynatrace-metrics-api-openapi.yml
   format: yaml
-  label: Dynatrace Entities API v2
-  slug: dynatrace-entities-api-v2
+  label: Dynatrace Metrics API
+  slug: dynatrace-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-entities-api-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-metrics-api-openapi.yml
+- filename: dynatrace-permissions-api-openapi.yml
+  format: yaml
+  label: Dynatrace Permissions API
+  slug: dynatrace-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-permissions-api-openapi.yml
+- filename: dynatrace-problems-api-openapi.yml
+  format: yaml
+  label: Dynatrace Problems API
+  slug: dynatrace-problems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-problems-api-openapi.yml
+- filename: dynatrace-users-api-openapi.yml
+  format: yaml
+  label: Dynatrace Users API
+  slug: dynatrace-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-users-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

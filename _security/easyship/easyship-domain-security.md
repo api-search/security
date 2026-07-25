@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: easyship-openapi.yml
+- filename: easyship-addresses-api-openapi.yml
   format: yaml
-  label: Easyship API
-  slug: easyship-api
+  label: Easyship Addresses API
+  slug: easyship-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/openapi/easyship-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/openapi/easyship-addresses-api-openapi.yml
+- filename: easyship-labels-api-openapi.yml
+  format: yaml
+  label: Easyship Labels API
+  slug: easyship-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/openapi/easyship-labels-api-openapi.yml
+- filename: easyship-pickups-api-openapi.yml
+  format: yaml
+  label: Easyship Pickups API
+  slug: easyship-pickups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/openapi/easyship-pickups-api-openapi.yml
+- filename: easyship-rates-api-openapi.yml
+  format: yaml
+  label: Easyship Rates API
+  slug: easyship-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/openapi/easyship-rates-api-openapi.yml
+- filename: easyship-shipments-api-openapi.yml
+  format: yaml
+  label: Easyship Shipments API
+  slug: easyship-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/openapi/easyship-shipments-api-openapi.yml
+- filename: easyship-trackings-api-openapi.yml
+  format: yaml
+  label: Easyship Trackings API
+  slug: easyship-trackings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/openapi/easyship-trackings-api-openapi.yml
+- filename: easyship-webhooks-api-openapi.yml
+  format: yaml
+  label: Easyship Webhooks API
+  slug: easyship-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/openapi/easyship-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

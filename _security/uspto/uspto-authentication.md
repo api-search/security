@@ -2,36 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: uspto-patent-api-openapi.yml
+- filename: uspto-assignments-api-openapi.yml
   format: yaml
-  label: USPTO Patent & Trademark API
-  slug: patent-api
+  label: USPTO Assignments API
+  slug: uspto-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uspto/refs/heads/main/openapi/uspto-patent-api-openapi.yml
-- filename: index.html
+  url: https://raw.githubusercontent.com/api-evangelist/uspto/refs/heads/main/openapi/uspto-assignments-api-openapi.yml
+- filename: uspto-patents-api-openapi.yml
   format: yaml
-  label: USPTO Patent Trial and Appeal Board (PTAB) API
-  slug: ptab-api
+  label: USPTO Patents API
+  slug: uspto-patents-api
   spec_type: OpenAPI
-  url: https://data.uspto.gov/swagger/index.html
-- filename: tsdr-api-v1
+  url: https://raw.githubusercontent.com/api-evangelist/uspto/refs/heads/main/openapi/uspto-patents-api-openapi.yml
+- filename: uspto-ptab-api-openapi.yml
   format: yaml
-  label: USPTO Trademark Status and Document Retrieval (TSDR) API
-  slug: tsdr-api
+  label: USPTO PTAB API
+  slug: uspto-ptab-api
   spec_type: OpenAPI
-  url: https://developer.uspto.gov/swagger/tsdr-api-v1
-- filename: oa_actions.json
-  format: json
-  label: USPTO Office Action Text Retrieval API
-  slug: office-actions-api
+  url: https://raw.githubusercontent.com/api-evangelist/uspto/refs/heads/main/openapi/uspto-ptab-api-openapi.yml
+- filename: uspto-trademarks-api-openapi.yml
+  format: yaml
+  label: USPTO Trademarks API
+  slug: uspto-trademarks-api
   spec_type: OpenAPI
-  url: https://developer.uspto.gov/ds-api/swagger/docs/oa_actions.json
-- filename: enriched_cited_reference_metadata.json
-  format: json
-  label: USPTO Enriched Citation API
-  slug: enriched-citation-api
-  spec_type: OpenAPI
-  url: https://developer.uspto.gov/ds-api/swagger/docs/enriched_cited_reference_metadata.json
+  url: https://raw.githubusercontent.com/api-evangelist/uspto/refs/heads/main/openapi/uspto-trademarks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

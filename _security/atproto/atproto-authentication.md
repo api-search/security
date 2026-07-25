@@ -1,18 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: atproto-com-atproto-openapi.yml
+- filename: atproto-actor-api-openapi.yml
   format: yaml
-  label: AT Protocol Core API (com.atproto)
-  slug: com-atproto
+  label: AT Protocol actor API
+  slug: atproto-actor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/openapi/atproto-com-atproto-openapi.yml
-- filename: atproto-app-bsky-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/openapi/atproto-actor-api-openapi.yml
+- filename: atproto-feed-api-openapi.yml
   format: yaml
-  label: Bluesky Application API (app.bsky)
-  slug: app-bsky
+  label: AT Protocol feed API
+  slug: atproto-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/openapi/atproto-app-bsky-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/openapi/atproto-feed-api-openapi.yml
+- filename: atproto-graph-api-openapi.yml
+  format: yaml
+  label: AT Protocol graph API
+  slug: atproto-graph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/openapi/atproto-graph-api-openapi.yml
+- filename: atproto-identity-api-openapi.yml
+  format: yaml
+  label: AT Protocol identity API
+  slug: atproto-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/openapi/atproto-identity-api-openapi.yml
+- filename: atproto-notification-api-openapi.yml
+  format: yaml
+  label: AT Protocol notification API
+  slug: atproto-notification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/openapi/atproto-notification-api-openapi.yml
+- filename: atproto-repo-api-openapi.yml
+  format: yaml
+  label: AT Protocol repo API
+  slug: atproto-repo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/openapi/atproto-repo-api-openapi.yml
+- filename: atproto-server-api-openapi.yml
+  format: yaml
+  label: AT Protocol server API
+  slug: atproto-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/openapi/atproto-server-api-openapi.yml
+- filename: atproto-sync-api-openapi.yml
+  format: yaml
+  label: AT Protocol sync API
+  slug: atproto-sync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/openapi/atproto-sync-api-openapi.yml
 auth_types:
 - http
 description: ''

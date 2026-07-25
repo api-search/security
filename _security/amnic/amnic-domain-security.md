@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: amnic-openapi.yml
+- filename: amnic-cost-analyzer-api-openapi.yml
   format: yaml
-  label: Amnic Cloud Cost Observability API
-  slug: amnic-api
+  label: Amnic Cost Analyzer API
+  slug: amnic-cost-analyzer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amnic/refs/heads/main/openapi/amnic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amnic/refs/heads/main/openapi/amnic-cost-analyzer-api-openapi.yml
 description: ''
 domains:
 - caa: []

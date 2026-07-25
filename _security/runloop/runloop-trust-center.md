@@ -1,53 +1,47 @@
 ---
 api_specs:
-- filename: runloop-openapi.yml
+- filename: runloop-account-api-openapi.yml
   format: yaml
-  label: Runloop Devboxes API
-  slug: runloop-devboxes-api
+  label: Runloop Account API
+  slug: runloop-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop/refs/heads/main/openapi/runloop-openapi.yml
-- filename: runloop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/runloop/refs/heads/main/openapi/runloop-account-api-openapi.yml
+- filename: runloop-benchmark-api-openapi.yml
   format: yaml
-  label: Runloop Blueprints API
-  slug: runloop-blueprints-api
+  label: Runloop Benchmark API
+  slug: runloop-benchmark-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop/refs/heads/main/openapi/runloop-openapi.yml
-- filename: runloop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/runloop/refs/heads/main/openapi/runloop-benchmark-api-openapi.yml
+- filename: runloop-blueprint-api-openapi.yml
   format: yaml
-  label: Runloop Snapshots API
-  slug: runloop-snapshots-api
+  label: Runloop Blueprint API
+  slug: runloop-blueprint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop/refs/heads/main/openapi/runloop-openapi.yml
-- filename: runloop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/runloop/refs/heads/main/openapi/runloop-blueprint-api-openapi.yml
+- filename: runloop-devbox-api-openapi.yml
   format: yaml
-  label: Runloop Code Mounts API
-  slug: runloop-code-mounts-api
+  label: Runloop Devbox API
+  slug: runloop-devbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop/refs/heads/main/openapi/runloop-openapi.yml
-- filename: runloop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/runloop/refs/heads/main/openapi/runloop-devbox-api-openapi.yml
+- filename: runloop-object-api-openapi.yml
   format: yaml
-  label: Runloop Repositories API
-  slug: runloop-repositories-api
+  label: Runloop Object API
+  slug: runloop-object-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop/refs/heads/main/openapi/runloop-openapi.yml
-- filename: runloop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/runloop/refs/heads/main/openapi/runloop-object-api-openapi.yml
+- filename: runloop-scenario-api-openapi.yml
   format: yaml
-  label: Runloop Scenarios API
-  slug: runloop-scenarios-api
+  label: Runloop Scenario API
+  slug: runloop-scenario-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop/refs/heads/main/openapi/runloop-openapi.yml
-- filename: runloop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/runloop/refs/heads/main/openapi/runloop-scenario-api-openapi.yml
+- filename: runloop-snapshot-api-openapi.yml
   format: yaml
-  label: Runloop Benchmarks API
-  slug: runloop-benchmarks-api
+  label: Runloop Snapshot API
+  slug: runloop-snapshot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop/refs/heads/main/openapi/runloop-openapi.yml
-- filename: runloop-openapi.yml
-  format: yaml
-  label: Runloop Objects API
-  slug: runloop-objects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop/refs/heads/main/openapi/runloop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/runloop/refs/heads/main/openapi/runloop-snapshot-api-openapi.yml
 certifications:
 - SOC 2
 - HIPAA

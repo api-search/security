@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: rtbhouse-advertisers-api-openapi.yml
   format: yaml
-  label: RTB House Client Panel API
-  slug: rtb-house-client-panel-api
+  label: RTB House Advertisers API
+  slug: rtbhouse-advertisers-api
   spec_type: OpenAPI
-  url: https://api.panel.rtbhouse.com/api/docs/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/openapi/rtbhouse-advertisers-api-openapi.yml
+- filename: rtbhouse-dev-api-openapi.yml
+  format: yaml
+  label: RTB House Dev API
+  slug: rtbhouse-dev-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/openapi/rtbhouse-dev-api-openapi.yml
+- filename: rtbhouse-statistics-api-openapi.yml
+  format: yaml
+  label: RTB House Statistics API
+  slug: rtbhouse-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/openapi/rtbhouse-statistics-api-openapi.yml
+- filename: rtbhouse-tokens-api-openapi.yml
+  format: yaml
+  label: RTB House Tokens API
+  slug: rtbhouse-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/openapi/rtbhouse-tokens-api-openapi.yml
+- filename: rtbhouse-user-api-openapi.yml
+  format: yaml
+  label: RTB House User API
+  slug: rtbhouse-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/openapi/rtbhouse-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

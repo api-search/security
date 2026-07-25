@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: zylo-enterprise-openapi.yml
+- filename: zylo-applications-api-openapi.yml
   format: yaml
-  label: Zylo Enterprise API
-  slug: enterprise-api
+  label: Zylo Applications API
+  slug: zylo-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zylo/refs/heads/main/openapi/zylo-enterprise-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zylo/refs/heads/main/openapi/zylo-applications-api-openapi.yml
+- filename: zylo-export-jobs-api-openapi.yml
+  format: yaml
+  label: Zylo Export Jobs API
+  slug: zylo-export-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zylo/refs/heads/main/openapi/zylo-export-jobs-api-openapi.yml
+- filename: zylo-import-jobs-api-openapi.yml
+  format: yaml
+  label: Zylo Import Jobs API
+  slug: zylo-import-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zylo/refs/heads/main/openapi/zylo-import-jobs-api-openapi.yml
+- filename: zylo-subscriptions-api-openapi.yml
+  format: yaml
+  label: Zylo Subscriptions API
+  slug: zylo-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zylo/refs/heads/main/openapi/zylo-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa:

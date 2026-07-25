@@ -1,59 +1,71 @@
 ---
 api_specs:
-- filename: openapi.yaml
-  format: yaml
-  label: Valhalla Route API
-  slug: valhalla-route-api
-  spec_type: OpenAPI
-  url: https://valhalla.github.io/valhalla/api/openapi/
-- filename: openapi.yaml
-  format: yaml
-  label: Valhalla Optimized Route API
-  slug: valhalla-optimized-route-api
-  spec_type: OpenAPI
-  url: https://valhalla.github.io/valhalla/api/openapi/
-- filename: openapi.yaml
-  format: yaml
-  label: Valhalla Matrix API
-  slug: valhalla-matrix-api
-  spec_type: OpenAPI
-  url: https://valhalla.github.io/valhalla/api/openapi/
-- filename: openapi.yaml
-  format: yaml
-  label: Valhalla Isochrone API
-  slug: valhalla-isochrone-api
-  spec_type: OpenAPI
-  url: https://valhalla.github.io/valhalla/api/openapi/
-- filename: openapi.yaml
-  format: yaml
-  label: Valhalla Map Matching API
-  slug: valhalla-map-matching-api
-  spec_type: OpenAPI
-  url: https://valhalla.github.io/valhalla/api/openapi/
-- filename: openapi.yaml
-  format: yaml
-  label: Valhalla Elevation API
-  slug: valhalla-elevation-api
-  spec_type: OpenAPI
-  url: https://valhalla.github.io/valhalla/api/openapi/
-- filename: openapi.yaml
+- filename: valhalla-expansion-api-openapi.yml
   format: yaml
   label: Valhalla Expansion API
   slug: valhalla-expansion-api
   spec_type: OpenAPI
-  url: https://valhalla.github.io/valhalla/api/openapi/
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/openapi/valhalla-expansion-api-openapi.yml
+- filename: valhalla-height-api-openapi.yml
+  format: yaml
+  label: Valhalla Height API
+  slug: valhalla-height-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/openapi/valhalla-height-api-openapi.yml
+- filename: valhalla-isochrone-api-openapi.yml
+  format: yaml
+  label: Valhalla Isochrone API
+  slug: valhalla-isochrone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/openapi/valhalla-isochrone-api-openapi.yml
+- filename: valhalla-locate-api-openapi.yml
   format: yaml
   label: Valhalla Locate API
   slug: valhalla-locate-api
   spec_type: OpenAPI
-  url: https://valhalla.github.io/valhalla/api/openapi/
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/openapi/valhalla-locate-api-openapi.yml
+- filename: valhalla-optimized-route-api-openapi.yml
+  format: yaml
+  label: Valhalla Optimized Route API
+  slug: valhalla-optimized-route-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/openapi/valhalla-optimized-route-api-openapi.yml
+- filename: valhalla-route-api-openapi.yml
+  format: yaml
+  label: Valhalla Route API
+  slug: valhalla-route-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/openapi/valhalla-route-api-openapi.yml
+- filename: valhalla-sources-to-targets-api-openapi.yml
+  format: yaml
+  label: Valhalla Sources To Targets API
+  slug: valhalla-sources-to-targets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/openapi/valhalla-sources-to-targets-api-openapi.yml
+- filename: valhalla-status-api-openapi.yml
   format: yaml
   label: Valhalla Status API
   slug: valhalla-status-api
   spec_type: OpenAPI
-  url: https://valhalla.github.io/valhalla/api/openapi/
+  url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/openapi/valhalla-status-api-openapi.yml
+- filename: valhalla-tile-api-openapi.yml
+  format: yaml
+  label: Valhalla Tile API
+  slug: valhalla-tile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/openapi/valhalla-tile-api-openapi.yml
+- filename: valhalla-trace-attributes-api-openapi.yml
+  format: yaml
+  label: Valhalla Trace Attributes API
+  slug: valhalla-trace-attributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/openapi/valhalla-trace-attributes-api-openapi.yml
+- filename: valhalla-trace-route-api-openapi.yml
+  format: yaml
+  label: Valhalla Trace Route API
+  slug: valhalla-trace-route-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/openapi/valhalla-trace-route-api-openapi.yml
 description: ''
 domains:
 - caa: []

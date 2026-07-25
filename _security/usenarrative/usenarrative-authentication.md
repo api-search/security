@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: usenarrative-sports-openapi-original.json
-  format: json
-  label: Narrative Sports API
-  slug: narrative-sports-api
+- filename: usenarrative-health-api-openapi.yml
+  format: yaml
+  label: Narrative Sports Health API
+  slug: usenarrative-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-sports-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-health-api-openapi.yml
+- filename: usenarrative-highlight-packages-api-openapi.yml
+  format: yaml
+  label: Narrative Sports Highlight Packages API
+  slug: usenarrative-highlight-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-highlight-packages-api-openapi.yml
+- filename: usenarrative-highlights-api-openapi.yml
+  format: yaml
+  label: Narrative Sports Highlights API
+  slug: usenarrative-highlights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-highlights-api-openapi.yml
+- filename: usenarrative-projects-api-openapi.yml
+  format: yaml
+  label: Narrative Sports Projects API
+  slug: usenarrative-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-projects-api-openapi.yml
+- filename: usenarrative-recaps-api-openapi.yml
+  format: yaml
+  label: Narrative Sports Recaps API
+  slug: usenarrative-recaps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-recaps-api-openapi.yml
+- filename: usenarrative-tasks-api-openapi.yml
+  format: yaml
+  label: Narrative Sports Tasks API
+  slug: usenarrative-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-tasks-api-openapi.yml
 auth_types:
 - http
 description: ''

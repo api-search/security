@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: rapidoc-rapidoc-openapi.yml
+- filename: rapidoc-configuration-api-openapi.yml
   format: yaml
-  label: RapiDoc
-  slug: rapidoc
+  label: RapiDoc Configuration API
+  slug: rapidoc-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rapidoc/refs/heads/main/openapi/rapidoc-rapidoc-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rapidoc/refs/heads/main/openapi/rapidoc-configuration-api-openapi.yml
 description: ''
 domains:
 - caa: []

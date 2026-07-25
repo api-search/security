@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: firstrade-account-api-openapi.yml
   format: yaml
-  label: Firstrade Account Data API (via Plaid)
-  slug: firstrade-account-data-api-via-plaid
+  label: Firstrade Account API
+  slug: firstrade-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/firstrade-account-api-openapi.yml
+- filename: firstrade-authentication-api-openapi.yml
+  format: yaml
+  label: Firstrade Authentication API
+  slug: firstrade-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/firstrade-authentication-api-openapi.yml
+- filename: firstrade-market-data-api-openapi.yml
+  format: yaml
+  label: Firstrade Market Data API
+  slug: firstrade-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/firstrade-market-data-api-openapi.yml
+- filename: firstrade-orders-api-openapi.yml
+  format: yaml
+  label: Firstrade Orders API
+  slug: firstrade-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/firstrade-orders-api-openapi.yml
+- filename: firstrade-watchlist-api-openapi.yml
+  format: yaml
+  label: Firstrade Watchlist API
+  slug: firstrade-watchlist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/firstrade-watchlist-api-openapi.yml
 description: ''
 domains:
 - caa: []

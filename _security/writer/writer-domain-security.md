@@ -1,77 +1,47 @@
 ---
 api_specs:
-- filename: writer-openapi.yml
+- filename: writer-file-api-api-openapi.yml
   format: yaml
-  label: Writer Chat Completion API
-  slug: writer-chat-completion-api
+  label: Writer File API API
+  slug: writer-file-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-openapi.yml
-- filename: writer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-file-api-api-openapi.yml
+- filename: writer-generation-api-api-openapi.yml
   format: yaml
-  label: Writer Text Generation API
-  slug: writer-text-generation-api
+  label: Writer Generation API API
+  slug: writer-generation-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-openapi.yml
-- filename: writer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-generation-api-api-openapi.yml
+- filename: writer-kg-api-api-openapi.yml
   format: yaml
-  label: Writer Tool Calling API
-  slug: writer-tool-calling-api
+  label: Writer KG API API
+  slug: writer-kg-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-openapi.yml
-- filename: writer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-kg-api-api-openapi.yml
+- filename: writer-template-api-openapi.yml
   format: yaml
-  label: Writer Knowledge Graph API
-  slug: writer-knowledge-graph-api
+  label: Writer template API
+  slug: writer-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-openapi.yml
-- filename: writer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-template-api-openapi.yml
+- filename: writer-tools-api-api-openapi.yml
   format: yaml
-  label: Writer Files API
-  slug: writer-files-api
+  label: Writer Tools API API
+  slug: writer-tools-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-openapi.yml
-- filename: writer-openapi.yml
-  format: yaml
-  label: Writer Applications API
-  slug: writer-applications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-openapi.yml
-- filename: writer-openapi.yml
-  format: yaml
-  label: Writer Vision API
-  slug: writer-vision-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-openapi.yml
-- filename: writer-openapi.yml
-  format: yaml
-  label: Writer Web Search API
-  slug: writer-web-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-openapi.yml
-- filename: writer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-tools-api-api-openapi.yml
+- filename: writer-translation-api-openapi.yml
   format: yaml
   label: Writer Translation API
   slug: writer-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-openapi.yml
-- filename: writer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-translation-api-openapi.yml
+- filename: writer-vision-api-openapi.yml
   format: yaml
-  label: Writer Models API
-  slug: writer-models-api
+  label: Writer Vision API
+  slug: writer-vision-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-openapi.yml
-- filename: writer-openapi.yml
-  format: yaml
-  label: Writer Guardrails API
-  slug: writer-guardrails-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-openapi.yml
-- filename: writer-openapi.yml
-  format: yaml
-  label: Writer API Keys API
-  slug: writer-api-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-vision-api-openapi.yml
 description: ''
 domains:
 - caa: []

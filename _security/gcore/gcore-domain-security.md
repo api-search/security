@@ -1,53 +1,53 @@
 ---
 api_specs:
-- filename: gcore-openapi.yml
+- filename: gcore-cdn-api-openapi.yml
   format: yaml
   label: Gcore CDN API
-  slug: cdn
+  slug: gcore-cdn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-openapi.yml
-- filename: gcore-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-cdn-api-openapi.yml
+- filename: gcore-cloud-api-openapi.yml
   format: yaml
   label: Gcore Cloud API
-  slug: cloud
+  slug: gcore-cloud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-openapi.yml
-- filename: gcore-openapi.yml
-  format: yaml
-  label: Gcore Object Storage API
-  slug: storage
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-openapi.yml
-- filename: gcore-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-cloud-api-openapi.yml
+- filename: gcore-dns-api-openapi.yml
   format: yaml
   label: Gcore DNS API
-  slug: dns
+  slug: gcore-dns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-openapi.yml
-- filename: gcore-openapi.yml
-  format: yaml
-  label: Gcore Streaming API
-  slug: streaming
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-openapi.yml
-- filename: gcore-openapi.yml
-  format: yaml
-  label: Gcore Everywhere Inference API
-  slug: inference
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-openapi.yml
-- filename: gcore-openapi.yml
-  format: yaml
-  label: Gcore Security & WAAP API
-  slug: security-waap
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-openapi.yml
-- filename: gcore-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-dns-api-openapi.yml
+- filename: gcore-fastedge-api-openapi.yml
   format: yaml
   label: Gcore FastEdge API
-  slug: fastedge
+  slug: gcore-fastedge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-fastedge-api-openapi.yml
+- filename: gcore-inference-api-openapi.yml
+  format: yaml
+  label: Gcore Inference API
+  slug: gcore-inference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-inference-api-openapi.yml
+- filename: gcore-storage-api-openapi.yml
+  format: yaml
+  label: Gcore Storage API
+  slug: gcore-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-storage-api-openapi.yml
+- filename: gcore-streaming-api-openapi.yml
+  format: yaml
+  label: Gcore Streaming API
+  slug: gcore-streaming-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-streaming-api-openapi.yml
+- filename: gcore-waap-api-openapi.yml
+  format: yaml
+  label: Gcore WAAP API
+  slug: gcore-waap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-waap-api-openapi.yml
 description: ''
 domains:
 - caa:

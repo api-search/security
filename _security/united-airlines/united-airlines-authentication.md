@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: united-airlines-ndc-openapi.yml
+- filename: united-airlines-booking-api-openapi.yml
   format: yaml
-  label: United Airlines NDC API
-  slug: united-airlines-ndc-api
+  label: United Airlines Booking API
+  slug: united-airlines-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-airlines/main/openapi/united-airlines-ndc-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/united-airlines/refs/heads/main/openapi/united-airlines-booking-api-openapi.yml
+- filename: united-airlines-servicing-api-openapi.yml
+  format: yaml
+  label: United Airlines Servicing API
+  slug: united-airlines-servicing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-airlines/refs/heads/main/openapi/united-airlines-servicing-api-openapi.yml
+- filename: united-airlines-shopping-api-openapi.yml
+  format: yaml
+  label: United Airlines Shopping API
+  slug: united-airlines-shopping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-airlines/refs/heads/main/openapi/united-airlines-shopping-api-openapi.yml
+- filename: united-airlines-status-api-openapi.yml
+  format: yaml
+  label: United Airlines Status API
+  slug: united-airlines-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-airlines/refs/heads/main/openapi/united-airlines-status-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

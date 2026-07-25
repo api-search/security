@@ -1,12 +1,84 @@
 ---
 api_key_in: []
 api_specs:
-- filename: llms.txt
+- filename: tango-card-accounts-api-openapi.yml
   format: yaml
-  label: Tango RaaS API
-  slug: tango-raas-api
+  label: Tango Card Accounts API
+  slug: tango-card-accounts-api
   spec_type: OpenAPI
-  url: https://developers.tangocard.com/llms.txt
+  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-accounts-api-openapi.yml
+- filename: tango-card-brand-categories-api-openapi.yml
+  format: yaml
+  label: Tango Card Brand Categories API
+  slug: tango-card-brand-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-brand-categories-api-openapi.yml
+- filename: tango-card-catalog-api-openapi.yml
+  format: yaml
+  label: Tango Card Catalog API
+  slug: tango-card-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-catalog-api-openapi.yml
+- filename: tango-card-choice-products-api-openapi.yml
+  format: yaml
+  label: Tango Card Choice Products API
+  slug: tango-card-choice-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-choice-products-api-openapi.yml
+- filename: tango-card-countries-currencies-api-openapi.yml
+  format: yaml
+  label: Tango Card Countries & Currencies API
+  slug: tango-card-countries-currencies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-countries-currencies-api-openapi.yml
+- filename: tango-card-credential-types-api-openapi.yml
+  format: yaml
+  label: Tango Card Credential Types API
+  slug: tango-card-credential-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-credential-types-api-openapi.yml
+- filename: tango-card-customers-api-openapi.yml
+  format: yaml
+  label: Tango Card Customers API
+  slug: tango-card-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-customers-api-openapi.yml
+- filename: tango-card-digital-templates-api-openapi.yml
+  format: yaml
+  label: Tango Card Digital Templates API
+  slug: tango-card-digital-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-digital-templates-api-openapi.yml
+- filename: tango-card-exchange-rates-api-openapi.yml
+  format: yaml
+  label: Tango Card Exchange Rates API
+  slug: tango-card-exchange-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-exchange-rates-api-openapi.yml
+- filename: tango-card-fund-management-api-openapi.yml
+  format: yaml
+  label: Tango Card Fund Management API
+  slug: tango-card-fund-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-fund-management-api-openapi.yml
+- filename: tango-card-line-items-api-openapi.yml
+  format: yaml
+  label: Tango Card Line Items API
+  slug: tango-card-line-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-line-items-api-openapi.yml
+- filename: tango-card-low-balance-alerts-api-openapi.yml
+  format: yaml
+  label: Tango Card Low Balance Alerts API
+  slug: tango-card-low-balance-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-low-balance-alerts-api-openapi.yml
+- filename: tango-card-orders-api-openapi.yml
+  format: yaml
+  label: Tango Card Orders API
+  slug: tango-card-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-orders-api-openapi.yml
 auth_types:
 - http
 - oauth2

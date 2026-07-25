@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: home-depot-home-depot-api-openapi.yml
+- filename: home-depot-retail-api-openapi.yml
   format: yaml
-  label: Home Depot API
-  slug: home-depot-api
+  label: home-depot Retail API
+  slug: home-depot-retail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/home-depot/refs/heads/main/openapi/home-depot-home-depot-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/home-depot/refs/heads/main/openapi/home-depot-retail-api-openapi.yml
 auth_types:
 - http
 description: ''

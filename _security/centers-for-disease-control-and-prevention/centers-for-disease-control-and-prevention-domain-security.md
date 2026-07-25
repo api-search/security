@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: centers-for-disease-control-and-prevention-openapi.yml
+- filename: centers-for-disease-control-and-prevention-soda-v2-1-api-openapi.yml
   format: yaml
-  label: CDC Socrata Open Data API (data.cdc.gov)
-  slug: cdc-socrata-open-data-api
+  label: Centers for Disease Control and Prevention SODA v2.1 API
+  slug: centers-for-disease-control-and-prevention-soda-v2-1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/openapi/centers-for-disease-control-and-prevention-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/openapi/centers-for-disease-control-and-prevention-soda-v2-1-api-openapi.yml
+- filename: centers-for-disease-control-and-prevention-soda-v3-api-openapi.yml
+  format: yaml
+  label: Centers for Disease Control and Prevention SODA v3 API
+  slug: centers-for-disease-control-and-prevention-soda-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/openapi/centers-for-disease-control-and-prevention-soda-v3-api-openapi.yml
 description: ''
 domains:
 - caa: []

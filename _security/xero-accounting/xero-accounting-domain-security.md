@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: Xero-OpenAPI
+- filename: xero-accounting-accounts-api-openapi.yml
   format: yaml
-  label: Xero Accounting API
-  slug: api
+  label: Xero Accounting Accounts API
+  slug: xero-accounting-accounts-api
   spec_type: OpenAPI
-  url: https://github.com/XeroAPI/Xero-OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero-accounting/refs/heads/main/openapi/xero-accounting-accounts-api-openapi.yml
+- filename: xero-accounting-banktransactions-api-openapi.yml
+  format: yaml
+  label: Xero Accounting BankTransactions API
+  slug: xero-accounting-banktransactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero-accounting/refs/heads/main/openapi/xero-accounting-banktransactions-api-openapi.yml
+- filename: xero-accounting-banktransfers-api-openapi.yml
+  format: yaml
+  label: Xero Accounting BankTransfers API
+  slug: xero-accounting-banktransfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero-accounting/refs/heads/main/openapi/xero-accounting-banktransfers-api-openapi.yml
+- filename: xero-accounting-batchpayments-api-openapi.yml
+  format: yaml
+  label: Xero Accounting BatchPayments API
+  slug: xero-accounting-batchpayments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero-accounting/refs/heads/main/openapi/xero-accounting-batchpayments-api-openapi.yml
+- filename: xero-accounting-contacts-api-openapi.yml
+  format: yaml
+  label: Xero Accounting Contacts API
+  slug: xero-accounting-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero-accounting/refs/heads/main/openapi/xero-accounting-contacts-api-openapi.yml
+- filename: xero-accounting-invoices-api-openapi.yml
+  format: yaml
+  label: Xero Accounting Invoices API
+  slug: xero-accounting-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero-accounting/refs/heads/main/openapi/xero-accounting-invoices-api-openapi.yml
 description: ''
 domains:
 - caa: []

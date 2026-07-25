@@ -1,41 +1,35 @@
 ---
 api_specs:
-- filename: signeasy-openapi.yml
+- filename: signeasy-embedded-api-openapi.yml
+  format: yaml
+  label: Signeasy Embedded API
+  slug: signeasy-embedded-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-embedded-api-openapi.yml
+- filename: signeasy-envelopes-api-openapi.yml
   format: yaml
   label: Signeasy Envelopes API
   slug: signeasy-envelopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-openapi.yml
-- filename: signeasy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-envelopes-api-openapi.yml
+- filename: signeasy-originals-api-openapi.yml
   format: yaml
   label: Signeasy Originals API
   slug: signeasy-originals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-openapi.yml
-- filename: signeasy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-originals-api-openapi.yml
+- filename: signeasy-templates-api-openapi.yml
   format: yaml
   label: Signeasy Templates API
   slug: signeasy-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-openapi.yml
-- filename: signeasy-openapi.yml
-  format: yaml
-  label: Signeasy Embedded Signing API
-  slug: signeasy-embedded-signing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-openapi.yml
-- filename: signeasy-openapi.yml
-  format: yaml
-  label: Signeasy Webhooks API
-  slug: signeasy-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-openapi.yml
-- filename: signeasy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-templates-api-openapi.yml
+- filename: signeasy-users-api-openapi.yml
   format: yaml
   label: Signeasy Users API
   slug: signeasy-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

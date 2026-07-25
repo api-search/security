@@ -1,17 +1,47 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: upbit-exchange-account-api-openapi.yml
+  format: yaml
+  label: Upbit Exchange - Account API
+  slug: upbit-exchange-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/openapi/upbit-exchange-account-api-openapi.yml
+- filename: upbit-exchange-deposits-api-openapi.yml
+  format: yaml
+  label: Upbit Exchange - Deposits API
+  slug: upbit-exchange-deposits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/openapi/upbit-exchange-deposits-api-openapi.yml
+- filename: upbit-exchange-orders-api-openapi.yml
+  format: yaml
+  label: Upbit Exchange - Orders API
+  slug: upbit-exchange-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/openapi/upbit-exchange-orders-api-openapi.yml
+- filename: upbit-exchange-service-api-openapi.yml
+  format: yaml
+  label: Upbit Exchange - Service API
+  slug: upbit-exchange-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/openapi/upbit-exchange-service-api-openapi.yml
+- filename: upbit-exchange-travel-rule-api-openapi.yml
+  format: yaml
+  label: Upbit Exchange - Travel Rule API
+  slug: upbit-exchange-travel-rule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/openapi/upbit-exchange-travel-rule-api-openapi.yml
+- filename: upbit-exchange-withdrawals-api-openapi.yml
+  format: yaml
+  label: Upbit Exchange - Withdrawals API
+  slug: upbit-exchange-withdrawals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/openapi/upbit-exchange-withdrawals-api-openapi.yml
+- filename: upbit-quotation-api-openapi.yml
   format: yaml
   label: Upbit Quotation API
-  slug: quotation-api
+  slug: upbit-quotation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/openapi/openapi.yml
-- filename: openapi.yml
-  format: yaml
-  label: Upbit Exchange API
-  slug: exchange-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/openapi/upbit-quotation-api-openapi.yml
 description: ''
 domains:
 - caa: []

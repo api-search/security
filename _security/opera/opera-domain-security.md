@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: opera-ads-openapi.yml
+- filename: opera-inventory-api-openapi.yml
   format: yaml
-  label: Opera Ads Open API
-  slug: opera-ads-open-api
+  label: Opera Inventory API
+  slug: opera-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/openapi/opera-ads-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/openapi/opera-inventory-api-openapi.yml
+- filename: opera-marketing-api-openapi.yml
+  format: yaml
+  label: Opera Marketing API
+  slug: opera-marketing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/openapi/opera-marketing-api-openapi.yml
+- filename: opera-report-api-openapi.yml
+  format: yaml
+  label: Opera Report API
+  slug: opera-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/openapi/opera-report-api-openapi.yml
 description: ''
 domains:
 - caa:

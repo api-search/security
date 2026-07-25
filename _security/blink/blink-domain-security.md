@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: blink-charging-locations-status-openapi.yml
+- filename: blink-locations-api-openapi.yml
   format: yaml
-  label: Blink Charging Locations & Status API
-  slug: blink-charging-locations-status-api
+  label: Blink Charging Locations API
+  slug: blink-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/openapi/blink-charging-locations-status-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/openapi/blink-locations-api-openapi.yml
+- filename: blink-search-api-openapi.yml
+  format: yaml
+  label: Blink Charging Search API
+  slug: blink-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/openapi/blink-search-api-openapi.yml
+- filename: blink-status-api-openapi.yml
+  format: yaml
+  label: Blink Charging Status API
+  slug: blink-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/openapi/blink-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

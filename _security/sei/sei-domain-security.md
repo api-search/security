@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: sei-cosmos-rest-api.yml
+- filename: sei-abci-api-openapi.yml
   format: yaml
-  label: Sei Cosmos REST API (LCD)
-  slug: sei-cosmos-rest-api
+  label: Sei ABCI API
+  slug: sei-abci-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-cosmos-rest-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-abci-api-openapi.yml
+- filename: sei-events-api-openapi.yml
+  format: yaml
+  label: Sei Events API
+  slug: sei-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-events-api-openapi.yml
+- filename: sei-evidence-api-openapi.yml
+  format: yaml
+  label: Sei Evidence API
+  slug: sei-evidence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-evidence-api-openapi.yml
+- filename: sei-info-api-openapi.yml
+  format: yaml
+  label: Sei Info API
+  slug: sei-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-info-api-openapi.yml
+- filename: sei-query-api-openapi.yml
+  format: yaml
+  label: Sei Query API
+  slug: sei-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-query-api-openapi.yml
+- filename: sei-service-api-openapi.yml
+  format: yaml
+  label: Sei Service API
+  slug: sei-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-service-api-openapi.yml
+- filename: sei-tx-api-openapi.yml
+  format: yaml
+  label: Sei Tx API
+  slug: sei-tx-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-tx-api-openapi.yml
+- filename: sei-unsafe-api-openapi.yml
+  format: yaml
+  label: Sei Unsafe API
+  slug: sei-unsafe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-unsafe-api-openapi.yml
+- filename: sei-websocket-api-openapi.yml
+  format: yaml
+  label: Sei Websocket API
+  slug: sei-websocket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-websocket-api-openapi.yml
 description: ''
 domains:
 - caa: []

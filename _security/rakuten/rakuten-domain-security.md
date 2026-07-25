@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: rakuten-ichibagt-api-openapi.yml
+  format: yaml
+  label: Rakuten Ichibagt API
+  slug: rakuten-ichibagt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/openapi/rakuten-ichibagt-api-openapi.yml
+- filename: rakuten-ichibams-api-openapi.yml
+  format: yaml
+  label: Rakuten Ichibams API
+  slug: rakuten-ichibams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/openapi/rakuten-ichibams-api-openapi.yml
+- filename: rakuten-ichibaranking-api-openapi.yml
+  format: yaml
+  label: Rakuten Ichibaranking API
+  slug: rakuten-ichibaranking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/openapi/rakuten-ichibaranking-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -3,12 +3,60 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: openapi.json
-  format: json
-  label: SpyFu API
-  slug: spyfu-api
+- filename: spyfu-account-api-api-openapi.yml
+  format: yaml
+  label: SpyFu Account API API
+  slug: spyfu-account-api-api
   spec_type: OpenAPI
-  url: https://developer.spyfu.com/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/openapi/spyfu-account-api-api-openapi.yml
+- filename: spyfu-ad-history-research-api-api-openapi.yml
+  format: yaml
+  label: SpyFu Ad History Research API API
+  slug: spyfu-ad-history-research-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/openapi/spyfu-ad-history-research-api-api-openapi.yml
+- filename: spyfu-competitors-api-api-openapi.yml
+  format: yaml
+  label: SpyFu Competitors API API
+  slug: spyfu-competitors-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/openapi/spyfu-competitors-api-api-openapi.yml
+- filename: spyfu-domain-stats-api-api-openapi.yml
+  format: yaml
+  label: SpyFu Domain Stats API API
+  slug: spyfu-domain-stats-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/openapi/spyfu-domain-stats-api-api-openapi.yml
+- filename: spyfu-keyword-research-api-api-openapi.yml
+  format: yaml
+  label: SpyFu Keyword Research API API
+  slug: spyfu-keyword-research-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/openapi/spyfu-keyword-research-api-api-openapi.yml
+- filename: spyfu-kombat-api-api-openapi.yml
+  format: yaml
+  label: SpyFu Kombat API API
+  slug: spyfu-kombat-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/openapi/spyfu-kombat-api-api-openapi.yml
+- filename: spyfu-ppc-research-api-api-openapi.yml
+  format: yaml
+  label: SpyFu PPC Research API API
+  slug: spyfu-ppc-research-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/openapi/spyfu-ppc-research-api-api-openapi.yml
+- filename: spyfu-ranking-history-api-api-openapi.yml
+  format: yaml
+  label: SpyFu Ranking History API API
+  slug: spyfu-ranking-history-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/openapi/spyfu-ranking-history-api-api-openapi.yml
+- filename: spyfu-seo-research-api-api-openapi.yml
+  format: yaml
+  label: SpyFu SEO Research API API
+  slug: spyfu-seo-research-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/openapi/spyfu-seo-research-api-api-openapi.yml
 auth_types:
 - apiKey
 - http

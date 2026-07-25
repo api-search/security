@@ -8,24 +8,66 @@ api_specs:
   slug: kyc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-kyc-api-openapi.yml
-- filename: decentro-payments-api-openapi.yml
-  format: yaml
-  label: Decentro Payments API
-  slug: payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-payments-api-openapi.yml
 - filename: decentro-virtual-accounts-api-openapi.yml
   format: yaml
   label: Decentro Virtual Accounts API
   slug: virtual-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-virtual-accounts-api-openapi.yml
-- filename: decentro-ledger-api-openapi.yml
+- filename: decentro-accounts-api-openapi.yml
   format: yaml
-  label: Decentro Ledger API
-  slug: ledger-api
+  label: Decentro Accounts API
+  slug: decentro-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-ledger-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-accounts-api-openapi.yml
+- filename: decentro-collections-api-openapi.yml
+  format: yaml
+  label: Decentro Collections API
+  slug: decentro-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-collections-api-openapi.yml
+- filename: decentro-forensics-api-openapi.yml
+  format: yaml
+  label: Decentro Forensics API
+  slug: decentro-forensics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-forensics-api-openapi.yml
+- filename: decentro-journals-api-openapi.yml
+  format: yaml
+  label: Decentro Journals API
+  slug: decentro-journals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-journals-api-openapi.yml
+- filename: decentro-mandates-api-openapi.yml
+  format: yaml
+  label: Decentro Mandates API
+  slug: decentro-mandates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-mandates-api-openapi.yml
+- filename: decentro-payouts-api-openapi.yml
+  format: yaml
+  label: Decentro Payouts API
+  slug: decentro-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-payouts-api-openapi.yml
+- filename: decentro-settlements-api-openapi.yml
+  format: yaml
+  label: Decentro Settlements API
+  slug: decentro-settlements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-settlements-api-openapi.yml
+- filename: decentro-transactions-api-openapi.yml
+  format: yaml
+  label: Decentro Transactions API
+  slug: decentro-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-transactions-api-openapi.yml
+- filename: decentro-verification-api-openapi.yml
+  format: yaml
+  label: Decentro Verification API
+  slug: decentro-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-verification-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

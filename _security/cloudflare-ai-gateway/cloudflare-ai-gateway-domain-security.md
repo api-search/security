@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: cloudflare-ai-gateway-gateways-api-openapi.yml
+  format: yaml
+  label: Cloudflare AI Gateway Gateways API
+  slug: cloudflare-ai-gateway-gateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-ai-gateway/refs/heads/main/openapi/cloudflare-ai-gateway-gateways-api-openapi.yml
+- filename: cloudflare-ai-gateway-logs-api-openapi.yml
+  format: yaml
+  label: Cloudflare AI Gateway Logs API
+  slug: cloudflare-ai-gateway-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-ai-gateway/refs/heads/main/openapi/cloudflare-ai-gateway-logs-api-openapi.yml
+- filename: cloudflare-ai-gateway-proxy-api-openapi.yml
+  format: yaml
+  label: Cloudflare AI Gateway Proxy API
+  slug: cloudflare-ai-gateway-proxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-ai-gateway/refs/heads/main/openapi/cloudflare-ai-gateway-proxy-api-openapi.yml
 description: ''
 domains:
 - caa:

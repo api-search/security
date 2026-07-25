@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-armor-securitypolicies-api-openapi.yml
   format: yaml
-  label: Google Cloud Armor API
-  slug: google-cloud-armor-api
+  label: Google Cloud Armor SecurityPolicies API
+  slug: google-cloud-armor-securitypolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-armor/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-armor/refs/heads/main/openapi/google-cloud-armor-securitypolicies-api-openapi.yml
+- filename: google-cloud-armor-securitypolicyrules-api-openapi.yml
+  format: yaml
+  label: Google Cloud Armor SecurityPolicyRules API
+  slug: google-cloud-armor-securitypolicyrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-armor/refs/heads/main/openapi/google-cloud-armor-securitypolicyrules-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,17 +1,47 @@
 ---
 api_specs:
-- filename: duck-creek-policy-openapi.yml
+- filename: duck-creek-billing-api-openapi.yml
   format: yaml
-  label: Duck Creek Anywhere REST API
-  slug: duck-creek-anywhere-api
+  label: Duck Creek Billing API
+  slug: duck-creek-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-policy-openapi.yml
-- filename: duck-creek-policy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-billing-api-openapi.yml
+- filename: duck-creek-claims-api-openapi.yml
   format: yaml
-  label: Duck Creek Policy Administration API
-  slug: duck-creek-policy-api
+  label: Duck Creek Claims API
+  slug: duck-creek-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-policy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-claims-api-openapi.yml
+- filename: duck-creek-billing-api-openapi.yml
+  format: yaml
+  label: duck-creek Billing API
+  slug: duck-creek-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-billing-api-openapi.yml
+- filename: duck-creek-claims-api-openapi.yml
+  format: yaml
+  label: duck-creek Claims API
+  slug: duck-creek-claims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-claims-api-openapi.yml
+- filename: duck-creek-policies-api-openapi.yml
+  format: yaml
+  label: duck-creek Policies API
+  slug: duck-creek-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-policies-api-openapi.yml
+- filename: duck-creek-products-api-openapi.yml
+  format: yaml
+  label: duck-creek Products API
+  slug: duck-creek-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-products-api-openapi.yml
+- filename: duck-creek-quotes-api-openapi.yml
+  format: yaml
+  label: duck-creek Quotes API
+  slug: duck-creek-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-quotes-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,71 +1,137 @@
 ---
 api_specs:
-- filename: elevenlabs-text-to-speech-openapi.yml
+- filename: elevenlabs-agents-api-openapi.yml
   format: yaml
-  label: ElevenLabs Text to Speech API
-  slug: text-to-speech
+  label: elevenlabs Agents API
+  slug: elevenlabs-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-text-to-speech-openapi.yml
-- filename: elevenlabs-speech-to-text-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-agents-api-openapi.yml
+- filename: elevenlabs-audio-isolation-api-openapi.yml
   format: yaml
-  label: ElevenLabs Speech to Text API
-  slug: speech-to-text
+  label: elevenlabs Audio Isolation API
+  slug: elevenlabs-audio-isolation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-speech-to-text-openapi.yml
-- filename: elevenlabs-voice-cloning-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-audio-isolation-api-openapi.yml
+- filename: elevenlabs-audio-native-api-openapi.yml
   format: yaml
-  label: ElevenLabs Voice Cloning API
-  slug: voice-cloning
+  label: elevenlabs Audio Native API
+  slug: elevenlabs-audio-native-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-voice-cloning-openapi.yml
-- filename: elevenlabs-voices-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-audio-native-api-openapi.yml
+- filename: elevenlabs-chapters-api-openapi.yml
   format: yaml
-  label: ElevenLabs Voices API
-  slug: voices
+  label: elevenlabs Chapters API
+  slug: elevenlabs-chapters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-voices-openapi.yml
-- filename: elevenlabs-sound-effects-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-chapters-api-openapi.yml
+- filename: elevenlabs-conversations-api-openapi.yml
   format: yaml
-  label: ElevenLabs Sound Effects API
-  slug: sound-effects
+  label: elevenlabs Conversations API
+  slug: elevenlabs-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-sound-effects-openapi.yml
-- filename: elevenlabs-audio-isolation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-conversations-api-openapi.yml
+- filename: elevenlabs-dubbing-api-openapi.yml
   format: yaml
-  label: ElevenLabs Audio Isolation API
-  slug: audio-isolation
+  label: elevenlabs Dubbing API
+  slug: elevenlabs-dubbing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-audio-isolation-openapi.yml
-- filename: elevenlabs-dubbing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-dubbing-api-openapi.yml
+- filename: elevenlabs-dubbing-resources-api-openapi.yml
   format: yaml
-  label: ElevenLabs Dubbing API
-  slug: dubbing
+  label: elevenlabs Dubbing Resources API
+  slug: elevenlabs-dubbing-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-dubbing-openapi.yml
-- filename: elevenlabs-voice-changer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-dubbing-resources-api-openapi.yml
+- filename: elevenlabs-instant-voice-cloning-api-openapi.yml
   format: yaml
-  label: ElevenLabs Voice Changer API
-  slug: voice-changer
+  label: elevenlabs Instant Voice Cloning API
+  slug: elevenlabs-instant-voice-cloning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-voice-changer-openapi.yml
-- filename: elevenlabs-music-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-instant-voice-cloning-api-openapi.yml
+- filename: elevenlabs-knowledge-base-api-openapi.yml
   format: yaml
-  label: ElevenLabs Music Generation API
-  slug: music
+  label: elevenlabs Knowledge Base API
+  slug: elevenlabs-knowledge-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-music-openapi.yml
-- filename: elevenlabs-conversational-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-knowledge-base-api-openapi.yml
+- filename: elevenlabs-music-generation-api-openapi.yml
   format: yaml
-  label: ElevenLabs Conversational AI API
-  slug: conversational-ai
+  label: elevenlabs Music Generation API
+  slug: elevenlabs-music-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-conversational-ai-openapi.yml
-- filename: elevenlabs-studio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-music-generation-api-openapi.yml
+- filename: elevenlabs-professional-voice-cloning-api-openapi.yml
   format: yaml
-  label: ElevenLabs Studio API
-  slug: studio
+  label: elevenlabs Professional Voice Cloning API
+  slug: elevenlabs-professional-voice-cloning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-studio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-professional-voice-cloning-api-openapi.yml
+- filename: elevenlabs-projects-api-openapi.yml
+  format: yaml
+  label: elevenlabs Projects API
+  slug: elevenlabs-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-projects-api-openapi.yml
+- filename: elevenlabs-pronunciation-dictionaries-api-openapi.yml
+  format: yaml
+  label: elevenlabs Pronunciation Dictionaries API
+  slug: elevenlabs-pronunciation-dictionaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-pronunciation-dictionaries-api-openapi.yml
+- filename: elevenlabs-sound-effects-api-openapi.yml
+  format: yaml
+  label: elevenlabs Sound Effects API
+  slug: elevenlabs-sound-effects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-sound-effects-api-openapi.yml
+- filename: elevenlabs-speech-to-speech-api-openapi.yml
+  format: yaml
+  label: elevenlabs Speech to Speech API
+  slug: elevenlabs-speech-to-speech-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-speech-to-speech-api-openapi.yml
+- filename: elevenlabs-speech-to-text-api-openapi.yml
+  format: yaml
+  label: elevenlabs Speech to Text API
+  slug: elevenlabs-speech-to-text-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-speech-to-text-api-openapi.yml
+- filename: elevenlabs-text-to-dialogue-api-openapi.yml
+  format: yaml
+  label: elevenlabs Text to Dialogue API
+  slug: elevenlabs-text-to-dialogue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-text-to-dialogue-api-openapi.yml
+- filename: elevenlabs-text-to-speech-api-openapi.yml
+  format: yaml
+  label: elevenlabs Text to Speech API
+  slug: elevenlabs-text-to-speech-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-text-to-speech-api-openapi.yml
+- filename: elevenlabs-tools-api-openapi.yml
+  format: yaml
+  label: elevenlabs Tools API
+  slug: elevenlabs-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-tools-api-openapi.yml
+- filename: elevenlabs-voice-library-api-openapi.yml
+  format: yaml
+  label: elevenlabs Voice Library API
+  slug: elevenlabs-voice-library-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-voice-library-api-openapi.yml
+- filename: elevenlabs-voice-settings-api-openapi.yml
+  format: yaml
+  label: elevenlabs Voice Settings API
+  slug: elevenlabs-voice-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-voice-settings-api-openapi.yml
+- filename: elevenlabs-voices-api-openapi.yml
+  format: yaml
+  label: elevenlabs Voices API
+  slug: elevenlabs-voices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-voices-api-openapi.yml
 description: ''
 domains:
 - caa: []

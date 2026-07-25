@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: kanye-rest-openapi.yml
+- filename: kanye-rest-quotes-api-openapi.yml
   format: yaml
-  label: kanye.rest
-  slug: kanyerest
+  label: kanye.rest Quotes API
+  slug: kanye-rest-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanye-rest/refs/heads/main/openapi/kanye-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kanye-rest/refs/heads/main/openapi/kanye-rest-quotes-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,35 +1,53 @@
 ---
 api_specs:
-- filename: aerodatabox-openapi.yml
+- filename: aerodatabox-aircraft-api-api-openapi.yml
   format: yaml
-  label: AeroDataBox Flight API
-  slug: aerodatabox-flight-api
+  label: AeroDataBox Aircraft API API
+  slug: aerodatabox-aircraft-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-openapi.yml
-- filename: aerodatabox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-aircraft-api-api-openapi.yml
+- filename: aerodatabox-airport-api-api-openapi.yml
   format: yaml
-  label: AeroDataBox Aircraft API
-  slug: aerodatabox-aircraft-api
+  label: AeroDataBox Airport API API
+  slug: aerodatabox-airport-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-openapi.yml
-- filename: aerodatabox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-airport-api-api-openapi.yml
+- filename: aerodatabox-flight-alert-api-api-openapi.yml
   format: yaml
-  label: AeroDataBox Airport API
-  slug: aerodatabox-airport-api
+  label: AeroDataBox Flight Alert API API
+  slug: aerodatabox-flight-alert-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-openapi.yml
-- filename: aerodatabox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-flight-alert-api-api-openapi.yml
+- filename: aerodatabox-flight-api-api-openapi.yml
   format: yaml
-  label: AeroDataBox Statistical API
-  slug: aerodatabox-statistical-api
+  label: AeroDataBox Flight API API
+  slug: aerodatabox-flight-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-openapi.yml
-- filename: aerodatabox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-flight-api-api-openapi.yml
+- filename: aerodatabox-healthcheck-api-api-openapi.yml
   format: yaml
-  label: AeroDataBox Flight Alert API
-  slug: aerodatabox-flight-alert-api
+  label: AeroDataBox Healthcheck API API
+  slug: aerodatabox-healthcheck-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-healthcheck-api-api-openapi.yml
+- filename: aerodatabox-industry-api-api-openapi.yml
+  format: yaml
+  label: AeroDataBox Industry API API
+  slug: aerodatabox-industry-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-industry-api-api-openapi.yml
+- filename: aerodatabox-miscellaneous-api-api-openapi.yml
+  format: yaml
+  label: AeroDataBox Miscellaneous API API
+  slug: aerodatabox-miscellaneous-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-miscellaneous-api-api-openapi.yml
+- filename: aerodatabox-statistical-api-api-openapi.yml
+  format: yaml
+  label: AeroDataBox Statistical API API
+  slug: aerodatabox-statistical-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-statistical-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

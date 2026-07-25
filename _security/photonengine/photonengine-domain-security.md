@@ -6,18 +6,18 @@ api_specs:
   slug: photonengine-realtime-transport-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/photonengine/refs/heads/main/asyncapi/photonengine-asyncapi.yml
-- filename: photonengine-openapi.yml
+- filename: photonengine-custom-authentication-api-openapi.yml
   format: yaml
-  label: Photon Room Lifecycle WebHooks
-  slug: photonengine-webhooks-api
+  label: Photon Engine Custom Authentication API
+  slug: photonengine-custom-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photonengine/refs/heads/main/openapi/photonengine-openapi.yml
-- filename: photonengine-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/photonengine/refs/heads/main/openapi/photonengine-custom-authentication-api-openapi.yml
+- filename: photonengine-room-lifecycle-webhooks-api-openapi.yml
   format: yaml
-  label: Photon Custom Authentication Webservice Contract
-  slug: photonengine-custom-authentication-webservice
+  label: Photon Engine Room Lifecycle WebHooks API
+  slug: photonengine-room-lifecycle-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photonengine/refs/heads/main/openapi/photonengine-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/photonengine/refs/heads/main/openapi/photonengine-room-lifecycle-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

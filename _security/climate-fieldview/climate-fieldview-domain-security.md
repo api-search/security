@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: climate-fieldview-platform-openapi.yml
+- filename: climate-fieldview-application-api-openapi.yml
   format: yaml
-  label: Climate FieldView Platform API
-  slug: fieldview-platform-api
+  label: Climate FieldView Application API
+  slug: climate-fieldview-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/openapi/climate-fieldview-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/openapi/climate-fieldview-application-api-openapi.yml
+- filename: climate-fieldview-fields-api-openapi.yml
+  format: yaml
+  label: Climate FieldView Fields API
+  slug: climate-fieldview-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/openapi/climate-fieldview-fields-api-openapi.yml
+- filename: climate-fieldview-harvest-api-openapi.yml
+  format: yaml
+  label: Climate FieldView Harvest API
+  slug: climate-fieldview-harvest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/openapi/climate-fieldview-harvest-api-openapi.yml
+- filename: climate-fieldview-planting-api-openapi.yml
+  format: yaml
+  label: Climate FieldView Planting API
+  slug: climate-fieldview-planting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/openapi/climate-fieldview-planting-api-openapi.yml
+- filename: climate-fieldview-soil-sampling-api-openapi.yml
+  format: yaml
+  label: Climate FieldView Soil Sampling API
+  slug: climate-fieldview-soil-sampling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/openapi/climate-fieldview-soil-sampling-api-openapi.yml
 description: ''
 domains:
 - caa: []

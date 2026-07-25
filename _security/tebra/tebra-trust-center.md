@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: tebra-clinical-openapi.yml
+- filename: tebra-documents-api-openapi.yml
   format: yaml
-  label: Tebra Clinical Data API
-  slug: tebra-clinical-data-api
+  label: Tebra Documents API
+  slug: tebra-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-clinical-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-documents-api-openapi.yml
+- filename: tebra-clinical-api-openapi.yml
+  format: yaml
+  label: Tebra Clinical API
+  slug: tebra-clinical-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-clinical-api-openapi.yml
+- filename: tebra-documents-api-openapi.yml
+  format: yaml
+  label: Tebra Documents API
+  slug: tebra-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-documents-api-openapi.yml
+- filename: tebra-patient-api-openapi.yml
+  format: yaml
+  label: Tebra Patient API
+  slug: tebra-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-patient-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

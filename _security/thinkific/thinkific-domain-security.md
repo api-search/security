@@ -1,17 +1,143 @@
 ---
 api_specs:
-- filename: thinkific-admin-api-openapi.yml
-  format: yaml
-  label: Thinkific Admin REST API
-  slug: admin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-admin-api-openapi.yml
 - filename: thinkific-webhooks-api-openapi.yml
   format: yaml
   label: Thinkific Webhooks API
   slug: webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-webhooks-api-openapi.yml
+- filename: thinkific-bundles-api-openapi.yml
+  format: yaml
+  label: Thinkific Bundles API
+  slug: thinkific-bundles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-bundles-api-openapi.yml
+- filename: thinkific-categories-api-openapi.yml
+  format: yaml
+  label: Thinkific Categories API
+  slug: thinkific-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-categories-api-openapi.yml
+- filename: thinkific-category-memberships-api-openapi.yml
+  format: yaml
+  label: Thinkific Category Memberships API
+  slug: thinkific-category-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-category-memberships-api-openapi.yml
+- filename: thinkific-chapters-api-openapi.yml
+  format: yaml
+  label: Thinkific Chapters API
+  slug: thinkific-chapters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-chapters-api-openapi.yml
+- filename: thinkific-contents-api-openapi.yml
+  format: yaml
+  label: Thinkific Contents API
+  slug: thinkific-contents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-contents-api-openapi.yml
+- filename: thinkific-coupons-api-openapi.yml
+  format: yaml
+  label: Thinkific Coupons API
+  slug: thinkific-coupons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-coupons-api-openapi.yml
+- filename: thinkific-course-reviews-api-openapi.yml
+  format: yaml
+  label: Thinkific Course Reviews API
+  slug: thinkific-course-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-course-reviews-api-openapi.yml
+- filename: thinkific-courses-api-openapi.yml
+  format: yaml
+  label: Thinkific Courses API
+  slug: thinkific-courses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-courses-api-openapi.yml
+- filename: thinkific-custom-profile-field-definitions-api-openapi.yml
+  format: yaml
+  label: Thinkific Custom Profile Field Definitions API
+  slug: thinkific-custom-profile-field-definitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-custom-profile-field-definitions-api-openapi.yml
+- filename: thinkific-enrollments-api-openapi.yml
+  format: yaml
+  label: Thinkific Enrollments API
+  slug: thinkific-enrollments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-enrollments-api-openapi.yml
+- filename: thinkific-events-api-openapi.yml
+  format: yaml
+  label: Thinkific Events API
+  slug: thinkific-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-events-api-openapi.yml
+- filename: thinkific-external-orders-api-openapi.yml
+  format: yaml
+  label: Thinkific External Orders API
+  slug: thinkific-external-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-external-orders-api-openapi.yml
+- filename: thinkific-group-analysts-api-openapi.yml
+  format: yaml
+  label: Thinkific Group Analysts API
+  slug: thinkific-group-analysts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-group-analysts-api-openapi.yml
+- filename: thinkific-group-users-api-openapi.yml
+  format: yaml
+  label: Thinkific Group Users API
+  slug: thinkific-group-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-group-users-api-openapi.yml
+- filename: thinkific-groups-api-openapi.yml
+  format: yaml
+  label: Thinkific Groups API
+  slug: thinkific-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-groups-api-openapi.yml
+- filename: thinkific-instructors-api-openapi.yml
+  format: yaml
+  label: Thinkific Instructors API
+  slug: thinkific-instructors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-instructors-api-openapi.yml
+- filename: thinkific-orders-api-openapi.yml
+  format: yaml
+  label: Thinkific Orders API
+  slug: thinkific-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-orders-api-openapi.yml
+- filename: thinkific-product-publish-request-api-openapi.yml
+  format: yaml
+  label: Thinkific Product Publish Request API
+  slug: thinkific-product-publish-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-product-publish-request-api-openapi.yml
+- filename: thinkific-products-api-openapi.yml
+  format: yaml
+  label: Thinkific Products API
+  slug: thinkific-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-products-api-openapi.yml
+- filename: thinkific-promotions-api-openapi.yml
+  format: yaml
+  label: Thinkific Promotions API
+  slug: thinkific-promotions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-promotions-api-openapi.yml
+- filename: thinkific-site-scripts-api-openapi.yml
+  format: yaml
+  label: Thinkific Site Scripts API
+  slug: thinkific-site-scripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-site-scripts-api-openapi.yml
+- filename: thinkific-users-api-openapi.yml
+  format: yaml
+  label: Thinkific Users API
+  slug: thinkific-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/openapi/thinkific-users-api-openapi.yml
 description: ''
 domains:
 - caa:

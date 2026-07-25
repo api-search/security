@@ -1,0 +1,34 @@
+---
+api_key_in: []
+auth_types:
+- none
+description: ''
+kind: authentication
+layout: security
+method: searched
+name: Openprescribing Authentication
+name_suffix: Authentication
+oauth_flows: []
+overview: OpenPrescribing secures its APIs with none across 0 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: OpenPrescribing
+provider_slug: openprescribing
+scheme_count: 0
+schemes: []
+slug: openprescribing-authentication
+source_filename: openprescribing-authentication.yml
+source_heading: Authentication Profile
+source_url: ''
+source_yaml: "generated: '2026-07-24'\nmethod: searched\nsource: https://openprescribing.net/api/\ndocs: https://openprescribing.net/api/\nsummary:\n  types: [none]\n  api_key_in: []\n  oauth2_flows: []\n  note: >-\n    OpenPrescribing exposes a fully public, key-less REST API. No registration, API key,\n    bearer token or OAuth is required to call any /api/1.0/ endpoint. The documentation\n    notes that a registration requirement \"may change\" in future, but none exists today.\nschemes: []\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/authentication/openprescribing-authentication.yml
+summary_line: none · 0 schemes
+tags:
+- Healthcare
+- United Kingdom
+- NHS
+- Prescribing
+- Pharmacy
+- Open Data
+- Primary Care
+- Public Health
+- Analytics
+---

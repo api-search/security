@@ -1,23 +1,35 @@
 ---
 api_specs:
-- filename: r-metacran-crandb-openapi.yml
+- filename: r-badges-api-openapi.yml
   format: yaml
-  label: METACRAN CranDB API
-  slug: metacran-crandb
+  label: R Badges API
+  slug: r-badges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/openapi/r-metacran-crandb-openapi.yml
-- filename: r-metacran-cranlogs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/openapi/r-badges-api-openapi.yml
+- filename: r-downloads-api-openapi.yml
   format: yaml
-  label: METACRAN CranLogs API
-  slug: metacran-cranlogs
+  label: R Downloads API
+  slug: r-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/openapi/r-metacran-cranlogs-openapi.yml
-- filename: r-rversions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/openapi/r-downloads-api-openapi.yml
+- filename: r-packages-api-openapi.yml
+  format: yaml
+  label: R Packages API
+  slug: r-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/openapi/r-packages-api-openapi.yml
+- filename: r-top-packages-api-openapi.yml
+  format: yaml
+  label: R Top Packages API
+  slug: r-top-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/openapi/r-top-packages-api-openapi.yml
+- filename: r-versions-api-openapi.yml
   format: yaml
   label: R Versions API
-  slug: rversions
+  slug: r-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/openapi/r-rversions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/openapi/r-versions-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: steam-iplayerservice-api-openapi.yml
+  format: yaml
+  label: Steam IPlayerService API
+  slug: steam-iplayerservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/openapi/steam-iplayerservice-api-openapi.yml
+- filename: steam-isteamnews-api-openapi.yml
+  format: yaml
+  label: Steam ISteamNews API
+  slug: steam-isteamnews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/openapi/steam-isteamnews-api-openapi.yml
+- filename: steam-isteamuser-api-openapi.yml
+  format: yaml
+  label: Steam ISteamUser API
+  slug: steam-isteamuser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/openapi/steam-isteamuser-api-openapi.yml
+- filename: steam-isteamuserstats-api-openapi.yml
+  format: yaml
+  label: Steam ISteamUserStats API
+  slug: steam-isteamuserstats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/openapi/steam-isteamuserstats-api-openapi.yml
 description: ''
 domains:
 - caa:

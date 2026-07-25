@@ -1,59 +1,59 @@
 ---
 api_specs:
-- filename: maven-agi-openapi.yml
-  format: yaml
-  label: Maven AGI Conversation API
-  slug: maven-agi-conversation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-openapi.yml
-- filename: maven-agi-openapi.yml
-  format: yaml
-  label: Maven AGI Knowledge API
-  slug: maven-agi-knowledge-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-openapi.yml
-- filename: maven-agi-openapi.yml
+- filename: maven-agi-actions-api-openapi.yml
   format: yaml
   label: Maven AGI Actions API
   slug: maven-agi-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-openapi.yml
-- filename: maven-agi-openapi.yml
-  format: yaml
-  label: Maven AGI Users API
-  slug: maven-agi-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-openapi.yml
-- filename: maven-agi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-actions-api-openapi.yml
+- filename: maven-agi-agents-api-openapi.yml
   format: yaml
   label: Maven AGI Agents API
   slug: maven-agi-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-openapi.yml
-- filename: maven-agi-openapi.yml
-  format: yaml
-  label: Maven AGI Events API
-  slug: maven-agi-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-openapi.yml
-- filename: maven-agi-openapi.yml
-  format: yaml
-  label: Maven AGI Triggers API
-  slug: maven-agi-triggers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-openapi.yml
-- filename: maven-agi-openapi.yml
-  format: yaml
-  label: Maven AGI App Settings API
-  slug: maven-agi-app-settings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-openapi.yml
-- filename: maven-agi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-agents-api-openapi.yml
+- filename: maven-agi-analytics-api-openapi.yml
   format: yaml
   label: Maven AGI Analytics API
   slug: maven-agi-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-analytics-api-openapi.yml
+- filename: maven-agi-app-settings-api-openapi.yml
+  format: yaml
+  label: Maven AGI App Settings API
+  slug: maven-agi-app-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-app-settings-api-openapi.yml
+- filename: maven-agi-conversations-api-openapi.yml
+  format: yaml
+  label: Maven AGI Conversations API
+  slug: maven-agi-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-conversations-api-openapi.yml
+- filename: maven-agi-events-api-openapi.yml
+  format: yaml
+  label: Maven AGI Events API
+  slug: maven-agi-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-events-api-openapi.yml
+- filename: maven-agi-knowledge-api-openapi.yml
+  format: yaml
+  label: Maven AGI Knowledge API
+  slug: maven-agi-knowledge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-knowledge-api-openapi.yml
+- filename: maven-agi-triggers-api-openapi.yml
+  format: yaml
+  label: Maven AGI Triggers API
+  slug: maven-agi-triggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-triggers-api-openapi.yml
+- filename: maven-agi-users-api-openapi.yml
+  format: yaml
+  label: Maven AGI Users API
+  slug: maven-agi-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-users-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

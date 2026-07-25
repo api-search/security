@@ -38,6 +38,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/green-dot/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fintech
+- Banking as a Service
+- Embedded Finance
 - Prepaid Cards
 - Banking
+- Payments
+- Money Movement
+- United States
 ---

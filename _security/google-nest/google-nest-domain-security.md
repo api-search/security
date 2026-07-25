@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-nest-devices-api-openapi.yml
   format: yaml
-  label: Google Nest Smart Device Management API
-  slug: google-nest-smart-device-management-api
+  label: Google Nest Smart Device Management Devices API
+  slug: google-nest-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-nest/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-nest/refs/heads/main/openapi/google-nest-devices-api-openapi.yml
+- filename: google-nest-rooms-api-openapi.yml
+  format: yaml
+  label: Google Nest Smart Device Management Rooms API
+  slug: google-nest-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-nest/refs/heads/main/openapi/google-nest-rooms-api-openapi.yml
+- filename: google-nest-structures-api-openapi.yml
+  format: yaml
+  label: Google Nest Smart Device Management Structures API
+  slug: google-nest-structures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-nest/refs/heads/main/openapi/google-nest-structures-api-openapi.yml
 description: ''
 domains:
 - caa:

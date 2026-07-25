@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sapien-poq-openapi-original.json
-  format: json
-  label: Sapien Proof of Quality Developer API
-  slug: sapien-proof-of-quality-developer-api
+- filename: sapien-datapoints-api-openapi.yml
+  format: yaml
+  label: Sapien Datapoints API
+  slug: sapien-datapoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/openapi/sapien-poq-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/openapi/sapien-datapoints-api-openapi.yml
+- filename: sapien-projects-api-openapi.yml
+  format: yaml
+  label: Sapien Projects API
+  slug: sapien-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/openapi/sapien-projects-api-openapi.yml
+- filename: sapien-system-api-openapi.yml
+  format: yaml
+  label: Sapien System API
+  slug: sapien-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/openapi/sapien-system-api-openapi.yml
+- filename: sapien-upload-sessions-api-openapi.yml
+  format: yaml
+  label: Sapien Upload Sessions API
+  slug: sapien-upload-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/openapi/sapien-upload-sessions-api-openapi.yml
+- filename: sapien-validators-api-openapi.yml
+  format: yaml
+  label: Sapien Validators API
+  slug: sapien-validators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/openapi/sapien-validators-api-openapi.yml
 auth_types:
 - http
 description: ''

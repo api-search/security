@@ -3,12 +3,12 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: microsoft-azure-queue-storage-openapi.yml
+- filename: microsoft-azure-queue-storage-queues-api-openapi.yml
   format: yaml
-  label: Azure Queue Storage REST API
-  slug: rest-api
+  label: Azure Queue Storage Queues API
+  slug: microsoft-azure-queue-storage-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-queue-storage/refs/heads/main/openapi/microsoft-azure-queue-storage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-queue-storage/refs/heads/main/openapi/microsoft-azure-queue-storage-queues-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

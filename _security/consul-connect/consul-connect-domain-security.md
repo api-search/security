@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: consul-connect-openapi.yml
+- filename: consul-connect-ca-api-openapi.yml
   format: yaml
-  label: Consul Connect HTTP API
-  slug: consul-connect-api
+  label: Consul Connect CA API
+  slug: consul-connect-ca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul-connect/refs/heads/main/openapi/consul-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/consul-connect/refs/heads/main/openapi/consul-connect-ca-api-openapi.yml
+- filename: consul-connect-intentions-api-openapi.yml
+  format: yaml
+  label: Consul Connect Intentions API
+  slug: consul-connect-intentions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/consul-connect/refs/heads/main/openapi/consul-connect-intentions-api-openapi.yml
 description: ''
 domains:
 - caa: []

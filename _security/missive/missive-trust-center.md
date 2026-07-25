@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: missive-rest-api-openapi.yml
+- filename: missive-analytics-api-openapi.yml
   format: yaml
-  label: Missive REST API
-  slug: missive-rest-api
+  label: Missive Analytics API
+  slug: missive-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-analytics-api-openapi.yml
+- filename: missive-contact-books-api-openapi.yml
+  format: yaml
+  label: Missive Contact Books API
+  slug: missive-contact-books-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-contact-books-api-openapi.yml
+- filename: missive-contact-groups-api-openapi.yml
+  format: yaml
+  label: Missive Contact Groups API
+  slug: missive-contact-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-contact-groups-api-openapi.yml
+- filename: missive-contacts-api-openapi.yml
+  format: yaml
+  label: Missive Contacts API
+  slug: missive-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-contacts-api-openapi.yml
+- filename: missive-conversations-api-openapi.yml
+  format: yaml
+  label: Missive Conversations API
+  slug: missive-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-conversations-api-openapi.yml
+- filename: missive-drafts-api-openapi.yml
+  format: yaml
+  label: Missive Drafts API
+  slug: missive-drafts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-drafts-api-openapi.yml
+- filename: missive-messages-api-openapi.yml
+  format: yaml
+  label: Missive Messages API
+  slug: missive-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-messages-api-openapi.yml
 certifications:
 - SOC 2
 - GDPR

@@ -1,36 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: unity-bank-cds-banking-products-openapi.yml
+- filename: unity-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Unity Bank CDR Product Reference Data API
-  slug: unity-bank-cdr-product-reference-data-api
+  label: Unity Bank Banking Account Balances API
+  slug: unity-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/openapi/unity-bank-cds-banking-products-openapi.yml
-- filename: unity-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/openapi/unity-bank-banking-account-balances-api-openapi.yml
+- filename: unity-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Unity Bank CDR Accounts & Balances API
-  slug: unity-bank-cdr-accounts-balances-api
+  label: Unity Bank Banking Account Direct Debits API
+  slug: unity-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/openapi/unity-bank-cds-banking-products-openapi.yml
-- filename: unity-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/openapi/unity-bank-banking-account-direct-debits-api-openapi.yml
+- filename: unity-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Unity Bank CDR Transactions API
-  slug: unity-bank-cdr-transactions-api
+  label: Unity Bank Banking Account Scheduled Payments API
+  slug: unity-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/openapi/unity-bank-cds-banking-products-openapi.yml
-- filename: unity-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/openapi/unity-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: unity-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Unity Bank CDR Direct Debits & Scheduled Payments API
-  slug: unity-bank-cdr-direct-debits-scheduled-payments-api
+  label: Unity Bank Banking Account Transactions API
+  slug: unity-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/openapi/unity-bank-cds-banking-products-openapi.yml
-- filename: unity-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/openapi/unity-bank-banking-account-transactions-api-openapi.yml
+- filename: unity-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: Unity Bank CDR Payees API
-  slug: unity-bank-cdr-payees-api
+  label: Unity Bank Banking Accounts API
+  slug: unity-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/openapi/unity-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/openapi/unity-bank-banking-accounts-api-openapi.yml
+- filename: unity-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: Unity Bank Banking Payees API
+  slug: unity-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/openapi/unity-bank-banking-payees-api-openapi.yml
+- filename: unity-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: Unity Bank Banking Products API
+  slug: unity-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/openapi/unity-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 description: ''

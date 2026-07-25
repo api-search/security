@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: autonomys-auto-drive-openapi.json
-  format: json
-  label: Autonomys Auto Drive API
-  slug: autonomys-auto-drive-api
+- filename: autonomys-auto-drive-api-api-openapi.yml
+  format: yaml
+  label: Autonomys Auto Drive API API
+  slug: autonomys-auto-drive-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/openapi/autonomys-auto-drive-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/openapi/autonomys-auto-drive-api-api-openapi.yml
+- filename: autonomys-auto-drive-download-gateway-api-openapi.yml
+  format: yaml
+  label: Autonomys Auto Drive Download Gateway API
+  slug: autonomys-auto-drive-download-gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/openapi/autonomys-auto-drive-download-gateway-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

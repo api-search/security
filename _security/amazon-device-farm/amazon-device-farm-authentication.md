@@ -2,12 +2,468 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-device-farm-openapi.yaml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-createdevicepool-api-openapi.yml
   format: yaml
-  label: AWS Device Farm API
-  slug: aws-device-farm-api
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-createdevicepool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-createdevicepool-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-createinstanceprofile-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.CreateInstanceProfile API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-createinstanceprofile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-createinstanceprofile-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-createnetworkprofile-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.CreateNetworkProfile API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-createnetworkprofile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-createnetworkprofile-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-createproject-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.CreateProject API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-createproject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-createproject-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-createremoteaccesssession-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.CreateRemoteAccessSession API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-createremoteaccesssession-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-createremoteaccesssession-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-createtestgridproject-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.CreateTestGridProject API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-createtestgridproject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-createtestgridproject-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-createtestgridurl-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.CreateTestGridUrl API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-createtestgridurl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-createtestgridurl-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-createupload-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.CreateUpload API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-createupload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-createupload-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-createvpceconfiguration-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.CreateVPCEConfiguration API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-createvpceconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-createvpceconfiguration-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-deletedevicepool-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.DeleteDevicePool API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-deletedevicepool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-deletedevicepool-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-deleteinstanceprofile-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.DeleteInstanceProfile API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-deleteinstanceprofile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-deleteinstanceprofile-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-deletenetworkprofile-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.DeleteNetworkProfile API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-deletenetworkprofile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-deletenetworkprofile-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-deleteproject-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.DeleteProject API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-deleteproject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-deleteproject-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-deleteremoteaccesssession-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.DeleteRemoteAccessSession API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-deleteremoteaccesssession-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-deleteremoteaccesssession-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-deleterun-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.DeleteRun API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-deleterun-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-deleterun-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-deletetestgridproject-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.DeleteTestGridProject API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-deletetestgridproject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-deletetestgridproject-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-deleteupload-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.DeleteUpload API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-deleteupload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-deleteupload-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-deletevpceconfiguration-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.DeleteVPCEConfiguration API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-deletevpceconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-deletevpceconfiguration-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-getaccountsettings-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.GetAccountSettings API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-getaccountsettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-getaccountsettings-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-getdevice-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.GetDevice API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-getdevice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-getdevice-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-getdeviceinstance-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.GetDeviceInstance API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-getdeviceinstance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-getdeviceinstance-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-getdevicepool-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.GetDevicePool API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-getdevicepool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-getdevicepool-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-getdevicepoolcompatibility-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.GetDevicePoolCompatibility API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-getdevicepoolcompatibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-getdevicepoolcompatibility-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-getinstanceprofile-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.GetInstanceProfile API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-getinstanceprofile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-getinstanceprofile-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-getjob-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.GetJob API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-getjob-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-getjob-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-getnetworkprofile-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.GetNetworkProfile API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-getnetworkprofile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-getnetworkprofile-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-getofferingstatus-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.GetOfferingStatus API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-getofferingstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-getofferingstatus-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-getproject-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.GetProject API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-getproject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-getproject-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-getremoteaccesssession-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.GetRemoteAccessSession API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-getremoteaccesssession-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-getremoteaccesssession-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-getrun-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.GetRun API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-getrun-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-getrun-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-getsuite-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.GetSuite API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-getsuite-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-getsuite-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-gettest-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.GetTest API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-gettest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-gettest-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-gettestgridproject-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.GetTestGridProject API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-gettestgridproject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-gettestgridproject-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-gettestgridsession-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.GetTestGridSession API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-gettestgridsession-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-gettestgridsession-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-getupload-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.GetUpload API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-getupload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-getupload-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-getvpceconfiguration-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.GetVPCEConfiguration API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-getvpceconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-getvpceconfiguration-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-installtoremoteaccesssession-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.InstallToRemoteAccessSession API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-installtoremoteaccesssession-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-installtoremoteaccesssession-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listartifacts-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListArtifacts API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listartifacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listartifacts-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listdeviceinstances-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListDeviceInstances API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listdeviceinstances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listdeviceinstances-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listdevicepools-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListDevicePools API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listdevicepools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listdevicepools-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listdevices-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListDevices API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listdevices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listdevices-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listinstanceprofiles-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListInstanceProfiles API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listinstanceprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listinstanceprofiles-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listjobs-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListJobs API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listjobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listjobs-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listnetworkprofiles-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListNetworkProfiles API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listnetworkprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listnetworkprofiles-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listofferingpromotions-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListOfferingPromotions API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listofferingpromotions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listofferingpromotions-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listofferings-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListOfferings API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listofferings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listofferings-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listofferingtransactions-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListOfferingTransactions API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listofferingtransactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listofferingtransactions-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listprojects-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListProjects API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listprojects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listprojects-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listremoteaccesssessions-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListRemoteAccessSessions API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listremoteaccesssessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listremoteaccesssessions-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listruns-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListRuns API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listruns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listruns-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listsamples-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListSamples API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listsamples-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listsamples-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listsuites-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListSuites API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listsuites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listsuites-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listtagsforresource-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListTagsForResource API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listtagsforresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listtagsforresource-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listtestgridprojects-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListTestGridProjects API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listtestgridprojects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listtestgridprojects-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listtestgridsessionactions-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListTestGridSessionActions API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listtestgridsessionactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listtestgridsessionactions-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listtestgridsessionartifacts-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListTestGridSessionArtifacts API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listtestgridsessionartifacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listtestgridsessionartifacts-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listtestgridsessions-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListTestGridSessions API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listtestgridsessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listtestgridsessions-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listtests-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListTests API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listtests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listtests-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listuniqueproblems-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListUniqueProblems API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listuniqueproblems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listuniqueproblems-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listuploads-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListUploads API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listuploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listuploads-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-listvpceconfigurations-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ListVPCEConfigurations API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-listvpceconfigurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-listvpceconfigurations-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-purchaseoffering-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.PurchaseOffering API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-purchaseoffering-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-purchaseoffering-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-renewoffering-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.RenewOffering API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-renewoffering-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-renewoffering-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-schedulerun-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.ScheduleRun API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-schedulerun-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-schedulerun-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-stopjob-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.StopJob API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-stopjob-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-stopjob-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-stopremoteaccesssession-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.StopRemoteAccessSession API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-stopremoteaccesssession-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-stopremoteaccesssession-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-stoprun-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.StopRun API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-stoprun-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-stoprun-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-tagresource-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.TagResource API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-tagresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-tagresource-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-untagresource-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.UntagResource API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-untagresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-untagresource-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-updatedeviceinstance-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.UpdateDeviceInstance API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-updatedeviceinstance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-updatedeviceinstance-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-updatedevicepool-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.UpdateDevicePool API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-updatedevicepool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-updatedevicepool-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-updateinstanceprofile-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.UpdateInstanceProfile API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-updateinstanceprofile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-updateinstanceprofile-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-updatenetworkprofile-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.UpdateNetworkProfile API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-updatenetworkprofile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-updatenetworkprofile-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-updateproject-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.UpdateProject API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-updateproject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-updateproject-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-updatetestgridproject-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.UpdateTestGridProject API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-updatetestgridproject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-updatetestgridproject-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-updateupload-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.UpdateUpload API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-updateupload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-updateupload-api-openapi.yml
+- filename: amazon-device-farm-x-amz-target-devicefarm-20150623-updatevpceconfiguration-api-openapi.yml
+  format: yaml
+  label: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.UpdateVPCEConfiguration API'
+  slug: amazon-device-farm-x-amz-target-devicefarm-20150623-updatevpceconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-updatevpceconfiguration-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

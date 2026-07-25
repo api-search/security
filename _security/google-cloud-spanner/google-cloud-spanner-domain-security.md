@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: cloud-spanner-openapi.yml
+- filename: google-cloud-spanner-databases-api-openapi.yml
   format: yaml
-  label: Cloud Spanner API
-  slug: cloud-spanner-api
+  label: Google Cloud Spanner Databases API
+  slug: google-cloud-spanner-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-spanner/refs/heads/main/openapi/cloud-spanner-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-spanner/refs/heads/main/openapi/google-cloud-spanner-databases-api-openapi.yml
+- filename: google-cloud-spanner-instances-api-openapi.yml
+  format: yaml
+  label: Google Cloud Spanner Instances API
+  slug: google-cloud-spanner-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-spanner/refs/heads/main/openapi/google-cloud-spanner-instances-api-openapi.yml
+- filename: google-cloud-spanner-sessions-api-openapi.yml
+  format: yaml
+  label: Google Cloud Spanner Sessions API
+  slug: google-cloud-spanner-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-spanner/refs/heads/main/openapi/google-cloud-spanner-sessions-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,47 +1,53 @@
 ---
 api_specs:
-- filename: backendless-openapi.yml
+- filename: backendless-cache-api-openapi.yml
   format: yaml
-  label: Backendless Data Service API
-  slug: data
+  label: Backendless Cache API
+  slug: backendless-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-openapi.yml
-- filename: backendless-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-cache-api-openapi.yml
+- filename: backendless-cloudcode-api-openapi.yml
   format: yaml
-  label: Backendless User Service API
-  slug: users
+  label: Backendless CloudCode API
+  slug: backendless-cloudcode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-openapi.yml
-- filename: backendless-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-cloudcode-api-openapi.yml
+- filename: backendless-counters-api-openapi.yml
   format: yaml
-  label: Backendless File Service API
-  slug: files
+  label: Backendless Counters API
+  slug: backendless-counters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-openapi.yml
-- filename: backendless-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-counters-api-openapi.yml
+- filename: backendless-data-api-openapi.yml
   format: yaml
-  label: Backendless Messaging and Push API
-  slug: messaging
+  label: Backendless Data API
+  slug: backendless-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-openapi.yml
-- filename: backendless-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-data-api-openapi.yml
+- filename: backendless-files-api-openapi.yml
   format: yaml
-  label: Backendless Geo Service API
-  slug: geo
+  label: Backendless Files API
+  slug: backendless-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-openapi.yml
-- filename: backendless-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-files-api-openapi.yml
+- filename: backendless-geo-api-openapi.yml
   format: yaml
-  label: Backendless Cache and Atomic Counters API
-  slug: cache-counters
+  label: Backendless Geo API
+  slug: backendless-geo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-openapi.yml
-- filename: backendless-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-geo-api-openapi.yml
+- filename: backendless-messaging-api-openapi.yml
   format: yaml
-  label: Backendless Cloud Code API
-  slug: cloud-code
+  label: Backendless Messaging API
+  slug: backendless-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-messaging-api-openapi.yml
+- filename: backendless-users-api-openapi.yml
+  format: yaml
+  label: Backendless Users API
+  slug: backendless-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-users-api-openapi.yml
 description: ''
 domains:
 - caa:

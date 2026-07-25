@@ -2,48 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: smartmoving-openapi.yml
+- filename: smartmoving-customers-api-openapi.yml
   format: yaml
   label: SmartMoving Customers API
   slug: smartmoving-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-openapi.yml
-- filename: smartmoving-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-customers-api-openapi.yml
+- filename: smartmoving-jobs-api-openapi.yml
   format: yaml
-  label: SmartMoving Opportunities API
-  slug: smartmoving-opportunities-api
+  label: SmartMoving Jobs API
+  slug: smartmoving-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-openapi.yml
-- filename: smartmoving-openapi.yml
-  format: yaml
-  label: SmartMoving Leads API
-  slug: smartmoving-leads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-openapi.yml
-- filename: smartmoving-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-jobs-api-openapi.yml
+- filename: smartmoving-lead-provider-api-openapi.yml
   format: yaml
   label: SmartMoving Lead Provider API
   slug: smartmoving-lead-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-openapi.yml
-- filename: smartmoving-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-lead-provider-api-openapi.yml
+- filename: smartmoving-leads-api-openapi.yml
   format: yaml
-  label: SmartMoving Jobs & Moves API
-  slug: smartmoving-jobs-api
+  label: SmartMoving Leads API
+  slug: smartmoving-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-openapi.yml
-- filename: smartmoving-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-leads-api-openapi.yml
+- filename: smartmoving-opportunities-api-openapi.yml
+  format: yaml
+  label: SmartMoving Opportunities API
+  slug: smartmoving-opportunities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-opportunities-api-openapi.yml
+- filename: smartmoving-reference-data-api-openapi.yml
   format: yaml
   label: SmartMoving Reference Data API
   slug: smartmoving-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-openapi.yml
-- filename: smartmoving-openapi.yml
-  format: yaml
-  label: SmartMoving Webhooks API
-  slug: smartmoving-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-reference-data-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

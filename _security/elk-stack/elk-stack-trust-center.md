@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: elasticsearch-serverless-openapi.json
-  format: json
-  label: Elasticsearch API
-  slug: elasticsearch-api
+- filename: elk-stack-cat-api-openapi.yml
+  format: yaml
+  label: Elastic Stack (ELK Stack) Cat API
+  slug: elk-stack-cat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/elastic/elasticsearch-specification/main/output/openapi/elasticsearch-serverless-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/openapi/elk-stack-cat-api-openapi.yml
+- filename: elk-stack-cluster-api-openapi.yml
+  format: yaml
+  label: Elastic Stack (ELK Stack) Cluster API
+  slug: elk-stack-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/openapi/elk-stack-cluster-api-openapi.yml
+- filename: elk-stack-document-api-openapi.yml
+  format: yaml
+  label: Elastic Stack (ELK Stack) Document API
+  slug: elk-stack-document-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/openapi/elk-stack-document-api-openapi.yml
+- filename: elk-stack-index-api-openapi.yml
+  format: yaml
+  label: Elastic Stack (ELK Stack) Index API
+  slug: elk-stack-index-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/openapi/elk-stack-index-api-openapi.yml
+- filename: elk-stack-ingest-api-openapi.yml
+  format: yaml
+  label: Elastic Stack (ELK Stack) Ingest API
+  slug: elk-stack-ingest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/openapi/elk-stack-ingest-api-openapi.yml
+- filename: elk-stack-search-api-openapi.yml
+  format: yaml
+  label: Elastic Stack (ELK Stack) Search API
+  slug: elk-stack-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/openapi/elk-stack-search-api-openapi.yml
+- filename: elk-stack-snapshot-api-openapi.yml
+  format: yaml
+  label: Elastic Stack (ELK Stack) Snapshot API
+  slug: elk-stack-snapshot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/openapi/elk-stack-snapshot-api-openapi.yml
 certifications:
 - GDPR
 description: ''

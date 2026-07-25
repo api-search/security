@@ -1,17 +1,53 @@
 ---
 api_specs:
-- filename: livechat-openapi.yml
-  format: yaml
-  label: LiveChat Agent Chat API
-  slug: agent-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-openapi.yml
 - filename: livechat-asyncapi.yml
   format: yaml
   label: LiveChat Webhooks and RTM API
   slug: webhooks-and-rtm
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-asyncapi.yml
+- filename: livechat-chats-api-openapi.yml
+  format: yaml
+  label: LiveChat Chats API
+  slug: livechat-chats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-chats-api-openapi.yml
+- filename: livechat-customers-api-openapi.yml
+  format: yaml
+  label: LiveChat Customers API
+  slug: livechat-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-customers-api-openapi.yml
+- filename: livechat-events-api-openapi.yml
+  format: yaml
+  label: LiveChat Events API
+  slug: livechat-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-events-api-openapi.yml
+- filename: livechat-other-api-openapi.yml
+  format: yaml
+  label: LiveChat Other API
+  slug: livechat-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-other-api-openapi.yml
+- filename: livechat-properties-api-openapi.yml
+  format: yaml
+  label: LiveChat Properties API
+  slug: livechat-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-properties-api-openapi.yml
+- filename: livechat-status-api-openapi.yml
+  format: yaml
+  label: LiveChat Status API
+  slug: livechat-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-status-api-openapi.yml
+- filename: livechat-threads-api-openapi.yml
+  format: yaml
+  label: LiveChat Threads API
+  slug: livechat-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-threads-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: instapage-openapi.yml
+- filename: instapage-workspaces-api-openapi.yml
   format: yaml
-  label: Instapage Public API
-  slug: public-api
+  label: Instapage Workspaces API
+  slug: instapage-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/openapi/instapage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/openapi/instapage-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: xeneta-api-30-openapi.yml
+- filename: xeneta-air-api-openapi.yml
   format: yaml
-  label: Xeneta API
-  slug: xeneta-api
+  label: Xeneta Air API
+  slug: xeneta-air-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/openapi/xeneta-api-30-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/openapi/xeneta-air-api-openapi.yml
+- filename: xeneta-ocean-api-openapi.yml
+  format: yaml
+  label: Xeneta Ocean API
+  slug: xeneta-ocean-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/openapi/xeneta-ocean-api-openapi.yml
 certifications:
 - ISO 27001:2022
 description: 'Xeneta publishes a data-security page announcing its ISO 27001:2022 certification for information security management, stating the company has implemented an ISMS covering breach protection, unauthorized access, risk management, and regulatory compliance. It is a brief marketing page, not a full trust center: no SOC 2, no vulnerability-disclosure policy, no security.txt (probed 404/403 on all hosts), and no dedicated trust subdomain (trust.xeneta.com and security.xeneta.com do not resolve). General contact: info@xeneta.com.'

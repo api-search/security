@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: osmosis-agent-improvement-openapi.json
-  format: json
-  label: Osmosis Agent Improvement API
-  slug: osmosis-agent-improvement-api
+- filename: osmosis-agent-api-openapi.yml
+  format: yaml
+  label: Osmosis agent API
+  slug: osmosis-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/openapi/osmosis-agent-improvement-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/openapi/osmosis-agent-api-openapi.yml
+- filename: osmosis-knowledge-api-openapi.yml
+  format: yaml
+  label: Osmosis knowledge API
+  slug: osmosis-knowledge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/openapi/osmosis-knowledge-api-openapi.yml
+- filename: osmosis-osmosis-agent-improvement-api-api-openapi.yml
+  format: yaml
+  label: Osmosis Osmosis Agent Improvement API API
+  slug: osmosis-osmosis-agent-improvement-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/openapi/osmosis-osmosis-agent-improvement-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

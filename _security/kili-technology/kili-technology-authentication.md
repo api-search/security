@@ -2,36 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: kili-technology-openapi.yml
+- filename: kili-technology-graphql-api-openapi.yml
   format: yaml
-  label: Kili Technology Projects API
-  slug: projects
+  label: Kili Technology GraphQL API
+  slug: kili-technology-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kili-technology/refs/heads/main/openapi/kili-technology-openapi.yml
-- filename: kili-technology-openapi.yml
-  format: yaml
-  label: Kili Technology Assets API
-  slug: assets
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kili-technology/refs/heads/main/openapi/kili-technology-openapi.yml
-- filename: kili-technology-openapi.yml
-  format: yaml
-  label: Kili Technology Labels API
-  slug: labels
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kili-technology/refs/heads/main/openapi/kili-technology-openapi.yml
-- filename: kili-technology-openapi.yml
-  format: yaml
-  label: Kili Technology Issues API
-  slug: issues
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kili-technology/refs/heads/main/openapi/kili-technology-openapi.yml
-- filename: kili-technology-openapi.yml
-  format: yaml
-  label: Kili Technology Users API
-  slug: users
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kili-technology/refs/heads/main/openapi/kili-technology-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kili-technology/refs/heads/main/openapi/kili-technology-graphql-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -2,36 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: formbricks-openapi.yml
+- filename: formbricks-action-classes-api-openapi.yml
   format: yaml
-  label: Formbricks Surveys API
-  slug: surveys
+  label: Formbricks Action Classes API
+  slug: formbricks-action-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-openapi.yml
-- filename: formbricks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-action-classes-api-openapi.yml
+- filename: formbricks-client-api-openapi.yml
+  format: yaml
+  label: Formbricks Client API
+  slug: formbricks-client-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-client-api-openapi.yml
+- filename: formbricks-contacts-api-openapi.yml
+  format: yaml
+  label: Formbricks Contacts API
+  slug: formbricks-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-contacts-api-openapi.yml
+- filename: formbricks-me-api-openapi.yml
+  format: yaml
+  label: Formbricks Me API
+  slug: formbricks-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-me-api-openapi.yml
+- filename: formbricks-responses-api-openapi.yml
   format: yaml
   label: Formbricks Responses API
-  slug: responses
+  slug: formbricks-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-openapi.yml
-- filename: formbricks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-responses-api-openapi.yml
+- filename: formbricks-surveys-api-openapi.yml
   format: yaml
-  label: Formbricks Contacts and Attributes API
-  slug: contacts
+  label: Formbricks Surveys API
+  slug: formbricks-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-openapi.yml
-- filename: formbricks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-surveys-api-openapi.yml
+- filename: formbricks-webhooks-api-openapi.yml
   format: yaml
   label: Formbricks Webhooks API
-  slug: webhooks
+  slug: formbricks-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-openapi.yml
-- filename: formbricks-openapi.yml
-  format: yaml
-  label: Formbricks Management API
-  slug: management
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

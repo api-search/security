@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: taxi-language-openapi.yml
+- filename: taxi-conversion-api-openapi.yml
   format: yaml
-  label: Taxi Language
-  slug: taxi-language
+  label: Taxi - Describe How Your APIs and Data Relate Conversion API
+  slug: taxi-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxi-describe-how-your-apis-and-data-relate/refs/heads/main/openapi/taxi-language-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/taxi-describe-how-your-apis-and-data-relate/refs/heads/main/openapi/taxi-conversion-api-openapi.yml
+- filename: taxi-queries-api-openapi.yml
+  format: yaml
+  label: Taxi - Describe How Your APIs and Data Relate Queries API
+  slug: taxi-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taxi-describe-how-your-apis-and-data-relate/refs/heads/main/openapi/taxi-queries-api-openapi.yml
+- filename: taxi-schemas-api-openapi.yml
+  format: yaml
+  label: Taxi - Describe How Your APIs and Data Relate Schemas API
+  slug: taxi-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taxi-describe-how-your-apis-and-data-relate/refs/heads/main/openapi/taxi-schemas-api-openapi.yml
+- filename: taxi-services-api-openapi.yml
+  format: yaml
+  label: Taxi - Describe How Your APIs and Data Relate Services API
+  slug: taxi-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taxi-describe-how-your-apis-and-data-relate/refs/heads/main/openapi/taxi-services-api-openapi.yml
+- filename: taxi-types-api-openapi.yml
+  format: yaml
+  label: Taxi - Describe How Your APIs and Data Relate Types API
+  slug: taxi-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taxi-describe-how-your-apis-and-data-relate/refs/heads/main/openapi/taxi-types-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: singlefile-openapi.yml
+- filename: singlefile-documents-api-openapi.yml
   format: yaml
-  label: SingleFile External API
-  slug: singlefile-external-api
+  label: SingleFile documents API
+  slug: singlefile-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-documents-api-openapi.yml
+- filename: singlefile-entities-api-openapi.yml
+  format: yaml
+  label: SingleFile entities API
+  slug: singlefile-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-entities-api-openapi.yml
+- filename: singlefile-jurisdictions-api-openapi.yml
+  format: yaml
+  label: SingleFile jurisdictions API
+  slug: singlefile-jurisdictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-jurisdictions-api-openapi.yml
+- filename: singlefile-orders-api-openapi.yml
+  format: yaml
+  label: SingleFile orders API
+  slug: singlefile-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-orders-api-openapi.yml
+- filename: singlefile-organizations-api-openapi.yml
+  format: yaml
+  label: SingleFile organizations API
+  slug: singlefile-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-organizations-api-openapi.yml
+- filename: singlefile-schemas-api-openapi.yml
+  format: yaml
+  label: SingleFile schemas API
+  slug: singlefile-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-schemas-api-openapi.yml
+- filename: singlefile-tasks-api-openapi.yml
+  format: yaml
+  label: SingleFile tasks API
+  slug: singlefile-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-tasks-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,54 +1,90 @@
 ---
 api_key_in: []
 api_specs:
-- filename: bendigo-and-adelaide-bank-cds-banking-products-openapi.yml
+- filename: bendigo-and-adelaide-bank-accounts-api-openapi.yml
   format: yaml
-  label: Bendigo and Adelaide Bank CDR Product Reference Data API
-  slug: bendigo-and-adelaide-bank-cds-banking-products-api
+  label: Bendigo and Adelaide Bank Accounts API
+  slug: bendigo-and-adelaide-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-cds-banking-products-openapi.yml
-- filename: bendigo-and-adelaide-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-accounts-api-openapi.yml
+- filename: bendigo-and-adelaide-bank-attachments-api-openapi.yml
   format: yaml
-  label: Bendigo and Adelaide Bank CDR Accounts & Balances API
-  slug: bendigo-and-adelaide-bank-cds-banking-accounts-api
+  label: Bendigo and Adelaide Bank Attachments API
+  slug: bendigo-and-adelaide-bank-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-cds-banking-products-openapi.yml
-- filename: bendigo-and-adelaide-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-attachments-api-openapi.yml
+- filename: bendigo-and-adelaide-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Bendigo and Adelaide Bank CDR Transactions API
-  slug: bendigo-and-adelaide-bank-cds-banking-transactions-api
+  label: Bendigo and Adelaide Bank Banking Account Balances API
+  slug: bendigo-and-adelaide-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-cds-banking-products-openapi.yml
-- filename: bendigo-and-adelaide-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-banking-account-balances-api-openapi.yml
+- filename: bendigo-and-adelaide-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Bendigo and Adelaide Bank CDR Direct Debits & Scheduled Payments API
-  slug: bendigo-and-adelaide-bank-cds-banking-direct-debits-api
+  label: Bendigo and Adelaide Bank Banking Account Direct Debits API
+  slug: bendigo-and-adelaide-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-cds-banking-products-openapi.yml
-- filename: bendigo-and-adelaide-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-banking-account-direct-debits-api-openapi.yml
+- filename: bendigo-and-adelaide-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Bendigo and Adelaide Bank CDR Payees API
-  slug: bendigo-and-adelaide-bank-cds-banking-payees-api
+  label: Bendigo and Adelaide Bank Banking Account Scheduled Payments API
+  slug: bendigo-and-adelaide-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-cds-banking-products-openapi.yml
-- filename: bendigo-and-adelaide-bank-up-developer-api-openapi.json
-  format: json
-  label: Up Developer API (Personal Banking)
-  slug: up-developer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-up-developer-api-openapi.json
-- filename: bendigo-and-adelaide-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: bendigo-and-adelaide-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Up Banking CDR Product Reference Data API
-  slug: up-cds-banking-products-api
+  label: Bendigo and Adelaide Bank Banking Account Transactions API
+  slug: bendigo-and-adelaide-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-cds-banking-products-openapi.yml
-- filename: bendigo-and-adelaide-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-banking-account-transactions-api-openapi.yml
+- filename: bendigo-and-adelaide-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: Adelaide Bank CDR Product Reference Data API
-  slug: adelaide-bank-cds-banking-products-api
+  label: Bendigo and Adelaide Bank Banking Accounts API
+  slug: bendigo-and-adelaide-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-banking-accounts-api-openapi.yml
+- filename: bendigo-and-adelaide-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: Bendigo and Adelaide Bank Banking Payees API
+  slug: bendigo-and-adelaide-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-banking-payees-api-openapi.yml
+- filename: bendigo-and-adelaide-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: Bendigo and Adelaide Bank Banking Products API
+  slug: bendigo-and-adelaide-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-banking-products-api-openapi.yml
+- filename: bendigo-and-adelaide-bank-categories-api-openapi.yml
+  format: yaml
+  label: Bendigo and Adelaide Bank Categories API
+  slug: bendigo-and-adelaide-bank-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-categories-api-openapi.yml
+- filename: bendigo-and-adelaide-bank-tags-api-openapi.yml
+  format: yaml
+  label: Bendigo and Adelaide Bank Tags API
+  slug: bendigo-and-adelaide-bank-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-tags-api-openapi.yml
+- filename: bendigo-and-adelaide-bank-transactions-api-openapi.yml
+  format: yaml
+  label: Bendigo and Adelaide Bank Transactions API
+  slug: bendigo-and-adelaide-bank-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-transactions-api-openapi.yml
+- filename: bendigo-and-adelaide-bank-utility-endpoints-api-openapi.yml
+  format: yaml
+  label: Bendigo and Adelaide Bank Utility endpoints API
+  slug: bendigo-and-adelaide-bank-utility-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-utility-endpoints-api-openapi.yml
+- filename: bendigo-and-adelaide-bank-webhooks-api-openapi.yml
+  format: yaml
+  label: Bendigo and Adelaide Bank Webhooks API
+  slug: bendigo-and-adelaide-bank-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-webhooks-api-openapi.yml
 auth_types:
 - none
 - openIdConnect

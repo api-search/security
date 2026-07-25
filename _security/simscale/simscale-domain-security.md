@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: simscale-openapi.yml
+- filename: simscale-geometry-api-openapi.yml
   format: yaml
-  label: SimScale REST API
-  slug: simscale-rest-api
+  label: SimScale Geometry API
+  slug: simscale-geometry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-geometry-api-openapi.yml
+- filename: simscale-mesh-operations-api-openapi.yml
+  format: yaml
+  label: SimScale Mesh Operations API
+  slug: simscale-mesh-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-mesh-operations-api-openapi.yml
+- filename: simscale-projects-api-openapi.yml
+  format: yaml
+  label: SimScale Projects API
+  slug: simscale-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-projects-api-openapi.yml
+- filename: simscale-reports-api-openapi.yml
+  format: yaml
+  label: SimScale Reports API
+  slug: simscale-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-reports-api-openapi.yml
+- filename: simscale-simulation-runs-api-openapi.yml
+  format: yaml
+  label: SimScale Simulation Runs API
+  slug: simscale-simulation-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-simulation-runs-api-openapi.yml
+- filename: simscale-simulations-api-openapi.yml
+  format: yaml
+  label: SimScale Simulations API
+  slug: simscale-simulations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-simulations-api-openapi.yml
+- filename: simscale-storage-api-openapi.yml
+  format: yaml
+  label: SimScale Storage API
+  slug: simscale-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-storage-api-openapi.yml
 description: ''
 domains:
 - caa:

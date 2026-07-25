@@ -6,6 +6,60 @@ api_specs:
   slug: api-v3
   spec_type: Postman
   url: https://www.postman.com/acdevrel/activecampaign-developer-relations/collection/ju5a59q/activecampaign-api-v3
+- filename: active-campaign-broadcasts-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign Broadcasts API
+  slug: active-campaign-broadcasts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/active-campaign/refs/heads/main/openapi/active-campaign-broadcasts-api-openapi.yml
+- filename: active-campaign-bulk-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign Bulk API
+  slug: active-campaign-bulk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/active-campaign/refs/heads/main/openapi/active-campaign-bulk-api-openapi.yml
+- filename: active-campaign-campaigns-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign Campaigns API
+  slug: active-campaign-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/active-campaign/refs/heads/main/openapi/active-campaign-campaigns-api-openapi.yml
+- filename: active-campaign-contacts-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign Contacts API
+  slug: active-campaign-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/active-campaign/refs/heads/main/openapi/active-campaign-contacts-api-openapi.yml
+- filename: active-campaign-custom-fields-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign Custom Fields API
+  slug: active-campaign-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/active-campaign/refs/heads/main/openapi/active-campaign-custom-fields-api-openapi.yml
+- filename: active-campaign-deals-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign Deals API
+  slug: active-campaign-deals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/active-campaign/refs/heads/main/openapi/active-campaign-deals-api-openapi.yml
+- filename: active-campaign-lists-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign Lists API
+  slug: active-campaign-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/active-campaign/refs/heads/main/openapi/active-campaign-lists-api-openapi.yml
+- filename: active-campaign-segments-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign Segments API
+  slug: active-campaign-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/active-campaign/refs/heads/main/openapi/active-campaign-segments-api-openapi.yml
+- filename: active-campaign-variables-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign Variables API
+  slug: active-campaign-variables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/active-campaign/refs/heads/main/openapi/active-campaign-variables-api-openapi.yml
 description: ''
 domains:
 - caa: []

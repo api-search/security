@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: lemlist-openapi.yml
+- filename: lemlist-campaigns-api-openapi.yml
   format: yaml
-  label: lemlist REST API
-  slug: rest-api
+  label: lemlist Campaigns API
+  slug: lemlist-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-campaigns-api-openapi.yml
+- filename: lemlist-team-api-openapi.yml
+  format: yaml
+  label: lemlist Team API
+  slug: lemlist-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-team-api-openapi.yml
+- filename: lemlist-users-api-openapi.yml
+  format: yaml
+  label: lemlist Users API
+  slug: lemlist-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-users-api-openapi.yml
 auth_types:
 - http
 description: ''

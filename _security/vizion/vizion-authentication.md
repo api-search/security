@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: vizion-container-tracking-openapi.yml
+- filename: vizion-references-api-openapi.yml
   format: yaml
-  label: Vizion Container Tracking API
-  slug: container-tracking-api
+  label: Vizion References API
+  slug: vizion-references-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vizion/refs/heads/main/openapi/vizion-container-tracking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vizion/refs/heads/main/openapi/vizion-references-api-openapi.yml
+- filename: vizion-updates-api-openapi.yml
+  format: yaml
+  label: Vizion Updates API
+  slug: vizion-updates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vizion/refs/heads/main/openapi/vizion-updates-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

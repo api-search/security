@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: amazon-elastic-beanstalk-openapi.yml
+- filename: amazon-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml
   format: yaml
-  label: AWS Elastic Beanstalk API
-  slug: aws-elastic-beanstalk-api
+  label: Amazon Elastic Beanstalk Amazon Elastic Beanstalk AWS Elastic Beanstalk API API
+  slug: amazon-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-beanstalk/refs/heads/main/openapi/amazon-elastic-beanstalk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-beanstalk/refs/heads/main/openapi/amazon-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml
+- filename: amazon-elastic-beanstalk-createenvironment-api-openapi.yml
+  format: yaml
+  label: 'Amazon Elastic Beanstalk #CreateEnvironment API'
+  slug: amazon-elastic-beanstalk-createenvironment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-beanstalk/refs/heads/main/openapi/amazon-elastic-beanstalk-createenvironment-api-openapi.yml
+- filename: amazon-elastic-beanstalk-describeenvironments-api-openapi.yml
+  format: yaml
+  label: 'Amazon Elastic Beanstalk #DescribeEnvironments API'
+  slug: amazon-elastic-beanstalk-describeenvironments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-beanstalk/refs/heads/main/openapi/amazon-elastic-beanstalk-describeenvironments-api-openapi.yml
+- filename: amazon-elastic-beanstalk-updateenvironment-api-openapi.yml
+  format: yaml
+  label: 'Amazon Elastic Beanstalk #UpdateEnvironment API'
+  slug: amazon-elastic-beanstalk-updateenvironment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-beanstalk/refs/heads/main/openapi/amazon-elastic-beanstalk-updateenvironment-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

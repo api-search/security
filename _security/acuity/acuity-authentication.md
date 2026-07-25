@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: llms.txt
+- filename: acuity-appointments-api-openapi.yml
   format: yaml
-  label: Acuity Scheduling API
-  slug: acuity-scheduling-api
+  label: Acuity Scheduling Appointments API
+  slug: acuity-appointments-api
   spec_type: OpenAPI
-  url: https://developers.acuityscheduling.com/llms.txt
+  url: https://raw.githubusercontent.com/api-evangelist/acuity/refs/heads/main/openapi/acuity-appointments-api-openapi.yml
+- filename: acuity-meta-api-openapi.yml
+  format: yaml
+  label: Acuity Scheduling Meta API
+  slug: acuity-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acuity/refs/heads/main/openapi/acuity-meta-api-openapi.yml
+- filename: acuity-payments-api-openapi.yml
+  format: yaml
+  label: Acuity Scheduling Payments API
+  slug: acuity-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acuity/refs/heads/main/openapi/acuity-payments-api-openapi.yml
 auth_types:
 - http
 - oauth2

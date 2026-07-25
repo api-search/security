@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: earnipay-e-invoicing-openapi-original.json
-  format: json
-  label: Earnipay Invoicing API
-  slug: earnipay-invoicing-api
+- filename: earnipay-app-api-openapi.yml
+  format: yaml
+  label: Earnipay App API
+  slug: earnipay-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-e-invoicing-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-app-api-openapi.yml
+- filename: earnipay-app-provider-api-openapi.yml
+  format: yaml
+  label: Earnipay APP Provider API
+  slug: earnipay-app-provider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-app-provider-api-openapi.yml
+- filename: earnipay-authentication-api-openapi.yml
+  format: yaml
+  label: Earnipay Authentication API
+  slug: earnipay-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-authentication-api-openapi.yml
+- filename: earnipay-bank-api-openapi.yml
+  format: yaml
+  label: Earnipay Bank API
+  slug: earnipay-bank-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-bank-api-openapi.yml
+- filename: earnipay-business-api-openapi.yml
+  format: yaml
+  label: Earnipay Business API
+  slug: earnipay-business-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-business-api-openapi.yml
+- filename: earnipay-customers-api-openapi.yml
+  format: yaml
+  label: Earnipay Customers API
+  slug: earnipay-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-customers-api-openapi.yml
+- filename: earnipay-invoices-api-openapi.yml
+  format: yaml
+  label: Earnipay Invoices API
+  slug: earnipay-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-invoices-api-openapi.yml
+- filename: earnipay-irn-generator-api-openapi.yml
+  format: yaml
+  label: Earnipay IRN Generator API
+  slug: earnipay-irn-generator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-irn-generator-api-openapi.yml
+- filename: earnipay-payment-details-api-openapi.yml
+  format: yaml
+  label: Earnipay Payment Details API
+  slug: earnipay-payment-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-payment-details-api-openapi.yml
+- filename: earnipay-products-api-openapi.yml
+  format: yaml
+  label: Earnipay Products API
+  slug: earnipay-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-products-api-openapi.yml
+- filename: earnipay-qr-code-generator-api-openapi.yml
+  format: yaml
+  label: Earnipay QR Code Generator API
+  slug: earnipay-qr-code-generator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-qr-code-generator-api-openapi.yml
+- filename: earnipay-team-api-openapi.yml
+  format: yaml
+  label: Earnipay Team API
+  slug: earnipay-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-team-api-openapi.yml
+- filename: earnipay-users-api-openapi.yml
+  format: yaml
+  label: Earnipay Users API
+  slug: earnipay-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

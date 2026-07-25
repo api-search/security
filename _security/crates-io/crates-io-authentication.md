@@ -2,18 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: crates-io-web-api-openapi.yml
+- filename: crates-io-config-api-openapi.yml
   format: yaml
-  label: crates.io Web API
-  slug: crates-io-web-api
+  label: crates.io Config API
+  slug: crates-io-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crates-io/refs/heads/main/openapi/crates-io-web-api-openapi.yml
-- filename: crates-io-sparse-index-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/crates-io/refs/heads/main/openapi/crates-io-config-api-openapi.yml
+- filename: crates-io-crates-api-openapi.yml
   format: yaml
-  label: crates.io Sparse Index
-  slug: crates-io-sparse-index
+  label: crates.io Crates API
+  slug: crates-io-crates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crates-io/refs/heads/main/openapi/crates-io-sparse-index-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/crates-io/refs/heads/main/openapi/crates-io-crates-api-openapi.yml
+- filename: crates-io-index-api-openapi.yml
+  format: yaml
+  label: crates.io Index API
+  slug: crates-io-index-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crates-io/refs/heads/main/openapi/crates-io-index-api-openapi.yml
+- filename: crates-io-owners-api-openapi.yml
+  format: yaml
+  label: crates.io Owners API
+  slug: crates-io-owners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crates-io/refs/heads/main/openapi/crates-io-owners-api-openapi.yml
+- filename: crates-io-versions-api-openapi.yml
+  format: yaml
+  label: crates.io Versions API
+  slug: crates-io-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crates-io/refs/heads/main/openapi/crates-io-versions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

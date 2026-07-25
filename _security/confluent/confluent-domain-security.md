@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: confluent-openapi.yml
+- filename: confluent-acls-api-openapi.yml
   format: yaml
-  label: Confluent
-  slug: confluent
+  label: Confluent ACLs API
+  slug: confluent-acls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-acls-api-openapi.yml
+- filename: confluent-api-keys-api-openapi.yml
+  format: yaml
+  label: Confluent API Keys API
+  slug: confluent-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-api-keys-api-openapi.yml
+- filename: confluent-clusters-api-openapi.yml
+  format: yaml
+  label: Confluent Clusters API
+  slug: confluent-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-clusters-api-openapi.yml
+- filename: confluent-consumer-groups-api-openapi.yml
+  format: yaml
+  label: Confluent Consumer Groups API
+  slug: confluent-consumer-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-consumer-groups-api-openapi.yml
+- filename: confluent-environments-api-openapi.yml
+  format: yaml
+  label: Confluent Environments API
+  slug: confluent-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-environments-api-openapi.yml
+- filename: confluent-partitions-api-openapi.yml
+  format: yaml
+  label: Confluent Partitions API
+  slug: confluent-partitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-partitions-api-openapi.yml
+- filename: confluent-service-accounts-api-openapi.yml
+  format: yaml
+  label: Confluent Service Accounts API
+  slug: confluent-service-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-service-accounts-api-openapi.yml
+- filename: confluent-topics-api-openapi.yml
+  format: yaml
+  label: Confluent Topics API
+  slug: confluent-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-topics-api-openapi.yml
 description: ''
 domains:
 - caa: []

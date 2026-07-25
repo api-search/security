@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: procuros-openapi-original.yml
+- filename: procuros-all-transactions-api-openapi.yml
   format: yaml
-  label: Procuros API v2
-  slug: procuros-api-v2
+  label: Procuros All Transactions API
+  slug: procuros-all-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/openapi/procuros-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/openapi/procuros-all-transactions-api-openapi.yml
+- filename: procuros-incoming-transactions-api-openapi.yml
+  format: yaml
+  label: Procuros Incoming Transactions API
+  slug: procuros-incoming-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/openapi/procuros-incoming-transactions-api-openapi.yml
+- filename: procuros-misc-api-openapi.yml
+  format: yaml
+  label: Procuros Misc API
+  slug: procuros-misc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/openapi/procuros-misc-api-openapi.yml
+- filename: procuros-outgoing-transactions-api-openapi.yml
+  format: yaml
+  label: Procuros Outgoing Transactions API
+  slug: procuros-outgoing-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/openapi/procuros-outgoing-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

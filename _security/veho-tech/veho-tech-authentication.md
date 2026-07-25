@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: veho-tech-api-openapi-original.yml
+- filename: veho-tech-labels-api-openapi.yml
   format: yaml
-  label: Veho API
-  slug: veho-api
+  label: Veho Tech labels API
+  slug: veho-tech-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veho-tech/refs/heads/main/openapi/veho-tech-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/veho-tech/refs/heads/main/openapi/veho-tech-labels-api-openapi.yml
+- filename: veho-tech-manifests-api-openapi.yml
+  format: yaml
+  label: Veho Tech manifests API
+  slug: veho-tech-manifests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veho-tech/refs/heads/main/openapi/veho-tech-manifests-api-openapi.yml
+- filename: veho-tech-merchants-api-openapi.yml
+  format: yaml
+  label: Veho Tech merchants API
+  slug: veho-tech-merchants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veho-tech/refs/heads/main/openapi/veho-tech-merchants-api-openapi.yml
+- filename: veho-tech-orders-api-openapi.yml
+  format: yaml
+  label: Veho Tech orders API
+  slug: veho-tech-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veho-tech/refs/heads/main/openapi/veho-tech-orders-api-openapi.yml
+- filename: veho-tech-packages-api-openapi.yml
+  format: yaml
+  label: Veho Tech packages API
+  slug: veho-tech-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veho-tech/refs/heads/main/openapi/veho-tech-packages-api-openapi.yml
+- filename: veho-tech-quotes-api-openapi.yml
+  format: yaml
+  label: Veho Tech quotes API
+  slug: veho-tech-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veho-tech/refs/heads/main/openapi/veho-tech-quotes-api-openapi.yml
+- filename: veho-tech-webhooks-api-openapi.yml
+  format: yaml
+  label: Veho Tech webhooks API
+  slug: veho-tech-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veho-tech/refs/heads/main/openapi/veho-tech-webhooks-api-openapi.yml
+- filename: veho-tech-zips-api-openapi.yml
+  format: yaml
+  label: Veho Tech zips API
+  slug: veho-tech-zips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veho-tech/refs/heads/main/openapi/veho-tech-zips-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

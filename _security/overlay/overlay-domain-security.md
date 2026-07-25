@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: overlay-openapi.yml
+- filename: overlay-aggregator-api-openapi.yml
   format: yaml
-  label: Overlay Market Data API
-  slug: overlay-market-data-api
+  label: Overlay Aggregator API
+  slug: overlay-aggregator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/openapi/overlay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/openapi/overlay-aggregator-api-openapi.yml
+- filename: overlay-charts-api-openapi.yml
+  format: yaml
+  label: Overlay Charts API
+  slug: overlay-charts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/openapi/overlay-charts-api-openapi.yml
+- filename: overlay-markets-api-openapi.yml
+  format: yaml
+  label: Overlay Markets API
+  slug: overlay-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/openapi/overlay-markets-api-openapi.yml
 description: ''
 domains:
 - caa: []

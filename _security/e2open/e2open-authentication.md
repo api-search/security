@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: inttra-ocean-execution-openapi.yml
+- filename: e2open-bookings-api-openapi.yml
   format: yaml
-  label: INTTRA Ocean Execution API
-  slug: inttra-ocean-api
+  label: e2open Bookings API
+  slug: e2open-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/openapi/inttra-ocean-execution-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/openapi/e2open-bookings-api-openapi.yml
+- filename: e2open-schedules-api-openapi.yml
+  format: yaml
+  label: e2open Schedules API
+  slug: e2open-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/openapi/e2open-schedules-api-openapi.yml
+- filename: e2open-shipping-instructions-api-openapi.yml
+  format: yaml
+  label: e2open Shipping Instructions API
+  slug: e2open-shipping-instructions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/openapi/e2open-shipping-instructions-api-openapi.yml
+- filename: e2open-tracking-api-openapi.yml
+  format: yaml
+  label: e2open Tracking API
+  slug: e2open-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/openapi/e2open-tracking-api-openapi.yml
 auth_types:
 - http
 description: ''

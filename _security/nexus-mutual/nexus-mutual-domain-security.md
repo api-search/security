@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: nexus-mutual-capacity-api-openapi.yml
   format: yaml
-  label: Nexus Mutual Cover Router API
-  slug: nexus-mutual-cover-router-api
+  label: Nexus Mutual Capacity API
+  slug: nexus-mutual-capacity-api
   spec_type: OpenAPI
-  url: https://api.nexusmutual.io/v2/api/docs/
+  url: https://raw.githubusercontent.com/api-evangelist/nexus-mutual/refs/heads/main/openapi/nexus-mutual-capacity-api-openapi.yml
+- filename: nexus-mutual-pricing-api-openapi.yml
+  format: yaml
+  label: Nexus Mutual Pricing API
+  slug: nexus-mutual-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexus-mutual/refs/heads/main/openapi/nexus-mutual-pricing-api-openapi.yml
+- filename: nexus-mutual-quote-api-openapi.yml
+  format: yaml
+  label: Nexus Mutual Quote API
+  slug: nexus-mutual-quote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexus-mutual/refs/heads/main/openapi/nexus-mutual-quote-api-openapi.yml
 description: ''
 domains:
 - caa: []

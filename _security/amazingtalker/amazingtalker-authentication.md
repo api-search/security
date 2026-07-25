@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: amazingtalker-find-tutors-openapi.yml
+- filename: amazingtalker-pages-api-openapi.yml
   format: yaml
-  label: AmazingTalker Find Tutors
-  slug: amazingtalker-find-tutors
+  label: AmazingTalker Pages API
+  slug: amazingtalker-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazingtalker/refs/heads/main/openapi/amazingtalker-find-tutors-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazingtalker/refs/heads/main/openapi/amazingtalker-pages-api-openapi.yml
 auth_types:
 - none
 description: ''

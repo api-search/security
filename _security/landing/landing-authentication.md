@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: landing-public-openapi.json
-  format: json
+- filename: landing-public-api-openapi.yml
+  format: yaml
   label: Landing Public API
-  slug: public-api
+  slug: landing-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/openapi/landing-public-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/openapi/landing-public-api-openapi.yml
 auth_types:
 - none
 description: ''

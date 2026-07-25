@@ -2,24 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: gallop-data-openapi.json
-  format: json
-  label: Gallop Data API
-  slug: gallop-data-api
+- filename: gallop-ethereum-api-openapi.yml
+  format: yaml
+  label: Gallop Ethereum API
+  slug: gallop-ethereum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gallop/refs/heads/main/openapi/gallop-data-openapi.json
-- filename: gallop-analytics-openapi.json
-  format: json
-  label: Gallop Analytics API
-  slug: gallop-analytics-api
+  url: https://raw.githubusercontent.com/api-evangelist/gallop/refs/heads/main/openapi/gallop-ethereum-api-openapi.yml
+- filename: gallop-polygon-api-openapi.yml
+  format: yaml
+  label: Gallop Polygon API
+  slug: gallop-polygon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gallop/refs/heads/main/openapi/gallop-analytics-openapi.json
-- filename: gallop-insights-openapi.json
-  format: json
-  label: Gallop Insights API
-  slug: gallop-insights-api
+  url: https://raw.githubusercontent.com/api-evangelist/gallop/refs/heads/main/openapi/gallop-polygon-api-openapi.yml
+- filename: gallop-solana-api-openapi.yml
+  format: yaml
+  label: Gallop Solana API
+  slug: gallop-solana-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gallop/refs/heads/main/openapi/gallop-insights-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/gallop/refs/heads/main/openapi/gallop-solana-api-openapi.yml
+- filename: gallop-starknet-api-openapi.yml
+  format: yaml
+  label: Gallop Starknet API
+  slug: gallop-starknet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gallop/refs/heads/main/openapi/gallop-starknet-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

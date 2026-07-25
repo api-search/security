@@ -1,12 +1,6 @@
 ---
 api_key_in: []
 api_specs:
-- filename: losant-auth-api-openapi.yml
-  format: yaml
-  label: Losant Authentication And Account API
-  slug: losant-auth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/openapi/losant-auth-api-openapi.yml
 - filename: losant-application-api-openapi.yml
   format: yaml
   label: Losant Application API
@@ -19,42 +13,48 @@ api_specs:
   slug: losant-device-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/openapi/losant-device-api-openapi.yml
-- filename: losant-data-api-openapi.yml
-  format: yaml
-  label: Losant Data And Data Tables API
-  slug: losant-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/openapi/losant-data-api-openapi.yml
-- filename: losant-workflow-api-openapi.yml
-  format: yaml
-  label: Losant Workflow Engine API
-  slug: losant-workflow-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/openapi/losant-workflow-api-openapi.yml
-- filename: losant-edge-api-openapi.yml
-  format: yaml
-  label: Losant Edge And Embedded Compute API
-  slug: losant-edge-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/openapi/losant-edge-api-openapi.yml
 - filename: losant-experience-api-openapi.yml
   format: yaml
   label: Losant Experience API
   slug: losant-experience-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/openapi/losant-experience-api-openapi.yml
-- filename: losant-notebook-api-openapi.yml
+- filename: losant-authentication-and-account-api-openapi.yml
   format: yaml
-  label: Losant Notebooks API
-  slug: losant-notebook-api
+  label: Losant Authentication and Account API
+  slug: losant-authentication-and-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/openapi/losant-notebook-api-openapi.yml
-- filename: losant-instance-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/openapi/losant-authentication-and-account-api-openapi.yml
+- filename: losant-data-and-data-tables-api-openapi.yml
+  format: yaml
+  label: Losant Data and Data Tables API
+  slug: losant-data-and-data-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/openapi/losant-data-and-data-tables-api-openapi.yml
+- filename: losant-edge-and-embedded-compute-api-openapi.yml
+  format: yaml
+  label: Losant Edge and Embedded Compute API
+  slug: losant-edge-and-embedded-compute-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/openapi/losant-edge-and-embedded-compute-api-openapi.yml
+- filename: losant-enterprise-instance-api-openapi.yml
   format: yaml
   label: Losant Enterprise Instance API
-  slug: losant-instance-api
+  slug: losant-enterprise-instance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/openapi/losant-instance-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/openapi/losant-enterprise-instance-api-openapi.yml
+- filename: losant-notebooks-api-openapi.yml
+  format: yaml
+  label: Losant Notebooks API
+  slug: losant-notebooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/openapi/losant-notebooks-api-openapi.yml
+- filename: losant-workflow-engine-api-openapi.yml
+  format: yaml
+  label: Losant Workflow Engine API
+  slug: losant-workflow-engine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/openapi/losant-workflow-engine-api-openapi.yml
 auth_types:
 - http
 description: ''

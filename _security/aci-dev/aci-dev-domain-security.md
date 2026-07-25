@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: aci-dev-openapi.yml
+- filename: aci-dev-app-configurations-api-openapi.yml
   format: yaml
-  label: ACI.dev Apps API
-  slug: aci-dev-apps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/openapi/aci-dev-openapi.yml
-- filename: aci-dev-openapi.yml
-  format: yaml
-  label: ACI.dev Functions API
-  slug: aci-dev-functions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/openapi/aci-dev-openapi.yml
-- filename: aci-dev-openapi.yml
-  format: yaml
-  label: ACI.dev App Configurations API
+  label: ACI.dev app-configurations API
   slug: aci-dev-app-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/openapi/aci-dev-openapi.yml
-- filename: aci-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/openapi/aci-dev-app-configurations-api-openapi.yml
+- filename: aci-dev-apps-api-openapi.yml
   format: yaml
-  label: ACI.dev Linked Accounts API
+  label: ACI.dev apps API
+  slug: aci-dev-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/openapi/aci-dev-apps-api-openapi.yml
+- filename: aci-dev-functions-api-openapi.yml
+  format: yaml
+  label: ACI.dev functions API
+  slug: aci-dev-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/openapi/aci-dev-functions-api-openapi.yml
+- filename: aci-dev-linked-accounts-api-openapi.yml
+  format: yaml
+  label: ACI.dev linked-accounts API
   slug: aci-dev-linked-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/openapi/aci-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/openapi/aci-dev-linked-accounts-api-openapi.yml
 description: ''
 domains:
 - caa: []

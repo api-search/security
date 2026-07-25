@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: google-search-console-api-openapi.yml
+- filename: google-search-console-search-analytics-api-openapi.yml
   format: yaml
-  label: Google Search Console API
-  slug: google-search-console-api
+  label: Google Search Console Search Analytics API
+  slug: google-search-console-search-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-search-analytics-api-openapi.yml
+- filename: google-search-console-sitemaps-api-openapi.yml
+  format: yaml
+  label: Google Search Console Sitemaps API
+  slug: google-search-console-sitemaps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-sitemaps-api-openapi.yml
+- filename: google-search-console-sites-api-openapi.yml
+  format: yaml
+  label: Google Search Console Sites API
+  slug: google-search-console-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-sites-api-openapi.yml
+- filename: google-search-console-url-inspection-api-openapi.yml
+  format: yaml
+  label: Google Search Console URL Inspection API
+  slug: google-search-console-url-inspection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-url-inspection-api-openapi.yml
 description: ''
 domains:
 - caa:

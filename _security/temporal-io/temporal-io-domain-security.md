@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: temporal-io-openapi.yml
+- filename: temporal-io-cluster-api-openapi.yml
   format: yaml
-  label: Temporal Workflow Service API
-  slug: temporal-io-workflow-service-api
+  label: Temporal Cluster API
+  slug: temporal-io-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temporal-io/refs/heads/main/openapi/temporal-io-openapi.yml
-- filename: temporal-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/temporal-io/refs/heads/main/openapi/temporal-io-cluster-api-openapi.yml
+- filename: temporal-io-namespaces-api-openapi.yml
   format: yaml
-  label: Temporal HTTP API
-  slug: temporal-io-http-api
+  label: Temporal Namespaces API
+  slug: temporal-io-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temporal-io/refs/heads/main/openapi/temporal-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/temporal-io/refs/heads/main/openapi/temporal-io-namespaces-api-openapi.yml
+- filename: temporal-io-workflow-lifecycle-api-openapi.yml
+  format: yaml
+  label: Temporal Workflow Lifecycle API
+  slug: temporal-io-workflow-lifecycle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temporal-io/refs/heads/main/openapi/temporal-io-workflow-lifecycle-api-openapi.yml
+- filename: temporal-io-workflow-messaging-api-openapi.yml
+  format: yaml
+  label: Temporal Workflow Messaging API
+  slug: temporal-io-workflow-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temporal-io/refs/heads/main/openapi/temporal-io-workflow-messaging-api-openapi.yml
+- filename: temporal-io-workflows-api-openapi.yml
+  format: yaml
+  label: Temporal Workflows API
+  slug: temporal-io-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temporal-io/refs/heads/main/openapi/temporal-io-workflows-api-openapi.yml
 description: ''
 domains:
 - caa:

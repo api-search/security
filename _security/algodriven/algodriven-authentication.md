@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: algodriven-vehicle-history-openapi.yml
+- filename: algodriven-vehicle-history-report-api-openapi.yml
   format: yaml
-  label: Vehicle History Report - UAE
-  slug: vehicle-history-report-uae
+  label: AlgoDriven Vehicle History Report API
+  slug: algodriven-vehicle-history-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algodriven/refs/heads/main/openapi/algodriven-vehicle-history-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/algodriven/refs/heads/main/openapi/algodriven-vehicle-history-report-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

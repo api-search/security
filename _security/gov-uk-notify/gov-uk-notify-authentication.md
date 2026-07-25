@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yml
+- filename: gov-uk-notify-notifications-api-openapi.yml
   format: yaml
   label: GOV.UK Notify Notifications API
-  slug: notifications-api
+  slug: gov-uk-notify-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/openapi/gov-uk-notify-notifications-api-openapi.yml
+- filename: gov-uk-notify-received-text-messages-api-openapi.yml
+  format: yaml
+  label: GOV.UK Notify Received Text Messages API
+  slug: gov-uk-notify-received-text-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/openapi/gov-uk-notify-received-text-messages-api-openapi.yml
+- filename: gov-uk-notify-templates-api-openapi.yml
+  format: yaml
+  label: GOV.UK Notify Templates API
+  slug: gov-uk-notify-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/openapi/gov-uk-notify-templates-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: mono-africa-openapi.yml
+- filename: mono-africa-connect-api-openapi.yml
   format: yaml
   label: Mono Connect API
   slug: mono-africa-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-africa/refs/heads/main/openapi/mono-africa-openapi.yml
-- filename: mono-africa-openapi.yml
-  format: yaml
-  label: Mono Financial Data API
-  slug: mono-africa-financial-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-africa/refs/heads/main/openapi/mono-africa-openapi.yml
-- filename: mono-africa-openapi.yml
-  format: yaml
-  label: Mono Investment Data API
-  slug: mono-africa-investment-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-africa/refs/heads/main/openapi/mono-africa-openapi.yml
-- filename: mono-africa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mono-africa/refs/heads/main/openapi/mono-africa-connect-api-openapi.yml
+- filename: mono-africa-creditworthiness-api-openapi.yml
   format: yaml
   label: Mono Creditworthiness API
   slug: mono-africa-creditworthiness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-africa/refs/heads/main/openapi/mono-africa-openapi.yml
-- filename: mono-africa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mono-africa/refs/heads/main/openapi/mono-africa-creditworthiness-api-openapi.yml
+- filename: mono-africa-directpay-api-openapi.yml
   format: yaml
   label: Mono DirectPay API
   slug: mono-africa-directpay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-africa/refs/heads/main/openapi/mono-africa-openapi.yml
-- filename: mono-africa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mono-africa/refs/heads/main/openapi/mono-africa-directpay-api-openapi.yml
+- filename: mono-africa-financial-data-api-openapi.yml
+  format: yaml
+  label: Mono Financial Data API
+  slug: mono-africa-financial-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mono-africa/refs/heads/main/openapi/mono-africa-financial-data-api-openapi.yml
+- filename: mono-africa-investment-api-openapi.yml
+  format: yaml
+  label: Mono Investment API
+  slug: mono-africa-investment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mono-africa/refs/heads/main/openapi/mono-africa-investment-api-openapi.yml
+- filename: mono-africa-lookup-api-openapi.yml
   format: yaml
   label: Mono Lookup API
   slug: mono-africa-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-africa/refs/heads/main/openapi/mono-africa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mono-africa/refs/heads/main/openapi/mono-africa-lookup-api-openapi.yml
 description: ''
 domains:
 - caa: []

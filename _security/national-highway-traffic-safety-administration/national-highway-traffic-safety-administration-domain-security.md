@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: national-highway-traffic-safety-administration-openapi.yml
+- filename: national-highway-traffic-safety-administration-equipment-api-openapi.yml
   format: yaml
-  label: NHTSA vPIC Vehicle API
-  slug: vehicle-api
+  label: National Highway Traffic Safety Administration Equipment API
+  slug: national-highway-traffic-safety-administration-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-highway-traffic-safety-administration/refs/heads/main/openapi/national-highway-traffic-safety-administration-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/national-highway-traffic-safety-administration/refs/heads/main/openapi/national-highway-traffic-safety-administration-equipment-api-openapi.yml
+- filename: national-highway-traffic-safety-administration-makes-and-models-api-openapi.yml
+  format: yaml
+  label: National Highway Traffic Safety Administration Makes and Models API
+  slug: national-highway-traffic-safety-administration-makes-and-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-highway-traffic-safety-administration/refs/heads/main/openapi/national-highway-traffic-safety-administration-makes-and-models-api-openapi.yml
+- filename: national-highway-traffic-safety-administration-manufacturers-api-openapi.yml
+  format: yaml
+  label: National Highway Traffic Safety Administration Manufacturers API
+  slug: national-highway-traffic-safety-administration-manufacturers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-highway-traffic-safety-administration/refs/heads/main/openapi/national-highway-traffic-safety-administration-manufacturers-api-openapi.yml
+- filename: national-highway-traffic-safety-administration-reference-api-openapi.yml
+  format: yaml
+  label: National Highway Traffic Safety Administration Reference API
+  slug: national-highway-traffic-safety-administration-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-highway-traffic-safety-administration/refs/heads/main/openapi/national-highway-traffic-safety-administration-reference-api-openapi.yml
+- filename: national-highway-traffic-safety-administration-vehicle-types-api-openapi.yml
+  format: yaml
+  label: National Highway Traffic Safety Administration Vehicle Types API
+  slug: national-highway-traffic-safety-administration-vehicle-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-highway-traffic-safety-administration/refs/heads/main/openapi/national-highway-traffic-safety-administration-vehicle-types-api-openapi.yml
+- filename: national-highway-traffic-safety-administration-vin-decoding-api-openapi.yml
+  format: yaml
+  label: National Highway Traffic Safety Administration VIN Decoding API
+  slug: national-highway-traffic-safety-administration-vin-decoding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-highway-traffic-safety-administration/refs/heads/main/openapi/national-highway-traffic-safety-administration-vin-decoding-api-openapi.yml
 description: ''
 domains:
 - caa: []

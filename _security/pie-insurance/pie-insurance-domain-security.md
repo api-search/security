@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: swagger.json
-  format: json
-  label: Pie Insurance Partner API
-  slug: pie-insurance-partner-api
+- filename: pie-insurance-appetite-api-openapi.yml
+  format: yaml
+  label: Pie Insurance Appetite API
+  slug: pie-insurance-appetite-api
   spec_type: OpenAPI
-  url: https://api.post-prod.pieinsurance.com/api/docs/v1/swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-appetite-api-openapi.yml
+- filename: pie-insurance-classcodesearch-api-openapi.yml
+  format: yaml
+  label: Pie Insurance ClassCodeSearch API
+  slug: pie-insurance-classcodesearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-classcodesearch-api-openapi.yml
+- filename: pie-insurance-eligibility-api-openapi.yml
+  format: yaml
+  label: Pie Insurance Eligibility API
+  slug: pie-insurance-eligibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-eligibility-api-openapi.yml
+- filename: pie-insurance-priceindication-api-openapi.yml
+  format: yaml
+  label: Pie Insurance PriceIndication API
+  slug: pie-insurance-priceindication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-priceindication-api-openapi.yml
+- filename: pie-insurance-quotedocument-api-openapi.yml
+  format: yaml
+  label: Pie Insurance QuoteDocument API
+  slug: pie-insurance-quotedocument-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-quotedocument-api-openapi.yml
+- filename: pie-insurance-quotepdf-api-openapi.yml
+  format: yaml
+  label: Pie Insurance QuotePdf API
+  slug: pie-insurance-quotepdf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-quotepdf-api-openapi.yml
+- filename: pie-insurance-quotes-api-openapi.yml
+  format: yaml
+  label: Pie Insurance Quotes API
+  slug: pie-insurance-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-quotes-api-openapi.yml
 description: ''
 domains:
 - caa:

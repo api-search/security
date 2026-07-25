@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: pokeapi-openapi.yml
+- filename: pokeapi-berries-api-openapi.yml
   format: yaml
-  label: PokéAPI REST API v2
-  slug: pokeapi-rest
+  label: PokéAPI Berries API
+  slug: pokeapi-berries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-berries-api-openapi.yml
+- filename: pokeapi-contests-api-openapi.yml
+  format: yaml
+  label: PokéAPI Contests API
+  slug: pokeapi-contests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-contests-api-openapi.yml
+- filename: pokeapi-encounters-api-openapi.yml
+  format: yaml
+  label: PokéAPI Encounters API
+  slug: pokeapi-encounters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-encounters-api-openapi.yml
+- filename: pokeapi-evolution-api-openapi.yml
+  format: yaml
+  label: PokéAPI Evolution API
+  slug: pokeapi-evolution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-evolution-api-openapi.yml
+- filename: pokeapi-games-api-openapi.yml
+  format: yaml
+  label: PokéAPI Games API
+  slug: pokeapi-games-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-games-api-openapi.yml
+- filename: pokeapi-items-api-openapi.yml
+  format: yaml
+  label: PokéAPI Items API
+  slug: pokeapi-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-items-api-openapi.yml
+- filename: pokeapi-locations-api-openapi.yml
+  format: yaml
+  label: PokéAPI Locations API
+  slug: pokeapi-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-locations-api-openapi.yml
+- filename: pokeapi-machines-api-openapi.yml
+  format: yaml
+  label: PokéAPI Machines API
+  slug: pokeapi-machines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-machines-api-openapi.yml
+- filename: pokeapi-moves-api-openapi.yml
+  format: yaml
+  label: PokéAPI Moves API
+  slug: pokeapi-moves-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-moves-api-openapi.yml
+- filename: pokeapi-pok-mon-api-openapi.yml
+  format: yaml
+  label: PokéAPI Pokémon API
+  slug: pokeapi-pok-mon-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-pok-mon-api-openapi.yml
+- filename: pokeapi-utility-api-openapi.yml
+  format: yaml
+  label: PokéAPI Utility API
+  slug: pokeapi-utility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-utility-api-openapi.yml
 description: ''
 domains:
 - caa: []

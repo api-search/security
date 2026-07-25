@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-transcribe-openapi.yml
+- filename: amazon-transcribe-transcription-jobs-api-openapi.yml
   format: yaml
-  label: Amazon Transcribe REST API
-  slug: amazon-transcribe-rest-api
+  label: Amazon Transcribe Transcription Jobs API
+  slug: amazon-transcribe-transcription-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/openapi/amazon-transcribe-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/openapi/amazon-transcribe-transcription-jobs-api-openapi.yml
+- filename: amazon-transcribe-vocabularies-api-openapi.yml
+  format: yaml
+  label: Amazon Transcribe Vocabularies API
+  slug: amazon-transcribe-vocabularies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/openapi/amazon-transcribe-vocabularies-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

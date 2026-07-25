@@ -1,6 +1,67 @@
 ---
 api_key_in:
 - header
+api_specs:
+- filename: mostly-ai-about-api-openapi.yml
+  format: yaml
+  label: MOSTLY AI About API
+  slug: mostly-ai-about-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-about-api-openapi.yml
+- filename: mostly-ai-computes-api-openapi.yml
+  format: yaml
+  label: MOSTLY AI Computes API
+  slug: mostly-ai-computes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-computes-api-openapi.yml
+- filename: mostly-ai-connectors-api-openapi.yml
+  format: yaml
+  label: MOSTLY AI Connectors API
+  slug: mostly-ai-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-connectors-api-openapi.yml
+- filename: mostly-ai-datasets-api-openapi.yml
+  format: yaml
+  label: MOSTLY AI Datasets API
+  slug: mostly-ai-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-datasets-api-openapi.yml
+- filename: mostly-ai-generators-api-openapi.yml
+  format: yaml
+  label: MOSTLY AI Generators API
+  slug: mostly-ai-generators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-generators-api-openapi.yml
+- filename: mostly-ai-models-api-openapi.yml
+  format: yaml
+  label: MOSTLY AI Models API
+  slug: mostly-ai-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-models-api-openapi.yml
+- filename: mostly-ai-organizations-api-openapi.yml
+  format: yaml
+  label: MOSTLY AI Organizations API
+  slug: mostly-ai-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-organizations-api-openapi.yml
+- filename: mostly-ai-synthetic-datasets-api-openapi.yml
+  format: yaml
+  label: MOSTLY AI Synthetic Datasets API
+  slug: mostly-ai-synthetic-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-synthetic-datasets-api-openapi.yml
+- filename: mostly-ai-synthetic-probes-api-openapi.yml
+  format: yaml
+  label: MOSTLY AI Synthetic Probes API
+  slug: mostly-ai-synthetic-probes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-synthetic-probes-api-openapi.yml
+- filename: mostly-ai-users-api-openapi.yml
+  format: yaml
+  label: MOSTLY AI Users API
+  slug: mostly-ai-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

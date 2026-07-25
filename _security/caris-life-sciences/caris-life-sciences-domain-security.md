@@ -1,23 +1,17 @@
 ---
 api_specs:
-- filename: caris-life-sciences-openapi.yml
+- filename: caris-life-sciences-information-api-openapi.yml
   format: yaml
-  label: Caris+Portal
-  slug: caris-portal
+  label: Caris Life Sciences Information API
+  slug: caris-life-sciences-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/openapi/caris-life-sciences-openapi.yml
-- filename: caris-life-sciences-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/openapi/caris-life-sciences-information-api-openapi.yml
+- filename: caris-life-sciences-portal-api-openapi.yml
   format: yaml
-  label: Caris EHR Integration
-  slug: ehr-integration
+  label: Caris Life Sciences Portal API
+  slug: caris-life-sciences-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/openapi/caris-life-sciences-openapi.yml
-- filename: caris-life-sciences-openapi.yml
-  format: yaml
-  label: Caris CODEai Real-World Data
-  slug: codeai
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/openapi/caris-life-sciences-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/openapi/caris-life-sciences-portal-api-openapi.yml
 description: ''
 domains:
 - caa:

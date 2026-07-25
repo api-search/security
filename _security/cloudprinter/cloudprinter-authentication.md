@@ -2,36 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: cloudprinter-openapi.yml
+- filename: cloudprinter-orders-api-openapi.yml
   format: yaml
   label: Cloudprinter Orders API
   slug: cloudprinter-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/openapi/cloudprinter-openapi.yml
-- filename: cloudprinter-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/openapi/cloudprinter-orders-api-openapi.yml
+- filename: cloudprinter-products-api-openapi.yml
   format: yaml
-  label: Cloudprinter Products & Pricing API
-  slug: cloudprinter-products-pricing-api
+  label: Cloudprinter Products API
+  slug: cloudprinter-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/openapi/cloudprinter-openapi.yml
-- filename: cloudprinter-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/openapi/cloudprinter-products-api-openapi.yml
+- filename: cloudprinter-quotes-api-openapi.yml
   format: yaml
   label: Cloudprinter Quotes API
   slug: cloudprinter-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/openapi/cloudprinter-openapi.yml
-- filename: cloudprinter-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/openapi/cloudprinter-quotes-api-openapi.yml
+- filename: cloudprinter-shipping-api-openapi.yml
   format: yaml
-  label: Cloudprinter Signal Webhooks API
-  slug: cloudprinter-signal-webhooks-api
+  label: Cloudprinter Shipping API
+  slug: cloudprinter-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/openapi/cloudprinter-openapi.yml
-- filename: cloudprinter-openapi.yml
-  format: yaml
-  label: Cloudprinter Files API
-  slug: cloudprinter-files-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/openapi/cloudprinter-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/openapi/cloudprinter-shipping-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

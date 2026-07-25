@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: apache-livy-rest-api.yaml
+- filename: apache-livy-batches-api-openapi.yml
   format: yaml
-  label: Apache Livy REST API
-  slug: rest-api
+  label: Apache Livy Batches API
+  slug: apache-livy-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/openapi/apache-livy-rest-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/openapi/apache-livy-batches-api-openapi.yml
+- filename: apache-livy-sessions-api-openapi.yml
+  format: yaml
+  label: Apache Livy Sessions API
+  slug: apache-livy-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/openapi/apache-livy-sessions-api-openapi.yml
+- filename: apache-livy-statements-api-openapi.yml
+  format: yaml
+  label: Apache Livy Statements API
+  slug: apache-livy-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/openapi/apache-livy-statements-api-openapi.yml
 description: ''
 domains:
 - caa:

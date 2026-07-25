@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: frappe_api-docs
+- filename: erpnext-method-api-openapi.yml
   format: yaml
-  label: ERPNext REST API
-  slug: rest-api
+  label: ERPNext Method API
+  slug: erpnext-method-api
   spec_type: OpenAPI
-  url: https://github.com/alyf-de/frappe_api-docs
+  url: https://raw.githubusercontent.com/api-evangelist/erpnext/refs/heads/main/openapi/erpnext-method-api-openapi.yml
+- filename: erpnext-naive-authentication-api-openapi.yml
+  format: yaml
+  label: ERPNext Naive Authentication API
+  slug: erpnext-naive-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/erpnext/refs/heads/main/openapi/erpnext-naive-authentication-api-openapi.yml
+- filename: erpnext-resource-api-openapi.yml
+  format: yaml
+  label: ERPNext Resource API
+  slug: erpnext-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/erpnext/refs/heads/main/openapi/erpnext-resource-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,71 +1,143 @@
 ---
 api_specs:
-- filename: knowledgeapi.yaml
+- filename: yext-account-settings-api-openapi.yml
   format: yaml
-  label: Yext Knowledge API
-  slug: yext-knowledge-api
+  label: Yext Account Settings API
+  slug: yext-account-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/yext/openapi/main/yaml/knowledgeapi.yaml
-- filename: answersapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-account-settings-api-openapi.yml
+- filename: yext-accounts-api-openapi.yml
   format: yaml
-  label: Yext Answers API
-  slug: yext-answers-api
+  label: Yext Accounts API
+  slug: yext-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/yext/openapi/main/yaml/answersapi.yaml
-- filename: chatapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-accounts-api-openapi.yml
+- filename: yext-administrative-api-api-openapi.yml
   format: yaml
-  label: Yext Chat API
-  slug: yext-chat-api
+  label: Yext Administrative API API
+  slug: yext-administrative-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/yext/openapi/main/yaml/chatapi.yaml
-- filename: eventsapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-administrative-api-api-openapi.yml
+- filename: yext-analytics-api-openapi.yml
   format: yaml
-  label: Yext Events API
-  slug: yext-events-api
+  label: Yext Analytics API
+  slug: yext-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/yext/openapi/main/yaml/eventsapi.yaml
-- filename: liveapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-analytics-api-openapi.yml
+- filename: yext-computations-api-openapi.yml
   format: yaml
-  label: Yext Live API
-  slug: yext-live-api
+  label: Yext Computations API
+  slug: yext-computations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/yext/openapi/main/yaml/liveapi.yaml
-- filename: adminapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-computations-api-openapi.yml
+- filename: yext-configuration-api-openapi.yml
   format: yaml
-  label: Yext Admin API
-  slug: yext-admin-api
+  label: Yext Configuration API
+  slug: yext-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/yext/openapi/main/yaml/adminapi.yaml
-- filename: publisherlistingsapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-configuration-api-openapi.yml
+- filename: yext-connectors-api-openapi.yml
   format: yaml
-  label: Yext Publisher Listings API
-  slug: yext-publisher-listings-api
+  label: Yext Connectors API
+  slug: yext-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/yext/openapi/main/yaml/publisherlistingsapi.yaml
-- filename: publishereclapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-connectors-api-openapi.yml
+- filename: yext-content-api-api-openapi.yml
   format: yaml
-  label: Yext Publisher ECL API
-  slug: yext-publisher-ecl-api
+  label: Yext Content API API
+  slug: yext-content-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/yext/openapi/main/yaml/publishereclapi.yaml
-- filename: publishernotifyreviewapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-content-api-api-openapi.yml
+- filename: yext-domains-api-openapi.yml
   format: yaml
-  label: Yext Publisher Notify Review API
+  label: Yext Domains API
+  slug: yext-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-domains-api-openapi.yml
+- filename: yext-health-check-api-openapi.yml
+  format: yaml
+  label: Yext Health Check API
+  slug: yext-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-health-check-api-openapi.yml
+- filename: yext-knowledge-manager-api-openapi.yml
+  format: yaml
+  label: Yext Knowledge Manager API
+  slug: yext-knowledge-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-knowledge-manager-api-openapi.yml
+- filename: yext-licenses-api-openapi.yml
+  format: yaml
+  label: Yext Licenses API
+  slug: yext-licenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-licenses-api-openapi.yml
+- filename: yext-listings-api-openapi.yml
+  format: yaml
+  label: Yext Listings API
+  slug: yext-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-listings-api-openapi.yml
+- filename: yext-lists-api-openapi.yml
+  format: yaml
+  label: Yext Lists API
+  slug: yext-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-lists-api-openapi.yml
+- filename: yext-live-api-api-openapi.yml
+  format: yaml
+  label: Yext Live API API
+  slug: yext-live-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-live-api-api-openapi.yml
+- filename: yext-logsapi-api-openapi.yml
+  format: yaml
+  label: Yext LogsAPI API
+  slug: yext-logsapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-logsapi-api-openapi.yml
+- filename: yext-optimization-tasks-api-openapi.yml
+  format: yaml
+  label: Yext Optimization Tasks API
+  slug: yext-optimization-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-optimization-tasks-api-openapi.yml
+- filename: yext-plpixel-api-openapi.yml
+  format: yaml
+  label: Yext Plpixel API
+  slug: yext-plpixel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-plpixel-api-openapi.yml
+- filename: yext-publisher-disruptions-api-openapi.yml
+  format: yaml
+  label: Yext Publisher Disruptions API
+  slug: yext-publisher-disruptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-publisher-disruptions-api-openapi.yml
+- filename: yext-publisher-notify-review-api-openapi.yml
+  format: yaml
+  label: Yext Webhooks API
   slug: yext-publisher-notify-review-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/yext/openapi/main/yaml/publishernotifyreviewapi.yaml
-- filename: publishertrackingpixelapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-publisher-notify-review-api-openapi.yml
+- filename: yext-reviews-api-openapi.yml
   format: yaml
-  label: Yext Publisher Tracking Pixel API
-  slug: yext-publisher-tracking-pixel-api
+  label: Yext Reviews API
+  slug: yext-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/yext/openapi/main/yaml/publishertrackingpixelapi.yaml
-- filename: webhooks.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-reviews-api-openapi.yml
+- filename: yext-social-api-openapi.yml
   format: yaml
-  label: Yext Webhooks
-  slug: yext-webhooks
+  label: Yext Social API
+  slug: yext-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/yext/openapi/main/yaml/webhooks.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-social-api-openapi.yml
+- filename: yext-suggestions-api-openapi.yml
+  format: yaml
+  label: Yext Suggestions API
+  slug: yext-suggestions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-suggestions-api-openapi.yml
 description: ''
 domains:
 - caa: []

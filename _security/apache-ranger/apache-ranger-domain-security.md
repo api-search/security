@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: apache-ranger-rest-api.yaml
+- filename: apache-ranger-audit-api-openapi.yml
   format: yaml
-  label: Apache Ranger REST API
-  slug: apache-ranger-rest-api
+  label: Apache Ranger Audit API
+  slug: apache-ranger-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/openapi/apache-ranger-rest-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/openapi/apache-ranger-audit-api-openapi.yml
+- filename: apache-ranger-groups-api-openapi.yml
+  format: yaml
+  label: Apache Ranger Groups API
+  slug: apache-ranger-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/openapi/apache-ranger-groups-api-openapi.yml
+- filename: apache-ranger-policies-api-openapi.yml
+  format: yaml
+  label: Apache Ranger Policies API
+  slug: apache-ranger-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/openapi/apache-ranger-policies-api-openapi.yml
+- filename: apache-ranger-services-api-openapi.yml
+  format: yaml
+  label: Apache Ranger Services API
+  slug: apache-ranger-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/openapi/apache-ranger-services-api-openapi.yml
+- filename: apache-ranger-users-api-openapi.yml
+  format: yaml
+  label: Apache Ranger Users API
+  slug: apache-ranger-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/openapi/apache-ranger-users-api-openapi.yml
 description: ''
 domains:
 - caa:

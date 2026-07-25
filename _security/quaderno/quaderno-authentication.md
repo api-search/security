@@ -1,72 +1,90 @@
 ---
 api_key_in: []
 api_specs:
-- filename: quaderno-openapi.yml
+- filename: quaderno-authentication-api-openapi.yml
   format: yaml
-  label: Quaderno Invoices API
-  slug: quaderno-invoices-api
+  label: Quaderno Authentication API
+  slug: quaderno-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-openapi.yml
-- filename: quaderno-openapi.yml
-  format: yaml
-  label: Quaderno Credits API
-  slug: quaderno-credits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-openapi.yml
-- filename: quaderno-openapi.yml
-  format: yaml
-  label: Quaderno Estimates API
-  slug: quaderno-estimates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-openapi.yml
-- filename: quaderno-openapi.yml
-  format: yaml
-  label: Quaderno Expenses API
-  slug: quaderno-expenses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-openapi.yml
-- filename: quaderno-openapi.yml
-  format: yaml
-  label: Quaderno Contacts API
-  slug: quaderno-contacts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-openapi.yml
-- filename: quaderno-openapi.yml
-  format: yaml
-  label: Quaderno Items API
-  slug: quaderno-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-openapi.yml
-- filename: quaderno-openapi.yml
-  format: yaml
-  label: Quaderno Taxes API
-  slug: quaderno-taxes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-openapi.yml
-- filename: quaderno-openapi.yml
-  format: yaml
-  label: Quaderno Payments API
-  slug: quaderno-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-openapi.yml
-- filename: quaderno-openapi.yml
-  format: yaml
-  label: Quaderno Transactions API
-  slug: quaderno-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-openapi.yml
-- filename: quaderno-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-authentication-api-openapi.yml
+- filename: quaderno-checkout-api-openapi.yml
   format: yaml
   label: Quaderno Checkout API
   slug: quaderno-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-openapi.yml
-- filename: quaderno-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-checkout-api-openapi.yml
+- filename: quaderno-contacts-api-openapi.yml
+  format: yaml
+  label: Quaderno Contacts API
+  slug: quaderno-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-contacts-api-openapi.yml
+- filename: quaderno-credits-api-openapi.yml
+  format: yaml
+  label: Quaderno Credits API
+  slug: quaderno-credits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-credits-api-openapi.yml
+- filename: quaderno-estimates-api-openapi.yml
+  format: yaml
+  label: Quaderno Estimates API
+  slug: quaderno-estimates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-estimates-api-openapi.yml
+- filename: quaderno-evidences-api-openapi.yml
+  format: yaml
+  label: Quaderno Evidences API
+  slug: quaderno-evidences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-evidences-api-openapi.yml
+- filename: quaderno-expenses-api-openapi.yml
+  format: yaml
+  label: Quaderno Expenses API
+  slug: quaderno-expenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-expenses-api-openapi.yml
+- filename: quaderno-invoices-api-openapi.yml
+  format: yaml
+  label: Quaderno Invoices API
+  slug: quaderno-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-invoices-api-openapi.yml
+- filename: quaderno-items-api-openapi.yml
+  format: yaml
+  label: Quaderno Items API
+  slug: quaderno-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-items-api-openapi.yml
+- filename: quaderno-payments-api-openapi.yml
+  format: yaml
+  label: Quaderno Payments API
+  slug: quaderno-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-payments-api-openapi.yml
+- filename: quaderno-recurring-api-openapi.yml
+  format: yaml
+  label: Quaderno Recurring API
+  slug: quaderno-recurring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-recurring-api-openapi.yml
+- filename: quaderno-taxes-api-openapi.yml
+  format: yaml
+  label: Quaderno Taxes API
+  slug: quaderno-taxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-taxes-api-openapi.yml
+- filename: quaderno-transactions-api-openapi.yml
+  format: yaml
+  label: Quaderno Transactions API
+  slug: quaderno-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-transactions-api-openapi.yml
+- filename: quaderno-webhooks-api-openapi.yml
   format: yaml
   label: Quaderno Webhooks API
   slug: quaderno-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

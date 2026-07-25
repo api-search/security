@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: medidata-rave-openapi.yml
+- filename: medidata-audit-api-openapi.yml
   format: yaml
-  label: Medidata Rave EDC API
-  slug: medidata-api
+  label: medidata Audit API
+  slug: medidata-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medidata/refs/heads/main/openapi/medidata-rave-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/medidata/refs/heads/main/openapi/medidata-audit-api-openapi.yml
+- filename: medidata-clinical-data-api-openapi.yml
+  format: yaml
+  label: medidata Clinical Data API
+  slug: medidata-clinical-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medidata/refs/heads/main/openapi/medidata-clinical-data-api-openapi.yml
+- filename: medidata-queries-api-openapi.yml
+  format: yaml
+  label: medidata Queries API
+  slug: medidata-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medidata/refs/heads/main/openapi/medidata-queries-api-openapi.yml
+- filename: medidata-sites-api-openapi.yml
+  format: yaml
+  label: medidata Sites API
+  slug: medidata-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medidata/refs/heads/main/openapi/medidata-sites-api-openapi.yml
+- filename: medidata-studies-api-openapi.yml
+  format: yaml
+  label: medidata Studies API
+  slug: medidata-studies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medidata/refs/heads/main/openapi/medidata-studies-api-openapi.yml
+- filename: medidata-subjects-api-openapi.yml
+  format: yaml
+  label: medidata Subjects API
+  slug: medidata-subjects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medidata/refs/heads/main/openapi/medidata-subjects-api-openapi.yml
 auth_types:
 - http
 - oauth2

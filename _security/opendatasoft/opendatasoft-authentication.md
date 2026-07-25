@@ -2,12 +2,18 @@
 api_key_in:
 - query
 api_specs:
-- filename: openapi.yaml
+- filename: opendatasoft-catalog-api-openapi.yml
   format: yaml
-  label: Opendatasoft Explore API v2.1
-  slug: opendatasoft-explore-api-v21
+  label: Opendatasoft Catalog API
+  slug: opendatasoft-catalog-api
   spec_type: OpenAPI
-  url: https://public.opendatasoft.com/api/explore/v2.1/
+  url: https://raw.githubusercontent.com/api-evangelist/opendatasoft/refs/heads/main/openapi/opendatasoft-catalog-api-openapi.yml
+- filename: opendatasoft-dataset-api-openapi.yml
+  format: yaml
+  label: Opendatasoft Dataset API
+  slug: opendatasoft-dataset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opendatasoft/refs/heads/main/openapi/opendatasoft-dataset-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

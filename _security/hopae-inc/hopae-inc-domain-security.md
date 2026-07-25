@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: hopae-inc-hconnect-openapi-original.json
-  format: json
-  label: Hopae hConnect API
-  slug: hopae-inc-hconnect
+- filename: hopae-inc-console-api-keys-api-openapi.yml
+  format: yaml
+  label: Hopae, Inc. Console - API Keys API
+  slug: hopae-inc-console-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-hconnect-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-console-api-keys-api-openapi.yml
+- filename: hopae-inc-providers-api-openapi.yml
+  format: yaml
+  label: Hopae, Inc. Providers API
+  slug: hopae-inc-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-providers-api-openapi.yml
+- filename: hopae-inc-token-api-openapi.yml
+  format: yaml
+  label: Hopae, Inc. Token API
+  slug: hopae-inc-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-token-api-openapi.yml
+- filename: hopae-inc-verifications-api-openapi.yml
+  format: yaml
+  label: Hopae, Inc. Verifications API
+  slug: hopae-inc-verifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-verifications-api-openapi.yml
+- filename: hopae-inc-workspace-api-activation-api-openapi.yml
+  format: yaml
+  label: Hopae, Inc. Workspace API - Activation API
+  slug: hopae-inc-workspace-api-activation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-activation-api-openapi.yml
+- filename: hopae-inc-workspace-api-apps-api-openapi.yml
+  format: yaml
+  label: Hopae, Inc. Workspace API - Apps API
+  slug: hopae-inc-workspace-api-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-apps-api-openapi.yml
+- filename: hopae-inc-workspace-api-production-tests-api-openapi.yml
+  format: yaml
+  label: Hopae, Inc. Workspace API - Production Tests API
+  slug: hopae-inc-workspace-api-production-tests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-production-tests-api-openapi.yml
+- filename: hopae-inc-workspace-api-workflows-api-openapi.yml
+  format: yaml
+  label: Hopae, Inc. Workspace API - Workflows API
+  slug: hopae-inc-workspace-api-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-workflows-api-openapi.yml
+- filename: hopae-inc-workspace-api-workspace-api-openapi.yml
+  format: yaml
+  label: Hopae, Inc. Workspace API - Workspace API
+  slug: hopae-inc-workspace-api-workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-workspace-api-openapi.yml
 description: ''
 domains:
 - caa: []

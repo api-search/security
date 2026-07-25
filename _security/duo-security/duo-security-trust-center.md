@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: duo-admin-api-openapi.yml
+- filename: duo-security-bulk-api-openapi.yml
   format: yaml
-  label: Duo Admin API
-  slug: duo-admin-api
+  label: Duo Security Bulk API
+  slug: duo-security-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-admin-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-security-bulk-api-openapi.yml
+- filename: duo-security-bypass-codes-api-openapi.yml
+  format: yaml
+  label: Duo Security Bypass Codes API
+  slug: duo-security-bypass-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-security-bypass-codes-api-openapi.yml
+- filename: duo-security-groups-api-openapi.yml
+  format: yaml
+  label: Duo Security Groups API
+  slug: duo-security-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-security-groups-api-openapi.yml
+- filename: duo-security-phones-api-openapi.yml
+  format: yaml
+  label: Duo Security Phones API
+  slug: duo-security-phones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-security-phones-api-openapi.yml
+- filename: duo-security-tokens-api-openapi.yml
+  format: yaml
+  label: Duo Security Tokens API
+  slug: duo-security-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-security-tokens-api-openapi.yml
+- filename: duo-security-users-api-openapi.yml
+  format: yaml
+  label: Duo Security Users API
+  slug: duo-security-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-security-users-api-openapi.yml
+- filename: duo-security-webauthn-api-openapi.yml
+  format: yaml
+  label: Duo Security WebAuthn API
+  slug: duo-security-webauthn-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-security-webauthn-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

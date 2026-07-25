@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: reqres-openapi.yml
+- filename: reqres-agent-sandbox-api-openapi.yml
   format: yaml
-  label: ReqRes API
-  slug: reqres-api
+  label: ReqRes Agent Sandbox API
+  slug: reqres-agent-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reqres/refs/heads/main/openapi/reqres-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reqres/refs/heads/main/openapi/reqres-agent-sandbox-api-openapi.yml
+- filename: reqres-app-users-api-openapi.yml
+  format: yaml
+  label: ReqRes App Users API
+  slug: reqres-app-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reqres/refs/heads/main/openapi/reqres-app-users-api-openapi.yml
+- filename: reqres-authentication-api-openapi.yml
+  format: yaml
+  label: ReqRes Authentication API
+  slug: reqres-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reqres/refs/heads/main/openapi/reqres-authentication-api-openapi.yml
+- filename: reqres-collections-api-openapi.yml
+  format: yaml
+  label: ReqRes Collections API
+  slug: reqres-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reqres/refs/heads/main/openapi/reqres-collections-api-openapi.yml
+- filename: reqres-custom-endpoints-api-openapi.yml
+  format: yaml
+  label: ReqRes Custom Endpoints API
+  slug: reqres-custom-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reqres/refs/heads/main/openapi/reqres-custom-endpoints-api-openapi.yml
+- filename: reqres-legacy-api-openapi.yml
+  format: yaml
+  label: ReqRes Legacy API
+  slug: reqres-legacy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reqres/refs/heads/main/openapi/reqres-legacy-api-openapi.yml
 description: ''
 domains:
 - caa: []

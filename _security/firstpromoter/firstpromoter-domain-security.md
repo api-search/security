@@ -1,11 +1,77 @@
 ---
 api_specs:
-- filename: firstpromoter-firstpromoter-admin-api-openapi.yml
+- filename: firstpromoter-commissions-api-openapi.yml
   format: yaml
-  label: FirstPromoter Admin API
-  slug: firstpromoter-admin-api
+  label: FirstPromoter Commissions API
+  slug: firstpromoter-commissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/openapi/firstpromoter-firstpromoter-admin-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/openapi/firstpromoter-commissions-api-openapi.yml
+- filename: firstpromoter-company-api-openapi.yml
+  format: yaml
+  label: FirstPromoter Company API
+  slug: firstpromoter-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/openapi/firstpromoter-company-api-openapi.yml
+- filename: firstpromoter-emails-api-openapi.yml
+  format: yaml
+  label: FirstPromoter Emails API
+  slug: firstpromoter-emails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/openapi/firstpromoter-emails-api-openapi.yml
+- filename: firstpromoter-payouts-api-openapi.yml
+  format: yaml
+  label: FirstPromoter Payouts API
+  slug: firstpromoter-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/openapi/firstpromoter-payouts-api-openapi.yml
+- filename: firstpromoter-promo-codes-api-openapi.yml
+  format: yaml
+  label: FirstPromoter Promo Codes API
+  slug: firstpromoter-promo-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/openapi/firstpromoter-promo-codes-api-openapi.yml
+- filename: firstpromoter-promoter-campaigns-api-openapi.yml
+  format: yaml
+  label: FirstPromoter Promoter Campaigns API
+  slug: firstpromoter-promoter-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/openapi/firstpromoter-promoter-campaigns-api-openapi.yml
+- filename: firstpromoter-promoters-api-openapi.yml
+  format: yaml
+  label: FirstPromoter Promoters API
+  slug: firstpromoter-promoters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/openapi/firstpromoter-promoters-api-openapi.yml
+- filename: firstpromoter-referrals-api-openapi.yml
+  format: yaml
+  label: FirstPromoter Referrals API
+  slug: firstpromoter-referrals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/openapi/firstpromoter-referrals-api-openapi.yml
+- filename: firstpromoter-reports-api-openapi.yml
+  format: yaml
+  label: FirstPromoter Reports API
+  slug: firstpromoter-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/openapi/firstpromoter-reports-api-openapi.yml
+- filename: firstpromoter-track-api-openapi.yml
+  format: yaml
+  label: FirstPromoter Track API
+  slug: firstpromoter-track-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/openapi/firstpromoter-track-api-openapi.yml
+- filename: firstpromoter-webhook-deliveries-api-openapi.yml
+  format: yaml
+  label: FirstPromoter Webhook Deliveries API
+  slug: firstpromoter-webhook-deliveries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/openapi/firstpromoter-webhook-deliveries-api-openapi.yml
+- filename: firstpromoter-webhooks-api-openapi.yml
+  format: yaml
+  label: FirstPromoter Webhooks API
+  slug: firstpromoter-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/openapi/firstpromoter-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

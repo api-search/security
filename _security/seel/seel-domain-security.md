@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: seel-openapi.yml
+- filename: seel-bill-api-openapi.yml
   format: yaml
-  label: Seel Commerce Protection API
-  slug: seel-commerce-protection-api
+  label: Seel Bill API
+  slug: seel-bill-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seel/refs/heads/main/openapi/seel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/seel/refs/heads/main/openapi/seel-bill-api-openapi.yml
+- filename: seel-claim-api-openapi.yml
+  format: yaml
+  label: Seel Claim API
+  slug: seel-claim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seel/refs/heads/main/openapi/seel-claim-api-openapi.yml
+- filename: seel-contract-api-openapi.yml
+  format: yaml
+  label: Seel Contract API
+  slug: seel-contract-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seel/refs/heads/main/openapi/seel-contract-api-openapi.yml
+- filename: seel-event-api-openapi.yml
+  format: yaml
+  label: Seel Event API
+  slug: seel-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seel/refs/heads/main/openapi/seel-event-api-openapi.yml
+- filename: seel-fulfillment-api-openapi.yml
+  format: yaml
+  label: Seel Fulfillment API
+  slug: seel-fulfillment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seel/refs/heads/main/openapi/seel-fulfillment-api-openapi.yml
+- filename: seel-merchant-api-openapi.yml
+  format: yaml
+  label: Seel Merchant API
+  slug: seel-merchant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seel/refs/heads/main/openapi/seel-merchant-api-openapi.yml
+- filename: seel-order-api-openapi.yml
+  format: yaml
+  label: Seel Order API
+  slug: seel-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seel/refs/heads/main/openapi/seel-order-api-openapi.yml
+- filename: seel-product-api-openapi.yml
+  format: yaml
+  label: Seel Product API
+  slug: seel-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seel/refs/heads/main/openapi/seel-product-api-openapi.yml
+- filename: seel-quote-api-openapi.yml
+  format: yaml
+  label: Seel Quote API
+  slug: seel-quote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seel/refs/heads/main/openapi/seel-quote-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: searoutes-openapi.yml
-  format: yaml
-  label: Searoutes Ocean Routing API
-  slug: searoutes-ocean-routing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-openapi.yml
-- filename: searoutes-openapi.yml
-  format: yaml
-  label: Searoutes Geocoding API
-  slug: searoutes-geocoding-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-openapi.yml
-- filename: searoutes-openapi.yml
+- filename: searoutes-co2-emissions-api-openapi.yml
   format: yaml
   label: Searoutes CO2 Emissions API
   slug: searoutes-co2-emissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-openapi.yml
-- filename: searoutes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-co2-emissions-api-openapi.yml
+- filename: searoutes-geocoding-api-openapi.yml
   format: yaml
-  label: Searoutes Vessel Tracking API
-  slug: searoutes-vessel-tracking-api
+  label: Searoutes Geocoding API
+  slug: searoutes-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-openapi.yml
-- filename: searoutes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-geocoding-api-openapi.yml
+- filename: searoutes-ocean-routing-api-openapi.yml
   format: yaml
-  label: Searoutes Search & Carriers API
-  slug: searoutes-search-carriers-api
+  label: Searoutes Ocean Routing API
+  slug: searoutes-ocean-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-openapi.yml
-- filename: searoutes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-ocean-routing-api-openapi.yml
+- filename: searoutes-search-api-openapi.yml
+  format: yaml
+  label: Searoutes Search API
+  slug: searoutes-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-search-api-openapi.yml
+- filename: searoutes-vessel-api-openapi.yml
+  format: yaml
+  label: Searoutes Vessel API
+  slug: searoutes-vessel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-vessel-api-openapi.yml
+- filename: searoutes-weather-api-openapi.yml
   format: yaml
   label: Searoutes Weather API
   slug: searoutes-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-weather-api-openapi.yml
 description: ''
 domains:
 - caa: []

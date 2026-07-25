@@ -1,18 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cloudinary-openapi.yml
-  format: yaml
-  label: Cloudinary Upload API
-  slug: upload
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudinary/refs/heads/main/openapi/cloudinary-openapi.yml
 - filename: cloudinary-notifications-asyncapi.yml
   format: yaml
   label: Cloudinary Notifications and Webhooks
   slug: notifications
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudinary/refs/heads/main/asyncapi/cloudinary-notifications-asyncapi.yml
+- filename: cloudinary-backup-api-openapi.yml
+  format: yaml
+  label: Cloudinary Backup API
+  slug: cloudinary-backup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudinary/refs/heads/main/openapi/cloudinary-backup-api-openapi.yml
+- filename: cloudinary-transformation-api-openapi.yml
+  format: yaml
+  label: Cloudinary Transformation API
+  slug: cloudinary-transformation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudinary/refs/heads/main/openapi/cloudinary-transformation-api-openapi.yml
+- filename: cloudinary-upload-api-openapi.yml
+  format: yaml
+  label: Cloudinary Upload API
+  slug: cloudinary-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudinary/refs/heads/main/openapi/cloudinary-upload-api-openapi.yml
 auth_types:
 - http
 description: ''

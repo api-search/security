@@ -1,18 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: siemens-mindsphere-asset-management-openapi.yml
+- filename: siemens-mindsphere-aspect-types-api-openapi.yml
   format: yaml
-  label: Siemens MindSphere Asset Management API
-  slug: asset-management-api
+  label: Siemens MindSphere Aspect Types API
+  slug: siemens-mindsphere-aspect-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-asset-management-openapi.yml
-- filename: siemens-mindsphere-iot-timeseries-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-aspect-types-api-openapi.yml
+- filename: siemens-mindsphere-asset-types-api-openapi.yml
   format: yaml
-  label: Siemens MindSphere IoT Time Series API
-  slug: iot-timeseries-api
+  label: Siemens MindSphere Asset Types API
+  slug: siemens-mindsphere-asset-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-iot-timeseries-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-asset-types-api-openapi.yml
+- filename: siemens-mindsphere-assets-api-openapi.yml
+  format: yaml
+  label: Siemens MindSphere Assets API
+  slug: siemens-mindsphere-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-assets-api-openapi.yml
+- filename: siemens-mindsphere-timeseries-api-openapi.yml
+  format: yaml
+  label: Siemens MindSphere Timeseries API
+  slug: siemens-mindsphere-timeseries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-timeseries-api-openapi.yml
 auth_types:
 - http
 description: ''

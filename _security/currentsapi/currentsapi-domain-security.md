@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: swagger.json
-  format: json
-  label: Currents News API
-  slug: currents-news-api
+- filename: currentsapi-endpoint-api-openapi.yml
+  format: yaml
+  label: Currents API endpoint API
+  slug: currentsapi-endpoint-api
   spec_type: OpenAPI
-  url: https://currentsapi.services/json/swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/currentsapi/refs/heads/main/openapi/currentsapi-endpoint-api-openapi.yml
 description: ''
 domains:
 - caa: []

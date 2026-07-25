@@ -1,41 +1,35 @@
 ---
 api_specs:
-- filename: nscale-openapi.yml
+- filename: nscale-chat-api-openapi.yml
   format: yaml
-  label: Nscale Serverless Chat Completions API
-  slug: nscale-serverless-chat-completions-api
+  label: Nscale Chat API
+  slug: nscale-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/openapi/nscale-openapi.yml
-- filename: nscale-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/openapi/nscale-chat-api-openapi.yml
+- filename: nscale-completions-api-openapi.yml
   format: yaml
-  label: Nscale Serverless Completions API
-  slug: nscale-serverless-completions-api
+  label: Nscale Completions API
+  slug: nscale-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/openapi/nscale-openapi.yml
-- filename: nscale-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/openapi/nscale-completions-api-openapi.yml
+- filename: nscale-embeddings-api-openapi.yml
   format: yaml
-  label: Nscale Serverless Embeddings API
-  slug: nscale-serverless-embeddings-api
+  label: Nscale Embeddings API
+  slug: nscale-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/openapi/nscale-openapi.yml
-- filename: nscale-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/openapi/nscale-embeddings-api-openapi.yml
+- filename: nscale-images-api-openapi.yml
   format: yaml
-  label: Nscale Serverless Image Generation API
-  slug: nscale-serverless-image-generation-api
+  label: Nscale Images API
+  slug: nscale-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/openapi/nscale-openapi.yml
-- filename: nscale-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/openapi/nscale-images-api-openapi.yml
+- filename: nscale-models-api-openapi.yml
   format: yaml
   label: Nscale Models API
   slug: nscale-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/openapi/nscale-openapi.yml
-- filename: nscale-openapi.yml
-  format: yaml
-  label: Nscale GPU Compute and Clusters API
-  slug: nscale-gpu-compute-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/openapi/nscale-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/openapi/nscale-models-api-openapi.yml
 description: ''
 domains:
 - caa: []

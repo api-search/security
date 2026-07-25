@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: apify-api.yaml
+- filename: apify-actor-runs-api-openapi.yml
   format: yaml
-  label: Apify API
-  slug: apify-api
+  label: Apify Actor Runs API
+  slug: apify-actor-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/openapi/apify-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/openapi/apify-actor-runs-api-openapi.yml
+- filename: apify-actors-api-openapi.yml
+  format: yaml
+  label: Apify Actors API
+  slug: apify-actors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/openapi/apify-actors-api-openapi.yml
+- filename: apify-datasets-api-openapi.yml
+  format: yaml
+  label: Apify Datasets API
+  slug: apify-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/openapi/apify-datasets-api-openapi.yml
+- filename: apify-key-value-stores-api-openapi.yml
+  format: yaml
+  label: Apify Key-Value Stores API
+  slug: apify-key-value-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/openapi/apify-key-value-stores-api-openapi.yml
+- filename: apify-request-queues-api-openapi.yml
+  format: yaml
+  label: Apify Request Queues API
+  slug: apify-request-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/openapi/apify-request-queues-api-openapi.yml
+- filename: apify-users-api-openapi.yml
+  format: yaml
+  label: Apify Users API
+  slug: apify-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/openapi/apify-users-api-openapi.yml
 auth_types:
 - http
 description: ''

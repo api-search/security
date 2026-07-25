@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: dott-gbfs-openapi.yml
+- filename: dott-discovery-api-openapi.yml
   format: yaml
-  label: Dott GBFS API
-  slug: dott-gbfs-api
+  label: Dott Discovery API
+  slug: dott-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dott/refs/heads/main/openapi/dott-gbfs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dott/refs/heads/main/openapi/dott-discovery-api-openapi.yml
+- filename: dott-stations-api-openapi.yml
+  format: yaml
+  label: Dott Stations API
+  slug: dott-stations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dott/refs/heads/main/openapi/dott-stations-api-openapi.yml
+- filename: dott-system-api-openapi.yml
+  format: yaml
+  label: Dott System API
+  slug: dott-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dott/refs/heads/main/openapi/dott-system-api-openapi.yml
+- filename: dott-vehicles-api-openapi.yml
+  format: yaml
+  label: Dott Vehicles API
+  slug: dott-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dott/refs/heads/main/openapi/dott-vehicles-api-openapi.yml
+- filename: dott-zones-api-openapi.yml
+  format: yaml
+  label: Dott Zones API
+  slug: dott-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dott/refs/heads/main/openapi/dott-zones-api-openapi.yml
 description: ''
 domains:
 - caa:

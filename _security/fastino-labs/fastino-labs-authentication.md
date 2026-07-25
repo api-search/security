@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: pioneer-openapi-original.json
-  format: json
-  label: Pioneer Inference API
-  slug: pioneer-inference-api
+- filename: fastino-labs-anthropic-compat-api-openapi.yml
+  format: yaml
+  label: Fastino Labs anthropic-compat API
+  slug: fastino-labs-anthropic-compat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/openapi/pioneer-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/openapi/fastino-labs-anthropic-compat-api-openapi.yml
+- filename: fastino-labs-inference-api-openapi.yml
+  format: yaml
+  label: Fastino Labs inference API
+  slug: fastino-labs-inference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/openapi/fastino-labs-inference-api-openapi.yml
+- filename: fastino-labs-inference-history-api-openapi.yml
+  format: yaml
+  label: Fastino Labs inference-history API
+  slug: fastino-labs-inference-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/openapi/fastino-labs-inference-history-api-openapi.yml
+- filename: fastino-labs-openai-compat-api-openapi.yml
+  format: yaml
+  label: Fastino Labs openai-compat API
+  slug: fastino-labs-openai-compat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/openapi/fastino-labs-openai-compat-api-openapi.yml
 auth_types:
 - apiKey
 - http

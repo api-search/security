@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: cataas-openapi-original.yml
+- filename: cataas-admin-api-openapi.yml
   format: yaml
-  label: Cataas
-  slug: cataas
+  label: Cataas Admin API
+  slug: cataas-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/openapi/cataas-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/openapi/cataas-admin-api-openapi.yml
+- filename: cataas-catalog-api-openapi.yml
+  format: yaml
+  label: Cataas Catalog API
+  slug: cataas-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/openapi/cataas-catalog-api-openapi.yml
+- filename: cataas-cats-api-openapi.yml
+  format: yaml
+  label: Cataas Cats API
+  slug: cataas-cats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/openapi/cataas-cats-api-openapi.yml
+- filename: cataas-upload-api-openapi.yml
+  format: yaml
+  label: Cataas Upload API
+  slug: cataas-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/openapi/cataas-upload-api-openapi.yml
 description: ''
 domains:
 - caa: []

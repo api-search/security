@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: strava-openapi.yml
+- filename: strava-activities-api-openapi.yml
   format: yaml
-  label: Strava API
-  slug: strava
+  label: Strava Activities API
+  slug: strava-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-activities-api-openapi.yml
+- filename: strava-athletes-api-openapi.yml
+  format: yaml
+  label: Strava Athletes API
+  slug: strava-athletes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-athletes-api-openapi.yml
+- filename: strava-clubs-api-openapi.yml
+  format: yaml
+  label: Strava Clubs API
+  slug: strava-clubs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-clubs-api-openapi.yml
+- filename: strava-gear-api-openapi.yml
+  format: yaml
+  label: Strava Gear API
+  slug: strava-gear-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-gear-api-openapi.yml
+- filename: strava-routes-api-openapi.yml
+  format: yaml
+  label: Strava Routes API
+  slug: strava-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-routes-api-openapi.yml
+- filename: strava-segment-efforts-api-openapi.yml
+  format: yaml
+  label: Strava Segment Efforts API
+  slug: strava-segment-efforts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-segment-efforts-api-openapi.yml
+- filename: strava-segments-api-openapi.yml
+  format: yaml
+  label: Strava Segments API
+  slug: strava-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-segments-api-openapi.yml
+- filename: strava-streams-api-openapi.yml
+  format: yaml
+  label: Strava Streams API
+  slug: strava-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-streams-api-openapi.yml
 description: ''
 domains:
 - caa: []

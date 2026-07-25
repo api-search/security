@@ -1,23 +1,53 @@
 ---
 api_specs:
-- filename: figure-heloc-inquiries-openapi-original.yml
+- filename: figure-encryption-api-openapi.yml
   format: yaml
-  label: HELOC Inquiries
-  slug: heloc-inquiries
+  label: Figure Encryption API
+  slug: figure-encryption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figure/refs/heads/main/openapi/figure-heloc-inquiries-openapi-original.yml
-- filename: figure-heloc-pre-qualification-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/figure/refs/heads/main/openapi/figure-encryption-api-openapi.yml
+- filename: figure-heloc-application-requests-api-openapi.yml
   format: yaml
-  label: HELOC Pre-qualification
-  slug: heloc-pre-qualification
+  label: Figure HELOC application requests API
+  slug: figure-heloc-application-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figure/refs/heads/main/openapi/figure-heloc-pre-qualification-openapi-original.yml
-- filename: figure-portfolio-manager-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/figure/refs/heads/main/openapi/figure-heloc-application-requests-api-openapi.yml
+- filename: figure-heloc-offers-api-openapi.yml
   format: yaml
-  label: Portfolio Manager
-  slug: portfolio-manager
+  label: Figure HELOC Offers API
+  slug: figure-heloc-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figure/refs/heads/main/openapi/figure-portfolio-manager-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/figure/refs/heads/main/openapi/figure-heloc-offers-api-openapi.yml
+- filename: figure-loan-originator-requests-api-openapi.yml
+  format: yaml
+  label: Figure Loan Originator requests API
+  slug: figure-loan-originator-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figure/refs/heads/main/openapi/figure-loan-originator-requests-api-openapi.yml
+- filename: figure-loan-tape-v1-api-openapi.yml
+  format: yaml
+  label: Figure Loan Tape V1 API
+  slug: figure-loan-tape-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figure/refs/heads/main/openapi/figure-loan-tape-v1-api-openapi.yml
+- filename: figure-loan-tape-v2-api-openapi.yml
+  format: yaml
+  label: Figure Loan Tape V2 API
+  slug: figure-loan-tape-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figure/refs/heads/main/openapi/figure-loan-tape-v2-api-openapi.yml
+- filename: figure-payment-history-v1-api-openapi.yml
+  format: yaml
+  label: Figure Payment History V1 API
+  slug: figure-payment-history-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figure/refs/heads/main/openapi/figure-payment-history-v1-api-openapi.yml
+- filename: figure-payment-history-v2-api-openapi.yml
+  format: yaml
+  label: Figure Payment History V2 API
+  slug: figure-payment-history-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figure/refs/heads/main/openapi/figure-payment-history-v2-api-openapi.yml
 description: ''
 domains:
 - caa: []

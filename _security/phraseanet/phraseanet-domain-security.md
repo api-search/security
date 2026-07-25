@@ -1,53 +1,59 @@
 ---
 api_specs:
-- filename: phraseanet-openapi.yml
-  format: yaml
-  label: Phraseanet Records API
-  slug: phraseanet-records-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-openapi.yml
-- filename: phraseanet-openapi.yml
-  format: yaml
-  label: Phraseanet Databoxes and Collections API
-  slug: phraseanet-databoxes-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-openapi.yml
-- filename: phraseanet-openapi.yml
-  format: yaml
-  label: Phraseanet Metadata API
-  slug: phraseanet-metadata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-openapi.yml
-- filename: phraseanet-openapi.yml
-  format: yaml
-  label: Phraseanet Search API
-  slug: phraseanet-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-openapi.yml
-- filename: phraseanet-openapi.yml
-  format: yaml
-  label: Phraseanet Stories API
-  slug: phraseanet-stories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-openapi.yml
-- filename: phraseanet-openapi.yml
-  format: yaml
-  label: Phraseanet Baskets API
-  slug: phraseanet-baskets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-openapi.yml
-- filename: phraseanet-openapi.yml
-  format: yaml
-  label: Phraseanet Feeds API
-  slug: phraseanet-feeds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-openapi.yml
-- filename: phraseanet-openapi.yml
+- filename: phraseanet-account-api-openapi.yml
   format: yaml
   label: Phraseanet Account API
   slug: phraseanet-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-account-api-openapi.yml
+- filename: phraseanet-baskets-api-openapi.yml
+  format: yaml
+  label: Phraseanet Baskets API
+  slug: phraseanet-baskets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-baskets-api-openapi.yml
+- filename: phraseanet-databoxes-api-openapi.yml
+  format: yaml
+  label: Phraseanet Databoxes API
+  slug: phraseanet-databoxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-databoxes-api-openapi.yml
+- filename: phraseanet-feeds-api-openapi.yml
+  format: yaml
+  label: Phraseanet Feeds API
+  slug: phraseanet-feeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-feeds-api-openapi.yml
+- filename: phraseanet-metadata-api-openapi.yml
+  format: yaml
+  label: Phraseanet Metadata API
+  slug: phraseanet-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-metadata-api-openapi.yml
+- filename: phraseanet-quarantine-api-openapi.yml
+  format: yaml
+  label: Phraseanet Quarantine API
+  slug: phraseanet-quarantine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-quarantine-api-openapi.yml
+- filename: phraseanet-records-api-openapi.yml
+  format: yaml
+  label: Phraseanet Records API
+  slug: phraseanet-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-records-api-openapi.yml
+- filename: phraseanet-search-api-openapi.yml
+  format: yaml
+  label: Phraseanet Search API
+  slug: phraseanet-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-search-api-openapi.yml
+- filename: phraseanet-stories-api-openapi.yml
+  format: yaml
+  label: Phraseanet Stories API
+  slug: phraseanet-stories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-stories-api-openapi.yml
 description: ''
 domains:
 - caa: []

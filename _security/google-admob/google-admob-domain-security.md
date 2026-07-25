@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-admob-accounts-api-openapi.yml
   format: yaml
-  label: Google AdMob API
-  slug: google-admob
+  label: Google AdMob Accounts API
+  slug: google-admob-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-accounts-api-openapi.yml
+- filename: google-admob-adunits-api-openapi.yml
+  format: yaml
+  label: Google AdMob adUnits API
+  slug: google-admob-adunits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-adunits-api-openapi.yml
+- filename: google-admob-apps-api-openapi.yml
+  format: yaml
+  label: Google AdMob Apps API
+  slug: google-admob-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-apps-api-openapi.yml
+- filename: google-admob-mediationgroups-api-openapi.yml
+  format: yaml
+  label: Google AdMob mediationGroups API
+  slug: google-admob-mediationgroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-mediationgroups-api-openapi.yml
+- filename: google-admob-networkreport-generate-api-openapi.yml
+  format: yaml
+  label: Google AdMob networkReport:generate API
+  slug: google-admob-networkreport-generate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-networkreport-generate-api-openapi.yml
 description: ''
 domains:
 - caa:

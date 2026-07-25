@@ -1,12 +1,102 @@
 ---
 api_key_in: []
 api_specs:
-- filename: musicbrainz-web-service-openapi.yml
+- filename: musicbrainz-areas-api-openapi.yml
   format: yaml
-  label: MusicBrainz Web Service v2
-  slug: musicbrainz-web-service
+  label: MusicBrainz Areas API
+  slug: musicbrainz-areas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/openapi/musicbrainz-web-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/openapi/musicbrainz-areas-api-openapi.yml
+- filename: musicbrainz-artists-api-openapi.yml
+  format: yaml
+  label: MusicBrainz Artists API
+  slug: musicbrainz-artists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/openapi/musicbrainz-artists-api-openapi.yml
+- filename: musicbrainz-collections-api-openapi.yml
+  format: yaml
+  label: MusicBrainz Collections API
+  slug: musicbrainz-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/openapi/musicbrainz-collections-api-openapi.yml
+- filename: musicbrainz-events-api-openapi.yml
+  format: yaml
+  label: MusicBrainz Events API
+  slug: musicbrainz-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/openapi/musicbrainz-events-api-openapi.yml
+- filename: musicbrainz-genres-api-openapi.yml
+  format: yaml
+  label: MusicBrainz Genres API
+  slug: musicbrainz-genres-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/openapi/musicbrainz-genres-api-openapi.yml
+- filename: musicbrainz-identifiers-api-openapi.yml
+  format: yaml
+  label: MusicBrainz Identifiers API
+  slug: musicbrainz-identifiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/openapi/musicbrainz-identifiers-api-openapi.yml
+- filename: musicbrainz-instruments-api-openapi.yml
+  format: yaml
+  label: MusicBrainz Instruments API
+  slug: musicbrainz-instruments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/openapi/musicbrainz-instruments-api-openapi.yml
+- filename: musicbrainz-labels-api-openapi.yml
+  format: yaml
+  label: MusicBrainz Labels API
+  slug: musicbrainz-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/openapi/musicbrainz-labels-api-openapi.yml
+- filename: musicbrainz-places-api-openapi.yml
+  format: yaml
+  label: MusicBrainz Places API
+  slug: musicbrainz-places-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/openapi/musicbrainz-places-api-openapi.yml
+- filename: musicbrainz-recordings-api-openapi.yml
+  format: yaml
+  label: MusicBrainz Recordings API
+  slug: musicbrainz-recordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/openapi/musicbrainz-recordings-api-openapi.yml
+- filename: musicbrainz-release-groups-api-openapi.yml
+  format: yaml
+  label: MusicBrainz Release Groups API
+  slug: musicbrainz-release-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/openapi/musicbrainz-release-groups-api-openapi.yml
+- filename: musicbrainz-releases-api-openapi.yml
+  format: yaml
+  label: MusicBrainz Releases API
+  slug: musicbrainz-releases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/openapi/musicbrainz-releases-api-openapi.yml
+- filename: musicbrainz-series-api-openapi.yml
+  format: yaml
+  label: MusicBrainz Series API
+  slug: musicbrainz-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/openapi/musicbrainz-series-api-openapi.yml
+- filename: musicbrainz-submission-api-openapi.yml
+  format: yaml
+  label: MusicBrainz Submission API
+  slug: musicbrainz-submission-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/openapi/musicbrainz-submission-api-openapi.yml
+- filename: musicbrainz-urls-api-openapi.yml
+  format: yaml
+  label: MusicBrainz URLs API
+  slug: musicbrainz-urls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/openapi/musicbrainz-urls-api-openapi.yml
+- filename: musicbrainz-works-api-openapi.yml
+  format: yaml
+  label: MusicBrainz Works API
+  slug: musicbrainz-works-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/openapi/musicbrainz-works-api-openapi.yml
 auth_types:
 - http
 - oauth2

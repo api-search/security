@@ -1,47 +1,41 @@
 ---
 api_specs:
-- filename: ordergroove-openapi.yml
-  format: yaml
-  label: Ordergroove Subscriptions API
-  slug: ordergroove-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-openapi.yml
-- filename: ordergroove-openapi.yml
+- filename: ordergroove-customers-api-openapi.yml
   format: yaml
   label: Ordergroove Customers API
   slug: ordergroove-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-openapi.yml
-- filename: ordergroove-openapi.yml
-  format: yaml
-  label: Ordergroove Orders API
-  slug: ordergroove-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-openapi.yml
-- filename: ordergroove-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-customers-api-openapi.yml
+- filename: ordergroove-items-api-openapi.yml
   format: yaml
   label: Ordergroove Items API
   slug: ordergroove-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-openapi.yml
-- filename: ordergroove-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-items-api-openapi.yml
+- filename: ordergroove-offers-api-openapi.yml
+  format: yaml
+  label: Ordergroove Offers API
+  slug: ordergroove-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-offers-api-openapi.yml
+- filename: ordergroove-orders-api-openapi.yml
+  format: yaml
+  label: Ordergroove Orders API
+  slug: ordergroove-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-orders-api-openapi.yml
+- filename: ordergroove-products-api-openapi.yml
   format: yaml
   label: Ordergroove Products API
   slug: ordergroove-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-openapi.yml
-- filename: ordergroove-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-products-api-openapi.yml
+- filename: ordergroove-subscriptions-api-openapi.yml
   format: yaml
-  label: Ordergroove Offers and Incentives API
-  slug: ordergroove-offers-incentives-api
+  label: Ordergroove Subscriptions API
+  slug: ordergroove-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-openapi.yml
-- filename: ordergroove-openapi.yml
-  format: yaml
-  label: Ordergroove Webhooks API
-  slug: ordergroove-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-subscriptions-api-openapi.yml
 certifications:
 - SOC 2
 - PCI DSS

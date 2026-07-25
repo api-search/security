@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: sf-compute-openapi.yml
+- filename: sf-compute-account-api-openapi.yml
   format: yaml
-  label: SF Compute Orders API
-  slug: orders-api
+  label: San Francisco Compute Company Account API
+  slug: sf-compute-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sf-compute/refs/heads/main/openapi/sf-compute-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sf-compute/refs/heads/main/openapi/sf-compute-account-api-openapi.yml
+- filename: sf-compute-images-api-openapi.yml
+  format: yaml
+  label: San Francisco Compute Company Images API
+  slug: sf-compute-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sf-compute/refs/heads/main/openapi/sf-compute-images-api-openapi.yml
+- filename: sf-compute-money-api-openapi.yml
+  format: yaml
+  label: San Francisco Compute Company Money API
+  slug: sf-compute-money-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sf-compute/refs/heads/main/openapi/sf-compute-money-api-openapi.yml
+- filename: sf-compute-nodes-api-openapi.yml
+  format: yaml
+  label: San Francisco Compute Company Nodes API
+  slug: sf-compute-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sf-compute/refs/heads/main/openapi/sf-compute-nodes-api-openapi.yml
+- filename: sf-compute-orders-api-openapi.yml
+  format: yaml
+  label: San Francisco Compute Company Orders API
+  slug: sf-compute-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sf-compute/refs/heads/main/openapi/sf-compute-orders-api-openapi.yml
+- filename: sf-compute-vms-api-openapi.yml
+  format: yaml
+  label: San Francisco Compute Company VMs API
+  slug: sf-compute-vms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sf-compute/refs/heads/main/openapi/sf-compute-vms-api-openapi.yml
 description: ''
 domains:
 - caa:

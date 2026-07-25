@@ -1,17 +1,47 @@
 ---
 api_specs:
-- filename: humanapi-admin-openapi.yml
+- filename: humanapi-admin-api-openapi.yml
   format: yaml
-  label: Human API - Admin API
-  slug: human-api-admin-api
+  label: HumanAPI admin API
+  slug: humanapi-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanapi/refs/heads/main/openapi/humanapi-admin-openapi.yml
-- filename: humanapi-auth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/humanapi/refs/heads/main/openapi/humanapi-admin-api-openapi.yml
+- filename: humanapi-connect-api-openapi.yml
   format: yaml
-  label: Human API - HAPI Auth Public
-  slug: human-api-hapi-auth-public
+  label: HumanAPI connect API
+  slug: humanapi-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanapi/refs/heads/main/openapi/humanapi-auth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/humanapi/refs/heads/main/openapi/humanapi-connect-api-openapi.yml
+- filename: humanapi-orders-api-openapi.yml
+  format: yaml
+  label: HumanAPI orders API
+  slug: humanapi-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanapi/refs/heads/main/openapi/humanapi-orders-api-openapi.yml
+- filename: humanapi-reports-api-openapi.yml
+  format: yaml
+  label: HumanAPI reports API
+  slug: humanapi-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanapi/refs/heads/main/openapi/humanapi-reports-api-openapi.yml
+- filename: humanapi-resources-api-openapi.yml
+  format: yaml
+  label: HumanAPI resources API
+  slug: humanapi-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanapi/refs/heads/main/openapi/humanapi-resources-api-openapi.yml
+- filename: humanapi-subscriptions-api-openapi.yml
+  format: yaml
+  label: HumanAPI subscriptions API
+  slug: humanapi-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanapi/refs/heads/main/openapi/humanapi-subscriptions-api-openapi.yml
+- filename: humanapi-users-api-openapi.yml
+  format: yaml
+  label: HumanAPI users API
+  slug: humanapi-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanapi/refs/heads/main/openapi/humanapi-users-api-openapi.yml
 description: ''
 domains:
 - caa:

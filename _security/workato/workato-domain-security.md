@@ -1,23 +1,65 @@
 ---
 api_specs:
-- filename: workato-developer-api-openapi.yml
+- filename: workato-data-tables-api-openapi.yml
   format: yaml
-  label: Workato
-  slug: workato
+  label: Workato Data Tables API
+  slug: workato-data-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-developer-api-openapi.yml
-- filename: workato-event-streams-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-data-tables-api-openapi.yml
+- filename: workato-genies-api-openapi.yml
   format: yaml
-  label: Workato Event Streams Public API
-  slug: event-streams-public-api
+  label: Workato Genies API
+  slug: workato-genies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-event-streams-openapi.yml
-- filename: workato-mcp-server-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-genies-api-openapi.yml
+- filename: workato-knowledge-bases-api-openapi.yml
   format: yaml
-  label: Workato MCP Server API
-  slug: mcp-server-api
+  label: Workato Knowledge Bases API
+  slug: workato-knowledge-bases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-mcp-server-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-knowledge-bases-api-openapi.yml
+- filename: workato-mcp-servers-api-openapi.yml
+  format: yaml
+  label: Workato MCP Servers API
+  slug: workato-mcp-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-mcp-servers-api-openapi.yml
+- filename: workato-messages-api-openapi.yml
+  format: yaml
+  label: Workato Messages API
+  slug: workato-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-messages-api-openapi.yml
+- filename: workato-policies-api-openapi.yml
+  format: yaml
+  label: Workato Policies API
+  slug: workato-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-policies-api-openapi.yml
+- filename: workato-recipes-api-openapi.yml
+  format: yaml
+  label: Workato Recipes API
+  slug: workato-recipes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-recipes-api-openapi.yml
+- filename: workato-skills-api-openapi.yml
+  format: yaml
+  label: Workato Skills API
+  slug: workato-skills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-skills-api-openapi.yml
+- filename: workato-tools-api-openapi.yml
+  format: yaml
+  label: Workato Tools API
+  slug: workato-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-tools-api-openapi.yml
+- filename: workato-user-groups-api-openapi.yml
+  format: yaml
+  label: Workato User Groups API
+  slug: workato-user-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-user-groups-api-openapi.yml
 description: ''
 domains:
 - caa:

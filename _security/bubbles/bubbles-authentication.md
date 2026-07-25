@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: bubbles-openapi.yml
+- filename: bubbles-data-api-openapi.yml
   format: yaml
   label: Bubble Data API
-  slug: bubble-data-api
+  slug: bubbles-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bubbles/refs/heads/main/openapi/bubbles-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bubbles/refs/heads/main/openapi/bubbles-data-api-openapi.yml
 auth_types:
 - http
 description: ''

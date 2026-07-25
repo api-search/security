@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: hashicorp-vault-openapi.yml
+- filename: hashicorp-auth-api-openapi.yml
   format: yaml
-  label: HashiCorp Vault
-  slug: hashicorp-vault
+  label: HashiCorp Auth API
+  slug: hashicorp-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/openapi/hashicorp-vault-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/openapi/hashicorp-auth-api-openapi.yml
+- filename: hashicorp-identity-api-openapi.yml
+  format: yaml
+  label: HashiCorp Identity API
+  slug: hashicorp-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/openapi/hashicorp-identity-api-openapi.yml
+- filename: hashicorp-secrets-api-openapi.yml
+  format: yaml
+  label: HashiCorp Secrets API
+  slug: hashicorp-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/openapi/hashicorp-secrets-api-openapi.yml
+- filename: hashicorp-system-api-openapi.yml
+  format: yaml
+  label: HashiCorp System API
+  slug: hashicorp-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/openapi/hashicorp-system-api-openapi.yml
 description: ''
 domains:
 - caa: []

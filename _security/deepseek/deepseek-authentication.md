@@ -1,30 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: deepseek-chat-completion-api-openapi.yml
+- filename: deepseek-chat-api-openapi.yml
   format: yaml
-  label: DeepSeek Chat Completion API
-  slug: deepseek-chat-completion-api
+  label: DeepSeek Chat API
+  slug: deepseek-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/openapi/deepseek-chat-completion-api-openapi.yml
-- filename: deepseek-fim-completion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/openapi/deepseek-chat-api-openapi.yml
+- filename: deepseek-completions-api-openapi.yml
   format: yaml
-  label: DeepSeek Fill-In-The-Middle (FIM) Completion API
-  slug: deepseek-fim-completion
+  label: DeepSeek Completions API
+  slug: deepseek-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/openapi/deepseek-fim-completion-openapi.yml
-- filename: deepseek-lists-models-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/openapi/deepseek-completions-api-openapi.yml
+- filename: deepseek-models-api-openapi.yml
   format: yaml
-  label: DeepSeek List Models API
-  slug: deepseek-lists-models-api
+  label: DeepSeek Models API
+  slug: deepseek-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/openapi/deepseek-lists-models-api-openapi.yml
-- filename: deepseek-user-balance-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/openapi/deepseek-models-api-openapi.yml
+- filename: deepseek-user-api-openapi.yml
   format: yaml
-  label: DeepSeek User Balance API
-  slug: deepseek-user-balance-api
+  label: DeepSeek User API
+  slug: deepseek-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/openapi/deepseek-user-balance-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/openapi/deepseek-user-api-openapi.yml
 auth_types:
 - http
 description: ''

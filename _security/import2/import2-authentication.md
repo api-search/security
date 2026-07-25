@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: import2-openapi.yml
+- filename: import2-imports-api-openapi.yml
   format: yaml
-  label: Import2 API
-  slug: import2-api
+  label: Import2 Imports API
+  slug: import2-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/openapi/import2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/openapi/import2-imports-api-openapi.yml
+- filename: import2-tools-api-openapi.yml
+  format: yaml
+  label: Import2 Tools API
+  slug: import2-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/openapi/import2-tools-api-openapi.yml
 auth_types:
 - http
 description: ''

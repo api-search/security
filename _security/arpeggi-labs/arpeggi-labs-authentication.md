@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: arpeggi-labs-kits-openapi.yml
+- filename: arpeggi-labs-stem-splitter-api-openapi.yml
   format: yaml
-  label: Kits AI API
-  slug: kits-ai-api
+  label: Arpeggi Labs Stem Splitter API
+  slug: arpeggi-labs-stem-splitter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/openapi/arpeggi-labs-kits-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/openapi/arpeggi-labs-stem-splitter-api-openapi.yml
+- filename: arpeggi-labs-vocal-separation-api-openapi.yml
+  format: yaml
+  label: Arpeggi Labs Vocal Separation API
+  slug: arpeggi-labs-vocal-separation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/openapi/arpeggi-labs-vocal-separation-api-openapi.yml
+- filename: arpeggi-labs-voice-blender-api-openapi.yml
+  format: yaml
+  label: Arpeggi Labs Voice Blender API
+  slug: arpeggi-labs-voice-blender-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/openapi/arpeggi-labs-voice-blender-api-openapi.yml
+- filename: arpeggi-labs-voice-conversion-api-openapi.yml
+  format: yaml
+  label: Arpeggi Labs Voice Conversion API
+  slug: arpeggi-labs-voice-conversion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/openapi/arpeggi-labs-voice-conversion-api-openapi.yml
+- filename: arpeggi-labs-voice-models-api-openapi.yml
+  format: yaml
+  label: Arpeggi Labs Voice Models API
+  slug: arpeggi-labs-voice-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/openapi/arpeggi-labs-voice-models-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,18 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yml
+- filename: paidy-payments-api-openapi.yml
   format: yaml
   label: Paidy Payments API
   slug: paidy-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paidy/refs/heads/main/openapi/openapi.yml
-- filename: openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/paidy/refs/heads/main/openapi/paidy-payments-api-openapi.yml
+- filename: paidy-tokens-api-openapi.yml
   format: yaml
   label: Paidy Tokens API
   slug: paidy-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paidy/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/paidy/refs/heads/main/openapi/paidy-tokens-api-openapi.yml
 auth_types:
 - http
 description: ''

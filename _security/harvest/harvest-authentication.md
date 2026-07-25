@@ -1,12 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: harvest-openapi.yml
+- filename: harvest-clients-api-openapi.yml
   format: yaml
-  label: Harvest API v2
-  slug: api-v2
+  label: Harvest Clients API
+  slug: harvest-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-clients-api-openapi.yml
+- filename: harvest-company-api-openapi.yml
+  format: yaml
+  label: Harvest Company API
+  slug: harvest-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-company-api-openapi.yml
+- filename: harvest-estimates-api-openapi.yml
+  format: yaml
+  label: Harvest Estimates API
+  slug: harvest-estimates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-estimates-api-openapi.yml
+- filename: harvest-expenses-api-openapi.yml
+  format: yaml
+  label: Harvest Expenses API
+  slug: harvest-expenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-expenses-api-openapi.yml
+- filename: harvest-invoices-api-openapi.yml
+  format: yaml
+  label: Harvest Invoices API
+  slug: harvest-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-invoices-api-openapi.yml
+- filename: harvest-projects-api-openapi.yml
+  format: yaml
+  label: Harvest Projects API
+  slug: harvest-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-projects-api-openapi.yml
+- filename: harvest-reports-api-openapi.yml
+  format: yaml
+  label: Harvest Reports API
+  slug: harvest-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-reports-api-openapi.yml
+- filename: harvest-roles-api-openapi.yml
+  format: yaml
+  label: Harvest Roles API
+  slug: harvest-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-roles-api-openapi.yml
+- filename: harvest-tasks-api-openapi.yml
+  format: yaml
+  label: Harvest Tasks API
+  slug: harvest-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-tasks-api-openapi.yml
+- filename: harvest-timeentries-api-openapi.yml
+  format: yaml
+  label: Harvest TimeEntries API
+  slug: harvest-timeentries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-timeentries-api-openapi.yml
+- filename: harvest-users-api-openapi.yml
+  format: yaml
+  label: Harvest Users API
+  slug: harvest-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-users-api-openapi.yml
 auth_types:
 - http
 description: ''

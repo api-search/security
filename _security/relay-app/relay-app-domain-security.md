@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: relay-app-openapi.yml
+- filename: relay-app-runs-api-openapi.yml
   format: yaml
-  label: Relay App Automation API
-  slug: relay-app-api
+  label: Relay App Runs API
+  slug: relay-app-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/openapi/relay-app-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/openapi/relay-app-runs-api-openapi.yml
+- filename: relay-app-webhooks-api-openapi.yml
+  format: yaml
+  label: Relay App Webhooks API
+  slug: relay-app-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/openapi/relay-app-webhooks-api-openapi.yml
+- filename: relay-app-workflows-api-openapi.yml
+  format: yaml
+  label: Relay App Workflows API
+  slug: relay-app-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/openapi/relay-app-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: university-of-birmingham-english-constructicon.yaml
+- filename: university-of-birmingham-constructions-api-openapi.yml
   format: yaml
-  label: English Constructicon API
-  slug: english-constructicon
+  label: University of Birmingham Constructions API
+  slug: university-of-birmingham-constructions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/openapi/university-of-birmingham-english-constructicon.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/openapi/university-of-birmingham-constructions-api-openapi.yml
 description: ''
 domains:
 - caa: []

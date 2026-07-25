@@ -1,18 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: indeed-employer-api-openapi.yml
+- filename: indeed-candidates-api-openapi.yml
   format: yaml
-  label: Indeed Job Sync API
-  slug: job-sync
+  label: Indeed Candidates API
+  slug: indeed-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/openapi/indeed-employer-api-openapi.yml
-- filename: indeed-employer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/openapi/indeed-candidates-api-openapi.yml
+- filename: indeed-employers-api-openapi.yml
   format: yaml
-  label: Indeed Employer API
-  slug: employer
+  label: Indeed Employers API
+  slug: indeed-employers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/openapi/indeed-employer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/openapi/indeed-employers-api-openapi.yml
+- filename: indeed-jobs-api-openapi.yml
+  format: yaml
+  label: Indeed Jobs API
+  slug: indeed-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/openapi/indeed-jobs-api-openapi.yml
 auth_types:
 - http
 - oauth2

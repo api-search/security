@@ -1,36 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: nookal-openapi.yml
-  format: yaml
-  label: Nookal Patients API
-  slug: nookal-patients-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/openapi/nookal-openapi.yml
-- filename: nookal-openapi.yml
+- filename: nookal-appointments-api-openapi.yml
   format: yaml
   label: Nookal Appointments API
   slug: nookal-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/openapi/nookal-openapi.yml
-- filename: nookal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/openapi/nookal-appointments-api-openapi.yml
+- filename: nookal-clinic-api-openapi.yml
   format: yaml
   label: Nookal Clinic API
   slug: nookal-clinic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/openapi/nookal-openapi.yml
-- filename: nookal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/openapi/nookal-clinic-api-openapi.yml
+- filename: nookal-invoices-api-openapi.yml
   format: yaml
   label: Nookal Invoices API
   slug: nookal-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/openapi/nookal-openapi.yml
-- filename: nookal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/openapi/nookal-invoices-api-openapi.yml
+- filename: nookal-patients-api-openapi.yml
+  format: yaml
+  label: Nookal Patients API
+  slug: nookal-patients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/openapi/nookal-patients-api-openapi.yml
+- filename: nookal-verification-api-openapi.yml
   format: yaml
   label: Nookal Verification API
   slug: nookal-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/openapi/nookal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/openapi/nookal-verification-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: platzi-fake-store-api-openapi.yml
+- filename: platzi-fake-store-api-auth-api-openapi.yml
   format: yaml
-  label: Platzi Fake Store API
-  slug: platzi-fake-store-api
+  label: Platzi Fake Store API Auth API
+  slug: platzi-fake-store-api-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/openapi/platzi-fake-store-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/openapi/platzi-fake-store-api-auth-api-openapi.yml
+- filename: platzi-fake-store-api-categories-api-openapi.yml
+  format: yaml
+  label: Platzi Fake Store API Categories API
+  slug: platzi-fake-store-api-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/openapi/platzi-fake-store-api-categories-api-openapi.yml
+- filename: platzi-fake-store-api-files-api-openapi.yml
+  format: yaml
+  label: Platzi Fake Store API Files API
+  slug: platzi-fake-store-api-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/openapi/platzi-fake-store-api-files-api-openapi.yml
+- filename: platzi-fake-store-api-products-api-openapi.yml
+  format: yaml
+  label: Platzi Fake Store API Products API
+  slug: platzi-fake-store-api-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/openapi/platzi-fake-store-api-products-api-openapi.yml
+- filename: platzi-fake-store-api-users-api-openapi.yml
+  format: yaml
+  label: Platzi Fake Store API Users API
+  slug: platzi-fake-store-api-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/openapi/platzi-fake-store-api-users-api-openapi.yml
 auth_types:
 - http
 description: ''

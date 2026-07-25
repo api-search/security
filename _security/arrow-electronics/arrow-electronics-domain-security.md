@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: arrow-electronics-openapi.yml
+- filename: arrow-electronics-en-api-openapi.yml
   format: yaml
-  label: Arrow Electronics Pricing and Availability API
-  slug: pricing-availability-api
+  label: Arrow Electronics En API
+  slug: arrow-electronics-en-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arrow-electronics/refs/heads/main/openapi/arrow-electronics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arrow-electronics/refs/heads/main/openapi/arrow-electronics-en-api-openapi.yml
 description: ''
 domains:
 - caa:

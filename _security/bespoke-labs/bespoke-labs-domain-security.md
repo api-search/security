@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: bespoke-labs-minicheck-openapi-original.json
-  format: json
-  label: Bespoke MiniCheck (Argus)
-  slug: bespoke-minicheck-argus
+- filename: bespoke-labs-minicheck-api-openapi.yml
+  format: yaml
+  label: Bespoke Labs Minicheck API
+  slug: bespoke-labs-minicheck-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bespoke-labs/refs/heads/main/openapi/bespoke-labs-minicheck-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/bespoke-labs/refs/heads/main/openapi/bespoke-labs-minicheck-api-openapi.yml
 description: ''
 domains:
 - caa: []

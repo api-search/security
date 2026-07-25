@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: modo-energy-openapi.yml
+- filename: modo-energy-ercot-api-openapi.yml
   format: yaml
-  label: Modo Energy
-  slug: modo-energy
+  label: Modo Energy ERCOT API
+  slug: modo-energy-ercot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modo-energy/refs/heads/main/openapi/modo-energy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modo-energy/refs/heads/main/openapi/modo-energy-ercot-api-openapi.yml
+- filename: modo-energy-gb-api-openapi.yml
+  format: yaml
+  label: Modo Energy GB API
+  slug: modo-energy-gb-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modo-energy/refs/heads/main/openapi/modo-energy-gb-api-openapi.yml
+- filename: modo-energy-nem-api-openapi.yml
+  format: yaml
+  label: Modo Energy NEM API
+  slug: modo-energy-nem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modo-energy/refs/heads/main/openapi/modo-energy-nem-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

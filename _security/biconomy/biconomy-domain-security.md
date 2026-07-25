@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: biconomy-supertransaction-api-openapi.yml
+- filename: biconomy-instructions-api-openapi.yml
   format: yaml
-  label: Biconomy Supertransaction API
-  slug: biconomy-supertransaction-api
+  label: Biconomy instructions API
+  slug: biconomy-instructions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/openapi/biconomy-supertransaction-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/openapi/biconomy-instructions-api-openapi.yml
+- filename: biconomy-mee-api-openapi.yml
+  format: yaml
+  label: Biconomy mee API
+  slug: biconomy-mee-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/openapi/biconomy-mee-api-openapi.yml
+- filename: biconomy-root-api-openapi.yml
+  format: yaml
+  label: Biconomy root API
+  slug: biconomy-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/openapi/biconomy-root-api-openapi.yml
 description: ''
 domains:
 - caa: []

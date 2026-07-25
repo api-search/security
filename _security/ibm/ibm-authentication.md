@@ -1,54 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: assistant-v2.json
-  format: json
-  label: IBM Watson Assistant
-  slug: ibm-watson-assistant
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/watson-developer-cloud/api-spec/master/assistant/assistant-v2.json
-- filename: natural-language-understanding.json
-  format: json
-  label: IBM Watson Natural Language Understanding
-  slug: ibm-watson-natural-language-understanding
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/watson-developer-cloud/api-spec/master/natural-language-understanding/natural-language-understanding.json
-- filename: language-translator.json
-  format: json
-  label: IBM Watson Language Translator
-  slug: ibm-watson-language-translator
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/watson-developer-cloud/api-spec/master/language-translator/language-translator.json
-- filename: speech-to-text.json
-  format: json
-  label: IBM Watson Speech to Text
-  slug: ibm-watson-speech-to-text
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/watson-developer-cloud/api-spec/master/speech-to-text/speech-to-text.json
-- filename: text-to-speech.json
-  format: json
-  label: IBM Watson Text to Speech
-  slug: ibm-watson-text-to-speech
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/watson-developer-cloud/api-spec/master/text-to-speech/text-to-speech.json
-- filename: ibm-cloud-iam.yml
+- filename: ibm-api-keys-api-openapi.yml
   format: yaml
-  label: IBM Cloud IAM Identity Services
-  slug: ibm-cloud-iam-identity-services
+  label: IBM API Keys API
+  slug: ibm-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-cloud-iam.yml
-- filename: ibm-cloud-iam.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-api-keys-api-openapi.yml
+- filename: ibm-claim-rules-api-openapi.yml
   format: yaml
-  label: IBM IAM Policy Management
-  slug: ibm-iam-policy-management
+  label: IBM Claim Rules API
+  slug: ibm-claim-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-cloud-iam.yml
-- filename: ibm-cloud-iam.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-claim-rules-api-openapi.yml
+- filename: ibm-policies-api-openapi.yml
   format: yaml
-  label: IBM IAM Access Groups
-  slug: ibm-iam-access-groups
+  label: IBM Policies API
+  slug: ibm-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-cloud-iam.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-policies-api-openapi.yml
+- filename: ibm-roles-api-openapi.yml
+  format: yaml
+  label: IBM Roles API
+  slug: ibm-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-roles-api-openapi.yml
+- filename: ibm-service-ids-api-openapi.yml
+  format: yaml
+  label: IBM Service IDs API
+  slug: ibm-service-ids-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-service-ids-api-openapi.yml
+- filename: ibm-tokens-api-openapi.yml
+  format: yaml
+  label: IBM Tokens API
+  slug: ibm-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-tokens-api-openapi.yml
+- filename: ibm-trusted-profiles-api-openapi.yml
+  format: yaml
+  label: IBM Trusted Profiles API
+  slug: ibm-trusted-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-trusted-profiles-api-openapi.yml
 auth_types:
 - http
 description: ''

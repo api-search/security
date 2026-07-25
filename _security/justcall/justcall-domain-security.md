@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: justcall-openapi.yml
+- filename: justcall-calls-api-openapi.yml
   format: yaml
-  label: JustCall REST API
-  slug: rest-api
+  label: JustCall Calls API
+  slug: justcall-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/openapi/justcall-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/openapi/justcall-calls-api-openapi.yml
+- filename: justcall-contacts-api-openapi.yml
+  format: yaml
+  label: JustCall Contacts API
+  slug: justcall-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/openapi/justcall-contacts-api-openapi.yml
+- filename: justcall-sms-api-openapi.yml
+  format: yaml
+  label: JustCall SMS API
+  slug: justcall-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/openapi/justcall-sms-api-openapi.yml
 description: ''
 domains:
 - caa:

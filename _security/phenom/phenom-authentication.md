@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: phenom-platform-openapi.yml
+- filename: phenom-applicants-api-openapi.yml
   format: yaml
-  label: Phenom Talent Experience Platform API
-  slug: phenom-talent-experience-platform-api
+  label: Phenom Applicants API
+  slug: phenom-applicants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phenom/refs/heads/main/openapi/phenom-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/phenom/refs/heads/main/openapi/phenom-applicants-api-openapi.yml
+- filename: phenom-applications-api-openapi.yml
+  format: yaml
+  label: Phenom Applications API
+  slug: phenom-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phenom/refs/heads/main/openapi/phenom-applications-api-openapi.yml
+- filename: phenom-candidates-api-openapi.yml
+  format: yaml
+  label: Phenom Candidates API
+  slug: phenom-candidates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phenom/refs/heads/main/openapi/phenom-candidates-api-openapi.yml
+- filename: phenom-jobs-api-openapi.yml
+  format: yaml
+  label: Phenom Jobs API
+  slug: phenom-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phenom/refs/heads/main/openapi/phenom-jobs-api-openapi.yml
+- filename: phenom-onboarding-api-openapi.yml
+  format: yaml
+  label: Phenom Onboarding API
+  slug: phenom-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phenom/refs/heads/main/openapi/phenom-onboarding-api-openapi.yml
+- filename: phenom-parsers-api-openapi.yml
+  format: yaml
+  label: Phenom Parsers API
+  slug: phenom-parsers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phenom/refs/heads/main/openapi/phenom-parsers-api-openapi.yml
+- filename: phenom-prediction-api-openapi.yml
+  format: yaml
+  label: Phenom Prediction API
+  slug: phenom-prediction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phenom/refs/heads/main/openapi/phenom-prediction-api-openapi.yml
+- filename: phenom-tags-api-openapi.yml
+  format: yaml
+  label: Phenom Tags API
+  slug: phenom-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phenom/refs/heads/main/openapi/phenom-tags-api-openapi.yml
+- filename: phenom-user-management-api-openapi.yml
+  format: yaml
+  label: Phenom User Management API
+  slug: phenom-user-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phenom/refs/heads/main/openapi/phenom-user-management-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: collectors-psa-openapi-original.json
-  format: json
-  label: PSA Public API
-  slug: psa-public-api
+- filename: collectors-psa-public-api-methods-api-openapi.yml
+  format: yaml
+  label: Collectors PSA Public API Methods API
+  slug: collectors-psa-public-api-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/openapi/collectors-psa-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/openapi/collectors-psa-public-api-methods-api-openapi.yml
 description: ''
 domains:
 - caa: []

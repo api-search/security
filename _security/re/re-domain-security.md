@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: re-openapi.yml
+- filename: re-general-api-openapi.yml
   format: yaml
-  label: Re Protocol API
-  slug: re-protocol-api
+  label: Re General API
+  slug: re-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/re/refs/heads/main/openapi/re-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/re/refs/heads/main/openapi/re-general-api-openapi.yml
+- filename: re-points-api-openapi.yml
+  format: yaml
+  label: Re Points API
+  slug: re-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/re/refs/heads/main/openapi/re-points-api-openapi.yml
+- filename: re-supply-api-openapi.yml
+  format: yaml
+  label: Re Supply API
+  slug: re-supply-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/re/refs/heads/main/openapi/re-supply-api-openapi.yml
+- filename: re-tvl-api-openapi.yml
+  format: yaml
+  label: Re TVL API
+  slug: re-tvl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/re/refs/heads/main/openapi/re-tvl-api-openapi.yml
+- filename: re-wallet-api-openapi.yml
+  format: yaml
+  label: Re Wallet API
+  slug: re-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/re/refs/heads/main/openapi/re-wallet-api-openapi.yml
 description: ''
 domains:
 - caa: []

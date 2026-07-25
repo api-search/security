@@ -1,41 +1,11 @@
 ---
 api_specs:
-- filename: kubecost-allocation-openapi.yml
+- filename: kubecost-model-api-openapi.yml
   format: yaml
-  label: Kubecost Allocation API
-  slug: allocation-api
+  label: Kubecost Model API
+  slug: kubecost-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubecost/refs/heads/main/openapi/kubecost-allocation-openapi.yml
-- filename: kubecost-assets-openapi.yml
-  format: yaml
-  label: Kubecost Assets API
-  slug: assets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubecost/refs/heads/main/openapi/kubecost-assets-openapi.yml
-- filename: kubecost-cloud-cost-openapi.yml
-  format: yaml
-  label: Kubecost Cloud Cost API
-  slug: cloud-cost-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubecost/refs/heads/main/openapi/kubecost-cloud-cost-openapi.yml
-- filename: kubecost-budget-openapi.yml
-  format: yaml
-  label: Kubecost Budget API
-  slug: budget-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubecost/refs/heads/main/openapi/kubecost-budget-openapi.yml
-- filename: kubecost-forecast-openapi.yml
-  format: yaml
-  label: Kubecost Forecast API
-  slug: forecast-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubecost/refs/heads/main/openapi/kubecost-forecast-openapi.yml
-- filename: kubecost-savings-openapi.yml
-  format: yaml
-  label: Kubecost Savings API
-  slug: savings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubecost/refs/heads/main/openapi/kubecost-savings-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kubecost/refs/heads/main/openapi/kubecost-model-api-openapi.yml
 description: ''
 domains:
 - caa: []

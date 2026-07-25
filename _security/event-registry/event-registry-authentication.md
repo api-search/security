@@ -2,12 +2,36 @@
 api_key_in:
 - query
 api_specs:
-- filename: documentation
+- filename: event-registry-articles-api-openapi.yml
   format: yaml
-  label: Event Registry News API
-  slug: news-api
+  label: Event Registry Articles API
+  slug: event-registry-articles-api
   spec_type: OpenAPI
-  url: https://newsapi.ai/documentation
+  url: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/openapi/event-registry-articles-api-openapi.yml
+- filename: event-registry-events-api-openapi.yml
+  format: yaml
+  label: Event Registry Events API
+  slug: event-registry-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/openapi/event-registry-events-api-openapi.yml
+- filename: event-registry-suggest-api-openapi.yml
+  format: yaml
+  label: Event Registry Suggest API
+  slug: event-registry-suggest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/openapi/event-registry-suggest-api-openapi.yml
+- filename: event-registry-topic-pages-api-openapi.yml
+  format: yaml
+  label: Event Registry Topic Pages API
+  slug: event-registry-topic-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/openapi/event-registry-topic-pages-api-openapi.yml
+- filename: event-registry-usage-api-openapi.yml
+  format: yaml
+  label: Event Registry Usage API
+  slug: event-registry-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/openapi/event-registry-usage-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

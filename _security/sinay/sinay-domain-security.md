@@ -1,35 +1,41 @@
 ---
 api_specs:
-- filename: sinay-openapi.yml
-  format: yaml
-  label: Sinay Ports and Vessels API
-  slug: sinay-ports-vessels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-openapi.yml
-- filename: sinay-openapi.yml
-  format: yaml
-  label: Sinay Metocean API
-  slug: sinay-metocean-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-openapi.yml
-- filename: sinay-openapi.yml
+- filename: sinay-co2-emission-api-openapi.yml
   format: yaml
   label: Sinay CO2 Emission API
   slug: sinay-co2-emission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-openapi.yml
-- filename: sinay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-co2-emission-api-openapi.yml
+- filename: sinay-eta-api-openapi.yml
   format: yaml
   label: Sinay ETA API
   slug: sinay-eta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-openapi.yml
-- filename: sinay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-eta-api-openapi.yml
+- filename: sinay-metocean-api-openapi.yml
+  format: yaml
+  label: Sinay Metocean API
+  slug: sinay-metocean-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-metocean-api-openapi.yml
+- filename: sinay-port-congestion-api-openapi.yml
   format: yaml
   label: Sinay Port Congestion API
   slug: sinay-port-congestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-port-congestion-api-openapi.yml
+- filename: sinay-ports-and-vessels-api-openapi.yml
+  format: yaml
+  label: Sinay Ports and Vessels API
+  slug: sinay-ports-and-vessels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-ports-and-vessels-api-openapi.yml
+- filename: sinay-usage-api-openapi.yml
+  format: yaml
+  label: Sinay Usage API
+  slug: sinay-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: helidon-observe-openapi.yml
+- filename: helidon-health-api-openapi.yml
   format: yaml
-  label: Helidon
-  slug: helidon
+  label: Helidon Health API
+  slug: helidon-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/openapi/helidon-observe-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/openapi/helidon-health-api-openapi.yml
+- filename: helidon-info-api-openapi.yml
+  format: yaml
+  label: Helidon Info API
+  slug: helidon-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/openapi/helidon-info-api-openapi.yml
+- filename: helidon-metrics-api-openapi.yml
+  format: yaml
+  label: Helidon Metrics API
+  slug: helidon-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/openapi/helidon-metrics-api-openapi.yml
+- filename: helidon-openapi-api-openapi.yml
+  format: yaml
+  label: Helidon OpenAPI API
+  slug: helidon-openapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/openapi/helidon-openapi-api-openapi.yml
 description: ''
 domains:
 - caa: []

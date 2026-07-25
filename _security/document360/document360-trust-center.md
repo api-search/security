@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: document360-document360-api-openapi.yml
+- filename: document360-articles-api-openapi.yml
   format: yaml
-  label: Document360 API
-  slug: document360-api
+  label: Document360 Articles API
+  slug: document360-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-document360-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-articles-api-openapi.yml
+- filename: document360-categories-api-openapi.yml
+  format: yaml
+  label: Document360 Categories API
+  slug: document360-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-categories-api-openapi.yml
+- filename: document360-drive-api-openapi.yml
+  format: yaml
+  label: Document360 Drive API
+  slug: document360-drive-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-drive-api-openapi.yml
+- filename: document360-project-versions-api-openapi.yml
+  format: yaml
+  label: Document360 Project Versions API
+  slug: document360-project-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-project-versions-api-openapi.yml
+- filename: document360-teams-api-openapi.yml
+  format: yaml
+  label: Document360 Teams API
+  slug: document360-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-teams-api-openapi.yml
+- filename: document360-users-api-openapi.yml
+  format: yaml
+  label: Document360 Users API
+  slug: document360-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-users-api-openapi.yml
 certifications:
 - SOC 2
 description: ''

@@ -1,11 +1,77 @@
 ---
 api_specs:
-- filename: amazon-memorydb-openapi-original.yml
+- filename: amazon-memorydb-acls-api-openapi.yml
   format: yaml
-  label: Amazon MemoryDB API
-  slug: memorydb-api
+  label: Amazon MemoryDB ACLs API
+  slug: amazon-memorydb-acls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-acls-api-openapi.yml
+- filename: amazon-memorydb-clusters-api-openapi.yml
+  format: yaml
+  label: Amazon MemoryDB Clusters API
+  slug: amazon-memorydb-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-clusters-api-openapi.yml
+- filename: amazon-memorydb-engineversions-api-openapi.yml
+  format: yaml
+  label: Amazon MemoryDB EngineVersions API
+  slug: amazon-memorydb-engineversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-engineversions-api-openapi.yml
+- filename: amazon-memorydb-events-api-openapi.yml
+  format: yaml
+  label: Amazon MemoryDB Events API
+  slug: amazon-memorydb-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-events-api-openapi.yml
+- filename: amazon-memorydb-nodetypes-api-openapi.yml
+  format: yaml
+  label: Amazon MemoryDB NodeTypes API
+  slug: amazon-memorydb-nodetypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-nodetypes-api-openapi.yml
+- filename: amazon-memorydb-parametergroups-api-openapi.yml
+  format: yaml
+  label: Amazon MemoryDB ParameterGroups API
+  slug: amazon-memorydb-parametergroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-parametergroups-api-openapi.yml
+- filename: amazon-memorydb-reservednodes-api-openapi.yml
+  format: yaml
+  label: Amazon MemoryDB ReservedNodes API
+  slug: amazon-memorydb-reservednodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-reservednodes-api-openapi.yml
+- filename: amazon-memorydb-shards-api-openapi.yml
+  format: yaml
+  label: Amazon MemoryDB Shards API
+  slug: amazon-memorydb-shards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-shards-api-openapi.yml
+- filename: amazon-memorydb-snapshots-api-openapi.yml
+  format: yaml
+  label: Amazon MemoryDB Snapshots API
+  slug: amazon-memorydb-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-snapshots-api-openapi.yml
+- filename: amazon-memorydb-subnetgroups-api-openapi.yml
+  format: yaml
+  label: Amazon MemoryDB SubnetGroups API
+  slug: amazon-memorydb-subnetgroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-subnetgroups-api-openapi.yml
+- filename: amazon-memorydb-tags-api-openapi.yml
+  format: yaml
+  label: Amazon MemoryDB Tags API
+  slug: amazon-memorydb-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-tags-api-openapi.yml
+- filename: amazon-memorydb-users-api-openapi.yml
+  format: yaml
+  label: Amazon MemoryDB Users API
+  slug: amazon-memorydb-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,18 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: microsoft-defender-for-endpoint-api-openapi.yml
+- filename: microsoft-defender-alerts-api-openapi.yml
   format: yaml
-  label: Microsoft Defender for Endpoint API
-  slug: microsoft-defender-for-endpoint-api
+  label: Microsoft Defender Alerts API
+  slug: microsoft-defender-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/openapi/microsoft-defender-for-endpoint-api-openapi.yml
-- filename: graph-explorer
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/openapi/microsoft-defender-alerts-api-openapi.yml
+- filename: microsoft-defender-machines-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Security API
-  slug: microsoft-graph-security-api
+  label: Microsoft Defender Machines API
+  slug: microsoft-defender-machines-api
   spec_type: OpenAPI
-  url: https://developer.microsoft.com/en-us/graph/graph-explorer
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/openapi/microsoft-defender-machines-api-openapi.yml
+- filename: microsoft-defender-vulnerabilities-api-openapi.yml
+  format: yaml
+  label: Microsoft Defender Vulnerabilities API
+  slug: microsoft-defender-vulnerabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/openapi/microsoft-defender-vulnerabilities-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

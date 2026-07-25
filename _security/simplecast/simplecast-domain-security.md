@@ -1,29 +1,35 @@
 ---
 api_specs:
-- filename: simplecast-openapi.yml
-  format: yaml
-  label: Simplecast Podcasts API
-  slug: simplecast-podcasts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/openapi/simplecast-openapi.yml
-- filename: simplecast-openapi.yml
-  format: yaml
-  label: Simplecast Episodes API
-  slug: simplecast-episodes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/openapi/simplecast-openapi.yml
-- filename: simplecast-openapi.yml
+- filename: simplecast-analytics-api-openapi.yml
   format: yaml
   label: Simplecast Analytics API
   slug: simplecast-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/openapi/simplecast-openapi.yml
-- filename: simplecast-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/openapi/simplecast-analytics-api-openapi.yml
+- filename: simplecast-distribution-api-openapi.yml
   format: yaml
   label: Simplecast Distribution API
   slug: simplecast-distribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/openapi/simplecast-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/openapi/simplecast-distribution-api-openapi.yml
+- filename: simplecast-episodes-api-openapi.yml
+  format: yaml
+  label: Simplecast Episodes API
+  slug: simplecast-episodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/openapi/simplecast-episodes-api-openapi.yml
+- filename: simplecast-metadata-api-openapi.yml
+  format: yaml
+  label: Simplecast Metadata API
+  slug: simplecast-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/openapi/simplecast-metadata-api-openapi.yml
+- filename: simplecast-podcasts-api-openapi.yml
+  format: yaml
+  label: Simplecast Podcasts API
+  slug: simplecast-podcasts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/openapi/simplecast-podcasts-api-openapi.yml
 description: ''
 domains:
 - caa: []

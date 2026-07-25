@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: dbnomics-openapi.yml
-  format: yaml
-  label: DBnomics Providers API
-  slug: dbnomics-providers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-openapi.yml
-- filename: dbnomics-openapi.yml
+- filename: dbnomics-datasets-api-openapi.yml
   format: yaml
   label: DBnomics Datasets API
   slug: dbnomics-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-openapi.yml
-- filename: dbnomics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-datasets-api-openapi.yml
+- filename: dbnomics-providers-api-openapi.yml
   format: yaml
-  label: DBnomics Series API
-  slug: dbnomics-series-api
+  label: DBnomics Providers API
+  slug: dbnomics-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-openapi.yml
-- filename: dbnomics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-providers-api-openapi.yml
+- filename: dbnomics-search-api-openapi.yml
   format: yaml
   label: DBnomics Search API
   slug: dbnomics-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-search-api-openapi.yml
+- filename: dbnomics-series-api-openapi.yml
+  format: yaml
+  label: DBnomics Series API
+  slug: dbnomics-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-series-api-openapi.yml
 description: ''
 domains:
 - caa: []

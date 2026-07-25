@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: justyo-yo-openapi.yml
+- filename: justyo-account-api-openapi.yml
   format: yaml
-  label: Yo API
-  slug: yo-api
+  label: justyo Account API
+  slug: justyo-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justyo/refs/heads/main/openapi/justyo-yo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/justyo/refs/heads/main/openapi/justyo-account-api-openapi.yml
+- filename: justyo-yo-api-openapi.yml
+  format: yaml
+  label: justyo Yo API
+  slug: justyo-yo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justyo/refs/heads/main/openapi/justyo-yo-api-openapi.yml
 description: ''
 domains:
 - caa: []

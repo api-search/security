@@ -3,12 +3,12 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: minerstat-openapi.yml
+- filename: minerstat-pools-api-openapi.yml
   format: yaml
-  label: Minerstat
-  slug: minerstat
+  label: Minerstat Pools API
+  slug: minerstat-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minerstat/refs/heads/main/openapi/minerstat-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/minerstat/refs/heads/main/openapi/minerstat-pools-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: devoted-patient-access-openapi.json
-  format: json
-  label: Patient Access API
-  slug: patient-access-api
+- filename: devoted-condition-api-openapi.yml
+  format: yaml
+  label: Devoted Health Condition API
+  slug: devoted-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted/refs/heads/main/openapi/devoted-patient-access-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/devoted/refs/heads/main/openapi/devoted-condition-api-openapi.yml
+- filename: devoted-encounter-api-openapi.yml
+  format: yaml
+  label: Devoted Health Encounter API
+  slug: devoted-encounter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted/refs/heads/main/openapi/devoted-encounter-api-openapi.yml
+- filename: devoted-explanationofbenefit-api-openapi.yml
+  format: yaml
+  label: Devoted Health ExplanationOfBenefit API
+  slug: devoted-explanationofbenefit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted/refs/heads/main/openapi/devoted-explanationofbenefit-api-openapi.yml
+- filename: devoted-medication-api-openapi.yml
+  format: yaml
+  label: Devoted Health Medication API
+  slug: devoted-medication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted/refs/heads/main/openapi/devoted-medication-api-openapi.yml
+- filename: devoted-patient-api-openapi.yml
+  format: yaml
+  label: Devoted Health Patient API
+  slug: devoted-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted/refs/heads/main/openapi/devoted-patient-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect

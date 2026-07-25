@@ -1,18 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yaml
+- filename: oracle-console-connections-api-openapi.yml
   format: yaml
-  label: Oracle Cloud Infrastructure REST API
-  slug: oracle-cloud-infrastructure-rest-api
+  label: Oracle Console Connections API
+  slug: oracle-console-connections-api
   spec_type: OpenAPI
-  url: https://docs.oracle.com/en-us/iaas/api/
-- filename: oci-compute-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-console-connections-api-openapi.yml
+- filename: oracle-images-api-openapi.yml
   format: yaml
-  label: OCI Compute API
-  slug: oci-compute-api
+  label: Oracle Images API
+  slug: oracle-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oci-compute-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-images-api-openapi.yml
+- filename: oracle-instances-api-openapi.yml
+  format: yaml
+  label: Oracle Instances API
+  slug: oracle-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-instances-api-openapi.yml
+- filename: oracle-shapes-api-openapi.yml
+  format: yaml
+  label: Oracle Shapes API
+  slug: oracle-shapes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-shapes-api-openapi.yml
+- filename: oracle-vnic-attachments-api-openapi.yml
+  format: yaml
+  label: Oracle VNIC Attachments API
+  slug: oracle-vnic-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-vnic-attachments-api-openapi.yml
+- filename: oracle-volume-attachments-api-openapi.yml
+  format: yaml
+  label: Oracle Volume Attachments API
+  slug: oracle-volume-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-volume-attachments-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: datto-rmm-openapi.json
-  format: json
-  label: Datto RMM API
-  slug: datto-rmm-api
+- filename: datto-v2-account-api-openapi.yml
+  format: yaml
+  label: Datto /v2/account API
+  slug: datto-v2-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/openapi/datto-rmm-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/openapi/datto-v2-account-api-openapi.yml
+- filename: datto-v2-activity-logs-api-openapi.yml
+  format: yaml
+  label: Datto /v2/activity-logs API
+  slug: datto-v2-activity-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/openapi/datto-v2-activity-logs-api-openapi.yml
+- filename: datto-v2-alert-api-openapi.yml
+  format: yaml
+  label: Datto /v2/alert API
+  slug: datto-v2-alert-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/openapi/datto-v2-alert-api-openapi.yml
+- filename: datto-v2-audit-api-openapi.yml
+  format: yaml
+  label: Datto /v2/audit API
+  slug: datto-v2-audit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/openapi/datto-v2-audit-api-openapi.yml
+- filename: datto-v2-device-api-openapi.yml
+  format: yaml
+  label: Datto /v2/device API
+  slug: datto-v2-device-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/openapi/datto-v2-device-api-openapi.yml
+- filename: datto-v2-filter-api-openapi.yml
+  format: yaml
+  label: Datto /v2/filter API
+  slug: datto-v2-filter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/openapi/datto-v2-filter-api-openapi.yml
+- filename: datto-v2-job-api-openapi.yml
+  format: yaml
+  label: Datto /v2/job API
+  slug: datto-v2-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/openapi/datto-v2-job-api-openapi.yml
+- filename: datto-v2-site-api-openapi.yml
+  format: yaml
+  label: Datto /v2/site API
+  slug: datto-v2-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/openapi/datto-v2-site-api-openapi.yml
+- filename: datto-v2-system-api-openapi.yml
+  format: yaml
+  label: Datto /v2/system API
+  slug: datto-v2-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/openapi/datto-v2-system-api-openapi.yml
+- filename: datto-v2-user-api-openapi.yml
+  format: yaml
+  label: Datto /v2/user API
+  slug: datto-v2-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/openapi/datto-v2-user-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

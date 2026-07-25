@@ -1,11 +1,149 @@
 ---
 api_specs:
-- filename: university-of-chile-research-data-dataverse.yaml
+- filename: university-of-chile-access-api-openapi.yml
   format: yaml
-  label: UChile Research Data Repository (Dataverse API)
-  slug: research-data-dataverse
+  label: University of Chile Access API
+  slug: university-of-chile-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-research-data-dataverse.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-access-api-openapi.yml
+- filename: university-of-chile-admin-api-openapi.yml
+  format: yaml
+  label: University of Chile Admin API
+  slug: university-of-chile-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-admin-api-openapi.yml
+- filename: university-of-chile-batch-api-openapi.yml
+  format: yaml
+  label: University of Chile Batch API
+  slug: university-of-chile-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-batch-api-openapi.yml
+- filename: university-of-chile-builtin-users-api-openapi.yml
+  format: yaml
+  label: University of Chile Builtin Users API
+  slug: university-of-chile-builtin-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-builtin-users-api-openapi.yml
+- filename: university-of-chile-datasets-api-openapi.yml
+  format: yaml
+  label: University of Chile Datasets API
+  slug: university-of-chile-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-datasets-api-openapi.yml
+- filename: university-of-chile-datatags-api-openapi.yml
+  format: yaml
+  label: University of Chile Datatags API
+  slug: university-of-chile-datatags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-datatags-api-openapi.yml
+- filename: university-of-chile-dataverses-api-openapi.yml
+  format: yaml
+  label: University of Chile Dataverses API
+  slug: university-of-chile-dataverses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-dataverses-api-openapi.yml
+- filename: university-of-chile-edit-api-openapi.yml
+  format: yaml
+  label: University of Chile Edit API
+  slug: university-of-chile-edit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-edit-api-openapi.yml
+- filename: university-of-chile-files-api-openapi.yml
+  format: yaml
+  label: University of Chile Files API
+  slug: university-of-chile-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-files-api-openapi.yml
+- filename: university-of-chile-harvest-api-openapi.yml
+  format: yaml
+  label: University of Chile Harvest API
+  slug: university-of-chile-harvest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-harvest-api-openapi.yml
+- filename: university-of-chile-inbox-api-openapi.yml
+  format: yaml
+  label: University of Chile Inbox API
+  slug: university-of-chile-inbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-inbox-api-openapi.yml
+- filename: university-of-chile-info-api-openapi.yml
+  format: yaml
+  label: University of Chile Info API
+  slug: university-of-chile-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-info-api-openapi.yml
+- filename: university-of-chile-ingest-api-openapi.yml
+  format: yaml
+  label: University of Chile Ingest API
+  slug: university-of-chile-ingest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-ingest-api-openapi.yml
+- filename: university-of-chile-licenses-api-openapi.yml
+  format: yaml
+  label: University of Chile Licenses API
+  slug: university-of-chile-licenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-licenses-api-openapi.yml
+- filename: university-of-chile-mail-api-openapi.yml
+  format: yaml
+  label: University of Chile Mail API
+  slug: university-of-chile-mail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-mail-api-openapi.yml
+- filename: university-of-chile-meta-api-openapi.yml
+  format: yaml
+  label: University of Chile Meta API
+  slug: university-of-chile-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-meta-api-openapi.yml
+- filename: university-of-chile-metadatablocks-api-openapi.yml
+  format: yaml
+  label: University of Chile Metadatablocks API
+  slug: university-of-chile-metadatablocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-metadatablocks-api-openapi.yml
+- filename: university-of-chile-mydata-api-openapi.yml
+  format: yaml
+  label: University of Chile Mydata API
+  slug: university-of-chile-mydata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-mydata-api-openapi.yml
+- filename: university-of-chile-notifications-api-openapi.yml
+  format: yaml
+  label: University of Chile Notifications API
+  slug: university-of-chile-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-notifications-api-openapi.yml
+- filename: university-of-chile-pids-api-openapi.yml
+  format: yaml
+  label: University of Chile Pids API
+  slug: university-of-chile-pids-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-pids-api-openapi.yml
+- filename: university-of-chile-roles-api-openapi.yml
+  format: yaml
+  label: University of Chile Roles API
+  slug: university-of-chile-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-roles-api-openapi.yml
+- filename: university-of-chile-search-api-openapi.yml
+  format: yaml
+  label: University of Chile Search API
+  slug: university-of-chile-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-search-api-openapi.yml
+- filename: university-of-chile-users-api-openapi.yml
+  format: yaml
+  label: University of Chile Users API
+  slug: university-of-chile-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-users-api-openapi.yml
+- filename: university-of-chile-workflows-api-openapi.yml
+  format: yaml
+  label: University of Chile Workflows API
+  slug: university-of-chile-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/openapi/university-of-chile-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []

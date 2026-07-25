@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: mattermost-openapi.yml
-  format: yaml
-  label: Mattermost REST API
-  slug: rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/openapi/mattermost-openapi.yml
 - filename: mattermost-asyncapi.yml
   format: yaml
   label: Mattermost WebSocket API
   slug: websocket-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/asyncapi/mattermost-asyncapi.yml
+- filename: mattermost-channels-api-openapi.yml
+  format: yaml
+  label: Mattermost Channels API
+  slug: mattermost-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/openapi/mattermost-channels-api-openapi.yml
+- filename: mattermost-posts-api-openapi.yml
+  format: yaml
+  label: Mattermost Posts API
+  slug: mattermost-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/openapi/mattermost-posts-api-openapi.yml
+- filename: mattermost-teams-api-openapi.yml
+  format: yaml
+  label: Mattermost Teams API
+  slug: mattermost-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/openapi/mattermost-teams-api-openapi.yml
+- filename: mattermost-users-api-openapi.yml
+  format: yaml
+  label: Mattermost Users API
+  slug: mattermost-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/openapi/mattermost-users-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

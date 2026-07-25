@@ -1,18 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: telstra-messaging-api-openapi.yml
+- filename: telstra-authentication-api-openapi.yml
   format: yaml
-  label: Telstra Messaging API
-  slug: telstra-messaging-api
+  label: Telstra Authentication API
+  slug: telstra-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/openapi/telstra-messaging-api-openapi.yml
-- filename: telstra-mobile-number-verification-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/openapi/telstra-authentication-api-openapi.yml
+- filename: telstra-healthcheck-api-openapi.yml
   format: yaml
-  label: Telstra Mobile Number Verification API
-  slug: telstra-mobile-number-verification-api
+  label: Telstra HealthCheck API
+  slug: telstra-healthcheck-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/openapi/telstra-mobile-number-verification-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/openapi/telstra-healthcheck-api-openapi.yml
+- filename: telstra-mms-api-openapi.yml
+  format: yaml
+  label: Telstra MMS API
+  slug: telstra-mms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/openapi/telstra-mms-api-openapi.yml
+- filename: telstra-provisioning-api-openapi.yml
+  format: yaml
+  label: Telstra Provisioning API
+  slug: telstra-provisioning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/openapi/telstra-provisioning-api-openapi.yml
+- filename: telstra-sms-api-openapi.yml
+  format: yaml
+  label: Telstra SMS API
+  slug: telstra-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/openapi/telstra-sms-api-openapi.yml
+- filename: telstra-verification-api-openapi.yml
+  format: yaml
+  label: Telstra Verification API
+  slug: telstra-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/openapi/telstra-verification-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: oracle-health-data-intelligence-openapi.yml
+- filename: oracle-health-data-intelligence-populations-api-openapi.yml
   format: yaml
-  label: Oracle Health Data Intelligence
-  slug: oracle-health-data-intelligence
+  label: Oracle Health Data Intelligence Populations API
+  slug: oracle-health-data-intelligence-populations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/openapi/oracle-health-data-intelligence-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/openapi/oracle-health-data-intelligence-populations-api-openapi.yml
 auth_types:
 - http
 description: ''

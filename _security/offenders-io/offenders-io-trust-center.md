@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: offenders-io-openapi.yml
+- filename: offenders-io-search-api-openapi.yml
   format: yaml
-  label: Offenders.io
-  slug: offenders-io
+  label: Offenders.io Search API
+  slug: offenders-io-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/offenders-io/refs/heads/main/openapi/offenders-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/offenders-io/refs/heads/main/openapi/offenders-io-search-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

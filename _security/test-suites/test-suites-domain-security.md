@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: test-suites-collections-api-openapi.yml
   format: yaml
-  label: Postman Collections API
-  slug: postman-collections-api
+  label: Test Suites Collections API
+  slug: test-suites-collections-api
   spec_type: OpenAPI
-  url: https://www.postman.com/postman/postman-public-workspace/
+  url: https://raw.githubusercontent.com/api-evangelist/test-suites/refs/heads/main/openapi/test-suites-collections-api-openapi.yml
+- filename: test-suites-workspaces-api-openapi.yml
+  format: yaml
+  label: Test Suites Workspaces API
+  slug: test-suites-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/test-suites/refs/heads/main/openapi/test-suites-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa:

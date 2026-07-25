@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: dexcom-dexcom-api.yml
+- filename: dexcom-alerts-api-openapi.yml
   format: yaml
-  label: Dexcom Developer API
-  slug: dexcom-api
+  label: Dexcom Alerts API
+  slug: dexcom-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-dexcom-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-alerts-api-openapi.yml
+- filename: dexcom-authentication-api-openapi.yml
+  format: yaml
+  label: Dexcom Authentication API
+  slug: dexcom-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-authentication-api-openapi.yml
+- filename: dexcom-calibrations-api-openapi.yml
+  format: yaml
+  label: Dexcom Calibrations API
+  slug: dexcom-calibrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-calibrations-api-openapi.yml
+- filename: dexcom-data-range-api-openapi.yml
+  format: yaml
+  label: Dexcom Data Range API
+  slug: dexcom-data-range-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-data-range-api-openapi.yml
+- filename: dexcom-devices-api-openapi.yml
+  format: yaml
+  label: Dexcom Devices API
+  slug: dexcom-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-devices-api-openapi.yml
+- filename: dexcom-estimated-glucose-values-api-openapi.yml
+  format: yaml
+  label: Dexcom Estimated Glucose Values API
+  slug: dexcom-estimated-glucose-values-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-estimated-glucose-values-api-openapi.yml
+- filename: dexcom-events-api-openapi.yml
+  format: yaml
+  label: Dexcom Events API
+  slug: dexcom-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-events-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

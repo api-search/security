@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: abuseipdb-apiv2-openapi.yml
+- filename: abuseipdb-blacklist-api-openapi.yml
   format: yaml
-  label: AbuseIPDB APIv2
-  slug: apiv2
+  label: AbuseIPDB Blacklist API
+  slug: abuseipdb-blacklist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/openapi/abuseipdb-apiv2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/openapi/abuseipdb-blacklist-api-openapi.yml
+- filename: abuseipdb-management-api-openapi.yml
+  format: yaml
+  label: AbuseIPDB Management API
+  slug: abuseipdb-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/openapi/abuseipdb-management-api-openapi.yml
+- filename: abuseipdb-reports-api-openapi.yml
+  format: yaml
+  label: AbuseIPDB Reports API
+  slug: abuseipdb-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/openapi/abuseipdb-reports-api-openapi.yml
+- filename: abuseipdb-reputation-api-openapi.yml
+  format: yaml
+  label: AbuseIPDB Reputation API
+  slug: abuseipdb-reputation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/openapi/abuseipdb-reputation-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

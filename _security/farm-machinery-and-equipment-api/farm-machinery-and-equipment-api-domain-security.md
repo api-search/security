@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: farm-machinery-and-equipment-api-openapi.yml
+- filename: farm-machinery-and-equipment-api-farm-machinery-api-openapi.yml
   format: yaml
-  label: Farm Machinery and Equipment API
-  slug: farm-machinery-and-equipment-api
+  label: Farm Machinery and Equipment API Farm Machinery API
+  slug: farm-machinery-and-equipment-api-farm-machinery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farm-machinery-and-equipment-api/refs/heads/main/openapi/farm-machinery-and-equipment-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/farm-machinery-and-equipment-api/refs/heads/main/openapi/farm-machinery-and-equipment-api-farm-machinery-api-openapi.yml
 description: ''
 domains:
 - caa: []

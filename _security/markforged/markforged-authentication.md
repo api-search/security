@@ -1,42 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: markforged-openapi.yml
+- filename: markforged-builds-api-openapi.yml
   format: yaml
-  label: Eiger Devices API
-  slug: eiger-devices-api
+  label: Markforged Builds API
+  slug: markforged-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-openapi.yml
-- filename: markforged-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-builds-api-openapi.yml
+- filename: markforged-devices-api-openapi.yml
   format: yaml
-  label: Eiger Builds API
-  slug: eiger-builds-api
+  label: Markforged Devices API
+  slug: markforged-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-openapi.yml
-- filename: markforged-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-devices-api-openapi.yml
+- filename: markforged-organizations-api-openapi.yml
   format: yaml
-  label: Eiger Print Jobs API
-  slug: eiger-print-jobs-api
+  label: Markforged Organizations API
+  slug: markforged-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-openapi.yml
-- filename: markforged-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-organizations-api-openapi.yml
+- filename: markforged-parts-api-openapi.yml
   format: yaml
-  label: Eiger Parts API
-  slug: eiger-parts-api
+  label: Markforged Parts API
+  slug: markforged-parts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-openapi.yml
-- filename: markforged-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-parts-api-openapi.yml
+- filename: markforged-print-jobs-api-openapi.yml
   format: yaml
-  label: Eiger Printed Parts API
-  slug: eiger-printed-parts-api
+  label: Markforged Print Jobs API
+  slug: markforged-print-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-openapi.yml
-- filename: markforged-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-print-jobs-api-openapi.yml
+- filename: markforged-printed-parts-api-openapi.yml
   format: yaml
-  label: Eiger Organizations API
-  slug: eiger-organizations-api
+  label: Markforged Printed Parts API
+  slug: markforged-printed-parts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-printed-parts-api-openapi.yml
 auth_types:
 - http
 description: ''

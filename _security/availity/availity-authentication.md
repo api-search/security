@@ -1,30 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: availity-eligibility-openapi.yml
+- filename: availity-auth-attachments-api-openapi.yml
   format: yaml
-  label: Availity Eligibility & Benefits API
-  slug: availity-eligibility-benefits-api
+  label: availity Auth Attachments API
+  slug: availity-auth-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-eligibility-openapi.yml
-- filename: availity-claim-status-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-auth-attachments-api-openapi.yml
+- filename: availity-claim-attachments-api-openapi.yml
   format: yaml
-  label: Availity Claim Status API
-  slug: availity-claims-status-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-claim-status-openapi.yml
-- filename: availity-claim-attachments-openapi.yml
-  format: yaml
-  label: Availity Claim Attachments API
+  label: availity Claim Attachments API
   slug: availity-claim-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-claim-attachments-openapi.yml
-- filename: availity-service-reviews-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-claim-attachments-api-openapi.yml
+- filename: availity-claim-status-api-openapi.yml
   format: yaml
-  label: Availity Service Reviews (Prior Authorization) API
+  label: availity Claim Status API
+  slug: availity-claim-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-claim-status-api-openapi.yml
+- filename: availity-eligibility-api-openapi.yml
+  format: yaml
+  label: availity Eligibility API
+  slug: availity-eligibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-eligibility-api-openapi.yml
+- filename: availity-enhanced-claim-status-api-openapi.yml
+  format: yaml
+  label: availity Enhanced Claim Status API
+  slug: availity-enhanced-claim-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-enhanced-claim-status-api-openapi.yml
+- filename: availity-is-auth-required-api-openapi.yml
+  format: yaml
+  label: availity Is Auth Required API
+  slug: availity-is-auth-required-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-is-auth-required-api-openapi.yml
+- filename: availity-service-reviews-api-openapi.yml
+  format: yaml
+  label: availity Service Reviews API
   slug: availity-service-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-service-reviews-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-service-reviews-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

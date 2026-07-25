@@ -1,29 +1,11 @@
 ---
 api_specs:
-- filename: mathpix-image-ocr-api-openapi.yml
-  format: yaml
-  label: Mathpix Image OCR API
-  slug: mathpix-image-ocr-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-image-ocr-api-openapi.yml
 - filename: mathpix-document-ocr-api-openapi.yml
   format: yaml
   label: Mathpix Document OCR API
   slug: mathpix-document-ocr-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-document-ocr-api-openapi.yml
-- filename: mathpix-convert-api-openapi.yml
-  format: yaml
-  label: Mathpix Convert API
-  slug: mathpix-convert-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-convert-api-openapi.yml
-- filename: mathpix-batch-api-openapi.yml
-  format: yaml
-  label: Mathpix Batch API
-  slug: mathpix-batch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-batch-api-openapi.yml
 - filename: mathpix-strokes-api-openapi.yml
   format: yaml
   label: Mathpix Strokes API
@@ -36,12 +18,30 @@ api_specs:
   slug: mathpix-app-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-app-tokens-api-openapi.yml
-- filename: mathpix-ocr-usage-api-openapi.yml
+- filename: mathpix-batches-api-openapi.yml
   format: yaml
-  label: Mathpix OCR Usage API
-  slug: mathpix-ocr-usage-api
+  label: Mathpix Batches API
+  slug: mathpix-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-ocr-usage-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-batches-api-openapi.yml
+- filename: mathpix-conversions-api-openapi.yml
+  format: yaml
+  label: Mathpix Conversions API
+  slug: mathpix-conversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-conversions-api-openapi.yml
+- filename: mathpix-images-api-openapi.yml
+  format: yaml
+  label: Mathpix Images API
+  slug: mathpix-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-images-api-openapi.yml
+- filename: mathpix-usage-api-openapi.yml
+  format: yaml
+  label: Mathpix Usage API
+  slug: mathpix-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -13,18 +13,6 @@ api_specs:
   slug: affinda-document-types-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-document-types-api-openapi.yml
-- filename: affinda-extractors-api-openapi.yml
-  format: yaml
-  label: Affinda Extractors API
-  slug: affinda-extractors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-extractors-api-openapi.yml
-- filename: affinda-document-splitters-api-openapi.yml
-  format: yaml
-  label: Affinda Document Splitters API
-  slug: affinda-document-splitters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-document-splitters-api-openapi.yml
 - filename: affinda-workspaces-api-openapi.yml
   format: yaml
   label: Affinda Workspaces API
@@ -37,12 +25,6 @@ api_specs:
   slug: affinda-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-organizations-api-openapi.yml
-- filename: affinda-invitations-api-openapi.yml
-  format: yaml
-  label: Affinda Invitations API
-  slug: affinda-invitations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-invitations-api-openapi.yml
 - filename: affinda-data-sources-api-openapi.yml
   format: yaml
   label: Affinda Data Sources API
@@ -85,6 +67,36 @@ api_specs:
   slug: affinda-search-match-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-search-match-api-openapi.yml
+- filename: affinda-add-x-hidden-to-endpoints-api-openapi.yml
+  format: yaml
+  label: Affinda Add x-hidden to endpoints API
+  slug: affinda-add-x-hidden-to-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-add-x-hidden-to-endpoints-api-openapi.yml
+- filename: affinda-deprecated-end-points-api-openapi.yml
+  format: yaml
+  label: Affinda Deprecated End Points API
+  slug: affinda-deprecated-end-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-deprecated-end-points-api-openapi.yml
+- filename: affinda-document-api-extractor-api-openapi.yml
+  format: yaml
+  label: Affinda Document API - Extractor API
+  slug: affinda-document-api-extractor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-document-api-extractor-api-openapi.yml
+- filename: affinda-document-api-splitting-api-openapi.yml
+  format: yaml
+  label: Affinda Document API - Splitting API
+  slug: affinda-document-api-splitting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-document-api-splitting-api-openapi.yml
+- filename: affinda-organization-api-invitation-api-openapi.yml
+  format: yaml
+  label: Affinda Organization API - Invitation API
+  slug: affinda-organization-api-invitation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-organization-api-invitation-api-openapi.yml
 auth_types:
 - http
 description: ''

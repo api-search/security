@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: 1worldsync-content1-openapi-original.json
-  format: json
-  label: 1WorldSync Content1 API
-  slug: 1worldsync-content1-api
+- filename: 1worldsync-fetchproduct-api-openapi.yml
+  format: yaml
+  label: 1WorldSync FetchProduct API
+  slug: 1worldsync-fetchproduct-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/openapi/1worldsync-content1-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/openapi/1worldsync-fetchproduct-api-openapi.yml
 description: ''
 domains:
 - caa: []

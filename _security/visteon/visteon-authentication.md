@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: visteon-phoenix-openapi.yml
+- filename: visteon-audio-api-openapi.yml
   format: yaml
-  label: Visteon Phoenix API
-  slug: phoenix-api
+  label: Visteon Audio API
+  slug: visteon-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visteon/refs/heads/main/openapi/visteon-phoenix-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/visteon/refs/heads/main/openapi/visteon-audio-api-openapi.yml
+- filename: visteon-media-api-openapi.yml
+  format: yaml
+  label: Visteon Media API
+  slug: visteon-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/visteon/refs/heads/main/openapi/visteon-media-api-openapi.yml
+- filename: visteon-navigation-api-openapi.yml
+  format: yaml
+  label: Visteon Navigation API
+  slug: visteon-navigation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/visteon/refs/heads/main/openapi/visteon-navigation-api-openapi.yml
+- filename: visteon-phone-api-openapi.yml
+  format: yaml
+  label: Visteon Phone API
+  slug: visteon-phone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/visteon/refs/heads/main/openapi/visteon-phone-api-openapi.yml
+- filename: visteon-screen-management-api-openapi.yml
+  format: yaml
+  label: Visteon Screen Management API
+  slug: visteon-screen-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/visteon/refs/heads/main/openapi/visteon-screen-management-api-openapi.yml
+- filename: visteon-vehicle-api-openapi.yml
+  format: yaml
+  label: Visteon Vehicle API
+  slug: visteon-vehicle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/visteon/refs/heads/main/openapi/visteon-vehicle-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

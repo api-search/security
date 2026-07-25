@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: sophos-central-siem-openapi.yml
+- filename: sophos-alerts-api-openapi.yml
   format: yaml
-  label: Sophos Central SIEM API
-  slug: sophos-central-siem-api
+  label: Sophos Alerts API
+  slug: sophos-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sophos/refs/heads/main/openapi/sophos-central-siem-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sophos/refs/heads/main/openapi/sophos-alerts-api-openapi.yml
+- filename: sophos-events-api-openapi.yml
+  format: yaml
+  label: Sophos Events API
+  slug: sophos-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sophos/refs/heads/main/openapi/sophos-events-api-openapi.yml
 description: ''
 domains:
 - caa: []

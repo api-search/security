@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: leo-labs-platform-openapi.yml
+- filename: leo-labs-catalog-api-openapi.yml
   format: yaml
-  label: LeoLabs Platform API
-  slug: platform
+  label: LeoLabs catalog API
+  slug: leo-labs-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leo-labs/refs/heads/main/openapi/leo-labs-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leo-labs/refs/heads/main/openapi/leo-labs-catalog-api-openapi.yml
+- filename: leo-labs-instruments-api-openapi.yml
+  format: yaml
+  label: LeoLabs instruments API
+  slug: leo-labs-instruments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leo-labs/refs/heads/main/openapi/leo-labs-instruments-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

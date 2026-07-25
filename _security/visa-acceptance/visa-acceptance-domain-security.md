@@ -1,23 +1,41 @@
 ---
 api_specs:
-- filename: visa-acceptance-payments-openapi.yml
+- filename: visa-acceptance-captures-api-openapi.yml
   format: yaml
-  label: Visa Acceptance Payments API
-  slug: visa-acceptance-payments
+  label: Visa Acceptance Captures API
+  slug: visa-acceptance-captures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/openapi/visa-acceptance-payments-openapi.yml
-- filename: visa-acceptance-payments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/openapi/visa-acceptance-captures-api-openapi.yml
+- filename: visa-acceptance-invoices-api-openapi.yml
   format: yaml
-  label: Visa Acceptance Invoicing API
-  slug: visa-acceptance-invoicing
+  label: Visa Acceptance Invoices API
+  slug: visa-acceptance-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/openapi/visa-acceptance-payments-openapi.yml
-- filename: visa-acceptance-payments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/openapi/visa-acceptance-invoices-api-openapi.yml
+- filename: visa-acceptance-pay-by-link-api-openapi.yml
   format: yaml
   label: Visa Acceptance Pay by Link API
-  slug: visa-acceptance-pay-by-link
+  slug: visa-acceptance-pay-by-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/openapi/visa-acceptance-payments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/openapi/visa-acceptance-pay-by-link-api-openapi.yml
+- filename: visa-acceptance-payments-api-openapi.yml
+  format: yaml
+  label: Visa Acceptance Payments API
+  slug: visa-acceptance-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/openapi/visa-acceptance-payments-api-openapi.yml
+- filename: visa-acceptance-refunds-api-openapi.yml
+  format: yaml
+  label: Visa Acceptance Refunds API
+  slug: visa-acceptance-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/openapi/visa-acceptance-refunds-api-openapi.yml
+- filename: visa-acceptance-voids-api-openapi.yml
+  format: yaml
+  label: Visa Acceptance Voids API
+  slug: visa-acceptance-voids-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/openapi/visa-acceptance-voids-api-openapi.yml
 description: ''
 domains:
 - caa:

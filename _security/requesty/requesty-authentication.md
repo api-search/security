@@ -1,30 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: requesty-openapi.yml
-  format: yaml
-  label: Requesty Chat Completions API
-  slug: requesty-chat-completions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-openapi.yml
-- filename: requesty-openapi.yml
-  format: yaml
-  label: Requesty Models API
-  slug: requesty-models-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-openapi.yml
-- filename: requesty-openapi.yml
-  format: yaml
-  label: Requesty Usage & Analytics API
-  slug: requesty-usage-analytics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-openapi.yml
-- filename: requesty-openapi.yml
+- filename: requesty-api-keys-api-openapi.yml
   format: yaml
   label: Requesty API Keys API
   slug: requesty-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-api-keys-api-openapi.yml
+- filename: requesty-chat-api-openapi.yml
+  format: yaml
+  label: Requesty Chat API
+  slug: requesty-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-chat-api-openapi.yml
+- filename: requesty-embeddings-api-openapi.yml
+  format: yaml
+  label: Requesty Embeddings API
+  slug: requesty-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-embeddings-api-openapi.yml
+- filename: requesty-models-api-openapi.yml
+  format: yaml
+  label: Requesty Models API
+  slug: requesty-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-models-api-openapi.yml
+- filename: requesty-usage-api-openapi.yml
+  format: yaml
+  label: Requesty Usage API
+  slug: requesty-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-usage-api-openapi.yml
 auth_types:
 - http
 description: ''

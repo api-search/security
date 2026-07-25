@@ -1,53 +1,59 @@
 ---
 api_specs:
-- filename: uplisting-openapi.yml
+- filename: uplisting-account-api-openapi.yml
   format: yaml
-  label: Uplisting Bookings API
-  slug: uplisting-bookings-api
+  label: Uplisting Account API
+  slug: uplisting-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-openapi.yml
-- filename: uplisting-openapi.yml
-  format: yaml
-  label: Uplisting Properties API
-  slug: uplisting-properties-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-openapi.yml
-- filename: uplisting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-account-api-openapi.yml
+- filename: uplisting-availability-api-openapi.yml
   format: yaml
   label: Uplisting Availability API
   slug: uplisting-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-openapi.yml
-- filename: uplisting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-availability-api-openapi.yml
+- filename: uplisting-bookings-api-openapi.yml
+  format: yaml
+  label: Uplisting Bookings API
+  slug: uplisting-bookings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-bookings-api-openapi.yml
+- filename: uplisting-calendar-api-openapi.yml
   format: yaml
   label: Uplisting Calendar API
   slug: uplisting-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-openapi.yml
-- filename: uplisting-openapi.yml
-  format: yaml
-  label: Uplisting Rates API
-  slug: uplisting-rates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-openapi.yml
-- filename: uplisting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-calendar-api-openapi.yml
+- filename: uplisting-guests-api-openapi.yml
   format: yaml
   label: Uplisting Guests API
   slug: uplisting-guests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-openapi.yml
-- filename: uplisting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-guests-api-openapi.yml
+- filename: uplisting-messages-api-openapi.yml
   format: yaml
   label: Uplisting Messages API
   slug: uplisting-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-openapi.yml
-- filename: uplisting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-messages-api-openapi.yml
+- filename: uplisting-properties-api-openapi.yml
+  format: yaml
+  label: Uplisting Properties API
+  slug: uplisting-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-properties-api-openapi.yml
+- filename: uplisting-rates-api-openapi.yml
+  format: yaml
+  label: Uplisting Rates API
+  slug: uplisting-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-rates-api-openapi.yml
+- filename: uplisting-webhooks-api-openapi.yml
   format: yaml
   label: Uplisting Webhooks API
   slug: uplisting-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

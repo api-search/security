@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: pdfendpoint-openapi.yml
+- filename: pdfendpoint-account-api-openapi.yml
   format: yaml
-  label: PDFEndpoint Convert HTML API
-  slug: convert-html-api
+  label: PDFEndpoint Account API
+  slug: pdfendpoint-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfendpoint/refs/heads/main/openapi/pdfendpoint-openapi.yml
-- filename: pdfendpoint-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pdfendpoint/refs/heads/main/openapi/pdfendpoint-account-api-openapi.yml
+- filename: pdfendpoint-convert-api-openapi.yml
   format: yaml
-  label: PDFEndpoint Convert URL API
-  slug: convert-url-api
+  label: PDFEndpoint Convert API
+  slug: pdfendpoint-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfendpoint/refs/heads/main/openapi/pdfendpoint-openapi.yml
-- filename: pdfendpoint-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pdfendpoint/refs/heads/main/openapi/pdfendpoint-convert-api-openapi.yml
+- filename: pdfendpoint-renders-api-openapi.yml
   format: yaml
-  label: PDFEndpoint Renders and Delivery API
-  slug: renders-delivery-api
+  label: PDFEndpoint Renders API
+  slug: pdfendpoint-renders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfendpoint/refs/heads/main/openapi/pdfendpoint-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pdfendpoint/refs/heads/main/openapi/pdfendpoint-renders-api-openapi.yml
 description: ''
 domains:
 - caa: []

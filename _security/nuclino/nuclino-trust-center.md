@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: nuclino-openapi.json
-  format: json
-  label: Nuclino API
-  slug: nuclino-api
+- filename: nuclino-collections-api-openapi.yml
+  format: yaml
+  label: Nuclino Collections API
+  slug: nuclino-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-collections-api-openapi.yml
+- filename: nuclino-files-api-openapi.yml
+  format: yaml
+  label: Nuclino Files API
+  slug: nuclino-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-files-api-openapi.yml
+- filename: nuclino-items-api-openapi.yml
+  format: yaml
+  label: Nuclino Items API
+  slug: nuclino-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-items-api-openapi.yml
+- filename: nuclino-teams-api-openapi.yml
+  format: yaml
+  label: Nuclino Teams API
+  slug: nuclino-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-teams-api-openapi.yml
+- filename: nuclino-users-api-openapi.yml
+  format: yaml
+  label: Nuclino Users API
+  slug: nuclino-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-users-api-openapi.yml
+- filename: nuclino-workspaces-api-openapi.yml
+  format: yaml
+  label: Nuclino Workspaces API
+  slug: nuclino-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-workspaces-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

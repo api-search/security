@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: microsoft-azure-service-fabric-openapi.yml
+- filename: microsoft-azure-service-fabric-clusters-api-openapi.yml
   format: yaml
-  label: Azure Service Fabric REST API
-  slug: rest-api
+  label: Azure Service Fabric Clusters API
+  slug: microsoft-azure-service-fabric-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-fabric/refs/heads/main/openapi/microsoft-azure-service-fabric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-fabric/refs/heads/main/openapi/microsoft-azure-service-fabric-clusters-api-openapi.yml
+- filename: microsoft-azure-service-fabric-operations-api-openapi.yml
+  format: yaml
+  label: Azure Service Fabric Operations API
+  slug: microsoft-azure-service-fabric-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-fabric/refs/heads/main/openapi/microsoft-azure-service-fabric-operations-api-openapi.yml
 description: ''
 domains:
 - caa:

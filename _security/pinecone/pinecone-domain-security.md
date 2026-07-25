@@ -1,41 +1,59 @@
 ---
 api_specs:
-- filename: pinecone-db-control-openapi.yaml
+- filename: pinecone-api-keys-api-openapi.yml
   format: yaml
-  label: Pinecone Database Control API
-  slug: pinecone-database-control
+  label: Pinecone API Keys API
+  slug: pinecone-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-db-control-openapi.yaml
-- filename: pinecone-db-data-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-api-keys-api-openapi.yml
+- filename: pinecone-bulk-operations-api-openapi.yml
   format: yaml
-  label: Pinecone Database Data API
-  slug: pinecone-database-data
+  label: Pinecone Bulk Operations API
+  slug: pinecone-bulk-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-db-data-openapi.yaml
-- filename: pinecone-inference-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-bulk-operations-api-openapi.yml
+- filename: pinecone-inference-api-openapi.yml
   format: yaml
   label: Pinecone Inference API
-  slug: pinecone-inference
+  slug: pinecone-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-inference-openapi.yaml
-- filename: pinecone-assistant-control-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-inference-api-openapi.yml
+- filename: pinecone-manage-assistants-api-openapi.yml
   format: yaml
-  label: Pinecone Assistant Control API
-  slug: pinecone-assistant-control
+  label: Pinecone Manage Assistants API
+  slug: pinecone-manage-assistants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-assistant-control-openapi.yaml
-- filename: pinecone-assistant-data-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-manage-assistants-api-openapi.yml
+- filename: pinecone-manage-indexes-api-openapi.yml
   format: yaml
-  label: Pinecone Assistant Data API
-  slug: pinecone-assistant-data
+  label: Pinecone Manage Indexes API
+  slug: pinecone-manage-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-assistant-data-openapi.yaml
-- filename: pinecone-admin-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-manage-indexes-api-openapi.yml
+- filename: pinecone-namespace-operations-api-openapi.yml
   format: yaml
-  label: Pinecone Admin API
-  slug: pinecone-admin
+  label: Pinecone Namespace Operations API
+  slug: pinecone-namespace-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-admin-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-namespace-operations-api-openapi.yml
+- filename: pinecone-organizations-api-openapi.yml
+  format: yaml
+  label: Pinecone Organizations API
+  slug: pinecone-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-organizations-api-openapi.yml
+- filename: pinecone-projects-api-openapi.yml
+  format: yaml
+  label: Pinecone Projects API
+  slug: pinecone-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-projects-api-openapi.yml
+- filename: pinecone-vector-operations-api-openapi.yml
+  format: yaml
+  label: Pinecone Vector Operations API
+  slug: pinecone-vector-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-vector-operations-api-openapi.yml
 description: ''
 domains:
 - caa:

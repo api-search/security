@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cnh-fieldops-openapi.yml
+- filename: cnh-equipment-api-openapi.yml
   format: yaml
-  label: CNH FieldOps API
-  slug: cnh-fieldops-api
+  label: CNH Equipment API
+  slug: cnh-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-fieldops-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-equipment-api-openapi.yml
+- filename: cnh-farm-setup-api-openapi.yml
+  format: yaml
+  label: CNH Farm Setup API
+  slug: cnh-farm-setup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-farm-setup-api-openapi.yml
+- filename: cnh-operations-api-openapi.yml
+  format: yaml
+  label: CNH Operations API
+  slug: cnh-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-operations-api-openapi.yml
+- filename: cnh-prescriptions-api-openapi.yml
+  format: yaml
+  label: CNH Prescriptions API
+  slug: cnh-prescriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-prescriptions-api-openapi.yml
+- filename: cnh-tokens-api-openapi.yml
+  format: yaml
+  label: CNH Tokens API
+  slug: cnh-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-tokens-api-openapi.yml
+- filename: cnh-vehicle-telemetry-api-openapi.yml
+  format: yaml
+  label: CNH Vehicle Telemetry API
+  slug: cnh-vehicle-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-vehicle-telemetry-api-openapi.yml
+- filename: cnh-webhooks-api-openapi.yml
+  format: yaml
+  label: CNH Webhooks API
+  slug: cnh-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

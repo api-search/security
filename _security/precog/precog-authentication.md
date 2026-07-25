@@ -1,12 +1,78 @@
 ---
 api_key_in: []
 api_specs:
-- filename: precog-public-http-api-openapi.yaml
+- filename: precog-admin-api-openapi.yml
   format: yaml
-  label: Precog Public HTTP API
-  slug: precog-public-http-api
+  label: Precog Admin API
+  slug: precog-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-public-http-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-admin-api-openapi.yml
+- filename: precog-data-model-api-openapi.yml
+  format: yaml
+  label: Precog Data Model API
+  slug: precog-data-model-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-data-model-api-openapi.yml
+- filename: precog-datasets-api-openapi.yml
+  format: yaml
+  label: Precog Datasets API
+  slug: precog-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-datasets-api-openapi.yml
+- filename: precog-destinations-api-openapi.yml
+  format: yaml
+  label: Precog Destinations API
+  slug: precog-destinations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-destinations-api-openapi.yml
+- filename: precog-issues-api-openapi.yml
+  format: yaml
+  label: Precog Issues API
+  slug: precog-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-issues-api-openapi.yml
+- filename: precog-kinds-api-openapi.yml
+  format: yaml
+  label: Precog Kinds API
+  slug: precog-kinds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-kinds-api-openapi.yml
+- filename: precog-loads-api-openapi.yml
+  format: yaml
+  label: Precog Loads API
+  slug: precog-loads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-loads-api-openapi.yml
+- filename: precog-log-api-openapi.yml
+  format: yaml
+  label: Precog Log API
+  slug: precog-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-log-api-openapi.yml
+- filename: precog-pipelines-api-openapi.yml
+  format: yaml
+  label: Precog Pipelines API
+  slug: precog-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-pipelines-api-openapi.yml
+- filename: precog-semantic-model-api-openapi.yml
+  format: yaml
+  label: Precog Semantic Model API
+  slug: precog-semantic-model-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-semantic-model-api-openapi.yml
+- filename: precog-sources-api-openapi.yml
+  format: yaml
+  label: Precog Sources API
+  slug: precog-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-sources-api-openapi.yml
+- filename: precog-stripe-api-openapi.yml
+  format: yaml
+  label: Precog Stripe API
+  slug: precog-stripe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-stripe-api-openapi.yml
 auth_types:
 - http
 - oauth2

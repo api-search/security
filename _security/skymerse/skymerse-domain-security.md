@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: skymerse-notamify-openapi-original.json
-  format: json
-  label: Notamify API V2
-  slug: notamify-api-v2
+- filename: skymerse-notams-api-openapi.yml
+  format: yaml
+  label: Skymerse Notams API
+  slug: skymerse-notams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skymerse/refs/heads/main/openapi/skymerse-notamify-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/skymerse/refs/heads/main/openapi/skymerse-notams-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: subex-revenue-assurance-openapi.yml
+- filename: subex-analytics-api-openapi.yml
   format: yaml
-  label: Subex Revenue Assurance & Fraud Management API
+  label: Subex Analytics API
+  slug: subex-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/openapi/subex-analytics-api-openapi.yml
+- filename: subex-fraud-management-api-openapi.yml
+  format: yaml
+  label: Subex Fraud Management API
+  slug: subex-fraud-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/openapi/subex-fraud-management-api-openapi.yml
+- filename: subex-reconciliation-api-openapi.yml
+  format: yaml
+  label: Subex Reconciliation API
+  slug: subex-reconciliation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/openapi/subex-reconciliation-api-openapi.yml
+- filename: subex-revenue-assurance-api-openapi.yml
+  format: yaml
+  label: Subex Revenue Assurance API
   slug: subex-revenue-assurance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/openapi/subex-revenue-assurance-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/openapi/subex-revenue-assurance-api-openapi.yml
 auth_types:
 - http
 description: ''

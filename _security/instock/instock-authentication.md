@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: instock-openapi.json
-  format: json
-  label: Instock API
-  slug: instock-api
+- filename: instock-articles-api-openapi.yml
+  format: yaml
+  label: Instock Articles API
+  slug: instock-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/openapi/instock-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/openapi/instock-articles-api-openapi.yml
+- filename: instock-inventory-api-openapi.yml
+  format: yaml
+  label: Instock Inventory API
+  slug: instock-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/openapi/instock-inventory-api-openapi.yml
+- filename: instock-moves-api-openapi.yml
+  format: yaml
+  label: Instock Moves API
+  slug: instock-moves-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/openapi/instock-moves-api-openapi.yml
+- filename: instock-orders-api-openapi.yml
+  format: yaml
+  label: Instock Orders API
+  slug: instock-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/openapi/instock-orders-api-openapi.yml
+- filename: instock-ordertasks-api-openapi.yml
+  format: yaml
+  label: Instock Ordertasks API
+  slug: instock-ordertasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/openapi/instock-ordertasks-api-openapi.yml
+- filename: instock-sites-api-openapi.yml
+  format: yaml
+  label: Instock Sites API
+  slug: instock-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/openapi/instock-sites-api-openapi.yml
 auth_types:
 - http
 description: ''

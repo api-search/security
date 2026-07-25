@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: swagger.yaml
+- filename: fdic-demographics-api-openapi.yml
   format: yaml
-  label: FDIC BankFind Suite API
-  slug: bankfind
+  label: FDIC Demographics API
+  slug: fdic-demographics-api
   spec_type: OpenAPI
-  url: https://api.fdic.gov/banks/docs/swagger.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/openapi/fdic-demographics-api-openapi.yml
+- filename: fdic-failures-api-openapi.yml
+  format: yaml
+  label: FDIC Failures API
+  slug: fdic-failures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/openapi/fdic-failures-api-openapi.yml
+- filename: fdic-financials-api-openapi.yml
+  format: yaml
+  label: FDIC Financials API
+  slug: fdic-financials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/openapi/fdic-financials-api-openapi.yml
+- filename: fdic-historical-api-openapi.yml
+  format: yaml
+  label: FDIC Historical API
+  slug: fdic-historical-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/openapi/fdic-historical-api-openapi.yml
+- filename: fdic-history-api-openapi.yml
+  format: yaml
+  label: FDIC History API
+  slug: fdic-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/openapi/fdic-history-api-openapi.yml
+- filename: fdic-structure-api-openapi.yml
+  format: yaml
+  label: FDIC Structure API
+  slug: fdic-structure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/openapi/fdic-structure-api-openapi.yml
+- filename: fdic-summary-of-deposits-api-openapi.yml
+  format: yaml
+  label: FDIC Summary of Deposits API
+  slug: fdic-summary-of-deposits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/openapi/fdic-summary-of-deposits-api-openapi.yml
 description: ''
 domains:
 - caa: []

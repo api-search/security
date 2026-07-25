@@ -2,12 +2,66 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-simpledb.yaml
+- filename: amazon-simpledb-action-batchdeleteattributes-api-openapi.yml
   format: yaml
-  label: Amazon SimpleDB API
-  slug: amazon-simpledb-api
+  label: 'Amazon SimpleDB #Action=BatchDeleteAttributes API'
+  slug: amazon-simpledb-action-batchdeleteattributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/openapi/amazon-simpledb.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/openapi/amazon-simpledb-action-batchdeleteattributes-api-openapi.yml
+- filename: amazon-simpledb-action-batchputattributes-api-openapi.yml
+  format: yaml
+  label: 'Amazon SimpleDB #Action=BatchPutAttributes API'
+  slug: amazon-simpledb-action-batchputattributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/openapi/amazon-simpledb-action-batchputattributes-api-openapi.yml
+- filename: amazon-simpledb-action-createdomain-api-openapi.yml
+  format: yaml
+  label: 'Amazon SimpleDB #Action=CreateDomain API'
+  slug: amazon-simpledb-action-createdomain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/openapi/amazon-simpledb-action-createdomain-api-openapi.yml
+- filename: amazon-simpledb-action-deleteattributes-api-openapi.yml
+  format: yaml
+  label: 'Amazon SimpleDB #Action=DeleteAttributes API'
+  slug: amazon-simpledb-action-deleteattributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/openapi/amazon-simpledb-action-deleteattributes-api-openapi.yml
+- filename: amazon-simpledb-action-deletedomain-api-openapi.yml
+  format: yaml
+  label: 'Amazon SimpleDB #Action=DeleteDomain API'
+  slug: amazon-simpledb-action-deletedomain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/openapi/amazon-simpledb-action-deletedomain-api-openapi.yml
+- filename: amazon-simpledb-action-domainmetadata-api-openapi.yml
+  format: yaml
+  label: 'Amazon SimpleDB #Action=DomainMetadata API'
+  slug: amazon-simpledb-action-domainmetadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/openapi/amazon-simpledb-action-domainmetadata-api-openapi.yml
+- filename: amazon-simpledb-action-getattributes-api-openapi.yml
+  format: yaml
+  label: 'Amazon SimpleDB #Action=GetAttributes API'
+  slug: amazon-simpledb-action-getattributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/openapi/amazon-simpledb-action-getattributes-api-openapi.yml
+- filename: amazon-simpledb-action-listdomains-api-openapi.yml
+  format: yaml
+  label: 'Amazon SimpleDB #Action=ListDomains API'
+  slug: amazon-simpledb-action-listdomains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/openapi/amazon-simpledb-action-listdomains-api-openapi.yml
+- filename: amazon-simpledb-action-putattributes-api-openapi.yml
+  format: yaml
+  label: 'Amazon SimpleDB #Action=PutAttributes API'
+  slug: amazon-simpledb-action-putattributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/openapi/amazon-simpledb-action-putattributes-api-openapi.yml
+- filename: amazon-simpledb-action-select-api-openapi.yml
+  format: yaml
+  label: 'Amazon SimpleDB #Action=Select API'
+  slug: amazon-simpledb-action-select-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/openapi/amazon-simpledb-action-select-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

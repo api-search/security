@@ -1,23 +1,35 @@
 ---
 api_specs:
-- filename: smarthealthit-openapi.yml
+- filename: smarthealthit-bulk-data-api-openapi.yml
   format: yaml
-  label: SMART Sandbox FHIR R4 API
-  slug: smarthealthit-sandbox-fhir-r4-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-openapi.yml
-- filename: smarthealthit-openapi.yml
-  format: yaml
-  label: SMART App Launch Authorization API
-  slug: smarthealthit-smart-app-launch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-openapi.yml
-- filename: smarthealthit-openapi.yml
-  format: yaml
-  label: SMART Bulk Data Export API
+  label: SMART Health IT Bulk Data API
   slug: smarthealthit-bulk-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-bulk-data-api-openapi.yml
+- filename: smarthealthit-clinical-records-api-openapi.yml
+  format: yaml
+  label: SMART Health IT Clinical Records API
+  slug: smarthealthit-clinical-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-clinical-records-api-openapi.yml
+- filename: smarthealthit-conformance-api-openapi.yml
+  format: yaml
+  label: SMART Health IT Conformance API
+  slug: smarthealthit-conformance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-conformance-api-openapi.yml
+- filename: smarthealthit-patients-api-openapi.yml
+  format: yaml
+  label: SMART Health IT Patients API
+  slug: smarthealthit-patients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-patients-api-openapi.yml
+- filename: smarthealthit-smart-app-launch-api-openapi.yml
+  format: yaml
+  label: SMART Health IT SMART App Launch API
+  slug: smarthealthit-smart-app-launch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-smart-app-launch-api-openapi.yml
 description: ''
 domains:
 - caa: []

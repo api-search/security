@@ -1,42 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sirion-openapi.yml
-  format: yaml
-  label: Sirion Contracts API
-  slug: sirion-contracts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirion/refs/heads/main/openapi/sirion-openapi.yml
-- filename: sirion-openapi.yml
+- filename: sirion-contract-requests-api-openapi.yml
   format: yaml
   label: Sirion Contract Requests API
   slug: sirion-contract-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirion/refs/heads/main/openapi/sirion-openapi.yml
-- filename: sirion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sirion/refs/heads/main/openapi/sirion-contract-requests-api-openapi.yml
+- filename: sirion-contracts-api-openapi.yml
+  format: yaml
+  label: Sirion Contracts API
+  slug: sirion-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sirion/refs/heads/main/openapi/sirion-contracts-api-openapi.yml
+- filename: sirion-metadata-clauses-api-openapi.yml
   format: yaml
   label: Sirion Metadata & Clauses API
   slug: sirion-metadata-clauses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirion/refs/heads/main/openapi/sirion-openapi.yml
-- filename: sirion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sirion/refs/heads/main/openapi/sirion-metadata-clauses-api-openapi.yml
+- filename: sirion-obligations-api-openapi.yml
   format: yaml
   label: Sirion Obligations API
   slug: sirion-obligations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirion/refs/heads/main/openapi/sirion-openapi.yml
-- filename: sirion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sirion/refs/heads/main/openapi/sirion-obligations-api-openapi.yml
+- filename: sirion-suppliers-api-openapi.yml
   format: yaml
-  label: Sirion Suppliers & Counterparties API
+  label: Sirion Suppliers API
   slug: sirion-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirion/refs/heads/main/openapi/sirion-openapi.yml
-- filename: sirion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sirion/refs/heads/main/openapi/sirion-suppliers-api-openapi.yml
+- filename: sirion-webhooks-api-openapi.yml
   format: yaml
-  label: Sirion Integrations & Webhooks API
-  slug: sirion-integrations-webhooks-api
+  label: Sirion Webhooks API
+  slug: sirion-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirion/refs/heads/main/openapi/sirion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sirion/refs/heads/main/openapi/sirion-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi.yaml
+- filename: amazon-kms-cryptographic-operations-api-openapi.yml
   format: yaml
-  label: Amazon KMS API
-  slug: amazon-kms-api
+  label: Amazon KMS Cryptographic Operations API
+  slug: amazon-kms-cryptographic-operations-api
   spec_type: OpenAPI
-  url: https://api.apis.guru/v2/specs/amazonaws.com/kms/2014-11-01/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/openapi/amazon-kms-cryptographic-operations-api-openapi.yml
+- filename: amazon-kms-keys-api-openapi.yml
+  format: yaml
+  label: Amazon KMS Keys API
+  slug: amazon-kms-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/openapi/amazon-kms-keys-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

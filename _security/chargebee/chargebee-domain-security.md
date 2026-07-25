@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: openapi
+- filename: chargebee-customers-api-openapi.yml
   format: yaml
-  label: Chargebee API v2
-  slug: chargebee-api
+  label: Chargebee Customers API
+  slug: chargebee-customers-api
   spec_type: OpenAPI
-  url: https://github.com/chargebee/openapi
+  url: https://raw.githubusercontent.com/api-evangelist/chargebee/refs/heads/main/openapi/chargebee-customers-api-openapi.yml
+- filename: chargebee-invoices-api-openapi.yml
+  format: yaml
+  label: Chargebee Invoices API
+  slug: chargebee-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chargebee/refs/heads/main/openapi/chargebee-invoices-api-openapi.yml
+- filename: chargebee-items-api-openapi.yml
+  format: yaml
+  label: Chargebee Items API
+  slug: chargebee-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chargebee/refs/heads/main/openapi/chargebee-items-api-openapi.yml
+- filename: chargebee-orders-api-openapi.yml
+  format: yaml
+  label: Chargebee Orders API
+  slug: chargebee-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chargebee/refs/heads/main/openapi/chargebee-orders-api-openapi.yml
+- filename: chargebee-payments-api-openapi.yml
+  format: yaml
+  label: Chargebee Payments API
+  slug: chargebee-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chargebee/refs/heads/main/openapi/chargebee-payments-api-openapi.yml
+- filename: chargebee-plans-api-openapi.yml
+  format: yaml
+  label: Chargebee Plans API
+  slug: chargebee-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chargebee/refs/heads/main/openapi/chargebee-plans-api-openapi.yml
+- filename: chargebee-quotes-api-openapi.yml
+  format: yaml
+  label: Chargebee Quotes API
+  slug: chargebee-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chargebee/refs/heads/main/openapi/chargebee-quotes-api-openapi.yml
+- filename: chargebee-subscriptions-api-openapi.yml
+  format: yaml
+  label: Chargebee Subscriptions API
+  slug: chargebee-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chargebee/refs/heads/main/openapi/chargebee-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []

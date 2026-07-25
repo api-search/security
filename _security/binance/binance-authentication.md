@@ -3,12 +3,6 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: binance-spot-trading-openapi.yml
-  format: yaml
-  label: Binance Spot Trading API
-  slug: spot-trading-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-spot-trading-openapi.yml
 - filename: binance-spot-websocket-api-asyncapi.yml
   format: yaml
   label: Binance Spot WebSocket API
@@ -21,114 +15,162 @@ api_specs:
   slug: spot-websocket-streams
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/asyncapi/binance-spot-websocket-streams-asyncapi.yml
-- filename: binance-usds-margined-futures-openapi.yml
+- filename: binance-account-api-openapi.yml
   format: yaml
-  label: Binance USD-S Margined Futures API
-  slug: usds-margined-futures-api
+  label: Binance Account API
+  slug: binance-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-usds-margined-futures-openapi.yml
-- filename: binance-coin-margined-futures-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-account-api-openapi.yml
+- filename: binance-assets-api-openapi.yml
   format: yaml
-  label: Binance COIN-M Futures API
-  slug: coin-margined-futures-api
+  label: Binance Assets API
+  slug: binance-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-coin-margined-futures-openapi.yml
-- filename: binance-european-options-openapi.yml
-  format: yaml
-  label: Binance European Options API
-  slug: european-options-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-european-options-openapi.yml
-- filename: binance-portfolio-margin-openapi.yml
-  format: yaml
-  label: Binance Portfolio Margin API
-  slug: portfolio-margin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-portfolio-margin-openapi.yml
-- filename: binance-margin-trading-openapi.yml
-  format: yaml
-  label: Binance Margin Trading API
-  slug: margin-trading-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-margin-trading-openapi.yml
-- filename: binance-wallet-openapi.yml
-  format: yaml
-  label: Binance Wallet API
-  slug: wallet-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-wallet-openapi.yml
-- filename: binance-sub-account-openapi.yml
-  format: yaml
-  label: Binance Sub-Account API
-  slug: sub-account-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-sub-account-openapi.yml
-- filename: binance-simple-earn-openapi.yml
-  format: yaml
-  label: Binance Simple Earn API
-  slug: simple-earn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-simple-earn-openapi.yml
-- filename: binance-mining-openapi.yml
-  format: yaml
-  label: Binance Mining API
-  slug: mining-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-mining-openapi.yml
-- filename: binance-copy-trading-openapi.yml
-  format: yaml
-  label: Binance Copy Trading API
-  slug: copy-trading-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-copy-trading-openapi.yml
-- filename: binance-convert-openapi.yml
-  format: yaml
-  label: Binance Convert API
-  slug: convert-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-convert-openapi.yml
-- filename: binance-pay-openapi.yml
-  format: yaml
-  label: Binance Pay API
-  slug: pay-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-pay-openapi.yml
-- filename: binance-algo-trading-openapi.yml
-  format: yaml
-  label: Binance Algo Trading API
-  slug: algo-trading-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-algo-trading-openapi.yml
-- filename: binance-auto-invest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-assets-api-openapi.yml
+- filename: binance-auto-invest-api-openapi.yml
   format: yaml
   label: Binance Auto-Invest API
-  slug: auto-invest-api
+  slug: binance-auto-invest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-auto-invest-openapi.yml
-- filename: binance-crypto-loan-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-auto-invest-api-openapi.yml
+- filename: binance-borrow-repay-api-openapi.yml
+  format: yaml
+  label: Binance Borrow/Repay API
+  slug: binance-borrow-repay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-borrow-repay-api-openapi.yml
+- filename: binance-convert-api-openapi.yml
+  format: yaml
+  label: Binance Convert API
+  slug: binance-convert-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-convert-api-openapi.yml
+- filename: binance-copy-trading-api-openapi.yml
+  format: yaml
+  label: Binance Copy Trading API
+  slug: binance-copy-trading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-copy-trading-api-openapi.yml
+- filename: binance-crypto-loan-api-openapi.yml
   format: yaml
   label: Binance Crypto Loan API
-  slug: crypto-loan-api
+  slug: binance-crypto-loan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-crypto-loan-openapi.yml
-- filename: binance-gift-card-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-crypto-loan-api-openapi.yml
+- filename: binance-deposits-api-openapi.yml
   format: yaml
-  label: Binance Gift Card API
-  slug: gift-card-api
+  label: Binance Deposits API
+  slug: binance-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-gift-card-openapi.yml
-- filename: binance-nft-openapi.yml
-  format: yaml
-  label: Binance NFT API
-  slug: nft-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-nft-openapi.yml
-- filename: binance-fiat-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-deposits-api-openapi.yml
+- filename: binance-fiat-api-openapi.yml
   format: yaml
   label: Binance Fiat API
-  slug: fiat-api
+  slug: binance-fiat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-fiat-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-fiat-api-openapi.yml
+- filename: binance-flexible-products-api-openapi.yml
+  format: yaml
+  label: Binance Flexible Products API
+  slug: binance-flexible-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-flexible-products-api-openapi.yml
+- filename: binance-futures-algo-api-openapi.yml
+  format: yaml
+  label: Binance Futures Algo API
+  slug: binance-futures-algo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-futures-algo-api-openapi.yml
+- filename: binance-general-api-openapi.yml
+  format: yaml
+  label: Binance General API
+  slug: binance-general-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-general-api-openapi.yml
+- filename: binance-gift-card-api-openapi.yml
+  format: yaml
+  label: Binance Gift Card API
+  slug: binance-gift-card-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-gift-card-api-openapi.yml
+- filename: binance-locked-products-api-openapi.yml
+  format: yaml
+  label: Binance Locked Products API
+  slug: binance-locked-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-locked-products-api-openapi.yml
+- filename: binance-market-data-api-openapi.yml
+  format: yaml
+  label: Binance Market Data API
+  slug: binance-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-market-data-api-openapi.yml
+- filename: binance-mining-api-openapi.yml
+  format: yaml
+  label: Binance Mining API
+  slug: binance-mining-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-mining-api-openapi.yml
+- filename: binance-nft-api-openapi.yml
+  format: yaml
+  label: Binance NFT API
+  slug: binance-nft-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-nft-api-openapi.yml
+- filename: binance-orders-api-openapi.yml
+  format: yaml
+  label: Binance Orders API
+  slug: binance-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-orders-api-openapi.yml
+- filename: binance-payouts-api-openapi.yml
+  format: yaml
+  label: Binance Payouts API
+  slug: binance-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-payouts-api-openapi.yml
+- filename: binance-refunds-api-openapi.yml
+  format: yaml
+  label: Binance Refunds API
+  slug: binance-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-refunds-api-openapi.yml
+- filename: binance-spot-algo-api-openapi.yml
+  format: yaml
+  label: Binance Spot Algo API
+  slug: binance-spot-algo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-spot-algo-api-openapi.yml
+- filename: binance-sub-account-assets-api-openapi.yml
+  format: yaml
+  label: Binance Sub-Account Assets API
+  slug: binance-sub-account-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-sub-account-assets-api-openapi.yml
+- filename: binance-sub-account-management-api-openapi.yml
+  format: yaml
+  label: Binance Sub-Account Management API
+  slug: binance-sub-account-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-sub-account-management-api-openapi.yml
+- filename: binance-trading-api-openapi.yml
+  format: yaml
+  label: Binance Trading API
+  slug: binance-trading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-trading-api-openapi.yml
+- filename: binance-user-data-stream-api-openapi.yml
+  format: yaml
+  label: Binance User Data Stream API
+  slug: binance-user-data-stream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-user-data-stream-api-openapi.yml
+- filename: binance-withdrawals-api-openapi.yml
+  format: yaml
+  label: Binance Withdrawals API
+  slug: binance-withdrawals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-withdrawals-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: supernormal-openapi-original.json
-  format: json
-  label: Supernormal API
-  slug: supernormal-api
+- filename: supernormal-agent-sessions-api-openapi.yml
+  format: yaml
+  label: supernormal Agent Sessions API
+  slug: supernormal-agent-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/openapi/supernormal-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/openapi/supernormal-agent-sessions-api-openapi.yml
+- filename: supernormal-agents-api-openapi.yml
+  format: yaml
+  label: supernormal Agents API
+  slug: supernormal-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/openapi/supernormal-agents-api-openapi.yml
+- filename: supernormal-calendar-events-api-openapi.yml
+  format: yaml
+  label: supernormal Calendar Events API
+  slug: supernormal-calendar-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/openapi/supernormal-calendar-events-api-openapi.yml
+- filename: supernormal-current-user-api-openapi.yml
+  format: yaml
+  label: supernormal Current User API
+  slug: supernormal-current-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/openapi/supernormal-current-user-api-openapi.yml
+- filename: supernormal-posts-api-openapi.yml
+  format: yaml
+  label: supernormal Posts API
+  slug: supernormal-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/openapi/supernormal-posts-api-openapi.yml
 description: ''
 domains:
 - caa:

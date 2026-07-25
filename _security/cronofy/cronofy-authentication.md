@@ -1,42 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cronofy-openapi.yml
-  format: yaml
-  label: Cronofy Calendars API
-  slug: calendars
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-openapi.yml
-- filename: cronofy-openapi.yml
-  format: yaml
-  label: Cronofy Events API
-  slug: events
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-openapi.yml
-- filename: cronofy-openapi.yml
+- filename: cronofy-availability-api-openapi.yml
   format: yaml
   label: Cronofy Availability API
-  slug: availability
+  slug: cronofy-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-openapi.yml
-- filename: cronofy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-availability-api-openapi.yml
+- filename: cronofy-calendars-api-openapi.yml
   format: yaml
-  label: Cronofy Smart Invites API
-  slug: smart-invites
+  label: Cronofy Calendars API
+  slug: cronofy-calendars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-openapi.yml
-- filename: cronofy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-calendars-api-openapi.yml
+- filename: cronofy-events-api-openapi.yml
   format: yaml
-  label: Cronofy Scheduling Links API
-  slug: scheduling-links
+  label: Cronofy Events API
+  slug: cronofy-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-openapi.yml
-- filename: cronofy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-events-api-openapi.yml
+- filename: cronofy-push-notifications-api-openapi.yml
   format: yaml
   label: Cronofy Push Notifications API
-  slug: push-notifications
+  slug: cronofy-push-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-push-notifications-api-openapi.yml
+- filename: cronofy-smart-invites-api-openapi.yml
+  format: yaml
+  label: Cronofy Smart Invites API
+  slug: cronofy-smart-invites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-smart-invites-api-openapi.yml
 auth_types:
 - http
 description: ''

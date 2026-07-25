@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: western-digital-my-cloud-home-openapi.yml
+- filename: western-digital-authentication-api-openapi.yml
   format: yaml
-  label: WD My Cloud Home API
-  slug: my-cloud-home
+  label: western-digital Authentication API
+  slug: western-digital-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-my-cloud-home-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-authentication-api-openapi.yml
+- filename: western-digital-configuration-api-openapi.yml
+  format: yaml
+  label: western-digital Configuration API
+  slug: western-digital-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-configuration-api-openapi.yml
+- filename: western-digital-device-api-openapi.yml
+  format: yaml
+  label: western-digital Device API
+  slug: western-digital-device-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-device-api-openapi.yml
+- filename: western-digital-files-api-openapi.yml
+  format: yaml
+  label: western-digital Files API
+  slug: western-digital-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-files-api-openapi.yml
+- filename: western-digital-search-api-openapi.yml
+  format: yaml
+  label: western-digital Search API
+  slug: western-digital-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-search-api-openapi.yml
+- filename: western-digital-sharing-api-openapi.yml
+  format: yaml
+  label: western-digital Sharing API
+  slug: western-digital-sharing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-sharing-api-openapi.yml
+- filename: western-digital-user-api-openapi.yml
+  format: yaml
+  label: western-digital User API
+  slug: western-digital-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-user-api-openapi.yml
 auth_types:
 - http
 description: ''

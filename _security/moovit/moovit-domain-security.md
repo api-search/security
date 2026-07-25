@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: moovit-public-transit-api-openapi.yml
+- filename: moovit-general-api-openapi.yml
   format: yaml
-  label: Moovit Public Transit API
-  slug: moovit-public-transit-api
+  label: Moovit General API
+  slug: moovit-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-public-transit-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-general-api-openapi.yml
+- filename: moovit-gtfsrealtime-api-openapi.yml
+  format: yaml
+  label: Moovit GTFSRealtime API
+  slug: moovit-gtfsrealtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-gtfsrealtime-api-openapi.yml
+- filename: moovit-lines-api-openapi.yml
+  format: yaml
+  label: Moovit Lines API
+  slug: moovit-lines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-lines-api-openapi.yml
+- filename: moovit-nearby-api-openapi.yml
+  format: yaml
+  label: Moovit Nearby API
+  slug: moovit-nearby-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-nearby-api-openapi.yml
+- filename: moovit-realtime-api-openapi.yml
+  format: yaml
+  label: Moovit RealTime API
+  slug: moovit-realtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-realtime-api-openapi.yml
+- filename: moovit-search-api-openapi.yml
+  format: yaml
+  label: Moovit Search API
+  slug: moovit-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-search-api-openapi.yml
+- filename: moovit-servicealerts-api-openapi.yml
+  format: yaml
+  label: Moovit ServiceAlerts API
+  slug: moovit-servicealerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-servicealerts-api-openapi.yml
+- filename: moovit-stops-api-openapi.yml
+  format: yaml
+  label: Moovit Stops API
+  slug: moovit-stops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-stops-api-openapi.yml
+- filename: moovit-tripplan-api-openapi.yml
+  format: yaml
+  label: Moovit TripPlan API
+  slug: moovit-tripplan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-tripplan-api-openapi.yml
 description: ''
 domains:
 - caa: []

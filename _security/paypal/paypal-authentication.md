@@ -1,84 +1,228 @@
 ---
 api_key_in: []
 api_specs:
-- filename: paypal-billing-subscriptions-openapi-original.yml
+- filename: paypal-activate-api-openapi.yml
   format: yaml
-  label: PayPal Billing Subscriptions API
-  slug: paypal-billing-subscriptions-api
+  label: PayPal Activate API
+  slug: paypal-activate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-billing-subscriptions-openapi-original.yml
-- filename: paypal-catalog-products-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-activate-api-openapi.yml
+- filename: paypal-authorizations-api-openapi.yml
   format: yaml
-  label: PayPal Catalog Products API
-  slug: paypal-products-api
+  label: PayPal Authorizations API
+  slug: paypal-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-catalog-products-openapi-original.yml
-- filename: paypal-checkout-orders-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-authorizations-api-openapi.yml
+- filename: paypal-balances-api-openapi.yml
+  format: yaml
+  label: PayPal Balances API
+  slug: paypal-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-balances-api-openapi.yml
+- filename: paypal-billing-api-openapi.yml
+  format: yaml
+  label: PayPal Billing API
+  slug: paypal-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-billing-api-openapi.yml
+- filename: paypal-cancel-api-openapi.yml
+  format: yaml
+  label: PayPal Cancel API
+  slug: paypal-cancel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-cancel-api-openapi.yml
+- filename: paypal-capture-api-openapi.yml
+  format: yaml
+  label: PayPal Capture API
+  slug: paypal-capture-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-capture-api-openapi.yml
+- filename: paypal-captures-api-openapi.yml
+  format: yaml
+  label: PayPal Captures API
+  slug: paypal-captures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-captures-api-openapi.yml
+- filename: paypal-deactivate-api-openapi.yml
+  format: yaml
+  label: PayPal Deactivate API
+  slug: paypal-deactivate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-deactivate-api-openapi.yml
+- filename: paypal-disputes-actions-api-openapi.yml
+  format: yaml
+  label: PayPal Disputes-Actions API
+  slug: paypal-disputes-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-disputes-actions-api-openapi.yml
+- filename: paypal-disputes-api-openapi.yml
+  format: yaml
+  label: PayPal Disputes API
+  slug: paypal-disputes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-disputes-api-openapi.yml
+- filename: paypal-invoices-api-openapi.yml
+  format: yaml
+  label: PayPal Invoices API
+  slug: paypal-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-invoices-api-openapi.yml
+- filename: paypal-orders-api-openapi.yml
   format: yaml
   label: PayPal Orders API
   slug: paypal-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-checkout-orders-openapi-original.yml
-- filename: paypal-customer-disputes-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-orders-api-openapi.yml
+- filename: paypal-partner-referrals-api-openapi.yml
   format: yaml
-  label: PayPal Customer Disputes API
-  slug: paypal-disputes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-customer-disputes-openapi-original.yml
-- filename: paypal-customer-partner-referrals-openapi-original.yml
-  format: yaml
-  label: PayPal Partner Referrals API
+  label: PayPal Partner-Referrals API
   slug: paypal-partner-referrals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-customer-partner-referrals-openapi-original.yml
-- filename: paypal-invoicing-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-partner-referrals-api-openapi.yml
+- filename: paypal-payment-tokens-api-openapi.yml
   format: yaml
-  label: PayPal Invoicing API
-  slug: paypal-invoicing-api
+  label: PayPal Payment-Tokens API
+  slug: paypal-payment-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-invoicing-openapi-original.yml
-- filename: paypal-notification-webhooks-openapi-original.yml
-  format: yaml
-  label: PayPal Notification Webhooks API
-  slug: paypal-notification-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-notification-webhooks-openapi-original.yml
-- filename: paypal-payment-experience-openapi-original.yml
-  format: yaml
-  label: PayPal Payment Experience API
-  slug: paypal-payment-experience-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-payment-experience-openapi-original.yml
-- filename: paypal-payments-openapi-original.yml
-  format: yaml
-  label: PayPal Payments API
-  slug: paypal-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-payments-openapi-original.yml
-- filename: paypal-payouts-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-payment-tokens-api-openapi.yml
+- filename: paypal-payouts-api-openapi.yml
   format: yaml
   label: PayPal Payouts API
   slug: paypal-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-payouts-openapi-original.yml
-- filename: paypal-reporting-transactions-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-payouts-api-openapi.yml
+- filename: paypal-payouts-item-api-openapi.yml
   format: yaml
-  label: PayPal Transaction Search (Reporting) API
-  slug: paypal-reporting-transactions-api
+  label: PayPal Payouts-Item API
+  slug: paypal-payouts-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-reporting-transactions-openapi-original.yml
-- filename: paypal-shipping-tracking-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-payouts-item-api-openapi.yml
+- filename: paypal-plans-api-openapi.yml
   format: yaml
-  label: PayPal Shipping Tracking API
-  slug: paypal-shipping-tracking-api
+  label: PayPal Plans API
+  slug: paypal-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-shipping-tracking-openapi-original.yml
-- filename: paypal-vault-payment-tokens-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-plans-api-openapi.yml
+- filename: paypal-pricing-api-openapi.yml
   format: yaml
-  label: PayPal Vault Payment Tokens API
-  slug: paypal-payment-tokens-api
+  label: PayPal Pricing API
+  slug: paypal-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-vault-payment-tokens-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-pricing-api-openapi.yml
+- filename: paypal-products-api-openapi.yml
+  format: yaml
+  label: PayPal Products API
+  slug: paypal-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-products-api-openapi.yml
+- filename: paypal-refunds-api-openapi.yml
+  format: yaml
+  label: PayPal Refunds API
+  slug: paypal-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-refunds-api-openapi.yml
+- filename: paypal-revise-api-openapi.yml
+  format: yaml
+  label: PayPal Revise API
+  slug: paypal-revise-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-revise-api-openapi.yml
+- filename: paypal-schemes-api-openapi.yml
+  format: yaml
+  label: PayPal Schemes API
+  slug: paypal-schemes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-schemes-api-openapi.yml
+- filename: paypal-search-invoices-api-openapi.yml
+  format: yaml
+  label: PayPal Search-Invoices API
+  slug: paypal-search-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-search-invoices-api-openapi.yml
+- filename: paypal-setup-tokens-api-openapi.yml
+  format: yaml
+  label: PayPal Setup-Tokens API
+  slug: paypal-setup-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-setup-tokens-api-openapi.yml
+- filename: paypal-simulate-event-api-openapi.yml
+  format: yaml
+  label: PayPal Simulate-Event API
+  slug: paypal-simulate-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-simulate-event-api-openapi.yml
+- filename: paypal-subscriptions-api-openapi.yml
+  format: yaml
+  label: PayPal Subscriptions API
+  slug: paypal-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-subscriptions-api-openapi.yml
+- filename: paypal-suspend-api-openapi.yml
+  format: yaml
+  label: PayPal Suspend API
+  slug: paypal-suspend-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-suspend-api-openapi.yml
+- filename: paypal-templates-api-openapi.yml
+  format: yaml
+  label: PayPal Templates API
+  slug: paypal-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-templates-api-openapi.yml
+- filename: paypal-trackers-api-openapi.yml
+  format: yaml
+  label: PayPal Trackers API
+  slug: paypal-trackers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-trackers-api-openapi.yml
+- filename: paypal-trackers-batch-api-openapi.yml
+  format: yaml
+  label: PayPal Trackers-Batch API
+  slug: paypal-trackers-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-trackers-batch-api-openapi.yml
+- filename: paypal-transactions-api-openapi.yml
+  format: yaml
+  label: PayPal Transactions API
+  slug: paypal-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-transactions-api-openapi.yml
+- filename: paypal-verify-webhook-signature-api-openapi.yml
+  format: yaml
+  label: PayPal Verify-Webhook-Signature API
+  slug: paypal-verify-webhook-signature-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-verify-webhook-signature-api-openapi.yml
+- filename: paypal-web-profiles-api-openapi.yml
+  format: yaml
+  label: PayPal Web-Profiles API
+  slug: paypal-web-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-web-profiles-api-openapi.yml
+- filename: paypal-webhooks-api-openapi.yml
+  format: yaml
+  label: PayPal Webhooks API
+  slug: paypal-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-webhooks-api-openapi.yml
+- filename: paypal-webhooks-event-types-api-openapi.yml
+  format: yaml
+  label: PayPal Webhooks-Event-Types API
+  slug: paypal-webhooks-event-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-webhooks-event-types-api-openapi.yml
+- filename: paypal-webhooks-events-api-openapi.yml
+  format: yaml
+  label: PayPal Webhooks-Events API
+  slug: paypal-webhooks-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-webhooks-events-api-openapi.yml
+- filename: paypal-webhooks-lookup-api-openapi.yml
+  format: yaml
+  label: PayPal Webhooks-Lookup API
+  slug: paypal-webhooks-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-webhooks-lookup-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: treasury-prime-openapi.yml
+- filename: treasury-prime-accounts-api-openapi.yml
   format: yaml
-  label: Treasury Prime Bank API
-  slug: rest-api
+  label: Treasury Prime Accounts API
+  slug: treasury-prime-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/openapi/treasury-prime-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/openapi/treasury-prime-accounts-api-openapi.yml
+- filename: treasury-prime-businesses-api-openapi.yml
+  format: yaml
+  label: Treasury Prime Businesses API
+  slug: treasury-prime-businesses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/openapi/treasury-prime-businesses-api-openapi.yml
+- filename: treasury-prime-cards-api-openapi.yml
+  format: yaml
+  label: Treasury Prime Cards API
+  slug: treasury-prime-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/openapi/treasury-prime-cards-api-openapi.yml
+- filename: treasury-prime-health-api-openapi.yml
+  format: yaml
+  label: Treasury Prime Health API
+  slug: treasury-prime-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/openapi/treasury-prime-health-api-openapi.yml
+- filename: treasury-prime-payments-api-openapi.yml
+  format: yaml
+  label: Treasury Prime Payments API
+  slug: treasury-prime-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/openapi/treasury-prime-payments-api-openapi.yml
+- filename: treasury-prime-persons-api-openapi.yml
+  format: yaml
+  label: Treasury Prime Persons API
+  slug: treasury-prime-persons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/openapi/treasury-prime-persons-api-openapi.yml
+- filename: treasury-prime-statements-api-openapi.yml
+  format: yaml
+  label: Treasury Prime Statements API
+  slug: treasury-prime-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/openapi/treasury-prime-statements-api-openapi.yml
+- filename: treasury-prime-transactions-api-openapi.yml
+  format: yaml
+  label: Treasury Prime Transactions API
+  slug: treasury-prime-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/openapi/treasury-prime-transactions-api-openapi.yml
+- filename: treasury-prime-webhooks-api-openapi.yml
+  format: yaml
+  label: Treasury Prime Webhooks API
+  slug: treasury-prime-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/openapi/treasury-prime-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

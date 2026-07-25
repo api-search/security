@@ -1,23 +1,41 @@
 ---
 api_specs:
-- filename: flightcontrol-openapi.yml
+- filename: flightcontrol-cloudfront-api-openapi.yml
   format: yaml
-  label: Flightcontrol Management API
-  slug: flightcontrol-management-api
+  label: Flightcontrol CloudFront API
+  slug: flightcontrol-cloudfront-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/openapi/flightcontrol-openapi.yml
-- filename: flightcontrol-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/openapi/flightcontrol-cloudfront-api-openapi.yml
+- filename: flightcontrol-deploy-hooks-api-openapi.yml
   format: yaml
   label: Flightcontrol Deploy Hooks API
   slug: flightcontrol-deploy-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/openapi/flightcontrol-openapi.yml
-- filename: flightcontrol-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/openapi/flightcontrol-deploy-hooks-api-openapi.yml
+- filename: flightcontrol-deployments-api-openapi.yml
   format: yaml
-  label: Flightcontrol CloudFront Invalidation API
-  slug: flightcontrol-cloudfront-api
+  label: Flightcontrol Deployments API
+  slug: flightcontrol-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/openapi/flightcontrol-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/openapi/flightcontrol-deployments-api-openapi.yml
+- filename: flightcontrol-environment-variables-api-openapi.yml
+  format: yaml
+  label: Flightcontrol Environment Variables API
+  slug: flightcontrol-environment-variables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/openapi/flightcontrol-environment-variables-api-openapi.yml
+- filename: flightcontrol-environments-api-openapi.yml
+  format: yaml
+  label: Flightcontrol Environments API
+  slug: flightcontrol-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/openapi/flightcontrol-environments-api-openapi.yml
+- filename: flightcontrol-services-api-openapi.yml
+  format: yaml
+  label: Flightcontrol Services API
+  slug: flightcontrol-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/openapi/flightcontrol-services-api-openapi.yml
 description: ''
 domains:
 - caa: []

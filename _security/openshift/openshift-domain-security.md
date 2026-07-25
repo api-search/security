@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: swagger.json
-  format: json
-  label: OpenShift REST API
-  slug: openshift-rest-api
+- filename: openshift-routes-api-openapi.yml
+  format: yaml
+  label: OpenShift Routes API
+  slug: openshift-routes-api
   spec_type: OpenAPI
-  url: https://api.openshift.com/api/swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/openshift/refs/heads/main/openapi/openshift-routes-api-openapi.yml
+- filename: openshift-buildconfigs-api-openapi.yml
+  format: yaml
+  label: OpenShift BuildConfigs API
+  slug: openshift-buildconfigs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openshift/refs/heads/main/openapi/openshift-buildconfigs-api-openapi.yml
+- filename: openshift-builds-api-openapi.yml
+  format: yaml
+  label: OpenShift Builds API
+  slug: openshift-builds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openshift/refs/heads/main/openapi/openshift-builds-api-openapi.yml
+- filename: openshift-deploymentconfigs-api-openapi.yml
+  format: yaml
+  label: OpenShift DeploymentConfigs API
+  slug: openshift-deploymentconfigs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openshift/refs/heads/main/openapi/openshift-deploymentconfigs-api-openapi.yml
+- filename: openshift-projectrequests-api-openapi.yml
+  format: yaml
+  label: OpenShift ProjectRequests API
+  slug: openshift-projectrequests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openshift/refs/heads/main/openapi/openshift-projectrequests-api-openapi.yml
+- filename: openshift-projects-api-openapi.yml
+  format: yaml
+  label: OpenShift Projects API
+  slug: openshift-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openshift/refs/heads/main/openapi/openshift-projects-api-openapi.yml
+- filename: openshift-routes-api-openapi.yml
+  format: yaml
+  label: OpenShift Routes API
+  slug: openshift-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openshift/refs/heads/main/openapi/openshift-routes-api-openapi.yml
 description: ''
 domains:
 - caa:

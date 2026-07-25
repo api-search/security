@@ -1,6 +1,19 @@
 ---
 api_key_in:
 - header
+api_specs:
+- filename: signl4-events-api-openapi.yml
+  format: yaml
+  label: SIGNL4 Events API
+  slug: signl4-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signl4/refs/heads/main/openapi/signl4-events-api-openapi.yml
+- filename: signl4-webhook-api-openapi.yml
+  format: yaml
+  label: SIGNL4 Webhook API
+  slug: signl4-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signl4/refs/heads/main/openapi/signl4-webhook-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

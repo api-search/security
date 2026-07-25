@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: teller-openapi.yml
+- filename: teller-accounts-api-openapi.yml
   format: yaml
-  label: Teller API
-  slug: teller-api
+  label: Teller Accounts API
+  slug: teller-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/openapi/teller-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/openapi/teller-accounts-api-openapi.yml
+- filename: teller-identity-api-openapi.yml
+  format: yaml
+  label: Teller Identity API
+  slug: teller-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/openapi/teller-identity-api-openapi.yml
+- filename: teller-institutions-api-openapi.yml
+  format: yaml
+  label: Teller Institutions API
+  slug: teller-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/openapi/teller-institutions-api-openapi.yml
+- filename: teller-transactions-api-openapi.yml
+  format: yaml
+  label: Teller Transactions API
+  slug: teller-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/openapi/teller-transactions-api-openapi.yml
 auth_types:
 - http
 description: ''

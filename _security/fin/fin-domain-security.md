@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: fin-openapi-original.yml
+- filename: fin-authentication-api-openapi.yml
   format: yaml
-  label: Fin.com Orchestration API
-  slug: fincom-orchestration-api
+  label: Fin Authentication API
+  slug: fin-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-authentication-api-openapi.yml
+- filename: fin-balances-api-openapi.yml
+  format: yaml
+  label: Fin Balances API
+  slug: fin-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-balances-api-openapi.yml
+- filename: fin-beneficiaries-api-openapi.yml
+  format: yaml
+  label: Fin Beneficiaries API
+  slug: fin-beneficiaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-beneficiaries-api-openapi.yml
+- filename: fin-catalogue-api-openapi.yml
+  format: yaml
+  label: Fin Catalogue API
+  slug: fin-catalogue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-catalogue-api-openapi.yml
+- filename: fin-crypto-orchestration-api-openapi.yml
+  format: yaml
+  label: Fin Crypto Orchestration API
+  slug: fin-crypto-orchestration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-crypto-orchestration-api-openapi.yml
+- filename: fin-customers-api-openapi.yml
+  format: yaml
+  label: Fin Customers API
+  slug: fin-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-customers-api-openapi.yml
+- filename: fin-fees-fx-rates-api-openapi.yml
+  format: yaml
+  label: Fin Fees & FX Rates API
+  slug: fin-fees-fx-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-fees-fx-rates-api-openapi.yml
+- filename: fin-transactions-api-openapi.yml
+  format: yaml
+  label: Fin Transactions API
+  slug: fin-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-transactions-api-openapi.yml
+- filename: fin-virtual-accounts-api-openapi.yml
+  format: yaml
+  label: Fin Virtual Accounts API
+  slug: fin-virtual-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-virtual-accounts-api-openapi.yml
 description: ''
 domains:
 - caa: []

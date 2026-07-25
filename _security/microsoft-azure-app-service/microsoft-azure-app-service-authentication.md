@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: microsoft-azure-app-service-openapi.yml
+- filename: microsoft-azure-app-service-operations-api-openapi.yml
   format: yaml
-  label: Azure App Service API
-  slug: azure-app-service-api
+  label: Microsoft Azure App Service Operations API
+  slug: microsoft-azure-app-service-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-app-service/refs/heads/main/openapi/microsoft-azure-app-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-app-service/refs/heads/main/openapi/microsoft-azure-app-service-operations-api-openapi.yml
+- filename: microsoft-azure-app-service-web-apps-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure App Service Web Apps API
+  slug: microsoft-azure-app-service-web-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-app-service/refs/heads/main/openapi/microsoft-azure-app-service-web-apps-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

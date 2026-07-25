@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: zerion-openapi-original.yml
+- filename: zerion-chains-api-openapi.yml
   format: yaml
-  label: Zerion API
-  slug: zerion-api
+  label: Zerion chains API
+  slug: zerion-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-chains-api-openapi.yml
+- filename: zerion-dapps-api-openapi.yml
+  format: yaml
+  label: Zerion dapps API
+  slug: zerion-dapps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-dapps-api-openapi.yml
+- filename: zerion-fungibles-api-openapi.yml
+  format: yaml
+  label: Zerion fungibles API
+  slug: zerion-fungibles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-fungibles-api-openapi.yml
+- filename: zerion-gas-api-openapi.yml
+  format: yaml
+  label: Zerion gas API
+  slug: zerion-gas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-gas-api-openapi.yml
+- filename: zerion-nfts-api-openapi.yml
+  format: yaml
+  label: Zerion nfts API
+  slug: zerion-nfts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-nfts-api-openapi.yml
+- filename: zerion-subscriptions-to-transactions-api-openapi.yml
+  format: yaml
+  label: Zerion subscriptions to transactions API
+  slug: zerion-subscriptions-to-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-subscriptions-to-transactions-api-openapi.yml
+- filename: zerion-swap-api-openapi.yml
+  format: yaml
+  label: Zerion swap API
+  slug: zerion-swap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-swap-api-openapi.yml
+- filename: zerion-wallet-sets-api-openapi.yml
+  format: yaml
+  label: Zerion wallet sets API
+  slug: zerion-wallet-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-wallet-sets-api-openapi.yml
+- filename: zerion-wallets-api-openapi.yml
+  format: yaml
+  label: Zerion wallets API
+  slug: zerion-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-wallets-api-openapi.yml
 description: ''
 domains:
 - caa: []

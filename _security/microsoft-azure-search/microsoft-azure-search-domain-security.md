@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: microsoft-azure-search-openapi.yml
+- filename: microsoft-azure-search-documents-api-openapi.yml
   format: yaml
-  label: Azure AI Search REST API
-  slug: rest-api
+  label: Azure AI Search Documents API
+  slug: microsoft-azure-search-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-search/refs/heads/main/openapi/microsoft-azure-search-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-search/refs/heads/main/openapi/microsoft-azure-search-documents-api-openapi.yml
+- filename: microsoft-azure-search-indexes-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Indexes API
+  slug: microsoft-azure-search-indexes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-search/refs/heads/main/openapi/microsoft-azure-search-indexes-api-openapi.yml
 description: ''
 domains:
 - caa:

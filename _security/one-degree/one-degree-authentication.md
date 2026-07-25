@@ -2,12 +2,42 @@
 api_key_in:
 - query
 api_specs:
-- filename: one-degree-openapi.yml
+- filename: one-degree-housing-api-openapi.yml
   format: yaml
-  label: One Degree Resource Server API
-  slug: one-degree-resource-server-api
+  label: One Degree Housing API
+  slug: one-degree-housing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/openapi/one-degree-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/openapi/one-degree-housing-api-openapi.yml
+- filename: one-degree-locations-api-openapi.yml
+  format: yaml
+  label: One Degree Locations API
+  slug: one-degree-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/openapi/one-degree-locations-api-openapi.yml
+- filename: one-degree-opportunities-api-openapi.yml
+  format: yaml
+  label: One Degree Opportunities API
+  slug: one-degree-opportunities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/openapi/one-degree-opportunities-api-openapi.yml
+- filename: one-degree-organizations-api-openapi.yml
+  format: yaml
+  label: One Degree Organizations API
+  slug: one-degree-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/openapi/one-degree-organizations-api-openapi.yml
+- filename: one-degree-reference-api-openapi.yml
+  format: yaml
+  label: One Degree Reference API
+  slug: one-degree-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/openapi/one-degree-reference-api-openapi.yml
+- filename: one-degree-submissions-api-openapi.yml
+  format: yaml
+  label: One Degree Submissions API
+  slug: one-degree-submissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/openapi/one-degree-submissions-api-openapi.yml
 auth_types:
 - apiKey
 - custom-signature

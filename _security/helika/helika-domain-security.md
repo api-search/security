@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: helika-events-openapi.json
-  format: json
-  label: Helika Analytics Service
-  slug: helika-analytics-service
+- filename: helika-events-api-openapi.yml
+  format: yaml
+  label: Helika Events API
+  slug: helika-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helika/refs/heads/main/openapi/helika-events-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/helika/refs/heads/main/openapi/helika-events-api-openapi.yml
 description: ''
 domains:
 - caa: []

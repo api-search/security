@@ -2,18 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: lifen-fhir-api-openapi.json
-  format: json
-  label: Lifen FHIR API
-  slug: lifen-fhir-api
+- filename: lifen-communicationrequest-api-openapi.yml
+  format: yaml
+  label: Lifen CommunicationRequest API
+  slug: lifen-communicationrequest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-fhir-api-openapi.json
-- filename: lifen-authentication-api-openapi.json
-  format: json
-  label: Lifen Authentication API
-  slug: lifen-authentication-api
+  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-communicationrequest-api-openapi.yml
+- filename: lifen-coverage-api-openapi.yml
+  format: yaml
+  label: Lifen Coverage API
+  slug: lifen-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-authentication-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-coverage-api-openapi.yml
+- filename: lifen-encounter-api-openapi.yml
+  format: yaml
+  label: Lifen Encounter API
+  slug: lifen-encounter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-encounter-api-openapi.yml
+- filename: lifen-organization-api-openapi.yml
+  format: yaml
+  label: Lifen Organization API
+  slug: lifen-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-organization-api-openapi.yml
+- filename: lifen-patient-api-openapi.yml
+  format: yaml
+  label: Lifen Patient API
+  slug: lifen-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-patient-api-openapi.yml
+- filename: lifen-practitioner-api-openapi.yml
+  format: yaml
+  label: Lifen Practitioner API
+  slug: lifen-practitioner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-practitioner-api-openapi.yml
+- filename: lifen-token-api-openapi.yml
+  format: yaml
+  label: Lifen Token API
+  slug: lifen-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-token-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect

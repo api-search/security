@@ -1,17 +1,89 @@
 ---
 api_specs:
-- filename: ghost-admin-api-openapi.yml
+- filename: ghost-authors-api-openapi.yml
   format: yaml
-  label: Ghost Admin API
-  slug: ghost-admin-api
+  label: Ghost Authors API
+  slug: ghost-authors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ghost/refs/heads/main/openapi/ghost-admin-api-openapi.yml
-- filename: ghost-content-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ghost/refs/heads/main/openapi/ghost-authors-api-openapi.yml
+- filename: ghost-images-api-openapi.yml
   format: yaml
-  label: Ghost Content API
-  slug: ghost-content-api
+  label: Ghost Images API
+  slug: ghost-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ghost/refs/heads/main/openapi/ghost-content-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ghost/refs/heads/main/openapi/ghost-images-api-openapi.yml
+- filename: ghost-members-api-openapi.yml
+  format: yaml
+  label: Ghost Members API
+  slug: ghost-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ghost/refs/heads/main/openapi/ghost-members-api-openapi.yml
+- filename: ghost-newsletters-api-openapi.yml
+  format: yaml
+  label: Ghost Newsletters API
+  slug: ghost-newsletters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ghost/refs/heads/main/openapi/ghost-newsletters-api-openapi.yml
+- filename: ghost-offers-api-openapi.yml
+  format: yaml
+  label: Ghost Offers API
+  slug: ghost-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ghost/refs/heads/main/openapi/ghost-offers-api-openapi.yml
+- filename: ghost-pages-api-openapi.yml
+  format: yaml
+  label: Ghost Pages API
+  slug: ghost-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ghost/refs/heads/main/openapi/ghost-pages-api-openapi.yml
+- filename: ghost-posts-api-openapi.yml
+  format: yaml
+  label: Ghost Posts API
+  slug: ghost-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ghost/refs/heads/main/openapi/ghost-posts-api-openapi.yml
+- filename: ghost-settings-api-openapi.yml
+  format: yaml
+  label: Ghost Settings API
+  slug: ghost-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ghost/refs/heads/main/openapi/ghost-settings-api-openapi.yml
+- filename: ghost-site-api-openapi.yml
+  format: yaml
+  label: Ghost Site API
+  slug: ghost-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ghost/refs/heads/main/openapi/ghost-site-api-openapi.yml
+- filename: ghost-tags-api-openapi.yml
+  format: yaml
+  label: Ghost Tags API
+  slug: ghost-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ghost/refs/heads/main/openapi/ghost-tags-api-openapi.yml
+- filename: ghost-themes-api-openapi.yml
+  format: yaml
+  label: Ghost Themes API
+  slug: ghost-themes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ghost/refs/heads/main/openapi/ghost-themes-api-openapi.yml
+- filename: ghost-tiers-api-openapi.yml
+  format: yaml
+  label: Ghost Tiers API
+  slug: ghost-tiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ghost/refs/heads/main/openapi/ghost-tiers-api-openapi.yml
+- filename: ghost-users-api-openapi.yml
+  format: yaml
+  label: Ghost Users API
+  slug: ghost-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ghost/refs/heads/main/openapi/ghost-users-api-openapi.yml
+- filename: ghost-webhooks-api-openapi.yml
+  format: yaml
+  label: Ghost Webhooks API
+  slug: ghost-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ghost/refs/heads/main/openapi/ghost-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

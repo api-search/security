@@ -2,12 +2,132 @@
 api_key_in:
 - header
 api_specs:
-- filename: ordway-rest-api-openapi.yml
+- filename: ordway-billing-runs-api-openapi.yml
   format: yaml
-  label: Ordway REST API
-  slug: ordway-rest-api
+  label: Ordway Billing Runs API
+  slug: ordway-billing-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-billing-runs-api-openapi.yml
+- filename: ordway-billing-schedules-api-openapi.yml
+  format: yaml
+  label: Ordway Billing Schedules API
+  slug: ordway-billing-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-billing-schedules-api-openapi.yml
+- filename: ordway-chart-of-accounts-api-openapi.yml
+  format: yaml
+  label: Ordway Chart of Accounts API
+  slug: ordway-chart-of-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-chart-of-accounts-api-openapi.yml
+- filename: ordway-coupons-api-openapi.yml
+  format: yaml
+  label: Ordway Coupons API
+  slug: ordway-coupons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-coupons-api-openapi.yml
+- filename: ordway-credits-api-openapi.yml
+  format: yaml
+  label: Ordway Credits API
+  slug: ordway-credits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-credits-api-openapi.yml
+- filename: ordway-customers-api-openapi.yml
+  format: yaml
+  label: Ordway Customers API
+  slug: ordway-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-customers-api-openapi.yml
+- filename: ordway-debit-memos-api-openapi.yml
+  format: yaml
+  label: Ordway Debit Memos API
+  slug: ordway-debit-memos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-debit-memos-api-openapi.yml
+- filename: ordway-invoices-api-openapi.yml
+  format: yaml
+  label: Ordway Invoices API
+  slug: ordway-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-invoices-api-openapi.yml
+- filename: ordway-journal-entries-api-openapi.yml
+  format: yaml
+  label: Ordway Journal Entries API
+  slug: ordway-journal-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-journal-entries-api-openapi.yml
+- filename: ordway-orders-api-openapi.yml
+  format: yaml
+  label: Ordway Orders API
+  slug: ordway-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-orders-api-openapi.yml
+- filename: ordway-payment-runs-api-openapi.yml
+  format: yaml
+  label: Ordway Payment Runs API
+  slug: ordway-payment-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-payment-runs-api-openapi.yml
+- filename: ordway-payments-api-openapi.yml
+  format: yaml
+  label: Ordway Payments API
+  slug: ordway-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-payments-api-openapi.yml
+- filename: ordway-plans-api-openapi.yml
+  format: yaml
+  label: Ordway Plans API
+  slug: ordway-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-plans-api-openapi.yml
+- filename: ordway-products-api-openapi.yml
+  format: yaml
+  label: Ordway Products API
+  slug: ordway-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-products-api-openapi.yml
+- filename: ordway-refunds-api-openapi.yml
+  format: yaml
+  label: Ordway Refunds API
+  slug: ordway-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-refunds-api-openapi.yml
+- filename: ordway-revenue-rules-api-openapi.yml
+  format: yaml
+  label: Ordway Revenue Rules API
+  slug: ordway-revenue-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-revenue-rules-api-openapi.yml
+- filename: ordway-revenue-schedules-api-openapi.yml
+  format: yaml
+  label: Ordway Revenue Schedules API
+  slug: ordway-revenue-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-revenue-schedules-api-openapi.yml
+- filename: ordway-statements-api-openapi.yml
+  format: yaml
+  label: Ordway Statements API
+  slug: ordway-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-statements-api-openapi.yml
+- filename: ordway-subscriptions-api-openapi.yml
+  format: yaml
+  label: Ordway Subscriptions API
+  slug: ordway-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-subscriptions-api-openapi.yml
+- filename: ordway-usages-api-openapi.yml
+  format: yaml
+  label: Ordway Usages API
+  slug: ordway-usages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-usages-api-openapi.yml
+- filename: ordway-webhooks-api-openapi.yml
+  format: yaml
+  label: Ordway Webhooks API
+  slug: ordway-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

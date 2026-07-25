@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: tps-engage-blindspot-pull-api-openapi.yaml
+- filename: tps-engage-play-api-openapi.yml
   format: yaml
-  label: Blindspot Pull API
-  slug: blindspot-pull-api
+  label: TPS Engage Play API
+  slug: tps-engage-play-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/openapi/tps-engage-blindspot-pull-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/openapi/tps-engage-play-api-openapi.yml
+- filename: tps-engage-prefetch-api-openapi.yml
+  format: yaml
+  label: TPS Engage Prefetch API
+  slug: tps-engage-prefetch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/openapi/tps-engage-prefetch-api-openapi.yml
 description: ''
 domains:
 - caa: []

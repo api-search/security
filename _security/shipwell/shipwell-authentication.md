@@ -2,36 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: shipwell-openapi.yml
-  format: yaml
-  label: Shipwell Shipments API
-  slug: shipwell-shipments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-openapi.yml
-- filename: shipwell-openapi.yml
-  format: yaml
-  label: Shipwell Quoting and Rating API
-  slug: shipwell-quoting-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-openapi.yml
-- filename: shipwell-openapi.yml
+- filename: shipwell-carriers-api-openapi.yml
   format: yaml
   label: Shipwell Carriers API
   slug: shipwell-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-openapi.yml
-- filename: shipwell-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-carriers-api-openapi.yml
+- filename: shipwell-events-and-webhooks-api-openapi.yml
+  format: yaml
+  label: Shipwell Events and Webhooks API
+  slug: shipwell-events-and-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-events-and-webhooks-api-openapi.yml
+- filename: shipwell-orders-api-openapi.yml
   format: yaml
   label: Shipwell Orders API
   slug: shipwell-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-openapi.yml
-- filename: shipwell-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-orders-api-openapi.yml
+- filename: shipwell-quoting-api-openapi.yml
   format: yaml
-  label: Shipwell Events and Webhooks API
-  slug: shipwell-events-webhooks-api
+  label: Shipwell Quoting API
+  slug: shipwell-quoting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-quoting-api-openapi.yml
+- filename: shipwell-shipments-api-openapi.yml
+  format: yaml
+  label: Shipwell Shipments API
+  slug: shipwell-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-shipments-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

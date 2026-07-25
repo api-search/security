@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ukg-ready-openapi.yml
+- filename: ukg-ready-authentication-api-openapi.yml
   format: yaml
-  label: UKG Ready REST API
-  slug: rest-api
+  label: UKG Ready Authentication API
+  slug: ukg-ready-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukg-ready/refs/heads/main/openapi/ukg-ready-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ukg-ready/refs/heads/main/openapi/ukg-ready-authentication-api-openapi.yml
+- filename: ukg-ready-content-api-openapi.yml
+  format: yaml
+  label: UKG Ready Content API
+  slug: ukg-ready-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ukg-ready/refs/heads/main/openapi/ukg-ready-content-api-openapi.yml
+- filename: ukg-ready-groups-api-openapi.yml
+  format: yaml
+  label: UKG Ready Groups API
+  slug: ukg-ready-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ukg-ready/refs/heads/main/openapi/ukg-ready-groups-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: abilityone-procurement-list-api-openapi.yml
+- filename: us-abilityone-commission-agencies-api-openapi.yml
   format: yaml
-  label: AbilityOne Procurement List API
-  slug: procurement-list-api
+  label: US AbilityOne Commission Agencies API
+  slug: us-abilityone-commission-agencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-abilityone-commission/refs/heads/main/openapi/abilityone-procurement-list-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/us-abilityone-commission/refs/heads/main/openapi/us-abilityone-commission-agencies-api-openapi.yml
+- filename: us-abilityone-commission-products-api-openapi.yml
+  format: yaml
+  label: US AbilityOne Commission Products API
+  slug: us-abilityone-commission-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-abilityone-commission/refs/heads/main/openapi/us-abilityone-commission-products-api-openapi.yml
+- filename: us-abilityone-commission-reports-api-openapi.yml
+  format: yaml
+  label: US AbilityOne Commission Reports API
+  slug: us-abilityone-commission-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-abilityone-commission/refs/heads/main/openapi/us-abilityone-commission-reports-api-openapi.yml
+- filename: us-abilityone-commission-services-api-openapi.yml
+  format: yaml
+  label: US AbilityOne Commission Services API
+  slug: us-abilityone-commission-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-abilityone-commission/refs/heads/main/openapi/us-abilityone-commission-services-api-openapi.yml
 description: ''
 domains:
 - caa: []

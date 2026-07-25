@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: tl-dv-openapi.yml
+- filename: tl-dv-meetings-api-openapi.yml
   format: yaml
-  label: tl;dv API
-  slug: tldv-api
+  label: tl;dv Meetings API
+  slug: tl-dv-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/openapi/tl-dv-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/openapi/tl-dv-meetings-api-openapi.yml
+- filename: tl-dv-notes-api-openapi.yml
+  format: yaml
+  label: tl;dv Notes API
+  slug: tl-dv-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/openapi/tl-dv-notes-api-openapi.yml
+- filename: tl-dv-system-api-openapi.yml
+  format: yaml
+  label: tl;dv System API
+  slug: tl-dv-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/openapi/tl-dv-system-api-openapi.yml
+- filename: tl-dv-transcripts-api-openapi.yml
+  format: yaml
+  label: tl;dv Transcripts API
+  slug: tl-dv-transcripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/openapi/tl-dv-transcripts-api-openapi.yml
 description: ''
 domains:
 - caa:

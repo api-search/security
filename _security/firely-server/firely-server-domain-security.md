@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: simplifier-package-api-openapi.yml
+- filename: firely-server-catalog-api-openapi.yml
   format: yaml
-  label: Simplifier.net FHIR Package API
-  slug: simplifier-package-api
+  label: Firely Catalog API
+  slug: firely-server-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firely-server/refs/heads/main/openapi/simplifier-package-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/firely-server/refs/heads/main/openapi/firely-server-catalog-api-openapi.yml
+- filename: firely-server-simplifier-net-fhir-package-api-api-openapi.yml
+  format: yaml
+  label: Firely Simplifier.net FHIR Package API API
+  slug: firely-server-simplifier-net-fhir-package-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firely-server/refs/heads/main/openapi/firely-server-simplifier-net-fhir-package-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

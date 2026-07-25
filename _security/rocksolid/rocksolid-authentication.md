@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: rocksolid-vaults-openapi.yml
+- filename: rocksolid-allocations-api-openapi.yml
+  format: yaml
+  label: RockSolid Allocations API
+  slug: rocksolid-allocations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/openapi/rocksolid-allocations-api-openapi.yml
+- filename: rocksolid-performance-api-openapi.yml
+  format: yaml
+  label: RockSolid Performance API
+  slug: rocksolid-performance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/openapi/rocksolid-performance-api-openapi.yml
+- filename: rocksolid-vaults-api-openapi.yml
   format: yaml
   label: RockSolid Vaults API
   slug: rocksolid-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/openapi/rocksolid-vaults-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/openapi/rocksolid-vaults-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: serpapi-openapi.yml
+- filename: serpapi-account-api-openapi.yml
   format: yaml
-  label: SerpApi Bing API
-  slug: serpapi-bing-api
+  label: SerpApi Account API
+  slug: serpapi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serpapi/refs/heads/main/openapi/serpapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/serpapi/refs/heads/main/openapi/serpapi-account-api-openapi.yml
+- filename: serpapi-search-api-openapi.yml
+  format: yaml
+  label: SerpApi Search API
+  slug: serpapi-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/serpapi/refs/heads/main/openapi/serpapi-search-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: calm-partner-api-openapi.yml
+- filename: calm-com-authentication-api-openapi.yml
   format: yaml
-  label: Calm Partner API
-  slug: calm-partner-api
+  label: Calm Authentication API
+  slug: calm-com-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calm-com/refs/heads/main/openapi/calm-partner-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/calm-com/refs/heads/main/openapi/calm-com-authentication-api-openapi.yml
+- filename: calm-com-subscriptions-api-openapi.yml
+  format: yaml
+  label: Calm Subscriptions API
+  slug: calm-com-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calm-com/refs/heads/main/openapi/calm-com-subscriptions-api-openapi.yml
 auth_types:
 - http
 description: ''

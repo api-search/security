@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: trafficmanager.json
-  format: json
-  label: Azure Traffic Manager Profiles REST API
-  slug: azure-traffic-manager-profiles-rest-api
+- filename: microsoft-azure-traffic-manager-endpoints-api-openapi.yml
+  format: yaml
+  label: Azure Traffic Manager Endpoints API
+  slug: microsoft-azure-traffic-manager-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/trafficmanager/resource-manager/Microsoft.Network/stable/2022-04-01/trafficmanager.json
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/openapi/microsoft-azure-traffic-manager-endpoints-api-openapi.yml
+- filename: microsoft-azure-traffic-manager-geographichierarchies-api-openapi.yml
+  format: yaml
+  label: Azure Traffic Manager GeographicHierarchies API
+  slug: microsoft-azure-traffic-manager-geographichierarchies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/openapi/microsoft-azure-traffic-manager-geographichierarchies-api-openapi.yml
+- filename: microsoft-azure-traffic-manager-heatmap-api-openapi.yml
+  format: yaml
+  label: Azure Traffic Manager HeatMap API
+  slug: microsoft-azure-traffic-manager-heatmap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/openapi/microsoft-azure-traffic-manager-heatmap-api-openapi.yml
+- filename: microsoft-azure-traffic-manager-profiles-api-openapi.yml
+  format: yaml
+  label: Azure Traffic Manager Profiles API
+  slug: microsoft-azure-traffic-manager-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/openapi/microsoft-azure-traffic-manager-profiles-api-openapi.yml
+- filename: microsoft-azure-traffic-manager-usermetrics-api-openapi.yml
+  format: yaml
+  label: Azure Traffic Manager UserMetrics API
+  slug: microsoft-azure-traffic-manager-usermetrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/openapi/microsoft-azure-traffic-manager-usermetrics-api-openapi.yml
 description: ''
 domains:
 - caa:

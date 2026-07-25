@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: prophecyio-connections-openapi.json
-  format: json
-  label: Prophecy API
-  slug: prophecy-api
+- filename: prophecyio-connections-api-openapi.yml
+  format: yaml
+  label: Prophecy.io Connections API
+  slug: prophecyio-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/openapi/prophecyio-connections-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/openapi/prophecyio-connections-api-openapi.yml
+- filename: prophecyio-fabrics-api-openapi.yml
+  format: yaml
+  label: Prophecy.io Fabrics API
+  slug: prophecyio-fabrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/openapi/prophecyio-fabrics-api-openapi.yml
+- filename: prophecyio-pipeline-runs-api-openapi.yml
+  format: yaml
+  label: Prophecy.io Pipeline Runs API
+  slug: prophecyio-pipeline-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/openapi/prophecyio-pipeline-runs-api-openapi.yml
+- filename: prophecyio-project-deployment-api-openapi.yml
+  format: yaml
+  label: Prophecy.io Project Deployment API
+  slug: prophecyio-project-deployment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/openapi/prophecyio-project-deployment-api-openapi.yml
+- filename: prophecyio-secrets-api-openapi.yml
+  format: yaml
+  label: Prophecy.io Secrets API
+  slug: prophecyio-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/openapi/prophecyio-secrets-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

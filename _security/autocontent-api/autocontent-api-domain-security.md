@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: autocontent-api-content-api-openapi.yml
+  format: yaml
+  label: AutoContent API Content API
+  slug: autocontent-api-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-content-api-openapi.yml
+- filename: autocontent-api-dedicated-account-api-openapi.yml
+  format: yaml
+  label: AutoContent API Dedicated Account API
+  slug: autocontent-api-dedicated-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-dedicated-account-api-openapi.yml
+- filename: autocontent-api-podcast-api-openapi.yml
+  format: yaml
+  label: AutoContent API Podcast API
+  slug: autocontent-api-podcast-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-podcast-api-openapi.yml
+- filename: autocontent-api-share-api-openapi.yml
+  format: yaml
+  label: AutoContent API Share API
+  slug: autocontent-api-share-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-share-api-openapi.yml
+- filename: autocontent-api-video-api-openapi.yml
+  format: yaml
+  label: AutoContent API Video API
+  slug: autocontent-api-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-video-api-openapi.yml
 description: ''
 domains:
 - caa: []

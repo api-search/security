@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: pfsense-openapi.yml
+- filename: pfsense-authentication-api-openapi.yml
   format: yaml
-  label: pfSense REST API (pfSense-pkg-RESTAPI)
-  slug: rest-api-package
+  label: pfSense Authentication API
+  slug: pfsense-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pfsense/refs/heads/main/openapi/pfsense-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pfsense/refs/heads/main/openapi/pfsense-authentication-api-openapi.yml
+- filename: pfsense-firewall-aliases-api-openapi.yml
+  format: yaml
+  label: pfSense Firewall Aliases API
+  slug: pfsense-firewall-aliases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pfsense/refs/heads/main/openapi/pfsense-firewall-aliases-api-openapi.yml
+- filename: pfsense-firewall-apply-api-openapi.yml
+  format: yaml
+  label: pfSense Firewall Apply API
+  slug: pfsense-firewall-apply-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pfsense/refs/heads/main/openapi/pfsense-firewall-apply-api-openapi.yml
+- filename: pfsense-firewall-rules-api-openapi.yml
+  format: yaml
+  label: pfSense Firewall Rules API
+  slug: pfsense-firewall-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pfsense/refs/heads/main/openapi/pfsense-firewall-rules-api-openapi.yml
 description: ''
 domains:
 - caa:

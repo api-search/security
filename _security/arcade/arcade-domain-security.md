@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: arcade-engine-openapi.yml
+- filename: arcade-admin-api-openapi.yml
   format: yaml
-  label: Arcade Engine API
-  slug: arcade-engine-api
+  label: Arcade Admin API
+  slug: arcade-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcade/refs/heads/main/openapi/arcade-engine-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arcade/refs/heads/main/openapi/arcade-admin-api-openapi.yml
+- filename: arcade-authorization-api-openapi.yml
+  format: yaml
+  label: Arcade Authorization API
+  slug: arcade-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcade/refs/heads/main/openapi/arcade-authorization-api-openapi.yml
+- filename: arcade-gateways-api-openapi.yml
+  format: yaml
+  label: Arcade Gateways API
+  slug: arcade-gateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcade/refs/heads/main/openapi/arcade-gateways-api-openapi.yml
+- filename: arcade-hooks-api-openapi.yml
+  format: yaml
+  label: Arcade Hooks API
+  slug: arcade-hooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcade/refs/heads/main/openapi/arcade-hooks-api-openapi.yml
+- filename: arcade-llm-api-openapi.yml
+  format: yaml
+  label: Arcade LLM API
+  slug: arcade-llm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcade/refs/heads/main/openapi/arcade-llm-api-openapi.yml
+- filename: arcade-operations-api-openapi.yml
+  format: yaml
+  label: Arcade Operations API
+  slug: arcade-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcade/refs/heads/main/openapi/arcade-operations-api-openapi.yml
+- filename: arcade-plugins-api-openapi.yml
+  format: yaml
+  label: Arcade Plugins API
+  slug: arcade-plugins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcade/refs/heads/main/openapi/arcade-plugins-api-openapi.yml
+- filename: arcade-tools-api-openapi.yml
+  format: yaml
+  label: Arcade Tools API
+  slug: arcade-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcade/refs/heads/main/openapi/arcade-tools-api-openapi.yml
 description: ''
 domains:
 - caa: []

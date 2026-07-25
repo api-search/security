@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: prestmit-openapi.yml
+- filename: prestmit-bank-accounts-api-openapi.yml
   format: yaml
-  label: Prestmit Partner API
-  slug: prestmit-partner-api
+  label: Prestmit Bank Accounts API
+  slug: prestmit-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/openapi/prestmit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/openapi/prestmit-bank-accounts-api-openapi.yml
+- filename: prestmit-general-api-openapi.yml
+  format: yaml
+  label: Prestmit General API
+  slug: prestmit-general-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/openapi/prestmit-general-api-openapi.yml
+- filename: prestmit-gift-cards-buy-api-openapi.yml
+  format: yaml
+  label: Prestmit Gift Cards - Buy API
+  slug: prestmit-gift-cards-buy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/openapi/prestmit-gift-cards-buy-api-openapi.yml
+- filename: prestmit-gift-cards-sell-api-openapi.yml
+  format: yaml
+  label: Prestmit Gift Cards - Sell API
+  slug: prestmit-gift-cards-sell-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/openapi/prestmit-gift-cards-sell-api-openapi.yml
+- filename: prestmit-lookup-api-openapi.yml
+  format: yaml
+  label: Prestmit Lookup API
+  slug: prestmit-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/openapi/prestmit-lookup-api-openapi.yml
+- filename: prestmit-wallet-api-openapi.yml
+  format: yaml
+  label: Prestmit Wallet API
+  slug: prestmit-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/openapi/prestmit-wallet-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

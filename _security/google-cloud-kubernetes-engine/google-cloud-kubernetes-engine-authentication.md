@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: gke-openapi.yml
+- filename: google-cloud-kubernetes-engine-clusters-api-openapi.yml
   format: yaml
-  label: Google Kubernetes Engine API
-  slug: google-kubernetes-engine-api
+  label: Google Cloud Kubernetes Engine Clusters API
+  slug: google-cloud-kubernetes-engine-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-kubernetes-engine/refs/heads/main/openapi/gke-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-kubernetes-engine/refs/heads/main/openapi/google-cloud-kubernetes-engine-clusters-api-openapi.yml
+- filename: google-cloud-kubernetes-engine-nodepools-api-openapi.yml
+  format: yaml
+  label: Google Cloud Kubernetes Engine NodePools API
+  slug: google-cloud-kubernetes-engine-nodepools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-kubernetes-engine/refs/heads/main/openapi/google-cloud-kubernetes-engine-nodepools-api-openapi.yml
+- filename: google-cloud-kubernetes-engine-operations-api-openapi.yml
+  format: yaml
+  label: Google Cloud Kubernetes Engine Operations API
+  slug: google-cloud-kubernetes-engine-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-kubernetes-engine/refs/heads/main/openapi/google-cloud-kubernetes-engine-operations-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

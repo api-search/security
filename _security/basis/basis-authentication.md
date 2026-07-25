@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yaml
+- filename: basis-analytics-api-openapi.yml
   format: yaml
-  label: Basis Enterprise API
-  slug: basis-enterprise-api
+  label: Basis Analytics API
+  slug: basis-analytics-api
   spec_type: OpenAPI
-  url: https://api.basis.net/docs/
+  url: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/openapi/basis-analytics-api-openapi.yml
 auth_types:
 - http
 - unknown

@@ -1,60 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: useparagon-openapi.yml
-  format: yaml
-  label: Paragon Connect API
-  slug: paragon-connect-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-openapi.yml
-- filename: useparagon-openapi.yml
-  format: yaml
-  label: Paragon Integrations API
-  slug: paragon-integrations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-openapi.yml
-- filename: useparagon-openapi.yml
-  format: yaml
-  label: Paragon Users API
-  slug: paragon-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-openapi.yml
-- filename: useparagon-openapi.yml
-  format: yaml
-  label: Paragon Workflows API
-  slug: paragon-workflows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-openapi.yml
-- filename: useparagon-openapi.yml
-  format: yaml
-  label: Paragon Proxy API
-  slug: paragon-proxy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-openapi.yml
-- filename: useparagon-openapi.yml
+- filename: useparagon-actionkit-api-openapi.yml
   format: yaml
   label: Paragon ActionKit API
-  slug: paragon-actionkit-api
+  slug: useparagon-actionkit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-openapi.yml
-- filename: useparagon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-actionkit-api-openapi.yml
+- filename: useparagon-connect-api-openapi.yml
+  format: yaml
+  label: Paragon Connect API
+  slug: useparagon-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-connect-api-openapi.yml
+- filename: useparagon-integrations-api-openapi.yml
+  format: yaml
+  label: Paragon Integrations API
+  slug: useparagon-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-integrations-api-openapi.yml
+- filename: useparagon-managed-sync-api-openapi.yml
   format: yaml
   label: Paragon Managed Sync API
-  slug: paragon-managed-sync-api
+  slug: useparagon-managed-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-openapi.yml
-- filename: useparagon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-managed-sync-api-openapi.yml
+- filename: useparagon-permissions-api-openapi.yml
   format: yaml
   label: Paragon Permissions API
-  slug: paragon-permissions-api
+  slug: useparagon-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-openapi.yml
-- filename: useparagon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-permissions-api-openapi.yml
+- filename: useparagon-proxy-api-openapi.yml
   format: yaml
-  label: Paragon Events and Webhooks API
-  slug: paragon-events-webhooks-api
+  label: Paragon Proxy API
+  slug: useparagon-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-proxy-api-openapi.yml
+- filename: useparagon-users-api-openapi.yml
+  format: yaml
+  label: Paragon Users API
+  slug: useparagon-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-users-api-openapi.yml
+- filename: useparagon-workflows-api-openapi.yml
+  format: yaml
+  label: Paragon Workflows API
+  slug: useparagon-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-workflows-api-openapi.yml
 auth_types:
 - http
 description: ''

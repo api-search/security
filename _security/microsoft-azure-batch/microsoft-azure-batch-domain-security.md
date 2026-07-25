@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: microsoft-azure-batch-openapi.yml
+- filename: microsoft-azure-batch-jobs-api-openapi.yml
   format: yaml
-  label: Azure Batch REST API
-  slug: rest-api
+  label: microsoft-azure-batch Jobs API
+  slug: microsoft-azure-batch-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/microsoft-azure-batch-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/microsoft-azure-batch-jobs-api-openapi.yml
+- filename: microsoft-azure-batch-pools-api-openapi.yml
+  format: yaml
+  label: microsoft-azure-batch Pools API
+  slug: microsoft-azure-batch-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/microsoft-azure-batch-pools-api-openapi.yml
+- filename: microsoft-azure-batch-tasks-api-openapi.yml
+  format: yaml
+  label: microsoft-azure-batch Tasks API
+  slug: microsoft-azure-batch-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/microsoft-azure-batch-tasks-api-openapi.yml
 description: ''
 domains:
 - caa:

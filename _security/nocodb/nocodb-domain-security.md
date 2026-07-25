@@ -1,17 +1,59 @@
 ---
 api_specs:
-- filename: swagger.json
-  format: json
-  label: NocoDB Data API
-  slug: data-api
+- filename: nocodb-attachments-api-openapi.yml
+  format: yaml
+  label: NocoDB Attachments API
+  slug: nocodb-attachments-api
   spec_type: OpenAPI
-  url: https://app.nocodb.com/api/v3/swagger.json
-- filename: swagger.json
-  format: json
-  label: NocoDB Meta API
-  slug: meta-api
+  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-attachments-api-openapi.yml
+- filename: nocodb-auth-api-openapi.yml
+  format: yaml
+  label: NocoDB Auth API
+  slug: nocodb-auth-api
   spec_type: OpenAPI
-  url: https://app.nocodb.com/api/v2/meta/bases/{base_id}/swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-auth-api-openapi.yml
+- filename: nocodb-bases-api-openapi.yml
+  format: yaml
+  label: NocoDB Bases API
+  slug: nocodb-bases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-bases-api-openapi.yml
+- filename: nocodb-fields-api-openapi.yml
+  format: yaml
+  label: NocoDB Fields API
+  slug: nocodb-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-fields-api-openapi.yml
+- filename: nocodb-hooks-api-openapi.yml
+  format: yaml
+  label: NocoDB Hooks API
+  slug: nocodb-hooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-hooks-api-openapi.yml
+- filename: nocodb-links-api-openapi.yml
+  format: yaml
+  label: NocoDB Links API
+  slug: nocodb-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-links-api-openapi.yml
+- filename: nocodb-records-api-openapi.yml
+  format: yaml
+  label: NocoDB Records API
+  slug: nocodb-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-records-api-openapi.yml
+- filename: nocodb-tables-api-openapi.yml
+  format: yaml
+  label: NocoDB Tables API
+  slug: nocodb-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-tables-api-openapi.yml
+- filename: nocodb-views-api-openapi.yml
+  format: yaml
+  label: NocoDB Views API
+  slug: nocodb-views-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-views-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: vidgrid-openapi-original.json
-  format: json
-  label: VidGrid Content Management API
-  slug: vidgrid-content-management-api
+- filename: vidgrid-caption-api-openapi.yml
+  format: yaml
+  label: VidGrid Caption API
+  slug: vidgrid-caption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/openapi/vidgrid-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/openapi/vidgrid-caption-api-openapi.yml
+- filename: vidgrid-folder-api-openapi.yml
+  format: yaml
+  label: VidGrid Folder API
+  slug: vidgrid-folder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/openapi/vidgrid-folder-api-openapi.yml
+- filename: vidgrid-search-api-openapi.yml
+  format: yaml
+  label: VidGrid Search API
+  slug: vidgrid-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/openapi/vidgrid-search-api-openapi.yml
+- filename: vidgrid-token-api-openapi.yml
+  format: yaml
+  label: VidGrid Token API
+  slug: vidgrid-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/openapi/vidgrid-token-api-openapi.yml
+- filename: vidgrid-user-api-openapi.yml
+  format: yaml
+  label: VidGrid User API
+  slug: vidgrid-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/openapi/vidgrid-user-api-openapi.yml
+- filename: vidgrid-video-api-openapi.yml
+  format: yaml
+  label: VidGrid Video API
+  slug: vidgrid-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/openapi/vidgrid-video-api-openapi.yml
+- filename: vidgrid-webhooks-api-openapi.yml
+  format: yaml
+  label: VidGrid Webhooks API
+  slug: vidgrid-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/openapi/vidgrid-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

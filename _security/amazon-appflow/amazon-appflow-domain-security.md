@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: amazon-appflow-openapi.yml
+- filename: amazon-appflow-connectors-api-openapi.yml
   format: yaml
-  label: Amazon AppFlow API
-  slug: amazon-appflow-api
+  label: Amazon AppFlow Connectors API
+  slug: amazon-appflow-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/openapi/amazon-appflow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/openapi/amazon-appflow-connectors-api-openapi.yml
+- filename: amazon-appflow-flows-api-openapi.yml
+  format: yaml
+  label: Amazon AppFlow Flows API
+  slug: amazon-appflow-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/openapi/amazon-appflow-flows-api-openapi.yml
+- filename: amazon-appflow-tags-api-openapi.yml
+  format: yaml
+  label: Amazon AppFlow Tags API
+  slug: amazon-appflow-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/openapi/amazon-appflow-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

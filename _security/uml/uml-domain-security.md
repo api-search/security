@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: plantuml-server-openapi.yml
+- filename: uml-diagrams-api-openapi.yml
   format: yaml
-  label: PlantUML Server API
-  slug: plantuml-server
+  label: UML Diagrams API
+  slug: uml-diagrams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uml/refs/heads/main/openapi/plantuml-server-openapi.yml
-- filename: kroki-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uml/refs/heads/main/openapi/uml-diagrams-api-openapi.yml
+- filename: uml-health-api-openapi.yml
   format: yaml
-  label: Kroki Diagram API
-  slug: kroki
+  label: UML Health API
+  slug: uml-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uml/refs/heads/main/openapi/kroki-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uml/refs/heads/main/openapi/uml-health-api-openapi.yml
+- filename: uml-validation-api-openapi.yml
+  format: yaml
+  label: UML Validation API
+  slug: uml-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uml/refs/heads/main/openapi/uml-validation-api-openapi.yml
 description: ''
 domains:
 - caa: []

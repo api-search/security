@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: cloudzero-api-openapi.yml
+- filename: cloudzero-allocation-telemetry-api-openapi.yml
   format: yaml
-  label: CloudZero API
-  slug: api
+  label: CloudZero Allocation Telemetry API
+  slug: cloudzero-allocation-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-allocation-telemetry-api-openapi.yml
+- filename: cloudzero-anycost-api-openapi.yml
+  format: yaml
+  label: CloudZero AnyCost API
+  slug: cloudzero-anycost-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-anycost-api-openapi.yml
+- filename: cloudzero-billing-api-openapi.yml
+  format: yaml
+  label: CloudZero Billing API
+  slug: cloudzero-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-billing-api-openapi.yml
+- filename: cloudzero-budgets-api-openapi.yml
+  format: yaml
+  label: CloudZero Budgets API
+  slug: cloudzero-budgets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-budgets-api-openapi.yml
+- filename: cloudzero-insights-api-openapi.yml
+  format: yaml
+  label: CloudZero Insights API
+  slug: cloudzero-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-insights-api-openapi.yml
+- filename: cloudzero-unit-metric-telemetry-api-openapi.yml
+  format: yaml
+  label: CloudZero Unit Metric Telemetry API
+  slug: cloudzero-unit-metric-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-unit-metric-telemetry-api-openapi.yml
 certifications:
 - SOC 2
 - GDPR

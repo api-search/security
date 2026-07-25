@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: trainerize-openapi.yml
-  format: yaml
-  label: ABC Trainerize Clients API
-  slug: trainerize-clients-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/openapi/trainerize-openapi.yml
-- filename: trainerize-openapi.yml
-  format: yaml
-  label: ABC Trainerize Training Programs API
-  slug: trainerize-training-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/openapi/trainerize-openapi.yml
-- filename: trainerize-openapi.yml
+- filename: trainerize-client-data-api-openapi.yml
   format: yaml
   label: ABC Trainerize Client Data API
   slug: trainerize-client-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/openapi/trainerize-openapi.yml
-- filename: trainerize-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/openapi/trainerize-client-data-api-openapi.yml
+- filename: trainerize-clients-api-openapi.yml
+  format: yaml
+  label: ABC Trainerize Clients API
+  slug: trainerize-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/openapi/trainerize-clients-api-openapi.yml
+- filename: trainerize-messaging-api-openapi.yml
   format: yaml
   label: ABC Trainerize Messaging API
   slug: trainerize-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/openapi/trainerize-openapi.yml
-- filename: trainerize-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/openapi/trainerize-messaging-api-openapi.yml
+- filename: trainerize-training-api-openapi.yml
+  format: yaml
+  label: ABC Trainerize Training API
+  slug: trainerize-training-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/openapi/trainerize-training-api-openapi.yml
+- filename: trainerize-webhooks-api-openapi.yml
   format: yaml
   label: ABC Trainerize Webhooks API
   slug: trainerize-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/openapi/trainerize-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/openapi/trainerize-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

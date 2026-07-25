@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: p0-security-jit-openapi.yml
+- filename: p0-security-command-api-openapi.yml
   format: yaml
-  label: P0 Just-in-Time Access API
-  slug: p0-security-jit
+  label: P0 Security Command API
+  slug: p0-security-command-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/openapi/p0-security-jit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/openapi/p0-security-command-api-openapi.yml
+- filename: p0-security-permission-requests-api-openapi.yml
+  format: yaml
+  label: P0 Security Permission Requests API
+  slug: p0-security-permission-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/openapi/p0-security-permission-requests-api-openapi.yml
 description: ''
 domains:
 - caa: []

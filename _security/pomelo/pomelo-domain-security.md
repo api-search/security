@@ -1,47 +1,41 @@
 ---
 api_specs:
-- filename: pomelo-openapi.yml
+- filename: pomelo-authentication-api-openapi.yml
   format: yaml
-  label: Pomelo Users & KYC API
-  slug: pomelo-users-kyc-api
+  label: Pomelo Authentication API
+  slug: pomelo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-openapi.yml
-- filename: pomelo-openapi.yml
-  format: yaml
-  label: Pomelo Cards API
-  slug: pomelo-cards-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-openapi.yml
-- filename: pomelo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-authentication-api-openapi.yml
+- filename: pomelo-card-accounts-api-openapi.yml
   format: yaml
   label: Pomelo Card Accounts API
   slug: pomelo-card-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-openapi.yml
-- filename: pomelo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-card-accounts-api-openapi.yml
+- filename: pomelo-cards-api-openapi.yml
+  format: yaml
+  label: Pomelo Cards API
+  slug: pomelo-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-cards-api-openapi.yml
+- filename: pomelo-transactions-api-openapi.yml
   format: yaml
   label: Pomelo Transactions API
   slug: pomelo-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-openapi.yml
-- filename: pomelo-openapi.yml
-  format: yaml
-  label: Pomelo Authorizations API
-  slug: pomelo-authorizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-openapi.yml
-- filename: pomelo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-transactions-api-openapi.yml
+- filename: pomelo-transfers-api-openapi.yml
   format: yaml
   label: Pomelo Transfers API
   slug: pomelo-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-openapi.yml
-- filename: pomelo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-transfers-api-openapi.yml
+- filename: pomelo-users-api-openapi.yml
   format: yaml
-  label: Pomelo Webhooks API
-  slug: pomelo-webhooks-api
+  label: Pomelo Users API
+  slug: pomelo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: linkup-so-openapi.yml
-  format: yaml
-  label: Linkup Search API
-  slug: linkup-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/openapi/linkup-so-openapi.yml
-- filename: linkup-so-openapi.yml
-  format: yaml
-  label: Linkup Fetch API
-  slug: linkup-fetch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/openapi/linkup-so-openapi.yml
-- filename: linkup-so-openapi.yml
-  format: yaml
-  label: Linkup Research API
-  slug: linkup-research-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/openapi/linkup-so-openapi.yml
-- filename: linkup-so-openapi.yml
+- filename: linkup-so-credits-api-openapi.yml
   format: yaml
   label: Linkup Credits API
-  slug: linkup-credits-api
+  slug: linkup-so-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/openapi/linkup-so-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/openapi/linkup-so-credits-api-openapi.yml
+- filename: linkup-so-fetch-api-openapi.yml
+  format: yaml
+  label: Linkup Fetch API
+  slug: linkup-so-fetch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/openapi/linkup-so-fetch-api-openapi.yml
+- filename: linkup-so-research-api-openapi.yml
+  format: yaml
+  label: Linkup Research API
+  slug: linkup-so-research-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/openapi/linkup-so-research-api-openapi.yml
+- filename: linkup-so-search-api-openapi.yml
+  format: yaml
+  label: Linkup Search API
+  slug: linkup-so-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/openapi/linkup-so-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

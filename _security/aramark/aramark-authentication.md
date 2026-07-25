@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: marko-api.yml
+- filename: aramark-organization-api-openapi.yml
   format: yaml
-  label: Aramark Marko API
-  slug: marko-api
+  label: Aramark Organization API
+  slug: aramark-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/marko-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-organization-api-openapi.yml
+- filename: aramark-point-of-sale-api-openapi.yml
+  format: yaml
+  label: Aramark Point of Sale API
+  slug: aramark-point-of-sale-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-point-of-sale-api-openapi.yml
+- filename: aramark-product-api-openapi.yml
+  format: yaml
+  label: Aramark Product API
+  slug: aramark-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-product-api-openapi.yml
+- filename: aramark-profit-centers-api-openapi.yml
+  format: yaml
+  label: Aramark Profit Centers API
+  slug: aramark-profit-centers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-profit-centers-api-openapi.yml
+- filename: aramark-revenue-api-openapi.yml
+  format: yaml
+  label: Aramark Revenue API
+  slug: aramark-revenue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-revenue-api-openapi.yml
+- filename: aramark-service-api-openapi.yml
+  format: yaml
+  label: Aramark Service API
+  slug: aramark-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

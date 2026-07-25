@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: usadf-grants-api-openapi.yml
+- filename: us-african-development-foundation-agency-api-openapi.yml
   format: yaml
-  label: USADF Grants Data API
-  slug: grants-api
+  label: US African Development Foundation Agency API
+  slug: us-african-development-foundation-agency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-african-development-foundation/refs/heads/main/openapi/usadf-grants-api-openapi.yml
-- filename: usadf-grant-opportunities-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/us-african-development-foundation/refs/heads/main/openapi/us-african-development-foundation-agency-api-openapi.yml
+- filename: us-african-development-foundation-awards-api-openapi.yml
   format: yaml
-  label: USADF Grant Opportunities API
-  slug: grant-opportunities-api
+  label: US African Development Foundation Awards API
+  slug: us-african-development-foundation-awards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-african-development-foundation/refs/heads/main/openapi/usadf-grant-opportunities-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/us-african-development-foundation/refs/heads/main/openapi/us-african-development-foundation-awards-api-openapi.yml
+- filename: us-african-development-foundation-opportunities-api-openapi.yml
+  format: yaml
+  label: US African Development Foundation Opportunities API
+  slug: us-african-development-foundation-opportunities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-african-development-foundation/refs/heads/main/openapi/us-african-development-foundation-opportunities-api-openapi.yml
+- filename: us-african-development-foundation-recipients-api-openapi.yml
+  format: yaml
+  label: US African Development Foundation Recipients API
+  slug: us-african-development-foundation-recipients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-african-development-foundation/refs/heads/main/openapi/us-african-development-foundation-recipients-api-openapi.yml
+- filename: us-african-development-foundation-spending-api-openapi.yml
+  format: yaml
+  label: US African Development Foundation Spending API
+  slug: us-african-development-foundation-spending-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-african-development-foundation/refs/heads/main/openapi/us-african-development-foundation-spending-api-openapi.yml
 description: ''
 domains:
 - caa: []

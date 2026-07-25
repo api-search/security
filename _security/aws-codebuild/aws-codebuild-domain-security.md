@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: aws-codebuild-openapi.yml
+- filename: aws-codebuild-aws-codebuild-api-api-openapi.yml
   format: yaml
-  label: AWS CodeBuild API
-  slug: codebuild-api
+  label: AWS CodeBuild AWS CodeBuild API API
+  slug: aws-codebuild-aws-codebuild-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/openapi/aws-codebuild-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/openapi/aws-codebuild-aws-codebuild-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

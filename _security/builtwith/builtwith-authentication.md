@@ -3,48 +3,54 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: builtwith-domain-openapi.yml
+- filename: builtwith-bulk-processing-api-openapi.yml
   format: yaml
-  label: BuiltWith Domain API
-  slug: builtwith-domain-api
+  label: BuiltWith Bulk Processing API
+  slug: builtwith-bulk-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-domain-openapi.yml
-- filename: builtwith-lists-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-bulk-processing-api-openapi.yml
+- filename: builtwith-domain-lookup-api-openapi.yml
   format: yaml
-  label: BuiltWith Lists API
-  slug: builtwith-lists-api
+  label: BuiltWith Domain Lookup API
+  slug: builtwith-domain-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-lists-openapi.yml
-- filename: builtwith-trends-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-domain-lookup-api-openapi.yml
+- filename: builtwith-domain-relationships-api-openapi.yml
   format: yaml
-  label: BuiltWith Trends API
-  slug: builtwith-trends-api
+  label: BuiltWith Domain Relationships API
+  slug: builtwith-domain-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-trends-openapi.yml
-- filename: builtwith-change-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-domain-relationships-api-openapi.yml
+- filename: builtwith-free-lookup-api-openapi.yml
   format: yaml
-  label: BuiltWith Change API
-  slug: builtwith-change-api
+  label: BuiltWith Free Lookup API
+  slug: builtwith-free-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-change-openapi.yml
-- filename: builtwith-relationships-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-free-lookup-api-openapi.yml
+- filename: builtwith-tag-lookup-api-openapi.yml
   format: yaml
-  label: BuiltWith Relationships API
-  slug: builtwith-relationships-api
+  label: BuiltWith Tag Lookup API
+  slug: builtwith-tag-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-relationships-openapi.yml
-- filename: builtwith-free-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-tag-lookup-api-openapi.yml
+- filename: builtwith-technology-changes-api-openapi.yml
   format: yaml
-  label: BuiltWith Free API
-  slug: builtwith-free-api
+  label: BuiltWith Technology Changes API
+  slug: builtwith-technology-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-free-openapi.yml
-- filename: builtwith-tags-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-technology-changes-api-openapi.yml
+- filename: builtwith-technology-lists-api-openapi.yml
   format: yaml
-  label: BuiltWith Tags API
-  slug: builtwith-tags-api
+  label: BuiltWith Technology Lists API
+  slug: builtwith-technology-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-tags-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-technology-lists-api-openapi.yml
+- filename: builtwith-technology-trends-api-openapi.yml
+  format: yaml
+  label: BuiltWith Technology Trends API
+  slug: builtwith-technology-trends-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-technology-trends-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

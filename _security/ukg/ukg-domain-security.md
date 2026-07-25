@@ -1,17 +1,53 @@
 ---
 api_specs:
-- filename: ukg-pro-hcm-openapi.yml
+- filename: ukg-accruals-api-openapi.yml
   format: yaml
-  label: UKG Pro HCM API
-  slug: ukg-pro-hcm-api
+  label: UKG Accruals API
+  slug: ukg-accruals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/openapi/ukg-pro-hcm-openapi.yml
-- filename: ukg-pro-wfm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/openapi/ukg-accruals-api-openapi.yml
+- filename: ukg-benefits-api-openapi.yml
   format: yaml
-  label: UKG Pro Workforce Management API
-  slug: ukg-pro-wfm-api
+  label: UKG Benefits API
+  slug: ukg-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/openapi/ukg-pro-wfm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/openapi/ukg-benefits-api-openapi.yml
+- filename: ukg-employees-api-openapi.yml
+  format: yaml
+  label: UKG Employees API
+  slug: ukg-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/openapi/ukg-employees-api-openapi.yml
+- filename: ukg-organization-api-openapi.yml
+  format: yaml
+  label: UKG Organization API
+  slug: ukg-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/openapi/ukg-organization-api-openapi.yml
+- filename: ukg-payroll-api-openapi.yml
+  format: yaml
+  label: UKG Payroll API
+  slug: ukg-payroll-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/openapi/ukg-payroll-api-openapi.yml
+- filename: ukg-personnel-actions-api-openapi.yml
+  format: yaml
+  label: UKG Personnel Actions API
+  slug: ukg-personnel-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/openapi/ukg-personnel-actions-api-openapi.yml
+- filename: ukg-scheduling-api-openapi.yml
+  format: yaml
+  label: UKG Scheduling API
+  slug: ukg-scheduling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/openapi/ukg-scheduling-api-openapi.yml
+- filename: ukg-timekeeping-api-openapi.yml
+  format: yaml
+  label: UKG Timekeeping API
+  slug: ukg-timekeeping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/openapi/ukg-timekeeping-api-openapi.yml
 description: ''
 domains:
 - caa: []

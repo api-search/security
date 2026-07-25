@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: solaredge-monitoring-openapi.yml
+- filename: solaredge-account-api-openapi.yml
   format: yaml
-  label: SolarEdge Monitoring API
-  slug: solaredge-monitoring-api
+  label: Solaredge Account API
+  slug: solaredge-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solaredge/refs/heads/main/openapi/solaredge-monitoring-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/solaredge/refs/heads/main/openapi/solaredge-account-api-openapi.yml
+- filename: solaredge-equipment-api-openapi.yml
+  format: yaml
+  label: Solaredge Equipment API
+  slug: solaredge-equipment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solaredge/refs/heads/main/openapi/solaredge-equipment-api-openapi.yml
+- filename: solaredge-sites-api-openapi.yml
+  format: yaml
+  label: Solaredge Sites API
+  slug: solaredge-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solaredge/refs/heads/main/openapi/solaredge-sites-api-openapi.yml
+- filename: solaredge-storage-api-openapi.yml
+  format: yaml
+  label: Solaredge Storage API
+  slug: solaredge-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solaredge/refs/heads/main/openapi/solaredge-storage-api-openapi.yml
+- filename: solaredge-version-api-openapi.yml
+  format: yaml
+  label: Solaredge Version API
+  slug: solaredge-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solaredge/refs/heads/main/openapi/solaredge-version-api-openapi.yml
 description: ''
 domains:
 - caa:

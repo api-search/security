@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: amazon-ec2-openapi.yml
+- filename: amazon-ec2-amis-api-openapi.yml
   format: yaml
-  label: Amazon EC2 API
-  slug: amazon-ec2-api
+  label: Amazon EC2 AMIs API
+  slug: amazon-ec2-amis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/openapi/amazon-ec2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/openapi/amazon-ec2-amis-api-openapi.yml
+- filename: amazon-ec2-elastic-ips-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Elastic IPs API
+  slug: amazon-ec2-elastic-ips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/openapi/amazon-ec2-elastic-ips-api-openapi.yml
+- filename: amazon-ec2-instances-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Instances API
+  slug: amazon-ec2-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/openapi/amazon-ec2-instances-api-openapi.yml
+- filename: amazon-ec2-key-pairs-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Key Pairs API
+  slug: amazon-ec2-key-pairs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/openapi/amazon-ec2-key-pairs-api-openapi.yml
+- filename: amazon-ec2-launch-templates-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Launch Templates API
+  slug: amazon-ec2-launch-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/openapi/amazon-ec2-launch-templates-api-openapi.yml
+- filename: amazon-ec2-regions-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Regions API
+  slug: amazon-ec2-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/openapi/amazon-ec2-regions-api-openapi.yml
+- filename: amazon-ec2-security-groups-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Security Groups API
+  slug: amazon-ec2-security-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/openapi/amazon-ec2-security-groups-api-openapi.yml
+- filename: amazon-ec2-spot-instances-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Spot Instances API
+  slug: amazon-ec2-spot-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/openapi/amazon-ec2-spot-instances-api-openapi.yml
 description: ''
 domains:
 - caa: []

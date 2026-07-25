@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: spec.json
-  format: json
-  label: APIClarity API
-  slug: apiclarity-api
+- filename: apiclarity-api-events-api-openapi.yml
+  format: yaml
+  label: APIClarity API Events API
+  slug: apiclarity-api-events-api
   spec_type: OpenAPI
-  url: https://github.com/openclarity/apiclarity/blob/master/api/server/restapi/spec.json
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-api-events-api-openapi.yml
+- filename: apiclarity-api-inventory-api-openapi.yml
+  format: yaml
+  label: APIClarity API Inventory API
+  slug: apiclarity-api-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-api-inventory-api-openapi.yml
+- filename: apiclarity-control-api-openapi.yml
+  format: yaml
+  label: APIClarity Control API
+  slug: apiclarity-control-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-control-api-openapi.yml
+- filename: apiclarity-features-api-openapi.yml
+  format: yaml
+  label: APIClarity Features API
+  slug: apiclarity-features-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-features-api-openapi.yml
 description: ''
 domains:
 - caa: []

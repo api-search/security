@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tripleseat-openapi.yml
+- filename: tripleseat-accounts-api-openapi.yml
   format: yaml
-  label: Tripleseat API
-  slug: rest-api
+  label: Tripleseat Accounts API
+  slug: tripleseat-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-accounts-api-openapi.yml
+- filename: tripleseat-contacts-api-openapi.yml
+  format: yaml
+  label: Tripleseat Contacts API
+  slug: tripleseat-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-contacts-api-openapi.yml
+- filename: tripleseat-events-api-openapi.yml
+  format: yaml
+  label: Tripleseat Events API
+  slug: tripleseat-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-events-api-openapi.yml
+- filename: tripleseat-leads-api-openapi.yml
+  format: yaml
+  label: Tripleseat Leads API
+  slug: tripleseat-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-leads-api-openapi.yml
+- filename: tripleseat-locations-api-openapi.yml
+  format: yaml
+  label: Tripleseat Locations API
+  slug: tripleseat-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-locations-api-openapi.yml
+- filename: tripleseat-sites-api-openapi.yml
+  format: yaml
+  label: Tripleseat Sites API
+  slug: tripleseat-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-sites-api-openapi.yml
+- filename: tripleseat-users-api-openapi.yml
+  format: yaml
+  label: Tripleseat Users API
+  slug: tripleseat-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-users-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

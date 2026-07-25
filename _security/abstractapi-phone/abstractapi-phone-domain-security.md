@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: abstractapi-phone-openapi.yml
+- filename: abstractapi-phone-phone-validation-api-openapi.yml
   format: yaml
-  label: Abstract API Phone Validation API
-  slug: abstractapi-phone-validation-api
+  label: Abstract API Phone Validation Phone Validation API
+  slug: abstractapi-phone-phone-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/openapi/abstractapi-phone-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/openapi/abstractapi-phone-phone-validation-api-openapi.yml
 description: ''
 domains:
 - caa: []

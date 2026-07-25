@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: odoo-openapi.yml
+- filename: odoo-common-api-openapi.yml
   format: yaml
-  label: Odoo External API
-  slug: odoo-external-api
+  label: Odoo Common API
+  slug: odoo-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/openapi/odoo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/openapi/odoo-common-api-openapi.yml
+- filename: odoo-json-rpc-api-openapi.yml
+  format: yaml
+  label: Odoo JSON-RPC API
+  slug: odoo-json-rpc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/openapi/odoo-json-rpc-api-openapi.yml
+- filename: odoo-object-api-openapi.yml
+  format: yaml
+  label: Odoo Object API
+  slug: odoo-object-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/openapi/odoo-object-api-openapi.yml
 description: ''
 domains:
 - caa:

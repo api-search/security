@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: lumen-internet-on-demand-api-openapi.yml
+- filename: lumen-technologies-bandwidth-api-openapi.yml
   format: yaml
-  label: Lumen Internet On-Demand API
-  slug: internet-on-demand-api
+  label: Lumen Technologies Bandwidth API
+  slug: lumen-technologies-bandwidth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumen-technologies/refs/heads/main/openapi/lumen-internet-on-demand-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lumen-technologies/refs/heads/main/openapi/lumen-technologies-bandwidth-api-openapi.yml
+- filename: lumen-technologies-connections-api-openapi.yml
+  format: yaml
+  label: Lumen Technologies Connections API
+  slug: lumen-technologies-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lumen-technologies/refs/heads/main/openapi/lumen-technologies-connections-api-openapi.yml
 description: ''
 domains:
 - caa:

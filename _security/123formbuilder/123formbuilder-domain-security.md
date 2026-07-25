@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: 123formbuilder-rest-api-v2-openapi.yml
+- filename: 123formbuilder-accounts-api-openapi.yml
   format: yaml
-  label: 123FormBuilder REST API v2
-  slug: rest-api-v2
+  label: 123FormBuilder Accounts API
+  slug: 123formbuilder-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/openapi/123formbuilder-rest-api-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/openapi/123formbuilder-accounts-api-openapi.yml
+- filename: 123formbuilder-forms-api-openapi.yml
+  format: yaml
+  label: 123FormBuilder Forms API
+  slug: 123formbuilder-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/openapi/123formbuilder-forms-api-openapi.yml
+- filename: 123formbuilder-groups-api-openapi.yml
+  format: yaml
+  label: 123FormBuilder Groups API
+  slug: 123formbuilder-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/openapi/123formbuilder-groups-api-openapi.yml
+- filename: 123formbuilder-login-api-openapi.yml
+  format: yaml
+  label: 123FormBuilder Login API
+  slug: 123formbuilder-login-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/openapi/123formbuilder-login-api-openapi.yml
+- filename: 123formbuilder-users-api-openapi.yml
+  format: yaml
+  label: 123FormBuilder Users API
+  slug: 123formbuilder-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/openapi/123formbuilder-users-api-openapi.yml
 description: ''
 domains:
 - caa:

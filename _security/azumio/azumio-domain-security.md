@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: azumio-food-recognition-openapi.yml
+- filename: azumio-food-recognition-api-openapi.yml
   format: yaml
-  label: Calorie Mama Food Recognition API
-  slug: calorie-mama-food-recognition-api
+  label: Azumio Food Recognition API
+  slug: azumio-food-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azumio/refs/heads/main/openapi/azumio-food-recognition-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/azumio/refs/heads/main/openapi/azumio-food-recognition-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,12 +2,90 @@
 api_key_in:
 - header
 api_specs:
-- filename: mithril-compute-openapi-original.json
-  format: json
-  label: Mithril Compute API
-  slug: mithril-compute-api
+- filename: mithril-api-keys-api-openapi.yml
+  format: yaml
+  label: Mithril API Keys API
+  slug: mithril-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-compute-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-api-keys-api-openapi.yml
+- filename: mithril-image-versions-api-openapi.yml
+  format: yaml
+  label: Mithril image versions API
+  slug: mithril-image-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-image-versions-api-openapi.yml
+- filename: mithril-instance-types-api-openapi.yml
+  format: yaml
+  label: Mithril instance types API
+  slug: mithril-instance-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-instance-types-api-openapi.yml
+- filename: mithril-instances-api-openapi.yml
+  format: yaml
+  label: Mithril instances API
+  slug: mithril-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-instances-api-openapi.yml
+- filename: mithril-kubernetes-clusters-api-openapi.yml
+  format: yaml
+  label: Mithril kubernetes clusters API
+  slug: mithril-kubernetes-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-kubernetes-clusters-api-openapi.yml
+- filename: mithril-lifecycle-scripts-api-openapi.yml
+  format: yaml
+  label: Mithril lifecycle scripts API
+  slug: mithril-lifecycle-scripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-lifecycle-scripts-api-openapi.yml
+- filename: mithril-pricing-api-openapi.yml
+  format: yaml
+  label: Mithril pricing API
+  slug: mithril-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-pricing-api-openapi.yml
+- filename: mithril-profile-api-openapi.yml
+  format: yaml
+  label: Mithril profile API
+  slug: mithril-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-profile-api-openapi.yml
+- filename: mithril-projects-api-openapi.yml
+  format: yaml
+  label: Mithril projects API
+  slug: mithril-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-projects-api-openapi.yml
+- filename: mithril-quotas-api-openapi.yml
+  format: yaml
+  label: Mithril quotas API
+  slug: mithril-quotas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-quotas-api-openapi.yml
+- filename: mithril-reservations-api-openapi.yml
+  format: yaml
+  label: Mithril reservations API
+  slug: mithril-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-reservations-api-openapi.yml
+- filename: mithril-spot-api-openapi.yml
+  format: yaml
+  label: Mithril spot API
+  slug: mithril-spot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-spot-api-openapi.yml
+- filename: mithril-ssh-keys-api-openapi.yml
+  format: yaml
+  label: Mithril SSH Keys API
+  slug: mithril-ssh-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-ssh-keys-api-openapi.yml
+- filename: mithril-volumes-api-openapi.yml
+  format: yaml
+  label: Mithril volumes API
+  slug: mithril-volumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-volumes-api-openapi.yml
 auth_types:
 - http
 description: ''

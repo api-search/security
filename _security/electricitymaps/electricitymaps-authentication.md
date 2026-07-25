@@ -2,36 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: electricitymaps-openapi.yml
+- filename: electricitymaps-carbon-intensity-api-openapi.yml
   format: yaml
   label: Electricity Maps Carbon Intensity API
-  slug: carbon-intensity-api
+  slug: electricitymaps-carbon-intensity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-openapi.yml
-- filename: electricitymaps-openapi.yml
-  format: yaml
-  label: Electricity Maps Power Breakdown API
-  slug: power-breakdown-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-openapi.yml
-- filename: electricitymaps-openapi.yml
-  format: yaml
-  label: Electricity Maps Power Consumption & Production API
-  slug: power-consumption-production-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-openapi.yml
-- filename: electricitymaps-openapi.yml
-  format: yaml
-  label: Electricity Maps Zones API
-  slug: zones-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-openapi.yml
-- filename: electricitymaps-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-carbon-intensity-api-openapi.yml
+- filename: electricitymaps-forecast-api-openapi.yml
   format: yaml
   label: Electricity Maps Forecast API
-  slug: forecast-api
+  slug: electricitymaps-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-forecast-api-openapi.yml
+- filename: electricitymaps-health-api-openapi.yml
+  format: yaml
+  label: Electricity Maps Health API
+  slug: electricitymaps-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-health-api-openapi.yml
+- filename: electricitymaps-power-breakdown-api-openapi.yml
+  format: yaml
+  label: Electricity Maps Power Breakdown API
+  slug: electricitymaps-power-breakdown-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-power-breakdown-api-openapi.yml
+- filename: electricitymaps-power-consumption-api-openapi.yml
+  format: yaml
+  label: Electricity Maps Power Consumption API
+  slug: electricitymaps-power-consumption-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-power-consumption-api-openapi.yml
+- filename: electricitymaps-power-production-api-openapi.yml
+  format: yaml
+  label: Electricity Maps Power Production API
+  slug: electricitymaps-power-production-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-power-production-api-openapi.yml
+- filename: electricitymaps-zones-api-openapi.yml
+  format: yaml
+  label: Electricity Maps Zones API
+  slug: electricitymaps-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-zones-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

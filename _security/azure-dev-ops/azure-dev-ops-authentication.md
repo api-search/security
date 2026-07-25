@@ -1,18 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: azure-dev-ops-openapi.yaml
+- filename: azure-dev-ops-operations-api-openapi.yml
   format: yaml
-  label: Azure DevOps REST API
-  slug: azure-devops-rest-api
+  label: Azure DevOps Operations API
+  slug: azure-dev-ops-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-dev-ops/refs/heads/main/openapi/azure-dev-ops-openapi.yaml
-- filename: azure-dev-ops-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-dev-ops/refs/heads/main/openapi/azure-dev-ops-operations-api-openapi.yml
+- filename: azure-dev-ops-pipelines-api-openapi.yml
   format: yaml
   label: Azure DevOps Pipelines API
-  slug: azure-devops-pipelines-api
+  slug: azure-dev-ops-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-dev-ops/refs/heads/main/openapi/azure-dev-ops-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-dev-ops/refs/heads/main/openapi/azure-dev-ops-pipelines-api-openapi.yml
+- filename: azure-dev-ops-pipelinetemplatedefinitions-api-openapi.yml
+  format: yaml
+  label: Azure DevOps PipelineTemplateDefinitions API
+  slug: azure-dev-ops-pipelinetemplatedefinitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-dev-ops/refs/heads/main/openapi/azure-dev-ops-pipelinetemplatedefinitions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

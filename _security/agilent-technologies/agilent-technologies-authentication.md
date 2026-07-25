@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: agilent-ilab-operations-api.yaml
+- filename: agilent-technologies-cores-api-openapi.yml
   format: yaml
-  label: Agilent iLab Operations API
-  slug: agilent-ilab-operations-api
+  label: agilent-technologies Cores API
+  slug: agilent-technologies-cores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-ilab-operations-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-cores-api-openapi.yml
+- filename: agilent-technologies-invoices-api-openapi.yml
+  format: yaml
+  label: agilent-technologies Invoices API
+  slug: agilent-technologies-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-invoices-api-openapi.yml
+- filename: agilent-technologies-members-api-openapi.yml
+  format: yaml
+  label: agilent-technologies Members API
+  slug: agilent-technologies-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-members-api-openapi.yml
+- filename: agilent-technologies-projects-api-openapi.yml
+  format: yaml
+  label: agilent-technologies Projects API
+  slug: agilent-technologies-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-projects-api-openapi.yml
+- filename: agilent-technologies-reservations-api-openapi.yml
+  format: yaml
+  label: agilent-technologies Reservations API
+  slug: agilent-technologies-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-reservations-api-openapi.yml
+- filename: agilent-technologies-service-requests-api-openapi.yml
+  format: yaml
+  label: agilent-technologies Service Requests API
+  slug: agilent-technologies-service-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-service-requests-api-openapi.yml
+- filename: agilent-technologies-services-api-openapi.yml
+  format: yaml
+  label: agilent-technologies Services API
+  slug: agilent-technologies-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-services-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -6,6 +6,30 @@ api_specs:
   slug: platform
   spec_type: OpenAPI
   url: https://external.api.recraft.ai/doc/
+- filename: recraft-images-api-openapi.yml
+  format: yaml
+  label: Recraft Images API
+  slug: recraft-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recraft/refs/heads/main/openapi/recraft-images-api-openapi.yml
+- filename: recraft-prompts-api-openapi.yml
+  format: yaml
+  label: Recraft Prompts API
+  slug: recraft-prompts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recraft/refs/heads/main/openapi/recraft-prompts-api-openapi.yml
+- filename: recraft-styles-api-openapi.yml
+  format: yaml
+  label: Recraft Styles API
+  slug: recraft-styles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recraft/refs/heads/main/openapi/recraft-styles-api-openapi.yml
+- filename: recraft-users-api-openapi.yml
+  format: yaml
+  label: Recraft Users API
+  slug: recraft-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recraft/refs/heads/main/openapi/recraft-users-api-openapi.yml
 description: ''
 domains:
 - caa:

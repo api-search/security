@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: delphi-openapi.yml
+- filename: delphi-audience-api-openapi.yml
   format: yaml
-  label: Delphi API
-  slug: delphi-api
+  label: Delphi Audience API
+  slug: delphi-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-audience-api-openapi.yml
+- filename: delphi-clone-api-openapi.yml
+  format: yaml
+  label: Delphi Clone API
+  slug: delphi-clone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-clone-api-openapi.yml
+- filename: delphi-conversations-api-openapi.yml
+  format: yaml
+  label: Delphi Conversations API
+  slug: delphi-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-conversations-api-openapi.yml
+- filename: delphi-questions-api-openapi.yml
+  format: yaml
+  label: Delphi Questions API
+  slug: delphi-questions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-questions-api-openapi.yml
+- filename: delphi-search-api-openapi.yml
+  format: yaml
+  label: Delphi Search API
+  slug: delphi-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-search-api-openapi.yml
+- filename: delphi-tags-api-openapi.yml
+  format: yaml
+  label: Delphi Tags API
+  slug: delphi-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-tags-api-openapi.yml
+- filename: delphi-usage-api-openapi.yml
+  format: yaml
+  label: Delphi Usage API
+  slug: delphi-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-usage-api-openapi.yml
+- filename: delphi-voice-api-openapi.yml
+  format: yaml
+  label: Delphi Voice API
+  slug: delphi-voice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-voice-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

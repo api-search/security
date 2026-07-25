@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: 3m-partner-supplier-api-openapi.yml
+- filename: 3m-deliveries-api-openapi.yml
   format: yaml
-  label: 3M Partner and Supplier API
-  slug: partner-supplier-api
+  label: 3M Deliveries API
+  slug: 3m-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/openapi/3m-partner-supplier-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/openapi/3m-deliveries-api-openapi.yml
+- filename: 3m-invoices-api-openapi.yml
+  format: yaml
+  label: 3M Invoices API
+  slug: 3m-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/openapi/3m-invoices-api-openapi.yml
+- filename: 3m-orders-api-openapi.yml
+  format: yaml
+  label: 3M Orders API
+  slug: 3m-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/openapi/3m-orders-api-openapi.yml
+- filename: 3m-products-api-openapi.yml
+  format: yaml
+  label: 3M Products API
+  slug: 3m-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/openapi/3m-products-api-openapi.yml
 auth_types:
 - http
 description: ''

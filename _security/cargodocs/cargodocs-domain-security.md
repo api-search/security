@@ -1,23 +1,47 @@
 ---
 api_specs:
-- filename: cargodocs-partner-openapi.yml
+- filename: cargodocs-common-api-openapi.yml
   format: yaml
-  label: CargoDocs Partner API
-  slug: partner-api
+  label: CargoDocs Common API
+  slug: cargodocs-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-partner-openapi.yml
-- filename: cargodocs-issuer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-common-api-openapi.yml
+- filename: cargodocs-documents-api-openapi.yml
   format: yaml
-  label: CargoDocs Issuer API
-  slug: issuer-api
+  label: CargoDocs Documents API
+  slug: cargodocs-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-issuer-openapi.yml
-- filename: cargodocs-customer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-documents-api-openapi.yml
+- filename: cargodocs-exchange-api-openapi.yml
   format: yaml
-  label: CargoDocs Customer Data/Docs API
-  slug: customer-api
+  label: CargoDocs Exchange API
+  slug: cargodocs-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-customer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-exchange-api-openapi.yml
+- filename: cargodocs-import-api-openapi.yml
+  format: yaml
+  label: CargoDocs Import API
+  slug: cargodocs-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-import-api-openapi.yml
+- filename: cargodocs-issuance-api-openapi.yml
+  format: yaml
+  label: CargoDocs Issuance API
+  slug: cargodocs-issuance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-issuance-api-openapi.yml
+- filename: cargodocs-surrender-api-openapi.yml
+  format: yaml
+  label: CargoDocs Surrender API
+  slug: cargodocs-surrender-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-surrender-api-openapi.yml
+- filename: cargodocs-transactions-api-openapi.yml
+  format: yaml
+  label: CargoDocs Transactions API
+  slug: cargodocs-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

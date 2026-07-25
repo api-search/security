@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: meta-openapi.yml
+- filename: meta-custom-audiences-api-openapi.yml
   format: yaml
-  label: Facebook Graph API - User
-  slug: facebook-graph-api-user
+  label: Meta Custom Audiences API
+  slug: meta-custom-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/openapi/meta-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/openapi/meta-custom-audiences-api-openapi.yml
+- filename: meta-pages-api-openapi.yml
+  format: yaml
+  label: Meta Pages API
+  slug: meta-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/openapi/meta-pages-api-openapi.yml
+- filename: meta-users-api-openapi.yml
+  format: yaml
+  label: Meta Users API
+  slug: meta-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/openapi/meta-users-api-openapi.yml
 auth_types:
 - oauth2
 description: Meta authenticates with OAuth 2.0 access tokens (Facebook Login). The scheme in openapi/meta-openapi.yml is oauth2 (implicit flow); the docs describe four token types below. Tokens carry granted permissions (scopes/meta-scopes.yml) and can be inspected with the Access Token Debugger.

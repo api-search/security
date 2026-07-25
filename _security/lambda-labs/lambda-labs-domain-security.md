@@ -1,17 +1,65 @@
 ---
 api_specs:
-- filename: lambda-labs-openapi.json
-  format: json
-  label: Lambda Cloud API
-  slug: cloud-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-openapi.json
 - filename: lambda-labs-asyncapi.yml
   format: yaml
   label: Lambda Inference API
   slug: inference-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/asyncapi/lambda-labs-asyncapi.yml
+- filename: lambda-labs-audit-events-api-openapi.yml
+  format: yaml
+  label: Lambda Audit Events API
+  slug: lambda-labs-audit-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-audit-events-api-openapi.yml
+- filename: lambda-labs-fabric-api-openapi.yml
+  format: yaml
+  label: Lambda Fabric API
+  slug: lambda-labs-fabric-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-fabric-api-openapi.yml
+- filename: lambda-labs-filesystems-api-openapi.yml
+  format: yaml
+  label: Lambda Filesystems API
+  slug: lambda-labs-filesystems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-filesystems-api-openapi.yml
+- filename: lambda-labs-firewalls-api-openapi.yml
+  format: yaml
+  label: Lambda Firewalls API
+  slug: lambda-labs-firewalls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-firewalls-api-openapi.yml
+- filename: lambda-labs-images-api-openapi.yml
+  format: yaml
+  label: Lambda Images API
+  slug: lambda-labs-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-images-api-openapi.yml
+- filename: lambda-labs-instances-api-openapi.yml
+  format: yaml
+  label: Lambda Instances API
+  slug: lambda-labs-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-instances-api-openapi.yml
+- filename: lambda-labs-regions-api-openapi.yml
+  format: yaml
+  label: Lambda Regions API
+  slug: lambda-labs-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-regions-api-openapi.yml
+- filename: lambda-labs-ssh-keys-api-openapi.yml
+  format: yaml
+  label: Lambda SSH keys API
+  slug: lambda-labs-ssh-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-ssh-keys-api-openapi.yml
+- filename: lambda-labs-support-tickets-api-openapi.yml
+  format: yaml
+  label: Lambda Support Tickets API
+  slug: lambda-labs-support-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-support-tickets-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,41 +1,47 @@
 ---
 api_specs:
-- filename: jawg-maps-openapi.yml
+- filename: jawg-maps-isochrone-api-openapi.yml
   format: yaml
-  label: Jawg Map Tiles & Styles API
-  slug: jawg-maps-map-tiles-styles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-openapi.yml
-- filename: jawg-maps-openapi.yml
-  format: yaml
-  label: Jawg Places / Geocoding API
-  slug: jawg-maps-places-geocoding-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-openapi.yml
-- filename: jawg-maps-openapi.yml
-  format: yaml
-  label: Jawg Routing API
-  slug: jawg-maps-routing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-openapi.yml
-- filename: jawg-maps-openapi.yml
-  format: yaml
-  label: Jawg Matrix API
-  slug: jawg-maps-matrix-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-openapi.yml
-- filename: jawg-maps-openapi.yml
-  format: yaml
-  label: Jawg Isochrone API
+  label: Jawg Maps Isochrone API
   slug: jawg-maps-isochrone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-openapi.yml
-- filename: jawg-maps-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-isochrone-api-openapi.yml
+- filename: jawg-maps-matrix-api-openapi.yml
   format: yaml
-  label: Jawg Static Maps API
+  label: Jawg Maps Matrix API
+  slug: jawg-maps-matrix-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-matrix-api-openapi.yml
+- filename: jawg-maps-places-api-openapi.yml
+  format: yaml
+  label: Jawg Maps Places API
+  slug: jawg-maps-places-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-places-api-openapi.yml
+- filename: jawg-maps-routing-api-openapi.yml
+  format: yaml
+  label: Jawg Maps Routing API
+  slug: jawg-maps-routing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-routing-api-openapi.yml
+- filename: jawg-maps-static-maps-api-openapi.yml
+  format: yaml
+  label: Jawg Maps Static Maps API
   slug: jawg-maps-static-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-static-maps-api-openapi.yml
+- filename: jawg-maps-styles-api-openapi.yml
+  format: yaml
+  label: Jawg Maps Styles API
+  slug: jawg-maps-styles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-styles-api-openapi.yml
+- filename: jawg-maps-tiles-api-openapi.yml
+  format: yaml
+  label: Jawg Maps Tiles API
+  slug: jawg-maps-tiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-tiles-api-openapi.yml
 description: ''
 domains:
 - caa:

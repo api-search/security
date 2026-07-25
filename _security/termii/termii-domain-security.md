@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: termii-openapi.yml
-  format: yaml
-  label: Termii Messaging API
-  slug: messaging
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/termii/refs/heads/main/openapi/termii-openapi.yml
-- filename: termii-openapi.yml
-  format: yaml
-  label: Termii Token / OTP API
-  slug: token
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/termii/refs/heads/main/openapi/termii-openapi.yml
-- filename: termii-openapi.yml
-  format: yaml
-  label: Termii Sender IDs API
-  slug: sender-ids
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/termii/refs/heads/main/openapi/termii-openapi.yml
-- filename: termii-openapi.yml
+- filename: termii-campaigns-api-openapi.yml
   format: yaml
   label: Termii Campaigns API
-  slug: campaigns
+  slug: termii-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/termii/refs/heads/main/openapi/termii-openapi.yml
-- filename: termii-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/termii/refs/heads/main/openapi/termii-campaigns-api-openapi.yml
+- filename: termii-contacts-api-openapi.yml
   format: yaml
-  label: Termii Contacts / Phonebooks API
-  slug: contacts
+  label: Termii Contacts API
+  slug: termii-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/termii/refs/heads/main/openapi/termii-openapi.yml
-- filename: termii-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/termii/refs/heads/main/openapi/termii-contacts-api-openapi.yml
+- filename: termii-insights-api-openapi.yml
   format: yaml
   label: Termii Insights API
-  slug: insights
+  slug: termii-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/termii/refs/heads/main/openapi/termii-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/termii/refs/heads/main/openapi/termii-insights-api-openapi.yml
+- filename: termii-messaging-api-openapi.yml
+  format: yaml
+  label: Termii Messaging API
+  slug: termii-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/termii/refs/heads/main/openapi/termii-messaging-api-openapi.yml
+- filename: termii-sender-ids-api-openapi.yml
+  format: yaml
+  label: Termii Sender IDs API
+  slug: termii-sender-ids-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/termii/refs/heads/main/openapi/termii-sender-ids-api-openapi.yml
+- filename: termii-token-api-openapi.yml
+  format: yaml
+  label: Termii Token API
+  slug: termii-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/termii/refs/heads/main/openapi/termii-token-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: ship24-tracking-api.yaml
+- filename: ship24-api-for-per-call-plans-api-openapi.yml
   format: yaml
-  label: Ship24 Tracking API
-  slug: ship24-tracking-api
+  label: Ship24 ➕ API for per-call plans API
+  slug: ship24-api-for-per-call-plans-api
   spec_type: OpenAPI
-  url: https://docs.ship24.com/assets/openapi/ship24-tracking-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/openapi/ship24-api-for-per-call-plans-api-openapi.yml
+- filename: ship24-couriers-api-openapi.yml
+  format: yaml
+  label: Ship24 🚚 Couriers API
+  slug: ship24-couriers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/openapi/ship24-couriers-api-openapi.yml
+- filename: ship24-trackers-api-openapi.yml
+  format: yaml
+  label: Ship24 📦 Trackers API
+  slug: ship24-trackers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/openapi/ship24-trackers-api-openapi.yml
 description: ''
 domains:
 - caa: []

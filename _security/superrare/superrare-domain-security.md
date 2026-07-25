@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: superrare-collections-api-openapi.yml
   format: yaml
-  label: SuperRare Marketplace API
-  slug: superrare-marketplace-api
+  label: SuperRare Collections API
+  slug: superrare-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superrare/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/superrare/refs/heads/main/openapi/superrare-collections-api-openapi.yml
+- filename: superrare-media-api-openapi.yml
+  format: yaml
+  label: SuperRare Media API
+  slug: superrare-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superrare/refs/heads/main/openapi/superrare-media-api-openapi.yml
+- filename: superrare-merkle-roots-api-openapi.yml
+  format: yaml
+  label: SuperRare Merkle Roots API
+  slug: superrare-merkle-roots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superrare/refs/heads/main/openapi/superrare-merkle-roots-api-openapi.yml
+- filename: superrare-nfts-api-openapi.yml
+  format: yaml
+  label: SuperRare NFTs API
+  slug: superrare-nfts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superrare/refs/heads/main/openapi/superrare-nfts-api-openapi.yml
+- filename: superrare-tokens-api-openapi.yml
+  format: yaml
+  label: SuperRare Tokens API
+  slug: superrare-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superrare/refs/heads/main/openapi/superrare-tokens-api-openapi.yml
+- filename: superrare-users-api-openapi.yml
+  format: yaml
+  label: SuperRare Users API
+  slug: superrare-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superrare/refs/heads/main/openapi/superrare-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

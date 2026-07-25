@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: ramp-developer-api-openapi.yml
+- filename: ramp-accounts-api-openapi.yml
   format: yaml
-  label: Ramp Developer API
-  slug: ramp-developer-api
+  label: Ramp Accounts API
+  slug: ramp-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/openapi/ramp-developer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/openapi/ramp-accounts-api-openapi.yml
+- filename: ramp-audit-logs-api-openapi.yml
+  format: yaml
+  label: Ramp Audit Logs API
+  slug: ramp-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/openapi/ramp-audit-logs-api-openapi.yml
+- filename: ramp-bills-api-openapi.yml
+  format: yaml
+  label: Ramp Bills API
+  slug: ramp-bills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/openapi/ramp-bills-api-openapi.yml
+- filename: ramp-cards-api-openapi.yml
+  format: yaml
+  label: Ramp Cards API
+  slug: ramp-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/openapi/ramp-cards-api-openapi.yml
+- filename: ramp-departments-api-openapi.yml
+  format: yaml
+  label: Ramp Departments API
+  slug: ramp-departments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/openapi/ramp-departments-api-openapi.yml
+- filename: ramp-locations-api-openapi.yml
+  format: yaml
+  label: Ramp Locations API
+  slug: ramp-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/openapi/ramp-locations-api-openapi.yml
+- filename: ramp-reimbursements-api-openapi.yml
+  format: yaml
+  label: Ramp Reimbursements API
+  slug: ramp-reimbursements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/openapi/ramp-reimbursements-api-openapi.yml
+- filename: ramp-statements-api-openapi.yml
+  format: yaml
+  label: Ramp Statements API
+  slug: ramp-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/openapi/ramp-statements-api-openapi.yml
+- filename: ramp-transactions-api-openapi.yml
+  format: yaml
+  label: Ramp Transactions API
+  slug: ramp-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/openapi/ramp-transactions-api-openapi.yml
+- filename: ramp-users-api-openapi.yml
+  format: yaml
+  label: Ramp Users API
+  slug: ramp-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/openapi/ramp-users-api-openapi.yml
+- filename: ramp-vendors-api-openapi.yml
+  format: yaml
+  label: Ramp Vendors API
+  slug: ramp-vendors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/openapi/ramp-vendors-api-openapi.yml
 description: ''
 domains:
 - caa:

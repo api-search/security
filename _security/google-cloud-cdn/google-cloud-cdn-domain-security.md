@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: cdn-openapi.yml
+- filename: google-cloud-cdn-backendservices-api-openapi.yml
   format: yaml
-  label: Google Cloud CDN API
-  slug: google-cloud-cdn-api
+  label: Google Cloud CDN BackendServices API
+  slug: google-cloud-cdn-backendservices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-cdn/refs/heads/main/openapi/cdn-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-cdn/refs/heads/main/openapi/google-cloud-cdn-backendservices-api-openapi.yml
+- filename: google-cloud-cdn-cacheinvalidation-api-openapi.yml
+  format: yaml
+  label: Google Cloud CDN CacheInvalidation API
+  slug: google-cloud-cdn-cacheinvalidation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-cdn/refs/heads/main/openapi/google-cloud-cdn-cacheinvalidation-api-openapi.yml
+- filename: google-cloud-cdn-urlmaps-api-openapi.yml
+  format: yaml
+  label: Google Cloud CDN UrlMaps API
+  slug: google-cloud-cdn-urlmaps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-cdn/refs/heads/main/openapi/google-cloud-cdn-urlmaps-api-openapi.yml
 description: ''
 domains:
 - caa:

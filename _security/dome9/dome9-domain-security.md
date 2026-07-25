@@ -6,6 +6,42 @@ api_specs:
   slug: dome9-api
   spec_type: Postman
   url: https://www.postman.com/dome9-security/workspace/dome9-api
+- filename: dome9-awsaccounts-api-openapi.yml
+  format: yaml
+  label: Dome9 AWSAccounts API
+  slug: dome9-awsaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dome9/refs/heads/main/openapi/dome9-awsaccounts-api-openapi.yml
+- filename: dome9-azureaccounts-api-openapi.yml
+  format: yaml
+  label: Dome9 AzureAccounts API
+  slug: dome9-azureaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dome9/refs/heads/main/openapi/dome9-azureaccounts-api-openapi.yml
+- filename: dome9-compliance-api-openapi.yml
+  format: yaml
+  label: Dome9 Compliance API
+  slug: dome9-compliance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dome9/refs/heads/main/openapi/dome9-compliance-api-openapi.yml
+- filename: dome9-googleaccounts-api-openapi.yml
+  format: yaml
+  label: Dome9 GoogleAccounts API
+  slug: dome9-googleaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dome9/refs/heads/main/openapi/dome9-googleaccounts-api-openapi.yml
+- filename: dome9-roles-api-openapi.yml
+  format: yaml
+  label: Dome9 Roles API
+  slug: dome9-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dome9/refs/heads/main/openapi/dome9-roles-api-openapi.yml
+- filename: dome9-users-api-openapi.yml
+  format: yaml
+  label: Dome9 Users API
+  slug: dome9-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dome9/refs/heads/main/openapi/dome9-users-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: ing-australia-cds-banking-products-openapi.yml
+- filename: ing-australia-banking-account-balances-api-openapi.yml
   format: yaml
-  label: ING Australia CDR Product Reference Data API
-  slug: ing-australia-cdr-product-reference-data-api
+  label: ING Australia Banking Account Balances API
+  slug: ing-australia-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-cds-banking-products-openapi.yml
-- filename: ing-australia-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-banking-account-balances-api-openapi.yml
+- filename: ing-australia-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: ING Australia CDR Accounts & Balances API
-  slug: ing-australia-cdr-accounts-balances-api
+  label: ING Australia Banking Account Direct Debits API
+  slug: ing-australia-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-cds-banking-products-openapi.yml
-- filename: ing-australia-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-banking-account-direct-debits-api-openapi.yml
+- filename: ing-australia-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: ING Australia CDR Transactions API
-  slug: ing-australia-cdr-transactions-api
+  label: ING Australia Banking Account Scheduled Payments API
+  slug: ing-australia-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-cds-banking-products-openapi.yml
-- filename: ing-australia-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-banking-account-scheduled-payments-api-openapi.yml
+- filename: ing-australia-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: ING Australia CDR Direct Debits & Scheduled Payments API
-  slug: ing-australia-cdr-direct-debits-scheduled-payments-api
+  label: ING Australia Banking Account Transactions API
+  slug: ing-australia-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-cds-banking-products-openapi.yml
-- filename: ing-australia-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-banking-account-transactions-api-openapi.yml
+- filename: ing-australia-banking-accounts-api-openapi.yml
   format: yaml
-  label: ING Australia CDR Payees API
-  slug: ing-australia-cdr-payees-api
+  label: ING Australia Banking Accounts API
+  slug: ing-australia-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-banking-accounts-api-openapi.yml
+- filename: ing-australia-banking-payees-api-openapi.yml
+  format: yaml
+  label: ING Australia Banking Payees API
+  slug: ing-australia-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-banking-payees-api-openapi.yml
+- filename: ing-australia-banking-products-api-openapi.yml
+  format: yaml
+  label: ING Australia Banking Products API
+  slug: ing-australia-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: fis-payments-openapi.yml
+- filename: fis-accounts-api-openapi.yml
   format: yaml
-  label: FIS Payments API
+  label: FIS Global Accounts API
+  slug: fis-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fis/refs/heads/main/openapi/fis-accounts-api-openapi.yml
+- filename: fis-ach-api-openapi.yml
+  format: yaml
+  label: FIS Global ACH API
+  slug: fis-ach-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fis/refs/heads/main/openapi/fis-ach-api-openapi.yml
+- filename: fis-payments-api-openapi.yml
+  format: yaml
+  label: FIS Global Payments API
   slug: fis-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fis/refs/heads/main/openapi/fis-payments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fis/refs/heads/main/openapi/fis-payments-api-openapi.yml
+- filename: fis-transactions-api-openapi.yml
+  format: yaml
+  label: FIS Global Transactions API
+  slug: fis-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fis/refs/heads/main/openapi/fis-transactions-api-openapi.yml
+- filename: fis-wire-transfers-api-openapi.yml
+  format: yaml
+  label: FIS Global Wire Transfers API
+  slug: fis-wire-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fis/refs/heads/main/openapi/fis-wire-transfers-api-openapi.yml
 description: ''
 domains:
 - caa:

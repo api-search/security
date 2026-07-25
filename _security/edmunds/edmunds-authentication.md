@@ -2,18 +2,12 @@
 api_key_in:
 - query
 api_specs:
-- filename: edmunds-openapi.yml
+- filename: edmunds-vehicle-api-openapi.yml
   format: yaml
-  label: Edmunds Dealership API
-  slug: edmunds
+  label: Edmunds Vehicle API
+  slug: edmunds-vehicle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edmunds/refs/heads/main/openapi/edmunds-openapi.yml
-- filename: edmunds-openapi.yml
-  format: yaml
-  label: Edmunds API
-  slug: edmunds
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edmunds/refs/heads/main/openapi/edmunds-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/edmunds/refs/heads/main/openapi/edmunds-vehicle-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

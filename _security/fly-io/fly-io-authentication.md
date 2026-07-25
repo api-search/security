@@ -14,6 +14,42 @@ api_specs:
   slug: extensions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-extensions-api-openapi.yml
+- filename: fly-io-apps-api-openapi.yml
+  format: yaml
+  label: fly-io Apps API
+  slug: fly-io-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-apps-api-openapi.yml
+- filename: fly-io-oauth-api-openapi.yml
+  format: yaml
+  label: fly-io OAuth API
+  slug: fly-io-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-oauth-api-openapi.yml
+- filename: fly-io-sso-api-openapi.yml
+  format: yaml
+  label: fly-io SSO API
+  slug: fly-io-sso-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-sso-api-openapi.yml
+- filename: fly-io-tokens-api-openapi.yml
+  format: yaml
+  label: fly-io Tokens API
+  slug: fly-io-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-tokens-api-openapi.yml
+- filename: fly-io-volumes-api-openapi.yml
+  format: yaml
+  label: fly-io Volumes API
+  slug: fly-io-volumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-volumes-api-openapi.yml
+- filename: fly-io-webhooks-api-openapi.yml
+  format: yaml
+  label: fly-io Webhooks API
+  slug: fly-io-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http

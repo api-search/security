@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: blockchair-openapi.yml
+- filename: blockchair-address-dashboards-api-openapi.yml
   format: yaml
   label: Blockchair Address Dashboards API
-  slug: address-dashboards
+  slug: blockchair-address-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-openapi.yml
-- filename: blockchair-openapi.yml
-  format: yaml
-  label: Blockchair Transaction Dashboards API
-  slug: transaction-dashboards
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-openapi.yml
-- filename: blockchair-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-address-dashboards-api-openapi.yml
+- filename: blockchair-block-dashboards-api-openapi.yml
   format: yaml
   label: Blockchair Block Dashboards API
-  slug: block-dashboards
+  slug: blockchair-block-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-openapi.yml
-- filename: blockchair-openapi.yml
-  format: yaml
-  label: Blockchair Raw Data API
-  slug: raw-data
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-openapi.yml
-- filename: blockchair-openapi.yml
-  format: yaml
-  label: Blockchair Stats API
-  slug: stats
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-openapi.yml
-- filename: blockchair-openapi.yml
-  format: yaml
-  label: Blockchair Outputs Database API
-  slug: outputs
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-openapi.yml
-- filename: blockchair-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-block-dashboards-api-openapi.yml
+- filename: blockchair-broadcast-api-openapi.yml
   format: yaml
   label: Blockchair Broadcast API
-  slug: broadcast
+  slug: blockchair-broadcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-broadcast-api-openapi.yml
+- filename: blockchair-outputs-database-api-openapi.yml
+  format: yaml
+  label: Blockchair Outputs Database API
+  slug: blockchair-outputs-database-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-outputs-database-api-openapi.yml
+- filename: blockchair-raw-data-api-openapi.yml
+  format: yaml
+  label: Blockchair Raw Data API
+  slug: blockchair-raw-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-raw-data-api-openapi.yml
+- filename: blockchair-stats-api-openapi.yml
+  format: yaml
+  label: Blockchair Stats API
+  slug: blockchair-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-stats-api-openapi.yml
+- filename: blockchair-transaction-dashboards-api-openapi.yml
+  format: yaml
+  label: Blockchair Transaction Dashboards API
+  slug: blockchair-transaction-dashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-transaction-dashboards-api-openapi.yml
 description: ''
 domains:
 - caa:

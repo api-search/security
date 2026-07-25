@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: johnson-and-johnson-lifescan-api-openapi.yml
+- filename: johnson-and-johnson-devices-api-openapi.yml
   format: yaml
-  label: Johnson & Johnson LifeScan API
-  slug: lifescan-api
+  label: Johnson & Johnson Devices API
+  slug: johnson-and-johnson-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/openapi/johnson-and-johnson-lifescan-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/openapi/johnson-and-johnson-devices-api-openapi.yml
+- filename: johnson-and-johnson-glucose-readings-api-openapi.yml
+  format: yaml
+  label: Johnson & Johnson Glucose Readings API
+  slug: johnson-and-johnson-glucose-readings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/openapi/johnson-and-johnson-glucose-readings-api-openapi.yml
+- filename: johnson-and-johnson-patients-api-openapi.yml
+  format: yaml
+  label: Johnson & Johnson Patients API
+  slug: johnson-and-johnson-patients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/openapi/johnson-and-johnson-patients-api-openapi.yml
 description: ''
 domains:
 - caa: []

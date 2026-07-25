@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: vooma-openapi-original.json
-  format: json
-  label: Vooma Public API
-  slug: vooma-public-api
+- filename: vooma-carriers-api-openapi.yml
+  format: yaml
+  label: Vooma Carriers API
+  slug: vooma-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-carriers-api-openapi.yml
+- filename: vooma-contacts-api-openapi.yml
+  format: yaml
+  label: Vooma Contacts API
+  slug: vooma-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-contacts-api-openapi.yml
+- filename: vooma-customers-api-openapi.yml
+  format: yaml
+  label: Vooma Customers API
+  slug: vooma-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-customers-api-openapi.yml
+- filename: vooma-locations-api-openapi.yml
+  format: yaml
+  label: Vooma Locations API
+  slug: vooma-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-locations-api-openapi.yml
+- filename: vooma-movements-api-openapi.yml
+  format: yaml
+  label: Vooma Movements API
+  slug: vooma-movements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-movements-api-openapi.yml
+- filename: vooma-quotes-api-openapi.yml
+  format: yaml
+  label: Vooma Quotes API
+  slug: vooma-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-quotes-api-openapi.yml
+- filename: vooma-shipments-api-openapi.yml
+  format: yaml
+  label: Vooma Shipments API
+  slug: vooma-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-shipments-api-openapi.yml
+- filename: vooma-tracking-status-api-openapi.yml
+  format: yaml
+  label: Vooma Tracking Status API
+  slug: vooma-tracking-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-tracking-status-api-openapi.yml
+- filename: vooma-webhooks-api-openapi.yml
+  format: yaml
+  label: Vooma Webhooks API
+  slug: vooma-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-webhooks-api-openapi.yml
 auth_types:
 - http
 description: Auth profile for the Vooma Public API. All 25 REST operations require the "bearer" scheme — an organization API key sent as a bearer token (bearerFormat "API Key"). API keys are created by an organization admin in the Vooma app and require an enterprise license. The spec also defines a basic scheme and an "auth0" bearer JWT scheme (Auth0-issued user tokens for the app), but no public operation references them. Webhook callbacks Vooma sends to your server declare no security scheme in the spec.

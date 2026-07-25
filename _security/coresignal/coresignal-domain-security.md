@@ -1,23 +1,17 @@
 ---
 api_specs:
-- filename: coresignal-multi-source-company-api-openapi.yml
+- filename: coresignal-collect-api-openapi.yml
   format: yaml
-  label: Coresignal Multi-source Company API
-  slug: multi-source-company-api
+  label: Coresignal Collect API
+  slug: coresignal-collect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/openapi/coresignal-multi-source-company-api-openapi.yml
-- filename: coresignal-multi-source-employee-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/openapi/coresignal-collect-api-openapi.yml
+- filename: coresignal-search-api-openapi.yml
   format: yaml
-  label: Coresignal Multi-source Employee API
-  slug: multi-source-employee-api
+  label: Coresignal Search API
+  slug: coresignal-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/openapi/coresignal-multi-source-employee-api-openapi.yml
-- filename: coresignal-multi-source-jobs-api-openapi.yml
-  format: yaml
-  label: Coresignal Multi-source Jobs API
-  slug: multi-source-jobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/openapi/coresignal-multi-source-jobs-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/openapi/coresignal-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

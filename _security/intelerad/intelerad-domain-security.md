@@ -1,53 +1,59 @@
 ---
 api_specs:
-- filename: intelerad-openapi.yml
+- filename: intelerad-hl7-api-openapi.yml
   format: yaml
-  label: InteleShare Studies API
-  slug: intelerad-studies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-openapi.yml
-- filename: intelerad-openapi.yml
-  format: yaml
-  label: InteleShare Storage API
-  slug: intelerad-storage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-openapi.yml
-- filename: intelerad-openapi.yml
-  format: yaml
-  label: InteleShare Patients API
-  slug: intelerad-patients-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-openapi.yml
-- filename: intelerad-openapi.yml
-  format: yaml
-  label: InteleShare Orders and Worklist API
-  slug: intelerad-worklist-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-openapi.yml
-- filename: intelerad-openapi.yml
-  format: yaml
-  label: InteleShare Reports API
-  slug: intelerad-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-openapi.yml
-- filename: intelerad-openapi.yml
-  format: yaml
-  label: InteleShare HL7 Integration API
+  label: Intelerad HL7 API
   slug: intelerad-hl7-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-openapi.yml
-- filename: intelerad-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-hl7-api-openapi.yml
+- filename: intelerad-namespace-api-openapi.yml
   format: yaml
-  label: InteleShare Webhooks and Routing API
-  slug: intelerad-webhooks-api
+  label: Intelerad Namespace API
+  slug: intelerad-namespace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-openapi.yml
-- filename: intelerad-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-namespace-api-openapi.yml
+- filename: intelerad-order-api-openapi.yml
   format: yaml
-  label: InteleShare Namespaces and Accounts API
-  slug: intelerad-namespaces-accounts-api
+  label: Intelerad Order API
+  slug: intelerad-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-order-api-openapi.yml
+- filename: intelerad-patient-api-openapi.yml
+  format: yaml
+  label: Intelerad Patient API
+  slug: intelerad-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-patient-api-openapi.yml
+- filename: intelerad-report-api-openapi.yml
+  format: yaml
+  label: Intelerad Report API
+  slug: intelerad-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-report-api-openapi.yml
+- filename: intelerad-session-api-openapi.yml
+  format: yaml
+  label: Intelerad Session API
+  slug: intelerad-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-session-api-openapi.yml
+- filename: intelerad-storage-api-openapi.yml
+  format: yaml
+  label: Intelerad Storage API
+  slug: intelerad-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-storage-api-openapi.yml
+- filename: intelerad-study-api-openapi.yml
+  format: yaml
+  label: Intelerad Study API
+  slug: intelerad-study-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-study-api-openapi.yml
+- filename: intelerad-webhook-api-openapi.yml
+  format: yaml
+  label: Intelerad Webhook API
+  slug: intelerad-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-webhook-api-openapi.yml
 description: ''
 domains:
 - caa:

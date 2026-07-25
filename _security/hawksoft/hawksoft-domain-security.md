@@ -1,29 +1,35 @@
 ---
 api_specs:
-- filename: hawksoft-openapi.yml
+- filename: hawksoft-agencies-api-openapi.yml
   format: yaml
-  label: HawkSoft Agencies and Offices API
-  slug: hawksoft-agencies-offices-api
+  label: HawkSoft Agencies API
+  slug: hawksoft-agencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-openapi.yml
-- filename: hawksoft-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-agencies-api-openapi.yml
+- filename: hawksoft-attachments-api-openapi.yml
+  format: yaml
+  label: HawkSoft Attachments API
+  slug: hawksoft-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-attachments-api-openapi.yml
+- filename: hawksoft-clients-api-openapi.yml
   format: yaml
   label: HawkSoft Clients API
   slug: hawksoft-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-openapi.yml
-- filename: hawksoft-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-clients-api-openapi.yml
+- filename: hawksoft-log-entries-api-openapi.yml
   format: yaml
   label: HawkSoft Log Entries API
   slug: hawksoft-log-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-openapi.yml
-- filename: hawksoft-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-log-entries-api-openapi.yml
+- filename: hawksoft-receipts-api-openapi.yml
   format: yaml
-  label: HawkSoft Attachments and Receipts API
-  slug: hawksoft-attachments-receipts-api
+  label: HawkSoft Receipts API
+  slug: hawksoft-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-receipts-api-openapi.yml
 description: ''
 domains:
 - caa: []

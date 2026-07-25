@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: galileo-ai-openapi.yml
+- filename: galileo-ai-annotations-api-openapi.yml
   format: yaml
-  label: Galileo Public API
-  slug: platform
+  label: Galileo Annotations API
+  slug: galileo-ai-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galileo-ai/refs/heads/main/openapi/galileo-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-ai/refs/heads/main/openapi/galileo-ai-annotations-api-openapi.yml
+- filename: galileo-ai-apikeys-api-openapi.yml
+  format: yaml
+  label: Galileo ApiKeys API
+  slug: galileo-ai-apikeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-ai/refs/heads/main/openapi/galileo-ai-apikeys-api-openapi.yml
+- filename: galileo-ai-auth-api-openapi.yml
+  format: yaml
+  label: Galileo Auth API
+  slug: galileo-ai-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-ai/refs/heads/main/openapi/galileo-ai-auth-api-openapi.yml
+- filename: galileo-ai-datasets-api-openapi.yml
+  format: yaml
+  label: Galileo Datasets API
+  slug: galileo-ai-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-ai/refs/heads/main/openapi/galileo-ai-datasets-api-openapi.yml
+- filename: galileo-ai-experiments-api-openapi.yml
+  format: yaml
+  label: Galileo Experiments API
+  slug: galileo-ai-experiments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-ai/refs/heads/main/openapi/galileo-ai-experiments-api-openapi.yml
+- filename: galileo-ai-groups-api-openapi.yml
+  format: yaml
+  label: Galileo Groups API
+  slug: galileo-ai-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-ai/refs/heads/main/openapi/galileo-ai-groups-api-openapi.yml
+- filename: galileo-ai-health-api-openapi.yml
+  format: yaml
+  label: Galileo Health API
+  slug: galileo-ai-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-ai/refs/heads/main/openapi/galileo-ai-health-api-openapi.yml
+- filename: galileo-ai-integrations-api-openapi.yml
+  format: yaml
+  label: Galileo Integrations API
+  slug: galileo-ai-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-ai/refs/heads/main/openapi/galileo-ai-integrations-api-openapi.yml
 description: ''
 domains:
 - caa: []

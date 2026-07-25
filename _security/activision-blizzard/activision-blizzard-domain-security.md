@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: activision-blizzard-battle-net.json
-  format: json
-  label: Battle.net API
-  slug: battle-net
+- filename: activision-blizzard-account-api-openapi.yml
+  format: yaml
+  label: activision-blizzard Account API
+  slug: activision-blizzard-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/openapi/activision-blizzard-battle-net.json
+  url: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/openapi/activision-blizzard-account-api-openapi.yml
+- filename: activision-blizzard-diablo-iii-api-openapi.yml
+  format: yaml
+  label: activision-blizzard Diablo III API
+  slug: activision-blizzard-diablo-iii-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/openapi/activision-blizzard-diablo-iii-api-openapi.yml
+- filename: activision-blizzard-hearthstone-api-openapi.yml
+  format: yaml
+  label: activision-blizzard Hearthstone API
+  slug: activision-blizzard-hearthstone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/openapi/activision-blizzard-hearthstone-api-openapi.yml
+- filename: activision-blizzard-starcraft-ii-api-openapi.yml
+  format: yaml
+  label: activision-blizzard StarCraft II API
+  slug: activision-blizzard-starcraft-ii-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/openapi/activision-blizzard-starcraft-ii-api-openapi.yml
+- filename: activision-blizzard-world-of-warcraft-api-openapi.yml
+  format: yaml
+  label: activision-blizzard World of Warcraft API
+  slug: activision-blizzard-world-of-warcraft-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/openapi/activision-blizzard-world-of-warcraft-api-openapi.yml
 description: ''
 domains:
 - caa: []

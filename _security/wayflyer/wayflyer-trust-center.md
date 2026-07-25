@@ -1,17 +1,77 @@
 ---
 api_specs:
-- filename: wayflyer-embedded-finance-openapi-original.json
-  format: json
-  label: Wayflyer Embedded Finance API
-  slug: embedded-finance
+- filename: wayflyer-auth-api-openapi.yml
+  format: yaml
+  label: Wayflyer Auth API
+  slug: wayflyer-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-embedded-finance-openapi-original.json
-- filename: wayflyer-embedded-finance-sandbox-openapi-original.json
-  format: json
-  label: Wayflyer Embedded Finance Sandbox API
-  slug: embedded-finance-sandbox
+  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-auth-api-openapi.yml
+- filename: wayflyer-company-details-api-openapi.yml
+  format: yaml
+  label: Wayflyer Company Details API
+  slug: wayflyer-company-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-embedded-finance-sandbox-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-company-details-api-openapi.yml
+- filename: wayflyer-company-search-api-openapi.yml
+  format: yaml
+  label: Wayflyer Company Search API
+  slug: wayflyer-company-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-company-search-api-openapi.yml
+- filename: wayflyer-cta-api-openapi.yml
+  format: yaml
+  label: Wayflyer CTA API
+  slug: wayflyer-cta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-cta-api-openapi.yml
+- filename: wayflyer-data-upload-api-openapi.yml
+  format: yaml
+  label: Wayflyer Data Upload API
+  slug: wayflyer-data-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-data-upload-api-openapi.yml
+- filename: wayflyer-documents-api-openapi.yml
+  format: yaml
+  label: Wayflyer Documents API
+  slug: wayflyer-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-documents-api-openapi.yml
+- filename: wayflyer-embedded-application-api-openapi.yml
+  format: yaml
+  label: Wayflyer Embedded Application API
+  slug: wayflyer-embedded-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-embedded-application-api-openapi.yml
+- filename: wayflyer-handover-api-openapi.yml
+  format: yaml
+  label: Wayflyer Handover API
+  slug: wayflyer-handover-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-handover-api-openapi.yml
+- filename: wayflyer-industry-classification-api-openapi.yml
+  format: yaml
+  label: Wayflyer Industry Classification API
+  slug: wayflyer-industry-classification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-industry-classification-api-openapi.yml
+- filename: wayflyer-simulation-api-openapi.yml
+  format: yaml
+  label: Wayflyer Simulation API
+  slug: wayflyer-simulation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-simulation-api-openapi.yml
+- filename: wayflyer-tracked-login-api-openapi.yml
+  format: yaml
+  label: Wayflyer Tracked Login API
+  slug: wayflyer-tracked-login-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-tracked-login-api-openapi.yml
+- filename: wayflyer-user-details-api-openapi.yml
+  format: yaml
+  label: Wayflyer User Details API
+  slug: wayflyer-user-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-user-details-api-openapi.yml
 certifications: []
 description: Wayflyer operates a public trust center at trust.wayflyer.com (HTTP 200 at probe time), hosted on Vanta's trust-report platform (page title "Wayflyer Trust Center"; page loads Vanta trust-report assets from assets.vanta.com). The content is JavaScript-rendered, so the automated keyword probe (probe-security-programs.py) could not extract the certification list — named certifications are therefore NOT recorded here rather than guessed. No Compliance rating pointer is emitted until a published certification list is verified.
 kind: trust-center

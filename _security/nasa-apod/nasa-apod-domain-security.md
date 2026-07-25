@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: nasa-apod-apod-api-openapi.yml
   format: yaml
-  label: NASA APOD API
-  slug: nasa-apod
+  label: NASA APOD APOD API
+  slug: nasa-apod-apod-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-apod/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nasa-apod/refs/heads/main/openapi/nasa-apod-apod-api-openapi.yml
 description: ''
 domains:
 - caa: []

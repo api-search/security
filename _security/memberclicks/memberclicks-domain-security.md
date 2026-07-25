@@ -1,47 +1,53 @@
 ---
 api_specs:
-- filename: memberclicks-openapi.yml
-  format: yaml
-  label: MemberClicks Profiles API
-  slug: memberclicks-profiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-openapi.yml
-- filename: memberclicks-openapi.yml
-  format: yaml
-  label: MemberClicks Profile Search API
-  slug: memberclicks-profile-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-openapi.yml
-- filename: memberclicks-openapi.yml
+- filename: memberclicks-attributes-api-openapi.yml
   format: yaml
   label: MemberClicks Attributes API
   slug: memberclicks-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-openapi.yml
-- filename: memberclicks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-attributes-api-openapi.yml
+- filename: memberclicks-authorization-api-openapi.yml
   format: yaml
-  label: MemberClicks Member Types and Statuses API
-  slug: memberclicks-member-types-statuses-api
+  label: MemberClicks Authorization API
+  slug: memberclicks-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-openapi.yml
-- filename: memberclicks-openapi.yml
-  format: yaml
-  label: MemberClicks Groups API
-  slug: memberclicks-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-openapi.yml
-- filename: memberclicks-openapi.yml
-  format: yaml
-  label: MemberClicks Events API
-  slug: memberclicks-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-openapi.yml
-- filename: memberclicks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-authorization-api-openapi.yml
+- filename: memberclicks-continuing-education-api-openapi.yml
   format: yaml
   label: MemberClicks Continuing Education API
   slug: memberclicks-continuing-education-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-continuing-education-api-openapi.yml
+- filename: memberclicks-events-api-openapi.yml
+  format: yaml
+  label: MemberClicks Events API
+  slug: memberclicks-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-events-api-openapi.yml
+- filename: memberclicks-groups-api-openapi.yml
+  format: yaml
+  label: MemberClicks Groups API
+  slug: memberclicks-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-groups-api-openapi.yml
+- filename: memberclicks-profile-search-api-openapi.yml
+  format: yaml
+  label: MemberClicks Profile Search API
+  slug: memberclicks-profile-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-profile-search-api-openapi.yml
+- filename: memberclicks-profiles-api-openapi.yml
+  format: yaml
+  label: MemberClicks Profiles API
+  slug: memberclicks-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-profiles-api-openapi.yml
+- filename: memberclicks-reference-data-api-openapi.yml
+  format: yaml
+  label: MemberClicks Reference Data API
+  slug: memberclicks-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-reference-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

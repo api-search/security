@@ -1,17 +1,11 @@
 ---
 api_specs:
-- filename: modal-labs-openapi.yml
+- filename: modal-labs-modal-web-endpoints-representative-api-openapi.yml
   format: yaml
-  label: Modal Web Endpoints
-  slug: modal-labs-web-endpoints-api
+  label: Modal Modal Web Endpoints (Representative) API
+  slug: modal-labs-modal-web-endpoints-representative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/openapi/modal-labs-openapi.yml
-- filename: modal-labs-openapi.yml
-  format: yaml
-  label: Modal Sandboxes
-  slug: modal-labs-sandboxes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/openapi/modal-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/openapi/modal-labs-modal-web-endpoints-representative-api-openapi.yml
 description: ''
 domains:
 - caa:

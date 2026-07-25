@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: timoni-openapi.yml
+- filename: timoni-artifacts-api-openapi.yml
   format: yaml
-  label: Timoni Module Registry API
-  slug: timoni
+  label: Timoni Artifacts API
+  slug: timoni-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timoni/refs/heads/main/openapi/timoni-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/timoni/refs/heads/main/openapi/timoni-artifacts-api-openapi.yml
+- filename: timoni-modules-api-openapi.yml
+  format: yaml
+  label: Timoni Modules API
+  slug: timoni-modules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/timoni/refs/heads/main/openapi/timoni-modules-api-openapi.yml
 description: ''
 domains:
 - caa: []

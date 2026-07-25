@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi.yaml
+- filename: trading212-accounts-api-openapi.yml
   format: yaml
-  label: Trading 212 Public API
-  slug: trading-212-public-api
+  label: Trading 212 Accounts API
+  slug: trading212-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/openapi/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/openapi/trading212-accounts-api-openapi.yml
+- filename: trading212-historical-events-api-openapi.yml
+  format: yaml
+  label: Trading 212 Historical events API
+  slug: trading212-historical-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/openapi/trading212-historical-events-api-openapi.yml
+- filename: trading212-instruments-api-openapi.yml
+  format: yaml
+  label: Trading 212 Instruments API
+  slug: trading212-instruments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/openapi/trading212-instruments-api-openapi.yml
+- filename: trading212-orders-api-openapi.yml
+  format: yaml
+  label: Trading 212 Orders API
+  slug: trading212-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/openapi/trading212-orders-api-openapi.yml
+- filename: trading212-pies-deprecated-api-openapi.yml
+  format: yaml
+  label: Trading 212 Pies (Deprecated) API
+  slug: trading212-pies-deprecated-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/openapi/trading212-pies-deprecated-api-openapi.yml
+- filename: trading212-positions-api-openapi.yml
+  format: yaml
+  label: Trading 212 Positions API
+  slug: trading212-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/openapi/trading212-positions-api-openapi.yml
 auth_types:
 - apiKey
 - http

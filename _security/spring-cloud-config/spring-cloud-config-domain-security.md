@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: spring-cloud-config-server-api.yml
+- filename: spring-cloud-config-configuration-api-openapi.yml
   format: yaml
-  label: Spring Cloud Config Server API
-  slug: spring-cloud-config-server
+  label: Spring Cloud Config Configuration API
+  slug: spring-cloud-config-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-config/refs/heads/main/openapi/spring-cloud-config-server-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-config/refs/heads/main/openapi/spring-cloud-config-configuration-api-openapi.yml
+- filename: spring-cloud-config-encryption-api-openapi.yml
+  format: yaml
+  label: Spring Cloud Config Encryption API
+  slug: spring-cloud-config-encryption-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-config/refs/heads/main/openapi/spring-cloud-config-encryption-api-openapi.yml
+- filename: spring-cloud-config-monitoring-api-openapi.yml
+  format: yaml
+  label: Spring Cloud Config Monitoring API
+  slug: spring-cloud-config-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-config/refs/heads/main/openapi/spring-cloud-config-monitoring-api-openapi.yml
+- filename: spring-cloud-config-resources-api-openapi.yml
+  format: yaml
+  label: Spring Cloud Config Resources API
+  slug: spring-cloud-config-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-config/refs/heads/main/openapi/spring-cloud-config-resources-api-openapi.yml
 description: ''
 domains:
 - caa:

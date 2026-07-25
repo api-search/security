@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: microsoft-azure-automation-openapi.yml
+- filename: microsoft-azure-automation-automation-accounts-api-openapi.yml
   format: yaml
-  label: Azure Automation REST API
-  slug: rest-api
+  label: Azure Automation Automation Accounts API
+  slug: microsoft-azure-automation-automation-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-automation/refs/heads/main/openapi/microsoft-azure-automation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-automation/refs/heads/main/openapi/microsoft-azure-automation-automation-accounts-api-openapi.yml
+- filename: microsoft-azure-automation-operations-api-openapi.yml
+  format: yaml
+  label: Azure Automation Operations API
+  slug: microsoft-azure-automation-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-automation/refs/heads/main/openapi/microsoft-azure-automation-operations-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

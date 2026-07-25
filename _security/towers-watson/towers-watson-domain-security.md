@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: wtw-hr-portal-openapi.yml
+- filename: towers-watson-benefits-api-openapi.yml
   format: yaml
-  label: WTW HR Portal
-  slug: wtw-hr-portal
+  label: Towers Watson Benefits API
+  slug: towers-watson-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/openapi/wtw-hr-portal-openapi.yml
-- filename: wtw-benefits-administration-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/openapi/towers-watson-benefits-api-openapi.yml
+- filename: towers-watson-cases-api-openapi.yml
   format: yaml
-  label: WTW Benefits Administration
-  slug: wtw-benefits-administration
+  label: Towers Watson Cases API
+  slug: towers-watson-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/openapi/wtw-benefits-administration-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/openapi/towers-watson-cases-api-openapi.yml
+- filename: towers-watson-content-api-openapi.yml
+  format: yaml
+  label: Towers Watson Content API
+  slug: towers-watson-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/openapi/towers-watson-content-api-openapi.yml
+- filename: towers-watson-employees-api-openapi.yml
+  format: yaml
+  label: Towers Watson Employees API
+  slug: towers-watson-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/openapi/towers-watson-employees-api-openapi.yml
+- filename: towers-watson-total-rewards-api-openapi.yml
+  format: yaml
+  label: Towers Watson Total Rewards API
+  slug: towers-watson-total-rewards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/openapi/towers-watson-total-rewards-api-openapi.yml
 description: ''
 domains:
 - caa:

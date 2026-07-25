@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cyclr-cyclr-openapi.yml
+- filename: cyclr-accounts-api-openapi.yml
   format: yaml
-  label: Cyclr API
-  slug: api
+  label: Cyclr Accounts API
+  slug: cyclr-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-cyclr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-accounts-api-openapi.yml
+- filename: cyclr-authentication-api-openapi.yml
+  format: yaml
+  label: Cyclr Authentication API
+  slug: cyclr-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-authentication-api-openapi.yml
+- filename: cyclr-connectors-api-openapi.yml
+  format: yaml
+  label: Cyclr Connectors API
+  slug: cyclr-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-connectors-api-openapi.yml
+- filename: cyclr-cycles-api-openapi.yml
+  format: yaml
+  label: Cyclr Cycles API
+  slug: cyclr-cycles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-cycles-api-openapi.yml
+- filename: cyclr-data-on-demand-api-openapi.yml
+  format: yaml
+  label: Cyclr Data on Demand API
+  slug: cyclr-data-on-demand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-data-on-demand-api-openapi.yml
+- filename: cyclr-launch-api-openapi.yml
+  format: yaml
+  label: Cyclr LAUNCH API
+  slug: cyclr-launch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-launch-api-openapi.yml
+- filename: cyclr-marketplace-api-openapi.yml
+  format: yaml
+  label: Cyclr Marketplace API
+  slug: cyclr-marketplace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-marketplace-api-openapi.yml
+- filename: cyclr-steps-api-openapi.yml
+  format: yaml
+  label: Cyclr Steps API
+  slug: cyclr-steps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-steps-api-openapi.yml
+- filename: cyclr-templates-api-openapi.yml
+  format: yaml
+  label: Cyclr Templates API
+  slug: cyclr-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-templates-api-openapi.yml
 auth_types:
 - http
 description: ''

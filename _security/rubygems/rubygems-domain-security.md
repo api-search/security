@@ -6,12 +6,6 @@ api_specs:
   slug: gems-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/openapi/rubygems-gems-api-openapi.yml
-- filename: rubygems-api-v2-openapi.yml
-  format: yaml
-  label: RubyGems API V2
-  slug: api-v2
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/openapi/rubygems-api-v2-openapi.yml
 - filename: rubygems-downloads-api-openapi.yml
   format: yaml
   label: RubyGems Downloads API
@@ -36,6 +30,30 @@ api_specs:
   slug: webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/openapi/rubygems-webhooks-api-openapi.yml
+- filename: rubygems-dependencies-api-openapi.yml
+  format: yaml
+  label: RubyGems Dependencies API
+  slug: rubygems-dependencies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/openapi/rubygems-dependencies-api-openapi.yml
+- filename: rubygems-owners-api-openapi.yml
+  format: yaml
+  label: RubyGems Owners API
+  slug: rubygems-owners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/openapi/rubygems-owners-api-openapi.yml
+- filename: rubygems-profiles-api-openapi.yml
+  format: yaml
+  label: RubyGems Profiles API
+  slug: rubygems-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/openapi/rubygems-profiles-api-openapi.yml
+- filename: rubygems-versions-api-openapi.yml
+  format: yaml
+  label: RubyGems Versions API
+  slug: rubygems-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/openapi/rubygems-versions-api-openapi.yml
 description: ''
 domains:
 - caa:

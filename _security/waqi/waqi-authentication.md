@@ -2,12 +2,24 @@
 api_key_in:
 - query
 api_specs:
-- filename: waqi-openapi.json
-  format: json
-  label: WAQI JSON API
-  slug: waqi-json-api
+- filename: waqi-feed-api-openapi.yml
+  format: yaml
+  label: World Air Quality Index (WAQI) Feed API
+  slug: waqi-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waqi/refs/heads/main/openapi/waqi-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/waqi/refs/heads/main/openapi/waqi-feed-api-openapi.yml
+- filename: waqi-map-api-openapi.yml
+  format: yaml
+  label: World Air Quality Index (WAQI) Map API
+  slug: waqi-map-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/waqi/refs/heads/main/openapi/waqi-map-api-openapi.yml
+- filename: waqi-search-api-openapi.yml
+  format: yaml
+  label: World Air Quality Index (WAQI) Search API
+  slug: waqi-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/waqi/refs/heads/main/openapi/waqi-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

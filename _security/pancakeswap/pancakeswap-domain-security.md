@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: pancakeswap-leaderboard-api-openapi.yml
   format: yaml
-  label: PancakeSwap Info API v2
-  slug: pancakeswap-info-api-v2
+  label: PancakeSwap Leaderboard API
+  slug: pancakeswap-leaderboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/openapi/openapi.yml
-- filename: profile-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/openapi/pancakeswap-leaderboard-api-openapi.yml
+- filename: pancakeswap-miscellaneous-api-openapi.yml
   format: yaml
-  label: PancakeSwap Profile API
-  slug: pancakeswap-profile-api
+  label: PancakeSwap Miscellaneous API
+  slug: pancakeswap-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/openapi/profile-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/openapi/pancakeswap-miscellaneous-api-openapi.yml
+- filename: pancakeswap-pairs-api-openapi.yml
+  format: yaml
+  label: PancakeSwap Pairs API
+  slug: pancakeswap-pairs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/openapi/pancakeswap-pairs-api-openapi.yml
+- filename: pancakeswap-summary-api-openapi.yml
+  format: yaml
+  label: PancakeSwap Summary API
+  slug: pancakeswap-summary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/openapi/pancakeswap-summary-api-openapi.yml
+- filename: pancakeswap-tokens-api-openapi.yml
+  format: yaml
+  label: PancakeSwap Tokens API
+  slug: pancakeswap-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/openapi/pancakeswap-tokens-api-openapi.yml
+- filename: pancakeswap-users-api-openapi.yml
+  format: yaml
+  label: PancakeSwap Users API
+  slug: pancakeswap-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/openapi/pancakeswap-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

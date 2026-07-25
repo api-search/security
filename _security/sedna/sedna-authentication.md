@@ -1,12 +1,108 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sedna-openapi.json
-  format: json
-  label: Sedna API
-  slug: sedna-api
+- filename: sedna-authentication-api-openapi.yml
+  format: yaml
+  label: SEDNA Authentication API
+  slug: sedna-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-authentication-api-openapi.yml
+- filename: sedna-category-tag-api-api-openapi.yml
+  format: yaml
+  label: SEDNA Category Tag API API
+  slug: sedna-category-tag-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-category-tag-api-api-openapi.yml
+- filename: sedna-comment-api-api-openapi.yml
+  format: yaml
+  label: SEDNA Comment API API
+  slug: sedna-comment-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-comment-api-api-openapi.yml
+- filename: sedna-company-api-api-openapi.yml
+  format: yaml
+  label: SEDNA Company API API
+  slug: sedna-company-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-company-api-api-openapi.yml
+- filename: sedna-contact-api-api-openapi.yml
+  format: yaml
+  label: SEDNA Contact API API
+  slug: sedna-contact-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-contact-api-api-openapi.yml
+- filename: sedna-document-api-api-openapi.yml
+  format: yaml
+  label: SEDNA Document API API
+  slug: sedna-document-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-document-api-api-openapi.yml
+- filename: sedna-download-api-api-openapi.yml
+  format: yaml
+  label: SEDNA Download API API
+  slug: sedna-download-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-download-api-api-openapi.yml
+- filename: sedna-event-api-api-openapi.yml
+  format: yaml
+  label: SEDNA Event API API
+  slug: sedna-event-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-event-api-api-openapi.yml
+- filename: sedna-job-reference-api-api-openapi.yml
+  format: yaml
+  label: SEDNA Job Reference API API
+  slug: sedna-job-reference-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-job-reference-api-api-openapi.yml
+- filename: sedna-keyword-api-api-openapi.yml
+  format: yaml
+  label: SEDNA Keyword API API
+  slug: sedna-keyword-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-keyword-api-api-openapi.yml
+- filename: sedna-message-api-api-openapi.yml
+  format: yaml
+  label: SEDNA Message API API
+  slug: sedna-message-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-message-api-api-openapi.yml
+- filename: sedna-saved-search-api-api-openapi.yml
+  format: yaml
+  label: SEDNA Saved Search API API
+  slug: sedna-saved-search-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-saved-search-api-api-openapi.yml
+- filename: sedna-team-api-api-openapi.yml
+  format: yaml
+  label: SEDNA Team API API
+  slug: sedna-team-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-team-api-api-openapi.yml
+- filename: sedna-template-api-api-openapi.yml
+  format: yaml
+  label: SEDNA Template API API
+  slug: sedna-template-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-template-api-api-openapi.yml
+- filename: sedna-user-api-api-openapi.yml
+  format: yaml
+  label: SEDNA User API API
+  slug: sedna-user-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-user-api-api-openapi.yml
+- filename: sedna-vessel-api-api-openapi.yml
+  format: yaml
+  label: SEDNA Vessel API API
+  slug: sedna-vessel-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-vessel-api-api-openapi.yml
+- filename: sedna-workflow-api-api-openapi.yml
+  format: yaml
+  label: SEDNA Workflow API API
+  slug: sedna-workflow-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-workflow-api-api-openapi.yml
 auth_types:
 - http
 - oauth2

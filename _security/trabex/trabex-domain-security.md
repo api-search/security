@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: trabex-trade-compliance-openapi.yml
+- filename: trabex-aes-filing-api-openapi.yml
   format: yaml
-  label: Trabex Trade Compliance API
-  slug: trade-compliance
+  label: Trabex AES Filing API
+  slug: trabex-aes-filing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trabex/refs/heads/main/openapi/trabex-trade-compliance-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trabex/refs/heads/main/openapi/trabex-aes-filing-api-openapi.yml
+- filename: trabex-companies-api-openapi.yml
+  format: yaml
+  label: Trabex Companies API
+  slug: trabex-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trabex/refs/heads/main/openapi/trabex-companies-api-openapi.yml
+- filename: trabex-documents-api-openapi.yml
+  format: yaml
+  label: Trabex Documents API
+  slug: trabex-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trabex/refs/heads/main/openapi/trabex-documents-api-openapi.yml
+- filename: trabex-screening-api-openapi.yml
+  format: yaml
+  label: Trabex Screening API
+  slug: trabex-screening-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trabex/refs/heads/main/openapi/trabex-screening-api-openapi.yml
+- filename: trabex-shipments-api-openapi.yml
+  format: yaml
+  label: Trabex Shipments API
+  slug: trabex-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trabex/refs/heads/main/openapi/trabex-shipments-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: scrapingant-openapi.yml
+- filename: scrapingant-scraping-api-openapi.yml
   format: yaml
-  label: ScrapingAnt
-  slug: scrapingant
+  label: ScrapingAnt Scraping API
+  slug: scrapingant-scraping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapingant/refs/heads/main/openapi/scrapingant-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scrapingant/refs/heads/main/openapi/scrapingant-scraping-api-openapi.yml
 description: ''
 domains:
 - caa: []

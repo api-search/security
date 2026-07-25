@@ -1,41 +1,23 @@
 ---
 api_specs:
-- filename: qodo-gen-openapi.yml
+- filename: qodo-gen-qodo-command-api-openapi.yml
   format: yaml
-  label: Qodo Merge PR Review
-  slug: qodo-gen-merge-pr-review-api
+  label: Qodo Qodo Command API
+  slug: qodo-gen-qodo-command-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qodo-gen/refs/heads/main/openapi/qodo-gen-openapi.yml
-- filename: qodo-gen-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qodo-gen/refs/heads/main/openapi/qodo-gen-qodo-command-api-openapi.yml
+- filename: qodo-gen-qodo-gen-api-openapi.yml
   format: yaml
-  label: Qodo Merge Code Suggestions
-  slug: qodo-gen-merge-code-suggestions-api
+  label: Qodo Qodo Gen API
+  slug: qodo-gen-qodo-gen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qodo-gen/refs/heads/main/openapi/qodo-gen-openapi.yml
-- filename: qodo-gen-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qodo-gen/refs/heads/main/openapi/qodo-gen-qodo-gen-api-openapi.yml
+- filename: qodo-gen-qodo-merge-api-openapi.yml
   format: yaml
-  label: Qodo Merge PR Description
-  slug: qodo-gen-merge-describe-api
+  label: Qodo Qodo Merge API
+  slug: qodo-gen-qodo-merge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qodo-gen/refs/heads/main/openapi/qodo-gen-openapi.yml
-- filename: qodo-gen-openapi.yml
-  format: yaml
-  label: Qodo Merge Ask and Chat
-  slug: qodo-gen-merge-ask-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qodo-gen/refs/heads/main/openapi/qodo-gen-openapi.yml
-- filename: qodo-gen-openapi.yml
-  format: yaml
-  label: Qodo Gen Test Generation
-  slug: qodo-gen-test-generation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qodo-gen/refs/heads/main/openapi/qodo-gen-openapi.yml
-- filename: qodo-gen-openapi.yml
-  format: yaml
-  label: Qodo Command Agent API
-  slug: qodo-gen-command-agent-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qodo-gen/refs/heads/main/openapi/qodo-gen-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qodo-gen/refs/heads/main/openapi/qodo-gen-qodo-merge-api-openapi.yml
 description: ''
 domains:
 - caa:

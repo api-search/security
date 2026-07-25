@@ -1,24 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: swagger-v3.v3.json
-  format: json
-  label: Jira Cloud Platform REST API
-  slug: jira-cloud-platform-rest-api
+- filename: atlassian-jira-fields-api-openapi.yml
+  format: yaml
+  label: Atlassian Jira Fields API
+  slug: atlassian-jira-fields-api
   spec_type: OpenAPI
-  url: https://developer.atlassian.com/cloud/jira/platform/swagger-v3.v3.json
-- filename: swagger.v3.json
-  format: json
-  label: Jira Software Cloud REST API
-  slug: jira-software-cloud-rest-api
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/openapi/atlassian-jira-fields-api-openapi.yml
+- filename: atlassian-jira-issue-comments-api-openapi.yml
+  format: yaml
+  label: Atlassian Jira Issue Comments API
+  slug: atlassian-jira-issue-comments-api
   spec_type: OpenAPI
-  url: https://developer.atlassian.com/cloud/jira/software/swagger.v3.json
-- filename: swagger.v3.json
-  format: json
-  label: Jira Service Management REST API
-  slug: jira-service-management-rest-api
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/openapi/atlassian-jira-issue-comments-api-openapi.yml
+- filename: atlassian-jira-issue-search-api-openapi.yml
+  format: yaml
+  label: Atlassian Jira Issue Search API
+  slug: atlassian-jira-issue-search-api
   spec_type: OpenAPI
-  url: https://developer.atlassian.com/cloud/jira/service-desk/swagger.v3.json
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/openapi/atlassian-jira-issue-search-api-openapi.yml
+- filename: atlassian-jira-issue-transitions-api-openapi.yml
+  format: yaml
+  label: Atlassian Jira Issue Transitions API
+  slug: atlassian-jira-issue-transitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/openapi/atlassian-jira-issue-transitions-api-openapi.yml
+- filename: atlassian-jira-issue-worklogs-api-openapi.yml
+  format: yaml
+  label: Atlassian Jira Issue Worklogs API
+  slug: atlassian-jira-issue-worklogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/openapi/atlassian-jira-issue-worklogs-api-openapi.yml
+- filename: atlassian-jira-issues-api-openapi.yml
+  format: yaml
+  label: Atlassian Jira Issues API
+  slug: atlassian-jira-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/openapi/atlassian-jira-issues-api-openapi.yml
+- filename: atlassian-jira-projects-api-openapi.yml
+  format: yaml
+  label: Atlassian Jira Projects API
+  slug: atlassian-jira-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/openapi/atlassian-jira-projects-api-openapi.yml
+- filename: atlassian-jira-users-api-openapi.yml
+  format: yaml
+  label: Atlassian Jira Users API
+  slug: atlassian-jira-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/openapi/atlassian-jira-users-api-openapi.yml
 auth_types:
 - http
 - oauth2

@@ -1,36 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: particle-space-openapi.yml
-  format: yaml
-  label: Particle Space Property Records API
-  slug: property-records
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/openapi/particle-space-openapi.yml
-- filename: particle-space-openapi.yml
+- filename: particle-space-address-search-api-openapi.yml
   format: yaml
   label: Particle Space Address Search API
-  slug: address-search
+  slug: particle-space-address-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/openapi/particle-space-openapi.yml
-- filename: particle-space-openapi.yml
-  format: yaml
-  label: Particle Space Valuations API
-  slug: valuations
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/openapi/particle-space-openapi.yml
-- filename: particle-space-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/openapi/particle-space-address-search-api-openapi.yml
+- filename: particle-space-comparables-api-openapi.yml
   format: yaml
   label: Particle Space Comparables API
-  slug: comps
+  slug: particle-space-comparables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/openapi/particle-space-openapi.yml
-- filename: particle-space-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/openapi/particle-space-comparables-api-openapi.yml
+- filename: particle-space-listings-api-openapi.yml
   format: yaml
   label: Particle Space Listings API
-  slug: listings
+  slug: particle-space-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/openapi/particle-space-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/openapi/particle-space-listings-api-openapi.yml
+- filename: particle-space-property-records-api-openapi.yml
+  format: yaml
+  label: Particle Space Property Records API
+  slug: particle-space-property-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/openapi/particle-space-property-records-api-openapi.yml
+- filename: particle-space-valuations-api-openapi.yml
+  format: yaml
+  label: Particle Space Valuations API
+  slug: particle-space-valuations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/openapi/particle-space-valuations-api-openapi.yml
 auth_types:
 - http
 description: ''

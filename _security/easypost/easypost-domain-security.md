@@ -1,17 +1,47 @@
 ---
 api_specs:
-- filename: easypost-openapi.yml
-  format: yaml
-  label: EasyPost Shipping API
-  slug: shipping
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-openapi.yml
 - filename: easypost-webhooks-asyncapi.yml
   format: yaml
   label: EasyPost Webhooks API
   slug: webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/asyncapi/easypost-webhooks-asyncapi.yml
+- filename: easypost-addresses-api-openapi.yml
+  format: yaml
+  label: EasyPost Addresses API
+  slug: easypost-addresses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-addresses-api-openapi.yml
+- filename: easypost-parcels-api-openapi.yml
+  format: yaml
+  label: EasyPost Parcels API
+  slug: easypost-parcels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-parcels-api-openapi.yml
+- filename: easypost-refunds-api-openapi.yml
+  format: yaml
+  label: EasyPost Refunds API
+  slug: easypost-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-refunds-api-openapi.yml
+- filename: easypost-reports-api-openapi.yml
+  format: yaml
+  label: EasyPost Reports API
+  slug: easypost-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-reports-api-openapi.yml
+- filename: easypost-shipments-api-openapi.yml
+  format: yaml
+  label: EasyPost Shipments API
+  slug: easypost-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-shipments-api-openapi.yml
+- filename: easypost-trackers-api-openapi.yml
+  format: yaml
+  label: EasyPost Trackers API
+  slug: easypost-trackers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-trackers-api-openapi.yml
 description: ''
 domains:
 - caa:

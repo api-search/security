@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: trackingmore-openapi.yml
+- filename: trackingmore-air-waybills-api-openapi.yml
   format: yaml
-  label: TrackingMore API
-  slug: trackingmore-api
+  label: TrackingMore Air Waybills API
+  slug: trackingmore-air-waybills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trackingmore/refs/heads/main/openapi/trackingmore-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trackingmore/refs/heads/main/openapi/trackingmore-air-waybills-api-openapi.yml
+- filename: trackingmore-couriers-api-openapi.yml
+  format: yaml
+  label: TrackingMore Couriers API
+  slug: trackingmore-couriers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trackingmore/refs/heads/main/openapi/trackingmore-couriers-api-openapi.yml
+- filename: trackingmore-trackings-api-openapi.yml
+  format: yaml
+  label: TrackingMore Trackings API
+  slug: trackingmore-trackings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trackingmore/refs/heads/main/openapi/trackingmore-trackings-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

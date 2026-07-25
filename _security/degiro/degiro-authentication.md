@@ -2,12 +2,60 @@
 api_key_in:
 - query
 api_specs:
-- filename: openapi.yml
+- filename: degiro-product-search-api-openapi.yml
   format: yaml
-  label: DEGIRO Trading API
+  label: DEGIRO Product Search API
+  slug: degiro-product-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-product-search-api-openapi.yml
+- filename: degiro-reporting-api-openapi.yml
+  format: yaml
+  label: DEGIRO Reporting API
+  slug: degiro-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-reporting-api-openapi.yml
+- filename: degiro-config-api-openapi.yml
+  format: yaml
+  label: DEGIRO config API
+  slug: degiro-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-config-api-openapi.yml
+- filename: degiro-login-api-openapi.yml
+  format: yaml
+  label: DEGIRO login API
+  slug: degiro-login-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-login-api-openapi.yml
+- filename: degiro-pa-api-openapi.yml
+  format: yaml
+  label: DEGIRO pa API
+  slug: degiro-pa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-pa-api-openapi.yml
+- filename: degiro-product-search-api-openapi.yml
+  format: yaml
+  label: DEGIRO product-search API
+  slug: degiro-product-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-product-search-api-openapi.yml
+- filename: degiro-reporting-api-openapi.yml
+  format: yaml
+  label: DEGIRO reporting API
+  slug: degiro-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-reporting-api-openapi.yml
+- filename: degiro-settings-api-openapi.yml
+  format: yaml
+  label: DEGIRO settings API
+  slug: degiro-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-settings-api-openapi.yml
+- filename: degiro-trading-api-openapi.yml
+  format: yaml
+  label: DEGIRO trading API
   slug: degiro-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-trading-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -2,12 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: chatwork-openapi.yml
+- filename: chatwork-contacts-api-openapi.yml
   format: yaml
-  label: Chatwork API v2
-  slug: chatwork-api
+  label: Chatwork Contacts API
+  slug: chatwork-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/openapi/chatwork-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/openapi/chatwork-contacts-api-openapi.yml
+- filename: chatwork-files-api-openapi.yml
+  format: yaml
+  label: Chatwork Files API
+  slug: chatwork-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/openapi/chatwork-files-api-openapi.yml
+- filename: chatwork-incoming-requests-api-openapi.yml
+  format: yaml
+  label: Chatwork Incoming Requests API
+  slug: chatwork-incoming-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/openapi/chatwork-incoming-requests-api-openapi.yml
+- filename: chatwork-link-api-openapi.yml
+  format: yaml
+  label: Chatwork Link API
+  slug: chatwork-link-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/openapi/chatwork-link-api-openapi.yml
+- filename: chatwork-me-api-openapi.yml
+  format: yaml
+  label: Chatwork Me API
+  slug: chatwork-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/openapi/chatwork-me-api-openapi.yml
+- filename: chatwork-members-api-openapi.yml
+  format: yaml
+  label: Chatwork Members API
+  slug: chatwork-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/openapi/chatwork-members-api-openapi.yml
+- filename: chatwork-messages-api-openapi.yml
+  format: yaml
+  label: Chatwork Messages API
+  slug: chatwork-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/openapi/chatwork-messages-api-openapi.yml
+- filename: chatwork-rooms-api-openapi.yml
+  format: yaml
+  label: Chatwork Rooms API
+  slug: chatwork-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/openapi/chatwork-rooms-api-openapi.yml
+- filename: chatwork-tasks-api-openapi.yml
+  format: yaml
+  label: Chatwork Tasks API
+  slug: chatwork-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/openapi/chatwork-tasks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

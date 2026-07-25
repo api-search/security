@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: aflac-enterprise-connect-openapi.yml
+- filename: aflac-claims-api-openapi.yml
   format: yaml
-  label: Aflac Enterprise Connect API
-  slug: enterprise-connect-api
+  label: aflac Claims API
+  slug: aflac-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/aflac-enterprise-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/aflac-claims-api-openapi.yml
+- filename: aflac-eligibility-api-openapi.yml
+  format: yaml
+  label: aflac Eligibility API
+  slug: aflac-eligibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/aflac-eligibility-api-openapi.yml
+- filename: aflac-enrollment-api-openapi.yml
+  format: yaml
+  label: aflac Enrollment API
+  slug: aflac-enrollment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/aflac-enrollment-api-openapi.yml
+- filename: aflac-groups-api-openapi.yml
+  format: yaml
+  label: aflac Groups API
+  slug: aflac-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/aflac-groups-api-openapi.yml
+- filename: aflac-policies-api-openapi.yml
+  format: yaml
+  label: aflac Policies API
+  slug: aflac-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/aflac-policies-api-openapi.yml
 description: ''
 domains:
 - caa: []

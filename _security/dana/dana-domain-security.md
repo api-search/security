@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: dana-aftermarket-api-openapi.yml
+- filename: dana-availability-api-openapi.yml
   format: yaml
-  label: Dana Aftermarket API
-  slug: aftermarket-api
+  label: Dana Availability API
+  slug: dana-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/openapi/dana-aftermarket-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/openapi/dana-availability-api-openapi.yml
+- filename: dana-orders-api-openapi.yml
+  format: yaml
+  label: Dana Orders API
+  slug: dana-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/openapi/dana-orders-api-openapi.yml
+- filename: dana-parts-api-openapi.yml
+  format: yaml
+  label: Dana Parts API
+  slug: dana-parts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/openapi/dana-parts-api-openapi.yml
+- filename: dana-pricing-api-openapi.yml
+  format: yaml
+  label: Dana Pricing API
+  slug: dana-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/openapi/dana-pricing-api-openapi.yml
+- filename: dana-shipping-api-openapi.yml
+  format: yaml
+  label: Dana Shipping API
+  slug: dana-shipping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/openapi/dana-shipping-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: transportapi-openapi.yml
+- filename: transportapi-bus-information-api-openapi.yml
   format: yaml
-  label: TransportAPI
-  slug: transportapi
+  label: TransportAPI Bus Information API
+  slug: transportapi-bus-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/openapi/transportapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/openapi/transportapi-bus-information-api-openapi.yml
+- filename: transportapi-journey-planner-api-openapi.yml
+  format: yaml
+  label: TransportAPI Journey Planner API
+  slug: transportapi-journey-planner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/openapi/transportapi-journey-planner-api-openapi.yml
+- filename: transportapi-places-api-openapi.yml
+  format: yaml
+  label: TransportAPI Places API
+  slug: transportapi-places-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/openapi/transportapi-places-api-openapi.yml
+- filename: transportapi-rail-information-api-openapi.yml
+  format: yaml
+  label: TransportAPI Rail Information API
+  slug: transportapi-rail-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/openapi/transportapi-rail-information-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

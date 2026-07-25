@@ -1,35 +1,41 @@
 ---
 api_specs:
-- filename: open-source
-  format: yaml
-  label: Kestra Flows API
-  slug: flows-api
-  spec_type: OpenAPI
-  url: https://kestra.io/docs/api-reference/open-source
-- filename: open-source
+- filename: kestra-executions-api-openapi.yml
   format: yaml
   label: Kestra Executions API
-  slug: executions-api
+  slug: kestra-executions-api
   spec_type: OpenAPI
-  url: https://kestra.io/docs/api-reference/open-source
-- filename: open-source
+  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-executions-api-openapi.yml
+- filename: kestra-files-api-openapi.yml
+  format: yaml
+  label: Kestra Files API
+  slug: kestra-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-files-api-openapi.yml
+- filename: kestra-flows-api-openapi.yml
+  format: yaml
+  label: Kestra Flows API
+  slug: kestra-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-flows-api-openapi.yml
+- filename: kestra-kvstore-api-openapi.yml
+  format: yaml
+  label: Kestra KVStore API
+  slug: kestra-kvstore-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-kvstore-api-openapi.yml
+- filename: kestra-namespaces-api-openapi.yml
   format: yaml
   label: Kestra Namespaces API
-  slug: namespaces-api
+  slug: kestra-namespaces-api
   spec_type: OpenAPI
-  url: https://kestra.io/docs/api-reference/open-source
-- filename: open-source
+  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-namespaces-api-openapi.yml
+- filename: kestra-triggers-api-openapi.yml
   format: yaml
-  label: Kestra Key-Value Store API
-  slug: kv-store-api
+  label: Kestra Triggers API
+  slug: kestra-triggers-api
   spec_type: OpenAPI
-  url: https://kestra.io/docs/api-reference/open-source
-- filename: open-source
-  format: yaml
-  label: Kestra Namespace Files API
-  slug: namespace-files-api
-  spec_type: OpenAPI
-  url: https://kestra.io/docs/api-reference/open-source
+  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-triggers-api-openapi.yml
 description: ''
 domains:
 - caa: []

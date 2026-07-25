@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: google-drive-openapi.yml
+- filename: google-drive-files-api-openapi.yml
   format: yaml
-  label: Google Drive API v3
-  slug: google-drive-api-v3
+  label: Google Drive Files API
+  slug: google-drive-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/openapi/google-drive-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/openapi/google-drive-files-api-openapi.yml
 certifications:
 - SOC 1
 - SOC 2

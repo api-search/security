@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: quora-poe-api-openapi.yml
+- filename: quora-chat-api-openapi.yml
   format: yaml
-  label: Poe API
-  slug: poe-api
+  label: Quora Chat API
+  slug: quora-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quora/refs/heads/main/openapi/quora-poe-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quora/refs/heads/main/openapi/quora-chat-api-openapi.yml
+- filename: quora-models-api-openapi.yml
+  format: yaml
+  label: Quora Models API
+  slug: quora-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quora/refs/heads/main/openapi/quora-models-api-openapi.yml
+- filename: quora-responses-api-openapi.yml
+  format: yaml
+  label: Quora Responses API
+  slug: quora-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quora/refs/heads/main/openapi/quora-responses-api-openapi.yml
+- filename: quora-usage-api-openapi.yml
+  format: yaml
+  label: Quora Usage API
+  slug: quora-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quora/refs/heads/main/openapi/quora-usage-api-openapi.yml
 description: ''
 domains:
 - caa:

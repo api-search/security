@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: samora-ai-openapi.yml
+- filename: samora-ai-calls-api-openapi.yml
   format: yaml
-  label: Samora AI API
-  slug: samora-ai-api
+  label: Samora AI Calls API
+  slug: samora-ai-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samora-ai/refs/heads/main/openapi/samora-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/samora-ai/refs/heads/main/openapi/samora-ai-calls-api-openapi.yml
+- filename: samora-ai-campaigns-api-openapi.yml
+  format: yaml
+  label: Samora AI Campaigns API
+  slug: samora-ai-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/samora-ai/refs/heads/main/openapi/samora-ai-campaigns-api-openapi.yml
+- filename: samora-ai-webhooks-api-openapi.yml
+  format: yaml
+  label: Samora AI Webhooks API
+  slug: samora-ai-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/samora-ai/refs/heads/main/openapi/samora-ai-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

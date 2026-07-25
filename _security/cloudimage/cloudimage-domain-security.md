@@ -1,29 +1,23 @@
 ---
 api_specs:
-- filename: cloudimage-openapi.yml
+- filename: cloudimage-filerobot-dam-api-openapi.yml
   format: yaml
-  label: Cloudimage Image Transformation (URL API)
-  slug: cloudimage-image-transformation-api
+  label: Cloudimage Filerobot DAM API
+  slug: cloudimage-filerobot-dam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudimage/refs/heads/main/openapi/cloudimage-openapi.yml
-- filename: cloudimage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudimage/refs/heads/main/openapi/cloudimage-filerobot-dam-api-openapi.yml
+- filename: cloudimage-image-api-openapi.yml
   format: yaml
-  label: Cloudimage Optimization & CDN API
-  slug: cloudimage-optimization-cdn-api
+  label: Cloudimage Image API
+  slug: cloudimage-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudimage/refs/heads/main/openapi/cloudimage-openapi.yml
-- filename: cloudimage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudimage/refs/heads/main/openapi/cloudimage-image-api-openapi.yml
+- filename: cloudimage-video-api-openapi.yml
   format: yaml
-  label: Cloudimage Video Transformation (URL API)
-  slug: cloudimage-video-transformation-api
+  label: Cloudimage Video API
+  slug: cloudimage-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudimage/refs/heads/main/openapi/cloudimage-openapi.yml
-- filename: cloudimage-openapi.yml
-  format: yaml
-  label: Filerobot DAM Upload & Asset API
-  slug: filerobot-dam-upload-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudimage/refs/heads/main/openapi/cloudimage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudimage/refs/heads/main/openapi/cloudimage-video-api-openapi.yml
 description: ''
 domains:
 - caa: []

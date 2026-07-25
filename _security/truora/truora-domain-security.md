@@ -1,29 +1,35 @@
 ---
 api_specs:
-- filename: truora-openapi.yml
-  format: yaml
-  label: Truora Checks API
-  slug: truora-checks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-openapi.yml
-- filename: truora-openapi.yml
-  format: yaml
-  label: Truora Validators API
-  slug: truora-validators-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-openapi.yml
-- filename: truora-openapi.yml
-  format: yaml
-  label: Truora Digital Identity API
-  slug: truora-digital-identity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-openapi.yml
-- filename: truora-openapi.yml
+- filename: truora-account-api-openapi.yml
   format: yaml
   label: Truora Account API
   slug: truora-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-account-api-openapi.yml
+- filename: truora-checks-api-openapi.yml
+  format: yaml
+  label: Truora Checks API
+  slug: truora-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-checks-api-openapi.yml
+- filename: truora-continuous-monitoring-api-openapi.yml
+  format: yaml
+  label: Truora Continuous Monitoring API
+  slug: truora-continuous-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-continuous-monitoring-api-openapi.yml
+- filename: truora-digital-identity-api-openapi.yml
+  format: yaml
+  label: Truora Digital Identity API
+  slug: truora-digital-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-digital-identity-api-openapi.yml
+- filename: truora-validators-api-openapi.yml
+  format: yaml
+  label: Truora Validators API
+  slug: truora-validators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-validators-api-openapi.yml
 description: ''
 domains:
 - caa:

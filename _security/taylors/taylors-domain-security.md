@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: taylors-library-rest.yaml
+- filename: taylors-checkouts-api-openapi.yml
   format: yaml
-  label: Taylor's Library Koha REST API
-  slug: library-rest
+  label: Taylor's University checkouts API
+  slug: taylors-checkouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taylors/refs/heads/main/openapi/taylors-library-rest.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/taylors/refs/heads/main/openapi/taylors-checkouts-api-openapi.yml
+- filename: taylors-holds-api-openapi.yml
+  format: yaml
+  label: Taylor's University holds API
+  slug: taylors-holds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taylors/refs/heads/main/openapi/taylors-holds-api-openapi.yml
+- filename: taylors-item-types-api-openapi.yml
+  format: yaml
+  label: Taylor's University item_types API
+  slug: taylors-item-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taylors/refs/heads/main/openapi/taylors-item-types-api-openapi.yml
+- filename: taylors-items-api-openapi.yml
+  format: yaml
+  label: Taylor's University items API
+  slug: taylors-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taylors/refs/heads/main/openapi/taylors-items-api-openapi.yml
+- filename: taylors-libraries-api-openapi.yml
+  format: yaml
+  label: Taylor's University libraries API
+  slug: taylors-libraries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taylors/refs/heads/main/openapi/taylors-libraries-api-openapi.yml
+- filename: taylors-patrons-api-openapi.yml
+  format: yaml
+  label: Taylor's University patrons API
+  slug: taylors-patrons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taylors/refs/heads/main/openapi/taylors-patrons-api-openapi.yml
 description: ''
 domains:
 - caa: []

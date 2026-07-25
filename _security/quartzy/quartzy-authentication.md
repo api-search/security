@@ -2,36 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: quartzy-openapi.yml
+- filename: quartzy-inventory-items-api-openapi.yml
   format: yaml
   label: Quartzy Inventory Items API
   slug: quartzy-inventory-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-openapi.yml
-- filename: quartzy-openapi.yml
-  format: yaml
-  label: Quartzy Order Requests API
-  slug: quartzy-order-requests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-openapi.yml
-- filename: quartzy-openapi.yml
-  format: yaml
-  label: Quartzy Types API
-  slug: quartzy-types-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-openapi.yml
-- filename: quartzy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-inventory-items-api-openapi.yml
+- filename: quartzy-labs-api-openapi.yml
   format: yaml
   label: Quartzy Labs API
   slug: quartzy-labs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-openapi.yml
-- filename: quartzy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-labs-api-openapi.yml
+- filename: quartzy-order-requests-api-openapi.yml
+  format: yaml
+  label: Quartzy Order Requests API
+  slug: quartzy-order-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-order-requests-api-openapi.yml
+- filename: quartzy-types-api-openapi.yml
+  format: yaml
+  label: Quartzy Types API
+  slug: quartzy-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-types-api-openapi.yml
+- filename: quartzy-user-api-openapi.yml
+  format: yaml
+  label: Quartzy User API
+  slug: quartzy-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-user-api-openapi.yml
+- filename: quartzy-webhooks-api-openapi.yml
   format: yaml
   label: Quartzy Webhooks API
   slug: quartzy-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

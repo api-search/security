@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: aws-batch-openapi.yml
+- filename: aws-batch-compute-environments-api-openapi.yml
   format: yaml
-  label: AWS Batch API
-  slug: api
+  label: AWS Batch Compute Environments API
+  slug: aws-batch-compute-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/openapi/aws-batch-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/openapi/aws-batch-compute-environments-api-openapi.yml
+- filename: aws-batch-job-definitions-api-openapi.yml
+  format: yaml
+  label: AWS Batch Job Definitions API
+  slug: aws-batch-job-definitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/openapi/aws-batch-job-definitions-api-openapi.yml
+- filename: aws-batch-job-queues-api-openapi.yml
+  format: yaml
+  label: AWS Batch Job Queues API
+  slug: aws-batch-job-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/openapi/aws-batch-job-queues-api-openapi.yml
+- filename: aws-batch-jobs-api-openapi.yml
+  format: yaml
+  label: AWS Batch Jobs API
+  slug: aws-batch-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/openapi/aws-batch-jobs-api-openapi.yml
+- filename: aws-batch-scheduling-policies-api-openapi.yml
+  format: yaml
+  label: AWS Batch Scheduling Policies API
+  slug: aws-batch-scheduling-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/openapi/aws-batch-scheduling-policies-api-openapi.yml
+- filename: aws-batch-tags-api-openapi.yml
+  format: yaml
+  label: AWS Batch Tags API
+  slug: aws-batch-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/openapi/aws-batch-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

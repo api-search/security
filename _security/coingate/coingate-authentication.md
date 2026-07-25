@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: CoinGate Payment Gateway API
-  slug: coingate-payment-gateway-api
+- filename: coingate-conversions-api-openapi.yml
+  format: yaml
+  label: CoinGate Conversions API
+  slug: coingate-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/openapi/coingate-conversions-api-openapi.yml
+- filename: coingate-currencies-api-openapi.yml
+  format: yaml
+  label: CoinGate Currencies API
+  slug: coingate-currencies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/openapi/coingate-currencies-api-openapi.yml
+- filename: coingate-orders-api-openapi.yml
+  format: yaml
+  label: CoinGate Orders API
+  slug: coingate-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/openapi/coingate-orders-api-openapi.yml
+- filename: coingate-refunds-api-openapi.yml
+  format: yaml
+  label: CoinGate Refunds API
+  slug: coingate-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/openapi/coingate-refunds-api-openapi.yml
+- filename: coingate-send-requests-api-openapi.yml
+  format: yaml
+  label: CoinGate Send Requests API
+  slug: coingate-send-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/openapi/coingate-send-requests-api-openapi.yml
 auth_types:
 - http
 description: ''

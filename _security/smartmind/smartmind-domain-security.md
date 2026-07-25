@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: smartmind-thanosql-openapi.json
-  format: json
-  label: ThanoSQL API
-  slug: thanosql-api
+- filename: smartmind-file-api-openapi.yml
+  format: yaml
+  label: SmartMind file API
+  slug: smartmind-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-thanosql-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-file-api-openapi.yml
+- filename: smartmind-health-api-openapi.yml
+  format: yaml
+  label: SmartMind health API
+  slug: smartmind-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-health-api-openapi.yml
+- filename: smartmind-metric-api-openapi.yml
+  format: yaml
+  label: SmartMind metric API
+  slug: smartmind-metric-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-metric-api-openapi.yml
+- filename: smartmind-query-api-openapi.yml
+  format: yaml
+  label: SmartMind query API
+  slug: smartmind-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-query-api-openapi.yml
+- filename: smartmind-schema-api-openapi.yml
+  format: yaml
+  label: SmartMind schema API
+  slug: smartmind-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-schema-api-openapi.yml
+- filename: smartmind-table-api-openapi.yml
+  format: yaml
+  label: SmartMind table API
+  slug: smartmind-table-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-table-api-openapi.yml
+- filename: smartmind-table-template-api-openapi.yml
+  format: yaml
+  label: SmartMind table_template API
+  slug: smartmind-table-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-table-template-api-openapi.yml
+- filename: smartmind-view-api-openapi.yml
+  format: yaml
+  label: SmartMind view API
+  slug: smartmind-view-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-view-api-openapi.yml
 description: ''
 domains:
 - caa: []

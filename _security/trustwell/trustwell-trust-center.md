@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: trustwell-foodlogiq-openapi.yml
+- filename: trustwell-compliance-api-openapi.yml
   format: yaml
-  label: Trustwell FoodLogiQ API
-  slug: trustwell-foodlogiq-api
+  label: Trustwell Compliance API
+  slug: trustwell-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/openapi/trustwell-foodlogiq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/openapi/trustwell-compliance-api-openapi.yml
+- filename: trustwell-products-api-openapi.yml
+  format: yaml
+  label: Trustwell Products API
+  slug: trustwell-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/openapi/trustwell-products-api-openapi.yml
+- filename: trustwell-quality-api-openapi.yml
+  format: yaml
+  label: Trustwell Quality API
+  slug: trustwell-quality-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/openapi/trustwell-quality-api-openapi.yml
+- filename: trustwell-recalls-api-openapi.yml
+  format: yaml
+  label: Trustwell Recalls API
+  slug: trustwell-recalls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/openapi/trustwell-recalls-api-openapi.yml
+- filename: trustwell-suppliers-api-openapi.yml
+  format: yaml
+  label: Trustwell Suppliers API
+  slug: trustwell-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/openapi/trustwell-suppliers-api-openapi.yml
+- filename: trustwell-traceability-api-openapi.yml
+  format: yaml
+  label: Trustwell Traceability API
+  slug: trustwell-traceability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/openapi/trustwell-traceability-api-openapi.yml
 certifications:
 - SOC 2
 description: ''

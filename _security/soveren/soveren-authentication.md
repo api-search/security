@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: soveren-object-api-openapi.yml
+- filename: soveren-assets-api-openapi.yml
   format: yaml
-  label: Soveren Object API
-  slug: soveren-object-api
+  label: Soveren Assets API
+  slug: soveren-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/openapi/soveren-object-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/openapi/soveren-assets-api-openapi.yml
+- filename: soveren-data-types-api-openapi.yml
+  format: yaml
+  label: Soveren Data Types API
+  slug: soveren-data-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/openapi/soveren-data-types-api-openapi.yml
+- filename: soveren-endpoints-api-openapi.yml
+  format: yaml
+  label: Soveren Endpoints API
+  slug: soveren-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/openapi/soveren-endpoints-api-openapi.yml
+- filename: soveren-kafka-api-openapi.yml
+  format: yaml
+  label: Soveren Kafka API
+  slug: soveren-kafka-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/openapi/soveren-kafka-api-openapi.yml
+- filename: soveren-s3-api-openapi.yml
+  format: yaml
+  label: Soveren S3 API
+  slug: soveren-s3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/openapi/soveren-s3-api-openapi.yml
+- filename: soveren-sql-db-api-openapi.yml
+  format: yaml
+  label: Soveren SQL DB API
+  slug: soveren-sql-db-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/openapi/soveren-sql-db-api-openapi.yml
 auth_types:
 - http
 description: ''

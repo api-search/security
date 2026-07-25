@@ -1,125 +1,149 @@
 ---
 api_specs:
-- filename: kentik-synthetics-openapi.json
-  format: json
-  label: Kentik Synthetics Monitoring API (v6)
-  slug: kentik-synthetics-monitoring-api-v6
+- filename: kentik-aiadvisordataservice-api-openapi.yml
+  format: yaml
+  label: Kentik AiAdvisorDataService API
+  slug: kentik-aiadvisordataservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-synthetics-openapi.json
-- filename: kentik-cloud-export-openapi.json
-  format: json
-  label: Kentik Cloud Export API (v6)
-  slug: kentik-cloud-export-api-v6
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-aiadvisordataservice-api-openapi.yml
+- filename: kentik-alertservice-api-openapi.yml
+  format: yaml
+  label: Kentik AlertService API
+  slug: kentik-alertservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-cloud-export-openapi.json
-- filename: kentik-alerting-openapi.json
-  format: json
-  label: Kentik Alerting API (v6)
-  slug: kentik-alerting-api-v6
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-alertservice-api-openapi.yml
+- filename: kentik-asgroupservice-api-openapi.yml
+  format: yaml
+  label: Kentik ASGroupService API
+  slug: kentik-asgroupservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-alerting-openapi.json
-- filename: kentik-mitigation-openapi.json
-  format: json
-  label: Kentik Mitigations API (v6)
-  slug: kentik-mitigations-api-v6
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-asgroupservice-api-openapi.yml
+- filename: kentik-auditservice-api-openapi.yml
+  format: yaml
+  label: Kentik AuditService API
+  slug: kentik-auditservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-mitigation-openapi.json
-- filename: kentik-alert-policy-openapi.json
-  format: json
-  label: Kentik Alert Policies API (v6)
-  slug: kentik-alert-policies-api-v6
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-auditservice-api-openapi.yml
+- filename: kentik-bgpmonitoringadminservice-api-openapi.yml
+  format: yaml
+  label: Kentik BgpMonitoringAdminService API
+  slug: kentik-bgpmonitoringadminservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-alert-policy-openapi.json
-- filename: kentik-device-openapi.json
-  format: json
-  label: Kentik Devices API (v6)
-  slug: kentik-devices-api-v6
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-bgpmonitoringadminservice-api-openapi.yml
+- filename: kentik-bgpmonitoringdataservice-api-openapi.yml
+  format: yaml
+  label: Kentik BgpMonitoringDataService API
+  slug: kentik-bgpmonitoringdataservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-device-openapi.json
-- filename: kentik-user-openapi.json
-  format: json
-  label: Kentik Users API (v6)
-  slug: kentik-users-api-v6
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-bgpmonitoringdataservice-api-openapi.yml
+- filename: kentik-capacityplanservice-api-openapi.yml
+  format: yaml
+  label: Kentik CapacityPlanService API
+  slug: kentik-capacityplanservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-user-openapi.json
-- filename: kentik-site-openapi.json
-  format: json
-  label: Kentik Sites API (v6)
-  slug: kentik-sites-api-v6
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-capacityplanservice-api-openapi.yml
+- filename: kentik-cloudexportadminservice-api-openapi.yml
+  format: yaml
+  label: Kentik CloudExportAdminService API
+  slug: kentik-cloudexportadminservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-site-openapi.json
-- filename: kentik-label-openapi.json
-  format: json
-  label: Kentik Labels API (v6)
-  slug: kentik-labels-api-v6
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-cloudexportadminservice-api-openapi.yml
+- filename: kentik-costservice-api-openapi.yml
+  format: yaml
+  label: Kentik CostService API
+  slug: kentik-costservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-label-openapi.json
-- filename: kentik-as-group-openapi.json
-  format: json
-  label: Kentik AS Groups API (v6)
-  slug: kentik-as-groups-api-v6
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-costservice-api-openapi.yml
+- filename: kentik-customdimensionservice-api-openapi.yml
+  format: yaml
+  label: Kentik CustomDimensionService API
+  slug: kentik-customdimensionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-as-group-openapi.json
-- filename: kentik-notification-channel-openapi.json
-  format: json
-  label: Kentik Notification Channels API (v6)
-  slug: kentik-notification-channels-api-v6
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-customdimensionservice-api-openapi.yml
+- filename: kentik-deviceservice-api-openapi.yml
+  format: yaml
+  label: Kentik DeviceService API
+  slug: kentik-deviceservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-notification-channel-openapi.json
-- filename: kentik-capacity-plan-openapi.json
-  format: json
-  label: Kentik Capacity Planning API (v6)
-  slug: kentik-capacity-planning-api-v6
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-deviceservice-api-openapi.yml
+- filename: kentik-flowtagservice-api-openapi.yml
+  format: yaml
+  label: Kentik FlowTagService API
+  slug: kentik-flowtagservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-capacity-plan-openapi.json
-- filename: kentik-bgp-monitoring-openapi.json
-  format: json
-  label: Kentik BGP Monitoring API (v6)
-  slug: kentik-bgp-monitoring-api-v6
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-flowtagservice-api-openapi.yml
+- filename: kentik-kmiservice-api-openapi.yml
+  format: yaml
+  label: Kentik KmiService API
+  slug: kentik-kmiservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-bgp-monitoring-openapi.json
-- filename: kentik-mkp-openapi.json
-  format: json
-  label: Kentik My Kentik Portal (MKP) API (v6)
-  slug: kentik-my-kentik-portal-mkp-api-v6
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-kmiservice-api-openapi.yml
+- filename: kentik-labelservice-api-openapi.yml
+  format: yaml
+  label: Kentik LabelService API
+  slug: kentik-labelservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-mkp-openapi.json
-- filename: kentik-kmi-openapi.json
-  format: json
-  label: Kentik Kentik Market Intelligence (KMI) API (v6)
-  slug: kentik-kentik-market-intelligence-kmi-api-v6
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-labelservice-api-openapi.yml
+- filename: kentik-mitigationsservice-api-openapi.yml
+  format: yaml
+  label: Kentik MitigationsService API
+  slug: kentik-mitigationsservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-kmi-openapi.json
-- filename: kentik-cost-openapi.json
-  format: json
-  label: Kentik Connectivity Costs API (v6)
-  slug: kentik-connectivity-costs-api-v6
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-mitigationsservice-api-openapi.yml
+- filename: kentik-notificationchannelservice-api-openapi.yml
+  format: yaml
+  label: Kentik NotificationChannelService API
+  slug: kentik-notificationchannelservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-cost-openapi.json
-- filename: kentik-custom-dimension-openapi.json
-  format: json
-  label: Kentik Custom Dimensions API (v6)
-  slug: kentik-custom-dimensions-api-v6
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-notificationchannelservice-api-openapi.yml
+- filename: kentik-packageservice-api-openapi.yml
+  format: yaml
+  label: Kentik PackageService API
+  slug: kentik-packageservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-custom-dimension-openapi.json
-- filename: kentik-flow-tag-openapi.json
-  format: json
-  label: Kentik Flow Tags API (v6)
-  slug: kentik-flow-tags-api-v6
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-packageservice-api-openapi.yml
+- filename: kentik-policyservice-api-openapi.yml
+  format: yaml
+  label: Kentik PolicyService API
+  slug: kentik-policyservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-flow-tag-openapi.json
-- filename: kentik-ai-advisor-openapi.json
-  format: json
-  label: Kentik AI Advisor API (v6)
-  slug: kentik-ai-advisor-api-v6
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-policyservice-api-openapi.yml
+- filename: kentik-siteservice-api-openapi.yml
+  format: yaml
+  label: Kentik SiteService API
+  slug: kentik-siteservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-ai-advisor-openapi.json
-- filename: kentik-audit-openapi.json
-  format: json
-  label: Kentik Audit Log API (v6)
-  slug: kentik-audit-log-api-v6
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-siteservice-api-openapi.yml
+- filename: kentik-syntheticsadminservice-api-openapi.yml
+  format: yaml
+  label: Kentik SyntheticsAdminService API
+  slug: kentik-syntheticsadminservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-audit-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-syntheticsadminservice-api-openapi.yml
+- filename: kentik-syntheticsdataservice-api-openapi.yml
+  format: yaml
+  label: Kentik SyntheticsDataService API
+  slug: kentik-syntheticsdataservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-syntheticsdataservice-api-openapi.yml
+- filename: kentik-tenantservice-api-openapi.yml
+  format: yaml
+  label: Kentik TenantService API
+  slug: kentik-tenantservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-tenantservice-api-openapi.yml
+- filename: kentik-tenantuserservice-api-openapi.yml
+  format: yaml
+  label: Kentik TenantUserService API
+  slug: kentik-tenantuserservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-tenantuserservice-api-openapi.yml
+- filename: kentik-userservice-api-openapi.yml
+  format: yaml
+  label: Kentik UserService API
+  slug: kentik-userservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-userservice-api-openapi.yml
 description: ''
 domains:
 - caa:

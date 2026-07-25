@@ -3,12 +3,96 @@ api_key_in:
 - query
 - body
 api_specs:
-- filename: vbout-openapi-original.json
-  format: json
-  label: VBOUT API
-  slug: vbout-api
+- filename: vbout-account-api-openapi.yml
+  format: yaml
+  label: VBOUT Account API
+  slug: vbout-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-account-api-openapi.yml
+- filename: vbout-aichatbot-api-openapi.yml
+  format: yaml
+  label: VBOUT AIchatbot API
+  slug: vbout-aichatbot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-aichatbot-api-openapi.yml
+- filename: vbout-application-api-openapi.yml
+  format: yaml
+  label: VBOUT Application API
+  slug: vbout-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-application-api-openapi.yml
+- filename: vbout-automation-api-openapi.yml
+  format: yaml
+  label: VBOUT Automation API
+  slug: vbout-automation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-automation-api-openapi.yml
+- filename: vbout-contact-api-openapi.yml
+  format: yaml
+  label: VBOUT Contact API
+  slug: vbout-contact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-contact-api-openapi.yml
+- filename: vbout-email-marketing-api-openapi.yml
+  format: yaml
+  label: VBOUT Email Marketing API
+  slug: vbout-email-marketing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-email-marketing-api-openapi.yml
+- filename: vbout-emailmarketing-api-openapi.yml
+  format: yaml
+  label: VBOUT EmailMarketing API
+  slug: vbout-emailmarketing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-emailmarketing-api-openapi.yml
+- filename: vbout-goals-api-openapi.yml
+  format: yaml
+  label: VBOUT Goals API
+  slug: vbout-goals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-goals-api-openapi.yml
+- filename: vbout-help-api-openapi.yml
+  format: yaml
+  label: VBOUT Help API
+  slug: vbout-help-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-help-api-openapi.yml
+- filename: vbout-pipeline-api-openapi.yml
+  format: yaml
+  label: VBOUT Pipeline API
+  slug: vbout-pipeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-pipeline-api-openapi.yml
+- filename: vbout-popups-api-openapi.yml
+  format: yaml
+  label: VBOUT Popups API
+  slug: vbout-popups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-popups-api-openapi.yml
+- filename: vbout-settings-api-openapi.yml
+  format: yaml
+  label: VBOUT Settings API
+  slug: vbout-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-settings-api-openapi.yml
+- filename: vbout-social-media-api-openapi.yml
+  format: yaml
+  label: VBOUT Social Media API
+  slug: vbout-social-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-social-media-api-openapi.yml
+- filename: vbout-socialmedia-api-openapi.yml
+  format: yaml
+  label: VBOUT SocialMedia API
+  slug: vbout-socialmedia-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-socialmedia-api-openapi.yml
+- filename: vbout-users-workflow-api-openapi.yml
+  format: yaml
+  label: VBOUT Users & Workflow API
+  slug: vbout-users-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-users-workflow-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

@@ -1,47 +1,59 @@
 ---
 api_specs:
-- filename: kintsugi-openapi.yml
+- filename: kintsugi-address-validation-api-openapi.yml
   format: yaml
-  label: Kintsugi Tax Calculations API
-  slug: tax-calculations
+  label: Kintsugi Address Validation API
+  slug: kintsugi-address-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-openapi.yml
-- filename: kintsugi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-address-validation-api-openapi.yml
+- filename: kintsugi-customers-api-openapi.yml
   format: yaml
-  label: Kintsugi Transactions API
-  slug: transactions
+  label: Kintsugi Customers API
+  slug: kintsugi-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-openapi.yml
-- filename: kintsugi-openapi.yml
-  format: yaml
-  label: Kintsugi Products and Tax Codes API
-  slug: products
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-openapi.yml
-- filename: kintsugi-openapi.yml
-  format: yaml
-  label: Kintsugi Addresses and Nexus API
-  slug: addresses-nexus
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-openapi.yml
-- filename: kintsugi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-customers-api-openapi.yml
+- filename: kintsugi-exemptions-api-openapi.yml
   format: yaml
   label: Kintsugi Exemptions API
-  slug: exemptions
+  slug: kintsugi-exemptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-openapi.yml
-- filename: kintsugi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-exemptions-api-openapi.yml
+- filename: kintsugi-filings-api-openapi.yml
   format: yaml
   label: Kintsugi Filings API
-  slug: filings
+  slug: kintsugi-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-openapi.yml
-- filename: kintsugi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-filings-api-openapi.yml
+- filename: kintsugi-nexus-api-openapi.yml
   format: yaml
-  label: Kintsugi Webhooks
-  slug: webhooks
+  label: Kintsugi Nexus API
+  slug: kintsugi-nexus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-nexus-api-openapi.yml
+- filename: kintsugi-products-api-openapi.yml
+  format: yaml
+  label: Kintsugi Products API
+  slug: kintsugi-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-products-api-openapi.yml
+- filename: kintsugi-registrations-api-openapi.yml
+  format: yaml
+  label: Kintsugi Registrations API
+  slug: kintsugi-registrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-registrations-api-openapi.yml
+- filename: kintsugi-tax-estimation-api-openapi.yml
+  format: yaml
+  label: Kintsugi Tax Estimation API
+  slug: kintsugi-tax-estimation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-tax-estimation-api-openapi.yml
+- filename: kintsugi-transactions-api-openapi.yml
+  format: yaml
+  label: Kintsugi Transactions API
+  slug: kintsugi-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

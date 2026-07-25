@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ssc-geneva-fund-accounting-openapi.yml
+- filename: ssc-geneva-investors-api-openapi.yml
   format: yaml
-  label: SS&C Geneva Fund Accounting API
-  slug: ssc-geneva-fund-accounting
+  label: SS&C Geneva Investors API
+  slug: ssc-geneva-investors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssc-geneva/refs/heads/main/openapi/ssc-geneva-fund-accounting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ssc-geneva/refs/heads/main/openapi/ssc-geneva-investors-api-openapi.yml
+- filename: ssc-geneva-nav-api-openapi.yml
+  format: yaml
+  label: SS&C Geneva NAV API
+  slug: ssc-geneva-nav-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ssc-geneva/refs/heads/main/openapi/ssc-geneva-nav-api-openapi.yml
+- filename: ssc-geneva-portfolios-api-openapi.yml
+  format: yaml
+  label: SS&C Geneva Portfolios API
+  slug: ssc-geneva-portfolios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ssc-geneva/refs/heads/main/openapi/ssc-geneva-portfolios-api-openapi.yml
+- filename: ssc-geneva-positions-api-openapi.yml
+  format: yaml
+  label: SS&C Geneva Positions API
+  slug: ssc-geneva-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ssc-geneva/refs/heads/main/openapi/ssc-geneva-positions-api-openapi.yml
+- filename: ssc-geneva-trades-api-openapi.yml
+  format: yaml
+  label: SS&C Geneva Trades API
+  slug: ssc-geneva-trades-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ssc-geneva/refs/heads/main/openapi/ssc-geneva-trades-api-openapi.yml
 auth_types:
 - http
 description: ''

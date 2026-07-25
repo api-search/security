@@ -1,11 +1,95 @@
 ---
 api_specs:
-- filename: humaans-api-openapi.yml
+- filename: humaans-io-audit-events-api-openapi.yml
   format: yaml
-  label: Humaans API
-  slug: humaans-api
+  label: Humaans Audit Events API
+  slug: humaans-io-audit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-audit-events-api-openapi.yml
+- filename: humaans-io-bank-accounts-api-openapi.yml
+  format: yaml
+  label: Humaans Bank Accounts API
+  slug: humaans-io-bank-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-bank-accounts-api-openapi.yml
+- filename: humaans-io-companies-api-openapi.yml
+  format: yaml
+  label: Humaans Companies API
+  slug: humaans-io-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-companies-api-openapi.yml
+- filename: humaans-io-compensations-api-openapi.yml
+  format: yaml
+  label: Humaans Compensations API
+  slug: humaans-io-compensations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-compensations-api-openapi.yml
+- filename: humaans-io-custom-fields-api-openapi.yml
+  format: yaml
+  label: Humaans Custom Fields API
+  slug: humaans-io-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-custom-fields-api-openapi.yml
+- filename: humaans-io-documents-api-openapi.yml
+  format: yaml
+  label: Humaans Documents API
+  slug: humaans-io-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-documents-api-openapi.yml
+- filename: humaans-io-equipment-api-openapi.yml
+  format: yaml
+  label: Humaans Equipment API
+  slug: humaans-io-equipment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-equipment-api-openapi.yml
+- filename: humaans-io-job-roles-api-openapi.yml
+  format: yaml
+  label: Humaans Job Roles API
+  slug: humaans-io-job-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-job-roles-api-openapi.yml
+- filename: humaans-io-locations-api-openapi.yml
+  format: yaml
+  label: Humaans Locations API
+  slug: humaans-io-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-locations-api-openapi.yml
+- filename: humaans-io-people-api-openapi.yml
+  format: yaml
+  label: Humaans People API
+  slug: humaans-io-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-people-api-openapi.yml
+- filename: humaans-io-performance-api-openapi.yml
+  format: yaml
+  label: Humaans Performance API
+  slug: humaans-io-performance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-performance-api-openapi.yml
+- filename: humaans-io-time-away-api-openapi.yml
+  format: yaml
+  label: Humaans Time Away API
+  slug: humaans-io-time-away-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-time-away-api-openapi.yml
+- filename: humaans-io-timesheet-api-openapi.yml
+  format: yaml
+  label: Humaans Timesheet API
+  slug: humaans-io-timesheet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-timesheet-api-openapi.yml
+- filename: humaans-io-webhooks-api-openapi.yml
+  format: yaml
+  label: Humaans Webhooks API
+  slug: humaans-io-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-webhooks-api-openapi.yml
+- filename: humaans-io-working-patterns-api-openapi.yml
+  format: yaml
+  label: Humaans Working Patterns API
+  slug: humaans-io-working-patterns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-working-patterns-api-openapi.yml
 description: ''
 domains:
 - caa: []

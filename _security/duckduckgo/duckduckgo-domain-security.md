@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: instant-answer-openapi.yml
+- filename: duckduckgo-bangs-api-openapi.yml
   format: yaml
-  label: DuckDuckGo Instant Answer API
-  slug: instant-answer-api
+  label: DuckDuckGo Bangs API
+  slug: duckduckgo-bangs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duckduckgo/refs/heads/main/openapi/instant-answer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/duckduckgo/refs/heads/main/openapi/duckduckgo-bangs-api-openapi.yml
+- filename: duckduckgo-instant-answers-api-openapi.yml
+  format: yaml
+  label: DuckDuckGo Instant Answers API
+  slug: duckduckgo-instant-answers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duckduckgo/refs/heads/main/openapi/duckduckgo-instant-answers-api-openapi.yml
 description: ''
 domains:
 - caa:

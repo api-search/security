@@ -1,11 +1,101 @@
 ---
 api_specs:
-- filename: memfault-openapi.yml
+- filename: memfault-organizations-api-openapi.yml
   format: yaml
-  label: Memfault Cloud REST API
-  slug: memfault-cloud-rest-api
+  label: Memfault Organizations API
+  slug: memfault-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-organizations-api-openapi.yml
+- filename: memfault-projects-api-openapi.yml
+  format: yaml
+  label: Memfault Projects API
+  slug: memfault-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-projects-api-openapi.yml
+- filename: memfault-devices-api-openapi.yml
+  format: yaml
+  label: Memfault Devices API
+  slug: memfault-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-devices-api-openapi.yml
+- filename: memfault-issues-api-openapi.yml
+  format: yaml
+  label: Memfault Issues API
+  slug: memfault-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-issues-api-openapi.yml
+- filename: memfault-chunks-api-openapi.yml
+  format: yaml
+  label: Memfault Chunks Ingestion API
+  slug: memfault-chunks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-chunks-api-openapi.yml
+- filename: memfault-auth-api-openapi.yml
+  format: yaml
+  label: Memfault Auth API
+  slug: memfault-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-auth-api-openapi.yml
+- filename: memfault-chunks-api-openapi.yml
+  format: yaml
+  label: Memfault Chunks API
+  slug: memfault-chunks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-chunks-api-openapi.yml
+- filename: memfault-cohorts-api-openapi.yml
+  format: yaml
+  label: Memfault Cohorts API
+  slug: memfault-cohorts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-cohorts-api-openapi.yml
+- filename: memfault-deployments-api-openapi.yml
+  format: yaml
+  label: Memfault Deployments API
+  slug: memfault-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-deployments-api-openapi.yml
+- filename: memfault-devices-api-openapi.yml
+  format: yaml
+  label: Memfault Devices API
+  slug: memfault-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-devices-api-openapi.yml
+- filename: memfault-files-api-openapi.yml
+  format: yaml
+  label: Memfault Files API
+  slug: memfault-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-files-api-openapi.yml
+- filename: memfault-issues-api-openapi.yml
+  format: yaml
+  label: Memfault Issues API
+  slug: memfault-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-issues-api-openapi.yml
+- filename: memfault-organizations-api-openapi.yml
+  format: yaml
+  label: Memfault Organizations API
+  slug: memfault-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-organizations-api-openapi.yml
+- filename: memfault-projects-api-openapi.yml
+  format: yaml
+  label: Memfault Projects API
+  slug: memfault-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-projects-api-openapi.yml
+- filename: memfault-releases-api-openapi.yml
+  format: yaml
+  label: Memfault Releases API
+  slug: memfault-releases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-releases-api-openapi.yml
+- filename: memfault-software-api-openapi.yml
+  format: yaml
+  label: Memfault Software API
+  slug: memfault-software-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-software-api-openapi.yml
 description: ''
 domains:
 - caa: []

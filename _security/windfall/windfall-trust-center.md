@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: windfall-openapi-original.json
-  format: json
-  label: Windfall API
-  slug: windfall-api
+- filename: windfall-windfall-api-api-openapi.yml
+  format: yaml
+  label: Windfall Windfall API API
+  slug: windfall-windfall-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windfall/refs/heads/main/openapi/windfall-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/windfall/refs/heads/main/openapi/windfall-windfall-api-api-openapi.yml
 certifications:
 - SOC 2 Type 2
 description: ''

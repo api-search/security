@@ -1,17 +1,65 @@
 ---
 api_specs:
-- filename: swagger.yaml
+- filename: us-patent-and-trademark-office-bulk-datasets-api-openapi.yml
   format: yaml
-  label: USPTO Open Data Portal API
-  slug: open-data-portal-api
+  label: US Patent and Trademark Office Bulk Datasets API
+  slug: us-patent-and-trademark-office-bulk-datasets-api
   spec_type: OpenAPI
-  url: https://data.uspto.gov/swagger/swagger.yaml
-- filename: uspto-tsdr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/openapi/us-patent-and-trademark-office-bulk-datasets-api-openapi.yml
+- filename: us-patent-and-trademark-office-case-documents-api-openapi.yml
   format: yaml
-  label: USPTO Trademark Status and Document Retrieval API
-  slug: tsdr-api
+  label: US Patent and Trademark Office Case Documents API
+  slug: us-patent-and-trademark-office-case-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/openapi/uspto-tsdr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/openapi/us-patent-and-trademark-office-case-documents-api-openapi.yml
+- filename: us-patent-and-trademark-office-case-status-api-openapi.yml
+  format: yaml
+  label: US Patent and Trademark Office Case Status API
+  slug: us-patent-and-trademark-office-case-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/openapi/us-patent-and-trademark-office-case-status-api-openapi.yml
+- filename: us-patent-and-trademark-office-patent-search-api-openapi.yml
+  format: yaml
+  label: US Patent and Trademark Office Patent Search API
+  slug: us-patent-and-trademark-office-patent-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/openapi/us-patent-and-trademark-office-patent-search-api-openapi.yml
+- filename: us-patent-and-trademark-office-petition-decisions-api-openapi.yml
+  format: yaml
+  label: US Patent and Trademark Office Petition Decisions API
+  slug: us-patent-and-trademark-office-petition-decisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/openapi/us-patent-and-trademark-office-petition-decisions-api-openapi.yml
+- filename: us-patent-and-trademark-office-ptab-appeals-api-openapi.yml
+  format: yaml
+  label: US Patent and Trademark Office PTAB Appeals API
+  slug: us-patent-and-trademark-office-ptab-appeals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/openapi/us-patent-and-trademark-office-ptab-appeals-api-openapi.yml
+- filename: us-patent-and-trademark-office-ptab-interferences-api-openapi.yml
+  format: yaml
+  label: US Patent and Trademark Office PTAB Interferences API
+  slug: us-patent-and-trademark-office-ptab-interferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/openapi/us-patent-and-trademark-office-ptab-interferences-api-openapi.yml
+- filename: us-patent-and-trademark-office-ptab-trials-decisions-api-openapi.yml
+  format: yaml
+  label: US Patent and Trademark Office PTAB Trials Decisions API
+  slug: us-patent-and-trademark-office-ptab-trials-decisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/openapi/us-patent-and-trademark-office-ptab-trials-decisions-api-openapi.yml
+- filename: us-patent-and-trademark-office-ptab-trials-documents-api-openapi.yml
+  format: yaml
+  label: US Patent and Trademark Office PTAB Trials Documents API
+  slug: us-patent-and-trademark-office-ptab-trials-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/openapi/us-patent-and-trademark-office-ptab-trials-documents-api-openapi.yml
+- filename: us-patent-and-trademark-office-ptab-trials-proceedings-api-openapi.yml
+  format: yaml
+  label: US Patent and Trademark Office PTAB Trials Proceedings API
+  slug: us-patent-and-trademark-office-ptab-trials-proceedings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/openapi/us-patent-and-trademark-office-ptab-trials-proceedings-api-openapi.yml
 description: ''
 domains:
 - caa:

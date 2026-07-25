@@ -1,35 +1,29 @@
 ---
 api_specs:
-- filename: upload-post-openapi.yml
-  format: yaml
-  label: Upload-Post Upload Video API
-  slug: upload-post-upload-video-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/openapi/upload-post-openapi.yml
-- filename: upload-post-openapi.yml
-  format: yaml
-  label: Upload-Post Upload Photos API
-  slug: upload-post-upload-photos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/openapi/upload-post-openapi.yml
-- filename: upload-post-openapi.yml
-  format: yaml
-  label: Upload-Post Upload Text API
-  slug: upload-post-upload-text-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/openapi/upload-post-openapi.yml
-- filename: upload-post-openapi.yml
-  format: yaml
-  label: Upload-Post Profiles and Users API
-  slug: upload-post-profiles-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/openapi/upload-post-openapi.yml
-- filename: upload-post-openapi.yml
+- filename: upload-post-analytics-api-openapi.yml
   format: yaml
   label: Upload-Post Analytics API
   slug: upload-post-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/openapi/upload-post-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/openapi/upload-post-analytics-api-openapi.yml
+- filename: upload-post-upload-api-openapi.yml
+  format: yaml
+  label: Upload-Post Upload API
+  slug: upload-post-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/openapi/upload-post-upload-api-openapi.yml
+- filename: upload-post-upload-management-api-openapi.yml
+  format: yaml
+  label: Upload-Post Upload Management API
+  slug: upload-post-upload-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/openapi/upload-post-upload-management-api-openapi.yml
+- filename: upload-post-users-api-openapi.yml
+  format: yaml
+  label: Upload-Post Users API
+  slug: upload-post-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/openapi/upload-post-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

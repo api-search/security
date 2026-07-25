@@ -1,17 +1,77 @@
 ---
 api_specs:
-- filename: tray-ai-embedded-api-openapi.yml
+- filename: tray-ai-authentication-api-openapi.yml
   format: yaml
-  label: Tray.ai Embedded API
-  slug: embedded-api
+  label: Tray.ai Authentication API
+  slug: tray-ai-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-embedded-api-openapi.yml
-- filename: tray-ai-platform-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-authentication-api-openapi.yml
+- filename: tray-ai-authentications-api-openapi.yml
   format: yaml
-  label: Tray.ai Platform API
-  slug: platform-api
+  label: Tray.ai Authentications API
+  slug: tray-ai-authentications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-platform-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-authentications-api-openapi.yml
+- filename: tray-ai-call-connector-api-openapi.yml
+  format: yaml
+  label: Tray.ai Call Connector API
+  slug: tray-ai-call-connector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-call-connector-api-openapi.yml
+- filename: tray-ai-connectors-api-openapi.yml
+  format: yaml
+  label: Tray.ai Connectors API
+  slug: tray-ai-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-connectors-api-openapi.yml
+- filename: tray-ai-deployments-api-openapi.yml
+  format: yaml
+  label: Tray.ai Deployments API
+  slug: tray-ai-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-deployments-api-openapi.yml
+- filename: tray-ai-projects-api-openapi.yml
+  format: yaml
+  label: Tray.ai Projects API
+  slug: tray-ai-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-projects-api-openapi.yml
+- filename: tray-ai-solution-instances-api-openapi.yml
+  format: yaml
+  label: Tray.ai Solution Instances API
+  slug: tray-ai-solution-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-solution-instances-api-openapi.yml
+- filename: tray-ai-solutions-api-openapi.yml
+  format: yaml
+  label: Tray.ai Solutions API
+  slug: tray-ai-solutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-solutions-api-openapi.yml
+- filename: tray-ai-triggers-api-openapi.yml
+  format: yaml
+  label: Tray.ai Triggers API
+  slug: tray-ai-triggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-triggers-api-openapi.yml
+- filename: tray-ai-users-api-openapi.yml
+  format: yaml
+  label: Tray.ai Users API
+  slug: tray-ai-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-users-api-openapi.yml
+- filename: tray-ai-workflows-api-openapi.yml
+  format: yaml
+  label: Tray.ai Workflows API
+  slug: tray-ai-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-workflows-api-openapi.yml
+- filename: tray-ai-workspaces-api-openapi.yml
+  format: yaml
+  label: Tray.ai Workspaces API
+  slug: tray-ai-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []

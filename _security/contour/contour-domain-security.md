@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: contour-httpproxy-openapi.yml
-  format: yaml
-  label: Contour HTTPProxy API
-  slug: contour-httpproxy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/openapi/contour-httpproxy-openapi.yml
-- filename: contour-gateway-openapi.yml
+- filename: contour-gateway-api-openapi.yml
   format: yaml
   label: Contour Gateway API
   slug: contour-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/openapi/contour-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/openapi/contour-gateway-api-openapi.yml
+- filename: contour-gatewayclass-api-openapi.yml
+  format: yaml
+  label: Contour GatewayClass API
+  slug: contour-gatewayclass-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/openapi/contour-gatewayclass-api-openapi.yml
+- filename: contour-httpproxy-api-openapi.yml
+  format: yaml
+  label: Contour HTTPProxy API
+  slug: contour-httpproxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/openapi/contour-httpproxy-api-openapi.yml
+- filename: contour-httproute-api-openapi.yml
+  format: yaml
+  label: Contour HTTPRoute API
+  slug: contour-httproute-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/openapi/contour-httproute-api-openapi.yml
+- filename: contour-tlscertificatedelegation-api-openapi.yml
+  format: yaml
+  label: Contour TLSCertificateDelegation API
+  slug: contour-tlscertificatedelegation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/openapi/contour-tlscertificatedelegation-api-openapi.yml
+- filename: contour-tlsroute-api-openapi.yml
+  format: yaml
+  label: Contour TLSRoute API
+  slug: contour-tlsroute-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/openapi/contour-tlsroute-api-openapi.yml
 description: ''
 domains:
 - caa: []

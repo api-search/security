@@ -2,18 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: merit-systems-merit-api-openapi.yml
+- filename: merit-systems-balances-api-openapi.yml
   format: yaml
-  label: Merit Systems API
-  slug: merit-systems-api
+  label: Merit Systems Balances API
+  slug: merit-systems-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merit-systems/refs/heads/main/openapi/merit-systems-merit-api-openapi.yml
-- filename: merit-systems-agentcash-openapi.json
-  format: json
-  label: AgentCash API
-  slug: agentcash-api
+  url: https://raw.githubusercontent.com/api-evangelist/merit-systems/refs/heads/main/openapi/merit-systems-balances-api-openapi.yml
+- filename: merit-systems-invite-codes-api-openapi.yml
+  format: yaml
+  label: Merit Systems Invite Codes API
+  slug: merit-systems-invite-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merit-systems/refs/heads/main/openapi/merit-systems-agentcash-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/merit-systems/refs/heads/main/openapi/merit-systems-invite-codes-api-openapi.yml
+- filename: merit-systems-organizations-api-openapi.yml
+  format: yaml
+  label: Merit Systems Organizations API
+  slug: merit-systems-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merit-systems/refs/heads/main/openapi/merit-systems-organizations-api-openapi.yml
+- filename: merit-systems-payments-api-openapi.yml
+  format: yaml
+  label: Merit Systems Payments API
+  slug: merit-systems-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merit-systems/refs/heads/main/openapi/merit-systems-payments-api-openapi.yml
+- filename: merit-systems-search-api-openapi.yml
+  format: yaml
+  label: Merit Systems Search API
+  slug: merit-systems-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merit-systems/refs/heads/main/openapi/merit-systems-search-api-openapi.yml
+- filename: merit-systems-send-api-openapi.yml
+  format: yaml
+  label: Merit Systems Send API
+  slug: merit-systems-send-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merit-systems/refs/heads/main/openapi/merit-systems-send-api-openapi.yml
 auth_types:
 - apiKey
 - x402

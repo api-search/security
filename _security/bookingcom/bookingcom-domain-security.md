@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: bookingcom-booking-api-openapi.yml
+- filename: bookingcom-travel-api-openapi.yml
   format: yaml
-  label: Booking.com API
-  slug: booking-api
+  label: Booking.com Travel API
+  slug: bookingcom-travel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bookingcom/refs/heads/main/openapi/bookingcom-booking-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bookingcom/refs/heads/main/openapi/bookingcom-travel-api-openapi.yml
 description: ''
 domains:
 - caa: []

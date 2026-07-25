@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-classroom-courses-api-openapi.yml
   format: yaml
-  label: Google Classroom API
-  slug: google-classroom-api
+  label: Google Classroom Courses API
+  slug: google-classroom-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-classroom/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-classroom/refs/heads/main/openapi/google-classroom-courses-api-openapi.yml
+- filename: google-classroom-invitations-api-openapi.yml
+  format: yaml
+  label: Google Classroom Invitations API
+  slug: google-classroom-invitations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-classroom/refs/heads/main/openapi/google-classroom-invitations-api-openapi.yml
+- filename: google-classroom-userprofiles-api-openapi.yml
+  format: yaml
+  label: Google Classroom userProfiles API
+  slug: google-classroom-userprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-classroom/refs/heads/main/openapi/google-classroom-userprofiles-api-openapi.yml
 description: ''
 domains:
 - caa:

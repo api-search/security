@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: kredivo-checkout-openapi.yml
+- filename: kredivo-calculator-api-openapi.yml
+  format: yaml
+  label: Kredivo Calculator API
+  slug: kredivo-calculator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/openapi/kredivo-calculator-api-openapi.yml
+- filename: kredivo-checkout-api-openapi.yml
   format: yaml
   label: Kredivo Checkout API
-  slug: checkout
+  slug: kredivo-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/openapi/kredivo-checkout-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/openapi/kredivo-checkout-api-openapi.yml
+- filename: kredivo-confirmation-api-openapi.yml
+  format: yaml
+  label: Kredivo Confirmation API
+  slug: kredivo-confirmation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/openapi/kredivo-confirmation-api-openapi.yml
+- filename: kredivo-tokenization-api-openapi.yml
+  format: yaml
+  label: Kredivo Tokenization API
+  slug: kredivo-tokenization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/openapi/kredivo-tokenization-api-openapi.yml
+- filename: kredivo-transactions-api-openapi.yml
+  format: yaml
+  label: Kredivo Transactions API
+  slug: kredivo-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/openapi/kredivo-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

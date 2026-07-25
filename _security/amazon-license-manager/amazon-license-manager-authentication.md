@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi.yaml
+- filename: amazon-license-manager-license-configurations-api-openapi.yml
   format: yaml
-  label: AWS License Manager API
-  slug: aws-license-manager-api
+  label: Amazon License Manager License Configurations API
+  slug: amazon-license-manager-license-configurations-api
   spec_type: OpenAPI
-  url: https://api.apis.guru/v2/specs/amazonaws.com/license-manager/2018-08-01/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-license-manager/refs/heads/main/openapi/amazon-license-manager-license-configurations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,35 +1,23 @@
 ---
 api_specs:
-- filename: bytark-openapi.yml
+- filename: bytark-live-api-openapi.yml
   format: yaml
-  label: ByteArk Stream Video API
-  slug: bytark-stream-video-api
+  label: ByteArk Live API
+  slug: bytark-live-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytark/refs/heads/main/openapi/bytark-openapi.yml
-- filename: bytark-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bytark/refs/heads/main/openapi/bytark-live-api-openapi.yml
+- filename: bytark-uploads-api-openapi.yml
   format: yaml
-  label: ByteArk Live Streaming API
-  slug: bytark-live-streaming-api
+  label: ByteArk Uploads API
+  slug: bytark-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytark/refs/heads/main/openapi/bytark-openapi.yml
-- filename: bytark-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bytark/refs/heads/main/openapi/bytark-uploads-api-openapi.yml
+- filename: bytark-videos-api-openapi.yml
   format: yaml
-  label: ByteArk Storage API
-  slug: bytark-storage-api
+  label: ByteArk Videos API
+  slug: bytark-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytark/refs/heads/main/openapi/bytark-openapi.yml
-- filename: bytark-openapi.yml
-  format: yaml
-  label: ByteArk CDN API
-  slug: bytark-cdn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytark/refs/heads/main/openapi/bytark-openapi.yml
-- filename: bytark-openapi.yml
-  format: yaml
-  label: ByteArk Player API
-  slug: bytark-player-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytark/refs/heads/main/openapi/bytark-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bytark/refs/heads/main/openapi/bytark-videos-api-openapi.yml
 description: ''
 domains:
 - caa: []

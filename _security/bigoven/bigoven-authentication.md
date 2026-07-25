@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: index
+- filename: bigoven-collection-api-openapi.yml
   format: yaml
-  label: BigOven Build API
-  slug: bigoven-api
+  label: BigOven Collection API
+  slug: bigoven-collection-api
   spec_type: OpenAPI
-  url: https://api2.bigoven.com/swagger/ui/index
+  url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/openapi/bigoven-collection-api-openapi.yml
+- filename: bigoven-grocerylist-api-openapi.yml
+  format: yaml
+  label: BigOven GroceryList API
+  slug: bigoven-grocerylist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/openapi/bigoven-grocerylist-api-openapi.yml
+- filename: bigoven-images-api-openapi.yml
+  format: yaml
+  label: BigOven Images API
+  slug: bigoven-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/openapi/bigoven-images-api-openapi.yml
+- filename: bigoven-me-api-openapi.yml
+  format: yaml
+  label: BigOven Me API
+  slug: bigoven-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/openapi/bigoven-me-api-openapi.yml
+- filename: bigoven-note-api-openapi.yml
+  format: yaml
+  label: BigOven Note API
+  slug: bigoven-note-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/openapi/bigoven-note-api-openapi.yml
+- filename: bigoven-recipe-api-openapi.yml
+  format: yaml
+  label: BigOven Recipe API
+  slug: bigoven-recipe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/openapi/bigoven-recipe-api-openapi.yml
+- filename: bigoven-review-api-openapi.yml
+  format: yaml
+  label: BigOven Review API
+  slug: bigoven-review-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/openapi/bigoven-review-api-openapi.yml
 auth_types:
 - apiKey
 - http

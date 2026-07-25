@@ -1,65 +1,101 @@
 ---
 api_specs:
-- filename: servicenow-table-api-openapi.yml
-  format: yaml
-  label: ServiceNow Table API
-  slug: servicenow-table-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-table-api-openapi.yml
-- filename: servicenow-aggregate-api-openapi.yml
-  format: yaml
-  label: ServiceNow Aggregate API
-  slug: servicenow-aggregate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-aggregate-api-openapi.yml
-- filename: servicenow-attachment-api-openapi.yml
-  format: yaml
-  label: ServiceNow Attachment API
-  slug: servicenow-attachment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-attachment-api-openapi.yml
-- filename: servicenow-import-set-api-openapi.yml
-  format: yaml
-  label: ServiceNow Import Set API
-  slug: servicenow-import-set-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-import-set-api-openapi.yml
-- filename: servicenow-change-management-api-openapi.yml
-  format: yaml
-  label: ServiceNow Change Management API
-  slug: servicenow-change-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-change-management-api-openapi.yml
-- filename: servicenow-service-catalog-api-openapi.yml
-  format: yaml
-  label: ServiceNow Service Catalog API
-  slug: servicenow-service-catalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-service-catalog-api-openapi.yml
-- filename: servicenow-cmdb-instance-api-openapi.yml
-  format: yaml
-  label: ServiceNow CMDB Instance API
-  slug: servicenow-cmdb-instance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-cmdb-instance-api-openapi.yml
-- filename: contact-api-openapi.yaml
-  format: yaml
-  label: ServiceNow Contact API
-  slug: servicenow-contact-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/contact-api-openapi.yaml
-- filename: trouble-ticket-openapi.yaml
-  format: yaml
-  label: ServiceNow Trouble Ticket Open API
-  slug: servicenow-trouble-ticket-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/trouble-ticket-openapi.yaml
 - filename: servicenow-events-asyncapi.yml
   format: yaml
   label: ServiceNow Event Management Topic Open API
   slug: servicenow-event-management-topic-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/asyncapi/servicenow-events-asyncapi.yml
+- filename: servicenow-aggregate-statistics-api-openapi.yml
+  format: yaml
+  label: ServiceNow Aggregate Statistics API
+  slug: servicenow-aggregate-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-aggregate-statistics-api-openapi.yml
+- filename: servicenow-attachments-api-openapi.yml
+  format: yaml
+  label: ServiceNow Attachments API
+  slug: servicenow-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-attachments-api-openapi.yml
+- filename: servicenow-cart-api-openapi.yml
+  format: yaml
+  label: ServiceNow Cart API
+  slug: servicenow-cart-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-cart-api-openapi.yml
+- filename: servicenow-catalog-items-api-openapi.yml
+  format: yaml
+  label: ServiceNow Catalog Items API
+  slug: servicenow-catalog-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-catalog-items-api-openapi.yml
+- filename: servicenow-catalogs-api-openapi.yml
+  format: yaml
+  label: ServiceNow Catalogs API
+  slug: servicenow-catalogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-catalogs-api-openapi.yml
+- filename: servicenow-categories-api-openapi.yml
+  format: yaml
+  label: ServiceNow Categories API
+  slug: servicenow-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-categories-api-openapi.yml
+- filename: servicenow-change-tasks-api-openapi.yml
+  format: yaml
+  label: ServiceNow Change Tasks API
+  slug: servicenow-change-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-change-tasks-api-openapi.yml
+- filename: servicenow-cmdb-instances-api-openapi.yml
+  format: yaml
+  label: ServiceNow CMDB Instances API
+  slug: servicenow-cmdb-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-cmdb-instances-api-openapi.yml
+- filename: servicenow-contact-api-openapi.yml
+  format: yaml
+  label: ServiceNow Contact API
+  slug: servicenow-contact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-contact-api-openapi.yml
+- filename: servicenow-emergency-changes-api-openapi.yml
+  format: yaml
+  label: ServiceNow Emergency Changes API
+  slug: servicenow-emergency-changes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-emergency-changes-api-openapi.yml
+- filename: servicenow-import-sets-api-openapi.yml
+  format: yaml
+  label: ServiceNow Import Sets API
+  slug: servicenow-import-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-import-sets-api-openapi.yml
+- filename: servicenow-normal-changes-api-openapi.yml
+  format: yaml
+  label: ServiceNow Normal Changes API
+  slug: servicenow-normal-changes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-normal-changes-api-openapi.yml
+- filename: servicenow-standard-changes-api-openapi.yml
+  format: yaml
+  label: ServiceNow Standard Changes API
+  slug: servicenow-standard-changes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-standard-changes-api-openapi.yml
+- filename: servicenow-table-records-api-openapi.yml
+  format: yaml
+  label: ServiceNow Table Records API
+  slug: servicenow-table-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-table-records-api-openapi.yml
+- filename: servicenow-trouble-ticket-api-openapi.yml
+  format: yaml
+  label: ServiceNow Trouble Ticket API
+  slug: servicenow-trouble-ticket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-trouble-ticket-api-openapi.yml
 certifications:
 - SOC 2 Type II
 - ISO 27001:2022

@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: podcastindex-openapi.yml
+- filename: podcastindex-add-api-openapi.yml
   format: yaml
-  label: PodcastIndex API
-  slug: podcastindex
+  label: PodcastIndex Add API
+  slug: podcastindex-add-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-add-api-openapi.yml
+- filename: podcastindex-apple-replacement-api-openapi.yml
+  format: yaml
+  label: PodcastIndex Apple Replacement API
+  slug: podcastindex-apple-replacement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-apple-replacement-api-openapi.yml
+- filename: podcastindex-categories-api-openapi.yml
+  format: yaml
+  label: PodcastIndex Categories API
+  slug: podcastindex-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-categories-api-openapi.yml
+- filename: podcastindex-episodes-api-openapi.yml
+  format: yaml
+  label: PodcastIndex Episodes API
+  slug: podcastindex-episodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-episodes-api-openapi.yml
+- filename: podcastindex-hub-api-openapi.yml
+  format: yaml
+  label: PodcastIndex Hub API
+  slug: podcastindex-hub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-hub-api-openapi.yml
+- filename: podcastindex-podcasts-api-openapi.yml
+  format: yaml
+  label: PodcastIndex Podcasts API
+  slug: podcastindex-podcasts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-podcasts-api-openapi.yml
+- filename: podcastindex-recent-api-openapi.yml
+  format: yaml
+  label: PodcastIndex Recent API
+  slug: podcastindex-recent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-recent-api-openapi.yml
+- filename: podcastindex-search-api-openapi.yml
+  format: yaml
+  label: PodcastIndex Search API
+  slug: podcastindex-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-search-api-openapi.yml
+- filename: podcastindex-static-data-api-openapi.yml
+  format: yaml
+  label: PodcastIndex Static Data API
+  slug: podcastindex-static-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-static-data-api-openapi.yml
+- filename: podcastindex-stats-api-openapi.yml
+  format: yaml
+  label: PodcastIndex Stats API
+  slug: podcastindex-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-stats-api-openapi.yml
+- filename: podcastindex-value-api-openapi.yml
+  format: yaml
+  label: PodcastIndex Value API
+  slug: podcastindex-value-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-value-api-openapi.yml
 description: ''
 domains:
 - caa: []

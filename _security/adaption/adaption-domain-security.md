@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: adaption-adaptive-data-api-openapi.yml
+- filename: adaption-datasets-api-openapi.yml
   format: yaml
-  label: Adaptive Data API
-  slug: adaptive-data-api
+  label: Adaption Datasets API
+  slug: adaption-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaption/refs/heads/main/openapi/adaption-adaptive-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/adaption/refs/heads/main/openapi/adaption-datasets-api-openapi.yml
+- filename: adaption-upload-api-openapi.yml
+  format: yaml
+  label: Adaption Upload API
+  slug: adaption-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adaption/refs/heads/main/openapi/adaption-upload-api-openapi.yml
 description: ''
 domains:
 - caa: []

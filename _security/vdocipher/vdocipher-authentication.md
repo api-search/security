@@ -2,42 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: vdocipher-openapi.yml
-  format: yaml
-  label: VdoCipher Videos API
-  slug: vdocipher-videos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-openapi.yml
-- filename: vdocipher-openapi.yml
-  format: yaml
-  label: VdoCipher Upload API
-  slug: vdocipher-upload-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-openapi.yml
-- filename: vdocipher-openapi.yml
-  format: yaml
-  label: VdoCipher OTP & Playback Credentials API
-  slug: vdocipher-playback-otp-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-openapi.yml
-- filename: vdocipher-openapi.yml
+- filename: vdocipher-folders-api-openapi.yml
   format: yaml
   label: VdoCipher Folders API
   slug: vdocipher-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-openapi.yml
-- filename: vdocipher-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-folders-api-openapi.yml
+- filename: vdocipher-meta-api-openapi.yml
   format: yaml
-  label: VdoCipher Watermark API
-  slug: vdocipher-watermark-api
+  label: VdoCipher Meta API
+  slug: vdocipher-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-openapi.yml
-- filename: vdocipher-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-meta-api-openapi.yml
+- filename: vdocipher-playback-api-openapi.yml
   format: yaml
-  label: VdoCipher Meta & Files API
-  slug: vdocipher-meta-files-api
+  label: VdoCipher Playback API
+  slug: vdocipher-playback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-playback-api-openapi.yml
+- filename: vdocipher-tags-api-openapi.yml
+  format: yaml
+  label: VdoCipher Tags API
+  slug: vdocipher-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-tags-api-openapi.yml
+- filename: vdocipher-upload-api-openapi.yml
+  format: yaml
+  label: VdoCipher Upload API
+  slug: vdocipher-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-upload-api-openapi.yml
+- filename: vdocipher-videos-api-openapi.yml
+  format: yaml
+  label: VdoCipher Videos API
+  slug: vdocipher-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-videos-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

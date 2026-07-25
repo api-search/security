@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: j-quants-openapi.yml
+- filename: j-quants-derivatives-api-openapi.yml
   format: yaml
-  label: J-Quants API
-  slug: j-quants-api
+  label: J-Quants Derivatives API
+  slug: j-quants-derivatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-derivatives-api-openapi.yml
+- filename: j-quants-equities-api-openapi.yml
+  format: yaml
+  label: J-Quants Equities API
+  slug: j-quants-equities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-equities-api-openapi.yml
+- filename: j-quants-fins-api-openapi.yml
+  format: yaml
+  label: J-Quants Fins API
+  slug: j-quants-fins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-fins-api-openapi.yml
+- filename: j-quants-indices-api-openapi.yml
+  format: yaml
+  label: J-Quants Indices API
+  slug: j-quants-indices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-indices-api-openapi.yml
+- filename: j-quants-listed-api-openapi.yml
+  format: yaml
+  label: J-Quants Listed API
+  slug: j-quants-listed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-listed-api-openapi.yml
+- filename: j-quants-markets-api-openapi.yml
+  format: yaml
+  label: J-Quants Markets API
+  slug: j-quants-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-markets-api-openapi.yml
+- filename: j-quants-option-api-openapi.yml
+  format: yaml
+  label: J-Quants Option API
+  slug: j-quants-option-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-option-api-openapi.yml
+- filename: j-quants-prices-api-openapi.yml
+  format: yaml
+  label: J-Quants Prices API
+  slug: j-quants-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-prices-api-openapi.yml
+- filename: j-quants-token-api-openapi.yml
+  format: yaml
+  label: J-Quants Token API
+  slug: j-quants-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-token-api-openapi.yml
 description: ''
 domains:
 - caa: []

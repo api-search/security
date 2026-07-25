@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: unito-embeds-openapi-original.json
-  format: json
-  label: Unito Embed API
-  slug: unito-embed-api
+- filename: unito-reports-api-openapi.yml
+  format: yaml
+  label: Unito Reports API
+  slug: unito-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unito/refs/heads/main/openapi/unito-embeds-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/unito/refs/heads/main/openapi/unito-reports-api-openapi.yml
+- filename: unito-server-api-openapi.yml
+  format: yaml
+  label: Unito Server API
+  slug: unito-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unito/refs/heads/main/openapi/unito-server-api-openapi.yml
+- filename: unito-workspaces-api-openapi.yml
+  format: yaml
+  label: Unito Workspaces API
+  slug: unito-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unito/refs/heads/main/openapi/unito-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa:

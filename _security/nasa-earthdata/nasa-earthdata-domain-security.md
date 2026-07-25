@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: search_api_docs.html
+- filename: nasa-earthdata-capabilities-api-openapi.yml
   format: yaml
-  label: CMR Search API
-  slug: cmr-search-api
+  label: NASA Earthdata Capabilities API
+  slug: nasa-earthdata-capabilities-api
   spec_type: OpenAPI
-  url: https://cmr.earthdata.nasa.gov/search/site/search_api_docs.html
-- filename: harmony-api-openapi.json
-  format: json
-  label: Harmony API
-  slug: harmony-api
+  url: https://raw.githubusercontent.com/api-evangelist/nasa-earthdata/refs/heads/main/openapi/nasa-earthdata-capabilities-api-openapi.yml
+- filename: nasa-earthdata-coverage-api-openapi.yml
+  format: yaml
+  label: NASA Earthdata Coverage API
+  slug: nasa-earthdata-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-earthdata/refs/heads/main/openapi/harmony-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/nasa-earthdata/refs/heads/main/openapi/nasa-earthdata-coverage-api-openapi.yml
+- filename: nasa-earthdata-openapi-api-openapi.yml
+  format: yaml
+  label: NASA Earthdata OpenAPI API
+  slug: nasa-earthdata-openapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa-earthdata/refs/heads/main/openapi/nasa-earthdata-openapi-api-openapi.yml
 description: ''
 domains:
 - caa: []

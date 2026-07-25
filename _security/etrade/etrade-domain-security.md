@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: etrade-openapi.yml
+- filename: etrade-accounts-api-openapi.yml
   format: yaml
-  label: E*TRADE API
-  slug: etrade
+  label: Etrade Accounts API
+  slug: etrade-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etrade/refs/heads/main/openapi/etrade-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/etrade/refs/heads/main/openapi/etrade-accounts-api-openapi.yml
+- filename: etrade-market-api-openapi.yml
+  format: yaml
+  label: Etrade Market API
+  slug: etrade-market-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etrade/refs/heads/main/openapi/etrade-market-api-openapi.yml
+- filename: etrade-order-api-openapi.yml
+  format: yaml
+  label: Etrade Order API
+  slug: etrade-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etrade/refs/heads/main/openapi/etrade-order-api-openapi.yml
 description: ''
 domains:
 - caa:

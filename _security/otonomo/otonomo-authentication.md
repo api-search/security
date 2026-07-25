@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: otonomo-fleet-openapi.yml
+- filename: otonomo-eu-api-openapi.yml
   format: yaml
-  label: Otonomo Fleet API
-  slug: otonomo-fleet-api
+  label: Otonomo EU API
+  slug: otonomo-eu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/openapi/otonomo-fleet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/openapi/otonomo-eu-api-openapi.yml
+- filename: otonomo-us-api-openapi.yml
+  format: yaml
+  label: Otonomo US API
+  slug: otonomo-us-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/openapi/otonomo-us-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

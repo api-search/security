@@ -2,12 +2,48 @@
 api_key_in:
 - query
 api_specs:
-- filename: weatherapi-openapi-original.yml
+- filename: weatherapi-alerts-api-openapi.yml
   format: yaml
-  label: WeatherAPI
-  slug: weatherapi
+  label: WeatherAPI Alerts API
+  slug: weatherapi-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/openapi/weatherapi-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/openapi/weatherapi-alerts-api-openapi.yml
+- filename: weatherapi-future-api-openapi.yml
+  format: yaml
+  label: WeatherAPI Future API
+  slug: weatherapi-future-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/openapi/weatherapi-future-api-openapi.yml
+- filename: weatherapi-geo-api-openapi.yml
+  format: yaml
+  label: WeatherAPI Geo API
+  slug: weatherapi-geo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/openapi/weatherapi-geo-api-openapi.yml
+- filename: weatherapi-history-api-openapi.yml
+  format: yaml
+  label: WeatherAPI History API
+  slug: weatherapi-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/openapi/weatherapi-history-api-openapi.yml
+- filename: weatherapi-marine-api-openapi.yml
+  format: yaml
+  label: WeatherAPI Marine API
+  slug: weatherapi-marine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/openapi/weatherapi-marine-api-openapi.yml
+- filename: weatherapi-sports-api-openapi.yml
+  format: yaml
+  label: WeatherAPI Sports API
+  slug: weatherapi-sports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/openapi/weatherapi-sports-api-openapi.yml
+- filename: weatherapi-weather-api-openapi.yml
+  format: yaml
+  label: WeatherAPI Weather API
+  slug: weatherapi-weather-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/openapi/weatherapi-weather-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

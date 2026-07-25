@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: rockbot-openapi.yml
+- filename: rockbot-audio-messaging-api-openapi.yml
   format: yaml
-  label: Rockbot API
-  slug: rockbot-api
+  label: Rockbot Audio Messaging API
+  slug: rockbot-audio-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/openapi/rockbot-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/openapi/rockbot-audio-messaging-api-openapi.yml
+- filename: rockbot-auth-api-openapi.yml
+  format: yaml
+  label: Rockbot Auth API
+  slug: rockbot-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/openapi/rockbot-auth-api-openapi.yml
+- filename: rockbot-data-api-openapi.yml
+  format: yaml
+  label: Rockbot Data API
+  slug: rockbot-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/openapi/rockbot-data-api-openapi.yml
+- filename: rockbot-devices-api-openapi.yml
+  format: yaml
+  label: Rockbot Devices API
+  slug: rockbot-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/openapi/rockbot-devices-api-openapi.yml
+- filename: rockbot-music-api-openapi.yml
+  format: yaml
+  label: Rockbot Music API
+  slug: rockbot-music-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/openapi/rockbot-music-api-openapi.yml
+- filename: rockbot-signage-api-openapi.yml
+  format: yaml
+  label: Rockbot Signage API
+  slug: rockbot-signage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/openapi/rockbot-signage-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

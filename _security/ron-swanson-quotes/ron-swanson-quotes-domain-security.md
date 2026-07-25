@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: ron-swanson-quotes-openapi.yml
+- filename: ron-swanson-quotes-quotes-api-openapi.yml
   format: yaml
-  label: Ron Swanson Quotes API
-  slug: ron-swanson-quotes-api
+  label: Ron Swanson Quotes Quotes API
+  slug: ron-swanson-quotes-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ron-swanson-quotes/refs/heads/main/openapi/ron-swanson-quotes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ron-swanson-quotes/refs/heads/main/openapi/ron-swanson-quotes-quotes-api-openapi.yml
 description: ''
 domains:
 - caa: []

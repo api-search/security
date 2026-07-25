@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: open-webui-openapi.yml
+- filename: open-webui-anthropic-api-openapi.yml
   format: yaml
-  label: Open WebUI API
-  slug: platform
+  label: Open WebUI Anthropic API
+  slug: open-webui-anthropic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-webui/refs/heads/main/openapi/open-webui-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/open-webui/refs/heads/main/openapi/open-webui-anthropic-api-openapi.yml
+- filename: open-webui-chat-api-openapi.yml
+  format: yaml
+  label: Open WebUI Chat API
+  slug: open-webui-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-webui/refs/heads/main/openapi/open-webui-chat-api-openapi.yml
+- filename: open-webui-ollama-api-openapi.yml
+  format: yaml
+  label: Open WebUI Ollama API
+  slug: open-webui-ollama-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-webui/refs/heads/main/openapi/open-webui-ollama-api-openapi.yml
 description: ''
 domains:
 - caa: []

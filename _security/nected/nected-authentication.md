@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: nected-openapi.yml
+- filename: nected-dev-api-openapi.yml
   format: yaml
-  label: Nected
-  slug: nected
+  label: Nected Dev API
+  slug: nected-dev-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/openapi/nected-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/openapi/nected-dev-api-openapi.yml
+- filename: nected-nected-api-openapi.yml
+  format: yaml
+  label: Nected Nected API
+  slug: nected-nected-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/openapi/nected-nected-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

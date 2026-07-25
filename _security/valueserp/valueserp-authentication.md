@@ -2,12 +2,42 @@
 api_key_in:
 - query
 api_specs:
-- filename: valueserp-search-openapi.yml
+- filename: valueserp-images-api-openapi.yml
+  format: yaml
+  label: ValueSERP Images API
+  slug: valueserp-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/openapi/valueserp-images-api-openapi.yml
+- filename: valueserp-news-api-openapi.yml
+  format: yaml
+  label: ValueSERP News API
+  slug: valueserp-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/openapi/valueserp-news-api-openapi.yml
+- filename: valueserp-places-api-openapi.yml
+  format: yaml
+  label: ValueSERP Places API
+  slug: valueserp-places-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/openapi/valueserp-places-api-openapi.yml
+- filename: valueserp-product-api-openapi.yml
+  format: yaml
+  label: ValueSERP Product API
+  slug: valueserp-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/openapi/valueserp-product-api-openapi.yml
+- filename: valueserp-search-api-openapi.yml
   format: yaml
   label: ValueSERP Search API
   slug: valueserp-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/openapi/valueserp-search-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/openapi/valueserp-search-api-openapi.yml
+- filename: valueserp-shopping-api-openapi.yml
+  format: yaml
+  label: ValueSERP Shopping API
+  slug: valueserp-shopping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/openapi/valueserp-shopping-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

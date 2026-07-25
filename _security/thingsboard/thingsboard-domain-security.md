@@ -1,95 +1,353 @@
 ---
 api_specs:
-- filename: thingsboard-devices-openapi.yml
+- filename: thingsboard-admin-controller-api-openapi.yml
   format: yaml
-  label: ThingsBoard Devices API
-  slug: thingsboard-devices-api
+  label: ThingsBoard admin-controller API
+  slug: thingsboard-admin-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-devices-openapi.yml
-- filename: thingsboard-assets-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-admin-controller-api-openapi.yml
+- filename: thingsboard-ai-model-controller-api-openapi.yml
   format: yaml
-  label: ThingsBoard Assets API
-  slug: thingsboard-assets-api
+  label: ThingsBoard ai-model-controller API
+  slug: thingsboard-ai-model-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-assets-openapi.yml
-- filename: thingsboard-telemetry-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-ai-model-controller-api-openapi.yml
+- filename: thingsboard-alarm-comment-controller-api-openapi.yml
   format: yaml
-  label: ThingsBoard Telemetry API
-  slug: thingsboard-telemetry-api
+  label: ThingsBoard alarm-comment-controller API
+  slug: thingsboard-alarm-comment-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-telemetry-openapi.yml
-- filename: thingsboard-alarms-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-alarm-comment-controller-api-openapi.yml
+- filename: thingsboard-alarm-controller-api-openapi.yml
   format: yaml
-  label: ThingsBoard Alarms API
-  slug: thingsboard-alarms-api
+  label: ThingsBoard alarm-controller API
+  slug: thingsboard-alarm-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-alarms-openapi.yml
-- filename: thingsboard-rule-engine-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-alarm-controller-api-openapi.yml
+- filename: thingsboard-api-key-controller-api-openapi.yml
   format: yaml
-  label: ThingsBoard Rule Engine API
-  slug: thingsboard-rule-engine-api
+  label: ThingsBoard api-key-controller API
+  slug: thingsboard-api-key-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-rule-engine-openapi.yml
-- filename: thingsboard-rpc-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-api-key-controller-api-openapi.yml
+- filename: thingsboard-asset-controller-api-openapi.yml
   format: yaml
-  label: ThingsBoard RPC API
-  slug: thingsboard-rpc-api
+  label: ThingsBoard asset-controller API
+  slug: thingsboard-asset-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-rpc-openapi.yml
-- filename: thingsboard-dashboards-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-asset-controller-api-openapi.yml
+- filename: thingsboard-asset-profile-controller-api-openapi.yml
   format: yaml
-  label: ThingsBoard Dashboards API
-  slug: thingsboard-dashboards-api
+  label: ThingsBoard asset-profile-controller API
+  slug: thingsboard-asset-profile-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-dashboards-openapi.yml
-- filename: thingsboard-auth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-asset-profile-controller-api-openapi.yml
+- filename: thingsboard-audit-log-controller-api-openapi.yml
   format: yaml
-  label: ThingsBoard Authentication API
-  slug: thingsboard-auth-api
+  label: ThingsBoard audit-log-controller API
+  slug: thingsboard-audit-log-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-auth-openapi.yml
-- filename: thingsboard-tenants-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-audit-log-controller-api-openapi.yml
+- filename: thingsboard-auth-controller-api-openapi.yml
   format: yaml
-  label: ThingsBoard Tenants and Customers API
-  slug: thingsboard-tenants-api
+  label: ThingsBoard auth-controller API
+  slug: thingsboard-auth-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-tenants-openapi.yml
-- filename: thingsboard-admin-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-auth-controller-api-openapi.yml
+- filename: thingsboard-calculated-field-controller-api-openapi.yml
   format: yaml
-  label: ThingsBoard Admin API
-  slug: thingsboard-admin-api
+  label: ThingsBoard calculated-field-controller API
+  slug: thingsboard-calculated-field-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-admin-openapi.yml
-- filename: thingsboard-notifications-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-calculated-field-controller-api-openapi.yml
+- filename: thingsboard-component-descriptor-controller-api-openapi.yml
   format: yaml
-  label: ThingsBoard Notifications API
-  slug: thingsboard-notifications-api
+  label: ThingsBoard component-descriptor-controller API
+  slug: thingsboard-component-descriptor-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-notifications-openapi.yml
-- filename: thingsboard-edge-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-component-descriptor-controller-api-openapi.yml
+- filename: thingsboard-customer-controller-api-openapi.yml
   format: yaml
-  label: ThingsBoard Edge API
-  slug: thingsboard-edge-api
+  label: ThingsBoard customer-controller API
+  slug: thingsboard-customer-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-edge-openapi.yml
-- filename: thingsboard-mobile-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-customer-controller-api-openapi.yml
+- filename: thingsboard-dashboard-controller-api-openapi.yml
   format: yaml
-  label: ThingsBoard Mobile App API
-  slug: thingsboard-mobile-api
+  label: ThingsBoard dashboard-controller API
+  slug: thingsboard-dashboard-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-mobile-openapi.yml
-- filename: thingsboard-lwm2m-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-dashboard-controller-api-openapi.yml
+- filename: thingsboard-device-connectivity-controller-api-openapi.yml
   format: yaml
-  label: ThingsBoard LwM2M API
-  slug: thingsboard-lwm2m-api
+  label: ThingsBoard device-connectivity-controller API
+  slug: thingsboard-device-connectivity-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-lwm2m-openapi.yml
-- filename: thingsboard-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-device-connectivity-controller-api-openapi.yml
+- filename: thingsboard-device-controller-api-openapi.yml
   format: yaml
-  label: ThingsBoard AI API
-  slug: thingsboard-ai-api
+  label: ThingsBoard device-controller API
+  slug: thingsboard-device-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-device-controller-api-openapi.yml
+- filename: thingsboard-device-profile-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard device-profile-controller API
+  slug: thingsboard-device-profile-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-device-profile-controller-api-openapi.yml
+- filename: thingsboard-domain-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard domain-controller API
+  slug: thingsboard-domain-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-domain-controller-api-openapi.yml
+- filename: thingsboard-edge-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard edge-controller API
+  slug: thingsboard-edge-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-edge-controller-api-openapi.yml
+- filename: thingsboard-edge-event-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard edge-event-controller API
+  slug: thingsboard-edge-event-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-edge-event-controller-api-openapi.yml
+- filename: thingsboard-entities-version-control-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard entities-version-control-controller API
+  slug: thingsboard-entities-version-control-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-entities-version-control-controller-api-openapi.yml
+- filename: thingsboard-entity-query-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard entity-query-controller API
+  slug: thingsboard-entity-query-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-entity-query-controller-api-openapi.yml
+- filename: thingsboard-entity-relation-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard entity-relation-controller API
+  slug: thingsboard-entity-relation-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-entity-relation-controller-api-openapi.yml
+- filename: thingsboard-entity-view-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard entity-view-controller API
+  slug: thingsboard-entity-view-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-entity-view-controller-api-openapi.yml
+- filename: thingsboard-event-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard event-controller API
+  slug: thingsboard-event-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-event-controller-api-openapi.yml
+- filename: thingsboard-image-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard image-controller API
+  slug: thingsboard-image-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-image-controller-api-openapi.yml
+- filename: thingsboard-job-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard job-controller API
+  slug: thingsboard-job-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-job-controller-api-openapi.yml
+- filename: thingsboard-login-endpoint-api-openapi.yml
+  format: yaml
+  label: ThingsBoard login-endpoint API
+  slug: thingsboard-login-endpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-login-endpoint-api-openapi.yml
+- filename: thingsboard-lwm-2m-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard lwm-2m-controller API
+  slug: thingsboard-lwm-2m-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-lwm-2m-controller-api-openapi.yml
+- filename: thingsboard-mail-config-template-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard mail-config-template-controller API
+  slug: thingsboard-mail-config-template-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-mail-config-template-controller-api-openapi.yml
+- filename: thingsboard-mobile-app-bundle-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard mobile-app-bundle-controller API
+  slug: thingsboard-mobile-app-bundle-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-mobile-app-bundle-controller-api-openapi.yml
+- filename: thingsboard-mobile-app-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard mobile-app-controller API
+  slug: thingsboard-mobile-app-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-mobile-app-controller-api-openapi.yml
+- filename: thingsboard-notification-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard notification-controller API
+  slug: thingsboard-notification-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-notification-controller-api-openapi.yml
+- filename: thingsboard-notification-rule-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard notification-rule-controller API
+  slug: thingsboard-notification-rule-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-notification-rule-controller-api-openapi.yml
+- filename: thingsboard-notification-target-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard notification-target-controller API
+  slug: thingsboard-notification-target-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-notification-target-controller-api-openapi.yml
+- filename: thingsboard-notification-template-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard notification-template-controller API
+  slug: thingsboard-notification-template-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-notification-template-controller-api-openapi.yml
+- filename: thingsboard-o-auth-2-config-template-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard o-auth-2-config-template-controller API
+  slug: thingsboard-o-auth-2-config-template-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-o-auth-2-config-template-controller-api-openapi.yml
+- filename: thingsboard-o-auth-2-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard o-auth-2-controller API
+  slug: thingsboard-o-auth-2-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-o-auth-2-controller-api-openapi.yml
+- filename: thingsboard-ota-package-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard ota-package-controller API
+  slug: thingsboard-ota-package-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-ota-package-controller-api-openapi.yml
+- filename: thingsboard-qr-code-settings-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard qr-code-settings-controller API
+  slug: thingsboard-qr-code-settings-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-qr-code-settings-controller-api-openapi.yml
+- filename: thingsboard-queue-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard queue-controller API
+  slug: thingsboard-queue-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-queue-controller-api-openapi.yml
+- filename: thingsboard-queue-stats-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard queue-stats-controller API
+  slug: thingsboard-queue-stats-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-queue-stats-controller-api-openapi.yml
+- filename: thingsboard-rpc-v-1-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard rpc-v-1-controller API
+  slug: thingsboard-rpc-v-1-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-rpc-v-1-controller-api-openapi.yml
+- filename: thingsboard-rpc-v-2-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard rpc-v-2-controller API
+  slug: thingsboard-rpc-v-2-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-rpc-v-2-controller-api-openapi.yml
+- filename: thingsboard-rule-chain-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard rule-chain-controller API
+  slug: thingsboard-rule-chain-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-rule-chain-controller-api-openapi.yml
+- filename: thingsboard-rule-engine-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard rule-engine-controller API
+  slug: thingsboard-rule-engine-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-rule-engine-controller-api-openapi.yml
+- filename: thingsboard-sign-up-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard sign-up-controller API
+  slug: thingsboard-sign-up-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-sign-up-controller-api-openapi.yml
+- filename: thingsboard-tb-resource-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard tb-resource-controller API
+  slug: thingsboard-tb-resource-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-tb-resource-controller-api-openapi.yml
+- filename: thingsboard-telemetry-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard telemetry-controller API
+  slug: thingsboard-telemetry-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-telemetry-controller-api-openapi.yml
+- filename: thingsboard-tenant-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard tenant-controller API
+  slug: thingsboard-tenant-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-tenant-controller-api-openapi.yml
+- filename: thingsboard-tenant-profile-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard tenant-profile-controller API
+  slug: thingsboard-tenant-profile-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-tenant-profile-controller-api-openapi.yml
+- filename: thingsboard-trendz-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard trendz-controller API
+  slug: thingsboard-trendz-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-trendz-controller-api-openapi.yml
+- filename: thingsboard-two-factor-auth-config-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard two-factor-auth-config-controller API
+  slug: thingsboard-two-factor-auth-config-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-two-factor-auth-config-controller-api-openapi.yml
+- filename: thingsboard-two-factor-auth-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard two-factor-auth-controller API
+  slug: thingsboard-two-factor-auth-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-two-factor-auth-controller-api-openapi.yml
+- filename: thingsboard-ui-settings-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard ui-settings-controller API
+  slug: thingsboard-ui-settings-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-ui-settings-controller-api-openapi.yml
+- filename: thingsboard-usage-info-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard usage-info-controller API
+  slug: thingsboard-usage-info-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-usage-info-controller-api-openapi.yml
+- filename: thingsboard-user-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard user-controller API
+  slug: thingsboard-user-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-user-controller-api-openapi.yml
+- filename: thingsboard-widget-type-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard widget-type-controller API
+  slug: thingsboard-widget-type-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-widget-type-controller-api-openapi.yml
+- filename: thingsboard-widgets-bundle-controller-api-openapi.yml
+  format: yaml
+  label: ThingsBoard widgets-bundle-controller API
+  slug: thingsboard-widgets-bundle-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/openapi/thingsboard-widgets-bundle-controller-api-openapi.yml
 description: ''
 domains:
 - caa: []

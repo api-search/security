@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yaml
+- filename: sumup-checkouts-api-openapi.yml
   format: yaml
-  label: SumUp REST API
-  slug: sumup-rest-api
+  label: SumUp Checkouts API
+  slug: sumup-checkouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/sumup/sumup-openapi/main/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/openapi/sumup-checkouts-api-openapi.yml
+- filename: sumup-customers-api-openapi.yml
+  format: yaml
+  label: SumUp Customers API
+  slug: sumup-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/openapi/sumup-customers-api-openapi.yml
+- filename: sumup-members-api-openapi.yml
+  format: yaml
+  label: SumUp Members API
+  slug: sumup-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/openapi/sumup-members-api-openapi.yml
+- filename: sumup-memberships-api-openapi.yml
+  format: yaml
+  label: SumUp Memberships API
+  slug: sumup-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/openapi/sumup-memberships-api-openapi.yml
+- filename: sumup-merchants-api-openapi.yml
+  format: yaml
+  label: SumUp Merchants API
+  slug: sumup-merchants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/openapi/sumup-merchants-api-openapi.yml
+- filename: sumup-payouts-api-openapi.yml
+  format: yaml
+  label: SumUp Payouts API
+  slug: sumup-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/openapi/sumup-payouts-api-openapi.yml
+- filename: sumup-readers-api-openapi.yml
+  format: yaml
+  label: SumUp Readers API
+  slug: sumup-readers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/openapi/sumup-readers-api-openapi.yml
+- filename: sumup-receipts-api-openapi.yml
+  format: yaml
+  label: SumUp Receipts API
+  slug: sumup-receipts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/openapi/sumup-receipts-api-openapi.yml
+- filename: sumup-roles-api-openapi.yml
+  format: yaml
+  label: SumUp Roles API
+  slug: sumup-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/openapi/sumup-roles-api-openapi.yml
+- filename: sumup-transactions-api-openapi.yml
+  format: yaml
+  label: SumUp Transactions API
+  slug: sumup-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/openapi/sumup-transactions-api-openapi.yml
 auth_types:
 - http
 - oauth2

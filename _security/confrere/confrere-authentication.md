@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: confrere-video-openapi.yml
+- filename: confrere-room-api-openapi.yml
   format: yaml
-  label: Confrere Video API
-  slug: confrere-video-api
+  label: Confrere Room API
+  slug: confrere-room-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confrere/refs/heads/main/openapi/confrere-video-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/confrere/refs/heads/main/openapi/confrere-room-api-openapi.yml
+- filename: confrere-token-api-openapi.yml
+  format: yaml
+  label: Confrere Token API
+  slug: confrere-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confrere/refs/heads/main/openapi/confrere-token-api-openapi.yml
 auth_types:
 - http
 - apiKey

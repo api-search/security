@@ -1,17 +1,47 @@
 ---
 api_specs:
-- filename: oracle-retail-merchandising-openapi.yml
+- filename: oracle-retail-fulfillment-api-openapi.yml
   format: yaml
-  label: Oracle Retail Merchandising Foundation Cloud Service API
-  slug: oracle-retail-merchandising-foundation-cloud-service-api
+  label: Oracle Retail Fulfillment API
+  slug: oracle-retail-fulfillment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-merchandising-openapi.yml
-- filename: oracle-retail-order-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-fulfillment-api-openapi.yml
+- filename: oracle-retail-inventory-api-openapi.yml
   format: yaml
-  label: Oracle Retail Order Management Suite Cloud Service API
-  slug: oracle-retail-order-management-suite-cloud-service-api
+  label: Oracle Retail Inventory API
+  slug: oracle-retail-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-order-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-inventory-api-openapi.yml
+- filename: oracle-retail-items-api-openapi.yml
+  format: yaml
+  label: Oracle Retail Items API
+  slug: oracle-retail-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-items-api-openapi.yml
+- filename: oracle-retail-orders-api-openapi.yml
+  format: yaml
+  label: Oracle Retail Orders API
+  slug: oracle-retail-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-orders-api-openapi.yml
+- filename: oracle-retail-purchaseorders-api-openapi.yml
+  format: yaml
+  label: Oracle Retail PurchaseOrders API
+  slug: oracle-retail-purchaseorders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-purchaseorders-api-openapi.yml
+- filename: oracle-retail-returns-api-openapi.yml
+  format: yaml
+  label: Oracle Retail Returns API
+  slug: oracle-retail-returns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-returns-api-openapi.yml
+- filename: oracle-retail-suppliers-api-openapi.yml
+  format: yaml
+  label: Oracle Retail Suppliers API
+  slug: oracle-retail-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-suppliers-api-openapi.yml
 description: ''
 domains:
 - caa:

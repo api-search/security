@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: microsoft-excel-graph-api.yaml
+- filename: microsoft-excel-charts-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Excel API
-  slug: microsoft-graph-excel-api
+  label: Microsoft Excel Charts API
+  slug: microsoft-excel-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-graph-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-charts-api-openapi.yml
+- filename: microsoft-excel-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Excel Functions API
+  slug: microsoft-excel-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-functions-api-openapi.yml
+- filename: microsoft-excel-named-items-api-openapi.yml
+  format: yaml
+  label: Microsoft Excel Named Items API
+  slug: microsoft-excel-named-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-named-items-api-openapi.yml
+- filename: microsoft-excel-ranges-api-openapi.yml
+  format: yaml
+  label: Microsoft Excel Ranges API
+  slug: microsoft-excel-ranges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-ranges-api-openapi.yml
+- filename: microsoft-excel-sessions-api-openapi.yml
+  format: yaml
+  label: Microsoft Excel Sessions API
+  slug: microsoft-excel-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-sessions-api-openapi.yml
+- filename: microsoft-excel-table-columns-api-openapi.yml
+  format: yaml
+  label: Microsoft Excel Table Columns API
+  slug: microsoft-excel-table-columns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-table-columns-api-openapi.yml
+- filename: microsoft-excel-table-rows-api-openapi.yml
+  format: yaml
+  label: Microsoft Excel Table Rows API
+  slug: microsoft-excel-table-rows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-table-rows-api-openapi.yml
+- filename: microsoft-excel-tables-api-openapi.yml
+  format: yaml
+  label: Microsoft Excel Tables API
+  slug: microsoft-excel-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-tables-api-openapi.yml
+- filename: microsoft-excel-worksheets-api-openapi.yml
+  format: yaml
+  label: Microsoft Excel Worksheets API
+  slug: microsoft-excel-worksheets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-worksheets-api-openapi.yml
 certifications:
 - SOC 1
 - SOC 2

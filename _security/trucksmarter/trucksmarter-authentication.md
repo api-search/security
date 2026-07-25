@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: trucksmarter-load-posting-openapi.yml
+- filename: trucksmarter-loads-api-openapi.yml
   format: yaml
-  label: TruckSmarter Load Posting API
-  slug: trucksmarter-load-posting-api
+  label: TruckSmarter Loads API
+  slug: trucksmarter-loads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trucksmarter/refs/heads/main/openapi/trucksmarter-load-posting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trucksmarter/refs/heads/main/openapi/trucksmarter-loads-api-openapi.yml
 auth_types:
 - http
 description: Authentication profile for the TruckSmarter Load Posting API (partner API). The published documentation states that all endpoints require an API key passed via the Authorization header as a Bearer token. API keys are issued to partners; no self-serve key provisioning, OAuth, or OpenID Connect surface is published.

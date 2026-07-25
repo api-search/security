@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: rmit-figshare-api.yaml
+- filename: rmit-altmetric-api-openapi.yml
   format: yaml
-  label: RMIT Research Data (Figshare REST API)
-  slug: figshare-api
+  label: RMIT University altmetric API
+  slug: rmit-altmetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/openapi/rmit-figshare-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/openapi/rmit-altmetric-api-openapi.yml
+- filename: rmit-articles-api-openapi.yml
+  format: yaml
+  label: RMIT University articles API
+  slug: rmit-articles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/openapi/rmit-articles-api-openapi.yml
+- filename: rmit-authors-api-openapi.yml
+  format: yaml
+  label: RMIT University authors API
+  slug: rmit-authors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/openapi/rmit-authors-api-openapi.yml
+- filename: rmit-collections-api-openapi.yml
+  format: yaml
+  label: RMIT University collections API
+  slug: rmit-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/openapi/rmit-collections-api-openapi.yml
+- filename: rmit-institutions-api-openapi.yml
+  format: yaml
+  label: RMIT University institutions API
+  slug: rmit-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/openapi/rmit-institutions-api-openapi.yml
+- filename: rmit-oauth-api-openapi.yml
+  format: yaml
+  label: RMIT University oauth API
+  slug: rmit-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/openapi/rmit-oauth-api-openapi.yml
+- filename: rmit-other-api-openapi.yml
+  format: yaml
+  label: RMIT University other API
+  slug: rmit-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/openapi/rmit-other-api-openapi.yml
+- filename: rmit-profiles-api-openapi.yml
+  format: yaml
+  label: RMIT University profiles API
+  slug: rmit-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/openapi/rmit-profiles-api-openapi.yml
+- filename: rmit-projects-api-openapi.yml
+  format: yaml
+  label: RMIT University projects API
+  slug: rmit-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/openapi/rmit-projects-api-openapi.yml
+- filename: rmit-symplectic-api-openapi.yml
+  format: yaml
+  label: RMIT University symplectic API
+  slug: rmit-symplectic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/openapi/rmit-symplectic-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

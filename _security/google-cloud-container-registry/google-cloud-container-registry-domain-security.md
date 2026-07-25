@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-container-registry-blobs-api-openapi.yml
   format: yaml
-  label: Google Cloud Container Registry API
-  slug: google-cloud-container-registry-api
+  label: Google Cloud Container Registry Blobs API
+  slug: google-cloud-container-registry-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-container-registry/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-container-registry/refs/heads/main/openapi/google-cloud-container-registry-blobs-api-openapi.yml
+- filename: google-cloud-container-registry-catalog-api-openapi.yml
+  format: yaml
+  label: Google Cloud Container Registry  Catalog API
+  slug: google-cloud-container-registry-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-container-registry/refs/heads/main/openapi/google-cloud-container-registry-catalog-api-openapi.yml
+- filename: google-cloud-container-registry-manifests-api-openapi.yml
+  format: yaml
+  label: Google Cloud Container Registry Manifests API
+  slug: google-cloud-container-registry-manifests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-container-registry/refs/heads/main/openapi/google-cloud-container-registry-manifests-api-openapi.yml
+- filename: google-cloud-container-registry-tags-api-openapi.yml
+  format: yaml
+  label: Google Cloud Container Registry Tags API
+  slug: google-cloud-container-registry-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-container-registry/refs/heads/main/openapi/google-cloud-container-registry-tags-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: vendr-openapi.yml
+- filename: vendr-catalog-api-openapi.yml
   format: yaml
-  label: Vendr OpenPrice API
-  slug: vendr-openapi
+  label: Vendr Catalog API
+  slug: vendr-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/openapi/vendr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/openapi/vendr-catalog-api-openapi.yml
+- filename: vendr-pricing-api-openapi.yml
+  format: yaml
+  label: Vendr Pricing API
+  slug: vendr-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/openapi/vendr-pricing-api-openapi.yml
+- filename: vendr-scope-api-openapi.yml
+  format: yaml
+  label: Vendr Scope API
+  slug: vendr-scope-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/openapi/vendr-scope-api-openapi.yml
+- filename: vendr-webhooks-api-openapi.yml
+  format: yaml
+  label: Vendr Webhooks API
+  slug: vendr-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/openapi/vendr-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

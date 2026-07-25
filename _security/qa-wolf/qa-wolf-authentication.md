@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: qa-wolf-rest-openapi.yml
+- filename: qa-wolf-ci-api-openapi.yml
   format: yaml
-  label: QA Wolf REST API
-  slug: qa-wolf-rest-api
+  label: QA Wolf CI API
+  slug: qa-wolf-ci-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/openapi/qa-wolf-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/openapi/qa-wolf-ci-api-openapi.yml
+- filename: qa-wolf-webhooks-api-openapi.yml
+  format: yaml
+  label: QA Wolf Webhooks API
+  slug: qa-wolf-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/openapi/qa-wolf-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

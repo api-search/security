@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: labayh-content-openapi.yml
+- filename: labayh-consultants-api-openapi.yml
+  format: yaml
+  label: Labayh Consultants API
+  slug: labayh-consultants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/labayh/refs/heads/main/openapi/labayh-consultants-api-openapi.yml
+- filename: labayh-content-api-openapi.yml
   format: yaml
   label: Labayh Content API
-  slug: content
+  slug: labayh-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/labayh/refs/heads/main/openapi/labayh-content-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/labayh/refs/heads/main/openapi/labayh-content-api-openapi.yml
+- filename: labayh-events-api-openapi.yml
+  format: yaml
+  label: Labayh Events API
+  slug: labayh-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/labayh/refs/heads/main/openapi/labayh-events-api-openapi.yml
+- filename: labayh-meta-api-openapi.yml
+  format: yaml
+  label: Labayh Meta API
+  slug: labayh-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/labayh/refs/heads/main/openapi/labayh-meta-api-openapi.yml
+- filename: labayh-programs-api-openapi.yml
+  format: yaml
+  label: Labayh Programs API
+  slug: labayh-programs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/labayh/refs/heads/main/openapi/labayh-programs-api-openapi.yml
+- filename: labayh-support-groups-api-openapi.yml
+  format: yaml
+  label: Labayh Support Groups API
+  slug: labayh-support-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/labayh/refs/heads/main/openapi/labayh-support-groups-api-openapi.yml
+- filename: labayh-webinars-api-openapi.yml
+  format: yaml
+  label: Labayh Webinars API
+  slug: labayh-webinars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/labayh/refs/heads/main/openapi/labayh-webinars-api-openapi.yml
 auth_types:
 - apiKey
 - http

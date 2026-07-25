@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: capy-inc-captcha-openapi.yml
+- filename: capy-inc-verification-api-openapi.yml
   format: yaml
-  label: Lemin Captcha Verification API
-  slug: lemin-captcha-verification-api
+  label: Capy Inc. Verification API
+  slug: capy-inc-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/openapi/capy-inc-captcha-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/openapi/capy-inc-verification-api-openapi.yml
 description: ''
 domains:
 - caa: []

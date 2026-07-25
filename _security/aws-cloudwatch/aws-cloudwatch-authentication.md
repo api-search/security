@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: aws-cloudwatch-openapi.yml
+- filename: aws-cloudwatch-amazon-cloudwatch-api-api-openapi.yml
   format: yaml
-  label: Amazon CloudWatch API
-  slug: monitoring-api
+  label: Amazon CloudWatch Amazon CloudWatch API API
+  slug: aws-cloudwatch-amazon-cloudwatch-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-cloudwatch/refs/heads/main/openapi/aws-cloudwatch-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aws-cloudwatch/refs/heads/main/openapi/aws-cloudwatch-amazon-cloudwatch-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

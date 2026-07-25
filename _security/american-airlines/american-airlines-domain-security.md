@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: american-airlines-runway-developer-api-openapi.yml
+- filename: american-airlines-bookings-api-openapi.yml
   format: yaml
-  label: American Airlines Runway Developer API
-  slug: runway-developer-api
+  label: American Airlines Bookings API
+  slug: american-airlines-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/american-airlines/refs/heads/main/openapi/american-airlines-runway-developer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/american-airlines/refs/heads/main/openapi/american-airlines-bookings-api-openapi.yml
+- filename: american-airlines-flights-api-openapi.yml
+  format: yaml
+  label: American Airlines Flights API
+  slug: american-airlines-flights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/american-airlines/refs/heads/main/openapi/american-airlines-flights-api-openapi.yml
 description: ''
 domains:
 - caa: []

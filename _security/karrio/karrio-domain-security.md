@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: karrio-openapi.yml
+- filename: karrio-shipments-api-openapi.yml
   format: yaml
-  label: Karrio Shipping API
-  slug: shipping-api
+  label: Karrio Shipments API
+  slug: karrio-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-shipments-api-openapi.yml
 description: ''
 domains:
 - caa: []

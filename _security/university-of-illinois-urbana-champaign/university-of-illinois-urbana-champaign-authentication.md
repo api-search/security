@@ -1,18 +1,78 @@
 ---
 api_key_in: []
 api_specs:
-- filename: university-of-illinois-urbana-champaign-rokwire-core.yaml
+- filename: university-of-illinois-urbana-champaign-admin-api-openapi.yml
   format: yaml
-  label: Rokwire Core Building Block
-  slug: rokwire-core
+  label: University of Illinois Urbana-Champaign Admin API
+  slug: university-of-illinois-urbana-champaign-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/openapi/university-of-illinois-urbana-champaign-rokwire-core.yaml
-- filename: university-of-illinois-urbana-champaign-rokwire-gateway.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/openapi/university-of-illinois-urbana-champaign-admin-api-openapi.yml
+- filename: university-of-illinois-urbana-champaign-bbs-api-openapi.yml
   format: yaml
-  label: Rokwire Gateway Building Block
-  slug: rokwire-gateway
+  label: University of Illinois Urbana-Champaign BBs API
+  slug: university-of-illinois-urbana-champaign-bbs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/openapi/university-of-illinois-urbana-champaign-rokwire-gateway.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/openapi/university-of-illinois-urbana-champaign-bbs-api-openapi.yml
+- filename: university-of-illinois-urbana-champaign-client-api-openapi.yml
+  format: yaml
+  label: University of Illinois Urbana-Champaign Client API
+  slug: university-of-illinois-urbana-champaign-client-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/openapi/university-of-illinois-urbana-champaign-client-api-openapi.yml
+- filename: university-of-illinois-urbana-champaign-default-api-openapi.yml
+  format: yaml
+  label: University of Illinois Urbana-Champaign Default API
+  slug: university-of-illinois-urbana-champaign-default-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/openapi/university-of-illinois-urbana-champaign-default-api-openapi.yml
+- filename: university-of-illinois-urbana-champaign-enc-api-openapi.yml
+  format: yaml
+  label: University of Illinois Urbana-Champaign Enc API
+  slug: university-of-illinois-urbana-champaign-enc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/openapi/university-of-illinois-urbana-champaign-enc-api-openapi.yml
+- filename: university-of-illinois-urbana-champaign-services-api-openapi.yml
+  format: yaml
+  label: University of Illinois Urbana-Champaign Services API
+  slug: university-of-illinois-urbana-champaign-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/openapi/university-of-illinois-urbana-champaign-services-api-openapi.yml
+- filename: university-of-illinois-urbana-champaign-system-api-openapi.yml
+  format: yaml
+  label: University of Illinois Urbana-Champaign System API
+  slug: university-of-illinois-urbana-champaign-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/openapi/university-of-illinois-urbana-champaign-system-api-openapi.yml
+- filename: university-of-illinois-urbana-champaign-third-party-services-api-openapi.yml
+  format: yaml
+  label: University of Illinois Urbana-Champaign Third-Party Services API
+  slug: university-of-illinois-urbana-champaign-third-party-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/openapi/university-of-illinois-urbana-champaign-third-party-services-api-openapi.yml
+- filename: university-of-illinois-urbana-champaign-tps-api-openapi.yml
+  format: yaml
+  label: University of Illinois Urbana-Champaign TPS API
+  slug: university-of-illinois-urbana-champaign-tps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/openapi/university-of-illinois-urbana-champaign-tps-api-openapi.yml
+- filename: university-of-illinois-urbana-champaign-ui-api-openapi.yml
+  format: yaml
+  label: University of Illinois Urbana-Champaign UI API
+  slug: university-of-illinois-urbana-champaign-ui-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/openapi/university-of-illinois-urbana-champaign-ui-api-openapi.yml
+- filename: university-of-illinois-urbana-champaign-version-api-openapi.yml
+  format: yaml
+  label: University of Illinois Urbana-Champaign Version API
+  slug: university-of-illinois-urbana-champaign-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/openapi/university-of-illinois-urbana-champaign-version-api-openapi.yml
+- filename: university-of-illinois-urbana-champaign-well-known-api-openapi.yml
+  format: yaml
+  label: University of Illinois Urbana-Champaign .well Known API
+  slug: university-of-illinois-urbana-champaign-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/openapi/university-of-illinois-urbana-champaign-well-known-api-openapi.yml
 auth_types:
 - http
 description: ''

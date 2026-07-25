@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: planet-labs-data-item-types-api-openapi.yml
+  format: yaml
+  label: Planet Labs Data - Item Types API
+  slug: planet-labs-data-item-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-data-item-types-api-openapi.yml
+- filename: planet-labs-data-items-api-openapi.yml
+  format: yaml
+  label: Planet Labs Data - Items API
+  slug: planet-labs-data-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-data-items-api-openapi.yml
+- filename: planet-labs-data-search-api-openapi.yml
+  format: yaml
+  label: Planet Labs Data - Search API
+  slug: planet-labs-data-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-data-search-api-openapi.yml
+- filename: planet-labs-data-stats-api-openapi.yml
+  format: yaml
+  label: Planet Labs Data - Stats API
+  slug: planet-labs-data-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-data-stats-api-openapi.yml
+- filename: planet-labs-orders-api-openapi.yml
+  format: yaml
+  label: Planet Labs Orders API
+  slug: planet-labs-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-orders-api-openapi.yml
+- filename: planet-labs-subscriptions-api-openapi.yml
+  format: yaml
+  label: Planet Labs Subscriptions API
+  slug: planet-labs-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []

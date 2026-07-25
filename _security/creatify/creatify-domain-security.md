@@ -1,65 +1,65 @@
 ---
 api_specs:
-- filename: creatify-openapi.yml
+- filename: creatify-ai-avatar-api-openapi.yml
   format: yaml
   label: Creatify AI Avatar API
   slug: creatify-ai-avatar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-openapi.yml
-- filename: creatify-openapi.yml
-  format: yaml
-  label: Creatify Link-to-Video API
-  slug: creatify-link-to-video-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-openapi.yml
-- filename: creatify-openapi.yml
-  format: yaml
-  label: Creatify AI Shorts API
-  slug: creatify-ai-shorts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-openapi.yml
-- filename: creatify-openapi.yml
-  format: yaml
-  label: Creatify Custom Templates API
-  slug: creatify-custom-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-openapi.yml
-- filename: creatify-openapi.yml
-  format: yaml
-  label: Creatify Product-to-Video API
-  slug: creatify-product-to-video-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-openapi.yml
-- filename: creatify-openapi.yml
-  format: yaml
-  label: Creatify Text-to-Speech API
-  slug: creatify-text-to-speech-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-openapi.yml
-- filename: creatify-openapi.yml
-  format: yaml
-  label: Creatify Personas API
-  slug: creatify-personas-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-openapi.yml
-- filename: creatify-openapi.yml
-  format: yaml
-  label: Creatify Voices API
-  slug: creatify-voices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-openapi.yml
-- filename: creatify-openapi.yml
-  format: yaml
-  label: Creatify Music API
-  slug: creatify-music-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-openapi.yml
-- filename: creatify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-ai-avatar-api-openapi.yml
+- filename: creatify-ai-editing-api-openapi.yml
   format: yaml
   label: Creatify AI Editing API
   slug: creatify-ai-editing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-ai-editing-api-openapi.yml
+- filename: creatify-ai-shorts-api-openapi.yml
+  format: yaml
+  label: Creatify AI Shorts API
+  slug: creatify-ai-shorts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-ai-shorts-api-openapi.yml
+- filename: creatify-custom-templates-api-openapi.yml
+  format: yaml
+  label: Creatify Custom Templates API
+  slug: creatify-custom-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-custom-templates-api-openapi.yml
+- filename: creatify-link-to-video-api-openapi.yml
+  format: yaml
+  label: Creatify Link-to-Video API
+  slug: creatify-link-to-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-link-to-video-api-openapi.yml
+- filename: creatify-music-api-openapi.yml
+  format: yaml
+  label: Creatify Music API
+  slug: creatify-music-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-music-api-openapi.yml
+- filename: creatify-personas-api-openapi.yml
+  format: yaml
+  label: Creatify Personas API
+  slug: creatify-personas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-personas-api-openapi.yml
+- filename: creatify-product-to-video-api-openapi.yml
+  format: yaml
+  label: Creatify Product-to-Video API
+  slug: creatify-product-to-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-product-to-video-api-openapi.yml
+- filename: creatify-text-to-speech-api-openapi.yml
+  format: yaml
+  label: Creatify Text-to-Speech API
+  slug: creatify-text-to-speech-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-text-to-speech-api-openapi.yml
+- filename: creatify-voices-api-openapi.yml
+  format: yaml
+  label: Creatify Voices API
+  slug: creatify-voices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-voices-api-openapi.yml
 description: ''
 domains:
 - caa: []

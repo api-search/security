@@ -1,84 +1,90 @@
 ---
 api_key_in: []
 api_specs:
-- filename: checkr-openapi.yml
+- filename: checkr-account-api-openapi.yml
   format: yaml
-  label: Checkr Candidates API
-  slug: checkr-candidates-api
+  label: Checkr Account API
+  slug: checkr-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-openapi.yml
-- filename: checkr-openapi.yml
-  format: yaml
-  label: Checkr Invitations API
-  slug: checkr-invitations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-openapi.yml
-- filename: checkr-openapi.yml
-  format: yaml
-  label: Checkr Reports API
-  slug: checkr-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-openapi.yml
-- filename: checkr-openapi.yml
-  format: yaml
-  label: Checkr Screenings API
-  slug: checkr-screenings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-openapi.yml
-- filename: checkr-openapi.yml
-  format: yaml
-  label: Checkr Verifications API
-  slug: checkr-verifications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-openapi.yml
-- filename: checkr-openapi.yml
-  format: yaml
-  label: Checkr Packages API
-  slug: checkr-packages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-openapi.yml
-- filename: checkr-openapi.yml
-  format: yaml
-  label: Checkr Documents API
-  slug: checkr-documents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-openapi.yml
-- filename: checkr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-account-api-openapi.yml
+- filename: checkr-adverse-actions-api-openapi.yml
   format: yaml
   label: Checkr Adverse Actions API
   slug: checkr-adverse-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-openapi.yml
-- filename: checkr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-adverse-actions-api-openapi.yml
+- filename: checkr-candidates-api-openapi.yml
   format: yaml
-  label: Checkr Subscriptions API
-  slug: checkr-subscriptions-api
+  label: Checkr Candidates API
+  slug: checkr-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-openapi.yml
-- filename: checkr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-candidates-api-openapi.yml
+- filename: checkr-continuous-checks-api-openapi.yml
   format: yaml
   label: Checkr Continuous Checks API
   slug: checkr-continuous-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-openapi.yml
-- filename: checkr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-continuous-checks-api-openapi.yml
+- filename: checkr-documents-api-openapi.yml
   format: yaml
-  label: Checkr Nodes and Hierarchy API
-  slug: checkr-nodes-hierarchy-api
+  label: Checkr Documents API
+  slug: checkr-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-openapi.yml
-- filename: checkr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-documents-api-openapi.yml
+- filename: checkr-geos-api-openapi.yml
   format: yaml
   label: Checkr Geos API
   slug: checkr-geos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-openapi.yml
-- filename: checkr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-geos-api-openapi.yml
+- filename: checkr-invitations-api-openapi.yml
+  format: yaml
+  label: Checkr Invitations API
+  slug: checkr-invitations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-invitations-api-openapi.yml
+- filename: checkr-nodes-and-hierarchy-api-openapi.yml
+  format: yaml
+  label: Checkr Nodes and Hierarchy API
+  slug: checkr-nodes-and-hierarchy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-nodes-and-hierarchy-api-openapi.yml
+- filename: checkr-packages-api-openapi.yml
+  format: yaml
+  label: Checkr Packages API
+  slug: checkr-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-packages-api-openapi.yml
+- filename: checkr-reports-api-openapi.yml
+  format: yaml
+  label: Checkr Reports API
+  slug: checkr-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-reports-api-openapi.yml
+- filename: checkr-screenings-api-openapi.yml
+  format: yaml
+  label: Checkr Screenings API
+  slug: checkr-screenings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-screenings-api-openapi.yml
+- filename: checkr-subscriptions-api-openapi.yml
+  format: yaml
+  label: Checkr Subscriptions API
+  slug: checkr-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-subscriptions-api-openapi.yml
+- filename: checkr-verifications-api-openapi.yml
+  format: yaml
+  label: Checkr Verifications API
+  slug: checkr-verifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-verifications-api-openapi.yml
+- filename: checkr-webhooks-api-openapi.yml
   format: yaml
   label: Checkr Webhooks API
   slug: checkr-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/openapi/checkr-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

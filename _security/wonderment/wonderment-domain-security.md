@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: wonderment-openapi.json
-  format: json
-  label: Wonderment API
-  slug: wonderment-api
+- filename: wonderment-delivery-promise-api-openapi.yml
+  format: yaml
+  label: Wonderment Delivery Promise API
+  slug: wonderment-delivery-promise-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wonderment/refs/heads/main/openapi/wonderment-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/wonderment/refs/heads/main/openapi/wonderment-delivery-promise-api-openapi.yml
+- filename: wonderment-reports-api-openapi.yml
+  format: yaml
+  label: Wonderment Reports API
+  slug: wonderment-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wonderment/refs/heads/main/openapi/wonderment-reports-api-openapi.yml
+- filename: wonderment-shipments-api-openapi.yml
+  format: yaml
+  label: Wonderment Shipments API
+  slug: wonderment-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wonderment/refs/heads/main/openapi/wonderment-shipments-api-openapi.yml
 description: ''
 domains:
 - caa: []

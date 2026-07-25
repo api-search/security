@@ -3,12 +3,12 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: microsoft-azure-file-storage-openapi.yml
+- filename: microsoft-azure-file-storage-shares-api-openapi.yml
   format: yaml
-  label: Azure File Storage REST API
-  slug: rest-api
+  label: Azure File Storage Shares API
+  slug: microsoft-azure-file-storage-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-file-storage/refs/heads/main/openapi/microsoft-azure-file-storage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-file-storage/refs/heads/main/openapi/microsoft-azure-file-storage-shares-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

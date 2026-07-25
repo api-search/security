@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: amazon-forecast-openapi.yml
+- filename: amazon-forecast-dataset-groups-api-openapi.yml
   format: yaml
-  label: Amazon Forecast API
-  slug: amazon-forecast-api
+  label: Amazon Forecast Dataset Groups API
+  slug: amazon-forecast-dataset-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/openapi/amazon-forecast-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/openapi/amazon-forecast-dataset-groups-api-openapi.yml
+- filename: amazon-forecast-datasets-api-openapi.yml
+  format: yaml
+  label: Amazon Forecast Datasets API
+  slug: amazon-forecast-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/openapi/amazon-forecast-datasets-api-openapi.yml
+- filename: amazon-forecast-export-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon Forecast Export Jobs API
+  slug: amazon-forecast-export-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/openapi/amazon-forecast-export-jobs-api-openapi.yml
+- filename: amazon-forecast-forecasts-api-openapi.yml
+  format: yaml
+  label: Amazon Forecast Forecasts API
+  slug: amazon-forecast-forecasts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/openapi/amazon-forecast-forecasts-api-openapi.yml
+- filename: amazon-forecast-predictors-api-openapi.yml
+  format: yaml
+  label: Amazon Forecast Predictors API
+  slug: amazon-forecast-predictors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/openapi/amazon-forecast-predictors-api-openapi.yml
+- filename: amazon-forecast-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Forecast Tags API
+  slug: amazon-forecast-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/openapi/amazon-forecast-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

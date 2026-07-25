@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: opslevel-openapi.yml
+- filename: opslevel-graphql-api-openapi.yml
   format: yaml
   label: OpsLevel GraphQL API
-  slug: graphql-api
+  slug: opslevel-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opslevel/refs/heads/main/openapi/opslevel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/opslevel/refs/heads/main/openapi/opslevel-graphql-api-openapi.yml
 description: ''
 domains:
 - caa: []

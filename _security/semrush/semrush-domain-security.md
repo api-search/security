@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: semrush-openapi.yml
+- filename: semrush-hermes-partner-api-api-openapi.yml
   format: yaml
-  label: Semrush
-  slug: semrush
+  label: Semrush Hermes Partner API API
+  slug: semrush-hermes-partner-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semrush/refs/heads/main/openapi/semrush-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/semrush/refs/heads/main/openapi/semrush-hermes-partner-api-api-openapi.yml
+- filename: semrush-jwt-issuer-api-openapi.yml
+  format: yaml
+  label: Semrush JWT Issuer API
+  slug: semrush-jwt-issuer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/semrush/refs/heads/main/openapi/semrush-jwt-issuer-api-openapi.yml
+- filename: semrush-partner-service-api-openapi.yml
+  format: yaml
+  label: Semrush Partner Service API
+  slug: semrush-partner-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/semrush/refs/heads/main/openapi/semrush-partner-service-api-openapi.yml
 description: ''
 domains:
 - caa:

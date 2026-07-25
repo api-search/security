@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: sequin-io-openapi.yml
-  format: yaml
-  label: Sequin Sink Consumers API
-  slug: sequin-io-sink-consumers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/openapi/sequin-io-openapi.yml
-- filename: sequin-io-openapi.yml
-  format: yaml
-  label: Sequin Postgres Databases API
-  slug: sequin-io-postgres-databases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/openapi/sequin-io-openapi.yml
-- filename: sequin-io-openapi.yml
-  format: yaml
-  label: Sequin HTTP Endpoints API
-  slug: sequin-io-http-endpoints-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/openapi/sequin-io-openapi.yml
-- filename: sequin-io-openapi.yml
+- filename: sequin-io-backfills-api-openapi.yml
   format: yaml
   label: Sequin Backfills API
   slug: sequin-io-backfills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/openapi/sequin-io-openapi.yml
-- filename: sequin-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/openapi/sequin-io-backfills-api-openapi.yml
+- filename: sequin-io-http-endpoints-api-openapi.yml
+  format: yaml
+  label: Sequin HTTP Endpoints API
+  slug: sequin-io-http-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/openapi/sequin-io-http-endpoints-api-openapi.yml
+- filename: sequin-io-postgres-databases-api-openapi.yml
+  format: yaml
+  label: Sequin Postgres Databases API
+  slug: sequin-io-postgres-databases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/openapi/sequin-io-postgres-databases-api-openapi.yml
+- filename: sequin-io-sink-consumers-api-openapi.yml
+  format: yaml
+  label: Sequin Sink Consumers API
+  slug: sequin-io-sink-consumers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/openapi/sequin-io-sink-consumers-api-openapi.yml
+- filename: sequin-io-stream-pull-api-openapi.yml
   format: yaml
   label: Sequin Stream Pull API
   slug: sequin-io-stream-pull-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/openapi/sequin-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/openapi/sequin-io-stream-pull-api-openapi.yml
 description: ''
 domains:
 - caa: []

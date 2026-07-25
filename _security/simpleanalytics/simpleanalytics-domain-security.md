@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: simpleanalytics-openapi.yml
-  format: yaml
-  label: Simple Analytics Stats API
-  slug: simpleanalytics-stats-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/openapi/simpleanalytics-openapi.yml
-- filename: simpleanalytics-openapi.yml
-  format: yaml
-  label: Simple Analytics Export API
-  slug: simpleanalytics-export-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/openapi/simpleanalytics-openapi.yml
-- filename: simpleanalytics-openapi.yml
+- filename: simpleanalytics-events-api-openapi.yml
   format: yaml
   label: Simple Analytics Events API
   slug: simpleanalytics-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/openapi/simpleanalytics-openapi.yml
-- filename: simpleanalytics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/openapi/simpleanalytics-events-api-openapi.yml
+- filename: simpleanalytics-export-api-openapi.yml
+  format: yaml
+  label: Simple Analytics Export API
+  slug: simpleanalytics-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/openapi/simpleanalytics-export-api-openapi.yml
+- filename: simpleanalytics-stats-api-openapi.yml
+  format: yaml
+  label: Simple Analytics Stats API
+  slug: simpleanalytics-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/openapi/simpleanalytics-stats-api-openapi.yml
+- filename: simpleanalytics-websites-api-openapi.yml
   format: yaml
   label: Simple Analytics Websites API
   slug: simpleanalytics-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/openapi/simpleanalytics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/openapi/simpleanalytics-websites-api-openapi.yml
 description: ''
 domains:
 - caa:

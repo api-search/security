@@ -2,48 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: horizon-blockchain-games-indexer-openapi-original.json
-  format: json
-  label: Sequence Indexer API
-  slug: sequence-indexer-api
+- filename: horizon-blockchain-games-analytics-api-openapi.yml
+  format: yaml
+  label: Horizon Blockchain Games Analytics API
+  slug: horizon-blockchain-games-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-indexer-openapi-original.json
-- filename: horizon-blockchain-games-metadata-openapi-original.json
-  format: json
-  label: Sequence Metadata API
-  slug: sequence-metadata-api
+  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-analytics-api-openapi.yml
+- filename: horizon-blockchain-games-marketplace-api-openapi.yml
+  format: yaml
+  label: Horizon Blockchain Games Marketplace API
+  slug: horizon-blockchain-games-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-metadata-openapi-original.json
-- filename: horizon-blockchain-games-marketplace-openapi-original.json
-  format: json
-  label: Sequence Marketplace API
-  slug: sequence-marketplace-api
+  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-marketplace-api-openapi.yml
+- filename: horizon-blockchain-games-public-api-openapi.yml
+  format: yaml
+  label: Horizon Blockchain Games public API
+  slug: horizon-blockchain-games-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-marketplace-openapi-original.json
-- filename: horizon-blockchain-games-transactions-openapi-original.json
-  format: json
-  label: Sequence Transactions (Relayer) API
-  slug: sequence-transactions-relayer-api
+  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-public-api-openapi.yml
+- filename: horizon-blockchain-games-rpc-api-openapi.yml
+  format: yaml
+  label: Horizon Blockchain Games Rpc API
+  slug: horizon-blockchain-games-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-transactions-openapi-original.json
-- filename: horizon-blockchain-games-analytics-openapi-original.json
-  format: json
-  label: Sequence Analytics API
-  slug: sequence-analytics-api
+  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-rpc-api-openapi.yml
+- filename: horizon-blockchain-games-secret-api-openapi.yml
+  format: yaml
+  label: Horizon Blockchain Games secret API
+  slug: horizon-blockchain-games-secret-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-analytics-openapi-original.json
-- filename: horizon-blockchain-games-builder-openapi-original.json
-  format: json
-  label: Sequence Builder API
-  slug: sequence-builder-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-builder-openapi-original.json
-- filename: horizon-blockchain-games-infrastructure-openapi-original.json
-  format: json
-  label: Sequence API (Infrastructure)
-  slug: sequence-api-infrastructure
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-infrastructure-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-secret-api-openapi.yml
 auth_types:
 - apiKey
 - http

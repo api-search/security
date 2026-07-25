@@ -1,29 +1,17 @@
 ---
 api_specs:
-- filename: sieve-openapi.yml
-  format: yaml
-  label: Sieve Jobs Push API
-  slug: sieve-jobs-push-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sieve/refs/heads/main/openapi/sieve-openapi.yml
-- filename: sieve-openapi.yml
-  format: yaml
-  label: Sieve Jobs Status API
-  slug: sieve-jobs-status-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sieve/refs/heads/main/openapi/sieve-openapi.yml
-- filename: sieve-openapi.yml
+- filename: sieve-functions-api-openapi.yml
   format: yaml
   label: Sieve Functions API
   slug: sieve-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sieve/refs/heads/main/openapi/sieve-openapi.yml
-- filename: sieve-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sieve/refs/heads/main/openapi/sieve-functions-api-openapi.yml
+- filename: sieve-jobs-api-openapi.yml
   format: yaml
-  label: Sieve Webhooks API
-  slug: sieve-webhooks-api
+  label: Sieve Jobs API
+  slug: sieve-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sieve/refs/heads/main/openapi/sieve-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sieve/refs/heads/main/openapi/sieve-jobs-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: ceramic.yaml
+- filename: ceramic-config-api-openapi.yml
   format: yaml
-  label: Ceramic HTTP API
-  slug: ceramic-http-api
+  label: Ceramic Config API
+  slug: ceramic-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/ceramicnetwork/rust-ceramic/main/api/ceramic.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/openapi/ceramic-config-api-openapi.yml
+- filename: ceramic-debug-api-openapi.yml
+  format: yaml
+  label: Ceramic Debug API
+  slug: ceramic-debug-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/openapi/ceramic-debug-api-openapi.yml
+- filename: ceramic-events-api-openapi.yml
+  format: yaml
+  label: Ceramic Events API
+  slug: ceramic-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/openapi/ceramic-events-api-openapi.yml
+- filename: ceramic-experimental-api-openapi.yml
+  format: yaml
+  label: Ceramic Experimental API
+  slug: ceramic-experimental-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/openapi/ceramic-experimental-api-openapi.yml
+- filename: ceramic-feed-api-openapi.yml
+  format: yaml
+  label: Ceramic Feed API
+  slug: ceramic-feed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/openapi/ceramic-feed-api-openapi.yml
+- filename: ceramic-interests-api-openapi.yml
+  format: yaml
+  label: Ceramic Interests API
+  slug: ceramic-interests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/openapi/ceramic-interests-api-openapi.yml
+- filename: ceramic-liveness-api-openapi.yml
+  format: yaml
+  label: Ceramic Liveness API
+  slug: ceramic-liveness-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/openapi/ceramic-liveness-api-openapi.yml
+- filename: ceramic-peers-api-openapi.yml
+  format: yaml
+  label: Ceramic Peers API
+  slug: ceramic-peers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/openapi/ceramic-peers-api-openapi.yml
+- filename: ceramic-streams-api-openapi.yml
+  format: yaml
+  label: Ceramic Streams API
+  slug: ceramic-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/openapi/ceramic-streams-api-openapi.yml
+- filename: ceramic-version-api-openapi.yml
+  format: yaml
+  label: Ceramic Version API
+  slug: ceramic-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/openapi/ceramic-version-api-openapi.yml
 description: ''
 domains:
 - caa: []

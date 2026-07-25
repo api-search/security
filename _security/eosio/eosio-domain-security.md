@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: eosio-nodeos-chain-api-openapi.yml
+- filename: eosio-get-abi-api-openapi.yml
   format: yaml
-  label: EOSIO Nodeos Chain API
-  slug: nodeos-chain-api
+  label: EOSIO Get Abi API
+  slug: eosio-get-abi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/openapi/eosio-nodeos-chain-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/openapi/eosio-get-abi-api-openapi.yml
+- filename: eosio-get-account-api-openapi.yml
+  format: yaml
+  label: EOSIO Get Account API
+  slug: eosio-get-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/openapi/eosio-get-account-api-openapi.yml
+- filename: eosio-get-block-api-openapi.yml
+  format: yaml
+  label: EOSIO Get Block API
+  slug: eosio-get-block-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/openapi/eosio-get-block-api-openapi.yml
+- filename: eosio-get-code-api-openapi.yml
+  format: yaml
+  label: EOSIO Get Code API
+  slug: eosio-get-code-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/openapi/eosio-get-code-api-openapi.yml
+- filename: eosio-get-currency-balance-api-openapi.yml
+  format: yaml
+  label: EOSIO Get Currency Balance API
+  slug: eosio-get-currency-balance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/openapi/eosio-get-currency-balance-api-openapi.yml
+- filename: eosio-get-info-api-openapi.yml
+  format: yaml
+  label: EOSIO Get Info API
+  slug: eosio-get-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/openapi/eosio-get-info-api-openapi.yml
+- filename: eosio-get-required-keys-api-openapi.yml
+  format: yaml
+  label: EOSIO Get Required Keys API
+  slug: eosio-get-required-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/openapi/eosio-get-required-keys-api-openapi.yml
+- filename: eosio-get-table-rows-api-openapi.yml
+  format: yaml
+  label: EOSIO Get Table Rows API
+  slug: eosio-get-table-rows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/openapi/eosio-get-table-rows-api-openapi.yml
+- filename: eosio-push-transaction-api-openapi.yml
+  format: yaml
+  label: EOSIO Push Transaction API
+  slug: eosio-push-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/openapi/eosio-push-transaction-api-openapi.yml
+- filename: eosio-send-transaction-api-openapi.yml
+  format: yaml
+  label: EOSIO Send Transaction API
+  slug: eosio-send-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/openapi/eosio-send-transaction-api-openapi.yml
 description: ''
 domains:
 - caa: []

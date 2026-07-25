@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: geotab-data-intake-gateway-openapi.yml
+- filename: geotab-authentication-api-openapi.yml
   format: yaml
-  label: Data Intake Gateway API
-  slug: data-intake-gateway
+  label: Geotab Authentication API
+  slug: geotab-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geotab/refs/heads/main/openapi/geotab-data-intake-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/geotab/refs/heads/main/openapi/geotab-authentication-api-openapi.yml
+- filename: geotab-invalid-records-api-openapi.yml
+  format: yaml
+  label: Geotab Invalid Records API
+  slug: geotab-invalid-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geotab/refs/heads/main/openapi/geotab-invalid-records-api-openapi.yml
+- filename: geotab-records-api-openapi.yml
+  format: yaml
+  label: Geotab Records API
+  slug: geotab-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geotab/refs/heads/main/openapi/geotab-records-api-openapi.yml
 auth_types:
 - http
 description: ''

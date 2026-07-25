@@ -1,11 +1,131 @@
 ---
 api_specs:
-- filename: yodlee-core-openapi.yml
+- filename: yodlee-account-token-api-openapi.yml
   format: yaml
-  label: Yodlee Core API
-  slug: yodlee-core-api
+  label: Yodlee Account Token API
+  slug: yodlee-account-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-core-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-account-token-api-openapi.yml
+- filename: yodlee-accounts-api-openapi.yml
+  format: yaml
+  label: Yodlee Accounts API
+  slug: yodlee-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-accounts-api-openapi.yml
+- filename: yodlee-auth-api-openapi.yml
+  format: yaml
+  label: Yodlee Auth API
+  slug: yodlee-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-auth-api-openapi.yml
+- filename: yodlee-cobrand-api-openapi.yml
+  format: yaml
+  label: Yodlee Cobrand API
+  slug: yodlee-cobrand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-cobrand-api-openapi.yml
+- filename: yodlee-configs-api-openapi.yml
+  format: yaml
+  label: Yodlee Configs API
+  slug: yodlee-configs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-configs-api-openapi.yml
+- filename: yodlee-consents-api-openapi.yml
+  format: yaml
+  label: Yodlee Consents API
+  slug: yodlee-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-consents-api-openapi.yml
+- filename: yodlee-dataextracts-api-openapi.yml
+  format: yaml
+  label: Yodlee DataExtracts API
+  slug: yodlee-dataextracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-dataextracts-api-openapi.yml
+- filename: yodlee-derived-api-openapi.yml
+  format: yaml
+  label: Yodlee Derived API
+  slug: yodlee-derived-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-derived-api-openapi.yml
+- filename: yodlee-documents-api-openapi.yml
+  format: yaml
+  label: Yodlee Documents API
+  slug: yodlee-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-documents-api-openapi.yml
+- filename: yodlee-holdings-api-openapi.yml
+  format: yaml
+  label: Yodlee Holdings API
+  slug: yodlee-holdings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-holdings-api-openapi.yml
+- filename: yodlee-institutions-api-openapi.yml
+  format: yaml
+  label: Yodlee Institutions API
+  slug: yodlee-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-institutions-api-openapi.yml
+- filename: yodlee-payment-processor-api-openapi.yml
+  format: yaml
+  label: Yodlee Payment Processor API
+  slug: yodlee-payment-processor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-payment-processor-api-openapi.yml
+- filename: yodlee-provideraccounts-api-openapi.yml
+  format: yaml
+  label: Yodlee ProviderAccounts API
+  slug: yodlee-provideraccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-provideraccounts-api-openapi.yml
+- filename: yodlee-providers-api-openapi.yml
+  format: yaml
+  label: Yodlee Providers API
+  slug: yodlee-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-providers-api-openapi.yml
+- filename: yodlee-risk-analytics-api-openapi.yml
+  format: yaml
+  label: Yodlee Risk Analytics API
+  slug: yodlee-risk-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-risk-analytics-api-openapi.yml
+- filename: yodlee-statements-api-openapi.yml
+  format: yaml
+  label: Yodlee Statements API
+  slug: yodlee-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-statements-api-openapi.yml
+- filename: yodlee-transactions-api-openapi.yml
+  format: yaml
+  label: Yodlee Transactions API
+  slug: yodlee-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-transactions-api-openapi.yml
+- filename: yodlee-user-api-openapi.yml
+  format: yaml
+  label: Yodlee User API
+  slug: yodlee-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-user-api-openapi.yml
+- filename: yodlee-user-documents-api-openapi.yml
+  format: yaml
+  label: Yodlee User Documents API
+  slug: yodlee-user-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-user-documents-api-openapi.yml
+- filename: yodlee-verification-api-openapi.yml
+  format: yaml
+  label: Yodlee Verification API
+  slug: yodlee-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-verification-api-openapi.yml
+- filename: yodlee-verify-account-api-openapi.yml
+  format: yaml
+  label: Yodlee Verify Account API
+  slug: yodlee-verify-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-verify-account-api-openapi.yml
 description: ''
 domains:
 - caa: []

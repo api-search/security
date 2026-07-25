@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi.yaml
+- filename: amazon-launch-wizard-deployments-api-openapi.yml
   format: yaml
-  label: AWS Launch Wizard API
-  slug: aws-launch-wizard-api
+  label: Amazon Launch Wizard Deployments API
+  slug: amazon-launch-wizard-deployments-api
   spec_type: OpenAPI
-  url: https://api.apis.guru/v2/specs/amazonaws.com/launchwizard/2018-05-10/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-launch-wizard/refs/heads/main/openapi/amazon-launch-wizard-deployments-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

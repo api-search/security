@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: curated-for-you-openapi-original.yml
+- filename: curated-for-you-chronicle-api-openapi.yml
   format: yaml
-  label: Curated for You API
-  slug: curated-for-you-api
+  label: Curated for You Chronicle API
+  slug: curated-for-you-chronicle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/openapi/curated-for-you-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/openapi/curated-for-you-chronicle-api-openapi.yml
+- filename: curated-for-you-companies-api-openapi.yml
+  format: yaml
+  label: Curated for You Companies API
+  slug: curated-for-you-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/openapi/curated-for-you-companies-api-openapi.yml
+- filename: curated-for-you-curations-api-openapi.yml
+  format: yaml
+  label: Curated for You Curations API
+  slug: curated-for-you-curations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/openapi/curated-for-you-curations-api-openapi.yml
+- filename: curated-for-you-feedback-api-openapi.yml
+  format: yaml
+  label: Curated for You Feedback API
+  slug: curated-for-you-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/openapi/curated-for-you-feedback-api-openapi.yml
+- filename: curated-for-you-shopify-api-openapi.yml
+  format: yaml
+  label: Curated for You shopify API
+  slug: curated-for-you-shopify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/openapi/curated-for-you-shopify-api-openapi.yml
+- filename: curated-for-you-users-api-openapi.yml
+  format: yaml
+  label: Curated for You Users API
+  slug: curated-for-you-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/openapi/curated-for-you-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

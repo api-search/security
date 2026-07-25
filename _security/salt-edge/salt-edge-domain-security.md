@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: salt-edge-openapi.yml
+- filename: salt-edge-accounts-api-openapi.yml
   format: yaml
-  label: Salt Edge Account Information API
-  slug: account-information-api
+  label: Salt Edge Accounts API
+  slug: salt-edge-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/openapi/salt-edge-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/openapi/salt-edge-accounts-api-openapi.yml
+- filename: salt-edge-connect-sessions-api-openapi.yml
+  format: yaml
+  label: Salt Edge Connect Sessions API
+  slug: salt-edge-connect-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/openapi/salt-edge-connect-sessions-api-openapi.yml
+- filename: salt-edge-connections-api-openapi.yml
+  format: yaml
+  label: Salt Edge Connections API
+  slug: salt-edge-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/openapi/salt-edge-connections-api-openapi.yml
+- filename: salt-edge-consents-api-openapi.yml
+  format: yaml
+  label: Salt Edge Consents API
+  slug: salt-edge-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/openapi/salt-edge-consents-api-openapi.yml
+- filename: salt-edge-countries-api-openapi.yml
+  format: yaml
+  label: Salt Edge Countries API
+  slug: salt-edge-countries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/openapi/salt-edge-countries-api-openapi.yml
+- filename: salt-edge-customers-api-openapi.yml
+  format: yaml
+  label: Salt Edge Customers API
+  slug: salt-edge-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/openapi/salt-edge-customers-api-openapi.yml
+- filename: salt-edge-holder-info-api-openapi.yml
+  format: yaml
+  label: Salt Edge Holder Info API
+  slug: salt-edge-holder-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/openapi/salt-edge-holder-info-api-openapi.yml
+- filename: salt-edge-providers-api-openapi.yml
+  format: yaml
+  label: Salt Edge Providers API
+  slug: salt-edge-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/openapi/salt-edge-providers-api-openapi.yml
+- filename: salt-edge-transactions-api-openapi.yml
+  format: yaml
+  label: Salt Edge Transactions API
+  slug: salt-edge-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/openapi/salt-edge-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:

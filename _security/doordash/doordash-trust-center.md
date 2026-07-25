@@ -1,35 +1,77 @@
 ---
 api_specs:
-- filename: doordash-drive-openapi.yml
+- filename: doordash-addresses-api-openapi.yml
   format: yaml
-  label: DoorDash Drive API
-  slug: drive-api
+  label: doordash Addresses API
+  slug: doordash-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/doordash-drive-openapi.yml
-- filename: doordash-drive-classic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/doordash-addresses-api-openapi.yml
+- filename: doordash-businesses-api-openapi.yml
   format: yaml
-  label: DoorDash Drive Classic API
-  slug: drive-classic-api
+  label: doordash Businesses API
+  slug: doordash-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/doordash-drive-classic-openapi.yml
-- filename: doordash-marketplace-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/doordash-businesses-api-openapi.yml
+- filename: doordash-catalog-api-openapi.yml
   format: yaml
-  label: DoorDash Marketplace API
-  slug: marketplace-api
+  label: doordash Catalog API
+  slug: doordash-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/doordash-marketplace-openapi.yml
-- filename: doordash-item-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/doordash-catalog-api-openapi.yml
+- filename: doordash-deliveries-api-openapi.yml
   format: yaml
-  label: DoorDash Item Management API
-  slug: marketplace-item-management-api
+  label: doordash Deliveries API
+  slug: doordash-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/doordash-item-management-openapi.yml
-- filename: doordash-reporting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/doordash-deliveries-api-openapi.yml
+- filename: doordash-inventory-api-openapi.yml
   format: yaml
-  label: DoorDash Reporting API
-  slug: reporting-api
+  label: doordash Inventory API
+  slug: doordash-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/doordash-reporting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/doordash-inventory-api-openapi.yml
+- filename: doordash-items-api-openapi.yml
+  format: yaml
+  label: doordash Items API
+  slug: doordash-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/doordash-items-api-openapi.yml
+- filename: doordash-menus-api-openapi.yml
+  format: yaml
+  label: doordash Menus API
+  slug: doordash-menus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/doordash-menus-api-openapi.yml
+- filename: doordash-orders-api-openapi.yml
+  format: yaml
+  label: doordash Orders API
+  slug: doordash-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/doordash-orders-api-openapi.yml
+- filename: doordash-promotions-api-openapi.yml
+  format: yaml
+  label: doordash Promotions API
+  slug: doordash-promotions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/doordash-promotions-api-openapi.yml
+- filename: doordash-quotes-api-openapi.yml
+  format: yaml
+  label: doordash Quotes API
+  slug: doordash-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/doordash-quotes-api-openapi.yml
+- filename: doordash-reports-api-openapi.yml
+  format: yaml
+  label: doordash Reports API
+  slug: doordash-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/doordash-reports-api-openapi.yml
+- filename: doordash-stores-api-openapi.yml
+  format: yaml
+  label: doordash Stores API
+  slug: doordash-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/doordash-stores-api-openapi.yml
 certifications:
 - SOC 2
 - PCI DSS

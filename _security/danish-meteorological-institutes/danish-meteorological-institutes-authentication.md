@@ -2,12 +2,30 @@
 api_key_in:
 - query
 api_specs:
-- filename: dmi-open-data-api-openapi.yml
+- filename: danish-meteorological-institutes-climatedata-api-openapi.yml
   format: yaml
-  label: DMI Open Data API
-  slug: dmi-open-data-api
+  label: Danish Meteorological Institutes climateData API
+  slug: danish-meteorological-institutes-climatedata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/openapi/dmi-open-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/openapi/danish-meteorological-institutes-climatedata-api-openapi.yml
+- filename: danish-meteorological-institutes-lightningdata-api-openapi.yml
+  format: yaml
+  label: Danish Meteorological Institutes lightningData API
+  slug: danish-meteorological-institutes-lightningdata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/openapi/danish-meteorological-institutes-lightningdata-api-openapi.yml
+- filename: danish-meteorological-institutes-metobs-api-openapi.yml
+  format: yaml
+  label: Danish Meteorological Institutes metObs API
+  slug: danish-meteorological-institutes-metobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/openapi/danish-meteorological-institutes-metobs-api-openapi.yml
+- filename: danish-meteorological-institutes-oceanobs-api-openapi.yml
+  format: yaml
+  label: Danish Meteorological Institutes oceanObs API
+  slug: danish-meteorological-institutes-oceanobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/openapi/danish-meteorological-institutes-oceanobs-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

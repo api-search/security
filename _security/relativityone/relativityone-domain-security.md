@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: relativityone-legal-hold-openapi.yml
+- filename: relativityone-communications-api-openapi.yml
   format: yaml
-  label: Legal Hold API
-  slug: legal-hold-api
+  label: RelativityOne Communications API
+  slug: relativityone-communications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-legal-hold-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-communications-api-openapi.yml
+- filename: relativityone-custodians-api-openapi.yml
+  format: yaml
+  label: RelativityOne Custodians API
+  slug: relativityone-custodians-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-custodians-api-openapi.yml
+- filename: relativityone-entities-api-openapi.yml
+  format: yaml
+  label: RelativityOne Entities API
+  slug: relativityone-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-entities-api-openapi.yml
+- filename: relativityone-legal-hold-projects-api-openapi.yml
+  format: yaml
+  label: RelativityOne Legal Hold Projects API
+  slug: relativityone-legal-hold-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-legal-hold-projects-api-openapi.yml
+- filename: relativityone-preservation-api-openapi.yml
+  format: yaml
+  label: RelativityOne Preservation API
+  slug: relativityone-preservation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-preservation-api-openapi.yml
+- filename: relativityone-tasks-api-openapi.yml
+  format: yaml
+  label: RelativityOne Tasks API
+  slug: relativityone-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-tasks-api-openapi.yml
 description: ''
 domains:
 - caa:

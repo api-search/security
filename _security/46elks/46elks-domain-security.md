@@ -1,41 +1,35 @@
 ---
 api_specs:
-- filename: 46elks-openapi.yml
+- filename: 46elks-calls-api-openapi.yml
   format: yaml
-  label: 46elks SMS API
-  slug: 46elks-sms-api
+  label: 46elks Calls API
+  slug: 46elks-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/openapi/46elks-openapi.yml
-- filename: 46elks-openapi.yml
-  format: yaml
-  label: 46elks MMS API
-  slug: 46elks-mms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/openapi/46elks-openapi.yml
-- filename: 46elks-openapi.yml
-  format: yaml
-  label: 46elks Voice Calls API
-  slug: 46elks-voice-calls-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/openapi/46elks-openapi.yml
-- filename: 46elks-openapi.yml
-  format: yaml
-  label: 46elks Phone Numbers API
-  slug: 46elks-phone-numbers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/openapi/46elks-openapi.yml
-- filename: 46elks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/openapi/46elks-calls-api-openapi.yml
+- filename: 46elks-media-api-openapi.yml
   format: yaml
   label: 46elks Media API
   slug: 46elks-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/openapi/46elks-openapi.yml
-- filename: 46elks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/openapi/46elks-media-api-openapi.yml
+- filename: 46elks-mms-api-openapi.yml
   format: yaml
-  label: 46elks Verification API
-  slug: 46elks-verification-api
+  label: 46elks MMS API
+  slug: 46elks-mms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/openapi/46elks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/openapi/46elks-mms-api-openapi.yml
+- filename: 46elks-numbers-api-openapi.yml
+  format: yaml
+  label: 46elks Numbers API
+  slug: 46elks-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/openapi/46elks-numbers-api-openapi.yml
+- filename: 46elks-sms-api-openapi.yml
+  format: yaml
+  label: 46elks SMS API
+  slug: 46elks-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/openapi/46elks-sms-api-openapi.yml
 description: ''
 domains:
 - caa: []

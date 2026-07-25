@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: topi-seller-api-openapi-original.yaml
+- filename: topi-catalog-api-openapi.yml
   format: yaml
-  label: topi Seller API
-  slug: topi-seller-api
+  label: Topi catalog API
+  slug: topi-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-seller-api-openapi-original.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-catalog-api-openapi.yml
+- filename: topi-offer-api-openapi.yml
+  format: yaml
+  label: Topi offer API
+  slug: topi-offer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-offer-api-openapi.yml
+- filename: topi-order-api-openapi.yml
+  format: yaml
+  label: Topi order API
+  slug: topi-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-order-api-openapi.yml
+- filename: topi-shipment-api-openapi.yml
+  format: yaml
+  label: Topi shipment API
+  slug: topi-shipment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-shipment-api-openapi.yml
+- filename: topi-shippingmethod-api-openapi.yml
+  format: yaml
+  label: Topi shippingMethod API
+  slug: topi-shippingmethod-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-shippingmethod-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,17 +1,131 @@
 ---
 api_specs:
-- filename: devoted-health-patient-access-openapi-original.json
-  format: json
-  label: Devoted Health Patient Access API
-  slug: devoted-health-patient-access-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-patient-access-openapi-original.json
-- filename: devoted-health-provider-directory-openapi-original.yml
+- filename: devoted-health-codesystem-api-openapi.yml
   format: yaml
-  label: Devoted Health Provider Directory & Formulary API
-  slug: devoted-health-provider-directory-formulary-api
+  label: Devoted Health CodeSystem API
+  slug: devoted-health-codesystem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-provider-directory-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-codesystem-api-openapi.yml
+- filename: devoted-health-condition-api-openapi.yml
+  format: yaml
+  label: Devoted Health Condition API
+  slug: devoted-health-condition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-condition-api-openapi.yml
+- filename: devoted-health-encounter-api-openapi.yml
+  format: yaml
+  label: Devoted Health Encounter API
+  slug: devoted-health-encounter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-encounter-api-openapi.yml
+- filename: devoted-health-explanationofbenefit-api-openapi.yml
+  format: yaml
+  label: Devoted Health ExplanationOfBenefit API
+  slug: devoted-health-explanationofbenefit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-explanationofbenefit-api-openapi.yml
+- filename: devoted-health-healthcareservice-api-openapi.yml
+  format: yaml
+  label: Devoted Health HealthcareService API
+  slug: devoted-health-healthcareservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-healthcareservice-api-openapi.yml
+- filename: devoted-health-insuranceplan-api-openapi.yml
+  format: yaml
+  label: Devoted Health InsurancePlan API
+  slug: devoted-health-insuranceplan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-insuranceplan-api-openapi.yml
+- filename: devoted-health-list-api-openapi.yml
+  format: yaml
+  label: Devoted Health List API
+  slug: devoted-health-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-list-api-openapi.yml
+- filename: devoted-health-location-api-openapi.yml
+  format: yaml
+  label: Devoted Health Location API
+  slug: devoted-health-location-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-location-api-openapi.yml
+- filename: devoted-health-medication-api-openapi.yml
+  format: yaml
+  label: Devoted Health Medication API
+  slug: devoted-health-medication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-medication-api-openapi.yml
+- filename: devoted-health-medicationknowledge-api-openapi.yml
+  format: yaml
+  label: Devoted Health MedicationKnowledge API
+  slug: devoted-health-medicationknowledge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-medicationknowledge-api-openapi.yml
+- filename: devoted-health-operationdefinition-api-openapi.yml
+  format: yaml
+  label: Devoted Health OperationDefinition API
+  slug: devoted-health-operationdefinition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-operationdefinition-api-openapi.yml
+- filename: devoted-health-organization-api-openapi.yml
+  format: yaml
+  label: Devoted Health Organization API
+  slug: devoted-health-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-organization-api-openapi.yml
+- filename: devoted-health-organizationaffiliation-api-openapi.yml
+  format: yaml
+  label: Devoted Health OrganizationAffiliation API
+  slug: devoted-health-organizationaffiliation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-organizationaffiliation-api-openapi.yml
+- filename: devoted-health-patient-api-openapi.yml
+  format: yaml
+  label: Devoted Health Patient API
+  slug: devoted-health-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-patient-api-openapi.yml
+- filename: devoted-health-practitioner-api-openapi.yml
+  format: yaml
+  label: Devoted Health Practitioner API
+  slug: devoted-health-practitioner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-practitioner-api-openapi.yml
+- filename: devoted-health-practitionerrole-api-openapi.yml
+  format: yaml
+  label: Devoted Health PractitionerRole API
+  slug: devoted-health-practitionerrole-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-practitionerrole-api-openapi.yml
+- filename: devoted-health-searchparameter-api-openapi.yml
+  format: yaml
+  label: Devoted Health SearchParameter API
+  slug: devoted-health-searchparameter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-searchparameter-api-openapi.yml
+- filename: devoted-health-structuredefinition-api-openapi.yml
+  format: yaml
+  label: Devoted Health StructureDefinition API
+  slug: devoted-health-structuredefinition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-structuredefinition-api-openapi.yml
+- filename: devoted-health-subscription-api-openapi.yml
+  format: yaml
+  label: Devoted Health Subscription API
+  slug: devoted-health-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-subscription-api-openapi.yml
+- filename: devoted-health-system-level-operations-api-openapi.yml
+  format: yaml
+  label: Devoted Health System Level Operations API
+  slug: devoted-health-system-level-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-system-level-operations-api-openapi.yml
+- filename: devoted-health-valueset-api-openapi.yml
+  format: yaml
+  label: Devoted Health ValueSet API
+  slug: devoted-health-valueset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-valueset-api-openapi.yml
 description: ''
 domains:
 - caa:

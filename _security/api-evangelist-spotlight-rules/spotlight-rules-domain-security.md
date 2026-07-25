@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: spotlight-rules-openapi.yml
+- filename: spotlight-rules-rules-api-openapi.yml
   format: yaml
-  label: Spotlight Rules Feed
-  slug: spotlight-rules
+  label: Spotlight Rules Rules API
+  slug: spotlight-rules-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-spotlight-rules/refs/heads/main/openapi/spotlight-rules-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-spotlight-rules/refs/heads/main/openapi/spotlight-rules-rules-api-openapi.yml
 description: ''
 domains:
 - caa: []

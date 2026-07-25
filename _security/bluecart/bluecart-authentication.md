@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: bluecart-openapi.yml
+- filename: bluecart-catalogs-api-openapi.yml
   format: yaml
-  label: BlueCart API
-  slug: rest-api
+  label: BlueCart Catalogs API
+  slug: bluecart-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/openapi/bluecart-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/openapi/bluecart-catalogs-api-openapi.yml
+- filename: bluecart-clients-api-openapi.yml
+  format: yaml
+  label: BlueCart Clients API
+  slug: bluecart-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/openapi/bluecart-clients-api-openapi.yml
+- filename: bluecart-orders-api-openapi.yml
+  format: yaml
+  label: BlueCart Orders API
+  slug: bluecart-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/openapi/bluecart-orders-api-openapi.yml
+- filename: bluecart-products-api-openapi.yml
+  format: yaml
+  label: BlueCart Products API
+  slug: bluecart-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/openapi/bluecart-products-api-openapi.yml
+- filename: bluecart-users-api-openapi.yml
+  format: yaml
+  label: BlueCart Users API
+  slug: bluecart-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/openapi/bluecart-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

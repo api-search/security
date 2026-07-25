@@ -1,18 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: numlookupapi-openapi.yml
+- filename: numlookupapi-account-api-openapi.yml
   format: yaml
-  label: NumLookupAPI Phone Number Validation API
-  slug: numlookupapi-phone-validation-api
+  label: NumLookupAPI Account API
+  slug: numlookupapi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numlookupapi/refs/heads/main/openapi/numlookupapi-openapi.yml
-- filename: numlookupapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/numlookupapi/refs/heads/main/openapi/numlookupapi-account-api-openapi.yml
+- filename: numlookupapi-validation-api-openapi.yml
   format: yaml
-  label: NumLookupAPI Account Status API
-  slug: numlookupapi-account-status-api
+  label: NumLookupAPI Validation API
+  slug: numlookupapi-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numlookupapi/refs/heads/main/openapi/numlookupapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/numlookupapi/refs/heads/main/openapi/numlookupapi-validation-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

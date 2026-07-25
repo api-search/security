@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: infra-openapi-original.json
-  format: json
-  label: Infra API
-  slug: infra-api
+- filename: infra-authentication-api-openapi.yml
+  format: yaml
+  label: Infra Authentication API
+  slug: infra-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/openapi/infra-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/openapi/infra-authentication-api-openapi.yml
+- filename: infra-destinations-api-openapi.yml
+  format: yaml
+  label: Infra Destinations API
+  slug: infra-destinations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/openapi/infra-destinations-api-openapi.yml
+- filename: infra-grants-api-openapi.yml
+  format: yaml
+  label: Infra Grants API
+  slug: infra-grants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/openapi/infra-grants-api-openapi.yml
+- filename: infra-groups-api-openapi.yml
+  format: yaml
+  label: Infra Groups API
+  slug: infra-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/openapi/infra-groups-api-openapi.yml
+- filename: infra-organizations-api-openapi.yml
+  format: yaml
+  label: Infra Organizations API
+  slug: infra-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/openapi/infra-organizations-api-openapi.yml
+- filename: infra-providers-api-openapi.yml
+  format: yaml
+  label: Infra Providers API
+  slug: infra-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/openapi/infra-providers-api-openapi.yml
+- filename: infra-settings-api-openapi.yml
+  format: yaml
+  label: Infra Settings API
+  slug: infra-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/openapi/infra-settings-api-openapi.yml
+- filename: infra-users-api-openapi.yml
+  format: yaml
+  label: Infra Users API
+  slug: infra-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/openapi/infra-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

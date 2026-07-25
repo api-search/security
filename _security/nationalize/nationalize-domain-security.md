@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: nationalize-openapi.json
-  format: json
-  label: Nationalize.io API
-  slug: nationalize-api
+- filename: nationalize-nationality-api-openapi.yml
+  format: yaml
+  label: Nationalize.io Nationality API
+  slug: nationalize-nationality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nationalize/refs/heads/main/openapi/nationalize-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/nationalize/refs/heads/main/openapi/nationalize-nationality-api-openapi.yml
 description: ''
 domains:
 - caa: []

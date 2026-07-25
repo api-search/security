@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: toys-r-us-commerce-openapi.yml
+- filename: toys-r-us-acknowledgements-api-openapi.yml
   format: yaml
-  label: Toys R Us Commerce API
-  slug: logicbroker-commerce
+  label: Toys R Us Acknowledgements API
+  slug: toys-r-us-acknowledgements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/openapi/toys-r-us-commerce-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/openapi/toys-r-us-acknowledgements-api-openapi.yml
+- filename: toys-r-us-invoices-api-openapi.yml
+  format: yaml
+  label: Toys R Us Invoices API
+  slug: toys-r-us-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/openapi/toys-r-us-invoices-api-openapi.yml
+- filename: toys-r-us-orders-api-openapi.yml
+  format: yaml
+  label: Toys R Us Orders API
+  slug: toys-r-us-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/openapi/toys-r-us-orders-api-openapi.yml
+- filename: toys-r-us-products-api-openapi.yml
+  format: yaml
+  label: Toys R Us Products API
+  slug: toys-r-us-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/openapi/toys-r-us-products-api-openapi.yml
+- filename: toys-r-us-shipments-api-openapi.yml
+  format: yaml
+  label: Toys R Us Shipments API
+  slug: toys-r-us-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/openapi/toys-r-us-shipments-api-openapi.yml
 description: ''
 domains:
 - caa: []

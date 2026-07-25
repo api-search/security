@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cloudflare-turnstile-verification-api-openapi.yml
+  format: yaml
+  label: Cloudflare Turnstile Verification API
+  slug: cloudflare-turnstile-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-turnstile/refs/heads/main/openapi/cloudflare-turnstile-verification-api-openapi.yml
 description: ''
 domains:
 - caa:

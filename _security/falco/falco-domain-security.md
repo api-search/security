@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: falco-openapi.yml
+- filename: falco-health-api-openapi.yml
   format: yaml
-  label: Falco HTTP API
-  slug: falco-http-api
+  label: Falco Health API
+  slug: falco-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falco/refs/heads/main/openapi/falco-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/falco/refs/heads/main/openapi/falco-health-api-openapi.yml
+- filename: falco-rules-api-openapi.yml
+  format: yaml
+  label: Falco Rules API
+  slug: falco-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/falco/refs/heads/main/openapi/falco-rules-api-openapi.yml
+- filename: falco-version-api-openapi.yml
+  format: yaml
+  label: Falco Version API
+  slug: falco-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/falco/refs/heads/main/openapi/falco-version-api-openapi.yml
 description: ''
 domains:
 - caa: []

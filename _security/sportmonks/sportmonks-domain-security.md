@@ -1,17 +1,71 @@
 ---
 api_specs:
-- filename: sportmonks-football-openapi.yml
-  format: yaml
-  label: Sportmonks Football API
-  slug: football-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/openapi/sportmonks-football-openapi.yml
 - filename: postman.yaml
   format: yaml
   label: Sportmonks Cricket API
   slug: cricket-api
   spec_type: Postman
   url: https://cricket-postman.sportmonks.com/
+- filename: sportmonks-fixtures-api-openapi.yml
+  format: yaml
+  label: Sportmonks Fixtures API
+  slug: sportmonks-fixtures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/openapi/sportmonks-fixtures-api-openapi.yml
+- filename: sportmonks-leagues-api-openapi.yml
+  format: yaml
+  label: Sportmonks Leagues API
+  slug: sportmonks-leagues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/openapi/sportmonks-leagues-api-openapi.yml
+- filename: sportmonks-livescores-api-openapi.yml
+  format: yaml
+  label: Sportmonks Livescores API
+  slug: sportmonks-livescores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/openapi/sportmonks-livescores-api-openapi.yml
+- filename: sportmonks-odds-api-openapi.yml
+  format: yaml
+  label: Sportmonks Odds API
+  slug: sportmonks-odds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/openapi/sportmonks-odds-api-openapi.yml
+- filename: sportmonks-players-api-openapi.yml
+  format: yaml
+  label: Sportmonks Players API
+  slug: sportmonks-players-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/openapi/sportmonks-players-api-openapi.yml
+- filename: sportmonks-predictions-api-openapi.yml
+  format: yaml
+  label: Sportmonks Predictions API
+  slug: sportmonks-predictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/openapi/sportmonks-predictions-api-openapi.yml
+- filename: sportmonks-schedules-api-openapi.yml
+  format: yaml
+  label: Sportmonks Schedules API
+  slug: sportmonks-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/openapi/sportmonks-schedules-api-openapi.yml
+- filename: sportmonks-seasons-api-openapi.yml
+  format: yaml
+  label: Sportmonks Seasons API
+  slug: sportmonks-seasons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/openapi/sportmonks-seasons-api-openapi.yml
+- filename: sportmonks-standings-api-openapi.yml
+  format: yaml
+  label: Sportmonks Standings API
+  slug: sportmonks-standings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/openapi/sportmonks-standings-api-openapi.yml
+- filename: sportmonks-teams-api-openapi.yml
+  format: yaml
+  label: Sportmonks Teams API
+  slug: sportmonks-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/openapi/sportmonks-teams-api-openapi.yml
 description: ''
 domains:
 - caa: []

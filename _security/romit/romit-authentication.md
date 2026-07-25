@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: romit-openapi.yml
+- filename: romit-application-api-openapi.yml
   format: yaml
-  label: Romit API
-  slug: romit-api
+  label: Romit Application API
+  slug: romit-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-application-api-openapi.yml
+- filename: romit-banking-api-openapi.yml
+  format: yaml
+  label: Romit Banking API
+  slug: romit-banking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-banking-api-openapi.yml
+- filename: romit-identity-api-openapi.yml
+  format: yaml
+  label: Romit Identity API
+  slug: romit-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-identity-api-openapi.yml
+- filename: romit-invoice-api-openapi.yml
+  format: yaml
+  label: Romit Invoice API
+  slug: romit-invoice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-invoice-api-openapi.yml
+- filename: romit-oauth-api-openapi.yml
+  format: yaml
+  label: Romit OAuth API
+  slug: romit-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-oauth-api-openapi.yml
+- filename: romit-plan-api-openapi.yml
+  format: yaml
+  label: Romit Plan API
+  slug: romit-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-plan-api-openapi.yml
+- filename: romit-subscription-api-openapi.yml
+  format: yaml
+  label: Romit Subscription API
+  slug: romit-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-subscription-api-openapi.yml
+- filename: romit-transfer-api-openapi.yml
+  format: yaml
+  label: Romit Transfer API
+  slug: romit-transfer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-transfer-api-openapi.yml
+- filename: romit-user-api-openapi.yml
+  format: yaml
+  label: Romit User API
+  slug: romit-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-user-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

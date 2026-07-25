@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: lootrush-openapi-original.json
-  format: json
-  label: LootRush Partner API
-  slug: lootrush-partner-api
+- filename: lootrush-connect-api-openapi.yml
+  format: yaml
+  label: LootRush Connect API
+  slug: lootrush-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/openapi/lootrush-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/openapi/lootrush-connect-api-openapi.yml
+- filename: lootrush-history-api-openapi.yml
+  format: yaml
+  label: LootRush History API
+  slug: lootrush-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/openapi/lootrush-history-api-openapi.yml
+- filename: lootrush-mcp-api-openapi.yml
+  format: yaml
+  label: LootRush MCP API
+  slug: lootrush-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/openapi/lootrush-mcp-api-openapi.yml
+- filename: lootrush-withdrawals-api-openapi.yml
+  format: yaml
+  label: LootRush Withdrawals API
+  slug: lootrush-withdrawals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/openapi/lootrush-withdrawals-api-openapi.yml
 description: ''
 domains:
 - caa: []

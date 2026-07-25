@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: fumadocs-search-openapi.yml
+- filename: fumadocs-proxy-api-openapi.yml
+  format: yaml
+  label: Fumadocs Proxy API
+  slug: fumadocs-proxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fumadocs/refs/heads/main/openapi/fumadocs-proxy-api-openapi.yml
+- filename: fumadocs-search-api-openapi.yml
   format: yaml
   label: Fumadocs Search API
-  slug: search-api
+  slug: fumadocs-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fumadocs/refs/heads/main/openapi/fumadocs-search-openapi.yml
-- filename: fumadocs-openapi-proxy-openapi.yml
-  format: yaml
-  label: Fumadocs OpenAPI Proxy API
-  slug: openapi-proxy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fumadocs/refs/heads/main/openapi/fumadocs-openapi-proxy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fumadocs/refs/heads/main/openapi/fumadocs-search-api-openapi.yml
 description: ''
 domains:
 - caa:

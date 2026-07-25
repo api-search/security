@@ -1,35 +1,41 @@
 ---
 api_specs:
-- filename: captivate-fm-openapi.yml
-  format: yaml
-  label: Captivate Users API
-  slug: captivate-fm-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-openapi.yml
-- filename: captivate-fm-openapi.yml
-  format: yaml
-  label: Captivate Shows API
-  slug: captivate-fm-shows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-openapi.yml
-- filename: captivate-fm-openapi.yml
-  format: yaml
-  label: Captivate Episodes API
-  slug: captivate-fm-episodes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-openapi.yml
-- filename: captivate-fm-openapi.yml
-  format: yaml
-  label: Captivate Media API
-  slug: captivate-fm-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-openapi.yml
-- filename: captivate-fm-openapi.yml
+- filename: captivate-fm-analytics-api-openapi.yml
   format: yaml
   label: Captivate Analytics API
   slug: captivate-fm-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-analytics-api-openapi.yml
+- filename: captivate-fm-authentication-api-openapi.yml
+  format: yaml
+  label: Captivate Authentication API
+  slug: captivate-fm-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-authentication-api-openapi.yml
+- filename: captivate-fm-episodes-api-openapi.yml
+  format: yaml
+  label: Captivate Episodes API
+  slug: captivate-fm-episodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-episodes-api-openapi.yml
+- filename: captivate-fm-media-api-openapi.yml
+  format: yaml
+  label: Captivate Media API
+  slug: captivate-fm-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-media-api-openapi.yml
+- filename: captivate-fm-shows-api-openapi.yml
+  format: yaml
+  label: Captivate Shows API
+  slug: captivate-fm-shows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-shows-api-openapi.yml
+- filename: captivate-fm-users-api-openapi.yml
+  format: yaml
+  label: Captivate Users API
+  slug: captivate-fm-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

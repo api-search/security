@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: bot-butcher-openapi.yml
+- filename: bot-butcher-classification-api-openapi.yml
   format: yaml
   label: Bot Butcher Classification API
   slug: bot-butcher-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/openapi/bot-butcher-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/openapi/bot-butcher-classification-api-openapi.yml
+- filename: bot-butcher-classification-api-openapi.yml
+  format: yaml
+  label: Bot Butcher Classification API
+  slug: bot-butcher-classification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/openapi/bot-butcher-classification-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

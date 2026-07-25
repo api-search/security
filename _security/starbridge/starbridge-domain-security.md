@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: starbridge-openapi.json
-  format: json
-  label: Starbridge External Public API
-  slug: starbridge-external-public-api
+- filename: starbridge-bridges-api-openapi.yml
+  format: yaml
+  label: Starbridge Bridges API
+  slug: starbridge-bridges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/openapi/starbridge-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/openapi/starbridge-bridges-api-openapi.yml
+- filename: starbridge-buyer-api-openapi.yml
+  format: yaml
+  label: Starbridge Buyer API
+  slug: starbridge-buyer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/openapi/starbridge-buyer-api-openapi.yml
+- filename: starbridge-columns-api-openapi.yml
+  format: yaml
+  label: Starbridge Columns API
+  slug: starbridge-columns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/openapi/starbridge-columns-api-openapi.yml
+- filename: starbridge-external-api-api-openapi.yml
+  format: yaml
+  label: Starbridge External API API
+  slug: starbridge-external-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/openapi/starbridge-external-api-api-openapi.yml
+- filename: starbridge-external-mcp-api-openapi.yml
+  format: yaml
+  label: Starbridge External MCP API
+  slug: starbridge-external-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/openapi/starbridge-external-mcp-api-openapi.yml
+- filename: starbridge-signal-api-openapi.yml
+  format: yaml
+  label: Starbridge Signal API
+  slug: starbridge-signal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/openapi/starbridge-signal-api-openapi.yml
 description: ''
 domains:
 - caa: []

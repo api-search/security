@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: uberduck-openapi.yml
+- filename: uberduck-conversational-api-openapi.yml
   format: yaml
-  label: Uberduck Text-to-Speech API
-  slug: uberduck-text-to-speech-api
+  label: Uberduck Conversational API
+  slug: uberduck-conversational-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/openapi/uberduck-openapi.yml
-- filename: uberduck-openapi.yml
-  format: yaml
-  label: Uberduck Voices API
-  slug: uberduck-voices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/openapi/uberduck-openapi.yml
-- filename: uberduck-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/openapi/uberduck-conversational-api-openapi.yml
+- filename: uberduck-models-api-openapi.yml
   format: yaml
   label: Uberduck Models API
   slug: uberduck-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/openapi/uberduck-openapi.yml
-- filename: uberduck-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/openapi/uberduck-models-api-openapi.yml
+- filename: uberduck-text-to-speech-api-openapi.yml
   format: yaml
-  label: Uberduck Conversational Voice API
-  slug: uberduck-conversational-voice-api
+  label: Uberduck Text-to-Speech API
+  slug: uberduck-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/openapi/uberduck-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/openapi/uberduck-text-to-speech-api-openapi.yml
+- filename: uberduck-voices-api-openapi.yml
+  format: yaml
+  label: Uberduck Voices API
+  slug: uberduck-voices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/openapi/uberduck-voices-api-openapi.yml
 description: ''
 domains:
 - caa: []

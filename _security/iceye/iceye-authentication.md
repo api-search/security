@@ -1,6 +1,25 @@
 ---
 api_key_in:
 - header
+api_specs:
+- filename: iceye-catalog-api-openapi.yml
+  format: yaml
+  label: ICEYE Catalog API
+  slug: iceye-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/openapi/iceye-catalog-api-openapi.yml
+- filename: iceye-company-api-openapi.yml
+  format: yaml
+  label: ICEYE Company API
+  slug: iceye-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/openapi/iceye-company-api-openapi.yml
+- filename: iceye-tasking-api-openapi.yml
+  format: yaml
+  label: ICEYE Tasking API
+  slug: iceye-tasking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/openapi/iceye-tasking-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

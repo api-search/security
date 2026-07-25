@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: salesforce-flow-rest-api-openapi.yml
+- filename: salesforce-flow-flow-definitions-api-openapi.yml
   format: yaml
-  label: Salesforce Flow REST API
-  slug: salesforce-flow-rest-api
+  label: Salesforce Flow Flow Definitions API
+  slug: salesforce-flow-flow-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/openapi/salesforce-flow-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/openapi/salesforce-flow-flow-definitions-api-openapi.yml
+- filename: salesforce-flow-flow-interviews-api-openapi.yml
+  format: yaml
+  label: Salesforce Flow Flow Interviews API
+  slug: salesforce-flow-flow-interviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/openapi/salesforce-flow-flow-interviews-api-openapi.yml
+- filename: salesforce-flow-invocable-actions-api-openapi.yml
+  format: yaml
+  label: Salesforce Flow Invocable Actions API
+  slug: salesforce-flow-invocable-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/openapi/salesforce-flow-invocable-actions-api-openapi.yml
 auth_types:
 - http
 - oauth2

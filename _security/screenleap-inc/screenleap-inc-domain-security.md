@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: screenleap-inc-screen-sharing-openapi.yml
+- filename: screenleap-inc-screen-shares-api-openapi.yml
   format: yaml
-  label: Screenleap Screen Sharing API
-  slug: screenleap-screen-sharing-api
+  label: Screenleap Inc Screen Shares API
+  slug: screenleap-inc-screen-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenleap-inc/refs/heads/main/openapi/screenleap-inc-screen-sharing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/screenleap-inc/refs/heads/main/openapi/screenleap-inc-screen-shares-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: moonshot-ai-openapi.json
-  format: json
-  label: Moonshot AI Platform API
-  slug: platform
+- filename: moonshot-ai-batch-api-openapi.yml
+  format: yaml
+  label: Moonshot AI Batch API
+  slug: moonshot-ai-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moonshot-ai/refs/heads/main/openapi/moonshot-ai-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/moonshot-ai/refs/heads/main/openapi/moonshot-ai-batch-api-openapi.yml
+- filename: moonshot-ai-billing-api-openapi.yml
+  format: yaml
+  label: Moonshot AI Billing API
+  slug: moonshot-ai-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moonshot-ai/refs/heads/main/openapi/moonshot-ai-billing-api-openapi.yml
+- filename: moonshot-ai-chat-api-openapi.yml
+  format: yaml
+  label: Moonshot AI Chat API
+  slug: moonshot-ai-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moonshot-ai/refs/heads/main/openapi/moonshot-ai-chat-api-openapi.yml
+- filename: moonshot-ai-files-api-openapi.yml
+  format: yaml
+  label: Moonshot AI Files API
+  slug: moonshot-ai-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moonshot-ai/refs/heads/main/openapi/moonshot-ai-files-api-openapi.yml
+- filename: moonshot-ai-models-api-openapi.yml
+  format: yaml
+  label: Moonshot AI Models API
+  slug: moonshot-ai-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moonshot-ai/refs/heads/main/openapi/moonshot-ai-models-api-openapi.yml
+- filename: moonshot-ai-utilities-api-openapi.yml
+  format: yaml
+  label: Moonshot AI Utilities API
+  slug: moonshot-ai-utilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moonshot-ai/refs/heads/main/openapi/moonshot-ai-utilities-api-openapi.yml
 description: ''
 domains:
 - caa: []

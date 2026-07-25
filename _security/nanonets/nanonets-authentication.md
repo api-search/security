@@ -1,30 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: nanonets-ocr-api-openapi.yml
-  format: yaml
-  label: Nanonets OCR API
-  slug: nanonets-ocr-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-ocr-api-openapi.yml
-- filename: nanonets-image-classification-api-openapi.yml
-  format: yaml
-  label: Nanonets Image Classification API
-  slug: nanonets-image-classification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-image-classification-api-openapi.yml
-- filename: nanonets-file-management-api-openapi.yml
-  format: yaml
-  label: Nanonets File Management API
-  slug: nanonets-file-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-file-management-api-openapi.yml
 - filename: nanonets-external-integrations-api-openapi.yml
   format: yaml
   label: Nanonets External Integrations API
   slug: nanonets-external-integrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-external-integrations-api-openapi.yml
+- filename: nanonets-file-assignment-api-openapi.yml
+  format: yaml
+  label: Nanonets File Assignment API
+  slug: nanonets-file-assignment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-file-assignment-api-openapi.yml
+- filename: nanonets-file-delete-api-openapi.yml
+  format: yaml
+  label: Nanonets File Delete API
+  slug: nanonets-file-delete-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-file-delete-api-openapi.yml
+- filename: nanonets-file-export-api-openapi.yml
+  format: yaml
+  label: Nanonets File Export API
+  slug: nanonets-file-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-file-export-api-openapi.yml
+- filename: nanonets-file-review-api-openapi.yml
+  format: yaml
+  label: Nanonets File Review API
+  slug: nanonets-file-review-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-file-review-api-openapi.yml
+- filename: nanonets-file-update-api-openapi.yml
+  format: yaml
+  label: Nanonets File Update API
+  slug: nanonets-file-update-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-file-update-api-openapi.yml
+- filename: nanonets-image-classification-predict-api-openapi.yml
+  format: yaml
+  label: Nanonets Image Classification Predict API
+  slug: nanonets-image-classification-predict-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-image-classification-predict-api-openapi.yml
+- filename: nanonets-ocr-predict-api-openapi.yml
+  format: yaml
+  label: Nanonets OCR Predict API
+  slug: nanonets-ocr-predict-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-ocr-predict-api-openapi.yml
+- filename: nanonets-ocr-retrieve-api-openapi.yml
+  format: yaml
+  label: Nanonets OCR Retrieve API
+  slug: nanonets-ocr-retrieve-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-ocr-retrieve-api-openapi.yml
+- filename: nanonets-ocr-train-api-openapi.yml
+  format: yaml
+  label: Nanonets OCR Train API
+  slug: nanonets-ocr-train-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-ocr-train-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: national-library-of-medicine-openapi.yml
+- filename: national-library-of-medicine-discovery-api-openapi.yml
   format: yaml
-  label: National Library of Medicine E-utilities
-  slug: national-library-of-medicine
+  label: National Library of Medicine Discovery API
+  slug: national-library-of-medicine-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-library-of-medicine/refs/heads/main/openapi/national-library-of-medicine-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/national-library-of-medicine/refs/heads/main/openapi/national-library-of-medicine-discovery-api-openapi.yml
+- filename: national-library-of-medicine-history-api-openapi.yml
+  format: yaml
+  label: National Library of Medicine History API
+  slug: national-library-of-medicine-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-library-of-medicine/refs/heads/main/openapi/national-library-of-medicine-history-api-openapi.yml
+- filename: national-library-of-medicine-retrieve-api-openapi.yml
+  format: yaml
+  label: National Library of Medicine Retrieve API
+  slug: national-library-of-medicine-retrieve-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-library-of-medicine/refs/heads/main/openapi/national-library-of-medicine-retrieve-api-openapi.yml
+- filename: national-library-of-medicine-search-api-openapi.yml
+  format: yaml
+  label: National Library of Medicine Search API
+  slug: national-library-of-medicine-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-library-of-medicine/refs/heads/main/openapi/national-library-of-medicine-search-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: rentle-admin-openapi.json
-  format: json
-  label: Twice Admin API
-  slug: twice-admin-api
+- filename: rentle-api-keys-api-openapi.yml
+  format: yaml
+  label: Rentle API Keys API
+  slug: rentle-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-admin-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-api-keys-api-openapi.yml
+- filename: rentle-categories-api-openapi.yml
+  format: yaml
+  label: Rentle Categories API
+  slug: rentle-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-categories-api-openapi.yml
+- filename: rentle-customers-api-openapi.yml
+  format: yaml
+  label: Rentle Customers API
+  slug: rentle-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-customers-api-openapi.yml
+- filename: rentle-discount-codes-api-openapi.yml
+  format: yaml
+  label: Rentle Discount Codes API
+  slug: rentle-discount-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-discount-codes-api-openapi.yml
+- filename: rentle-inventory-articles-api-openapi.yml
+  format: yaml
+  label: Rentle Inventory Articles API
+  slug: rentle-inventory-articles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-inventory-articles-api-openapi.yml
+- filename: rentle-inventory-skus-api-openapi.yml
+  format: yaml
+  label: Rentle Inventory SKUs API
+  slug: rentle-inventory-skus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-inventory-skus-api-openapi.yml
+- filename: rentle-merchant-api-openapi.yml
+  format: yaml
+  label: Rentle Merchant API
+  slug: rentle-merchant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-merchant-api-openapi.yml
+- filename: rentle-orders-api-openapi.yml
+  format: yaml
+  label: Rentle Orders API
+  slug: rentle-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-orders-api-openapi.yml
+- filename: rentle-products-api-openapi.yml
+  format: yaml
+  label: Rentle Products API
+  slug: rentle-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-products-api-openapi.yml
+- filename: rentle-stores-api-openapi.yml
+  format: yaml
+  label: Rentle Stores API
+  slug: rentle-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-stores-api-openapi.yml
+- filename: rentle-webhooks-api-openapi.yml
+  format: yaml
+  label: Rentle Webhooks API
+  slug: rentle-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

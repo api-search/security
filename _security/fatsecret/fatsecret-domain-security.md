@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: fatsecret-platform-openapi.yml
+- filename: fatsecret-exercise-diary-api-openapi.yml
   format: yaml
-  label: FatSecret Platform API
-  slug: platform-api
+  label: FatSecret Exercise Diary API
+  slug: fatsecret-exercise-diary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-exercise-diary-api-openapi.yml
+- filename: fatsecret-food-diary-api-openapi.yml
+  format: yaml
+  label: FatSecret Food Diary API
+  slug: fatsecret-food-diary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-food-diary-api-openapi.yml
+- filename: fatsecret-foods-api-openapi.yml
+  format: yaml
+  label: FatSecret Foods API
+  slug: fatsecret-foods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-foods-api-openapi.yml
+- filename: fatsecret-profile-foods-api-openapi.yml
+  format: yaml
+  label: FatSecret Profile Foods API
+  slug: fatsecret-profile-foods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-profile-foods-api-openapi.yml
+- filename: fatsecret-profile-meals-api-openapi.yml
+  format: yaml
+  label: FatSecret Profile Meals API
+  slug: fatsecret-profile-meals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-profile-meals-api-openapi.yml
+- filename: fatsecret-recipes-api-openapi.yml
+  format: yaml
+  label: FatSecret Recipes API
+  slug: fatsecret-recipes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-recipes-api-openapi.yml
+- filename: fatsecret-reference-api-openapi.yml
+  format: yaml
+  label: FatSecret Reference API
+  slug: fatsecret-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-reference-api-openapi.yml
+- filename: fatsecret-weight-tracking-api-openapi.yml
+  format: yaml
+  label: FatSecret Weight Tracking API
+  slug: fatsecret-weight-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-weight-tracking-api-openapi.yml
 description: ''
 domains:
 - caa: []

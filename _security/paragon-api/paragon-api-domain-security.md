@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: paragon-api-openapi.yml
-  format: yaml
-  label: Paragon Connect API
-  slug: paragon-connect-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragon-api/refs/heads/main/openapi/paragon-api-openapi.yml
-- filename: paragon-api-openapi.yml
-  format: yaml
-  label: Paragon Workflows API
-  slug: paragon-workflows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragon-api/refs/heads/main/openapi/paragon-api-openapi.yml
-- filename: paragon-api-openapi.yml
+- filename: paragon-api-actionkit-api-openapi.yml
   format: yaml
   label: Paragon ActionKit API
-  slug: paragon-actionkit-api
+  slug: paragon-api-actionkit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragon-api/refs/heads/main/openapi/paragon-api-openapi.yml
-- filename: paragon-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/paragon-api/refs/heads/main/openapi/paragon-api-actionkit-api-openapi.yml
+- filename: paragon-api-connect-api-openapi.yml
+  format: yaml
+  label: Paragon Connect API
+  slug: paragon-api-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paragon-api/refs/heads/main/openapi/paragon-api-connect-api-openapi.yml
+- filename: paragon-api-proxy-api-openapi.yml
   format: yaml
   label: Paragon Proxy API
-  slug: paragon-proxy-api
+  slug: paragon-api-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragon-api/refs/heads/main/openapi/paragon-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/paragon-api/refs/heads/main/openapi/paragon-api-proxy-api-openapi.yml
+- filename: paragon-api-workflows-api-openapi.yml
+  format: yaml
+  label: Paragon Workflows API
+  slug: paragon-api-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paragon-api/refs/heads/main/openapi/paragon-api-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []

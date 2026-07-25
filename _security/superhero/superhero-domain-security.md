@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: superhero-characters-api-openapi.yml
   format: yaml
-  label: Superhero API
-  slug: superhero-api
+  label: Superhero API Characters API
+  slug: superhero-characters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superhero/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/superhero/refs/heads/main/openapi/superhero-characters-api-openapi.yml
+- filename: superhero-search-api-openapi.yml
+  format: yaml
+  label: Superhero API Search API
+  slug: superhero-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superhero/refs/heads/main/openapi/superhero-search-api-openapi.yml
 description: ''
 domains:
 - caa:

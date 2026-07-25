@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: amazon-cloudtrail-openapi.yml
+- filename: amazon-cloudtrail-event-data-stores-api-openapi.yml
   format: yaml
-  label: Amazon CloudTrail API
-  slug: amazon-cloudtrail-api
+  label: Amazon CloudTrail Event Data Stores API
+  slug: amazon-cloudtrail-event-data-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/openapi/amazon-cloudtrail-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/openapi/amazon-cloudtrail-event-data-stores-api-openapi.yml
+- filename: amazon-cloudtrail-events-api-openapi.yml
+  format: yaml
+  label: Amazon CloudTrail Events API
+  slug: amazon-cloudtrail-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/openapi/amazon-cloudtrail-events-api-openapi.yml
+- filename: amazon-cloudtrail-trails-api-openapi.yml
+  format: yaml
+  label: Amazon CloudTrail Trails API
+  slug: amazon-cloudtrail-trails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/openapi/amazon-cloudtrail-trails-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

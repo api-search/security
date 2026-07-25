@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: tollbit-openapi.json
-  format: json
-  label: TollBit API
-  slug: tollbit-api
+- filename: tollbit-auth-tokens-api-openapi.yml
+  format: yaml
+  label: Tollbit Auth Tokens API
+  slug: tollbit-auth-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-auth-tokens-api-openapi.yml
+- filename: tollbit-dev-api-openapi.yml
+  format: yaml
+  label: Tollbit Dev API
+  slug: tollbit-dev-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-dev-api-openapi.yml
+- filename: tollbit-get-catalog-of-pages-for-property-api-openapi.yml
+  format: yaml
+  label: Tollbit Get Catalog of Pages for Property API
+  slug: tollbit-get-catalog-of-pages-for-property-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-get-catalog-of-pages-for-property-api-openapi.yml
+- filename: tollbit-get-tollbit-content-api-openapi.yml
+  format: yaml
+  label: Tollbit Get Tollbit Content API
+  slug: tollbit-get-tollbit-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-get-tollbit-content-api-openapi.yml
+- filename: tollbit-get-tollbit-rates-api-openapi.yml
+  format: yaml
+  label: Tollbit Get Tollbit Rates API
+  slug: tollbit-get-tollbit-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-get-tollbit-rates-api-openapi.yml
+- filename: tollbit-report-content-usage-api-openapi.yml
+  format: yaml
+  label: Tollbit Report Content Usage API
+  slug: tollbit-report-content-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-report-content-usage-api-openapi.yml
+- filename: tollbit-reporting-api-openapi.yml
+  format: yaml
+  label: Tollbit Reporting API
+  slug: tollbit-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-reporting-api-openapi.yml
+- filename: tollbit-search-api-openapi.yml
+  format: yaml
+  label: Tollbit Search API
+  slug: tollbit-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-search-api-openapi.yml
+- filename: tollbit-search-content-api-openapi.yml
+  format: yaml
+  label: Tollbit Search Content API
+  slug: tollbit-search-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-search-content-api-openapi.yml
+- filename: tollbit-tollbit-content-api-openapi.yml
+  format: yaml
+  label: Tollbit Tollbit Content API
+  slug: tollbit-tollbit-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-tollbit-content-api-openapi.yml
+- filename: tollbit-tollbit-subdomain-api-openapi.yml
+  format: yaml
+  label: Tollbit Tollbit Subdomain API
+  slug: tollbit-tollbit-subdomain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-tollbit-subdomain-api-openapi.yml
 description: ''
 domains:
 - caa: []

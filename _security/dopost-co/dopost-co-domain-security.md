@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: dopost-openapi.yml
+- filename: dopost-co-media-api-openapi.yml
   format: yaml
-  label: dopost Social Media Scheduler API
-  slug: dopost-social-media-scheduler-api
+  label: dopost Media API
+  slug: dopost-co-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/openapi/dopost-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/openapi/dopost-co-media-api-openapi.yml
+- filename: dopost-co-posts-api-openapi.yml
+  format: yaml
+  label: dopost Posts API
+  slug: dopost-co-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/openapi/dopost-co-posts-api-openapi.yml
+- filename: dopost-co-social-accounts-api-openapi.yml
+  format: yaml
+  label: dopost Social Accounts API
+  slug: dopost-co-social-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/openapi/dopost-co-social-accounts-api-openapi.yml
 description: ''
 domains:
 - caa: []

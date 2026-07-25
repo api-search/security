@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: navan-openapi.yml
-  format: yaml
-  label: Navan Expense Transactions API
-  slug: navan-expense-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-openapi.yml
-- filename: navan-openapi.yml
-  format: yaml
-  label: Navan Expense Fees and Adjustments API
-  slug: navan-expense-fees-adjustments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-openapi.yml
-- filename: navan-openapi.yml
-  format: yaml
-  label: Navan Expense Receipts API
-  slug: navan-expense-receipts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-openapi.yml
-- filename: navan-openapi.yml
-  format: yaml
-  label: Navan Expense Custom Fields API
-  slug: navan-expense-custom-fields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-openapi.yml
-- filename: navan-openapi.yml
-  format: yaml
-  label: Navan Users API
-  slug: navan-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-openapi.yml
-- filename: navan-openapi.yml
+- filename: navan-bookings-api-openapi.yml
   format: yaml
   label: Navan Bookings API
   slug: navan-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-openapi.yml
-- filename: navan-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-bookings-api-openapi.yml
+- filename: navan-custom-fields-api-openapi.yml
+  format: yaml
+  label: Navan Custom Fields API
+  slug: navan-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-custom-fields-api-openapi.yml
+- filename: navan-fees-and-adjustments-api-openapi.yml
+  format: yaml
+  label: Navan Fees and Adjustments API
+  slug: navan-fees-and-adjustments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-fees-and-adjustments-api-openapi.yml
+- filename: navan-receipts-api-openapi.yml
+  format: yaml
+  label: Navan Receipts API
+  slug: navan-receipts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-receipts-api-openapi.yml
+- filename: navan-transactions-api-openapi.yml
+  format: yaml
+  label: Navan Transactions API
+  slug: navan-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-transactions-api-openapi.yml
+- filename: navan-users-api-openapi.yml
+  format: yaml
+  label: Navan Users API
+  slug: navan-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-users-api-openapi.yml
+- filename: navan-webhooks-api-openapi.yml
   format: yaml
   label: Navan Webhooks API
   slug: navan-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

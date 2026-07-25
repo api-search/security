@@ -2,18 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: seamless-ai-contacts-openapi.yml
-  format: yaml
-  label: Seamless.AI Contacts API
-  slug: seamless-ai-contacts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/seamless-ai-contacts-openapi.yml
-- filename: seamless-ai-companies-openapi.yml
+- filename: seamless-ai-companies-api-openapi.yml
   format: yaml
   label: Seamless.AI Companies API
   slug: seamless-ai-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/seamless-ai-companies-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/seamless-ai-companies-api-openapi.yml
+- filename: seamless-ai-contacts-api-openapi.yml
+  format: yaml
+  label: Seamless.AI Contacts API
+  slug: seamless-ai-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/seamless-ai-contacts-api-openapi.yml
+- filename: seamless-ai-enrichment-api-openapi.yml
+  format: yaml
+  label: Seamless.AI Enrichment API
+  slug: seamless-ai-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/seamless-ai-enrichment-api-openapi.yml
+- filename: seamless-ai-job-changes-api-openapi.yml
+  format: yaml
+  label: Seamless.AI Job Changes API
+  slug: seamless-ai-job-changes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/seamless-ai-job-changes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

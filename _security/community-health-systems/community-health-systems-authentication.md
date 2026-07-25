@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: chs-patient-access-api-openapi.yml
+- filename: community-health-systems-claims-api-openapi.yml
   format: yaml
-  label: Community Health Systems Patient Access API
-  slug: patient-access-api
+  label: Community Health Systems Claims API
+  slug: community-health-systems-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/openapi/chs-patient-access-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/openapi/community-health-systems-claims-api-openapi.yml
+- filename: community-health-systems-formulary-api-openapi.yml
+  format: yaml
+  label: Community Health Systems Formulary API
+  slug: community-health-systems-formulary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/openapi/community-health-systems-formulary-api-openapi.yml
+- filename: community-health-systems-patient-api-openapi.yml
+  format: yaml
+  label: Community Health Systems Patient API
+  slug: community-health-systems-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/openapi/community-health-systems-patient-api-openapi.yml
+- filename: community-health-systems-practitioner-api-openapi.yml
+  format: yaml
+  label: Community Health Systems Practitioner API
+  slug: community-health-systems-practitioner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/openapi/community-health-systems-practitioner-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

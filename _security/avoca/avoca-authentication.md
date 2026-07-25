@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: avoca-openapi-original.json
-  format: json
-  label: Avoca Enterprise API
-  slug: avoca-enterprise-api
+- filename: avoca-analytics-v1-api-openapi.yml
+  format: yaml
+  label: Avoca Analytics (v1) API
+  slug: avoca-analytics-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/openapi/avoca-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/openapi/avoca-analytics-v1-api-openapi.yml
+- filename: avoca-calls-api-openapi.yml
+  format: yaml
+  label: Avoca Calls API
+  slug: avoca-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/openapi/avoca-calls-api-openapi.yml
+- filename: avoca-coach-api-openapi.yml
+  format: yaml
+  label: Avoca Coach API
+  slug: avoca-coach-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/openapi/avoca-coach-api-openapi.yml
+- filename: avoca-leads-api-openapi.yml
+  format: yaml
+  label: Avoca Leads API
+  slug: avoca-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/openapi/avoca-leads-api-openapi.yml
+- filename: avoca-outbound-texting-api-openapi.yml
+  format: yaml
+  label: Avoca Outbound Texting API
+  slug: avoca-outbound-texting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/openapi/avoca-outbound-texting-api-openapi.yml
+- filename: avoca-scheduler-analytics-v0-api-openapi.yml
+  format: yaml
+  label: Avoca Scheduler Analytics (v0) API
+  slug: avoca-scheduler-analytics-v0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/openapi/avoca-scheduler-analytics-v0-api-openapi.yml
+- filename: avoca-sessions-bookings-api-openapi.yml
+  format: yaml
+  label: Avoca Sessions & Bookings API
+  slug: avoca-sessions-bookings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/openapi/avoca-sessions-bookings-api-openapi.yml
+- filename: avoca-teams-api-openapi.yml
+  format: yaml
+  label: Avoca Teams API
+  slug: avoca-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/openapi/avoca-teams-api-openapi.yml
 auth_types:
 - http
 description: ''

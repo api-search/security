@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yml
+- filename: zoho-sheet-workbook-api-openapi.yml
   format: yaml
-  label: Zoho Sheet Data API
-  slug: zoho-sheet-data-api
+  label: Zoho Sheet Workbook API
+  slug: zoho-sheet-workbook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/openapi/zoho-sheet-workbook-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

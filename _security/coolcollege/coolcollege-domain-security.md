@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: coolcollege-openapi-original.json
-  format: json
-  label: 酷学院 REST API (Cool College Open API)
-  slug: 酷学院-rest-api-cool-college-open-api
+- filename: coolcollege-default-api-openapi.yml
+  format: yaml
+  label: 酷学院 (Cool College) 学习 API
+  slug: coolcollege-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolcollege/refs/heads/main/openapi/coolcollege-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/coolcollege/refs/heads/main/openapi/coolcollege-default-api-openapi.yml
+- filename: coolcollege-pet-api-openapi.yml
+  format: yaml
+  label: 酷学院 (Cool College) pet API
+  slug: coolcollege-pet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coolcollege/refs/heads/main/openapi/coolcollege-pet-api-openapi.yml
+- filename: coolcollege-thirdoa-api-openapi.yml
+  format: yaml
+  label: 酷学院 (Cool College) thirdoa API
+  slug: coolcollege-thirdoa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coolcollege/refs/heads/main/openapi/coolcollege-thirdoa-api-openapi.yml
 description: ''
 domains:
 - caa: []

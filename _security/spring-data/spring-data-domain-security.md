@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: spring-data-rest-openapi.yml
+- filename: spring-data-association-api-openapi.yml
   format: yaml
-  label: Spring Data REST
-  slug: spring-data-rest
+  label: Spring Data Association API
+  slug: spring-data-association-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-data/refs/heads/main/openapi/spring-data-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spring-data/refs/heads/main/openapi/spring-data-association-api-openapi.yml
+- filename: spring-data-collection-api-openapi.yml
+  format: yaml
+  label: Spring Data Collection API
+  slug: spring-data-collection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-data/refs/heads/main/openapi/spring-data-collection-api-openapi.yml
+- filename: spring-data-discovery-api-openapi.yml
+  format: yaml
+  label: Spring Data Discovery API
+  slug: spring-data-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-data/refs/heads/main/openapi/spring-data-discovery-api-openapi.yml
+- filename: spring-data-item-api-openapi.yml
+  format: yaml
+  label: Spring Data Item API
+  slug: spring-data-item-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-data/refs/heads/main/openapi/spring-data-item-api-openapi.yml
+- filename: spring-data-profile-api-openapi.yml
+  format: yaml
+  label: Spring Data Profile API
+  slug: spring-data-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-data/refs/heads/main/openapi/spring-data-profile-api-openapi.yml
+- filename: spring-data-search-api-openapi.yml
+  format: yaml
+  label: Spring Data Search API
+  slug: spring-data-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-data/refs/heads/main/openapi/spring-data-search-api-openapi.yml
 description: ''
 domains:
 - caa:

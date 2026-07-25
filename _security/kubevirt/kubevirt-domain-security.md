@@ -1,17 +1,53 @@
 ---
 api_specs:
-- filename: kubevirt-vm-openapi.yml
+- filename: kubevirt-datasources-api-openapi.yml
   format: yaml
-  label: KubeVirt VM Management API
-  slug: kubevirt-api
+  label: KubeVirt DataSources API
+  slug: kubevirt-datasources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-vm-openapi.yml
-- filename: kubevirt-cdi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-datasources-api-openapi.yml
+- filename: kubevirt-datavolumes-api-openapi.yml
   format: yaml
-  label: KubeVirt Containerized Data Importer API
-  slug: kubevirt-cdi-api
+  label: KubeVirt DataVolumes API
+  slug: kubevirt-datavolumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-cdi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-datavolumes-api-openapi.yml
+- filename: kubevirt-storageprofiles-api-openapi.yml
+  format: yaml
+  label: KubeVirt StorageProfiles API
+  slug: kubevirt-storageprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-storageprofiles-api-openapi.yml
+- filename: kubevirt-virtualmachineinstancemigrations-api-openapi.yml
+  format: yaml
+  label: KubeVirt VirtualMachineInstanceMigrations API
+  slug: kubevirt-virtualmachineinstancemigrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-virtualmachineinstancemigrations-api-openapi.yml
+- filename: kubevirt-virtualmachineinstances-api-openapi.yml
+  format: yaml
+  label: KubeVirt VirtualMachineInstances API
+  slug: kubevirt-virtualmachineinstances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-virtualmachineinstances-api-openapi.yml
+- filename: kubevirt-virtualmachines-api-openapi.yml
+  format: yaml
+  label: KubeVirt VirtualMachines API
+  slug: kubevirt-virtualmachines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-virtualmachines-api-openapi.yml
+- filename: kubevirt-vmconsole-api-openapi.yml
+  format: yaml
+  label: KubeVirt VMConsole API
+  slug: kubevirt-vmconsole-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-vmconsole-api-openapi.yml
+- filename: kubevirt-vmlifecycle-api-openapi.yml
+  format: yaml
+  label: KubeVirt VMLifecycle API
+  slug: kubevirt-vmlifecycle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-vmlifecycle-api-openapi.yml
 description: ''
 domains:
 - caa: []

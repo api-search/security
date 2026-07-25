@@ -1,17 +1,77 @@
 ---
 api_specs:
-- filename: upwind-management-v1-openapi.yml
+- filename: upwind-access-management-api-openapi.yml
   format: yaml
-  label: Upwind Management REST API v1
-  slug: upwind-management-rest-api-v1
+  label: Upwind access-management API
+  slug: upwind-access-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-management-v1-openapi.yml
-- filename: upwind-management-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-access-management-api-openapi.yml
+- filename: upwind-api-security-api-openapi.yml
   format: yaml
-  label: Upwind Management REST API v2
-  slug: upwind-management-rest-api-v2
+  label: Upwind api-security API
+  slug: upwind-api-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-management-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-api-security-api-openapi.yml
+- filename: upwind-cloud-accounts-api-openapi.yml
+  format: yaml
+  label: Upwind cloud-accounts API
+  slug: upwind-cloud-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-cloud-accounts-api-openapi.yml
+- filename: upwind-configurations-api-openapi.yml
+  format: yaml
+  label: Upwind configurations API
+  slug: upwind-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-configurations-api-openapi.yml
+- filename: upwind-events-api-openapi.yml
+  format: yaml
+  label: Upwind events API
+  slug: upwind-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-events-api-openapi.yml
+- filename: upwind-integrations-api-openapi.yml
+  format: yaml
+  label: Upwind integrations API
+  slug: upwind-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-integrations-api-openapi.yml
+- filename: upwind-inventory-api-openapi.yml
+  format: yaml
+  label: Upwind Inventory API
+  slug: upwind-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-inventory-api-openapi.yml
+- filename: upwind-packages-api-openapi.yml
+  format: yaml
+  label: Upwind packages API
+  slug: upwind-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-packages-api-openapi.yml
+- filename: upwind-shiftleft-api-openapi.yml
+  format: yaml
+  label: Upwind shiftleft API
+  slug: upwind-shiftleft-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-shiftleft-api-openapi.yml
+- filename: upwind-threats-api-openapi.yml
+  format: yaml
+  label: Upwind threats API
+  slug: upwind-threats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-threats-api-openapi.yml
+- filename: upwind-vulnerabilities-api-openapi.yml
+  format: yaml
+  label: Upwind vulnerabilities API
+  slug: upwind-vulnerabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-vulnerabilities-api-openapi.yml
+- filename: upwind-workflows-api-openapi.yml
+  format: yaml
+  label: Upwind workflows API
+  slug: upwind-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-workflows-api-openapi.yml
 certifications:
 - SOC 2 Type 2
 - ISO/IEC 27001:2022

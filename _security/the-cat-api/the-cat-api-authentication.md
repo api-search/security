@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: the-cat-api-openapi.yml
+- filename: the-cat-api-breeds-api-openapi.yml
   format: yaml
-  label: The Cat API
-  slug: the-cat-api
+  label: The Cat API Breeds API
+  slug: the-cat-api-breeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/openapi/the-cat-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/openapi/the-cat-api-breeds-api-openapi.yml
+- filename: the-cat-api-categories-api-openapi.yml
+  format: yaml
+  label: The Cat API Categories API
+  slug: the-cat-api-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/openapi/the-cat-api-categories-api-openapi.yml
+- filename: the-cat-api-favourites-api-openapi.yml
+  format: yaml
+  label: The Cat API Favourites API
+  slug: the-cat-api-favourites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/openapi/the-cat-api-favourites-api-openapi.yml
+- filename: the-cat-api-images-api-openapi.yml
+  format: yaml
+  label: The Cat API Images API
+  slug: the-cat-api-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/openapi/the-cat-api-images-api-openapi.yml
+- filename: the-cat-api-votes-api-openapi.yml
+  format: yaml
+  label: The Cat API Votes API
+  slug: the-cat-api-votes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/openapi/the-cat-api-votes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

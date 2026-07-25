@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: papago-papago-api-openapi.yml
   format: yaml
-  label: Papago NMT Translation API
-  slug: papago-nmt-translation
+  label: Papago Papago API
+  slug: papago-papago-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/papago/refs/heads/main/openapi/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/papago/refs/heads/main/openapi/papago-papago-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: color-eligibility-openapi.yml
+- filename: color-eligibility-api-openapi.yml
   format: yaml
-  label: Color Eligibility List API
+  label: Color Eligibility API
   slug: color-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/openapi/color-eligibility-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/openapi/color-eligibility-api-openapi.yml
 certifications:
 - SOC 2
 - HIPAA

@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: gopuff-fulfillment-openapi.yml
+- filename: gopuff-availability-api-openapi.yml
   format: yaml
-  label: Powered by Gopuff Fulfillment API
-  slug: fulfillment-api
+  label: Gopuff Availability API
+  slug: gopuff-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/openapi/gopuff-fulfillment-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/openapi/gopuff-availability-api-openapi.yml
+- filename: gopuff-orders-api-openapi.yml
+  format: yaml
+  label: Gopuff Orders API
+  slug: gopuff-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/openapi/gopuff-orders-api-openapi.yml
+- filename: gopuff-rates-api-openapi.yml
+  format: yaml
+  label: Gopuff Rates API
+  slug: gopuff-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/openapi/gopuff-rates-api-openapi.yml
+- filename: gopuff-shops-api-openapi.yml
+  format: yaml
+  label: Gopuff Shops API
+  slug: gopuff-shops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/openapi/gopuff-shops-api-openapi.yml
+- filename: gopuff-zones-api-openapi.yml
+  format: yaml
+  label: Gopuff Zones API
+  slug: gopuff-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/openapi/gopuff-zones-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: padlet-openapi.yml
+- filename: padlet-ai-recipe-boards-api-openapi.yml
   format: yaml
-  label: Padlet API
-  slug: padlet-api
+  label: Padlet AI Recipe Boards API
+  slug: padlet-ai-recipe-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/openapi/padlet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/openapi/padlet-ai-recipe-boards-api-openapi.yml
+- filename: padlet-boards-api-openapi.yml
+  format: yaml
+  label: Padlet Boards API
+  slug: padlet-boards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/openapi/padlet-boards-api-openapi.yml
+- filename: padlet-comments-api-openapi.yml
+  format: yaml
+  label: Padlet Comments API
+  slug: padlet-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/openapi/padlet-comments-api-openapi.yml
+- filename: padlet-organizations-api-openapi.yml
+  format: yaml
+  label: Padlet Organizations API
+  slug: padlet-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/openapi/padlet-organizations-api-openapi.yml
+- filename: padlet-posts-api-openapi.yml
+  format: yaml
+  label: Padlet Posts API
+  slug: padlet-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/openapi/padlet-posts-api-openapi.yml
+- filename: padlet-reactions-api-openapi.yml
+  format: yaml
+  label: Padlet Reactions API
+  slug: padlet-reactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/openapi/padlet-reactions-api-openapi.yml
+- filename: padlet-users-api-openapi.yml
+  format: yaml
+  label: Padlet Users API
+  slug: padlet-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/openapi/padlet-users-api-openapi.yml
 description: ''
 domains:
 - caa:

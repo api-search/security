@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: authsignal-openapi.yml
+- filename: authsignal-actions-api-openapi.yml
   format: yaml
-  label: Authsignal Server API
-  slug: server-api
+  label: Authsignal Actions API
+  slug: authsignal-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/openapi/authsignal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/openapi/authsignal-actions-api-openapi.yml
+- filename: authsignal-authenticators-api-openapi.yml
+  format: yaml
+  label: Authsignal Authenticators API
+  slug: authsignal-authenticators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/openapi/authsignal-authenticators-api-openapi.yml
+- filename: authsignal-challenges-api-openapi.yml
+  format: yaml
+  label: Authsignal Challenges API
+  slug: authsignal-challenges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/openapi/authsignal-challenges-api-openapi.yml
+- filename: authsignal-devices-api-openapi.yml
+  format: yaml
+  label: Authsignal Devices API
+  slug: authsignal-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/openapi/authsignal-devices-api-openapi.yml
+- filename: authsignal-sessions-api-openapi.yml
+  format: yaml
+  label: Authsignal Sessions API
+  slug: authsignal-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/openapi/authsignal-sessions-api-openapi.yml
+- filename: authsignal-users-api-openapi.yml
+  format: yaml
+  label: Authsignal Users API
+  slug: authsignal-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/openapi/authsignal-users-api-openapi.yml
 auth_types:
 - http
 description: ''

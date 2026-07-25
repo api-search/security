@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: upsie-partner-network-openapi.yml
+- filename: upsie-authorization-api-openapi.yml
   format: yaml
-  label: Upsie Partner Network API
-  slug: upsie-partner-network-api
+  label: Upsie Authorization API
+  slug: upsie-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-partner-network-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-authorization-api-openapi.yml
+- filename: upsie-repair-assignments-repairassignments-api-openapi.yml
+  format: yaml
+  label: Upsie Repair Assignments (/repairassignments) API
+  slug: upsie-repair-assignments-repairassignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-repair-assignments-repairassignments-api-openapi.yml
+- filename: upsie-repair-categories-api-openapi.yml
+  format: yaml
+  label: Upsie Repair Categories API
+  slug: upsie-repair-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-repair-categories-api-openapi.yml
+- filename: upsie-repair-item-templates-api-openapi.yml
+  format: yaml
+  label: Upsie Repair Item Templates API
+  slug: upsie-repair-item-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-repair-item-templates-api-openapi.yml
+- filename: upsie-repair-items-repairitems-api-openapi.yml
+  format: yaml
+  label: Upsie Repair Items (/repairitems) API
+  slug: upsie-repair-items-repairitems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-repair-items-repairitems-api-openapi.yml
+- filename: upsie-repair-notes-api-openapi.yml
+  format: yaml
+  label: Upsie Repair Notes API
+  slug: upsie-repair-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-repair-notes-api-openapi.yml
+- filename: upsie-repairs-repairs-api-openapi.yml
+  format: yaml
+  label: Upsie Repairs (/repairs) API
+  slug: upsie-repairs-repairs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-repairs-repairs-api-openapi.yml
+- filename: upsie-webhooks-api-openapi.yml
+  format: yaml
+  label: Upsie Webhooks API
+  slug: upsie-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: Authentication profile for the Upsie Partner Network API, captured from the official Postman documentation (api.upsie.com/docs). The API authenticates every request with a JSON Web Token passed in a custom `token` header. Tokens are obtained by partner-user login (username/password) and then exchanged for longer-lived API access and refresh tokens; partner-scoped API access tokens can also be generated and invalidated through the Upsie Partner Portal.

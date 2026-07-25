@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: koko-crisis-helplines-openapi.yml
+- filename: koko-countries-api-openapi.yml
   format: yaml
-  label: Koko Crisis Helplines API
-  slug: crisis-helplines
+  label: Koko Countries API
+  slug: koko-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/openapi/koko-crisis-helplines-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/openapi/koko-countries-api-openapi.yml
+- filename: koko-helplines-api-openapi.yml
+  format: yaml
+  label: Koko Helplines API
+  slug: koko-helplines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/openapi/koko-helplines-api-openapi.yml
 description: ''
 domains:
 - caa: []

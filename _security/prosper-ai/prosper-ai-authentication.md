@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: prosper-ai-voice-openapi.json
-  format: json
-  label: Prosper Voice API
-  slug: prosper-voice-api
+- filename: prosper-ai-api-keys-api-openapi.yml
+  format: yaml
+  label: Prosper AI API Keys API
+  slug: prosper-ai-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prosper-ai/refs/heads/main/openapi/prosper-ai-voice-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/prosper-ai/refs/heads/main/openapi/prosper-ai-api-keys-api-openapi.yml
+- filename: prosper-ai-call-logs-api-openapi.yml
+  format: yaml
+  label: Prosper AI Call Logs API
+  slug: prosper-ai-call-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prosper-ai/refs/heads/main/openapi/prosper-ai-call-logs-api-openapi.yml
+- filename: prosper-ai-campaigns-api-openapi.yml
+  format: yaml
+  label: Prosper AI Campaigns API
+  slug: prosper-ai-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prosper-ai/refs/heads/main/openapi/prosper-ai-campaigns-api-openapi.yml
+- filename: prosper-ai-live-calls-api-openapi.yml
+  format: yaml
+  label: Prosper AI Live Calls API
+  slug: prosper-ai-live-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prosper-ai/refs/heads/main/openapi/prosper-ai-live-calls-api-openapi.yml
+- filename: prosper-ai-status-api-openapi.yml
+  format: yaml
+  label: Prosper AI Status API
+  slug: prosper-ai-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prosper-ai/refs/heads/main/openapi/prosper-ai-status-api-openapi.yml
+- filename: prosper-ai-targets-api-openapi.yml
+  format: yaml
+  label: Prosper AI Targets API
+  slug: prosper-ai-targets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prosper-ai/refs/heads/main/openapi/prosper-ai-targets-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

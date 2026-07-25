@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: fastdol-openapi.yml
+- filename: fastdol-auth-api-openapi.yml
   format: yaml
-  label: FastDOL API
-  slug: fastdol-api
+  label: FastDOL Auth API
+  slug: fastdol-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/main/openapi/fastdol-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-auth-api-openapi.yml
+- filename: fastdol-dashboard-api-openapi.yml
+  format: yaml
+  label: FastDOL Dashboard API
+  slug: fastdol-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-dashboard-api-openapi.yml
+- filename: fastdol-employers-api-openapi.yml
+  format: yaml
+  label: FastDOL Employers API
+  slug: fastdol-employers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-employers-api-openapi.yml
+- filename: fastdol-export-api-openapi.yml
+  format: yaml
+  label: FastDOL Export API
+  slug: fastdol-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-export-api-openapi.yml
+- filename: fastdol-health-api-openapi.yml
+  format: yaml
+  label: FastDOL Health API
+  slug: fastdol-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-health-api-openapi.yml
+- filename: fastdol-industries-api-openapi.yml
+  format: yaml
+  label: FastDOL Industries API
+  slug: fastdol-industries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-industries-api-openapi.yml
+- filename: fastdol-inspections-api-openapi.yml
+  format: yaml
+  label: FastDOL Inspections API
+  slug: fastdol-inspections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-inspections-api-openapi.yml
+- filename: fastdol-sitemap-api-openapi.yml
+  format: yaml
+  label: FastDOL Sitemap API
+  slug: fastdol-sitemap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-sitemap-api-openapi.yml
+- filename: fastdol-stats-api-openapi.yml
+  format: yaml
+  label: FastDOL Stats API
+  slug: fastdol-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-stats-api-openapi.yml
+- filename: fastdol-usage-api-openapi.yml
+  format: yaml
+  label: FastDOL Usage API
+  slug: fastdol-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-usage-api-openapi.yml
+- filename: fastdol-webhooks-api-openapi.yml
+  format: yaml
+  label: FastDOL Webhooks API
+  slug: fastdol-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

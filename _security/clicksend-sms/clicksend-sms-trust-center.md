@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: swagger.yaml
+- filename: clicksend-sms-sms-api-openapi.yml
   format: yaml
-  label: ClickSend REST API v3
-  slug: rest-api-v3
+  label: ClickSend SMS Sms API
+  slug: clicksend-sms-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/ClickSend/clicksend-go/master/api/swagger.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/clicksend-sms/refs/heads/main/openapi/clicksend-sms-sms-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

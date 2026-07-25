@@ -1,18 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ambassador-openapi.yml
+- filename: ambassador-diagnostics-api-openapi.yml
   format: yaml
-  label: Ambassador
-  slug: ambassador
+  label: Ambassador Diagnostics API
+  slug: ambassador-diagnostics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-openapi.yml
-- filename: ambassador-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-diagnostics-api-openapi.yml
+- filename: ambassador-hosts-api-openapi.yml
   format: yaml
-  label: Ambassador Edge Stack API Gateway
-  slug: edge-stack-api-gateway
+  label: Ambassador Hosts API
+  slug: ambassador-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-hosts-api-openapi.yml
+- filename: ambassador-mappings-api-openapi.yml
+  format: yaml
+  label: Ambassador Mappings API
+  slug: ambassador-mappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-mappings-api-openapi.yml
+- filename: ambassador-modules-api-openapi.yml
+  format: yaml
+  label: Ambassador Modules API
+  slug: ambassador-modules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-modules-api-openapi.yml
+- filename: ambassador-ratelimits-api-openapi.yml
+  format: yaml
+  label: Ambassador RateLimits API
+  slug: ambassador-ratelimits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-ratelimits-api-openapi.yml
+- filename: ambassador-tlscontexts-api-openapi.yml
+  format: yaml
+  label: Ambassador TLSContexts API
+  slug: ambassador-tlscontexts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-tlscontexts-api-openapi.yml
 auth_types:
 - http
 description: ''

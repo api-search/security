@@ -1,53 +1,101 @@
 ---
 api_specs:
-- filename: iota-jsonrpc-openapi.json
-  format: json
+- filename: iota-auth-api-openapi.yml
+  format: yaml
+  label: IOTA auth API
+  slug: iota-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-auth-api-openapi.yml
+- filename: iota-chains-api-openapi.yml
+  format: yaml
+  label: IOTA chains API
+  slug: iota-chains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-chains-api-openapi.yml
+- filename: iota-coin-query-api-openapi.yml
+  format: yaml
   label: IOTA Coin Query API
   slug: iota-coin-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-jsonrpc-openapi.json
-- filename: iota-jsonrpc-openapi.json
-  format: json
-  label: IOTA Read API
-  slug: iota-read-api
+  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-coin-query-api-openapi.yml
+- filename: iota-corecontracts-api-openapi.yml
+  format: yaml
+  label: IOTA corecontracts API
+  slug: iota-corecontracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-jsonrpc-openapi.json
-- filename: iota-jsonrpc-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-corecontracts-api-openapi.yml
+- filename: iota-extended-api-openapi.yml
+  format: yaml
   label: IOTA Extended API
   slug: iota-extended-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-jsonrpc-openapi.json
-- filename: iota-jsonrpc-openapi.json
-  format: json
-  label: IOTA Governance Read API
-  slug: iota-governance-read-api
+  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-extended-api-openapi.yml
+- filename: iota-governance-api-openapi.yml
+  format: yaml
+  label: IOTA Governance API
+  slug: iota-governance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-jsonrpc-openapi.json
-- filename: iota-jsonrpc-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-governance-api-openapi.yml
+- filename: iota-health-api-openapi.yml
+  format: yaml
+  label: IOTA Health API
+  slug: iota-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-health-api-openapi.yml
+- filename: iota-metrics-api-openapi.yml
+  format: yaml
+  label: IOTA metrics API
+  slug: iota-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-metrics-api-openapi.yml
+- filename: iota-move-utils-api-openapi.yml
+  format: yaml
   label: IOTA Move Utils API
   slug: iota-move-utils-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-jsonrpc-openapi.json
-- filename: iota-jsonrpc-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-move-utils-api-openapi.yml
+- filename: iota-node-api-openapi.yml
+  format: yaml
+  label: IOTA node API
+  slug: iota-node-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-node-api-openapi.yml
+- filename: iota-read-api-openapi.yml
+  format: yaml
+  label: IOTA Read API
+  slug: iota-read-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-read-api-openapi.yml
+- filename: iota-requests-api-openapi.yml
+  format: yaml
+  label: IOTA requests API
+  slug: iota-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-requests-api-openapi.yml
+- filename: iota-transaction-builder-api-openapi.yml
+  format: yaml
   label: IOTA Transaction Builder API
   slug: iota-transaction-builder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-jsonrpc-openapi.json
-- filename: iota-jsonrpc-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-transaction-builder-api-openapi.yml
+- filename: iota-users-api-openapi.yml
+  format: yaml
+  label: IOTA users API
+  slug: iota-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-users-api-openapi.yml
+- filename: iota-write-api-openapi.yml
+  format: yaml
   label: IOTA Write API
   slug: iota-write-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-jsonrpc-openapi.json
-- filename: iota-evm-wasp-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-write-api-openapi.yml
+- filename: iota-ws-api-openapi.yml
   format: yaml
-  label: IOTA EVM JSON-RPC API
-  slug: iota-evm-json-rpc-api
+  label: IOTA Ws API
+  slug: iota-ws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-evm-wasp-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-ws-api-openapi.yml
 description: ''
 domains:
 - caa: []

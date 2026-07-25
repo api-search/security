@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: athelas-enterprise-openapi.yml
+- filename: athelas-auth-api-openapi.yml
   format: yaml
-  label: Athelas Enterprise API
-  slug: athelas-enterprise-api
+  label: Athelas Auth API
+  slug: athelas-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-enterprise-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-auth-api-openapi.yml
+- filename: athelas-patients-api-openapi.yml
+  format: yaml
+  label: Athelas Patients API
+  slug: athelas-patients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-patients-api-openapi.yml
+- filename: athelas-prescribers-api-openapi.yml
+  format: yaml
+  label: Athelas Prescribers API
+  slug: athelas-prescribers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-prescribers-api-openapi.yml
+- filename: athelas-sites-api-openapi.yml
+  format: yaml
+  label: Athelas Sites API
+  slug: athelas-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-sites-api-openapi.yml
+- filename: athelas-test-types-api-openapi.yml
+  format: yaml
+  label: Athelas Test Types API
+  slug: athelas-test-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-test-types-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: augment-openapi-original.json
-  format: json
-  label: Augment API
-  slug: augment-api
+- filename: augment-api-key-api-openapi.yml
+  format: yaml
+  label: Augment API Key API
+  slug: augment-api-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-api-key-api-openapi.yml
+- filename: augment-carrier-management-api-openapi.yml
+  format: yaml
+  label: Augment Carrier Management API
+  slug: augment-carrier-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-carrier-management-api-openapi.yml
+- filename: augment-carrier-support-api-openapi.yml
+  format: yaml
+  label: Augment Carrier Support API
+  slug: augment-carrier-support-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-carrier-support-api-openapi.yml
+- filename: augment-load-management-api-openapi.yml
+  format: yaml
+  label: Augment Load Management API
+  slug: augment-load-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-load-management-api-openapi.yml
+- filename: augment-webhook-endpoints-api-openapi.yml
+  format: yaml
+  label: Augment Webhook Endpoints API
+  slug: augment-webhook-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-webhook-endpoints-api-openapi.yml
+- filename: augment-webhook-event-subscriptions-api-openapi.yml
+  format: yaml
+  label: Augment Webhook Event Subscriptions API
+  slug: augment-webhook-event-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-webhook-event-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []

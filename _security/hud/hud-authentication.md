@@ -1,36 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: hud-fair-market-rents-openapi.yml
+- filename: hud-chas-api-openapi.yml
   format: yaml
-  label: HUD User Fair Market Rents API
-  slug: hud-user-fair-market-rents-api
+  label: HUD - US Department of Housing and Urban Development CHAS API
+  slug: hud-chas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hud/refs/heads/main/openapi/hud-fair-market-rents-openapi.yml
-- filename: hud-income-limits-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hud/refs/heads/main/openapi/hud-chas-api-openapi.yml
+- filename: hud-fair-market-rents-api-openapi.yml
   format: yaml
-  label: HUD User Income Limits API
-  slug: hud-user-income-limits-api
+  label: HUD - US Department of Housing and Urban Development Fair Market Rents API
+  slug: hud-fair-market-rents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hud/refs/heads/main/openapi/hud-income-limits-openapi.yml
-- filename: hud-usps-zip-code-crosswalk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hud/refs/heads/main/openapi/hud-fair-market-rents-api-openapi.yml
+- filename: hud-housing-counseling-api-openapi.yml
   format: yaml
-  label: HUD User USPS ZIP Code Crosswalk API
-  slug: hud-user-usps-zip-code-crosswalk-api
+  label: HUD - US Department of Housing and Urban Development Housing Counseling API
+  slug: hud-housing-counseling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hud/refs/heads/main/openapi/hud-usps-zip-code-crosswalk-openapi.yml
-- filename: hud-chas-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hud/refs/heads/main/openapi/hud-housing-counseling-api-openapi.yml
+- filename: hud-income-limits-api-openapi.yml
   format: yaml
-  label: HUD User CHAS API
-  slug: hud-user-chas-api
+  label: HUD - US Department of Housing and Urban Development Income Limits API
+  slug: hud-income-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hud/refs/heads/main/openapi/hud-chas-openapi.yml
-- filename: hud-housing-counselor-search-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hud/refs/heads/main/openapi/hud-income-limits-api-openapi.yml
+- filename: hud-zip-code-crosswalk-api-openapi.yml
   format: yaml
-  label: HUD Housing Counselor Search API
-  slug: hud-housing-counselor-search-api
+  label: HUD - US Department of Housing and Urban Development ZIP Code Crosswalk API
+  slug: hud-zip-code-crosswalk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hud/refs/heads/main/openapi/hud-housing-counselor-search-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hud/refs/heads/main/openapi/hud-zip-code-crosswalk-api-openapi.yml
 auth_types:
 - http
 description: ''

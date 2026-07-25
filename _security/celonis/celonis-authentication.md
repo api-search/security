@@ -2,48 +2,108 @@
 api_key_in:
 - header
 api_specs:
-- filename: celonis-knowledge-model-openapi.yaml
+- filename: celonis-agents-conversation-api-openapi.yml
   format: yaml
-  label: Celonis Knowledge Model API
-  slug: celonis-knowledge-model-api
+  label: Celonis Agents - Conversation API
+  slug: celonis-agents-conversation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-knowledge-model-openapi.yaml
-- filename: celonis-agents-ai-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-agents-conversation-api-openapi.yml
+- filename: celonis-beta-odata-protocol-api-openapi.yml
   format: yaml
-  label: Celonis AI Agent API
-  slug: celonis-ai-agent-api
+  label: 'Celonis Beta: OData Protocol API'
+  slug: celonis-beta-odata-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-agents-ai-openapi.yaml
-- filename: celonis-subscription-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-beta-odata-protocol-api-openapi.yml
+- filename: celonis-beta-semantics-for-3p-ai-agents-api-openapi.yml
   format: yaml
-  label: Celonis Event Subscription API
-  slug: celonis-event-subscription-api
+  label: 'Celonis Beta: Semantics for 3P AI Agents API'
+  slug: celonis-beta-semantics-for-3p-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-subscription-openapi.yaml
-- filename: celonis-mlwb-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-beta-semantics-for-3p-ai-agents-api-openapi.yml
+- filename: celonis-data-api-openapi.yml
   format: yaml
-  label: Celonis Machine Learning Workbench API
-  slug: celonis-machine-learning-workbench-api
+  label: Celonis Data API
+  slug: celonis-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-mlwb-openapi.yaml
-- filename: celonis-team-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-data-api-openapi.yml
+- filename: celonis-job-execution-api-openapi.yml
   format: yaml
-  label: Celonis Team API
-  slug: celonis-team-api
+  label: Celonis Job Execution API
+  slug: celonis-job-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-team-openapi.yaml
-- filename: celonis-permissions-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-job-execution-api-openapi.yml
+- filename: celonis-job-execution-group-api-openapi.yml
   format: yaml
-  label: Celonis Permissions API
-  slug: celonis-permissions-api
+  label: Celonis Job Execution Group API
+  slug: celonis-job-execution-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-permissions-openapi.yaml
-- filename: celonis-mcp-tool-calling-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-job-execution-group-api-openapi.yml
+- filename: celonis-login-history-api-api-openapi.yml
   format: yaml
-  label: Celonis Agent Tools (MCP) Tool Calling API
-  slug: celonis-agent-tools-mcp-tool-calling-api
+  label: Celonis Login History API API
+  slug: celonis-login-history-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-mcp-tool-calling-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-login-history-api-api-openapi.yml
+- filename: celonis-members-api-api-openapi.yml
+  format: yaml
+  label: Celonis Members API API
+  slug: celonis-members-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-members-api-api-openapi.yml
+- filename: celonis-notebook-api-openapi.yml
+  format: yaml
+  label: Celonis Notebook API
+  slug: celonis-notebook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-notebook-api-openapi.yml
+- filename: celonis-notebook-execution-api-openapi.yml
+  format: yaml
+  label: Celonis Notebook Execution API
+  slug: celonis-notebook-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-notebook-execution-api-openapi.yml
+- filename: celonis-notebook-resources-api-openapi.yml
+  format: yaml
+  label: Celonis Notebook Resources API
+  slug: celonis-notebook-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-notebook-resources-api-openapi.yml
+- filename: celonis-openapi-tool-calling-api-openapi.yml
+  format: yaml
+  label: Celonis OpenAPI Tool Calling API
+  slug: celonis-openapi-tool-calling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-openapi-tool-calling-api-openapi.yml
+- filename: celonis-permissions-export-api-api-openapi.yml
+  format: yaml
+  label: Celonis Permissions Export API API
+  slug: celonis-permissions-export-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-permissions-export-api-api-openapi.yml
+- filename: celonis-schedule-api-openapi.yml
+  format: yaml
+  label: Celonis Schedule API
+  slug: celonis-schedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-schedule-api-openapi.yml
+- filename: celonis-schema-api-openapi.yml
+  format: yaml
+  label: Celonis Schema API
+  slug: celonis-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-schema-api-openapi.yml
+- filename: celonis-subscriptions-api-openapi.yml
+  format: yaml
+  label: Celonis Subscriptions API
+  slug: celonis-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-subscriptions-api-openapi.yml
+- filename: celonis-triggers-api-openapi.yml
+  format: yaml
+  label: Celonis Triggers API
+  slug: celonis-triggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-triggers-api-openapi.yml
 auth_types:
 - oauth2
 - http

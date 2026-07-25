@@ -1,53 +1,65 @@
 ---
 api_specs:
-- filename: fleetbase-openapi.yml
-  format: yaml
-  label: Fleetbase Orders API
-  slug: orders
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-openapi.yml
-- filename: fleetbase-openapi.yml
-  format: yaml
-  label: Fleetbase Places API
-  slug: places
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-openapi.yml
-- filename: fleetbase-openapi.yml
+- filename: fleetbase-contacts-api-openapi.yml
   format: yaml
   label: Fleetbase Contacts API
-  slug: contacts
+  slug: fleetbase-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-openapi.yml
-- filename: fleetbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-contacts-api-openapi.yml
+- filename: fleetbase-drivers-api-openapi.yml
   format: yaml
-  label: Fleetbase Drivers & Vehicles API
-  slug: drivers-vehicles
+  label: Fleetbase Drivers API
+  slug: fleetbase-drivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-openapi.yml
-- filename: fleetbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-drivers-api-openapi.yml
+- filename: fleetbase-fleets-api-openapi.yml
   format: yaml
-  label: Fleetbase Fleets & Zones API
-  slug: fleets-zones
+  label: Fleetbase Fleets API
+  slug: fleetbase-fleets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-openapi.yml
-- filename: fleetbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-fleets-api-openapi.yml
+- filename: fleetbase-orders-api-openapi.yml
+  format: yaml
+  label: Fleetbase Orders API
+  slug: fleetbase-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-orders-api-openapi.yml
+- filename: fleetbase-places-api-openapi.yml
+  format: yaml
+  label: Fleetbase Places API
+  slug: fleetbase-places-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-places-api-openapi.yml
+- filename: fleetbase-service-rates-api-openapi.yml
   format: yaml
   label: Fleetbase Service Rates API
-  slug: service-rates
+  slug: fleetbase-service-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-openapi.yml
-- filename: fleetbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-service-rates-api-openapi.yml
+- filename: fleetbase-tracking-api-openapi.yml
   format: yaml
   label: Fleetbase Tracking API
-  slug: tracking
+  slug: fleetbase-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-openapi.yml
-- filename: fleetbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-tracking-api-openapi.yml
+- filename: fleetbase-vehicles-api-openapi.yml
+  format: yaml
+  label: Fleetbase Vehicles API
+  slug: fleetbase-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-vehicles-api-openapi.yml
+- filename: fleetbase-webhooks-api-openapi.yml
   format: yaml
   label: Fleetbase Webhooks API
-  slug: webhooks
+  slug: fleetbase-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-webhooks-api-openapi.yml
+- filename: fleetbase-zones-api-openapi.yml
+  format: yaml
+  label: Fleetbase Zones API
+  slug: fleetbase-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-zones-api-openapi.yml
 description: ''
 domains:
 - caa: []

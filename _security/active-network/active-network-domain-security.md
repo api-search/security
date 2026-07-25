@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: active-network-activity-search-openapi.yml
+- filename: active-network-activities-api-openapi.yml
   format: yaml
-  label: ACTIVE Network Activity Search API v2
-  slug: active-network-activity-search-api-v2
+  label: Active Network Activities API
+  slug: active-network-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/openapi/active-network-activity-search-openapi.yml
-- filename: active-network-campground-search-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/openapi/active-network-activities-api-openapi.yml
+- filename: active-network-camping-api-openapi.yml
   format: yaml
-  label: ACTIVE Network Campground Search API
-  slug: active-network-campground-search-api
+  label: Active Network Camping API
+  slug: active-network-camping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/openapi/active-network-campground-search-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/openapi/active-network-camping-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: orakl-website-openapi-original.json
-  format: json
-  label: Orakl Oncology Public Website API
-  slug: orakl-oncology-public-website-api
+- filename: orakl-commoncontent-api-openapi.yml
+  format: yaml
+  label: Orakl CommonContent API
+  slug: orakl-commoncontent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-website-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-commoncontent-api-openapi.yml
+- filename: orakl-customform-api-openapi.yml
+  format: yaml
+  label: Orakl CustomForm API
+  slug: orakl-customform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-customform-api-openapi.yml
+- filename: orakl-folder-api-openapi.yml
+  format: yaml
+  label: Orakl Folder API
+  slug: orakl-folder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-folder-api-openapi.yml
+- filename: orakl-login-check-api-openapi.yml
+  format: yaml
+  label: Orakl Login Check API
+  slug: orakl-login-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-login-check-api-openapi.yml
+- filename: orakl-nodessources-api-openapi.yml
+  format: yaml
+  label: Orakl NodesSources API
+  slug: orakl-nodessources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-nodessources-api-openapi.yml
+- filename: orakl-page-api-openapi.yml
+  format: yaml
+  label: Orakl Page API
+  slug: orakl-page-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-page-api-openapi.yml
+- filename: orakl-tag-api-openapi.yml
+  format: yaml
+  label: Orakl Tag API
+  slug: orakl-tag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-tag-api-openapi.yml
+- filename: orakl-translation-api-openapi.yml
+  format: yaml
+  label: Orakl Translation API
+  slug: orakl-translation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-translation-api-openapi.yml
+- filename: orakl-webresponse-api-openapi.yml
+  format: yaml
+  label: Orakl WebResponse API
+  slug: orakl-webresponse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-webresponse-api-openapi.yml
 auth_types:
 - http
 description: ''

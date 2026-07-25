@@ -1,65 +1,71 @@
 ---
 api_specs:
-- filename: retell-openapi.yml
+- filename: retell-agent-api-openapi.yml
   format: yaml
-  label: Agents
-  slug: agents
+  label: Retell AI Agent API
+  slug: retell-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retell/refs/heads/main/openapi/retell-openapi.yml
-- filename: retell-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/retell/refs/heads/main/openapi/retell-agent-api-openapi.yml
+- filename: retell-batch-call-api-openapi.yml
   format: yaml
-  label: Retell LLM
-  slug: retell-llm
+  label: Retell AI Batch Call API
+  slug: retell-batch-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retell/refs/heads/main/openapi/retell-openapi.yml
-- filename: retell-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/retell/refs/heads/main/openapi/retell-batch-call-api-openapi.yml
+- filename: retell-call-api-openapi.yml
   format: yaml
-  label: Conversation Flow
-  slug: conversation-flow
+  label: Retell AI Call API
+  slug: retell-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retell/refs/heads/main/openapi/retell-openapi.yml
-- filename: retell-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/retell/refs/heads/main/openapi/retell-call-api-openapi.yml
+- filename: retell-concurrency-api-openapi.yml
   format: yaml
-  label: Phone Calls
-  slug: phone-calls
+  label: Retell AI Concurrency API
+  slug: retell-concurrency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retell/refs/heads/main/openapi/retell-openapi.yml
-- filename: retell-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/retell/refs/heads/main/openapi/retell-concurrency-api-openapi.yml
+- filename: retell-conversation-flow-api-openapi.yml
   format: yaml
-  label: Web Calls
-  slug: web-calls
+  label: Retell AI Conversation Flow API
+  slug: retell-conversation-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retell/refs/heads/main/openapi/retell-openapi.yml
-- filename: retell-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/retell/refs/heads/main/openapi/retell-conversation-flow-api-openapi.yml
+- filename: retell-knowledge-base-api-openapi.yml
   format: yaml
-  label: Phone Numbers
-  slug: phone-numbers
+  label: Retell AI Knowledge Base API
+  slug: retell-knowledge-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retell/refs/heads/main/openapi/retell-openapi.yml
-- filename: retell-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/retell/refs/heads/main/openapi/retell-knowledge-base-api-openapi.yml
+- filename: retell-phone-call-api-openapi.yml
   format: yaml
-  label: Voices
-  slug: voices
+  label: Retell AI Phone Call API
+  slug: retell-phone-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retell/refs/heads/main/openapi/retell-openapi.yml
-- filename: retell-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/retell/refs/heads/main/openapi/retell-phone-call-api-openapi.yml
+- filename: retell-phone-number-api-openapi.yml
   format: yaml
-  label: Knowledge Bases
-  slug: knowledge-bases
+  label: Retell AI Phone Number API
+  slug: retell-phone-number-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retell/refs/heads/main/openapi/retell-openapi.yml
-- filename: retell-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/retell/refs/heads/main/openapi/retell-phone-number-api-openapi.yml
+- filename: retell-retell-llm-api-openapi.yml
   format: yaml
-  label: Batch Call
-  slug: batch-call
+  label: Retell AI Retell LLM API
+  slug: retell-retell-llm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retell/refs/heads/main/openapi/retell-openapi.yml
-- filename: retell-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/retell/refs/heads/main/openapi/retell-retell-llm-api-openapi.yml
+- filename: retell-voice-api-openapi.yml
   format: yaml
-  label: Concurrency
-  slug: concurrency
+  label: Retell AI Voice API
+  slug: retell-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retell/refs/heads/main/openapi/retell-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/retell/refs/heads/main/openapi/retell-voice-api-openapi.yml
+- filename: retell-web-call-api-openapi.yml
+  format: yaml
+  label: Retell AI Web Call API
+  slug: retell-web-call-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/retell/refs/heads/main/openapi/retell-web-call-api-openapi.yml
 description: ''
 domains:
 - caa: []

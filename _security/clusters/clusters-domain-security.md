@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: clusters-v1-openapi.yml
+- filename: clusters-authentication-api-openapi.yml
   format: yaml
-  label: Clusters API v1
-  slug: clusters-api-v1
+  label: Clusters Authentication API
+  slug: clusters-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-authentication-api-openapi.yml
+- filename: clusters-clusters-api-openapi.yml
+  format: yaml
+  label: Clusters Clusters API
+  slug: clusters-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-clusters-api-openapi.yml
+- filename: clusters-communities-api-openapi.yml
+  format: yaml
+  label: Clusters Communities API
+  slug: clusters-communities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-communities-api-openapi.yml
+- filename: clusters-events-api-openapi.yml
+  format: yaml
+  label: Clusters Events API
+  slug: clusters-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-events-api-openapi.yml
+- filename: clusters-names-api-openapi.yml
+  format: yaml
+  label: Clusters Names API
+  slug: clusters-names-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-names-api-openapi.yml
+- filename: clusters-registration-api-openapi.yml
+  format: yaml
+  label: Clusters Registration API
+  slug: clusters-registration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-registration-api-openapi.yml
 description: ''
 domains:
 - caa: []

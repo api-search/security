@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: kondukto-aspm-openapi.yml
+- filename: kondukto-authorization-managers-api-openapi.yml
   format: yaml
-  label: Invicti ASPM (Kondukto) REST API v2
-  slug: aspm-api
+  label: Kondukto Authorization Managers API
+  slug: kondukto-authorization-managers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-aspm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-authorization-managers-api-openapi.yml
+- filename: kondukto-events-api-openapi.yml
+  format: yaml
+  label: Kondukto Events API
+  slug: kondukto-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-events-api-openapi.yml
+- filename: kondukto-health-api-openapi.yml
+  format: yaml
+  label: Kondukto Health API
+  slug: kondukto-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-health-api-openapi.yml
+- filename: kondukto-labels-api-openapi.yml
+  format: yaml
+  label: Kondukto Labels API
+  slug: kondukto-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-labels-api-openapi.yml
+- filename: kondukto-products-api-openapi.yml
+  format: yaml
+  label: Kondukto Products API
+  slug: kondukto-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-products-api-openapi.yml
+- filename: kondukto-projects-api-openapi.yml
+  format: yaml
+  label: Kondukto Projects API
+  slug: kondukto-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-projects-api-openapi.yml
+- filename: kondukto-scanners-api-openapi.yml
+  format: yaml
+  label: Kondukto Scanners API
+  slug: kondukto-scanners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-scanners-api-openapi.yml
+- filename: kondukto-scans-api-openapi.yml
+  format: yaml
+  label: Kondukto Scans API
+  slug: kondukto-scans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-scans-api-openapi.yml
+- filename: kondukto-teams-api-openapi.yml
+  format: yaml
+  label: Kondukto Teams API
+  slug: kondukto-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-teams-api-openapi.yml
+- filename: kondukto-users-api-openapi.yml
+  format: yaml
+  label: Kondukto Users API
+  slug: kondukto-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-users-api-openapi.yml
+- filename: kondukto-vulnerabilities-api-openapi.yml
+  format: yaml
+  label: Kondukto Vulnerabilities API
+  slug: kondukto-vulnerabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-vulnerabilities-api-openapi.yml
 certifications:
 - SOC 2 Type 2
 - ISO 27001:2025

@@ -1,47 +1,65 @@
 ---
 api_specs:
-- filename: accredible-openapi.yml
-  format: yaml
-  label: Accredible Credentials API
-  slug: accredible-credentials-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-openapi.yml
-- filename: accredible-openapi.yml
-  format: yaml
-  label: Accredible Groups API
-  slug: accredible-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-openapi.yml
-- filename: accredible-openapi.yml
-  format: yaml
-  label: Accredible Designs API
-  slug: accredible-designs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-openapi.yml
-- filename: accredible-openapi.yml
-  format: yaml
-  label: Accredible Evidence and References API
-  slug: accredible-evidence-references-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-openapi.yml
-- filename: accredible-openapi.yml
+- filename: accredible-analytics-api-openapi.yml
   format: yaml
   label: Accredible Analytics API
   slug: accredible-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-openapi.yml
-- filename: accredible-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-analytics-api-openapi.yml
+- filename: accredible-credentials-api-openapi.yml
   format: yaml
-  label: Accredible Departments and Team Members API
-  slug: accredible-departments-teams-api
+  label: Accredible Credentials API
+  slug: accredible-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-openapi.yml
-- filename: accredible-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-credentials-api-openapi.yml
+- filename: accredible-departments-api-openapi.yml
   format: yaml
-  label: Accredible Issuer and SSO API
-  slug: accredible-issuer-sso-api
+  label: Accredible Departments API
+  slug: accredible-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-departments-api-openapi.yml
+- filename: accredible-designs-api-openapi.yml
+  format: yaml
+  label: Accredible Designs API
+  slug: accredible-designs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-designs-api-openapi.yml
+- filename: accredible-evidence-items-api-openapi.yml
+  format: yaml
+  label: Accredible Evidence Items API
+  slug: accredible-evidence-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-evidence-items-api-openapi.yml
+- filename: accredible-groups-api-openapi.yml
+  format: yaml
+  label: Accredible Groups API
+  slug: accredible-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-groups-api-openapi.yml
+- filename: accredible-issuer-api-openapi.yml
+  format: yaml
+  label: Accredible Issuer API
+  slug: accredible-issuer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-issuer-api-openapi.yml
+- filename: accredible-references-api-openapi.yml
+  format: yaml
+  label: Accredible References API
+  slug: accredible-references-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-references-api-openapi.yml
+- filename: accredible-sso-api-openapi.yml
+  format: yaml
+  label: Accredible SSO API
+  slug: accredible-sso-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-sso-api-openapi.yml
+- filename: accredible-team-members-api-openapi.yml
+  format: yaml
+  label: Accredible Team Members API
+  slug: accredible-team-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-team-members-api-openapi.yml
 description: ''
 domains:
 - caa:

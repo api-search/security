@@ -3,12 +3,30 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: sofar-ocean-spotter-openapi.yml
+- filename: sofar-ocean-devices-api-openapi.yml
   format: yaml
-  label: Spotter & Smart Mooring API
-  slug: spotter-smart-mooring-api
+  label: Sofar Ocean Devices API
+  slug: sofar-ocean-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/openapi/sofar-ocean-spotter-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/openapi/sofar-ocean-devices-api-openapi.yml
+- filename: sofar-ocean-smart-mooring-api-openapi.yml
+  format: yaml
+  label: Sofar Ocean Smart Mooring API
+  slug: sofar-ocean-smart-mooring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/openapi/sofar-ocean-smart-mooring-api-openapi.yml
+- filename: sofar-ocean-spotter-data-api-openapi.yml
+  format: yaml
+  label: Sofar Ocean Spotter Data API
+  slug: sofar-ocean-spotter-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/openapi/sofar-ocean-spotter-data-api-openapi.yml
+- filename: sofar-ocean-wave-spectra-api-openapi.yml
+  format: yaml
+  label: Sofar Ocean Wave Spectra API
+  slug: sofar-ocean-wave-spectra-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/openapi/sofar-ocean-wave-spectra-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

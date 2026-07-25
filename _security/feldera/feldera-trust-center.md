@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: feldera-openapi-original.json
-  format: json
-  label: Feldera API
-  slug: feldera-api
+- filename: feldera-input-connectors-api-openapi.yml
+  format: yaml
+  label: Feldera Input Connectors API
+  slug: feldera-input-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/openapi/feldera-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/openapi/feldera-input-connectors-api-openapi.yml
+- filename: feldera-metrics-debugging-api-openapi.yml
+  format: yaml
+  label: Feldera Metrics & Debugging API
+  slug: feldera-metrics-debugging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/openapi/feldera-metrics-debugging-api-openapi.yml
+- filename: feldera-output-connectors-api-openapi.yml
+  format: yaml
+  label: Feldera Output Connectors API
+  slug: feldera-output-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/openapi/feldera-output-connectors-api-openapi.yml
+- filename: feldera-pipeline-crud-api-openapi.yml
+  format: yaml
+  label: Feldera Pipeline CRUD API
+  slug: feldera-pipeline-crud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/openapi/feldera-pipeline-crud-api-openapi.yml
+- filename: feldera-pipeline-lifecycle-api-openapi.yml
+  format: yaml
+  label: Feldera Pipeline Lifecycle API
+  slug: feldera-pipeline-lifecycle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/openapi/feldera-pipeline-lifecycle-api-openapi.yml
+- filename: feldera-platform-api-openapi.yml
+  format: yaml
+  label: Feldera Platform API
+  slug: feldera-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/openapi/feldera-platform-api-openapi.yml
 certifications:
 - SOC 2
 description: ''

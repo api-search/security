@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Slite API
-  slug: slite-api
+- filename: slite-ask-api-openapi.yml
+  format: yaml
+  label: Slite Ask API
+  slug: slite-ask-api
   spec_type: OpenAPI
-  url: https://api.slite.com/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/slite/refs/heads/main/openapi/slite-ask-api-openapi.yml
+- filename: slite-groups-api-openapi.yml
+  format: yaml
+  label: Slite Groups API
+  slug: slite-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slite/refs/heads/main/openapi/slite-groups-api-openapi.yml
+- filename: slite-knowledge-management-api-openapi.yml
+  format: yaml
+  label: Slite Knowledge Management API
+  slug: slite-knowledge-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slite/refs/heads/main/openapi/slite-knowledge-management-api-openapi.yml
+- filename: slite-me-api-openapi.yml
+  format: yaml
+  label: Slite Me API
+  slug: slite-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slite/refs/heads/main/openapi/slite-me-api-openapi.yml
+- filename: slite-notes-api-openapi.yml
+  format: yaml
+  label: Slite Notes API
+  slug: slite-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slite/refs/heads/main/openapi/slite-notes-api-openapi.yml
+- filename: slite-search-notes-api-openapi.yml
+  format: yaml
+  label: Slite Search Notes API
+  slug: slite-search-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slite/refs/heads/main/openapi/slite-search-notes-api-openapi.yml
+- filename: slite-users-api-openapi.yml
+  format: yaml
+  label: Slite Users API
+  slug: slite-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slite/refs/heads/main/openapi/slite-users-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,6 +1,19 @@
 ---
 api_key_in:
 - header
+api_specs:
+- filename: clarivate-documents-api-openapi.yml
+  format: yaml
+  label: Clarivate Documents API
+  slug: clarivate-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-documents-api-openapi.yml
+- filename: clarivate-journals-api-openapi.yml
+  format: yaml
+  label: Clarivate Journals API
+  slug: clarivate-journals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-journals-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

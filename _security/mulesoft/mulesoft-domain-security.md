@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: mulesoft-anypoint-platform-openapi.yml
+- filename: mulesoft-applications-api-openapi.yml
   format: yaml
-  label: MuleSoft Anypoint Platform Management API
-  slug: mulesoft-anypoint-platform-api
+  label: MuleSoft Applications API
+  slug: mulesoft-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mulesoft/refs/heads/main/openapi/mulesoft-anypoint-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mulesoft/refs/heads/main/openapi/mulesoft-applications-api-openapi.yml
+- filename: mulesoft-environments-api-openapi.yml
+  format: yaml
+  label: MuleSoft Environments API
+  slug: mulesoft-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mulesoft/refs/heads/main/openapi/mulesoft-environments-api-openapi.yml
+- filename: mulesoft-organizations-api-openapi.yml
+  format: yaml
+  label: MuleSoft Organizations API
+  slug: mulesoft-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mulesoft/refs/heads/main/openapi/mulesoft-organizations-api-openapi.yml
 description: ''
 domains:
 - caa: []

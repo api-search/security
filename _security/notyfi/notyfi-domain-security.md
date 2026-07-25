@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: notyfi-openapi-original.json
-  format: json
-  label: Notyfi API
-  slug: notyfi-api
+- filename: notyfi-account-api-openapi.yml
+  format: yaml
+  label: Notyfi account API
+  slug: notyfi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/openapi/notyfi-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/openapi/notyfi-account-api-openapi.yml
+- filename: notyfi-billing-api-openapi.yml
+  format: yaml
+  label: Notyfi billing API
+  slug: notyfi-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/openapi/notyfi-billing-api-openapi.yml
+- filename: notyfi-keys-api-openapi.yml
+  format: yaml
+  label: Notyfi keys API
+  slug: notyfi-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/openapi/notyfi-keys-api-openapi.yml
+- filename: notyfi-trackers-api-openapi.yml
+  format: yaml
+  label: Notyfi trackers API
+  slug: notyfi-trackers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/openapi/notyfi-trackers-api-openapi.yml
+- filename: notyfi-webhooks-api-openapi.yml
+  format: yaml
+  label: Notyfi webhooks API
+  slug: notyfi-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/openapi/notyfi-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

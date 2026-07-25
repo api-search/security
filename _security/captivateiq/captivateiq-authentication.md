@@ -2,12 +2,102 @@
 api_key_in:
 - header
 api_specs:
-- filename: captivateiq-openapi-original.yml
+- filename: captivateiq-attribute-worksheets-api-openapi.yml
   format: yaml
-  label: CaptivateIQ API
-  slug: captivateiq-api
+  label: CaptivateIQ Attribute Worksheets API
+  slug: captivateiq-attribute-worksheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-attribute-worksheets-api-openapi.yml
+- filename: captivateiq-audit-logs-api-openapi.yml
+  format: yaml
+  label: CaptivateIQ Audit Logs API
+  slug: captivateiq-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-audit-logs-api-openapi.yml
+- filename: captivateiq-commission-plans-api-openapi.yml
+  format: yaml
+  label: CaptivateIQ Commission Plans API
+  slug: captivateiq-commission-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-commission-plans-api-openapi.yml
+- filename: captivateiq-dashboards-api-openapi.yml
+  format: yaml
+  label: CaptivateIQ Dashboards API
+  slug: captivateiq-dashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-dashboards-api-openapi.yml
+- filename: captivateiq-data-workbooks-api-openapi.yml
+  format: yaml
+  label: CaptivateIQ Data Workbooks API
+  slug: captivateiq-data-workbooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-data-workbooks-api-openapi.yml
+- filename: captivateiq-data-worksheets-api-openapi.yml
+  format: yaml
+  label: CaptivateIQ Data Worksheets API
+  slug: captivateiq-data-worksheets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-data-worksheets-api-openapi.yml
+- filename: captivateiq-employee-assumptions-api-openapi.yml
+  format: yaml
+  label: CaptivateIQ Employee Assumptions API
+  slug: captivateiq-employee-assumptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-employee-assumptions-api-openapi.yml
+- filename: captivateiq-employees-api-openapi.yml
+  format: yaml
+  label: CaptivateIQ Employees API
+  slug: captivateiq-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-employees-api-openapi.yml
+- filename: captivateiq-hierarchies-api-openapi.yml
+  format: yaml
+  label: CaptivateIQ Hierarchies API
+  slug: captivateiq-hierarchies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-hierarchies-api-openapi.yml
+- filename: captivateiq-jobs-api-openapi.yml
+  format: yaml
+  label: CaptivateIQ Jobs API
+  slug: captivateiq-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-jobs-api-openapi.yml
+- filename: captivateiq-metadata-api-openapi.yml
+  format: yaml
+  label: CaptivateIQ Metadata API
+  slug: captivateiq-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-metadata-api-openapi.yml
+- filename: captivateiq-payouts-api-openapi.yml
+  format: yaml
+  label: CaptivateIQ Payouts API
+  slug: captivateiq-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-payouts-api-openapi.yml
+- filename: captivateiq-report-models-api-openapi.yml
+  format: yaml
+  label: CaptivateIQ Report Models API
+  slug: captivateiq-report-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-report-models-api-openapi.yml
+- filename: captivateiq-transformation-worksheets-api-openapi.yml
+  format: yaml
+  label: CaptivateIQ Transformation Worksheets API
+  slug: captivateiq-transformation-worksheets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-transformation-worksheets-api-openapi.yml
+- filename: captivateiq-uploads-api-openapi.yml
+  format: yaml
+  label: CaptivateIQ Uploads API
+  slug: captivateiq-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-uploads-api-openapi.yml
+- filename: captivateiq-users-api-openapi.yml
+  format: yaml
+  label: CaptivateIQ Users API
+  slug: captivateiq-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

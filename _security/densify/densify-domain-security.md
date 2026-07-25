@@ -6,6 +6,36 @@ api_specs:
   slug: public-cloud-api
   spec_type: Postman
   url: https://www.densify.com/dev
+- filename: densify-authentication-api-openapi.yml
+  format: yaml
+  label: Densify Authentication API
+  slug: densify-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-authentication-api-openapi.yml
+- filename: densify-cloud-analysis-api-openapi.yml
+  format: yaml
+  label: Densify Cloud Analysis API
+  slug: densify-cloud-analysis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-cloud-analysis-api-openapi.yml
+- filename: densify-kubernetes-api-openapi.yml
+  format: yaml
+  label: Densify Kubernetes API
+  slug: densify-kubernetes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-kubernetes-api-openapi.yml
+- filename: densify-recommendations-api-openapi.yml
+  format: yaml
+  label: Densify Recommendations API
+  slug: densify-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-recommendations-api-openapi.yml
+- filename: densify-system-api-openapi.yml
+  format: yaml
+  label: Densify System API
+  slug: densify-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-system-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,18 +1,96 @@
 ---
 api_key_in: []
 api_specs:
-- filename: valimail-config-openapi-original.yml
+- filename: valimail-accounts-api-openapi.yml
   format: yaml
-  label: Valimail Configuration API
-  slug: valimail-configuration-api
+  label: Valimail Accounts API
+  slug: valimail-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/openapi/valimail-config-openapi-original.yml
-- filename: valimail-account-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/openapi/valimail-accounts-api-openapi.yml
+- filename: valimail-authentication-api-openapi.yml
   format: yaml
-  label: Valimail Account Management API
-  slug: valimail-account-management-api
+  label: Valimail Authentication API
+  slug: valimail-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/openapi/valimail-account-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/openapi/valimail-authentication-api-openapi.yml
+- filename: valimail-dkims-by-domain-api-openapi.yml
+  format: yaml
+  label: Valimail DKIMs by Domain API
+  slug: valimail-dkims-by-domain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/openapi/valimail-dkims-by-domain-api-openapi.yml
+- filename: valimail-dkims-by-sender-api-openapi.yml
+  format: yaml
+  label: Valimail DKIMs by Sender API
+  slug: valimail-dkims-by-sender-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/openapi/valimail-dkims-by-sender-api-openapi.yml
+- filename: valimail-domains-api-openapi.yml
+  format: yaml
+  label: Valimail Domains API
+  slug: valimail-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/openapi/valimail-domains-api-openapi.yml
+- filename: valimail-mta-sts-policy-api-openapi.yml
+  format: yaml
+  label: Valimail MTA-STS Policy API
+  slug: valimail-mta-sts-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/openapi/valimail-mta-sts-policy-api-openapi.yml
+- filename: valimail-mta-sts-policy-reports-api-openapi.yml
+  format: yaml
+  label: Valimail MTA-STS Policy Reports API
+  slug: valimail-mta-sts-policy-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/openapi/valimail-mta-sts-policy-reports-api-openapi.yml
+- filename: valimail-netblocks-api-openapi.yml
+  format: yaml
+  label: Valimail Netblocks API
+  slug: valimail-netblocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/openapi/valimail-netblocks-api-openapi.yml
+- filename: valimail-portfolios-api-openapi.yml
+  format: yaml
+  label: Valimail Portfolios API
+  slug: valimail-portfolios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/openapi/valimail-portfolios-api-openapi.yml
+- filename: valimail-scim-api-openapi.yml
+  format: yaml
+  label: Valimail SCIM API
+  slug: valimail-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/openapi/valimail-scim-api-openapi.yml
+- filename: valimail-senders-api-openapi.yml
+  format: yaml
+  label: Valimail Senders API
+  slug: valimail-senders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/openapi/valimail-senders-api-openapi.yml
+- filename: valimail-sso-api-openapi.yml
+  format: yaml
+  label: Valimail SSO API
+  slug: valimail-sso-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/openapi/valimail-sso-api-openapi.yml
+- filename: valimail-tls-configuration-api-openapi.yml
+  format: yaml
+  label: Valimail TLS Configuration API
+  slug: valimail-tls-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/openapi/valimail-tls-configuration-api-openapi.yml
+- filename: valimail-users-api-openapi.yml
+  format: yaml
+  label: Valimail Users API
+  slug: valimail-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/openapi/valimail-users-api-openapi.yml
+- filename: valimail-webhooks-api-openapi.yml
+  format: yaml
+  label: Valimail Webhooks API
+  slug: valimail-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/openapi/valimail-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

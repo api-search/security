@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: lenovo-openapi.yml
+- filename: lenovo-inventory-api-openapi.yml
   format: yaml
-  label: Lenovo XClarity Administrator REST API
-  slug: lenovo-xclarity-administrator-rest-api
+  label: Lenovo Inventory API
+  slug: lenovo-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lenovo/refs/heads/main/openapi/lenovo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lenovo/refs/heads/main/openapi/lenovo-inventory-api-openapi.yml
+- filename: lenovo-sessions-api-openapi.yml
+  format: yaml
+  label: Lenovo Sessions API
+  slug: lenovo-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lenovo/refs/heads/main/openapi/lenovo-sessions-api-openapi.yml
 description: ''
 domains:
 - caa: []

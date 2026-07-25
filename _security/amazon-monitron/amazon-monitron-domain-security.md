@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: amazon-monitron-openapi-original.yml
+- filename: amazon-monitron-projectadmins-api-openapi.yml
   format: yaml
-  label: Amazon Monitron API
-  slug: monitron-api
+  label: Amazon Monitron ProjectAdmins API
+  slug: amazon-monitron-projectadmins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/openapi/amazon-monitron-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/openapi/amazon-monitron-projectadmins-api-openapi.yml
+- filename: amazon-monitron-projects-api-openapi.yml
+  format: yaml
+  label: Amazon Monitron Projects API
+  slug: amazon-monitron-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/openapi/amazon-monitron-projects-api-openapi.yml
+- filename: amazon-monitron-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Monitron Tags API
+  slug: amazon-monitron-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/openapi/amazon-monitron-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

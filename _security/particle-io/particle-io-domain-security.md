@@ -1,4 +1,59 @@
 ---
+api_specs:
+- filename: particle-io-access-tokens-api-openapi.yml
+  format: yaml
+  label: Particle Access Tokens API
+  slug: particle-io-access-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/particle-io/refs/heads/main/openapi/particle-io-access-tokens-api-openapi.yml
+- filename: particle-io-clients-api-openapi.yml
+  format: yaml
+  label: Particle Clients API
+  slug: particle-io-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/particle-io/refs/heads/main/openapi/particle-io-clients-api-openapi.yml
+- filename: particle-io-devices-api-openapi.yml
+  format: yaml
+  label: Particle Devices API
+  slug: particle-io-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/particle-io/refs/heads/main/openapi/particle-io-devices-api-openapi.yml
+- filename: particle-io-diagnostics-api-openapi.yml
+  format: yaml
+  label: Particle Diagnostics API
+  slug: particle-io-diagnostics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/particle-io/refs/heads/main/openapi/particle-io-diagnostics-api-openapi.yml
+- filename: particle-io-oauth-api-openapi.yml
+  format: yaml
+  label: Particle Oauth API
+  slug: particle-io-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/particle-io/refs/heads/main/openapi/particle-io-oauth-api-openapi.yml
+- filename: particle-io-products-api-openapi.yml
+  format: yaml
+  label: Particle Products API
+  slug: particle-io-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/particle-io/refs/heads/main/openapi/particle-io-products-api-openapi.yml
+- filename: particle-io-serial-numbers-api-openapi.yml
+  format: yaml
+  label: Particle Serial Numbers API
+  slug: particle-io-serial-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/particle-io/refs/heads/main/openapi/particle-io-serial-numbers-api-openapi.yml
+- filename: particle-io-sims-api-openapi.yml
+  format: yaml
+  label: Particle Sims API
+  slug: particle-io-sims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/particle-io/refs/heads/main/openapi/particle-io-sims-api-openapi.yml
+- filename: particle-io-user-api-openapi.yml
+  format: yaml
+  label: Particle User API
+  slug: particle-io-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/particle-io/refs/heads/main/openapi/particle-io-user-api-openapi.yml
 description: ''
 domains:
 - caa:

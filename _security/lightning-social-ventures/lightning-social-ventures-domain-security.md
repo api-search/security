@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: lightning-social-ventures-lightning-reach-openapi.json
-  format: json
-  label: Lightning Reach API
-  slug: lightning-reach-api
+- filename: lightning-social-ventures-applications-api-openapi.yml
+  format: yaml
+  label: Lightning Social Ventures Applications API
+  slug: lightning-social-ventures-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightning-social-ventures/refs/heads/main/openapi/lightning-social-ventures-lightning-reach-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/lightning-social-ventures/refs/heads/main/openapi/lightning-social-ventures-applications-api-openapi.yml
+- filename: lightning-social-ventures-support-schemes-api-openapi.yml
+  format: yaml
+  label: Lightning Social Ventures Support Schemes API
+  slug: lightning-social-ventures-support-schemes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightning-social-ventures/refs/heads/main/openapi/lightning-social-ventures-support-schemes-api-openapi.yml
+- filename: lightning-social-ventures-webhooks-api-openapi.yml
+  format: yaml
+  label: Lightning Social Ventures Webhooks API
+  slug: lightning-social-ventures-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightning-social-ventures/refs/heads/main/openapi/lightning-social-ventures-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

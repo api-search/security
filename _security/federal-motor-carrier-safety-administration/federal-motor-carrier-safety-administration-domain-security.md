@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: federal-motor-carrier-safety-administration-openapi.yml
+- filename: federal-motor-carrier-safety-administration-carriers-api-openapi.yml
   format: yaml
-  label: Federal Motor Carrier Safety Administration QCMobile API
-  slug: federal-motor-carrier-safety-administration
+  label: Federal Motor Carrier Safety Administration Carriers API
+  slug: federal-motor-carrier-safety-administration-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-motor-carrier-safety-administration/refs/heads/main/openapi/federal-motor-carrier-safety-administration-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/federal-motor-carrier-safety-administration/refs/heads/main/openapi/federal-motor-carrier-safety-administration-carriers-api-openapi.yml
 description: ''
 domains:
 - caa: []

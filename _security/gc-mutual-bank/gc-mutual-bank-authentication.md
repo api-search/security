@@ -1,36 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: gc-mutual-bank-cds-banking-products-openapi.yml
+- filename: gc-mutual-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: G&C Mutual Bank CDR Product Reference Data API
-  slug: gc-mutual-bank-cdr-product-reference-data-api
+  label: G&C Mutual Bank Banking Account Balances API
+  slug: gc-mutual-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/openapi/gc-mutual-bank-cds-banking-products-openapi.yml
-- filename: gc-mutual-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/openapi/gc-mutual-bank-banking-account-balances-api-openapi.yml
+- filename: gc-mutual-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: G&C Mutual Bank CDR Accounts & Balances API
-  slug: gc-mutual-bank-cdr-accounts-balances-api
+  label: G&C Mutual Bank Banking Account Direct Debits API
+  slug: gc-mutual-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/openapi/gc-mutual-bank-cds-banking-products-openapi.yml
-- filename: gc-mutual-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/openapi/gc-mutual-bank-banking-account-direct-debits-api-openapi.yml
+- filename: gc-mutual-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: G&C Mutual Bank CDR Transactions API
-  slug: gc-mutual-bank-cdr-transactions-api
+  label: G&C Mutual Bank Banking Account Scheduled Payments API
+  slug: gc-mutual-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/openapi/gc-mutual-bank-cds-banking-products-openapi.yml
-- filename: gc-mutual-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/openapi/gc-mutual-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: gc-mutual-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: G&C Mutual Bank CDR Direct Debits & Scheduled Payments API
-  slug: gc-mutual-bank-cdr-direct-debits-scheduled-payments-api
+  label: G&C Mutual Bank Banking Account Transactions API
+  slug: gc-mutual-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/openapi/gc-mutual-bank-cds-banking-products-openapi.yml
-- filename: gc-mutual-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/openapi/gc-mutual-bank-banking-account-transactions-api-openapi.yml
+- filename: gc-mutual-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: G&C Mutual Bank CDR Payees API
-  slug: gc-mutual-bank-cdr-payees-api
+  label: G&C Mutual Bank Banking Accounts API
+  slug: gc-mutual-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/openapi/gc-mutual-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/openapi/gc-mutual-bank-banking-accounts-api-openapi.yml
+- filename: gc-mutual-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: G&C Mutual Bank Banking Payees API
+  slug: gc-mutual-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/openapi/gc-mutual-bank-banking-payees-api-openapi.yml
+- filename: gc-mutual-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: G&C Mutual Bank Banking Products API
+  slug: gc-mutual-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/openapi/gc-mutual-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2

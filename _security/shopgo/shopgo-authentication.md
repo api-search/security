@@ -2,18 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: shopgo-management-openapi.yml
+- filename: shopgo-authentication-api-openapi.yml
   format: yaml
-  label: ShopGo Management API
-  slug: shopgo-management-api
+  label: ShopGo Authentication API
+  slug: shopgo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/heads/main/openapi/shopgo-management-openapi.yml
-- filename: shopgo-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/heads/main/openapi/shopgo-authentication-api-openapi.yml
+- filename: shopgo-orders-api-openapi.yml
   format: yaml
-  label: ShopGo Platform API
-  slug: shopgo-platform-api
+  label: ShopGo Orders API
+  slug: shopgo-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/heads/main/openapi/shopgo-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/heads/main/openapi/shopgo-orders-api-openapi.yml
+- filename: shopgo-store-api-openapi.yml
+  format: yaml
+  label: ShopGo Store API
+  slug: shopgo-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/heads/main/openapi/shopgo-store-api-openapi.yml
+- filename: shopgo-tenants-api-openapi.yml
+  format: yaml
+  label: ShopGo Tenants API
+  slug: shopgo-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/heads/main/openapi/shopgo-tenants-api-openapi.yml
+- filename: shopgo-users-api-openapi.yml
+  format: yaml
+  label: ShopGo Users API
+  slug: shopgo-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/heads/main/openapi/shopgo-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

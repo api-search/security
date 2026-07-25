@@ -1,29 +1,41 @@
 ---
 api_specs:
-- filename: uptrain-openapi.yml
+- filename: uptrain-auth-api-openapi.yml
   format: yaml
-  label: UpTrain Evaluations API
-  slug: uptrain-evaluations-api
+  label: UpTrain Auth API
+  slug: uptrain-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/openapi/uptrain-openapi.yml
-- filename: uptrain-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/openapi/uptrain-auth-api-openapi.yml
+- filename: uptrain-checksets-api-openapi.yml
   format: yaml
-  label: UpTrain Log and Evaluate API
-  slug: uptrain-log-and-evaluate-api
+  label: UpTrain Checksets API
+  slug: uptrain-checksets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/openapi/uptrain-openapi.yml
-- filename: uptrain-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/openapi/uptrain-checksets-api-openapi.yml
+- filename: uptrain-datasets-api-openapi.yml
+  format: yaml
+  label: UpTrain Datasets API
+  slug: uptrain-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/openapi/uptrain-datasets-api-openapi.yml
+- filename: uptrain-evaluation-api-openapi.yml
+  format: yaml
+  label: UpTrain Evaluation API
+  slug: uptrain-evaluation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/openapi/uptrain-evaluation-api-openapi.yml
+- filename: uptrain-root-cause-analysis-api-openapi.yml
   format: yaml
   label: UpTrain Root Cause Analysis API
   slug: uptrain-root-cause-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/openapi/uptrain-openapi.yml
-- filename: uptrain-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/openapi/uptrain-root-cause-analysis-api-openapi.yml
+- filename: uptrain-runs-api-openapi.yml
   format: yaml
-  label: UpTrain Runs and Datasets API
+  label: UpTrain Runs API
   slug: uptrain-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/openapi/uptrain-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/openapi/uptrain-runs-api-openapi.yml
 description: ''
 domains:
 - caa: []

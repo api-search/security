@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: docs
+- filename: yearn-chains-api-openapi.yml
   format: yaml
-  label: yDaemon REST API
-  slug: ydaemon-rest-api
+  label: Yearn Finance Chains API
+  slug: yearn-chains-api
   spec_type: OpenAPI
-  url: https://ydaemon.yearn.fi/docs
+  url: https://raw.githubusercontent.com/api-evangelist/yearn/refs/heads/main/openapi/yearn-chains-api-openapi.yml
+- filename: yearn-info-api-openapi.yml
+  format: yaml
+  label: Yearn Finance Info API
+  slug: yearn-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yearn/refs/heads/main/openapi/yearn-info-api-openapi.yml
+- filename: yearn-tvl-api-openapi.yml
+  format: yaml
+  label: Yearn Finance TVL API
+  slug: yearn-tvl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yearn/refs/heads/main/openapi/yearn-tvl-api-openapi.yml
+- filename: yearn-vaults-api-openapi.yml
+  format: yaml
+  label: Yearn Finance Vaults API
+  slug: yearn-vaults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yearn/refs/heads/main/openapi/yearn-vaults-api-openapi.yml
 description: ''
 domains:
 - caa: []

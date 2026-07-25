@@ -1,23 +1,53 @@
 ---
 api_specs:
-- filename: lance-namespace-openapi.yaml
+- filename: lancedb-data-api-openapi.yml
   format: yaml
-  label: LanceDB OSS
-  slug: oss
+  label: LanceDB Data API
+  slug: lancedb-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancedb/main/openapi/lance-namespace-openapi.yaml
-- filename: lance-namespace-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-data-api-openapi.yml
+- filename: lancedb-index-api-openapi.yml
   format: yaml
-  label: LanceDB Cloud
-  slug: cloud
+  label: LanceDB Index API
+  slug: lancedb-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancedb/main/openapi/lance-namespace-openapi.yaml
-- filename: spec.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-index-api-openapi.yml
+- filename: lancedb-materializedview-api-openapi.yml
   format: yaml
-  label: Lance Namespace Specification
-  slug: lance-namespace
+  label: LanceDB MaterializedView API
+  slug: lancedb-materializedview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/lance-format/lance-namespace/main/docs/src/spec.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-materializedview-api-openapi.yml
+- filename: lancedb-metadata-api-openapi.yml
+  format: yaml
+  label: LanceDB Metadata API
+  slug: lancedb-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-metadata-api-openapi.yml
+- filename: lancedb-namespace-api-openapi.yml
+  format: yaml
+  label: LanceDB Namespace API
+  slug: lancedb-namespace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-namespace-api-openapi.yml
+- filename: lancedb-table-api-openapi.yml
+  format: yaml
+  label: LanceDB Table API
+  slug: lancedb-table-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-table-api-openapi.yml
+- filename: lancedb-tag-api-openapi.yml
+  format: yaml
+  label: LanceDB Tag API
+  slug: lancedb-tag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-tag-api-openapi.yml
+- filename: lancedb-transaction-api-openapi.yml
+  format: yaml
+  label: LanceDB Transaction API
+  slug: lancedb-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-transaction-api-openapi.yml
 description: ''
 domains:
 - caa:

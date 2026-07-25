@@ -1,30 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ultrahuman-openapi.yml
+- filename: ultrahuman-metrics-api-openapi.yml
   format: yaml
   label: Ultrahuman Metrics API
   slug: ultrahuman-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/openapi/ultrahuman-openapi.yml
-- filename: ultrahuman-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/openapi/ultrahuman-metrics-api-openapi.yml
+- filename: ultrahuman-oauth-api-openapi.yml
   format: yaml
-  label: Ultrahuman CGM (Glucose) API
-  slug: ultrahuman-cgm-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/openapi/ultrahuman-openapi.yml
-- filename: ultrahuman-openapi.yml
-  format: yaml
-  label: Ultrahuman User Info API
-  slug: ultrahuman-user-info-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/openapi/ultrahuman-openapi.yml
-- filename: ultrahuman-openapi.yml
-  format: yaml
-  label: Ultrahuman OAuth 2.0 API
+  label: Ultrahuman OAuth API
   slug: ultrahuman-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/openapi/ultrahuman-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/openapi/ultrahuman-oauth-api-openapi.yml
+- filename: ultrahuman-user-api-openapi.yml
+  format: yaml
+  label: Ultrahuman User API
+  slug: ultrahuman-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/openapi/ultrahuman-user-api-openapi.yml
 auth_types:
 - http
 description: ''

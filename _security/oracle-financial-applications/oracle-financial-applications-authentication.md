@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: op-version-latest-get.html
+- filename: oracle-financial-applications-cash-management-api-openapi.yml
   format: yaml
-  label: Oracle ERP Cloud REST API
-  slug: oracle-erp-cloud-rest-api
+  label: Oracle Financial Applications Cash Management API
+  slug: oracle-financial-applications-cash-management-api
   spec_type: OpenAPI
-  url: https://docs.oracle.com/en/cloud/saas/financials/24d/farfa/op-version-latest-get.html
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-financial-applications/refs/heads/main/openapi/oracle-financial-applications-cash-management-api-openapi.yml
+- filename: oracle-financial-applications-fixed-assets-api-openapi.yml
+  format: yaml
+  label: Oracle Financial Applications Fixed Assets API
+  slug: oracle-financial-applications-fixed-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-financial-applications/refs/heads/main/openapi/oracle-financial-applications-fixed-assets-api-openapi.yml
+- filename: oracle-financial-applications-general-ledger-api-openapi.yml
+  format: yaml
+  label: Oracle Financial Applications General Ledger API
+  slug: oracle-financial-applications-general-ledger-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-financial-applications/refs/heads/main/openapi/oracle-financial-applications-general-ledger-api-openapi.yml
+- filename: oracle-financial-applications-payables-api-openapi.yml
+  format: yaml
+  label: Oracle Financial Applications Payables API
+  slug: oracle-financial-applications-payables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-financial-applications/refs/heads/main/openapi/oracle-financial-applications-payables-api-openapi.yml
+- filename: oracle-financial-applications-receivables-api-openapi.yml
+  format: yaml
+  label: Oracle Financial Applications Receivables API
+  slug: oracle-financial-applications-receivables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-financial-applications/refs/heads/main/openapi/oracle-financial-applications-receivables-api-openapi.yml
 auth_types:
 - http
 description: ''

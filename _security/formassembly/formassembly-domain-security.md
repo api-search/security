@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: formassembly-formassembly-api-openapi.yml
+- filename: formassembly-admin-api-openapi.yml
   format: yaml
-  label: FormAssembly REST API
-  slug: formassembly-api
+  label: FormAssembly Admin API
+  slug: formassembly-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-formassembly-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-admin-api-openapi.yml
+- filename: formassembly-aggregates-api-openapi.yml
+  format: yaml
+  label: FormAssembly Aggregates API
+  slug: formassembly-aggregates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-aggregates-api-openapi.yml
+- filename: formassembly-connectors-api-openapi.yml
+  format: yaml
+  label: FormAssembly Connectors API
+  slug: formassembly-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-connectors-api-openapi.yml
+- filename: formassembly-form-elements-api-openapi.yml
+  format: yaml
+  label: FormAssembly Form Elements API
+  slug: formassembly-form-elements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-form-elements-api-openapi.yml
+- filename: formassembly-forms-api-openapi.yml
+  format: yaml
+  label: FormAssembly Forms API
+  slug: formassembly-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-forms-api-openapi.yml
+- filename: formassembly-oauth2-api-openapi.yml
+  format: yaml
+  label: FormAssembly OAuth2 API
+  slug: formassembly-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-oauth2-api-openapi.yml
+- filename: formassembly-responses-api-openapi.yml
+  format: yaml
+  label: FormAssembly Responses API
+  slug: formassembly-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-responses-api-openapi.yml
+- filename: formassembly-themes-api-openapi.yml
+  format: yaml
+  label: FormAssembly Themes API
+  slug: formassembly-themes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-themes-api-openapi.yml
 description: ''
 domains:
 - caa: []

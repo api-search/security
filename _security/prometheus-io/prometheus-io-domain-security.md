@@ -1,17 +1,113 @@
 ---
 api_specs:
-- filename: prometheus-server-api-openapi.yml
+- filename: prometheus-io-admin-api-openapi.yml
   format: yaml
-  label: Prometheus Server HTTP API
-  slug: prometheus-server-api
+  label: Prometheus admin API
+  slug: prometheus-io-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/openapi/prometheus-server-api-openapi.yml
-- filename: prometheus-alertmanager-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/openapi/prometheus-io-admin-api-openapi.yml
+- filename: prometheus-io-alert-api-openapi.yml
   format: yaml
-  label: Prometheus Alertmanager API v2
-  slug: prometheus-alertmanager-api
+  label: Prometheus alert API
+  slug: prometheus-io-alert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/openapi/prometheus-alertmanager-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/openapi/prometheus-io-alert-api-openapi.yml
+- filename: prometheus-io-alertgroup-api-openapi.yml
+  format: yaml
+  label: Prometheus alertgroup API
+  slug: prometheus-io-alertgroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/openapi/prometheus-io-alertgroup-api-openapi.yml
+- filename: prometheus-io-alerts-api-openapi.yml
+  format: yaml
+  label: Prometheus alerts API
+  slug: prometheus-io-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/openapi/prometheus-io-alerts-api-openapi.yml
+- filename: prometheus-io-features-api-openapi.yml
+  format: yaml
+  label: Prometheus features API
+  slug: prometheus-io-features-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/openapi/prometheus-io-features-api-openapi.yml
+- filename: prometheus-io-general-api-openapi.yml
+  format: yaml
+  label: Prometheus general API
+  slug: prometheus-io-general-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/openapi/prometheus-io-general-api-openapi.yml
+- filename: prometheus-io-labels-api-openapi.yml
+  format: yaml
+  label: Prometheus labels API
+  slug: prometheus-io-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/openapi/prometheus-io-labels-api-openapi.yml
+- filename: prometheus-io-metadata-api-openapi.yml
+  format: yaml
+  label: Prometheus metadata API
+  slug: prometheus-io-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/openapi/prometheus-io-metadata-api-openapi.yml
+- filename: prometheus-io-notifications-api-openapi.yml
+  format: yaml
+  label: Prometheus notifications API
+  slug: prometheus-io-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/openapi/prometheus-io-notifications-api-openapi.yml
+- filename: prometheus-io-otlp-api-openapi.yml
+  format: yaml
+  label: Prometheus otlp API
+  slug: prometheus-io-otlp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/openapi/prometheus-io-otlp-api-openapi.yml
+- filename: prometheus-io-query-api-openapi.yml
+  format: yaml
+  label: Prometheus query API
+  slug: prometheus-io-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/openapi/prometheus-io-query-api-openapi.yml
+- filename: prometheus-io-receiver-api-openapi.yml
+  format: yaml
+  label: Prometheus receiver API
+  slug: prometheus-io-receiver-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/openapi/prometheus-io-receiver-api-openapi.yml
+- filename: prometheus-io-remote-api-openapi.yml
+  format: yaml
+  label: Prometheus remote API
+  slug: prometheus-io-remote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/openapi/prometheus-io-remote-api-openapi.yml
+- filename: prometheus-io-rules-api-openapi.yml
+  format: yaml
+  label: Prometheus rules API
+  slug: prometheus-io-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/openapi/prometheus-io-rules-api-openapi.yml
+- filename: prometheus-io-series-api-openapi.yml
+  format: yaml
+  label: Prometheus series API
+  slug: prometheus-io-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/openapi/prometheus-io-series-api-openapi.yml
+- filename: prometheus-io-silence-api-openapi.yml
+  format: yaml
+  label: Prometheus silence API
+  slug: prometheus-io-silence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/openapi/prometheus-io-silence-api-openapi.yml
+- filename: prometheus-io-status-api-openapi.yml
+  format: yaml
+  label: Prometheus status API
+  slug: prometheus-io-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/openapi/prometheus-io-status-api-openapi.yml
+- filename: prometheus-io-targets-api-openapi.yml
+  format: yaml
+  label: Prometheus targets API
+  slug: prometheus-io-targets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/openapi/prometheus-io-targets-api-openapi.yml
 description: ''
 domains:
 - caa:

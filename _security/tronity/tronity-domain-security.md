@@ -1,35 +1,41 @@
 ---
 api_specs:
-- filename: tronity-openapi.yml
+- filename: tronity-authentication-api-openapi.yml
   format: yaml
-  label: TRONITY Vehicles API
-  slug: tronity-vehicles-api
+  label: TRONITY Authentication API
+  slug: tronity-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-openapi.yml
-- filename: tronity-openapi.yml
-  format: yaml
-  label: TRONITY Vehicle Data API
-  slug: tronity-vehicle-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-openapi.yml
-- filename: tronity-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-authentication-api-openapi.yml
+- filename: tronity-charging-battery-api-openapi.yml
   format: yaml
   label: TRONITY Charging & Battery API
   slug: tronity-charging-battery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-openapi.yml
-- filename: tronity-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-charging-battery-api-openapi.yml
+- filename: tronity-commands-api-openapi.yml
   format: yaml
   label: TRONITY Commands API
   slug: tronity-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-openapi.yml
-- filename: tronity-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-commands-api-openapi.yml
+- filename: tronity-vehicle-data-api-openapi.yml
+  format: yaml
+  label: TRONITY Vehicle Data API
+  slug: tronity-vehicle-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-vehicle-data-api-openapi.yml
+- filename: tronity-vehicles-api-openapi.yml
+  format: yaml
+  label: TRONITY Vehicles API
+  slug: tronity-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-vehicles-api-openapi.yml
+- filename: tronity-webhooks-api-openapi.yml
   format: yaml
   label: TRONITY Webhooks API
   slug: tronity-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

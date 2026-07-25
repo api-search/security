@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: photoroom-openapi.yml
+- filename: photoroom-account-api-openapi.yml
   format: yaml
-  label: Photoroom API
-  slug: platform
+  label: Photoroom Account API
+  slug: photoroom-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photoroom/refs/heads/main/openapi/photoroom-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/photoroom/refs/heads/main/openapi/photoroom-account-api-openapi.yml
+- filename: photoroom-edit-api-openapi.yml
+  format: yaml
+  label: Photoroom Edit API
+  slug: photoroom-edit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/photoroom/refs/heads/main/openapi/photoroom-edit-api-openapi.yml
+- filename: photoroom-render-api-openapi.yml
+  format: yaml
+  label: Photoroom Render API
+  slug: photoroom-render-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/photoroom/refs/heads/main/openapi/photoroom-render-api-openapi.yml
+- filename: photoroom-segment-api-openapi.yml
+  format: yaml
+  label: Photoroom Segment API
+  slug: photoroom-segment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/photoroom/refs/heads/main/openapi/photoroom-segment-api-openapi.yml
 description: ''
 domains:
 - caa: []

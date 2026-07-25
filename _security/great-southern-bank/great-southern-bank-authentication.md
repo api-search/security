@@ -1,42 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: great-southern-bank-cds-banking-products-openapi.yml
+- filename: great-southern-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Great Southern Bank CDR Product Reference Data API
-  slug: great-southern-bank-cdr-product-reference-data-api
+  label: Great Southern Bank Banking Account Balances API
+  slug: great-southern-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-cds-banking-products-openapi.yml
-- filename: great-southern-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-account-balances-api-openapi.yml
+- filename: great-southern-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Great Southern Bank Business+ CDR Product Reference Data API
-  slug: great-southern-bank-business-cdr-product-reference-data-api
+  label: Great Southern Bank Banking Account Direct Debits API
+  slug: great-southern-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-cds-banking-products-openapi.yml
-- filename: great-southern-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-account-direct-debits-api-openapi.yml
+- filename: great-southern-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Great Southern Bank CDR Accounts & Balances API
-  slug: great-southern-bank-cdr-accounts-balances-api
+  label: Great Southern Bank Banking Account Scheduled Payments API
+  slug: great-southern-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-cds-banking-products-openapi.yml
-- filename: great-southern-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: great-southern-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Great Southern Bank CDR Transactions API
-  slug: great-southern-bank-cdr-transactions-api
+  label: Great Southern Bank Banking Account Transactions API
+  slug: great-southern-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-cds-banking-products-openapi.yml
-- filename: great-southern-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-account-transactions-api-openapi.yml
+- filename: great-southern-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: Great Southern Bank CDR Direct Debits & Scheduled Payments API
-  slug: great-southern-bank-cdr-direct-debits-scheduled-payments-api
+  label: Great Southern Bank Banking Accounts API
+  slug: great-southern-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-cds-banking-products-openapi.yml
-- filename: great-southern-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-accounts-api-openapi.yml
+- filename: great-southern-bank-banking-payees-api-openapi.yml
   format: yaml
-  label: Great Southern Bank CDR Payees API
-  slug: great-southern-bank-cdr-payees-api
+  label: Great Southern Bank Banking Payees API
+  slug: great-southern-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-payees-api-openapi.yml
+- filename: great-southern-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: Great Southern Bank Banking Products API
+  slug: great-southern-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2

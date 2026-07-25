@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: playcanvas-rest-openapi.yml
+- filename: playcanvas-apps-api-openapi.yml
   format: yaml
-  label: PlayCanvas REST API
-  slug: playcanvas-rest-api
+  label: PlayCanvas Apps API
+  slug: playcanvas-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/openapi/playcanvas-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/openapi/playcanvas-apps-api-openapi.yml
+- filename: playcanvas-assets-api-openapi.yml
+  format: yaml
+  label: PlayCanvas Assets API
+  slug: playcanvas-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/openapi/playcanvas-assets-api-openapi.yml
+- filename: playcanvas-branches-api-openapi.yml
+  format: yaml
+  label: PlayCanvas Branches API
+  slug: playcanvas-branches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/openapi/playcanvas-branches-api-openapi.yml
+- filename: playcanvas-checkpoints-api-openapi.yml
+  format: yaml
+  label: PlayCanvas Checkpoints API
+  slug: playcanvas-checkpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/openapi/playcanvas-checkpoints-api-openapi.yml
+- filename: playcanvas-jobs-api-openapi.yml
+  format: yaml
+  label: PlayCanvas Jobs API
+  slug: playcanvas-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/openapi/playcanvas-jobs-api-openapi.yml
+- filename: playcanvas-projects-api-openapi.yml
+  format: yaml
+  label: PlayCanvas Projects API
+  slug: playcanvas-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/openapi/playcanvas-projects-api-openapi.yml
+- filename: playcanvas-ratelimits-api-openapi.yml
+  format: yaml
+  label: PlayCanvas RateLimits API
+  slug: playcanvas-ratelimits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/openapi/playcanvas-ratelimits-api-openapi.yml
+- filename: playcanvas-scenes-api-openapi.yml
+  format: yaml
+  label: PlayCanvas Scenes API
+  slug: playcanvas-scenes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/openapi/playcanvas-scenes-api-openapi.yml
+- filename: playcanvas-splats-api-openapi.yml
+  format: yaml
+  label: PlayCanvas Splats API
+  slug: playcanvas-splats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/openapi/playcanvas-splats-api-openapi.yml
 description: ''
 domains:
 - caa: []

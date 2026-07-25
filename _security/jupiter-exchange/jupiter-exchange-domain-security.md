@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: jupiter-exchange-openapi.yml
+- filename: jupiter-exchange-swap-api-openapi.yml
   format: yaml
   label: Jupiter Swap API
-  slug: swap-api
+  slug: jupiter-exchange-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupiter-exchange/refs/heads/main/openapi/jupiter-exchange-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jupiter-exchange/refs/heads/main/openapi/jupiter-exchange-swap-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,36 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: agenta-openapi.yml
+- filename: agenta-applications-api-openapi.yml
   format: yaml
-  label: Agenta Apps and Variants API
-  slug: agenta-apps-variants-api
+  label: Agenta Applications API
+  slug: agenta-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/openapi/agenta-openapi.yml
-- filename: agenta-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/openapi/agenta-applications-api-openapi.yml
+- filename: agenta-configs-api-openapi.yml
   format: yaml
-  label: Agenta Configs and Prompts API
-  slug: agenta-configs-prompts-api
+  label: Agenta Configs API
+  slug: agenta-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/openapi/agenta-openapi.yml
-- filename: agenta-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/openapi/agenta-configs-api-openapi.yml
+- filename: agenta-evaluations-api-openapi.yml
   format: yaml
-  label: Agenta Evaluations and Evaluators API
-  slug: agenta-evaluations-evaluators-api
+  label: Agenta Evaluations API
+  slug: agenta-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/openapi/agenta-openapi.yml
-- filename: agenta-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/openapi/agenta-evaluations-api-openapi.yml
+- filename: agenta-evaluators-api-openapi.yml
+  format: yaml
+  label: Agenta Evaluators API
+  slug: agenta-evaluators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/openapi/agenta-evaluators-api-openapi.yml
+- filename: agenta-opentelemetry-api-openapi.yml
+  format: yaml
+  label: Agenta OpenTelemetry API
+  slug: agenta-opentelemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/openapi/agenta-opentelemetry-api-openapi.yml
+- filename: agenta-testsets-api-openapi.yml
   format: yaml
   label: Agenta Testsets API
   slug: agenta-testsets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/openapi/agenta-openapi.yml
-- filename: agenta-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/openapi/agenta-testsets-api-openapi.yml
+- filename: agenta-traces-api-openapi.yml
   format: yaml
-  label: Agenta Observability and Traces API
-  slug: agenta-observability-traces-api
+  label: Agenta Traces API
+  slug: agenta-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/openapi/agenta-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/openapi/agenta-traces-api-openapi.yml
 auth_types:
 - http
 description: ''

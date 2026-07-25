@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: tronald-dump-quotes-openapi.yml
+- filename: tronald-dump-authors-api-openapi.yml
+  format: yaml
+  label: Tronald Dump Authors API
+  slug: tronald-dump-authors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tronald-dump/refs/heads/main/openapi/tronald-dump-authors-api-openapi.yml
+- filename: tronald-dump-quotes-api-openapi.yml
   format: yaml
   label: Tronald Dump Quotes API
-  slug: quotes-api
+  slug: tronald-dump-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tronald-dump/refs/heads/main/openapi/tronald-dump-quotes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tronald-dump/refs/heads/main/openapi/tronald-dump-quotes-api-openapi.yml
+- filename: tronald-dump-sources-api-openapi.yml
+  format: yaml
+  label: Tronald Dump Sources API
+  slug: tronald-dump-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tronald-dump/refs/heads/main/openapi/tronald-dump-sources-api-openapi.yml
+- filename: tronald-dump-tags-api-openapi.yml
+  format: yaml
+  label: Tronald Dump Tags API
+  slug: tronald-dump-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tronald-dump/refs/heads/main/openapi/tronald-dump-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

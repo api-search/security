@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: dead-drop-openapi.yml
+- filename: dead-drop-documentation-api-openapi.yml
   format: yaml
-  label: Dead Drop API v1
-  slug: dead-drop-api-v1
+  label: Dead Drop Documentation API
+  slug: dead-drop-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dead-drop/refs/heads/main/openapi/dead-drop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dead-drop/refs/heads/main/openapi/dead-drop-documentation-api-openapi.yml
+- filename: dead-drop-drops-api-openapi.yml
+  format: yaml
+  label: Dead Drop Drops API
+  slug: dead-drop-drops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dead-drop/refs/heads/main/openapi/dead-drop-drops-api-openapi.yml
+- filename: dead-drop-health-api-openapi.yml
+  format: yaml
+  label: Dead Drop Health API
+  slug: dead-drop-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dead-drop/refs/heads/main/openapi/dead-drop-health-api-openapi.yml
+- filename: dead-drop-history-api-openapi.yml
+  format: yaml
+  label: Dead Drop History API
+  slug: dead-drop-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dead-drop/refs/heads/main/openapi/dead-drop-history-api-openapi.yml
 description: ''
 domains:
 - caa: []

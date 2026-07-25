@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: project44-tracking-openapi.yml
+- filename: project44-shipments-api-openapi.yml
   format: yaml
-  label: project44 API v4
-  slug: project44-api
+  label: project44 Shipments API
+  slug: project44-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/openapi/project44-tracking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/openapi/project44-shipments-api-openapi.yml
+- filename: project44-status-api-openapi.yml
+  format: yaml
+  label: project44 Status API
+  slug: project44-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/openapi/project44-status-api-openapi.yml
+- filename: project44-tracking-api-openapi.yml
+  format: yaml
+  label: project44 Tracking API
+  slug: project44-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/openapi/project44-tracking-api-openapi.yml
+- filename: project44-webhooks-api-openapi.yml
+  format: yaml
+  label: project44 Webhooks API
+  slug: project44-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/openapi/project44-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

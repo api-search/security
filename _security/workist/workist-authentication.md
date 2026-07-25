@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: workist-integrations-openapi-original.yml
+- filename: workist-delivery-notes-api-openapi.yml
   format: yaml
-  label: Workist Integrations & Developer API
-  slug: workist-integrations-developer-api
+  label: Workist Delivery Notes API
+  slug: workist-delivery-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/openapi/workist-integrations-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/openapi/workist-delivery-notes-api-openapi.yml
+- filename: workist-invoices-api-openapi.yml
+  format: yaml
+  label: Workist Invoices API
+  slug: workist-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/openapi/workist-invoices-api-openapi.yml
+- filename: workist-list-of-services-api-openapi.yml
+  format: yaml
+  label: Workist List Of Services API
+  slug: workist-list-of-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/openapi/workist-list-of-services-api-openapi.yml
+- filename: workist-master-data-api-openapi.yml
+  format: yaml
+  label: Workist Master Data API
+  slug: workist-master-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/openapi/workist-master-data-api-openapi.yml
+- filename: workist-order-confirmations-api-openapi.yml
+  format: yaml
+  label: Workist Order Confirmations API
+  slug: workist-order-confirmations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/openapi/workist-order-confirmations-api-openapi.yml
+- filename: workist-orders-api-openapi.yml
+  format: yaml
+  label: Workist Orders API
+  slug: workist-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/openapi/workist-orders-api-openapi.yml
+- filename: workist-property-bills-api-openapi.yml
+  format: yaml
+  label: Workist Property Bills API
+  slug: workist-property-bills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/openapi/workist-property-bills-api-openapi.yml
+- filename: workist-rfq-api-openapi.yml
+  format: yaml
+  label: Workist Rfq API
+  slug: workist-rfq-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/openapi/workist-rfq-api-openapi.yml
 auth_types:
 - http
 description: ''

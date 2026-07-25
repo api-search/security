@@ -2,90 +2,90 @@
 api_key_in:
 - query
 api_specs:
-- filename: abstract-api-email-reputation.yaml
+- filename: abstract-api-avatars-api-openapi.yml
   format: yaml
-  label: Email Reputation API
-  slug: email-reputation
+  label: Abstract API Avatars API
+  slug: abstract-api-avatars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-email-reputation.yaml
-- filename: abstract-api-phone-intelligence.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-avatars-api-openapi.yml
+- filename: abstract-api-company-enrichment-api-openapi.yml
   format: yaml
-  label: Phone Intelligence API
-  slug: phone-intelligence
+  label: Abstract API Company Enrichment API
+  slug: abstract-api-company-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-phone-intelligence.yaml
-- filename: abstract-api-ip-geolocation.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-company-enrichment-api-openapi.yml
+- filename: abstract-api-email-reputation-api-openapi.yml
   format: yaml
-  label: IP Geolocation API
-  slug: ip-geolocation
+  label: Abstract API Email Reputation API
+  slug: abstract-api-email-reputation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-ip-geolocation.yaml
-- filename: abstract-api-ip-intelligence.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-email-reputation-api-openapi.yml
+- filename: abstract-api-exchange-rates-api-openapi.yml
   format: yaml
-  label: IP Intelligence API
-  slug: ip-intelligence
+  label: Abstract API Exchange Rates API
+  slug: abstract-api-exchange-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-ip-intelligence.yaml
-- filename: abstract-api-company-enrichment.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-exchange-rates-api-openapi.yml
+- filename: abstract-api-iban-validation-api-openapi.yml
   format: yaml
-  label: Company Enrichment API
-  slug: company-enrichment
+  label: Abstract API IBAN Validation API
+  slug: abstract-api-iban-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-company-enrichment.yaml
-- filename: abstract-api-exchange-rates.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-iban-validation-api-openapi.yml
+- filename: abstract-api-image-processing-api-openapi.yml
   format: yaml
-  label: Exchange Rates API
-  slug: exchange-rates
+  label: Abstract API Image Processing API
+  slug: abstract-api-image-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-exchange-rates.yaml
-- filename: abstract-api-public-holidays.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-image-processing-api-openapi.yml
+- filename: abstract-api-ip-geolocation-api-openapi.yml
   format: yaml
-  label: Public Holidays API
-  slug: public-holidays
+  label: Abstract API IP Geolocation API
+  slug: abstract-api-ip-geolocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-public-holidays.yaml
-- filename: abstract-api-timezones.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-ip-geolocation-api-openapi.yml
+- filename: abstract-api-ip-intelligence-api-openapi.yml
   format: yaml
-  label: Timezone API
-  slug: timezones
+  label: Abstract API IP Intelligence API
+  slug: abstract-api-ip-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-timezones.yaml
-- filename: abstract-api-vat-validation.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-ip-intelligence-api-openapi.yml
+- filename: abstract-api-phone-intelligence-api-openapi.yml
   format: yaml
-  label: VAT Validation API
-  slug: vat-validation
+  label: Abstract API Phone Intelligence API
+  slug: abstract-api-phone-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-vat-validation.yaml
-- filename: abstract-api-iban-validation.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-phone-intelligence-api-openapi.yml
+- filename: abstract-api-public-holidays-api-openapi.yml
   format: yaml
-  label: IBAN Validation API
-  slug: iban-validation
+  label: Abstract API Public Holidays API
+  slug: abstract-api-public-holidays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-iban-validation.yaml
-- filename: abstract-api-website-screenshot.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-public-holidays-api-openapi.yml
+- filename: abstract-api-timezones-api-openapi.yml
   format: yaml
-  label: Website Screenshot API
-  slug: website-screenshot
+  label: Abstract API Timezones API
+  slug: abstract-api-timezones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-website-screenshot.yaml
-- filename: abstract-api-image-processing.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-timezones-api-openapi.yml
+- filename: abstract-api-vat-validation-api-openapi.yml
   format: yaml
-  label: Image Processing API
-  slug: image-processing
+  label: Abstract API VAT Validation API
+  slug: abstract-api-vat-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-image-processing.yaml
-- filename: abstract-api-web-scraping.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-vat-validation-api-openapi.yml
+- filename: abstract-api-web-scraping-api-openapi.yml
   format: yaml
-  label: Web Scraping API
-  slug: web-scraping
+  label: Abstract API Web Scraping API
+  slug: abstract-api-web-scraping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-web-scraping.yaml
-- filename: abstract-api-avatars.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-web-scraping-api-openapi.yml
+- filename: abstract-api-website-screenshot-api-openapi.yml
   format: yaml
-  label: Avatars API
-  slug: avatars
+  label: Abstract API Website Screenshot API
+  slug: abstract-api-website-screenshot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-avatars.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-website-screenshot-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

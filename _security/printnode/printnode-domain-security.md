@@ -1,41 +1,59 @@
 ---
 api_specs:
-- filename: printnode-openapi.yml
+- filename: printnode-account-api-openapi.yml
+  format: yaml
+  label: PrintNode Account API
+  slug: printnode-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-account-api-openapi.yml
+- filename: printnode-api-keys-api-openapi.yml
+  format: yaml
+  label: PrintNode API Keys API
+  slug: printnode-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-api-keys-api-openapi.yml
+- filename: printnode-clients-api-openapi.yml
+  format: yaml
+  label: PrintNode Clients API
+  slug: printnode-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-clients-api-openapi.yml
+- filename: printnode-computers-api-openapi.yml
   format: yaml
   label: PrintNode Computers API
-  slug: computers
+  slug: printnode-computers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-openapi.yml
-- filename: printnode-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-computers-api-openapi.yml
+- filename: printnode-printers-api-openapi.yml
   format: yaml
   label: PrintNode Printers API
-  slug: printers
+  slug: printnode-printers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-openapi.yml
-- filename: printnode-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-printers-api-openapi.yml
+- filename: printnode-printjobs-api-openapi.yml
   format: yaml
   label: PrintNode PrintJobs API
-  slug: printjobs
+  slug: printnode-printjobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-openapi.yml
-- filename: printnode-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-printjobs-api-openapi.yml
+- filename: printnode-scales-api-openapi.yml
   format: yaml
   label: PrintNode Scales API
-  slug: scales
+  slug: printnode-scales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-openapi.yml
-- filename: printnode-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-scales-api-openapi.yml
+- filename: printnode-utility-api-openapi.yml
   format: yaml
-  label: PrintNode Account and API Keys API
-  slug: account-api-keys
+  label: PrintNode Utility API
+  slug: printnode-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-openapi.yml
-- filename: printnode-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-utility-api-openapi.yml
+- filename: printnode-webhooks-api-openapi.yml
   format: yaml
   label: PrintNode Webhooks API
-  slug: webhooks
+  slug: printnode-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

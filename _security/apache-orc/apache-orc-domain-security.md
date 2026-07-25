@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: apache-orc-tools-api.yaml
+- filename: apache-orc-conversion-api-openapi.yml
   format: yaml
-  label: Apache ORC
-  slug: apache-orc
+  label: Apache ORC Conversion API
+  slug: apache-orc-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-orc/refs/heads/main/openapi/apache-orc-tools-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-orc/refs/heads/main/openapi/apache-orc-conversion-api-openapi.yml
+- filename: apache-orc-files-api-openapi.yml
+  format: yaml
+  label: Apache ORC Files API
+  slug: apache-orc-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-orc/refs/heads/main/openapi/apache-orc-files-api-openapi.yml
+- filename: apache-orc-operations-api-openapi.yml
+  format: yaml
+  label: Apache ORC Operations API
+  slug: apache-orc-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-orc/refs/heads/main/openapi/apache-orc-operations-api-openapi.yml
 description: ''
 domains:
 - caa:

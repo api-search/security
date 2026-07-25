@@ -2,36 +2,84 @@
 api_key_in:
 - header
 api_specs:
-- filename: talon-one-openapi.yml
+- filename: talon-one-account-api-openapi.yml
   format: yaml
-  label: Talon.One Integration API
-  slug: talon-one-integration-api
+  label: Talon.One Account API
+  slug: talon-one-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-openapi.yml
-- filename: talon-one-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-account-api-openapi.yml
+- filename: talon-one-applications-api-openapi.yml
   format: yaml
-  label: Talon.One Management API
-  slug: talon-one-management-api
+  label: Talon.One Applications API
+  slug: talon-one-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-openapi.yml
-- filename: talon-one-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-applications-api-openapi.yml
+- filename: talon-one-attributes-api-openapi.yml
+  format: yaml
+  label: Talon.One Attributes API
+  slug: talon-one-attributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-attributes-api-openapi.yml
+- filename: talon-one-audiences-api-openapi.yml
+  format: yaml
+  label: Talon.One Audiences API
+  slug: talon-one-audiences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-audiences-api-openapi.yml
+- filename: talon-one-campaigns-api-openapi.yml
   format: yaml
   label: Talon.One Campaigns API
   slug: talon-one-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-openapi.yml
-- filename: talon-one-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-campaigns-api-openapi.yml
+- filename: talon-one-collections-api-openapi.yml
+  format: yaml
+  label: Talon.One Collections API
+  slug: talon-one-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-collections-api-openapi.yml
+- filename: talon-one-coupons-api-openapi.yml
   format: yaml
   label: Talon.One Coupons API
   slug: talon-one-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-openapi.yml
-- filename: talon-one-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-coupons-api-openapi.yml
+- filename: talon-one-customer-profiles-api-openapi.yml
+  format: yaml
+  label: Talon.One Customer Profiles API
+  slug: talon-one-customer-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-customer-profiles-api-openapi.yml
+- filename: talon-one-customer-sessions-api-openapi.yml
+  format: yaml
+  label: Talon.One Customer Sessions API
+  slug: talon-one-customer-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-customer-sessions-api-openapi.yml
+- filename: talon-one-events-api-openapi.yml
+  format: yaml
+  label: Talon.One Events API
+  slug: talon-one-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-events-api-openapi.yml
+- filename: talon-one-exports-api-openapi.yml
+  format: yaml
+  label: Talon.One Exports API
+  slug: talon-one-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-exports-api-openapi.yml
+- filename: talon-one-loyalty-api-openapi.yml
   format: yaml
   label: Talon.One Loyalty API
   slug: talon-one-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-loyalty-api-openapi.yml
+- filename: talon-one-referrals-api-openapi.yml
+  format: yaml
+  label: Talon.One Referrals API
+  slug: talon-one-referrals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-referrals-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

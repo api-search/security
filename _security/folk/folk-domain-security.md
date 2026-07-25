@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Folk API
-  slug: folk-api
+- filename: folk-companies-api-openapi.yml
+  format: yaml
+  label: Folk Companies API
+  slug: folk-companies-api
   spec_type: OpenAPI
-  url: https://developer.folk.app/api-reference/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/openapi/folk-companies-api-openapi.yml
+- filename: folk-deals-api-openapi.yml
+  format: yaml
+  label: Folk Deals API
+  slug: folk-deals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/openapi/folk-deals-api-openapi.yml
+- filename: folk-groups-api-openapi.yml
+  format: yaml
+  label: Folk Groups API
+  slug: folk-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/openapi/folk-groups-api-openapi.yml
+- filename: folk-interactions-api-openapi.yml
+  format: yaml
+  label: Folk Interactions API
+  slug: folk-interactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/openapi/folk-interactions-api-openapi.yml
+- filename: folk-notes-api-openapi.yml
+  format: yaml
+  label: Folk Notes API
+  slug: folk-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/openapi/folk-notes-api-openapi.yml
+- filename: folk-people-api-openapi.yml
+  format: yaml
+  label: Folk People API
+  slug: folk-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/openapi/folk-people-api-openapi.yml
+- filename: folk-reminders-api-openapi.yml
+  format: yaml
+  label: Folk Reminders API
+  slug: folk-reminders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/openapi/folk-reminders-api-openapi.yml
+- filename: folk-users-api-openapi.yml
+  format: yaml
+  label: Folk Users API
+  slug: folk-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/openapi/folk-users-api-openapi.yml
+- filename: folk-webhooks-api-openapi.yml
+  format: yaml
+  label: Folk Webhooks API
+  slug: folk-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/openapi/folk-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

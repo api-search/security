@@ -1,18 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi
+- filename: gravatar-avatars-api-openapi.yml
   format: yaml
-  label: Gravatar Avatar API
-  slug: avatar-api
+  label: Gravatar avatars API
+  slug: gravatar-avatars-api
   spec_type: OpenAPI
-  url: https://api.gravatar.com/v3/openapi
-- filename: openapi
+  url: https://raw.githubusercontent.com/api-evangelist/gravatar/refs/heads/main/openapi/gravatar-avatars-api-openapi.yml
+- filename: gravatar-experimental-api-openapi.yml
   format: yaml
-  label: Gravatar REST API
-  slug: rest-api
+  label: Gravatar experimental API
+  slug: gravatar-experimental-api
   spec_type: OpenAPI
-  url: https://api.gravatar.com/v3/openapi
+  url: https://raw.githubusercontent.com/api-evangelist/gravatar/refs/heads/main/openapi/gravatar-experimental-api-openapi.yml
+- filename: gravatar-profiles-api-openapi.yml
+  format: yaml
+  label: Gravatar profiles API
+  slug: gravatar-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gravatar/refs/heads/main/openapi/gravatar-profiles-api-openapi.yml
+- filename: gravatar-qr-code-api-openapi.yml
+  format: yaml
+  label: Gravatar qr-code API
+  slug: gravatar-qr-code-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gravatar/refs/heads/main/openapi/gravatar-qr-code-api-openapi.yml
 auth_types:
 - http
 - oauth2

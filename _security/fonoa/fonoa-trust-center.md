@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: fonoa-validate-openapi.yml
+- filename: fonoa-lookup-v2-api-openapi.yml
   format: yaml
-  label: Fonoa Validate API
-  slug: validate-api
+  label: Fonoa Lookup V2 API
+  slug: fonoa-lookup-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/openapi/fonoa-validate-openapi.yml
-- filename: fonoa-tax-engine-openapi.yml
-  format: yaml
-  label: Fonoa Tax Engine API
-  slug: tax-engine-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/openapi/fonoa-tax-engine-openapi.yml
-- filename: fonoa-e-invoicing-openapi.yml
-  format: yaml
-  label: Fonoa E-Invoicing API
-  slug: e-invoicing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/openapi/fonoa-e-invoicing-openapi.yml
-- filename: fonoa-onboarding-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/openapi/fonoa-lookup-v2-api-openapi.yml
+- filename: fonoa-onboarding-api-openapi.yml
   format: yaml
   label: Fonoa Onboarding API
-  slug: onboarding-api
+  slug: fonoa-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/openapi/fonoa-onboarding-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/openapi/fonoa-onboarding-api-openapi.yml
+- filename: fonoa-tax-api-openapi.yml
+  format: yaml
+  label: Fonoa Tax API
+  slug: fonoa-tax-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/openapi/fonoa-tax-api-openapi.yml
+- filename: fonoa-transactions-api-openapi.yml
+  format: yaml
+  label: Fonoa Transactions API
+  slug: fonoa-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/openapi/fonoa-transactions-api-openapi.yml
 certifications:
 - GDPR
 description: ''

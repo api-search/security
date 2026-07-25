@@ -1,23 +1,65 @@
 ---
 api_specs:
-- filename: lightstream-live-openapi-original.yml
+- filename: lightstream-authenticationservice-api-openapi.yml
   format: yaml
-  label: API.stream Live API
-  slug: live-api
+  label: Lightstream AuthenticationService API
+  slug: lightstream-authenticationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-live-openapi-original.yml
-- filename: lightstream-layout-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-authenticationservice-api-openapi.yml
+- filename: lightstream-backendauthenticationservice-api-openapi.yml
   format: yaml
-  label: API.stream Layout API
-  slug: layout-api
+  label: Lightstream BackendAuthenticationService API
+  slug: lightstream-backendauthenticationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-layout-openapi-original.yml
-- filename: lightstream-event-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-backendauthenticationservice-api-openapi.yml
+- filename: lightstream-collectionservice-api-openapi.yml
   format: yaml
-  label: API.stream Event API
-  slug: event-api
+  label: Lightstream CollectionService API
+  slug: lightstream-collectionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-event-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-collectionservice-api-openapi.yml
+- filename: lightstream-destinationservice-api-openapi.yml
+  format: yaml
+  label: Lightstream DestinationService API
+  slug: lightstream-destinationservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-destinationservice-api-openapi.yml
+- filename: lightstream-eventservice-api-openapi.yml
+  format: yaml
+  label: Lightstream EventService API
+  slug: lightstream-eventservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-eventservice-api-openapi.yml
+- filename: lightstream-layerservice-api-openapi.yml
+  format: yaml
+  label: Lightstream LayerService API
+  slug: lightstream-layerservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-layerservice-api-openapi.yml
+- filename: lightstream-layoutservice-api-openapi.yml
+  format: yaml
+  label: Lightstream LayoutService API
+  slug: lightstream-layoutservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-layoutservice-api-openapi.yml
+- filename: lightstream-projectservice-api-openapi.yml
+  format: yaml
+  label: Lightstream ProjectService API
+  slug: lightstream-projectservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-projectservice-api-openapi.yml
+- filename: lightstream-publicauthenticationservice-api-openapi.yml
+  format: yaml
+  label: Lightstream PublicAuthenticationService API
+  slug: lightstream-publicauthenticationservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-publicauthenticationservice-api-openapi.yml
+- filename: lightstream-sourceservice-api-openapi.yml
+  format: yaml
+  label: Lightstream SourceService API
+  slug: lightstream-sourceservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-sourceservice-api-openapi.yml
 description: ''
 domains:
 - caa: []

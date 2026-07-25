@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: ws3dx-dotnet
+- filename: dassault-accreditations-api-openapi.yml
   format: yaml
-  label: 3DEXPERIENCE Engineering Web Services
-  slug: 3dexperience-engineering-web-services
+  label: Dassault Systèmes accreditations API
+  slug: dassault-accreditations-api
   spec_type: OpenAPI
-  url: https://github.com/3ds-cpe-emed/ws3dx-dotnet
+  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-accreditations-api-openapi.yml
+- filename: dassault-apikeys-api-openapi.yml
+  format: yaml
+  label: Dassault Systèmes apikeys API
+  slug: dassault-apikeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-apikeys-api-openapi.yml
+- filename: dassault-leads-opportunities-api-openapi.yml
+  format: yaml
+  label: Dassault Systèmes leads-opportunities API
+  slug: dassault-leads-opportunities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-leads-opportunities-api-openapi.yml
+- filename: dassault-orders-api-openapi.yml
+  format: yaml
+  label: Dassault Systèmes orders API
+  slug: dassault-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-orders-api-openapi.yml
+- filename: dassault-portfolio-items-api-openapi.yml
+  format: yaml
+  label: Dassault Systèmes portfolio-items API
+  slug: dassault-portfolio-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-portfolio-items-api-openapi.yml
+- filename: dassault-price-lists-api-openapi.yml
+  format: yaml
+  label: Dassault Systèmes price-lists API
+  slug: dassault-price-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-price-lists-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: zipkin-api-v2.yml
+- filename: zipkin-autocomplete-api-openapi.yml
   format: yaml
-  label: Zipkin API V2
-  slug: zipkin-api-v2
+  label: Zipkin Autocomplete API
+  slug: zipkin-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/openapi/zipkin-api-v2.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/openapi/zipkin-autocomplete-api-openapi.yml
+- filename: zipkin-dependencies-api-openapi.yml
+  format: yaml
+  label: Zipkin Dependencies API
+  slug: zipkin-dependencies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/openapi/zipkin-dependencies-api-openapi.yml
+- filename: zipkin-health-api-openapi.yml
+  format: yaml
+  label: Zipkin Health API
+  slug: zipkin-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/openapi/zipkin-health-api-openapi.yml
+- filename: zipkin-services-api-openapi.yml
+  format: yaml
+  label: Zipkin Services API
+  slug: zipkin-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/openapi/zipkin-services-api-openapi.yml
+- filename: zipkin-spans-api-openapi.yml
+  format: yaml
+  label: Zipkin Spans API
+  slug: zipkin-spans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/openapi/zipkin-spans-api-openapi.yml
+- filename: zipkin-traces-api-openapi.yml
+  format: yaml
+  label: Zipkin Traces API
+  slug: zipkin-traces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/openapi/zipkin-traces-api-openapi.yml
 description: ''
 domains:
 - caa: []

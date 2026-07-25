@@ -1,78 +1,84 @@
 ---
 api_key_in: []
 api_specs:
-- filename: clickup-tasks-openapi.yml
+- filename: clickup-authorization-api-openapi.yml
   format: yaml
-  label: ClickUp Tasks API
-  slug: tasks-api
+  label: clickup Authorization API
+  slug: clickup-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-tasks-openapi.yml
-- filename: clickup-spaces-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-authorization-api-openapi.yml
+- filename: clickup-comments-api-openapi.yml
   format: yaml
-  label: ClickUp Spaces API
-  slug: spaces-api
+  label: clickup Comments API
+  slug: clickup-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-spaces-openapi.yml
-- filename: clickup-lists-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-comments-api-openapi.yml
+- filename: clickup-custom-fields-api-openapi.yml
   format: yaml
-  label: ClickUp Lists API
-  slug: lists-api
+  label: clickup Custom Fields API
+  slug: clickup-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-lists-openapi.yml
-- filename: clickup-folders-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-custom-fields-api-openapi.yml
+- filename: clickup-folders-api-openapi.yml
   format: yaml
-  label: ClickUp Folders API
-  slug: folders-api
+  label: clickup Folders API
+  slug: clickup-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-folders-openapi.yml
-- filename: clickup-goals-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-folders-api-openapi.yml
+- filename: clickup-goals-api-openapi.yml
   format: yaml
-  label: ClickUp Goals API
-  slug: goals-api
+  label: clickup Goals API
+  slug: clickup-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-goals-openapi.yml
-- filename: clickup-comments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-goals-api-openapi.yml
+- filename: clickup-lists-api-openapi.yml
   format: yaml
-  label: ClickUp Comments API
-  slug: comments-api
+  label: clickup Lists API
+  slug: clickup-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-comments-openapi.yml
-- filename: clickup-teams-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-lists-api-openapi.yml
+- filename: clickup-oauth-api-openapi.yml
   format: yaml
-  label: ClickUp Teams (Workspaces) API
-  slug: teams-api
+  label: clickup OAuth API
+  slug: clickup-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-teams-openapi.yml
-- filename: clickup-webhooks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-oauth-api-openapi.yml
+- filename: clickup-spaces-api-openapi.yml
   format: yaml
-  label: ClickUp Webhooks API
-  slug: webhooks-api
+  label: clickup Spaces API
+  slug: clickup-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-webhooks-openapi.yml
-- filename: clickup-custom-fields-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-spaces-api-openapi.yml
+- filename: clickup-tasks-api-openapi.yml
   format: yaml
-  label: ClickUp Custom Fields API
-  slug: custom-fields-api
+  label: clickup Tasks API
+  slug: clickup-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-custom-fields-openapi.yml
-- filename: clickup-time-tracking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-tasks-api-openapi.yml
+- filename: clickup-teams-api-openapi.yml
   format: yaml
-  label: ClickUp Time Tracking API
-  slug: time-tracking-api
+  label: clickup Teams API
+  slug: clickup-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-time-tracking-openapi.yml
-- filename: clickup-views-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-teams-api-openapi.yml
+- filename: clickup-time-tracking-api-openapi.yml
   format: yaml
-  label: ClickUp Views API
-  slug: views-api
+  label: clickup Time Tracking API
+  slug: clickup-time-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-views-openapi.yml
-- filename: clickup-oauth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-time-tracking-api-openapi.yml
+- filename: clickup-views-api-openapi.yml
   format: yaml
-  label: ClickUp OAuth API
-  slug: oauth-api
+  label: clickup Views API
+  slug: clickup-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-oauth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-views-api-openapi.yml
+- filename: clickup-webhooks-api-openapi.yml
+  format: yaml
+  label: clickup Webhooks API
+  slug: clickup-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

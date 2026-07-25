@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: zitadel-management-openapi.yml
+- filename: zitadel-applications-api-openapi.yml
   format: yaml
-  label: Zitadel Management API
-  slug: management-api
+  label: Zitadel Applications API
+  slug: zitadel-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/openapi/zitadel-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/openapi/zitadel-applications-api-openapi.yml
+- filename: zitadel-identity-providers-api-openapi.yml
+  format: yaml
+  label: Zitadel Identity Providers API
+  slug: zitadel-identity-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/openapi/zitadel-identity-providers-api-openapi.yml
+- filename: zitadel-organizations-api-openapi.yml
+  format: yaml
+  label: Zitadel Organizations API
+  slug: zitadel-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/openapi/zitadel-organizations-api-openapi.yml
+- filename: zitadel-policies-api-openapi.yml
+  format: yaml
+  label: Zitadel Policies API
+  slug: zitadel-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/openapi/zitadel-policies-api-openapi.yml
+- filename: zitadel-projects-api-openapi.yml
+  format: yaml
+  label: Zitadel Projects API
+  slug: zitadel-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/openapi/zitadel-projects-api-openapi.yml
+- filename: zitadel-roles-api-openapi.yml
+  format: yaml
+  label: Zitadel Roles API
+  slug: zitadel-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/openapi/zitadel-roles-api-openapi.yml
+- filename: zitadel-users-api-openapi.yml
+  format: yaml
+  label: Zitadel Users API
+  slug: zitadel-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/openapi/zitadel-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

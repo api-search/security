@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: textgears-account-api-openapi.yml
   format: yaml
-  label: TextGears API
-  slug: textgears-api
+  label: TextGears Account API
+  slug: textgears-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/openapi/textgears-account-api-openapi.yml
+- filename: textgears-dictionaries-api-openapi.yml
+  format: yaml
+  label: TextGears Dictionaries API
+  slug: textgears-dictionaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/openapi/textgears-dictionaries-api-openapi.yml
+- filename: textgears-exceptions-api-openapi.yml
+  format: yaml
+  label: TextGears Exceptions API
+  slug: textgears-exceptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/openapi/textgears-exceptions-api-openapi.yml
+- filename: textgears-grammar-api-openapi.yml
+  format: yaml
+  label: TextGears Grammar API
+  slug: textgears-grammar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/openapi/textgears-grammar-api-openapi.yml
+- filename: textgears-language-api-openapi.yml
+  format: yaml
+  label: TextGears Language API
+  slug: textgears-language-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/openapi/textgears-language-api-openapi.yml
+- filename: textgears-readability-api-openapi.yml
+  format: yaml
+  label: TextGears Readability API
+  slug: textgears-readability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/openapi/textgears-readability-api-openapi.yml
+- filename: textgears-summarization-api-openapi.yml
+  format: yaml
+  label: TextGears Summarization API
+  slug: textgears-summarization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/openapi/textgears-summarization-api-openapi.yml
 description: ''
 domains:
 - caa: []

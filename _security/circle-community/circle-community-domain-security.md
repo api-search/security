@@ -1,53 +1,53 @@
 ---
 api_specs:
-- filename: circle-community-openapi.yml
-  format: yaml
-  label: Circle Admin Members API
-  slug: circle-community-admin-members-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/openapi/circle-community-openapi.yml
-- filename: circle-community-openapi.yml
-  format: yaml
-  label: Circle Admin Spaces API
-  slug: circle-community-admin-spaces-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/openapi/circle-community-openapi.yml
-- filename: circle-community-openapi.yml
-  format: yaml
-  label: Circle Admin Posts and Comments API
-  slug: circle-community-admin-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/openapi/circle-community-openapi.yml
-- filename: circle-community-openapi.yml
-  format: yaml
-  label: Circle Admin Events API
-  slug: circle-community-admin-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/openapi/circle-community-openapi.yml
-- filename: circle-community-openapi.yml
-  format: yaml
-  label: Circle Admin Courses API
-  slug: circle-community-admin-courses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/openapi/circle-community-openapi.yml
-- filename: circle-community-openapi.yml
-  format: yaml
-  label: Circle Headless Member API
-  slug: circle-community-headless-member-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/openapi/circle-community-openapi.yml
-- filename: circle-community-openapi.yml
-  format: yaml
-  label: Circle Headless Auth API
-  slug: circle-community-headless-auth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/openapi/circle-community-openapi.yml
 - filename: circle-community-asyncapi.yml
   format: yaml
   label: Circle Realtime WebSocket API
   slug: circle-community-realtime-websocket-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/asyncapi/circle-community-asyncapi.yml
+- filename: circle-community-admin-courses-api-openapi.yml
+  format: yaml
+  label: Circle Admin - Courses API
+  slug: circle-community-admin-courses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/openapi/circle-community-admin-courses-api-openapi.yml
+- filename: circle-community-admin-events-api-openapi.yml
+  format: yaml
+  label: Circle Admin - Events API
+  slug: circle-community-admin-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/openapi/circle-community-admin-events-api-openapi.yml
+- filename: circle-community-admin-members-api-openapi.yml
+  format: yaml
+  label: Circle Admin - Members API
+  slug: circle-community-admin-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/openapi/circle-community-admin-members-api-openapi.yml
+- filename: circle-community-admin-posts-api-openapi.yml
+  format: yaml
+  label: Circle Admin - Posts API
+  slug: circle-community-admin-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/openapi/circle-community-admin-posts-api-openapi.yml
+- filename: circle-community-admin-spaces-api-openapi.yml
+  format: yaml
+  label: Circle Admin - Spaces API
+  slug: circle-community-admin-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/openapi/circle-community-admin-spaces-api-openapi.yml
+- filename: circle-community-headless-auth-api-openapi.yml
+  format: yaml
+  label: Circle Headless - Auth API
+  slug: circle-community-headless-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/openapi/circle-community-headless-auth-api-openapi.yml
+- filename: circle-community-headless-member-api-openapi.yml
+  format: yaml
+  label: Circle Headless - Member API
+  slug: circle-community-headless-member-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/openapi/circle-community-headless-member-api-openapi.yml
 description: ''
 domains:
 - caa:

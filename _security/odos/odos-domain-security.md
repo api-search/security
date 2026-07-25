@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Odos Smart Order Router API
-  slug: odos-smart-order-router-api
+- filename: odos-information-api-openapi.yml
+  format: yaml
+  label: Odos Information API
+  slug: odos-information-api
   spec_type: OpenAPI
-  url: https://api.odos.xyz/sor/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/odos/refs/heads/main/openapi/odos-information-api-openapi.yml
+- filename: odos-pricing-api-openapi.yml
+  format: yaml
+  label: Odos Pricing API
+  slug: odos-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/odos/refs/heads/main/openapi/odos-pricing-api-openapi.yml
+- filename: odos-smart-order-routing-api-openapi.yml
+  format: yaml
+  label: Odos Smart Order Routing API
+  slug: odos-smart-order-routing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/odos/refs/heads/main/openapi/odos-smart-order-routing-api-openapi.yml
 description: ''
 domains:
 - caa: []

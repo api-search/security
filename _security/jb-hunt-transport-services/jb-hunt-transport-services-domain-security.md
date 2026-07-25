@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: jb-hunt-360-connect-api.yml
+- filename: jb-hunt-transport-services-documents-api-openapi.yml
   format: yaml
-  label: J.B. Hunt 360 Connect API
-  slug: jb-hunt-360-connect-api
+  label: J.B. Hunt Transport Services Documents API
+  slug: jb-hunt-transport-services-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jb-hunt-transport-services/refs/heads/main/openapi/jb-hunt-360-connect-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jb-hunt-transport-services/refs/heads/main/openapi/jb-hunt-transport-services-documents-api-openapi.yml
+- filename: jb-hunt-transport-services-orders-api-openapi.yml
+  format: yaml
+  label: J.B. Hunt Transport Services Orders API
+  slug: jb-hunt-transport-services-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jb-hunt-transport-services/refs/heads/main/openapi/jb-hunt-transport-services-orders-api-openapi.yml
+- filename: jb-hunt-transport-services-quotes-api-openapi.yml
+  format: yaml
+  label: J.B. Hunt Transport Services Quotes API
+  slug: jb-hunt-transport-services-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jb-hunt-transport-services/refs/heads/main/openapi/jb-hunt-transport-services-quotes-api-openapi.yml
+- filename: jb-hunt-transport-services-scheduling-api-openapi.yml
+  format: yaml
+  label: J.B. Hunt Transport Services Scheduling API
+  slug: jb-hunt-transport-services-scheduling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jb-hunt-transport-services/refs/heads/main/openapi/jb-hunt-transport-services-scheduling-api-openapi.yml
+- filename: jb-hunt-transport-services-tracking-api-openapi.yml
+  format: yaml
+  label: J.B. Hunt Transport Services Tracking API
+  slug: jb-hunt-transport-services-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jb-hunt-transport-services/refs/heads/main/openapi/jb-hunt-transport-services-tracking-api-openapi.yml
 description: ''
 domains:
 - caa: []

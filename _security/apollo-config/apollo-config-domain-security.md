@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: apollo-open-api.yml
+- filename: apollo-config-apps-api-openapi.yml
   format: yaml
-  label: Apollo Config
-  slug: apollo-config
+  label: Apollo Config Apps API
+  slug: apollo-config-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/openapi/apollo-open-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/openapi/apollo-config-apps-api-openapi.yml
+- filename: apollo-config-clusters-api-openapi.yml
+  format: yaml
+  label: Apollo Config Clusters API
+  slug: apollo-config-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/openapi/apollo-config-clusters-api-openapi.yml
+- filename: apollo-config-items-api-openapi.yml
+  format: yaml
+  label: Apollo Config Items API
+  slug: apollo-config-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/openapi/apollo-config-items-api-openapi.yml
+- filename: apollo-config-namespaces-api-openapi.yml
+  format: yaml
+  label: Apollo Config Namespaces API
+  slug: apollo-config-namespaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/openapi/apollo-config-namespaces-api-openapi.yml
+- filename: apollo-config-releases-api-openapi.yml
+  format: yaml
+  label: Apollo Config Releases API
+  slug: apollo-config-releases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/openapi/apollo-config-releases-api-openapi.yml
 description: ''
 domains:
 - caa:

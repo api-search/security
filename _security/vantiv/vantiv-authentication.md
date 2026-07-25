@@ -1,24 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: vantiv-cnp-openapi.yml
+- filename: vantiv-authorizations-api-openapi.yml
   format: yaml
-  label: Vantiv CNP API
-  slug: cnp-api
+  label: Vantiv Authorizations API
+  slug: vantiv-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-cnp-openapi.yml
-- filename: vantiv-express-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-authorizations-api-openapi.yml
+- filename: vantiv-captures-api-openapi.yml
   format: yaml
-  label: Vantiv Express API
-  slug: express-api
+  label: Vantiv Captures API
+  slug: vantiv-captures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-express-openapi.yml
-- filename: vantiv-chargeback-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-captures-api-openapi.yml
+- filename: vantiv-chargebacks-api-openapi.yml
   format: yaml
-  label: Vantiv Chargeback API
-  slug: chargeback-api
+  label: Vantiv Chargebacks API
+  slug: vantiv-chargebacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-chargeback-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-chargebacks-api-openapi.yml
+- filename: vantiv-credits-api-openapi.yml
+  format: yaml
+  label: Vantiv Credits API
+  slug: vantiv-credits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-credits-api-openapi.yml
+- filename: vantiv-documents-api-openapi.yml
+  format: yaml
+  label: Vantiv Documents API
+  slug: vantiv-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-documents-api-openapi.yml
+- filename: vantiv-echeck-api-openapi.yml
+  format: yaml
+  label: Vantiv eCheck API
+  slug: vantiv-echeck-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-echeck-api-openapi.yml
+- filename: vantiv-recurring-api-openapi.yml
+  format: yaml
+  label: Vantiv Recurring API
+  slug: vantiv-recurring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-recurring-api-openapi.yml
+- filename: vantiv-sales-api-openapi.yml
+  format: yaml
+  label: Vantiv Sales API
+  slug: vantiv-sales-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-sales-api-openapi.yml
+- filename: vantiv-tokenization-api-openapi.yml
+  format: yaml
+  label: Vantiv Tokenization API
+  slug: vantiv-tokenization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-tokenization-api-openapi.yml
+- filename: vantiv-voids-api-openapi.yml
+  format: yaml
+  label: Vantiv Voids API
+  slug: vantiv-voids-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-voids-api-openapi.yml
 auth_types:
 - http
 description: ''

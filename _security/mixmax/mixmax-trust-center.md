@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: mixmax-openapi.yml
+- filename: mixmax-contact-groups-api-openapi.yml
   format: yaml
-  label: Mixmax REST API
-  slug: mixmax-rest-api
+  label: Mixmax Contact Groups API
+  slug: mixmax-contact-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/openapi/mixmax-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/openapi/mixmax-contact-groups-api-openapi.yml
+- filename: mixmax-contacts-api-openapi.yml
+  format: yaml
+  label: Mixmax Contacts API
+  slug: mixmax-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/openapi/mixmax-contacts-api-openapi.yml
+- filename: mixmax-file-requests-api-openapi.yml
+  format: yaml
+  label: Mixmax File Requests API
+  slug: mixmax-file-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/openapi/mixmax-file-requests-api-openapi.yml
+- filename: mixmax-meetings-api-openapi.yml
+  format: yaml
+  label: Mixmax Meetings API
+  slug: mixmax-meetings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/openapi/mixmax-meetings-api-openapi.yml
+- filename: mixmax-sequences-api-openapi.yml
+  format: yaml
+  label: Mixmax Sequences API
+  slug: mixmax-sequences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/openapi/mixmax-sequences-api-openapi.yml
+- filename: mixmax-snippet-tags-api-openapi.yml
+  format: yaml
+  label: Mixmax Snippet Tags API
+  slug: mixmax-snippet-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/openapi/mixmax-snippet-tags-api-openapi.yml
 certifications:
 - SOC 2
 - HIPAA

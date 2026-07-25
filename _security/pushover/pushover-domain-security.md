@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: pushover-openapi.yml
-  format: yaml
-  label: Pushover Message API
-  slug: message-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushover/refs/heads/main/openapi/pushover-openapi.yml
 - filename: pushover-asyncapi.yml
   format: yaml
   label: Pushover Open Client API
   slug: open-client-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/pushover/refs/heads/main/openapi/pushover-asyncapi.yml
+- filename: pushover-apps-api-openapi.yml
+  format: yaml
+  label: Pushover Apps API
+  slug: pushover-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushover/refs/heads/main/openapi/pushover-apps-api-openapi.yml
+- filename: pushover-messages-json-api-openapi.yml
+  format: yaml
+  label: Pushover Messages.json API
+  slug: pushover-messages-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushover/refs/heads/main/openapi/pushover-messages-json-api-openapi.yml
+- filename: pushover-receipts-api-openapi.yml
+  format: yaml
+  label: Pushover Receipts API
+  slug: pushover-receipts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushover/refs/heads/main/openapi/pushover-receipts-api-openapi.yml
+- filename: pushover-sounds-json-api-openapi.yml
+  format: yaml
+  label: Pushover Sounds.json API
+  slug: pushover-sounds-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushover/refs/heads/main/openapi/pushover-sounds-json-api-openapi.yml
+- filename: pushover-users-api-openapi.yml
+  format: yaml
+  label: Pushover Users API
+  slug: pushover-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushover/refs/heads/main/openapi/pushover-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -6,6 +6,66 @@ api_specs:
   slug: embedded-payroll-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-asyncapi.yml
+- filename: gusto-bankaccounts-api-openapi.yml
+  format: yaml
+  label: Gusto BankAccounts API
+  slug: gusto-bankaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-bankaccounts-api-openapi.yml
+- filename: gusto-companies-api-openapi.yml
+  format: yaml
+  label: Gusto Companies API
+  slug: gusto-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-companies-api-openapi.yml
+- filename: gusto-contractorpayments-api-openapi.yml
+  format: yaml
+  label: Gusto ContractorPayments API
+  slug: gusto-contractorpayments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-contractorpayments-api-openapi.yml
+- filename: gusto-contractors-api-openapi.yml
+  format: yaml
+  label: Gusto Contractors API
+  slug: gusto-contractors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-contractors-api-openapi.yml
+- filename: gusto-employees-api-openapi.yml
+  format: yaml
+  label: Gusto Employees API
+  slug: gusto-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-employees-api-openapi.yml
+- filename: gusto-flows-api-openapi.yml
+  format: yaml
+  label: Gusto Flows API
+  slug: gusto-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-flows-api-openapi.yml
+- filename: gusto-payrolls-api-openapi.yml
+  format: yaml
+  label: Gusto Payrolls API
+  slug: gusto-payrolls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-payrolls-api-openapi.yml
+- filename: gusto-payschedules-api-openapi.yml
+  format: yaml
+  label: Gusto PaySchedules API
+  slug: gusto-payschedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-payschedules-api-openapi.yml
+- filename: gusto-reports-api-openapi.yml
+  format: yaml
+  label: Gusto Reports API
+  slug: gusto-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-reports-api-openapi.yml
+- filename: gusto-webhooks-api-openapi.yml
+  format: yaml
+  label: Gusto Webhooks API
+  slug: gusto-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-webhooks-api-openapi.yml
 certifications:
 - SOC 2
 - HIPAA

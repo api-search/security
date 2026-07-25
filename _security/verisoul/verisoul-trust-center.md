@@ -1,53 +1,53 @@
 ---
 api_specs:
-- filename: verisoul-session-openapi.json
-  format: json
-  label: Verisoul Session API
-  slug: verisoul-session-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-session-openapi.json
-- filename: verisoul-account-openapi.json
-  format: json
+- filename: verisoul-account-api-openapi.yml
+  format: yaml
   label: Verisoul Account API
   slug: verisoul-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-account-openapi.json
-- filename: verisoul-list-openapi.json
-  format: json
-  label: Verisoul Lists API
-  slug: verisoul-lists-api
+  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-account-api-openapi.yml
+- filename: verisoul-email-api-openapi.yml
+  format: yaml
+  label: Verisoul Email API
+  slug: verisoul-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-list-openapi.json
-- filename: verisoul-phone-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-email-api-openapi.yml
+- filename: verisoul-enrollment-api-openapi.yml
+  format: yaml
+  label: Verisoul Enrollment API
+  slug: verisoul-enrollment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-enrollment-api-openapi.yml
+- filename: verisoul-list-api-openapi.yml
+  format: yaml
+  label: Verisoul List API
+  slug: verisoul-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-list-api-openapi.yml
+- filename: verisoul-phone-api-openapi.yml
+  format: yaml
   label: Verisoul Phone API
   slug: verisoul-phone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-phone-openapi.json
-- filename: verisoul-email-openapi.json
-  format: json
-  label: Verisoul Email Intelligence API
-  slug: verisoul-email-intelligence-api
+  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-phone-api-openapi.yml
+- filename: verisoul-public-api-openapi.yml
+  format: yaml
+  label: Verisoul Public API
+  slug: verisoul-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-email-openapi.json
-- filename: verisoul-email-batch-openapi.json
-  format: json
-  label: Verisoul Email Intelligence Batch API
-  slug: verisoul-email-intelligence-batch-api
+  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-public-api-openapi.yml
+- filename: verisoul-session-api-openapi.yml
+  format: yaml
+  label: Verisoul Session API
+  slug: verisoul-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-email-batch-openapi.json
-- filename: verisoul-idcheck-openapi.json
-  format: json
-  label: Verisoul ID Check API
-  slug: verisoul-id-check-api
+  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-session-api-openapi.yml
+- filename: verisoul-verification-api-openapi.yml
+  format: yaml
+  label: Verisoul Verification API
+  slug: verisoul-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-idcheck-openapi.json
-- filename: verisoul-facematch-openapi.json
-  format: json
-  label: Verisoul Face Match API
-  slug: verisoul-face-match-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-facematch-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-verification-api-openapi.yml
 certifications: []
 description: ''
 kind: trust-center

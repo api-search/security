@@ -1,23 +1,35 @@
 ---
 api_specs:
-- filename: linksquares-openapi.yml
+- filename: linksquares-account-api-openapi.yml
   format: yaml
-  label: LinkSquares Analyze Agreements API
-  slug: linksquares-analyze-agreements-api
+  label: LinkSquares Account API
+  slug: linksquares-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linksquares/refs/heads/main/openapi/linksquares-openapi.yml
-- filename: linksquares-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/linksquares/refs/heads/main/openapi/linksquares-account-api-openapi.yml
+- filename: linksquares-agreements-api-openapi.yml
   format: yaml
-  label: LinkSquares Analyze Metadata and Smart Values API
-  slug: linksquares-analyze-metadata-api
+  label: LinkSquares Agreements API
+  slug: linksquares-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linksquares/refs/heads/main/openapi/linksquares-openapi.yml
-- filename: linksquares-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/linksquares/refs/heads/main/openapi/linksquares-agreements-api-openapi.yml
+- filename: linksquares-attachments-api-openapi.yml
   format: yaml
-  label: LinkSquares Finalize Workflow API
+  label: LinkSquares Attachments API
+  slug: linksquares-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linksquares/refs/heads/main/openapi/linksquares-attachments-api-openapi.yml
+- filename: linksquares-finalize-api-openapi.yml
+  format: yaml
+  label: LinkSquares Finalize API
   slug: linksquares-finalize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linksquares/refs/heads/main/openapi/linksquares-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/linksquares/refs/heads/main/openapi/linksquares-finalize-api-openapi.yml
+- filename: linksquares-metadata-and-smart-values-api-openapi.yml
+  format: yaml
+  label: LinkSquares Metadata and Smart Values API
+  slug: linksquares-metadata-and-smart-values-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linksquares/refs/heads/main/openapi/linksquares-metadata-and-smart-values-api-openapi.yml
 description: ''
 domains:
 - caa: []

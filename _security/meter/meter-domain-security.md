@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: meter-openapi-original.yml
+- filename: meter-accounts-api-openapi.yml
   format: yaml
-  label: Meter Native RESTful API (Meterest)
-  slug: meter-native-restful-api-meterest
+  label: Meter Accounts API
+  slug: meter-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/openapi/meter-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/openapi/meter-accounts-api-openapi.yml
+- filename: meter-blocks-api-openapi.yml
+  format: yaml
+  label: Meter Blocks API
+  slug: meter-blocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/openapi/meter-blocks-api-openapi.yml
+- filename: meter-debug-api-openapi.yml
+  format: yaml
+  label: Meter Debug API
+  slug: meter-debug-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/openapi/meter-debug-api-openapi.yml
+- filename: meter-logs-api-openapi.yml
+  format: yaml
+  label: Meter Logs API
+  slug: meter-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/openapi/meter-logs-api-openapi.yml
+- filename: meter-node-api-openapi.yml
+  format: yaml
+  label: Meter Node API
+  slug: meter-node-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/openapi/meter-node-api-openapi.yml
+- filename: meter-staking-api-openapi.yml
+  format: yaml
+  label: Meter Staking API
+  slug: meter-staking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/openapi/meter-staking-api-openapi.yml
+- filename: meter-subscriptions-api-openapi.yml
+  format: yaml
+  label: Meter Subscriptions API
+  slug: meter-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/openapi/meter-subscriptions-api-openapi.yml
+- filename: meter-transactions-api-openapi.yml
+  format: yaml
+  label: Meter Transactions API
+  slug: meter-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/openapi/meter-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,6 +1,13 @@
 ---
 api_key_in:
 - query
+api_specs:
+- filename: ieee-metadata-search-api-openapi.yml
+  format: yaml
+  label: IEEE Xplore Metadata Search API
+  slug: ieee-metadata-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ieee/refs/heads/main/openapi/ieee-metadata-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

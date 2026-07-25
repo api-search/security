@@ -1,41 +1,35 @@
 ---
 api_specs:
-- filename: travelperk-openapi.yml
-  format: yaml
-  label: TravelPerk Bookings & Trips API
-  slug: travelperk-bookings-trips-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelperk/refs/heads/main/openapi/travelperk-openapi.yml
-- filename: travelperk-openapi.yml
-  format: yaml
-  label: TravelPerk Invoices API
-  slug: travelperk-invoices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelperk/refs/heads/main/openapi/travelperk-openapi.yml
-- filename: travelperk-openapi.yml
-  format: yaml
-  label: TravelPerk Expenses API
-  slug: travelperk-expenses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelperk/refs/heads/main/openapi/travelperk-openapi.yml
-- filename: travelperk-openapi.yml
-  format: yaml
-  label: TravelPerk Travelers & Members API
-  slug: travelperk-members-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelperk/refs/heads/main/openapi/travelperk-openapi.yml
-- filename: travelperk-openapi.yml
+- filename: travelperk-cost-centers-api-openapi.yml
   format: yaml
   label: TravelPerk Cost Centers API
   slug: travelperk-cost-centers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelperk/refs/heads/main/openapi/travelperk-openapi.yml
-- filename: travelperk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/travelperk/refs/heads/main/openapi/travelperk-cost-centers-api-openapi.yml
+- filename: travelperk-invoices-api-openapi.yml
+  format: yaml
+  label: TravelPerk Invoices API
+  slug: travelperk-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travelperk/refs/heads/main/openapi/travelperk-invoices-api-openapi.yml
+- filename: travelperk-members-api-openapi.yml
+  format: yaml
+  label: TravelPerk Members API
+  slug: travelperk-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travelperk/refs/heads/main/openapi/travelperk-members-api-openapi.yml
+- filename: travelperk-trips-api-openapi.yml
+  format: yaml
+  label: TravelPerk Trips API
+  slug: travelperk-trips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travelperk/refs/heads/main/openapi/travelperk-trips-api-openapi.yml
+- filename: travelperk-webhooks-api-openapi.yml
   format: yaml
   label: TravelPerk Webhooks API
   slug: travelperk-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelperk/refs/heads/main/openapi/travelperk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/travelperk/refs/heads/main/openapi/travelperk-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

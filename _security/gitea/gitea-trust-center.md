@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: swagger
+- filename: gitea-admin-api-openapi.yml
   format: yaml
-  label: Gitea REST API
-  slug: gitea-rest-api
+  label: Gitea admin API
+  slug: gitea-admin-api
   spec_type: OpenAPI
-  url: https://demo.gitea.com/api/swagger
+  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-admin-api-openapi.yml
+- filename: gitea-issue-api-openapi.yml
+  format: yaml
+  label: Gitea issue API
+  slug: gitea-issue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-issue-api-openapi.yml
+- filename: gitea-miscellaneous-api-openapi.yml
+  format: yaml
+  label: Gitea miscellaneous API
+  slug: gitea-miscellaneous-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-miscellaneous-api-openapi.yml
+- filename: gitea-notification-api-openapi.yml
+  format: yaml
+  label: Gitea notification API
+  slug: gitea-notification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-notification-api-openapi.yml
+- filename: gitea-organization-api-openapi.yml
+  format: yaml
+  label: Gitea organization API
+  slug: gitea-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-organization-api-openapi.yml
+- filename: gitea-package-api-openapi.yml
+  format: yaml
+  label: Gitea package API
+  slug: gitea-package-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-package-api-openapi.yml
+- filename: gitea-repository-api-openapi.yml
+  format: yaml
+  label: Gitea repository API
+  slug: gitea-repository-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-repository-api-openapi.yml
+- filename: gitea-settings-api-openapi.yml
+  format: yaml
+  label: Gitea settings API
+  slug: gitea-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-settings-api-openapi.yml
+- filename: gitea-user-api-openapi.yml
+  format: yaml
+  label: Gitea user API
+  slug: gitea-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-user-api-openapi.yml
 certifications:
 - SOC 2
 description: ''

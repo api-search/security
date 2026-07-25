@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Budibase REST API
-  slug: budibase-rest-api
+- filename: budibase-applications-api-openapi.yml
+  format: yaml
+  label: Budibase Applications API
+  slug: budibase-applications-api
   spec_type: OpenAPI
-  url: https://budibase.com/api/public/v1/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-applications-api-openapi.yml
+- filename: budibase-queries-api-openapi.yml
+  format: yaml
+  label: Budibase Queries API
+  slug: budibase-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-queries-api-openapi.yml
+- filename: budibase-rows-api-openapi.yml
+  format: yaml
+  label: Budibase Rows API
+  slug: budibase-rows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-rows-api-openapi.yml
+- filename: budibase-tables-api-openapi.yml
+  format: yaml
+  label: Budibase Tables API
+  slug: budibase-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-tables-api-openapi.yml
+- filename: budibase-users-api-openapi.yml
+  format: yaml
+  label: Budibase Users API
+  slug: budibase-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

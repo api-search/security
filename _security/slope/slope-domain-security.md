@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: slope-v4-openapi.json
-  format: json
-  label: Slope v4 API
-  slug: slope-v4-api
+- filename: slope-auth-api-openapi.yml
+  format: yaml
+  label: Slope Auth API
+  slug: slope-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-v4-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-auth-api-openapi.yml
+- filename: slope-customers-api-openapi.yml
+  format: yaml
+  label: Slope Customers API
+  slug: slope-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-customers-api-openapi.yml
+- filename: slope-files-api-openapi.yml
+  format: yaml
+  label: Slope Files API
+  slug: slope-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-files-api-openapi.yml
+- filename: slope-orders-api-openapi.yml
+  format: yaml
+  label: Slope Orders API
+  slug: slope-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-orders-api-openapi.yml
+- filename: slope-payout-accounts-api-openapi.yml
+  format: yaml
+  label: Slope Payout Accounts API
+  slug: slope-payout-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-payout-accounts-api-openapi.yml
+- filename: slope-persons-api-openapi.yml
+  format: yaml
+  label: Slope Persons API
+  slug: slope-persons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-persons-api-openapi.yml
+- filename: slope-prescreens-api-openapi.yml
+  format: yaml
+  label: Slope Prescreens API
+  slug: slope-prescreens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-prescreens-api-openapi.yml
+- filename: slope-simulation-api-openapi.yml
+  format: yaml
+  label: Slope Simulation API
+  slug: slope-simulation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-simulation-api-openapi.yml
+- filename: slope-transactions-api-openapi.yml
+  format: yaml
+  label: Slope Transactions API
+  slug: slope-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-transactions-api-openapi.yml
+- filename: slope-user-links-api-openapi.yml
+  format: yaml
+  label: Slope User Links API
+  slug: slope-user-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-user-links-api-openapi.yml
 description: ''
 domains:
 - caa: []

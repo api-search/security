@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: metals-api-openapi.yml
+- filename: metals-api-analytics-api-openapi.yml
   format: yaml
-  label: Metals-API
-  slug: metals-api
+  label: Metals-API Analytics API
+  slug: metals-api-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metals-api/refs/heads/main/openapi/metals-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/metals-api/refs/heads/main/openapi/metals-api-analytics-api-openapi.yml
+- filename: metals-api-conversion-api-openapi.yml
+  format: yaml
+  label: Metals-API Conversion API
+  slug: metals-api-conversion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metals-api/refs/heads/main/openapi/metals-api-conversion-api-openapi.yml
+- filename: metals-api-rates-api-openapi.yml
+  format: yaml
+  label: Metals-API Rates API
+  slug: metals-api-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metals-api/refs/heads/main/openapi/metals-api-rates-api-openapi.yml
+- filename: metals-api-reference-api-openapi.yml
+  format: yaml
+  label: Metals-API Reference API
+  slug: metals-api-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metals-api/refs/heads/main/openapi/metals-api-reference-api-openapi.yml
 description: ''
 domains:
 - caa: []

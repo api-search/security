@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: opentelemetry-logs-api-openapi.yml
   format: yaml
-  label: OpenTelemetry Protocol (OTLP) HTTP API
-  slug: opentelemetry-protocol-otlp-http-api
+  label: OpenTelemetry Logs API
+  slug: opentelemetry-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/openapi/opentelemetry-logs-api-openapi.yml
+- filename: opentelemetry-metrics-api-openapi.yml
+  format: yaml
+  label: OpenTelemetry Metrics API
+  slug: opentelemetry-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/openapi/opentelemetry-metrics-api-openapi.yml
+- filename: opentelemetry-traces-api-openapi.yml
+  format: yaml
+  label: OpenTelemetry Traces API
+  slug: opentelemetry-traces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/openapi/opentelemetry-traces-api-openapi.yml
 description: ''
 domains:
 - caa:

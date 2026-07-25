@@ -1,4 +1,59 @@
 ---
+api_specs:
+- filename: idenfy-fraud-api-openapi.yml
+  format: yaml
+  label: iDenfy Fraud Prevention API
+  slug: idenfy-fraud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idenfy/refs/heads/main/openapi/idenfy-fraud-api-openapi.yml
+- filename: idenfy-face-authentication-api-openapi.yml
+  format: yaml
+  label: iDenfy Face Authentication API
+  slug: idenfy-face-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idenfy/refs/heads/main/openapi/idenfy-face-authentication-api-openapi.yml
+- filename: idenfy-aml-api-openapi.yml
+  format: yaml
+  label: iDenfy Aml API
+  slug: idenfy-aml-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idenfy/refs/heads/main/openapi/idenfy-aml-api-openapi.yml
+- filename: idenfy-bank-api-openapi.yml
+  format: yaml
+  label: iDenfy Bank API
+  slug: idenfy-bank-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idenfy/refs/heads/main/openapi/idenfy-bank-api-openapi.yml
+- filename: idenfy-face-authentication-api-openapi.yml
+  format: yaml
+  label: iDenfy Face Authentication API
+  slug: idenfy-face-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idenfy/refs/heads/main/openapi/idenfy-face-authentication-api-openapi.yml
+- filename: idenfy-fraud-api-openapi.yml
+  format: yaml
+  label: iDenfy Fraud API
+  slug: idenfy-fraud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idenfy/refs/heads/main/openapi/idenfy-fraud-api-openapi.yml
+- filename: idenfy-kyb-api-openapi.yml
+  format: yaml
+  label: iDenfy Kyb API
+  slug: idenfy-kyb-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idenfy/refs/heads/main/openapi/idenfy-kyb-api-openapi.yml
+- filename: idenfy-kyc-api-openapi.yml
+  format: yaml
+  label: iDenfy Kyc API
+  slug: idenfy-kyc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idenfy/refs/heads/main/openapi/idenfy-kyc-api-openapi.yml
+- filename: idenfy-token-api-openapi.yml
+  format: yaml
+  label: iDenfy Token API
+  slug: idenfy-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idenfy/refs/heads/main/openapi/idenfy-token-api-openapi.yml
 certifications:
 - ISO 27001
 - GDPR

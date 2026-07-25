@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: credly-openapi.yml
+- filename: credly-badge-templates-api-openapi.yml
   format: yaml
   label: Credly Badge Templates API
   slug: credly-badge-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-openapi.yml
-- filename: credly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-badge-templates-api-openapi.yml
+- filename: credly-events-api-openapi.yml
+  format: yaml
+  label: Credly Events API
+  slug: credly-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-events-api-openapi.yml
+- filename: credly-issued-badges-api-openapi.yml
   format: yaml
   label: Credly Issued Badges API
   slug: credly-issued-badges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-openapi.yml
-- filename: credly-openapi.yml
-  format: yaml
-  label: Credly Organizations API
-  slug: credly-organizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-openapi.yml
-- filename: credly-openapi.yml
-  format: yaml
-  label: Credly Events and Webhooks API
-  slug: credly-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-openapi.yml
-- filename: credly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-issued-badges-api-openapi.yml
+- filename: credly-obi-recipients-api-openapi.yml
   format: yaml
   label: Credly OBI Recipients API
   slug: credly-obi-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-obi-recipients-api-openapi.yml
+- filename: credly-organizations-api-openapi.yml
+  format: yaml
+  label: Credly Organizations API
+  slug: credly-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-organizations-api-openapi.yml
 description: ''
 domains:
 - caa: []

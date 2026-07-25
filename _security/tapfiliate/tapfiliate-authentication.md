@@ -2,12 +2,66 @@
 api_key_in:
 - header
 api_specs:
-- filename: tapfiliate-rest-api-openapi.yml
+- filename: tapfiliate-affiliate-groups-api-openapi.yml
   format: yaml
-  label: Tapfiliate REST API
-  slug: tapfiliate-rest-api
+  label: Tapfiliate Affiliate Groups API
+  slug: tapfiliate-affiliate-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-affiliate-groups-api-openapi.yml
+- filename: tapfiliate-affiliate-prospects-api-openapi.yml
+  format: yaml
+  label: Tapfiliate Affiliate Prospects API
+  slug: tapfiliate-affiliate-prospects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-affiliate-prospects-api-openapi.yml
+- filename: tapfiliate-affiliates-api-openapi.yml
+  format: yaml
+  label: Tapfiliate Affiliates API
+  slug: tapfiliate-affiliates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-affiliates-api-openapi.yml
+- filename: tapfiliate-balances-api-openapi.yml
+  format: yaml
+  label: Tapfiliate Balances API
+  slug: tapfiliate-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-balances-api-openapi.yml
+- filename: tapfiliate-clicks-api-openapi.yml
+  format: yaml
+  label: Tapfiliate Clicks API
+  slug: tapfiliate-clicks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-clicks-api-openapi.yml
+- filename: tapfiliate-commissions-api-openapi.yml
+  format: yaml
+  label: Tapfiliate Commissions API
+  slug: tapfiliate-commissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-commissions-api-openapi.yml
+- filename: tapfiliate-conversions-api-openapi.yml
+  format: yaml
+  label: Tapfiliate Conversions API
+  slug: tapfiliate-conversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-conversions-api-openapi.yml
+- filename: tapfiliate-customers-api-openapi.yml
+  format: yaml
+  label: Tapfiliate Customers API
+  slug: tapfiliate-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-customers-api-openapi.yml
+- filename: tapfiliate-payments-api-openapi.yml
+  format: yaml
+  label: Tapfiliate Payments API
+  slug: tapfiliate-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-payments-api-openapi.yml
+- filename: tapfiliate-programs-api-openapi.yml
+  format: yaml
+  label: Tapfiliate Programs API
+  slug: tapfiliate-programs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-programs-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

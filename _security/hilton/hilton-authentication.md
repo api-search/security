@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: hilton-hilton-api-openapi.yml
+- filename: hilton-hotels-api-openapi.yml
   format: yaml
-  label: Hilton Developer API
-  slug: hilton-api
+  label: Hilton Hotels API
+  slug: hilton-hotels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilton/refs/heads/main/openapi/hilton-hilton-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hilton/refs/heads/main/openapi/hilton-hotels-api-openapi.yml
 auth_types:
 - http
 description: ''

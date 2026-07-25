@@ -1,42 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: instantdb-openapi.yml
-  format: yaml
-  label: InstantDB Admin HTTP API
-  slug: instantdb-admin-http-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/openapi/instantdb-openapi.yml
-- filename: instantdb-openapi.yml
-  format: yaml
-  label: InstantDB Query (InstaQL) API
-  slug: instantdb-query-instaql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/openapi/instantdb-openapi.yml
-- filename: instantdb-openapi.yml
-  format: yaml
-  label: InstantDB Transactions (InstaML) API
-  slug: instantdb-transactions-instaml-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/openapi/instantdb-openapi.yml
-- filename: instantdb-openapi.yml
-  format: yaml
-  label: InstantDB Auth API
-  slug: instantdb-auth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/openapi/instantdb-openapi.yml
-- filename: instantdb-openapi.yml
-  format: yaml
-  label: InstantDB Storage API
-  slug: instantdb-storage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/openapi/instantdb-openapi.yml
 - filename: instantdb-asyncapi.yml
   format: yaml
   label: InstantDB Realtime Sync API
   slug: instantdb-realtime-sync-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/asyncapi/instantdb-asyncapi.yml
+- filename: instantdb-auth-api-openapi.yml
+  format: yaml
+  label: InstantDB Auth API
+  slug: instantdb-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/openapi/instantdb-auth-api-openapi.yml
+- filename: instantdb-presence-api-openapi.yml
+  format: yaml
+  label: InstantDB Presence API
+  slug: instantdb-presence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/openapi/instantdb-presence-api-openapi.yml
+- filename: instantdb-query-api-openapi.yml
+  format: yaml
+  label: InstantDB Query API
+  slug: instantdb-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/openapi/instantdb-query-api-openapi.yml
+- filename: instantdb-storage-api-openapi.yml
+  format: yaml
+  label: InstantDB Storage API
+  slug: instantdb-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/openapi/instantdb-storage-api-openapi.yml
+- filename: instantdb-transactions-api-openapi.yml
+  format: yaml
+  label: InstantDB Transactions API
+  slug: instantdb-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/openapi/instantdb-transactions-api-openapi.yml
 auth_types:
 - http
 description: ''

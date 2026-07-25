@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: cloud-academy-openapi-original.json
-  format: json
-  label: QA API (Cloud Academy)
-  slug: qa-api-cloud-academy
+- filename: cloud-academy-learning-management-system-api-openapi.yml
+  format: yaml
+  label: Cloud Academy Learning Management System API
+  slug: cloud-academy-learning-management-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/openapi/cloud-academy-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/openapi/cloud-academy-learning-management-system-api-openapi.yml
+- filename: cloud-academy-organizations-api-openapi.yml
+  format: yaml
+  label: Cloud Academy Organizations API
+  slug: cloud-academy-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/openapi/cloud-academy-organizations-api-openapi.yml
+- filename: cloud-academy-reports-api-openapi.yml
+  format: yaml
+  label: Cloud Academy Reports API
+  slug: cloud-academy-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/openapi/cloud-academy-reports-api-openapi.yml
 description: ''
 domains:
 - caa:

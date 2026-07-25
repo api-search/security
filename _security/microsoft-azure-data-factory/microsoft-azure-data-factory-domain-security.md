@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: microsoft-azure-data-factory-openapi.yml
+- filename: microsoft-azure-data-factory-factories-api-openapi.yml
   format: yaml
-  label: Azure Data Factory REST API
-  slug: rest-api
+  label: microsoft-azure-data-factory Factories API
+  slug: microsoft-azure-data-factory-factories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-factories-api-openapi.yml
+- filename: microsoft-azure-data-factory-operations-api-openapi.yml
+  format: yaml
+  label: microsoft-azure-data-factory Operations API
+  slug: microsoft-azure-data-factory-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-operations-api-openapi.yml
 description: ''
 domains:
 - caa:

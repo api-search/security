@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: docuseal-docuseal-api-openapi.yml
+- filename: docuseal-submissions-api-openapi.yml
   format: yaml
-  label: DocuSeal REST API
-  slug: docuseal-api
+  label: DocuSeal Submissions API
+  slug: docuseal-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/openapi/docuseal-docuseal-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/openapi/docuseal-submissions-api-openapi.yml
+- filename: docuseal-submitters-api-openapi.yml
+  format: yaml
+  label: DocuSeal Submitters API
+  slug: docuseal-submitters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/openapi/docuseal-submitters-api-openapi.yml
+- filename: docuseal-templates-api-openapi.yml
+  format: yaml
+  label: DocuSeal Templates API
+  slug: docuseal-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/openapi/docuseal-templates-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

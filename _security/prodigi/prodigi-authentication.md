@@ -2,30 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: prodigi-openapi.yml
+- filename: prodigi-orders-api-openapi.yml
   format: yaml
   label: Prodigi Orders API
   slug: prodigi-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prodigi/refs/heads/main/openapi/prodigi-openapi.yml
-- filename: prodigi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prodigi/refs/heads/main/openapi/prodigi-orders-api-openapi.yml
+- filename: prodigi-products-api-openapi.yml
+  format: yaml
+  label: Prodigi Products API
+  slug: prodigi-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prodigi/refs/heads/main/openapi/prodigi-products-api-openapi.yml
+- filename: prodigi-quotes-api-openapi.yml
   format: yaml
   label: Prodigi Quotes API
   slug: prodigi-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prodigi/refs/heads/main/openapi/prodigi-openapi.yml
-- filename: prodigi-openapi.yml
-  format: yaml
-  label: Prodigi Product Details API
-  slug: prodigi-product-details-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prodigi/refs/heads/main/openapi/prodigi-openapi.yml
-- filename: prodigi-openapi.yml
-  format: yaml
-  label: Prodigi Webhooks / Callbacks
-  slug: prodigi-webhooks-callbacks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prodigi/refs/heads/main/openapi/prodigi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prodigi/refs/heads/main/openapi/prodigi-quotes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

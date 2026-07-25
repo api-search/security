@@ -2,54 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: flinks-openapi.yml
+- filename: flinks-authorize-api-openapi.yml
   format: yaml
-  label: Flinks Authorize / Connect API
-  slug: flinks-authorize-connect-api
+  label: Flinks Authorize API
+  slug: flinks-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-openapi.yml
-- filename: flinks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-authorize-api-openapi.yml
+- filename: flinks-connect-api-openapi.yml
   format: yaml
-  label: Flinks Accounts Detail API
-  slug: flinks-accounts-detail-api
+  label: Flinks Connect API
+  slug: flinks-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-openapi.yml
-- filename: flinks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-connect-api-openapi.yml
+- filename: flinks-enrich-api-openapi.yml
   format: yaml
-  label: Flinks Accounts Summary API
-  slug: flinks-accounts-summary-api
+  label: Flinks Enrich API
+  slug: flinks-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-openapi.yml
-- filename: flinks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-enrich-api-openapi.yml
+- filename: flinks-fraud-api-openapi.yml
   format: yaml
-  label: Flinks Statements API
-  slug: flinks-statements-api
+  label: Flinks Fraud API
+  slug: flinks-fraud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-openapi.yml
-- filename: flinks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-fraud-api-openapi.yml
+- filename: flinks-identity-api-openapi.yml
   format: yaml
   label: Flinks Identity API
   slug: flinks-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-openapi.yml
-- filename: flinks-openapi.yml
-  format: yaml
-  label: Flinks Attributes / Analytics API
-  slug: flinks-attributes-analytics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-openapi.yml
-- filename: flinks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-identity-api-openapi.yml
+- filename: flinks-score-api-openapi.yml
   format: yaml
   label: Flinks Score API
   slug: flinks-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-openapi.yml
-- filename: flinks-openapi.yml
-  format: yaml
-  label: Flinks Fraud / KYC API
-  slug: flinks-fraud-kyc-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-score-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

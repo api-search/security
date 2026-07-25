@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: veritas-netbackup-rest-api-openapi.yml
+- filename: veritas-netbackup-clients-api-openapi.yml
   format: yaml
-  label: Veritas NetBackup REST API
-  slug: veritas-netbackup-rest-api
+  label: Veritas NetBackup Clients API
+  slug: veritas-netbackup-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-clients-api-openapi.yml
+- filename: veritas-netbackup-images-api-openapi.yml
+  format: yaml
+  label: Veritas NetBackup Images API
+  slug: veritas-netbackup-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-images-api-openapi.yml
+- filename: veritas-netbackup-jobs-api-openapi.yml
+  format: yaml
+  label: Veritas NetBackup Jobs API
+  slug: veritas-netbackup-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-jobs-api-openapi.yml
+- filename: veritas-netbackup-login-api-openapi.yml
+  format: yaml
+  label: Veritas NetBackup Login API
+  slug: veritas-netbackup-login-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-login-api-openapi.yml
+- filename: veritas-netbackup-policies-api-openapi.yml
+  format: yaml
+  label: Veritas NetBackup Policies API
+  slug: veritas-netbackup-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-policies-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: microsoft-azure-event-grid-openapi.yml
+- filename: microsoft-azure-event-grid-operations-api-openapi.yml
   format: yaml
-  label: Azure Event Grid API
-  slug: azure-event-grid-api
+  label: Azure Event Grid Operations API
+  slug: microsoft-azure-event-grid-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-grid/refs/heads/main/openapi/microsoft-azure-event-grid-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-grid/refs/heads/main/openapi/microsoft-azure-event-grid-operations-api-openapi.yml
+- filename: microsoft-azure-event-grid-topics-api-openapi.yml
+  format: yaml
+  label: Azure Event Grid Topics API
+  slug: microsoft-azure-event-grid-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-grid/refs/heads/main/openapi/microsoft-azure-event-grid-topics-api-openapi.yml
 description: ''
 domains:
 - caa:

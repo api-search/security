@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cesanta-mdash-openapi.yml
+- filename: cesanta-data-api-openapi.yml
   format: yaml
-  label: Cesanta mDash REST API
-  slug: cesanta-mdash-rest-api
+  label: Cesanta Data API
+  slug: cesanta-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cesanta/refs/heads/main/openapi/cesanta-mdash-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cesanta/refs/heads/main/openapi/cesanta-data-api-openapi.yml
+- filename: cesanta-devices-api-openapi.yml
+  format: yaml
+  label: Cesanta Devices API
+  slug: cesanta-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cesanta/refs/heads/main/openapi/cesanta-devices-api-openapi.yml
+- filename: cesanta-keys-api-openapi.yml
+  format: yaml
+  label: Cesanta Keys API
+  slug: cesanta-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cesanta/refs/heads/main/openapi/cesanta-keys-api-openapi.yml
+- filename: cesanta-logs-api-openapi.yml
+  format: yaml
+  label: Cesanta Logs API
+  slug: cesanta-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cesanta/refs/heads/main/openapi/cesanta-logs-api-openapi.yml
 auth_types:
 - http
 description: ''

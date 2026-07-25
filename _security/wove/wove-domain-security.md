@@ -1,4 +1,65 @@
 ---
+api_specs:
+- filename: wove-authentication-api-openapi.yml
+  format: yaml
+  label: Wove Authentication API
+  slug: wove-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-authentication-api-openapi.yml
+- filename: wove-documents-api-openapi.yml
+  format: yaml
+  label: Wove Documents API
+  slug: wove-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-documents-api-openapi.yml
+- filename: wove-query-bank-api-openapi.yml
+  format: yaml
+  label: Wove Query Bank API
+  slug: wove-query-bank-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-query-bank-api-openapi.yml
+- filename: wove-rates-api-openapi.yml
+  format: yaml
+  label: Wove Rates API
+  slug: wove-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-rates-api-openapi.yml
+- filename: wove-shipments-api-openapi.yml
+  format: yaml
+  label: Wove Shipments API
+  slug: wove-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-shipments-api-openapi.yml
+- filename: wove-sources-api-openapi.yml
+  format: yaml
+  label: Wove Sources API
+  slug: wove-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-sources-api-openapi.yml
+- filename: wove-tariffs-api-openapi.yml
+  format: yaml
+  label: Wove Tariffs API
+  slug: wove-tariffs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-tariffs-api-openapi.yml
+- filename: wove-testing-api-openapi.yml
+  format: yaml
+  label: Wove Testing API
+  slug: wove-testing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-testing-api-openapi.yml
+- filename: wove-tms-organizations-api-openapi.yml
+  format: yaml
+  label: Wove TMS Organizations API
+  slug: wove-tms-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-tms-organizations-api-openapi.yml
+- filename: wove-webhooks-api-openapi.yml
+  format: yaml
+  label: Wove Webhooks API
+  slug: wove-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

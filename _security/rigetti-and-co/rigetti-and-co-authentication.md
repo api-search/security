@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: rigetti-and-co-qcs-openapi.yml
+- filename: rigetti-and-co-account-api-openapi.yml
   format: yaml
-  label: Rigetti QCS API
-  slug: rigetti-qcs-api
+  label: Rigetti & Co account API
+  slug: rigetti-and-co-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/openapi/rigetti-and-co-qcs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/openapi/rigetti-and-co-account-api-openapi.yml
+- filename: rigetti-and-co-authentication-api-openapi.yml
+  format: yaml
+  label: Rigetti & Co authentication API
+  slug: rigetti-and-co-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/openapi/rigetti-and-co-authentication-api-openapi.yml
+- filename: rigetti-and-co-clientapplications-api-openapi.yml
+  format: yaml
+  label: Rigetti & Co clientApplications API
+  slug: rigetti-and-co-clientapplications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/openapi/rigetti-and-co-clientapplications-api-openapi.yml
+- filename: rigetti-and-co-endpoints-api-openapi.yml
+  format: yaml
+  label: Rigetti & Co endpoints API
+  slug: rigetti-and-co-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/openapi/rigetti-and-co-endpoints-api-openapi.yml
+- filename: rigetti-and-co-engagements-api-openapi.yml
+  format: yaml
+  label: Rigetti & Co engagements API
+  slug: rigetti-and-co-engagements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/openapi/rigetti-and-co-engagements-api-openapi.yml
+- filename: rigetti-and-co-healthcheck-api-openapi.yml
+  format: yaml
+  label: Rigetti & Co Healthcheck API
+  slug: rigetti-and-co-healthcheck-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/openapi/rigetti-and-co-healthcheck-api-openapi.yml
+- filename: rigetti-and-co-quantumprocessors-api-openapi.yml
+  format: yaml
+  label: Rigetti & Co quantumProcessors API
+  slug: rigetti-and-co-quantumprocessors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/openapi/rigetti-and-co-quantumprocessors-api-openapi.yml
+- filename: rigetti-and-co-reservations-api-openapi.yml
+  format: yaml
+  label: Rigetti & Co reservations API
+  slug: rigetti-and-co-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/openapi/rigetti-and-co-reservations-api-openapi.yml
+- filename: rigetti-and-co-rigetti-qcs-api-api-openapi.yml
+  format: yaml
+  label: Rigetti & Co Rigetti QCS API API
+  slug: rigetti-and-co-rigetti-qcs-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/openapi/rigetti-and-co-rigetti-qcs-api-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: vendure-shop-api-openapi.yml
+- filename: vendure-assets-api-openapi.yml
   format: yaml
-  label: Vendure Shop GraphQL API
-  slug: shop-api
+  label: Vendure Assets API
+  slug: vendure-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendure/refs/heads/main/openapi/vendure-shop-api-openapi.yml
-- filename: vendure-admin-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vendure/refs/heads/main/openapi/vendure-assets-api-openapi.yml
+- filename: vendure-vendure-admin-api-api-openapi.yml
   format: yaml
-  label: Vendure Admin GraphQL API
-  slug: admin-api
+  label: Vendure Vendure Admin API API
+  slug: vendure-vendure-admin-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendure/refs/heads/main/openapi/vendure-admin-api-openapi.yml
-- filename: vendure-asset-server-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vendure/refs/heads/main/openapi/vendure-vendure-admin-api-api-openapi.yml
+- filename: vendure-vendure-shop-api-api-openapi.yml
   format: yaml
-  label: Vendure Asset Server REST API
-  slug: asset-server
+  label: Vendure Vendure Shop API API
+  slug: vendure-vendure-shop-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendure/refs/heads/main/openapi/vendure-asset-server-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vendure/refs/heads/main/openapi/vendure-vendure-shop-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

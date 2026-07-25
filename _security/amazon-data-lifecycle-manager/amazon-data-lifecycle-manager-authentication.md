@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-data-lifecycle-manager-openapi.yml
+- filename: amazon-data-lifecycle-manager-lifecycle-policies-api-openapi.yml
   format: yaml
-  label: Amazon Data Lifecycle Manager API
-  slug: amazon-dlm-api
+  label: Amazon Data Lifecycle Manager Lifecycle Policies API
+  slug: amazon-data-lifecycle-manager-lifecycle-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/openapi/amazon-data-lifecycle-manager-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/openapi/amazon-data-lifecycle-manager-lifecycle-policies-api-openapi.yml
+- filename: amazon-data-lifecycle-manager-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Data Lifecycle Manager Tags API
+  slug: amazon-data-lifecycle-manager-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/openapi/amazon-data-lifecycle-manager-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

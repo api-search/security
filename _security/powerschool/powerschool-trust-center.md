@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: powerschool-powerschool-sis-api-openapi.yml
+- filename: powerschool-authentication-api-openapi.yml
   format: yaml
-  label: PowerSchool SIS REST API
-  slug: powerschool-sis-api
+  label: PowerSchool Authentication API
+  slug: powerschool-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/openapi/powerschool-powerschool-sis-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/openapi/powerschool-authentication-api-openapi.yml
+- filename: powerschool-courses-api-openapi.yml
+  format: yaml
+  label: PowerSchool Courses API
+  slug: powerschool-courses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/openapi/powerschool-courses-api-openapi.yml
+- filename: powerschool-district-api-openapi.yml
+  format: yaml
+  label: PowerSchool District API
+  slug: powerschool-district-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/openapi/powerschool-district-api-openapi.yml
+- filename: powerschool-metadata-api-openapi.yml
+  format: yaml
+  label: PowerSchool Metadata API
+  slug: powerschool-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/openapi/powerschool-metadata-api-openapi.yml
+- filename: powerschool-powerquery-api-openapi.yml
+  format: yaml
+  label: PowerSchool PowerQuery API
+  slug: powerschool-powerquery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/openapi/powerschool-powerquery-api-openapi.yml
+- filename: powerschool-schools-api-openapi.yml
+  format: yaml
+  label: PowerSchool Schools API
+  slug: powerschool-schools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/openapi/powerschool-schools-api-openapi.yml
+- filename: powerschool-sections-api-openapi.yml
+  format: yaml
+  label: PowerSchool Sections API
+  slug: powerschool-sections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/openapi/powerschool-sections-api-openapi.yml
+- filename: powerschool-students-api-openapi.yml
+  format: yaml
+  label: PowerSchool Students API
+  slug: powerschool-students-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/openapi/powerschool-students-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

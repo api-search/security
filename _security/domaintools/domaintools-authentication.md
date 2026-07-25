@@ -3,30 +3,78 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: domaintools-iris-openapi.yml
+- filename: domaintools-flex-search-api-openapi.yml
   format: yaml
-  label: DomainTools Iris API
-  slug: domaintools-iris-api
+  label: DomainTools Flex search API
+  slug: domaintools-flex-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-iris-openapi.yml
-- filename: domaintools-lookups-monitors-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-flex-search-api-openapi.yml
+- filename: domaintools-information-api-openapi.yml
   format: yaml
-  label: DomainTools Lookups and Monitors API
-  slug: domaintools-lookups-and-monitors-api
+  label: DomainTools Information API
+  slug: domaintools-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-lookups-monitors-openapi.yml
-- filename: domaintools-dnsdb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-information-api-openapi.yml
+- filename: domaintools-iris-detect-api-openapi.yml
   format: yaml
-  label: Farsight DNSDB Passive DNS API
-  slug: farsight-dnsdb-passive-dns-api
+  label: DomainTools Iris Detect API
+  slug: domaintools-iris-detect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-dnsdb-openapi.yml
-- filename: domaintools-sie-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-iris-detect-api-openapi.yml
+- filename: domaintools-iris-enrich-api-openapi.yml
   format: yaml
-  label: Farsight SIE Batch API
-  slug: farsight-sie-batch-api
+  label: DomainTools Iris Enrich API
+  slug: domaintools-iris-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-sie-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-iris-enrich-api-openapi.yml
+- filename: domaintools-iris-investigate-api-openapi.yml
+  format: yaml
+  label: DomainTools Iris Investigate API
+  slug: domaintools-iris-investigate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-iris-investigate-api-openapi.yml
+- filename: domaintools-lookups-api-openapi.yml
+  format: yaml
+  label: DomainTools Lookups API
+  slug: domaintools-lookups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-lookups-api-openapi.yml
+- filename: domaintools-monitors-api-openapi.yml
+  format: yaml
+  label: DomainTools Monitors API
+  slug: domaintools-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-monitors-api-openapi.yml
+- filename: domaintools-ping-api-openapi.yml
+  format: yaml
+  label: DomainTools Ping API
+  slug: domaintools-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-ping-api-openapi.yml
+- filename: domaintools-rate-limit-api-openapi.yml
+  format: yaml
+  label: DomainTools Rate Limit API
+  slug: domaintools-rate-limit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-rate-limit-api-openapi.yml
+- filename: domaintools-rdata-lookups-api-openapi.yml
+  format: yaml
+  label: DomainTools rdata Lookups API
+  slug: domaintools-rdata-lookups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-rdata-lookups-api-openapi.yml
+- filename: domaintools-rrset-lookups-api-openapi.yml
+  format: yaml
+  label: DomainTools rrset Lookups API
+  slug: domaintools-rrset-lookups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-rrset-lookups-api-openapi.yml
+- filename: domaintools-siebatchd-api-openapi.yml
+  format: yaml
+  label: DomainTools Siebatchd API
+  slug: domaintools-siebatchd-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-siebatchd-api-openapi.yml
 auth_types:
 - apiKey
 - http

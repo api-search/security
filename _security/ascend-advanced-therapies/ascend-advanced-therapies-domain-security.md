@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: ascend-advanced-therapies-wp-rest-openapi.yml
+- filename: ascend-advanced-therapies-careers-api-openapi.yml
   format: yaml
-  label: Ascend Advanced Therapies Content API (WordPress REST)
-  slug: wp-rest
+  label: Ascend Advanced Therapies Careers API
+  slug: ascend-advanced-therapies-careers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/openapi/ascend-advanced-therapies-wp-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/openapi/ascend-advanced-therapies-careers-api-openapi.yml
+- filename: ascend-advanced-therapies-discovery-api-openapi.yml
+  format: yaml
+  label: Ascend Advanced Therapies Discovery API
+  slug: ascend-advanced-therapies-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/openapi/ascend-advanced-therapies-discovery-api-openapi.yml
+- filename: ascend-advanced-therapies-media-api-openapi.yml
+  format: yaml
+  label: Ascend Advanced Therapies Media API
+  slug: ascend-advanced-therapies-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/openapi/ascend-advanced-therapies-media-api-openapi.yml
+- filename: ascend-advanced-therapies-oembed-api-openapi.yml
+  format: yaml
+  label: Ascend Advanced Therapies oEmbed API
+  slug: ascend-advanced-therapies-oembed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/openapi/ascend-advanced-therapies-oembed-api-openapi.yml
+- filename: ascend-advanced-therapies-pages-api-openapi.yml
+  format: yaml
+  label: Ascend Advanced Therapies Pages API
+  slug: ascend-advanced-therapies-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/openapi/ascend-advanced-therapies-pages-api-openapi.yml
+- filename: ascend-advanced-therapies-posts-api-openapi.yml
+  format: yaml
+  label: Ascend Advanced Therapies Posts API
+  slug: ascend-advanced-therapies-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/openapi/ascend-advanced-therapies-posts-api-openapi.yml
+- filename: ascend-advanced-therapies-search-api-openapi.yml
+  format: yaml
+  label: Ascend Advanced Therapies Search API
+  slug: ascend-advanced-therapies-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/openapi/ascend-advanced-therapies-search-api-openapi.yml
+- filename: ascend-advanced-therapies-taxonomy-api-openapi.yml
+  format: yaml
+  label: Ascend Advanced Therapies Taxonomy API
+  slug: ascend-advanced-therapies-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/openapi/ascend-advanced-therapies-taxonomy-api-openapi.yml
 description: ''
 domains:
 - caa: []

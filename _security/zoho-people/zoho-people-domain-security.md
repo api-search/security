@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: zoho-people-openapi.yml
+- filename: zoho-people-attendance-api-openapi.yml
   format: yaml
-  label: Zoho People REST API
-  slug: rest-api
+  label: Zoho People Attendance API
+  slug: zoho-people-attendance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-attendance-api-openapi.yml
+- filename: zoho-people-automation-api-openapi.yml
+  format: yaml
+  label: Zoho People Automation API
+  slug: zoho-people-automation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-automation-api-openapi.yml
+- filename: zoho-people-dashboard-api-openapi.yml
+  format: yaml
+  label: Zoho People Dashboard API
+  slug: zoho-people-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-dashboard-api-openapi.yml
+- filename: zoho-people-employee-api-openapi.yml
+  format: yaml
+  label: Zoho People Employee API
+  slug: zoho-people-employee-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-employee-api-openapi.yml
+- filename: zoho-people-forms-api-openapi.yml
+  format: yaml
+  label: Zoho People Forms API
+  slug: zoho-people-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-forms-api-openapi.yml
+- filename: zoho-people-leave-api-openapi.yml
+  format: yaml
+  label: Zoho People Leave API
+  slug: zoho-people-leave-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-leave-api-openapi.yml
+- filename: zoho-people-time-tracker-api-openapi.yml
+  format: yaml
+  label: Zoho People Time Tracker API
+  slug: zoho-people-time-tracker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-time-tracker-api-openapi.yml
 description: ''
 domains:
 - caa:

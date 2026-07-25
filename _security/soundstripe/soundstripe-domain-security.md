@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: soundstripe-openapi.yml
+- filename: soundstripe-categories-api-openapi.yml
   format: yaml
-  label: Soundstripe API
-  slug: api
+  label: Soundstripe Categories API
+  slug: soundstripe-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/openapi/soundstripe-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/openapi/soundstripe-categories-api-openapi.yml
+- filename: soundstripe-playlists-api-openapi.yml
+  format: yaml
+  label: Soundstripe Playlists API
+  slug: soundstripe-playlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/openapi/soundstripe-playlists-api-openapi.yml
+- filename: soundstripe-private-playlists-api-openapi.yml
+  format: yaml
+  label: Soundstripe Private Playlists API
+  slug: soundstripe-private-playlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/openapi/soundstripe-private-playlists-api-openapi.yml
+- filename: soundstripe-songs-api-openapi.yml
+  format: yaml
+  label: Soundstripe Songs API
+  slug: soundstripe-songs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/openapi/soundstripe-songs-api-openapi.yml
+- filename: soundstripe-sound-effects-api-openapi.yml
+  format: yaml
+  label: Soundstripe Sound Effects API
+  slug: soundstripe-sound-effects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/openapi/soundstripe-sound-effects-api-openapi.yml
+- filename: soundstripe-supe-assets-api-openapi.yml
+  format: yaml
+  label: Soundstripe Supe Assets API
+  slug: soundstripe-supe-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/openapi/soundstripe-supe-assets-api-openapi.yml
+- filename: soundstripe-supe-search-api-openapi.yml
+  format: yaml
+  label: Soundstripe Supe Search API
+  slug: soundstripe-supe-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/openapi/soundstripe-supe-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

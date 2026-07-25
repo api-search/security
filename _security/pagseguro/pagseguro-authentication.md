@@ -1,5 +1,78 @@
 ---
 api_key_in: []
+api_specs:
+- filename: pagseguro-accounts-api-openapi.yml
+  format: yaml
+  label: PagSeguro / PagBank Accounts API
+  slug: pagseguro-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pagseguro/refs/heads/main/openapi/pagseguro-accounts-api-openapi.yml
+- filename: pagseguro-charges-api-openapi.yml
+  format: yaml
+  label: PagSeguro / PagBank Charges API
+  slug: pagseguro-charges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pagseguro/refs/heads/main/openapi/pagseguro-charges-api-openapi.yml
+- filename: pagseguro-checkout-api-openapi.yml
+  format: yaml
+  label: PagSeguro / PagBank Checkout API
+  slug: pagseguro-checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pagseguro/refs/heads/main/openapi/pagseguro-checkout-api-openapi.yml
+- filename: pagseguro-connect-api-openapi.yml
+  format: yaml
+  label: PagSeguro / PagBank Connect API
+  slug: pagseguro-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pagseguro/refs/heads/main/openapi/pagseguro-connect-api-openapi.yml
+- filename: pagseguro-coupons-api-openapi.yml
+  format: yaml
+  label: PagSeguro / PagBank Coupons API
+  slug: pagseguro-coupons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pagseguro/refs/heads/main/openapi/pagseguro-coupons-api-openapi.yml
+- filename: pagseguro-invoices-api-openapi.yml
+  format: yaml
+  label: PagSeguro / PagBank Invoices API
+  slug: pagseguro-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pagseguro/refs/heads/main/openapi/pagseguro-invoices-api-openapi.yml
+- filename: pagseguro-orders-api-openapi.yml
+  format: yaml
+  label: PagSeguro / PagBank Orders API
+  slug: pagseguro-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pagseguro/refs/heads/main/openapi/pagseguro-orders-api-openapi.yml
+- filename: pagseguro-plans-api-openapi.yml
+  format: yaml
+  label: PagSeguro / PagBank Plans API
+  slug: pagseguro-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pagseguro/refs/heads/main/openapi/pagseguro-plans-api-openapi.yml
+- filename: pagseguro-publickeys-api-openapi.yml
+  format: yaml
+  label: PagSeguro / PagBank PublicKeys API
+  slug: pagseguro-publickeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pagseguro/refs/heads/main/openapi/pagseguro-publickeys-api-openapi.yml
+- filename: pagseguro-refunds-api-openapi.yml
+  format: yaml
+  label: PagSeguro / PagBank Refunds API
+  slug: pagseguro-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pagseguro/refs/heads/main/openapi/pagseguro-refunds-api-openapi.yml
+- filename: pagseguro-subscribers-api-openapi.yml
+  format: yaml
+  label: PagSeguro / PagBank Subscribers API
+  slug: pagseguro-subscribers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pagseguro/refs/heads/main/openapi/pagseguro-subscribers-api-openapi.yml
+- filename: pagseguro-subscriptions-api-openapi.yml
+  format: yaml
+  label: PagSeguro / PagBank Subscriptions API
+  slug: pagseguro-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pagseguro/refs/heads/main/openapi/pagseguro-subscriptions-api-openapi.yml
 auth_types:
 - http
 description: ''

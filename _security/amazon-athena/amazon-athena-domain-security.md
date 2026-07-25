@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: amazon-athena-openapi.yml
+- filename: amazon-athena-data-catalogs-api-openapi.yml
   format: yaml
-  label: Amazon Athena API
-  slug: amazon-athena-api
+  label: Amazon Athena Data Catalogs API
+  slug: amazon-athena-data-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/openapi/amazon-athena-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/openapi/amazon-athena-data-catalogs-api-openapi.yml
+- filename: amazon-athena-databases-api-openapi.yml
+  format: yaml
+  label: Amazon Athena Databases API
+  slug: amazon-athena-databases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/openapi/amazon-athena-databases-api-openapi.yml
+- filename: amazon-athena-named-queries-api-openapi.yml
+  format: yaml
+  label: Amazon Athena Named Queries API
+  slug: amazon-athena-named-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/openapi/amazon-athena-named-queries-api-openapi.yml
+- filename: amazon-athena-prepared-statements-api-openapi.yml
+  format: yaml
+  label: Amazon Athena Prepared Statements API
+  slug: amazon-athena-prepared-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/openapi/amazon-athena-prepared-statements-api-openapi.yml
+- filename: amazon-athena-query-executions-api-openapi.yml
+  format: yaml
+  label: Amazon Athena Query Executions API
+  slug: amazon-athena-query-executions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/openapi/amazon-athena-query-executions-api-openapi.yml
+- filename: amazon-athena-table-metadata-api-openapi.yml
+  format: yaml
+  label: Amazon Athena Table Metadata API
+  slug: amazon-athena-table-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/openapi/amazon-athena-table-metadata-api-openapi.yml
+- filename: amazon-athena-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Athena Tags API
+  slug: amazon-athena-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/openapi/amazon-athena-tags-api-openapi.yml
+- filename: amazon-athena-work-groups-api-openapi.yml
+  format: yaml
+  label: Amazon Athena Work Groups API
+  slug: amazon-athena-work-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/openapi/amazon-athena-work-groups-api-openapi.yml
 description: ''
 domains:
 - caa: []

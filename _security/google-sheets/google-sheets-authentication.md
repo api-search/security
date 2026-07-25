@@ -2,12 +2,30 @@
 api_key_in:
 - query
 api_specs:
-- filename: google-sheets-openapi.yml
+- filename: google-sheets-developermetadata-api-openapi.yml
   format: yaml
-  label: Google Sheets API v4
-  slug: google-sheets-api-v4
+  label: Google Sheets developerMetadata API
+  slug: google-sheets-developermetadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-developermetadata-api-openapi.yml
+- filename: google-sheets-sheets-api-openapi.yml
+  format: yaml
+  label: Google Sheets Sheets API
+  slug: google-sheets-sheets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-sheets-api-openapi.yml
+- filename: google-sheets-spreadsheets-api-openapi.yml
+  format: yaml
+  label: Google Sheets Spreadsheets API
+  slug: google-sheets-spreadsheets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-spreadsheets-api-openapi.yml
+- filename: google-sheets-values-api-openapi.yml
+  format: yaml
+  label: Google Sheets Values API
+  slug: google-sheets-values-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-values-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

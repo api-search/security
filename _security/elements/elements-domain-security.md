@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: elements-elements-openapi.yml
+- filename: elements-configuration-api-openapi.yml
   format: yaml
-  label: Stoplight Elements
-  slug: elements
+  label: Stoplight Elements Configuration API
+  slug: elements-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elements/refs/heads/main/openapi/elements-elements-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elements/refs/heads/main/openapi/elements-configuration-api-openapi.yml
+- filename: elements-integration-api-openapi.yml
+  format: yaml
+  label: Stoplight Elements Integration API
+  slug: elements-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elements/refs/heads/main/openapi/elements-integration-api-openapi.yml
 description: ''
 domains:
 - caa:

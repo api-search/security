@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ostrom-openapi-original.json
-  format: json
-  label: Ostrom API
-  slug: ostrom-api
+- filename: ostrom-auth-api-openapi.yml
+  format: yaml
+  label: Ostrom Auth API
+  slug: ostrom-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/openapi/ostrom-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/openapi/ostrom-auth-api-openapi.yml
+- filename: ostrom-contracts-api-openapi.yml
+  format: yaml
+  label: Ostrom Contracts API
+  slug: ostrom-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/openapi/ostrom-contracts-api-openapi.yml
+- filename: ostrom-orders-api-openapi.yml
+  format: yaml
+  label: Ostrom Orders API
+  slug: ostrom-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/openapi/ostrom-orders-api-openapi.yml
+- filename: ostrom-prices-api-openapi.yml
+  format: yaml
+  label: Ostrom Prices API
+  slug: ostrom-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/openapi/ostrom-prices-api-openapi.yml
+- filename: ostrom-products-api-openapi.yml
+  format: yaml
+  label: Ostrom Products API
+  slug: ostrom-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/openapi/ostrom-products-api-openapi.yml
+- filename: ostrom-users-api-openapi.yml
+  format: yaml
+  label: Ostrom Users API
+  slug: ostrom-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/openapi/ostrom-users-api-openapi.yml
+- filename: ostrom-webhooks-api-openapi.yml
+  format: yaml
+  label: Ostrom Webhooks API
+  slug: ostrom-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/openapi/ostrom-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2

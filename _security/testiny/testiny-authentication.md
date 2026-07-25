@@ -1,36 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: testiny-openapi.yml
-  format: yaml
-  label: Testiny Test Runs API
-  slug: testiny-test-runs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-openapi.yml
-- filename: testiny-openapi.yml
-  format: yaml
-  label: Testiny Test Cases API
-  slug: testiny-test-cases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-openapi.yml
-- filename: testiny-openapi.yml
-  format: yaml
-  label: Testiny Test Plans API
-  slug: testiny-test-plans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-openapi.yml
-- filename: testiny-openapi.yml
-  format: yaml
-  label: Testiny Projects API
-  slug: testiny-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-openapi.yml
-- filename: testiny-openapi.yml
+- filename: testiny-automation-api-openapi.yml
   format: yaml
   label: Testiny Automation API
   slug: testiny-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-automation-api-openapi.yml
+- filename: testiny-projects-api-openapi.yml
+  format: yaml
+  label: Testiny Projects API
+  slug: testiny-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-projects-api-openapi.yml
+- filename: testiny-test-cases-api-openapi.yml
+  format: yaml
+  label: Testiny Test Cases API
+  slug: testiny-test-cases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-test-cases-api-openapi.yml
+- filename: testiny-test-plans-api-openapi.yml
+  format: yaml
+  label: Testiny Test Plans API
+  slug: testiny-test-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-test-plans-api-openapi.yml
+- filename: testiny-test-runs-api-openapi.yml
+  format: yaml
+  label: Testiny Test Runs API
+  slug: testiny-test-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-test-runs-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

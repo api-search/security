@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: constellation-space-openapi.yml
+- filename: constellation-space-predictions-api-openapi.yml
   format: yaml
-  label: ConstellationOS API
-  slug: constellationos-api
+  label: Constellation Space Predictions API
+  slug: constellation-space-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constellation-space/refs/heads/main/openapi/constellation-space-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/constellation-space/refs/heads/main/openapi/constellation-space-predictions-api-openapi.yml
+- filename: constellation-space-telemetry-api-openapi.yml
+  format: yaml
+  label: Constellation Space Telemetry API
+  slug: constellation-space-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constellation-space/refs/heads/main/openapi/constellation-space-telemetry-api-openapi.yml
+- filename: constellation-space-topology-api-openapi.yml
+  format: yaml
+  label: Constellation Space Topology API
+  slug: constellation-space-topology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constellation-space/refs/heads/main/openapi/constellation-space-topology-api-openapi.yml
 certifications: []
 description: ''
 kind: trust-center

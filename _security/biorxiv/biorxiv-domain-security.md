@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: biorxiv-details-api-openapi.yml
   format: yaml
-  label: bioRxiv REST API
-  slug: biorxiv-rest-api
+  label: bioRxiv Details API
+  slug: biorxiv-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biorxiv/refs/heads/main/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/biorxiv/refs/heads/main/openapi/biorxiv-details-api-openapi.yml
+- filename: biorxiv-funder-api-openapi.yml
+  format: yaml
+  label: bioRxiv Funder API
+  slug: biorxiv-funder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biorxiv/refs/heads/main/openapi/biorxiv-funder-api-openapi.yml
+- filename: biorxiv-pub-api-openapi.yml
+  format: yaml
+  label: bioRxiv Pub API
+  slug: biorxiv-pub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biorxiv/refs/heads/main/openapi/biorxiv-pub-api-openapi.yml
+- filename: biorxiv-publisher-api-openapi.yml
+  format: yaml
+  label: bioRxiv Publisher API
+  slug: biorxiv-publisher-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biorxiv/refs/heads/main/openapi/biorxiv-publisher-api-openapi.yml
+- filename: biorxiv-pubs-api-openapi.yml
+  format: yaml
+  label: bioRxiv Pubs API
+  slug: biorxiv-pubs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biorxiv/refs/heads/main/openapi/biorxiv-pubs-api-openapi.yml
+- filename: biorxiv-sum-api-openapi.yml
+  format: yaml
+  label: bioRxiv Sum API
+  slug: biorxiv-sum-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biorxiv/refs/heads/main/openapi/biorxiv-sum-api-openapi.yml
+- filename: biorxiv-usage-api-openapi.yml
+  format: yaml
+  label: bioRxiv Usage API
+  slug: biorxiv-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biorxiv/refs/heads/main/openapi/biorxiv-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []

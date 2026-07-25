@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: nuget-server-api-openapi.yml
-  format: yaml
-  label: NuGet Server API
-  slug: nuget-server-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-server-api-openapi.yml
 - filename: nuget-catalog-api-openapi.yml
   format: yaml
   label: NuGet Catalog API
@@ -18,18 +12,36 @@ api_specs:
   slug: nuget-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-search-api-openapi.yml
-- filename: nuget-package-metadata-api-openapi.yml
-  format: yaml
-  label: NuGet Package Metadata API
-  slug: nuget-package-metadata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-package-metadata-api-openapi.yml
 - filename: nuget-package-content-api-openapi.yml
   format: yaml
   label: NuGet Package Content API
   slug: nuget-package-content-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-package-content-api-openapi.yml
+- filename: nuget-autocomplete-api-openapi.yml
+  format: yaml
+  label: NuGet Autocomplete API
+  slug: nuget-autocomplete-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-autocomplete-api-openapi.yml
+- filename: nuget-package-publish-api-openapi.yml
+  format: yaml
+  label: NuGet Package Publish API
+  slug: nuget-package-publish-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-package-publish-api-openapi.yml
+- filename: nuget-registration-api-openapi.yml
+  format: yaml
+  label: NuGet Registration API
+  slug: nuget-registration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-registration-api-openapi.yml
+- filename: nuget-service-index-api-openapi.yml
+  format: yaml
+  label: NuGet Service Index API
+  slug: nuget-service-index-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-service-index-api-openapi.yml
 description: ''
 domains:
 - caa:

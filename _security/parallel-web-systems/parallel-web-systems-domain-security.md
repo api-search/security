@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: parallel-web-systems-openapi.json
-  format: json
-  label: Parallel API
-  slug: parallel-api
+- filename: parallel-web-systems-chat-api-beta-api-openapi.yml
+  format: yaml
+  label: Parallel Web Systems Chat API (Beta) API
+  slug: parallel-web-systems-chat-api-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-web-systems/refs/heads/main/openapi/parallel-web-systems-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/parallel-web-systems/refs/heads/main/openapi/parallel-web-systems-chat-api-beta-api-openapi.yml
+- filename: parallel-web-systems-extract-api-openapi.yml
+  format: yaml
+  label: Parallel Web Systems Extract API
+  slug: parallel-web-systems-extract-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parallel-web-systems/refs/heads/main/openapi/parallel-web-systems-extract-api-openapi.yml
+- filename: parallel-web-systems-findall-api-openapi.yml
+  format: yaml
+  label: Parallel Web Systems FindAll API
+  slug: parallel-web-systems-findall-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parallel-web-systems/refs/heads/main/openapi/parallel-web-systems-findall-api-openapi.yml
+- filename: parallel-web-systems-monitor-api-openapi.yml
+  format: yaml
+  label: Parallel Web Systems Monitor API
+  slug: parallel-web-systems-monitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parallel-web-systems/refs/heads/main/openapi/parallel-web-systems-monitor-api-openapi.yml
+- filename: parallel-web-systems-search-api-openapi.yml
+  format: yaml
+  label: Parallel Web Systems Search API
+  slug: parallel-web-systems-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parallel-web-systems/refs/heads/main/openapi/parallel-web-systems-search-api-openapi.yml
+- filename: parallel-web-systems-tasks-api-openapi.yml
+  format: yaml
+  label: Parallel Web Systems Tasks API
+  slug: parallel-web-systems-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parallel-web-systems/refs/heads/main/openapi/parallel-web-systems-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []

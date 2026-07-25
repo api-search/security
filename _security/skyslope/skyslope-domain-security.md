@@ -1,17 +1,89 @@
 ---
 api_specs:
-- filename: skyslope-forms-partnership-openapi.yml
+- filename: skyslope-agents-listings-api-openapi.yml
   format: yaml
-  label: SkySlope Partnership (Forms) API
-  slug: skyslope-forms-partnership-api
+  label: SkySlope Agents, Listings API
+  slug: skyslope-agents-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/openapi/skyslope-forms-partnership-openapi.yml
-- filename: skyslope-offers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/openapi/skyslope-agents-listings-api-openapi.yml
+- filename: skyslope-auth-api-openapi.yml
+  format: yaml
+  label: SkySlope Auth API
+  slug: skyslope-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/openapi/skyslope-auth-api-openapi.yml
+- filename: skyslope-buyer-agreements-api-openapi.yml
+  format: yaml
+  label: SkySlope Buyer Agreements API
+  slug: skyslope-buyer-agreements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/openapi/skyslope-buyer-agreements-api-openapi.yml
+- filename: skyslope-contacts-api-openapi.yml
+  format: yaml
+  label: SkySlope Contacts API
+  slug: skyslope-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/openapi/skyslope-contacts-api-openapi.yml
+- filename: skyslope-documents-api-openapi.yml
+  format: yaml
+  label: SkySlope Documents API
+  slug: skyslope-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/openapi/skyslope-documents-api-openapi.yml
+- filename: skyslope-envelopes-api-openapi.yml
+  format: yaml
+  label: SkySlope Envelopes API
+  slug: skyslope-envelopes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/openapi/skyslope-envelopes-api-openapi.yml
+- filename: skyslope-files-api-openapi.yml
+  format: yaml
+  label: SkySlope Files API
+  slug: skyslope-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/openapi/skyslope-files-api-openapi.yml
+- filename: skyslope-forms-api-openapi.yml
+  format: yaml
+  label: SkySlope Forms API
+  slug: skyslope-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/openapi/skyslope-forms-api-openapi.yml
+- filename: skyslope-libraries-api-openapi.yml
+  format: yaml
+  label: SkySlope Libraries API
+  slug: skyslope-libraries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/openapi/skyslope-libraries-api-openapi.yml
+- filename: skyslope-offers-api-openapi.yml
   format: yaml
   label: SkySlope Offers API
   slug: skyslope-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/openapi/skyslope-offers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/openapi/skyslope-offers-api-openapi.yml
+- filename: skyslope-report-api-openapi.yml
+  format: yaml
+  label: SkySlope Report API
+  slug: skyslope-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/openapi/skyslope-report-api-openapi.yml
+- filename: skyslope-templates-api-openapi.yml
+  format: yaml
+  label: SkySlope Templates API
+  slug: skyslope-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/openapi/skyslope-templates-api-openapi.yml
+- filename: skyslope-users-api-openapi.yml
+  format: yaml
+  label: SkySlope Users API
+  slug: skyslope-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/openapi/skyslope-users-api-openapi.yml
+- filename: skyslope-webhooks-api-openapi.yml
+  format: yaml
+  label: SkySlope Webhooks API
+  slug: skyslope-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/openapi/skyslope-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

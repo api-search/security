@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: modernfi-openapi-original.json
-  format: json
-  label: ModernFi Digital Banking API
-  slug: modernfi-digital-banking-api
+- filename: modernfi-accounts-api-openapi.yml
+  format: yaml
+  label: ModernFi Accounts API
+  slug: modernfi-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-accounts-api-openapi.yml
+- filename: modernfi-auth-api-openapi.yml
+  format: yaml
+  label: ModernFi auth API
+  slug: modernfi-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-auth-api-openapi.yml
+- filename: modernfi-custombenchmarks-api-openapi.yml
+  format: yaml
+  label: ModernFi customBenchmarks API
+  slug: modernfi-custombenchmarks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-custombenchmarks-api-openapi.yml
+- filename: modernfi-depositors-api-openapi.yml
+  format: yaml
+  label: ModernFi Depositors API
+  slug: modernfi-depositors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-depositors-api-openapi.yml
+- filename: modernfi-files-api-openapi.yml
+  format: yaml
+  label: ModernFi files API
+  slug: modernfi-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-files-api-openapi.yml
+- filename: modernfi-pricinggroups-api-openapi.yml
+  format: yaml
+  label: ModernFi pricingGroups API
+  slug: modernfi-pricinggroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-pricinggroups-api-openapi.yml
+- filename: modernfi-transactions-api-openapi.yml
+  format: yaml
+  label: ModernFi Transactions API
+  slug: modernfi-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,30 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: talkjs-openapi.yml
+- filename: talkjs-conversations-api-openapi.yml
   format: yaml
-  label: TalkJS Users API
-  slug: talkjs-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-openapi.yml
-- filename: talkjs-openapi.yml
-  format: yaml
-  label: TalkJS Conversations & Participants API
+  label: TalkJS Conversations API
   slug: talkjs-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-openapi.yml
-- filename: talkjs-openapi.yml
-  format: yaml
-  label: TalkJS Messages API
-  slug: talkjs-messages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-openapi.yml
-- filename: talkjs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-conversations-api-openapi.yml
+- filename: talkjs-import-api-openapi.yml
   format: yaml
   label: TalkJS Import API
   slug: talkjs-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-import-api-openapi.yml
+- filename: talkjs-messages-api-openapi.yml
+  format: yaml
+  label: TalkJS Messages API
+  slug: talkjs-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-messages-api-openapi.yml
+- filename: talkjs-participants-api-openapi.yml
+  format: yaml
+  label: TalkJS Participants API
+  slug: talkjs-participants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-participants-api-openapi.yml
+- filename: talkjs-users-api-openapi.yml
+  format: yaml
+  label: TalkJS Users API
+  slug: talkjs-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-users-api-openapi.yml
 auth_types:
 - http
 description: ''

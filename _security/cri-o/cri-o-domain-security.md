@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: cri-o-status-openapi.yml
+- filename: cri-o-containers-api-openapi.yml
   format: yaml
-  label: CRI-O Status API
-  slug: cri-o-status-api
+  label: CRI-O Containers API
+  slug: cri-o-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cri-o/refs/heads/main/openapi/cri-o-status-openapi.yml
-- filename: cri-o-metrics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cri-o/refs/heads/main/openapi/cri-o-containers-api-openapi.yml
+- filename: cri-o-debug-api-openapi.yml
+  format: yaml
+  label: CRI-O Debug API
+  slug: cri-o-debug-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cri-o/refs/heads/main/openapi/cri-o-debug-api-openapi.yml
+- filename: cri-o-information-api-openapi.yml
+  format: yaml
+  label: CRI-O Information API
+  slug: cri-o-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cri-o/refs/heads/main/openapi/cri-o-information-api-openapi.yml
+- filename: cri-o-lifecycle-api-openapi.yml
+  format: yaml
+  label: CRI-O Lifecycle API
+  slug: cri-o-lifecycle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cri-o/refs/heads/main/openapi/cri-o-lifecycle-api-openapi.yml
+- filename: cri-o-metrics-api-openapi.yml
   format: yaml
   label: CRI-O Metrics API
   slug: cri-o-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cri-o/refs/heads/main/openapi/cri-o-metrics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cri-o/refs/heads/main/openapi/cri-o-metrics-api-openapi.yml
 description: ''
 domains:
 - caa: []

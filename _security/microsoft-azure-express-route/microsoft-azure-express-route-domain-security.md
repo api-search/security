@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: microsoft-azure-express-route-openapi.yml
+- filename: microsoft-azure-express-route-expressroute-circuits-api-openapi.yml
   format: yaml
-  label: Azure ExpressRoute REST API
-  slug: rest-api
+  label: Azure ExpressRoute ExpressRoute Circuits API
+  slug: microsoft-azure-express-route-expressroute-circuits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-express-route/refs/heads/main/openapi/microsoft-azure-express-route-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-express-route/refs/heads/main/openapi/microsoft-azure-express-route-expressroute-circuits-api-openapi.yml
+- filename: microsoft-azure-express-route-operations-api-openapi.yml
+  format: yaml
+  label: Azure ExpressRoute Operations API
+  slug: microsoft-azure-express-route-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-express-route/refs/heads/main/openapi/microsoft-azure-express-route-operations-api-openapi.yml
 description: ''
 domains:
 - caa:

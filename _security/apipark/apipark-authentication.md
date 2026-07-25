@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: apipark-api.yaml
+- filename: apipark-ai-models-api-openapi.yml
   format: yaml
-  label: APIPark API
-  slug: apipark-api
+  label: APIPark AI Models API
+  slug: apipark-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apipark/refs/heads/main/openapi/apipark-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apipark/refs/heads/main/openapi/apipark-ai-models-api-openapi.yml
+- filename: apipark-services-api-openapi.yml
+  format: yaml
+  label: APIPark Services API
+  slug: apipark-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apipark/refs/heads/main/openapi/apipark-services-api-openapi.yml
+- filename: apipark-subscriptions-api-openapi.yml
+  format: yaml
+  label: APIPark Subscriptions API
+  slug: apipark-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apipark/refs/heads/main/openapi/apipark-subscriptions-api-openapi.yml
+- filename: apipark-teams-api-openapi.yml
+  format: yaml
+  label: APIPark Teams API
+  slug: apipark-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apipark/refs/heads/main/openapi/apipark-teams-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

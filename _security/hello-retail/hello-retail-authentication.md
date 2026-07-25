@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: hello-retail-openapi.yml
+- filename: hello-retail-customer-bias-api-openapi.yml
   format: yaml
-  label: Hello Retail API
-  slug: hello-retail-api
+  label: Hello Retail Customer Bias API
+  slug: hello-retail-customer-bias-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hello-retail/refs/heads/main/openapi/hello-retail-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hello-retail/refs/heads/main/openapi/hello-retail-customer-bias-api-openapi.yml
+- filename: hello-retail-pages-api-openapi.yml
+  format: yaml
+  label: Hello Retail Pages API
+  slug: hello-retail-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hello-retail/refs/heads/main/openapi/hello-retail-pages-api-openapi.yml
+- filename: hello-retail-recommendations-api-openapi.yml
+  format: yaml
+  label: Hello Retail Recommendations API
+  slug: hello-retail-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hello-retail/refs/heads/main/openapi/hello-retail-recommendations-api-openapi.yml
+- filename: hello-retail-search-api-openapi.yml
+  format: yaml
+  label: Hello Retail Search API
+  slug: hello-retail-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hello-retail/refs/heads/main/openapi/hello-retail-search-api-openapi.yml
 auth_types:
 - http
 description: ''

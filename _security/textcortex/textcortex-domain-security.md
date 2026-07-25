@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: textcortex-openapi.json
-  format: json
-  label: TextCortex API
-  slug: textcortex-api
+- filename: textcortex-balance-api-openapi.yml
+  format: yaml
+  label: Textcortex Balance API
+  slug: textcortex-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/openapi/textcortex-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/openapi/textcortex-balance-api-openapi.yml
+- filename: textcortex-chat-completions-api-openapi.yml
+  format: yaml
+  label: Textcortex Chat Completions API
+  slug: textcortex-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/openapi/textcortex-chat-completions-api-openapi.yml
+- filename: textcortex-models-api-openapi.yml
+  format: yaml
+  label: Textcortex Models API
+  slug: textcortex-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/openapi/textcortex-models-api-openapi.yml
+- filename: textcortex-responses-api-openapi.yml
+  format: yaml
+  label: Textcortex Responses API
+  slug: textcortex-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/openapi/textcortex-responses-api-openapi.yml
 description: ''
 domains:
 - caa: []

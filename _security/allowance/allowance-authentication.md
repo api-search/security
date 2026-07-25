@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: allowance-openapi-original.json
-  format: json
-  label: Allowance API
-  slug: allowance-api
+- filename: allowance-mandates-api-openapi.yml
+  format: yaml
+  label: Allowance Mandates API
+  slug: allowance-mandates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/openapi/allowance-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/openapi/allowance-mandates-api-openapi.yml
+- filename: allowance-pricing-api-openapi.yml
+  format: yaml
+  label: Allowance Pricing API
+  slug: allowance-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/openapi/allowance-pricing-api-openapi.yml
+- filename: allowance-status-api-openapi.yml
+  format: yaml
+  label: Allowance Status API
+  slug: allowance-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/openapi/allowance-status-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

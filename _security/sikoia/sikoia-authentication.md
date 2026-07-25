@@ -2,12 +2,120 @@
 api_key_in:
 - header
 api_specs:
-- filename: sikoia-openapi.yml
+- filename: sikoia-adverse-media-api-openapi.yml
   format: yaml
-  label: Sikoia API
-  slug: sikoia-api
+  label: Sikoia Adverse Media API
+  slug: sikoia-adverse-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-adverse-media-api-openapi.yml
+- filename: sikoia-affordability-insights-api-openapi.yml
+  format: yaml
+  label: Sikoia Affordability Insights API
+  slug: sikoia-affordability-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-affordability-insights-api-openapi.yml
+- filename: sikoia-authentication-api-openapi.yml
+  format: yaml
+  label: Sikoia Authentication API
+  slug: sikoia-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-authentication-api-openapi.yml
+- filename: sikoia-banking-api-openapi.yml
+  format: yaml
+  label: Sikoia Banking API
+  slug: sikoia-banking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-banking-api-openapi.yml
+- filename: sikoia-cases-api-openapi.yml
+  format: yaml
+  label: Sikoia Cases API
+  slug: sikoia-cases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-cases-api-openapi.yml
+- filename: sikoia-checklist-api-openapi.yml
+  format: yaml
+  label: Sikoia Checklist API
+  slug: sikoia-checklist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-checklist-api-openapi.yml
+- filename: sikoia-companies-people-api-openapi.yml
+  format: yaml
+  label: Sikoia Companies & People API
+  slug: sikoia-companies-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-companies-people-api-openapi.yml
+- filename: sikoia-company-credit-report-api-openapi.yml
+  format: yaml
+  label: Sikoia Company Credit Report API
+  slug: sikoia-company-credit-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-company-credit-report-api-openapi.yml
+- filename: sikoia-company-registry-api-openapi.yml
+  format: yaml
+  label: Sikoia Company Registry API
+  slug: sikoia-company-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-company-registry-api-openapi.yml
+- filename: sikoia-data-sources-api-openapi.yml
+  format: yaml
+  label: Sikoia Data Sources API
+  slug: sikoia-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-data-sources-api-openapi.yml
+- filename: sikoia-documents-api-openapi.yml
+  format: yaml
+  label: Sikoia Documents API
+  slug: sikoia-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-documents-api-openapi.yml
+- filename: sikoia-excel-report-api-openapi.yml
+  format: yaml
+  label: Sikoia Excel Report API
+  slug: sikoia-excel-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-excel-report-api-openapi.yml
+- filename: sikoia-identity-verification-api-openapi.yml
+  format: yaml
+  label: Sikoia Identity Verification API
+  slug: sikoia-identity-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-identity-verification-api-openapi.yml
+- filename: sikoia-income-employer-verification-api-openapi.yml
+  format: yaml
+  label: Sikoia Income & Employer Verification API
+  slug: sikoia-income-employer-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-income-employer-verification-api-openapi.yml
+- filename: sikoia-online-data-api-openapi.yml
+  format: yaml
+  label: Sikoia Online Data API
+  slug: sikoia-online-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-online-data-api-openapi.yml
+- filename: sikoia-peps-sanctions-api-openapi.yml
+  format: yaml
+  label: Sikoia PEPs & Sanctions API
+  slug: sikoia-peps-sanctions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-peps-sanctions-api-openapi.yml
+- filename: sikoia-user-management-api-openapi.yml
+  format: yaml
+  label: Sikoia User Management API
+  slug: sikoia-user-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-user-management-api-openapi.yml
+- filename: sikoia-validation-checklists-api-openapi.yml
+  format: yaml
+  label: Sikoia Validation Checklists API
+  slug: sikoia-validation-checklists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-validation-checklists-api-openapi.yml
+- filename: sikoia-webhooks-api-openapi.yml
+  format: yaml
+  label: Sikoia Webhooks API
+  slug: sikoia-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 - http

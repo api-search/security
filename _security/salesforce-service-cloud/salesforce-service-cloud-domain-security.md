@@ -1,23 +1,71 @@
 ---
 api_specs:
-- filename: resources_list.htm
-  format: yaml
-  label: Salesforce Service Cloud REST API
-  slug: salesforce-service-cloud-rest-api
-  spec_type: OpenAPI
-  url: https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/resources_list.htm
 - filename: salesforce-streaming-api-asyncapi.yml
   format: yaml
   label: Service Cloud Streaming API
   slug: service-cloud-streaming-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-service-cloud/refs/heads/main/asyncapi/salesforce-streaming-api-asyncapi.yml
-- filename: salesforce-live-agent-openapi.yml
+- filename: salesforce-service-cloud-accounts-api-openapi.yml
   format: yaml
-  label: Live Agent REST API
-  slug: live-agent-rest-api
+  label: Salesforce Service Cloud Accounts API
+  slug: salesforce-service-cloud-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-service-cloud/refs/heads/main/openapi/salesforce-live-agent-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-service-cloud/refs/heads/main/openapi/salesforce-service-cloud-accounts-api-openapi.yml
+- filename: salesforce-service-cloud-availability-api-openapi.yml
+  format: yaml
+  label: Salesforce Service Cloud Availability API
+  slug: salesforce-service-cloud-availability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-service-cloud/refs/heads/main/openapi/salesforce-service-cloud-availability-api-openapi.yml
+- filename: salesforce-service-cloud-cases-api-openapi.yml
+  format: yaml
+  label: Salesforce Service Cloud Cases API
+  slug: salesforce-service-cloud-cases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-service-cloud/refs/heads/main/openapi/salesforce-service-cloud-cases-api-openapi.yml
+- filename: salesforce-service-cloud-contacts-api-openapi.yml
+  format: yaml
+  label: Salesforce Service Cloud Contacts API
+  slug: salesforce-service-cloud-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-service-cloud/refs/heads/main/openapi/salesforce-service-cloud-contacts-api-openapi.yml
+- filename: salesforce-service-cloud-knowledge-api-openapi.yml
+  format: yaml
+  label: Salesforce Service Cloud Knowledge API
+  slug: salesforce-service-cloud-knowledge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-service-cloud/refs/heads/main/openapi/salesforce-service-cloud-knowledge-api-openapi.yml
+- filename: salesforce-service-cloud-messages-api-openapi.yml
+  format: yaml
+  label: Salesforce Service Cloud Messages API
+  slug: salesforce-service-cloud-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-service-cloud/refs/heads/main/openapi/salesforce-service-cloud-messages-api-openapi.yml
+- filename: salesforce-service-cloud-query-api-openapi.yml
+  format: yaml
+  label: Salesforce Service Cloud Query API
+  slug: salesforce-service-cloud-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-service-cloud/refs/heads/main/openapi/salesforce-service-cloud-query-api-openapi.yml
+- filename: salesforce-service-cloud-search-api-openapi.yml
+  format: yaml
+  label: Salesforce Service Cloud Search API
+  slug: salesforce-service-cloud-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-service-cloud/refs/heads/main/openapi/salesforce-service-cloud-search-api-openapi.yml
+- filename: salesforce-service-cloud-sessions-api-openapi.yml
+  format: yaml
+  label: Salesforce Service Cloud Sessions API
+  slug: salesforce-service-cloud-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-service-cloud/refs/heads/main/openapi/salesforce-service-cloud-sessions-api-openapi.yml
+- filename: salesforce-service-cloud-settings-api-openapi.yml
+  format: yaml
+  label: Salesforce Service Cloud Settings API
+  slug: salesforce-service-cloud-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-service-cloud/refs/heads/main/openapi/salesforce-service-cloud-settings-api-openapi.yml
 description: ''
 domains:
 - caa: []

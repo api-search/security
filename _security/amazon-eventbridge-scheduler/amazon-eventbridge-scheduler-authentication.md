@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-eventbridge-scheduler-openapi.yml
+- filename: amazon-eventbridge-scheduler-schedule-groups-api-openapi.yml
   format: yaml
-  label: Amazon EventBridge Scheduler API
-  slug: amazon-eventbridge-scheduler-api
+  label: Amazon EventBridge Scheduler Schedule Groups API
+  slug: amazon-eventbridge-scheduler-schedule-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/openapi/amazon-eventbridge-scheduler-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/openapi/amazon-eventbridge-scheduler-schedule-groups-api-openapi.yml
+- filename: amazon-eventbridge-scheduler-schedules-api-openapi.yml
+  format: yaml
+  label: Amazon EventBridge Scheduler Schedules API
+  slug: amazon-eventbridge-scheduler-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/openapi/amazon-eventbridge-scheduler-schedules-api-openapi.yml
+- filename: amazon-eventbridge-scheduler-tags-api-openapi.yml
+  format: yaml
+  label: Amazon EventBridge Scheduler Tags API
+  slug: amazon-eventbridge-scheduler-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/openapi/amazon-eventbridge-scheduler-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: highline-fi-openapi.yml
+- filename: highline-fi-auth-api-openapi.yml
   format: yaml
-  label: Highline Pay by Paycheck API
-  slug: pay-by-paycheck-api
+  label: Highline Auth API
+  slug: highline-fi-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-auth-api-openapi.yml
+- filename: highline-fi-companies-api-openapi.yml
+  format: yaml
+  label: Highline Companies API
+  slug: highline-fi-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-companies-api-openapi.yml
+- filename: highline-fi-connections-api-openapi.yml
+  format: yaml
+  label: Highline Connections API
+  slug: highline-fi-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-connections-api-openapi.yml
+- filename: highline-fi-employments-api-openapi.yml
+  format: yaml
+  label: Highline Employments API
+  slug: highline-fi-employments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-employments-api-openapi.yml
+- filename: highline-fi-payment-requests-api-openapi.yml
+  format: yaml
+  label: Highline Payment Requests API
+  slug: highline-fi-payment-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-payment-requests-api-openapi.yml
+- filename: highline-fi-payments-api-openapi.yml
+  format: yaml
+  label: Highline Payments API
+  slug: highline-fi-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-payments-api-openapi.yml
+- filename: highline-fi-products-api-openapi.yml
+  format: yaml
+  label: Highline Products API
+  slug: highline-fi-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-products-api-openapi.yml
+- filename: highline-fi-settlements-api-openapi.yml
+  format: yaml
+  label: Highline Settlements API
+  slug: highline-fi-settlements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-settlements-api-openapi.yml
+- filename: highline-fi-users-api-openapi.yml
+  format: yaml
+  label: Highline Users API
+  slug: highline-fi-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

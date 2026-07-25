@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: clinical-trials-gov-data-api-v2-openapi.yml
+- filename: clinical-trials-gov-stats-api-openapi.yml
   format: yaml
-  label: ClinicalTrials.gov Data API v2
-  slug: data-api-v2
+  label: ClinicalTrials.gov Stats API
+  slug: clinical-trials-gov-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/openapi/clinical-trials-gov-data-api-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/openapi/clinical-trials-gov-stats-api-openapi.yml
+- filename: clinical-trials-gov-studies-api-openapi.yml
+  format: yaml
+  label: ClinicalTrials.gov Studies API
+  slug: clinical-trials-gov-studies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/openapi/clinical-trials-gov-studies-api-openapi.yml
+- filename: clinical-trials-gov-version-api-openapi.yml
+  format: yaml
+  label: ClinicalTrials.gov Version API
+  slug: clinical-trials-gov-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/openapi/clinical-trials-gov-version-api-openapi.yml
 description: ''
 domains:
 - caa:

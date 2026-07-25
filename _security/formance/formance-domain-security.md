@@ -1,53 +1,53 @@
 ---
 api_specs:
-- filename: formance-openapi.yml
-  format: yaml
-  label: Formance Ledger API
-  slug: formance-ledger-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-openapi.yml
-- filename: formance-openapi.yml
-  format: yaml
-  label: Formance Payments API
-  slug: formance-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-openapi.yml
-- filename: formance-openapi.yml
-  format: yaml
-  label: Formance Orchestration API
-  slug: formance-orchestration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-openapi.yml
-- filename: formance-openapi.yml
-  format: yaml
-  label: Formance Wallets API
-  slug: formance-wallets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-openapi.yml
-- filename: formance-openapi.yml
-  format: yaml
-  label: Formance Reconciliation API
-  slug: formance-reconciliation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-openapi.yml
-- filename: formance-openapi.yml
+- filename: formance-auth-api-openapi.yml
   format: yaml
   label: Formance Auth API
   slug: formance-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-openapi.yml
-- filename: formance-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-auth-api-openapi.yml
+- filename: formance-ledger-api-openapi.yml
   format: yaml
-  label: Formance Webhooks API
-  slug: formance-webhooks-api
+  label: Formance Ledger API
+  slug: formance-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-openapi.yml
-- filename: formance-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-ledger-api-openapi.yml
+- filename: formance-orchestration-api-openapi.yml
+  format: yaml
+  label: Formance Orchestration API
+  slug: formance-orchestration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-orchestration-api-openapi.yml
+- filename: formance-payments-api-openapi.yml
+  format: yaml
+  label: Formance Payments API
+  slug: formance-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-payments-api-openapi.yml
+- filename: formance-reconciliation-api-openapi.yml
+  format: yaml
+  label: Formance Reconciliation API
+  slug: formance-reconciliation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-reconciliation-api-openapi.yml
+- filename: formance-search-api-openapi.yml
   format: yaml
   label: Formance Search API
   slug: formance-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-search-api-openapi.yml
+- filename: formance-wallets-api-openapi.yml
+  format: yaml
+  label: Formance Wallets API
+  slug: formance-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-wallets-api-openapi.yml
+- filename: formance-webhooks-api-openapi.yml
+  format: yaml
+  label: Formance Webhooks API
+  slug: formance-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

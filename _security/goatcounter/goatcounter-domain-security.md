@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: goatcounter-openapi.yml
+- filename: goatcounter-exports-api-openapi.yml
   format: yaml
-  label: GoatCounter
-  slug: goatcounter
+  label: GoatCounter Exports API
+  slug: goatcounter-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-exports-api-openapi.yml
+- filename: goatcounter-pageviews-api-openapi.yml
+  format: yaml
+  label: GoatCounter Pageviews API
+  slug: goatcounter-pageviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-pageviews-api-openapi.yml
+- filename: goatcounter-paths-api-openapi.yml
+  format: yaml
+  label: GoatCounter Paths API
+  slug: goatcounter-paths-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-paths-api-openapi.yml
+- filename: goatcounter-sites-api-openapi.yml
+  format: yaml
+  label: GoatCounter Sites API
+  slug: goatcounter-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-sites-api-openapi.yml
+- filename: goatcounter-statistics-api-openapi.yml
+  format: yaml
+  label: GoatCounter Statistics API
+  slug: goatcounter-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-statistics-api-openapi.yml
+- filename: goatcounter-users-api-openapi.yml
+  format: yaml
+  label: GoatCounter Users API
+  slug: goatcounter-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-users-api-openapi.yml
 description: ''
 domains:
 - caa:

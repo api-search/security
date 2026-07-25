@@ -2,12 +2,12 @@
 api_key_in:
 - path
 api_specs:
-- filename: infstones-bnb-chain-openapi.json
-  format: json
-  label: InfStones RPC API
-  slug: infstones-rpc-api
+- filename: infstones-bnb-chain-api-openapi.yml
+  format: yaml
+  label: InfStones Bnb Chain API
+  slug: infstones-bnb-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infstones/refs/heads/main/openapi/infstones-bnb-chain-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/infstones/refs/heads/main/openapi/infstones-bnb-chain-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

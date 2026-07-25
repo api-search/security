@@ -1,41 +1,23 @@
 ---
 api_specs:
-- filename: tigris-data-openapi.yml
+- filename: tigris-data-buckets-api-openapi.yml
   format: yaml
-  label: Tigris Object Storage (S3-Compatible) API
-  slug: object-storage-s3-compatible-api
+  label: Tigris Buckets API
+  slug: tigris-data-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/openapi/tigris-data-openapi.yml
-- filename: tigris-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/openapi/tigris-data-buckets-api-openapi.yml
+- filename: tigris-data-multipart-api-openapi.yml
   format: yaml
-  label: Tigris Bucket Management API
-  slug: bucket-management-api
+  label: Tigris Multipart API
+  slug: tigris-data-multipart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/openapi/tigris-data-openapi.yml
-- filename: tigris-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/openapi/tigris-data-multipart-api-openapi.yml
+- filename: tigris-data-objects-api-openapi.yml
   format: yaml
-  label: Tigris Multipart Upload API
-  slug: multipart-upload-api
+  label: Tigris Objects API
+  slug: tigris-data-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/openapi/tigris-data-openapi.yml
-- filename: tigris-data-openapi.yml
-  format: yaml
-  label: Tigris Presigned URLs API
-  slug: presigned-urls-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/openapi/tigris-data-openapi.yml
-- filename: tigris-data-openapi.yml
-  format: yaml
-  label: Tigris IAM and Access Keys API
-  slug: iam-access-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/openapi/tigris-data-openapi.yml
-- filename: tigris-data-openapi.yml
-  format: yaml
-  label: Tigris Object Tiering API
-  slug: object-tiering-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/openapi/tigris-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/openapi/tigris-data-objects-api-openapi.yml
 certifications:
 - SOC 2
 description: ''

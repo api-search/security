@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: candis-openapi.json
-  format: json
-  label: Candis API
-  slug: candis-api
+- filename: candis-core-data-api-openapi.yml
+  format: yaml
+  label: Candis Core Data API
+  slug: candis-core-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/openapi/candis-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/openapi/candis-core-data-api-openapi.yml
+- filename: candis-exports-api-openapi.yml
+  format: yaml
+  label: Candis Exports API
+  slug: candis-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/openapi/candis-exports-api-openapi.yml
+- filename: candis-invoices-api-openapi.yml
+  format: yaml
+  label: Candis Invoices API
+  slug: candis-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/openapi/candis-invoices-api-openapi.yml
+- filename: candis-organizations-api-openapi.yml
+  format: yaml
+  label: Candis Organizations API
+  slug: candis-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/openapi/candis-organizations-api-openapi.yml
+- filename: candis-purchase-requests-api-openapi.yml
+  format: yaml
+  label: Candis Purchase Requests API
+  slug: candis-purchase-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/openapi/candis-purchase-requests-api-openapi.yml
+- filename: candis-reimbursements-api-openapi.yml
+  format: yaml
+  label: Candis Reimbursements API
+  slug: candis-reimbursements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/openapi/candis-reimbursements-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect

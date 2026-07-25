@@ -1,17 +1,11 @@
 ---
 api_specs:
-- filename: listen-labs-study-data-openapi.json
-  format: json
-  label: Listen Labs Public API — Study Data
-  slug: study-data
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/openapi/listen-labs-study-data-openapi.json
-- filename: listen-labs-v2-openapi.yml
+- filename: listen-labs-public-api-openapi.yml
   format: yaml
-  label: Listen Labs Public API v2
-  slug: v2
+  label: Listen Labs Public API
+  slug: listen-labs-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/openapi/listen-labs-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/openapi/listen-labs-public-api-openapi.yml
 description: ''
 domains:
 - caa:

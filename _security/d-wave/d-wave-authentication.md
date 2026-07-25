@@ -14,30 +14,30 @@ api_specs:
   slug: d-wave-problems-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-problems-api-openapi.yml
-- filename: d-wave-metadata-api-openapi.yml
+- filename: d-wave-account-api-openapi.yml
   format: yaml
-  label: D-Wave Metadata API - Regions
-  slug: d-wave-metadata-api
+  label: D-Wave Account API
+  slug: d-wave-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-metadata-api-openapi.yml
-- filename: d-wave-leap-account-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-account-api-openapi.yml
+- filename: d-wave-hybrid-api-openapi.yml
   format: yaml
-  label: D-Wave Leap Account API
-  slug: d-wave-leap-account-api
+  label: D-Wave Hybrid API
+  slug: d-wave-hybrid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-leap-account-api-openapi.yml
-- filename: d-wave-hybrid-solvers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-hybrid-api-openapi.yml
+- filename: d-wave-qpu-api-openapi.yml
   format: yaml
-  label: D-Wave Leap Hybrid Solvers
-  slug: d-wave-hybrid-solvers
+  label: D-Wave QPU API
+  slug: d-wave-qpu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-hybrid-solvers-openapi.yml
-- filename: d-wave-qpu-samplers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-qpu-api-openapi.yml
+- filename: d-wave-regions-api-openapi.yml
   format: yaml
-  label: D-Wave QPU Samplers (Advantage / Advantage2)
-  slug: d-wave-qpu-samplers
+  label: D-Wave Regions API
+  slug: d-wave-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-qpu-samplers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-regions-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

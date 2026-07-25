@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: rhumbix-public-api-openapi-original.json
-  format: json
-  label: Rhumbix Public API
-  slug: rhumbix-public-api
+- filename: rhumbix-batch-export-api-openapi.yml
+  format: yaml
+  label: Rhumbix Batch Export API
+  slug: rhumbix-batch-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhumbix/refs/heads/main/openapi/rhumbix-public-api-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/rhumbix/refs/heads/main/openapi/rhumbix-batch-export-api-openapi.yml
+- filename: rhumbix-batch-import-api-openapi.yml
+  format: yaml
+  label: Rhumbix Batch Import API
+  slug: rhumbix-batch-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rhumbix/refs/heads/main/openapi/rhumbix-batch-import-api-openapi.yml
+- filename: rhumbix-cors-api-openapi.yml
+  format: yaml
+  label: Rhumbix CORS API
+  slug: rhumbix-cors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rhumbix/refs/heads/main/openapi/rhumbix-cors-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

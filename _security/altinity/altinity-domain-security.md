@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: altinity-acm-openapi-original.json
-  format: json
-  label: Altinity Cloud Manager API
-  slug: altinity-cloud-manager-api
+- filename: altinity-auth-api-openapi.yml
+  format: yaml
+  label: Altinity Auth API
+  slug: altinity-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altinity/refs/heads/main/openapi/altinity-acm-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/altinity/refs/heads/main/openapi/altinity-auth-api-openapi.yml
 description: ''
 domains:
 - caa: []

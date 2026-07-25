@@ -2,12 +2,78 @@
 api_key_in:
 - header
 api_specs:
-- filename: amika-openapi.json
-  format: json
-  label: Amika API
-  slug: amika-api
+- filename: amika-api-keys-api-openapi.yml
+  format: yaml
+  label: Amika API keys API
+  slug: amika-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-api-keys-api-openapi.yml
+- filename: amika-docker-registries-api-openapi.yml
+  format: yaml
+  label: Amika Docker registries API
+  slug: amika-docker-registries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-docker-registries-api-openapi.yml
+- filename: amika-downloads-api-openapi.yml
+  format: yaml
+  label: Amika Downloads API
+  slug: amika-downloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-downloads-api-openapi.yml
+- filename: amika-git-user-settings-api-openapi.yml
+  format: yaml
+  label: Amika Git user settings API
+  slug: amika-git-user-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-git-user-settings-api-openapi.yml
+- filename: amika-integrations-api-openapi.yml
+  format: yaml
+  label: Amika Integrations API
+  slug: amika-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-integrations-api-openapi.yml
+- filename: amika-repositories-api-openapi.yml
+  format: yaml
+  label: Amika Repositories API
+  slug: amika-repositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-repositories-api-openapi.yml
+- filename: amika-sandboxes-api-openapi.yml
+  format: yaml
+  label: Amika Sandboxes API
+  slug: amika-sandboxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-sandboxes-api-openapi.yml
+- filename: amika-sandboxsnapshots-api-openapi.yml
+  format: yaml
+  label: Amika SandboxSnapshots API
+  slug: amika-sandboxsnapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-sandboxsnapshots-api-openapi.yml
+- filename: amika-secrets-api-openapi.yml
+  format: yaml
+  label: Amika Secrets API
+  slug: amika-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-secrets-api-openapi.yml
+- filename: amika-services-api-openapi.yml
+  format: yaml
+  label: Amika Services API
+  slug: amika-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-services-api-openapi.yml
+- filename: amika-slack-api-openapi.yml
+  format: yaml
+  label: Amika Slack API
+  slug: amika-slack-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-slack-api-openapi.yml
+- filename: amika-uploads-api-openapi.yml
+  format: yaml
+  label: Amika Uploads API
+  slug: amika-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-uploads-api-openapi.yml
 auth_types:
 - http
 - apiKey

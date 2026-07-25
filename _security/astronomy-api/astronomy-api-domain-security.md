@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: astronomy-api-openapi.yml
+- filename: astronomy-api-bodies-api-openapi.yml
   format: yaml
-  label: Astronomy API
-  slug: astronomy-api
+  label: Astronomy API Bodies API
+  slug: astronomy-api-bodies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astronomy-api/refs/heads/main/openapi/astronomy-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/astronomy-api/refs/heads/main/openapi/astronomy-api-bodies-api-openapi.yml
+- filename: astronomy-api-events-api-openapi.yml
+  format: yaml
+  label: Astronomy API Events API
+  slug: astronomy-api-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astronomy-api/refs/heads/main/openapi/astronomy-api-events-api-openapi.yml
+- filename: astronomy-api-search-api-openapi.yml
+  format: yaml
+  label: Astronomy API Search API
+  slug: astronomy-api-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astronomy-api/refs/heads/main/openapi/astronomy-api-search-api-openapi.yml
+- filename: astronomy-api-studio-api-openapi.yml
+  format: yaml
+  label: Astronomy API Studio API
+  slug: astronomy-api-studio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astronomy-api/refs/heads/main/openapi/astronomy-api-studio-api-openapi.yml
 description: ''
 domains:
 - caa: []

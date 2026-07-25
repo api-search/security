@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: forethought-solve-api-openapi.yml
+- filename: forethought-conversations-api-openapi.yml
   format: yaml
-  label: Forethought Solve API
-  slug: forethought-solve-api
+  label: Forethought Conversations API
+  slug: forethought-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/openapi/forethought-solve-api-openapi.yml
-- filename: forethought-triage-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/openapi/forethought-conversations-api-openapi.yml
+- filename: forethought-metadata-api-openapi.yml
   format: yaml
-  label: Forethought Triage API
-  slug: forethought-triage-api
+  label: Forethought Metadata API
+  slug: forethought-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/openapi/forethought-triage-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/openapi/forethought-metadata-api-openapi.yml
+- filename: forethought-predictions-api-openapi.yml
+  format: yaml
+  label: Forethought Predictions API
+  slug: forethought-predictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/openapi/forethought-predictions-api-openapi.yml
 certifications:
 - SOC 2
 - GDPR

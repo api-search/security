@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: june-tracking-api-openapi.yml
+- filename: june-companies-api-openapi.yml
   format: yaml
-  label: June Tracking API
-  slug: tracking-api
+  label: June Companies API
+  slug: june-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/openapi/june-tracking-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/openapi/june-companies-api-openapi.yml
+- filename: june-events-api-openapi.yml
+  format: yaml
+  label: June Events API
+  slug: june-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/openapi/june-events-api-openapi.yml
+- filename: june-page-views-api-openapi.yml
+  format: yaml
+  label: June Page Views API
+  slug: june-page-views-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/openapi/june-page-views-api-openapi.yml
+- filename: june-users-api-openapi.yml
+  format: yaml
+  label: June Users API
+  slug: june-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/openapi/june-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

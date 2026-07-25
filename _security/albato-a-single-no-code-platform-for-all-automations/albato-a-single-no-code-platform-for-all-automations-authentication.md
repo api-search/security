@@ -2,18 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: albato-automations-openapi.yaml
+- filename: albato-a-single-no-code-platform-for-all-automations-apps-api-openapi.yml
   format: yaml
-  label: Albato Automations API
-  slug: automations-api
+  label: Albato A Single No Code Platform For All Automations Apps API
+  slug: albato-a-single-no-code-platform-for-all-automations-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato-a-single-no-code-platform-for-all-automations/refs/heads/main/openapi/albato-automations-openapi.yaml
-- filename: albato-connections-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/albato-a-single-no-code-platform-for-all-automations/refs/heads/main/openapi/albato-a-single-no-code-platform-for-all-automations-apps-api-openapi.yml
+- filename: albato-a-single-no-code-platform-for-all-automations-automations-api-openapi.yml
   format: yaml
-  label: Albato Connections API
-  slug: connections-api
+  label: Albato A Single No Code Platform For All Automations Automations API
+  slug: albato-a-single-no-code-platform-for-all-automations-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato-a-single-no-code-platform-for-all-automations/refs/heads/main/openapi/albato-connections-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/albato-a-single-no-code-platform-for-all-automations/refs/heads/main/openapi/albato-a-single-no-code-platform-for-all-automations-automations-api-openapi.yml
+- filename: albato-a-single-no-code-platform-for-all-automations-connections-api-openapi.yml
+  format: yaml
+  label: Albato A Single No Code Platform For All Automations Connections API
+  slug: albato-a-single-no-code-platform-for-all-automations-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/albato-a-single-no-code-platform-for-all-automations/refs/heads/main/openapi/albato-a-single-no-code-platform-for-all-automations-connections-api-openapi.yml
+- filename: albato-a-single-no-code-platform-for-all-automations-executions-api-openapi.yml
+  format: yaml
+  label: Albato A Single No Code Platform For All Automations Executions API
+  slug: albato-a-single-no-code-platform-for-all-automations-executions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/albato-a-single-no-code-platform-for-all-automations/refs/heads/main/openapi/albato-a-single-no-code-platform-for-all-automations-executions-api-openapi.yml
+- filename: albato-a-single-no-code-platform-for-all-automations-webhooks-api-openapi.yml
+  format: yaml
+  label: Albato A Single No Code Platform For All Automations Webhooks API
+  slug: albato-a-single-no-code-platform-for-all-automations-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/albato-a-single-no-code-platform-for-all-automations/refs/heads/main/openapi/albato-a-single-no-code-platform-for-all-automations-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -2,24 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: jitsu-openapi.yml
+- filename: jitsu-batch-api-openapi.yml
   format: yaml
-  label: Jitsu Event Ingestion API (Track / Identify / Page)
-  slug: event-ingestion-api
+  label: Jitsu Batch API
+  slug: jitsu-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/openapi/jitsu-openapi.yml
-- filename: jitsu-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/openapi/jitsu-batch-api-openapi.yml
+- filename: jitsu-ingestion-api-openapi.yml
   format: yaml
-  label: Jitsu Bulk / Batch API
-  slug: bulk-batch-api
+  label: Jitsu Ingestion API
+  slug: jitsu-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/openapi/jitsu-openapi.yml
-- filename: jitsu-openapi.yml
-  format: yaml
-  label: Jitsu Configuration / Management
-  slug: configuration-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/openapi/jitsu-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/openapi/jitsu-ingestion-api-openapi.yml
 auth_types:
 - apiKey
 - http

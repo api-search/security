@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-mediaconvert-openapi-original.yml
+- filename: amazon-mediaconvert-certificates-api-openapi.yml
   format: yaml
-  label: Amazon MediaConvert API
-  slug: mediaconvert-api
+  label: Amazon MediaConvert Certificates API
+  slug: amazon-mediaconvert-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-certificates-api-openapi.yml
+- filename: amazon-mediaconvert-endpoints-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConvert Endpoints API
+  slug: amazon-mediaconvert-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-endpoints-api-openapi.yml
+- filename: amazon-mediaconvert-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConvert Jobs API
+  slug: amazon-mediaconvert-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-jobs-api-openapi.yml
+- filename: amazon-mediaconvert-jobtemplates-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConvert JobTemplates API
+  slug: amazon-mediaconvert-jobtemplates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-jobtemplates-api-openapi.yml
+- filename: amazon-mediaconvert-policy-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConvert Policy API
+  slug: amazon-mediaconvert-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-policy-api-openapi.yml
+- filename: amazon-mediaconvert-presets-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConvert Presets API
+  slug: amazon-mediaconvert-presets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-presets-api-openapi.yml
+- filename: amazon-mediaconvert-queues-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConvert Queues API
+  slug: amazon-mediaconvert-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-queues-api-openapi.yml
+- filename: amazon-mediaconvert-tags-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConvert Tags API
+  slug: amazon-mediaconvert-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

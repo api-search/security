@@ -1,18 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sabre-bargain-finder-max-openapi.yml
+- filename: sabre-air-shopping-api-openapi.yml
   format: yaml
-  label: Sabre Bargain Finder Max API
-  slug: bargain-finder-max
+  label: Sabre Air Shopping API
+  slug: sabre-air-shopping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/openapi/sabre-bargain-finder-max-openapi.yml
-- filename: sabre-hotels-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/openapi/sabre-air-shopping-api-openapi.yml
+- filename: sabre-authentication-api-openapi.yml
   format: yaml
-  label: Sabre Hotels API
-  slug: hotels
+  label: Sabre Authentication API
+  slug: sabre-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/openapi/sabre-hotels-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/openapi/sabre-authentication-api-openapi.yml
+- filename: sabre-hotel-booking-api-openapi.yml
+  format: yaml
+  label: Sabre Hotel Booking API
+  slug: sabre-hotel-booking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/openapi/sabre-hotel-booking-api-openapi.yml
+- filename: sabre-hotel-search-api-openapi.yml
+  format: yaml
+  label: Sabre Hotel Search API
+  slug: sabre-hotel-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/openapi/sabre-hotel-search-api-openapi.yml
 auth_types:
 - http
 description: ''

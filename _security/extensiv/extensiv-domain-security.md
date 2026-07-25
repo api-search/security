@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: extensiv-openapi.yml
+- filename: extensiv-authentication-api-openapi.yml
   format: yaml
-  label: Extensiv Orders API
-  slug: extensiv-orders-api
+  label: Extensiv Authentication API
+  slug: extensiv-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-openapi.yml
-- filename: extensiv-openapi.yml
-  format: yaml
-  label: Extensiv Inventory API
-  slug: extensiv-inventory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-openapi.yml
-- filename: extensiv-openapi.yml
-  format: yaml
-  label: Extensiv Items API
-  slug: extensiv-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-openapi.yml
-- filename: extensiv-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-authentication-api-openapi.yml
+- filename: extensiv-customers-api-openapi.yml
   format: yaml
   label: Extensiv Customers API
   slug: extensiv-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-openapi.yml
-- filename: extensiv-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-customers-api-openapi.yml
+- filename: extensiv-inventory-api-openapi.yml
   format: yaml
-  label: Extensiv Receivers (ASN) API
+  label: Extensiv Inventory API
+  slug: extensiv-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-inventory-api-openapi.yml
+- filename: extensiv-items-api-openapi.yml
+  format: yaml
+  label: Extensiv Items API
+  slug: extensiv-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-items-api-openapi.yml
+- filename: extensiv-orders-api-openapi.yml
+  format: yaml
+  label: Extensiv Orders API
+  slug: extensiv-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-orders-api-openapi.yml
+- filename: extensiv-receivers-api-openapi.yml
+  format: yaml
+  label: Extensiv Receivers API
   slug: extensiv-receivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-openapi.yml
-- filename: extensiv-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-receivers-api-openapi.yml
+- filename: extensiv-warehouses-api-openapi.yml
   format: yaml
   label: Extensiv Warehouses API
   slug: extensiv-warehouses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-openapi.yml
-- filename: extensiv-openapi.yml
-  format: yaml
-  label: Extensiv Auth Token API
-  slug: extensiv-auth-token-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-warehouses-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: relace-openapi-original.json
-  format: json
-  label: Relace API
-  slug: relace-api
+- filename: relace-code-api-openapi.yml
+  format: yaml
+  label: Relace Code API
+  slug: relace-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relace/refs/heads/main/openapi/relace-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/relace/refs/heads/main/openapi/relace-code-api-openapi.yml
+- filename: relace-repo-api-openapi.yml
+  format: yaml
+  label: Relace Repo API
+  slug: relace-repo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relace/refs/heads/main/openapi/relace-repo-api-openapi.yml
 auth_types:
 - http
 description: ''

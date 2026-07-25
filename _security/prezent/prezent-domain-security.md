@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: prezent-openapi-original.yml
+- filename: prezent-audiences-api-openapi.yml
   format: yaml
-  label: Prezent Platform API
-  slug: prezent-platform-api
+  label: Prezent Audiences API
+  slug: prezent-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/openapi/prezent-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/openapi/prezent-audiences-api-openapi.yml
+- filename: prezent-autogenerator-api-openapi.yml
+  format: yaml
+  label: Prezent AutoGenerator API
+  slug: prezent-autogenerator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/openapi/prezent-autogenerator-api-openapi.yml
+- filename: prezent-file-access-api-openapi.yml
+  format: yaml
+  label: Prezent File Access API
+  slug: prezent-file-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/openapi/prezent-file-access-api-openapi.yml
+- filename: prezent-health-api-openapi.yml
+  format: yaml
+  label: Prezent Health API
+  slug: prezent-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/openapi/prezent-health-api-openapi.yml
+- filename: prezent-streaming-api-openapi.yml
+  format: yaml
+  label: Prezent Streaming API
+  slug: prezent-streaming-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/openapi/prezent-streaming-api-openapi.yml
+- filename: prezent-template-converter-api-openapi.yml
+  format: yaml
+  label: Prezent Template Converter API
+  slug: prezent-template-converter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/openapi/prezent-template-converter-api-openapi.yml
+- filename: prezent-themes-api-openapi.yml
+  format: yaml
+  label: Prezent Themes API
+  slug: prezent-themes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/openapi/prezent-themes-api-openapi.yml
+- filename: prezent-upload-api-openapi.yml
+  format: yaml
+  label: Prezent Upload API
+  slug: prezent-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/openapi/prezent-upload-api-openapi.yml
+- filename: prezent-webhooks-api-openapi.yml
+  format: yaml
+  label: Prezent Webhooks API
+  slug: prezent-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/openapi/prezent-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: scribe-search-retrieval-openapi.yml
+- filename: scribe-documents-api-openapi.yml
   format: yaml
-  label: Scribe Search & Retrieval API
-  slug: scribe-search-retrieval-api
+  label: Scribe Documents API
+  slug: scribe-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scribe/refs/heads/main/openapi/scribe-search-retrieval-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scribe/refs/heads/main/openapi/scribe-documents-api-openapi.yml
+- filename: scribe-search-api-openapi.yml
+  format: yaml
+  label: Scribe Search API
+  slug: scribe-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scribe/refs/heads/main/openapi/scribe-search-api-openapi.yml
+- filename: scribe-teams-api-openapi.yml
+  format: yaml
+  label: Scribe Teams API
+  slug: scribe-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scribe/refs/heads/main/openapi/scribe-teams-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

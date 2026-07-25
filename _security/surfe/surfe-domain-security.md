@@ -1,41 +1,29 @@
 ---
 api_specs:
-- filename: surfe-openapi.yml
+- filename: surfe-account-api-openapi.yml
   format: yaml
-  label: Surfe People Search API
-  slug: surfe-people-search-api
+  label: Surfe Account API
+  slug: surfe-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/openapi/surfe-openapi.yml
-- filename: surfe-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/openapi/surfe-account-api-openapi.yml
+- filename: surfe-companies-api-openapi.yml
   format: yaml
-  label: Surfe People Enrichment API
-  slug: surfe-people-enrichment-api
+  label: Surfe Companies API
+  slug: surfe-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/openapi/surfe-openapi.yml
-- filename: surfe-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/openapi/surfe-companies-api-openapi.yml
+- filename: surfe-people-api-openapi.yml
   format: yaml
-  label: Surfe Company Search API
-  slug: surfe-company-search-api
+  label: Surfe People API
+  slug: surfe-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/openapi/surfe-openapi.yml
-- filename: surfe-openapi.yml
-  format: yaml
-  label: Surfe Company Enrichment API
-  slug: surfe-company-enrichment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/openapi/surfe-openapi.yml
-- filename: surfe-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/openapi/surfe-people-api-openapi.yml
+- filename: surfe-recommendations-api-openapi.yml
   format: yaml
   label: Surfe Recommendations API
   slug: surfe-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/openapi/surfe-openapi.yml
-- filename: surfe-openapi.yml
-  format: yaml
-  label: Surfe Credits API
-  slug: surfe-credits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/openapi/surfe-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/openapi/surfe-recommendations-api-openapi.yml
 description: ''
 domains:
 - caa: []

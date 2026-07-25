@@ -1,17 +1,47 @@
 ---
 api_specs:
-- filename: instagram-graph-api.yaml
+- filename: instagram-comments-api-openapi.yml
   format: yaml
-  label: Instagram API with Instagram Login
-  slug: instagram-api-with-instagram-login
+  label: Instagram Comments API
+  slug: instagram-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-graph-api.yaml
-- filename: instagram-graph-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-comments-api-openapi.yml
+- filename: instagram-hashtags-api-openapi.yml
   format: yaml
-  label: Instagram API with Facebook Login
-  slug: instagram-api-with-facebook-login
+  label: Instagram Hashtags API
+  slug: instagram-hashtags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-graph-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-hashtags-api-openapi.yml
+- filename: instagram-insights-api-openapi.yml
+  format: yaml
+  label: Instagram Insights API
+  slug: instagram-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-insights-api-openapi.yml
+- filename: instagram-media-api-openapi.yml
+  format: yaml
+  label: Instagram Media API
+  slug: instagram-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-media-api-openapi.yml
+- filename: instagram-mentions-api-openapi.yml
+  format: yaml
+  label: Instagram Mentions API
+  slug: instagram-mentions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-mentions-api-openapi.yml
+- filename: instagram-publishing-api-openapi.yml
+  format: yaml
+  label: Instagram Publishing API
+  slug: instagram-publishing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-publishing-api-openapi.yml
+- filename: instagram-users-api-openapi.yml
+  format: yaml
+  label: Instagram Users API
+  slug: instagram-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-users-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: ice-consolidated-feed-api-openapi.yml
+- filename: intercontinental-exchange-instruments-api-openapi.yml
   format: yaml
   label: ICE Consolidated Feed API
   slug: consolidated-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/openapi/ice-consolidated-feed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/openapi/intercontinental-exchange-instruments-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -27,18 +27,22 @@ schemes:
   name: apiKey
   parameter: Authorization
   sources:
-  - openapi/ice-consolidated-feed-api-openapi.yml
+  - openapi/intercontinental-exchange-instruments-api-openapi.yml
+  - openapi/intercontinental-exchange-market-data-api-openapi.yml
+  - openapi/intercontinental-exchange-reference-data-api-openapi.yml
   type: apiKey
 - name: bearerAuth
   scheme: bearer
   sources:
-  - openapi/ice-consolidated-feed-api-openapi.yml
+  - openapi/intercontinental-exchange-instruments-api-openapi.yml
+  - openapi/intercontinental-exchange-market-data-api-openapi.yml
+  - openapi/intercontinental-exchange-reference-data-api-openapi.yml
   type: http
 slug: intercontinental-exchange-authentication
 source_filename: intercontinental-exchange-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ice-consolidated-feed-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/ice-consolidated-feed-api-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/ice-consolidated-feed-api-openapi.yml\n"
+source_yaml: "generated: '2026-07-22'\nmethod: derived\nsource: openapi/intercontinental-exchange-instruments-api-openapi.yml, openapi/intercontinental-exchange-market-data-api-openapi.yml,\n  openapi/intercontinental-exchange-reference-data-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/intercontinental-exchange-instruments-api-openapi.yml\n  - openapi/intercontinental-exchange-market-data-api-openapi.yml\n  - openapi/intercontinental-exchange-reference-data-api-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/intercontinental-exchange-instruments-api-openapi.yml\n  - openapi/intercontinental-exchange-market-data-api-openapi.yml\n  - openapi/intercontinental-exchange-reference-data-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/authentication/intercontinental-exchange-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:

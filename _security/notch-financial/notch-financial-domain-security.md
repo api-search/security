@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: notch-financial-openapi.yml
-  format: yaml
-  label: Notch Invoices API
-  slug: invoices
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notch-financial/refs/heads/main/openapi/notch-financial-openapi.yml
-- filename: notch-financial-openapi.yml
-  format: yaml
-  label: Notch Payments API
-  slug: payments
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notch-financial/refs/heads/main/openapi/notch-financial-openapi.yml
-- filename: notch-financial-openapi.yml
-  format: yaml
-  label: Notch Customers API
-  slug: customers
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notch-financial/refs/heads/main/openapi/notch-financial-openapi.yml
-- filename: notch-financial-openapi.yml
-  format: yaml
-  label: Notch Payment Methods API
-  slug: payment-methods
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notch-financial/refs/heads/main/openapi/notch-financial-openapi.yml
-- filename: notch-financial-openapi.yml
+- filename: notch-financial-bank-accounts-api-openapi.yml
   format: yaml
   label: Notch Bank Accounts API
-  slug: bank-accounts
+  slug: notch-financial-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notch-financial/refs/heads/main/openapi/notch-financial-openapi.yml
-- filename: notch-financial-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/notch-financial/refs/heads/main/openapi/notch-financial-bank-accounts-api-openapi.yml
+- filename: notch-financial-customers-api-openapi.yml
+  format: yaml
+  label: Notch Customers API
+  slug: notch-financial-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/notch-financial/refs/heads/main/openapi/notch-financial-customers-api-openapi.yml
+- filename: notch-financial-invoices-api-openapi.yml
+  format: yaml
+  label: Notch Invoices API
+  slug: notch-financial-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/notch-financial/refs/heads/main/openapi/notch-financial-invoices-api-openapi.yml
+- filename: notch-financial-payment-methods-api-openapi.yml
+  format: yaml
+  label: Notch Payment Methods API
+  slug: notch-financial-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/notch-financial/refs/heads/main/openapi/notch-financial-payment-methods-api-openapi.yml
+- filename: notch-financial-payments-api-openapi.yml
+  format: yaml
+  label: Notch Payments API
+  slug: notch-financial-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/notch-financial/refs/heads/main/openapi/notch-financial-payments-api-openapi.yml
+- filename: notch-financial-webhooks-api-openapi.yml
   format: yaml
   label: Notch Webhooks API
-  slug: webhooks
+  slug: notch-financial-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notch-financial/refs/heads/main/openapi/notch-financial-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/notch-financial/refs/heads/main/openapi/notch-financial-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

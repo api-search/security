@@ -2,54 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: edgegap-openapi.yml
-  format: yaml
-  label: Edgegap Applications API
-  slug: edgegap-applications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-openapi.yml
-- filename: edgegap-openapi.yml
+- filename: edgegap-app-versions-api-openapi.yml
   format: yaml
   label: Edgegap App Versions API
   slug: edgegap-app-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-openapi.yml
-- filename: edgegap-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-app-versions-api-openapi.yml
+- filename: edgegap-applications-api-openapi.yml
+  format: yaml
+  label: Edgegap Applications API
+  slug: edgegap-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-applications-api-openapi.yml
+- filename: edgegap-deployments-api-openapi.yml
   format: yaml
   label: Edgegap Deployments API
   slug: edgegap-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-openapi.yml
-- filename: edgegap-openapi.yml
-  format: yaml
-  label: Edgegap Sessions API
-  slug: edgegap-sessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-openapi.yml
-- filename: edgegap-openapi.yml
-  format: yaml
-  label: Edgegap Matchmaking API
-  slug: edgegap-matchmaking-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-openapi.yml
-- filename: edgegap-openapi.yml
-  format: yaml
-  label: Edgegap Relays API
-  slug: edgegap-relays-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-openapi.yml
-- filename: edgegap-openapi.yml
-  format: yaml
-  label: Edgegap Metrics API
-  slug: edgegap-metrics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-openapi.yml
-- filename: edgegap-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-deployments-api-openapi.yml
+- filename: edgegap-fleets-api-openapi.yml
   format: yaml
   label: Edgegap Fleets API
   slug: edgegap-fleets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-fleets-api-openapi.yml
+- filename: edgegap-matchmaking-api-openapi.yml
+  format: yaml
+  label: Edgegap Matchmaking API
+  slug: edgegap-matchmaking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-matchmaking-api-openapi.yml
+- filename: edgegap-metrics-api-openapi.yml
+  format: yaml
+  label: Edgegap Metrics API
+  slug: edgegap-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-metrics-api-openapi.yml
+- filename: edgegap-relays-api-openapi.yml
+  format: yaml
+  label: Edgegap Relays API
+  slug: edgegap-relays-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-relays-api-openapi.yml
+- filename: edgegap-sessions-api-openapi.yml
+  format: yaml
+  label: Edgegap Sessions API
+  slug: edgegap-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-sessions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

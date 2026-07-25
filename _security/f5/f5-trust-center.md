@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: f5-mgmt-api-openapi.yml
+  format: yaml
+  label: F5 Mgmt API
+  slug: f5-mgmt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-mgmt-api-openapi.yml
 certifications:
 - PCI DSS
 - GDPR

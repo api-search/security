@@ -1,41 +1,11 @@
 ---
 api_specs:
-- filename: plain-support-openapi.yml
+- filename: plain-support-graphql-api-openapi.yml
   format: yaml
-  label: Plain Customers API
-  slug: plain-customers-api
+  label: Plain GraphQL API
+  slug: plain-support-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plain-support/refs/heads/main/openapi/plain-support-openapi.yml
-- filename: plain-support-openapi.yml
-  format: yaml
-  label: Plain Threads API
-  slug: plain-threads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plain-support/refs/heads/main/openapi/plain-support-openapi.yml
-- filename: plain-support-openapi.yml
-  format: yaml
-  label: Plain Timeline & Events API
-  slug: plain-timeline-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plain-support/refs/heads/main/openapi/plain-support-openapi.yml
-- filename: plain-support-openapi.yml
-  format: yaml
-  label: Plain Messages API
-  slug: plain-messages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plain-support/refs/heads/main/openapi/plain-support-openapi.yml
-- filename: plain-support-openapi.yml
-  format: yaml
-  label: Plain Labels & Tiers API
-  slug: plain-labels-tiers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plain-support/refs/heads/main/openapi/plain-support-openapi.yml
-- filename: plain-support-openapi.yml
-  format: yaml
-  label: Plain Webhooks API
-  slug: plain-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plain-support/refs/heads/main/openapi/plain-support-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/plain-support/refs/heads/main/openapi/plain-support-graphql-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,35 +1,41 @@
 ---
 api_specs:
-- filename: camb-ai-openapi.yml
-  format: yaml
-  label: Camb.AI Text-to-Speech API
-  slug: camb-ai-text-to-speech-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-openapi.yml
-- filename: camb-ai-openapi.yml
+- filename: camb-ai-dubbing-api-openapi.yml
   format: yaml
   label: Camb.AI Dubbing API
   slug: camb-ai-dubbing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-openapi.yml
-- filename: camb-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-dubbing-api-openapi.yml
+- filename: camb-ai-languages-api-openapi.yml
   format: yaml
-  label: Camb.AI Translation API
-  slug: camb-ai-translation-api
+  label: Camb.AI Languages API
+  slug: camb-ai-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-openapi.yml
-- filename: camb-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-languages-api-openapi.yml
+- filename: camb-ai-text-to-speech-api-openapi.yml
   format: yaml
-  label: Camb.AI Voices API
-  slug: camb-ai-voices-api
+  label: Camb.AI Text-to-Speech API
+  slug: camb-ai-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-openapi.yml
-- filename: camb-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-text-to-speech-api-openapi.yml
+- filename: camb-ai-transcription-api-openapi.yml
   format: yaml
   label: Camb.AI Transcription API
   slug: camb-ai-transcription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-transcription-api-openapi.yml
+- filename: camb-ai-translation-api-openapi.yml
+  format: yaml
+  label: Camb.AI Translation API
+  slug: camb-ai-translation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-translation-api-openapi.yml
+- filename: camb-ai-voices-api-openapi.yml
+  format: yaml
+  label: Camb.AI Voices API
+  slug: camb-ai-voices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-voices-api-openapi.yml
 description: ''
 domains:
 - caa: []

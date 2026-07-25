@@ -1,18 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Cisco Directory Connector Sync API
-  slug: cisco-directory-connector-sync-api
+- filename: cisco-directory-connector-groups-api-openapi.yml
+  format: yaml
+  label: Cisco Directory Connector Groups API
+  slug: cisco-directory-connector-groups-api
   spec_type: OpenAPI
-  url: https://developer.webex.com/docs/api/v1/openapi.json
-- filename: openapi.json
-  format: json
-  label: Webex Control Hub API
-  slug: webex-control-hub-api
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-directory-connector/refs/heads/main/openapi/cisco-directory-connector-groups-api-openapi.yml
+- filename: cisco-directory-connector-organizations-api-openapi.yml
+  format: yaml
+  label: Cisco Directory Connector Organizations API
+  slug: cisco-directory-connector-organizations-api
   spec_type: OpenAPI
-  url: https://developer.webex.com/docs/api/v1/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-directory-connector/refs/heads/main/openapi/cisco-directory-connector-organizations-api-openapi.yml
+- filename: cisco-directory-connector-people-api-openapi.yml
+  format: yaml
+  label: Cisco Directory Connector People API
+  slug: cisco-directory-connector-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-directory-connector/refs/heads/main/openapi/cisco-directory-connector-people-api-openapi.yml
 auth_types:
 - http
 description: ''

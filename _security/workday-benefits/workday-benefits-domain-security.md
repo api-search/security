@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: Benefits.json
-  format: json
-  label: Workday Benefits API
-  slug: workday-benefits-api
+- filename: workday-benefits-benefit-enrollments-api-openapi.yml
+  format: yaml
+  label: Workday Benefits Benefit Enrollments API
+  slug: workday-benefits-benefit-enrollments-api
   spec_type: OpenAPI
-  url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Benefits/v40.2/Benefits.json
+  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-benefit-enrollments-api-openapi.yml
+- filename: workday-benefits-benefit-events-api-openapi.yml
+  format: yaml
+  label: Workday Benefits Benefit Events API
+  slug: workday-benefits-benefit-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-benefit-events-api-openapi.yml
+- filename: workday-benefits-benefit-plans-api-openapi.yml
+  format: yaml
+  label: Workday Benefits Benefit Plans API
+  slug: workday-benefits-benefit-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-benefit-plans-api-openapi.yml
+- filename: workday-benefits-dependents-api-openapi.yml
+  format: yaml
+  label: Workday Benefits Dependents API
+  slug: workday-benefits-dependents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-dependents-api-openapi.yml
+- filename: workday-benefits-employee-benefits-api-openapi.yml
+  format: yaml
+  label: Workday Benefits Employee Benefits API
+  slug: workday-benefits-employee-benefits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-employee-benefits-api-openapi.yml
+- filename: workday-benefits-time-off-plans-api-openapi.yml
+  format: yaml
+  label: Workday Benefits Time Off Plans API
+  slug: workday-benefits-time-off-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-time-off-plans-api-openapi.yml
 description: ''
 domains:
 - caa: []

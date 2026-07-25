@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: ncr-voyix-commerce-platform-openapi.yml
+- filename: ncr-catalog-api-openapi.yml
   format: yaml
-  label: NCR Voyix Commerce Platform APIs
-  slug: ncr-voyix-commerce-platform
+  label: NCR Catalog API
+  slug: ncr-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/openapi/ncr-voyix-commerce-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/openapi/ncr-catalog-api-openapi.yml
+- filename: ncr-category-api-openapi.yml
+  format: yaml
+  label: NCR Category API
+  slug: ncr-category-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/openapi/ncr-category-api-openapi.yml
+- filename: ncr-order-api-openapi.yml
+  format: yaml
+  label: NCR Order API
+  slug: ncr-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/openapi/ncr-order-api-openapi.yml
+- filename: ncr-provisioning-api-openapi.yml
+  format: yaml
+  label: NCR Provisioning API
+  slug: ncr-provisioning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/openapi/ncr-provisioning-api-openapi.yml
+- filename: ncr-security-api-openapi.yml
+  format: yaml
+  label: NCR Security API
+  slug: ncr-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/openapi/ncr-security-api-openapi.yml
+- filename: ncr-selling-api-openapi.yml
+  format: yaml
+  label: NCR Selling API
+  slug: ncr-selling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/openapi/ncr-selling-api-openapi.yml
+- filename: ncr-site-api-openapi.yml
+  format: yaml
+  label: NCR Site API
+  slug: ncr-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/openapi/ncr-site-api-openapi.yml
 description: ''
 domains:
 - caa: []

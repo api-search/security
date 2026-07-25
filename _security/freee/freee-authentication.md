@@ -1,60 +1,78 @@
 ---
 api_key_in: []
 api_specs:
-- filename: freee-openapi.yml
+- filename: freee-account-items-api-openapi.yml
   format: yaml
-  label: freee Accounting Deals API
-  slug: freee-accounting-deals-api
+  label: freee Account Items API
+  slug: freee-account-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-openapi.yml
-- filename: freee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-account-items-api-openapi.yml
+- filename: freee-attendance-api-openapi.yml
   format: yaml
-  label: freee Accounting Account Items API
-  slug: freee-accounting-account-items-api
+  label: freee Attendance API
+  slug: freee-attendance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-openapi.yml
-- filename: freee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-attendance-api-openapi.yml
+- filename: freee-companies-api-openapi.yml
   format: yaml
-  label: freee Accounting Partners API
-  slug: freee-accounting-partners-api
+  label: freee Companies API
+  slug: freee-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-openapi.yml
-- filename: freee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-companies-api-openapi.yml
+- filename: freee-deals-api-openapi.yml
   format: yaml
-  label: freee Accounting Invoices and Quotations API
-  slug: freee-accounting-invoices-api
+  label: freee Deals API
+  slug: freee-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-openapi.yml
-- filename: freee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-deals-api-openapi.yml
+- filename: freee-employees-api-openapi.yml
   format: yaml
-  label: freee Accounting Wallet Transactions API
-  slug: freee-accounting-wallet-txns-api
+  label: freee Employees API
+  slug: freee-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-openapi.yml
-- filename: freee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-employees-api-openapi.yml
+- filename: freee-hr-users-api-openapi.yml
   format: yaml
-  label: freee Accounting Journals and Reports API
-  slug: freee-accounting-journals-reports-api
+  label: freee HR Users API
+  slug: freee-hr-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-openapi.yml
-- filename: freee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-hr-users-api-openapi.yml
+- filename: freee-invoices-api-openapi.yml
   format: yaml
-  label: freee HR Employees API
-  slug: freee-hr-employees-api
+  label: freee Invoices API
+  slug: freee-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-openapi.yml
-- filename: freee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-invoices-api-openapi.yml
+- filename: freee-journals-api-openapi.yml
   format: yaml
-  label: freee HR Payroll API
-  slug: freee-hr-payroll-api
+  label: freee Journals API
+  slug: freee-journals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-openapi.yml
-- filename: freee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-journals-api-openapi.yml
+- filename: freee-partners-api-openapi.yml
   format: yaml
-  label: freee HR Attendance API
-  slug: freee-hr-attendance-api
+  label: freee Partners API
+  slug: freee-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-partners-api-openapi.yml
+- filename: freee-payroll-api-openapi.yml
+  format: yaml
+  label: freee Payroll API
+  slug: freee-payroll-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-payroll-api-openapi.yml
+- filename: freee-taxes-api-openapi.yml
+  format: yaml
+  label: freee Taxes API
+  slug: freee-taxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-taxes-api-openapi.yml
+- filename: freee-wallet-transactions-api-openapi.yml
+  format: yaml
+  label: freee Wallet Transactions API
+  slug: freee-wallet-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-wallet-transactions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,17 +1,71 @@
 ---
 api_specs:
-- filename: toro-horizon360-openapi.yml
+- filename: toro-crews-api-openapi.yml
   format: yaml
-  label: Toro Horizon360
-  slug: horizon360
+  label: Toro Crews API
+  slug: toro-crews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-horizon360-openapi.yml
-- filename: toro-intellidash-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-crews-api-openapi.yml
+- filename: toro-customers-api-openapi.yml
   format: yaml
-  label: Toro IntelliDash
-  slug: intellidash
+  label: Toro Customers API
+  slug: toro-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-intellidash-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-customers-api-openapi.yml
+- filename: toro-equipment-api-openapi.yml
+  format: yaml
+  label: Toro Equipment API
+  slug: toro-equipment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-equipment-api-openapi.yml
+- filename: toro-invoices-api-openapi.yml
+  format: yaml
+  label: Toro Invoices API
+  slug: toro-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-invoices-api-openapi.yml
+- filename: toro-irrigation-api-openapi.yml
+  format: yaml
+  label: Toro Irrigation API
+  slug: toro-irrigation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-irrigation-api-openapi.yml
+- filename: toro-jobs-api-openapi.yml
+  format: yaml
+  label: Toro Jobs API
+  slug: toro-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-jobs-api-openapi.yml
+- filename: toro-payments-api-openapi.yml
+  format: yaml
+  label: Toro Payments API
+  slug: toro-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-payments-api-openapi.yml
+- filename: toro-reports-api-openapi.yml
+  format: yaml
+  label: Toro Reports API
+  slug: toro-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-reports-api-openapi.yml
+- filename: toro-schedules-api-openapi.yml
+  format: yaml
+  label: Toro Schedules API
+  slug: toro-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-schedules-api-openapi.yml
+- filename: toro-sensors-api-openapi.yml
+  format: yaml
+  label: Toro Sensors API
+  slug: toro-sensors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-sensors-api-openapi.yml
+- filename: toro-zones-api-openapi.yml
+  format: yaml
+  label: Toro Zones API
+  slug: toro-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-zones-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,12 +1,90 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yml
+- filename: lemmy-account-api-openapi.yml
   format: yaml
-  label: Lemmy REST API
-  slug: api
+  label: Lemmy Account API
+  slug: lemmy-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-account-api-openapi.yml
+- filename: lemmy-admin-api-openapi.yml
+  format: yaml
+  label: Lemmy Admin API
+  slug: lemmy-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-admin-api-openapi.yml
+- filename: lemmy-authentication-api-openapi.yml
+  format: yaml
+  label: Lemmy Authentication API
+  slug: lemmy-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-authentication-api-openapi.yml
+- filename: lemmy-comment-api-openapi.yml
+  format: yaml
+  label: Lemmy Comment API
+  slug: lemmy-comment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-comment-api-openapi.yml
+- filename: lemmy-community-api-openapi.yml
+  format: yaml
+  label: Lemmy Community API
+  slug: lemmy-community-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-community-api-openapi.yml
+- filename: lemmy-federation-api-openapi.yml
+  format: yaml
+  label: Lemmy Federation API
+  slug: lemmy-federation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-federation-api-openapi.yml
+- filename: lemmy-images-api-openapi.yml
+  format: yaml
+  label: Lemmy Images API
+  slug: lemmy-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-images-api-openapi.yml
+- filename: lemmy-notifications-api-openapi.yml
+  format: yaml
+  label: Lemmy Notifications API
+  slug: lemmy-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-notifications-api-openapi.yml
+- filename: lemmy-person-api-openapi.yml
+  format: yaml
+  label: Lemmy Person API
+  slug: lemmy-person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-person-api-openapi.yml
+- filename: lemmy-post-api-openapi.yml
+  format: yaml
+  label: Lemmy Post API
+  slug: lemmy-post-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-post-api-openapi.yml
+- filename: lemmy-private-messages-api-openapi.yml
+  format: yaml
+  label: Lemmy Private Messages API
+  slug: lemmy-private-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-private-messages-api-openapi.yml
+- filename: lemmy-reports-api-openapi.yml
+  format: yaml
+  label: Lemmy Reports API
+  slug: lemmy-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-reports-api-openapi.yml
+- filename: lemmy-search-api-openapi.yml
+  format: yaml
+  label: Lemmy Search API
+  slug: lemmy-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-search-api-openapi.yml
+- filename: lemmy-site-api-openapi.yml
+  format: yaml
+  label: Lemmy Site API
+  slug: lemmy-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-site-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,23 +1,89 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: datacite-activities-api-openapi.yml
   format: yaml
-  label: DataCite REST API
-  slug: datacite-rest-api
+  label: DataCite activities API
+  slug: datacite-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/datacite/lupo/master/openapi.yaml
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-activities-api-openapi.yml
+- filename: datacite-client-prefixes-api-openapi.yml
   format: yaml
-  label: DataCite MDS API
-  slug: datacite-mds-api
+  label: DataCite client-prefixes API
+  slug: datacite-client-prefixes-api
   spec_type: OpenAPI
-  url: https://github.com/datacite/sashimi/blob/master/openapi.yaml
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-client-prefixes-api-openapi.yml
+- filename: datacite-clients-api-openapi.yml
   format: yaml
-  label: DataCite Usage Reports API
-  slug: datacite-usage-reports-api
+  label: DataCite clients API
+  slug: datacite-clients-api
   spec_type: OpenAPI
-  url: https://github.com/datacite/sashimi/blob/master/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-clients-api-openapi.yml
+- filename: datacite-dois-api-openapi.yml
+  format: yaml
+  label: DataCite dois API
+  slug: datacite-dois-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-dois-api-openapi.yml
+- filename: datacite-events-api-openapi.yml
+  format: yaml
+  label: DataCite events API
+  slug: datacite-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-events-api-openapi.yml
+- filename: datacite-heartbeat-api-openapi.yml
+  format: yaml
+  label: DataCite heartbeat API
+  slug: datacite-heartbeat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-heartbeat-api-openapi.yml
+- filename: datacite-prefixes-api-openapi.yml
+  format: yaml
+  label: DataCite prefixes API
+  slug: datacite-prefixes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-prefixes-api-openapi.yml
+- filename: datacite-provider-prefixes-api-openapi.yml
+  format: yaml
+  label: DataCite provider-prefixes API
+  slug: datacite-provider-prefixes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-provider-prefixes-api-openapi.yml
+- filename: datacite-providers-api-openapi.yml
+  format: yaml
+  label: DataCite providers API
+  slug: datacite-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-providers-api-openapi.yml
+- filename: datacite-publishers-api-openapi.yml
+  format: yaml
+  label: DataCite publishers API
+  slug: datacite-publishers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-publishers-api-openapi.yml
+- filename: datacite-report-types-api-openapi.yml
+  format: yaml
+  label: DataCite report_types API
+  slug: datacite-report-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-report-types-api-openapi.yml
+- filename: datacite-reports-api-openapi.yml
+  format: yaml
+  label: DataCite reports API
+  slug: datacite-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-reports-api-openapi.yml
+- filename: datacite-repositories-api-openapi.yml
+  format: yaml
+  label: DataCite repositories API
+  slug: datacite-repositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-repositories-api-openapi.yml
+- filename: datacite-status-api-openapi.yml
+  format: yaml
+  label: DataCite status API
+  slug: datacite-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

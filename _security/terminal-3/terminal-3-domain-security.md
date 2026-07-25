@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: terminal-3-openapi.yml
+- filename: terminal-3-did-v1-api-openapi.yml
   format: yaml
-  label: Terminal 3 API
-  slug: terminal-3-api
+  label: Terminal 3 DID V1 API
+  slug: terminal-3-did-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-did-v1-api-openapi.yml
+- filename: terminal-3-openid-connect-v1-api-openapi.yml
+  format: yaml
+  label: Terminal 3 OpenID Connect V1 API
+  slug: terminal-3-openid-connect-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-openid-connect-v1-api-openapi.yml
+- filename: terminal-3-openid-connect-v2-api-openapi.yml
+  format: yaml
+  label: Terminal 3 OpenID Connect V2 API
+  slug: terminal-3-openid-connect-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-openid-connect-v2-api-openapi.yml
+- filename: terminal-3-sub-client-v1-api-openapi.yml
+  format: yaml
+  label: Terminal 3 Sub Client V1 API
+  slug: terminal-3-sub-client-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-sub-client-v1-api-openapi.yml
+- filename: terminal-3-transactional-email-template-v1-api-openapi.yml
+  format: yaml
+  label: Terminal 3 Transactional Email Template V1 API
+  slug: terminal-3-transactional-email-template-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-transactional-email-template-v1-api-openapi.yml
+- filename: terminal-3-user-v1-api-openapi.yml
+  format: yaml
+  label: Terminal 3 User V1 API
+  slug: terminal-3-user-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-user-v1-api-openapi.yml
+- filename: terminal-3-vc-v1-api-openapi.yml
+  format: yaml
+  label: Terminal 3 VC V1 API
+  slug: terminal-3-vc-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-vc-v1-api-openapi.yml
 description: ''
 domains:
 - caa:

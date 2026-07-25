@@ -2,48 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: sequence-indexer.json
-  format: json
-  label: Sequence Indexer API
-  slug: sequence-indexer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/openapi/sequence-indexer.json
-- filename: sequence-metadata.json
-  format: json
-  label: Sequence Metadata API
-  slug: sequence-metadata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/openapi/sequence-metadata.json
-- filename: sequence-marketplace.json
-  format: json
-  label: Sequence Marketplace API
-  slug: sequence-marketplace-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/openapi/sequence-marketplace.json
-- filename: sequence-transactions.json
-  format: json
-  label: Sequence Transactions (Relayer) API
-  slug: sequence-transactions-relayer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/openapi/sequence-transactions.json
-- filename: sequence-analytics.json
-  format: json
+- filename: sequence-analytics-api-openapi.yml
+  format: yaml
   label: Sequence Analytics API
   slug: sequence-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/openapi/sequence-analytics.json
-- filename: sequence-builder.json
-  format: json
-  label: Sequence Builder API
-  slug: sequence-builder-api
+  url: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/openapi/sequence-analytics-api-openapi.yml
+- filename: sequence-marketplace-api-openapi.yml
+  format: yaml
+  label: Sequence Marketplace API
+  slug: sequence-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/openapi/sequence-builder.json
-- filename: sequence-infrastructure.json
-  format: json
-  label: Sequence API (Infrastructure)
-  slug: sequence-api-infrastructure
+  url: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/openapi/sequence-marketplace-api-openapi.yml
+- filename: sequence-public-api-openapi.yml
+  format: yaml
+  label: Sequence public API
+  slug: sequence-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/openapi/sequence-infrastructure.json
+  url: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/openapi/sequence-public-api-openapi.yml
+- filename: sequence-rpc-api-openapi.yml
+  format: yaml
+  label: Sequence Rpc API
+  slug: sequence-rpc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/openapi/sequence-rpc-api-openapi.yml
+- filename: sequence-secret-api-openapi.yml
+  format: yaml
+  label: Sequence secret API
+  slug: sequence-secret-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/openapi/sequence-secret-api-openapi.yml
 auth_types:
 - apiKey
 - http

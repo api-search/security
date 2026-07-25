@@ -1,66 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: nuvemshop-openapi.yml
+- filename: nuvemshop-categories-api-openapi.yml
   format: yaml
-  label: Nuvemshop Products API
-  slug: nuvemshop-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-openapi.yml
-- filename: nuvemshop-openapi.yml
-  format: yaml
-  label: Nuvemshop Product Variants API
-  slug: nuvemshop-product-variants-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-openapi.yml
-- filename: nuvemshop-openapi.yml
-  format: yaml
-  label: Nuvemshop Product Images API
-  slug: nuvemshop-product-images-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-openapi.yml
-- filename: nuvemshop-openapi.yml
-  format: yaml
-  label: Nuvemshop Categories API
+  label: Nuvemshop / Tiendanube Categories API
   slug: nuvemshop-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-openapi.yml
-- filename: nuvemshop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-categories-api-openapi.yml
+- filename: nuvemshop-coupons-api-openapi.yml
   format: yaml
-  label: Nuvemshop Orders API
-  slug: nuvemshop-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-openapi.yml
-- filename: nuvemshop-openapi.yml
-  format: yaml
-  label: Nuvemshop Customers API
-  slug: nuvemshop-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-openapi.yml
-- filename: nuvemshop-openapi.yml
-  format: yaml
-  label: Nuvemshop Coupons API
+  label: Nuvemshop / Tiendanube Coupons API
   slug: nuvemshop-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-openapi.yml
-- filename: nuvemshop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-coupons-api-openapi.yml
+- filename: nuvemshop-customers-api-openapi.yml
   format: yaml
-  label: Nuvemshop Webhooks API
-  slug: nuvemshop-webhooks-api
+  label: Nuvemshop / Tiendanube Customers API
+  slug: nuvemshop-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-openapi.yml
-- filename: nuvemshop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-customers-api-openapi.yml
+- filename: nuvemshop-orders-api-openapi.yml
   format: yaml
-  label: Nuvemshop Scripts API
+  label: Nuvemshop / Tiendanube Orders API
+  slug: nuvemshop-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-orders-api-openapi.yml
+- filename: nuvemshop-product-images-api-openapi.yml
+  format: yaml
+  label: Nuvemshop / Tiendanube Product Images API
+  slug: nuvemshop-product-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-product-images-api-openapi.yml
+- filename: nuvemshop-product-variants-api-openapi.yml
+  format: yaml
+  label: Nuvemshop / Tiendanube Product Variants API
+  slug: nuvemshop-product-variants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-product-variants-api-openapi.yml
+- filename: nuvemshop-products-api-openapi.yml
+  format: yaml
+  label: Nuvemshop / Tiendanube Products API
+  slug: nuvemshop-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-products-api-openapi.yml
+- filename: nuvemshop-scripts-api-openapi.yml
+  format: yaml
+  label: Nuvemshop / Tiendanube Scripts API
   slug: nuvemshop-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-openapi.yml
-- filename: nuvemshop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-scripts-api-openapi.yml
+- filename: nuvemshop-store-api-openapi.yml
   format: yaml
-  label: Nuvemshop Store API
+  label: Nuvemshop / Tiendanube Store API
   slug: nuvemshop-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-store-api-openapi.yml
+- filename: nuvemshop-webhooks-api-openapi.yml
+  format: yaml
+  label: Nuvemshop / Tiendanube Webhooks API
+  slug: nuvemshop-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

@@ -1,42 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: vonage-openapi.yml
+- filename: vonage-applications-api-openapi.yml
   format: yaml
-  label: Vonage SMS API
-  slug: vonage-sms-api
+  label: Vonage Applications API
+  slug: vonage-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/openapi/vonage-openapi.yml
-- filename: vonage-openapi.yml
-  format: yaml
-  label: Vonage Voice API
-  slug: vonage-voice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/openapi/vonage-openapi.yml
-- filename: vonage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/openapi/vonage-applications-api-openapi.yml
+- filename: vonage-messages-api-openapi.yml
   format: yaml
   label: Vonage Messages API
   slug: vonage-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/openapi/vonage-openapi.yml
-- filename: vonage-openapi.yml
-  format: yaml
-  label: Vonage Verify API
-  slug: vonage-verify-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/openapi/vonage-openapi.yml
-- filename: vonage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/openapi/vonage-messages-api-openapi.yml
+- filename: vonage-numbers-api-openapi.yml
   format: yaml
   label: Vonage Numbers API
   slug: vonage-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/openapi/vonage-openapi.yml
-- filename: vonage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/openapi/vonage-numbers-api-openapi.yml
+- filename: vonage-sms-api-openapi.yml
   format: yaml
-  label: Vonage Application API
-  slug: vonage-application-api
+  label: Vonage SMS API
+  slug: vonage-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/openapi/vonage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/openapi/vonage-sms-api-openapi.yml
+- filename: vonage-verify-api-openapi.yml
+  format: yaml
+  label: Vonage Verify API
+  slug: vonage-verify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/openapi/vonage-verify-api-openapi.yml
+- filename: vonage-voice-api-openapi.yml
+  format: yaml
+  label: Vonage Voice API
+  slug: vonage-voice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/openapi/vonage-voice-api-openapi.yml
 auth_types:
 - http
 description: ''

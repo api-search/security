@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: national-science-foundation-openapi.yml
+- filename: national-science-foundation-awards-api-openapi.yml
   format: yaml
-  label: National Science Foundation API
-  slug: national-science-foundation
+  label: National Science Foundation Awards API
+  slug: national-science-foundation-awards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/openapi/national-science-foundation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/openapi/national-science-foundation-awards-api-openapi.yml
+- filename: national-science-foundation-awards-format-api-openapi.yml
+  format: yaml
+  label: National Science Foundation Awards.{format} API
+  slug: national-science-foundation-awards-format-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/openapi/national-science-foundation-awards-format-api-openapi.yml
 description: ''
 domains:
 - caa: []

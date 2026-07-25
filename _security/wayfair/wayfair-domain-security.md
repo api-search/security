@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: wayfair-supplier-api.yml
+- filename: wayfair-authentication-api-openapi.yml
   format: yaml
-  label: Wayfair Supplier API
-  slug: wayfair-supplier-api
+  label: Wayfair Authentication API
+  slug: wayfair-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayfair/refs/heads/main/openapi/wayfair-supplier-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wayfair/refs/heads/main/openapi/wayfair-authentication-api-openapi.yml
+- filename: wayfair-graphql-api-openapi.yml
+  format: yaml
+  label: Wayfair GraphQL API
+  slug: wayfair-graphql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wayfair/refs/heads/main/openapi/wayfair-graphql-api-openapi.yml
 description: ''
 domains:
 - caa: []

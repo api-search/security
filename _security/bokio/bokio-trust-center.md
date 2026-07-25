@@ -1,17 +1,101 @@
 ---
 api_specs:
-- filename: bokio-company-api-openapi.yml
+- filename: bokio-authorization-api-openapi.yml
   format: yaml
-  label: Bokio Company API
-  slug: bokio-company-api
+  label: Bokio authorization API
+  slug: bokio-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/openapi/bokio-company-api-openapi.yml
-- filename: bokio-general-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/openapi/bokio-authorization-api-openapi.yml
+- filename: bokio-bank-payments-api-openapi.yml
   format: yaml
-  label: Bokio General API
-  slug: bokio-general-api
+  label: Bokio bank-payments API
+  slug: bokio-bank-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/openapi/bokio-general-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/openapi/bokio-bank-payments-api-openapi.yml
+- filename: bokio-chart-of-accounts-api-openapi.yml
+  format: yaml
+  label: Bokio chart-of-accounts API
+  slug: bokio-chart-of-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/openapi/bokio-chart-of-accounts-api-openapi.yml
+- filename: bokio-company-information-api-openapi.yml
+  format: yaml
+  label: Bokio company-information API
+  slug: bokio-company-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/openapi/bokio-company-information-api-openapi.yml
+- filename: bokio-connections-api-openapi.yml
+  format: yaml
+  label: Bokio connections API
+  slug: bokio-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/openapi/bokio-connections-api-openapi.yml
+- filename: bokio-credit-notes-api-openapi.yml
+  format: yaml
+  label: Bokio credit-notes API
+  slug: bokio-credit-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/openapi/bokio-credit-notes-api-openapi.yml
+- filename: bokio-customers-api-openapi.yml
+  format: yaml
+  label: Bokio customers API
+  slug: bokio-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/openapi/bokio-customers-api-openapi.yml
+- filename: bokio-fiscal-years-api-openapi.yml
+  format: yaml
+  label: Bokio fiscal-years API
+  slug: bokio-fiscal-years-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/openapi/bokio-fiscal-years-api-openapi.yml
+- filename: bokio-invoices-api-openapi.yml
+  format: yaml
+  label: Bokio invoices API
+  slug: bokio-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/openapi/bokio-invoices-api-openapi.yml
+- filename: bokio-items-api-openapi.yml
+  format: yaml
+  label: Bokio items API
+  slug: bokio-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/openapi/bokio-items-api-openapi.yml
+- filename: bokio-journal-entries-api-openapi.yml
+  format: yaml
+  label: Bokio journal-entries API
+  slug: bokio-journal-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/openapi/bokio-journal-entries-api-openapi.yml
+- filename: bokio-sie-files-api-openapi.yml
+  format: yaml
+  label: Bokio sie-files API
+  slug: bokio-sie-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/openapi/bokio-sie-files-api-openapi.yml
+- filename: bokio-supplier-invoices-api-openapi.yml
+  format: yaml
+  label: Bokio supplier-invoices API
+  slug: bokio-supplier-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/openapi/bokio-supplier-invoices-api-openapi.yml
+- filename: bokio-suppliers-api-openapi.yml
+  format: yaml
+  label: Bokio suppliers API
+  slug: bokio-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/openapi/bokio-suppliers-api-openapi.yml
+- filename: bokio-tag-groups-api-openapi.yml
+  format: yaml
+  label: Bokio tag-groups API
+  slug: bokio-tag-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/openapi/bokio-tag-groups-api-openapi.yml
+- filename: bokio-uploads-api-openapi.yml
+  format: yaml
+  label: Bokio uploads API
+  slug: bokio-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/openapi/bokio-uploads-api-openapi.yml
 certifications: []
 description: ''
 kind: trust-center

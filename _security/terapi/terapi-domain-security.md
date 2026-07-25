@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: terapi-openapi.yml
+- filename: terapi-actions-api-openapi.yml
   format: yaml
-  label: Terapi API
-  slug: terapi-api
+  label: Terapi Actions API
+  slug: terapi-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/openapi/terapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/openapi/terapi-actions-api-openapi.yml
+- filename: terapi-authentication-api-openapi.yml
+  format: yaml
+  label: Terapi Authentication API
+  slug: terapi-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/openapi/terapi-authentication-api-openapi.yml
+- filename: terapi-connections-api-openapi.yml
+  format: yaml
+  label: Terapi Connections API
+  slug: terapi-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/openapi/terapi-connections-api-openapi.yml
+- filename: terapi-integrations-api-openapi.yml
+  format: yaml
+  label: Terapi Integrations API
+  slug: terapi-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/openapi/terapi-integrations-api-openapi.yml
+- filename: terapi-sync-api-openapi.yml
+  format: yaml
+  label: Terapi Sync API
+  slug: terapi-sync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/openapi/terapi-sync-api-openapi.yml
 description: ''
 domains:
 - caa: []

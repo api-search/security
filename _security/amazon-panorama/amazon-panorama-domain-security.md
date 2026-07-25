@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: amazon-panorama-openapi.yml
+- filename: amazon-panorama-application-instances-api-openapi.yml
   format: yaml
-  label: AWS Panorama API
-  slug: aws-panorama-api
+  label: Amazon Panorama Application Instances API
+  slug: amazon-panorama-application-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-application-instances-api-openapi.yml
+- filename: amazon-panorama-devices-api-openapi.yml
+  format: yaml
+  label: Amazon Panorama Devices API
+  slug: amazon-panorama-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-devices-api-openapi.yml
+- filename: amazon-panorama-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon Panorama Jobs API
+  slug: amazon-panorama-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-jobs-api-openapi.yml
+- filename: amazon-panorama-nodes-api-openapi.yml
+  format: yaml
+  label: Amazon Panorama Nodes API
+  slug: amazon-panorama-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-nodes-api-openapi.yml
+- filename: amazon-panorama-packages-api-openapi.yml
+  format: yaml
+  label: Amazon Panorama Packages API
+  slug: amazon-panorama-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-packages-api-openapi.yml
+- filename: amazon-panorama-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Panorama Tags API
+  slug: amazon-panorama-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

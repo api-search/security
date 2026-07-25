@@ -1,35 +1,29 @@
 ---
 api_specs:
-- filename: cargoson-openapi.yml
+- filename: cargoson-carriers-api-openapi.yml
+  format: yaml
+  label: Cargoson Carriers API
+  slug: cargoson-carriers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cargoson/refs/heads/main/openapi/cargoson-carriers-api-openapi.yml
+- filename: cargoson-price-requests-api-openapi.yml
+  format: yaml
+  label: Cargoson Price Requests API
+  slug: cargoson-price-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cargoson/refs/heads/main/openapi/cargoson-price-requests-api-openapi.yml
+- filename: cargoson-shipments-api-openapi.yml
   format: yaml
   label: Cargoson Shipments API
-  slug: shipments
+  slug: cargoson-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargoson/refs/heads/main/openapi/cargoson-openapi.yml
-- filename: cargoson-openapi.yml
-  format: yaml
-  label: Cargoson Price Requests & Quotes API
-  slug: price-requests-quotes
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargoson/refs/heads/main/openapi/cargoson-openapi.yml
-- filename: cargoson-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cargoson/refs/heads/main/openapi/cargoson-shipments-api-openapi.yml
+- filename: cargoson-transports-tracking-api-openapi.yml
   format: yaml
   label: Cargoson Transports & Tracking API
-  slug: transports-tracking
+  slug: cargoson-transports-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargoson/refs/heads/main/openapi/cargoson-openapi.yml
-- filename: cargoson-openapi.yml
-  format: yaml
-  label: Cargoson Carriers & Services API
-  slug: carriers
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargoson/refs/heads/main/openapi/cargoson-openapi.yml
-- filename: cargoson-openapi.yml
-  format: yaml
-  label: Cargoson Addresses API
-  slug: addresses
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargoson/refs/heads/main/openapi/cargoson-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cargoson/refs/heads/main/openapi/cargoson-transports-tracking-api-openapi.yml
 description: ''
 domains:
 - caa: []

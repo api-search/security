@@ -1,24 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ada-knowledge-openapi.yml
+- filename: ada-subpackage-channels-api-openapi.yml
   format: yaml
-  label: Ada Knowledge API
-  slug: ada-knowledge-api
+  label: Ada subpackage_channels API
+  slug: ada-subpackage-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-knowledge-openapi.yml
-- filename: ada-data-export-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-subpackage-channels-api-openapi.yml
+- filename: ada-subpackage-conversations-api-openapi.yml
   format: yaml
-  label: Ada Data Export API
-  slug: ada-data-export-api
+  label: Ada subpackage_conversations API
+  slug: ada-subpackage-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-data-export-openapi.yml
-- filename: ada-data-compliance-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-subpackage-conversations-api-openapi.yml
+- filename: ada-subpackage-deletechatterdata-api-openapi.yml
   format: yaml
-  label: Ada Data Compliance API
-  slug: ada-data-compliance-api
+  label: Ada subpackage_deleteChatterData API
+  slug: ada-subpackage-deletechatterdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-data-compliance-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-subpackage-deletechatterdata-api-openapi.yml
+- filename: ada-subpackage-endusers-api-openapi.yml
+  format: yaml
+  label: Ada subpackage_endUsers API
+  slug: ada-subpackage-endusers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-subpackage-endusers-api-openapi.yml
+- filename: ada-subpackage-knowledge-subpackage-knowledge-articles-api-openapi.yml
+  format: yaml
+  label: Ada subpackage_knowledge.subpackage_knowledge/articles API
+  slug: ada-subpackage-knowledge-subpackage-knowledge-articles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-subpackage-knowledge-subpackage-knowledge-articles-api-openapi.yml
+- filename: ada-subpackage-knowledge-subpackage-knowledge-sources-api-openapi.yml
+  format: yaml
+  label: Ada subpackage_knowledge.subpackage_knowledge/sources API
+  slug: ada-subpackage-knowledge-subpackage-knowledge-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-subpackage-knowledge-subpackage-knowledge-sources-api-openapi.yml
+- filename: ada-subpackage-knowledge-subpackage-knowledge-tags-api-openapi.yml
+  format: yaml
+  label: Ada subpackage_knowledge.subpackage_knowledge/tags API
+  slug: ada-subpackage-knowledge-subpackage-knowledge-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-subpackage-knowledge-subpackage-knowledge-tags-api-openapi.yml
+- filename: ada-subpackage-messages-api-openapi.yml
+  format: yaml
+  label: Ada subpackage_messages API
+  slug: ada-subpackage-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-subpackage-messages-api-openapi.yml
+- filename: ada-subpackage-platformintegrations-api-openapi.yml
+  format: yaml
+  label: Ada subpackage_platformIntegrations API
+  slug: ada-subpackage-platformintegrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-subpackage-platformintegrations-api-openapi.yml
+- filename: ada-subpackage-webhookmanagement-api-openapi.yml
+  format: yaml
+  label: Ada subpackage_webhookManagement API
+  slug: ada-subpackage-webhookmanagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-subpackage-webhookmanagement-api-openapi.yml
 auth_types:
 - http
 description: ''

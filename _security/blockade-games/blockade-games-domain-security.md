@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: blockade-games-skybox-openapi.yml
+- filename: blockade-games-skybox-exports-api-openapi.yml
   format: yaml
-  label: Skybox AI API
-  slug: skybox-ai-api
+  label: Blockade Games Skybox Exports API
+  slug: blockade-games-skybox-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockade-games/refs/heads/main/openapi/blockade-games-skybox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blockade-games/refs/heads/main/openapi/blockade-games-skybox-exports-api-openapi.yml
+- filename: blockade-games-skyboxes-api-openapi.yml
+  format: yaml
+  label: Blockade Games Skyboxes API
+  slug: blockade-games-skyboxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockade-games/refs/heads/main/openapi/blockade-games-skyboxes-api-openapi.yml
 description: ''
 domains:
 - caa: []

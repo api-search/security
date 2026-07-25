@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: interfaze-openapi-original.json
-  format: json
-  label: Interfaze Chat Completion API
-  slug: interfaze-chat-completion-api
+- filename: interfaze-chat-api-openapi.yml
+  format: yaml
+  label: Interfaze Chat API
+  slug: interfaze-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/openapi/interfaze-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/openapi/interfaze-chat-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: maverick-protocol-openapi.yaml
+- filename: maverick-protocol-latest-api-openapi.yml
   format: yaml
-  label: Maverick V2 Data API
-  slug: maverick-v2-data-api
+  label: Maverick Protocol Latest API
+  slug: maverick-protocol-latest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maverick-protocol/refs/heads/main/openapi/maverick-protocol-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/maverick-protocol/refs/heads/main/openapi/maverick-protocol-latest-api-openapi.yml
 description: ''
 domains:
 - caa: []

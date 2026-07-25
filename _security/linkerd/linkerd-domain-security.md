@@ -1,23 +1,59 @@
 ---
 api_specs:
-- filename: linkerd-proxy-admin-openapi.yml
+- filename: linkerd-discovery-api-openapi.yml
   format: yaml
-  label: Linkerd Proxy Admin API
-  slug: proxy-admin-api
+  label: Linkerd Discovery API
+  slug: linkerd-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/openapi/linkerd-proxy-admin-openapi.yml
-- filename: linkerd-viz-metrics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/openapi/linkerd-discovery-api-openapi.yml
+- filename: linkerd-edges-api-openapi.yml
   format: yaml
-  label: Linkerd Viz Metrics API
-  slug: viz-metrics-api
+  label: Linkerd Edges API
+  slug: linkerd-edges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/openapi/linkerd-viz-metrics-openapi.yml
-- filename: linkerd-tap-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/openapi/linkerd-edges-api-openapi.yml
+- filename: linkerd-gateways-api-openapi.yml
+  format: yaml
+  label: Linkerd Gateways API
+  slug: linkerd-gateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/openapi/linkerd-gateways-api-openapi.yml
+- filename: linkerd-health-api-openapi.yml
+  format: yaml
+  label: Linkerd Health API
+  slug: linkerd-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/openapi/linkerd-health-api-openapi.yml
+- filename: linkerd-lifecycle-api-openapi.yml
+  format: yaml
+  label: Linkerd Lifecycle API
+  slug: linkerd-lifecycle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/openapi/linkerd-lifecycle-api-openapi.yml
+- filename: linkerd-metrics-api-openapi.yml
+  format: yaml
+  label: Linkerd Metrics API
+  slug: linkerd-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/openapi/linkerd-metrics-api-openapi.yml
+- filename: linkerd-routes-api-openapi.yml
+  format: yaml
+  label: Linkerd Routes API
+  slug: linkerd-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/openapi/linkerd-routes-api-openapi.yml
+- filename: linkerd-statistics-api-openapi.yml
+  format: yaml
+  label: Linkerd Statistics API
+  slug: linkerd-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/openapi/linkerd-statistics-api-openapi.yml
+- filename: linkerd-tap-api-openapi.yml
   format: yaml
   label: Linkerd Tap API
-  slug: tap-api
+  slug: linkerd-tap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/openapi/linkerd-tap-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/openapi/linkerd-tap-api-openapi.yml
 description: ''
 domains:
 - caa: []

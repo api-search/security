@@ -2,12 +2,108 @@
 api_key_in:
 - header
 api_specs:
-- filename: cvent-social-tables-openapi.json
-  format: json
-  label: Social Tables Events API (Legacy)
-  slug: events-api
+- filename: cvent-social-tables-authentication-api-openapi.yml
+  format: yaml
+  label: Cvent Social Tables Authentication API
+  slug: cvent-social-tables-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-authentication-api-openapi.yml
+- filename: cvent-social-tables-diagram-favorites-api-openapi.yml
+  format: yaml
+  label: Cvent Social Tables Diagram Favorites API
+  slug: cvent-social-tables-diagram-favorites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-diagram-favorites-api-openapi.yml
+- filename: cvent-social-tables-diagram-layouts-api-openapi.yml
+  format: yaml
+  label: Cvent Social Tables Diagram Layouts API
+  slug: cvent-social-tables-diagram-layouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-diagram-layouts-api-openapi.yml
+- filename: cvent-social-tables-diagram-template-presets-api-openapi.yml
+  format: yaml
+  label: Cvent Social Tables Diagram Template Presets API
+  slug: cvent-social-tables-diagram-template-presets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-diagram-template-presets-api-openapi.yml
+- filename: cvent-social-tables-diagrams-api-openapi.yml
+  format: yaml
+  label: Cvent Social Tables Diagrams API
+  slug: cvent-social-tables-diagrams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-diagrams-api-openapi.yml
+- filename: cvent-social-tables-events-api-openapi.yml
+  format: yaml
+  label: Cvent Social Tables Events API
+  slug: cvent-social-tables-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-events-api-openapi.yml
+- filename: cvent-social-tables-guest-checkin-api-openapi.yml
+  format: yaml
+  label: Cvent Social Tables Guest Checkin API
+  slug: cvent-social-tables-guest-checkin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-guest-checkin-api-openapi.yml
+- filename: cvent-social-tables-guest-groups-api-openapi.yml
+  format: yaml
+  label: Cvent Social Tables Guest Groups API
+  slug: cvent-social-tables-guest-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-guest-groups-api-openapi.yml
+- filename: cvent-social-tables-guest-lists-api-openapi.yml
+  format: yaml
+  label: Cvent Social Tables Guest Lists API
+  slug: cvent-social-tables-guest-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-guest-lists-api-openapi.yml
+- filename: cvent-social-tables-guest-meals-api-openapi.yml
+  format: yaml
+  label: Cvent Social Tables Guest Meals API
+  slug: cvent-social-tables-guest-meals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-guest-meals-api-openapi.yml
+- filename: cvent-social-tables-guest-tags-api-openapi.yml
+  format: yaml
+  label: Cvent Social Tables Guest Tags API
+  slug: cvent-social-tables-guest-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-guest-tags-api-openapi.yml
+- filename: cvent-social-tables-guests-api-openapi.yml
+  format: yaml
+  label: Cvent Social Tables Guests API
+  slug: cvent-social-tables-guests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-guests-api-openapi.yml
+- filename: cvent-social-tables-layout-automation-api-openapi.yml
+  format: yaml
+  label: Cvent Social Tables Layout Automation API
+  slug: cvent-social-tables-layout-automation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-layout-automation-api-openapi.yml
+- filename: cvent-social-tables-properties-api-openapi.yml
+  format: yaml
+  label: Cvent Social Tables Properties API
+  slug: cvent-social-tables-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-properties-api-openapi.yml
+- filename: cvent-social-tables-rooms-api-openapi.yml
+  format: yaml
+  label: Cvent Social Tables Rooms API
+  slug: cvent-social-tables-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-rooms-api-openapi.yml
+- filename: cvent-social-tables-snc-event-integration-api-openapi.yml
+  format: yaml
+  label: Cvent Social Tables SNC Event Integration API
+  slug: cvent-social-tables-snc-event-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-snc-event-integration-api-openapi.yml
+- filename: cvent-social-tables-users-api-openapi.yml
+  format: yaml
+  label: Cvent Social Tables Users API
+  slug: cvent-social-tables-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-users-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

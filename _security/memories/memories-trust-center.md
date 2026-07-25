@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: memories-platform-openapi.json
-  format: json
-  label: Memories.ai Platform API
-  slug: memoriesai-platform-api
+- filename: memories-serve-api-openapi.yml
+  format: yaml
+  label: Memories Serve API
+  slug: memories-serve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/openapi/memories-platform-openapi.json
-- filename: memories-stream-understanding-openapi.json
-  format: json
-  label: Memories.ai Stream Video Understanding API
-  slug: memoriesai-stream-video-understanding-api
+  url: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/openapi/memories-serve-api-openapi.yml
+- filename: memories-stream-understanding-api-openapi.yml
+  format: yaml
+  label: Memories Stream Understanding API
+  slug: memories-stream-understanding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/openapi/memories-stream-understanding-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/openapi/memories-stream-understanding-api-openapi.yml
+- filename: memories-understand-api-openapi.yml
+  format: yaml
+  label: Memories Understand API
+  slug: memories-understand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/openapi/memories-understand-api-openapi.yml
 certifications:
 - SOC 2
 - HIPAA

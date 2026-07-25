@@ -2,18 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: index-api.yml
+- filename: opencitations-authors-api-openapi.yml
   format: yaml
-  label: OpenCitations Index API
-  slug: opencitations-index-api
+  label: OpenCitations Authors API
+  slug: opencitations-authors-api
   spec_type: OpenAPI
-  url: https://kinlane.github.io/all/opencitations/openapi/index-api.yml
-- filename: meta-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/opencitations/refs/heads/main/openapi/opencitations-authors-api-openapi.yml
+- filename: opencitations-citations-api-openapi.yml
   format: yaml
-  label: OpenCitations Meta API
-  slug: opencitations-meta-api
+  label: OpenCitations Citations API
+  slug: opencitations-citations-api
   spec_type: OpenAPI
-  url: https://kinlane.github.io/all/opencitations/openapi/meta-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/opencitations/refs/heads/main/openapi/opencitations-citations-api-openapi.yml
+- filename: opencitations-editors-api-openapi.yml
+  format: yaml
+  label: OpenCitations Editors API
+  slug: opencitations-editors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opencitations/refs/heads/main/openapi/opencitations-editors-api-openapi.yml
+- filename: opencitations-metadata-api-openapi.yml
+  format: yaml
+  label: OpenCitations Metadata API
+  slug: opencitations-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opencitations/refs/heads/main/openapi/opencitations-metadata-api-openapi.yml
+- filename: opencitations-references-api-openapi.yml
+  format: yaml
+  label: OpenCitations References API
+  slug: opencitations-references-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opencitations/refs/heads/main/openapi/opencitations-references-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

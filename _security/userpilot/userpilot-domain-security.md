@@ -1,23 +1,41 @@
 ---
 api_specs:
-- filename: userpilot-analytex-openapi.json
-  format: json
-  label: Userpilot Realtime API (analytex)
-  slug: userpilot-realtime-api
+- filename: userpilot-analytics-api-openapi.yml
+  format: yaml
+  label: Userpilot Analytics API
+  slug: userpilot-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/openapi/userpilot-analytex-openapi.json
-- filename: userpilot-appex-openapi.json
-  format: json
-  label: Userpilot Analytics Export API (appex)
-  slug: userpilot-analytics-export-api
+  url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/openapi/userpilot-analytics-api-openapi.yml
+- filename: userpilot-background-jobs-api-openapi.yml
+  format: yaml
+  label: Userpilot Background Jobs API
+  slug: userpilot-background-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/openapi/userpilot-appex-openapi.json
-- filename: userpilot-openapi.json
-  format: json
-  label: Userpilot API
-  slug: userpilot-api
+  url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/openapi/userpilot-background-jobs-api-openapi.yml
+- filename: userpilot-companies-api-openapi.yml
+  format: yaml
+  label: Userpilot Companies API
+  slug: userpilot-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/openapi/userpilot-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/openapi/userpilot-companies-api-openapi.yml
+- filename: userpilot-imports-api-openapi.yml
+  format: yaml
+  label: Userpilot Imports API
+  slug: userpilot-imports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/openapi/userpilot-imports-api-openapi.yml
+- filename: userpilot-real-time-api-openapi.yml
+  format: yaml
+  label: Userpilot Real-time API
+  slug: userpilot-real-time-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/openapi/userpilot-real-time-api-openapi.yml
+- filename: userpilot-track-api-openapi.yml
+  format: yaml
+  label: Userpilot Track API
+  slug: userpilot-track-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/openapi/userpilot-track-api-openapi.yml
 description: ''
 domains:
 - caa: []

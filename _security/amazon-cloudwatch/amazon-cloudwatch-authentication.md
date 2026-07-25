@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-cloudwatch-openapi.yml
+- filename: amazon-cloudwatch-alarms-api-openapi.yml
   format: yaml
-  label: Amazon CloudWatch API
-  slug: amazon-cloudwatch-api
+  label: Amazon CloudWatch Alarms API
+  slug: amazon-cloudwatch-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/openapi/amazon-cloudwatch-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/openapi/amazon-cloudwatch-alarms-api-openapi.yml
+- filename: amazon-cloudwatch-dashboards-api-openapi.yml
+  format: yaml
+  label: Amazon CloudWatch Dashboards API
+  slug: amazon-cloudwatch-dashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/openapi/amazon-cloudwatch-dashboards-api-openapi.yml
+- filename: amazon-cloudwatch-metrics-api-openapi.yml
+  format: yaml
+  label: Amazon CloudWatch Metrics API
+  slug: amazon-cloudwatch-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/openapi/amazon-cloudwatch-metrics-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

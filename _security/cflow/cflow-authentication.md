@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: cflow-openapi.yml
+- filename: cflow-requests-api-openapi.yml
   format: yaml
-  label: Cflow Workflow API
-  slug: cflow
+  label: Cflow Requests API
+  slug: cflow-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/openapi/cflow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/openapi/cflow-requests-api-openapi.yml
+- filename: cflow-users-api-openapi.yml
+  format: yaml
+  label: Cflow Users API
+  slug: cflow-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/openapi/cflow-users-api-openapi.yml
+- filename: cflow-workflows-api-openapi.yml
+  format: yaml
+  label: Cflow Workflows API
+  slug: cflow-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/openapi/cflow-workflows-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

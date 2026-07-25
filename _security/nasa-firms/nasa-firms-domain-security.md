@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: nasa-firms-openapi.yml
+- filename: nasa-firms-area-fire-detections-api-openapi.yml
   format: yaml
-  label: FIRMS Area Fire Detections API
-  slug: area-fire-detections
+  label: NASA FIRMS Area Fire Detections API
+  slug: nasa-firms-area-fire-detections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/openapi/nasa-firms-openapi.yml
-- filename: nasa-firms-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/openapi/nasa-firms-area-fire-detections-api-openapi.yml
+- filename: nasa-firms-data-availability-api-openapi.yml
   format: yaml
-  label: FIRMS KML Fire Footprints API
-  slug: kml-fire-footprints
+  label: NASA FIRMS Data Availability API
+  slug: nasa-firms-data-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/openapi/nasa-firms-openapi.yml
-- filename: nasa-firms-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/openapi/nasa-firms-data-availability-api-openapi.yml
+- filename: nasa-firms-kml-fire-footprints-api-openapi.yml
   format: yaml
-  label: FIRMS Data Availability API
-  slug: data-availability
+  label: NASA FIRMS KML Fire Footprints API
+  slug: nasa-firms-kml-fire-footprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/openapi/nasa-firms-openapi.yml
-- filename: nasa-firms-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/openapi/nasa-firms-kml-fire-footprints-api-openapi.yml
+- filename: nasa-firms-missing-data-api-openapi.yml
   format: yaml
-  label: FIRMS Missing Data API
-  slug: missing-data
+  label: NASA FIRMS Missing Data API
+  slug: nasa-firms-missing-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/openapi/nasa-firms-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/openapi/nasa-firms-missing-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

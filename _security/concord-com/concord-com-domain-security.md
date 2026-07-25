@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: concord-com-openapi.yml
+- filename: concord-com-agreements-api-openapi.yml
   format: yaml
   label: Concord Agreements API
   slug: concord-com-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concord-com/refs/heads/main/openapi/concord-com-openapi.yml
-- filename: concord-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/concord-com/refs/heads/main/openapi/concord-com-agreements-api-openapi.yml
+- filename: concord-com-organizations-api-openapi.yml
   format: yaml
-  label: Concord Organizations & Users API
+  label: Concord Organizations API
   slug: concord-com-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concord-com/refs/heads/main/openapi/concord-com-openapi.yml
-- filename: concord-com-openapi.yml
-  format: yaml
-  label: Concord Documents & Attachments API
-  slug: concord-com-documents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concord-com/refs/heads/main/openapi/concord-com-openapi.yml
-- filename: concord-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/concord-com/refs/heads/main/openapi/concord-com-organizations-api-openapi.yml
+- filename: concord-com-templates-api-openapi.yml
   format: yaml
   label: Concord Templates API
   slug: concord-com-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concord-com/refs/heads/main/openapi/concord-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/concord-com/refs/heads/main/openapi/concord-com-templates-api-openapi.yml
+- filename: concord-com-users-api-openapi.yml
+  format: yaml
+  label: Concord Users API
+  slug: concord-com-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/concord-com/refs/heads/main/openapi/concord-com-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

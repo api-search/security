@@ -1,30 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: lamini-openapi.yml
-  format: yaml
-  label: Lamini Inference Completions API
-  slug: lamini-inference-completions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-openapi.yml
-- filename: lamini-openapi.yml
-  format: yaml
-  label: Lamini Fine-Tuning & Memory Tuning API
-  slug: lamini-fine-tuning-memory-tuning-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-openapi.yml
-- filename: lamini-openapi.yml
+- filename: lamini-classify-api-openapi.yml
   format: yaml
   label: Lamini Classify API
   slug: lamini-classify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-openapi.yml
-- filename: lamini-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-classify-api-openapi.yml
+- filename: lamini-embeddings-api-openapi.yml
   format: yaml
   label: Lamini Embeddings API
   slug: lamini-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-embeddings-api-openapi.yml
+- filename: lamini-fine-tuning-api-openapi.yml
+  format: yaml
+  label: Lamini Fine-Tuning API
+  slug: lamini-fine-tuning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-fine-tuning-api-openapi.yml
+- filename: lamini-inference-api-openapi.yml
+  format: yaml
+  label: Lamini Inference API
+  slug: lamini-inference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-inference-api-openapi.yml
+- filename: lamini-platform-api-openapi.yml
+  format: yaml
+  label: Lamini Platform API
+  slug: lamini-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-platform-api-openapi.yml
 auth_types:
 - http
 description: ''

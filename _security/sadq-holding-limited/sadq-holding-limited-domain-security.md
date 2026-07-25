@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: sadq-holding-limited-openapi-original.json
-  format: json
-  label: Sadq Integration API
-  slug: sadq-integration-api
+- filename: sadq-holding-limited-archiving-delegations-api-openapi.yml
+  format: yaml
+  label: Sadq Holding Limited Archiving & Delegations API
+  slug: sadq-holding-limited-archiving-delegations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-archiving-delegations-api-openapi.yml
+- filename: sadq-holding-limited-authentication-api-openapi.yml
+  format: yaml
+  label: Sadq Holding Limited Authentication API
+  slug: sadq-holding-limited-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-authentication-api-openapi.yml
+- filename: sadq-holding-limited-configuration-api-openapi.yml
+  format: yaml
+  label: Sadq Holding Limited Configuration API
+  slug: sadq-holding-limited-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-configuration-api-openapi.yml
+- filename: sadq-holding-limited-documents-api-openapi.yml
+  format: yaml
+  label: Sadq Holding Limited Documents API
+  slug: sadq-holding-limited-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-documents-api-openapi.yml
+- filename: sadq-holding-limited-envelopes-api-openapi.yml
+  format: yaml
+  label: Sadq Holding Limited Envelopes API
+  slug: sadq-holding-limited-envelopes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-envelopes-api-openapi.yml
+- filename: sadq-holding-limited-esign-api-openapi.yml
+  format: yaml
+  label: Sadq Holding Limited eSign API
+  slug: sadq-holding-limited-esign-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-esign-api-openapi.yml
+- filename: sadq-holding-limited-invitations-api-openapi.yml
+  format: yaml
+  label: Sadq Holding Limited Invitations API
+  slug: sadq-holding-limited-invitations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-invitations-api-openapi.yml
+- filename: sadq-holding-limited-kyb-api-openapi.yml
+  format: yaml
+  label: Sadq Holding Limited KYB API
+  slug: sadq-holding-limited-kyb-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-kyb-api-openapi.yml
+- filename: sadq-holding-limited-reports-requests-api-openapi.yml
+  format: yaml
+  label: Sadq Holding Limited Reports & Requests API
+  slug: sadq-holding-limited-reports-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-reports-requests-api-openapi.yml
+- filename: sadq-holding-limited-sign-api-openapi.yml
+  format: yaml
+  label: Sadq Holding Limited Sign API
+  slug: sadq-holding-limited-sign-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-sign-api-openapi.yml
+- filename: sadq-holding-limited-templates-api-openapi.yml
+  format: yaml
+  label: Sadq Holding Limited Templates API
+  slug: sadq-holding-limited-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-templates-api-openapi.yml
+- filename: sadq-holding-limited-users-api-openapi.yml
+  format: yaml
+  label: Sadq Holding Limited Users API
+  slug: sadq-holding-limited-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-users-api-openapi.yml
+- filename: sadq-holding-limited-webhooks-api-openapi.yml
+  format: yaml
+  label: Sadq Holding Limited Webhooks API
+  slug: sadq-holding-limited-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-webhooks-api-openapi.yml
+- filename: sadq-holding-limited-workflows-api-openapi.yml
+  format: yaml
+  label: Sadq Holding Limited Workflows API
+  slug: sadq-holding-limited-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-workflows-api-openapi.yml
 description: ''
 domains:
 - caa:

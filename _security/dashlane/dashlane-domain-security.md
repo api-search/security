@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: dashlane-public-api-openapi-original.json
-  format: json
-  label: Dashlane Public API
-  slug: dashlane-public-api
+- filename: dashlane-teams-api-openapi.yml
+  format: yaml
+  label: Dashlane Teams API
+  slug: dashlane-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dashlane/refs/heads/main/openapi/dashlane-public-api-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/dashlane/refs/heads/main/openapi/dashlane-teams-api-openapi.yml
+- filename: dashlane-time-api-openapi.yml
+  format: yaml
+  label: Dashlane Time API
+  slug: dashlane-time-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dashlane/refs/heads/main/openapi/dashlane-time-api-openapi.yml
 description: ''
 domains:
 - caa: []

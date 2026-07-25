@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: whoapi-openapi.yml
+- filename: whoapi-domain-intelligence-api-openapi.yml
   format: yaml
   label: WhoAPI Domain Intelligence API
   slug: whoapi-domain-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/openapi/whoapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/openapi/whoapi-domain-intelligence-api-openapi.yml
 description: ''
 domains:
 - caa: []

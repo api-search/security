@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: amdocs-connectx-openapi.yml
+- filename: amdocs-billing-api-openapi.yml
   format: yaml
-  label: Amdocs connectX BSS API
-  slug: amdocs-connectx-api
+  label: Amdocs Billing API
+  slug: amdocs-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-connectx-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-billing-api-openapi.yml
+- filename: amdocs-customers-api-openapi.yml
+  format: yaml
+  label: Amdocs Customers API
+  slug: amdocs-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-customers-api-openapi.yml
+- filename: amdocs-products-api-openapi.yml
+  format: yaml
+  label: Amdocs Products API
+  slug: amdocs-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-products-api-openapi.yml
+- filename: amdocs-subscriptions-api-openapi.yml
+  format: yaml
+  label: Amdocs Subscriptions API
+  slug: amdocs-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-subscriptions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

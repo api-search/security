@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: fyno-notification-events-openapi.yml
+- filename: fyno-fire-an-event-api-openapi.yml
   format: yaml
-  label: Fyno Notification Events API
-  slug: notification-events
+  label: Fyno Fire an Event API
+  slug: fyno-fire-an-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/openapi/fyno-notification-events-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/openapi/fyno-fire-an-event-api-openapi.yml
+- filename: fyno-fyno-verify-api-openapi.yml
+  format: yaml
+  label: Fyno Fyno Verify API
+  slug: fyno-fyno-verify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/openapi/fyno-fyno-verify-api-openapi.yml
+- filename: fyno-manage-user-profiles-api-openapi.yml
+  format: yaml
+  label: Fyno Manage User Profiles API
+  slug: fyno-manage-user-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/openapi/fyno-manage-user-profiles-api-openapi.yml
+- filename: fyno-manage-user-subscriptions-preferences-api-openapi.yml
+  format: yaml
+  label: Fyno Manage User Subscriptions & Preferences API
+  slug: fyno-manage-user-subscriptions-preferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/openapi/fyno-manage-user-subscriptions-preferences-api-openapi.yml
+- filename: fyno-suppression-list-api-openapi.yml
+  format: yaml
+  label: Fyno Suppression List API
+  slug: fyno-suppression-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/openapi/fyno-suppression-list-api-openapi.yml
+- filename: fyno-user-properties-api-openapi.yml
+  format: yaml
+  label: Fyno User Properties API
+  slug: fyno-user-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/openapi/fyno-user-properties-api-openapi.yml
 auth_types:
 - http
 description: ''

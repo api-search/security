@@ -2,30 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: singularity-energy-openapi.yml
+- filename: singularity-energy-emissions-api-openapi.yml
   format: yaml
-  label: Singularity Carbon Intensity API
-  slug: carbon-intensity-api
+  label: Singularity Emissions API
+  slug: singularity-energy-emissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singularity-energy/refs/heads/main/openapi/singularity-energy-openapi.yml
-- filename: singularity-energy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/singularity-energy/refs/heads/main/openapi/singularity-energy-emissions-api-openapi.yml
+- filename: singularity-energy-events-api-openapi.yml
   format: yaml
-  label: Singularity Forecasts API
-  slug: forecasts-api
+  label: Singularity Events API
+  slug: singularity-energy-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singularity-energy/refs/heads/main/openapi/singularity-energy-openapi.yml
-- filename: singularity-energy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/singularity-energy/refs/heads/main/openapi/singularity-energy-events-api-openapi.yml
+- filename: singularity-energy-interchange-api-openapi.yml
   format: yaml
-  label: Singularity Generation & Event Data API
-  slug: generation-event-data-api
+  label: Singularity Interchange API
+  slug: singularity-energy-interchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singularity-energy/refs/heads/main/openapi/singularity-energy-openapi.yml
-- filename: singularity-energy-openapi.yml
-  format: yaml
-  label: Singularity Regions API
-  slug: regions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singularity-energy/refs/heads/main/openapi/singularity-energy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/singularity-energy/refs/heads/main/openapi/singularity-energy-interchange-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

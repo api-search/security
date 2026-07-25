@@ -1,23 +1,47 @@
 ---
 api_specs:
-- filename: scansource-product-openapi.yml
+- filename: scansource-availability-api-openapi.yml
   format: yaml
-  label: ScanSource Product API
-  slug: scansource-product-api
+  label: ScanSource Availability API
+  slug: scansource-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/openapi/scansource-product-openapi.yml
-- filename: scansource-sales-order-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/openapi/scansource-availability-api-openapi.yml
+- filename: scansource-invoices-api-openapi.yml
   format: yaml
-  label: ScanSource Sales Order API
-  slug: scansource-sales-order-api
+  label: ScanSource Invoices API
+  slug: scansource-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/openapi/scansource-sales-order-openapi.yml
-- filename: scansource-invoice-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/openapi/scansource-invoices-api-openapi.yml
+- filename: scansource-orders-api-openapi.yml
   format: yaml
-  label: ScanSource Invoice API
-  slug: scansource-invoice-api
+  label: ScanSource Orders API
+  slug: scansource-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/openapi/scansource-invoice-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/openapi/scansource-orders-api-openapi.yml
+- filename: scansource-pricing-api-openapi.yml
+  format: yaml
+  label: ScanSource Pricing API
+  slug: scansource-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/openapi/scansource-pricing-api-openapi.yml
+- filename: scansource-products-api-openapi.yml
+  format: yaml
+  label: ScanSource Products API
+  slug: scansource-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/openapi/scansource-products-api-openapi.yml
+- filename: scansource-shipping-api-openapi.yml
+  format: yaml
+  label: ScanSource Shipping API
+  slug: scansource-shipping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/openapi/scansource-shipping-api-openapi.yml
+- filename: scansource-tracking-api-openapi.yml
+  format: yaml
+  label: ScanSource Tracking API
+  slug: scansource-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/openapi/scansource-tracking-api-openapi.yml
 description: ''
 domains:
 - caa: []

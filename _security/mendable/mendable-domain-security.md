@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: mendable-openapi.yml
+- filename: mendable-chat-api-openapi.yml
   format: yaml
-  label: Mendable Chat & Answers API
-  slug: mendable-chat-answers-api
+  label: Mendable Chat API
+  slug: mendable-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-openapi.yml
-- filename: mendable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-chat-api-openapi.yml
+- filename: mendable-conversations-api-openapi.yml
   format: yaml
   label: Mendable Conversations API
   slug: mendable-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-openapi.yml
-- filename: mendable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-conversations-api-openapi.yml
+- filename: mendable-ingestion-api-openapi.yml
   format: yaml
-  label: Mendable Data Ingestion & Sources API
-  slug: mendable-data-ingestion-api
+  label: Mendable Ingestion API
+  slug: mendable-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-openapi.yml
-- filename: mendable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-ingestion-api-openapi.yml
+- filename: mendable-ratings-api-openapi.yml
   format: yaml
   label: Mendable Ratings API
   slug: mendable-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-ratings-api-openapi.yml
 description: ''
 domains:
 - caa: []

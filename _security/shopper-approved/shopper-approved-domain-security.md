@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: shopper-approved-openapi.yml
+- filename: shopper-approved-orders-api-openapi.yml
   format: yaml
-  label: Shopper Approved API
-  slug: shopper-approved-api
+  label: Shopper Approved Orders API
+  slug: shopper-approved-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/openapi/shopper-approved-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/openapi/shopper-approved-orders-api-openapi.yml
+- filename: shopper-approved-product-reviews-api-openapi.yml
+  format: yaml
+  label: Shopper Approved Product Reviews API
+  slug: shopper-approved-product-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/openapi/shopper-approved-product-reviews-api-openapi.yml
+- filename: shopper-approved-reviews-api-openapi.yml
+  format: yaml
+  label: Shopper Approved Reviews API
+  slug: shopper-approved-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/openapi/shopper-approved-reviews-api-openapi.yml
+- filename: shopper-approved-statistics-api-openapi.yml
+  format: yaml
+  label: Shopper Approved Statistics API
+  slug: shopper-approved-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/openapi/shopper-approved-statistics-api-openapi.yml
 description: ''
 domains:
 - caa: []

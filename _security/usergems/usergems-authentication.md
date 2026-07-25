@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: usergems-api-openapi.yml
+- filename: usergems-accounts-api-openapi.yml
   format: yaml
-  label: UserGems API
-  slug: usergems-api
+  label: UserGems Accounts API
+  slug: usergems-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/openapi/usergems-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/openapi/usergems-accounts-api-openapi.yml
+- filename: usergems-contacts-api-openapi.yml
+  format: yaml
+  label: UserGems Contacts API
+  slug: usergems-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/openapi/usergems-contacts-api-openapi.yml
+- filename: usergems-privacy-api-openapi.yml
+  format: yaml
+  label: UserGems Privacy API
+  slug: usergems-privacy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/openapi/usergems-privacy-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

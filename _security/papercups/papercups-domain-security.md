@@ -1,29 +1,35 @@
 ---
 api_specs:
-- filename: papercups-openapi.yml
-  format: yaml
-  label: Papercups Conversations API
-  slug: conversations
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/openapi/papercups-openapi.yml
-- filename: papercups-openapi.yml
-  format: yaml
-  label: Papercups Messages API
-  slug: messages
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/openapi/papercups-openapi.yml
-- filename: papercups-openapi.yml
-  format: yaml
-  label: Papercups Customers API
-  slug: customers
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/openapi/papercups-openapi.yml
 - filename: papercups-asyncapi.yml
   format: yaml
   label: Papercups Realtime Chat API (WebSocket / Phoenix Channels)
   slug: realtime-chat
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/asyncapi/papercups-asyncapi.yml
+- filename: papercups-conversations-api-openapi.yml
+  format: yaml
+  label: Papercups Conversations API
+  slug: papercups-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/openapi/papercups-conversations-api-openapi.yml
+- filename: papercups-customers-api-openapi.yml
+  format: yaml
+  label: Papercups Customers API
+  slug: papercups-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/openapi/papercups-customers-api-openapi.yml
+- filename: papercups-messages-api-openapi.yml
+  format: yaml
+  label: Papercups Messages API
+  slug: papercups-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/openapi/papercups-messages-api-openapi.yml
+- filename: papercups-users-api-openapi.yml
+  format: yaml
+  label: Papercups Users API
+  slug: papercups-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/openapi/papercups-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

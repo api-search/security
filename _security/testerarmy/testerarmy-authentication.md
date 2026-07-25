@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: testerarmy-openapi-original.json
-  format: json
-  label: TesterArmy API
-  slug: testerarmy-api
+- filename: testerarmy-groups-api-openapi.yml
+  format: yaml
+  label: Testerarmy Groups API
+  slug: testerarmy-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/openapi/testerarmy-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/openapi/testerarmy-groups-api-openapi.yml
+- filename: testerarmy-projects-api-openapi.yml
+  format: yaml
+  label: Testerarmy Projects API
+  slug: testerarmy-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/openapi/testerarmy-projects-api-openapi.yml
+- filename: testerarmy-test-runs-api-openapi.yml
+  format: yaml
+  label: Testerarmy Test Runs API
+  slug: testerarmy-test-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/openapi/testerarmy-test-runs-api-openapi.yml
+- filename: testerarmy-tests-api-openapi.yml
+  format: yaml
+  label: Testerarmy Tests API
+  slug: testerarmy-tests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/openapi/testerarmy-tests-api-openapi.yml
+- filename: testerarmy-webhooks-api-openapi.yml
+  format: yaml
+  label: Testerarmy Webhooks API
+  slug: testerarmy-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/openapi/testerarmy-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

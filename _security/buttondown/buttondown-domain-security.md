@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: buttondown-openapi.yml
+- filename: buttondown-emails-api-openapi.yml
   format: yaml
-  label: Buttondown API
-  slug: buttondown-api
+  label: Buttondown Emails API
+  slug: buttondown-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-emails-api-openapi.yml
+- filename: buttondown-newsletters-api-openapi.yml
+  format: yaml
+  label: Buttondown Newsletters API
+  slug: buttondown-newsletters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-newsletters-api-openapi.yml
+- filename: buttondown-subscribers-api-openapi.yml
+  format: yaml
+  label: Buttondown Subscribers API
+  slug: buttondown-subscribers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-subscribers-api-openapi.yml
+- filename: buttondown-tags-api-openapi.yml
+  format: yaml
+  label: Buttondown Tags API
+  slug: buttondown-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-tags-api-openapi.yml
+- filename: buttondown-webhooks-api-openapi.yml
+  format: yaml
+  label: Buttondown Webhooks API
+  slug: buttondown-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

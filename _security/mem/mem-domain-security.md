@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: mem-openapi-original.json
-  format: json
-  label: Mem Public Client API
-  slug: mem-public-client-api
+- filename: mem-coreapi-service-info-api-openapi.yml
+  format: yaml
+  label: Mem CoreApi__service-info API
+  slug: mem-coreapi-service-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/openapi/mem-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/openapi/mem-coreapi-service-info-api-openapi.yml
+- filename: mem-external-api-openapi.yml
+  format: yaml
+  label: Mem external API
+  slug: mem-external-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/openapi/mem-external-api-openapi.yml
+- filename: mem-external-v0-api-openapi.yml
+  format: yaml
+  label: Mem external-v0 API
+  slug: mem-external-v0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/openapi/mem-external-v0-api-openapi.yml
+- filename: mem-external-v1-api-openapi.yml
+  format: yaml
+  label: Mem external-v1 API
+  slug: mem-external-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/openapi/mem-external-v1-api-openapi.yml
+- filename: mem-external-v2-api-openapi.yml
+  format: yaml
+  label: Mem external-v2 API
+  slug: mem-external-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/openapi/mem-external-v2-api-openapi.yml
 description: ''
 domains:
 - caa: []

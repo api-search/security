@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: ditto-live-cloud-http-api-openapi.yml
+- filename: ditto-live-api-keys-api-openapi.yml
   format: yaml
-  label: Ditto Cloud HTTP API
-  slug: cloud-http-api
+  label: Ditto API Keys API
+  slug: ditto-live-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/openapi/ditto-live-cloud-http-api-openapi.yml
-- filename: ditto-live-operator-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/openapi/ditto-live-api-keys-api-openapi.yml
+- filename: ditto-live-apps-api-openapi.yml
   format: yaml
-  label: Ditto Edge Server HTTP API
-  slug: edge-server-http-api
+  label: Ditto Apps API
+  slug: ditto-live-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/openapi/ditto-live-operator-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/openapi/ditto-live-apps-api-openapi.yml
+- filename: ditto-live-bigpeerreplication-api-openapi.yml
+  format: yaml
+  label: Ditto BigPeerReplication API
+  slug: ditto-live-bigpeerreplication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/openapi/ditto-live-bigpeerreplication-api-openapi.yml
+- filename: ditto-live-data-bridge-api-openapi.yml
+  format: yaml
+  label: Ditto Data Bridge API
+  slug: ditto-live-data-bridge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/openapi/ditto-live-data-bridge-api-openapi.yml
+- filename: ditto-live-store-api-openapi.yml
+  format: yaml
+  label: Ditto Store API
+  slug: ditto-live-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/openapi/ditto-live-store-api-openapi.yml
+- filename: ditto-live-sync-api-openapi.yml
+  format: yaml
+  label: Ditto Sync API
+  slug: ditto-live-sync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/openapi/ditto-live-sync-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

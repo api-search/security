@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: scroll-zkevm-json-rpc-api-openapi.yml
+  format: yaml
+  label: Scroll JSON-RPC API
+  slug: scroll-zkevm-json-rpc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scroll-zkevm/refs/heads/main/openapi/scroll-zkevm-json-rpc-api-openapi.yml
 description: ''
 domains:
 - caa: []

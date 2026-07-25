@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: appomni-openapi.yaml
+- filename: appomni-compliance-api-openapi.yml
   format: yaml
-  label: AppOmni API
-  slug: appomni-api
+  label: AppOmni Compliance API
+  slug: appomni-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-compliance-api-openapi.yml
+- filename: appomni-policies-api-openapi.yml
+  format: yaml
+  label: AppOmni Policies API
+  slug: appomni-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-policies-api-openapi.yml
+- filename: appomni-security-events-api-openapi.yml
+  format: yaml
+  label: AppOmni Security Events API
+  slug: appomni-security-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-security-events-api-openapi.yml
 description: ''
 domains:
 - caa: []

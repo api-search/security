@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: grafana-dashboard-openapi.yml
+- filename: tableaux-de-bord-alerting-api-openapi.yml
   format: yaml
-  label: Grafana HTTP API
-  slug: grafana
+  label: Tableaux De Bord Alerting API
+  slug: tableaux-de-bord-alerting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/grafana-dashboard-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-alerting-api-openapi.yml
+- filename: tableaux-de-bord-annotations-api-openapi.yml
+  format: yaml
+  label: Tableaux De Bord Annotations API
+  slug: tableaux-de-bord-annotations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-annotations-api-openapi.yml
+- filename: tableaux-de-bord-dashboards-api-openapi.yml
+  format: yaml
+  label: Tableaux De Bord Dashboards API
+  slug: tableaux-de-bord-dashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-dashboards-api-openapi.yml
+- filename: tableaux-de-bord-datasources-api-openapi.yml
+  format: yaml
+  label: Tableaux De Bord Datasources API
+  slug: tableaux-de-bord-datasources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-datasources-api-openapi.yml
+- filename: tableaux-de-bord-folders-api-openapi.yml
+  format: yaml
+  label: Tableaux De Bord Folders API
+  slug: tableaux-de-bord-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-folders-api-openapi.yml
+- filename: tableaux-de-bord-organizations-api-openapi.yml
+  format: yaml
+  label: Tableaux De Bord Organizations API
+  slug: tableaux-de-bord-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-organizations-api-openapi.yml
+- filename: tableaux-de-bord-teams-api-openapi.yml
+  format: yaml
+  label: Tableaux De Bord Teams API
+  slug: tableaux-de-bord-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-teams-api-openapi.yml
+- filename: tableaux-de-bord-users-api-openapi.yml
+  format: yaml
+  label: Tableaux De Bord Users API
+  slug: tableaux-de-bord-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-users-api-openapi.yml
 auth_types:
 - apiKey
 - http

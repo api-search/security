@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: heroku-platform-api.yml
+- filename: heroku-account-api-openapi.yml
   format: yaml
-  label: Heroku Platform API
-  slug: heroku-platform-api
+  label: Heroku Account API
+  slug: heroku-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-platform-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-account-api-openapi.yml
+- filename: heroku-add-ons-api-openapi.yml
+  format: yaml
+  label: Heroku Add-ons API
+  slug: heroku-add-ons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-add-ons-api-openapi.yml
+- filename: heroku-apps-api-openapi.yml
+  format: yaml
+  label: Heroku Apps API
+  slug: heroku-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-apps-api-openapi.yml
+- filename: heroku-builds-api-openapi.yml
+  format: yaml
+  label: Heroku Builds API
+  slug: heroku-builds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-builds-api-openapi.yml
+- filename: heroku-collaborators-api-openapi.yml
+  format: yaml
+  label: Heroku Collaborators API
+  slug: heroku-collaborators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-collaborators-api-openapi.yml
+- filename: heroku-config-vars-api-openapi.yml
+  format: yaml
+  label: Heroku Config Vars API
+  slug: heroku-config-vars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-config-vars-api-openapi.yml
+- filename: heroku-domains-api-openapi.yml
+  format: yaml
+  label: Heroku Domains API
+  slug: heroku-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-domains-api-openapi.yml
+- filename: heroku-dynos-api-openapi.yml
+  format: yaml
+  label: Heroku Dynos API
+  slug: heroku-dynos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-dynos-api-openapi.yml
+- filename: heroku-formation-api-openapi.yml
+  format: yaml
+  label: Heroku Formation API
+  slug: heroku-formation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-formation-api-openapi.yml
+- filename: heroku-log-sessions-api-openapi.yml
+  format: yaml
+  label: Heroku Log Sessions API
+  slug: heroku-log-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-log-sessions-api-openapi.yml
+- filename: heroku-pipelines-api-openapi.yml
+  format: yaml
+  label: Heroku Pipelines API
+  slug: heroku-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-pipelines-api-openapi.yml
+- filename: heroku-regions-api-openapi.yml
+  format: yaml
+  label: Heroku Regions API
+  slug: heroku-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-regions-api-openapi.yml
+- filename: heroku-releases-api-openapi.yml
+  format: yaml
+  label: Heroku Releases API
+  slug: heroku-releases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-releases-api-openapi.yml
+- filename: heroku-stacks-api-openapi.yml
+  format: yaml
+  label: Heroku Stacks API
+  slug: heroku-stacks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-stacks-api-openapi.yml
 description: ''
 domains:
 - caa: []

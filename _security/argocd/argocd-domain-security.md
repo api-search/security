@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: argocd-server-openapi.json
-  format: json
-  label: Argo CD Applications API
-  slug: argocd-applications-api
+- filename: argocd-accountservice-api-openapi.yml
+  format: yaml
+  label: Argo CD AccountService API
+  slug: argocd-accountservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-server-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-accountservice-api-openapi.yml
+- filename: argocd-applicationservice-api-openapi.yml
+  format: yaml
+  label: Argo CD ApplicationService API
+  slug: argocd-applicationservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-applicationservice-api-openapi.yml
+- filename: argocd-applicationsetservice-api-openapi.yml
+  format: yaml
+  label: Argo CD ApplicationSetService API
+  slug: argocd-applicationsetservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-applicationsetservice-api-openapi.yml
+- filename: argocd-certificateservice-api-openapi.yml
+  format: yaml
+  label: Argo CD CertificateService API
+  slug: argocd-certificateservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-certificateservice-api-openapi.yml
+- filename: argocd-clusterservice-api-openapi.yml
+  format: yaml
+  label: Argo CD ClusterService API
+  slug: argocd-clusterservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-clusterservice-api-openapi.yml
+- filename: argocd-gpgkeyservice-api-openapi.yml
+  format: yaml
+  label: Argo CD GPGKeyService API
+  slug: argocd-gpgkeyservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-gpgkeyservice-api-openapi.yml
+- filename: argocd-notificationservice-api-openapi.yml
+  format: yaml
+  label: Argo CD NotificationService API
+  slug: argocd-notificationservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-notificationservice-api-openapi.yml
+- filename: argocd-projectservice-api-openapi.yml
+  format: yaml
+  label: Argo CD ProjectService API
+  slug: argocd-projectservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-projectservice-api-openapi.yml
+- filename: argocd-repocredsservice-api-openapi.yml
+  format: yaml
+  label: Argo CD RepoCredsService API
+  slug: argocd-repocredsservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-repocredsservice-api-openapi.yml
+- filename: argocd-repositoryservice-api-openapi.yml
+  format: yaml
+  label: Argo CD RepositoryService API
+  slug: argocd-repositoryservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-repositoryservice-api-openapi.yml
+- filename: argocd-sessionservice-api-openapi.yml
+  format: yaml
+  label: Argo CD SessionService API
+  slug: argocd-sessionservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-sessionservice-api-openapi.yml
+- filename: argocd-settingsservice-api-openapi.yml
+  format: yaml
+  label: Argo CD SettingsService API
+  slug: argocd-settingsservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-settingsservice-api-openapi.yml
+- filename: argocd-versionservice-api-openapi.yml
+  format: yaml
+  label: Argo CD VersionService API
+  slug: argocd-versionservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-versionservice-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: parcelsapp-openapi.yml
+- filename: parcelsapp-account-api-openapi.yml
   format: yaml
-  label: Parcels App Shipments Tracking API
-  slug: parcelsapp-shipments-tracking-api
+  label: Parcels App Account API
+  slug: parcelsapp-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcelsapp/refs/heads/main/openapi/parcelsapp-openapi.yml
-- filename: parcelsapp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/parcelsapp/refs/heads/main/openapi/parcelsapp-account-api-openapi.yml
+- filename: parcelsapp-tracking-api-openapi.yml
   format: yaml
-  label: Parcels App Account Usage API
-  slug: parcelsapp-account-usage-api
+  label: Parcels App Tracking API
+  slug: parcelsapp-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcelsapp/refs/heads/main/openapi/parcelsapp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/parcelsapp/refs/heads/main/openapi/parcelsapp-tracking-api-openapi.yml
+- filename: parcelsapp-webhooks-api-openapi.yml
+  format: yaml
+  label: Parcels App Webhooks API
+  slug: parcelsapp-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parcelsapp/refs/heads/main/openapi/parcelsapp-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

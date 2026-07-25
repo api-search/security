@@ -1,35 +1,29 @@
 ---
 api_specs:
-- filename: goodhire-openapi.yml
-  format: yaml
-  label: GoodHire Reports API
-  slug: goodhire-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodhire/refs/heads/main/openapi/goodhire-openapi.yml
-- filename: goodhire-openapi.yml
-  format: yaml
-  label: GoodHire Requestors API
-  slug: goodhire-requestors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodhire/refs/heads/main/openapi/goodhire-openapi.yml
-- filename: goodhire-openapi.yml
+- filename: goodhire-packages-api-openapi.yml
   format: yaml
   label: GoodHire Packages API
   slug: goodhire-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodhire/refs/heads/main/openapi/goodhire-openapi.yml
-- filename: goodhire-openapi.yml
-  format: yaml
-  label: GoodHire Webhooks API
-  slug: goodhire-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodhire/refs/heads/main/openapi/goodhire-openapi.yml
-- filename: goodhire-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/goodhire/refs/heads/main/openapi/goodhire-packages-api-openapi.yml
+- filename: goodhire-partner-api-openapi.yml
   format: yaml
   label: GoodHire Partner API
   slug: goodhire-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodhire/refs/heads/main/openapi/goodhire-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/goodhire/refs/heads/main/openapi/goodhire-partner-api-openapi.yml
+- filename: goodhire-reports-api-openapi.yml
+  format: yaml
+  label: GoodHire Reports API
+  slug: goodhire-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodhire/refs/heads/main/openapi/goodhire-reports-api-openapi.yml
+- filename: goodhire-requestors-api-openapi.yml
+  format: yaml
+  label: GoodHire Requestors API
+  slug: goodhire-requestors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodhire/refs/heads/main/openapi/goodhire-requestors-api-openapi.yml
 description: ''
 domains:
 - caa: []

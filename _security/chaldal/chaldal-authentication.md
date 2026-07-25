@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: chaldal-eggtransport-openapi-original.json
-  format: json
-  label: Chaldal Egg Transport (Gogo Bangla) Delivery API
-  slug: chaldal-egg-transport-gogo-bangla-delivery-api
+- filename: chaldal-accounts-api-openapi.yml
+  format: yaml
+  label: Chaldal Accounts API
+  slug: chaldal-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/openapi/chaldal-eggtransport-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/openapi/chaldal-accounts-api-openapi.yml
+- filename: chaldal-heartbeat-api-openapi.yml
+  format: yaml
+  label: Chaldal Heartbeat API
+  slug: chaldal-heartbeat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/openapi/chaldal-heartbeat-api-openapi.yml
+- filename: chaldal-identity-api-openapi.yml
+  format: yaml
+  label: Chaldal Identity API
+  slug: chaldal-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/openapi/chaldal-identity-api-openapi.yml
+- filename: chaldal-organization-api-openapi.yml
+  format: yaml
+  label: Chaldal Organization API
+  slug: chaldal-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/openapi/chaldal-organization-api-openapi.yml
+- filename: chaldal-task-api-openapi.yml
+  format: yaml
+  label: Chaldal Task API
+  slug: chaldal-task-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/openapi/chaldal-task-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-managed-grafana-openapi-original.yaml
+- filename: amazon-managed-grafana-tags-api-openapi.yml
   format: yaml
-  label: Amazon Managed Grafana API
-  slug: amazon-managed-grafana-api
+  label: Amazon Managed Grafana Tags API
+  slug: amazon-managed-grafana-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/openapi/amazon-managed-grafana-openapi-original.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/openapi/amazon-managed-grafana-tags-api-openapi.yml
+- filename: amazon-managed-grafana-versions-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Grafana Versions API
+  slug: amazon-managed-grafana-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/openapi/amazon-managed-grafana-versions-api-openapi.yml
+- filename: amazon-managed-grafana-workspaces-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Grafana Workspaces API
+  slug: amazon-managed-grafana-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/openapi/amazon-managed-grafana-workspaces-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

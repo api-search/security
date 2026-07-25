@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: qwen-openapi.yml
+- filename: qwen-chat-api-openapi.yml
   format: yaml
-  label: DashScope (Alibaba Cloud Model Studio) API
-  slug: dashscope
+  label: Qwen Chat API
+  slug: qwen-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwen/refs/heads/main/openapi/qwen-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qwen/refs/heads/main/openapi/qwen-chat-api-openapi.yml
+- filename: qwen-embeddings-api-openapi.yml
+  format: yaml
+  label: Qwen Embeddings API
+  slug: qwen-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qwen/refs/heads/main/openapi/qwen-embeddings-api-openapi.yml
+- filename: qwen-models-api-openapi.yml
+  format: yaml
+  label: Qwen Models API
+  slug: qwen-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qwen/refs/heads/main/openapi/qwen-models-api-openapi.yml
 description: ''
 domains:
 - caa:

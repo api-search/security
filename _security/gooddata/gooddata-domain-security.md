@@ -1,47 +1,59 @@
 ---
 api_specs:
-- filename: gooddata-openapi.yml
+- filename: gooddata-dashboards-api-openapi.yml
   format: yaml
-  label: GoodData Workspaces API
-  slug: gooddata-workspaces-api
+  label: GoodData Dashboards API
+  slug: gooddata-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-openapi.yml
-- filename: gooddata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-dashboards-api-openapi.yml
+- filename: gooddata-data-sources-api-openapi.yml
   format: yaml
   label: GoodData Data Sources API
   slug: gooddata-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-openapi.yml
-- filename: gooddata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-data-sources-api-openapi.yml
+- filename: gooddata-execution-api-openapi.yml
+  format: yaml
+  label: GoodData Execution API
+  slug: gooddata-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-execution-api-openapi.yml
+- filename: gooddata-logical-data-model-api-openapi.yml
   format: yaml
   label: GoodData Logical Data Model API
   slug: gooddata-logical-data-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-openapi.yml
-- filename: gooddata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-logical-data-model-api-openapi.yml
+- filename: gooddata-metrics-api-openapi.yml
   format: yaml
   label: GoodData Metrics API
   slug: gooddata-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-openapi.yml
-- filename: gooddata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-metrics-api-openapi.yml
+- filename: gooddata-permissions-api-openapi.yml
   format: yaml
-  label: GoodData Visualizations & Dashboards API
-  slug: gooddata-visualizations-dashboards-api
+  label: GoodData Permissions API
+  slug: gooddata-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-openapi.yml
-- filename: gooddata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-permissions-api-openapi.yml
+- filename: gooddata-users-api-openapi.yml
   format: yaml
-  label: GoodData Execution / AFM API
-  slug: gooddata-execution-afm-api
+  label: GoodData Users API
+  slug: gooddata-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-openapi.yml
-- filename: gooddata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-users-api-openapi.yml
+- filename: gooddata-visualizations-api-openapi.yml
   format: yaml
-  label: GoodData Users & Permissions API
-  slug: gooddata-users-permissions-api
+  label: GoodData Visualizations API
+  slug: gooddata-visualizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-visualizations-api-openapi.yml
+- filename: gooddata-workspaces-api-openapi.yml
+  format: yaml
+  label: GoodData Workspaces API
+  slug: gooddata-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa:

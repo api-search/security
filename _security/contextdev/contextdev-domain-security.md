@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: contextdev-openapi.yml
+- filename: contextdev-brand-intelligence-api-openapi.yml
   format: yaml
-  label: Context API
-  slug: context-api
+  label: Context.dev Brand Intelligence API
+  slug: contextdev-brand-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-brand-intelligence-api-openapi.yml
+- filename: contextdev-monitors-api-openapi.yml
+  format: yaml
+  label: Context.dev Monitors API
+  slug: contextdev-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-monitors-api-openapi.yml
+- filename: contextdev-parsing-api-openapi.yml
+  format: yaml
+  label: Context.dev Parsing API
+  slug: contextdev-parsing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-parsing-api-openapi.yml
+- filename: contextdev-people-api-openapi.yml
+  format: yaml
+  label: Context.dev People API
+  slug: contextdev-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-people-api-openapi.yml
+- filename: contextdev-utility-api-openapi.yml
+  format: yaml
+  label: Context.dev Utility API
+  slug: contextdev-utility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-utility-api-openapi.yml
+- filename: contextdev-web-extraction-api-openapi.yml
+  format: yaml
+  label: Context.dev Web Extraction API
+  slug: contextdev-web-extraction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-web-extraction-api-openapi.yml
+- filename: contextdev-web-scraping-api-openapi.yml
+  format: yaml
+  label: Context.dev Web Scraping API
+  slug: contextdev-web-scraping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-web-scraping-api-openapi.yml
 description: ''
 domains:
 - caa: []

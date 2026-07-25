@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: certik-skynet-openapi.yml
+- filename: certik-security-score-api-openapi.yml
   format: yaml
-  label: CertiK Partner (Skynet) API
-  slug: certik-partner-skynet-api
+  label: CertiK Security Score API
+  slug: certik-security-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/openapi/certik-skynet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/openapi/certik-security-score-api-openapi.yml
+- filename: certik-token-scan-api-openapi.yml
+  format: yaml
+  label: CertiK Token Scan API
+  slug: certik-token-scan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/openapi/certik-token-scan-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

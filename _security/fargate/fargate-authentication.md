@@ -2,18 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi.yaml
+- filename: fargate-clusters-api-openapi.yml
   format: yaml
-  label: Amazon ECS API (Fargate)
-  slug: amazon-ecs-api-fargate
+  label: AWS Fargate Clusters API
+  slug: fargate-clusters-api
   spec_type: OpenAPI
-  url: https://api.apis.guru/v2/specs/amazonaws.com/ecs/2014-11-13/openapi.yaml
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/fargate/refs/heads/main/openapi/fargate-clusters-api-openapi.yml
+- filename: fargate-task-definitions-api-openapi.yml
   format: yaml
-  label: Amazon EKS API (Fargate)
-  slug: amazon-eks-api-fargate
+  label: AWS Fargate Task Definitions API
+  slug: fargate-task-definitions-api
   spec_type: OpenAPI
-  url: https://api.apis.guru/v2/specs/amazonaws.com/eks/2017-11-01/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/fargate/refs/heads/main/openapi/fargate-task-definitions-api-openapi.yml
+- filename: fargate-tasks-api-openapi.yml
+  format: yaml
+  label: AWS Fargate Tasks API
+  slug: fargate-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fargate/refs/heads/main/openapi/fargate-tasks-api-openapi.yml
+- filename: fargate-x-amz-target-amazonec2containerservicev20141113-createservice-api-openapi.yml
+  format: yaml
+  label: 'AWS Fargate #X Amz Target=AmazonEC2ContainerServiceV20141113.CreateService API'
+  slug: fargate-x-amz-target-amazonec2containerservicev20141113-createservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fargate/refs/heads/main/openapi/fargate-x-amz-target-amazonec2containerservicev20141113-createservice-api-openapi.yml
+- filename: fargate-x-amz-target-amazonec2containerservicev20141113-deleteservice-api-openapi.yml
+  format: yaml
+  label: 'AWS Fargate #X Amz Target=AmazonEC2ContainerServiceV20141113.DeleteService API'
+  slug: fargate-x-amz-target-amazonec2containerservicev20141113-deleteservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fargate/refs/heads/main/openapi/fargate-x-amz-target-amazonec2containerservicev20141113-deleteservice-api-openapi.yml
+- filename: fargate-x-amz-target-amazonec2containerservicev20141113-describeservices-api-openapi.yml
+  format: yaml
+  label: 'AWS Fargate #X Amz Target=AmazonEC2ContainerServiceV20141113.DescribeServices API'
+  slug: fargate-x-amz-target-amazonec2containerservicev20141113-describeservices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fargate/refs/heads/main/openapi/fargate-x-amz-target-amazonec2containerservicev20141113-describeservices-api-openapi.yml
+- filename: fargate-x-amz-target-amazonec2containerservicev20141113-listservices-api-openapi.yml
+  format: yaml
+  label: 'AWS Fargate #X Amz Target=AmazonEC2ContainerServiceV20141113.ListServices API'
+  slug: fargate-x-amz-target-amazonec2containerservicev20141113-listservices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fargate/refs/heads/main/openapi/fargate-x-amz-target-amazonec2containerservicev20141113-listservices-api-openapi.yml
+- filename: fargate-x-amz-target-amazonec2containerservicev20141113-updateservice-api-openapi.yml
+  format: yaml
+  label: 'AWS Fargate #X Amz Target=AmazonEC2ContainerServiceV20141113.UpdateService API'
+  slug: fargate-x-amz-target-amazonec2containerservicev20141113-updateservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fargate/refs/heads/main/openapi/fargate-x-amz-target-amazonec2containerservicev20141113-updateservice-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

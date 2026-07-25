@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: api
+- filename: game-of-thrones-books-api-openapi.yml
   format: yaml
-  label: An API of Ice and Fire
-  slug: an-api-of-ice-and-fire
+  label: An API of Ice and Fire books API
+  slug: game-of-thrones-books-api
   spec_type: OpenAPI
-  url: https://www.anapioficeandfire.com/api
+  url: https://raw.githubusercontent.com/api-evangelist/game-of-thrones/refs/heads/main/openapi/game-of-thrones-books-api-openapi.yml
+- filename: game-of-thrones-characters-api-openapi.yml
+  format: yaml
+  label: An API of Ice and Fire characters API
+  slug: game-of-thrones-characters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/game-of-thrones/refs/heads/main/openapi/game-of-thrones-characters-api-openapi.yml
+- filename: game-of-thrones-houses-api-openapi.yml
+  format: yaml
+  label: An API of Ice and Fire houses API
+  slug: game-of-thrones-houses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/game-of-thrones/refs/heads/main/openapi/game-of-thrones-houses-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: kairos-ar-openapi.yml
+- filename: kairos-ar-emotion-analysis-api-openapi.yml
   format: yaml
-  label: Kairos Face Recognition & Emotion Analysis API
-  slug: kairos-face-recognition-emotion-analysis-api
+  label: Kairos AR Emotion Analysis API
+  slug: kairos-ar-emotion-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/openapi/kairos-ar-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/openapi/kairos-ar-emotion-analysis-api-openapi.yml
+- filename: kairos-ar-face-recognition-api-openapi.yml
+  format: yaml
+  label: Kairos AR Face Recognition API
+  slug: kairos-ar-face-recognition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/openapi/kairos-ar-face-recognition-api-openapi.yml
+- filename: kairos-ar-galleries-api-openapi.yml
+  format: yaml
+  label: Kairos AR Galleries API
+  slug: kairos-ar-galleries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/openapi/kairos-ar-galleries-api-openapi.yml
 description: ''
 domains:
 - caa: []

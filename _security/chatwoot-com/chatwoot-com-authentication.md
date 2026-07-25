@@ -2,108 +2,108 @@
 api_key_in:
 - header
 api_specs:
-- filename: chatwoot-com-openapi.yml
+- filename: chatwoot-com-agents-api-openapi.yml
   format: yaml
-  label: Chatwoot Application Agents API
-  slug: chatwoot-application-agents-api
+  label: Chatwoot Agents API
+  slug: chatwoot-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-openapi.yml
-- filename: chatwoot-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-agents-api-openapi.yml
+- filename: chatwoot-com-automation-rules-api-openapi.yml
   format: yaml
-  label: Chatwoot Application Teams API
-  slug: chatwoot-application-teams-api
+  label: Chatwoot Automation Rules API
+  slug: chatwoot-com-automation-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-openapi.yml
-- filename: chatwoot-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-automation-rules-api-openapi.yml
+- filename: chatwoot-com-canned-responses-api-openapi.yml
   format: yaml
-  label: Chatwoot Application Inboxes API
-  slug: chatwoot-application-inboxes-api
+  label: Chatwoot Canned Responses API
+  slug: chatwoot-com-canned-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-openapi.yml
-- filename: chatwoot-com-openapi.yml
-  format: yaml
-  label: Chatwoot Application Contacts API
-  slug: chatwoot-application-contacts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-openapi.yml
-- filename: chatwoot-com-openapi.yml
-  format: yaml
-  label: Chatwoot Application Conversations API
-  slug: chatwoot-application-conversations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-openapi.yml
-- filename: chatwoot-com-openapi.yml
-  format: yaml
-  label: Chatwoot Application Messages API
-  slug: chatwoot-application-messages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-openapi.yml
-- filename: chatwoot-com-openapi.yml
-  format: yaml
-  label: Chatwoot Application Labels API
-  slug: chatwoot-application-labels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-openapi.yml
-- filename: chatwoot-com-openapi.yml
-  format: yaml
-  label: Chatwoot Application Custom Attributes API
-  slug: chatwoot-application-custom-attributes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-openapi.yml
-- filename: chatwoot-com-openapi.yml
-  format: yaml
-  label: Chatwoot Application Canned Responses API
-  slug: chatwoot-application-canned-responses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-openapi.yml
-- filename: chatwoot-com-openapi.yml
-  format: yaml
-  label: Chatwoot Application Automation Rules API
-  slug: chatwoot-application-automation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-openapi.yml
-- filename: chatwoot-com-openapi.yml
-  format: yaml
-  label: Chatwoot Application Reports API
-  slug: chatwoot-application-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-openapi.yml
-- filename: chatwoot-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-canned-responses-api-openapi.yml
+- filename: chatwoot-com-client-contacts-api-openapi.yml
   format: yaml
   label: Chatwoot Client Contacts API
-  slug: chatwoot-client-contacts-api
+  slug: chatwoot-com-client-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-openapi.yml
-- filename: chatwoot-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-client-contacts-api-openapi.yml
+- filename: chatwoot-com-client-conversations-api-openapi.yml
   format: yaml
   label: Chatwoot Client Conversations API
-  slug: chatwoot-client-conversations-api
+  slug: chatwoot-com-client-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-openapi.yml
-- filename: chatwoot-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-client-conversations-api-openapi.yml
+- filename: chatwoot-com-client-messages-api-openapi.yml
   format: yaml
   label: Chatwoot Client Messages API
-  slug: chatwoot-client-messages-api
+  slug: chatwoot-com-client-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-openapi.yml
-- filename: chatwoot-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-client-messages-api-openapi.yml
+- filename: chatwoot-com-contacts-api-openapi.yml
   format: yaml
-  label: Chatwoot Platform Users API
-  slug: chatwoot-platform-users-api
+  label: Chatwoot Contacts API
+  slug: chatwoot-com-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-openapi.yml
-- filename: chatwoot-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-contacts-api-openapi.yml
+- filename: chatwoot-com-conversations-api-openapi.yml
+  format: yaml
+  label: Chatwoot Conversations API
+  slug: chatwoot-com-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-conversations-api-openapi.yml
+- filename: chatwoot-com-custom-attributes-api-openapi.yml
+  format: yaml
+  label: Chatwoot Custom Attributes API
+  slug: chatwoot-com-custom-attributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-custom-attributes-api-openapi.yml
+- filename: chatwoot-com-inboxes-api-openapi.yml
+  format: yaml
+  label: Chatwoot Inboxes API
+  slug: chatwoot-com-inboxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-inboxes-api-openapi.yml
+- filename: chatwoot-com-labels-api-openapi.yml
+  format: yaml
+  label: Chatwoot Labels API
+  slug: chatwoot-com-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-labels-api-openapi.yml
+- filename: chatwoot-com-messages-api-openapi.yml
+  format: yaml
+  label: Chatwoot Messages API
+  slug: chatwoot-com-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-messages-api-openapi.yml
+- filename: chatwoot-com-platform-accounts-api-openapi.yml
   format: yaml
   label: Chatwoot Platform Accounts API
-  slug: chatwoot-platform-accounts-api
+  slug: chatwoot-com-platform-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-openapi.yml
-- filename: chatwoot-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-platform-accounts-api-openapi.yml
+- filename: chatwoot-com-platform-agent-bots-api-openapi.yml
   format: yaml
   label: Chatwoot Platform Agent Bots API
-  slug: chatwoot-platform-agent-bots-api
+  slug: chatwoot-com-platform-agent-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-platform-agent-bots-api-openapi.yml
+- filename: chatwoot-com-platform-users-api-openapi.yml
+  format: yaml
+  label: Chatwoot Platform Users API
+  slug: chatwoot-com-platform-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-platform-users-api-openapi.yml
+- filename: chatwoot-com-reports-api-openapi.yml
+  format: yaml
+  label: Chatwoot Reports API
+  slug: chatwoot-com-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-reports-api-openapi.yml
+- filename: chatwoot-com-teams-api-openapi.yml
+  format: yaml
+  label: Chatwoot Teams API
+  slug: chatwoot-com-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot-com/refs/heads/main/openapi/chatwoot-com-teams-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: amazon-shield-openapi.yml
+- filename: amazon-shield-amazon-shield-rest-api-api-openapi.yml
   format: yaml
-  label: AWS Shield API
-  slug: aws-shield-api
+  label: Amazon Shield Amazon Shield REST API API
+  slug: amazon-shield-amazon-shield-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/openapi/amazon-shield-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/openapi/amazon-shield-amazon-shield-rest-api-api-openapi.yml
+- filename: amazon-shield-createprotectiongroup-api-openapi.yml
+  format: yaml
+  label: 'Amazon Shield #CreateProtectionGroup API'
+  slug: amazon-shield-createprotectiongroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/openapi/amazon-shield-createprotectiongroup-api-openapi.yml
+- filename: amazon-shield-createsubscription-api-openapi.yml
+  format: yaml
+  label: 'Amazon Shield #CreateSubscription API'
+  slug: amazon-shield-createsubscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/openapi/amazon-shield-createsubscription-api-openapi.yml
+- filename: amazon-shield-describeattack-api-openapi.yml
+  format: yaml
+  label: 'Amazon Shield #DescribeAttack API'
+  slug: amazon-shield-describeattack-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/openapi/amazon-shield-describeattack-api-openapi.yml
+- filename: amazon-shield-describeprotection-api-openapi.yml
+  format: yaml
+  label: 'Amazon Shield #DescribeProtection API'
+  slug: amazon-shield-describeprotection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/openapi/amazon-shield-describeprotection-api-openapi.yml
+- filename: amazon-shield-describesubscription-api-openapi.yml
+  format: yaml
+  label: 'Amazon Shield #DescribeSubscription API'
+  slug: amazon-shield-describesubscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/openapi/amazon-shield-describesubscription-api-openapi.yml
+- filename: amazon-shield-listprotections-api-openapi.yml
+  format: yaml
+  label: 'Amazon Shield #ListProtections API'
+  slug: amazon-shield-listprotections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/openapi/amazon-shield-listprotections-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

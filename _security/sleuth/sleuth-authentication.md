@@ -2,24 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: sleuth-openapi.yml
+- filename: sleuth-deployments-api-openapi.yml
   format: yaml
-  label: Sleuth Deployments Registration API
-  slug: deployments-registration
+  label: Sleuth Deployments API
+  slug: sleuth-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleuth/refs/heads/main/openapi/sleuth-openapi.yml
-- filename: sleuth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sleuth/refs/heads/main/openapi/sleuth-deployments-api-openapi.yml
+- filename: sleuth-impact-api-openapi.yml
   format: yaml
-  label: Sleuth Manual Change API
-  slug: manual-change-registration
+  label: Sleuth Impact API
+  slug: sleuth-impact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleuth/refs/heads/main/openapi/sleuth-openapi.yml
-- filename: sleuth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sleuth/refs/heads/main/openapi/sleuth-impact-api-openapi.yml
+- filename: sleuth-manual-changes-api-openapi.yml
   format: yaml
-  label: Sleuth Metric and Incident Impact API
-  slug: metric-impact
+  label: Sleuth Manual Changes API
+  slug: sleuth-manual-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleuth/refs/heads/main/openapi/sleuth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sleuth/refs/heads/main/openapi/sleuth-manual-changes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

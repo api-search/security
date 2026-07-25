@@ -1,5 +1,24 @@
 ---
 api_key_in: []
+api_specs:
+- filename: cortex-app-catalog-api-openapi.yml
+  format: yaml
+  label: Cortex Catalog API
+  slug: cortex-app-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cortex-app/refs/heads/main/openapi/cortex-app-catalog-api-openapi.yml
+- filename: cortex-app-initiatives-api-openapi.yml
+  format: yaml
+  label: Cortex Initiatives API
+  slug: cortex-app-initiatives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cortex-app/refs/heads/main/openapi/cortex-app-initiatives-api-openapi.yml
+- filename: cortex-app-scorecards-api-openapi.yml
+  format: yaml
+  label: Cortex Scorecards API
+  slug: cortex-app-scorecards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cortex-app/refs/heads/main/openapi/cortex-app-scorecards-api-openapi.yml
 auth_types:
 - http
 description: ''

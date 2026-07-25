@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: the-hog-openapi.json
-  format: json
-  label: The Hog API
-  slug: the-hog-api
+- filename: the-hog-company-search-api-openapi.yml
+  format: yaml
+  label: The Hog Company Search API
+  slug: the-hog-company-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-company-search-api-openapi.yml
+- filename: the-hog-deep-research-api-openapi.yml
+  format: yaml
+  label: The Hog Deep Research API
+  slug: the-hog-deep-research-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-deep-research-api-openapi.yml
+- filename: the-hog-enrichments-api-openapi.yml
+  format: yaml
+  label: The Hog Enrichments API
+  slug: the-hog-enrichments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-enrichments-api-openapi.yml
+- filename: the-hog-monitors-api-openapi.yml
+  format: yaml
+  label: The Hog Monitors API
+  slug: the-hog-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-monitors-api-openapi.yml
+- filename: the-hog-operations-api-openapi.yml
+  format: yaml
+  label: The Hog Operations API
+  slug: the-hog-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-operations-api-openapi.yml
+- filename: the-hog-people-search-api-openapi.yml
+  format: yaml
+  label: The Hog People Search API
+  slug: the-hog-people-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-people-search-api-openapi.yml
+- filename: the-hog-scrapers-api-openapi.yml
+  format: yaml
+  label: The Hog Scrapers API
+  slug: the-hog-scrapers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-scrapers-api-openapi.yml
+- filename: the-hog-search-api-openapi.yml
+  format: yaml
+  label: The Hog Search API
+  slug: the-hog-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,30 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: bny-asset-servicing-api-openapi.yml
+- filename: bny-bank-of-new-york-mellon-asset-servicing-api-openapi.yml
   format: yaml
-  label: BNY Asset Servicing API
-  slug: asset-servicing-api
+  label: BNY (Bank of New York Mellon) Asset Servicing API
+  slug: bny-bank-of-new-york-mellon-asset-servicing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bny-bank-of-new-york-mellon/refs/heads/main/openapi/bny-asset-servicing-api-openapi.yml
-- filename: bny-treasury-services-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bny-bank-of-new-york-mellon/refs/heads/main/openapi/bny-bank-of-new-york-mellon-asset-servicing-api-openapi.yml
+- filename: bny-bank-of-new-york-mellon-markets-api-openapi.yml
   format: yaml
-  label: BNY Treasury Services API
-  slug: treasury-services-api
+  label: BNY (Bank of New York Mellon) Markets API
+  slug: bny-bank-of-new-york-mellon-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bny-bank-of-new-york-mellon/refs/heads/main/openapi/bny-treasury-services-api-openapi.yml
-- filename: bny-pershing-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bny-bank-of-new-york-mellon/refs/heads/main/openapi/bny-bank-of-new-york-mellon-markets-api-openapi.yml
+- filename: bny-bank-of-new-york-mellon-pershing-api-openapi.yml
   format: yaml
-  label: BNY Pershing API
-  slug: pershing-api
+  label: BNY (Bank of New York Mellon) Pershing API
+  slug: bny-bank-of-new-york-mellon-pershing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bny-bank-of-new-york-mellon/refs/heads/main/openapi/bny-pershing-api-openapi.yml
-- filename: bny-markets-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bny-bank-of-new-york-mellon/refs/heads/main/openapi/bny-bank-of-new-york-mellon-pershing-api-openapi.yml
+- filename: bny-bank-of-new-york-mellon-treasury-services-api-openapi.yml
   format: yaml
-  label: BNY Markets API
-  slug: markets-api
+  label: BNY (Bank of New York Mellon) Treasury Services API
+  slug: bny-bank-of-new-york-mellon-treasury-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bny-bank-of-new-york-mellon/refs/heads/main/openapi/bny-markets-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bny-bank-of-new-york-mellon/refs/heads/main/openapi/bny-bank-of-new-york-mellon-treasury-services-api-openapi.yml
 auth_types:
 - http
 description: ''

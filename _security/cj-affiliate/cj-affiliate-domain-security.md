@@ -6,30 +6,30 @@ api_specs:
   slug: cj-affiliate-commission-detail-api
   spec_type: Postman
   url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/collections/cj-affiliate.postman_collection.json
-- filename: cj-affiliate-openapi.yml
+- filename: cj-affiliate-advertiser-lookup-api-openapi.yml
   format: yaml
-  label: CJ Link Search API
-  slug: cj-affiliate-link-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/openapi/cj-affiliate-openapi.yml
-- filename: cj-affiliate-openapi.yml
-  format: yaml
-  label: CJ Advertiser Lookup API
+  label: CJ Affiliate Advertiser Lookup API
   slug: cj-affiliate-advertiser-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/openapi/cj-affiliate-openapi.yml
-- filename: cj-affiliate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/openapi/cj-affiliate-advertiser-lookup-api-openapi.yml
+- filename: cj-affiliate-link-search-api-openapi.yml
   format: yaml
-  label: CJ Publisher Lookup API
-  slug: cj-affiliate-publisher-lookup-api
+  label: CJ Affiliate Link Search API
+  slug: cj-affiliate-link-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/openapi/cj-affiliate-openapi.yml
-- filename: cj-affiliate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/openapi/cj-affiliate-link-search-api-openapi.yml
+- filename: cj-affiliate-product-search-legacy-api-openapi.yml
   format: yaml
-  label: CJ Product Search (Legacy) API
+  label: CJ Affiliate Product Search (Legacy) API
   slug: cj-affiliate-product-search-legacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/openapi/cj-affiliate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/openapi/cj-affiliate-product-search-legacy-api-openapi.yml
+- filename: cj-affiliate-publisher-lookup-api-openapi.yml
+  format: yaml
+  label: CJ Affiliate Publisher Lookup API
+  slug: cj-affiliate-publisher-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/openapi/cj-affiliate-publisher-lookup-api-openapi.yml
 description: ''
 domains:
 - caa:

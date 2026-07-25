@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yml
+- filename: payflex-authentication-api-openapi.yml
   format: yaml
-  label: Payflex Merchant API
-  slug: payflex-merchant-api
+  label: Payflex Authentication API
+  slug: payflex-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/openapi/payflex-authentication-api-openapi.yml
+- filename: payflex-configuration-api-openapi.yml
+  format: yaml
+  label: Payflex Configuration API
+  slug: payflex-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/openapi/payflex-configuration-api-openapi.yml
+- filename: payflex-orders-api-openapi.yml
+  format: yaml
+  label: Payflex Orders API
+  slug: payflex-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/openapi/payflex-orders-api-openapi.yml
+- filename: payflex-refunds-api-openapi.yml
+  format: yaml
+  label: Payflex Refunds API
+  slug: payflex-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/openapi/payflex-refunds-api-openapi.yml
 auth_types:
 - http
 description: ''

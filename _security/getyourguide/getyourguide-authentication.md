@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: getyourguide-partner-openapi.yml
+- filename: getyourguide-bookings-api-openapi.yml
   format: yaml
-  label: GetYourGuide Partner API
-  slug: getyourguide-partner-api
+  label: GetYourGuide Bookings API
+  slug: getyourguide-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/openapi/getyourguide-partner-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/openapi/getyourguide-bookings-api-openapi.yml
+- filename: getyourguide-carts-api-openapi.yml
+  format: yaml
+  label: GetYourGuide Carts API
+  slug: getyourguide-carts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/openapi/getyourguide-carts-api-openapi.yml
+- filename: getyourguide-categories-api-openapi.yml
+  format: yaml
+  label: GetYourGuide Categories API
+  slug: getyourguide-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/openapi/getyourguide-categories-api-openapi.yml
+- filename: getyourguide-configuration-api-openapi.yml
+  format: yaml
+  label: GetYourGuide Configuration API
+  slug: getyourguide-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/openapi/getyourguide-configuration-api-openapi.yml
+- filename: getyourguide-options-api-openapi.yml
+  format: yaml
+  label: GetYourGuide Options API
+  slug: getyourguide-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/openapi/getyourguide-options-api-openapi.yml
+- filename: getyourguide-reviews-api-openapi.yml
+  format: yaml
+  label: GetYourGuide Reviews API
+  slug: getyourguide-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/openapi/getyourguide-reviews-api-openapi.yml
+- filename: getyourguide-suppliers-api-openapi.yml
+  format: yaml
+  label: GetYourGuide Suppliers API
+  slug: getyourguide-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/openapi/getyourguide-suppliers-api-openapi.yml
+- filename: getyourguide-tours-api-openapi.yml
+  format: yaml
+  label: GetYourGuide Tours API
+  slug: getyourguide-tours-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/openapi/getyourguide-tours-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

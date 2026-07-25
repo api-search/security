@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: envato-openapi.yml
+- filename: envato-author-api-openapi.yml
   format: yaml
-  label: Envato Market API
-  slug: market
+  label: Envato Author API
+  slug: envato-author-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/openapi/envato-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/openapi/envato-author-api-openapi.yml
+- filename: envato-catalog-api-openapi.yml
+  format: yaml
+  label: Envato Catalog API
+  slug: envato-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/openapi/envato-catalog-api-openapi.yml
+- filename: envato-downloads-api-openapi.yml
+  format: yaml
+  label: Envato Downloads API
+  slug: envato-downloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/openapi/envato-downloads-api-openapi.yml
+- filename: envato-items-api-openapi.yml
+  format: yaml
+  label: Envato Items API
+  slug: envato-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/openapi/envato-items-api-openapi.yml
+- filename: envato-search-api-openapi.yml
+  format: yaml
+  label: Envato Search API
+  slug: envato-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/openapi/envato-search-api-openapi.yml
+- filename: envato-user-api-openapi.yml
+  format: yaml
+  label: Envato User API
+  slug: envato-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/openapi/envato-user-api-openapi.yml
 auth_types:
 - http
 - oauth2

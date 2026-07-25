@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: localytics-campaigns-audiences-openapi.yml
+- filename: localytics-audiences-api-openapi.yml
   format: yaml
-  label: Localytics Campaigns And Audience API
-  slug: localytics-campaigns-and-audience-api
+  label: Localytics Audiences API
+  slug: localytics-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/openapi/localytics-campaigns-audiences-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/openapi/localytics-audiences-api-openapi.yml
+- filename: localytics-campaigns-api-openapi.yml
+  format: yaml
+  label: Localytics Campaigns API
+  slug: localytics-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/openapi/localytics-campaigns-api-openapi.yml
+- filename: localytics-push-campaigns-api-openapi.yml
+  format: yaml
+  label: Localytics Push Campaigns API
+  slug: localytics-push-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/openapi/localytics-push-campaigns-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: rest
+- filename: google-slides-pages-api-openapi.yml
   format: yaml
-  label: Google Slides API
-  slug: google-slides-api
+  label: Google Slides Pages API
+  slug: google-slides-pages-api
   spec_type: OpenAPI
-  url: https://slides.googleapis.com/$discovery/rest?version=v1
+  url: https://raw.githubusercontent.com/api-evangelist/google-slides/refs/heads/main/openapi/google-slides-pages-api-openapi.yml
+- filename: google-slides-presentations-api-openapi.yml
+  format: yaml
+  label: Google Slides Presentations API
+  slug: google-slides-presentations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-slides/refs/heads/main/openapi/google-slides-presentations-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

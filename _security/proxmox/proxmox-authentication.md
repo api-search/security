@@ -3,12 +3,30 @@ api_key_in:
 - cookie
 - header
 api_specs:
-- filename: proxmox-openapi.yml
+- filename: proxmox-access-api-openapi.yml
   format: yaml
-  label: Proxmox VE API
-  slug: ve-api
+  label: Proxmox VE Access API
+  slug: proxmox-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/proxmox/refs/heads/main/openapi/proxmox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/proxmox/refs/heads/main/openapi/proxmox-access-api-openapi.yml
+- filename: proxmox-cluster-api-openapi.yml
+  format: yaml
+  label: Proxmox VE Cluster API
+  slug: proxmox-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/proxmox/refs/heads/main/openapi/proxmox-cluster-api-openapi.yml
+- filename: proxmox-containers-api-openapi.yml
+  format: yaml
+  label: Proxmox VE Containers API
+  slug: proxmox-containers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/proxmox/refs/heads/main/openapi/proxmox-containers-api-openapi.yml
+- filename: proxmox-nodes-api-openapi.yml
+  format: yaml
+  label: Proxmox VE Nodes API
+  slug: proxmox-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/proxmox/refs/heads/main/openapi/proxmox-nodes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,53 +1,59 @@
 ---
 api_specs:
-- filename: 3plcentral-openapi.yml
+- filename: 3plcentral-authentication-api-openapi.yml
   format: yaml
-  label: 3PL Warehouse Manager Orders API
-  slug: 3plcentral-orders-api
+  label: 3PL Warehouse Manager Authentication API
+  slug: 3plcentral-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3plcentral/refs/heads/main/openapi/3plcentral-openapi.yml
-- filename: 3plcentral-openapi.yml
-  format: yaml
-  label: 3PL Warehouse Manager Items API
-  slug: 3plcentral-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3plcentral/refs/heads/main/openapi/3plcentral-openapi.yml
-- filename: 3plcentral-openapi.yml
-  format: yaml
-  label: 3PL Warehouse Manager Inventory API
-  slug: 3plcentral-inventory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3plcentral/refs/heads/main/openapi/3plcentral-openapi.yml
-- filename: 3plcentral-openapi.yml
-  format: yaml
-  label: 3PL Warehouse Manager Stock Summaries API
-  slug: 3plcentral-stock-summaries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3plcentral/refs/heads/main/openapi/3plcentral-openapi.yml
-- filename: 3plcentral-openapi.yml
-  format: yaml
-  label: 3PL Warehouse Manager Receivers (ASN) API
-  slug: 3plcentral-receivers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3plcentral/refs/heads/main/openapi/3plcentral-openapi.yml
-- filename: 3plcentral-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/3plcentral/refs/heads/main/openapi/3plcentral-authentication-api-openapi.yml
+- filename: 3plcentral-customers-api-openapi.yml
   format: yaml
   label: 3PL Warehouse Manager Customers API
   slug: 3plcentral-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3plcentral/refs/heads/main/openapi/3plcentral-openapi.yml
-- filename: 3plcentral-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/3plcentral/refs/heads/main/openapi/3plcentral-customers-api-openapi.yml
+- filename: 3plcentral-inventory-api-openapi.yml
   format: yaml
-  label: 3PL Warehouse Manager Warehouses API
-  slug: 3plcentral-warehouses-api
+  label: 3PL Warehouse Manager Inventory API
+  slug: 3plcentral-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3plcentral/refs/heads/main/openapi/3plcentral-openapi.yml
-- filename: 3plcentral-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/3plcentral/refs/heads/main/openapi/3plcentral-inventory-api-openapi.yml
+- filename: 3plcentral-items-api-openapi.yml
+  format: yaml
+  label: 3PL Warehouse Manager Items API
+  slug: 3plcentral-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/3plcentral/refs/heads/main/openapi/3plcentral-items-api-openapi.yml
+- filename: 3plcentral-orders-api-openapi.yml
+  format: yaml
+  label: 3PL Warehouse Manager Orders API
+  slug: 3plcentral-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/3plcentral/refs/heads/main/openapi/3plcentral-orders-api-openapi.yml
+- filename: 3plcentral-packages-api-openapi.yml
   format: yaml
   label: 3PL Warehouse Manager Packages API
   slug: 3plcentral-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3plcentral/refs/heads/main/openapi/3plcentral-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/3plcentral/refs/heads/main/openapi/3plcentral-packages-api-openapi.yml
+- filename: 3plcentral-receivers-api-openapi.yml
+  format: yaml
+  label: 3PL Warehouse Manager Receivers API
+  slug: 3plcentral-receivers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/3plcentral/refs/heads/main/openapi/3plcentral-receivers-api-openapi.yml
+- filename: 3plcentral-stock-summaries-api-openapi.yml
+  format: yaml
+  label: 3PL Warehouse Manager Stock Summaries API
+  slug: 3plcentral-stock-summaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/3plcentral/refs/heads/main/openapi/3plcentral-stock-summaries-api-openapi.yml
+- filename: 3plcentral-warehouses-api-openapi.yml
+  format: yaml
+  label: 3PL Warehouse Manager Warehouses API
+  slug: 3plcentral-warehouses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/3plcentral/refs/heads/main/openapi/3plcentral-warehouses-api-openapi.yml
 certifications:
 - SOC 2
 - GDPR

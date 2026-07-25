@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: assemblyai-openapi-original.yml
+- filename: assemblyai-lemur-api-openapi.yml
   format: yaml
-  label: AssemblyAI API
-  slug: assemblyai-api
+  label: AssemblyAI LeMUR API
+  slug: assemblyai-lemur-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assemblyai/refs/heads/main/openapi/assemblyai-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/assemblyai/refs/heads/main/openapi/assemblyai-lemur-api-openapi.yml
+- filename: assemblyai-streaming-api-openapi.yml
+  format: yaml
+  label: AssemblyAI Streaming API
+  slug: assemblyai-streaming-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/assemblyai/refs/heads/main/openapi/assemblyai-streaming-api-openapi.yml
+- filename: assemblyai-transcript-api-openapi.yml
+  format: yaml
+  label: AssemblyAI Transcript API
+  slug: assemblyai-transcript-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/assemblyai/refs/heads/main/openapi/assemblyai-transcript-api-openapi.yml
 certifications:
 - SOC 2
 - PCI DSS

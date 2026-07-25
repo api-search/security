@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: backblaze-b2-native-api.yaml
+- filename: backblaze-application-keys-api-openapi.yml
   format: yaml
-  label: Backblaze B2 Cloud Storage API
-  slug: backblaze-b2-cloud-storage-api
+  label: Backblaze Application Keys API
+  slug: backblaze-application-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/openapi/backblaze-b2-native-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/openapi/backblaze-application-keys-api-openapi.yml
+- filename: backblaze-authorization-api-openapi.yml
+  format: yaml
+  label: Backblaze Authorization API
+  slug: backblaze-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/openapi/backblaze-authorization-api-openapi.yml
+- filename: backblaze-buckets-api-openapi.yml
+  format: yaml
+  label: Backblaze Buckets API
+  slug: backblaze-buckets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/openapi/backblaze-buckets-api-openapi.yml
+- filename: backblaze-files-api-openapi.yml
+  format: yaml
+  label: Backblaze Files API
+  slug: backblaze-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/openapi/backblaze-files-api-openapi.yml
+- filename: backblaze-large-files-api-openapi.yml
+  format: yaml
+  label: Backblaze Large Files API
+  slug: backblaze-large-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/openapi/backblaze-large-files-api-openapi.yml
+- filename: backblaze-notifications-api-openapi.yml
+  format: yaml
+  label: Backblaze Notifications API
+  slug: backblaze-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/openapi/backblaze-notifications-api-openapi.yml
 auth_types:
 - http
 description: ''

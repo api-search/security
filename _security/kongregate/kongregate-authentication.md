@@ -3,12 +3,84 @@ api_key_in:
 - query
 - body
 api_specs:
-- filename: kongregate-server-api-openapi-original.json
-  format: json
-  label: Kongregate Server-Side API
-  slug: kongregate-server-side-api
+- filename: kongregate-authenticate-json-api-openapi.yml
+  format: yaml
+  label: Kongregate Authenticate.json API
+  slug: kongregate-authenticate-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-server-api-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-authenticate-json-api-openapi.yml
+- filename: kongregate-characters-json-api-openapi.yml
+  format: yaml
+  label: Kongregate Characters.json API
+  slug: kongregate-characters-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-characters-json-api-openapi.yml
+- filename: kongregate-guilds-api-openapi.yml
+  format: yaml
+  label: Kongregate Guilds API
+  slug: kongregate-guilds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-guilds-api-openapi.yml
+- filename: kongregate-guilds-json-api-openapi.yml
+  format: yaml
+  label: Kongregate Guilds.json API
+  slug: kongregate-guilds-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-guilds-json-api-openapi.yml
+- filename: kongregate-high-scores-api-openapi.yml
+  format: yaml
+  label: Kongregate High Scores API
+  slug: kongregate-high-scores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-high-scores-api-openapi.yml
+- filename: kongregate-items-json-api-openapi.yml
+  format: yaml
+  label: Kongregate Items.json API
+  slug: kongregate-items-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-items-json-api-openapi.yml
+- filename: kongregate-kongpanions-api-openapi.yml
+  format: yaml
+  label: Kongregate Kongpanions API
+  slug: kongregate-kongpanions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-kongpanions-api-openapi.yml
+- filename: kongregate-kongpanions-json-api-openapi.yml
+  format: yaml
+  label: Kongregate Kongpanions.json API
+  slug: kongregate-kongpanions-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-kongpanions-json-api-openapi.yml
+- filename: kongregate-shared-links-api-openapi.yml
+  format: yaml
+  label: Kongregate Shared Links API
+  slug: kongregate-shared-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-shared-links-api-openapi.yml
+- filename: kongregate-submit-statistics-json-api-openapi.yml
+  format: yaml
+  label: Kongregate Submit Statistics.json API
+  slug: kongregate-submit-statistics-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-submit-statistics-json-api-openapi.yml
+- filename: kongregate-use-item-json-api-openapi.yml
+  format: yaml
+  label: Kongregate Use Item.json API
+  slug: kongregate-use-item-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-use-item-json-api-openapi.yml
+- filename: kongregate-user-info-json-api-openapi.yml
+  format: yaml
+  label: Kongregate User Info.json API
+  slug: kongregate-user-info-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-user-info-json-api-openapi.yml
+- filename: kongregate-user-items-json-api-openapi.yml
+  format: yaml
+  label: Kongregate User Items.json API
+  slug: kongregate-user-items-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-user-items-json-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

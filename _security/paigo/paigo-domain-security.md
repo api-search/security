@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: public_api.html
+- filename: paigo-customers-api-openapi.yml
   format: yaml
-  label: Paigo API
-  slug: paigo-api
+  label: Paigo Customers API
+  slug: paigo-customers-api
   spec_type: OpenAPI
-  url: https://paigo-public-information.s3.us-east-2.amazonaws.com/public_api.html
+  url: https://raw.githubusercontent.com/api-evangelist/paigo/refs/heads/main/openapi/paigo-customers-api-openapi.yml
+- filename: paigo-dimensions-api-openapi.yml
+  format: yaml
+  label: Paigo Dimensions API
+  slug: paigo-dimensions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paigo/refs/heads/main/openapi/paigo-dimensions-api-openapi.yml
+- filename: paigo-invoices-api-openapi.yml
+  format: yaml
+  label: Paigo Invoices API
+  slug: paigo-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paigo/refs/heads/main/openapi/paigo-invoices-api-openapi.yml
+- filename: paigo-measurements-api-openapi.yml
+  format: yaml
+  label: Paigo Measurements API
+  slug: paigo-measurements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paigo/refs/heads/main/openapi/paigo-measurements-api-openapi.yml
+- filename: paigo-offerings-api-openapi.yml
+  format: yaml
+  label: Paigo Offerings API
+  slug: paigo-offerings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paigo/refs/heads/main/openapi/paigo-offerings-api-openapi.yml
+- filename: paigo-settings-api-openapi.yml
+  format: yaml
+  label: Paigo Settings API
+  slug: paigo-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paigo/refs/heads/main/openapi/paigo-settings-api-openapi.yml
+- filename: paigo-usage-api-openapi.yml
+  format: yaml
+  label: Paigo Usage API
+  slug: paigo-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paigo/refs/heads/main/openapi/paigo-usage-api-openapi.yml
+- filename: paigo-webhooks-api-openapi.yml
+  format: yaml
+  label: Paigo Webhooks API
+  slug: paigo-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paigo/refs/heads/main/openapi/paigo-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

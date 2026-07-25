@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: intel-trust-authority-api-openapi.yml
+- filename: intel-attestation-api-openapi.yml
   format: yaml
-  label: Intel Trust Authority API
-  slug: trust-authority-api
+  label: intel Attestation API
+  slug: intel-attestation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/openapi/intel-trust-authority-api-openapi.yml
-- filename: intel-oneapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/openapi/intel-attestation-api-openapi.yml
+- filename: intel-policies-api-openapi.yml
   format: yaml
-  label: Intel oneAPI
-  slug: oneapi
+  label: intel Policies API
+  slug: intel-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/openapi/intel-oneapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/openapi/intel-policies-api-openapi.yml
+- filename: intel-tokens-api-openapi.yml
+  format: yaml
+  label: intel Tokens API
+  slug: intel-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/openapi/intel-tokens-api-openapi.yml
+- filename: intel-tools-api-openapi.yml
+  format: yaml
+  label: intel Tools API
+  slug: intel-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/openapi/intel-tools-api-openapi.yml
 description: ''
 domains:
 - caa: []

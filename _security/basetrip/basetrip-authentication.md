@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: basetrip-api-openapi.yml
+- filename: basetrip-cities-api-openapi.yml
   format: yaml
-  label: Basetrip API
-  slug: basetrip-api
+  label: Basetrip Cities API
+  slug: basetrip-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-cities-api-openapi.yml
+- filename: basetrip-cost-api-openapi.yml
+  format: yaml
+  label: Basetrip Cost API
+  slug: basetrip-cost-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-cost-api-openapi.yml
+- filename: basetrip-countries-api-openapi.yml
+  format: yaml
+  label: Basetrip Countries API
+  slug: basetrip-countries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-countries-api-openapi.yml
+- filename: basetrip-health-api-openapi.yml
+  format: yaml
+  label: Basetrip Health API
+  slug: basetrip-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-health-api-openapi.yml
+- filename: basetrip-phrases-api-openapi.yml
+  format: yaml
+  label: Basetrip Phrases API
+  slug: basetrip-phrases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-phrases-api-openapi.yml
+- filename: basetrip-safety-api-openapi.yml
+  format: yaml
+  label: Basetrip Safety API
+  slug: basetrip-safety-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-safety-api-openapi.yml
+- filename: basetrip-visa-api-openapi.yml
+  format: yaml
+  label: Basetrip Visa API
+  slug: basetrip-visa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-visa-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

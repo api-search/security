@@ -1,83 +1,83 @@
 ---
 api_specs:
-- filename: dapr-state-management-openapi.yml
-  format: yaml
-  label: Dapr State Management API
-  slug: state-management
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-state-management-openapi.yml
-- filename: dapr-pubsub-openapi.yml
-  format: yaml
-  label: Dapr Pub/Sub API
-  slug: pubsub
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-pubsub-openapi.yml
-- filename: dapr-service-invocation-openapi.yml
-  format: yaml
-  label: Dapr Service Invocation API
-  slug: service-invocation
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-service-invocation-openapi.yml
-- filename: dapr-bindings-openapi.yml
-  format: yaml
-  label: Dapr Bindings API
-  slug: bindings
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-bindings-openapi.yml
-- filename: dapr-secrets-openapi.yml
-  format: yaml
-  label: Dapr Secrets API
-  slug: secrets
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-secrets-openapi.yml
-- filename: dapr-actors-openapi.yml
+- filename: dapr-actors-api-openapi.yml
   format: yaml
   label: Dapr Actors API
-  slug: actors
+  slug: dapr-actors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-actors-openapi.yml
-- filename: dapr-workflow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-actors-api-openapi.yml
+- filename: dapr-bindings-api-openapi.yml
   format: yaml
-  label: Dapr Workflow API
-  slug: workflow
+  label: Dapr Bindings API
+  slug: dapr-bindings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-workflow-openapi.yml
-- filename: dapr-configuration-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-bindings-api-openapi.yml
+- filename: dapr-configuration-api-openapi.yml
   format: yaml
   label: Dapr Configuration API
-  slug: configuration
+  slug: dapr-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-configuration-openapi.yml
-- filename: dapr-distributed-lock-openapi.yml
-  format: yaml
-  label: Dapr Distributed Lock API
-  slug: distributed-lock
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-distributed-lock-openapi.yml
-- filename: dapr-cryptography-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-configuration-api-openapi.yml
+- filename: dapr-cryptography-api-openapi.yml
   format: yaml
   label: Dapr Cryptography API
-  slug: cryptography
+  slug: dapr-cryptography-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-cryptography-openapi.yml
-- filename: dapr-jobs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-cryptography-api-openapi.yml
+- filename: dapr-distributedlock-api-openapi.yml
   format: yaml
-  label: Dapr Jobs API
-  slug: jobs
+  label: Dapr DistributedLock API
+  slug: dapr-distributedlock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-jobs-openapi.yml
-- filename: dapr-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-distributedlock-api-openapi.yml
+- filename: dapr-health-api-openapi.yml
   format: yaml
   label: Dapr Health API
-  slug: health
+  slug: dapr-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-health-openapi.yml
-- filename: dapr-metadata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-health-api-openapi.yml
+- filename: dapr-jobs-api-openapi.yml
+  format: yaml
+  label: Dapr Jobs API
+  slug: dapr-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-jobs-api-openapi.yml
+- filename: dapr-metadata-api-openapi.yml
   format: yaml
   label: Dapr Metadata API
-  slug: metadata
+  slug: dapr-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-metadata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-metadata-api-openapi.yml
+- filename: dapr-pubsub-api-openapi.yml
+  format: yaml
+  label: Dapr PubSub API
+  slug: dapr-pubsub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-pubsub-api-openapi.yml
+- filename: dapr-secrets-api-openapi.yml
+  format: yaml
+  label: Dapr Secrets API
+  slug: dapr-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-secrets-api-openapi.yml
+- filename: dapr-serviceinvocation-api-openapi.yml
+  format: yaml
+  label: Dapr ServiceInvocation API
+  slug: dapr-serviceinvocation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-serviceinvocation-api-openapi.yml
+- filename: dapr-state-api-openapi.yml
+  format: yaml
+  label: Dapr State API
+  slug: dapr-state-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-state-api-openapi.yml
+- filename: dapr-workflow-api-openapi.yml
+  format: yaml
+  label: Dapr Workflow API
+  slug: dapr-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-workflow-api-openapi.yml
 description: ''
 domains:
 - caa: []

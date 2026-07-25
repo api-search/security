@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: sharepoint-rest-openapi.json
-  format: json
-  label: SharePoint REST API
-  slug: rest-api
+- filename: sharepoint-files-api-openapi.yml
+  format: yaml
+  label: Microsoft SharePoint Files API
+  slug: sharepoint-files-api
   spec_type: OpenAPI
-  url: https://example.com/sharepoint-rest-openapi.json
-- filename: graph-sharepoint-openapi.json
-  format: json
-  label: Microsoft Graph API (SharePoint)
-  slug: graph-api-sharepoint
+  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-files-api-openapi.yml
+- filename: sharepoint-items-api-openapi.yml
+  format: yaml
+  label: Microsoft SharePoint Items API
+  slug: sharepoint-items-api
   spec_type: OpenAPI
-  url: https://example.com/graph-sharepoint-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-items-api-openapi.yml
+- filename: sharepoint-lists-api-openapi.yml
+  format: yaml
+  label: Microsoft SharePoint Lists API
+  slug: sharepoint-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-lists-api-openapi.yml
+- filename: sharepoint-search-api-openapi.yml
+  format: yaml
+  label: Microsoft SharePoint Search API
+  slug: sharepoint-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-search-api-openapi.yml
+- filename: sharepoint-sites-api-openapi.yml
+  format: yaml
+  label: Microsoft SharePoint Sites API
+  slug: sharepoint-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-sites-api-openapi.yml
+- filename: sharepoint-user-profiles-api-openapi.yml
+  format: yaml
+  label: Microsoft SharePoint User Profiles API
+  slug: sharepoint-user-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-user-profiles-api-openapi.yml
 certifications:
 - SOC 1 Type 2
 - SOC 2 Type 2

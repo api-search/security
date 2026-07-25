@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: botanalytics-messages-openapi.yml
+- filename: botanalytics-messages-api-openapi.yml
   format: yaml
-  label: Botanalytics Message Ingestion API
-  slug: botanalytics-message-ingestion-api
+  label: Botanalytics Messages API
+  slug: botanalytics-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/botanalytics/refs/heads/main/openapi/botanalytics-messages-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/botanalytics/refs/heads/main/openapi/botanalytics-messages-api-openapi.yml
 description: ''
 domains:
 - caa: []

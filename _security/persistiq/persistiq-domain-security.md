@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: persistiq-openapi.yml
+- filename: persistiq-campaigns-api-openapi.yml
   format: yaml
-  label: PersistIQ API
-  slug: persistiq-api
+  label: PersistIQ Campaigns API
+  slug: persistiq-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/persistiq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/persistiq-campaigns-api-openapi.yml
+- filename: persistiq-do-not-contact-domains-api-openapi.yml
+  format: yaml
+  label: PersistIQ Do Not Contact Domains API
+  slug: persistiq-do-not-contact-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/persistiq-do-not-contact-domains-api-openapi.yml
+- filename: persistiq-events-api-openapi.yml
+  format: yaml
+  label: PersistIQ Events API
+  slug: persistiq-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/persistiq-events-api-openapi.yml
+- filename: persistiq-lead-fields-api-openapi.yml
+  format: yaml
+  label: PersistIQ Lead Fields API
+  slug: persistiq-lead-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/persistiq-lead-fields-api-openapi.yml
+- filename: persistiq-lead-statuses-api-openapi.yml
+  format: yaml
+  label: PersistIQ Lead Statuses API
+  slug: persistiq-lead-statuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/persistiq-lead-statuses-api-openapi.yml
+- filename: persistiq-leads-api-openapi.yml
+  format: yaml
+  label: PersistIQ Leads API
+  slug: persistiq-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/persistiq-leads-api-openapi.yml
+- filename: persistiq-users-api-openapi.yml
+  format: yaml
+  label: PersistIQ Users API
+  slug: persistiq-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/persistiq-users-api-openapi.yml
 description: ''
 domains:
 - caa:

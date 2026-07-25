@@ -2,12 +2,42 @@
 api_key_in:
 - query
 api_specs:
-- filename: the-odds-api-openapi.yml
+- filename: the-odds-api-events-api-openapi.yml
   format: yaml
-  label: The Odds API
-  slug: the-odds-api
+  label: The Odds API Events API
+  slug: the-odds-api-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/openapi/the-odds-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/openapi/the-odds-api-events-api-openapi.yml
+- filename: the-odds-api-historical-api-openapi.yml
+  format: yaml
+  label: The Odds API Historical API
+  slug: the-odds-api-historical-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/openapi/the-odds-api-historical-api-openapi.yml
+- filename: the-odds-api-odds-api-openapi.yml
+  format: yaml
+  label: The Odds API Odds API
+  slug: the-odds-api-odds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/openapi/the-odds-api-odds-api-openapi.yml
+- filename: the-odds-api-participants-api-openapi.yml
+  format: yaml
+  label: The Odds API Participants API
+  slug: the-odds-api-participants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/openapi/the-odds-api-participants-api-openapi.yml
+- filename: the-odds-api-scores-api-openapi.yml
+  format: yaml
+  label: The Odds API Scores API
+  slug: the-odds-api-scores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/openapi/the-odds-api-scores-api-openapi.yml
+- filename: the-odds-api-sports-api-openapi.yml
+  format: yaml
+  label: The Odds API Sports API
+  slug: the-odds-api-sports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/openapi/the-odds-api-sports-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

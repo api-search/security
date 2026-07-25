@@ -6,18 +6,36 @@ api_specs:
   slug: debian-sources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/debian/refs/heads/main/openapi/debian-sources-api-openapi.yml
-- filename: debian-bts-api-openapi.yml
+- filename: debian-bugs-api-openapi.yml
   format: yaml
-  label: Debian Bug Tracking System
-  slug: debian-bts-api
+  label: Debian Bugs API
+  slug: debian-bugs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debian/refs/heads/main/openapi/debian-bts-api-openapi.yml
-- filename: debian-udd-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/debian/refs/heads/main/openapi/debian-bugs-api-openapi.yml
+- filename: debian-copyright-api-openapi.yml
   format: yaml
-  label: Debian Ultimate Database (UDD)
-  slug: debian-udd
+  label: Debian Copyright API
+  slug: debian-copyright-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debian/refs/heads/main/openapi/debian-udd-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/debian/refs/heads/main/openapi/debian-copyright-api-openapi.yml
+- filename: debian-maintainers-api-openapi.yml
+  format: yaml
+  label: Debian Maintainers API
+  slug: debian-maintainers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debian/refs/heads/main/openapi/debian-maintainers-api-openapi.yml
+- filename: debian-patches-api-openapi.yml
+  format: yaml
+  label: Debian Patches API
+  slug: debian-patches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debian/refs/heads/main/openapi/debian-patches-api-openapi.yml
+- filename: debian-reproducibility-api-openapi.yml
+  format: yaml
+  label: Debian Reproducibility API
+  slug: debian-reproducibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debian/refs/heads/main/openapi/debian-reproducibility-api-openapi.yml
 description: ''
 domains:
 - caa:

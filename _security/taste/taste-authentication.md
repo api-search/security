@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: taste-taste-engine-openapi.json
-  format: json
-  label: Taste Engine API
-  slug: taste-engine-api
+- filename: taste-health-api-openapi.yml
+  format: yaml
+  label: Taste health API
+  slug: taste-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taste/refs/heads/main/openapi/taste-taste-engine-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/taste/refs/heads/main/openapi/taste-health-api-openapi.yml
+- filename: taste-prompt-enhancement-api-openapi.yml
+  format: yaml
+  label: Taste Prompt Enhancement API
+  slug: taste-prompt-enhancement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taste/refs/heads/main/openapi/taste-prompt-enhancement-api-openapi.yml
+- filename: taste-taste-engine-api-api-openapi.yml
+  format: yaml
+  label: Taste Taste Engine API API
+  slug: taste-taste-engine-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taste/refs/heads/main/openapi/taste-taste-engine-api-api-openapi.yml
 auth_types:
 - http
 description: ''

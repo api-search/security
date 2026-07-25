@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: brocade-communications-systems-openapi.yml
+- filename: brocade-communications-systems-chassis-api-openapi.yml
   format: yaml
-  label: Brocade Fabric OS REST API
-  slug: fabric-os-rest-api
+  label: Brocade Communications Systems Chassis API
+  slug: brocade-communications-systems-chassis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brocade-communications-systems/refs/heads/main/openapi/brocade-communications-systems-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brocade-communications-systems/refs/heads/main/openapi/brocade-communications-systems-chassis-api-openapi.yml
+- filename: brocade-communications-systems-interfaces-api-openapi.yml
+  format: yaml
+  label: Brocade Communications Systems Interfaces API
+  slug: brocade-communications-systems-interfaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brocade-communications-systems/refs/heads/main/openapi/brocade-communications-systems-interfaces-api-openapi.yml
+- filename: brocade-communications-systems-operations-api-openapi.yml
+  format: yaml
+  label: Brocade Communications Systems Operations API
+  slug: brocade-communications-systems-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brocade-communications-systems/refs/heads/main/openapi/brocade-communications-systems-operations-api-openapi.yml
+- filename: brocade-communications-systems-session-api-openapi.yml
+  format: yaml
+  label: Brocade Communications Systems Session API
+  slug: brocade-communications-systems-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brocade-communications-systems/refs/heads/main/openapi/brocade-communications-systems-session-api-openapi.yml
+- filename: brocade-communications-systems-switch-api-openapi.yml
+  format: yaml
+  label: Brocade Communications Systems Switch API
+  slug: brocade-communications-systems-switch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brocade-communications-systems/refs/heads/main/openapi/brocade-communications-systems-switch-api-openapi.yml
+- filename: brocade-communications-systems-zoning-api-openapi.yml
+  format: yaml
+  label: Brocade Communications Systems Zoning API
+  slug: brocade-communications-systems-zoning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brocade-communications-systems/refs/heads/main/openapi/brocade-communications-systems-zoning-api-openapi.yml
 auth_types:
 - apiKey
 - http

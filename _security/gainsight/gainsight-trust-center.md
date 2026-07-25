@@ -1,95 +1,179 @@
 ---
 api_specs:
-- filename: swagger
+- filename: gainsight-accounts-api-openapi.yml
   format: yaml
-  label: Gainsight REST API
-  slug: gainsight-rest-api
+  label: Gainsight Accounts API
+  slug: gainsight-accounts-api
   spec_type: OpenAPI
-  url: https://api.gainsight.com/swagger
-- filename: gainsight-px-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-accounts-api-openapi.yml
+- filename: gainsight-activities-api-openapi.yml
   format: yaml
-  label: Gainsight PX API
-  slug: gainsight-px-api
+  label: Gainsight Activities API
+  slug: gainsight-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-px-api-openapi.yml
-- filename: gainsight-cs-company-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-activities-api-openapi.yml
+- filename: gainsight-activity-types-api-openapi.yml
   format: yaml
-  label: Gainsight CS Company API
-  slug: gainsight-cs-company-api
+  label: Gainsight Activity Types API
+  slug: gainsight-activity-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-cs-company-api-openapi.yml
-- filename: gainsight-cs-person-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-activity-types-api-openapi.yml
+- filename: gainsight-companies-api-openapi.yml
   format: yaml
-  label: Gainsight CS Person API
-  slug: gainsight-cs-person-api
+  label: Gainsight Companies API
+  slug: gainsight-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-cs-person-api-openapi.yml
-- filename: gainsight-cs-custom-object-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-companies-api-openapi.yml
+- filename: gainsight-company-team-api-openapi.yml
   format: yaml
-  label: Gainsight CS Custom Object API
-  slug: gainsight-cs-custom-object-api
+  label: Gainsight Company Team API
+  slug: gainsight-company-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-cs-custom-object-api-openapi.yml
-- filename: gainsight-cs-cta-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-company-team-api-openapi.yml
+- filename: gainsight-configuration-api-openapi.yml
   format: yaml
-  label: Gainsight CS CTA API
-  slug: gainsight-cs-cta-api
+  label: Gainsight Configuration API
+  slug: gainsight-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-cs-cta-api-openapi.yml
-- filename: gainsight-cs-timeline-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-configuration-api-openapi.yml
+- filename: gainsight-cta-configuration-api-openapi.yml
   format: yaml
-  label: Gainsight CS Timeline API
-  slug: gainsight-cs-timeline-api
+  label: Gainsight CTA Configuration API
+  slug: gainsight-cta-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-cs-timeline-api-openapi.yml
-- filename: gainsight-cs-success-plan-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-cta-configuration-api-openapi.yml
+- filename: gainsight-ctas-api-openapi.yml
   format: yaml
-  label: Gainsight CS Success Plan API
-  slug: gainsight-cs-success-plan-api
+  label: Gainsight CTAs API
+  slug: gainsight-ctas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-cs-success-plan-api-openapi.yml
-- filename: gainsight-cs-data-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-ctas-api-openapi.yml
+- filename: gainsight-custom-events-api-openapi.yml
   format: yaml
-  label: Gainsight CS Data Management API
-  slug: gainsight-cs-data-management-api
+  label: Gainsight Custom Events API
+  slug: gainsight-custom-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-cs-data-management-api-openapi.yml
-- filename: gainsight-cs-bulk-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-custom-events-api-openapi.yml
+- filename: gainsight-custom-objects-api-openapi.yml
   format: yaml
-  label: Gainsight CS Bulk API
-  slug: gainsight-cs-bulk-api
+  label: Gainsight Custom Objects API
+  slug: gainsight-custom-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-cs-bulk-api-openapi.yml
-- filename: gainsight-cs-events-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-custom-objects-api-openapi.yml
+- filename: gainsight-engagements-api-openapi.yml
   format: yaml
-  label: Gainsight CS Events API
-  slug: gainsight-cs-events-api
+  label: Gainsight Engagements API
+  slug: gainsight-engagements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-cs-events-api-openapi.yml
-- filename: gainsight-cs-user-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-engagements-api-openapi.yml
+- filename: gainsight-events-api-openapi.yml
   format: yaml
-  label: Gainsight CS User Management API
-  slug: gainsight-cs-user-management-api
+  label: Gainsight Events API
+  slug: gainsight-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-cs-user-management-api-openapi.yml
-- filename: gainsight-cs-customer-goals-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-events-api-openapi.yml
+- filename: gainsight-feature-match-api-openapi.yml
   format: yaml
-  label: Gainsight CS Customer Goals API
-  slug: gainsight-cs-customer-goals-api
+  label: Gainsight Feature Match API
+  slug: gainsight-feature-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-cs-customer-goals-api-openapi.yml
-- filename: gainsight-cs-renewal-center-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-feature-match-api-openapi.yml
+- filename: gainsight-fields-api-openapi.yml
   format: yaml
-  label: Gainsight CS Renewal Center API
-  slug: gainsight-cs-renewal-center-api
+  label: Gainsight Fields API
+  slug: gainsight-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-cs-renewal-center-api-openapi.yml
-- filename: gainsight-cs-task-and-playbook-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-fields-api-openapi.yml
+- filename: gainsight-goals-api-openapi.yml
   format: yaml
-  label: Gainsight CS Task and Playbook API
-  slug: gainsight-cs-task-and-playbook-api
+  label: Gainsight Goals API
+  slug: gainsight-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-cs-task-and-playbook-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-goals-api-openapi.yml
+- filename: gainsight-jobs-api-openapi.yml
+  format: yaml
+  label: Gainsight Jobs API
+  slug: gainsight-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-jobs-api-openapi.yml
+- filename: gainsight-metrics-api-openapi.yml
+  format: yaml
+  label: Gainsight Metrics API
+  slug: gainsight-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-metrics-api-openapi.yml
+- filename: gainsight-objectives-api-openapi.yml
+  format: yaml
+  label: Gainsight Objectives API
+  slug: gainsight-objectives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-objectives-api-openapi.yml
+- filename: gainsight-objects-api-openapi.yml
+  format: yaml
+  label: Gainsight Objects API
+  slug: gainsight-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-objects-api-openapi.yml
+- filename: gainsight-opportunities-api-openapi.yml
+  format: yaml
+  label: Gainsight Opportunities API
+  slug: gainsight-opportunities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-opportunities-api-openapi.yml
+- filename: gainsight-people-api-openapi.yml
+  format: yaml
+  label: Gainsight People API
+  slug: gainsight-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-people-api-openapi.yml
+- filename: gainsight-playbooks-api-openapi.yml
+  format: yaml
+  label: Gainsight Playbooks API
+  slug: gainsight-playbooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-playbooks-api-openapi.yml
+- filename: gainsight-reports-api-openapi.yml
+  format: yaml
+  label: Gainsight Reports API
+  slug: gainsight-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-reports-api-openapi.yml
+- filename: gainsight-scim-api-openapi.yml
+  format: yaml
+  label: Gainsight SCIM API
+  slug: gainsight-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-scim-api-openapi.yml
+- filename: gainsight-subscription-api-openapi.yml
+  format: yaml
+  label: Gainsight Subscription API
+  slug: gainsight-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-subscription-api-openapi.yml
+- filename: gainsight-success-plans-api-openapi.yml
+  format: yaml
+  label: Gainsight Success Plans API
+  slug: gainsight-success-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-success-plans-api-openapi.yml
+- filename: gainsight-tasks-api-openapi.yml
+  format: yaml
+  label: Gainsight Tasks API
+  slug: gainsight-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-tasks-api-openapi.yml
+- filename: gainsight-templates-api-openapi.yml
+  format: yaml
+  label: Gainsight Templates API
+  slug: gainsight-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-templates-api-openapi.yml
+- filename: gainsight-users-api-openapi.yml
+  format: yaml
+  label: Gainsight Users API
+  slug: gainsight-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-users-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

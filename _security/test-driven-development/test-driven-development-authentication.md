@@ -1,18 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: api.github.com.json
-  format: json
-  label: GitHub Actions API
-  slug: github-actions-api
+- filename: test-driven-development-repos-api-openapi.yml
+  format: yaml
+  label: Test-Driven Development Repos API
+  slug: test-driven-development-repos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json
-- filename: openapi.json
-  format: json
-  label: CircleCI API
-  slug: circleci-api
-  spec_type: OpenAPI
-  url: https://circleci.com/api/v2/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/test-driven-development/refs/heads/main/openapi/test-driven-development-repos-api-openapi.yml
 auth_types:
 - http
 description: ''

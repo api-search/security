@@ -1,54 +1,84 @@
 ---
 api_key_in: []
 api_specs:
-- filename: nomba-authentication-openapi.yml
-  format: yaml
-  label: Nomba Authentication API
-  slug: authentication
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-authentication-openapi.yml
-- filename: nomba-accounts-openapi.yml
+- filename: nomba-accounts-api-openapi.yml
   format: yaml
   label: Nomba Accounts API
-  slug: accounts
+  slug: nomba-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-accounts-openapi.yml
-- filename: nomba-virtual-accounts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-accounts-api-openapi.yml
+- filename: nomba-authentication-api-openapi.yml
   format: yaml
-  label: Nomba Virtual Accounts API
-  slug: virtual-accounts
+  label: Nomba Authentication API
+  slug: nomba-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-virtual-accounts-openapi.yml
-- filename: nomba-transfers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-authentication-api-openapi.yml
+- filename: nomba-card-charge-api-openapi.yml
   format: yaml
-  label: Nomba Transfers API
-  slug: transfers
+  label: Nomba Card Charge API
+  slug: nomba-card-charge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-transfers-openapi.yml
-- filename: nomba-online-checkout-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-card-charge-api-openapi.yml
+- filename: nomba-checkout-orders-api-openapi.yml
   format: yaml
-  label: Nomba Online Checkout API
-  slug: online-checkout
+  label: Nomba Checkout Orders API
+  slug: nomba-checkout-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-online-checkout-openapi.yml
-- filename: nomba-charge-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-checkout-orders-api-openapi.yml
+- filename: nomba-corridors-api-openapi.yml
   format: yaml
-  label: Nomba Charge API
-  slug: charge
+  label: Nomba Corridors API
+  slug: nomba-corridors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-charge-openapi.yml
-- filename: nomba-transactions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-corridors-api-openapi.yml
+- filename: nomba-exchange-rates-api-openapi.yml
+  format: yaml
+  label: Nomba Exchange Rates API
+  slug: nomba-exchange-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-exchange-rates-api-openapi.yml
+- filename: nomba-order-management-api-openapi.yml
+  format: yaml
+  label: Nomba Order Management API
+  slug: nomba-order-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-order-management-api-openapi.yml
+- filename: nomba-payouts-api-openapi.yml
+  format: yaml
+  label: Nomba Payouts API
+  slug: nomba-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-payouts-api-openapi.yml
+- filename: nomba-saved-cards-api-openapi.yml
+  format: yaml
+  label: Nomba Saved Cards API
+  slug: nomba-saved-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-saved-cards-api-openapi.yml
+- filename: nomba-tokenized-cards-api-openapi.yml
+  format: yaml
+  label: Nomba Tokenized Cards API
+  slug: nomba-tokenized-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-tokenized-cards-api-openapi.yml
+- filename: nomba-transactions-api-openapi.yml
   format: yaml
   label: Nomba Transactions API
-  slug: transactions
+  slug: nomba-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-transactions-openapi.yml
-- filename: nomba-global-payout-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-transactions-api-openapi.yml
+- filename: nomba-transfers-api-openapi.yml
   format: yaml
-  label: Nomba Global Payout API
-  slug: global-payout
+  label: Nomba Transfers API
+  slug: nomba-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-global-payout-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-transfers-api-openapi.yml
+- filename: nomba-virtual-accounts-api-openapi.yml
+  format: yaml
+  label: Nomba Virtual Accounts API
+  slug: nomba-virtual-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-virtual-accounts-api-openapi.yml
 auth_types:
 - http
 description: ''

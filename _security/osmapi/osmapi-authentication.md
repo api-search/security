@@ -1,30 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: osmapi-chat-completions-openapi.yml
+- filename: osmapi-chat-api-openapi.yml
   format: yaml
-  label: osmAPI Chat Completions API
-  slug: osmapi-chat-completions-api
+  label: osmAPI Chat API
+  slug: osmapi-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/openapi/osmapi-chat-completions-openapi.yml
-- filename: osmapi-anthropic-messages-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/openapi/osmapi-chat-api-openapi.yml
+- filename: osmapi-messages-api-openapi.yml
   format: yaml
-  label: osmAPI Anthropic Messages API
-  slug: osmapi-anthropic-messages-api
+  label: osmAPI Messages API
+  slug: osmapi-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/openapi/osmapi-anthropic-messages-openapi.yml
-- filename: osmapi-models-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/openapi/osmapi-messages-api-openapi.yml
+- filename: osmapi-models-api-openapi.yml
   format: yaml
   label: osmAPI Models API
   slug: osmapi-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/openapi/osmapi-models-openapi.yml
-- filename: osmapi-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/openapi/osmapi-models-api-openapi.yml
+- filename: osmapi-osmapi-health-api-api-openapi.yml
   format: yaml
-  label: osmAPI Health API
-  slug: osmapi-health-api
+  label: osmAPI OsmAPI Health API API
+  slug: osmapi-osmapi-health-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/openapi/osmapi-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/openapi/osmapi-osmapi-health-api-api-openapi.yml
 auth_types:
 - http
 description: ''

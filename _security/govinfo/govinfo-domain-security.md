@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: govinfo-collections-api-openapi.yml
   format: yaml
-  label: GovInfo API
-  slug: govinfo
+  label: GovInfo Collections API
+  slug: govinfo-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govinfo/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/govinfo/refs/heads/main/openapi/govinfo-collections-api-openapi.yml
+- filename: govinfo-packages-api-openapi.yml
+  format: yaml
+  label: GovInfo Packages API
+  slug: govinfo-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/govinfo/refs/heads/main/openapi/govinfo-packages-api-openapi.yml
+- filename: govinfo-published-api-openapi.yml
+  format: yaml
+  label: GovInfo Published API
+  slug: govinfo-published-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/govinfo/refs/heads/main/openapi/govinfo-published-api-openapi.yml
+- filename: govinfo-related-api-openapi.yml
+  format: yaml
+  label: GovInfo Related API
+  slug: govinfo-related-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/govinfo/refs/heads/main/openapi/govinfo-related-api-openapi.yml
+- filename: govinfo-search-api-openapi.yml
+  format: yaml
+  label: GovInfo Search API
+  slug: govinfo-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/govinfo/refs/heads/main/openapi/govinfo-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

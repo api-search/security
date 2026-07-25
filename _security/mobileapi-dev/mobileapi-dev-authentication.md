@@ -3,12 +3,60 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: mobileapi-openapi.yml
+- filename: mobileapi-dev-api-api-openapi.yml
   format: yaml
-  label: MobileAPI
-  slug: mobileapi
+  label: MobileAPI.dev api API
+  slug: mobileapi-dev-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-api-api-openapi.yml
+- filename: mobileapi-dev-api-token-auth-api-openapi.yml
+  format: yaml
+  label: MobileAPI.dev api-token-auth API
+  slug: mobileapi-dev-api-token-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-api-token-auth-api-openapi.yml
+- filename: mobileapi-dev-demo-x7k9m2p4-api-openapi.yml
+  format: yaml
+  label: MobileAPI.dev demo-x7k9m2p4 API
+  slug: mobileapi-dev-demo-x7k9m2p4-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-demo-x7k9m2p4-api-openapi.yml
+- filename: mobileapi-dev-devices-api-openapi.yml
+  format: yaml
+  label: MobileAPI.dev devices API
+  slug: mobileapi-dev-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-devices-api-openapi.yml
+- filename: mobileapi-dev-images-api-openapi.yml
+  format: yaml
+  label: MobileAPI.dev images API
+  slug: mobileapi-dev-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-images-api-openapi.yml
+- filename: mobileapi-dev-manufacturers-api-openapi.yml
+  format: yaml
+  label: MobileAPI.dev manufacturers API
+  slug: mobileapi-dev-manufacturers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-manufacturers-api-openapi.yml
+- filename: mobileapi-dev-me-api-openapi.yml
+  format: yaml
+  label: MobileAPI.dev me API
+  slug: mobileapi-dev-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-me-api-openapi.yml
+- filename: mobileapi-dev-payment-successful-api-openapi.yml
+  format: yaml
+  label: MobileAPI.dev payment_successful API
+  slug: mobileapi-dev-payment-successful-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-payment-successful-api-openapi.yml
+- filename: mobileapi-dev-status-api-openapi.yml
+  format: yaml
+  label: MobileAPI.dev status API
+  slug: mobileapi-dev-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-status-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

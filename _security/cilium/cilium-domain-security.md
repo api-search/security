@@ -1,23 +1,59 @@
 ---
 api_specs:
-- filename: openapi.yaml
-  format: yaml
-  label: Cilium API
-  slug: cilium-api
-  spec_type: OpenAPI
-  url: https://github.com/cilium/cilium/blob/main/api/v1/openapi.yaml
 - filename: cilium-hubble-asyncapi.yml
   format: yaml
   label: Hubble API
   slug: hubble-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/asyncapi/cilium-hubble-asyncapi.yml
-- filename: openapi.yaml
+- filename: cilium-bgp-api-openapi.yml
   format: yaml
-  label: Cilium Operator API
-  slug: cilium-operator-api
+  label: Cilium BGP API
+  slug: cilium-bgp-api
   spec_type: OpenAPI
-  url: https://github.com/cilium/cilium/blob/main/api/v1/operator/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-bgp-api-openapi.yml
+- filename: cilium-daemon-api-openapi.yml
+  format: yaml
+  label: Cilium Daemon API
+  slug: cilium-daemon-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-daemon-api-openapi.yml
+- filename: cilium-endpoint-api-openapi.yml
+  format: yaml
+  label: Cilium Endpoint API
+  slug: cilium-endpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-endpoint-api-openapi.yml
+- filename: cilium-ipam-api-openapi.yml
+  format: yaml
+  label: Cilium IPAM API
+  slug: cilium-ipam-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-ipam-api-openapi.yml
+- filename: cilium-lrp-api-openapi.yml
+  format: yaml
+  label: Cilium Lrp API
+  slug: cilium-lrp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-lrp-api-openapi.yml
+- filename: cilium-policy-api-openapi.yml
+  format: yaml
+  label: Cilium Policy API
+  slug: cilium-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-policy-api-openapi.yml
+- filename: cilium-prefilter-api-openapi.yml
+  format: yaml
+  label: Cilium Prefilter API
+  slug: cilium-prefilter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-prefilter-api-openapi.yml
+- filename: cilium-service-api-openapi.yml
+  format: yaml
+  label: Cilium Service API
+  slug: cilium-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-service-api-openapi.yml
 description: ''
 domains:
 - caa: []

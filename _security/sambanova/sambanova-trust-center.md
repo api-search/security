@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: sambanova-openapi.yml
+- filename: sambanova-chat-api-openapi.yml
   format: yaml
-  label: SambaCloud API
-  slug: sambacloud-api
+  label: SambaNova Chat API
+  slug: sambanova-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sambanova/refs/heads/main/openapi/sambanova-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sambanova/refs/heads/main/openapi/sambanova-chat-api-openapi.yml
+- filename: sambanova-completions-api-openapi.yml
+  format: yaml
+  label: SambaNova Completions API
+  slug: sambanova-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sambanova/refs/heads/main/openapi/sambanova-completions-api-openapi.yml
+- filename: sambanova-embeddings-api-openapi.yml
+  format: yaml
+  label: SambaNova Embeddings API
+  slug: sambanova-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sambanova/refs/heads/main/openapi/sambanova-embeddings-api-openapi.yml
+- filename: sambanova-models-api-openapi.yml
+  format: yaml
+  label: SambaNova Models API
+  slug: sambanova-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sambanova/refs/heads/main/openapi/sambanova-models-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

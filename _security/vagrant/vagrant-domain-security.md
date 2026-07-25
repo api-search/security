@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: vagrant-cloud-api-openapi.yml
+- filename: vagrant-boxes-api-openapi.yml
   format: yaml
-  label: Vagrant Cloud API
-  slug: vagrant-cloud-api
+  label: Vagrant Boxes API
+  slug: vagrant-boxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/openapi/vagrant-cloud-api-openapi.yml
-- filename: vagrant-hcp-vagrant-box-registry-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/openapi/vagrant-boxes-api-openapi.yml
+- filename: vagrant-providers-api-openapi.yml
   format: yaml
-  label: HCP Vagrant Box Registry API
-  slug: vagrant-hcp-box-registry
+  label: Vagrant Providers API
+  slug: vagrant-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/openapi/vagrant-hcp-vagrant-box-registry-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/openapi/vagrant-providers-api-openapi.yml
+- filename: vagrant-registries-api-openapi.yml
+  format: yaml
+  label: Vagrant Registries API
+  slug: vagrant-registries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/openapi/vagrant-registries-api-openapi.yml
+- filename: vagrant-search-api-openapi.yml
+  format: yaml
+  label: Vagrant Search API
+  slug: vagrant-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/openapi/vagrant-search-api-openapi.yml
+- filename: vagrant-versions-api-openapi.yml
+  format: yaml
+  label: Vagrant Versions API
+  slug: vagrant-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/openapi/vagrant-versions-api-openapi.yml
 description: ''
 domains:
 - caa: []

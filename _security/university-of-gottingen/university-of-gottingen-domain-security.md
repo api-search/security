@@ -1,11 +1,197 @@
 ---
 api_specs:
-- filename: university-of-gottingen-grodata-rest.yaml
+- filename: university-of-gottingen-access-api-openapi.yml
   format: yaml
-  label: GRO.data Dataverse REST API
-  slug: grodata-rest
+  label: University of Göttingen Access API
+  slug: university-of-gottingen-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-grodata-rest.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-access-api-openapi.yml
+- filename: university-of-gottingen-addfilestodataset-api-openapi.yml
+  format: yaml
+  label: University of Göttingen addFilesToDataset API
+  slug: university-of-gottingen-addfilestodataset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-addfilestodataset-api-openapi.yml
+- filename: university-of-gottingen-addfiletodataset-api-openapi.yml
+  format: yaml
+  label: University of Göttingen addFileToDataset API
+  slug: university-of-gottingen-addfiletodataset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-addfiletodataset-api-openapi.yml
+- filename: university-of-gottingen-addglobusfilestodataset-api-openapi.yml
+  format: yaml
+  label: University of Göttingen addGlobusFilesToDataset API
+  slug: university-of-gottingen-addglobusfilestodataset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-addglobusfilestodataset-api-openapi.yml
+- filename: university-of-gottingen-admin-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Admin API
+  slug: university-of-gottingen-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-admin-api-openapi.yml
+- filename: university-of-gottingen-batch-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Batch API
+  slug: university-of-gottingen-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-batch-api-openapi.yml
+- filename: university-of-gottingen-builtin-users-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Builtin Users API
+  slug: university-of-gottingen-builtin-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-builtin-users-api-openapi.yml
+- filename: university-of-gottingen-datasetfields-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Datasetfields API
+  slug: university-of-gottingen-datasetfields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-datasetfields-api-openapi.yml
+- filename: university-of-gottingen-datasets-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Datasets API
+  slug: university-of-gottingen-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-datasets-api-openapi.yml
+- filename: university-of-gottingen-datatags-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Datatags API
+  slug: university-of-gottingen-datatags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-datatags-api-openapi.yml
+- filename: university-of-gottingen-dataverses-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Dataverses API
+  slug: university-of-gottingen-dataverses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-dataverses-api-openapi.yml
+- filename: university-of-gottingen-edit-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Edit API
+  slug: university-of-gottingen-edit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-edit-api-openapi.yml
+- filename: university-of-gottingen-files-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Files API
+  slug: university-of-gottingen-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-files-api-openapi.yml
+- filename: university-of-gottingen-harvest-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Harvest API
+  slug: university-of-gottingen-harvest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-harvest-api-openapi.yml
+- filename: university-of-gottingen-inbox-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Inbox API
+  slug: university-of-gottingen-inbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-inbox-api-openapi.yml
+- filename: university-of-gottingen-info-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Info API
+  slug: university-of-gottingen-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-info-api-openapi.yml
+- filename: university-of-gottingen-ingest-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Ingest API
+  slug: university-of-gottingen-ingest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-ingest-api-openapi.yml
+- filename: university-of-gottingen-licenses-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Licenses API
+  slug: university-of-gottingen-licenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-licenses-api-openapi.yml
+- filename: university-of-gottingen-logout-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Logout API
+  slug: university-of-gottingen-logout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-logout-api-openapi.yml
+- filename: university-of-gottingen-mail-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Mail API
+  slug: university-of-gottingen-mail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-mail-api-openapi.yml
+- filename: university-of-gottingen-meta-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Meta API
+  slug: university-of-gottingen-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-meta-api-openapi.yml
+- filename: university-of-gottingen-metadatablocks-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Metadatablocks API
+  slug: university-of-gottingen-metadatablocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-metadatablocks-api-openapi.yml
+- filename: university-of-gottingen-mydata-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Mydata API
+  slug: university-of-gottingen-mydata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-mydata-api-openapi.yml
+- filename: university-of-gottingen-notifications-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Notifications API
+  slug: university-of-gottingen-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-notifications-api-openapi.yml
+- filename: university-of-gottingen-pids-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Pids API
+  slug: university-of-gottingen-pids-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-pids-api-openapi.yml
+- filename: university-of-gottingen-replacefilesindataset-api-openapi.yml
+  format: yaml
+  label: University of Göttingen replaceFilesInDataset API
+  slug: university-of-gottingen-replacefilesindataset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-replacefilesindataset-api-openapi.yml
+- filename: university-of-gottingen-roles-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Roles API
+  slug: university-of-gottingen-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-roles-api-openapi.yml
+- filename: university-of-gottingen-saveauxiliaryfilewithversion-api-openapi.yml
+  format: yaml
+  label: University of Göttingen saveAuxiliaryFileWithVersion API
+  slug: university-of-gottingen-saveauxiliaryfilewithversion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-saveauxiliaryfilewithversion-api-openapi.yml
+- filename: university-of-gottingen-search-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Search API
+  slug: university-of-gottingen-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-search-api-openapi.yml
+- filename: university-of-gottingen-uploaddatasetlogo-api-openapi.yml
+  format: yaml
+  label: University of Göttingen uploadDatasetLogo API
+  slug: university-of-gottingen-uploaddatasetlogo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-uploaddatasetlogo-api-openapi.yml
+- filename: university-of-gottingen-users-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Users API
+  slug: university-of-gottingen-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-users-api-openapi.yml
+- filename: university-of-gottingen-workflows-api-openapi.yml
+  format: yaml
+  label: University of Göttingen Workflows API
+  slug: university-of-gottingen-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []

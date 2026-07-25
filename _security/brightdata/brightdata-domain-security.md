@@ -1,41 +1,35 @@
 ---
 api_specs:
-- filename: brightdata-openapi.yml
+- filename: brightdata-browser-api-api-openapi.yml
   format: yaml
-  label: Bright Data Web Scraper API
-  slug: brightdata-web-scraper-api
+  label: Bright Data Browser API API
+  slug: brightdata-browser-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightdata/refs/heads/main/openapi/brightdata-openapi.yml
-- filename: brightdata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brightdata/refs/heads/main/openapi/brightdata-browser-api-api-openapi.yml
+- filename: brightdata-serp-api-openapi.yml
   format: yaml
   label: Bright Data SERP API
   slug: brightdata-serp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightdata/refs/heads/main/openapi/brightdata-openapi.yml
-- filename: brightdata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brightdata/refs/heads/main/openapi/brightdata-serp-api-openapi.yml
+- filename: brightdata-web-scraper-api-openapi.yml
+  format: yaml
+  label: Bright Data Web Scraper API
+  slug: brightdata-web-scraper-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightdata/refs/heads/main/openapi/brightdata-web-scraper-api-openapi.yml
+- filename: brightdata-web-unlocker-api-openapi.yml
   format: yaml
   label: Bright Data Web Unlocker API
   slug: brightdata-web-unlocker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightdata/refs/heads/main/openapi/brightdata-openapi.yml
-- filename: brightdata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brightdata/refs/heads/main/openapi/brightdata-web-unlocker-api-openapi.yml
+- filename: brightdata-zones-api-openapi.yml
   format: yaml
-  label: Bright Data Proxy & Zone Management API
-  slug: brightdata-proxy-zone-management-api
+  label: Bright Data Zones API
+  slug: brightdata-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightdata/refs/heads/main/openapi/brightdata-openapi.yml
-- filename: brightdata-openapi.yml
-  format: yaml
-  label: Bright Data Datasets API
-  slug: brightdata-datasets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightdata/refs/heads/main/openapi/brightdata-openapi.yml
-- filename: brightdata-openapi.yml
-  format: yaml
-  label: Bright Data Browser API (Scraping Browser)
-  slug: brightdata-browser-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightdata/refs/heads/main/openapi/brightdata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brightdata/refs/heads/main/openapi/brightdata-zones-api-openapi.yml
 description: ''
 domains:
 - caa: []

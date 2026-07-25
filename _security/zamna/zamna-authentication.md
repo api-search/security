@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: zamna-paxcheck-openapi-original.json
-  format: json
-  label: Zamna Ready To Fly (PaxCheck) API
-  slug: zamna-ready-to-fly-paxcheck-api
+- filename: zamna-session-api-openapi.yml
+  format: yaml
+  label: Zamna Session API
+  slug: zamna-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zamna/refs/heads/main/openapi/zamna-paxcheck-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/zamna/refs/heads/main/openapi/zamna-session-api-openapi.yml
+- filename: zamna-start-api-openapi.yml
+  format: yaml
+  label: Zamna Start API
+  slug: zamna-start-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zamna/refs/heads/main/openapi/zamna-start-api-openapi.yml
+- filename: zamna-start-with-booking-id-and-surname-api-openapi.yml
+  format: yaml
+  label: Zamna Start With Booking Id And Surname API
+  slug: zamna-start-with-booking-id-and-surname-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zamna/refs/heads/main/openapi/zamna-start-with-booking-id-and-surname-api-openapi.yml
+- filename: zamna-start2-api-openapi.yml
+  format: yaml
+  label: Zamna Start2 API
+  slug: zamna-start2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zamna/refs/heads/main/openapi/zamna-start2-api-openapi.yml
 auth_types:
 - http
 description: ''

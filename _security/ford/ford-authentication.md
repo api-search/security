@@ -1,5 +1,42 @@
 ---
 api_key_in: []
+api_specs:
+- filename: ford-charging-api-openapi.yml
+  format: yaml
+  label: Ford Charging API
+  slug: ford-charging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-charging-api-openapi.yml
+- filename: ford-commands-api-openapi.yml
+  format: yaml
+  label: Ford Commands API
+  slug: ford-commands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-commands-api-openapi.yml
+- filename: ford-images-api-openapi.yml
+  format: yaml
+  label: Ford Images API
+  slug: ford-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-images-api-openapi.yml
+- filename: ford-oauth-api-openapi.yml
+  format: yaml
+  label: Ford OAuth API
+  slug: ford-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-oauth-api-openapi.yml
+- filename: ford-status-api-openapi.yml
+  format: yaml
+  label: Ford Status API
+  slug: ford-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-status-api-openapi.yml
+- filename: ford-vehicles-api-openapi.yml
+  format: yaml
+  label: Ford Vehicles API
+  slug: ford-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-vehicles-api-openapi.yml
 auth_types:
 - http
 - oauth2

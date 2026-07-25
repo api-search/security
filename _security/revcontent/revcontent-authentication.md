@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: revcontent-stats-management-openapi.yml
+- filename: revcontent-access-api-openapi.yml
   format: yaml
-  label: RevContent Stats & Management API
-  slug: revcontent-stats-management-api
+  label: RevContent Access API
+  slug: revcontent-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-stats-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-access-api-openapi.yml
+- filename: revcontent-boosts-api-openapi.yml
+  format: yaml
+  label: RevContent Boosts API
+  slug: revcontent-boosts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-boosts-api-openapi.yml
+- filename: revcontent-ccpa-api-openapi.yml
+  format: yaml
+  label: RevContent CCPA API
+  slug: revcontent-ccpa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-ccpa-api-openapi.yml
+- filename: revcontent-content-api-openapi.yml
+  format: yaml
+  label: RevContent Content API
+  slug: revcontent-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-content-api-openapi.yml
+- filename: revcontent-helpers-api-openapi.yml
+  format: yaml
+  label: RevContent Helpers API
+  slug: revcontent-helpers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-helpers-api-openapi.yml
+- filename: revcontent-targeting-api-openapi.yml
+  format: yaml
+  label: RevContent Targeting API
+  slug: revcontent-targeting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-targeting-api-openapi.yml
 auth_types:
 - http
 description: ''

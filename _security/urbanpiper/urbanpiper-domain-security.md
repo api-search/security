@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: urbanpiper-openapi.yml
+- filename: urbanpiper-aggregator-api-openapi.yml
   format: yaml
-  label: UrbanPiper Catalog & Menu API
-  slug: catalog-menu
+  label: UrbanPiper Aggregator API
+  slug: urbanpiper-aggregator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanpiper/refs/heads/main/openapi/urbanpiper-openapi.yml
-- filename: urbanpiper-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/urbanpiper/refs/heads/main/openapi/urbanpiper-aggregator-api-openapi.yml
+- filename: urbanpiper-menu-api-openapi.yml
+  format: yaml
+  label: UrbanPiper Menu API
+  slug: urbanpiper-menu-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/urbanpiper/refs/heads/main/openapi/urbanpiper-menu-api-openapi.yml
+- filename: urbanpiper-orders-api-openapi.yml
   format: yaml
   label: UrbanPiper Orders API
-  slug: orders
+  slug: urbanpiper-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanpiper/refs/heads/main/openapi/urbanpiper-openapi.yml
-- filename: urbanpiper-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/urbanpiper/refs/heads/main/openapi/urbanpiper-orders-api-openapi.yml
+- filename: urbanpiper-stores-api-openapi.yml
   format: yaml
-  label: UrbanPiper Stores & Locations API
-  slug: stores-locations
+  label: UrbanPiper Stores API
+  slug: urbanpiper-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanpiper/refs/heads/main/openapi/urbanpiper-openapi.yml
-- filename: urbanpiper-openapi.yml
-  format: yaml
-  label: UrbanPiper Item Availability API
-  slug: item-availability
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanpiper/refs/heads/main/openapi/urbanpiper-openapi.yml
-- filename: urbanpiper-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/urbanpiper/refs/heads/main/openapi/urbanpiper-stores-api-openapi.yml
+- filename: urbanpiper-webhooks-api-openapi.yml
   format: yaml
   label: UrbanPiper Webhooks API
-  slug: webhooks
+  slug: urbanpiper-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanpiper/refs/heads/main/openapi/urbanpiper-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/urbanpiper/refs/heads/main/openapi/urbanpiper-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

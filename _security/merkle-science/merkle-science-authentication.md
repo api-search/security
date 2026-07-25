@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: merkle-science-kybb-openapi.yml
+- filename: merkle-science-vasp-entities-api-openapi.yml
   format: yaml
-  label: Merkle Science KYBB API
-  slug: merkle-science-kybb-api
+  label: Merkle Science VASP Entities API
+  slug: merkle-science-vasp-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/openapi/merkle-science-kybb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/openapi/merkle-science-vasp-entities-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

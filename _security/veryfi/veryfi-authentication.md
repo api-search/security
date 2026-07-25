@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: veryfi-ocr-openapi.yml
+- filename: veryfi-any-documents-api-openapi.yml
   format: yaml
-  label: Veryfi OCR API
-  slug: ocr-api
+  label: Veryfi Any Documents API
+  slug: veryfi-any-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-ocr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-any-documents-api-openapi.yml
+- filename: veryfi-bank-statements-api-openapi.yml
+  format: yaml
+  label: Veryfi Bank Statements API
+  slug: veryfi-bank-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-bank-statements-api-openapi.yml
+- filename: veryfi-checks-api-openapi.yml
+  format: yaml
+  label: Veryfi Checks API
+  slug: veryfi-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-checks-api-openapi.yml
+- filename: veryfi-classification-api-openapi.yml
+  format: yaml
+  label: Veryfi Classification API
+  slug: veryfi-classification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-classification-api-openapi.yml
+- filename: veryfi-documents-api-openapi.yml
+  format: yaml
+  label: Veryfi Documents API
+  slug: veryfi-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-documents-api-openapi.yml
+- filename: veryfi-w-2-forms-api-openapi.yml
+  format: yaml
+  label: Veryfi W-2 Forms API
+  slug: veryfi-w-2-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-w-2-forms-api-openapi.yml
+- filename: veryfi-w-9-forms-api-openapi.yml
+  format: yaml
+  label: Veryfi W-9 Forms API
+  slug: veryfi-w-9-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-w-9-forms-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

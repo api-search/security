@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: intelligems-external-api-openapi.yml
+- filename: intelligems-analytics-api-openapi.yml
   format: yaml
-  label: Intelligems External API
-  slug: intelligems-external-api
+  label: Intelligems Analytics API
+  slug: intelligems-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-external-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-analytics-api-openapi.yml
+- filename: intelligems-experiences-api-openapi.yml
+  format: yaml
+  label: Intelligems Experiences API
+  slug: intelligems-experiences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-experiences-api-openapi.yml
+- filename: intelligems-holiday-benchmark-api-openapi.yml
+  format: yaml
+  label: Intelligems Holiday Benchmark API
+  slug: intelligems-holiday-benchmark-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-holiday-benchmark-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,35 +1,137 @@
 ---
 api_specs:
-- filename: athenahealth-athenaone-rest-api-openapi.yml
+- filename: athena-health-allergyintolerance-api-openapi.yml
   format: yaml
-  label: athenahealth athenaOne REST API
-  slug: athenahealth-athenaone-rest-api
+  label: athenahealth AllergyIntolerance API
+  slug: athena-health-allergyintolerance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athenahealth-athenaone-rest-api-openapi.yml
-- filename: athenahealth-fhir-r4-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athena-health-allergyintolerance-api-openapi.yml
+- filename: athena-health-appointment-api-openapi.yml
   format: yaml
-  label: athenahealth FHIR R4 API
-  slug: athenahealth-fhir-r4-api
+  label: athenahealth Appointment API
+  slug: athena-health-appointment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athenahealth-fhir-r4-api-openapi.yml
-- filename: athenahealth-fhir-subscriptions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athena-health-appointment-api-openapi.yml
+- filename: athena-health-appointments-api-openapi.yml
   format: yaml
-  label: athenahealth FHIR Subscriptions API
-  slug: athenahealth-fhir-subscriptions-api
+  label: athenahealth Appointments API
+  slug: athena-health-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athenahealth-fhir-subscriptions-api-openapi.yml
-- filename: athenahealth-fhir-bulk-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athena-health-appointments-api-openapi.yml
+- filename: athena-health-bulk-data-api-openapi.yml
   format: yaml
-  label: athenahealth FHIR Bulk Data Access API
-  slug: athenahealth-fhir-bulk-data-api
+  label: athenahealth Bulk Data API
+  slug: athena-health-bulk-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athenahealth-fhir-bulk-data-api-openapi.yml
-- filename: athenahealth-cds-hooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athena-health-bulk-data-api-openapi.yml
+- filename: athena-health-cds-hooks-api-openapi.yml
   format: yaml
   label: athenahealth CDS Hooks API
-  slug: athenahealth-cds-hooks-api
+  slug: athena-health-cds-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athenahealth-cds-hooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athena-health-cds-hooks-api-openapi.yml
+- filename: athena-health-claims-api-openapi.yml
+  format: yaml
+  label: athenahealth Claims API
+  slug: athena-health-claims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athena-health-claims-api-openapi.yml
+- filename: athena-health-condition-api-openapi.yml
+  format: yaml
+  label: athenahealth Condition API
+  slug: athena-health-condition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athena-health-condition-api-openapi.yml
+- filename: athena-health-conformance-api-openapi.yml
+  format: yaml
+  label: athenahealth Conformance API
+  slug: athena-health-conformance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athena-health-conformance-api-openapi.yml
+- filename: athena-health-departments-api-openapi.yml
+  format: yaml
+  label: athenahealth Departments API
+  slug: athena-health-departments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athena-health-departments-api-openapi.yml
+- filename: athena-health-diagnosticreport-api-openapi.yml
+  format: yaml
+  label: athenahealth DiagnosticReport API
+  slug: athena-health-diagnosticreport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athena-health-diagnosticreport-api-openapi.yml
+- filename: athena-health-documentreference-api-openapi.yml
+  format: yaml
+  label: athenahealth DocumentReference API
+  slug: athena-health-documentreference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athena-health-documentreference-api-openapi.yml
+- filename: athena-health-documents-api-openapi.yml
+  format: yaml
+  label: athenahealth Documents API
+  slug: athena-health-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athena-health-documents-api-openapi.yml
+- filename: athena-health-encounter-api-openapi.yml
+  format: yaml
+  label: athenahealth Encounter API
+  slug: athena-health-encounter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athena-health-encounter-api-openapi.yml
+- filename: athena-health-encounters-api-openapi.yml
+  format: yaml
+  label: athenahealth Encounters API
+  slug: athena-health-encounters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athena-health-encounters-api-openapi.yml
+- filename: athena-health-immunization-api-openapi.yml
+  format: yaml
+  label: athenahealth Immunization API
+  slug: athena-health-immunization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athena-health-immunization-api-openapi.yml
+- filename: athena-health-medicationrequest-api-openapi.yml
+  format: yaml
+  label: athenahealth MedicationRequest API
+  slug: athena-health-medicationrequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athena-health-medicationrequest-api-openapi.yml
+- filename: athena-health-observation-api-openapi.yml
+  format: yaml
+  label: athenahealth Observation API
+  slug: athena-health-observation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athena-health-observation-api-openapi.yml
+- filename: athena-health-patient-api-openapi.yml
+  format: yaml
+  label: athenahealth Patient API
+  slug: athena-health-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athena-health-patient-api-openapi.yml
+- filename: athena-health-patients-api-openapi.yml
+  format: yaml
+  label: athenahealth Patients API
+  slug: athena-health-patients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athena-health-patients-api-openapi.yml
+- filename: athena-health-practice-api-openapi.yml
+  format: yaml
+  label: athenahealth Practice API
+  slug: athena-health-practice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athena-health-practice-api-openapi.yml
+- filename: athena-health-providers-api-openapi.yml
+  format: yaml
+  label: athenahealth Providers API
+  slug: athena-health-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athena-health-providers-api-openapi.yml
+- filename: athena-health-subscription-api-openapi.yml
+  format: yaml
+  label: athenahealth Subscription API
+  slug: athena-health-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athena-health-subscription-api-openapi.yml
 description: ''
 domains:
 - caa: []

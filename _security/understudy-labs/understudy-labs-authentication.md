@@ -2,12 +2,66 @@
 api_key_in:
 - header
 api_specs:
-- filename: understudy-labs-desktop-api-openapi.json
-  format: json
-  label: Understudy Desktop Agent API
-  slug: understudy-desktop-agent-api
+- filename: understudy-labs-capabilities-api-openapi.yml
+  format: yaml
+  label: Understudy Labs Capabilities API
+  slug: understudy-labs-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-desktop-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-capabilities-api-openapi.yml
+- filename: understudy-labs-conversations-api-openapi.yml
+  format: yaml
+  label: Understudy Labs Conversations API
+  slug: understudy-labs-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-conversations-api-openapi.yml
+- filename: understudy-labs-downloads-api-openapi.yml
+  format: yaml
+  label: Understudy Labs Downloads API
+  slug: understudy-labs-downloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-downloads-api-openapi.yml
+- filename: understudy-labs-feedback-api-openapi.yml
+  format: yaml
+  label: Understudy Labs Feedback API
+  slug: understudy-labs-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-feedback-api-openapi.yml
+- filename: understudy-labs-metrics-api-openapi.yml
+  format: yaml
+  label: Understudy Labs Metrics API
+  slug: understudy-labs-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-metrics-api-openapi.yml
+- filename: understudy-labs-models-api-openapi.yml
+  format: yaml
+  label: Understudy Labs Models API
+  slug: understudy-labs-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-models-api-openapi.yml
+- filename: understudy-labs-residency-api-openapi.yml
+  format: yaml
+  label: Understudy Labs Residency API
+  slug: understudy-labs-residency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-residency-api-openapi.yml
+- filename: understudy-labs-runs-api-openapi.yml
+  format: yaml
+  label: Understudy Labs Runs API
+  slug: understudy-labs-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-runs-api-openapi.yml
+- filename: understudy-labs-status-api-openapi.yml
+  format: yaml
+  label: Understudy Labs Status API
+  slug: understudy-labs-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-status-api-openapi.yml
+- filename: understudy-labs-supervision-api-openapi.yml
+  format: yaml
+  label: Understudy Labs Supervision API
+  slug: understudy-labs-supervision-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-supervision-api-openapi.yml
 auth_types:
 - apiKey
 - http

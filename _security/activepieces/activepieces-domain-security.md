@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: activepieces.json
-  format: json
-  label: Activepieces API
-  slug: activepieces-api
+- filename: activepieces-connections-api-openapi.yml
+  format: yaml
+  label: Activepieces Connections API
+  slug: activepieces-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/openapi/activepieces.json
+  url: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/openapi/activepieces-connections-api-openapi.yml
+- filename: activepieces-flow-runs-api-openapi.yml
+  format: yaml
+  label: Activepieces Flow Runs API
+  slug: activepieces-flow-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/openapi/activepieces-flow-runs-api-openapi.yml
+- filename: activepieces-flows-api-openapi.yml
+  format: yaml
+  label: Activepieces Flows API
+  slug: activepieces-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/openapi/activepieces-flows-api-openapi.yml
+- filename: activepieces-folders-api-openapi.yml
+  format: yaml
+  label: Activepieces Folders API
+  slug: activepieces-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/openapi/activepieces-folders-api-openapi.yml
+- filename: activepieces-pieces-api-openapi.yml
+  format: yaml
+  label: Activepieces Pieces API
+  slug: activepieces-pieces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/openapi/activepieces-pieces-api-openapi.yml
+- filename: activepieces-projects-api-openapi.yml
+  format: yaml
+  label: Activepieces Projects API
+  slug: activepieces-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/openapi/activepieces-projects-api-openapi.yml
+- filename: activepieces-templates-api-openapi.yml
+  format: yaml
+  label: Activepieces Templates API
+  slug: activepieces-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/openapi/activepieces-templates-api-openapi.yml
+- filename: activepieces-users-api-openapi.yml
+  format: yaml
+  label: Activepieces Users API
+  slug: activepieces-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/openapi/activepieces-users-api-openapi.yml
+- filename: activepieces-worker-machines-api-openapi.yml
+  format: yaml
+  label: Activepieces Worker Machines API
+  slug: activepieces-worker-machines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/openapi/activepieces-worker-machines-api-openapi.yml
 description: ''
 domains:
 - caa: []

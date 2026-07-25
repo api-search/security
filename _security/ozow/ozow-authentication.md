@@ -1,30 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ozow-openapi.yml
+- filename: ozow-banks-api-openapi.yml
+  format: yaml
+  label: Ozow Banks API
+  slug: ozow-banks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ozow/refs/heads/main/openapi/ozow-banks-api-openapi.yml
+- filename: ozow-payments-api-openapi.yml
   format: yaml
   label: Ozow Payments API
   slug: ozow-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ozow/refs/heads/main/openapi/ozow-openapi.yml
-- filename: ozow-openapi.yml
-  format: yaml
-  label: Ozow Transactions API
-  slug: ozow-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ozow/refs/heads/main/openapi/ozow-openapi.yml
-- filename: ozow-openapi.yml
-  format: yaml
-  label: Ozow Bank List API
-  slug: ozow-banks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ozow/refs/heads/main/openapi/ozow-openapi.yml
-- filename: ozow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ozow/refs/heads/main/openapi/ozow-payments-api-openapi.yml
+- filename: ozow-refunds-api-openapi.yml
   format: yaml
   label: Ozow Refunds API
   slug: ozow-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ozow/refs/heads/main/openapi/ozow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ozow/refs/heads/main/openapi/ozow-refunds-api-openapi.yml
+- filename: ozow-transactions-api-openapi.yml
+  format: yaml
+  label: Ozow Transactions API
+  slug: ozow-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ozow/refs/heads/main/openapi/ozow-transactions-api-openapi.yml
 auth_types:
 - apiKey
 - http

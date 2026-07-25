@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: gameflip-gfapi-openapi.yml
+- filename: gameflip-account-api-openapi.yml
   format: yaml
-  label: Gameflip API (GFAPI)
-  slug: gameflip-api-gfapi
+  label: Gameflip Account API
+  slug: gameflip-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/openapi/gameflip-gfapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/openapi/gameflip-account-api-openapi.yml
+- filename: gameflip-exchange-api-openapi.yml
+  format: yaml
+  label: Gameflip Exchange API
+  slug: gameflip-exchange-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/openapi/gameflip-exchange-api-openapi.yml
+- filename: gameflip-listing-api-openapi.yml
+  format: yaml
+  label: Gameflip Listing API
+  slug: gameflip-listing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/openapi/gameflip-listing-api-openapi.yml
+- filename: gameflip-profile-api-openapi.yml
+  format: yaml
+  label: Gameflip Profile API
+  slug: gameflip-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/openapi/gameflip-profile-api-openapi.yml
+- filename: gameflip-steam-bulk-api-openapi.yml
+  format: yaml
+  label: Gameflip Steam Bulk API
+  slug: gameflip-steam-bulk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/openapi/gameflip-steam-bulk-api-openapi.yml
+- filename: gameflip-steam-escrow-api-openapi.yml
+  format: yaml
+  label: Gameflip Steam Escrow API
+  slug: gameflip-steam-escrow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/openapi/gameflip-steam-escrow-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

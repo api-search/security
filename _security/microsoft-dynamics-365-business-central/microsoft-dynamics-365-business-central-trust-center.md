@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: dynamics-open-api
+- filename: microsoft-dynamics-365-business-central-companies-api-openapi.yml
   format: yaml
-  label: Business Central API (v2.0)
-  slug: api-v2
+  label: Microsoft Dynamics 365 Business Central Companies API
+  slug: microsoft-dynamics-365-business-central-companies-api
   spec_type: OpenAPI
-  url: https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-open-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-companies-api-openapi.yml
+- filename: microsoft-dynamics-365-business-central-customers-api-openapi.yml
+  format: yaml
+  label: Microsoft Dynamics 365 Business Central Customers API
+  slug: microsoft-dynamics-365-business-central-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-customers-api-openapi.yml
+- filename: microsoft-dynamics-365-business-central-items-api-openapi.yml
+  format: yaml
+  label: Microsoft Dynamics 365 Business Central Items API
+  slug: microsoft-dynamics-365-business-central-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-items-api-openapi.yml
+- filename: microsoft-dynamics-365-business-central-purchaseorders-api-openapi.yml
+  format: yaml
+  label: Microsoft Dynamics 365 Business Central PurchaseOrders API
+  slug: microsoft-dynamics-365-business-central-purchaseorders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-purchaseorders-api-openapi.yml
+- filename: microsoft-dynamics-365-business-central-salesinvoices-api-openapi.yml
+  format: yaml
+  label: Microsoft Dynamics 365 Business Central SalesInvoices API
+  slug: microsoft-dynamics-365-business-central-salesinvoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-salesinvoices-api-openapi.yml
+- filename: microsoft-dynamics-365-business-central-salesorders-api-openapi.yml
+  format: yaml
+  label: Microsoft Dynamics 365 Business Central SalesOrders API
+  slug: microsoft-dynamics-365-business-central-salesorders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-salesorders-api-openapi.yml
+- filename: microsoft-dynamics-365-business-central-vendors-api-openapi.yml
+  format: yaml
+  label: Microsoft Dynamics 365 Business Central Vendors API
+  slug: microsoft-dynamics-365-business-central-vendors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-vendors-api-openapi.yml
 certifications:
 - GDPR
 description: ''

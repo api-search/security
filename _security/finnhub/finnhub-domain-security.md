@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: finnhub-asyncapi.yml
-  format: yaml
+- filename: finnhub-swagger-original.json
+  format: json
   label: Finnhub
   slug: finnhub
-  spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/asyncapi/finnhub-asyncapi.yml
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/openapi/finnhub-swagger-original.json
+- filename: finnhub-company-news-api-openapi.yml
+  format: yaml
+  label: Finnhub Company News API
+  slug: finnhub-company-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/openapi/finnhub-company-news-api-openapi.yml
+- filename: finnhub-crypto-api-openapi.yml
+  format: yaml
+  label: Finnhub Crypto API
+  slug: finnhub-crypto-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/openapi/finnhub-crypto-api-openapi.yml
+- filename: finnhub-forex-api-openapi.yml
+  format: yaml
+  label: Finnhub Forex API
+  slug: finnhub-forex-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/openapi/finnhub-forex-api-openapi.yml
+- filename: finnhub-news-api-openapi.yml
+  format: yaml
+  label: Finnhub News API
+  slug: finnhub-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/openapi/finnhub-news-api-openapi.yml
+- filename: finnhub-quote-api-openapi.yml
+  format: yaml
+  label: Finnhub Quote API
+  slug: finnhub-quote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/openapi/finnhub-quote-api-openapi.yml
+- filename: finnhub-search-api-openapi.yml
+  format: yaml
+  label: Finnhub Search API
+  slug: finnhub-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/openapi/finnhub-search-api-openapi.yml
+- filename: finnhub-stock-api-openapi.yml
+  format: yaml
+  label: Finnhub Stock API
+  slug: finnhub-stock-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/openapi/finnhub-stock-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,4 +80,9 @@ tags:
 - Financial
 - Market Data
 - Stocks
+- Forex
+- Cryptocurrency
+- Fundamentals
+- News
+- WebSocket
 ---

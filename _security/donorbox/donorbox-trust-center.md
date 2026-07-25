@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: donorbox-openapi.yml
+- filename: donorbox-campaigns-api-openapi.yml
   format: yaml
   label: Donorbox Campaigns API
   slug: donorbox-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/openapi/donorbox-openapi.yml
-- filename: donorbox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/openapi/donorbox-campaigns-api-openapi.yml
+- filename: donorbox-donations-api-openapi.yml
   format: yaml
   label: Donorbox Donations API
   slug: donorbox-donations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/openapi/donorbox-openapi.yml
-- filename: donorbox-openapi.yml
-  format: yaml
-  label: Donorbox Plans API
-  slug: donorbox-plans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/openapi/donorbox-openapi.yml
-- filename: donorbox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/openapi/donorbox-donations-api-openapi.yml
+- filename: donorbox-donors-api-openapi.yml
   format: yaml
   label: Donorbox Donors API
   slug: donorbox-donors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/openapi/donorbox-openapi.yml
-- filename: donorbox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/openapi/donorbox-donors-api-openapi.yml
+- filename: donorbox-events-api-openapi.yml
   format: yaml
   label: Donorbox Events API
   slug: donorbox-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/openapi/donorbox-openapi.yml
-- filename: donorbox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/openapi/donorbox-events-api-openapi.yml
+- filename: donorbox-plans-api-openapi.yml
+  format: yaml
+  label: Donorbox Plans API
+  slug: donorbox-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/openapi/donorbox-plans-api-openapi.yml
+- filename: donorbox-purchases-api-openapi.yml
+  format: yaml
+  label: Donorbox Purchases API
+  slug: donorbox-purchases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/openapi/donorbox-purchases-api-openapi.yml
+- filename: donorbox-tickets-api-openapi.yml
   format: yaml
   label: Donorbox Tickets API
   slug: donorbox-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/openapi/donorbox-openapi.yml
-- filename: donorbox-openapi.yml
-  format: yaml
-  label: Donorbox Event Ticket Purchases API
-  slug: donorbox-purchases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/openapi/donorbox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/openapi/donorbox-tickets-api-openapi.yml
 certifications:
 - SOC 2
 - PCI DSS

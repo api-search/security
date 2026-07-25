@@ -1,35 +1,95 @@
 ---
 api_specs:
-- filename: pandadoc-rest-api-openapi.yml
+- filename: pandadoc-api-logs-api-openapi.yml
   format: yaml
-  label: PandaDoc REST API
-  slug: rest-api
+  label: PandaDoc API Logs API
+  slug: pandadoc-api-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-rest-api-openapi.yml
-- filename: pandadoc-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-api-logs-api-openapi.yml
+- filename: pandadoc-contacts-api-openapi.yml
   format: yaml
-  label: PandaDoc Document Generation API
-  slug: document-generation-api
+  label: PandaDoc Contacts API
+  slug: pandadoc-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-rest-api-openapi.yml
-- filename: pandadoc-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-contacts-api-openapi.yml
+- filename: pandadoc-document-attachments-api-openapi.yml
   format: yaml
-  label: PandaDoc E-Signature API
-  slug: e-signature-api
+  label: PandaDoc Document Attachments API
+  slug: pandadoc-document-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-rest-api-openapi.yml
-- filename: pandadoc-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-document-attachments-api-openapi.yml
+- filename: pandadoc-document-fields-api-openapi.yml
   format: yaml
-  label: PandaDoc Embedded Editing API
-  slug: embedded-editing-api
+  label: PandaDoc Document Fields API
+  slug: pandadoc-document-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-rest-api-openapi.yml
-- filename: pandadoc-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-document-fields-api-openapi.yml
+- filename: pandadoc-document-link-to-crm-api-openapi.yml
   format: yaml
-  label: PandaDoc Webhooks API
-  slug: webhooks-api
+  label: PandaDoc Document Link to CRM API
+  slug: pandadoc-document-link-to-crm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-document-link-to-crm-api-openapi.yml
+- filename: pandadoc-document-recipients-api-openapi.yml
+  format: yaml
+  label: PandaDoc Document Recipients API
+  slug: pandadoc-document-recipients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-document-recipients-api-openapi.yml
+- filename: pandadoc-document-reminders-api-openapi.yml
+  format: yaml
+  label: PandaDoc Document Reminders API
+  slug: pandadoc-document-reminders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-document-reminders-api-openapi.yml
+- filename: pandadoc-documents-api-openapi.yml
+  format: yaml
+  label: PandaDoc Documents API
+  slug: pandadoc-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-documents-api-openapi.yml
+- filename: pandadoc-folders-api-openapi.yml
+  format: yaml
+  label: PandaDoc Folders API
+  slug: pandadoc-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-folders-api-openapi.yml
+- filename: pandadoc-forms-api-openapi.yml
+  format: yaml
+  label: PandaDoc Forms API
+  slug: pandadoc-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-forms-api-openapi.yml
+- filename: pandadoc-members-api-openapi.yml
+  format: yaml
+  label: PandaDoc Members API
+  slug: pandadoc-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-members-api-openapi.yml
+- filename: pandadoc-templates-api-openapi.yml
+  format: yaml
+  label: PandaDoc Templates API
+  slug: pandadoc-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-templates-api-openapi.yml
+- filename: pandadoc-webhook-events-api-openapi.yml
+  format: yaml
+  label: PandaDoc Webhook Events API
+  slug: pandadoc-webhook-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-webhook-events-api-openapi.yml
+- filename: pandadoc-webhook-subscriptions-api-openapi.yml
+  format: yaml
+  label: PandaDoc Webhook Subscriptions API
+  slug: pandadoc-webhook-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-webhook-subscriptions-api-openapi.yml
+- filename: pandadoc-workspaces-api-openapi.yml
+  format: yaml
+  label: PandaDoc Workspaces API
+  slug: pandadoc-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa:

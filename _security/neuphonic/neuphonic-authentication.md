@@ -3,18 +3,36 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: sse
-  format: yaml
-  label: Neuphonic TTS SSE API
-  slug: neuphonic-tts-sse-api
-  spec_type: OpenAPI
-  url: https://docs.neuphonic.com/api-reference/tts/sse
 - filename: websocket
   format: yaml
   label: Neuphonic TTS WebSocket API
   slug: neuphonic-tts-websocket-api
   spec_type: AsyncAPI
   url: https://docs.neuphonic.com/api-reference/tts/websocket
+- filename: neuphonic-agents-api-openapi.yml
+  format: yaml
+  label: Neuphonic Agents API
+  slug: neuphonic-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/openapi/neuphonic-agents-api-openapi.yml
+- filename: neuphonic-ping-api-openapi.yml
+  format: yaml
+  label: Neuphonic Ping API
+  slug: neuphonic-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/openapi/neuphonic-ping-api-openapi.yml
+- filename: neuphonic-sse-api-openapi.yml
+  format: yaml
+  label: Neuphonic Sse API
+  slug: neuphonic-sse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/openapi/neuphonic-sse-api-openapi.yml
+- filename: neuphonic-voices-api-openapi.yml
+  format: yaml
+  label: Neuphonic Voices API
+  slug: neuphonic-voices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/openapi/neuphonic-voices-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

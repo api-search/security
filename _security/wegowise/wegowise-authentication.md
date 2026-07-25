@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: wegowise-openapi.yml
+- filename: wegowise-apartments-api-openapi.yml
   format: yaml
-  label: WegoWise API
-  slug: wegowise
+  label: WegoWise Apartments API
+  slug: wegowise-apartments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/openapi/wegowise-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/openapi/wegowise-apartments-api-openapi.yml
+- filename: wegowise-areas-api-openapi.yml
+  format: yaml
+  label: WegoWise Areas API
+  slug: wegowise-areas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/openapi/wegowise-areas-api-openapi.yml
+- filename: wegowise-buildings-api-openapi.yml
+  format: yaml
+  label: WegoWise Buildings API
+  slug: wegowise-buildings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/openapi/wegowise-buildings-api-openapi.yml
+- filename: wegowise-developments-api-openapi.yml
+  format: yaml
+  label: WegoWise Developments API
+  slug: wegowise-developments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/openapi/wegowise-developments-api-openapi.yml
+- filename: wegowise-meters-api-openapi.yml
+  format: yaml
+  label: WegoWise Meters API
+  slug: wegowise-meters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/openapi/wegowise-meters-api-openapi.yml
+- filename: wegowise-usage-data-api-openapi.yml
+  format: yaml
+  label: WegoWise Usage Data API
+  slug: wegowise-usage-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/openapi/wegowise-usage-data-api-openapi.yml
+- filename: wegowise-utility-companies-api-openapi.yml
+  format: yaml
+  label: WegoWise Utility Companies API
+  slug: wegowise-utility-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/openapi/wegowise-utility-companies-api-openapi.yml
+- filename: wegowise-utility-logins-api-openapi.yml
+  format: yaml
+  label: WegoWise Utility Logins API
+  slug: wegowise-utility-logins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/openapi/wegowise-utility-logins-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: soda-health-docs-portal-openapi-original.json
-  format: json
-  label: Evermore Docs Portal API
-  slug: evermore-docs-portal-api
+- filename: soda-health-docs-api-openapi.yml
+  format: yaml
+  label: Soda Health docs API
+  slug: soda-health-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/openapi/soda-health-docs-portal-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/openapi/soda-health-docs-api-openapi.yml
+- filename: soda-health-docs-auth-api-openapi.yml
+  format: yaml
+  label: Soda Health docs-auth API
+  slug: soda-health-docs-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/openapi/soda-health-docs-auth-api-openapi.yml
+- filename: soda-health-evermore-docs-portal-api-openapi.yml
+  format: yaml
+  label: Soda Health Evermore Docs Portal API
+  slug: soda-health-evermore-docs-portal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/openapi/soda-health-evermore-docs-portal-api-openapi.yml
+- filename: soda-health-health-api-openapi.yml
+  format: yaml
+  label: Soda Health health API
+  slug: soda-health-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/openapi/soda-health-health-api-openapi.yml
 auth_types:
 - http
 description: ''

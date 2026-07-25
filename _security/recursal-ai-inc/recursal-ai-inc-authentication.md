@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: recursal-ai-inc-featherless-openapi.yml
+- filename: recursal-ai-inc-account-api-openapi.yml
   format: yaml
-  label: Featherless AI Serverless Inference API
-  slug: featherless-ai-serverless-inference-api
+  label: Recursal AI, Inc. Account API
+  slug: recursal-ai-inc-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recursal-ai-inc/refs/heads/main/openapi/recursal-ai-inc-featherless-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/recursal-ai-inc/refs/heads/main/openapi/recursal-ai-inc-account-api-openapi.yml
+- filename: recursal-ai-inc-chat-api-openapi.yml
+  format: yaml
+  label: Recursal AI, Inc. Chat API
+  slug: recursal-ai-inc-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recursal-ai-inc/refs/heads/main/openapi/recursal-ai-inc-chat-api-openapi.yml
+- filename: recursal-ai-inc-models-api-openapi.yml
+  format: yaml
+  label: Recursal AI, Inc. Models API
+  slug: recursal-ai-inc-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recursal-ai-inc/refs/heads/main/openapi/recursal-ai-inc-models-api-openapi.yml
 auth_types:
 - http
 description: ''

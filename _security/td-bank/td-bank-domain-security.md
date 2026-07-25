@@ -1,23 +1,5 @@
 ---
 api_specs:
-- filename: td-bank-account-basic-api-openapi.yml
-  format: yaml
-  label: TD Bank Account Basic API
-  slug: account-basic-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/openapi/td-bank-account-basic-api-openapi.yml
-- filename: td-bank-account-detailed-api-openapi.yml
-  format: yaml
-  label: TD Bank Account Detailed API
-  slug: account-detailed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/openapi/td-bank-account-detailed-api-openapi.yml
-- filename: td-bank-customer-api-openapi.yml
-  format: yaml
-  label: TD Bank Customer API
-  slug: customer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/openapi/td-bank-customer-api-openapi.yml
 - filename: td-bank-transactions-api-openapi.yml
   format: yaml
   label: TD Bank Transactions API
@@ -36,48 +18,78 @@ api_specs:
   slug: tax-forms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/openapi/td-bank-tax-forms-api-openapi.yml
-- filename: td-bank-bill-payment-api-openapi.yml
-  format: yaml
-  label: TD Bank Bill Payment API
-  slug: bill-payment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/openapi/td-bank-bill-payment-api-openapi.yml
 - filename: td-bank-rewards-api-openapi.yml
   format: yaml
   label: TD Bank Rewards API
   slug: rewards-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/openapi/td-bank-rewards-api-openapi.yml
-- filename: td-bank-consent-api-openapi.yml
-  format: yaml
-  label: TD Bank Consent API
-  slug: consent-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/openapi/td-bank-consent-api-openapi.yml
-- filename: td-bank-token-api-openapi.yml
-  format: yaml
-  label: TD Bank Token API
-  slug: token-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/openapi/td-bank-token-api-openapi.yml
-- filename: td-bank-service-token-api-openapi.yml
-  format: yaml
-  label: TD Bank Service Token API
-  slug: service-token-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/openapi/td-bank-service-token-api-openapi.yml
-- filename: td-bank-apps-management-api-openapi.yml
-  format: yaml
-  label: TD Bank Apps Management API
-  slug: apps-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/openapi/td-bank-apps-management-api-openapi.yml
 - filename: td-bank-notifications-api-openapi.yml
   format: yaml
   label: TD Bank Notifications API
   slug: notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/openapi/td-bank-notifications-api-openapi.yml
+- filename: td-bank-accounts-api-openapi.yml
+  format: yaml
+  label: TD Bank Accounts API
+  slug: td-bank-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/openapi/td-bank-accounts-api-openapi.yml
+- filename: td-bank-apps-api-openapi.yml
+  format: yaml
+  label: TD Bank Apps API
+  slug: td-bank-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/openapi/td-bank-apps-api-openapi.yml
+- filename: td-bank-bill-payments-api-openapi.yml
+  format: yaml
+  label: TD Bank Bill Payments API
+  slug: td-bank-bill-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/openapi/td-bank-bill-payments-api-openapi.yml
+- filename: td-bank-clusters-api-openapi.yml
+  format: yaml
+  label: TD Bank Clusters API
+  slug: td-bank-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/openapi/td-bank-clusters-api-openapi.yml
+- filename: td-bank-consents-api-openapi.yml
+  format: yaml
+  label: TD Bank Consents API
+  slug: td-bank-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/openapi/td-bank-consents-api-openapi.yml
+- filename: td-bank-customers-api-openapi.yml
+  format: yaml
+  label: TD Bank Customers API
+  slug: td-bank-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/openapi/td-bank-customers-api-openapi.yml
+- filename: td-bank-payees-api-openapi.yml
+  format: yaml
+  label: TD Bank Payees API
+  slug: td-bank-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/openapi/td-bank-payees-api-openapi.yml
+- filename: td-bank-service-tokens-api-openapi.yml
+  format: yaml
+  label: TD Bank Service Tokens API
+  slug: td-bank-service-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/openapi/td-bank-service-tokens-api-openapi.yml
+- filename: td-bank-subscriptions-api-openapi.yml
+  format: yaml
+  label: TD Bank Subscriptions API
+  slug: td-bank-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/openapi/td-bank-subscriptions-api-openapi.yml
+- filename: td-bank-tokens-api-openapi.yml
+  format: yaml
+  label: TD Bank Tokens API
+  slug: td-bank-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/openapi/td-bank-tokens-api-openapi.yml
 description: ''
 domains:
 - caa: []

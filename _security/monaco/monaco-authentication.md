@@ -2,12 +2,72 @@
 api_key_in:
 - header
 api_specs:
-- filename: monaco-openapi-original.json
-  format: json
-  label: Monaco Public API
-  slug: monaco-public-api
+- filename: monaco-accounts-api-openapi.yml
+  format: yaml
+  label: Monaco Accounts API
+  slug: monaco-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-accounts-api-openapi.yml
+- filename: monaco-auth-api-openapi.yml
+  format: yaml
+  label: Monaco Auth API
+  slug: monaco-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-auth-api-openapi.yml
+- filename: monaco-contacts-api-openapi.yml
+  format: yaml
+  label: Monaco Contacts API
+  slug: monaco-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-contacts-api-openapi.yml
+- filename: monaco-meetings-api-openapi.yml
+  format: yaml
+  label: Monaco Meetings API
+  slug: monaco-meetings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-meetings-api-openapi.yml
+- filename: monaco-opportunities-api-openapi.yml
+  format: yaml
+  label: Monaco Opportunities API
+  slug: monaco-opportunities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-opportunities-api-openapi.yml
+- filename: monaco-schemas-api-openapi.yml
+  format: yaml
+  label: Monaco Schemas API
+  slug: monaco-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-schemas-api-openapi.yml
+- filename: monaco-sequence-templates-api-openapi.yml
+  format: yaml
+  label: Monaco Sequence Templates API
+  slug: monaco-sequence-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-sequence-templates-api-openapi.yml
+- filename: monaco-sequences-api-openapi.yml
+  format: yaml
+  label: Monaco Sequences API
+  slug: monaco-sequences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-sequences-api-openapi.yml
+- filename: monaco-tags-api-openapi.yml
+  format: yaml
+  label: Monaco Tags API
+  slug: monaco-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-tags-api-openapi.yml
+- filename: monaco-tasks-api-openapi.yml
+  format: yaml
+  label: Monaco Tasks API
+  slug: monaco-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-tasks-api-openapi.yml
+- filename: monaco-users-api-openapi.yml
+  format: yaml
+  label: Monaco Users API
+  slug: monaco-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

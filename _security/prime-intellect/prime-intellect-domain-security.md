@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: prime-intellect-compute-api-openapi.yml
-  format: yaml
-  label: Prime Intellect Compute API
-  slug: prime-intellect-compute-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-compute-api-openapi.yml
 - filename: prime-intellect-sandbox-api-openapi.yml
   format: yaml
   label: Prime Intellect Sandbox API
@@ -18,24 +12,114 @@ api_specs:
   slug: prime-intellect-training-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-training-api-openapi.yml
-- filename: prime-intellect-evaluations-api-openapi.yml
-  format: yaml
-  label: Prime Intellect Evaluations API
-  slug: prime-intellect-evaluations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-evaluations-api-openapi.yml
 - filename: prime-intellect-inference-api-openapi.yml
   format: yaml
   label: Prime Intellect Inference API
   slug: prime-intellect-inference-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-inference-api-openapi.yml
-- filename: prime-intellect-platform-api-openapi.yml
+- filename: prime-intellect-admin-clusters-api-openapi.yml
   format: yaml
-  label: Prime Intellect Platform API
-  slug: prime-intellect-platform-api
+  label: Prime Intellect admin-clusters API
+  slug: prime-intellect-admin-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-platform-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-admin-clusters-api-openapi.yml
+- filename: prime-intellect-admin-users-api-openapi.yml
+  format: yaml
+  label: Prime Intellect admin-users API
+  slug: prime-intellect-admin-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-admin-users-api-openapi.yml
+- filename: prime-intellect-availability-api-openapi.yml
+  format: yaml
+  label: Prime Intellect Availability API
+  slug: prime-intellect-availability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-availability-api-openapi.yml
+- filename: prime-intellect-billing-api-openapi.yml
+  format: yaml
+  label: Prime Intellect Billing API
+  slug: prime-intellect-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-billing-api-openapi.yml
+- filename: prime-intellect-disks-api-openapi.yml
+  format: yaml
+  label: Prime Intellect Disks API
+  slug: prime-intellect-disks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-disks-api-openapi.yml
+- filename: prime-intellect-evals-api-openapi.yml
+  format: yaml
+  label: Prime Intellect evals API
+  slug: prime-intellect-evals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-evals-api-openapi.yml
+- filename: prime-intellect-feedback-api-openapi.yml
+  format: yaml
+  label: Prime Intellect Feedback API
+  slug: prime-intellect-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-feedback-api-openapi.yml
+- filename: prime-intellect-frp-plugin-api-openapi.yml
+  format: yaml
+  label: Prime Intellect FRP Plugin API
+  slug: prime-intellect-frp-plugin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-frp-plugin-api-openapi.yml
+- filename: prime-intellect-hosted-evaluations-api-openapi.yml
+  format: yaml
+  label: Prime Intellect hosted-evaluations API
+  slug: prime-intellect-hosted-evaluations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-hosted-evaluations-api-openapi.yml
+- filename: prime-intellect-images-api-openapi.yml
+  format: yaml
+  label: Prime Intellect Images API
+  slug: prime-intellect-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-images-api-openapi.yml
+- filename: prime-intellect-pods-api-openapi.yml
+  format: yaml
+  label: Prime Intellect Pods API
+  slug: prime-intellect-pods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-pods-api-openapi.yml
+- filename: prime-intellect-secrets-api-openapi.yml
+  format: yaml
+  label: Prime Intellect Secrets API
+  slug: prime-intellect-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-secrets-api-openapi.yml
+- filename: prime-intellect-ssh-keys-api-openapi.yml
+  format: yaml
+  label: Prime Intellect SSH Keys API
+  slug: prime-intellect-ssh-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-ssh-keys-api-openapi.yml
+- filename: prime-intellect-teams-api-openapi.yml
+  format: yaml
+  label: Prime Intellect teams API
+  slug: prime-intellect-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-teams-api-openapi.yml
+- filename: prime-intellect-template-api-openapi.yml
+  format: yaml
+  label: Prime Intellect Template API
+  slug: prime-intellect-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-template-api-openapi.yml
+- filename: prime-intellect-tunnel-api-openapi.yml
+  format: yaml
+  label: Prime Intellect Tunnel API
+  slug: prime-intellect-tunnel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-tunnel-api-openapi.yml
+- filename: prime-intellect-user-api-openapi.yml
+  format: yaml
+  label: Prime Intellect user API
+  slug: prime-intellect-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

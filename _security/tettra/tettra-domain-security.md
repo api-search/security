@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: tettra-teams-api-openapi.yml
   format: yaml
-  label: Tettra REST API
-  slug: tettra-rest-api
+  label: Tettra Teams API
+  slug: tettra-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tettra/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tettra/refs/heads/main/openapi/tettra-teams-api-openapi.yml
 description: ''
 domains:
 - caa: []

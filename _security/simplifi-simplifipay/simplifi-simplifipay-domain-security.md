@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: simplifi-simplifipay-openapi.yml
+- filename: simplifi-simplifipay-auth-api-openapi.yml
   format: yaml
-  label: SimpliFi Cards API
-  slug: simplifi-cards-api
+  label: Simplifi/Simplifipay Auth API
+  slug: simplifi-simplifipay-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-auth-api-openapi.yml
+- filename: simplifi-simplifipay-card-api-openapi.yml
+  format: yaml
+  label: Simplifi/Simplifipay Card API
+  slug: simplifi-simplifipay-card-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-card-api-openapi.yml
+- filename: simplifi-simplifipay-card-program-api-openapi.yml
+  format: yaml
+  label: Simplifi/Simplifipay Card Program API
+  slug: simplifi-simplifipay-card-program-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-card-program-api-openapi.yml
+- filename: simplifi-simplifipay-document-api-openapi.yml
+  format: yaml
+  label: Simplifi/Simplifipay Document API
+  slug: simplifi-simplifipay-document-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-document-api-openapi.yml
+- filename: simplifi-simplifipay-fee-api-openapi.yml
+  format: yaml
+  label: Simplifi/Simplifipay Fee API
+  slug: simplifi-simplifipay-fee-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-fee-api-openapi.yml
+- filename: simplifi-simplifipay-funding-source-api-openapi.yml
+  format: yaml
+  label: Simplifi/Simplifipay Funding Source API
+  slug: simplifi-simplifipay-funding-source-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-funding-source-api-openapi.yml
+- filename: simplifi-simplifipay-transaction-api-openapi.yml
+  format: yaml
+  label: Simplifi/Simplifipay Transaction API
+  slug: simplifi-simplifipay-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-transaction-api-openapi.yml
+- filename: simplifi-simplifipay-user-api-openapi.yml
+  format: yaml
+  label: Simplifi/Simplifipay User API
+  slug: simplifi-simplifipay-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-user-api-openapi.yml
+- filename: simplifi-simplifipay-webhook-api-openapi.yml
+  format: yaml
+  label: Simplifi/Simplifipay Webhook API
+  slug: simplifi-simplifipay-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-webhook-api-openapi.yml
 description: ''
 domains:
 - caa: []

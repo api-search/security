@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: neverbounce-openapi.yml
+- filename: neverbounce-account-api-openapi.yml
   format: yaml
-  label: NeverBounce API v4
-  slug: v4-api
+  label: NeverBounce Account API
+  slug: neverbounce-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/openapi/neverbounce-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/openapi/neverbounce-account-api-openapi.yml
+- filename: neverbounce-jobs-api-openapi.yml
+  format: yaml
+  label: NeverBounce Jobs API
+  slug: neverbounce-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/openapi/neverbounce-jobs-api-openapi.yml
+- filename: neverbounce-single-api-openapi.yml
+  format: yaml
+  label: NeverBounce Single API
+  slug: neverbounce-single-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/openapi/neverbounce-single-api-openapi.yml
 description: ''
 domains:
 - caa: []

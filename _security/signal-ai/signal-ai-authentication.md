@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: signal-ai-openapi-original.json
-  format: json
-  label: Signal AI API
-  slug: signal-ai-api
+- filename: signal-ai-affinity-api-openapi.yml
+  format: yaml
+  label: Signal AI Affinity API
+  slug: signal-ai-affinity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/openapi/signal-ai-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/openapi/signal-ai-affinity-api-openapi.yml
+- filename: signal-ai-categories-api-openapi.yml
+  format: yaml
+  label: Signal AI Categories API
+  slug: signal-ai-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/openapi/signal-ai-categories-api-openapi.yml
+- filename: signal-ai-content-metrics-api-openapi.yml
+  format: yaml
+  label: Signal AI Content Metrics API
+  slug: signal-ai-content-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/openapi/signal-ai-content-metrics-api-openapi.yml
+- filename: signal-ai-content-search-api-openapi.yml
+  format: yaml
+  label: Signal AI Content Search API
+  slug: signal-ai-content-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/openapi/signal-ai-content-search-api-openapi.yml
+- filename: signal-ai-entities-api-openapi.yml
+  format: yaml
+  label: Signal AI Entities API
+  slug: signal-ai-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/openapi/signal-ai-entities-api-openapi.yml
+- filename: signal-ai-events-api-openapi.yml
+  format: yaml
+  label: Signal AI Events API
+  slug: signal-ai-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/openapi/signal-ai-events-api-openapi.yml
+- filename: signal-ai-openapi-json-api-openapi.yml
+  format: yaml
+  label: Signal AI Openapi.json API
+  slug: signal-ai-openapi-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/openapi/signal-ai-openapi-json-api-openapi.yml
+- filename: signal-ai-publication-sources-api-openapi.yml
+  format: yaml
+  label: Signal AI Publication sources API
+  slug: signal-ai-publication-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/openapi/signal-ai-publication-sources-api-openapi.yml
+- filename: signal-ai-risk-events-api-openapi.yml
+  format: yaml
+  label: Signal AI Risk Events API
+  slug: signal-ai-risk-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/openapi/signal-ai-risk-events-api-openapi.yml
+- filename: signal-ai-topics-api-openapi.yml
+  format: yaml
+  label: Signal AI Topics API
+  slug: signal-ai-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/openapi/signal-ai-topics-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

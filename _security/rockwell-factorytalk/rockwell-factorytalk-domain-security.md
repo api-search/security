@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: rockwell-factorytalk-optix-openapi.yml
-  format: yaml
-  label: Rockwell FactoryTalk Optix REST API
-  slug: factorytalk-optix-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/openapi/rockwell-factorytalk-optix-openapi.yml
 - filename: rockwell-factorytalk-realtime-asyncapi.yml
   format: yaml
   label: Rockwell FactoryTalk Hub API
   slug: factorytalk-hub-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/asyncapi/rockwell-factorytalk-realtime-asyncapi.yml
+- filename: rockwell-factorytalk-alarms-api-openapi.yml
+  format: yaml
+  label: rockwell-factorytalk Alarms API
+  slug: rockwell-factorytalk-alarms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/openapi/rockwell-factorytalk-alarms-api-openapi.yml
+- filename: rockwell-factorytalk-recipes-api-openapi.yml
+  format: yaml
+  label: rockwell-factorytalk Recipes API
+  slug: rockwell-factorytalk-recipes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/openapi/rockwell-factorytalk-recipes-api-openapi.yml
+- filename: rockwell-factorytalk-tags-api-openapi.yml
+  format: yaml
+  label: rockwell-factorytalk Tags API
+  slug: rockwell-factorytalk-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/openapi/rockwell-factorytalk-tags-api-openapi.yml
+- filename: rockwell-factorytalk-trenddata-api-openapi.yml
+  format: yaml
+  label: rockwell-factorytalk TrendData API
+  slug: rockwell-factorytalk-trenddata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/openapi/rockwell-factorytalk-trenddata-api-openapi.yml
 description: ''
 domains:
 - caa:

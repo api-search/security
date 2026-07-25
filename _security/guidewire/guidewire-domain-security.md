@@ -1,23 +1,53 @@
 ---
 api_specs:
-- filename: guidewire-policycenter-openapi.yml
-  format: yaml
-  label: Guidewire PolicyCenter API
-  slug: guidewire-policycenter-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-policycenter-openapi.yml
-- filename: guidewire-claimcenter-openapi.yml
-  format: yaml
-  label: Guidewire ClaimCenter API
-  slug: guidewire-claimcenter-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-claimcenter-openapi.yml
 - filename: guidewire-integration-gateway-asyncapi.yml
   format: yaml
   label: Guidewire Integration Gateway API
   slug: guidewire-integration-gateway-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/asyncapi/guidewire-integration-gateway-asyncapi.yml
+- filename: guidewire-accounts-api-openapi.yml
+  format: yaml
+  label: Guidewire Accounts API
+  slug: guidewire-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-accounts-api-openapi.yml
+- filename: guidewire-claims-api-openapi.yml
+  format: yaml
+  label: Guidewire Claims API
+  slug: guidewire-claims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-claims-api-openapi.yml
+- filename: guidewire-exposures-api-openapi.yml
+  format: yaml
+  label: Guidewire Exposures API
+  slug: guidewire-exposures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-exposures-api-openapi.yml
+- filename: guidewire-fnol-api-openapi.yml
+  format: yaml
+  label: Guidewire FNOL API
+  slug: guidewire-fnol-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-fnol-api-openapi.yml
+- filename: guidewire-payments-api-openapi.yml
+  format: yaml
+  label: Guidewire Payments API
+  slug: guidewire-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-payments-api-openapi.yml
+- filename: guidewire-policies-api-openapi.yml
+  format: yaml
+  label: Guidewire Policies API
+  slug: guidewire-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-policies-api-openapi.yml
+- filename: guidewire-quotes-api-openapi.yml
+  format: yaml
+  label: Guidewire Quotes API
+  slug: guidewire-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-quotes-api-openapi.yml
 description: ''
 domains:
 - caa:

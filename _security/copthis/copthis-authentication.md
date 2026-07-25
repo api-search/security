@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: copthis-partner-api-openapi.yml
+- filename: copthis-orders-api-openapi.yml
   format: yaml
-  label: Merchbar Partner API
-  slug: merchbar-partner-api
+  label: CopThis Orders API
+  slug: copthis-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copthis/refs/heads/main/openapi/copthis-partner-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/copthis/refs/heads/main/openapi/copthis-orders-api-openapi.yml
+- filename: copthis-stores-api-openapi.yml
+  format: yaml
+  label: CopThis Stores API
+  slug: copthis-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/copthis/refs/heads/main/openapi/copthis-stores-api-openapi.yml
 auth_types:
 - http
 description: ''

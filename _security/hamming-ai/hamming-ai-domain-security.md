@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: hamming-ai-openapi.yml
+- filename: hamming-ai-datasets-api-openapi.yml
   format: yaml
-  label: Hamming Experiments & Test Runs API
-  slug: experiments-test-runs
+  label: Hamming AI Datasets API
+  slug: hamming-ai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hamming-ai/refs/heads/main/openapi/hamming-ai-openapi.yml
-- filename: hamming-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hamming-ai/refs/heads/main/openapi/hamming-ai-datasets-api-openapi.yml
+- filename: hamming-ai-experiments-api-openapi.yml
   format: yaml
-  label: Hamming Voice & Call Testing API
-  slug: voice-call-testing
+  label: Hamming AI Experiments API
+  slug: hamming-ai-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hamming-ai/refs/heads/main/openapi/hamming-ai-openapi.yml
-- filename: hamming-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hamming-ai/refs/heads/main/openapi/hamming-ai-experiments-api-openapi.yml
+- filename: hamming-ai-monitoring-api-openapi.yml
   format: yaml
-  label: Hamming Datasets API
-  slug: datasets
+  label: Hamming AI Monitoring API
+  slug: hamming-ai-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hamming-ai/refs/heads/main/openapi/hamming-ai-openapi.yml
-- filename: hamming-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hamming-ai/refs/heads/main/openapi/hamming-ai-monitoring-api-openapi.yml
+- filename: hamming-ai-prompts-api-openapi.yml
   format: yaml
-  label: Hamming Scorers & Evaluations API
-  slug: scorers-evaluations
+  label: Hamming AI Prompts API
+  slug: hamming-ai-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hamming-ai/refs/heads/main/openapi/hamming-ai-openapi.yml
-- filename: hamming-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hamming-ai/refs/heads/main/openapi/hamming-ai-prompts-api-openapi.yml
+- filename: hamming-ai-scoring-api-openapi.yml
   format: yaml
-  label: Hamming Monitoring & Tracing API
-  slug: monitoring-tracing
+  label: Hamming AI Scoring API
+  slug: hamming-ai-scoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hamming-ai/refs/heads/main/openapi/hamming-ai-openapi.yml
-- filename: hamming-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hamming-ai/refs/heads/main/openapi/hamming-ai-scoring-api-openapi.yml
+- filename: hamming-ai-voice-testing-api-openapi.yml
   format: yaml
-  label: Hamming Prompt Optimizer & Registry API
-  slug: prompts
+  label: Hamming AI Voice Testing API
+  slug: hamming-ai-voice-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hamming-ai/refs/heads/main/openapi/hamming-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hamming-ai/refs/heads/main/openapi/hamming-ai-voice-testing-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: tyson-foods-edi-integration-api-openapi.yml
+- filename: tyson-foods-orders-api-openapi.yml
   format: yaml
-  label: Tyson Foods EDI Integration API
-  slug: tyson-foods-edi-integration-api
+  label: Tyson Foods Orders API
+  slug: tyson-foods-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/openapi/tyson-foods-edi-integration-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/openapi/tyson-foods-orders-api-openapi.yml
+- filename: tyson-foods-shipments-api-openapi.yml
+  format: yaml
+  label: Tyson Foods Shipments API
+  slug: tyson-foods-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/openapi/tyson-foods-shipments-api-openapi.yml
 description: ''
 domains:
 - caa: []

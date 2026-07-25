@@ -1,35 +1,77 @@
 ---
 api_specs:
-- filename: Authentication_OpenAPI.json
-  format: json
-  label: Workday Authentication API
-  slug: workday-authentication-api
+- filename: workday-security-account-signons-api-openapi.yml
+  format: yaml
+  label: Workday Security Account Signons API
+  slug: workday-security-account-signons-api
   spec_type: OpenAPI
-  url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Security/v44.0/Authentication_OpenAPI.json
-- filename: Identity_Management_OpenAPI.json
-  format: json
-  label: Workday Identity Management API
-  slug: workday-identity-management-api
+  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-account-signons-api-openapi.yml
+- filename: workday-security-audit-logs-api-openapi.yml
+  format: yaml
+  label: Workday Security Audit Logs API
+  slug: workday-security-audit-logs-api
   spec_type: OpenAPI
-  url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Security/v44.0/Identity_Management_OpenAPI.json
-- filename: Security_Groups_OpenAPI.json
-  format: json
-  label: Workday Security Groups API
-  slug: workday-security-groups-api
+  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-audit-logs-api-openapi.yml
+- filename: workday-security-authentication-configuration-api-openapi.yml
+  format: yaml
+  label: Workday Security Authentication Configuration API
+  slug: workday-security-authentication-configuration-api
   spec_type: OpenAPI
-  url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Security/v44.0/Security_Groups_OpenAPI.json
-- filename: Audit_OpenAPI.json
-  format: json
-  label: Workday Audit and Compliance API
-  slug: workday-audit-and-compliance-api
+  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-authentication-configuration-api-openapi.yml
+- filename: workday-security-compliance-reports-api-openapi.yml
+  format: yaml
+  label: Workday Security Compliance Reports API
+  slug: workday-security-compliance-reports-api
   spec_type: OpenAPI
-  url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Security/v44.0/Audit_OpenAPI.json
-- filename: Privacy_OpenAPI.json
-  format: json
-  label: Workday Privacy API
-  slug: workday-privacy-api
+  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-compliance-reports-api-openapi.yml
+- filename: workday-security-domain-security-policies-api-openapi.yml
+  format: yaml
+  label: Workday Security Domain Security Policies API
+  slug: workday-security-domain-security-policies-api
   spec_type: OpenAPI
-  url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Security/v44.0/Privacy_OpenAPI.json
+  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-domain-security-policies-api-openapi.yml
+- filename: workday-security-oauth-tokens-api-openapi.yml
+  format: yaml
+  label: Workday Security OAuth Tokens API
+  slug: workday-security-oauth-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-oauth-tokens-api-openapi.yml
+- filename: workday-security-security-audit-api-openapi.yml
+  format: yaml
+  label: Workday Security Security Audit API
+  slug: workday-security-security-audit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-security-audit-api-openapi.yml
+- filename: workday-security-security-group-members-api-openapi.yml
+  format: yaml
+  label: Workday Security Security Group Members API
+  slug: workday-security-security-group-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-security-group-members-api-openapi.yml
+- filename: workday-security-security-groups-api-openapi.yml
+  format: yaml
+  label: Workday Security Security Groups API
+  slug: workday-security-security-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-security-groups-api-openapi.yml
+- filename: workday-security-sessions-api-openapi.yml
+  format: yaml
+  label: Workday Security Sessions API
+  slug: workday-security-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-sessions-api-openapi.yml
+- filename: workday-security-unidentified-signons-api-openapi.yml
+  format: yaml
+  label: Workday Security Unidentified Signons API
+  slug: workday-security-unidentified-signons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-unidentified-signons-api-openapi.yml
+- filename: workday-security-user-accounts-api-openapi.yml
+  format: yaml
+  label: Workday Security User Accounts API
+  slug: workday-security-user-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-user-accounts-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: aito-technologies-openapi-original.yml
+- filename: aito-technologies-data-api-openapi.yml
   format: yaml
-  label: Aito.ai Query API
-  slug: aitoai-query-api
+  label: Aito Technologies data API
+  slug: aito-technologies-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-data-api-openapi.yml
+- filename: aito-technologies-query-api-openapi.yml
+  format: yaml
+  label: Aito Technologies query API
+  slug: aito-technologies-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-query-api-openapi.yml
+- filename: aito-technologies-schema-api-openapi.yml
+  format: yaml
+  label: Aito Technologies schema API
+  slug: aito-technologies-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-schema-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

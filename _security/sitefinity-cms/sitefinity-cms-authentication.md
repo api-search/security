@@ -2,12 +2,24 @@
 api_key_in:
 - cookie
 api_specs:
-- filename: sitefinity-cms-content-api-openapi.yml
+- filename: sitefinity-cms-blog-posts-api-openapi.yml
   format: yaml
-  label: Sitefinity CMS Content API
-  slug: content-api
+  label: Sitefinity CMS Blog Posts API
+  slug: sitefinity-cms-blog-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/openapi/sitefinity-cms-content-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/openapi/sitefinity-cms-blog-posts-api-openapi.yml
+- filename: sitefinity-cms-events-api-openapi.yml
+  format: yaml
+  label: Sitefinity CMS Events API
+  slug: sitefinity-cms-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/openapi/sitefinity-cms-events-api-openapi.yml
+- filename: sitefinity-cms-news-items-api-openapi.yml
+  format: yaml
+  label: Sitefinity CMS News Items API
+  slug: sitefinity-cms-news-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/openapi/sitefinity-cms-news-items-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,41 +1,35 @@
 ---
 api_specs:
-- filename: bodytrace-openapi.yml
-  format: yaml
-  label: BodyTrace Observations (Data Values) API
-  slug: bodytrace-observations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-openapi.yml
-- filename: bodytrace-openapi.yml
-  format: yaml
-  label: BodyTrace Data Messages API
-  slug: bodytrace-datamessages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-openapi.yml
-- filename: bodytrace-openapi.yml
-  format: yaml
-  label: BodyTrace Devices API
-  slug: bodytrace-devices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-openapi.yml
-- filename: bodytrace-openapi.yml
+- filename: bodytrace-alerts-api-openapi.yml
   format: yaml
   label: BodyTrace Alerts API
   slug: bodytrace-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-openapi.yml
-- filename: bodytrace-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-alerts-api-openapi.yml
+- filename: bodytrace-data-messages-api-openapi.yml
+  format: yaml
+  label: BodyTrace Data Messages API
+  slug: bodytrace-data-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-data-messages-api-openapi.yml
+- filename: bodytrace-devices-api-openapi.yml
+  format: yaml
+  label: BodyTrace Devices API
+  slug: bodytrace-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-devices-api-openapi.yml
+- filename: bodytrace-observations-api-openapi.yml
+  format: yaml
+  label: BodyTrace Observations API
+  slug: bodytrace-observations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-observations-api-openapi.yml
+- filename: bodytrace-provisioning-api-openapi.yml
   format: yaml
   label: BodyTrace Provisioning API
   slug: bodytrace-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-openapi.yml
-- filename: bodytrace-openapi.yml
-  format: yaml
-  label: BodyTrace Measurement Webhook (Push) API
-  slug: bodytrace-measurement-webhook-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-provisioning-api-openapi.yml
 description: ''
 domains:
 - caa:

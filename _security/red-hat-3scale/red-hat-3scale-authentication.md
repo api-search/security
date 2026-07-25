@@ -2,36 +2,84 @@
 api_key_in:
 - query
 api_specs:
-- filename: red-hat-3scale-service-management-openapi.yml
+- filename: red-hat-3scale-accounts-api-openapi.yml
   format: yaml
-  label: Red Hat 3scale Service Management API
-  slug: service-management-api
+  label: Red Hat 3scale Accounts API
+  slug: red-hat-3scale-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-service-management-openapi.yml
-- filename: red-hat-3scale-account-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-accounts-api-openapi.yml
+- filename: red-hat-3scale-applications-api-openapi.yml
   format: yaml
-  label: Red Hat 3scale Account Management API
-  slug: account-management-api
+  label: Red Hat 3scale Applications API
+  slug: red-hat-3scale-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-account-management-openapi.yml
-- filename: red-hat-3scale-analytics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-applications-api-openapi.yml
+- filename: red-hat-3scale-authorization-api-openapi.yml
   format: yaml
-  label: Red Hat 3scale Analytics API
-  slug: analytics-api
+  label: Red Hat 3scale Authorization API
+  slug: red-hat-3scale-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-analytics-openapi.yml
-- filename: red-hat-3scale-billing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-authorization-api-openapi.yml
+- filename: red-hat-3scale-configuration-api-openapi.yml
   format: yaml
-  label: Red Hat 3scale Billing API
-  slug: billing-api
+  label: Red Hat 3scale Configuration API
+  slug: red-hat-3scale-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-billing-openapi.yml
-- filename: red-hat-3scale-apicast-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-configuration-api-openapi.yml
+- filename: red-hat-3scale-dns-api-openapi.yml
   format: yaml
-  label: Red Hat 3scale APIcast Management API
-  slug: apicast-management-api
+  label: Red Hat 3scale DNS API
+  slug: red-hat-3scale-dns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-apicast-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-dns-api-openapi.yml
+- filename: red-hat-3scale-health-api-openapi.yml
+  format: yaml
+  label: Red Hat 3scale Health API
+  slug: red-hat-3scale-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-health-api-openapi.yml
+- filename: red-hat-3scale-initialization-api-openapi.yml
+  format: yaml
+  label: Red Hat 3scale Initialization API
+  slug: red-hat-3scale-initialization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-initialization-api-openapi.yml
+- filename: red-hat-3scale-invoices-api-openapi.yml
+  format: yaml
+  label: Red Hat 3scale Invoices API
+  slug: red-hat-3scale-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-invoices-api-openapi.yml
+- filename: red-hat-3scale-oauth-api-openapi.yml
+  format: yaml
+  label: Red Hat 3scale OAuth API
+  slug: red-hat-3scale-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-oauth-api-openapi.yml
+- filename: red-hat-3scale-payment-transactions-api-openapi.yml
+  format: yaml
+  label: Red Hat 3scale Payment Transactions API
+  slug: red-hat-3scale-payment-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-payment-transactions-api-openapi.yml
+- filename: red-hat-3scale-plans-api-openapi.yml
+  format: yaml
+  label: Red Hat 3scale Plans API
+  slug: red-hat-3scale-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-plans-api-openapi.yml
+- filename: red-hat-3scale-reporting-api-openapi.yml
+  format: yaml
+  label: Red Hat 3scale Reporting API
+  slug: red-hat-3scale-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-reporting-api-openapi.yml
+- filename: red-hat-3scale-services-api-openapi.yml
+  format: yaml
+  label: Red Hat 3scale Services API
+  slug: red-hat-3scale-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-services-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

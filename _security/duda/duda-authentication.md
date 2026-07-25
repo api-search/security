@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: duda-partner-api.json
-  format: json
-  label: Duda Partner API
-  slug: partner-api
+- filename: duda-accounts-api-openapi.yml
+  format: yaml
+  label: Duda Accounts API
+  slug: duda-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duda/refs/heads/main/openapi/duda-partner-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/duda/refs/heads/main/openapi/duda-accounts-api-openapi.yml
+- filename: duda-authentication-api-openapi.yml
+  format: yaml
+  label: Duda Authentication API
+  slug: duda-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duda/refs/heads/main/openapi/duda-authentication-api-openapi.yml
+- filename: duda-blog-api-openapi.yml
+  format: yaml
+  label: Duda Blog API
+  slug: duda-blog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duda/refs/heads/main/openapi/duda-blog-api-openapi.yml
+- filename: duda-collections-api-openapi.yml
+  format: yaml
+  label: Duda Collections API
+  slug: duda-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duda/refs/heads/main/openapi/duda-collections-api-openapi.yml
+- filename: duda-ecommerce-orders-api-openapi.yml
+  format: yaml
+  label: Duda eCommerce - Orders API
+  slug: duda-ecommerce-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duda/refs/heads/main/openapi/duda-ecommerce-orders-api-openapi.yml
+- filename: duda-ecommerce-products-api-openapi.yml
+  format: yaml
+  label: Duda eCommerce - Products API
+  slug: duda-ecommerce-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duda/refs/heads/main/openapi/duda-ecommerce-products-api-openapi.yml
+- filename: duda-pages-api-openapi.yml
+  format: yaml
+  label: Duda Pages API
+  slug: duda-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duda/refs/heads/main/openapi/duda-pages-api-openapi.yml
+- filename: duda-sites-api-openapi.yml
+  format: yaml
+  label: Duda Sites API
+  slug: duda-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duda/refs/heads/main/openapi/duda-sites-api-openapi.yml
+- filename: duda-templates-api-openapi.yml
+  format: yaml
+  label: Duda Templates API
+  slug: duda-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duda/refs/heads/main/openapi/duda-templates-api-openapi.yml
+- filename: duda-webhooks-api-openapi.yml
+  format: yaml
+  label: Duda Webhooks API
+  slug: duda-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duda/refs/heads/main/openapi/duda-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

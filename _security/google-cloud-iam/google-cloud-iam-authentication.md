@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-iam-permissions-api-openapi.yml
   format: yaml
-  label: Google Cloud IAM API
-  slug: google-cloud-iam-api
+  label: Google Cloud IAM Permissions API
+  slug: google-cloud-iam-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/openapi/google-cloud-iam-permissions-api-openapi.yml
+- filename: google-cloud-iam-roles-api-openapi.yml
+  format: yaml
+  label: Google Cloud IAM Roles API
+  slug: google-cloud-iam-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/openapi/google-cloud-iam-roles-api-openapi.yml
+- filename: google-cloud-iam-service-account-keys-api-openapi.yml
+  format: yaml
+  label: Google Cloud IAM Service Account Keys API
+  slug: google-cloud-iam-service-account-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/openapi/google-cloud-iam-service-account-keys-api-openapi.yml
+- filename: google-cloud-iam-service-accounts-api-openapi.yml
+  format: yaml
+  label: Google Cloud IAM Service Accounts API
+  slug: google-cloud-iam-service-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/openapi/google-cloud-iam-service-accounts-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

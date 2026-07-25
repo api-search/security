@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: springer-nature-meta-openapi.yml
-  format: yaml
-  label: Springer Nature Meta API
-  slug: springer-nature-meta-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/openapi/springer-nature-meta-openapi.yml
-- filename: springer-nature-openaccess-openapi.yml
+- filename: springer-nature-open-access-api-openapi.yml
   format: yaml
   label: Springer Nature Open Access API
-  slug: springer-nature-openaccess-api
+  slug: springer-nature-open-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/openapi/springer-nature-openaccess-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/openapi/springer-nature-open-access-api-openapi.yml
+- filename: springer-nature-search-api-openapi.yml
+  format: yaml
+  label: Springer Nature Search API
+  slug: springer-nature-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/openapi/springer-nature-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

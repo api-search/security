@@ -1,17 +1,71 @@
 ---
 api_specs:
-- filename: pinnacle-openapi.yml
-  format: yaml
-  label: Pinnacle Customer API
-  slug: pinnacle-customer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinnacle-sports-betting/refs/heads/main/openapi/pinnacle-openapi.yml
 - filename: pinnacle-asyncapi.yml
   format: yaml
   label: Pinnacle Lines API
   slug: pinnacle-lines-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/pinnacle-sports-betting/refs/heads/main/openapi/pinnacle-asyncapi.yml
+- filename: pinnacle-cancellationreasons-api-openapi.yml
+  format: yaml
+  label: ' Pinnacle Sports Betting Cancellationreasons API'
+  slug: pinnacle-cancellationreasons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinnacle-sports-betting/refs/heads/main/openapi/pinnacle-cancellationreasons-api-openapi.yml
+- filename: pinnacle-currencies-api-openapi.yml
+  format: yaml
+  label: ' Pinnacle Sports Betting Currencies API'
+  slug: pinnacle-currencies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinnacle-sports-betting/refs/heads/main/openapi/pinnacle-currencies-api-openapi.yml
+- filename: pinnacle-fixtures-api-openapi.yml
+  format: yaml
+  label: ' Pinnacle Sports Betting Fixtures API'
+  slug: pinnacle-fixtures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinnacle-sports-betting/refs/heads/main/openapi/pinnacle-fixtures-api-openapi.yml
+- filename: pinnacle-inrunning-api-openapi.yml
+  format: yaml
+  label: ' Pinnacle Sports Betting Inrunning API'
+  slug: pinnacle-inrunning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinnacle-sports-betting/refs/heads/main/openapi/pinnacle-inrunning-api-openapi.yml
+- filename: pinnacle-leagues-api-openapi.yml
+  format: yaml
+  label: ' Pinnacle Sports Betting Leagues API'
+  slug: pinnacle-leagues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinnacle-sports-betting/refs/heads/main/openapi/pinnacle-leagues-api-openapi.yml
+- filename: pinnacle-line-api-openapi.yml
+  format: yaml
+  label: ' Pinnacle Sports Betting Line API'
+  slug: pinnacle-line-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinnacle-sports-betting/refs/heads/main/openapi/pinnacle-line-api-openapi.yml
+- filename: pinnacle-odds-api-openapi.yml
+  format: yaml
+  label: ' Pinnacle Sports Betting Odds API'
+  slug: pinnacle-odds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinnacle-sports-betting/refs/heads/main/openapi/pinnacle-odds-api-openapi.yml
+- filename: pinnacle-periods-api-openapi.yml
+  format: yaml
+  label: ' Pinnacle Sports Betting Periods API'
+  slug: pinnacle-periods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinnacle-sports-betting/refs/heads/main/openapi/pinnacle-periods-api-openapi.yml
+- filename: pinnacle-sports-api-openapi.yml
+  format: yaml
+  label: ' Pinnacle Sports Betting Sports API'
+  slug: pinnacle-sports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinnacle-sports-betting/refs/heads/main/openapi/pinnacle-sports-api-openapi.yml
+- filename: pinnacle-teaser-api-openapi.yml
+  format: yaml
+  label: ' Pinnacle Sports Betting Teaser API'
+  slug: pinnacle-teaser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinnacle-sports-betting/refs/heads/main/openapi/pinnacle-teaser-api-openapi.yml
 description: ''
 domains:
 - caa: []

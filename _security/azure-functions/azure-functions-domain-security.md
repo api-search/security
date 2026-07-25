@@ -1,17 +1,11 @@
 ---
 api_specs:
-- filename: WebApps.json
-  format: json
-  label: Azure Functions Management API
-  slug: azure-functions-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/web/resource-manager/Microsoft.Web/stable/2022-03-01/WebApps.json
-- filename: azure-functions-openapi.yaml
+- filename: azure-functions-webapps-api-openapi.yml
   format: yaml
-  label: Azure Functions Runtime API
-  slug: azure-functions-runtime-api
+  label: Azure Functions WebApps API
+  slug: azure-functions-webapps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-functions/refs/heads/main/openapi/azure-functions-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-functions/refs/heads/main/openapi/azure-functions-webapps-api-openapi.yml
 description: ''
 domains:
 - caa:

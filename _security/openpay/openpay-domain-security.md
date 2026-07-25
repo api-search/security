@@ -1,41 +1,71 @@
 ---
 api_specs:
-- filename: openpay-openapi.yml
+- filename: openpay-bankaccounts-api-openapi.yml
+  format: yaml
+  label: Openpay BankAccounts API
+  slug: openpay-bankaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-bankaccounts-api-openapi.yml
+- filename: openpay-cards-api-openapi.yml
+  format: yaml
+  label: Openpay Cards API
+  slug: openpay-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-cards-api-openapi.yml
+- filename: openpay-charges-api-openapi.yml
   format: yaml
   label: Openpay Charges API
   slug: openpay-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-openapi.yml
-- filename: openpay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-charges-api-openapi.yml
+- filename: openpay-customers-api-openapi.yml
   format: yaml
-  label: Openpay Customers and Cards API
-  slug: openpay-customers-cards-api
+  label: Openpay Customers API
+  slug: openpay-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-openapi.yml
-- filename: openpay-openapi.yml
-  format: yaml
-  label: Openpay Subscriptions and Plans API
-  slug: openpay-subscriptions-plans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-openapi.yml
-- filename: openpay-openapi.yml
-  format: yaml
-  label: Openpay Payouts and Transfers API
-  slug: openpay-payouts-transfers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-openapi.yml
-- filename: openpay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-customers-api-openapi.yml
+- filename: openpay-fees-api-openapi.yml
   format: yaml
   label: Openpay Fees API
   slug: openpay-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-openapi.yml
-- filename: openpay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-fees-api-openapi.yml
+- filename: openpay-payouts-api-openapi.yml
+  format: yaml
+  label: Openpay Payouts API
+  slug: openpay-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-payouts-api-openapi.yml
+- filename: openpay-plans-api-openapi.yml
+  format: yaml
+  label: Openpay Plans API
+  slug: openpay-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-plans-api-openapi.yml
+- filename: openpay-subscriptions-api-openapi.yml
+  format: yaml
+  label: Openpay Subscriptions API
+  slug: openpay-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-subscriptions-api-openapi.yml
+- filename: openpay-tokens-api-openapi.yml
+  format: yaml
+  label: Openpay Tokens API
+  slug: openpay-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-tokens-api-openapi.yml
+- filename: openpay-transfers-api-openapi.yml
+  format: yaml
+  label: Openpay Transfers API
+  slug: openpay-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-transfers-api-openapi.yml
+- filename: openpay-webhooks-api-openapi.yml
   format: yaml
   label: Openpay Webhooks API
   slug: openpay-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

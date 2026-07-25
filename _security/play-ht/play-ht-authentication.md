@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: play-ht-openapi.yml
+- filename: play-ht-tts-api-openapi.yml
   format: yaml
-  label: PlayHT API
-  slug: platform
+  label: PlayHT TTS API
+  slug: play-ht-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/play-ht/refs/heads/main/openapi/play-ht-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/play-ht/refs/heads/main/openapi/play-ht-tts-api-openapi.yml
+- filename: play-ht-voices-api-openapi.yml
+  format: yaml
+  label: PlayHT Voices API
+  slug: play-ht-voices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/play-ht/refs/heads/main/openapi/play-ht-voices-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

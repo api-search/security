@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: numbers-openapi.yml
+- filename: numbers-batch-api-openapi.yml
   format: yaml
-  label: Numbers API
-  slug: numbers-api
+  label: Numbers API Batch API
+  slug: numbers-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers/refs/heads/main/openapi/numbers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/numbers/refs/heads/main/openapi/numbers-batch-api-openapi.yml
+- filename: numbers-date-api-openapi.yml
+  format: yaml
+  label: Numbers API Date API
+  slug: numbers-date-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/numbers/refs/heads/main/openapi/numbers-date-api-openapi.yml
+- filename: numbers-math-api-openapi.yml
+  format: yaml
+  label: Numbers API Math API
+  slug: numbers-math-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/numbers/refs/heads/main/openapi/numbers-math-api-openapi.yml
+- filename: numbers-trivia-api-openapi.yml
+  format: yaml
+  label: Numbers API Trivia API
+  slug: numbers-trivia-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/numbers/refs/heads/main/openapi/numbers-trivia-api-openapi.yml
+- filename: numbers-year-api-openapi.yml
+  format: yaml
+  label: Numbers API Year API
+  slug: numbers-year-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/numbers/refs/heads/main/openapi/numbers-year-api-openapi.yml
 description: ''
 domains:
 - caa: []

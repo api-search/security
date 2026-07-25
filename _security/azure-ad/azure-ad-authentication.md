@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yaml
+- filename: azure-ad-applications-api-openapi.yml
   format: yaml
-  label: Microsoft Graph API
-  slug: microsoft-graph-api
+  label: Azure Active Directory Applications API
+  slug: azure-ad-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/openapi/azure-ad-applications-api-openapi.yml
+- filename: azure-ad-directory-api-openapi.yml
+  format: yaml
+  label: Azure Active Directory Directory API
+  slug: azure-ad-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/openapi/azure-ad-directory-api-openapi.yml
+- filename: azure-ad-groups-api-openapi.yml
+  format: yaml
+  label: Azure Active Directory Groups API
+  slug: azure-ad-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/openapi/azure-ad-groups-api-openapi.yml
+- filename: azure-ad-me-api-openapi.yml
+  format: yaml
+  label: Azure Active Directory Me API
+  slug: azure-ad-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/openapi/azure-ad-me-api-openapi.yml
+- filename: azure-ad-users-api-openapi.yml
+  format: yaml
+  label: Azure Active Directory Users API
+  slug: azure-ad-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/openapi/azure-ad-users-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -2,12 +2,42 @@
 api_key_in:
 - query
 api_specs:
-- filename: thesports-football-openapi.yml
+- filename: thesports-competitions-api-openapi.yml
   format: yaml
-  label: TheSports Football API
-  slug: football-api
+  label: TheSports Competitions API
+  slug: thesports-competitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/openapi/thesports-football-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/openapi/thesports-competitions-api-openapi.yml
+- filename: thesports-matches-api-openapi.yml
+  format: yaml
+  label: TheSports Matches API
+  slug: thesports-matches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/openapi/thesports-matches-api-openapi.yml
+- filename: thesports-players-api-openapi.yml
+  format: yaml
+  label: TheSports Players API
+  slug: thesports-players-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/openapi/thesports-players-api-openapi.yml
+- filename: thesports-standings-api-openapi.yml
+  format: yaml
+  label: TheSports Standings API
+  slug: thesports-standings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/openapi/thesports-standings-api-openapi.yml
+- filename: thesports-statistics-api-openapi.yml
+  format: yaml
+  label: TheSports Statistics API
+  slug: thesports-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/openapi/thesports-statistics-api-openapi.yml
+- filename: thesports-teams-api-openapi.yml
+  format: yaml
+  label: TheSports Teams API
+  slug: thesports-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/openapi/thesports-teams-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

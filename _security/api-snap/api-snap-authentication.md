@@ -1,84 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: api-snap-openapi.yml
+- filename: api-snap-browser-api-openapi.yml
   format: yaml
-  label: QR Code API
-  slug: qr
+  label: API Snap Browser API
+  slug: api-snap-browser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-openapi.yml
-- filename: api-snap-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-browser-api-openapi.yml
+- filename: api-snap-documents-api-openapi.yml
   format: yaml
-  label: Screenshot API
-  slug: screenshot
+  label: API Snap Documents API
+  slug: api-snap-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-openapi.yml
-- filename: api-snap-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-documents-api-openapi.yml
+- filename: api-snap-images-api-openapi.yml
   format: yaml
-  label: Image Resize API
-  slug: resize
+  label: API Snap Images API
+  slug: api-snap-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-openapi.yml
-- filename: api-snap-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-images-api-openapi.yml
+- filename: api-snap-security-api-openapi.yml
   format: yaml
-  label: PDF API
-  slug: pdf
+  label: API Snap Security API
+  slug: api-snap-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-openapi.yml
-- filename: api-snap-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-security-api-openapi.yml
+- filename: api-snap-utilities-api-openapi.yml
   format: yaml
-  label: Markdown API
-  slug: markdown
+  label: API Snap Utilities API
+  slug: api-snap-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-openapi.yml
-- filename: api-snap-openapi.yml
-  format: yaml
-  label: URL Metadata API
-  slug: meta
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-openapi.yml
-- filename: api-snap-openapi.yml
-  format: yaml
-  label: Hash API
-  slug: hash
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-openapi.yml
-- filename: api-snap-openapi.yml
-  format: yaml
-  label: JWT Decode API
-  slug: jwt-decode
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-openapi.yml
-- filename: api-snap-openapi.yml
-  format: yaml
-  label: Base64 API
-  slug: base64
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-openapi.yml
-- filename: api-snap-openapi.yml
-  format: yaml
-  label: UUID API
-  slug: uuid
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-openapi.yml
-- filename: api-snap-openapi.yml
-  format: yaml
-  label: Color API
-  slug: color
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-openapi.yml
-- filename: api-snap-openapi.yml
-  format: yaml
-  label: Lorem Ipsum API
-  slug: lorem
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-openapi.yml
-- filename: api-snap-openapi.yml
-  format: yaml
-  label: Placeholder Image API
-  slug: placeholder
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-utilities-api-openapi.yml
 auth_types:
 - http
 description: ''

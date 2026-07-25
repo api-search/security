@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: nhtsa-crash-api-nhtsa-crash-data-api-openapi.yml
+- filename: nhtsa-crash-api-cases-api-openapi.yml
   format: yaml
-  label: NHTSA Crash Data API
-  slug: nhtsa-crash-data-api
+  label: NHTSA Crash API Cases API
+  slug: nhtsa-crash-api-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhtsa-crash-api/refs/heads/main/openapi/nhtsa-crash-api-nhtsa-crash-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nhtsa-crash-api/refs/heads/main/openapi/nhtsa-crash-api-cases-api-openapi.yml
+- filename: nhtsa-crash-api-crashes-api-openapi.yml
+  format: yaml
+  label: NHTSA Crash API Crashes API
+  slug: nhtsa-crash-api-crashes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nhtsa-crash-api/refs/heads/main/openapi/nhtsa-crash-api-crashes-api-openapi.yml
+- filename: nhtsa-crash-api-fars-api-openapi.yml
+  format: yaml
+  label: NHTSA Crash API FARS API
+  slug: nhtsa-crash-api-fars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nhtsa-crash-api/refs/heads/main/openapi/nhtsa-crash-api-fars-api-openapi.yml
 description: ''
 domains:
 - caa: []

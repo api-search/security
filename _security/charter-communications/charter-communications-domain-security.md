@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: charter-communications-spectrum-enterprise-api-openapi.yml
+- filename: charter-communications-devices-api-openapi.yml
   format: yaml
-  label: Charter Communications Spectrum Enterprise API
-  slug: spectrum-enterprise-api
+  label: Charter Communications Devices API
+  slug: charter-communications-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charter-communications/refs/heads/main/openapi/charter-communications-spectrum-enterprise-api-openapi.yml
-- filename: charter-communications-bryte-iq-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/charter-communications/refs/heads/main/openapi/charter-communications-devices-api-openapi.yml
+- filename: charter-communications-network-api-openapi.yml
   format: yaml
-  label: Charter Communications Bryte IQ API
-  slug: bryte-iq-api
+  label: Charter Communications Network API
+  slug: charter-communications-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charter-communications/refs/heads/main/openapi/charter-communications-bryte-iq-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/charter-communications/refs/heads/main/openapi/charter-communications-network-api-openapi.yml
+- filename: charter-communications-serviceability-api-openapi.yml
+  format: yaml
+  label: Charter Communications Serviceability API
+  slug: charter-communications-serviceability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charter-communications/refs/heads/main/openapi/charter-communications-serviceability-api-openapi.yml
+- filename: charter-communications-tickets-api-openapi.yml
+  format: yaml
+  label: Charter Communications Tickets API
+  slug: charter-communications-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charter-communications/refs/heads/main/openapi/charter-communications-tickets-api-openapi.yml
 description: ''
 domains:
 - caa: []

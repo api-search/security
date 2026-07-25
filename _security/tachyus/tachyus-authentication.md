@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: tachyus-tachapps-openapi.yml
+- filename: tachyus-production-data-api-openapi.yml
   format: yaml
-  label: Tachapps API
-  slug: tachapps-api
+  label: Tachyus Production Data API
+  slug: tachyus-production-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tachyus/refs/heads/main/openapi/tachyus-tachapps-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tachyus/refs/heads/main/openapi/tachyus-production-data-api-openapi.yml
+- filename: tachyus-projects-api-openapi.yml
+  format: yaml
+  label: Tachyus Projects API
+  slug: tachyus-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tachyus/refs/heads/main/openapi/tachyus-projects-api-openapi.yml
+- filename: tachyus-wells-api-openapi.yml
+  format: yaml
+  label: Tachyus Wells API
+  slug: tachyus-wells-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tachyus/refs/heads/main/openapi/tachyus-wells-api-openapi.yml
 auth_types:
 - http
 description: ''

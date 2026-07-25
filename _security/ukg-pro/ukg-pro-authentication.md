@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ukg-pro-openapi.yml
+- filename: ukg-pro-benefits-api-openapi.yml
   format: yaml
-  label: UKG Pro HCM API
-  slug: hcm-api
+  label: UKG Pro Benefits API
+  slug: ukg-pro-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukg-pro/refs/heads/main/openapi/ukg-pro-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ukg-pro/refs/heads/main/openapi/ukg-pro-benefits-api-openapi.yml
+- filename: ukg-pro-employment-api-openapi.yml
+  format: yaml
+  label: UKG Pro Employment API
+  slug: ukg-pro-employment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ukg-pro/refs/heads/main/openapi/ukg-pro-employment-api-openapi.yml
+- filename: ukg-pro-pay-api-openapi.yml
+  format: yaml
+  label: UKG Pro Pay API
+  slug: ukg-pro-pay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ukg-pro/refs/heads/main/openapi/ukg-pro-pay-api-openapi.yml
+- filename: ukg-pro-people-api-openapi.yml
+  format: yaml
+  label: UKG Pro People API
+  slug: ukg-pro-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ukg-pro/refs/heads/main/openapi/ukg-pro-people-api-openapi.yml
+- filename: ukg-pro-recruiting-api-openapi.yml
+  format: yaml
+  label: UKG Pro Recruiting API
+  slug: ukg-pro-recruiting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ukg-pro/refs/heads/main/openapi/ukg-pro-recruiting-api-openapi.yml
 auth_types:
 - http
 description: ''

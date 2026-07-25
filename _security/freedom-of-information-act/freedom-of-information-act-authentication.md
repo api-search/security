@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: freedom-of-information-act-openapi.yml
+- filename: freedom-of-information-act-agency-components-api-openapi.yml
   format: yaml
-  label: Freedom of Information Act (FOIA) API
-  slug: freedom-of-information-act-foia-api
+  label: Freedom of Information Act Agency Components API
+  slug: freedom-of-information-act-agency-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/openapi/freedom-of-information-act-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/openapi/freedom-of-information-act-agency-components-api-openapi.yml
+- filename: freedom-of-information-act-agency-submission-api-openapi.yml
+  format: yaml
+  label: Freedom of Information Act Agency Submission API
+  slug: freedom-of-information-act-agency-submission-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/openapi/freedom-of-information-act-agency-submission-api-openapi.yml
+- filename: freedom-of-information-act-annual-reports-api-openapi.yml
+  format: yaml
+  label: Freedom of Information Act Annual Reports API
+  slug: freedom-of-information-act-annual-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/openapi/freedom-of-information-act-annual-reports-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

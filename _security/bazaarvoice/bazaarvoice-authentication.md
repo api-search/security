@@ -3,12 +3,42 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: bazaarvoice-content-search-openapi.json
-  format: json
-  label: Bazaarvoice Content Search API
-  slug: bazaarvoice-content-search-api
+- filename: bazaarvoice-answers-api-openapi.yml
+  format: yaml
+  label: Bazaarvoice Answers API
+  slug: bazaarvoice-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-content-search-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-answers-api-openapi.yml
+- filename: bazaarvoice-clients-api-openapi.yml
+  format: yaml
+  label: Bazaarvoice Clients API
+  slug: bazaarvoice-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-clients-api-openapi.yml
+- filename: bazaarvoice-contributor-api-openapi.yml
+  format: yaml
+  label: Bazaarvoice Contributor API
+  slug: bazaarvoice-contributor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-contributor-api-openapi.yml
+- filename: bazaarvoice-lookahead-api-openapi.yml
+  format: yaml
+  label: Bazaarvoice Lookahead API
+  slug: bazaarvoice-lookahead-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-lookahead-api-openapi.yml
+- filename: bazaarvoice-questions-api-openapi.yml
+  format: yaml
+  label: Bazaarvoice Questions API
+  slug: bazaarvoice-questions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-questions-api-openapi.yml
+- filename: bazaarvoice-reviews-api-openapi.yml
+  format: yaml
+  label: Bazaarvoice Reviews API
+  slug: bazaarvoice-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-reviews-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

@@ -2,12 +2,12 @@
 api_key_in:
 - query
 api_specs:
-- filename: yubico-yubicloud-openapi.yml
+- filename: yubico-validation-api-openapi.yml
   format: yaml
-  label: Yubico YubiCloud OTP Validation API
-  slug: yubico-yubicloud-otp-validation-api
+  label: Yubico Validation API
+  slug: yubico-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/openapi/yubico-yubicloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/openapi/yubico-validation-api-openapi.yml
 auth_types:
 - apiKey
 - hmac-signature

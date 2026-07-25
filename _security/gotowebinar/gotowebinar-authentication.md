@@ -1,18 +1,78 @@
 ---
 api_key_in: []
 api_specs:
-- filename: gotowebinar-rest-openapi.yml
+- filename: gotowebinar-attendees-api-openapi.yml
   format: yaml
-  label: GoToWebinar REST API
-  slug: gotowebinar-rest-api
+  label: GoToWebinar Attendees API
+  slug: gotowebinar-attendees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-rest-openapi.yml
-- filename: gotowebinar-webhooks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-attendees-api-openapi.yml
+- filename: gotowebinar-co-organizers-api-openapi.yml
+  format: yaml
+  label: GoToWebinar Co-Organizers API
+  slug: gotowebinar-co-organizers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-co-organizers-api-openapi.yml
+- filename: gotowebinar-panelists-api-openapi.yml
+  format: yaml
+  label: GoToWebinar Panelists API
+  slug: gotowebinar-panelists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-panelists-api-openapi.yml
+- filename: gotowebinar-polls-api-openapi.yml
+  format: yaml
+  label: GoToWebinar Polls API
+  slug: gotowebinar-polls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-polls-api-openapi.yml
+- filename: gotowebinar-questions-api-openapi.yml
+  format: yaml
+  label: GoToWebinar Questions API
+  slug: gotowebinar-questions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-questions-api-openapi.yml
+- filename: gotowebinar-recordings-api-openapi.yml
+  format: yaml
+  label: GoToWebinar Recordings API
+  slug: gotowebinar-recordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-recordings-api-openapi.yml
+- filename: gotowebinar-registrants-api-openapi.yml
+  format: yaml
+  label: GoToWebinar Registrants API
+  slug: gotowebinar-registrants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-registrants-api-openapi.yml
+- filename: gotowebinar-sessions-api-openapi.yml
+  format: yaml
+  label: GoToWebinar Sessions API
+  slug: gotowebinar-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-sessions-api-openapi.yml
+- filename: gotowebinar-surveys-api-openapi.yml
+  format: yaml
+  label: GoToWebinar Surveys API
+  slug: gotowebinar-surveys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-surveys-api-openapi.yml
+- filename: gotowebinar-user-subscriptions-api-openapi.yml
+  format: yaml
+  label: GoToWebinar User Subscriptions API
+  slug: gotowebinar-user-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-user-subscriptions-api-openapi.yml
+- filename: gotowebinar-webhooks-api-openapi.yml
   format: yaml
   label: GoToWebinar Webhooks API
   slug: gotowebinar-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-webhooks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-webhooks-api-openapi.yml
+- filename: gotowebinar-webinars-api-openapi.yml
+  format: yaml
+  label: GoToWebinar Webinars API
+  slug: gotowebinar-webinars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-webinars-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

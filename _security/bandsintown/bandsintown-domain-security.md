@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: 3.0.0
+- filename: bandsintown-artist-events-api-openapi.yml
   format: yaml
-  label: Bandsintown Public API
-  slug: public-api
+  label: Bandsintown artist events API
+  slug: bandsintown-artist-events-api
   spec_type: OpenAPI
-  url: https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0
+  url: https://raw.githubusercontent.com/api-evangelist/bandsintown/refs/heads/main/openapi/bandsintown-artist-events-api-openapi.yml
+- filename: bandsintown-artist-information-api-openapi.yml
+  format: yaml
+  label: Bandsintown artist information API
+  slug: bandsintown-artist-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandsintown/refs/heads/main/openapi/bandsintown-artist-information-api-openapi.yml
 description: ''
 domains:
 - caa: []

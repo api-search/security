@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: headout-partner-openapi.yml
+- filename: headout-booking-api-openapi.yml
   format: yaml
-  label: Headout Partner API
-  slug: headout-partner-api
+  label: HeadOut Booking API
+  slug: headout-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/openapi/headout-partner-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/openapi/headout-booking-api-openapi.yml
+- filename: headout-categories-api-openapi.yml
+  format: yaml
+  label: HeadOut Categories API
+  slug: headout-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/openapi/headout-categories-api-openapi.yml
+- filename: headout-collections-api-openapi.yml
+  format: yaml
+  label: HeadOut Collections API
+  slug: headout-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/openapi/headout-collections-api-openapi.yml
+- filename: headout-inventory-api-openapi.yml
+  format: yaml
+  label: HeadOut Inventory API
+  slug: headout-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/openapi/headout-inventory-api-openapi.yml
+- filename: headout-products-api-openapi.yml
+  format: yaml
+  label: HeadOut Products API
+  slug: headout-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/openapi/headout-products-api-openapi.yml
+- filename: headout-subcategories-api-openapi.yml
+  format: yaml
+  label: HeadOut Subcategories API
+  slug: headout-subcategories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/openapi/headout-subcategories-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

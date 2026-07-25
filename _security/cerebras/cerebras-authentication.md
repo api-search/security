@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cerebras-openapi.yml
+- filename: cerebras-chat-api-openapi.yml
   format: yaml
-  label: Cerebras Inference API
-  slug: cerebras-inference-api
+  label: Cerebras Chat API
+  slug: cerebras-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerebras/refs/heads/main/openapi/cerebras-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cerebras/refs/heads/main/openapi/cerebras-chat-api-openapi.yml
+- filename: cerebras-completions-api-openapi.yml
+  format: yaml
+  label: Cerebras Completions API
+  slug: cerebras-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerebras/refs/heads/main/openapi/cerebras-completions-api-openapi.yml
+- filename: cerebras-models-api-openapi.yml
+  format: yaml
+  label: Cerebras Models API
+  slug: cerebras-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerebras/refs/heads/main/openapi/cerebras-models-api-openapi.yml
 auth_types:
 - http
 description: ''

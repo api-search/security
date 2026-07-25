@@ -1,83 +1,59 @@
 ---
 api_specs:
-- filename: groq-openapi.yml
+- filename: groq-audio-api-openapi.yml
   format: yaml
-  label: Groq Chat Completions API
-  slug: groq-chat-completions-api
+  label: Groq Audio API
+  slug: groq-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-openapi.yml
-- filename: groq-openapi.yml
-  format: yaml
-  label: Groq Reasoning API
-  slug: groq-reasoning-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-openapi.yml
-- filename: groq-openapi.yml
-  format: yaml
-  label: Groq Vision API
-  slug: groq-vision-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-openapi.yml
-- filename: groq-openapi.yml
-  format: yaml
-  label: Groq Speech-to-Text API
-  slug: groq-speech-to-text-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-openapi.yml
-- filename: groq-openapi.yml
-  format: yaml
-  label: Groq Text-to-Speech API
-  slug: groq-text-to-speech-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-openapi.yml
-- filename: groq-openapi.yml
-  format: yaml
-  label: Groq Content Moderation API
-  slug: groq-content-moderation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-openapi.yml
-- filename: groq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-audio-api-openapi.yml
+- filename: groq-batch-api-openapi.yml
   format: yaml
   label: Groq Batch API
   slug: groq-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-openapi.yml
-- filename: groq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-batch-api-openapi.yml
+- filename: groq-chat-api-openapi.yml
   format: yaml
-  label: Groq Flex Processing API
-  slug: groq-flex-processing-api
+  label: Groq Chat API
+  slug: groq-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-openapi.yml
-- filename: groq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-chat-api-openapi.yml
+- filename: groq-embeddings-api-openapi.yml
+  format: yaml
+  label: Groq Embeddings API
+  slug: groq-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-embeddings-api-openapi.yml
+- filename: groq-files-api-openapi.yml
   format: yaml
   label: Groq Files API
   slug: groq-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-openapi.yml
-- filename: groq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-files-api-openapi.yml
+- filename: groq-fine-tuning-api-openapi.yml
+  format: yaml
+  label: Groq Fine Tuning API
+  slug: groq-fine-tuning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-fine-tuning-api-openapi.yml
+- filename: groq-models-api-openapi.yml
   format: yaml
   label: Groq Models API
   slug: groq-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-openapi.yml
-- filename: groq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-models-api-openapi.yml
+- filename: groq-reranking-api-openapi.yml
   format: yaml
-  label: Groq Tools API
-  slug: groq-tools-api
+  label: Groq Reranking API
+  slug: groq-reranking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-openapi.yml
-- filename: groq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-reranking-api-openapi.yml
+- filename: groq-responses-api-openapi.yml
   format: yaml
-  label: Groq LoRA Inference API
-  slug: groq-lora-inference-api
+  label: Groq Responses API
+  slug: groq-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-openapi.yml
-- filename: groq-openapi.yml
-  format: yaml
-  label: Groq Prompt Caching
-  slug: groq-prompt-caching-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-responses-api-openapi.yml
 certifications:
 - SOC 2
 - HIPAA

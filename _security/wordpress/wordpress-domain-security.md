@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: wordpress-rest-api-openapi.yml
+- filename: wordpress-block-types-api-openapi.yml
   format: yaml
-  label: WordPress REST API
-  slug: rest-api
+  label: WordPress Block Types API
+  slug: wordpress-block-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-block-types-api-openapi.yml
+- filename: wordpress-blocks-api-openapi.yml
+  format: yaml
+  label: WordPress Blocks API
+  slug: wordpress-blocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-blocks-api-openapi.yml
+- filename: wordpress-categories-api-openapi.yml
+  format: yaml
+  label: WordPress Categories API
+  slug: wordpress-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-categories-api-openapi.yml
+- filename: wordpress-comments-api-openapi.yml
+  format: yaml
+  label: WordPress Comments API
+  slug: wordpress-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-comments-api-openapi.yml
+- filename: wordpress-media-api-openapi.yml
+  format: yaml
+  label: WordPress Media API
+  slug: wordpress-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-media-api-openapi.yml
+- filename: wordpress-pages-api-openapi.yml
+  format: yaml
+  label: WordPress Pages API
+  slug: wordpress-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-pages-api-openapi.yml
+- filename: wordpress-plugins-api-openapi.yml
+  format: yaml
+  label: WordPress Plugins API
+  slug: wordpress-plugins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-plugins-api-openapi.yml
+- filename: wordpress-post-types-api-openapi.yml
+  format: yaml
+  label: WordPress Post Types API
+  slug: wordpress-post-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-post-types-api-openapi.yml
+- filename: wordpress-posts-api-openapi.yml
+  format: yaml
+  label: WordPress Posts API
+  slug: wordpress-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-posts-api-openapi.yml
+- filename: wordpress-search-api-openapi.yml
+  format: yaml
+  label: WordPress Search API
+  slug: wordpress-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-search-api-openapi.yml
+- filename: wordpress-settings-api-openapi.yml
+  format: yaml
+  label: WordPress Settings API
+  slug: wordpress-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-settings-api-openapi.yml
+- filename: wordpress-tags-api-openapi.yml
+  format: yaml
+  label: WordPress Tags API
+  slug: wordpress-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-tags-api-openapi.yml
+- filename: wordpress-themes-api-openapi.yml
+  format: yaml
+  label: WordPress Themes API
+  slug: wordpress-themes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-themes-api-openapi.yml
+- filename: wordpress-users-api-openapi.yml
+  format: yaml
+  label: WordPress Users API
+  slug: wordpress-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-users-api-openapi.yml
 description: ''
 domains:
 - caa:

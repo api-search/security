@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: flightradar24-airlines-api-openapi.yml
+  format: yaml
+  label: Flightradar24 Airlines API
+  slug: flightradar24-airlines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/openapi/flightradar24-airlines-api-openapi.yml
+- filename: flightradar24-airports-api-openapi.yml
+  format: yaml
+  label: Flightradar24 Airports API
+  slug: flightradar24-airports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/openapi/flightradar24-airports-api-openapi.yml
+- filename: flightradar24-flight-summary-api-openapi.yml
+  format: yaml
+  label: Flightradar24 Flight Summary API
+  slug: flightradar24-flight-summary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/openapi/flightradar24-flight-summary-api-openapi.yml
+- filename: flightradar24-flight-tracks-api-openapi.yml
+  format: yaml
+  label: Flightradar24 Flight Tracks API
+  slug: flightradar24-flight-tracks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/openapi/flightradar24-flight-tracks-api-openapi.yml
+- filename: flightradar24-historic-events-api-openapi.yml
+  format: yaml
+  label: Flightradar24 Historic Events API
+  slug: flightradar24-historic-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/openapi/flightradar24-historic-events-api-openapi.yml
+- filename: flightradar24-historic-positions-api-openapi.yml
+  format: yaml
+  label: Flightradar24 Historic Positions API
+  slug: flightradar24-historic-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/openapi/flightradar24-historic-positions-api-openapi.yml
+- filename: flightradar24-live-positions-api-openapi.yml
+  format: yaml
+  label: Flightradar24 Live Positions API
+  slug: flightradar24-live-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/openapi/flightradar24-live-positions-api-openapi.yml
+- filename: flightradar24-usage-api-openapi.yml
+  format: yaml
+  label: Flightradar24 Usage API
+  slug: flightradar24-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/openapi/flightradar24-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []

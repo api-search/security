@@ -1,83 +1,83 @@
 ---
 api_specs:
-- filename: axiom-co-openapi.yml
-  format: yaml
-  label: Axiom Ingest API
-  slug: axiom-co-ingest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-openapi.yml
-- filename: axiom-co-openapi.yml
-  format: yaml
-  label: Axiom Query API (APL)
-  slug: axiom-co-query-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-openapi.yml
-- filename: axiom-co-openapi.yml
-  format: yaml
-  label: Axiom Datasets API
-  slug: axiom-co-datasets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-openapi.yml
-- filename: axiom-co-openapi.yml
-  format: yaml
-  label: Axiom Fields API
-  slug: axiom-co-fields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-openapi.yml
-- filename: axiom-co-openapi.yml
+- filename: axiom-co-annotations-api-openapi.yml
   format: yaml
   label: Axiom Annotations API
   slug: axiom-co-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-openapi.yml
-- filename: axiom-co-openapi.yml
-  format: yaml
-  label: Axiom Monitors API
-  slug: axiom-co-monitors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-openapi.yml
-- filename: axiom-co-openapi.yml
-  format: yaml
-  label: Axiom Notifiers API
-  slug: axiom-co-notifiers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-openapi.yml
-- filename: axiom-co-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-annotations-api-openapi.yml
+- filename: axiom-co-dashboards-api-openapi.yml
   format: yaml
   label: Axiom Dashboards API
   slug: axiom-co-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-openapi.yml
-- filename: axiom-co-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-dashboards-api-openapi.yml
+- filename: axiom-co-datasets-api-openapi.yml
   format: yaml
-  label: Axiom Virtual Fields API
-  slug: axiom-co-virtual-fields-api
+  label: Axiom Datasets API
+  slug: axiom-co-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-openapi.yml
-- filename: axiom-co-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-datasets-api-openapi.yml
+- filename: axiom-co-fields-api-openapi.yml
   format: yaml
-  label: Axiom Starred Queries API
-  slug: axiom-co-starred-queries-api
+  label: Axiom Fields API
+  slug: axiom-co-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-openapi.yml
-- filename: axiom-co-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-fields-api-openapi.yml
+- filename: axiom-co-ingest-api-openapi.yml
   format: yaml
-  label: Axiom API Tokens API
-  slug: axiom-co-tokens-api
+  label: Axiom Ingest API
+  slug: axiom-co-ingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-openapi.yml
-- filename: axiom-co-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-ingest-api-openapi.yml
+- filename: axiom-co-monitors-api-openapi.yml
   format: yaml
-  label: Axiom Users API
-  slug: axiom-co-users-api
+  label: Axiom Monitors API
+  slug: axiom-co-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-openapi.yml
-- filename: axiom-co-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-monitors-api-openapi.yml
+- filename: axiom-co-notifiers-api-openapi.yml
+  format: yaml
+  label: Axiom Notifiers API
+  slug: axiom-co-notifiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-notifiers-api-openapi.yml
+- filename: axiom-co-organizations-api-openapi.yml
   format: yaml
   label: Axiom Organizations API
   slug: axiom-co-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-organizations-api-openapi.yml
+- filename: axiom-co-query-api-openapi.yml
+  format: yaml
+  label: Axiom Query API
+  slug: axiom-co-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-query-api-openapi.yml
+- filename: axiom-co-starred-queries-api-openapi.yml
+  format: yaml
+  label: Axiom Starred Queries API
+  slug: axiom-co-starred-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-starred-queries-api-openapi.yml
+- filename: axiom-co-tokens-api-openapi.yml
+  format: yaml
+  label: Axiom Tokens API
+  slug: axiom-co-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-tokens-api-openapi.yml
+- filename: axiom-co-users-api-openapi.yml
+  format: yaml
+  label: Axiom Users API
+  slug: axiom-co-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-users-api-openapi.yml
+- filename: axiom-co-virtual-fields-api-openapi.yml
+  format: yaml
+  label: Axiom Virtual Fields API
+  slug: axiom-co-virtual-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-virtual-fields-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: cbre-cbre-api-openapi.yml
+- filename: cbre-real-estate-api-openapi.yml
   format: yaml
-  label: CBRE Developer API
-  slug: cbre-api
+  label: CBRE Real Estate API
+  slug: cbre-real-estate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cbre/refs/heads/main/openapi/cbre-cbre-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cbre/refs/heads/main/openapi/cbre-real-estate-api-openapi.yml
 description: ''
 domains:
 - caa: []

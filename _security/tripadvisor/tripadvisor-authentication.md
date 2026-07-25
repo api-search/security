@@ -2,24 +2,48 @@
 api_key_in:
 - query
 api_specs:
-- filename: tripadvisor-content-api-openapi.yml
+- filename: tripadvisor-availability-api-openapi.yml
   format: yaml
-  label: Tripadvisor Content API
-  slug: content-api
+  label: Tripadvisor Availability API
+  slug: tripadvisor-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/openapi/tripadvisor-content-api-openapi.yml
-- filename: tripadvisor-hotel-availability-check-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/openapi/tripadvisor-availability-api-openapi.yml
+- filename: tripadvisor-configuration-api-openapi.yml
   format: yaml
-  label: Tripadvisor Hotel Availability Check API
-  slug: hotel-availability-check-api
+  label: Tripadvisor Configuration API
+  slug: tripadvisor-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/openapi/tripadvisor-hotel-availability-check-api-openapi.yml
-- filename: tripadvisor-hotel-availability-check-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/openapi/tripadvisor-configuration-api-openapi.yml
+- filename: tripadvisor-hotel-inventory-api-openapi.yml
   format: yaml
   label: Tripadvisor Hotel Inventory API
-  slug: hotel-inventory-api
+  slug: tripadvisor-hotel-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/openapi/tripadvisor-hotel-availability-check-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/openapi/tripadvisor-hotel-inventory-api-openapi.yml
+- filename: tripadvisor-location-details-api-openapi.yml
+  format: yaml
+  label: Tripadvisor Location Details API
+  slug: tripadvisor-location-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/openapi/tripadvisor-location-details-api-openapi.yml
+- filename: tripadvisor-location-photos-api-openapi.yml
+  format: yaml
+  label: Tripadvisor Location Photos API
+  slug: tripadvisor-location-photos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/openapi/tripadvisor-location-photos-api-openapi.yml
+- filename: tripadvisor-location-reviews-api-openapi.yml
+  format: yaml
+  label: Tripadvisor Location Reviews API
+  slug: tripadvisor-location-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/openapi/tripadvisor-location-reviews-api-openapi.yml
+- filename: tripadvisor-location-search-api-openapi.yml
+  format: yaml
+  label: Tripadvisor Location Search API
+  slug: tripadvisor-location-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/openapi/tripadvisor-location-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

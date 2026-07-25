@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: packlink-openapi.yml
+- filename: packlink-clients-api-openapi.yml
   format: yaml
-  label: Packlink PRO Shipping API
-  slug: packlink-pro-shipping-api
+  label: Packlink Clients API
+  slug: packlink-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-clients-api-openapi.yml
+- filename: packlink-customs-api-openapi.yml
+  format: yaml
+  label: Packlink Customs API
+  slug: packlink-customs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-customs-api-openapi.yml
+- filename: packlink-integrations-api-openapi.yml
+  format: yaml
+  label: Packlink Integrations API
+  slug: packlink-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-integrations-api-openapi.yml
+- filename: packlink-locations-api-openapi.yml
+  format: yaml
+  label: Packlink Locations API
+  slug: packlink-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-locations-api-openapi.yml
+- filename: packlink-services-api-openapi.yml
+  format: yaml
+  label: Packlink Services API
+  slug: packlink-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-services-api-openapi.yml
+- filename: packlink-shipments-api-openapi.yml
+  format: yaml
+  label: Packlink Shipments API
+  slug: packlink-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-shipments-api-openapi.yml
 description: ''
 domains:
 - caa: []

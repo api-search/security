@@ -1,18 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: inkeep-openapi.yml
-  format: yaml
-  label: Inkeep Chat Completions (RAG) API
-  slug: inkeep-chat-completions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inkeep/refs/heads/main/openapi/inkeep-openapi.yml
-- filename: inkeep-openapi.yml
+- filename: inkeep-analytics-api-openapi.yml
   format: yaml
   label: Inkeep Analytics API
   slug: inkeep-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inkeep/refs/heads/main/openapi/inkeep-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/inkeep/refs/heads/main/openapi/inkeep-analytics-api-openapi.yml
+- filename: inkeep-chat-api-openapi.yml
+  format: yaml
+  label: Inkeep Chat API
+  slug: inkeep-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inkeep/refs/heads/main/openapi/inkeep-chat-api-openapi.yml
 auth_types:
 - http
 description: ''

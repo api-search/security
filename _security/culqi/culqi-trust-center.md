@@ -1,71 +1,77 @@
 ---
 api_specs:
-- filename: culqi-openapi.yml
+- filename: culqi-3ds-api-openapi.yml
   format: yaml
-  label: Culqi Tokens API
-  slug: culqi-tokens-api
+  label: Culqi 3DS API
+  slug: culqi-3ds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-openapi.yml
-- filename: culqi-openapi.yml
-  format: yaml
-  label: Culqi Charges API
-  slug: culqi-charges-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-openapi.yml
-- filename: culqi-openapi.yml
-  format: yaml
-  label: Culqi Orders API
-  slug: culqi-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-openapi.yml
-- filename: culqi-openapi.yml
-  format: yaml
-  label: Culqi Refunds API
-  slug: culqi-refunds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-openapi.yml
-- filename: culqi-openapi.yml
-  format: yaml
-  label: Culqi Customers API
-  slug: culqi-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-openapi.yml
-- filename: culqi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-3ds-api-openapi.yml
+- filename: culqi-cards-api-openapi.yml
   format: yaml
   label: Culqi Cards API
   slug: culqi-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-openapi.yml
-- filename: culqi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-cards-api-openapi.yml
+- filename: culqi-charges-api-openapi.yml
+  format: yaml
+  label: Culqi Charges API
+  slug: culqi-charges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-charges-api-openapi.yml
+- filename: culqi-customers-api-openapi.yml
+  format: yaml
+  label: Culqi Customers API
+  slug: culqi-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-customers-api-openapi.yml
+- filename: culqi-events-api-openapi.yml
+  format: yaml
+  label: Culqi Events API
+  slug: culqi-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-events-api-openapi.yml
+- filename: culqi-iins-api-openapi.yml
+  format: yaml
+  label: Culqi Iins API
+  slug: culqi-iins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-iins-api-openapi.yml
+- filename: culqi-orders-api-openapi.yml
+  format: yaml
+  label: Culqi Orders API
+  slug: culqi-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-orders-api-openapi.yml
+- filename: culqi-plans-api-openapi.yml
   format: yaml
   label: Culqi Plans API
   slug: culqi-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-openapi.yml
-- filename: culqi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-plans-api-openapi.yml
+- filename: culqi-refunds-api-openapi.yml
+  format: yaml
+  label: Culqi Refunds API
+  slug: culqi-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-refunds-api-openapi.yml
+- filename: culqi-subscriptions-api-openapi.yml
   format: yaml
   label: Culqi Subscriptions API
   slug: culqi-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-openapi.yml
-- filename: culqi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-subscriptions-api-openapi.yml
+- filename: culqi-tokens-api-openapi.yml
   format: yaml
-  label: Culqi Events & Webhooks API
-  slug: culqi-events-api
+  label: Culqi Tokens API
+  slug: culqi-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-openapi.yml
-- filename: culqi-openapi.yml
-  format: yaml
-  label: Culqi IIN Lookup API
-  slug: culqi-iin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-openapi.yml
-- filename: culqi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-tokens-api-openapi.yml
+- filename: culqi-transfers-api-openapi.yml
   format: yaml
   label: Culqi Transfers API
   slug: culqi-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-transfers-api-openapi.yml
 certifications:
 - PCI DSS Level 1
 description: ''

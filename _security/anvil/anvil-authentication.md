@@ -1,18 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: anvil-pdf-filling-api-openapi.yml
+- filename: anvil-fill-api-openapi.yml
   format: yaml
-  label: Anvil PDF Filling API
-  slug: pdf-filling-api
+  label: Anvil Fill API
+  slug: anvil-fill-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anvil/refs/heads/main/openapi/anvil-pdf-filling-api-openapi.yml
-- filename: anvil-pdf-generation-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/anvil/refs/heads/main/openapi/anvil-fill-api-openapi.yml
+- filename: anvil-generate-pdf-api-openapi.yml
   format: yaml
-  label: Anvil PDF Generation API
-  slug: pdf-generation-api
+  label: Anvil Generate Pdf API
+  slug: anvil-generate-pdf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anvil/refs/heads/main/openapi/anvil-pdf-generation-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/anvil/refs/heads/main/openapi/anvil-generate-pdf-api-openapi.yml
 auth_types:
 - http
 description: ''

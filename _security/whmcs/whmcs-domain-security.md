@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: whmcs-openapi.yml
+- filename: whmcs-authentication-api-openapi.yml
   format: yaml
-  label: WHMCS API
-  slug: whmcs
+  label: WHMCS Authentication API
+  slug: whmcs-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whmcs/main/openapi/whmcs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/openapi/whmcs-authentication-api-openapi.yml
+- filename: whmcs-billing-api-openapi.yml
+  format: yaml
+  label: WHMCS Billing API
+  slug: whmcs-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/openapi/whmcs-billing-api-openapi.yml
+- filename: whmcs-clients-api-openapi.yml
+  format: yaml
+  label: WHMCS Clients API
+  slug: whmcs-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/openapi/whmcs-clients-api-openapi.yml
+- filename: whmcs-domains-api-openapi.yml
+  format: yaml
+  label: WHMCS Domains API
+  slug: whmcs-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/openapi/whmcs-domains-api-openapi.yml
+- filename: whmcs-orders-api-openapi.yml
+  format: yaml
+  label: WHMCS Orders API
+  slug: whmcs-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/openapi/whmcs-orders-api-openapi.yml
+- filename: whmcs-support-api-openapi.yml
+  format: yaml
+  label: WHMCS Support API
+  slug: whmcs-support-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/openapi/whmcs-support-api-openapi.yml
+- filename: whmcs-system-api-openapi.yml
+  format: yaml
+  label: WHMCS System API
+  slug: whmcs-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/openapi/whmcs-system-api-openapi.yml
 description: ''
 domains:
 - caa:

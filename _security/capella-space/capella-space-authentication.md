@@ -1,5 +1,42 @@
 ---
 api_key_in: []
+api_specs:
+- filename: capella-space-collects-api-openapi.yml
+  format: yaml
+  label: Capella Space Collects API
+  slug: capella-space-collects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/openapi/capella-space-collects-api-openapi.yml
+- filename: capella-space-keys-api-openapi.yml
+  format: yaml
+  label: Capella Space Keys API
+  slug: capella-space-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/openapi/capella-space-keys-api-openapi.yml
+- filename: capella-space-orders-api-openapi.yml
+  format: yaml
+  label: Capella Space Orders API
+  slug: capella-space-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/openapi/capella-space-orders-api-openapi.yml
+- filename: capella-space-repeatrequests-api-openapi.yml
+  format: yaml
+  label: Capella Space RepeatRequests API
+  slug: capella-space-repeatrequests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/openapi/capella-space-repeatrequests-api-openapi.yml
+- filename: capella-space-tasking-api-openapi.yml
+  format: yaml
+  label: Capella Space Tasking API
+  slug: capella-space-tasking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/openapi/capella-space-tasking-api-openapi.yml
+- filename: capella-space-tiles-api-openapi.yml
+  format: yaml
+  label: Capella Space Tiles API
+  slug: capella-space-tiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/openapi/capella-space-tiles-api-openapi.yml
 auth_types:
 - http
 description: ''

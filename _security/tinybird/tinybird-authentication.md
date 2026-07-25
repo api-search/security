@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tinybird-openapi.yml
+- filename: tinybird-analyze-api-openapi.yml
   format: yaml
-  label: Tinybird API
-  slug: tinybird
+  label: Tinybird Analyze API
+  slug: tinybird-analyze-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/openapi/tinybird-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/openapi/tinybird-analyze-api-openapi.yml
+- filename: tinybird-data-sources-api-openapi.yml
+  format: yaml
+  label: Tinybird Data Sources API
+  slug: tinybird-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/openapi/tinybird-data-sources-api-openapi.yml
+- filename: tinybird-environment-variables-api-openapi.yml
+  format: yaml
+  label: Tinybird Environment Variables API
+  slug: tinybird-environment-variables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/openapi/tinybird-environment-variables-api-openapi.yml
+- filename: tinybird-events-api-openapi.yml
+  format: yaml
+  label: Tinybird Events API
+  slug: tinybird-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/openapi/tinybird-events-api-openapi.yml
+- filename: tinybird-jobs-api-openapi.yml
+  format: yaml
+  label: Tinybird Jobs API
+  slug: tinybird-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/openapi/tinybird-jobs-api-openapi.yml
+- filename: tinybird-organizations-api-openapi.yml
+  format: yaml
+  label: Tinybird Organizations API
+  slug: tinybird-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/openapi/tinybird-organizations-api-openapi.yml
+- filename: tinybird-pipes-api-openapi.yml
+  format: yaml
+  label: Tinybird Pipes API
+  slug: tinybird-pipes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/openapi/tinybird-pipes-api-openapi.yml
+- filename: tinybird-query-api-openapi.yml
+  format: yaml
+  label: Tinybird Query API
+  slug: tinybird-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/openapi/tinybird-query-api-openapi.yml
+- filename: tinybird-sink-pipes-api-openapi.yml
+  format: yaml
+  label: Tinybird Sink Pipes API
+  slug: tinybird-sink-pipes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/openapi/tinybird-sink-pipes-api-openapi.yml
+- filename: tinybird-tokens-api-openapi.yml
+  format: yaml
+  label: Tinybird Tokens API
+  slug: tinybird-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/openapi/tinybird-tokens-api-openapi.yml
 auth_types:
 - http
 description: ''

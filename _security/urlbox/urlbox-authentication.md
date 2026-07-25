@@ -1,42 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: urlbox-openapi.yml
+- filename: urlbox-render-api-openapi.yml
   format: yaml
-  label: Urlbox Synchronous Render API
-  slug: urlbox-render-sync-api
+  label: Urlbox Render API
+  slug: urlbox-render-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urlbox/refs/heads/main/openapi/urlbox-openapi.yml
-- filename: urlbox-openapi.yml
-  format: yaml
-  label: Urlbox Asynchronous Render API
-  slug: urlbox-render-async-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urlbox/refs/heads/main/openapi/urlbox-openapi.yml
-- filename: urlbox-openapi.yml
-  format: yaml
-  label: Urlbox Render Status API
-  slug: urlbox-render-status-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urlbox/refs/heads/main/openapi/urlbox-openapi.yml
-- filename: urlbox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/urlbox/refs/heads/main/openapi/urlbox-render-api-openapi.yml
+- filename: urlbox-render-links-api-openapi.yml
   format: yaml
   label: Urlbox Render Links API
   slug: urlbox-render-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urlbox/refs/heads/main/openapi/urlbox-openapi.yml
-- filename: urlbox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/urlbox/refs/heads/main/openapi/urlbox-render-links-api-openapi.yml
+- filename: urlbox-status-api-openapi.yml
   format: yaml
-  label: Urlbox Webhooks API
-  slug: urlbox-webhooks-api
+  label: Urlbox Status API
+  slug: urlbox-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urlbox/refs/heads/main/openapi/urlbox-openapi.yml
-- filename: urlbox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/urlbox/refs/heads/main/openapi/urlbox-status-api-openapi.yml
+- filename: urlbox-usage-api-openapi.yml
   format: yaml
   label: Urlbox Usage API
   slug: urlbox-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urlbox/refs/heads/main/openapi/urlbox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/urlbox/refs/heads/main/openapi/urlbox-usage-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,29 +1,53 @@
 ---
 api_specs:
-- filename: quix-openapi.yml
-  format: yaml
-  label: Quix Streaming Writer API
-  slug: streaming-writer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-openapi.yml
 - filename: quix-asyncapi.yml
   format: yaml
   label: Quix Streaming Reader API (Real-time)
   slug: streaming-reader-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/asyncapi/quix-asyncapi.yml
-- filename: quix-openapi.yml
+- filename: quix-definitions-api-openapi.yml
   format: yaml
-  label: Quix Portal API (Management)
-  slug: portal-api
+  label: Quix Definitions API
+  slug: quix-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-openapi.yml
-- filename: quix-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-definitions-api-openapi.yml
+- filename: quix-deployments-api-openapi.yml
   format: yaml
-  label: Quix Topics & Deployments API
-  slug: topics-deployments-api
+  label: Quix Deployments API
+  slug: quix-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-deployments-api-openapi.yml
+- filename: quix-event-data-api-openapi.yml
+  format: yaml
+  label: Quix Event Data API
+  slug: quix-event-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-event-data-api-openapi.yml
+- filename: quix-parameter-data-api-openapi.yml
+  format: yaml
+  label: Quix Parameter Data API
+  slug: quix-parameter-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-parameter-data-api-openapi.yml
+- filename: quix-streams-api-openapi.yml
+  format: yaml
+  label: Quix Streams API
+  slug: quix-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-streams-api-openapi.yml
+- filename: quix-topics-api-openapi.yml
+  format: yaml
+  label: Quix Topics API
+  slug: quix-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-topics-api-openapi.yml
+- filename: quix-workspaces-api-openapi.yml
+  format: yaml
+  label: Quix Workspaces API
+  slug: quix-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []

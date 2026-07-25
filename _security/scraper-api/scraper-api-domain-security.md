@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: scraper-api-openapi.yml
+- filename: scraper-api-structured-api-openapi.yml
   format: yaml
-  label: ScraperAPI
-  slug: scraper-api
+  label: ScraperAPI Structured API
+  slug: scraper-api-structured-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scraper-api/refs/heads/main/openapi/scraper-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scraper-api/refs/heads/main/openapi/scraper-api-structured-api-openapi.yml
+- filename: scraper-api-sync-api-openapi.yml
+  format: yaml
+  label: ScraperAPI Sync API
+  slug: scraper-api-sync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scraper-api/refs/heads/main/openapi/scraper-api-sync-api-openapi.yml
 description: ''
 domains:
 - caa: []

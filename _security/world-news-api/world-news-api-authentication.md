@@ -2,12 +2,24 @@
 api_key_in:
 - query
 api_specs:
-- filename: world-news-api-openapi.yml
+- filename: world-news-api-geo-api-openapi.yml
   format: yaml
-  label: World News API
-  slug: world-news-api
+  label: World News API Geo API
+  slug: world-news-api-geo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/world-news-api/refs/heads/main/openapi/world-news-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/world-news-api/refs/heads/main/openapi/world-news-api-geo-api-openapi.yml
+- filename: world-news-api-news-api-openapi.yml
+  format: yaml
+  label: World News API News API
+  slug: world-news-api-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/world-news-api/refs/heads/main/openapi/world-news-api-news-api-openapi.yml
+- filename: world-news-api-sources-api-openapi.yml
+  format: yaml
+  label: World News API Sources API
+  slug: world-news-api-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/world-news-api/refs/heads/main/openapi/world-news-api-sources-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

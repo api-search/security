@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: zoho-writer-openapi.json
-  format: json
-  label: Zoho Writer API
-  slug: zoho-writer-api
+- filename: zoho-writer-combine-api-openapi.yml
+  format: yaml
+  label: Zoho Writer Combine API
+  slug: zoho-writer-combine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/openapi/zoho-writer-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/openapi/zoho-writer-combine-api-openapi.yml
+- filename: zoho-writer-documents-api-openapi.yml
+  format: yaml
+  label: Zoho Writer Documents API
+  slug: zoho-writer-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/openapi/zoho-writer-documents-api-openapi.yml
+- filename: zoho-writer-merge-api-openapi.yml
+  format: yaml
+  label: Zoho Writer Merge API
+  slug: zoho-writer-merge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/openapi/zoho-writer-merge-api-openapi.yml
+- filename: zoho-writer-signatures-api-openapi.yml
+  format: yaml
+  label: Zoho Writer Signatures API
+  slug: zoho-writer-signatures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/openapi/zoho-writer-signatures-api-openapi.yml
 description: ''
 domains:
 - caa:

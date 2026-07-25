@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: very-good-security-vault-openapi-original.yml
+- filename: very-good-security-aliases-api-openapi.yml
   format: yaml
-  label: VGS Vault HTTP API
-  slug: vgs-vault-http-api
+  label: Very Good Security aliases API
+  slug: very-good-security-aliases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/very-good-security/refs/heads/main/openapi/very-good-security-vault-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/very-good-security/refs/heads/main/openapi/very-good-security-aliases-api-openapi.yml
 description: ''
 domains:
 - caa:

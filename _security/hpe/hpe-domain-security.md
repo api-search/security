@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: hpe-openapi.yml
+- filename: hpe-authorization-api-openapi.yml
   format: yaml
-  label: HPE GreenLake API
-  slug: greenlake-api
+  label: Hewlett Packard Enterprise Authorization API
+  slug: hpe-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hpe/refs/heads/main/openapi/hpe-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hpe/refs/heads/main/openapi/hpe-authorization-api-openapi.yml
+- filename: hpe-identity-api-openapi.yml
+  format: yaml
+  label: Hewlett Packard Enterprise Identity API
+  slug: hpe-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hpe/refs/heads/main/openapi/hpe-identity-api-openapi.yml
+- filename: hpe-workspaces-api-openapi.yml
+  format: yaml
+  label: Hewlett Packard Enterprise Workspaces API
+  slug: hpe-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hpe/refs/heads/main/openapi/hpe-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []

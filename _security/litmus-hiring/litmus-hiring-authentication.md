@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: litmus-hiring-openapi.yml
+- filename: litmus-hiring-invites-api-openapi.yml
   format: yaml
-  label: Litmus Hiring REST API
-  slug: litmus-hiring-rest-api
+  label: Litmus Hiring Invites API
+  slug: litmus-hiring-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litmus-hiring/refs/heads/main/openapi/litmus-hiring-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/litmus-hiring/refs/heads/main/openapi/litmus-hiring-invites-api-openapi.yml
+- filename: litmus-hiring-roles-api-openapi.yml
+  format: yaml
+  label: Litmus Hiring Roles API
+  slug: litmus-hiring-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/litmus-hiring/refs/heads/main/openapi/litmus-hiring-roles-api-openapi.yml
+- filename: litmus-hiring-submissions-api-openapi.yml
+  format: yaml
+  label: Litmus Hiring Submissions API
+  slug: litmus-hiring-submissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/litmus-hiring/refs/heads/main/openapi/litmus-hiring-submissions-api-openapi.yml
 auth_types:
 - http
 - oauth2

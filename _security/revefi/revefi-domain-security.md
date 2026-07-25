@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: revefi-data-quality-monitors-openapi-original.yml
+- filename: revefi-create-a-custom-data-quality-monitor-api-openapi.yml
   format: yaml
-  label: Revefi Data Quality Monitors API
-  slug: revefi-data-quality-monitors-api
+  label: Revefi Create a Custom Data Quality Monitor API
+  slug: revefi-create-a-custom-data-quality-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/openapi/revefi-data-quality-monitors-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/openapi/revefi-create-a-custom-data-quality-monitor-api-openapi.yml
+- filename: revefi-delete-an-existing-custom-data-quality-monitor-api-openapi.yml
+  format: yaml
+  label: Revefi Delete an existing Custom Data Quality Monitor API
+  slug: revefi-delete-an-existing-custom-data-quality-monitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/openapi/revefi-delete-an-existing-custom-data-quality-monitor-api-openapi.yml
+- filename: revefi-get-custom-data-quality-monitors-api-openapi.yml
+  format: yaml
+  label: Revefi Get Custom Data Quality Monitors API
+  slug: revefi-get-custom-data-quality-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/openapi/revefi-get-custom-data-quality-monitors-api-openapi.yml
+- filename: revefi-get-custom-data-quality-monitors-by-artifact-api-openapi.yml
+  format: yaml
+  label: Revefi Get Custom Data Quality Monitors by Artifact API
+  slug: revefi-get-custom-data-quality-monitors-by-artifact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/openapi/revefi-get-custom-data-quality-monitors-by-artifact-api-openapi.yml
+- filename: revefi-run-monitors-api-openapi.yml
+  format: yaml
+  label: Revefi Run Monitors API
+  slug: revefi-run-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/openapi/revefi-run-monitors-api-openapi.yml
+- filename: revefi-update-an-existing-custom-data-quality-monitor-api-openapi.yml
+  format: yaml
+  label: Revefi Update an existing Custom Data Quality Monitor API
+  slug: revefi-update-an-existing-custom-data-quality-monitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/openapi/revefi-update-an-existing-custom-data-quality-monitor-api-openapi.yml
 description: ''
 domains:
 - caa: []

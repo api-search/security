@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: recreation-gov-openapi.yml
+- filename: recreation-gov-activities-api-openapi.yml
   format: yaml
-  label: Recreation.gov RIDB API
-  slug: ridb-api
+  label: Recreation.gov Activities API
+  slug: recreation-gov-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/openapi/recreation-gov-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/openapi/recreation-gov-activities-api-openapi.yml
+- filename: recreation-gov-campsites-api-openapi.yml
+  format: yaml
+  label: Recreation.gov Campsites API
+  slug: recreation-gov-campsites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/openapi/recreation-gov-campsites-api-openapi.yml
+- filename: recreation-gov-events-api-openapi.yml
+  format: yaml
+  label: Recreation.gov Events API
+  slug: recreation-gov-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/openapi/recreation-gov-events-api-openapi.yml
+- filename: recreation-gov-facilities-api-openapi.yml
+  format: yaml
+  label: Recreation.gov Facilities API
+  slug: recreation-gov-facilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/openapi/recreation-gov-facilities-api-openapi.yml
+- filename: recreation-gov-links-api-openapi.yml
+  format: yaml
+  label: Recreation.gov Links API
+  slug: recreation-gov-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/openapi/recreation-gov-links-api-openapi.yml
+- filename: recreation-gov-media-api-openapi.yml
+  format: yaml
+  label: Recreation.gov Media API
+  slug: recreation-gov-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/openapi/recreation-gov-media-api-openapi.yml
+- filename: recreation-gov-organizations-api-openapi.yml
+  format: yaml
+  label: Recreation.gov Organizations API
+  slug: recreation-gov-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/openapi/recreation-gov-organizations-api-openapi.yml
+- filename: recreation-gov-permitentrances-api-openapi.yml
+  format: yaml
+  label: Recreation.gov Permitentrances API
+  slug: recreation-gov-permitentrances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/openapi/recreation-gov-permitentrances-api-openapi.yml
+- filename: recreation-gov-recareas-api-openapi.yml
+  format: yaml
+  label: Recreation.gov Recareas API
+  slug: recreation-gov-recareas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/openapi/recreation-gov-recareas-api-openapi.yml
+- filename: recreation-gov-tours-api-openapi.yml
+  format: yaml
+  label: Recreation.gov Tours API
+  slug: recreation-gov-tours-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/openapi/recreation-gov-tours-api-openapi.yml
 description: ''
 domains:
 - caa: []

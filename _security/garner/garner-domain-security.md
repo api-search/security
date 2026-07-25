@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: garner-openapi-original.json
-  format: json
-  label: Garner Health API
-  slug: garner-health-api
+- filename: garner-facilities-api-openapi.yml
+  format: yaml
+  label: Garner Facilities API
+  slug: garner-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/garner/refs/heads/main/openapi/garner-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/garner/refs/heads/main/openapi/garner-facilities-api-openapi.yml
+- filename: garner-professionals-api-openapi.yml
+  format: yaml
+  label: Garner Professionals API
+  slug: garner-professionals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/garner/refs/heads/main/openapi/garner-professionals-api-openapi.yml
+- filename: garner-provider-annotations-api-openapi.yml
+  format: yaml
+  label: Garner Provider Annotations API
+  slug: garner-provider-annotations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/garner/refs/heads/main/openapi/garner-provider-annotations-api-openapi.yml
+- filename: garner-providers-api-openapi.yml
+  format: yaml
+  label: Garner Providers API
+  slug: garner-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/garner/refs/heads/main/openapi/garner-providers-api-openapi.yml
 description: ''
 domains:
 - caa: []

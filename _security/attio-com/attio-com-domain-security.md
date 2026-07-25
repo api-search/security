@@ -1,77 +1,77 @@
 ---
 api_specs:
-- filename: attio-com-openapi.yml
-  format: yaml
-  label: Attio Objects API
-  slug: attio-com-objects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-openapi.yml
-- filename: attio-com-openapi.yml
-  format: yaml
-  label: Attio Records API
-  slug: attio-com-records-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-openapi.yml
-- filename: attio-com-openapi.yml
+- filename: attio-com-attributes-api-openapi.yml
   format: yaml
   label: Attio Attributes API
   slug: attio-com-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-openapi.yml
-- filename: attio-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-attributes-api-openapi.yml
+- filename: attio-com-comments-api-openapi.yml
   format: yaml
-  label: Attio Lists API
-  slug: attio-com-lists-api
+  label: Attio Comments API
+  slug: attio-com-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-openapi.yml
-- filename: attio-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-comments-api-openapi.yml
+- filename: attio-com-list-entries-api-openapi.yml
   format: yaml
   label: Attio List Entries API
   slug: attio-com-list-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-openapi.yml
-- filename: attio-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-list-entries-api-openapi.yml
+- filename: attio-com-lists-api-openapi.yml
   format: yaml
-  label: Attio Deals API
-  slug: attio-com-deals-api
+  label: Attio Lists API
+  slug: attio-com-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-openapi.yml
-- filename: attio-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-lists-api-openapi.yml
+- filename: attio-com-meta-api-openapi.yml
+  format: yaml
+  label: Attio Meta API
+  slug: attio-com-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-meta-api-openapi.yml
+- filename: attio-com-notes-api-openapi.yml
   format: yaml
   label: Attio Notes API
   slug: attio-com-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-openapi.yml
-- filename: attio-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-notes-api-openapi.yml
+- filename: attio-com-objects-api-openapi.yml
+  format: yaml
+  label: Attio Objects API
+  slug: attio-com-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-objects-api-openapi.yml
+- filename: attio-com-records-api-openapi.yml
+  format: yaml
+  label: Attio Records API
+  slug: attio-com-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-records-api-openapi.yml
+- filename: attio-com-tasks-api-openapi.yml
   format: yaml
   label: Attio Tasks API
   slug: attio-com-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-openapi.yml
-- filename: attio-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-tasks-api-openapi.yml
+- filename: attio-com-threads-api-openapi.yml
   format: yaml
-  label: Attio Comments and Threads API
-  slug: attio-com-comments-threads-api
+  label: Attio Threads API
+  slug: attio-com-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-openapi.yml
-- filename: attio-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-threads-api-openapi.yml
+- filename: attio-com-webhooks-api-openapi.yml
   format: yaml
   label: Attio Webhooks API
   slug: attio-com-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-openapi.yml
-- filename: attio-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-webhooks-api-openapi.yml
+- filename: attio-com-workspace-members-api-openapi.yml
   format: yaml
   label: Attio Workspace Members API
   slug: attio-com-workspace-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-openapi.yml
-- filename: attio-com-openapi.yml
-  format: yaml
-  label: Attio Meta / Self API
-  slug: attio-com-meta-self-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/attio-com/refs/heads/main/openapi/attio-com-workspace-members-api-openapi.yml
 description: ''
 domains:
 - caa: []

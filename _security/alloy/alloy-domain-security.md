@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: llms.txt
+- filename: alloy-bank-accounts-api-openapi.yml
   format: yaml
-  label: Alloy Identity API
-  slug: alloy-identity-api
+  label: Alloy Bank Accounts API
+  slug: alloy-bank-accounts-api
   spec_type: OpenAPI
-  url: https://developer.alloy.com/llms.txt
+  url: https://raw.githubusercontent.com/api-evangelist/alloy/refs/heads/main/openapi/alloy-bank-accounts-api-openapi.yml
+- filename: alloy-documents-api-openapi.yml
+  format: yaml
+  label: Alloy Documents API
+  slug: alloy-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy/refs/heads/main/openapi/alloy-documents-api-openapi.yml
+- filename: alloy-entities-api-openapi.yml
+  format: yaml
+  label: Alloy Entities API
+  slug: alloy-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy/refs/heads/main/openapi/alloy-entities-api-openapi.yml
+- filename: alloy-entity-groups-api-openapi.yml
+  format: yaml
+  label: Alloy Entity Groups API
+  slug: alloy-entity-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy/refs/heads/main/openapi/alloy-entity-groups-api-openapi.yml
+- filename: alloy-evaluations-api-openapi.yml
+  format: yaml
+  label: Alloy Evaluations API
+  slug: alloy-evaluations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy/refs/heads/main/openapi/alloy-evaluations-api-openapi.yml
+- filename: alloy-events-api-openapi.yml
+  format: yaml
+  label: Alloy Events API
+  slug: alloy-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy/refs/heads/main/openapi/alloy-events-api-openapi.yml
+- filename: alloy-investigations-api-openapi.yml
+  format: yaml
+  label: Alloy Investigations API
+  slug: alloy-investigations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy/refs/heads/main/openapi/alloy-investigations-api-openapi.yml
+- filename: alloy-journeys-api-openapi.yml
+  format: yaml
+  label: Alloy Journeys API
+  slug: alloy-journeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy/refs/heads/main/openapi/alloy-journeys-api-openapi.yml
+- filename: alloy-oauth-api-openapi.yml
+  format: yaml
+  label: Alloy OAuth API
+  slug: alloy-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy/refs/heads/main/openapi/alloy-oauth-api-openapi.yml
+- filename: alloy-transactions-api-openapi.yml
+  format: yaml
+  label: Alloy Transactions API
+  slug: alloy-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy/refs/heads/main/openapi/alloy-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

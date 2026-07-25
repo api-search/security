@@ -2,12 +2,18 @@
 api_key_in:
 - query
 api_specs:
-- filename: tank-utility-devices-openapi.yml
+- filename: tank-utility-authentication-api-openapi.yml
   format: yaml
-  label: Tank Utility Propane Monitor API
+  label: Tank Utility Authentication API
+  slug: tank-utility-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/openapi/tank-utility-authentication-api-openapi.yml
+- filename: tank-utility-devices-api-openapi.yml
+  format: yaml
+  label: Tank Utility Devices API
   slug: tank-utility-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/openapi/tank-utility-devices-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/openapi/tank-utility-devices-api-openapi.yml
 auth_types:
 - apiKey
 - http

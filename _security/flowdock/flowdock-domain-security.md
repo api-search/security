@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: flowdock-rest-api-openapi.yml
-  format: yaml
-  label: Flowdock REST API
-  slug: rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-rest-api-openapi.yml
-- filename: flowdock-push-api-openapi.yml
-  format: yaml
-  label: Flowdock Push API (Deprecated)
-  slug: push-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-push-api-openapi.yml
 - filename: flowdock-streaming-api-asyncapi.yml
   format: yaml
   label: Flowdock Streaming API
@@ -24,6 +12,84 @@ api_specs:
   slug: scim-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-scim-api-openapi.yml
+- filename: flowdock-authentication-api-openapi.yml
+  format: yaml
+  label: Flowdock (Discontinued) Authentication API
+  slug: flowdock-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-authentication-api-openapi.yml
+- filename: flowdock-chat-api-openapi.yml
+  format: yaml
+  label: Flowdock (Discontinued) Chat API
+  slug: flowdock-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-chat-api-openapi.yml
+- filename: flowdock-files-api-openapi.yml
+  format: yaml
+  label: Flowdock (Discontinued) Files API
+  slug: flowdock-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-files-api-openapi.yml
+- filename: flowdock-flows-api-openapi.yml
+  format: yaml
+  label: Flowdock (Discontinued) Flows API
+  slug: flowdock-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-flows-api-openapi.yml
+- filename: flowdock-invitations-api-openapi.yml
+  format: yaml
+  label: Flowdock (Discontinued) Invitations API
+  slug: flowdock-invitations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-invitations-api-openapi.yml
+- filename: flowdock-messages-api-openapi.yml
+  format: yaml
+  label: Flowdock (Discontinued) Messages API
+  slug: flowdock-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-messages-api-openapi.yml
+- filename: flowdock-organizations-api-openapi.yml
+  format: yaml
+  label: Flowdock (Discontinued) Organizations API
+  slug: flowdock-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-organizations-api-openapi.yml
+- filename: flowdock-private-conversations-api-openapi.yml
+  format: yaml
+  label: Flowdock (Discontinued) Private Conversations API
+  slug: flowdock-private-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-private-conversations-api-openapi.yml
+- filename: flowdock-private-messages-api-openapi.yml
+  format: yaml
+  label: Flowdock (Discontinued) Private Messages API
+  slug: flowdock-private-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-private-messages-api-openapi.yml
+- filename: flowdock-sources-api-openapi.yml
+  format: yaml
+  label: Flowdock (Discontinued) Sources API
+  slug: flowdock-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-sources-api-openapi.yml
+- filename: flowdock-team-inbox-api-openapi.yml
+  format: yaml
+  label: Flowdock (Discontinued) Team Inbox API
+  slug: flowdock-team-inbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-team-inbox-api-openapi.yml
+- filename: flowdock-threads-api-openapi.yml
+  format: yaml
+  label: Flowdock (Discontinued) Threads API
+  slug: flowdock-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-threads-api-openapi.yml
+- filename: flowdock-users-api-openapi.yml
+  format: yaml
+  label: Flowdock (Discontinued) Users API
+  slug: flowdock-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

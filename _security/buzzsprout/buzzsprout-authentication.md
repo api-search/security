@@ -2,18 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: buzzsprout-openapi.yml
+- filename: buzzsprout-episodes-api-openapi.yml
   format: yaml
   label: Buzzsprout Episodes API
   slug: buzzsprout-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buzzsprout/refs/heads/main/openapi/buzzsprout-openapi.yml
-- filename: buzzsprout-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/buzzsprout/refs/heads/main/openapi/buzzsprout-episodes-api-openapi.yml
+- filename: buzzsprout-podcasts-api-openapi.yml
   format: yaml
   label: Buzzsprout Podcasts API
   slug: buzzsprout-podcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buzzsprout/refs/heads/main/openapi/buzzsprout-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/buzzsprout/refs/heads/main/openapi/buzzsprout-podcasts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

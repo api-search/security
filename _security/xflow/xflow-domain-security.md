@@ -1,11 +1,113 @@
 ---
 api_specs:
-- filename: xflow-openapi-original.yml
+- filename: xflow-accounts-api-openapi.yml
   format: yaml
-  label: Xflow API
-  slug: xflow-api
+  label: Xflow Accounts API
+  slug: xflow-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-accounts-api-openapi.yml
+- filename: xflow-accountsettings-api-openapi.yml
+  format: yaml
+  label: Xflow AccountSettings API
+  slug: xflow-accountsettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-accountsettings-api-openapi.yml
+- filename: xflow-addresses-api-openapi.yml
+  format: yaml
+  label: Xflow Addresses API
+  slug: xflow-addresses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-addresses-api-openapi.yml
+- filename: xflow-balance-api-openapi.yml
+  format: yaml
+  label: Xflow Balance API
+  slug: xflow-balance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-balance-api-openapi.yml
+- filename: xflow-balancetransactions-api-openapi.yml
+  format: yaml
+  label: Xflow BalanceTransactions API
+  slug: xflow-balancetransactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-balancetransactions-api-openapi.yml
+- filename: xflow-deposits-api-openapi.yml
+  format: yaml
+  label: Xflow Deposits API
+  slug: xflow-deposits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-deposits-api-openapi.yml
+- filename: xflow-events-api-openapi.yml
+  format: yaml
+  label: Xflow Events API
+  slug: xflow-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-events-api-openapi.yml
+- filename: xflow-exchangerates-api-openapi.yml
+  format: yaml
+  label: Xflow ExchangeRates API
+  slug: xflow-exchangerates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-exchangerates-api-openapi.yml
+- filename: xflow-feeplans-api-openapi.yml
+  format: yaml
+  label: Xflow FeePlans API
+  slug: xflow-feeplans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-feeplans-api-openapi.yml
+- filename: xflow-files-api-openapi.yml
+  format: yaml
+  label: Xflow Files API
+  slug: xflow-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-files-api-openapi.yml
+- filename: xflow-paymentlinks-api-openapi.yml
+  format: yaml
+  label: Xflow PaymentLinks API
+  slug: xflow-paymentlinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-paymentlinks-api-openapi.yml
+- filename: xflow-payments-api-openapi.yml
+  format: yaml
+  label: Xflow Payments API
+  slug: xflow-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-payments-api-openapi.yml
+- filename: xflow-payouts-api-openapi.yml
+  format: yaml
+  label: Xflow Payouts API
+  slug: xflow-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-payouts-api-openapi.yml
+- filename: xflow-persons-api-openapi.yml
+  format: yaml
+  label: Xflow Persons API
+  slug: xflow-persons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-persons-api-openapi.yml
+- filename: xflow-quotes-api-openapi.yml
+  format: yaml
+  label: Xflow Quotes API
+  slug: xflow-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-quotes-api-openapi.yml
+- filename: xflow-receivables-api-openapi.yml
+  format: yaml
+  label: Xflow Receivables API
+  slug: xflow-receivables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-receivables-api-openapi.yml
+- filename: xflow-transfers-api-openapi.yml
+  format: yaml
+  label: Xflow Transfers API
+  slug: xflow-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-transfers-api-openapi.yml
+- filename: xflow-webhookendpoints-api-openapi.yml
+  format: yaml
+  label: Xflow WebhookEndpoints API
+  slug: xflow-webhookendpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-webhookendpoints-api-openapi.yml
 description: ''
 domains:
 - caa: []

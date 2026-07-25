@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: visio-javascript-openapi.yml
+- filename: visio-application-api-openapi.yml
   format: yaml
-  label: Visio JavaScript API
-  slug: visio-javascript-api
+  label: Microsoft Visio API Application API
+  slug: visio-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-javascript-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-application-api-openapi.yml
+- filename: visio-comments-api-openapi.yml
+  format: yaml
+  label: Microsoft Visio API Comments API
+  slug: visio-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-comments-api-openapi.yml
+- filename: visio-documents-api-openapi.yml
+  format: yaml
+  label: Microsoft Visio API Documents API
+  slug: visio-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-documents-api-openapi.yml
+- filename: visio-hyperlinks-api-openapi.yml
+  format: yaml
+  label: Microsoft Visio API Hyperlinks API
+  slug: visio-hyperlinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-hyperlinks-api-openapi.yml
+- filename: visio-pages-api-openapi.yml
+  format: yaml
+  label: Microsoft Visio API Pages API
+  slug: visio-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-pages-api-openapi.yml
+- filename: visio-shape-data-api-openapi.yml
+  format: yaml
+  label: Microsoft Visio API Shape Data API
+  slug: visio-shape-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-shape-data-api-openapi.yml
+- filename: visio-shapes-api-openapi.yml
+  format: yaml
+  label: Microsoft Visio API Shapes API
+  slug: visio-shapes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-shapes-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,17 +1,95 @@
 ---
 api_specs:
-- filename: talend-orchestration-openapi.yml
+- filename: talend-connections-api-openapi.yml
   format: yaml
-  label: Talend Cloud Orchestration API
-  slug: talend-orchestration-api
+  label: Talend Cloud Connections API
+  slug: talend-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-orchestration-openapi.yml
-- filename: talend-processing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-connections-api-openapi.yml
+- filename: talend-artifacts-api-openapi.yml
   format: yaml
-  label: Talend Cloud Processing API
-  slug: talend-processing-api
+  label: Talend Artifacts API
+  slug: talend-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-processing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-artifacts-api-openapi.yml
+- filename: talend-connections-api-openapi.yml
+  format: yaml
+  label: Talend Connections API
+  slug: talend-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-connections-api-openapi.yml
+- filename: talend-environments-api-openapi.yml
+  format: yaml
+  label: Talend Environments API
+  slug: talend-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-environments-api-openapi.yml
+- filename: talend-plan-executions-api-openapi.yml
+  format: yaml
+  label: Talend Plan Executions API
+  slug: talend-plan-executions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-plan-executions-api-openapi.yml
+- filename: talend-plans-api-openapi.yml
+  format: yaml
+  label: Talend Plans API
+  slug: talend-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-plans-api-openapi.yml
+- filename: talend-promotion-executions-api-openapi.yml
+  format: yaml
+  label: Talend Promotion Executions API
+  slug: talend-promotion-executions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-promotion-executions-api-openapi.yml
+- filename: talend-promotions-api-openapi.yml
+  format: yaml
+  label: Talend Promotions API
+  slug: talend-promotions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-promotions-api-openapi.yml
+- filename: talend-remote-engine-clusters-api-openapi.yml
+  format: yaml
+  label: Talend Remote Engine Clusters API
+  slug: talend-remote-engine-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-remote-engine-clusters-api-openapi.yml
+- filename: talend-remote-engines-api-openapi.yml
+  format: yaml
+  label: Talend Remote Engines API
+  slug: talend-remote-engines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-remote-engines-api-openapi.yml
+- filename: talend-run-profiles-api-openapi.yml
+  format: yaml
+  label: Talend Run Profiles API
+  slug: talend-run-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-run-profiles-api-openapi.yml
+- filename: talend-schedules-api-openapi.yml
+  format: yaml
+  label: Talend Schedules API
+  slug: talend-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-schedules-api-openapi.yml
+- filename: talend-task-executions-api-openapi.yml
+  format: yaml
+  label: Talend Task Executions API
+  slug: talend-task-executions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-task-executions-api-openapi.yml
+- filename: talend-tasks-api-openapi.yml
+  format: yaml
+  label: Talend Tasks API
+  slug: talend-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-tasks-api-openapi.yml
+- filename: talend-workspaces-api-openapi.yml
+  format: yaml
+  label: Talend Workspaces API
+  slug: talend-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []

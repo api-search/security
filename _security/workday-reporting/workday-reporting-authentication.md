@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: Reporting.yaml
+- filename: workday-reporting-report-metadata-api-openapi.yml
   format: yaml
-  label: Workday Report as a Service (RaaS)
-  slug: workday-report-as-a-service-raas
+  label: Workday Reporting Report Metadata API
+  slug: workday-reporting-report-metadata-api
   spec_type: OpenAPI
-  url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Reporting/v1/Reporting.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-reporting/refs/heads/main/openapi/workday-reporting-report-metadata-api-openapi.yml
+- filename: workday-reporting-reports-api-openapi.yml
+  format: yaml
+  label: Workday Reporting Reports API
+  slug: workday-reporting-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-reporting/refs/heads/main/openapi/workday-reporting-reports-api-openapi.yml
 auth_types:
 - http
 description: ''

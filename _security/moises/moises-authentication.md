@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: moises-music-ai-openapi.yml
+- filename: moises-application-api-openapi.yml
   format: yaml
-  label: Music AI API
-  slug: music-ai-api
+  label: Moises Application API
+  slug: moises-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/openapi/moises-music-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/openapi/moises-application-api-openapi.yml
+- filename: moises-jobs-api-openapi.yml
+  format: yaml
+  label: Moises Jobs API
+  slug: moises-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/openapi/moises-jobs-api-openapi.yml
+- filename: moises-upload-api-openapi.yml
+  format: yaml
+  label: Moises Upload API
+  slug: moises-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/openapi/moises-upload-api-openapi.yml
+- filename: moises-workflows-api-openapi.yml
+  format: yaml
+  label: Moises Workflows API
+  slug: moises-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/openapi/moises-workflows-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

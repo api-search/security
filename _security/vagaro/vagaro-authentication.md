@@ -1,42 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: vagaro-openapi.yml
-  format: yaml
-  label: Vagaro Access Token API
-  slug: vagaro-access-token-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-openapi.yml
-- filename: vagaro-openapi.yml
+- filename: vagaro-appointments-api-openapi.yml
   format: yaml
   label: Vagaro Appointments API
   slug: vagaro-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-openapi.yml
-- filename: vagaro-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-appointments-api-openapi.yml
+- filename: vagaro-authentication-api-openapi.yml
+  format: yaml
+  label: Vagaro Authentication API
+  slug: vagaro-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-authentication-api-openapi.yml
+- filename: vagaro-customers-api-openapi.yml
   format: yaml
   label: Vagaro Customers API
   slug: vagaro-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-openapi.yml
-- filename: vagaro-openapi.yml
-  format: yaml
-  label: Vagaro Employees API
-  slug: vagaro-employees-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-openapi.yml
-- filename: vagaro-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-customers-api-openapi.yml
+- filename: vagaro-employee-management-api-openapi.yml
   format: yaml
   label: Vagaro Employee Management API
   slug: vagaro-employee-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-openapi.yml
-- filename: vagaro-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-employee-management-api-openapi.yml
+- filename: vagaro-employees-api-openapi.yml
+  format: yaml
+  label: Vagaro Employees API
+  slug: vagaro-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-employees-api-openapi.yml
+- filename: vagaro-locations-api-openapi.yml
   format: yaml
   label: Vagaro Locations API
   slug: vagaro-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-locations-api-openapi.yml
 auth_types:
 - http
 description: ''

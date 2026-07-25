@@ -2,54 +2,66 @@
 api_key_in:
 - header
 api_specs:
-- filename: basis-theory-openapi.yml
+- filename: basis-theory-3d-secure-api-openapi.yml
   format: yaml
-  label: Basis Theory Tokens API
-  slug: basis-theory-tokens-api
+  label: Basis Theory 3D Secure API
+  slug: basis-theory-3d-secure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/openapi/basis-theory-openapi.yml
-- filename: basis-theory-openapi.yml
-  format: yaml
-  label: Basis Theory Tokenize / Detokenize API
-  slug: basis-theory-tokenize-detokenize-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/openapi/basis-theory-openapi.yml
-- filename: basis-theory-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/openapi/basis-theory-3d-secure-api-openapi.yml
+- filename: basis-theory-applications-api-openapi.yml
   format: yaml
   label: Basis Theory Applications API
   slug: basis-theory-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/openapi/basis-theory-openapi.yml
-- filename: basis-theory-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/openapi/basis-theory-applications-api-openapi.yml
+- filename: basis-theory-logs-api-openapi.yml
+  format: yaml
+  label: Basis Theory Logs API
+  slug: basis-theory-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/openapi/basis-theory-logs-api-openapi.yml
+- filename: basis-theory-proxy-api-openapi.yml
   format: yaml
   label: Basis Theory Proxy API
   slug: basis-theory-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/openapi/basis-theory-openapi.yml
-- filename: basis-theory-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/openapi/basis-theory-proxy-api-openapi.yml
+- filename: basis-theory-reactors-api-openapi.yml
   format: yaml
   label: Basis Theory Reactors API
   slug: basis-theory-reactors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/openapi/basis-theory-openapi.yml
-- filename: basis-theory-openapi.yml
-  format: yaml
-  label: Basis Theory 3D Secure API
-  slug: basis-theory-3ds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/openapi/basis-theory-openapi.yml
-- filename: basis-theory-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/openapi/basis-theory-reactors-api-openapi.yml
+- filename: basis-theory-tenants-api-openapi.yml
   format: yaml
   label: Basis Theory Tenants API
   slug: basis-theory-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/openapi/basis-theory-openapi.yml
-- filename: basis-theory-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/openapi/basis-theory-tenants-api-openapi.yml
+- filename: basis-theory-token-intents-api-openapi.yml
+  format: yaml
+  label: Basis Theory Token Intents API
+  slug: basis-theory-token-intents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/openapi/basis-theory-token-intents-api-openapi.yml
+- filename: basis-theory-tokenize-detokenize-api-openapi.yml
+  format: yaml
+  label: Basis Theory Tokenize / Detokenize API
+  slug: basis-theory-tokenize-detokenize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/openapi/basis-theory-tokenize-detokenize-api-openapi.yml
+- filename: basis-theory-tokens-api-openapi.yml
+  format: yaml
+  label: Basis Theory Tokens API
+  slug: basis-theory-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/openapi/basis-theory-tokens-api-openapi.yml
+- filename: basis-theory-webhooks-api-openapi.yml
   format: yaml
   label: Basis Theory Webhooks API
   slug: basis-theory-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/openapi/basis-theory-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/openapi/basis-theory-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

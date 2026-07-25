@@ -1,36 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: us-bank-corporate-account-information-openapi.yml
+- filename: us-bancorp-accounts-api-openapi.yml
   format: yaml
-  label: US Bank Corporate Account Information API
-  slug: us-bank-corporate-account-information
+  label: US Bancorp Accounts API
+  slug: us-bancorp-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bank-corporate-account-information-openapi.yml
-- filename: us-bank-rtp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bancorp-accounts-api-openapi.yml
+- filename: us-bancorp-balances-api-openapi.yml
   format: yaml
-  label: US Bank RTP Real-Time Payments API
-  slug: us-bank-rtp
+  label: US Bancorp Balances API
+  slug: us-bancorp-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bank-rtp-openapi.yml
-- filename: us-bank-ach-originations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bancorp-balances-api-openapi.yml
+- filename: us-bancorp-credit-transfers-api-openapi.yml
   format: yaml
-  label: US Bank ACH Originations API
-  slug: us-bank-ach-originations
+  label: US Bancorp Credit Transfers API
+  slug: us-bancorp-credit-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bank-ach-originations-openapi.yml
-- filename: us-bank-positive-pay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bancorp-credit-transfers-api-openapi.yml
+- filename: us-bancorp-exception-history-api-openapi.yml
   format: yaml
-  label: US Bank Positive Pay API
-  slug: us-bank-positive-pay
+  label: US Bancorp Exception History API
+  slug: us-bancorp-exception-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bank-positive-pay-openapi.yml
-- filename: us-bank-push-to-card-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bancorp-exception-history-api-openapi.yml
+- filename: us-bancorp-exceptions-api-openapi.yml
   format: yaml
-  label: US Bank Push to Card API
-  slug: us-bank-push-to-card
+  label: US Bancorp Exceptions API
+  slug: us-bancorp-exceptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bank-push-to-card-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bancorp-exceptions-api-openapi.yml
+- filename: us-bancorp-push-to-card-payments-api-openapi.yml
+  format: yaml
+  label: US Bancorp Push to Card Payments API
+  slug: us-bancorp-push-to-card-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bancorp-push-to-card-payments-api-openapi.yml
+- filename: us-bancorp-request-for-payment-api-openapi.yml
+  format: yaml
+  label: US Bancorp Request for Payment API
+  slug: us-bancorp-request-for-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bancorp-request-for-payment-api-openapi.yml
+- filename: us-bancorp-rtp-eligibility-api-openapi.yml
+  format: yaml
+  label: US Bancorp RTP Eligibility API
+  slug: us-bancorp-rtp-eligibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bancorp-rtp-eligibility-api-openapi.yml
+- filename: us-bancorp-transactions-api-openapi.yml
+  format: yaml
+  label: US Bancorp Transactions API
+  slug: us-bancorp-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bancorp-transactions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

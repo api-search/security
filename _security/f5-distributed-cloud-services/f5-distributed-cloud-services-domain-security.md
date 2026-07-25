@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: f5-distributed-cloud-services-openapi.yml
+- filename: f5-distributed-cloud-services-config-api-openapi.yml
   format: yaml
-  label: F5 Distributed Cloud Services API
-  slug: platform-api
+  label: F5 Distributed Cloud Services Config API
+  slug: f5-distributed-cloud-services-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-distributed-cloud-services/refs/heads/main/openapi/f5-distributed-cloud-services-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/f5-distributed-cloud-services/refs/heads/main/openapi/f5-distributed-cloud-services-config-api-openapi.yml
+- filename: f5-distributed-cloud-services-data-api-openapi.yml
+  format: yaml
+  label: F5 Distributed Cloud Services Data API
+  slug: f5-distributed-cloud-services-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/f5-distributed-cloud-services/refs/heads/main/openapi/f5-distributed-cloud-services-data-api-openapi.yml
 description: ''
 domains:
 - caa:

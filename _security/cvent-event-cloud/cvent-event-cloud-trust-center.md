@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: cvent-event-cloud-openapi.yml
+- filename: cvent-event-cloud-attendees-api-openapi.yml
   format: yaml
-  label: Cvent Platform REST API (Event Cloud)
-  slug: rest-api
+  label: Cvent Event Cloud Attendees API
+  slug: cvent-event-cloud-attendees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-attendees-api-openapi.yml
+- filename: cvent-event-cloud-contacts-api-openapi.yml
+  format: yaml
+  label: Cvent Event Cloud Contacts API
+  slug: cvent-event-cloud-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-contacts-api-openapi.yml
+- filename: cvent-event-cloud-events-api-openapi.yml
+  format: yaml
+  label: Cvent Event Cloud Events API
+  slug: cvent-event-cloud-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-events-api-openapi.yml
+- filename: cvent-event-cloud-exhibitors-api-openapi.yml
+  format: yaml
+  label: Cvent Event Cloud Exhibitors API
+  slug: cvent-event-cloud-exhibitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-exhibitors-api-openapi.yml
+- filename: cvent-event-cloud-oauth-api-openapi.yml
+  format: yaml
+  label: Cvent Event Cloud OAuth API
+  slug: cvent-event-cloud-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-oauth-api-openapi.yml
+- filename: cvent-event-cloud-sessions-api-openapi.yml
+  format: yaml
+  label: Cvent Event Cloud Sessions API
+  slug: cvent-event-cloud-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-sessions-api-openapi.yml
+- filename: cvent-event-cloud-webhooks-api-openapi.yml
+  format: yaml
+  label: Cvent Event Cloud Webhooks API
+  slug: cvent-event-cloud-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-webhooks-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

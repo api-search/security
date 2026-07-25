@@ -1,47 +1,119 @@
 ---
 api_specs:
-- filename: exa-search-api-openapi.yml
-  format: yaml
-  label: Exa Search API
-  slug: exa-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-search-api-openapi.yml
-- filename: exa-research-api-openapi.yml
-  format: yaml
-  label: Exa Research API
-  slug: exa-research-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-research-api-openapi.yml
-- filename: exa-monitors-api-openapi.yml
-  format: yaml
-  label: Exa Monitors API
-  slug: exa-monitors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-monitors-api-openapi.yml
-- filename: exa-agent-api-openapi.yml
+- filename: exa-ai-agent-api-openapi.yml
   format: yaml
   label: Exa Agent API
-  slug: exa-agent-api
+  slug: exa-ai-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-agent-api-openapi.yml
-- filename: exa-websets-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-agent-api-openapi.yml
+- filename: exa-ai-answer-api-openapi.yml
   format: yaml
-  label: Exa Websets API
-  slug: exa-websets-api
+  label: Exa Answer API
+  slug: exa-ai-answer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-websets-api-openapi.yml
-- filename: exa-team-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-answer-api-openapi.yml
+- filename: exa-ai-contents-api-openapi.yml
   format: yaml
-  label: Exa Team API
-  slug: exa-team-api
+  label: Exa Contents API
+  slug: exa-ai-contents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-team-api-openapi.yml
-- filename: exa-team-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-contents-api-openapi.yml
+- filename: exa-ai-enrichments-api-openapi.yml
+  format: yaml
+  label: Exa Enrichments API
+  slug: exa-ai-enrichments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-enrichments-api-openapi.yml
+- filename: exa-ai-events-api-openapi.yml
+  format: yaml
+  label: Exa Events API
+  slug: exa-ai-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-events-api-openapi.yml
+- filename: exa-ai-imports-api-openapi.yml
+  format: yaml
+  label: Exa Imports API
+  slug: exa-ai-imports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-imports-api-openapi.yml
+- filename: exa-ai-items-api-openapi.yml
+  format: yaml
+  label: Exa Items API
+  slug: exa-ai-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-items-api-openapi.yml
+- filename: exa-ai-monitors-api-openapi.yml
+  format: yaml
+  label: Exa Monitors API
+  slug: exa-ai-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-monitors-api-openapi.yml
+- filename: exa-ai-monitors-runs-api-openapi.yml
+  format: yaml
+  label: Exa Monitors Runs API
+  slug: exa-ai-monitors-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-monitors-runs-api-openapi.yml
+- filename: exa-ai-research-api-openapi.yml
+  format: yaml
+  label: Exa Research API
+  slug: exa-ai-research-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-research-api-openapi.yml
+- filename: exa-ai-runs-api-openapi.yml
+  format: yaml
+  label: Exa Runs API
+  slug: exa-ai-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-runs-api-openapi.yml
+- filename: exa-ai-search-api-openapi.yml
+  format: yaml
+  label: Exa Search API
+  slug: exa-ai-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-search-api-openapi.yml
+- filename: exa-ai-searches-api-openapi.yml
+  format: yaml
+  label: Exa Searches API
+  slug: exa-ai-searches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-searches-api-openapi.yml
+- filename: exa-ai-team-management-api-openapi.yml
   format: yaml
   label: Exa Team Management API
-  slug: exa-team-management-api
+  slug: exa-ai-team-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-team-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-team-management-api-openapi.yml
+- filename: exa-ai-teams-api-openapi.yml
+  format: yaml
+  label: Exa Teams API
+  slug: exa-ai-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-teams-api-openapi.yml
+- filename: exa-ai-webhooks-api-openapi.yml
+  format: yaml
+  label: Exa Webhooks API
+  slug: exa-ai-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-webhooks-api-openapi.yml
+- filename: exa-ai-webhooks-attempts-api-openapi.yml
+  format: yaml
+  label: Exa Webhooks Attempts API
+  slug: exa-ai-webhooks-attempts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-webhooks-attempts-api-openapi.yml
+- filename: exa-ai-websets-api-openapi.yml
+  format: yaml
+  label: Exa Websets API
+  slug: exa-ai-websets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-websets-api-openapi.yml
+- filename: exa-ai-websets-preview-api-openapi.yml
+  format: yaml
+  label: Exa Websets Preview API
+  slug: exa-ai-websets-preview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-websets-preview-api-openapi.yml
 description: ''
 domains:
 - caa: []

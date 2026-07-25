@@ -1,17 +1,59 @@
 ---
 api_specs:
-- filename: shopify-admin-rest-openapi.yml
-  format: yaml
-  label: Shopify Admin REST API
-  slug: shopify-admin-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-rest-openapi.yml
 - filename: shopify-admin-webhooks-asyncapi.yml
   format: yaml
   label: Shopify Webhooks
   slug: shopify-webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/asyncapi/shopify-admin-webhooks-asyncapi.yml
+- filename: shopify-admin-collections-api-openapi.yml
+  format: yaml
+  label: Shopify Admin API Collections API
+  slug: shopify-admin-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-collections-api-openapi.yml
+- filename: shopify-admin-customers-api-openapi.yml
+  format: yaml
+  label: Shopify Admin API Customers API
+  slug: shopify-admin-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-customers-api-openapi.yml
+- filename: shopify-admin-inventory-api-openapi.yml
+  format: yaml
+  label: Shopify Admin API Inventory API
+  slug: shopify-admin-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-inventory-api-openapi.yml
+- filename: shopify-admin-locations-api-openapi.yml
+  format: yaml
+  label: Shopify Admin API Locations API
+  slug: shopify-admin-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-locations-api-openapi.yml
+- filename: shopify-admin-orders-api-openapi.yml
+  format: yaml
+  label: Shopify Admin API Orders API
+  slug: shopify-admin-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-orders-api-openapi.yml
+- filename: shopify-admin-products-api-openapi.yml
+  format: yaml
+  label: Shopify Admin API Products API
+  slug: shopify-admin-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-products-api-openapi.yml
+- filename: shopify-admin-shop-api-openapi.yml
+  format: yaml
+  label: Shopify Admin API Shop API
+  slug: shopify-admin-shop-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-shop-api-openapi.yml
+- filename: shopify-admin-webhooks-api-openapi.yml
+  format: yaml
+  label: Shopify Admin API Webhooks API
+  slug: shopify-admin-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

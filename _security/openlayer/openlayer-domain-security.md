@@ -1,29 +1,41 @@
 ---
 api_specs:
-- filename: openlayer-openapi.yml
+- filename: openlayer-commits-api-openapi.yml
   format: yaml
-  label: Openlayer Projects API
-  slug: openlayer-projects-api
+  label: Openlayer Commits API
+  slug: openlayer-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-openapi.yml
-- filename: openlayer-openapi.yml
-  format: yaml
-  label: Openlayer Inference Pipelines API
-  slug: openlayer-inference-pipelines-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-openapi.yml
-- filename: openlayer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-commits-api-openapi.yml
+- filename: openlayer-data-stream-api-openapi.yml
   format: yaml
   label: Openlayer Data Stream API
   slug: openlayer-data-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-openapi.yml
-- filename: openlayer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-data-stream-api-openapi.yml
+- filename: openlayer-inference-pipelines-api-openapi.yml
   format: yaml
-  label: Openlayer Commits and Test Results API
-  slug: openlayer-commits-test-results-api
+  label: Openlayer Inference Pipelines API
+  slug: openlayer-inference-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-inference-pipelines-api-openapi.yml
+- filename: openlayer-projects-api-openapi.yml
+  format: yaml
+  label: Openlayer Projects API
+  slug: openlayer-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-projects-api-openapi.yml
+- filename: openlayer-storage-api-openapi.yml
+  format: yaml
+  label: Openlayer Storage API
+  slug: openlayer-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-storage-api-openapi.yml
+- filename: openlayer-tests-api-openapi.yml
+  format: yaml
+  label: Openlayer Tests API
+  slug: openlayer-tests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-tests-api-openapi.yml
 description: ''
 domains:
 - caa: []

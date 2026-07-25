@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: scale3-blockchain-intelligence-openapi.yml
+- filename: scale3-blockchain-intelligence-api-openapi.yml
   format: yaml
   label: Scale3 Blockchain Intelligence API
   slug: scale3-blockchain-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scale3/refs/heads/main/openapi/scale3-blockchain-intelligence-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scale3/refs/heads/main/openapi/scale3-blockchain-intelligence-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

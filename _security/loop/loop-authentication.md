@@ -1,18 +1,90 @@
 ---
 api_key_in: []
 api_specs:
-- filename: loop-openapi-original.json
-  format: json
-  label: Loop API
-  slug: loop-api
+- filename: loop-artifacts-api-openapi.yml
+  format: yaml
+  label: Loop artifacts API
+  slug: loop-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-openapi-original.json
-- filename: loop-onboarding-openapi-original.json
-  format: json
-  label: Loop Onboarding API
-  slug: loop-onboarding-api
+  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-artifacts-api-openapi.yml
+- filename: loop-artifacts-schema-validated-api-openapi.yml
+  format: yaml
+  label: Loop artifacts-schema-validated API
+  slug: loop-artifacts-schema-validated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-onboarding-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-artifacts-schema-validated-api-openapi.yml
+- filename: loop-business-exceptions-api-openapi.yml
+  format: yaml
+  label: Loop business-exceptions API
+  slug: loop-business-exceptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-business-exceptions-api-openapi.yml
+- filename: loop-factoring-relationships-api-openapi.yml
+  format: yaml
+  label: Loop factoring-relationships API
+  slug: loop-factoring-relationships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-factoring-relationships-api-openapi.yml
+- filename: loop-invoicing-relationships-api-openapi.yml
+  format: yaml
+  label: Loop invoicing-relationships API
+  slug: loop-invoicing-relationships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-invoicing-relationships-api-openapi.yml
+- filename: loop-onboarding-api-loop-com-api-openapi.yml
+  format: yaml
+  label: Loop onboarding.api.loop.com API
+  slug: loop-onboarding-api-loop-com-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-onboarding-api-loop-com-api-openapi.yml
+- filename: loop-organizations-api-openapi.yml
+  format: yaml
+  label: Loop organizations API
+  slug: loop-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-organizations-api-openapi.yml
+- filename: loop-payable-allocations-api-openapi.yml
+  format: yaml
+  label: Loop payable-allocations API
+  slug: loop-payable-allocations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-payable-allocations-api-openapi.yml
+- filename: loop-payable-invoice-reviews-api-openapi.yml
+  format: yaml
+  label: Loop payable-invoice-reviews API
+  slug: loop-payable-invoice-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-payable-invoice-reviews-api-openapi.yml
+- filename: loop-payable-invoices-api-openapi.yml
+  format: yaml
+  label: Loop payable-invoices API
+  slug: loop-payable-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-payable-invoices-api-openapi.yml
+- filename: loop-payments-api-openapi.yml
+  format: yaml
+  label: Loop payments API
+  slug: loop-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-payments-api-openapi.yml
+- filename: loop-ping-api-openapi.yml
+  format: yaml
+  label: Loop ping API
+  slug: loop-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-ping-api-openapi.yml
+- filename: loop-receivable-invoices-api-openapi.yml
+  format: yaml
+  label: Loop receivable-invoices API
+  slug: loop-receivable-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-receivable-invoices-api-openapi.yml
+- filename: loop-shipment-jobs-api-openapi.yml
+  format: yaml
+  label: Loop shipment-jobs API
+  slug: loop-shipment-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-shipment-jobs-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: blackbird-flynet-openapi-original.yml
+- filename: blackbird-app-api-openapi.yml
   format: yaml
-  label: Flynet API
-  slug: flynet-api
+  label: Blackbird App API
+  slug: blackbird-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-flynet-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-app-api-openapi.yml
+- filename: blackbird-challenges-api-openapi.yml
+  format: yaml
+  label: Blackbird Challenges API
+  slug: blackbird-challenges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-challenges-api-openapi.yml
+- filename: blackbird-check-ins-api-openapi.yml
+  format: yaml
+  label: Blackbird Check-ins API
+  slug: blackbird-check-ins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-check-ins-api-openapi.yml
+- filename: blackbird-locations-api-openapi.yml
+  format: yaml
+  label: Blackbird Locations API
+  slug: blackbird-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-locations-api-openapi.yml
+- filename: blackbird-memberships-api-openapi.yml
+  format: yaml
+  label: Blackbird Memberships API
+  slug: blackbird-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-memberships-api-openapi.yml
+- filename: blackbird-payments-api-openapi.yml
+  format: yaml
+  label: Blackbird Payments API
+  slug: blackbird-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-payments-api-openapi.yml
+- filename: blackbird-restaurants-api-openapi.yml
+  format: yaml
+  label: Blackbird Restaurants API
+  slug: blackbird-restaurants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-restaurants-api-openapi.yml
+- filename: blackbird-rewards-api-openapi.yml
+  format: yaml
+  label: Blackbird Rewards API
+  slug: blackbird-rewards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-rewards-api-openapi.yml
+- filename: blackbird-specials-api-openapi.yml
+  format: yaml
+  label: Blackbird Specials API
+  slug: blackbird-specials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-specials-api-openapi.yml
+- filename: blackbird-users-api-openapi.yml
+  format: yaml
+  label: Blackbird Users API
+  slug: blackbird-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

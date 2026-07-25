@@ -2,12 +2,102 @@
 api_key_in:
 - header
 api_specs:
-- filename: pendoio-engage-openapi.yml
+- filename: pendoio-account-api-openapi.yml
   format: yaml
-  label: Pendo Engage API
-  slug: pendo-engage-api
+  label: Pendo.io Account API
+  slug: pendoio-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-engage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-account-api-openapi.yml
+- filename: pendoio-admin-api-openapi.yml
+  format: yaml
+  label: Pendo.io Admin API
+  slug: pendoio-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-admin-api-openapi.yml
+- filename: pendoio-aggregation-api-openapi.yml
+  format: yaml
+  label: Pendo.io Aggregation API
+  slug: pendoio-aggregation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-aggregation-api-openapi.yml
+- filename: pendoio-bulk-deletion-gdpr-ccpa-api-openapi.yml
+  format: yaml
+  label: Pendo.io Bulk Deletion (GDPR/CCPA) API
+  slug: pendoio-bulk-deletion-gdpr-ccpa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-bulk-deletion-gdpr-ccpa-api-openapi.yml
+- filename: pendoio-conversations-api-openapi.yml
+  format: yaml
+  label: Pendo.io Conversations API
+  slug: pendoio-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-conversations-api-openapi.yml
+- filename: pendoio-data-sync-api-openapi.yml
+  format: yaml
+  label: Pendo.io Data Sync API
+  slug: pendoio-data-sync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-data-sync-api-openapi.yml
+- filename: pendoio-exclude-lists-servers-api-openapi.yml
+  format: yaml
+  label: Pendo.io Exclude Lists & Servers API
+  slug: pendoio-exclude-lists-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-exclude-lists-servers-api-openapi.yml
+- filename: pendoio-feature-api-openapi.yml
+  format: yaml
+  label: Pendo.io Feature API
+  slug: pendoio-feature-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-feature-api-openapi.yml
+- filename: pendoio-guide-api-openapi.yml
+  format: yaml
+  label: Pendo.io Guide API
+  slug: pendoio-guide-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-guide-api-openapi.yml
+- filename: pendoio-listen-api-openapi.yml
+  format: yaml
+  label: Pendo.io Listen API
+  slug: pendoio-listen-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-listen-api-openapi.yml
+- filename: pendoio-metadata-api-openapi.yml
+  format: yaml
+  label: Pendo.io Metadata API
+  slug: pendoio-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-metadata-api-openapi.yml
+- filename: pendoio-page-api-openapi.yml
+  format: yaml
+  label: Pendo.io Page API
+  slug: pendoio-page-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-page-api-openapi.yml
+- filename: pendoio-report-api-openapi.yml
+  format: yaml
+  label: Pendo.io Report API
+  slug: pendoio-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-report-api-openapi.yml
+- filename: pendoio-segment-api-openapi.yml
+  format: yaml
+  label: Pendo.io Segment API
+  slug: pendoio-segment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-segment-api-openapi.yml
+- filename: pendoio-track-api-openapi.yml
+  format: yaml
+  label: Pendo.io Track API
+  slug: pendoio-track-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-track-api-openapi.yml
+- filename: pendoio-visitor-api-openapi.yml
+  format: yaml
+  label: Pendo.io Visitor API
+  slug: pendoio-visitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-visitor-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

@@ -1,36 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ragie-ai-openapi.yml
-  format: yaml
-  label: Ragie Documents API
-  slug: ragie-documents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-openapi.yml
-- filename: ragie-ai-openapi.yml
-  format: yaml
-  label: Ragie Retrievals API
-  slug: ragie-retrievals-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-openapi.yml
-- filename: ragie-ai-openapi.yml
+- filename: ragie-ai-connections-api-openapi.yml
   format: yaml
   label: Ragie Connections API
-  slug: ragie-connections-api
+  slug: ragie-ai-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-openapi.yml
-- filename: ragie-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-connections-api-openapi.yml
+- filename: ragie-ai-documents-api-openapi.yml
   format: yaml
-  label: Ragie Entities and Extraction API
-  slug: ragie-entities-api
+  label: Ragie Documents API
+  slug: ragie-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-openapi.yml
-- filename: ragie-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-documents-api-openapi.yml
+- filename: ragie-ai-entities-api-openapi.yml
+  format: yaml
+  label: Ragie Entities API
+  slug: ragie-ai-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-entities-api-openapi.yml
+- filename: ragie-ai-partitions-api-openapi.yml
   format: yaml
   label: Ragie Partitions API
-  slug: ragie-partitions-api
+  slug: ragie-ai-partitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-partitions-api-openapi.yml
+- filename: ragie-ai-retrievals-api-openapi.yml
+  format: yaml
+  label: Ragie Retrievals API
+  slug: ragie-ai-retrievals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-retrievals-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: parcellab-openapi.yml
+- filename: parcellab-campaigns-api-openapi.yml
   format: yaml
-  label: parcelLab API
-  slug: parcellab-api
+  label: parcelLab Campaigns API
+  slug: parcellab-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/openapi/parcellab-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/openapi/parcellab-campaigns-api-openapi.yml
+- filename: parcellab-events-api-openapi.yml
+  format: yaml
+  label: parcelLab Events API
+  slug: parcellab-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/openapi/parcellab-events-api-openapi.yml
+- filename: parcellab-orders-api-openapi.yml
+  format: yaml
+  label: parcelLab Orders API
+  slug: parcellab-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/openapi/parcellab-orders-api-openapi.yml
+- filename: parcellab-place-info-api-openapi.yml
+  format: yaml
+  label: parcelLab Place Info API
+  slug: parcellab-place-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/openapi/parcellab-place-info-api-openapi.yml
+- filename: parcellab-promise-api-openapi.yml
+  format: yaml
+  label: parcelLab Promise API
+  slug: parcellab-promise-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/openapi/parcellab-promise-api-openapi.yml
+- filename: parcellab-returns-api-openapi.yml
+  format: yaml
+  label: parcelLab Returns API
+  slug: parcellab-returns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/openapi/parcellab-returns-api-openapi.yml
+- filename: parcellab-surveys-api-openapi.yml
+  format: yaml
+  label: parcelLab Surveys API
+  slug: parcellab-surveys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/openapi/parcellab-surveys-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

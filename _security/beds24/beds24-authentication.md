@@ -2,60 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: beds24-openapi.yml
-  format: yaml
-  label: Beds24 Authentication API
-  slug: beds24-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-openapi.yml
-- filename: beds24-openapi.yml
-  format: yaml
-  label: Beds24 Bookings API
-  slug: beds24-bookings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-openapi.yml
-- filename: beds24-openapi.yml
-  format: yaml
-  label: Beds24 Invoices & Charges API
-  slug: beds24-invoices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-openapi.yml
-- filename: beds24-openapi.yml
-  format: yaml
-  label: Beds24 Booking Messages API
-  slug: beds24-booking-messages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-openapi.yml
-- filename: beds24-openapi.yml
-  format: yaml
-  label: Beds24 Properties API
-  slug: beds24-properties-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-openapi.yml
-- filename: beds24-openapi.yml
-  format: yaml
-  label: Beds24 Availability & Calendar API
-  slug: beds24-availability-calendar-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-openapi.yml
-- filename: beds24-openapi.yml
-  format: yaml
-  label: Beds24 Rates & Prices API
-  slug: beds24-rates-prices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-openapi.yml
-- filename: beds24-openapi.yml
-  format: yaml
-  label: Beds24 Channels API
-  slug: beds24-channels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-openapi.yml
-- filename: beds24-openapi.yml
+- filename: beds24-accounts-api-openapi.yml
   format: yaml
   label: Beds24 Accounts API
   slug: beds24-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-accounts-api-openapi.yml
+- filename: beds24-authentication-api-openapi.yml
+  format: yaml
+  label: Beds24 Authentication API
+  slug: beds24-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-authentication-api-openapi.yml
+- filename: beds24-bookings-api-openapi.yml
+  format: yaml
+  label: Beds24 Bookings API
+  slug: beds24-bookings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-bookings-api-openapi.yml
+- filename: beds24-channels-api-openapi.yml
+  format: yaml
+  label: Beds24 Channels API
+  slug: beds24-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-channels-api-openapi.yml
+- filename: beds24-inventory-api-openapi.yml
+  format: yaml
+  label: Beds24 Inventory API
+  slug: beds24-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-inventory-api-openapi.yml
+- filename: beds24-invoices-api-openapi.yml
+  format: yaml
+  label: Beds24 Invoices API
+  slug: beds24-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-invoices-api-openapi.yml
+- filename: beds24-messages-api-openapi.yml
+  format: yaml
+  label: Beds24 Messages API
+  slug: beds24-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-messages-api-openapi.yml
+- filename: beds24-properties-api-openapi.yml
+  format: yaml
+  label: Beds24 Properties API
+  slug: beds24-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-properties-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: vehicle-databases-openapi.yml
+- filename: vehicle-databases-maintenance-api-openapi.yml
   format: yaml
   label: Vehicle Databases Maintenance API
-  slug: vehicle-databases
+  slug: vehicle-databases-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/openapi/vehicle-databases-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/openapi/vehicle-databases-maintenance-api-openapi.yml
+- filename: vehicle-databases-recalls-api-openapi.yml
+  format: yaml
+  label: Vehicle Databases Recalls API
+  slug: vehicle-databases-recalls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/openapi/vehicle-databases-recalls-api-openapi.yml
+- filename: vehicle-databases-services-api-openapi.yml
+  format: yaml
+  label: Vehicle Databases Services API
+  slug: vehicle-databases-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/openapi/vehicle-databases-services-api-openapi.yml
+- filename: vehicle-databases-tsbs-api-openapi.yml
+  format: yaml
+  label: Vehicle Databases TSBs API
+  slug: vehicle-databases-tsbs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/openapi/vehicle-databases-tsbs-api-openapi.yml
+- filename: vehicle-databases-vehicles-api-openapi.yml
+  format: yaml
+  label: Vehicle Databases Vehicles API
+  slug: vehicle-databases-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/openapi/vehicle-databases-vehicles-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

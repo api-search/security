@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: cloudally-openapi.yml
+- filename: cloudally-authentication-api-openapi.yml
   format: yaml
-  label: CloudAlly API
-  slug: cloudally-api
+  label: CloudAlly Authentication API
+  slug: cloudally-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-authentication-api-openapi.yml
+- filename: cloudally-backups-api-openapi.yml
+  format: yaml
+  label: CloudAlly Backups API
+  slug: cloudally-backups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-backups-api-openapi.yml
+- filename: cloudally-billing-api-openapi.yml
+  format: yaml
+  label: CloudAlly Billing API
+  slug: cloudally-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-billing-api-openapi.yml
+- filename: cloudally-partners-api-openapi.yml
+  format: yaml
+  label: CloudAlly Partners API
+  slug: cloudally-partners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-partners-api-openapi.yml
+- filename: cloudally-restore-api-openapi.yml
+  format: yaml
+  label: CloudAlly Restore API
+  slug: cloudally-restore-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-restore-api-openapi.yml
+- filename: cloudally-tasks-api-openapi.yml
+  format: yaml
+  label: CloudAlly Tasks API
+  slug: cloudally-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-tasks-api-openapi.yml
+- filename: cloudally-users-api-openapi.yml
+  format: yaml
+  label: CloudAlly Users API
+  slug: cloudally-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-users-api-openapi.yml
 certifications:
 - ISO 27001
 - HIPAA

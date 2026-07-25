@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: cat-openapi.yml
+- filename: cat-cat-caterpillar-telematics-api-api-openapi.yml
   format: yaml
-  label: CAT Digital Marketplace API
-  slug: cat-digital-marketplace-api
+  label: CAT CAT Caterpillar Telematics API API
+  slug: cat-cat-caterpillar-telematics-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cat/refs/heads/main/openapi/cat-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cat/refs/heads/main/openapi/cat-cat-caterpillar-telematics-api-api-openapi.yml
+- filename: cat-equipment-api-openapi.yml
+  format: yaml
+  label: CAT Equipment API
+  slug: cat-equipment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cat/refs/heads/main/openapi/cat-equipment-api-openapi.yml
 description: ''
 domains:
 - caa: []

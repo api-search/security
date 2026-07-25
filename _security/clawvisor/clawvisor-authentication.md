@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: clawvisor-gateway-openapi.yml
+- filename: clawvisor-auth-api-openapi.yml
+  format: yaml
+  label: Clawvisor Auth API
+  slug: clawvisor-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/openapi/clawvisor-auth-api-openapi.yml
+- filename: clawvisor-catalog-api-openapi.yml
+  format: yaml
+  label: Clawvisor Catalog API
+  slug: clawvisor-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/openapi/clawvisor-catalog-api-openapi.yml
+- filename: clawvisor-gateway-api-openapi.yml
   format: yaml
   label: Clawvisor Gateway API
   slug: clawvisor-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/openapi/clawvisor-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/openapi/clawvisor-gateway-api-openapi.yml
+- filename: clawvisor-tasks-api-openapi.yml
+  format: yaml
+  label: Clawvisor Tasks API
+  slug: clawvisor-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/openapi/clawvisor-tasks-api-openapi.yml
+- filename: clawvisor-tokens-api-openapi.yml
+  format: yaml
+  label: Clawvisor Tokens API
+  slug: clawvisor-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/openapi/clawvisor-tokens-api-openapi.yml
 auth_types:
 - apiKey
 - http

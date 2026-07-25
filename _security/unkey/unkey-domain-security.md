@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: unkey-openapi.yml
+- filename: unkey-analytics-api-openapi.yml
   format: yaml
-  label: Unkey API
-  slug: unkey-api
+  label: Unkey analytics API
+  slug: unkey-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-analytics-api-openapi.yml
+- filename: unkey-apis-api-openapi.yml
+  format: yaml
+  label: Unkey apis API
+  slug: unkey-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-apis-api-openapi.yml
+- filename: unkey-deploy-api-openapi.yml
+  format: yaml
+  label: Unkey deploy API
+  slug: unkey-deploy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-deploy-api-openapi.yml
+- filename: unkey-identities-api-openapi.yml
+  format: yaml
+  label: Unkey identities API
+  slug: unkey-identities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-identities-api-openapi.yml
+- filename: unkey-keys-api-openapi.yml
+  format: yaml
+  label: Unkey keys API
+  slug: unkey-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-keys-api-openapi.yml
+- filename: unkey-liveness-api-openapi.yml
+  format: yaml
+  label: Unkey liveness API
+  slug: unkey-liveness-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-liveness-api-openapi.yml
+- filename: unkey-permissions-api-openapi.yml
+  format: yaml
+  label: Unkey permissions API
+  slug: unkey-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-permissions-api-openapi.yml
+- filename: unkey-ratelimit-api-openapi.yml
+  format: yaml
+  label: Unkey ratelimit API
+  slug: unkey-ratelimit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-ratelimit-api-openapi.yml
 description: ''
 domains:
 - caa:

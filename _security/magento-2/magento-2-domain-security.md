@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: magento-2-auth-api-openapi.yml
+  format: yaml
+  label: Magento 2 (Adobe Commerce) Auth API
+  slug: magento-2-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/magento-2/refs/heads/main/openapi/magento-2-auth-api-openapi.yml
+- filename: magento-2-carts-api-openapi.yml
+  format: yaml
+  label: Magento 2 (Adobe Commerce) Carts API
+  slug: magento-2-carts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/magento-2/refs/heads/main/openapi/magento-2-carts-api-openapi.yml
+- filename: magento-2-categories-api-openapi.yml
+  format: yaml
+  label: Magento 2 (Adobe Commerce) Categories API
+  slug: magento-2-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/magento-2/refs/heads/main/openapi/magento-2-categories-api-openapi.yml
+- filename: magento-2-customers-api-openapi.yml
+  format: yaml
+  label: Magento 2 (Adobe Commerce) Customers API
+  slug: magento-2-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/magento-2/refs/heads/main/openapi/magento-2-customers-api-openapi.yml
+- filename: magento-2-orders-api-openapi.yml
+  format: yaml
+  label: Magento 2 (Adobe Commerce) Orders API
+  slug: magento-2-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/magento-2/refs/heads/main/openapi/magento-2-orders-api-openapi.yml
+- filename: magento-2-products-api-openapi.yml
+  format: yaml
+  label: Magento 2 (Adobe Commerce) Products API
+  slug: magento-2-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/magento-2/refs/heads/main/openapi/magento-2-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

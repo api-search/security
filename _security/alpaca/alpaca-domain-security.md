@@ -6,24 +6,138 @@ api_specs:
   slug: trading-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-trading-api-openapi.yml
-- filename: alpaca-data-api-openapi.yml
-  format: yaml
-  label: Alpaca Market Data API
-  slug: market-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-data-api-openapi.yml
-- filename: alpaca-broker-api-openapi.yml
-  format: yaml
-  label: Alpaca Broker API
-  slug: broker-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-broker-api-openapi.yml
 - filename: alpaca-oauth-api-openapi.yml
   format: yaml
   label: Alpaca OAuth API
   slug: oauth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-oauth-api-openapi.yml
+- filename: alpaca-account-activities-api-openapi.yml
+  format: yaml
+  label: Alpaca Account Activities API
+  slug: alpaca-account-activities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-account-activities-api-openapi.yml
+- filename: alpaca-account-configurations-api-openapi.yml
+  format: yaml
+  label: Alpaca Account Configurations API
+  slug: alpaca-account-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-account-configurations-api-openapi.yml
+- filename: alpaca-accounts-api-openapi.yml
+  format: yaml
+  label: Alpaca Accounts API
+  slug: alpaca-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-accounts-api-openapi.yml
+- filename: alpaca-assets-api-openapi.yml
+  format: yaml
+  label: Alpaca Assets API
+  slug: alpaca-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-assets-api-openapi.yml
+- filename: alpaca-calendar-api-openapi.yml
+  format: yaml
+  label: Alpaca Calendar API
+  slug: alpaca-calendar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-calendar-api-openapi.yml
+- filename: alpaca-clock-api-openapi.yml
+  format: yaml
+  label: Alpaca Clock API
+  slug: alpaca-clock-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-clock-api-openapi.yml
+- filename: alpaca-corporate-actions-api-openapi.yml
+  format: yaml
+  label: Alpaca Corporate Actions API
+  slug: alpaca-corporate-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-corporate-actions-api-openapi.yml
+- filename: alpaca-crypto-pricing-data-api-api-openapi.yml
+  format: yaml
+  label: Alpaca Crypto Pricing Data API API
+  slug: alpaca-crypto-pricing-data-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-crypto-pricing-data-api-api-openapi.yml
+- filename: alpaca-documents-api-openapi.yml
+  format: yaml
+  label: Alpaca Documents API
+  slug: alpaca-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-documents-api-openapi.yml
+- filename: alpaca-events-api-openapi.yml
+  format: yaml
+  label: Alpaca Events API
+  slug: alpaca-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-events-api-openapi.yml
+- filename: alpaca-funding-api-openapi.yml
+  format: yaml
+  label: Alpaca Funding API
+  slug: alpaca-funding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-funding-api-openapi.yml
+- filename: alpaca-journals-api-openapi.yml
+  format: yaml
+  label: Alpaca Journals API
+  slug: alpaca-journals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-journals-api-openapi.yml
+- filename: alpaca-logo-api-openapi.yml
+  format: yaml
+  label: Alpaca Logo API
+  slug: alpaca-logo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-logo-api-openapi.yml
+- filename: alpaca-news-api-openapi.yml
+  format: yaml
+  label: Alpaca News API
+  slug: alpaca-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-news-api-openapi.yml
+- filename: alpaca-orders-api-openapi.yml
+  format: yaml
+  label: Alpaca Orders API
+  slug: alpaca-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-orders-api-openapi.yml
+- filename: alpaca-portfolio-history-api-openapi.yml
+  format: yaml
+  label: Alpaca Portfolio History API
+  slug: alpaca-portfolio-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-portfolio-history-api-openapi.yml
+- filename: alpaca-positions-api-openapi.yml
+  format: yaml
+  label: Alpaca Positions API
+  slug: alpaca-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-positions-api-openapi.yml
+- filename: alpaca-screener-api-openapi.yml
+  format: yaml
+  label: Alpaca Screener API
+  slug: alpaca-screener-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-screener-api-openapi.yml
+- filename: alpaca-stock-pricing-data-api-api-openapi.yml
+  format: yaml
+  label: Alpaca Stock Pricing Data API API
+  slug: alpaca-stock-pricing-data-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-stock-pricing-data-api-api-openapi.yml
+- filename: alpaca-watchlist-api-openapi.yml
+  format: yaml
+  label: Alpaca Watchlist API
+  slug: alpaca-watchlist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-watchlist-api-openapi.yml
+- filename: alpaca-watchlists-api-openapi.yml
+  format: yaml
+  label: Alpaca Watchlists API
+  slug: alpaca-watchlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-watchlists-api-openapi.yml
 description: ''
 domains:
 - caa:

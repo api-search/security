@@ -2,24 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: prompt-armor-openapi.yml
-  format: yaml
-  label: PromptArmor Content Check API
-  slug: prompt-armor-content-check-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prompt-armor/refs/heads/main/openapi/prompt-armor-openapi.yml
-- filename: prompt-armor-openapi.yml
+- filename: prompt-armor-analyze-api-openapi.yml
   format: yaml
   label: PromptArmor Analyze API
   slug: prompt-armor-analyze-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prompt-armor/refs/heads/main/openapi/prompt-armor-openapi.yml
-- filename: prompt-armor-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prompt-armor/refs/heads/main/openapi/prompt-armor-analyze-api-openapi.yml
+- filename: prompt-armor-content-check-api-openapi.yml
   format: yaml
-  label: PromptArmor Session Monitoring API
-  slug: prompt-armor-session-monitoring-api
+  label: PromptArmor Content Check API
+  slug: prompt-armor-content-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prompt-armor/refs/heads/main/openapi/prompt-armor-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prompt-armor/refs/heads/main/openapi/prompt-armor-content-check-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

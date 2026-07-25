@@ -1,11 +1,101 @@
 ---
 api_specs:
-- filename: index.html
+- filename: panopto-accessibility-api-openapi.yml
   format: yaml
-  label: Panopto REST API
-  slug: panopto-rest-api
+  label: Panopto Accessibility API
+  slug: panopto-accessibility-api
   spec_type: OpenAPI
-  url: https://demo.hosted.panopto.com/Panopto/api/docs/index.html
+  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-accessibility-api-openapi.yml
+- filename: panopto-auth-api-openapi.yml
+  format: yaml
+  label: Panopto Auth API
+  slug: panopto-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-auth-api-openapi.yml
+- filename: panopto-captionproviders-api-openapi.yml
+  format: yaml
+  label: Panopto CaptionProviders API
+  slug: panopto-captionproviders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-captionproviders-api-openapi.yml
+- filename: panopto-folders-api-openapi.yml
+  format: yaml
+  label: Panopto Folders API
+  slug: panopto-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-folders-api-openapi.yml
+- filename: panopto-groups-api-openapi.yml
+  format: yaml
+  label: Panopto Groups API
+  slug: panopto-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-groups-api-openapi.yml
+- filename: panopto-playlists-api-openapi.yml
+  format: yaml
+  label: Panopto Playlists API
+  slug: panopto-playlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-playlists-api-openapi.yml
+- filename: panopto-remoterecorderapi-api-openapi.yml
+  format: yaml
+  label: Panopto RemoteRecorderAPI API
+  slug: panopto-remoterecorderapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-remoterecorderapi-api-openapi.yml
+- filename: panopto-remoterecorders-api-openapi.yml
+  format: yaml
+  label: Panopto RemoteRecorders API
+  slug: panopto-remoterecorders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-remoterecorders-api-openapi.yml
+- filename: panopto-reports-api-openapi.yml
+  format: yaml
+  label: Panopto Reports API
+  slug: panopto-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-reports-api-openapi.yml
+- filename: panopto-scheduledrecordings-api-openapi.yml
+  format: yaml
+  label: Panopto ScheduledRecordings API
+  slug: panopto-scheduledrecordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-scheduledrecordings-api-openapi.yml
+- filename: panopto-searchindexsyncupdates-api-openapi.yml
+  format: yaml
+  label: Panopto SearchIndexSyncUpdates API
+  slug: panopto-searchindexsyncupdates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-searchindexsyncupdates-api-openapi.yml
+- filename: panopto-sessions-api-openapi.yml
+  format: yaml
+  label: Panopto Sessions API
+  slug: panopto-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-sessions-api-openapi.yml
+- filename: panopto-streams-api-openapi.yml
+  format: yaml
+  label: Panopto Streams API
+  slug: panopto-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-streams-api-openapi.yml
+- filename: panopto-tags-api-openapi.yml
+  format: yaml
+  label: Panopto Tags API
+  slug: panopto-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-tags-api-openapi.yml
+- filename: panopto-users-api-openapi.yml
+  format: yaml
+  label: Panopto Users API
+  slug: panopto-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-users-api-openapi.yml
+- filename: panopto-xfpuserprofiles-api-openapi.yml
+  format: yaml
+  label: Panopto XfpUserProfiles API
+  slug: panopto-xfpuserprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-xfpuserprofiles-api-openapi.yml
 description: ''
 domains:
 - caa:

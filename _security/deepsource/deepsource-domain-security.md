@@ -1,29 +1,11 @@
 ---
 api_specs:
-- filename: deepsource-openapi.yml
+- filename: deepsource-graphql-api-openapi.yml
   format: yaml
-  label: DeepSource Repositories API
-  slug: repositories
+  label: DeepSource GraphQL API
+  slug: deepsource-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepsource/refs/heads/main/openapi/deepsource-openapi.yml
-- filename: deepsource-openapi.yml
-  format: yaml
-  label: DeepSource Issues API
-  slug: issues
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepsource/refs/heads/main/openapi/deepsource-openapi.yml
-- filename: deepsource-openapi.yml
-  format: yaml
-  label: DeepSource Runs and Checks API
-  slug: runs-checks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepsource/refs/heads/main/openapi/deepsource-openapi.yml
-- filename: deepsource-openapi.yml
-  format: yaml
-  label: DeepSource Analyzers API
-  slug: analyzers
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepsource/refs/heads/main/openapi/deepsource-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepsource/refs/heads/main/openapi/deepsource-graphql-api-openapi.yml
 description: ''
 domains:
 - caa: []

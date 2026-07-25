@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: keyo-openapi.yml
+- filename: keyo-authentication-api-openapi.yml
   format: yaml
-  label: Keyo REST API
-  slug: keyo-rest-api
+  label: Keyo Authentication API
+  slug: keyo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyo/refs/heads/main/openapi/keyo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keyo/refs/heads/main/openapi/keyo-authentication-api-openapi.yml
+- filename: keyo-identities-api-openapi.yml
+  format: yaml
+  label: Keyo Identities API
+  slug: keyo-identities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keyo/refs/heads/main/openapi/keyo-identities-api-openapi.yml
 certifications:
 - SOC 2
 - GDPR

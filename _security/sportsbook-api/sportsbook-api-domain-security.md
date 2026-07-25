@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: sportsbook-api-openapi.yml
+- filename: sportsbook-api-betting-analysis-api-openapi.yml
   format: yaml
-  label: Sportsbook API
-  slug: sportsbook-api
+  label: Sportsbook API Betting Analysis API
+  slug: sportsbook-api-betting-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/openapi/sportsbook-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/openapi/sportsbook-api-betting-analysis-api-openapi.yml
+- filename: sportsbook-api-odds-api-openapi.yml
+  format: yaml
+  label: Sportsbook API Odds API
+  slug: sportsbook-api-odds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/openapi/sportsbook-api-odds-api-openapi.yml
+- filename: sportsbook-api-reference-api-openapi.yml
+  format: yaml
+  label: Sportsbook API Reference API
+  slug: sportsbook-api-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/openapi/sportsbook-api-reference-api-openapi.yml
 description: ''
 domains:
 - caa: []

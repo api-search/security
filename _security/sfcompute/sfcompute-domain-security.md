@@ -1,41 +1,47 @@
 ---
 api_specs:
-- filename: sfcompute-openapi.yml
+- filename: sfcompute-account-api-openapi.yml
   format: yaml
-  label: SF Compute Orders / Market API
-  slug: orders-market
+  label: SF Compute Account API
+  slug: sfcompute-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-openapi.yml
-- filename: sfcompute-openapi.yml
-  format: yaml
-  label: SF Compute Contracts API
-  slug: contracts
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-openapi.yml
-- filename: sfcompute-openapi.yml
-  format: yaml
-  label: SF Compute Prices / Quote API
-  slug: prices
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-openapi.yml
-- filename: sfcompute-openapi.yml
-  format: yaml
-  label: SF Compute Clusters / Nodes API
-  slug: clusters-nodes
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-openapi.yml
-- filename: sfcompute-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-account-api-openapi.yml
+- filename: sfcompute-balance-api-openapi.yml
   format: yaml
   label: SF Compute Balance API
-  slug: balance
+  slug: sfcompute-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-openapi.yml
-- filename: sfcompute-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-balance-api-openapi.yml
+- filename: sfcompute-clusters-api-openapi.yml
   format: yaml
-  label: SF Compute Inference API
-  slug: inference
+  label: SF Compute Clusters API
+  slug: sfcompute-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-clusters-api-openapi.yml
+- filename: sfcompute-contracts-api-openapi.yml
+  format: yaml
+  label: SF Compute Contracts API
+  slug: sfcompute-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-contracts-api-openapi.yml
+- filename: sfcompute-nodes-api-openapi.yml
+  format: yaml
+  label: SF Compute Nodes API
+  slug: sfcompute-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-nodes-api-openapi.yml
+- filename: sfcompute-orders-api-openapi.yml
+  format: yaml
+  label: SF Compute Orders API
+  slug: sfcompute-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-orders-api-openapi.yml
+- filename: sfcompute-prices-api-openapi.yml
+  format: yaml
+  label: SF Compute Prices API
+  slug: sfcompute-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-prices-api-openapi.yml
 description: ''
 domains:
 - caa:

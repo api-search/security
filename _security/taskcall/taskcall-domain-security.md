@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: taskcall-openapi.yml
+- filename: taskcall-components-api-openapi.yml
+  format: yaml
+  label: TaskCall Components API
+  slug: taskcall-components-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taskcall/refs/heads/main/openapi/taskcall-components-api-openapi.yml
+- filename: taskcall-incidents-api-openapi.yml
   format: yaml
   label: TaskCall Incidents API
-  slug: incidents-api
+  slug: taskcall-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskcall/refs/heads/main/openapi/taskcall-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/taskcall/refs/heads/main/openapi/taskcall-incidents-api-openapi.yml
 description: ''
 domains:
 - caa: []

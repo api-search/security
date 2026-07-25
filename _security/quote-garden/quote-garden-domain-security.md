@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: quote-garden-openapi.yml
+- filename: quote-garden-authors-api-openapi.yml
   format: yaml
-  label: Quote Garden REST API
-  slug: quote-garden-api
+  label: Quote Garden Authors API
+  slug: quote-garden-authors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quote-garden/refs/heads/main/openapi/quote-garden-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quote-garden/refs/heads/main/openapi/quote-garden-authors-api-openapi.yml
+- filename: quote-garden-genres-api-openapi.yml
+  format: yaml
+  label: Quote Garden Genres API
+  slug: quote-garden-genres-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quote-garden/refs/heads/main/openapi/quote-garden-genres-api-openapi.yml
+- filename: quote-garden-quotes-api-openapi.yml
+  format: yaml
+  label: Quote Garden Quotes API
+  slug: quote-garden-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quote-garden/refs/heads/main/openapi/quote-garden-quotes-api-openapi.yml
 description: ''
 domains:
 - caa:

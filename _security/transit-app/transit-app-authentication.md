@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: transit-openapi.yml
+- filename: transit-app-map-layers-api-openapi.yml
   format: yaml
-  label: Transit API
-  slug: transit-api
+  label: Transit Map Layers API
+  slug: transit-app-map-layers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit-app/refs/heads/main/openapi/transit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/transit-app/refs/heads/main/openapi/transit-app-map-layers-api-openapi.yml
+- filename: transit-app-public-api-openapi.yml
+  format: yaml
+  label: Transit Public API
+  slug: transit-app-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transit-app/refs/heads/main/openapi/transit-app-public-api-openapi.yml
+- filename: transit-app-vehicles-api-openapi.yml
+  format: yaml
+  label: Transit Vehicles API
+  slug: transit-app-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transit-app/refs/heads/main/openapi/transit-app-vehicles-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

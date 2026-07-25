@@ -1,23 +1,107 @@
 ---
 api_specs:
-- filename: cryptocompare-min-api-openapi.yml
-  format: yaml
-  label: CryptoCompare min-api (Legacy)
-  slug: min-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/openapi/cryptocompare-min-api-openapi.yml
-- filename: cryptocompare-data-api-openapi.yml
-  format: yaml
-  label: CoinDesk Data API (CCData)
-  slug: data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/openapi/cryptocompare-data-api-openapi.yml
 - filename: cryptocompare-asyncapi.yml
   format: yaml
   label: CryptoCompare Streaming WebSocket
   slug: streamer
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/asyncapi/cryptocompare-asyncapi.yml
+- filename: cryptocompare-asset-api-openapi.yml
+  format: yaml
+  label: CryptoCompare Asset API
+  slug: cryptocompare-asset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/openapi/cryptocompare-asset-api-openapi.yml
+- filename: cryptocompare-blockchain-api-openapi.yml
+  format: yaml
+  label: CryptoCompare Blockchain API
+  slug: cryptocompare-blockchain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/openapi/cryptocompare-blockchain-api-openapi.yml
+- filename: cryptocompare-coins-api-openapi.yml
+  format: yaml
+  label: CryptoCompare Coins API
+  slug: cryptocompare-coins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/openapi/cryptocompare-coins-api-openapi.yml
+- filename: cryptocompare-exchanges-api-openapi.yml
+  format: yaml
+  label: CryptoCompare Exchanges API
+  slug: cryptocompare-exchanges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/openapi/cryptocompare-exchanges-api-openapi.yml
+- filename: cryptocompare-futures-api-openapi.yml
+  format: yaml
+  label: CryptoCompare Futures API
+  slug: cryptocompare-futures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/openapi/cryptocompare-futures-api-openapi.yml
+- filename: cryptocompare-historical-api-openapi.yml
+  format: yaml
+  label: CryptoCompare Historical API
+  slug: cryptocompare-historical-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/openapi/cryptocompare-historical-api-openapi.yml
+- filename: cryptocompare-index-api-openapi.yml
+  format: yaml
+  label: CryptoCompare Index API
+  slug: cryptocompare-index-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/openapi/cryptocompare-index-api-openapi.yml
+- filename: cryptocompare-news-api-openapi.yml
+  format: yaml
+  label: CryptoCompare News API
+  slug: cryptocompare-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/openapi/cryptocompare-news-api-openapi.yml
+- filename: cryptocompare-on-chain-api-openapi.yml
+  format: yaml
+  label: CryptoCompare On-Chain API
+  slug: cryptocompare-on-chain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/openapi/cryptocompare-on-chain-api-openapi.yml
+- filename: cryptocompare-options-api-openapi.yml
+  format: yaml
+  label: CryptoCompare Options API
+  slug: cryptocompare-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/openapi/cryptocompare-options-api-openapi.yml
+- filename: cryptocompare-order-book-api-openapi.yml
+  format: yaml
+  label: CryptoCompare Order Book API
+  slug: cryptocompare-order-book-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/openapi/cryptocompare-order-book-api-openapi.yml
+- filename: cryptocompare-overview-api-openapi.yml
+  format: yaml
+  label: CryptoCompare Overview API
+  slug: cryptocompare-overview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/openapi/cryptocompare-overview-api-openapi.yml
+- filename: cryptocompare-price-api-openapi.yml
+  format: yaml
+  label: CryptoCompare Price API
+  slug: cryptocompare-price-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/openapi/cryptocompare-price-api-openapi.yml
+- filename: cryptocompare-social-api-openapi.yml
+  format: yaml
+  label: CryptoCompare Social API
+  slug: cryptocompare-social-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/openapi/cryptocompare-social-api-openapi.yml
+- filename: cryptocompare-spot-api-openapi.yml
+  format: yaml
+  label: CryptoCompare Spot API
+  slug: cryptocompare-spot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/openapi/cryptocompare-spot-api-openapi.yml
+- filename: cryptocompare-top-lists-api-openapi.yml
+  format: yaml
+  label: CryptoCompare Top Lists API
+  slug: cryptocompare-top-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/openapi/cryptocompare-top-lists-api-openapi.yml
 description: ''
 domains:
 - caa: []

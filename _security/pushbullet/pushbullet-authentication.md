@@ -2,18 +2,66 @@
 api_key_in:
 - header
 api_specs:
-- filename: pushbullet-openapi.yml
-  format: yaml
-  label: Pushbullet HTTP API
-  slug: http-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-openapi.yml
 - filename: pushbullet-asyncapi.yml
   format: yaml
   label: Pushbullet Realtime Event Stream
   slug: realtime-event-stream
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-asyncapi.yml
+- filename: pushbullet-channels-api-openapi.yml
+  format: yaml
+  label: Pushbullet Channels API
+  slug: pushbullet-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-channels-api-openapi.yml
+- filename: pushbullet-chats-api-openapi.yml
+  format: yaml
+  label: Pushbullet Chats API
+  slug: pushbullet-chats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-chats-api-openapi.yml
+- filename: pushbullet-devices-api-openapi.yml
+  format: yaml
+  label: Pushbullet Devices API
+  slug: pushbullet-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-devices-api-openapi.yml
+- filename: pushbullet-ephemerals-api-openapi.yml
+  format: yaml
+  label: Pushbullet Ephemerals API
+  slug: pushbullet-ephemerals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-ephemerals-api-openapi.yml
+- filename: pushbullet-pushes-api-openapi.yml
+  format: yaml
+  label: Pushbullet Pushes API
+  slug: pushbullet-pushes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-pushes-api-openapi.yml
+- filename: pushbullet-subscriptions-api-openapi.yml
+  format: yaml
+  label: Pushbullet Subscriptions API
+  slug: pushbullet-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-subscriptions-api-openapi.yml
+- filename: pushbullet-texts-api-openapi.yml
+  format: yaml
+  label: Pushbullet Texts API
+  slug: pushbullet-texts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-texts-api-openapi.yml
+- filename: pushbullet-upload-api-openapi.yml
+  format: yaml
+  label: Pushbullet Upload API
+  slug: pushbullet-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-upload-api-openapi.yml
+- filename: pushbullet-users-api-openapi.yml
+  format: yaml
+  label: Pushbullet Users API
+  slug: pushbullet-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-users-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

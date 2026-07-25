@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: llms.txt
+- filename: baremetrics-annotations-api-openapi.yml
   format: yaml
-  label: Baremetrics API
-  slug: baremetrics-api
+  label: Baremetrics Annotations API
+  slug: baremetrics-annotations-api
   spec_type: OpenAPI
-  url: https://developers.baremetrics.com/llms.txt
+  url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/openapi/baremetrics-annotations-api-openapi.yml
+- filename: baremetrics-charges-api-openapi.yml
+  format: yaml
+  label: Baremetrics Charges API
+  slug: baremetrics-charges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/openapi/baremetrics-charges-api-openapi.yml
+- filename: baremetrics-customers-api-openapi.yml
+  format: yaml
+  label: Baremetrics Customers API
+  slug: baremetrics-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/openapi/baremetrics-customers-api-openapi.yml
+- filename: baremetrics-events-api-openapi.yml
+  format: yaml
+  label: Baremetrics Events API
+  slug: baremetrics-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/openapi/baremetrics-events-api-openapi.yml
+- filename: baremetrics-metrics-api-openapi.yml
+  format: yaml
+  label: Baremetrics Metrics API
+  slug: baremetrics-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/openapi/baremetrics-metrics-api-openapi.yml
+- filename: baremetrics-plans-api-openapi.yml
+  format: yaml
+  label: Baremetrics Plans API
+  slug: baremetrics-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/openapi/baremetrics-plans-api-openapi.yml
+- filename: baremetrics-subscriptions-api-openapi.yml
+  format: yaml
+  label: Baremetrics Subscriptions API
+  slug: baremetrics-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/openapi/baremetrics-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: mindlogic-api-gateway-openapi-original.json
-  format: json
-  label: FactChat API Gateway
-  slug: factchat-api-gateway
+- filename: mindlogic-audio-api-openapi.yml
+  format: yaml
+  label: Mindlogic Audio API
+  slug: mindlogic-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/openapi/mindlogic-api-gateway-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/openapi/mindlogic-audio-api-openapi.yml
+- filename: mindlogic-chat-api-openapi.yml
+  format: yaml
+  label: Mindlogic Chat API
+  slug: mindlogic-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/openapi/mindlogic-chat-api-openapi.yml
+- filename: mindlogic-credits-api-openapi.yml
+  format: yaml
+  label: Mindlogic Credits API
+  slug: mindlogic-credits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/openapi/mindlogic-credits-api-openapi.yml
+- filename: mindlogic-gateway-api-openapi.yml
+  format: yaml
+  label: Mindlogic gateway API
+  slug: mindlogic-gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/openapi/mindlogic-gateway-api-openapi.yml
+- filename: mindlogic-images-api-openapi.yml
+  format: yaml
+  label: Mindlogic Images API
+  slug: mindlogic-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/openapi/mindlogic-images-api-openapi.yml
+- filename: mindlogic-models-api-openapi.yml
+  format: yaml
+  label: Mindlogic Models API
+  slug: mindlogic-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/openapi/mindlogic-models-api-openapi.yml
+- filename: mindlogic-video-api-openapi.yml
+  format: yaml
+  label: Mindlogic Video API
+  slug: mindlogic-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/openapi/mindlogic-video-api-openapi.yml
 description: ''
 domains:
 - caa: []

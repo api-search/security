@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: staples-advantage-eprocurement-api-openapi.yml
+- filename: staples-account-api-openapi.yml
   format: yaml
-  label: Staples Advantage eProcurement API
-  slug: staples-advantage-eprocurement-api
+  label: Staples Account API
+  slug: staples-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/staples/refs/heads/main/openapi/staples-advantage-eprocurement-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/staples/refs/heads/main/openapi/staples-account-api-openapi.yml
+- filename: staples-catalog-api-openapi.yml
+  format: yaml
+  label: Staples Catalog API
+  slug: staples-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/staples/refs/heads/main/openapi/staples-catalog-api-openapi.yml
+- filename: staples-delivery-api-openapi.yml
+  format: yaml
+  label: Staples Delivery API
+  slug: staples-delivery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/staples/refs/heads/main/openapi/staples-delivery-api-openapi.yml
+- filename: staples-invoices-api-openapi.yml
+  format: yaml
+  label: Staples Invoices API
+  slug: staples-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/staples/refs/heads/main/openapi/staples-invoices-api-openapi.yml
+- filename: staples-orders-api-openapi.yml
+  format: yaml
+  label: Staples Orders API
+  slug: staples-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/staples/refs/heads/main/openapi/staples-orders-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: monte-carlo-openapi.yml
+- filename: monte-carlo-graphql-api-openapi.yml
   format: yaml
-  label: Monte Carlo GraphQL API
-  slug: graphql-api
+  label: Monte Carlo Graphql API
+  slug: monte-carlo-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monte-carlo/refs/heads/main/openapi/monte-carlo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/monte-carlo/refs/heads/main/openapi/monte-carlo-graphql-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: axiom-controller-openapi.yml
+- filename: axiom-controller-datasets-api-openapi.yml
   format: yaml
-  label: Axiom Ingest API
-  slug: axiom-ingest-api
+  label: Axiom Controller Datasets API
+  slug: axiom-controller-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axiom-controller/refs/heads/main/openapi/axiom-controller-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/axiom-controller/refs/heads/main/openapi/axiom-controller-datasets-api-openapi.yml
+- filename: axiom-controller-edge-api-openapi.yml
+  format: yaml
+  label: Axiom Controller Edge API
+  slug: axiom-controller-edge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axiom-controller/refs/heads/main/openapi/axiom-controller-edge-api-openapi.yml
+- filename: axiom-controller-ingest-api-openapi.yml
+  format: yaml
+  label: Axiom Controller Ingest API
+  slug: axiom-controller-ingest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axiom-controller/refs/heads/main/openapi/axiom-controller-ingest-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,12 +2,72 @@
 api_key_in:
 - header
 api_specs:
-- filename: argo-workflows-openapi.json
-  format: json
-  label: Argo Workflows API
-  slug: argo-workflows
+- filename: argo-workflows-archivedworkflowservice-api-openapi.yml
+  format: yaml
+  label: Argo Workflows ArchivedWorkflowService API
+  slug: argo-workflows-archivedworkflowservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-archivedworkflowservice-api-openapi.yml
+- filename: argo-workflows-artifactservice-api-openapi.yml
+  format: yaml
+  label: Argo Workflows ArtifactService API
+  slug: argo-workflows-artifactservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-artifactservice-api-openapi.yml
+- filename: argo-workflows-clusterworkflowtemplateservice-api-openapi.yml
+  format: yaml
+  label: Argo Workflows ClusterWorkflowTemplateService API
+  slug: argo-workflows-clusterworkflowtemplateservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-clusterworkflowtemplateservice-api-openapi.yml
+- filename: argo-workflows-cronworkflowservice-api-openapi.yml
+  format: yaml
+  label: Argo Workflows CronWorkflowService API
+  slug: argo-workflows-cronworkflowservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-cronworkflowservice-api-openapi.yml
+- filename: argo-workflows-eventservice-api-openapi.yml
+  format: yaml
+  label: Argo Workflows EventService API
+  slug: argo-workflows-eventservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-eventservice-api-openapi.yml
+- filename: argo-workflows-eventsourceservice-api-openapi.yml
+  format: yaml
+  label: Argo Workflows EventSourceService API
+  slug: argo-workflows-eventsourceservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-eventsourceservice-api-openapi.yml
+- filename: argo-workflows-infoservice-api-openapi.yml
+  format: yaml
+  label: Argo Workflows InfoService API
+  slug: argo-workflows-infoservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-infoservice-api-openapi.yml
+- filename: argo-workflows-sensorservice-api-openapi.yml
+  format: yaml
+  label: Argo Workflows SensorService API
+  slug: argo-workflows-sensorservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-sensorservice-api-openapi.yml
+- filename: argo-workflows-syncservice-api-openapi.yml
+  format: yaml
+  label: Argo Workflows SyncService API
+  slug: argo-workflows-syncservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-syncservice-api-openapi.yml
+- filename: argo-workflows-workflowservice-api-openapi.yml
+  format: yaml
+  label: Argo Workflows WorkflowService API
+  slug: argo-workflows-workflowservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-workflowservice-api-openapi.yml
+- filename: argo-workflows-workflowtemplateservice-api-openapi.yml
+  format: yaml
+  label: Argo Workflows WorkflowTemplateService API
+  slug: argo-workflows-workflowtemplateservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-workflowtemplateservice-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

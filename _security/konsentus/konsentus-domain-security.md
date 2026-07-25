@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: konsentus-psp-checking-service-api-openapi.yml
   format: yaml
-  label: Konsentus Verify API
-  slug: konsentus-verify-api
+  label: Konsentus PSP Checking Service API
+  slug: konsentus-psp-checking-service-api
   spec_type: OpenAPI
-  url: https://swagger.konsentus.com/
+  url: https://raw.githubusercontent.com/api-evangelist/konsentus/refs/heads/main/openapi/konsentus-psp-checking-service-api-openapi.yml
 description: ''
 domains:
 - caa: []

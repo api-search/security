@@ -1,11 +1,77 @@
 ---
 api_specs:
-- filename: campfire-openapi-original.json
-  format: json
-  label: Campfire Developer APIs
-  slug: campfire-developer-apis
+- filename: campfire-accounts-payable-api-openapi.yml
+  format: yaml
+  label: Campfire Accounts Payable API
+  slug: campfire-accounts-payable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-accounts-payable-api-openapi.yml
+- filename: campfire-accounts-receivable-api-openapi.yml
+  format: yaml
+  label: Campfire Accounts Receivable API
+  slug: campfire-accounts-receivable-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-accounts-receivable-api-openapi.yml
+- filename: campfire-bank-reconciliation-api-openapi.yml
+  format: yaml
+  label: Campfire Bank Reconciliation API
+  slug: campfire-bank-reconciliation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-bank-reconciliation-api-openapi.yml
+- filename: campfire-cash-management-api-openapi.yml
+  format: yaml
+  label: Campfire Cash Management API
+  slug: campfire-cash-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-cash-management-api-openapi.yml
+- filename: campfire-coa-api-openapi.yml
+  format: yaml
+  label: Campfire coa API
+  slug: campfire-coa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-coa-api-openapi.yml
+- filename: campfire-company-objects-api-openapi.yml
+  format: yaml
+  label: Campfire Company Objects API
+  slug: campfire-company-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-company-objects-api-openapi.yml
+- filename: campfire-core-accounting-api-openapi.yml
+  format: yaml
+  label: Campfire Core Accounting API
+  slug: campfire-core-accounting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-core-accounting-api-openapi.yml
+- filename: campfire-custom-fields-api-openapi.yml
+  format: yaml
+  label: Campfire Custom Fields API
+  slug: campfire-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-custom-fields-api-openapi.yml
+- filename: campfire-financial-statements-api-openapi.yml
+  format: yaml
+  label: Campfire Financial Statements API
+  slug: campfire-financial-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-financial-statements-api-openapi.yml
+- filename: campfire-integrations-api-openapi.yml
+  format: yaml
+  label: Campfire Integrations API
+  slug: campfire-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-integrations-api-openapi.yml
+- filename: campfire-revenue-recognition-api-openapi.yml
+  format: yaml
+  label: Campfire Revenue Recognition API
+  slug: campfire-revenue-recognition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-revenue-recognition-api-openapi.yml
+- filename: campfire-settings-api-openapi.yml
+  format: yaml
+  label: Campfire Settings API
+  slug: campfire-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-settings-api-openapi.yml
 description: ''
 domains:
 - caa: []

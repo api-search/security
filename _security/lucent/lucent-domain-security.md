@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: lucent-openapi-original.json
-  format: json
-  label: Lucent API
-  slug: lucent-api
+- filename: lucent-insights-api-openapi.yml
+  format: yaml
+  label: Lucent Insights API
+  slug: lucent-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/openapi/lucent-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/openapi/lucent-insights-api-openapi.yml
+- filename: lucent-issues-api-openapi.yml
+  format: yaml
+  label: Lucent Issues API
+  slug: lucent-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/openapi/lucent-issues-api-openapi.yml
+- filename: lucent-sdk-api-openapi.yml
+  format: yaml
+  label: Lucent Sdk API
+  slug: lucent-sdk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/openapi/lucent-sdk-api-openapi.yml
+- filename: lucent-signals-api-openapi.yml
+  format: yaml
+  label: Lucent Signals API
+  slug: lucent-signals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/openapi/lucent-signals-api-openapi.yml
 description: ''
 domains:
 - caa: []

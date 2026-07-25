@@ -2,42 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: highlightly-openapi.yml
+- filename: highlightly-catalog-api-openapi.yml
   format: yaml
-  label: Highlightly Matches & Fixtures API
-  slug: matches-fixtures
+  label: Highlightly Catalog API
+  slug: highlightly-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlightly/refs/heads/main/openapi/highlightly-openapi.yml
-- filename: highlightly-openapi.yml
-  format: yaml
-  label: Highlightly Live Scores API
-  slug: live-scores
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlightly/refs/heads/main/openapi/highlightly-openapi.yml
-- filename: highlightly-openapi.yml
-  format: yaml
-  label: Highlightly Standings API
-  slug: standings
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlightly/refs/heads/main/openapi/highlightly-openapi.yml
-- filename: highlightly-openapi.yml
-  format: yaml
-  label: Highlightly Statistics API
-  slug: statistics
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlightly/refs/heads/main/openapi/highlightly-openapi.yml
-- filename: highlightly-openapi.yml
-  format: yaml
-  label: Highlightly Odds API
-  slug: odds
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlightly/refs/heads/main/openapi/highlightly-openapi.yml
-- filename: highlightly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/highlightly/refs/heads/main/openapi/highlightly-catalog-api-openapi.yml
+- filename: highlightly-highlights-api-openapi.yml
   format: yaml
   label: Highlightly Highlights API
-  slug: highlights
+  slug: highlightly-highlights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlightly/refs/heads/main/openapi/highlightly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/highlightly/refs/heads/main/openapi/highlightly-highlights-api-openapi.yml
+- filename: highlightly-matches-api-openapi.yml
+  format: yaml
+  label: Highlightly Matches API
+  slug: highlightly-matches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/highlightly/refs/heads/main/openapi/highlightly-matches-api-openapi.yml
+- filename: highlightly-odds-api-openapi.yml
+  format: yaml
+  label: Highlightly Odds API
+  slug: highlightly-odds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/highlightly/refs/heads/main/openapi/highlightly-odds-api-openapi.yml
+- filename: highlightly-standings-api-openapi.yml
+  format: yaml
+  label: Highlightly Standings API
+  slug: highlightly-standings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/highlightly/refs/heads/main/openapi/highlightly-standings-api-openapi.yml
+- filename: highlightly-statistics-api-openapi.yml
+  format: yaml
+  label: Highlightly Statistics API
+  slug: highlightly-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/highlightly/refs/heads/main/openapi/highlightly-statistics-api-openapi.yml
+- filename: highlightly-teams-api-openapi.yml
+  format: yaml
+  label: Highlightly Teams API
+  slug: highlightly-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/highlightly/refs/heads/main/openapi/highlightly-teams-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

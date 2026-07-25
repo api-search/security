@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: cricapi-cricket-data-api-openapi.yml
+- filename: cricapi-fantasy-api-openapi.yml
   format: yaml
-  label: Cricket Data API
-  slug: cricket-data-api
+  label: CricAPI Fantasy API
+  slug: cricapi-fantasy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-cricket-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-fantasy-api-openapi.yml
+- filename: cricapi-generic-api-openapi.yml
+  format: yaml
+  label: CricAPI Generic API
+  slug: cricapi-generic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-generic-api-openapi.yml
+- filename: cricapi-info-api-openapi.yml
+  format: yaml
+  label: CricAPI Info API
+  slug: cricapi-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-info-api-openapi.yml
+- filename: cricapi-matches-api-openapi.yml
+  format: yaml
+  label: CricAPI Matches API
+  slug: cricapi-matches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-matches-api-openapi.yml
+- filename: cricapi-players-api-openapi.yml
+  format: yaml
+  label: CricAPI Players API
+  slug: cricapi-players-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-players-api-openapi.yml
+- filename: cricapi-series-api-openapi.yml
+  format: yaml
+  label: CricAPI Series API
+  slug: cricapi-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-series-api-openapi.yml
 description: ''
 domains:
 - caa: []

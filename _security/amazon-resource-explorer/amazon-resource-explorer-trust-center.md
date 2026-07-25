@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: amazon-resource-explorer-index-api-openapi.yml
   format: yaml
-  label: AWS Resource Explorer API
-  slug: aws-resource-explorer-api
+  label: Amazon Resource Explorer Index API
+  slug: amazon-resource-explorer-index-api
   spec_type: OpenAPI
-  url: https://api.apis.guru/v2/specs/amazonaws.com/resource-explorer-2/2022-07-28/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/openapi/amazon-resource-explorer-index-api-openapi.yml
+- filename: amazon-resource-explorer-resources-api-openapi.yml
+  format: yaml
+  label: Amazon Resource Explorer Resources API
+  slug: amazon-resource-explorer-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/openapi/amazon-resource-explorer-resources-api-openapi.yml
+- filename: amazon-resource-explorer-search-api-openapi.yml
+  format: yaml
+  label: Amazon Resource Explorer Search API
+  slug: amazon-resource-explorer-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/openapi/amazon-resource-explorer-search-api-openapi.yml
+- filename: amazon-resource-explorer-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Resource Explorer Tags API
+  slug: amazon-resource-explorer-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/openapi/amazon-resource-explorer-tags-api-openapi.yml
+- filename: amazon-resource-explorer-views-api-openapi.yml
+  format: yaml
+  label: Amazon Resource Explorer Views API
+  slug: amazon-resource-explorer-views-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/openapi/amazon-resource-explorer-views-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

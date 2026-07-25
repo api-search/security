@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: api.json
-  format: json
-  label: Ceph RESTful API
-  slug: restful-api
+- filename: ceph-auth-api-openapi.yml
+  format: yaml
+  label: Ceph Auth API
+  slug: ceph-auth-api
   spec_type: OpenAPI
-  url: https://{manager_host}:{dashboard_port}/docs/api.json
+  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-auth-api-openapi.yml
+- filename: ceph-cluster-api-openapi.yml
+  format: yaml
+  label: Ceph Cluster API
+  slug: ceph-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-cluster-api-openapi.yml
+- filename: ceph-configuration-api-openapi.yml
+  format: yaml
+  label: Ceph Configuration API
+  slug: ceph-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-configuration-api-openapi.yml
+- filename: ceph-crush-api-openapi.yml
+  format: yaml
+  label: Ceph CRUSH API
+  slug: ceph-crush-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-crush-api-openapi.yml
+- filename: ceph-daemon-api-openapi.yml
+  format: yaml
+  label: Ceph Daemon API
+  slug: ceph-daemon-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-daemon-api-openapi.yml
+- filename: ceph-user-api-openapi.yml
+  format: yaml
+  label: Ceph User API
+  slug: ceph-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-user-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,36 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: open-payments-openapi.yml
+- filename: open-payments-datastore-query-api-openapi.yml
   format: yaml
-  label: Open Payments General Payments API
-  slug: open-payments-general-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-openapi.yml
-- filename: open-payments-openapi.yml
-  format: yaml
-  label: Open Payments Research Payments API
-  slug: open-payments-research-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-openapi.yml
-- filename: open-payments-openapi.yml
-  format: yaml
-  label: Open Payments Ownership and Investment API
-  slug: open-payments-ownership-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-openapi.yml
-- filename: open-payments-openapi.yml
-  format: yaml
-  label: Open Payments Datastore Query API
+  label: CMS Open Payments Datastore Query API
   slug: open-payments-datastore-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-openapi.yml
-- filename: open-payments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-datastore-query-api-openapi.yml
+- filename: open-payments-datastore-sql-api-openapi.yml
   format: yaml
-  label: Open Payments Metastore and Search API
+  label: CMS Open Payments Datastore SQL API
+  slug: open-payments-datastore-sql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-datastore-sql-api-openapi.yml
+- filename: open-payments-download-api-openapi.yml
+  format: yaml
+  label: CMS Open Payments Download API
+  slug: open-payments-download-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-download-api-openapi.yml
+- filename: open-payments-metastore-api-openapi.yml
+  format: yaml
+  label: CMS Open Payments Metastore API
   slug: open-payments-metastore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-metastore-api-openapi.yml
+- filename: open-payments-search-api-openapi.yml
+  format: yaml
+  label: CMS Open Payments Search API
+  slug: open-payments-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-search-api-openapi.yml
 auth_types:
 - none
 description: ''

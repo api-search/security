@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: crewai-amp-rest-api-openapi.yml
-  format: yaml
-  label: CrewAI AMP REST API
-  slug: crewai-amp-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-amp-rest-api-openapi.yml
 - filename: crewai-amp-webhooks-asyncapi.yml
   format: yaml
   label: CrewAI AMP Webhook Streaming
   slug: crewai-amp-webhook-streaming
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/asyncapi/crewai-amp-webhooks-asyncapi.yml
+- filename: crewai-cloud-inputs-api-openapi.yml
+  format: yaml
+  label: CrewAI Cloud Inputs API
+  slug: crewai-cloud-inputs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-cloud-inputs-api-openapi.yml
+- filename: crewai-cloud-kickoff-api-openapi.yml
+  format: yaml
+  label: CrewAI Cloud Kickoff API
+  slug: crewai-cloud-kickoff-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-cloud-kickoff-api-openapi.yml
+- filename: crewai-cloud-resume-api-openapi.yml
+  format: yaml
+  label: CrewAI Cloud Resume API
+  slug: crewai-cloud-resume-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-cloud-resume-api-openapi.yml
+- filename: crewai-cloud-status-api-openapi.yml
+  format: yaml
+  label: CrewAI Cloud Status API
+  slug: crewai-cloud-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-cloud-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

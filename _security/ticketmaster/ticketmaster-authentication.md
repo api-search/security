@@ -2,18 +2,18 @@
 api_key_in:
 - query
 api_specs:
-- filename: ticketmaster-discovery-openapi.yml
+- filename: ticketmaster-availability-api-openapi.yml
   format: yaml
-  label: Ticketmaster Discovery API
-  slug: ticketmaster-discovery-api
+  label: Ticketmaster Availability API
+  slug: ticketmaster-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-discovery-openapi.yml
-- filename: ticketmaster-commerce-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-availability-api-openapi.yml
+- filename: ticketmaster-offerings-api-openapi.yml
   format: yaml
-  label: Ticketmaster Commerce API
-  slug: ticketmaster-commerce-api
+  label: Ticketmaster Offerings API
+  slug: ticketmaster-offerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-commerce-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-offerings-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

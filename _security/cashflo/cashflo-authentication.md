@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: cashflo-data-ingestion-openapi.json
-  format: json
-  label: CashFlo Data Ingestion API
-  slug: cashflo-data-ingestion-api
+- filename: cashflo-ingest-api-openapi.yml
+  format: yaml
+  label: CashFlo Ingest API
+  slug: cashflo-ingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashflo/refs/heads/main/openapi/cashflo-data-ingestion-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/cashflo/refs/heads/main/openapi/cashflo-ingest-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

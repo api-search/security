@@ -1,17 +1,65 @@
 ---
 api_specs:
-- filename: sportradar-sports-data-openapi.yml
+- filename: sportradar-competitors-api-openapi.yml
   format: yaml
-  label: Sportradar Sports Data API
-  slug: sports-data-api
+  label: Sportradar Competitors API
+  slug: sportradar-competitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-sports-data-openapi.yml
-- filename: sportradar-push-feeds-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-competitors-api-openapi.yml
+- filename: sportradar-nba-push-api-openapi.yml
   format: yaml
-  label: Sportradar Push Feeds API
-  slug: push-feeds-api
+  label: Sportradar NBA Push API
+  slug: sportradar-nba-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-push-feeds-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-nba-push-api-openapi.yml
+- filename: sportradar-nfl-push-api-openapi.yml
+  format: yaml
+  label: Sportradar NFL Push API
+  slug: sportradar-nfl-push-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-nfl-push-api-openapi.yml
+- filename: sportradar-nhl-push-api-openapi.yml
+  format: yaml
+  label: Sportradar NHL Push API
+  slug: sportradar-nhl-push-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-nhl-push-api-openapi.yml
+- filename: sportradar-schedules-api-openapi.yml
+  format: yaml
+  label: Sportradar Schedules API
+  slug: sportradar-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-schedules-api-openapi.yml
+- filename: sportradar-scores-api-openapi.yml
+  format: yaml
+  label: Sportradar Scores API
+  slug: sportradar-scores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-scores-api-openapi.yml
+- filename: sportradar-soccer-push-api-openapi.yml
+  format: yaml
+  label: Sportradar Soccer Push API
+  slug: sportradar-soccer-push-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-soccer-push-api-openapi.yml
+- filename: sportradar-standings-api-openapi.yml
+  format: yaml
+  label: Sportradar Standings API
+  slug: sportradar-standings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-standings-api-openapi.yml
+- filename: sportradar-statistics-api-openapi.yml
+  format: yaml
+  label: Sportradar Statistics API
+  slug: sportradar-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-statistics-api-openapi.yml
+- filename: sportradar-wnba-push-api-openapi.yml
+  format: yaml
+  label: Sportradar WNBA Push API
+  slug: sportradar-wnba-push-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-wnba-push-api-openapi.yml
 description: ''
 domains:
 - caa: []

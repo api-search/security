@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: e2b-openapi.yml
+- filename: e2b-sandboxes-api-openapi.yml
   format: yaml
-  label: E2B Sandbox API
-  slug: sandbox-api
+  label: E2B Sandboxes API
+  slug: e2b-sandboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b/refs/heads/main/openapi/e2b-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/e2b/refs/heads/main/openapi/e2b-sandboxes-api-openapi.yml
+- filename: e2b-templates-api-openapi.yml
+  format: yaml
+  label: E2B Templates API
+  slug: e2b-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/e2b/refs/heads/main/openapi/e2b-templates-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

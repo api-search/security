@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: parsehub-openapi.yml
+- filename: parsehub-projects-api-openapi.yml
   format: yaml
-  label: ParseHub
-  slug: parsehub
+  label: ParseHub Projects API
+  slug: parsehub-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsehub/refs/heads/main/openapi/parsehub-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/parsehub/refs/heads/main/openapi/parsehub-projects-api-openapi.yml
+- filename: parsehub-runs-api-openapi.yml
+  format: yaml
+  label: ParseHub Runs API
+  slug: parsehub-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parsehub/refs/heads/main/openapi/parsehub-runs-api-openapi.yml
 description: ''
 domains:
 - caa: []

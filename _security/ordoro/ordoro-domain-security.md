@@ -1,11 +1,167 @@
 ---
 api_specs:
-- filename: ordoro-ordoro-api-openapi.yml
+- filename: ordoro-address-api-openapi.yml
   format: yaml
-  label: Ordoro API
-  slug: ordoro-api
+  label: Ordoro Address API
+  slug: ordoro-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-ordoro-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-address-api-openapi.yml
+- filename: ordoro-api-key-api-openapi.yml
+  format: yaml
+  label: Ordoro Api Key API
+  slug: ordoro-api-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-api-key-api-openapi.yml
+- filename: ordoro-authenticated-api-openapi.yml
+  format: yaml
+  label: Ordoro Authenticated API
+  slug: ordoro-authenticated-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-authenticated-api-openapi.yml
+- filename: ordoro-cart-api-openapi.yml
+  format: yaml
+  label: Ordoro Cart API
+  slug: ordoro-cart-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-cart-api-openapi.yml
+- filename: ordoro-company-api-openapi.yml
+  format: yaml
+  label: Ordoro Company API
+  slug: ordoro-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-company-api-openapi.yml
+- filename: ordoro-goods-receipt-api-openapi.yml
+  format: yaml
+  label: Ordoro Goods Receipt API
+  slug: ordoro-goods-receipt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-goods-receipt-api-openapi.yml
+- filename: ordoro-integration-api-openapi.yml
+  format: yaml
+  label: Ordoro Integration API
+  slug: ordoro-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-integration-api-openapi.yml
+- filename: ordoro-label-api-openapi.yml
+  format: yaml
+  label: Ordoro Label API
+  slug: ordoro-label-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-label-api-openapi.yml
+- filename: ordoro-manufacturing-order-api-openapi.yml
+  format: yaml
+  label: Ordoro Manufacturing Order API
+  slug: ordoro-manufacturing-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-manufacturing-order-api-openapi.yml
+- filename: ordoro-order-api-openapi.yml
+  format: yaml
+  label: Ordoro Order API
+  slug: ordoro-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-order-api-openapi.yml
+- filename: ordoro-packing-list-api-openapi.yml
+  format: yaml
+  label: Ordoro Packing List API
+  slug: ordoro-packing-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-packing-list-api-openapi.yml
+- filename: ordoro-postage-account-api-openapi.yml
+  format: yaml
+  label: Ordoro Postage Account API
+  slug: ordoro-postage-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-postage-account-api-openapi.yml
+- filename: ordoro-product-api-openapi.yml
+  format: yaml
+  label: Ordoro Product API
+  slug: ordoro-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-product-api-openapi.yml
+- filename: ordoro-purchase-order-api-openapi.yml
+  format: yaml
+  label: Ordoro Purchase Order API
+  slug: ordoro-purchase-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-purchase-order-api-openapi.yml
+- filename: ordoro-rate-api-openapi.yml
+  format: yaml
+  label: Ordoro Rate API
+  slug: ordoro-rate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-rate-api-openapi.yml
+- filename: ordoro-return-label-api-openapi.yml
+  format: yaml
+  label: Ordoro Return Label API
+  slug: ordoro-return-label-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-return-label-api-openapi.yml
+- filename: ordoro-return-order-api-openapi.yml
+  format: yaml
+  label: Ordoro Return Order API
+  slug: ordoro-return-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-return-order-api-openapi.yml
+- filename: ordoro-return-order-label-api-openapi.yml
+  format: yaml
+  label: Ordoro Return Order Label API
+  slug: ordoro-return-order-label-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-return-order-label-api-openapi.yml
+- filename: ordoro-return-order-rate-api-openapi.yml
+  format: yaml
+  label: Ordoro Return Order Rate API
+  slug: ordoro-return-order-rate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-return-order-rate-api-openapi.yml
+- filename: ordoro-return-tracking-api-openapi.yml
+  format: yaml
+  label: Ordoro Return Tracking API
+  slug: ordoro-return-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-return-tracking-api-openapi.yml
+- filename: ordoro-rule-api-openapi.yml
+  format: yaml
+  label: Ordoro Rule API
+  slug: ordoro-rule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-rule-api-openapi.yml
+- filename: ordoro-shipper-api-openapi.yml
+  format: yaml
+  label: Ordoro Shipper API
+  slug: ordoro-shipper-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-shipper-api-openapi.yml
+- filename: ordoro-supplier-api-openapi.yml
+  format: yaml
+  label: Ordoro Supplier API
+  slug: ordoro-supplier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-supplier-api-openapi.yml
+- filename: ordoro-tag-api-openapi.yml
+  format: yaml
+  label: Ordoro Tag API
+  slug: ordoro-tag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-tag-api-openapi.yml
+- filename: ordoro-tracking-api-openapi.yml
+  format: yaml
+  label: Ordoro Tracking API
+  slug: ordoro-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-tracking-api-openapi.yml
+- filename: ordoro-user-api-openapi.yml
+  format: yaml
+  label: Ordoro User API
+  slug: ordoro-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-user-api-openapi.yml
+- filename: ordoro-warehouse-api-openapi.yml
+  format: yaml
+  label: Ordoro Warehouse API
+  slug: ordoro-warehouse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/openapi/ordoro-warehouse-api-openapi.yml
 description: ''
 domains:
 - caa:

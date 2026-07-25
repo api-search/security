@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: microsoft-azure-cdn-openapi.yml
+- filename: microsoft-azure-cdn-operations-api-openapi.yml
   format: yaml
-  label: Azure CDN REST API
-  slug: rest-api
+  label: microsoft-azure-cdn Operations API
+  slug: microsoft-azure-cdn-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/openapi/microsoft-azure-cdn-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/openapi/microsoft-azure-cdn-operations-api-openapi.yml
+- filename: microsoft-azure-cdn-profiles-api-openapi.yml
+  format: yaml
+  label: microsoft-azure-cdn Profiles API
+  slug: microsoft-azure-cdn-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/openapi/microsoft-azure-cdn-profiles-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,78 +1,120 @@
 ---
 api_key_in: []
 api_specs:
-- filename: pennylane-openapi.yml
+- filename: pennylane-account-api-openapi.yml
   format: yaml
-  label: Pennylane Customer Invoicing API
-  slug: pennylane-customer-invoicing-api
+  label: Pennylane Account API
+  slug: pennylane-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-openapi.yml
-- filename: pennylane-openapi.yml
-  format: yaml
-  label: Pennylane Supplier Invoicing API
-  slug: pennylane-supplier-invoicing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-openapi.yml
-- filename: pennylane-openapi.yml
-  format: yaml
-  label: Pennylane Accounting & Ledger API
-  slug: pennylane-accounting-ledger-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-openapi.yml
-- filename: pennylane-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-account-api-openapi.yml
+- filename: pennylane-accounting-exports-api-openapi.yml
   format: yaml
   label: Pennylane Accounting Exports API
   slug: pennylane-accounting-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-openapi.yml
-- filename: pennylane-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-accounting-exports-api-openapi.yml
+- filename: pennylane-bank-accounts-api-openapi.yml
   format: yaml
-  label: Pennylane Banking API
-  slug: pennylane-banking-api
+  label: Pennylane Bank Accounts API
+  slug: pennylane-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-openapi.yml
-- filename: pennylane-openapi.yml
-  format: yaml
-  label: Pennylane Customers & Suppliers API
-  slug: pennylane-customers-suppliers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-openapi.yml
-- filename: pennylane-openapi.yml
-  format: yaml
-  label: Pennylane Products Catalog API
-  slug: pennylane-products-catalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-openapi.yml
-- filename: pennylane-openapi.yml
-  format: yaml
-  label: Pennylane Quotes API
-  slug: pennylane-quotes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-openapi.yml
-- filename: pennylane-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-bank-accounts-api-openapi.yml
+- filename: pennylane-billing-subscriptions-api-openapi.yml
   format: yaml
   label: Pennylane Billing Subscriptions API
   slug: pennylane-billing-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-openapi.yml
-- filename: pennylane-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-billing-subscriptions-api-openapi.yml
+- filename: pennylane-categories-api-openapi.yml
   format: yaml
-  label: Pennylane Direct Debit Mandates API
-  slug: pennylane-mandates-api
+  label: Pennylane Categories API
+  slug: pennylane-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-openapi.yml
-- filename: pennylane-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-categories-api-openapi.yml
+- filename: pennylane-change-events-api-openapi.yml
   format: yaml
   label: Pennylane Change Events API
   slug: pennylane-change-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-openapi.yml
-- filename: pennylane-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-change-events-api-openapi.yml
+- filename: pennylane-customer-invoices-api-openapi.yml
   format: yaml
-  label: Pennylane E-Invoicing (Plateforme Agréée) API
-  slug: pennylane-einvoicing-pa-api
+  label: Pennylane Customer Invoices API
+  slug: pennylane-customer-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-customer-invoices-api-openapi.yml
+- filename: pennylane-customers-api-openapi.yml
+  format: yaml
+  label: Pennylane Customers API
+  slug: pennylane-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-customers-api-openapi.yml
+- filename: pennylane-e-invoicing-api-openapi.yml
+  format: yaml
+  label: Pennylane E-Invoicing API
+  slug: pennylane-e-invoicing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-e-invoicing-api-openapi.yml
+- filename: pennylane-file-attachments-api-openapi.yml
+  format: yaml
+  label: Pennylane File Attachments API
+  slug: pennylane-file-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-file-attachments-api-openapi.yml
+- filename: pennylane-journals-api-openapi.yml
+  format: yaml
+  label: Pennylane Journals API
+  slug: pennylane-journals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-journals-api-openapi.yml
+- filename: pennylane-ledger-accounts-api-openapi.yml
+  format: yaml
+  label: Pennylane Ledger Accounts API
+  slug: pennylane-ledger-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-ledger-accounts-api-openapi.yml
+- filename: pennylane-ledger-entries-api-openapi.yml
+  format: yaml
+  label: Pennylane Ledger Entries API
+  slug: pennylane-ledger-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-ledger-entries-api-openapi.yml
+- filename: pennylane-mandates-api-openapi.yml
+  format: yaml
+  label: Pennylane Mandates API
+  slug: pennylane-mandates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-mandates-api-openapi.yml
+- filename: pennylane-products-api-openapi.yml
+  format: yaml
+  label: Pennylane Products API
+  slug: pennylane-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-products-api-openapi.yml
+- filename: pennylane-quotes-api-openapi.yml
+  format: yaml
+  label: Pennylane Quotes API
+  slug: pennylane-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-quotes-api-openapi.yml
+- filename: pennylane-supplier-invoices-api-openapi.yml
+  format: yaml
+  label: Pennylane Supplier Invoices API
+  slug: pennylane-supplier-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-supplier-invoices-api-openapi.yml
+- filename: pennylane-suppliers-api-openapi.yml
+  format: yaml
+  label: Pennylane Suppliers API
+  slug: pennylane-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-suppliers-api-openapi.yml
+- filename: pennylane-transactions-api-openapi.yml
+  format: yaml
+  label: Pennylane Transactions API
+  slug: pennylane-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-transactions-api-openapi.yml
 auth_types:
 - http
 - oauth2

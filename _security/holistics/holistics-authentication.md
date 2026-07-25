@@ -2,36 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: holistics-openapi.yml
+- filename: holistics-data-pipeline-api-openapi.yml
   format: yaml
-  label: Holistics Data Schedules & Jobs API
-  slug: holistics-data-schedules-jobs-api
+  label: Holistics Data Pipeline API
+  slug: holistics-data-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/openapi/holistics-openapi.yml
-- filename: holistics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/openapi/holistics-data-pipeline-api-openapi.yml
+- filename: holistics-datasets-api-openapi.yml
   format: yaml
-  label: Holistics Dashboards & Reports API
-  slug: holistics-dashboards-reports-api
+  label: Holistics Datasets API
+  slug: holistics-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/openapi/holistics-openapi.yml
-- filename: holistics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/openapi/holistics-datasets-api-openapi.yml
+- filename: holistics-export-api-openapi.yml
   format: yaml
   label: Holistics Export API
   slug: holistics-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/openapi/holistics-openapi.yml
-- filename: holistics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/openapi/holistics-export-api-openapi.yml
+- filename: holistics-jobs-api-openapi.yml
   format: yaml
-  label: Holistics Users & Permissions API
-  slug: holistics-users-permissions-api
+  label: Holistics Jobs API
+  slug: holistics-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/openapi/holistics-openapi.yml
-- filename: holistics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/openapi/holistics-jobs-api-openapi.yml
+- filename: holistics-reports-api-openapi.yml
   format: yaml
-  label: Holistics Embedded Analytics API
-  slug: holistics-embedded-analytics-api
+  label: Holistics Reports API
+  slug: holistics-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/openapi/holistics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/openapi/holistics-reports-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,6 +1,61 @@
 ---
 api_key_in:
 - header
+api_specs:
+- filename: bloomberg-apis-apiauth-api-openapi.yml
+  format: yaml
+  label: Bloomberg APIs apiauth API
+  slug: bloomberg-apis-apiauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/openapi/bloomberg-apis-apiauth-api-openapi.yml
+- filename: bloomberg-apis-apiflds-api-openapi.yml
+  format: yaml
+  label: Bloomberg APIs apiflds API
+  slug: bloomberg-apis-apiflds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/openapi/bloomberg-apis-apiflds-api-openapi.yml
+- filename: bloomberg-apis-instruments-api-openapi.yml
+  format: yaml
+  label: Bloomberg APIs instruments API
+  slug: bloomberg-apis-instruments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/openapi/bloomberg-apis-instruments-api-openapi.yml
+- filename: bloomberg-apis-mktbar-api-openapi.yml
+  format: yaml
+  label: Bloomberg APIs mktbar API
+  slug: bloomberg-apis-mktbar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/openapi/bloomberg-apis-mktbar-api-openapi.yml
+- filename: bloomberg-apis-mktdata-api-openapi.yml
+  format: yaml
+  label: Bloomberg APIs mktdata API
+  slug: bloomberg-apis-mktdata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/openapi/bloomberg-apis-mktdata-api-openapi.yml
+- filename: bloomberg-apis-mktvwap-api-openapi.yml
+  format: yaml
+  label: Bloomberg APIs mktvwap API
+  slug: bloomberg-apis-mktvwap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/openapi/bloomberg-apis-mktvwap-api-openapi.yml
+- filename: bloomberg-apis-pagedata-api-openapi.yml
+  format: yaml
+  label: Bloomberg APIs pagedata API
+  slug: bloomberg-apis-pagedata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/openapi/bloomberg-apis-pagedata-api-openapi.yml
+- filename: bloomberg-apis-refdata-api-openapi.yml
+  format: yaml
+  label: Bloomberg APIs refdata API
+  slug: bloomberg-apis-refdata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/openapi/bloomberg-apis-refdata-api-openapi.yml
+- filename: bloomberg-apis-tasvc-api-openapi.yml
+  format: yaml
+  label: Bloomberg APIs tasvc API
+  slug: bloomberg-apis-tasvc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/openapi/bloomberg-apis-tasvc-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: integry-openapi.yml
+- filename: integry-apps-api-openapi.yml
   format: yaml
-  label: Integry API
-  slug: apis
+  label: Integry Apps API
+  slug: integry-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integry/refs/heads/main/openapi/integry-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/integry/refs/heads/main/openapi/integry-apps-api-openapi.yml
+- filename: integry-functions-api-openapi.yml
+  format: yaml
+  label: Integry Functions API
+  slug: integry-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/integry/refs/heads/main/openapi/integry-functions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

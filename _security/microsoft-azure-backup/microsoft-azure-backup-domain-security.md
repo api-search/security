@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: microsoft-azure-backup-openapi.yml
+- filename: microsoft-azure-backup-operations-api-openapi.yml
   format: yaml
-  label: Azure Backup REST API
-  slug: rest-api
+  label: Azure Backup Operations API
+  slug: microsoft-azure-backup-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-backup/refs/heads/main/openapi/microsoft-azure-backup-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-backup/refs/heads/main/openapi/microsoft-azure-backup-operations-api-openapi.yml
+- filename: microsoft-azure-backup-vaults-api-openapi.yml
+  format: yaml
+  label: Azure Backup Vaults API
+  slug: microsoft-azure-backup-vaults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-backup/refs/heads/main/openapi/microsoft-azure-backup-vaults-api-openapi.yml
 description: ''
 domains:
 - caa:

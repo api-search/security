@@ -2,36 +2,18 @@
 api_key_in:
 - query
 api_specs:
-- filename: audd-openapi.yml
-  format: yaml
-  label: AudD Music Recognition API
-  slug: music-recognition
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/openapi/audd-openapi.yml
-- filename: audd-openapi.yml
-  format: yaml
-  label: AudD Recognize with Offset API
-  slug: recognize-with-offset
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/openapi/audd-openapi.yml
-- filename: audd-openapi.yml
-  format: yaml
-  label: AudD Humming Recognition API
-  slug: humming-recognition
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/openapi/audd-openapi.yml
-- filename: audd-openapi.yml
-  format: yaml
-  label: AudD Enterprise File Scan API
-  slug: enterprise-file-scan
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/openapi/audd-openapi.yml
-- filename: audd-openapi.yml
+- filename: audd-lyrics-api-openapi.yml
   format: yaml
   label: AudD Lyrics API
-  slug: lyrics
+  slug: audd-lyrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/openapi/audd-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/openapi/audd-lyrics-api-openapi.yml
+- filename: audd-recognition-api-openapi.yml
+  format: yaml
+  label: AudD Recognition API
+  slug: audd-recognition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/openapi/audd-recognition-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

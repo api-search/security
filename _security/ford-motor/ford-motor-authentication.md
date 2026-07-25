@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ford-motor-ford-api-openapi.yml
+- filename: ford-motor-automotive-api-openapi.yml
   format: yaml
-  label: Ford Developer API
-  slug: ford-api
+  label: ford-motor Automotive API
+  slug: ford-motor-automotive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ford-motor/refs/heads/main/openapi/ford-motor-ford-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ford-motor/refs/heads/main/openapi/ford-motor-automotive-api-openapi.yml
 auth_types:
 - http
 description: ''

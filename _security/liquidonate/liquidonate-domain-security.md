@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: liquidonate-magicmatch-openapi.yml
+- filename: liquidonate-donate-api-openapi.yml
   format: yaml
-  label: MagicMatch by LiquiDonate
-  slug: magicmatch
+  label: LiquiDonate Donate API
+  slug: liquidonate-donate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-magicmatch-openapi.yml
-- filename: liquidonate-returnsdirect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-donate-api-openapi.yml
+- filename: liquidonate-match-api-openapi.yml
   format: yaml
-  label: ReturnsDirect by LiquiDonate (Beta)
-  slug: returnsdirect
+  label: LiquiDonate Match API
+  slug: liquidonate-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-returnsdirect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-match-api-openapi.yml
+- filename: liquidonate-orders-api-openapi.yml
+  format: yaml
+  label: LiquiDonate Orders API
+  slug: liquidonate-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-orders-api-openapi.yml
+- filename: liquidonate-retailer-api-openapi.yml
+  format: yaml
+  label: LiquiDonate Retailer API
+  slug: liquidonate-retailer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-retailer-api-openapi.yml
+- filename: liquidonate-ship-api-openapi.yml
+  format: yaml
+  label: LiquiDonate Ship API
+  slug: liquidonate-ship-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-ship-api-openapi.yml
 description: ''
 domains:
 - caa: []

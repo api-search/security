@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: servicedesk-plus-openapi.yml
+- filename: servicedesk-plus-requests-api-openapi.yml
   format: yaml
-  label: ServiceDesk Plus REST API
-  slug: rest-api
+  label: ManageEngine ServiceDesk Plus Requests API
+  slug: servicedesk-plus-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicedesk-plus/refs/heads/main/openapi/servicedesk-plus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/servicedesk-plus/refs/heads/main/openapi/servicedesk-plus-requests-api-openapi.yml
 certifications:
 - ISO 27001
 - HIPAA

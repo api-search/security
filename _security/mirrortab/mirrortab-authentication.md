@@ -2,12 +2,12 @@
 api_key_in:
 - body
 api_specs:
-- filename: mirrortab-api-openapi.yml
+- filename: mirrortab-sessions-api-openapi.yml
   format: yaml
-  label: MirrorTab API
-  slug: mirrortab-api
+  label: MirrorTab Sessions API
+  slug: mirrortab-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirrortab/refs/heads/main/openapi/mirrortab-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mirrortab/refs/heads/main/openapi/mirrortab-sessions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

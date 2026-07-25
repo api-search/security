@@ -1,12 +1,78 @@
 ---
 api_key_in: []
 api_specs:
-- filename: lightup-dashboard-openapi.json
-  format: json
-  label: Lightup Dashboard API
-  slug: dashboard
+- filename: lightup-api-credentials-api-openapi.yml
+  format: yaml
+  label: Lightup API Credentials API
+  slug: lightup-api-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-dashboard-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-api-credentials-api-openapi.yml
+- filename: lightup-catalogs-api-openapi.yml
+  format: yaml
+  label: Lightup Catalogs API
+  slug: lightup-catalogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-catalogs-api-openapi.yml
+- filename: lightup-dashboard-chart-api-openapi.yml
+  format: yaml
+  label: Lightup Dashboard chart API
+  slug: lightup-dashboard-chart-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-dashboard-chart-api-openapi.yml
+- filename: lightup-datapoints-api-openapi.yml
+  format: yaml
+  label: Lightup Datapoints API
+  slug: lightup-datapoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-datapoints-api-openapi.yml
+- filename: lightup-datasources-api-openapi.yml
+  format: yaml
+  label: Lightup Datasources API
+  slug: lightup-datasources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-datasources-api-openapi.yml
+- filename: lightup-health-check-api-openapi.yml
+  format: yaml
+  label: Lightup Health check API
+  slug: lightup-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-health-check-api-openapi.yml
+- filename: lightup-incidents-api-openapi.yml
+  format: yaml
+  label: Lightup Incidents API
+  slug: lightup-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-incidents-api-openapi.yml
+- filename: lightup-integrations-api-openapi.yml
+  format: yaml
+  label: Lightup Integrations API
+  slug: lightup-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-integrations-api-openapi.yml
+- filename: lightup-metrics-api-openapi.yml
+  format: yaml
+  label: Lightup Metrics API
+  slug: lightup-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-metrics-api-openapi.yml
+- filename: lightup-monitors-api-openapi.yml
+  format: yaml
+  label: Lightup Monitors API
+  slug: lightup-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-monitors-api-openapi.yml
+- filename: lightup-users-api-openapi.yml
+  format: yaml
+  label: Lightup Users API
+  slug: lightup-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-users-api-openapi.yml
+- filename: lightup-workspaces-api-openapi.yml
+  format: yaml
+  label: Lightup Workspaces API
+  slug: lightup-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''

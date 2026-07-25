@@ -1,84 +1,84 @@
 ---
 api_key_in: []
 api_specs:
-- filename: dotloop-openapi.yml
+- filename: dotloop-account-api-openapi.yml
   format: yaml
   label: dotloop Account API
   slug: dotloop-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-openapi.yml
-- filename: dotloop-openapi.yml
-  format: yaml
-  label: dotloop Profiles API
-  slug: dotloop-profiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-openapi.yml
-- filename: dotloop-openapi.yml
-  format: yaml
-  label: dotloop Loops API
-  slug: dotloop-loops-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-openapi.yml
-- filename: dotloop-openapi.yml
-  format: yaml
-  label: dotloop Loop Details API
-  slug: dotloop-loop-details-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-openapi.yml
-- filename: dotloop-openapi.yml
-  format: yaml
-  label: dotloop Loop-It API
-  slug: dotloop-loop-it-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-openapi.yml
-- filename: dotloop-openapi.yml
-  format: yaml
-  label: dotloop Folders API
-  slug: dotloop-folders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-openapi.yml
-- filename: dotloop-openapi.yml
-  format: yaml
-  label: dotloop Documents API
-  slug: dotloop-documents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-openapi.yml
-- filename: dotloop-openapi.yml
-  format: yaml
-  label: dotloop Participants API
-  slug: dotloop-participants-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-openapi.yml
-- filename: dotloop-openapi.yml
-  format: yaml
-  label: dotloop Tasks API
-  slug: dotloop-tasks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-openapi.yml
-- filename: dotloop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-account-api-openapi.yml
+- filename: dotloop-activities-api-openapi.yml
   format: yaml
   label: dotloop Activities API
   slug: dotloop-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-openapi.yml
-- filename: dotloop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-activities-api-openapi.yml
+- filename: dotloop-contacts-api-openapi.yml
   format: yaml
   label: dotloop Contacts API
   slug: dotloop-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-openapi.yml
-- filename: dotloop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-contacts-api-openapi.yml
+- filename: dotloop-documents-api-openapi.yml
+  format: yaml
+  label: dotloop Documents API
+  slug: dotloop-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-documents-api-openapi.yml
+- filename: dotloop-folders-api-openapi.yml
+  format: yaml
+  label: dotloop Folders API
+  slug: dotloop-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-folders-api-openapi.yml
+- filename: dotloop-loop-details-api-openapi.yml
+  format: yaml
+  label: dotloop Loop Details API
+  slug: dotloop-loop-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-loop-details-api-openapi.yml
+- filename: dotloop-loop-it-api-openapi.yml
+  format: yaml
+  label: dotloop Loop It API
+  slug: dotloop-loop-it-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-loop-it-api-openapi.yml
+- filename: dotloop-loop-templates-api-openapi.yml
   format: yaml
   label: dotloop Loop Templates API
   slug: dotloop-loop-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-openapi.yml
-- filename: dotloop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-loop-templates-api-openapi.yml
+- filename: dotloop-loops-api-openapi.yml
+  format: yaml
+  label: dotloop Loops API
+  slug: dotloop-loops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-loops-api-openapi.yml
+- filename: dotloop-participants-api-openapi.yml
+  format: yaml
+  label: dotloop Participants API
+  slug: dotloop-participants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-participants-api-openapi.yml
+- filename: dotloop-profiles-api-openapi.yml
+  format: yaml
+  label: dotloop Profiles API
+  slug: dotloop-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-profiles-api-openapi.yml
+- filename: dotloop-tasks-api-openapi.yml
+  format: yaml
+  label: dotloop Tasks API
+  slug: dotloop-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-tasks-api-openapi.yml
+- filename: dotloop-webhooks-api-openapi.yml
   format: yaml
   label: dotloop Webhooks API
   slug: dotloop-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

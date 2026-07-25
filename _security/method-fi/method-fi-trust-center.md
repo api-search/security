@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: method-fi-openapi.yml
+- filename: method-fi-accounts-api-openapi.yml
   format: yaml
-  label: Method Entities API
-  slug: entities
+  label: Method Financial Accounts API
+  slug: method-fi-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/method-fi/refs/heads/main/openapi/method-fi-openapi.yml
-- filename: method-fi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/method-fi/refs/heads/main/openapi/method-fi-accounts-api-openapi.yml
+- filename: method-fi-connect-api-openapi.yml
   format: yaml
-  label: Method Accounts API
-  slug: accounts
+  label: Method Financial Connect API
+  slug: method-fi-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/method-fi/refs/heads/main/openapi/method-fi-openapi.yml
-- filename: method-fi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/method-fi/refs/heads/main/openapi/method-fi-connect-api-openapi.yml
+- filename: method-fi-entities-api-openapi.yml
   format: yaml
-  label: Method Payments API
-  slug: payments
+  label: Method Financial Entities API
+  slug: method-fi-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/method-fi/refs/heads/main/openapi/method-fi-openapi.yml
-- filename: method-fi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/method-fi/refs/heads/main/openapi/method-fi-entities-api-openapi.yml
+- filename: method-fi-merchants-api-openapi.yml
   format: yaml
-  label: Method Merchants API
-  slug: merchants
+  label: Method Financial Merchants API
+  slug: method-fi-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/method-fi/refs/heads/main/openapi/method-fi-openapi.yml
-- filename: method-fi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/method-fi/refs/heads/main/openapi/method-fi-merchants-api-openapi.yml
+- filename: method-fi-payments-api-openapi.yml
   format: yaml
-  label: Method Connect API
-  slug: connect
+  label: Method Financial Payments API
+  slug: method-fi-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/method-fi/refs/heads/main/openapi/method-fi-openapi.yml
-- filename: method-fi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/method-fi/refs/heads/main/openapi/method-fi-payments-api-openapi.yml
+- filename: method-fi-transactions-api-openapi.yml
   format: yaml
-  label: Method Transactions API
-  slug: transactions
+  label: Method Financial Transactions API
+  slug: method-fi-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/method-fi/refs/heads/main/openapi/method-fi-openapi.yml
-- filename: method-fi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/method-fi/refs/heads/main/openapi/method-fi-transactions-api-openapi.yml
+- filename: method-fi-webhooks-api-openapi.yml
   format: yaml
-  label: Method Webhooks API
-  slug: webhooks
+  label: Method Financial Webhooks API
+  slug: method-fi-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/method-fi/refs/heads/main/openapi/method-fi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/method-fi/refs/heads/main/openapi/method-fi-webhooks-api-openapi.yml
 certifications:
 - SOC 2
 - PCI DSS

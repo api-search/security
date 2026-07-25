@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: books.yml
+- filename: google-books-mylibrary-api-openapi.yml
   format: yaml
-  label: Google Books API V1
-  slug: google-books
+  label: Google Books Mylibrary API
+  slug: google-books-mylibrary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-books/refs/heads/main/openapi/books.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-books/refs/heads/main/openapi/google-books-mylibrary-api-openapi.yml
+- filename: google-books-users-api-openapi.yml
+  format: yaml
+  label: Google Books Users API
+  slug: google-books-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-books/refs/heads/main/openapi/google-books-users-api-openapi.yml
+- filename: google-books-volumes-api-openapi.yml
+  format: yaml
+  label: Google Books Volumes API
+  slug: google-books-volumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-books/refs/heads/main/openapi/google-books-volumes-api-openapi.yml
 description: ''
 domains:
 - caa:

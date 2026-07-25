@@ -1,54 +1,240 @@
 ---
 api_key_in: []
 api_specs:
-- filename: deel-core-api-openapi.yml
+- filename: deel-com-adjustments-api-openapi.yml
   format: yaml
-  label: Deel Core API
-  slug: deel-core-api
+  label: Deel Adjustments API
+  slug: deel-com-adjustments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-core-api-openapi.yml
-- filename: deel-eor-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-adjustments-api-openapi.yml
+- filename: deel-com-applications-api-openapi.yml
   format: yaml
-  label: Deel Employer of Record (EOR) API
-  slug: deel-eor-api
+  label: Deel Applications API
+  slug: deel-com-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-eor-api-openapi.yml
-- filename: deel-contractors-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-applications-api-openapi.yml
+- filename: deel-com-candidates-api-openapi.yml
   format: yaml
-  label: Deel Contractors API
-  slug: deel-contractors-api
+  label: Deel Candidates API
+  slug: deel-com-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-contractors-api-openapi.yml
-- filename: deel-global-payroll-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-candidates-api-openapi.yml
+- filename: deel-com-contractor-amendments-api-openapi.yml
+  format: yaml
+  label: Deel Contractor Amendments API
+  slug: deel-com-contractor-amendments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-contractor-amendments-api-openapi.yml
+- filename: deel-com-contractor-hiring-api-openapi.yml
+  format: yaml
+  label: Deel Contractor Hiring API
+  slug: deel-com-contractor-hiring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-contractor-hiring-api-openapi.yml
+- filename: deel-com-contracts-api-openapi.yml
+  format: yaml
+  label: Deel Contracts API
+  slug: deel-com-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-contracts-api-openapi.yml
+- filename: deel-com-custom-fields-api-openapi.yml
+  format: yaml
+  label: Deel Custom Fields API
+  slug: deel-com-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-custom-fields-api-openapi.yml
+- filename: deel-com-deel-it-api-openapi.yml
+  format: yaml
+  label: Deel Deel IT API
+  slug: deel-com-deel-it-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-deel-it-api-openapi.yml
+- filename: deel-com-eor-amendments-api-openapi.yml
+  format: yaml
+  label: Deel EOR Amendments API
+  slug: deel-com-eor-amendments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-eor-amendments-api-openapi.yml
+- filename: deel-com-eor-benefits-api-openapi.yml
+  format: yaml
+  label: Deel EOR Benefits API
+  slug: deel-com-eor-benefits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-eor-benefits-api-openapi.yml
+- filename: deel-com-eor-cost-calculator-api-openapi.yml
+  format: yaml
+  label: Deel EOR Cost Calculator API
+  slug: deel-com-eor-cost-calculator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-eor-cost-calculator-api-openapi.yml
+- filename: deel-com-eor-hiring-api-openapi.yml
+  format: yaml
+  label: Deel EOR Hiring API
+  slug: deel-com-eor-hiring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-eor-hiring-api-openapi.yml
+- filename: deel-com-eor-terminations-api-openapi.yml
+  format: yaml
+  label: Deel EOR Terminations API
+  slug: deel-com-eor-terminations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-eor-terminations-api-openapi.yml
+- filename: deel-com-eor-worker-information-api-openapi.yml
+  format: yaml
+  label: Deel EOR Worker Information API
+  slug: deel-com-eor-worker-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-eor-worker-information-api-openapi.yml
+- filename: deel-com-global-payroll-api-openapi.yml
   format: yaml
   label: Deel Global Payroll API
-  slug: deel-global-payroll-api
+  slug: deel-com-global-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-global-payroll-api-openapi.yml
-- filename: deel-hris-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-global-payroll-api-openapi.yml
+- filename: deel-com-gp-hiring-api-openapi.yml
   format: yaml
-  label: Deel HRIS API
-  slug: deel-hris-api
+  label: Deel GP Hiring API
+  slug: deel-com-gp-hiring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-hris-api-openapi.yml
-- filename: deel-ats-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-gp-hiring-api-openapi.yml
+- filename: deel-com-ic-invoicing-taxes-api-openapi.yml
   format: yaml
-  label: Deel ATS API
-  slug: deel-ats-api
+  label: Deel IC Invoicing Taxes API
+  slug: deel-com-ic-invoicing-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-ats-api-openapi.yml
-- filename: deel-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-ic-invoicing-taxes-api-openapi.yml
+- filename: deel-com-immigration-api-openapi.yml
+  format: yaml
+  label: Deel Immigration API
+  slug: deel-com-immigration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-immigration-api-openapi.yml
+- filename: deel-com-invoice-adjustments-api-openapi.yml
+  format: yaml
+  label: Deel Invoice Adjustments API
+  slug: deel-com-invoice-adjustments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-invoice-adjustments-api-openapi.yml
+- filename: deel-com-jobs-api-openapi.yml
+  format: yaml
+  label: Deel Jobs API
+  slug: deel-com-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-jobs-api-openapi.yml
+- filename: deel-com-legal-entities-api-openapi.yml
+  format: yaml
+  label: Deel Legal Entities API
+  slug: deel-com-legal-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-legal-entities-api-openapi.yml
+- filename: deel-com-lookups-api-openapi.yml
+  format: yaml
+  label: Deel Lookups API
+  slug: deel-com-lookups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-lookups-api-openapi.yml
+- filename: deel-com-magic-link-api-openapi.yml
+  format: yaml
+  label: Deel Magic Link API
+  slug: deel-com-magic-link-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-magic-link-api-openapi.yml
+- filename: deel-com-managers-api-openapi.yml
+  format: yaml
+  label: Deel Managers API
+  slug: deel-com-managers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-managers-api-openapi.yml
+- filename: deel-com-milestones-api-openapi.yml
+  format: yaml
+  label: Deel Milestones API
+  slug: deel-com-milestones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-milestones-api-openapi.yml
+- filename: deel-com-off-cycle-api-openapi.yml
+  format: yaml
+  label: Deel Off Cycle API
+  slug: deel-com-off-cycle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-off-cycle-api-openapi.yml
+- filename: deel-com-offers-api-openapi.yml
+  format: yaml
+  label: Deel Offers API
+  slug: deel-com-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-offers-api-openapi.yml
+- filename: deel-com-organizations-api-openapi.yml
+  format: yaml
+  label: Deel Organizations API
+  slug: deel-com-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-organizations-api-openapi.yml
+- filename: deel-com-payslips-api-openapi.yml
+  format: yaml
+  label: Deel Payslips API
+  slug: deel-com-payslips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-payslips-api-openapi.yml
+- filename: deel-com-paystubs-api-openapi.yml
+  format: yaml
+  label: Deel Paystubs API
+  slug: deel-com-paystubs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-paystubs-api-openapi.yml
+- filename: deel-com-people-api-openapi.yml
+  format: yaml
+  label: Deel People API
+  slug: deel-com-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-people-api-openapi.yml
+- filename: deel-com-reference-data-api-openapi.yml
+  format: yaml
+  label: Deel Reference Data API
+  slug: deel-com-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-reference-data-api-openapi.yml
+- filename: deel-com-scim-api-openapi.yml
+  format: yaml
+  label: Deel SCIM API
+  slug: deel-com-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-scim-api-openapi.yml
+- filename: deel-com-screenings-api-openapi.yml
+  format: yaml
+  label: Deel Screenings API
+  slug: deel-com-screenings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-screenings-api-openapi.yml
+- filename: deel-com-time-off-api-openapi.yml
+  format: yaml
+  label: Deel Time Off API
+  slug: deel-com-time-off-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-time-off-api-openapi.yml
+- filename: deel-com-time-tracking-api-openapi.yml
+  format: yaml
+  label: Deel Time Tracking API
+  slug: deel-com-time-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-time-tracking-api-openapi.yml
+- filename: deel-com-timesheets-api-openapi.yml
+  format: yaml
+  label: Deel Timesheets API
+  slug: deel-com-timesheets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-timesheets-api-openapi.yml
+- filename: deel-com-webhook-events-api-openapi.yml
+  format: yaml
+  label: Deel Webhook Events API
+  slug: deel-com-webhook-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-webhook-events-api-openapi.yml
+- filename: deel-com-webhooks-api-openapi.yml
   format: yaml
   label: Deel Webhooks API
-  slug: deel-webhooks-api
+  slug: deel-com-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-webhooks-api-openapi.yml
-- filename: deel-platform-extensions-api-openapi.yml
-  format: yaml
-  label: Deel Platform Extensions API
-  slug: deel-platform-extensions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-platform-extensions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/openapi/deel-com-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

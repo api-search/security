@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: apache-ignite-rest-api.yaml
+- filename: apache-ignite-clusterconfiguration-api-openapi.yml
   format: yaml
-  label: Apache Ignite REST API
-  slug: rest-api
+  label: Apache Ignite clusterConfiguration API
+  slug: apache-ignite-clusterconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-rest-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-clusterconfiguration-api-openapi.yml
+- filename: apache-ignite-clustermanagement-api-openapi.yml
+  format: yaml
+  label: Apache Ignite clusterManagement API
+  slug: apache-ignite-clustermanagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-clustermanagement-api-openapi.yml
+- filename: apache-ignite-clustermetric-api-openapi.yml
+  format: yaml
+  label: Apache Ignite clusterMetric API
+  slug: apache-ignite-clustermetric-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-clustermetric-api-openapi.yml
+- filename: apache-ignite-compute-api-openapi.yml
+  format: yaml
+  label: Apache Ignite compute API
+  slug: apache-ignite-compute-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-compute-api-openapi.yml
+- filename: apache-ignite-deployment-api-openapi.yml
+  format: yaml
+  label: Apache Ignite deployment API
+  slug: apache-ignite-deployment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-deployment-api-openapi.yml
+- filename: apache-ignite-nodeconfiguration-api-openapi.yml
+  format: yaml
+  label: Apache Ignite nodeConfiguration API
+  slug: apache-ignite-nodeconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-nodeconfiguration-api-openapi.yml
+- filename: apache-ignite-nodemanagement-api-openapi.yml
+  format: yaml
+  label: Apache Ignite nodeManagement API
+  slug: apache-ignite-nodemanagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-nodemanagement-api-openapi.yml
+- filename: apache-ignite-nodemetric-api-openapi.yml
+  format: yaml
+  label: Apache Ignite nodeMetric API
+  slug: apache-ignite-nodemetric-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-nodemetric-api-openapi.yml
+- filename: apache-ignite-recovery-api-openapi.yml
+  format: yaml
+  label: Apache Ignite recovery API
+  slug: apache-ignite-recovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-recovery-api-openapi.yml
+- filename: apache-ignite-sql-api-openapi.yml
+  format: yaml
+  label: Apache Ignite sql API
+  slug: apache-ignite-sql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-sql-api-openapi.yml
+- filename: apache-ignite-system-api-openapi.yml
+  format: yaml
+  label: Apache Ignite system API
+  slug: apache-ignite-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-system-api-openapi.yml
+- filename: apache-ignite-topology-api-openapi.yml
+  format: yaml
+  label: Apache Ignite topology API
+  slug: apache-ignite-topology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-topology-api-openapi.yml
+- filename: apache-ignite-transactions-api-openapi.yml
+  format: yaml
+  label: Apache Ignite transactions API
+  slug: apache-ignite-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:

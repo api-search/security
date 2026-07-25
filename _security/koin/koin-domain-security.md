@@ -1,29 +1,101 @@
 ---
 api_specs:
-- filename: koin-payments-openapi.json
-  format: json
-  label: Koin Payments API
-  slug: payments
+- filename: koin-access-api-openapi.yml
+  format: yaml
+  label: Koin Access API
+  slug: koin-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-payments-openapi.json
-- filename: koin-antifraud-evaluations-openapi.json
-  format: json
-  label: Koin Antifraud API
-  slug: antifraud
+  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-access-api-openapi.yml
+- filename: koin-account-take-over-services-api-openapi.yml
+  format: yaml
+  label: Koin Account Take Over Services API
+  slug: koin-account-take-over-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-antifraud-evaluations-openapi.json
-- filename: koin-onboarding-openapi.json
-  format: json
-  label: Koin Onboarding API
-  slug: onboarding
+  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-account-take-over-services-api-openapi.yml
+- filename: koin-availability-services-api-openapi.yml
+  format: yaml
+  label: Koin Availability Services API
+  slug: koin-availability-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-onboarding-openapi.json
-- filename: koin-bnpl-openapi.json
-  format: json
-  label: Koin BNPL Payment Request API
-  slug: bnpl
+  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-availability-services-api-openapi.yml
+- filename: koin-communication-services-api-openapi.yml
+  format: yaml
+  label: Koin Communication Services API
+  slug: koin-communication-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-bnpl-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-communication-services-api-openapi.yml
+- filename: koin-ecommerce-api-openapi.yml
+  format: yaml
+  label: Koin Ecommerce API
+  slug: koin-ecommerce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-ecommerce-api-openapi.yml
+- filename: koin-notification-services-sales-api-openapi.yml
+  format: yaml
+  label: Koin Notification Services Sales API
+  slug: koin-notification-services-sales-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-notification-services-sales-api-openapi.yml
+- filename: koin-onboarding-services-api-openapi.yml
+  format: yaml
+  label: Koin Onboarding Services API
+  slug: koin-onboarding-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-onboarding-services-api-openapi.yml
+- filename: koin-payment-service-provider-api-openapi.yml
+  format: yaml
+  label: Koin Payment Service Provider API
+  slug: koin-payment-service-provider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-payment-service-provider-api-openapi.yml
+- filename: koin-payment-services-api-openapi.yml
+  format: yaml
+  label: Koin Payment Services API
+  slug: koin-payment-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-payment-services-api-openapi.yml
+- filename: koin-paymentrequest-api-openapi.yml
+  format: yaml
+  label: Koin PaymentRequest API
+  slug: koin-paymentrequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-paymentrequest-api-openapi.yml
+- filename: koin-payout-services-api-openapi.yml
+  format: yaml
+  label: Koin Payout Services API
+  slug: koin-payout-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-payout-services-api-openapi.yml
+- filename: koin-recipient-services-account-api-openapi.yml
+  format: yaml
+  label: Koin Recipient Services Account API
+  slug: koin-recipient-services-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-recipient-services-account-api-openapi.yml
+- filename: koin-refund-services-api-openapi.yml
+  format: yaml
+  label: Koin Refund Services API
+  slug: koin-refund-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-refund-services-api-openapi.yml
+- filename: koin-support-services-api-openapi.yml
+  format: yaml
+  label: Koin Support Services API
+  slug: koin-support-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-support-services-api-openapi.yml
+- filename: koin-tokenize-services-api-openapi.yml
+  format: yaml
+  label: Koin Tokenize Services API
+  slug: koin-tokenize-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-tokenize-services-api-openapi.yml
+- filename: koin-wiretransfer-api-openapi.yml
+  format: yaml
+  label: Koin WireTransfer API
+  slug: koin-wiretransfer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-wiretransfer-api-openapi.yml
 description: ''
 domains:
 - caa: []

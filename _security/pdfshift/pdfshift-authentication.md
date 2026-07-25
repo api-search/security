@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi.json
-  format: json
-  label: PDFShift API
-  slug: pdfshift-api
+- filename: pdfshift-account-api-openapi.yml
+  format: yaml
+  label: PDFShift account API
+  slug: pdfshift-account-api
   spec_type: OpenAPI
-  url: https://api.pdfshift.io/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-account-api-openapi.yml
+- filename: pdfshift-convert-api-openapi.yml
+  format: yaml
+  label: PDFShift Convert API
+  slug: pdfshift-convert-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-convert-api-openapi.yml
+- filename: pdfshift-credits-api-openapi.yml
+  format: yaml
+  label: PDFShift credits API
+  slug: pdfshift-credits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-credits-api-openapi.yml
+- filename: pdfshift-details-api-openapi.yml
+  format: yaml
+  label: PDFShift details API
+  slug: pdfshift-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-details-api-openapi.yml
+- filename: pdfshift-invoices-api-openapi.yml
+  format: yaml
+  label: PDFShift Invoices API
+  slug: pdfshift-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-invoices-api-openapi.yml
+- filename: pdfshift-logs-api-openapi.yml
+  format: yaml
+  label: PDFShift Logs API
+  slug: pdfshift-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-logs-api-openapi.yml
+- filename: pdfshift-templates-api-openapi.yml
+  format: yaml
+  label: PDFShift templates API
+  slug: pdfshift-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-templates-api-openapi.yml
+- filename: pdfshift-usage-api-openapi.yml
+  format: yaml
+  label: PDFShift usage API
+  slug: pdfshift-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-usage-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

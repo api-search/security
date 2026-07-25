@@ -2,24 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: superlinked-openapi.yml
-  format: yaml
-  label: Superlinked Ingestion API
-  slug: superlinked-ingestion-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlinked/refs/heads/main/openapi/superlinked-openapi.yml
-- filename: superlinked-openapi.yml
-  format: yaml
-  label: Superlinked Query API
-  slug: superlinked-query-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlinked/refs/heads/main/openapi/superlinked-openapi.yml
-- filename: superlinked-openapi.yml
+- filename: superlinked-data-loader-api-openapi.yml
   format: yaml
   label: Superlinked Data Loader API
   slug: superlinked-data-loader-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlinked/refs/heads/main/openapi/superlinked-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/superlinked/refs/heads/main/openapi/superlinked-data-loader-api-openapi.yml
+- filename: superlinked-ingestion-api-openapi.yml
+  format: yaml
+  label: Superlinked Ingestion API
+  slug: superlinked-ingestion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superlinked/refs/heads/main/openapi/superlinked-ingestion-api-openapi.yml
+- filename: superlinked-query-api-openapi.yml
+  format: yaml
+  label: Superlinked Query API
+  slug: superlinked-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superlinked/refs/heads/main/openapi/superlinked-query-api-openapi.yml
 auth_types:
 - apiKey
 - http

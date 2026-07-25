@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: dimensions-openapi.yml
+- filename: dimensions-authentication-api-openapi.yml
   format: yaml
-  label: Dimensions Analytics API
-  slug: dimensions-analytics-api
+  label: Dimensions Authentication API
+  slug: dimensions-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/openapi/dimensions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/openapi/dimensions-authentication-api-openapi.yml
+- filename: dimensions-query-api-openapi.yml
+  format: yaml
+  label: Dimensions Query API
+  slug: dimensions-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/openapi/dimensions-query-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

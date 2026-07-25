@@ -1,35 +1,23 @@
 ---
 api_specs:
-- filename: chunkr-ai-openapi.yml
-  format: yaml
-  label: Chunkr Parse Task API
-  slug: chunkr-parse-task-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-openapi.yml
-- filename: chunkr-ai-openapi.yml
-  format: yaml
-  label: Chunkr Extract Task API
-  slug: chunkr-extract-task-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-openapi.yml
-- filename: chunkr-ai-openapi.yml
-  format: yaml
-  label: Chunkr Task Management API
-  slug: chunkr-task-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-openapi.yml
-- filename: chunkr-ai-openapi.yml
+- filename: chunkr-ai-files-api-openapi.yml
   format: yaml
   label: Chunkr Files API
-  slug: chunkr-files-api
+  slug: chunkr-ai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-openapi.yml
-- filename: chunkr-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-files-api-openapi.yml
+- filename: chunkr-ai-health-api-openapi.yml
   format: yaml
-  label: Chunkr Health and Extras API
-  slug: chunkr-health-api
+  label: Chunkr Health API
+  slug: chunkr-ai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-health-api-openapi.yml
+- filename: chunkr-ai-tasks-api-openapi.yml
+  format: yaml
+  label: Chunkr Tasks API
+  slug: chunkr-ai-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []

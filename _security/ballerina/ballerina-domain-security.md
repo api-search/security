@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: ballerina-central-api.yml
+- filename: ballerina-connectors-api-openapi.yml
   format: yaml
-  label: Ballerina
-  slug: ballerina
+  label: Ballerina Connectors API
+  slug: ballerina-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ballerina/refs/heads/main/openapi/ballerina-central-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ballerina/refs/heads/main/openapi/ballerina-connectors-api-openapi.yml
+- filename: ballerina-organizations-api-openapi.yml
+  format: yaml
+  label: Ballerina Organizations API
+  slug: ballerina-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ballerina/refs/heads/main/openapi/ballerina-organizations-api-openapi.yml
+- filename: ballerina-packages-api-openapi.yml
+  format: yaml
+  label: Ballerina Packages API
+  slug: ballerina-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ballerina/refs/heads/main/openapi/ballerina-packages-api-openapi.yml
 description: ''
 domains:
 - caa:

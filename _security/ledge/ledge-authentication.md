@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ledge-api-openapi.yml
+- filename: ledge-sources-api-openapi.yml
   format: yaml
-  label: Ledge API
-  slug: ledge-api
+  label: Ledge Sources API
+  slug: ledge-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/openapi/ledge-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/openapi/ledge-sources-api-openapi.yml
+- filename: ledge-transactions-api-openapi.yml
+  format: yaml
+  label: Ledge Transactions API
+  slug: ledge-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/openapi/ledge-transactions-api-openapi.yml
 auth_types:
 - oauth2
 description: Ledge authenticates API callers with an OAuth 2.0 client_credentials grant issued by its Auth0 tenant, and authorizes them with a role-based fine-grained permissions model rather than with token scopes. Human access to the web application supports enterprise SAML 2.0 SSO with SCIM 2.0 provisioning.

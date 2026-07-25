@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: bloom-credit-api-openapi.yaml
+- filename: bloom-credit-consumers-api-openapi.yml
   format: yaml
-  label: Bloom Credit API
-  slug: bloom-credit-api
+  label: Bloom Credit Consumers API
+  slug: bloom-credit-consumers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/openapi/bloom-credit-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/openapi/bloom-credit-consumers-api-openapi.yml
+- filename: bloom-credit-credit-reports-api-openapi.yml
+  format: yaml
+  label: Bloom Credit Credit Reports API
+  slug: bloom-credit-credit-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/openapi/bloom-credit-credit-reports-api-openapi.yml
+- filename: bloom-credit-credit-scores-api-openapi.yml
+  format: yaml
+  label: Bloom Credit Credit Scores API
+  slug: bloom-credit-credit-scores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/openapi/bloom-credit-credit-scores-api-openapi.yml
+- filename: bloom-credit-monitoring-api-openapi.yml
+  format: yaml
+  label: Bloom Credit Monitoring API
+  slug: bloom-credit-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/openapi/bloom-credit-monitoring-api-openapi.yml
+- filename: bloom-credit-trade-lines-api-openapi.yml
+  format: yaml
+  label: Bloom Credit Trade Lines API
+  slug: bloom-credit-trade-lines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/openapi/bloom-credit-trade-lines-api-openapi.yml
 description: ''
 domains:
 - caa:

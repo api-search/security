@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: ADS-B Exchange Aircraft API
-  slug: ads-b-exchange-aircraft-api
+- filename: adsbexchange-geopolitical-filtering-api-openapi.yml
+  format: yaml
+  label: ADS-B Exchange Geopolitical Filtering API
+  slug: adsbexchange-geopolitical-filtering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/openapi/adsbexchange-geopolitical-filtering-api-openapi.yml
+- filename: adsbexchange-geospatial-filtering-api-openapi.yml
+  format: yaml
+  label: ADS-B Exchange Geospatial Filtering API
+  slug: adsbexchange-geospatial-filtering-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/openapi/adsbexchange-geospatial-filtering-api-openapi.yml
+- filename: adsbexchange-live-positional-data-api-openapi.yml
+  format: yaml
+  label: ADS-B Exchange Live Positional Data API
+  slug: adsbexchange-live-positional-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/openapi/adsbexchange-live-positional-data-api-openapi.yml
+- filename: adsbexchange-operations-api-openapi.yml
+  format: yaml
+  label: ADS-B Exchange Operations API
+  slug: adsbexchange-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/openapi/adsbexchange-operations-api-openapi.yml
+- filename: adsbexchange-traces-api-openapi.yml
+  format: yaml
+  label: ADS-B Exchange Traces API
+  slug: adsbexchange-traces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/openapi/adsbexchange-traces-api-openapi.yml
 description: ''
 domains:
 - caa: []

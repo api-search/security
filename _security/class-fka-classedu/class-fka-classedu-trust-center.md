@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: class-fka-classedu-openapi.yml
+- filename: class-fka-classedu-classes-api-openapi.yml
   format: yaml
-  label: Class Developer API
-  slug: class-developer-api
+  label: Class (fka ClassEDU) Classes API
+  slug: class-fka-classedu-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-classes-api-openapi.yml
+- filename: class-fka-classedu-enrollments-api-openapi.yml
+  format: yaml
+  label: Class (fka ClassEDU) Enrollments API
+  slug: class-fka-classedu-enrollments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-enrollments-api-openapi.yml
+- filename: class-fka-classedu-launch-api-openapi.yml
+  format: yaml
+  label: Class (fka ClassEDU) Launch API
+  slug: class-fka-classedu-launch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-launch-api-openapi.yml
+- filename: class-fka-classedu-reporting-api-openapi.yml
+  format: yaml
+  label: Class (fka ClassEDU) Reporting API
+  slug: class-fka-classedu-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-reporting-api-openapi.yml
+- filename: class-fka-classedu-schedules-api-openapi.yml
+  format: yaml
+  label: Class (fka ClassEDU) Schedules API
+  slug: class-fka-classedu-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-schedules-api-openapi.yml
+- filename: class-fka-classedu-templates-api-openapi.yml
+  format: yaml
+  label: Class (fka ClassEDU) Templates API
+  slug: class-fka-classedu-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-templates-api-openapi.yml
+- filename: class-fka-classedu-users-api-openapi.yml
+  format: yaml
+  label: Class (fka ClassEDU) Users API
+  slug: class-fka-classedu-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-users-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,17 +1,83 @@
 ---
 api_specs:
-- filename: cloudformation-api.yml
+- filename: cloudformation-change-sets-api-openapi.yml
   format: yaml
-  label: AWS CloudFormation API
-  slug: aws-cloudformation-api
+  label: AWS CloudFormation Change Sets API
+  slug: cloudformation-change-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/openapi/cloudformation-api.yml
-- filename: cloud-control-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/openapi/cloudformation-change-sets-api-openapi.yml
+- filename: cloudformation-exports-api-openapi.yml
   format: yaml
-  label: AWS Cloud Control API
-  slug: aws-cloud-control-api
+  label: AWS CloudFormation Exports API
+  slug: cloudformation-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/openapi/cloud-control-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/openapi/cloudformation-exports-api-openapi.yml
+- filename: cloudformation-registry-api-openapi.yml
+  format: yaml
+  label: AWS CloudFormation Registry API
+  slug: cloudformation-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/openapi/cloudformation-registry-api-openapi.yml
+- filename: cloudformation-request-status-api-openapi.yml
+  format: yaml
+  label: AWS CloudFormation Request Status API
+  slug: cloudformation-request-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/openapi/cloudformation-request-status-api-openapi.yml
+- filename: cloudformation-resources-api-openapi.yml
+  format: yaml
+  label: AWS CloudFormation Resources API
+  slug: cloudformation-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/openapi/cloudformation-resources-api-openapi.yml
+- filename: cloudformation-stack-drift-api-openapi.yml
+  format: yaml
+  label: AWS CloudFormation Stack Drift API
+  slug: cloudformation-stack-drift-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/openapi/cloudformation-stack-drift-api-openapi.yml
+- filename: cloudformation-stack-events-api-openapi.yml
+  format: yaml
+  label: AWS CloudFormation Stack Events API
+  slug: cloudformation-stack-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/openapi/cloudformation-stack-events-api-openapi.yml
+- filename: cloudformation-stack-instances-api-openapi.yml
+  format: yaml
+  label: AWS CloudFormation Stack Instances API
+  slug: cloudformation-stack-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/openapi/cloudformation-stack-instances-api-openapi.yml
+- filename: cloudformation-stack-policies-api-openapi.yml
+  format: yaml
+  label: AWS CloudFormation Stack Policies API
+  slug: cloudformation-stack-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/openapi/cloudformation-stack-policies-api-openapi.yml
+- filename: cloudformation-stack-resources-api-openapi.yml
+  format: yaml
+  label: AWS CloudFormation Stack Resources API
+  slug: cloudformation-stack-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/openapi/cloudformation-stack-resources-api-openapi.yml
+- filename: cloudformation-stack-sets-api-openapi.yml
+  format: yaml
+  label: AWS CloudFormation Stack Sets API
+  slug: cloudformation-stack-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/openapi/cloudformation-stack-sets-api-openapi.yml
+- filename: cloudformation-stacks-api-openapi.yml
+  format: yaml
+  label: AWS CloudFormation Stacks API
+  slug: cloudformation-stacks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/openapi/cloudformation-stacks-api-openapi.yml
+- filename: cloudformation-templates-api-openapi.yml
+  format: yaml
+  label: AWS CloudFormation Templates API
+  slug: cloudformation-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/openapi/cloudformation-templates-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

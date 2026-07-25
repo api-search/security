@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: parsec-teams-openapi.yml
+- filename: parsec-app-rule-api-openapi.yml
   format: yaml
-  label: Parsec for Teams API
-  slug: parsec-for-teams-api
+  label: Parsec App Rule API
+  slug: parsec-app-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/openapi/parsec-teams-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/openapi/parsec-app-rule-api-openapi.yml
+- filename: parsec-audit-log-api-openapi.yml
+  format: yaml
+  label: Parsec Audit Log API
+  slug: parsec-audit-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/openapi/parsec-audit-log-api-openapi.yml
+- filename: parsec-group-api-openapi.yml
+  format: yaml
+  label: Parsec Group API
+  slug: parsec-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/openapi/parsec-group-api-openapi.yml
+- filename: parsec-guest-access-invite-api-openapi.yml
+  format: yaml
+  label: Parsec Guest Access Invite API
+  slug: parsec-guest-access-invite-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/openapi/parsec-guest-access-invite-api-openapi.yml
+- filename: parsec-machine-api-openapi.yml
+  format: yaml
+  label: Parsec Machine API
+  slug: parsec-machine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/openapi/parsec-machine-api-openapi.yml
+- filename: parsec-member-api-openapi.yml
+  format: yaml
+  label: Parsec Member API
+  slug: parsec-member-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/openapi/parsec-member-api-openapi.yml
+- filename: parsec-member-invite-api-openapi.yml
+  format: yaml
+  label: Parsec Member Invite API
+  slug: parsec-member-invite-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/openapi/parsec-member-invite-api-openapi.yml
+- filename: parsec-relay-api-openapi.yml
+  format: yaml
+  label: Parsec Relay API
+  slug: parsec-relay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/openapi/parsec-relay-api-openapi.yml
 certifications:
 - SOC 2 Type 2
 description: ''

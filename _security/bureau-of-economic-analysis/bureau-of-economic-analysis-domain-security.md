@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: bureau-of-economic-analysis-bea-api-openapi.yml
+- filename: bureau-of-economic-analysis-bureau-of-economic-analysis-bea-api-api-openapi.yml
   format: yaml
-  label: Bureau of Economic Analysis (BEA) Data API
-  slug: bureau-of-economic-analysis-api
+  label: Bureau of Economic Analysis Bureau Of Economic Analysis (BEA) API API
+  slug: bureau-of-economic-analysis-bureau-of-economic-analysis-bea-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-economic-analysis/refs/heads/main/openapi/bureau-of-economic-analysis-bea-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-economic-analysis/refs/heads/main/openapi/bureau-of-economic-analysis-bureau-of-economic-analysis-bea-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

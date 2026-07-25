@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: orderly-network-openapi-original.yml
+- filename: orderly-network-admin-api-openapi.yml
   format: yaml
-  label: Orderly EVM Trading API
-  slug: orderly-evm-trading-api
+  label: Orderly Network admin API
+  slug: orderly-network-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/openapi/orderly-network-openapi-original.yml
-- filename: orderly-network-strategy-vault-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/openapi/orderly-network-admin-api-openapi.yml
+- filename: orderly-network-client-api-openapi.yml
   format: yaml
-  label: Orderly Strategy Vault API
-  slug: orderly-strategy-vault-api
+  label: Orderly Network client API
+  slug: orderly-network-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/openapi/orderly-network-strategy-vault-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/openapi/orderly-network-client-api-openapi.yml
+- filename: orderly-network-private-api-openapi.yml
+  format: yaml
+  label: Orderly Network private API
+  slug: orderly-network-private-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/openapi/orderly-network-private-api-openapi.yml
+- filename: orderly-network-public-api-openapi.yml
+  format: yaml
+  label: Orderly Network public API
+  slug: orderly-network-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/openapi/orderly-network-public-api-openapi.yml
 description: ''
 domains:
 - caa: []

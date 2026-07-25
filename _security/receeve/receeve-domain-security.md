@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: receeve-openapi-original.yml
+- filename: receeve-account-api-openapi.yml
   format: yaml
-  label: Receive Client API
-  slug: receive-client-api
+  label: Receeve Account API
+  slug: receeve-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-account-api-openapi.yml
+- filename: receeve-accountmandate-api-openapi.yml
+  format: yaml
+  label: Receeve AccountMandate API
+  slug: receeve-accountmandate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-accountmandate-api-openapi.yml
+- filename: receeve-claim-api-openapi.yml
+  format: yaml
+  label: Receeve Claim API
+  slug: receeve-claim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-claim-api-openapi.yml
+- filename: receeve-customtriggers-api-openapi.yml
+  format: yaml
+  label: Receeve CustomTriggers API
+  slug: receeve-customtriggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-customtriggers-api-openapi.yml
+- filename: receeve-debtor-api-openapi.yml
+  format: yaml
+  label: Receeve Debtor API
+  slug: receeve-debtor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-debtor-api-openapi.yml
+- filename: receeve-event-api-openapi.yml
+  format: yaml
+  label: Receeve Event API
+  slug: receeve-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-event-api-openapi.yml
+- filename: receeve-files-api-openapi.yml
+  format: yaml
+  label: Receeve Files API
+  slug: receeve-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-files-api-openapi.yml
+- filename: receeve-finance-instalments-v2-api-openapi.yml
+  format: yaml
+  label: Receeve Finance Instalments V2 API
+  slug: receeve-finance-instalments-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-finance-instalments-v2-api-openapi.yml
+- filename: receeve-finance-settlements-api-openapi.yml
+  format: yaml
+  label: Receeve Finance Settlements API
+  slug: receeve-finance-settlements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-finance-settlements-api-openapi.yml
+- filename: receeve-journey-api-openapi.yml
+  format: yaml
+  label: Receeve Journey API
+  slug: receeve-journey-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-journey-api-openapi.yml
+- filename: receeve-landingpage-api-openapi.yml
+  format: yaml
+  label: Receeve LandingPage API
+  slug: receeve-landingpage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-landingpage-api-openapi.yml
+- filename: receeve-message-api-openapi.yml
+  format: yaml
+  label: Receeve Message API
+  slug: receeve-message-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-message-api-openapi.yml
+- filename: receeve-promisetopay-api-openapi.yml
+  format: yaml
+  label: Receeve PromiseToPay API
+  slug: receeve-promisetopay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-promisetopay-api-openapi.yml
+- filename: receeve-security-api-openapi.yml
+  format: yaml
+  label: Receeve Security API
+  slug: receeve-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-security-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: narakeet-openapi.yml
+- filename: narakeet-account-api-openapi.yml
+  format: yaml
+  label: Narakeet Account API
+  slug: narakeet-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/openapi/narakeet-account-api-openapi.yml
+- filename: narakeet-text-to-speech-api-openapi.yml
   format: yaml
   label: Narakeet Text to Speech API
   slug: narakeet-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/openapi/narakeet-openapi.yml
-- filename: narakeet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/openapi/narakeet-text-to-speech-api-openapi.yml
+- filename: narakeet-video-api-openapi.yml
   format: yaml
-  label: Narakeet Markdown to Video API
+  label: Narakeet Video API
   slug: narakeet-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/openapi/narakeet-openapi.yml
-- filename: narakeet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/openapi/narakeet-video-api-openapi.yml
+- filename: narakeet-voices-api-openapi.yml
   format: yaml
-  label: Narakeet Voice Listing API
+  label: Narakeet Voices API
   slug: narakeet-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/openapi/narakeet-openapi.yml
-- filename: narakeet-openapi.yml
-  format: yaml
-  label: Narakeet Account Credits API
-  slug: narakeet-account-credits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/openapi/narakeet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/openapi/narakeet-voices-api-openapi.yml
 description: ''
 domains:
 - caa: []

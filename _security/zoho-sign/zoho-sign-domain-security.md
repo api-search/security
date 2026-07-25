@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Zoho Sign API
-  slug: zoho-sign-api
+- filename: zoho-sign-accounts-api-openapi.yml
+  format: yaml
+  label: Zoho Sign Accounts API
+  slug: zoho-sign-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/openapi/zoho-sign-accounts-api-openapi.yml
+- filename: zoho-sign-requests-api-openapi.yml
+  format: yaml
+  label: Zoho Sign Requests API
+  slug: zoho-sign-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/openapi/zoho-sign-requests-api-openapi.yml
+- filename: zoho-sign-templates-api-openapi.yml
+  format: yaml
+  label: Zoho Sign Templates API
+  slug: zoho-sign-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/openapi/zoho-sign-templates-api-openapi.yml
+- filename: zoho-sign-users-api-openapi.yml
+  format: yaml
+  label: Zoho Sign Users API
+  slug: zoho-sign-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/openapi/zoho-sign-users-api-openapi.yml
 description: ''
 domains:
 - caa:

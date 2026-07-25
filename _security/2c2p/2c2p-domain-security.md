@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: 2c2p-openapi.yml
-  format: yaml
-  label: 2C2P Payment Token API
-  slug: 2c2p-payment-token-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-openapi.yml
-- filename: 2c2p-openapi.yml
+- filename: 2c2p-do-payment-api-openapi.yml
   format: yaml
   label: 2C2P Do Payment API
   slug: 2c2p-do-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-openapi.yml
-- filename: 2c2p-openapi.yml
-  format: yaml
-  label: 2C2P Payment Option API
-  slug: 2c2p-payment-option-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-openapi.yml
-- filename: 2c2p-openapi.yml
-  format: yaml
-  label: 2C2P Payment Inquiry API
-  slug: 2c2p-payment-inquiry-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-openapi.yml
-- filename: 2c2p-openapi.yml
-  format: yaml
-  label: 2C2P Payment Maintenance API
-  slug: 2c2p-payment-maintenance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-openapi.yml
-- filename: 2c2p-openapi.yml
-  format: yaml
-  label: 2C2P Card Token & Recurring API
-  slug: 2c2p-card-token-recurring-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-openapi.yml
-- filename: 2c2p-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-do-payment-api-openapi.yml
+- filename: 2c2p-exchange-rate-api-openapi.yml
   format: yaml
   label: 2C2P Exchange Rate API
   slug: 2c2p-exchange-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-exchange-rate-api-openapi.yml
+- filename: 2c2p-inquiry-api-openapi.yml
+  format: yaml
+  label: 2C2P Inquiry API
+  slug: 2c2p-inquiry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-inquiry-api-openapi.yml
+- filename: 2c2p-maintenance-api-openapi.yml
+  format: yaml
+  label: 2C2P Maintenance API
+  slug: 2c2p-maintenance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-maintenance-api-openapi.yml
+- filename: 2c2p-payment-option-api-openapi.yml
+  format: yaml
+  label: 2C2P Payment Option API
+  slug: 2c2p-payment-option-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-payment-option-api-openapi.yml
+- filename: 2c2p-payment-token-api-openapi.yml
+  format: yaml
+  label: 2C2P Payment Token API
+  slug: 2c2p-payment-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-payment-token-api-openapi.yml
+- filename: 2c2p-tokens-api-openapi.yml
+  format: yaml
+  label: 2C2P Tokens API
+  slug: 2c2p-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-tokens-api-openapi.yml
 description: ''
 domains:
 - caa:

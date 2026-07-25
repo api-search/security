@@ -1,12 +1,78 @@
 ---
 api_key_in: []
 api_specs:
-- filename: workstream-public-api-openapi-original.json
-  format: json
-  label: Workstream Public API
-  slug: workstream-public-api
+- filename: workstream-applicants-api-openapi.yml
+  format: yaml
+  label: Workstream Applicants API
+  slug: workstream-applicants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workstream/refs/heads/main/openapi/workstream-public-api-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/workstream/refs/heads/main/openapi/workstream-applicants-api-openapi.yml
+- filename: workstream-authorization-api-openapi.yml
+  format: yaml
+  label: Workstream Authorization API
+  slug: workstream-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workstream/refs/heads/main/openapi/workstream-authorization-api-openapi.yml
+- filename: workstream-company-roles-api-openapi.yml
+  format: yaml
+  label: Workstream Company Roles API
+  slug: workstream-company-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workstream/refs/heads/main/openapi/workstream-company-roles-api-openapi.yml
+- filename: workstream-company-users-api-openapi.yml
+  format: yaml
+  label: Workstream Company Users API
+  slug: workstream-company-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workstream/refs/heads/main/openapi/workstream-company-users-api-openapi.yml
+- filename: workstream-custom-field-api-openapi.yml
+  format: yaml
+  label: Workstream Custom Field API
+  slug: workstream-custom-field-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workstream/refs/heads/main/openapi/workstream-custom-field-api-openapi.yml
+- filename: workstream-departments-api-openapi.yml
+  format: yaml
+  label: Workstream Departments API
+  slug: workstream-departments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workstream/refs/heads/main/openapi/workstream-departments-api-openapi.yml
+- filename: workstream-employee-documents-api-openapi.yml
+  format: yaml
+  label: Workstream Employee Documents API
+  slug: workstream-employee-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workstream/refs/heads/main/openapi/workstream-employee-documents-api-openapi.yml
+- filename: workstream-employees-api-openapi.yml
+  format: yaml
+  label: Workstream Employees API
+  slug: workstream-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workstream/refs/heads/main/openapi/workstream-employees-api-openapi.yml
+- filename: workstream-imported-employee-infos-api-openapi.yml
+  format: yaml
+  label: Workstream Imported Employee Infos API
+  slug: workstream-imported-employee-infos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workstream/refs/heads/main/openapi/workstream-imported-employee-infos-api-openapi.yml
+- filename: workstream-locations-api-openapi.yml
+  format: yaml
+  label: Workstream Locations API
+  slug: workstream-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workstream/refs/heads/main/openapi/workstream-locations-api-openapi.yml
+- filename: workstream-positions-api-openapi.yml
+  format: yaml
+  label: Workstream Positions API
+  slug: workstream-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workstream/refs/heads/main/openapi/workstream-positions-api-openapi.yml
+- filename: workstream-team-members-api-openapi.yml
+  format: yaml
+  label: Workstream Team Members API
+  slug: workstream-team-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workstream/refs/heads/main/openapi/workstream-team-members-api-openapi.yml
 auth_types:
 - http
 - oauth2

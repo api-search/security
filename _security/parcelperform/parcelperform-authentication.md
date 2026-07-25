@@ -1,42 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: parcelperform-openapi.yml
-  format: yaml
-  label: Parcel Perform Shipments API
-  slug: parcelperform-shipments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/openapi/parcelperform-openapi.yml
-- filename: parcelperform-openapi.yml
-  format: yaml
-  label: Parcel Perform Tracking Events API
-  slug: parcelperform-tracking-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/openapi/parcelperform-openapi.yml
-- filename: parcelperform-openapi.yml
-  format: yaml
-  label: Parcel Perform Returns API
-  slug: parcelperform-returns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/openapi/parcelperform-openapi.yml
-- filename: parcelperform-openapi.yml
-  format: yaml
-  label: Parcel Perform Webhooks API
-  slug: parcelperform-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/openapi/parcelperform-openapi.yml
-- filename: parcelperform-openapi.yml
-  format: yaml
-  label: Parcel Perform Couriers API
-  slug: parcelperform-couriers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/openapi/parcelperform-openapi.yml
-- filename: parcelperform-openapi.yml
+- filename: parcelperform-analytics-api-openapi.yml
   format: yaml
   label: Parcel Perform Analytics API
   slug: parcelperform-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/openapi/parcelperform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/openapi/parcelperform-analytics-api-openapi.yml
+- filename: parcelperform-authentication-api-openapi.yml
+  format: yaml
+  label: Parcel Perform Authentication API
+  slug: parcelperform-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/openapi/parcelperform-authentication-api-openapi.yml
+- filename: parcelperform-couriers-api-openapi.yml
+  format: yaml
+  label: Parcel Perform Couriers API
+  slug: parcelperform-couriers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/openapi/parcelperform-couriers-api-openapi.yml
+- filename: parcelperform-returns-api-openapi.yml
+  format: yaml
+  label: Parcel Perform Returns API
+  slug: parcelperform-returns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/openapi/parcelperform-returns-api-openapi.yml
+- filename: parcelperform-shipments-api-openapi.yml
+  format: yaml
+  label: Parcel Perform Shipments API
+  slug: parcelperform-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/openapi/parcelperform-shipments-api-openapi.yml
+- filename: parcelperform-tracking-events-api-openapi.yml
+  format: yaml
+  label: Parcel Perform Tracking Events API
+  slug: parcelperform-tracking-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/openapi/parcelperform-tracking-events-api-openapi.yml
+- filename: parcelperform-webhooks-api-openapi.yml
+  format: yaml
+  label: Parcel Perform Webhooks API
+  slug: parcelperform-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/openapi/parcelperform-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

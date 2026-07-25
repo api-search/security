@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: runway-ml-openapi.yml
+- filename: runway-ml-image-to-video-api-openapi.yml
   format: yaml
-  label: Runway API
-  slug: runway-api
+  label: Runway Image To Video API
+  slug: runway-ml-image-to-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runway-ml/refs/heads/main/openapi/runway-ml-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/runway-ml/refs/heads/main/openapi/runway-ml-image-to-video-api-openapi.yml
+- filename: runway-ml-tasks-api-openapi.yml
+  format: yaml
+  label: Runway Tasks API
+  slug: runway-ml-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runway-ml/refs/heads/main/openapi/runway-ml-tasks-api-openapi.yml
+- filename: runway-ml-text-to-image-api-openapi.yml
+  format: yaml
+  label: Runway Text To Image API
+  slug: runway-ml-text-to-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runway-ml/refs/heads/main/openapi/runway-ml-text-to-image-api-openapi.yml
+- filename: runway-ml-video-to-video-api-openapi.yml
+  format: yaml
+  label: Runway Video To Video API
+  slug: runway-ml-video-to-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runway-ml/refs/heads/main/openapi/runway-ml-video-to-video-api-openapi.yml
 auth_types:
 - http
 description: ''

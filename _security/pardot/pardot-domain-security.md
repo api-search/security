@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: pardot-objects-api-openapi.yml
+  format: yaml
+  label: Salesforce Marketing Cloud Account Engagement (Pardot) Objects API
+  slug: pardot-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/openapi/pardot-objects-api-openapi.yml
 description: ''
 domains:
 - caa: []

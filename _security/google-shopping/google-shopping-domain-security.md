@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-shopping-accounts-api-openapi.yml
   format: yaml
-  label: Google Content API for Shopping
-  slug: google-content-api-for-shopping
+  label: Google Content API for Shopping Accounts API
+  slug: google-shopping-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-shopping/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-shopping/refs/heads/main/openapi/google-shopping-accounts-api-openapi.yml
+- filename: google-shopping-datafeeds-api-openapi.yml
+  format: yaml
+  label: Google Content API for Shopping Datafeeds API
+  slug: google-shopping-datafeeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-shopping/refs/heads/main/openapi/google-shopping-datafeeds-api-openapi.yml
+- filename: google-shopping-orders-api-openapi.yml
+  format: yaml
+  label: Google Content API for Shopping Orders API
+  slug: google-shopping-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-shopping/refs/heads/main/openapi/google-shopping-orders-api-openapi.yml
+- filename: google-shopping-products-api-openapi.yml
+  format: yaml
+  label: Google Content API for Shopping Products API
+  slug: google-shopping-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-shopping/refs/heads/main/openapi/google-shopping-products-api-openapi.yml
 description: ''
 domains:
 - caa:

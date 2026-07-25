@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cerner-oracle-health-fhir-r4-api-openapi.yml
+- filename: cerner-capability-api-openapi.yml
   format: yaml
-  label: Oracle Health Millennium Platform FHIR R4 API
-  slug: oracle-health-fhir-r4-api
+  label: Cerner (Oracle Health) Capability API
+  slug: cerner-capability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-oracle-health-fhir-r4-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-capability-api-openapi.yml
+- filename: cerner-condition-api-openapi.yml
+  format: yaml
+  label: Cerner (Oracle Health) Condition API
+  slug: cerner-condition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-condition-api-openapi.yml
+- filename: cerner-definitions-api-openapi.yml
+  format: yaml
+  label: Cerner (Oracle Health) Definitions API
+  slug: cerner-definitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-definitions-api-openapi.yml
+- filename: cerner-encounter-api-openapi.yml
+  format: yaml
+  label: Cerner (Oracle Health) Encounter API
+  slug: cerner-encounter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-encounter-api-openapi.yml
+- filename: cerner-generic-api-openapi.yml
+  format: yaml
+  label: Cerner (Oracle Health) Generic API
+  slug: cerner-generic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-generic-api-openapi.yml
+- filename: cerner-patient-api-openapi.yml
+  format: yaml
+  label: Cerner (Oracle Health) Patient API
+  slug: cerner-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-patient-api-openapi.yml
+- filename: cerner-procedure-api-openapi.yml
+  format: yaml
+  label: Cerner (Oracle Health) Procedure API
+  slug: cerner-procedure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-procedure-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

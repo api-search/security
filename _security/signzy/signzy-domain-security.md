@@ -1,59 +1,29 @@
 ---
 api_specs:
-- filename: signzy-openapi.yml
+- filename: signzy-authentication-api-openapi.yml
   format: yaml
-  label: Signzy Identity Verification API
-  slug: signzy-identity-verification-api
+  label: Signzy Authentication API
+  slug: signzy-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/openapi/signzy-openapi.yml
-- filename: signzy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/openapi/signzy-authentication-api-openapi.yml
+- filename: signzy-banking-api-openapi.yml
   format: yaml
-  label: Signzy Aadhaar Verification API
-  slug: signzy-aadhaar-verification-api
+  label: Signzy Banking API
+  slug: signzy-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/openapi/signzy-openapi.yml
-- filename: signzy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/openapi/signzy-banking-api-openapi.yml
+- filename: signzy-identity-india-api-openapi.yml
   format: yaml
-  label: Signzy PAN Verification API
-  slug: signzy-pan-verification-api
+  label: Signzy Identity (India) API
+  slug: signzy-identity-india-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/openapi/signzy-openapi.yml
-- filename: signzy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/openapi/signzy-identity-india-api-openapi.yml
+- filename: signzy-identity-us-api-openapi.yml
   format: yaml
-  label: Signzy US Document Intelligence API
-  slug: signzy-us-document-intelligence-api
+  label: Signzy Identity (US) API
+  slug: signzy-identity-us-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/openapi/signzy-openapi.yml
-- filename: signzy-openapi.yml
-  format: yaml
-  label: Signzy Business Verification (KYB) API
-  slug: signzy-business-verification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/openapi/signzy-openapi.yml
-- filename: signzy-openapi.yml
-  format: yaml
-  label: Signzy AML & Sanctions Screening API
-  slug: signzy-aml-screening-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/openapi/signzy-openapi.yml
-- filename: signzy-openapi.yml
-  format: yaml
-  label: Signzy Bank Verification & Account Aggregator API
-  slug: signzy-bank-verification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/openapi/signzy-openapi.yml
-- filename: signzy-openapi.yml
-  format: yaml
-  label: Signzy Video KYC API
-  slug: signzy-video-kyc-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/openapi/signzy-openapi.yml
-- filename: signzy-openapi.yml
-  format: yaml
-  label: Signzy eSign & Digital Contracting API
-  slug: signzy-esign-contracting-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/openapi/signzy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/openapi/signzy-identity-us-api-openapi.yml
 description: ''
 domains:
 - data_localization: true

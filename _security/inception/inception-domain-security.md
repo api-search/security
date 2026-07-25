@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: inception-openapi-original.json
-  format: json
-  label: Inception API
-  slug: inception-api
+- filename: inception-chat-api-openapi.yml
+  format: yaml
+  label: Inception Chat API
+  slug: inception-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/openapi/inception-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/openapi/inception-chat-api-openapi.yml
+- filename: inception-edit-api-openapi.yml
+  format: yaml
+  label: Inception Edit API
+  slug: inception-edit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/openapi/inception-edit-api-openapi.yml
+- filename: inception-fim-api-openapi.yml
+  format: yaml
+  label: Inception FIM API
+  slug: inception-fim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/openapi/inception-fim-api-openapi.yml
+- filename: inception-models-api-openapi.yml
+  format: yaml
+  label: Inception Models API
+  slug: inception-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/openapi/inception-models-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: langai-api-openapi.yml
+- filename: langai-documents-api-openapi.yml
   format: yaml
-  label: Lang.ai API
-  slug: api
+  label: Lang.ai Documents API
+  slug: langai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langai/refs/heads/main/openapi/langai-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/langai/refs/heads/main/openapi/langai-documents-api-openapi.yml
+- filename: langai-projects-api-openapi.yml
+  format: yaml
+  label: Lang.ai Projects API
+  slug: langai-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langai/refs/heads/main/openapi/langai-projects-api-openapi.yml
 description: ''
 domains:
 - caa:

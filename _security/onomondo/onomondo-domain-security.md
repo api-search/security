@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: onomondo-openapi.yml
+- filename: onomondo-connectors-api-openapi.yml
+  format: yaml
+  label: Onomondo Connectors API
+  slug: onomondo-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-connectors-api-openapi.yml
+- filename: onomondo-network-lists-api-openapi.yml
+  format: yaml
+  label: Onomondo Network Lists API
+  slug: onomondo-network-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-network-lists-api-openapi.yml
+- filename: onomondo-sims-api-openapi.yml
   format: yaml
   label: Onomondo SIMs API
   slug: onomondo-sims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-openapi.yml
-- filename: onomondo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-sims-api-openapi.yml
+- filename: onomondo-sms-api-openapi.yml
   format: yaml
-  label: Onomondo Usage & Traffic API
-  slug: onomondo-usage-traffic-api
+  label: Onomondo SMS API
+  slug: onomondo-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-openapi.yml
-- filename: onomondo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-sms-api-openapi.yml
+- filename: onomondo-tags-api-openapi.yml
   format: yaml
-  label: Onomondo Networks API
-  slug: onomondo-networks-api
+  label: Onomondo Tags API
+  slug: onomondo-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-openapi.yml
-- filename: onomondo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-tags-api-openapi.yml
+- filename: onomondo-usage-api-openapi.yml
   format: yaml
-  label: Onomondo Webhooks & Notifications API
-  slug: onomondo-webhooks-notifications-api
+  label: Onomondo Usage API
+  slug: onomondo-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-openapi.yml
-- filename: onomondo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-usage-api-openapi.yml
+- filename: onomondo-webhooks-api-openapi.yml
   format: yaml
-  label: Onomondo Apps & Connectors API
-  slug: onomondo-apps-connectors-api
+  label: Onomondo Webhooks API
+  slug: onomondo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: hbku-figshare-api.yaml
+- filename: hbku-altmetric-api-openapi.yml
   format: yaml
-  label: Figshare API v2 (Manara - HBKU Research)
-  slug: figshare-api
+  label: Hamad Bin Khalifa University altmetric API
+  slug: hbku-altmetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-figshare-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-altmetric-api-openapi.yml
+- filename: hbku-articles-api-openapi.yml
+  format: yaml
+  label: Hamad Bin Khalifa University articles API
+  slug: hbku-articles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-articles-api-openapi.yml
+- filename: hbku-authors-api-openapi.yml
+  format: yaml
+  label: Hamad Bin Khalifa University authors API
+  slug: hbku-authors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-authors-api-openapi.yml
+- filename: hbku-collections-api-openapi.yml
+  format: yaml
+  label: Hamad Bin Khalifa University collections API
+  slug: hbku-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-collections-api-openapi.yml
+- filename: hbku-institutions-api-openapi.yml
+  format: yaml
+  label: Hamad Bin Khalifa University institutions API
+  slug: hbku-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-institutions-api-openapi.yml
+- filename: hbku-oauth-api-openapi.yml
+  format: yaml
+  label: Hamad Bin Khalifa University oauth API
+  slug: hbku-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-oauth-api-openapi.yml
+- filename: hbku-other-api-openapi.yml
+  format: yaml
+  label: Hamad Bin Khalifa University other API
+  slug: hbku-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-other-api-openapi.yml
+- filename: hbku-profiles-api-openapi.yml
+  format: yaml
+  label: Hamad Bin Khalifa University profiles API
+  slug: hbku-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-profiles-api-openapi.yml
+- filename: hbku-projects-api-openapi.yml
+  format: yaml
+  label: Hamad Bin Khalifa University projects API
+  slug: hbku-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-projects-api-openapi.yml
+- filename: hbku-symplectic-api-openapi.yml
+  format: yaml
+  label: Hamad Bin Khalifa University symplectic API
+  slug: hbku-symplectic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-symplectic-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

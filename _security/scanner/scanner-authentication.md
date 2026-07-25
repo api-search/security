@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: scanner-openapi.yml
+- filename: scanner-ad-hoc-queries-api-openapi.yml
   format: yaml
-  label: Scanner API
-  slug: scanner-api
+  label: Scanner Ad Hoc Queries API
+  slug: scanner-ad-hoc-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/openapi/scanner-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/openapi/scanner-ad-hoc-queries-api-openapi.yml
+- filename: scanner-detection-rules-api-openapi.yml
+  format: yaml
+  label: Scanner Detection Rules API
+  slug: scanner-detection-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/openapi/scanner-detection-rules-api-openapi.yml
+- filename: scanner-event-sinks-api-openapi.yml
+  format: yaml
+  label: Scanner Event Sinks API
+  slug: scanner-event-sinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/openapi/scanner-event-sinks-api-openapi.yml
+- filename: scanner-indexes-api-openapi.yml
+  format: yaml
+  label: Scanner Indexes API
+  slug: scanner-indexes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/openapi/scanner-indexes-api-openapi.yml
+- filename: scanner-info-api-openapi.yml
+  format: yaml
+  label: Scanner Info API
+  slug: scanner-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/openapi/scanner-info-api-openapi.yml
+- filename: scanner-lookup-tables-api-openapi.yml
+  format: yaml
+  label: Scanner Lookup Tables API
+  slug: scanner-lookup-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/openapi/scanner-lookup-tables-api-openapi.yml
 auth_types:
 - http
 description: ''

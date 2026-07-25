@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: quasar-rest-openapi-original.json
-  format: json
-  label: QuasarDB REST API
-  slug: quasardb-rest-api
+- filename: quasar-cluster-api-openapi.yml
+  format: yaml
+  label: Quasar cluster API
+  slug: quasar-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-rest-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-cluster-api-openapi.yml
+- filename: quasar-login-api-openapi.yml
+  format: yaml
+  label: Quasar Login API
+  slug: quasar-login-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-login-api-openapi.yml
+- filename: quasar-max-in-buffer-size-api-openapi.yml
+  format: yaml
+  label: Quasar max-in-buffer-size API
+  slug: quasar-max-in-buffer-size-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-max-in-buffer-size-api-openapi.yml
+- filename: quasar-option-api-openapi.yml
+  format: yaml
+  label: Quasar option API
+  slug: quasar-option-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-option-api-openapi.yml
+- filename: quasar-parallelism-api-openapi.yml
+  format: yaml
+  label: Quasar parallelism API
+  slug: quasar-parallelism-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-parallelism-api-openapi.yml
+- filename: quasar-prometheus-api-openapi.yml
+  format: yaml
+  label: Quasar Prometheus API
+  slug: quasar-prometheus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-prometheus-api-openapi.yml
+- filename: quasar-query-api-openapi.yml
+  format: yaml
+  label: Quasar query API
+  slug: quasar-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-query-api-openapi.yml
+- filename: quasar-status-api-openapi.yml
+  format: yaml
+  label: Quasar Status API
+  slug: quasar-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-status-api-openapi.yml
+- filename: quasar-tables-api-openapi.yml
+  format: yaml
+  label: Quasar Tables API
+  slug: quasar-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-tables-api-openapi.yml
+- filename: quasar-tags-api-openapi.yml
+  format: yaml
+  label: Quasar tags API
+  slug: quasar-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-tags-api-openapi.yml
 description: ''
 domains:
 - caa:

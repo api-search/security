@@ -1,72 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: simpro-openapi.yml
+- filename: simpro-companies-api-openapi.yml
   format: yaml
   label: Simpro Companies API
   slug: simpro-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-openapi.yml
-- filename: simpro-openapi.yml
-  format: yaml
-  label: Simpro Customers API
-  slug: simpro-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-openapi.yml
-- filename: simpro-openapi.yml
-  format: yaml
-  label: Simpro Sites API
-  slug: simpro-sites-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-openapi.yml
-- filename: simpro-openapi.yml
-  format: yaml
-  label: Simpro Jobs API
-  slug: simpro-jobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-openapi.yml
-- filename: simpro-openapi.yml
-  format: yaml
-  label: Simpro Quotes API
-  slug: simpro-quotes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-openapi.yml
-- filename: simpro-openapi.yml
-  format: yaml
-  label: Simpro Invoices API
-  slug: simpro-invoices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-openapi.yml
-- filename: simpro-openapi.yml
-  format: yaml
-  label: Simpro Schedules API
-  slug: simpro-schedules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-openapi.yml
-- filename: simpro-openapi.yml
-  format: yaml
-  label: Simpro Vendor Orders API
-  slug: simpro-vendor-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-openapi.yml
-- filename: simpro-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-companies-api-openapi.yml
+- filename: simpro-cost-centers-api-openapi.yml
   format: yaml
   label: Simpro Cost Centers API
   slug: simpro-cost-centers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-openapi.yml
-- filename: simpro-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-cost-centers-api-openapi.yml
+- filename: simpro-customers-api-openapi.yml
+  format: yaml
+  label: Simpro Customers API
+  slug: simpro-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-customers-api-openapi.yml
+- filename: simpro-invoices-api-openapi.yml
+  format: yaml
+  label: Simpro Invoices API
+  slug: simpro-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-invoices-api-openapi.yml
+- filename: simpro-jobs-api-openapi.yml
+  format: yaml
+  label: Simpro Jobs API
+  slug: simpro-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-jobs-api-openapi.yml
+- filename: simpro-quotes-api-openapi.yml
+  format: yaml
+  label: Simpro Quotes API
+  slug: simpro-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-quotes-api-openapi.yml
+- filename: simpro-schedules-api-openapi.yml
+  format: yaml
+  label: Simpro Schedules API
+  slug: simpro-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-schedules-api-openapi.yml
+- filename: simpro-sites-api-openapi.yml
+  format: yaml
+  label: Simpro Sites API
+  slug: simpro-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-sites-api-openapi.yml
+- filename: simpro-stock-api-openapi.yml
   format: yaml
   label: Simpro Stock API
   slug: simpro-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-openapi.yml
-- filename: simpro-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-stock-api-openapi.yml
+- filename: simpro-vendor-orders-api-openapi.yml
+  format: yaml
+  label: Simpro Vendor Orders API
+  slug: simpro-vendor-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-vendor-orders-api-openapi.yml
+- filename: simpro-webhooks-api-openapi.yml
   format: yaml
   label: Simpro Webhooks API
   slug: simpro-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,41 +1,29 @@
 ---
 api_specs:
-- filename: judge-me-openapi.yml
-  format: yaml
-  label: Judge.me Reviews API
-  slug: judge-me-reviews-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judge-me/refs/heads/main/openapi/judge-me-openapi.yml
-- filename: judge-me-openapi.yml
-  format: yaml
-  label: Judge.me Reviewers API
-  slug: judge-me-reviewers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judge-me/refs/heads/main/openapi/judge-me-openapi.yml
-- filename: judge-me-openapi.yml
+- filename: judge-me-products-api-openapi.yml
   format: yaml
   label: Judge.me Products API
   slug: judge-me-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judge-me/refs/heads/main/openapi/judge-me-openapi.yml
-- filename: judge-me-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/judge-me/refs/heads/main/openapi/judge-me-products-api-openapi.yml
+- filename: judge-me-review-requests-api-openapi.yml
+  format: yaml
+  label: Judge.me Review Requests API
+  slug: judge-me-review-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/judge-me/refs/heads/main/openapi/judge-me-review-requests-api-openapi.yml
+- filename: judge-me-reviews-api-openapi.yml
+  format: yaml
+  label: Judge.me Reviews API
+  slug: judge-me-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/judge-me/refs/heads/main/openapi/judge-me-reviews-api-openapi.yml
+- filename: judge-me-widgets-api-openapi.yml
   format: yaml
   label: Judge.me Widgets API
   slug: judge-me-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judge-me/refs/heads/main/openapi/judge-me-openapi.yml
-- filename: judge-me-openapi.yml
-  format: yaml
-  label: Judge.me OAuth API
-  slug: judge-me-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judge-me/refs/heads/main/openapi/judge-me-openapi.yml
-- filename: judge-me-openapi.yml
-  format: yaml
-  label: Judge.me Webhooks API
-  slug: judge-me-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judge-me/refs/heads/main/openapi/judge-me-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/judge-me/refs/heads/main/openapi/judge-me-widgets-api-openapi.yml
 description: ''
 domains:
 - caa: []

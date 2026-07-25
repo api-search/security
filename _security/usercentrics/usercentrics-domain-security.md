@@ -1,23 +1,65 @@
 ---
 api_specs:
-- filename: usercentrics-app-cmp-sdk-openapi.yml
+- filename: usercentrics-ccpa-api-openapi.yml
   format: yaml
-  label: Usercentrics App CMP SDK
-  slug: app-cmp-sdk
+  label: Usercentrics CCPA API
+  slug: usercentrics-ccpa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-app-cmp-sdk-openapi.yml
-- filename: usercentrics-web-cmp-v3-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-ccpa-api-openapi.yml
+- filename: usercentrics-consent-api-openapi.yml
   format: yaml
-  label: Usercentrics Web CMP (V3)
-  slug: web-cmp-v3
+  label: Usercentrics Consent API
+  slug: usercentrics-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-web-cmp-v3-openapi.yml
-- filename: usercentrics-cookiebot-cmp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-consent-api-openapi.yml
+- filename: usercentrics-consent-mode-api-openapi.yml
   format: yaml
-  label: Cookiebot CMP
-  slug: cookiebot-cmp
+  label: Usercentrics Consent Mode API
+  slug: usercentrics-consent-mode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-cookiebot-cmp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-consent-mode-api-openapi.yml
+- filename: usercentrics-controller-api-openapi.yml
+  format: yaml
+  label: Usercentrics Controller API
+  slug: usercentrics-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-controller-api-openapi.yml
+- filename: usercentrics-dialog-api-openapi.yml
+  format: yaml
+  label: Usercentrics Dialog API
+  slug: usercentrics-dialog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-dialog-api-openapi.yml
+- filename: usercentrics-gpp-api-openapi.yml
+  format: yaml
+  label: Usercentrics GPP API
+  slug: usercentrics-gpp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-gpp-api-openapi.yml
+- filename: usercentrics-lifecycle-api-openapi.yml
+  format: yaml
+  label: Usercentrics Lifecycle API
+  slug: usercentrics-lifecycle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-lifecycle-api-openapi.yml
+- filename: usercentrics-scanner-api-openapi.yml
+  format: yaml
+  label: Usercentrics Scanner API
+  slug: usercentrics-scanner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-scanner-api-openapi.yml
+- filename: usercentrics-tcf-api-openapi.yml
+  format: yaml
+  label: Usercentrics TCF API
+  slug: usercentrics-tcf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-tcf-api-openapi.yml
+- filename: usercentrics-ui-api-openapi.yml
+  format: yaml
+  label: Usercentrics UI API
+  slug: usercentrics-ui-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-ui-api-openapi.yml
 description: ''
 domains:
 - caa: []

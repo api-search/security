@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: suno-openapi.yml
+- filename: suno-lyrics-api-openapi.yml
   format: yaml
-  label: Suno via Third-Party Aggregators
-  slug: third-party
+  label: Suno Lyrics API
+  slug: suno-lyrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suno/refs/heads/main/openapi/suno-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/suno/refs/heads/main/openapi/suno-lyrics-api-openapi.yml
+- filename: suno-music-api-openapi.yml
+  format: yaml
+  label: Suno Music API
+  slug: suno-music-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suno/refs/heads/main/openapi/suno-music-api-openapi.yml
 description: ''
 domains:
 - caa: []

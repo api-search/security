@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ups-shipping-openapi.yml
+- filename: ups-address-validation-api-openapi.yml
+  format: yaml
+  label: UPS Address Validation API
+  slug: ups-address-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-address-validation-api-openapi.yml
+- filename: ups-oauth-api-openapi.yml
+  format: yaml
+  label: UPS OAuth API
+  slug: ups-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-oauth-api-openapi.yml
+- filename: ups-paperless-documents-api-openapi.yml
+  format: yaml
+  label: UPS Paperless Documents API
+  slug: ups-paperless-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-paperless-documents-api-openapi.yml
+- filename: ups-pickup-api-openapi.yml
+  format: yaml
+  label: UPS Pickup API
+  slug: ups-pickup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-pickup-api-openapi.yml
+- filename: ups-rating-api-openapi.yml
+  format: yaml
+  label: UPS Rating API
+  slug: ups-rating-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-rating-api-openapi.yml
+- filename: ups-shipping-api-openapi.yml
   format: yaml
   label: UPS Shipping API
-  slug: ups-shipping
+  slug: ups-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-shipping-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-shipping-api-openapi.yml
+- filename: ups-time-in-transit-api-openapi.yml
+  format: yaml
+  label: UPS Time In Transit API
+  slug: ups-time-in-transit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-time-in-transit-api-openapi.yml
+- filename: ups-tracking-api-openapi.yml
+  format: yaml
+  label: UPS Tracking API
+  slug: ups-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-tracking-api-openapi.yml
 auth_types:
 - http
 - oauth2

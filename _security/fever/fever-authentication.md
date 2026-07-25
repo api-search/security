@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: fever-reporting-api-openapi-original.json
-  format: json
-  label: Fever Reporting API
-  slug: fever-reporting-api
+- filename: fever-authentication-api-openapi.yml
+  format: yaml
+  label: Fever Authentication API
+  slug: fever-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/openapi/fever-reporting-api-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/openapi/fever-authentication-api-openapi.yml
+- filename: fever-feverzone-api-openapi.yml
+  format: yaml
+  label: Fever FeverZone API
+  slug: fever-feverzone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/openapi/fever-feverzone-api-openapi.yml
+- filename: fever-order-items-api-openapi.yml
+  format: yaml
+  label: Fever Order Items API
+  slug: fever-order-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/openapi/fever-order-items-api-openapi.yml
+- filename: fever-plans-api-openapi.yml
+  format: yaml
+  label: Fever Plans API
+  slug: fever-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/openapi/fever-plans-api-openapi.yml
+- filename: fever-sessions-api-openapi.yml
+  format: yaml
+  label: Fever Sessions API
+  slug: fever-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/openapi/fever-sessions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

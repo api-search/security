@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: capsule-crm-openapi.yml
+- filename: capsule-crm-entries-api-openapi.yml
   format: yaml
-  label: Capsule CRM API v2
-  slug: v2-api
+  label: Capsule CRM Entries API
+  slug: capsule-crm-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/openapi/capsule-crm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/openapi/capsule-crm-entries-api-openapi.yml
+- filename: capsule-crm-opportunities-api-openapi.yml
+  format: yaml
+  label: Capsule CRM Opportunities API
+  slug: capsule-crm-opportunities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/openapi/capsule-crm-opportunities-api-openapi.yml
+- filename: capsule-crm-parties-api-openapi.yml
+  format: yaml
+  label: Capsule CRM Parties API
+  slug: capsule-crm-parties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/openapi/capsule-crm-parties-api-openapi.yml
+- filename: capsule-crm-projects-api-openapi.yml
+  format: yaml
+  label: Capsule CRM Projects API
+  slug: capsule-crm-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/openapi/capsule-crm-projects-api-openapi.yml
+- filename: capsule-crm-tasks-api-openapi.yml
+  format: yaml
+  label: Capsule CRM Tasks API
+  slug: capsule-crm-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/openapi/capsule-crm-tasks-api-openapi.yml
 description: ''
 domains:
 - caa:

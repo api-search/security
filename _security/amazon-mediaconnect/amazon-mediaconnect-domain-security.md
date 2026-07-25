@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: amazon-mediaconnect-openapi-original.yml
+- filename: amazon-mediaconnect-bridges-api-openapi.yml
   format: yaml
-  label: AWS Elemental MediaConnect API
-  slug: aws-elemental-mediaconnect-api
+  label: Amazon MediaConnect Bridges API
+  slug: amazon-mediaconnect-bridges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/openapi/amazon-mediaconnect-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/openapi/amazon-mediaconnect-bridges-api-openapi.yml
+- filename: amazon-mediaconnect-entitlements-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConnect Entitlements API
+  slug: amazon-mediaconnect-entitlements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/openapi/amazon-mediaconnect-entitlements-api-openapi.yml
+- filename: amazon-mediaconnect-flows-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConnect Flows API
+  slug: amazon-mediaconnect-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/openapi/amazon-mediaconnect-flows-api-openapi.yml
+- filename: amazon-mediaconnect-gateway-instances-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConnect Gateway Instances API
+  slug: amazon-mediaconnect-gateway-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/openapi/amazon-mediaconnect-gateway-instances-api-openapi.yml
+- filename: amazon-mediaconnect-gateways-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConnect Gateways API
+  slug: amazon-mediaconnect-gateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/openapi/amazon-mediaconnect-gateways-api-openapi.yml
+- filename: amazon-mediaconnect-offerings-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConnect Offerings API
+  slug: amazon-mediaconnect-offerings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/openapi/amazon-mediaconnect-offerings-api-openapi.yml
+- filename: amazon-mediaconnect-reservations-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConnect Reservations API
+  slug: amazon-mediaconnect-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/openapi/amazon-mediaconnect-reservations-api-openapi.yml
+- filename: amazon-mediaconnect-tags-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConnect Tags API
+  slug: amazon-mediaconnect-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/openapi/amazon-mediaconnect-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

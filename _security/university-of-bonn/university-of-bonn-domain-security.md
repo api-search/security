@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: university-of-bonn-bonndata-native-api.yaml
+- filename: university-of-bonn-datasets-api-openapi.yml
   format: yaml
-  label: bonndata Dataverse Native REST API
-  slug: bonndata-native-api
+  label: University of Bonn Datasets API
+  slug: university-of-bonn-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/openapi/university-of-bonn-bonndata-native-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/openapi/university-of-bonn-datasets-api-openapi.yml
+- filename: university-of-bonn-info-api-openapi.yml
+  format: yaml
+  label: University of Bonn Info API
+  slug: university-of-bonn-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/openapi/university-of-bonn-info-api-openapi.yml
+- filename: university-of-bonn-metrics-api-openapi.yml
+  format: yaml
+  label: University of Bonn Metrics API
+  slug: university-of-bonn-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/openapi/university-of-bonn-metrics-api-openapi.yml
+- filename: university-of-bonn-search-api-openapi.yml
+  format: yaml
+  label: University of Bonn Search API
+  slug: university-of-bonn-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/openapi/university-of-bonn-search-api-openapi.yml
 description: ''
 domains:
 - caa:

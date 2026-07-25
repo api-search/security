@@ -1,41 +1,29 @@
 ---
 api_specs:
-- filename: boost-insurance-openapi.yml
+- filename: boost-insurance-authentication-api-openapi.yml
   format: yaml
-  label: Boost Insurance Programs API
-  slug: boost-insurance-programs-api
+  label: Boost Insurance Authentication API
+  slug: boost-insurance-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-openapi.yml
-- filename: boost-insurance-openapi.yml
-  format: yaml
-  label: Boost Insurance Quotes API
-  slug: boost-insurance-quotes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-openapi.yml
-- filename: boost-insurance-openapi.yml
-  format: yaml
-  label: Boost Insurance Policies API
-  slug: boost-insurance-policies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-openapi.yml
-- filename: boost-insurance-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-authentication-api-openapi.yml
+- filename: boost-insurance-claims-api-openapi.yml
   format: yaml
   label: Boost Insurance Claims API
   slug: boost-insurance-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-openapi.yml
-- filename: boost-insurance-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-claims-api-openapi.yml
+- filename: boost-insurance-policies-api-openapi.yml
   format: yaml
-  label: Boost Insurance Endorsements API
-  slug: boost-insurance-endorsements-api
+  label: Boost Insurance Policies API
+  slug: boost-insurance-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-openapi.yml
-- filename: boost-insurance-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-policies-api-openapi.yml
+- filename: boost-insurance-quotes-api-openapi.yml
   format: yaml
-  label: Boost Insurance Webhooks API
-  slug: boost-insurance-webhooks-api
+  label: Boost Insurance Quotes API
+  slug: boost-insurance-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-quotes-api-openapi.yml
 description: ''
 domains:
 - caa: []

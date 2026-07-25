@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: zenzap-openapi-original.yml
+- filename: zenzap-agentic-api-openapi.yml
   format: yaml
-  label: Zenzap External Integration API
-  slug: zenzap-external-integration-api
+  label: ZenZap Agentic API
+  slug: zenzap-agentic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/openapi/zenzap-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/openapi/zenzap-agentic-api-openapi.yml
+- filename: zenzap-long-polling-api-openapi.yml
+  format: yaml
+  label: ZenZap Long Polling API
+  slug: zenzap-long-polling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/openapi/zenzap-long-polling-api-openapi.yml
+- filename: zenzap-members-api-openapi.yml
+  format: yaml
+  label: ZenZap Members API
+  slug: zenzap-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/openapi/zenzap-members-api-openapi.yml
+- filename: zenzap-messages-api-openapi.yml
+  format: yaml
+  label: ZenZap Messages API
+  slug: zenzap-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/openapi/zenzap-messages-api-openapi.yml
+- filename: zenzap-oauth-api-openapi.yml
+  format: yaml
+  label: ZenZap OAuth API
+  slug: zenzap-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/openapi/zenzap-oauth-api-openapi.yml
+- filename: zenzap-polls-api-openapi.yml
+  format: yaml
+  label: ZenZap Polls API
+  slug: zenzap-polls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/openapi/zenzap-polls-api-openapi.yml
+- filename: zenzap-tasks-api-openapi.yml
+  format: yaml
+  label: ZenZap Tasks API
+  slug: zenzap-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/openapi/zenzap-tasks-api-openapi.yml
+- filename: zenzap-topics-group-chats-channels-conversations-api-openapi.yml
+  format: yaml
+  label: ZenZap Topics (group chats/channels/conversations) API
+  slug: zenzap-topics-group-chats-channels-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/openapi/zenzap-topics-group-chats-channels-conversations-api-openapi.yml
 auth_types:
 - apiKey
 - http

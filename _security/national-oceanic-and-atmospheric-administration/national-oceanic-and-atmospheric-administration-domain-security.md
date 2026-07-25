@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: national-oceanic-and-atmospheric-administration-openapi.yml
+- filename: national-oceanic-and-atmospheric-administration-observations-api-openapi.yml
   format: yaml
-  label: NOAA CO-OPS Data API
-  slug: national-oceanic-and-atmospheric-administration
+  label: National Oceanic and Atmospheric Administration Observations API
+  slug: national-oceanic-and-atmospheric-administration-observations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-oceanic-and-atmospheric-administration/refs/heads/main/openapi/national-oceanic-and-atmospheric-administration-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/national-oceanic-and-atmospheric-administration/refs/heads/main/openapi/national-oceanic-and-atmospheric-administration-observations-api-openapi.yml
 description: ''
 domains:
 - caa:

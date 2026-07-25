@@ -6,6 +6,12 @@ api_specs:
   slug: websocket-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/hyperliquid/refs/heads/main/asyncapi/hyperliquid-asyncapi.yml
+- filename: hyperliquid-info-api-openapi.yml
+  format: yaml
+  label: Hyperliquid Info API
+  slug: hyperliquid-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperliquid/refs/heads/main/openapi/hyperliquid-info-api-openapi.yml
 description: ''
 domains:
 - caa: []

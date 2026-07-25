@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: veho-api-openapi-original.yml
+- filename: veho-labels-api-openapi.yml
   format: yaml
-  label: Veho API
-  slug: veho-api
+  label: Veho labels API
+  slug: veho-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/openapi/veho-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/openapi/veho-labels-api-openapi.yml
+- filename: veho-manifests-api-openapi.yml
+  format: yaml
+  label: Veho manifests API
+  slug: veho-manifests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/openapi/veho-manifests-api-openapi.yml
+- filename: veho-merchants-api-openapi.yml
+  format: yaml
+  label: Veho merchants API
+  slug: veho-merchants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/openapi/veho-merchants-api-openapi.yml
+- filename: veho-orders-api-openapi.yml
+  format: yaml
+  label: Veho orders API
+  slug: veho-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/openapi/veho-orders-api-openapi.yml
+- filename: veho-packages-api-openapi.yml
+  format: yaml
+  label: Veho packages API
+  slug: veho-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/openapi/veho-packages-api-openapi.yml
+- filename: veho-quotes-api-openapi.yml
+  format: yaml
+  label: Veho quotes API
+  slug: veho-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/openapi/veho-quotes-api-openapi.yml
+- filename: veho-webhooks-api-openapi.yml
+  format: yaml
+  label: Veho webhooks API
+  slug: veho-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/openapi/veho-webhooks-api-openapi.yml
+- filename: veho-zips-api-openapi.yml
+  format: yaml
+  label: Veho zips API
+  slug: veho-zips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/openapi/veho-zips-api-openapi.yml
 auth_types:
 - apiKey
 description: The Veho API authenticates with a static API key provided by Veho, sent on every request in an `apikey` header (UUID-shaped in the docs example). Sandbox and production use separate keys and hosts. 401 means the header was missing or the key invalid; 403 means the key lacks permission for the requested resource. GET /serviceable-zips on the sandbox host is the only documented unauthenticated endpoint. No OAuth, OIDC, or mTLS surface.

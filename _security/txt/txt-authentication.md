@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: txt-dottxt-openapi-original.json
-  format: json
-  label: dottxt API
-  slug: dottxt-api
+- filename: txt-batches-api-openapi.yml
+  format: yaml
+  label: .txt batches API
+  slug: txt-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-dottxt-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-batches-api-openapi.yml
+- filename: txt-chat-api-openapi.yml
+  format: yaml
+  label: .txt chat API
+  slug: txt-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-chat-api-openapi.yml
+- filename: txt-embeddings-api-openapi.yml
+  format: yaml
+  label: .txt embeddings API
+  slug: txt-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-embeddings-api-openapi.yml
+- filename: txt-files-api-openapi.yml
+  format: yaml
+  label: .txt files API
+  slug: txt-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-files-api-openapi.yml
+- filename: txt-models-api-openapi.yml
+  format: yaml
+  label: .txt models API
+  slug: txt-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-models-api-openapi.yml
+- filename: txt-responses-api-api-openapi.yml
+  format: yaml
+  label: .txt responses-api API
+  slug: txt-responses-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-responses-api-api-openapi.yml
 auth_types:
 - http-bearer
 description: 'Auth profile for the dottxt API, from the published OpenAPI securitySchemes (openapi/txt-dottxt-openapi-original.json) and the docs authentication page. Single scheme: bearer API key in the Authorization header. Keys are prefixed sk-dottxt- and are created/managed in the dashboard; access is currently granted via a request form. The Python SDK and CLI read DOTTXT_API_KEY by default (dottxt login stores credentials locally).'

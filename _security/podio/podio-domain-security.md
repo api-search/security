@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: podio-openapi.yml
+- filename: podio-applications-api-openapi.yml
   format: yaml
-  label: Podio REST API
-  slug: rest-api
+  label: Podio Applications API
+  slug: podio-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-applications-api-openapi.yml
+- filename: podio-hooks-api-openapi.yml
+  format: yaml
+  label: Podio Hooks API
+  slug: podio-hooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-hooks-api-openapi.yml
+- filename: podio-items-api-openapi.yml
+  format: yaml
+  label: Podio Items API
+  slug: podio-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-items-api-openapi.yml
+- filename: podio-oauth-api-openapi.yml
+  format: yaml
+  label: Podio OAuth API
+  slug: podio-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-oauth-api-openapi.yml
+- filename: podio-tasks-api-openapi.yml
+  format: yaml
+  label: Podio Tasks API
+  slug: podio-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []

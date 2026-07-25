@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-mq-openapi-original.yml
+- filename: amazon-mq-broker-engine-types-api-openapi.yml
   format: yaml
-  label: Amazon MQ API
-  slug: mq-api
+  label: Amazon MQ Broker Engine Types API
+  slug: amazon-mq-broker-engine-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/openapi/amazon-mq-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/openapi/amazon-mq-broker-engine-types-api-openapi.yml
+- filename: amazon-mq-broker-instance-options-api-openapi.yml
+  format: yaml
+  label: Amazon MQ Broker Instance Options API
+  slug: amazon-mq-broker-instance-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/openapi/amazon-mq-broker-instance-options-api-openapi.yml
+- filename: amazon-mq-brokers-api-openapi.yml
+  format: yaml
+  label: Amazon MQ Brokers API
+  slug: amazon-mq-brokers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/openapi/amazon-mq-brokers-api-openapi.yml
+- filename: amazon-mq-configurations-api-openapi.yml
+  format: yaml
+  label: Amazon MQ Configurations API
+  slug: amazon-mq-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/openapi/amazon-mq-configurations-api-openapi.yml
+- filename: amazon-mq-tags-api-openapi.yml
+  format: yaml
+  label: Amazon MQ Tags API
+  slug: amazon-mq-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/openapi/amazon-mq-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: doctave-doctave-openapi.yml
+- filename: doctave-deployments-api-openapi.yml
   format: yaml
-  label: Doctave API
-  slug: doctave
+  label: Doctave Deployments API
+  slug: doctave-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/openapi/doctave-doctave-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/openapi/doctave-deployments-api-openapi.yml
+- filename: doctave-pages-api-openapi.yml
+  format: yaml
+  label: Doctave Pages API
+  slug: doctave-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/openapi/doctave-pages-api-openapi.yml
+- filename: doctave-search-api-openapi.yml
+  format: yaml
+  label: Doctave Search API
+  slug: doctave-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/openapi/doctave-search-api-openapi.yml
+- filename: doctave-sites-api-openapi.yml
+  format: yaml
+  label: Doctave Sites API
+  slug: doctave-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/openapi/doctave-sites-api-openapi.yml
 auth_types:
 - http
 description: ''

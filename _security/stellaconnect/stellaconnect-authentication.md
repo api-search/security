@@ -2,24 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: stellaconnect-requests-openapi-original.yml
+- filename: stellaconnect-coaching-api-openapi.yml
   format: yaml
-  label: Agent Connect Requests API
-  slug: agent-connect-requests-api
+  label: Stella Connect (Medallia Agent Connect) Coaching API
+  slug: stellaconnect-coaching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/openapi/stellaconnect-requests-openapi-original.yml
-- filename: stellaconnect-data-return-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/openapi/stellaconnect-coaching-api-openapi.yml
+- filename: stellaconnect-data-api-openapi.yml
   format: yaml
-  label: Agent Connect Data Return API
-  slug: agent-connect-data-return-api
+  label: Stella Connect (Medallia Agent Connect) Data API
+  slug: stellaconnect-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/openapi/stellaconnect-data-return-openapi-original.yml
-- filename: stellaconnect-user-management-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/openapi/stellaconnect-data-api-openapi.yml
+- filename: stellaconnect-employees-api-openapi.yml
   format: yaml
-  label: Agent Connect User Management API
-  slug: agent-connect-user-management-api
+  label: Stella Connect (Medallia Agent Connect) Employees API
+  slug: stellaconnect-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/openapi/stellaconnect-user-management-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/openapi/stellaconnect-employees-api-openapi.yml
+- filename: stellaconnect-qa-api-openapi.yml
+  format: yaml
+  label: Stella Connect (Medallia Agent Connect) Qa API
+  slug: stellaconnect-qa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/openapi/stellaconnect-qa-api-openapi.yml
+- filename: stellaconnect-recoveries-api-openapi.yml
+  format: yaml
+  label: Stella Connect (Medallia Agent Connect) Recoveries API
+  slug: stellaconnect-recoveries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/openapi/stellaconnect-recoveries-api-openapi.yml
+- filename: stellaconnect-requests-api-openapi.yml
+  format: yaml
+  label: Stella Connect (Medallia Agent Connect) Requests API
+  slug: stellaconnect-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/openapi/stellaconnect-requests-api-openapi.yml
 auth_types:
 - apiKey
 - http

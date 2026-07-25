@@ -1,36 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tradify-openapi.yml
+- filename: tradify-customers-api-openapi.yml
   format: yaml
-  label: Tradify Jobs API (Modeled)
-  slug: tradify-jobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/openapi/tradify-openapi.yml
-- filename: tradify-openapi.yml
-  format: yaml
-  label: Tradify Customers API (Modeled)
+  label: Tradify Customers API
   slug: tradify-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/openapi/tradify-openapi.yml
-- filename: tradify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/openapi/tradify-customers-api-openapi.yml
+- filename: tradify-invoices-api-openapi.yml
   format: yaml
-  label: Tradify Quotes API (Modeled)
-  slug: tradify-quotes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/openapi/tradify-openapi.yml
-- filename: tradify-openapi.yml
-  format: yaml
-  label: Tradify Invoices API (Modeled)
+  label: Tradify Invoices API
   slug: tradify-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/openapi/tradify-openapi.yml
-- filename: tradify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/openapi/tradify-invoices-api-openapi.yml
+- filename: tradify-jobs-api-openapi.yml
   format: yaml
-  label: Tradify Timesheets API (Modeled)
+  label: Tradify Jobs API
+  slug: tradify-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/openapi/tradify-jobs-api-openapi.yml
+- filename: tradify-quotes-api-openapi.yml
+  format: yaml
+  label: Tradify Quotes API
+  slug: tradify-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/openapi/tradify-quotes-api-openapi.yml
+- filename: tradify-timesheets-api-openapi.yml
+  format: yaml
+  label: Tradify Timesheets API
   slug: tradify-timesheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/openapi/tradify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/openapi/tradify-timesheets-api-openapi.yml
 auth_types:
 - session
 description: ''

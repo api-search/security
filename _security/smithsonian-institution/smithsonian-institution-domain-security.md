@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: smithsonian-open-access-openapi.yml
+- filename: smithsonian-institution-content-api-openapi.yml
   format: yaml
-  label: Smithsonian Open Access API
-  slug: open-access-api
+  label: Smithsonian Institution Content API
+  slug: smithsonian-institution-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smithsonian-institution/refs/heads/main/openapi/smithsonian-open-access-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smithsonian-institution/refs/heads/main/openapi/smithsonian-institution-content-api-openapi.yml
+- filename: smithsonian-institution-metrics-api-openapi.yml
+  format: yaml
+  label: Smithsonian Institution Metrics API
+  slug: smithsonian-institution-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smithsonian-institution/refs/heads/main/openapi/smithsonian-institution-metrics-api-openapi.yml
+- filename: smithsonian-institution-search-api-openapi.yml
+  format: yaml
+  label: Smithsonian Institution Search API
+  slug: smithsonian-institution-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smithsonian-institution/refs/heads/main/openapi/smithsonian-institution-search-api-openapi.yml
 description: ''
 domains:
 - caa:

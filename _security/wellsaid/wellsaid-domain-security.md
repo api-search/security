@@ -1,23 +1,29 @@
 ---
 api_specs:
-- filename: wellsaid-openapi.yml
+- filename: wellsaid-clips-api-openapi.yml
   format: yaml
-  label: WellSaid Text-to-Speech API
+  label: WellSaid Labs Clips API
+  slug: wellsaid-clips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-clips-api-openapi.yml
+- filename: wellsaid-pronunciation-api-openapi.yml
+  format: yaml
+  label: WellSaid Labs Pronunciation API
+  slug: wellsaid-pronunciation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-pronunciation-api-openapi.yml
+- filename: wellsaid-text-to-speech-api-openapi.yml
+  format: yaml
+  label: WellSaid Labs Text-to-Speech API
   slug: wellsaid-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-openapi.yml
-- filename: wellsaid-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-text-to-speech-api-openapi.yml
+- filename: wellsaid-voices-api-openapi.yml
   format: yaml
-  label: WellSaid Streaming TTS API
-  slug: wellsaid-streaming-tts-api
+  label: WellSaid Labs Voices API
+  slug: wellsaid-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-openapi.yml
-- filename: wellsaid-openapi.yml
-  format: yaml
-  label: WellSaid Voices and Speakers API
-  slug: wellsaid-voices-speakers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-voices-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: marriott-international-developer-api-openapi.yml
+- filename: marriott-international-availability-api-openapi.yml
   format: yaml
-  label: Marriott Developer API
-  slug: developer-api
+  label: Marriott International Availability API
+  slug: marriott-international-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marriott-international/refs/heads/main/openapi/marriott-international-developer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marriott-international/refs/heads/main/openapi/marriott-international-availability-api-openapi.yml
+- filename: marriott-international-properties-api-openapi.yml
+  format: yaml
+  label: Marriott International Properties API
+  slug: marriott-international-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marriott-international/refs/heads/main/openapi/marriott-international-properties-api-openapi.yml
+- filename: marriott-international-reservations-api-openapi.yml
+  format: yaml
+  label: Marriott International Reservations API
+  slug: marriott-international-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marriott-international/refs/heads/main/openapi/marriott-international-reservations-api-openapi.yml
 description: ''
 domains:
 - caa: []

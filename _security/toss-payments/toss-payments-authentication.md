@@ -1,48 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: toss-payments-openapi.yml
-  format: yaml
-  label: Toss Payments Payments API
-  slug: toss-payments-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-openapi.yml
-- filename: toss-payments-openapi.yml
+- filename: toss-payments-billing-api-openapi.yml
   format: yaml
   label: Toss Payments Billing API
   slug: toss-payments-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-openapi.yml
-- filename: toss-payments-openapi.yml
-  format: yaml
-  label: Toss Payments Virtual Accounts API
-  slug: toss-payments-virtual-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-openapi.yml
-- filename: toss-payments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-billing-api-openapi.yml
+- filename: toss-payments-cash-receipts-api-openapi.yml
   format: yaml
   label: Toss Payments Cash Receipts API
   slug: toss-payments-cash-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-openapi.yml
-- filename: toss-payments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-cash-receipts-api-openapi.yml
+- filename: toss-payments-payments-api-openapi.yml
   format: yaml
-  label: Toss Payments Transactions API
-  slug: toss-payments-transactions-api
+  label: Toss Payments Payments API
+  slug: toss-payments-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-openapi.yml
-- filename: toss-payments-openapi.yml
-  format: yaml
-  label: Toss Payments Settlements API
-  slug: toss-payments-settlements-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-openapi.yml
-- filename: toss-payments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-payments-api-openapi.yml
+- filename: toss-payments-payouts-api-openapi.yml
   format: yaml
   label: Toss Payments Payouts API
   slug: toss-payments-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-payouts-api-openapi.yml
+- filename: toss-payments-settlements-api-openapi.yml
+  format: yaml
+  label: Toss Payments Settlements API
+  slug: toss-payments-settlements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-settlements-api-openapi.yml
+- filename: toss-payments-transactions-api-openapi.yml
+  format: yaml
+  label: Toss Payments Transactions API
+  slug: toss-payments-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-transactions-api-openapi.yml
+- filename: toss-payments-virtual-accounts-api-openapi.yml
+  format: yaml
+  label: Toss Payments Virtual Accounts API
+  slug: toss-payments-virtual-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-virtual-accounts-api-openapi.yml
 auth_types:
 - http
 description: ''

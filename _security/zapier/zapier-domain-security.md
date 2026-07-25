@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: zapier-partner-api.yml
+- filename: zapier-accounts-api-openapi.yml
   format: yaml
-  label: Zapier Partner API
-  slug: partner-api
+  label: Zapier Accounts API
+  slug: zapier-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-partner-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-accounts-api-openapi.yml
+- filename: zapier-actions-api-openapi.yml
+  format: yaml
+  label: Zapier Actions API
+  slug: zapier-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-actions-api-openapi.yml
+- filename: zapier-apps-api-openapi.yml
+  format: yaml
+  label: Zapier Apps API
+  slug: zapier-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-apps-api-openapi.yml
+- filename: zapier-authentications-api-openapi.yml
+  format: yaml
+  label: Zapier Authentications API
+  slug: zapier-authentications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-authentications-api-openapi.yml
+- filename: zapier-categories-api-openapi.yml
+  format: yaml
+  label: Zapier Categories API
+  slug: zapier-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-categories-api-openapi.yml
+- filename: zapier-experimental-api-openapi.yml
+  format: yaml
+  label: Zapier Experimental API
+  slug: zapier-experimental-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-experimental-api-openapi.yml
+- filename: zapier-inputs-api-openapi.yml
+  format: yaml
+  label: Zapier Inputs API
+  slug: zapier-inputs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-inputs-api-openapi.yml
+- filename: zapier-outputs-api-openapi.yml
+  format: yaml
+  label: Zapier Outputs API
+  slug: zapier-outputs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-outputs-api-openapi.yml
+- filename: zapier-zap-templates-api-openapi.yml
+  format: yaml
+  label: Zapier Zap Templates API
+  slug: zapier-zap-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-zap-templates-api-openapi.yml
+- filename: zapier-zaps-api-openapi.yml
+  format: yaml
+  label: Zapier Zaps API
+  slug: zapier-zaps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-zaps-api-openapi.yml
 description: ''
 domains:
 - caa:

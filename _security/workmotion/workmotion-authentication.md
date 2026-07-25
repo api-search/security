@@ -1,48 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: workmotion-openapi.yml
-  format: yaml
-  label: WorkMotion Employees API
-  slug: workmotion-employees-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-openapi.yml
-- filename: workmotion-openapi.yml
-  format: yaml
-  label: WorkMotion Contracts API
-  slug: workmotion-contracts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-openapi.yml
-- filename: workmotion-openapi.yml
-  format: yaml
-  label: WorkMotion Onboarding API
-  slug: workmotion-onboarding-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-openapi.yml
-- filename: workmotion-openapi.yml
+- filename: workmotion-absences-api-openapi.yml
   format: yaml
   label: WorkMotion Absences API
   slug: workmotion-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-openapi.yml
-- filename: workmotion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-absences-api-openapi.yml
+- filename: workmotion-contracts-api-openapi.yml
   format: yaml
-  label: WorkMotion Documents API
-  slug: workmotion-documents-api
+  label: WorkMotion Contracts API
+  slug: workmotion-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-openapi.yml
-- filename: workmotion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-contracts-api-openapi.yml
+- filename: workmotion-cost-calculator-api-openapi.yml
   format: yaml
   label: WorkMotion Cost Calculator API
   slug: workmotion-cost-calculator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-openapi.yml
-- filename: workmotion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-cost-calculator-api-openapi.yml
+- filename: workmotion-documents-api-openapi.yml
+  format: yaml
+  label: WorkMotion Documents API
+  slug: workmotion-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-documents-api-openapi.yml
+- filename: workmotion-employees-api-openapi.yml
+  format: yaml
+  label: WorkMotion Employees API
+  slug: workmotion-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-employees-api-openapi.yml
+- filename: workmotion-onboarding-api-openapi.yml
+  format: yaml
+  label: WorkMotion Onboarding API
+  slug: workmotion-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-onboarding-api-openapi.yml
+- filename: workmotion-webhooks-api-openapi.yml
   format: yaml
   label: WorkMotion Webhooks API
   slug: workmotion-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

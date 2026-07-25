@@ -2,30 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: documenso-openapi.yml
+- filename: documenso-documents-api-openapi.yml
   format: yaml
   label: Documenso Documents API
-  slug: documents
+  slug: documenso-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documenso/refs/heads/main/openapi/documenso-openapi.yml
-- filename: documenso-openapi.yml
-  format: yaml
-  label: Documenso Recipients API
-  slug: recipients
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documenso/refs/heads/main/openapi/documenso-openapi.yml
-- filename: documenso-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/documenso/refs/heads/main/openapi/documenso-documents-api-openapi.yml
+- filename: documenso-fields-api-openapi.yml
   format: yaml
   label: Documenso Fields API
-  slug: fields
+  slug: documenso-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documenso/refs/heads/main/openapi/documenso-openapi.yml
-- filename: documenso-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/documenso/refs/heads/main/openapi/documenso-fields-api-openapi.yml
+- filename: documenso-recipients-api-openapi.yml
+  format: yaml
+  label: Documenso Recipients API
+  slug: documenso-recipients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/documenso/refs/heads/main/openapi/documenso-recipients-api-openapi.yml
+- filename: documenso-templates-api-openapi.yml
   format: yaml
   label: Documenso Templates API
-  slug: templates
+  slug: documenso-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documenso/refs/heads/main/openapi/documenso-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/documenso/refs/heads/main/openapi/documenso-templates-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

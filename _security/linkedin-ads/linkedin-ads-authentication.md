@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: linkedin-ads-openapi.yml
+- filename: linkedin-ads-adaccounts-api-openapi.yml
   format: yaml
-  label: LinkedIn Marketing API
-  slug: marketing-api
+  label: LinkedIn Marketing API AdAccounts API
+  slug: linkedin-ads-adaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-adaccounts-api-openapi.yml
+- filename: linkedin-ads-adbudgetpricing-api-openapi.yml
+  format: yaml
+  label: LinkedIn Marketing API AdBudgetPricing API
+  slug: linkedin-ads-adbudgetpricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-adbudgetpricing-api-openapi.yml
+- filename: linkedin-ads-adtargetingentities-api-openapi.yml
+  format: yaml
+  label: LinkedIn Marketing API AdTargetingEntities API
+  slug: linkedin-ads-adtargetingentities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-adtargetingentities-api-openapi.yml
+- filename: linkedin-ads-adtargetingfacets-api-openapi.yml
+  format: yaml
+  label: LinkedIn Marketing API AdTargetingFacets API
+  slug: linkedin-ads-adtargetingfacets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-adtargetingfacets-api-openapi.yml
+- filename: linkedin-ads-audiencecounts-api-openapi.yml
+  format: yaml
+  label: LinkedIn Marketing API AudienceCounts API
+  slug: linkedin-ads-audiencecounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-audiencecounts-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

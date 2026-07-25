@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: digits-openapi-original.json
-  format: json
-  label: Digits Connect API
-  slug: digits-connect-api
+- filename: digits-llms-txt-api-openapi.yml
+  format: yaml
+  label: Digits Llms.txt API
+  slug: digits-llms-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits/refs/heads/main/openapi/digits-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/digits/refs/heads/main/openapi/digits-llms-txt-api-openapi.yml
+- filename: digits-sitemap-xml-api-openapi.yml
+  format: yaml
+  label: Digits Sitemap.xml API
+  slug: digits-sitemap-xml-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digits/refs/heads/main/openapi/digits-sitemap-xml-api-openapi.yml
+- filename: digits-well-known-api-openapi.yml
+  format: yaml
+  label: Digits .well Known API
+  slug: digits-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digits/refs/heads/main/openapi/digits-well-known-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

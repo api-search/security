@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: university-of-basel-dsp-api.yaml
+- filename: university-of-basel-admin-api-api-openapi.yml
   format: yaml
-  label: DaSCH DSP-API
-  slug: dsp-api
+  label: University of Basel Admin API API
+  slug: university-of-basel-admin-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/openapi/university-of-basel-dsp-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/openapi/university-of-basel-admin-api-api-openapi.yml
+- filename: university-of-basel-api-v2-api-openapi.yml
+  format: yaml
+  label: University of Basel API v2 API
+  slug: university-of-basel-api-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/openapi/university-of-basel-api-v2-api-openapi.yml
+- filename: university-of-basel-api-v3-api-openapi.yml
+  format: yaml
+  label: University of Basel API v3 API
+  slug: university-of-basel-api-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/openapi/university-of-basel-api-v3-api-openapi.yml
+- filename: university-of-basel-management-api-api-openapi.yml
+  format: yaml
+  label: University of Basel Management API API
+  slug: university-of-basel-management-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/openapi/university-of-basel-management-api-api-openapi.yml
+- filename: university-of-basel-ontology-mappings-api-openapi.yml
+  format: yaml
+  label: University of Basel Ontology Mappings API
+  slug: university-of-basel-ontology-mappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/openapi/university-of-basel-ontology-mappings-api-openapi.yml
 auth_types:
 - http
 description: ''

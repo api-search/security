@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: hootsuite-openapi.yml
+- filename: hootsuite-me-api-openapi.yml
   format: yaml
-  label: Hootsuite REST API
-  slug: rest-api
+  label: Hootsuite Me API
+  slug: hootsuite-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-me-api-openapi.yml
+- filename: hootsuite-media-api-openapi.yml
+  format: yaml
+  label: Hootsuite Media API
+  slug: hootsuite-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-media-api-openapi.yml
+- filename: hootsuite-messages-api-openapi.yml
+  format: yaml
+  label: Hootsuite Messages API
+  slug: hootsuite-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-messages-api-openapi.yml
+- filename: hootsuite-socialprofiles-api-openapi.yml
+  format: yaml
+  label: Hootsuite SocialProfiles API
+  slug: hootsuite-socialprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-socialprofiles-api-openapi.yml
 description: ''
 domains:
 - caa:

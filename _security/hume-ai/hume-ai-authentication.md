@@ -2,30 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: hume-ai-voices-openapi.yml
+- filename: hume-ai-default-api-openapi.yml
   format: yaml
-  label: Hume Voices API
-  slug: voices
+  label: Hume AI Ai Default API
+  slug: hume-ai-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-voices-openapi.yml
-- filename: hume-ai-tts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-default-api-openapi.yml
+- filename: hume-ai-subpackage-batch-api-openapi.yml
   format: yaml
-  label: Hume Octave Text-to-Speech API
-  slug: tts
+  label: Hume AI subpackage_batch API
+  slug: hume-ai-subpackage-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-tts-openapi.yml
-- filename: hume-ai-evi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-batch-api-openapi.yml
+- filename: hume-ai-subpackage-chatgroups-api-openapi.yml
   format: yaml
-  label: Hume Empathic Voice Interface (EVI) API
-  slug: evi
+  label: Hume AI subpackage_chatGroups API
+  slug: hume-ai-subpackage-chatgroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-evi-openapi.yml
-- filename: hume-ai-expression-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-chatgroups-api-openapi.yml
+- filename: hume-ai-subpackage-chats-api-openapi.yml
   format: yaml
-  label: Hume Expression Measurement API
-  slug: expression
+  label: Hume AI subpackage_chats API
+  slug: hume-ai-subpackage-chats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-expression-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-chats-api-openapi.yml
+- filename: hume-ai-subpackage-configs-api-openapi.yml
+  format: yaml
+  label: Hume AI subpackage_configs API
+  slug: hume-ai-subpackage-configs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-configs-api-openapi.yml
+- filename: hume-ai-subpackage-controlplane-api-openapi.yml
+  format: yaml
+  label: Hume AI subpackage_controlPlane API
+  slug: hume-ai-subpackage-controlplane-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-controlplane-api-openapi.yml
+- filename: hume-ai-subpackage-prompts-api-openapi.yml
+  format: yaml
+  label: Hume AI subpackage_prompts API
+  slug: hume-ai-subpackage-prompts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-prompts-api-openapi.yml
+- filename: hume-ai-subpackage-tools-api-openapi.yml
+  format: yaml
+  label: Hume AI subpackage_tools API
+  slug: hume-ai-subpackage-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-tools-api-openapi.yml
+- filename: hume-ai-subpackage-voices-api-openapi.yml
+  format: yaml
+  label: Hume AI subpackage_voices API
+  slug: hume-ai-subpackage-voices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-voices-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

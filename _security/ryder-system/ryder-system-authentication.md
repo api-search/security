@@ -2,24 +2,72 @@
 api_key_in:
 - header
 api_specs:
-- filename: ryder-fleet-management-api-openapi.yml
+- filename: ryder-system-documents-api-openapi.yml
   format: yaml
-  label: Ryder Fleet Management API
-  slug: fleet-management-api
+  label: Ryder System Documents API
+  slug: ryder-system-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-fleet-management-api-openapi.yml
-- filename: ryder-carrier-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-system-documents-api-openapi.yml
+- filename: ryder-system-fleet-api-openapi.yml
   format: yaml
-  label: Ryder Carrier API
-  slug: carrier-api
+  label: Ryder System Fleet API
+  slug: ryder-system-fleet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-carrier-api-openapi.yml
-- filename: ryder-tm-shipment-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-system-fleet-api-openapi.yml
+- filename: ryder-system-invoices-api-openapi.yml
   format: yaml
-  label: Ryder TM Shipment Management API
-  slug: tm-shipment-api
+  label: Ryder System Invoices API
+  slug: ryder-system-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-tm-shipment-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-system-invoices-api-openapi.yml
+- filename: ryder-system-load-events-api-openapi.yml
+  format: yaml
+  label: Ryder System Load Events API
+  slug: ryder-system-load-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-system-load-events-api-openapi.yml
+- filename: ryder-system-loads-api-openapi.yml
+  format: yaml
+  label: Ryder System Loads API
+  slug: ryder-system-loads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-system-loads-api-openapi.yml
+- filename: ryder-system-locations-api-openapi.yml
+  format: yaml
+  label: Ryder System Locations API
+  slug: ryder-system-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-system-locations-api-openapi.yml
+- filename: ryder-system-service-history-api-openapi.yml
+  format: yaml
+  label: Ryder System Service History API
+  slug: ryder-system-service-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-system-service-history-api-openapi.yml
+- filename: ryder-system-ship-confirmation-api-openapi.yml
+  format: yaml
+  label: Ryder System Ship Confirmation API
+  slug: ryder-system-ship-confirmation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-system-ship-confirmation-api-openapi.yml
+- filename: ryder-system-ship-status-api-openapi.yml
+  format: yaml
+  label: Ryder System Ship Status API
+  slug: ryder-system-ship-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-system-ship-status-api-openapi.yml
+- filename: ryder-system-shipments-api-openapi.yml
+  format: yaml
+  label: Ryder System Shipments API
+  slug: ryder-system-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-system-shipments-api-openapi.yml
+- filename: ryder-system-tracking-api-openapi.yml
+  format: yaml
+  label: Ryder System Tracking API
+  slug: ryder-system-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-system-tracking-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

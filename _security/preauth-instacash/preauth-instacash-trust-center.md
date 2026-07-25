@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: preauth-instacash-orders-openapi.yml
+- filename: preauth-instacash-orders-api-openapi.yml
   format: yaml
-  label: Preauth Orders API
-  slug: preauth-orders-api
+  label: PreAuth (Instacash) Orders API
+  slug: preauth-instacash-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/openapi/preauth-instacash-orders-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/openapi/preauth-instacash-orders-api-openapi.yml
 certifications:
 - ISO 27001:2022
 - SOC 2 Type II

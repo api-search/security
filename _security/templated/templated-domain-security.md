@@ -1,29 +1,17 @@
 ---
 api_specs:
-- filename: templated-openapi.yml
-  format: yaml
-  label: Templated Render API
-  slug: render
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/templated/refs/heads/main/openapi/templated-openapi.yml
-- filename: templated-openapi.yml
-  format: yaml
-  label: Templated Templates API
-  slug: templates
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/templated/refs/heads/main/openapi/templated-openapi.yml
-- filename: templated-openapi.yml
+- filename: templated-renders-api-openapi.yml
   format: yaml
   label: Templated Renders API
-  slug: renders
+  slug: templated-renders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/templated/refs/heads/main/openapi/templated-openapi.yml
-- filename: templated-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/templated/refs/heads/main/openapi/templated-renders-api-openapi.yml
+- filename: templated-templates-api-openapi.yml
   format: yaml
-  label: Templated Webhooks API
-  slug: webhooks
+  label: Templated Templates API
+  slug: templated-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/templated/refs/heads/main/openapi/templated-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/templated/refs/heads/main/openapi/templated-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []

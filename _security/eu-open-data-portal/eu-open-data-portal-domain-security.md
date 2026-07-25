@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: eu-open-data-portal-search-openapi.yml
+- filename: eu-open-data-portal-catalogs-api-openapi.yml
   format: yaml
-  label: EU Open Data Portal Search API
-  slug: eu-open-data-portal-search-api
+  label: EU Open Data Portal Catalogs API
+  slug: eu-open-data-portal-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-search-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-catalogs-api-openapi.yml
+- filename: eu-open-data-portal-datasets-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Datasets API
+  slug: eu-open-data-portal-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-datasets-api-openapi.yml
+- filename: eu-open-data-portal-distributions-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Distributions API
+  slug: eu-open-data-portal-distributions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-distributions-api-openapi.yml
+- filename: eu-open-data-portal-vocabularies-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Vocabularies API
+  slug: eu-open-data-portal-vocabularies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-vocabularies-api-openapi.yml
 description: ''
 domains:
 - caa: []

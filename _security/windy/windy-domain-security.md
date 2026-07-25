@@ -1,23 +1,17 @@
 ---
 api_specs:
-- filename: windy-openapi.yml
+- filename: windy-point-forecast-api-openapi.yml
   format: yaml
   label: Windy Point Forecast API
-  slug: point-forecast
+  slug: windy-point-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windy/refs/heads/main/openapi/windy-openapi.yml
-- filename: windy-openapi.yml
-  format: yaml
-  label: Windy Map Forecast API
-  slug: map-forecast
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windy/refs/heads/main/openapi/windy-openapi.yml
-- filename: windy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/windy/refs/heads/main/openapi/windy-point-forecast-api-openapi.yml
+- filename: windy-webcams-api-openapi.yml
   format: yaml
   label: Windy Webcams API
-  slug: webcams
+  slug: windy-webcams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windy/refs/heads/main/openapi/windy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/windy/refs/heads/main/openapi/windy-webcams-api-openapi.yml
 description: ''
 domains:
 - caa: []

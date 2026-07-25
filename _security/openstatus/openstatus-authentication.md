@@ -2,36 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: openstatus-openapi.yml
+- filename: openstatus-check-api-openapi.yml
   format: yaml
-  label: OpenStatus Monitors
-  slug: monitors
+  label: OpenStatus Check API
+  slug: openstatus-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/openapi/openstatus-openapi.yml
-- filename: openstatus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/openapi/openstatus-check-api-openapi.yml
+- filename: openstatus-incident-api-openapi.yml
   format: yaml
-  label: OpenStatus Incidents
-  slug: incidents
+  label: OpenStatus Incident API
+  slug: openstatus-incident-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/openapi/openstatus-openapi.yml
-- filename: openstatus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/openapi/openstatus-incident-api-openapi.yml
+- filename: openstatus-monitor-api-openapi.yml
   format: yaml
-  label: OpenStatus Status Reports
-  slug: status-reports
+  label: OpenStatus Monitor API
+  slug: openstatus-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/openapi/openstatus-openapi.yml
-- filename: openstatus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/openapi/openstatus-monitor-api-openapi.yml
+- filename: openstatus-page-api-openapi.yml
   format: yaml
-  label: OpenStatus Status Pages
-  slug: status-pages
+  label: OpenStatus Page API
+  slug: openstatus-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/openapi/openstatus-openapi.yml
-- filename: openstatus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/openapi/openstatus-page-api-openapi.yml
+- filename: openstatus-status-report-api-openapi.yml
   format: yaml
-  label: OpenStatus Checks
-  slug: checks
+  label: OpenStatus Status Report API
+  slug: openstatus-status-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/openapi/openstatus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/openapi/openstatus-status-report-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

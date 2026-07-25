@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: aws-b2b-data-interchange-api-openapi.yml
+- filename: amazon-b2b-data-interchange-capabilities-api-openapi.yml
   format: yaml
-  label: AWS B2B Data Interchange API
-  slug: aws-b2b-data-interchange-api
+  label: Amazon B2B Data Interchange Capabilities API
+  slug: amazon-b2b-data-interchange-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/openapi/aws-b2b-data-interchange-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/openapi/amazon-b2b-data-interchange-capabilities-api-openapi.yml
+- filename: amazon-b2b-data-interchange-partnerships-api-openapi.yml
+  format: yaml
+  label: Amazon B2B Data Interchange Partnerships API
+  slug: amazon-b2b-data-interchange-partnerships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/openapi/amazon-b2b-data-interchange-partnerships-api-openapi.yml
+- filename: amazon-b2b-data-interchange-profiles-api-openapi.yml
+  format: yaml
+  label: Amazon B2B Data Interchange Profiles API
+  slug: amazon-b2b-data-interchange-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/openapi/amazon-b2b-data-interchange-profiles-api-openapi.yml
+- filename: amazon-b2b-data-interchange-tags-api-openapi.yml
+  format: yaml
+  label: Amazon B2B Data Interchange Tags API
+  slug: amazon-b2b-data-interchange-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/openapi/amazon-b2b-data-interchange-tags-api-openapi.yml
+- filename: amazon-b2b-data-interchange-testing-api-openapi.yml
+  format: yaml
+  label: Amazon B2B Data Interchange Testing API
+  slug: amazon-b2b-data-interchange-testing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/openapi/amazon-b2b-data-interchange-testing-api-openapi.yml
+- filename: amazon-b2b-data-interchange-transformers-api-openapi.yml
+  format: yaml
+  label: Amazon B2B Data Interchange Transformers API
+  slug: amazon-b2b-data-interchange-transformers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/openapi/amazon-b2b-data-interchange-transformers-api-openapi.yml
 description: ''
 domains:
 - caa: []

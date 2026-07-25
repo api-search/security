@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: weld-connect-openapi.json
-  format: json
-  label: Weld Connect API
-  slug: weld-connect-api
+- filename: weld-connection-bridge-api-openapi.yml
+  format: yaml
+  label: Weld Connection Bridge API
+  slug: weld-connection-bridge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-connect-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-connection-bridge-api-openapi.yml
+- filename: weld-connections-api-openapi.yml
+  format: yaml
+  label: Weld Connections API
+  slug: weld-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-connections-api-openapi.yml
+- filename: weld-custom-reports-api-openapi.yml
+  format: yaml
+  label: Weld Custom Reports API
+  slug: weld-custom-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-custom-reports-api-openapi.yml
+- filename: weld-elt-stream-runs-api-openapi.yml
+  format: yaml
+  label: Weld ELT Stream Runs API
+  slug: weld-elt-stream-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-elt-stream-runs-api-openapi.yml
+- filename: weld-elt-streams-api-openapi.yml
+  format: yaml
+  label: Weld ELT Streams API
+  slug: weld-elt-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-elt-streams-api-openapi.yml
+- filename: weld-elt-syncs-api-openapi.yml
+  format: yaml
+  label: Weld ELT Syncs API
+  slug: weld-elt-syncs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-elt-syncs-api-openapi.yml
+- filename: weld-integrations-api-openapi.yml
+  format: yaml
+  label: Weld Integrations API
+  slug: weld-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-integrations-api-openapi.yml
+- filename: weld-orchestration-runs-api-openapi.yml
+  format: yaml
+  label: Weld Orchestration Runs API
+  slug: weld-orchestration-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-orchestration-runs-api-openapi.yml
+- filename: weld-orchestrations-api-openapi.yml
+  format: yaml
+  label: Weld Orchestrations API
+  slug: weld-orchestrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-orchestrations-api-openapi.yml
+- filename: weld-reverse-etl-failed-records-api-openapi.yml
+  format: yaml
+  label: Weld Reverse ETL Failed Records API
+  slug: weld-reverse-etl-failed-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-reverse-etl-failed-records-api-openapi.yml
+- filename: weld-reverse-etl-sync-runs-api-openapi.yml
+  format: yaml
+  label: Weld Reverse ETL Sync Runs API
+  slug: weld-reverse-etl-sync-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-reverse-etl-sync-runs-api-openapi.yml
+- filename: weld-reverse-etl-syncs-api-openapi.yml
+  format: yaml
+  label: Weld Reverse ETL Syncs API
+  slug: weld-reverse-etl-syncs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-reverse-etl-syncs-api-openapi.yml
+- filename: weld-transforms-api-openapi.yml
+  format: yaml
+  label: Weld Transforms API
+  slug: weld-transforms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-transforms-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

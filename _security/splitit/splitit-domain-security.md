@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: splitit-authentication-api-openapi.yml
   format: yaml
-  label: Splitit Installments API v3
-  slug: splitit-installments-api-v3
+  label: Splitit Authentication API
+  slug: splitit-authentication-api
   spec_type: OpenAPI
-  url: https://developers.splitit.com/api/v3/introduction/
-- filename: splitit-account-management-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splitit/refs/heads/main/openapi/splitit-authentication-api-openapi.yml
+- filename: splitit-eligibility-api-openapi.yml
   format: yaml
-  label: Splitit Account Management System API
-  slug: splitit-account-management-system-api
+  label: Splitit Eligibility API
+  slug: splitit-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splitit/refs/heads/main/openapi/splitit-account-management-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splitit/refs/heads/main/openapi/splitit-eligibility-api-openapi.yml
+- filename: splitit-installment-plans-api-openapi.yml
+  format: yaml
+  label: Splitit Installment Plans API
+  slug: splitit-installment-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/splitit/refs/heads/main/openapi/splitit-installment-plans-api-openapi.yml
+- filename: splitit-merchant-management-api-openapi.yml
+  format: yaml
+  label: Splitit Merchant Management API
+  slug: splitit-merchant-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/splitit/refs/heads/main/openapi/splitit-merchant-management-api-openapi.yml
 description: ''
 domains:
 - caa: []

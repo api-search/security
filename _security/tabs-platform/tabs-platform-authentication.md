@@ -1,42 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tabs-platform-openapi.yml
+- filename: tabs-platform-catalog-api-openapi.yml
+  format: yaml
+  label: Tabs Catalog API
+  slug: tabs-platform-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabs-platform/refs/heads/main/openapi/tabs-platform-catalog-api-openapi.yml
+- filename: tabs-platform-contracts-api-openapi.yml
   format: yaml
   label: Tabs Contracts API
   slug: tabs-platform-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabs-platform/refs/heads/main/openapi/tabs-platform-openapi.yml
-- filename: tabs-platform-openapi.yml
-  format: yaml
-  label: Tabs Invoices API
-  slug: tabs-platform-invoices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabs-platform/refs/heads/main/openapi/tabs-platform-openapi.yml
-- filename: tabs-platform-openapi.yml
-  format: yaml
-  label: Tabs Revenue Recognition API
-  slug: tabs-platform-revenue-recognition-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabs-platform/refs/heads/main/openapi/tabs-platform-openapi.yml
-- filename: tabs-platform-openapi.yml
-  format: yaml
-  label: Tabs Payments API
-  slug: tabs-platform-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabs-platform/refs/heads/main/openapi/tabs-platform-openapi.yml
-- filename: tabs-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tabs-platform/refs/heads/main/openapi/tabs-platform-contracts-api-openapi.yml
+- filename: tabs-platform-customers-api-openapi.yml
   format: yaml
   label: Tabs Customers API
   slug: tabs-platform-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabs-platform/refs/heads/main/openapi/tabs-platform-openapi.yml
-- filename: tabs-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tabs-platform/refs/heads/main/openapi/tabs-platform-customers-api-openapi.yml
+- filename: tabs-platform-invoices-api-openapi.yml
+  format: yaml
+  label: Tabs Invoices API
+  slug: tabs-platform-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabs-platform/refs/heads/main/openapi/tabs-platform-invoices-api-openapi.yml
+- filename: tabs-platform-obligations-api-openapi.yml
+  format: yaml
+  label: Tabs Obligations API
+  slug: tabs-platform-obligations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabs-platform/refs/heads/main/openapi/tabs-platform-obligations-api-openapi.yml
+- filename: tabs-platform-payments-api-openapi.yml
+  format: yaml
+  label: Tabs Payments API
+  slug: tabs-platform-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabs-platform/refs/heads/main/openapi/tabs-platform-payments-api-openapi.yml
+- filename: tabs-platform-revenue-recognition-api-openapi.yml
+  format: yaml
+  label: Tabs Revenue Recognition API
+  slug: tabs-platform-revenue-recognition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabs-platform/refs/heads/main/openapi/tabs-platform-revenue-recognition-api-openapi.yml
+- filename: tabs-platform-usage-events-api-openapi.yml
   format: yaml
   label: Tabs Usage Events API
   slug: tabs-platform-usage-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabs-platform/refs/heads/main/openapi/tabs-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tabs-platform/refs/heads/main/openapi/tabs-platform-usage-events-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

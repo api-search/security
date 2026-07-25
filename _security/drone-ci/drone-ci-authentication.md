@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: drone-ci-openapi.yml
+- filename: drone-ci-builds-api-openapi.yml
   format: yaml
-  label: Drone Server REST API
-  slug: rest
+  label: Drone Builds API
+  slug: drone-ci-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drone-ci/refs/heads/main/openapi/drone-ci-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/drone-ci/refs/heads/main/openapi/drone-ci-builds-api-openapi.yml
+- filename: drone-ci-cron-api-openapi.yml
+  format: yaml
+  label: Drone Cron API
+  slug: drone-ci-cron-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drone-ci/refs/heads/main/openapi/drone-ci-cron-api-openapi.yml
+- filename: drone-ci-secrets-api-openapi.yml
+  format: yaml
+  label: Drone Secrets API
+  slug: drone-ci-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drone-ci/refs/heads/main/openapi/drone-ci-secrets-api-openapi.yml
+- filename: drone-ci-templates-api-openapi.yml
+  format: yaml
+  label: Drone Templates API
+  slug: drone-ci-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drone-ci/refs/heads/main/openapi/drone-ci-templates-api-openapi.yml
+- filename: drone-ci-user-api-openapi.yml
+  format: yaml
+  label: Drone User API
+  slug: drone-ci-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drone-ci/refs/heads/main/openapi/drone-ci-user-api-openapi.yml
 auth_types:
 - http
 description: ''

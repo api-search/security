@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: ninetyio-openapi-original.json
-  format: json
-  label: Ninety Public API
-  slug: ninety-public-api
+- filename: ninetyio-issues-api-openapi.yml
+  format: yaml
+  label: Ninety.io Issues API
+  slug: ninetyio-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-issues-api-openapi.yml
+- filename: ninetyio-milestones-api-openapi.yml
+  format: yaml
+  label: Ninety.io Milestones API
+  slug: ninetyio-milestones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-milestones-api-openapi.yml
+- filename: ninetyio-rocks-api-openapi.yml
+  format: yaml
+  label: Ninety.io Rocks API
+  slug: ninetyio-rocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-rocks-api-openapi.yml
+- filename: ninetyio-scorecard-api-openapi.yml
+  format: yaml
+  label: Ninety.io Scorecard API
+  slug: ninetyio-scorecard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-scorecard-api-openapi.yml
+- filename: ninetyio-teams-api-openapi.yml
+  format: yaml
+  label: Ninety.io Teams API
+  slug: ninetyio-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-teams-api-openapi.yml
+- filename: ninetyio-to-dos-api-openapi.yml
+  format: yaml
+  label: Ninety.io To-Dos API
+  slug: ninetyio-to-dos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-to-dos-api-openapi.yml
+- filename: ninetyio-users-api-openapi.yml
+  format: yaml
+  label: Ninety.io Users API
+  slug: ninetyio-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

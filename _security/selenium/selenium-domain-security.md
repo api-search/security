@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: selenium-cookies-api-openapi.yml
+  format: yaml
+  label: Selenium Cookies API
+  slug: selenium-cookies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/openapi/selenium-cookies-api-openapi.yml
+- filename: selenium-elements-api-openapi.yml
+  format: yaml
+  label: Selenium Elements API
+  slug: selenium-elements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/openapi/selenium-elements-api-openapi.yml
+- filename: selenium-navigation-api-openapi.yml
+  format: yaml
+  label: Selenium Navigation API
+  slug: selenium-navigation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/openapi/selenium-navigation-api-openapi.yml
+- filename: selenium-script-api-openapi.yml
+  format: yaml
+  label: Selenium Script API
+  slug: selenium-script-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/openapi/selenium-script-api-openapi.yml
+- filename: selenium-session-api-openapi.yml
+  format: yaml
+  label: Selenium Session API
+  slug: selenium-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/openapi/selenium-session-api-openapi.yml
+- filename: selenium-status-api-openapi.yml
+  format: yaml
+  label: Selenium Status API
+  slug: selenium-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/openapi/selenium-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

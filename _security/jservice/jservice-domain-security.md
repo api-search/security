@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: jservice-openapi.yml
+- filename: jservice-categories-api-openapi.yml
   format: yaml
-  label: jService Trivia API
-  slug: jservice-trivia-api
+  label: jService Categories API
+  slug: jservice-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jservice/refs/heads/main/openapi/jservice-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jservice/refs/heads/main/openapi/jservice-categories-api-openapi.yml
+- filename: jservice-clues-api-openapi.yml
+  format: yaml
+  label: jService Clues API
+  slug: jservice-clues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jservice/refs/heads/main/openapi/jservice-clues-api-openapi.yml
+- filename: jservice-moderation-api-openapi.yml
+  format: yaml
+  label: jService Moderation API
+  slug: jservice-moderation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jservice/refs/heads/main/openapi/jservice-moderation-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: rye-checkout-intents-openapi-original.yml
+- filename: rye-betas-api-openapi.yml
   format: yaml
-  label: Universal Checkout API
-  slug: universal-checkout-api
+  label: Rye Betas API
+  slug: rye-betas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-checkout-intents-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-betas-api-openapi.yml
+- filename: rye-billing-api-openapi.yml
+  format: yaml
+  label: Rye Billing API
+  slug: rye-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-billing-api-openapi.yml
+- filename: rye-brands-api-openapi.yml
+  format: yaml
+  label: Rye Brands API
+  slug: rye-brands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-brands-api-openapi.yml
+- filename: rye-checkout-intents-api-openapi.yml
+  format: yaml
+  label: Rye Checkout Intents API
+  slug: rye-checkout-intents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-checkout-intents-api-openapi.yml
+- filename: rye-commissions-api-openapi.yml
+  format: yaml
+  label: Rye Commissions API
+  slug: rye-commissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-commissions-api-openapi.yml
+- filename: rye-events-api-openapi.yml
+  format: yaml
+  label: Rye Events API
+  slug: rye-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-events-api-openapi.yml
+- filename: rye-merchant-connectors-api-openapi.yml
+  format: yaml
+  label: Rye Merchant Connectors API
+  slug: rye-merchant-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-merchant-connectors-api-openapi.yml
+- filename: rye-orders-api-openapi.yml
+  format: yaml
+  label: Rye Orders API
+  slug: rye-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-orders-api-openapi.yml
+- filename: rye-payment-gateways-api-openapi.yml
+  format: yaml
+  label: Rye Payment Gateways API
+  slug: rye-payment-gateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-payment-gateways-api-openapi.yml
+- filename: rye-products-api-openapi.yml
+  format: yaml
+  label: Rye Products API
+  slug: rye-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-products-api-openapi.yml
+- filename: rye-returns-api-openapi.yml
+  format: yaml
+  label: Rye Returns API
+  slug: rye-returns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-returns-api-openapi.yml
+- filename: rye-shipments-api-openapi.yml
+  format: yaml
+  label: Rye Shipments API
+  slug: rye-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-shipments-api-openapi.yml
+- filename: rye-test-helpers-api-openapi.yml
+  format: yaml
+  label: Rye Test Helpers API
+  slug: rye-test-helpers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-test-helpers-api-openapi.yml
 certifications:
 - PCI DSS Level 1
 description: Rye operates a public Trust Center at trust.rye.com for requesting security reports and reviewing its compliance posture. Its published security practices state that all card data is tokenized and stored in PCI DSS Level 1 compliant vaults, with encryption at rest (AES) and in transit (TLS), ongoing vulnerability scanning (Dependabot, GCP Container Analysis, cubic), access reviews, and reviewed production changes.

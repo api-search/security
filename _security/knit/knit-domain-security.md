@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: knit-unified-api-openapi.yml
+- filename: knit-departments-api-openapi.yml
   format: yaml
-  label: Knit Unified API
-  slug: unified-api
+  label: Knit Departments API
+  slug: knit-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knit/refs/heads/main/openapi/knit-unified-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/knit/refs/heads/main/openapi/knit-departments-api-openapi.yml
+- filename: knit-employees-api-openapi.yml
+  format: yaml
+  label: Knit Employees API
+  slug: knit-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knit/refs/heads/main/openapi/knit-employees-api-openapi.yml
+- filename: knit-integrations-api-openapi.yml
+  format: yaml
+  label: Knit Integrations API
+  slug: knit-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knit/refs/heads/main/openapi/knit-integrations-api-openapi.yml
+- filename: knit-jobs-api-openapi.yml
+  format: yaml
+  label: Knit Jobs API
+  slug: knit-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knit/refs/heads/main/openapi/knit-jobs-api-openapi.yml
+- filename: knit-locations-api-openapi.yml
+  format: yaml
+  label: Knit Locations API
+  slug: knit-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knit/refs/heads/main/openapi/knit-locations-api-openapi.yml
+- filename: knit-syncs-api-openapi.yml
+  format: yaml
+  label: Knit Syncs API
+  slug: knit-syncs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knit/refs/heads/main/openapi/knit-syncs-api-openapi.yml
+- filename: knit-time-off-api-openapi.yml
+  format: yaml
+  label: Knit Time Off API
+  slug: knit-time-off-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knit/refs/heads/main/openapi/knit-time-off-api-openapi.yml
 description: ''
 domains:
 - caa: []

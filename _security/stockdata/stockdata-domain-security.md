@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: stockdata-openapi.yml
+- filename: stockdata-entities-api-openapi.yml
   format: yaml
-  label: StockData API
-  slug: stockdata
+  label: StockData Entities API
+  slug: stockdata-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/openapi/stockdata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/openapi/stockdata-entities-api-openapi.yml
+- filename: stockdata-news-api-openapi.yml
+  format: yaml
+  label: StockData News API
+  slug: stockdata-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/openapi/stockdata-news-api-openapi.yml
+- filename: stockdata-stock-data-api-openapi.yml
+  format: yaml
+  label: StockData Stock Data API
+  slug: stockdata-stock-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/openapi/stockdata-stock-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

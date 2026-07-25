@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: blue-yonder-warehouse-management-openapi.yml
+- filename: blue-yonder-inventory-api-openapi.yml
   format: yaml
-  label: Blue Yonder Warehouse Management API
-  slug: blue-yonder-warehouse-management-api
+  label: blue-yonder Inventory API
+  slug: blue-yonder-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/openapi/blue-yonder-warehouse-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/openapi/blue-yonder-inventory-api-openapi.yml
+- filename: blue-yonder-orders-api-openapi.yml
+  format: yaml
+  label: blue-yonder Orders API
+  slug: blue-yonder-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/openapi/blue-yonder-orders-api-openapi.yml
+- filename: blue-yonder-receipts-api-openapi.yml
+  format: yaml
+  label: blue-yonder Receipts API
+  slug: blue-yonder-receipts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/openapi/blue-yonder-receipts-api-openapi.yml
+- filename: blue-yonder-tasks-api-openapi.yml
+  format: yaml
+  label: blue-yonder Tasks API
+  slug: blue-yonder-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/openapi/blue-yonder-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []

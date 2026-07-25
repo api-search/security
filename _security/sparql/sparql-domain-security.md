@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: sparql-openapi.yml
+- filename: sparql-query-api-openapi.yml
   format: yaml
-  label: SPARQL Protocol API
-  slug: sparql-protocol-api
+  label: SPARQL Query API
+  slug: sparql-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparql/refs/heads/main/openapi/sparql-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sparql/refs/heads/main/openapi/sparql-query-api-openapi.yml
+- filename: sparql-sparql-api-openapi.yml
+  format: yaml
+  label: SPARQL Sparql API
+  slug: sparql-sparql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sparql/refs/heads/main/openapi/sparql-sparql-api-openapi.yml
+- filename: sparql-sparql-graph-api-openapi.yml
+  format: yaml
+  label: SPARQL Sparql Graph API
+  slug: sparql-sparql-graph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sparql/refs/heads/main/openapi/sparql-sparql-graph-api-openapi.yml
+- filename: sparql-sparql-update-api-openapi.yml
+  format: yaml
+  label: SPARQL Sparql Update API
+  slug: sparql-sparql-update-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sparql/refs/heads/main/openapi/sparql-sparql-update-api-openapi.yml
+- filename: sparql-update-api-openapi.yml
+  format: yaml
+  label: SPARQL Update API
+  slug: sparql-update-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sparql/refs/heads/main/openapi/sparql-update-api-openapi.yml
 description: ''
 domains:
 - caa:

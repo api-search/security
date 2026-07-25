@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: wordnik-openapi.yml
+- filename: wordnik-account-api-openapi.yml
   format: yaml
-  label: Wordnik
-  slug: wordnik
+  label: Wordnik Account API
+  slug: wordnik-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/openapi/wordnik-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/openapi/wordnik-account-api-openapi.yml
+- filename: wordnik-word-api-openapi.yml
+  format: yaml
+  label: Wordnik Word API
+  slug: wordnik-word-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/openapi/wordnik-word-api-openapi.yml
+- filename: wordnik-word-list-api-openapi.yml
+  format: yaml
+  label: Wordnik Word List API
+  slug: wordnik-word-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/openapi/wordnik-word-list-api-openapi.yml
+- filename: wordnik-word-lists-api-openapi.yml
+  format: yaml
+  label: Wordnik Word Lists API
+  slug: wordnik-word-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/openapi/wordnik-word-lists-api-openapi.yml
+- filename: wordnik-words-api-openapi.yml
+  format: yaml
+  label: Wordnik Words API
+  slug: wordnik-words-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/openapi/wordnik-words-api-openapi.yml
 description: ''
 domains:
 - caa:

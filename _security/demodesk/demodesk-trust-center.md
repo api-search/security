@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: demodesk-v2-openapi.yml
+- filename: demodesk-externally-recorded-demos-api-openapi.yml
   format: yaml
-  label: Demodesk Public API (v2)
-  slug: demodesk-public-api-v2
+  label: Demodesk Externally recorded demos API
+  slug: demodesk-externally-recorded-demos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/openapi/demodesk-v2-openapi.yml
-- filename: demodesk-v1-openapi.json
-  format: json
-  label: Demodesk API V1 (deprecated)
-  slug: demodesk-api-v1-deprecated
+  url: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/openapi/demodesk-externally-recorded-demos-api-openapi.yml
+- filename: demodesk-recordings-api-openapi.yml
+  format: yaml
+  label: Demodesk Recordings API
+  slug: demodesk-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/openapi/demodesk-v1-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/openapi/demodesk-recordings-api-openapi.yml
+- filename: demodesk-users-api-openapi.yml
+  format: yaml
+  label: Demodesk Users API
+  slug: demodesk-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/openapi/demodesk-users-api-openapi.yml
 certifications:
 - ISO 27001
 - GDPR

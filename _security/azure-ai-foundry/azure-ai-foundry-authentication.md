@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: azure-ai-foundry-openapi.yml
+- filename: azure-ai-foundry-chat-completions-api-openapi.yml
   format: yaml
-  label: Azure AI Foundry REST API
-  slug: foundry-api
+  label: Microsoft Azure AI Foundry Chat Completions API
+  slug: azure-ai-foundry-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-chat-completions-api-openapi.yml
+- filename: azure-ai-foundry-completions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure AI Foundry Completions API
+  slug: azure-ai-foundry-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-completions-api-openapi.yml
+- filename: azure-ai-foundry-embeddings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure AI Foundry Embeddings API
+  slug: azure-ai-foundry-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-embeddings-api-openapi.yml
+- filename: azure-ai-foundry-images-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure AI Foundry Images API
+  slug: azure-ai-foundry-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-images-api-openapi.yml
+- filename: azure-ai-foundry-models-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure AI Foundry Models API
+  slug: azure-ai-foundry-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-models-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

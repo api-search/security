@@ -1,24 +1,168 @@
 ---
 api_key_in: []
 api_specs:
-- filename: spiko-public-openapi.json
-  format: json
-  label: Spiko Public API
-  slug: spiko-public-api
+- filename: spiko-account-transactions-api-openapi.yml
+  format: yaml
+  label: Spiko Account transactions API
+  slug: spiko-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-public-openapi.json
-- filename: spiko-investor-openapi.json
-  format: json
-  label: Spiko Investor API
-  slug: spiko-investor-api
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-account-transactions-api-openapi.yml
+- filename: spiko-accounting-positions-api-openapi.yml
+  format: yaml
+  label: Spiko Accounting positions API
+  slug: spiko-accounting-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-investor-openapi.json
-- filename: spiko-distributor-openapi.json
-  format: json
-  label: Spiko Distributor API
-  slug: spiko-distributor-api
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-accounting-positions-api-openapi.yml
+- filename: spiko-accounts-api-openapi.yml
+  format: yaml
+  label: Spiko Accounts API
+  slug: spiko-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-distributor-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-accounts-api-openapi.yml
+- filename: spiko-bank-accounts-api-openapi.yml
+  format: yaml
+  label: Spiko Bank accounts API
+  slug: spiko-bank-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-bank-accounts-api-openapi.yml
+- filename: spiko-deposit-orders-api-openapi.yml
+  format: yaml
+  label: Spiko Deposit orders API
+  slug: spiko-deposit-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-deposit-orders-api-openapi.yml
+- filename: spiko-distributor-investor-contracts-api-openapi.yml
+  format: yaml
+  label: Spiko Distributor investor contracts API
+  slug: spiko-distributor-investor-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-distributor-investor-contracts-api-openapi.yml
+- filename: spiko-distributors-api-openapi.yml
+  format: yaml
+  label: Spiko Distributors API
+  slug: spiko-distributors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-distributors-api-openapi.yml
+- filename: spiko-exchange-rates-api-openapi.yml
+  format: yaml
+  label: Spiko Exchange Rates API
+  slug: spiko-exchange-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-exchange-rates-api-openapi.yml
+- filename: spiko-fund-assets-api-openapi.yml
+  format: yaml
+  label: Spiko Fund Assets API
+  slug: spiko-fund-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-fund-assets-api-openapi.yml
+- filename: spiko-funds-api-openapi.yml
+  format: yaml
+  label: Spiko Funds API
+  slug: spiko-funds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-funds-api-openapi.yml
+- filename: spiko-index-values-api-openapi.yml
+  format: yaml
+  label: Spiko Index Values API
+  slug: spiko-index-values-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-index-values-api-openapi.yml
+- filename: spiko-investor-documents-api-openapi.yml
+  format: yaml
+  label: Spiko Investor Documents API
+  slug: spiko-investor-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-investor-documents-api-openapi.yml
+- filename: spiko-investor-tokens-api-openapi.yml
+  format: yaml
+  label: Spiko Investor tokens API
+  slug: spiko-investor-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-investor-tokens-api-openapi.yml
+- filename: spiko-investors-api-openapi.yml
+  format: yaml
+  label: Spiko Investors API
+  slug: spiko-investors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-investors-api-openapi.yml
+- filename: spiko-net-asset-values-api-openapi.yml
+  format: yaml
+  label: Spiko Net Asset Values API
+  slug: spiko-net-asset-values-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-net-asset-values-api-openapi.yml
+- filename: spiko-portfolio-api-openapi.yml
+  format: yaml
+  label: Spiko Portfolio API
+  slug: spiko-portfolio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-portfolio-api-openapi.yml
+- filename: spiko-portfolios-api-openapi.yml
+  format: yaml
+  label: Spiko Portfolios API
+  slug: spiko-portfolios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-portfolios-api-openapi.yml
+- filename: spiko-redemption-orders-deprecated-api-openapi.yml
+  format: yaml
+  label: Spiko Redemption Orders (deprecated) API
+  slug: spiko-redemption-orders-deprecated-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-redemption-orders-deprecated-api-openapi.yml
+- filename: spiko-share-classes-api-openapi.yml
+  format: yaml
+  label: Spiko Share Classes API
+  slug: spiko-share-classes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-share-classes-api-openapi.yml
+- filename: spiko-subscription-orders-deprecated-api-openapi.yml
+  format: yaml
+  label: Spiko Subscription Orders (deprecated) API
+  slug: spiko-subscription-orders-deprecated-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-subscription-orders-deprecated-api-openapi.yml
+- filename: spiko-transfer-orders-api-openapi.yml
+  format: yaml
+  label: Spiko Transfer Orders API
+  slug: spiko-transfer-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-transfer-orders-api-openapi.yml
+- filename: spiko-users-api-openapi.yml
+  format: yaml
+  label: Spiko Users API
+  slug: spiko-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-users-api-openapi.yml
+- filename: spiko-wallets-api-openapi.yml
+  format: yaml
+  label: Spiko Wallets API
+  slug: spiko-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-wallets-api-openapi.yml
+- filename: spiko-webhook-configurations-api-openapi.yml
+  format: yaml
+  label: Spiko Webhook Configurations API
+  slug: spiko-webhook-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-webhook-configurations-api-openapi.yml
+- filename: spiko-webhook-events-api-openapi.yml
+  format: yaml
+  label: Spiko Webhook Events API
+  slug: spiko-webhook-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-webhook-events-api-openapi.yml
+- filename: spiko-withdrawal-orders-api-openapi.yml
+  format: yaml
+  label: Spiko Withdrawal orders API
+  slug: spiko-withdrawal-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-withdrawal-orders-api-openapi.yml
+- filename: spiko-yields-api-openapi.yml
+  format: yaml
+  label: Spiko Yields API
+  slug: spiko-yields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/openapi/spiko-yields-api-openapi.yml
 auth_types:
 - http
 - oauth2

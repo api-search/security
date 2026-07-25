@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: salesforce-automation-flow-openapi.yml
+- filename: salesforce-automation-system-flows-api-openapi.yml
   format: yaml
-  label: Salesforce Flow Automation API
-  slug: salesforce-flow-automation-api
+  label: Salesforce Automation System Flows API
+  slug: salesforce-automation-system-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation-system/refs/heads/main/openapi/salesforce-automation-flow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation-system/refs/heads/main/openapi/salesforce-automation-system-flows-api-openapi.yml
+- filename: salesforce-automation-system-process-automation-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation System Process Automation API
+  slug: salesforce-automation-system-process-automation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation-system/refs/heads/main/openapi/salesforce-automation-system-process-automation-api-openapi.yml
 auth_types:
 - http
 - oauth2

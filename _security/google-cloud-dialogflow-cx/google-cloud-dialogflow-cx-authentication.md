@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-dialogflow-cx-agents-api-openapi.yml
   format: yaml
-  label: Google Cloud Dialogflow CX API
-  slug: google-cloud-dialogflow-cx-api
+  label: Google Cloud Dialogflow CX Agents API
+  slug: google-cloud-dialogflow-cx-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dialogflow-cx/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dialogflow-cx/refs/heads/main/openapi/google-cloud-dialogflow-cx-agents-api-openapi.yml
+- filename: google-cloud-dialogflow-cx-flows-api-openapi.yml
+  format: yaml
+  label: Google Cloud Dialogflow CX Flows API
+  slug: google-cloud-dialogflow-cx-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dialogflow-cx/refs/heads/main/openapi/google-cloud-dialogflow-cx-flows-api-openapi.yml
+- filename: google-cloud-dialogflow-cx-intents-api-openapi.yml
+  format: yaml
+  label: Google Cloud Dialogflow CX Intents API
+  slug: google-cloud-dialogflow-cx-intents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dialogflow-cx/refs/heads/main/openapi/google-cloud-dialogflow-cx-intents-api-openapi.yml
+- filename: google-cloud-dialogflow-cx-sessions-api-openapi.yml
+  format: yaml
+  label: Google Cloud Dialogflow CX Sessions API
+  slug: google-cloud-dialogflow-cx-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dialogflow-cx/refs/heads/main/openapi/google-cloud-dialogflow-cx-sessions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

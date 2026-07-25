@@ -1,65 +1,65 @@
 ---
 api_specs:
-- filename: trainingpeaks-openapi.yml
+- filename: trainingpeaks-athlete-api-openapi.yml
   format: yaml
   label: TrainingPeaks Athlete API
   slug: trainingpeaks-athlete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-openapi.yml
-- filename: trainingpeaks-openapi.yml
-  format: yaml
-  label: TrainingPeaks Workouts API
-  slug: trainingpeaks-workouts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-openapi.yml
-- filename: trainingpeaks-openapi.yml
-  format: yaml
-  label: TrainingPeaks Workout Details API
-  slug: trainingpeaks-workout-details-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-openapi.yml
-- filename: trainingpeaks-openapi.yml
-  format: yaml
-  label: TrainingPeaks Workout of the Day API
-  slug: trainingpeaks-workout-of-the-day-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-openapi.yml
-- filename: trainingpeaks-openapi.yml
-  format: yaml
-  label: TrainingPeaks Metrics API
-  slug: trainingpeaks-metrics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-openapi.yml
-- filename: trainingpeaks-openapi.yml
-  format: yaml
-  label: TrainingPeaks Nutrition API
-  slug: trainingpeaks-nutrition-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-openapi.yml
-- filename: trainingpeaks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-athlete-api-openapi.yml
+- filename: trainingpeaks-coach-api-openapi.yml
   format: yaml
   label: TrainingPeaks Coach API
   slug: trainingpeaks-coach-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-openapi.yml
-- filename: trainingpeaks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-coach-api-openapi.yml
+- filename: trainingpeaks-events-api-openapi.yml
   format: yaml
-  label: TrainingPeaks File Upload API
-  slug: trainingpeaks-file-upload-api
+  label: TrainingPeaks Events API
+  slug: trainingpeaks-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-openapi.yml
-- filename: trainingpeaks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-events-api-openapi.yml
+- filename: trainingpeaks-file-api-openapi.yml
   format: yaml
-  label: TrainingPeaks Events and Routes API
-  slug: trainingpeaks-events-routes-api
+  label: TrainingPeaks File API
+  slug: trainingpeaks-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-openapi.yml
-- filename: trainingpeaks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-file-api-openapi.yml
+- filename: trainingpeaks-info-api-openapi.yml
+  format: yaml
+  label: TrainingPeaks Info API
+  slug: trainingpeaks-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-info-api-openapi.yml
+- filename: trainingpeaks-metrics-api-openapi.yml
+  format: yaml
+  label: TrainingPeaks Metrics API
+  slug: trainingpeaks-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-metrics-api-openapi.yml
+- filename: trainingpeaks-nutrition-api-openapi.yml
+  format: yaml
+  label: TrainingPeaks Nutrition API
+  slug: trainingpeaks-nutrition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-nutrition-api-openapi.yml
+- filename: trainingpeaks-routes-api-openapi.yml
+  format: yaml
+  label: TrainingPeaks Routes API
+  slug: trainingpeaks-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-routes-api-openapi.yml
+- filename: trainingpeaks-webhooks-api-openapi.yml
   format: yaml
   label: TrainingPeaks Webhooks API
   slug: trainingpeaks-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-webhooks-api-openapi.yml
+- filename: trainingpeaks-workouts-api-openapi.yml
+  format: yaml
+  label: TrainingPeaks Workouts API
+  slug: trainingpeaks-workouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-workouts-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,23 +1,41 @@
 ---
 api_specs:
-- filename: ntu-drntu-data.yaml
+- filename: ntu-discover-api-openapi.yml
   format: yaml
-  label: DR-NTU (Data) Dataverse API
-  slug: drntu-data
+  label: Nanyang Technological University Discover API
+  slug: ntu-discover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/openapi/ntu-drntu-data.yaml
-- filename: ntu-drntu-repo-rest.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/openapi/ntu-discover-api-openapi.yml
+- filename: ntu-info-api-openapi.yml
   format: yaml
-  label: DR-NTU (Digital Repository) DSpace REST API
-  slug: drntu-repo-rest
+  label: Nanyang Technological University Info API
+  slug: ntu-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/openapi/ntu-drntu-repo-rest.yaml
-- filename: ntu-drntu-repo-oai.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/openapi/ntu-info-api-openapi.yml
+- filename: ntu-items-api-openapi.yml
   format: yaml
-  label: DR-NTU (Digital Repository) OAI-PMH
-  slug: drntu-repo-oai
+  label: Nanyang Technological University Items API
+  slug: ntu-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/openapi/ntu-drntu-repo-oai.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/openapi/ntu-items-api-openapi.yml
+- filename: ntu-oai-pmh-api-openapi.yml
+  format: yaml
+  label: Nanyang Technological University OAI-PMH API
+  slug: ntu-oai-pmh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/openapi/ntu-oai-pmh-api-openapi.yml
+- filename: ntu-root-api-openapi.yml
+  format: yaml
+  label: Nanyang Technological University Root API
+  slug: ntu-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/openapi/ntu-root-api-openapi.yml
+- filename: ntu-search-api-openapi.yml
+  format: yaml
+  label: Nanyang Technological University Search API
+  slug: ntu-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/openapi/ntu-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

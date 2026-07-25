@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: sofy-public-api-openapi.yml
+- filename: sofy-applications-api-openapi.yml
   format: yaml
-  label: SOFY Public API
-  slug: sofy-public-api
+  label: SOFY Applications API
+  slug: sofy-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/openapi/sofy-public-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/openapi/sofy-applications-api-openapi.yml
+- filename: sofy-scheduled-runs-api-openapi.yml
+  format: yaml
+  label: SOFY Scheduled Runs API
+  slug: sofy-scheduled-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/openapi/sofy-scheduled-runs-api-openapi.yml
 auth_types:
 - apiKey
 description: SOFY's public API authenticates with a single API access key passed in the `x-sofy-auth-key` request header. The key is generated in the SOFY web app under Account Settings > API Key and is scoped to the subscription. There is no OAuth or OpenID Connect surface; the key is a bearer-style secret with no per-scope granularity.

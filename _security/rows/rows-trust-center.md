@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: rows-openapi.yml
+- filename: rows-data-api-openapi.yml
   format: yaml
-  label: Rows API
-  slug: rows-api
+  label: Rows Data API
+  slug: rows-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/openapi/rows-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/openapi/rows-data-api-openapi.yml
+- filename: rows-folders-api-openapi.yml
+  format: yaml
+  label: Rows Folders API
+  slug: rows-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/openapi/rows-folders-api-openapi.yml
+- filename: rows-spreadsheets-api-openapi.yml
+  format: yaml
+  label: Rows Spreadsheets API
+  slug: rows-spreadsheets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/openapi/rows-spreadsheets-api-openapi.yml
+- filename: rows-vision-api-openapi.yml
+  format: yaml
+  label: Rows Vision API
+  slug: rows-vision-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/openapi/rows-vision-api-openapi.yml
+- filename: rows-workspaces-api-openapi.yml
+  format: yaml
+  label: Rows Workspaces API
+  slug: rows-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/openapi/rows-workspaces-api-openapi.yml
 certifications:
 - SOC 2 Type II
 - GDPR

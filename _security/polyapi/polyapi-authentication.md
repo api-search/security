@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: polyapi-platform-openapi.yml
+- filename: polyapi-api-functions-api-openapi.yml
   format: yaml
-  label: PolyAPI Platform API
-  slug: polyapi
+  label: PolyAPI API Functions API
+  slug: polyapi-api-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/openapi/polyapi-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/openapi/polyapi-api-functions-api-openapi.yml
+- filename: polyapi-assistants-api-openapi.yml
+  format: yaml
+  label: PolyAPI Assistants API
+  slug: polyapi-assistants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/openapi/polyapi-assistants-api-openapi.yml
+- filename: polyapi-client-functions-api-openapi.yml
+  format: yaml
+  label: PolyAPI Client Functions API
+  slug: polyapi-client-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/openapi/polyapi-client-functions-api-openapi.yml
+- filename: polyapi-environments-api-openapi.yml
+  format: yaml
+  label: PolyAPI Environments API
+  slug: polyapi-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/openapi/polyapi-environments-api-openapi.yml
+- filename: polyapi-jobs-api-openapi.yml
+  format: yaml
+  label: PolyAPI Jobs API
+  slug: polyapi-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/openapi/polyapi-jobs-api-openapi.yml
+- filename: polyapi-schemas-api-openapi.yml
+  format: yaml
+  label: PolyAPI Schemas API
+  slug: polyapi-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/openapi/polyapi-schemas-api-openapi.yml
+- filename: polyapi-server-functions-api-openapi.yml
+  format: yaml
+  label: PolyAPI Server Functions API
+  slug: polyapi-server-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/openapi/polyapi-server-functions-api-openapi.yml
+- filename: polyapi-triggers-api-openapi.yml
+  format: yaml
+  label: PolyAPI Triggers API
+  slug: polyapi-triggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/openapi/polyapi-triggers-api-openapi.yml
+- filename: polyapi-variables-api-openapi.yml
+  format: yaml
+  label: PolyAPI Variables API
+  slug: polyapi-variables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/openapi/polyapi-variables-api-openapi.yml
+- filename: polyapi-webhooks-api-openapi.yml
+  format: yaml
+  label: PolyAPI Webhooks API
+  slug: polyapi-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/openapi/polyapi-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

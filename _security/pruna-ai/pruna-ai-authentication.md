@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: pruna-ai-openapi.yml
+- filename: pruna-ai-content-delivery-api-openapi.yml
   format: yaml
-  label: Pruna P-API
-  slug: pruna-p-api
+  label: Pruna AI Content Delivery API
+  slug: pruna-ai-content-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/openapi/pruna-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/openapi/pruna-ai-content-delivery-api-openapi.yml
+- filename: pruna-ai-file-management-api-openapi.yml
+  format: yaml
+  label: Pruna AI File Management API
+  slug: pruna-ai-file-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/openapi/pruna-ai-file-management-api-openapi.yml
+- filename: pruna-ai-predictions-api-openapi.yml
+  format: yaml
+  label: Pruna AI Predictions API
+  slug: pruna-ai-predictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/openapi/pruna-ai-predictions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

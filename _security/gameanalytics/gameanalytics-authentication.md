@@ -2,24 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: gameanalytics-openapi.yml
+- filename: gameanalytics-collection-api-openapi.yml
   format: yaml
   label: GameAnalytics Collection API
   slug: gameanalytics-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/openapi/gameanalytics-openapi.yml
-- filename: gameanalytics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/openapi/gameanalytics-collection-api-openapi.yml
+- filename: gameanalytics-metrics-api-openapi.yml
   format: yaml
   label: GameAnalytics Metrics API
   slug: gameanalytics-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/openapi/gameanalytics-openapi.yml
-- filename: gameanalytics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/openapi/gameanalytics-metrics-api-openapi.yml
+- filename: gameanalytics-organization-api-openapi.yml
   format: yaml
   label: GameAnalytics Organization API
   slug: gameanalytics-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/openapi/gameanalytics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/openapi/gameanalytics-organization-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: sunrise-sunset-json-api-openapi.yml
   format: yaml
-  label: Sunrise Sunset API
-  slug: sunrise-sunset-api
+  label: Sunrise Sunset Json API
+  slug: sunrise-sunset-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sunrise-sunset/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sunrise-sunset/refs/heads/main/openapi/sunrise-sunset-json-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,53 +1,11 @@
 ---
 api_specs:
-- filename: rest
+- filename: google-suite-gmail-api-openapi.yml
   format: yaml
-  label: Gmail API
-  slug: gmail-api
+  label: Google Workspace (G Suite) Gmail API
+  slug: google-suite-gmail-api
   spec_type: OpenAPI
-  url: https://gmail.googleapis.com/$discovery/rest?version=v1
-- filename: rest
-  format: yaml
-  label: Google Calendar API
-  slug: google-calendar-api
-  spec_type: OpenAPI
-  url: https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest
-- filename: rest
-  format: yaml
-  label: Google Drive API
-  slug: google-drive-api
-  spec_type: OpenAPI
-  url: https://www.googleapis.com/discovery/v1/apis/drive/v3/rest
-- filename: rest
-  format: yaml
-  label: Google Docs API
-  slug: google-docs-api
-  spec_type: OpenAPI
-  url: https://docs.googleapis.com/$discovery/rest?version=v1
-- filename: rest
-  format: yaml
-  label: Google Sheets API
-  slug: google-sheets-api
-  spec_type: OpenAPI
-  url: https://sheets.googleapis.com/$discovery/rest?version=v4
-- filename: rest
-  format: yaml
-  label: Google Slides API
-  slug: google-slides-api
-  spec_type: OpenAPI
-  url: https://slides.googleapis.com/$discovery/rest?version=v1
-- filename: rest
-  format: yaml
-  label: Google Chat API
-  slug: google-chat-api
-  spec_type: OpenAPI
-  url: https://chat.googleapis.com/$discovery/rest?version=v1
-- filename: rest
-  format: yaml
-  label: Google Admin SDK
-  slug: google-admin-sdk
-  spec_type: OpenAPI
-  url: https://admin.googleapis.com/$discovery/rest?version=directory_v1
+  url: https://raw.githubusercontent.com/api-evangelist/google-suite/refs/heads/main/openapi/google-suite-gmail-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: li-cor-intermediate-hobolink-openapi.json
-  format: json
-  label: HOBOLINK External API
-  slug: hobolink-external-api
+- filename: li-cor-intermediate-data-api-openapi.yml
+  format: yaml
+  label: LI-COR Intermediate Data API
+  slug: li-cor-intermediate-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/openapi/li-cor-intermediate-hobolink-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/openapi/li-cor-intermediate-data-api-openapi.yml
+- filename: li-cor-intermediate-newa-api-openapi.yml
+  format: yaml
+  label: LI-COR Intermediate Newa API
+  slug: li-cor-intermediate-newa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/openapi/li-cor-intermediate-newa-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi.yaml
+- filename: regulations-gov-comment-submission-utilities-api-openapi.yml
   format: yaml
-  label: Regulations.gov API
-  slug: regulations-gov-api
+  label: Regulations.gov comment submission utilities API
+  slug: regulations-gov-comment-submission-utilities-api
   spec_type: OpenAPI
-  url: https://api.regulations.gov/v4/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/openapi/regulations-gov-comment-submission-utilities-api-openapi.yml
+- filename: regulations-gov-comments-api-openapi.yml
+  format: yaml
+  label: Regulations.gov comments API
+  slug: regulations-gov-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/openapi/regulations-gov-comments-api-openapi.yml
+- filename: regulations-gov-dockets-api-openapi.yml
+  format: yaml
+  label: Regulations.gov dockets API
+  slug: regulations-gov-dockets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/openapi/regulations-gov-dockets-api-openapi.yml
+- filename: regulations-gov-documents-api-openapi.yml
+  format: yaml
+  label: Regulations.gov documents API
+  slug: regulations-gov-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/openapi/regulations-gov-documents-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

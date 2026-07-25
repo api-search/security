@@ -1,36 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: llamacloud-openapi.yml
+- filename: llamacloud-documents-api-openapi.yml
   format: yaml
-  label: LlamaParse API
-  slug: llamaparse-api
+  label: LlamaCloud Documents API
+  slug: llamacloud-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamacloud/refs/heads/main/openapi/llamacloud-openapi.yml
-- filename: llamacloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/llamacloud/refs/heads/main/openapi/llamacloud-documents-api-openapi.yml
+- filename: llamacloud-extraction-api-openapi.yml
   format: yaml
-  label: LlamaCloud Pipelines and Indexes API
-  slug: pipelines-indexes-api
+  label: LlamaCloud Extraction API
+  slug: llamacloud-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamacloud/refs/heads/main/openapi/llamacloud-openapi.yml
-- filename: llamacloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/llamacloud/refs/heads/main/openapi/llamacloud-extraction-api-openapi.yml
+- filename: llamacloud-parsing-api-openapi.yml
   format: yaml
-  label: LlamaCloud Documents and Files API
-  slug: documents-api
+  label: LlamaCloud Parsing API
+  slug: llamacloud-parsing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamacloud/refs/heads/main/openapi/llamacloud-openapi.yml
-- filename: llamacloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/llamacloud/refs/heads/main/openapi/llamacloud-parsing-api-openapi.yml
+- filename: llamacloud-pipelines-api-openapi.yml
+  format: yaml
+  label: LlamaCloud Pipelines API
+  slug: llamacloud-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/llamacloud/refs/heads/main/openapi/llamacloud-pipelines-api-openapi.yml
+- filename: llamacloud-retrieval-api-openapi.yml
   format: yaml
   label: LlamaCloud Retrieval API
-  slug: retrieval-api
+  slug: llamacloud-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamacloud/refs/heads/main/openapi/llamacloud-openapi.yml
-- filename: llamacloud-openapi.yml
-  format: yaml
-  label: LlamaExtract API
-  slug: llamaextract-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamacloud/refs/heads/main/openapi/llamacloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/llamacloud/refs/heads/main/openapi/llamacloud-retrieval-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,54 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sevalla-openapi.yml
+- filename: sevalla-applications-api-openapi.yml
   format: yaml
   label: Sevalla Applications API
   slug: sevalla-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/openapi/sevalla-openapi.yml
-- filename: sevalla-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/openapi/sevalla-applications-api-openapi.yml
+- filename: sevalla-company-api-openapi.yml
   format: yaml
-  label: Sevalla Deployments API
-  slug: sevalla-deployments-api
+  label: Sevalla Company API
+  slug: sevalla-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/openapi/sevalla-openapi.yml
-- filename: sevalla-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/openapi/sevalla-company-api-openapi.yml
+- filename: sevalla-databases-api-openapi.yml
   format: yaml
   label: Sevalla Databases API
   slug: sevalla-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/openapi/sevalla-openapi.yml
-- filename: sevalla-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/openapi/sevalla-databases-api-openapi.yml
+- filename: sevalla-deployments-api-openapi.yml
   format: yaml
-  label: Sevalla Static Sites API
-  slug: sevalla-static-sites-api
+  label: Sevalla Deployments API
+  slug: sevalla-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/openapi/sevalla-openapi.yml
-- filename: sevalla-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/openapi/sevalla-deployments-api-openapi.yml
+- filename: sevalla-object-storage-api-openapi.yml
   format: yaml
   label: Sevalla Object Storage API
   slug: sevalla-object-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/openapi/sevalla-openapi.yml
-- filename: sevalla-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/openapi/sevalla-object-storage-api-openapi.yml
+- filename: sevalla-pipelines-api-openapi.yml
   format: yaml
   label: Sevalla Pipelines API
   slug: sevalla-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/openapi/sevalla-openapi.yml
-- filename: sevalla-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/openapi/sevalla-pipelines-api-openapi.yml
+- filename: sevalla-static-sites-api-openapi.yml
   format: yaml
-  label: Sevalla Operations API
-  slug: sevalla-operations-api
+  label: Sevalla Static Sites API
+  slug: sevalla-static-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/openapi/sevalla-openapi.yml
-- filename: sevalla-openapi.yml
-  format: yaml
-  label: Sevalla Company and Account API
-  slug: sevalla-company-account-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/openapi/sevalla-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/openapi/sevalla-static-sites-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,53 +1,71 @@
 ---
 api_specs:
-- filename: fleetio-openapi.yml
-  format: yaml
-  label: Fleetio Vehicles API
-  slug: vehicles
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-openapi.yml
-- filename: fleetio-openapi.yml
+- filename: fleetio-contacts-api-openapi.yml
   format: yaml
   label: Fleetio Contacts API
-  slug: contacts
+  slug: fleetio-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-openapi.yml
-- filename: fleetio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-contacts-api-openapi.yml
+- filename: fleetio-fuel-entries-api-openapi.yml
   format: yaml
   label: Fleetio Fuel Entries API
-  slug: fuel-entries
+  slug: fleetio-fuel-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-openapi.yml
-- filename: fleetio-openapi.yml
-  format: yaml
-  label: Fleetio Service & Work Orders API
-  slug: service-work-orders
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-openapi.yml
-- filename: fleetio-openapi.yml
-  format: yaml
-  label: Fleetio Parts & Inventory API
-  slug: parts-inventory
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-openapi.yml
-- filename: fleetio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-fuel-entries-api-openapi.yml
+- filename: fleetio-inspections-api-openapi.yml
   format: yaml
   label: Fleetio Inspections API
-  slug: inspections
+  slug: fleetio-inspections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-openapi.yml
-- filename: fleetio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-inspections-api-openapi.yml
+- filename: fleetio-inventory-journal-entries-api-openapi.yml
+  format: yaml
+  label: Fleetio Inventory Journal Entries API
+  slug: fleetio-inventory-journal-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-inventory-journal-entries-api-openapi.yml
+- filename: fleetio-issues-api-openapi.yml
   format: yaml
   label: Fleetio Issues API
-  slug: issues
+  slug: fleetio-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-openapi.yml
-- filename: fleetio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-issues-api-openapi.yml
+- filename: fleetio-parts-api-openapi.yml
+  format: yaml
+  label: Fleetio Parts API
+  slug: fleetio-parts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-parts-api-openapi.yml
+- filename: fleetio-service-entries-api-openapi.yml
+  format: yaml
+  label: Fleetio Service Entries API
+  slug: fleetio-service-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-service-entries-api-openapi.yml
+- filename: fleetio-service-reminders-api-openapi.yml
+  format: yaml
+  label: Fleetio Service Reminders API
+  slug: fleetio-service-reminders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-service-reminders-api-openapi.yml
+- filename: fleetio-vehicles-api-openapi.yml
+  format: yaml
+  label: Fleetio Vehicles API
+  slug: fleetio-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-vehicles-api-openapi.yml
+- filename: fleetio-webhooks-api-openapi.yml
   format: yaml
   label: Fleetio Webhooks API
-  slug: webhooks
+  slug: fleetio-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-webhooks-api-openapi.yml
+- filename: fleetio-work-orders-api-openapi.yml
+  format: yaml
+  label: Fleetio Work Orders API
+  slug: fleetio-work-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-work-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []

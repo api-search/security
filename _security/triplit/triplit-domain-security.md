@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: triplit-http-api-openapi.yml
+- filename: triplit-advanced-api-openapi.yml
   format: yaml
-  label: Triplit HTTP API
-  slug: http-api
+  label: Triplit Advanced API
+  slug: triplit-advanced-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triplit/refs/heads/main/openapi/triplit-http-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/triplit/refs/heads/main/openapi/triplit-advanced-api-openapi.yml
+- filename: triplit-auth-api-openapi.yml
+  format: yaml
+  label: Triplit Auth API
+  slug: triplit-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triplit/refs/heads/main/openapi/triplit-auth-api-openapi.yml
+- filename: triplit-data-api-openapi.yml
+  format: yaml
+  label: Triplit Data API
+  slug: triplit-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triplit/refs/heads/main/openapi/triplit-data-api-openapi.yml
+- filename: triplit-schema-api-openapi.yml
+  format: yaml
+  label: Triplit Schema API
+  slug: triplit-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triplit/refs/heads/main/openapi/triplit-schema-api-openapi.yml
+- filename: triplit-system-api-openapi.yml
+  format: yaml
+  label: Triplit System API
+  slug: triplit-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triplit/refs/heads/main/openapi/triplit-system-api-openapi.yml
+- filename: triplit-webhooks-api-openapi.yml
+  format: yaml
+  label: Triplit Webhooks API
+  slug: triplit-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triplit/refs/heads/main/openapi/triplit-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

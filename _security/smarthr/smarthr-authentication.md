@@ -1,42 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: smarthr-openapi.yml
-  format: yaml
-  label: SmartHR Crews API
-  slug: smarthr-crews-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-openapi.yml
-- filename: smarthr-openapi.yml
-  format: yaml
-  label: SmartHR Departments API
-  slug: smarthr-departments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-openapi.yml
-- filename: smarthr-openapi.yml
-  format: yaml
-  label: SmartHR Employment Types API
-  slug: smarthr-employment-types-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-openapi.yml
-- filename: smarthr-openapi.yml
-  format: yaml
-  label: SmartHR Custom Field Templates API
-  slug: smarthr-custom-field-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-openapi.yml
-- filename: smarthr-openapi.yml
+- filename: smarthr-business-establishments-api-openapi.yml
   format: yaml
   label: SmartHR Business Establishments API
   slug: smarthr-business-establishments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-openapi.yml
-- filename: smarthr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-business-establishments-api-openapi.yml
+- filename: smarthr-crews-api-openapi.yml
+  format: yaml
+  label: SmartHR Crews API
+  slug: smarthr-crews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-crews-api-openapi.yml
+- filename: smarthr-custom-field-templates-api-openapi.yml
+  format: yaml
+  label: SmartHR Custom Field Templates API
+  slug: smarthr-custom-field-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-custom-field-templates-api-openapi.yml
+- filename: smarthr-departments-api-openapi.yml
+  format: yaml
+  label: SmartHR Departments API
+  slug: smarthr-departments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-departments-api-openapi.yml
+- filename: smarthr-employment-types-api-openapi.yml
+  format: yaml
+  label: SmartHR Employment Types API
+  slug: smarthr-employment-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-employment-types-api-openapi.yml
+- filename: smarthr-webhooks-api-openapi.yml
   format: yaml
   label: SmartHR Webhooks API
   slug: smarthr-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

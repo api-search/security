@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: uxcam-data-access-openapi.yml
+- filename: uxcam-events-api-openapi.yml
   format: yaml
-  label: UXCam Data Access API
-  slug: uxcam-data-access-api
+  label: UXCam Events API
+  slug: uxcam-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uxcam/refs/heads/main/openapi/uxcam-data-access-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uxcam/refs/heads/main/openapi/uxcam-events-api-openapi.yml
+- filename: uxcam-sessions-api-openapi.yml
+  format: yaml
+  label: UXCam Sessions API
+  slug: uxcam-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uxcam/refs/heads/main/openapi/uxcam-sessions-api-openapi.yml
+- filename: uxcam-users-api-openapi.yml
+  format: yaml
+  label: UXCam Users API
+  slug: uxcam-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uxcam/refs/heads/main/openapi/uxcam-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: spruce-health-openapi.yml
+- filename: spruce-health-contacts-api-openapi.yml
   format: yaml
-  label: Spruce Contacts API
+  label: Spruce Health Contacts API
   slug: spruce-health-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-openapi.yml
-- filename: spruce-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-contacts-api-openapi.yml
+- filename: spruce-health-conversations-api-openapi.yml
   format: yaml
-  label: Spruce Conversations API
+  label: Spruce Health Conversations API
   slug: spruce-health-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-openapi.yml
-- filename: spruce-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-conversations-api-openapi.yml
+- filename: spruce-health-messages-api-openapi.yml
   format: yaml
-  label: Spruce Messages API
+  label: Spruce Health Messages API
   slug: spruce-health-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-openapi.yml
-- filename: spruce-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-messages-api-openapi.yml
+- filename: spruce-health-webhooks-api-openapi.yml
   format: yaml
-  label: Spruce Webhooks API
+  label: Spruce Health Webhooks API
   slug: spruce-health-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

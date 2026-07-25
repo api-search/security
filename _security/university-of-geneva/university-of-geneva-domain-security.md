@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: university-of-geneva-yareta.yaml
+- filename: university-of-geneva-access-api-openapi.yml
   format: yaml
-  label: Yareta Research Data API
-  slug: yareta
+  label: University of Geneva Access API
+  slug: university-of-geneva-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/openapi/university-of-geneva-yareta.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/openapi/university-of-geneva-access-api-openapi.yml
+- filename: university-of-geneva-ingest-api-openapi.yml
+  format: yaml
+  label: University of Geneva Ingest API
+  slug: university-of-geneva-ingest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/openapi/university-of-geneva-ingest-api-openapi.yml
+- filename: university-of-geneva-oai-pmh-api-openapi.yml
+  format: yaml
+  label: University of Geneva OAI-PMH API
+  slug: university-of-geneva-oai-pmh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/openapi/university-of-geneva-oai-pmh-api-openapi.yml
 description: ''
 domains:
 - caa: []

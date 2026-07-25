@@ -1,23 +1,47 @@
 ---
 api_specs:
-- filename: agstack-openagri-weather-service-openapi.yml
+- filename: agstack-api-api-openapi.yml
   format: yaml
-  label: OpenAgri Weather Service
-  slug: openagri-weather-service
+  label: AgStack Foundation api API
+  slug: agstack-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/openapi/agstack-openagri-weather-service-openapi.yml
-- filename: agstack-openagri-farm-calendar-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/openapi/agstack-api-api-openapi.yml
+- filename: agstack-auth-api-openapi.yml
   format: yaml
-  label: OpenAgri Farm Calendar
-  slug: openagri-farm-calendar
+  label: AgStack Foundation Auth API
+  slug: agstack-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/openapi/agstack-openagri-farm-calendar-openapi.yml
-- filename: agstack-asset-registry-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/openapi/agstack-auth-api-openapi.yml
+- filename: agstack-authentication-api-openapi.yml
   format: yaml
-  label: AgStack Asset Registry
-  slug: asset-registry
+  label: AgStack Foundation Authentication API
+  slug: agstack-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/openapi/agstack-asset-registry-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/openapi/agstack-authentication-api-openapi.yml
+- filename: agstack-data-api-openapi.yml
+  format: yaml
+  label: AgStack Foundation Data API
+  slug: agstack-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/openapi/agstack-data-api-openapi.yml
+- filename: agstack-field-registration-post-api-openapi.yml
+  format: yaml
+  label: AgStack Foundation Field Registration (POST) API
+  slug: agstack-field-registration-post-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/openapi/agstack-field-registration-post-api-openapi.yml
+- filename: agstack-field-retrieval-queries-api-openapi.yml
+  format: yaml
+  label: AgStack Foundation Field Retrieval & Queries API
+  slug: agstack-field-retrieval-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/openapi/agstack-field-retrieval-queries-api-openapi.yml
+- filename: agstack-linkeddata-api-openapi.yml
+  format: yaml
+  label: AgStack Foundation Linkeddata API
+  slug: agstack-linkeddata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/openapi/agstack-linkeddata-api-openapi.yml
 description: ''
 domains:
 - caa: []

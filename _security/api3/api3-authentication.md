@@ -1,5 +1,24 @@
 ---
 api_key_in: []
+api_specs:
+- filename: api3-airnodes-api-openapi.yml
+  format: yaml
+  label: API3 Airnodes API
+  slug: api3-airnodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api3/refs/heads/main/openapi/api3-airnodes-api-openapi.yml
+- filename: api3-signed-data-api-openapi.yml
+  format: yaml
+  label: API3 Signed Data API
+  slug: api3-signed-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api3/refs/heads/main/openapi/api3-signed-data-api-openapi.yml
+- filename: api3-status-api-openapi.yml
+  format: yaml
+  label: API3 Status API
+  slug: api3-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api3/refs/heads/main/openapi/api3-status-api-openapi.yml
 auth_types:
 - http
 description: ''

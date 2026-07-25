@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: open-fec-openapi.yml
+- filename: open-fec-candidate-api-openapi.yml
   format: yaml
-  label: OpenFEC API
-  slug: openfec-api
+  label: OpenFEC Candidate API
+  slug: open-fec-candidate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-candidate-api-openapi.yml
+- filename: open-fec-candidates-api-openapi.yml
+  format: yaml
+  label: OpenFEC Candidates API
+  slug: open-fec-candidates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-candidates-api-openapi.yml
+- filename: open-fec-committee-api-openapi.yml
+  format: yaml
+  label: OpenFEC Committee API
+  slug: open-fec-committee-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-committee-api-openapi.yml
+- filename: open-fec-committees-api-openapi.yml
+  format: yaml
+  label: OpenFEC Committees API
+  slug: open-fec-committees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-committees-api-openapi.yml
+- filename: open-fec-elections-api-openapi.yml
+  format: yaml
+  label: OpenFEC Elections API
+  slug: open-fec-elections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-elections-api-openapi.yml
+- filename: open-fec-filings-api-openapi.yml
+  format: yaml
+  label: OpenFEC Filings API
+  slug: open-fec-filings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-filings-api-openapi.yml
+- filename: open-fec-names-api-openapi.yml
+  format: yaml
+  label: OpenFEC Names API
+  slug: open-fec-names-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-names-api-openapi.yml
+- filename: open-fec-schedules-api-openapi.yml
+  format: yaml
+  label: OpenFEC Schedules API
+  slug: open-fec-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-schedules-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,77 +1,77 @@
 ---
 api_specs:
-- filename: OpenApiDocumentation
+- filename: dataforseo-aioptimization-api-openapi.yml
   format: yaml
-  label: DataForSEO SERP API
-  slug: dataforseo-serp-api
+  label: DataForSEO AiOptimization API
+  slug: dataforseo-aioptimization-api
   spec_type: OpenAPI
-  url: https://github.com/dataforseo/OpenApiDocumentation
-- filename: OpenApiDocumentation
+  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-aioptimization-api-openapi.yml
+- filename: dataforseo-appdata-api-openapi.yml
   format: yaml
-  label: DataForSEO Keywords Data API
-  slug: dataforseo-keywords-data-api
+  label: DataForSEO AppData API
+  slug: dataforseo-appdata-api
   spec_type: OpenAPI
-  url: https://github.com/dataforseo/OpenApiDocumentation
-- filename: OpenApiDocumentation
+  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-appdata-api-openapi.yml
+- filename: dataforseo-appendix-api-openapi.yml
+  format: yaml
+  label: DataForSEO Appendix API
+  slug: dataforseo-appendix-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-appendix-api-openapi.yml
+- filename: dataforseo-backlinks-api-openapi.yml
   format: yaml
   label: DataForSEO Backlinks API
   slug: dataforseo-backlinks-api
   spec_type: OpenAPI
-  url: https://github.com/dataforseo/OpenApiDocumentation
-- filename: OpenApiDocumentation
+  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-backlinks-api-openapi.yml
+- filename: dataforseo-businessdata-api-openapi.yml
   format: yaml
-  label: DataForSEO Labs API
-  slug: dataforseo-labs-api
+  label: DataForSEO BusinessData API
+  slug: dataforseo-businessdata-api
   spec_type: OpenAPI
-  url: https://github.com/dataforseo/OpenApiDocumentation
-- filename: OpenApiDocumentation
+  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-businessdata-api-openapi.yml
+- filename: dataforseo-contentanalysis-api-openapi.yml
   format: yaml
-  label: DataForSEO Domain Analytics API
-  slug: dataforseo-domain-analytics-api
+  label: DataForSEO ContentAnalysis API
+  slug: dataforseo-contentanalysis-api
   spec_type: OpenAPI
-  url: https://github.com/dataforseo/OpenApiDocumentation
-- filename: OpenApiDocumentation
+  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-contentanalysis-api-openapi.yml
+- filename: dataforseo-dataforseolabs-api-openapi.yml
   format: yaml
-  label: DataForSEO On-Page API
-  slug: dataforseo-on-page-api
+  label: DataForSEO DataforseoLabs API
+  slug: dataforseo-dataforseolabs-api
   spec_type: OpenAPI
-  url: https://github.com/dataforseo/OpenApiDocumentation
-- filename: OpenApiDocumentation
+  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-dataforseolabs-api-openapi.yml
+- filename: dataforseo-domainanalytics-api-openapi.yml
   format: yaml
-  label: DataForSEO Content Analysis API
-  slug: dataforseo-content-analysis-api
+  label: DataForSEO DomainAnalytics API
+  slug: dataforseo-domainanalytics-api
   spec_type: OpenAPI
-  url: https://github.com/dataforseo/OpenApiDocumentation
-- filename: OpenApiDocumentation
+  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-domainanalytics-api-openapi.yml
+- filename: dataforseo-keywordsdata-api-openapi.yml
   format: yaml
-  label: DataForSEO Business Data API
-  slug: dataforseo-business-data-api
+  label: DataForSEO KeywordsData API
+  slug: dataforseo-keywordsdata-api
   spec_type: OpenAPI
-  url: https://github.com/dataforseo/OpenApiDocumentation
-- filename: OpenApiDocumentation
-  format: yaml
-  label: DataForSEO App Data API
-  slug: dataforseo-app-data-api
-  spec_type: OpenAPI
-  url: https://github.com/dataforseo/OpenApiDocumentation
-- filename: OpenApiDocumentation
+  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-keywordsdata-api-openapi.yml
+- filename: dataforseo-merchant-api-openapi.yml
   format: yaml
   label: DataForSEO Merchant API
   slug: dataforseo-merchant-api
   spec_type: OpenAPI
-  url: https://github.com/dataforseo/OpenApiDocumentation
-- filename: OpenApiDocumentation
+  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-merchant-api-openapi.yml
+- filename: dataforseo-onpage-api-openapi.yml
   format: yaml
-  label: DataForSEO AI Optimization API
-  slug: dataforseo-ai-optimization-api
+  label: DataForSEO OnPage API
+  slug: dataforseo-onpage-api
   spec_type: OpenAPI
-  url: https://github.com/dataforseo/OpenApiDocumentation
-- filename: OpenApiDocumentation
+  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-onpage-api-openapi.yml
+- filename: dataforseo-serp-api-openapi.yml
   format: yaml
-  label: DataForSEO Social Media API
-  slug: dataforseo-social-media-api
+  label: DataForSEO Serp API
+  slug: dataforseo-serp-api
   spec_type: OpenAPI
-  url: https://github.com/dataforseo/OpenApiDocumentation
+  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-serp-api-openapi.yml
 description: ''
 domains:
 - caa: []

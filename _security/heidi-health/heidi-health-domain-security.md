@@ -1,65 +1,65 @@
 ---
 api_specs:
-- filename: heidi-health-openapi.yml
+- filename: heidi-health-ask-heidi-api-openapi.yml
   format: yaml
-  label: Heidi Authentication API
-  slug: heidi-api-authentication
+  label: Heidi Health Ask Heidi API
+  slug: heidi-health-ask-heidi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-openapi.yml
-- filename: heidi-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-ask-heidi-api-openapi.yml
+- filename: heidi-health-authentication-api-openapi.yml
   format: yaml
-  label: Heidi Templates API
-  slug: heidi-api-templates
+  label: Heidi Health Authentication API
+  slug: heidi-health-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-openapi.yml
-- filename: heidi-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-authentication-api-openapi.yml
+- filename: heidi-health-clinical-coding-api-openapi.yml
   format: yaml
-  label: Heidi Patient Profiles API
-  slug: heidi-api-patient-profiles
+  label: Heidi Health Clinical Coding API
+  slug: heidi-health-clinical-coding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-openapi.yml
-- filename: heidi-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-clinical-coding-api-openapi.yml
+- filename: heidi-health-consult-notes-api-openapi.yml
   format: yaml
-  label: Heidi Sessions API
-  slug: heidi-api-sessions
+  label: Heidi Health Consult Notes API
+  slug: heidi-health-consult-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-openapi.yml
-- filename: heidi-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-consult-notes-api-openapi.yml
+- filename: heidi-health-documents-api-openapi.yml
   format: yaml
-  label: Heidi Session Context API
-  slug: heidi-api-session-context
+  label: Heidi Health Documents API
+  slug: heidi-health-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-openapi.yml
-- filename: heidi-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-documents-api-openapi.yml
+- filename: heidi-health-patient-profiles-api-openapi.yml
   format: yaml
-  label: Heidi Session Coding API
-  slug: heidi-api-session-coding
+  label: Heidi Health Patient Profiles API
+  slug: heidi-health-patient-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-openapi.yml
-- filename: heidi-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-patient-profiles-api-openapi.yml
+- filename: heidi-health-session-context-api-openapi.yml
   format: yaml
-  label: Heidi Transcription API
-  slug: heidi-api-transcription
+  label: Heidi Health Session Context API
+  slug: heidi-health-session-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-openapi.yml
-- filename: heidi-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-session-context-api-openapi.yml
+- filename: heidi-health-sessions-api-openapi.yml
   format: yaml
-  label: Heidi Consult Notes API
-  slug: heidi-api-consult-notes
+  label: Heidi Health Sessions API
+  slug: heidi-health-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-openapi.yml
-- filename: heidi-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-sessions-api-openapi.yml
+- filename: heidi-health-templates-api-openapi.yml
   format: yaml
-  label: Heidi Documents API
-  slug: heidi-api-documents
+  label: Heidi Health Templates API
+  slug: heidi-health-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-openapi.yml
-- filename: heidi-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-templates-api-openapi.yml
+- filename: heidi-health-transcription-api-openapi.yml
   format: yaml
-  label: Heidi Ask Heidi API
-  slug: heidi-api-ask-heidi
+  label: Heidi Health Transcription API
+  slug: heidi-health-transcription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-transcription-api-openapi.yml
 description: ''
 domains:
 - caa: []

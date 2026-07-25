@@ -1,12 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: opusclip-openapi-original.json
-  format: json
-  label: OpusClip Clip API
-  slug: opusclip-clip-api
+- filename: opusclip-brand-templates-api-openapi.yml
+  format: yaml
+  label: OpusClip brand-templates API
+  slug: opusclip-brand-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-brand-templates-api-openapi.yml
+- filename: opusclip-censor-jobs-api-openapi.yml
+  format: yaml
+  label: OpusClip censor-jobs API
+  slug: opusclip-censor-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-censor-jobs-api-openapi.yml
+- filename: opusclip-clip-project-api-openapi.yml
+  format: yaml
+  label: OpusClip clip-project API
+  slug: opusclip-clip-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-clip-project-api-openapi.yml
+- filename: opusclip-collection-api-openapi.yml
+  format: yaml
+  label: OpusClip collection API
+  slug: opusclip-collection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-collection-api-openapi.yml
+- filename: opusclip-collection-content-api-openapi.yml
+  format: yaml
+  label: OpusClip collection-content API
+  slug: opusclip-collection-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-collection-content-api-openapi.yml
+- filename: opusclip-enterprise-api-openapi.yml
+  format: yaml
+  label: OpusClip enterprise API
+  slug: opusclip-enterprise-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-enterprise-api-openapi.yml
+- filename: opusclip-exportable-clips-api-openapi.yml
+  format: yaml
+  label: OpusClip exportable-clips API
+  slug: opusclip-exportable-clips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-exportable-clips-api-openapi.yml
+- filename: opusclip-exportableclip-api-openapi.yml
+  format: yaml
+  label: OpusClip ExportableClip API
+  slug: opusclip-exportableclip-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-exportableclip-api-openapi.yml
+- filename: opusclip-generative-jobs-api-openapi.yml
+  format: yaml
+  label: OpusClip generative-jobs API
+  slug: opusclip-generative-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-generative-jobs-api-openapi.yml
+- filename: opusclip-social-posting-api-openapi.yml
+  format: yaml
+  label: OpusClip social-posting API
+  slug: opusclip-social-posting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-social-posting-api-openapi.yml
+- filename: opusclip-transcripts-api-openapi.yml
+  format: yaml
+  label: OpusClip transcripts API
+  slug: opusclip-transcripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-transcripts-api-openapi.yml
 auth_types:
 - http
 description: ''

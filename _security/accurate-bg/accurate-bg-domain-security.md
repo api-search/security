@@ -1,53 +1,59 @@
 ---
 api_specs:
-- filename: accurate-bg-openapi.yml
+- filename: accurate-bg-adjudication-api-openapi.yml
   format: yaml
-  label: Accurate Candidates API
-  slug: accurate-bg-candidates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-openapi.yml
-- filename: accurate-bg-openapi.yml
-  format: yaml
-  label: Accurate Orders API
-  slug: accurate-bg-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-openapi.yml
-- filename: accurate-bg-openapi.yml
-  format: yaml
-  label: Accurate Packages API
-  slug: accurate-bg-packages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-openapi.yml
-- filename: accurate-bg-openapi.yml
-  format: yaml
-  label: Accurate Reports API
-  slug: accurate-bg-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-openapi.yml
-- filename: accurate-bg-openapi.yml
-  format: yaml
-  label: Accurate Documents API
-  slug: accurate-bg-documents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-openapi.yml
-- filename: accurate-bg-openapi.yml
-  format: yaml
-  label: Accurate Adjudication API
+  label: Accurate Background Adjudication API
   slug: accurate-bg-adjudication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-openapi.yml
-- filename: accurate-bg-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-adjudication-api-openapi.yml
+- filename: accurate-bg-candidates-api-openapi.yml
   format: yaml
-  label: Accurate Verifications API
-  slug: accurate-bg-verifications-api
+  label: Accurate Background Candidates API
+  slug: accurate-bg-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-openapi.yml
-- filename: accurate-bg-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-candidates-api-openapi.yml
+- filename: accurate-bg-documents-api-openapi.yml
   format: yaml
-  label: Accurate Notifications API
+  label: Accurate Background Documents API
+  slug: accurate-bg-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-documents-api-openapi.yml
+- filename: accurate-bg-notifications-api-openapi.yml
+  format: yaml
+  label: Accurate Background Notifications API
   slug: accurate-bg-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-notifications-api-openapi.yml
+- filename: accurate-bg-orders-api-openapi.yml
+  format: yaml
+  label: Accurate Background Orders API
+  slug: accurate-bg-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-orders-api-openapi.yml
+- filename: accurate-bg-packages-api-openapi.yml
+  format: yaml
+  label: Accurate Background Packages API
+  slug: accurate-bg-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-packages-api-openapi.yml
+- filename: accurate-bg-reports-api-openapi.yml
+  format: yaml
+  label: Accurate Background Reports API
+  slug: accurate-bg-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-reports-api-openapi.yml
+- filename: accurate-bg-utility-api-openapi.yml
+  format: yaml
+  label: Accurate Background Utility API
+  slug: accurate-bg-utility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-utility-api-openapi.yml
+- filename: accurate-bg-verifications-api-openapi.yml
+  format: yaml
+  label: Accurate Background Verifications API
+  slug: accurate-bg-verifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-verifications-api-openapi.yml
 description: ''
 domains:
 - caa: []

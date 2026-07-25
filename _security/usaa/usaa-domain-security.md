@@ -37,5 +37,8 @@ tags:
 - Insurance
 - Military Finance
 - Open Banking
+- Open Finance
+- Financial Data Exchange
+- United States
 - Fortune 100
 ---

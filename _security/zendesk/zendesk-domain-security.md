@@ -1,461 +1,491 @@
 ---
 api_specs:
-- filename: assignables-openapi-original.yml
-  format: yaml
-  label: Zendesk Assignables API
-  slug: assignables
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/assignables-openapi-original.yml
-- filename: target-type-openapi-original.yml
-  format: yaml
-  label: Zendesk Target Type API
-  slug: target-type
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/target-type-openapi-original.yml
-- filename: account-openapi-original.yml
-  format: yaml
-  label: Zendesk Account API
-  slug: account
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/account-openapi-original.yml
-- filename: accounts-openapi-original.yml
-  format: yaml
-  label: Zendesk Accounts API
-  slug: accounts
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/accounts-openapi-original.yml
-- filename: activities-openapi-original.yml
-  format: yaml
-  label: Zendesk Activities API
-  slug: activities
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/activities-openapi-original.yml
-- filename: any-channel-openapi-original.yml
-  format: yaml
-  label: Zendesk Any Channel API
-  slug: any-channel
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/any-channel-openapi-original.yml
-- filename: approval-workflow-instances-openapi-original.yml
-  format: yaml
-  label: Zendesk Approval Workflow Instances API
-  slug: approval-workflow-instances
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/approval-workflow-instances-openapi-original.yml
-- filename: attachments-openapi-original.yml
-  format: yaml
-  label: Zendesk Attachments API
-  slug: attachments
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/attachments-openapi-original.yml
-- filename: audit-logs-openapi-original.yml
-  format: yaml
-  label: Zendesk Audit Logs API
-  slug: audit-logs
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/audit-logs-openapi-original.yml
-- filename: autocomplete-openapi-original.yml
-  format: yaml
-  label: Zendesk Autocomplete API
-  slug: autocomplete
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/autocomplete-openapi-original.yml
-- filename: automations-openapi-original.yml
-  format: yaml
-  label: Zendesk Automations API
-  slug: automations
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/automations-openapi-original.yml
-- filename: bookmarks-openapi-original.yml
-  format: yaml
-  label: Zendesk Bookmarks API
-  slug: bookmarks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/bookmarks-openapi-original.yml
-- filename: brand-agents-openapi-original.yml
-  format: yaml
-  label: Zendesk Brand Agents API
-  slug: brand-agents
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/brand-agents-openapi-original.yml
-- filename: brands-openapi-original.yml
-  format: yaml
-  label: Zendesk Brands API
-  slug: brands
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/brands-openapi-original.yml
-- filename: channels-openapi-original.yml
-  format: yaml
-  label: Zendesk Channels API
-  slug: channels
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/channels-openapi-original.yml
-- filename: chat-file-redactions-openapi-original.yml
-  format: yaml
-  label: Zendesk Chat File Redactions API
-  slug: chat-file-redactions
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/chat-file-redactions-openapi-original.yml
-- filename: chat-redactions-openapi-original.yml
-  format: yaml
-  label: Zendesk Chat Redactions API
-  slug: chat-redactions
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/chat-redactions-openapi-original.yml
-- filename: comment-redactions-openapi-original.yml
-  format: yaml
-  label: Zendesk Comment Redactions API
-  slug: comment-redactions
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/comment-redactions-openapi-original.yml
-- filename: custom-objects-openapi-original.yml
-  format: yaml
-  label: Zendesk Custom Objects API
-  slug: custom-objects
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/custom-objects-openapi-original.yml
-- filename: custom-roles-openapi-original.yml
-  format: yaml
-  label: Zendesk Custom Roles API
-  slug: custom-roles
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/custom-roles-openapi-original.yml
-- filename: custom-status-openapi-original.yml
-  format: yaml
-  label: Zendesk Custom Status API
-  slug: custom-status
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/custom-status-openapi-original.yml
-- filename: custom-statuses-openapi-original.yml
-  format: yaml
-  label: Zendesk Custom Statuses API
-  slug: custom-statuses
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/custom-statuses-openapi-original.yml
-- filename: deleted-tickets-openapi-original.yml
-  format: yaml
-  label: Zendesk Deleted Tickets API
-  slug: deleted-tickets
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/deleted-tickets-openapi-original.yml
-- filename: deleted-users-openapi-original.yml
-  format: yaml
-  label: Zendesk Deleted Users API
-  slug: deleted-users
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/deleted-users-openapi-original.yml
-- filename: deletion-schedules-openapi-original.yml
-  format: yaml
-  label: Zendesk Deletion Schedules API
-  slug: deletion-schedules
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/deletion-schedules-openapi-original.yml
-- filename: dynamic-content-openapi-original.yml
-  format: yaml
-  label: Zendesk Dynamic Content API
-  slug: dynamic-content
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/dynamic-content-openapi-original.yml
-- filename: email-notifications-openapi-original.yml
-  format: yaml
-  label: Zendesk Email Notifications API
-  slug: email-notifications
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/email-notifications-openapi-original.yml
-- filename: group-memberships-openapi-original.yml
-  format: yaml
-  label: Zendesk Group Memberships API
-  slug: group-memberships
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/group-memberships-openapi-original.yml
-- filename: group-slas-openapi-original.yml
-  format: yaml
-  label: Zendesk Group SLAs API
-  slug: group-slas
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/group-slas-openapi-original.yml
-- filename: groups-openapi-original.yml
-  format: yaml
-  label: Zendesk Groups API
-  slug: groups
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/groups-openapi-original.yml
-- filename: imports-openapi-original.yml
-  format: yaml
-  label: Zendesk Imports API
-  slug: imports
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/imports-openapi-original.yml
-- filename: incremental-openapi-original.yml
-  format: yaml
-  label: Zendesk Incremental API
-  slug: incremental
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/incremental-openapi-original.yml
-- filename: job-statuses-openapi-original.yml
-  format: yaml
-  label: Zendesk Job Statuses
-  slug: job-statuses
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/job-statuses-openapi-original.yml
-- filename: locales-openapi-original.yml
-  format: yaml
-  label: Zendesk Locales API
-  slug: locales
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/locales-openapi-original.yml
-- filename: macros-openapi-original.yml
-  format: yaml
-  label: Zendesk Macros API
-  slug: macros
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/macros-openapi-original.yml
-- filename: oauth-openapi-original.yml
-  format: yaml
-  label: Zendesk Oauth API
-  slug: oauth
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/oauth-openapi-original.yml
-- filename: object-layouts-openapi-original.yml
-  format: yaml
-  label: Zendesk Object Layouts API
-  slug: object-layouts
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/object-layouts-openapi-original.yml
-- filename: organization-fields-openapi-original.yml
-  format: yaml
-  label: Zendesk Organization Fields API
-  slug: organization-fields
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/organization-fields-openapi-original.yml
-- filename: organization-memberships-openapi-original.yml
-  format: yaml
-  label: Zendesk Organization Memberships API
-  slug: organization-memberships
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/organization-memberships-openapi-original.yml
-- filename: organization-merges-openapi-original.yml
-  format: yaml
-  label: Zendesk Organization Merges API
-  slug: organization-merges
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/organization-merges-openapi-original.yml
-- filename: organization-subscriptions-openapi-original.yml
-  format: yaml
-  label: Zendesk Organization Subscriptions API
-  slug: organization-subscriptions
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/organization-subscriptions-openapi-original.yml
-- filename: organizations-openapi-original.yml
-  format: yaml
-  label: Zendesk Organizations API
-  slug: organizations
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/organizations-openapi-original.yml
-- filename: problems-openapi-original.yml
-  format: yaml
-  label: Zendesk Problems API
-  slug: problems
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/problems-openapi-original.yml
-- filename: push-notification-devices-openapi-original.yml
-  format: yaml
-  label: Zendesk Push Notification Devices API
-  slug: push-notification-devices
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/push-notification-devices-openapi-original.yml
-- filename: queues-openapi-original.yml
-  format: yaml
-  label: Zendesk Queues API
-  slug: queues
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/queues-openapi-original.yml
-- filename: recipient-addresses-openapi-original.yml
-  format: yaml
-  label: Zendesk Recipient Addresses API
-  slug: recipient-addresses
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/recipient-addresses-openapi-original.yml
-- filename: relationships-openapi-original.yml
-  format: yaml
-  label: Zendesk Relationships API
-  slug: relationships
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/relationships-openapi-original.yml
-- filename: requests-openapi-original.yml
-  format: yaml
-  label: Zendesk Requests API
-  slug: requests
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/requests-openapi-original.yml
-- filename: resource-collections-openapi-original.yml
-  format: yaml
-  label: Zendesk Resource Collections API
-  slug: resource-collections
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/resource-collections-openapi-original.yml
-- filename: routing-openapi-original.yml
-  format: yaml
-  label: Zendesk Routing API
-  slug: routing
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/routing-openapi-original.yml
-- filename: satisfaction-ratings-openapi-original.yml
-  format: yaml
-  label: Zendesk Satisfaction Ratings API
-  slug: satisfaction-ratings
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/satisfaction-ratings-openapi-original.yml
-- filename: satisfaction-reasons-openapi-original.yml
-  format: yaml
-  label: Zendesk Satisfaction Reasons API
-  slug: satisfaction-reasons
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/satisfaction-reasons-openapi-original.yml
-- filename: search-openapi-original.yml
-  format: yaml
-  label: Zendesk Search API
-  slug: search
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/search-openapi-original.yml
-- filename: sessions-openapi-original.yml
-  format: yaml
-  label: Zendesk Sessions API
-  slug: sessions
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/sessions-openapi-original.yml
-- filename: sharing-agreements-openapi-original.yml
-  format: yaml
-  label: Zendesk Sharing Agreements API
-  slug: sharing-agreements
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/sharing-agreements-openapi-original.yml
-- filename: skips-openapi-original.yml
-  format: yaml
-  label: Zendesk Skips API
-  slug: skips
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/skips-openapi-original.yml
-- filename: slas-openapi-original.yml
-  format: yaml
-  label: Zendesk SLAs API
-  slug: slas
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/slas-openapi-original.yml
-- filename: suspended-tickets-openapi-original.yml
-  format: yaml
-  label: Zendesk Suspended Tickets API
-  slug: suspended-tickets
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/suspended-tickets-openapi-original.yml
-- filename: tags-openapi-original.yml
-  format: yaml
-  label: Zendesk Tags API
-  slug: tags
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/tags-openapi-original.yml
-- filename: target-failures-openapi-original.yml
-  format: yaml
-  label: Zendesk Target Failures API
-  slug: target-failures
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/target-failures-openapi-original.yml
-- filename: targets-openapi-original.yml
-  format: yaml
-  label: Zendesk Targets API
-  slug: targets
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/targets-openapi-original.yml
-- filename: ticket-audits-openapi-original.yml
-  format: yaml
-  label: Zendesk Ticket Audits API
-  slug: ticket-audits
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/ticket-audits-openapi-original.yml
-- filename: ticket-content-pins-openapi-original.yml
-  format: yaml
-  label: Zendesk Ticket Content Pins API
-  slug: ticket-content-pins
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/ticket-content-pins-openapi-original.yml
-- filename: ticket-fields-openapi-original.yml
-  format: yaml
-  label: Zendesk Ticket Fields API
-  slug: ticket-fields
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/ticket-fields-openapi-original.yml
-- filename: ticket-form-statuses-openapi-original.yml
-  format: yaml
-  label: Zendesk Ticket Form Statuses API
-  slug: ticket-form-statuses
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/ticket-form-statuses-openapi-original.yml
-- filename: ticket-forms-openapi-original.yml
-  format: yaml
-  label: Zendesk Ticket Forms API
-  slug: ticket-forms
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/ticket-forms-openapi-original.yml
-- filename: ticket-metrics-openapi-original.yml
-  format: yaml
-  label: Zendesk Ticket Metrics API
-  slug: ticket-metrics
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/ticket-metrics-openapi-original.yml
-- filename: tickets-openapi-original.yml
-  format: yaml
-  label: Zendesk Tickets API
-  slug: tickets
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/tickets-openapi-original.yml
-- filename: trigger-categories-openapi-original.yml
-  format: yaml
-  label: Zendesk Trigger Categories API
-  slug: trigger-categories
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/trigger-categories-openapi-original.yml
-- filename: triggers-openapi-original.yml
-  format: yaml
-  label: Zendesk Triggers API
-  slug: triggers
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/triggers-openapi-original.yml
-- filename: uploads-openapi-original.yml
-  format: yaml
-  label: Zendesk Uploads API
-  slug: uploads
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/uploads-openapi-original.yml
-- filename: user-fields-openapi-original.yml
-  format: yaml
-  label: Zendesk User Fields API
-  slug: user-fields
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/user-fields-openapi-original.yml
-- filename: users-openapi-original.yml
-  format: yaml
-  label: Zendesk Users API
-  slug: users
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/users-openapi-original.yml
-- filename: views-openapi-original.yml
-  format: yaml
-  label: Zendesk Views API
-  slug: views
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/views-openapi-original.yml
-- filename: workspaces-openapi-original.yml
-  format: yaml
-  label: Zendesk Workspaces API
-  slug: workspaces
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/workspaces-openapi-original.yml
 - filename: zendesk-webhooks-asyncapi.yml
   format: yaml
   label: Zendesk Webhooks API
   slug: webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/asyncapi/zendesk-webhooks-asyncapi.yml
+- filename: zendesk-account-settings-api-openapi.yml
+  format: yaml
+  label: Zendesk Account Settings API
+  slug: zendesk-account-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-account-settings-api-openapi.yml
+- filename: zendesk-activity-stream-api-openapi.yml
+  format: yaml
+  label: Zendesk Activity Stream API
+  slug: zendesk-activity-stream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-activity-stream-api-openapi.yml
+- filename: zendesk-approval-requests-api-openapi.yml
+  format: yaml
+  label: Zendesk Approval Requests API
+  slug: zendesk-approval-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-approval-requests-api-openapi.yml
+- filename: zendesk-assigneefieldassignableagents-api-openapi.yml
+  format: yaml
+  label: Zendesk AssigneeFieldAssignableAgents API
+  slug: zendesk-assigneefieldassignableagents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-assigneefieldassignableagents-api-openapi.yml
+- filename: zendesk-assigneefieldassignablegroups-api-openapi.yml
+  format: yaml
+  label: Zendesk AssigneeFieldAssignableGroups API
+  slug: zendesk-assigneefieldassignablegroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-assigneefieldassignablegroups-api-openapi.yml
+- filename: zendesk-attachments-api-openapi.yml
+  format: yaml
+  label: Zendesk Attachments API
+  slug: zendesk-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-attachments-api-openapi.yml
+- filename: zendesk-audit-logs-api-openapi.yml
+  format: yaml
+  label: Zendesk Audit Logs API
+  slug: zendesk-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-audit-logs-api-openapi.yml
+- filename: zendesk-autocomplete-api-openapi.yml
+  format: yaml
+  label: Zendesk Autocomplete API
+  slug: zendesk-autocomplete-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-autocomplete-api-openapi.yml
+- filename: zendesk-automations-api-openapi.yml
+  format: yaml
+  label: Zendesk Automations API
+  slug: zendesk-automations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-automations-api-openapi.yml
+- filename: zendesk-basics-api-openapi.yml
+  format: yaml
+  label: Zendesk Basics API
+  slug: zendesk-basics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-basics-api-openapi.yml
+- filename: zendesk-bookmarks-api-openapi.yml
+  format: yaml
+  label: Zendesk Bookmarks API
+  slug: zendesk-bookmarks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-bookmarks-api-openapi.yml
+- filename: zendesk-brand-agents-api-openapi.yml
+  format: yaml
+  label: Zendesk Brand Agents API
+  slug: zendesk-brand-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-brand-agents-api-openapi.yml
+- filename: zendesk-brands-api-openapi.yml
+  format: yaml
+  label: Zendesk Brands API
+  slug: zendesk-brands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-brands-api-openapi.yml
+- filename: zendesk-channel-framework-api-openapi.yml
+  format: yaml
+  label: Zendesk Channel Framework API
+  slug: zendesk-channel-framework-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-channel-framework-api-openapi.yml
+- filename: zendesk-conversation-log-api-openapi.yml
+  format: yaml
+  label: Zendesk Conversation Log API
+  slug: zendesk-conversation-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-conversation-log-api-openapi.yml
+- filename: zendesk-custom-object-fields-api-openapi.yml
+  format: yaml
+  label: Zendesk Custom Object Fields API
+  slug: zendesk-custom-object-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-custom-object-fields-api-openapi.yml
+- filename: zendesk-custom-object-records-api-openapi.yml
+  format: yaml
+  label: Zendesk Custom Object Records API
+  slug: zendesk-custom-object-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-custom-object-records-api-openapi.yml
+- filename: zendesk-custom-objects-api-openapi.yml
+  format: yaml
+  label: Zendesk Custom Objects API
+  slug: zendesk-custom-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-custom-objects-api-openapi.yml
+- filename: zendesk-custom-roles-api-openapi.yml
+  format: yaml
+  label: Zendesk Custom Roles API
+  slug: zendesk-custom-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-custom-roles-api-openapi.yml
+- filename: zendesk-custom-ticket-statuses-api-openapi.yml
+  format: yaml
+  label: Zendesk Custom Ticket Statuses API
+  slug: zendesk-custom-ticket-statuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-custom-ticket-statuses-api-openapi.yml
+- filename: zendesk-deletion-schedules-api-openapi.yml
+  format: yaml
+  label: Zendesk Deletion Schedules API
+  slug: zendesk-deletion-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-deletion-schedules-api-openapi.yml
+- filename: zendesk-dynamic-content-api-openapi.yml
+  format: yaml
+  label: Zendesk Dynamic Content API
+  slug: zendesk-dynamic-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-dynamic-content-api-openapi.yml
+- filename: zendesk-dynamic-content-item-variants-api-openapi.yml
+  format: yaml
+  label: Zendesk Dynamic Content Item Variants API
+  slug: zendesk-dynamic-content-item-variants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-dynamic-content-item-variants-api-openapi.yml
+- filename: zendesk-email-notifications-api-openapi.yml
+  format: yaml
+  label: Zendesk Email Notifications API
+  slug: zendesk-email-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-email-notifications-api-openapi.yml
+- filename: zendesk-essentials-card-api-openapi.yml
+  format: yaml
+  label: Zendesk Essentials Card API
+  slug: zendesk-essentials-card-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-essentials-card-api-openapi.yml
+- filename: zendesk-global-clients-api-openapi.yml
+  format: yaml
+  label: Zendesk Global Clients API
+  slug: zendesk-global-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-global-clients-api-openapi.yml
+- filename: zendesk-grant-type-tokens-api-openapi.yml
+  format: yaml
+  label: Zendesk Grant Type Tokens API
+  slug: zendesk-grant-type-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-grant-type-tokens-api-openapi.yml
+- filename: zendesk-group-memberships-api-openapi.yml
+  format: yaml
+  label: Zendesk Group Memberships API
+  slug: zendesk-group-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-group-memberships-api-openapi.yml
+- filename: zendesk-group-sla-policies-api-openapi.yml
+  format: yaml
+  label: Zendesk Group SLA Policies API
+  slug: zendesk-group-sla-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-group-sla-policies-api-openapi.yml
+- filename: zendesk-groups-api-openapi.yml
+  format: yaml
+  label: Zendesk Groups API
+  slug: zendesk-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-groups-api-openapi.yml
+- filename: zendesk-incremental-export-api-openapi.yml
+  format: yaml
+  label: Zendesk Incremental Export API
+  slug: zendesk-incremental-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-incremental-export-api-openapi.yml
+- filename: zendesk-incremental-skill-based-routing-api-openapi.yml
+  format: yaml
+  label: Zendesk Incremental Skill Based Routing API
+  slug: zendesk-incremental-skill-based-routing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-incremental-skill-based-routing-api-openapi.yml
+- filename: zendesk-job-statuses-api-openapi.yml
+  format: yaml
+  label: Zendesk Job Statuses API
+  slug: zendesk-job-statuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-job-statuses-api-openapi.yml
+- filename: zendesk-locales-api-openapi.yml
+  format: yaml
+  label: Zendesk Locales API
+  slug: zendesk-locales-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-locales-api-openapi.yml
+- filename: zendesk-lookup-relationships-api-openapi.yml
+  format: yaml
+  label: Zendesk Lookup Relationships API
+  slug: zendesk-lookup-relationships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-lookup-relationships-api-openapi.yml
+- filename: zendesk-macros-api-openapi.yml
+  format: yaml
+  label: Zendesk Macros API
+  slug: zendesk-macros-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-macros-api-openapi.yml
+- filename: zendesk-oauth-clients-api-openapi.yml
+  format: yaml
+  label: Zendesk OAuth Clients API
+  slug: zendesk-oauth-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-oauth-clients-api-openapi.yml
+- filename: zendesk-oauth-tokens-api-openapi.yml
+  format: yaml
+  label: Zendesk OAuth Tokens API
+  slug: zendesk-oauth-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-oauth-tokens-api-openapi.yml
+- filename: zendesk-object-triggers-api-openapi.yml
+  format: yaml
+  label: Zendesk Object Triggers API
+  slug: zendesk-object-triggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-object-triggers-api-openapi.yml
+- filename: zendesk-omnichannel-routing-queues-api-openapi.yml
+  format: yaml
+  label: Zendesk Omnichannel Routing Queues API
+  slug: zendesk-omnichannel-routing-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-omnichannel-routing-queues-api-openapi.yml
+- filename: zendesk-organization-fields-api-openapi.yml
+  format: yaml
+  label: Zendesk Organization Fields API
+  slug: zendesk-organization-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-organization-fields-api-openapi.yml
+- filename: zendesk-organization-memberships-api-openapi.yml
+  format: yaml
+  label: Zendesk Organization Memberships API
+  slug: zendesk-organization-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-organization-memberships-api-openapi.yml
+- filename: zendesk-organization-subscriptions-api-openapi.yml
+  format: yaml
+  label: Zendesk Organization Subscriptions API
+  slug: zendesk-organization-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-organization-subscriptions-api-openapi.yml
+- filename: zendesk-organizations-api-openapi.yml
+  format: yaml
+  label: Zendesk Organizations API
+  slug: zendesk-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-organizations-api-openapi.yml
+- filename: zendesk-push-notification-devices-api-openapi.yml
+  format: yaml
+  label: Zendesk Push Notification Devices API
+  slug: zendesk-push-notification-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-push-notification-devices-api-openapi.yml
+- filename: zendesk-requests-api-openapi.yml
+  format: yaml
+  label: Zendesk Requests API
+  slug: zendesk-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-requests-api-openapi.yml
+- filename: zendesk-reseller-api-openapi.yml
+  format: yaml
+  label: Zendesk Reseller API
+  slug: zendesk-reseller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-reseller-api-openapi.yml
+- filename: zendesk-resource-collections-api-openapi.yml
+  format: yaml
+  label: Zendesk Resource Collections API
+  slug: zendesk-resource-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-resource-collections-api-openapi.yml
+- filename: zendesk-satisfaction-ratings-api-openapi.yml
+  format: yaml
+  label: Zendesk Satisfaction Ratings API
+  slug: zendesk-satisfaction-ratings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-satisfaction-ratings-api-openapi.yml
+- filename: zendesk-satisfaction-reasons-api-openapi.yml
+  format: yaml
+  label: Zendesk Satisfaction Reasons API
+  slug: zendesk-satisfaction-reasons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-satisfaction-reasons-api-openapi.yml
+- filename: zendesk-search-api-openapi.yml
+  format: yaml
+  label: Zendesk Search API
+  slug: zendesk-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-search-api-openapi.yml
+- filename: zendesk-sessions-api-openapi.yml
+  format: yaml
+  label: Zendesk Sessions API
+  slug: zendesk-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-sessions-api-openapi.yml
+- filename: zendesk-sharing-agreements-api-openapi.yml
+  format: yaml
+  label: Zendesk Sharing Agreements API
+  slug: zendesk-sharing-agreements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-sharing-agreements-api-openapi.yml
+- filename: zendesk-skill-based-routing-api-openapi.yml
+  format: yaml
+  label: Zendesk Skill Based Routing API
+  slug: zendesk-skill-based-routing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-skill-based-routing-api-openapi.yml
+- filename: zendesk-sla-policies-api-openapi.yml
+  format: yaml
+  label: Zendesk SLA Policies API
+  slug: zendesk-sla-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-sla-policies-api-openapi.yml
+- filename: zendesk-support-addresses-api-openapi.yml
+  format: yaml
+  label: Zendesk Support Addresses API
+  slug: zendesk-support-addresses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-support-addresses-api-openapi.yml
+- filename: zendesk-suspended-tickets-api-openapi.yml
+  format: yaml
+  label: Zendesk Suspended Tickets API
+  slug: zendesk-suspended-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-suspended-tickets-api-openapi.yml
+- filename: zendesk-tags-api-openapi.yml
+  format: yaml
+  label: Zendesk Tags API
+  slug: zendesk-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-tags-api-openapi.yml
+- filename: zendesk-target-failures-api-openapi.yml
+  format: yaml
+  label: Zendesk Target Failures API
+  slug: zendesk-target-failures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-target-failures-api-openapi.yml
+- filename: zendesk-targets-api-openapi.yml
+  format: yaml
+  label: Zendesk Targets API
+  slug: zendesk-targets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-targets-api-openapi.yml
+- filename: zendesk-ticket-audits-api-openapi.yml
+  format: yaml
+  label: Zendesk Ticket Audits API
+  slug: zendesk-ticket-audits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-ticket-audits-api-openapi.yml
+- filename: zendesk-ticket-comments-api-openapi.yml
+  format: yaml
+  label: Zendesk Ticket Comments API
+  slug: zendesk-ticket-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-ticket-comments-api-openapi.yml
+- filename: zendesk-ticket-content-pins-api-openapi.yml
+  format: yaml
+  label: Zendesk Ticket Content Pins API
+  slug: zendesk-ticket-content-pins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-ticket-content-pins-api-openapi.yml
+- filename: zendesk-ticket-fields-api-openapi.yml
+  format: yaml
+  label: Zendesk Ticket Fields API
+  slug: zendesk-ticket-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-ticket-fields-api-openapi.yml
+- filename: zendesk-ticket-form-statuses-api-openapi.yml
+  format: yaml
+  label: Zendesk Ticket Form Statuses API
+  slug: zendesk-ticket-form-statuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-ticket-form-statuses-api-openapi.yml
+- filename: zendesk-ticket-forms-api-openapi.yml
+  format: yaml
+  label: Zendesk Ticket Forms API
+  slug: zendesk-ticket-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-ticket-forms-api-openapi.yml
+- filename: zendesk-ticket-import-api-openapi.yml
+  format: yaml
+  label: Zendesk Ticket Import API
+  slug: zendesk-ticket-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-ticket-import-api-openapi.yml
+- filename: zendesk-ticket-metric-events-api-openapi.yml
+  format: yaml
+  label: Zendesk Ticket Metric Events API
+  slug: zendesk-ticket-metric-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-ticket-metric-events-api-openapi.yml
+- filename: zendesk-ticket-metrics-api-openapi.yml
+  format: yaml
+  label: Zendesk Ticket Metrics API
+  slug: zendesk-ticket-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-ticket-metrics-api-openapi.yml
+- filename: zendesk-ticket-skips-api-openapi.yml
+  format: yaml
+  label: Zendesk Ticket Skips API
+  slug: zendesk-ticket-skips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-ticket-skips-api-openapi.yml
+- filename: zendesk-tickets-api-openapi.yml
+  format: yaml
+  label: Zendesk Tickets API
+  slug: zendesk-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-tickets-api-openapi.yml
+- filename: zendesk-trigger-categories-api-openapi.yml
+  format: yaml
+  label: Zendesk Trigger Categories API
+  slug: zendesk-trigger-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-trigger-categories-api-openapi.yml
+- filename: zendesk-triggers-api-openapi.yml
+  format: yaml
+  label: Zendesk Triggers API
+  slug: zendesk-triggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-triggers-api-openapi.yml
+- filename: zendesk-user-fields-api-openapi.yml
+  format: yaml
+  label: Zendesk User Fields API
+  slug: zendesk-user-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-user-fields-api-openapi.yml
+- filename: zendesk-user-identities-api-openapi.yml
+  format: yaml
+  label: Zendesk User Identities API
+  slug: zendesk-user-identities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-user-identities-api-openapi.yml
+- filename: zendesk-user-passwords-api-openapi.yml
+  format: yaml
+  label: Zendesk User Passwords API
+  slug: zendesk-user-passwords-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-user-passwords-api-openapi.yml
+- filename: zendesk-users-api-openapi.yml
+  format: yaml
+  label: Zendesk Users API
+  slug: zendesk-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-users-api-openapi.yml
+- filename: zendesk-views-api-openapi.yml
+  format: yaml
+  label: Zendesk Views API
+  slug: zendesk-views-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-views-api-openapi.yml
+- filename: zendesk-workspaces-api-openapi.yml
+  format: yaml
+  label: Zendesk Workspaces API
+  slug: zendesk-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-workspaces-api-openapi.yml
+- filename: zendesk-x-channel-api-openapi.yml
+  format: yaml
+  label: Zendesk X Channel API
+  slug: zendesk-x-channel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/openapi/zendesk-x-channel-api-openapi.yml
 description: ''
 domains:
 - caa: []

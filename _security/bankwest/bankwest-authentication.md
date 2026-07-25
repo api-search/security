@@ -1,36 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: bankwest-cds-banking-products-openapi.yml
+- filename: bankwest-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Bankwest CDR Product Reference Data API
-  slug: bankwest-cdr-product-reference-data-api
+  label: Bankwest Banking Account Balances API
+  slug: bankwest-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-cds-banking-products-openapi.yml
-- filename: bankwest-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-banking-account-balances-api-openapi.yml
+- filename: bankwest-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Bankwest CDR Accounts & Balances API
-  slug: bankwest-cdr-accounts-balances-api
+  label: Bankwest Banking Account Direct Debits API
+  slug: bankwest-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-cds-banking-products-openapi.yml
-- filename: bankwest-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-banking-account-direct-debits-api-openapi.yml
+- filename: bankwest-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Bankwest CDR Transactions API
-  slug: bankwest-cdr-transactions-api
+  label: Bankwest Banking Account Scheduled Payments API
+  slug: bankwest-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-cds-banking-products-openapi.yml
-- filename: bankwest-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-banking-account-scheduled-payments-api-openapi.yml
+- filename: bankwest-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Bankwest CDR Direct Debits & Scheduled Payments API
-  slug: bankwest-cdr-direct-debits-scheduled-payments-api
+  label: Bankwest Banking Account Transactions API
+  slug: bankwest-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-cds-banking-products-openapi.yml
-- filename: bankwest-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-banking-account-transactions-api-openapi.yml
+- filename: bankwest-banking-accounts-api-openapi.yml
   format: yaml
-  label: Bankwest CDR Payees API
-  slug: bankwest-cdr-payees-api
+  label: Bankwest Banking Accounts API
+  slug: bankwest-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-banking-accounts-api-openapi.yml
+- filename: bankwest-banking-payees-api-openapi.yml
+  format: yaml
+  label: Bankwest Banking Payees API
+  slug: bankwest-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-banking-payees-api-openapi.yml
+- filename: bankwest-banking-products-api-openapi.yml
+  format: yaml
+  label: Bankwest Banking Products API
+  slug: bankwest-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: beeceptor-openapi.yml
+- filename: beeceptor-endpoint-settings-api-openapi.yml
   format: yaml
-  label: Beeceptor API
-  slug: beeceptor
+  label: Beeceptor Endpoint Settings API
+  slug: beeceptor-endpoint-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/openapi/beeceptor-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/openapi/beeceptor-endpoint-settings-api-openapi.yml
+- filename: beeceptor-mock-rules-api-openapi.yml
+  format: yaml
+  label: Beeceptor Mock Rules API
+  slug: beeceptor-mock-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/openapi/beeceptor-mock-rules-api-openapi.yml
+- filename: beeceptor-request-history-api-openapi.yml
+  format: yaml
+  label: Beeceptor Request History API
+  slug: beeceptor-request-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/openapi/beeceptor-request-history-api-openapi.yml
+- filename: beeceptor-state-store-api-openapi.yml
+  format: yaml
+  label: Beeceptor State Store API
+  slug: beeceptor-state-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/openapi/beeceptor-state-store-api-openapi.yml
 description: ''
 domains:
 - caa: []

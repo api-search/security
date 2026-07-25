@@ -2,12 +2,102 @@
 api_key_in:
 - header
 api_specs:
-- filename: tabapay-openapi.yml
+- filename: tabapay-3d-secure-api-openapi.yml
   format: yaml
-  label: TabaPay Unified API
-  slug: tabapay-unified-api
+  label: TabaPay 3D Secure API
+  slug: tabapay-3d-secure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-3d-secure-api-openapi.yml
+- filename: tabapay-account-api-openapi.yml
+  format: yaml
+  label: TabaPay Account API
+  slug: tabapay-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-account-api-openapi.yml
+- filename: tabapay-bank-api-openapi.yml
+  format: yaml
+  label: TabaPay Bank API
+  slug: tabapay-bank-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-bank-api-openapi.yml
+- filename: tabapay-card-api-openapi.yml
+  format: yaml
+  label: TabaPay Card API
+  slug: tabapay-card-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-card-api-openapi.yml
+- filename: tabapay-client-api-openapi.yml
+  format: yaml
+  label: TabaPay Client API
+  slug: tabapay-client-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-client-api-openapi.yml
+- filename: tabapay-fxrate-api-openapi.yml
+  format: yaml
+  label: TabaPay FXRate API
+  slug: tabapay-fxrate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-fxrate-api-openapi.yml
+- filename: tabapay-health-api-openapi.yml
+  format: yaml
+  label: TabaPay Health API
+  slug: tabapay-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-health-api-openapi.yml
+- filename: tabapay-key-api-openapi.yml
+  format: yaml
+  label: TabaPay Key API
+  slug: tabapay-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-key-api-openapi.yml
+- filename: tabapay-ledger-api-openapi.yml
+  format: yaml
+  label: TabaPay Ledger API
+  slug: tabapay-ledger-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-ledger-api-openapi.yml
+- filename: tabapay-ofac-api-openapi.yml
+  format: yaml
+  label: TabaPay OFAC API
+  slug: tabapay-ofac-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-ofac-api-openapi.yml
+- filename: tabapay-subclient-api-openapi.yml
+  format: yaml
+  label: TabaPay SubClient API
+  slug: tabapay-subclient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-subclient-api-openapi.yml
+- filename: tabapay-tag-api-openapi.yml
+  format: yaml
+  label: TabaPay Tag API
+  slug: tabapay-tag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-tag-api-openapi.yml
+- filename: tabapay-transaction-api-openapi.yml
+  format: yaml
+  label: TabaPay Transaction API
+  slug: tabapay-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-transaction-api-openapi.yml
+- filename: tabapay-transactionrequest-api-openapi.yml
+  format: yaml
+  label: TabaPay TransactionRequest API
+  slug: tabapay-transactionrequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-transactionrequest-api-openapi.yml
+- filename: tabapay-user-api-openapi.yml
+  format: yaml
+  label: TabaPay User API
+  slug: tabapay-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-user-api-openapi.yml
+- filename: tabapay-verification-api-openapi.yml
+  format: yaml
+  label: TabaPay Verification API
+  slug: tabapay-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-verification-api-openapi.yml
 auth_types:
 - apiKey
 - http

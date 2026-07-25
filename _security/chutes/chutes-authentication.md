@@ -1,30 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: chutes-openapi.yml
+- filename: chutes-chat-api-openapi.yml
   format: yaml
-  label: Chutes LLM Inference (Chat Completions) API
-  slug: chutes-llm-inference-api
+  label: Chutes Chat API
+  slug: chutes-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chutes/refs/heads/main/openapi/chutes-openapi.yml
-- filename: chutes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chutes/refs/heads/main/openapi/chutes-chat-api-openapi.yml
+- filename: chutes-chutes-api-openapi.yml
   format: yaml
-  label: Chutes Image / Other Models API
-  slug: chutes-image-other-models-api
+  label: Chutes Chutes API
+  slug: chutes-chutes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chutes/refs/heads/main/openapi/chutes-openapi.yml
-- filename: chutes-openapi.yml
-  format: yaml
-  label: Chutes Management (Deploy / List) API
-  slug: chutes-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chutes/refs/heads/main/openapi/chutes-openapi.yml
-- filename: chutes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chutes/refs/heads/main/openapi/chutes-chutes-api-openapi.yml
+- filename: chutes-images-api-openapi.yml
   format: yaml
   label: Chutes Images API
   slug: chutes-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chutes/refs/heads/main/openapi/chutes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chutes/refs/heads/main/openapi/chutes-images-api-openapi.yml
+- filename: chutes-models-api-openapi.yml
+  format: yaml
+  label: Chutes Models API
+  slug: chutes-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chutes/refs/heads/main/openapi/chutes-models-api-openapi.yml
 auth_types:
 - http
 description: ''

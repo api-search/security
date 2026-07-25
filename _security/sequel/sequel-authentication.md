@@ -1,12 +1,78 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sequel-openapi-original.yml
+- filename: sequel-analytics-api-openapi.yml
   format: yaml
-  label: Sequel (Introvoke) API
-  slug: sequel-introvoke-api
+  label: Sequel Analytics API
+  slug: sequel-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-analytics-api-openapi.yml
+- filename: sequel-client-api-openapi.yml
+  format: yaml
+  label: Sequel Client API
+  slug: sequel-client-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-client-api-openapi.yml
+- filename: sequel-company-api-openapi.yml
+  format: yaml
+  label: Sequel company API
+  slug: sequel-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-company-api-openapi.yml
+- filename: sequel-company-theme-api-openapi.yml
+  format: yaml
+  label: Sequel company theme API
+  slug: sequel-company-theme-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-company-theme-api-openapi.yml
+- filename: sequel-company-theme-fonts-api-openapi.yml
+  format: yaml
+  label: Sequel company theme fonts API
+  slug: sequel-company-theme-fonts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-company-theme-fonts-api-openapi.yml
+- filename: sequel-company-theme-overrides-api-openapi.yml
+  format: yaml
+  label: Sequel company theme overrides API
+  slug: sequel-company-theme-overrides-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-company-theme-overrides-api-openapi.yml
+- filename: sequel-event-api-openapi.yml
+  format: yaml
+  label: Sequel event API
+  slug: sequel-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-event-api-openapi.yml
+- filename: sequel-event-theme-api-openapi.yml
+  format: yaml
+  label: Sequel event theme API
+  slug: sequel-event-theme-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-event-theme-api-openapi.yml
+- filename: sequel-event-theme-overrides-api-openapi.yml
+  format: yaml
+  label: Sequel event theme overrides API
+  slug: sequel-event-theme-overrides-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-event-theme-overrides-api-openapi.yml
+- filename: sequel-media-api-openapi.yml
+  format: yaml
+  label: Sequel Media API
+  slug: sequel-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-media-api-openapi.yml
+- filename: sequel-networking-api-openapi.yml
+  format: yaml
+  label: Sequel networking API
+  slug: sequel-networking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-networking-api-openapi.yml
+- filename: sequel-platform-api-openapi.yml
+  format: yaml
+  label: Sequel platform API
+  slug: sequel-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-platform-api-openapi.yml
 auth_types:
 - oauth2
 - http

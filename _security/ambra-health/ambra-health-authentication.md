@@ -2,66 +2,66 @@
 api_key_in:
 - header
 api_specs:
-- filename: ambra-health-openapi.yml
-  format: yaml
-  label: Ambra Health Session API
-  slug: ambra-health-session-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-openapi.yml
-- filename: ambra-health-openapi.yml
-  format: yaml
-  label: Ambra Health Studies API
-  slug: ambra-health-studies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-openapi.yml
-- filename: ambra-health-openapi.yml
-  format: yaml
-  label: Ambra Health Patients API
-  slug: ambra-health-patients-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-openapi.yml
-- filename: ambra-health-openapi.yml
-  format: yaml
-  label: Ambra Health Users API
-  slug: ambra-health-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-openapi.yml
-- filename: ambra-health-openapi.yml
-  format: yaml
-  label: Ambra Health Groups API
-  slug: ambra-health-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-openapi.yml
-- filename: ambra-health-openapi.yml
+- filename: ambra-health-accounts-api-openapi.yml
   format: yaml
   label: Ambra Health Accounts API
   slug: ambra-health-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-openapi.yml
-- filename: ambra-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-accounts-api-openapi.yml
+- filename: ambra-health-groups-api-openapi.yml
+  format: yaml
+  label: Ambra Health Groups API
+  slug: ambra-health-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-groups-api-openapi.yml
+- filename: ambra-health-namespaces-api-openapi.yml
   format: yaml
   label: Ambra Health Namespaces API
   slug: ambra-health-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-openapi.yml
-- filename: ambra-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-namespaces-api-openapi.yml
+- filename: ambra-health-patients-api-openapi.yml
+  format: yaml
+  label: Ambra Health Patients API
+  slug: ambra-health-patients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-patients-api-openapi.yml
+- filename: ambra-health-session-api-openapi.yml
+  format: yaml
+  label: Ambra Health Session API
+  slug: ambra-health-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-session-api-openapi.yml
+- filename: ambra-health-sharing-api-openapi.yml
   format: yaml
   label: Ambra Health Sharing API
   slug: ambra-health-sharing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-openapi.yml
-- filename: ambra-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-sharing-api-openapi.yml
+- filename: ambra-health-storage-images-api-openapi.yml
   format: yaml
-  label: Ambra Health Storage and Images API
+  label: Ambra Health Storage & Images API
   slug: ambra-health-storage-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-openapi.yml
-- filename: ambra-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-storage-images-api-openapi.yml
+- filename: ambra-health-studies-api-openapi.yml
+  format: yaml
+  label: Ambra Health Studies API
+  slug: ambra-health-studies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-studies-api-openapi.yml
+- filename: ambra-health-users-api-openapi.yml
+  format: yaml
+  label: Ambra Health Users API
+  slug: ambra-health-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-users-api-openapi.yml
+- filename: ambra-health-webhooks-api-openapi.yml
   format: yaml
   label: Ambra Health Webhooks API
   slug: ambra-health-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -2,12 +2,42 @@
 api_key_in:
 - query
 api_specs:
-- filename: nacos-open-api.yml
+- filename: nacos-auth-api-openapi.yml
   format: yaml
-  label: Nacos
-  slug: nacos
+  label: Nacos Auth API
+  slug: nacos-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-open-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-auth-api-openapi.yml
+- filename: nacos-configuration-api-openapi.yml
+  format: yaml
+  label: Nacos Configuration API
+  slug: nacos-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-configuration-api-openapi.yml
+- filename: nacos-namespace-api-openapi.yml
+  format: yaml
+  label: Nacos Namespace API
+  slug: nacos-namespace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-namespace-api-openapi.yml
+- filename: nacos-operator-api-openapi.yml
+  format: yaml
+  label: Nacos Operator API
+  slug: nacos-operator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-operator-api-openapi.yml
+- filename: nacos-service-discovery-api-openapi.yml
+  format: yaml
+  label: Nacos Service Discovery API
+  slug: nacos-service-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-service-discovery-api-openapi.yml
+- filename: nacos-service-management-api-openapi.yml
+  format: yaml
+  label: Nacos Service Management API
+  slug: nacos-service-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-service-management-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

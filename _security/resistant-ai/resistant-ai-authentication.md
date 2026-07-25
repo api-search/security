@@ -1,18 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: resistant-ai-documents-openapi.json
-  format: json
-  label: Resistant Documents API
-  slug: resistant-documents-api
+- filename: resistant-ai-submission-api-openapi.yml
+  format: yaml
+  label: Resistant AI Submission API
+  slug: resistant-ai-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/openapi/resistant-ai-documents-openapi.json
-- filename: resistant-ai-tenant-management-openapi.json
-  format: json
-  label: Resistant Documents Tenant Management API
-  slug: resistant-documents-tenant-management-api
+  url: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/openapi/resistant-ai-submission-api-openapi.yml
+- filename: resistant-ai-tenants-api-openapi.yml
+  format: yaml
+  label: Resistant AI Tenants API
+  slug: resistant-ai-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/openapi/resistant-ai-tenant-management-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/openapi/resistant-ai-tenants-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

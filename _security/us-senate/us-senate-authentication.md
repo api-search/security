@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: us-senate-lda-openapi.yml
+- filename: us-senate-clients-api-openapi.yml
   format: yaml
-  label: Senate Lobbying Disclosure Act (LDA) API
-  slug: lda-api
+  label: US Senate Clients API
+  slug: us-senate-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/openapi/us-senate-lda-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/openapi/us-senate-clients-api-openapi.yml
+- filename: us-senate-constants-api-openapi.yml
+  format: yaml
+  label: US Senate Constants API
+  slug: us-senate-constants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/openapi/us-senate-constants-api-openapi.yml
+- filename: us-senate-contributions-api-openapi.yml
+  format: yaml
+  label: US Senate Contributions API
+  slug: us-senate-contributions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/openapi/us-senate-contributions-api-openapi.yml
+- filename: us-senate-filings-api-openapi.yml
+  format: yaml
+  label: US Senate Filings API
+  slug: us-senate-filings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/openapi/us-senate-filings-api-openapi.yml
+- filename: us-senate-lobbyists-api-openapi.yml
+  format: yaml
+  label: US Senate Lobbyists API
+  slug: us-senate-lobbyists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/openapi/us-senate-lobbyists-api-openapi.yml
+- filename: us-senate-registrants-api-openapi.yml
+  format: yaml
+  label: US Senate Registrants API
+  slug: us-senate-registrants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/openapi/us-senate-registrants-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

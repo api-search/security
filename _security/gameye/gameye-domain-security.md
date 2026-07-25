@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: gameye-session-openapi.yml
+- filename: gameye-artifacts-api-openapi.yml
+  format: yaml
+  label: Gameye Artifacts API
+  slug: gameye-artifacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-artifacts-api-openapi.yml
+- filename: gameye-available-location-api-openapi.yml
+  format: yaml
+  label: Gameye Available Location API
+  slug: gameye-available-location-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-available-location-api-openapi.yml
+- filename: gameye-logs-api-openapi.yml
+  format: yaml
+  label: Gameye Logs API
+  slug: gameye-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-logs-api-openapi.yml
+- filename: gameye-session-api-openapi.yml
   format: yaml
   label: Gameye Session API
   slug: gameye-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-session-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-session-api-openapi.yml
+- filename: gameye-tag-api-openapi.yml
+  format: yaml
+  label: Gameye Tag API
+  slug: gameye-tag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-tag-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,18 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: thermo-fisher-samplemanager-openapi.yml
+- filename: thermo-fisher-scientific-authentication-api-openapi.yml
   format: yaml
-  label: Thermo Fisher SampleManager LIMS REST API
-  slug: samplemanager-lims
+  label: Thermo Fisher Scientific Authentication API
+  slug: thermo-fisher-scientific-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-samplemanager-openapi.yml
-- filename: thermo-fisher-nanodrop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-authentication-api-openapi.yml
+- filename: thermo-fisher-scientific-entities-api-openapi.yml
   format: yaml
-  label: Thermo Fisher NanoDrop Ultra Web API
-  slug: nanodrop-ultra
+  label: Thermo Fisher Scientific Entities API
+  slug: thermo-fisher-scientific-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-nanodrop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-entities-api-openapi.yml
+- filename: thermo-fisher-scientific-export-api-openapi.yml
+  format: yaml
+  label: Thermo Fisher Scientific Export API
+  slug: thermo-fisher-scientific-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-export-api-openapi.yml
+- filename: thermo-fisher-scientific-instrument-api-openapi.yml
+  format: yaml
+  label: Thermo Fisher Scientific Instrument API
+  slug: thermo-fisher-scientific-instrument-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-instrument-api-openapi.yml
+- filename: thermo-fisher-scientific-measurements-api-openapi.yml
+  format: yaml
+  label: Thermo Fisher Scientific Measurements API
+  slug: thermo-fisher-scientific-measurements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-measurements-api-openapi.yml
+- filename: thermo-fisher-scientific-methods-api-openapi.yml
+  format: yaml
+  label: Thermo Fisher Scientific Methods API
+  slug: thermo-fisher-scientific-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-methods-api-openapi.yml
+- filename: thermo-fisher-scientific-results-api-openapi.yml
+  format: yaml
+  label: Thermo Fisher Scientific Results API
+  slug: thermo-fisher-scientific-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-results-api-openapi.yml
+- filename: thermo-fisher-scientific-samples-api-openapi.yml
+  format: yaml
+  label: Thermo Fisher Scientific Samples API
+  slug: thermo-fisher-scientific-samples-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-samples-api-openapi.yml
+- filename: thermo-fisher-scientific-workflows-api-openapi.yml
+  format: yaml
+  label: Thermo Fisher Scientific Workflows API
+  slug: thermo-fisher-scientific-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-workflows-api-openapi.yml
 auth_types:
 - http
 description: ''

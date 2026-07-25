@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: circana-liquid-data.yaml
+- filename: circana-brands-api-openapi.yml
   format: yaml
-  label: Circana Liquid Data API
-  slug: liquid-data-api
+  label: Circana Brands API
+  slug: circana-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/openapi/circana-liquid-data.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/openapi/circana-brands-api-openapi.yml
+- filename: circana-categories-api-openapi.yml
+  format: yaml
+  label: Circana Categories API
+  slug: circana-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/openapi/circana-categories-api-openapi.yml
+- filename: circana-consumer-panel-api-openapi.yml
+  format: yaml
+  label: Circana Consumer Panel API
+  slug: circana-consumer-panel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/openapi/circana-consumer-panel-api-openapi.yml
+- filename: circana-exports-api-openapi.yml
+  format: yaml
+  label: Circana Exports API
+  slug: circana-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/openapi/circana-exports-api-openapi.yml
+- filename: circana-market-data-api-openapi.yml
+  format: yaml
+  label: Circana Market Data API
+  slug: circana-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/openapi/circana-market-data-api-openapi.yml
+- filename: circana-reports-api-openapi.yml
+  format: yaml
+  label: Circana Reports API
+  slug: circana-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/openapi/circana-reports-api-openapi.yml
+- filename: circana-retailers-api-openapi.yml
+  format: yaml
+  label: Circana Retailers API
+  slug: circana-retailers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/openapi/circana-retailers-api-openapi.yml
 description: ''
 domains:
 - caa:

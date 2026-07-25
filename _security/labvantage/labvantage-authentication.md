@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: labvantage-lims-openapi.yml
+- filename: labvantage-containers-api-openapi.yml
   format: yaml
-  label: LabVantage LIMS API
-  slug: labvantage-lims-api
+  label: LabVantage Solutions Containers API
+  slug: labvantage-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/labvantage/refs/heads/main/openapi/labvantage-lims-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/labvantage/refs/heads/main/openapi/labvantage-containers-api-openapi.yml
+- filename: labvantage-instruments-api-openapi.yml
+  format: yaml
+  label: LabVantage Solutions Instruments API
+  slug: labvantage-instruments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/labvantage/refs/heads/main/openapi/labvantage-instruments-api-openapi.yml
+- filename: labvantage-results-api-openapi.yml
+  format: yaml
+  label: LabVantage Solutions Results API
+  slug: labvantage-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/labvantage/refs/heads/main/openapi/labvantage-results-api-openapi.yml
+- filename: labvantage-samples-api-openapi.yml
+  format: yaml
+  label: LabVantage Solutions Samples API
+  slug: labvantage-samples-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/labvantage/refs/heads/main/openapi/labvantage-samples-api-openapi.yml
+- filename: labvantage-tests-api-openapi.yml
+  format: yaml
+  label: LabVantage Solutions Tests API
+  slug: labvantage-tests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/labvantage/refs/heads/main/openapi/labvantage-tests-api-openapi.yml
 auth_types:
 - http
 description: ''

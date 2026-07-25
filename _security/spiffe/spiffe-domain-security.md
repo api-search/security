@@ -6,12 +6,12 @@ api_specs:
   slug: spiffe-workload-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/spiffe/refs/heads/main/asyncapi/spiffe-workload-asyncapi.yml
-- filename: spiffe-federation-openapi.yml
+- filename: spiffe-bundle-api-openapi.yml
   format: yaml
-  label: SPIFFE Federation API
-  slug: spiffe-federation-api
+  label: SPIFFE Bundle API
+  slug: spiffe-bundle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spiffe/refs/heads/main/openapi/spiffe-federation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spiffe/refs/heads/main/openapi/spiffe-bundle-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,12 +2,66 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-application-migration-service-openapi.yml
+- filename: amazon-application-migration-service-applications-api-openapi.yml
   format: yaml
-  label: Amazon Application Migration Service API
-  slug: amazon-application-migration-service-api
+  label: Amazon Application Migration Service Applications API
+  slug: amazon-application-migration-service-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-applications-api-openapi.yml
+- filename: amazon-application-migration-service-exports-api-openapi.yml
+  format: yaml
+  label: Amazon Application Migration Service Exports API
+  slug: amazon-application-migration-service-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-exports-api-openapi.yml
+- filename: amazon-application-migration-service-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon Application Migration Service Jobs API
+  slug: amazon-application-migration-service-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-jobs-api-openapi.yml
+- filename: amazon-application-migration-service-launch-api-openapi.yml
+  format: yaml
+  label: Amazon Application Migration Service Launch API
+  slug: amazon-application-migration-service-launch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-launch-api-openapi.yml
+- filename: amazon-application-migration-service-lifecycle-hooks-api-openapi.yml
+  format: yaml
+  label: Amazon Application Migration Service Lifecycle Hooks API
+  slug: amazon-application-migration-service-lifecycle-hooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-lifecycle-hooks-api-openapi.yml
+- filename: amazon-application-migration-service-replication-api-openapi.yml
+  format: yaml
+  label: Amazon Application Migration Service Replication API
+  slug: amazon-application-migration-service-replication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-replication-api-openapi.yml
+- filename: amazon-application-migration-service-source-servers-api-openapi.yml
+  format: yaml
+  label: Amazon Application Migration Service Source Servers API
+  slug: amazon-application-migration-service-source-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-source-servers-api-openapi.yml
+- filename: amazon-application-migration-service-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Application Migration Service Tags API
+  slug: amazon-application-migration-service-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-tags-api-openapi.yml
+- filename: amazon-application-migration-service-vcenter-clients-api-openapi.yml
+  format: yaml
+  label: Amazon Application Migration Service Vcenter Clients API
+  slug: amazon-application-migration-service-vcenter-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-vcenter-clients-api-openapi.yml
+- filename: amazon-application-migration-service-waves-api-openapi.yml
+  format: yaml
+  label: Amazon Application Migration Service Waves API
+  slug: amazon-application-migration-service-waves-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-waves-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

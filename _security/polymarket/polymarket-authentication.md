@@ -8,6 +8,30 @@ api_specs:
   slug: websocket
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/asyncapi/polymarket-asyncapi.yml
+- filename: polymarket-clob-market-data-api-openapi.yml
+  format: yaml
+  label: Polymarket CLOB Market Data API
+  slug: polymarket-clob-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/openapi/polymarket-clob-market-data-api-openapi.yml
+- filename: polymarket-clob-trade-api-openapi.yml
+  format: yaml
+  label: Polymarket CLOB Trade API
+  slug: polymarket-clob-trade-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/openapi/polymarket-clob-trade-api-openapi.yml
+- filename: polymarket-gamma-events-api-openapi.yml
+  format: yaml
+  label: Polymarket Gamma Events API
+  slug: polymarket-gamma-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/openapi/polymarket-gamma-events-api-openapi.yml
+- filename: polymarket-gamma-markets-api-openapi.yml
+  format: yaml
+  label: Polymarket Gamma Markets API
+  slug: polymarket-gamma-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/openapi/polymarket-gamma-markets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

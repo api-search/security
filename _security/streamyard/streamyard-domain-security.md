@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: streamyard-openapi.yml
+- filename: streamyard-broadcasts-api-openapi.yml
   format: yaml
-  label: StreamYard API
-  slug: streamyard-api
+  label: StreamYard Broadcasts API
+  slug: streamyard-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamyard/refs/heads/main/openapi/streamyard-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/streamyard/refs/heads/main/openapi/streamyard-broadcasts-api-openapi.yml
+- filename: streamyard-destinations-api-openapi.yml
+  format: yaml
+  label: StreamYard Destinations API
+  slug: streamyard-destinations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streamyard/refs/heads/main/openapi/streamyard-destinations-api-openapi.yml
+- filename: streamyard-recordings-api-openapi.yml
+  format: yaml
+  label: StreamYard Recordings API
+  slug: streamyard-recordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streamyard/refs/heads/main/openapi/streamyard-recordings-api-openapi.yml
 description: ''
 domains:
 - caa: []

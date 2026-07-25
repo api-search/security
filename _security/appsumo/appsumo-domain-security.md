@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: appsumo-licensing-openapi.yaml
+- filename: appsumo-licenses-api-openapi.yml
   format: yaml
-  label: AppSumo Licensing API
-  slug: appsumo-licensing-api
+  label: AppSumo Licenses API
+  slug: appsumo-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsumo/refs/heads/main/openapi/appsumo-licensing-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/appsumo/refs/heads/main/openapi/appsumo-licenses-api-openapi.yml
+- filename: appsumo-profile-api-openapi.yml
+  format: yaml
+  label: AppSumo Profile API
+  slug: appsumo-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appsumo/refs/heads/main/openapi/appsumo-profile-api-openapi.yml
 description: ''
 domains:
 - caa: []

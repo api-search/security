@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: dune-analytics-execution-api-openapi.yml
+  format: yaml
+  label: Dune Analytics Execution API
+  slug: dune-analytics-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dune-analytics/refs/heads/main/openapi/dune-analytics-execution-api-openapi.yml
+- filename: dune-analytics-query-api-openapi.yml
+  format: yaml
+  label: Dune Analytics Query API
+  slug: dune-analytics-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dune-analytics/refs/heads/main/openapi/dune-analytics-query-api-openapi.yml
 description: ''
 domains:
 - caa: []

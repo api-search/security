@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: openapi
+- filename: convertapi-conversion-api-openapi.yml
   format: yaml
-  label: ConvertAPI
-  slug: convertapi
+  label: ConvertAPI Conversion API
+  slug: convertapi-conversion-api
   spec_type: OpenAPI
-  url: https://v2.convertapi.com/info/openapi
+  url: https://raw.githubusercontent.com/api-evangelist/convertapi/refs/heads/main/openapi/convertapi-conversion-api-openapi.yml
+- filename: convertapi-file-server-api-openapi.yml
+  format: yaml
+  label: ConvertAPI File Server API
+  slug: convertapi-file-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convertapi/refs/heads/main/openapi/convertapi-file-server-api-openapi.yml
+- filename: convertapi-user-api-openapi.yml
+  format: yaml
+  label: ConvertAPI User API
+  slug: convertapi-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convertapi/refs/heads/main/openapi/convertapi-user-api-openapi.yml
 certifications:
 - ISO 27001
 description: ''

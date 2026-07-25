@@ -1,11 +1,203 @@
 ---
 api_specs:
-- filename: fhir-openapi-original.yml
+- filename: fhir-allergyintolerance-api-openapi.yml
   format: yaml
-  label: US Core Server CapabilityStatement
-  slug: fast-healthcare-interoperability-resources-api
+  label: Fast Healthcare Interoperability Resources AllergyIntolerance API
+  slug: fhir-allergyintolerance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-allergyintolerance-api-openapi.yml
+- filename: fhir-careplan-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources CarePlan API
+  slug: fhir-careplan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-careplan-api-openapi.yml
+- filename: fhir-careteam-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources CareTeam API
+  slug: fhir-careteam-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-careteam-api-openapi.yml
+- filename: fhir-condition-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources Condition API
+  slug: fhir-condition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-condition-api-openapi.yml
+- filename: fhir-coverage-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources Coverage API
+  slug: fhir-coverage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-coverage-api-openapi.yml
+- filename: fhir-device-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources Device API
+  slug: fhir-device-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-device-api-openapi.yml
+- filename: fhir-diagnosticreport-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources DiagnosticReport API
+  slug: fhir-diagnosticreport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-diagnosticreport-api-openapi.yml
+- filename: fhir-documentreference-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources DocumentReference API
+  slug: fhir-documentreference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-documentreference-api-openapi.yml
+- filename: fhir-encounter-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources Encounter API
+  slug: fhir-encounter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-encounter-api-openapi.yml
+- filename: fhir-endpoint-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources Endpoint API
+  slug: fhir-endpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-endpoint-api-openapi.yml
+- filename: fhir-fast-healthcare-interoperability-resources-fhir-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources Fast Healthcare Interoperability Resources (FHIR) API
+  slug: fhir-fast-healthcare-interoperability-resources-fhir-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-fast-healthcare-interoperability-resources-fhir-api-openapi.yml
+- filename: fhir-goal-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources Goal API
+  slug: fhir-goal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-goal-api-openapi.yml
+- filename: fhir-healthcareservice-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources HealthcareService API
+  slug: fhir-healthcareservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-healthcareservice-api-openapi.yml
+- filename: fhir-history-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources  History API
+  slug: fhir-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-history-api-openapi.yml
+- filename: fhir-immunization-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources Immunization API
+  slug: fhir-immunization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-immunization-api-openapi.yml
+- filename: fhir-location-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources Location API
+  slug: fhir-location-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-location-api-openapi.yml
+- filename: fhir-media-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources Media API
+  slug: fhir-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-media-api-openapi.yml
+- filename: fhir-medication-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources Medication API
+  slug: fhir-medication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-medication-api-openapi.yml
+- filename: fhir-medicationdispense-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources MedicationDispense API
+  slug: fhir-medicationdispense-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-medicationdispense-api-openapi.yml
+- filename: fhir-medicationrequest-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources MedicationRequest API
+  slug: fhir-medicationrequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-medicationrequest-api-openapi.yml
+- filename: fhir-metadata-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources Metadata API
+  slug: fhir-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-metadata-api-openapi.yml
+- filename: fhir-observation-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources Observation API
+  slug: fhir-observation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-observation-api-openapi.yml
+- filename: fhir-organization-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources Organization API
+  slug: fhir-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-organization-api-openapi.yml
+- filename: fhir-patient-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources Patient API
+  slug: fhir-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-patient-api-openapi.yml
+- filename: fhir-practitioner-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources Practitioner API
+  slug: fhir-practitioner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-practitioner-api-openapi.yml
+- filename: fhir-practitionerrole-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources PractitionerRole API
+  slug: fhir-practitionerrole-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-practitionerrole-api-openapi.yml
+- filename: fhir-procedure-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources Procedure API
+  slug: fhir-procedure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-procedure-api-openapi.yml
+- filename: fhir-provenance-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources Provenance API
+  slug: fhir-provenance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-provenance-api-openapi.yml
+- filename: fhir-questionnaire-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources Questionnaire API
+  slug: fhir-questionnaire-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-questionnaire-api-openapi.yml
+- filename: fhir-questionnaireresponse-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources QuestionnaireResponse API
+  slug: fhir-questionnaireresponse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-questionnaireresponse-api-openapi.yml
+- filename: fhir-relatedperson-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources RelatedPerson API
+  slug: fhir-relatedperson-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-relatedperson-api-openapi.yml
+- filename: fhir-servicerequest-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources ServiceRequest API
+  slug: fhir-servicerequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-servicerequest-api-openapi.yml
+- filename: fhir-specimen-api-openapi.yml
+  format: yaml
+  label: Fast Healthcare Interoperability Resources Specimen API
+  slug: fhir-specimen-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/openapi/fhir-specimen-api-openapi.yml
 description: ''
 domains:
 - caa:

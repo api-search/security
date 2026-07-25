@@ -1,18 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: crisp-openapi.yml
-  format: yaml
-  label: Crisp REST API v1
-  slug: crisp-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/openapi/crisp-openapi.yml
 - filename: crisp-asyncapi.yml
   format: yaml
   label: Crisp Realtime (Webhooks + RTM) v1
   slug: crisp-realtime-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/asyncapi/crisp-asyncapi.yml
+- filename: crisp-conversations-api-openapi.yml
+  format: yaml
+  label: Crisp Conversations API
+  slug: crisp-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/openapi/crisp-conversations-api-openapi.yml
+- filename: crisp-website-api-openapi.yml
+  format: yaml
+  label: Crisp Website API
+  slug: crisp-website-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/openapi/crisp-website-api-openapi.yml
 auth_types:
 - http
 description: ''

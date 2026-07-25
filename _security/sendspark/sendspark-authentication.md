@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: sendspark-openapi-original.json
-  format: json
-  label: Sendspark API
-  slug: sendspark-api
+- filename: sendspark-dvm-bundles-api-openapi.yml
+  format: yaml
+  label: Sendspark DVM Bundles API
+  slug: sendspark-dvm-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/openapi/sendspark-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/openapi/sendspark-dvm-bundles-api-openapi.yml
+- filename: sendspark-dynamics-campaign-api-openapi.yml
+  format: yaml
+  label: Sendspark Dynamics Campaign API
+  slug: sendspark-dynamics-campaign-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/openapi/sendspark-dynamics-campaign-api-openapi.yml
+- filename: sendspark-webhook-api-openapi.yml
+  format: yaml
+  label: Sendspark Webhook API
+  slug: sendspark-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/openapi/sendspark-webhook-api-openapi.yml
+- filename: sendspark-workspace-api-openapi.yml
+  format: yaml
+  label: Sendspark Workspace API
+  slug: sendspark-workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/openapi/sendspark-workspace-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

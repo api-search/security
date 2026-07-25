@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: robin-ai-openapi.yml
+- filename: robin-ai-documents-api-openapi.yml
   format: yaml
-  label: Robin Legal Intelligence Platform API
-  slug: robin-legal-intelligence-platform-api
+  label: Robin AI Documents API
+  slug: robin-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/openapi/robin-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/openapi/robin-ai-documents-api-openapi.yml
+- filename: robin-ai-groups-api-openapi.yml
+  format: yaml
+  label: Robin AI Groups API
+  slug: robin-ai-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/openapi/robin-ai-groups-api-openapi.yml
+- filename: robin-ai-properties-api-openapi.yml
+  format: yaml
+  label: Robin AI Properties API
+  slug: robin-ai-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/openapi/robin-ai-properties-api-openapi.yml
+- filename: robin-ai-tables-api-openapi.yml
+  format: yaml
+  label: Robin AI Tables API
+  slug: robin-ai-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/openapi/robin-ai-tables-api-openapi.yml
+- filename: robin-ai-templates-api-openapi.yml
+  format: yaml
+  label: Robin AI Templates API
+  slug: robin-ai-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/openapi/robin-ai-templates-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

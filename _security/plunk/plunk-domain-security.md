@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: plunk-openapi.yml
-  format: yaml
-  label: Plunk Send (Transactional) API
-  slug: plunk-send-transactional-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-openapi.yml
-- filename: plunk-openapi.yml
-  format: yaml
-  label: Plunk Track (Events) API
-  slug: plunk-track-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-openapi.yml
-- filename: plunk-openapi.yml
-  format: yaml
-  label: Plunk Contacts API
-  slug: plunk-contacts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-openapi.yml
-- filename: plunk-openapi.yml
+- filename: plunk-campaigns-api-openapi.yml
   format: yaml
   label: Plunk Campaigns API
   slug: plunk-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-campaigns-api-openapi.yml
+- filename: plunk-contacts-api-openapi.yml
+  format: yaml
+  label: Plunk Contacts API
+  slug: plunk-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-contacts-api-openapi.yml
+- filename: plunk-events-api-openapi.yml
+  format: yaml
+  label: Plunk Events API
+  slug: plunk-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-events-api-openapi.yml
+- filename: plunk-transactional-api-openapi.yml
+  format: yaml
+  label: Plunk Transactional API
+  slug: plunk-transactional-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-transactional-api-openapi.yml
 description: ''
 domains:
 - caa:

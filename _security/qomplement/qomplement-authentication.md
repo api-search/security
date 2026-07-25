@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: qomplement-openapi-original.json
-  format: json
-  label: Qomplement StructDatafy API
-  slug: qomplement-structdatafy-api
+- filename: qomplement-api-keys-api-openapi.yml
+  format: yaml
+  label: Qomplement API Keys API
+  slug: qomplement-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/openapi/qomplement-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/openapi/qomplement-api-keys-api-openapi.yml
+- filename: qomplement-extract-api-openapi.yml
+  format: yaml
+  label: Qomplement Extract API
+  slug: qomplement-extract-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/openapi/qomplement-extract-api-openapi.yml
+- filename: qomplement-fill-excel-api-openapi.yml
+  format: yaml
+  label: Qomplement Fill Excel API
+  slug: qomplement-fill-excel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/openapi/qomplement-fill-excel-api-openapi.yml
+- filename: qomplement-fill-pdf-api-openapi.yml
+  format: yaml
+  label: Qomplement Fill PDF API
+  slug: qomplement-fill-pdf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/openapi/qomplement-fill-pdf-api-openapi.yml
+- filename: qomplement-health-api-openapi.yml
+  format: yaml
+  label: Qomplement Health API
+  slug: qomplement-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/openapi/qomplement-health-api-openapi.yml
+- filename: qomplement-jobs-api-openapi.yml
+  format: yaml
+  label: Qomplement Jobs API
+  slug: qomplement-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/openapi/qomplement-jobs-api-openapi.yml
+- filename: qomplement-usage-api-openapi.yml
+  format: yaml
+  label: Qomplement Usage API
+  slug: qomplement-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/openapi/qomplement-usage-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

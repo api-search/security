@@ -1,42 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: bridge-interactive-openapi.yml
+- filename: bridge-interactive-agents-api-openapi.yml
   format: yaml
-  label: Bridge Listings and Properties API
-  slug: listings-properties
+  label: Bridge Interactive Agents API
+  slug: bridge-interactive-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-openapi.yml
-- filename: bridge-interactive-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-agents-api-openapi.yml
+- filename: bridge-interactive-listings-api-openapi.yml
   format: yaml
-  label: Bridge Agents API
-  slug: agents
+  label: Bridge Interactive Listings API
+  slug: bridge-interactive-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-openapi.yml
-- filename: bridge-interactive-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-listings-api-openapi.yml
+- filename: bridge-interactive-offices-api-openapi.yml
   format: yaml
-  label: Bridge Offices API
-  slug: offices
+  label: Bridge Interactive Offices API
+  slug: bridge-interactive-offices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-openapi.yml
-- filename: bridge-interactive-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-offices-api-openapi.yml
+- filename: bridge-interactive-open-houses-api-openapi.yml
   format: yaml
-  label: Bridge Open Houses API
-  slug: open-houses
+  label: Bridge Interactive Open Houses API
+  slug: bridge-interactive-open-houses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-openapi.yml
-- filename: bridge-interactive-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-open-houses-api-openapi.yml
+- filename: bridge-interactive-reso-web-api-api-openapi.yml
   format: yaml
-  label: Bridge Media API
-  slug: media
+  label: Bridge Interactive RESO Web API API
+  slug: bridge-interactive-reso-web-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-openapi.yml
-- filename: bridge-interactive-openapi.yml
-  format: yaml
-  label: Bridge RESO Web API
-  slug: reso-web-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-reso-web-api-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,17 +1,53 @@
 ---
 api_specs:
-- filename: reloadly-gift-cards-openapi.yml
+- filename: reloadly-authentication-api-openapi.yml
   format: yaml
-  label: Reloadly Gift Cards API
-  slug: gift-cards
+  label: Reloadly Authentication API
+  slug: reloadly-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-gift-cards-openapi.yml
-- filename: reloadly-airtime-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-authentication-api-openapi.yml
+- filename: reloadly-balance-api-openapi.yml
   format: yaml
-  label: Reloadly Airtime API
-  slug: airtime
+  label: Reloadly Balance API
+  slug: reloadly-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-airtime-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-balance-api-openapi.yml
+- filename: reloadly-discounts-api-openapi.yml
+  format: yaml
+  label: Reloadly Discounts API
+  slug: reloadly-discounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-discounts-api-openapi.yml
+- filename: reloadly-operators-api-openapi.yml
+  format: yaml
+  label: Reloadly Operators API
+  slug: reloadly-operators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-operators-api-openapi.yml
+- filename: reloadly-orders-api-openapi.yml
+  format: yaml
+  label: Reloadly Orders API
+  slug: reloadly-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-orders-api-openapi.yml
+- filename: reloadly-products-api-openapi.yml
+  format: yaml
+  label: Reloadly Products API
+  slug: reloadly-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-products-api-openapi.yml
+- filename: reloadly-top-ups-api-openapi.yml
+  format: yaml
+  label: Reloadly Top-Ups API
+  slug: reloadly-top-ups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-top-ups-api-openapi.yml
+- filename: reloadly-transactions-api-openapi.yml
+  format: yaml
+  label: Reloadly Transactions API
+  slug: reloadly-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:

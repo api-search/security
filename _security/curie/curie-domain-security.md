@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: curie-openapi.json
-  format: json
-  label: Curie 3D Product Commerce API
-  slug: curie-3d-product-commerce-api
+- filename: curie-catalog-api-openapi.yml
+  format: yaml
+  label: Curie Catalog API
+  slug: curie-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curie/refs/heads/main/openapi/curie-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/curie/refs/heads/main/openapi/curie-catalog-api-openapi.yml
+- filename: curie-products-api-openapi.yml
+  format: yaml
+  label: Curie Products API
+  slug: curie-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curie/refs/heads/main/openapi/curie-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

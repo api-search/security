@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ifs-cloud-erp-openapi.yml
+- filename: ifs-finance-api-openapi.yml
   format: yaml
-  label: IFS Cloud ERP API
-  slug: ifs-cloud-erp-api
+  label: IFS Finance API
+  slug: ifs-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-cloud-erp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-finance-api-openapi.yml
+- filename: ifs-inventory-api-openapi.yml
+  format: yaml
+  label: IFS Inventory API
+  slug: ifs-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-inventory-api-openapi.yml
+- filename: ifs-procurement-api-openapi.yml
+  format: yaml
+  label: IFS Procurement API
+  slug: ifs-procurement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-procurement-api-openapi.yml
+- filename: ifs-work-orders-api-openapi.yml
+  format: yaml
+  label: IFS Work Orders API
+  slug: ifs-work-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-work-orders-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

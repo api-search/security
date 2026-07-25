@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: QuizAPI
-  slug: quiz-api
+- filename: quiz-api-discovery-api-openapi.yml
+  format: yaml
+  label: QuizAPI Discovery API
+  slug: quiz-api-discovery-api
   spec_type: OpenAPI
-  url: https://quizapi.io/api/v1/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/quiz-api/refs/heads/main/openapi/quiz-api-discovery-api-openapi.yml
+- filename: quiz-api-questions-api-openapi.yml
+  format: yaml
+  label: QuizAPI Questions API
+  slug: quiz-api-questions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quiz-api/refs/heads/main/openapi/quiz-api-questions-api-openapi.yml
+- filename: quiz-api-quizzes-api-openapi.yml
+  format: yaml
+  label: QuizAPI Quizzes API
+  slug: quiz-api-quizzes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quiz-api/refs/heads/main/openapi/quiz-api-quizzes-api-openapi.yml
 description: ''
 domains:
 - caa: []

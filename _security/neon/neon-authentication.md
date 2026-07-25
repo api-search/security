@@ -1,18 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: neon-management-api-openapi.yml
-  format: yaml
-  label: Neon Management API
-  slug: management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-management-api-openapi.yml
 - filename: neon-auth-webhooks-asyncapi.yml
   format: yaml
   label: Neon Auth
   slug: auth
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/asyncapi/neon-auth-webhooks-asyncapi.yml
+- filename: neon-api-keys-api-openapi.yml
+  format: yaml
+  label: Neon API Keys API
+  slug: neon-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-api-keys-api-openapi.yml
+- filename: neon-auth-api-openapi.yml
+  format: yaml
+  label: Neon Auth API
+  slug: neon-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-auth-api-openapi.yml
+- filename: neon-branches-api-openapi.yml
+  format: yaml
+  label: Neon Branches API
+  slug: neon-branches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-branches-api-openapi.yml
+- filename: neon-consumption-api-openapi.yml
+  format: yaml
+  label: Neon Consumption API
+  slug: neon-consumption-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-consumption-api-openapi.yml
+- filename: neon-data-api-api-openapi.yml
+  format: yaml
+  label: Neon Data API API
+  slug: neon-data-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-data-api-api-openapi.yml
+- filename: neon-databases-api-openapi.yml
+  format: yaml
+  label: Neon Databases API
+  slug: neon-databases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-databases-api-openapi.yml
+- filename: neon-endpoints-api-openapi.yml
+  format: yaml
+  label: Neon Endpoints API
+  slug: neon-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-endpoints-api-openapi.yml
+- filename: neon-operations-api-openapi.yml
+  format: yaml
+  label: Neon Operations API
+  slug: neon-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-operations-api-openapi.yml
+- filename: neon-projects-api-openapi.yml
+  format: yaml
+  label: Neon Projects API
+  slug: neon-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-projects-api-openapi.yml
+- filename: neon-roles-api-openapi.yml
+  format: yaml
+  label: Neon Roles API
+  slug: neon-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-roles-api-openapi.yml
 auth_types:
 - http
 description: ''

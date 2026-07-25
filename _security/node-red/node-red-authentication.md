@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: node-red-admin-openapi.yml
+- filename: node-red-auth-api-openapi.yml
   format: yaml
-  label: Node-RED Admin API
-  slug: node-red
+  label: Node-RED Auth API
+  slug: node-red-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-admin-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-auth-api-openapi.yml
+- filename: node-red-diagnostics-api-openapi.yml
+  format: yaml
+  label: Node-RED Diagnostics API
+  slug: node-red-diagnostics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-diagnostics-api-openapi.yml
+- filename: node-red-flow-api-openapi.yml
+  format: yaml
+  label: Node-RED Flow API
+  slug: node-red-flow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-flow-api-openapi.yml
+- filename: node-red-flows-api-openapi.yml
+  format: yaml
+  label: Node-RED Flows API
+  slug: node-red-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-flows-api-openapi.yml
+- filename: node-red-nodes-api-openapi.yml
+  format: yaml
+  label: Node-RED Nodes API
+  slug: node-red-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-nodes-api-openapi.yml
+- filename: node-red-settings-api-openapi.yml
+  format: yaml
+  label: Node-RED Settings API
+  slug: node-red-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-settings-api-openapi.yml
 auth_types:
 - http
 description: ''

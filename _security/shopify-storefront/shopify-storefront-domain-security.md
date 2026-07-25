@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: shopify-storefront-openapi.yml
+- filename: shopify-storefront-graphql-api-openapi.yml
   format: yaml
-  label: Shopify Storefront API
-  slug: shopify-storefront-api
+  label: Shopify Storefront API GraphQL API
+  slug: shopify-storefront-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-storefront/refs/heads/main/openapi/shopify-storefront-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shopify-storefront/refs/heads/main/openapi/shopify-storefront-graphql-api-openapi.yml
 description: ''
 domains:
 - caa: []

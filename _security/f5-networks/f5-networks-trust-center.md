@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: bigip-icontrol-rest.yml
+- filename: f5-networks-nodes-api-openapi.yml
   format: yaml
-  label: F5 BIG-IP iControl REST API
-  slug: f5-big-ip-icontrol-rest-api
+  label: F5 Networks Nodes API
+  slug: f5-networks-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-networks/refs/heads/main/openapi/bigip-icontrol-rest.yml
-- filename: swagger
+  url: https://raw.githubusercontent.com/api-evangelist/f5-networks/refs/heads/main/openapi/f5-networks-nodes-api-openapi.yml
+- filename: f5-networks-pool-members-api-openapi.yml
   format: yaml
-  label: F5 Distributed Cloud API
-  slug: f5-distributed-cloud-api
+  label: F5 Networks Pool Members API
+  slug: f5-networks-pool-members-api
   spec_type: OpenAPI
-  url: https://docs.cloud.f5.com/docs/api/swagger
+  url: https://raw.githubusercontent.com/api-evangelist/f5-networks/refs/heads/main/openapi/f5-networks-pool-members-api-openapi.yml
+- filename: f5-networks-pools-api-openapi.yml
+  format: yaml
+  label: F5 Networks Pools API
+  slug: f5-networks-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/f5-networks/refs/heads/main/openapi/f5-networks-pools-api-openapi.yml
+- filename: f5-networks-profiles-api-openapi.yml
+  format: yaml
+  label: F5 Networks Profiles API
+  slug: f5-networks-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/f5-networks/refs/heads/main/openapi/f5-networks-profiles-api-openapi.yml
+- filename: f5-networks-virtual-servers-api-openapi.yml
+  format: yaml
+  label: F5 Networks Virtual Servers API
+  slug: f5-networks-virtual-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/f5-networks/refs/heads/main/openapi/f5-networks-virtual-servers-api-openapi.yml
 certifications:
 - PCI DSS
 - GDPR

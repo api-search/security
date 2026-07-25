@@ -1,17 +1,65 @@
 ---
 api_specs:
-- filename: store
+- filename: medusa-js-auth-api-openapi.yml
   format: yaml
-  label: Medusa Store API
-  slug: store-api
+  label: Medusa Auth API
+  slug: medusa-js-auth-api
   spec_type: OpenAPI
-  url: https://docs.medusajs.com/api/download/store
-- filename: admin
+  url: https://raw.githubusercontent.com/api-evangelist/medusa-js/refs/heads/main/openapi/medusa-js-auth-api-openapi.yml
+- filename: medusa-js-carts-api-openapi.yml
   format: yaml
-  label: Medusa Admin API
-  slug: admin-api
+  label: Medusa Carts API
+  slug: medusa-js-carts-api
   spec_type: OpenAPI
-  url: https://docs.medusajs.com/api/download/admin
+  url: https://raw.githubusercontent.com/api-evangelist/medusa-js/refs/heads/main/openapi/medusa-js-carts-api-openapi.yml
+- filename: medusa-js-categories-api-openapi.yml
+  format: yaml
+  label: Medusa Categories API
+  slug: medusa-js-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medusa-js/refs/heads/main/openapi/medusa-js-categories-api-openapi.yml
+- filename: medusa-js-collections-api-openapi.yml
+  format: yaml
+  label: Medusa Collections API
+  slug: medusa-js-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medusa-js/refs/heads/main/openapi/medusa-js-collections-api-openapi.yml
+- filename: medusa-js-customers-api-openapi.yml
+  format: yaml
+  label: Medusa Customers API
+  slug: medusa-js-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medusa-js/refs/heads/main/openapi/medusa-js-customers-api-openapi.yml
+- filename: medusa-js-orders-api-openapi.yml
+  format: yaml
+  label: Medusa Orders API
+  slug: medusa-js-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medusa-js/refs/heads/main/openapi/medusa-js-orders-api-openapi.yml
+- filename: medusa-js-payments-api-openapi.yml
+  format: yaml
+  label: Medusa Payments API
+  slug: medusa-js-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medusa-js/refs/heads/main/openapi/medusa-js-payments-api-openapi.yml
+- filename: medusa-js-products-api-openapi.yml
+  format: yaml
+  label: Medusa Products API
+  slug: medusa-js-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medusa-js/refs/heads/main/openapi/medusa-js-products-api-openapi.yml
+- filename: medusa-js-regions-api-openapi.yml
+  format: yaml
+  label: Medusa Regions API
+  slug: medusa-js-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medusa-js/refs/heads/main/openapi/medusa-js-regions-api-openapi.yml
+- filename: medusa-js-shipping-api-openapi.yml
+  format: yaml
+  label: Medusa Shipping API
+  slug: medusa-js-shipping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medusa-js/refs/heads/main/openapi/medusa-js-shipping-api-openapi.yml
 description: ''
 domains:
 - caa: []

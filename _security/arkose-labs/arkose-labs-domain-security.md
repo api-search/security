@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: arkose-labs-verify-openapi.yml
-  format: yaml
-  label: Arkose Labs Verify API
-  slug: arkose-labs-verify-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/openapi/arkose-labs-verify-openapi.yml
-- filename: arkose-labs-edge-openapi.yml
+- filename: arkose-labs-edge-api-openapi.yml
   format: yaml
   label: Arkose Labs Edge API
   slug: arkose-labs-edge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/openapi/arkose-labs-edge-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/openapi/arkose-labs-edge-api-openapi.yml
+- filename: arkose-labs-schema-api-openapi.yml
+  format: yaml
+  label: Arkose Labs Schema API
+  slug: arkose-labs-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/openapi/arkose-labs-schema-api-openapi.yml
+- filename: arkose-labs-verify-api-openapi.yml
+  format: yaml
+  label: Arkose Labs Verify API
+  slug: arkose-labs-verify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/openapi/arkose-labs-verify-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -6,18 +6,6 @@ api_specs:
   slug: nuvei-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-payments-api-openapi.yml
-- filename: nuvei-session-api-openapi.yml
-  format: yaml
-  label: Nuvei Session API
-  slug: nuvei-session-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-session-api-openapi.yml
-- filename: nuvei-order-api-openapi.yml
-  format: yaml
-  label: Nuvei Order API
-  slug: nuvei-order-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-order-api-openapi.yml
 - filename: nuvei-payouts-api-openapi.yml
   format: yaml
   label: Nuvei Payouts API
@@ -30,12 +18,6 @@ api_specs:
   slug: nuvei-user-payment-options-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-user-payment-options-api-openapi.yml
-- filename: nuvei-merchant-config-api-openapi.yml
-  format: yaml
-  label: Nuvei Merchant Configuration API
-  slug: nuvei-merchant-config-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-merchant-config-api-openapi.yml
 - filename: nuvei-3ds-api-openapi.yml
   format: yaml
   label: Nuvei 3DS API
@@ -54,6 +36,36 @@ api_specs:
   slug: nuvei-webhooks-dmn
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/asyncapi/nuvei-dmn-asyncapi.yml
+- filename: nuvei-financial-operations-api-openapi.yml
+  format: yaml
+  label: Nuvei Financial Operations API
+  slug: nuvei-financial-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-financial-operations-api-openapi.yml
+- filename: nuvei-merchant-api-openapi.yml
+  format: yaml
+  label: Nuvei Merchant API
+  slug: nuvei-merchant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-merchant-api-openapi.yml
+- filename: nuvei-orders-api-openapi.yml
+  format: yaml
+  label: Nuvei Orders API
+  slug: nuvei-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-orders-api-openapi.yml
+- filename: nuvei-sessions-api-openapi.yml
+  format: yaml
+  label: Nuvei Sessions API
+  slug: nuvei-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-sessions-api-openapi.yml
+- filename: nuvei-status-api-openapi.yml
+  format: yaml
+  label: Nuvei Status API
+  slug: nuvei-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

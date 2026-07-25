@@ -1,41 +1,119 @@
 ---
 api_specs:
-- filename: uber-riders-openapi.yml
+- filename: uber-codes-api-openapi.yml
+  format: yaml
+  label: Uber Codes API
+  slug: uber-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-codes-api-openapi.yml
+- filename: uber-deliveries-api-openapi.yml
+  format: yaml
+  label: Uber Deliveries API
+  slug: uber-deliveries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-deliveries-api-openapi.yml
+- filename: uber-estimates-api-openapi.yml
+  format: yaml
+  label: Uber Estimates API
+  slug: uber-estimates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-estimates-api-openapi.yml
+- filename: uber-locations-api-openapi.yml
+  format: yaml
+  label: Uber Locations API
+  slug: uber-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-locations-api-openapi.yml
+- filename: uber-menus-api-openapi.yml
+  format: yaml
+  label: Uber Menus API
+  slug: uber-menus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-menus-api-openapi.yml
+- filename: uber-orders-api-openapi.yml
+  format: yaml
+  label: Uber Orders API
+  slug: uber-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-orders-api-openapi.yml
+- filename: uber-organizations-api-openapi.yml
+  format: yaml
+  label: Uber Organizations API
+  slug: uber-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-organizations-api-openapi.yml
+- filename: uber-partners-api-openapi.yml
+  format: yaml
+  label: Uber Partners API
+  slug: uber-partners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-partners-api-openapi.yml
+- filename: uber-places-api-openapi.yml
+  format: yaml
+  label: Uber Places API
+  slug: uber-places-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-places-api-openapi.yml
+- filename: uber-products-api-openapi.yml
+  format: yaml
+  label: Uber Products API
+  slug: uber-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-products-api-openapi.yml
+- filename: uber-programs-api-openapi.yml
+  format: yaml
+  label: Uber Programs API
+  slug: uber-programs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-programs-api-openapi.yml
+- filename: uber-redemption-api-openapi.yml
+  format: yaml
+  label: Uber Redemption API
+  slug: uber-redemption-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-redemption-api-openapi.yml
+- filename: uber-refunds-api-openapi.yml
+  format: yaml
+  label: Uber Refunds API
+  slug: uber-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-refunds-api-openapi.yml
+- filename: uber-reporting-api-openapi.yml
+  format: yaml
+  label: Uber Reporting API
+  slug: uber-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-reporting-api-openapi.yml
+- filename: uber-requests-api-openapi.yml
+  format: yaml
+  label: Uber Requests API
+  slug: uber-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-requests-api-openapi.yml
+- filename: uber-riders-api-openapi.yml
   format: yaml
   label: Uber Riders API
-  slug: uber-riders
+  slug: uber-riders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-riders-openapi.yml
-- filename: uber-drivers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-riders-api-openapi.yml
+- filename: uber-stores-api-openapi.yml
   format: yaml
-  label: Uber Drivers API
-  slug: uber-drivers
+  label: Uber Stores API
+  slug: uber-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-drivers-openapi.yml
-- filename: uber-eats-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-stores-api-openapi.yml
+- filename: uber-templates-api-openapi.yml
   format: yaml
-  label: Uber Eats API
-  slug: uber-eats
+  label: Uber Templates API
+  slug: uber-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-eats-openapi.yml
-- filename: uber-direct-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-templates-api-openapi.yml
+- filename: uber-trips-api-openapi.yml
   format: yaml
-  label: Uber Direct API
-  slug: uber-direct
+  label: Uber Trips API
+  slug: uber-trips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-direct-openapi.yml
-- filename: uber-vouchers-openapi.yml
-  format: yaml
-  label: Uber Vouchers API
-  slug: uber-vouchers
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-vouchers-openapi.yml
-- filename: uber-businesses-openapi.yml
-  format: yaml
-  label: Uber for Business API
-  slug: uber-businesses
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-businesses-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-trips-api-openapi.yml
 description: ''
 domains:
 - caa: []

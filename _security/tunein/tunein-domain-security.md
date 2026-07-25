@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: tunein-browse-ashx-api-openapi.yml
   format: yaml
-  label: TuneIn Streaming API (OPML/RadioTime)
-  slug: tunein-streaming-api
+  label: TuneIn Browse.ashx API
+  slug: tunein-browse-ashx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tunein/refs/heads/main/openapi.yml
-- filename: openapi-air.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tunein/refs/heads/main/openapi/tunein-browse-ashx-api-openapi.yml
+- filename: tunein-describe-ashx-api-openapi.yml
   format: yaml
-  label: TuneIn AIR (Broadcaster) API
-  slug: tunein-air-broadcaster-api
+  label: TuneIn Describe.ashx API
+  slug: tunein-describe-ashx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tunein/refs/heads/main/openapi-air.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tunein/refs/heads/main/openapi/tunein-describe-ashx-api-openapi.yml
+- filename: tunein-playing-ashx-api-openapi.yml
+  format: yaml
+  label: TuneIn Playing.ashx API
+  slug: tunein-playing-ashx-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tunein/refs/heads/main/openapi/tunein-playing-ashx-api-openapi.yml
+- filename: tunein-search-ashx-api-openapi.yml
+  format: yaml
+  label: TuneIn Search.ashx API
+  slug: tunein-search-ashx-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tunein/refs/heads/main/openapi/tunein-search-ashx-api-openapi.yml
+- filename: tunein-tune-ashx-api-openapi.yml
+  format: yaml
+  label: TuneIn Tune.ashx API
+  slug: tunein-tune-ashx-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tunein/refs/heads/main/openapi/tunein-tune-ashx-api-openapi.yml
 description: ''
 domains:
 - caa:

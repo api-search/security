@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: robinhood-crypto-trading-openapi.yml
+- filename: robinhood-account-api-openapi.yml
   format: yaml
-  label: Robinhood Crypto Trading API
-  slug: robinhood-crypto-trading-api
+  label: Robinhood Account API
+  slug: robinhood-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/openapi/robinhood-crypto-trading-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/openapi/robinhood-account-api-openapi.yml
+- filename: robinhood-holdings-api-openapi.yml
+  format: yaml
+  label: Robinhood Holdings API
+  slug: robinhood-holdings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/openapi/robinhood-holdings-api-openapi.yml
+- filename: robinhood-market-data-api-openapi.yml
+  format: yaml
+  label: Robinhood Market Data API
+  slug: robinhood-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/openapi/robinhood-market-data-api-openapi.yml
+- filename: robinhood-orders-api-openapi.yml
+  format: yaml
+  label: Robinhood Orders API
+  slug: robinhood-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/openapi/robinhood-orders-api-openapi.yml
+- filename: robinhood-trading-pairs-api-openapi.yml
+  format: yaml
+  label: Robinhood Trading Pairs API
+  slug: robinhood-trading-pairs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/openapi/robinhood-trading-pairs-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

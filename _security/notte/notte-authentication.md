@@ -1,36 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: notte-openapi.yml
-  format: yaml
-  label: Notte Sessions API
-  slug: sessions
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/openapi/notte-openapi.yml
-- filename: notte-openapi.yml
+- filename: notte-agents-api-openapi.yml
   format: yaml
   label: Notte Agents API
-  slug: agents
+  slug: notte-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/openapi/notte-openapi.yml
-- filename: notte-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/openapi/notte-agents-api-openapi.yml
+- filename: notte-health-api-openapi.yml
   format: yaml
-  label: Notte Page Observe / Step / Scrape API
-  slug: page
+  label: Notte Health API
+  slug: notte-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/openapi/notte-openapi.yml
-- filename: notte-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/openapi/notte-health-api-openapi.yml
+- filename: notte-page-api-openapi.yml
+  format: yaml
+  label: Notte Page API
+  slug: notte-page-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/openapi/notte-page-api-openapi.yml
+- filename: notte-personas-api-openapi.yml
+  format: yaml
+  label: Notte Personas API
+  slug: notte-personas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/openapi/notte-personas-api-openapi.yml
+- filename: notte-scraping-api-openapi.yml
   format: yaml
   label: Notte Scraping API
-  slug: scrape
+  slug: notte-scraping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/openapi/notte-openapi.yml
-- filename: notte-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/openapi/notte-scraping-api-openapi.yml
+- filename: notte-sessions-api-openapi.yml
   format: yaml
-  label: Notte Personas and Vaults API
-  slug: personas-vaults
+  label: Notte Sessions API
+  slug: notte-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/openapi/notte-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/openapi/notte-sessions-api-openapi.yml
+- filename: notte-vaults-api-openapi.yml
+  format: yaml
+  label: Notte Vaults API
+  slug: notte-vaults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/openapi/notte-vaults-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,35 +1,29 @@
 ---
 api_specs:
-- filename: rijksmuseum-collection-openapi.yml
+- filename: rijksmuseum-collection-api-openapi.yml
   format: yaml
-  label: Collection Search API
-  slug: collection-search-api
+  label: Rijksmuseum Collection API
+  slug: rijksmuseum-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rijksmuseum/refs/heads/main/openapi/rijksmuseum-collection-openapi.yml
-- filename: rijksmuseum-collection-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rijksmuseum/refs/heads/main/openapi/rijksmuseum-collection-api-openapi.yml
+- filename: rijksmuseum-images-api-openapi.yml
   format: yaml
-  label: Collection Details API
-  slug: collection-details-api
+  label: Rijksmuseum Images API
+  slug: rijksmuseum-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rijksmuseum/refs/heads/main/openapi/rijksmuseum-collection-openapi.yml
-- filename: rijksmuseum-collection-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rijksmuseum/refs/heads/main/openapi/rijksmuseum-images-api-openapi.yml
+- filename: rijksmuseum-object-details-api-openapi.yml
   format: yaml
-  label: Collection Image Tiles API
-  slug: collection-image-tiles-api
+  label: Rijksmuseum Object Details API
+  slug: rijksmuseum-object-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rijksmuseum/refs/heads/main/openapi/rijksmuseum-collection-openapi.yml
-- filename: rijksmuseum-user-sets-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rijksmuseum/refs/heads/main/openapi/rijksmuseum-object-details-api-openapi.yml
+- filename: rijksmuseum-user-generated-content-api-openapi.yml
   format: yaml
-  label: Usersets API
-  slug: usersets-api
+  label: Rijksmuseum User Generated Content API
+  slug: rijksmuseum-user-generated-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rijksmuseum/refs/heads/main/openapi/rijksmuseum-user-sets-openapi.yml
-- filename: rijksmuseum-user-sets-openapi.yml
-  format: yaml
-  label: Userset Details API
-  slug: userset-details-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rijksmuseum/refs/heads/main/openapi/rijksmuseum-user-sets-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rijksmuseum/refs/heads/main/openapi/rijksmuseum-user-generated-content-api-openapi.yml
 description: ''
 domains:
 - caa:

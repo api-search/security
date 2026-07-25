@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: car-api-openapi-original.yml
+- filename: car-api-account-api-openapi.yml
   format: yaml
-  label: CarAPI Vehicle API
-  slug: vehicle-api
+  label: Car API (carapi.app) Account API
+  slug: car-api-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/openapi/car-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/openapi/car-api-account-api-openapi.yml
+- filename: car-api-auth-api-openapi.yml
+  format: yaml
+  label: Car API (carapi.app) Auth API
+  slug: car-api-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/openapi/car-api-auth-api-openapi.yml
+- filename: car-api-bodies-api-openapi.yml
+  format: yaml
+  label: Car API (carapi.app) Bodies API
+  slug: car-api-bodies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/openapi/car-api-bodies-api-openapi.yml
+- filename: car-api-colors-exterior-api-openapi.yml
+  format: yaml
+  label: Car API (carapi.app) Colors (Exterior) API
+  slug: car-api-colors-exterior-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/openapi/car-api-colors-exterior-api-openapi.yml
+- filename: car-api-colors-interior-api-openapi.yml
+  format: yaml
+  label: Car API (carapi.app) Colors (Interior) API
+  slug: car-api-colors-interior-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/openapi/car-api-colors-interior-api-openapi.yml
+- filename: car-api-data-feeds-api-openapi.yml
+  format: yaml
+  label: Car API (carapi.app) Data Feeds API
+  slug: car-api-data-feeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/openapi/car-api-data-feeds-api-openapi.yml
+- filename: car-api-engines-api-openapi.yml
+  format: yaml
+  label: Car API (carapi.app) Engines API
+  slug: car-api-engines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/openapi/car-api-engines-api-openapi.yml
+- filename: car-api-makes-api-openapi.yml
+  format: yaml
+  label: Car API (carapi.app) Makes API
+  slug: car-api-makes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/openapi/car-api-makes-api-openapi.yml
+- filename: car-api-mileages-api-openapi.yml
+  format: yaml
+  label: Car API (carapi.app) Mileages API
+  slug: car-api-mileages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/openapi/car-api-mileages-api-openapi.yml
+- filename: car-api-models-api-openapi.yml
+  format: yaml
+  label: Car API (carapi.app) Models API
+  slug: car-api-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/openapi/car-api-models-api-openapi.yml
+- filename: car-api-trims-api-openapi.yml
+  format: yaml
+  label: Car API (carapi.app) Trims API
+  slug: car-api-trims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/openapi/car-api-trims-api-openapi.yml
+- filename: car-api-vehicle-attributes-api-openapi.yml
+  format: yaml
+  label: Car API (carapi.app) Vehicle Attributes API
+  slug: car-api-vehicle-attributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/openapi/car-api-vehicle-attributes-api-openapi.yml
+- filename: car-api-vin-decoder-api-openapi.yml
+  format: yaml
+  label: Car API (carapi.app) Vin Decoder API
+  slug: car-api-vin-decoder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/openapi/car-api-vin-decoder-api-openapi.yml
+- filename: car-api-years-api-openapi.yml
+  format: yaml
+  label: Car API (carapi.app) Years API
+  slug: car-api-years-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/openapi/car-api-years-api-openapi.yml
 description: ''
 domains:
 - caa: []

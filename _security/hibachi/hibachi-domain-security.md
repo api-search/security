@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: hibachi-openapi.yml
+- filename: hibachi-capital-api-openapi.yml
   format: yaml
-  label: Hibachi API
-  slug: hibachi-api
+  label: Hibachi Capital API
+  slug: hibachi-capital-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hibachi/refs/heads/main/openapi/hibachi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hibachi/refs/heads/main/openapi/hibachi-capital-api-openapi.yml
+- filename: hibachi-market-api-openapi.yml
+  format: yaml
+  label: Hibachi Market API
+  slug: hibachi-market-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hibachi/refs/heads/main/openapi/hibachi-market-api-openapi.yml
+- filename: hibachi-trade-api-openapi.yml
+  format: yaml
+  label: Hibachi Trade API
+  slug: hibachi-trade-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hibachi/refs/heads/main/openapi/hibachi-trade-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: kensho-llmready-openapi.yml
+- filename: sp-global-auditors-api-openapi.yml
   format: yaml
   label: S&P Global LLM-Ready API (kFinance)
   slug: kensho-llm-ready-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/kensho-llmready-openapi.yml
-- filename: kensho-extract-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/sp-global-auditors-api-openapi.yml
+- filename: sp-global-extractions-api-openapi.yml
   format: yaml
   label: Kensho Extract API
   slug: kensho-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/kensho-extract-openapi.yml
-- filename: kensho-nerd-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/sp-global-extractions-api-openapi.yml
+- filename: sp-global-annotations-async-api-openapi.yml
   format: yaml
   label: Kensho NERD API
   slug: kensho-nerd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/kensho-nerd-openapi.yml
-- filename: kensho-scribe-batch-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/sp-global-annotations-async-api-openapi.yml
+- filename: sp-global-transcription-api-openapi.yml
   format: yaml
   label: Kensho Scribe Batch API v2
   slug: kensho-scribe-batch-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/kensho-scribe-batch-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/sp-global-transcription-api-openapi.yml
 - filename: kensho-scribe-realtime-asyncapi.yml
   format: yaml
   label: Kensho Scribe Real Time API
   slug: kensho-scribe-realtime-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/asyncapi/kensho-scribe-realtime-asyncapi.yml
-- filename: kensho-scribe-batch-v1-openapi.yml
+- filename: sp-global-transcription-api-openapi.yml
   format: yaml
   label: Kensho Scribe Batch API v1
   slug: kensho-scribe-batch-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/kensho-scribe-batch-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/sp-global-transcription-api-openapi.yml
 description: ''
 domains:
 - caa: []

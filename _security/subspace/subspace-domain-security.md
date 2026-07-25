@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: subspace-openapi-original.yml
+- filename: subspace-acceleratorservice-api-openapi.yml
   format: yaml
-  label: Subspace Product API
-  slug: subspace-product-api
+  label: Subspace AcceleratorService API
+  slug: subspace-acceleratorservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/openapi/subspace-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/openapi/subspace-acceleratorservice-api-openapi.yml
+- filename: subspace-sipteleportservice-api-openapi.yml
+  format: yaml
+  label: Subspace SipTeleportService API
+  slug: subspace-sipteleportservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/openapi/subspace-sipteleportservice-api-openapi.yml
+- filename: subspace-webrtccdnservice-api-openapi.yml
+  format: yaml
+  label: Subspace WebRtcCdnService API
+  slug: subspace-webrtccdnservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/openapi/subspace-webrtccdnservice-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,17 +1,83 @@
 ---
 api_specs:
-- filename: clarifeye-openapi-original.yaml
+- filename: clarifeye-agent-settings-api-openapi.yml
   format: yaml
-  label: Clarifeye Platform API — Public
-  slug: clarifeye-platform-api-public
+  label: Clarifeye Agent Settings API
+  slug: clarifeye-agent-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-openapi-original.yaml
-- filename: clarifeye-backoffice-openapi-original.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-agent-settings-api-openapi.yml
+- filename: clarifeye-conversations-api-openapi.yml
   format: yaml
-  label: Clarifeye Platform API — Backoffice
-  slug: clarifeye-platform-api-backoffice
+  label: Clarifeye Conversations API
+  slug: clarifeye-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-backoffice-openapi-original.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-conversations-api-openapi.yml
+- filename: clarifeye-documents-api-openapi.yml
+  format: yaml
+  label: Clarifeye Documents API
+  slug: clarifeye-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-documents-api-openapi.yml
+- filename: clarifeye-extraction-flows-api-openapi.yml
+  format: yaml
+  label: Clarifeye Extraction Flows API
+  slug: clarifeye-extraction-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-extraction-flows-api-openapi.yml
+- filename: clarifeye-feedback-api-openapi.yml
+  format: yaml
+  label: Clarifeye Feedback API
+  slug: clarifeye-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-feedback-api-openapi.yml
+- filename: clarifeye-interviews-api-openapi.yml
+  format: yaml
+  label: Clarifeye Interviews API
+  slug: clarifeye-interviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-interviews-api-openapi.yml
+- filename: clarifeye-invitations-api-openapi.yml
+  format: yaml
+  label: Clarifeye Invitations API
+  slug: clarifeye-invitations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-invitations-api-openapi.yml
+- filename: clarifeye-notifications-api-openapi.yml
+  format: yaml
+  label: Clarifeye Notifications API
+  slug: clarifeye-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-notifications-api-openapi.yml
+- filename: clarifeye-pipeline-runs-api-openapi.yml
+  format: yaml
+  label: Clarifeye Pipeline Runs API
+  slug: clarifeye-pipeline-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-pipeline-runs-api-openapi.yml
+- filename: clarifeye-signals-api-openapi.yml
+  format: yaml
+  label: Clarifeye Signals API
+  slug: clarifeye-signals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-signals-api-openapi.yml
+- filename: clarifeye-tables-api-openapi.yml
+  format: yaml
+  label: Clarifeye Tables API
+  slug: clarifeye-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-tables-api-openapi.yml
+- filename: clarifeye-tools-api-openapi.yml
+  format: yaml
+  label: Clarifeye Tools API
+  slug: clarifeye-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-tools-api-openapi.yml
+- filename: clarifeye-users-api-openapi.yml
+  format: yaml
+  label: Clarifeye Users API
+  slug: clarifeye-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-users-api-openapi.yml
 description: ''
 domains:
 - caa:

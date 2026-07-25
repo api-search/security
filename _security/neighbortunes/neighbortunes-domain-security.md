@@ -1,11 +1,101 @@
 ---
 api_specs:
-- filename: neighbortunes-openapi.yml
+- filename: neighbortunes-albums-format-api-openapi.yml
   format: yaml
-  label: Neighbortunes
-  slug: neighbortunes
+  label: Neighbortunes Albums.{format} API
+  slug: neighbortunes-albums-format-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/openapi/neighbortunes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/openapi/neighbortunes-albums-format-api-openapi.yml
+- filename: neighbortunes-appearances-format-api-openapi.yml
+  format: yaml
+  label: Neighbortunes Appearances.{format} API
+  slug: neighbortunes-appearances-format-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/openapi/neighbortunes-appearances-format-api-openapi.yml
+- filename: neighbortunes-jamcharts-format-api-openapi.yml
+  format: yaml
+  label: Neighbortunes Jamcharts.{format} API
+  slug: neighbortunes-jamcharts-format-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/openapi/neighbortunes-jamcharts-format-api-openapi.yml
+- filename: neighbortunes-latest-format-api-openapi.yml
+  format: yaml
+  label: Neighbortunes Latest.{format} API
+  slug: neighbortunes-latest-format-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/openapi/neighbortunes-latest-format-api-openapi.yml
+- filename: neighbortunes-links-format-api-openapi.yml
+  format: yaml
+  label: Neighbortunes Links.{format} API
+  slug: neighbortunes-links-format-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/openapi/neighbortunes-links-format-api-openapi.yml
+- filename: neighbortunes-list-api-openapi.yml
+  format: yaml
+  label: Neighbortunes List API
+  slug: neighbortunes-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/openapi/neighbortunes-list-api-openapi.yml
+- filename: neighbortunes-metadata-format-api-openapi.yml
+  format: yaml
+  label: Neighbortunes Metadata.{format} API
+  slug: neighbortunes-metadata-format-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/openapi/neighbortunes-metadata-format-api-openapi.yml
+- filename: neighbortunes-setlists-api-openapi.yml
+  format: yaml
+  label: Neighbortunes Setlists API
+  slug: neighbortunes-setlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/openapi/neighbortunes-setlists-api-openapi.yml
+- filename: neighbortunes-setlists-format-api-openapi.yml
+  format: yaml
+  label: Neighbortunes Setlists.{format} API
+  slug: neighbortunes-setlists-format-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/openapi/neighbortunes-setlists-format-api-openapi.yml
+- filename: neighbortunes-shows-api-openapi.yml
+  format: yaml
+  label: Neighbortunes Shows API
+  slug: neighbortunes-shows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/openapi/neighbortunes-shows-api-openapi.yml
+- filename: neighbortunes-shows-format-api-openapi.yml
+  format: yaml
+  label: Neighbortunes Shows.{format} API
+  slug: neighbortunes-shows-format-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/openapi/neighbortunes-shows-format-api-openapi.yml
+- filename: neighbortunes-songs-api-openapi.yml
+  format: yaml
+  label: Neighbortunes Songs API
+  slug: neighbortunes-songs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/openapi/neighbortunes-songs-api-openapi.yml
+- filename: neighbortunes-songs-format-api-openapi.yml
+  format: yaml
+  label: Neighbortunes Songs.{format} API
+  slug: neighbortunes-songs-format-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/openapi/neighbortunes-songs-format-api-openapi.yml
+- filename: neighbortunes-uploads-format-api-openapi.yml
+  format: yaml
+  label: Neighbortunes Uploads.{format} API
+  slug: neighbortunes-uploads-format-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/openapi/neighbortunes-uploads-format-api-openapi.yml
+- filename: neighbortunes-venues-api-openapi.yml
+  format: yaml
+  label: Neighbortunes Venues API
+  slug: neighbortunes-venues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/openapi/neighbortunes-venues-api-openapi.yml
+- filename: neighbortunes-venues-format-api-openapi.yml
+  format: yaml
+  label: Neighbortunes Venues.{format} API
+  slug: neighbortunes-venues-format-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/openapi/neighbortunes-venues-format-api-openapi.yml
 description: ''
 domains:
 - caa: []

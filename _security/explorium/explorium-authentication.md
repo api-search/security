@@ -1,36 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: explorium-openapi.yml
+- filename: explorium-business-enrichments-api-openapi.yml
   format: yaml
-  label: Explorium Business Enrichment API
-  slug: explorium-business-enrichment-api
+  label: Explorium Business Enrichments API
+  slug: explorium-business-enrichments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-openapi.yml
-- filename: explorium-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-business-enrichments-api-openapi.yml
+- filename: explorium-businesses-api-openapi.yml
   format: yaml
-  label: Explorium Prospect Enrichment API
-  slug: explorium-prospect-enrichment-api
+  label: Explorium Businesses API
+  slug: explorium-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-openapi.yml
-- filename: explorium-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-businesses-api-openapi.yml
+- filename: explorium-credits-api-openapi.yml
   format: yaml
-  label: Explorium Matching API
-  slug: explorium-matching-api
+  label: Explorium Credits API
+  slug: explorium-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-openapi.yml
-- filename: explorium-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-credits-api-openapi.yml
+- filename: explorium-events-api-openapi.yml
   format: yaml
-  label: Explorium Autocomplete API
-  slug: explorium-autocomplete-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-openapi.yml
-- filename: explorium-openapi.yml
-  format: yaml
-  label: Explorium Business and Prospect Events API
+  label: Explorium Events API
   slug: explorium-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-events-api-openapi.yml
+- filename: explorium-prospect-enrichments-api-openapi.yml
+  format: yaml
+  label: Explorium Prospect Enrichments API
+  slug: explorium-prospect-enrichments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-prospect-enrichments-api-openapi.yml
+- filename: explorium-prospects-api-openapi.yml
+  format: yaml
+  label: Explorium Prospects API
+  slug: explorium-prospects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-prospects-api-openapi.yml
+- filename: explorium-webhooks-api-openapi.yml
+  format: yaml
+  label: Explorium Webhooks API
+  slug: explorium-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: mparticle-openapi.yml
+- filename: mparticle-bulkevents-api-openapi.yml
+  format: yaml
+  label: mParticle Bulkevents API
+  slug: mparticle-bulkevents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-bulkevents-api-openapi.yml
+- filename: mparticle-events-api-openapi.yml
   format: yaml
   label: mParticle Events API
-  slug: events-api
+  slug: mparticle-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-events-api-openapi.yml
 description: ''
 domains:
 - caa:

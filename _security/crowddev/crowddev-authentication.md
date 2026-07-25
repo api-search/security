@@ -1,12 +1,102 @@
 ---
 api_key_in: []
 api_specs:
-- filename: crowddev-cdp-public-openapi.yml
+- filename: crowddev-advisories-api-openapi.yml
   format: yaml
-  label: CDP Public API
-  slug: cdp-public-api
+  label: Crowd.dev Advisories API
+  slug: crowddev-advisories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-cdp-public-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-advisories-api-openapi.yml
+- filename: crowddev-affiliations-api-openapi.yml
+  format: yaml
+  label: Crowd.dev Affiliations API
+  slug: crowddev-affiliations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-affiliations-api-openapi.yml
+- filename: crowddev-contacts-api-openapi.yml
+  format: yaml
+  label: Crowd.dev Contacts API
+  slug: crowddev-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-contacts-api-openapi.yml
+- filename: crowddev-dashboard-api-openapi.yml
+  format: yaml
+  label: Crowd.dev Dashboard API
+  slug: crowddev-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-dashboard-api-openapi.yml
+- filename: crowddev-maintainer-roles-api-openapi.yml
+  format: yaml
+  label: Crowd.dev Maintainer Roles API
+  slug: crowddev-maintainer-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-maintainer-roles-api-openapi.yml
+- filename: crowddev-member-affiliations-api-api-openapi.yml
+  format: yaml
+  label: Crowd.dev Member Affiliations API API
+  slug: crowddev-member-affiliations-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-member-affiliations-api-api-openapi.yml
+- filename: crowddev-member-identities-api-openapi.yml
+  format: yaml
+  label: Crowd.dev Member Identities API
+  slug: crowddev-member-identities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-member-identities-api-openapi.yml
+- filename: crowddev-member-organizations-api-api-openapi.yml
+  format: yaml
+  label: Crowd.dev Member Organizations API API
+  slug: crowddev-member-organizations-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-member-organizations-api-api-openapi.yml
+- filename: crowddev-members-api-openapi.yml
+  format: yaml
+  label: Crowd.dev Members API
+  slug: crowddev-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-members-api-openapi.yml
+- filename: crowddev-organizations-api-openapi.yml
+  format: yaml
+  label: Crowd.dev Organizations API
+  slug: crowddev-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-organizations-api-openapi.yml
+- filename: crowddev-packages-api-openapi.yml
+  format: yaml
+  label: Crowd.dev Packages API
+  slug: crowddev-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-packages-api-openapi.yml
+- filename: crowddev-project-affiliations-api-openapi.yml
+  format: yaml
+  label: Crowd.dev Project Affiliations API
+  slug: crowddev-project-affiliations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-project-affiliations-api-openapi.yml
+- filename: crowddev-stewardship-actions-api-openapi.yml
+  format: yaml
+  label: Crowd.dev Stewardship Actions API
+  slug: crowddev-stewardship-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-stewardship-actions-api-openapi.yml
+- filename: crowddev-stewardship-api-openapi.yml
+  format: yaml
+  label: Crowd.dev Stewardship API
+  slug: crowddev-stewardship-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-stewardship-api-openapi.yml
+- filename: crowddev-stewardships-api-openapi.yml
+  format: yaml
+  label: Crowd.dev Stewardships API
+  slug: crowddev-stewardships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-stewardships-api-openapi.yml
+- filename: crowddev-work-experiences-api-openapi.yml
+  format: yaml
+  label: Crowd.dev Work Experiences API
+  slug: crowddev-work-experiences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-work-experiences-api-openapi.yml
 auth_types:
 - http
 - oauth2

@@ -1,42 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: dyte-openapi.yml
-  format: yaml
-  label: Dyte Meetings API
-  slug: meetings
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-openapi.yml
-- filename: dyte-openapi.yml
-  format: yaml
-  label: Dyte Participants API
-  slug: participants
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-openapi.yml
-- filename: dyte-openapi.yml
-  format: yaml
-  label: Dyte Sessions API
-  slug: sessions
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-openapi.yml
-- filename: dyte-openapi.yml
-  format: yaml
-  label: Dyte Recordings API
-  slug: recordings
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-openapi.yml
-- filename: dyte-openapi.yml
+- filename: dyte-livestreams-api-openapi.yml
   format: yaml
   label: Dyte Livestreams API
-  slug: livestreams
+  slug: dyte-livestreams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-openapi.yml
-- filename: dyte-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-livestreams-api-openapi.yml
+- filename: dyte-meetings-api-openapi.yml
+  format: yaml
+  label: Dyte Meetings API
+  slug: dyte-meetings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-meetings-api-openapi.yml
+- filename: dyte-participants-api-openapi.yml
+  format: yaml
+  label: Dyte Participants API
+  slug: dyte-participants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-participants-api-openapi.yml
+- filename: dyte-recordings-api-openapi.yml
+  format: yaml
+  label: Dyte Recordings API
+  slug: dyte-recordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-recordings-api-openapi.yml
+- filename: dyte-sessions-api-openapi.yml
+  format: yaml
+  label: Dyte Sessions API
+  slug: dyte-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-sessions-api-openapi.yml
+- filename: dyte-webhooks-api-openapi.yml
   format: yaml
   label: Dyte Webhooks API
-  slug: webhooks
+  slug: dyte-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

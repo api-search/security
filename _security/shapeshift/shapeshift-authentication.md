@@ -1,24 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: shapeshift-ethereum-openapi.json
-  format: json
-  label: ShapeShift Unchained — Ethereum (EVM) API
-  slug: shapeshift-unchained-ethereum-evm-api
+- filename: shapeshift-v1-api-openapi.yml
+  format: yaml
+  label: Shapeshift v1 API
+  slug: shapeshift-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-ethereum-openapi.json
-- filename: shapeshift-bitcoin-openapi.json
-  format: json
-  label: ShapeShift Unchained — Bitcoin (UTXO) API
-  slug: shapeshift-unchained-bitcoin-utxo-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-bitcoin-openapi.json
-- filename: shapeshift-solana-openapi.json
-  format: json
-  label: ShapeShift Unchained — Solana API
-  slug: shapeshift-unchained-solana-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-solana-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-v1-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

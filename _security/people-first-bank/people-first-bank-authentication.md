@@ -1,36 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: people-first-bank-cds-banking-products-openapi.yml
+- filename: people-first-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: People First Bank CDR Product Reference Data API
-  slug: people-first-bank-cdr-product-reference-data-api
+  label: People First Bank Banking Account Balances API
+  slug: people-first-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/openapi/people-first-bank-cds-banking-products-openapi.yml
-- filename: people-first-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/openapi/people-first-bank-banking-account-balances-api-openapi.yml
+- filename: people-first-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: People First Bank CDR Accounts & Balances API
-  slug: people-first-bank-cdr-accounts-balances-api
+  label: People First Bank Banking Account Direct Debits API
+  slug: people-first-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/openapi/people-first-bank-cds-banking-products-openapi.yml
-- filename: people-first-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/openapi/people-first-bank-banking-account-direct-debits-api-openapi.yml
+- filename: people-first-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: People First Bank CDR Transactions API
-  slug: people-first-bank-cdr-transactions-api
+  label: People First Bank Banking Account Scheduled Payments API
+  slug: people-first-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/openapi/people-first-bank-cds-banking-products-openapi.yml
-- filename: people-first-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/openapi/people-first-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: people-first-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: People First Bank CDR Direct Debits & Scheduled Payments API
-  slug: people-first-bank-cdr-direct-debits-scheduled-payments-api
+  label: People First Bank Banking Account Transactions API
+  slug: people-first-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/openapi/people-first-bank-cds-banking-products-openapi.yml
-- filename: people-first-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/openapi/people-first-bank-banking-account-transactions-api-openapi.yml
+- filename: people-first-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: People First Bank CDR Payees API
-  slug: people-first-bank-cdr-payees-api
+  label: People First Bank Banking Accounts API
+  slug: people-first-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/openapi/people-first-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/openapi/people-first-bank-banking-accounts-api-openapi.yml
+- filename: people-first-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: People First Bank Banking Payees API
+  slug: people-first-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/openapi/people-first-bank-banking-payees-api-openapi.yml
+- filename: people-first-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: People First Bank Banking Products API
+  slug: people-first-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/openapi/people-first-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2

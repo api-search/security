@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: kit-openapi.yml
+- filename: kit-account-api-openapi.yml
   format: yaml
-  label: Kit API V4
-  slug: kit-api-v4
+  label: Kit Account API
+  slug: kit-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kit/refs/heads/main/openapi/kit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kit/refs/heads/main/openapi/kit-account-api-openapi.yml
+- filename: kit-broadcasts-api-openapi.yml
+  format: yaml
+  label: Kit Broadcasts API
+  slug: kit-broadcasts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kit/refs/heads/main/openapi/kit-broadcasts-api-openapi.yml
+- filename: kit-subscribers-api-openapi.yml
+  format: yaml
+  label: Kit Subscribers API
+  slug: kit-subscribers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kit/refs/heads/main/openapi/kit-subscribers-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

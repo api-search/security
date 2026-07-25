@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: midjourney-image-generation-openapi.yml
+- filename: midjourney-image-analysis-api-openapi.yml
   format: yaml
-  label: Midjourney Image Generation API
-  slug: image-generation-api
+  label: midjourney Image Analysis API
+  slug: midjourney-image-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/openapi/midjourney-image-generation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/openapi/midjourney-image-analysis-api-openapi.yml
+- filename: midjourney-image-generation-api-openapi.yml
+  format: yaml
+  label: midjourney Image Generation API
+  slug: midjourney-image-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/openapi/midjourney-image-generation-api-openapi.yml
+- filename: midjourney-image-manipulation-api-openapi.yml
+  format: yaml
+  label: midjourney Image Manipulation API
+  slug: midjourney-image-manipulation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/openapi/midjourney-image-manipulation-api-openapi.yml
+- filename: midjourney-jobs-api-openapi.yml
+  format: yaml
+  label: midjourney Jobs API
+  slug: midjourney-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/openapi/midjourney-jobs-api-openapi.yml
 description: ''
 domains:
 - caa: []

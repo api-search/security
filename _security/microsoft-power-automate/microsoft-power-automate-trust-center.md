@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: microsoft-power-automate-management-api.yaml
+- filename: microsoft-power-automate-connections-api-openapi.yml
   format: yaml
-  label: Power Automate Management API
-  slug: power-automate-management-api
+  label: Microsoft Power Automate Connections API
+  slug: microsoft-power-automate-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/openapi/microsoft-power-automate-management-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/openapi/microsoft-power-automate-connections-api-openapi.yml
+- filename: microsoft-power-automate-connectors-api-openapi.yml
+  format: yaml
+  label: Microsoft Power Automate Connectors API
+  slug: microsoft-power-automate-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/openapi/microsoft-power-automate-connectors-api-openapi.yml
+- filename: microsoft-power-automate-environments-api-openapi.yml
+  format: yaml
+  label: Microsoft Power Automate Environments API
+  slug: microsoft-power-automate-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/openapi/microsoft-power-automate-environments-api-openapi.yml
+- filename: microsoft-power-automate-flow-permissions-api-openapi.yml
+  format: yaml
+  label: Microsoft Power Automate Flow Permissions API
+  slug: microsoft-power-automate-flow-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/openapi/microsoft-power-automate-flow-permissions-api-openapi.yml
+- filename: microsoft-power-automate-flow-runs-api-openapi.yml
+  format: yaml
+  label: Microsoft Power Automate Flow Runs API
+  slug: microsoft-power-automate-flow-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/openapi/microsoft-power-automate-flow-runs-api-openapi.yml
+- filename: microsoft-power-automate-flows-api-openapi.yml
+  format: yaml
+  label: Microsoft Power Automate Flows API
+  slug: microsoft-power-automate-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/openapi/microsoft-power-automate-flows-api-openapi.yml
 certifications:
 - SOC 1
 - SOC 2 Type II

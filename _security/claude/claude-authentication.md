@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: claude-messages-api.yml
+- filename: claude-message-batches-api-openapi.yml
+  format: yaml
+  label: Claude Message Batches API
+  slug: claude-message-batches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/claude/refs/heads/main/openapi/claude-message-batches-api-openapi.yml
+- filename: claude-models-api-openapi.yml
+  format: yaml
+  label: Claude Models API
+  slug: claude-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/claude/refs/heads/main/openapi/claude-models-api-openapi.yml
+- filename: claude-message-batches-api-openapi.yml
+  format: yaml
+  label: Claude Message Batches API
+  slug: claude-message-batches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/claude/refs/heads/main/openapi/claude-message-batches-api-openapi.yml
+- filename: claude-messages-api-openapi.yml
   format: yaml
   label: Claude Messages API
   slug: claude-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claude/refs/heads/main/openapi/claude-messages-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/claude/refs/heads/main/openapi/claude-messages-api-openapi.yml
+- filename: claude-models-api-openapi.yml
+  format: yaml
+  label: Claude Models API
+  slug: claude-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/claude/refs/heads/main/openapi/claude-models-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

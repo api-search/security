@@ -2,12 +2,30 @@
 api_key_in:
 - query
 api_specs:
-- filename: wunderground-pws-api.yml
+- filename: wunderground-forecast-api-openapi.yml
   format: yaml
-  label: Weather Underground PWS API
-  slug: weather-underground-pws-api
+  label: Weather Underground Forecast API
+  slug: wunderground-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderground/refs/heads/main/openapi/wunderground-pws-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wunderground/refs/heads/main/openapi/wunderground-forecast-api-openapi.yml
+- filename: wunderground-historical-api-openapi.yml
+  format: yaml
+  label: Weather Underground Historical API
+  slug: wunderground-historical-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wunderground/refs/heads/main/openapi/wunderground-historical-api-openapi.yml
+- filename: wunderground-location-api-openapi.yml
+  format: yaml
+  label: Weather Underground Location API
+  slug: wunderground-location-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wunderground/refs/heads/main/openapi/wunderground-location-api-openapi.yml
+- filename: wunderground-observations-api-openapi.yml
+  format: yaml
+  label: Weather Underground Observations API
+  slug: wunderground-observations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wunderground/refs/heads/main/openapi/wunderground-observations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

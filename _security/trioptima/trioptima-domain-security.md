@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: trioptima-trireduce-api-openapi.yml
+- filename: trioptima-cycles-api-openapi.yml
   format: yaml
-  label: Trioptima triReduce API
-  slug: trireduce-api
+  label: Trioptima Cycles API
+  slug: trioptima-cycles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/openapi/trioptima-trireduce-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/openapi/trioptima-cycles-api-openapi.yml
+- filename: trioptima-results-api-openapi.yml
+  format: yaml
+  label: Trioptima Results API
+  slug: trioptima-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/openapi/trioptima-results-api-openapi.yml
+- filename: trioptima-risk-api-openapi.yml
+  format: yaml
+  label: Trioptima Risk API
+  slug: trioptima-risk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/openapi/trioptima-risk-api-openapi.yml
+- filename: trioptima-trades-api-openapi.yml
+  format: yaml
+  label: Trioptima Trades API
+  slug: trioptima-trades-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/openapi/trioptima-trades-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: microsoft-office-drive-api-openapi.yml
   format: yaml
-  label: Microsoft Graph API
-  slug: microsoft-graph-api
+  label: Microsoft Office Drive API
+  slug: microsoft-office-drive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/microsoftgraph/microsoft-graph-openapi/master/openapi/v1.0/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office/refs/heads/main/openapi/microsoft-office-drive-api-openapi.yml
+- filename: microsoft-office-mail-api-openapi.yml
+  format: yaml
+  label: Microsoft Office Mail API
+  slug: microsoft-office-mail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office/refs/heads/main/openapi/microsoft-office-mail-api-openapi.yml
+- filename: microsoft-office-teams-api-openapi.yml
+  format: yaml
+  label: Microsoft Office Teams API
+  slug: microsoft-office-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office/refs/heads/main/openapi/microsoft-office-teams-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -2,12 +2,12 @@
 api_key_in:
 - query
 api_specs:
-- filename: openapi.json
-  format: json
-  label: PolygonScan API
-  slug: polygonscan-api
+- filename: polygonscan-api-api-openapi.yml
+  format: yaml
+  label: PolygonScan API API
+  slug: polygonscan-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygonscan/refs/heads/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/polygonscan/refs/heads/main/openapi/polygonscan-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: jobber-developer-api-openapi.yml
+- filename: jobber-graphql-api-openapi.yml
   format: yaml
-  label: Jobber Developer API
-  slug: jobber-developer-api
+  label: Jobber GraphQL API
+  slug: jobber-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jobber/refs/heads/main/openapi/jobber-developer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jobber/refs/heads/main/openapi/jobber-graphql-api-openapi.yml
 description: ''
 domains:
 - caa:

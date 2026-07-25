@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cloud-deploy-api-openapi.yml
+- filename: google-cloud-deploy-deliverypipelines-api-openapi.yml
   format: yaml
-  label: Cloud Deploy API
-  slug: cloud-deploy-api
+  label: Google Cloud Deploy DeliveryPipelines API
+  slug: google-cloud-deploy-deliverypipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-deploy/refs/heads/main/openapi/cloud-deploy-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-deploy/refs/heads/main/openapi/google-cloud-deploy-deliverypipelines-api-openapi.yml
+- filename: google-cloud-deploy-releases-api-openapi.yml
+  format: yaml
+  label: Google Cloud Deploy Releases API
+  slug: google-cloud-deploy-releases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-deploy/refs/heads/main/openapi/google-cloud-deploy-releases-api-openapi.yml
+- filename: google-cloud-deploy-rollouts-api-openapi.yml
+  format: yaml
+  label: Google Cloud Deploy Rollouts API
+  slug: google-cloud-deploy-rollouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-deploy/refs/heads/main/openapi/google-cloud-deploy-rollouts-api-openapi.yml
+- filename: google-cloud-deploy-targets-api-openapi.yml
+  format: yaml
+  label: Google Cloud Deploy Targets API
+  slug: google-cloud-deploy-targets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-deploy/refs/heads/main/openapi/google-cloud-deploy-targets-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

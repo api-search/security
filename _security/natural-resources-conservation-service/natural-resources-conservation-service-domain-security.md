@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: natural-resources-conservation-service-openapi.yml
+- filename: natural-resources-conservation-service-query-api-openapi.yml
   format: yaml
-  label: NRCS Soil Data Access
-  slug: soil-data-access-api
+  label: Natural Resources Conservation Service Query API
+  slug: natural-resources-conservation-service-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/natural-resources-conservation-service/refs/heads/main/openapi/natural-resources-conservation-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/natural-resources-conservation-service/refs/heads/main/openapi/natural-resources-conservation-service-query-api-openapi.yml
+- filename: natural-resources-conservation-service-soap-api-openapi.yml
+  format: yaml
+  label: Natural Resources Conservation Service SOAP API
+  slug: natural-resources-conservation-service-soap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/natural-resources-conservation-service/refs/heads/main/openapi/natural-resources-conservation-service-soap-api-openapi.yml
+- filename: natural-resources-conservation-service-spatial-api-openapi.yml
+  format: yaml
+  label: Natural Resources Conservation Service Spatial API
+  slug: natural-resources-conservation-service-spatial-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/natural-resources-conservation-service/refs/heads/main/openapi/natural-resources-conservation-service-spatial-api-openapi.yml
 description: ''
 domains:
 - caa:

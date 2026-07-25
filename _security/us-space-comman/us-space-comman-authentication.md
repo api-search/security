@@ -2,12 +2,42 @@
 api_key_in:
 - cookie
 api_specs:
-- filename: us-space-command-space-track-openapi.yml
+- filename: us-space-comman-authentication-api-openapi.yml
   format: yaml
-  label: Space-Track.org REST API
-  slug: space-track-api
+  label: US Space Command Authentication API
+  slug: us-space-comman-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/openapi/us-space-command-space-track-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/openapi/us-space-comman-authentication-api-openapi.yml
+- filename: us-space-comman-conjunction-data-api-openapi.yml
+  format: yaml
+  label: US Space Command Conjunction Data API
+  slug: us-space-comman-conjunction-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/openapi/us-space-comman-conjunction-data-api-openapi.yml
+- filename: us-space-comman-decay-and-reentry-api-openapi.yml
+  format: yaml
+  label: US Space Command Decay and Reentry API
+  slug: us-space-comman-decay-and-reentry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/openapi/us-space-comman-decay-and-reentry-api-openapi.yml
+- filename: us-space-comman-general-perturbations-api-openapi.yml
+  format: yaml
+  label: US Space Command General Perturbations API
+  slug: us-space-comman-general-perturbations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/openapi/us-space-comman-general-perturbations-api-openapi.yml
+- filename: us-space-comman-satellite-catalog-api-openapi.yml
+  format: yaml
+  label: US Space Command Satellite Catalog API
+  slug: us-space-comman-satellite-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/openapi/us-space-comman-satellite-catalog-api-openapi.yml
+- filename: us-space-comman-space-object-history-api-openapi.yml
+  format: yaml
+  label: US Space Command Space Object History API
+  slug: us-space-comman-space-object-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/openapi/us-space-comman-space-object-history-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

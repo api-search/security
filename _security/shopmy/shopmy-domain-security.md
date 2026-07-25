@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: shopmy-partners-openapi.yml
+- filename: shopmy-catalog-api-openapi.yml
   format: yaml
-  label: ShopMy Partners API
-  slug: shopmy-partners-api
+  label: ShopMy Catalog API
+  slug: shopmy-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-partners-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-catalog-api-openapi.yml
+- filename: shopmy-collections-api-openapi.yml
+  format: yaml
+  label: ShopMy Collections API
+  slug: shopmy-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-collections-api-openapi.yml
+- filename: shopmy-links-api-openapi.yml
+  format: yaml
+  label: ShopMy Links API
+  slug: shopmy-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-links-api-openapi.yml
+- filename: shopmy-oauth-api-openapi.yml
+  format: yaml
+  label: ShopMy OAuth API
+  slug: shopmy-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-oauth-api-openapi.yml
+- filename: shopmy-order-reporting-api-openapi.yml
+  format: yaml
+  label: ShopMy Order Reporting API
+  slug: shopmy-order-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-order-reporting-api-openapi.yml
+- filename: shopmy-profile-api-openapi.yml
+  format: yaml
+  label: ShopMy Profile API
+  slug: shopmy-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-profile-api-openapi.yml
 description: ''
 domains:
 - caa: []

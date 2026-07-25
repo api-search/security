@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: lincoln-national-openapi.yml
+- filename: lincoln-national-enrollment-api-openapi.yml
   format: yaml
-  label: Lincoln Financial LincSmart Enrollment API
-  slug: lincsmart-enrollment-api
+  label: Lincoln National Enrollment API
+  slug: lincoln-national-enrollment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lincoln-national/refs/heads/main/openapi/lincoln-national-openapi.yml
-- filename: lincoln-national-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lincoln-national/refs/heads/main/openapi/lincoln-national-enrollment-api-openapi.yml
+- filename: lincoln-national-eoi-api-openapi.yml
   format: yaml
-  label: Lincoln Financial LincSmart EOI Solution API
-  slug: lincsmart-eoi-api
+  label: Lincoln National Eoi API
+  slug: lincoln-national-eoi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lincoln-national/refs/heads/main/openapi/lincoln-national-openapi.yml
-- filename: lincoln-national-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lincoln-national/refs/heads/main/openapi/lincoln-national-eoi-api-openapi.yml
+- filename: lincoln-national-plan-design-api-openapi.yml
   format: yaml
-  label: Lincoln Financial LincSmart Plan Design API
-  slug: lincsmart-plan-design-api
+  label: Lincoln National Plan Design API
+  slug: lincoln-national-plan-design-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lincoln-national/refs/heads/main/openapi/lincoln-national-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lincoln-national/refs/heads/main/openapi/lincoln-national-plan-design-api-openapi.yml
 description: ''
 domains:
 - caa: []

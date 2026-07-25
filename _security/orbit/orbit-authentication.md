@@ -2,12 +2,60 @@
 api_key_in:
 - query
 api_specs:
-- filename: swagger.json
-  format: json
-  label: Orbit REST API
-  slug: orbit-rest-api
+- filename: orbit-activities-api-openapi.yml
+  format: yaml
+  label: Orbit Activities API
+  slug: orbit-activities-api
   spec_type: OpenAPI
-  url: https://app.orbit.love/api-docs/v1/swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-activities-api-openapi.yml
+- filename: orbit-activity-types-api-openapi.yml
+  format: yaml
+  label: Orbit Activity Types API
+  slug: orbit-activity-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-activity-types-api-openapi.yml
+- filename: orbit-members-api-openapi.yml
+  format: yaml
+  label: Orbit Members API
+  slug: orbit-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-members-api-openapi.yml
+- filename: orbit-notes-api-openapi.yml
+  format: yaml
+  label: Orbit Notes API
+  slug: orbit-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-notes-api-openapi.yml
+- filename: orbit-organizations-api-openapi.yml
+  format: yaml
+  label: Orbit Organizations API
+  slug: orbit-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-organizations-api-openapi.yml
+- filename: orbit-reports-api-openapi.yml
+  format: yaml
+  label: Orbit Reports API
+  slug: orbit-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-reports-api-openapi.yml
+- filename: orbit-users-api-openapi.yml
+  format: yaml
+  label: Orbit Users API
+  slug: orbit-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-users-api-openapi.yml
+- filename: orbit-webhooks-api-openapi.yml
+  format: yaml
+  label: Orbit Webhooks API
+  slug: orbit-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-webhooks-api-openapi.yml
+- filename: orbit-workspaces-api-openapi.yml
+  format: yaml
+  label: Orbit Workspaces API
+  slug: orbit-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-workspaces-api-openapi.yml
 auth_types:
 - apiKey
 - http

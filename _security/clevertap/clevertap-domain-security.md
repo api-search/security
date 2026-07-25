@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: clevertap-campaigns-api-openapi.yml
+  format: yaml
+  label: CleverTap Campaigns API
+  slug: clevertap-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/openapi/clevertap-campaigns-api-openapi.yml
+- filename: clevertap-events-api-openapi.yml
+  format: yaml
+  label: CleverTap Events API
+  slug: clevertap-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/openapi/clevertap-events-api-openapi.yml
+- filename: clevertap-profiles-api-openapi.yml
+  format: yaml
+  label: CleverTap Profiles API
+  slug: clevertap-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/openapi/clevertap-profiles-api-openapi.yml
+- filename: clevertap-reports-api-openapi.yml
+  format: yaml
+  label: CleverTap Reports API
+  slug: clevertap-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/openapi/clevertap-reports-api-openapi.yml
 description: ''
 domains:
 - caa: []

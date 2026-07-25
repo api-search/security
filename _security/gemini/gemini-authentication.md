@@ -3,12 +3,48 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: rest
+- filename: gemini-files-api-openapi.yml
   format: yaml
-  label: Gemini REST API
-  slug: gemini-rest-api
+  label: Gemini Files API
+  slug: gemini-files-api
   spec_type: OpenAPI
-  url: https://generativelanguage.googleapis.com/$discovery/rest?version=v1beta&key=YOUR_API_KEY
+  url: https://raw.githubusercontent.com/api-evangelist/gemini/refs/heads/main/openapi/gemini-files-api-openapi.yml
+- filename: gemini-embeddings-api-openapi.yml
+  format: yaml
+  label: Gemini Embeddings API
+  slug: gemini-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gemini/refs/heads/main/openapi/gemini-embeddings-api-openapi.yml
+- filename: gemini-embeddings-api-openapi.yml
+  format: yaml
+  label: Gemini Embeddings API
+  slug: gemini-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gemini/refs/heads/main/openapi/gemini-embeddings-api-openapi.yml
+- filename: gemini-files-api-openapi.yml
+  format: yaml
+  label: Gemini Files API
+  slug: gemini-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gemini/refs/heads/main/openapi/gemini-files-api-openapi.yml
+- filename: gemini-generation-api-openapi.yml
+  format: yaml
+  label: Gemini Generation API
+  slug: gemini-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gemini/refs/heads/main/openapi/gemini-generation-api-openapi.yml
+- filename: gemini-models-api-openapi.yml
+  format: yaml
+  label: Gemini Models API
+  slug: gemini-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gemini/refs/heads/main/openapi/gemini-models-api-openapi.yml
+- filename: gemini-utility-api-openapi.yml
+  format: yaml
+  label: Gemini Utility API
+  slug: gemini-utility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gemini/refs/heads/main/openapi/gemini-utility-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

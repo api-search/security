@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: archastro-platform-openapi.json
-  format: json
-  label: ArchAstro Platform API
-  slug: archastro-platform-api
+- filename: archastro-activity-feed-api-openapi.yml
+  format: yaml
+  label: Archastro Activity Feed API
+  slug: archastro-activity-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-platform-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-activity-feed-api-openapi.yml
+- filename: archastro-agents-api-openapi.yml
+  format: yaml
+  label: Archastro Agents API
+  slug: archastro-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-agents-api-openapi.yml
+- filename: archastro-auth-api-openapi.yml
+  format: yaml
+  label: Archastro auth API
+  slug: archastro-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-auth-api-openapi.yml
+- filename: archastro-files-api-openapi.yml
+  format: yaml
+  label: Archastro Files API
+  slug: archastro-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-files-api-openapi.yml
+- filename: archastro-oauth-api-openapi.yml
+  format: yaml
+  label: Archastro Oauth API
+  slug: archastro-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-oauth-api-openapi.yml
+- filename: archastro-s2s-api-openapi.yml
+  format: yaml
+  label: Archastro s2s API
+  slug: archastro-s2s-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-s2s-api-openapi.yml
+- filename: archastro-slack-channel-bindings-api-openapi.yml
+  format: yaml
+  label: Archastro Slack Channel Bindings API
+  slug: archastro-slack-channel-bindings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-slack-channel-bindings-api-openapi.yml
+- filename: archastro-teams-api-openapi.yml
+  format: yaml
+  label: Archastro Teams API
+  slug: archastro-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-teams-api-openapi.yml
+- filename: archastro-threads-api-openapi.yml
+  format: yaml
+  label: Archastro Threads API
+  slug: archastro-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-threads-api-openapi.yml
+- filename: archastro-users-api-openapi.yml
+  format: yaml
+  label: Archastro Users API
+  slug: archastro-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

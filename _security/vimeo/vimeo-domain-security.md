@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: api.yaml
-  format: yaml
-  label: Vimeo API
-  slug: rest-api
-  spec_type: OpenAPI
-  url: https://github.com/vimeo/openapi/blob/master/api.yaml
 - filename: vimeo-asyncapi.yml
   format: yaml
   label: Vimeo Webhooks
   slug: webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/openapi/vimeo-asyncapi.yml
+- filename: vimeo-albums-api-openapi.yml
+  format: yaml
+  label: Vimeo Albums API
+  slug: vimeo-albums-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/openapi/vimeo-albums-api-openapi.yml
+- filename: vimeo-channels-api-openapi.yml
+  format: yaml
+  label: Vimeo Channels API
+  slug: vimeo-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/openapi/vimeo-channels-api-openapi.yml
+- filename: vimeo-users-api-openapi.yml
+  format: yaml
+  label: Vimeo Users API
+  slug: vimeo-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/openapi/vimeo-users-api-openapi.yml
+- filename: vimeo-videos-api-openapi.yml
+  format: yaml
+  label: Vimeo Videos API
+  slug: vimeo-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/openapi/vimeo-videos-api-openapi.yml
 description: ''
 domains:
 - caa:

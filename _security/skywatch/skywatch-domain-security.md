@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: skywatch-openapi.yml
+- filename: skywatch-archive-search-api-openapi.yml
   format: yaml
-  label: SkyWatch EarthCache Archive Search API
+  label: SkyWatch Archive Search API
   slug: skywatch-archive-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/openapi/skywatch-openapi.yml
-- filename: skywatch-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/openapi/skywatch-archive-search-api-openapi.yml
+- filename: skywatch-cost-estimation-api-openapi.yml
   format: yaml
-  label: SkyWatch EarthCache Pipelines API
-  slug: skywatch-pipelines-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/openapi/skywatch-openapi.yml
-- filename: skywatch-openapi.yml
-  format: yaml
-  label: SkyWatch EarthCache Interval Results & Delivery API
-  slug: skywatch-interval-results-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/openapi/skywatch-openapi.yml
-- filename: skywatch-openapi.yml
-  format: yaml
-  label: SkyWatch EarthCache Cost Estimation API
+  label: SkyWatch Cost Estimation API
   slug: skywatch-cost-estimation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/openapi/skywatch-openapi.yml
-- filename: skywatch-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/openapi/skywatch-cost-estimation-api-openapi.yml
+- filename: skywatch-interval-results-api-openapi.yml
   format: yaml
-  label: SkyWatch EarthCache Outputs & Bands API
-  slug: skywatch-outputs-api
+  label: SkyWatch Interval Results API
+  slug: skywatch-interval-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/openapi/skywatch-openapi.yml
-- filename: skywatch-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/openapi/skywatch-interval-results-api-openapi.yml
+- filename: skywatch-locations-api-openapi.yml
   format: yaml
-  label: SkyWatch EarthCache Locations API
+  label: SkyWatch Locations API
   slug: skywatch-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/openapi/skywatch-openapi.yml
-- filename: skywatch-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/openapi/skywatch-locations-api-openapi.yml
+- filename: skywatch-outputs-api-openapi.yml
   format: yaml
-  label: SkyWatch EarthCache Subscriptions & Callbacks API
+  label: SkyWatch Outputs API
+  slug: skywatch-outputs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/openapi/skywatch-outputs-api-openapi.yml
+- filename: skywatch-pipelines-api-openapi.yml
+  format: yaml
+  label: SkyWatch Pipelines API
+  slug: skywatch-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/openapi/skywatch-pipelines-api-openapi.yml
+- filename: skywatch-subscriptions-api-openapi.yml
+  format: yaml
+  label: SkyWatch Subscriptions API
   slug: skywatch-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/openapi/skywatch-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/openapi/skywatch-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []

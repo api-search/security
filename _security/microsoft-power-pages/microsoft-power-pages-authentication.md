@@ -2,12 +2,18 @@
 api_key_in:
 - cookie
 api_specs:
-- filename: microsoft-power-pages-openapi.yml
+- filename: microsoft-power-pages-records-api-openapi.yml
   format: yaml
-  label: Power Pages Web API
-  slug: web-api
+  label: Microsoft Power Pages Records API
+  slug: microsoft-power-pages-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-pages/refs/heads/main/openapi/microsoft-power-pages-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-pages/refs/heads/main/openapi/microsoft-power-pages-records-api-openapi.yml
+- filename: microsoft-power-pages-tables-api-openapi.yml
+  format: yaml
+  label: Microsoft Power Pages Tables API
+  slug: microsoft-power-pages-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-pages/refs/heads/main/openapi/microsoft-power-pages-tables-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

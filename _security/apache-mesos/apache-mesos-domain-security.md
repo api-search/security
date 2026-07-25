@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: apache-mesos-openapi.yml
+- filename: apache-mesos-apache-mesos-operator-http-api-api-openapi.yml
   format: yaml
-  label: Apache Mesos Operator HTTP API
-  slug: mesos-operator-http-api
+  label: Apache Mesos Apache Mesos Operator HTTP API API
+  slug: apache-mesos-apache-mesos-operator-http-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-mesos/refs/heads/main/openapi/apache-mesos-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-mesos/refs/heads/main/openapi/apache-mesos-apache-mesos-operator-http-api-api-openapi.yml
 description: ''
 domains:
 - caa:

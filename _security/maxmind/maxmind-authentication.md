@@ -1,42 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: maxmind-geoip-openapi.yml
+- filename: maxmind-geoip-city-api-openapi.yml
   format: yaml
-  label: GeoIP Country Web Service
-  slug: geoip-country
+  label: MaxMind GeoIP City API
+  slug: maxmind-geoip-city-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maxmind/refs/heads/main/openapi/maxmind-geoip-openapi.yml
-- filename: maxmind-geoip-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maxmind/refs/heads/main/openapi/maxmind-geoip-city-api-openapi.yml
+- filename: maxmind-geoip-country-api-openapi.yml
   format: yaml
-  label: GeoIP City Plus Web Service
-  slug: geoip-city
+  label: MaxMind GeoIP Country API
+  slug: maxmind-geoip-country-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maxmind/refs/heads/main/openapi/maxmind-geoip-openapi.yml
-- filename: maxmind-geoip-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maxmind/refs/heads/main/openapi/maxmind-geoip-country-api-openapi.yml
+- filename: maxmind-geoip-insights-api-openapi.yml
   format: yaml
-  label: GeoIP Insights Web Service
-  slug: geoip-insights
+  label: MaxMind GeoIP Insights API
+  slug: maxmind-geoip-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maxmind/refs/heads/main/openapi/maxmind-geoip-openapi.yml
-- filename: maxmind-minfraud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maxmind/refs/heads/main/openapi/maxmind-geoip-insights-api-openapi.yml
+- filename: maxmind-minfraud-factors-api-openapi.yml
   format: yaml
-  label: minFraud Score
-  slug: minfraud-score
+  label: MaxMind minFraud Factors API
+  slug: maxmind-minfraud-factors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maxmind/refs/heads/main/openapi/maxmind-minfraud-openapi.yml
-- filename: maxmind-minfraud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maxmind/refs/heads/main/openapi/maxmind-minfraud-factors-api-openapi.yml
+- filename: maxmind-minfraud-insights-api-openapi.yml
   format: yaml
-  label: minFraud Insights
-  slug: minfraud-insights
+  label: MaxMind minFraud Insights API
+  slug: maxmind-minfraud-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maxmind/refs/heads/main/openapi/maxmind-minfraud-openapi.yml
-- filename: maxmind-minfraud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maxmind/refs/heads/main/openapi/maxmind-minfraud-insights-api-openapi.yml
+- filename: maxmind-minfraud-score-api-openapi.yml
   format: yaml
-  label: minFraud Factors
-  slug: minfraud-factors
+  label: MaxMind minFraud Score API
+  slug: maxmind-minfraud-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maxmind/refs/heads/main/openapi/maxmind-minfraud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maxmind/refs/heads/main/openapi/maxmind-minfraud-score-api-openapi.yml
 auth_types:
 - http
 description: ''

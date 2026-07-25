@@ -2,12 +2,96 @@
 api_key_in:
 - header
 api_specs:
-- filename: loopay-openapi-original.json
-  format: json
-  label: Loopay API
-  slug: loopay-api
+- filename: loopay-affiliate-api-openapi.yml
+  format: yaml
+  label: Loopay Affiliate API
+  slug: loopay-affiliate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-affiliate-api-openapi.yml
+- filename: loopay-bank-api-openapi.yml
+  format: yaml
+  label: Loopay Bank API
+  slug: loopay-bank-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-bank-api-openapi.yml
+- filename: loopay-company-api-openapi.yml
+  format: yaml
+  label: Loopay Company API
+  slug: loopay-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-company-api-openapi.yml
+- filename: loopay-companyproduct-api-openapi.yml
+  format: yaml
+  label: Loopay CompanyProduct API
+  slug: loopay-companyproduct-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-companyproduct-api-openapi.yml
+- filename: loopay-country-api-openapi.yml
+  format: yaml
+  label: Loopay Country API
+  slug: loopay-country-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-country-api-openapi.yml
+- filename: loopay-currency-api-openapi.yml
+  format: yaml
+  label: Loopay Currency API
+  slug: loopay-currency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-currency-api-openapi.yml
+- filename: loopay-documenttype-api-openapi.yml
+  format: yaml
+  label: Loopay DocumentType API
+  slug: loopay-documenttype-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-documenttype-api-openapi.yml
+- filename: loopay-movements-api-openapi.yml
+  format: yaml
+  label: Loopay Movements API
+  slug: loopay-movements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-movements-api-openapi.yml
+- filename: loopay-paidmethods-api-openapi.yml
+  format: yaml
+  label: Loopay PaidMethods API
+  slug: loopay-paidmethods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-paidmethods-api-openapi.yml
+- filename: loopay-payin-api-openapi.yml
+  format: yaml
+  label: Loopay PayIn API
+  slug: loopay-payin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-payin-api-openapi.yml
+- filename: loopay-payout-api-openapi.yml
+  format: yaml
+  label: Loopay Payout API
+  slug: loopay-payout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-payout-api-openapi.yml
+- filename: loopay-physicalpoint-api-openapi.yml
+  format: yaml
+  label: Loopay PhysicalPoint API
+  slug: loopay-physicalpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-physicalpoint-api-openapi.yml
+- filename: loopay-sourcesofpayment-api-openapi.yml
+  format: yaml
+  label: Loopay SourcesOfPayment API
+  slug: loopay-sourcesofpayment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-sourcesofpayment-api-openapi.yml
+- filename: loopay-sourcesofpaymentadmin-api-openapi.yml
+  format: yaml
+  label: Loopay SourcesOfPaymentAdmin API
+  slug: loopay-sourcesofpaymentadmin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-sourcesofpaymentadmin-api-openapi.yml
+- filename: loopay-user-api-openapi.yml
+  format: yaml
+  label: Loopay User API
+  slug: loopay-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-user-api-openapi.yml
 auth_types:
 - token
 description: ''

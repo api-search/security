@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: themeparks-wiki-openapi.yml
+- filename: themeparks-wiki-destinations-api-openapi.yml
   format: yaml
-  label: ThemeParks.wiki API
-  slug: themeparks-wiki
+  label: ThemeParks.wiki Destinations API
+  slug: themeparks-wiki-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/themeparks-wiki/refs/heads/main/openapi/themeparks-wiki-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/themeparks-wiki/refs/heads/main/openapi/themeparks-wiki-destinations-api-openapi.yml
+- filename: themeparks-wiki-entities-api-openapi.yml
+  format: yaml
+  label: ThemeParks.wiki Entities API
+  slug: themeparks-wiki-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/themeparks-wiki/refs/heads/main/openapi/themeparks-wiki-entities-api-openapi.yml
 description: ''
 domains:
 - caa: []

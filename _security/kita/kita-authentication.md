@@ -1,18 +1,90 @@
 ---
 api_key_in: []
 api_specs:
-- filename: kita-capture-openapi.yml
+- filename: kita-applications-api-openapi.yml
   format: yaml
-  label: Kita Capture API
-  slug: capture
+  label: Kita Applications API
+  slug: kita-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-capture-openapi.yml
-- filename: kita-underwriter-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-applications-api-openapi.yml
+- filename: kita-batch-api-openapi.yml
   format: yaml
-  label: Kita AI Underwriter API
-  slug: underwriter
+  label: Kita Batch API
+  slug: kita-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-underwriter-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-batch-api-openapi.yml
+- filename: kita-conversation-api-openapi.yml
+  format: yaml
+  label: Kita Conversation API
+  slug: kita-conversation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-conversation-api-openapi.yml
+- filename: kita-credit-api-openapi.yml
+  format: yaml
+  label: Kita Credit API
+  slug: kita-credit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-credit-api-openapi.yml
+- filename: kita-documents-api-openapi.yml
+  format: yaml
+  label: Kita Documents API
+  slug: kita-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-documents-api-openapi.yml
+- filename: kita-exports-api-openapi.yml
+  format: yaml
+  label: Kita Exports API
+  slug: kita-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-exports-api-openapi.yml
+- filename: kita-folders-api-openapi.yml
+  format: yaml
+  label: Kita Folders API
+  slug: kita-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-folders-api-openapi.yml
+- filename: kita-memo-api-openapi.yml
+  format: yaml
+  label: Kita Memo API
+  slug: kita-memo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-memo-api-openapi.yml
+- filename: kita-processing-api-openapi.yml
+  format: yaml
+  label: Kita Processing API
+  slug: kita-processing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-processing-api-openapi.yml
+- filename: kita-results-api-openapi.yml
+  format: yaml
+  label: Kita Results API
+  slug: kita-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-results-api-openapi.yml
+- filename: kita-schemas-api-openapi.yml
+  format: yaml
+  label: Kita Schemas API
+  slug: kita-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-schemas-api-openapi.yml
+- filename: kita-transcripts-api-openapi.yml
+  format: yaml
+  label: Kita Transcripts API
+  slug: kita-transcripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-transcripts-api-openapi.yml
+- filename: kita-verification-api-openapi.yml
+  format: yaml
+  label: Kita Verification API
+  slug: kita-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-verification-api-openapi.yml
+- filename: kita-webhooks-api-openapi.yml
+  format: yaml
+  label: Kita Webhooks API
+  slug: kita-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

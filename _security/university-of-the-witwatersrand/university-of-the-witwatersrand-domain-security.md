@@ -1,23 +1,95 @@
 ---
 api_specs:
-- filename: university-of-the-witwatersrand-wiredspace-rest.yaml
+- filename: university-of-the-witwatersrand-altmetric-api-openapi.yml
   format: yaml
-  label: WIReDSpace DSpace REST API
-  slug: wiredspace-rest
+  label: University of the Witwatersrand altmetric API
+  slug: university-of-the-witwatersrand-altmetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/openapi/university-of-the-witwatersrand-wiredspace-rest.yaml
-- filename: university-of-the-witwatersrand-wiredspace-oai.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/openapi/university-of-the-witwatersrand-altmetric-api-openapi.yml
+- filename: university-of-the-witwatersrand-articles-api-openapi.yml
   format: yaml
-  label: WIReDSpace OAI-PMH
-  slug: wiredspace-oai
+  label: University of the Witwatersrand articles API
+  slug: university-of-the-witwatersrand-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/openapi/university-of-the-witwatersrand-wiredspace-oai.yaml
-- filename: university-of-the-witwatersrand-open-data-vault.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/openapi/university-of-the-witwatersrand-articles-api-openapi.yml
+- filename: university-of-the-witwatersrand-authors-api-openapi.yml
   format: yaml
-  label: Wits Open Data Vault (Figshare)
-  slug: open-data-vault
+  label: University of the Witwatersrand authors API
+  slug: university-of-the-witwatersrand-authors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/openapi/university-of-the-witwatersrand-open-data-vault.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/openapi/university-of-the-witwatersrand-authors-api-openapi.yml
+- filename: university-of-the-witwatersrand-collections-api-openapi.yml
+  format: yaml
+  label: University of the Witwatersrand collections API
+  slug: university-of-the-witwatersrand-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/openapi/university-of-the-witwatersrand-collections-api-openapi.yml
+- filename: university-of-the-witwatersrand-communities-api-openapi.yml
+  format: yaml
+  label: University of the Witwatersrand Communities API
+  slug: university-of-the-witwatersrand-communities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/openapi/university-of-the-witwatersrand-communities-api-openapi.yml
+- filename: university-of-the-witwatersrand-discovery-api-openapi.yml
+  format: yaml
+  label: University of the Witwatersrand Discovery API
+  slug: university-of-the-witwatersrand-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/openapi/university-of-the-witwatersrand-discovery-api-openapi.yml
+- filename: university-of-the-witwatersrand-institutions-api-openapi.yml
+  format: yaml
+  label: University of the Witwatersrand institutions API
+  slug: university-of-the-witwatersrand-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/openapi/university-of-the-witwatersrand-institutions-api-openapi.yml
+- filename: university-of-the-witwatersrand-items-api-openapi.yml
+  format: yaml
+  label: University of the Witwatersrand Items API
+  slug: university-of-the-witwatersrand-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/openapi/university-of-the-witwatersrand-items-api-openapi.yml
+- filename: university-of-the-witwatersrand-oauth-api-openapi.yml
+  format: yaml
+  label: University of the Witwatersrand oauth API
+  slug: university-of-the-witwatersrand-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/openapi/university-of-the-witwatersrand-oauth-api-openapi.yml
+- filename: university-of-the-witwatersrand-other-api-openapi.yml
+  format: yaml
+  label: University of the Witwatersrand other API
+  slug: university-of-the-witwatersrand-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/openapi/university-of-the-witwatersrand-other-api-openapi.yml
+- filename: university-of-the-witwatersrand-profiles-api-openapi.yml
+  format: yaml
+  label: University of the Witwatersrand profiles API
+  slug: university-of-the-witwatersrand-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/openapi/university-of-the-witwatersrand-profiles-api-openapi.yml
+- filename: university-of-the-witwatersrand-projects-api-openapi.yml
+  format: yaml
+  label: University of the Witwatersrand projects API
+  slug: university-of-the-witwatersrand-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/openapi/university-of-the-witwatersrand-projects-api-openapi.yml
+- filename: university-of-the-witwatersrand-request-api-openapi.yml
+  format: yaml
+  label: University of the Witwatersrand Request API
+  slug: university-of-the-witwatersrand-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/openapi/university-of-the-witwatersrand-request-api-openapi.yml
+- filename: university-of-the-witwatersrand-root-api-openapi.yml
+  format: yaml
+  label: University of the Witwatersrand Root API
+  slug: university-of-the-witwatersrand-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/openapi/university-of-the-witwatersrand-root-api-openapi.yml
+- filename: university-of-the-witwatersrand-symplectic-api-openapi.yml
+  format: yaml
+  label: University of the Witwatersrand symplectic API
+  slug: university-of-the-witwatersrand-symplectic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/openapi/university-of-the-witwatersrand-symplectic-api-openapi.yml
 description: ''
 domains:
 - caa: []

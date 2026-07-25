@@ -1,23 +1,59 @@
 ---
 api_specs:
-- filename: atandt-wireless-apis.yaml
+- filename: atandt-device-status-api-openapi.yml
   format: yaml
-  label: AT&T Wireless APIs
-  slug: att-wireless-apis
+  label: AT&T Device Status API
+  slug: atandt-device-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atandt/refs/heads/main/openapi/atandt-wireless-apis.yaml
-- filename: atandt-network-apis.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/atandt/refs/heads/main/openapi/atandt-device-status-api-openapi.yml
+- filename: atandt-network-insights-api-openapi.yml
   format: yaml
-  label: AT&T 5G Network APIs
-  slug: att-network-apis
+  label: AT&T Network Insights API
+  slug: atandt-network-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atandt/refs/heads/main/openapi/atandt-network-apis.yaml
-- filename: atandt-enterprise-connectivity-apis.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/atandt/refs/heads/main/openapi/atandt-network-insights-api-openapi.yml
+- filename: atandt-number-verification-api-openapi.yml
   format: yaml
-  label: AT&T Enterprise Connectivity APIs
-  slug: att-enterprise-connectivity-apis
+  label: AT&T Number Verification API
+  slug: atandt-number-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atandt/refs/heads/main/openapi/atandt-enterprise-connectivity-apis.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/atandt/refs/heads/main/openapi/atandt-number-verification-api-openapi.yml
+- filename: atandt-order-management-api-openapi.yml
+  format: yaml
+  label: AT&T Order Management API
+  slug: atandt-order-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atandt/refs/heads/main/openapi/atandt-order-management-api-openapi.yml
+- filename: atandt-product-ordering-api-openapi.yml
+  format: yaml
+  label: AT&T Product Ordering API
+  slug: atandt-product-ordering-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atandt/refs/heads/main/openapi/atandt-product-ordering-api-openapi.yml
+- filename: atandt-quality-on-demand-api-openapi.yml
+  format: yaml
+  label: AT&T Quality on Demand API
+  slug: atandt-quality-on-demand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atandt/refs/heads/main/openapi/atandt-quality-on-demand-api-openapi.yml
+- filename: atandt-service-qualification-api-openapi.yml
+  format: yaml
+  label: AT&T Service Qualification API
+  slug: atandt-service-qualification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atandt/refs/heads/main/openapi/atandt-service-qualification-api-openapi.yml
+- filename: atandt-sim-swap-api-openapi.yml
+  format: yaml
+  label: AT&T SIM Swap API
+  slug: atandt-sim-swap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atandt/refs/heads/main/openapi/atandt-sim-swap-api-openapi.yml
+- filename: atandt-threat-detection-api-openapi.yml
+  format: yaml
+  label: AT&T Threat Detection API
+  slug: atandt-threat-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atandt/refs/heads/main/openapi/atandt-threat-detection-api-openapi.yml
 description: ''
 domains:
 - caa: []

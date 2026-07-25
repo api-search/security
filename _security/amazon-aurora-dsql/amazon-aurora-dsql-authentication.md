@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-aurora-dsql-openapi.yml
+- filename: amazon-aurora-dsql-clusters-api-openapi.yml
   format: yaml
-  label: Amazon Aurora DSQL API
-  slug: amazon-aurora-dsql-api
+  label: Amazon Aurora DSQL Clusters API
+  slug: amazon-aurora-dsql-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-aurora-dsql/refs/heads/main/openapi/amazon-aurora-dsql-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-aurora-dsql/refs/heads/main/openapi/amazon-aurora-dsql-clusters-api-openapi.yml
+- filename: amazon-aurora-dsql-multi-region-clusters-api-openapi.yml
+  format: yaml
+  label: Amazon Aurora DSQL Multi-Region Clusters API
+  slug: amazon-aurora-dsql-multi-region-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-aurora-dsql/refs/heads/main/openapi/amazon-aurora-dsql-multi-region-clusters-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

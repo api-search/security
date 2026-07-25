@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: rootly-openapi.yml
+- filename: rootly-alerts-api-openapi.yml
   format: yaml
-  label: Rootly
-  slug: rootly
+  label: Rootly Alerts API
+  slug: rootly-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rootly/refs/heads/main/openapi/rootly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rootly/refs/heads/main/openapi/rootly-alerts-api-openapi.yml
+- filename: rootly-escalation-policies-api-openapi.yml
+  format: yaml
+  label: Rootly Escalation Policies API
+  slug: rootly-escalation-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rootly/refs/heads/main/openapi/rootly-escalation-policies-api-openapi.yml
+- filename: rootly-incidents-api-openapi.yml
+  format: yaml
+  label: Rootly Incidents API
+  slug: rootly-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rootly/refs/heads/main/openapi/rootly-incidents-api-openapi.yml
+- filename: rootly-services-api-openapi.yml
+  format: yaml
+  label: Rootly Services API
+  slug: rootly-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rootly/refs/heads/main/openapi/rootly-services-api-openapi.yml
+- filename: rootly-teams-api-openapi.yml
+  format: yaml
+  label: Rootly Teams API
+  slug: rootly-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rootly/refs/heads/main/openapi/rootly-teams-api-openapi.yml
+- filename: rootly-users-api-openapi.yml
+  format: yaml
+  label: Rootly Users API
+  slug: rootly-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rootly/refs/heads/main/openapi/rootly-users-api-openapi.yml
+- filename: rootly-workflows-api-openapi.yml
+  format: yaml
+  label: Rootly Workflows API
+  slug: rootly-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rootly/refs/heads/main/openapi/rootly-workflows-api-openapi.yml
 auth_types:
 - http
 description: ''

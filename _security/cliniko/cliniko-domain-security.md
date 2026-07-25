@@ -1,41 +1,47 @@
 ---
 api_specs:
-- filename: cliniko-openapi.yml
-  format: yaml
-  label: Cliniko Patients API
-  slug: cliniko-patients-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cliniko/refs/heads/main/openapi/cliniko-openapi.yml
-- filename: cliniko-openapi.yml
-  format: yaml
-  label: Cliniko Appointments API
-  slug: cliniko-appointments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cliniko/refs/heads/main/openapi/cliniko-openapi.yml
-- filename: cliniko-openapi.yml
-  format: yaml
-  label: Cliniko Practitioners and Businesses API
-  slug: cliniko-practitioners-businesses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cliniko/refs/heads/main/openapi/cliniko-openapi.yml
-- filename: cliniko-openapi.yml
+- filename: cliniko-appointment-types-api-openapi.yml
   format: yaml
   label: Cliniko Appointment Types API
   slug: cliniko-appointment-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cliniko/refs/heads/main/openapi/cliniko-openapi.yml
-- filename: cliniko-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cliniko/refs/heads/main/openapi/cliniko-appointment-types-api-openapi.yml
+- filename: cliniko-appointments-api-openapi.yml
+  format: yaml
+  label: Cliniko Appointments API
+  slug: cliniko-appointments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cliniko/refs/heads/main/openapi/cliniko-appointments-api-openapi.yml
+- filename: cliniko-businesses-api-openapi.yml
+  format: yaml
+  label: Cliniko Businesses API
+  slug: cliniko-businesses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cliniko/refs/heads/main/openapi/cliniko-businesses-api-openapi.yml
+- filename: cliniko-invoices-api-openapi.yml
   format: yaml
   label: Cliniko Invoices API
   slug: cliniko-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cliniko/refs/heads/main/openapi/cliniko-openapi.yml
-- filename: cliniko-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cliniko/refs/heads/main/openapi/cliniko-invoices-api-openapi.yml
+- filename: cliniko-patients-api-openapi.yml
+  format: yaml
+  label: Cliniko Patients API
+  slug: cliniko-patients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cliniko/refs/heads/main/openapi/cliniko-patients-api-openapi.yml
+- filename: cliniko-practitioners-api-openapi.yml
+  format: yaml
+  label: Cliniko Practitioners API
+  slug: cliniko-practitioners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cliniko/refs/heads/main/openapi/cliniko-practitioners-api-openapi.yml
+- filename: cliniko-treatment-notes-api-openapi.yml
   format: yaml
   label: Cliniko Treatment Notes API
   slug: cliniko-treatment-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cliniko/refs/heads/main/openapi/cliniko-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cliniko/refs/heads/main/openapi/cliniko-treatment-notes-api-openapi.yml
 description: ''
 domains:
 - caa: []

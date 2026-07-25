@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: glama-openapi.yml
+- filename: glama-auth-api-openapi.yml
   format: yaml
-  label: Glama MCP Marketplace & Gateway
-  slug: mcp-platform
+  label: Glama AI Auth API
+  slug: glama-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glama/refs/heads/main/openapi/glama-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/glama/refs/heads/main/openapi/glama-auth-api-openapi.yml
+- filename: glama-chat-completions-api-openapi.yml
+  format: yaml
+  label: Glama AI Chat Completions API
+  slug: glama-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glama/refs/heads/main/openapi/glama-chat-completions-api-openapi.yml
+- filename: glama-models-api-openapi.yml
+  format: yaml
+  label: Glama AI Models API
+  slug: glama-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glama/refs/heads/main/openapi/glama-models-api-openapi.yml
+- filename: glama-observability-api-openapi.yml
+  format: yaml
+  label: Glama AI Observability API
+  slug: glama-observability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glama/refs/heads/main/openapi/glama-observability-api-openapi.yml
+- filename: glama-responses-api-openapi.yml
+  format: yaml
+  label: Glama AI Responses API
+  slug: glama-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glama/refs/heads/main/openapi/glama-responses-api-openapi.yml
 description: ''
 domains:
 - caa:

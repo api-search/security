@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: proompty-openapi-original.yml
+- filename: proompty-chat-api-openapi.yml
   format: yaml
-  label: Proompty
-  slug: proompty
+  label: Proompty Chat API
+  slug: proompty-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/proompty/refs/heads/main/openapi/proompty-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/proompty/refs/heads/main/openapi/proompty-chat-api-openapi.yml
+- filename: proompty-documents-api-openapi.yml
+  format: yaml
+  label: Proompty Documents API
+  slug: proompty-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/proompty/refs/heads/main/openapi/proompty-documents-api-openapi.yml
+- filename: proompty-me-api-openapi.yml
+  format: yaml
+  label: Proompty Me API
+  slug: proompty-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/proompty/refs/heads/main/openapi/proompty-me-api-openapi.yml
+- filename: proompty-prompt-api-openapi.yml
+  format: yaml
+  label: Proompty Prompt API
+  slug: proompty-prompt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/proompty/refs/heads/main/openapi/proompty-prompt-api-openapi.yml
+- filename: proompty-prompts-api-openapi.yml
+  format: yaml
+  label: Proompty Prompts API
+  slug: proompty-prompts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/proompty/refs/heads/main/openapi/proompty-prompts-api-openapi.yml
+- filename: proompty-topic-api-openapi.yml
+  format: yaml
+  label: Proompty Topic API
+  slug: proompty-topic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/proompty/refs/heads/main/openapi/proompty-topic-api-openapi.yml
+- filename: proompty-topics-api-openapi.yml
+  format: yaml
+  label: Proompty Topics API
+  slug: proompty-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/proompty/refs/heads/main/openapi/proompty-topics-api-openapi.yml
+- filename: proompty-uploads-api-openapi.yml
+  format: yaml
+  label: Proompty Uploads API
+  slug: proompty-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/proompty/refs/heads/main/openapi/proompty-uploads-api-openapi.yml
+- filename: proompty-user-api-openapi.yml
+  format: yaml
+  label: Proompty User API
+  slug: proompty-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/proompty/refs/heads/main/openapi/proompty-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

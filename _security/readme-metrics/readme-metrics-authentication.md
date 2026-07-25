@@ -1,18 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: 6733983cabaf62002c7b16d9
+- filename: readme-metrics-api-registry-api-openapi.yml
   format: yaml
-  label: ReadMe API
-  slug: readme-api
+  label: ReadMe Metrics Api Registry API
+  slug: readme-metrics-api-registry-api
   spec_type: OpenAPI
-  url: https://spec.readme.com/openapi/6733983cabaf62002c7b16d9
-- filename: readme-metrics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/readme-metrics/refs/heads/main/openapi/readme-metrics-api-registry-api-openapi.yml
+- filename: readme-metrics-api-specification-api-openapi.yml
   format: yaml
-  label: ReadMe Metrics
-  slug: readme-metrics
+  label: ReadMe Metrics Api Specification API
+  slug: readme-metrics-api-specification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/readme-metrics/refs/heads/main/openapi/readme-metrics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/readme-metrics/refs/heads/main/openapi/readme-metrics-api-specification-api-openapi.yml
+- filename: readme-metrics-changelogs-api-openapi.yml
+  format: yaml
+  label: ReadMe Metrics Changelogs API
+  slug: readme-metrics-changelogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/readme-metrics/refs/heads/main/openapi/readme-metrics-changelogs-api-openapi.yml
+- filename: readme-metrics-docs-api-openapi.yml
+  format: yaml
+  label: ReadMe Metrics Docs API
+  slug: readme-metrics-docs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/readme-metrics/refs/heads/main/openapi/readme-metrics-docs-api-openapi.yml
 auth_types:
 - http
 description: ''

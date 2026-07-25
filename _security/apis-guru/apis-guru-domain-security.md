@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: apis-guru-openapi.yaml
+- filename: apis-guru-apis-api-openapi.yml
   format: yaml
-  label: APIs.guru REST API
-  slug: apis-guru-api
+  label: APIs.guru APIs API
+  slug: apis-guru-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-guru/refs/heads/main/openapi/apis-guru-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apis-guru/refs/heads/main/openapi/apis-guru-apis-api-openapi.yml
 description: ''
 domains:
 - caa: []

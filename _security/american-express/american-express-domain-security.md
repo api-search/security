@@ -33,9 +33,11 @@ tags:
 - Credit Cards
 - Financial Services
 - Payments
+- Card Network
 - Tokenization
 - Fraud Prevention
+- Open Banking
 - Rewards
-- Banking
+- United States
 - Fortune 100
 ---

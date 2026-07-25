@@ -2,12 +2,84 @@
 api_key_in:
 - header
 api_specs:
-- filename: revert-unified-api-openapi.yml
+- filename: revert-accounting-api-openapi.yml
   format: yaml
-  label: Revert Unified API
-  slug: revert-unified-api
+  label: Revert Accounting API
+  slug: revert-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revert/refs/heads/main/openapi/revert-unified-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/revert/refs/heads/main/openapi/revert-accounting-api-openapi.yml
+- filename: revert-chat-api-openapi.yml
+  format: yaml
+  label: Revert Chat API
+  slug: revert-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revert/refs/heads/main/openapi/revert-chat-api-openapi.yml
+- filename: revert-connections-api-openapi.yml
+  format: yaml
+  label: Revert Connections API
+  slug: revert-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revert/refs/heads/main/openapi/revert-connections-api-openapi.yml
+- filename: revert-crm-companies-api-openapi.yml
+  format: yaml
+  label: Revert CRM Companies API
+  slug: revert-crm-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revert/refs/heads/main/openapi/revert-crm-companies-api-openapi.yml
+- filename: revert-crm-contacts-api-openapi.yml
+  format: yaml
+  label: Revert CRM Contacts API
+  slug: revert-crm-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revert/refs/heads/main/openapi/revert-crm-contacts-api-openapi.yml
+- filename: revert-crm-deals-api-openapi.yml
+  format: yaml
+  label: Revert CRM Deals API
+  slug: revert-crm-deals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revert/refs/heads/main/openapi/revert-crm-deals-api-openapi.yml
+- filename: revert-crm-events-api-openapi.yml
+  format: yaml
+  label: Revert CRM Events API
+  slug: revert-crm-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revert/refs/heads/main/openapi/revert-crm-events-api-openapi.yml
+- filename: revert-crm-leads-api-openapi.yml
+  format: yaml
+  label: Revert CRM Leads API
+  slug: revert-crm-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revert/refs/heads/main/openapi/revert-crm-leads-api-openapi.yml
+- filename: revert-crm-notes-api-openapi.yml
+  format: yaml
+  label: Revert CRM Notes API
+  slug: revert-crm-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revert/refs/heads/main/openapi/revert-crm-notes-api-openapi.yml
+- filename: revert-crm-properties-api-openapi.yml
+  format: yaml
+  label: Revert CRM Properties API
+  slug: revert-crm-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revert/refs/heads/main/openapi/revert-crm-properties-api-openapi.yml
+- filename: revert-crm-tasks-api-openapi.yml
+  format: yaml
+  label: Revert CRM Tasks API
+  slug: revert-crm-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revert/refs/heads/main/openapi/revert-crm-tasks-api-openapi.yml
+- filename: revert-crm-users-api-openapi.yml
+  format: yaml
+  label: Revert CRM Users API
+  slug: revert-crm-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revert/refs/heads/main/openapi/revert-crm-users-api-openapi.yml
+- filename: revert-tickets-api-openapi.yml
+  format: yaml
+  label: Revert Tickets API
+  slug: revert-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revert/refs/heads/main/openapi/revert-tickets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

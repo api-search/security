@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: metadao-futarchy-dex-openapi.yml
+- filename: metadao-meta-api-openapi.yml
   format: yaml
-  label: MetaDAO Futarchy DEX API
-  slug: metadao-futarchy-dex-api
+  label: MetaDAO Meta API
+  slug: metadao-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/openapi/metadao-futarchy-dex-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/openapi/metadao-meta-api-openapi.yml
+- filename: metadao-supply-api-openapi.yml
+  format: yaml
+  label: MetaDAO Supply API
+  slug: metadao-supply-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/openapi/metadao-supply-api-openapi.yml
+- filename: metadao-tickers-api-openapi.yml
+  format: yaml
+  label: MetaDAO Tickers API
+  slug: metadao-tickers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/openapi/metadao-tickers-api-openapi.yml
+- filename: metadao-volume-api-openapi.yml
+  format: yaml
+  label: MetaDAO Volume API
+  slug: metadao-volume-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/openapi/metadao-volume-api-openapi.yml
 description: ''
 domains:
 - caa: []

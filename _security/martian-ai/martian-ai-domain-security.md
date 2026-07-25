@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: martian-ai-openapi.yml
+- filename: martian-ai-chat-completions-api-openapi.yml
   format: yaml
   label: Martian Chat Completions API
-  slug: martian-chat-completions-api
+  slug: martian-ai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/openapi/martian-ai-openapi.yml
-- filename: martian-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/openapi/martian-ai-chat-completions-api-openapi.yml
+- filename: martian-ai-messages-api-openapi.yml
   format: yaml
   label: Martian Messages API
-  slug: martian-messages-api
+  slug: martian-ai-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/openapi/martian-ai-openapi.yml
-- filename: martian-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/openapi/martian-ai-messages-api-openapi.yml
+- filename: martian-ai-models-api-openapi.yml
   format: yaml
   label: Martian Models API
-  slug: martian-models-api
+  slug: martian-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/openapi/martian-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/openapi/martian-ai-models-api-openapi.yml
 description: ''
 domains:
 - caa: []

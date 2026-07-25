@@ -1,77 +1,131 @@
 ---
 api_specs:
-- filename: honeycomb-events-api-openapi.yml
-  format: yaml
-  label: Honeycomb Events API
-  slug: honeycomb-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-events-api-openapi.yml
-- filename: honeycomb-datasets-api-openapi.yml
-  format: yaml
-  label: Honeycomb Datasets API
-  slug: honeycomb-datasets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-datasets-api-openapi.yml
-- filename: honeycomb-columns-api-openapi.yml
-  format: yaml
-  label: Honeycomb Columns API
-  slug: honeycomb-columns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-columns-api-openapi.yml
-- filename: honeycomb-queries-api-openapi.yml
-  format: yaml
-  label: Honeycomb Queries API
-  slug: honeycomb-queries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-queries-api-openapi.yml
-- filename: honeycomb-boards-api-openapi.yml
-  format: yaml
-  label: Honeycomb Boards API
-  slug: honeycomb-boards-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-boards-api-openapi.yml
-- filename: honeycomb-triggers-api-openapi.yml
-  format: yaml
-  label: Honeycomb Triggers API
-  slug: honeycomb-triggers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-triggers-api-openapi.yml
-- filename: honeycomb-slos-api-openapi.yml
-  format: yaml
-  label: Honeycomb SLOs API
-  slug: honeycomb-slos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-slos-api-openapi.yml
-- filename: honeycomb-markers-api-openapi.yml
-  format: yaml
-  label: Honeycomb Markers API
-  slug: honeycomb-markers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-markers-api-openapi.yml
-- filename: honeycomb-service-maps-api-openapi.yml
-  format: yaml
-  label: Honeycomb Service Maps API
-  slug: honeycomb-service-maps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-service-maps-api-openapi.yml
-- filename: honeycomb-auth-api-openapi.yml
+- filename: honeycomb-io-auth-api-openapi.yml
   format: yaml
   label: Honeycomb Auth API
-  slug: honeycomb-auth-api
+  slug: honeycomb-io-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-auth-api-openapi.yml
-- filename: honeycomb-key-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-auth-api-openapi.yml
+- filename: honeycomb-io-boards-api-openapi.yml
   format: yaml
-  label: Honeycomb Key Management API
-  slug: honeycomb-key-management-api
+  label: Honeycomb Boards API
+  slug: honeycomb-io-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-key-management-api-openapi.yml
-- filename: honeycomb-environments-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-boards-api-openapi.yml
+- filename: honeycomb-io-burn-alerts-api-openapi.yml
+  format: yaml
+  label: Honeycomb Burn Alerts API
+  slug: honeycomb-io-burn-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-burn-alerts-api-openapi.yml
+- filename: honeycomb-io-calculated-fields-api-openapi.yml
+  format: yaml
+  label: Honeycomb Calculated Fields API
+  slug: honeycomb-io-calculated-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-calculated-fields-api-openapi.yml
+- filename: honeycomb-io-columns-api-openapi.yml
+  format: yaml
+  label: Honeycomb Columns API
+  slug: honeycomb-io-columns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-columns-api-openapi.yml
+- filename: honeycomb-io-dataset-definitions-api-openapi.yml
+  format: yaml
+  label: Honeycomb Dataset Definitions API
+  slug: honeycomb-io-dataset-definitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-dataset-definitions-api-openapi.yml
+- filename: honeycomb-io-datasets-api-openapi.yml
+  format: yaml
+  label: Honeycomb Datasets API
+  slug: honeycomb-io-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-datasets-api-openapi.yml
+- filename: honeycomb-io-environments-api-openapi.yml
   format: yaml
   label: Honeycomb Environments API
-  slug: honeycomb-environments-api
+  slug: honeycomb-io-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-environments-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-environments-api-openapi.yml
+- filename: honeycomb-io-events-api-openapi.yml
+  format: yaml
+  label: Honeycomb Events API
+  slug: honeycomb-io-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-events-api-openapi.yml
+- filename: honeycomb-io-key-management-api-openapi.yml
+  format: yaml
+  label: Honeycomb Key Management API
+  slug: honeycomb-io-key-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-key-management-api-openapi.yml
+- filename: honeycomb-io-kinesis-events-api-openapi.yml
+  format: yaml
+  label: Honeycomb Kinesis Events API
+  slug: honeycomb-io-kinesis-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-kinesis-events-api-openapi.yml
+- filename: honeycomb-io-marker-settings-api-openapi.yml
+  format: yaml
+  label: Honeycomb Marker Settings API
+  slug: honeycomb-io-marker-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-marker-settings-api-openapi.yml
+- filename: honeycomb-io-markers-api-openapi.yml
+  format: yaml
+  label: Honeycomb Markers API
+  slug: honeycomb-io-markers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-markers-api-openapi.yml
+- filename: honeycomb-io-queries-api-openapi.yml
+  format: yaml
+  label: Honeycomb Queries API
+  slug: honeycomb-io-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-queries-api-openapi.yml
+- filename: honeycomb-io-query-annotations-api-openapi.yml
+  format: yaml
+  label: Honeycomb Query Annotations API
+  slug: honeycomb-io-query-annotations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-query-annotations-api-openapi.yml
+- filename: honeycomb-io-query-data-api-openapi.yml
+  format: yaml
+  label: Honeycomb Query Data API
+  slug: honeycomb-io-query-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-query-data-api-openapi.yml
+- filename: honeycomb-io-recipients-api-openapi.yml
+  format: yaml
+  label: Honeycomb Recipients API
+  slug: honeycomb-io-recipients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-recipients-api-openapi.yml
+- filename: honeycomb-io-reporting-api-openapi.yml
+  format: yaml
+  label: Honeycomb Reporting API
+  slug: honeycomb-io-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-reporting-api-openapi.yml
+- filename: honeycomb-io-service-maps-api-openapi.yml
+  format: yaml
+  label: Honeycomb Service Maps API
+  slug: honeycomb-io-service-maps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-service-maps-api-openapi.yml
+- filename: honeycomb-io-slos-api-openapi.yml
+  format: yaml
+  label: Honeycomb SLOs API
+  slug: honeycomb-io-slos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-slos-api-openapi.yml
+- filename: honeycomb-io-triggers-api-openapi.yml
+  format: yaml
+  label: Honeycomb Triggers API
+  slug: honeycomb-io-triggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-triggers-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

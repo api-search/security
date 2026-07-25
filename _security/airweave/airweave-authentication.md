@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: airweave-openapi.json
-  format: json
-  label: Airweave API
-  slug: airweave-api
+- filename: airweave-collections-api-openapi.yml
+  format: yaml
+  label: Airweave collections API
+  slug: airweave-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/openapi/airweave-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/openapi/airweave-collections-api-openapi.yml
+- filename: airweave-collections-search-api-openapi.yml
+  format: yaml
+  label: Airweave collections > search API
+  slug: airweave-collections-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/openapi/airweave-collections-search-api-openapi.yml
+- filename: airweave-source-connections-api-openapi.yml
+  format: yaml
+  label: Airweave source-connections API
+  slug: airweave-source-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/openapi/airweave-source-connections-api-openapi.yml
+- filename: airweave-sources-api-openapi.yml
+  format: yaml
+  label: Airweave sources API
+  slug: airweave-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/openapi/airweave-sources-api-openapi.yml
+- filename: airweave-webhooks-api-openapi.yml
+  format: yaml
+  label: Airweave webhooks API
+  slug: airweave-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/openapi/airweave-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

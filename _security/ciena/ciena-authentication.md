@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ciena-blue-planet-openapi.yml
+- filename: ciena-alarms-api-openapi.yml
   format: yaml
-  label: Ciena Blue Planet Open API
-  slug: blue-planet-api
+  label: Ciena Alarms API
+  slug: ciena-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/openapi/ciena-blue-planet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/openapi/ciena-alarms-api-openapi.yml
+- filename: ciena-performance-api-openapi.yml
+  format: yaml
+  label: Ciena Performance API
+  slug: ciena-performance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/openapi/ciena-performance-api-openapi.yml
+- filename: ciena-services-api-openapi.yml
+  format: yaml
+  label: Ciena Services API
+  slug: ciena-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/openapi/ciena-services-api-openapi.yml
+- filename: ciena-topology-api-openapi.yml
+  format: yaml
+  label: Ciena Topology API
+  slug: ciena-topology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/openapi/ciena-topology-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

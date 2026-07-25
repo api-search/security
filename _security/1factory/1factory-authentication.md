@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: 1factory-openapi.json
-  format: json
-  label: 1Factory API
-  slug: 1factory
+- filename: 1factory-customers-api-openapi.yml
+  format: yaml
+  label: 1Factory Customers API
+  slug: 1factory-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-customers-api-openapi.yml
+- filename: 1factory-manufacturing-api-openapi.yml
+  format: yaml
+  label: 1Factory Manufacturing API
+  slug: 1factory-manufacturing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-manufacturing-api-openapi.yml
+- filename: 1factory-part-master-api-openapi.yml
+  format: yaml
+  label: 1Factory Part Master API
+  slug: 1factory-part-master-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-part-master-api-openapi.yml
+- filename: 1factory-qms-api-openapi.yml
+  format: yaml
+  label: 1Factory QMS API
+  slug: 1factory-qms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-qms-api-openapi.yml
+- filename: 1factory-receiving-api-openapi.yml
+  format: yaml
+  label: 1Factory Receiving API
+  slug: 1factory-receiving-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-receiving-api-openapi.yml
+- filename: 1factory-suppliers-api-openapi.yml
+  format: yaml
+  label: 1Factory Suppliers API
+  slug: 1factory-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-suppliers-api-openapi.yml
+- filename: 1factory-work-orders-api-openapi.yml
+  format: yaml
+  label: 1Factory Work Orders API
+  slug: 1factory-work-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-work-orders-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

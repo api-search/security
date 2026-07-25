@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: rutter-unified-api-openapi.yml
+- filename: rutter-accounting-api-openapi.yml
   format: yaml
-  label: Rutter Unified API
-  slug: unified-api
+  label: Rutter Accounting API
+  slug: rutter-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rutter/refs/heads/main/openapi/rutter-unified-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rutter/refs/heads/main/openapi/rutter-accounting-api-openapi.yml
+- filename: rutter-ads-api-openapi.yml
+  format: yaml
+  label: Rutter Ads API
+  slug: rutter-ads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rutter/refs/heads/main/openapi/rutter-ads-api-openapi.yml
+- filename: rutter-banking-api-openapi.yml
+  format: yaml
+  label: Rutter Banking API
+  slug: rutter-banking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rutter/refs/heads/main/openapi/rutter-banking-api-openapi.yml
+- filename: rutter-commerce-api-openapi.yml
+  format: yaml
+  label: Rutter Commerce API
+  slug: rutter-commerce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rutter/refs/heads/main/openapi/rutter-commerce-api-openapi.yml
+- filename: rutter-connections-api-openapi.yml
+  format: yaml
+  label: Rutter Connections API
+  slug: rutter-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rutter/refs/heads/main/openapi/rutter-connections-api-openapi.yml
+- filename: rutter-webhooks-api-openapi.yml
+  format: yaml
+  label: Rutter Webhooks API
+  slug: rutter-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rutter/refs/heads/main/openapi/rutter-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

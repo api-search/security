@@ -1,48 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: apaleo-openapi.yml
-  format: yaml
-  label: apaleo Booking API
-  slug: booking
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-openapi.yml
-- filename: apaleo-openapi.yml
-  format: yaml
-  label: apaleo Inventory API
-  slug: inventory
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-openapi.yml
-- filename: apaleo-openapi.yml
-  format: yaml
-  label: apaleo Rate Plan API
-  slug: rateplan
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-openapi.yml
-- filename: apaleo-openapi.yml
+- filename: apaleo-availability-api-openapi.yml
   format: yaml
   label: apaleo Availability API
-  slug: availability
+  slug: apaleo-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-openapi.yml
-- filename: apaleo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-availability-api-openapi.yml
+- filename: apaleo-booking-api-openapi.yml
+  format: yaml
+  label: apaleo Booking API
+  slug: apaleo-booking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-booking-api-openapi.yml
+- filename: apaleo-finance-api-openapi.yml
   format: yaml
   label: apaleo Finance API
-  slug: finance
+  slug: apaleo-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-openapi.yml
-- filename: apaleo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-finance-api-openapi.yml
+- filename: apaleo-inventory-api-openapi.yml
+  format: yaml
+  label: apaleo Inventory API
+  slug: apaleo-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-inventory-api-openapi.yml
+- filename: apaleo-rate-plan-api-openapi.yml
+  format: yaml
+  label: apaleo Rate Plan API
+  slug: apaleo-rate-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-rate-plan-api-openapi.yml
+- filename: apaleo-settings-api-openapi.yml
   format: yaml
   label: apaleo Settings API
-  slug: settings
+  slug: apaleo-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-openapi.yml
-- filename: apaleo-openapi.yml
-  format: yaml
-  label: apaleo Webhook API
-  slug: webhooks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-settings-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

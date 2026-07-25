@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-nova-openapi.yml
+- filename: amazon-nova-async-api-openapi.yml
   format: yaml
-  label: Amazon Nova API
-  slug: amazon-nova-api
+  label: Amazon Nova Async API
+  slug: amazon-nova-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/openapi/amazon-nova-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/openapi/amazon-nova-async-api-openapi.yml
+- filename: amazon-nova-inference-api-openapi.yml
+  format: yaml
+  label: Amazon Nova Inference API
+  slug: amazon-nova-inference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/openapi/amazon-nova-inference-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

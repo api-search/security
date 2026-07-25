@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: opnsense-openapi.yml
+- filename: opnsense-core-api-openapi.yml
   format: yaml
-  label: OPNsense Core REST API
-  slug: core-api
+  label: OPNsense Core API
+  slug: opnsense-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opnsense/refs/heads/main/openapi/opnsense-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/opnsense/refs/heads/main/openapi/opnsense-core-api-openapi.yml
+- filename: opnsense-diagnostics-api-openapi.yml
+  format: yaml
+  label: OPNsense Diagnostics API
+  slug: opnsense-diagnostics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opnsense/refs/heads/main/openapi/opnsense-diagnostics-api-openapi.yml
+- filename: opnsense-firewall-api-openapi.yml
+  format: yaml
+  label: OPNsense Firewall API
+  slug: opnsense-firewall-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opnsense/refs/heads/main/openapi/opnsense-firewall-api-openapi.yml
 auth_types:
 - http
 description: ''

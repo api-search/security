@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: code-ocean-openapi.yml
+- filename: code-ocean-capsules-api-openapi.yml
   format: yaml
-  label: Code Ocean API
-  slug: code-ocean-api
+  label: Code Ocean Capsules API
+  slug: code-ocean-capsules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/openapi/code-ocean-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/openapi/code-ocean-capsules-api-openapi.yml
+- filename: code-ocean-computations-api-openapi.yml
+  format: yaml
+  label: Code Ocean Computations API
+  slug: code-ocean-computations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/openapi/code-ocean-computations-api-openapi.yml
+- filename: code-ocean-data-assets-api-openapi.yml
+  format: yaml
+  label: Code Ocean Data Assets API
+  slug: code-ocean-data-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/openapi/code-ocean-data-assets-api-openapi.yml
 auth_types:
 - http
 description: ''

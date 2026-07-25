@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: kagi-openapi.yml
+- filename: kagi-extract-api-openapi.yml
+  format: yaml
+  label: Kagi Extract API
+  slug: kagi-extract-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kagi/refs/heads/main/openapi/kagi-extract-api-openapi.yml
+- filename: kagi-search-api-openapi.yml
   format: yaml
   label: Kagi Search API
-  slug: search-api
+  slug: kagi-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kagi/refs/heads/main/openapi/kagi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kagi/refs/heads/main/openapi/kagi-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

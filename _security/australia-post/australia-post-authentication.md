@@ -2,18 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: locations-openapi.json
-  format: json
-  label: Australia Post Locations API
-  slug: locations
+- filename: australia-post-endpoints-api-openapi.yml
+  format: yaml
+  label: Australia Post Endpoints API
+  slug: australia-post-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/openapi/locations-openapi.json
-- filename: delivery-partner-openapi.json
-  format: json
-  label: Australia Post Delivery Partner API
-  slug: delivery-partner
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/openapi/delivery-partner-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/openapi/australia-post-endpoints-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: algebras-ai-inc-openapi-original.json
-  format: json
-  label: Algebras API
-  slug: algebras-api
+- filename: algebras-ai-inc-authentication-api-openapi.yml
+  format: yaml
+  label: Algebras AI Inc. Authentication API
+  slug: algebras-ai-inc-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/openapi/algebras-ai-inc-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/openapi/algebras-ai-inc-authentication-api-openapi.yml
+- filename: algebras-ai-inc-common-api-openapi.yml
+  format: yaml
+  label: Algebras AI Inc. Common API
+  slug: algebras-ai-inc-common-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/openapi/algebras-ai-inc-common-api-openapi.yml
+- filename: algebras-ai-inc-glossaries-api-openapi.yml
+  format: yaml
+  label: Algebras AI Inc. Glossaries API
+  slug: algebras-ai-inc-glossaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/openapi/algebras-ai-inc-glossaries-api-openapi.yml
+- filename: algebras-ai-inc-languages-api-openapi.yml
+  format: yaml
+  label: Algebras AI Inc. Languages API
+  slug: algebras-ai-inc-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/openapi/algebras-ai-inc-languages-api-openapi.yml
+- filename: algebras-ai-inc-localization-api-openapi.yml
+  format: yaml
+  label: Algebras AI Inc. Localization API
+  slug: algebras-ai-inc-localization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/openapi/algebras-ai-inc-localization-api-openapi.yml
+- filename: algebras-ai-inc-realtime-api-openapi.yml
+  format: yaml
+  label: Algebras AI Inc. Realtime API
+  slug: algebras-ai-inc-realtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/openapi/algebras-ai-inc-realtime-api-openapi.yml
+- filename: algebras-ai-inc-storage-api-openapi.yml
+  format: yaml
+  label: Algebras AI Inc. Storage API
+  slug: algebras-ai-inc-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/openapi/algebras-ai-inc-storage-api-openapi.yml
+- filename: algebras-ai-inc-translation-api-openapi.yml
+  format: yaml
+  label: Algebras AI Inc. Translation API
+  slug: algebras-ai-inc-translation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/openapi/algebras-ai-inc-translation-api-openapi.yml
+- filename: algebras-ai-inc-video-api-openapi.yml
+  format: yaml
+  label: Algebras AI Inc. Video API
+  slug: algebras-ai-inc-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/openapi/algebras-ai-inc-video-api-openapi.yml
 description: ''
 domains:
 - caa: []

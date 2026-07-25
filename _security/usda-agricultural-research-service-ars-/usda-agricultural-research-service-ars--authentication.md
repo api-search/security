@@ -3,18 +3,24 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: apispec
+- filename: usda-agricultural-research-service-ars--datasets-api-openapi.yml
   format: yaml
-  label: USDA FoodData Central API
-  slug: fooddata-central-api
+  label: USDA Agricultural Research Service (ARS) Datasets API
+  slug: usda-agricultural-research-service-ars--datasets-api
   spec_type: OpenAPI
-  url: https://fdc.nal.usda.gov/portal-data/external/apispec
-- filename: usda-ars-ag-data-commons-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/openapi/usda-agricultural-research-service-ars--datasets-api-openapi.yml
+- filename: usda-agricultural-research-service-ars--food-search-api-openapi.yml
   format: yaml
-  label: USDA Ag Data Commons CKAN API
-  slug: ag-data-commons-ckan-api
+  label: USDA Agricultural Research Service (ARS) Food Search API
+  slug: usda-agricultural-research-service-ars--food-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/openapi/usda-ars-ag-data-commons-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/openapi/usda-agricultural-research-service-ars--food-search-api-openapi.yml
+- filename: usda-agricultural-research-service-ars--foods-api-openapi.yml
+  format: yaml
+  label: USDA Agricultural Research Service (ARS) Foods API
+  slug: usda-agricultural-research-service-ars--foods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/openapi/usda-agricultural-research-service-ars--foods-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

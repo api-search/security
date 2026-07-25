@@ -1,29 +1,35 @@
 ---
 api_specs:
-- filename: centml-openapi.yml
+- filename: centml-chat-api-openapi.yml
   format: yaml
-  label: CentML Serverless Inference (Chat Completions) API
-  slug: centml-serverless-inference-api
+  label: CentML Chat API
+  slug: centml-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-openapi.yml
-- filename: centml-openapi.yml
-  format: yaml
-  label: CentML Models API
-  slug: centml-models-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-openapi.yml
-- filename: centml-openapi.yml
-  format: yaml
-  label: CentML Deployments / Endpoints API
-  slug: centml-deployments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-openapi.yml
-- filename: centml-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-chat-api-openapi.yml
+- filename: centml-clusters-api-openapi.yml
   format: yaml
   label: CentML Clusters API
   slug: centml-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-clusters-api-openapi.yml
+- filename: centml-completions-api-openapi.yml
+  format: yaml
+  label: CentML Completions API
+  slug: centml-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-completions-api-openapi.yml
+- filename: centml-deployments-api-openapi.yml
+  format: yaml
+  label: CentML Deployments API
+  slug: centml-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-deployments-api-openapi.yml
+- filename: centml-models-api-openapi.yml
+  format: yaml
+  label: CentML Models API
+  slug: centml-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-models-api-openapi.yml
 description: ''
 domains:
 - caa: []

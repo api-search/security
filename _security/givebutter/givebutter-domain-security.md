@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: givebutter-openapi.yml
+- filename: givebutter-campaigns-api-openapi.yml
   format: yaml
-  label: Givebutter
-  slug: givebutter
+  label: Givebutter Campaigns API
+  slug: givebutter-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-campaigns-api-openapi.yml
+- filename: givebutter-contacts-api-openapi.yml
+  format: yaml
+  label: Givebutter Contacts API
+  slug: givebutter-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-contacts-api-openapi.yml
+- filename: givebutter-discount-codes-api-openapi.yml
+  format: yaml
+  label: Givebutter Discount Codes API
+  slug: givebutter-discount-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-discount-codes-api-openapi.yml
+- filename: givebutter-funds-api-openapi.yml
+  format: yaml
+  label: Givebutter Funds API
+  slug: givebutter-funds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-funds-api-openapi.yml
+- filename: givebutter-payouts-api-openapi.yml
+  format: yaml
+  label: Givebutter Payouts API
+  slug: givebutter-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-payouts-api-openapi.yml
+- filename: givebutter-plans-api-openapi.yml
+  format: yaml
+  label: Givebutter Plans API
+  slug: givebutter-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-plans-api-openapi.yml
+- filename: givebutter-tickets-api-openapi.yml
+  format: yaml
+  label: Givebutter Tickets API
+  slug: givebutter-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-tickets-api-openapi.yml
+- filename: givebutter-transactions-api-openapi.yml
+  format: yaml
+  label: Givebutter Transactions API
+  slug: givebutter-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-transactions-api-openapi.yml
+- filename: givebutter-webhooks-api-openapi.yml
+  format: yaml
+  label: Givebutter Webhooks API
+  slug: givebutter-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

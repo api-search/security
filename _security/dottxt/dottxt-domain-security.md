@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: dottxt-platform-openapi.yml
+- filename: dottxt-chat-api-openapi.yml
   format: yaml
-  label: dottxt Platform API
-  slug: dottxt-platform-api
+  label: dottxt Chat API
+  slug: dottxt-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dottxt/refs/heads/main/openapi/dottxt-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dottxt/refs/heads/main/openapi/dottxt-chat-api-openapi.yml
+- filename: dottxt-models-api-openapi.yml
+  format: yaml
+  label: dottxt Models API
+  slug: dottxt-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dottxt/refs/heads/main/openapi/dottxt-models-api-openapi.yml
 description: ''
 domains:
 - caa: []

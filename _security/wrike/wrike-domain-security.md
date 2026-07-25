@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: wrike-openapi.yml
+- filename: wrike-access-roles-api-openapi.yml
   format: yaml
-  label: Wrike API
-  slug: wrike
+  label: Wrike Access Roles API
+  slug: wrike-access-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-access-roles-api-openapi.yml
+- filename: wrike-accounts-api-openapi.yml
+  format: yaml
+  label: Wrike Accounts API
+  slug: wrike-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-accounts-api-openapi.yml
+- filename: wrike-colors-api-openapi.yml
+  format: yaml
+  label: Wrike Colors API
+  slug: wrike-colors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-colors-api-openapi.yml
+- filename: wrike-comments-api-openapi.yml
+  format: yaml
+  label: Wrike Comments API
+  slug: wrike-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-comments-api-openapi.yml
+- filename: wrike-contacts-api-openapi.yml
+  format: yaml
+  label: Wrike Contacts API
+  slug: wrike-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-contacts-api-openapi.yml
+- filename: wrike-custom-fields-api-openapi.yml
+  format: yaml
+  label: Wrike Custom Fields API
+  slug: wrike-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-custom-fields-api-openapi.yml
+- filename: wrike-folders-and-projects-api-openapi.yml
+  format: yaml
+  label: Wrike Folders And Projects API
+  slug: wrike-folders-and-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-folders-and-projects-api-openapi.yml
+- filename: wrike-groups-api-openapi.yml
+  format: yaml
+  label: Wrike Groups API
+  slug: wrike-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-groups-api-openapi.yml
+- filename: wrike-tasks-api-openapi.yml
+  format: yaml
+  label: Wrike Tasks API
+  slug: wrike-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-tasks-api-openapi.yml
+- filename: wrike-time-logs-api-openapi.yml
+  format: yaml
+  label: Wrike Time Logs API
+  slug: wrike-time-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-time-logs-api-openapi.yml
+- filename: wrike-users-api-openapi.yml
+  format: yaml
+  label: Wrike Users API
+  slug: wrike-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-users-api-openapi.yml
+- filename: wrike-webhooks-api-openapi.yml
+  format: yaml
+  label: Wrike Webhooks API
+  slug: wrike-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-webhooks-api-openapi.yml
+- filename: wrike-workflows-api-openapi.yml
+  format: yaml
+  label: Wrike Workflows API
+  slug: wrike-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []

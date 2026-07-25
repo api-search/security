@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: kings-college-london-figshare-repository.yaml
+- filename: kings-college-london-altmetric-api-openapi.yml
   format: yaml
-  label: King's College London Research Repository (Figshare)
-  slug: figshare-repository
+  label: King's College London altmetric API
+  slug: kings-college-london-altmetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kings-college-london/refs/heads/main/openapi/kings-college-london-figshare-repository.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/kings-college-london/refs/heads/main/openapi/kings-college-london-altmetric-api-openapi.yml
+- filename: kings-college-london-articles-api-openapi.yml
+  format: yaml
+  label: King's College London articles API
+  slug: kings-college-london-articles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kings-college-london/refs/heads/main/openapi/kings-college-london-articles-api-openapi.yml
+- filename: kings-college-london-authors-api-openapi.yml
+  format: yaml
+  label: King's College London authors API
+  slug: kings-college-london-authors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kings-college-london/refs/heads/main/openapi/kings-college-london-authors-api-openapi.yml
+- filename: kings-college-london-collections-api-openapi.yml
+  format: yaml
+  label: King's College London collections API
+  slug: kings-college-london-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kings-college-london/refs/heads/main/openapi/kings-college-london-collections-api-openapi.yml
+- filename: kings-college-london-institutions-api-openapi.yml
+  format: yaml
+  label: King's College London institutions API
+  slug: kings-college-london-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kings-college-london/refs/heads/main/openapi/kings-college-london-institutions-api-openapi.yml
+- filename: kings-college-london-oauth-api-openapi.yml
+  format: yaml
+  label: King's College London oauth API
+  slug: kings-college-london-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kings-college-london/refs/heads/main/openapi/kings-college-london-oauth-api-openapi.yml
+- filename: kings-college-london-other-api-openapi.yml
+  format: yaml
+  label: King's College London other API
+  slug: kings-college-london-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kings-college-london/refs/heads/main/openapi/kings-college-london-other-api-openapi.yml
+- filename: kings-college-london-profiles-api-openapi.yml
+  format: yaml
+  label: King's College London profiles API
+  slug: kings-college-london-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kings-college-london/refs/heads/main/openapi/kings-college-london-profiles-api-openapi.yml
+- filename: kings-college-london-projects-api-openapi.yml
+  format: yaml
+  label: King's College London projects API
+  slug: kings-college-london-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kings-college-london/refs/heads/main/openapi/kings-college-london-projects-api-openapi.yml
+- filename: kings-college-london-symplectic-api-openapi.yml
+  format: yaml
+  label: King's College London symplectic API
+  slug: kings-college-london-symplectic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kings-college-london/refs/heads/main/openapi/kings-college-london-symplectic-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

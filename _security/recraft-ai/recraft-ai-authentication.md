@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: recraft-images-api-openapi.yml
+- filename: recraft-ai-images-api-openapi.yml
   format: yaml
   label: Recraft Images API
-  slug: recraft-images-api
+  slug: recraft-ai-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recraft-ai/refs/heads/main/openapi/recraft-images-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/recraft-ai/refs/heads/main/openapi/recraft-ai-images-api-openapi.yml
+- filename: recraft-ai-prompts-api-openapi.yml
+  format: yaml
+  label: Recraft Prompts API
+  slug: recraft-ai-prompts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recraft-ai/refs/heads/main/openapi/recraft-ai-prompts-api-openapi.yml
+- filename: recraft-ai-styles-api-openapi.yml
+  format: yaml
+  label: Recraft Styles API
+  slug: recraft-ai-styles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recraft-ai/refs/heads/main/openapi/recraft-ai-styles-api-openapi.yml
+- filename: recraft-ai-users-api-openapi.yml
+  format: yaml
+  label: Recraft Users API
+  slug: recraft-ai-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recraft-ai/refs/heads/main/openapi/recraft-ai-users-api-openapi.yml
 auth_types:
 - http
 description: ''

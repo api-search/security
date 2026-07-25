@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: wiremock-admin-api-openapi.yml
+- filename: wiremock-near-misses-api-openapi.yml
   format: yaml
-  label: WireMock Admin API
-  slug: wiremock-admin-api
+  label: WireMock Near Misses API
+  slug: wiremock-near-misses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wiremock/refs/heads/main/openapi/wiremock-admin-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wiremock/refs/heads/main/openapi/wiremock-near-misses-api-openapi.yml
+- filename: wiremock-recordings-api-openapi.yml
+  format: yaml
+  label: WireMock Recordings API
+  slug: wiremock-recordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wiremock/refs/heads/main/openapi/wiremock-recordings-api-openapi.yml
+- filename: wiremock-requests-api-openapi.yml
+  format: yaml
+  label: WireMock Requests API
+  slug: wiremock-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wiremock/refs/heads/main/openapi/wiremock-requests-api-openapi.yml
+- filename: wiremock-scenarios-api-openapi.yml
+  format: yaml
+  label: WireMock Scenarios API
+  slug: wiremock-scenarios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wiremock/refs/heads/main/openapi/wiremock-scenarios-api-openapi.yml
+- filename: wiremock-stub-mappings-api-openapi.yml
+  format: yaml
+  label: WireMock Stub Mappings API
+  slug: wiremock-stub-mappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wiremock/refs/heads/main/openapi/wiremock-stub-mappings-api-openapi.yml
+- filename: wiremock-system-api-openapi.yml
+  format: yaml
+  label: WireMock System API
+  slug: wiremock-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wiremock/refs/heads/main/openapi/wiremock-system-api-openapi.yml
 description: ''
 domains:
 - caa: []

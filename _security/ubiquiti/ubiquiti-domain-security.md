@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: ubiquiti-unifi-site-manager-api-openapi.yml
+- filename: ubiquiti-devices-api-openapi.yml
   format: yaml
-  label: UniFi Site Manager API
-  slug: unifi-site-manager-api
+  label: Ubiquiti Devices API
+  slug: ubiquiti-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubiquiti/refs/heads/main/openapi/ubiquiti-unifi-site-manager-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ubiquiti/refs/heads/main/openapi/ubiquiti-devices-api-openapi.yml
+- filename: ubiquiti-hosts-api-openapi.yml
+  format: yaml
+  label: Ubiquiti Hosts API
+  slug: ubiquiti-hosts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ubiquiti/refs/heads/main/openapi/ubiquiti-hosts-api-openapi.yml
+- filename: ubiquiti-isp-metrics-api-openapi.yml
+  format: yaml
+  label: Ubiquiti ISP Metrics API
+  slug: ubiquiti-isp-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ubiquiti/refs/heads/main/openapi/ubiquiti-isp-metrics-api-openapi.yml
+- filename: ubiquiti-sd-wan-api-openapi.yml
+  format: yaml
+  label: Ubiquiti SD-WAN API
+  slug: ubiquiti-sd-wan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ubiquiti/refs/heads/main/openapi/ubiquiti-sd-wan-api-openapi.yml
+- filename: ubiquiti-sites-api-openapi.yml
+  format: yaml
+  label: Ubiquiti Sites API
+  slug: ubiquiti-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ubiquiti/refs/heads/main/openapi/ubiquiti-sites-api-openapi.yml
 description: ''
 domains:
 - caa: []

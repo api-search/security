@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: ansa-openapi-original.yml
+- filename: ansa-add-incentive-api-openapi.yml
   format: yaml
-  label: Ansa API
-  slug: ansa-api
+  label: Ansa Add Incentive API
+  slug: ansa-add-incentive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-add-incentive-api-openapi.yml
+- filename: ansa-customer-segments-api-openapi.yml
+  format: yaml
+  label: Ansa Customer Segments API
+  slug: ansa-customer-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-customer-segments-api-openapi.yml
+- filename: ansa-customers-api-openapi.yml
+  format: yaml
+  label: Ansa Customers API
+  slug: ansa-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-customers-api-openapi.yml
+- filename: ansa-initialize-payment-session-api-openapi.yml
+  format: yaml
+  label: Ansa Initialize Payment Session API
+  slug: ansa-initialize-payment-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-initialize-payment-session-api-openapi.yml
+- filename: ansa-merchants-api-openapi.yml
+  format: yaml
+  label: Ansa Merchants API
+  slug: ansa-merchants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-merchants-api-openapi.yml
+- filename: ansa-refunds-api-openapi.yml
+  format: yaml
+  label: Ansa Refunds API
+  slug: ansa-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-refunds-api-openapi.yml
+- filename: ansa-transactions-api-openapi.yml
+  format: yaml
+  label: Ansa Transactions API
+  slug: ansa-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-transactions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

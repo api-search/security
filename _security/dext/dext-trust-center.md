@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: dext-data-health-openapi.yml
+- filename: dext-clients-api-openapi.yml
   format: yaml
-  label: Dext Data Health & Insights API
-  slug: dext-data-health-insights-api
+  label: Dext Clients API
+  slug: dext-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/openapi/dext-data-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/openapi/dext-clients-api-openapi.yml
 certifications:
 - ISO 27001
 - PCI DSS

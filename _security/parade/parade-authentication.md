@@ -2,24 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: parade-digital-transactions-openapi.yaml
+- filename: parade-available-trucks-api-openapi.yml
   format: yaml
-  label: Parade Transactions API
-  slug: parade-transactions-api
+  label: Parade Available Trucks API
+  slug: parade-available-trucks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-digital-transactions-openapi.yaml
-- filename: parade-load-sync-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-available-trucks-api-openapi.yml
+- filename: parade-bookings-api-openapi.yml
   format: yaml
-  label: Parade Load Feed
-  slug: parade-load-feed
+  label: Parade Bookings API
+  slug: parade-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-load-sync-openapi.yaml
-- filename: parade-partner-webhooks-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-bookings-api-openapi.yml
+- filename: parade-carrier-onboarding-status-api-openapi.yml
   format: yaml
-  label: Parade Syndication Webhooks
-  slug: parade-syndication-webhooks
+  label: Parade Carrier Onboarding Status API
+  slug: parade-carrier-onboarding-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-partner-webhooks-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-carrier-onboarding-status-api-openapi.yml
+- filename: parade-carrier-synchronization-api-openapi.yml
+  format: yaml
+  label: Parade Carrier Synchronization API
+  slug: parade-carrier-synchronization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-carrier-synchronization-api-openapi.yml
+- filename: parade-digital-conversion-api-openapi.yml
+  format: yaml
+  label: Parade Digital Conversion API
+  slug: parade-digital-conversion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-digital-conversion-api-openapi.yml
+- filename: parade-load-synchronization-api-openapi.yml
+  format: yaml
+  label: Parade Load Synchronization API
+  slug: parade-load-synchronization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-load-synchronization-api-openapi.yml
+- filename: parade-quotes-api-openapi.yml
+  format: yaml
+  label: Parade Quotes API
+  slug: parade-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-quotes-api-openapi.yml
+- filename: parade-search-api-openapi.yml
+  format: yaml
+  label: Parade Search API
+  slug: parade-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

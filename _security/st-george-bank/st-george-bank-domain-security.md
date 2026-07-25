@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: st-george-bank-cds-banking-products-openapi.yml
+- filename: st-george-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: St.George Bank CDR Product Reference Data API
-  slug: st-george-bank-cdr-product-reference-data-api
+  label: St.George Bank Banking Account Balances API
+  slug: st-george-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-cds-banking-products-openapi.yml
-- filename: st-george-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-banking-account-balances-api-openapi.yml
+- filename: st-george-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: St.George Bank CDR Accounts & Balances API
-  slug: st-george-bank-cdr-accounts-balances-api
+  label: St.George Bank Banking Account Direct Debits API
+  slug: st-george-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-cds-banking-products-openapi.yml
-- filename: st-george-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-banking-account-direct-debits-api-openapi.yml
+- filename: st-george-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: St.George Bank CDR Transactions API
-  slug: st-george-bank-cdr-transactions-api
+  label: St.George Bank Banking Account Scheduled Payments API
+  slug: st-george-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-cds-banking-products-openapi.yml
-- filename: st-george-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: st-george-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: St.George Bank CDR Direct Debits & Scheduled Payments API
-  slug: st-george-bank-cdr-direct-debits-scheduled-payments-api
+  label: St.George Bank Banking Account Transactions API
+  slug: st-george-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-cds-banking-products-openapi.yml
-- filename: st-george-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-banking-account-transactions-api-openapi.yml
+- filename: st-george-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: St.George Bank CDR Payees API
-  slug: st-george-bank-cdr-payees-api
+  label: St.George Bank Banking Accounts API
+  slug: st-george-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-banking-accounts-api-openapi.yml
+- filename: st-george-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: St.George Bank Banking Payees API
+  slug: st-george-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-banking-payees-api-openapi.yml
+- filename: st-george-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: St.George Bank Banking Products API
+  slug: st-george-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa:

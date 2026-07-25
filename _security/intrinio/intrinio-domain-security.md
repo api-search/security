@@ -30,5 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intrinio/refs/
 summary_line: TLSv1.3 · HSTS
 tags:
 - Finance
-- Public APIs
+- Financial Data
+- Market Data
+- Stocks
+- Options
+- Fundamentals
+- ETFs
+- Real-Time Data
 ---

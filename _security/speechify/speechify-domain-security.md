@@ -1,29 +1,17 @@
 ---
 api_specs:
-- filename: speechify-openapi.yml
+- filename: speechify-audio-api-openapi.yml
   format: yaml
-  label: Speechify Text-to-Speech API
-  slug: text-to-speech
+  label: Speechify Audio API
+  slug: speechify-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speechify/refs/heads/main/openapi/speechify-openapi.yml
-- filename: speechify-openapi.yml
-  format: yaml
-  label: Speechify Streaming TTS API
-  slug: streaming-tts
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speechify/refs/heads/main/openapi/speechify-openapi.yml
-- filename: speechify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/speechify/refs/heads/main/openapi/speechify-audio-api-openapi.yml
+- filename: speechify-voices-api-openapi.yml
   format: yaml
   label: Speechify Voices API
-  slug: voices
+  slug: speechify-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speechify/refs/heads/main/openapi/speechify-openapi.yml
-- filename: speechify-openapi.yml
-  format: yaml
-  label: Speechify Voice Cloning API
-  slug: voice-cloning
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speechify/refs/heads/main/openapi/speechify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/speechify/refs/heads/main/openapi/speechify-voices-api-openapi.yml
 description: ''
 domains:
 - caa: []

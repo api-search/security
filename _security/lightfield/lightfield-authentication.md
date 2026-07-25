@@ -2,12 +2,84 @@
 api_key_in:
 - header
 api_specs:
-- filename: lightfield-openapi-original.yml
+- filename: lightfield-accounts-api-openapi.yml
   format: yaml
-  label: Lightfield API
-  slug: lightfield-api
+  label: Lightfield Accounts API
+  slug: lightfield-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-accounts-api-openapi.yml
+- filename: lightfield-auth-api-openapi.yml
+  format: yaml
+  label: Lightfield Auth API
+  slug: lightfield-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-auth-api-openapi.yml
+- filename: lightfield-contacts-api-openapi.yml
+  format: yaml
+  label: Lightfield Contacts API
+  slug: lightfield-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-contacts-api-openapi.yml
+- filename: lightfield-emails-api-openapi.yml
+  format: yaml
+  label: Lightfield Emails API
+  slug: lightfield-emails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-emails-api-openapi.yml
+- filename: lightfield-files-api-openapi.yml
+  format: yaml
+  label: Lightfield Files API
+  slug: lightfield-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-files-api-openapi.yml
+- filename: lightfield-lists-api-openapi.yml
+  format: yaml
+  label: Lightfield Lists API
+  slug: lightfield-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-lists-api-openapi.yml
+- filename: lightfield-meetings-api-openapi.yml
+  format: yaml
+  label: Lightfield Meetings API
+  slug: lightfield-meetings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-meetings-api-openapi.yml
+- filename: lightfield-members-api-openapi.yml
+  format: yaml
+  label: Lightfield Members API
+  slug: lightfield-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-members-api-openapi.yml
+- filename: lightfield-notes-api-openapi.yml
+  format: yaml
+  label: Lightfield Notes API
+  slug: lightfield-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-notes-api-openapi.yml
+- filename: lightfield-objects-api-openapi.yml
+  format: yaml
+  label: Lightfield Objects API
+  slug: lightfield-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-objects-api-openapi.yml
+- filename: lightfield-opportunities-api-openapi.yml
+  format: yaml
+  label: Lightfield Opportunities API
+  slug: lightfield-opportunities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-opportunities-api-openapi.yml
+- filename: lightfield-tasks-api-openapi.yml
+  format: yaml
+  label: Lightfield Tasks API
+  slug: lightfield-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-tasks-api-openapi.yml
+- filename: lightfield-workflowrun-api-openapi.yml
+  format: yaml
+  label: Lightfield WorkflowRun API
+  slug: lightfield-workflowrun-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-workflowrun-api-openapi.yml
 auth_types:
 - http
 - oauth2

@@ -1,53 +1,65 @@
 ---
 api_specs:
-- filename: maersk-track-and-trace-api-openapi.yml
+- filename: maersk-line-airbookings-api-openapi.yml
   format: yaml
-  label: Maersk Track and Trace API
-  slug: maersk-track-and-trace-api
+  label: Maersk AirBookings API
+  slug: maersk-line-airbookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-track-and-trace-api-openapi.yml
-- filename: maersk-ocean-booking-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-airbookings-api-openapi.yml
+- filename: maersk-line-billoflading-api-openapi.yml
   format: yaml
-  label: Maersk Ocean Booking API
-  slug: maersk-ocean-booking-api
+  label: Maersk BillOfLading API
+  slug: maersk-line-billoflading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-ocean-booking-api-openapi.yml
-- filename: maersk-schedules-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-billoflading-api-openapi.yml
+- filename: maersk-line-bookings-api-openapi.yml
+  format: yaml
+  label: Maersk Bookings API
+  slug: maersk-line-bookings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-bookings-api-openapi.yml
+- filename: maersk-line-containers-api-openapi.yml
+  format: yaml
+  label: Maersk Containers API
+  slug: maersk-line-containers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-containers-api-openapi.yml
+- filename: maersk-line-demurragedetention-api-openapi.yml
+  format: yaml
+  label: Maersk DemurrageDetention API
+  slug: maersk-line-demurragedetention-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-demurragedetention-api-openapi.yml
+- filename: maersk-line-locations-api-openapi.yml
+  format: yaml
+  label: Maersk Locations API
+  slug: maersk-line-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-locations-api-openapi.yml
+- filename: maersk-line-offers-api-openapi.yml
+  format: yaml
+  label: Maersk Offers API
+  slug: maersk-line-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-offers-api-openapi.yml
+- filename: maersk-line-schedules-api-openapi.yml
   format: yaml
   label: Maersk Schedules API
-  slug: maersk-schedules-api
+  slug: maersk-line-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-schedules-api-openapi.yml
-- filename: maersk-product-offers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-schedules-api-openapi.yml
+- filename: maersk-line-tracking-api-openapi.yml
   format: yaml
-  label: Maersk Product Offers API
-  slug: maersk-product-offers-api
+  label: Maersk Tracking API
+  slug: maersk-line-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-product-offers-api-openapi.yml
-- filename: maersk-bill-of-lading-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-tracking-api-openapi.yml
+- filename: maersk-line-vgm-api-openapi.yml
   format: yaml
-  label: Maersk Bill of Lading API
-  slug: maersk-bill-of-lading-api
+  label: Maersk VGM API
+  slug: maersk-line-vgm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-bill-of-lading-api-openapi.yml
-- filename: maersk-vgm-api-openapi.yml
-  format: yaml
-  label: Maersk Verified Gross Mass API
-  slug: maersk-vgm-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-vgm-api-openapi.yml
-- filename: maersk-demurrage-detention-api-openapi.yml
-  format: yaml
-  label: Maersk Import Demurrage and Detention API
-  slug: maersk-demurrage-detention-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-demurrage-detention-api-openapi.yml
-- filename: maersk-air-booking-api-openapi.yml
-  format: yaml
-  label: Maersk Air Booking API
-  slug: maersk-air-booking-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-air-booking-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-vgm-api-openapi.yml
 description: ''
 domains:
 - caa: []

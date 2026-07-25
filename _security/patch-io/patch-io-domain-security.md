@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: patch-io-carbon-api-openapi.yml
+- filename: patch-io-order-line-items-api-openapi.yml
   format: yaml
-  label: Patch Carbon API
-  slug: carbon-api
+  label: Patch Order Line Items API
+  slug: patch-io-order-line-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/patch-io/main/openapi/patch-io-carbon-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/patch-io/refs/heads/main/openapi/patch-io-order-line-items-api-openapi.yml
+- filename: patch-io-orders-api-openapi.yml
+  format: yaml
+  label: Patch Orders API
+  slug: patch-io-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/patch-io/refs/heads/main/openapi/patch-io-orders-api-openapi.yml
+- filename: patch-io-projects-api-openapi.yml
+  format: yaml
+  label: Patch Projects API
+  slug: patch-io-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/patch-io/refs/heads/main/openapi/patch-io-projects-api-openapi.yml
+- filename: patch-io-technology-types-api-openapi.yml
+  format: yaml
+  label: Patch Technology Types API
+  slug: patch-io-technology-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/patch-io/refs/heads/main/openapi/patch-io-technology-types-api-openapi.yml
 description: ''
 domains:
 - caa:

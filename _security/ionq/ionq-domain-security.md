@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: ionq-quantum-cloud-openapi.yml
+- filename: ionq-backends-api-openapi.yml
   format: yaml
-  label: IonQ Quantum Cloud API
-  slug: ionq-quantum-cloud-api
+  label: IonQ backends API
+  slug: ionq-backends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-quantum-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-backends-api-openapi.yml
+- filename: ionq-characterizations-api-openapi.yml
+  format: yaml
+  label: IonQ characterizations API
+  slug: ionq-characterizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-characterizations-api-openapi.yml
+- filename: ionq-jobs-api-openapi.yml
+  format: yaml
+  label: IonQ Jobs API
+  slug: ionq-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-jobs-api-openapi.yml
+- filename: ionq-sessions-api-openapi.yml
+  format: yaml
+  label: IonQ Sessions API
+  slug: ionq-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-sessions-api-openapi.yml
+- filename: ionq-usage-api-openapi.yml
+  format: yaml
+  label: IonQ usage API
+  slug: ionq-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-usage-api-openapi.yml
+- filename: ionq-whoami-api-openapi.yml
+  format: yaml
+  label: IonQ whoami API
+  slug: ionq-whoami-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-whoami-api-openapi.yml
 description: ''
 domains:
 - caa: []

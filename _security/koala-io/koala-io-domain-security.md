@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: koala-io-openapi.yml
-  format: yaml
-  label: Koala Collection (Batch) API
-  slug: koala-io-collection-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/openapi/koala-io-openapi.yml
-- filename: koala-io-openapi.yml
+- filename: koala-io-accounts-api-openapi.yml
   format: yaml
   label: Koala Accounts API
   slug: koala-io-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/openapi/koala-io-openapi.yml
-- filename: koala-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/openapi/koala-io-accounts-api-openapi.yml
+- filename: koala-io-collection-api-openapi.yml
   format: yaml
-  label: Koala SDK Bootstrap API
-  slug: koala-io-sdk-bootstrap-api
+  label: Koala Collection API
+  slug: koala-io-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/openapi/koala-io-openapi.yml
-- filename: koala-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/openapi/koala-io-collection-api-openapi.yml
+- filename: koala-io-deletion-api-openapi.yml
   format: yaml
-  label: Koala Deletion (GDPR) API
+  label: Koala Deletion API
   slug: koala-io-deletion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/openapi/koala-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/openapi/koala-io-deletion-api-openapi.yml
+- filename: koala-io-sdk-api-openapi.yml
+  format: yaml
+  label: Koala SDK API
+  slug: koala-io-sdk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/openapi/koala-io-sdk-api-openapi.yml
 description: ''
 domains:
 - caa: []

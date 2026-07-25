@@ -2,42 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: iconik-openapi.yml
+- filename: iconik-assets-api-openapi.yml
   format: yaml
   label: iconik Assets API
   slug: iconik-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-openapi.yml
-- filename: iconik-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-assets-api-openapi.yml
+- filename: iconik-collections-api-openapi.yml
   format: yaml
   label: iconik Collections API
   slug: iconik-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-openapi.yml
-- filename: iconik-openapi.yml
-  format: yaml
-  label: iconik Metadata API
-  slug: iconik-metadata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-openapi.yml
-- filename: iconik-openapi.yml
-  format: yaml
-  label: iconik Search API
-  slug: iconik-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-openapi.yml
-- filename: iconik-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-collections-api-openapi.yml
+- filename: iconik-files-api-openapi.yml
   format: yaml
   label: iconik Files API
   slug: iconik-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-openapi.yml
-- filename: iconik-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-files-api-openapi.yml
+- filename: iconik-jobs-api-openapi.yml
   format: yaml
   label: iconik Jobs API
   slug: iconik-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-jobs-api-openapi.yml
+- filename: iconik-metadata-api-openapi.yml
+  format: yaml
+  label: iconik Metadata API
+  slug: iconik-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-metadata-api-openapi.yml
+- filename: iconik-search-api-openapi.yml
+  format: yaml
+  label: iconik Search API
+  slug: iconik-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

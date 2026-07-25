@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: SnapAPI
-  slug: snapapi
+- filename: snapapi-metadata-api-openapi.yml
+  format: yaml
+  label: SnapAPI Metadata API
+  slug: snapapi-metadata-api
   spec_type: OpenAPI
-  url: https://snap.michaelcli.com/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/snapapi/refs/heads/main/openapi/snapapi-metadata-api-openapi.yml
+- filename: snapapi-pdf-api-openapi.yml
+  format: yaml
+  label: SnapAPI Pdf API
+  slug: snapapi-pdf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snapapi/refs/heads/main/openapi/snapapi-pdf-api-openapi.yml
+- filename: snapapi-screenshot-api-openapi.yml
+  format: yaml
+  label: SnapAPI Screenshot API
+  slug: snapapi-screenshot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snapapi/refs/heads/main/openapi/snapapi-screenshot-api-openapi.yml
+- filename: snapapi-signup-api-openapi.yml
+  format: yaml
+  label: SnapAPI Signup API
+  slug: snapapi-signup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snapapi/refs/heads/main/openapi/snapapi-signup-api-openapi.yml
+- filename: snapapi-text-api-openapi.yml
+  format: yaml
+  label: SnapAPI Text API
+  slug: snapapi-text-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snapapi/refs/heads/main/openapi/snapapi-text-api-openapi.yml
+- filename: snapapi-usage-api-openapi.yml
+  format: yaml
+  label: SnapAPI Usage API
+  slug: snapapi-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snapapi/refs/heads/main/openapi/snapapi-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []

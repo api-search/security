@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: elastic-observability-openapi.yml
+- filename: elastic-observability-agent-configuration-api-openapi.yml
   format: yaml
-  label: Elastic Observability
-  slug: elastic-observability
+  label: Elastic Observability Agent Configuration API
+  slug: elastic-observability-agent-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/openapi/elastic-observability-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/openapi/elastic-observability-agent-configuration-api-openapi.yml
+- filename: elastic-observability-intake-api-openapi.yml
+  format: yaml
+  label: Elastic Observability Intake API
+  slug: elastic-observability-intake-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/openapi/elastic-observability-intake-api-openapi.yml
+- filename: elastic-observability-opentelemetry-api-openapi.yml
+  format: yaml
+  label: Elastic Observability OpenTelemetry API
+  slug: elastic-observability-opentelemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/openapi/elastic-observability-opentelemetry-api-openapi.yml
+- filename: elastic-observability-server-info-api-openapi.yml
+  format: yaml
+  label: Elastic Observability Server Info API
+  slug: elastic-observability-server-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/openapi/elastic-observability-server-info-api-openapi.yml
 description: ''
 domains:
 - caa: []

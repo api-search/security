@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: wealth-x-connect-openapi.yml
+- filename: wealth-x-dossiers-api-openapi.yml
   format: yaml
-  label: Wealth-X Connect API
-  slug: wealth-x-connect-api
+  label: Wealth-X Dossiers API
+  slug: wealth-x-dossiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/openapi/wealth-x-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/openapi/wealth-x-dossiers-api-openapi.yml
+- filename: wealth-x-reference-api-openapi.yml
+  format: yaml
+  label: Wealth-X Reference API
+  slug: wealth-x-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/openapi/wealth-x-reference-api-openapi.yml
+- filename: wealth-x-search-api-openapi.yml
+  format: yaml
+  label: Wealth-X Search API
+  slug: wealth-x-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/openapi/wealth-x-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

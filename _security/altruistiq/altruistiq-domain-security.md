@@ -1,17 +1,59 @@
 ---
 api_specs:
-- filename: altruistiq-openapi.yml
+- filename: altruistiq-datasource-api-openapi.yml
   format: yaml
   label: Altruistiq Datasource API
   slug: altruistiq-datasource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-openapi.yml
-- filename: altruistiq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-datasource-api-openapi.yml
+- filename: altruistiq-export-api-openapi.yml
   format: yaml
-  label: Altruistiq PACT API
-  slug: altruistiq-pact-api
+  label: Altruistiq Export API
+  slug: altruistiq-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-export-api-openapi.yml
+- filename: altruistiq-facility-api-openapi.yml
+  format: yaml
+  label: Altruistiq Facility API
+  slug: altruistiq-facility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-facility-api-openapi.yml
+- filename: altruistiq-location-api-openapi.yml
+  format: yaml
+  label: Altruistiq Location API
+  slug: altruistiq-location-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-location-api-openapi.yml
+- filename: altruistiq-organization-api-openapi.yml
+  format: yaml
+  label: Altruistiq Organization API
+  slug: altruistiq-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-organization-api-openapi.yml
+- filename: altruistiq-product-api-openapi.yml
+  format: yaml
+  label: Altruistiq Product API
+  slug: altruistiq-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-product-api-openapi.yml
+- filename: altruistiq-product-structure-api-openapi.yml
+  format: yaml
+  label: Altruistiq Product structure API
+  slug: altruistiq-product-structure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-product-structure-api-openapi.yml
+- filename: altruistiq-product-structure-inputs-api-openapi.yml
+  format: yaml
+  label: Altruistiq Product structure inputs API
+  slug: altruistiq-product-structure-inputs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-product-structure-inputs-api-openapi.yml
+- filename: altruistiq-security-api-openapi.yml
+  format: yaml
+  label: Altruistiq Security API
+  slug: altruistiq-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-security-api-openapi.yml
 description: ''
 domains:
 - caa: []

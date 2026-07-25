@@ -1,54 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: freestyle-vm-api-openapi.yml
+- filename: freestyle-sh-auth-api-openapi.yml
   format: yaml
-  label: Freestyle VMs API
-  slug: freestyle-vms-api
+  label: Freestyle Auth API
+  slug: freestyle-sh-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-vm-api-openapi.yml
-- filename: freestyle-git-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-auth-api-openapi.yml
+- filename: freestyle-sh-certs-api-openapi.yml
   format: yaml
-  label: Freestyle Git API
-  slug: freestyle-git-api
+  label: Freestyle Certs API
+  slug: freestyle-sh-certs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-git-api-openapi.yml
-- filename: freestyle-identity-api-openapi.yml
-  format: yaml
-  label: Freestyle Identity API
-  slug: freestyle-identity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-identity-api-openapi.yml
-- filename: freestyle-domains-api-openapi.yml
-  format: yaml
-  label: Freestyle Domains API
-  slug: freestyle-domains-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-domains-api-openapi.yml
-- filename: freestyle-execute-api-openapi.yml
-  format: yaml
-  label: Freestyle Execute API
-  slug: freestyle-execute-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-execute-api-openapi.yml
-- filename: freestyle-web-api-openapi.yml
-  format: yaml
-  label: Freestyle Web Deployments API
-  slug: freestyle-web-deployments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-web-api-openapi.yml
-- filename: freestyle-cron-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-certs-api-openapi.yml
+- filename: freestyle-sh-cron-api-openapi.yml
   format: yaml
   label: Freestyle Cron API
-  slug: freestyle-cron-api
+  slug: freestyle-sh-cron-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-cron-api-openapi.yml
-- filename: freestyle-observability-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-cron-api-openapi.yml
+- filename: freestyle-sh-dns-api-openapi.yml
+  format: yaml
+  label: Freestyle DNS API
+  slug: freestyle-sh-dns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-dns-api-openapi.yml
+- filename: freestyle-sh-domains-api-openapi.yml
+  format: yaml
+  label: Freestyle Domains API
+  slug: freestyle-sh-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-domains-api-openapi.yml
+- filename: freestyle-sh-execute-api-openapi.yml
+  format: yaml
+  label: Freestyle Execute API
+  slug: freestyle-sh-execute-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-execute-api-openapi.yml
+- filename: freestyle-sh-git-api-openapi.yml
+  format: yaml
+  label: Freestyle Git API
+  slug: freestyle-sh-git-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-git-api-openapi.yml
+- filename: freestyle-sh-identity-api-openapi.yml
+  format: yaml
+  label: Freestyle Identity API
+  slug: freestyle-sh-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-identity-api-openapi.yml
+- filename: freestyle-sh-observability-api-openapi.yml
   format: yaml
   label: Freestyle Observability API
-  slug: freestyle-observability-api
+  slug: freestyle-sh-observability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-observability-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-observability-api-openapi.yml
+- filename: freestyle-sh-vm-api-openapi.yml
+  format: yaml
+  label: Freestyle VM API
+  slug: freestyle-sh-vm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-vm-api-openapi.yml
+- filename: freestyle-sh-web-api-openapi.yml
+  format: yaml
+  label: Freestyle Web API
+  slug: freestyle-sh-web-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-web-api-openapi.yml
 auth_types:
 - http
 description: ''

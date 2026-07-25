@@ -3,12 +3,24 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: news-api-openapi.yml
+- filename: news-api-articles-api-openapi.yml
   format: yaml
-  label: News API
-  slug: news-api
+  label: News API Articles API
+  slug: news-api-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/news-api/refs/heads/main/openapi/news-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/news-api/refs/heads/main/openapi/news-api-articles-api-openapi.yml
+- filename: news-api-headlines-api-openapi.yml
+  format: yaml
+  label: News API Headlines API
+  slug: news-api-headlines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/news-api/refs/heads/main/openapi/news-api-headlines-api-openapi.yml
+- filename: news-api-sources-api-openapi.yml
+  format: yaml
+  label: News API Sources API
+  slug: news-api-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/news-api/refs/heads/main/openapi/news-api-sources-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

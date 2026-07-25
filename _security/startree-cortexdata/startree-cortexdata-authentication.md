@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: startree-cortexdata-query-openapi.json
-  format: json
-  label: StarTree Cloud Query API
-  slug: startree-cloud-query-api
+- filename: startree-cortexdata-query-api-api-openapi.yml
+  format: yaml
+  label: StarTree (Cortexdata) Query API API
+  slug: startree-cortexdata-query-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/startree-cortexdata/refs/heads/main/openapi/startree-cortexdata-query-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/startree-cortexdata/refs/heads/main/openapi/startree-cortexdata-query-api-api-openapi.yml
 auth_types:
 - http
 description: ''

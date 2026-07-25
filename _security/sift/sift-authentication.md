@@ -1,48 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sift-openapi.yml
-  format: yaml
-  label: Sift Events API
-  slug: sift-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-openapi.yml
-- filename: sift-openapi.yml
-  format: yaml
-  label: Sift Score API
-  slug: sift-score-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-openapi.yml
-- filename: sift-openapi.yml
+- filename: sift-decisions-api-openapi.yml
   format: yaml
   label: Sift Decisions API
   slug: sift-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-openapi.yml
-- filename: sift-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-decisions-api-openapi.yml
+- filename: sift-events-api-openapi.yml
   format: yaml
-  label: Sift Workflow Status API
-  slug: sift-workflow-status-api
+  label: Sift Events API
+  slug: sift-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-openapi.yml
-- filename: sift-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-events-api-openapi.yml
+- filename: sift-labels-api-openapi.yml
   format: yaml
   label: Sift Labels API
   slug: sift-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-openapi.yml
-- filename: sift-openapi.yml
-  format: yaml
-  label: Sift Verification API
-  slug: sift-verification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-openapi.yml
-- filename: sift-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-labels-api-openapi.yml
+- filename: sift-psp-merchant-management-api-openapi.yml
   format: yaml
   label: Sift PSP Merchant Management API
   slug: sift-psp-merchant-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-psp-merchant-management-api-openapi.yml
+- filename: sift-score-api-openapi.yml
+  format: yaml
+  label: Sift Score API
+  slug: sift-score-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-score-api-openapi.yml
+- filename: sift-verification-api-openapi.yml
+  format: yaml
+  label: Sift Verification API
+  slug: sift-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-verification-api-openapi.yml
+- filename: sift-workflows-api-openapi.yml
+  format: yaml
+  label: Sift Workflows API
+  slug: sift-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-workflows-api-openapi.yml
 auth_types:
 - http
 description: ''

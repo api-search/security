@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: lendis-content-openapi.yml
+- filename: lendis-case-study-api-openapi.yml
   format: yaml
-  label: Lendis Content API (WordPress REST)
-  slug: content
+  label: Lendis case-study API
+  slug: lendis-case-study-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lendis/refs/heads/main/openapi/lendis-content-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lendis/refs/heads/main/openapi/lendis-case-study-api-openapi.yml
+- filename: lendis-discovery-api-openapi.yml
+  format: yaml
+  label: Lendis discovery API
+  slug: lendis-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendis/refs/heads/main/openapi/lendis-discovery-api-openapi.yml
+- filename: lendis-kataloge-api-openapi.yml
+  format: yaml
+  label: Lendis kataloge API
+  slug: lendis-kataloge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendis/refs/heads/main/openapi/lendis-kataloge-api-openapi.yml
+- filename: lendis-media-api-openapi.yml
+  format: yaml
+  label: Lendis media API
+  slug: lendis-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendis/refs/heads/main/openapi/lendis-media-api-openapi.yml
+- filename: lendis-pages-api-openapi.yml
+  format: yaml
+  label: Lendis pages API
+  slug: lendis-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendis/refs/heads/main/openapi/lendis-pages-api-openapi.yml
+- filename: lendis-posts-api-openapi.yml
+  format: yaml
+  label: Lendis posts API
+  slug: lendis-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendis/refs/heads/main/openapi/lendis-posts-api-openapi.yml
+- filename: lendis-ratgeber-api-openapi.yml
+  format: yaml
+  label: Lendis ratgeber API
+  slug: lendis-ratgeber-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendis/refs/heads/main/openapi/lendis-ratgeber-api-openapi.yml
+- filename: lendis-taxonomies-api-openapi.yml
+  format: yaml
+  label: Lendis taxonomies API
+  slug: lendis-taxonomies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendis/refs/heads/main/openapi/lendis-taxonomies-api-openapi.yml
+- filename: lendis-testimonial-api-openapi.yml
+  format: yaml
+  label: Lendis testimonial API
+  slug: lendis-testimonial-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendis/refs/heads/main/openapi/lendis-testimonial-api-openapi.yml
+- filename: lendis-wiki-api-openapi.yml
+  format: yaml
+  label: Lendis wiki API
+  slug: lendis-wiki-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendis/refs/heads/main/openapi/lendis-wiki-api-openapi.yml
 description: ''
 domains:
 - caa: []

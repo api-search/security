@@ -1,23 +1,47 @@
 ---
 api_specs:
-- filename: triton-one-customers-api-openapi.yml
+- filename: triton-one-accounts-api-openapi.yml
   format: yaml
-  label: Triton One Customers API
-  slug: triton-one-customers-api
+  label: Triton One Accounts API
+  slug: triton-one-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/openapi/triton-one-customers-api-openapi.yml
-- filename: triton-one-solana-rpc-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/openapi/triton-one-accounts-api-openapi.yml
+- filename: triton-one-addresswatchlists-api-openapi.yml
   format: yaml
-  label: Triton One Solana RPC API
-  slug: triton-one-solana-rpc-api
+  label: Triton One AddressWatchLists API
+  slug: triton-one-addresswatchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/openapi/triton-one-solana-rpc-api-openapi.yml
-- filename: triton-one-digital-assets-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/openapi/triton-one-addresswatchlists-api-openapi.yml
+- filename: triton-one-assets-api-openapi.yml
   format: yaml
-  label: Triton One Digital Assets API
-  slug: triton-one-digital-assets-api
+  label: Triton One Assets API
+  slug: triton-one-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/openapi/triton-one-digital-assets-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/openapi/triton-one-assets-api-openapi.yml
+- filename: triton-one-endpoints-api-openapi.yml
+  format: yaml
+  label: Triton One Endpoints API
+  slug: triton-one-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/openapi/triton-one-endpoints-api-openapi.yml
+- filename: triton-one-standard-api-openapi.yml
+  format: yaml
+  label: Triton One Standard API
+  slug: triton-one-standard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/openapi/triton-one-standard-api-openapi.yml
+- filename: triton-one-subscriptions-api-openapi.yml
+  format: yaml
+  label: Triton One Subscriptions API
+  slug: triton-one-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/openapi/triton-one-subscriptions-api-openapi.yml
+- filename: triton-one-tokens-api-openapi.yml
+  format: yaml
+  label: Triton One Tokens API
+  slug: triton-one-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/openapi/triton-one-tokens-api-openapi.yml
 description: ''
 domains:
 - caa: []

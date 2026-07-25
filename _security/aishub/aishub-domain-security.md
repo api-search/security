@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: aishub-openapi.yml
-  format: yaml
-  label: AISHub Vessel Positions API
-  slug: aishub-vessel-positions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aishub/refs/heads/main/openapi/aishub-openapi.yml
-- filename: aishub-openapi.yml
+- filename: aishub-stations-api-openapi.yml
   format: yaml
   label: AISHub Stations API
   slug: aishub-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aishub/refs/heads/main/openapi/aishub-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aishub/refs/heads/main/openapi/aishub-stations-api-openapi.yml
+- filename: aishub-vessel-positions-api-openapi.yml
+  format: yaml
+  label: AISHub Vessel Positions API
+  slug: aishub-vessel-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aishub/refs/heads/main/openapi/aishub-vessel-positions-api-openapi.yml
 description: ''
 domains:
 - caa: []

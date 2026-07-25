@@ -1,41 +1,47 @@
 ---
 api_specs:
-- filename: propeller-aero-openapi.yml
+- filename: propeller-aero-organizations-api-openapi.yml
   format: yaml
-  label: Propeller Organizations API
+  label: Propeller Aero Organizations API
   slug: propeller-aero-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/openapi/propeller-aero-openapi.yml
-- filename: propeller-aero-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/openapi/propeller-aero-organizations-api-openapi.yml
+- filename: propeller-aero-position-monitoring-api-openapi.yml
   format: yaml
-  label: Propeller Sites API
-  slug: propeller-aero-sites-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/openapi/propeller-aero-openapi.yml
-- filename: propeller-aero-openapi.yml
-  format: yaml
-  label: Propeller Surveys API
-  slug: propeller-aero-surveys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/openapi/propeller-aero-openapi.yml
-- filename: propeller-aero-openapi.yml
-  format: yaml
-  label: Propeller Workspaces API
-  slug: propeller-aero-workspaces-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/openapi/propeller-aero-openapi.yml
-- filename: propeller-aero-openapi.yml
-  format: yaml
-  label: Propeller Shapes & Widgets API
-  slug: propeller-aero-shapes-widgets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/openapi/propeller-aero-openapi.yml
-- filename: propeller-aero-openapi.yml
-  format: yaml
-  label: Propeller Position Monitoring API
+  label: Propeller Aero Position Monitoring API
   slug: propeller-aero-position-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/openapi/propeller-aero-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/openapi/propeller-aero-position-monitoring-api-openapi.yml
+- filename: propeller-aero-shapes-api-openapi.yml
+  format: yaml
+  label: Propeller Aero Shapes API
+  slug: propeller-aero-shapes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/openapi/propeller-aero-shapes-api-openapi.yml
+- filename: propeller-aero-sites-api-openapi.yml
+  format: yaml
+  label: Propeller Aero Sites API
+  slug: propeller-aero-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/openapi/propeller-aero-sites-api-openapi.yml
+- filename: propeller-aero-surveys-api-openapi.yml
+  format: yaml
+  label: Propeller Aero Surveys API
+  slug: propeller-aero-surveys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/openapi/propeller-aero-surveys-api-openapi.yml
+- filename: propeller-aero-widgets-api-openapi.yml
+  format: yaml
+  label: Propeller Aero Widgets API
+  slug: propeller-aero-widgets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/openapi/propeller-aero-widgets-api-openapi.yml
+- filename: propeller-aero-workspaces-api-openapi.yml
+  format: yaml
+  label: Propeller Aero Workspaces API
+  slug: propeller-aero-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/openapi/propeller-aero-workspaces-api-openapi.yml
 certifications:
 - SOC 2
 - GDPR

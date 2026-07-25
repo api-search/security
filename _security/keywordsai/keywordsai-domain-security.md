@@ -1,41 +1,59 @@
 ---
 api_specs:
-- filename: keywordsai-openapi.yml
+- filename: keywordsai-datasets-api-openapi.yml
   format: yaml
-  label: Keywords AI LLM Proxy (Chat Completions)
-  slug: llm-proxy-chat-completions
+  label: Keywords AI Datasets API
+  slug: keywordsai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-openapi.yml
-- filename: keywordsai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-datasets-api-openapi.yml
+- filename: keywordsai-evaluators-api-openapi.yml
+  format: yaml
+  label: Keywords AI Evaluators API
+  slug: keywordsai-evaluators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-evaluators-api-openapi.yml
+- filename: keywordsai-experiments-api-openapi.yml
+  format: yaml
+  label: Keywords AI Experiments API
+  slug: keywordsai-experiments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-experiments-api-openapi.yml
+- filename: keywordsai-gateway-api-openapi.yml
+  format: yaml
+  label: Keywords AI Gateway API
+  slug: keywordsai-gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-gateway-api-openapi.yml
+- filename: keywordsai-logging-api-openapi.yml
   format: yaml
   label: Keywords AI Logging API
-  slug: logging
+  slug: keywordsai-logging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-openapi.yml
-- filename: keywordsai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-logging-api-openapi.yml
+- filename: keywordsai-prompts-api-openapi.yml
   format: yaml
   label: Keywords AI Prompts API
-  slug: prompts
+  slug: keywordsai-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-openapi.yml
-- filename: keywordsai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-prompts-api-openapi.yml
+- filename: keywordsai-threads-api-openapi.yml
   format: yaml
   label: Keywords AI Threads API
-  slug: threads
+  slug: keywordsai-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-openapi.yml
-- filename: keywordsai-openapi.yml
-  format: yaml
-  label: Keywords AI Evaluations API
-  slug: evaluations
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-openapi.yml
-- filename: keywordsai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-threads-api-openapi.yml
+- filename: keywordsai-traces-api-openapi.yml
   format: yaml
   label: Keywords AI Traces API
-  slug: traces
+  slug: keywordsai-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-traces-api-openapi.yml
+- filename: keywordsai-users-api-openapi.yml
+  format: yaml
+  label: Keywords AI Users API
+  slug: keywordsai-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

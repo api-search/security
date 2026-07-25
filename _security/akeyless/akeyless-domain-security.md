@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: akeyless-akeyless-api-openapi.yml
+- filename: akeyless-v2-api-openapi.yml
   format: yaml
-  label: Akeyless REST API
-  slug: akeyless-api
+  label: Akeyless v2 API
+  slug: akeyless-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akeyless/refs/heads/main/openapi/akeyless-akeyless-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/akeyless/refs/heads/main/openapi/akeyless-v2-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,83 +1,83 @@
 ---
 api_specs:
-- filename: clever-care-coverage-openapi.json
-  format: json
-  label: Clever Care FHIR Coverage
-  slug: clever-care-fhir-coverage
+- filename: clever-care-coverage-api-openapi.yml
+  format: yaml
+  label: Clever Care Coverage API
+  slug: clever-care-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-coverage-openapi.json
-- filename: clever-care-endpoint-openapi.json
-  format: json
-  label: Clever Care FHIR Endpoint
-  slug: clever-care-fhir-endpoint
+  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-coverage-api-openapi.yml
+- filename: clever-care-endpoint-api-openapi.yml
+  format: yaml
+  label: Clever Care Endpoint API
+  slug: clever-care-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-endpoint-openapi.json
-- filename: clever-care-explanation-of-benefit-openapi.json
-  format: json
-  label: Clever Care FHIR ExplanationOfBenefit
-  slug: clever-care-fhir-explanationofbenefit
+  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-endpoint-api-openapi.yml
+- filename: clever-care-explanationofbenefit-api-openapi.yml
+  format: yaml
+  label: Clever Care ExplanationOfBenefit API
+  slug: clever-care-explanationofbenefit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-explanation-of-benefit-openapi.json
-- filename: clever-care-healthcare-service-openapi.json
-  format: json
-  label: Clever Care FHIR HealthcareService
-  slug: clever-care-fhir-healthcareservice
+  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-explanationofbenefit-api-openapi.yml
+- filename: clever-care-healthcareservice-api-openapi.yml
+  format: yaml
+  label: Clever Care HealthcareService API
+  slug: clever-care-healthcareservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-healthcare-service-openapi.json
-- filename: clever-care-insurance-plan-openapi.json
-  format: json
-  label: Clever Care FHIR InsurancePlan
-  slug: clever-care-fhir-insuranceplan
+  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-healthcareservice-api-openapi.yml
+- filename: clever-care-insuranceplan-api-openapi.yml
+  format: yaml
+  label: Clever Care InsurancePlan API
+  slug: clever-care-insuranceplan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-insurance-plan-openapi.json
-- filename: clever-care-list-openapi.json
-  format: json
-  label: Clever Care FHIR List
-  slug: clever-care-fhir-list
+  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-insuranceplan-api-openapi.yml
+- filename: clever-care-list-api-openapi.yml
+  format: yaml
+  label: Clever Care List API
+  slug: clever-care-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-list-openapi.json
-- filename: clever-care-location-openapi.json
-  format: json
-  label: Clever Care FHIR Location
-  slug: clever-care-fhir-location
+  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-list-api-openapi.yml
+- filename: clever-care-location-api-openapi.yml
+  format: yaml
+  label: Clever Care Location API
+  slug: clever-care-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-location-openapi.json
-- filename: clever-care-medication-knowledge-openapi.json
-  format: json
-  label: Clever Care FHIR MedicationKnowledge
-  slug: clever-care-fhir-medicationknowledge
+  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-location-api-openapi.yml
+- filename: clever-care-medicationknowledge-api-openapi.yml
+  format: yaml
+  label: Clever Care MedicationKnowledge API
+  slug: clever-care-medicationknowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-medication-knowledge-openapi.json
-- filename: clever-care-organization-openapi.json
-  format: json
-  label: Clever Care FHIR Organization
-  slug: clever-care-fhir-organization
+  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-medicationknowledge-api-openapi.yml
+- filename: clever-care-organization-api-openapi.yml
+  format: yaml
+  label: Clever Care Organization API
+  slug: clever-care-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-organization-openapi.json
-- filename: clever-care-organization-affiliation-openapi.json
-  format: json
-  label: Clever Care FHIR OrganizationAffiliation
-  slug: clever-care-fhir-organizationaffiliation
+  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-organization-api-openapi.yml
+- filename: clever-care-organizationaffiliation-api-openapi.yml
+  format: yaml
+  label: Clever Care OrganizationAffiliation API
+  slug: clever-care-organizationaffiliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-organization-affiliation-openapi.json
-- filename: clever-care-patient-openapi.json
-  format: json
-  label: Clever Care FHIR Patient
-  slug: clever-care-fhir-patient
+  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-organizationaffiliation-api-openapi.yml
+- filename: clever-care-patient-api-openapi.yml
+  format: yaml
+  label: Clever Care Patient API
+  slug: clever-care-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-patient-openapi.json
-- filename: clever-care-practitioner-openapi.json
-  format: json
-  label: Clever Care FHIR Practitioner
-  slug: clever-care-fhir-practitioner
+  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-patient-api-openapi.yml
+- filename: clever-care-practitioner-api-openapi.yml
+  format: yaml
+  label: Clever Care Practitioner API
+  slug: clever-care-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-practitioner-openapi.json
-- filename: clever-care-practitioner-role-openapi.json
-  format: json
-  label: Clever Care FHIR PractitionerRole
-  slug: clever-care-fhir-practitionerrole
+  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-practitioner-api-openapi.yml
+- filename: clever-care-practitionerrole-api-openapi.yml
+  format: yaml
+  label: Clever Care PractitionerRole API
+  slug: clever-care-practitionerrole-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-practitioner-role-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/openapi/clever-care-practitionerrole-api-openapi.yml
 description: ''
 domains:
 - caa: []

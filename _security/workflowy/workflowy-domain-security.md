@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: workflowy-api-openapi.yml
+- filename: workflowy-nodes-api-openapi.yml
   format: yaml
-  label: Workflowy API
-  slug: workflowy-api
+  label: Workflowy Nodes API
+  slug: workflowy-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/openapi/workflowy-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/openapi/workflowy-nodes-api-openapi.yml
+- filename: workflowy-targets-api-openapi.yml
+  format: yaml
+  label: Workflowy Targets API
+  slug: workflowy-targets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/openapi/workflowy-targets-api-openapi.yml
 description: ''
 domains:
 - caa:

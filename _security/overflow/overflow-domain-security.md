@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: overflow-openapi-original.json
-  format: json
-  label: Overflow Open API
-  slug: overflow-open-api
+- filename: overflow-campaigns-api-openapi.yml
+  format: yaml
+  label: Overflow Campaigns API
+  slug: overflow-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-campaigns-api-openapi.yml
+- filename: overflow-chargebacks-api-openapi.yml
+  format: yaml
+  label: Overflow Chargebacks API
+  slug: overflow-chargebacks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-chargebacks-api-openapi.yml
+- filename: overflow-contributions-api-openapi.yml
+  format: yaml
+  label: Overflow Contributions API
+  slug: overflow-contributions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-contributions-api-openapi.yml
+- filename: overflow-deposits-api-openapi.yml
+  format: yaml
+  label: Overflow Deposits API
+  slug: overflow-deposits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-deposits-api-openapi.yml
+- filename: overflow-donors-api-openapi.yml
+  format: yaml
+  label: Overflow Donors API
+  slug: overflow-donors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-donors-api-openapi.yml
+- filename: overflow-locations-api-openapi.yml
+  format: yaml
+  label: Overflow Locations API
+  slug: overflow-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-locations-api-openapi.yml
+- filename: overflow-payment-methods-api-openapi.yml
+  format: yaml
+  label: Overflow Payment Methods API
+  slug: overflow-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-payment-methods-api-openapi.yml
+- filename: overflow-payments-api-openapi.yml
+  format: yaml
+  label: Overflow Payments API
+  slug: overflow-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-payments-api-openapi.yml
+- filename: overflow-refunds-api-openapi.yml
+  format: yaml
+  label: Overflow Refunds API
+  slug: overflow-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-refunds-api-openapi.yml
+- filename: overflow-status-api-openapi.yml
+  format: yaml
+  label: Overflow Status API
+  slug: overflow-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-status-api-openapi.yml
+- filename: overflow-subscriptions-api-openapi.yml
+  format: yaml
+  label: Overflow Subscriptions API
+  slug: overflow-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-subscriptions-api-openapi.yml
+- filename: overflow-tap-api-openapi.yml
+  format: yaml
+  label: Overflow Tap API
+  slug: overflow-tap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-tap-api-openapi.yml
+- filename: overflow-webhooks-api-openapi.yml
+  format: yaml
+  label: Overflow Webhooks API
+  slug: overflow-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

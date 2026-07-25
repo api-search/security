@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: sigma-aldrich-product-openapi.yml
+- filename: sigma-aldrich-pricing-and-availability-api-openapi.yml
   format: yaml
-  label: Sigma-Aldrich Product Search API
-  slug: sigma-aldrich-product-api
+  label: Sigma-Aldrich Pricing and Availability API
+  slug: sigma-aldrich-pricing-and-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/openapi/sigma-aldrich-product-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/openapi/sigma-aldrich-pricing-and-availability-api-openapi.yml
+- filename: sigma-aldrich-products-api-openapi.yml
+  format: yaml
+  label: Sigma-Aldrich Products API
+  slug: sigma-aldrich-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/openapi/sigma-aldrich-products-api-openapi.yml
+- filename: sigma-aldrich-safety-data-sheets-api-openapi.yml
+  format: yaml
+  label: Sigma-Aldrich Safety Data Sheets API
+  slug: sigma-aldrich-safety-data-sheets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/openapi/sigma-aldrich-safety-data-sheets-api-openapi.yml
+- filename: sigma-aldrich-structures-api-openapi.yml
+  format: yaml
+  label: Sigma-Aldrich Structures API
+  slug: sigma-aldrich-structures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/openapi/sigma-aldrich-structures-api-openapi.yml
 description: ''
 domains:
 - caa: []

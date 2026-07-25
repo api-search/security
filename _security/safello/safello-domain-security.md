@@ -1,17 +1,47 @@
 ---
 api_specs:
-- filename: safello-institutional-openapi.json
-  format: json
-  label: Safello Institutional API
-  slug: safello-institutional-api
+- filename: safello-account-api-openapi.yml
+  format: yaml
+  label: Safello account API
+  slug: safello-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-institutional-openapi.json
-- filename: safello-app-openapi.json
-  format: json
-  label: Safello App API
-  slug: safello-app-api
+  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-account-api-openapi.yml
+- filename: safello-auth-api-openapi.yml
+  format: yaml
+  label: Safello auth API
+  slug: safello-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-app-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-auth-api-openapi.yml
+- filename: safello-compliance-api-openapi.yml
+  format: yaml
+  label: Safello compliance API
+  slug: safello-compliance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-compliance-api-openapi.yml
+- filename: safello-market-api-openapi.yml
+  format: yaml
+  label: Safello market API
+  slug: safello-market-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-market-api-openapi.yml
+- filename: safello-orders-api-openapi.yml
+  format: yaml
+  label: Safello orders API
+  slug: safello-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-orders-api-openapi.yml
+- filename: safello-prices-api-openapi.yml
+  format: yaml
+  label: Safello prices API
+  slug: safello-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-prices-api-openapi.yml
+- filename: safello-wallet-api-openapi.yml
+  format: yaml
+  label: Safello wallet API
+  slug: safello-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-wallet-api-openapi.yml
 description: ''
 domains:
 - caa: []

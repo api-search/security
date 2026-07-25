@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: trucksmarter-load-posting-openapi.yml
+- filename: trucksmarter-loads-api-openapi.yml
   format: yaml
-  label: TruckSmarter Load Posting API
-  slug: trucksmarter-load-posting-api
+  label: TruckSmarter Loads API
+  slug: trucksmarter-loads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trucksmarter/refs/heads/main/openapi/trucksmarter-load-posting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trucksmarter/refs/heads/main/openapi/trucksmarter-loads-api-openapi.yml
 description: ''
 domains:
 - caa: []

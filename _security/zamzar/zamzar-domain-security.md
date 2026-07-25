@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: spec.yaml
+- filename: zamzar-account-api-openapi.yml
   format: yaml
-  label: Zamzar File Conversion API
-  slug: zamzar-api
+  label: Zamzar Account API
+  slug: zamzar-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/zamzar/zamzar-spec/main/openapi/spec.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/openapi/zamzar-account-api-openapi.yml
+- filename: zamzar-files-api-openapi.yml
+  format: yaml
+  label: Zamzar Files API
+  slug: zamzar-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/openapi/zamzar-files-api-openapi.yml
+- filename: zamzar-formats-api-openapi.yml
+  format: yaml
+  label: Zamzar Formats API
+  slug: zamzar-formats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/openapi/zamzar-formats-api-openapi.yml
+- filename: zamzar-imports-api-openapi.yml
+  format: yaml
+  label: Zamzar Imports API
+  slug: zamzar-imports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/openapi/zamzar-imports-api-openapi.yml
+- filename: zamzar-jobs-api-openapi.yml
+  format: yaml
+  label: Zamzar Jobs API
+  slug: zamzar-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/openapi/zamzar-jobs-api-openapi.yml
+- filename: zamzar-welcome-api-openapi.yml
+  format: yaml
+  label: Zamzar Welcome API
+  slug: zamzar-welcome-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/openapi/zamzar-welcome-api-openapi.yml
 description: ''
 domains:
 - caa: []

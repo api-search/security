@@ -1,47 +1,53 @@
 ---
 api_specs:
-- filename: preset-openapi.yml
+- filename: preset-authentication-api-openapi.yml
   format: yaml
-  label: Preset Auth API
-  slug: preset-auth-api
+  label: Preset Authentication API
+  slug: preset-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-openapi.yml
-- filename: preset-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-authentication-api-openapi.yml
+- filename: preset-charts-api-openapi.yml
   format: yaml
-  label: Preset Teams and Workspaces API
-  slug: preset-teams-workspaces-api
+  label: Preset Charts API
+  slug: preset-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-openapi.yml
-- filename: preset-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-charts-api-openapi.yml
+- filename: preset-dashboards-api-openapi.yml
   format: yaml
-  label: Preset Superset Dashboards API
-  slug: preset-superset-dashboards-api
+  label: Preset Dashboards API
+  slug: preset-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-openapi.yml
-- filename: preset-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-dashboards-api-openapi.yml
+- filename: preset-databases-api-openapi.yml
   format: yaml
-  label: Preset Superset Charts API
-  slug: preset-superset-charts-api
+  label: Preset Databases API
+  slug: preset-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-openapi.yml
-- filename: preset-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-databases-api-openapi.yml
+- filename: preset-datasets-api-openapi.yml
   format: yaml
-  label: Preset Superset Datasets API
-  slug: preset-superset-datasets-api
+  label: Preset Datasets API
+  slug: preset-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-openapi.yml
-- filename: preset-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-datasets-api-openapi.yml
+- filename: preset-sql-lab-api-openapi.yml
   format: yaml
-  label: Preset Superset Databases API
-  slug: preset-superset-databases-api
+  label: Preset SQL Lab API
+  slug: preset-sql-lab-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-openapi.yml
-- filename: preset-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-sql-lab-api-openapi.yml
+- filename: preset-teams-api-openapi.yml
   format: yaml
-  label: Preset Superset SQL Lab API
-  slug: preset-superset-sqllab-api
+  label: Preset Teams API
+  slug: preset-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-teams-api-openapi.yml
+- filename: preset-workspaces-api-openapi.yml
+  format: yaml
+  label: Preset Workspaces API
+  slug: preset-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa:

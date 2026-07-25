@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: sound-transit-onebusaway-openapi.yml
+- filename: sound-transit-agencies-api-openapi.yml
   format: yaml
-  label: Sound Transit OneBusAway API
-  slug: sound-transit-onebusaway-api
+  label: Sound Transit Agencies API
+  slug: sound-transit-agencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/openapi/sound-transit-onebusaway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/openapi/sound-transit-agencies-api-openapi.yml
+- filename: sound-transit-arrivals-and-departures-api-openapi.yml
+  format: yaml
+  label: Sound Transit Arrivals And Departures API
+  slug: sound-transit-arrivals-and-departures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/openapi/sound-transit-arrivals-and-departures-api-openapi.yml
+- filename: sound-transit-routes-api-openapi.yml
+  format: yaml
+  label: Sound Transit Routes API
+  slug: sound-transit-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/openapi/sound-transit-routes-api-openapi.yml
+- filename: sound-transit-stops-api-openapi.yml
+  format: yaml
+  label: Sound Transit Stops API
+  slug: sound-transit-stops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/openapi/sound-transit-stops-api-openapi.yml
+- filename: sound-transit-system-api-openapi.yml
+  format: yaml
+  label: Sound Transit System API
+  slug: sound-transit-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/openapi/sound-transit-system-api-openapi.yml
+- filename: sound-transit-trips-api-openapi.yml
+  format: yaml
+  label: Sound Transit Trips API
+  slug: sound-transit-trips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/openapi/sound-transit-trips-api-openapi.yml
+- filename: sound-transit-vehicles-api-openapi.yml
+  format: yaml
+  label: Sound Transit Vehicles API
+  slug: sound-transit-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/openapi/sound-transit-vehicles-api-openapi.yml
 description: ''
 domains:
 - caa: []

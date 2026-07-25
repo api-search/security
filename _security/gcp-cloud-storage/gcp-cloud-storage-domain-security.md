@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: rest
+- filename: gcp-cloud-storage-bucketaccesscontrols-api-openapi.yml
   format: yaml
-  label: Google Cloud Storage JSON API
-  slug: google-cloud-storage-json-api
+  label: Google Cloud Storage BucketAccessControls API
+  slug: gcp-cloud-storage-bucketaccesscontrols-api
   spec_type: OpenAPI
-  url: https://storage.googleapis.com/$discovery/rest?version=v1
+  url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/openapi/gcp-cloud-storage-bucketaccesscontrols-api-openapi.yml
+- filename: gcp-cloud-storage-buckets-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Buckets API
+  slug: gcp-cloud-storage-buckets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/openapi/gcp-cloud-storage-buckets-api-openapi.yml
+- filename: gcp-cloud-storage-defaultobjectaccesscontrols-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage DefaultObjectAccessControls API
+  slug: gcp-cloud-storage-defaultobjectaccesscontrols-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/openapi/gcp-cloud-storage-defaultobjectaccesscontrols-api-openapi.yml
+- filename: gcp-cloud-storage-objectaccesscontrols-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage ObjectAccessControls API
+  slug: gcp-cloud-storage-objectaccesscontrols-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/openapi/gcp-cloud-storage-objectaccesscontrols-api-openapi.yml
+- filename: gcp-cloud-storage-objects-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Objects API
+  slug: gcp-cloud-storage-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/openapi/gcp-cloud-storage-objects-api-openapi.yml
 description: ''
 domains:
 - caa:

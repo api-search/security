@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: sendbird-platform-openapi.yml
+- filename: sendbird-channels-api-openapi.yml
   format: yaml
-  label: Sendbird Platform API
-  slug: sendbird-platform-api
+  label: Sendbird Channels API
+  slug: sendbird-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/openapi/sendbird-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/openapi/sendbird-channels-api-openapi.yml
+- filename: sendbird-messages-api-openapi.yml
+  format: yaml
+  label: Sendbird Messages API
+  slug: sendbird-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/openapi/sendbird-messages-api-openapi.yml
+- filename: sendbird-moderation-api-openapi.yml
+  format: yaml
+  label: Sendbird Moderation API
+  slug: sendbird-moderation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/openapi/sendbird-moderation-api-openapi.yml
+- filename: sendbird-users-api-openapi.yml
+  format: yaml
+  label: Sendbird Users API
+  slug: sendbird-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/openapi/sendbird-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

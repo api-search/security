@@ -1,12 +1,78 @@
 ---
 api_key_in: []
 api_specs:
-- filename: edda-wordpress-openapi.yml
+- filename: edda-categories-api-openapi.yml
   format: yaml
-  label: EDDA Technology WordPress REST API
-  slug: wordpress
+  label: EDDA Technology categories API
+  slug: edda-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/openapi/edda-wordpress-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/openapi/edda-categories-api-openapi.yml
+- filename: edda-comments-api-openapi.yml
+  format: yaml
+  label: EDDA Technology comments API
+  slug: edda-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/openapi/edda-comments-api-openapi.yml
+- filename: edda-embed-api-openapi.yml
+  format: yaml
+  label: EDDA Technology embed API
+  slug: edda-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/openapi/edda-embed-api-openapi.yml
+- filename: edda-media-api-openapi.yml
+  format: yaml
+  label: EDDA Technology media API
+  slug: edda-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/openapi/edda-media-api-openapi.yml
+- filename: edda-pages-api-openapi.yml
+  format: yaml
+  label: EDDA Technology pages API
+  slug: edda-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/openapi/edda-pages-api-openapi.yml
+- filename: edda-posts-api-openapi.yml
+  format: yaml
+  label: EDDA Technology posts API
+  slug: edda-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/openapi/edda-posts-api-openapi.yml
+- filename: edda-search-api-openapi.yml
+  format: yaml
+  label: EDDA Technology search API
+  slug: edda-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/openapi/edda-search-api-openapi.yml
+- filename: edda-statuses-api-openapi.yml
+  format: yaml
+  label: EDDA Technology statuses API
+  slug: edda-statuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/openapi/edda-statuses-api-openapi.yml
+- filename: edda-tags-api-openapi.yml
+  format: yaml
+  label: EDDA Technology tags API
+  slug: edda-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/openapi/edda-tags-api-openapi.yml
+- filename: edda-taxonomies-api-openapi.yml
+  format: yaml
+  label: EDDA Technology taxonomies API
+  slug: edda-taxonomies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/openapi/edda-taxonomies-api-openapi.yml
+- filename: edda-types-api-openapi.yml
+  format: yaml
+  label: EDDA Technology types API
+  slug: edda-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/openapi/edda-types-api-openapi.yml
+- filename: edda-users-api-openapi.yml
+  format: yaml
+  label: EDDA Technology users API
+  slug: edda-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/openapi/edda-users-api-openapi.yml
 auth_types:
 - none
 - http

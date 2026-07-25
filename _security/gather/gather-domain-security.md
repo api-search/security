@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: gather-http-api-openapi.yml
+- filename: gather-guestlist-api-openapi.yml
   format: yaml
-  label: Gather HTTP API
-  slug: gather-http-api
+  label: Gather Guestlist API
+  slug: gather-guestlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/openapi/gather-http-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/openapi/gather-guestlist-api-openapi.yml
+- filename: gather-maps-api-openapi.yml
+  format: yaml
+  label: Gather Maps API
+  slug: gather-maps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/openapi/gather-maps-api-openapi.yml
+- filename: gather-spaces-api-openapi.yml
+  format: yaml
+  label: Gather Spaces API
+  slug: gather-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/openapi/gather-spaces-api-openapi.yml
 description: ''
 domains:
 - caa: []

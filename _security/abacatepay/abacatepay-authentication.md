@@ -1,36 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: abacatepay-openapi.yml
+- filename: abacatepay-billing-api-openapi.yml
   format: yaml
-  label: AbacatePay Billing and Charges API
+  label: AbacatePay Billing API
   slug: abacatepay-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/openapi/abacatepay-openapi.yml
-- filename: abacatepay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/openapi/abacatepay-billing-api-openapi.yml
+- filename: abacatepay-coupon-api-openapi.yml
+  format: yaml
+  label: AbacatePay Coupon API
+  slug: abacatepay-coupon-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/openapi/abacatepay-coupon-api-openapi.yml
+- filename: abacatepay-customer-api-openapi.yml
+  format: yaml
+  label: AbacatePay Customer API
+  slug: abacatepay-customer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/openapi/abacatepay-customer-api-openapi.yml
+- filename: abacatepay-pix-qr-code-api-openapi.yml
   format: yaml
   label: AbacatePay Pix QR Code API
-  slug: abacatepay-pix-qrcode-api
+  slug: abacatepay-pix-qr-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/openapi/abacatepay-openapi.yml
-- filename: abacatepay-openapi.yml
-  format: yaml
-  label: AbacatePay Customers API
-  slug: abacatepay-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/openapi/abacatepay-openapi.yml
-- filename: abacatepay-openapi.yml
-  format: yaml
-  label: AbacatePay Coupons API
-  slug: abacatepay-coupons-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/openapi/abacatepay-openapi.yml
-- filename: abacatepay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/openapi/abacatepay-pix-qr-code-api-openapi.yml
+- filename: abacatepay-withdraw-api-openapi.yml
   format: yaml
   label: AbacatePay Withdraw API
   slug: abacatepay-withdraw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/openapi/abacatepay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/openapi/abacatepay-withdraw-api-openapi.yml
 auth_types:
 - http
 description: ''

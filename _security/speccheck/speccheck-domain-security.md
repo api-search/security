@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: speccheck-openapi.yml
+- filename: speccheck-authentication-api-openapi.yml
   format: yaml
-  label: SpecCheck API
-  slug: speccheck-api
+  label: SpecCheck Authentication API
+  slug: speccheck-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/openapi/speccheck-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/openapi/speccheck-authentication-api-openapi.yml
+- filename: speccheck-catalogs-api-openapi.yml
+  format: yaml
+  label: SpecCheck Catalogs API
+  slug: speccheck-catalogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/openapi/speccheck-catalogs-api-openapi.yml
+- filename: speccheck-labs-api-openapi.yml
+  format: yaml
+  label: SpecCheck Labs API
+  slug: speccheck-labs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/openapi/speccheck-labs-api-openapi.yml
+- filename: speccheck-orders-api-openapi.yml
+  format: yaml
+  label: SpecCheck Orders API
+  slug: speccheck-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/openapi/speccheck-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,65 +1,185 @@
 ---
 api_specs:
-- filename: deliverect-pos-api-openapi-original.yml
+- filename: deliverect-accounts-api-openapi.yml
   format: yaml
-  label: Deliverect POS API
-  slug: pos-api
+  label: Deliverect Accounts API
+  slug: deliverect-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-pos-api-openapi-original.yml
-- filename: deliverect-commerce-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-accounts-api-openapi.yml
+- filename: deliverect-allergens-api-openapi.yml
   format: yaml
-  label: Deliverect Commerce API
-  slug: commerce-api
+  label: Deliverect Allergens API
+  slug: deliverect-allergens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-commerce-api-openapi-original.yml
-- filename: deliverect-channel-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-allergens-api-openapi.yml
+- filename: deliverect-authentication-api-openapi.yml
   format: yaml
-  label: Deliverect Channel API
-  slug: channel-api
+  label: Deliverect Authentication API
+  slug: deliverect-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-channel-api-openapi-original.yml
-- filename: deliverect-dispatch-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-authentication-api-openapi.yml
+- filename: deliverect-baskets-api-openapi.yml
   format: yaml
-  label: Deliverect Dispatch API
-  slug: dispatch-api
+  label: Deliverect Baskets API
+  slug: deliverect-baskets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-dispatch-api-openapi-original.yml
-- filename: deliverect-store-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-baskets-api-openapi.yml
+- filename: deliverect-channel-links-api-openapi.yml
   format: yaml
-  label: Deliverect Store API
-  slug: store-api
+  label: Deliverect Channel Links API
+  slug: deliverect-channel-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-store-api-openapi-original.yml
-- filename: deliverect-pay-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-channel-links-api-openapi.yml
+- filename: deliverect-checkout-api-openapi.yml
   format: yaml
-  label: Deliverect Pay API
-  slug: pay-api
+  label: Deliverect Checkout API
+  slug: deliverect-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-pay-api-openapi-original.yml
-- filename: deliverect-crm-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-checkout-api-openapi.yml
+- filename: deliverect-compensation-cards-api-openapi.yml
   format: yaml
-  label: Deliverect CRM API
-  slug: crm-api
+  label: Deliverect Compensation Cards API
+  slug: deliverect-compensation-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-crm-api-openapi-original.yml
-- filename: deliverect-loyalty-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-compensation-cards-api-openapi.yml
+- filename: deliverect-configuration-api-openapi.yml
   format: yaml
-  label: Deliverect Loyalty API
-  slug: loyalty-api
+  label: Deliverect Configuration API
+  slug: deliverect-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-loyalty-api-openapi-original.yml
-- filename: deliverect-kds-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-configuration-api-openapi.yml
+- filename: deliverect-coupons-api-openapi.yml
   format: yaml
-  label: Deliverect KDS API
-  slug: kds-api
+  label: Deliverect Coupons API
+  slug: deliverect-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-kds-api-openapi-original.yml
-- filename: deliverect-gift-cards-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-coupons-api-openapi.yml
+- filename: deliverect-couriers-api-openapi.yml
+  format: yaml
+  label: Deliverect Couriers API
+  slug: deliverect-couriers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-couriers-api-openapi.yml
+- filename: deliverect-customers-api-openapi.yml
+  format: yaml
+  label: Deliverect Customers API
+  slug: deliverect-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-customers-api-openapi.yml
+- filename: deliverect-floors-api-openapi.yml
+  format: yaml
+  label: Deliverect Floors API
+  slug: deliverect-floors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-floors-api-openapi.yml
+- filename: deliverect-fulfillment-api-openapi.yml
+  format: yaml
+  label: Deliverect Fulfillment API
+  slug: deliverect-fulfillment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-fulfillment-api-openapi.yml
+- filename: deliverect-gateways-api-openapi.yml
+  format: yaml
+  label: Deliverect Gateways API
+  slug: deliverect-gateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-gateways-api-openapi.yml
+- filename: deliverect-gift-cards-api-openapi.yml
   format: yaml
   label: Deliverect Gift Cards API
-  slug: gift-cards-api
+  slug: deliverect-gift-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-gift-cards-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-gift-cards-api-openapi.yml
+- filename: deliverect-inventory-api-openapi.yml
+  format: yaml
+  label: Deliverect Inventory API
+  slug: deliverect-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-inventory-api-openapi.yml
+- filename: deliverect-jobs-api-openapi.yml
+  format: yaml
+  label: Deliverect Jobs API
+  slug: deliverect-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-jobs-api-openapi.yml
+- filename: deliverect-locations-api-openapi.yml
+  format: yaml
+  label: Deliverect Locations API
+  slug: deliverect-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-locations-api-openapi.yml
+- filename: deliverect-menus-api-openapi.yml
+  format: yaml
+  label: Deliverect Menus API
+  slug: deliverect-menus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-menus-api-openapi.yml
+- filename: deliverect-opening-hours-api-openapi.yml
+  format: yaml
+  label: Deliverect Opening Hours API
+  slug: deliverect-opening-hours-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-opening-hours-api-openapi.yml
+- filename: deliverect-orders-api-openapi.yml
+  format: yaml
+  label: Deliverect Orders API
+  slug: deliverect-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-orders-api-openapi.yml
+- filename: deliverect-payments-api-openapi.yml
+  format: yaml
+  label: Deliverect Payments API
+  slug: deliverect-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-payments-api-openapi.yml
+- filename: deliverect-products-api-openapi.yml
+  format: yaml
+  label: Deliverect Products API
+  slug: deliverect-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-products-api-openapi.yml
+- filename: deliverect-profiles-api-openapi.yml
+  format: yaml
+  label: Deliverect Profiles API
+  slug: deliverect-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-profiles-api-openapi.yml
+- filename: deliverect-programs-api-openapi.yml
+  format: yaml
+  label: Deliverect Programs API
+  slug: deliverect-programs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-programs-api-openapi.yml
+- filename: deliverect-registration-api-openapi.yml
+  format: yaml
+  label: Deliverect Registration API
+  slug: deliverect-registration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-registration-api-openapi.yml
+- filename: deliverect-store-status-api-openapi.yml
+  format: yaml
+  label: Deliverect Store Status API
+  slug: deliverect-store-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-store-status-api-openapi.yml
+- filename: deliverect-stores-api-openapi.yml
+  format: yaml
+  label: Deliverect Stores API
+  slug: deliverect-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-stores-api-openapi.yml
+- filename: deliverect-tables-api-openapi.yml
+  format: yaml
+  label: Deliverect Tables API
+  slug: deliverect-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-tables-api-openapi.yml
+- filename: deliverect-upsell-api-openapi.yml
+  format: yaml
+  label: Deliverect Upsell API
+  slug: deliverect-upsell-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-upsell-api-openapi.yml
 description: ''
 domains:
 - caa: []

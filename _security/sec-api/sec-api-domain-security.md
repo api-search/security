@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: sec-api-openapi.yml
-  format: yaml
-  label: SEC API Filing Query API
-  slug: sec-api-filing-query-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-openapi.yml
-- filename: sec-api-openapi.yml
-  format: yaml
-  label: SEC API Full-Text Search API
-  slug: sec-api-full-text-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-openapi.yml
 - filename: sec-api-asyncapi.yml
   format: yaml
   label: SEC API Filing Stream API
   slug: sec-api-filing-stream-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/asyncapi/sec-api-asyncapi.yml
-- filename: sec-api-openapi.yml
-  format: yaml
-  label: SEC API XBRL-to-JSON Converter API
-  slug: sec-api-xbrl-to-json-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-openapi.yml
-- filename: sec-api-openapi.yml
+- filename: sec-api-extractor-api-openapi.yml
   format: yaml
   label: SEC API Extractor API
   slug: sec-api-extractor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-openapi.yml
-- filename: sec-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-extractor-api-openapi.yml
+- filename: sec-api-filing-query-api-openapi.yml
+  format: yaml
+  label: SEC API Filing Query API
+  slug: sec-api-filing-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-filing-query-api-openapi.yml
+- filename: sec-api-form-13f-api-openapi.yml
+  format: yaml
+  label: SEC API Form 13F API
+  slug: sec-api-form-13f-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-form-13f-api-openapi.yml
+- filename: sec-api-full-text-search-api-openapi.yml
+  format: yaml
+  label: SEC API Full-Text Search API
+  slug: sec-api-full-text-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-full-text-search-api-openapi.yml
+- filename: sec-api-insider-trading-api-openapi.yml
   format: yaml
   label: SEC API Insider Trading API
   slug: sec-api-insider-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-openapi.yml
-- filename: sec-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-insider-trading-api-openapi.yml
+- filename: sec-api-xbrl-api-openapi.yml
   format: yaml
-  label: SEC API Form 13F Holdings API
-  slug: sec-api-form-13f-holdings-api
+  label: SEC API XBRL API
+  slug: sec-api-xbrl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-xbrl-api-openapi.yml
 description: ''
 domains:
 - caa: []

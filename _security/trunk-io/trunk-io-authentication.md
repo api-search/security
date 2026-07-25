@@ -2,18 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: trunk-io-openapi.yml
+- filename: trunk-io-flaky-tests-api-openapi.yml
   format: yaml
   label: Trunk Flaky Tests API
-  slug: flaky-tests-api
+  slug: trunk-io-flaky-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trunk-io/refs/heads/main/openapi/trunk-io-openapi.yml
-- filename: trunk-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trunk-io/refs/heads/main/openapi/trunk-io-flaky-tests-api-openapi.yml
+- filename: trunk-io-merge-queue-api-openapi.yml
   format: yaml
   label: Trunk Merge Queue API
-  slug: merge-queue-api
+  slug: trunk-io-merge-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trunk-io/refs/heads/main/openapi/trunk-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trunk-io/refs/heads/main/openapi/trunk-io-merge-queue-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: booking-com-demand-api.yaml
+- filename: booking-holdings-accommodations-api-openapi.yml
   format: yaml
-  label: Booking.com Demand API
-  slug: bookingcom-demand-api
+  label: Booking Holdings Accommodations API
+  slug: booking-holdings-accommodations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/openapi/booking-com-demand-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/openapi/booking-holdings-accommodations-api-openapi.yml
+- filename: booking-holdings-attachments-api-openapi.yml
+  format: yaml
+  label: Booking Holdings Attachments API
+  slug: booking-holdings-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/openapi/booking-holdings-attachments-api-openapi.yml
+- filename: booking-holdings-cars-api-openapi.yml
+  format: yaml
+  label: Booking Holdings Cars API
+  slug: booking-holdings-cars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/openapi/booking-holdings-cars-api-openapi.yml
+- filename: booking-holdings-common-languages-api-openapi.yml
+  format: yaml
+  label: Booking Holdings Common/languages API
+  slug: booking-holdings-common-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/openapi/booking-holdings-common-languages-api-openapi.yml
+- filename: booking-holdings-common-locations-api-openapi.yml
+  format: yaml
+  label: Booking Holdings Common/locations API
+  slug: booking-holdings-common-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/openapi/booking-holdings-common-locations-api-openapi.yml
+- filename: booking-holdings-common-payments-api-openapi.yml
+  format: yaml
+  label: Booking Holdings Common/payments API
+  slug: booking-holdings-common-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/openapi/booking-holdings-common-payments-api-openapi.yml
+- filename: booking-holdings-conversations-api-openapi.yml
+  format: yaml
+  label: Booking Holdings Conversations API
+  slug: booking-holdings-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/openapi/booking-holdings-conversations-api-openapi.yml
+- filename: booking-holdings-messages-api-openapi.yml
+  format: yaml
+  label: Booking Holdings Messages API
+  slug: booking-holdings-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/openapi/booking-holdings-messages-api-openapi.yml
+- filename: booking-holdings-orders-api-openapi.yml
+  format: yaml
+  label: Booking Holdings Orders API
+  slug: booking-holdings-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/openapi/booking-holdings-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []

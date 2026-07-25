@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: brainfish-public-api-openapi-original.json
-  format: json
-  label: Brainfish Public API
-  slug: brainfish-public-api
+- filename: brainfish-agents-api-openapi.yml
+  format: yaml
+  label: Brainfish Agents API
+  slug: brainfish-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-public-api-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-agents-api-openapi.yml
+- filename: brainfish-analytics-api-openapi.yml
+  format: yaml
+  label: Brainfish Analytics API
+  slug: brainfish-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-analytics-api-openapi.yml
+- filename: brainfish-authentication-api-openapi.yml
+  format: yaml
+  label: Brainfish Authentication API
+  slug: brainfish-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-authentication-api-openapi.yml
+- filename: brainfish-catalogs-api-openapi.yml
+  format: yaml
+  label: Brainfish Catalogs API
+  slug: brainfish-catalogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-catalogs-api-openapi.yml
+- filename: brainfish-collections-api-openapi.yml
+  format: yaml
+  label: Brainfish Collections API
+  slug: brainfish-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-collections-api-openapi.yml
+- filename: brainfish-conversations-api-openapi.yml
+  format: yaml
+  label: Brainfish Conversations API
+  slug: brainfish-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-conversations-api-openapi.yml
+- filename: brainfish-documents-api-openapi.yml
+  format: yaml
+  label: Brainfish Documents API
+  slug: brainfish-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-documents-api-openapi.yml
+- filename: brainfish-sessions-api-openapi.yml
+  format: yaml
+  label: Brainfish Sessions API
+  slug: brainfish-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-sessions-api-openapi.yml
+- filename: brainfish-users-api-openapi.yml
+  format: yaml
+  label: Brainfish Users API
+  slug: brainfish-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

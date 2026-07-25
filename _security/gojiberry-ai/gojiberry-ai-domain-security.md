@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: gojiberry-ai-external-openapi-original.json
-  format: json
-  label: Gojiberry AI External API
-  slug: gojiberry-ai-external-api
+- filename: gojiberry-ai-appexternal-api-openapi.yml
+  format: yaml
+  label: Gojiberry AI AppExternal API
+  slug: gojiberry-ai-appexternal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/openapi/gojiberry-ai-external-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/openapi/gojiberry-ai-appexternal-api-openapi.yml
+- filename: gojiberry-ai-campaigns-api-openapi.yml
+  format: yaml
+  label: Gojiberry AI Campaigns API
+  slug: gojiberry-ai-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/openapi/gojiberry-ai-campaigns-api-openapi.yml
+- filename: gojiberry-ai-contacts-api-openapi.yml
+  format: yaml
+  label: Gojiberry AI Contacts API
+  slug: gojiberry-ai-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/openapi/gojiberry-ai-contacts-api-openapi.yml
+- filename: gojiberry-ai-lead-source-agents-api-openapi.yml
+  format: yaml
+  label: Gojiberry AI Lead source agents API
+  slug: gojiberry-ai-lead-source-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/openapi/gojiberry-ai-lead-source-agents-api-openapi.yml
+- filename: gojiberry-ai-lists-api-openapi.yml
+  format: yaml
+  label: Gojiberry AI Lists API
+  slug: gojiberry-ai-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/openapi/gojiberry-ai-lists-api-openapi.yml
+- filename: gojiberry-ai-organization-api-openapi.yml
+  format: yaml
+  label: Gojiberry AI Organization API
+  slug: gojiberry-ai-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/openapi/gojiberry-ai-organization-api-openapi.yml
+- filename: gojiberry-ai-unibox-api-openapi.yml
+  format: yaml
+  label: Gojiberry AI Unibox API
+  slug: gojiberry-ai-unibox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/openapi/gojiberry-ai-unibox-api-openapi.yml
+- filename: gojiberry-ai-user-api-openapi.yml
+  format: yaml
+  label: Gojiberry AI User API
+  slug: gojiberry-ai-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/openapi/gojiberry-ai-user-api-openapi.yml
 description: ''
 domains:
 - caa:

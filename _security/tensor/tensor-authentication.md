@@ -2,24 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: tensor-api-openapi.yml
-  format: yaml
-  label: Tensor API
-  slug: tensor-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-api-openapi.yml
-- filename: tensor-tx-api-openapi.yml
-  format: yaml
-  label: Tensor Transaction API
-  slug: tensor-tx-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-tx-api-openapi.yml
 - filename: tensor-websocket-api-asyncapi.yml
   format: yaml
   label: Tensor WebSocket API
   slug: tensor-websocket-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/asyncapi/tensor-websocket-api-asyncapi.yml
+- filename: tensor-bids-api-openapi.yml
+  format: yaml
+  label: Tensor Bids API
+  slug: tensor-bids-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-bids-api-openapi.yml
+- filename: tensor-collections-api-openapi.yml
+  format: yaml
+  label: Tensor Collections API
+  slug: tensor-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-collections-api-openapi.yml
+- filename: tensor-escrow-api-openapi.yml
+  format: yaml
+  label: Tensor Escrow API
+  slug: tensor-escrow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-escrow-api-openapi.yml
+- filename: tensor-listings-api-openapi.yml
+  format: yaml
+  label: Tensor Listings API
+  slug: tensor-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-listings-api-openapi.yml
+- filename: tensor-nfts-api-openapi.yml
+  format: yaml
+  label: Tensor NFTs API
+  slug: tensor-nfts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-nfts-api-openapi.yml
+- filename: tensor-pools-api-openapi.yml
+  format: yaml
+  label: Tensor Pools API
+  slug: tensor-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-pools-api-openapi.yml
+- filename: tensor-user-api-openapi.yml
+  format: yaml
+  label: Tensor User API
+  slug: tensor-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-user-api-openapi.yml
+- filename: tensor-utility-api-openapi.yml
+  format: yaml
+  label: Tensor Utility API
+  slug: tensor-utility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-utility-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

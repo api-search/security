@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: centers-for-medicare-and-medicaid-services-cms-blue-button-2-openapi.yml
+- filename: centers-for-medicare-and-medicaid-services-capability-api-openapi.yml
   format: yaml
-  label: CMS Blue Button 2.0 API
-  slug: cms-blue-button-2
+  label: Centers for Medicare and Medicaid Services Capability API
+  slug: centers-for-medicare-and-medicaid-services-capability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centers-for-medicare-and-medicaid-services/refs/heads/main/openapi/centers-for-medicare-and-medicaid-services-cms-blue-button-2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/centers-for-medicare-and-medicaid-services/refs/heads/main/openapi/centers-for-medicare-and-medicaid-services-capability-api-openapi.yml
+- filename: centers-for-medicare-and-medicaid-services-coverage-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Coverage API
+  slug: centers-for-medicare-and-medicaid-services-coverage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centers-for-medicare-and-medicaid-services/refs/heads/main/openapi/centers-for-medicare-and-medicaid-services-coverage-api-openapi.yml
+- filename: centers-for-medicare-and-medicaid-services-explanationofbenefit-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services ExplanationOfBenefit API
+  slug: centers-for-medicare-and-medicaid-services-explanationofbenefit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centers-for-medicare-and-medicaid-services/refs/heads/main/openapi/centers-for-medicare-and-medicaid-services-explanationofbenefit-api-openapi.yml
+- filename: centers-for-medicare-and-medicaid-services-patient-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Patient API
+  slug: centers-for-medicare-and-medicaid-services-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centers-for-medicare-and-medicaid-services/refs/heads/main/openapi/centers-for-medicare-and-medicaid-services-patient-api-openapi.yml
 description: ''
 domains:
 - caa: []

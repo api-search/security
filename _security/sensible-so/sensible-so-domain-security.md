@@ -1,29 +1,47 @@
 ---
 api_specs:
-- filename: sensible-extractions-api-openapi.yml
+- filename: sensible-so-configuration-api-openapi.yml
   format: yaml
-  label: Sensible Extractions API
-  slug: sensible-extractions-api
+  label: sensible-so Configuration API
+  slug: sensible-so-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensible-so/refs/heads/main/openapi/sensible-extractions-api-openapi.yml
-- filename: sensible-classification-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sensible-so/refs/heads/main/openapi/sensible-so-configuration-api-openapi.yml
+- filename: sensible-so-document-api-openapi.yml
   format: yaml
-  label: Sensible Classification API
-  slug: sensible-classification-api
+  label: sensible-so Document API
+  slug: sensible-so-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensible-so/refs/heads/main/openapi/sensible-classification-api-openapi.yml
-- filename: sensible-document-types-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sensible-so/refs/heads/main/openapi/sensible-so-document-api-openapi.yml
+- filename: sensible-so-document-type-api-openapi.yml
   format: yaml
-  label: Sensible Document Types and Configurations API
-  slug: sensible-document-types-api
+  label: sensible-so Document type API
+  slug: sensible-so-document-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensible-so/refs/heads/main/openapi/sensible-document-types-api-openapi.yml
-- filename: sensible-reference-documents-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sensible-so/refs/heads/main/openapi/sensible-so-document-type-api-openapi.yml
+- filename: sensible-so-get-excel-from-documents-api-openapi.yml
   format: yaml
-  label: Sensible Reference Documents API
-  slug: sensible-reference-documents-api
+  label: sensible-so Get Excel from documents API
+  slug: sensible-so-get-excel-from-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensible-so/refs/heads/main/openapi/sensible-reference-documents-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sensible-so/refs/heads/main/openapi/sensible-so-get-excel-from-documents-api-openapi.yml
+- filename: sensible-so-portfolio-api-openapi.yml
+  format: yaml
+  label: sensible-so Portfolio API
+  slug: sensible-so-portfolio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sensible-so/refs/heads/main/openapi/sensible-so-portfolio-api-openapi.yml
+- filename: sensible-so-reference-document-api-openapi.yml
+  format: yaml
+  label: sensible-so Reference document API
+  slug: sensible-so-reference-document-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sensible-so/refs/heads/main/openapi/sensible-so-reference-document-api-openapi.yml
+- filename: sensible-so-retrieve-extractions-api-openapi.yml
+  format: yaml
+  label: sensible-so Retrieve extractions API
+  slug: sensible-so-retrieve-extractions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sensible-so/refs/heads/main/openapi/sensible-so-retrieve-extractions-api-openapi.yml
 description: ''
 domains:
 - caa: []

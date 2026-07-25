@@ -1,30 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: hyperping-openapi.yml
+- filename: hyperping-healthchecks-api-openapi.yml
   format: yaml
-  label: Hyperping Monitors API
-  slug: monitors
+  label: Hyperping Healthchecks API
+  slug: hyperping-healthchecks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/openapi/hyperping-openapi.yml
-- filename: hyperping-openapi.yml
-  format: yaml
-  label: Hyperping Status Pages API
-  slug: status-pages
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/openapi/hyperping-openapi.yml
-- filename: hyperping-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/openapi/hyperping-healthchecks-api-openapi.yml
+- filename: hyperping-incidents-api-openapi.yml
   format: yaml
   label: Hyperping Incidents API
-  slug: incidents
+  slug: hyperping-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/openapi/hyperping-openapi.yml
-- filename: hyperping-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/openapi/hyperping-incidents-api-openapi.yml
+- filename: hyperping-maintenance-api-openapi.yml
   format: yaml
-  label: Hyperping Webhooks
-  slug: webhooks
+  label: Hyperping Maintenance API
+  slug: hyperping-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/openapi/hyperping-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/openapi/hyperping-maintenance-api-openapi.yml
+- filename: hyperping-monitors-api-openapi.yml
+  format: yaml
+  label: Hyperping Monitors API
+  slug: hyperping-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/openapi/hyperping-monitors-api-openapi.yml
+- filename: hyperping-outages-api-openapi.yml
+  format: yaml
+  label: Hyperping Outages API
+  slug: hyperping-outages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/openapi/hyperping-outages-api-openapi.yml
+- filename: hyperping-reports-api-openapi.yml
+  format: yaml
+  label: Hyperping Reports API
+  slug: hyperping-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/openapi/hyperping-reports-api-openapi.yml
+- filename: hyperping-status-pages-api-openapi.yml
+  format: yaml
+  label: Hyperping Status Pages API
+  slug: hyperping-status-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/openapi/hyperping-status-pages-api-openapi.yml
 auth_types:
 - http
 description: ''

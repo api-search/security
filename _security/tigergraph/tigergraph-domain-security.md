@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: tigergraph-openapi.yml
+- filename: tigergraph-authentication-api-openapi.yml
   format: yaml
-  label: TigerGraph REST++ Data API (Vertices & Edges)
-  slug: tigergraph-restpp-data-api
+  label: TigerGraph Authentication API
+  slug: tigergraph-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/openapi/tigergraph-openapi.yml
-- filename: tigergraph-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/openapi/tigergraph-authentication-api-openapi.yml
+- filename: tigergraph-data-api-openapi.yml
   format: yaml
-  label: TigerGraph Query API (Run GSQL Queries)
+  label: TigerGraph Data API
+  slug: tigergraph-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/openapi/tigergraph-data-api-openapi.yml
+- filename: tigergraph-query-api-openapi.yml
+  format: yaml
+  label: TigerGraph Query API
   slug: tigergraph-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/openapi/tigergraph-openapi.yml
-- filename: tigergraph-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/openapi/tigergraph-query-api-openapi.yml
+- filename: tigergraph-schema-api-openapi.yml
   format: yaml
   label: TigerGraph Schema API
   slug: tigergraph-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/openapi/tigergraph-openapi.yml
-- filename: tigergraph-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/openapi/tigergraph-schema-api-openapi.yml
+- filename: tigergraph-system-api-openapi.yml
   format: yaml
-  label: TigerGraph Auth & Tokens API
-  slug: tigergraph-auth-tokens-api
+  label: TigerGraph System API
+  slug: tigergraph-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/openapi/tigergraph-openapi.yml
-- filename: tigergraph-openapi.yml
-  format: yaml
-  label: TigerGraph Savanna (Cloud) API
-  slug: tigergraph-savanna-cloud-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/openapi/tigergraph-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/openapi/tigergraph-system-api-openapi.yml
 description: ''
 domains:
 - caa: []

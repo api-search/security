@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: hooklogic-criteo-retailmedia-openapi-original.json
-  format: json
-  label: Criteo Retail Media API
-  slug: criteo-retail-media-api
+- filename: hooklogic-criteo-accounts-api-openapi.yml
+  format: yaml
+  label: HookLogic (Criteo) Accounts API
+  slug: hooklogic-criteo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-retailmedia-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-accounts-api-openapi.yml
+- filename: hooklogic-criteo-analytics-api-openapi.yml
+  format: yaml
+  label: HookLogic (Criteo) Analytics API
+  slug: hooklogic-criteo-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-analytics-api-openapi.yml
+- filename: hooklogic-criteo-audience-api-openapi.yml
+  format: yaml
+  label: HookLogic (Criteo) Audience API
+  slug: hooklogic-criteo-audience-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-audience-api-openapi.yml
+- filename: hooklogic-criteo-balance-api-openapi.yml
+  format: yaml
+  label: HookLogic (Criteo) Balance API
+  slug: hooklogic-criteo-balance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-balance-api-openapi.yml
+- filename: hooklogic-criteo-billing-api-openapi.yml
+  format: yaml
+  label: HookLogic (Criteo) Billing API
+  slug: hooklogic-criteo-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-billing-api-openapi.yml
+- filename: hooklogic-criteo-campaign-api-openapi.yml
+  format: yaml
+  label: HookLogic (Criteo) Campaign API
+  slug: hooklogic-criteo-campaign-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-campaign-api-openapi.yml
+- filename: hooklogic-criteo-catalog-api-openapi.yml
+  format: yaml
+  label: HookLogic (Criteo) Catalog API
+  slug: hooklogic-criteo-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-catalog-api-openapi.yml
+- filename: hooklogic-criteo-gateway-api-openapi.yml
+  format: yaml
+  label: HookLogic (Criteo) Gateway API
+  slug: hooklogic-criteo-gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-gateway-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

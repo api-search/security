@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: seltz-openapi-original.json
-  format: json
-  label: Seltz Web Knowledge API
-  slug: seltz-web-knowledge-api
+- filename: seltz-answer-api-openapi.yml
+  format: yaml
+  label: Seltz answer API
+  slug: seltz-answer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seltz/refs/heads/main/openapi/seltz-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/seltz/refs/heads/main/openapi/seltz-answer-api-openapi.yml
+- filename: seltz-search-api-openapi.yml
+  format: yaml
+  label: Seltz search API
+  slug: seltz-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seltz/refs/heads/main/openapi/seltz-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

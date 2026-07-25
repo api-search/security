@@ -1,36 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: alex-bank-cds-banking-products-openapi.yml
+- filename: alex-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Alex Bank CDR Product Reference Data API
-  slug: alex-bank-cdr-product-reference-data-api
+  label: Alex Bank Banking Account Balances API
+  slug: alex-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-cds-banking-products-openapi.yml
-- filename: alex-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-banking-account-balances-api-openapi.yml
+- filename: alex-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Alex Bank CDR Accounts & Balances API
-  slug: alex-bank-cdr-accounts-balances-api
+  label: Alex Bank Banking Account Direct Debits API
+  slug: alex-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-cds-banking-products-openapi.yml
-- filename: alex-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-banking-account-direct-debits-api-openapi.yml
+- filename: alex-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Alex Bank CDR Transactions API
-  slug: alex-bank-cdr-transactions-api
+  label: Alex Bank Banking Account Scheduled Payments API
+  slug: alex-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-cds-banking-products-openapi.yml
-- filename: alex-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: alex-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Alex Bank CDR Direct Debits & Scheduled Payments API
-  slug: alex-bank-cdr-direct-debits-scheduled-payments-api
+  label: Alex Bank Banking Account Transactions API
+  slug: alex-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-cds-banking-products-openapi.yml
-- filename: alex-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-banking-account-transactions-api-openapi.yml
+- filename: alex-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: Alex Bank CDR Payees API
-  slug: alex-bank-cdr-payees-api
+  label: Alex Bank Banking Accounts API
+  slug: alex-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-banking-accounts-api-openapi.yml
+- filename: alex-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: Alex Bank Banking Payees API
+  slug: alex-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-banking-payees-api-openapi.yml
+- filename: alex-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: Alex Bank Banking Products API
+  slug: alex-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2

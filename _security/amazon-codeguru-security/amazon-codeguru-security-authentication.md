@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-codeguru-security-openapi-original.yaml
+- filename: amazon-codeguru-security-accountconfiguration-api-openapi.yml
   format: yaml
-  label: Amazon CodeGuru Security API
-  slug: amazon-codeguru-security-api
+  label: Amazon CodeGuru Security AccountConfiguration API
+  slug: amazon-codeguru-security-accountconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-openapi-original.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-accountconfiguration-api-openapi.yml
+- filename: amazon-codeguru-security-batchgetfindings-api-openapi.yml
+  format: yaml
+  label: Amazon CodeGuru Security BatchGetFindings API
+  slug: amazon-codeguru-security-batchgetfindings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-batchgetfindings-api-openapi.yml
+- filename: amazon-codeguru-security-findings-api-openapi.yml
+  format: yaml
+  label: Amazon CodeGuru Security Findings API
+  slug: amazon-codeguru-security-findings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-findings-api-openapi.yml
+- filename: amazon-codeguru-security-metrics-api-openapi.yml
+  format: yaml
+  label: Amazon CodeGuru Security Metrics API
+  slug: amazon-codeguru-security-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-metrics-api-openapi.yml
+- filename: amazon-codeguru-security-scans-api-openapi.yml
+  format: yaml
+  label: Amazon CodeGuru Security Scans API
+  slug: amazon-codeguru-security-scans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-scans-api-openapi.yml
+- filename: amazon-codeguru-security-tags-api-openapi.yml
+  format: yaml
+  label: Amazon CodeGuru Security Tags API
+  slug: amazon-codeguru-security-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-tags-api-openapi.yml
+- filename: amazon-codeguru-security-updateaccountconfiguration-api-openapi.yml
+  format: yaml
+  label: Amazon CodeGuru Security UpdateAccountConfiguration API
+  slug: amazon-codeguru-security-updateaccountconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-updateaccountconfiguration-api-openapi.yml
+- filename: amazon-codeguru-security-uploadurl-api-openapi.yml
+  format: yaml
+  label: Amazon CodeGuru Security UploadUrl API
+  slug: amazon-codeguru-security-uploadurl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-uploadurl-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

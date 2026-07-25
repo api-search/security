@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: jotform-openapi.yml
+- filename: jotform-folder-api-openapi.yml
   format: yaml
-  label: Jotform REST API (Standard / US)
-  slug: rest-us
+  label: Jotform Folder API
+  slug: jotform-folder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-folder-api-openapi.yml
+- filename: jotform-form-api-openapi.yml
+  format: yaml
+  label: Jotform Form API
+  slug: jotform-form-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-form-api-openapi.yml
+- filename: jotform-label-api-openapi.yml
+  format: yaml
+  label: Jotform Label API
+  slug: jotform-label-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-label-api-openapi.yml
+- filename: jotform-report-api-openapi.yml
+  format: yaml
+  label: Jotform Report API
+  slug: jotform-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-report-api-openapi.yml
+- filename: jotform-submission-api-openapi.yml
+  format: yaml
+  label: Jotform Submission API
+  slug: jotform-submission-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-submission-api-openapi.yml
+- filename: jotform-system-api-openapi.yml
+  format: yaml
+  label: Jotform System API
+  slug: jotform-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-system-api-openapi.yml
+- filename: jotform-user-api-openapi.yml
+  format: yaml
+  label: Jotform User API
+  slug: jotform-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-user-api-openapi.yml
+- filename: jotform-webhook-api-openapi.yml
+  format: yaml
+  label: Jotform Webhook API
+  slug: jotform-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-webhook-api-openapi.yml
 description: ''
 domains:
 - caa: []

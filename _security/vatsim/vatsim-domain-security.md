@@ -1,35 +1,101 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: VATSIM Core API
-  slug: vatsim-core-api
+- filename: vatsim-events-api-openapi.yml
+  format: yaml
+  label: VATSIM Events API
+  slug: vatsim-events-api
   spec_type: OpenAPI
-  url: https://api.vatsim.net/v2/openapi.json
-- filename: openapi.json
-  format: json
-  label: VATSIM Data API
-  slug: vatsim-data-api
-  spec_type: OpenAPI
-  url: https://data.vatsim.net/openapi.json
-- filename: metar.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-events-api-openapi.yml
+- filename: vatsim-metar-api-openapi.yml
   format: yaml
   label: VATSIM METAR API
   slug: vatsim-metar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/metar.yaml
-- filename: connect.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-metar-api-openapi.yml
+- filename: vatsim-airport-info-api-openapi.yml
   format: yaml
-  label: VATSIM Connect API
-  slug: vatsim-connect-api
+  label: VATSIM Airport info API
+  slug: vatsim-airport-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/connect.yaml
-- filename: slurper.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-airport-info-api-openapi.yml
+- filename: vatsim-atc-api-openapi.yml
   format: yaml
-  label: VATSIM Slurper API
-  slug: vatsim-slurper-api
+  label: VATSIM atc API
+  slug: vatsim-atc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/slurper.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-atc-api-openapi.yml
+- filename: vatsim-audio-api-openapi.yml
+  format: yaml
+  label: VATSIM Audio API
+  slug: vatsim-audio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-audio-api-openapi.yml
+- filename: vatsim-community-api-openapi.yml
+  format: yaml
+  label: VATSIM community API
+  slug: vatsim-community-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-community-api-openapi.yml
+- filename: vatsim-data-feed-api-openapi.yml
+  format: yaml
+  label: VATSIM Data feed API
+  slug: vatsim-data-feed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-data-feed-api-openapi.yml
+- filename: vatsim-event-info-api-openapi.yml
+  format: yaml
+  label: VATSIM Event info API
+  slug: vatsim-event-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-event-info-api-openapi.yml
+- filename: vatsim-events-api-openapi.yml
+  format: yaml
+  label: VATSIM Events API
+  slug: vatsim-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-events-api-openapi.yml
+- filename: vatsim-members-api-openapi.yml
+  format: yaml
+  label: VATSIM members API
+  slug: vatsim-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-members-api-openapi.yml
+- filename: vatsim-metar-api-openapi.yml
+  format: yaml
+  label: VATSIM METAR API
+  slug: vatsim-metar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-metar-api-openapi.yml
+- filename: vatsim-oauth2-api-openapi.yml
+  format: yaml
+  label: VATSIM OAuth2 API
+  slug: vatsim-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-oauth2-api-openapi.yml
+- filename: vatsim-orgs-api-openapi.yml
+  format: yaml
+  label: VATSIM orgs API
+  slug: vatsim-orgs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-orgs-api-openapi.yml
+- filename: vatsim-servers-api-openapi.yml
+  format: yaml
+  label: VATSIM Servers API
+  slug: vatsim-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-servers-api-openapi.yml
+- filename: vatsim-user-api-openapi.yml
+  format: yaml
+  label: VATSIM User API
+  slug: vatsim-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-user-api-openapi.yml
+- filename: vatsim-users-api-openapi.yml
+  format: yaml
+  label: VATSIM Users API
+  slug: vatsim-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: openlaws-openapi.yml
+- filename: openlaws-courts-api-openapi.yml
   format: yaml
-  label: OpenLaws Legal Data API
-  slug: openlaws
+  label: OpenLaws Courts API
+  slug: openlaws-courts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/openapi/openlaws-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/openapi/openlaws-courts-api-openapi.yml
+- filename: openlaws-jurisdictions-api-openapi.yml
+  format: yaml
+  label: OpenLaws Jurisdictions API
+  slug: openlaws-jurisdictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/openapi/openlaws-jurisdictions-api-openapi.yml
+- filename: openlaws-law-divisions-api-openapi.yml
+  format: yaml
+  label: OpenLaws Law Divisions API
+  slug: openlaws-law-divisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/openapi/openlaws-law-divisions-api-openapi.yml
+- filename: openlaws-laws-api-openapi.yml
+  format: yaml
+  label: OpenLaws Laws API
+  slug: openlaws-laws-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/openapi/openlaws-laws-api-openapi.yml
+- filename: openlaws-opinions-api-openapi.yml
+  format: yaml
+  label: OpenLaws Opinions API
+  slug: openlaws-opinions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/openapi/openlaws-opinions-api-openapi.yml
 description: ''
 domains:
 - caa: []

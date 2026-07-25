@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: soundcloud-openapi.yml
+- filename: soundcloud-playlists-api-openapi.yml
   format: yaml
-  label: SoundCloud API
-  slug: platform
+  label: SoundCloud Playlists API
+  slug: soundcloud-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/openapi/soundcloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/openapi/soundcloud-playlists-api-openapi.yml
+- filename: soundcloud-search-api-openapi.yml
+  format: yaml
+  label: SoundCloud Search API
+  slug: soundcloud-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/openapi/soundcloud-search-api-openapi.yml
+- filename: soundcloud-social-api-openapi.yml
+  format: yaml
+  label: SoundCloud Social API
+  slug: soundcloud-social-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/openapi/soundcloud-social-api-openapi.yml
+- filename: soundcloud-tracks-api-openapi.yml
+  format: yaml
+  label: SoundCloud Tracks API
+  slug: soundcloud-tracks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/openapi/soundcloud-tracks-api-openapi.yml
+- filename: soundcloud-users-api-openapi.yml
+  format: yaml
+  label: SoundCloud Users API
+  slug: soundcloud-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/openapi/soundcloud-users-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

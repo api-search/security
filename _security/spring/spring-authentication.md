@@ -1,18 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: spring-boot-actuator-openapi.yml
+- filename: spring-beans-api-openapi.yml
   format: yaml
-  label: Spring Boot Actuator API
-  slug: spring-boot-actuator-api
+  label: Spring Framework Beans API
+  slug: spring-beans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-boot-actuator-openapi.yml
-- filename: spring-initializr-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-beans-api-openapi.yml
+- filename: spring-environment-api-openapi.yml
   format: yaml
-  label: Spring Initializr API
-  slug: spring-initializr-api
+  label: Spring Framework Environment API
+  slug: spring-environment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-initializr-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-environment-api-openapi.yml
+- filename: spring-health-api-openapi.yml
+  format: yaml
+  label: Spring Framework Health API
+  slug: spring-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-health-api-openapi.yml
+- filename: spring-info-api-openapi.yml
+  format: yaml
+  label: Spring Framework Info API
+  slug: spring-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-info-api-openapi.yml
+- filename: spring-loggers-api-openapi.yml
+  format: yaml
+  label: Spring Framework Loggers API
+  slug: spring-loggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-loggers-api-openapi.yml
+- filename: spring-mappings-api-openapi.yml
+  format: yaml
+  label: Spring Framework Mappings API
+  slug: spring-mappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-mappings-api-openapi.yml
+- filename: spring-metadata-api-openapi.yml
+  format: yaml
+  label: Spring Framework Metadata API
+  slug: spring-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-metadata-api-openapi.yml
+- filename: spring-metrics-api-openapi.yml
+  format: yaml
+  label: Spring Framework Metrics API
+  slug: spring-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-metrics-api-openapi.yml
+- filename: spring-project-generation-api-openapi.yml
+  format: yaml
+  label: Spring Framework Project Generation API
+  slug: spring-project-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-project-generation-api-openapi.yml
+- filename: spring-threads-api-openapi.yml
+  format: yaml
+  label: Spring Framework Threads API
+  slug: spring-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-threads-api-openapi.yml
 auth_types:
 - http
 description: ''

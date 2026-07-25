@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: microsoft-fabric-openapi.yml
+- filename: microsoft-fabric-capacities-api-openapi.yml
   format: yaml
-  label: Microsoft Fabric REST API
-  slug: rest-api
+  label: Microsoft Fabric Capacities API
+  slug: microsoft-fabric-capacities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-fabric/refs/heads/main/openapi/microsoft-fabric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-fabric/refs/heads/main/openapi/microsoft-fabric-capacities-api-openapi.yml
+- filename: microsoft-fabric-connections-api-openapi.yml
+  format: yaml
+  label: Microsoft Fabric Connections API
+  slug: microsoft-fabric-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-fabric/refs/heads/main/openapi/microsoft-fabric-connections-api-openapi.yml
+- filename: microsoft-fabric-items-api-openapi.yml
+  format: yaml
+  label: Microsoft Fabric Items API
+  slug: microsoft-fabric-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-fabric/refs/heads/main/openapi/microsoft-fabric-items-api-openapi.yml
+- filename: microsoft-fabric-workspaces-api-openapi.yml
+  format: yaml
+  label: Microsoft Fabric Workspaces API
+  slug: microsoft-fabric-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-fabric/refs/heads/main/openapi/microsoft-fabric-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''

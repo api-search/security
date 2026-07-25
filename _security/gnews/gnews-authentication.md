@@ -2,12 +2,18 @@
 api_key_in:
 - query
 api_specs:
-- filename: gnews-openapi.yml
+- filename: gnews-headlines-api-openapi.yml
   format: yaml
-  label: GNews
-  slug: gnews
+  label: GNews Headlines API
+  slug: gnews-headlines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnews/refs/heads/main/openapi/gnews-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gnews/refs/heads/main/openapi/gnews-headlines-api-openapi.yml
+- filename: gnews-search-api-openapi.yml
+  format: yaml
+  label: GNews Search API
+  slug: gnews-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gnews/refs/heads/main/openapi/gnews-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

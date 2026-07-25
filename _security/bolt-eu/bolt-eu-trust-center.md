@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: bolt-eu-food-openapi.yml
+- filename: bolt-eu-genericclient-api-openapi.yml
   format: yaml
-  label: Bolt Food API
-  slug: bolt-eu-food-api
+  label: Bolt GenericClient API
+  slug: bolt-eu-genericclient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-food-openapi.yml
-- filename: bolt-eu-stores-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-genericclient-api-openapi.yml
+- filename: bolt-eu-pim-api-openapi.yml
   format: yaml
-  label: Bolt Stores API
-  slug: bolt-eu-stores-api
+  label: Bolt Pim API
+  slug: bolt-eu-pim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-stores-openapi.yml
-- filename: bolt-eu-delivery-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-pim-api-openapi.yml
+- filename: bolt-eu-validateloyaltycard-api-openapi.yml
   format: yaml
-  label: Bolt Delivery API
-  slug: bolt-eu-delivery-api
+  label: Bolt ValidateLoyaltyCard API
+  slug: bolt-eu-validateloyaltycard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-delivery-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-validateloyaltycard-api-openapi.yml
 certifications:
 - ISO 27001
 - PCI DSS

@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: agile-crm-openapi.yml
+- filename: agile-crm-campaigns-api-openapi.yml
   format: yaml
-  label: Agile CRM REST API
-  slug: rest-api
+  label: Agile CRM Campaigns API
+  slug: agile-crm-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-campaigns-api-openapi.yml
+- filename: agile-crm-companies-api-openapi.yml
+  format: yaml
+  label: Agile CRM Companies API
+  slug: agile-crm-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-companies-api-openapi.yml
+- filename: agile-crm-contacts-api-openapi.yml
+  format: yaml
+  label: Agile CRM Contacts API
+  slug: agile-crm-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-contacts-api-openapi.yml
+- filename: agile-crm-deals-api-openapi.yml
+  format: yaml
+  label: Agile CRM Deals API
+  slug: agile-crm-deals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-deals-api-openapi.yml
+- filename: agile-crm-documents-api-openapi.yml
+  format: yaml
+  label: Agile CRM Documents API
+  slug: agile-crm-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-documents-api-openapi.yml
+- filename: agile-crm-events-api-openapi.yml
+  format: yaml
+  label: Agile CRM Events API
+  slug: agile-crm-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-events-api-openapi.yml
+- filename: agile-crm-helpdesk-api-openapi.yml
+  format: yaml
+  label: Agile CRM HelpDesk API
+  slug: agile-crm-helpdesk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-helpdesk-api-openapi.yml
+- filename: agile-crm-notes-api-openapi.yml
+  format: yaml
+  label: Agile CRM Notes API
+  slug: agile-crm-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-notes-api-openapi.yml
+- filename: agile-crm-tasks-api-openapi.yml
+  format: yaml
+  label: Agile CRM Tasks API
+  slug: agile-crm-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-tasks-api-openapi.yml
+- filename: agile-crm-tracks-api-openapi.yml
+  format: yaml
+  label: Agile CRM Tracks API
+  slug: agile-crm-tracks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-tracks-api-openapi.yml
 description: ''
 domains:
 - caa: []

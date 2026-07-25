@@ -1,41 +1,35 @@
 ---
 api_specs:
-- filename: ninjavan-openapi.yml
+- filename: ninjavan-oauth-api-api-openapi.yml
   format: yaml
-  label: Ninja Van OAuth API
-  slug: ninjavan-oauth-api
+  label: Ninja Van OAuth API API
+  slug: ninjavan-oauth-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/openapi/ninjavan-openapi.yml
-- filename: ninjavan-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/openapi/ninjavan-oauth-api-api-openapi.yml
+- filename: ninjavan-order-api-api-openapi.yml
   format: yaml
-  label: Ninja Van Order API
-  slug: ninjavan-order-api
+  label: Ninja Van Order API API
+  slug: ninjavan-order-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/openapi/ninjavan-openapi.yml
-- filename: ninjavan-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/openapi/ninjavan-order-api-api-openapi.yml
+- filename: ninjavan-pudo-api-api-openapi.yml
   format: yaml
-  label: Ninja Van Tracking API
-  slug: ninjavan-tracking-api
+  label: Ninja Van PUDO API API
+  slug: ninjavan-pudo-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/openapi/ninjavan-openapi.yml
-- filename: ninjavan-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/openapi/ninjavan-pudo-api-api-openapi.yml
+- filename: ninjavan-tariff-api-api-openapi.yml
   format: yaml
-  label: Ninja Van Webhooks API
-  slug: ninjavan-webhooks-api
+  label: Ninja Van Tariff API API
+  slug: ninjavan-tariff-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/openapi/ninjavan-openapi.yml
-- filename: ninjavan-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/openapi/ninjavan-tariff-api-api-openapi.yml
+- filename: ninjavan-tracking-api-api-openapi.yml
   format: yaml
-  label: Ninja Van Tariff API
-  slug: ninjavan-tariff-api
+  label: Ninja Van Tracking API API
+  slug: ninjavan-tracking-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/openapi/ninjavan-openapi.yml
-- filename: ninjavan-openapi.yml
-  format: yaml
-  label: Ninja Van PUDO API
-  slug: ninjavan-pudo-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/openapi/ninjavan-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/openapi/ninjavan-tracking-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

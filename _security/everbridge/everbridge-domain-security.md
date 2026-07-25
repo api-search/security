@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: swagger.json
-  format: json
-  label: Everbridge Suite API
-  slug: everbridge-suite-api
+- filename: everbridge-authentication-api-openapi.yml
+  format: yaml
+  label: Everbridge Authentication API
+  slug: everbridge-authentication-api
   spec_type: OpenAPI
-  url: https://api.everbridge.net/rest/swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/openapi/everbridge-authentication-api-openapi.yml
+- filename: everbridge-contacts-api-openapi.yml
+  format: yaml
+  label: Everbridge Contacts API
+  slug: everbridge-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/openapi/everbridge-contacts-api-openapi.yml
+- filename: everbridge-groups-api-openapi.yml
+  format: yaml
+  label: Everbridge Groups API
+  slug: everbridge-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/openapi/everbridge-groups-api-openapi.yml
+- filename: everbridge-notifications-api-openapi.yml
+  format: yaml
+  label: Everbridge Notifications API
+  slug: everbridge-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/openapi/everbridge-notifications-api-openapi.yml
 description: ''
 domains:
 - caa: []

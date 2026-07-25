@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: hilos-openapi-original.yml
+- filename: hilos-contact-api-openapi.yml
   format: yaml
-  label: Hilos API
-  slug: hilos-api
+  label: Hilos Contact API
+  slug: hilos-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-contact-api-openapi.yml
+- filename: hilos-conversation-api-openapi.yml
+  format: yaml
+  label: Hilos Conversation API
+  slug: hilos-conversation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-conversation-api-openapi.yml
+- filename: hilos-flow-execution-api-openapi.yml
+  format: yaml
+  label: Hilos Flow Execution API
+  slug: hilos-flow-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-flow-execution-api-openapi.yml
+- filename: hilos-flow-execution-contact-api-openapi.yml
+  format: yaml
+  label: Hilos Flow Execution Contact API
+  slug: hilos-flow-execution-contact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-flow-execution-contact-api-openapi.yml
+- filename: hilos-user-api-openapi.yml
+  format: yaml
+  label: Hilos User API
+  slug: hilos-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-user-api-openapi.yml
+- filename: hilos-whatsapp-api-openapi.yml
+  format: yaml
+  label: Hilos WhatsApp API
+  slug: hilos-whatsapp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-whatsapp-api-openapi.yml
 description: ''
 domains:
 - caa: []

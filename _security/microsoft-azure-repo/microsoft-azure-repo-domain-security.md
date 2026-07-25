@@ -1,23 +1,59 @@
 ---
 api_specs:
-- filename: git.json
-  format: json
-  label: Azure DevOps Services REST API - Git
-  slug: azure-devops-services-rest-api-git
+- filename: microsoft-azure-repo-commits-api-openapi.yml
+  format: yaml
+  label: Azure Repos Commits API
+  slug: microsoft-azure-repo-commits-api
   spec_type: OpenAPI
-  url: https://github.com/MicrosoftDocs/vsts-rest-api-specs/blob/master/specification/git/7.1/git.json
-- filename: tfvc.json
-  format: json
-  label: Azure DevOps Services REST API - TFVC
-  slug: azure-devops-services-rest-api-tfvc
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-commits-api-openapi.yml
+- filename: microsoft-azure-repo-items-api-openapi.yml
+  format: yaml
+  label: Azure Repos Items API
+  slug: microsoft-azure-repo-items-api
   spec_type: OpenAPI
-  url: https://github.com/MicrosoftDocs/vsts-rest-api-specs/blob/master/specification/tfvc/7.1/tfvc.json
-- filename: policy.json
-  format: json
-  label: Azure DevOps Services REST API - Policy
-  slug: azure-devops-services-rest-api-policy
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-items-api-openapi.yml
+- filename: microsoft-azure-repo-pull-request-reviewers-api-openapi.yml
+  format: yaml
+  label: Azure Repos Pull Request Reviewers API
+  slug: microsoft-azure-repo-pull-request-reviewers-api
   spec_type: OpenAPI
-  url: https://github.com/MicrosoftDocs/vsts-rest-api-specs/blob/master/specification/policy/7.1/policy.json
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-pull-request-reviewers-api-openapi.yml
+- filename: microsoft-azure-repo-pull-request-threads-api-openapi.yml
+  format: yaml
+  label: Azure Repos Pull Request Threads API
+  slug: microsoft-azure-repo-pull-request-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-pull-request-threads-api-openapi.yml
+- filename: microsoft-azure-repo-pull-requests-api-openapi.yml
+  format: yaml
+  label: Azure Repos Pull Requests API
+  slug: microsoft-azure-repo-pull-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-pull-requests-api-openapi.yml
+- filename: microsoft-azure-repo-pushes-api-openapi.yml
+  format: yaml
+  label: Azure Repos Pushes API
+  slug: microsoft-azure-repo-pushes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-pushes-api-openapi.yml
+- filename: microsoft-azure-repo-refs-api-openapi.yml
+  format: yaml
+  label: Azure Repos Refs API
+  slug: microsoft-azure-repo-refs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-refs-api-openapi.yml
+- filename: microsoft-azure-repo-repositories-api-openapi.yml
+  format: yaml
+  label: Azure Repos Repositories API
+  slug: microsoft-azure-repo-repositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-repositories-api-openapi.yml
+- filename: microsoft-azure-repo-stats-api-openapi.yml
+  format: yaml
+  label: Azure Repos Stats API
+  slug: microsoft-azure-repo-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-stats-api-openapi.yml
 description: ''
 domains:
 - caa:

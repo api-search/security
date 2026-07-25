@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: state-farm-insurance-cos-renters-openapi.yml
+- filename: state-farm-insurance-cos-coverage-api-openapi.yml
   format: yaml
-  label: Renters Insurance API
-  slug: renters-insurance-api
+  label: State Farm Insurance Companies Coverage API
+  slug: state-farm-insurance-cos-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/openapi/state-farm-insurance-cos-renters-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/openapi/state-farm-insurance-cos-coverage-api-openapi.yml
+- filename: state-farm-insurance-cos-policies-api-openapi.yml
+  format: yaml
+  label: State Farm Insurance Companies Policies API
+  slug: state-farm-insurance-cos-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/openapi/state-farm-insurance-cos-policies-api-openapi.yml
+- filename: state-farm-insurance-cos-quotes-api-openapi.yml
+  format: yaml
+  label: State Farm Insurance Companies Quotes API
+  slug: state-farm-insurance-cos-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/openapi/state-farm-insurance-cos-quotes-api-openapi.yml
 description: ''
 domains:
 - caa:

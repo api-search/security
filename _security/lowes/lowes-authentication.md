@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: lowes-product-api-openapi.yml
+- filename: lowes-inventory-api-openapi.yml
   format: yaml
-  label: Lowe's Product API
-  slug: product-api
+  label: Lowe's Inventory API
+  slug: lowes-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/openapi/lowes-product-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/openapi/lowes-inventory-api-openapi.yml
+- filename: lowes-products-api-openapi.yml
+  format: yaml
+  label: Lowe's Products API
+  slug: lowes-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/openapi/lowes-products-api-openapi.yml
+- filename: lowes-stores-api-openapi.yml
+  format: yaml
+  label: Lowe's Stores API
+  slug: lowes-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/openapi/lowes-stores-api-openapi.yml
 auth_types:
 - http
 description: ''

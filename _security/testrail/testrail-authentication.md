@@ -1,72 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: testrail-openapi.yml
+- filename: testrail-cases-api-openapi.yml
   format: yaml
-  label: TestRail Test Runs API
-  slug: testrail-test-runs-api
+  label: TestRail Cases API
+  slug: testrail-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-openapi.yml
-- filename: testrail-openapi.yml
-  format: yaml
-  label: TestRail Test Results API
-  slug: testrail-test-results-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-openapi.yml
-- filename: testrail-openapi.yml
-  format: yaml
-  label: TestRail Test Cases API
-  slug: testrail-test-cases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-openapi.yml
-- filename: testrail-openapi.yml
-  format: yaml
-  label: TestRail Tests API
-  slug: testrail-tests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-openapi.yml
-- filename: testrail-openapi.yml
-  format: yaml
-  label: TestRail Test Plans API
-  slug: testrail-test-plans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-openapi.yml
-- filename: testrail-openapi.yml
-  format: yaml
-  label: TestRail Projects API
-  slug: testrail-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-openapi.yml
-- filename: testrail-openapi.yml
-  format: yaml
-  label: TestRail Test Suites API
-  slug: testrail-test-suites-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-openapi.yml
-- filename: testrail-openapi.yml
-  format: yaml
-  label: TestRail Sections API
-  slug: testrail-sections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-openapi.yml
-- filename: testrail-openapi.yml
-  format: yaml
-  label: TestRail Milestones API
-  slug: testrail-milestones-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-openapi.yml
-- filename: testrail-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-cases-api-openapi.yml
+- filename: testrail-configurations-api-openapi.yml
   format: yaml
   label: TestRail Configurations API
   slug: testrail-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-openapi.yml
-- filename: testrail-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-configurations-api-openapi.yml
+- filename: testrail-milestones-api-openapi.yml
+  format: yaml
+  label: TestRail Milestones API
+  slug: testrail-milestones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-milestones-api-openapi.yml
+- filename: testrail-plans-api-openapi.yml
+  format: yaml
+  label: TestRail Plans API
+  slug: testrail-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-plans-api-openapi.yml
+- filename: testrail-projects-api-openapi.yml
+  format: yaml
+  label: TestRail Projects API
+  slug: testrail-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-projects-api-openapi.yml
+- filename: testrail-results-api-openapi.yml
+  format: yaml
+  label: TestRail Results API
+  slug: testrail-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-results-api-openapi.yml
+- filename: testrail-runs-api-openapi.yml
+  format: yaml
+  label: TestRail Runs API
+  slug: testrail-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-runs-api-openapi.yml
+- filename: testrail-sections-api-openapi.yml
+  format: yaml
+  label: TestRail Sections API
+  slug: testrail-sections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-sections-api-openapi.yml
+- filename: testrail-suites-api-openapi.yml
+  format: yaml
+  label: TestRail Suites API
+  slug: testrail-suites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-suites-api-openapi.yml
+- filename: testrail-tests-api-openapi.yml
+  format: yaml
+  label: TestRail Tests API
+  slug: testrail-tests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-tests-api-openapi.yml
+- filename: testrail-users-api-openapi.yml
   format: yaml
   label: TestRail Users API
   slug: testrail-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-users-api-openapi.yml
 auth_types:
 - http
 description: ''

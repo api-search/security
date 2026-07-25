@@ -1,17 +1,59 @@
 ---
 api_specs:
-- filename: mexc-spot-rest-api-openapi.json
-  format: json
-  label: MEXC Spot REST API
-  slug: spot-rest-api
+- filename: mexc-accounts-and-transactions-api-openapi.yml
+  format: yaml
+  label: MEXC Accounts and Transactions API
+  slug: mexc-accounts-and-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/openapi/mexc-spot-rest-api-openapi.json
-- filename: mexc-futures-rest-api-openapi.json
-  format: json
-  label: MEXC Futures REST API
-  slug: futures-rest-api
+  url: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/openapi/mexc-accounts-and-transactions-api-openapi.yml
+- filename: mexc-eft-api-openapi.yml
+  format: yaml
+  label: MEXC EFT API
+  slug: mexc-eft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/openapi/mexc-futures-rest-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/openapi/mexc-eft-api-openapi.yml
+- filename: mexc-margin-api-openapi.yml
+  format: yaml
+  label: MEXC Margin API
+  slug: mexc-margin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/openapi/mexc-margin-api-openapi.yml
+- filename: mexc-market-date-endpoints-api-openapi.yml
+  format: yaml
+  label: MEXC Market Date Endpoints API
+  slug: mexc-market-date-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/openapi/mexc-market-date-endpoints-api-openapi.yml
+- filename: mexc-parent-child-account-api-openapi.yml
+  format: yaml
+  label: MEXC Parent child account API
+  slug: mexc-parent-child-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/openapi/mexc-parent-child-account-api-openapi.yml
+- filename: mexc-quote-api-openapi.yml
+  format: yaml
+  label: MEXC Quote API
+  slug: mexc-quote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/openapi/mexc-quote-api-openapi.yml
+- filename: mexc-rebate-api-openapi.yml
+  format: yaml
+  label: MEXC Rebate API
+  slug: mexc-rebate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/openapi/mexc-rebate-api-openapi.yml
+- filename: mexc-spot-account-trade-api-openapi.yml
+  format: yaml
+  label: MEXC Spot Account/Trade API
+  slug: mexc-spot-account-trade-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/openapi/mexc-spot-account-trade-api-openapi.yml
+- filename: mexc-wallet-api-openapi.yml
+  format: yaml
+  label: MEXC Wallet API
+  slug: mexc-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/openapi/mexc-wallet-api-openapi.yml
 description: ''
 domains:
 - caa: []

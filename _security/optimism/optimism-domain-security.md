@@ -12,6 +12,12 @@ api_specs:
   slug: sepolia-rpc
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimism/refs/heads/main/asyncapi/optimism-asyncapi.yml
+- filename: optimism-json-rpc-api-openapi.yml
+  format: yaml
+  label: Optimism JSON-RPC API
+  slug: optimism-json-rpc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimism/refs/heads/main/openapi/optimism-json-rpc-api-openapi.yml
 description: ''
 domains:
 - caa:

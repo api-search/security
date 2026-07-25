@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: wix-openapi.yml
-  format: yaml
-  label: Wix REST API
-  slug: rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-openapi.yml
 - filename: wix-asyncapi.yml
   format: yaml
   label: Wix Webhooks
   slug: webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/asyncapi/wix-asyncapi.yml
+- filename: wix-cart-api-openapi.yml
+  format: yaml
+  label: Wix Cart API
+  slug: wix-cart-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-cart-api-openapi.yml
+- filename: wix-checkout-api-openapi.yml
+  format: yaml
+  label: Wix Checkout API
+  slug: wix-checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-checkout-api-openapi.yml
+- filename: wix-oauth-api-openapi.yml
+  format: yaml
+  label: Wix OAuth API
+  slug: wix-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-oauth-api-openapi.yml
+- filename: wix-orders-api-openapi.yml
+  format: yaml
+  label: Wix Orders API
+  slug: wix-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-orders-api-openapi.yml
+- filename: wix-products-api-openapi.yml
+  format: yaml
+  label: Wix Products API
+  slug: wix-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

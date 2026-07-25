@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: techrepublic-wordpress-rest-api-openapi.yml
+- filename: techrepublic-authors-api-openapi.yml
   format: yaml
-  label: TechRepublic WordPress REST API
-  slug: wordpress-rest-api
+  label: TechRepublic Authors API
+  slug: techrepublic-authors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/techrepublic/refs/heads/main/openapi/techrepublic-wordpress-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/techrepublic/refs/heads/main/openapi/techrepublic-authors-api-openapi.yml
+- filename: techrepublic-categories-api-openapi.yml
+  format: yaml
+  label: TechRepublic Categories API
+  slug: techrepublic-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/techrepublic/refs/heads/main/openapi/techrepublic-categories-api-openapi.yml
+- filename: techrepublic-media-api-openapi.yml
+  format: yaml
+  label: TechRepublic Media API
+  slug: techrepublic-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/techrepublic/refs/heads/main/openapi/techrepublic-media-api-openapi.yml
+- filename: techrepublic-pages-api-openapi.yml
+  format: yaml
+  label: TechRepublic Pages API
+  slug: techrepublic-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/techrepublic/refs/heads/main/openapi/techrepublic-pages-api-openapi.yml
+- filename: techrepublic-posts-api-openapi.yml
+  format: yaml
+  label: TechRepublic Posts API
+  slug: techrepublic-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/techrepublic/refs/heads/main/openapi/techrepublic-posts-api-openapi.yml
+- filename: techrepublic-tags-api-openapi.yml
+  format: yaml
+  label: TechRepublic Tags API
+  slug: techrepublic-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/techrepublic/refs/heads/main/openapi/techrepublic-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

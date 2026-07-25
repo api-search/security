@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: bank-first-cds-banking-products-openapi.yml
+- filename: bank-first-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Bank First CDR Product Reference Data API
-  slug: bank-first-cdr-product-reference-data-api
+  label: Bank First Banking Account Balances API
+  slug: bank-first-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-cds-banking-products-openapi.yml
-- filename: bank-first-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-banking-account-balances-api-openapi.yml
+- filename: bank-first-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Bank First CDR Accounts & Balances API
-  slug: bank-first-cdr-accounts-balances-api
+  label: Bank First Banking Account Direct Debits API
+  slug: bank-first-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-cds-banking-products-openapi.yml
-- filename: bank-first-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-banking-account-direct-debits-api-openapi.yml
+- filename: bank-first-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Bank First CDR Transactions API
-  slug: bank-first-cdr-transactions-api
+  label: Bank First Banking Account Scheduled Payments API
+  slug: bank-first-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-cds-banking-products-openapi.yml
-- filename: bank-first-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-banking-account-scheduled-payments-api-openapi.yml
+- filename: bank-first-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Bank First CDR Direct Debits & Scheduled Payments API
-  slug: bank-first-cdr-direct-debits-scheduled-payments-api
+  label: Bank First Banking Account Transactions API
+  slug: bank-first-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-cds-banking-products-openapi.yml
-- filename: bank-first-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-banking-account-transactions-api-openapi.yml
+- filename: bank-first-banking-accounts-api-openapi.yml
   format: yaml
-  label: Bank First CDR Payees API
-  slug: bank-first-cdr-payees-api
+  label: Bank First Banking Accounts API
+  slug: bank-first-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-banking-accounts-api-openapi.yml
+- filename: bank-first-banking-payees-api-openapi.yml
+  format: yaml
+  label: Bank First Banking Payees API
+  slug: bank-first-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-banking-payees-api-openapi.yml
+- filename: bank-first-banking-products-api-openapi.yml
+  format: yaml
+  label: Bank First Banking Products API
+  slug: bank-first-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: wati-openapi.yml
+- filename: wati-contacts-api-openapi.yml
   format: yaml
-  label: WATI WhatsApp Business API
-  slug: whatsapp-api
+  label: WATI Contacts API
+  slug: wati-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/openapi/wati-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/openapi/wati-contacts-api-openapi.yml
+- filename: wati-messages-api-openapi.yml
+  format: yaml
+  label: WATI Messages API
+  slug: wati-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/openapi/wati-messages-api-openapi.yml
+- filename: wati-templates-api-openapi.yml
+  format: yaml
+  label: WATI Templates API
+  slug: wati-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/openapi/wati-templates-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: swagger
+- filename: istock-countries-api-openapi.yml
   format: yaml
-  label: iStock API (Getty Platform)
-  slug: platform
+  label: iStock Countries API
+  slug: istock-countries-api
   spec_type: OpenAPI
-  url: https://api.gettyimages.com/swagger
+  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-countries-api-openapi.yml
+- filename: istock-downloads-api-openapi.yml
+  format: yaml
+  label: iStock Downloads API
+  slug: istock-downloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-downloads-api-openapi.yml
+- filename: istock-images-api-openapi.yml
+  format: yaml
+  label: iStock Images API
+  slug: istock-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-images-api-openapi.yml
+- filename: istock-oauth-api-openapi.yml
+  format: yaml
+  label: iStock OAuth API
+  slug: istock-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-oauth-api-openapi.yml
+- filename: istock-search-api-openapi.yml
+  format: yaml
+  label: iStock Search API
+  slug: istock-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-search-api-openapi.yml
+- filename: istock-videos-api-openapi.yml
+  format: yaml
+  label: iStock Videos API
+  slug: istock-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-videos-api-openapi.yml
 description: ''
 domains:
 - caa:

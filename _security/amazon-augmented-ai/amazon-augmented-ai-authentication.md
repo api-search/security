@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-augmented-ai-openapi.yml
+- filename: amazon-augmented-ai-human-loops-api-openapi.yml
   format: yaml
-  label: Amazon Augmented AI API
-  slug: amazon-augmented-ai-api
+  label: Amazon Augmented AI Human Loops API
+  slug: amazon-augmented-ai-human-loops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-augmented-ai/refs/heads/main/openapi/amazon-augmented-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-augmented-ai/refs/heads/main/openapi/amazon-augmented-ai-human-loops-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

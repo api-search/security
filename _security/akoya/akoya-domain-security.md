@@ -42,9 +42,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fintech
 - Open Banking
+- Open Finance
 - Aggregator
+- Data Access Network
 - Tokenized
-- US
+- Consumer-Permissioned
 - FDX
 - Account Aggregation
+- United States
 ---

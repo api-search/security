@@ -1,18 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cloud-foundry-cloud-controller-api-v3-openapi.yml
-  format: yaml
-  label: Cloud Foundry Cloud Controller API v3
-  slug: cloud-controller-api-v3
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/openapi/cloud-foundry-cloud-controller-api-v3-openapi.yml
 - filename: cloud-foundry-loggregator-asyncapi.yml
   format: yaml
   label: Cloud Foundry Loggregator
   slug: loggregator
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/asyncapi/cloud-foundry-loggregator-asyncapi.yml
+- filename: cloud-foundry-apps-api-openapi.yml
+  format: yaml
+  label: Cloud Foundry Apps API
+  slug: cloud-foundry-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/openapi/cloud-foundry-apps-api-openapi.yml
+- filename: cloud-foundry-builds-api-openapi.yml
+  format: yaml
+  label: Cloud Foundry Builds API
+  slug: cloud-foundry-builds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/openapi/cloud-foundry-builds-api-openapi.yml
+- filename: cloud-foundry-cloud-foundry-cloud-controller-api-v3-api-openapi.yml
+  format: yaml
+  label: Cloud Foundry Cloud Foundry Cloud Controller API V3 API
+  slug: cloud-foundry-cloud-foundry-cloud-controller-api-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/openapi/cloud-foundry-cloud-foundry-cloud-controller-api-v3-api-openapi.yml
+- filename: cloud-foundry-deployments-api-openapi.yml
+  format: yaml
+  label: Cloud Foundry Deployments API
+  slug: cloud-foundry-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/openapi/cloud-foundry-deployments-api-openapi.yml
+- filename: cloud-foundry-jobs-api-openapi.yml
+  format: yaml
+  label: Cloud Foundry Jobs API
+  slug: cloud-foundry-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/openapi/cloud-foundry-jobs-api-openapi.yml
+- filename: cloud-foundry-organizations-api-openapi.yml
+  format: yaml
+  label: Cloud Foundry Organizations API
+  slug: cloud-foundry-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/openapi/cloud-foundry-organizations-api-openapi.yml
+- filename: cloud-foundry-service-instances-api-openapi.yml
+  format: yaml
+  label: Cloud Foundry Service Instances API
+  slug: cloud-foundry-service-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/openapi/cloud-foundry-service-instances-api-openapi.yml
+- filename: cloud-foundry-spaces-api-openapi.yml
+  format: yaml
+  label: Cloud Foundry Spaces API
+  slug: cloud-foundry-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/openapi/cloud-foundry-spaces-api-openapi.yml
 auth_types:
 - http
 description: ''

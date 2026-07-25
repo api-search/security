@@ -1,48 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: korapay-openapi.yml
-  format: yaml
-  label: Kora Charges API
-  slug: korapay-charges-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-openapi.yml
-- filename: korapay-openapi.yml
-  format: yaml
-  label: Kora Payouts API
-  slug: korapay-payouts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-openapi.yml
-- filename: korapay-openapi.yml
-  format: yaml
-  label: Kora Virtual Bank Accounts API
-  slug: korapay-virtual-bank-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-openapi.yml
-- filename: korapay-openapi.yml
+- filename: korapay-balances-api-openapi.yml
   format: yaml
   label: Kora Balances API
   slug: korapay-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-openapi.yml
-- filename: korapay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-balances-api-openapi.yml
+- filename: korapay-charges-api-openapi.yml
   format: yaml
-  label: Kora Refunds API
-  slug: korapay-refunds-api
+  label: Kora Charges API
+  slug: korapay-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-openapi.yml
-- filename: korapay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-charges-api-openapi.yml
+- filename: korapay-currency-conversion-api-openapi.yml
   format: yaml
   label: Kora Currency Conversion API
   slug: korapay-currency-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-openapi.yml
-- filename: korapay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-currency-conversion-api-openapi.yml
+- filename: korapay-misc-api-openapi.yml
   format: yaml
-  label: Kora Misc Utilities API
-  slug: korapay-misc-utilities-api
+  label: Kora Misc API
+  slug: korapay-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-misc-api-openapi.yml
+- filename: korapay-payouts-api-openapi.yml
+  format: yaml
+  label: Kora Payouts API
+  slug: korapay-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-payouts-api-openapi.yml
+- filename: korapay-refunds-api-openapi.yml
+  format: yaml
+  label: Kora Refunds API
+  slug: korapay-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-refunds-api-openapi.yml
+- filename: korapay-virtual-bank-accounts-api-openapi.yml
+  format: yaml
+  label: Kora Virtual Bank Accounts API
+  slug: korapay-virtual-bank-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-virtual-bank-accounts-api-openapi.yml
 auth_types:
 - http
 - hmac

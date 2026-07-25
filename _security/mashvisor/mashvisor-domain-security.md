@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: mashvisor-openapi.yml
+- filename: mashvisor-investment-analysis-api-openapi.yml
   format: yaml
-  label: Mashvisor Data API
-  slug: mashvisor-data-api
+  label: Mashvisor Investment Analysis API
+  slug: mashvisor-investment-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/openapi/mashvisor-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/openapi/mashvisor-investment-analysis-api-openapi.yml
+- filename: mashvisor-property-info-api-openapi.yml
+  format: yaml
+  label: Mashvisor Property Info API
+  slug: mashvisor-property-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/openapi/mashvisor-property-info-api-openapi.yml
+- filename: mashvisor-rental-rates-api-openapi.yml
+  format: yaml
+  label: Mashvisor Rental Rates API
+  slug: mashvisor-rental-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/openapi/mashvisor-rental-rates-api-openapi.yml
+- filename: mashvisor-search-api-openapi.yml
+  format: yaml
+  label: Mashvisor Search API
+  slug: mashvisor-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/openapi/mashvisor-search-api-openapi.yml
+- filename: mashvisor-trends-api-openapi.yml
+  format: yaml
+  label: Mashvisor Trends API
+  slug: mashvisor-trends-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/openapi/mashvisor-trends-api-openapi.yml
 description: ''
 domains:
 - caa:

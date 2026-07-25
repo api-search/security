@@ -1,23 +1,17 @@
 ---
 api_specs:
-- filename: podcastle-openapi.yml
+- filename: podcastle-text-to-speech-api-openapi.yml
   format: yaml
-  label: Podcastle Text-to-Speech API
-  slug: text-to-speech
+  label: Podcastle Text to Speech API
+  slug: podcastle-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podcastle/refs/heads/main/openapi/podcastle-openapi.yml
-- filename: podcastle-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/podcastle/refs/heads/main/openapi/podcastle-text-to-speech-api-openapi.yml
+- filename: podcastle-voices-api-openapi.yml
   format: yaml
   label: Podcastle Voices API
-  slug: voices
+  slug: podcastle-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podcastle/refs/heads/main/openapi/podcastle-openapi.yml
-- filename: podcastle-openapi.yml
-  format: yaml
-  label: Podcastle Voice Cloning API
-  slug: voice-cloning
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podcastle/refs/heads/main/openapi/podcastle-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/podcastle/refs/heads/main/openapi/podcastle-voices-api-openapi.yml
 description: ''
 domains:
 - caa: []

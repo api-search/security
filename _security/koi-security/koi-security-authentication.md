@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: koi-security-extensiontotal-openapi.yml
+- filename: koi-security-risk-api-openapi.yml
   format: yaml
-  label: ExtensionTotal API
-  slug: koi-security-extensiontotal
+  label: Koi Security Risk API
+  slug: koi-security-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koi-security/refs/heads/main/openapi/koi-security-extensiontotal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/koi-security/refs/heads/main/openapi/koi-security-risk-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

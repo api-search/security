@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: index.html
+- filename: extensis-assets-api-openapi.yml
   format: yaml
-  label: Extensis Portfolio REST API
-  slug: extensis-portfolio-rest-api
+  label: Extensis Assets API
+  slug: extensis-assets-api
   spec_type: OpenAPI
-  url: https://doc.extensis.com/api/portfolio/rest/index.html
+  url: https://raw.githubusercontent.com/api-evangelist/extensis/refs/heads/main/openapi/extensis-assets-api-openapi.yml
+- filename: extensis-catalogs-api-openapi.yml
+  format: yaml
+  label: Extensis Catalogs API
+  slug: extensis-catalogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extensis/refs/heads/main/openapi/extensis-catalogs-api-openapi.yml
+- filename: extensis-search-api-openapi.yml
+  format: yaml
+  label: Extensis Search API
+  slug: extensis-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extensis/refs/heads/main/openapi/extensis-search-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

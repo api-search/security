@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: supermove-openapi.yml
+- filename: supermove-supermove-developer-api-new-lead-endpoint-api-openapi.yml
   format: yaml
-  label: Supermove Developer API - New Lead Endpoint
-  slug: supermove-developer-api-new-lead-endpoint
+  label: Supermove Supermove Developer API New Lead Endpoint API
+  slug: supermove-supermove-developer-api-new-lead-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supermove/refs/heads/main/openapi/supermove-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/supermove/refs/heads/main/openapi/supermove-supermove-developer-api-new-lead-endpoint-api-openapi.yml
 description: ''
 domains:
 - caa: []

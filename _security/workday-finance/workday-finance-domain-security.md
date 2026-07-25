@@ -1,17 +1,59 @@
 ---
 api_specs:
-- filename: workday-finance-financial-management-openapi.yml
+- filename: workday-finance-accounts-api-openapi.yml
   format: yaml
-  label: Workday Financial Management API
-  slug: workday-financial-management-api
+  label: Workday Finance Accounts API
+  slug: workday-finance-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-financial-management-openapi.yml
-- filename: workday-finance-procurement-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-accounts-api-openapi.yml
+- filename: workday-finance-cost-centers-api-openapi.yml
   format: yaml
-  label: Workday Resource Management API
-  slug: workday-resource-management-api
+  label: Workday Finance Cost Centers API
+  slug: workday-finance-cost-centers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-procurement-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-cost-centers-api-openapi.yml
+- filename: workday-finance-financial-periods-api-openapi.yml
+  format: yaml
+  label: Workday Finance Financial Periods API
+  slug: workday-finance-financial-periods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-financial-periods-api-openapi.yml
+- filename: workday-finance-journal-entries-api-openapi.yml
+  format: yaml
+  label: Workday Finance Journal Entries API
+  slug: workday-finance-journal-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-journal-entries-api-openapi.yml
+- filename: workday-finance-purchase-orders-api-openapi.yml
+  format: yaml
+  label: Workday Finance Purchase Orders API
+  slug: workday-finance-purchase-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-purchase-orders-api-openapi.yml
+- filename: workday-finance-requisitions-api-openapi.yml
+  format: yaml
+  label: Workday Finance Requisitions API
+  slug: workday-finance-requisitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-requisitions-api-openapi.yml
+- filename: workday-finance-supplier-invoices-api-openapi.yml
+  format: yaml
+  label: Workday Finance Supplier Invoices API
+  slug: workday-finance-supplier-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-supplier-invoices-api-openapi.yml
+- filename: workday-finance-suppliers-api-openapi.yml
+  format: yaml
+  label: Workday Finance Suppliers API
+  slug: workday-finance-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-suppliers-api-openapi.yml
+- filename: workday-finance-worktags-api-openapi.yml
+  format: yaml
+  label: Workday Finance Worktags API
+  slug: workday-finance-worktags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-worktags-api-openapi.yml
 description: ''
 domains:
 - caa: []

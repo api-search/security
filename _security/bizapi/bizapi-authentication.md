@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: bizapi-business-intelligence-api-openapi.yml
+- filename: bizapi-company-search-api-openapi.yml
   format: yaml
-  label: BizAPI Business Intelligence API
-  slug: bizapi
+  label: BizAPI Company Search API
+  slug: bizapi-company-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bizapi/refs/heads/main/openapi/bizapi-business-intelligence-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bizapi/refs/heads/main/openapi/bizapi-company-search-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: conductor-oss-openapi.yml
+- filename: conductor-oss-events-api-openapi.yml
   format: yaml
-  label: Conductor OSS REST API
-  slug: conductor-oss-rest-api
+  label: Conductor OSS Events API
+  slug: conductor-oss-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conductor-oss/refs/heads/main/openapi/conductor-oss-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/conductor-oss/refs/heads/main/openapi/conductor-oss-events-api-openapi.yml
+- filename: conductor-oss-metadata-api-openapi.yml
+  format: yaml
+  label: Conductor OSS Metadata API
+  slug: conductor-oss-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conductor-oss/refs/heads/main/openapi/conductor-oss-metadata-api-openapi.yml
+- filename: conductor-oss-tasks-api-openapi.yml
+  format: yaml
+  label: Conductor OSS Tasks API
+  slug: conductor-oss-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conductor-oss/refs/heads/main/openapi/conductor-oss-tasks-api-openapi.yml
+- filename: conductor-oss-workflow-api-openapi.yml
+  format: yaml
+  label: Conductor OSS Workflow API
+  slug: conductor-oss-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conductor-oss/refs/heads/main/openapi/conductor-oss-workflow-api-openapi.yml
 description: ''
 domains:
 - caa: []

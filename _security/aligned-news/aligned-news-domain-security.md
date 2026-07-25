@@ -1,17 +1,47 @@
 ---
 api_specs:
-- filename: aligned-news-openapi.yml
+- filename: aligned-news-bundles-api-openapi.yml
   format: yaml
-  label: Aligned News
-  slug: aligned-news
+  label: Aligned News Bundles API
+  slug: aligned-news-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-openapi.yml
-- filename: aligned-news-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-bundles-api-openapi.yml
+- filename: aligned-news-news-feed-api-openapi.yml
   format: yaml
-  label: Aligned News REST API
-  slug: aligned-news-rest-api
+  label: Aligned News News Feed API
+  slug: aligned-news-news-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-news-feed-api-openapi.yml
+- filename: aligned-news-reports-api-openapi.yml
+  format: yaml
+  label: Aligned News Reports API
+  slug: aligned-news-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-reports-api-openapi.yml
+- filename: aligned-news-search-api-openapi.yml
+  format: yaml
+  label: Aligned News Search API
+  slug: aligned-news-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-search-api-openapi.yml
+- filename: aligned-news-sections-api-openapi.yml
+  format: yaml
+  label: Aligned News Sections API
+  slug: aligned-news-sections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-sections-api-openapi.yml
+- filename: aligned-news-signals-api-openapi.yml
+  format: yaml
+  label: Aligned News Signals API
+  slug: aligned-news-signals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-signals-api-openapi.yml
+- filename: aligned-news-stories-api-openapi.yml
+  format: yaml
+  label: Aligned News Stories API
+  slug: aligned-news-stories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-stories-api-openapi.yml
 description: ''
 domains:
 - caa: []

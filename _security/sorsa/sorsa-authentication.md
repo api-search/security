@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: sorsa-openapi.yml
+- filename: sorsa-community-api-openapi.yml
   format: yaml
-  label: Sorsa API v3
-  slug: sorsa-api-v3
+  label: Sorsa Community API
+  slug: sorsa-community-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/openapi/sorsa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/openapi/sorsa-community-api-openapi.yml
+- filename: sorsa-lists-api-openapi.yml
+  format: yaml
+  label: Sorsa Lists API
+  slug: sorsa-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/openapi/sorsa-lists-api-openapi.yml
+- filename: sorsa-search-api-openapi.yml
+  format: yaml
+  label: Sorsa Search API
+  slug: sorsa-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/openapi/sorsa-search-api-openapi.yml
+- filename: sorsa-sorsa-info-crypto-related-api-openapi.yml
+  format: yaml
+  label: Sorsa Sorsa Info Crypto Related API
+  slug: sorsa-sorsa-info-crypto-related-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/openapi/sorsa-sorsa-info-crypto-related-api-openapi.yml
+- filename: sorsa-technical-endpoints-api-openapi.yml
+  format: yaml
+  label: Sorsa Technical Endpoints API
+  slug: sorsa-technical-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/openapi/sorsa-technical-endpoints-api-openapi.yml
+- filename: sorsa-tweets-api-openapi.yml
+  format: yaml
+  label: Sorsa Tweets API
+  slug: sorsa-tweets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/openapi/sorsa-tweets-api-openapi.yml
+- filename: sorsa-users-data-api-openapi.yml
+  format: yaml
+  label: Sorsa Users Data API
+  slug: sorsa-users-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/openapi/sorsa-users-data-api-openapi.yml
+- filename: sorsa-verification-api-openapi.yml
+  format: yaml
+  label: Sorsa Verification API
+  slug: sorsa-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/openapi/sorsa-verification-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

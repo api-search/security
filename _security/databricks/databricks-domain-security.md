@@ -1,29 +1,23 @@
 ---
 api_specs:
-- filename: databricks-openapi.yml
-  format: yaml
-  label: Databricks
-  slug: databricks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/openapi/databricks-openapi.yml
-- filename: databricks-openapi.yml
+- filename: databricks-clusters-api-openapi.yml
   format: yaml
   label: Databricks Clusters API
-  slug: clusters-api
+  slug: databricks-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/openapi/databricks-openapi.yml
-- filename: databricks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/openapi/databricks-clusters-api-openapi.yml
+- filename: databricks-jobs-api-openapi.yml
   format: yaml
   label: Databricks Jobs API
-  slug: jobs-api
+  slug: databricks-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/openapi/databricks-openapi.yml
-- filename: databricks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/openapi/databricks-jobs-api-openapi.yml
+- filename: databricks-workspace-api-openapi.yml
   format: yaml
   label: Databricks Workspace API
-  slug: workspace-api
+  slug: databricks-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/openapi/databricks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/openapi/databricks-workspace-api-openapi.yml
 description: ''
 domains:
 - caa:

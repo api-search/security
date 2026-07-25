@@ -2,12 +2,48 @@
 api_key_in:
 - cookie
 api_specs:
-- filename: worders-api-openapi-original.yml
+- filename: worders-customers-api-openapi.yml
   format: yaml
-  label: Worders API V1
-  slug: worders-api-v1
+  label: Worders Customers API
+  slug: worders-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-customers-api-openapi.yml
+- filename: worders-freelancers-api-openapi.yml
+  format: yaml
+  label: Worders Freelancers API
+  slug: worders-freelancers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-freelancers-api-openapi.yml
+- filename: worders-invoices-api-openapi.yml
+  format: yaml
+  label: Worders Invoices API
+  slug: worders-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-invoices-api-openapi.yml
+- filename: worders-orders-api-openapi.yml
+  format: yaml
+  label: Worders Orders API
+  slug: worders-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-orders-api-openapi.yml
+- filename: worders-purchaseorders-api-openapi.yml
+  format: yaml
+  label: Worders PurchaseOrders API
+  slug: worders-purchaseorders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-purchaseorders-api-openapi.yml
+- filename: worders-quotes-api-openapi.yml
+  format: yaml
+  label: Worders Quotes API
+  slug: worders-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-quotes-api-openapi.yml
+- filename: worders-templates-api-openapi.yml
+  format: yaml
+  label: Worders Templates API
+  slug: worders-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-templates-api-openapi.yml
 auth_types:
 - apiKey
 - http

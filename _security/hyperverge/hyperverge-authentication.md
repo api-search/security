@@ -1,36 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: hyperverge-openapi.yml
-  format: yaml
-  label: HyperVerge KYC OCR API
-  slug: hyperverge-kyc-ocr-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-openapi.yml
-- filename: hyperverge-openapi.yml
+- filename: hyperverge-database-verification-api-openapi.yml
   format: yaml
   label: HyperVerge Database Verification API
   slug: hyperverge-database-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-openapi.yml
-- filename: hyperverge-openapi.yml
-  format: yaml
-  label: HyperVerge Input Validation API
-  slug: hyperverge-input-validation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-openapi.yml
-- filename: hyperverge-openapi.yml
-  format: yaml
-  label: HyperVerge Matching API
-  slug: hyperverge-matching-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-openapi.yml
-- filename: hyperverge-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-database-verification-api-openapi.yml
+- filename: hyperverge-face-match-api-openapi.yml
   format: yaml
   label: HyperVerge Face Match API
   slug: hyperverge-face-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-face-match-api-openapi.yml
+- filename: hyperverge-input-validation-api-openapi.yml
+  format: yaml
+  label: HyperVerge Input Validation API
+  slug: hyperverge-input-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-input-validation-api-openapi.yml
+- filename: hyperverge-kyc-ocr-api-openapi.yml
+  format: yaml
+  label: HyperVerge KYC OCR API
+  slug: hyperverge-kyc-ocr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-kyc-ocr-api-openapi.yml
+- filename: hyperverge-matching-api-openapi.yml
+  format: yaml
+  label: HyperVerge Matching API
+  slug: hyperverge-matching-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-matching-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

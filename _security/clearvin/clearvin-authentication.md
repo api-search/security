@@ -1,30 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: clearvin-openapi.yml
+- filename: clearvin-authentication-api-openapi.yml
   format: yaml
-  label: VIN Decode API
-  slug: vin-decode-api
+  label: ClearVIN Authentication API
+  slug: clearvin-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearvin/refs/heads/main/openapi/clearvin-openapi.yml
-- filename: clearvin-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clearvin/refs/heads/main/openapi/clearvin-authentication-api-openapi.yml
+- filename: clearvin-report-api-openapi.yml
   format: yaml
-  label: Vehicle History Report API
-  slug: vehicle-history-report-api
+  label: ClearVIN Report API
+  slug: clearvin-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearvin/refs/heads/main/openapi/clearvin-openapi.yml
-- filename: clearvin-openapi.yml
-  format: yaml
-  label: Report Preview API
-  slug: report-preview-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearvin/refs/heads/main/openapi/clearvin-openapi.yml
-- filename: clearvin-openapi.yml
-  format: yaml
-  label: Account Authentication API
-  slug: account-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearvin/refs/heads/main/openapi/clearvin-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clearvin/refs/heads/main/openapi/clearvin-report-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -3,12 +3,60 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: enphase-enlighten-v4-monitoring-openapi.yml
+- filename: enphase-energy-device-level-production-monitoring-api-openapi.yml
   format: yaml
-  label: Enphase Enlighten Systems API v4 (Monitoring)
-  slug: enphase-enlighten-systems-api-v4
+  label: Enphase Energy Device Level Production Monitoring API
+  slug: enphase-energy-device-level-production-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase-energy/refs/heads/main/openapi/enphase-enlighten-v4-monitoring-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/enphase-energy/refs/heads/main/openapi/enphase-energy-device-level-production-monitoring-api-openapi.yml
+- filename: enphase-energy-ev-charger-control-api-openapi.yml
+  format: yaml
+  label: Enphase Energy EV Charger Control API
+  slug: enphase-energy-ev-charger-control-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enphase-energy/refs/heads/main/openapi/enphase-energy-ev-charger-control-api-openapi.yml
+- filename: enphase-energy-ev-charger-monitoring-api-openapi.yml
+  format: yaml
+  label: Enphase Energy EV Charger Monitoring API
+  slug: enphase-energy-ev-charger-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enphase-energy/refs/heads/main/openapi/enphase-energy-ev-charger-monitoring-api-openapi.yml
+- filename: enphase-energy-site-level-consumption-monitoring-api-openapi.yml
+  format: yaml
+  label: Enphase Energy Site Level Consumption Monitoring API
+  slug: enphase-energy-site-level-consumption-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enphase-energy/refs/heads/main/openapi/enphase-energy-site-level-consumption-monitoring-api-openapi.yml
+- filename: enphase-energy-site-level-production-monitoring-api-openapi.yml
+  format: yaml
+  label: Enphase Energy Site Level Production Monitoring API
+  slug: enphase-energy-site-level-production-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enphase-energy/refs/heads/main/openapi/enphase-energy-site-level-production-monitoring-api-openapi.yml
+- filename: enphase-energy-streaming-apis-api-openapi.yml
+  format: yaml
+  label: Enphase Energy Streaming APIs API
+  slug: enphase-energy-streaming-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enphase-energy/refs/heads/main/openapi/enphase-energy-streaming-apis-api-openapi.yml
+- filename: enphase-energy-system-configurations-api-openapi.yml
+  format: yaml
+  label: Enphase Energy System Configurations API
+  slug: enphase-energy-system-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enphase-energy/refs/heads/main/openapi/enphase-energy-system-configurations-api-openapi.yml
+- filename: enphase-energy-system-details-api-openapi.yml
+  format: yaml
+  label: Enphase Energy System Details API
+  slug: enphase-energy-system-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enphase-energy/refs/heads/main/openapi/enphase-energy-system-details-api-openapi.yml
+- filename: enphase-energy-systems-api-openapi.yml
+  format: yaml
+  label: Enphase Energy Systems API
+  slug: enphase-energy-systems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enphase-energy/refs/heads/main/openapi/enphase-energy-systems-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -1,17 +1,53 @@
 ---
 api_specs:
-- filename: api
+- filename: microsoft-azure-pipelines-artifacts-api-openapi.yml
   format: yaml
-  label: Azure Pipelines REST API
-  slug: azure-pipelines-rest-api
+  label: Azure Pipelines Artifacts API
+  slug: microsoft-azure-pipelines-artifacts-api
   spec_type: OpenAPI
-  url: https://dev.azure.com/{organization}/_apis/public/api
-- filename: azure-pipelines-build-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-artifacts-api-openapi.yml
+- filename: microsoft-azure-pipelines-build-artifacts-api-openapi.yml
   format: yaml
-  label: Azure Pipelines Build REST API
-  slug: azure-pipelines-build-rest-api
+  label: Azure Pipelines Build Artifacts API
+  slug: microsoft-azure-pipelines-build-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/azure-pipelines-build-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-build-artifacts-api-openapi.yml
+- filename: microsoft-azure-pipelines-build-definitions-api-openapi.yml
+  format: yaml
+  label: Azure Pipelines Build Definitions API
+  slug: microsoft-azure-pipelines-build-definitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-build-definitions-api-openapi.yml
+- filename: microsoft-azure-pipelines-build-tags-api-openapi.yml
+  format: yaml
+  label: Azure Pipelines Build Tags API
+  slug: microsoft-azure-pipelines-build-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-build-tags-api-openapi.yml
+- filename: microsoft-azure-pipelines-builds-api-openapi.yml
+  format: yaml
+  label: Azure Pipelines Builds API
+  slug: microsoft-azure-pipelines-builds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-builds-api-openapi.yml
+- filename: microsoft-azure-pipelines-logs-api-openapi.yml
+  format: yaml
+  label: Azure Pipelines Logs API
+  slug: microsoft-azure-pipelines-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-logs-api-openapi.yml
+- filename: microsoft-azure-pipelines-pipelines-api-openapi.yml
+  format: yaml
+  label: Azure Pipelines Pipelines API
+  slug: microsoft-azure-pipelines-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-pipelines-api-openapi.yml
+- filename: microsoft-azure-pipelines-runs-api-openapi.yml
+  format: yaml
+  label: Azure Pipelines Runs API
+  slug: microsoft-azure-pipelines-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-runs-api-openapi.yml
 description: ''
 domains:
 - caa:

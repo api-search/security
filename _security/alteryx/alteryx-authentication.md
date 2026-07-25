@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: alteryx-server-api-v3.yml
+- filename: alteryx-collections-api-openapi.yml
   format: yaml
-  label: Alteryx Server API V3
-  slug: alteryx-server-api-v3
+  label: Alteryx Collections API
+  slug: alteryx-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/openapi/alteryx-server-api-v3.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/openapi/alteryx-collections-api-openapi.yml
+- filename: alteryx-credentials-api-openapi.yml
+  format: yaml
+  label: Alteryx Credentials API
+  slug: alteryx-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/openapi/alteryx-credentials-api-openapi.yml
+- filename: alteryx-jobs-api-openapi.yml
+  format: yaml
+  label: Alteryx Jobs API
+  slug: alteryx-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/openapi/alteryx-jobs-api-openapi.yml
+- filename: alteryx-schedules-api-openapi.yml
+  format: yaml
+  label: Alteryx Schedules API
+  slug: alteryx-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/openapi/alteryx-schedules-api-openapi.yml
+- filename: alteryx-users-api-openapi.yml
+  format: yaml
+  label: Alteryx Users API
+  slug: alteryx-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/openapi/alteryx-users-api-openapi.yml
+- filename: alteryx-workflows-api-openapi.yml
+  format: yaml
+  label: Alteryx Workflows API
+  slug: alteryx-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/openapi/alteryx-workflows-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: apache-openmeetings-rest-api.json
-  format: json
-  label: Apache OpenMeetings REST API
-  slug: apache-openmeetings-rest-api
+- filename: apache-openmeetings-calendarservice-api-openapi.yml
+  format: yaml
+  label: Apache OpenMeetings CalendarService API
+  slug: apache-openmeetings-calendarservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/openapi/apache-openmeetings-rest-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/openapi/apache-openmeetings-calendarservice-api-openapi.yml
+- filename: apache-openmeetings-errorservice-api-openapi.yml
+  format: yaml
+  label: Apache OpenMeetings ErrorService API
+  slug: apache-openmeetings-errorservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/openapi/apache-openmeetings-errorservice-api-openapi.yml
+- filename: apache-openmeetings-fileservice-api-openapi.yml
+  format: yaml
+  label: Apache OpenMeetings FileService API
+  slug: apache-openmeetings-fileservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/openapi/apache-openmeetings-fileservice-api-openapi.yml
+- filename: apache-openmeetings-groupservice-api-openapi.yml
+  format: yaml
+  label: Apache OpenMeetings GroupService API
+  slug: apache-openmeetings-groupservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/openapi/apache-openmeetings-groupservice-api-openapi.yml
+- filename: apache-openmeetings-infoservice-api-openapi.yml
+  format: yaml
+  label: Apache OpenMeetings InfoService API
+  slug: apache-openmeetings-infoservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/openapi/apache-openmeetings-infoservice-api-openapi.yml
+- filename: apache-openmeetings-nettestservice-api-openapi.yml
+  format: yaml
+  label: Apache OpenMeetings NetTestService API
+  slug: apache-openmeetings-nettestservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/openapi/apache-openmeetings-nettestservice-api-openapi.yml
+- filename: apache-openmeetings-recordingservice-api-openapi.yml
+  format: yaml
+  label: Apache OpenMeetings RecordingService API
+  slug: apache-openmeetings-recordingservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/openapi/apache-openmeetings-recordingservice-api-openapi.yml
+- filename: apache-openmeetings-roomservice-api-openapi.yml
+  format: yaml
+  label: Apache OpenMeetings RoomService API
+  slug: apache-openmeetings-roomservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/openapi/apache-openmeetings-roomservice-api-openapi.yml
+- filename: apache-openmeetings-userservice-api-openapi.yml
+  format: yaml
+  label: Apache OpenMeetings UserService API
+  slug: apache-openmeetings-userservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/openapi/apache-openmeetings-userservice-api-openapi.yml
+- filename: apache-openmeetings-wbservice-api-openapi.yml
+  format: yaml
+  label: Apache OpenMeetings WbService API
+  slug: apache-openmeetings-wbservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/openapi/apache-openmeetings-wbservice-api-openapi.yml
 description: ''
 domains:
 - caa:

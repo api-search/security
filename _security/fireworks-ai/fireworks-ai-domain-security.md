@@ -1,83 +1,65 @@
 ---
 api_specs:
-- filename: fireworks-ai-merged-openapi.yml
+- filename: fireworks-ai-anthropic-messages-openapi-other-api-openapi.yml
   format: yaml
-  label: Fireworks Chat Completions API
-  slug: fireworks-chat-completions-api
+  label: Fireworks AI anthropic-messages.openapi_other API
+  slug: fireworks-ai-anthropic-messages-openapi-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-merged-openapi.yml
-- filename: fireworks-ai-merged-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-anthropic-messages-openapi-other-api-openapi.yml
+- filename: fireworks-ai-chat-api-openapi.yml
   format: yaml
-  label: Fireworks Completions API
-  slug: fireworks-completions-api
+  label: Fireworks AI Chat API
+  slug: fireworks-ai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-merged-openapi.yml
-- filename: fireworks-ai-merged-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-chat-api-openapi.yml
+- filename: fireworks-ai-completions-api-openapi.yml
   format: yaml
-  label: Fireworks Vision API
-  slug: fireworks-vision-api
+  label: Fireworks AI Completions API
+  slug: fireworks-ai-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-merged-openapi.yml
-- filename: fireworks-ai-merged-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-completions-api-openapi.yml
+- filename: fireworks-ai-gateway-api-openapi.yml
   format: yaml
-  label: Fireworks Embeddings API
-  slug: fireworks-embeddings-api
+  label: Fireworks AI Gateway API
+  slug: fireworks-ai-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-merged-openapi.yml
-- filename: fireworks-ai-merged-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-gateway-api-openapi.yml
+- filename: fireworks-ai-gateway-extra-openapi-gateway-api-openapi.yml
   format: yaml
-  label: Fireworks Rerank API
-  slug: fireworks-rerank-api
+  label: Fireworks AI gateway-extra.openapi_Gateway API
+  slug: fireworks-ai-gateway-extra-openapi-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-merged-openapi.yml
-- filename: fireworks-ai-merged-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-gateway-extra-openapi-gateway-api-openapi.yml
+- filename: fireworks-ai-gateway-openapi-gateway-api-openapi.yml
   format: yaml
-  label: Fireworks Images API
-  slug: fireworks-images-api
+  label: Fireworks AI gateway.openapi_Gateway API
+  slug: fireworks-ai-gateway-openapi-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-merged-openapi.yml
-- filename: fireworks-ai-merged-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-gateway-openapi-gateway-api-openapi.yml
+- filename: fireworks-ai-messages-api-openapi.yml
   format: yaml
-  label: Fireworks Audio API
-  slug: fireworks-audio-api
+  label: Fireworks AI Messages API
+  slug: fireworks-ai-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-merged-openapi.yml
-- filename: fireworks-ai-merged-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-messages-api-openapi.yml
+- filename: fireworks-ai-responses-api-openapi.yml
   format: yaml
-  label: Fireworks Batch Inference API
-  slug: fireworks-batch-inference-api
+  label: Fireworks AI Responses API
+  slug: fireworks-ai-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-merged-openapi.yml
-- filename: fireworks-ai-merged-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-responses-api-openapi.yml
+- filename: fireworks-ai-responses-openapi-other-api-openapi.yml
   format: yaml
-  label: Fireworks Fine-Tuning API
-  slug: fireworks-fine-tuning-api
+  label: Fireworks AI responses.openapi_other API
+  slug: fireworks-ai-responses-openapi-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-merged-openapi.yml
-- filename: fireworks-ai-merged-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-responses-openapi-other-api-openapi.yml
+- filename: fireworks-ai-text-completion-openapi-other-api-openapi.yml
   format: yaml
-  label: Fireworks Files API
-  slug: fireworks-files-api
+  label: Fireworks AI text-completion.openapi_other API
+  slug: fireworks-ai-text-completion-openapi-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-merged-openapi.yml
-- filename: fireworks-ai-merged-openapi.yml
-  format: yaml
-  label: Fireworks Models API
-  slug: fireworks-models-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-merged-openapi.yml
-- filename: fireworks-ai-merged-openapi.yml
-  format: yaml
-  label: Fireworks Deployments API
-  slug: fireworks-deployments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-merged-openapi.yml
-- filename: fireworks-ai-merged-openapi.yml
-  format: yaml
-  label: Fireworks Account API
-  slug: fireworks-account-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-merged-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-text-completion-openapi-other-api-openapi.yml
 description: ''
 domains:
 - caa: []

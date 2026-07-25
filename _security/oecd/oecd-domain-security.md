@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: oecd-openapi.yml
+- filename: oecd-data-api-openapi.yml
   format: yaml
   label: OECD Data API
-  slug: oecd
+  slug: oecd-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oecd/refs/heads/main/openapi/oecd-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oecd/refs/heads/main/openapi/oecd-data-api-openapi.yml
+- filename: oecd-structure-api-openapi.yml
+  format: yaml
+  label: OECD Structure API
+  slug: oecd-structure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oecd/refs/heads/main/openapi/oecd-structure-api-openapi.yml
 description: ''
 domains:
 - caa: []

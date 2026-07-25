@@ -2,30 +2,66 @@
 api_key_in:
 - query
 api_specs:
-- filename: ncbi-e-utilities-openapi.yml
+- filename: united-states-national-library-of-medicine-blast-api-openapi.yml
   format: yaml
-  label: NCBI E-Utilities API
-  slug: ncbi-e-utilities-api
+  label: United States National Library of Medicine BLAST API
+  slug: united-states-national-library-of-medicine-blast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/ncbi-e-utilities-openapi.yml
-- filename: openapi3.docs.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-blast-api-openapi.yml
+- filename: united-states-national-library-of-medicine-fetch-api-openapi.yml
   format: yaml
-  label: NCBI Datasets REST API
-  slug: ncbi-datasets-api
+  label: United States National Library of Medicine Fetch API
+  slug: united-states-national-library-of-medicine-fetch-api
   spec_type: OpenAPI
-  url: https://www.ncbi.nlm.nih.gov/datasets/docs/v2/openapi3/openapi3.docs.yaml
-- filename: ncbi-blast-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-fetch-api-openapi.yml
+- filename: united-states-national-library-of-medicine-gene-api-openapi.yml
   format: yaml
-  label: NCBI BLAST URL API
-  slug: ncbi-blast-api
+  label: United States National Library of Medicine Gene API
+  slug: united-states-national-library-of-medicine-gene-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/ncbi-blast-openapi.yml
-- filename: nlm-clinicaltrials-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-gene-api-openapi.yml
+- filename: united-states-national-library-of-medicine-genome-api-openapi.yml
   format: yaml
-  label: ClinicalTrials.gov API
-  slug: nlm-clinical-trials-api
+  label: United States National Library of Medicine Genome API
+  slug: united-states-national-library-of-medicine-genome-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/nlm-clinicaltrials-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-genome-api-openapi.yml
+- filename: united-states-national-library-of-medicine-info-api-openapi.yml
+  format: yaml
+  label: United States National Library of Medicine Info API
+  slug: united-states-national-library-of-medicine-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-info-api-openapi.yml
+- filename: united-states-national-library-of-medicine-link-api-openapi.yml
+  format: yaml
+  label: United States National Library of Medicine Link API
+  slug: united-states-national-library-of-medicine-link-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-link-api-openapi.yml
+- filename: united-states-national-library-of-medicine-metadata-api-openapi.yml
+  format: yaml
+  label: United States National Library of Medicine Metadata API
+  slug: united-states-national-library-of-medicine-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-metadata-api-openapi.yml
+- filename: united-states-national-library-of-medicine-search-api-openapi.yml
+  format: yaml
+  label: United States National Library of Medicine Search API
+  slug: united-states-national-library-of-medicine-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-search-api-openapi.yml
+- filename: united-states-national-library-of-medicine-studies-api-openapi.yml
+  format: yaml
+  label: United States National Library of Medicine Studies API
+  slug: united-states-national-library-of-medicine-studies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-studies-api-openapi.yml
+- filename: united-states-national-library-of-medicine-taxonomy-api-openapi.yml
+  format: yaml
+  label: United States National Library of Medicine Taxonomy API
+  slug: united-states-national-library-of-medicine-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-taxonomy-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

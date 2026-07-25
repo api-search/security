@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: cleanup-pictures-openapi.yml
+- filename: cleanup-pictures-cleanup-api-openapi.yml
   format: yaml
-  label: Cleanup.pictures Inpainting API
-  slug: cleanup
+  label: Cleanup.pictures Cleanup API
+  slug: cleanup-pictures-cleanup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cleanup-pictures/refs/heads/main/openapi/cleanup-pictures-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cleanup-pictures/refs/heads/main/openapi/cleanup-pictures-cleanup-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: coinflow-openapi-original.json
-  format: json
-  label: Coinflow API
-  slug: coinflow-api
+- filename: coinflow-authentication-api-openapi.yml
+  format: yaml
+  label: Coinflow authentication API
+  slug: coinflow-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-authentication-api-openapi.yml
+- filename: coinflow-cardtokenization-api-openapi.yml
+  format: yaml
+  label: Coinflow cardTokenization API
+  slug: coinflow-cardtokenization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-cardtokenization-api-openapi.yml
+- filename: coinflow-checkout-api-openapi.yml
+  format: yaml
+  label: Coinflow checkout API
+  slug: coinflow-checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-checkout-api-openapi.yml
+- filename: coinflow-customers-api-openapi.yml
+  format: yaml
+  label: Coinflow customers API
+  slug: coinflow-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-customers-api-openapi.yml
+- filename: coinflow-events-api-openapi.yml
+  format: yaml
+  label: Coinflow events API
+  slug: coinflow-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-events-api-openapi.yml
+- filename: coinflow-marketplace-api-openapi.yml
+  format: yaml
+  label: Coinflow marketplace API
+  slug: coinflow-marketplace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-marketplace-api-openapi.yml
+- filename: coinflow-merchant-api-openapi.yml
+  format: yaml
+  label: Coinflow merchant API
+  slug: coinflow-merchant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-merchant-api-openapi.yml
+- filename: coinflow-merchantsubscription-api-openapi.yml
+  format: yaml
+  label: Coinflow merchantSubscription API
+  slug: coinflow-merchantsubscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-merchantsubscription-api-openapi.yml
+- filename: coinflow-redeem-api-openapi.yml
+  format: yaml
+  label: Coinflow redeem API
+  slug: coinflow-redeem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-redeem-api-openapi.yml
+- filename: coinflow-refund-api-openapi.yml
+  format: yaml
+  label: Coinflow refund API
+  slug: coinflow-refund-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-refund-api-openapi.yml
+- filename: coinflow-submerchant-api-openapi.yml
+  format: yaml
+  label: Coinflow subMerchant API
+  slug: coinflow-submerchant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-submerchant-api-openapi.yml
+- filename: coinflow-subscription-api-openapi.yml
+  format: yaml
+  label: Coinflow subscription API
+  slug: coinflow-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-subscription-api-openapi.yml
+- filename: coinflow-utilities-api-openapi.yml
+  format: yaml
+  label: Coinflow utilities API
+  slug: coinflow-utilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-utilities-api-openapi.yml
+- filename: coinflow-withdraw-api-openapi.yml
+  format: yaml
+  label: Coinflow withdraw API
+  slug: coinflow-withdraw-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-withdraw-api-openapi.yml
 description: ''
 domains:
 - caa: []

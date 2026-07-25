@@ -1,60 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: developer-controlled-wallets.yaml
+- filename: circle-nfts-api-openapi.yml
   format: yaml
-  label: Developer-Controlled Wallets
-  slug: developer-controlled-wallets
+  label: Circle NFTs API
+  slug: circle-nfts-api
   spec_type: OpenAPI
-  url: https://developers.circle.com/openapi/developer-controlled-wallets.yaml
-- filename: user-controlled-wallets.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/openapi/circle-nfts-api-openapi.yml
+- filename: circle-signing-api-openapi.yml
   format: yaml
-  label: User-Controlled Wallets
-  slug: user-controlled-wallets
+  label: Circle Signing API
+  slug: circle-signing-api
   spec_type: OpenAPI
-  url: https://developers.circle.com/openapi/user-controlled-wallets.yaml
-- filename: cctp.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/openapi/circle-signing-api-openapi.yml
+- filename: circle-tokens-api-openapi.yml
   format: yaml
-  label: Cross-Chain Transfer Protocol (CCTP)
-  slug: cctp
+  label: Circle Tokens API
+  slug: circle-tokens-api
   spec_type: OpenAPI
-  url: https://developers.circle.com/openapi/cctp.yaml
-- filename: gateway.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/openapi/circle-tokens-api-openapi.yml
+- filename: circle-transactions-api-openapi.yml
   format: yaml
-  label: Circle Gateway
-  slug: gateway
+  label: Circle Transactions API
+  slug: circle-transactions-api
   spec_type: OpenAPI
-  url: https://developers.circle.com/openapi/gateway.yaml
-- filename: smart-contract-platform.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/openapi/circle-transactions-api-openapi.yml
+- filename: circle-wallet-sets-api-openapi.yml
   format: yaml
-  label: Smart Contract Platform
-  slug: smart-contract-platform
+  label: Circle Wallet Sets API
+  slug: circle-wallet-sets-api
   spec_type: OpenAPI
-  url: https://developers.circle.com/openapi/smart-contract-platform.yaml
-- filename: cpn-ofi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/openapi/circle-wallet-sets-api-openapi.yml
+- filename: circle-wallets-api-openapi.yml
   format: yaml
-  label: Circle Payments Network (CPN)
-  slug: cpn
+  label: Circle Wallets API
+  slug: circle-wallets-api
   spec_type: OpenAPI
-  url: https://developers.circle.com/openapi/cpn-ofi.yaml
-- filename: compliance.yaml
-  format: yaml
-  label: Compliance Engine
-  slug: compliance-engine
-  spec_type: OpenAPI
-  url: https://developers.circle.com/openapi/compliance.yaml
-- filename: stablefx.yaml
-  format: yaml
-  label: StableFX
-  slug: stablefx
-  spec_type: OpenAPI
-  url: https://developers.circle.com/openapi/stablefx.yaml
-- filename: xreserve.yaml
-  format: yaml
-  label: xReserve
-  slug: xreserve
-  spec_type: OpenAPI
-  url: https://developers.circle.com/openapi/xreserve.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/openapi/circle-wallets-api-openapi.yml
 auth_types:
 - http
 description: ''

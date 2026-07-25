@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: raydium-openapi.yml
+- filename: raydium-farms-api-openapi.yml
   format: yaml
-  label: Raydium REST API v3
-  slug: rest-api
+  label: Raydium Farms API
+  slug: raydium-farms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raydium/refs/heads/main/openapi/raydium-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/raydium/refs/heads/main/openapi/raydium-farms-api-openapi.yml
+- filename: raydium-main-api-openapi.yml
+  format: yaml
+  label: Raydium Main API
+  slug: raydium-main-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/raydium/refs/heads/main/openapi/raydium-main-api-openapi.yml
+- filename: raydium-mint-api-openapi.yml
+  format: yaml
+  label: Raydium Mint API
+  slug: raydium-mint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/raydium/refs/heads/main/openapi/raydium-mint-api-openapi.yml
+- filename: raydium-pools-api-openapi.yml
+  format: yaml
+  label: Raydium Pools API
+  slug: raydium-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/raydium/refs/heads/main/openapi/raydium-pools-api-openapi.yml
 description: ''
 domains:
 - caa: []

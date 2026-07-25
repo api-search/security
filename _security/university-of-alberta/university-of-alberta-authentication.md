@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: university-of-alberta-borealis-dataverse.yaml
+- filename: university-of-alberta-info-api-openapi.yml
   format: yaml
-  label: University of Alberta Research Data (Borealis Dataverse) API
-  slug: borealis-dataverse
+  label: University of Alberta Info API
+  slug: university-of-alberta-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-alberta/refs/heads/main/openapi/university-of-alberta-borealis-dataverse.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-alberta/refs/heads/main/openapi/university-of-alberta-info-api-openapi.yml
+- filename: university-of-alberta-search-api-openapi.yml
+  format: yaml
+  label: University of Alberta Search API
+  slug: university-of-alberta-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-alberta/refs/heads/main/openapi/university-of-alberta-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

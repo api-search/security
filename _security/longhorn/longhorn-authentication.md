@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: longhorn-manager-api-openapi.yml
+- filename: longhorn-backingimages-api-openapi.yml
   format: yaml
-  label: Longhorn Manager API
-  slug: longhorn-api
+  label: Longhorn BackingImages API
+  slug: longhorn-backingimages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-manager-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-backingimages-api-openapi.yml
+- filename: longhorn-backups-api-openapi.yml
+  format: yaml
+  label: Longhorn Backups API
+  slug: longhorn-backups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-backups-api-openapi.yml
+- filename: longhorn-engineimages-api-openapi.yml
+  format: yaml
+  label: Longhorn EngineImages API
+  slug: longhorn-engineimages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-engineimages-api-openapi.yml
+- filename: longhorn-nodes-api-openapi.yml
+  format: yaml
+  label: Longhorn Nodes API
+  slug: longhorn-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-nodes-api-openapi.yml
+- filename: longhorn-recurringjobs-api-openapi.yml
+  format: yaml
+  label: Longhorn RecurringJobs API
+  slug: longhorn-recurringjobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-recurringjobs-api-openapi.yml
+- filename: longhorn-settings-api-openapi.yml
+  format: yaml
+  label: Longhorn Settings API
+  slug: longhorn-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-settings-api-openapi.yml
+- filename: longhorn-snapshots-api-openapi.yml
+  format: yaml
+  label: Longhorn Snapshots API
+  slug: longhorn-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-snapshots-api-openapi.yml
+- filename: longhorn-systembackups-api-openapi.yml
+  format: yaml
+  label: Longhorn SystemBackups API
+  slug: longhorn-systembackups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-systembackups-api-openapi.yml
+- filename: longhorn-volumes-api-openapi.yml
+  format: yaml
+  label: Longhorn Volumes API
+  slug: longhorn-volumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-volumes-api-openapi.yml
 auth_types:
 - http
 description: ''

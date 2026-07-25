@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: klook-octo-openapi-original.json
-  format: json
-  label: Klook Open API (OCTO)
-  slug: klook-open-api
+- filename: klook-availability-api-openapi.yml
+  format: yaml
+  label: Klook Availability API
+  slug: klook-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/openapi/klook-octo-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/openapi/klook-availability-api-openapi.yml
+- filename: klook-bookings-api-openapi.yml
+  format: yaml
+  label: Klook Bookings API
+  slug: klook-bookings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/openapi/klook-bookings-api-openapi.yml
+- filename: klook-products-api-openapi.yml
+  format: yaml
+  label: Klook Products API
+  slug: klook-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/openapi/klook-products-api-openapi.yml
+- filename: klook-supplier-api-openapi.yml
+  format: yaml
+  label: Klook Supplier API
+  slug: klook-supplier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/openapi/klook-supplier-api-openapi.yml
 description: ''
 domains:
 - caa: []

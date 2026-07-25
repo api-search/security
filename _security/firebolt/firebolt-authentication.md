@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: firebolt-openapi.yml
+- filename: firebolt-firebolt-rest-api-api-openapi.yml
   format: yaml
-  label: Firebolt REST API
-  slug: firebolt-rest-api
+  label: Firebolt Firebolt REST API API
+  slug: firebolt-firebolt-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firebolt/refs/heads/main/openapi/firebolt-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/firebolt/refs/heads/main/openapi/firebolt-firebolt-rest-api-api-openapi.yml
+- filename: firebolt-oauth-api-openapi.yml
+  format: yaml
+  label: Firebolt Oauth API
+  slug: firebolt-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firebolt/refs/heads/main/openapi/firebolt-oauth-api-openapi.yml
+- filename: firebolt-query-api-openapi.yml
+  format: yaml
+  label: Firebolt Query API
+  slug: firebolt-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firebolt/refs/heads/main/openapi/firebolt-query-api-openapi.yml
+- filename: firebolt-web-api-openapi.yml
+  format: yaml
+  label: Firebolt Web API
+  slug: firebolt-web-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firebolt/refs/heads/main/openapi/firebolt-web-api-openapi.yml
 auth_types:
 - http
 description: ''

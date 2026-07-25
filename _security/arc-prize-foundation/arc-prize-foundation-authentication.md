@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: arc-prize-foundation-arc-agi-3-openapi.yaml
+- filename: arc-prize-foundation-commands-api-openapi.yml
   format: yaml
-  label: ARC-AGI-3 REST API
-  slug: arc-agi-3-rest-api
+  label: Arc Prize Foundation Commands API
+  slug: arc-prize-foundation-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arc-prize-foundation/refs/heads/main/openapi/arc-prize-foundation-arc-agi-3-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/arc-prize-foundation/refs/heads/main/openapi/arc-prize-foundation-commands-api-openapi.yml
+- filename: arc-prize-foundation-games-api-openapi.yml
+  format: yaml
+  label: Arc Prize Foundation Games API
+  slug: arc-prize-foundation-games-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arc-prize-foundation/refs/heads/main/openapi/arc-prize-foundation-games-api-openapi.yml
+- filename: arc-prize-foundation-scorecards-api-openapi.yml
+  format: yaml
+  label: Arc Prize Foundation Scorecards API
+  slug: arc-prize-foundation-scorecards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arc-prize-foundation/refs/heads/main/openapi/arc-prize-foundation-scorecards-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

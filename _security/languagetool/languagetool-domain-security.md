@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: languagetool-openapi.yml
+- filename: languagetool-check-api-openapi.yml
   format: yaml
-  label: LanguageTool HTTP API
-  slug: languagetool
+  label: LanguageTool Check API
+  slug: languagetool-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/languagetool/refs/heads/main/openapi/languagetool-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/languagetool/refs/heads/main/openapi/languagetool-check-api-openapi.yml
+- filename: languagetool-languages-api-openapi.yml
+  format: yaml
+  label: LanguageTool Languages API
+  slug: languagetool-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/languagetool/refs/heads/main/openapi/languagetool-languages-api-openapi.yml
+- filename: languagetool-words-api-openapi.yml
+  format: yaml
+  label: LanguageTool Words API
+  slug: languagetool-words-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/languagetool/refs/heads/main/openapi/languagetool-words-api-openapi.yml
 description: ''
 domains:
 - caa: []

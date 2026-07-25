@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: fullview-bug-report-openapi.yml
+- filename: fullview-bug-report-api-openapi.yml
   format: yaml
   label: Fullview Bug Report API
   slug: fullview-bug-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/openapi/fullview-bug-report-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/openapi/fullview-bug-report-api-openapi.yml
 description: ''
 domains:
 - caa: []

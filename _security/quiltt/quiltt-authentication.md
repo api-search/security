@@ -1,30 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: quiltt-openapi.yml
-  format: yaml
-  label: Quiltt Profiles API
-  slug: quiltt-profiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/openapi/quiltt-openapi.yml
-- filename: quiltt-openapi.yml
+- filename: quiltt-connections-api-openapi.yml
   format: yaml
   label: Quiltt Connections API
   slug: quiltt-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/openapi/quiltt-openapi.yml
-- filename: quiltt-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/openapi/quiltt-connections-api-openapi.yml
+- filename: quiltt-profiles-api-openapi.yml
+  format: yaml
+  label: Quiltt Profiles API
+  slug: quiltt-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/openapi/quiltt-profiles-api-openapi.yml
+- filename: quiltt-session-tokens-api-openapi.yml
   format: yaml
   label: Quiltt Session Tokens API
   slug: quiltt-session-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/openapi/quiltt-openapi.yml
-- filename: quiltt-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/openapi/quiltt-session-tokens-api-openapi.yml
+- filename: quiltt-webhooks-api-openapi.yml
   format: yaml
   label: Quiltt Webhooks API
   slug: quiltt-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/openapi/quiltt-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/openapi/quiltt-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

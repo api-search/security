@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: gamesight-measurement-openapi.json
-  format: json
+- filename: gamesight-measurement-api-openapi.yml
+  format: yaml
   label: Gamesight Measurement API
   slug: gamesight-measurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/openapi/gamesight-measurement-openapi.json
-- filename: gamesight-reporting-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/openapi/gamesight-measurement-api-openapi.yml
+- filename: gamesight-reporting-api-openapi.yml
+  format: yaml
   label: Gamesight Reporting API
   slug: gamesight-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/openapi/gamesight-reporting-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/openapi/gamesight-reporting-api-openapi.yml
 certifications:
 - SOC 2
 - GDPR

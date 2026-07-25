@@ -26,18 +26,6 @@ api_specs:
   slug: anthropic-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-files-api-openapi.yml
-- filename: anthropic-admin-api-openapi.yml
-  format: yaml
-  label: Anthropic Admin API
-  slug: anthropic-admin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-admin-api-openapi.yml
-- filename: anthropic-prompts-api-openapi.yml
-  format: yaml
-  label: Anthropic Prompts API
-  slug: anthropic-prompts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-prompts-api-openapi.yml
 - filename: anthropic-token-counting-api-openapi.yml
   format: yaml
   label: Anthropic Token Counting API
@@ -50,24 +38,114 @@ api_specs:
   slug: anthropic-skills-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-skills-api-openapi.yml
-- filename: anthropic-usage-cost-api-openapi.yml
-  format: yaml
-  label: Anthropic Usage and Cost API
-  slug: anthropic-usage-cost-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-usage-cost-api-openapi.yml
 - filename: anthropic-claude-code-analytics-api-openapi.yml
   format: yaml
   label: Anthropic Claude Code Analytics API
   slug: anthropic-claude-code-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-claude-code-analytics-api-openapi.yml
-- filename: anthropic-managed-agents-api-openapi.yml
+- filename: anthropic-agents-api-openapi.yml
   format: yaml
-  label: Anthropic Managed Agents API
-  slug: anthropic-managed-agents-api
+  label: Anthropic Agents API
+  slug: anthropic-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-managed-agents-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-agents-api-openapi.yml
+- filename: anthropic-api-keys-api-openapi.yml
+  format: yaml
+  label: Anthropic Api Keys API
+  slug: anthropic-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-api-keys-api-openapi.yml
+- filename: anthropic-cost-api-openapi.yml
+  format: yaml
+  label: Anthropic Cost API
+  slug: anthropic-cost-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-cost-api-openapi.yml
+- filename: anthropic-environments-api-openapi.yml
+  format: yaml
+  label: Anthropic Environments API
+  slug: anthropic-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-environments-api-openapi.yml
+- filename: anthropic-events-api-openapi.yml
+  format: yaml
+  label: Anthropic Events API
+  slug: anthropic-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-events-api-openapi.yml
+- filename: anthropic-organization-api-openapi.yml
+  format: yaml
+  label: Anthropic Organization API
+  slug: anthropic-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-organization-api-openapi.yml
+- filename: anthropic-organization-invites-api-openapi.yml
+  format: yaml
+  label: Anthropic Organization Invites API
+  slug: anthropic-organization-invites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-organization-invites-api-openapi.yml
+- filename: anthropic-organization-members-api-openapi.yml
+  format: yaml
+  label: Anthropic Organization Members API
+  slug: anthropic-organization-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-organization-members-api-openapi.yml
+- filename: anthropic-prompt-generation-api-openapi.yml
+  format: yaml
+  label: Anthropic Prompt Generation API
+  slug: anthropic-prompt-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-prompt-generation-api-openapi.yml
+- filename: anthropic-prompt-improvement-api-openapi.yml
+  format: yaml
+  label: Anthropic Prompt Improvement API
+  slug: anthropic-prompt-improvement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-prompt-improvement-api-openapi.yml
+- filename: anthropic-prompt-templatization-api-openapi.yml
+  format: yaml
+  label: Anthropic Prompt Templatization API
+  slug: anthropic-prompt-templatization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-prompt-templatization-api-openapi.yml
+- filename: anthropic-sessions-api-openapi.yml
+  format: yaml
+  label: Anthropic Sessions API
+  slug: anthropic-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-sessions-api-openapi.yml
+- filename: anthropic-skill-versions-api-openapi.yml
+  format: yaml
+  label: Anthropic Skill Versions API
+  slug: anthropic-skill-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-skill-versions-api-openapi.yml
+- filename: anthropic-tokens-api-openapi.yml
+  format: yaml
+  label: Anthropic Tokens API
+  slug: anthropic-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-tokens-api-openapi.yml
+- filename: anthropic-usage-api-openapi.yml
+  format: yaml
+  label: Anthropic Usage API
+  slug: anthropic-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-usage-api-openapi.yml
+- filename: anthropic-workspace-members-api-openapi.yml
+  format: yaml
+  label: Anthropic Workspace Members API
+  slug: anthropic-workspace-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-workspace-members-api-openapi.yml
+- filename: anthropic-workspaces-api-openapi.yml
+  format: yaml
+  label: Anthropic Workspaces API
+  slug: anthropic-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-workspaces-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

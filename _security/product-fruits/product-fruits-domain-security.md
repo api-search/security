@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: rest-api-authentication
+- filename: product-fruits-events-api-openapi.yml
   format: yaml
-  label: Product Fruits REST API
-  slug: product-fruits-rest-api
+  label: Product Fruits Events API
+  slug: product-fruits-events-api
   spec_type: OpenAPI
-  url: https://help.productfruits.com/en/article/rest-api-authentication
+  url: https://raw.githubusercontent.com/api-evangelist/product-fruits/refs/heads/main/openapi/product-fruits-events-api-openapi.yml
+- filename: product-fruits-feedback-api-openapi.yml
+  format: yaml
+  label: Product Fruits Feedback API
+  slug: product-fruits-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/product-fruits/refs/heads/main/openapi/product-fruits-feedback-api-openapi.yml
+- filename: product-fruits-knowledge-base-api-openapi.yml
+  format: yaml
+  label: Product Fruits Knowledge Base API
+  slug: product-fruits-knowledge-base-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/product-fruits/refs/heads/main/openapi/product-fruits-knowledge-base-api-openapi.yml
+- filename: product-fruits-users-api-openapi.yml
+  format: yaml
+  label: Product Fruits Users API
+  slug: product-fruits-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/product-fruits/refs/heads/main/openapi/product-fruits-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

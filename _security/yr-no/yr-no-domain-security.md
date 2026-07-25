@@ -1,41 +1,23 @@
 ---
 api_specs:
-- filename: swagger
+- filename: yr-no-alerts-api-openapi.yml
   format: yaml
-  label: Locationforecast API
-  slug: locationforecast-api
+  label: Yr alerts API
+  slug: yr-no-alerts-api
   spec_type: OpenAPI
-  url: https://api.met.no/weatherapi/locationforecast/2.0/swagger
-- filename: swagger
+  url: https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/openapi/yr-no-alerts-api-openapi.yml
+- filename: yr-no-data-api-openapi.yml
   format: yaml
-  label: MetAlerts API
-  slug: metalerts-api
+  label: Yr data API
+  slug: yr-no-data-api
   spec_type: OpenAPI
-  url: https://api.met.no/weatherapi/metalerts/2.0/swagger
-- filename: swagger
+  url: https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/openapi/yr-no-data-api-openapi.yml
+- filename: yr-no-metadata-api-openapi.yml
   format: yaml
-  label: Nowcast API
-  slug: nowcast-api
+  label: Yr metadata API
+  slug: yr-no-metadata-api
   spec_type: OpenAPI
-  url: https://api.met.no/weatherapi/nowcast/2.0/swagger
-- filename: swagger
-  format: yaml
-  label: Sunrise API
-  slug: sunrise-api
-  spec_type: OpenAPI
-  url: https://api.met.no/weatherapi/sunrise/3.0/swagger
-- filename: swagger
-  format: yaml
-  label: Oceanforecast API
-  slug: oceanforecast-api
-  spec_type: OpenAPI
-  url: https://api.met.no/weatherapi/oceanforecast/2.0/swagger
-- filename: swagger
-  format: yaml
-  label: Radar API
-  slug: radar-api
-  spec_type: OpenAPI
-  url: https://api.met.no/weatherapi/radar/2.0/swagger
+  url: https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/openapi/yr-no-metadata-api-openapi.yml
 description: ''
 domains:
 - caa: []

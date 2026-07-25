@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: amazon-iot-greengrass-openapi-original.yml
+- filename: amazon-iot-greengrass-greengrass-api-openapi.yml
   format: yaml
-  label: AWS IoT Greengrass API
-  slug: aws-iot-greengrass-api
+  label: Amazon IoT Greengrass Greengrass API
+  slug: amazon-iot-greengrass-greengrass-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/openapi/amazon-iot-greengrass-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/openapi/amazon-iot-greengrass-greengrass-api-openapi.yml
+- filename: amazon-iot-greengrass-tags-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Greengrass Tags API
+  slug: amazon-iot-greengrass-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/openapi/amazon-iot-greengrass-tags-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

@@ -1,41 +1,107 @@
 ---
 api_specs:
-- filename: grubhub-menu-openapi.yml
+- filename: grubhub-delivery-status-api-openapi.yml
   format: yaml
-  label: Grubhub Menu API
-  slug: menu-api
+  label: grubhub Delivery Status API
+  slug: grubhub-delivery-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-menu-openapi.yml
-- filename: grubhub-orders-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-delivery-status-api-openapi.yml
+- filename: grubhub-driver-communication-api-openapi.yml
   format: yaml
-  label: Grubhub Orders API
-  slug: orders-api
+  label: grubhub Driver Communication API
+  slug: grubhub-driver-communication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-orders-openapi.yml
-- filename: grubhub-merchant-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-driver-communication-api-openapi.yml
+- filename: grubhub-issue-reporting-api-openapi.yml
   format: yaml
-  label: Grubhub Merchant Data API
-  slug: merchant-data-api
+  label: grubhub Issue Reporting API
+  slug: grubhub-issue-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-merchant-data-openapi.yml
-- filename: grubhub-merchant-schedules-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-issue-reporting-api-openapi.yml
+- filename: grubhub-menu-ingestion-api-openapi.yml
   format: yaml
-  label: Grubhub Merchant Schedules API
-  slug: merchant-schedules-api
+  label: grubhub Menu Ingestion API
+  slug: grubhub-menu-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-merchant-schedules-openapi.yml
-- filename: grubhub-deliveries-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-menu-ingestion-api-openapi.yml
+- filename: grubhub-menu-retrieval-api-openapi.yml
   format: yaml
-  label: Grubhub Deliveries API
-  slug: deliveries-api
+  label: grubhub Menu Retrieval API
+  slug: grubhub-menu-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-deliveries-openapi.yml
-- filename: grubhub-onboarding-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-menu-retrieval-api-openapi.yml
+- filename: grubhub-menu-schedule-overrides-api-openapi.yml
   format: yaml
-  label: Grubhub Onboarding API
-  slug: onboarding-api
+  label: grubhub Menu Schedule Overrides API
+  slug: grubhub-menu-schedule-overrides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-onboarding-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-menu-schedule-overrides-api-openapi.yml
+- filename: grubhub-merchant-eligibility-api-openapi.yml
+  format: yaml
+  label: grubhub Merchant Eligibility API
+  slug: grubhub-merchant-eligibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-merchant-eligibility-api-openapi.yml
+- filename: grubhub-merchant-onboarding-api-openapi.yml
+  format: yaml
+  label: grubhub Merchant Onboarding API
+  slug: grubhub-merchant-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-merchant-onboarding-api-openapi.yml
+- filename: grubhub-merchant-properties-api-openapi.yml
+  format: yaml
+  label: grubhub Merchant Properties API
+  slug: grubhub-merchant-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-merchant-properties-api-openapi.yml
+- filename: grubhub-merchant-status-api-openapi.yml
+  format: yaml
+  label: grubhub Merchant Status API
+  slug: grubhub-merchant-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-merchant-status-api-openapi.yml
+- filename: grubhub-merchants-api-openapi.yml
+  format: yaml
+  label: grubhub Merchants API
+  slug: grubhub-merchants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-merchants-api-openapi.yml
+- filename: grubhub-order-change-requests-api-openapi.yml
+  format: yaml
+  label: grubhub Order Change Requests API
+  slug: grubhub-order-change-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-order-change-requests-api-openapi.yml
+- filename: grubhub-order-polling-api-openapi.yml
+  format: yaml
+  label: grubhub Order Polling API
+  slug: grubhub-order-polling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-order-polling-api-openapi.yml
+- filename: grubhub-order-status-api-openapi.yml
+  format: yaml
+  label: grubhub Order Status API
+  slug: grubhub-order-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-order-status-api-openapi.yml
+- filename: grubhub-orders-api-openapi.yml
+  format: yaml
+  label: grubhub Orders API
+  slug: grubhub-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-orders-api-openapi.yml
+- filename: grubhub-schedule-overrides-api-openapi.yml
+  format: yaml
+  label: grubhub Schedule Overrides API
+  slug: grubhub-schedule-overrides-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-schedule-overrides-api-openapi.yml
+- filename: grubhub-schedules-api-openapi.yml
+  format: yaml
+  label: grubhub Schedules API
+  slug: grubhub-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-schedules-api-openapi.yml
 description: ''
 domains:
 - caa: []

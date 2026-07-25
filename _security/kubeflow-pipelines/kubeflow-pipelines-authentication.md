@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: pipeline.swagger.json
-  format: json
-  label: Kubeflow Pipelines REST API
-  slug: rest-api
+- filename: kubeflow-pipelines-experiments-api-openapi.yml
+  format: yaml
+  label: Kubeflow Pipelines Experiments API
+  slug: kubeflow-pipelines-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/kubeflow/pipelines/master/backend/api/v2beta1/swagger/pipeline.swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/kubeflow-pipelines/refs/heads/main/openapi/kubeflow-pipelines-experiments-api-openapi.yml
+- filename: kubeflow-pipelines-health-api-openapi.yml
+  format: yaml
+  label: Kubeflow Pipelines Health API
+  slug: kubeflow-pipelines-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubeflow-pipelines/refs/heads/main/openapi/kubeflow-pipelines-health-api-openapi.yml
+- filename: kubeflow-pipelines-pipelines-api-openapi.yml
+  format: yaml
+  label: Kubeflow Pipelines Pipelines API
+  slug: kubeflow-pipelines-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubeflow-pipelines/refs/heads/main/openapi/kubeflow-pipelines-pipelines-api-openapi.yml
+- filename: kubeflow-pipelines-pipelineversions-api-openapi.yml
+  format: yaml
+  label: Kubeflow Pipelines PipelineVersions API
+  slug: kubeflow-pipelines-pipelineversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubeflow-pipelines/refs/heads/main/openapi/kubeflow-pipelines-pipelineversions-api-openapi.yml
+- filename: kubeflow-pipelines-runs-api-openapi.yml
+  format: yaml
+  label: Kubeflow Pipelines Runs API
+  slug: kubeflow-pipelines-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubeflow-pipelines/refs/heads/main/openapi/kubeflow-pipelines-runs-api-openapi.yml
 auth_types:
 - http
 description: ''

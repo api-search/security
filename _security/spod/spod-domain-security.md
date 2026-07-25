@@ -1,41 +1,47 @@
 ---
 api_specs:
-- filename: spod-openapi.yml
+- filename: spod-articles-api-openapi.yml
   format: yaml
   label: SPOD Articles API
   slug: spod-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-openapi.yml
-- filename: spod-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-articles-api-openapi.yml
+- filename: spod-common-api-openapi.yml
+  format: yaml
+  label: SPOD Common API
+  slug: spod-common-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-common-api-openapi.yml
+- filename: spod-orders-api-openapi.yml
   format: yaml
   label: SPOD Orders API
   slug: spod-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-openapi.yml
-- filename: spod-openapi.yml
-  format: yaml
-  label: SPOD Shipping API
-  slug: spod-shipping-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-openapi.yml
-- filename: spod-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-orders-api-openapi.yml
+- filename: spod-product-types-api-openapi.yml
   format: yaml
   label: SPOD Product Types API
   slug: spod-product-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-openapi.yml
-- filename: spod-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-product-types-api-openapi.yml
+- filename: spod-shipping-api-openapi.yml
+  format: yaml
+  label: SPOD Shipping API
+  slug: spod-shipping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-shipping-api-openapi.yml
+- filename: spod-stock-api-openapi.yml
   format: yaml
   label: SPOD Stock API
   slug: spod-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-openapi.yml
-- filename: spod-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-stock-api-openapi.yml
+- filename: spod-subscriptions-api-openapi.yml
   format: yaml
-  label: SPOD Subscriptions and Webhooks API
+  label: SPOD Subscriptions API
   slug: spod-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa:

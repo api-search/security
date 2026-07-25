@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: amazon-data-pipeline-openapi.yml
+- filename: amazon-data-pipeline-pipeline-objects-api-openapi.yml
   format: yaml
-  label: AWS Data Pipeline API
-  slug: aws-data-pipeline-api
+  label: Amazon Data Pipeline Pipeline Objects API
+  slug: amazon-data-pipeline-pipeline-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/openapi/amazon-data-pipeline-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/openapi/amazon-data-pipeline-pipeline-objects-api-openapi.yml
+- filename: amazon-data-pipeline-pipeline-runs-api-openapi.yml
+  format: yaml
+  label: Amazon Data Pipeline Pipeline Runs API
+  slug: amazon-data-pipeline-pipeline-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/openapi/amazon-data-pipeline-pipeline-runs-api-openapi.yml
+- filename: amazon-data-pipeline-pipelines-api-openapi.yml
+  format: yaml
+  label: Amazon Data Pipeline Pipelines API
+  slug: amazon-data-pipeline-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/openapi/amazon-data-pipeline-pipelines-api-openapi.yml
+- filename: amazon-data-pipeline-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Data Pipeline Tags API
+  slug: amazon-data-pipeline-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/openapi/amazon-data-pipeline-tags-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

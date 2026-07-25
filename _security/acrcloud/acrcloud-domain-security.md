@@ -1,35 +1,41 @@
 ---
 api_specs:
-- filename: acrcloud-openapi.yml
+- filename: acrcloud-audio-files-api-openapi.yml
   format: yaml
-  label: ACRCloud Identification API
-  slug: identification
+  label: ACRCloud Audio Files API
+  slug: acrcloud-audio-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-openapi.yml
-- filename: acrcloud-openapi.yml
-  format: yaml
-  label: ACRCloud File Scanning API
-  slug: file-scanning
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-openapi.yml
-- filename: acrcloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-audio-files-api-openapi.yml
+- filename: acrcloud-broadcast-monitoring-api-openapi.yml
   format: yaml
   label: ACRCloud Broadcast Monitoring API
-  slug: broadcast-monitoring
+  slug: acrcloud-broadcast-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-openapi.yml
-- filename: acrcloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-broadcast-monitoring-api-openapi.yml
+- filename: acrcloud-buckets-api-openapi.yml
   format: yaml
-  label: ACRCloud Buckets & Metadata API
-  slug: buckets-metadata
+  label: ACRCloud Buckets API
+  slug: acrcloud-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-openapi.yml
-- filename: acrcloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-buckets-api-openapi.yml
+- filename: acrcloud-file-scanning-api-openapi.yml
   format: yaml
-  label: ACRCloud Console API
-  slug: console
+  label: ACRCloud File Scanning API
+  slug: acrcloud-file-scanning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-file-scanning-api-openapi.yml
+- filename: acrcloud-identification-api-openapi.yml
+  format: yaml
+  label: ACRCloud Identification API
+  slug: acrcloud-identification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-identification-api-openapi.yml
+- filename: acrcloud-metadata-api-openapi.yml
+  format: yaml
+  label: ACRCloud Metadata API
+  slug: acrcloud-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-metadata-api-openapi.yml
 description: ''
 domains:
 - caa: []

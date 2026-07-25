@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: cariqa-openapi-original.yml
+- filename: cariqa-billing-details-api-openapi.yml
   format: yaml
-  label: Cariqa Connect API
-  slug: cariqa-connect-api
+  label: Cariqa Billing Details API
+  slug: cariqa-billing-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cariqa/refs/heads/main/openapi/cariqa-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cariqa/refs/heads/main/openapi/cariqa-billing-details-api-openapi.yml
+- filename: cariqa-charging-sessions-api-openapi.yml
+  format: yaml
+  label: Cariqa Charging Sessions API
+  slug: cariqa-charging-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cariqa/refs/heads/main/openapi/cariqa-charging-sessions-api-openapi.yml
+- filename: cariqa-debts-api-openapi.yml
+  format: yaml
+  label: Cariqa Debts API
+  slug: cariqa-debts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cariqa/refs/heads/main/openapi/cariqa-debts-api-openapi.yml
+- filename: cariqa-invoices-api-openapi.yml
+  format: yaml
+  label: Cariqa Invoices API
+  slug: cariqa-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cariqa/refs/heads/main/openapi/cariqa-invoices-api-openapi.yml
+- filename: cariqa-payments-api-openapi.yml
+  format: yaml
+  label: Cariqa Payments API
+  slug: cariqa-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cariqa/refs/heads/main/openapi/cariqa-payments-api-openapi.yml
+- filename: cariqa-stations-api-openapi.yml
+  format: yaml
+  label: Cariqa Stations API
+  slug: cariqa-stations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cariqa/refs/heads/main/openapi/cariqa-stations-api-openapi.yml
+- filename: cariqa-users-api-openapi.yml
+  format: yaml
+  label: Cariqa Users API
+  slug: cariqa-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cariqa/refs/heads/main/openapi/cariqa-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

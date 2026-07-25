@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: chickfila-bovine.yml
+- filename: chickfila-accounts-api-openapi.yml
   format: yaml
-  label: Chick-fil-A BOVINE
-  slug: chick-fil-a-bovine
+  label: Chick-fil-A Accounts API
+  slug: chickfila-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/openapi/chickfila-bovine.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/openapi/chickfila-accounts-api-openapi.yml
+- filename: chickfila-compliance-api-openapi.yml
+  format: yaml
+  label: Chick-fil-A Compliance API
+  slug: chickfila-compliance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/openapi/chickfila-compliance-api-openapi.yml
+- filename: chickfila-compute-api-openapi.yml
+  format: yaml
+  label: Chick-fil-A Compute API
+  slug: chickfila-compute-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/openapi/chickfila-compute-api-openapi.yml
+- filename: chickfila-databases-api-openapi.yml
+  format: yaml
+  label: Chick-fil-A Databases API
+  slug: chickfila-databases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/openapi/chickfila-databases-api-openapi.yml
+- filename: chickfila-identity-api-openapi.yml
+  format: yaml
+  label: Chick-fil-A Identity API
+  slug: chickfila-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/openapi/chickfila-identity-api-openapi.yml
+- filename: chickfila-networking-api-openapi.yml
+  format: yaml
+  label: Chick-fil-A Networking API
+  slug: chickfila-networking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/openapi/chickfila-networking-api-openapi.yml
+- filename: chickfila-storage-api-openapi.yml
+  format: yaml
+  label: Chick-fil-A Storage API
+  slug: chickfila-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/openapi/chickfila-storage-api-openapi.yml
+- filename: chickfila-summary-api-openapi.yml
+  format: yaml
+  label: Chick-fil-A Summary API
+  slug: chickfila-summary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/openapi/chickfila-summary-api-openapi.yml
+- filename: chickfila-system-api-openapi.yml
+  format: yaml
+  label: Chick-fil-A System API
+  slug: chickfila-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/openapi/chickfila-system-api-openapi.yml
 description: ''
 domains:
 - caa: []

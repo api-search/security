@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: datalastic-openapi.yml
+- filename: datalastic-historical-api-openapi.yml
   format: yaml
-  label: Datalastic Live Vessel Tracking API
-  slug: datalastic-live-vessel-tracking-api
+  label: Datalastic Historical API
+  slug: datalastic-historical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-openapi.yml
-- filename: datalastic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-historical-api-openapi.yml
+- filename: datalastic-live-tracking-api-openapi.yml
   format: yaml
-  label: Datalastic Vessel Traffic in Radius API
-  slug: datalastic-vessel-traffic-in-radius-api
+  label: Datalastic Live Tracking API
+  slug: datalastic-live-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-openapi.yml
-- filename: datalastic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-live-tracking-api-openapi.yml
+- filename: datalastic-ports-api-openapi.yml
   format: yaml
-  label: Datalastic Historical Vessel Track API
-  slug: datalastic-historical-vessel-track-api
+  label: Datalastic Ports API
+  slug: datalastic-ports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-openapi.yml
-- filename: datalastic-openapi.yml
-  format: yaml
-  label: Datalastic Vessel Info and Finder API
-  slug: datalastic-vessel-info-and-finder-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-openapi.yml
-- filename: datalastic-openapi.yml
-  format: yaml
-  label: Datalastic Port Finder API
-  slug: datalastic-port-finder-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-openapi.yml
-- filename: datalastic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-ports-api-openapi.yml
+- filename: datalastic-reports-and-usage-api-openapi.yml
   format: yaml
   label: Datalastic Reports and Usage API
   slug: datalastic-reports-and-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-reports-and-usage-api-openapi.yml
+- filename: datalastic-vessel-data-api-openapi.yml
+  format: yaml
+  label: Datalastic Vessel Data API
+  slug: datalastic-vessel-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-vessel-data-api-openapi.yml
+- filename: datalastic-zone-traffic-api-openapi.yml
+  format: yaml
+  label: Datalastic Zone Traffic API
+  slug: datalastic-zone-traffic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-zone-traffic-api-openapi.yml
 description: ''
 domains:
 - caa: []

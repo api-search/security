@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: nma_swagger.json
-  format: json
-  label: Vertica Node Management Agent API
-  slug: node-management-agent-api
+- filename: vertica-health-api-openapi.yml
+  format: yaml
+  label: Vertica Health API
+  slug: vertica-health-api
   spec_type: OpenAPI
-  url: https://<node-host>:5554/api-docs/nma_swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/vertica/refs/heads/main/openapi/vertica-health-api-openapi.yml
+- filename: vertica-lifecycle-api-openapi.yml
+  format: yaml
+  label: Vertica Lifecycle API
+  slug: vertica-lifecycle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vertica/refs/heads/main/openapi/vertica-lifecycle-api-openapi.yml
 auth_types:
 - mutualTLS
 description: ''

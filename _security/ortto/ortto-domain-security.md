@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: ortto-openapi.yml
+- filename: ortto-accounts-api-openapi.yml
   format: yaml
-  label: Ortto People / Contacts API
-  slug: people-contacts
+  label: Ortto Accounts API
+  slug: ortto-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-openapi.yml
-- filename: ortto-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-accounts-api-openapi.yml
+- filename: ortto-activities-api-openapi.yml
   format: yaml
-  label: Ortto Custom Activities API
-  slug: custom-activities
+  label: Ortto Activities API
+  slug: ortto-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-openapi.yml
-- filename: ortto-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-activities-api-openapi.yml
+- filename: ortto-campaigns-api-openapi.yml
   format: yaml
   label: Ortto Campaigns API
-  slug: campaigns
+  slug: ortto-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-openapi.yml
-- filename: ortto-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-campaigns-api-openapi.yml
+- filename: ortto-people-api-openapi.yml
+  format: yaml
+  label: Ortto People API
+  slug: ortto-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-people-api-openapi.yml
+- filename: ortto-tags-api-openapi.yml
   format: yaml
   label: Ortto Tags API
-  slug: tags
+  slug: ortto-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-openapi.yml
-- filename: ortto-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-tags-api-openapi.yml
+- filename: ortto-transactional-api-openapi.yml
   format: yaml
-  label: Ortto Transactional Email API
-  slug: transactional-email
+  label: Ortto Transactional API
+  slug: ortto-transactional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-openapi.yml
-- filename: ortto-openapi.yml
-  format: yaml
-  label: Ortto Webhooks
-  slug: webhooks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-transactional-api-openapi.yml
 description: ''
 domains:
 - caa:

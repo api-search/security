@@ -2,30 +2,72 @@
 api_key_in:
 - header
 api_specs:
-- filename: filebase-s3-api-openapi.yml
+- filename: filebase-buckets-api-openapi.yml
   format: yaml
-  label: Filebase S3-Compatible API
-  slug: filebase-s3-api
+  label: Filebase Buckets API
+  slug: filebase-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-s3-api-openapi.yml
-- filename: filebase-platform-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-buckets-api-openapi.yml
+- filename: filebase-data-management-api-openapi.yml
   format: yaml
-  label: Filebase Platform API
-  slug: filebase-platform-api
+  label: Filebase Data Management API
+  slug: filebase-data-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-platform-api-openapi.yml
-- filename: filebase-ipfs-pinning-service-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-data-management-api-openapi.yml
+- filename: filebase-ipns-api-openapi.yml
   format: yaml
-  label: Filebase IPFS Pinning Service API
-  slug: filebase-ipfs-pinning-service-api
+  label: Filebase IPNS API
+  slug: filebase-ipns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-ipfs-pinning-service-api-openapi.yml
-- filename: filebase-ipfs-rpc-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-ipns-api-openapi.yml
+- filename: filebase-keypairs-api-openapi.yml
   format: yaml
-  label: Filebase IPFS RPC API
-  slug: filebase-ipfs-rpc-api
+  label: Filebase Keypairs API
+  slug: filebase-keypairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-ipfs-rpc-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-keypairs-api-openapi.yml
+- filename: filebase-mfs-api-openapi.yml
+  format: yaml
+  label: Filebase MFS API
+  slug: filebase-mfs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-mfs-api-openapi.yml
+- filename: filebase-multipart-upload-api-openapi.yml
+  format: yaml
+  label: Filebase Multipart Upload API
+  slug: filebase-multipart-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-multipart-upload-api-openapi.yml
+- filename: filebase-node-api-openapi.yml
+  format: yaml
+  label: Filebase Node API
+  slug: filebase-node-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-node-api-openapi.yml
+- filename: filebase-objects-api-openapi.yml
+  format: yaml
+  label: Filebase Objects API
+  slug: filebase-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-objects-api-openapi.yml
+- filename: filebase-pinning-api-openapi.yml
+  format: yaml
+  label: Filebase Pinning API
+  slug: filebase-pinning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-pinning-api-openapi.yml
+- filename: filebase-pins-api-openapi.yml
+  format: yaml
+  label: Filebase Pins API
+  slug: filebase-pins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-pins-api-openapi.yml
+- filename: filebase-usage-api-openapi.yml
+  format: yaml
+  label: Filebase Usage API
+  slug: filebase-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-usage-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: urbanfox-customer-api-openapi.yml
+- filename: urbanfox-cases-api-openapi.yml
   format: yaml
-  label: UrbanFox Customer API
-  slug: urbanfox-customer-api
+  label: UrbanFox Cases API
+  slug: urbanfox-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-customer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-cases-api-openapi.yml
+- filename: urbanfox-end-user-accounts-api-openapi.yml
+  format: yaml
+  label: UrbanFox End User Accounts API
+  slug: urbanfox-end-user-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-end-user-accounts-api-openapi.yml
+- filename: urbanfox-metrics-api-openapi.yml
+  format: yaml
+  label: UrbanFox Metrics API
+  slug: urbanfox-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-metrics-api-openapi.yml
+- filename: urbanfox-oauth-api-openapi.yml
+  format: yaml
+  label: UrbanFox OAuth API
+  slug: urbanfox-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-oauth-api-openapi.yml
+- filename: urbanfox-snippet-api-openapi.yml
+  format: yaml
+  label: UrbanFox Snippet API
+  slug: urbanfox-snippet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-snippet-api-openapi.yml
+- filename: urbanfox-tenants-api-openapi.yml
+  format: yaml
+  label: UrbanFox Tenants API
+  slug: urbanfox-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-tenants-api-openapi.yml
 description: ''
 domains:
 - caa: []

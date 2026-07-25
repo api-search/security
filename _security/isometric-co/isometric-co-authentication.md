@@ -1,18 +1,216 @@
 ---
 api_key_in: []
 api_specs:
-- filename: isometric-certify-api-openapi.json
-  format: json
-  label: Isometric Certify Data Ingestion API
-  slug: isometric-certify-api
+- filename: isometric-co-beneficiaries-api-openapi.yml
+  format: yaml
+  label: Isometric Beneficiaries API
+  slug: isometric-co-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-certify-api-openapi.json
-- filename: isometric-registry-api-openapi.json
-  format: json
-  label: Isometric Registry API
-  slug: isometric-registry-api
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-beneficiaries-api-openapi.yml
+- filename: isometric-co-beneficiary-api-openapi.yml
+  format: yaml
+  label: Isometric Beneficiary API
+  slug: isometric-co-beneficiary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-registry-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-beneficiary-api-openapi.yml
+- filename: isometric-co-biochar-applications-api-openapi.yml
+  format: yaml
+  label: Isometric Biochar Applications API
+  slug: isometric-co-biochar-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-biochar-applications-api-openapi.yml
+- filename: isometric-co-component-blueprints-api-openapi.yml
+  format: yaml
+  label: Isometric Component Blueprints API
+  slug: isometric-co-component-blueprints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-component-blueprints-api-openapi.yml
+- filename: isometric-co-components-api-openapi.yml
+  format: yaml
+  label: Isometric Components API
+  slug: isometric-co-components-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-components-api-openapi.yml
+- filename: isometric-co-credit-batches-api-openapi.yml
+  format: yaml
+  label: Isometric Credit Batches API
+  slug: isometric-co-credit-batches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-credit-batches-api-openapi.yml
+- filename: isometric-co-data-upload-submissions-api-openapi.yml
+  format: yaml
+  label: Isometric Data Upload Submissions API
+  slug: isometric-co-data-upload-submissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-data-upload-submissions-api-openapi.yml
+- filename: isometric-co-datapoints-api-openapi.yml
+  format: yaml
+  label: Isometric Datapoints API
+  slug: isometric-co-datapoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-datapoints-api-openapi.yml
+- filename: isometric-co-deliveries-api-openapi.yml
+  format: yaml
+  label: Isometric Deliveries API
+  slug: isometric-co-deliveries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-deliveries-api-openapi.yml
+- filename: isometric-co-feedstock-batches-api-openapi.yml
+  format: yaml
+  label: Isometric Feedstock Batches API
+  slug: isometric-co-feedstock-batches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-feedstock-batches-api-openapi.yml
+- filename: isometric-co-feedstock-types-api-openapi.yml
+  format: yaml
+  label: Isometric Feedstock Types API
+  slug: isometric-co-feedstock-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-feedstock-types-api-openapi.yml
+- filename: isometric-co-file-uploads-api-openapi.yml
+  format: yaml
+  label: Isometric File Uploads API
+  slug: isometric-co-file-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-file-uploads-api-openapi.yml
+- filename: isometric-co-ghg-statement-components-api-openapi.yml
+  format: yaml
+  label: Isometric Ghg Statement Components API
+  slug: isometric-co-ghg-statement-components-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-ghg-statement-components-api-openapi.yml
+- filename: isometric-co-ghg-statements-api-openapi.yml
+  format: yaml
+  label: Isometric Ghg Statements API
+  slug: isometric-co-ghg-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-ghg-statements-api-openapi.yml
+- filename: isometric-co-issuances-api-openapi.yml
+  format: yaml
+  label: Isometric Issuances API
+  slug: isometric-co-issuances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-issuances-api-openapi.yml
+- filename: isometric-co-measurement-locations-api-openapi.yml
+  format: yaml
+  label: Isometric Measurement Locations API
+  slug: isometric-co-measurement-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-measurement-locations-api-openapi.yml
+- filename: isometric-co-measurement-samples-api-openapi.yml
+  format: yaml
+  label: Isometric Measurement Samples API
+  slug: isometric-co-measurement-samples-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-measurement-samples-api-openapi.yml
+- filename: isometric-co-orders-api-openapi.yml
+  format: yaml
+  label: Isometric Orders API
+  slug: isometric-co-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-orders-api-openapi.yml
+- filename: isometric-co-organisation-api-openapi.yml
+  format: yaml
+  label: Isometric Organisation API
+  slug: isometric-co-organisation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-organisation-api-openapi.yml
+- filename: isometric-co-organisations-api-openapi.yml
+  format: yaml
+  label: Isometric Organisations API
+  slug: isometric-co-organisations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-organisations-api-openapi.yml
+- filename: isometric-co-processes-api-openapi.yml
+  format: yaml
+  label: Isometric Processes API
+  slug: isometric-co-processes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-processes-api-openapi.yml
+- filename: isometric-co-production-batches-api-openapi.yml
+  format: yaml
+  label: Isometric Production Batches API
+  slug: isometric-co-production-batches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-production-batches-api-openapi.yml
+- filename: isometric-co-project-components-api-openapi.yml
+  format: yaml
+  label: Isometric Project Components API
+  slug: isometric-co-project-components-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-project-components-api-openapi.yml
+- filename: isometric-co-projects-api-openapi.yml
+  format: yaml
+  label: Isometric Projects API
+  slug: isometric-co-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-projects-api-openapi.yml
+- filename: isometric-co-refunds-api-openapi.yml
+  format: yaml
+  label: Isometric Refunds API
+  slug: isometric-co-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-refunds-api-openapi.yml
+- filename: isometric-co-removals-api-openapi.yml
+  format: yaml
+  label: Isometric Removals API
+  slug: isometric-co-removals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-removals-api-openapi.yml
+- filename: isometric-co-retirements-api-openapi.yml
+  format: yaml
+  label: Isometric Retirements API
+  slug: isometric-co-retirements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-retirements-api-openapi.yml
+- filename: isometric-co-sensors-api-openapi.yml
+  format: yaml
+  label: Isometric Sensors API
+  slug: isometric-co-sensors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-sensors-api-openapi.yml
+- filename: isometric-co-sources-api-openapi.yml
+  format: yaml
+  label: Isometric Sources API
+  slug: isometric-co-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-sources-api-openapi.yml
+- filename: isometric-co-storage-units-api-openapi.yml
+  format: yaml
+  label: Isometric Storage Units API
+  slug: isometric-co-storage-units-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-storage-units-api-openapi.yml
+- filename: isometric-co-stripe-api-openapi.yml
+  format: yaml
+  label: Isometric Stripe API
+  slug: isometric-co-stripe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-stripe-api-openapi.yml
+- filename: isometric-co-supplier-api-openapi.yml
+  format: yaml
+  label: Isometric Supplier API
+  slug: isometric-co-supplier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-supplier-api-openapi.yml
+- filename: isometric-co-suppliers-api-openapi.yml
+  format: yaml
+  label: Isometric Suppliers API
+  slug: isometric-co-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-suppliers-api-openapi.yml
+- filename: isometric-co-transferees-api-openapi.yml
+  format: yaml
+  label: Isometric Transferees API
+  slug: isometric-co-transferees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-transferees-api-openapi.yml
+- filename: isometric-co-transfers-api-openapi.yml
+  format: yaml
+  label: Isometric Transfers API
+  slug: isometric-co-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/openapi/isometric-co-transfers-api-openapi.yml
 auth_types:
 - http
 description: ''

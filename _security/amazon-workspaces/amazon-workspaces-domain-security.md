@@ -1,11 +1,395 @@
 ---
 api_specs:
-- filename: amazon-workspaces-openapi-original.yaml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-associateconnectionalias-api-openapi.yml
   format: yaml
-  label: Amazon WorkSpaces API
-  slug: amazon-workspaces-api
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-associateconnectionalias-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-openapi-original.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-associateconnectionalias-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-associateipgroups-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateIpGroups API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-associateipgroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-associateipgroups-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-authorizeiprules-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AuthorizeIpRules API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-authorizeiprules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-authorizeiprules-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-copyworkspaceimage-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.CopyWorkspaceImage API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-copyworkspaceimage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-copyworkspaceimage-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-createconnectclientaddin-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.CreateConnectClientAddIn API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-createconnectclientaddin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-createconnectclientaddin-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-createconnectionalias-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.CreateConnectionAlias API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-createconnectionalias-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-createconnectionalias-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-createipgroup-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.CreateIpGroup API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-createipgroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-createipgroup-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-createstandbyworkspaces-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.CreateStandbyWorkspaces API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-createstandbyworkspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-createstandbyworkspaces-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-createtags-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.CreateTags API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-createtags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-createtags-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-createupdatedworkspaceimage-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.CreateUpdatedWorkspaceImage API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-createupdatedworkspaceimage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-createupdatedworkspaceimage-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-createworkspacebundle-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.CreateWorkspaceBundle API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-createworkspacebundle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-createworkspacebundle-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-createworkspaceimage-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.CreateWorkspaceImage API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-createworkspaceimage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-createworkspaceimage-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-createworkspaces-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.CreateWorkspaces API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-createworkspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-createworkspaces-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-deleteclientbranding-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DeleteClientBranding API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-deleteclientbranding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-deleteclientbranding-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-deleteconnectclientaddin-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DeleteConnectClientAddIn API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-deleteconnectclientaddin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-deleteconnectclientaddin-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-deleteconnectionalias-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DeleteConnectionAlias API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-deleteconnectionalias-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-deleteconnectionalias-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-deleteipgroup-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DeleteIpGroup API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-deleteipgroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-deleteipgroup-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-deletetags-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DeleteTags API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-deletetags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-deletetags-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-deleteworkspacebundle-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DeleteWorkspaceBundle API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-deleteworkspacebundle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-deleteworkspacebundle-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-deleteworkspaceimage-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DeleteWorkspaceImage API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-deleteworkspaceimage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-deleteworkspaceimage-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-deregisterworkspacedirectory-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DeregisterWorkspaceDirectory API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-deregisterworkspacedirectory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-deregisterworkspacedirectory-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-describeaccount-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeAccount API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-describeaccount-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-describeaccount-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-describeaccountmodifications-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeAccountModifications API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-describeaccountmodifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-describeaccountmodifications-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-describeclientbranding-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeClientBranding API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-describeclientbranding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-describeclientbranding-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-describeclientproperties-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeClientProperties API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-describeclientproperties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-describeclientproperties-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-describeconnectclientaddins-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeConnectClientAddIns API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-describeconnectclientaddins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-describeconnectclientaddins-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-describeconnectionaliases-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeConnectionAliases API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-describeconnectionaliases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-describeconnectionaliases-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-describeconnectionaliaspermissions-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeConnectionAliasPermissions API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-describeconnectionaliaspermissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-describeconnectionaliaspermissions-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-describeipgroups-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeIpGroups API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-describeipgroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-describeipgroups-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-describetags-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeTags API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-describetags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-describetags-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-describeworkspacebundles-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeWorkspaceBundles API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-describeworkspacebundles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-describeworkspacebundles-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-describeworkspacedirectories-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeWorkspaceDirectories API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-describeworkspacedirectories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-describeworkspacedirectories-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-describeworkspaceimagepermissions-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeWorkspaceImagePermissions API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-describeworkspaceimagepermissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-describeworkspaceimagepermissions-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-describeworkspaceimages-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeWorkspaceImages API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-describeworkspaceimages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-describeworkspaceimages-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-describeworkspaces-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeWorkspaces API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-describeworkspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-describeworkspaces-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-describeworkspacesconnectionstatus-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeWorkspacesConnectionStatus API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-describeworkspacesconnectionstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-describeworkspacesconnectionstatus-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-describeworkspacesnapshots-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeWorkspaceSnapshots API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-describeworkspacesnapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-describeworkspacesnapshots-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-disassociateconnectionalias-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DisassociateConnectionAlias API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-disassociateconnectionalias-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-disassociateconnectionalias-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-disassociateipgroups-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DisassociateIpGroups API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-disassociateipgroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-disassociateipgroups-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-importclientbranding-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ImportClientBranding API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-importclientbranding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-importclientbranding-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-importworkspaceimage-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ImportWorkspaceImage API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-importworkspaceimage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-importworkspaceimage-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-listavailablemanagementcidrranges-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ListAvailableManagementCidrRanges API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-listavailablemanagementcidrranges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-listavailablemanagementcidrranges-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-migrateworkspace-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.MigrateWorkspace API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-migrateworkspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-migrateworkspace-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-modifyaccount-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ModifyAccount API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-modifyaccount-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-modifyaccount-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-modifycertificatebasedauthproperties-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ModifyCertificateBasedAuthProperties API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-modifycertificatebasedauthproperties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-modifycertificatebasedauthproperties-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-modifyclientproperties-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ModifyClientProperties API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-modifyclientproperties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-modifyclientproperties-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-modifysamlproperties-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ModifySamlProperties API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-modifysamlproperties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-modifysamlproperties-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-modifyselfservicepermissions-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ModifySelfservicePermissions API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-modifyselfservicepermissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-modifyselfservicepermissions-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-modifyworkspaceaccessproperties-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ModifyWorkspaceAccessProperties API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-modifyworkspaceaccessproperties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-modifyworkspaceaccessproperties-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-modifyworkspacecreationproperties-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ModifyWorkspaceCreationProperties API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-modifyworkspacecreationproperties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-modifyworkspacecreationproperties-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-modifyworkspaceproperties-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ModifyWorkspaceProperties API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-modifyworkspaceproperties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-modifyworkspaceproperties-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-modifyworkspacestate-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ModifyWorkspaceState API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-modifyworkspacestate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-modifyworkspacestate-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-rebootworkspaces-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.RebootWorkspaces API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-rebootworkspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-rebootworkspaces-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-rebuildworkspaces-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.RebuildWorkspaces API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-rebuildworkspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-rebuildworkspaces-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-registerworkspacedirectory-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.RegisterWorkspaceDirectory API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-registerworkspacedirectory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-registerworkspacedirectory-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-restoreworkspace-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.RestoreWorkspace API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-restoreworkspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-restoreworkspace-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-revokeiprules-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.RevokeIpRules API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-revokeiprules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-revokeiprules-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-startworkspaces-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.StartWorkspaces API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-startworkspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-startworkspaces-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-stopworkspaces-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.StopWorkspaces API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-stopworkspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-stopworkspaces-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-terminateworkspaces-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.TerminateWorkspaces API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-terminateworkspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-terminateworkspaces-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-updateconnectclientaddin-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.UpdateConnectClientAddIn API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-updateconnectclientaddin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-updateconnectclientaddin-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-updateconnectionaliaspermission-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.UpdateConnectionAliasPermission API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-updateconnectionaliaspermission-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-updateconnectionaliaspermission-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-updaterulesofipgroup-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.UpdateRulesOfIpGroup API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-updaterulesofipgroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-updaterulesofipgroup-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-updateworkspacebundle-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.UpdateWorkspaceBundle API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-updateworkspacebundle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-updateworkspacebundle-api-openapi.yml
+- filename: amazon-workspaces-x-amz-target-workspacesservice-updateworkspaceimagepermission-api-openapi.yml
+  format: yaml
+  label: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.UpdateWorkspaceImagePermission API'
+  slug: amazon-workspaces-x-amz-target-workspacesservice-updateworkspaceimagepermission-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-updateworkspaceimagepermission-api-openapi.yml
 description: ''
 domains:
 - caa: []

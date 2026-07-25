@@ -3,12 +3,36 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: currencylayer-openapi.yml
+- filename: currencylayer-change-api-openapi.yml
   format: yaml
-  label: Currencylayer API
-  slug: currencylayer-api
+  label: Currencylayer Change API
+  slug: currencylayer-change-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/openapi/currencylayer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/openapi/currencylayer-change-api-openapi.yml
+- filename: currencylayer-conversion-api-openapi.yml
+  format: yaml
+  label: Currencylayer Conversion API
+  slug: currencylayer-conversion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/openapi/currencylayer-conversion-api-openapi.yml
+- filename: currencylayer-rates-api-openapi.yml
+  format: yaml
+  label: Currencylayer Rates API
+  slug: currencylayer-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/openapi/currencylayer-rates-api-openapi.yml
+- filename: currencylayer-symbols-api-openapi.yml
+  format: yaml
+  label: Currencylayer Symbols API
+  slug: currencylayer-symbols-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/openapi/currencylayer-symbols-api-openapi.yml
+- filename: currencylayer-time-frame-api-openapi.yml
+  format: yaml
+  label: Currencylayer Time Frame API
+  slug: currencylayer-time-frame-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/openapi/currencylayer-time-frame-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

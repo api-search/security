@@ -3,12 +3,24 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: openapi.yml
+- filename: freecurrencyapi-currencies-api-openapi.yml
   format: yaml
-  label: Free Currency API
-  slug: freecurrencyapi
+  label: Free Currency API Currencies API
+  slug: freecurrencyapi-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freecurrencyapi/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freecurrencyapi/refs/heads/main/openapi/freecurrencyapi-currencies-api-openapi.yml
+- filename: freecurrencyapi-exchange-rates-api-openapi.yml
+  format: yaml
+  label: Free Currency API Exchange Rates API
+  slug: freecurrencyapi-exchange-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freecurrencyapi/refs/heads/main/openapi/freecurrencyapi-exchange-rates-api-openapi.yml
+- filename: freecurrencyapi-status-api-openapi.yml
+  format: yaml
+  label: Free Currency API Status API
+  slug: freecurrencyapi-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freecurrencyapi/refs/heads/main/openapi/freecurrencyapi-status-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

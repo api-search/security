@@ -1,24 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: wakeo-openapi.yml
+- filename: wakeo-shipments-api-openapi.yml
   format: yaml
   label: Wakeo Shipments API
   slug: wakeo-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakeo/refs/heads/main/openapi/wakeo-openapi.yml
-- filename: wakeo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wakeo/refs/heads/main/openapi/wakeo-shipments-api-openapi.yml
+- filename: wakeo-tracking-api-openapi.yml
   format: yaml
   label: Wakeo Tracking API
   slug: wakeo-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakeo/refs/heads/main/openapi/wakeo-openapi.yml
-- filename: wakeo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wakeo/refs/heads/main/openapi/wakeo-tracking-api-openapi.yml
+- filename: wakeo-webhooks-api-openapi.yml
   format: yaml
   label: Wakeo Webhooks API
   slug: wakeo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakeo/refs/heads/main/openapi/wakeo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wakeo/refs/heads/main/openapi/wakeo-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

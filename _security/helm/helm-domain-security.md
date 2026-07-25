@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: helm-chart-repository-openapi.yml
+- filename: helm-chartmuseum-api-openapi.yml
   format: yaml
-  label: Helm Chart Repository API
-  slug: chart-repository-api
+  label: Helm ChartMuseum API
+  slug: helm-chartmuseum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/openapi/helm-chart-repository-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/openapi/helm-chartmuseum-api-openapi.yml
+- filename: helm-charts-api-openapi.yml
+  format: yaml
+  label: Helm Charts API
+  slug: helm-charts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/openapi/helm-charts-api-openapi.yml
+- filename: helm-repository-api-openapi.yml
+  format: yaml
+  label: Helm Repository API
+  slug: helm-repository-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/openapi/helm-repository-api-openapi.yml
 description: ''
 domains:
 - caa: []

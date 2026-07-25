@@ -1,12 +1,90 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tesser-openapi-original.json
-  format: json
-  label: Tesser API
-  slug: tesser-api
+- filename: tesser-accounts-api-openapi.yml
+  format: yaml
+  label: Tesser Accounts API
+  slug: tesser-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-accounts-api-openapi.yml
+- filename: tesser-admin-api-openapi.yml
+  format: yaml
+  label: Tesser Admin API
+  slug: tesser-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-admin-api-openapi.yml
+- filename: tesser-api-keys-api-openapi.yml
+  format: yaml
+  label: Tesser API Keys API
+  slug: tesser-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-api-keys-api-openapi.yml
+- filename: tesser-counterparties-api-openapi.yml
+  format: yaml
+  label: Tesser Counterparties API
+  slug: tesser-counterparties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-counterparties-api-openapi.yml
+- filename: tesser-currencies-api-openapi.yml
+  format: yaml
+  label: Tesser Currencies API
+  slug: tesser-currencies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-currencies-api-openapi.yml
+- filename: tesser-health-api-openapi.yml
+  format: yaml
+  label: Tesser health API
+  slug: tesser-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-health-api-openapi.yml
+- filename: tesser-mcp-api-openapi.yml
+  format: yaml
+  label: Tesser MCP API
+  slug: tesser-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-mcp-api-openapi.yml
+- filename: tesser-networks-api-openapi.yml
+  format: yaml
+  label: Tesser Networks API
+  slug: tesser-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-networks-api-openapi.yml
+- filename: tesser-organizations-api-openapi.yml
+  format: yaml
+  label: Tesser Organizations API
+  slug: tesser-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-organizations-api-openapi.yml
+- filename: tesser-payments-api-openapi.yml
+  format: yaml
+  label: Tesser Payments API
+  slug: tesser-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-payments-api-openapi.yml
+- filename: tesser-tenants-api-openapi.yml
+  format: yaml
+  label: Tesser Tenants API
+  slug: tesser-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-tenants-api-openapi.yml
+- filename: tesser-treasury-api-openapi.yml
+  format: yaml
+  label: Tesser Treasury API
+  slug: tesser-treasury-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-treasury-api-openapi.yml
+- filename: tesser-users-api-openapi.yml
+  format: yaml
+  label: Tesser Users API
+  slug: tesser-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-users-api-openapi.yml
+- filename: tesser-webhooks-api-openapi.yml
+  format: yaml
+  label: Tesser webhooks API
+  slug: tesser-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 - http

@@ -2,42 +2,54 @@
 api_key_in:
 - query
 api_specs:
-- filename: entitysport-openapi.yml
+- filename: entitysport-authentication-api-openapi.yml
+  format: yaml
+  label: Entity Sport Authentication API
+  slug: entitysport-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/openapi/entitysport-authentication-api-openapi.yml
+- filename: entitysport-competitions-api-openapi.yml
   format: yaml
   label: Entity Sport Competitions API
-  slug: competitions
+  slug: entitysport-competitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/openapi/entitysport-openapi.yml
-- filename: entitysport-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/openapi/entitysport-competitions-api-openapi.yml
+- filename: entitysport-fantasy-api-openapi.yml
   format: yaml
-  label: Entity Sport Matches & Live Scoring API
-  slug: matches-live-scoring
+  label: Entity Sport Fantasy API
+  slug: entitysport-fantasy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/openapi/entitysport-openapi.yml
-- filename: entitysport-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/openapi/entitysport-fantasy-api-openapi.yml
+- filename: entitysport-matches-api-openapi.yml
   format: yaml
-  label: Entity Sport Scorecards API
-  slug: scorecards
+  label: Entity Sport Matches API
+  slug: entitysport-matches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/openapi/entitysport-openapi.yml
-- filename: entitysport-openapi.yml
-  format: yaml
-  label: Entity Sport Fantasy Points API
-  slug: fantasy-points
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/openapi/entitysport-openapi.yml
-- filename: entitysport-openapi.yml
-  format: yaml
-  label: Entity Sport Players & Teams API
-  slug: players-teams
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/openapi/entitysport-openapi.yml
-- filename: entitysport-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/openapi/entitysport-matches-api-openapi.yml
+- filename: entitysport-odds-api-openapi.yml
   format: yaml
   label: Entity Sport Odds API
-  slug: odds
+  slug: entitysport-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/openapi/entitysport-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/openapi/entitysport-odds-api-openapi.yml
+- filename: entitysport-players-api-openapi.yml
+  format: yaml
+  label: Entity Sport Players API
+  slug: entitysport-players-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/openapi/entitysport-players-api-openapi.yml
+- filename: entitysport-scorecards-api-openapi.yml
+  format: yaml
+  label: Entity Sport Scorecards API
+  slug: entitysport-scorecards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/openapi/entitysport-scorecards-api-openapi.yml
+- filename: entitysport-teams-api-openapi.yml
+  format: yaml
+  label: Entity Sport Teams API
+  slug: entitysport-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/openapi/entitysport-teams-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

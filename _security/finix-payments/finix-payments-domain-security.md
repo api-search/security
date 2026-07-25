@@ -1,11 +1,119 @@
 ---
 api_specs:
-- filename: finix-payments-openapi-original.yml
+- filename: finix-payments-authorizations-api-openapi.yml
   format: yaml
-  label: Finix API
-  slug: finix-api
+  label: Finix Payments Authorizations API
+  slug: finix-payments-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/openapi/finix-payments-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/openapi/finix-payments-authorizations-api-openapi.yml
+- filename: finix-payments-balance-transfers-api-openapi.yml
+  format: yaml
+  label: Finix Payments Balance Transfers API
+  slug: finix-payments-balance-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/openapi/finix-payments-balance-transfers-api-openapi.yml
+- filename: finix-payments-compliance-forms-api-openapi.yml
+  format: yaml
+  label: Finix Payments Compliance Forms API
+  slug: finix-payments-compliance-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/openapi/finix-payments-compliance-forms-api-openapi.yml
+- filename: finix-payments-devices-api-openapi.yml
+  format: yaml
+  label: Finix Payments Devices API
+  slug: finix-payments-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/openapi/finix-payments-devices-api-openapi.yml
+- filename: finix-payments-disputes-api-openapi.yml
+  format: yaml
+  label: Finix Payments Disputes API
+  slug: finix-payments-disputes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/openapi/finix-payments-disputes-api-openapi.yml
+- filename: finix-payments-fee-profiles-api-openapi.yml
+  format: yaml
+  label: Finix Payments Fee Profiles API
+  slug: finix-payments-fee-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/openapi/finix-payments-fee-profiles-api-openapi.yml
+- filename: finix-payments-files-api-openapi.yml
+  format: yaml
+  label: Finix Payments Files API
+  slug: finix-payments-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/openapi/finix-payments-files-api-openapi.yml
+- filename: finix-payments-identities-api-openapi.yml
+  format: yaml
+  label: Finix Payments Identities API
+  slug: finix-payments-identities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/openapi/finix-payments-identities-api-openapi.yml
+- filename: finix-payments-instrument-updates-api-openapi.yml
+  format: yaml
+  label: Finix Payments Instrument Updates API
+  slug: finix-payments-instrument-updates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/openapi/finix-payments-instrument-updates-api-openapi.yml
+- filename: finix-payments-merchant-profiles-api-openapi.yml
+  format: yaml
+  label: Finix Payments Merchant Profiles API
+  slug: finix-payments-merchant-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/openapi/finix-payments-merchant-profiles-api-openapi.yml
+- filename: finix-payments-merchants-api-openapi.yml
+  format: yaml
+  label: Finix Payments Merchants API
+  slug: finix-payments-merchants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/openapi/finix-payments-merchants-api-openapi.yml
+- filename: finix-payments-onboarding-forms-api-openapi.yml
+  format: yaml
+  label: Finix Payments Onboarding Forms API
+  slug: finix-payments-onboarding-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/openapi/finix-payments-onboarding-forms-api-openapi.yml
+- filename: finix-payments-payment-instruments-api-openapi.yml
+  format: yaml
+  label: Finix Payments Payment Instruments API
+  slug: finix-payments-payment-instruments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/openapi/finix-payments-payment-instruments-api-openapi.yml
+- filename: finix-payments-payout-profiles-api-openapi.yml
+  format: yaml
+  label: Finix Payments Payout Profiles API
+  slug: finix-payments-payout-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/openapi/finix-payments-payout-profiles-api-openapi.yml
+- filename: finix-payments-settlements-api-openapi.yml
+  format: yaml
+  label: Finix Payments Settlements API
+  slug: finix-payments-settlements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/openapi/finix-payments-settlements-api-openapi.yml
+- filename: finix-payments-split-transfers-api-openapi.yml
+  format: yaml
+  label: Finix Payments Split Transfers API
+  slug: finix-payments-split-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/openapi/finix-payments-split-transfers-api-openapi.yml
+- filename: finix-payments-transfers-api-openapi.yml
+  format: yaml
+  label: Finix Payments Transfers API
+  slug: finix-payments-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/openapi/finix-payments-transfers-api-openapi.yml
+- filename: finix-payments-verifications-api-openapi.yml
+  format: yaml
+  label: Finix Payments Verifications API
+  slug: finix-payments-verifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/openapi/finix-payments-verifications-api-openapi.yml
+- filename: finix-payments-webhooks-api-openapi.yml
+  format: yaml
+  label: Finix Payments Webhooks API
+  slug: finix-payments-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/openapi/finix-payments-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

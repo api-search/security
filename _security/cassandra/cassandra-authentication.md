@@ -8,6 +8,42 @@ api_specs:
   slug: cassandra-rest-api-stargate
   spec_type: OpenAPI
   url: https://stargate.io/docs/latest/develop/api-rest/swagger.html
+- filename: cassandra-columns-api-openapi.yml
+  format: yaml
+  label: Apache Cassandra Columns API
+  slug: cassandra-columns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-columns-api-openapi.yml
+- filename: cassandra-indexes-api-openapi.yml
+  format: yaml
+  label: Apache Cassandra Indexes API
+  slug: cassandra-indexes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-indexes-api-openapi.yml
+- filename: cassandra-keyspaces-api-openapi.yml
+  format: yaml
+  label: Apache Cassandra Keyspaces API
+  slug: cassandra-keyspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-keyspaces-api-openapi.yml
+- filename: cassandra-rows-api-openapi.yml
+  format: yaml
+  label: Apache Cassandra Rows API
+  slug: cassandra-rows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-rows-api-openapi.yml
+- filename: cassandra-tables-api-openapi.yml
+  format: yaml
+  label: Apache Cassandra Tables API
+  slug: cassandra-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-tables-api-openapi.yml
+- filename: cassandra-types-api-openapi.yml
+  format: yaml
+  label: Apache Cassandra Types API
+  slug: cassandra-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-types-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

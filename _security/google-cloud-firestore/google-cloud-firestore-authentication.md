@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cloud-firestore-openapi.yml
+- filename: google-cloud-firestore-databases-api-openapi.yml
   format: yaml
-  label: Cloud Firestore API
-  slug: cloud-firestore-api
+  label: Google Cloud Firestore Databases API
+  slug: google-cloud-firestore-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-firestore/refs/heads/main/openapi/cloud-firestore-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-firestore/refs/heads/main/openapi/google-cloud-firestore-databases-api-openapi.yml
+- filename: google-cloud-firestore-documents-api-openapi.yml
+  format: yaml
+  label: Google Cloud Firestore Documents API
+  slug: google-cloud-firestore-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-firestore/refs/heads/main/openapi/google-cloud-firestore-documents-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

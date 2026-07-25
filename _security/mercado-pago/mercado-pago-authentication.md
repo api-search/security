@@ -1,18 +1,108 @@
 ---
 api_key_in: []
 api_specs:
-- filename: mercado-pago-openapi.yml
-  format: yaml
-  label: Mercado Pago Payments API
-  slug: payments
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-openapi.yml
 - filename: mercado-pago-asyncapi.yml
   format: yaml
   label: Mercado Pago Webhooks / Notifications
   slug: webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/asyncapi/mercado-pago-asyncapi.yml
+- filename: mercado-pago-authentication-api-openapi.yml
+  format: yaml
+  label: Mercado Pago Authentication API
+  slug: mercado-pago-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-authentication-api-openapi.yml
+- filename: mercado-pago-cards-api-openapi.yml
+  format: yaml
+  label: Mercado Pago Cards API
+  slug: mercado-pago-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-cards-api-openapi.yml
+- filename: mercado-pago-chargebacks-api-openapi.yml
+  format: yaml
+  label: Mercado Pago Chargebacks API
+  slug: mercado-pago-chargebacks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-chargebacks-api-openapi.yml
+- filename: mercado-pago-claims-api-openapi.yml
+  format: yaml
+  label: Mercado Pago Claims API
+  slug: mercado-pago-claims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-claims-api-openapi.yml
+- filename: mercado-pago-customers-api-openapi.yml
+  format: yaml
+  label: Mercado Pago Customers API
+  slug: mercado-pago-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-customers-api-openapi.yml
+- filename: mercado-pago-merchant-orders-api-openapi.yml
+  format: yaml
+  label: Mercado Pago Merchant Orders API
+  slug: mercado-pago-merchant-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-merchant-orders-api-openapi.yml
+- filename: mercado-pago-orders-api-openapi.yml
+  format: yaml
+  label: Mercado Pago Orders API
+  slug: mercado-pago-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-orders-api-openapi.yml
+- filename: mercado-pago-payment-methods-api-openapi.yml
+  format: yaml
+  label: Mercado Pago Payment Methods API
+  slug: mercado-pago-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-payment-methods-api-openapi.yml
+- filename: mercado-pago-payments-api-openapi.yml
+  format: yaml
+  label: Mercado Pago Payments API
+  slug: mercado-pago-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-payments-api-openapi.yml
+- filename: mercado-pago-plans-api-openapi.yml
+  format: yaml
+  label: Mercado Pago Plans API
+  slug: mercado-pago-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-plans-api-openapi.yml
+- filename: mercado-pago-point-api-openapi.yml
+  format: yaml
+  label: Mercado Pago Point API
+  slug: mercado-pago-point-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-point-api-openapi.yml
+- filename: mercado-pago-preferences-api-openapi.yml
+  format: yaml
+  label: Mercado Pago Preferences API
+  slug: mercado-pago-preferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-preferences-api-openapi.yml
+- filename: mercado-pago-qr-api-openapi.yml
+  format: yaml
+  label: Mercado Pago QR API
+  slug: mercado-pago-qr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-qr-api-openapi.yml
+- filename: mercado-pago-refunds-api-openapi.yml
+  format: yaml
+  label: Mercado Pago Refunds API
+  slug: mercado-pago-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-refunds-api-openapi.yml
+- filename: mercado-pago-reports-api-openapi.yml
+  format: yaml
+  label: Mercado Pago Reports API
+  slug: mercado-pago-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-reports-api-openapi.yml
+- filename: mercado-pago-subscriptions-api-openapi.yml
+  format: yaml
+  label: Mercado Pago Subscriptions API
+  slug: mercado-pago-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-subscriptions-api-openapi.yml
 auth_types:
 - http
 - oauth2

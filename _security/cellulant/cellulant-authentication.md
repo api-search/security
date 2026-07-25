@@ -2,24 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: cellulant-checkout-api-openapi.yml
+- filename: cellulant-acknowledgement-api-openapi.yml
   format: yaml
-  label: Cellulant Tingg Checkout API
-  slug: cellulant-tingg-checkout-api
+  label: Cellulant Acknowledgement API
+  slug: cellulant-acknowledgement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/openapi/cellulant-checkout-api-openapi.yml
-- filename: cellulant-payouts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/openapi/cellulant-acknowledgement-api-openapi.yml
+- filename: cellulant-authentication-api-openapi.yml
   format: yaml
-  label: Cellulant Tingg Payouts API
-  slug: cellulant-tingg-payouts-api
+  label: Cellulant Authentication API
+  slug: cellulant-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/openapi/cellulant-payouts-api-openapi.yml
-- filename: cellulant-engage-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/openapi/cellulant-authentication-api-openapi.yml
+- filename: cellulant-custom-checkout-api-openapi.yml
   format: yaml
-  label: Cellulant Tingg Engage API
-  slug: cellulant-tingg-engage-api
+  label: Cellulant Custom Checkout API
+  slug: cellulant-custom-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/openapi/cellulant-engage-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/openapi/cellulant-custom-checkout-api-openapi.yml
+- filename: cellulant-engagement-api-openapi.yml
+  format: yaml
+  label: Cellulant Engagement API
+  slug: cellulant-engagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/openapi/cellulant-engagement-api-openapi.yml
+- filename: cellulant-express-checkout-api-openapi.yml
+  format: yaml
+  label: Cellulant Express Checkout API
+  slug: cellulant-express-checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/openapi/cellulant-express-checkout-api-openapi.yml
+- filename: cellulant-payments-api-openapi.yml
+  format: yaml
+  label: Cellulant Payments API
+  slug: cellulant-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/openapi/cellulant-payments-api-openapi.yml
 auth_types:
 - apiKey
 - http

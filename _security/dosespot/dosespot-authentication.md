@@ -2,42 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: dosespot-openapi.yml
-  format: yaml
-  label: DoseSpot Patients API
-  slug: dosespot-patients-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-openapi.yml
-- filename: dosespot-openapi.yml
-  format: yaml
-  label: DoseSpot Prescriptions API
-  slug: dosespot-prescriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-openapi.yml
-- filename: dosespot-openapi.yml
+- filename: dosespot-medications-api-openapi.yml
   format: yaml
   label: DoseSpot Medications API
   slug: dosespot-medications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-openapi.yml
-- filename: dosespot-openapi.yml
-  format: yaml
-  label: DoseSpot Pharmacies API
-  slug: dosespot-pharmacies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-openapi.yml
-- filename: dosespot-openapi.yml
-  format: yaml
-  label: DoseSpot Prescribers API
-  slug: dosespot-prescribers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-openapi.yml
-- filename: dosespot-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-medications-api-openapi.yml
+- filename: dosespot-notifications-api-openapi.yml
   format: yaml
   label: DoseSpot Notifications API
   slug: dosespot-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-notifications-api-openapi.yml
+- filename: dosespot-patients-api-openapi.yml
+  format: yaml
+  label: DoseSpot Patients API
+  slug: dosespot-patients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-patients-api-openapi.yml
+- filename: dosespot-pharmacies-api-openapi.yml
+  format: yaml
+  label: DoseSpot Pharmacies API
+  slug: dosespot-pharmacies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-pharmacies-api-openapi.yml
+- filename: dosespot-prescribers-api-openapi.yml
+  format: yaml
+  label: DoseSpot Prescribers API
+  slug: dosespot-prescribers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-prescribers-api-openapi.yml
+- filename: dosespot-prescriptions-api-openapi.yml
+  format: yaml
+  label: DoseSpot Prescriptions API
+  slug: dosespot-prescriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-prescriptions-api-openapi.yml
 auth_types:
 - apiKey
 - http

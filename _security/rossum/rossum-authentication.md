@@ -1,5 +1,36 @@
 ---
 api_key_in: []
+api_specs:
+- filename: rossum-annotations-api-openapi.yml
+  format: yaml
+  label: Rossum Annotations API
+  slug: rossum-annotations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rossum/refs/heads/main/openapi/rossum-annotations-api-openapi.yml
+- filename: rossum-authentication-api-openapi.yml
+  format: yaml
+  label: Rossum Authentication API
+  slug: rossum-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rossum/refs/heads/main/openapi/rossum-authentication-api-openapi.yml
+- filename: rossum-queues-api-openapi.yml
+  format: yaml
+  label: Rossum Queues API
+  slug: rossum-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rossum/refs/heads/main/openapi/rossum-queues-api-openapi.yml
+- filename: rossum-schemas-api-openapi.yml
+  format: yaml
+  label: Rossum Schemas API
+  slug: rossum-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rossum/refs/heads/main/openapi/rossum-schemas-api-openapi.yml
+- filename: rossum-uploads-api-openapi.yml
+  format: yaml
+  label: Rossum Uploads API
+  slug: rossum-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rossum/refs/heads/main/openapi/rossum-uploads-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: gateway-bank-cds-banking-products-openapi.yml
+- filename: gateway-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Gateway Bank CDR Product Reference Data API
-  slug: gateway-bank-cdr-product-reference-data-api
+  label: Gateway Bank Banking Account Balances API
+  slug: gateway-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-cds-banking-products-openapi.yml
-- filename: gateway-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-account-balances-api-openapi.yml
+- filename: gateway-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Gateway Bank CDR Accounts & Balances API
-  slug: gateway-bank-cdr-accounts-balances-api
+  label: Gateway Bank Banking Account Direct Debits API
+  slug: gateway-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-cds-banking-products-openapi.yml
-- filename: gateway-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-account-direct-debits-api-openapi.yml
+- filename: gateway-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Gateway Bank CDR Transactions API
-  slug: gateway-bank-cdr-transactions-api
+  label: Gateway Bank Banking Account Scheduled Payments API
+  slug: gateway-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-cds-banking-products-openapi.yml
-- filename: gateway-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: gateway-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Gateway Bank CDR Direct Debits & Scheduled Payments API
-  slug: gateway-bank-cdr-direct-debits-scheduled-payments-api
+  label: Gateway Bank Banking Account Transactions API
+  slug: gateway-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-cds-banking-products-openapi.yml
-- filename: gateway-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-account-transactions-api-openapi.yml
+- filename: gateway-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: Gateway Bank CDR Payees API
-  slug: gateway-bank-cdr-payees-api
+  label: Gateway Bank Banking Accounts API
+  slug: gateway-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-accounts-api-openapi.yml
+- filename: gateway-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: Gateway Bank Banking Payees API
+  slug: gateway-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-payees-api-openapi.yml
+- filename: gateway-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: Gateway Bank Banking Products API
+  slug: gateway-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa:

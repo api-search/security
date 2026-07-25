@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: apptentive-openapi-original.yml
+- filename: apptentive-experimental-api-openapi.yml
   format: yaml
-  label: Apptentive Data API
-  slug: apptentive-data-api
+  label: Apptentive experimental API
+  slug: apptentive-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/openapi/apptentive-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/openapi/apptentive-experimental-api-openapi.yml
+- filename: apptentive-info-api-openapi.yml
+  format: yaml
+  label: Apptentive info API
+  slug: apptentive-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/openapi/apptentive-info-api-openapi.yml
+- filename: apptentive-metrics-api-openapi.yml
+  format: yaml
+  label: Apptentive metrics API
+  slug: apptentive-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/openapi/apptentive-metrics-api-openapi.yml
+- filename: apptentive-raw-api-openapi.yml
+  format: yaml
+  label: Apptentive raw API
+  slug: apptentive-raw-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/openapi/apptentive-raw-api-openapi.yml
 certifications:
 - AICPA SOC 2 Type 2
 - ISO 27001

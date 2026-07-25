@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: quiver-openapi.yml
+- filename: quiver-beta-api-openapi.yml
   format: yaml
-  label: Quiver Quantitative API
-  slug: quiver
+  label: Quiver Quantitative Beta API
+  slug: quiver-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiver/refs/heads/main/openapi/quiver-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quiver/refs/heads/main/openapi/quiver-beta-api-openapi.yml
 description: ''
 domains:
 - caa: []

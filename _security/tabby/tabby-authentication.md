@@ -1,30 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tabby-api-openapi.yml
+- filename: tabby-checkout-api-openapi.yml
   format: yaml
   label: Tabby Checkout API
   slug: tabby-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/openapi/tabby-api-openapi.yml
-- filename: tabby-api-openapi.yml
-  format: yaml
-  label: Tabby Payments API
-  slug: tabby-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/openapi/tabby-api-openapi.yml
-- filename: tabby-api-openapi.yml
-  format: yaml
-  label: Tabby Webhooks API
-  slug: tabby-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/openapi/tabby-api-openapi.yml
-- filename: tabby-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/openapi/tabby-checkout-api-openapi.yml
+- filename: tabby-disputes-api-openapi.yml
   format: yaml
   label: Tabby Disputes API
   slug: tabby-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/openapi/tabby-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/openapi/tabby-disputes-api-openapi.yml
+- filename: tabby-payments-api-openapi.yml
+  format: yaml
+  label: Tabby Payments API
+  slug: tabby-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/openapi/tabby-payments-api-openapi.yml
+- filename: tabby-webhooks-api-openapi.yml
+  format: yaml
+  label: Tabby Webhooks API
+  slug: tabby-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/openapi/tabby-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

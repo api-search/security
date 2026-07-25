@@ -1,11 +1,77 @@
 ---
 api_specs:
-- filename: johrh-openapi.json
-  format: json
-  label: Johrh Storefront (Zid Vitrin)
-  slug: johrh-storefront-zid-vitrin
+- filename: johrh-account-api-openapi.yml
+  format: yaml
+  label: Johrh Account API
+  slug: johrh-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/openapi/johrh-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/openapi/johrh-account-api-openapi.yml
+- filename: johrh-auth-api-openapi.yml
+  format: yaml
+  label: Johrh Auth API
+  slug: johrh-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/openapi/johrh-auth-api-openapi.yml
+- filename: johrh-categories-api-openapi.yml
+  format: yaml
+  label: Johrh Categories API
+  slug: johrh-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/openapi/johrh-categories-api-openapi.yml
+- filename: johrh-checkout-api-openapi.yml
+  format: yaml
+  label: Johrh Checkout API
+  slug: johrh-checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/openapi/johrh-checkout-api-openapi.yml
+- filename: johrh-internal-api-openapi.yml
+  format: yaml
+  label: Johrh internal API
+  slug: johrh-internal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/openapi/johrh-internal-api-openapi.yml
+- filename: johrh-metrics-api-openapi.yml
+  format: yaml
+  label: Johrh Metrics API
+  slug: johrh-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/openapi/johrh-metrics-api-openapi.yml
+- filename: johrh-orders-api-openapi.yml
+  format: yaml
+  label: Johrh Orders API
+  slug: johrh-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/openapi/johrh-orders-api-openapi.yml
+- filename: johrh-payments-api-openapi.yml
+  format: yaml
+  label: Johrh Payments API
+  slug: johrh-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/openapi/johrh-payments-api-openapi.yml
+- filename: johrh-products-api-openapi.yml
+  format: yaml
+  label: Johrh Products API
+  slug: johrh-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/openapi/johrh-products-api-openapi.yml
+- filename: johrh-redirects-api-openapi.yml
+  format: yaml
+  label: Johrh redirects API
+  slug: johrh-redirects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/openapi/johrh-redirects-api-openapi.yml
+- filename: johrh-sso-api-openapi.yml
+  format: yaml
+  label: Johrh SSO API
+  slug: johrh-sso-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/openapi/johrh-sso-api-openapi.yml
+- filename: johrh-storefront-api-openapi.yml
+  format: yaml
+  label: Johrh Storefront API
+  slug: johrh-storefront-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/openapi/johrh-storefront-api-openapi.yml
 description: ''
 domains:
 - caa: []

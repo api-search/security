@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: telesign-sms-openapi.yml
+- filename: telesign-fraud-scoring-api-openapi.yml
   format: yaml
-  label: Telesign SMS API
-  slug: sms-api
+  label: Telesign Fraud Scoring API
+  slug: telesign-fraud-scoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-sms-openapi.yml
-- filename: telesign-phoneid-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-fraud-scoring-api-openapi.yml
+- filename: telesign-messaging-api-openapi.yml
   format: yaml
-  label: Telesign PhoneID API
-  slug: phoneid-api
+  label: Telesign Messaging API
+  slug: telesign-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-phoneid-openapi.yml
-- filename: telesign-verify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-messaging-api-openapi.yml
+- filename: telesign-phone-intelligence-api-openapi.yml
   format: yaml
-  label: Telesign Verify API
-  slug: verify-api
+  label: Telesign Phone Intelligence API
+  slug: telesign-phone-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-verify-openapi.yml
-- filename: telesign-score-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-phone-intelligence-api-openapi.yml
+- filename: telesign-verification-api-openapi.yml
   format: yaml
-  label: Telesign Score API
-  slug: score-api
+  label: Telesign Verification API
+  slug: telesign-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-score-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-verification-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

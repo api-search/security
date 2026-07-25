@@ -1,185 +1,215 @@
 ---
 api_specs:
-- filename: workspace.json
-  format: json
-  label: Synapse Workspace API
-  slug: synapse-workspace-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/resource-manager/Microsoft.Synapse/stable/2021-06-01/workspace.json
-- filename: sqlPool.json
-  format: json
-  label: Synapse SQL Pools API
-  slug: synapse-sql-pools-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/resource-manager/Microsoft.Synapse/stable/2021-06-01/sqlPool.json
-- filename: bigDataPool.json
-  format: json
-  label: Synapse Spark Pools API
-  slug: synapse-spark-pools-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/resource-manager/Microsoft.Synapse/stable/2021-06-01/bigDataPool.json
-- filename: artifacts.json
-  format: json
-  label: Synapse Pipeline API
-  slug: synapse-pipeline-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/data-plane/Microsoft.Synapse/stable/2020-12-01/artifacts.json
-- filename: sparkJob.json
-  format: json
-  label: Synapse Spark Job API
-  slug: synapse-spark-job-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/data-plane/Microsoft.Synapse/stable/2019-11-01-preview/sparkJob.json
-- filename: monitoring.json
-  format: json
-  label: Synapse Monitoring API
-  slug: synapse-monitoring-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/data-plane/Microsoft.Synapse/stable/2020-12-01/monitoring.json
-- filename: azure-synapse-analytics-synapse-link-openapi.yml
+- filename: microsoft-azure-synapse-analytics-azureadonlyauthentications-api-openapi.yml
   format: yaml
-  label: Synapse Link API
-  slug: synapse-link-api
+  label: Azure Synapse Analytics AzureADOnlyAuthentications API
+  slug: microsoft-azure-synapse-analytics-azureadonlyauthentications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/azure-synapse-analytics-synapse-link-openapi.yml
-- filename: roleAssignments.json
-  format: json
-  label: Synapse Access Control API
-  slug: synapse-access-control-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-azureadonlyauthentications-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-bigdatapools-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics BigDataPools API
+  slug: microsoft-azure-synapse-analytics-bigdatapools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/data-plane/Microsoft.Synapse/stable/2020-12-01/roleAssignments.json
-- filename: artifacts.json
-  format: json
-  label: Synapse Notebook API
-  slug: synapse-notebook-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-bigdatapools-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-credential-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Credential API
+  slug: microsoft-azure-synapse-analytics-credential-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/data-plane/Microsoft.Synapse/stable/2020-12-01/artifacts.json
-- filename: artifacts.json
-  format: json
-  label: Synapse Dataset API
-  slug: synapse-dataset-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-credential-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-dataflow-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics DataFlow API
+  slug: microsoft-azure-synapse-analytics-dataflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/data-plane/Microsoft.Synapse/stable/2020-12-01/artifacts.json
-- filename: artifacts.json
-  format: json
-  label: Synapse Linked Service API
-  slug: synapse-linked-service-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-dataflow-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-dataflowdebugsession-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics DataFlowDebugSession API
+  slug: microsoft-azure-synapse-analytics-dataflowdebugsession-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/data-plane/Microsoft.Synapse/stable/2020-12-01/artifacts.json
-- filename: artifacts.json
-  format: json
-  label: Synapse Data Flow API
-  slug: synapse-data-flow-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-dataflowdebugsession-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-dataset-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Dataset API
+  slug: microsoft-azure-synapse-analytics-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/data-plane/Microsoft.Synapse/stable/2020-12-01/artifacts.json
-- filename: artifacts.json
-  format: json
-  label: Synapse SQL Script API
-  slug: synapse-sql-script-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-dataset-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-gitintegration-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics GitIntegration API
+  slug: microsoft-azure-synapse-analytics-gitintegration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/data-plane/Microsoft.Synapse/stable/2020-12-01/artifacts.json
-- filename: artifacts.json
-  format: json
-  label: Synapse Trigger API
-  slug: synapse-trigger-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-gitintegration-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-integrationruntimes-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics IntegrationRuntimes API
+  slug: microsoft-azure-synapse-analytics-integrationruntimes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/data-plane/Microsoft.Synapse/stable/2020-12-01/artifacts.json
-- filename: artifacts.json
-  format: json
-  label: Synapse Spark Job Definition API
-  slug: synapse-spark-job-definition-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-integrationruntimes-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-ipfirewallrules-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics IpFirewallRules API
+  slug: microsoft-azure-synapse-analytics-ipfirewallrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/data-plane/Microsoft.Synapse/stable/2020-12-01/artifacts.json
-- filename: managedPrivateEndpoints.json
-  format: json
-  label: Synapse Managed Private Endpoints API
-  slug: synapse-managed-private-endpoints-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-ipfirewallrules-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-keys-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Keys API
+  slug: microsoft-azure-synapse-analytics-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/data-plane/Microsoft.Synapse/preview/2021-06-01-preview/managedPrivateEndpoints.json
-- filename: artifacts.json
-  format: json
-  label: Synapse Integration Runtimes API
-  slug: synapse-integration-runtimes-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-keys-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-kqlscripts-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics KqlScripts API
+  slug: microsoft-azure-synapse-analytics-kqlscripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/data-plane/Microsoft.Synapse/stable/2020-12-01/artifacts.json
-- filename: artifacts.json
-  format: json
-  label: Synapse Library API
-  slug: synapse-library-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-kqlscripts-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-kustopools-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics KustoPools API
+  slug: microsoft-azure-synapse-analytics-kustopools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/data-plane/Microsoft.Synapse/stable/2020-12-01/artifacts.json
-- filename: gitintegration.json
-  format: json
-  label: Synapse Git Integration API
-  slug: synapse-git-integration-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-kustopools-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-library-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Library API
+  slug: microsoft-azure-synapse-analytics-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/data-plane/Microsoft.Synapse/stable/2020-12-01/gitintegration.json
-- filename: firewallRule.json
-  format: json
-  label: Synapse Firewall Rules API
-  slug: synapse-firewall-rules-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-library-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-linkconnection-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics LinkConnection API
+  slug: microsoft-azure-synapse-analytics-linkconnection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/resource-manager/Microsoft.Synapse/stable/2021-06-01/firewallRule.json
-- filename: keys.json
-  format: json
-  label: Synapse Keys API
-  slug: synapse-keys-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-linkconnection-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-linkedservice-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics LinkedService API
+  slug: microsoft-azure-synapse-analytics-linkedservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/resource-manager/Microsoft.Synapse/stable/2021-06-01/keys.json
-- filename: privateEndpointConnections.json
-  format: json
-  label: Synapse Private Endpoint Connections API
-  slug: synapse-private-endpoint-connections-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-linkedservice-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-managedprivateendpoints-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics ManagedPrivateEndpoints API
+  slug: microsoft-azure-synapse-analytics-managedprivateendpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/resource-manager/Microsoft.Synapse/stable/2021-06-01/privateEndpointConnections.json
-- filename: privatelinkhub.json
-  format: json
-  label: Synapse Private Link Hubs API
-  slug: synapse-private-link-hubs-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-managedprivateendpoints-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-monitoring-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Monitoring API
+  slug: microsoft-azure-synapse-analytics-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/resource-manager/Microsoft.Synapse/stable/2021-06-01/privatelinkhub.json
-- filename: kustoPool.json
-  format: json
-  label: Synapse Kusto Pools API
-  slug: synapse-kusto-pools-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-monitoring-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-notebook-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Notebook API
+  slug: microsoft-azure-synapse-analytics-notebook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/resource-manager/Microsoft.Synapse/preview/2021-06-01-preview/kustoPool.json
-- filename: azureADOnlyAuthentication.json
-  format: json
-  label: Synapse Azure AD Only Authentication API
-  slug: synapse-azure-ad-only-authentication-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-notebook-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-pipeline-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Pipeline API
+  slug: microsoft-azure-synapse-analytics-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/resource-manager/Microsoft.Synapse/stable/2021-06-01/azureADOnlyAuthentication.json
-- filename: sparkConfigurations.json
-  format: json
-  label: Synapse Spark Configuration API
-  slug: synapse-spark-configuration-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-pipeline-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-privateendpointconnections-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics PrivateEndpointConnections API
+  slug: microsoft-azure-synapse-analytics-privateendpointconnections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/data-plane/Microsoft.Synapse/preview/2021-06-01-preview/sparkConfigurations.json
-- filename: artifacts.json
-  format: json
-  label: Synapse Data Flow Debug Session API
-  slug: synapse-data-flow-debug-session-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-privateendpointconnections-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-privatelinkhubs-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics PrivateLinkHubs API
+  slug: microsoft-azure-synapse-analytics-privatelinkhubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/data-plane/Microsoft.Synapse/stable/2020-12-01/artifacts.json
-- filename: artifacts.json
-  format: json
-  label: Synapse Credential API
-  slug: synapse-credential-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-privatelinkhubs-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-roleassignments-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics RoleAssignments API
+  slug: microsoft-azure-synapse-analytics-roleassignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/data-plane/Microsoft.Synapse/stable/2020-12-01/artifacts.json
-- filename: kqlScripts.json
-  format: json
-  label: Synapse KQL Script API
-  slug: synapse-kql-script-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-roleassignments-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sparkbatch-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SparkBatch API
+  slug: microsoft-azure-synapse-analytics-sparkbatch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/data-plane/Microsoft.Synapse/preview/2021-11-01-preview/kqlScripts.json
-- filename: linkConnections.json
-  format: json
-  label: Synapse Link Connection API
-  slug: synapse-link-connection-api
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-sparkbatch-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sparkconfiguration-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SparkConfiguration API
+  slug: microsoft-azure-synapse-analytics-sparkconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/data-plane/Microsoft.Synapse/preview/2023-04-18-preview/linkConnections.json
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-sparkconfiguration-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sparkjobdefinition-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SparkJobDefinition API
+  slug: microsoft-azure-synapse-analytics-sparkjobdefinition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-sparkjobdefinition-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sparksession-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SparkSession API
+  slug: microsoft-azure-synapse-analytics-sparksession-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-sparksession-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpoolrestorepoints-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPoolRestorePoints API
+  slug: microsoft-azure-synapse-analytics-sqlpoolrestorepoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-sqlpoolrestorepoints-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools API
+  slug: microsoft-azure-synapse-analytics-sqlpools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-sqlpools-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpooltransparentdataencryption-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPoolTransparentDataEncryption API
+  slug: microsoft-azure-synapse-analytics-sqlpooltransparentdataencryption-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-sqlpooltransparentdataencryption-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlscript-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlScript API
+  slug: microsoft-azure-synapse-analytics-sqlscript-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-sqlscript-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-synapselink-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SynapseLink API
+  slug: microsoft-azure-synapse-analytics-synapselink-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-synapselink-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-trigger-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Trigger API
+  slug: microsoft-azure-synapse-analytics-trigger-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-trigger-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-workspaceaadadmins-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics WorkspaceAadAdmins API
+  slug: microsoft-azure-synapse-analytics-workspaceaadadmins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-workspaceaadadmins-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-workspacemanagedidentity-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics WorkspaceManagedIdentity API
+  slug: microsoft-azure-synapse-analytics-workspacemanagedidentity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-workspacemanagedidentity-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-workspaces-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Workspaces API
+  slug: microsoft-azure-synapse-analytics-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,18 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: upwork-graphql-api-openapi.yml
+- filename: upwork-authentication-api-openapi.yml
   format: yaml
-  label: Upwork GraphQL API
-  slug: graphql-api
+  label: Upwork Authentication API
+  slug: upwork-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-graphql-api-openapi.yml
-- filename: upwork-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-authentication-api-openapi.yml
+- filename: upwork-contracts-api-openapi.yml
   format: yaml
-  label: Upwork REST API
-  slug: rest-api
+  label: Upwork Contracts API
+  slug: upwork-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-contracts-api-openapi.yml
+- filename: upwork-jobs-api-openapi.yml
+  format: yaml
+  label: Upwork Jobs API
+  slug: upwork-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-jobs-api-openapi.yml
+- filename: upwork-messages-api-openapi.yml
+  format: yaml
+  label: Upwork Messages API
+  slug: upwork-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-messages-api-openapi.yml
+- filename: upwork-organizations-api-openapi.yml
+  format: yaml
+  label: Upwork Organizations API
+  slug: upwork-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-organizations-api-openapi.yml
+- filename: upwork-profiles-api-openapi.yml
+  format: yaml
+  label: Upwork Profiles API
+  slug: upwork-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-profiles-api-openapi.yml
+- filename: upwork-reports-api-openapi.yml
+  format: yaml
+  label: Upwork Reports API
+  slug: upwork-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-reports-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

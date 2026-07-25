@@ -2,42 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: mediavalet-openapi.yml
+- filename: mediavalet-assets-api-openapi.yml
   format: yaml
   label: MediaValet Assets API
   slug: mediavalet-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-openapi.yml
-- filename: mediavalet-openapi.yml
-  format: yaml
-  label: MediaValet Categories API
-  slug: mediavalet-categories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-openapi.yml
-- filename: mediavalet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-assets-api-openapi.yml
+- filename: mediavalet-attributes-api-openapi.yml
   format: yaml
   label: MediaValet Attributes API
   slug: mediavalet-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-openapi.yml
-- filename: mediavalet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-attributes-api-openapi.yml
+- filename: mediavalet-categories-api-openapi.yml
+  format: yaml
+  label: MediaValet Categories API
+  slug: mediavalet-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-categories-api-openapi.yml
+- filename: mediavalet-keywords-api-openapi.yml
   format: yaml
   label: MediaValet Keywords API
   slug: mediavalet-keywords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-openapi.yml
-- filename: mediavalet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-keywords-api-openapi.yml
+- filename: mediavalet-uploads-api-openapi.yml
   format: yaml
   label: MediaValet Uploads API
   slug: mediavalet-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-openapi.yml
-- filename: mediavalet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-uploads-api-openapi.yml
+- filename: mediavalet-users-api-openapi.yml
   format: yaml
   label: MediaValet Users API
   slug: mediavalet-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-users-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

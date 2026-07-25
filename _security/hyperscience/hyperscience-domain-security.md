@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: hyperscience-openapi.yml
+- filename: hyperscience-audit-logs-api-openapi.yml
   format: yaml
-  label: Hyperscience REST API
-  slug: rest
+  label: Hyperscience Audit Logs API
+  slug: hyperscience-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/openapi/hyperscience-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/openapi/hyperscience-audit-logs-api-openapi.yml
+- filename: hyperscience-cases-api-openapi.yml
+  format: yaml
+  label: Hyperscience Cases API
+  slug: hyperscience-cases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/openapi/hyperscience-cases-api-openapi.yml
+- filename: hyperscience-documents-api-openapi.yml
+  format: yaml
+  label: Hyperscience Documents API
+  slug: hyperscience-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/openapi/hyperscience-documents-api-openapi.yml
+- filename: hyperscience-flow-runs-api-openapi.yml
+  format: yaml
+  label: Hyperscience Flow Runs API
+  slug: hyperscience-flow-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/openapi/hyperscience-flow-runs-api-openapi.yml
+- filename: hyperscience-flows-api-openapi.yml
+  format: yaml
+  label: Hyperscience Flows API
+  slug: hyperscience-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/openapi/hyperscience-flows-api-openapi.yml
+- filename: hyperscience-layouts-api-openapi.yml
+  format: yaml
+  label: Hyperscience Layouts API
+  slug: hyperscience-layouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/openapi/hyperscience-layouts-api-openapi.yml
+- filename: hyperscience-pages-api-openapi.yml
+  format: yaml
+  label: Hyperscience Pages API
+  slug: hyperscience-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/openapi/hyperscience-pages-api-openapi.yml
+- filename: hyperscience-submissions-api-openapi.yml
+  format: yaml
+  label: Hyperscience Submissions API
+  slug: hyperscience-submissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/openapi/hyperscience-submissions-api-openapi.yml
+- filename: hyperscience-version-api-openapi.yml
+  format: yaml
+  label: Hyperscience Version API
+  slug: hyperscience-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/openapi/hyperscience-version-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: aviationstack-openapi.yml
+- filename: aviationstack-aircraft-types-api-openapi.yml
   format: yaml
-  label: Aviationstack
-  slug: aviationstack
+  label: Aviationstack Aircraft Types API
+  slug: aviationstack-aircraft-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-aircraft-types-api-openapi.yml
+- filename: aviationstack-airlines-api-openapi.yml
+  format: yaml
+  label: Aviationstack Airlines API
+  slug: aviationstack-airlines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-airlines-api-openapi.yml
+- filename: aviationstack-airplanes-api-openapi.yml
+  format: yaml
+  label: Aviationstack Airplanes API
+  slug: aviationstack-airplanes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-airplanes-api-openapi.yml
+- filename: aviationstack-airports-api-openapi.yml
+  format: yaml
+  label: Aviationstack Airports API
+  slug: aviationstack-airports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-airports-api-openapi.yml
+- filename: aviationstack-cities-api-openapi.yml
+  format: yaml
+  label: Aviationstack Cities API
+  slug: aviationstack-cities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-cities-api-openapi.yml
+- filename: aviationstack-countries-api-openapi.yml
+  format: yaml
+  label: Aviationstack Countries API
+  slug: aviationstack-countries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-countries-api-openapi.yml
+- filename: aviationstack-flights-api-openapi.yml
+  format: yaml
+  label: Aviationstack Flights API
+  slug: aviationstack-flights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-flights-api-openapi.yml
+- filename: aviationstack-flightsfuture-api-openapi.yml
+  format: yaml
+  label: Aviationstack FlightsFuture API
+  slug: aviationstack-flightsfuture-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-flightsfuture-api-openapi.yml
+- filename: aviationstack-routes-api-openapi.yml
+  format: yaml
+  label: Aviationstack Routes API
+  slug: aviationstack-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-routes-api-openapi.yml
+- filename: aviationstack-taxes-api-openapi.yml
+  format: yaml
+  label: Aviationstack Taxes API
+  slug: aviationstack-taxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-taxes-api-openapi.yml
+- filename: aviationstack-timetable-api-openapi.yml
+  format: yaml
+  label: Aviationstack Timetable API
+  slug: aviationstack-timetable-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-timetable-api-openapi.yml
 description: ''
 domains:
 - caa: []

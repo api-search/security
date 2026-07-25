@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: rho-protocol-openapi-original.json
-  format: json
-  label: Rho Exchange API
-  slug: rho-exchange-api
+- filename: rho-protocol-market-data-api-openapi.yml
+  format: yaml
+  label: Rho Protocol Market Data API
+  slug: rho-protocol-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rho-protocol/refs/heads/main/openapi/rho-protocol-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/rho-protocol/refs/heads/main/openapi/rho-protocol-market-data-api-openapi.yml
+- filename: rho-protocol-stats-api-openapi.yml
+  format: yaml
+  label: Rho Protocol Stats API
+  slug: rho-protocol-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rho-protocol/refs/heads/main/openapi/rho-protocol-stats-api-openapi.yml
+- filename: rho-protocol-trading-api-openapi.yml
+  format: yaml
+  label: Rho Protocol Trading API
+  slug: rho-protocol-trading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rho-protocol/refs/heads/main/openapi/rho-protocol-trading-api-openapi.yml
+- filename: rho-protocol-user-data-api-openapi.yml
+  format: yaml
+  label: Rho Protocol User Data API
+  slug: rho-protocol-user-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rho-protocol/refs/heads/main/openapi/rho-protocol-user-data-api-openapi.yml
 auth_types:
 - apiKey
 - http-bearer

@@ -1,77 +1,89 @@
 ---
 api_specs:
-- filename: openweathermap-current-weather-openapi.yml
+- filename: openweathermap-accumulated-parameters-api-openapi.yml
   format: yaml
-  label: Current Weather Data API
-  slug: current-weather
+  label: OpenWeatherMap Accumulated Parameters API
+  slug: openweathermap-accumulated-parameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-current-weather-openapi.yml
-- filename: openweathermap-forecast-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-accumulated-parameters-api-openapi.yml
+- filename: openweathermap-air-pollution-api-openapi.yml
   format: yaml
-  label: Forecast APIs
-  slug: forecast
+  label: OpenWeatherMap Air Pollution API
+  slug: openweathermap-air-pollution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-forecast-openapi.yml
-- filename: openweathermap-one-call-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-air-pollution-api-openapi.yml
+- filename: openweathermap-current-weather-api-openapi.yml
   format: yaml
-  label: One Call API 4.0
-  slug: one-call
+  label: OpenWeatherMap Current Weather API
+  slug: openweathermap-current-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-one-call-openapi.yml
-- filename: openweathermap-air-pollution-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-current-weather-api-openapi.yml
+- filename: openweathermap-forecast-api-openapi.yml
   format: yaml
-  label: Air Pollution API
-  slug: air-pollution
+  label: OpenWeatherMap Forecast API
+  slug: openweathermap-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-air-pollution-openapi.yml
-- filename: openweathermap-geocoding-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-forecast-api-openapi.yml
+- filename: openweathermap-geocoding-api-openapi.yml
   format: yaml
-  label: Geocoding API
-  slug: geocoding
+  label: OpenWeatherMap Geocoding API
+  slug: openweathermap-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-geocoding-openapi.yml
-- filename: openweathermap-history-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-geocoding-api-openapi.yml
+- filename: openweathermap-history-api-openapi.yml
   format: yaml
-  label: Historical Weather API
-  slug: history
+  label: OpenWeatherMap History API
+  slug: openweathermap-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-history-openapi.yml
-- filename: openweathermap-statistical-weather-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-history-api-openapi.yml
+- filename: openweathermap-measurements-api-openapi.yml
   format: yaml
-  label: Statistical Weather Data API
-  slug: statistical
+  label: OpenWeatherMap Measurements API
+  slug: openweathermap-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-statistical-weather-openapi.yml
-- filename: openweathermap-accumulated-parameters-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-measurements-api-openapi.yml
+- filename: openweathermap-one-call-api-openapi.yml
   format: yaml
-  label: Accumulated Parameters API
-  slug: accumulated-parameters
+  label: OpenWeatherMap One Call API
+  slug: openweathermap-one-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-accumulated-parameters-openapi.yml
-- filename: openweathermap-solar-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-one-call-api-openapi.yml
+- filename: openweathermap-road-risk-api-openapi.yml
   format: yaml
-  label: Solar Energy APIs
-  slug: solar
+  label: OpenWeatherMap Road Risk API
+  slug: openweathermap-road-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-solar-openapi.yml
-- filename: openweathermap-road-risk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-road-risk-api-openapi.yml
+- filename: openweathermap-solar-irradiance-api-openapi.yml
   format: yaml
-  label: Road Risk API
-  slug: road-risk
+  label: OpenWeatherMap Solar Irradiance API
+  slug: openweathermap-solar-irradiance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-road-risk-openapi.yml
-- filename: openweathermap-weather-stations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-solar-irradiance-api-openapi.yml
+- filename: openweathermap-solar-panels-api-openapi.yml
   format: yaml
-  label: Weather Stations API
-  slug: weather-stations
+  label: OpenWeatherMap Solar Panels API
+  slug: openweathermap-solar-panels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-weather-stations-openapi.yml
-- filename: openweathermap-weather-maps-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-solar-panels-api-openapi.yml
+- filename: openweathermap-stations-api-openapi.yml
   format: yaml
-  label: Weather Maps 1.0
-  slug: weather-maps
+  label: OpenWeatherMap Stations API
+  slug: openweathermap-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-weather-maps-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-stations-api-openapi.yml
+- filename: openweathermap-statistical-weather-api-openapi.yml
+  format: yaml
+  label: OpenWeatherMap Statistical Weather API
+  slug: openweathermap-statistical-weather-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-statistical-weather-api-openapi.yml
+- filename: openweathermap-weather-maps-api-openapi.yml
+  format: yaml
+  label: OpenWeatherMap Weather Maps API
+  slug: openweathermap-weather-maps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-weather-maps-api-openapi.yml
 description: ''
 domains:
 - caa: []

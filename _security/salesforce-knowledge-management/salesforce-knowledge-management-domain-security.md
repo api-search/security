@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: salesforce-knowledge-management-rest-api-openapi.yml
+- filename: salesforce-knowledge-management-articles-api-openapi.yml
   format: yaml
-  label: Salesforce Knowledge REST API
-  slug: salesforce-knowledge-rest-api
+  label: Salesforce Knowledge Management Articles API
+  slug: salesforce-knowledge-management-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/openapi/salesforce-knowledge-management-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/openapi/salesforce-knowledge-management-articles-api-openapi.yml
+- filename: salesforce-knowledge-management-categories-api-openapi.yml
+  format: yaml
+  label: Salesforce Knowledge Management Categories API
+  slug: salesforce-knowledge-management-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/openapi/salesforce-knowledge-management-categories-api-openapi.yml
+- filename: salesforce-knowledge-management-search-api-openapi.yml
+  format: yaml
+  label: Salesforce Knowledge Management Search API
+  slug: salesforce-knowledge-management-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/openapi/salesforce-knowledge-management-search-api-openapi.yml
+- filename: salesforce-knowledge-management-suggestions-api-openapi.yml
+  format: yaml
+  label: Salesforce Knowledge Management Suggestions API
+  slug: salesforce-knowledge-management-suggestions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/openapi/salesforce-knowledge-management-suggestions-api-openapi.yml
 description: ''
 domains:
 - caa: []

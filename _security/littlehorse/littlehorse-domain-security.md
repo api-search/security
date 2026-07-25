@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: littlehorse-api.yml
+- filename: littlehorse-external-events-api-openapi.yml
   format: yaml
-  label: LittleHorse
-  slug: littlehorse
+  label: LittleHorse External Events API
+  slug: littlehorse-external-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/openapi/littlehorse-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/openapi/littlehorse-external-events-api-openapi.yml
+- filename: littlehorse-node-runs-api-openapi.yml
+  format: yaml
+  label: LittleHorse Node Runs API
+  slug: littlehorse-node-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/openapi/littlehorse-node-runs-api-openapi.yml
+- filename: littlehorse-task-definitions-api-openapi.yml
+  format: yaml
+  label: LittleHorse Task Definitions API
+  slug: littlehorse-task-definitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/openapi/littlehorse-task-definitions-api-openapi.yml
+- filename: littlehorse-user-tasks-api-openapi.yml
+  format: yaml
+  label: LittleHorse User Tasks API
+  slug: littlehorse-user-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/openapi/littlehorse-user-tasks-api-openapi.yml
+- filename: littlehorse-workflow-runs-api-openapi.yml
+  format: yaml
+  label: LittleHorse Workflow Runs API
+  slug: littlehorse-workflow-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/openapi/littlehorse-workflow-runs-api-openapi.yml
+- filename: littlehorse-workflow-specs-api-openapi.yml
+  format: yaml
+  label: LittleHorse Workflow Specs API
+  slug: littlehorse-workflow-specs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/openapi/littlehorse-workflow-specs-api-openapi.yml
 description: ''
 domains:
 - caa: []

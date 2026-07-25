@@ -2,18 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: ptc-thingworx-rest-openapi.yml
-  format: yaml
-  label: PTC ThingWorx REST API
-  slug: thingworx-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-rest-openapi.yml
 - filename: ptc-thingworx-websocket-asyncapi.yml
   format: yaml
   label: PTC ThingWorx WebSocket/AlwaysOn API
   slug: thingworx-websocket-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/asyncapi/ptc-thingworx-websocket-asyncapi.yml
+- filename: ptc-thingworx-datashapes-api-openapi.yml
+  format: yaml
+  label: ptc-thingworx DataShapes API
+  slug: ptc-thingworx-datashapes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-datashapes-api-openapi.yml
+- filename: ptc-thingworx-events-api-openapi.yml
+  format: yaml
+  label: ptc-thingworx Events API
+  slug: ptc-thingworx-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-events-api-openapi.yml
+- filename: ptc-thingworx-properties-api-openapi.yml
+  format: yaml
+  label: ptc-thingworx Properties API
+  slug: ptc-thingworx-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-properties-api-openapi.yml
+- filename: ptc-thingworx-things-api-openapi.yml
+  format: yaml
+  label: ptc-thingworx Things API
+  slug: ptc-thingworx-things-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-things-api-openapi.yml
+- filename: ptc-thingworx-thingtemplates-api-openapi.yml
+  format: yaml
+  label: ptc-thingworx ThingTemplates API
+  slug: ptc-thingworx-thingtemplates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-thingtemplates-api-openapi.yml
+- filename: ptc-thingworx-valuestreams-api-openapi.yml
+  format: yaml
+  label: ptc-thingworx ValueStreams API
+  slug: ptc-thingworx-valuestreams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-valuestreams-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

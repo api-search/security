@@ -1,11 +1,77 @@
 ---
 api_specs:
-- filename: uniswap-trading-openapi.yaml
+- filename: uniswap-approval-api-openapi.yml
   format: yaml
-  label: Uniswap Trading API
-  slug: uniswap-trading-api
+  label: Uniswap Approval API
+  slug: uniswap-approval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-trading-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-approval-api-openapi.yml
+- filename: uniswap-limitorderquote-api-openapi.yml
+  format: yaml
+  label: Uniswap LimitOrderQuote API
+  slug: uniswap-limitorderquote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-limitorderquote-api-openapi.yml
+- filename: uniswap-liquidity-api-openapi.yml
+  format: yaml
+  label: Uniswap Liquidity API
+  slug: uniswap-liquidity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-liquidity-api-openapi.yml
+- filename: uniswap-order-api-openapi.yml
+  format: yaml
+  label: Uniswap Order API
+  slug: uniswap-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-order-api-openapi.yml
+- filename: uniswap-plan-api-openapi.yml
+  format: yaml
+  label: Uniswap Plan API
+  slug: uniswap-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-plan-api-openapi.yml
+- filename: uniswap-quote-api-openapi.yml
+  format: yaml
+  label: Uniswap Quote API
+  slug: uniswap-quote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-quote-api-openapi.yml
+- filename: uniswap-send-api-openapi.yml
+  format: yaml
+  label: Uniswap Send API
+  slug: uniswap-send-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-send-api-openapi.yml
+- filename: uniswap-swap-api-openapi.yml
+  format: yaml
+  label: Uniswap Swap API
+  slug: uniswap-swap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-swap-api-openapi.yml
+- filename: uniswap-swappabletokens-api-openapi.yml
+  format: yaml
+  label: Uniswap SwappableTokens API
+  slug: uniswap-swappabletokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-swappabletokens-api-openapi.yml
+- filename: uniswap-wallet-api-openapi.yml
+  format: yaml
+  label: Uniswap Wallet API
+  slug: uniswap-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-wallet-api-openapi.yml
+- filename: uniswap-walletcheckdelegation-api-openapi.yml
+  format: yaml
+  label: Uniswap WalletCheckDelegation API
+  slug: uniswap-walletcheckdelegation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-walletcheckdelegation-api-openapi.yml
+- filename: uniswap-walletencode7702-api-openapi.yml
+  format: yaml
+  label: Uniswap WalletEncode7702 API
+  slug: uniswap-walletencode7702-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-walletencode7702-api-openapi.yml
 description: ''
 domains:
 - caa:

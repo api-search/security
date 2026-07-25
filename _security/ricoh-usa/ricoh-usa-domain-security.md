@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: theta-web-api-openapi.yml
+- filename: ricoh-usa-protocol-api-openapi.yml
   format: yaml
-  label: RICOH THETA Web API
-  slug: theta-web-api
+  label: Ricoh USA Protocol API
+  slug: ricoh-usa-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ricoh-usa/refs/heads/main/openapi/theta-web-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ricoh-usa/refs/heads/main/openapi/ricoh-usa-protocol-api-openapi.yml
 description: ''
 domains:
 - caa: []

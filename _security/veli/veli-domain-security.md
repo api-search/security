@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: veli-openapi.yml
+- filename: veli-orders-api-openapi.yml
   format: yaml
-  label: Veli API
-  slug: veli
+  label: Veli Orders API
+  slug: veli-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/openapi/veli-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/openapi/veli-orders-api-openapi.yml
+- filename: veli-performance-api-openapi.yml
+  format: yaml
+  label: Veli Performance API
+  slug: veli-performance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/openapi/veli-performance-api-openapi.yml
+- filename: veli-portfolios-api-openapi.yml
+  format: yaml
+  label: Veli Portfolios API
+  slug: veli-portfolios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/openapi/veli-portfolios-api-openapi.yml
+- filename: veli-positions-api-openapi.yml
+  format: yaml
+  label: Veli Positions API
+  slug: veli-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/openapi/veli-positions-api-openapi.yml
+- filename: veli-strategies-api-openapi.yml
+  format: yaml
+  label: Veli Strategies API
+  slug: veli-strategies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/openapi/veli-strategies-api-openapi.yml
 description: ''
 domains:
 - caa: []

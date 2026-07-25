@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: volkswagen-okapi-openapi.yml
+- filename: volkswagen-catalog-api-openapi.yml
   format: yaml
-  label: Volkswagen OKAPI - Open Konfigurator API
-  slug: volkswagen-okapi
+  label: Volkswagen Catalog API
+  slug: volkswagen-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/openapi/volkswagen-okapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/openapi/volkswagen-catalog-api-openapi.yml
+- filename: volkswagen-configuration-api-openapi.yml
+  format: yaml
+  label: Volkswagen Configuration API
+  slug: volkswagen-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/openapi/volkswagen-configuration-api-openapi.yml
+- filename: volkswagen-information-api-openapi.yml
+  format: yaml
+  label: Volkswagen Information API
+  slug: volkswagen-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/openapi/volkswagen-information-api-openapi.yml
 auth_types:
 - http
 description: ''

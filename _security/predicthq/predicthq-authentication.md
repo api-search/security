@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: predicthq-openapi.yml
+- filename: predicthq-events-api-openapi.yml
   format: yaml
-  label: PredictHQ API
-  slug: predicthq-api
+  label: PredictHQ Events API
+  slug: predicthq-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/openapi/predicthq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/openapi/predicthq-events-api-openapi.yml
+- filename: predicthq-features-api-openapi.yml
+  format: yaml
+  label: PredictHQ Features API
+  slug: predicthq-features-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/openapi/predicthq-features-api-openapi.yml
+- filename: predicthq-places-api-openapi.yml
+  format: yaml
+  label: PredictHQ Places API
+  slug: predicthq-places-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/openapi/predicthq-places-api-openapi.yml
+- filename: predicthq-suggested-radius-api-openapi.yml
+  format: yaml
+  label: PredictHQ Suggested Radius API
+  slug: predicthq-suggested-radius-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/openapi/predicthq-suggested-radius-api-openapi.yml
 auth_types:
 - http
 description: ''

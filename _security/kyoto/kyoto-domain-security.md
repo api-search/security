@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: kyoto-kurenai-oai.yaml
+- filename: kyoto-oai-pmh-api-openapi.yml
   format: yaml
-  label: KURENAI OAI-PMH Metadata API
-  slug: kurenai-oai
+  label: Kyoto University OAI-PMH API
+  slug: kyoto-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/openapi/kyoto-kurenai-oai.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/openapi/kyoto-oai-pmh-api-openapi.yml
+- filename: kyoto-rest-api-openapi.yml
+  format: yaml
+  label: Kyoto University REST API
+  slug: kyoto-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/openapi/kyoto-rest-api-openapi.yml
 description: ''
 domains:
 - caa: []

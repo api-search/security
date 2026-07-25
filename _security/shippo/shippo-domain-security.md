@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: shippo-openapi.yml
+- filename: shippo-addresses-api-openapi.yml
   format: yaml
-  label: Shippo API
-  slug: shippo-api
+  label: Shippo Addresses API
+  slug: shippo-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/openapi/shippo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/openapi/shippo-addresses-api-openapi.yml
+- filename: shippo-carrier-accounts-api-openapi.yml
+  format: yaml
+  label: Shippo Carrier Accounts API
+  slug: shippo-carrier-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/openapi/shippo-carrier-accounts-api-openapi.yml
+- filename: shippo-parcels-api-openapi.yml
+  format: yaml
+  label: Shippo Parcels API
+  slug: shippo-parcels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/openapi/shippo-parcels-api-openapi.yml
+- filename: shippo-rates-api-openapi.yml
+  format: yaml
+  label: Shippo Rates API
+  slug: shippo-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/openapi/shippo-rates-api-openapi.yml
+- filename: shippo-refunds-api-openapi.yml
+  format: yaml
+  label: Shippo Refunds API
+  slug: shippo-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/openapi/shippo-refunds-api-openapi.yml
+- filename: shippo-shipments-api-openapi.yml
+  format: yaml
+  label: Shippo Shipments API
+  slug: shippo-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/openapi/shippo-shipments-api-openapi.yml
+- filename: shippo-tracking-api-openapi.yml
+  format: yaml
+  label: Shippo Tracking API
+  slug: shippo-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/openapi/shippo-tracking-api-openapi.yml
+- filename: shippo-transactions-api-openapi.yml
+  format: yaml
+  label: Shippo Transactions API
+  slug: shippo-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/openapi/shippo-transactions-api-openapi.yml
+- filename: shippo-webhooks-api-openapi.yml
+  format: yaml
+  label: Shippo Webhooks API
+  slug: shippo-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/openapi/shippo-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

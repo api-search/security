@@ -1,17 +1,59 @@
 ---
 api_specs:
-- filename: windstream-voice-openapi.yml
+- filename: windstream-holdings-agents-api-openapi.yml
   format: yaml
-  label: Windstream Enterprise Voice API
-  slug: windstream-voice-api
+  label: Windstream Holdings agents API
+  slug: windstream-holdings-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-voice-openapi.yml
-- filename: windstream-contact-center-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-agents-api-openapi.yml
+- filename: windstream-holdings-auto-attendants-api-openapi.yml
   format: yaml
-  label: Windstream Enterprise Contact Center Services API
-  slug: windstream-contact-center-api
+  label: Windstream Holdings auto-attendants API
+  slug: windstream-holdings-auto-attendants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-contact-center-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-auto-attendants-api-openapi.yml
+- filename: windstream-holdings-calls-api-openapi.yml
+  format: yaml
+  label: Windstream Holdings calls API
+  slug: windstream-holdings-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-calls-api-openapi.yml
+- filename: windstream-holdings-extensions-api-openapi.yml
+  format: yaml
+  label: Windstream Holdings extensions API
+  slug: windstream-holdings-extensions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-extensions-api-openapi.yml
+- filename: windstream-holdings-products-api-openapi.yml
+  format: yaml
+  label: Windstream Holdings products API
+  slug: windstream-holdings-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-products-api-openapi.yml
+- filename: windstream-holdings-roles-api-openapi.yml
+  format: yaml
+  label: Windstream Holdings roles API
+  slug: windstream-holdings-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-roles-api-openapi.yml
+- filename: windstream-holdings-system-api-openapi.yml
+  format: yaml
+  label: Windstream Holdings system API
+  slug: windstream-holdings-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-system-api-openapi.yml
+- filename: windstream-holdings-tenants-api-openapi.yml
+  format: yaml
+  label: Windstream Holdings tenants API
+  slug: windstream-holdings-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-tenants-api-openapi.yml
+- filename: windstream-holdings-users-api-openapi.yml
+  format: yaml
+  label: Windstream Holdings users API
+  slug: windstream-holdings-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

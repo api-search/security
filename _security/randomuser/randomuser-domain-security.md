@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: randomuser-openapi.yml
+- filename: randomuser-users-api-openapi.yml
   format: yaml
-  label: Random User Generator API
-  slug: randomuser
+  label: Random User Generator Users API
+  slug: randomuser-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/randomuser/refs/heads/main/openapi/randomuser-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/randomuser/refs/heads/main/openapi/randomuser-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

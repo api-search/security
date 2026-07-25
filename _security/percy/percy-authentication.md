@@ -1,30 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: percy-openapi.yml
+- filename: percy-builds-api-openapi.yml
   format: yaml
   label: Percy Builds API
   slug: percy-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/percy/refs/heads/main/openapi/percy-openapi.yml
-- filename: percy-openapi.yml
-  format: yaml
-  label: Percy Snapshots API
-  slug: percy-snapshots-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/percy/refs/heads/main/openapi/percy-openapi.yml
-- filename: percy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/percy/refs/heads/main/openapi/percy-builds-api-openapi.yml
+- filename: percy-projects-api-openapi.yml
   format: yaml
   label: Percy Projects API
   slug: percy-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/percy/refs/heads/main/openapi/percy-openapi.yml
-- filename: percy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/percy/refs/heads/main/openapi/percy-projects-api-openapi.yml
+- filename: percy-snapshots-api-openapi.yml
+  format: yaml
+  label: Percy Snapshots API
+  slug: percy-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/percy/refs/heads/main/openapi/percy-snapshots-api-openapi.yml
+- filename: percy-visual-git-api-openapi.yml
   format: yaml
   label: Percy Visual Git API
   slug: percy-visual-git-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/percy/refs/heads/main/openapi/percy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/percy/refs/heads/main/openapi/percy-visual-git-api-openapi.yml
 auth_types:
 - apiKey
 - http

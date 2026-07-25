@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: amazon-iot-twinmaker-openapi-original.yml
+- filename: amazon-iot-twinmaker-pricingplan-api-openapi.yml
   format: yaml
-  label: AWS IoT TwinMaker API
-  slug: aws-iot-twinmaker-api
+  label: Amazon IoT TwinMaker Pricingplan API
+  slug: amazon-iot-twinmaker-pricingplan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-pricingplan-api-openapi.yml
+- filename: amazon-iot-twinmaker-queries-api-openapi.yml
+  format: yaml
+  label: Amazon IoT TwinMaker Queries API
+  slug: amazon-iot-twinmaker-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-queries-api-openapi.yml
+- filename: amazon-iot-twinmaker-sync-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon IoT TwinMaker Sync Jobs API
+  slug: amazon-iot-twinmaker-sync-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-sync-jobs-api-openapi.yml
+- filename: amazon-iot-twinmaker-tags-api-openapi.yml
+  format: yaml
+  label: Amazon IoT TwinMaker Tags API
+  slug: amazon-iot-twinmaker-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-tags-api-openapi.yml
+- filename: amazon-iot-twinmaker-tags-list-api-openapi.yml
+  format: yaml
+  label: Amazon IoT TwinMaker Tags List API
+  slug: amazon-iot-twinmaker-tags-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-tags-list-api-openapi.yml
+- filename: amazon-iot-twinmaker-tags-resourcearn-tagkeys-api-openapi.yml
+  format: yaml
+  label: Amazon IoT TwinMaker Tags#resourceARN&tagKeys API
+  slug: amazon-iot-twinmaker-tags-resourcearn-tagkeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-tags-resourcearn-tagkeys-api-openapi.yml
+- filename: amazon-iot-twinmaker-workspaces-api-openapi.yml
+  format: yaml
+  label: Amazon IoT TwinMaker Workspaces API
+  slug: amazon-iot-twinmaker-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-workspaces-api-openapi.yml
+- filename: amazon-iot-twinmaker-workspaces-list-api-openapi.yml
+  format: yaml
+  label: Amazon IoT TwinMaker Workspaces List API
+  slug: amazon-iot-twinmaker-workspaces-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-workspaces-list-api-openapi.yml
 description: ''
 domains:
 - caa: []

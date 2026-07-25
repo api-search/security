@@ -1,11 +1,119 @@
 ---
 api_specs:
-- filename: gitbook-gitbook-api-openapi.yml
+- filename: gitbook-change-request-content-api-openapi.yml
   format: yaml
-  label: GitBook
-  slug: gitbook
+  label: GitBook Change Request Content API
+  slug: gitbook-change-request-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/openapi/gitbook-gitbook-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/openapi/gitbook-change-request-content-api-openapi.yml
+- filename: gitbook-change-request-reviewers-api-openapi.yml
+  format: yaml
+  label: GitBook Change Request Reviewers API
+  slug: gitbook-change-request-reviewers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/openapi/gitbook-change-request-reviewers-api-openapi.yml
+- filename: gitbook-change-requests-api-openapi.yml
+  format: yaml
+  label: GitBook Change Requests API
+  slug: gitbook-change-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/openapi/gitbook-change-requests-api-openapi.yml
+- filename: gitbook-collections-api-openapi.yml
+  format: yaml
+  label: GitBook Collections API
+  slug: gitbook-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/openapi/gitbook-collections-api-openapi.yml
+- filename: gitbook-custom-hostnames-api-openapi.yml
+  format: yaml
+  label: GitBook Custom Hostnames API
+  slug: gitbook-custom-hostnames-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/openapi/gitbook-custom-hostnames-api-openapi.yml
+- filename: gitbook-docs-sites-api-openapi.yml
+  format: yaml
+  label: GitBook Docs Sites API
+  slug: gitbook-docs-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/openapi/gitbook-docs-sites-api-openapi.yml
+- filename: gitbook-imports-api-openapi.yml
+  format: yaml
+  label: GitBook Imports API
+  slug: gitbook-imports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/openapi/gitbook-imports-api-openapi.yml
+- filename: gitbook-integrations-api-openapi.yml
+  format: yaml
+  label: GitBook Integrations API
+  slug: gitbook-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/openapi/gitbook-integrations-api-openapi.yml
+- filename: gitbook-openapi-specs-api-openapi.yml
+  format: yaml
+  label: GitBook OpenAPI Specs API
+  slug: gitbook-openapi-specs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/openapi/gitbook-openapi-specs-api-openapi.yml
+- filename: gitbook-organization-members-api-openapi.yml
+  format: yaml
+  label: GitBook Organization Members API
+  slug: gitbook-organization-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/openapi/gitbook-organization-members-api-openapi.yml
+- filename: gitbook-organization-teams-api-openapi.yml
+  format: yaml
+  label: GitBook Organization Teams API
+  slug: gitbook-organization-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/openapi/gitbook-organization-teams-api-openapi.yml
+- filename: gitbook-organizations-api-openapi.yml
+  format: yaml
+  label: GitBook Organizations API
+  slug: gitbook-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/openapi/gitbook-organizations-api-openapi.yml
+- filename: gitbook-search-api-openapi.yml
+  format: yaml
+  label: GitBook Search API
+  slug: gitbook-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/openapi/gitbook-search-api-openapi.yml
+- filename: gitbook-site-spaces-api-openapi.yml
+  format: yaml
+  label: GitBook Site Spaces API
+  slug: gitbook-site-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/openapi/gitbook-site-spaces-api-openapi.yml
+- filename: gitbook-space-content-api-openapi.yml
+  format: yaml
+  label: GitBook Space Content API
+  slug: gitbook-space-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/openapi/gitbook-space-content-api-openapi.yml
+- filename: gitbook-space-users-api-openapi.yml
+  format: yaml
+  label: GitBook Space Users API
+  slug: gitbook-space-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/openapi/gitbook-space-users-api-openapi.yml
+- filename: gitbook-spaces-api-openapi.yml
+  format: yaml
+  label: GitBook Spaces API
+  slug: gitbook-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/openapi/gitbook-spaces-api-openapi.yml
+- filename: gitbook-urls-api-openapi.yml
+  format: yaml
+  label: GitBook URLs API
+  slug: gitbook-urls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/openapi/gitbook-urls-api-openapi.yml
+- filename: gitbook-users-api-openapi.yml
+  format: yaml
+  label: GitBook Users API
+  slug: gitbook-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/openapi/gitbook-users-api-openapi.yml
 description: ''
 domains:
 - caa:

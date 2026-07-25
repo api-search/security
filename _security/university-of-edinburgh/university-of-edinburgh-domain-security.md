@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: university-of-edinburgh-datashare-rest.yaml
+- filename: university-of-edinburgh-bitstreams-api-openapi.yml
   format: yaml
-  label: Edinburgh DataShare REST API
-  slug: datashare-rest
+  label: University of Edinburgh Bitstreams API
+  slug: university-of-edinburgh-bitstreams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-datashare-rest.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-bitstreams-api-openapi.yml
+- filename: university-of-edinburgh-collections-api-openapi.yml
+  format: yaml
+  label: University of Edinburgh Collections API
+  slug: university-of-edinburgh-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-collections-api-openapi.yml
+- filename: university-of-edinburgh-communities-api-openapi.yml
+  format: yaml
+  label: University of Edinburgh Communities API
+  slug: university-of-edinburgh-communities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-communities-api-openapi.yml
+- filename: university-of-edinburgh-hierarchy-api-openapi.yml
+  format: yaml
+  label: University of Edinburgh Hierarchy API
+  slug: university-of-edinburgh-hierarchy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-hierarchy-api-openapi.yml
+- filename: university-of-edinburgh-items-api-openapi.yml
+  format: yaml
+  label: University of Edinburgh Items API
+  slug: university-of-edinburgh-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-items-api-openapi.yml
+- filename: university-of-edinburgh-registries-api-openapi.yml
+  format: yaml
+  label: University of Edinburgh Registries API
+  slug: university-of-edinburgh-registries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-registries-api-openapi.yml
+- filename: university-of-edinburgh-status-api-openapi.yml
+  format: yaml
+  label: University of Edinburgh Status API
+  slug: university-of-edinburgh-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

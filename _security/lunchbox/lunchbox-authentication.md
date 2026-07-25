@@ -2,30 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: lunchbox-core-openapi.yml
+- filename: lunchbox-customer-api-openapi.yml
   format: yaml
-  label: Lunchbox Core API
-  slug: core-api
+  label: Lunchbox Customer API
+  slug: lunchbox-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/openapi/lunchbox-core-openapi.yml
-- filename: lunchbox-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/openapi/lunchbox-customer-api-openapi.yml
+- filename: lunchbox-misc-api-openapi.yml
   format: yaml
-  label: Lunchbox Management API
-  slug: management-api
+  label: Lunchbox Misc API
+  slug: lunchbox-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/openapi/lunchbox-management-openapi.yml
-- filename: lunchbox-loyalty-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/openapi/lunchbox-misc-api-openapi.yml
+- filename: lunchbox-orders-api-openapi.yml
   format: yaml
-  label: Lunchbox Loyalty API
-  slug: loyalty-api
+  label: Lunchbox Orders API
+  slug: lunchbox-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/openapi/lunchbox-loyalty-openapi.yml
-- filename: lunchbox-pos-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/openapi/lunchbox-orders-api-openapi.yml
+- filename: lunchbox-service-types-api-openapi.yml
   format: yaml
-  label: Lunchbox POS API
-  slug: pos-api
+  label: Lunchbox Service Types API
+  slug: lunchbox-service-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/openapi/lunchbox-pos-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/openapi/lunchbox-service-types-api-openapi.yml
+- filename: lunchbox-stores-api-openapi.yml
+  format: yaml
+  label: Lunchbox Stores API
+  slug: lunchbox-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/openapi/lunchbox-stores-api-openapi.yml
+- filename: lunchbox-user-wallet-api-openapi.yml
+  format: yaml
+  label: Lunchbox User Wallet API
+  slug: lunchbox-user-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/openapi/lunchbox-user-wallet-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

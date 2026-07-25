@@ -1,6 +1,31 @@
 ---
 api_key_in:
 - header
+api_specs:
+- filename: microsoft-net-packagecontent-api-openapi.yml
+  format: yaml
+  label: Microsoft .NET PackageContent API
+  slug: microsoft-net-packagecontent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/openapi/microsoft-net-packagecontent-api-openapi.yml
+- filename: microsoft-net-registration-api-openapi.yml
+  format: yaml
+  label: Microsoft .NET Registration API
+  slug: microsoft-net-registration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/openapi/microsoft-net-registration-api-openapi.yml
+- filename: microsoft-net-search-api-openapi.yml
+  format: yaml
+  label: Microsoft .NET Search API
+  slug: microsoft-net-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/openapi/microsoft-net-search-api-openapi.yml
+- filename: microsoft-net-serviceindex-api-openapi.yml
+  format: yaml
+  label: Microsoft .NET ServiceIndex API
+  slug: microsoft-net-serviceindex-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/openapi/microsoft-net-serviceindex-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -3,30 +3,66 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: edamam-recipe-search-v2-openapi.yml
+- filename: edamam-recipes-food-nutrition-request-ai-vision-beta-api-openapi.yml
+  format: yaml
+  label: Edamam Food Nutrition Request - AI Vision (Beta) API
+  slug: edamam-recipes-food-nutrition-request-ai-vision-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-food-nutrition-request-ai-vision-beta-api-openapi.yml
+- filename: edamam-recipes-food-request-step-1-parser-api-openapi.yml
+  format: yaml
+  label: Edamam Food Request Step 1 - Parser API
+  slug: edamam-recipes-food-request-step-1-parser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-food-request-step-1-parser-api-openapi.yml
+- filename: edamam-recipes-food-request-step-2-nutrients-api-openapi.yml
+  format: yaml
+  label: Edamam Food Request Step 2 - Nutrients API
+  slug: edamam-recipes-food-request-step-2-nutrients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-food-request-step-2-nutrients-api-openapi.yml
+- filename: edamam-recipes-food-search-autocomplete-api-openapi.yml
+  format: yaml
+  label: Edamam Food Search Autocomplete API
+  slug: edamam-recipes-food-search-autocomplete-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-food-search-autocomplete-api-openapi.yml
+- filename: edamam-recipes-nutrition-data-api-openapi.yml
+  format: yaml
+  label: Edamam Nutrition Data API
+  slug: edamam-recipes-nutrition-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-nutrition-data-api-openapi.yml
+- filename: edamam-recipes-nutrition-details-api-openapi.yml
+  format: yaml
+  label: Edamam Nutrition Details API
+  slug: edamam-recipes-nutrition-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-nutrition-details-api-openapi.yml
+- filename: edamam-recipes-planner-api-openapi.yml
+  format: yaml
+  label: Edamam planner API
+  slug: edamam-recipes-planner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-planner-api-openapi.yml
+- filename: edamam-recipes-recipe-search-api-openapi.yml
   format: yaml
   label: Edamam Recipe Search API
-  slug: edamam-recipe-search-api
+  slug: edamam-recipes-recipe-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipe-search-v2-openapi.yml
-- filename: edamam-nutrition-analysis-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-recipe-search-api-openapi.yml
+- filename: edamam-recipes-shopping-list-api-openapi.yml
   format: yaml
-  label: Edamam Nutrition Analysis API
-  slug: edamam-nutrition-analysis-api
+  label: Edamam Shopping List API
+  slug: edamam-recipes-shopping-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-nutrition-analysis-v1-openapi.yml
-- filename: edamam-food-database-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-shopping-list-api-openapi.yml
+- filename: edamam-recipes-values-api-openapi.yml
   format: yaml
-  label: Edamam Food Database API
-  slug: edamam-food-database-api
+  label: Edamam values API
+  slug: edamam-recipes-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-food-database-v2-openapi.yml
-- filename: edamam-meal-planner-v1-openapi.yml
-  format: yaml
-  label: Edamam Meal Planner API
-  slug: edamam-meal-planner-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-meal-planner-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-values-api-openapi.yml
 auth_types:
 - apiKey
 - http

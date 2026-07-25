@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: guntab-openapi.yml
+- filename: guntab-ffls-api-openapi.yml
   format: yaml
-  label: GunTab REST API
-  slug: guntab-api
+  label: GunTab FFLs API
+  slug: guntab-ffls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guntab/refs/heads/main/openapi/guntab-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/guntab/refs/heads/main/openapi/guntab-ffls-api-openapi.yml
+- filename: guntab-invoices-api-openapi.yml
+  format: yaml
+  label: GunTab Invoices API
+  slug: guntab-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guntab/refs/heads/main/openapi/guntab-invoices-api-openapi.yml
+- filename: guntab-users-api-openapi.yml
+  format: yaml
+  label: GunTab Users API
+  slug: guntab-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guntab/refs/heads/main/openapi/guntab-users-api-openapi.yml
+- filename: guntab-webhooks-api-openapi.yml
+  format: yaml
+  label: GunTab Webhooks API
+  slug: guntab-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guntab/refs/heads/main/openapi/guntab-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

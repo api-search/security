@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: leadiq-data-api-openapi.yml
+- filename: leadiq-graphql-api-openapi.yml
   format: yaml
-  label: LeadIQ Data API
-  slug: leadiq-data-api
+  label: LeadIQ GraphQL API
+  slug: leadiq-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/openapi/leadiq-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/openapi/leadiq-graphql-api-openapi.yml
 description: ''
 domains:
 - caa: []

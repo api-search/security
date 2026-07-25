@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: exec-openapi-original.yml
+- filename: exec-collections-api-openapi.yml
   format: yaml
-  label: Exec API
-  slug: exec-api
+  label: Exec Collections API
+  slug: exec-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/openapi/exec-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/openapi/exec-collections-api-openapi.yml
+- filename: exec-knowledge-hub-folders-api-openapi.yml
+  format: yaml
+  label: Exec Knowledge Hub - Folders API
+  slug: exec-knowledge-hub-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/openapi/exec-knowledge-hub-folders-api-openapi.yml
+- filename: exec-knowledge-hub-pages-api-openapi.yml
+  format: yaml
+  label: Exec Knowledge Hub - Pages API
+  slug: exec-knowledge-hub-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/openapi/exec-knowledge-hub-pages-api-openapi.yml
+- filename: exec-knowledge-hub-sources-api-openapi.yml
+  format: yaml
+  label: Exec Knowledge Hub - Sources API
+  slug: exec-knowledge-hub-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/openapi/exec-knowledge-hub-sources-api-openapi.yml
+- filename: exec-scenario-studio-api-openapi.yml
+  format: yaml
+  label: Exec Scenario Studio API
+  slug: exec-scenario-studio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/openapi/exec-scenario-studio-api-openapi.yml
+- filename: exec-scenarios-api-openapi.yml
+  format: yaml
+  label: Exec Scenarios API
+  slug: exec-scenarios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/openapi/exec-scenarios-api-openapi.yml
+- filename: exec-sessions-api-openapi.yml
+  format: yaml
+  label: Exec Sessions API
+  slug: exec-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/openapi/exec-sessions-api-openapi.yml
+- filename: exec-skills-api-openapi.yml
+  format: yaml
+  label: Exec Skills API
+  slug: exec-skills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/openapi/exec-skills-api-openapi.yml
+- filename: exec-workspace-api-openapi.yml
+  format: yaml
+  label: Exec Workspace API
+  slug: exec-workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/openapi/exec-workspace-api-openapi.yml
 certifications:
 - SOC 2 Type II
 - SOC 3

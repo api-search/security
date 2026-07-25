@@ -1,18 +1,84 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sysdig-monitor-openapi.yml
+- filename: sysdig-activity-audit-api-openapi.yml
   format: yaml
-  label: Sysdig Monitor
-  slug: sysdig-monitor
+  label: Sysdig Activity Audit API
+  slug: sysdig-activity-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-monitor-openapi.yml
-- filename: sysdig-secure-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-activity-audit-api-openapi.yml
+- filename: sysdig-alerts-api-openapi.yml
   format: yaml
-  label: Sysdig Secure
-  slug: sysdig-secure
+  label: Sysdig Alerts API
+  slug: sysdig-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-secure-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-alerts-api-openapi.yml
+- filename: sysdig-compliance-api-openapi.yml
+  format: yaml
+  label: Sysdig Compliance API
+  slug: sysdig-compliance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-compliance-api-openapi.yml
+- filename: sysdig-dashboards-api-openapi.yml
+  format: yaml
+  label: Sysdig Dashboards API
+  slug: sysdig-dashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-dashboards-api-openapi.yml
+- filename: sysdig-events-api-openapi.yml
+  format: yaml
+  label: Sysdig Events API
+  slug: sysdig-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-events-api-openapi.yml
+- filename: sysdig-image-scanning-api-openapi.yml
+  format: yaml
+  label: Sysdig Image Scanning API
+  slug: sysdig-image-scanning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-image-scanning-api-openapi.yml
+- filename: sysdig-metrics-api-openapi.yml
+  format: yaml
+  label: Sysdig Metrics API
+  slug: sysdig-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-metrics-api-openapi.yml
+- filename: sysdig-notification-channels-api-openapi.yml
+  format: yaml
+  label: Sysdig Notification Channels API
+  slug: sysdig-notification-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-notification-channels-api-openapi.yml
+- filename: sysdig-policies-api-openapi.yml
+  format: yaml
+  label: Sysdig Policies API
+  slug: sysdig-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-policies-api-openapi.yml
+- filename: sysdig-rules-api-openapi.yml
+  format: yaml
+  label: Sysdig Rules API
+  slug: sysdig-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-rules-api-openapi.yml
+- filename: sysdig-sbom-api-openapi.yml
+  format: yaml
+  label: Sysdig SBOM API
+  slug: sysdig-sbom-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-sbom-api-openapi.yml
+- filename: sysdig-teams-api-openapi.yml
+  format: yaml
+  label: Sysdig Teams API
+  slug: sysdig-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-teams-api-openapi.yml
+- filename: sysdig-vulnerabilities-api-openapi.yml
+  format: yaml
+  label: Sysdig Vulnerabilities API
+  slug: sysdig-vulnerabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-vulnerabilities-api-openapi.yml
 auth_types:
 - http
 description: ''

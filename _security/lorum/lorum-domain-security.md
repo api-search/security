@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: lorum-openapi-original.json
-  format: json
-  label: Lorum (Fuse) API
-  slug: lorum-fuse-api
+- filename: lorum-accounts-api-openapi.yml
+  format: yaml
+  label: Lorum Accounts API
+  slug: lorum-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lorum/refs/heads/main/openapi/lorum-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/lorum/refs/heads/main/openapi/lorum-accounts-api-openapi.yml
+- filename: lorum-customers-api-openapi.yml
+  format: yaml
+  label: Lorum Customers API
+  slug: lorum-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lorum/refs/heads/main/openapi/lorum-customers-api-openapi.yml
+- filename: lorum-customers-v2-api-openapi.yml
+  format: yaml
+  label: Lorum Customers V2 API
+  slug: lorum-customers-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lorum/refs/heads/main/openapi/lorum-customers-v2-api-openapi.yml
+- filename: lorum-documents-api-openapi.yml
+  format: yaml
+  label: Lorum Documents API
+  slug: lorum-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lorum/refs/heads/main/openapi/lorum-documents-api-openapi.yml
+- filename: lorum-exchange-api-openapi.yml
+  format: yaml
+  label: Lorum Exchange API
+  slug: lorum-exchange-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lorum/refs/heads/main/openapi/lorum-exchange-api-openapi.yml
+- filename: lorum-internal-transfers-api-openapi.yml
+  format: yaml
+  label: Lorum Internal Transfers API
+  slug: lorum-internal-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lorum/refs/heads/main/openapi/lorum-internal-transfers-api-openapi.yml
+- filename: lorum-oauth-api-openapi.yml
+  format: yaml
+  label: Lorum Oauth API
+  slug: lorum-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lorum/refs/heads/main/openapi/lorum-oauth-api-openapi.yml
+- filename: lorum-payments-api-openapi.yml
+  format: yaml
+  label: Lorum Payments API
+  slug: lorum-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lorum/refs/heads/main/openapi/lorum-payments-api-openapi.yml
+- filename: lorum-simulation-api-openapi.yml
+  format: yaml
+  label: Lorum Simulation API
+  slug: lorum-simulation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lorum/refs/heads/main/openapi/lorum-simulation-api-openapi.yml
+- filename: lorum-transactions-api-openapi.yml
+  format: yaml
+  label: Lorum Transactions API
+  slug: lorum-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lorum/refs/heads/main/openapi/lorum-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

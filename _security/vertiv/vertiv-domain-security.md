@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: vertiv-environet-alert-openapi.yml
+- filename: vertiv-alarms-api-openapi.yml
   format: yaml
-  label: Vertiv Environet Alert REST API
-  slug: environet-alert-rest-api
+  label: Vertiv Alarms API
+  slug: vertiv-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-environet-alert-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-alarms-api-openapi.yml
+- filename: vertiv-assets-api-openapi.yml
+  format: yaml
+  label: Vertiv Assets API
+  slug: vertiv-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-assets-api-openapi.yml
+- filename: vertiv-authentication-api-openapi.yml
+  format: yaml
+  label: Vertiv Authentication API
+  slug: vertiv-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-authentication-api-openapi.yml
+- filename: vertiv-circuits-api-openapi.yml
+  format: yaml
+  label: Vertiv Circuits API
+  slug: vertiv-circuits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-circuits-api-openapi.yml
+- filename: vertiv-data-sets-api-openapi.yml
+  format: yaml
+  label: Vertiv Data Sets API
+  slug: vertiv-data-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-data-sets-api-openapi.yml
+- filename: vertiv-devices-api-openapi.yml
+  format: yaml
+  label: Vertiv Devices API
+  slug: vertiv-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-devices-api-openapi.yml
+- filename: vertiv-racks-api-openapi.yml
+  format: yaml
+  label: Vertiv Racks API
+  slug: vertiv-racks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-racks-api-openapi.yml
+- filename: vertiv-sensors-api-openapi.yml
+  format: yaml
+  label: Vertiv Sensors API
+  slug: vertiv-sensors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-sensors-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,59 +1,65 @@
 ---
 api_specs:
-- filename: classy-org-openapi.yml
+- filename: classy-org-authentication-api-openapi.yml
   format: yaml
-  label: Classy Organizations API
-  slug: classy-org-organizations-api
+  label: Classy Authentication API
+  slug: classy-org-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-openapi.yml
-- filename: classy-org-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-authentication-api-openapi.yml
+- filename: classy-org-campaigns-api-openapi.yml
   format: yaml
   label: Classy Campaigns API
   slug: classy-org-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-openapi.yml
-- filename: classy-org-openapi.yml
-  format: yaml
-  label: Classy Fundraising Pages API
-  slug: classy-org-fundraising-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-openapi.yml
-- filename: classy-org-openapi.yml
-  format: yaml
-  label: Classy Fundraising Teams API
-  slug: classy-org-fundraising-teams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-openapi.yml
-- filename: classy-org-openapi.yml
-  format: yaml
-  label: Classy Transactions API
-  slug: classy-org-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-openapi.yml
-- filename: classy-org-openapi.yml
-  format: yaml
-  label: Classy Recurring Donation Plans API
-  slug: classy-org-recurring-donation-plans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-openapi.yml
-- filename: classy-org-openapi.yml
-  format: yaml
-  label: Classy Members API
-  slug: classy-org-members-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-openapi.yml
-- filename: classy-org-openapi.yml
-  format: yaml
-  label: Classy Supporters API
-  slug: classy-org-supporters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-openapi.yml
-- filename: classy-org-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-campaigns-api-openapi.yml
+- filename: classy-org-designations-api-openapi.yml
   format: yaml
   label: Classy Designations API
   slug: classy-org-designations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-designations-api-openapi.yml
+- filename: classy-org-fundraising-pages-api-openapi.yml
+  format: yaml
+  label: Classy Fundraising Pages API
+  slug: classy-org-fundraising-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-fundraising-pages-api-openapi.yml
+- filename: classy-org-fundraising-teams-api-openapi.yml
+  format: yaml
+  label: Classy Fundraising Teams API
+  slug: classy-org-fundraising-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-fundraising-teams-api-openapi.yml
+- filename: classy-org-members-api-openapi.yml
+  format: yaml
+  label: Classy Members API
+  slug: classy-org-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-members-api-openapi.yml
+- filename: classy-org-organizations-api-openapi.yml
+  format: yaml
+  label: Classy Organizations API
+  slug: classy-org-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-organizations-api-openapi.yml
+- filename: classy-org-recurring-donation-plans-api-openapi.yml
+  format: yaml
+  label: Classy Recurring Donation Plans API
+  slug: classy-org-recurring-donation-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-recurring-donation-plans-api-openapi.yml
+- filename: classy-org-supporters-api-openapi.yml
+  format: yaml
+  label: Classy Supporters API
+  slug: classy-org-supporters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-supporters-api-openapi.yml
+- filename: classy-org-transactions-api-openapi.yml
+  format: yaml
+  label: Classy Transactions API
+  slug: classy-org-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

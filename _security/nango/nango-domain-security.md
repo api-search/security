@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: nango-openapi.yml
+- filename: nango-actions-api-openapi.yml
   format: yaml
-  label: Nango
-  slug: nango
+  label: Nango Actions API
+  slug: nango-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/openapi/nango-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/openapi/nango-actions-api-openapi.yml
+- filename: nango-connections-api-openapi.yml
+  format: yaml
+  label: Nango Connections API
+  slug: nango-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/openapi/nango-connections-api-openapi.yml
+- filename: nango-integrations-api-openapi.yml
+  format: yaml
+  label: Nango Integrations API
+  slug: nango-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/openapi/nango-integrations-api-openapi.yml
+- filename: nango-proxy-api-openapi.yml
+  format: yaml
+  label: Nango Proxy API
+  slug: nango-proxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/openapi/nango-proxy-api-openapi.yml
+- filename: nango-syncs-api-openapi.yml
+  format: yaml
+  label: Nango Syncs API
+  slug: nango-syncs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/openapi/nango-syncs-api-openapi.yml
 description: ''
 domains:
 - caa: []

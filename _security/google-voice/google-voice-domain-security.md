@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-voice-locations-api-openapi.yml
   format: yaml
-  label: Google Voice API
-  slug: google-voice-api
+  label: Google Voice Locations API
+  slug: google-voice-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-voice/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-voice/refs/heads/main/openapi/google-voice-locations-api-openapi.yml
+- filename: google-voice-users-api-openapi.yml
+  format: yaml
+  label: Google Voice Users API
+  slug: google-voice-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-voice/refs/heads/main/openapi/google-voice-users-api-openapi.yml
 description: ''
 domains:
 - caa:

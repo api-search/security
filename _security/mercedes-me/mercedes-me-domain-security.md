@@ -1,29 +1,71 @@
 ---
 api_specs:
-- filename: mercedes-me-configurator-api-openapi.yml
+- filename: mercedes-me-components-api-openapi.yml
   format: yaml
-  label: Mercedes-Benz Car Configurator API
-  slug: mercedes-me-car-configurator-api
+  label: Mercedes-Benz Mercedes me Components API
+  slug: mercedes-me-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-configurator-api-openapi.yml
-- filename: mercedes-me-dealer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-components-api-openapi.yml
+- filename: mercedes-me-configurations-api-openapi.yml
   format: yaml
-  label: Mercedes-Benz Dealer API
-  slug: mercedes-me-dealer-api
+  label: Mercedes-Benz Mercedes me Configurations API
+  slug: mercedes-me-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-dealer-api-openapi.yml
-- filename: mercedes-me-vehicle-images-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-configurations-api-openapi.yml
+- filename: mercedes-me-dealer-search-api-openapi.yml
   format: yaml
-  label: Mercedes-Benz Vehicle Images API
-  slug: mercedes-me-vehicle-images-api
+  label: Mercedes-Benz Mercedes me Dealer search API
+  slug: mercedes-me-dealer-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-vehicle-images-api-openapi.yml
-- filename: mercedes-me-remote-diagnostic-support-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-dealer-search-api-openapi.yml
+- filename: mercedes-me-diagnostic-trouble-code-dtc-snapshots-api-openapi.yml
   format: yaml
-  label: Mercedes-Benz Remote Diagnostic Support API
-  slug: mercedes-me-remote-diagnostic-support-api
+  label: Mercedes-Benz Mercedes me Diagnostic Trouble Code (DTC) Snapshots API
+  slug: mercedes-me-diagnostic-trouble-code-dtc-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-remote-diagnostic-support-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-diagnostic-trouble-code-dtc-snapshots-api-openapi.yml
+- filename: mercedes-me-diagnostic-trouble-codes-dtc-s-api-openapi.yml
+  format: yaml
+  label: Mercedes-Benz Mercedes me Diagnostic Trouble Codes (DTC's) API
+  slug: mercedes-me-diagnostic-trouble-codes-dtc-s-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-diagnostic-trouble-codes-dtc-s-api-openapi.yml
+- filename: mercedes-me-electronical-control-units-ecu-s-api-openapi.yml
+  format: yaml
+  label: Mercedes-Benz Mercedes me Electronical Control Units (ECU's) API
+  slug: mercedes-me-electronical-control-units-ecu-s-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-electronical-control-units-ecu-s-api-openapi.yml
+- filename: mercedes-me-images-api-openapi.yml
+  format: yaml
+  label: Mercedes-Benz Mercedes me Images API
+  slug: mercedes-me-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-images-api-openapi.yml
+- filename: mercedes-me-perspectives-api-openapi.yml
+  format: yaml
+  label: Mercedes-Benz Mercedes me Perspectives API
+  slug: mercedes-me-perspectives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-perspectives-api-openapi.yml
+- filename: mercedes-me-references-api-openapi.yml
+  format: yaml
+  label: Mercedes-Benz Mercedes me References API
+  slug: mercedes-me-references-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-references-api-openapi.yml
+- filename: mercedes-me-resources-api-openapi.yml
+  format: yaml
+  label: Mercedes-Benz Mercedes me Resources API
+  slug: mercedes-me-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-resources-api-openapi.yml
+- filename: mercedes-me-saved-configurations-api-openapi.yml
+  format: yaml
+  label: Mercedes-Benz Mercedes me Saved configurations API
+  slug: mercedes-me-saved-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-saved-configurations-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,41 +1,35 @@
 ---
 api_specs:
-- filename: zuva-openapi.yml
-  format: yaml
-  label: Zuva Files API
-  slug: files
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/openapi/zuva-openapi.yml
-- filename: zuva-openapi.yml
-  format: yaml
-  label: Zuva Field Extraction API
-  slug: field-extraction
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/openapi/zuva-openapi.yml
-- filename: zuva-openapi.yml
+- filename: zuva-classification-api-openapi.yml
   format: yaml
   label: Zuva Classification API
-  slug: classification
+  slug: zuva-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/openapi/zuva-openapi.yml
-- filename: zuva-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/openapi/zuva-classification-api-openapi.yml
+- filename: zuva-field-extraction-api-openapi.yml
   format: yaml
-  label: Zuva Language API
-  slug: language
+  label: Zuva Field Extraction API
+  slug: zuva-field-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/openapi/zuva-openapi.yml
-- filename: zuva-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/openapi/zuva-field-extraction-api-openapi.yml
+- filename: zuva-fields-api-openapi.yml
+  format: yaml
+  label: Zuva Fields API
+  slug: zuva-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/openapi/zuva-fields-api-openapi.yml
+- filename: zuva-files-api-openapi.yml
+  format: yaml
+  label: Zuva Files API
+  slug: zuva-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/openapi/zuva-files-api-openapi.yml
+- filename: zuva-ocr-api-openapi.yml
   format: yaml
   label: Zuva OCR API
-  slug: ocr
+  slug: zuva-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/openapi/zuva-openapi.yml
-- filename: zuva-openapi.yml
-  format: yaml
-  label: Zuva Fields Catalog API
-  slug: fields-catalog
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/openapi/zuva-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/openapi/zuva-ocr-api-openapi.yml
 description: ''
 domains:
 - caa: []

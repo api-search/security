@@ -2,18 +2,66 @@
 api_key_in:
 - header
 api_specs:
-- filename: d-id-videos-openapi.yml
+- filename: d-id-translations-api-openapi.yml
   format: yaml
-  label: D-ID Videos API
-  slug: d-id-videos-api
+  label: D-ID Translations API
+  slug: d-id-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-videos-openapi.yml
-- filename: d-id-agents-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-translations-api-openapi.yml
+- filename: d-id-agents-api-openapi.yml
   format: yaml
   label: D-ID Agents API
   slug: d-id-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-agents-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-agents-api-openapi.yml
+- filename: d-id-chat-api-openapi.yml
+  format: yaml
+  label: D-ID Chat API
+  slug: d-id-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-chat-api-openapi.yml
+- filename: d-id-credits-api-openapi.yml
+  format: yaml
+  label: D-ID Credits API
+  slug: d-id-credits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-credits-api-openapi.yml
+- filename: d-id-knowledge-api-openapi.yml
+  format: yaml
+  label: D-ID Knowledge API
+  slug: d-id-knowledge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-knowledge-api-openapi.yml
+- filename: d-id-sessions-api-openapi.yml
+  format: yaml
+  label: D-ID Sessions API
+  slug: d-id-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-sessions-api-openapi.yml
+- filename: d-id-talks-api-openapi.yml
+  format: yaml
+  label: D-ID Talks API
+  slug: d-id-talks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-talks-api-openapi.yml
+- filename: d-id-translations-api-openapi.yml
+  format: yaml
+  label: D-ID Translations API
+  slug: d-id-translations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-translations-api-openapi.yml
+- filename: d-id-videos-v4-api-openapi.yml
+  format: yaml
+  label: D-ID Videos V4 API
+  slug: d-id-videos-v4-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-videos-v4-api-openapi.yml
+- filename: d-id-voices-api-openapi.yml
+  format: yaml
+  label: D-ID Voices API
+  slug: d-id-voices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-voices-api-openapi.yml
 auth_types:
 - apiKey
 - http

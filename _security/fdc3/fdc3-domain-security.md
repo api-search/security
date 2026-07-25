@@ -6,6 +6,12 @@ api_specs:
   slug: app-directory-api
   spec_type: OpenAPI
   url: https://fdc3.finos.org/schemas/2.2/app-directory.html
+- filename: fdc3-application-api-openapi.yml
+  format: yaml
+  label: FDC3 Application API
+  slug: fdc3-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fdc3/refs/heads/main/openapi/fdc3-application-api-openapi.yml
 description: ''
 domains:
 - caa:

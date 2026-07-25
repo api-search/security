@@ -2,12 +2,18 @@
 api_key_in:
 - query
 api_specs:
-- filename: new-york-public-library-whats-on-the-menu-openapi-original.yaml
+- filename: new-york-public-library-whats-on-the-menu-dishes-api-openapi.yml
   format: yaml
-  label: NYPL What's On The Menu API
-  slug: new-york-public-library-whats-on-the-menu
+  label: New York Public Library What's On The Menu Dishes API
+  slug: new-york-public-library-whats-on-the-menu-dishes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/openapi/new-york-public-library-whats-on-the-menu-openapi-original.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/openapi/new-york-public-library-whats-on-the-menu-dishes-api-openapi.yml
+- filename: new-york-public-library-whats-on-the-menu-menus-api-openapi.yml
+  format: yaml
+  label: New York Public Library What's On The Menu Menus API
+  slug: new-york-public-library-whats-on-the-menu-menus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/openapi/new-york-public-library-whats-on-the-menu-menus-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

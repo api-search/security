@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: loot-rush-games-partner-openapi.json
-  format: json
-  label: LootRush Partner API
-  slug: lootrush-partner-api
+- filename: loot-rush-games-connect-api-openapi.yml
+  format: yaml
+  label: Loot Rush Games Connect API
+  slug: loot-rush-games-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/openapi/loot-rush-games-partner-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/openapi/loot-rush-games-connect-api-openapi.yml
+- filename: loot-rush-games-history-api-openapi.yml
+  format: yaml
+  label: Loot Rush Games History API
+  slug: loot-rush-games-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/openapi/loot-rush-games-history-api-openapi.yml
+- filename: loot-rush-games-mcp-api-openapi.yml
+  format: yaml
+  label: Loot Rush Games MCP API
+  slug: loot-rush-games-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/openapi/loot-rush-games-mcp-api-openapi.yml
+- filename: loot-rush-games-withdrawals-api-openapi.yml
+  format: yaml
+  label: Loot Rush Games Withdrawals API
+  slug: loot-rush-games-withdrawals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/openapi/loot-rush-games-withdrawals-api-openapi.yml
 description: ''
 domains:
 - caa: []

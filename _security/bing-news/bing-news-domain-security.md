@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: bing-news-search-openapi.json
-  format: json
-  label: Bing News Search API
-  slug: news-search
+- filename: bing-news-news-category-api-openapi.yml
+  format: yaml
+  label: Bing News Search News Category API
+  slug: bing-news-news-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/openapi/bing-news-search-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/openapi/bing-news-news-category-api-openapi.yml
+- filename: bing-news-news-search-api-openapi.yml
+  format: yaml
+  label: Bing News Search News Search API
+  slug: bing-news-news-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/openapi/bing-news-news-search-api-openapi.yml
+- filename: bing-news-trending-topics-api-openapi.yml
+  format: yaml
+  label: Bing News Search Trending Topics API
+  slug: bing-news-trending-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/openapi/bing-news-trending-topics-api-openapi.yml
 description: ''
 domains:
 - caa:

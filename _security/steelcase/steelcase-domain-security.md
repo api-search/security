@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: steelcase-roomwizard-api-openapi.yml
+- filename: steelcase-bookings-api-openapi.yml
   format: yaml
-  label: Steelcase RoomWizard API
-  slug: roomwizard-api
+  label: Steelcase Bookings API
+  slug: steelcase-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steelcase/refs/heads/main/openapi/steelcase-roomwizard-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/steelcase/refs/heads/main/openapi/steelcase-bookings-api-openapi.yml
+- filename: steelcase-rooms-api-openapi.yml
+  format: yaml
+  label: Steelcase Rooms API
+  slug: steelcase-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steelcase/refs/heads/main/openapi/steelcase-rooms-api-openapi.yml
+- filename: steelcase-status-api-openapi.yml
+  format: yaml
+  label: Steelcase Status API
+  slug: steelcase-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steelcase/refs/heads/main/openapi/steelcase-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

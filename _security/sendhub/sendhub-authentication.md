@@ -2,12 +2,42 @@
 api_key_in:
 - query
 api_specs:
-- filename: sendhub-openapi-original.yml
+- filename: sendhub-authentication-api-openapi.yml
   format: yaml
-  label: SendHub API v1
-  slug: sendhub-api-v1
+  label: SendHub Authentication API
+  slug: sendhub-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-authentication-api-openapi.yml
+- filename: sendhub-contact-api-openapi.yml
+  format: yaml
+  label: SendHub Contact API
+  slug: sendhub-contact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-contact-api-openapi.yml
+- filename: sendhub-group-api-openapi.yml
+  format: yaml
+  label: SendHub Group API
+  slug: sendhub-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-group-api-openapi.yml
+- filename: sendhub-message-api-openapi.yml
+  format: yaml
+  label: SendHub Message API
+  slug: sendhub-message-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-message-api-openapi.yml
+- filename: sendhub-profile-api-openapi.yml
+  format: yaml
+  label: SendHub Profile API
+  slug: sendhub-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-profile-api-openapi.yml
+- filename: sendhub-thread-api-openapi.yml
+  format: yaml
+  label: SendHub Thread API
+  slug: sendhub-thread-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-thread-api-openapi.yml
 auth_types:
 - apiKey
 - http

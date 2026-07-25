@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: google-cloud-composer-openapi.yml
+- filename: google-cloud-composer-environments-api-openapi.yml
   format: yaml
-  label: Google Cloud Composer API
-  slug: google-cloud-composer-api
+  label: Google Cloud Composer Environments API
+  slug: google-cloud-composer-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-composer/refs/heads/main/openapi/google-cloud-composer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-composer/refs/heads/main/openapi/google-cloud-composer-environments-api-openapi.yml
+- filename: google-cloud-composer-imageversions-api-openapi.yml
+  format: yaml
+  label: Google Cloud Composer ImageVersions API
+  slug: google-cloud-composer-imageversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-composer/refs/heads/main/openapi/google-cloud-composer-imageversions-api-openapi.yml
+- filename: google-cloud-composer-operations-api-openapi.yml
+  format: yaml
+  label: Google Cloud Composer Operations API
+  slug: google-cloud-composer-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-composer/refs/heads/main/openapi/google-cloud-composer-operations-api-openapi.yml
 description: ''
 domains:
 - caa:

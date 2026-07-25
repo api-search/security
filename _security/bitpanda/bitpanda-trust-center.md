@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: bitpanda-platform-openapi.yml
+- filename: bitpanda-assets-api-openapi.yml
   format: yaml
-  label: Bitpanda Platform API
-  slug: bitpanda-platform-api
+  label: Bitpanda assets API
+  slug: bitpanda-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/openapi/bitpanda-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/openapi/bitpanda-assets-api-openapi.yml
+- filename: bitpanda-market-data-api-openapi.yml
+  format: yaml
+  label: Bitpanda market-data API
+  slug: bitpanda-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/openapi/bitpanda-market-data-api-openapi.yml
+- filename: bitpanda-transactions-api-openapi.yml
+  format: yaml
+  label: Bitpanda transactions API
+  slug: bitpanda-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/openapi/bitpanda-transactions-api-openapi.yml
+- filename: bitpanda-wallets-api-openapi.yml
+  format: yaml
+  label: Bitpanda wallets API
+  slug: bitpanda-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/openapi/bitpanda-wallets-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

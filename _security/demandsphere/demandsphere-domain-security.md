@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: demandsphere-openapi-original.json
-  format: json
-  label: DemandSphere API v5.0
-  slug: demandsphere-api-v50
+- filename: demandsphere-keywords-api-openapi.yml
+  format: yaml
+  label: DemandSphere Keywords API
+  slug: demandsphere-keywords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/openapi/demandsphere-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/openapi/demandsphere-keywords-api-openapi.yml
+- filename: demandsphere-pages-api-openapi.yml
+  format: yaml
+  label: DemandSphere Pages API
+  slug: demandsphere-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/openapi/demandsphere-pages-api-openapi.yml
+- filename: demandsphere-searchengines-api-openapi.yml
+  format: yaml
+  label: DemandSphere SearchEngines API
+  slug: demandsphere-searchengines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/openapi/demandsphere-searchengines-api-openapi.yml
+- filename: demandsphere-sites-api-openapi.yml
+  format: yaml
+  label: DemandSphere Sites API
+  slug: demandsphere-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/openapi/demandsphere-sites-api-openapi.yml
 description: ''
 domains:
 - caa: []

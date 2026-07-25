@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: klaxoon-openapi.yml
+- filename: klaxoon-adventures-api-openapi.yml
   format: yaml
-  label: Klaxoon API
-  slug: klaxoon-api
+  label: Klaxoon Adventures API
+  slug: klaxoon-adventures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/openapi/klaxoon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/openapi/klaxoon-adventures-api-openapi.yml
+- filename: klaxoon-missions-api-openapi.yml
+  format: yaml
+  label: Klaxoon Missions API
+  slug: klaxoon-missions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/openapi/klaxoon-missions-api-openapi.yml
+- filename: klaxoon-quizzes-api-openapi.yml
+  format: yaml
+  label: Klaxoon Quizzes API
+  slug: klaxoon-quizzes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/openapi/klaxoon-quizzes-api-openapi.yml
+- filename: klaxoon-surveys-api-openapi.yml
+  format: yaml
+  label: Klaxoon Surveys API
+  slug: klaxoon-surveys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/openapi/klaxoon-surveys-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

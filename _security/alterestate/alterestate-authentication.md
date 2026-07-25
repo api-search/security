@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: alterestate-openapi.yml
+- filename: alterestate-agents-api-openapi.yml
   format: yaml
-  label: AlterEstate API
-  slug: alterestate-api
+  label: AlterEstate Agents API
+  slug: alterestate-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alterestate/refs/heads/main/openapi/alterestate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alterestate/refs/heads/main/openapi/alterestate-agents-api-openapi.yml
+- filename: alterestate-developments-api-openapi.yml
+  format: yaml
+  label: AlterEstate Developments API
+  slug: alterestate-developments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alterestate/refs/heads/main/openapi/alterestate-developments-api-openapi.yml
+- filename: alterestate-leads-api-openapi.yml
+  format: yaml
+  label: AlterEstate Leads API
+  slug: alterestate-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alterestate/refs/heads/main/openapi/alterestate-leads-api-openapi.yml
+- filename: alterestate-locations-api-openapi.yml
+  format: yaml
+  label: AlterEstate Locations API
+  slug: alterestate-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alterestate/refs/heads/main/openapi/alterestate-locations-api-openapi.yml
+- filename: alterestate-properties-api-openapi.yml
+  format: yaml
+  label: AlterEstate Properties API
+  slug: alterestate-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alterestate/refs/heads/main/openapi/alterestate-properties-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: dbt-cloud-openapi.yml
+- filename: dbt-cloud-accounts-api-openapi.yml
   format: yaml
-  label: dbt Cloud Administrative API
-  slug: dbt-cloud-administrative-api
+  label: dbt Cloud Accounts API
+  slug: dbt-cloud-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt-cloud/refs/heads/main/openapi/dbt-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dbt-cloud/refs/heads/main/openapi/dbt-cloud-accounts-api-openapi.yml
+- filename: dbt-cloud-jobs-api-openapi.yml
+  format: yaml
+  label: dbt Cloud Jobs API
+  slug: dbt-cloud-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dbt-cloud/refs/heads/main/openapi/dbt-cloud-jobs-api-openapi.yml
+- filename: dbt-cloud-projects-api-openapi.yml
+  format: yaml
+  label: dbt Cloud Projects API
+  slug: dbt-cloud-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dbt-cloud/refs/heads/main/openapi/dbt-cloud-projects-api-openapi.yml
+- filename: dbt-cloud-run-artifacts-api-openapi.yml
+  format: yaml
+  label: dbt Cloud Run Artifacts API
+  slug: dbt-cloud-run-artifacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dbt-cloud/refs/heads/main/openapi/dbt-cloud-run-artifacts-api-openapi.yml
+- filename: dbt-cloud-runs-api-openapi.yml
+  format: yaml
+  label: dbt Cloud Runs API
+  slug: dbt-cloud-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dbt-cloud/refs/heads/main/openapi/dbt-cloud-runs-api-openapi.yml
 auth_types:
 - http
 description: ''

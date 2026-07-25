@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: containerd-metrics-openapi.yml
+- filename: containerd-metrics-api-openapi.yml
   format: yaml
   label: Containerd Metrics API
   slug: containerd-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/containerd/refs/heads/main/openapi/containerd-metrics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/containerd/refs/heads/main/openapi/containerd-metrics-api-openapi.yml
 description: ''
 domains:
 - caa: []

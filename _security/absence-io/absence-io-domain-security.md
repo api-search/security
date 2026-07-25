@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: absence-io-openapi.yml
+- filename: absence-io-absences-api-openapi.yml
   format: yaml
-  label: Absence.io API
-  slug: absence-io
+  label: Absence.io Absences API
+  slug: absence-io-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-absences-api-openapi.yml
+- filename: absence-io-allowances-api-openapi.yml
+  format: yaml
+  label: Absence.io Allowances API
+  slug: absence-io-allowances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-allowances-api-openapi.yml
+- filename: absence-io-departments-api-openapi.yml
+  format: yaml
+  label: Absence.io Departments API
+  slug: absence-io-departments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-departments-api-openapi.yml
+- filename: absence-io-locations-api-openapi.yml
+  format: yaml
+  label: Absence.io Locations API
+  slug: absence-io-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-locations-api-openapi.yml
+- filename: absence-io-reason-types-api-openapi.yml
+  format: yaml
+  label: Absence.io Reason Types API
+  slug: absence-io-reason-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-reason-types-api-openapi.yml
+- filename: absence-io-timespans-api-openapi.yml
+  format: yaml
+  label: Absence.io Timespans API
+  slug: absence-io-timespans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-timespans-api-openapi.yml
+- filename: absence-io-users-api-openapi.yml
+  format: yaml
+  label: Absence.io Users API
+  slug: absence-io-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-users-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -4,22 +4,70 @@ api_key_in:
 api_specs:
 - filename: openapi.yaml
   format: yaml
-  label: Uploadcare REST API
-  slug: rest-api
-  spec_type: OpenAPI
-  url: https://uploadcare.com/api-refs/rest-api/v0.7.0/
-- filename: openapi.yaml
-  format: yaml
   label: Uploadcare Upload API
   slug: upload-api
   spec_type: OpenAPI
   url: https://uploadcare.com/api-refs/upload-api/
-- filename: uploadcare-cdn-api-openapi.yml
+- filename: uploadcare-add-ons-api-openapi.yml
   format: yaml
-  label: Uploadcare CDN & Image Transformation API
-  slug: cdn-api
+  label: Uploadcare Add-Ons API
+  slug: uploadcare-add-ons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-cdn-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-add-ons-api-openapi.yml
+- filename: uploadcare-conversion-api-openapi.yml
+  format: yaml
+  label: Uploadcare Conversion API
+  slug: uploadcare-conversion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-conversion-api-openapi.yml
+- filename: uploadcare-file-api-openapi.yml
+  format: yaml
+  label: Uploadcare File API
+  slug: uploadcare-file-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-file-api-openapi.yml
+- filename: uploadcare-file-information-api-openapi.yml
+  format: yaml
+  label: Uploadcare File information API
+  slug: uploadcare-file-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-file-information-api-openapi.yml
+- filename: uploadcare-file-metadata-api-openapi.yml
+  format: yaml
+  label: Uploadcare File metadata API
+  slug: uploadcare-file-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-file-metadata-api-openapi.yml
+- filename: uploadcare-file-names-api-openapi.yml
+  format: yaml
+  label: Uploadcare File names API
+  slug: uploadcare-file-names-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-file-names-api-openapi.yml
+- filename: uploadcare-group-api-openapi.yml
+  format: yaml
+  label: Uploadcare Group API
+  slug: uploadcare-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-group-api-openapi.yml
+- filename: uploadcare-groups-api-openapi.yml
+  format: yaml
+  label: Uploadcare Groups API
+  slug: uploadcare-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-groups-api-openapi.yml
+- filename: uploadcare-project-api-openapi.yml
+  format: yaml
+  label: Uploadcare Project API
+  slug: uploadcare-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-project-api-openapi.yml
+- filename: uploadcare-webhook-api-openapi.yml
+  format: yaml
+  label: Uploadcare Webhook API
+  slug: uploadcare-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-webhook-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

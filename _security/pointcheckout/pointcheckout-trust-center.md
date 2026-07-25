@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: pointcheckout-merchant-api-openapi.yml
+- filename: pointcheckout-branches-api-openapi.yml
   format: yaml
-  label: PointCheckout Merchant API
-  slug: pointcheckout-merchant-api
+  label: PointCheckout Branches API
+  slug: pointcheckout-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/openapi/pointcheckout-merchant-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/openapi/pointcheckout-branches-api-openapi.yml
+- filename: pointcheckout-checkout-api-openapi.yml
+  format: yaml
+  label: PointCheckout Checkout API
+  slug: pointcheckout-checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/openapi/pointcheckout-checkout-api-openapi.yml
+- filename: pointcheckout-customer-subscription-api-openapi.yml
+  format: yaml
+  label: PointCheckout Customer subscription API
+  slug: pointcheckout-customer-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/openapi/pointcheckout-customer-subscription-api-openapi.yml
+- filename: pointcheckout-webhooks-api-openapi.yml
+  format: yaml
+  label: PointCheckout Webhooks API
+  slug: pointcheckout-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/openapi/pointcheckout-webhooks-api-openapi.yml
 certifications:
 - PCI DSS
 description: ''

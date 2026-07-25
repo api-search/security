@@ -1,47 +1,53 @@
 ---
 api_specs:
-- filename: cvat-openapi.yml
+- filename: cvat-annotations-api-openapi.yml
   format: yaml
-  label: CVAT Projects API
-  slug: cvat-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvat/refs/heads/main/openapi/cvat-openapi.yml
-- filename: cvat-openapi.yml
-  format: yaml
-  label: CVAT Tasks API
-  slug: cvat-tasks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvat/refs/heads/main/openapi/cvat-openapi.yml
-- filename: cvat-openapi.yml
-  format: yaml
-  label: CVAT Jobs API
-  slug: cvat-jobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvat/refs/heads/main/openapi/cvat-openapi.yml
-- filename: cvat-openapi.yml
-  format: yaml
-  label: CVAT Annotations API
+  label: CVAT annotations API
   slug: cvat-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvat/refs/heads/main/openapi/cvat-openapi.yml
-- filename: cvat-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cvat/refs/heads/main/openapi/cvat-annotations-api-openapi.yml
+- filename: cvat-cloudstorages-api-openapi.yml
   format: yaml
-  label: CVAT Labels API
+  label: CVAT cloudstorages API
+  slug: cvat-cloudstorages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvat/refs/heads/main/openapi/cvat-cloudstorages-api-openapi.yml
+- filename: cvat-jobs-api-openapi.yml
+  format: yaml
+  label: CVAT jobs API
+  slug: cvat-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvat/refs/heads/main/openapi/cvat-jobs-api-openapi.yml
+- filename: cvat-labels-api-openapi.yml
+  format: yaml
+  label: CVAT labels API
   slug: cvat-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvat/refs/heads/main/openapi/cvat-openapi.yml
-- filename: cvat-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cvat/refs/heads/main/openapi/cvat-labels-api-openapi.yml
+- filename: cvat-memberships-api-openapi.yml
   format: yaml
-  label: CVAT Organizations and Memberships API
+  label: CVAT memberships API
+  slug: cvat-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvat/refs/heads/main/openapi/cvat-memberships-api-openapi.yml
+- filename: cvat-organizations-api-openapi.yml
+  format: yaml
+  label: CVAT organizations API
   slug: cvat-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvat/refs/heads/main/openapi/cvat-openapi.yml
-- filename: cvat-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cvat/refs/heads/main/openapi/cvat-organizations-api-openapi.yml
+- filename: cvat-projects-api-openapi.yml
   format: yaml
-  label: CVAT Cloud Storages API
-  slug: cvat-cloud-storages-api
+  label: CVAT projects API
+  slug: cvat-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvat/refs/heads/main/openapi/cvat-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cvat/refs/heads/main/openapi/cvat-projects-api-openapi.yml
+- filename: cvat-tasks-api-openapi.yml
+  format: yaml
+  label: CVAT tasks API
+  slug: cvat-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvat/refs/heads/main/openapi/cvat-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: the-index-fyi-openapi.yml
+- filename: the-index-fyi-indexes-api-openapi.yml
   format: yaml
-  label: The Index Public API
-  slug: indexes
+  label: The Index Indexes API
+  slug: the-index-fyi-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-index-fyi/refs/heads/main/openapi/the-index-fyi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/the-index-fyi/refs/heads/main/openapi/the-index-fyi-indexes-api-openapi.yml
 description: ''
 domains:
 - caa: []

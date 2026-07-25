@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: vlex-iceberg-anonymization-openapi.yml
+- filename: vlex-anonymization-api-openapi.yml
   format: yaml
-  label: vLex Iceberg Anonymization API
-  slug: iceberg-anonymization-api
+  label: vLex Anonymization API
+  slug: vlex-anonymization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vlex/refs/heads/main/openapi/vlex-iceberg-anonymization-openapi.yml
-- filename: vlex-iceberg-legal-research-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vlex/refs/heads/main/openapi/vlex-anonymization-api-openapi.yml
+- filename: vlex-citations-api-openapi.yml
   format: yaml
-  label: vLex Iceberg Legal Research API
-  slug: iceberg-legal-research-api
+  label: vLex Citations API
+  slug: vlex-citations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vlex/refs/heads/main/openapi/vlex-iceberg-legal-research-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vlex/refs/heads/main/openapi/vlex-citations-api-openapi.yml
+- filename: vlex-classification-api-openapi.yml
+  format: yaml
+  label: vLex Classification API
+  slug: vlex-classification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vlex/refs/heads/main/openapi/vlex-classification-api-openapi.yml
+- filename: vlex-documents-api-openapi.yml
+  format: yaml
+  label: vLex Documents API
+  slug: vlex-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vlex/refs/heads/main/openapi/vlex-documents-api-openapi.yml
+- filename: vlex-search-api-openapi.yml
+  format: yaml
+  label: vLex Search API
+  slug: vlex-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vlex/refs/heads/main/openapi/vlex-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: arize-ai-traces-api-openapi.yml
+  format: yaml
+  label: Arize AI Traces API
+  slug: arize-ai-traces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arize-ai/refs/heads/main/openapi/arize-ai-traces-api-openapi.yml
 description: ''
 domains:
 - caa: []

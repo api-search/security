@@ -1,17 +1,53 @@
 ---
 api_specs:
-- filename: usgs-earthquake-catalog-openapi.yml
+- filename: us-geological-survey-collections-api-openapi.yml
   format: yaml
-  label: USGS Earthquake Catalog API
-  slug: earthquake-catalog-api
+  label: US Geological Survey Collections API
+  slug: us-geological-survey-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-geological-survey/refs/heads/main/openapi/usgs-earthquake-catalog-openapi.yml
-- filename: openapi
+  url: https://raw.githubusercontent.com/api-evangelist/us-geological-survey/refs/heads/main/openapi/us-geological-survey-collections-api-openapi.yml
+- filename: us-geological-survey-continuous-values-api-openapi.yml
   format: yaml
-  label: USGS Water Data OGC API
-  slug: water-data-api
+  label: US Geological Survey Continuous Values API
+  slug: us-geological-survey-continuous-values-api
   spec_type: OpenAPI
-  url: https://api.waterdata.usgs.gov/ogcapi/v0/openapi?f=json
+  url: https://raw.githubusercontent.com/api-evangelist/us-geological-survey/refs/heads/main/openapi/us-geological-survey-continuous-values-api-openapi.yml
+- filename: us-geological-survey-daily-values-api-openapi.yml
+  format: yaml
+  label: US Geological Survey Daily Values API
+  slug: us-geological-survey-daily-values-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-geological-survey/refs/heads/main/openapi/us-geological-survey-daily-values-api-openapi.yml
+- filename: us-geological-survey-earthquakes-api-openapi.yml
+  format: yaml
+  label: US Geological Survey Earthquakes API
+  slug: us-geological-survey-earthquakes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-geological-survey/refs/heads/main/openapi/us-geological-survey-earthquakes-api-openapi.yml
+- filename: us-geological-survey-field-measurements-api-openapi.yml
+  format: yaml
+  label: US Geological Survey Field Measurements API
+  slug: us-geological-survey-field-measurements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-geological-survey/refs/heads/main/openapi/us-geological-survey-field-measurements-api-openapi.yml
+- filename: us-geological-survey-metadata-api-openapi.yml
+  format: yaml
+  label: US Geological Survey Metadata API
+  slug: us-geological-survey-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-geological-survey/refs/heads/main/openapi/us-geological-survey-metadata-api-openapi.yml
+- filename: us-geological-survey-monitoring-locations-api-openapi.yml
+  format: yaml
+  label: US Geological Survey Monitoring Locations API
+  slug: us-geological-survey-monitoring-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-geological-survey/refs/heads/main/openapi/us-geological-survey-monitoring-locations-api-openapi.yml
+- filename: us-geological-survey-time-series-metadata-api-openapi.yml
+  format: yaml
+  label: US Geological Survey Time Series Metadata API
+  slug: us-geological-survey-time-series-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-geological-survey/refs/heads/main/openapi/us-geological-survey-time-series-metadata-api-openapi.yml
 description: ''
 domains:
 - caa: []

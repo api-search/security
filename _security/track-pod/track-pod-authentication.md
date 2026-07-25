@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: track-pod-openapi.yml
+- filename: track-pod-address-api-openapi.yml
   format: yaml
-  label: Track-POD API
-  slug: track-pod-api
+  label: Track-POD Address API
+  slug: track-pod-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-address-api-openapi.yml
+- filename: track-pod-driver-api-openapi.yml
+  format: yaml
+  label: Track-POD Driver API
+  slug: track-pod-driver-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-driver-api-openapi.yml
+- filename: track-pod-order-api-openapi.yml
+  format: yaml
+  label: Track-POD Order API
+  slug: track-pod-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-order-api-openapi.yml
+- filename: track-pod-rejectreason-api-openapi.yml
+  format: yaml
+  label: Track-POD RejectReason API
+  slug: track-pod-rejectreason-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-rejectreason-api-openapi.yml
+- filename: track-pod-route-api-openapi.yml
+  format: yaml
+  label: Track-POD Route API
+  slug: track-pod-route-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-route-api-openapi.yml
+- filename: track-pod-test-api-openapi.yml
+  format: yaml
+  label: Track-POD Test API
+  slug: track-pod-test-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-test-api-openapi.yml
+- filename: track-pod-vehicle-api-openapi.yml
+  format: yaml
+  label: Track-POD Vehicle API
+  slug: track-pod-vehicle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-vehicle-api-openapi.yml
+- filename: track-pod-vehiclecheck-api-openapi.yml
+  format: yaml
+  label: Track-POD VehicleCheck API
+  slug: track-pod-vehiclecheck-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-vehiclecheck-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

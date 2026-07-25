@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: lightly-ai-openapi.yml
+- filename: lightly-ai-datasets-api-openapi.yml
   format: yaml
   label: Lightly Datasets API
-  slug: lightly-datasets-api
+  slug: lightly-ai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-openapi.yml
-- filename: lightly-ai-openapi.yml
-  format: yaml
-  label: Lightly Samples and Embeddings API
-  slug: lightly-samples-embeddings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-openapi.yml
-- filename: lightly-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-datasets-api-openapi.yml
+- filename: lightly-ai-datasources-api-openapi.yml
   format: yaml
   label: Lightly Datasources API
-  slug: lightly-datasources-api
+  slug: lightly-ai-datasources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-openapi.yml
-- filename: lightly-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-datasources-api-openapi.yml
+- filename: lightly-ai-embeddings-api-openapi.yml
   format: yaml
-  label: Lightly Selection and Active Learning API
-  slug: lightly-selection-active-learning-api
+  label: Lightly Embeddings API
+  slug: lightly-ai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-openapi.yml
-- filename: lightly-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-embeddings-api-openapi.yml
+- filename: lightly-ai-jobs-api-openapi.yml
   format: yaml
-  label: Lightly Jobs and Tags API
-  slug: lightly-jobs-tags-api
+  label: Lightly Jobs API
+  slug: lightly-ai-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-jobs-api-openapi.yml
+- filename: lightly-ai-samples-api-openapi.yml
+  format: yaml
+  label: Lightly Samples API
+  slug: lightly-ai-samples-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-samples-api-openapi.yml
+- filename: lightly-ai-selection-api-openapi.yml
+  format: yaml
+  label: Lightly Selection API
+  slug: lightly-ai-selection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-selection-api-openapi.yml
+- filename: lightly-ai-tags-api-openapi.yml
+  format: yaml
+  label: Lightly Tags API
+  slug: lightly-ai-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-tags-api-openapi.yml
 description: ''
 domains:
 - caa:

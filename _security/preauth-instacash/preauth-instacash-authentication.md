@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: preauth-instacash-orders-openapi.yml
+- filename: preauth-instacash-orders-api-openapi.yml
   format: yaml
-  label: Preauth Orders API
-  slug: preauth-orders-api
+  label: PreAuth (Instacash) Orders API
+  slug: preauth-instacash-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/openapi/preauth-instacash-orders-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/openapi/preauth-instacash-orders-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

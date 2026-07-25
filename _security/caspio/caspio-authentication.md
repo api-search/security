@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: caspio-openapi.yml
+- filename: caspio-applications-api-openapi.yml
   format: yaml
-  label: Caspio REST API
-  slug: rest-api
+  label: Caspio Applications API
+  slug: caspio-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-applications-api-openapi.yml
+- filename: caspio-authentication-api-openapi.yml
+  format: yaml
+  label: Caspio Authentication API
+  slug: caspio-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-authentication-api-openapi.yml
+- filename: caspio-files-api-openapi.yml
+  format: yaml
+  label: Caspio Files API
+  slug: caspio-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-files-api-openapi.yml
+- filename: caspio-tables-api-openapi.yml
+  format: yaml
+  label: Caspio Tables API
+  slug: caspio-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-tables-api-openapi.yml
+- filename: caspio-tasks-api-openapi.yml
+  format: yaml
+  label: Caspio Tasks API
+  slug: caspio-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-tasks-api-openapi.yml
+- filename: caspio-users-api-openapi.yml
+  format: yaml
+  label: Caspio Users API
+  slug: caspio-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-users-api-openapi.yml
+- filename: caspio-views-api-openapi.yml
+  format: yaml
+  label: Caspio Views API
+  slug: caspio-views-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-views-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: delivery-hero-on-demand-rider-openapi.json
-  format: json
-  label: Delivery Hero On Demand Rider API
-  slug: delivery-hero-on-demand-rider
+- filename: delivery-hero-authentication-api-openapi.yml
+  format: yaml
+  label: Delivery Hero Authentication API
+  slug: delivery-hero-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-on-demand-rider-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-authentication-api-openapi.yml
+- filename: delivery-hero-callback-api-openapi.yml
+  format: yaml
+  label: Delivery Hero Callback API
+  slug: delivery-hero-callback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-callback-api-openapi.yml
+- filename: delivery-hero-ordersestimation-api-openapi.yml
+  format: yaml
+  label: Delivery Hero OrdersEstimation API
+  slug: delivery-hero-ordersestimation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-ordersestimation-api-openapi.yml
+- filename: delivery-hero-ordersmanagement-api-openapi.yml
+  format: yaml
+  label: Delivery Hero OrdersManagement API
+  slug: delivery-hero-ordersmanagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-ordersmanagement-api-openapi.yml
+- filename: delivery-hero-outlets-api-openapi.yml
+  format: yaml
+  label: Delivery Hero Outlets API
+  slug: delivery-hero-outlets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-outlets-api-openapi.yml
+- filename: delivery-hero-proofs-api-openapi.yml
+  format: yaml
+  label: Delivery Hero Proofs API
+  slug: delivery-hero-proofs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-proofs-api-openapi.yml
+- filename: delivery-hero-riderposition-api-openapi.yml
+  format: yaml
+  label: Delivery Hero RiderPosition API
+  slug: delivery-hero-riderposition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-riderposition-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

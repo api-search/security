@@ -1,65 +1,65 @@
 ---
 api_specs:
-- filename: terra-api-openapi.yml
-  format: yaml
-  label: Terra Authentication API
-  slug: terra-api-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-openapi.yml
-- filename: terra-api-openapi.yml
-  format: yaml
-  label: Terra User Management API
-  slug: terra-api-user-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-openapi.yml
-- filename: terra-api-openapi.yml
+- filename: terra-api-activity-api-openapi.yml
   format: yaml
   label: Terra Activity API
   slug: terra-api-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-openapi.yml
-- filename: terra-api-openapi.yml
-  format: yaml
-  label: Terra Body API
-  slug: terra-api-body-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-openapi.yml
-- filename: terra-api-openapi.yml
-  format: yaml
-  label: Terra Daily API
-  slug: terra-api-daily-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-openapi.yml
-- filename: terra-api-openapi.yml
-  format: yaml
-  label: Terra Sleep API
-  slug: terra-api-sleep-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-openapi.yml
-- filename: terra-api-openapi.yml
-  format: yaml
-  label: Terra Nutrition API
-  slug: terra-api-nutrition-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-openapi.yml
-- filename: terra-api-openapi.yml
-  format: yaml
-  label: Terra Menstruation API
-  slug: terra-api-menstruation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-openapi.yml
-- filename: terra-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-activity-api-openapi.yml
+- filename: terra-api-athlete-api-openapi.yml
   format: yaml
   label: Terra Athlete API
   slug: terra-api-athlete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-openapi.yml
-- filename: terra-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-athlete-api-openapi.yml
+- filename: terra-api-authentication-api-openapi.yml
+  format: yaml
+  label: Terra Authentication API
+  slug: terra-api-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-authentication-api-openapi.yml
+- filename: terra-api-body-api-openapi.yml
+  format: yaml
+  label: Terra Body API
+  slug: terra-api-body-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-body-api-openapi.yml
+- filename: terra-api-daily-api-openapi.yml
+  format: yaml
+  label: Terra Daily API
+  slug: terra-api-daily-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-daily-api-openapi.yml
+- filename: terra-api-integrations-api-openapi.yml
   format: yaml
   label: Terra Integrations API
   slug: terra-api-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-integrations-api-openapi.yml
+- filename: terra-api-menstruation-api-openapi.yml
+  format: yaml
+  label: Terra Menstruation API
+  slug: terra-api-menstruation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-menstruation-api-openapi.yml
+- filename: terra-api-nutrition-api-openapi.yml
+  format: yaml
+  label: Terra Nutrition API
+  slug: terra-api-nutrition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-nutrition-api-openapi.yml
+- filename: terra-api-sleep-api-openapi.yml
+  format: yaml
+  label: Terra Sleep API
+  slug: terra-api-sleep-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-sleep-api-openapi.yml
+- filename: terra-api-users-api-openapi.yml
+  format: yaml
+  label: Terra Users API
+  slug: terra-api-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

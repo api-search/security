@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: millimetric-openapi.yml
+- filename: millimetric-identity-api-openapi.yml
   format: yaml
-  label: Millimetric Analytics API
-  slug: millimetric-analytics-api
+  label: Millimetric Identity API
+  slug: millimetric-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/openapi/millimetric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/openapi/millimetric-identity-api-openapi.yml
+- filename: millimetric-ingest-api-openapi.yml
+  format: yaml
+  label: Millimetric Ingest API
+  slug: millimetric-ingest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/openapi/millimetric-ingest-api-openapi.yml
+- filename: millimetric-read-api-openapi.yml
+  format: yaml
+  label: Millimetric Read API
+  slug: millimetric-read-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/openapi/millimetric-read-api-openapi.yml
 auth_types:
 - http
 description: Millimetric uses Bearer API keys of the form {kind}_{env}_{prefix}_{secret}, modelled on Stripe's pk_/sk_ split. Four key kinds map to two scopes (ingest, read) plus an account-level read variant. pk_* keys are browser-safe and origin-allowlisted; sk_/rk_/ak_ are server-side. Not OAuth — there is no OAuth2/OIDC surface, so there is no scopes/ artifact.

@@ -1,12 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tweed-api-v2-openapi-original.json
-  format: json
-  label: Tweed API (V2)
-  slug: tweed-api-v2
+- filename: tweed-assets-api-openapi.yml
+  format: yaml
+  label: Tweed assets API
+  slug: tweed-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-api-v2-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-assets-api-openapi.yml
+- filename: tweed-audit-event-mappings-api-openapi.yml
+  format: yaml
+  label: Tweed audit-event-mappings API
+  slug: tweed-audit-event-mappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-audit-event-mappings-api-openapi.yml
+- filename: tweed-auth-api-openapi.yml
+  format: yaml
+  label: Tweed auth API
+  slug: tweed-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-auth-api-openapi.yml
+- filename: tweed-blockchains-api-openapi.yml
+  format: yaml
+  label: Tweed blockchains API
+  slug: tweed-blockchains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-blockchains-api-openapi.yml
+- filename: tweed-checkout-api-openapi.yml
+  format: yaml
+  label: Tweed checkout API
+  slug: tweed-checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-checkout-api-openapi.yml
+- filename: tweed-contracts-api-openapi.yml
+  format: yaml
+  label: Tweed contracts API
+  slug: tweed-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-contracts-api-openapi.yml
+- filename: tweed-items-api-openapi.yml
+  format: yaml
+  label: Tweed items API
+  slug: tweed-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-items-api-openapi.yml
+- filename: tweed-payouts-api-openapi.yml
+  format: yaml
+  label: Tweed payouts API
+  slug: tweed-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-payouts-api-openapi.yml
+- filename: tweed-platform-webhooks-api-openapi.yml
+  format: yaml
+  label: Tweed platform-webhooks API
+  slug: tweed-platform-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-platform-webhooks-api-openapi.yml
+- filename: tweed-rate-api-openapi.yml
+  format: yaml
+  label: Tweed Rate API
+  slug: tweed-rate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-rate-api-openapi.yml
+- filename: tweed-tickets-api-openapi.yml
+  format: yaml
+  label: Tweed tickets API
+  slug: tweed-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-tickets-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: palla-platform-openapi.yml
+- filename: palla-accounts-api-openapi.yml
   format: yaml
-  label: Palla Platform Partner API
-  slug: palla-platform-partner-api
+  label: Palla Accounts API
+  slug: palla-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/openapi/palla-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/openapi/palla-accounts-api-openapi.yml
+- filename: palla-auth-api-openapi.yml
+  format: yaml
+  label: Palla Auth API
+  slug: palla-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/openapi/palla-auth-api-openapi.yml
+- filename: palla-health-api-openapi.yml
+  format: yaml
+  label: Palla Health API
+  slug: palla-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/openapi/palla-health-api-openapi.yml
+- filename: palla-links-api-openapi.yml
+  format: yaml
+  label: Palla Links API
+  slug: palla-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/openapi/palla-links-api-openapi.yml
+- filename: palla-payment-methods-api-openapi.yml
+  format: yaml
+  label: Palla Payment Methods API
+  slug: palla-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/openapi/palla-payment-methods-api-openapi.yml
+- filename: palla-relationships-api-openapi.yml
+  format: yaml
+  label: Palla Relationships API
+  slug: palla-relationships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/openapi/palla-relationships-api-openapi.yml
+- filename: palla-transfers-api-openapi.yml
+  format: yaml
+  label: Palla Transfers API
+  slug: palla-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/openapi/palla-transfers-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

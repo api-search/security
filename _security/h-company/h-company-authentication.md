@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: h-company-computer-use-agents-openapi-original.json
-  format: json
-  label: H Company Computer-Use Agents API
-  slug: h-company-computer-use-agents
+- filename: h-company-agents-api-openapi.yml
+  format: yaml
+  label: H Company Agents API
+  slug: h-company-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/openapi/h-company-computer-use-agents-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/openapi/h-company-agents-api-openapi.yml
+- filename: h-company-browser-profiles-api-openapi.yml
+  format: yaml
+  label: H Company Browser Profiles API
+  slug: h-company-browser-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/openapi/h-company-browser-profiles-api-openapi.yml
+- filename: h-company-environments-api-openapi.yml
+  format: yaml
+  label: H Company Environments API
+  slug: h-company-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/openapi/h-company-environments-api-openapi.yml
+- filename: h-company-quota-api-openapi.yml
+  format: yaml
+  label: H Company quota API
+  slug: h-company-quota-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/openapi/h-company-quota-api-openapi.yml
+- filename: h-company-schedules-api-openapi.yml
+  format: yaml
+  label: H Company Schedules API
+  slug: h-company-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/openapi/h-company-schedules-api-openapi.yml
+- filename: h-company-sessions-api-openapi.yml
+  format: yaml
+  label: H Company Sessions API
+  slug: h-company-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/openapi/h-company-sessions-api-openapi.yml
+- filename: h-company-skills-api-openapi.yml
+  format: yaml
+  label: H Company Skills API
+  slug: h-company-skills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/openapi/h-company-skills-api-openapi.yml
+- filename: h-company-vaults-api-openapi.yml
+  format: yaml
+  label: H Company Vaults API
+  slug: h-company-vaults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/openapi/h-company-vaults-api-openapi.yml
+- filename: h-company-webhooks-api-openapi.yml
+  format: yaml
+  label: H Company Webhooks API
+  slug: h-company-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/openapi/h-company-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

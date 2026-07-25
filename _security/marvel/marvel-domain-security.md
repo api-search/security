@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: marvel-openapi.yml
+- filename: marvel-characters-api-openapi.yml
+  format: yaml
+  label: Marvel Characters API
+  slug: marvel-characters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marvel/refs/heads/main/openapi/marvel-characters-api-openapi.yml
+- filename: marvel-comics-api-openapi.yml
   format: yaml
   label: Marvel Comics API
   slug: marvel-comics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marvel/refs/heads/main/openapi/marvel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marvel/refs/heads/main/openapi/marvel-comics-api-openapi.yml
+- filename: marvel-creators-api-openapi.yml
+  format: yaml
+  label: Marvel Creators API
+  slug: marvel-creators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marvel/refs/heads/main/openapi/marvel-creators-api-openapi.yml
+- filename: marvel-events-api-openapi.yml
+  format: yaml
+  label: Marvel Events API
+  slug: marvel-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marvel/refs/heads/main/openapi/marvel-events-api-openapi.yml
+- filename: marvel-series-api-openapi.yml
+  format: yaml
+  label: Marvel Series API
+  slug: marvel-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marvel/refs/heads/main/openapi/marvel-series-api-openapi.yml
+- filename: marvel-stories-api-openapi.yml
+  format: yaml
+  label: Marvel Stories API
+  slug: marvel-stories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marvel/refs/heads/main/openapi/marvel-stories-api-openapi.yml
 description: ''
 domains:
 - caa: []

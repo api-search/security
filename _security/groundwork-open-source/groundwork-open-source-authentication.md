@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: groundwork-open-source-tcg-openapi-original.yml
+- filename: groundwork-open-source-agent-api-openapi.yml
   format: yaml
-  label: GroundWork TCG Controller API
-  slug: groundwork-tcg-controller-api
+  label: Groundwork Open Source agent API
+  slug: groundwork-open-source-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundwork-open-source/refs/heads/main/openapi/groundwork-open-source-tcg-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/groundwork-open-source/refs/heads/main/openapi/groundwork-open-source-agent-api-openapi.yml
+- filename: groundwork-open-source-alert-api-openapi.yml
+  format: yaml
+  label: Groundwork Open Source alert API
+  slug: groundwork-open-source-alert-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundwork-open-source/refs/heads/main/openapi/groundwork-open-source-alert-api-openapi.yml
+- filename: groundwork-open-source-connector-api-openapi.yml
+  format: yaml
+  label: Groundwork Open Source connector API
+  slug: groundwork-open-source-connector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundwork-open-source/refs/heads/main/openapi/groundwork-open-source-connector-api-openapi.yml
+- filename: groundwork-open-source-downtimes-api-openapi.yml
+  format: yaml
+  label: Groundwork Open Source downtimes API
+  slug: groundwork-open-source-downtimes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundwork-open-source/refs/heads/main/openapi/groundwork-open-source-downtimes-api-openapi.yml
+- filename: groundwork-open-source-event-api-openapi.yml
+  format: yaml
+  label: Groundwork Open Source event API
+  slug: groundwork-open-source-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundwork-open-source/refs/heads/main/openapi/groundwork-open-source-event-api-openapi.yml
+- filename: groundwork-open-source-inventory-api-openapi.yml
+  format: yaml
+  label: Groundwork Open Source inventory API
+  slug: groundwork-open-source-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundwork-open-source/refs/heads/main/openapi/groundwork-open-source-inventory-api-openapi.yml
+- filename: groundwork-open-source-metric-api-openapi.yml
+  format: yaml
+  label: Groundwork Open Source metric API
+  slug: groundwork-open-source-metric-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundwork-open-source/refs/heads/main/openapi/groundwork-open-source-metric-api-openapi.yml
+- filename: groundwork-open-source-metrics-api-openapi.yml
+  format: yaml
+  label: Groundwork Open Source metrics API
+  slug: groundwork-open-source-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundwork-open-source/refs/heads/main/openapi/groundwork-open-source-metrics-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

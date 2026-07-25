@@ -1,60 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: armosec-openapi.yml
-  format: yaml
-  label: ARMO Vulnerabilities API
-  slug: armosec-vulnerabilities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armosec/refs/heads/main/openapi/armosec-openapi.yml
-- filename: armosec-openapi.yml
-  format: yaml
-  label: ARMO Posture and Compliance API
-  slug: armosec-posture-compliance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armosec/refs/heads/main/openapi/armosec-openapi.yml
-- filename: armosec-openapi.yml
-  format: yaml
-  label: ARMO Clusters and Workloads API
-  slug: armosec-clusters-workloads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armosec/refs/heads/main/openapi/armosec-openapi.yml
-- filename: armosec-openapi.yml
-  format: yaml
-  label: ARMO Runtime Incidents API
-  slug: armosec-runtime-incidents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armosec/refs/heads/main/openapi/armosec-openapi.yml
-- filename: armosec-openapi.yml
-  format: yaml
-  label: ARMO Security Risks and Attack Chains API
-  slug: armosec-security-risks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armosec/refs/heads/main/openapi/armosec-openapi.yml
-- filename: armosec-openapi.yml
-  format: yaml
-  label: ARMO Network and Runtime Policies API
-  slug: armosec-network-runtime-policies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armosec/refs/heads/main/openapi/armosec-openapi.yml
-- filename: armosec-openapi.yml
-  format: yaml
-  label: ARMO Registry Scanning API
-  slug: armosec-registry-scanning-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armosec/refs/heads/main/openapi/armosec-openapi.yml
-- filename: armosec-openapi.yml
-  format: yaml
-  label: ARMO Integrations API
-  slug: armosec-integrations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armosec/refs/heads/main/openapi/armosec-openapi.yml
-- filename: armosec-openapi.yml
+- filename: armosec-access-keys-api-openapi.yml
   format: yaml
   label: ARMO Access Keys API
   slug: armosec-access-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armosec/refs/heads/main/openapi/armosec-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/armosec/refs/heads/main/openapi/armosec-access-keys-api-openapi.yml
+- filename: armosec-clusters-api-openapi.yml
+  format: yaml
+  label: ARMO Clusters API
+  slug: armosec-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armosec/refs/heads/main/openapi/armosec-clusters-api-openapi.yml
+- filename: armosec-integrations-api-openapi.yml
+  format: yaml
+  label: ARMO Integrations API
+  slug: armosec-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armosec/refs/heads/main/openapi/armosec-integrations-api-openapi.yml
+- filename: armosec-posture-api-openapi.yml
+  format: yaml
+  label: ARMO Posture API
+  slug: armosec-posture-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armosec/refs/heads/main/openapi/armosec-posture-api-openapi.yml
+- filename: armosec-registry-api-openapi.yml
+  format: yaml
+  label: ARMO Registry API
+  slug: armosec-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armosec/refs/heads/main/openapi/armosec-registry-api-openapi.yml
+- filename: armosec-runtime-api-openapi.yml
+  format: yaml
+  label: ARMO Runtime API
+  slug: armosec-runtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armosec/refs/heads/main/openapi/armosec-runtime-api-openapi.yml
+- filename: armosec-security-risks-api-openapi.yml
+  format: yaml
+  label: ARMO Security Risks API
+  slug: armosec-security-risks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armosec/refs/heads/main/openapi/armosec-security-risks-api-openapi.yml
+- filename: armosec-vulnerabilities-api-openapi.yml
+  format: yaml
+  label: ARMO Vulnerabilities API
+  slug: armosec-vulnerabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armosec/refs/heads/main/openapi/armosec-vulnerabilities-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

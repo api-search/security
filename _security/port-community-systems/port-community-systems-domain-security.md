@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: portbase-port-community-openapi.yml
+- filename: port-community-systems-cargomanifests-api-openapi.yml
   format: yaml
-  label: Portbase Port Community System API
-  slug: portbase
+  label: Port Community Systems CargoManifests API
+  slug: port-community-systems-cargomanifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/openapi/portbase-port-community-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/openapi/port-community-systems-cargomanifests-api-openapi.yml
+- filename: port-community-systems-containers-api-openapi.yml
+  format: yaml
+  label: Port Community Systems Containers API
+  slug: port-community-systems-containers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/openapi/port-community-systems-containers-api-openapi.yml
+- filename: port-community-systems-customsdeclarations-api-openapi.yml
+  format: yaml
+  label: Port Community Systems CustomsDeclarations API
+  slug: port-community-systems-customsdeclarations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/openapi/port-community-systems-customsdeclarations-api-openapi.yml
+- filename: port-community-systems-hazardouscargo-api-openapi.yml
+  format: yaml
+  label: Port Community Systems HazardousCargo API
+  slug: port-community-systems-hazardouscargo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/openapi/port-community-systems-hazardouscargo-api-openapi.yml
+- filename: port-community-systems-vesselcalls-api-openapi.yml
+  format: yaml
+  label: Port Community Systems VesselCalls API
+  slug: port-community-systems-vesselcalls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/openapi/port-community-systems-vesselcalls-api-openapi.yml
 description: ''
 domains:
 - caa: []

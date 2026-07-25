@@ -2,12 +2,36 @@
 api_key_in:
 - query
 api_specs:
-- filename: manage-bgl-openapi.yml
+- filename: manage-bgl-authentication-api-openapi.yml
   format: yaml
-  label: Jade Diabetes REST API
-  slug: jade-diabetes-rest-api
+  label: Manage BGL Authentication API
+  slug: manage-bgl-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/openapi/manage-bgl-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/openapi/manage-bgl-authentication-api-openapi.yml
+- filename: manage-bgl-logs-api-openapi.yml
+  format: yaml
+  label: Manage BGL Logs API
+  slug: manage-bgl-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/openapi/manage-bgl-logs-api-openapi.yml
+- filename: manage-bgl-predictions-api-openapi.yml
+  format: yaml
+  label: Manage BGL Predictions API
+  slug: manage-bgl-predictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/openapi/manage-bgl-predictions-api-openapi.yml
+- filename: manage-bgl-settings-api-openapi.yml
+  format: yaml
+  label: Manage BGL Settings API
+  slug: manage-bgl-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/openapi/manage-bgl-settings-api-openapi.yml
+- filename: manage-bgl-system-api-openapi.yml
+  format: yaml
+  label: Manage BGL System API
+  slug: manage-bgl-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/openapi/manage-bgl-system-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

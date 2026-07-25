@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: microsoft-azure-notification-hubs-openapi.yml
+- filename: microsoft-azure-notification-hubs-installations-api-openapi.yml
   format: yaml
-  label: Azure Notification Hubs REST API
-  slug: azure-notification-hubs-rest-api
+  label: Azure Notification Hubs Installations API
+  slug: microsoft-azure-notification-hubs-installations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-notification-hubs/refs/heads/main/openapi/microsoft-azure-notification-hubs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-notification-hubs/refs/heads/main/openapi/microsoft-azure-notification-hubs-installations-api-openapi.yml
+- filename: microsoft-azure-notification-hubs-notifications-api-openapi.yml
+  format: yaml
+  label: Azure Notification Hubs Notifications API
+  slug: microsoft-azure-notification-hubs-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-notification-hubs/refs/heads/main/openapi/microsoft-azure-notification-hubs-notifications-api-openapi.yml
+- filename: microsoft-azure-notification-hubs-registrations-api-openapi.yml
+  format: yaml
+  label: Azure Notification Hubs Registrations API
+  slug: microsoft-azure-notification-hubs-registrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-notification-hubs/refs/heads/main/openapi/microsoft-azure-notification-hubs-registrations-api-openapi.yml
 description: ''
 domains:
 - caa:

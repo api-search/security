@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: ion-group-openapi.yml
+- filename: ion-group-entities-api-openapi.yml
   format: yaml
-  label: Ion Group Acuris Entities API
-  slug: acuris-entities-api
+  label: Ion Group Entities API
+  slug: ion-group-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ion-group/refs/heads/main/openapi/ion-group-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ion-group/refs/heads/main/openapi/ion-group-entities-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,54 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: wodify-openapi.yml
+- filename: wodify-classes-api-openapi.yml
+  format: yaml
+  label: Wodify Classes API
+  slug: wodify-classes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-classes-api-openapi.yml
+- filename: wodify-clients-api-openapi.yml
   format: yaml
   label: Wodify Clients API
   slug: wodify-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-openapi.yml
-- filename: wodify-openapi.yml
-  format: yaml
-  label: Wodify Leads API
-  slug: wodify-leads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-openapi.yml
-- filename: wodify-openapi.yml
-  format: yaml
-  label: Wodify Memberships API
-  slug: wodify-memberships-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-openapi.yml
-- filename: wodify-openapi.yml
-  format: yaml
-  label: Wodify Classes and Programs API
-  slug: wodify-classes-programs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-openapi.yml
-- filename: wodify-openapi.yml
-  format: yaml
-  label: Wodify Workouts and Performance API
-  slug: wodify-workouts-performance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-openapi.yml
-- filename: wodify-openapi.yml
-  format: yaml
-  label: Wodify Services and Appointments API
-  slug: wodify-services-appointments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-openapi.yml
-- filename: wodify-openapi.yml
-  format: yaml
-  label: Wodify Financials API
-  slug: wodify-financials-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-openapi.yml
-- filename: wodify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-clients-api-openapi.yml
+- filename: wodify-communications-api-openapi.yml
   format: yaml
   label: Wodify Communications API
   slug: wodify-communications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-communications-api-openapi.yml
+- filename: wodify-financials-api-openapi.yml
+  format: yaml
+  label: Wodify Financials API
+  slug: wodify-financials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-financials-api-openapi.yml
+- filename: wodify-leads-api-openapi.yml
+  format: yaml
+  label: Wodify Leads API
+  slug: wodify-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-leads-api-openapi.yml
+- filename: wodify-memberships-api-openapi.yml
+  format: yaml
+  label: Wodify Memberships API
+  slug: wodify-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-memberships-api-openapi.yml
+- filename: wodify-programs-api-openapi.yml
+  format: yaml
+  label: Wodify Programs API
+  slug: wodify-programs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-programs-api-openapi.yml
+- filename: wodify-reference-api-openapi.yml
+  format: yaml
+  label: Wodify Reference API
+  slug: wodify-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-reference-api-openapi.yml
+- filename: wodify-services-api-openapi.yml
+  format: yaml
+  label: Wodify Services API
+  slug: wodify-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-services-api-openapi.yml
+- filename: wodify-workouts-api-openapi.yml
+  format: yaml
+  label: Wodify Workouts API
+  slug: wodify-workouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-workouts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,6 +1,25 @@
 ---
 api_key_in:
 - header
+api_specs:
+- filename: amazon-route-53-health-checks-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Health Checks API
+  slug: amazon-route-53-health-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-route-53/refs/heads/main/openapi/amazon-route-53-health-checks-api-openapi.yml
+- filename: amazon-route-53-hosted-zones-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Hosted Zones API
+  slug: amazon-route-53-hosted-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-route-53/refs/heads/main/openapi/amazon-route-53-hosted-zones-api-openapi.yml
+- filename: amazon-route-53-resource-record-sets-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Resource Record Sets API
+  slug: amazon-route-53-resource-record-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-route-53/refs/heads/main/openapi/amazon-route-53-resource-record-sets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

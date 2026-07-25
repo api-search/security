@@ -1,11 +1,101 @@
 ---
 api_specs:
-- filename: race-entry-openapi.yml
+- filename: race-entry-event-api-openapi.yml
   format: yaml
-  label: Race Entry
-  slug: race-entry
+  label: Race Entry Event API
+  slug: race-entry-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-event-api-openapi.yml
+- filename: race-entry-get-category-teams-api-openapi.yml
+  format: yaml
+  label: Race Entry Get Category Teams API
+  slug: race-entry-get-category-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-get-category-teams-api-openapi.yml
+- filename: race-entry-get-event-categories-api-openapi.yml
+  format: yaml
+  label: Race Entry Get Event Categories API
+  slug: race-entry-get-event-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-get-event-categories-api-openapi.yml
+- filename: race-entry-get-event-participants-api-openapi.yml
+  format: yaml
+  label: Race Entry Get Event Participants API
+  slug: race-entry-get-event-participants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-get-event-participants-api-openapi.yml
+- filename: race-entry-get-event-pin-api-openapi.yml
+  format: yaml
+  label: Race Entry Get Event Pin API
+  slug: race-entry-get-event-pin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-get-event-pin-api-openapi.yml
+- filename: race-entry-get-event-questions-api-openapi.yml
+  format: yaml
+  label: Race Entry Get Event Questions API
+  slug: race-entry-get-event-questions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-get-event-questions-api-openapi.yml
+- filename: race-entry-get-event-teams-api-openapi.yml
+  format: yaml
+  label: Race Entry Get Event Teams API
+  slug: race-entry-get-event-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-get-event-teams-api-openapi.yml
+- filename: race-entry-get-events-api-openapi.yml
+  format: yaml
+  label: Race Entry Get Events API
+  slug: race-entry-get-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-get-events-api-openapi.yml
+- filename: race-entry-login-api-openapi.yml
+  format: yaml
+  label: Race Entry Login API
+  slug: race-entry-login-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-login-api-openapi.yml
+- filename: race-entry-memberships-api-openapi.yml
+  format: yaml
+  label: Race Entry Memberships API
+  slug: race-entry-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-memberships-api-openapi.yml
+- filename: race-entry-result-api-openapi.yml
+  format: yaml
+  label: Race Entry Result API
+  slug: race-entry-result-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-result-api-openapi.yml
+- filename: race-entry-set-event-app-access-api-openapi.yml
+  format: yaml
+  label: Race Entry Set Event App Access API
+  slug: race-entry-set-event-app-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-set-event-app-access-api-openapi.yml
+- filename: race-entry-set-event-pin-api-openapi.yml
+  format: yaml
+  label: Race Entry Set Event Pin API
+  slug: race-entry-set-event-pin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-set-event-pin-api-openapi.yml
+- filename: race-entry-update-event-participant-api-openapi.yml
+  format: yaml
+  label: Race Entry Update Event Participant API
+  slug: race-entry-update-event-participant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-update-event-participant-api-openapi.yml
+- filename: race-entry-upload-api-openapi.yml
+  format: yaml
+  label: Race Entry Upload API
+  slug: race-entry-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-upload-api-openapi.yml
+- filename: race-entry-user-api-openapi.yml
+  format: yaml
+  label: Race Entry User API
+  slug: race-entry-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

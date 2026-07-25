@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: openclinica-openapi.yml
+- filename: openclinica-authentication-api-openapi.yml
   format: yaml
   label: OpenClinica Authentication API
   slug: openclinica-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-openapi.yml
-- filename: openclinica-openapi.yml
-  format: yaml
-  label: OpenClinica Participants API
-  slug: openclinica-participants-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-openapi.yml
-- filename: openclinica-openapi.yml
-  format: yaml
-  label: OpenClinica Study Events API
-  slug: openclinica-study-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-openapi.yml
-- filename: openclinica-openapi.yml
-  format: yaml
-  label: OpenClinica Clinical Data API
-  slug: openclinica-clinical-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-openapi.yml
-- filename: openclinica-openapi.yml
-  format: yaml
-  label: OpenClinica ODM Metadata API
-  slug: openclinica-odm-metadata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-openapi.yml
-- filename: openclinica-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-authentication-api-openapi.yml
+- filename: openclinica-bulk-operations-api-openapi.yml
   format: yaml
   label: OpenClinica Bulk Operations API
   slug: openclinica-bulk-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-bulk-operations-api-openapi.yml
+- filename: openclinica-clinical-data-api-openapi.yml
+  format: yaml
+  label: OpenClinica Clinical Data API
+  slug: openclinica-clinical-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-clinical-data-api-openapi.yml
+- filename: openclinica-metadata-api-openapi.yml
+  format: yaml
+  label: OpenClinica Metadata API
+  slug: openclinica-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-metadata-api-openapi.yml
+- filename: openclinica-participants-api-openapi.yml
+  format: yaml
+  label: OpenClinica Participants API
+  slug: openclinica-participants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-participants-api-openapi.yml
+- filename: openclinica-study-events-api-openapi.yml
+  format: yaml
+  label: OpenClinica Study Events API
+  slug: openclinica-study-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-study-events-api-openapi.yml
 description: ''
 domains:
 - caa: []

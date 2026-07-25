@@ -6,18 +6,36 @@ api_specs:
   slug: monitors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-monitors-api-openapi.yml
-- filename: cronitor-telemetry-api-openapi.yml
+- filename: cronitor-cronitor-telemetry-api-api-openapi.yml
   format: yaml
-  label: Cronitor Telemetry API
-  slug: telemetry-api
+  label: Cronitor Cronitor Telemetry API API
+  slug: cronitor-cronitor-telemetry-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-telemetry-api-openapi.yml
-- filename: cronitor-groups-notifications-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-cronitor-telemetry-api-api-openapi.yml
+- filename: cronitor-groups-api-openapi.yml
   format: yaml
-  label: Cronitor Sites API
-  slug: sites-api
+  label: Cronitor Groups API
+  slug: cronitor-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-groups-notifications-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-groups-api-openapi.yml
+- filename: cronitor-notifications-api-openapi.yml
+  format: yaml
+  label: Cronitor Notifications API
+  slug: cronitor-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-notifications-api-openapi.yml
+- filename: cronitor-p-api-openapi.yml
+  format: yaml
+  label: Cronitor P API
+  slug: cronitor-p-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-p-api-openapi.yml
+- filename: cronitor-search-api-openapi.yml
+  format: yaml
+  label: Cronitor Search API
+  slug: cronitor-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

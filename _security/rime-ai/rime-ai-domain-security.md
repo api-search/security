@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: rime-ai-openapi.json
-  format: json
-  label: Rime TTS API
-  slug: tts
+- filename: rime-ai-plants-api-openapi.yml
+  format: yaml
+  label: Rime Plants API
+  slug: rime-ai-plants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rime-ai/refs/heads/main/openapi/rime-ai-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/rime-ai/refs/heads/main/openapi/rime-ai-plants-api-openapi.yml
 description: ''
 domains:
 - caa: []

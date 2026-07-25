@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: trellistech-public-api.json
-  format: json
-  label: Trellis Public API
-  slug: trellis-public-api
+- filename: trellistech-properties-api-openapi.yml
+  format: yaml
+  label: Trellis properties API
+  slug: trellistech-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trellistech/refs/heads/main/openapi/trellistech-public-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/trellistech/refs/heads/main/openapi/trellistech-properties-api-openapi.yml
+- filename: trellistech-tasks-api-openapi.yml
+  format: yaml
+  label: Trellis tasks API
+  slug: trellistech-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trellistech/refs/heads/main/openapi/trellistech-tasks-api-openapi.yml
 auth_types: []
 description: 'Trellis supports two authentication methods for API and MCP access: workspace-scoped API keys for trusted server-side integrations and MCP clients, and programmatic session tokens for email/password flows that run under a specific Trellis user account.'
 kind: authentication

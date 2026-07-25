@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: warpstream-management-openapi.yml
+- filename: warpstream-acls-api-openapi.yml
   format: yaml
-  label: WarpStream Management API
-  slug: warpstream-management-api
+  label: WarpStream ACLs API
+  slug: warpstream-acls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-acls-api-openapi.yml
+- filename: warpstream-api-keys-api-openapi.yml
+  format: yaml
+  label: WarpStream API Keys API
+  slug: warpstream-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-api-keys-api-openapi.yml
+- filename: warpstream-monitoring-api-openapi.yml
+  format: yaml
+  label: WarpStream Monitoring API
+  slug: warpstream-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-monitoring-api-openapi.yml
+- filename: warpstream-pipelines-api-openapi.yml
+  format: yaml
+  label: WarpStream Pipelines API
+  slug: warpstream-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-pipelines-api-openapi.yml
+- filename: warpstream-topics-api-openapi.yml
+  format: yaml
+  label: WarpStream Topics API
+  slug: warpstream-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-topics-api-openapi.yml
+- filename: warpstream-virtual-cluster-credentials-api-openapi.yml
+  format: yaml
+  label: WarpStream Virtual Cluster Credentials API
+  slug: warpstream-virtual-cluster-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-virtual-cluster-credentials-api-openapi.yml
+- filename: warpstream-virtual-clusters-api-openapi.yml
+  format: yaml
+  label: WarpStream Virtual Clusters API
+  slug: warpstream-virtual-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-virtual-clusters-api-openapi.yml
+- filename: warpstream-workspaces-api-openapi.yml
+  format: yaml
+  label: WarpStream Workspaces API
+  slug: warpstream-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-workspaces-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: truist-personal-small-business-accounts-openapi.yml
+- filename: truist-financial-accounts-api-openapi.yml
   format: yaml
-  label: Truist Personal and Small Business Accounts API
-  slug: truist-personal-small-business-accounts-api
+  label: Truist Financial Accounts API
+  slug: truist-financial-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-personal-small-business-accounts-openapi.yml
-- filename: truist-personal-small-business-transactions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-financial-accounts-api-openapi.yml
+- filename: truist-financial-commercial-accounts-api-openapi.yml
   format: yaml
-  label: Truist Personal and Small Business Transactions API
-  slug: truist-personal-small-business-transactions-api
+  label: Truist Financial Commercial Accounts API
+  slug: truist-financial-commercial-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-personal-small-business-transactions-openapi.yml
-- filename: truist-commercial-accounts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-financial-commercial-accounts-api-openapi.yml
+- filename: truist-financial-commercial-transactions-api-openapi.yml
   format: yaml
-  label: Truist Commercial Accounts API
-  slug: truist-commercial-accounts-api
+  label: Truist Financial Commercial Transactions API
+  slug: truist-financial-commercial-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-commercial-accounts-openapi.yml
-- filename: truist-commercial-account-transactions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-financial-commercial-transactions-api-openapi.yml
+- filename: truist-financial-transactions-api-openapi.yml
   format: yaml
-  label: Truist Commercial Account Transactions API
-  slug: truist-commercial-account-transactions-api
+  label: Truist Financial Transactions API
+  slug: truist-financial-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-commercial-account-transactions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-financial-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:

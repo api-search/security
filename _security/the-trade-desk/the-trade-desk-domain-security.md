@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: ttd-data-api.yaml
+- filename: the-trade-desk-advertiser-api-openapi.yml
   format: yaml
-  label: The Trade Desk Data API
-  slug: the-trade-desk-data-api
+  label: The Trade Desk Advertiser API
+  slug: the-trade-desk-advertiser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-trade-desk/refs/heads/main/openapi/ttd-data-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/the-trade-desk/refs/heads/main/openapi/the-trade-desk-advertiser-api-openapi.yml
+- filename: the-trade-desk-deletionoptout-api-openapi.yml
+  format: yaml
+  label: The Trade Desk DeletionOptOut API
+  slug: the-trade-desk-deletionoptout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-trade-desk/refs/heads/main/openapi/the-trade-desk-deletionoptout-api-openapi.yml
+- filename: the-trade-desk-offlineconversion-api-openapi.yml
+  format: yaml
+  label: The Trade Desk OfflineConversion API
+  slug: the-trade-desk-offlineconversion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-trade-desk/refs/heads/main/openapi/the-trade-desk-offlineconversion-api-openapi.yml
+- filename: the-trade-desk-thirdparty-api-openapi.yml
+  format: yaml
+  label: The Trade Desk ThirdParty API
+  slug: the-trade-desk-thirdparty-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-trade-desk/refs/heads/main/openapi/the-trade-desk-thirdparty-api-openapi.yml
 description: ''
 domains:
 - caa: []

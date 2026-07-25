@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: getvocal-openapi-original.json
-  format: json
-  label: GetVocal Agent API
-  slug: getvocal-agent-api
+- filename: getvocal-contact-api-openapi.yml
+  format: yaml
+  label: GetVocal Contact API
+  slug: getvocal-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/openapi/getvocal-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/openapi/getvocal-contact-api-openapi.yml
+- filename: getvocal-llms-txt-api-openapi.yml
+  format: yaml
+  label: GetVocal Llms.txt API
+  slug: getvocal-llms-txt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/openapi/getvocal-llms-txt-api-openapi.yml
+- filename: getvocal-well-known-api-openapi.yml
+  format: yaml
+  label: GetVocal .well Known API
+  slug: getvocal-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/openapi/getvocal-well-known-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

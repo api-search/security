@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: authorize-net-transactions-api-openapi.yml
+  format: yaml
+  label: Authorize.net Transactions API
+  slug: authorize-net-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authorize-net/refs/heads/main/openapi/authorize-net-transactions-api-openapi.yml
 certifications:
 - PCI DSS
 - SSAE-18 (SOC 1)

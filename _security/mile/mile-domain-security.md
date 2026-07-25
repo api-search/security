@@ -1,11 +1,113 @@
 ---
 api_specs:
-- filename: mile-partner-api-openapi-original.json
-  format: json
-  label: Mile Partner API
-  slug: mile-partner-api
+- filename: mile-aramex-api-openapi.yml
+  format: yaml
+  label: Mile Aramex API
+  slug: mile-aramex-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/openapi/mile-partner-api-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/openapi/mile-aramex-api-openapi.yml
+- filename: mile-customers-api-openapi.yml
+  format: yaml
+  label: Mile Customers API
+  slug: mile-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/openapi/mile-customers-api-openapi.yml
+- filename: mile-debug-api-openapi.yml
+  format: yaml
+  label: Mile Debug API
+  slug: mile-debug-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/openapi/mile-debug-api-openapi.yml
+- filename: mile-drivers-api-openapi.yml
+  format: yaml
+  label: Mile Drivers API
+  slug: mile-drivers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/openapi/mile-drivers-api-openapi.yml
+- filename: mile-export-api-openapi.yml
+  format: yaml
+  label: Mile Export API
+  slug: mile-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/openapi/mile-export-api-openapi.yml
+- filename: mile-login-api-openapi.yml
+  format: yaml
+  label: Mile Login API
+  slug: mile-login-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/openapi/mile-login-api-openapi.yml
+- filename: mile-order-api-openapi.yml
+  format: yaml
+  label: Mile Order API
+  slug: mile-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/openapi/mile-order-api-openapi.yml
+- filename: mile-order-optimization-api-openapi.yml
+  format: yaml
+  label: Mile Order Optimization API
+  slug: mile-order-optimization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/openapi/mile-order-optimization-api-openapi.yml
+- filename: mile-order-webhook-api-openapi.yml
+  format: yaml
+  label: Mile Order Webhook API
+  slug: mile-order-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/openapi/mile-order-webhook-api-openapi.yml
+- filename: mile-order-with-dynamic-merchant-api-openapi.yml
+  format: yaml
+  label: Mile Order With Dynamic Merchant API
+  slug: mile-order-with-dynamic-merchant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/openapi/mile-order-with-dynamic-merchant-api-openapi.yml
+- filename: mile-payment-terms-api-openapi.yml
+  format: yaml
+  label: Mile Payment Terms API
+  slug: mile-payment-terms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/openapi/mile-payment-terms-api-openapi.yml
+- filename: mile-products-api-openapi.yml
+  format: yaml
+  label: Mile Products API
+  slug: mile-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/openapi/mile-products-api-openapi.yml
+- filename: mile-promotion-bundle-api-openapi.yml
+  format: yaml
+  label: Mile Promotion Bundle API
+  slug: mile-promotion-bundle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/openapi/mile-promotion-bundle-api-openapi.yml
+- filename: mile-routes-api-openapi.yml
+  format: yaml
+  label: Mile Routes API
+  slug: mile-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/openapi/mile-routes-api-openapi.yml
+- filename: mile-settlement-webhook-api-openapi.yml
+  format: yaml
+  label: Mile Settlement Webhook API
+  slug: mile-settlement-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/openapi/mile-settlement-webhook-api-openapi.yml
+- filename: mile-vehicles-api-openapi.yml
+  format: yaml
+  label: Mile Vehicles API
+  slug: mile-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/openapi/mile-vehicles-api-openapi.yml
+- filename: mile-warehouse-inbound-orders-api-openapi.yml
+  format: yaml
+  label: Mile Warehouse Inbound Orders API
+  slug: mile-warehouse-inbound-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/openapi/mile-warehouse-inbound-orders-api-openapi.yml
+- filename: mile-webhooks-api-openapi.yml
+  format: yaml
+  label: Mile Webhooks API
+  slug: mile-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/openapi/mile-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

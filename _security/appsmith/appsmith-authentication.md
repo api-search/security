@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: appsmith-openapi.yaml
+- filename: appsmith-applications-api-openapi.yml
   format: yaml
-  label: Appsmith API
-  slug: appsmith-api
+  label: Appsmith Applications API
+  slug: appsmith-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmith/refs/heads/main/openapi/appsmith-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/appsmith/refs/heads/main/openapi/appsmith-applications-api-openapi.yml
+- filename: appsmith-datasources-api-openapi.yml
+  format: yaml
+  label: Appsmith Datasources API
+  slug: appsmith-datasources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appsmith/refs/heads/main/openapi/appsmith-datasources-api-openapi.yml
+- filename: appsmith-workspaces-api-openapi.yml
+  format: yaml
+  label: Appsmith Workspaces API
+  slug: appsmith-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appsmith/refs/heads/main/openapi/appsmith-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''

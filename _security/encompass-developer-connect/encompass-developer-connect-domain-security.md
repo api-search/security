@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: encompass-developer-connect-openapi.yml
+- filename: encompass-developer-connect-authentication-api-openapi.yml
   format: yaml
-  label: Encompass Developer Connect API
-  slug: encompass-developer-connect
+  label: Encompass Developer Connect Authentication API
+  slug: encompass-developer-connect-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encompass-developer-connect/refs/heads/main/openapi/encompass-developer-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/encompass-developer-connect/refs/heads/main/openapi/encompass-developer-connect-authentication-api-openapi.yml
+- filename: encompass-developer-connect-loan-pipeline-api-openapi.yml
+  format: yaml
+  label: Encompass Developer Connect Loan Pipeline API
+  slug: encompass-developer-connect-loan-pipeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/encompass-developer-connect/refs/heads/main/openapi/encompass-developer-connect-loan-pipeline-api-openapi.yml
+- filename: encompass-developer-connect-loans-api-openapi.yml
+  format: yaml
+  label: Encompass Developer Connect Loans API
+  slug: encompass-developer-connect-loans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/encompass-developer-connect/refs/heads/main/openapi/encompass-developer-connect-loans-api-openapi.yml
 description: ''
 domains:
 - caa: []

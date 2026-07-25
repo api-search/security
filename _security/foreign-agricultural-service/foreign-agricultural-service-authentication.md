@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: foreign-agricultural-service-openapi.yml
+- filename: foreign-agricultural-service-esr-api-openapi.yml
   format: yaml
-  label: USDA FAS Open Data API
-  slug: fas-open-data
+  label: Foreign Agricultural Service ESR API
+  slug: foreign-agricultural-service-esr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/openapi/foreign-agricultural-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/openapi/foreign-agricultural-service-esr-api-openapi.yml
+- filename: foreign-agricultural-service-gats-api-openapi.yml
+  format: yaml
+  label: Foreign Agricultural Service GATS API
+  slug: foreign-agricultural-service-gats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/openapi/foreign-agricultural-service-gats-api-openapi.yml
+- filename: foreign-agricultural-service-psd-api-openapi.yml
+  format: yaml
+  label: Foreign Agricultural Service PSD API
+  slug: foreign-agricultural-service-psd-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/openapi/foreign-agricultural-service-psd-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

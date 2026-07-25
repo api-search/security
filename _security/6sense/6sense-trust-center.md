@@ -1,41 +1,23 @@
 ---
 api_specs:
-- filename: 6sense-company-identification-api-openapi.yml
+- filename: 6sense-company-api-openapi.yml
   format: yaml
-  label: 6sense Company Identification API
-  slug: 6sense-company-identification-api
+  label: 6sense Company API
+  slug: 6sense-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-company-identification-api-openapi.yml
-- filename: 6sense-company-firmographics-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-company-api-openapi.yml
+- filename: 6sense-enrichment-api-openapi.yml
   format: yaml
-  label: 6sense Company Firmographics API
-  slug: 6sense-company-firmographics-api
+  label: 6sense Enrichment API
+  slug: 6sense-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-company-firmographics-api-openapi.yml
-- filename: 6sense-lead-scoring-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-enrichment-api-openapi.yml
+- filename: 6sense-people-api-openapi.yml
   format: yaml
-  label: 6sense Lead Scoring API
-  slug: 6sense-lead-scoring-api
+  label: 6sense People API
+  slug: 6sense-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-lead-scoring-api-openapi.yml
-- filename: 6sense-lead-scoring-firmographics-api-openapi.yml
-  format: yaml
-  label: 6sense Lead Scoring And Firmographics API
-  slug: 6sense-lead-scoring-firmographics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-lead-scoring-firmographics-api-openapi.yml
-- filename: 6sense-people-enrichment-api-openapi.yml
-  format: yaml
-  label: 6sense People Enrichment API
-  slug: 6sense-people-enrichment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-people-enrichment-api-openapi.yml
-- filename: 6sense-people-search-api-openapi.yml
-  format: yaml
-  label: 6sense People Search API
-  slug: 6sense-people-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-people-search-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-people-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

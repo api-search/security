@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: deeptrace-api-openapi.yml
+- filename: deeptrace-chat-api-openapi.yml
   format: yaml
-  label: Deeptrace REST API
-  slug: deeptrace-rest-api
+  label: Deeptrace Chat API
+  slug: deeptrace-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deeptrace/refs/heads/main/openapi/deeptrace-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deeptrace/refs/heads/main/openapi/deeptrace-chat-api-openapi.yml
+- filename: deeptrace-investigations-api-openapi.yml
+  format: yaml
+  label: Deeptrace Investigations API
+  slug: deeptrace-investigations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deeptrace/refs/heads/main/openapi/deeptrace-investigations-api-openapi.yml
 auth_types:
 - apiKey
 - http-bearer

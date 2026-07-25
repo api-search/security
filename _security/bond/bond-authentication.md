@@ -39,6 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bond/refs/head
 summary_line: apiKey · 2 schemes
 tags:
 - Company
+- United States
 - Banking as a Service
 - Embedded Finance
 - Fintech
@@ -50,4 +51,5 @@ tags:
 - KYC
 - KYB
 - Credit
+- Open Finance
 ---

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: azure-file-storage-openapi.yml
+- filename: azure-file-storage-account-api-openapi.yml
   format: yaml
-  label: Azure Files FileREST API
-  slug: filerest-api
+  label: Azure Files Account API
+  slug: azure-file-storage-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-account-api-openapi.yml
+- filename: azure-file-storage-directories-api-openapi.yml
+  format: yaml
+  label: Azure Files Directories API
+  slug: azure-file-storage-directories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-directories-api-openapi.yml
+- filename: azure-file-storage-files-api-openapi.yml
+  format: yaml
+  label: Azure Files Files API
+  slug: azure-file-storage-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-files-api-openapi.yml
+- filename: azure-file-storage-shares-api-openapi.yml
+  format: yaml
+  label: Azure Files Shares API
+  slug: azure-file-storage-shares-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-shares-api-openapi.yml
 description: ''
 domains:
 - caa:

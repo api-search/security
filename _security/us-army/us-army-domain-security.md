@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: us-army-public-openapi.yml
+- filename: us-army-articles-api-openapi.yml
   format: yaml
-  label: US Army Public API
-  slug: us-army-public-api
+  label: US Army Articles API
+  slug: us-army-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-army/refs/heads/main/openapi/us-army-public-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/us-army/refs/heads/main/openapi/us-army-articles-api-openapi.yml
+- filename: us-army-events-api-openapi.yml
+  format: yaml
+  label: US Army Events API
+  slug: us-army-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-army/refs/heads/main/openapi/us-army-events-api-openapi.yml
+- filename: us-army-news-api-openapi.yml
+  format: yaml
+  label: US Army News API
+  slug: us-army-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-army/refs/heads/main/openapi/us-army-news-api-openapi.yml
 description: ''
 domains:
 - caa: []

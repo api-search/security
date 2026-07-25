@@ -1,23 +1,17 @@
 ---
 api_specs:
-- filename: coconut-openapi.yml
+- filename: coconut-jobs-api-openapi.yml
   format: yaml
   label: Coconut Jobs API
   slug: coconut-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coconut/refs/heads/main/openapi/coconut-openapi.yml
-- filename: coconut-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coconut/refs/heads/main/openapi/coconut-jobs-api-openapi.yml
+- filename: coconut-metadata-api-openapi.yml
   format: yaml
   label: Coconut Metadata API
   slug: coconut-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coconut/refs/heads/main/openapi/coconut-openapi.yml
-- filename: coconut-openapi.yml
-  format: yaml
-  label: Coconut Webhooks API
-  slug: coconut-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coconut/refs/heads/main/openapi/coconut-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coconut/refs/heads/main/openapi/coconut-metadata-api-openapi.yml
 description: ''
 domains:
 - caa: []

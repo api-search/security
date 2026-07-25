@@ -2,24 +2,6 @@
 api_key_in:
 - header
 api_specs:
-- filename: socure-idplus-api-openapi.yml
-  format: yaml
-  label: Socure ID+ API
-  slug: socure-idplus-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/openapi/socure-idplus-api-openapi.yml
-- filename: socure-docv-api-openapi.yml
-  format: yaml
-  label: Socure Predictive DocV API
-  slug: socure-docv-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/openapi/socure-docv-api-openapi.yml
-- filename: socure-watchlist-monitoring-api-openapi.yml
-  format: yaml
-  label: Socure Global Watchlist Monitoring API
-  slug: socure-watchlist-monitoring-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/openapi/socure-watchlist-monitoring-api-openapi.yml
 - filename: socure-decision-api-openapi.yml
   format: yaml
   label: Socure Decision API
@@ -32,6 +14,36 @@ api_specs:
   slug: socure-account-intelligence-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/openapi/socure-account-intelligence-api-openapi.yml
+- filename: socure-alerts-api-openapi.yml
+  format: yaml
+  label: socure Alerts API
+  slug: socure-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/openapi/socure-alerts-api-openapi.yml
+- filename: socure-id-api-openapi.yml
+  format: yaml
+  label: socure ID+ API
+  slug: socure-id-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/openapi/socure-id-api-openapi.yml
+- filename: socure-monitoring-api-openapi.yml
+  format: yaml
+  label: socure Monitoring API
+  slug: socure-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/openapi/socure-monitoring-api-openapi.yml
+- filename: socure-transactions-api-openapi.yml
+  format: yaml
+  label: socure Transactions API
+  slug: socure-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/openapi/socure-transactions-api-openapi.yml
+- filename: socure-uploads-api-openapi.yml
+  format: yaml
+  label: socure Uploads API
+  slug: socure-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/openapi/socure-uploads-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

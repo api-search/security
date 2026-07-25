@@ -1,36 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: racq-bank-cds-banking-products-openapi.yml
+- filename: racq-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: RACQ Bank CDR Product Reference Data API
-  slug: racq-bank-cdr-product-reference-data-api
+  label: RACQ Bank Banking Account Balances API
+  slug: racq-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/openapi/racq-bank-cds-banking-products-openapi.yml
-- filename: racq-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/openapi/racq-bank-banking-account-balances-api-openapi.yml
+- filename: racq-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: RACQ Bank CDR Accounts & Balances API
-  slug: racq-bank-cdr-accounts-balances-api
+  label: RACQ Bank Banking Account Direct Debits API
+  slug: racq-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/openapi/racq-bank-cds-banking-products-openapi.yml
-- filename: racq-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/openapi/racq-bank-banking-account-direct-debits-api-openapi.yml
+- filename: racq-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: RACQ Bank CDR Transactions API
-  slug: racq-bank-cdr-transactions-api
+  label: RACQ Bank Banking Account Scheduled Payments API
+  slug: racq-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/openapi/racq-bank-cds-banking-products-openapi.yml
-- filename: racq-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/openapi/racq-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: racq-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: RACQ Bank CDR Direct Debits & Scheduled Payments API
-  slug: racq-bank-cdr-direct-debits-scheduled-payments-api
+  label: RACQ Bank Banking Account Transactions API
+  slug: racq-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/openapi/racq-bank-cds-banking-products-openapi.yml
-- filename: racq-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/openapi/racq-bank-banking-account-transactions-api-openapi.yml
+- filename: racq-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: RACQ Bank CDR Payees API
-  slug: racq-bank-cdr-payees-api
+  label: RACQ Bank Banking Accounts API
+  slug: racq-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/openapi/racq-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/openapi/racq-bank-banking-accounts-api-openapi.yml
+- filename: racq-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: RACQ Bank Banking Payees API
+  slug: racq-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/openapi/racq-bank-banking-payees-api-openapi.yml
+- filename: racq-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: RACQ Bank Banking Products API
+  slug: racq-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/openapi/racq-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2

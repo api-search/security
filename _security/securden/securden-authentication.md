@@ -3,12 +3,12 @@ api_key_in:
 - query
 - header
 api_specs:
-- filename: securden-password-retrieval-openapi.yml
+- filename: securden-get-password-api-openapi.yml
   format: yaml
-  label: Securden Password Retrieval API
-  slug: securden-password-retrieval-api
+  label: Securden Get Password API
+  slug: securden-get-password-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/openapi/securden-password-retrieval-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/openapi/securden-get-password-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: airspace-technologies-v3-openapi.json
-  format: json
-  label: Airspace API V3
-  slug: airspace-api-v3
+- filename: airspace-technologies-address-books-api-openapi.yml
+  format: yaml
+  label: Airspace Technologies Address Books API
+  slug: airspace-technologies-address-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-v3-openapi.json
-- filename: airspace-technologies-v2-openapi.json
-  format: json
-  label: Airspace API V2
-  slug: airspace-api-v2
+  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-address-books-api-openapi.yml
+- filename: airspace-technologies-invoices-api-openapi.yml
+  format: yaml
+  label: Airspace Technologies Invoices API
+  slug: airspace-technologies-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-v2-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-invoices-api-openapi.yml
+- filename: airspace-technologies-labels-api-openapi.yml
+  format: yaml
+  label: Airspace Technologies Labels API
+  slug: airspace-technologies-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-labels-api-openapi.yml
+- filename: airspace-technologies-orders-api-openapi.yml
+  format: yaml
+  label: Airspace Technologies Orders API
+  slug: airspace-technologies-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-orders-api-openapi.yml
+- filename: airspace-technologies-piece-libraries-api-openapi.yml
+  format: yaml
+  label: Airspace Technologies Piece Libraries API
+  slug: airspace-technologies-piece-libraries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-piece-libraries-api-openapi.yml
+- filename: airspace-technologies-quotes-api-openapi.yml
+  format: yaml
+  label: Airspace Technologies Quotes API
+  slug: airspace-technologies-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-quotes-api-openapi.yml
 description: ''
 domains:
 - caa: []

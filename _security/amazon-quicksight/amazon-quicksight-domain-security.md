@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: Welcome.html
+- filename: amazon-quicksight-dashboards-api-openapi.yml
   format: yaml
-  label: Amazon QuickSight API
-  slug: amazon-quicksight-api
+  label: Amazon QuickSight Dashboards API
+  slug: amazon-quicksight-dashboards-api
   spec_type: OpenAPI
-  url: https://docs.aws.amazon.com/quicksight/latest/APIReference/Welcome.html
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-quicksight/refs/heads/main/openapi/amazon-quicksight-dashboards-api-openapi.yml
+- filename: amazon-quicksight-datasets-api-openapi.yml
+  format: yaml
+  label: Amazon QuickSight Datasets API
+  slug: amazon-quicksight-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-quicksight/refs/heads/main/openapi/amazon-quicksight-datasets-api-openapi.yml
 description: ''
 domains:
 - caa: []

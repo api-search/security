@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: onelogin-openapi.yml
+- filename: onelogin-apps-api-openapi.yml
   format: yaml
-  label: OneLogin API
-  slug: onelogin
+  label: OneLogin Apps API
+  slug: onelogin-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-apps-api-openapi.yml
+- filename: onelogin-mfa-api-openapi.yml
+  format: yaml
+  label: OneLogin MFA API
+  slug: onelogin-mfa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-mfa-api-openapi.yml
+- filename: onelogin-oauth-api-openapi.yml
+  format: yaml
+  label: OneLogin OAuth API
+  slug: onelogin-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-oauth-api-openapi.yml
+- filename: onelogin-roles-api-openapi.yml
+  format: yaml
+  label: OneLogin Roles API
+  slug: onelogin-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-roles-api-openapi.yml
+- filename: onelogin-saml-api-openapi.yml
+  format: yaml
+  label: OneLogin SAML API
+  slug: onelogin-saml-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-saml-api-openapi.yml
+- filename: onelogin-users-api-openapi.yml
+  format: yaml
+  label: OneLogin Users API
+  slug: onelogin-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: traversal-sessions-openapi.yaml
+- filename: traversal-sessions-api-openapi.yml
   format: yaml
   label: Traversal Sessions API
   slug: traversal-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/openapi/traversal-sessions-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/openapi/traversal-sessions-api-openapi.yml
 description: ''
 domains:
 - caa:

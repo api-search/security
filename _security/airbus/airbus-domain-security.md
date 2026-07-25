@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: airbus-authentication-api-openapi.yml
+  format: yaml
+  label: Airbus Authentication API
+  slug: airbus-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airbus/refs/heads/main/openapi/airbus-authentication-api-openapi.yml
+- filename: airbus-catalog-api-openapi.yml
+  format: yaml
+  label: Airbus Catalog API
+  slug: airbus-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airbus/refs/heads/main/openapi/airbus-catalog-api-openapi.yml
 description: ''
 domains:
 - caa: []

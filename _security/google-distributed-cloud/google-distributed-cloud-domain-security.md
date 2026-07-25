@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: distributed-cloud-edge-network-api-openapi.yml
+- filename: google-distributed-cloud-networks-api-openapi.yml
   format: yaml
-  label: Distributed Cloud Edge Network API
-  slug: distributed-cloud-edge-network-api
+  label: Google Distributed Cloud Networks API
+  slug: google-distributed-cloud-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/openapi/distributed-cloud-edge-network-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/openapi/google-distributed-cloud-networks-api-openapi.yml
+- filename: google-distributed-cloud-routers-api-openapi.yml
+  format: yaml
+  label: Google Distributed Cloud Routers API
+  slug: google-distributed-cloud-routers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/openapi/google-distributed-cloud-routers-api-openapi.yml
+- filename: google-distributed-cloud-subnets-api-openapi.yml
+  format: yaml
+  label: Google Distributed Cloud Subnets API
+  slug: google-distributed-cloud-subnets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/openapi/google-distributed-cloud-subnets-api-openapi.yml
+- filename: google-distributed-cloud-zones-api-openapi.yml
+  format: yaml
+  label: Google Distributed Cloud Zones API
+  slug: google-distributed-cloud-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/openapi/google-distributed-cloud-zones-api-openapi.yml
 description: ''
 domains:
 - caa:

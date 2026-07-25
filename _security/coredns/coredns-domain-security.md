@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: coredns-health-openapi.yml
+- filename: coredns-health-api-openapi.yml
   format: yaml
   label: CoreDNS Health API
   slug: coredns-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/openapi/coredns-health-openapi.yml
-- filename: coredns-metrics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/openapi/coredns-health-api-openapi.yml
+- filename: coredns-metrics-api-openapi.yml
   format: yaml
   label: CoreDNS Metrics API
   slug: coredns-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/openapi/coredns-metrics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/openapi/coredns-metrics-api-openapi.yml
+- filename: coredns-ready-api-openapi.yml
+  format: yaml
+  label: CoreDNS Ready API
+  slug: coredns-ready-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/openapi/coredns-ready-api-openapi.yml
 description: ''
 domains:
 - caa: []

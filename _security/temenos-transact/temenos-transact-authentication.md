@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Temenos Transact Core Banking API
-  slug: temenos-transact-core-banking-api
+- filename: temenos-transact-accounts-api-openapi.yml
+  format: yaml
+  label: Temenos Transact Accounts API
+  slug: temenos-transact-accounts-api
   spec_type: OpenAPI
-  url: https://developer.temenos.com/transact/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/openapi/temenos-transact-accounts-api-openapi.yml
+- filename: temenos-transact-beneficiaries-api-openapi.yml
+  format: yaml
+  label: Temenos Transact Beneficiaries API
+  slug: temenos-transact-beneficiaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/openapi/temenos-transact-beneficiaries-api-openapi.yml
+- filename: temenos-transact-cards-api-openapi.yml
+  format: yaml
+  label: Temenos Transact Cards API
+  slug: temenos-transact-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/openapi/temenos-transact-cards-api-openapi.yml
+- filename: temenos-transact-customers-api-openapi.yml
+  format: yaml
+  label: Temenos Transact Customers API
+  slug: temenos-transact-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/openapi/temenos-transact-customers-api-openapi.yml
+- filename: temenos-transact-deposits-api-openapi.yml
+  format: yaml
+  label: Temenos Transact Deposits API
+  slug: temenos-transact-deposits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/openapi/temenos-transact-deposits-api-openapi.yml
+- filename: temenos-transact-loans-api-openapi.yml
+  format: yaml
+  label: Temenos Transact Loans API
+  slug: temenos-transact-loans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/openapi/temenos-transact-loans-api-openapi.yml
+- filename: temenos-transact-payments-api-openapi.yml
+  format: yaml
+  label: Temenos Transact Payments API
+  slug: temenos-transact-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/openapi/temenos-transact-payments-api-openapi.yml
+- filename: temenos-transact-products-api-openapi.yml
+  format: yaml
+  label: Temenos Transact Products API
+  slug: temenos-transact-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/openapi/temenos-transact-products-api-openapi.yml
+- filename: temenos-transact-reference-data-api-openapi.yml
+  format: yaml
+  label: Temenos Transact Reference Data API
+  slug: temenos-transact-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/openapi/temenos-transact-reference-data-api-openapi.yml
+- filename: temenos-transact-transactions-api-openapi.yml
+  format: yaml
+  label: Temenos Transact Transactions API
+  slug: temenos-transact-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/openapi/temenos-transact-transactions-api-openapi.yml
 auth_types:
 - http
 description: ''

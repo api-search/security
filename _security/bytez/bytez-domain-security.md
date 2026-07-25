@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: bytez-openapi.yaml
+- filename: bytez-models-api-openapi.yml
   format: yaml
-  label: Bytez Model API
-  slug: bytez-model-api
+  label: Bytez Models API
+  slug: bytez-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/openapi/bytez-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/openapi/bytez-models-api-openapi.yml
 description: ''
 domains:
 - caa: []

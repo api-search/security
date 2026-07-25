@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: zubale-api-documentation-for-external-notification-handler-api-openapi.yml
+  format: yaml
+  label: Zubale API Documentation for External Notification Handler API
+  slug: zubale-api-documentation-for-external-notification-handler-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-api-documentation-for-external-notification-handler-api-openapi.yml
+- filename: zubale-cancel-tasks-api-openapi.yml
+  format: yaml
+  label: Zubale Cancel tasks API
+  slug: zubale-cancel-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-cancel-tasks-api-openapi.yml
+- filename: zubale-delivery-api-api-openapi.yml
+  format: yaml
+  label: Zubale Delivery API API
+  slug: zubale-delivery-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-delivery-api-api-openapi.yml
+- filename: zubale-external-outbound-api-openapi.yml
+  format: yaml
+  label: Zubale External outbound API
+  slug: zubale-external-outbound-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-external-outbound-api-openapi.yml
+- filename: zubale-live-tracking-for-cencosud-api-openapi.yml
+  format: yaml
+  label: Zubale Live Tracking For Cencosud API
+  slug: zubale-live-tracking-for-cencosud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-live-tracking-for-cencosud-api-openapi.yml
+- filename: zubale-picking-delivery-api-api-openapi.yml
+  format: yaml
+  label: Zubale Picking & Delivery API API
+  slug: zubale-picking-delivery-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-picking-delivery-api-api-openapi.yml
+- filename: zubale-product-catalog-api-openapi.yml
+  format: yaml
+  label: Zubale Product catalog API
+  slug: zubale-product-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-product-catalog-api-openapi.yml
+- filename: zubale-webhook-payload-structure-for-order-notification-api-openapi.yml
+  format: yaml
+  label: 'Zubale Webhook: Payload Structure for Order Notification API'
+  slug: zubale-webhook-payload-structure-for-order-notification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-webhook-payload-structure-for-order-notification-api-openapi.yml
 certifications:
 - ISO 27001
 - SOC 3

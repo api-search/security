@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: klavis-openapi.yml
+- filename: klavis-mcp-servers-api-openapi.yml
   format: yaml
-  label: Klavis MCP Platform API
-  slug: mcp-platform
+  label: Klavis AI MCP Servers API
+  slug: klavis-mcp-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klavis/refs/heads/main/openapi/klavis-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/klavis/refs/heads/main/openapi/klavis-mcp-servers-api-openapi.yml
+- filename: klavis-sandbox-api-openapi.yml
+  format: yaml
+  label: Klavis AI Sandbox API
+  slug: klavis-sandbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/klavis/refs/heads/main/openapi/klavis-sandbox-api-openapi.yml
+- filename: klavis-tools-api-openapi.yml
+  format: yaml
+  label: Klavis AI Tools API
+  slug: klavis-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/klavis/refs/heads/main/openapi/klavis-tools-api-openapi.yml
+- filename: klavis-users-api-openapi.yml
+  format: yaml
+  label: Klavis AI Users API
+  slug: klavis-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/klavis/refs/heads/main/openapi/klavis-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

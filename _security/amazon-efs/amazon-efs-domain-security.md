@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: amazon-efs-openapi.yml
+- filename: amazon-efs-2015-02-01-api-openapi.yml
   format: yaml
-  label: Amazon EFS API
-  slug: amazon-efs-api
+  label: Amazon EFS 2015 02 01 API
+  slug: amazon-efs-2015-02-01-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-efs/refs/heads/main/openapi/amazon-efs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-efs/refs/heads/main/openapi/amazon-efs-2015-02-01-api-openapi.yml
 description: ''
 domains:
 - caa: []

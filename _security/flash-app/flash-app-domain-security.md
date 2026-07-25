@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: flash-app-expense-openapi-original.json
-  format: json
-  label: Flash Expense API
-  slug: flash-expense-api
+- filename: flash-app-integration-api-openapi.yml
+  format: yaml
+  label: Flash App Integration API
+  slug: flash-app-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flash-app/refs/heads/main/openapi/flash-app-expense-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/flash-app/refs/heads/main/openapi/flash-app-integration-api-openapi.yml
+- filename: flash-app-login-api-openapi.yml
+  format: yaml
+  label: Flash App Login API
+  slug: flash-app-login-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flash-app/refs/heads/main/openapi/flash-app-login-api-openapi.yml
 description: ''
 domains:
 - caa: []

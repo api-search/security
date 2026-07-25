@@ -1,59 +1,59 @@
 ---
 api_specs:
-- filename: folk-app-openapi.yml
-  format: yaml
-  label: Folk People API
-  slug: folk-app-people-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/folk-app/refs/heads/main/openapi/folk-app-openapi.yml
-- filename: folk-app-openapi.yml
+- filename: folk-app-companies-api-openapi.yml
   format: yaml
   label: Folk Companies API
   slug: folk-app-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/folk-app/refs/heads/main/openapi/folk-app-openapi.yml
-- filename: folk-app-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/folk-app/refs/heads/main/openapi/folk-app-companies-api-openapi.yml
+- filename: folk-app-deals-api-openapi.yml
   format: yaml
-  label: Folk Deals and Custom Objects API
-  slug: folk-app-deals-objects-api
+  label: Folk Deals API
+  slug: folk-app-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/folk-app/refs/heads/main/openapi/folk-app-openapi.yml
-- filename: folk-app-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/folk-app/refs/heads/main/openapi/folk-app-deals-api-openapi.yml
+- filename: folk-app-groups-api-openapi.yml
   format: yaml
   label: Folk Groups API
   slug: folk-app-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/folk-app/refs/heads/main/openapi/folk-app-openapi.yml
-- filename: folk-app-openapi.yml
-  format: yaml
-  label: Folk Notes API
-  slug: folk-app-notes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/folk-app/refs/heads/main/openapi/folk-app-openapi.yml
-- filename: folk-app-openapi.yml
-  format: yaml
-  label: Folk Reminders API
-  slug: folk-app-reminders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/folk-app/refs/heads/main/openapi/folk-app-openapi.yml
-- filename: folk-app-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/folk-app/refs/heads/main/openapi/folk-app-groups-api-openapi.yml
+- filename: folk-app-interactions-api-openapi.yml
   format: yaml
   label: Folk Interactions API
   slug: folk-app-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/folk-app/refs/heads/main/openapi/folk-app-openapi.yml
-- filename: folk-app-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/folk-app/refs/heads/main/openapi/folk-app-interactions-api-openapi.yml
+- filename: folk-app-notes-api-openapi.yml
+  format: yaml
+  label: Folk Notes API
+  slug: folk-app-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/folk-app/refs/heads/main/openapi/folk-app-notes-api-openapi.yml
+- filename: folk-app-people-api-openapi.yml
+  format: yaml
+  label: Folk People API
+  slug: folk-app-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/folk-app/refs/heads/main/openapi/folk-app-people-api-openapi.yml
+- filename: folk-app-reminders-api-openapi.yml
+  format: yaml
+  label: Folk Reminders API
+  slug: folk-app-reminders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/folk-app/refs/heads/main/openapi/folk-app-reminders-api-openapi.yml
+- filename: folk-app-users-api-openapi.yml
   format: yaml
   label: Folk Users API
   slug: folk-app-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/folk-app/refs/heads/main/openapi/folk-app-openapi.yml
-- filename: folk-app-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/folk-app/refs/heads/main/openapi/folk-app-users-api-openapi.yml
+- filename: folk-app-webhooks-api-openapi.yml
   format: yaml
   label: Folk Webhooks API
   slug: folk-app-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/folk-app/refs/heads/main/openapi/folk-app-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/folk-app/refs/heads/main/openapi/folk-app-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

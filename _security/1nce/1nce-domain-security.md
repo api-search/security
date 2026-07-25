@@ -1,41 +1,137 @@
 ---
 api_specs:
-- filename: 1nce-authorization-openapi.yml
+- filename: 1nce-administration-logs-api-openapi.yml
   format: yaml
-  label: 1NCE Authorization API
-  slug: 1nce-authorization-api
+  label: 1NCE Administration Logs API
+  slug: 1nce-administration-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-authorization-openapi.yml
-- filename: 1nce-sim-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-administration-logs-api-openapi.yml
+- filename: 1nce-agreements-api-openapi.yml
   format: yaml
-  label: 1NCE SIM Management API
-  slug: 1nce-sim-management-api
+  label: 1NCE Agreements API
+  slug: 1nce-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-sim-management-openapi.yml
-- filename: 1nce-os-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-agreements-api-openapi.yml
+- filename: 1nce-bearer-authorization-api-openapi.yml
   format: yaml
-  label: 1NCE OS API
-  slug: 1nce-os-api
+  label: 1NCE Bearer Authorization API
+  slug: 1nce-bearer-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-os-openapi.yml
-- filename: 1nce-order-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-bearer-authorization-api-openapi.yml
+- filename: 1nce-connectivity-api-openapi.yml
   format: yaml
-  label: 1NCE Order Management API
-  slug: 1nce-order-management-api
+  label: 1NCE Connectivity API
+  slug: 1nce-connectivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-order-management-openapi.yml
-- filename: 1nce-product-information-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-connectivity-api-openapi.yml
+- filename: 1nce-device-inspector-api-openapi.yml
   format: yaml
-  label: 1NCE Product Information API
-  slug: 1nce-product-information-api
+  label: 1NCE Device Inspector API
+  slug: 1nce-device-inspector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-product-information-openapi.yml
-- filename: 1nce-support-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-device-inspector-api-openapi.yml
+- filename: 1nce-device-locator-api-openapi.yml
   format: yaml
-  label: 1NCE Support Management API
-  slug: 1nce-support-management-api
+  label: 1NCE Device Locator API
+  slug: 1nce-device-locator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-support-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-device-locator-api-openapi.yml
+- filename: 1nce-devices-api-openapi.yml
+  format: yaml
+  label: 1NCE Devices API
+  slug: 1nce-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-devices-api-openapi.yml
+- filename: 1nce-general-sims-api-openapi.yml
+  format: yaml
+  label: 1NCE General SIMs API
+  slug: 1nce-general-sims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-general-sims-api-openapi.yml
+- filename: 1nce-iot-integrator-api-openapi.yml
+  format: yaml
+  label: 1NCE IoT Integrator API
+  slug: 1nce-iot-integrator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-iot-integrator-api-openapi.yml
+- filename: 1nce-optimizer-api-openapi.yml
+  format: yaml
+  label: 1NCE Optimizer API
+  slug: 1nce-optimizer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-optimizer-api-openapi.yml
+- filename: 1nce-orders-api-openapi.yml
+  format: yaml
+  label: 1NCE Orders API
+  slug: 1nce-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-orders-api-openapi.yml
+- filename: 1nce-plugin-system-api-openapi.yml
+  format: yaml
+  label: 1NCE Plugin system API
+  slug: 1nce-plugin-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-plugin-system-api-openapi.yml
+- filename: 1nce-products-api-openapi.yml
+  format: yaml
+  label: 1NCE Products API
+  slug: 1nce-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-products-api-openapi.yml
+- filename: 1nce-service-requests-api-openapi.yml
+  format: yaml
+  label: 1NCE Service Requests API
+  slug: 1nce-service-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-service-requests-api-openapi.yml
+- filename: 1nce-settings-api-openapi.yml
+  format: yaml
+  label: 1NCE Settings API
+  slug: 1nce-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-settings-api-openapi.yml
+- filename: 1nce-sim-events-api-openapi.yml
+  format: yaml
+  label: 1NCE SIM Events API
+  slug: 1nce-sim-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-sim-events-api-openapi.yml
+- filename: 1nce-sim-extension-api-openapi.yml
+  format: yaml
+  label: 1NCE SIM Extension API
+  slug: 1nce-sim-extension-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-sim-extension-api-openapi.yml
+- filename: 1nce-sim-usage-api-openapi.yml
+  format: yaml
+  label: 1NCE SIM Usage API
+  slug: 1nce-sim-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-sim-usage-api-openapi.yml
+- filename: 1nce-sms-api-openapi.yml
+  format: yaml
+  label: 1NCE SMS API
+  slug: 1nce-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-sms-api-openapi.yml
+- filename: 1nce-sms-by-iccid-api-openapi.yml
+  format: yaml
+  label: 1NCE SMS by ICCID API
+  slug: 1nce-sms-by-iccid-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-sms-by-iccid-api-openapi.yml
+- filename: 1nce-volume-limits-api-openapi.yml
+  format: yaml
+  label: 1NCE Volume Limits API
+  slug: 1nce-volume-limits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-volume-limits-api-openapi.yml
+- filename: 1nce-volume-top-up-api-openapi.yml
+  format: yaml
+  label: 1NCE Volume Top Up API
+  slug: 1nce-volume-top-up-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-volume-top-up-api-openapi.yml
 description: ''
 domains:
 - caa: []

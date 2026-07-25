@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: opencost-openapi.yml
+- filename: opencost-allocation-api-openapi.yml
   format: yaml
-  label: OpenCost API
-  slug: opencost-api
+  label: OpenCost Allocation API
+  slug: opencost-allocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencost/refs/heads/main/openapi/opencost-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/opencost/refs/heads/main/openapi/opencost-allocation-api-openapi.yml
+- filename: opencost-assets-api-openapi.yml
+  format: yaml
+  label: OpenCost Assets API
+  slug: opencost-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opencost/refs/heads/main/openapi/opencost-assets-api-openapi.yml
+- filename: opencost-cloudcost-api-openapi.yml
+  format: yaml
+  label: OpenCost CloudCost API
+  slug: opencost-cloudcost-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opencost/refs/heads/main/openapi/opencost-cloudcost-api-openapi.yml
+- filename: opencost-customcost-api-openapi.yml
+  format: yaml
+  label: OpenCost CustomCost API
+  slug: opencost-customcost-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opencost/refs/heads/main/openapi/opencost-customcost-api-openapi.yml
 description: ''
 domains:
 - caa: []

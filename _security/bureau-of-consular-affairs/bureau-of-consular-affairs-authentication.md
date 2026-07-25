@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: bureau-of-consular-affairs-openapi.yml
+- filename: bureau-of-consular-affairs-datastore-api-openapi.yml
   format: yaml
-  label: Bureau of Consular Affairs Data Catalog (CKAN API)
-  slug: ca-data-catalog-ckan-api
+  label: Bureau of Consular Affairs Datastore API
+  slug: bureau-of-consular-affairs-datastore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/openapi/bureau-of-consular-affairs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/openapi/bureau-of-consular-affairs-datastore-api-openapi.yml
+- filename: bureau-of-consular-affairs-discovery-api-openapi.yml
+  format: yaml
+  label: Bureau of Consular Affairs Discovery API
+  slug: bureau-of-consular-affairs-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/openapi/bureau-of-consular-affairs-discovery-api-openapi.yml
+- filename: bureau-of-consular-affairs-write-api-openapi.yml
+  format: yaml
+  label: Bureau of Consular Affairs Write API
+  slug: bureau-of-consular-affairs-write-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/openapi/bureau-of-consular-affairs-write-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

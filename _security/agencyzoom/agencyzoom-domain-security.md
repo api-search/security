@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: agencyzoom.yaml
+- filename: agencyzoom-authentication-api-openapi.yml
   format: yaml
-  label: AgencyZoom API
-  slug: api
+  label: AgencyZoom Authentication API
+  slug: agencyzoom-authentication-api
   spec_type: OpenAPI
-  url: https://app.agencyzoom.com/openapi/agencyzoom.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-authentication-api-openapi.yml
+- filename: agencyzoom-configuration-api-openapi.yml
+  format: yaml
+  label: AgencyZoom Configuration API
+  slug: agencyzoom-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-configuration-api-openapi.yml
+- filename: agencyzoom-customers-api-openapi.yml
+  format: yaml
+  label: AgencyZoom Customers API
+  slug: agencyzoom-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-customers-api-openapi.yml
+- filename: agencyzoom-email-api-openapi.yml
+  format: yaml
+  label: AgencyZoom Email API
+  slug: agencyzoom-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-email-api-openapi.yml
+- filename: agencyzoom-leads-api-openapi.yml
+  format: yaml
+  label: AgencyZoom Leads API
+  slug: agencyzoom-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-leads-api-openapi.yml
+- filename: agencyzoom-opportunities-api-openapi.yml
+  format: yaml
+  label: AgencyZoom Opportunities API
+  slug: agencyzoom-opportunities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-opportunities-api-openapi.yml
+- filename: agencyzoom-pipelines-api-openapi.yml
+  format: yaml
+  label: AgencyZoom Pipelines API
+  slug: agencyzoom-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-pipelines-api-openapi.yml
+- filename: agencyzoom-policies-api-openapi.yml
+  format: yaml
+  label: AgencyZoom Policies API
+  slug: agencyzoom-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-policies-api-openapi.yml
 description: ''
 domains:
 - caa: []

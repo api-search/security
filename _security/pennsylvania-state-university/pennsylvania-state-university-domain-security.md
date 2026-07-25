@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: pennsylvania-state-university-fis.yaml
+- filename: pennsylvania-state-university-buildings-api-openapi.yml
   format: yaml
-  label: LionSpaceFIS REST API
-  slug: fis
+  label: Pennsylvania State University Buildings API
+  slug: pennsylvania-state-university-buildings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-fis.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-buildings-api-openapi.yml
+- filename: pennsylvania-state-university-campuses-api-openapi.yml
+  format: yaml
+  label: Pennsylvania State University Campuses API
+  slug: pennsylvania-state-university-campuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-campuses-api-openapi.yml
+- filename: pennsylvania-state-university-events-api-openapi.yml
+  format: yaml
+  label: Pennsylvania State University Events API
+  slug: pennsylvania-state-university-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-events-api-openapi.yml
+- filename: pennsylvania-state-university-health-api-openapi.yml
+  format: yaml
+  label: Pennsylvania State University Health API
+  slug: pennsylvania-state-university-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-health-api-openapi.yml
+- filename: pennsylvania-state-university-rooms-api-openapi.yml
+  format: yaml
+  label: Pennsylvania State University Rooms API
+  slug: pennsylvania-state-university-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-rooms-api-openapi.yml
 description: ''
 domains:
 - caa: []

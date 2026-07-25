@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: lakera-guard-api-openapi.yml
+- filename: lakera-ai-guard-api-openapi.yml
   format: yaml
   label: Lakera Guard API
-  slug: lakera-guard-api
+  slug: lakera-ai-guard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakera-ai/refs/heads/main/openapi/lakera-guard-api-openapi.yml
-- filename: lakera-platform-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lakera-ai/refs/heads/main/openapi/lakera-ai-guard-api-openapi.yml
+- filename: lakera-ai-policies-api-openapi.yml
   format: yaml
-  label: Lakera Platform API
-  slug: lakera-platform-api
+  label: Lakera Policies API
+  slug: lakera-ai-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakera-ai/refs/heads/main/openapi/lakera-platform-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lakera-ai/refs/heads/main/openapi/lakera-ai-policies-api-openapi.yml
+- filename: lakera-ai-projects-api-openapi.yml
+  format: yaml
+  label: Lakera Projects API
+  slug: lakera-ai-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lakera-ai/refs/heads/main/openapi/lakera-ai-projects-api-openapi.yml
+- filename: lakera-ai-results-api-openapi.yml
+  format: yaml
+  label: Lakera Results API
+  slug: lakera-ai-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lakera-ai/refs/heads/main/openapi/lakera-ai-results-api-openapi.yml
 description: ''
 domains:
 - caa:

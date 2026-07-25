@@ -1,11 +1,77 @@
 ---
 api_specs:
-- filename: smile-identity-v3-openapi.json
-  format: json
-  label: Smile ID V3 API
-  slug: smile-id-v3-api
+- filename: smile-identity-authentication-api-openapi.yml
+  format: yaml
+  label: Smile Identity Authentication API
+  slug: smile-identity-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-v3-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-authentication-api-openapi.yml
+- filename: smile-identity-biometric-authentication-api-openapi.yml
+  format: yaml
+  label: Smile Identity Biometric Authentication API
+  slug: smile-identity-biometric-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-biometric-authentication-api-openapi.yml
+- filename: smile-identity-biometric-enrollment-api-openapi.yml
+  format: yaml
+  label: Smile Identity Biometric Enrollment API
+  slug: smile-identity-biometric-enrollment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-biometric-enrollment-api-openapi.yml
+- filename: smile-identity-biometric-kyc-api-openapi.yml
+  format: yaml
+  label: Smile Identity Biometric KYC API
+  slug: smile-identity-biometric-kyc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-biometric-kyc-api-openapi.yml
+- filename: smile-identity-callback-replay-api-openapi.yml
+  format: yaml
+  label: Smile Identity Callback Replay API
+  slug: smile-identity-callback-replay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-callback-replay-api-openapi.yml
+- filename: smile-identity-document-verification-api-openapi.yml
+  format: yaml
+  label: Smile Identity Document Verification API
+  slug: smile-identity-document-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-document-verification-api-openapi.yml
+- filename: smile-identity-enhanced-document-verification-api-openapi.yml
+  format: yaml
+  label: Smile Identity Enhanced Document Verification API
+  slug: smile-identity-enhanced-document-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-enhanced-document-verification-api-openapi.yml
+- filename: smile-identity-enhanced-kyc-api-openapi.yml
+  format: yaml
+  label: Smile Identity Enhanced KYC API
+  slug: smile-identity-enhanced-kyc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-enhanced-kyc-api-openapi.yml
+- filename: smile-identity-services-api-openapi.yml
+  format: yaml
+  label: Smile Identity Services API
+  slug: smile-identity-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-services-api-openapi.yml
+- filename: smile-identity-smart-selfie-compare-api-openapi.yml
+  format: yaml
+  label: Smile Identity Smart Selfie Compare API
+  slug: smile-identity-smart-selfie-compare-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-smart-selfie-compare-api-openapi.yml
+- filename: smile-identity-users-api-openapi.yml
+  format: yaml
+  label: Smile Identity Users API
+  slug: smile-identity-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-users-api-openapi.yml
+- filename: smile-identity-verification-status-api-openapi.yml
+  format: yaml
+  label: Smile Identity Verification Status API
+  slug: smile-identity-verification-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-verification-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

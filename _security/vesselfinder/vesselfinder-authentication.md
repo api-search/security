@@ -2,18 +2,66 @@
 api_key_in:
 - query
 api_specs:
-- filename: vesselfinder-ais-api-openapi.yml
+- filename: vesselfinder-containers-api-openapi.yml
   format: yaml
-  label: VesselFinder AIS API
-  slug: vesselfinder-ais-api
+  label: VesselFinder Containers API
+  slug: vesselfinder-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/openapi/vesselfinder-ais-api-openapi.yml
-- filename: vesselfinder-container-tracking-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/openapi/vesselfinder-containers-api-openapi.yml
+- filename: vesselfinder-distance-api-openapi.yml
   format: yaml
-  label: VesselFinder Container Tracking API
-  slug: vesselfinder-container-tracking-api
+  label: VesselFinder Distance API
+  slug: vesselfinder-distance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/openapi/vesselfinder-container-tracking-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/openapi/vesselfinder-distance-api-openapi.yml
+- filename: vesselfinder-expected-arrivals-api-openapi.yml
+  format: yaml
+  label: VesselFinder Expected Arrivals API
+  slug: vesselfinder-expected-arrivals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/openapi/vesselfinder-expected-arrivals-api-openapi.yml
+- filename: vesselfinder-list-manager-api-openapi.yml
+  format: yaml
+  label: VesselFinder List Manager API
+  slug: vesselfinder-list-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/openapi/vesselfinder-list-manager-api-openapi.yml
+- filename: vesselfinder-live-data-api-openapi.yml
+  format: yaml
+  label: VesselFinder Live Data API
+  slug: vesselfinder-live-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/openapi/vesselfinder-live-data-api-openapi.yml
+- filename: vesselfinder-master-data-api-openapi.yml
+  format: yaml
+  label: VesselFinder Master Data API
+  slug: vesselfinder-master-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/openapi/vesselfinder-master-data-api-openapi.yml
+- filename: vesselfinder-port-calls-api-openapi.yml
+  format: yaml
+  label: VesselFinder Port Calls API
+  slug: vesselfinder-port-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/openapi/vesselfinder-port-calls-api-openapi.yml
+- filename: vesselfinder-status-api-openapi.yml
+  format: yaml
+  label: VesselFinder Status API
+  slug: vesselfinder-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/openapi/vesselfinder-status-api-openapi.yml
+- filename: vesselfinder-vessels-api-openapi.yml
+  format: yaml
+  label: VesselFinder Vessels API
+  slug: vesselfinder-vessels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/openapi/vesselfinder-vessels-api-openapi.yml
+- filename: vesselfinder-vessels-list-api-openapi.yml
+  format: yaml
+  label: VesselFinder Vessels List API
+  slug: vesselfinder-vessels-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/openapi/vesselfinder-vessels-list-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

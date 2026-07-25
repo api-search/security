@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: ebanx-pay-in-direct-api-openapi.yml
-  format: yaml
-  label: EBANX Pay-in Direct API
-  slug: ebanx-pay-in-direct-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/openapi/ebanx-pay-in-direct-api-openapi.yml
-- filename: ebanx-payment-page-api-openapi.yml
-  format: yaml
-  label: EBANX Payment Page API
-  slug: ebanx-payment-page-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/openapi/ebanx-payment-page-api-openapi.yml
 - filename: ebanx-tokenization-api-openapi.yml
   format: yaml
   label: EBANX Tokenization API
@@ -24,18 +12,30 @@ api_specs:
   slug: ebanx-fx-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/openapi/ebanx-fx-api-openapi.yml
-- filename: ebanx-payout-api-openapi.yml
-  format: yaml
-  label: EBANX Payout API
-  slug: ebanx-payout-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/openapi/ebanx-payout-api-openapi.yml
 - filename: ebanx-notifications-asyncapi.yml
   format: yaml
   label: EBANX Payment Notifications
   slug: ebanx-notifications
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/asyncapi/ebanx-notifications-asyncapi.yml
+- filename: ebanx-paymentpage-api-openapi.yml
+  format: yaml
+  label: EBANX PaymentPage API
+  slug: ebanx-paymentpage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/openapi/ebanx-paymentpage-api-openapi.yml
+- filename: ebanx-payments-api-openapi.yml
+  format: yaml
+  label: EBANX Payments API
+  slug: ebanx-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/openapi/ebanx-payments-api-openapi.yml
+- filename: ebanx-payouts-api-openapi.yml
+  format: yaml
+  label: EBANX Payouts API
+  slug: ebanx-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/openapi/ebanx-payouts-api-openapi.yml
 description: ''
 domains:
 - caa: []

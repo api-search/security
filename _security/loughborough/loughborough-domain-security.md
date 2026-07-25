@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: loughborough-research-repository-rest.yaml
+- filename: loughborough-altmetric-api-openapi.yml
   format: yaml
-  label: Loughborough Research Repository (figshare REST API)
-  slug: research-repository-rest
+  label: Loughborough University altmetric API
+  slug: loughborough-altmetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/openapi/loughborough-research-repository-rest.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/openapi/loughborough-altmetric-api-openapi.yml
+- filename: loughborough-articles-api-openapi.yml
+  format: yaml
+  label: Loughborough University articles API
+  slug: loughborough-articles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/openapi/loughborough-articles-api-openapi.yml
+- filename: loughborough-authors-api-openapi.yml
+  format: yaml
+  label: Loughborough University authors API
+  slug: loughborough-authors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/openapi/loughborough-authors-api-openapi.yml
+- filename: loughborough-collections-api-openapi.yml
+  format: yaml
+  label: Loughborough University collections API
+  slug: loughborough-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/openapi/loughborough-collections-api-openapi.yml
+- filename: loughborough-institutions-api-openapi.yml
+  format: yaml
+  label: Loughborough University institutions API
+  slug: loughborough-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/openapi/loughborough-institutions-api-openapi.yml
+- filename: loughborough-oauth-api-openapi.yml
+  format: yaml
+  label: Loughborough University oauth API
+  slug: loughborough-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/openapi/loughborough-oauth-api-openapi.yml
+- filename: loughborough-other-api-openapi.yml
+  format: yaml
+  label: Loughborough University other API
+  slug: loughborough-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/openapi/loughborough-other-api-openapi.yml
+- filename: loughborough-profiles-api-openapi.yml
+  format: yaml
+  label: Loughborough University profiles API
+  slug: loughborough-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/openapi/loughborough-profiles-api-openapi.yml
+- filename: loughborough-projects-api-openapi.yml
+  format: yaml
+  label: Loughborough University projects API
+  slug: loughborough-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/openapi/loughborough-projects-api-openapi.yml
+- filename: loughborough-symplectic-api-openapi.yml
+  format: yaml
+  label: Loughborough University symplectic API
+  slug: loughborough-symplectic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/openapi/loughborough-symplectic-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,53 +1,41 @@
 ---
 api_specs:
-- filename: apicbase-openapi.yml
+- filename: apicbase-ingredients-api-openapi.yml
   format: yaml
   label: Apicbase Ingredients API
-  slug: ingredients
+  slug: apicbase-ingredients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-openapi.yml
-- filename: apicbase-openapi.yml
-  format: yaml
-  label: Apicbase Recipes API
-  slug: recipes
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-openapi.yml
-- filename: apicbase-openapi.yml
-  format: yaml
-  label: Apicbase Products API
-  slug: products
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-openapi.yml
-- filename: apicbase-openapi.yml
-  format: yaml
-  label: Apicbase Inventory & Stock API
-  slug: inventory-stock
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-openapi.yml
-- filename: apicbase-openapi.yml
-  format: yaml
-  label: Apicbase Purchase Orders API
-  slug: purchase-orders
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-openapi.yml
-- filename: apicbase-openapi.yml
-  format: yaml
-  label: Apicbase Suppliers API
-  slug: suppliers
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-openapi.yml
-- filename: apicbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-ingredients-api-openapi.yml
+- filename: apicbase-outlets-api-openapi.yml
   format: yaml
   label: Apicbase Outlets API
-  slug: outlets
+  slug: apicbase-outlets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-openapi.yml
-- filename: apicbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-outlets-api-openapi.yml
+- filename: apicbase-procurement-api-openapi.yml
   format: yaml
-  label: Apicbase Webhooks
-  slug: webhooks
+  label: Apicbase Procurement API
+  slug: apicbase-procurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-procurement-api-openapi.yml
+- filename: apicbase-recipes-api-openapi.yml
+  format: yaml
+  label: Apicbase Recipes API
+  slug: apicbase-recipes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-recipes-api-openapi.yml
+- filename: apicbase-stock-api-openapi.yml
+  format: yaml
+  label: Apicbase Stock API
+  slug: apicbase-stock-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-stock-api-openapi.yml
+- filename: apicbase-suppliers-api-openapi.yml
+  format: yaml
+  label: Apicbase Suppliers API
+  slug: apicbase-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-suppliers-api-openapi.yml
 description: ''
 domains:
 - caa:

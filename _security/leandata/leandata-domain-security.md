@@ -1,29 +1,59 @@
 ---
 api_specs:
-- filename: leandata-matching-openapi.yml
+- filename: leandata-availability-api-openapi.yml
+  format: yaml
+  label: LeanData 🗓️ Availability API
+  slug: leandata-availability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-availability-api-openapi.yml
+- filename: leandata-legacy-still-supported-api-openapi.yml
+  format: yaml
+  label: LeanData Legacy (still supported) API
+  slug: leandata-legacy-still-supported-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-legacy-still-supported-api-openapi.yml
+- filename: leandata-matching-api-openapi.yml
   format: yaml
   label: LeanData Matching API
   slug: leandata-matching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-matching-openapi.yml
-- filename: leandata-matching-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-matching-api-openapi.yml
+- filename: leandata-meetings-create-api-openapi.yml
   format: yaml
-  label: LeanData Round Robin API
-  slug: leandata-round-robin-api
+  label: LeanData 📆 Meetings > Create API
+  slug: leandata-meetings-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-matching-openapi.yml
-- filename: leandata-bookit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-meetings-create-api-openapi.yml
+- filename: leandata-meetings-manage-api-openapi.yml
   format: yaml
-  label: LeanData BookIt API
-  slug: leandata-bookit-api
+  label: LeanData 📆 Meetings > Manage API
+  slug: leandata-meetings-manage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-bookit-openapi.yml
-- filename: leandata-graph-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-meetings-manage-api-openapi.yml
+- filename: leandata-meetings-retrieve-api-openapi.yml
   format: yaml
-  label: LeanData Graph API
-  slug: leandata-graph-api
+  label: LeanData 📆 Meetings > Retrieve API
+  slug: leandata-meetings-retrieve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-graph-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-meetings-retrieve-api-openapi.yml
+- filename: leandata-one-time-routing-api-openapi.yml
+  format: yaml
+  label: LeanData One Time Routing API
+  slug: leandata-one-time-routing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-one-time-routing-api-openapi.yml
+- filename: leandata-retrieve-routing-graphs-information-api-openapi.yml
+  format: yaml
+  label: LeanData Retrieve Routing Graphs Information API
+  slug: leandata-retrieve-routing-graphs-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-retrieve-routing-graphs-information-api-openapi.yml
+- filename: leandata-scheduling-inputs-api-openapi.yml
+  format: yaml
+  label: LeanData 🧠 Scheduling Inputs API
+  slug: leandata-scheduling-inputs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-scheduling-inputs-api-openapi.yml
 description: ''
 domains:
 - caa: []

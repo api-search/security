@@ -1,23 +1,41 @@
 ---
 api_specs:
-- filename: gitcoin-core-api-openapi.json
-  format: json
-  label: Gitcoin Core API
-  slug: gitcoin-core-api
+- filename: gitcoin-bounties-api-openapi.yml
+  format: yaml
+  label: Gitcoin Bounties API
+  slug: gitcoin-bounties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitcoin/refs/heads/main/openapi/gitcoin-core-api-openapi.json
-- filename: gitcoin-grants-api-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/gitcoin/refs/heads/main/openapi/gitcoin-bounties-api-openapi.yml
+- filename: gitcoin-contributors-api-openapi.yml
+  format: yaml
+  label: Gitcoin Contributors API
+  slug: gitcoin-contributors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitcoin/refs/heads/main/openapi/gitcoin-contributors-api-openapi.yml
+- filename: gitcoin-grants-api-openapi.yml
+  format: yaml
   label: Gitcoin Grants API
   slug: gitcoin-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitcoin/refs/heads/main/openapi/gitcoin-grants-api-openapi.json
-- filename: gitcoin-passport-stamps-api-openapi.json
-  format: json
-  label: Gitcoin Passport Stamps API
-  slug: gitcoin-passport-stamps-api
+  url: https://raw.githubusercontent.com/api-evangelist/gitcoin/refs/heads/main/openapi/gitcoin-grants-api-openapi.yml
+- filename: gitcoin-model-analysis-api-openapi.yml
+  format: yaml
+  label: Gitcoin Model Analysis API
+  slug: gitcoin-model-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitcoin/refs/heads/main/openapi/gitcoin-passport-stamps-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/gitcoin/refs/heads/main/openapi/gitcoin-model-analysis-api-openapi.yml
+- filename: gitcoin-rounds-api-openapi.yml
+  format: yaml
+  label: Gitcoin Rounds API
+  slug: gitcoin-rounds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitcoin/refs/heads/main/openapi/gitcoin-rounds-api-openapi.yml
+- filename: gitcoin-stamp-api-api-openapi.yml
+  format: yaml
+  label: Gitcoin Stamp API API
+  slug: gitcoin-stamp-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitcoin/refs/heads/main/openapi/gitcoin-stamp-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

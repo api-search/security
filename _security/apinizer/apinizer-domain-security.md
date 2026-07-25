@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: apinizer-api.yaml
+- filename: apinizer-endpoints-api-openapi.yml
   format: yaml
-  label: Apinizer API
-  slug: apinizer-api
+  label: Apinizer Endpoints API
+  slug: apinizer-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apinizer/refs/heads/main/openapi/apinizer-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apinizer/refs/heads/main/openapi/apinizer-endpoints-api-openapi.yml
+- filename: apinizer-gateways-api-openapi.yml
+  format: yaml
+  label: Apinizer Gateways API
+  slug: apinizer-gateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apinizer/refs/heads/main/openapi/apinizer-gateways-api-openapi.yml
+- filename: apinizer-monitoring-api-openapi.yml
+  format: yaml
+  label: Apinizer Monitoring API
+  slug: apinizer-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apinizer/refs/heads/main/openapi/apinizer-monitoring-api-openapi.yml
+- filename: apinizer-policies-api-openapi.yml
+  format: yaml
+  label: Apinizer Policies API
+  slug: apinizer-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apinizer/refs/heads/main/openapi/apinizer-policies-api-openapi.yml
 description: ''
 domains:
 - caa: []

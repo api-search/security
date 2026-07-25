@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: bureau-of-industry-and-security-openapi.yml
+- filename: bureau-of-industry-and-security-search-api-openapi.yml
   format: yaml
-  label: Consolidated Screening List (CSL) API
-  slug: consolidated-screening-list-api
+  label: Bureau of Industry and Security Search API
+  slug: bureau-of-industry-and-security-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-industry-and-security/refs/heads/main/openapi/bureau-of-industry-and-security-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-industry-and-security/refs/heads/main/openapi/bureau-of-industry-and-security-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

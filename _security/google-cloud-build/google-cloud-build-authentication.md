@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cloud-build-api-openapi.yml
+- filename: google-cloud-build-builds-api-openapi.yml
   format: yaml
-  label: Cloud Build API
-  slug: cloud-build-api
+  label: Google Cloud Build Builds API
+  slug: google-cloud-build-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-build/refs/heads/main/openapi/cloud-build-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-build/refs/heads/main/openapi/google-cloud-build-builds-api-openapi.yml
+- filename: google-cloud-build-triggers-api-openapi.yml
+  format: yaml
+  label: Google Cloud Build Triggers API
+  slug: google-cloud-build-triggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-build/refs/heads/main/openapi/google-cloud-build-triggers-api-openapi.yml
+- filename: google-cloud-build-workerpools-api-openapi.yml
+  format: yaml
+  label: Google Cloud Build WorkerPools API
+  slug: google-cloud-build-workerpools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-build/refs/heads/main/openapi/google-cloud-build-workerpools-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

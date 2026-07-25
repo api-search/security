@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: people-data-labs-openapi.yml
+- filename: people-data-labs-autocomplete-api-openapi.yml
   format: yaml
-  label: People Data Labs API
-  slug: people-data-labs
+  label: People Data Labs Autocomplete API
+  slug: people-data-labs-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/people-data-labs/refs/heads/main/openapi/people-data-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/people-data-labs/refs/heads/main/openapi/people-data-labs-autocomplete-api-openapi.yml
+- filename: people-data-labs-company-api-openapi.yml
+  format: yaml
+  label: People Data Labs Company API
+  slug: people-data-labs-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/people-data-labs/refs/heads/main/openapi/people-data-labs-company-api-openapi.yml
+- filename: people-data-labs-ip-api-openapi.yml
+  format: yaml
+  label: People Data Labs IP API
+  slug: people-data-labs-ip-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/people-data-labs/refs/heads/main/openapi/people-data-labs-ip-api-openapi.yml
+- filename: people-data-labs-jobs-api-openapi.yml
+  format: yaml
+  label: People Data Labs Jobs API
+  slug: people-data-labs-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/people-data-labs/refs/heads/main/openapi/people-data-labs-jobs-api-openapi.yml
+- filename: people-data-labs-person-api-openapi.yml
+  format: yaml
+  label: People Data Labs Person API
+  slug: people-data-labs-person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/people-data-labs/refs/heads/main/openapi/people-data-labs-person-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: revel-open-api-openapi.yml
-  format: yaml
-  label: Revel Open API
-  slug: open-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/openapi/revel-open-api-openapi.yml
 - filename: revel-webhooks-asyncapi.yml
   format: yaml
   label: Revel Webhooks
   slug: webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/asyncapi/revel-webhooks-asyncapi.yml
+- filename: revel-systems-customers-api-openapi.yml
+  format: yaml
+  label: Revel Systems Customers API
+  slug: revel-systems-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/openapi/revel-systems-customers-api-openapi.yml
+- filename: revel-systems-establishments-api-openapi.yml
+  format: yaml
+  label: Revel Systems Establishments API
+  slug: revel-systems-establishments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/openapi/revel-systems-establishments-api-openapi.yml
+- filename: revel-systems-orders-api-openapi.yml
+  format: yaml
+  label: Revel Systems Orders API
+  slug: revel-systems-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/openapi/revel-systems-orders-api-openapi.yml
+- filename: revel-systems-products-api-openapi.yml
+  format: yaml
+  label: Revel Systems Products API
+  slug: revel-systems-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/openapi/revel-systems-products-api-openapi.yml
+- filename: revel-systems-scheduling-api-openapi.yml
+  format: yaml
+  label: Revel Systems Scheduling API
+  slug: revel-systems-scheduling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/openapi/revel-systems-scheduling-api-openapi.yml
 description: ''
 domains:
 - caa: []

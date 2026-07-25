@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: teachers-mutual-bank-cds-banking-products-openapi.yml
+- filename: teachers-mutual-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Teachers Mutual Bank CDR Product Reference Data API
-  slug: teachers-mutual-bank-cdr-product-reference-data-api
+  label: Teachers Mutual Bank Banking Account Balances API
+  slug: teachers-mutual-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-cds-banking-products-openapi.yml
-- filename: teachers-mutual-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-banking-account-balances-api-openapi.yml
+- filename: teachers-mutual-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Teachers Mutual Bank CDR Accounts & Balances API
-  slug: teachers-mutual-bank-cdr-accounts-balances-api
+  label: Teachers Mutual Bank Banking Account Direct Debits API
+  slug: teachers-mutual-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-cds-banking-products-openapi.yml
-- filename: teachers-mutual-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-banking-account-direct-debits-api-openapi.yml
+- filename: teachers-mutual-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Teachers Mutual Bank CDR Transactions API
-  slug: teachers-mutual-bank-cdr-transactions-api
+  label: Teachers Mutual Bank Banking Account Scheduled Payments API
+  slug: teachers-mutual-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-cds-banking-products-openapi.yml
-- filename: teachers-mutual-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: teachers-mutual-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Teachers Mutual Bank CDR Direct Debits & Scheduled Payments API
-  slug: teachers-mutual-bank-cdr-direct-debits-scheduled-payments-api
+  label: Teachers Mutual Bank Banking Account Transactions API
+  slug: teachers-mutual-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-cds-banking-products-openapi.yml
-- filename: teachers-mutual-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-banking-account-transactions-api-openapi.yml
+- filename: teachers-mutual-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: Teachers Mutual Bank CDR Payees API
-  slug: teachers-mutual-bank-cdr-payees-api
+  label: Teachers Mutual Bank Banking Accounts API
+  slug: teachers-mutual-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-banking-accounts-api-openapi.yml
+- filename: teachers-mutual-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: Teachers Mutual Bank Banking Payees API
+  slug: teachers-mutual-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-banking-payees-api-openapi.yml
+- filename: teachers-mutual-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: Teachers Mutual Bank Banking Products API
+  slug: teachers-mutual-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

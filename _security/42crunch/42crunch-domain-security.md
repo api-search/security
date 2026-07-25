@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: 42crunch-scand-manager.yaml
+- filename: 42crunch-health-api-openapi.yml
   format: yaml
-  label: 42Crunch API Conformance Scan Jobs Manager
-  slug: 42crunch-scand-manager
+  label: 42Crunch Health API
+  slug: 42crunch-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/42crunch/refs/heads/main/openapi/42crunch-scand-manager.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/42crunch/refs/heads/main/openapi/42crunch-health-api-openapi.yml
+- filename: 42crunch-jobs-api-openapi.yml
+  format: yaml
+  label: 42Crunch Jobs API
+  slug: 42crunch-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/42crunch/refs/heads/main/openapi/42crunch-jobs-api-openapi.yml
+- filename: 42crunch-logs-api-openapi.yml
+  format: yaml
+  label: 42Crunch Logs API
+  slug: 42crunch-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/42crunch/refs/heads/main/openapi/42crunch-logs-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: clarifai-v2-api-openapi.yml
   format: yaml
-  label: Clarifai API
-  slug: clarifai-api
+  label: Clarifai V2 API
+  slug: clarifai-v2-api
   spec_type: OpenAPI
-  url: https://api.clarifai.com/api-doc/?url=https://api.clarifai.com/v2/swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-v2-api-openapi.yml
 description: ''
 domains:
 - caa: []

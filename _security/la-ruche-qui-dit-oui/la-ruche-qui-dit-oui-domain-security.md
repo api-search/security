@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: la-ruche-qui-dit-oui-api-openapi.yml
+- filename: la-ruche-qui-dit-oui-assemblies-api-openapi.yml
   format: yaml
-  label: The Food Assembly API
-  slug: food-assembly-api
+  label: La Ruche qui dit Oui! Assemblies API
+  slug: la-ruche-qui-dit-oui-assemblies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/openapi/la-ruche-qui-dit-oui-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/openapi/la-ruche-qui-dit-oui-assemblies-api-openapi.yml
+- filename: la-ruche-qui-dit-oui-authentication-api-openapi.yml
+  format: yaml
+  label: La Ruche qui dit Oui! Authentication API
+  slug: la-ruche-qui-dit-oui-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/openapi/la-ruche-qui-dit-oui-authentication-api-openapi.yml
+- filename: la-ruche-qui-dit-oui-orders-api-openapi.yml
+  format: yaml
+  label: La Ruche qui dit Oui! Orders API
+  slug: la-ruche-qui-dit-oui-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/openapi/la-ruche-qui-dit-oui-orders-api-openapi.yml
+- filename: la-ruche-qui-dit-oui-sale-api-openapi.yml
+  format: yaml
+  label: La Ruche qui dit Oui! Sale API
+  slug: la-ruche-qui-dit-oui-sale-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/openapi/la-ruche-qui-dit-oui-sale-api-openapi.yml
 description: ''
 domains:
 - caa: []

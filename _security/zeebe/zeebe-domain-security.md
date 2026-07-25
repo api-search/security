@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: zeebe-api.yml
+- filename: zeebe-cluster-api-openapi.yml
   format: yaml
-  label: Zeebe REST API
-  slug: zeebe
+  label: Zeebe Cluster API
+  slug: zeebe-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-cluster-api-openapi.yml
+- filename: zeebe-deployments-api-openapi.yml
+  format: yaml
+  label: Zeebe Deployments API
+  slug: zeebe-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-deployments-api-openapi.yml
+- filename: zeebe-incidents-api-openapi.yml
+  format: yaml
+  label: Zeebe Incidents API
+  slug: zeebe-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-incidents-api-openapi.yml
+- filename: zeebe-jobs-api-openapi.yml
+  format: yaml
+  label: Zeebe Jobs API
+  slug: zeebe-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-jobs-api-openapi.yml
+- filename: zeebe-messages-api-openapi.yml
+  format: yaml
+  label: Zeebe Messages API
+  slug: zeebe-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-messages-api-openapi.yml
+- filename: zeebe-process-instances-api-openapi.yml
+  format: yaml
+  label: Zeebe Process Instances API
+  slug: zeebe-process-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-process-instances-api-openapi.yml
+- filename: zeebe-resources-api-openapi.yml
+  format: yaml
+  label: Zeebe Resources API
+  slug: zeebe-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-resources-api-openapi.yml
+- filename: zeebe-signals-api-openapi.yml
+  format: yaml
+  label: Zeebe Signals API
+  slug: zeebe-signals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-signals-api-openapi.yml
+- filename: zeebe-user-tasks-api-openapi.yml
+  format: yaml
+  label: Zeebe User Tasks API
+  slug: zeebe-user-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-user-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []

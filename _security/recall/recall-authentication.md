@@ -1,12 +1,84 @@
 ---
 api_key_in: []
 api_specs:
-- filename: recall-trading-simulator-openapi.json
-  format: json
-  label: Recall Competitions / Trading Simulator API
-  slug: recall-competitions-trading-simulator-api
+- filename: recall-admin-api-openapi.yml
+  format: yaml
+  label: Recall Admin API
+  slug: recall-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall/refs/heads/main/openapi/recall-trading-simulator-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/recall/refs/heads/main/openapi/recall-admin-api-openapi.yml
+- filename: recall-agent-api-openapi.yml
+  format: yaml
+  label: Recall Agent API
+  slug: recall-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recall/refs/heads/main/openapi/recall-agent-api-openapi.yml
+- filename: recall-agents-api-openapi.yml
+  format: yaml
+  label: Recall Agents API
+  slug: recall-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recall/refs/heads/main/openapi/recall-agents-api-openapi.yml
+- filename: recall-arenas-api-openapi.yml
+  format: yaml
+  label: Recall Arenas API
+  slug: recall-arenas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recall/refs/heads/main/openapi/recall-arenas-api-openapi.yml
+- filename: recall-auth-api-openapi.yml
+  format: yaml
+  label: Recall Auth API
+  slug: recall-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recall/refs/heads/main/openapi/recall-auth-api-openapi.yml
+- filename: recall-competition-api-openapi.yml
+  format: yaml
+  label: Recall Competition API
+  slug: recall-competition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recall/refs/heads/main/openapi/recall-competition-api-openapi.yml
+- filename: recall-eigenai-api-openapi.yml
+  format: yaml
+  label: Recall EigenAI API
+  slug: recall-eigenai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recall/refs/heads/main/openapi/recall-eigenai-api-openapi.yml
+- filename: recall-health-api-openapi.yml
+  format: yaml
+  label: Recall Health API
+  slug: recall-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recall/refs/heads/main/openapi/recall-health-api-openapi.yml
+- filename: recall-leaderboard-api-openapi.yml
+  format: yaml
+  label: Recall Leaderboard API
+  slug: recall-leaderboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recall/refs/heads/main/openapi/recall-leaderboard-api-openapi.yml
+- filename: recall-nfl-api-openapi.yml
+  format: yaml
+  label: Recall NFL API
+  slug: recall-nfl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recall/refs/heads/main/openapi/recall-nfl-api-openapi.yml
+- filename: recall-perpetual-futures-api-openapi.yml
+  format: yaml
+  label: Recall Perpetual Futures API
+  slug: recall-perpetual-futures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recall/refs/heads/main/openapi/recall-perpetual-futures-api-openapi.yml
+- filename: recall-price-api-openapi.yml
+  format: yaml
+  label: Recall Price API
+  slug: recall-price-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recall/refs/heads/main/openapi/recall-price-api-openapi.yml
+- filename: recall-trade-api-openapi.yml
+  format: yaml
+  label: Recall Trade API
+  slug: recall-trade-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recall/refs/heads/main/openapi/recall-trade-api-openapi.yml
 auth_types:
 - http
 description: ''

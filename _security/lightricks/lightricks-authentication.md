@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: lightricks-ltx-openapi.yml
+- filename: lightricks-asyncvideogeneration-api-openapi.yml
   format: yaml
-  label: LTX API
-  slug: ltx-api
+  label: Lightricks asyncVideoGeneration API
+  slug: lightricks-asyncvideogeneration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/openapi/lightricks-ltx-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/openapi/lightricks-asyncvideogeneration-api-openapi.yml
+- filename: lightricks-upload-api-openapi.yml
+  format: yaml
+  label: Lightricks upload API
+  slug: lightricks-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/openapi/lightricks-upload-api-openapi.yml
+- filename: lightricks-videogeneration-api-openapi.yml
+  format: yaml
+  label: Lightricks videoGeneration API
+  slug: lightricks-videogeneration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/openapi/lightricks-videogeneration-api-openapi.yml
 auth_types:
 - http
 description: ''

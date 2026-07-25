@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: marketcheck-cars-openapi.yml
+- filename: marketcheck-vin-decoder-api-openapi.yml
   format: yaml
-  label: MarketCheck Cars API
-  slug: marketcheck-cars-api
+  label: MarketCheck VIN Decoder API
+  slug: marketcheck-vin-decoder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-cars-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-vin-decoder-api-openapi.yml
+- filename: marketcheck-dealer-api-openapi.yml
+  format: yaml
+  label: MarketCheck Dealer API
+  slug: marketcheck-dealer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-dealer-api-openapi.yml
+- filename: marketcheck-dealer-api-openapi.yml
+  format: yaml
+  label: MarketCheck Dealer API
+  slug: marketcheck-dealer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-dealer-api-openapi.yml
+- filename: marketcheck-facets-api-openapi.yml
+  format: yaml
+  label: MarketCheck Facets API
+  slug: marketcheck-facets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-facets-api-openapi.yml
+- filename: marketcheck-graphs-api-openapi.yml
+  format: yaml
+  label: MarketCheck Graphs API
+  slug: marketcheck-graphs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-graphs-api-openapi.yml
+- filename: marketcheck-history-api-openapi.yml
+  format: yaml
+  label: MarketCheck History API
+  slug: marketcheck-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-history-api-openapi.yml
+- filename: marketcheck-inventory-api-openapi.yml
+  format: yaml
+  label: MarketCheck Inventory API
+  slug: marketcheck-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-inventory-api-openapi.yml
+- filename: marketcheck-listings-api-openapi.yml
+  format: yaml
+  label: MarketCheck Listings API
+  slug: marketcheck-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-listings-api-openapi.yml
+- filename: marketcheck-market-api-openapi.yml
+  format: yaml
+  label: MarketCheck Market API
+  slug: marketcheck-market-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-market-api-openapi.yml
+- filename: marketcheck-vin-decoder-api-openapi.yml
+  format: yaml
+  label: MarketCheck VIN Decoder API
+  slug: marketcheck-vin-decoder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-vin-decoder-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: yugabyte-yugabyted-openapi-original.yaml
+- filename: yugabyte-backup-info-api-openapi.yml
   format: yaml
-  label: YugabyteDB yugabyted UI API
-  slug: yugabytedb-yugabyted-ui-api
+  label: Yugabyte backup-info API
+  slug: yugabyte-backup-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-yugabyted-openapi-original.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-backup-info-api-openapi.yml
+- filename: yugabyte-cluster-api-openapi.yml
+  format: yaml
+  label: Yugabyte cluster API
+  slug: yugabyte-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-cluster-api-openapi.yml
+- filename: yugabyte-cluster-info-api-openapi.yml
+  format: yaml
+  label: Yugabyte cluster-info API
+  slug: yugabyte-cluster-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-cluster-info-api-openapi.yml
+- filename: yugabyte-pitr-info-api-openapi.yml
+  format: yaml
+  label: Yugabyte pitr-info API
+  slug: yugabyte-pitr-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-pitr-info-api-openapi.yml
+- filename: yugabyte-restore-info-api-openapi.yml
+  format: yaml
+  label: Yugabyte restore-info API
+  slug: yugabyte-restore-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-restore-info-api-openapi.yml
+- filename: yugabyte-voyager-info-api-openapi.yml
+  format: yaml
+  label: Yugabyte voyager-info API
+  slug: yugabyte-voyager-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-voyager-info-api-openapi.yml
+- filename: yugabyte-voyager-metrics-api-openapi.yml
+  format: yaml
+  label: Yugabyte voyager-metrics API
+  slug: yugabyte-voyager-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-voyager-metrics-api-openapi.yml
+- filename: yugabyte-xcluster-metrics-api-openapi.yml
+  format: yaml
+  label: Yugabyte Xcluster Metrics API
+  slug: yugabyte-xcluster-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-xcluster-metrics-api-openapi.yml
+- filename: yugabyte-xcluster-namespace-details-api-openapi.yml
+  format: yaml
+  label: Yugabyte Xcluster Namespace Details API
+  slug: yugabyte-xcluster-namespace-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-xcluster-namespace-details-api-openapi.yml
 certifications:
 - SOC 2 Type II
 - SOC 3

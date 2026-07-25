@@ -1,42 +1,90 @@
 ---
 api_key_in: []
 api_specs:
-- filename: up-bank-cds-banking-products-openapi.yml
+- filename: up-bank-accounts-api-openapi.yml
   format: yaml
-  label: Up CDR Product Reference Data API
-  slug: up-cdr-product-reference-data-api
+  label: Up Accounts API
+  slug: up-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-cds-banking-products-openapi.yml
-- filename: up-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-accounts-api-openapi.yml
+- filename: up-bank-attachments-api-openapi.yml
   format: yaml
-  label: Up CDR Accounts & Balances API
-  slug: up-cdr-accounts-balances-api
+  label: Up Attachments API
+  slug: up-bank-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-cds-banking-products-openapi.yml
-- filename: up-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-attachments-api-openapi.yml
+- filename: up-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Up CDR Transactions API
-  slug: up-cdr-transactions-api
+  label: Up Banking Account Balances API
+  slug: up-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-cds-banking-products-openapi.yml
-- filename: up-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-account-balances-api-openapi.yml
+- filename: up-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Up CDR Direct Debits & Scheduled Payments API
-  slug: up-cdr-direct-debits-scheduled-payments-api
+  label: Up Banking Account Direct Debits API
+  slug: up-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-cds-banking-products-openapi.yml
-- filename: up-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-account-direct-debits-api-openapi.yml
+- filename: up-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Up CDR Payees API
-  slug: up-cdr-payees-api
+  label: Up Banking Account Scheduled Payments API
+  slug: up-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-cds-banking-products-openapi.yml
-- filename: up-bank-openapi.json
-  format: json
-  label: Up Personal Banking API
-  slug: up-personal-banking-api
+  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: up-bank-banking-account-transactions-api-openapi.yml
+  format: yaml
+  label: Up Banking Account Transactions API
+  slug: up-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-account-transactions-api-openapi.yml
+- filename: up-bank-banking-accounts-api-openapi.yml
+  format: yaml
+  label: Up Banking Accounts API
+  slug: up-bank-banking-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-accounts-api-openapi.yml
+- filename: up-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: Up Banking Payees API
+  slug: up-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-payees-api-openapi.yml
+- filename: up-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: Up Banking Products API
+  slug: up-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-products-api-openapi.yml
+- filename: up-bank-categories-api-openapi.yml
+  format: yaml
+  label: Up Categories API
+  slug: up-bank-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-categories-api-openapi.yml
+- filename: up-bank-tags-api-openapi.yml
+  format: yaml
+  label: Up Tags API
+  slug: up-bank-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-tags-api-openapi.yml
+- filename: up-bank-transactions-api-openapi.yml
+  format: yaml
+  label: Up Transactions API
+  slug: up-bank-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-transactions-api-openapi.yml
+- filename: up-bank-utility-endpoints-api-openapi.yml
+  format: yaml
+  label: Up Utility endpoints API
+  slug: up-bank-utility-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-utility-endpoints-api-openapi.yml
+- filename: up-bank-webhooks-api-openapi.yml
+  format: yaml
+  label: Up Webhooks API
+  slug: up-bank-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2

@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: cargomatic-openapi-original.yml
+- filename: cargomatic-authorization-api-openapi.yml
   format: yaml
-  label: Cargomatic Public API
-  slug: cargomatic-public-api
+  label: Cargomatic Authorization API
+  slug: cargomatic-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/openapi/cargomatic-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/openapi/cargomatic-authorization-api-openapi.yml
+- filename: cargomatic-carrier-api-openapi.yml
+  format: yaml
+  label: Cargomatic Carrier API
+  slug: cargomatic-carrier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/openapi/cargomatic-carrier-api-openapi.yml
+- filename: cargomatic-document-api-openapi.yml
+  format: yaml
+  label: Cargomatic Document API
+  slug: cargomatic-document-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/openapi/cargomatic-document-api-openapi.yml
+- filename: cargomatic-shipper-api-openapi.yml
+  format: yaml
+  label: Cargomatic Shipper API
+  slug: cargomatic-shipper-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/openapi/cargomatic-shipper-api-openapi.yml
+- filename: cargomatic-stops-api-openapi.yml
+  format: yaml
+  label: Cargomatic Stops API
+  slug: cargomatic-stops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/openapi/cargomatic-stops-api-openapi.yml
 description: ''
 domains:
 - caa: []

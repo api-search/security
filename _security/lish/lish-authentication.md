@@ -2,12 +2,72 @@
 api_key_in:
 - header
 api_specs:
-- filename: lish-wordpress-openapi.json
-  format: json
-  label: Lish WordPress REST API
-  slug: lish-wordpress-rest-api
+- filename: lish-categories-api-openapi.yml
+  format: yaml
+  label: Lish Categories API
+  slug: lish-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lish/refs/heads/main/openapi/lish-wordpress-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/lish/refs/heads/main/openapi/lish-categories-api-openapi.yml
+- filename: lish-comments-api-openapi.yml
+  format: yaml
+  label: Lish Comments API
+  slug: lish-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lish/refs/heads/main/openapi/lish-comments-api-openapi.yml
+- filename: lish-media-api-openapi.yml
+  format: yaml
+  label: Lish Media API
+  slug: lish-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lish/refs/heads/main/openapi/lish-media-api-openapi.yml
+- filename: lish-pages-api-openapi.yml
+  format: yaml
+  label: Lish Pages API
+  slug: lish-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lish/refs/heads/main/openapi/lish-pages-api-openapi.yml
+- filename: lish-posts-api-openapi.yml
+  format: yaml
+  label: Lish Posts API
+  slug: lish-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lish/refs/heads/main/openapi/lish-posts-api-openapi.yml
+- filename: lish-search-api-openapi.yml
+  format: yaml
+  label: Lish Search API
+  slug: lish-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lish/refs/heads/main/openapi/lish-search-api-openapi.yml
+- filename: lish-statuses-api-openapi.yml
+  format: yaml
+  label: Lish Statuses API
+  slug: lish-statuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lish/refs/heads/main/openapi/lish-statuses-api-openapi.yml
+- filename: lish-tags-api-openapi.yml
+  format: yaml
+  label: Lish Tags API
+  slug: lish-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lish/refs/heads/main/openapi/lish-tags-api-openapi.yml
+- filename: lish-taxonomies-api-openapi.yml
+  format: yaml
+  label: Lish Taxonomies API
+  slug: lish-taxonomies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lish/refs/heads/main/openapi/lish-taxonomies-api-openapi.yml
+- filename: lish-types-api-openapi.yml
+  format: yaml
+  label: Lish Types API
+  slug: lish-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lish/refs/heads/main/openapi/lish-types-api-openapi.yml
+- filename: lish-users-api-openapi.yml
+  format: yaml
+  label: Lish Users API
+  slug: lish-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lish/refs/heads/main/openapi/lish-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

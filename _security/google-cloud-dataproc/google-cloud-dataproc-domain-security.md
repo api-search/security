@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: cloud-dataproc-openapi.yml
+- filename: google-cloud-dataproc-clusters-api-openapi.yml
   format: yaml
-  label: Cloud Dataproc API
-  slug: cloud-dataproc-api
+  label: Google Cloud Dataproc Clusters API
+  slug: google-cloud-dataproc-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataproc/refs/heads/main/openapi/cloud-dataproc-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataproc/refs/heads/main/openapi/google-cloud-dataproc-clusters-api-openapi.yml
+- filename: google-cloud-dataproc-jobs-api-openapi.yml
+  format: yaml
+  label: Google Cloud Dataproc Jobs API
+  slug: google-cloud-dataproc-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataproc/refs/heads/main/openapi/google-cloud-dataproc-jobs-api-openapi.yml
+- filename: google-cloud-dataproc-workflowtemplates-api-openapi.yml
+  format: yaml
+  label: Google Cloud Dataproc WorkflowTemplates API
+  slug: google-cloud-dataproc-workflowtemplates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataproc/refs/heads/main/openapi/google-cloud-dataproc-workflowtemplates-api-openapi.yml
 description: ''
 domains:
 - caa:

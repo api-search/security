@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: solr-openapi.yml
+- filename: solr-collections-api-openapi.yml
   format: yaml
-  label: Apache Solr REST API
-  slug: rest-api
+  label: Apache Solr Collections API
+  slug: solr-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solr/refs/heads/main/openapi/solr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/solr/refs/heads/main/openapi/solr-collections-api-openapi.yml
+- filename: solr-collectionsadminhandler-api-openapi.yml
+  format: yaml
+  label: Apache Solr CollectionsAdminHandler API
+  slug: solr-collectionsadminhandler-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solr/refs/heads/main/openapi/solr-collectionsadminhandler-api-openapi.yml
+- filename: solr-config-api-openapi.yml
+  format: yaml
+  label: Apache Solr Config API
+  slug: solr-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solr/refs/heads/main/openapi/solr-config-api-openapi.yml
+- filename: solr-cores-api-openapi.yml
+  format: yaml
+  label: Apache Solr Cores API
+  slug: solr-cores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solr/refs/heads/main/openapi/solr-cores-api-openapi.yml
+- filename: solr-schema-api-openapi.yml
+  format: yaml
+  label: Apache Solr Schema API
+  slug: solr-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solr/refs/heads/main/openapi/solr-schema-api-openapi.yml
+- filename: solr-shards-api-openapi.yml
+  format: yaml
+  label: Apache Solr Shards API
+  slug: solr-shards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solr/refs/heads/main/openapi/solr-shards-api-openapi.yml
+- filename: solr-update-api-openapi.yml
+  format: yaml
+  label: Apache Solr Update API
+  slug: solr-update-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solr/refs/heads/main/openapi/solr-update-api-openapi.yml
 description: ''
 domains:
 - caa:

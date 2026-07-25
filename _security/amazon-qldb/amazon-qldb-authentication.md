@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-qldb-openapi.yml
+- filename: amazon-qldb-journal-s3-exports-api-openapi.yml
   format: yaml
-  label: Amazon QLDB API
-  slug: amazon-qldb-api
+  label: Amazon QLDB Journal S3 Exports API
+  slug: amazon-qldb-journal-s3-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/openapi/amazon-qldb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/openapi/amazon-qldb-journal-s3-exports-api-openapi.yml
+- filename: amazon-qldb-ledgers-api-openapi.yml
+  format: yaml
+  label: Amazon QLDB Ledgers API
+  slug: amazon-qldb-ledgers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/openapi/amazon-qldb-ledgers-api-openapi.yml
+- filename: amazon-qldb-tags-api-openapi.yml
+  format: yaml
+  label: Amazon QLDB Tags API
+  slug: amazon-qldb-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/openapi/amazon-qldb-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

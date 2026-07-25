@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: calorieninjas-openapi.yml
+- filename: calorie-ninjas-imagetextnutrition-api-openapi.yml
   format: yaml
-  label: CalorieNinjas API
-  slug: calorieninjas
+  label: CalorieNinjas Imagetextnutrition API
+  slug: calorie-ninjas-imagetextnutrition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calorie-ninjas/refs/heads/main/openapi/calorieninjas-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/calorie-ninjas/refs/heads/main/openapi/calorie-ninjas-imagetextnutrition-api-openapi.yml
+- filename: calorie-ninjas-nutrition-api-openapi.yml
+  format: yaml
+  label: CalorieNinjas Nutrition API
+  slug: calorie-ninjas-nutrition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calorie-ninjas/refs/heads/main/openapi/calorie-ninjas-nutrition-api-openapi.yml
+- filename: calorie-ninjas-recipe-api-openapi.yml
+  format: yaml
+  label: CalorieNinjas Recipe API
+  slug: calorie-ninjas-recipe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calorie-ninjas/refs/heads/main/openapi/calorie-ninjas-recipe-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,47 +1,41 @@
 ---
 api_specs:
-- filename: growthzone-openapi.yml
-  format: yaml
-  label: GrowthZone Contacts API
-  slug: growthzone-contacts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-openapi.yml
-- filename: growthzone-openapi.yml
-  format: yaml
-  label: GrowthZone Memberships API
-  slug: growthzone-memberships-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-openapi.yml
-- filename: growthzone-openapi.yml
-  format: yaml
-  label: GrowthZone Groups & Directory API
-  slug: growthzone-groups-directory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-openapi.yml
-- filename: growthzone-openapi.yml
-  format: yaml
-  label: GrowthZone Scheduled Billing API
-  slug: growthzone-scheduled-billing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-openapi.yml
-- filename: growthzone-openapi.yml
+- filename: growthzone-certifications-api-openapi.yml
   format: yaml
   label: GrowthZone Certifications API
   slug: growthzone-certifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-openapi.yml
-- filename: growthzone-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-certifications-api-openapi.yml
+- filename: growthzone-contacts-api-openapi.yml
+  format: yaml
+  label: GrowthZone Contacts API
+  slug: growthzone-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-contacts-api-openapi.yml
+- filename: growthzone-events-api-openapi.yml
   format: yaml
   label: GrowthZone Events API
   slug: growthzone-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-openapi.yml
-- filename: growthzone-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-events-api-openapi.yml
+- filename: growthzone-groups-directory-api-openapi.yml
   format: yaml
-  label: GrowthZone OAuth / OpenID Connect (SSO) API
-  slug: growthzone-oauth-oidc-api
+  label: GrowthZone Groups & Directory API
+  slug: growthzone-groups-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-groups-directory-api-openapi.yml
+- filename: growthzone-memberships-api-openapi.yml
+  format: yaml
+  label: GrowthZone Memberships API
+  slug: growthzone-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-memberships-api-openapi.yml
+- filename: growthzone-scheduled-billing-api-openapi.yml
+  format: yaml
+  label: GrowthZone Scheduled Billing API
+  slug: growthzone-scheduled-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-scheduled-billing-api-openapi.yml
 description: ''
 domains:
 - caa: []

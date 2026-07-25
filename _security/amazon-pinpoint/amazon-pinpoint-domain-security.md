@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: amazon-pinpoint-openapi.yml
+- filename: amazon-pinpoint-applications-api-openapi.yml
   format: yaml
-  label: Amazon Pinpoint API
-  slug: amazon-pinpoint-api
+  label: Amazon Pinpoint Applications API
+  slug: amazon-pinpoint-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/openapi/amazon-pinpoint-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/openapi/amazon-pinpoint-applications-api-openapi.yml
+- filename: amazon-pinpoint-apps-api-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint Apps API
+  slug: amazon-pinpoint-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/openapi/amazon-pinpoint-apps-api-openapi.yml
+- filename: amazon-pinpoint-phone-api-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint Phone API
+  slug: amazon-pinpoint-phone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/openapi/amazon-pinpoint-phone-api-openapi.yml
+- filename: amazon-pinpoint-recommenders-api-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint Recommenders API
+  slug: amazon-pinpoint-recommenders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/openapi/amazon-pinpoint-recommenders-api-openapi.yml
+- filename: amazon-pinpoint-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint Tags API
+  slug: amazon-pinpoint-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/openapi/amazon-pinpoint-tags-api-openapi.yml
+- filename: amazon-pinpoint-templates-api-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint Templates API
+  slug: amazon-pinpoint-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/openapi/amazon-pinpoint-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []

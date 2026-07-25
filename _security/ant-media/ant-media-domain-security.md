@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: ant-media-openapi.json
-  format: json
-  label: Ant Media Server REST API
-  slug: ant-media-server-rest-api
+- filename: ant-media-broadcasts-api-openapi.yml
+  format: yaml
+  label: Ant Media Broadcasts API
+  slug: ant-media-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/openapi/ant-media-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/openapi/ant-media-broadcasts-api-openapi.yml
+- filename: ant-media-filters-api-openapi.yml
+  format: yaml
+  label: Ant Media Filters API
+  slug: ant-media-filters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/openapi/ant-media-filters-api-openapi.yml
+- filename: ant-media-push-notification-api-openapi.yml
+  format: yaml
+  label: Ant Media Push Notification API
+  slug: ant-media-push-notification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/openapi/ant-media-push-notification-api-openapi.yml
+- filename: ant-media-version-api-openapi.yml
+  format: yaml
+  label: Ant Media Version API
+  slug: ant-media-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/openapi/ant-media-version-api-openapi.yml
+- filename: ant-media-vods-api-openapi.yml
+  format: yaml
+  label: Ant Media Vods API
+  slug: ant-media-vods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/openapi/ant-media-vods-api-openapi.yml
 description: ''
 domains:
 - caa:

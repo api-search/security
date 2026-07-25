@@ -2,12 +2,78 @@
 api_key_in:
 - header
 api_specs:
-- filename: base-operations-openapi-original.json
-  format: json
-  label: Base Operations Customer API
-  slug: base-operations-customer-api
+- filename: base-operations-analytics-api-openapi.yml
+  format: yaml
+  label: Base Operations Analytics API
+  slug: base-operations-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/base-operations/refs/heads/main/openapi/base-operations-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/base-operations/refs/heads/main/openapi/base-operations-analytics-api-openapi.yml
+- filename: base-operations-base-score-api-openapi.yml
+  format: yaml
+  label: Base Operations Base Score API
+  slug: base-operations-base-score-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/base-operations/refs/heads/main/openapi/base-operations-base-score-api-openapi.yml
+- filename: base-operations-change-detection-api-openapi.yml
+  format: yaml
+  label: Base Operations Change Detection API
+  slug: base-operations-change-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/base-operations/refs/heads/main/openapi/base-operations-change-detection-api-openapi.yml
+- filename: base-operations-key-takeaways-api-openapi.yml
+  format: yaml
+  label: Base Operations Key Takeaways API
+  slug: base-operations-key-takeaways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/base-operations/refs/heads/main/openapi/base-operations-key-takeaways-api-openapi.yml
+- filename: base-operations-public-charts-api-openapi.yml
+  format: yaml
+  label: Base Operations Public Charts API
+  slug: base-operations-public-charts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/base-operations/refs/heads/main/openapi/base-operations-public-charts-api-openapi.yml
+- filename: base-operations-radius-charts-api-openapi.yml
+  format: yaml
+  label: Base Operations Radius Charts API
+  slug: base-operations-radius-charts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/base-operations/refs/heads/main/openapi/base-operations-radius-charts-api-openapi.yml
+- filename: base-operations-saved-location-charts-api-openapi.yml
+  format: yaml
+  label: Base Operations Saved Location Charts API
+  slug: base-operations-saved-location-charts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/base-operations/refs/heads/main/openapi/base-operations-saved-location-charts-api-openapi.yml
+- filename: base-operations-saved-location-radius-charts-api-openapi.yml
+  format: yaml
+  label: Base Operations Saved Location Radius Charts API
+  slug: base-operations-saved-location-radius-charts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/base-operations/refs/heads/main/openapi/base-operations-saved-location-radius-charts-api-openapi.yml
+- filename: base-operations-saved-locations-api-openapi.yml
+  format: yaml
+  label: Base Operations Saved Locations API
+  slug: base-operations-saved-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/base-operations/refs/heads/main/openapi/base-operations-saved-locations-api-openapi.yml
+- filename: base-operations-source-categories-api-openapi.yml
+  format: yaml
+  label: Base Operations Source Categories API
+  slug: base-operations-source-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/base-operations/refs/heads/main/openapi/base-operations-source-categories-api-openapi.yml
+- filename: base-operations-threat-categories-api-openapi.yml
+  format: yaml
+  label: Base Operations Threat Categories API
+  slug: base-operations-threat-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/base-operations/refs/heads/main/openapi/base-operations-threat-categories-api-openapi.yml
+- filename: base-operations-threats-api-openapi.yml
+  format: yaml
+  label: Base Operations Threats API
+  slug: base-operations-threats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/base-operations/refs/heads/main/openapi/base-operations-threats-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,53 +1,47 @@
 ---
 api_specs:
-- filename: fema-openapi.yml
+- filename: fema-catalog-api-openapi.yml
   format: yaml
-  label: FEMA Disaster Declarations Summaries API
-  slug: fema-disaster-declarations-summaries-api
+  label: OpenFEMA Catalog API
+  slug: fema-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-openapi.yml
-- filename: fema-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-catalog-api-openapi.yml
+- filename: fema-disaster-declarations-api-openapi.yml
   format: yaml
-  label: FEMA Public Assistance Funded Projects Details API
-  slug: fema-public-assistance-funded-projects-details-api
+  label: OpenFEMA Disaster Declarations API
+  slug: fema-disaster-declarations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-openapi.yml
-- filename: fema-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-disaster-declarations-api-openapi.yml
+- filename: fema-hazard-mitigation-api-openapi.yml
   format: yaml
-  label: FEMA Hazard Mitigation Assistance Projects API
-  slug: fema-hazard-mitigation-assistance-projects-api
+  label: OpenFEMA Hazard Mitigation API
+  slug: fema-hazard-mitigation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-openapi.yml
-- filename: fema-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-hazard-mitigation-api-openapi.yml
+- filename: fema-ipaws-api-openapi.yml
   format: yaml
-  label: FEMA NFIP Redacted Policies API
-  slug: fema-nfip-redacted-policies-api
+  label: OpenFEMA IPAWS API
+  slug: fema-ipaws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-openapi.yml
-- filename: fema-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-ipaws-api-openapi.yml
+- filename: fema-nfip-api-openapi.yml
   format: yaml
-  label: FEMA NFIP Redacted Claims API
-  slug: fema-nfip-redacted-claims-api
+  label: OpenFEMA NFIP API
+  slug: fema-nfip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-openapi.yml
-- filename: fema-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-nfip-api-openapi.yml
+- filename: fema-public-assistance-api-openapi.yml
   format: yaml
-  label: FEMA IPAWS Archived Alerts API
-  slug: fema-ipaws-archived-alerts-api
+  label: OpenFEMA Public Assistance API
+  slug: fema-public-assistance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-openapi.yml
-- filename: fema-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-public-assistance-api-openapi.yml
+- filename: fema-web-disaster-summaries-api-openapi.yml
   format: yaml
-  label: FEMA Web Disaster Summaries API
+  label: OpenFEMA Web Disaster Summaries API
   slug: fema-web-disaster-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-openapi.yml
-- filename: fema-openapi.yml
-  format: yaml
-  label: FEMA OpenFEMA Dataset Catalog API
-  slug: fema-openfema-dataset-catalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-web-disaster-summaries-api-openapi.yml
 description: ''
 domains:
 - caa: []

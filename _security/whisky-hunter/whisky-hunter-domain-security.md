@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: whisky-hunter-openapi.yml
+- filename: whisky-hunter-auctions-api-openapi.yml
   format: yaml
-  label: Whisky Hunter API
-  slug: whisky-hunter
+  label: Whisky Hunter Auctions API
+  slug: whisky-hunter-auctions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisky-hunter/refs/heads/main/openapi/whisky-hunter-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/whisky-hunter/refs/heads/main/openapi/whisky-hunter-auctions-api-openapi.yml
+- filename: whisky-hunter-distilleries-api-openapi.yml
+  format: yaml
+  label: Whisky Hunter Distilleries API
+  slug: whisky-hunter-distilleries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whisky-hunter/refs/heads/main/openapi/whisky-hunter-distilleries-api-openapi.yml
 description: ''
 domains:
 - caa: []

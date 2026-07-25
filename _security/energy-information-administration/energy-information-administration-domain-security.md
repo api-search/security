@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: energy-information-administration-open-data-api-openapi.yml
+- filename: energy-information-administration-co2-emissions-api-openapi.yml
   format: yaml
-  label: EIA Open Data API
-  slug: open-data-api
+  label: Energy Information Administration CO2 Emissions API
+  slug: energy-information-administration-co2-emissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-open-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-co2-emissions-api-openapi.yml
+- filename: energy-information-administration-coal-api-openapi.yml
+  format: yaml
+  label: Energy Information Administration Coal API
+  slug: energy-information-administration-coal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-coal-api-openapi.yml
+- filename: energy-information-administration-discovery-api-openapi.yml
+  format: yaml
+  label: Energy Information Administration Discovery API
+  slug: energy-information-administration-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-discovery-api-openapi.yml
+- filename: energy-information-administration-electricity-api-openapi.yml
+  format: yaml
+  label: Energy Information Administration Electricity API
+  slug: energy-information-administration-electricity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-electricity-api-openapi.yml
+- filename: energy-information-administration-international-api-openapi.yml
+  format: yaml
+  label: Energy Information Administration International API
+  slug: energy-information-administration-international-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-international-api-openapi.yml
+- filename: energy-information-administration-natural-gas-api-openapi.yml
+  format: yaml
+  label: Energy Information Administration Natural Gas API
+  slug: energy-information-administration-natural-gas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-natural-gas-api-openapi.yml
+- filename: energy-information-administration-nuclear-api-openapi.yml
+  format: yaml
+  label: Energy Information Administration Nuclear API
+  slug: energy-information-administration-nuclear-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-nuclear-api-openapi.yml
+- filename: energy-information-administration-petroleum-api-openapi.yml
+  format: yaml
+  label: Energy Information Administration Petroleum API
+  slug: energy-information-administration-petroleum-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-petroleum-api-openapi.yml
+- filename: energy-information-administration-seds-api-openapi.yml
+  format: yaml
+  label: Energy Information Administration SEDS API
+  slug: energy-information-administration-seds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-seds-api-openapi.yml
+- filename: energy-information-administration-total-energy-api-openapi.yml
+  format: yaml
+  label: Energy Information Administration Total Energy API
+  slug: energy-information-administration-total-energy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-total-energy-api-openapi.yml
 description: ''
 domains:
 - caa: []

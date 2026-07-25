@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: unblocked-public-api-openapi-original.json
-  format: json
-  label: Unblocked Public API
-  slug: unblocked-public-api
+- filename: unblocked-answers-api-openapi.yml
+  format: yaml
+  label: Unblocked Answers API
+  slug: unblocked-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/openapi/unblocked-public-api-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/openapi/unblocked-answers-api-openapi.yml
+- filename: unblocked-collections-api-openapi.yml
+  format: yaml
+  label: Unblocked Collections API
+  slug: unblocked-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/openapi/unblocked-collections-api-openapi.yml
+- filename: unblocked-documents-api-openapi.yml
+  format: yaml
+  label: Unblocked Documents API
+  slug: unblocked-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/openapi/unblocked-documents-api-openapi.yml
 description: ''
 domains:
 - caa: []

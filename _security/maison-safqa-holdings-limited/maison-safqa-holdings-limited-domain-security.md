@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: maison-safqa-holdings-limited-openapi-original.yml
+- filename: maison-safqa-holdings-limited-inventory-api-openapi.yml
   format: yaml
-  label: Maison Safqa Brand Developer API
-  slug: maison-safqa-brand-developer-api
+  label: Maison Safqa Holdings Limited Inventory API
+  slug: maison-safqa-holdings-limited-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/openapi/maison-safqa-holdings-limited-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/openapi/maison-safqa-holdings-limited-inventory-api-openapi.yml
+- filename: maison-safqa-holdings-limited-products-api-openapi.yml
+  format: yaml
+  label: Maison Safqa Holdings Limited Products API
+  slug: maison-safqa-holdings-limited-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/openapi/maison-safqa-holdings-limited-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

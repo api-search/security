@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: ssl-tls-certificate-management-openapi.yml
+- filename: ssl-tls-certificates-api-openapi.yml
   format: yaml
-  label: Let's Encrypt ACME API
-  slug: lets-encrypt-acme
+  label: SSL/TLS Certificates API
+  slug: ssl-tls-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/openapi/ssl-tls-certificate-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/openapi/ssl-tls-certificates-api-openapi.yml
+- filename: ssl-tls-domains-api-openapi.yml
+  format: yaml
+  label: SSL/TLS Domains API
+  slug: ssl-tls-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/openapi/ssl-tls-domains-api-openapi.yml
+- filename: ssl-tls-monitoring-api-openapi.yml
+  format: yaml
+  label: SSL/TLS Monitoring API
+  slug: ssl-tls-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/openapi/ssl-tls-monitoring-api-openapi.yml
+- filename: ssl-tls-orders-api-openapi.yml
+  format: yaml
+  label: SSL/TLS Orders API
+  slug: ssl-tls-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/openapi/ssl-tls-orders-api-openapi.yml
+- filename: ssl-tls-revocation-api-openapi.yml
+  format: yaml
+  label: SSL/TLS Revocation API
+  slug: ssl-tls-revocation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/openapi/ssl-tls-revocation-api-openapi.yml
 description: ''
 domains:
 - caa:

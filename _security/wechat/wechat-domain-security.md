@@ -18,6 +18,24 @@ api_specs:
   slug: wechat-work-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/asyncapi/wechat-webhooks-asyncapi.yml
+- filename: wechat-access-token-api-openapi.yml
+  format: yaml
+  label: WeChat Access Token API
+  slug: wechat-access-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/openapi/wechat-access-token-api-openapi.yml
+- filename: wechat-login-api-openapi.yml
+  format: yaml
+  label: WeChat Login API
+  slug: wechat-login-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/openapi/wechat-login-api-openapi.yml
+- filename: wechat-user-information-api-openapi.yml
+  format: yaml
+  label: WeChat User Information API
+  slug: wechat-user-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/openapi/wechat-user-information-api-openapi.yml
 description: ''
 domains:
 - caa: []

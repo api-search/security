@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: openfigi-openapi.yml
+- filename: bloomberg-lp-filter-api-openapi.yml
   format: yaml
-  label: OpenFIGI API
-  slug: openfigi
+  label: Bloomberg L.P. Filter API
+  slug: bloomberg-lp-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-lp/refs/heads/main/openapi/openfigi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-lp/refs/heads/main/openapi/bloomberg-lp-filter-api-openapi.yml
+- filename: bloomberg-lp-mapping-api-openapi.yml
+  format: yaml
+  label: Bloomberg L.P. Mapping API
+  slug: bloomberg-lp-mapping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-lp/refs/heads/main/openapi/bloomberg-lp-mapping-api-openapi.yml
+- filename: bloomberg-lp-reference-api-openapi.yml
+  format: yaml
+  label: Bloomberg L.P. Reference API
+  slug: bloomberg-lp-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-lp/refs/heads/main/openapi/bloomberg-lp-reference-api-openapi.yml
+- filename: bloomberg-lp-search-api-openapi.yml
+  format: yaml
+  label: Bloomberg L.P. Search API
+  slug: bloomberg-lp-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-lp/refs/heads/main/openapi/bloomberg-lp-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

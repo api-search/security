@@ -1,30 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cerebrium-openapi.yml
+- filename: cerebrium-inference-api-openapi.yml
   format: yaml
-  label: Cerebrium Inference / Run Endpoints API
-  slug: cerebrium-inference-run-api
+  label: Cerebrium Inference API
+  slug: cerebrium-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerebrium/refs/heads/main/openapi/cerebrium-openapi.yml
-- filename: cerebrium-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cerebrium/refs/heads/main/openapi/cerebrium-inference-api-openapi.yml
+- filename: cerebrium-openai-compatible-api-openapi.yml
   format: yaml
-  label: Cerebrium Streaming Endpoints API
-  slug: cerebrium-streaming-api
+  label: Cerebrium OpenAI Compatible API
+  slug: cerebrium-openai-compatible-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerebrium/refs/heads/main/openapi/cerebrium-openapi.yml
-- filename: cerebrium-openapi.yml
-  format: yaml
-  label: Cerebrium Async Requests API
-  slug: cerebrium-async-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerebrium/refs/heads/main/openapi/cerebrium-openapi.yml
-- filename: cerebrium-openapi.yml
-  format: yaml
-  label: Cerebrium App Deployment / Management API
-  slug: cerebrium-app-deployment-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerebrium/refs/heads/main/openapi/cerebrium-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cerebrium/refs/heads/main/openapi/cerebrium-openai-compatible-api-openapi.yml
 auth_types:
 - http
 description: ''

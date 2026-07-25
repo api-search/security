@@ -2,12 +2,12 @@
 api_key_in:
 - query
 api_specs:
-- filename: skyhigh-incidents-openapi-original.yml
+- filename: skyhigh-tenant-api-openapi.yml
   format: yaml
-  label: Skyhigh Security SSE Incidents API
-  slug: skyhigh-security-sse-incidents-api
+  label: Skyhigh Security Tenant API
+  slug: skyhigh-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/openapi/skyhigh-incidents-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/openapi/skyhigh-tenant-api-openapi.yml
 auth_types:
 - apiKey
 - http

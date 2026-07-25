@@ -1,18 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: guardant-health-openapi.yml
+- filename: guardant-health-orders-api-openapi.yml
   format: yaml
-  label: Guardant Health EMR Ordering Integration
-  slug: guardant-health-emr-ordering-api
+  label: Guardant Health Orders API
+  slug: guardant-health-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guardant-health/refs/heads/main/openapi/guardant-health-openapi.yml
-- filename: guardant-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/guardant-health/refs/heads/main/openapi/guardant-health-orders-api-openapi.yml
+- filename: guardant-health-results-api-openapi.yml
   format: yaml
-  label: Guardant Health Results Delivery Integration
-  slug: guardant-health-results-delivery
+  label: Guardant Health Results API
+  slug: guardant-health-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guardant-health/refs/heads/main/openapi/guardant-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/guardant-health/refs/heads/main/openapi/guardant-health-results-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: krakend-service-api-openapi.yml
+- filename: krakend-debug-api-openapi.yml
   format: yaml
-  label: KrakenD Service API
-  slug: krakend-service-api
+  label: KrakenD Debug API
+  slug: krakend-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krakend/refs/heads/main/openapi/krakend-service-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/krakend/refs/heads/main/openapi/krakend-debug-api-openapi.yml
+- filename: krakend-health-api-openapi.yml
+  format: yaml
+  label: KrakenD Health API
+  slug: krakend-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/krakend/refs/heads/main/openapi/krakend-health-api-openapi.yml
+- filename: krakend-metrics-api-openapi.yml
+  format: yaml
+  label: KrakenD Metrics API
+  slug: krakend-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/krakend/refs/heads/main/openapi/krakend-metrics-api-openapi.yml
 description: ''
 domains:
 - caa: []

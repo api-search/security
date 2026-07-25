@@ -1,12 +1,90 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: RingCentral Events API
-  slug: ringcentral-events-api
+- filename: hopin-bank-questions-api-openapi.yml
+  format: yaml
+  label: RingCentral Events Bank Questions API
+  slug: hopin-bank-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-bank-questions-api-openapi.yml
+- filename: hopin-booths-api-openapi.yml
+  format: yaml
+  label: RingCentral Events Booths API
+  slug: hopin-booths-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-booths-api-openapi.yml
+- filename: hopin-data-subscriptions-api-openapi.yml
+  format: yaml
+  label: RingCentral Events Data Subscriptions API
+  slug: hopin-data-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-data-subscriptions-api-openapi.yml
+- filename: hopin-events-api-openapi.yml
+  format: yaml
+  label: RingCentral Events Events API
+  slug: hopin-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-events-api-openapi.yml
+- filename: hopin-health-api-openapi.yml
+  format: yaml
+  label: RingCentral Events Health API
+  slug: hopin-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-health-api-openapi.yml
+- filename: hopin-magic-links-api-openapi.yml
+  format: yaml
+  label: RingCentral Events Magic Links API
+  slug: hopin-magic-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-magic-links-api-openapi.yml
+- filename: hopin-organizations-api-openapi.yml
+  format: yaml
+  label: RingCentral Events Organizations API
+  slug: hopin-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-organizations-api-openapi.yml
+- filename: hopin-registrations-api-openapi.yml
+  format: yaml
+  label: RingCentral Events Registrations API
+  slug: hopin-registrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-registrations-api-openapi.yml
+- filename: hopin-reports-api-openapi.yml
+  format: yaml
+  label: RingCentral Events Reports API
+  slug: hopin-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-reports-api-openapi.yml
+- filename: hopin-schedule-items-api-openapi.yml
+  format: yaml
+  label: RingCentral Events Schedule Items API
+  slug: hopin-schedule-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-schedule-items-api-openapi.yml
+- filename: hopin-sessions-api-openapi.yml
+  format: yaml
+  label: RingCentral Events Sessions API
+  slug: hopin-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-sessions-api-openapi.yml
+- filename: hopin-stages-api-openapi.yml
+  format: yaml
+  label: RingCentral Events Stages API
+  slug: hopin-stages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-stages-api-openapi.yml
+- filename: hopin-templates-api-openapi.yml
+  format: yaml
+  label: RingCentral Events Templates API
+  slug: hopin-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-templates-api-openapi.yml
+- filename: hopin-tickets-api-openapi.yml
+  format: yaml
+  label: RingCentral Events Tickets API
+  slug: hopin-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-tickets-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

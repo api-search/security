@@ -6,12 +6,12 @@ api_specs:
   slug: cloudevents-spec
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudevents/refs/heads/main/asyncapi/cloudevents-http-asyncapi.yml
-- filename: cloudevents-subscriptions-openapi.yml
+- filename: cloudevents-subscriptions-api-openapi.yml
   format: yaml
   label: CloudEvents Subscriptions API
-  slug: cloudevents-subscriptions
+  slug: cloudevents-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudevents/refs/heads/main/openapi/cloudevents-subscriptions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudevents/refs/heads/main/openapi/cloudevents-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []

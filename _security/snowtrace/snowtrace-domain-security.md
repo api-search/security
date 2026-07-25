@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: snowtrace-accounts-api-openapi.yml
+  format: yaml
+  label: Routescan (Snowtrace) Accounts API
+  slug: snowtrace-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-accounts-api-openapi.yml
+- filename: snowtrace-blocks-api-openapi.yml
+  format: yaml
+  label: Routescan (Snowtrace) Blocks API
+  slug: snowtrace-blocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-blocks-api-openapi.yml
+- filename: snowtrace-contracts-api-openapi.yml
+  format: yaml
+  label: Routescan (Snowtrace) Contracts API
+  slug: snowtrace-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-contracts-api-openapi.yml
+- filename: snowtrace-logs-api-openapi.yml
+  format: yaml
+  label: Routescan (Snowtrace) Logs API
+  slug: snowtrace-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-logs-api-openapi.yml
+- filename: snowtrace-proxy-api-openapi.yml
+  format: yaml
+  label: Routescan (Snowtrace) Proxy API
+  slug: snowtrace-proxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-proxy-api-openapi.yml
+- filename: snowtrace-stats-api-openapi.yml
+  format: yaml
+  label: Routescan (Snowtrace) Stats API
+  slug: snowtrace-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-stats-api-openapi.yml
+- filename: snowtrace-tokens-api-openapi.yml
+  format: yaml
+  label: Routescan (Snowtrace) Tokens API
+  slug: snowtrace-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-tokens-api-openapi.yml
+- filename: snowtrace-transactions-api-openapi.yml
+  format: yaml
+  label: Routescan (Snowtrace) Transactions API
+  slug: snowtrace-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

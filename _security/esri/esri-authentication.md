@@ -2,12 +2,24 @@
 api_key_in:
 - query
 api_specs:
-- filename: esri-openapi.yml
+- filename: esri-auth-api-openapi.yml
   format: yaml
-  label: Esri ArcGIS Platform API
-  slug: esri-arcgis-platform-api
+  label: Esri Auth API
+  slug: esri-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-auth-api-openapi.yml
+- filename: esri-geocoding-api-openapi.yml
+  format: yaml
+  label: Esri Geocoding API
+  slug: esri-geocoding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-geocoding-api-openapi.yml
+- filename: esri-routing-api-openapi.yml
+  format: yaml
+  label: Esri Routing API
+  slug: esri-routing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-routing-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

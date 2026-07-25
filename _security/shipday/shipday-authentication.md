@@ -1,36 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: shipday-openapi.yml
+- filename: shipday-assignment-api-openapi.yml
   format: yaml
-  label: Shipday Orders API
-  slug: orders
+  label: Shipday Assignment API
+  slug: shipday-assignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/openapi/shipday-openapi.yml
-- filename: shipday-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/openapi/shipday-assignment-api-openapi.yml
+- filename: shipday-drivers-api-openapi.yml
   format: yaml
-  label: Shipday Drivers / Carriers API
-  slug: drivers-carriers
+  label: Shipday Drivers API
+  slug: shipday-drivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/openapi/shipday-openapi.yml
-- filename: shipday-openapi.yml
-  format: yaml
-  label: Shipday Order Assignment API
-  slug: order-assignment
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/openapi/shipday-openapi.yml
-- filename: shipday-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/openapi/shipday-drivers-api-openapi.yml
+- filename: shipday-on-demand-delivery-api-openapi.yml
   format: yaml
   label: Shipday On-Demand Delivery API
-  slug: on-demand-delivery
+  slug: shipday-on-demand-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/openapi/shipday-openapi.yml
-- filename: shipday-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/openapi/shipday-on-demand-delivery-api-openapi.yml
+- filename: shipday-orders-api-openapi.yml
   format: yaml
-  label: Shipday Webhooks API
-  slug: webhooks
+  label: Shipday Orders API
+  slug: shipday-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/openapi/shipday-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/openapi/shipday-orders-api-openapi.yml
 auth_types:
 - http
 description: ''

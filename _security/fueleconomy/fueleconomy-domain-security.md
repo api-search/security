@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: fueleconomy-fuel-economy-web-services-openapi.yml
+- filename: fueleconomy-emissions-api-openapi.yml
   format: yaml
-  label: Fuel Economy Web Services
-  slug: fuel-economy-web-services
+  label: FuelEconomy.gov Emissions API
+  slug: fueleconomy-emissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fueleconomy/refs/heads/main/openapi/fueleconomy-fuel-economy-web-services-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fueleconomy/refs/heads/main/openapi/fueleconomy-emissions-api-openapi.yml
+- filename: fueleconomy-fuel-prices-api-openapi.yml
+  format: yaml
+  label: FuelEconomy.gov Fuel Prices API
+  slug: fueleconomy-fuel-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fueleconomy/refs/heads/main/openapi/fueleconomy-fuel-prices-api-openapi.yml
+- filename: fueleconomy-menus-api-openapi.yml
+  format: yaml
+  label: FuelEconomy.gov Menus API
+  slug: fueleconomy-menus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fueleconomy/refs/heads/main/openapi/fueleconomy-menus-api-openapi.yml
+- filename: fueleconomy-user-mpg-api-openapi.yml
+  format: yaml
+  label: FuelEconomy.gov User MPG API
+  slug: fueleconomy-user-mpg-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fueleconomy/refs/heads/main/openapi/fueleconomy-user-mpg-api-openapi.yml
+- filename: fueleconomy-user-mpg-menus-api-openapi.yml
+  format: yaml
+  label: FuelEconomy.gov User MPG Menus API
+  slug: fueleconomy-user-mpg-menus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fueleconomy/refs/heads/main/openapi/fueleconomy-user-mpg-menus-api-openapi.yml
+- filename: fueleconomy-vehicles-api-openapi.yml
+  format: yaml
+  label: FuelEconomy.gov Vehicles API
+  slug: fueleconomy-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fueleconomy/refs/heads/main/openapi/fueleconomy-vehicles-api-openapi.yml
 description: ''
 domains:
 - caa: []

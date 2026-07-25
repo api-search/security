@@ -1,12 +1,84 @@
 ---
 api_key_in: []
 api_specs:
-- filename: abound-v4-openapi.yml
+- filename: abound-1099-int-api-openapi.yml
   format: yaml
-  label: Abound API v4
-  slug: abound-api-v4
+  label: Abound 1099-INT API
+  slug: abound-1099-int-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-v4-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-1099-int-api-openapi.yml
+- filename: abound-1099-k-api-openapi.yml
+  format: yaml
+  label: Abound 1099-K API
+  slug: abound-1099-k-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-1099-k-api-openapi.yml
+- filename: abound-1099-misc-api-openapi.yml
+  format: yaml
+  label: Abound 1099-MISC API
+  slug: abound-1099-misc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-1099-misc-api-openapi.yml
+- filename: abound-1099-nec-api-openapi.yml
+  format: yaml
+  label: Abound 1099-NEC API
+  slug: abound-1099-nec-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-1099-nec-api-openapi.yml
+- filename: abound-access-tokens-api-openapi.yml
+  format: yaml
+  label: Abound Access Tokens API
+  slug: abound-access-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-access-tokens-api-openapi.yml
+- filename: abound-electronic-delivery-consents-api-openapi.yml
+  format: yaml
+  label: Abound Electronic Delivery Consents API
+  slug: abound-electronic-delivery-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-electronic-delivery-consents-api-openapi.yml
+- filename: abound-mailings-api-openapi.yml
+  format: yaml
+  label: Abound Mailings API
+  slug: abound-mailings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-mailings-api-openapi.yml
+- filename: abound-tax-treaties-api-openapi.yml
+  format: yaml
+  label: Abound Tax Treaties API
+  slug: abound-tax-treaties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-tax-treaties-api-openapi.yml
+- filename: abound-tin-verifications-api-openapi.yml
+  format: yaml
+  label: Abound TIN Verifications API
+  slug: abound-tin-verifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-tin-verifications-api-openapi.yml
+- filename: abound-users-api-openapi.yml
+  format: yaml
+  label: Abound Users API
+  slug: abound-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-users-api-openapi.yml
+- filename: abound-w-8ben-api-openapi.yml
+  format: yaml
+  label: Abound W-8BEN API
+  slug: abound-w-8ben-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-w-8ben-api-openapi.yml
+- filename: abound-w-8ben-e-api-openapi.yml
+  format: yaml
+  label: Abound W-8BEN-E API
+  slug: abound-w-8ben-e-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-w-8ben-e-api-openapi.yml
+- filename: abound-w-9-api-openapi.yml
+  format: yaml
+  label: Abound W-9 API
+  slug: abound-w-9-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-w-9-api-openapi.yml
 auth_types:
 - http
 description: ''

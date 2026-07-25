@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: handwrite-io-openapi.yml
+- filename: handwrite-io-handwriting-api-openapi.yml
   format: yaml
-  label: Handwrite IO API
-  slug: handwrite-io
+  label: Handwrite IO Handwriting API
+  slug: handwrite-io-handwriting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/openapi/handwrite-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/openapi/handwrite-io-handwriting-api-openapi.yml
+- filename: handwrite-io-orders-api-openapi.yml
+  format: yaml
+  label: Handwrite IO Orders API
+  slug: handwrite-io-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/openapi/handwrite-io-orders-api-openapi.yml
+- filename: handwrite-io-send-api-openapi.yml
+  format: yaml
+  label: Handwrite IO Send API
+  slug: handwrite-io-send-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/openapi/handwrite-io-send-api-openapi.yml
+- filename: handwrite-io-stationery-api-openapi.yml
+  format: yaml
+  label: Handwrite IO Stationery API
+  slug: handwrite-io-stationery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/openapi/handwrite-io-stationery-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: opkit-openapi.yml
-  format: yaml
-  label: Opkit Eligibility Inquiries API
-  slug: eligibility-inquiries
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/openapi/opkit-openapi.yml
-- filename: opkit-openapi.yml
+- filename: opkit-benefits-api-openapi.yml
   format: yaml
   label: Opkit Benefits API
-  slug: benefits
+  slug: opkit-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/openapi/opkit-openapi.yml
-- filename: opkit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/openapi/opkit-benefits-api-openapi.yml
+- filename: opkit-eligibility-inquiries-api-openapi.yml
   format: yaml
-  label: Opkit Payers API
-  slug: payers
+  label: Opkit Eligibility Inquiries API
+  slug: opkit-eligibility-inquiries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/openapi/opkit-openapi.yml
-- filename: opkit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/openapi/opkit-eligibility-inquiries-api-openapi.yml
+- filename: opkit-patients-api-openapi.yml
   format: yaml
   label: Opkit Patients API
-  slug: patients
+  slug: opkit-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/openapi/opkit-openapi.yml
-- filename: opkit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/openapi/opkit-patients-api-openapi.yml
+- filename: opkit-payers-api-openapi.yml
+  format: yaml
+  label: Opkit Payers API
+  slug: opkit-payers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/openapi/opkit-payers-api-openapi.yml
+- filename: opkit-webhooks-api-openapi.yml
   format: yaml
   label: Opkit Webhooks API
-  slug: webhooks
+  slug: opkit-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/openapi/opkit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/openapi/opkit-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

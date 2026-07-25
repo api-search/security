@@ -1,11 +1,155 @@
 ---
 api_specs:
-- filename: arkham-openapi-original.json
-  format: json
-  label: Arkham Intel API
-  slug: arkham-intel-api
+- filename: arkham-analytics-api-openapi.yml
+  format: yaml
+  label: Arkham Analytics API
+  slug: arkham-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-analytics-api-openapi.yml
+- filename: arkham-arkm-api-openapi.yml
+  format: yaml
+  label: Arkham Arkm API
+  slug: arkham-arkm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-arkm-api-openapi.yml
+- filename: arkham-balances-api-openapi.yml
+  format: yaml
+  label: Arkham Balances API
+  slug: arkham-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-balances-api-openapi.yml
+- filename: arkham-chains-api-openapi.yml
+  format: yaml
+  label: Arkham Chains API
+  slug: arkham-chains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-chains-api-openapi.yml
+- filename: arkham-cluster-api-openapi.yml
+  format: yaml
+  label: Arkham Cluster API
+  slug: arkham-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-cluster-api-openapi.yml
+- filename: arkham-counterparties-api-openapi.yml
+  format: yaml
+  label: Arkham Counterparties API
+  slug: arkham-counterparties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-counterparties-api-openapi.yml
+- filename: arkham-flow-api-openapi.yml
+  format: yaml
+  label: Arkham Flow API
+  slug: arkham-flow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-flow-api-openapi.yml
+- filename: arkham-history-api-openapi.yml
+  format: yaml
+  label: Arkham History API
+  slug: arkham-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-history-api-openapi.yml
+- filename: arkham-hypercore-api-openapi.yml
+  format: yaml
+  label: Arkham Hypercore API
+  slug: arkham-hypercore-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-hypercore-api-openapi.yml
+- filename: arkham-intelligence-api-openapi.yml
+  format: yaml
+  label: Arkham Intelligence API
+  slug: arkham-intelligence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-intelligence-api-openapi.yml
+- filename: arkham-loans-api-openapi.yml
+  format: yaml
+  label: Arkham Loans API
+  slug: arkham-loans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-loans-api-openapi.yml
+- filename: arkham-marketdata-api-openapi.yml
+  format: yaml
+  label: Arkham Marketdata API
+  slug: arkham-marketdata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-marketdata-api-openapi.yml
+- filename: arkham-networks-api-openapi.yml
+  format: yaml
+  label: Arkham Networks API
+  slug: arkham-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-networks-api-openapi.yml
+- filename: arkham-polymarket-api-openapi.yml
+  format: yaml
+  label: Arkham Polymarket API
+  slug: arkham-polymarket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-polymarket-api-openapi.yml
+- filename: arkham-portfolio-api-openapi.yml
+  format: yaml
+  label: Arkham Portfolio API
+  slug: arkham-portfolio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-portfolio-api-openapi.yml
+- filename: arkham-risk-api-openapi.yml
+  format: yaml
+  label: Arkham Risk API
+  slug: arkham-risk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-risk-api-openapi.yml
+- filename: arkham-subscription-api-openapi.yml
+  format: yaml
+  label: Arkham Subscription API
+  slug: arkham-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-subscription-api-openapi.yml
+- filename: arkham-swaps-api-openapi.yml
+  format: yaml
+  label: Arkham Swaps API
+  slug: arkham-swaps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-swaps-api-openapi.yml
+- filename: arkham-tag-api-openapi.yml
+  format: yaml
+  label: Arkham Tag API
+  slug: arkham-tag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-tag-api-openapi.yml
+- filename: arkham-token-api-openapi.yml
+  format: yaml
+  label: Arkham Token API
+  slug: arkham-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-token-api-openapi.yml
+- filename: arkham-transfers-api-openapi.yml
+  format: yaml
+  label: Arkham Transfers API
+  slug: arkham-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-transfers-api-openapi.yml
+- filename: arkham-tx-api-openapi.yml
+  format: yaml
+  label: Arkham Tx API
+  slug: arkham-tx-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-tx-api-openapi.yml
+- filename: arkham-user-api-openapi.yml
+  format: yaml
+  label: Arkham User API
+  slug: arkham-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-user-api-openapi.yml
+- filename: arkham-volume-api-openapi.yml
+  format: yaml
+  label: Arkham Volume API
+  slug: arkham-volume-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-volume-api-openapi.yml
+- filename: arkham-ws-api-openapi.yml
+  format: yaml
+  label: Arkham Ws API
+  slug: arkham-ws-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-ws-api-openapi.yml
 description: ''
 domains:
 - caa: []

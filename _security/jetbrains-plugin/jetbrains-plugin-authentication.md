@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: jetbrains-plugin-openapi.yml
+- filename: jetbrains-plugin-plugins-api-openapi.yml
   format: yaml
-  label: JetBrains Marketplace API
-  slug: marketplace-api
+  label: JetBrains Marketplace Plugins API
+  slug: jetbrains-plugin-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jetbrains-plugin/refs/heads/main/openapi/jetbrains-plugin-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jetbrains-plugin/refs/heads/main/openapi/jetbrains-plugin-plugins-api-openapi.yml
+- filename: jetbrains-plugin-updates-api-openapi.yml
+  format: yaml
+  label: JetBrains Marketplace Updates API
+  slug: jetbrains-plugin-updates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jetbrains-plugin/refs/heads/main/openapi/jetbrains-plugin-updates-api-openapi.yml
 auth_types:
 - http
 description: ''

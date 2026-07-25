@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: quickwit-cluster-api-openapi.yml
   format: yaml
-  label: Quickwit REST API
-  slug: quickwit-rest-api
+  label: Quickwit Cluster API
+  slug: quickwit-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quickwit/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quickwit/refs/heads/main/openapi/quickwit-cluster-api-openapi.yml
+- filename: quickwit-delete-tasks-api-openapi.yml
+  format: yaml
+  label: Quickwit Delete Tasks API
+  slug: quickwit-delete-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quickwit/refs/heads/main/openapi/quickwit-delete-tasks-api-openapi.yml
+- filename: quickwit-index-templates-api-openapi.yml
+  format: yaml
+  label: Quickwit Index Templates API
+  slug: quickwit-index-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quickwit/refs/heads/main/openapi/quickwit-index-templates-api-openapi.yml
+- filename: quickwit-indexes-api-openapi.yml
+  format: yaml
+  label: Quickwit Indexes API
+  slug: quickwit-indexes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quickwit/refs/heads/main/openapi/quickwit-indexes-api-openapi.yml
+- filename: quickwit-ingest-api-openapi.yml
+  format: yaml
+  label: Quickwit Ingest API
+  slug: quickwit-ingest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quickwit/refs/heads/main/openapi/quickwit-ingest-api-openapi.yml
+- filename: quickwit-search-api-openapi.yml
+  format: yaml
+  label: Quickwit Search API
+  slug: quickwit-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quickwit/refs/heads/main/openapi/quickwit-search-api-openapi.yml
+- filename: quickwit-sources-api-openapi.yml
+  format: yaml
+  label: Quickwit Sources API
+  slug: quickwit-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quickwit/refs/heads/main/openapi/quickwit-sources-api-openapi.yml
 description: ''
 domains:
 - caa: []

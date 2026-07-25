@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: verdaccio-npm-registry-api-openapi.yml
+- filename: verdaccio-dist-tags-api-openapi.yml
   format: yaml
-  label: Verdaccio npm Registry API
-  slug: verdaccio-npm-registry-api
+  label: Verdaccio dist-tags API
+  slug: verdaccio-dist-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-npm-registry-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-dist-tags-api-openapi.yml
+- filename: verdaccio-packages-api-openapi.yml
+  format: yaml
+  label: Verdaccio packages API
+  slug: verdaccio-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-packages-api-openapi.yml
+- filename: verdaccio-profile-api-openapi.yml
+  format: yaml
+  label: Verdaccio profile API
+  slug: verdaccio-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-profile-api-openapi.yml
+- filename: verdaccio-publish-api-openapi.yml
+  format: yaml
+  label: Verdaccio publish API
+  slug: verdaccio-publish-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-publish-api-openapi.yml
+- filename: verdaccio-search-api-openapi.yml
+  format: yaml
+  label: Verdaccio search API
+  slug: verdaccio-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-search-api-openapi.yml
+- filename: verdaccio-tokens-api-openapi.yml
+  format: yaml
+  label: Verdaccio tokens API
+  slug: verdaccio-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-tokens-api-openapi.yml
+- filename: verdaccio-user-api-openapi.yml
+  format: yaml
+  label: Verdaccio user API
+  slug: verdaccio-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-user-api-openapi.yml
+- filename: verdaccio-utility-api-openapi.yml
+  format: yaml
+  label: Verdaccio utility API
+  slug: verdaccio-utility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-utility-api-openapi.yml
 description: ''
 domains:
 - caa:

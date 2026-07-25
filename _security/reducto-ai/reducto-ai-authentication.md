@@ -1,66 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: reducto-parse-api-openapi.yml
+- filename: reducto-ai-classify-api-openapi.yml
   format: yaml
-  label: Reducto Parse API
-  slug: reducto-parse-api
+  label: reducto-ai Classify API
+  slug: reducto-ai-classify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/openapi/reducto-parse-api-openapi.yml
-- filename: reducto-extract-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/openapi/reducto-ai-classify-api-openapi.yml
+- filename: reducto-ai-edit-api-openapi.yml
   format: yaml
-  label: Reducto Extract API
-  slug: reducto-extract-api
+  label: reducto-ai Edit API
+  slug: reducto-ai-edit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/openapi/reducto-extract-api-openapi.yml
-- filename: reducto-split-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/openapi/reducto-ai-edit-api-openapi.yml
+- filename: reducto-ai-extract-api-openapi.yml
   format: yaml
-  label: Reducto Split API
-  slug: reducto-split-api
+  label: reducto-ai Extract API
+  slug: reducto-ai-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/openapi/reducto-split-api-openapi.yml
-- filename: reducto-edit-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/openapi/reducto-ai-extract-api-openapi.yml
+- filename: reducto-ai-jobs-api-openapi.yml
   format: yaml
-  label: Reducto Edit API
-  slug: reducto-edit-api
+  label: reducto-ai Jobs API
+  slug: reducto-ai-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/openapi/reducto-edit-api-openapi.yml
-- filename: reducto-pipeline-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/openapi/reducto-ai-jobs-api-openapi.yml
+- filename: reducto-ai-parse-api-openapi.yml
   format: yaml
-  label: Reducto Pipeline API
-  slug: reducto-pipeline-api
+  label: reducto-ai Parse API
+  slug: reducto-ai-parse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/openapi/reducto-pipeline-api-openapi.yml
-- filename: reducto-classify-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/openapi/reducto-ai-parse-api-openapi.yml
+- filename: reducto-ai-pipeline-api-openapi.yml
   format: yaml
-  label: Reducto Classify API
-  slug: reducto-classify-api
+  label: reducto-ai Pipeline API
+  slug: reducto-ai-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/openapi/reducto-classify-api-openapi.yml
-- filename: reducto-jobs-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/openapi/reducto-ai-pipeline-api-openapi.yml
+- filename: reducto-ai-platform-api-openapi.yml
   format: yaml
-  label: Reducto Jobs API
-  slug: reducto-jobs-api
+  label: reducto-ai Platform API
+  slug: reducto-ai-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/openapi/reducto-jobs-api-openapi.yml
-- filename: reducto-upload-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/openapi/reducto-ai-platform-api-openapi.yml
+- filename: reducto-ai-split-api-openapi.yml
   format: yaml
-  label: Reducto Upload API
-  slug: reducto-upload-api
+  label: reducto-ai Split API
+  slug: reducto-ai-split-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/openapi/reducto-upload-api-openapi.yml
-- filename: reducto-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/openapi/reducto-ai-split-api-openapi.yml
+- filename: reducto-ai-upload-api-openapi.yml
   format: yaml
-  label: Reducto Webhooks API
-  slug: reducto-webhooks-api
+  label: reducto-ai Upload API
+  slug: reducto-ai-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/openapi/reducto-webhooks-api-openapi.yml
-- filename: reducto-platform-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/openapi/reducto-ai-upload-api-openapi.yml
+- filename: reducto-ai-webhooks-api-openapi.yml
   format: yaml
-  label: Reducto Platform API
-  slug: reducto-platform-api
+  label: reducto-ai Webhooks API
+  slug: reducto-ai-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/openapi/reducto-platform-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/openapi/reducto-ai-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

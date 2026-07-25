@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Chuck Norris API
-  slug: chuck-norris-api
+- filename: chuck-norris-jokes-api-openapi.yml
+  format: yaml
+  label: Chuck Norris API jokes API
+  slug: chuck-norris-jokes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chuck-norris/refs/heads/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/chuck-norris/refs/heads/main/openapi/chuck-norris-jokes-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: oanda-pricing-api-openapi.yml
+  format: yaml
+  label: OANDA Pricing API
+  slug: oanda-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/openapi/oanda-pricing-api-openapi.yml
+- filename: oanda-accounts-api-openapi.yml
+  format: yaml
+  label: OANDA Accounts API
+  slug: oanda-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/openapi/oanda-accounts-api-openapi.yml
+- filename: oanda-instruments-api-openapi.yml
+  format: yaml
+  label: OANDA Instruments API
+  slug: oanda-instruments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/openapi/oanda-instruments-api-openapi.yml
+- filename: oanda-pricing-api-openapi.yml
+  format: yaml
+  label: OANDA Pricing API
+  slug: oanda-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/openapi/oanda-pricing-api-openapi.yml
+- filename: oanda-users-api-openapi.yml
+  format: yaml
+  label: OANDA Users API
+  slug: oanda-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/openapi/oanda-users-api-openapi.yml
 description: ''
 domains:
 - caa:

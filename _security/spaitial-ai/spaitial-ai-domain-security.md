@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: spaitial-ai-developer-api-openapi.json
-  format: json
-  label: SpAItial Developer API
-  slug: spaitial-developer-api
+- filename: spaitial-ai-files-api-openapi.yml
+  format: yaml
+  label: SpAItial files API
+  slug: spaitial-ai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/openapi/spaitial-ai-developer-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/openapi/spaitial-ai-files-api-openapi.yml
+- filename: spaitial-ai-models-api-openapi.yml
+  format: yaml
+  label: SpAItial models API
+  slug: spaitial-ai-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/openapi/spaitial-ai-models-api-openapi.yml
+- filename: spaitial-ai-panoramas-api-openapi.yml
+  format: yaml
+  label: SpAItial panoramas API
+  slug: spaitial-ai-panoramas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/openapi/spaitial-ai-panoramas-api-openapi.yml
+- filename: spaitial-ai-worlds-api-openapi.yml
+  format: yaml
+  label: SpAItial worlds API
+  slug: spaitial-ai-worlds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/openapi/spaitial-ai-worlds-api-openapi.yml
 description: ''
 domains:
 - caa: []

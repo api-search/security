@@ -1,4 +1,65 @@
 ---
+api_specs:
+- filename: oracle-apex-autorest-api-openapi.yml
+  format: yaml
+  label: Oracle APEX AutoREST API
+  slug: oracle-apex-autorest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-autorest-api-openapi.yml
+- filename: oracle-apex-handlers-api-openapi.yml
+  format: yaml
+  label: Oracle APEX Handlers API
+  slug: oracle-apex-handlers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-handlers-api-openapi.yml
+- filename: oracle-apex-modules-api-openapi.yml
+  format: yaml
+  label: Oracle APEX Modules API
+  slug: oracle-apex-modules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-modules-api-openapi.yml
+- filename: oracle-apex-oauth-clients-api-openapi.yml
+  format: yaml
+  label: Oracle APEX OAuth Clients API
+  slug: oracle-apex-oauth-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-oauth-clients-api-openapi.yml
+- filename: oracle-apex-overview-api-openapi.yml
+  format: yaml
+  label: Oracle APEX Overview API
+  slug: oracle-apex-overview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-overview-api-openapi.yml
+- filename: oracle-apex-parameters-api-openapi.yml
+  format: yaml
+  label: Oracle APEX Parameters API
+  slug: oracle-apex-parameters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-parameters-api-openapi.yml
+- filename: oracle-apex-privileges-api-openapi.yml
+  format: yaml
+  label: Oracle APEX Privileges API
+  slug: oracle-apex-privileges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-privileges-api-openapi.yml
+- filename: oracle-apex-properties-api-openapi.yml
+  format: yaml
+  label: Oracle APEX Properties API
+  slug: oracle-apex-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-properties-api-openapi.yml
+- filename: oracle-apex-roles-api-openapi.yml
+  format: yaml
+  label: Oracle APEX Roles API
+  slug: oracle-apex-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-roles-api-openapi.yml
+- filename: oracle-apex-templates-api-openapi.yml
+  format: yaml
+  label: Oracle APEX Templates API
+  slug: oracle-apex-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-templates-api-openapi.yml
 description: ''
 domains:
 - caa:

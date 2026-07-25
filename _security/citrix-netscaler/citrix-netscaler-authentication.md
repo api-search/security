@@ -3,12 +3,42 @@ api_key_in:
 - cookie
 - header
 api_specs:
-- filename: citrix-netscaler-nitro-openapi.yml
+- filename: citrix-netscaler-authentication-api-openapi.yml
   format: yaml
-  label: Citrix ADC (NetScaler) NITRO API
-  slug: citrix-adc-netscaler-nitro-api
+  label: Citrix NetScaler Authentication API
+  slug: citrix-netscaler-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix-netscaler/refs/heads/main/openapi/citrix-netscaler-nitro-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/citrix-netscaler/refs/heads/main/openapi/citrix-netscaler-authentication-api-openapi.yml
+- filename: citrix-netscaler-cs-virtual-server-api-openapi.yml
+  format: yaml
+  label: Citrix NetScaler CS Virtual Server API
+  slug: citrix-netscaler-cs-virtual-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix-netscaler/refs/heads/main/openapi/citrix-netscaler-cs-virtual-server-api-openapi.yml
+- filename: citrix-netscaler-lb-virtual-server-api-openapi.yml
+  format: yaml
+  label: Citrix NetScaler LB Virtual Server API
+  slug: citrix-netscaler-lb-virtual-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix-netscaler/refs/heads/main/openapi/citrix-netscaler-lb-virtual-server-api-openapi.yml
+- filename: citrix-netscaler-ns-config-api-openapi.yml
+  format: yaml
+  label: Citrix NetScaler NS Config API
+  slug: citrix-netscaler-ns-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix-netscaler/refs/heads/main/openapi/citrix-netscaler-ns-config-api-openapi.yml
+- filename: citrix-netscaler-statistics-api-openapi.yml
+  format: yaml
+  label: Citrix NetScaler Statistics API
+  slug: citrix-netscaler-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix-netscaler/refs/heads/main/openapi/citrix-netscaler-statistics-api-openapi.yml
+- filename: citrix-netscaler-system-api-openapi.yml
+  format: yaml
+  label: Citrix NetScaler System API
+  slug: citrix-netscaler-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix-netscaler/refs/heads/main/openapi/citrix-netscaler-system-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

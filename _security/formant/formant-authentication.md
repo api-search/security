@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: formant-admin-api.yaml
+- filename: formant-authentication-api-openapi.yml
   format: yaml
-  label: Formant Admin API
-  slug: formant-admin-api
+  label: Formant Authentication API
+  slug: formant-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formant/refs/heads/main/openapi/formant-admin-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/formant/refs/heads/main/openapi/formant-authentication-api-openapi.yml
+- filename: formant-commands-api-openapi.yml
+  format: yaml
+  label: Formant Commands API
+  slug: formant-commands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formant/refs/heads/main/openapi/formant-commands-api-openapi.yml
+- filename: formant-data-access-api-openapi.yml
+  format: yaml
+  label: Formant Data Access API
+  slug: formant-data-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formant/refs/heads/main/openapi/formant-data-access-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: nansen-openapi.yml
+- filename: nansen-smart-money-api-openapi.yml
   format: yaml
-  label: Nansen REST API
-  slug: rest-api
+  label: Nansen Smart Money API
+  slug: nansen-smart-money-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nansen/refs/heads/main/openapi/nansen-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nansen/refs/heads/main/openapi/nansen-smart-money-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

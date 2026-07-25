@@ -6,6 +6,42 @@ api_specs:
   slug: dream-machine
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/luma-ai/refs/heads/main/asyncapi/luma-ai-callback-asyncapi.yml
+- filename: luma-ai-concepts-api-openapi.yml
+  format: yaml
+  label: Luma AI Concepts API
+  slug: luma-ai-concepts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma-ai/refs/heads/main/openapi/luma-ai-concepts-api-openapi.yml
+- filename: luma-ai-credits-api-openapi.yml
+  format: yaml
+  label: Luma AI Credits API
+  slug: luma-ai-credits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma-ai/refs/heads/main/openapi/luma-ai-credits-api-openapi.yml
+- filename: luma-ai-generations-api-openapi.yml
+  format: yaml
+  label: Luma AI Generations API
+  slug: luma-ai-generations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma-ai/refs/heads/main/openapi/luma-ai-generations-api-openapi.yml
+- filename: luma-ai-image-api-openapi.yml
+  format: yaml
+  label: Luma AI Image API
+  slug: luma-ai-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma-ai/refs/heads/main/openapi/luma-ai-image-api-openapi.yml
+- filename: luma-ai-system-api-openapi.yml
+  format: yaml
+  label: Luma AI System API
+  slug: luma-ai-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma-ai/refs/heads/main/openapi/luma-ai-system-api-openapi.yml
+- filename: luma-ai-video-api-openapi.yml
+  format: yaml
+  label: Luma AI Video API
+  slug: luma-ai-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma-ai/refs/heads/main/openapi/luma-ai-video-api-openapi.yml
 description: ''
 domains:
 - caa: []

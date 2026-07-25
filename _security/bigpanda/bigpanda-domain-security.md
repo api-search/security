@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: bigpanda-openapi.yml
+- filename: bigpanda-alerts-api-openapi.yml
   format: yaml
-  label: BigPanda
-  slug: bigpanda
+  label: BigPanda Alerts API
+  slug: bigpanda-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-alerts-api-openapi.yml
+- filename: bigpanda-audit-api-openapi.yml
+  format: yaml
+  label: BigPanda Audit API
+  slug: bigpanda-audit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-audit-api-openapi.yml
+- filename: bigpanda-changes-api-openapi.yml
+  format: yaml
+  label: BigPanda Changes API
+  slug: bigpanda-changes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-changes-api-openapi.yml
+- filename: bigpanda-environments-api-openapi.yml
+  format: yaml
+  label: BigPanda Environments API
+  slug: bigpanda-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-environments-api-openapi.yml
+- filename: bigpanda-incidents-api-openapi.yml
+  format: yaml
+  label: BigPanda Incidents API
+  slug: bigpanda-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-incidents-api-openapi.yml
+- filename: bigpanda-maintenance-plans-api-openapi.yml
+  format: yaml
+  label: BigPanda Maintenance Plans API
+  slug: bigpanda-maintenance-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-maintenance-plans-api-openapi.yml
 description: ''
 domains:
 - caa:

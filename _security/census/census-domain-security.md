@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: census-openapi.yml
+- filename: census-destinations-api-openapi.yml
   format: yaml
-  label: Census Activations REST API
-  slug: census-activations-api
+  label: Census Destinations API
+  slug: census-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/census/refs/heads/main/openapi/census-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/census/refs/heads/main/openapi/census-destinations-api-openapi.yml
+- filename: census-models-api-openapi.yml
+  format: yaml
+  label: Census Models API
+  slug: census-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/census/refs/heads/main/openapi/census-models-api-openapi.yml
+- filename: census-segments-api-openapi.yml
+  format: yaml
+  label: Census Segments API
+  slug: census-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/census/refs/heads/main/openapi/census-segments-api-openapi.yml
+- filename: census-sources-api-openapi.yml
+  format: yaml
+  label: Census Sources API
+  slug: census-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/census/refs/heads/main/openapi/census-sources-api-openapi.yml
+- filename: census-syncruns-api-openapi.yml
+  format: yaml
+  label: Census SyncRuns API
+  slug: census-syncruns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/census/refs/heads/main/openapi/census-syncruns-api-openapi.yml
+- filename: census-syncs-api-openapi.yml
+  format: yaml
+  label: Census Syncs API
+  slug: census-syncs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/census/refs/heads/main/openapi/census-syncs-api-openapi.yml
+- filename: census-workspaces-api-openapi.yml
+  format: yaml
+  label: Census Workspaces API
+  slug: census-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/census/refs/heads/main/openapi/census-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []

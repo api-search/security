@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: rill-data-admin-openapi.yaml
+- filename: rill-data-orgs-api-openapi.yml
   format: yaml
-  label: Rill Admin API
-  slug: rill-admin-api
+  label: Rill Data Orgs API
+  slug: rill-data-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/openapi/rill-data-admin-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/openapi/rill-data-orgs-api-openapi.yml
 description: ''
 domains:
 - caa: []

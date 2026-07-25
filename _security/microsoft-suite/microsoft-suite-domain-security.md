@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: openapi
+- filename: microsoft-suite-calendar-api-openapi.yml
   format: yaml
-  label: Microsoft Graph API
-  slug: microsoft-graph-api
+  label: Microsoft Suite Calendar API
+  slug: microsoft-suite-calendar-api
   spec_type: OpenAPI
-  url: https://developer.microsoft.com/graph/openapi
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-suite/refs/heads/main/openapi/microsoft-suite-calendar-api-openapi.yml
+- filename: microsoft-suite-files-api-openapi.yml
+  format: yaml
+  label: Microsoft Suite Files API
+  slug: microsoft-suite-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-suite/refs/heads/main/openapi/microsoft-suite-files-api-openapi.yml
+- filename: microsoft-suite-groups-api-openapi.yml
+  format: yaml
+  label: Microsoft Suite Groups API
+  slug: microsoft-suite-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-suite/refs/heads/main/openapi/microsoft-suite-groups-api-openapi.yml
+- filename: microsoft-suite-mail-api-openapi.yml
+  format: yaml
+  label: Microsoft Suite Mail API
+  slug: microsoft-suite-mail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-suite/refs/heads/main/openapi/microsoft-suite-mail-api-openapi.yml
+- filename: microsoft-suite-subscriptions-api-openapi.yml
+  format: yaml
+  label: Microsoft Suite Subscriptions API
+  slug: microsoft-suite-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-suite/refs/heads/main/openapi/microsoft-suite-subscriptions-api-openapi.yml
+- filename: microsoft-suite-teams-api-openapi.yml
+  format: yaml
+  label: Microsoft Suite Teams API
+  slug: microsoft-suite-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-suite/refs/heads/main/openapi/microsoft-suite-teams-api-openapi.yml
+- filename: microsoft-suite-users-api-openapi.yml
+  format: yaml
+  label: Microsoft Suite Users API
+  slug: microsoft-suite-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-suite/refs/heads/main/openapi/microsoft-suite-users-api-openapi.yml
 description: ''
 domains:
 - caa:

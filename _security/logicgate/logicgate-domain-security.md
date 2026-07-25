@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: logicgate-risk-cloud-openapi-original.json
-  format: json
-  label: Risk Cloud API v2
-  slug: risk-cloud-api-v2
+- filename: logicgate-access-audit-api-openapi.yml
+  format: yaml
+  label: LogicGate Access Audit API
+  slug: logicgate-access-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-risk-cloud-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-access-audit-api-openapi.yml
+- filename: logicgate-application-api-openapi.yml
+  format: yaml
+  label: LogicGate Application API
+  slug: logicgate-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-application-api-openapi.yml
+- filename: logicgate-authentication-api-openapi.yml
+  format: yaml
+  label: LogicGate Authentication API
+  slug: logicgate-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-authentication-api-openapi.yml
+- filename: logicgate-edge-path-api-openapi.yml
+  format: yaml
+  label: LogicGate Edge Path API
+  slug: logicgate-edge-path-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-edge-path-api-openapi.yml
+- filename: logicgate-field-api-openapi.yml
+  format: yaml
+  label: LogicGate Field API
+  slug: logicgate-field-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-field-api-openapi.yml
+- filename: logicgate-next-path-api-openapi.yml
+  format: yaml
+  label: LogicGate Next Path API
+  slug: logicgate-next-path-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-next-path-api-openapi.yml
+- filename: logicgate-record-api-openapi.yml
+  format: yaml
+  label: LogicGate Record API
+  slug: logicgate-record-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-record-api-openapi.yml
+- filename: logicgate-redirect-path-api-openapi.yml
+  format: yaml
+  label: LogicGate Redirect Path API
+  slug: logicgate-redirect-path-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-redirect-path-api-openapi.yml
+- filename: logicgate-step-api-openapi.yml
+  format: yaml
+  label: LogicGate Step API
+  slug: logicgate-step-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-step-api-openapi.yml
+- filename: logicgate-workflow-api-openapi.yml
+  format: yaml
+  label: LogicGate Workflow API
+  slug: logicgate-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-workflow-api-openapi.yml
+- filename: logicgate-workflow-map-api-openapi.yml
+  format: yaml
+  label: LogicGate Workflow Map API
+  slug: logicgate-workflow-map-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-workflow-map-api-openapi.yml
 description: ''
 domains:
 - caa: []

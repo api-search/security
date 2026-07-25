@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: suger-openapi.yml
+- filename: suger-api-api-openapi.yml
   format: yaml
-  label: Suger API
-  slug: suger
+  label: Suger API API
+  slug: suger-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-api-api-openapi.yml
+- filename: suger-billing-api-openapi.yml
+  format: yaml
+  label: Suger Billing API
+  slug: suger-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-billing-api-openapi.yml
+- filename: suger-buyer-api-openapi.yml
+  format: yaml
+  label: Suger Buyer API
+  slug: suger-buyer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-buyer-api-openapi.yml
+- filename: suger-contact-api-openapi.yml
+  format: yaml
+  label: Suger Contact API
+  slug: suger-contact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-contact-api-openapi.yml
+- filename: suger-entitlement-api-openapi.yml
+  format: yaml
+  label: Suger Entitlement API
+  slug: suger-entitlement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-entitlement-api-openapi.yml
+- filename: suger-metering-api-openapi.yml
+  format: yaml
+  label: Suger Metering API
+  slug: suger-metering-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-metering-api-openapi.yml
+- filename: suger-notification-api-openapi.yml
+  format: yaml
+  label: Suger Notification API
+  slug: suger-notification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-notification-api-openapi.yml
+- filename: suger-offer-api-openapi.yml
+  format: yaml
+  label: Suger Offer API
+  slug: suger-offer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-offer-api-openapi.yml
+- filename: suger-product-api-openapi.yml
+  format: yaml
+  label: Suger Product API
+  slug: suger-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-product-api-openapi.yml
+- filename: suger-report-api-openapi.yml
+  format: yaml
+  label: Suger Report API
+  slug: suger-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-report-api-openapi.yml
+- filename: suger-support-api-openapi.yml
+  format: yaml
+  label: Suger Support API
+  slug: suger-support-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-support-api-openapi.yml
 description: ''
 domains:
 - caa: []

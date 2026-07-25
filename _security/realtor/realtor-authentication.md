@@ -14,12 +14,30 @@ api_specs:
   slug: lead-delivery-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/realtor/refs/heads/main/asyncapi/realtor-lead-delivery-asyncapi.yml
-- filename: realtor-property-data-openapi.yml
+- filename: realtor-agents-api-openapi.yml
   format: yaml
-  label: Realtor.com Property Data API
-  slug: property-data-api
+  label: realtor Agents API
+  slug: realtor-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realtor/refs/heads/main/openapi/realtor-property-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/realtor/refs/heads/main/openapi/realtor-agents-api-openapi.yml
+- filename: realtor-finance-api-openapi.yml
+  format: yaml
+  label: realtor Finance API
+  slug: realtor-finance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/realtor/refs/heads/main/openapi/realtor-finance-api-openapi.yml
+- filename: realtor-locations-api-openapi.yml
+  format: yaml
+  label: realtor Locations API
+  slug: realtor-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/realtor/refs/heads/main/openapi/realtor-locations-api-openapi.yml
+- filename: realtor-properties-api-openapi.yml
+  format: yaml
+  label: realtor Properties API
+  slug: realtor-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/realtor/refs/heads/main/openapi/realtor-properties-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: awattar-market-data-api-openapi.yml
   format: yaml
   label: aWATTar Market Data API
   slug: awattar-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/awattar/refs/heads/main/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/awattar/refs/heads/main/openapi/awattar-market-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

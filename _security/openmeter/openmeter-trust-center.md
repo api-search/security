@@ -1,59 +1,65 @@
 ---
 api_specs:
-- filename: openmeter-openapi.yml
+- filename: openmeter-billing-api-openapi.yml
   format: yaml
-  label: OpenMeter Events Ingestion API
-  slug: openmeter-events-ingestion-api
+  label: OpenMeter Billing API
+  slug: openmeter-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-openapi.yml
-- filename: openmeter-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-billing-api-openapi.yml
+- filename: openmeter-customers-api-openapi.yml
   format: yaml
-  label: OpenMeter Meters API
-  slug: openmeter-meters-api
+  label: OpenMeter Customers API
+  slug: openmeter-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-openapi.yml
-- filename: openmeter-openapi.yml
-  format: yaml
-  label: OpenMeter Usage Query API
-  slug: openmeter-usage-query-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-openapi.yml
-- filename: openmeter-openapi.yml
-  format: yaml
-  label: OpenMeter Subjects API
-  slug: openmeter-subjects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-openapi.yml
-- filename: openmeter-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-customers-api-openapi.yml
+- filename: openmeter-entitlements-api-openapi.yml
   format: yaml
   label: OpenMeter Entitlements API
   slug: openmeter-entitlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-openapi.yml
-- filename: openmeter-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-entitlements-api-openapi.yml
+- filename: openmeter-events-api-openapi.yml
+  format: yaml
+  label: OpenMeter Events API
+  slug: openmeter-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-events-api-openapi.yml
+- filename: openmeter-features-api-openapi.yml
   format: yaml
   label: OpenMeter Features API
   slug: openmeter-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-openapi.yml
-- filename: openmeter-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-features-api-openapi.yml
+- filename: openmeter-grants-api-openapi.yml
   format: yaml
   label: OpenMeter Grants API
   slug: openmeter-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-openapi.yml
-- filename: openmeter-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-grants-api-openapi.yml
+- filename: openmeter-meters-api-openapi.yml
+  format: yaml
+  label: OpenMeter Meters API
+  slug: openmeter-meters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-meters-api-openapi.yml
+- filename: openmeter-notifications-api-openapi.yml
   format: yaml
   label: OpenMeter Notifications API
   slug: openmeter-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-openapi.yml
-- filename: openmeter-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-notifications-api-openapi.yml
+- filename: openmeter-plans-api-openapi.yml
   format: yaml
-  label: OpenMeter Billing and Plans API
-  slug: openmeter-billing-plans-api
+  label: OpenMeter Plans API
+  slug: openmeter-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-plans-api-openapi.yml
+- filename: openmeter-subjects-api-openapi.yml
+  format: yaml
+  label: OpenMeter Subjects API
+  slug: openmeter-subjects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-subjects-api-openapi.yml
 certifications:
 - SOC 2
 description: ''

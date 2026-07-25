@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: qualio-openapi.json
-  format: json
-  label: Qualio Developer API
-  slug: qualio-developer-api
+- filename: qualio-audit-trail-api-openapi.yml
+  format: yaml
+  label: Qualio Audit Trail API
+  slug: qualio-audit-trail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-audit-trail-api-openapi.yml
+- filename: qualio-change-management-api-openapi.yml
+  format: yaml
+  label: Qualio Change Management API
+  slug: qualio-change-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-change-management-api-openapi.yml
+- filename: qualio-compliance-intelligence-api-openapi.yml
+  format: yaml
+  label: Qualio Compliance Intelligence API
+  slug: qualio-compliance-intelligence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-compliance-intelligence-api-openapi.yml
+- filename: qualio-design-controls-api-openapi.yml
+  format: yaml
+  label: Qualio Design Controls API
+  slug: qualio-design-controls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-design-controls-api-openapi.yml
+- filename: qualio-documents-api-openapi.yml
+  format: yaml
+  label: Qualio Documents API
+  slug: qualio-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-documents-api-openapi.yml
+- filename: qualio-events-api-openapi.yml
+  format: yaml
+  label: Qualio Events API
+  slug: qualio-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-events-api-openapi.yml
+- filename: qualio-resource-library-api-openapi.yml
+  format: yaml
+  label: Qualio Resource Library API
+  slug: qualio-resource-library-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-resource-library-api-openapi.yml
+- filename: qualio-suppliers-api-openapi.yml
+  format: yaml
+  label: Qualio Suppliers API
+  slug: qualio-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-suppliers-api-openapi.yml
+- filename: qualio-tags-api-openapi.yml
+  format: yaml
+  label: Qualio Tags API
+  slug: qualio-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-tags-api-openapi.yml
+- filename: qualio-training-api-openapi.yml
+  format: yaml
+  label: Qualio Training API
+  slug: qualio-training-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-training-api-openapi.yml
+- filename: qualio-user-management-api-openapi.yml
+  format: yaml
+  label: Qualio User Management API
+  slug: qualio-user-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-user-management-api-openapi.yml
 certifications:
 - ISO 9001
 - ISO 27001

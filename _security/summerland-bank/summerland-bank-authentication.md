@@ -1,36 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: summerland-bank-cds-banking-products-openapi.yml
+- filename: summerland-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Summerland Bank CDR Product Reference Data API
-  slug: summerland-bank-cdr-product-reference-data-api
+  label: Summerland Bank Banking Account Balances API
+  slug: summerland-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-cds-banking-products-openapi.yml
-- filename: summerland-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-banking-account-balances-api-openapi.yml
+- filename: summerland-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Summerland Bank CDR Accounts & Balances API
-  slug: summerland-bank-cdr-accounts-balances-api
+  label: Summerland Bank Banking Account Direct Debits API
+  slug: summerland-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-cds-banking-products-openapi.yml
-- filename: summerland-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-banking-account-direct-debits-api-openapi.yml
+- filename: summerland-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Summerland Bank CDR Transactions API
-  slug: summerland-bank-cdr-transactions-api
+  label: Summerland Bank Banking Account Scheduled Payments API
+  slug: summerland-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-cds-banking-products-openapi.yml
-- filename: summerland-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: summerland-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Summerland Bank CDR Direct Debits & Scheduled Payments API
-  slug: summerland-bank-cdr-direct-debits-scheduled-payments-api
+  label: Summerland Bank Banking Account Transactions API
+  slug: summerland-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-cds-banking-products-openapi.yml
-- filename: summerland-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-banking-account-transactions-api-openapi.yml
+- filename: summerland-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: Summerland Bank CDR Payees API
-  slug: summerland-bank-cdr-payees-api
+  label: Summerland Bank Banking Accounts API
+  slug: summerland-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-banking-accounts-api-openapi.yml
+- filename: summerland-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: Summerland Bank Banking Payees API
+  slug: summerland-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-banking-payees-api-openapi.yml
+- filename: summerland-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: Summerland Bank Banking Products API
+  slug: summerland-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2

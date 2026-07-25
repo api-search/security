@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: codesandbox-sdk-openapi.yml
+- filename: codesandbox-meta-api-openapi.yml
   format: yaml
-  label: CodeSandbox SDK API
-  slug: sdk
+  label: CodeSandbox meta API
+  slug: codesandbox-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-sdk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-meta-api-openapi.yml
+- filename: codesandbox-preview-host-api-openapi.yml
+  format: yaml
+  label: CodeSandbox preview_host API
+  slug: codesandbox-preview-host-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-preview-host-api-openapi.yml
+- filename: codesandbox-preview-token-api-openapi.yml
+  format: yaml
+  label: CodeSandbox preview_token API
+  slug: codesandbox-preview-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-preview-token-api-openapi.yml
+- filename: codesandbox-sandbox-api-openapi.yml
+  format: yaml
+  label: CodeSandbox sandbox API
+  slug: codesandbox-sandbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-sandbox-api-openapi.yml
+- filename: codesandbox-templates-api-openapi.yml
+  format: yaml
+  label: CodeSandbox templates API
+  slug: codesandbox-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-templates-api-openapi.yml
+- filename: codesandbox-token-api-openapi.yml
+  format: yaml
+  label: CodeSandbox token API
+  slug: codesandbox-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-token-api-openapi.yml
+- filename: codesandbox-vm-api-openapi.yml
+  format: yaml
+  label: CodeSandbox vm API
+  slug: codesandbox-vm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-vm-api-openapi.yml
+- filename: codesandbox-workspace-api-openapi.yml
+  format: yaml
+  label: CodeSandbox workspace API
+  slug: codesandbox-workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-workspace-api-openapi.yml
 description: ''
 domains:
 - caa: []

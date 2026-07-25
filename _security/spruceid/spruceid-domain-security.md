@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: spruceid-credentials-api-openapi.yml
   format: yaml
-  label: SpruceID DIDKit HTTP API
-  slug: spruceid-didkit-http-api
+  label: SpruceID Credentials API
+  slug: spruceid-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/spruceid/didkit-http/main/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/spruceid/refs/heads/main/openapi/spruceid-credentials-api-openapi.yml
+- filename: spruceid-health-api-openapi.yml
+  format: yaml
+  label: SpruceID Health API
+  slug: spruceid-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spruceid/refs/heads/main/openapi/spruceid-health-api-openapi.yml
+- filename: spruceid-identifiers-api-openapi.yml
+  format: yaml
+  label: SpruceID Identifiers API
+  slug: spruceid-identifiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spruceid/refs/heads/main/openapi/spruceid-identifiers-api-openapi.yml
+- filename: spruceid-presentations-api-openapi.yml
+  format: yaml
+  label: SpruceID Presentations API
+  slug: spruceid-presentations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spruceid/refs/heads/main/openapi/spruceid-presentations-api-openapi.yml
+- filename: spruceid-status-api-openapi.yml
+  format: yaml
+  label: SpruceID Status API
+  slug: spruceid-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spruceid/refs/heads/main/openapi/spruceid-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

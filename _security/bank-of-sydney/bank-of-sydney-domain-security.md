@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: bank-of-sydney-cds-banking-products-openapi.yml
+- filename: bank-of-sydney-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Bank of Sydney CDR Product Reference Data API
-  slug: bank-of-sydney-cdr-product-reference-data-api
+  label: Bank of Sydney Banking Account Balances API
+  slug: bank-of-sydney-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-cds-banking-products-openapi.yml
-- filename: bank-of-sydney-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-banking-account-balances-api-openapi.yml
+- filename: bank-of-sydney-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Bank of Sydney CDR Accounts & Balances API
-  slug: bank-of-sydney-cdr-accounts-balances-api
+  label: Bank of Sydney Banking Account Direct Debits API
+  slug: bank-of-sydney-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-cds-banking-products-openapi.yml
-- filename: bank-of-sydney-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-banking-account-direct-debits-api-openapi.yml
+- filename: bank-of-sydney-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Bank of Sydney CDR Transactions API
-  slug: bank-of-sydney-cdr-transactions-api
+  label: Bank of Sydney Banking Account Scheduled Payments API
+  slug: bank-of-sydney-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-cds-banking-products-openapi.yml
-- filename: bank-of-sydney-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-banking-account-scheduled-payments-api-openapi.yml
+- filename: bank-of-sydney-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Bank of Sydney CDR Direct Debits & Scheduled Payments API
-  slug: bank-of-sydney-cdr-direct-debits-scheduled-payments-api
+  label: Bank of Sydney Banking Account Transactions API
+  slug: bank-of-sydney-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-cds-banking-products-openapi.yml
-- filename: bank-of-sydney-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-banking-account-transactions-api-openapi.yml
+- filename: bank-of-sydney-banking-accounts-api-openapi.yml
   format: yaml
-  label: Bank of Sydney CDR Payees API
-  slug: bank-of-sydney-cdr-payees-api
+  label: Bank of Sydney Banking Accounts API
+  slug: bank-of-sydney-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-banking-accounts-api-openapi.yml
+- filename: bank-of-sydney-banking-payees-api-openapi.yml
+  format: yaml
+  label: Bank of Sydney Banking Payees API
+  slug: bank-of-sydney-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-banking-payees-api-openapi.yml
+- filename: bank-of-sydney-banking-products-api-openapi.yml
+  format: yaml
+  label: Bank of Sydney Banking Products API
+  slug: bank-of-sydney-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

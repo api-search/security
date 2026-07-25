@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: sense-sense-client-api-openapi.yml
+- filename: sense-authentication-api-openapi.yml
   format: yaml
-  label: Sense Client API
-  slug: sense-client-api
+  label: Sense Authentication API
+  slug: sense-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/openapi/sense-sense-client-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/openapi/sense-authentication-api-openapi.yml
+- filename: sense-devices-api-openapi.yml
+  format: yaml
+  label: Sense Devices API
+  slug: sense-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/openapi/sense-devices-api-openapi.yml
+- filename: sense-history-api-openapi.yml
+  format: yaml
+  label: Sense History API
+  slug: sense-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/openapi/sense-history-api-openapi.yml
+- filename: sense-monitors-api-openapi.yml
+  format: yaml
+  label: Sense Monitors API
+  slug: sense-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/openapi/sense-monitors-api-openapi.yml
+- filename: sense-users-api-openapi.yml
+  format: yaml
+  label: Sense Users API
+  slug: sense-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/openapi/sense-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

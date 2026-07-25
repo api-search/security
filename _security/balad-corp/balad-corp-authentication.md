@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: balad-corp-gateway-openapi.yml
+- filename: balad-corp-apis-authentication-api-openapi.yml
   format: yaml
-  label: Balad Gateway API
-  slug: balad-gateway-api
+  label: BALAD CORP APIs/Authentication API
+  slug: balad-corp-apis-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/balad-corp/refs/heads/main/openapi/balad-corp-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/balad-corp/refs/heads/main/openapi/balad-corp-apis-authentication-api-openapi.yml
+- filename: balad-corp-apis-core-balance-api-openapi.yml
+  format: yaml
+  label: BALAD CORP APIs/Core/Balance API
+  slug: balad-corp-apis-core-balance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/balad-corp/refs/heads/main/openapi/balad-corp-apis-core-balance-api-openapi.yml
+- filename: balad-corp-apis-core-exchange-rate-api-openapi.yml
+  format: yaml
+  label: BALAD CORP APIs/Core/Exchange rate API
+  slug: balad-corp-apis-core-exchange-rate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/balad-corp/refs/heads/main/openapi/balad-corp-apis-core-exchange-rate-api-openapi.yml
+- filename: balad-corp-apis-core-secrets-api-openapi.yml
+  format: yaml
+  label: BALAD CORP APIs/Core/Secrets API
+  slug: balad-corp-apis-core-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/balad-corp/refs/heads/main/openapi/balad-corp-apis-core-secrets-api-openapi.yml
+- filename: balad-corp-apis-link-lookups-api-openapi.yml
+  format: yaml
+  label: BALAD CORP APIs/Link/Lookups API
+  slug: balad-corp-apis-link-lookups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/balad-corp/refs/heads/main/openapi/balad-corp-apis-link-lookups-api-openapi.yml
+- filename: balad-corp-apis-link-reconciliation-api-openapi.yml
+  format: yaml
+  label: BALAD CORP APIs/Link/Reconciliation API
+  slug: balad-corp-apis-link-reconciliation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/balad-corp/refs/heads/main/openapi/balad-corp-apis-link-reconciliation-api-openapi.yml
+- filename: balad-corp-apis-link-transactions-api-openapi.yml
+  format: yaml
+  label: BALAD CORP APIs/Link/Transactions API
+  slug: balad-corp-apis-link-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/balad-corp/refs/heads/main/openapi/balad-corp-apis-link-transactions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

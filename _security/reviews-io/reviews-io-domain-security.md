@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: reviews-io-openapi.yml
-  format: yaml
-  label: REVIEWS.io Invitations / Collect API
-  slug: invitations-collect
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-openapi.yml
-- filename: reviews-io-openapi.yml
-  format: yaml
-  label: REVIEWS.io Product Reviews API
-  slug: product-reviews
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-openapi.yml
-- filename: reviews-io-openapi.yml
+- filename: reviews-io-company-reviews-api-openapi.yml
   format: yaml
   label: REVIEWS.io Company Reviews API
-  slug: company-reviews
+  slug: reviews-io-company-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-openapi.yml
-- filename: reviews-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-company-reviews-api-openapi.yml
+- filename: reviews-io-invitations-api-openapi.yml
   format: yaml
-  label: REVIEWS.io Ratings / Widgets API
-  slug: ratings-widgets
+  label: REVIEWS.io Invitations API
+  slug: reviews-io-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-openapi.yml
-- filename: reviews-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-invitations-api-openapi.yml
+- filename: reviews-io-product-reviews-api-openapi.yml
+  format: yaml
+  label: REVIEWS.io Product Reviews API
+  slug: reviews-io-product-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-product-reviews-api-openapi.yml
+- filename: reviews-io-questions-api-openapi.yml
   format: yaml
   label: REVIEWS.io Questions API
-  slug: questions
+  slug: reviews-io-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-openapi.yml
-- filename: reviews-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-questions-api-openapi.yml
+- filename: reviews-io-ratings-api-openapi.yml
+  format: yaml
+  label: REVIEWS.io Ratings API
+  slug: reviews-io-ratings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-ratings-api-openapi.yml
+- filename: reviews-io-webhooks-api-openapi.yml
   format: yaml
   label: REVIEWS.io Webhooks API
-  slug: webhooks
+  slug: reviews-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

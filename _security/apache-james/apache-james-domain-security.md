@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: apache-james-webadmin-rest-api.yaml
+- filename: apache-james-domains-api-openapi.yml
   format: yaml
-  label: Apache James WebAdmin REST API
-  slug: webadmin-rest-api
+  label: Apache James Domains API
+  slug: apache-james-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/openapi/apache-james-webadmin-rest-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/openapi/apache-james-domains-api-openapi.yml
+- filename: apache-james-healthcheck-api-openapi.yml
+  format: yaml
+  label: Apache James HealthCheck API
+  slug: apache-james-healthcheck-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/openapi/apache-james-healthcheck-api-openapi.yml
+- filename: apache-james-mailboxes-api-openapi.yml
+  format: yaml
+  label: Apache James Mailboxes API
+  slug: apache-james-mailboxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/openapi/apache-james-mailboxes-api-openapi.yml
+- filename: apache-james-mailqueues-api-openapi.yml
+  format: yaml
+  label: Apache James MailQueues API
+  slug: apache-james-mailqueues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/openapi/apache-james-mailqueues-api-openapi.yml
+- filename: apache-james-mailrepositories-api-openapi.yml
+  format: yaml
+  label: Apache James MailRepositories API
+  slug: apache-james-mailrepositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/openapi/apache-james-mailrepositories-api-openapi.yml
+- filename: apache-james-quotas-api-openapi.yml
+  format: yaml
+  label: Apache James Quotas API
+  slug: apache-james-quotas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/openapi/apache-james-quotas-api-openapi.yml
+- filename: apache-james-tasks-api-openapi.yml
+  format: yaml
+  label: Apache James Tasks API
+  slug: apache-james-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/openapi/apache-james-tasks-api-openapi.yml
+- filename: apache-james-users-api-openapi.yml
+  format: yaml
+  label: Apache James Users API
+  slug: apache-james-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/openapi/apache-james-users-api-openapi.yml
 description: ''
 domains:
 - caa:

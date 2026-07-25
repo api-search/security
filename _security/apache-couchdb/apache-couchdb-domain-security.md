@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: apache-couchdb-http-api-openapi.yaml
+- filename: apache-couchdb-authentication-api-openapi.yml
   format: yaml
-  label: Apache CouchDB HTTP API
-  slug: apache-couchdb-http-api
+  label: Apache CouchDB Authentication API
+  slug: apache-couchdb-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/openapi/apache-couchdb-http-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/openapi/apache-couchdb-authentication-api-openapi.yml
+- filename: apache-couchdb-changes-api-openapi.yml
+  format: yaml
+  label: Apache CouchDB Changes API
+  slug: apache-couchdb-changes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/openapi/apache-couchdb-changes-api-openapi.yml
+- filename: apache-couchdb-cluster-api-openapi.yml
+  format: yaml
+  label: Apache CouchDB Cluster API
+  slug: apache-couchdb-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/openapi/apache-couchdb-cluster-api-openapi.yml
+- filename: apache-couchdb-database-api-openapi.yml
+  format: yaml
+  label: Apache CouchDB Database API
+  slug: apache-couchdb-database-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/openapi/apache-couchdb-database-api-openapi.yml
+- filename: apache-couchdb-design-documents-api-openapi.yml
+  format: yaml
+  label: Apache CouchDB Design Documents API
+  slug: apache-couchdb-design-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/openapi/apache-couchdb-design-documents-api-openapi.yml
+- filename: apache-couchdb-documents-api-openapi.yml
+  format: yaml
+  label: Apache CouchDB Documents API
+  slug: apache-couchdb-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/openapi/apache-couchdb-documents-api-openapi.yml
+- filename: apache-couchdb-mango-api-openapi.yml
+  format: yaml
+  label: Apache CouchDB Mango API
+  slug: apache-couchdb-mango-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/openapi/apache-couchdb-mango-api-openapi.yml
+- filename: apache-couchdb-replication-api-openapi.yml
+  format: yaml
+  label: Apache CouchDB Replication API
+  slug: apache-couchdb-replication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/openapi/apache-couchdb-replication-api-openapi.yml
+- filename: apache-couchdb-server-api-openapi.yml
+  format: yaml
+  label: Apache CouchDB Server API
+  slug: apache-couchdb-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/openapi/apache-couchdb-server-api-openapi.yml
 description: ''
 domains:
 - caa:

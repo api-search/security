@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: gradle-develocity-openapi.yaml
+- filename: gradle-auth-api-openapi.yml
   format: yaml
-  label: Develocity API
-  slug: develocity-api
+  label: Gradle Auth API
+  slug: gradle-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/openapi/gradle-develocity-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/openapi/gradle-auth-api-openapi.yml
+- filename: gradle-buildcache-api-openapi.yml
+  format: yaml
+  label: Gradle BuildCache API
+  slug: gradle-buildcache-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/openapi/gradle-buildcache-api-openapi.yml
+- filename: gradle-builds-api-openapi.yml
+  format: yaml
+  label: Gradle Builds API
+  slug: gradle-builds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/openapi/gradle-builds-api-openapi.yml
+- filename: gradle-comparison-api-openapi.yml
+  format: yaml
+  label: Gradle Comparison API
+  slug: gradle-comparison-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/openapi/gradle-comparison-api-openapi.yml
+- filename: gradle-develocity-api-openapi.yml
+  format: yaml
+  label: Gradle Develocity API
+  slug: gradle-develocity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/openapi/gradle-develocity-api-openapi.yml
+- filename: gradle-failures-api-openapi.yml
+  format: yaml
+  label: Gradle Failures API
+  slug: gradle-failures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/openapi/gradle-failures-api-openapi.yml
+- filename: gradle-gradleenterprise-api-openapi.yml
+  format: yaml
+  label: Gradle GradleEnterprise API
+  slug: gradle-gradleenterprise-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/openapi/gradle-gradleenterprise-api-openapi.yml
+- filename: gradle-meta-api-openapi.yml
+  format: yaml
+  label: Gradle Meta API
+  slug: gradle-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/openapi/gradle-meta-api-openapi.yml
+- filename: gradle-projects-api-openapi.yml
+  format: yaml
+  label: Gradle Projects API
+  slug: gradle-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/openapi/gradle-projects-api-openapi.yml
+- filename: gradle-testdistribution-api-openapi.yml
+  format: yaml
+  label: Gradle TestDistribution API
+  slug: gradle-testdistribution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/openapi/gradle-testdistribution-api-openapi.yml
+- filename: gradle-tests-api-openapi.yml
+  format: yaml
+  label: Gradle Tests API
+  slug: gradle-tests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/openapi/gradle-tests-api-openapi.yml
 certifications:
 - SOC 2 Type 1
 - SOC 2 Type 2

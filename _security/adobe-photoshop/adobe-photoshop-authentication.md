@@ -2,12 +2,66 @@
 api_key_in:
 - header
 api_specs:
-- filename: adobe-photoshop-api-openapi-original.yml
+- filename: adobe-photoshop-actions-api-openapi.yml
   format: yaml
-  label: Adobe Photoshop API
-  slug: photoshop-api
+  label: Adobe Photoshop Actions API
+  slug: adobe-photoshop-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/openapi/adobe-photoshop-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/openapi/adobe-photoshop-actions-api-openapi.yml
+- filename: adobe-photoshop-background-removal-api-openapi.yml
+  format: yaml
+  label: Adobe Photoshop Background Removal API
+  slug: adobe-photoshop-background-removal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/openapi/adobe-photoshop-background-removal-api-openapi.yml
+- filename: adobe-photoshop-crop-and-effects-api-openapi.yml
+  format: yaml
+  label: Adobe Photoshop Crop and Effects API
+  slug: adobe-photoshop-crop-and-effects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/openapi/adobe-photoshop-crop-and-effects-api-openapi.yml
+- filename: adobe-photoshop-document-operations-api-openapi.yml
+  format: yaml
+  label: Adobe Photoshop Document Operations API
+  slug: adobe-photoshop-document-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/openapi/adobe-photoshop-document-operations-api-openapi.yml
+- filename: adobe-photoshop-generative-api-openapi.yml
+  format: yaml
+  label: Adobe Photoshop Generative API
+  slug: adobe-photoshop-generative-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/openapi/adobe-photoshop-generative-api-openapi.yml
+- filename: adobe-photoshop-health-api-openapi.yml
+  format: yaml
+  label: Adobe Photoshop Health API
+  slug: adobe-photoshop-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/openapi/adobe-photoshop-health-api-openapi.yml
+- filename: adobe-photoshop-renditions-api-openapi.yml
+  format: yaml
+  label: Adobe Photoshop Renditions API
+  slug: adobe-photoshop-renditions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/openapi/adobe-photoshop-renditions-api-openapi.yml
+- filename: adobe-photoshop-smart-objects-api-openapi.yml
+  format: yaml
+  label: Adobe Photoshop Smart Objects API
+  slug: adobe-photoshop-smart-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/openapi/adobe-photoshop-smart-objects-api-openapi.yml
+- filename: adobe-photoshop-status-api-openapi.yml
+  format: yaml
+  label: Adobe Photoshop Status API
+  slug: adobe-photoshop-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/openapi/adobe-photoshop-status-api-openapi.yml
+- filename: adobe-photoshop-text-api-openapi.yml
+  format: yaml
+  label: Adobe Photoshop Text API
+  slug: adobe-photoshop-text-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/openapi/adobe-photoshop-text-api-openapi.yml
 auth_types:
 - apiKey
 - http

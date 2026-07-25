@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: lalal-ai-api-openapi.yml
+- filename: lalal-ai-batch-stem-separation-api-openapi.yml
   format: yaml
-  label: LALAL.AI API
-  slug: lalal-ai-api
+  label: LALAL.AI Batch Stem Separation API
+  slug: lalal-ai-batch-stem-separation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/openapi/lalal-ai-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/openapi/lalal-ai-batch-stem-separation-api-openapi.yml
+- filename: lalal-ai-common-api-openapi.yml
+  format: yaml
+  label: LALAL.AI Common API
+  slug: lalal-ai-common-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/openapi/lalal-ai-common-api-openapi.yml
+- filename: lalal-ai-stem-separation-api-openapi.yml
+  format: yaml
+  label: LALAL.AI Stem Separation API
+  slug: lalal-ai-stem-separation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/openapi/lalal-ai-stem-separation-api-openapi.yml
+- filename: lalal-ai-voice-change-api-openapi.yml
+  format: yaml
+  label: LALAL.AI Voice Change API
+  slug: lalal-ai-voice-change-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/openapi/lalal-ai-voice-change-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

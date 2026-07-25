@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: jupyterlab-server-rest-api-openapi.yml
+- filename: jupyterlab-licenses-api-openapi.yml
   format: yaml
-  label: JupyterLab Server REST API
-  slug: jupyterlab-server-rest-api
+  label: JupyterLab Licenses API
+  slug: jupyterlab-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-server-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-licenses-api-openapi.yml
+- filename: jupyterlab-listings-api-openapi.yml
+  format: yaml
+  label: JupyterLab Listings API
+  slug: jupyterlab-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-listings-api-openapi.yml
+- filename: jupyterlab-settings-api-openapi.yml
+  format: yaml
+  label: JupyterLab Settings API
+  slug: jupyterlab-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-settings-api-openapi.yml
+- filename: jupyterlab-themes-api-openapi.yml
+  format: yaml
+  label: JupyterLab Themes API
+  slug: jupyterlab-themes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-themes-api-openapi.yml
+- filename: jupyterlab-translations-api-openapi.yml
+  format: yaml
+  label: JupyterLab Translations API
+  slug: jupyterlab-translations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-translations-api-openapi.yml
+- filename: jupyterlab-workspaces-api-openapi.yml
+  format: yaml
+  label: JupyterLab Workspaces API
+  slug: jupyterlab-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-workspaces-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

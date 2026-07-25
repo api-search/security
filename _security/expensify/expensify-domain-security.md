@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: expensify-openapi.yml
+- filename: expensify-integrations-api-openapi.yml
   format: yaml
-  label: Expensify Integration Server API
-  slug: integration-server
+  label: Expensify Integrations API
+  slug: expensify-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expensify/refs/heads/main/openapi/expensify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/expensify/refs/heads/main/openapi/expensify-integrations-api-openapi.yml
 description: ''
 domains:
 - caa:

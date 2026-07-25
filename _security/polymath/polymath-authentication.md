@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: polymath-synapse-v2-openapi-original.json
-  format: json
-  label: Polymath Synapse API
-  slug: polymath-synapse-api
+- filename: polymath-canbus-api-openapi.yml
+  format: yaml
+  label: Polymath Robotics CANBus API
+  slug: polymath-canbus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-synapse-v2-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-canbus-api-openapi.yml
+- filename: polymath-filesystem-api-openapi.yml
+  format: yaml
+  label: Polymath Robotics filesystem API
+  slug: polymath-filesystem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-filesystem-api-openapi.yml
+- filename: polymath-health-check-api-openapi.yml
+  format: yaml
+  label: Polymath Robotics Health Check API
+  slug: polymath-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-health-check-api-openapi.yml
+- filename: polymath-livekit-api-openapi.yml
+  format: yaml
+  label: Polymath Robotics Livekit API
+  slug: polymath-livekit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-livekit-api-openapi.yml
+- filename: polymath-media-api-openapi.yml
+  format: yaml
+  label: Polymath Robotics Media API
+  slug: polymath-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-media-api-openapi.yml
+- filename: polymath-ros-api-openapi.yml
+  format: yaml
+  label: Polymath Robotics ros API
+  slug: polymath-ros-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-ros-api-openapi.yml
+- filename: polymath-systemd-api-openapi.yml
+  format: yaml
+  label: Polymath Robotics systemd API
+  slug: polymath-systemd-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-systemd-api-openapi.yml
+- filename: polymath-teleop-control-api-openapi.yml
+  format: yaml
+  label: Polymath Robotics Teleop Control API
+  slug: polymath-teleop-control-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-teleop-control-api-openapi.yml
+- filename: polymath-vehicle-autonomy-api-openapi.yml
+  format: yaml
+  label: Polymath Robotics Vehicle Autonomy API
+  slug: polymath-vehicle-autonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-vehicle-autonomy-api-openapi.yml
+- filename: polymath-vehicle-operations-api-openapi.yml
+  format: yaml
+  label: Polymath Robotics Vehicle Operations API
+  slug: polymath-vehicle-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-vehicle-operations-api-openapi.yml
 auth_types:
 - oauth2
 - http

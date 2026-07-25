@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: contalink-openapi-original.json
-  format: json
-  label: Contalink API
-  slug: contalink-api
+- filename: contalink-balanza-de-comprobaci-n-api-openapi.yml
+  format: yaml
+  label: Contalink Balanza de comprobación API
+  slug: contalink-balanza-de-comprobaci-n-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-balanza-de-comprobaci-n-api-openapi.yml
+- filename: contalink-cargar-un-documento-fiscal-api-openapi.yml
+  format: yaml
+  label: Contalink Cargar un documento fiscal API
+  slug: contalink-cargar-un-documento-fiscal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-cargar-un-documento-fiscal-api-openapi.yml
+- filename: contalink-conciliaci-n-api-openapi.yml
+  format: yaml
+  label: Contalink Conciliación API
+  slug: contalink-conciliaci-n-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-conciliaci-n-api-openapi.yml
+- filename: contalink-listado-de-documentos-fiscales-api-openapi.yml
+  format: yaml
+  label: Contalink Listado de documentos fiscales API
+  slug: contalink-listado-de-documentos-fiscales-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-listado-de-documentos-fiscales-api-openapi.yml
+- filename: contalink-movimientos-bancarios-api-openapi.yml
+  format: yaml
+  label: Contalink Movimientos bancarios API
+  slug: contalink-movimientos-bancarios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-movimientos-bancarios-api-openapi.yml
+- filename: contalink-p-lizas-manuales-api-openapi.yml
+  format: yaml
+  label: Contalink Pólizas manuales API
+  slug: contalink-p-lizas-manuales-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-p-lizas-manuales-api-openapi.yml
+- filename: contalink-saldo-de-una-cuenta-api-openapi.yml
+  format: yaml
+  label: Contalink Saldo de una cuenta API
+  slug: contalink-saldo-de-una-cuenta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-saldo-de-una-cuenta-api-openapi.yml
+- filename: contalink-status-de-documentos-fiscales-api-openapi.yml
+  format: yaml
+  label: Contalink Status de documentos fiscales API
+  slug: contalink-status-de-documentos-fiscales-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-status-de-documentos-fiscales-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,12 +2,12 @@
 api_key_in:
 - query
 api_specs:
-- filename: serpwow-openapi.yml
+- filename: serpwow-search-api-openapi.yml
   format: yaml
-  label: SerpWow
-  slug: serpwow
+  label: SerpWow Search API
+  slug: serpwow-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serpwow/refs/heads/main/openapi/serpwow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/serpwow/refs/heads/main/openapi/serpwow-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

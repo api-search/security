@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: charityapi-openapi.yml
+- filename: charityapi-autocomplete-api-openapi.yml
   format: yaml
-  label: CharityAPI
-  slug: charityapi
+  label: CharityAPI Autocomplete API
+  slug: charityapi-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/openapi/charityapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/openapi/charityapi-autocomplete-api-openapi.yml
+- filename: charityapi-organizations-api-openapi.yml
+  format: yaml
+  label: CharityAPI Organizations API
+  slug: charityapi-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/openapi/charityapi-organizations-api-openapi.yml
+- filename: charityapi-public-charity-check-api-openapi.yml
+  format: yaml
+  label: CharityAPI Public Charity Check API
+  slug: charityapi-public-charity-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/openapi/charityapi-public-charity-check-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

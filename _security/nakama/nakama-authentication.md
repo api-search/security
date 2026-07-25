@@ -1,54 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: nakama-openapi.yml
-  format: yaml
-  label: Nakama Authentication API
-  slug: nakama-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-openapi.yml
-- filename: nakama-openapi.yml
-  format: yaml
-  label: Nakama Account API
-  slug: nakama-account-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-openapi.yml
-- filename: nakama-openapi.yml
-  format: yaml
-  label: Nakama Friends and Groups API
-  slug: nakama-social-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-openapi.yml
-- filename: nakama-openapi.yml
-  format: yaml
-  label: Nakama Storage API
-  slug: nakama-storage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-openapi.yml
-- filename: nakama-openapi.yml
-  format: yaml
-  label: Nakama Leaderboards and Tournaments API
-  slug: nakama-leaderboards-tournaments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-openapi.yml
-- filename: nakama-openapi.yml
-  format: yaml
-  label: Nakama Notifications API
-  slug: nakama-notifications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-openapi.yml
-- filename: nakama-openapi.yml
-  format: yaml
-  label: Nakama RPC and Runtime API
-  slug: nakama-rpc-runtime-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-openapi.yml
 - filename: nakama-asyncapi.yml
   format: yaml
   label: Nakama Realtime Socket API
   slug: nakama-realtime-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/asyncapi/nakama-asyncapi.yml
+- filename: nakama-account-api-openapi.yml
+  format: yaml
+  label: Nakama Account API
+  slug: nakama-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-account-api-openapi.yml
+- filename: nakama-authentication-api-openapi.yml
+  format: yaml
+  label: Nakama Authentication API
+  slug: nakama-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-authentication-api-openapi.yml
+- filename: nakama-friends-api-openapi.yml
+  format: yaml
+  label: Nakama Friends API
+  slug: nakama-friends-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-friends-api-openapi.yml
+- filename: nakama-groups-api-openapi.yml
+  format: yaml
+  label: Nakama Groups API
+  slug: nakama-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-groups-api-openapi.yml
+- filename: nakama-leaderboards-api-openapi.yml
+  format: yaml
+  label: Nakama Leaderboards API
+  slug: nakama-leaderboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-leaderboards-api-openapi.yml
+- filename: nakama-notifications-api-openapi.yml
+  format: yaml
+  label: Nakama Notifications API
+  slug: nakama-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-notifications-api-openapi.yml
+- filename: nakama-rpc-api-openapi.yml
+  format: yaml
+  label: Nakama RPC API
+  slug: nakama-rpc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-rpc-api-openapi.yml
+- filename: nakama-storage-api-openapi.yml
+  format: yaml
+  label: Nakama Storage API
+  slug: nakama-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-storage-api-openapi.yml
+- filename: nakama-tournaments-api-openapi.yml
+  format: yaml
+  label: Nakama Tournaments API
+  slug: nakama-tournaments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-tournaments-api-openapi.yml
 auth_types:
 - http
 description: ''

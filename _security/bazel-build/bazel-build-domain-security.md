@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: bazel-central-registry-openapi.yml
+- filename: bazel-build-modules-api-openapi.yml
   format: yaml
-  label: Bazel Central Registry API
-  slug: bazel-central-registry-api
+  label: Bazel Modules API
+  slug: bazel-build-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/openapi/bazel-central-registry-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/openapi/bazel-build-modules-api-openapi.yml
+- filename: bazel-build-registry-api-openapi.yml
+  format: yaml
+  label: Bazel Registry API
+  slug: bazel-build-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/openapi/bazel-build-registry-api-openapi.yml
 description: ''
 domains:
 - caa:

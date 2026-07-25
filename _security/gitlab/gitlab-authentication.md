@@ -2,84 +2,102 @@
 api_key_in:
 - header
 api_specs:
-- filename: gitlab-api-v4-groups-openapi-original.yml
-  format: yaml
-  label: GitLab Groups API
-  slug: apiv4groups
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-api-v4-groups-openapi-original.yml
-- filename: gitlab-api-v4-projects-openapi-original.yml
-  format: yaml
-  label: GitLab Projects API
-  slug: apiv4projects
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-api-v4-projects-openapi-original.yml
-- filename: gitlab-api-v4-admin-openapi-original.yml
+- filename: gitlab-admin-api-openapi.yml
   format: yaml
   label: GitLab Admin API
-  slug: apiv4admin
+  slug: gitlab-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-api-v4-admin-openapi-original.yml
-- filename: gitlab-api-v4-applications-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-admin-api-openapi.yml
+- filename: gitlab-application-api-openapi.yml
+  format: yaml
+  label: GitLab Application API
+  slug: gitlab-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-application-api-openapi.yml
+- filename: gitlab-applications-api-openapi.yml
   format: yaml
   label: GitLab Applications API
-  slug: apiv4applications
+  slug: gitlab-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-api-v4-applications-openapi-original.yml
-- filename: gitlab-api-v4-avatar-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-applications-api-openapi.yml
+- filename: gitlab-authorization-api-openapi.yml
+  format: yaml
+  label: GitLab Authorization API
+  slug: gitlab-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-authorization-api-openapi.yml
+- filename: gitlab-avatar-api-openapi.yml
   format: yaml
   label: GitLab Avatar API
-  slug: apiv4avatar
+  slug: gitlab-avatar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-api-v4-avatar-openapi-original.yml
-- filename: gitlab-api-v4-broadcast-messages-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-avatar-api-openapi.yml
+- filename: gitlab-broadcast-messages-api-openapi.yml
   format: yaml
   label: GitLab Broadcast Messages API
-  slug: apiv4broadcast-messages
+  slug: gitlab-broadcast-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-api-v4-broadcast-messages-openapi-original.yml
-- filename: gitlab-api-v4-bulk-imports-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-broadcast-messages-api-openapi.yml
+- filename: gitlab-bulk-imports-api-openapi.yml
   format: yaml
   label: GitLab Bulk Imports API
-  slug: apiv4bulk-imports
+  slug: gitlab-bulk-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-api-v4-bulk-imports-openapi-original.yml
-- filename: gitlab-api-v4-application-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-bulk-imports-api-openapi.yml
+- filename: gitlab-groups-api-openapi.yml
   format: yaml
-  label: GitLab Application Settings API
-  slug: apiv4application
+  label: GitLab Groups API
+  slug: gitlab-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-api-v4-application-openapi-original.yml
-- filename: gitlab-api-v4-metadata-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-groups-api-openapi.yml
+- filename: gitlab-metadata-api-openapi.yml
   format: yaml
   label: GitLab Metadata API
-  slug: apiv4metadata
+  slug: gitlab-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-api-v4-metadata-openapi-original.yml
-- filename: gitlab-api-v4-version-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-metadata-api-openapi.yml
+- filename: gitlab-project-webhooks-api-openapi.yml
+  format: yaml
+  label: GitLab Project Webhooks API
+  slug: gitlab-project-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-project-webhooks-api-openapi.yml
+- filename: gitlab-projects-api-openapi.yml
+  format: yaml
+  label: GitLab Projects API
+  slug: gitlab-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-projects-api-openapi.yml
+- filename: gitlab-tokens-api-openapi.yml
+  format: yaml
+  label: GitLab Tokens API
+  slug: gitlab-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-tokens-api-openapi.yml
+- filename: gitlab-user-info-api-openapi.yml
+  format: yaml
+  label: GitLab User Info API
+  slug: gitlab-user-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-user-info-api-openapi.yml
+- filename: gitlab-version-api-openapi.yml
   format: yaml
   label: GitLab Version API
-  slug: apiv4version
+  slug: gitlab-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-api-v4-version-openapi-original.yml
-- filename: gitlab-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-version-api-openapi.yml
+- filename: gitlab-webhook-configuration-api-openapi.yml
   format: yaml
-  label: GitLab REST API
-  slug: gitlab-rest-api
+  label: GitLab Webhook Configuration API
+  slug: gitlab-webhook-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-openapi-original.yml
-- filename: gitlab-oauth2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-webhook-configuration-api-openapi.yml
+- filename: gitlab-webhook-events-api-openapi.yml
   format: yaml
-  label: GitLab OAuth 2.0 API
-  slug: gitlab-oauth2-api
+  label: GitLab Webhook Events API
+  slug: gitlab-webhook-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-oauth2-openapi.yml
-- filename: gitlab-webhooks-openapi.yml
-  format: yaml
-  label: GitLab Webhooks
-  slug: gitlab-webhooks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-webhooks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-webhook-events-api-openapi.yml
 auth_types:
 - apiKey
 - http

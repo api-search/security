@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: tenyks-openapi.json
-  format: json
-  label: Tenyks API
-  slug: tenyks-api
+- filename: tenyks-auth-api-openapi.yml
+  format: yaml
+  label: Tenyks Auth API
+  slug: tenyks-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/openapi/tenyks-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/openapi/tenyks-auth-api-openapi.yml
+- filename: tenyks-data-upload-api-openapi.yml
+  format: yaml
+  label: Tenyks Data Upload API
+  slug: tenyks-data-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/openapi/tenyks-data-upload-api-openapi.yml
+- filename: tenyks-datasets-api-openapi.yml
+  format: yaml
+  label: Tenyks Datasets API
+  slug: tenyks-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/openapi/tenyks-datasets-api-openapi.yml
 description: ''
 domains:
 - caa: []

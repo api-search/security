@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: nimble-openapi.yml
+- filename: nimble-contacts-api-openapi.yml
   format: yaml
-  label: Nimble REST API
-  slug: rest-api
+  label: Nimble Contacts API
+  slug: nimble-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/openapi/nimble-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/openapi/nimble-contacts-api-openapi.yml
+- filename: nimble-deals-api-openapi.yml
+  format: yaml
+  label: Nimble Deals API
+  slug: nimble-deals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/openapi/nimble-deals-api-openapi.yml
+- filename: nimble-fields-api-openapi.yml
+  format: yaml
+  label: Nimble Fields API
+  slug: nimble-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/openapi/nimble-fields-api-openapi.yml
+- filename: nimble-messages-api-openapi.yml
+  format: yaml
+  label: Nimble Messages API
+  slug: nimble-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/openapi/nimble-messages-api-openapi.yml
+- filename: nimble-notes-api-openapi.yml
+  format: yaml
+  label: Nimble Notes API
+  slug: nimble-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/openapi/nimble-notes-api-openapi.yml
+- filename: nimble-pipelines-api-openapi.yml
+  format: yaml
+  label: Nimble Pipelines API
+  slug: nimble-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/openapi/nimble-pipelines-api-openapi.yml
+- filename: nimble-users-api-openapi.yml
+  format: yaml
+  label: Nimble Users API
+  slug: nimble-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/openapi/nimble-users-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

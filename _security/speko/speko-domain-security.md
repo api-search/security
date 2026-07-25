@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: speko-openapi-original.json
-  format: json
-  label: Speko API
-  slug: speko-api
+- filename: speko-agents-api-openapi.yml
+  format: yaml
+  label: Speko Agents API
+  slug: speko-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/openapi/speko-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/openapi/speko-agents-api-openapi.yml
+- filename: speko-providers-api-openapi.yml
+  format: yaml
+  label: Speko Providers API
+  slug: speko-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/openapi/speko-providers-api-openapi.yml
+- filename: speko-telephony-api-openapi.yml
+  format: yaml
+  label: Speko Telephony API
+  slug: speko-telephony-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/openapi/speko-telephony-api-openapi.yml
+- filename: speko-voice-api-openapi.yml
+  format: yaml
+  label: Speko Voice API
+  slug: speko-voice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/openapi/speko-voice-api-openapi.yml
 description: ''
 domains:
 - caa: []

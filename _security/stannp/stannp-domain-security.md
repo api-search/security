@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: direct-mail-api
+- filename: stannp-account-api-openapi.yml
   format: yaml
-  label: Stannp Direct Mail API
-  slug: direct-mail-api
+  label: Stannp Account API
+  slug: stannp-account-api
   spec_type: OpenAPI
-  url: https://www.stannp.com/us/direct-mail-api
+  url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/openapi/stannp-account-api-openapi.yml
+- filename: stannp-campaigns-api-openapi.yml
+  format: yaml
+  label: Stannp Campaigns API
+  slug: stannp-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/openapi/stannp-campaigns-api-openapi.yml
+- filename: stannp-events-api-openapi.yml
+  format: yaml
+  label: Stannp Events API
+  slug: stannp-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/openapi/stannp-events-api-openapi.yml
+- filename: stannp-groups-api-openapi.yml
+  format: yaml
+  label: Stannp Groups API
+  slug: stannp-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/openapi/stannp-groups-api-openapi.yml
+- filename: stannp-letters-api-openapi.yml
+  format: yaml
+  label: Stannp Letters API
+  slug: stannp-letters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/openapi/stannp-letters-api-openapi.yml
+- filename: stannp-postcards-api-openapi.yml
+  format: yaml
+  label: Stannp Postcards API
+  slug: stannp-postcards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/openapi/stannp-postcards-api-openapi.yml
+- filename: stannp-recipients-api-openapi.yml
+  format: yaml
+  label: Stannp Recipients API
+  slug: stannp-recipients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/openapi/stannp-recipients-api-openapi.yml
 description: ''
 domains:
 - caa: []

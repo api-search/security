@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: sourceforge-allura-openapi.yml
+- filename: sourceforge-admin-api-openapi.yml
   format: yaml
-  label: SourceForge Allura API
-  slug: sourceforge-allura-api
+  label: SourceForge Admin API
+  slug: sourceforge-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sourceforge/refs/heads/main/openapi/sourceforge-allura-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sourceforge/refs/heads/main/openapi/sourceforge-admin-api-openapi.yml
+- filename: sourceforge-blog-api-openapi.yml
+  format: yaml
+  label: SourceForge Blog API
+  slug: sourceforge-blog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sourceforge/refs/heads/main/openapi/sourceforge-blog-api-openapi.yml
+- filename: sourceforge-discussion-api-openapi.yml
+  format: yaml
+  label: SourceForge Discussion API
+  slug: sourceforge-discussion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sourceforge/refs/heads/main/openapi/sourceforge-discussion-api-openapi.yml
+- filename: sourceforge-projects-api-openapi.yml
+  format: yaml
+  label: SourceForge Projects API
+  slug: sourceforge-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sourceforge/refs/heads/main/openapi/sourceforge-projects-api-openapi.yml
+- filename: sourceforge-tracker-api-openapi.yml
+  format: yaml
+  label: SourceForge Tracker API
+  slug: sourceforge-tracker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sourceforge/refs/heads/main/openapi/sourceforge-tracker-api-openapi.yml
+- filename: sourceforge-users-api-openapi.yml
+  format: yaml
+  label: SourceForge Users API
+  slug: sourceforge-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sourceforge/refs/heads/main/openapi/sourceforge-users-api-openapi.yml
+- filename: sourceforge-wikis-api-openapi.yml
+  format: yaml
+  label: SourceForge Wikis API
+  slug: sourceforge-wikis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sourceforge/refs/heads/main/openapi/sourceforge-wikis-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: aerospike-openapi.yml
+- filename: aerospike-cluster-api-openapi.yml
   format: yaml
-  label: Aerospike REST Gateway
-  slug: rest-gateway
+  label: Aerospike Cluster API
+  slug: aerospike-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerospike/refs/heads/main/openapi/aerospike-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aerospike/refs/heads/main/openapi/aerospike-cluster-api-openapi.yml
+- filename: aerospike-documentation-api-openapi.yml
+  format: yaml
+  label: Aerospike Documentation API
+  slug: aerospike-documentation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerospike/refs/heads/main/openapi/aerospike-documentation-api-openapi.yml
 description: ''
 domains:
 - caa: []

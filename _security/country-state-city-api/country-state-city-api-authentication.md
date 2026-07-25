@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: country-state-city-api-openapi.yml
+- filename: country-state-city-api-cities-api-openapi.yml
   format: yaml
-  label: Country State City API
-  slug: country-state-city-api
+  label: Country State City API Cities API
+  slug: country-state-city-api-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/openapi/country-state-city-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/openapi/country-state-city-api-cities-api-openapi.yml
+- filename: country-state-city-api-countries-api-openapi.yml
+  format: yaml
+  label: Country State City API Countries API
+  slug: country-state-city-api-countries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/openapi/country-state-city-api-countries-api-openapi.yml
+- filename: country-state-city-api-states-api-openapi.yml
+  format: yaml
+  label: Country State City API States API
+  slug: country-state-city-api-states-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/openapi/country-state-city-api-states-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

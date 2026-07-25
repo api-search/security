@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: cross-river-openapi.yml
+- filename: cross-river-accounts-api-openapi.yml
   format: yaml
   label: Cross River Accounts API
   slug: cross-river-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cross-river/refs/heads/main/openapi/cross-river-openapi.yml
-- filename: cross-river-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cross-river/refs/heads/main/openapi/cross-river-accounts-api-openapi.yml
+- filename: cross-river-ach-api-openapi.yml
   format: yaml
-  label: Cross River ACH Payments API
+  label: Cross River ACH API
   slug: cross-river-ach-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cross-river/refs/heads/main/openapi/cross-river-openapi.yml
-- filename: cross-river-openapi.yml
-  format: yaml
-  label: Cross River Wires API
-  slug: cross-river-wires-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cross-river/refs/heads/main/openapi/cross-river-openapi.yml
-- filename: cross-river-openapi.yml
-  format: yaml
-  label: Cross River Instant Payments API
-  slug: cross-river-instant-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cross-river/refs/heads/main/openapi/cross-river-openapi.yml
-- filename: cross-river-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cross-river/refs/heads/main/openapi/cross-river-ach-api-openapi.yml
+- filename: cross-river-cards-api-openapi.yml
   format: yaml
   label: Cross River Cards API
   slug: cross-river-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cross-river/refs/heads/main/openapi/cross-river-openapi.yml
-- filename: cross-river-openapi.yml
-  format: yaml
-  label: Cross River Lending API
-  slug: cross-river-lending-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cross-river/refs/heads/main/openapi/cross-river-openapi.yml
-- filename: cross-river-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cross-river/refs/heads/main/openapi/cross-river-cards-api-openapi.yml
+- filename: cross-river-customer-management-api-openapi.yml
   format: yaml
   label: Cross River Customer Management API
   slug: cross-river-customer-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cross-river/refs/heads/main/openapi/cross-river-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cross-river/refs/heads/main/openapi/cross-river-customer-management-api-openapi.yml
+- filename: cross-river-instant-payments-api-openapi.yml
+  format: yaml
+  label: Cross River Instant Payments API
+  slug: cross-river-instant-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cross-river/refs/heads/main/openapi/cross-river-instant-payments-api-openapi.yml
+- filename: cross-river-lending-api-openapi.yml
+  format: yaml
+  label: Cross River Lending API
+  slug: cross-river-lending-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cross-river/refs/heads/main/openapi/cross-river-lending-api-openapi.yml
+- filename: cross-river-wires-api-openapi.yml
+  format: yaml
+  label: Cross River Wires API
+  slug: cross-river-wires-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cross-river/refs/heads/main/openapi/cross-river-wires-api-openapi.yml
 description: ''
 domains:
 - caa: []

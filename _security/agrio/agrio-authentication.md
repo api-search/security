@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: agrio-openapi-original.yml
+- filename: agrio-balance-api-openapi.yml
   format: yaml
-  label: Agrio Agriculture API
-  slug: agrio
+  label: agrio Balance API
+  slug: agrio-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrio/refs/heads/main/openapi/agrio-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agrio/refs/heads/main/openapi/agrio-balance-api-openapi.yml
+- filename: agrio-credit-api-openapi.yml
+  format: yaml
+  label: agrio Credit API
+  slug: agrio-credit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agrio/refs/heads/main/openapi/agrio-credit-api-openapi.yml
+- filename: agrio-crops-api-openapi.yml
+  format: yaml
+  label: agrio Crops API
+  slug: agrio-crops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agrio/refs/heads/main/openapi/agrio-crops-api-openapi.yml
+- filename: agrio-diagnose-api-openapi.yml
+  format: yaml
+  label: agrio Diagnose API
+  slug: agrio-diagnose-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agrio/refs/heads/main/openapi/agrio-diagnose-api-openapi.yml
+- filename: agrio-diagnosis-api-openapi.yml
+  format: yaml
+  label: agrio Diagnosis API
+  slug: agrio-diagnosis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agrio/refs/heads/main/openapi/agrio-diagnosis-api-openapi.yml
 auth_types:
 - http
 description: ''

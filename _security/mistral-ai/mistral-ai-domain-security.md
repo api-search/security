@@ -1,53 +1,53 @@
 ---
 api_specs:
-- filename: mistral-ai-chat-completions-openapi.yml
-  format: yaml
-  label: Mistral AI Chat Completions API
-  slug: chat-completions
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral-ai/refs/heads/main/openapi/mistral-ai-chat-completions-openapi.yml
-- filename: mistral-ai-embeddings-openapi.yml
-  format: yaml
-  label: Mistral AI Embeddings API
-  slug: embeddings
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral-ai/refs/heads/main/openapi/mistral-ai-embeddings-openapi.yml
-- filename: mistral-ai-agents-openapi.yml
+- filename: mistral-ai-agents-api-openapi.yml
   format: yaml
   label: Mistral AI Agents API
-  slug: agents
+  slug: mistral-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral-ai/refs/heads/main/openapi/mistral-ai-agents-openapi.yml
-- filename: mistral-ai-fine-tuning-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mistral-ai/refs/heads/main/openapi/mistral-ai-agents-api-openapi.yml
+- filename: mistral-ai-batch-jobs-api-openapi.yml
   format: yaml
-  label: Mistral AI Fine-Tuning API
-  slug: fine-tuning
+  label: Mistral AI Batch Jobs API
+  slug: mistral-ai-batch-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral-ai/refs/heads/main/openapi/mistral-ai-fine-tuning-openapi.yml
-- filename: mistral-ai-ocr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mistral-ai/refs/heads/main/openapi/mistral-ai-batch-jobs-api-openapi.yml
+- filename: mistral-ai-chat-completions-api-openapi.yml
   format: yaml
-  label: Mistral AI OCR API
-  slug: ocr
+  label: Mistral AI Chat Completions API
+  slug: mistral-ai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral-ai/refs/heads/main/openapi/mistral-ai-ocr-openapi.yml
-- filename: mistral-ai-models-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mistral-ai/refs/heads/main/openapi/mistral-ai-chat-completions-api-openapi.yml
+- filename: mistral-ai-embeddings-api-openapi.yml
+  format: yaml
+  label: Mistral AI Embeddings API
+  slug: mistral-ai-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mistral-ai/refs/heads/main/openapi/mistral-ai-embeddings-api-openapi.yml
+- filename: mistral-ai-fine-tuning-jobs-api-openapi.yml
+  format: yaml
+  label: Mistral AI Fine-Tuning Jobs API
+  slug: mistral-ai-fine-tuning-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mistral-ai/refs/heads/main/openapi/mistral-ai-fine-tuning-jobs-api-openapi.yml
+- filename: mistral-ai-models-api-openapi.yml
   format: yaml
   label: Mistral AI Models API
-  slug: models
+  slug: mistral-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral-ai/refs/heads/main/openapi/mistral-ai-models-openapi.yml
-- filename: mistral-ai-forge-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mistral-ai/refs/heads/main/openapi/mistral-ai-models-api-openapi.yml
+- filename: mistral-ai-ocr-api-openapi.yml
   format: yaml
-  label: Mistral AI Forge API
-  slug: forge
+  label: Mistral AI OCR API
+  slug: mistral-ai-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral-ai/refs/heads/main/openapi/mistral-ai-forge-openapi.yml
-- filename: mistral-ai-batch-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mistral-ai/refs/heads/main/openapi/mistral-ai-ocr-api-openapi.yml
+- filename: mistral-ai-training-jobs-api-openapi.yml
   format: yaml
-  label: Mistral AI Batch API
-  slug: batch
+  label: Mistral AI Training Jobs API
+  slug: mistral-ai-training-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral-ai/refs/heads/main/openapi/mistral-ai-batch-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mistral-ai/refs/heads/main/openapi/mistral-ai-training-jobs-api-openapi.yml
 description: ''
 domains:
 - caa:

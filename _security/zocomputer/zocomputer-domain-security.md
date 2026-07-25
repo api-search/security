@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: zocomputer-ai-api-openapi.yml
+  format: yaml
+  label: Zocomputer AI API
+  slug: zocomputer-ai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zocomputer/refs/heads/main/openapi/zocomputer-ai-api-openapi.yml
+- filename: zocomputer-personas-api-openapi.yml
+  format: yaml
+  label: Zocomputer Personas API
+  slug: zocomputer-personas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zocomputer/refs/heads/main/openapi/zocomputer-personas-api-openapi.yml
 description: ''
 domains:
 - caa: []

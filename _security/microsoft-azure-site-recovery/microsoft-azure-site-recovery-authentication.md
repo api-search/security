@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: microsoft-azure-site-recovery-openapi.yml
+- filename: microsoft-azure-site-recovery-recoveryplans-api-openapi.yml
   format: yaml
-  label: Azure Site Recovery REST API
-  slug: rest-api
+  label: Azure Site Recovery RecoveryPlans API
+  slug: microsoft-azure-site-recovery-recoveryplans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-site-recovery/refs/heads/main/openapi/microsoft-azure-site-recovery-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-site-recovery/refs/heads/main/openapi/microsoft-azure-site-recovery-recoveryplans-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationprotecteditems-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery ReplicationProtectedItems API
+  slug: microsoft-azure-site-recovery-replicationprotecteditems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-site-recovery/refs/heads/main/openapi/microsoft-azure-site-recovery-replicationprotecteditems-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

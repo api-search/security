@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: demo-openapi-apis-api-openapi.yml
   format: yaml
-  label: APIs.io Search API
-  slug: apis-io-search-api
+  label: Manage OpenAPI via GitHub Demo APIs API
+  slug: demo-openapi-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demo-openapi/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/demo-openapi/refs/heads/main/openapi/demo-openapi-apis-api-openapi.yml
+- filename: demo-openapi-search-api-openapi.yml
+  format: yaml
+  label: Manage OpenAPI via GitHub Demo Search API
+  slug: demo-openapi-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demo-openapi/refs/heads/main/openapi/demo-openapi-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

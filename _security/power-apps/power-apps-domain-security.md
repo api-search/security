@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: power-apps-system-api-openapi.yml
   format: yaml
-  label: Power Apps REST API
-  slug: power-apps-rest-api
+  label: Microsoft Power Apps System API
+  slug: power-apps-system-api
   spec_type: OpenAPI
-  url: https://learn.microsoft.com/en-us/connectors/powerappsforappmakers/
-- filename: openapi
+  url: https://raw.githubusercontent.com/api-evangelist/power-apps/refs/heads/main/openapi/power-apps-system-api-openapi.yml
+- filename: power-apps-tables-api-openapi.yml
   format: yaml
-  label: Microsoft Dataverse Web API
-  slug: microsoft-dataverse-web-api
+  label: Microsoft Power Apps Tables API
+  slug: power-apps-tables-api
   spec_type: OpenAPI
-  url: https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/openapi
+  url: https://raw.githubusercontent.com/api-evangelist/power-apps/refs/heads/main/openapi/power-apps-tables-api-openapi.yml
 description: ''
 domains:
 - caa:

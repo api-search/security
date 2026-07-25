@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: zenscrape-openapi.yml
-  format: yaml
-  label: Zenscrape Scrape API
-  slug: zenscrape-scrape-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenscrape/refs/heads/main/openapi/zenscrape-openapi.yml
-- filename: zenscrape-openapi.yml
+- filename: zenscrape-account-api-openapi.yml
   format: yaml
   label: Zenscrape Account API
   slug: zenscrape-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenscrape/refs/heads/main/openapi/zenscrape-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zenscrape/refs/heads/main/openapi/zenscrape-account-api-openapi.yml
+- filename: zenscrape-scrape-api-openapi.yml
+  format: yaml
+  label: Zenscrape Scrape API
+  slug: zenscrape-scrape-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenscrape/refs/heads/main/openapi/zenscrape-scrape-api-openapi.yml
 description: ''
 domains:
 - caa: []

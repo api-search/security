@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: reachware-inc-reachpay-openapi.yml
+- filename: reachware-inc-cards-api-openapi.yml
   format: yaml
-  label: Reach Pay API
-  slug: reach-pay-api
+  label: Reachware Inc. Cards API
+  slug: reachware-inc-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/openapi/reachware-inc-reachpay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/openapi/reachware-inc-cards-api-openapi.yml
+- filename: reachware-inc-payments-api-openapi.yml
+  format: yaml
+  label: Reachware Inc. Payments API
+  slug: reachware-inc-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/openapi/reachware-inc-payments-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -2,12 +2,66 @@
 api_key_in:
 - header
 api_specs:
-- filename: free-law-project-openapi.yml
+- filename: free-law-project-alerts-api-openapi.yml
   format: yaml
-  label: Free Law Project API
-  slug: free-law-project
+  label: Free Law Project Alerts API
+  slug: free-law-project-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/openapi/free-law-project-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/openapi/free-law-project-alerts-api-openapi.yml
+- filename: free-law-project-case-law-api-openapi.yml
+  format: yaml
+  label: Free Law Project Case Law API
+  slug: free-law-project-case-law-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/openapi/free-law-project-case-law-api-openapi.yml
+- filename: free-law-project-citations-api-openapi.yml
+  format: yaml
+  label: Free Law Project Citations API
+  slug: free-law-project-citations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/openapi/free-law-project-citations-api-openapi.yml
+- filename: free-law-project-financial-disclosures-api-openapi.yml
+  format: yaml
+  label: Free Law Project Financial Disclosures API
+  slug: free-law-project-financial-disclosures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/openapi/free-law-project-financial-disclosures-api-openapi.yml
+- filename: free-law-project-judges-api-openapi.yml
+  format: yaml
+  label: Free Law Project Judges API
+  slug: free-law-project-judges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/openapi/free-law-project-judges-api-openapi.yml
+- filename: free-law-project-oral-arguments-api-openapi.yml
+  format: yaml
+  label: Free Law Project Oral Arguments API
+  slug: free-law-project-oral-arguments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/openapi/free-law-project-oral-arguments-api-openapi.yml
+- filename: free-law-project-pacer-api-openapi.yml
+  format: yaml
+  label: Free Law Project PACER API
+  slug: free-law-project-pacer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/openapi/free-law-project-pacer-api-openapi.yml
+- filename: free-law-project-recap-api-openapi.yml
+  format: yaml
+  label: Free Law Project RECAP API
+  slug: free-law-project-recap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/openapi/free-law-project-recap-api-openapi.yml
+- filename: free-law-project-search-api-openapi.yml
+  format: yaml
+  label: Free Law Project Search API
+  slug: free-law-project-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/openapi/free-law-project-search-api-openapi.yml
+- filename: free-law-project-tags-api-openapi.yml
+  format: yaml
+  label: Free Law Project Tags API
+  slug: free-law-project-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/openapi/free-law-project-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

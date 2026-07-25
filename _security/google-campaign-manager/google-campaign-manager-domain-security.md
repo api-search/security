@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: google-campaign-manager-openapi.yml
+- filename: google-campaign-manager-ads-api-openapi.yml
   format: yaml
-  label: Campaign Manager 360 API
-  slug: campaign-manager-360-api
+  label: Google Campaign Manager Ads API
+  slug: google-campaign-manager-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/openapi/google-campaign-manager-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/openapi/google-campaign-manager-ads-api-openapi.yml
+- filename: google-campaign-manager-campaigns-api-openapi.yml
+  format: yaml
+  label: Google Campaign Manager Campaigns API
+  slug: google-campaign-manager-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/openapi/google-campaign-manager-campaigns-api-openapi.yml
+- filename: google-campaign-manager-placements-api-openapi.yml
+  format: yaml
+  label: Google Campaign Manager Placements API
+  slug: google-campaign-manager-placements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/openapi/google-campaign-manager-placements-api-openapi.yml
+- filename: google-campaign-manager-reports-api-openapi.yml
+  format: yaml
+  label: Google Campaign Manager Reports API
+  slug: google-campaign-manager-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/openapi/google-campaign-manager-reports-api-openapi.yml
 description: ''
 domains:
 - caa:

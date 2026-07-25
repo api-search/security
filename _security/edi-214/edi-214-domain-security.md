@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: stedi-edi214-openapi.yml
+- filename: edi-214-edi-processing-api-openapi.yml
   format: yaml
-  label: EDI 214 Transportation Carrier Shipment Status Message
-  slug: edi-214-standard
+  label: edi-214 EDI Processing API
+  slug: edi-214-edi-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edi-214/refs/heads/main/openapi/stedi-edi214-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/edi-214/refs/heads/main/openapi/edi-214-edi-processing-api-openapi.yml
+- filename: edi-214-shipment-status-api-openapi.yml
+  format: yaml
+  label: edi-214 Shipment Status API
+  slug: edi-214-shipment-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edi-214/refs/heads/main/openapi/edi-214-shipment-status-api-openapi.yml
+- filename: edi-214-transactions-api-openapi.yml
+  format: yaml
+  label: edi-214 Transactions API
+  slug: edi-214-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edi-214/refs/heads/main/openapi/edi-214-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

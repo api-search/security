@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: diligent-openapi-original.json
-  format: json
-  label: Diligent API
-  slug: diligent-api
+- filename: diligent-cdd-api-openapi.yml
+  format: yaml
+  label: Diligent CDD API
+  slug: diligent-cdd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/openapi/diligent-openapi-original.json
-- filename: diligent-remediation-openapi.json
-  format: json
-  label: Diligent Remediation API (Beta)
-  slug: diligent-remediation-api
+  url: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/openapi/diligent-cdd-api-openapi.yml
+- filename: diligent-company-api-openapi.yml
+  format: yaml
+  label: Diligent Company API
+  slug: diligent-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/openapi/diligent-remediation-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/openapi/diligent-company-api-openapi.yml
+- filename: diligent-instant-screening-experimental-api-openapi.yml
+  format: yaml
+  label: Diligent Instant Screening (experimental) API
+  slug: diligent-instant-screening-experimental-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/openapi/diligent-instant-screening-experimental-api-openapi.yml
+- filename: diligent-monitorings-api-openapi.yml
+  format: yaml
+  label: Diligent Monitorings API
+  slug: diligent-monitorings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/openapi/diligent-monitorings-api-openapi.yml
+- filename: diligent-name-screening-api-openapi.yml
+  format: yaml
+  label: Diligent Name Screening API
+  slug: diligent-name-screening-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/openapi/diligent-name-screening-api-openapi.yml
+- filename: diligent-webhooks-api-openapi.yml
+  format: yaml
+  label: Diligent Webhooks API
+  slug: diligent-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/openapi/diligent-webhooks-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

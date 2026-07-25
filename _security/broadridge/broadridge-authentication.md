@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: broadridge-wealth-openapi.yml
+- filename: broadridge-accounts-api-openapi.yml
   format: yaml
-  label: Broadridge Wealth Management API
-  slug: broadridge-wealth-api
+  label: broadridge Accounts API
+  slug: broadridge-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadridge/refs/heads/main/openapi/broadridge-wealth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/broadridge/refs/heads/main/openapi/broadridge-accounts-api-openapi.yml
+- filename: broadridge-performance-api-openapi.yml
+  format: yaml
+  label: broadridge Performance API
+  slug: broadridge-performance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/broadridge/refs/heads/main/openapi/broadridge-performance-api-openapi.yml
+- filename: broadridge-positions-api-openapi.yml
+  format: yaml
+  label: broadridge Positions API
+  slug: broadridge-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/broadridge/refs/heads/main/openapi/broadridge-positions-api-openapi.yml
+- filename: broadridge-transactions-api-openapi.yml
+  format: yaml
+  label: broadridge Transactions API
+  slug: broadridge-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/broadridge/refs/heads/main/openapi/broadridge-transactions-api-openapi.yml
 auth_types:
 - http
 - oauth2

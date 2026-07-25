@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: cloudhealth-openapi.yml
+- filename: cloudhealth-aws-accounts-api-openapi.yml
   format: yaml
-  label: CloudHealth REST API
-  slug: cloudhealth-rest-api
+  label: CloudHealth AWS Accounts API
+  slug: cloudhealth-aws-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/openapi/cloudhealth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/openapi/cloudhealth-aws-accounts-api-openapi.yml
+- filename: cloudhealth-perspectives-api-openapi.yml
+  format: yaml
+  label: CloudHealth Perspectives API
+  slug: cloudhealth-perspectives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/openapi/cloudhealth-perspectives-api-openapi.yml
+- filename: cloudhealth-reports-api-openapi.yml
+  format: yaml
+  label: CloudHealth Reports API
+  slug: cloudhealth-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/openapi/cloudhealth-reports-api-openapi.yml
+- filename: cloudhealth-search-api-openapi.yml
+  format: yaml
+  label: CloudHealth Search API
+  slug: cloudhealth-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/openapi/cloudhealth-search-api-openapi.yml
+- filename: cloudhealth-sso-api-openapi.yml
+  format: yaml
+  label: CloudHealth SSO API
+  slug: cloudhealth-sso-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/openapi/cloudhealth-sso-api-openapi.yml
 description: ''
 domains:
 - caa:

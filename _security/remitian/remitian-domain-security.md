@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: remitian-tax-payment-openapi.yml
+- filename: remitian-accounts-api-openapi.yml
   format: yaml
-  label: Remitian Tax Payment API
-  slug: tax-payment-api
+  label: Remitian Accounts API
+  slug: remitian-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remitian/refs/heads/main/openapi/remitian-tax-payment-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/remitian/refs/heads/main/openapi/remitian-accounts-api-openapi.yml
+- filename: remitian-audit-logs-api-openapi.yml
+  format: yaml
+  label: Remitian Audit Logs API
+  slug: remitian-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remitian/refs/heads/main/openapi/remitian-audit-logs-api-openapi.yml
+- filename: remitian-jurisdictions-api-openapi.yml
+  format: yaml
+  label: Remitian Jurisdictions API
+  slug: remitian-jurisdictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remitian/refs/heads/main/openapi/remitian-jurisdictions-api-openapi.yml
+- filename: remitian-payments-api-openapi.yml
+  format: yaml
+  label: Remitian Payments API
+  slug: remitian-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remitian/refs/heads/main/openapi/remitian-payments-api-openapi.yml
+- filename: remitian-webhooks-api-openapi.yml
+  format: yaml
+  label: Remitian Webhooks API
+  slug: remitian-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remitian/refs/heads/main/openapi/remitian-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

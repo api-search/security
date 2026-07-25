@@ -1,36 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: juspay-openapi.yml
-  format: yaml
-  label: Juspay Orders API
-  slug: juspay-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/openapi/juspay-openapi.yml
-- filename: juspay-openapi.yml
-  format: yaml
-  label: Juspay Transactions API
-  slug: juspay-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/openapi/juspay-openapi.yml
-- filename: juspay-openapi.yml
-  format: yaml
-  label: Juspay Session API
-  slug: juspay-session-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/openapi/juspay-openapi.yml
-- filename: juspay-openapi.yml
-  format: yaml
-  label: Juspay Refunds API
-  slug: juspay-refunds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/openapi/juspay-openapi.yml
-- filename: juspay-openapi.yml
+- filename: juspay-customers-api-openapi.yml
   format: yaml
   label: Juspay Customers API
   slug: juspay-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/openapi/juspay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/openapi/juspay-customers-api-openapi.yml
+- filename: juspay-orders-api-openapi.yml
+  format: yaml
+  label: Juspay Orders API
+  slug: juspay-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/openapi/juspay-orders-api-openapi.yml
+- filename: juspay-refunds-api-openapi.yml
+  format: yaml
+  label: Juspay Refunds API
+  slug: juspay-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/openapi/juspay-refunds-api-openapi.yml
+- filename: juspay-session-api-openapi.yml
+  format: yaml
+  label: Juspay Session API
+  slug: juspay-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/openapi/juspay-session-api-openapi.yml
+- filename: juspay-transactions-api-openapi.yml
+  format: yaml
+  label: Juspay Transactions API
+  slug: juspay-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/openapi/juspay-transactions-api-openapi.yml
 auth_types:
 - http
 description: ''

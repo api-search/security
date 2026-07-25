@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: tasks.yml
+- filename: google-tasks-lists-api-openapi.yml
   format: yaml
-  label: Google Tasks API v1
-  slug: google-tasks-api-v1
+  label: Google Tasks Lists API
+  slug: google-tasks-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/openapi/tasks.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/openapi/google-tasks-lists-api-openapi.yml
+- filename: google-tasks-users-api-openapi.yml
+  format: yaml
+  label: Google Tasks Users API
+  slug: google-tasks-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/openapi/google-tasks-users-api-openapi.yml
 description: ''
 domains:
 - caa:

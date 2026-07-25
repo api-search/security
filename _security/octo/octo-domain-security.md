@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: octo-openapi-original.yml
+- filename: octo-availability-api-openapi.yml
   format: yaml
-  label: Open Connectivity for Tours, Activities, and Attractions
-  slug: octo
+  label: Open Connectivity for Tours, Activities, and Attractions Availability API
+  slug: octo-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octo/refs/heads/main/openapi/octo-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/octo/refs/heads/main/openapi/octo-availability-api-openapi.yml
+- filename: octo-bookings-api-openapi.yml
+  format: yaml
+  label: Open Connectivity for Tours, Activities, and Attractions Bookings API
+  slug: octo-bookings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octo/refs/heads/main/openapi/octo-bookings-api-openapi.yml
+- filename: octo-products-api-openapi.yml
+  format: yaml
+  label: Open Connectivity for Tours, Activities, and Attractions Products API
+  slug: octo-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octo/refs/heads/main/openapi/octo-products-api-openapi.yml
+- filename: octo-supplier-api-openapi.yml
+  format: yaml
+  label: Open Connectivity for Tours, Activities, and Attractions Supplier API
+  slug: octo-supplier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octo/refs/heads/main/openapi/octo-supplier-api-openapi.yml
 description: ''
 domains:
 - caa: []

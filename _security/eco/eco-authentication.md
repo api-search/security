@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: eco-routes-openapi-original.json
-  format: json
-  label: Eco Routes API
-  slug: eco-routes-api
+- filename: eco-quotes-v1-api-openapi.yml
+  format: yaml
+  label: Eco Quotes V1 API
+  slug: eco-quotes-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/openapi/eco-routes-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/openapi/eco-quotes-v1-api-openapi.yml
+- filename: eco-quotes-v2-api-openapi.yml
+  format: yaml
+  label: Eco Quotes V2 API
+  slug: eco-quotes-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/openapi/eco-quotes-v2-api-openapi.yml
+- filename: eco-quotes-v3-api-openapi.yml
+  format: yaml
+  label: Eco Quotes V3 API
+  slug: eco-quotes-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/openapi/eco-quotes-v3-api-openapi.yml
 auth_types:
 - none
 description: 'The Eco Routes REST API (quote and intent endpoints) requires NO authentication. There are no securitySchemes declared in the OpenAPI and no API keys, tokens, or OAuth flows. Callers pass a dAppID identifier in the request body purely for attribution. Authorization instead lives at the onchain layer: solver registration/update uses signed requests, and all value movement is executed via EVM/SVM wallet signatures against non-custodial per-intent CREATE2 vault contracts. There is no account or credential provisioning surface.'

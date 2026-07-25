@@ -8,6 +8,66 @@ api_specs:
   slug: smtp2go-email-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-email-api-openapi.yml
+- filename: smtp2go-activity-api-openapi.yml
+  format: yaml
+  label: SMTP2GO Activity API
+  slug: smtp2go-activity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-activity-api-openapi.yml
+- filename: smtp2go-api-keys-api-openapi.yml
+  format: yaml
+  label: SMTP2GO API Keys API
+  slug: smtp2go-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-api-keys-api-openapi.yml
+- filename: smtp2go-domains-api-openapi.yml
+  format: yaml
+  label: SMTP2GO Domains API
+  slug: smtp2go-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-domains-api-openapi.yml
+- filename: smtp2go-sms-api-openapi.yml
+  format: yaml
+  label: SMTP2GO SMS API
+  slug: smtp2go-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-sms-api-openapi.yml
+- filename: smtp2go-smtp-users-api-openapi.yml
+  format: yaml
+  label: SMTP2GO SMTP Users API
+  slug: smtp2go-smtp-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-smtp-users-api-openapi.yml
+- filename: smtp2go-stats-api-openapi.yml
+  format: yaml
+  label: SMTP2GO Stats API
+  slug: smtp2go-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-stats-api-openapi.yml
+- filename: smtp2go-subaccounts-api-openapi.yml
+  format: yaml
+  label: SMTP2GO Subaccounts API
+  slug: smtp2go-subaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-subaccounts-api-openapi.yml
+- filename: smtp2go-suppressions-api-openapi.yml
+  format: yaml
+  label: SMTP2GO Suppressions API
+  slug: smtp2go-suppressions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-suppressions-api-openapi.yml
+- filename: smtp2go-templates-api-openapi.yml
+  format: yaml
+  label: SMTP2GO Templates API
+  slug: smtp2go-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-templates-api-openapi.yml
+- filename: smtp2go-webhooks-api-openapi.yml
+  format: yaml
+  label: SMTP2GO Webhooks API
+  slug: smtp2go-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

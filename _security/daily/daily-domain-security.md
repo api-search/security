@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: daily-openapi-original.json
-  format: json
-  label: Daily API
-  slug: daily-api
+- filename: daily-batch-rooms-api-openapi.yml
+  format: yaml
+  label: Daily batch/rooms API
+  slug: daily-batch-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daily/refs/heads/main/openapi/daily-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/daily/refs/heads/main/openapi/daily-batch-rooms-api-openapi.yml
+- filename: daily-dialin-api-openapi.yml
+  format: yaml
+  label: Daily dialin API
+  slug: daily-dialin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daily/refs/heads/main/openapi/daily-dialin-api-openapi.yml
+- filename: daily-domain-api-openapi.yml
+  format: yaml
+  label: Daily domain API
+  slug: daily-domain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daily/refs/heads/main/openapi/daily-domain-api-openapi.yml
+- filename: daily-domain-dialin-config-api-openapi.yml
+  format: yaml
+  label: Daily domain-dialin-config API
+  slug: daily-domain-dialin-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daily/refs/heads/main/openapi/daily-domain-dialin-config-api-openapi.yml
+- filename: daily-logs-api-openapi.yml
+  format: yaml
+  label: Daily logs API
+  slug: daily-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daily/refs/heads/main/openapi/daily-logs-api-openapi.yml
+- filename: daily-meeting-tokens-api-openapi.yml
+  format: yaml
+  label: Daily meeting-tokens API
+  slug: daily-meeting-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daily/refs/heads/main/openapi/daily-meeting-tokens-api-openapi.yml
+- filename: daily-meetings-api-openapi.yml
+  format: yaml
+  label: Daily meetings API
+  slug: daily-meetings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daily/refs/heads/main/openapi/daily-meetings-api-openapi.yml
+- filename: daily-phone-numbers-api-openapi.yml
+  format: yaml
+  label: Daily phone-numbers API
+  slug: daily-phone-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daily/refs/heads/main/openapi/daily-phone-numbers-api-openapi.yml
+- filename: daily-presence-api-openapi.yml
+  format: yaml
+  label: Daily presence API
+  slug: daily-presence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daily/refs/heads/main/openapi/daily-presence-api-openapi.yml
+- filename: daily-recordings-api-openapi.yml
+  format: yaml
+  label: Daily recordings API
+  slug: daily-recordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daily/refs/heads/main/openapi/daily-recordings-api-openapi.yml
+- filename: daily-rooms-api-openapi.yml
+  format: yaml
+  label: Daily rooms API
+  slug: daily-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daily/refs/heads/main/openapi/daily-rooms-api-openapi.yml
+- filename: daily-transcript-api-openapi.yml
+  format: yaml
+  label: Daily transcript API
+  slug: daily-transcript-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daily/refs/heads/main/openapi/daily-transcript-api-openapi.yml
+- filename: daily-webhooks-api-openapi.yml
+  format: yaml
+  label: Daily webhooks API
+  slug: daily-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daily/refs/heads/main/openapi/daily-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: crescendo-lab-maacgo-openapi.yaml
+- filename: crescendo-lab-broadcast-api-openapi.yml
   format: yaml
-  label: MAAC Go API
-  slug: maac-go-api
+  label: Crescendo Lab Broadcast API
+  slug: crescendo-lab-broadcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/openapi/crescendo-lab-maacgo-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/openapi/crescendo-lab-broadcast-api-openapi.yml
+- filename: crescendo-lab-contacts-api-openapi.yml
+  format: yaml
+  label: Crescendo Lab Contacts API
+  slug: crescendo-lab-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/openapi/crescendo-lab-contacts-api-openapi.yml
+- filename: crescendo-lab-sms-api-openapi.yml
+  format: yaml
+  label: Crescendo Lab SMS API
+  slug: crescendo-lab-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/openapi/crescendo-lab-sms-api-openapi.yml
+- filename: crescendo-lab-teams-api-openapi.yml
+  format: yaml
+  label: Crescendo Lab Teams API
+  slug: crescendo-lab-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/openapi/crescendo-lab-teams-api-openapi.yml
 auth_types:
 - http
 description: ''

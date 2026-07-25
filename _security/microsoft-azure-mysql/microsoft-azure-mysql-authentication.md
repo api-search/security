@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: microsoft-azure-mysql-openapi.yml
+- filename: microsoft-azure-mysql-operations-api-openapi.yml
   format: yaml
-  label: Azure Database for MySQL Flexible Servers API
-  slug: azure-database-for-mysql-flexible-servers-api
+  label: Azure Database for MySQL Operations API
+  slug: microsoft-azure-mysql-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-mysql/refs/heads/main/openapi/microsoft-azure-mysql-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-mysql/refs/heads/main/openapi/microsoft-azure-mysql-operations-api-openapi.yml
+- filename: microsoft-azure-mysql-servers-api-openapi.yml
+  format: yaml
+  label: Azure Database for MySQL Servers API
+  slug: microsoft-azure-mysql-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-mysql/refs/heads/main/openapi/microsoft-azure-mysql-servers-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

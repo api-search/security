@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: amazon-cloudsearch-openapi.yml
+- filename: amazon-cloudsearch-domains-api-openapi.yml
   format: yaml
-  label: Amazon CloudSearch API
-  slug: amazon-cloudsearch-api
+  label: Amazon CloudSearch Domains API
+  slug: amazon-cloudsearch-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/openapi/amazon-cloudsearch-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/openapi/amazon-cloudsearch-domains-api-openapi.yml
+- filename: amazon-cloudsearch-index-fields-api-openapi.yml
+  format: yaml
+  label: Amazon CloudSearch Index Fields API
+  slug: amazon-cloudsearch-index-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/openapi/amazon-cloudsearch-index-fields-api-openapi.yml
 description: ''
 domains:
 - caa: []

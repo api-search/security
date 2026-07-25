@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: transit-openapi.yml
+- filename: transit-alerts-api-openapi.yml
   format: yaml
-  label: Transit API
-  slug: transit
+  label: Transit Alerts API
+  slug: transit-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-alerts-api-openapi.yml
+- filename: transit-departures-api-openapi.yml
+  format: yaml
+  label: Transit Departures API
+  slug: transit-departures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-departures-api-openapi.yml
+- filename: transit-mobility-api-openapi.yml
+  format: yaml
+  label: Transit Mobility API
+  slug: transit-mobility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-mobility-api-openapi.yml
+- filename: transit-networks-api-openapi.yml
+  format: yaml
+  label: Transit Networks API
+  slug: transit-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-networks-api-openapi.yml
+- filename: transit-routes-api-openapi.yml
+  format: yaml
+  label: Transit Routes API
+  slug: transit-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-routes-api-openapi.yml
+- filename: transit-stops-api-openapi.yml
+  format: yaml
+  label: Transit Stops API
+  slug: transit-stops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-stops-api-openapi.yml
+- filename: transit-trips-api-openapi.yml
+  format: yaml
+  label: Transit Trips API
+  slug: transit-trips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-trips-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -6,6 +6,18 @@ api_specs:
   slug: opay-cashier-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/openapi/opay-cashier-api-openapi.yml
+- filename: opay-payments-api-openapi.yml
+  format: yaml
+  label: OPay Payments API
+  slug: opay-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/openapi/opay-payments-api-openapi.yml
+- filename: opay-refunds-api-openapi.yml
+  format: yaml
+  label: OPay Refunds API
+  slug: opay-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/openapi/opay-refunds-api-openapi.yml
 description: ''
 domains:
 - caa: []

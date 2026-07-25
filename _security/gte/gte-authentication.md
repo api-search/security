@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: gte-openapi-original.yml
+- filename: gte-exchange-api-openapi.yml
   format: yaml
-  label: GTE API
-  slug: gte-api
+  label: GTE Exchange API
+  slug: gte-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/openapi/gte-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/openapi/gte-exchange-api-openapi.yml
+- filename: gte-health-api-openapi.yml
+  format: yaml
+  label: GTE Health API
+  slug: gte-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/openapi/gte-health-api-openapi.yml
+- filename: gte-info-api-openapi.yml
+  format: yaml
+  label: GTE Info API
+  slug: gte-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/openapi/gte-info-api-openapi.yml
+- filename: gte-markets-api-openapi.yml
+  format: yaml
+  label: GTE Markets API
+  slug: gte-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/openapi/gte-markets-api-openapi.yml
+- filename: gte-tokens-api-openapi.yml
+  format: yaml
+  label: GTE Tokens API
+  slug: gte-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/openapi/gte-tokens-api-openapi.yml
+- filename: gte-users-api-openapi.yml
+  format: yaml
+  label: GTE Users API
+  slug: gte-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/openapi/gte-users-api-openapi.yml
 auth_types:
 - signature
 description: ''

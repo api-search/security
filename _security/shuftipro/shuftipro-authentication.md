@@ -1,36 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: shuftipro-openapi.yml
-  format: yaml
-  label: Shufti Pro Verification API
-  slug: shuftipro-verification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shuftipro/refs/heads/main/openapi/shuftipro-openapi.yml
-- filename: shuftipro-openapi.yml
-  format: yaml
-  label: Shufti Pro KYB API
-  slug: shuftipro-kyb-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shuftipro/refs/heads/main/openapi/shuftipro-openapi.yml
-- filename: shuftipro-openapi.yml
-  format: yaml
-  label: Shufti Pro AML & Background Checks API
-  slug: shuftipro-aml-background-checks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shuftipro/refs/heads/main/openapi/shuftipro-openapi.yml
-- filename: shuftipro-openapi.yml
+- filename: shuftipro-status-api-openapi.yml
   format: yaml
   label: Shufti Pro Status API
   slug: shuftipro-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shuftipro/refs/heads/main/openapi/shuftipro-openapi.yml
-- filename: shuftipro-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shuftipro/refs/heads/main/openapi/shuftipro-status-api-openapi.yml
+- filename: shuftipro-verification-api-openapi.yml
   format: yaml
-  label: Shufti Pro Webhooks API
-  slug: shuftipro-webhooks-api
+  label: Shufti Pro Verification API
+  slug: shuftipro-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shuftipro/refs/heads/main/openapi/shuftipro-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shuftipro/refs/heads/main/openapi/shuftipro-verification-api-openapi.yml
 auth_types:
 - http
 description: ''

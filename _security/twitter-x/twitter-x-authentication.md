@@ -1,12 +1,138 @@
 ---
 api_key_in: []
 api_specs:
-- filename: twitter-x-x-api-v2-openapi.json
-  format: json
-  label: X API v2
-  slug: x-api-v2
+- filename: twitter-x-account-activity-api-openapi.yml
+  format: yaml
+  label: Twitter/X Account Activity API
+  slug: twitter-x-account-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-x-api-v2-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-account-activity-api-openapi.yml
+- filename: twitter-x-activity-api-openapi.yml
+  format: yaml
+  label: Twitter/X Activity API
+  slug: twitter-x-activity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-activity-api-openapi.yml
+- filename: twitter-x-articles-api-openapi.yml
+  format: yaml
+  label: Twitter/X Articles API
+  slug: twitter-x-articles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-articles-api-openapi.yml
+- filename: twitter-x-bookmarks-api-openapi.yml
+  format: yaml
+  label: Twitter/X Bookmarks API
+  slug: twitter-x-bookmarks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-bookmarks-api-openapi.yml
+- filename: twitter-x-chat-api-openapi.yml
+  format: yaml
+  label: Twitter/X Chat API
+  slug: twitter-x-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-chat-api-openapi.yml
+- filename: twitter-x-communities-api-openapi.yml
+  format: yaml
+  label: Twitter/X Communities API
+  slug: twitter-x-communities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-communities-api-openapi.yml
+- filename: twitter-x-community-notes-api-openapi.yml
+  format: yaml
+  label: Twitter/X Community Notes API
+  slug: twitter-x-community-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-community-notes-api-openapi.yml
+- filename: twitter-x-compliance-api-openapi.yml
+  format: yaml
+  label: Twitter/X Compliance API
+  slug: twitter-x-compliance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-compliance-api-openapi.yml
+- filename: twitter-x-connections-api-openapi.yml
+  format: yaml
+  label: Twitter/X Connections API
+  slug: twitter-x-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-connections-api-openapi.yml
+- filename: twitter-x-direct-messages-api-openapi.yml
+  format: yaml
+  label: Twitter/X Direct Messages API
+  slug: twitter-x-direct-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-direct-messages-api-openapi.yml
+- filename: twitter-x-general-api-openapi.yml
+  format: yaml
+  label: Twitter/X General API
+  slug: twitter-x-general-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-general-api-openapi.yml
+- filename: twitter-x-likes-api-openapi.yml
+  format: yaml
+  label: Twitter/X Likes API
+  slug: twitter-x-likes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-likes-api-openapi.yml
+- filename: twitter-x-lists-api-openapi.yml
+  format: yaml
+  label: Twitter/X Lists API
+  slug: twitter-x-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-lists-api-openapi.yml
+- filename: twitter-x-media-api-openapi.yml
+  format: yaml
+  label: Twitter/X Media API
+  slug: twitter-x-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-media-api-openapi.yml
+- filename: twitter-x-news-api-openapi.yml
+  format: yaml
+  label: Twitter/X News API
+  slug: twitter-x-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-news-api-openapi.yml
+- filename: twitter-x-spaces-api-openapi.yml
+  format: yaml
+  label: Twitter/X Spaces API
+  slug: twitter-x-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-spaces-api-openapi.yml
+- filename: twitter-x-stream-api-openapi.yml
+  format: yaml
+  label: Twitter/X Stream API
+  slug: twitter-x-stream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-stream-api-openapi.yml
+- filename: twitter-x-trends-api-openapi.yml
+  format: yaml
+  label: Twitter/X Trends API
+  slug: twitter-x-trends-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-trends-api-openapi.yml
+- filename: twitter-x-tweets-api-openapi.yml
+  format: yaml
+  label: Twitter/X Tweets API
+  slug: twitter-x-tweets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-tweets-api-openapi.yml
+- filename: twitter-x-usage-api-openapi.yml
+  format: yaml
+  label: Twitter/X Usage API
+  slug: twitter-x-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-usage-api-openapi.yml
+- filename: twitter-x-users-api-openapi.yml
+  format: yaml
+  label: Twitter/X Users API
+  slug: twitter-x-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-users-api-openapi.yml
+- filename: twitter-x-webhooks-api-openapi.yml
+  format: yaml
+  label: Twitter/X Webhooks API
+  slug: twitter-x-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/openapi/twitter-x-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2

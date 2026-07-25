@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: fluidstack-management-api-openapi.yml
+- filename: fluidstack-clusters-api-openapi.yml
   format: yaml
-  label: Fluidstack Management API
-  slug: fluidstack-management-api
+  label: Fluidstack Clusters API
+  slug: fluidstack-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluidstack/refs/heads/main/openapi/fluidstack-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fluidstack/refs/heads/main/openapi/fluidstack-clusters-api-openapi.yml
+- filename: fluidstack-instances-api-openapi.yml
+  format: yaml
+  label: Fluidstack Instances API
+  slug: fluidstack-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluidstack/refs/heads/main/openapi/fluidstack-instances-api-openapi.yml
+- filename: fluidstack-invitations-api-openapi.yml
+  format: yaml
+  label: Fluidstack Invitations API
+  slug: fluidstack-invitations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluidstack/refs/heads/main/openapi/fluidstack-invitations-api-openapi.yml
+- filename: fluidstack-members-api-openapi.yml
+  format: yaml
+  label: Fluidstack Members API
+  slug: fluidstack-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluidstack/refs/heads/main/openapi/fluidstack-members-api-openapi.yml
+- filename: fluidstack-organizations-api-openapi.yml
+  format: yaml
+  label: Fluidstack Organizations API
+  slug: fluidstack-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluidstack/refs/heads/main/openapi/fluidstack-organizations-api-openapi.yml
+- filename: fluidstack-regions-api-openapi.yml
+  format: yaml
+  label: Fluidstack Regions API
+  slug: fluidstack-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluidstack/refs/heads/main/openapi/fluidstack-regions-api-openapi.yml
+- filename: fluidstack-user-api-openapi.yml
+  format: yaml
+  label: Fluidstack User API
+  slug: fluidstack-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluidstack/refs/heads/main/openapi/fluidstack-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

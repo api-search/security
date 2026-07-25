@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: toolhouse-openapi-original.yml
+- filename: toolhouse-agent-runs-api-openapi.yml
   format: yaml
-  label: Toolhouse Platform API
-  slug: platform-api
+  label: Toolhouse Agent Runs API
+  slug: toolhouse-agent-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-agent-runs-api-openapi.yml
+- filename: toolhouse-api-keys-api-openapi.yml
+  format: yaml
+  label: Toolhouse API Keys API
+  slug: toolhouse-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-api-keys-api-openapi.yml
+- filename: toolhouse-backoffice-api-openapi.yml
+  format: yaml
+  label: Toolhouse Backoffice API
+  slug: toolhouse-backoffice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-backoffice-api-openapi.yml
+- filename: toolhouse-logs-api-openapi.yml
+  format: yaml
+  label: Toolhouse Logs API
+  slug: toolhouse-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-logs-api-openapi.yml
+- filename: toolhouse-metrics-api-openapi.yml
+  format: yaml
+  label: Toolhouse Metrics API
+  slug: toolhouse-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-metrics-api-openapi.yml
+- filename: toolhouse-sdk-api-api-openapi.yml
+  format: yaml
+  label: Toolhouse SDK API API
+  slug: toolhouse-sdk-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-sdk-api-api-openapi.yml
+- filename: toolhouse-user-api-api-openapi.yml
+  format: yaml
+  label: Toolhouse User API API
+  slug: toolhouse-user-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-user-api-api-openapi.yml
 auth_types:
 - http
 description: ''

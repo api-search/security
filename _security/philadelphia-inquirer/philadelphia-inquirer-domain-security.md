@@ -1,23 +1,29 @@
 ---
 api_specs:
-- filename: rss-openapi.yml
+- filename: philadelphia-inquirer-feeds-api-openapi.yml
   format: yaml
-  label: The Philadelphia Inquirer RSS Feeds
-  slug: rss
+  label: The Philadelphia Inquirer Feeds API
+  slug: philadelphia-inquirer-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/openapi/rss-openapi.yml
-- filename: sitemaps-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/openapi/philadelphia-inquirer-feeds-api-openapi.yml
+- filename: philadelphia-inquirer-health-api-openapi.yml
   format: yaml
-  label: The Philadelphia Inquirer Sitemaps
-  slug: sitemaps
+  label: The Philadelphia Inquirer Health API
+  slug: philadelphia-inquirer-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/openapi/sitemaps-openapi.yml
-- filename: dewey-mcp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/openapi/philadelphia-inquirer-health-api-openapi.yml
+- filename: philadelphia-inquirer-mcp-api-openapi.yml
   format: yaml
-  label: Dewey MCP
-  slug: dewey-mcp
+  label: The Philadelphia Inquirer MCP API
+  slug: philadelphia-inquirer-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/openapi/dewey-mcp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/openapi/philadelphia-inquirer-mcp-api-openapi.yml
+- filename: philadelphia-inquirer-sitemaps-api-openapi.yml
+  format: yaml
+  label: The Philadelphia Inquirer Sitemaps API
+  slug: philadelphia-inquirer-sitemaps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/openapi/philadelphia-inquirer-sitemaps-api-openapi.yml
 description: ''
 domains:
 - caa: []

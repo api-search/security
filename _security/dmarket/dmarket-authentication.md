@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: dmarket-trading-openapi.yml
+- filename: dmarket-account-api-openapi.yml
   format: yaml
-  label: DMarket Trading API
-  slug: dmarket-trading-api
+  label: DMarket Account API
+  slug: dmarket-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/openapi/dmarket-trading-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/openapi/dmarket-account-api-openapi.yml
+- filename: dmarket-aggregator-api-openapi.yml
+  format: yaml
+  label: DMarket Aggregator API
+  slug: dmarket-aggregator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/openapi/dmarket-aggregator-api-openapi.yml
+- filename: dmarket-buy-items-api-openapi.yml
+  format: yaml
+  label: DMarket Buy items API
+  slug: dmarket-buy-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/openapi/dmarket-buy-items-api-openapi.yml
+- filename: dmarket-inventory-items-api-openapi.yml
+  format: yaml
+  label: DMarket Inventory/items API
+  slug: dmarket-inventory-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/openapi/dmarket-inventory-items-api-openapi.yml
+- filename: dmarket-sell-items-api-openapi.yml
+  format: yaml
+  label: DMarket Sell Items API
+  slug: dmarket-sell-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/openapi/dmarket-sell-items-api-openapi.yml
+- filename: dmarket-sold-user-items-api-openapi.yml
+  format: yaml
+  label: DMarket Sold user items API
+  slug: dmarket-sold-user-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/openapi/dmarket-sold-user-items-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

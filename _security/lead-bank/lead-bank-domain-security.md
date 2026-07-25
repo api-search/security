@@ -1,4 +1,101 @@
 ---
+api_specs:
+- filename: lead-bank-account-number-api-openapi.yml
+  format: yaml
+  label: Lead Bank Account Number API
+  slug: lead-bank-account-number-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-account-number-api-openapi.yml
+- filename: lead-bank-ach-api-openapi.yml
+  format: yaml
+  label: Lead Bank ACH API
+  slug: lead-bank-ach-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-ach-api-openapi.yml
+- filename: lead-bank-blockchain-payment-api-openapi.yml
+  format: yaml
+  label: Lead Bank Blockchain Payment API
+  slug: lead-bank-blockchain-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-blockchain-payment-api-openapi.yml
+- filename: lead-bank-compliance-api-openapi.yml
+  format: yaml
+  label: Lead Bank Compliance API
+  slug: lead-bank-compliance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-compliance-api-openapi.yml
+- filename: lead-bank-entity-api-openapi.yml
+  format: yaml
+  label: Lead Bank Entity API
+  slug: lead-bank-entity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-entity-api-openapi.yml
+- filename: lead-bank-events-api-openapi.yml
+  format: yaml
+  label: Lead Bank Events API
+  slug: lead-bank-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-events-api-openapi.yml
+- filename: lead-bank-funding-api-openapi.yml
+  format: yaml
+  label: Lead Bank Funding API
+  slug: lead-bank-funding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-funding-api-openapi.yml
+- filename: lead-bank-instant-payments-api-openapi.yml
+  format: yaml
+  label: Lead Bank Instant Payments API
+  slug: lead-bank-instant-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-instant-payments-api-openapi.yml
+- filename: lead-bank-internal-transfer-api-openapi.yml
+  format: yaml
+  label: Lead Bank Internal Transfer API
+  slug: lead-bank-internal-transfer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-internal-transfer-api-openapi.yml
+- filename: lead-bank-lending-api-openapi.yml
+  format: yaml
+  label: Lead Bank Lending API
+  slug: lead-bank-lending-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-lending-api-openapi.yml
+- filename: lead-bank-lending-simulation-api-openapi.yml
+  format: yaml
+  label: Lead Bank Lending Simulation API
+  slug: lead-bank-lending-simulation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-lending-simulation-api-openapi.yml
+- filename: lead-bank-oauth-api-openapi.yml
+  format: yaml
+  label: Lead Bank OAuth API
+  slug: lead-bank-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-oauth-api-openapi.yml
+- filename: lead-bank-originator-api-openapi.yml
+  format: yaml
+  label: Lead Bank Originator API
+  slug: lead-bank-originator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-originator-api-openapi.yml
+- filename: lead-bank-simulation-api-openapi.yml
+  format: yaml
+  label: Lead Bank Simulation API
+  slug: lead-bank-simulation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-simulation-api-openapi.yml
+- filename: lead-bank-subledger-balances-api-openapi.yml
+  format: yaml
+  label: Lead Bank Subledger Balances API
+  slug: lead-bank-subledger-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-subledger-balances-api-openapi.yml
+- filename: lead-bank-wire-api-openapi.yml
+  format: yaml
+  label: Lead Bank Wire API
+  slug: lead-bank-wire-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-wire-api-openapi.yml
 description: ''
 domains:
 - caa: []

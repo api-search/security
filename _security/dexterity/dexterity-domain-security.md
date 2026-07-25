@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: dexterity-foresight-packing-challenge-openapi.yml
+- filename: dexterity-games-api-openapi.yml
   format: yaml
-  label: Dexterity Foresight Packing Challenge API
-  slug: dexterity-foresight-packing-challenge
+  label: Dexterity Games API
+  slug: dexterity-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexterity/refs/heads/main/openapi/dexterity-foresight-packing-challenge-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dexterity/refs/heads/main/openapi/dexterity-games-api-openapi.yml
+- filename: dexterity-leaderboard-api-openapi.yml
+  format: yaml
+  label: Dexterity Leaderboard API
+  slug: dexterity-leaderboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexterity/refs/heads/main/openapi/dexterity-leaderboard-api-openapi.yml
+- filename: dexterity-players-api-openapi.yml
+  format: yaml
+  label: Dexterity Players API
+  slug: dexterity-players-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexterity/refs/heads/main/openapi/dexterity-players-api-openapi.yml
+- filename: dexterity-system-api-openapi.yml
+  format: yaml
+  label: Dexterity System API
+  slug: dexterity-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexterity/refs/heads/main/openapi/dexterity-system-api-openapi.yml
 description: ''
 domains:
 - caa:

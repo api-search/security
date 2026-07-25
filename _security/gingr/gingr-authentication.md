@@ -2,54 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: gingr-openapi.yml
+- filename: gingr-invoices-api-openapi.yml
+  format: yaml
+  label: Gingr Invoices API
+  slug: gingr-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-invoices-api-openapi.yml
+- filename: gingr-owners-api-openapi.yml
   format: yaml
   label: Gingr Owners API
   slug: gingr-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-openapi.yml
-- filename: gingr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-owners-api-openapi.yml
+- filename: gingr-payments-api-openapi.yml
+  format: yaml
+  label: Gingr Payments API
+  slug: gingr-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-payments-api-openapi.yml
+- filename: gingr-pets-api-openapi.yml
   format: yaml
   label: Gingr Pets API
   slug: gingr-pets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-openapi.yml
-- filename: gingr-openapi.yml
-  format: yaml
-  label: Gingr Reservations API
-  slug: gingr-reservations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-openapi.yml
-- filename: gingr-openapi.yml
-  format: yaml
-  label: Gingr Services API
-  slug: gingr-services-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-openapi.yml
-- filename: gingr-openapi.yml
-  format: yaml
-  label: Gingr Invoices & Payments API
-  slug: gingr-invoices-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-openapi.yml
-- filename: gingr-openapi.yml
-  format: yaml
-  label: Gingr Vaccinations API
-  slug: gingr-vaccinations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-openapi.yml
-- filename: gingr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-pets-api-openapi.yml
+- filename: gingr-report-cards-api-openapi.yml
   format: yaml
   label: Gingr Report Cards API
   slug: gingr-report-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-openapi.yml
-- filename: gingr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-report-cards-api-openapi.yml
+- filename: gingr-reservations-api-openapi.yml
+  format: yaml
+  label: Gingr Reservations API
+  slug: gingr-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-reservations-api-openapi.yml
+- filename: gingr-services-api-openapi.yml
+  format: yaml
+  label: Gingr Services API
+  slug: gingr-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-services-api-openapi.yml
+- filename: gingr-vaccinations-api-openapi.yml
+  format: yaml
+  label: Gingr Vaccinations API
+  slug: gingr-vaccinations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-vaccinations-api-openapi.yml
+- filename: gingr-waitlist-api-openapi.yml
   format: yaml
   label: Gingr Waitlist API
   slug: gingr-waitlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-waitlist-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

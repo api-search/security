@@ -1,18 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: nine-fives-attenuator-openapi.yml
+- filename: nine-fives-attenuator-api-openapi.yml
   format: yaml
-  label: Nine Fives Programmable Attenuator API
-  slug: nine-fives-programmable-attenuator-api
+  label: Nine Fives Attenuator API
+  slug: nine-fives-attenuator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/openapi/nine-fives-attenuator-openapi.yml
-- filename: nine-fives-switch-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/openapi/nine-fives-attenuator-api-openapi.yml
+- filename: nine-fives-firmware-api-openapi.yml
   format: yaml
-  label: Nine Fives Programmable SPDT Switch API
-  slug: nine-fives-programmable-spdt-switch-api
+  label: Nine Fives Firmware API
+  slug: nine-fives-firmware-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/openapi/nine-fives-switch-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/openapi/nine-fives-firmware-api-openapi.yml
+- filename: nine-fives-network-api-openapi.yml
+  format: yaml
+  label: Nine Fives Network API
+  slug: nine-fives-network-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/openapi/nine-fives-network-api-openapi.yml
+- filename: nine-fives-switch-api-openapi.yml
+  format: yaml
+  label: Nine Fives Switch API
+  slug: nine-fives-switch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/openapi/nine-fives-switch-api-openapi.yml
+- filename: nine-fives-system-api-openapi.yml
+  format: yaml
+  label: Nine Fives System API
+  slug: nine-fives-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/openapi/nine-fives-system-api-openapi.yml
 auth_types:
 - none
 description: ''

@@ -1,17 +1,95 @@
 ---
 api_specs:
-- filename: fiware-ngsi-ld-openapi.yml
+- filename: fiware-api-entry-point-api-openapi.yml
   format: yaml
-  label: FIWARE NGSI-LD API
-  slug: ngsi-ld
+  label: FIWARE API Entry Point API
+  slug: fiware-api-entry-point-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-ngsi-ld-openapi.yml
-- filename: fiware-ngsiv2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-api-entry-point-api-openapi.yml
+- filename: fiware-attribute-value-api-openapi.yml
   format: yaml
-  label: FIWARE NGSI v2 API
-  slug: ngsi-v2
+  label: FIWARE Attribute Value API
+  slug: fiware-attribute-value-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-ngsiv2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-attribute-value-api-openapi.yml
+- filename: fiware-attributes-api-openapi.yml
+  format: yaml
+  label: FIWARE Attributes API
+  slug: fiware-attributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-attributes-api-openapi.yml
+- filename: fiware-batch-operations-api-openapi.yml
+  format: yaml
+  label: FIWARE Batch Operations API
+  slug: fiware-batch-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-batch-operations-api-openapi.yml
+- filename: fiware-context-information-api-openapi.yml
+  format: yaml
+  label: FIWARE Context Information API
+  slug: fiware-context-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-context-information-api-openapi.yml
+- filename: fiware-context-sources-api-openapi.yml
+  format: yaml
+  label: FIWARE Context Sources API
+  slug: fiware-context-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-context-sources-api-openapi.yml
+- filename: fiware-context-subscription-api-openapi.yml
+  format: yaml
+  label: FIWARE Context Subscription API
+  slug: fiware-context-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-context-subscription-api-openapi.yml
+- filename: fiware-csourceregistrations-api-openapi.yml
+  format: yaml
+  label: FIWARE CSourceRegistrations API
+  slug: fiware-csourceregistrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-csourceregistrations-api-openapi.yml
+- filename: fiware-csourcesubscriptions-api-openapi.yml
+  format: yaml
+  label: FIWARE CSourceSubscriptions API
+  slug: fiware-csourcesubscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-csourcesubscriptions-api-openapi.yml
+- filename: fiware-entities-api-openapi.yml
+  format: yaml
+  label: FIWARE Entities API
+  slug: fiware-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-entities-api-openapi.yml
+- filename: fiware-registrations-api-openapi.yml
+  format: yaml
+  label: FIWARE Registrations API
+  slug: fiware-registrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-registrations-api-openapi.yml
+- filename: fiware-subscriptions-api-openapi.yml
+  format: yaml
+  label: FIWARE Subscriptions API
+  slug: fiware-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-subscriptions-api-openapi.yml
+- filename: fiware-temporal-api-openapi.yml
+  format: yaml
+  label: FIWARE Temporal API
+  slug: fiware-temporal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-temporal-api-openapi.yml
+- filename: fiware-temporal-evolution-api-openapi.yml
+  format: yaml
+  label: FIWARE Temporal Evolution API
+  slug: fiware-temporal-evolution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-temporal-evolution-api-openapi.yml
+- filename: fiware-types-api-openapi.yml
+  format: yaml
+  label: FIWARE Types API
+  slug: fiware-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-types-api-openapi.yml
 description: ''
 domains:
 - caa: []

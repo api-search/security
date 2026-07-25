@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: national-cancer-institute-openapi.yml
+- filename: national-cancer-institute-download-api-openapi.yml
   format: yaml
-  label: NCI Genomic Data Commons API
-  slug: gdc-api
+  label: National Cancer Institute Download API
+  slug: national-cancer-institute-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-cancer-institute/main/openapi/national-cancer-institute-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/national-cancer-institute/refs/heads/main/openapi/national-cancer-institute-download-api-openapi.yml
+- filename: national-cancer-institute-search-api-openapi.yml
+  format: yaml
+  label: National Cancer Institute Search API
+  slug: national-cancer-institute-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-cancer-institute/refs/heads/main/openapi/national-cancer-institute-search-api-openapi.yml
+- filename: national-cancer-institute-status-api-openapi.yml
+  format: yaml
+  label: National Cancer Institute Status API
+  slug: national-cancer-institute-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-cancer-institute/refs/heads/main/openapi/national-cancer-institute-status-api-openapi.yml
+- filename: national-cancer-institute-submission-api-openapi.yml
+  format: yaml
+  label: National Cancer Institute Submission API
+  slug: national-cancer-institute-submission-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-cancer-institute/refs/heads/main/openapi/national-cancer-institute-submission-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

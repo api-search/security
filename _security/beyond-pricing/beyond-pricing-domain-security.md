@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: beyond-pricing-openapi-original.yml
+- filename: beyond-pricing-accounts-api-openapi.yml
   format: yaml
-  label: Beyond Pricing Public API
-  slug: beyond-pricing-public-api
+  label: Beyond Pricing Accounts API
+  slug: beyond-pricing-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-accounts-api-openapi.yml
+- filename: beyond-pricing-compsets-api-openapi.yml
+  format: yaml
+  label: Beyond Pricing Compsets API
+  slug: beyond-pricing-compsets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-compsets-api-openapi.yml
+- filename: beyond-pricing-customizations-api-openapi.yml
+  format: yaml
+  label: Beyond Pricing Customizations API
+  slug: beyond-pricing-customizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-customizations-api-openapi.yml
+- filename: beyond-pricing-insights-api-openapi.yml
+  format: yaml
+  label: Beyond Pricing Insights API
+  slug: beyond-pricing-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-insights-api-openapi.yml
+- filename: beyond-pricing-listings-api-openapi.yml
+  format: yaml
+  label: Beyond Pricing Listings API
+  slug: beyond-pricing-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-listings-api-openapi.yml
+- filename: beyond-pricing-oauth2-api-openapi.yml
+  format: yaml
+  label: Beyond Pricing OAuth2 API
+  slug: beyond-pricing-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-oauth2-api-openapi.yml
+- filename: beyond-pricing-users-api-openapi.yml
+  format: yaml
+  label: Beyond Pricing Users API
+  slug: beyond-pricing-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: cisa-kev-openapi.yml
+- filename: cybersecurity-and-infrastructure-security-agency-kev-api-openapi.yml
   format: yaml
-  label: CISA Known Exploited Vulnerabilities (KEV) Catalog
-  slug: kev
+  label: Cybersecurity and Infrastructure Security Agency KEV API
+  slug: cybersecurity-and-infrastructure-security-agency-kev-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/openapi/cisa-kev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/openapi/cybersecurity-and-infrastructure-security-agency-kev-api-openapi.yml
+- filename: cybersecurity-and-infrastructure-security-agency-schema-api-openapi.yml
+  format: yaml
+  label: Cybersecurity and Infrastructure Security Agency Schema API
+  slug: cybersecurity-and-infrastructure-security-agency-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/openapi/cybersecurity-and-infrastructure-security-agency-schema-api-openapi.yml
 description: ''
 domains:
 - caa: []

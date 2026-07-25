@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: camara-openapi.yml
+- filename: camara-sessions-api-openapi.yml
   format: yaml
-  label: CAMARA Quality On Demand API
-  slug: quality-on-demand-api
+  label: CAMARA Sessions API
+  slug: camara-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara/refs/heads/main/openapi/camara-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camara/refs/heads/main/openapi/camara-sessions-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: chamber-openapi.yml
+- filename: chamber-capacity-api-openapi.yml
   format: yaml
-  label: Chamber API
-  slug: chamber-api
+  label: Chamber Capacity API
+  slug: chamber-capacity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/openapi/chamber-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/openapi/chamber-capacity-api-openapi.yml
+- filename: chamber-health-api-openapi.yml
+  format: yaml
+  label: Chamber Health API
+  slug: chamber-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/openapi/chamber-health-api-openapi.yml
+- filename: chamber-metrics-api-openapi.yml
+  format: yaml
+  label: Chamber Metrics API
+  slug: chamber-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/openapi/chamber-metrics-api-openapi.yml
+- filename: chamber-workloads-api-openapi.yml
+  format: yaml
+  label: Chamber Workloads API
+  slug: chamber-workloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/openapi/chamber-workloads-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: dsco-platform-openapi.yml
+- filename: rithum-authentication-api-openapi.yml
   format: yaml
-  label: Dsco Platform API
-  slug: dsco-platform-api
+  label: Rithum Authentication API
+  slug: rithum-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/openapi/dsco-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/openapi/rithum-authentication-api-openapi.yml
+- filename: rithum-catalog-api-openapi.yml
+  format: yaml
+  label: Rithum Catalog API
+  slug: rithum-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/openapi/rithum-catalog-api-openapi.yml
+- filename: rithum-inventory-api-openapi.yml
+  format: yaml
+  label: Rithum Inventory API
+  slug: rithum-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/openapi/rithum-inventory-api-openapi.yml
+- filename: rithum-invoices-api-openapi.yml
+  format: yaml
+  label: Rithum Invoices API
+  slug: rithum-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/openapi/rithum-invoices-api-openapi.yml
+- filename: rithum-orders-api-openapi.yml
+  format: yaml
+  label: Rithum Orders API
+  slug: rithum-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/openapi/rithum-orders-api-openapi.yml
+- filename: rithum-returns-api-openapi.yml
+  format: yaml
+  label: Rithum Returns API
+  slug: rithum-returns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/openapi/rithum-returns-api-openapi.yml
+- filename: rithum-shipments-api-openapi.yml
+  format: yaml
+  label: Rithum Shipments API
+  slug: rithum-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/openapi/rithum-shipments-api-openapi.yml
+- filename: rithum-streams-api-openapi.yml
+  format: yaml
+  label: Rithum Streams API
+  slug: rithum-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/openapi/rithum-streams-api-openapi.yml
 auth_types:
 - http
 description: ''

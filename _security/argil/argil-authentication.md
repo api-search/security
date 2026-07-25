@@ -2,36 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: argil-openapi.yml
-  format: yaml
-  label: Argil Videos API
-  slug: argil-videos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/openapi/argil-openapi.yml
-- filename: argil-openapi.yml
-  format: yaml
-  label: Argil Avatars API
-  slug: argil-avatars-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/openapi/argil-openapi.yml
-- filename: argil-openapi.yml
-  format: yaml
-  label: Argil Voices API
-  slug: argil-voices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/openapi/argil-openapi.yml
-- filename: argil-openapi.yml
+- filename: argil-assets-api-openapi.yml
   format: yaml
   label: Argil Assets API
   slug: argil-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/openapi/argil-openapi.yml
-- filename: argil-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/openapi/argil-assets-api-openapi.yml
+- filename: argil-avatars-api-openapi.yml
+  format: yaml
+  label: Argil Avatars API
+  slug: argil-avatars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/openapi/argil-avatars-api-openapi.yml
+- filename: argil-videos-api-openapi.yml
+  format: yaml
+  label: Argil Videos API
+  slug: argil-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/openapi/argil-videos-api-openapi.yml
+- filename: argil-voices-api-openapi.yml
+  format: yaml
+  label: Argil Voices API
+  slug: argil-voices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/openapi/argil-voices-api-openapi.yml
+- filename: argil-webhooks-api-openapi.yml
   format: yaml
   label: Argil Webhooks API
   slug: argil-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/openapi/argil-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/openapi/argil-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

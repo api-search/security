@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: blast-network-json-rpc-api-openapi.yml
+  format: yaml
+  label: Blast JSON-RPC API
+  slug: blast-network-json-rpc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blast-network/refs/heads/main/openapi/blast-network-json-rpc-api-openapi.yml
 description: ''
 domains:
 - caa: []

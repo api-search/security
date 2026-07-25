@@ -1,42 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ubank-cds-banking-products-openapi.yml
+- filename: ubank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: ubank CDR Product Reference Data API
-  slug: ubank-cdr-product-reference-data-api
+  label: ubank Banking Account Balances API
+  slug: ubank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/openapi/ubank-cds-banking-products-openapi.yml
-- filename: ubank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/openapi/ubank-banking-account-balances-api-openapi.yml
+- filename: ubank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: ubank CDR Banking Product Detail API
-  slug: ubank-cdr-product-detail-api
+  label: ubank Banking Account Direct Debits API
+  slug: ubank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/openapi/ubank-cds-banking-products-openapi.yml
-- filename: ubank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/openapi/ubank-banking-account-direct-debits-api-openapi.yml
+- filename: ubank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: ubank CDR Accounts & Balances API
-  slug: ubank-cdr-accounts-balances-api
+  label: ubank Banking Account Scheduled Payments API
+  slug: ubank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/openapi/ubank-cds-banking-products-openapi.yml
-- filename: ubank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/openapi/ubank-banking-account-scheduled-payments-api-openapi.yml
+- filename: ubank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: ubank CDR Transactions API
-  slug: ubank-cdr-transactions-api
+  label: ubank Banking Account Transactions API
+  slug: ubank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/openapi/ubank-cds-banking-products-openapi.yml
-- filename: ubank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/openapi/ubank-banking-account-transactions-api-openapi.yml
+- filename: ubank-banking-accounts-api-openapi.yml
   format: yaml
-  label: ubank CDR Direct Debits & Scheduled Payments API
-  slug: ubank-cdr-direct-debits-scheduled-payments-api
+  label: ubank Banking Accounts API
+  slug: ubank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/openapi/ubank-cds-banking-products-openapi.yml
-- filename: ubank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/openapi/ubank-banking-accounts-api-openapi.yml
+- filename: ubank-banking-payees-api-openapi.yml
   format: yaml
-  label: ubank CDR Payees API
-  slug: ubank-cdr-payees-api
+  label: ubank Banking Payees API
+  slug: ubank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/openapi/ubank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/openapi/ubank-banking-payees-api-openapi.yml
+- filename: ubank-banking-products-api-openapi.yml
+  format: yaml
+  label: ubank Banking Products API
+  slug: ubank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/openapi/ubank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2

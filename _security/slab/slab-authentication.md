@@ -2,30 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: slab-openapi.yml
+- filename: slab-graphql-api-openapi.yml
   format: yaml
-  label: Slab Posts
-  slug: posts
+  label: Slab GraphQL API
+  slug: slab-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slab/refs/heads/main/openapi/slab-openapi.yml
-- filename: slab-openapi.yml
-  format: yaml
-  label: Slab Topics
-  slug: topics
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slab/refs/heads/main/openapi/slab-openapi.yml
-- filename: slab-openapi.yml
-  format: yaml
-  label: Slab Users
-  slug: users
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slab/refs/heads/main/openapi/slab-openapi.yml
-- filename: slab-openapi.yml
-  format: yaml
-  label: Slab Organization
-  slug: organization
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slab/refs/heads/main/openapi/slab-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/slab/refs/heads/main/openapi/slab-graphql-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

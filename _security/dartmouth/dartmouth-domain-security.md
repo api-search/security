@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: dartmouth-open-data.yaml
+- filename: dartmouth-catalog-api-openapi.yml
   format: yaml
-  label: Dartmouth Open Data (ArcGIS Hub)
-  slug: open-data
+  label: Dartmouth College Catalog API
+  slug: dartmouth-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/openapi/dartmouth-open-data.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/openapi/dartmouth-catalog-api-openapi.yml
+- filename: dartmouth-collection-api-openapi.yml
+  format: yaml
+  label: Dartmouth College Collection API
+  slug: dartmouth-collection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/openapi/dartmouth-collection-api-openapi.yml
+- filename: dartmouth-ogcitem-api-openapi.yml
+  format: yaml
+  label: Dartmouth College OgcItem API
+  slug: dartmouth-ogcitem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/openapi/dartmouth-ogcitem-api-openapi.yml
+- filename: dartmouth-ogcitemaggregation-api-openapi.yml
+  format: yaml
+  label: Dartmouth College OgcItemAggregation API
+  slug: dartmouth-ogcitemaggregation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/openapi/dartmouth-ogcitemaggregation-api-openapi.yml
+- filename: dartmouth-ogcroot-api-openapi.yml
+  format: yaml
+  label: Dartmouth College OgcRoot API
+  slug: dartmouth-ogcroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/openapi/dartmouth-ogcroot-api-openapi.yml
+- filename: dartmouth-ogcrootconformance-api-openapi.yml
+  format: yaml
+  label: Dartmouth College OgcRootConformance API
+  slug: dartmouth-ogcrootconformance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/openapi/dartmouth-ogcrootconformance-api-openapi.yml
+- filename: dartmouth-queryable-api-openapi.yml
+  format: yaml
+  label: Dartmouth College Queryable API
+  slug: dartmouth-queryable-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/openapi/dartmouth-queryable-api-openapi.yml
 description: ''
 domains:
 - caa:

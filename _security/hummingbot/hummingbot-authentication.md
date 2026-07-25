@@ -1,12 +1,102 @@
 ---
 api_key_in: []
 api_specs:
-- filename: hummingbot-gateway-openapi-original.json
-  format: json
-  label: Hummingbot Gateway
-  slug: hummingbot-gateway
+- filename: hummingbot-chain-ethereum-api-openapi.yml
+  format: yaml
+  label: Hummingbot /chain/ethereum API
+  slug: hummingbot-chain-ethereum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-gateway-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-chain-ethereum-api-openapi.yml
+- filename: hummingbot-chain-solana-api-openapi.yml
+  format: yaml
+  label: Hummingbot /chain/solana API
+  slug: hummingbot-chain-solana-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-chain-solana-api-openapi.yml
+- filename: hummingbot-config-api-openapi.yml
+  format: yaml
+  label: Hummingbot /config API
+  slug: hummingbot-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-config-api-openapi.yml
+- filename: hummingbot-connector-0x-api-openapi.yml
+  format: yaml
+  label: Hummingbot /connector/0x API
+  slug: hummingbot-connector-0x-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-connector-0x-api-openapi.yml
+- filename: hummingbot-connector-jupiter-api-openapi.yml
+  format: yaml
+  label: Hummingbot /connector/jupiter API
+  slug: hummingbot-connector-jupiter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-connector-jupiter-api-openapi.yml
+- filename: hummingbot-connector-meteora-api-openapi.yml
+  format: yaml
+  label: Hummingbot /connector/meteora API
+  slug: hummingbot-connector-meteora-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-connector-meteora-api-openapi.yml
+- filename: hummingbot-connector-orca-api-openapi.yml
+  format: yaml
+  label: Hummingbot /connector/orca API
+  slug: hummingbot-connector-orca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-connector-orca-api-openapi.yml
+- filename: hummingbot-connector-pancakeswap-api-openapi.yml
+  format: yaml
+  label: Hummingbot /connector/pancakeswap API
+  slug: hummingbot-connector-pancakeswap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-connector-pancakeswap-api-openapi.yml
+- filename: hummingbot-connector-pancakeswap-sol-api-openapi.yml
+  format: yaml
+  label: Hummingbot /connector/pancakeswap-sol API
+  slug: hummingbot-connector-pancakeswap-sol-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-connector-pancakeswap-sol-api-openapi.yml
+- filename: hummingbot-connector-raydium-api-openapi.yml
+  format: yaml
+  label: Hummingbot /connector/raydium API
+  slug: hummingbot-connector-raydium-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-connector-raydium-api-openapi.yml
+- filename: hummingbot-connector-uniswap-api-openapi.yml
+  format: yaml
+  label: Hummingbot /connector/uniswap API
+  slug: hummingbot-connector-uniswap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-connector-uniswap-api-openapi.yml
+- filename: hummingbot-pools-api-openapi.yml
+  format: yaml
+  label: Hummingbot /pools API
+  slug: hummingbot-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-pools-api-openapi.yml
+- filename: hummingbot-tokens-api-openapi.yml
+  format: yaml
+  label: Hummingbot /tokens API
+  slug: hummingbot-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-tokens-api-openapi.yml
+- filename: hummingbot-trading-clmm-api-openapi.yml
+  format: yaml
+  label: Hummingbot /trading/clmm API
+  slug: hummingbot-trading-clmm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-trading-clmm-api-openapi.yml
+- filename: hummingbot-trading-swap-api-openapi.yml
+  format: yaml
+  label: Hummingbot /trading/swap API
+  slug: hummingbot-trading-swap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-trading-swap-api-openapi.yml
+- filename: hummingbot-wallet-api-openapi.yml
+  format: yaml
+  label: Hummingbot /wallet API
+  slug: hummingbot-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-wallet-api-openapi.yml
 auth_types:
 - http-basic
 - passphrase

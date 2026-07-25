@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: ledge-api-openapi.yml
+- filename: ledge-sources-api-openapi.yml
   format: yaml
-  label: Ledge API
-  slug: ledge-api
+  label: Ledge Sources API
+  slug: ledge-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/openapi/ledge-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/openapi/ledge-sources-api-openapi.yml
+- filename: ledge-transactions-api-openapi.yml
+  format: yaml
+  label: Ledge Transactions API
+  slug: ledge-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/openapi/ledge-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

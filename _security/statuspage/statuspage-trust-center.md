@@ -6,6 +6,12 @@ api_specs:
   slug: webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/statuspage/refs/heads/main/asyncapi/statuspage-webhooks-asyncapi.yml
+- filename: statuspage-pages-api-openapi.yml
+  format: yaml
+  label: Statuspage Pages API
+  slug: statuspage-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statuspage/refs/heads/main/openapi/statuspage-pages-api-openapi.yml
 certifications:
 - FedRAMP
 description: ''

@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: bifrost-http-gateway-api.yaml
+- filename: bifrost-chat-api-openapi.yml
   format: yaml
-  label: Bifrost HTTP Gateway API
-  slug: bifrost-http-gateway-api
+  label: Bifrost Chat API
+  slug: bifrost-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bifrost/refs/heads/main/openapi/bifrost-http-gateway-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/bifrost/refs/heads/main/openapi/bifrost-chat-api-openapi.yml
+- filename: bifrost-health-api-openapi.yml
+  format: yaml
+  label: Bifrost Health API
+  slug: bifrost-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bifrost/refs/heads/main/openapi/bifrost-health-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

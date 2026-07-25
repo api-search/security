@@ -1,330 +1,528 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Workday Human Capital Management API
-  slug: workday-human-capital-management-api
-  spec_type: OpenAPI
-  url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Human_Resources/openapi.json
-- filename: openapi.json
-  format: json
-  label: Workday Financial Management API
-  slug: workday-financial-management-api
-  spec_type: OpenAPI
-  url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Financial_Management/openapi.json
-- filename: openapi.json
-  format: json
-  label: Workday Payroll API
-  slug: workday-payroll-api
-  spec_type: OpenAPI
-  url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Payroll/openapi.json
-- filename: openapi.json
-  format: json
-  label: Workday Recruiting API
-  slug: workday-recruiting-api
-  spec_type: OpenAPI
-  url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Recruiting/openapi.json
-- filename: openapi.json
-  format: json
-  label: Workday Time Tracking API
-  slug: workday-time-tracking-api
-  spec_type: OpenAPI
-  url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Time_Tracking/openapi.json
-- filename: workday-integration-integrations-openapi.yml
+- filename: workday-integration-absence-types-api-openapi.yml
   format: yaml
-  label: Workday Integrations API
-  slug: workday-integrations-api
+  label: Workday Integration Absence Types API
+  slug: workday-integration-absence-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-integrations-openapi.yml
-- filename: workday-integration-absence-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-absence-types-api-openapi.yml
+- filename: workday-integration-aca-compliance-api-openapi.yml
   format: yaml
-  label: Workday Absence Management API
-  slug: workday-absence-management-api
+  label: Workday Integration ACA Compliance API
+  slug: workday-integration-aca-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-absence-management-openapi.yml
-- filename: workday-integration-benefits-administration-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-aca-compliance-api-openapi.yml
+- filename: workday-integration-academic-advising-api-openapi.yml
   format: yaml
-  label: Workday Benefits Administration API
-  slug: workday-benefits-administration-api
+  label: Workday Integration Academic Advising API
+  slug: workday-integration-academic-advising-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-benefits-administration-openapi.yml
-- filename: workday-integration-compensation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-academic-advising-api-openapi.yml
+- filename: workday-integration-academic-foundation-api-openapi.yml
   format: yaml
-  label: Workday Compensation API
-  slug: workday-compensation-api
+  label: Workday Integration Academic Foundation API
+  slug: workday-integration-academic-foundation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-compensation-openapi.yml
-- filename: workday-integration-compensation-review-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-academic-foundation-api-openapi.yml
+- filename: workday-integration-admissions-api-openapi.yml
   format: yaml
-  label: Workday Compensation Review API
-  slug: workday-compensation-review-api
+  label: Workday Integration Admissions API
+  slug: workday-integration-admissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-compensation-review-openapi.yml
-- filename: workday-integration-performance-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-admissions-api-openapi.yml
+- filename: workday-integration-adoption-api-openapi.yml
   format: yaml
-  label: Workday Performance Management API
-  slug: workday-performance-management-api
+  label: Workday Integration Adoption API
+  slug: workday-integration-adoption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-performance-management-openapi.yml
-- filename: workday-integration-learning-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-adoption-api-openapi.yml
+- filename: workday-integration-assignments-api-openapi.yml
   format: yaml
-  label: Workday Learning API
-  slug: workday-learning-api
+  label: Workday Integration Assignments API
+  slug: workday-integration-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-learning-openapi.yml
-- filename: workday-integration-talent-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-assignments-api-openapi.yml
+- filename: workday-integration-audit-api-openapi.yml
   format: yaml
-  label: Workday Talent API
-  slug: workday-talent-api
+  label: Workday Integration Audit API
+  slug: workday-integration-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-talent-openapi.yml
-- filename: workday-integration-staffing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-audit-api-openapi.yml
+- filename: workday-integration-balances-api-openapi.yml
   format: yaml
-  label: Workday Staffing API
-  slug: workday-staffing-api
+  label: Workday Integration Balances API
+  slug: workday-integration-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-staffing-openapi.yml
-- filename: workday-integration-cash-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-balances-api-openapi.yml
+- filename: workday-integration-bank-accounts-api-openapi.yml
   format: yaml
-  label: Workday Cash Management API
-  slug: workday-cash-management-api
+  label: Workday Integration Bank Accounts API
+  slug: workday-integration-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-cash-management-openapi.yml
-- filename: workday-integration-revenue-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-bank-accounts-api-openapi.yml
+- filename: workday-integration-bank-statements-api-openapi.yml
   format: yaml
-  label: Workday Revenue Management API
-  slug: workday-revenue-management-api
+  label: Workday Integration Bank Statements API
+  slug: workday-integration-bank-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-revenue-management-openapi.yml
-- filename: workday-integration-resource-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-bank-statements-api-openapi.yml
+- filename: workday-integration-benefit-elections-api-openapi.yml
   format: yaml
-  label: Workday Resource Management API
-  slug: workday-resource-management-api
+  label: Workday Integration Benefit Elections API
+  slug: workday-integration-benefit-elections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-resource-management-openapi.yml
-- filename: workday-integration-professional-services-automation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-benefit-elections-api-openapi.yml
+- filename: workday-integration-benefit-plans-api-openapi.yml
   format: yaml
-  label: Workday Professional Services Automation API
-  slug: workday-professional-services-automation-api
+  label: Workday Integration Benefit Plans API
+  slug: workday-integration-benefit-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-professional-services-automation-openapi.yml
-- filename: workday-integration-workforce-planning-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-benefit-plans-api-openapi.yml
+- filename: workday-integration-benefits-partners-api-openapi.yml
   format: yaml
-  label: Workday Workforce Planning API
-  slug: workday-workforce-planning-api
+  label: Workday Integration Benefits Partners API
+  slug: workday-integration-benefits-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-workforce-planning-openapi.yml
-- filename: workday-integration-identity-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-benefits-partners-api-openapi.yml
+- filename: workday-integration-campus-engagement-api-openapi.yml
   format: yaml
-  label: Workday Identity Management API
-  slug: workday-identity-management-api
+  label: Workday Integration Campus Engagement API
+  slug: workday-integration-campus-engagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-identity-management-openapi.yml
-- filename: workday-integration-notification-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-campus-engagement-api-openapi.yml
+- filename: workday-integration-cash-positions-api-openapi.yml
   format: yaml
-  label: Workday Notification API
-  slug: workday-notification-api
+  label: Workday Integration Cash Positions API
+  slug: workday-integration-cash-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-notification-openapi.yml
-- filename: workday-integration-prism-analytics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-cash-positions-api-openapi.yml
+- filename: workday-integration-clock-events-api-openapi.yml
   format: yaml
-  label: Workday Prism Analytics API
-  slug: workday-prism-analytics-api
+  label: Workday Integration Clock Events API
+  slug: workday-integration-clock-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-prism-analytics-openapi.yml
-- filename: workday-integration-scheduling-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-clock-events-api-openapi.yml
+- filename: workday-integration-compensation-reviews-api-openapi.yml
   format: yaml
-  label: Workday Scheduling API
-  slug: workday-scheduling-api
+  label: Workday Integration Compensation Reviews API
+  slug: workday-integration-compensation-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-scheduling-openapi.yml
-- filename: workday-integration-payroll-interface-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-compensation-reviews-api-openapi.yml
+- filename: workday-integration-completions-api-openapi.yml
   format: yaml
-  label: Workday Payroll Interface API
-  slug: workday-payroll-interface-api
+  label: Workday Integration Completions API
+  slug: workday-integration-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-payroll-interface-openapi.yml
-- filename: workday-integration-dynamic-document-generation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-completions-api-openapi.yml
+- filename: workday-integration-contracts-api-openapi.yml
   format: yaml
-  label: Workday Dynamic Document Generation API
-  slug: workday-dynamic-document-generation-api
+  label: Workday Integration Contracts API
+  slug: workday-integration-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-dynamic-document-generation-openapi.yml
-- filename: workday-integration-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-contracts-api-openapi.yml
+- filename: workday-integration-courses-api-openapi.yml
   format: yaml
-  label: Workday Connect API
-  slug: workday-connect-api
+  label: Workday Integration Courses API
+  slug: workday-integration-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-connect-openapi.yml
-- filename: workday-integration-extensibility-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-courses-api-openapi.yml
+- filename: workday-integration-customers-api-openapi.yml
   format: yaml
-  label: Workday Extensibility API
-  slug: workday-extensibility-api
+  label: Workday Integration Customers API
+  slug: workday-integration-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-extensibility-openapi.yml
-- filename: workday-integration-external-integrations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-customers-api-openapi.yml
+- filename: workday-integration-data-change-tasks-api-openapi.yml
   format: yaml
-  label: Workday External Integrations API
-  slug: workday-external-integrations-api
+  label: Workday Integration Data Change Tasks API
+  slug: workday-integration-data-change-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-external-integrations-openapi.yml
-- filename: workday-integration-inventory-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-data-change-tasks-api-openapi.yml
+- filename: workday-integration-data-translation-api-openapi.yml
   format: yaml
-  label: Workday Inventory API
-  slug: workday-inventory-api
+  label: Workday Integration Data Translation API
+  slug: workday-integration-data-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-inventory-openapi.yml
-- filename: workday-integration-settlement-services-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-data-translation-api-openapi.yml
+- filename: workday-integration-dependents-api-openapi.yml
   format: yaml
-  label: Workday Settlement Services API
-  slug: workday-settlement-services-api
+  label: Workday Integration Dependents API
+  slug: workday-integration-dependents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-settlement-services-openapi.yml
-- filename: workday-integration-student-core-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-dependents-api-openapi.yml
+- filename: workday-integration-document-generation-api-openapi.yml
   format: yaml
-  label: Workday Student Core API
-  slug: workday-student-core-api
+  label: Workday Integration Document Generation API
+  slug: workday-integration-document-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-student-core-openapi.yml
-- filename: workday-integration-student-records-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-document-generation-api-openapi.yml
+- filename: workday-integration-drive-api-openapi.yml
   format: yaml
-  label: Workday Student Records API
-  slug: workday-student-records-api
+  label: Workday Integration Drive API
+  slug: workday-integration-drive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-student-records-openapi.yml
-- filename: workday-integration-student-finance-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-drive-api-openapi.yml
+- filename: workday-integration-extensibility-api-openapi.yml
   format: yaml
-  label: Workday Student Finance API
-  slug: workday-student-finance-api
+  label: Workday Integration Extensibility API
+  slug: workday-integration-extensibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-student-finance-openapi.yml
-- filename: workday-integration-student-recruiting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-extensibility-api-openapi.yml
+- filename: workday-integration-external-integrations-api-openapi.yml
   format: yaml
-  label: Workday Student Recruiting API
-  slug: workday-student-recruiting-api
+  label: Workday Integration External Integrations API
+  slug: workday-integration-external-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-student-recruiting-openapi.yml
-- filename: workday-integration-admissions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-external-integrations-api-openapi.yml
+- filename: workday-integration-feedback-api-openapi.yml
   format: yaml
-  label: Workday Admissions API
-  slug: workday-admissions-api
+  label: Workday Integration Feedback API
+  slug: workday-integration-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-admissions-openapi.yml
-- filename: workday-integration-financial-aid-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-feedback-api-openapi.yml
+- filename: workday-integration-file-containers-api-openapi.yml
   format: yaml
-  label: Workday Financial Aid API
-  slug: workday-financial-aid-api
+  label: Workday Integration File Containers API
+  slug: workday-integration-file-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-financial-aid-openapi.yml
-- filename: workday-integration-academic-foundation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-file-containers-api-openapi.yml
+- filename: workday-integration-financial-aid-api-openapi.yml
   format: yaml
-  label: Workday Academic Foundation API
-  slug: workday-academic-foundation-api
+  label: Workday Integration Financial Aid API
+  slug: workday-integration-financial-aid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-academic-foundation-openapi.yml
-- filename: workday-integration-academic-advising-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-financial-aid-api-openapi.yml
+- filename: workday-integration-flex-teams-api-openapi.yml
   format: yaml
-  label: Workday Academic Advising API
-  slug: workday-academic-advising-api
+  label: Workday Integration Flex Teams API
+  slug: workday-integration-flex-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-academic-advising-openapi.yml
-- filename: workday-integration-student-transfer-credit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-flex-teams-api-openapi.yml
+- filename: workday-integration-goals-api-openapi.yml
   format: yaml
-  label: Workday Student Transfer Credit API
-  slug: workday-student-transfer-credit-api
+  label: Workday Integration Goals API
+  slug: workday-integration-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-student-transfer-credit-openapi.yml
-- filename: workday-integration-campus-engagement-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-goals-api-openapi.yml
+- filename: workday-integration-identity-management-api-openapi.yml
   format: yaml
-  label: Workday Campus Engagement API
-  slug: workday-campus-engagement-api
+  label: Workday Integration Identity Management API
+  slug: workday-integration-identity-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-campus-engagement-openapi.yml
-- filename: workday-integration-tenant-data-translation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-identity-management-api-openapi.yml
+- filename: workday-integration-integration-events-api-openapi.yml
   format: yaml
-  label: Workday Tenant Data Translation API
-  slug: workday-tenant-data-translation-api
+  label: Workday Integration Integration Events API
+  slug: workday-integration-integration-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-tenant-data-translation-openapi.yml
-- filename: workday-integration-metadata-translations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-integration-events-api-openapi.yml
+- filename: workday-integration-integration-systems-api-openapi.yml
   format: yaml
-  label: Workday Metadata Translations API
-  slug: workday-metadata-translations-api
+  label: Workday Integration Integration Systems API
+  slug: workday-integration-integration-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-metadata-translations-openapi.yml
-- filename: workday-integration-drive-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-integration-systems-api-openapi.yml
+- filename: workday-integration-interviews-api-openapi.yml
   format: yaml
-  label: Workday Drive API
-  slug: workday-drive-api
+  label: Workday Integration Interviews API
+  slug: workday-integration-interviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-drive-openapi.yml
-- filename: workday-integration-adoption-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-interviews-api-openapi.yml
+- filename: workday-integration-inventory-api-openapi.yml
   format: yaml
-  label: Workday Adoption API
-  slug: workday-adoption-api
+  label: Workday Integration Inventory API
+  slug: workday-integration-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-adoption-openapi.yml
-- filename: workday-integration-moments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-inventory-api-openapi.yml
+- filename: workday-integration-job-postings-api-openapi.yml
   format: yaml
-  label: Workday Moments API
-  slug: workday-moments-api
+  label: Workday Integration Job Postings API
+  slug: workday-integration-job-postings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-moments-openapi.yml
-- filename: workday-integration-org-studio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-job-postings-api-openapi.yml
+- filename: workday-integration-job-profiles-api-openapi.yml
   format: yaml
-  label: Workday Org Studio API
-  slug: workday-org-studio-api
+  label: Workday Integration Job Profiles API
+  slug: workday-integration-job-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-org-studio-openapi.yml
-- filename: workday-integration-flex-team-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-job-profiles-api-openapi.yml
+- filename: workday-integration-jobs-api-openapi.yml
   format: yaml
-  label: Workday Flex Team API
-  slug: workday-flex-team-api
+  label: Workday Integration Jobs API
+  slug: workday-integration-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-flex-team-openapi.yml
-- filename: workday-integration-requests-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-jobs-api-openapi.yml
+- filename: workday-integration-leave-of-absence-api-openapi.yml
   format: yaml
-  label: Workday Requests API
-  slug: workday-requests-api
+  label: Workday Integration Leave of Absence API
+  slug: workday-integration-leave-of-absence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-requests-openapi.yml
-- filename: workday-integration-aca-partner-integrations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-leave-of-absence-api-openapi.yml
+- filename: workday-integration-mentorships-api-openapi.yml
   format: yaml
-  label: Workday ACA Partner Integrations API
-  slug: workday-aca-partner-integrations-api
+  label: Workday Integration Mentorships API
+  slug: workday-integration-mentorships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-aca-partner-integrations-openapi.yml
-- filename: workday-integration-benefits-partner-program-integrations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-mentorships-api-openapi.yml
+- filename: workday-integration-messaging-api-openapi.yml
   format: yaml
-  label: Workday Benefits Partner Program Integrations API
-  slug: workday-benefits-partner-program-integrations-api
+  label: Workday Integration Messaging API
+  slug: workday-integration-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-benefits-partner-program-integrations-openapi.yml
-- filename: workday-integration-payroll-aus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-messaging-api-openapi.yml
+- filename: workday-integration-metadata-translations-api-openapi.yml
   format: yaml
-  label: Workday Payroll AUS API
-  slug: workday-payroll-aus-api
+  label: Workday Integration Metadata Translations API
+  slug: workday-integration-metadata-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-payroll-aus-openapi.yml
-- filename: workday-integration-payroll-can-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-metadata-translations-api-openapi.yml
+- filename: workday-integration-moments-api-openapi.yml
   format: yaml
-  label: Workday Payroll CAN API
-  slug: workday-payroll-can-api
+  label: Workday Integration Moments API
+  slug: workday-integration-moments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-payroll-can-openapi.yml
-- filename: workday-integration-payroll-fra-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-moments-api-openapi.yml
+- filename: workday-integration-notifications-api-openapi.yml
   format: yaml
-  label: Workday Payroll FRA API
-  slug: workday-payroll-fra-api
+  label: Workday Integration Notifications API
+  slug: workday-integration-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-payroll-fra-openapi.yml
-- filename: workday-integration-payroll-gbr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-notifications-api-openapi.yml
+- filename: workday-integration-org-studio-api-openapi.yml
   format: yaml
-  label: Workday Payroll GBR API
-  slug: workday-payroll-gbr-api
+  label: Workday Integration Org Studio API
+  slug: workday-integration-org-studio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-payroll-gbr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-org-studio-api-openapi.yml
+- filename: workday-integration-organizations-api-openapi.yml
+  format: yaml
+  label: Workday Integration Organizations API
+  slug: workday-integration-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-organizations-api-openapi.yml
+- filename: workday-integration-pay-groups-api-openapi.yml
+  format: yaml
+  label: Workday Integration Pay Groups API
+  slug: workday-integration-pay-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-pay-groups-api-openapi.yml
+- filename: workday-integration-payments-api-openapi.yml
+  format: yaml
+  label: Workday Integration Payments API
+  slug: workday-integration-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-payments-api-openapi.yml
+- filename: workday-integration-payroll-api-openapi.yml
+  format: yaml
+  label: Workday Integration Payroll API
+  slug: workday-integration-payroll-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-payroll-api-openapi.yml
+- filename: workday-integration-payroll-australia-api-openapi.yml
+  format: yaml
+  label: Workday Integration Payroll Australia API
+  slug: workday-integration-payroll-australia-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-payroll-australia-api-openapi.yml
+- filename: workday-integration-payroll-canada-api-openapi.yml
+  format: yaml
+  label: Workday Integration Payroll Canada API
+  slug: workday-integration-payroll-canada-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-payroll-canada-api-openapi.yml
+- filename: workday-integration-payroll-france-api-openapi.yml
+  format: yaml
+  label: Workday Integration Payroll France API
+  slug: workday-integration-payroll-france-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-payroll-france-api-openapi.yml
+- filename: workday-integration-payroll-inputs-api-openapi.yml
+  format: yaml
+  label: Workday Integration Payroll Inputs API
+  slug: workday-integration-payroll-inputs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-payroll-inputs-api-openapi.yml
+- filename: workday-integration-payroll-interface-api-openapi.yml
+  format: yaml
+  label: Workday Integration Payroll Interface API
+  slug: workday-integration-payroll-interface-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-payroll-interface-api-openapi.yml
+- filename: workday-integration-payroll-uk-api-openapi.yml
+  format: yaml
+  label: Workday Integration Payroll UK API
+  slug: workday-integration-payroll-uk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-payroll-uk-api-openapi.yml
+- filename: workday-integration-performance-reviews-api-openapi.yml
+  format: yaml
+  label: Workday Integration Performance Reviews API
+  slug: workday-integration-performance-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-performance-reviews-api-openapi.yml
+- filename: workday-integration-positions-api-openapi.yml
+  format: yaml
+  label: Workday Integration Positions API
+  slug: workday-integration-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-positions-api-openapi.yml
+- filename: workday-integration-professional-services-api-openapi.yml
+  format: yaml
+  label: Workday Integration Professional Services API
+  slug: workday-integration-professional-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-professional-services-api-openapi.yml
+- filename: workday-integration-prospects-api-openapi.yml
+  format: yaml
+  label: Workday Integration Prospects API
+  slug: workday-integration-prospects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-prospects-api-openapi.yml
+- filename: workday-integration-reference-data-api-openapi.yml
+  format: yaml
+  label: Workday Integration Reference Data API
+  slug: workday-integration-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-reference-data-api-openapi.yml
+- filename: workday-integration-requests-api-openapi.yml
+  format: yaml
+  label: Workday Integration Requests API
+  slug: workday-integration-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-requests-api-openapi.yml
+- filename: workday-integration-resource-management-api-openapi.yml
+  format: yaml
+  label: Workday Integration Resource Management API
+  slug: workday-integration-resource-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-resource-management-api-openapi.yml
+- filename: workday-integration-revenue-schedules-api-openapi.yml
+  format: yaml
+  label: Workday Integration Revenue Schedules API
+  slug: workday-integration-revenue-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-revenue-schedules-api-openapi.yml
+- filename: workday-integration-scheduling-api-openapi.yml
+  format: yaml
+  label: Workday Integration Scheduling API
+  slug: workday-integration-scheduling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-scheduling-api-openapi.yml
+- filename: workday-integration-scorecards-api-openapi.yml
+  format: yaml
+  label: Workday Integration Scorecards API
+  slug: workday-integration-scorecards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-scorecards-api-openapi.yml
+- filename: workday-integration-settlement-services-api-openapi.yml
+  format: yaml
+  label: Workday Integration Settlement Services API
+  slug: workday-integration-settlement-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-settlement-services-api-openapi.yml
+- filename: workday-integration-student-core-api-openapi.yml
+  format: yaml
+  label: Workday Integration Student Core API
+  slug: workday-integration-student-core-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-student-core-api-openapi.yml
+- filename: workday-integration-student-finance-api-openapi.yml
+  format: yaml
+  label: Workday Integration Student Finance API
+  slug: workday-integration-student-finance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-student-finance-api-openapi.yml
+- filename: workday-integration-student-records-api-openapi.yml
+  format: yaml
+  label: Workday Integration Student Records API
+  slug: workday-integration-student-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-student-records-api-openapi.yml
+- filename: workday-integration-student-recruiting-api-openapi.yml
+  format: yaml
+  label: Workday Integration Student Recruiting API
+  slug: workday-integration-student-recruiting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-student-recruiting-api-openapi.yml
+- filename: workday-integration-suppliers-api-openapi.yml
+  format: yaml
+  label: Workday Integration Suppliers API
+  slug: workday-integration-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-suppliers-api-openapi.yml
+- filename: workday-integration-tables-api-openapi.yml
+  format: yaml
+  label: Workday Integration Tables API
+  slug: workday-integration-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-tables-api-openapi.yml
+- filename: workday-integration-talent-pools-api-openapi.yml
+  format: yaml
+  label: Workday Integration Talent Pools API
+  slug: workday-integration-talent-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-talent-pools-api-openapi.yml
+- filename: workday-integration-tax-rates-api-openapi.yml
+  format: yaml
+  label: Workday Integration Tax Rates API
+  slug: workday-integration-tax-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-tax-rates-api-openapi.yml
+- filename: workday-integration-time-blocks-api-openapi.yml
+  format: yaml
+  label: Workday Integration Time Blocks API
+  slug: workday-integration-time-blocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-time-blocks-api-openapi.yml
+- filename: workday-integration-time-off-api-openapi.yml
+  format: yaml
+  label: Workday Integration Time Off API
+  slug: workday-integration-time-off-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-time-off-api-openapi.yml
+- filename: workday-integration-time-reviews-api-openapi.yml
+  format: yaml
+  label: Workday Integration Time Reviews API
+  slug: workday-integration-time-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-time-reviews-api-openapi.yml
+- filename: workday-integration-transfer-credit-api-openapi.yml
+  format: yaml
+  label: Workday Integration Transfer Credit API
+  slug: workday-integration-transfer-credit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-transfer-credit-api-openapi.yml
+- filename: workday-integration-validations-api-openapi.yml
+  format: yaml
+  label: Workday Integration Validations API
+  slug: workday-integration-validations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-validations-api-openapi.yml
+- filename: workday-integration-workers-api-openapi.yml
+  format: yaml
+  label: Workday Integration Workers API
+  slug: workday-integration-workers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-workers-api-openapi.yml
+- filename: workday-integration-workforce-planning-api-openapi.yml
+  format: yaml
+  label: Workday Integration Workforce Planning API
+  slug: workday-integration-workforce-planning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-workforce-planning-api-openapi.yml
+- filename: workday-integration-worktags-api-openapi.yml
+  format: yaml
+  label: Workday Integration Worktags API
+  slug: workday-integration-worktags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-worktags-api-openapi.yml
+- filename: workday-integration-wql-api-openapi.yml
+  format: yaml
+  label: Workday Integration WQL API
+  slug: workday-integration-wql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-wql-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

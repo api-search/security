@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: tiingo-openapi.yml
+  format: yaml
+  label: Tiingo End-of-Day API
+  slug: end-of-day-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/openapi/tiingo-openapi.yml
+- filename: tiingo-openapi.yml
+  format: yaml
+  label: Tiingo IEX Intraday API
+  slug: iex-intraday-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/openapi/tiingo-openapi.yml
+- filename: tiingo-openapi.yml
+  format: yaml
+  label: Tiingo Crypto API
+  slug: crypto-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/openapi/tiingo-openapi.yml
+- filename: tiingo-openapi.yml
+  format: yaml
+  label: Tiingo Forex API
+  slug: forex-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/openapi/tiingo-openapi.yml
+- filename: tiingo-openapi.yml
+  format: yaml
+  label: Tiingo Fundamentals API
+  slug: fundamentals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/openapi/tiingo-openapi.yml
+- filename: tiingo-openapi.yml
+  format: yaml
+  label: Tiingo News API
+  slug: news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/openapi/tiingo-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,47 +1,137 @@
 ---
 api_specs:
-- filename: openapi
+- filename: citrix-access-policies-api-openapi.yml
   format: yaml
-  label: Citrix Virtual Apps and Desktops REST API
-  slug: citrix-virtual-apps-and-desktops-rest-api
+  label: Citrix Access Policies API
+  slug: citrix-access-policies-api
   spec_type: OpenAPI
-  url: https://developer.citrix.com/citrix-virtual-apps-and-desktops/citrix-cvad-rest-apis/docs/openapi
-- filename: citrix-adc-nitro-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-access-policies-api-openapi.yml
+- filename: citrix-application-domains-api-openapi.yml
   format: yaml
-  label: Citrix ADC (NetScaler) NITRO API
-  slug: citrix-adc-netscaler-nitro-api
+  label: Citrix Application Domains API
+  slug: citrix-application-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-adc-nitro-openapi.yml
-- filename: openapi
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-application-domains-api-openapi.yml
+- filename: citrix-applications-api-openapi.yml
   format: yaml
-  label: Citrix DaaS REST API
-  slug: citrix-daas-rest-api
+  label: Citrix Applications API
+  slug: citrix-applications-api
   spec_type: OpenAPI
-  url: https://developer.citrix.com/citrix-daas/citrix-daas-rest-apis/docs/openapi
-- filename: citrix-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-applications-api-openapi.yml
+- filename: citrix-authentication-api-openapi.yml
   format: yaml
-  label: Citrix Cloud API
-  slug: citrix-cloud-api
+  label: Citrix Authentication API
+  slug: citrix-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-cloud-openapi.yml
-- filename: citrix-storefront-web-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-authentication-api-openapi.yml
+- filename: citrix-certificates-api-openapi.yml
   format: yaml
-  label: Citrix StoreFront Web API
-  slug: citrix-storefront-web-api
+  label: Citrix Certificates API
+  slug: citrix-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-storefront-web-openapi.yml
-- filename: citrix-endpoint-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-certificates-api-openapi.yml
+- filename: citrix-content-switching-api-openapi.yml
   format: yaml
-  label: Citrix Endpoint Management REST API
-  slug: citrix-endpoint-management-rest-api
+  label: Citrix Content Switching API
+  slug: citrix-content-switching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-endpoint-management-openapi.yml
-- filename: citrix-secure-private-access-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-content-switching-api-openapi.yml
+- filename: citrix-delivery-groups-api-openapi.yml
   format: yaml
-  label: Citrix Secure Private Access API
-  slug: citrix-secure-private-access-api
+  label: Citrix Delivery Groups API
+  slug: citrix-delivery-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-secure-private-access-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-delivery-groups-api-openapi.yml
+- filename: citrix-devices-api-openapi.yml
+  format: yaml
+  label: Citrix Devices API
+  slug: citrix-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-devices-api-openapi.yml
+- filename: citrix-hypervisors-api-openapi.yml
+  format: yaml
+  label: Citrix Hypervisors API
+  slug: citrix-hypervisors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-hypervisors-api-openapi.yml
+- filename: citrix-launch-api-openapi.yml
+  format: yaml
+  label: Citrix Launch API
+  slug: citrix-launch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-launch-api-openapi.yml
+- filename: citrix-load-balancing-api-openapi.yml
+  format: yaml
+  label: Citrix Load Balancing API
+  slug: citrix-load-balancing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-load-balancing-api-openapi.yml
+- filename: citrix-machine-catalogs-api-openapi.yml
+  format: yaml
+  label: Citrix Machine Catalogs API
+  slug: citrix-machine-catalogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-machine-catalogs-api-openapi.yml
+- filename: citrix-machines-api-openapi.yml
+  format: yaml
+  label: Citrix Machines API
+  slug: citrix-machines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-machines-api-openapi.yml
+- filename: citrix-notifications-api-openapi.yml
+  format: yaml
+  label: Citrix Notifications API
+  slug: citrix-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-notifications-api-openapi.yml
+- filename: citrix-policies-api-openapi.yml
+  format: yaml
+  label: Citrix Policies API
+  slug: citrix-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-policies-api-openapi.yml
+- filename: citrix-resource-locations-api-openapi.yml
+  format: yaml
+  label: Citrix Resource Locations API
+  slug: citrix-resource-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-resource-locations-api-openapi.yml
+- filename: citrix-resources-api-openapi.yml
+  format: yaml
+  label: Citrix Resources API
+  slug: citrix-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-resources-api-openapi.yml
+- filename: citrix-service-principals-api-openapi.yml
+  format: yaml
+  label: Citrix Service Principals API
+  slug: citrix-service-principals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-service-principals-api-openapi.yml
+- filename: citrix-sessions-api-openapi.yml
+  format: yaml
+  label: Citrix Sessions API
+  slug: citrix-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-sessions-api-openapi.yml
+- filename: citrix-ssl-api-openapi.yml
+  format: yaml
+  label: Citrix SSL API
+  slug: citrix-ssl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-ssl-api-openapi.yml
+- filename: citrix-system-api-openapi.yml
+  format: yaml
+  label: Citrix System API
+  slug: citrix-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-system-api-openapi.yml
+- filename: citrix-users-api-openapi.yml
+  format: yaml
+  label: Citrix Users API
+  slug: citrix-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

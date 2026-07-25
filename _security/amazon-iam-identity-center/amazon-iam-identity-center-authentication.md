@@ -2,18 +2,342 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-iam-identity-center-sso-admin-openapi-original.yml
+- filename: amazon-iam-identity-center-x-amz-target-awsidentitystore-creategroup-api-openapi.yml
   format: yaml
-  label: AWS IAM Identity Center SSO Admin API
-  slug: aws-sso-admin-api
+  label: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.CreateGroup API'
+  slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-creategroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-sso-admin-openapi-original.yml
-- filename: amazon-iam-identity-center-identitystore-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-awsidentitystore-creategroup-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-awsidentitystore-creategroupmembership-api-openapi.yml
   format: yaml
-  label: AWS IAM Identity Center Identity Store API
-  slug: aws-identitystore-api
+  label: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.CreateGroupMembership API'
+  slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-creategroupmembership-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-identitystore-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-awsidentitystore-creategroupmembership-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-awsidentitystore-createuser-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.CreateUser API'
+  slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-createuser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-awsidentitystore-createuser-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-awsidentitystore-deletegroup-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.DeleteGroup API'
+  slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-deletegroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-awsidentitystore-deletegroup-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-awsidentitystore-deletegroupmembership-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.DeleteGroupMembership API'
+  slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-deletegroupmembership-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-awsidentitystore-deletegroupmembership-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-awsidentitystore-deleteuser-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.DeleteUser API'
+  slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-deleteuser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-awsidentitystore-deleteuser-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-awsidentitystore-describegroup-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.DescribeGroup API'
+  slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-describegroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-awsidentitystore-describegroup-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-awsidentitystore-describegroupmembership-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.DescribeGroupMembership API'
+  slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-describegroupmembership-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-awsidentitystore-describegroupmembership-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-awsidentitystore-describeuser-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.DescribeUser API'
+  slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-describeuser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-awsidentitystore-describeuser-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-awsidentitystore-getgroupid-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.GetGroupId API'
+  slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-getgroupid-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-awsidentitystore-getgroupid-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-awsidentitystore-getgroupmembershipid-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.GetGroupMembershipId API'
+  slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-getgroupmembershipid-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-awsidentitystore-getgroupmembershipid-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-awsidentitystore-getuserid-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.GetUserId API'
+  slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-getuserid-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-awsidentitystore-getuserid-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-awsidentitystore-ismemberingroups-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.IsMemberInGroups API'
+  slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-ismemberingroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-awsidentitystore-ismemberingroups-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-awsidentitystore-listgroupmemberships-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.ListGroupMemberships API'
+  slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-listgroupmemberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-awsidentitystore-listgroupmemberships-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-awsidentitystore-listgroupmembershipsformember-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.ListGroupMembershipsForMember API'
+  slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-listgroupmembershipsformember-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-awsidentitystore-listgroupmembershipsformember-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-awsidentitystore-listgroups-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.ListGroups API'
+  slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-listgroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-awsidentitystore-listgroups-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-awsidentitystore-listusers-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.ListUsers API'
+  slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-listusers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-awsidentitystore-listusers-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-awsidentitystore-updategroup-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.UpdateGroup API'
+  slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-updategroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-awsidentitystore-updategroup-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-awsidentitystore-updateuser-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.UpdateUser API'
+  slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-updateuser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-awsidentitystore-updateuser-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-attachcustomermanagedpolicyreferencetopermissionset-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.AttachCustomerManagedPolicyReferenceToPermissionSet API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-attachcustomermanagedpolicyreferencetopermissionset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-attachcustomermanagedpolicyreferencetopermissionset-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-attachmanagedpolicytopermissionset-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.AttachManagedPolicyToPermissionSet API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-attachmanagedpolicytopermissionset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-attachmanagedpolicytopermissionset-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-createaccountassignment-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.CreateAccountAssignment API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-createaccountassignment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-createaccountassignment-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-createinstanceaccesscontrolattributeconfiguration-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.CreateInstanceAccessControlAttributeConfiguration API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-createinstanceaccesscontrolattributeconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-createinstanceaccesscontrolattributeconfiguration-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-createpermissionset-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.CreatePermissionSet API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-createpermissionset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-createpermissionset-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-deleteaccountassignment-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DeleteAccountAssignment API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-deleteaccountassignment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-deleteaccountassignment-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-deleteinlinepolicyfrompermissionset-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DeleteInlinePolicyFromPermissionSet API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-deleteinlinepolicyfrompermissionset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-deleteinlinepolicyfrompermissionset-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-deleteinstanceaccesscontrolattributeconfiguration-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DeleteInstanceAccessControlAttributeConfiguration API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-deleteinstanceaccesscontrolattributeconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-deleteinstanceaccesscontrolattributeconfiguration-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-deletepermissionsboundaryfrompermissionset-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DeletePermissionsBoundaryFromPermissionSet API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-deletepermissionsboundaryfrompermissionset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-deletepermissionsboundaryfrompermissionset-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-deletepermissionset-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DeletePermissionSet API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-deletepermissionset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-deletepermissionset-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-describeaccountassignmentcreationstatus-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DescribeAccountAssignmentCreationStatus API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-describeaccountassignmentcreationstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-describeaccountassignmentcreationstatus-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-describeaccountassignmentdeletionstatus-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DescribeAccountAssignmentDeletionStatus API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-describeaccountassignmentdeletionstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-describeaccountassignmentdeletionstatus-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-describeinstanceaccesscontrolattributeconfiguration-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DescribeInstanceAccessControlAttributeConfiguration API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-describeinstanceaccesscontrolattributeconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-describeinstanceaccesscontrolattributeconfiguration-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-describepermissionset-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DescribePermissionSet API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-describepermissionset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-describepermissionset-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-describepermissionsetprovisioningstatus-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DescribePermissionSetProvisioningStatus API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-describepermissionsetprovisioningstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-describepermissionsetprovisioningstatus-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-detachcustomermanagedpolicyreferencefrompermissionset-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DetachCustomerManagedPolicyReferenceFromPermissionSet API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-detachcustomermanagedpolicyreferencefrompermissionset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-detachcustomermanagedpolicyreferencefrompermissionset-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-detachmanagedpolicyfrompermissionset-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DetachManagedPolicyFromPermissionSet API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-detachmanagedpolicyfrompermissionset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-detachmanagedpolicyfrompermissionset-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-getinlinepolicyforpermissionset-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.GetInlinePolicyForPermissionSet API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-getinlinepolicyforpermissionset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-getinlinepolicyforpermissionset-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-getpermissionsboundaryforpermissionset-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.GetPermissionsBoundaryForPermissionSet API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-getpermissionsboundaryforpermissionset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-getpermissionsboundaryforpermissionset-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountassignmentcreationstatus-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ListAccountAssignmentCreationStatus API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountassignmentcreationstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountassignmentcreationstatus-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountassignmentdeletionstatus-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ListAccountAssignmentDeletionStatus API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountassignmentdeletionstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountassignmentdeletionstatus-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountassignments-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ListAccountAssignments API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountassignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountassignments-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountsforprovisionedpermissionset-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ListAccountsForProvisionedPermissionSet API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountsforprovisionedpermissionset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountsforprovisionedpermissionset-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-listcustomermanagedpolicyreferencesinpermissionset-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ListCustomerManagedPolicyReferencesInPermissionSet API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-listcustomermanagedpolicyreferencesinpermissionset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-listcustomermanagedpolicyreferencesinpermissionset-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-listinstances-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ListInstances API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-listinstances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-listinstances-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-listmanagedpoliciesinpermissionset-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ListManagedPoliciesInPermissionSet API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-listmanagedpoliciesinpermissionset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-listmanagedpoliciesinpermissionset-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-listpermissionsetprovisioningstatus-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ListPermissionSetProvisioningStatus API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-listpermissionsetprovisioningstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-listpermissionsetprovisioningstatus-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-listpermissionsets-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ListPermissionSets API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-listpermissionsets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-listpermissionsets-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-listpermissionsetsprovisionedtoaccount-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ListPermissionSetsProvisionedToAccount API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-listpermissionsetsprovisionedtoaccount-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-listpermissionsetsprovisionedtoaccount-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-listtagsforresource-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ListTagsForResource API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-listtagsforresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-listtagsforresource-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-provisionpermissionset-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ProvisionPermissionSet API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-provisionpermissionset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-provisionpermissionset-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-putinlinepolicytopermissionset-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.PutInlinePolicyToPermissionSet API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-putinlinepolicytopermissionset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-putinlinepolicytopermissionset-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-putpermissionsboundarytopermissionset-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.PutPermissionsBoundaryToPermissionSet API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-putpermissionsboundarytopermissionset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-putpermissionsboundarytopermissionset-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-tagresource-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.TagResource API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-tagresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-tagresource-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-untagresource-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.UntagResource API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-untagresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-untagresource-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-updateinstanceaccesscontrolattributeconfiguration-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.UpdateInstanceAccessControlAttributeConfiguration API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-updateinstanceaccesscontrolattributeconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-updateinstanceaccesscontrolattributeconfiguration-api-openapi.yml
+- filename: amazon-iam-identity-center-x-amz-target-swbexternalservice-updatepermissionset-api-openapi.yml
+  format: yaml
+  label: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.UpdatePermissionSet API'
+  slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-updatepermissionset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-updatepermissionset-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

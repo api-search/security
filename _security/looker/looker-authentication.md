@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: looker-api-openapi.yml
+- filename: looker-auth-api-openapi.yml
   format: yaml
-  label: Looker API
-  slug: api
+  label: Looker Auth API
+  slug: looker-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/openapi/looker-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/openapi/looker-auth-api-openapi.yml
+- filename: looker-dashboard-api-openapi.yml
+  format: yaml
+  label: Looker Dashboard API
+  slug: looker-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/openapi/looker-dashboard-api-openapi.yml
+- filename: looker-look-api-openapi.yml
+  format: yaml
+  label: Looker Look API
+  slug: looker-look-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/openapi/looker-look-api-openapi.yml
+- filename: looker-query-api-openapi.yml
+  format: yaml
+  label: Looker Query API
+  slug: looker-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/openapi/looker-query-api-openapi.yml
+- filename: looker-user-api-openapi.yml
+  format: yaml
+  label: Looker User API
+  slug: looker-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/openapi/looker-user-api-openapi.yml
 auth_types:
 - http
 description: ''

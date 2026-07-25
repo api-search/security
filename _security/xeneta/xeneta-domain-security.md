@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: xeneta-api-30-openapi.yml
+- filename: xeneta-air-api-openapi.yml
   format: yaml
-  label: Xeneta API
-  slug: xeneta-api
+  label: Xeneta Air API
+  slug: xeneta-air-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/openapi/xeneta-api-30-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/openapi/xeneta-air-api-openapi.yml
+- filename: xeneta-ocean-api-openapi.yml
+  format: yaml
+  label: Xeneta Ocean API
+  slug: xeneta-ocean-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/openapi/xeneta-ocean-api-openapi.yml
 description: ''
 domains:
 - caa: []

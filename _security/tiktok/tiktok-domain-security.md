@@ -1,23 +1,65 @@
 ---
 api_specs:
-- filename: tiktok-business-openapi.yml
+- filename: tiktok-ad-groups-api-openapi.yml
   format: yaml
-  label: TikTok API for Business
-  slug: tiktok-business-api
+  label: TikTok Ad Groups API
+  slug: tiktok-ad-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-business-openapi.yml
-- filename: tiktok-shop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-ad-groups-api-openapi.yml
+- filename: tiktok-ads-api-openapi.yml
   format: yaml
-  label: TikTok Shop API
-  slug: tiktok-shop-api
+  label: TikTok Ads API
+  slug: tiktok-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-shop-openapi.yml
-- filename: tiktok-data-portability-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-ads-api-openapi.yml
+- filename: tiktok-audiences-api-openapi.yml
+  format: yaml
+  label: TikTok Audiences API
+  slug: tiktok-audiences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-audiences-api-openapi.yml
+- filename: tiktok-campaigns-api-openapi.yml
+  format: yaml
+  label: TikTok Campaigns API
+  slug: tiktok-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-campaigns-api-openapi.yml
+- filename: tiktok-data-portability-api-openapi.yml
   format: yaml
   label: TikTok Data Portability API
   slug: tiktok-data-portability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-data-portability-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-data-portability-api-openapi.yml
+- filename: tiktok-finance-api-openapi.yml
+  format: yaml
+  label: TikTok Finance API
+  slug: tiktok-finance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-finance-api-openapi.yml
+- filename: tiktok-logistics-api-openapi.yml
+  format: yaml
+  label: TikTok Logistics API
+  slug: tiktok-logistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-logistics-api-openapi.yml
+- filename: tiktok-orders-api-openapi.yml
+  format: yaml
+  label: TikTok Orders API
+  slug: tiktok-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-orders-api-openapi.yml
+- filename: tiktok-products-api-openapi.yml
+  format: yaml
+  label: TikTok Products API
+  slug: tiktok-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-products-api-openapi.yml
+- filename: tiktok-reporting-api-openapi.yml
+  format: yaml
+  label: TikTok Reporting API
+  slug: tiktok-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-reporting-api-openapi.yml
 description: ''
 domains:
 - caa: []

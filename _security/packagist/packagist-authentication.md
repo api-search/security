@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: packagist-api-openapi.yml
+- filename: packagist-metadata-api-openapi.yml
   format: yaml
-  label: Packagist API
-  slug: packagist-api
+  label: Packagist Metadata API
+  slug: packagist-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/openapi/packagist-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/openapi/packagist-metadata-api-openapi.yml
+- filename: packagist-packages-api-openapi.yml
+  format: yaml
+  label: Packagist Packages API
+  slug: packagist-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/openapi/packagist-packages-api-openapi.yml
+- filename: packagist-search-api-openapi.yml
+  format: yaml
+  label: Packagist Search API
+  slug: packagist-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/openapi/packagist-search-api-openapi.yml
+- filename: packagist-security-api-openapi.yml
+  format: yaml
+  label: Packagist Security API
+  slug: packagist-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/openapi/packagist-security-api-openapi.yml
+- filename: packagist-statistics-api-openapi.yml
+  format: yaml
+  label: Packagist Statistics API
+  slug: packagist-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/openapi/packagist-statistics-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: wondercraft-openapi.yml
+- filename: wondercraft-account-api-openapi.yml
+  format: yaml
+  label: Wondercraft Account API
+  slug: wondercraft-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wondercraft/refs/heads/main/openapi/wondercraft-account-api-openapi.yml
+- filename: wondercraft-audio-generation-api-openapi.yml
   format: yaml
   label: Wondercraft Audio Generation API
-  slug: audio-generation-api
+  slug: wondercraft-audio-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wondercraft/refs/heads/main/openapi/wondercraft-openapi.yml
-- filename: wondercraft-openapi.yml
-  format: yaml
-  label: Wondercraft Scripted Audio API
-  slug: scripted-audio-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wondercraft/refs/heads/main/openapi/wondercraft-openapi.yml
-- filename: wondercraft-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wondercraft/refs/heads/main/openapi/wondercraft-audio-generation-api-openapi.yml
+- filename: wondercraft-convo-mode-api-openapi.yml
   format: yaml
   label: Wondercraft Convo Mode API
-  slug: convo-mode-api
+  slug: wondercraft-convo-mode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wondercraft/refs/heads/main/openapi/wondercraft-openapi.yml
-- filename: wondercraft-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wondercraft/refs/heads/main/openapi/wondercraft-convo-mode-api-openapi.yml
+- filename: wondercraft-jobs-api-openapi.yml
   format: yaml
-  label: Wondercraft Job Status API
-  slug: job-status-api
+  label: Wondercraft Jobs API
+  slug: wondercraft-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wondercraft/refs/heads/main/openapi/wondercraft-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wondercraft/refs/heads/main/openapi/wondercraft-jobs-api-openapi.yml
 description: ''
 domains:
 - caa:

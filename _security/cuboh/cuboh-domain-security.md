@@ -1,29 +1,23 @@
 ---
 api_specs:
-- filename: cuboh-openapi.yml
+- filename: cuboh-locations-api-openapi.yml
   format: yaml
-  label: Cuboh Orders API
-  slug: orders
+  label: Cuboh Locations API
+  slug: cuboh-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuboh/refs/heads/main/openapi/cuboh-openapi.yml
-- filename: cuboh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cuboh/refs/heads/main/openapi/cuboh-locations-api-openapi.yml
+- filename: cuboh-menu-api-openapi.yml
   format: yaml
   label: Cuboh Menu API
-  slug: menu
+  slug: cuboh-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuboh/refs/heads/main/openapi/cuboh-openapi.yml
-- filename: cuboh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cuboh/refs/heads/main/openapi/cuboh-menu-api-openapi.yml
+- filename: cuboh-orders-api-openapi.yml
   format: yaml
-  label: Cuboh Merchant Locations API
-  slug: locations
+  label: Cuboh Orders API
+  slug: cuboh-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuboh/refs/heads/main/openapi/cuboh-openapi.yml
-- filename: cuboh-openapi.yml
-  format: yaml
-  label: Cuboh Webhooks API
-  slug: webhooks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuboh/refs/heads/main/openapi/cuboh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cuboh/refs/heads/main/openapi/cuboh-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []

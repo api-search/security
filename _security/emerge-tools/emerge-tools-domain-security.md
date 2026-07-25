@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: emerge-tools-openapi.json
-  format: json
-  label: Emerge API
-  slug: emerge-api
+- filename: emerge-tools-analysis-api-openapi.yml
+  format: yaml
+  label: Emerge Tools Analysis API
+  slug: emerge-tools-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-analysis-api-openapi.yml
+- filename: emerge-tools-apphistory-api-openapi.yml
+  format: yaml
+  label: Emerge Tools AppHistory API
+  slug: emerge-tools-apphistory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-apphistory-api-openapi.yml
+- filename: emerge-tools-builddetails-api-openapi.yml
+  format: yaml
+  label: Emerge Tools BuildDetails API
+  slug: emerge-tools-builddetails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-builddetails-api-openapi.yml
+- filename: emerge-tools-comment-api-openapi.yml
+  format: yaml
+  label: Emerge Tools Comment API
+  slug: emerge-tools-comment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-comment-api-openapi.yml
+- filename: emerge-tools-deadcode-api-openapi.yml
+  format: yaml
+  label: Emerge Tools DeadCode API
+  slug: emerge-tools-deadcode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-deadcode-api-openapi.yml
+- filename: emerge-tools-getperftest-api-openapi.yml
+  format: yaml
+  label: Emerge Tools GetPerfTest API
+  slug: emerge-tools-getperftest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-getperftest-api-openapi.yml
+- filename: emerge-tools-snapshots-api-openapi.yml
+  format: yaml
+  label: Emerge Tools Snapshots API
+  slug: emerge-tools-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-snapshots-api-openapi.yml
+- filename: emerge-tools-trace-api-openapi.yml
+  format: yaml
+  label: Emerge Tools Trace API
+  slug: emerge-tools-trace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-trace-api-openapi.yml
+- filename: emerge-tools-upload-api-openapi.yml
+  format: yaml
+  label: Emerge Tools Upload API
+  slug: emerge-tools-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-upload-api-openapi.yml
+- filename: emerge-tools-uploadfromlink-api-openapi.yml
+  format: yaml
+  label: Emerge Tools UploadFromLink API
+  slug: emerge-tools-uploadfromlink-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-uploadfromlink-api-openapi.yml
 description: ''
 domains:
 - caa: []

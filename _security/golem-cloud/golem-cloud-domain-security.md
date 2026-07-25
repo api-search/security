@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: golem-cloud-openapi.yml
+- filename: golem-cloud-apidefinition-api-openapi.yml
   format: yaml
-  label: Golem Components API
-  slug: components
+  label: Golem ApiDefinition API
+  slug: golem-cloud-apidefinition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golem-cloud/refs/heads/main/openapi/golem-cloud-openapi.yml
-- filename: golem-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/golem-cloud/refs/heads/main/openapi/golem-cloud-apidefinition-api-openapi.yml
+- filename: golem-cloud-component-api-openapi.yml
   format: yaml
-  label: Golem Workers & Invocation API
-  slug: workers-invocation
+  label: Golem Component API
+  slug: golem-cloud-component-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golem-cloud/refs/heads/main/openapi/golem-cloud-openapi.yml
-- filename: golem-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/golem-cloud/refs/heads/main/openapi/golem-cloud-component-api-openapi.yml
+- filename: golem-cloud-plugin-api-openapi.yml
   format: yaml
-  label: Golem API Definitions & Deployments API
-  slug: api-definitions-deployments
+  label: Golem Plugin API
+  slug: golem-cloud-plugin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golem-cloud/refs/heads/main/openapi/golem-cloud-openapi.yml
-- filename: golem-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/golem-cloud/refs/heads/main/openapi/golem-cloud-plugin-api-openapi.yml
+- filename: golem-cloud-worker-api-openapi.yml
   format: yaml
-  label: Golem Plugins API
-  slug: plugins
+  label: Golem Worker API
+  slug: golem-cloud-worker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golem-cloud/refs/heads/main/openapi/golem-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/golem-cloud/refs/heads/main/openapi/golem-cloud-worker-api-openapi.yml
 description: ''
 domains:
 - caa: []

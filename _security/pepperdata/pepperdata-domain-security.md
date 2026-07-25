@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: pepperdata-rest-api-openapi.yml
+- filename: pepperdata-alarms-api-openapi.yml
   format: yaml
-  label: Pepperdata REST API
-  slug: pepperdata-rest-api
+  label: Pepperdata Alarms API
+  slug: pepperdata-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/openapi/pepperdata-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/openapi/pepperdata-alarms-api-openapi.yml
+- filename: pepperdata-job-details-api-openapi.yml
+  format: yaml
+  label: Pepperdata Job Details API
+  slug: pepperdata-job-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/openapi/pepperdata-job-details-api-openapi.yml
+- filename: pepperdata-metrics-api-openapi.yml
+  format: yaml
+  label: Pepperdata Metrics API
+  slug: pepperdata-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/openapi/pepperdata-metrics-api-openapi.yml
 description: ''
 domains:
 - caa: []

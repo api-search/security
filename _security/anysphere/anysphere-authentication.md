@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: anysphere-cloud-agents-openapi-original.yml
+- filename: anysphere-agents-api-openapi.yml
   format: yaml
-  label: Cursor Cloud Agents API
-  slug: cursor-cloud-agents-api
+  label: Anysphere Agents API
+  slug: anysphere-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/openapi/anysphere-cloud-agents-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/openapi/anysphere-agents-api-openapi.yml
+- filename: anysphere-me-api-openapi.yml
+  format: yaml
+  label: Anysphere Me API
+  slug: anysphere-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/openapi/anysphere-me-api-openapi.yml
+- filename: anysphere-models-api-openapi.yml
+  format: yaml
+  label: Anysphere Models API
+  slug: anysphere-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/openapi/anysphere-models-api-openapi.yml
+- filename: anysphere-repositories-api-openapi.yml
+  format: yaml
+  label: Anysphere Repositories API
+  slug: anysphere-repositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/openapi/anysphere-repositories-api-openapi.yml
+- filename: anysphere-sub-tokens-api-openapi.yml
+  format: yaml
+  label: Anysphere Sub Tokens API
+  slug: anysphere-sub-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/openapi/anysphere-sub-tokens-api-openapi.yml
 auth_types:
 - http
 description: ''

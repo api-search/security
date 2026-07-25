@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: kgateway-kubernetes-gateway-api-openapi.yml
+- filename: kgateway-aibackend-api-openapi.yml
   format: yaml
-  label: Kgateway Kubernetes Gateway API
-  slug: kgateway-kubernetes-gateway-api
+  label: Kgateway AIBackend API
+  slug: kgateway-aibackend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgateway/refs/heads/main/openapi/kgateway-kubernetes-gateway-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kgateway/refs/heads/main/openapi/kgateway-aibackend-api-openapi.yml
+- filename: kgateway-backend-api-openapi.yml
+  format: yaml
+  label: Kgateway Backend API
+  slug: kgateway-backend-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kgateway/refs/heads/main/openapi/kgateway-backend-api-openapi.yml
+- filename: kgateway-directresponse-api-openapi.yml
+  format: yaml
+  label: Kgateway DirectResponse API
+  slug: kgateway-directresponse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kgateway/refs/heads/main/openapi/kgateway-directresponse-api-openapi.yml
+- filename: kgateway-gatewayextension-api-openapi.yml
+  format: yaml
+  label: Kgateway GatewayExtension API
+  slug: kgateway-gatewayextension-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kgateway/refs/heads/main/openapi/kgateway-gatewayextension-api-openapi.yml
+- filename: kgateway-gatewayparameters-api-openapi.yml
+  format: yaml
+  label: Kgateway GatewayParameters API
+  slug: kgateway-gatewayparameters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kgateway/refs/heads/main/openapi/kgateway-gatewayparameters-api-openapi.yml
+- filename: kgateway-httplistenerpolicy-api-openapi.yml
+  format: yaml
+  label: Kgateway HTTPListenerPolicy API
+  slug: kgateway-httplistenerpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kgateway/refs/heads/main/openapi/kgateway-httplistenerpolicy-api-openapi.yml
+- filename: kgateway-trafficpolicy-api-openapi.yml
+  format: yaml
+  label: Kgateway TrafficPolicy API
+  slug: kgateway-trafficpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kgateway/refs/heads/main/openapi/kgateway-trafficpolicy-api-openapi.yml
 auth_types:
 - http
 description: ''

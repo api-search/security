@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: bloomberg-emsx-trading-openapi.yml
+- filename: bloomberg-emsx-brokers-api-openapi.yml
   format: yaml
-  label: Bloomberg EMSX Trading API
-  slug: bloomberg-emsx-trading-api
+  label: Bloomberg EMSX Brokers API
+  slug: bloomberg-emsx-brokers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-trading-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-brokers-api-openapi.yml
+- filename: bloomberg-emsx-field-lists-api-openapi.yml
+  format: yaml
+  label: Bloomberg EMSX Field Lists API
+  slug: bloomberg-emsx-field-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-field-lists-api-openapi.yml
+- filename: bloomberg-emsx-fills-api-openapi.yml
+  format: yaml
+  label: Bloomberg EMSX Fills API
+  slug: bloomberg-emsx-fills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-fills-api-openapi.yml
+- filename: bloomberg-emsx-orders-api-openapi.yml
+  format: yaml
+  label: Bloomberg EMSX Orders API
+  slug: bloomberg-emsx-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-orders-api-openapi.yml
+- filename: bloomberg-emsx-routes-api-openapi.yml
+  format: yaml
+  label: Bloomberg EMSX Routes API
+  slug: bloomberg-emsx-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-routes-api-openapi.yml
+- filename: bloomberg-emsx-teams-api-openapi.yml
+  format: yaml
+  label: Bloomberg EMSX Teams API
+  slug: bloomberg-emsx-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-teams-api-openapi.yml
 description: ''
 domains:
 - caa:

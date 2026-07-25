@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: teahouse-vault-openapi.yml
+- filename: teahouse-logs-api-openapi.yml
   format: yaml
-  label: Teahouse Vault API
-  slug: teahouse-vault-api
+  label: Teahouse Finance Logs API
+  slug: teahouse-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teahouse/refs/heads/main/openapi/teahouse-vault-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/teahouse/refs/heads/main/openapi/teahouse-logs-api-openapi.yml
+- filename: teahouse-performance-api-openapi.yml
+  format: yaml
+  label: Teahouse Finance Performance API
+  slug: teahouse-performance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teahouse/refs/heads/main/openapi/teahouse-performance-api-openapi.yml
+- filename: teahouse-vaults-api-openapi.yml
+  format: yaml
+  label: Teahouse Finance Vaults API
+  slug: teahouse-vaults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teahouse/refs/heads/main/openapi/teahouse-vaults-api-openapi.yml
 description: ''
 domains:
 - caa: []

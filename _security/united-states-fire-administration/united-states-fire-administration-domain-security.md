@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: openfema-fire-data-openapi.yml
+- filename: united-states-fire-administration-datasets-api-openapi.yml
   format: yaml
-  label: OpenFEMA Fire Data API
-  slug: openfema-fire-data-api
+  label: United States Fire Administration Datasets API
+  slug: united-states-fire-administration-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-fire-administration/refs/heads/main/openapi/openfema-fire-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-fire-administration/refs/heads/main/openapi/united-states-fire-administration-datasets-api-openapi.yml
+- filename: united-states-fire-administration-disaster-declarations-api-openapi.yml
+  format: yaml
+  label: United States Fire Administration Disaster Declarations API
+  slug: united-states-fire-administration-disaster-declarations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-fire-administration/refs/heads/main/openapi/united-states-fire-administration-disaster-declarations-api-openapi.yml
 description: ''
 domains:
 - caa: []

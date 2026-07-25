@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: dflow-openapi-original.json
-  format: json
-  label: DFlow Trading API (Aggregator)
-  slug: dflow-trading-api-aggregator
+- filename: dflow-admin-api-openapi.yml
+  format: yaml
+  label: DFlow admin API
+  slug: dflow-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-admin-api-openapi.yml
+- filename: dflow-intent-api-openapi.yml
+  format: yaml
+  label: DFlow intent API
+  slug: dflow-intent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-intent-api-openapi.yml
+- filename: dflow-order-api-openapi.yml
+  format: yaml
+  label: DFlow order API
+  slug: dflow-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-order-api-openapi.yml
+- filename: dflow-prediction-market-api-openapi.yml
+  format: yaml
+  label: DFlow prediction_market API
+  slug: dflow-prediction-market-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-prediction-market-api-openapi.yml
+- filename: dflow-swap-api-openapi.yml
+  format: yaml
+  label: DFlow swap API
+  slug: dflow-swap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-swap-api-openapi.yml
+- filename: dflow-tokens-api-openapi.yml
+  format: yaml
+  label: DFlow tokens API
+  slug: dflow-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-tokens-api-openapi.yml
+- filename: dflow-venues-api-openapi.yml
+  format: yaml
+  label: DFlow venues API
+  slug: dflow-venues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-venues-api-openapi.yml
 description: ''
 domains:
 - caa:

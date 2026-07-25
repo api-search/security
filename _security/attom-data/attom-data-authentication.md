@@ -2,78 +2,78 @@
 api_key_in:
 - header
 api_specs:
-- filename: attom-data-openapi.yml
+- filename: attom-data-area-api-openapi.yml
   format: yaml
-  label: ATTOM Property API
-  slug: attom-data-property-api
+  label: ATTOM Area API
+  slug: attom-data-area-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-openapi.yml
-- filename: attom-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-area-api-openapi.yml
+- filename: attom-data-assessment-api-openapi.yml
   format: yaml
   label: ATTOM Assessment API
   slug: attom-data-assessment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-openapi.yml
-- filename: attom-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-assessment-api-openapi.yml
+- filename: attom-data-community-api-openapi.yml
   format: yaml
-  label: ATTOM AVM & Valuation API
-  slug: attom-data-valuation-avm-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-openapi.yml
-- filename: attom-data-openapi.yml
-  format: yaml
-  label: ATTOM Sales & Deed API
-  slug: attom-data-sales-deed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-openapi.yml
-- filename: attom-data-openapi.yml
-  format: yaml
-  label: ATTOM Mortgage API
-  slug: attom-data-mortgage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-openapi.yml
-- filename: attom-data-openapi.yml
-  format: yaml
-  label: ATTOM Area & Boundary API
-  slug: attom-data-area-boundary-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-openapi.yml
-- filename: attom-data-openapi.yml
-  format: yaml
-  label: ATTOM School API
-  slug: attom-data-school-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-openapi.yml
-- filename: attom-data-openapi.yml
-  format: yaml
-  label: ATTOM Community & Neighborhood API
+  label: ATTOM Community API
   slug: attom-data-community-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-openapi.yml
-- filename: attom-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-community-api-openapi.yml
+- filename: attom-data-events-api-openapi.yml
   format: yaml
-  label: ATTOM POI API
-  slug: attom-data-poi-api
+  label: ATTOM Events API
+  slug: attom-data-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-openapi.yml
-- filename: attom-data-openapi.yml
-  format: yaml
-  label: ATTOM Transportation Noise API
-  slug: attom-data-transportation-noise-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-openapi.yml
-- filename: attom-data-openapi.yml
-  format: yaml
-  label: ATTOM AllEvents & Snapshot API
-  slug: attom-data-allevents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-openapi.yml
-- filename: attom-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-events-api-openapi.yml
+- filename: attom-data-home-equity-api-openapi.yml
   format: yaml
   label: ATTOM Home Equity API
   slug: attom-data-home-equity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-home-equity-api-openapi.yml
+- filename: attom-data-mortgage-api-openapi.yml
+  format: yaml
+  label: ATTOM Mortgage API
+  slug: attom-data-mortgage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-mortgage-api-openapi.yml
+- filename: attom-data-poi-api-openapi.yml
+  format: yaml
+  label: ATTOM POI API
+  slug: attom-data-poi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-poi-api-openapi.yml
+- filename: attom-data-property-api-openapi.yml
+  format: yaml
+  label: ATTOM Property API
+  slug: attom-data-property-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-property-api-openapi.yml
+- filename: attom-data-sales-api-openapi.yml
+  format: yaml
+  label: ATTOM Sales API
+  slug: attom-data-sales-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-sales-api-openapi.yml
+- filename: attom-data-school-api-openapi.yml
+  format: yaml
+  label: ATTOM School API
+  slug: attom-data-school-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-school-api-openapi.yml
+- filename: attom-data-transportation-noise-api-openapi.yml
+  format: yaml
+  label: ATTOM Transportation Noise API
+  slug: attom-data-transportation-noise-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-transportation-noise-api-openapi.yml
+- filename: attom-data-valuation-api-openapi.yml
+  format: yaml
+  label: ATTOM Valuation API
+  slug: attom-data-valuation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/openapi/attom-data-valuation-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

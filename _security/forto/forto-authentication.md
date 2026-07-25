@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: forto-openapi.yml
+- filename: forto-bookings-api-openapi.yml
   format: yaml
-  label: Forto Public API
-  slug: forto-public-api
+  label: Forto Bookings API
+  slug: forto-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/openapi/forto-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/openapi/forto-bookings-api-openapi.yml
+- filename: forto-documents-api-openapi.yml
+  format: yaml
+  label: Forto Documents API
+  slug: forto-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/openapi/forto-documents-api-openapi.yml
+- filename: forto-shipments-api-openapi.yml
+  format: yaml
+  label: Forto Shipments API
+  slug: forto-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/openapi/forto-shipments-api-openapi.yml
+- filename: forto-subscriptions-api-openapi.yml
+  format: yaml
+  label: Forto Subscriptions API
+  slug: forto-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/openapi/forto-subscriptions-api-openapi.yml
+- filename: forto-tokens-api-openapi.yml
+  format: yaml
+  label: Forto Tokens API
+  slug: forto-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/openapi/forto-tokens-api-openapi.yml
+- filename: forto-transportplans-api-openapi.yml
+  format: yaml
+  label: Forto TransportPlans API
+  slug: forto-transportplans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/openapi/forto-transportplans-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: fixture-v1-openapi.json
-  format: json
-  label: Fixture API v1
-  slug: fixture-api-v1
+- filename: fixture-accounts-api-openapi.yml
+  format: yaml
+  label: Fixture Accounts API
+  slug: fixture-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-v1-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-accounts-api-openapi.yml
+- filename: fixture-activities-api-openapi.yml
+  format: yaml
+  label: Fixture Activities API
+  slug: fixture-activities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-activities-api-openapi.yml
+- filename: fixture-contacts-api-openapi.yml
+  format: yaml
+  label: Fixture Contacts API
+  slug: fixture-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-contacts-api-openapi.yml
+- filename: fixture-deals-api-openapi.yml
+  format: yaml
+  label: Fixture Deals API
+  slug: fixture-deals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-deals-api-openapi.yml
+- filename: fixture-fixture-api-api-openapi.yml
+  format: yaml
+  label: Fixture Fixture API API
+  slug: fixture-fixture-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-fixture-api-api-openapi.yml
+- filename: fixture-leads-api-openapi.yml
+  format: yaml
+  label: Fixture Leads API
+  slug: fixture-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-leads-api-openapi.yml
+- filename: fixture-notes-api-openapi.yml
+  format: yaml
+  label: Fixture Notes API
+  slug: fixture-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-notes-api-openapi.yml
+- filename: fixture-pipelines-api-openapi.yml
+  format: yaml
+  label: Fixture Pipelines API
+  slug: fixture-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-pipelines-api-openapi.yml
+- filename: fixture-task-statuses-api-openapi.yml
+  format: yaml
+  label: Fixture Task Statuses API
+  slug: fixture-task-statuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-task-statuses-api-openapi.yml
+- filename: fixture-tasks-api-openapi.yml
+  format: yaml
+  label: Fixture Tasks API
+  slug: fixture-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-tasks-api-openapi.yml
+- filename: fixture-users-api-openapi.yml
+  format: yaml
+  label: Fixture Users API
+  slug: fixture-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

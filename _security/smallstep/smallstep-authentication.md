@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: smallstep-openapi-original.yml
+- filename: smallstep-authentication-api-openapi.yml
   format: yaml
-  label: Smallstep Platform API
-  slug: smallstep-platform-api
+  label: SmallStep Authentication API
+  slug: smallstep-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/openapi/smallstep-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/openapi/smallstep-authentication-api-openapi.yml
+- filename: smallstep-certificates-api-openapi.yml
+  format: yaml
+  label: SmallStep Certificates API
+  slug: smallstep-certificates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/openapi/smallstep-certificates-api-openapi.yml
+- filename: smallstep-credentials-api-openapi.yml
+  format: yaml
+  label: SmallStep Credentials API
+  slug: smallstep-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/openapi/smallstep-credentials-api-openapi.yml
+- filename: smallstep-device-inventory-api-openapi.yml
+  format: yaml
+  label: SmallStep Device Inventory API
+  slug: smallstep-device-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/openapi/smallstep-device-inventory-api-openapi.yml
+- filename: smallstep-pki-architecture-api-openapi.yml
+  format: yaml
+  label: SmallStep PKI Architecture API
+  slug: smallstep-pki-architecture-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/openapi/smallstep-pki-architecture-api-openapi.yml
+- filename: smallstep-protect-api-openapi.yml
+  format: yaml
+  label: SmallStep Protect API
+  slug: smallstep-protect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/openapi/smallstep-protect-api-openapi.yml
 auth_types:
 - http
 - mutualTLS

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: amazon-cloud-map-openapi.yml
+- filename: amazon-cloud-map-instances-api-openapi.yml
   format: yaml
-  label: Amazon Cloud Map API
-  slug: amazon-cloud-map-api
+  label: Amazon Cloud Map Instances API
+  slug: amazon-cloud-map-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/openapi/amazon-cloud-map-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/openapi/amazon-cloud-map-instances-api-openapi.yml
+- filename: amazon-cloud-map-namespaces-api-openapi.yml
+  format: yaml
+  label: Amazon Cloud Map Namespaces API
+  slug: amazon-cloud-map-namespaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/openapi/amazon-cloud-map-namespaces-api-openapi.yml
+- filename: amazon-cloud-map-services-api-openapi.yml
+  format: yaml
+  label: Amazon Cloud Map Services API
+  slug: amazon-cloud-map-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/openapi/amazon-cloud-map-services-api-openapi.yml
 description: ''
 domains:
 - caa: []

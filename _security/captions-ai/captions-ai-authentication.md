@@ -2,30 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: add-captions-to-a-video
+- filename: captions-ai-ai-ads-api-openapi.yml
+  format: yaml
+  label: Captions AI Ads API
+  slug: captions-ai-ai-ads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captions-ai/refs/heads/main/openapi/captions-ai-ai-ads-api-openapi.yml
+- filename: captions-ai-ai-creator-api-openapi.yml
+  format: yaml
+  label: Captions AI Creator API
+  slug: captions-ai-ai-creator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captions-ai/refs/heads/main/openapi/captions-ai-ai-creator-api-openapi.yml
+- filename: captions-ai-audio-api-openapi.yml
+  format: yaml
+  label: Captions Audio API
+  slug: captions-ai-audio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captions-ai/refs/heads/main/openapi/captions-ai-audio-api-openapi.yml
+- filename: captions-ai-meta-text-overlays-api-openapi.yml
+  format: yaml
+  label: Captions Meta Text Overlays API
+  slug: captions-ai-meta-text-overlays-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captions-ai/refs/heads/main/openapi/captions-ai-meta-text-overlays-api-openapi.yml
+- filename: captions-ai-video-captions-api-openapi.yml
   format: yaml
   label: Captions Video Captions API
   slug: captions-ai-video-captions-api
   spec_type: OpenAPI
-  url: https://captions.ai/help/api-reference/video-captions/add-captions-to-a-video
-- filename: captions-ai-creator-ads-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/captions-ai/refs/heads/main/openapi/captions-ai-video-captions-api-openapi.yml
+- filename: captions-ai-videos-api-openapi.yml
   format: yaml
-  label: Captions AI Creator API
-  slug: captions-ai-creator-api
+  label: Captions Videos API
+  slug: captions-ai-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions-ai/refs/heads/main/openapi/captions-ai-creator-ads-openapi.yml
-- filename: captions-ai-creator-ads-openapi.yml
-  format: yaml
-  label: Captions AI Ads API
-  slug: captions-ai-ads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions-ai/refs/heads/main/openapi/captions-ai-creator-ads-openapi.yml
-- filename: captions-ai-mirage-video-openapi.yml
-  format: yaml
-  label: Mirage Video Generation API
-  slug: captions-mirage-video-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions-ai/refs/heads/main/openapi/captions-ai-mirage-video-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/captions-ai/refs/heads/main/openapi/captions-ai-videos-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

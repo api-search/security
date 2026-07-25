@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: jpmorgan-chase-jpmorgan-api-openapi.yml
+- filename: jpmorgan-chase-banking-api-openapi.yml
   format: yaml
-  label: JPMorgan Chase API
-  slug: jpmorgan-api
+  label: JPMorgan Chase Banking API
+  slug: jpmorgan-chase-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jpmorgan-chase/refs/heads/main/openapi/jpmorgan-chase-jpmorgan-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jpmorgan-chase/refs/heads/main/openapi/jpmorgan-chase-banking-api-openapi.yml
 auth_types:
 - http
 description: ''

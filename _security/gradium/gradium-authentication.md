@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: gradium-openapi-original.json
-  format: json
-  label: Gradium API
-  slug: gradium-api
+- filename: gradium-metering-api-openapi.yml
+  format: yaml
+  label: Gradium metering API
+  slug: gradium-metering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/openapi/gradium-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/openapi/gradium-metering-api-openapi.yml
+- filename: gradium-pronunciations-api-openapi.yml
+  format: yaml
+  label: Gradium Pronunciations API
+  slug: gradium-pronunciations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/openapi/gradium-pronunciations-api-openapi.yml
+- filename: gradium-s2s-api-openapi.yml
+  format: yaml
+  label: Gradium S2S API
+  slug: gradium-s2s-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/openapi/gradium-s2s-api-openapi.yml
+- filename: gradium-stt-api-openapi.yml
+  format: yaml
+  label: Gradium STT API
+  slug: gradium-stt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/openapi/gradium-stt-api-openapi.yml
+- filename: gradium-tts-api-openapi.yml
+  format: yaml
+  label: Gradium TTS API
+  slug: gradium-tts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/openapi/gradium-tts-api-openapi.yml
+- filename: gradium-voices-api-openapi.yml
+  format: yaml
+  label: Gradium Voices API
+  slug: gradium-voices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/openapi/gradium-voices-api-openapi.yml
 auth_types:
 - apiKey
 - bearer-token

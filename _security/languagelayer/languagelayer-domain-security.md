@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: languagelayer-batch-api-openapi.yml
   format: yaml
-  label: languagelayer API
-  slug: languagelayer-api
+  label: languagelayer Batch API
+  slug: languagelayer-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/languagelayer/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/languagelayer/refs/heads/main/openapi/languagelayer-batch-api-openapi.yml
+- filename: languagelayer-detect-api-openapi.yml
+  format: yaml
+  label: languagelayer Detect API
+  slug: languagelayer-detect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/languagelayer/refs/heads/main/openapi/languagelayer-detect-api-openapi.yml
 description: ''
 domains:
 - caa: []

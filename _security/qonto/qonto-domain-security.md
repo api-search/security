@@ -1,89 +1,83 @@
 ---
 api_specs:
-- filename: qonto-openapi.yml
-  format: yaml
-  label: Qonto Business API
-  slug: qonto-business-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-openapi.yml
-- filename: qonto-openapi.yml
-  format: yaml
-  label: Qonto Transactions & Statements API
-  slug: qonto-transactions-statements-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-openapi.yml
-- filename: qonto-openapi.yml
-  format: yaml
-  label: Qonto SEPA Transfers API
-  slug: qonto-sepa-transfers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-openapi.yml
-- filename: qonto-openapi.yml
-  format: yaml
-  label: Qonto International Transfers API
-  slug: qonto-international-transfers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-openapi.yml
-- filename: qonto-openapi.yml
-  format: yaml
-  label: Qonto Internal Transfers API
-  slug: qonto-internal-transfers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-openapi.yml
-- filename: qonto-openapi.yml
+- filename: qonto-cards-api-openapi.yml
   format: yaml
   label: Qonto Cards API
   slug: qonto-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-openapi.yml
-- filename: qonto-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-cards-api-openapi.yml
+- filename: qonto-client-invoices-api-openapi.yml
   format: yaml
-  label: Qonto Client Invoices & Quotes API
+  label: Qonto Client Invoices API
   slug: qonto-client-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-openapi.yml
-- filename: qonto-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-client-invoices-api-openapi.yml
+- filename: qonto-internal-transfers-api-openapi.yml
   format: yaml
-  label: Qonto Supplier Invoices API
-  slug: qonto-supplier-invoices-api
+  label: Qonto Internal Transfers API
+  slug: qonto-internal-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-openapi.yml
-- filename: qonto-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-internal-transfers-api-openapi.yml
+- filename: qonto-international-transfers-api-openapi.yml
   format: yaml
-  label: Qonto SEPA Direct Debit API
-  slug: qonto-sepa-direct-debit-api
+  label: Qonto International Transfers API
+  slug: qonto-international-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-openapi.yml
-- filename: qonto-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-international-transfers-api-openapi.yml
+- filename: qonto-oauth-api-openapi.yml
+  format: yaml
+  label: Qonto OAuth API
+  slug: qonto-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-oauth-api-openapi.yml
+- filename: qonto-organizations-accounts-api-openapi.yml
+  format: yaml
+  label: Qonto Organizations & Accounts API
+  slug: qonto-organizations-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-organizations-accounts-api-openapi.yml
+- filename: qonto-payment-links-api-openapi.yml
   format: yaml
   label: Qonto Payment Links API
   slug: qonto-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-openapi.yml
-- filename: qonto-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-payment-links-api-openapi.yml
+- filename: qonto-sepa-direct-debit-api-openapi.yml
+  format: yaml
+  label: Qonto SEPA Direct Debit API
+  slug: qonto-sepa-direct-debit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-sepa-direct-debit-api-openapi.yml
+- filename: qonto-sepa-transfers-api-openapi.yml
+  format: yaml
+  label: Qonto SEPA Transfers API
+  slug: qonto-sepa-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-sepa-transfers-api-openapi.yml
+- filename: qonto-supplier-invoices-api-openapi.yml
+  format: yaml
+  label: Qonto Supplier Invoices API
+  slug: qonto-supplier-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-supplier-invoices-api-openapi.yml
+- filename: qonto-terminals-api-openapi.yml
   format: yaml
   label: Qonto Terminals API
   slug: qonto-terminals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-openapi.yml
-- filename: qonto-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-terminals-api-openapi.yml
+- filename: qonto-transactions-statements-api-openapi.yml
+  format: yaml
+  label: Qonto Transactions & Statements API
+  slug: qonto-transactions-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-transactions-statements-api-openapi.yml
+- filename: qonto-webhooks-api-openapi.yml
   format: yaml
   label: Qonto Webhooks API
   slug: qonto-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-openapi.yml
-- filename: qonto-openapi.yml
-  format: yaml
-  label: Qonto Onboarding API
-  slug: qonto-onboarding-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-openapi.yml
-- filename: qonto-openapi.yml
-  format: yaml
-  label: Qonto Embed SDK & Hosted Pages API
-  slug: qonto-embed-sdk-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-webhooks-api-openapi.yml
 description: ''
 domains:
 - dmarc: true

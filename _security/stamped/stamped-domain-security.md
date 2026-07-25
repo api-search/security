@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: stamped-merchant-data-openapi.json
-  format: json
-  label: Stamped Merchant Data API (V3)
-  slug: stamped-merchant-data-api-v3
+- filename: stamped-customer-actions-api-openapi.yml
+  format: yaml
+  label: Stamped Customer Actions API
+  slug: stamped-customer-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/openapi/stamped-merchant-data-openapi.json
-- filename: stamped-loyalty-operations-openapi.json
-  format: json
-  label: Stamped Loyalty Operations API (V3)
-  slug: stamped-loyalty-operations-api-v3
+  url: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/openapi/stamped-customer-actions-api-openapi.yml
+- filename: stamped-customers-api-openapi.yml
+  format: yaml
+  label: Stamped Customers API
+  slug: stamped-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/openapi/stamped-loyalty-operations-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/openapi/stamped-customers-api-openapi.yml
+- filename: stamped-orders-api-openapi.yml
+  format: yaml
+  label: Stamped Orders API
+  slug: stamped-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/openapi/stamped-orders-api-openapi.yml
+- filename: stamped-products-api-openapi.yml
+  format: yaml
+  label: Stamped Products API
+  slug: stamped-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/openapi/stamped-products-api-openapi.yml
+- filename: stamped-program-reporting-api-openapi.yml
+  format: yaml
+  label: Stamped Program Reporting API
+  slug: stamped-program-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/openapi/stamped-program-reporting-api-openapi.yml
 description: ''
 domains:
 - caa: []

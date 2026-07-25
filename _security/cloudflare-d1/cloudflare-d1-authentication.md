@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi.yaml
+- filename: cloudflare-d1-d1-api-openapi.yml
   format: yaml
-  label: Cloudflare D1 API
-  slug: cloudflare-d1-api
+  label: Cloudflare D1 D1 API
+  slug: cloudflare-d1-d1-api
   spec_type: OpenAPI
-  url: https://developers.cloudflare.com/api/resources/d1/subresources/database/
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-d1/refs/heads/main/openapi/cloudflare-d1-d1-api-openapi.yml
 auth_types:
 - apiKey
 - http

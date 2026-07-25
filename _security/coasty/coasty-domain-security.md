@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: coasty-openapi-original.json
-  format: json
-  label: Coasty Public API
-  slug: coasty-public-api
+- filename: coasty-keys-api-openapi.yml
+  format: yaml
+  label: Coasty keys API
+  slug: coasty-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-keys-api-openapi.yml
+- filename: coasty-machines-api-openapi.yml
+  format: yaml
+  label: Coasty machines API
+  slug: coasty-machines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-machines-api-openapi.yml
+- filename: coasty-predict-api-openapi.yml
+  format: yaml
+  label: Coasty predict API
+  slug: coasty-predict-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-predict-api-openapi.yml
+- filename: coasty-runs-api-openapi.yml
+  format: yaml
+  label: Coasty runs API
+  slug: coasty-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-runs-api-openapi.yml
+- filename: coasty-schedules-api-openapi.yml
+  format: yaml
+  label: Coasty schedules API
+  slug: coasty-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-schedules-api-openapi.yml
+- filename: coasty-sessions-api-openapi.yml
+  format: yaml
+  label: Coasty sessions API
+  slug: coasty-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-sessions-api-openapi.yml
+- filename: coasty-triggers-api-openapi.yml
+  format: yaml
+  label: Coasty triggers API
+  slug: coasty-triggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-triggers-api-openapi.yml
+- filename: coasty-workflows-api-openapi.yml
+  format: yaml
+  label: Coasty workflows API
+  slug: coasty-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []

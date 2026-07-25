@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: hotelrunner-openapi.yml
-  format: yaml
-  label: HotelRunner Inventory API
-  slug: hotelrunner-inventory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/openapi/hotelrunner-openapi.yml
-- filename: hotelrunner-openapi.yml
-  format: yaml
-  label: HotelRunner Reservations API
-  slug: hotelrunner-reservations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/openapi/hotelrunner-openapi.yml
-- filename: hotelrunner-openapi.yml
+- filename: hotelrunner-channels-api-openapi.yml
   format: yaml
   label: HotelRunner Channels API
   slug: hotelrunner-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/openapi/hotelrunner-openapi.yml
-- filename: hotelrunner-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/openapi/hotelrunner-channels-api-openapi.yml
+- filename: hotelrunner-inventory-api-openapi.yml
+  format: yaml
+  label: HotelRunner Inventory API
+  slug: hotelrunner-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/openapi/hotelrunner-inventory-api-openapi.yml
+- filename: hotelrunner-reference-data-api-openapi.yml
   format: yaml
   label: HotelRunner Reference Data API
   slug: hotelrunner-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/openapi/hotelrunner-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/openapi/hotelrunner-reference-data-api-openapi.yml
+- filename: hotelrunner-reservations-api-openapi.yml
+  format: yaml
+  label: HotelRunner Reservations API
+  slug: hotelrunner-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/openapi/hotelrunner-reservations-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,42 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sendpulse-openapi.yml
+- filename: sendpulse-account-api-openapi.yml
   format: yaml
-  label: SendPulse Address Books & Email API
-  slug: sendpulse-address-books-email-api
+  label: SendPulse Account API
+  slug: sendpulse-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/openapi/sendpulse-openapi.yml
-- filename: sendpulse-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/openapi/sendpulse-account-api-openapi.yml
+- filename: sendpulse-address-books-api-openapi.yml
   format: yaml
-  label: SendPulse SMTP / Transactional Email API
-  slug: sendpulse-smtp-transactional-api
+  label: SendPulse Address Books API
+  slug: sendpulse-address-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/openapi/sendpulse-openapi.yml
-- filename: sendpulse-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/openapi/sendpulse-address-books-api-openapi.yml
+- filename: sendpulse-authorization-api-openapi.yml
   format: yaml
-  label: SendPulse SMS API
-  slug: sendpulse-sms-api
+  label: SendPulse Authorization API
+  slug: sendpulse-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/openapi/sendpulse-openapi.yml
-- filename: sendpulse-openapi.yml
-  format: yaml
-  label: SendPulse Web Push API
-  slug: sendpulse-web-push-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/openapi/sendpulse-openapi.yml
-- filename: sendpulse-openapi.yml
-  format: yaml
-  label: SendPulse Chatbots API
-  slug: sendpulse-chatbots-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/openapi/sendpulse-openapi.yml
-- filename: sendpulse-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/openapi/sendpulse-authorization-api-openapi.yml
+- filename: sendpulse-automation-360-api-openapi.yml
   format: yaml
   label: SendPulse Automation 360 API
   slug: sendpulse-automation-360-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/openapi/sendpulse-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/openapi/sendpulse-automation-360-api-openapi.yml
+- filename: sendpulse-email-blacklist-api-openapi.yml
+  format: yaml
+  label: SendPulse Email Blacklist API
+  slug: sendpulse-email-blacklist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/openapi/sendpulse-email-blacklist-api-openapi.yml
+- filename: sendpulse-email-campaigns-api-openapi.yml
+  format: yaml
+  label: SendPulse Email Campaigns API
+  slug: sendpulse-email-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/openapi/sendpulse-email-campaigns-api-openapi.yml
+- filename: sendpulse-senders-api-openapi.yml
+  format: yaml
+  label: SendPulse Senders API
+  slug: sendpulse-senders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/openapi/sendpulse-senders-api-openapi.yml
+- filename: sendpulse-sms-api-openapi.yml
+  format: yaml
+  label: SendPulse SMS API
+  slug: sendpulse-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/openapi/sendpulse-sms-api-openapi.yml
+- filename: sendpulse-smtp-api-openapi.yml
+  format: yaml
+  label: SendPulse SMTP API
+  slug: sendpulse-smtp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/openapi/sendpulse-smtp-api-openapi.yml
+- filename: sendpulse-web-push-api-openapi.yml
+  format: yaml
+  label: SendPulse Web Push API
+  slug: sendpulse-web-push-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/openapi/sendpulse-web-push-api-openapi.yml
 auth_types:
 - http
 description: ''

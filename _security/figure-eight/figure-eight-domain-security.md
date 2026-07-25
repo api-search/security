@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: figure-eight-openapi-original.json
-  format: json
-  label: Figure Eight API (Appen Platform API)
-  slug: figure-eight-api-appen-platform-api
+- filename: figure-eight-account-info-api-openapi.yml
+  format: yaml
+  label: Figure Eight Account Info API
+  slug: figure-eight-account-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/openapi/figure-eight-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/openapi/figure-eight-account-info-api-openapi.yml
+- filename: figure-eight-job-create-update-api-openapi.yml
+  format: yaml
+  label: Figure Eight Job Create/Update API
+  slug: figure-eight-job-create-update-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/openapi/figure-eight-job-create-update-api-openapi.yml
+- filename: figure-eight-job-ontology-api-openapi.yml
+  format: yaml
+  label: Figure Eight Job Ontology API
+  slug: figure-eight-job-ontology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/openapi/figure-eight-job-ontology-api-openapi.yml
+- filename: figure-eight-job-results-api-openapi.yml
+  format: yaml
+  label: Figure Eight Job Results API
+  slug: figure-eight-job-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/openapi/figure-eight-job-results-api-openapi.yml
+- filename: figure-eight-job-status-api-openapi.yml
+  format: yaml
+  label: Figure Eight Job Status API
+  slug: figure-eight-job-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/openapi/figure-eight-job-status-api-openapi.yml
+- filename: figure-eight-manage-job-data-api-openapi.yml
+  format: yaml
+  label: Figure Eight Manage Job Data API
+  slug: figure-eight-manage-job-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/openapi/figure-eight-manage-job-data-api-openapi.yml
+- filename: figure-eight-manage-job-settings-api-openapi.yml
+  format: yaml
+  label: Figure Eight Manage Job Settings API
+  slug: figure-eight-manage-job-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/openapi/figure-eight-manage-job-settings-api-openapi.yml
+- filename: figure-eight-monitor-contributors-api-openapi.yml
+  format: yaml
+  label: Figure Eight Monitor Contributors API
+  slug: figure-eight-monitor-contributors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/openapi/figure-eight-monitor-contributors-api-openapi.yml
+- filename: figure-eight-workflow-data-upload-download-api-openapi.yml
+  format: yaml
+  label: Figure Eight Workflow Data Upload/Download API
+  slug: figure-eight-workflow-data-upload-download-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/openapi/figure-eight-workflow-data-upload-download-api-openapi.yml
+- filename: figure-eight-workflow-filter-rules-api-openapi.yml
+  format: yaml
+  label: Figure Eight Workflow Filter Rules API
+  slug: figure-eight-workflow-filter-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/openapi/figure-eight-workflow-filter-rules-api-openapi.yml
+- filename: figure-eight-workflow-step-routes-api-openapi.yml
+  format: yaml
+  label: Figure Eight Workflow Step Routes API
+  slug: figure-eight-workflow-step-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/openapi/figure-eight-workflow-step-routes-api-openapi.yml
+- filename: figure-eight-workflow-steps-api-openapi.yml
+  format: yaml
+  label: Figure Eight Workflow Steps API
+  slug: figure-eight-workflow-steps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/openapi/figure-eight-workflow-steps-api-openapi.yml
+- filename: figure-eight-workflows-api-openapi.yml
+  format: yaml
+  label: Figure Eight Workflows API
+  slug: figure-eight-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/openapi/figure-eight-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: spring-boot-3-actuator-openapi.yml
+- filename: spring-boot-3-environment-api-openapi.yml
   format: yaml
-  label: Spring Boot Actuator API
-  slug: spring-boot-actuator-api
+  label: Spring Boot 3 Environment API
+  slug: spring-boot-3-environment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-boot-3/refs/heads/main/openapi/spring-boot-3-actuator-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spring-boot-3/refs/heads/main/openapi/spring-boot-3-environment-api-openapi.yml
+- filename: spring-boot-3-health-api-openapi.yml
+  format: yaml
+  label: Spring Boot 3 Health API
+  slug: spring-boot-3-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-boot-3/refs/heads/main/openapi/spring-boot-3-health-api-openapi.yml
+- filename: spring-boot-3-info-api-openapi.yml
+  format: yaml
+  label: Spring Boot 3 Info API
+  slug: spring-boot-3-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-boot-3/refs/heads/main/openapi/spring-boot-3-info-api-openapi.yml
+- filename: spring-boot-3-loggers-api-openapi.yml
+  format: yaml
+  label: Spring Boot 3 Loggers API
+  slug: spring-boot-3-loggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-boot-3/refs/heads/main/openapi/spring-boot-3-loggers-api-openapi.yml
+- filename: spring-boot-3-metrics-api-openapi.yml
+  format: yaml
+  label: Spring Boot 3 Metrics API
+  slug: spring-boot-3-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-boot-3/refs/heads/main/openapi/spring-boot-3-metrics-api-openapi.yml
+- filename: spring-boot-3-scheduling-api-openapi.yml
+  format: yaml
+  label: Spring Boot 3 Scheduling API
+  slug: spring-boot-3-scheduling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-boot-3/refs/heads/main/openapi/spring-boot-3-scheduling-api-openapi.yml
+- filename: spring-boot-3-threads-api-openapi.yml
+  format: yaml
+  label: Spring Boot 3 Threads API
+  slug: spring-boot-3-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-boot-3/refs/heads/main/openapi/spring-boot-3-threads-api-openapi.yml
 description: ''
 domains:
 - caa:

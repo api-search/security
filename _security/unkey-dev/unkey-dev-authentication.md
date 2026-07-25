@@ -1,60 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: unkey-dev-openapi.yml
+- filename: unkey-dev-analytics-api-openapi.yml
   format: yaml
-  label: Unkey Keys API
-  slug: unkey-dev-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unkey-dev/refs/heads/main/openapi/unkey-dev-openapi.yml
-- filename: unkey-dev-openapi.yml
-  format: yaml
-  label: Unkey APIs (Namespaces) API
-  slug: unkey-dev-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unkey-dev/refs/heads/main/openapi/unkey-dev-openapi.yml
-- filename: unkey-dev-openapi.yml
-  format: yaml
-  label: Unkey Ratelimit API
-  slug: unkey-dev-ratelimit-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unkey-dev/refs/heads/main/openapi/unkey-dev-openapi.yml
-- filename: unkey-dev-openapi.yml
-  format: yaml
-  label: Unkey Identities API
-  slug: unkey-dev-identities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unkey-dev/refs/heads/main/openapi/unkey-dev-openapi.yml
-- filename: unkey-dev-openapi.yml
-  format: yaml
-  label: Unkey Permissions and Roles API
-  slug: unkey-dev-permissions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unkey-dev/refs/heads/main/openapi/unkey-dev-openapi.yml
-- filename: unkey-dev-openapi.yml
-  format: yaml
-  label: Unkey Analytics API
+  label: Unkey analytics API
   slug: unkey-dev-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unkey-dev/refs/heads/main/openapi/unkey-dev-openapi.yml
-- filename: unkey-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unkey-dev/refs/heads/main/openapi/unkey-dev-analytics-api-openapi.yml
+- filename: unkey-dev-apis-api-openapi.yml
   format: yaml
-  label: Unkey Key Migrations API
-  slug: unkey-dev-migrations-api
+  label: Unkey apis API
+  slug: unkey-dev-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unkey-dev/refs/heads/main/openapi/unkey-dev-openapi.yml
-- filename: unkey-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unkey-dev/refs/heads/main/openapi/unkey-dev-apis-api-openapi.yml
+- filename: unkey-dev-deploy-api-openapi.yml
   format: yaml
-  label: Unkey Deploy API
+  label: Unkey deploy API
   slug: unkey-dev-deploy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unkey-dev/refs/heads/main/openapi/unkey-dev-openapi.yml
-- filename: unkey-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unkey-dev/refs/heads/main/openapi/unkey-dev-deploy-api-openapi.yml
+- filename: unkey-dev-identities-api-openapi.yml
   format: yaml
-  label: Unkey Liveness API
+  label: Unkey identities API
+  slug: unkey-dev-identities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unkey-dev/refs/heads/main/openapi/unkey-dev-identities-api-openapi.yml
+- filename: unkey-dev-keys-api-openapi.yml
+  format: yaml
+  label: Unkey keys API
+  slug: unkey-dev-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unkey-dev/refs/heads/main/openapi/unkey-dev-keys-api-openapi.yml
+- filename: unkey-dev-liveness-api-openapi.yml
+  format: yaml
+  label: Unkey liveness API
   slug: unkey-dev-liveness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unkey-dev/refs/heads/main/openapi/unkey-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unkey-dev/refs/heads/main/openapi/unkey-dev-liveness-api-openapi.yml
+- filename: unkey-dev-permissions-api-openapi.yml
+  format: yaml
+  label: Unkey permissions API
+  slug: unkey-dev-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unkey-dev/refs/heads/main/openapi/unkey-dev-permissions-api-openapi.yml
+- filename: unkey-dev-ratelimit-api-openapi.yml
+  format: yaml
+  label: Unkey ratelimit API
+  slug: unkey-dev-ratelimit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unkey-dev/refs/heads/main/openapi/unkey-dev-ratelimit-api-openapi.yml
 auth_types:
 - http
 description: ''

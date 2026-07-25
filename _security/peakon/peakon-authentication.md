@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: peakon-openapi-original.json
-  format: json
-  label: Peakon API
-  slug: peakon-api
+- filename: peakon-actions-api-openapi.yml
+  format: yaml
+  label: Peakon Actions API
+  slug: peakon-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-actions-api-openapi.yml
+- filename: peakon-answers-api-openapi.yml
+  format: yaml
+  label: Peakon Answers API
+  slug: peakon-answers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-answers-api-openapi.yml
+- filename: peakon-audits-api-openapi.yml
+  format: yaml
+  label: Peakon Audits API
+  slug: peakon-audits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-audits-api-openapi.yml
+- filename: peakon-authentication-api-openapi.yml
+  format: yaml
+  label: Peakon Authentication API
+  slug: peakon-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-authentication-api-openapi.yml
+- filename: peakon-employees-api-openapi.yml
+  format: yaml
+  label: Peakon Employees API
+  slug: peakon-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-employees-api-openapi.yml
+- filename: peakon-engagement-api-openapi.yml
+  format: yaml
+  label: Peakon Engagement API
+  slug: peakon-engagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-engagement-api-openapi.yml
+- filename: peakon-scores-api-openapi.yml
+  format: yaml
+  label: Peakon Scores API
+  slug: peakon-scores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-scores-api-openapi.yml
+- filename: peakon-segments-api-openapi.yml
+  format: yaml
+  label: Peakon Segments API
+  slug: peakon-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-segments-api-openapi.yml
 auth_types:
 - http
 description: ''

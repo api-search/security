@@ -1,5 +1,18 @@
 ---
 api_key_in: []
+api_specs:
+- filename: tax-reporting-templates-categories-api-openapi.yml
+  format: yaml
+  label: Tax Reporting Templates Categories API
+  slug: tax-reporting-templates-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tax-reporting-templates/refs/heads/main/openapi/tax-reporting-templates-categories-api-openapi.yml
+- filename: tax-reporting-templates-taxes-api-openapi.yml
+  format: yaml
+  label: Tax Reporting Templates Taxes API
+  slug: tax-reporting-templates-taxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tax-reporting-templates/refs/heads/main/openapi/tax-reporting-templates-taxes-api-openapi.yml
 auth_types:
 - http
 description: ''

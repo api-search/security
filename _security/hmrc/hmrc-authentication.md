@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: hmrc-vat-mtd-openapi.yml
+- filename: hmrc-liabilities-api-openapi.yml
   format: yaml
-  label: HMRC VAT (Making Tax Digital) API
-  slug: hmrc-vat-mtd-api
+  label: HMRC UK Tax Authority Liabilities API
+  slug: hmrc-liabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmrc/refs/heads/main/openapi/hmrc-vat-mtd-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hmrc/refs/heads/main/openapi/hmrc-liabilities-api-openapi.yml
+- filename: hmrc-obligations-api-openapi.yml
+  format: yaml
+  label: HMRC UK Tax Authority Obligations API
+  slug: hmrc-obligations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hmrc/refs/heads/main/openapi/hmrc-obligations-api-openapi.yml
+- filename: hmrc-payments-api-openapi.yml
+  format: yaml
+  label: HMRC UK Tax Authority Payments API
+  slug: hmrc-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hmrc/refs/heads/main/openapi/hmrc-payments-api-openapi.yml
+- filename: hmrc-returns-api-openapi.yml
+  format: yaml
+  label: HMRC UK Tax Authority Returns API
+  slug: hmrc-returns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hmrc/refs/heads/main/openapi/hmrc-returns-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,36 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: klu-ai-openapi.yml
+- filename: klu-ai-actions-api-openapi.yml
   format: yaml
-  label: Klu Actions / Prompt API
-  slug: klu-actions-prompt-api
+  label: Klu Actions API
+  slug: klu-ai-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/openapi/klu-ai-openapi.yml
-- filename: klu-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/openapi/klu-ai-actions-api-openapi.yml
+- filename: klu-ai-apps-api-openapi.yml
   format: yaml
-  label: Klu Data / Feedback API
-  slug: klu-data-feedback-api
+  label: Klu Apps API
+  slug: klu-ai-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/openapi/klu-ai-openapi.yml
-- filename: klu-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/openapi/klu-ai-apps-api-openapi.yml
+- filename: klu-ai-context-api-openapi.yml
+  format: yaml
+  label: Klu Context API
+  slug: klu-ai-context-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/openapi/klu-ai-context-api-openapi.yml
+- filename: klu-ai-data-api-openapi.yml
+  format: yaml
+  label: Klu Data API
+  slug: klu-ai-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/openapi/klu-ai-data-api-openapi.yml
+- filename: klu-ai-feedback-api-openapi.yml
+  format: yaml
+  label: Klu Feedback API
+  slug: klu-ai-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/openapi/klu-ai-feedback-api-openapi.yml
+- filename: klu-ai-models-api-openapi.yml
   format: yaml
   label: Klu Models API
-  slug: klu-models-api
+  slug: klu-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/openapi/klu-ai-openapi.yml
-- filename: klu-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/openapi/klu-ai-models-api-openapi.yml
+- filename: klu-ai-sessions-api-openapi.yml
   format: yaml
   label: Klu Sessions API
-  slug: klu-sessions-api
+  slug: klu-ai-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/openapi/klu-ai-openapi.yml
-- filename: klu-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/openapi/klu-ai-sessions-api-openapi.yml
+- filename: klu-ai-workspaces-api-openapi.yml
   format: yaml
-  label: Klu Apps / Workspaces API
-  slug: klu-apps-workspaces-api
+  label: Klu Workspaces API
+  slug: klu-ai-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/openapi/klu-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/openapi/klu-ai-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''

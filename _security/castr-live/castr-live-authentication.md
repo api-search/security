@@ -2,36 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: castr-live-openapi.yml
+- filename: castr-live-analytics-api-openapi.yml
+  format: yaml
+  label: Castr Analytics API
+  slug: castr-live-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/openapi/castr-live-analytics-api-openapi.yml
+- filename: castr-live-live-streams-api-openapi.yml
   format: yaml
   label: Castr Live Streams API
   slug: castr-live-live-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/openapi/castr-live-openapi.yml
-- filename: castr-live-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/openapi/castr-live-live-streams-api-openapi.yml
+- filename: castr-live-sub-second-streams-api-openapi.yml
   format: yaml
   label: Castr Sub-Second Streams API
   slug: castr-live-sub-second-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/openapi/castr-live-openapi.yml
-- filename: castr-live-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/openapi/castr-live-sub-second-streams-api-openapi.yml
+- filename: castr-live-video-hosting-api-openapi.yml
   format: yaml
-  label: Castr Video Hosting and VOD API
+  label: Castr Video Hosting API
   slug: castr-live-video-hosting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/openapi/castr-live-openapi.yml
-- filename: castr-live-openapi.yml
-  format: yaml
-  label: Castr Analytics and Activity API
-  slug: castr-live-analytics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/openapi/castr-live-openapi.yml
-- filename: castr-live-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/openapi/castr-live-video-hosting-api-openapi.yml
+- filename: castr-live-webhooks-api-openapi.yml
   format: yaml
   label: Castr Webhooks API
   slug: castr-live-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/openapi/castr-live-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/openapi/castr-live-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

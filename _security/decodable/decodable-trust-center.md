@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: decodable-openapi.yml
+- filename: decodable-connections-api-openapi.yml
   format: yaml
   label: Decodable Connections API
   slug: decodable-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/openapi/decodable-openapi.yml
-- filename: decodable-openapi.yml
-  format: yaml
-  label: Decodable Streams API
-  slug: decodable-streams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/openapi/decodable-openapi.yml
-- filename: decodable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/openapi/decodable-connections-api-openapi.yml
+- filename: decodable-pipelines-api-openapi.yml
   format: yaml
   label: Decodable Pipelines API
   slug: decodable-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/openapi/decodable-openapi.yml
-- filename: decodable-openapi.yml
-  format: yaml
-  label: Decodable Secrets API
-  slug: decodable-secrets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/openapi/decodable-openapi.yml
-- filename: decodable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/openapi/decodable-pipelines-api-openapi.yml
+- filename: decodable-resources-api-openapi.yml
   format: yaml
   label: Decodable Resources API
   slug: decodable-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/openapi/decodable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/openapi/decodable-resources-api-openapi.yml
+- filename: decodable-secrets-api-openapi.yml
+  format: yaml
+  label: Decodable Secrets API
+  slug: decodable-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/openapi/decodable-secrets-api-openapi.yml
+- filename: decodable-streams-api-openapi.yml
+  format: yaml
+  label: Decodable Streams API
+  slug: decodable-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/openapi/decodable-streams-api-openapi.yml
 certifications:
 - SOC 2
 - HIPAA

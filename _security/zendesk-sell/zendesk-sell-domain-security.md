@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: zendesk-sell-openapi.yml
+- filename: zendesk-sell-contacts-api-openapi.yml
   format: yaml
-  label: Zendesk Sell (Sales CRM) API
-  slug: sales-crm-api
+  label: Zendesk Sell Contacts API
+  slug: zendesk-sell-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/openapi/zendesk-sell-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/openapi/zendesk-sell-contacts-api-openapi.yml
+- filename: zendesk-sell-deals-api-openapi.yml
+  format: yaml
+  label: Zendesk Sell Deals API
+  slug: zendesk-sell-deals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/openapi/zendesk-sell-deals-api-openapi.yml
+- filename: zendesk-sell-leads-api-openapi.yml
+  format: yaml
+  label: Zendesk Sell Leads API
+  slug: zendesk-sell-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/openapi/zendesk-sell-leads-api-openapi.yml
 description: ''
 domains:
 - caa: []

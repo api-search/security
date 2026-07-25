@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: rest
+- filename: google-looker-studio-assets-search-api-openapi.yml
   format: yaml
-  label: Google Looker Studio API
-  slug: google-looker-studio-api
+  label: Google Looker Studio Assets:search API
+  slug: google-looker-studio-assets-search-api
   spec_type: OpenAPI
-  url: https://lookerstudio.googleapis.com/$discovery/rest
+  url: https://raw.githubusercontent.com/api-evangelist/google-looker-studio/refs/heads/main/openapi/google-looker-studio-assets-search-api-openapi.yml
 description: ''
 domains:
 - caa:

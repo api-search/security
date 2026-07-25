@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: gentrace-openapi-original.json
-  format: json
-  label: Gentrace API
-  slug: gentrace-api
+- filename: gentrace-datasets-api-openapi.yml
+  format: yaml
+  label: Gentrace Datasets API
+  slug: gentrace-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/openapi/gentrace-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/openapi/gentrace-datasets-api-openapi.yml
+- filename: gentrace-experiments-api-openapi.yml
+  format: yaml
+  label: Gentrace Experiments API
+  slug: gentrace-experiments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/openapi/gentrace-experiments-api-openapi.yml
+- filename: gentrace-pipelines-api-openapi.yml
+  format: yaml
+  label: Gentrace Pipelines API
+  slug: gentrace-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/openapi/gentrace-pipelines-api-openapi.yml
+- filename: gentrace-testcases-api-openapi.yml
+  format: yaml
+  label: Gentrace TestCases API
+  slug: gentrace-testcases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/openapi/gentrace-testcases-api-openapi.yml
 auth_types:
 - http
 description: ''

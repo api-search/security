@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: arcbest-api.yaml
+- filename: arcbest-pickups-api-openapi.yml
   format: yaml
-  label: ArcBest API
-  slug: arcbest-api
+  label: ArcBest Pickups API
+  slug: arcbest-pickups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-pickups-api-openapi.yml
+- filename: arcbest-rates-api-openapi.yml
+  format: yaml
+  label: ArcBest Rates API
+  slug: arcbest-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-rates-api-openapi.yml
+- filename: arcbest-shipments-api-openapi.yml
+  format: yaml
+  label: ArcBest Shipments API
+  slug: arcbest-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-shipments-api-openapi.yml
+- filename: arcbest-tracking-api-openapi.yml
+  format: yaml
+  label: ArcBest Tracking API
+  slug: arcbest-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-tracking-api-openapi.yml
 description: ''
 domains:
 - caa: []

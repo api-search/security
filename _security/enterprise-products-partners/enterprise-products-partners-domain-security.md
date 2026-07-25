@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: enterprise-products-partners-pipeline-operations-api-openapi.yml
+- filename: enterprise-products-partners-operations-api-openapi.yml
   format: yaml
-  label: Enterprise Products Partners Pipeline Operations API
-  slug: pipeline-operations-api
+  label: Enterprise Products Partners Operations API
+  slug: enterprise-products-partners-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enterprise-products-partners/refs/heads/main/openapi/enterprise-products-partners-pipeline-operations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/enterprise-products-partners/refs/heads/main/openapi/enterprise-products-partners-operations-api-openapi.yml
+- filename: enterprise-products-partners-pipelines-api-openapi.yml
+  format: yaml
+  label: Enterprise Products Partners Pipelines API
+  slug: enterprise-products-partners-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enterprise-products-partners/refs/heads/main/openapi/enterprise-products-partners-pipelines-api-openapi.yml
 description: ''
 domains:
 - caa: []

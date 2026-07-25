@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: wombo-wai-openapi.yml
+- filename: wombo-chat-api-openapi.yml
   format: yaml
-  label: w.ai Inference API
-  slug: wai-inference-api
+  label: Wombo Chat API
+  slug: wombo-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/openapi/wombo-wai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/openapi/wombo-chat-api-openapi.yml
+- filename: wombo-images-api-openapi.yml
+  format: yaml
+  label: Wombo Images API
+  slug: wombo-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/openapi/wombo-images-api-openapi.yml
+- filename: wombo-models-api-openapi.yml
+  format: yaml
+  label: Wombo Models API
+  slug: wombo-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/openapi/wombo-models-api-openapi.yml
+- filename: wombo-predictions-api-openapi.yml
+  format: yaml
+  label: Wombo Predictions API
+  slug: wombo-predictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/openapi/wombo-predictions-api-openapi.yml
 description: ''
 domains:
 - caa: []

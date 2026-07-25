@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: secureworks-taegis-xdr-openapi.yml
+- filename: secureworks-authentication-api-openapi.yml
   format: yaml
-  label: Secureworks Taegis XDR API
-  slug: secureworks-taegis-xdr-api
+  label: Secureworks Authentication API
+  slug: secureworks-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/secureworks/refs/heads/main/openapi/secureworks-taegis-xdr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/secureworks/refs/heads/main/openapi/secureworks-authentication-api-openapi.yml
+- filename: secureworks-graphql-api-openapi.yml
+  format: yaml
+  label: Secureworks GraphQL API
+  slug: secureworks-graphql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/secureworks/refs/heads/main/openapi/secureworks-graphql-api-openapi.yml
+- filename: secureworks-system-api-openapi.yml
+  format: yaml
+  label: Secureworks System API
+  slug: secureworks-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/secureworks/refs/heads/main/openapi/secureworks-system-api-openapi.yml
 description: ''
 domains:
 - caa:

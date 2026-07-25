@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: keyper-access-openapi.yml
+- filename: keyper-permissions-api-openapi.yml
   format: yaml
-  label: keyper Access API
-  slug: keyper-access-api
+  label: Keyper Permissions API
+  slug: keyper-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/openapi/keyper-access-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/openapi/keyper-permissions-api-openapi.yml
+- filename: keyper-transactions-api-openapi.yml
+  format: yaml
+  label: Keyper Transactions API
+  slug: keyper-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/openapi/keyper-transactions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

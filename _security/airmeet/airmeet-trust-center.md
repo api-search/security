@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: airmeet-openapi.yml
+- filename: airmeet-authentication-api-openapi.yml
   format: yaml
-  label: Airmeet Public API
-  slug: airmeet-public-api
+  label: Airmeet Authentication API
+  slug: airmeet-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/openapi/airmeet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/openapi/airmeet-authentication-api-openapi.yml
+- filename: airmeet-event-details-api-openapi.yml
+  format: yaml
+  label: Airmeet Event Details API
+  slug: airmeet-event-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/openapi/airmeet-event-details-api-openapi.yml
+- filename: airmeet-manage-event-api-openapi.yml
+  format: yaml
+  label: Airmeet Manage Event API
+  slug: airmeet-manage-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/openapi/airmeet-manage-event-api-openapi.yml
+- filename: airmeet-manage-event-series-api-openapi.yml
+  format: yaml
+  label: Airmeet Manage Event Series API
+  slug: airmeet-manage-event-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/openapi/airmeet-manage-event-series-api-openapi.yml
+- filename: airmeet-manage-registrations-api-openapi.yml
+  format: yaml
+  label: Airmeet Manage Registrations API
+  slug: airmeet-manage-registrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/openapi/airmeet-manage-registrations-api-openapi.yml
+- filename: airmeet-webhooks-api-openapi.yml
+  format: yaml
+  label: Airmeet Webhooks API
+  slug: airmeet-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/openapi/airmeet-webhooks-api-openapi.yml
 certifications:
 - ISO 27001:2022
 - SOC 2 Type 2

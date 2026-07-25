@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: truelayer-payments-openapi.yml
+- filename: truelayer-mandates-api-openapi.yml
+  format: yaml
+  label: TrueLayer Mandates API
+  slug: truelayer-mandates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/openapi/truelayer-mandates-api-openapi.yml
+- filename: truelayer-merchant-accounts-api-openapi.yml
+  format: yaml
+  label: TrueLayer Merchant Accounts API
+  slug: truelayer-merchant-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/openapi/truelayer-merchant-accounts-api-openapi.yml
+- filename: truelayer-payments-api-openapi.yml
   format: yaml
   label: TrueLayer Payments API
-  slug: payments-api
+  slug: truelayer-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/openapi/truelayer-payments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/openapi/truelayer-payments-api-openapi.yml
+- filename: truelayer-payouts-api-openapi.yml
+  format: yaml
+  label: TrueLayer Payouts API
+  slug: truelayer-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/openapi/truelayer-payouts-api-openapi.yml
+- filename: truelayer-refunds-api-openapi.yml
+  format: yaml
+  label: TrueLayer Refunds API
+  slug: truelayer-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/openapi/truelayer-refunds-api-openapi.yml
 description: ''
 domains:
 - caa: []

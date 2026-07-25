@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: loki-openapi.yml
+- filename: loki-config-api-openapi.yml
   format: yaml
-  label: Loki HTTP API
-  slug: loki-http-api
+  label: Loki Config API
+  slug: loki-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-config-api-openapi.yml
+- filename: loki-loki-api-openapi.yml
+  format: yaml
+  label: Loki Loki API
+  slug: loki-loki-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-loki-api-openapi.yml
+- filename: loki-metrics-api-openapi.yml
+  format: yaml
+  label: Loki Metrics API
+  slug: loki-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-metrics-api-openapi.yml
+- filename: loki-otlp-api-openapi.yml
+  format: yaml
+  label: Loki Otlp API
+  slug: loki-otlp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-otlp-api-openapi.yml
+- filename: loki-ready-api-openapi.yml
+  format: yaml
+  label: Loki Ready API
+  slug: loki-ready-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-ready-api-openapi.yml
 description: ''
 domains:
 - caa: []

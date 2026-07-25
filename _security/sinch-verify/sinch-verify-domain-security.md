@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: sinch-verify-openapi.yml
+- filename: sinch-verify-report-verification-api-openapi.yml
   format: yaml
-  label: Sinch Start Verification API
-  slug: sinch-verify-start-verification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch-verify/refs/heads/main/openapi/sinch-verify-openapi.yml
-- filename: sinch-verify-openapi.yml
-  format: yaml
-  label: Sinch Report Verification API
+  label: Sinch Verification API Report Verification API
   slug: sinch-verify-report-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch-verify/refs/heads/main/openapi/sinch-verify-openapi.yml
-- filename: sinch-verify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sinch-verify/refs/heads/main/openapi/sinch-verify-report-verification-api-openapi.yml
+- filename: sinch-verify-start-verification-api-openapi.yml
   format: yaml
-  label: Sinch Verification Status API
+  label: Sinch Verification API Start Verification API
+  slug: sinch-verify-start-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sinch-verify/refs/heads/main/openapi/sinch-verify-start-verification-api-openapi.yml
+- filename: sinch-verify-verification-status-api-openapi.yml
+  format: yaml
+  label: Sinch Verification API Verification Status API
   slug: sinch-verify-verification-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch-verify/refs/heads/main/openapi/sinch-verify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sinch-verify/refs/heads/main/openapi/sinch-verify-verification-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

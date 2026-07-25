@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: survicate-data-export-openapi.yml
+- filename: survicate-personal-data-api-openapi.yml
   format: yaml
-  label: Survicate Data Export API
-  slug: survicate-data-export-api
+  label: Survicate Personal Data API
+  slug: survicate-personal-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/survicate/refs/heads/main/openapi/survicate-data-export-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/survicate/refs/heads/main/openapi/survicate-personal-data-api-openapi.yml
+- filename: survicate-respondents-api-openapi.yml
+  format: yaml
+  label: Survicate Respondents API
+  slug: survicate-respondents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/survicate/refs/heads/main/openapi/survicate-respondents-api-openapi.yml
+- filename: survicate-responses-api-openapi.yml
+  format: yaml
+  label: Survicate Responses API
+  slug: survicate-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/survicate/refs/heads/main/openapi/survicate-responses-api-openapi.yml
+- filename: survicate-surveys-api-openapi.yml
+  format: yaml
+  label: Survicate Surveys API
+  slug: survicate-surveys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/survicate/refs/heads/main/openapi/survicate-surveys-api-openapi.yml
 certifications:
 - ISO 27001
 - PCI DSS

@@ -1,12 +1,126 @@
 ---
 api_key_in: []
 api_specs:
-- filename: kayhan-space-satcat-openapi-original.json
-  format: json
-  label: Satcat Service API
-  slug: satcat-service-api
+- filename: kayhan-space-authentication-api-openapi.yml
+  format: yaml
+  label: Kayhan Space Authentication API
+  slug: kayhan-space-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-satcat-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-authentication-api-openapi.yml
+- filename: kayhan-space-catalog-api-openapi.yml
+  format: yaml
+  label: Kayhan Space Catalog API
+  slug: kayhan-space-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-catalog-api-openapi.yml
+- filename: kayhan-space-conjunction-api-openapi.yml
+  format: yaml
+  label: Kayhan Space Conjunction API
+  slug: kayhan-space-conjunction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-conjunction-api-openapi.yml
+- filename: kayhan-space-ephemeris-api-openapi.yml
+  format: yaml
+  label: Kayhan Space Ephemeris API
+  slug: kayhan-space-ephemeris-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-ephemeris-api-openapi.yml
+- filename: kayhan-space-events-api-openapi.yml
+  format: yaml
+  label: Kayhan Space Events API
+  slug: kayhan-space-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-events-api-openapi.yml
+- filename: kayhan-space-health-api-openapi.yml
+  format: yaml
+  label: Kayhan Space Health API
+  slug: kayhan-space-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-health-api-openapi.yml
+- filename: kayhan-space-launch-screening-api-openapi.yml
+  format: yaml
+  label: Kayhan Space Launch Screening API
+  slug: kayhan-space-launch-screening-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-launch-screening-api-openapi.yml
+- filename: kayhan-space-leop-api-openapi.yml
+  format: yaml
+  label: Kayhan Space LEOP API
+  slug: kayhan-space-leop-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-leop-api-openapi.yml
+- filename: kayhan-space-maneuver-designer-api-openapi.yml
+  format: yaml
+  label: Kayhan Space Maneuver Designer API
+  slug: kayhan-space-maneuver-designer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-maneuver-designer-api-openapi.yml
+- filename: kayhan-space-metrics-api-openapi.yml
+  format: yaml
+  label: Kayhan Space Metrics API
+  slug: kayhan-space-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-metrics-api-openapi.yml
+- filename: kayhan-space-mission-planning-api-openapi.yml
+  format: yaml
+  label: Kayhan Space Mission Planning API
+  slug: kayhan-space-mission-planning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-mission-planning-api-openapi.yml
+- filename: kayhan-space-mitigation-api-openapi.yml
+  format: yaml
+  label: Kayhan Space Mitigation API
+  slug: kayhan-space-mitigation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-mitigation-api-openapi.yml
+- filename: kayhan-space-nlp-api-openapi.yml
+  format: yaml
+  label: Kayhan Space NLP API
+  slug: kayhan-space-nlp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-nlp-api-openapi.yml
+- filename: kayhan-space-orbital-determination-api-openapi.yml
+  format: yaml
+  label: Kayhan Space Orbital Determination API
+  slug: kayhan-space-orbital-determination-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-orbital-determination-api-openapi.yml
+- filename: kayhan-space-plot-api-openapi.yml
+  format: yaml
+  label: Kayhan Space Plot API
+  slug: kayhan-space-plot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-plot-api-openapi.yml
+- filename: kayhan-space-propagation-api-openapi.yml
+  format: yaml
+  label: Kayhan Space Propagation API
+  slug: kayhan-space-propagation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-propagation-api-openapi.yml
+- filename: kayhan-space-satcat-service-api-api-openapi.yml
+  format: yaml
+  label: Kayhan Space Satcat Service API API
+  slug: kayhan-space-satcat-service-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-satcat-service-api-api-openapi.yml
+- filename: kayhan-space-screening-api-openapi.yml
+  format: yaml
+  label: Kayhan Space Screening API
+  slug: kayhan-space-screening-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-screening-api-openapi.yml
+- filename: kayhan-space-state-vector-api-openapi.yml
+  format: yaml
+  label: Kayhan Space State Vector API
+  slug: kayhan-space-state-vector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-state-vector-api-openapi.yml
+- filename: kayhan-space-two-line-elements-tles-api-openapi.yml
+  format: yaml
+  label: Kayhan Space Two Line Elements (TLEs) API
+  slug: kayhan-space-two-line-elements-tles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-two-line-elements-tles-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,47 +1,59 @@
 ---
 api_specs:
-- filename: gitee-openapi.yml
-  format: yaml
-  label: Gitee Repositories API
-  slug: gitee-repositories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-openapi.yml
-- filename: gitee-openapi.yml
-  format: yaml
-  label: Gitee Issues API
-  slug: gitee-issues-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-openapi.yml
-- filename: gitee-openapi.yml
-  format: yaml
-  label: Gitee Pull Requests API
-  slug: gitee-pull-requests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-openapi.yml
-- filename: gitee-openapi.yml
-  format: yaml
-  label: Gitee Users and Organizations API
-  slug: gitee-users-orgs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-openapi.yml
-- filename: gitee-openapi.yml
-  format: yaml
-  label: Gitee Gists API
-  slug: gitee-gists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-openapi.yml
-- filename: gitee-openapi.yml
+- filename: gitee-enterprises-api-openapi.yml
   format: yaml
   label: Gitee Enterprises API
   slug: gitee-enterprises-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-openapi.yml
-- filename: gitee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-enterprises-api-openapi.yml
+- filename: gitee-gists-api-openapi.yml
+  format: yaml
+  label: Gitee Gists API
+  slug: gitee-gists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-gists-api-openapi.yml
+- filename: gitee-issues-api-openapi.yml
+  format: yaml
+  label: Gitee Issues API
+  slug: gitee-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-issues-api-openapi.yml
+- filename: gitee-organizations-api-openapi.yml
+  format: yaml
+  label: Gitee Organizations API
+  slug: gitee-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-organizations-api-openapi.yml
+- filename: gitee-pull-requests-api-openapi.yml
+  format: yaml
+  label: Gitee Pull Requests API
+  slug: gitee-pull-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-pull-requests-api-openapi.yml
+- filename: gitee-repositories-api-openapi.yml
+  format: yaml
+  label: Gitee Repositories API
+  slug: gitee-repositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-repositories-api-openapi.yml
+- filename: gitee-search-api-openapi.yml
+  format: yaml
+  label: Gitee Search API
+  slug: gitee-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-search-api-openapi.yml
+- filename: gitee-users-api-openapi.yml
+  format: yaml
+  label: Gitee Users API
+  slug: gitee-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-users-api-openapi.yml
+- filename: gitee-webhooks-api-openapi.yml
   format: yaml
   label: Gitee Webhooks API
   slug: gitee-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-webhooks-api-openapi.yml
 description: ''
 domains:
 - a_records:

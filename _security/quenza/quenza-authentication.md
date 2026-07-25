@@ -1,30 +1,102 @@
 ---
 api_key_in: []
 api_specs:
-- filename: quenza-openapi.yml
+- filename: quenza-archiveclient-api-openapi.yml
+  format: yaml
+  label: Quenza ArchiveClient API
+  slug: quenza-archiveclient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-archiveclient-api-openapi.yml
+- filename: quenza-attachgroupmembers-api-openapi.yml
+  format: yaml
+  label: Quenza AttachGroupMembers API
+  slug: quenza-attachgroupmembers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-attachgroupmembers-api-openapi.yml
+- filename: quenza-clients-api-openapi.yml
   format: yaml
   label: Quenza Clients API
   slug: quenza-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-openapi.yml
-- filename: quenza-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-clients-api-openapi.yml
+- filename: quenza-createclient-api-openapi.yml
+  format: yaml
+  label: Quenza CreateClient API
+  slug: quenza-createclient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-createclient-api-openapi.yml
+- filename: quenza-creategroup-api-openapi.yml
+  format: yaml
+  label: Quenza CreateGroup API
+  slug: quenza-creategroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-creategroup-api-openapi.yml
+- filename: quenza-createmember-api-openapi.yml
+  format: yaml
+  label: Quenza CreateMember API
+  slug: quenza-createmember-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-createmember-api-openapi.yml
+- filename: quenza-groups-api-openapi.yml
   format: yaml
   label: Quenza Groups API
   slug: quenza-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-openapi.yml
-- filename: quenza-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-groups-api-openapi.yml
+- filename: quenza-listclient-api-openapi.yml
+  format: yaml
+  label: Quenza ListClient API
+  slug: quenza-listclient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-listclient-api-openapi.yml
+- filename: quenza-listmember-api-openapi.yml
+  format: yaml
+  label: Quenza ListMember API
+  slug: quenza-listmember-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-listmember-api-openapi.yml
+- filename: quenza-listtask-api-openapi.yml
+  format: yaml
+  label: Quenza ListTask API
+  slug: quenza-listtask-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-listtask-api-openapi.yml
+- filename: quenza-members-api-openapi.yml
   format: yaml
   label: Quenza Members API
   slug: quenza-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-openapi.yml
-- filename: quenza-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-members-api-openapi.yml
+- filename: quenza-showclient-api-openapi.yml
+  format: yaml
+  label: Quenza ShowClient API
+  slug: quenza-showclient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-showclient-api-openapi.yml
+- filename: quenza-tasks-api-openapi.yml
   format: yaml
   label: Quenza Tasks API
   slug: quenza-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-tasks-api-openapi.yml
+- filename: quenza-unarchiveclient-api-openapi.yml
+  format: yaml
+  label: Quenza UnarchiveClient API
+  slug: quenza-unarchiveclient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-unarchiveclient-api-openapi.yml
+- filename: quenza-updateclient-api-openapi.yml
+  format: yaml
+  label: Quenza UpdateClient API
+  slug: quenza-updateclient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-updateclient-api-openapi.yml
+- filename: quenza-updatemember-api-openapi.yml
+  format: yaml
+  label: Quenza UpdateMember API
+  slug: quenza-updatemember-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-updatemember-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: cloud-ops-api.yml
+- filename: temporal-api-keys-api-openapi.yml
   format: yaml
-  label: Temporal Cloud Ops API
-  slug: cloud-ops-api
+  label: Temporal API Keys API
+  slug: temporal-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/openapi/cloud-ops-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/openapi/temporal-api-keys-api-openapi.yml
+- filename: temporal-async-operations-api-openapi.yml
+  format: yaml
+  label: Temporal Async Operations API
+  slug: temporal-async-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/openapi/temporal-async-operations-api-openapi.yml
+- filename: temporal-namespaces-api-openapi.yml
+  format: yaml
+  label: Temporal Namespaces API
+  slug: temporal-namespaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/openapi/temporal-namespaces-api-openapi.yml
+- filename: temporal-regions-api-openapi.yml
+  format: yaml
+  label: Temporal Regions API
+  slug: temporal-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/openapi/temporal-regions-api-openapi.yml
+- filename: temporal-service-accounts-api-openapi.yml
+  format: yaml
+  label: Temporal Service Accounts API
+  slug: temporal-service-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/openapi/temporal-service-accounts-api-openapi.yml
+- filename: temporal-users-api-openapi.yml
+  format: yaml
+  label: Temporal Users API
+  slug: temporal-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/openapi/temporal-users-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

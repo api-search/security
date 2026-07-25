@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: elsevier-openapi.yml
+- filename: elsevier-abstract-api-openapi.yml
   format: yaml
-  label: Elsevier Scopus APIs
-  slug: elsevier-scopus-apis
+  label: Elsevier Abstract API
+  slug: elsevier-abstract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-abstract-api-openapi.yml
+- filename: elsevier-search-api-openapi.yml
+  format: yaml
+  label: Elsevier Search API
+  slug: elsevier-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: revvo-api-openapi-original.yml
+- filename: revvo-api-keys-api-openapi.yml
   format: yaml
-  label: Revvo API
-  slug: revvo-api
+  label: Revvo Api-keys API
+  slug: revvo-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/openapi/revvo-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/openapi/revvo-api-keys-api-openapi.yml
+- filename: revvo-auth-api-openapi.yml
+  format: yaml
+  label: Revvo Auth API
+  slug: revvo-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/openapi/revvo-auth-api-openapi.yml
+- filename: revvo-device-api-openapi.yml
+  format: yaml
+  label: Revvo Device API
+  slug: revvo-device-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/openapi/revvo-device-api-openapi.yml
+- filename: revvo-event-api-openapi.yml
+  format: yaml
+  label: Revvo Event API
+  slug: revvo-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/openapi/revvo-event-api-openapi.yml
+- filename: revvo-fleet-api-openapi.yml
+  format: yaml
+  label: Revvo Fleet API
+  slug: revvo-fleet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/openapi/revvo-fleet-api-openapi.yml
+- filename: revvo-tire-operation-api-openapi.yml
+  format: yaml
+  label: Revvo Tire Operation API
+  slug: revvo-tire-operation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/openapi/revvo-tire-operation-api-openapi.yml
+- filename: revvo-vehicle-api-openapi.yml
+  format: yaml
+  label: Revvo Vehicle API
+  slug: revvo-vehicle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/openapi/revvo-vehicle-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: lit-protocol-core-v1-openapi.json
-  format: json
-  label: Lit Protocol Chipotle Express API (Core v1)
-  slug: chipotle-api
+- filename: lit-protocol-account-management-api-openapi.yml
+  format: yaml
+  label: Lit Protocol Account Management API
+  slug: lit-protocol-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lit-protocol/refs/heads/main/openapi/lit-protocol-core-v1-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/lit-protocol/refs/heads/main/openapi/lit-protocol-account-management-api-openapi.yml
+- filename: lit-protocol-actions-api-openapi.yml
+  format: yaml
+  label: Lit Protocol Actions API
+  slug: lit-protocol-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lit-protocol/refs/heads/main/openapi/lit-protocol-actions-api-openapi.yml
+- filename: lit-protocol-billing-api-openapi.yml
+  format: yaml
+  label: Lit Protocol Billing API
+  slug: lit-protocol-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lit-protocol/refs/heads/main/openapi/lit-protocol-billing-api-openapi.yml
+- filename: lit-protocol-configuration-api-openapi.yml
+  format: yaml
+  label: Lit Protocol Configuration API
+  slug: lit-protocol-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lit-protocol/refs/heads/main/openapi/lit-protocol-configuration-api-openapi.yml
 description: ''
 domains:
 - caa: []

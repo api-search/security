@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: academy-software-foundation-opencue.yaml
+- filename: academy-software-foundation-hosts-api-openapi.yml
   format: yaml
-  label: OpenCue
-  slug: opencue
+  label: Academy Software Foundation Hosts API
+  slug: academy-software-foundation-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/openapi/academy-software-foundation-opencue.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/openapi/academy-software-foundation-hosts-api-openapi.yml
+- filename: academy-software-foundation-jobs-api-openapi.yml
+  format: yaml
+  label: Academy Software Foundation Jobs API
+  slug: academy-software-foundation-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/openapi/academy-software-foundation-jobs-api-openapi.yml
+- filename: academy-software-foundation-layers-api-openapi.yml
+  format: yaml
+  label: Academy Software Foundation Layers API
+  slug: academy-software-foundation-layers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/openapi/academy-software-foundation-layers-api-openapi.yml
+- filename: academy-software-foundation-shows-api-openapi.yml
+  format: yaml
+  label: Academy Software Foundation Shows API
+  slug: academy-software-foundation-shows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/openapi/academy-software-foundation-shows-api-openapi.yml
 description: ''
 domains:
 - caa: []

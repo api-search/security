@@ -1,60 +1,246 @@
 ---
 api_key_in: []
 api_specs:
-- filename: remote-companies-api-openapi.yml
-  format: yaml
-  label: Remote Companies API
-  slug: remote-companies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-companies-api-openapi.yml
-- filename: remote-employments-api-openapi.yml
-  format: yaml
-  label: Remote Employments API
-  slug: remote-employments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-employments-api-openapi.yml
-- filename: remote-contractors-api-openapi.yml
-  format: yaml
-  label: Remote Contractors API
-  slug: remote-contractors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-contractors-api-openapi.yml
-- filename: remote-payroll-billing-api-openapi.yml
-  format: yaml
-  label: Remote Payroll and Billing API
-  slug: remote-payroll-billing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-payroll-billing-api-openapi.yml
-- filename: remote-time-attendance-api-openapi.yml
-  format: yaml
-  label: Remote Time and Attendance API
-  slug: remote-time-attendance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-time-attendance-api-openapi.yml
-- filename: remote-benefits-api-openapi.yml
-  format: yaml
-  label: Remote Benefits API
-  slug: remote-benefits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-benefits-api-openapi.yml
-- filename: remote-files-api-openapi.yml
-  format: yaml
-  label: Remote Files and Custom Fields API
-  slug: remote-files-and-custom-fields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-files-api-openapi.yml
-- filename: remote-oauth-api-openapi.yml
-  format: yaml
-  label: Remote OAuth 2.0 API
-  slug: remote-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-oauth-api-openapi.yml
 - filename: remote-webhooks-asyncapi.yml
   format: yaml
   label: Remote Webhooks
   slug: remote-webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/asyncapi/remote-webhooks-asyncapi.yml
+- filename: remote-com-benefit-offers-api-openapi.yml
+  format: yaml
+  label: Remote Benefit Offers API
+  slug: remote-com-benefit-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-benefit-offers-api-openapi.yml
+- filename: remote-com-benefit-renewals-api-openapi.yml
+  format: yaml
+  label: Remote Benefit Renewals API
+  slug: remote-com-benefit-renewals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-benefit-renewals-api-openapi.yml
+- filename: remote-com-billing-documents-api-openapi.yml
+  format: yaml
+  label: Remote Billing Documents API
+  slug: remote-com-billing-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-billing-documents-api-openapi.yml
+- filename: remote-com-companies-api-openapi.yml
+  format: yaml
+  label: Remote Companies API
+  slug: remote-com-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-companies-api-openapi.yml
+- filename: remote-com-company-currencies-api-openapi.yml
+  format: yaml
+  label: Remote Company Currencies API
+  slug: remote-com-company-currencies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-company-currencies-api-openapi.yml
+- filename: remote-com-company-managers-api-openapi.yml
+  format: yaml
+  label: Remote Company Managers API
+  slug: remote-com-company-managers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-company-managers-api-openapi.yml
+- filename: remote-com-company-structure-api-openapi.yml
+  format: yaml
+  label: Remote Company Structure API
+  slug: remote-com-company-structure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-company-structure-api-openapi.yml
+- filename: remote-com-compliance-api-openapi.yml
+  format: yaml
+  label: Remote Compliance API
+  slug: remote-com-compliance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-compliance-api-openapi.yml
+- filename: remote-com-contract-amendments-api-openapi.yml
+  format: yaml
+  label: Remote Contract Amendments API
+  slug: remote-com-contract-amendments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-contract-amendments-api-openapi.yml
+- filename: remote-com-contract-documents-api-openapi.yml
+  format: yaml
+  label: Remote Contract Documents API
+  slug: remote-com-contract-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-contract-documents-api-openapi.yml
+- filename: remote-com-contract-eligibility-api-openapi.yml
+  format: yaml
+  label: Remote Contract Eligibility API
+  slug: remote-com-contract-eligibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-contract-eligibility-api-openapi.yml
+- filename: remote-com-contractor-currencies-api-openapi.yml
+  format: yaml
+  label: Remote Contractor Currencies API
+  slug: remote-com-contractor-currencies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-contractor-currencies-api-openapi.yml
+- filename: remote-com-contractor-invoices-api-openapi.yml
+  format: yaml
+  label: Remote Contractor Invoices API
+  slug: remote-com-contractor-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-contractor-invoices-api-openapi.yml
+- filename: remote-com-contractor-subscriptions-api-openapi.yml
+  format: yaml
+  label: Remote Contractor Subscriptions API
+  slug: remote-com-contractor-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-contractor-subscriptions-api-openapi.yml
+- filename: remote-com-cor-termination-api-openapi.yml
+  format: yaml
+  label: Remote COR Termination API
+  slug: remote-com-cor-termination-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-cor-termination-api-openapi.yml
+- filename: remote-com-cost-calculator-api-openapi.yml
+  format: yaml
+  label: Remote Cost Calculator API
+  slug: remote-com-cost-calculator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-cost-calculator-api-openapi.yml
+- filename: remote-com-countries-api-openapi.yml
+  format: yaml
+  label: Remote Countries API
+  slug: remote-com-countries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-countries-api-openapi.yml
+- filename: remote-com-custom-fields-api-openapi.yml
+  format: yaml
+  label: Remote Custom Fields API
+  slug: remote-com-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-custom-fields-api-openapi.yml
+- filename: remote-com-departments-api-openapi.yml
+  format: yaml
+  label: Remote Departments API
+  slug: remote-com-departments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-departments-api-openapi.yml
+- filename: remote-com-employment-contracts-api-openapi.yml
+  format: yaml
+  label: Remote Employment Contracts API
+  slug: remote-com-employment-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-employment-contracts-api-openapi.yml
+- filename: remote-com-employments-api-openapi.yml
+  format: yaml
+  label: Remote Employments API
+  slug: remote-com-employments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-employments-api-openapi.yml
+- filename: remote-com-expenses-api-openapi.yml
+  format: yaml
+  label: Remote Expenses API
+  slug: remote-com-expenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-expenses-api-openapi.yml
+- filename: remote-com-files-api-openapi.yml
+  format: yaml
+  label: Remote Files API
+  slug: remote-com-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-files-api-openapi.yml
+- filename: remote-com-identity-api-openapi.yml
+  format: yaml
+  label: Remote Identity API
+  slug: remote-com-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-identity-api-openapi.yml
+- filename: remote-com-incentives-api-openapi.yml
+  format: yaml
+  label: Remote Incentives API
+  slug: remote-com-incentives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-incentives-api-openapi.yml
+- filename: remote-com-leave-balances-api-openapi.yml
+  format: yaml
+  label: Remote Leave Balances API
+  slug: remote-com-leave-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-leave-balances-api-openapi.yml
+- filename: remote-com-leave-policies-api-openapi.yml
+  format: yaml
+  label: Remote Leave Policies API
+  slug: remote-com-leave-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-leave-policies-api-openapi.yml
+- filename: remote-com-magic-links-api-openapi.yml
+  format: yaml
+  label: Remote Magic Links API
+  slug: remote-com-magic-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-magic-links-api-openapi.yml
+- filename: remote-com-oauth-api-openapi.yml
+  format: yaml
+  label: Remote OAuth API
+  slug: remote-com-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-oauth-api-openapi.yml
+- filename: remote-com-offboarding-api-openapi.yml
+  format: yaml
+  label: Remote Offboarding API
+  slug: remote-com-offboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-offboarding-api-openapi.yml
+- filename: remote-com-onboarding-api-openapi.yml
+  format: yaml
+  label: Remote Onboarding API
+  slug: remote-com-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-onboarding-api-openapi.yml
+- filename: remote-com-payroll-calendars-api-openapi.yml
+  format: yaml
+  label: Remote Payroll Calendars API
+  slug: remote-com-payroll-calendars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-payroll-calendars-api-openapi.yml
+- filename: remote-com-payslips-api-openapi.yml
+  format: yaml
+  label: Remote Payslips API
+  slug: remote-com-payslips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-payslips-api-openapi.yml
+- filename: remote-com-scheduled-invoices-api-openapi.yml
+  format: yaml
+  label: Remote Scheduled Invoices API
+  slug: remote-com-scheduled-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-scheduled-invoices-api-openapi.yml
+- filename: remote-com-sso-api-openapi.yml
+  format: yaml
+  label: Remote SSO API
+  slug: remote-com-sso-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-sso-api-openapi.yml
+- filename: remote-com-time-off-api-openapi.yml
+  format: yaml
+  label: Remote Time Off API
+  slug: remote-com-time-off-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-time-off-api-openapi.yml
+- filename: remote-com-timesheets-api-openapi.yml
+  format: yaml
+  label: Remote Timesheets API
+  slug: remote-com-timesheets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-timesheets-api-openapi.yml
+- filename: remote-com-travel-letters-api-openapi.yml
+  format: yaml
+  label: Remote Travel Letters API
+  slug: remote-com-travel-letters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-travel-letters-api-openapi.yml
+- filename: remote-com-work-authorization-api-openapi.yml
+  format: yaml
+  label: Remote Work Authorization API
+  slug: remote-com-work-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-work-authorization-api-openapi.yml
 auth_types:
 - oauth2
 - http

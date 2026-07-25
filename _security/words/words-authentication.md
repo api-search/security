@@ -2,12 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: words-openapi.yml
+- filename: words-categories-api-openapi.yml
   format: yaml
-  label: Words API
-  slug: words-api
+  label: Words API Categories API
+  slug: words-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/words/refs/heads/main/openapi/words-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/words/refs/heads/main/openapi/words-categories-api-openapi.yml
+- filename: words-definitions-api-openapi.yml
+  format: yaml
+  label: Words API Definitions API
+  slug: words-definitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/words/refs/heads/main/openapi/words-definitions-api-openapi.yml
+- filename: words-examples-api-openapi.yml
+  format: yaml
+  label: Words API Examples API
+  slug: words-examples-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/words/refs/heads/main/openapi/words-examples-api-openapi.yml
+- filename: words-frequency-api-openapi.yml
+  format: yaml
+  label: Words API Frequency API
+  slug: words-frequency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/words/refs/heads/main/openapi/words-frequency-api-openapi.yml
+- filename: words-hierarchy-api-openapi.yml
+  format: yaml
+  label: Words API Hierarchy API
+  slug: words-hierarchy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/words/refs/heads/main/openapi/words-hierarchy-api-openapi.yml
+- filename: words-phonetics-api-openapi.yml
+  format: yaml
+  label: Words API Phonetics API
+  slug: words-phonetics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/words/refs/heads/main/openapi/words-phonetics-api-openapi.yml
+- filename: words-search-api-openapi.yml
+  format: yaml
+  label: Words API Search API
+  slug: words-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/words/refs/heads/main/openapi/words-search-api-openapi.yml
+- filename: words-thesaurus-api-openapi.yml
+  format: yaml
+  label: Words API Thesaurus API
+  slug: words-thesaurus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/words/refs/heads/main/openapi/words-thesaurus-api-openapi.yml
+- filename: words-word-api-openapi.yml
+  format: yaml
+  label: Words API Word API
+  slug: words-word-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/words/refs/heads/main/openapi/words-word-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

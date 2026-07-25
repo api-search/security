@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: minimax-ai-openapi.json
-  format: json
-  label: MiniMax Platform API
-  slug: platform
+- filename: minimax-ai-files-api-openapi.yml
+  format: yaml
+  label: MiniMax Files API
+  slug: minimax-ai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/openapi/minimax-ai-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/openapi/minimax-ai-files-api-openapi.yml
+- filename: minimax-ai-image-api-openapi.yml
+  format: yaml
+  label: MiniMax Image API
+  slug: minimax-ai-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/openapi/minimax-ai-image-api-openapi.yml
+- filename: minimax-ai-music-api-openapi.yml
+  format: yaml
+  label: MiniMax Music API
+  slug: minimax-ai-music-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/openapi/minimax-ai-music-api-openapi.yml
+- filename: minimax-ai-text-generation-api-openapi.yml
+  format: yaml
+  label: MiniMax Text Generation API
+  slug: minimax-ai-text-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/openapi/minimax-ai-text-generation-api-openapi.yml
+- filename: minimax-ai-text-to-audio-api-openapi.yml
+  format: yaml
+  label: MiniMax Text to Audio API
+  slug: minimax-ai-text-to-audio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/openapi/minimax-ai-text-to-audio-api-openapi.yml
+- filename: minimax-ai-video-api-openapi.yml
+  format: yaml
+  label: MiniMax Video API
+  slug: minimax-ai-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/openapi/minimax-ai-video-api-openapi.yml
+- filename: minimax-ai-voice-api-openapi.yml
+  format: yaml
+  label: MiniMax Voice API
+  slug: minimax-ai-voice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/openapi/minimax-ai-voice-api-openapi.yml
 auth_types:
 - http
 description: ''

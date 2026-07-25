@@ -1,35 +1,113 @@
 ---
 api_specs:
-- filename: attom-property-api-openapi.yml
+- filename: attomdata-all-events-api-openapi.yml
   format: yaml
-  label: ATTOM Property API
-  slug: attom-property-api
+  label: ATTOM All Events API
+  slug: attomdata-all-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attom-property-api-openapi.yml
-- filename: attom-area-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-all-events-api-openapi.yml
+- filename: attomdata-assessment-api-openapi.yml
   format: yaml
-  label: ATTOM Area API
-  slug: attom-area-api
+  label: ATTOM Assessment API
+  slug: attomdata-assessment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attom-area-api-openapi.yml
-- filename: attom-poi-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-assessment-api-openapi.yml
+- filename: attomdata-avm-api-openapi.yml
   format: yaml
-  label: ATTOM POI API
-  slug: attom-poi-api
+  label: ATTOM AVM API
+  slug: attomdata-avm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attom-poi-api-openapi.yml
-- filename: attom-community-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-avm-api-openapi.yml
+- filename: attomdata-boundary-api-openapi.yml
+  format: yaml
+  label: ATTOM Boundary API
+  slug: attomdata-boundary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-boundary-api-openapi.yml
+- filename: attomdata-building-permits-api-openapi.yml
+  format: yaml
+  label: ATTOM Building Permits API
+  slug: attomdata-building-permits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-building-permits-api-openapi.yml
+- filename: attomdata-community-api-openapi.yml
   format: yaml
   label: ATTOM Community API
-  slug: attom-community-api
+  slug: attomdata-community-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attom-community-api-openapi.yml
-- filename: attom-parcel-tiles-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-community-api-openapi.yml
+- filename: attomdata-hierarchy-api-openapi.yml
+  format: yaml
+  label: ATTOM Hierarchy API
+  slug: attomdata-hierarchy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-hierarchy-api-openapi.yml
+- filename: attomdata-home-equity-api-openapi.yml
+  format: yaml
+  label: ATTOM Home Equity API
+  slug: attomdata-home-equity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-home-equity-api-openapi.yml
+- filename: attomdata-location-api-openapi.yml
+  format: yaml
+  label: ATTOM Location API
+  slug: attomdata-location-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-location-api-openapi.yml
+- filename: attomdata-lookup-api-openapi.yml
+  format: yaml
+  label: ATTOM Lookup API
+  slug: attomdata-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-lookup-api-openapi.yml
+- filename: attomdata-parcel-tiles-api-openapi.yml
   format: yaml
   label: ATTOM Parcel Tiles API
-  slug: attom-parcel-tiles-api
+  slug: attomdata-parcel-tiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attom-parcel-tiles-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-parcel-tiles-api-openapi.yml
+- filename: attomdata-poi-categories-api-openapi.yml
+  format: yaml
+  label: ATTOM POI Categories API
+  slug: attomdata-poi-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-poi-categories-api-openapi.yml
+- filename: attomdata-poi-search-api-openapi.yml
+  format: yaml
+  label: ATTOM POI Search API
+  slug: attomdata-poi-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-poi-search-api-openapi.yml
+- filename: attomdata-pre-foreclosure-api-openapi.yml
+  format: yaml
+  label: ATTOM Pre-Foreclosure API
+  slug: attomdata-pre-foreclosure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-pre-foreclosure-api-openapi.yml
+- filename: attomdata-property-api-openapi.yml
+  format: yaml
+  label: ATTOM Property API
+  slug: attomdata-property-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-property-api-openapi.yml
+- filename: attomdata-sale-api-openapi.yml
+  format: yaml
+  label: ATTOM Sale API
+  slug: attomdata-sale-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-sale-api-openapi.yml
+- filename: attomdata-sales-trends-api-openapi.yml
+  format: yaml
+  label: ATTOM Sales Trends API
+  slug: attomdata-sales-trends-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-sales-trends-api-openapi.yml
+- filename: attomdata-school-api-openapi.yml
+  format: yaml
+  label: ATTOM School API
+  slug: attomdata-school-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-school-api-openapi.yml
 description: ''
 domains:
 - caa: []

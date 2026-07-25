@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: jetic-platform-openapi.yml
+- filename: jetic-api-specifications-api-openapi.yml
   format: yaml
-  label: Jetic Platform API
-  slug: platform-api
+  label: Jetic API Specifications API
+  slug: jetic-api-specifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jetic/refs/heads/main/openapi/jetic-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jetic/refs/heads/main/openapi/jetic-api-specifications-api-openapi.yml
+- filename: jetic-clusters-api-openapi.yml
+  format: yaml
+  label: Jetic Clusters API
+  slug: jetic-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jetic/refs/heads/main/openapi/jetic-clusters-api-openapi.yml
+- filename: jetic-deployments-api-openapi.yml
+  format: yaml
+  label: Jetic Deployments API
+  slug: jetic-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jetic/refs/heads/main/openapi/jetic-deployments-api-openapi.yml
+- filename: jetic-integrations-api-openapi.yml
+  format: yaml
+  label: Jetic Integrations API
+  slug: jetic-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jetic/refs/heads/main/openapi/jetic-integrations-api-openapi.yml
+- filename: jetic-monitoring-api-openapi.yml
+  format: yaml
+  label: Jetic Monitoring API
+  slug: jetic-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jetic/refs/heads/main/openapi/jetic-monitoring-api-openapi.yml
 auth_types:
 - http
 description: ''

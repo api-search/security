@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: agora-openapi-original.yml
+- filename: agora-accounts-api-openapi.yml
   format: yaml
-  label: Agora Public API
-  slug: agora-public-api
+  label: Agora Accounts API
+  slug: agora-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/openapi/agora-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/openapi/agora-accounts-api-openapi.yml
+- filename: agora-auth-api-openapi.yml
+  format: yaml
+  label: Agora Auth API
+  slug: agora-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/openapi/agora-auth-api-openapi.yml
+- filename: agora-metrics-api-openapi.yml
+  format: yaml
+  label: Agora Metrics API
+  slug: agora-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/openapi/agora-metrics-api-openapi.yml
+- filename: agora-routes-api-openapi.yml
+  format: yaml
+  label: Agora Routes API
+  slug: agora-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/openapi/agora-routes-api-openapi.yml
+- filename: agora-transactions-api-openapi.yml
+  format: yaml
+  label: Agora Transactions API
+  slug: agora-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/openapi/agora-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

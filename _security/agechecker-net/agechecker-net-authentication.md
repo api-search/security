@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: agechecker-net-age-verification-openapi.yml
+- filename: agechecker-net-sessions-api-openapi.yml
   format: yaml
-  label: AgeChecker.Net Age Verification API
-  slug: agechecker-net-age-verification-api
+  label: AgeChecker.Net Sessions API
+  slug: agechecker-net-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/openapi/agechecker-net-age-verification-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/openapi/agechecker-net-sessions-api-openapi.yml
+- filename: agechecker-net-verification-api-openapi.yml
+  format: yaml
+  label: AgeChecker.Net Verification API
+  slug: agechecker-net-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/openapi/agechecker-net-verification-api-openapi.yml
+- filename: agechecker-net-webhooks-api-openapi.yml
+  format: yaml
+  label: AgeChecker.Net Webhooks API
+  slug: agechecker-net-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/openapi/agechecker-net-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

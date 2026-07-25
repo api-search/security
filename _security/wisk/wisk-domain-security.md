@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: wisk-sales-upload-openapi.yml
+- filename: wisk-sales-api-openapi.yml
   format: yaml
-  label: WISK Public Sales Upload API
-  slug: sales-upload-api
+  label: WISK.ai Sales API
+  slug: wisk-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisk/refs/heads/main/openapi/wisk-sales-upload-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisk/refs/heads/main/openapi/wisk-sales-api-openapi.yml
 description: ''
 domains:
 - caa: []

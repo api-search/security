@@ -1,29 +1,23 @@
 ---
 api_specs:
-- filename: fullenrich-openapi.yml
+- filename: fullenrich-account-api-openapi.yml
+  format: yaml
+  label: FullEnrich Account API
+  slug: fullenrich-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-account-api-openapi.yml
+- filename: fullenrich-contact-enrichment-api-openapi.yml
   format: yaml
   label: FullEnrich Contact Enrichment API
   slug: fullenrich-contact-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-openapi.yml
-- filename: fullenrich-openapi.yml
-  format: yaml
-  label: FullEnrich Enrichment Results API
-  slug: fullenrich-enrichment-results-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-openapi.yml
-- filename: fullenrich-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-contact-enrichment-api-openapi.yml
+- filename: fullenrich-reverse-email-lookup-api-openapi.yml
   format: yaml
   label: FullEnrich Reverse Email Lookup API
   slug: fullenrich-reverse-email-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-openapi.yml
-- filename: fullenrich-openapi.yml
-  format: yaml
-  label: FullEnrich Account Credits API
-  slug: fullenrich-account-credits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-reverse-email-lookup-api-openapi.yml
 description: ''
 domains:
 - caa: []

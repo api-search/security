@@ -1,6 +1,49 @@
 ---
 api_key_in:
 - query
+api_specs:
+- filename: national-aeronautics-and-space-administration-apod-api-openapi.yml
+  format: yaml
+  label: The National Aeronautics and Space Administration APOD API
+  slug: national-aeronautics-and-space-administration-apod-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-aeronautics-and-space-administration/refs/heads/main/openapi/national-aeronautics-and-space-administration-apod-api-openapi.yml
+- filename: national-aeronautics-and-space-administration-donki-api-openapi.yml
+  format: yaml
+  label: The National Aeronautics and Space Administration DONKI API
+  slug: national-aeronautics-and-space-administration-donki-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-aeronautics-and-space-administration/refs/heads/main/openapi/national-aeronautics-and-space-administration-donki-api-openapi.yml
+- filename: national-aeronautics-and-space-administration-earth-api-openapi.yml
+  format: yaml
+  label: The National Aeronautics and Space Administration Earth API
+  slug: national-aeronautics-and-space-administration-earth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-aeronautics-and-space-administration/refs/heads/main/openapi/national-aeronautics-and-space-administration-earth-api-openapi.yml
+- filename: national-aeronautics-and-space-administration-epic-api-openapi.yml
+  format: yaml
+  label: The National Aeronautics and Space Administration EPIC API
+  slug: national-aeronautics-and-space-administration-epic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-aeronautics-and-space-administration/refs/heads/main/openapi/national-aeronautics-and-space-administration-epic-api-openapi.yml
+- filename: national-aeronautics-and-space-administration-insight-api-openapi.yml
+  format: yaml
+  label: The National Aeronautics and Space Administration InSight API
+  slug: national-aeronautics-and-space-administration-insight-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-aeronautics-and-space-administration/refs/heads/main/openapi/national-aeronautics-and-space-administration-insight-api-openapi.yml
+- filename: national-aeronautics-and-space-administration-mars-rover-photos-api-openapi.yml
+  format: yaml
+  label: The National Aeronautics and Space Administration Mars Rover Photos API
+  slug: national-aeronautics-and-space-administration-mars-rover-photos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-aeronautics-and-space-administration/refs/heads/main/openapi/national-aeronautics-and-space-administration-mars-rover-photos-api-openapi.yml
+- filename: national-aeronautics-and-space-administration-neows-api-openapi.yml
+  format: yaml
+  label: The National Aeronautics and Space Administration NeoWs API
+  slug: national-aeronautics-and-space-administration-neows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-aeronautics-and-space-administration/refs/heads/main/openapi/national-aeronautics-and-space-administration-neows-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

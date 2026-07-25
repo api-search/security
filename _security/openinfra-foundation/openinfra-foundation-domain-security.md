@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: openinfra-foundation-openapi.yml
+- filename: openinfra-foundation-auth-api-openapi.yml
   format: yaml
-  label: OpenStack
-  slug: openstack
+  label: OpenInfra Foundation Auth API
+  slug: openinfra-foundation-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/openapi/openinfra-foundation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/openapi/openinfra-foundation-auth-api-openapi.yml
+- filename: openinfra-foundation-credentials-api-openapi.yml
+  format: yaml
+  label: OpenInfra Foundation Credentials API
+  slug: openinfra-foundation-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/openapi/openinfra-foundation-credentials-api-openapi.yml
+- filename: openinfra-foundation-domains-api-openapi.yml
+  format: yaml
+  label: OpenInfra Foundation Domains API
+  slug: openinfra-foundation-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/openapi/openinfra-foundation-domains-api-openapi.yml
+- filename: openinfra-foundation-endpoints-api-openapi.yml
+  format: yaml
+  label: OpenInfra Foundation Endpoints API
+  slug: openinfra-foundation-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/openapi/openinfra-foundation-endpoints-api-openapi.yml
+- filename: openinfra-foundation-extensions-api-openapi.yml
+  format: yaml
+  label: OpenInfra Foundation Extensions API
+  slug: openinfra-foundation-extensions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/openapi/openinfra-foundation-extensions-api-openapi.yml
+- filename: openinfra-foundation-groups-api-openapi.yml
+  format: yaml
+  label: OpenInfra Foundation Groups API
+  slug: openinfra-foundation-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/openapi/openinfra-foundation-groups-api-openapi.yml
+- filename: openinfra-foundation-networks-api-openapi.yml
+  format: yaml
+  label: OpenInfra Foundation Networks API
+  slug: openinfra-foundation-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/openapi/openinfra-foundation-networks-api-openapi.yml
+- filename: openinfra-foundation-roles-api-openapi.yml
+  format: yaml
+  label: OpenInfra Foundation Roles API
+  slug: openinfra-foundation-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/openapi/openinfra-foundation-roles-api-openapi.yml
+- filename: openinfra-foundation-servers-api-openapi.yml
+  format: yaml
+  label: OpenInfra Foundation Servers API
+  slug: openinfra-foundation-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/openapi/openinfra-foundation-servers-api-openapi.yml
+- filename: openinfra-foundation-users-api-openapi.yml
+  format: yaml
+  label: OpenInfra Foundation Users API
+  slug: openinfra-foundation-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/openapi/openinfra-foundation-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

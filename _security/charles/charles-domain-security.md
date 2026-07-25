@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: charles-lindat-translation.yaml
+- filename: charles-languages-api-openapi.yml
   format: yaml
-  label: LINDAT Machine Translation API
-  slug: lindat-translation
+  label: Charles University languages API
+  slug: charles-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-lindat-translation.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-languages-api-openapi.yml
+- filename: charles-models-api-openapi.yml
+  format: yaml
+  label: Charles University models API
+  slug: charles-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-models-api-openapi.yml
+- filename: charles-root-api-openapi.yml
+  format: yaml
+  label: Charles University root API
+  slug: charles-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-root-api-openapi.yml
 description: ''
 domains:
 - caa:

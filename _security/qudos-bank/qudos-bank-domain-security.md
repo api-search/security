@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: qudos-bank-cds-banking-products-openapi.yml
+- filename: qudos-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Qudos Bank CDR Product Reference Data API
-  slug: qudos-bank-cdr-product-reference-data-api
+  label: Qudos Bank Banking Account Balances API
+  slug: qudos-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/openapi/qudos-bank-cds-banking-products-openapi.yml
-- filename: qudos-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/openapi/qudos-bank-banking-account-balances-api-openapi.yml
+- filename: qudos-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Qudos Bank CDR Accounts & Balances API
-  slug: qudos-bank-cdr-accounts-balances-api
+  label: Qudos Bank Banking Account Direct Debits API
+  slug: qudos-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/openapi/qudos-bank-cds-banking-products-openapi.yml
-- filename: qudos-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/openapi/qudos-bank-banking-account-direct-debits-api-openapi.yml
+- filename: qudos-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Qudos Bank CDR Transactions API
-  slug: qudos-bank-cdr-transactions-api
+  label: Qudos Bank Banking Account Scheduled Payments API
+  slug: qudos-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/openapi/qudos-bank-cds-banking-products-openapi.yml
-- filename: qudos-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/openapi/qudos-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: qudos-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Qudos Bank CDR Direct Debits & Scheduled Payments API
-  slug: qudos-bank-cdr-direct-debits-scheduled-payments-api
+  label: Qudos Bank Banking Account Transactions API
+  slug: qudos-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/openapi/qudos-bank-cds-banking-products-openapi.yml
-- filename: qudos-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/openapi/qudos-bank-banking-account-transactions-api-openapi.yml
+- filename: qudos-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: Qudos Bank CDR Payees API
-  slug: qudos-bank-cdr-payees-api
+  label: Qudos Bank Banking Accounts API
+  slug: qudos-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/openapi/qudos-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/openapi/qudos-bank-banking-accounts-api-openapi.yml
+- filename: qudos-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: Qudos Bank Banking Payees API
+  slug: qudos-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/openapi/qudos-bank-banking-payees-api-openapi.yml
+- filename: qudos-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: Qudos Bank Banking Products API
+  slug: qudos-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/openapi/qudos-bank-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

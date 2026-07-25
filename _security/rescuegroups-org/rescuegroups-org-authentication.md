@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: rescuegroups-org-openapi.yml
+- filename: rescuegroups-org-animals-api-openapi.yml
   format: yaml
-  label: RescueGroups.org API
-  slug: rescuegroups-org
+  label: RescueGroups.org Animals API
+  slug: rescuegroups-org-animals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rescuegroups-org/refs/heads/main/openapi/rescuegroups-org-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rescuegroups-org/refs/heads/main/openapi/rescuegroups-org-animals-api-openapi.yml
+- filename: rescuegroups-org-authentication-api-openapi.yml
+  format: yaml
+  label: RescueGroups.org Authentication API
+  slug: rescuegroups-org-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rescuegroups-org/refs/heads/main/openapi/rescuegroups-org-authentication-api-openapi.yml
+- filename: rescuegroups-org-breeds-api-openapi.yml
+  format: yaml
+  label: RescueGroups.org Breeds API
+  slug: rescuegroups-org-breeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rescuegroups-org/refs/heads/main/openapi/rescuegroups-org-breeds-api-openapi.yml
+- filename: rescuegroups-org-colors-api-openapi.yml
+  format: yaml
+  label: RescueGroups.org Colors API
+  slug: rescuegroups-org-colors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rescuegroups-org/refs/heads/main/openapi/rescuegroups-org-colors-api-openapi.yml
+- filename: rescuegroups-org-organizations-api-openapi.yml
+  format: yaml
+  label: RescueGroups.org Organizations API
+  slug: rescuegroups-org-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rescuegroups-org/refs/heads/main/openapi/rescuegroups-org-organizations-api-openapi.yml
+- filename: rescuegroups-org-patterns-api-openapi.yml
+  format: yaml
+  label: RescueGroups.org Patterns API
+  slug: rescuegroups-org-patterns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rescuegroups-org/refs/heads/main/openapi/rescuegroups-org-patterns-api-openapi.yml
+- filename: rescuegroups-org-pet-lists-api-openapi.yml
+  format: yaml
+  label: RescueGroups.org Pet Lists API
+  slug: rescuegroups-org-pet-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rescuegroups-org/refs/heads/main/openapi/rescuegroups-org-pet-lists-api-openapi.yml
+- filename: rescuegroups-org-species-api-openapi.yml
+  format: yaml
+  label: RescueGroups.org Species API
+  slug: rescuegroups-org-species-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rescuegroups-org/refs/heads/main/openapi/rescuegroups-org-species-api-openapi.yml
 auth_types:
 - apiKey
 - http

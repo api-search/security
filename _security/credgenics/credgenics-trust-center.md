@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: credgenics-recovery-openapi.yml
+- filename: credgenics-authentication-api-openapi.yml
   format: yaml
-  label: Credgenics Recovery API
-  slug: credgenics-recovery-api
+  label: Credgenics Authentication API
+  slug: credgenics-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/openapi/credgenics-recovery-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/openapi/credgenics-authentication-api-openapi.yml
+- filename: credgenics-credit-line-api-openapi.yml
+  format: yaml
+  label: Credgenics Credit Line API
+  slug: credgenics-credit-line-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/openapi/credgenics-credit-line-api-openapi.yml
+- filename: credgenics-lending-api-openapi.yml
+  format: yaml
+  label: Credgenics Lending API
+  slug: credgenics-lending-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/openapi/credgenics-lending-api-openapi.yml
 certifications:
 - PCI DSS
 - ISO (certificate displayed; specific ISO standard not named on the page)

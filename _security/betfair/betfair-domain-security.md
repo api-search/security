@@ -1,35 +1,41 @@
 ---
 api_specs:
-- filename: betfair-openapi.yml
-  format: yaml
-  label: Betfair Betting API
-  slug: betfair-betting-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-openapi.yml
-- filename: betfair-openapi.yml
-  format: yaml
-  label: Betfair Accounts API
-  slug: betfair-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-openapi.yml
-- filename: betfair-openapi.yml
-  format: yaml
-  label: Betfair Heartbeat API
-  slug: betfair-heartbeat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-openapi.yml
 - filename: betfair-asyncapi.yml
   format: yaml
   label: Betfair Exchange Stream API
   slug: betfair-exchange-stream-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/asyncapi/betfair-asyncapi.yml
-- filename: betfair-openapi.yml
+- filename: betfair-accounts-api-openapi.yml
+  format: yaml
+  label: Betfair Accounts API
+  slug: betfair-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-accounts-api-openapi.yml
+- filename: betfair-betting-api-openapi.yml
+  format: yaml
+  label: Betfair Betting API
+  slug: betfair-betting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-betting-api-openapi.yml
+- filename: betfair-heartbeat-api-openapi.yml
+  format: yaml
+  label: Betfair Heartbeat API
+  slug: betfair-heartbeat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-heartbeat-api-openapi.yml
+- filename: betfair-historic-data-api-openapi.yml
   format: yaml
   label: Betfair Historic Data API
   slug: betfair-historic-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-historic-data-api-openapi.yml
+- filename: betfair-identity-api-openapi.yml
+  format: yaml
+  label: Betfair Identity API
+  slug: betfair-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-identity-api-openapi.yml
 description: ''
 domains:
 - caa: []

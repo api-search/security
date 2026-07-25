@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: albato-automations-openapi.yaml
+- filename: albato-automations-api-openapi.yml
   format: yaml
   label: Albato Automations API
-  slug: automations-api
+  slug: albato-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-automations-openapi.yaml
-- filename: albato-embedded-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-automations-api-openapi.yml
+- filename: albato-connectors-api-openapi.yml
   format: yaml
-  label: Albato Embedded API
-  slug: embedded-api
+  label: Albato Connectors API
+  slug: albato-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-embedded-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-connectors-api-openapi.yml
+- filename: albato-executions-api-openapi.yml
+  format: yaml
+  label: Albato Executions API
+  slug: albato-executions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-executions-api-openapi.yml
+- filename: albato-teams-api-openapi.yml
+  format: yaml
+  label: Albato Teams API
+  slug: albato-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-teams-api-openapi.yml
+- filename: albato-templates-api-openapi.yml
+  format: yaml
+  label: Albato Templates API
+  slug: albato-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-templates-api-openapi.yml
+- filename: albato-users-api-openapi.yml
+  format: yaml
+  label: Albato Users API
+  slug: albato-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

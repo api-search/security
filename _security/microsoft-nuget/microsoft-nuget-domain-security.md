@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: microsoft-nuget-openapi.yml
+- filename: microsoft-nuget-autocomplete-api-openapi.yml
   format: yaml
-  label: NuGet Server API
-  slug: server-api
+  label: Microsoft NuGet Autocomplete API
+  slug: microsoft-nuget-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-nuget/refs/heads/main/openapi/microsoft-nuget-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-nuget/refs/heads/main/openapi/microsoft-nuget-autocomplete-api-openapi.yml
+- filename: microsoft-nuget-flatcontainer-api-openapi.yml
+  format: yaml
+  label: Microsoft NuGet Flatcontainer API
+  slug: microsoft-nuget-flatcontainer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-nuget/refs/heads/main/openapi/microsoft-nuget-flatcontainer-api-openapi.yml
+- filename: microsoft-nuget-index-json-api-openapi.yml
+  format: yaml
+  label: Microsoft NuGet Index.json API
+  slug: microsoft-nuget-index-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-nuget/refs/heads/main/openapi/microsoft-nuget-index-json-api-openapi.yml
+- filename: microsoft-nuget-package-api-openapi.yml
+  format: yaml
+  label: Microsoft NuGet Package API
+  slug: microsoft-nuget-package-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-nuget/refs/heads/main/openapi/microsoft-nuget-package-api-openapi.yml
+- filename: microsoft-nuget-query-api-openapi.yml
+  format: yaml
+  label: Microsoft NuGet Query API
+  slug: microsoft-nuget-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-nuget/refs/heads/main/openapi/microsoft-nuget-query-api-openapi.yml
+- filename: microsoft-nuget-registration5-gz-semver2-api-openapi.yml
+  format: yaml
+  label: Microsoft NuGet Registration5 Gz Semver2 API
+  slug: microsoft-nuget-registration5-gz-semver2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-nuget/refs/heads/main/openapi/microsoft-nuget-registration5-gz-semver2-api-openapi.yml
 description: ''
 domains:
 - caa:

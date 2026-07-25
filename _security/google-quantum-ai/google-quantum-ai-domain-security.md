@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: quantum-engine-api-openapi.yml
+- filename: google-quantum-ai-calibrations-api-openapi.yml
   format: yaml
-  label: Google Quantum Engine API
-  slug: quantum-engine-api
+  label: Google Quantum AI Calibrations API
+  slug: google-quantum-ai-calibrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/openapi/quantum-engine-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/openapi/google-quantum-ai-calibrations-api-openapi.yml
+- filename: google-quantum-ai-jobs-api-openapi.yml
+  format: yaml
+  label: Google Quantum AI Jobs API
+  slug: google-quantum-ai-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/openapi/google-quantum-ai-jobs-api-openapi.yml
+- filename: google-quantum-ai-processors-api-openapi.yml
+  format: yaml
+  label: Google Quantum AI Processors API
+  slug: google-quantum-ai-processors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/openapi/google-quantum-ai-processors-api-openapi.yml
+- filename: google-quantum-ai-programs-api-openapi.yml
+  format: yaml
+  label: Google Quantum AI Programs API
+  slug: google-quantum-ai-programs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/openapi/google-quantum-ai-programs-api-openapi.yml
+- filename: google-quantum-ai-reservations-api-openapi.yml
+  format: yaml
+  label: Google Quantum AI Reservations API
+  slug: google-quantum-ai-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/openapi/google-quantum-ai-reservations-api-openapi.yml
+- filename: google-quantum-ai-results-api-openapi.yml
+  format: yaml
+  label: Google Quantum AI Results API
+  slug: google-quantum-ai-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/openapi/google-quantum-ai-results-api-openapi.yml
 description: ''
 domains:
 - caa:

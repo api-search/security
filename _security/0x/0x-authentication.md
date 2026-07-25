@@ -2,36 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: 0x-api.yaml
-  format: yaml
-  label: 0x Swap API
-  slug: swap-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0x/refs/heads/main/openapi/0x-api.yaml
-- filename: 0x-api.yaml
-  format: yaml
-  label: 0x Gasless API
-  slug: gasless-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0x/refs/heads/main/openapi/0x-api.yaml
-- filename: 0x-cross-chain.yaml
+- filename: 0x-cross-chain-api-openapi.yml
   format: yaml
   label: 0x Cross-Chain API
-  slug: cross-chain-api
+  slug: 0x-cross-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0x/refs/heads/main/openapi/0x-cross-chain.yaml
-- filename: 0x-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/0x/refs/heads/main/openapi/0x-cross-chain-api-openapi.yml
+- filename: 0x-gasless-api-openapi.yml
   format: yaml
-  label: 0x Trade Analytics API
-  slug: trade-analytics-api
+  label: 0x Gasless API
+  slug: 0x-gasless-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0x/refs/heads/main/openapi/0x-api.yaml
-- filename: 0x-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/0x/refs/heads/main/openapi/0x-gasless-api-openapi.yml
+- filename: 0x-sources-api-openapi.yml
   format: yaml
   label: 0x Sources API
-  slug: sources-api
+  slug: 0x-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0x/refs/heads/main/openapi/0x-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/0x/refs/heads/main/openapi/0x-sources-api-openapi.yml
+- filename: 0x-swap-api-openapi.yml
+  format: yaml
+  label: 0x Swap API
+  slug: 0x-swap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/0x/refs/heads/main/openapi/0x-swap-api-openapi.yml
+- filename: 0x-trade-analytics-api-openapi.yml
+  format: yaml
+  label: 0x Trade Analytics API
+  slug: 0x-trade-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/0x/refs/heads/main/openapi/0x-trade-analytics-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

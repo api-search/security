@@ -2,12 +2,12 @@
 api_key_in:
 - query
 api_specs:
-- filename: pagespeed-insights-openapi.yml
+- filename: google-pagespeed-analysis-api-openapi.yml
   format: yaml
-  label: PageSpeed Insights API
-  slug: pagespeed-insights-api
+  label: Google PageSpeed Analysis API
+  slug: google-pagespeed-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-pagespeed/refs/heads/main/openapi/pagespeed-insights-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-pagespeed/refs/heads/main/openapi/google-pagespeed-analysis-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

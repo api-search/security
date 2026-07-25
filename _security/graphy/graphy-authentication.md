@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: graphy-agents-openapi.yaml
+- filename: graphy-agents-api-openapi.yml
   format: yaml
-  label: Graphy AI Agents API
-  slug: graphy-ai-agents-api
+  label: Graphy Agents API
+  slug: graphy-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/openapi/graphy-agents-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/openapi/graphy-agents-api-openapi.yml
 auth_types:
 - http
 description: ''

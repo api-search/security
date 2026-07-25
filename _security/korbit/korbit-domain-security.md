@@ -1,17 +1,53 @@
 ---
 api_specs:
-- filename: korbit-openapi.yml
-  format: yaml
-  label: Korbit Open API v2
-  slug: korbit-open-api-v2
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-openapi.yml
 - filename: korbit-websocket-asyncapi.yml
   format: yaml
   label: Korbit Open API v2 WebSocket
   slug: korbit-open-api-v2-websocket
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/asyncapi/korbit-websocket-asyncapi.yml
+- filename: korbit-asset-api-openapi.yml
+  format: yaml
+  label: Korbit Asset API
+  slug: korbit-asset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-asset-api-openapi.yml
+- filename: korbit-deposit-crypto-api-openapi.yml
+  format: yaml
+  label: Korbit Deposit (Crypto) API
+  slug: korbit-deposit-crypto-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-deposit-crypto-api-openapi.yml
+- filename: korbit-deposit-withdrawal-krw-api-openapi.yml
+  format: yaml
+  label: Korbit Deposit/Withdrawal (KRW) API
+  slug: korbit-deposit-withdrawal-krw-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-deposit-withdrawal-krw-api-openapi.yml
+- filename: korbit-other-api-openapi.yml
+  format: yaml
+  label: Korbit Other API
+  slug: korbit-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-other-api-openapi.yml
+- filename: korbit-quotation-api-openapi.yml
+  format: yaml
+  label: Korbit Quotation API
+  slug: korbit-quotation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-quotation-api-openapi.yml
+- filename: korbit-trading-api-openapi.yml
+  format: yaml
+  label: Korbit Trading API
+  slug: korbit-trading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-trading-api-openapi.yml
+- filename: korbit-withdrawal-crypto-api-openapi.yml
+  format: yaml
+  label: Korbit Withdrawal (Crypto) API
+  slug: korbit-withdrawal-crypto-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-withdrawal-crypto-api-openapi.yml
 description: ''
 domains:
 - caa: []

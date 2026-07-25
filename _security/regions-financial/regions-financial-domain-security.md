@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: regions-open-banking-openapi.yml
+- filename: regions-financial-account-information-api-openapi.yml
   format: yaml
-  label: Regions Open Banking API
-  slug: regions-open-banking-api
+  label: regions-financial Account Information API
+  slug: regions-financial-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/openapi/regions-open-banking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/openapi/regions-financial-account-information-api-openapi.yml
+- filename: regions-financial-consent-api-openapi.yml
+  format: yaml
+  label: regions-financial Consent API
+  slug: regions-financial-consent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/openapi/regions-financial-consent-api-openapi.yml
+- filename: regions-financial-customer-api-openapi.yml
+  format: yaml
+  label: regions-financial Customer API
+  slug: regions-financial-customer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/openapi/regions-financial-customer-api-openapi.yml
+- filename: regions-financial-payments-api-openapi.yml
+  format: yaml
+  label: regions-financial Payments API
+  slug: regions-financial-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/openapi/regions-financial-payments-api-openapi.yml
+- filename: regions-financial-transactions-api-openapi.yml
+  format: yaml
+  label: regions-financial Transactions API
+  slug: regions-financial-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/openapi/regions-financial-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:

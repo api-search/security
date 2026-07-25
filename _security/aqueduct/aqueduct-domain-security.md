@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: aqueduct-openapi.json
-  format: json
-  label: Aqueduct API
-  slug: aqueduct-api
+- filename: aqueduct-accountowner-api-openapi.yml
+  format: yaml
+  label: Aqueduct AccountOwner API
+  slug: aqueduct-accountowner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-accountowner-api-openapi.yml
+- filename: aqueduct-bill-api-openapi.yml
+  format: yaml
+  label: Aqueduct Bill API
+  slug: aqueduct-bill-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-bill-api-openapi.yml
+- filename: aqueduct-invoice-api-openapi.yml
+  format: yaml
+  label: Aqueduct Invoice API
+  slug: aqueduct-invoice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-invoice-api-openapi.yml
+- filename: aqueduct-invoicelineitem-api-openapi.yml
+  format: yaml
+  label: Aqueduct InvoiceLineItem API
+  slug: aqueduct-invoicelineitem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-invoicelineitem-api-openapi.yml
+- filename: aqueduct-pricemodel-api-openapi.yml
+  format: yaml
+  label: Aqueduct PriceModel API
+  slug: aqueduct-pricemodel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-pricemodel-api-openapi.yml
+- filename: aqueduct-productpurchases-api-openapi.yml
+  format: yaml
+  label: Aqueduct ProductPurchases API
+  slug: aqueduct-productpurchases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-productpurchases-api-openapi.yml
+- filename: aqueduct-products-api-openapi.yml
+  format: yaml
+  label: Aqueduct Products API
+  slug: aqueduct-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-products-api-openapi.yml
+- filename: aqueduct-provisioning-api-openapi.yml
+  format: yaml
+  label: Aqueduct Provisioning API
+  slug: aqueduct-provisioning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-provisioning-api-openapi.yml
+- filename: aqueduct-subscriptions-api-openapi.yml
+  format: yaml
+  label: Aqueduct Subscriptions API
+  slug: aqueduct-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-subscriptions-api-openapi.yml
+- filename: aqueduct-webhooks-api-openapi.yml
+  format: yaml
+  label: Aqueduct Webhooks API
+  slug: aqueduct-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

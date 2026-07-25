@@ -2,30 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: wellsaid-labs-openapi.yml
-  format: yaml
-  label: WellSaid Labs Text-to-Speech API
-  slug: wellsaid-labs-text-to-speech-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellsaid-labs/refs/heads/main/openapi/wellsaid-labs-openapi.yml
-- filename: wellsaid-labs-openapi.yml
+- filename: wellsaid-labs-clips-api-openapi.yml
   format: yaml
   label: WellSaid Labs Clips API
   slug: wellsaid-labs-clips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellsaid-labs/refs/heads/main/openapi/wellsaid-labs-openapi.yml
-- filename: wellsaid-labs-openapi.yml
-  format: yaml
-  label: WellSaid Labs Voice Avatars API
-  slug: wellsaid-labs-voice-avatars-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellsaid-labs/refs/heads/main/openapi/wellsaid-labs-openapi.yml
-- filename: wellsaid-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wellsaid-labs/refs/heads/main/openapi/wellsaid-labs-clips-api-openapi.yml
+- filename: wellsaid-labs-pronunciation-api-openapi.yml
   format: yaml
   label: WellSaid Labs Pronunciation API
   slug: wellsaid-labs-pronunciation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellsaid-labs/refs/heads/main/openapi/wellsaid-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wellsaid-labs/refs/heads/main/openapi/wellsaid-labs-pronunciation-api-openapi.yml
+- filename: wellsaid-labs-text-to-speech-api-openapi.yml
+  format: yaml
+  label: WellSaid Labs Text-to-Speech API
+  slug: wellsaid-labs-text-to-speech-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellsaid-labs/refs/heads/main/openapi/wellsaid-labs-text-to-speech-api-openapi.yml
+- filename: wellsaid-labs-voice-avatars-api-openapi.yml
+  format: yaml
+  label: WellSaid Labs Voice Avatars API
+  slug: wellsaid-labs-voice-avatars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellsaid-labs/refs/heads/main/openapi/wellsaid-labs-voice-avatars-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

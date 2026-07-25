@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: dragos-worldview-openapi-original.json
-  format: json
-  label: Dragos WorldView API
-  slug: dragos-worldview-api
+- filename: dragos-indicators-api-openapi.yml
+  format: yaml
+  label: Dragos Indicators API
+  slug: dragos-indicators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/openapi/dragos-worldview-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/openapi/dragos-indicators-api-openapi.yml
+- filename: dragos-products-api-openapi.yml
+  format: yaml
+  label: Dragos Products API
+  slug: dragos-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/openapi/dragos-products-api-openapi.yml
+- filename: dragos-tags-api-openapi.yml
+  format: yaml
+  label: Dragos Tags API
+  slug: dragos-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/openapi/dragos-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

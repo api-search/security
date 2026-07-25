@@ -1,41 +1,47 @@
 ---
 api_specs:
-- filename: hospitable-openapi.yml
-  format: yaml
-  label: Hospitable Properties API
-  slug: hospitable-properties-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-openapi.yml
-- filename: hospitable-openapi.yml
-  format: yaml
-  label: Hospitable Listings API
-  slug: hospitable-listings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-openapi.yml
-- filename: hospitable-openapi.yml
-  format: yaml
-  label: Hospitable Reservations API
-  slug: hospitable-reservations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-openapi.yml
-- filename: hospitable-openapi.yml
-  format: yaml
-  label: Hospitable Messages API
-  slug: hospitable-messages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-openapi.yml
-- filename: hospitable-openapi.yml
+- filename: hospitable-calendar-api-openapi.yml
   format: yaml
   label: Hospitable Calendar API
   slug: hospitable-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-openapi.yml
-- filename: hospitable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-calendar-api-openapi.yml
+- filename: hospitable-listings-api-openapi.yml
+  format: yaml
+  label: Hospitable Listings API
+  slug: hospitable-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-listings-api-openapi.yml
+- filename: hospitable-messages-api-openapi.yml
+  format: yaml
+  label: Hospitable Messages API
+  slug: hospitable-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-messages-api-openapi.yml
+- filename: hospitable-properties-api-openapi.yml
+  format: yaml
+  label: Hospitable Properties API
+  slug: hospitable-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-properties-api-openapi.yml
+- filename: hospitable-reservations-api-openapi.yml
+  format: yaml
+  label: Hospitable Reservations API
+  slug: hospitable-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-reservations-api-openapi.yml
+- filename: hospitable-reviews-api-openapi.yml
   format: yaml
   label: Hospitable Reviews API
   slug: hospitable-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-reviews-api-openapi.yml
+- filename: hospitable-user-api-openapi.yml
+  format: yaml
+  label: Hospitable User API
+  slug: hospitable-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

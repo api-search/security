@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: carbon-intensity-factors-api-openapi.yml
   format: yaml
-  label: Carbon Intensity API
-  slug: carbon-intensity-api
+  label: Carbon Intensity API Factors API
+  slug: carbon-intensity-factors-api
   spec_type: OpenAPI
-  url: https://carbon-intensity.github.io/api-definitions/
+  url: https://raw.githubusercontent.com/api-evangelist/carbon-intensity/refs/heads/main/openapi/carbon-intensity-factors-api-openapi.yml
+- filename: carbon-intensity-generation-mix-api-openapi.yml
+  format: yaml
+  label: Carbon Intensity API Generation Mix API
+  slug: carbon-intensity-generation-mix-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carbon-intensity/refs/heads/main/openapi/carbon-intensity-generation-mix-api-openapi.yml
+- filename: carbon-intensity-national-intensity-api-openapi.yml
+  format: yaml
+  label: Carbon Intensity API National Intensity API
+  slug: carbon-intensity-national-intensity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carbon-intensity/refs/heads/main/openapi/carbon-intensity-national-intensity-api-openapi.yml
+- filename: carbon-intensity-regional-api-openapi.yml
+  format: yaml
+  label: Carbon Intensity API Regional API
+  slug: carbon-intensity-regional-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carbon-intensity/refs/heads/main/openapi/carbon-intensity-regional-api-openapi.yml
+- filename: carbon-intensity-statistics-api-openapi.yml
+  format: yaml
+  label: Carbon Intensity API Statistics API
+  slug: carbon-intensity-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carbon-intensity/refs/heads/main/openapi/carbon-intensity-statistics-api-openapi.yml
 description: ''
 domains:
 - caa: []

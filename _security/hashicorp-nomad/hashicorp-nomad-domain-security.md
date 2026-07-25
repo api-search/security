@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: hashicorp-nomad-openapi.yml
+- filename: hashicorp-nomad-acl-api-openapi.yml
   format: yaml
-  label: HashiCorp Nomad
-  slug: hashicorp-nomad
+  label: HashiCorp Nomad ACL API
+  slug: hashicorp-nomad-acl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hashicorp-nomad/refs/heads/main/openapi/hashicorp-nomad-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hashicorp-nomad/refs/heads/main/openapi/hashicorp-nomad-acl-api-openapi.yml
+- filename: hashicorp-nomad-allocations-api-openapi.yml
+  format: yaml
+  label: HashiCorp Nomad Allocations API
+  slug: hashicorp-nomad-allocations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hashicorp-nomad/refs/heads/main/openapi/hashicorp-nomad-allocations-api-openapi.yml
+- filename: hashicorp-nomad-deployments-api-openapi.yml
+  format: yaml
+  label: HashiCorp Nomad Deployments API
+  slug: hashicorp-nomad-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hashicorp-nomad/refs/heads/main/openapi/hashicorp-nomad-deployments-api-openapi.yml
+- filename: hashicorp-nomad-evaluations-api-openapi.yml
+  format: yaml
+  label: HashiCorp Nomad Evaluations API
+  slug: hashicorp-nomad-evaluations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hashicorp-nomad/refs/heads/main/openapi/hashicorp-nomad-evaluations-api-openapi.yml
+- filename: hashicorp-nomad-jobs-api-openapi.yml
+  format: yaml
+  label: HashiCorp Nomad Jobs API
+  slug: hashicorp-nomad-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hashicorp-nomad/refs/heads/main/openapi/hashicorp-nomad-jobs-api-openapi.yml
+- filename: hashicorp-nomad-namespaces-api-openapi.yml
+  format: yaml
+  label: HashiCorp Nomad Namespaces API
+  slug: hashicorp-nomad-namespaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hashicorp-nomad/refs/heads/main/openapi/hashicorp-nomad-namespaces-api-openapi.yml
+- filename: hashicorp-nomad-nodes-api-openapi.yml
+  format: yaml
+  label: HashiCorp Nomad Nodes API
+  slug: hashicorp-nomad-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hashicorp-nomad/refs/heads/main/openapi/hashicorp-nomad-nodes-api-openapi.yml
+- filename: hashicorp-nomad-system-api-openapi.yml
+  format: yaml
+  label: HashiCorp Nomad System API
+  slug: hashicorp-nomad-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hashicorp-nomad/refs/heads/main/openapi/hashicorp-nomad-system-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -36,4 +36,8 @@ tags:
 - Fortune 500
 - Open Banking
 - Payments
+- United States
+- Card Network
+- 3-D Secure
+- Tokenization
 ---

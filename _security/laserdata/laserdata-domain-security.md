@@ -1,23 +1,113 @@
 ---
 api_specs:
-- filename: laserdata-core-openapi.json
-  format: json
-  label: LaserData Cloud Core API
-  slug: core
+- filename: laserdata-account-api-openapi.yml
+  format: yaml
+  label: LaserData Account API
+  slug: laserdata-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/openapi/laserdata-core-openapi.json
-- filename: laserdata-audit-openapi.json
-  format: json
-  label: LaserData Cloud Audit API
-  slug: audit
+  url: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/openapi/laserdata-account-api-openapi.yml
+- filename: laserdata-api-keys-api-openapi.yml
+  format: yaml
+  label: LaserData API Keys API
+  slug: laserdata-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/openapi/laserdata-audit-openapi.json
-- filename: laserdata-notifier-openapi.json
-  format: json
-  label: LaserData Cloud Notifier API
-  slug: notifier
+  url: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/openapi/laserdata-api-keys-api-openapi.yml
+- filename: laserdata-audit-api-openapi.yml
+  format: yaml
+  label: LaserData Audit API
+  slug: laserdata-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/openapi/laserdata-notifier-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/openapi/laserdata-audit-api-openapi.yml
+- filename: laserdata-billing-api-openapi.yml
+  format: yaml
+  label: LaserData Billing API
+  slug: laserdata-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/openapi/laserdata-billing-api-openapi.yml
+- filename: laserdata-cloud-accounts-api-openapi.yml
+  format: yaml
+  label: LaserData Cloud Accounts API
+  slug: laserdata-cloud-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/openapi/laserdata-cloud-accounts-api-openapi.yml
+- filename: laserdata-clouds-api-openapi.yml
+  format: yaml
+  label: LaserData Clouds API
+  slug: laserdata-clouds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/openapi/laserdata-clouds-api-openapi.yml
+- filename: laserdata-connectors-api-openapi.yml
+  format: yaml
+  label: LaserData Connectors API
+  slug: laserdata-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/openapi/laserdata-connectors-api-openapi.yml
+- filename: laserdata-deployments-api-openapi.yml
+  format: yaml
+  label: LaserData Deployments API
+  slug: laserdata-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/openapi/laserdata-deployments-api-openapi.yml
+- filename: laserdata-divisions-api-openapi.yml
+  format: yaml
+  label: LaserData Divisions API
+  slug: laserdata-divisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/openapi/laserdata-divisions-api-openapi.yml
+- filename: laserdata-environments-api-openapi.yml
+  format: yaml
+  label: LaserData Environments API
+  slug: laserdata-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/openapi/laserdata-environments-api-openapi.yml
+- filename: laserdata-invitations-api-openapi.yml
+  format: yaml
+  label: LaserData Invitations API
+  slug: laserdata-invitations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/openapi/laserdata-invitations-api-openapi.yml
+- filename: laserdata-members-api-openapi.yml
+  format: yaml
+  label: LaserData Members API
+  slug: laserdata-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/openapi/laserdata-members-api-openapi.yml
+- filename: laserdata-notification-channels-api-openapi.yml
+  format: yaml
+  label: LaserData Notification Channels API
+  slug: laserdata-notification-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/openapi/laserdata-notification-channels-api-openapi.yml
+- filename: laserdata-notification-subscriptions-api-openapi.yml
+  format: yaml
+  label: LaserData Notification Subscriptions API
+  slug: laserdata-notification-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/openapi/laserdata-notification-subscriptions-api-openapi.yml
+- filename: laserdata-notifications-api-openapi.yml
+  format: yaml
+  label: LaserData Notifications API
+  slug: laserdata-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/openapi/laserdata-notifications-api-openapi.yml
+- filename: laserdata-payments-api-openapi.yml
+  format: yaml
+  label: LaserData Payments API
+  slug: laserdata-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/openapi/laserdata-payments-api-openapi.yml
+- filename: laserdata-roles-api-openapi.yml
+  format: yaml
+  label: LaserData Roles API
+  slug: laserdata-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/openapi/laserdata-roles-api-openapi.yml
+- filename: laserdata-tenants-api-openapi.yml
+  format: yaml
+  label: LaserData Tenants API
+  slug: laserdata-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/openapi/laserdata-tenants-api-openapi.yml
 description: ''
 domains:
 - caa: []

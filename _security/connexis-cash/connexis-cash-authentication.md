@@ -1,5 +1,36 @@
 ---
 api_key_in: []
+api_specs:
+- filename: connexis-cash-accounts-api-openapi.yml
+  format: yaml
+  label: Connexis Cash Accounts API
+  slug: connexis-cash-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-accounts-api-openapi.yml
+- filename: connexis-cash-balances-api-openapi.yml
+  format: yaml
+  label: Connexis Cash Balances API
+  slug: connexis-cash-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-balances-api-openapi.yml
+- filename: connexis-cash-beneficiaries-api-openapi.yml
+  format: yaml
+  label: Connexis Cash Beneficiaries API
+  slug: connexis-cash-beneficiaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-beneficiaries-api-openapi.yml
+- filename: connexis-cash-consents-api-openapi.yml
+  format: yaml
+  label: Connexis Cash Consents API
+  slug: connexis-cash-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-consents-api-openapi.yml
+- filename: connexis-cash-transactions-api-openapi.yml
+  format: yaml
+  label: Connexis Cash Transactions API
+  slug: connexis-cash-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-transactions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

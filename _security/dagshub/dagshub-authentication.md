@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: dagshub-openapi.yml
+- filename: dagshub-branches-api-openapi.yml
   format: yaml
-  label: DagsHub REST API
-  slug: dagshub-rest-api
+  label: DagsHub Branches API
+  slug: dagshub-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-branches-api-openapi.yml
+- filename: dagshub-issues-api-openapi.yml
+  format: yaml
+  label: DagsHub Issues API
+  slug: dagshub-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-issues-api-openapi.yml
+- filename: dagshub-orgs-api-openapi.yml
+  format: yaml
+  label: DagsHub Orgs API
+  slug: dagshub-orgs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-orgs-api-openapi.yml
+- filename: dagshub-pullrequests-api-openapi.yml
+  format: yaml
+  label: DagsHub PullRequests API
+  slug: dagshub-pullrequests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-pullrequests-api-openapi.yml
+- filename: dagshub-repos-api-openapi.yml
+  format: yaml
+  label: DagsHub Repos API
+  slug: dagshub-repos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-repos-api-openapi.yml
+- filename: dagshub-storage-api-openapi.yml
+  format: yaml
+  label: DagsHub Storage API
+  slug: dagshub-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-storage-api-openapi.yml
+- filename: dagshub-user-api-openapi.yml
+  format: yaml
+  label: DagsHub User API
+  slug: dagshub-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-user-api-openapi.yml
+- filename: dagshub-users-api-openapi.yml
+  format: yaml
+  label: DagsHub Users API
+  slug: dagshub-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-users-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: chop-fhir-r4-openapi.yml
+- filename: childrens-hospital-of-philadelphia-bulk-data-api-openapi.yml
   format: yaml
-  label: CHOP FHIR R4 API
-  slug: chop-fhir-r4-api
+  label: Children's Hospital of Philadelphia Bulk Data API
+  slug: childrens-hospital-of-philadelphia-bulk-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/childrens-hospital-of-philadelphia/refs/heads/main/openapi/chop-fhir-r4-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/childrens-hospital-of-philadelphia/refs/heads/main/openapi/childrens-hospital-of-philadelphia-bulk-data-api-openapi.yml
+- filename: childrens-hospital-of-philadelphia-patient-access-api-openapi.yml
+  format: yaml
+  label: Children's Hospital of Philadelphia Patient Access API
+  slug: childrens-hospital-of-philadelphia-patient-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/childrens-hospital-of-philadelphia/refs/heads/main/openapi/childrens-hospital-of-philadelphia-patient-access-api-openapi.yml
+- filename: childrens-hospital-of-philadelphia-provider-directory-api-openapi.yml
+  format: yaml
+  label: Children's Hospital of Philadelphia Provider Directory API
+  slug: childrens-hospital-of-philadelphia-provider-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/childrens-hospital-of-philadelphia/refs/heads/main/openapi/childrens-hospital-of-philadelphia-provider-directory-api-openapi.yml
+- filename: childrens-hospital-of-philadelphia-smart-api-openapi.yml
+  format: yaml
+  label: Children's Hospital of Philadelphia SMART API
+  slug: childrens-hospital-of-philadelphia-smart-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/childrens-hospital-of-philadelphia/refs/heads/main/openapi/childrens-hospital-of-philadelphia-smart-api-openapi.yml
 description: ''
 domains:
 - caa: []

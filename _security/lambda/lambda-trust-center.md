@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: lambda-cloud-api-openapi.yml
+- filename: lambda-file-systems-api-openapi.yml
   format: yaml
-  label: Lambda Cloud API
-  slug: cloud-api
+  label: Lambda File Systems API
+  slug: lambda-file-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambda/refs/heads/main/openapi/lambda-cloud-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lambda/refs/heads/main/openapi/lambda-file-systems-api-openapi.yml
+- filename: lambda-images-api-openapi.yml
+  format: yaml
+  label: Lambda Images API
+  slug: lambda-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lambda/refs/heads/main/openapi/lambda-images-api-openapi.yml
+- filename: lambda-instance-types-api-openapi.yml
+  format: yaml
+  label: Lambda Instance Types API
+  slug: lambda-instance-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lambda/refs/heads/main/openapi/lambda-instance-types-api-openapi.yml
+- filename: lambda-instances-api-openapi.yml
+  format: yaml
+  label: Lambda Instances API
+  slug: lambda-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lambda/refs/heads/main/openapi/lambda-instances-api-openapi.yml
+- filename: lambda-ssh-keys-api-openapi.yml
+  format: yaml
+  label: Lambda SSH Keys API
+  slug: lambda-ssh-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lambda/refs/heads/main/openapi/lambda-ssh-keys-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

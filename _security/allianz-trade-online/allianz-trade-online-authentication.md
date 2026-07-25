@@ -1,30 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: allianz-trade-payment-overdues.yaml
-  format: yaml
-  label: Allianz Trade Payment Overdues API
-  slug: payment-overdues-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/openapi/allianz-trade-payment-overdues.yaml
-- filename: allianz-trade-company-grade.yaml
-  format: yaml
-  label: Allianz Trade Company Grade API
-  slug: company-grade-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/openapi/allianz-trade-company-grade.yaml
-- filename: allianz-trade-claims.yaml
+- filename: allianz-trade-online-claims-api-openapi.yml
   format: yaml
   label: Allianz Trade Claims API
-  slug: claims-api
+  slug: allianz-trade-online-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/openapi/allianz-trade-claims.yaml
-- filename: allianz-trade-policy.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/openapi/allianz-trade-online-claims-api-openapi.yml
+- filename: allianz-trade-online-company-grade-api-openapi.yml
+  format: yaml
+  label: Allianz Trade Company Grade API
+  slug: allianz-trade-online-company-grade-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/openapi/allianz-trade-online-company-grade-api-openapi.yml
+- filename: allianz-trade-online-payment-overdues-api-openapi.yml
+  format: yaml
+  label: Allianz Trade Payment Overdues API
+  slug: allianz-trade-online-payment-overdues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/openapi/allianz-trade-online-payment-overdues-api-openapi.yml
+- filename: allianz-trade-online-policy-api-openapi.yml
   format: yaml
   label: Allianz Trade Policy API
-  slug: policy-api
+  slug: allianz-trade-online-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/openapi/allianz-trade-policy.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/openapi/allianz-trade-online-policy-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

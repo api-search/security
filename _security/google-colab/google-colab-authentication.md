@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: colab-drive-openapi.yml
+- filename: google-colab-files-api-openapi.yml
   format: yaml
-  label: Colab API via Google Drive API
-  slug: colab-api-via-google-drive-api
+  label: Google Colab Files API
+  slug: google-colab-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-colab/refs/heads/main/openapi/colab-drive-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-colab/refs/heads/main/openapi/google-colab-files-api-openapi.yml
+- filename: google-colab-permissions-api-openapi.yml
+  format: yaml
+  label: Google Colab Permissions API
+  slug: google-colab-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-colab/refs/heads/main/openapi/google-colab-permissions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

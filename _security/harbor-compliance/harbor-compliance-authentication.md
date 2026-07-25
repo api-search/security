@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: harbor-compliance-openapi.yml
+- filename: harbor-compliance-compliance-filings-api-openapi.yml
   format: yaml
-  label: Harbor Compliance API
-  slug: harbor-compliance-api
+  label: Harbor Compliance Compliance Filings API
+  slug: harbor-compliance-compliance-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbor-compliance/refs/heads/main/openapi/harbor-compliance-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/harbor-compliance/refs/heads/main/openapi/harbor-compliance-compliance-filings-api-openapi.yml
+- filename: harbor-compliance-entities-api-openapi.yml
+  format: yaml
+  label: Harbor Compliance Entities API
+  slug: harbor-compliance-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harbor-compliance/refs/heads/main/openapi/harbor-compliance-entities-api-openapi.yml
+- filename: harbor-compliance-jurisdictions-api-openapi.yml
+  format: yaml
+  label: Harbor Compliance Jurisdictions API
+  slug: harbor-compliance-jurisdictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harbor-compliance/refs/heads/main/openapi/harbor-compliance-jurisdictions-api-openapi.yml
+- filename: harbor-compliance-licenses-api-openapi.yml
+  format: yaml
+  label: Harbor Compliance Licenses API
+  slug: harbor-compliance-licenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harbor-compliance/refs/heads/main/openapi/harbor-compliance-licenses-api-openapi.yml
+- filename: harbor-compliance-orders-api-openapi.yml
+  format: yaml
+  label: Harbor Compliance Orders API
+  slug: harbor-compliance-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harbor-compliance/refs/heads/main/openapi/harbor-compliance-orders-api-openapi.yml
+- filename: harbor-compliance-registered-agents-api-openapi.yml
+  format: yaml
+  label: Harbor Compliance Registered Agents API
+  slug: harbor-compliance-registered-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harbor-compliance/refs/heads/main/openapi/harbor-compliance-registered-agents-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

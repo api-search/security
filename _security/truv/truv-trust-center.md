@@ -1,77 +1,125 @@
 ---
 api_specs:
-- filename: truv-openapi.yml
+- filename: truv-admin-api-openapi.yml
   format: yaml
-  label: Truv Users API
-  slug: users
+  label: Truv Admin API
+  slug: truv-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-openapi.yml
-- filename: truv-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-admin-api-openapi.yml
+- filename: truv-banking-api-openapi.yml
+  format: yaml
+  label: Truv Banking API
+  slug: truv-banking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-banking-api-openapi.yml
+- filename: truv-bridge-tokens-api-openapi.yml
   format: yaml
   label: Truv Bridge Tokens API
-  slug: bridge-tokens
+  slug: truv-bridge-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-openapi.yml
-- filename: truv-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-bridge-tokens-api-openapi.yml
+- filename: truv-companies-providers-api-openapi.yml
   format: yaml
-  label: Truv Links API
-  slug: links
+  label: Truv Companies & Providers API
+  slug: truv-companies-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-openapi.yml
-- filename: truv-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-companies-providers-api-openapi.yml
+- filename: truv-direct-deposit-api-openapi.yml
   format: yaml
-  label: Truv Employment Verification API
-  slug: employment-verification
+  label: Truv Direct Deposit API
+  slug: truv-direct-deposit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-openapi.yml
-- filename: truv-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-direct-deposit-api-openapi.yml
+- filename: truv-employment-api-openapi.yml
   format: yaml
-  label: Truv Income Verification API
-  slug: income-verification
+  label: Truv Employment API
+  slug: truv-employment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-openapi.yml
-- filename: truv-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-employment-api-openapi.yml
+- filename: truv-identity-api-openapi.yml
   format: yaml
-  label: Truv Pay Statements API
-  slug: pay-statements
+  label: Truv Identity API
+  slug: truv-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-openapi.yml
-- filename: truv-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-identity-api-openapi.yml
+- filename: truv-income-api-openapi.yml
   format: yaml
-  label: Truv Direct Deposit Switch API
-  slug: direct-deposit-switch
+  label: Truv Income API
+  slug: truv-income-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-openapi.yml
-- filename: truv-openapi.yml
-  format: yaml
-  label: Truv Payroll & Shifts API
-  slug: payroll-shifts
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-openapi.yml
-- filename: truv-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-income-api-openapi.yml
+- filename: truv-insurance-api-openapi.yml
   format: yaml
   label: Truv Insurance API
-  slug: insurance
+  slug: truv-insurance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-openapi.yml
-- filename: truv-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-insurance-api-openapi.yml
+- filename: truv-links-api-openapi.yml
+  format: yaml
+  label: Truv Links API
+  slug: truv-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-links-api-openapi.yml
+- filename: truv-orders-api-openapi.yml
   format: yaml
   label: Truv Orders API
-  slug: orders
+  slug: truv-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-openapi.yml
-- filename: truv-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-orders-api-openapi.yml
+- filename: truv-pay-statements-api-openapi.yml
   format: yaml
-  label: Truv Identity & Banking API
-  slug: identity-banking
+  label: Truv Pay Statements API
+  slug: truv-pay-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-openapi.yml
-- filename: truv-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-pay-statements-api-openapi.yml
+- filename: truv-payroll-shifts-api-openapi.yml
+  format: yaml
+  label: Truv Payroll & Shifts API
+  slug: truv-payroll-shifts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-payroll-shifts-api-openapi.yml
+- filename: truv-pll-api-openapi.yml
+  format: yaml
+  label: Truv PLL API
+  slug: truv-pll-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-pll-api-openapi.yml
+- filename: truv-scoring-api-openapi.yml
+  format: yaml
+  label: Truv Scoring API
+  slug: truv-scoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-scoring-api-openapi.yml
+- filename: truv-tasks-api-openapi.yml
+  format: yaml
+  label: Truv Tasks API
+  slug: truv-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-tasks-api-openapi.yml
+- filename: truv-tax-api-openapi.yml
+  format: yaml
+  label: Truv Tax API
+  slug: truv-tax-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-tax-api-openapi.yml
+- filename: truv-templates-api-openapi.yml
+  format: yaml
+  label: Truv Templates API
+  slug: truv-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-templates-api-openapi.yml
+- filename: truv-users-api-openapi.yml
+  format: yaml
+  label: Truv Users API
+  slug: truv-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-users-api-openapi.yml
+- filename: truv-webhooks-api-openapi.yml
   format: yaml
   label: Truv Webhooks API
-  slug: webhooks
+  slug: truv-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-webhooks-api-openapi.yml
 certifications:
 - SOC 2
 - GDPR

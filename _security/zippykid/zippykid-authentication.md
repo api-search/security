@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: zippykid-pressable-openapi-original.json
-  format: json
-  label: Pressable API
-  slug: pressable-api
+- filename: zippykid-account-api-openapi.yml
+  format: yaml
+  label: ZippyKid account API
+  slug: zippykid-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-pressable-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-account-api-openapi.yml
+- filename: zippykid-activity-api-openapi.yml
+  format: yaml
+  label: ZippyKid activity API
+  slug: zippykid-activity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-activity-api-openapi.yml
+- filename: zippykid-auth-api-openapi.yml
+  format: yaml
+  label: ZippyKid auth API
+  slug: zippykid-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-auth-api-openapi.yml
+- filename: zippykid-collaborators-api-openapi.yml
+  format: yaml
+  label: ZippyKid collaborators API
+  slug: zippykid-collaborators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-collaborators-api-openapi.yml
+- filename: zippykid-http-api-openapi.yml
+  format: yaml
+  label: 'ZippyKid http: API'
+  slug: zippykid-http-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-http-api-openapi.yml
+- filename: zippykid-mu-plugins-api-openapi.yml
+  format: yaml
+  label: ZippyKid mu-plugins API
+  slug: zippykid-mu-plugins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-mu-plugins-api-openapi.yml
+- filename: zippykid-sites-api-openapi.yml
+  format: yaml
+  label: ZippyKid sites API
+  slug: zippykid-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-sites-api-openapi.yml
+- filename: zippykid-zones-api-openapi.yml
+  format: yaml
+  label: ZippyKid zones API
+  slug: zippykid-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-zones-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

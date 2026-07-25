@@ -1,11 +1,77 @@
 ---
 api_specs:
+- filename: dialpad-calls-api-openapi.yml
+  format: yaml
+  label: Dialpad Calls API
+  slug: dialpad-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-calls-api-openapi.yml
+- filename: dialpad-users-api-openapi.yml
+  format: yaml
+  label: Dialpad Users API
+  slug: dialpad-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-users-api-openapi.yml
 - filename: dialpad-asyncapi.yml
   format: yaml
   label: Dialpad Webhooks API
   slug: dialpad-webhooks-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-asyncapi.yml
+- filename: dialpad-calls-api-openapi.yml
+  format: yaml
+  label: Dialpad Calls API
+  slug: dialpad-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-calls-api-openapi.yml
+- filename: dialpad-contacts-api-openapi.yml
+  format: yaml
+  label: Dialpad Contacts API
+  slug: dialpad-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-contacts-api-openapi.yml
+- filename: dialpad-offices-api-openapi.yml
+  format: yaml
+  label: Dialpad Offices API
+  slug: dialpad-offices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-offices-api-openapi.yml
+- filename: dialpad-recordings-api-openapi.yml
+  format: yaml
+  label: Dialpad Recordings API
+  slug: dialpad-recordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-recordings-api-openapi.yml
+- filename: dialpad-rooms-api-openapi.yml
+  format: yaml
+  label: Dialpad Rooms API
+  slug: dialpad-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-rooms-api-openapi.yml
+- filename: dialpad-subscriptions-api-openapi.yml
+  format: yaml
+  label: Dialpad Subscriptions API
+  slug: dialpad-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-subscriptions-api-openapi.yml
+- filename: dialpad-transcripts-api-openapi.yml
+  format: yaml
+  label: Dialpad Transcripts API
+  slug: dialpad-transcripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-transcripts-api-openapi.yml
+- filename: dialpad-users-api-openapi.yml
+  format: yaml
+  label: Dialpad Users API
+  slug: dialpad-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-users-api-openapi.yml
+- filename: dialpad-webhooks-api-openapi.yml
+  format: yaml
+  label: Dialpad Webhooks API
+  slug: dialpad-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-endpoints-services-api-openapi.yml
   format: yaml
-  label: Google Cloud Service Management API
-  slug: google-cloud-service-management-api
+  label: Google Cloud Endpoints Services API
+  slug: google-cloud-endpoints-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-endpoints/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-endpoints/refs/heads/main/openapi/google-cloud-endpoints-services-api-openapi.yml
 description: ''
 domains:
 - caa:

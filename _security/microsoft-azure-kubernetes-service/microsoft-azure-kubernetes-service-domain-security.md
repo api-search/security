@@ -1,23 +1,17 @@
 ---
 api_specs:
-- filename: azure-kubernetes-service-openapi.yml
-  format: yaml
-  label: Azure Kubernetes Service REST API
-  slug: azure-kubernetes-service-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/openapi/azure-kubernetes-service-openapi.yml
-- filename: azure-kubernetes-service-openapi.yml
-  format: yaml
-  label: Azure Kubernetes Service Managed Clusters API
-  slug: azure-kubernetes-service-managed-clusters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/openapi/azure-kubernetes-service-openapi.yml
-- filename: azure-kubernetes-service-openapi.yml
+- filename: microsoft-azure-kubernetes-service-agent-pools-api-openapi.yml
   format: yaml
   label: Azure Kubernetes Service Agent Pools API
-  slug: azure-kubernetes-service-agent-pools-api
+  slug: microsoft-azure-kubernetes-service-agent-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/openapi/azure-kubernetes-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/openapi/microsoft-azure-kubernetes-service-agent-pools-api-openapi.yml
+- filename: microsoft-azure-kubernetes-service-managed-clusters-api-openapi.yml
+  format: yaml
+  label: Azure Kubernetes Service Managed Clusters API
+  slug: microsoft-azure-kubernetes-service-managed-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/openapi/microsoft-azure-kubernetes-service-managed-clusters-api-openapi.yml
 description: ''
 domains:
 - caa:

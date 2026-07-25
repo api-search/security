@@ -2,12 +2,66 @@
 api_key_in:
 - header
 api_specs:
-- filename: spaceship-openapi-original.json
-  format: json
-  label: Spaceship API
-  slug: spaceship-api
+- filename: spaceship-async-operations-api-openapi.yml
+  format: yaml
+  label: Spaceship Async Operations API
+  slug: spaceship-async-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/openapi/spaceship-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/openapi/spaceship-async-operations-api-openapi.yml
+- filename: spaceship-contacts-api-openapi.yml
+  format: yaml
+  label: Spaceship Contacts API
+  slug: spaceship-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/openapi/spaceship-contacts-api-openapi.yml
+- filename: spaceship-contacts-attributes-api-openapi.yml
+  format: yaml
+  label: Spaceship Contacts attributes API
+  slug: spaceship-contacts-attributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/openapi/spaceship-contacts-attributes-api-openapi.yml
+- filename: spaceship-dns-records-api-openapi.yml
+  format: yaml
+  label: Spaceship DNS records API
+  slug: spaceship-dns-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/openapi/spaceship-dns-records-api-openapi.yml
+- filename: spaceship-domain-availability-api-openapi.yml
+  format: yaml
+  label: Spaceship Domain Availability API
+  slug: spaceship-domain-availability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/openapi/spaceship-domain-availability-api-openapi.yml
+- filename: spaceship-domain-management-api-openapi.yml
+  format: yaml
+  label: Spaceship Domain Management API
+  slug: spaceship-domain-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/openapi/spaceship-domain-management-api-openapi.yml
+- filename: spaceship-domain-settings-api-openapi.yml
+  format: yaml
+  label: Spaceship Domain Settings API
+  slug: spaceship-domain-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/openapi/spaceship-domain-settings-api-openapi.yml
+- filename: spaceship-domain-transfer-api-openapi.yml
+  format: yaml
+  label: Spaceship Domain Transfer API
+  slug: spaceship-domain-transfer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/openapi/spaceship-domain-transfer-api-openapi.yml
+- filename: spaceship-personal-nameservers-api-openapi.yml
+  format: yaml
+  label: Spaceship Personal Nameservers API
+  slug: spaceship-personal-nameservers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/openapi/spaceship-personal-nameservers-api-openapi.yml
+- filename: spaceship-sellerhub-api-openapi.yml
+  format: yaml
+  label: Spaceship SellerHub API
+  slug: spaceship-sellerhub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/openapi/spaceship-sellerhub-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

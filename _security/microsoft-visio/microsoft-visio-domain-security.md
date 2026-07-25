@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: microsoft-visio-graph-api.yaml
+- filename: microsoft-visio-comments-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Visio API
-  slug: microsoft-graph-visio-api
+  label: Microsoft Visio Comments API
+  slug: microsoft-visio-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-visio/refs/heads/main/openapi/microsoft-visio-graph-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-visio/refs/heads/main/openapi/microsoft-visio-comments-api-openapi.yml
+- filename: microsoft-visio-documents-api-openapi.yml
+  format: yaml
+  label: Microsoft Visio Documents API
+  slug: microsoft-visio-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-visio/refs/heads/main/openapi/microsoft-visio-documents-api-openapi.yml
+- filename: microsoft-visio-hyperlinks-api-openapi.yml
+  format: yaml
+  label: Microsoft Visio Hyperlinks API
+  slug: microsoft-visio-hyperlinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-visio/refs/heads/main/openapi/microsoft-visio-hyperlinks-api-openapi.yml
+- filename: microsoft-visio-pages-api-openapi.yml
+  format: yaml
+  label: Microsoft Visio Pages API
+  slug: microsoft-visio-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-visio/refs/heads/main/openapi/microsoft-visio-pages-api-openapi.yml
+- filename: microsoft-visio-shape-data-api-openapi.yml
+  format: yaml
+  label: Microsoft Visio Shape Data API
+  slug: microsoft-visio-shape-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-visio/refs/heads/main/openapi/microsoft-visio-shape-data-api-openapi.yml
+- filename: microsoft-visio-shapes-api-openapi.yml
+  format: yaml
+  label: Microsoft Visio Shapes API
+  slug: microsoft-visio-shapes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-visio/refs/heads/main/openapi/microsoft-visio-shapes-api-openapi.yml
 description: ''
 domains:
 - caa:

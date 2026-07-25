@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: pyth-hermes-openapi-original.json
-  format: json
-  label: Pyth Hermes (Pyth Core)
-  slug: pyth-hermes-pyth-core
+- filename: pyth-price-differences-api-openapi.yml
+  format: yaml
+  label: Pyth Price Differences API
+  slug: pyth-price-differences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/openapi/pyth-hermes-openapi-original.json
-- filename: pyth-benchmarks-openapi-original.json
-  format: json
-  label: Pyth Benchmarks
-  slug: pyth-benchmarks
+  url: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/openapi/pyth-price-differences-api-openapi.yml
+- filename: pyth-price-feeds-api-openapi.yml
+  format: yaml
+  label: Pyth Price Feeds API
+  slug: pyth-price-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/openapi/pyth-benchmarks-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/openapi/pyth-price-feeds-api-openapi.yml
+- filename: pyth-rest-api-openapi.yml
+  format: yaml
+  label: Pyth rest API
+  slug: pyth-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/openapi/pyth-rest-api-openapi.yml
+- filename: pyth-tradingview-api-openapi.yml
+  format: yaml
+  label: Pyth TradingView API
+  slug: pyth-tradingview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/openapi/pyth-tradingview-api-openapi.yml
+- filename: pyth-updates-api-openapi.yml
+  format: yaml
+  label: Pyth Updates API
+  slug: pyth-updates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/openapi/pyth-updates-api-openapi.yml
 description: ''
 domains:
 - caa: []

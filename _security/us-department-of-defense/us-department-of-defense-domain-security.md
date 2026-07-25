@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: usace-cwms-data-api-openapi.yml
+- filename: us-department-of-defense-catalog-api-openapi.yml
   format: yaml
-  label: USACE Corps Water Management System Data API
-  slug: cwms-data-api
+  label: US Department of Defense Catalog API
+  slug: us-department-of-defense-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/usace-cwms-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-catalog-api-openapi.yml
+- filename: us-department-of-defense-levels-api-openapi.yml
+  format: yaml
+  label: US Department of Defense Levels API
+  slug: us-department-of-defense-levels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-levels-api-openapi.yml
+- filename: us-department-of-defense-locations-api-openapi.yml
+  format: yaml
+  label: US Department of Defense Locations API
+  slug: us-department-of-defense-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-locations-api-openapi.yml
+- filename: us-department-of-defense-measurements-api-openapi.yml
+  format: yaml
+  label: US Department of Defense Measurements API
+  slug: us-department-of-defense-measurements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-measurements-api-openapi.yml
+- filename: us-department-of-defense-offices-api-openapi.yml
+  format: yaml
+  label: US Department of Defense Offices API
+  slug: us-department-of-defense-offices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-offices-api-openapi.yml
+- filename: us-department-of-defense-projects-api-openapi.yml
+  format: yaml
+  label: US Department of Defense Projects API
+  slug: us-department-of-defense-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-projects-api-openapi.yml
+- filename: us-department-of-defense-ratings-api-openapi.yml
+  format: yaml
+  label: US Department of Defense Ratings API
+  slug: us-department-of-defense-ratings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-ratings-api-openapi.yml
+- filename: us-department-of-defense-time-series-api-openapi.yml
+  format: yaml
+  label: US Department of Defense Time Series API
+  slug: us-department-of-defense-time-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-time-series-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: brocade-openapi.yml
+- filename: brocade-chassis-api-openapi.yml
   format: yaml
-  label: Brocade Fabric OS REST API
-  slug: brocade-fabric-os-rest-api
+  label: Brocade Chassis API
+  slug: brocade-chassis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-chassis-api-openapi.yml
+- filename: brocade-interfaces-api-openapi.yml
+  format: yaml
+  label: Brocade Interfaces API
+  slug: brocade-interfaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-interfaces-api-openapi.yml
+- filename: brocade-operations-api-openapi.yml
+  format: yaml
+  label: Brocade Operations API
+  slug: brocade-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-operations-api-openapi.yml
+- filename: brocade-session-api-openapi.yml
+  format: yaml
+  label: Brocade Session API
+  slug: brocade-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-session-api-openapi.yml
+- filename: brocade-switch-api-openapi.yml
+  format: yaml
+  label: Brocade Switch API
+  slug: brocade-switch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-switch-api-openapi.yml
+- filename: brocade-zoning-api-openapi.yml
+  format: yaml
+  label: Brocade Zoning API
+  slug: brocade-zoning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-zoning-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: medigo-openapi-original.yml
+- filename: medigo-attachments-api-openapi.yml
   format: yaml
-  label: MEDIGO API
-  slug: medigo-api
+  label: Medigo attachments API
+  slug: medigo-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-attachments-api-openapi.yml
+- filename: medigo-inquiries-api-openapi.yml
+  format: yaml
+  label: Medigo inquiries API
+  slug: medigo-inquiries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-inquiries-api-openapi.yml
+- filename: medigo-search-api-openapi.yml
+  format: yaml
+  label: Medigo search API
+  slug: medigo-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-search-api-openapi.yml
+- filename: medigo-second-opinions-api-openapi.yml
+  format: yaml
+  label: Medigo second-opinions API
+  slug: medigo-second-opinions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-second-opinions-api-openapi.yml
+- filename: medigo-tpa-api-openapi.yml
+  format: yaml
+  label: Medigo tpa API
+  slug: medigo-tpa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-tpa-api-openapi.yml
+- filename: medigo-webhooks-api-openapi.yml
+  format: yaml
+  label: Medigo webhooks API
+  slug: medigo-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

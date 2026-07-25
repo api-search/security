@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: browser-use-openapi.yml
+- filename: browser-use-billing-api-openapi.yml
   format: yaml
-  label: Browser Use
-  slug: browser-use
+  label: Browser Use Billing API
+  slug: browser-use-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-billing-api-openapi.yml
+- filename: browser-use-browsers-api-openapi.yml
+  format: yaml
+  label: Browser Use Browsers API
+  slug: browser-use-browsers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-browsers-api-openapi.yml
+- filename: browser-use-profiles-api-openapi.yml
+  format: yaml
+  label: Browser Use Profiles API
+  slug: browser-use-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-profiles-api-openapi.yml
+- filename: browser-use-sessions-api-openapi.yml
+  format: yaml
+  label: Browser Use Sessions API
+  slug: browser-use-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-sessions-api-openapi.yml
+- filename: browser-use-workspaces-api-openapi.yml
+  format: yaml
+  label: Browser Use Workspaces API
+  slug: browser-use-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []

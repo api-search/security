@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: amazon-sqs-openapi.yml
+- filename: amazon-sqs-messages-api-openapi.yml
   format: yaml
-  label: Amazon SQS API
-  slug: amazon-sqs-api
+  label: Amazon SQS Messages API
+  slug: amazon-sqs-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/openapi/amazon-sqs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/openapi/amazon-sqs-messages-api-openapi.yml
+- filename: amazon-sqs-permissions-api-openapi.yml
+  format: yaml
+  label: Amazon SQS Permissions API
+  slug: amazon-sqs-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/openapi/amazon-sqs-permissions-api-openapi.yml
+- filename: amazon-sqs-queues-api-openapi.yml
+  format: yaml
+  label: Amazon SQS Queues API
+  slug: amazon-sqs-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/openapi/amazon-sqs-queues-api-openapi.yml
+- filename: amazon-sqs-tags-api-openapi.yml
+  format: yaml
+  label: Amazon SQS Tags API
+  slug: amazon-sqs-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/openapi/amazon-sqs-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

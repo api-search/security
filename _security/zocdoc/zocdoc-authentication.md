@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: apis.md
+- filename: zocdoc-appointments-api-openapi.yml
   format: yaml
-  label: Zocdoc API
-  slug: zocdoc-api
+  label: Zocdoc appointments API
+  slug: zocdoc-appointments-api
   spec_type: OpenAPI
-  url: https://api-docs.zocdoc.com/apis.md
+  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-appointments-api-openapi.yml
+- filename: zocdoc-calendar-integration-timeslots-api-openapi.yml
+  format: yaml
+  label: Zocdoc calendar-integration-timeslots API
+  slug: zocdoc-calendar-integration-timeslots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-calendar-integration-timeslots-api-openapi.yml
+- filename: zocdoc-credentials-api-openapi.yml
+  format: yaml
+  label: Zocdoc credentials API
+  slug: zocdoc-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-credentials-api-openapi.yml
+- filename: zocdoc-facilities-api-openapi.yml
+  format: yaml
+  label: Zocdoc facilities API
+  slug: zocdoc-facilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-facilities-api-openapi.yml
+- filename: zocdoc-insurance-reference-api-openapi.yml
+  format: yaml
+  label: Zocdoc insurance-reference API
+  slug: zocdoc-insurance-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-insurance-reference-api-openapi.yml
+- filename: zocdoc-provider-locations-api-openapi.yml
+  format: yaml
+  label: Zocdoc provider-locations API
+  slug: zocdoc-provider-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-provider-locations-api-openapi.yml
+- filename: zocdoc-providers-api-openapi.yml
+  format: yaml
+  label: Zocdoc providers API
+  slug: zocdoc-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-providers-api-openapi.yml
+- filename: zocdoc-reference-api-openapi.yml
+  format: yaml
+  label: Zocdoc reference API
+  slug: zocdoc-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-reference-api-openapi.yml
+- filename: zocdoc-schedulable-entities-api-openapi.yml
+  format: yaml
+  label: Zocdoc schedulable-entities API
+  slug: zocdoc-schedulable-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-schedulable-entities-api-openapi.yml
+- filename: zocdoc-webhook-api-openapi.yml
+  format: yaml
+  label: Zocdoc webhook API
+  slug: zocdoc-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-webhook-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

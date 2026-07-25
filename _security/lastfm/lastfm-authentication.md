@@ -2,12 +2,60 @@
 api_key_in:
 - query
 api_specs:
-- filename: lastfm-openapi-original.yml
+- filename: lastfm-album-api-openapi.yml
   format: yaml
-  label: Last.fm Web Services 2.0
-  slug: lastfm-web-services-2-0
+  label: Last.fm Album API
+  slug: lastfm-album-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-album-api-openapi.yml
+- filename: lastfm-artist-api-openapi.yml
+  format: yaml
+  label: Last.fm Artist API
+  slug: lastfm-artist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-artist-api-openapi.yml
+- filename: lastfm-auth-api-openapi.yml
+  format: yaml
+  label: Last.fm Auth API
+  slug: lastfm-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-auth-api-openapi.yml
+- filename: lastfm-chart-api-openapi.yml
+  format: yaml
+  label: Last.fm Chart API
+  slug: lastfm-chart-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-chart-api-openapi.yml
+- filename: lastfm-geo-api-openapi.yml
+  format: yaml
+  label: Last.fm Geo API
+  slug: lastfm-geo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-geo-api-openapi.yml
+- filename: lastfm-library-api-openapi.yml
+  format: yaml
+  label: Last.fm Library API
+  slug: lastfm-library-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-library-api-openapi.yml
+- filename: lastfm-tag-api-openapi.yml
+  format: yaml
+  label: Last.fm Tag API
+  slug: lastfm-tag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-tag-api-openapi.yml
+- filename: lastfm-track-api-openapi.yml
+  format: yaml
+  label: Last.fm Track API
+  slug: lastfm-track-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-track-api-openapi.yml
+- filename: lastfm-user-api-openapi.yml
+  format: yaml
+  label: Last.fm User API
+  slug: lastfm-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-user-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

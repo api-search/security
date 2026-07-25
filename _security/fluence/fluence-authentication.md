@@ -2,12 +2,78 @@
 api_key_in:
 - header
 api_specs:
-- filename: fluence-openapi-original.yml
+- filename: fluence-billing-api-openapi.yml
   format: yaml
-  label: Fluence API
-  slug: fluence-api
+  label: Fluence Billing API
+  slug: fluence-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-billing-api-openapi.yml
+- filename: fluence-hardware-api-openapi.yml
+  format: yaml
+  label: Fluence Hardware API
+  slug: fluence-hardware-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-hardware-api-openapi.yml
+- filename: fluence-prices-api-openapi.yml
+  format: yaml
+  label: Fluence Prices API
+  slug: fluence-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-prices-api-openapi.yml
+- filename: fluence-publicip-api-openapi.yml
+  format: yaml
+  label: Fluence PublicIP API
+  slug: fluence-publicip-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-publicip-api-openapi.yml
+- filename: fluence-securitygroup-api-openapi.yml
+  format: yaml
+  label: Fluence SecurityGroup API
+  slug: fluence-securitygroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-securitygroup-api-openapi.yml
+- filename: fluence-service-api-openapi.yml
+  format: yaml
+  label: Fluence Service API
+  slug: fluence-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-service-api-openapi.yml
+- filename: fluence-ssh-keys-api-openapi.yml
+  format: yaml
+  label: Fluence SSH keys API
+  slug: fluence-ssh-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-ssh-keys-api-openapi.yml
+- filename: fluence-storage-api-openapi.yml
+  format: yaml
+  label: Fluence Storage API
+  slug: fluence-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-storage-api-openapi.yml
+- filename: fluence-subnets-api-openapi.yml
+  format: yaml
+  label: Fluence Subnets API
+  slug: fluence-subnets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-subnets-api-openapi.yml
+- filename: fluence-users-api-openapi.yml
+  format: yaml
+  label: Fluence Users API
+  slug: fluence-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-users-api-openapi.yml
+- filename: fluence-vms-api-openapi.yml
+  format: yaml
+  label: Fluence VMs API
+  slug: fluence-vms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-vms-api-openapi.yml
+- filename: fluence-vpcs-api-openapi.yml
+  format: yaml
+  label: Fluence VPCs API
+  slug: fluence-vpcs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-vpcs-api-openapi.yml
 auth_types:
 - apiKey
 - http

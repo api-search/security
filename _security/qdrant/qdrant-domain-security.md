@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: qdrant-openapi-original.json
-  format: json
-  label: Qdrant API
-  slug: qdrant-api
+- filename: qdrant-aliases-api-openapi.yml
+  format: yaml
+  label: Qdrant Aliases API
+  slug: qdrant-aliases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-aliases-api-openapi.yml
+- filename: qdrant-beta-api-openapi.yml
+  format: yaml
+  label: Qdrant Beta API
+  slug: qdrant-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-beta-api-openapi.yml
+- filename: qdrant-collections-api-openapi.yml
+  format: yaml
+  label: Qdrant Collections API
+  slug: qdrant-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-collections-api-openapi.yml
+- filename: qdrant-distributed-api-openapi.yml
+  format: yaml
+  label: Qdrant Distributed API
+  slug: qdrant-distributed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-distributed-api-openapi.yml
+- filename: qdrant-indexes-api-openapi.yml
+  format: yaml
+  label: Qdrant Indexes API
+  slug: qdrant-indexes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-indexes-api-openapi.yml
+- filename: qdrant-points-api-openapi.yml
+  format: yaml
+  label: Qdrant Points API
+  slug: qdrant-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-points-api-openapi.yml
+- filename: qdrant-search-api-openapi.yml
+  format: yaml
+  label: Qdrant Search API
+  slug: qdrant-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-search-api-openapi.yml
+- filename: qdrant-service-api-openapi.yml
+  format: yaml
+  label: Qdrant Service API
+  slug: qdrant-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-service-api-openapi.yml
+- filename: qdrant-snapshots-api-openapi.yml
+  format: yaml
+  label: Qdrant Snapshots API
+  slug: qdrant-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-snapshots-api-openapi.yml
 description: ''
 domains:
 - caa: []

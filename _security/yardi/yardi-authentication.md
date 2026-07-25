@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: yardi-voyager-api-openapi.yml
+- filename: yardi-billing-and-payments-api-openapi.yml
   format: yaml
-  label: Yardi Voyager API
-  slug: yardi-voyager-api
+  label: Yardi Billing and Payments API
+  slug: yardi-billing-and-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/openapi/yardi-voyager-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/openapi/yardi-billing-and-payments-api-openapi.yml
+- filename: yardi-common-data-api-openapi.yml
+  format: yaml
+  label: Yardi Common Data API
+  slug: yardi-common-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/openapi/yardi-common-data-api-openapi.yml
+- filename: yardi-job-cost-api-openapi.yml
+  format: yaml
+  label: Yardi Job Cost API
+  slug: yardi-job-cost-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/openapi/yardi-job-cost-api-openapi.yml
+- filename: yardi-service-requests-api-openapi.yml
+  format: yaml
+  label: Yardi Service Requests API
+  slug: yardi-service-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/openapi/yardi-service-requests-api-openapi.yml
+- filename: yardi-vendor-invoicing-api-openapi.yml
+  format: yaml
+  label: Yardi Vendor Invoicing API
+  slug: yardi-vendor-invoicing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/openapi/yardi-vendor-invoicing-api-openapi.yml
 auth_types:
 - http
 description: ''

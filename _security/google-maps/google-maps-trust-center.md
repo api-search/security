@@ -1,29 +1,47 @@
 ---
 api_specs:
-- filename: maps-js.yaml
+- filename: google-maps-autocomplete-api-openapi.yml
   format: yaml
-  label: Maps JavaScript API
-  slug: maps-javascript-api
+  label: Google Maps Platform Autocomplete API
+  slug: google-maps-autocomplete-api
   spec_type: OpenAPI
-  url: https://api.example.com/openapi/maps-js.yaml
-- filename: google-maps-geocoding-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-autocomplete-api-openapi.yml
+- filename: google-maps-directions-api-openapi.yml
   format: yaml
-  label: Geocoding API
-  slug: geocoding-api
+  label: Google Maps Platform Directions API
+  slug: google-maps-directions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-geocoding-api.yml
-- filename: google-maps-places-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-directions-api-openapi.yml
+- filename: google-maps-geocoding-api-openapi.yml
   format: yaml
-  label: Places API (New)
-  slug: places-api-new
+  label: Google Maps Platform Geocoding API
+  slug: google-maps-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-places-api.yml
-- filename: google-maps-directions-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-geocoding-api-openapi.yml
+- filename: google-maps-nearby-search-api-openapi.yml
   format: yaml
-  label: Directions API
-  slug: directions-api
+  label: Google Maps Platform Nearby Search API
+  slug: google-maps-nearby-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-directions-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-nearby-search-api-openapi.yml
+- filename: google-maps-photos-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Photos API
+  slug: google-maps-photos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-photos-api-openapi.yml
+- filename: google-maps-place-details-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Place Details API
+  slug: google-maps-place-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-place-details-api-openapi.yml
+- filename: google-maps-text-search-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Text Search API
+  slug: google-maps-text-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-text-search-api-openapi.yml
 certifications:
 - SOC 2
 - SOC 3

@@ -25,12 +25,12 @@ api_specs:
   slug: sendle-manifests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/openapi/sendle-manifests-api-openapi.yml
-- filename: sendle-ping-api-openapi.yml
+- filename: sendle-utility-api-openapi.yml
   format: yaml
-  label: Sendle Ping API
-  slug: sendle-ping-api
+  label: Sendle Utility API
+  slug: sendle-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/openapi/sendle-ping-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/openapi/sendle-utility-api-openapi.yml
 auth_types:
 - http
 description: ''

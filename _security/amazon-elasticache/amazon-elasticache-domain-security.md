@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: amazon-elasticache-openapi.yml
+- filename: amazon-elasticache-amazon-elasticache-api-api-openapi.yml
   format: yaml
-  label: Amazon ElastiCache API
-  slug: amazon-elasticache-api
+  label: Amazon ElastiCache Amazon ElastiCache API API
+  slug: amazon-elasticache-amazon-elasticache-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-elasticache/refs/heads/main/openapi/amazon-elasticache-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-elasticache/refs/heads/main/openapi/amazon-elasticache-amazon-elasticache-api-api-openapi.yml
+- filename: amazon-elasticache-createreplicationgroup-api-openapi.yml
+  format: yaml
+  label: 'Amazon ElastiCache #CreateReplicationGroup API'
+  slug: amazon-elasticache-createreplicationgroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-elasticache/refs/heads/main/openapi/amazon-elasticache-createreplicationgroup-api-openapi.yml
+- filename: amazon-elasticache-deletecachecluster-api-openapi.yml
+  format: yaml
+  label: 'Amazon ElastiCache #DeleteCacheCluster API'
+  slug: amazon-elasticache-deletecachecluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-elasticache/refs/heads/main/openapi/amazon-elasticache-deletecachecluster-api-openapi.yml
+- filename: amazon-elasticache-describereplicationgroups-api-openapi.yml
+  format: yaml
+  label: 'Amazon ElastiCache #DescribeReplicationGroups API'
+  slug: amazon-elasticache-describereplicationgroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-elasticache/refs/heads/main/openapi/amazon-elasticache-describereplicationgroups-api-openapi.yml
 description: ''
 domains:
 - caa: []

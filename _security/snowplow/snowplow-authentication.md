@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: snowplow-console-api-openapi.yml
+- filename: snowplow-authentication-api-openapi.yml
   format: yaml
-  label: Snowplow Console API
-  slug: snowplow-console-api
+  label: Snowplow Authentication API
+  slug: snowplow-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/openapi/snowplow-console-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/openapi/snowplow-authentication-api-openapi.yml
+- filename: snowplow-data-products-api-openapi.yml
+  format: yaml
+  label: Snowplow Data Products API
+  slug: snowplow-data-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/openapi/snowplow-data-products-api-openapi.yml
+- filename: snowplow-data-structures-api-openapi.yml
+  format: yaml
+  label: Snowplow Data Structures API
+  slug: snowplow-data-structures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/openapi/snowplow-data-structures-api-openapi.yml
 auth_types:
 - http
 description: ''

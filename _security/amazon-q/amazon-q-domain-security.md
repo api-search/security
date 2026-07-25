@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: amazon-q-business.json
-  format: json
-  label: Amazon Q Business API
-  slug: amazon-q-business-api
+- filename: amazon-q-applications-api-openapi.yml
+  format: yaml
+  label: Amazon Q Applications API
+  slug: amazon-q-applications-api
   spec_type: OpenAPI
-  url: https://example.com/openapi/amazon-q-business.json
-- filename: amazon-q-developer.json
-  format: json
-  label: Amazon Q Developer API
-  slug: amazon-q-developer-api
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/openapi/amazon-q-applications-api-openapi.yml
+- filename: amazon-q-conversations-api-openapi.yml
+  format: yaml
+  label: Amazon Q Conversations API
+  slug: amazon-q-conversations-api
   spec_type: OpenAPI
-  url: https://example.com/openapi/amazon-q-developer.json
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/openapi/amazon-q-conversations-api-openapi.yml
+- filename: amazon-q-data-sources-api-openapi.yml
+  format: yaml
+  label: Amazon Q Data Sources API
+  slug: amazon-q-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/openapi/amazon-q-data-sources-api-openapi.yml
+- filename: amazon-q-indices-api-openapi.yml
+  format: yaml
+  label: Amazon Q Indices API
+  slug: amazon-q-indices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/openapi/amazon-q-indices-api-openapi.yml
 description: ''
 domains:
 - caa: []

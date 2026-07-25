@@ -1,60 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: langbase-openapi.yml
-  format: yaml
-  label: Langbase Pipes API
-  slug: langbase-pipes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-openapi.yml
-- filename: langbase-openapi.yml
+- filename: langbase-agent-api-openapi.yml
   format: yaml
   label: Langbase Agent API
   slug: langbase-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-openapi.yml
-- filename: langbase-openapi.yml
-  format: yaml
-  label: Langbase Memory API
-  slug: langbase-memory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-openapi.yml
-- filename: langbase-openapi.yml
-  format: yaml
-  label: Langbase Threads API
-  slug: langbase-threads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-openapi.yml
-- filename: langbase-openapi.yml
-  format: yaml
-  label: Langbase Tools API
-  slug: langbase-tools-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-openapi.yml
-- filename: langbase-openapi.yml
-  format: yaml
-  label: Langbase Parser API
-  slug: langbase-parser-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-openapi.yml
-- filename: langbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-agent-api-openapi.yml
+- filename: langbase-chunker-api-openapi.yml
   format: yaml
   label: Langbase Chunker API
   slug: langbase-chunker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-openapi.yml
-- filename: langbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-chunker-api-openapi.yml
+- filename: langbase-embed-api-openapi.yml
   format: yaml
   label: Langbase Embed API
   slug: langbase-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-openapi.yml
-- filename: langbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-embed-api-openapi.yml
+- filename: langbase-memory-api-openapi.yml
   format: yaml
-  label: Langbase Workflows API
-  slug: langbase-workflows-api
+  label: Langbase Memory API
+  slug: langbase-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-memory-api-openapi.yml
+- filename: langbase-parser-api-openapi.yml
+  format: yaml
+  label: Langbase Parser API
+  slug: langbase-parser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-parser-api-openapi.yml
+- filename: langbase-pipes-api-openapi.yml
+  format: yaml
+  label: Langbase Pipes API
+  slug: langbase-pipes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-pipes-api-openapi.yml
+- filename: langbase-threads-api-openapi.yml
+  format: yaml
+  label: Langbase Threads API
+  slug: langbase-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-threads-api-openapi.yml
+- filename: langbase-tools-api-openapi.yml
+  format: yaml
+  label: Langbase Tools API
+  slug: langbase-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-tools-api-openapi.yml
 auth_types:
 - http
 description: ''

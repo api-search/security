@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: index-v1.json
-  format: json
-  label: Geofabrik Download API
-  slug: download-api
+- filename: geofabrik-downloads-api-openapi.yml
+  format: yaml
+  label: Geofabrik Downloads API
+  slug: geofabrik-downloads-api
   spec_type: OpenAPI
-  url: https://download.geofabrik.de/index-v1.json
+  url: https://raw.githubusercontent.com/api-evangelist/geofabrik/refs/heads/main/openapi/geofabrik-downloads-api-openapi.yml
+- filename: geofabrik-index-api-openapi.yml
+  format: yaml
+  label: Geofabrik Index API
+  slug: geofabrik-index-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geofabrik/refs/heads/main/openapi/geofabrik-index-api-openapi.yml
 description: ''
 domains:
 - caa: []

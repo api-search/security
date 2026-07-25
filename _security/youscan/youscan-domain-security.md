@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: youscan-openapi.yaml
+- filename: youscan-data-import-api-openapi.yml
   format: yaml
-  label: YouScan API
-  slug: youscan-api
+  label: YouScan Data Import API
+  slug: youscan-data-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youscan/refs/heads/main/openapi/youscan-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/youscan/refs/heads/main/openapi/youscan-data-import-api-openapi.yml
+- filename: youscan-history-api-openapi.yml
+  format: yaml
+  label: YouScan History API
+  slug: youscan-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youscan/refs/heads/main/openapi/youscan-history-api-openapi.yml
+- filename: youscan-mentions-api-openapi.yml
+  format: yaml
+  label: YouScan Mentions API
+  slug: youscan-mentions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youscan/refs/heads/main/openapi/youscan-mentions-api-openapi.yml
+- filename: youscan-spaces-api-openapi.yml
+  format: yaml
+  label: YouScan Spaces API
+  slug: youscan-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youscan/refs/heads/main/openapi/youscan-spaces-api-openapi.yml
+- filename: youscan-statistics-api-openapi.yml
+  format: yaml
+  label: YouScan Statistics API
+  slug: youscan-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youscan/refs/heads/main/openapi/youscan-statistics-api-openapi.yml
+- filename: youscan-tags-api-openapi.yml
+  format: yaml
+  label: YouScan Tags API
+  slug: youscan-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youscan/refs/heads/main/openapi/youscan-tags-api-openapi.yml
+- filename: youscan-topics-api-openapi.yml
+  format: yaml
+  label: YouScan Topics API
+  slug: youscan-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youscan/refs/heads/main/openapi/youscan-topics-api-openapi.yml
+- filename: youscan-webhook-api-openapi.yml
+  format: yaml
+  label: YouScan Webhook API
+  slug: youscan-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youscan/refs/heads/main/openapi/youscan-webhook-api-openapi.yml
 description: ''
 domains:
 - caa: []

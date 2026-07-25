@@ -1,17 +1,65 @@
 ---
 api_specs:
-- filename: datasets.openapi.yaml
+- filename: nih-biosample-api-openapi.yml
   format: yaml
-  label: NCBI Datasets v2 REST API
-  slug: ncbi-datasets-v2-rest-api
+  label: National Institutes of Health (NIH) BioSample API
+  slug: nih-biosample-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/ncbi/datasets/master/datasets.openapi.yaml
-- filename: v2
+  url: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/openapi/nih-biosample-api-openapi.yml
+- filename: nih-gene-api-openapi.yml
   format: yaml
-  label: ClinicalTrials.gov REST API
-  slug: clinicaltrialsgov-rest-api
+  label: National Institutes of Health (NIH) Gene API
+  slug: nih-gene-api
   spec_type: OpenAPI
-  url: https://clinicaltrials.gov/api/oas/v2
+  url: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/openapi/nih-gene-api-openapi.yml
+- filename: nih-genome-api-openapi.yml
+  format: yaml
+  label: National Institutes of Health (NIH) Genome API
+  slug: nih-genome-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/openapi/nih-genome-api-openapi.yml
+- filename: nih-organelle-api-openapi.yml
+  format: yaml
+  label: National Institutes of Health (NIH) Organelle API
+  slug: nih-organelle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/openapi/nih-organelle-api-openapi.yml
+- filename: nih-prokaryote-api-openapi.yml
+  format: yaml
+  label: National Institutes of Health (NIH) Prokaryote API
+  slug: nih-prokaryote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/openapi/nih-prokaryote-api-openapi.yml
+- filename: nih-stats-api-openapi.yml
+  format: yaml
+  label: National Institutes of Health (NIH) Stats API
+  slug: nih-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/openapi/nih-stats-api-openapi.yml
+- filename: nih-studies-api-openapi.yml
+  format: yaml
+  label: National Institutes of Health (NIH) Studies API
+  slug: nih-studies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/openapi/nih-studies-api-openapi.yml
+- filename: nih-taxonomy-api-openapi.yml
+  format: yaml
+  label: National Institutes of Health (NIH) Taxonomy API
+  slug: nih-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/openapi/nih-taxonomy-api-openapi.yml
+- filename: nih-version-api-openapi.yml
+  format: yaml
+  label: National Institutes of Health (NIH) Version API
+  slug: nih-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/openapi/nih-version-api-openapi.yml
+- filename: nih-virus-api-openapi.yml
+  format: yaml
+  label: National Institutes of Health (NIH) Virus API
+  slug: nih-virus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/openapi/nih-virus-api-openapi.yml
 description: ''
 domains:
 - caa:

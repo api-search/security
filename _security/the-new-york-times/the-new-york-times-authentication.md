@@ -2,60 +2,48 @@
 api_key_in:
 - query
 api_specs:
-- filename: new-york-times-archive-openapi-original.yml
+- filename: the-new-york-times-archive-api-openapi.yml
   format: yaml
   label: The New York Times Archive API
-  slug: archive-api
+  slug: the-new-york-times-archive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-new-york-times/refs/heads/main/openapi/new-york-times-archive-openapi-original.yml
-- filename: new-york-times-article-search-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/the-new-york-times/refs/heads/main/openapi/the-new-york-times-archive-api-openapi.yml
+- filename: the-new-york-times-content-api-openapi.yml
   format: yaml
-  label: The New York Times Article Search API
-  slug: article-search-api
+  label: The New York Times Content API
+  slug: the-new-york-times-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-new-york-times/refs/heads/main/openapi/new-york-times-article-search-openapi-original.yml
-- filename: new-york-times-books-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/the-new-york-times/refs/heads/main/openapi/the-new-york-times-content-api-openapi.yml
+- filename: the-new-york-times-movies-api-openapi.yml
   format: yaml
-  label: The New York Times Books API
-  slug: books-api
+  label: The New York Times Movies API
+  slug: the-new-york-times-movies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-new-york-times/refs/heads/main/openapi/new-york-times-books-openapi-original.yml
-- filename: new-york-times-most-popular-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/the-new-york-times/refs/heads/main/openapi/the-new-york-times-movies-api-openapi.yml
+- filename: the-new-york-times-name-api-openapi.yml
   format: yaml
-  label: The New York Times Most Popular API
-  slug: most-popular
+  label: The New York Times Name API
+  slug: the-new-york-times-name-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-new-york-times/refs/heads/main/openapi/new-york-times-most-popular-openapi-original.yml
-- filename: new-york-times-movie-review-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/the-new-york-times/refs/heads/main/openapi/the-new-york-times-name-api-openapi.yml
+- filename: the-new-york-times-search-api-openapi.yml
   format: yaml
-  label: The New York Times Movie Reviews API
-  slug: movie-reviews-api
+  label: The New York Times Search API
+  slug: the-new-york-times-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-new-york-times/refs/heads/main/openapi/new-york-times-movie-review-openapi-original.yml
-- filename: new-york-times-semantic-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/the-new-york-times/refs/heads/main/openapi/the-new-york-times-search-api-openapi.yml
+- filename: the-new-york-times-stories-api-openapi.yml
   format: yaml
-  label: The New York Times Semantic API
-  slug: semantic-api
+  label: The New York Times Stories API
+  slug: the-new-york-times-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-new-york-times/refs/heads/main/openapi/new-york-times-semantic-openapi-original.yml
-- filename: new-york-times-times-tags-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/the-new-york-times/refs/heads/main/openapi/the-new-york-times-stories-api-openapi.yml
+- filename: the-new-york-times-timestags-api-openapi.yml
   format: yaml
-  label: The New York Times TimesTags API
-  slug: timestags-api
+  label: The New York Times Timestags API
+  slug: the-new-york-times-timestags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-new-york-times/refs/heads/main/openapi/new-york-times-times-tags-openapi-original.yml
-- filename: new-york-times-times-newswire-openapi-original.yml
-  format: yaml
-  label: The New York Times Times Newswire API
-  slug: times-newswire-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-new-york-times/refs/heads/main/openapi/new-york-times-times-newswire-openapi-original.yml
-- filename: new-york-times-top-stories-openapi-original.yml
-  format: yaml
-  label: The New York Times Top Stories API
-  slug: top-stories
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-new-york-times/refs/heads/main/openapi/new-york-times-top-stories-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/the-new-york-times/refs/heads/main/openapi/the-new-york-times-timestags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

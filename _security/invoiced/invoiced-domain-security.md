@@ -1,53 +1,59 @@
 ---
 api_specs:
-- filename: invoiced-openapi.yml
-  format: yaml
-  label: Invoiced Customers API
-  slug: customers
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-openapi.yml
-- filename: invoiced-openapi.yml
-  format: yaml
-  label: Invoiced Invoices API
-  slug: invoices
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-openapi.yml
-- filename: invoiced-openapi.yml
-  format: yaml
-  label: Invoiced Estimates API
-  slug: estimates
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-openapi.yml
-- filename: invoiced-openapi.yml
+- filename: invoiced-credit-notes-api-openapi.yml
   format: yaml
   label: Invoiced Credit Notes API
-  slug: credit-notes
+  slug: invoiced-credit-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-openapi.yml
-- filename: invoiced-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-credit-notes-api-openapi.yml
+- filename: invoiced-customers-api-openapi.yml
   format: yaml
-  label: Invoiced Payments API
-  slug: payments
+  label: Invoiced Customers API
+  slug: invoiced-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-openapi.yml
-- filename: invoiced-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-customers-api-openapi.yml
+- filename: invoiced-estimates-api-openapi.yml
   format: yaml
-  label: Invoiced Subscriptions & Plans API
-  slug: subscriptions
+  label: Invoiced Estimates API
+  slug: invoiced-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-openapi.yml
-- filename: invoiced-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-estimates-api-openapi.yml
+- filename: invoiced-events-api-openapi.yml
+  format: yaml
+  label: Invoiced Events API
+  slug: invoiced-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-events-api-openapi.yml
+- filename: invoiced-invoices-api-openapi.yml
+  format: yaml
+  label: Invoiced Invoices API
+  slug: invoiced-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-invoices-api-openapi.yml
+- filename: invoiced-items-api-openapi.yml
   format: yaml
   label: Invoiced Items API
-  slug: items
+  slug: invoiced-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-openapi.yml
-- filename: invoiced-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-items-api-openapi.yml
+- filename: invoiced-payments-api-openapi.yml
   format: yaml
-  label: Invoiced Events & Webhooks API
-  slug: webhooks
+  label: Invoiced Payments API
+  slug: invoiced-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-payments-api-openapi.yml
+- filename: invoiced-plans-api-openapi.yml
+  format: yaml
+  label: Invoiced Plans API
+  slug: invoiced-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-plans-api-openapi.yml
+- filename: invoiced-subscriptions-api-openapi.yml
+  format: yaml
+  label: Invoiced Subscriptions API
+  slug: invoiced-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []

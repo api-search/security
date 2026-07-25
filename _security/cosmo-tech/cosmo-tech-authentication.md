@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cosmo-tech-organization-openapi-original.yaml
+- filename: cosmo-tech-dataset-api-openapi.yml
   format: yaml
-  label: Cosmo Tech Cloud Platform API
-  slug: cosmo-tech-cloud-platform-api
+  label: Cosmo Tech dataset API
+  slug: cosmo-tech-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-organization-openapi-original.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-dataset-api-openapi.yml
+- filename: cosmo-tech-meta-api-openapi.yml
+  format: yaml
+  label: Cosmo Tech meta API
+  slug: cosmo-tech-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-meta-api-openapi.yml
+- filename: cosmo-tech-organization-api-openapi.yml
+  format: yaml
+  label: Cosmo Tech organization API
+  slug: cosmo-tech-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-organization-api-openapi.yml
+- filename: cosmo-tech-run-api-openapi.yml
+  format: yaml
+  label: Cosmo Tech run API
+  slug: cosmo-tech-run-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-run-api-openapi.yml
+- filename: cosmo-tech-runner-api-openapi.yml
+  format: yaml
+  label: Cosmo Tech runner API
+  slug: cosmo-tech-runner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-runner-api-openapi.yml
+- filename: cosmo-tech-solution-api-openapi.yml
+  format: yaml
+  label: Cosmo Tech solution API
+  slug: cosmo-tech-solution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-solution-api-openapi.yml
+- filename: cosmo-tech-workspace-api-openapi.yml
+  format: yaml
+  label: Cosmo Tech workspace API
+  slug: cosmo-tech-workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-workspace-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

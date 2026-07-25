@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: litellm-openapi.yml
+- filename: litellm-assistants-api-openapi.yml
   format: yaml
-  label: LiteLLM Chat Completions API
-  slug: chat-completions-api
+  label: LiteLLM Assistants API
+  slug: litellm-assistants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-assistants-api-openapi.yml
+- filename: litellm-audio-api-openapi.yml
+  format: yaml
+  label: LiteLLM Audio API
+  slug: litellm-audio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-audio-api-openapi.yml
+- filename: litellm-batches-api-openapi.yml
+  format: yaml
+  label: LiteLLM Batches API
+  slug: litellm-batches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-batches-api-openapi.yml
+- filename: litellm-chat-api-openapi.yml
+  format: yaml
+  label: LiteLLM Chat API
+  slug: litellm-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-chat-api-openapi.yml
+- filename: litellm-completions-api-openapi.yml
+  format: yaml
+  label: LiteLLM Completions API
+  slug: litellm-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-completions-api-openapi.yml
+- filename: litellm-embeddings-api-openapi.yml
+  format: yaml
+  label: LiteLLM Embeddings API
+  slug: litellm-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-embeddings-api-openapi.yml
+- filename: litellm-fine-tuning-api-openapi.yml
+  format: yaml
+  label: LiteLLM Fine Tuning API
+  slug: litellm-fine-tuning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-fine-tuning-api-openapi.yml
+- filename: litellm-images-api-openapi.yml
+  format: yaml
+  label: LiteLLM Images API
+  slug: litellm-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-images-api-openapi.yml
+- filename: litellm-messages-api-openapi.yml
+  format: yaml
+  label: LiteLLM Messages API
+  slug: litellm-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-messages-api-openapi.yml
+- filename: litellm-moderations-api-openapi.yml
+  format: yaml
+  label: LiteLLM Moderations API
+  slug: litellm-moderations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-moderations-api-openapi.yml
+- filename: litellm-ocr-api-openapi.yml
+  format: yaml
+  label: LiteLLM Ocr API
+  slug: litellm-ocr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-ocr-api-openapi.yml
+- filename: litellm-rag-api-openapi.yml
+  format: yaml
+  label: LiteLLM Rag API
+  slug: litellm-rag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-rag-api-openapi.yml
+- filename: litellm-rerank-api-openapi.yml
+  format: yaml
+  label: LiteLLM Rerank API
+  slug: litellm-rerank-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-rerank-api-openapi.yml
+- filename: litellm-vector-stores-api-openapi.yml
+  format: yaml
+  label: LiteLLM Vector Stores API
+  slug: litellm-vector-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-vector-stores-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: openbmc-openapi.yml
+- filename: openbmc-accountservice-api-openapi.yml
   format: yaml
-  label: OpenBMC API
-  slug: openbmc-api
+  label: OpenBMC AccountService API
+  slug: openbmc-accountservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-accountservice-api-openapi.yml
+- filename: openbmc-chassis-api-openapi.yml
+  format: yaml
+  label: OpenBMC Chassis API
+  slug: openbmc-chassis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-chassis-api-openapi.yml
+- filename: openbmc-eventservice-api-openapi.yml
+  format: yaml
+  label: OpenBMC EventService API
+  slug: openbmc-eventservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-eventservice-api-openapi.yml
+- filename: openbmc-managers-api-openapi.yml
+  format: yaml
+  label: OpenBMC Managers API
+  slug: openbmc-managers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-managers-api-openapi.yml
+- filename: openbmc-openbmc-redfish-api-api-openapi.yml
+  format: yaml
+  label: OpenBMC OpenBMC Redfish API API
+  slug: openbmc-openbmc-redfish-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-openbmc-redfish-api-api-openapi.yml
+- filename: openbmc-sessionservice-api-openapi.yml
+  format: yaml
+  label: OpenBMC SessionService API
+  slug: openbmc-sessionservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-sessionservice-api-openapi.yml
+- filename: openbmc-systems-api-openapi.yml
+  format: yaml
+  label: OpenBMC Systems API
+  slug: openbmc-systems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-systems-api-openapi.yml
+- filename: openbmc-updateservice-api-openapi.yml
+  format: yaml
+  label: OpenBMC UpdateService API
+  slug: openbmc-updateservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-updateservice-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

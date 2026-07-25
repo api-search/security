@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: fake-store-api-openapi.yml
+- filename: fake-store-api-auth-api-openapi.yml
   format: yaml
-  label: Fake Store API
-  slug: fake-store-api
+  label: Fake Store API Auth API
+  slug: fake-store-api-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fake-store-api/refs/heads/main/openapi/fake-store-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fake-store-api/refs/heads/main/openapi/fake-store-api-auth-api-openapi.yml
+- filename: fake-store-api-carts-api-openapi.yml
+  format: yaml
+  label: Fake Store API Carts API
+  slug: fake-store-api-carts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fake-store-api/refs/heads/main/openapi/fake-store-api-carts-api-openapi.yml
+- filename: fake-store-api-products-api-openapi.yml
+  format: yaml
+  label: Fake Store API Products API
+  slug: fake-store-api-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fake-store-api/refs/heads/main/openapi/fake-store-api-products-api-openapi.yml
+- filename: fake-store-api-users-api-openapi.yml
+  format: yaml
+  label: Fake Store API Users API
+  slug: fake-store-api-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fake-store-api/refs/heads/main/openapi/fake-store-api-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

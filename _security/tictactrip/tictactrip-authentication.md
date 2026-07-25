@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tictactrip-openapi-original.json
-  format: json
-  label: Tictactrip API
-  slug: tictactrip-api
+- filename: tictactrip-autocomplete-api-openapi.yml
+  format: yaml
+  label: TicTacTrip Autocomplete API
+  slug: tictactrip-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tictactrip/refs/heads/main/openapi/tictactrip-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/tictactrip/refs/heads/main/openapi/tictactrip-autocomplete-api-openapi.yml
+- filename: tictactrip-booking-api-openapi.yml
+  format: yaml
+  label: TicTacTrip Booking API
+  slug: tictactrip-booking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tictactrip/refs/heads/main/openapi/tictactrip-booking-api-openapi.yml
+- filename: tictactrip-cities-api-openapi.yml
+  format: yaml
+  label: TicTacTrip Cities API
+  slug: tictactrip-cities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tictactrip/refs/heads/main/openapi/tictactrip-cities-api-openapi.yml
+- filename: tictactrip-results-api-openapi.yml
+  format: yaml
+  label: TicTacTrip Results API
+  slug: tictactrip-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tictactrip/refs/heads/main/openapi/tictactrip-results-api-openapi.yml
+- filename: tictactrip-segmentproviders-api-openapi.yml
+  format: yaml
+  label: TicTacTrip SegmentProviders API
+  slug: tictactrip-segmentproviders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tictactrip/refs/heads/main/openapi/tictactrip-segmentproviders-api-openapi.yml
+- filename: tictactrip-stopclusters-api-openapi.yml
+  format: yaml
+  label: TicTacTrip StopClusters API
+  slug: tictactrip-stopclusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tictactrip/refs/heads/main/openapi/tictactrip-stopclusters-api-openapi.yml
+- filename: tictactrip-stopgroups-api-openapi.yml
+  format: yaml
+  label: TicTacTrip StopGroups API
+  slug: tictactrip-stopgroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tictactrip/refs/heads/main/openapi/tictactrip-stopgroups-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: funding-circle-introducer-openapi.yml
+- filename: funding-circle-decisions-api-openapi.yml
   format: yaml
-  label: Funding Circle Introducer API
-  slug: funding-circle-introducer-api
+  label: Funding Circle Decisions API
+  slug: funding-circle-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/funding-circle/refs/heads/main/openapi/funding-circle-introducer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/funding-circle/refs/heads/main/openapi/funding-circle-decisions-api-openapi.yml
+- filename: funding-circle-documents-api-openapi.yml
+  format: yaml
+  label: Funding Circle Documents API
+  slug: funding-circle-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/funding-circle/refs/heads/main/openapi/funding-circle-documents-api-openapi.yml
+- filename: funding-circle-loan-applications-api-openapi.yml
+  format: yaml
+  label: Funding Circle Loan Applications API
+  slug: funding-circle-loan-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/funding-circle/refs/heads/main/openapi/funding-circle-loan-applications-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

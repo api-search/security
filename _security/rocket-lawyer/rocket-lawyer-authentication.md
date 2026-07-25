@@ -1,30 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: rocket-lawyer-authentication-api-openapi.yml
+- filename: rocket-lawyer-accesstoken-api-openapi.yml
   format: yaml
-  label: Rocket Lawyer Authentication API
-  slug: rocket-lawyer-authentication-api
+  label: Rocket Lawyer Accesstoken API
+  slug: rocket-lawyer-accesstoken-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-authentication-api-openapi.yml
-- filename: rocket-lawyer-rocketdocument-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-accesstoken-api-openapi.yml
+- filename: rocket-lawyer-binders-api-openapi.yml
   format: yaml
-  label: Rocket Lawyer RocketDocument v2 API
-  slug: rocket-lawyer-rocketdocument-api
+  label: Rocket Lawyer Binders API
+  slug: rocket-lawyer-binders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-rocketdocument-api-openapi.yml
-- filename: rocket-lawyer-rocketsign-binders-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-binders-api-openapi.yml
+- filename: rocket-lawyer-documents-api-openapi.yml
   format: yaml
-  label: Rocket Lawyer RocketSign and Binders API
-  slug: rocket-lawyer-rocketsign-binders-api
+  label: Rocket Lawyer Documents API
+  slug: rocket-lawyer-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-rocketsign-binders-api-openapi.yml
-- filename: rocket-lawyer-events-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-documents-api-openapi.yml
+- filename: rocket-lawyer-event-consumption-api-openapi.yml
   format: yaml
-  label: Rocket Lawyer Events API
-  slug: rocket-lawyer-events-api
+  label: Rocket Lawyer Event Consumption API
+  slug: rocket-lawyer-event-consumption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-events-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-event-consumption-api-openapi.yml
+- filename: rocket-lawyer-interviews-api-openapi.yml
+  format: yaml
+  label: Rocket Lawyer Interviews API
+  slug: rocket-lawyer-interviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-interviews-api-openapi.yml
+- filename: rocket-lawyer-servicetoken-api-openapi.yml
+  format: yaml
+  label: Rocket Lawyer Servicetoken API
+  slug: rocket-lawyer-servicetoken-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-servicetoken-api-openapi.yml
+- filename: rocket-lawyer-subscription-management-api-openapi.yml
+  format: yaml
+  label: Rocket Lawyer Subscription Management API
+  slug: rocket-lawyer-subscription-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-subscription-management-api-openapi.yml
+- filename: rocket-lawyer-templates-api-openapi.yml
+  format: yaml
+  label: Rocket Lawyer Templates API
+  slug: rocket-lawyer-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-templates-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: defillama-openapi.yml
+- filename: defillama-coins-api-openapi.yml
   format: yaml
-  label: DefiLlama Public API
-  slug: public-api
+  label: DefiLlama Coins API
+  slug: defillama-coins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-coins-api-openapi.yml
+- filename: defillama-fees-api-openapi.yml
+  format: yaml
+  label: DefiLlama Fees API
+  slug: defillama-fees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-fees-api-openapi.yml
+- filename: defillama-stablecoins-api-openapi.yml
+  format: yaml
+  label: DefiLlama Stablecoins API
+  slug: defillama-stablecoins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-stablecoins-api-openapi.yml
+- filename: defillama-tvl-api-openapi.yml
+  format: yaml
+  label: DefiLlama TVL API
+  slug: defillama-tvl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-tvl-api-openapi.yml
+- filename: defillama-volumes-api-openapi.yml
+  format: yaml
+  label: DefiLlama Volumes API
+  slug: defillama-volumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-volumes-api-openapi.yml
+- filename: defillama-yields-api-openapi.yml
+  format: yaml
+  label: DefiLlama Yields API
+  slug: defillama-yields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-yields-api-openapi.yml
 description: ''
 domains:
 - caa: []

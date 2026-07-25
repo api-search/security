@@ -1,42 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cortex-idp-openapi.yml
+- filename: cortex-idp-catalog-api-openapi.yml
   format: yaml
   label: Cortex Catalog API
   slug: cortex-idp-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cortex-idp/refs/heads/main/openapi/cortex-idp-openapi.yml
-- filename: cortex-idp-openapi.yml
-  format: yaml
-  label: Cortex Scorecards API
-  slug: cortex-idp-scorecards-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cortex-idp/refs/heads/main/openapi/cortex-idp-openapi.yml
-- filename: cortex-idp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cortex-idp/refs/heads/main/openapi/cortex-idp-catalog-api-openapi.yml
+- filename: cortex-idp-custom-data-api-openapi.yml
   format: yaml
   label: Cortex Custom Data API
   slug: cortex-idp-custom-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cortex-idp/refs/heads/main/openapi/cortex-idp-openapi.yml
-- filename: cortex-idp-openapi.yml
-  format: yaml
-  label: Cortex Initiatives API
-  slug: cortex-idp-initiatives-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cortex-idp/refs/heads/main/openapi/cortex-idp-openapi.yml
-- filename: cortex-idp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cortex-idp/refs/heads/main/openapi/cortex-idp-custom-data-api-openapi.yml
+- filename: cortex-idp-deploys-api-openapi.yml
   format: yaml
   label: Cortex Deploys API
   slug: cortex-idp-deploys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cortex-idp/refs/heads/main/openapi/cortex-idp-openapi.yml
-- filename: cortex-idp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cortex-idp/refs/heads/main/openapi/cortex-idp-deploys-api-openapi.yml
+- filename: cortex-idp-initiatives-api-openapi.yml
+  format: yaml
+  label: Cortex Initiatives API
+  slug: cortex-idp-initiatives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cortex-idp/refs/heads/main/openapi/cortex-idp-initiatives-api-openapi.yml
+- filename: cortex-idp-integrations-api-openapi.yml
   format: yaml
   label: Cortex Integrations API
   slug: cortex-idp-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cortex-idp/refs/heads/main/openapi/cortex-idp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cortex-idp/refs/heads/main/openapi/cortex-idp-integrations-api-openapi.yml
+- filename: cortex-idp-scorecards-api-openapi.yml
+  format: yaml
+  label: Cortex Scorecards API
+  slug: cortex-idp-scorecards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cortex-idp/refs/heads/main/openapi/cortex-idp-scorecards-api-openapi.yml
 auth_types:
 - http
 description: ''

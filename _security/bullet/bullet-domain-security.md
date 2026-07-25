@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: bullet-trading-api-openapi.json
-  format: json
+- filename: bullet-account-api-openapi.yml
+  format: yaml
+  label: Bullet Account API
+  slug: bullet-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/openapi/bullet-account-api-openapi.yml
+- filename: bullet-address-api-openapi.yml
+  format: yaml
+  label: Bullet Address API
+  slug: bullet-address-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/openapi/bullet-address-api-openapi.yml
+- filename: bullet-health-api-openapi.yml
+  format: yaml
+  label: Bullet Health API
+  slug: bullet-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/openapi/bullet-health-api-openapi.yml
+- filename: bullet-market-data-api-openapi.yml
+  format: yaml
+  label: Bullet Market-Data API
+  slug: bullet-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/openapi/bullet-market-data-api-openapi.yml
+- filename: bullet-rollup-api-openapi.yml
+  format: yaml
+  label: Bullet Rollup API
+  slug: bullet-rollup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/openapi/bullet-rollup-api-openapi.yml
+- filename: bullet-solanaoffchaintx-api-openapi.yml
+  format: yaml
+  label: Bullet SolanaOffchainTx API
+  slug: bullet-solanaoffchaintx-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/openapi/bullet-solanaoffchaintx-api-openapi.yml
+- filename: bullet-trading-api-openapi.yml
+  format: yaml
   label: Bullet Trading API
   slug: bullet-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/openapi/bullet-trading-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/openapi/bullet-trading-api-openapi.yml
+- filename: bullet-tx-api-openapi.yml
+  format: yaml
+  label: Bullet Tx API
+  slug: bullet-tx-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/openapi/bullet-tx-api-openapi.yml
+- filename: bullet-user-data-beta-api-openapi.yml
+  format: yaml
+  label: Bullet User Data (Beta) API
+  slug: bullet-user-data-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/openapi/bullet-user-data-beta-api-openapi.yml
 description: ''
 domains:
 - caa: []

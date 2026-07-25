@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi.yaml
+- filename: amazon-keyspaces-keyspaces-api-openapi.yml
   format: yaml
-  label: Amazon Keyspaces API
-  slug: amazon-keyspaces-api
+  label: Amazon Keyspaces Keyspaces API
+  slug: amazon-keyspaces-keyspaces-api
   spec_type: OpenAPI
-  url: https://api.apis.guru/v2/specs/amazonaws.com/keyspaces/2022-02-10/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/openapi/amazon-keyspaces-keyspaces-api-openapi.yml
+- filename: amazon-keyspaces-tables-api-openapi.yml
+  format: yaml
+  label: Amazon Keyspaces Tables API
+  slug: amazon-keyspaces-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/openapi/amazon-keyspaces-tables-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

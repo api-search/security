@@ -1,59 +1,59 @@
 ---
 api_specs:
-- filename: radar-io-openapi.yml
+- filename: radar-io-addresses-api-openapi.yml
   format: yaml
-  label: Radar Geocoding API
-  slug: radar-geocoding-api
+  label: Radar Addresses API
+  slug: radar-io-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radar-io/refs/heads/main/openapi/radar-io-openapi.yml
-- filename: radar-io-openapi.yml
-  format: yaml
-  label: Radar Search & Autocomplete API
-  slug: radar-search-autocomplete-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radar-io/refs/heads/main/openapi/radar-io-openapi.yml
-- filename: radar-io-openapi.yml
-  format: yaml
-  label: Radar Routing, Distance & Matrix API
-  slug: radar-routing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radar-io/refs/heads/main/openapi/radar-io-openapi.yml
-- filename: radar-io-openapi.yml
-  format: yaml
-  label: Radar Geofences API
-  slug: radar-geofences-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radar-io/refs/heads/main/openapi/radar-io-openapi.yml
-- filename: radar-io-openapi.yml
-  format: yaml
-  label: Radar Track & Users API
-  slug: radar-track-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radar-io/refs/heads/main/openapi/radar-io-openapi.yml
-- filename: radar-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/radar-io/refs/heads/main/openapi/radar-io-addresses-api-openapi.yml
+- filename: radar-io-events-api-openapi.yml
   format: yaml
   label: Radar Events API
-  slug: radar-events-api
+  slug: radar-io-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radar-io/refs/heads/main/openapi/radar-io-openapi.yml
-- filename: radar-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/radar-io/refs/heads/main/openapi/radar-io-events-api-openapi.yml
+- filename: radar-io-geocoding-api-openapi.yml
+  format: yaml
+  label: Radar Geocoding API
+  slug: radar-io-geocoding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radar-io/refs/heads/main/openapi/radar-io-geocoding-api-openapi.yml
+- filename: radar-io-geofences-api-openapi.yml
+  format: yaml
+  label: Radar Geofences API
+  slug: radar-io-geofences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radar-io/refs/heads/main/openapi/radar-io-geofences-api-openapi.yml
+- filename: radar-io-routing-api-openapi.yml
+  format: yaml
+  label: Radar Routing API
+  slug: radar-io-routing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radar-io/refs/heads/main/openapi/radar-io-routing-api-openapi.yml
+- filename: radar-io-search-api-openapi.yml
+  format: yaml
+  label: Radar Search API
+  slug: radar-io-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radar-io/refs/heads/main/openapi/radar-io-search-api-openapi.yml
+- filename: radar-io-tiles-api-openapi.yml
+  format: yaml
+  label: Radar Tiles API
+  slug: radar-io-tiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radar-io/refs/heads/main/openapi/radar-io-tiles-api-openapi.yml
+- filename: radar-io-track-api-openapi.yml
+  format: yaml
+  label: Radar Track API
+  slug: radar-io-track-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radar-io/refs/heads/main/openapi/radar-io-track-api-openapi.yml
+- filename: radar-io-trips-api-openapi.yml
   format: yaml
   label: Radar Trips API
-  slug: radar-trips-api
+  slug: radar-io-trips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radar-io/refs/heads/main/openapi/radar-io-openapi.yml
-- filename: radar-io-openapi.yml
-  format: yaml
-  label: Radar Address Verification API
-  slug: radar-address-verification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radar-io/refs/heads/main/openapi/radar-io-openapi.yml
-- filename: radar-io-openapi.yml
-  format: yaml
-  label: Radar Maps & Tiles API
-  slug: radar-maps-tiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radar-io/refs/heads/main/openapi/radar-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/radar-io/refs/heads/main/openapi/radar-io-trips-api-openapi.yml
 description: ''
 domains:
 - caa: []

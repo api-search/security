@@ -1,17 +1,53 @@
 ---
 api_specs:
-- filename: spring-security-oauth2-openapi.yml
+- filename: spring-security-authorization-api-openapi.yml
   format: yaml
-  label: Spring Security OAuth2 API
-  slug: spring-security-oauth2
+  label: Spring Security Authorization API
+  slug: spring-security-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/openapi/spring-security-oauth2-openapi.yml
-- filename: spring-authorization-server-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/openapi/spring-security-authorization-api-openapi.yml
+- filename: spring-security-client-management-api-openapi.yml
   format: yaml
-  label: Spring Authorization Server API
-  slug: spring-authorization-server
+  label: Spring Security Client Management API
+  slug: spring-security-client-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/openapi/spring-authorization-server-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/openapi/spring-security-client-management-api-openapi.yml
+- filename: spring-security-device-api-openapi.yml
+  format: yaml
+  label: Spring Security Device API
+  slug: spring-security-device-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/openapi/spring-security-device-api-openapi.yml
+- filename: spring-security-discovery-api-openapi.yml
+  format: yaml
+  label: Spring Security Discovery API
+  slug: spring-security-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/openapi/spring-security-discovery-api-openapi.yml
+- filename: spring-security-keys-api-openapi.yml
+  format: yaml
+  label: Spring Security Keys API
+  slug: spring-security-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/openapi/spring-security-keys-api-openapi.yml
+- filename: spring-security-openid-connect-api-openapi.yml
+  format: yaml
+  label: Spring Security OpenID Connect API
+  slug: spring-security-openid-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/openapi/spring-security-openid-connect-api-openapi.yml
+- filename: spring-security-session-api-openapi.yml
+  format: yaml
+  label: Spring Security Session API
+  slug: spring-security-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/openapi/spring-security-session-api-openapi.yml
+- filename: spring-security-token-api-openapi.yml
+  format: yaml
+  label: Spring Security Token API
+  slug: spring-security-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/openapi/spring-security-token-api-openapi.yml
 description: ''
 domains:
 - caa:

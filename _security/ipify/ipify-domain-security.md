@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: ipify-ip-api.yml
+- filename: ipify-account-api-openapi.yml
   format: yaml
-  label: ipify Public IP Address API
-  slug: ipify-public-ip-address-api
+  label: ipify Account API
+  slug: ipify-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipify/refs/heads/main/openapi/ipify-ip-api.yml
-- filename: ipify-geolocation-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ipify/refs/heads/main/openapi/ipify-account-api-openapi.yml
+- filename: ipify-geolocation-api-openapi.yml
   format: yaml
-  label: ipify IP Geolocation API
-  slug: ipify-ip-geolocation-api
+  label: ipify Geolocation API
+  slug: ipify-geolocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipify/refs/heads/main/openapi/ipify-geolocation-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ipify/refs/heads/main/openapi/ipify-geolocation-api-openapi.yml
+- filename: ipify-ip-address-api-openapi.yml
+  format: yaml
+  label: ipify IP Address API
+  slug: ipify-ip-address-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ipify/refs/heads/main/openapi/ipify-ip-address-api-openapi.yml
 description: ''
 domains:
 - caa: []

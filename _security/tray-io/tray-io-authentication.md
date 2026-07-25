@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tray-io-platform-api-openapi.yml
+- filename: tray-io-authentications-api-openapi.yml
   format: yaml
-  label: Tray.io Platform API
-  slug: tray-platform-api
+  label: Tray.io Authentications API
+  slug: tray-io-authentications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-io/refs/heads/main/openapi/tray-io-platform-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tray-io/refs/heads/main/openapi/tray-io-authentications-api-openapi.yml
+- filename: tray-io-connectors-api-openapi.yml
+  format: yaml
+  label: Tray.io Connectors API
+  slug: tray-io-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tray-io/refs/heads/main/openapi/tray-io-connectors-api-openapi.yml
+- filename: tray-io-projects-api-openapi.yml
+  format: yaml
+  label: Tray.io Projects API
+  slug: tray-io-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tray-io/refs/heads/main/openapi/tray-io-projects-api-openapi.yml
+- filename: tray-io-triggers-api-openapi.yml
+  format: yaml
+  label: Tray.io Triggers API
+  slug: tray-io-triggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tray-io/refs/heads/main/openapi/tray-io-triggers-api-openapi.yml
+- filename: tray-io-users-api-openapi.yml
+  format: yaml
+  label: Tray.io Users API
+  slug: tray-io-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tray-io/refs/heads/main/openapi/tray-io-users-api-openapi.yml
+- filename: tray-io-workspaces-api-openapi.yml
+  format: yaml
+  label: Tray.io Workspaces API
+  slug: tray-io-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tray-io/refs/heads/main/openapi/tray-io-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''

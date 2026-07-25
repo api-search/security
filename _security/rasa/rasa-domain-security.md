@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: rasa-http-api-openapi.yml
+- filename: rasa-domain-api-openapi.yml
   format: yaml
-  label: Rasa HTTP API
-  slug: rasa-http-api
+  label: Rasa Domain API
+  slug: rasa-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/openapi/rasa-http-api-openapi.yml
-- filename: rasa-action-server-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/openapi/rasa-domain-api-openapi.yml
+- filename: rasa-model-api-openapi.yml
   format: yaml
-  label: Rasa SDK Action Server
-  slug: rasa-sdk-action-server
+  label: Rasa Model API
+  slug: rasa-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/openapi/rasa-action-server-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/openapi/rasa-model-api-openapi.yml
+- filename: rasa-rasa-sdk-action-server-endpoint-api-openapi.yml
+  format: yaml
+  label: Rasa Rasa SDK Action Server Endpoint API
+  slug: rasa-rasa-sdk-action-server-endpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/openapi/rasa-rasa-sdk-action-server-endpoint-api-openapi.yml
+- filename: rasa-server-information-api-openapi.yml
+  format: yaml
+  label: Rasa Server Information API
+  slug: rasa-server-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/openapi/rasa-server-information-api-openapi.yml
+- filename: rasa-tracker-api-openapi.yml
+  format: yaml
+  label: Rasa Tracker API
+  slug: rasa-tracker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/openapi/rasa-tracker-api-openapi.yml
 description: ''
 domains:
 - caa:

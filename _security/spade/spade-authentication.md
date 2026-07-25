@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: spade-openapi-original.yml
+- filename: spade-card-enrichment-api-openapi.yml
   format: yaml
-  label: Spade API
-  slug: spade-api
+  label: Spade Card Enrichment API
+  slug: spade-card-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-card-enrichment-api-openapi.yml
+- filename: spade-category-action-triggers-api-openapi.yml
+  format: yaml
+  label: Spade Category Action Triggers API
+  slug: spade-category-action-triggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-category-action-triggers-api-openapi.yml
+- filename: spade-category-personalization-api-openapi.yml
+  format: yaml
+  label: Spade Category Personalization API
+  slug: spade-category-personalization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-category-personalization-api-openapi.yml
+- filename: spade-feedback-and-reporting-api-openapi.yml
+  format: yaml
+  label: Spade Feedback and Reporting API
+  slug: spade-feedback-and-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-feedback-and-reporting-api-openapi.yml
+- filename: spade-merchant-action-triggers-api-openapi.yml
+  format: yaml
+  label: Spade Merchant Action Triggers API
+  slug: spade-merchant-action-triggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-merchant-action-triggers-api-openapi.yml
+- filename: spade-merchant-search-api-openapi.yml
+  format: yaml
+  label: Spade Merchant Search API
+  slug: spade-merchant-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-merchant-search-api-openapi.yml
+- filename: spade-transfer-enrichment-api-openapi.yml
+  format: yaml
+  label: Spade Transfer Enrichment API
+  slug: spade-transfer-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-transfer-enrichment-api-openapi.yml
+- filename: spade-universal-enrichment-api-openapi.yml
+  format: yaml
+  label: Spade Universal Enrichment API
+  slug: spade-universal-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-universal-enrichment-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

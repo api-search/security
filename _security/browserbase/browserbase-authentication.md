@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: browserbase-openapi.yml
+- filename: browserbase-contexts-api-openapi.yml
   format: yaml
-  label: Browserbase API
-  slug: browser-api
+  label: Browserbase Contexts API
+  slug: browserbase-contexts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-contexts-api-openapi.yml
+- filename: browserbase-extensions-api-openapi.yml
+  format: yaml
+  label: Browserbase Extensions API
+  slug: browserbase-extensions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-extensions-api-openapi.yml
+- filename: browserbase-projects-api-openapi.yml
+  format: yaml
+  label: Browserbase Projects API
+  slug: browserbase-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-projects-api-openapi.yml
+- filename: browserbase-sessions-api-openapi.yml
+  format: yaml
+  label: Browserbase Sessions API
+  slug: browserbase-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-sessions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

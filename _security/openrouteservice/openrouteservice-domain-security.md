@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: ors
+- filename: openrouteservice-directions-api-openapi.yml
   format: yaml
   label: OpenRouteService Directions API
-  slug: directions
+  slug: openrouteservice-directions-api
   spec_type: OpenAPI
-  url: https://openrouteservice.org/wp-json/ors
+  url: https://raw.githubusercontent.com/api-evangelist/openrouteservice/refs/heads/main/openapi/openrouteservice-directions-api-openapi.yml
+- filename: openrouteservice-elevation-api-openapi.yml
+  format: yaml
+  label: OpenRouteService Elevation API
+  slug: openrouteservice-elevation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openrouteservice/refs/heads/main/openapi/openrouteservice-elevation-api-openapi.yml
+- filename: openrouteservice-geocoding-api-openapi.yml
+  format: yaml
+  label: OpenRouteService Geocoding API
+  slug: openrouteservice-geocoding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openrouteservice/refs/heads/main/openapi/openrouteservice-geocoding-api-openapi.yml
+- filename: openrouteservice-health-api-openapi.yml
+  format: yaml
+  label: OpenRouteService Health API
+  slug: openrouteservice-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openrouteservice/refs/heads/main/openapi/openrouteservice-health-api-openapi.yml
+- filename: openrouteservice-isochrones-api-openapi.yml
+  format: yaml
+  label: OpenRouteService Isochrones API
+  slug: openrouteservice-isochrones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openrouteservice/refs/heads/main/openapi/openrouteservice-isochrones-api-openapi.yml
+- filename: openrouteservice-matrix-api-openapi.yml
+  format: yaml
+  label: OpenRouteService Matrix API
+  slug: openrouteservice-matrix-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openrouteservice/refs/heads/main/openapi/openrouteservice-matrix-api-openapi.yml
+- filename: openrouteservice-optimization-api-openapi.yml
+  format: yaml
+  label: OpenRouteService Optimization API
+  slug: openrouteservice-optimization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openrouteservice/refs/heads/main/openapi/openrouteservice-optimization-api-openapi.yml
+- filename: openrouteservice-poi-api-openapi.yml
+  format: yaml
+  label: OpenRouteService POI API
+  slug: openrouteservice-poi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openrouteservice/refs/heads/main/openapi/openrouteservice-poi-api-openapi.yml
+- filename: openrouteservice-snapping-api-openapi.yml
+  format: yaml
+  label: OpenRouteService Snapping API
+  slug: openrouteservice-snapping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openrouteservice/refs/heads/main/openapi/openrouteservice-snapping-api-openapi.yml
 description: ''
 domains:
 - caa: []

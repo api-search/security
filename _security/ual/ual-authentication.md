@@ -1,18 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ual-bis-cobros-online-v2-openapi.yml
+- filename: ual-authentication-api-openapi.yml
   format: yaml
-  label: Ualá Bis API Cobros Online v2
-  slug: ualá-bis-api-cobros-online-v2
+  label: Ualá Authentication API
+  slug: ual-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/openapi/ual-bis-cobros-online-v2-openapi.yml
-- filename: ual-bis-auth-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/openapi/ual-authentication-api-openapi.yml
+- filename: ual-orders-api-openapi.yml
   format: yaml
-  label: Ualá Bis Authentication API v2
-  slug: ualá-bis-authentication-api-v2
+  label: Ualá Orders API
+  slug: ual-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/openapi/ual-bis-auth-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/openapi/ual-orders-api-openapi.yml
+- filename: ual-refunds-api-openapi.yml
+  format: yaml
+  label: Ualá Refunds API
+  slug: ual-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/openapi/ual-refunds-api-openapi.yml
 auth_types:
 - http
 description: ''

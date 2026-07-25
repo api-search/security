@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: upgrade-flexpay-openapi.yml
+- filename: upgrade-marketing-offers-api-openapi.yml
   format: yaml
-  label: Flex Pay API
-  slug: flex-pay-api
+  label: Upgrade Marketing Offers API
+  slug: upgrade-marketing-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upgrade/refs/heads/main/openapi/upgrade-flexpay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/upgrade/refs/heads/main/openapi/upgrade-marketing-offers-api-openapi.yml
+- filename: upgrade-orders-api-openapi.yml
+  format: yaml
+  label: Upgrade Orders API
+  slug: upgrade-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upgrade/refs/heads/main/openapi/upgrade-orders-api-openapi.yml
+- filename: upgrade-transactions-api-openapi.yml
+  format: yaml
+  label: Upgrade Transactions API
+  slug: upgrade-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upgrade/refs/heads/main/openapi/upgrade-transactions-api-openapi.yml
 auth_types:
 - oauth2
 description: Authentication profile for the Flex Pay APIs (Upgrade). Both the marketing and checkout REST APIs use OAuth 2.0 — an access token obtained with the client-credentials grant (client ID/secret sent as Basic credentials to the token endpoint) and included as a Bearer token in the Authorization header of every API request. Credentials are issued per merchant and per environment by the Flex Pay integration team, gated on a server IP allowlist review.

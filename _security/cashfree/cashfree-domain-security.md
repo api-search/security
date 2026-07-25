@@ -1,23 +1,131 @@
 ---
 api_specs:
-- filename: openapi-payment-gateway.json
-  format: json
-  label: Cashfree Payment Gateway API
-  slug: payments
+- filename: cashfree-authorize-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments Authorize API
+  slug: cashfree-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/openapi-payment-gateway.json
-- filename: openapi-payouts.json
-  format: json
-  label: Cashfree Payouts API
-  slug: payouts
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-authorize-api-openapi.yml
+- filename: cashfree-beneficiary-v2-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments Beneficiary v2 API
+  slug: cashfree-beneficiary-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/openapi-payouts.json
-- filename: openapi-verification.json
-  format: json
-  label: Cashfree Secure ID (Verification) API
-  slug: secure-id
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-beneficiary-v2-api-openapi.yml
+- filename: cashfree-createcashgram-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments CreateCashgram API
+  slug: cashfree-createcashgram-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/openapi-verification.json
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-createcashgram-api-openapi.yml
+- filename: cashfree-deactivate-static-kyc-link-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments Deactivate Static KYC Link API
+  slug: cashfree-deactivate-static-kyc-link-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-deactivate-static-kyc-link-api-openapi.yml
+- filename: cashfree-deactivatecashgram-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments DeactivateCashgram API
+  slug: cashfree-deactivatecashgram-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-deactivatecashgram-api-openapi.yml
+- filename: cashfree-disputes-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments Disputes API
+  slug: cashfree-disputes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-disputes-api-openapi.yml
+- filename: cashfree-easy-split-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments Easy-Split API
+  slug: cashfree-easy-split-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-easy-split-api-openapi.yml
+- filename: cashfree-eligibility-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments Eligibility API
+  slug: cashfree-eligibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-eligibility-api-openapi.yml
+- filename: cashfree-generate-kyc-link-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments Generate KYC Link API
+  slug: cashfree-generate-kyc-link-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-generate-kyc-link-api-openapi.yml
+- filename: cashfree-generate-static-kyc-link-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments Generate Static KYC Link API
+  slug: cashfree-generate-static-kyc-link-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-generate-static-kyc-link-api-openapi.yml
+- filename: cashfree-get-kyc-link-status-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments Get KYC Link Status API
+  slug: cashfree-get-kyc-link-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-get-kyc-link-status-api-openapi.yml
+- filename: cashfree-getcashgramstatus-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments GetCashgramStatus API
+  slug: cashfree-getcashgramstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-getcashgramstatus-api-openapi.yml
+- filename: cashfree-name-match-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments Name Match API
+  slug: cashfree-name-match-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-name-match-api-openapi.yml
+- filename: cashfree-orders-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments Orders API
+  slug: cashfree-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-orders-api-openapi.yml
+- filename: cashfree-payment-links-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments Payment Links API
+  slug: cashfree-payment-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-payment-links-api-openapi.yml
+- filename: cashfree-payments-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments Payments API
+  slug: cashfree-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-payments-api-openapi.yml
+- filename: cashfree-refunds-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments Refunds API
+  slug: cashfree-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-refunds-api-openapi.yml
+- filename: cashfree-settlement-reconciliation-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments Settlement Reconciliation API
+  slug: cashfree-settlement-reconciliation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-settlement-reconciliation-api-openapi.yml
+- filename: cashfree-settlements-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments Settlements API
+  slug: cashfree-settlements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-settlements-api-openapi.yml
+- filename: cashfree-simulation-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments Simulation API
+  slug: cashfree-simulation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-simulation-api-openapi.yml
+- filename: cashfree-transfers-v2-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments Transfers v2 API
+  slug: cashfree-transfers-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-transfers-v2-api-openapi.yml
 description: ''
 domains:
 - caa: []

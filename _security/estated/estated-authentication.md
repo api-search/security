@@ -2,12 +2,12 @@
 api_key_in:
 - query
 api_specs:
-- filename: estated-property-data-api-openapi.yml
+- filename: estated-property-api-openapi.yml
   format: yaml
-  label: Estated Property Data API
-  slug: property-data-api
+  label: Estated Property API
+  slug: estated-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/estated/refs/heads/main/openapi/estated-property-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/estated/refs/heads/main/openapi/estated-property-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: overshootai-openapi.yaml
+- filename: overshootai-billing-api-openapi.yml
   format: yaml
-  label: Overshoot API
-  slug: overshoot-api
+  label: overshoot.ai Billing API
+  slug: overshootai-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overshootai/refs/heads/main/openapi/overshootai-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/overshootai/refs/heads/main/openapi/overshootai-billing-api-openapi.yml
+- filename: overshootai-chat-api-openapi.yml
+  format: yaml
+  label: overshoot.ai Chat API
+  slug: overshootai-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overshootai/refs/heads/main/openapi/overshootai-chat-api-openapi.yml
+- filename: overshootai-healthz-api-openapi.yml
+  format: yaml
+  label: overshoot.ai Healthz API
+  slug: overshootai-healthz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overshootai/refs/heads/main/openapi/overshootai-healthz-api-openapi.yml
+- filename: overshootai-metrics-api-openapi.yml
+  format: yaml
+  label: overshoot.ai Metrics API
+  slug: overshootai-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overshootai/refs/heads/main/openapi/overshootai-metrics-api-openapi.yml
+- filename: overshootai-models-api-openapi.yml
+  format: yaml
+  label: overshoot.ai Models API
+  slug: overshootai-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overshootai/refs/heads/main/openapi/overshootai-models-api-openapi.yml
+- filename: overshootai-readyz-api-openapi.yml
+  format: yaml
+  label: overshoot.ai Readyz API
+  slug: overshootai-readyz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overshootai/refs/heads/main/openapi/overshootai-readyz-api-openapi.yml
+- filename: overshootai-streams-api-openapi.yml
+  format: yaml
+  label: overshoot.ai Streams API
+  slug: overshootai-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overshootai/refs/heads/main/openapi/overshootai-streams-api-openapi.yml
+- filename: overshootai-v1beta-api-openapi.yml
+  format: yaml
+  label: overshoot.ai V1beta API
+  slug: overshootai-v1beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overshootai/refs/heads/main/openapi/overshootai-v1beta-api-openapi.yml
 auth_types:
 - http
 description: ''

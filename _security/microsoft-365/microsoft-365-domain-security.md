@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: microsoft-365-calendar-api-openapi.yml
+  format: yaml
+  label: Microsoft 365 Calendar API
+  slug: microsoft-365-calendar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/openapi/microsoft-365-calendar-api-openapi.yml
+- filename: microsoft-365-files-api-openapi.yml
+  format: yaml
+  label: Microsoft 365 Files API
+  slug: microsoft-365-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/openapi/microsoft-365-files-api-openapi.yml
+- filename: microsoft-365-groups-api-openapi.yml
+  format: yaml
+  label: Microsoft 365 Groups API
+  slug: microsoft-365-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/openapi/microsoft-365-groups-api-openapi.yml
+- filename: microsoft-365-mail-api-openapi.yml
+  format: yaml
+  label: Microsoft 365 Mail API
+  slug: microsoft-365-mail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/openapi/microsoft-365-mail-api-openapi.yml
+- filename: microsoft-365-me-api-openapi.yml
+  format: yaml
+  label: Microsoft 365 Me API
+  slug: microsoft-365-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/openapi/microsoft-365-me-api-openapi.yml
+- filename: microsoft-365-teams-api-openapi.yml
+  format: yaml
+  label: Microsoft 365 Teams API
+  slug: microsoft-365-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/openapi/microsoft-365-teams-api-openapi.yml
+- filename: microsoft-365-users-api-openapi.yml
+  format: yaml
+  label: Microsoft 365 Users API
+  slug: microsoft-365-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/openapi/microsoft-365-users-api-openapi.yml
 description: ''
 domains:
 - caa:

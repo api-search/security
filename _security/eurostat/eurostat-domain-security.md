@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: eurostat-sdmx-rest-openapi.yaml
+- filename: eurostat-async-api-openapi.yml
   format: yaml
-  label: Eurostat SDMX 2.1 API
-  slug: eurostat-sdmx-21-api
+  label: Eurostat Async API
+  slug: eurostat-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-sdmx-rest-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-async-api-openapi.yml
+- filename: eurostat-catalogue-queries-api-openapi.yml
+  format: yaml
+  label: Eurostat Catalogue queries API
+  slug: eurostat-catalogue-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-catalogue-queries-api-openapi.yml
+- filename: eurostat-sdmx-2-1-data-queries-api-openapi.yml
+  format: yaml
+  label: Eurostat SDMX 2.1 Data queries API
+  slug: eurostat-sdmx-2-1-data-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-sdmx-2-1-data-queries-api-openapi.yml
+- filename: eurostat-sdmx-2-1-navigation-structure-queries-api-openapi.yml
+  format: yaml
+  label: Eurostat SDMX 2.1 Navigation Structure queries API
+  slug: eurostat-sdmx-2-1-navigation-structure-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-sdmx-2-1-navigation-structure-queries-api-openapi.yml
+- filename: eurostat-sdmx-2-1-structure-queries-api-openapi.yml
+  format: yaml
+  label: Eurostat SDMX 2.1 Structure queries API
+  slug: eurostat-sdmx-2-1-structure-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-sdmx-2-1-structure-queries-api-openapi.yml
+- filename: eurostat-sdmx-3-0-data-queries-api-openapi.yml
+  format: yaml
+  label: Eurostat SDMX 3.0 Data queries API
+  slug: eurostat-sdmx-3-0-data-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-sdmx-3-0-data-queries-api-openapi.yml
+- filename: eurostat-sdmx-3-0-structure-queries-api-openapi.yml
+  format: yaml
+  label: Eurostat SDMX 3.0 Structure queries API
+  slug: eurostat-sdmx-3-0-structure-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-sdmx-3-0-structure-queries-api-openapi.yml
+- filename: eurostat-statistics-data-queries-api-openapi.yml
+  format: yaml
+  label: Eurostat Statistics data queries API
+  slug: eurostat-statistics-data-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-statistics-data-queries-api-openapi.yml
 description: ''
 domains:
 - caa: []

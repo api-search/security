@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: signaturely-openapi.yml
-  format: yaml
-  label: Signaturely Signature Requests API
-  slug: signaturely-signature-requests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-openapi.yml
-- filename: signaturely-openapi.yml
+- filename: signaturely-documents-api-openapi.yml
   format: yaml
   label: Signaturely Documents API
   slug: signaturely-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-openapi.yml
-- filename: signaturely-openapi.yml
-  format: yaml
-  label: Signaturely Templates API
-  slug: signaturely-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-openapi.yml
-- filename: signaturely-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-documents-api-openapi.yml
+- filename: signaturely-folders-api-openapi.yml
   format: yaml
   label: Signaturely Folders API
   slug: signaturely-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-openapi.yml
-- filename: signaturely-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-folders-api-openapi.yml
+- filename: signaturely-signature-requests-api-openapi.yml
+  format: yaml
+  label: Signaturely Signature Requests API
+  slug: signaturely-signature-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-signature-requests-api-openapi.yml
+- filename: signaturely-team-api-openapi.yml
   format: yaml
   label: Signaturely Team API
   slug: signaturely-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-openapi.yml
-- filename: signaturely-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-team-api-openapi.yml
+- filename: signaturely-templates-api-openapi.yml
   format: yaml
-  label: Signaturely Webhooks API
-  slug: signaturely-webhooks-api
+  label: Signaturely Templates API
+  slug: signaturely-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-openapi.yml
-- filename: signaturely-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-templates-api-openapi.yml
+- filename: signaturely-user-api-openapi.yml
   format: yaml
   label: Signaturely User API
   slug: signaturely-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-user-api-openapi.yml
+- filename: signaturely-webhooks-api-openapi.yml
+  format: yaml
+  label: Signaturely Webhooks API
+  slug: signaturely-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

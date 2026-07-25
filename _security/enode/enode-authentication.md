@@ -1,48 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: enode-openapi.yml
+- filename: enode-batteries-api-openapi.yml
   format: yaml
-  label: Enode Users & Link API
-  slug: users-link-api
+  label: Enode Batteries API
+  slug: enode-batteries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-openapi.yml
-- filename: enode-openapi.yml
-  format: yaml
-  label: Enode Vehicles API
-  slug: vehicles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-openapi.yml
-- filename: enode-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-batteries-api-openapi.yml
+- filename: enode-chargers-api-openapi.yml
   format: yaml
   label: Enode Chargers API
-  slug: chargers-api
+  slug: enode-chargers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-openapi.yml
-- filename: enode-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-chargers-api-openapi.yml
+- filename: enode-hvac-api-openapi.yml
   format: yaml
   label: Enode HVAC API
-  slug: hvac-api
+  slug: enode-hvac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-openapi.yml
-- filename: enode-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-hvac-api-openapi.yml
+- filename: enode-inverters-api-openapi.yml
   format: yaml
-  label: Enode Batteries & Inverters API
-  slug: batteries-inverters-api
+  label: Enode Inverters API
+  slug: enode-inverters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-openapi.yml
-- filename: enode-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-inverters-api-openapi.yml
+- filename: enode-meters-api-openapi.yml
+  format: yaml
+  label: Enode Meters API
+  slug: enode-meters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-meters-api-openapi.yml
+- filename: enode-smart-charging-api-openapi.yml
   format: yaml
   label: Enode Smart Charging API
-  slug: smart-charging-api
+  slug: enode-smart-charging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-openapi.yml
-- filename: enode-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-smart-charging-api-openapi.yml
+- filename: enode-users-api-openapi.yml
+  format: yaml
+  label: Enode Users API
+  slug: enode-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-users-api-openapi.yml
+- filename: enode-vehicles-api-openapi.yml
+  format: yaml
+  label: Enode Vehicles API
+  slug: enode-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-vehicles-api-openapi.yml
+- filename: enode-webhooks-api-openapi.yml
   format: yaml
   label: Enode Webhooks API
-  slug: webhooks-api
+  slug: enode-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

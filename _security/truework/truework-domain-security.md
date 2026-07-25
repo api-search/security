@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: truework-verifications-orders-openapi.yml
+- filename: truework-subpackage-orders-api-openapi.yml
   format: yaml
-  label: Truework Verifications API
-  slug: truework-verifications-api
+  label: Truework subpackage_orders API
+  slug: truework-subpackage-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-verifications-orders-openapi.yml
-- filename: truework-beta-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-subpackage-orders-api-openapi.yml
+- filename: truework-subpackage-qualificationchecks-api-openapi.yml
   format: yaml
-  label: Truework Qualifications API (Beta)
-  slug: truework-qualifications-api
+  label: Truework subpackage_qualificationChecks API
+  slug: truework-subpackage-qualificationchecks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-beta-openapi.yml
-- filename: truework-beta-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-subpackage-qualificationchecks-api-openapi.yml
+- filename: truework-subpackage-reports-api-openapi.yml
   format: yaml
-  label: Truework Tenant Properties API (Beta)
-  slug: truework-tenant-properties-api
+  label: Truework subpackage_reports API
+  slug: truework-subpackage-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-beta-openapi.yml
-- filename: truework-webhooks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-subpackage-reports-api-openapi.yml
+- filename: truework-subpackage-tenantproperties-api-openapi.yml
   format: yaml
-  label: Truework Webhooks
-  slug: truework-webhooks
+  label: Truework subpackage_tenantProperties API
+  slug: truework-subpackage-tenantproperties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-webhooks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-subpackage-tenantproperties-api-openapi.yml
 description: ''
 domains:
 - caa: []

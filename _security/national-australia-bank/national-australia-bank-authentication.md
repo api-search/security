@@ -1,36 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: national-australia-bank-cds-banking-products-openapi.yml
+- filename: national-australia-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: National Australia Bank (NAB) CDR Product Reference Data API
-  slug: national-australia-bank-cdr-product-reference-data-api
+  label: National Australia Bank Banking Account Balances API
+  slug: national-australia-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/openapi/national-australia-bank-cds-banking-products-openapi.yml
-- filename: national-australia-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/openapi/national-australia-bank-banking-account-balances-api-openapi.yml
+- filename: national-australia-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: National Australia Bank (NAB) CDR Accounts & Balances API
-  slug: national-australia-bank-cdr-accounts-balances-api
+  label: National Australia Bank Banking Account Direct Debits API
+  slug: national-australia-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/openapi/national-australia-bank-cds-banking-products-openapi.yml
-- filename: national-australia-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/openapi/national-australia-bank-banking-account-direct-debits-api-openapi.yml
+- filename: national-australia-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: National Australia Bank (NAB) CDR Transactions API
-  slug: national-australia-bank-cdr-transactions-api
+  label: National Australia Bank Banking Account Scheduled Payments API
+  slug: national-australia-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/openapi/national-australia-bank-cds-banking-products-openapi.yml
-- filename: national-australia-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/openapi/national-australia-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: national-australia-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: National Australia Bank (NAB) CDR Direct Debits & Scheduled Payments API
-  slug: national-australia-bank-cdr-direct-debits-scheduled-payments-api
+  label: National Australia Bank Banking Account Transactions API
+  slug: national-australia-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/openapi/national-australia-bank-cds-banking-products-openapi.yml
-- filename: national-australia-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/openapi/national-australia-bank-banking-account-transactions-api-openapi.yml
+- filename: national-australia-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: National Australia Bank (NAB) CDR Payees API
-  slug: national-australia-bank-cdr-payees-api
+  label: National Australia Bank Banking Accounts API
+  slug: national-australia-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/openapi/national-australia-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/openapi/national-australia-bank-banking-accounts-api-openapi.yml
+- filename: national-australia-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: National Australia Bank Banking Payees API
+  slug: national-australia-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/openapi/national-australia-bank-banking-payees-api-openapi.yml
+- filename: national-australia-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: National Australia Bank Banking Products API
+  slug: national-australia-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/openapi/national-australia-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2

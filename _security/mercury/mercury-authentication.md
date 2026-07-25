@@ -7,6 +7,54 @@ api_specs:
   slug: webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/asyncapi/mercury-webhooks-asyncapi.yml
+- filename: mercury-accounts-api-openapi.yml
+  format: yaml
+  label: Mercury Accounts API
+  slug: mercury-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-accounts-api-openapi.yml
+- filename: mercury-cards-api-openapi.yml
+  format: yaml
+  label: Mercury Cards API
+  slug: mercury-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-cards-api-openapi.yml
+- filename: mercury-payments-api-openapi.yml
+  format: yaml
+  label: Mercury Payments API
+  slug: mercury-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-payments-api-openapi.yml
+- filename: mercury-recipients-api-openapi.yml
+  format: yaml
+  label: Mercury Recipients API
+  slug: mercury-recipients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-recipients-api-openapi.yml
+- filename: mercury-statements-api-openapi.yml
+  format: yaml
+  label: Mercury Statements API
+  slug: mercury-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-statements-api-openapi.yml
+- filename: mercury-transactions-api-openapi.yml
+  format: yaml
+  label: Mercury Transactions API
+  slug: mercury-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-transactions-api-openapi.yml
+- filename: mercury-treasury-api-openapi.yml
+  format: yaml
+  label: Mercury Treasury API
+  slug: mercury-treasury-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-treasury-api-openapi.yml
+- filename: mercury-webhooks-api-openapi.yml
+  format: yaml
+  label: Mercury Webhooks API
+  slug: mercury-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: upstash-kafka-api-openapi.yml
+  format: yaml
+  label: Upstash Kafka API
+  slug: upstash-kafka-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/openapi/upstash-kafka-api-openapi.yml
+- filename: upstash-redis-api-openapi.yml
+  format: yaml
+  label: Upstash Redis API
+  slug: upstash-redis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/openapi/upstash-redis-api-openapi.yml
+- filename: upstash-rediscommand-api-openapi.yml
+  format: yaml
+  label: Upstash RedisCommand API
+  slug: upstash-rediscommand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/openapi/upstash-rediscommand-api-openapi.yml
+- filename: upstash-teams-api-openapi.yml
+  format: yaml
+  label: Upstash Teams API
+  slug: upstash-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/openapi/upstash-teams-api-openapi.yml
+- filename: upstash-vector-api-openapi.yml
+  format: yaml
+  label: Upstash Vector API
+  slug: upstash-vector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/openapi/upstash-vector-api-openapi.yml
 description: ''
 domains:
 - caa: []

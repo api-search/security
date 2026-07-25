@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: schlage-home-openapi.yml
+- filename: allegion-access-codes-api-openapi.yml
   format: yaml
-  label: Schlage Home API
-  slug: schlage-home-api
+  label: Allegion Access Codes API
+  slug: allegion-access-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/schlage-home-openapi.yml
-- filename: engage-credentialing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/allegion-access-codes-api-openapi.yml
+- filename: allegion-commands-api-openapi.yml
   format: yaml
-  label: ENGAGE Cloud Credentialing API
-  slug: engage-credentialing-api
+  label: Allegion Commands API
+  slug: allegion-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/engage-credentialing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/allegion-commands-api-openapi.yml
+- filename: allegion-devices-api-openapi.yml
+  format: yaml
+  label: Allegion Devices API
+  slug: allegion-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/allegion-devices-api-openapi.yml
+- filename: allegion-mobile-credentials-api-openapi.yml
+  format: yaml
+  label: Allegion Mobile Credentials API
+  slug: allegion-mobile-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/allegion-mobile-credentials-api-openapi.yml
+- filename: allegion-webhook-subscriptions-api-openapi.yml
+  format: yaml
+  label: Allegion Webhook Subscriptions API
+  slug: allegion-webhook-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/allegion-webhook-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []

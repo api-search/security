@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: stryke-api.yaml
+- filename: dopex-deposit-api-openapi.yml
   format: yaml
-  label: Dopex CLAMM Options Trading API
-  slug: clamm-options-api
+  label: Dopex deposit API
+  slug: dopex-deposit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/stryke-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-deposit-api-openapi.yml
+- filename: dopex-exercise-api-openapi.yml
+  format: yaml
+  label: Dopex exercise API
+  slug: dopex-exercise-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-exercise-api-openapi.yml
+- filename: dopex-option-markets-api-openapi.yml
+  format: yaml
+  label: Dopex option-markets API
+  slug: dopex-option-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-option-markets-api-openapi.yml
+- filename: dopex-purchase-api-openapi.yml
+  format: yaml
+  label: Dopex purchase API
+  slug: dopex-purchase-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-purchase-api-openapi.yml
+- filename: dopex-stats-api-openapi.yml
+  format: yaml
+  label: Dopex stats API
+  slug: dopex-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-stats-api-openapi.yml
+- filename: dopex-strikes-chain-api-openapi.yml
+  format: yaml
+  label: Dopex strikes-chain API
+  slug: dopex-strikes-chain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-strikes-chain-api-openapi.yml
+- filename: dopex-withdraw-api-openapi.yml
+  format: yaml
+  label: Dopex withdraw API
+  slug: dopex-withdraw-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-withdraw-api-openapi.yml
+- filename: dopex-xsyk-api-openapi.yml
+  format: yaml
+  label: Dopex xSYK API
+  slug: dopex-xsyk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-xsyk-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: gutendex-api-openapi.yml
+- filename: gutendex-books-api-openapi.yml
   format: yaml
   label: Gutendex Books API
-  slug: books
+  slug: gutendex-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gutendex/refs/heads/main/openapi/gutendex-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gutendex/refs/heads/main/openapi/gutendex-books-api-openapi.yml
 description: ''
 domains:
 - caa: []

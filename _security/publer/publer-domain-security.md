@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: publer-openapi.yml
-  format: yaml
-  label: Publer Posts & Scheduling API
-  slug: posts-scheduling
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-openapi.yml
-- filename: publer-openapi.yml
+- filename: publer-accounts-api-openapi.yml
   format: yaml
   label: Publer Accounts API
-  slug: accounts
+  slug: publer-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-openapi.yml
-- filename: publer-openapi.yml
-  format: yaml
-  label: Publer Workspaces API
-  slug: workspaces
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-openapi.yml
-- filename: publer-openapi.yml
-  format: yaml
-  label: Publer Media API
-  slug: media
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-openapi.yml
-- filename: publer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-accounts-api-openapi.yml
+- filename: publer-jobs-api-openapi.yml
   format: yaml
   label: Publer Jobs API
-  slug: jobs
+  slug: publer-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-jobs-api-openapi.yml
+- filename: publer-media-api-openapi.yml
+  format: yaml
+  label: Publer Media API
+  slug: publer-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-media-api-openapi.yml
+- filename: publer-posts-api-openapi.yml
+  format: yaml
+  label: Publer Posts API
+  slug: publer-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-posts-api-openapi.yml
+- filename: publer-workspaces-api-openapi.yml
+  format: yaml
+  label: Publer Workspaces API
+  slug: publer-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,35 +1,41 @@
 ---
 api_specs:
-- filename: transistor-openapi.yml
+- filename: transistor-account-api-openapi.yml
   format: yaml
-  label: Transistor Shows API
-  slug: transistor-shows-api
+  label: Transistor Account API
+  slug: transistor-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-openapi.yml
-- filename: transistor-openapi.yml
-  format: yaml
-  label: Transistor Episodes API
-  slug: transistor-episodes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-openapi.yml
-- filename: transistor-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-account-api-openapi.yml
+- filename: transistor-analytics-api-openapi.yml
   format: yaml
   label: Transistor Analytics API
   slug: transistor-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-openapi.yml
-- filename: transistor-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-analytics-api-openapi.yml
+- filename: transistor-episodes-api-openapi.yml
+  format: yaml
+  label: Transistor Episodes API
+  slug: transistor-episodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-episodes-api-openapi.yml
+- filename: transistor-shows-api-openapi.yml
+  format: yaml
+  label: Transistor Shows API
+  slug: transistor-shows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-shows-api-openapi.yml
+- filename: transistor-subscribers-api-openapi.yml
   format: yaml
   label: Transistor Subscribers API
   slug: transistor-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-openapi.yml
-- filename: transistor-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-subscribers-api-openapi.yml
+- filename: transistor-webhooks-api-openapi.yml
   format: yaml
   label: Transistor Webhooks API
   slug: transistor-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-webhooks-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

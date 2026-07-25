@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: schema_retrieve
+- filename: authentik-core-api-openapi.yml
   format: yaml
-  label: Authentik REST API
-  slug: authentik-rest-api
+  label: Authentik Core API
+  slug: authentik-core-api
   spec_type: OpenAPI
-  url: https://api.goauthentik.io/#/Schema/schema_retrieve
+  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-core-api-openapi.yml
+- filename: authentik-crypto-api-openapi.yml
+  format: yaml
+  label: Authentik Crypto API
+  slug: authentik-crypto-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-crypto-api-openapi.yml
+- filename: authentik-events-api-openapi.yml
+  format: yaml
+  label: Authentik Events API
+  slug: authentik-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-events-api-openapi.yml
+- filename: authentik-flows-api-openapi.yml
+  format: yaml
+  label: Authentik Flows API
+  slug: authentik-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-flows-api-openapi.yml
+- filename: authentik-policies-api-openapi.yml
+  format: yaml
+  label: Authentik Policies API
+  slug: authentik-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-policies-api-openapi.yml
+- filename: authentik-providers-api-openapi.yml
+  format: yaml
+  label: Authentik Providers API
+  slug: authentik-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-providers-api-openapi.yml
+- filename: authentik-rbac-api-openapi.yml
+  format: yaml
+  label: Authentik RBAC API
+  slug: authentik-rbac-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-rbac-api-openapi.yml
+- filename: authentik-schema-api-openapi.yml
+  format: yaml
+  label: Authentik Schema API
+  slug: authentik-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-schema-api-openapi.yml
+- filename: authentik-sources-api-openapi.yml
+  format: yaml
+  label: Authentik Sources API
+  slug: authentik-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-sources-api-openapi.yml
+- filename: authentik-stages-api-openapi.yml
+  format: yaml
+  label: Authentik Stages API
+  slug: authentik-stages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-stages-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,42 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yaml
+- filename: sailpoint-access-profiles-api-openapi.yml
   format: yaml
-  label: SailPoint Identity Security Cloud V3 API
-  slug: identity-security-cloud-v3-api
+  label: SailPoint Access Profiles API
+  slug: sailpoint-access-profiles-api
   spec_type: OpenAPI
-  url: https://developer.sailpoint.com/docs/api/v3/identity-security-cloud-v-3-api/
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/openapi/sailpoint-access-profiles-api-openapi.yml
+- filename: sailpoint-certifications-api-openapi.yml
   format: yaml
-  label: SailPoint Identity Security Cloud V2024 API
-  slug: identity-security-cloud-v2024-api
+  label: SailPoint Certifications API
+  slug: sailpoint-certifications-api
   spec_type: OpenAPI
-  url: https://developer.sailpoint.com/docs/api/v2024/identity-security-cloud-v-2024-api/
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/openapi/sailpoint-certifications-api-openapi.yml
+- filename: sailpoint-identities-api-openapi.yml
   format: yaml
-  label: SailPoint Identity Security Cloud V2025 API
-  slug: identity-security-cloud-v2025-api
+  label: SailPoint Identities API
+  slug: sailpoint-identities-api
   spec_type: OpenAPI
-  url: https://developer.sailpoint.com/docs/api/v2025/identity-security-cloud-v-2025-api/
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/openapi/sailpoint-identities-api-openapi.yml
+- filename: sailpoint-roles-api-openapi.yml
   format: yaml
-  label: SailPoint Identity Security Cloud Beta API
-  slug: identity-security-cloud-beta-api
+  label: SailPoint Roles API
+  slug: sailpoint-roles-api
   spec_type: OpenAPI
-  url: https://developer.sailpoint.com/docs/api/beta/identity-security-cloud-beta-api/
-- filename: openapi.yaml
-  format: yaml
-  label: SailPoint IdentityIQ SCIM API
-  slug: identityiq-scim-api
-  spec_type: OpenAPI
-  url: https://developer.sailpoint.com/docs/api/iiq/identityiq-scim-rest-api/
-- filename: openapi.yaml
-  format: yaml
-  label: SailPoint Identity Security Cloud V2026 API
-  slug: identity-security-cloud-v2026-api
-  spec_type: OpenAPI
-  url: https://developer.sailpoint.com/docs/api/v2026/identity-security-cloud-v-2026-api/
+  url: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/openapi/sailpoint-roles-api-openapi.yml
 auth_types:
 - http
 - oauth2

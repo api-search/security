@@ -1,18 +1,1164 @@
 ---
 api_key_in: []
 api_specs:
-- filename: app-store-connect-openapi.json
-  format: json
-  label: App Store Connect API
-  slug: app-store-connect-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ios/main/openapi/app-store-connect-openapi.json
 - filename: app-store-server-notifications-asyncapi.yml
   format: yaml
   label: App Store Server Notifications
   slug: app-store-server-notifications
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/ios/main/asyncapi/app-store-server-notifications-asyncapi.yml
+- filename: ios-accessibilitydeclarations-api-openapi.yml
+  format: yaml
+  label: iOS AccessibilityDeclarations API
+  slug: ios-accessibilitydeclarations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-accessibilitydeclarations-api-openapi.yml
+- filename: ios-actors-api-openapi.yml
+  format: yaml
+  label: iOS Actors API
+  slug: ios-actors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-actors-api-openapi.yml
+- filename: ios-ageratingdeclarations-api-openapi.yml
+  format: yaml
+  label: iOS AgeRatingDeclarations API
+  slug: ios-ageratingdeclarations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-ageratingdeclarations-api-openapi.yml
+- filename: ios-alternativedistributiondomains-api-openapi.yml
+  format: yaml
+  label: iOS AlternativeDistributionDomains API
+  slug: ios-alternativedistributiondomains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-alternativedistributiondomains-api-openapi.yml
+- filename: ios-alternativedistributionkeys-api-openapi.yml
+  format: yaml
+  label: iOS AlternativeDistributionKeys API
+  slug: ios-alternativedistributionkeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-alternativedistributionkeys-api-openapi.yml
+- filename: ios-alternativedistributionpackagedeltas-api-openapi.yml
+  format: yaml
+  label: iOS AlternativeDistributionPackageDeltas API
+  slug: ios-alternativedistributionpackagedeltas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-alternativedistributionpackagedeltas-api-openapi.yml
+- filename: ios-alternativedistributionpackages-api-openapi.yml
+  format: yaml
+  label: iOS AlternativeDistributionPackages API
+  slug: ios-alternativedistributionpackages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-alternativedistributionpackages-api-openapi.yml
+- filename: ios-alternativedistributionpackagevariants-api-openapi.yml
+  format: yaml
+  label: iOS AlternativeDistributionPackageVariants API
+  slug: ios-alternativedistributionpackagevariants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-alternativedistributionpackagevariants-api-openapi.yml
+- filename: ios-alternativedistributionpackageversions-api-openapi.yml
+  format: yaml
+  label: iOS AlternativeDistributionPackageVersions API
+  slug: ios-alternativedistributionpackageversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-alternativedistributionpackageversions-api-openapi.yml
+- filename: ios-analyticsreportinstances-api-openapi.yml
+  format: yaml
+  label: iOS AnalyticsReportInstances API
+  slug: ios-analyticsreportinstances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-analyticsreportinstances-api-openapi.yml
+- filename: ios-analyticsreportrequests-api-openapi.yml
+  format: yaml
+  label: iOS AnalyticsReportRequests API
+  slug: ios-analyticsreportrequests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-analyticsreportrequests-api-openapi.yml
+- filename: ios-analyticsreports-api-openapi.yml
+  format: yaml
+  label: iOS AnalyticsReports API
+  slug: ios-analyticsreports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-analyticsreports-api-openapi.yml
+- filename: ios-analyticsreportsegments-api-openapi.yml
+  format: yaml
+  label: iOS AnalyticsReportSegments API
+  slug: ios-analyticsreportsegments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-analyticsreportsegments-api-openapi.yml
+- filename: ios-androidtoiosappmappingdetails-api-openapi.yml
+  format: yaml
+  label: iOS AndroidToIosAppMappingDetails API
+  slug: ios-androidtoiosappmappingdetails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-androidtoiosappmappingdetails-api-openapi.yml
+- filename: ios-appavailabilities-api-openapi.yml
+  format: yaml
+  label: iOS AppAvailabilities API
+  slug: ios-appavailabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appavailabilities-api-openapi.yml
+- filename: ios-appcategories-api-openapi.yml
+  format: yaml
+  label: iOS AppCategories API
+  slug: ios-appcategories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appcategories-api-openapi.yml
+- filename: ios-appclipadvancedexperienceimages-api-openapi.yml
+  format: yaml
+  label: iOS AppClipAdvancedExperienceImages API
+  slug: ios-appclipadvancedexperienceimages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appclipadvancedexperienceimages-api-openapi.yml
+- filename: ios-appclipadvancedexperiences-api-openapi.yml
+  format: yaml
+  label: iOS AppClipAdvancedExperiences API
+  slug: ios-appclipadvancedexperiences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appclipadvancedexperiences-api-openapi.yml
+- filename: ios-appclipappstorereviewdetails-api-openapi.yml
+  format: yaml
+  label: iOS AppClipAppStoreReviewDetails API
+  slug: ios-appclipappstorereviewdetails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appclipappstorereviewdetails-api-openapi.yml
+- filename: ios-appclipdefaultexperiencelocalizations-api-openapi.yml
+  format: yaml
+  label: iOS AppClipDefaultExperienceLocalizations API
+  slug: ios-appclipdefaultexperiencelocalizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appclipdefaultexperiencelocalizations-api-openapi.yml
+- filename: ios-appclipdefaultexperiences-api-openapi.yml
+  format: yaml
+  label: iOS AppClipDefaultExperiences API
+  slug: ios-appclipdefaultexperiences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appclipdefaultexperiences-api-openapi.yml
+- filename: ios-appclipheaderimages-api-openapi.yml
+  format: yaml
+  label: iOS AppClipHeaderImages API
+  slug: ios-appclipheaderimages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appclipheaderimages-api-openapi.yml
+- filename: ios-appclips-api-openapi.yml
+  format: yaml
+  label: iOS AppClips API
+  slug: ios-appclips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appclips-api-openapi.yml
+- filename: ios-appcustomproductpagelocalizations-api-openapi.yml
+  format: yaml
+  label: iOS AppCustomProductPageLocalizations API
+  slug: ios-appcustomproductpagelocalizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appcustomproductpagelocalizations-api-openapi.yml
+- filename: ios-appcustomproductpages-api-openapi.yml
+  format: yaml
+  label: iOS AppCustomProductPages API
+  slug: ios-appcustomproductpages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appcustomproductpages-api-openapi.yml
+- filename: ios-appcustomproductpageversions-api-openapi.yml
+  format: yaml
+  label: iOS AppCustomProductPageVersions API
+  slug: ios-appcustomproductpageversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appcustomproductpageversions-api-openapi.yml
+- filename: ios-appencryptiondeclarationdocuments-api-openapi.yml
+  format: yaml
+  label: iOS AppEncryptionDeclarationDocuments API
+  slug: ios-appencryptiondeclarationdocuments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appencryptiondeclarationdocuments-api-openapi.yml
+- filename: ios-appencryptiondeclarations-api-openapi.yml
+  format: yaml
+  label: iOS AppEncryptionDeclarations API
+  slug: ios-appencryptiondeclarations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appencryptiondeclarations-api-openapi.yml
+- filename: ios-appeventlocalizations-api-openapi.yml
+  format: yaml
+  label: iOS AppEventLocalizations API
+  slug: ios-appeventlocalizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appeventlocalizations-api-openapi.yml
+- filename: ios-appevents-api-openapi.yml
+  format: yaml
+  label: iOS AppEvents API
+  slug: ios-appevents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appevents-api-openapi.yml
+- filename: ios-appeventscreenshots-api-openapi.yml
+  format: yaml
+  label: iOS AppEventScreenshots API
+  slug: ios-appeventscreenshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appeventscreenshots-api-openapi.yml
+- filename: ios-appeventvideoclips-api-openapi.yml
+  format: yaml
+  label: iOS AppEventVideoClips API
+  slug: ios-appeventvideoclips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appeventvideoclips-api-openapi.yml
+- filename: ios-appinfolocalizations-api-openapi.yml
+  format: yaml
+  label: iOS AppInfoLocalizations API
+  slug: ios-appinfolocalizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appinfolocalizations-api-openapi.yml
+- filename: ios-appinfos-api-openapi.yml
+  format: yaml
+  label: iOS AppInfos API
+  slug: ios-appinfos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appinfos-api-openapi.yml
+- filename: ios-apppreviews-api-openapi.yml
+  format: yaml
+  label: iOS AppPreviews API
+  slug: ios-apppreviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-apppreviews-api-openapi.yml
+- filename: ios-apppreviewsets-api-openapi.yml
+  format: yaml
+  label: iOS AppPreviewSets API
+  slug: ios-apppreviewsets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-apppreviewsets-api-openapi.yml
+- filename: ios-apppricepoints-api-openapi.yml
+  format: yaml
+  label: iOS AppPricePoints API
+  slug: ios-apppricepoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-apppricepoints-api-openapi.yml
+- filename: ios-apppriceschedules-api-openapi.yml
+  format: yaml
+  label: iOS AppPriceSchedules API
+  slug: ios-apppriceschedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-apppriceschedules-api-openapi.yml
+- filename: ios-apps-api-openapi.yml
+  format: yaml
+  label: iOS Apps API
+  slug: ios-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-apps-api-openapi.yml
+- filename: ios-appscreenshots-api-openapi.yml
+  format: yaml
+  label: iOS AppScreenshots API
+  slug: ios-appscreenshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appscreenshots-api-openapi.yml
+- filename: ios-appscreenshotsets-api-openapi.yml
+  format: yaml
+  label: iOS AppScreenshotSets API
+  slug: ios-appscreenshotsets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appscreenshotsets-api-openapi.yml
+- filename: ios-appstorereviewattachments-api-openapi.yml
+  format: yaml
+  label: iOS AppStoreReviewAttachments API
+  slug: ios-appstorereviewattachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appstorereviewattachments-api-openapi.yml
+- filename: ios-appstorereviewdetails-api-openapi.yml
+  format: yaml
+  label: iOS AppStoreReviewDetails API
+  slug: ios-appstorereviewdetails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appstorereviewdetails-api-openapi.yml
+- filename: ios-appstoreversionexperiments-api-openapi.yml
+  format: yaml
+  label: iOS AppStoreVersionExperiments API
+  slug: ios-appstoreversionexperiments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appstoreversionexperiments-api-openapi.yml
+- filename: ios-appstoreversionexperimenttreatmentlocalizations-api-openapi.yml
+  format: yaml
+  label: iOS AppStoreVersionExperimentTreatmentLocalizations API
+  slug: ios-appstoreversionexperimenttreatmentlocalizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appstoreversionexperimenttreatmentlocalizations-api-openapi.yml
+- filename: ios-appstoreversionexperimenttreatments-api-openapi.yml
+  format: yaml
+  label: iOS AppStoreVersionExperimentTreatments API
+  slug: ios-appstoreversionexperimenttreatments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appstoreversionexperimenttreatments-api-openapi.yml
+- filename: ios-appstoreversionlocalizations-api-openapi.yml
+  format: yaml
+  label: iOS AppStoreVersionLocalizations API
+  slug: ios-appstoreversionlocalizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appstoreversionlocalizations-api-openapi.yml
+- filename: ios-appstoreversionphasedreleases-api-openapi.yml
+  format: yaml
+  label: iOS AppStoreVersionPhasedReleases API
+  slug: ios-appstoreversionphasedreleases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appstoreversionphasedreleases-api-openapi.yml
+- filename: ios-appstoreversionpromotions-api-openapi.yml
+  format: yaml
+  label: iOS AppStoreVersionPromotions API
+  slug: ios-appstoreversionpromotions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appstoreversionpromotions-api-openapi.yml
+- filename: ios-appstoreversionreleaserequests-api-openapi.yml
+  format: yaml
+  label: iOS AppStoreVersionReleaseRequests API
+  slug: ios-appstoreversionreleaserequests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appstoreversionreleaserequests-api-openapi.yml
+- filename: ios-appstoreversions-api-openapi.yml
+  format: yaml
+  label: iOS AppStoreVersions API
+  slug: ios-appstoreversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appstoreversions-api-openapi.yml
+- filename: ios-appstoreversionsubmissions-api-openapi.yml
+  format: yaml
+  label: iOS AppStoreVersionSubmissions API
+  slug: ios-appstoreversionsubmissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appstoreversionsubmissions-api-openapi.yml
+- filename: ios-apptags-api-openapi.yml
+  format: yaml
+  label: iOS AppTags API
+  slug: ios-apptags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-apptags-api-openapi.yml
+- filename: ios-backgroundassets-api-openapi.yml
+  format: yaml
+  label: iOS BackgroundAssets API
+  slug: ios-backgroundassets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-backgroundassets-api-openapi.yml
+- filename: ios-backgroundassetuploadfiles-api-openapi.yml
+  format: yaml
+  label: iOS BackgroundAssetUploadFiles API
+  slug: ios-backgroundassetuploadfiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-backgroundassetuploadfiles-api-openapi.yml
+- filename: ios-backgroundassetversionappstorereleases-api-openapi.yml
+  format: yaml
+  label: iOS BackgroundAssetVersionAppStoreReleases API
+  slug: ios-backgroundassetversionappstorereleases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-backgroundassetversionappstorereleases-api-openapi.yml
+- filename: ios-backgroundassetversionexternalbetareleases-api-openapi.yml
+  format: yaml
+  label: iOS BackgroundAssetVersionExternalBetaReleases API
+  slug: ios-backgroundassetversionexternalbetareleases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-backgroundassetversionexternalbetareleases-api-openapi.yml
+- filename: ios-backgroundassetversioninternalbetareleases-api-openapi.yml
+  format: yaml
+  label: iOS BackgroundAssetVersionInternalBetaReleases API
+  slug: ios-backgroundassetversioninternalbetareleases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-backgroundassetversioninternalbetareleases-api-openapi.yml
+- filename: ios-backgroundassetversions-api-openapi.yml
+  format: yaml
+  label: iOS BackgroundAssetVersions API
+  slug: ios-backgroundassetversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-backgroundassetversions-api-openapi.yml
+- filename: ios-betaappclipinvocationlocalizations-api-openapi.yml
+  format: yaml
+  label: iOS BetaAppClipInvocationLocalizations API
+  slug: ios-betaappclipinvocationlocalizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-betaappclipinvocationlocalizations-api-openapi.yml
+- filename: ios-betaappclipinvocations-api-openapi.yml
+  format: yaml
+  label: iOS BetaAppClipInvocations API
+  slug: ios-betaappclipinvocations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-betaappclipinvocations-api-openapi.yml
+- filename: ios-betaapplocalizations-api-openapi.yml
+  format: yaml
+  label: iOS BetaAppLocalizations API
+  slug: ios-betaapplocalizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-betaapplocalizations-api-openapi.yml
+- filename: ios-betaappreviewdetails-api-openapi.yml
+  format: yaml
+  label: iOS BetaAppReviewDetails API
+  slug: ios-betaappreviewdetails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-betaappreviewdetails-api-openapi.yml
+- filename: ios-betaappreviewsubmissions-api-openapi.yml
+  format: yaml
+  label: iOS BetaAppReviewSubmissions API
+  slug: ios-betaappreviewsubmissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-betaappreviewsubmissions-api-openapi.yml
+- filename: ios-betabuildlocalizations-api-openapi.yml
+  format: yaml
+  label: iOS BetaBuildLocalizations API
+  slug: ios-betabuildlocalizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-betabuildlocalizations-api-openapi.yml
+- filename: ios-betacrashlogs-api-openapi.yml
+  format: yaml
+  label: iOS BetaCrashLogs API
+  slug: ios-betacrashlogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-betacrashlogs-api-openapi.yml
+- filename: ios-betafeedbackcrashsubmissions-api-openapi.yml
+  format: yaml
+  label: iOS BetaFeedbackCrashSubmissions API
+  slug: ios-betafeedbackcrashsubmissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-betafeedbackcrashsubmissions-api-openapi.yml
+- filename: ios-betafeedbackscreenshotsubmissions-api-openapi.yml
+  format: yaml
+  label: iOS BetaFeedbackScreenshotSubmissions API
+  slug: ios-betafeedbackscreenshotsubmissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-betafeedbackscreenshotsubmissions-api-openapi.yml
+- filename: ios-betagroups-api-openapi.yml
+  format: yaml
+  label: iOS BetaGroups API
+  slug: ios-betagroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-betagroups-api-openapi.yml
+- filename: ios-betalicenseagreements-api-openapi.yml
+  format: yaml
+  label: iOS BetaLicenseAgreements API
+  slug: ios-betalicenseagreements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-betalicenseagreements-api-openapi.yml
+- filename: ios-betarecruitmentcriteria-api-openapi.yml
+  format: yaml
+  label: iOS BetaRecruitmentCriteria API
+  slug: ios-betarecruitmentcriteria-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-betarecruitmentcriteria-api-openapi.yml
+- filename: ios-betarecruitmentcriterionoptions-api-openapi.yml
+  format: yaml
+  label: iOS BetaRecruitmentCriterionOptions API
+  slug: ios-betarecruitmentcriterionoptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-betarecruitmentcriterionoptions-api-openapi.yml
+- filename: ios-betatesterinvitations-api-openapi.yml
+  format: yaml
+  label: iOS BetaTesterInvitations API
+  slug: ios-betatesterinvitations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-betatesterinvitations-api-openapi.yml
+- filename: ios-betatesters-api-openapi.yml
+  format: yaml
+  label: iOS BetaTesters API
+  slug: ios-betatesters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-betatesters-api-openapi.yml
+- filename: ios-buildbetadetails-api-openapi.yml
+  format: yaml
+  label: iOS BuildBetaDetails API
+  slug: ios-buildbetadetails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-buildbetadetails-api-openapi.yml
+- filename: ios-buildbetanotifications-api-openapi.yml
+  format: yaml
+  label: iOS BuildBetaNotifications API
+  slug: ios-buildbetanotifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-buildbetanotifications-api-openapi.yml
+- filename: ios-buildbundles-api-openapi.yml
+  format: yaml
+  label: iOS BuildBundles API
+  slug: ios-buildbundles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-buildbundles-api-openapi.yml
+- filename: ios-builds-api-openapi.yml
+  format: yaml
+  label: iOS Builds API
+  slug: ios-builds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-builds-api-openapi.yml
+- filename: ios-builduploadfiles-api-openapi.yml
+  format: yaml
+  label: iOS BuildUploadFiles API
+  slug: ios-builduploadfiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-builduploadfiles-api-openapi.yml
+- filename: ios-builduploads-api-openapi.yml
+  format: yaml
+  label: iOS BuildUploads API
+  slug: ios-builduploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-builduploads-api-openapi.yml
+- filename: ios-bundleidcapabilities-api-openapi.yml
+  format: yaml
+  label: iOS BundleIdCapabilities API
+  slug: ios-bundleidcapabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-bundleidcapabilities-api-openapi.yml
+- filename: ios-bundleids-api-openapi.yml
+  format: yaml
+  label: iOS BundleIds API
+  slug: ios-bundleids-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-bundleids-api-openapi.yml
+- filename: ios-certificates-api-openapi.yml
+  format: yaml
+  label: iOS Certificates API
+  slug: ios-certificates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-certificates-api-openapi.yml
+- filename: ios-ciartifacts-api-openapi.yml
+  format: yaml
+  label: iOS CiArtifacts API
+  slug: ios-ciartifacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-ciartifacts-api-openapi.yml
+- filename: ios-cibuildactions-api-openapi.yml
+  format: yaml
+  label: iOS CiBuildActions API
+  slug: ios-cibuildactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-cibuildactions-api-openapi.yml
+- filename: ios-cibuildruns-api-openapi.yml
+  format: yaml
+  label: iOS CiBuildRuns API
+  slug: ios-cibuildruns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-cibuildruns-api-openapi.yml
+- filename: ios-ciissues-api-openapi.yml
+  format: yaml
+  label: iOS CiIssues API
+  slug: ios-ciissues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-ciissues-api-openapi.yml
+- filename: ios-cimacosversions-api-openapi.yml
+  format: yaml
+  label: iOS CiMacOsVersions API
+  slug: ios-cimacosversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-cimacosversions-api-openapi.yml
+- filename: ios-ciproducts-api-openapi.yml
+  format: yaml
+  label: iOS CiProducts API
+  slug: ios-ciproducts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-ciproducts-api-openapi.yml
+- filename: ios-citestresults-api-openapi.yml
+  format: yaml
+  label: iOS CiTestResults API
+  slug: ios-citestresults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-citestresults-api-openapi.yml
+- filename: ios-ciworkflows-api-openapi.yml
+  format: yaml
+  label: iOS CiWorkflows API
+  slug: ios-ciworkflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-ciworkflows-api-openapi.yml
+- filename: ios-cixcodeversions-api-openapi.yml
+  format: yaml
+  label: iOS CiXcodeVersions API
+  slug: ios-cixcodeversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-cixcodeversions-api-openapi.yml
+- filename: ios-customerreviewresponses-api-openapi.yml
+  format: yaml
+  label: iOS CustomerReviewResponses API
+  slug: ios-customerreviewresponses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-customerreviewresponses-api-openapi.yml
+- filename: ios-customerreviews-api-openapi.yml
+  format: yaml
+  label: iOS CustomerReviews API
+  slug: ios-customerreviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-customerreviews-api-openapi.yml
+- filename: ios-devices-api-openapi.yml
+  format: yaml
+  label: iOS Devices API
+  slug: ios-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-devices-api-openapi.yml
+- filename: ios-diagnosticsignatures-api-openapi.yml
+  format: yaml
+  label: iOS DiagnosticSignatures API
+  slug: ios-diagnosticsignatures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-diagnosticsignatures-api-openapi.yml
+- filename: ios-endappavailabilitypreorders-api-openapi.yml
+  format: yaml
+  label: iOS EndAppAvailabilityPreOrders API
+  slug: ios-endappavailabilitypreorders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-endappavailabilitypreorders-api-openapi.yml
+- filename: ios-enduserlicenseagreements-api-openapi.yml
+  format: yaml
+  label: iOS EndUserLicenseAgreements API
+  slug: ios-enduserlicenseagreements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-enduserlicenseagreements-api-openapi.yml
+- filename: ios-financereports-api-openapi.yml
+  format: yaml
+  label: iOS FinanceReports API
+  slug: ios-financereports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-financereports-api-openapi.yml
+- filename: ios-gamecenterachievementimages-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterAchievementImages API
+  slug: ios-gamecenterachievementimages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterachievementimages-api-openapi.yml
+- filename: ios-gamecenterachievementlocalizations-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterAchievementLocalizations API
+  slug: ios-gamecenterachievementlocalizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterachievementlocalizations-api-openapi.yml
+- filename: ios-gamecenterachievementreleases-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterAchievementReleases API
+  slug: ios-gamecenterachievementreleases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterachievementreleases-api-openapi.yml
+- filename: ios-gamecenterachievements-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterAchievements API
+  slug: ios-gamecenterachievements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterachievements-api-openapi.yml
+- filename: ios-gamecenterachievementversions-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterAchievementVersions API
+  slug: ios-gamecenterachievementversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterachievementversions-api-openapi.yml
+- filename: ios-gamecenteractivities-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterActivities API
+  slug: ios-gamecenteractivities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenteractivities-api-openapi.yml
+- filename: ios-gamecenteractivityimages-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterActivityImages API
+  slug: ios-gamecenteractivityimages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenteractivityimages-api-openapi.yml
+- filename: ios-gamecenteractivitylocalizations-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterActivityLocalizations API
+  slug: ios-gamecenteractivitylocalizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenteractivitylocalizations-api-openapi.yml
+- filename: ios-gamecenteractivityversionreleases-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterActivityVersionReleases API
+  slug: ios-gamecenteractivityversionreleases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenteractivityversionreleases-api-openapi.yml
+- filename: ios-gamecenteractivityversions-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterActivityVersions API
+  slug: ios-gamecenteractivityversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenteractivityversions-api-openapi.yml
+- filename: ios-gamecenterappversions-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterAppVersions API
+  slug: ios-gamecenterappversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterappversions-api-openapi.yml
+- filename: ios-gamecenterchallengeimages-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterChallengeImages API
+  slug: ios-gamecenterchallengeimages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterchallengeimages-api-openapi.yml
+- filename: ios-gamecenterchallengelocalizations-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterChallengeLocalizations API
+  slug: ios-gamecenterchallengelocalizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterchallengelocalizations-api-openapi.yml
+- filename: ios-gamecenterchallenges-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterChallenges API
+  slug: ios-gamecenterchallenges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterchallenges-api-openapi.yml
+- filename: ios-gamecenterchallengeversionreleases-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterChallengeVersionReleases API
+  slug: ios-gamecenterchallengeversionreleases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterchallengeversionreleases-api-openapi.yml
+- filename: ios-gamecenterchallengeversions-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterChallengeVersions API
+  slug: ios-gamecenterchallengeversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterchallengeversions-api-openapi.yml
+- filename: ios-gamecenterdetails-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterDetails API
+  slug: ios-gamecenterdetails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterdetails-api-openapi.yml
+- filename: ios-gamecenterenabledversions-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterEnabledVersions API
+  slug: ios-gamecenterenabledversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterenabledversions-api-openapi.yml
+- filename: ios-gamecentergroups-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterGroups API
+  slug: ios-gamecentergroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecentergroups-api-openapi.yml
+- filename: ios-gamecenterleaderboardentrysubmissions-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterLeaderboardEntrySubmissions API
+  slug: ios-gamecenterleaderboardentrysubmissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterleaderboardentrysubmissions-api-openapi.yml
+- filename: ios-gamecenterleaderboardimages-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterLeaderboardImages API
+  slug: ios-gamecenterleaderboardimages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterleaderboardimages-api-openapi.yml
+- filename: ios-gamecenterleaderboardlocalizations-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterLeaderboardLocalizations API
+  slug: ios-gamecenterleaderboardlocalizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterleaderboardlocalizations-api-openapi.yml
+- filename: ios-gamecenterleaderboardreleases-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterLeaderboardReleases API
+  slug: ios-gamecenterleaderboardreleases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterleaderboardreleases-api-openapi.yml
+- filename: ios-gamecenterleaderboards-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterLeaderboards API
+  slug: ios-gamecenterleaderboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterleaderboards-api-openapi.yml
+- filename: ios-gamecenterleaderboardsetimages-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterLeaderboardSetImages API
+  slug: ios-gamecenterleaderboardsetimages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterleaderboardsetimages-api-openapi.yml
+- filename: ios-gamecenterleaderboardsetlocalizations-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterLeaderboardSetLocalizations API
+  slug: ios-gamecenterleaderboardsetlocalizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterleaderboardsetlocalizations-api-openapi.yml
+- filename: ios-gamecenterleaderboardsetmemberlocalizations-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterLeaderboardSetMemberLocalizations API
+  slug: ios-gamecenterleaderboardsetmemberlocalizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterleaderboardsetmemberlocalizations-api-openapi.yml
+- filename: ios-gamecenterleaderboardsetreleases-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterLeaderboardSetReleases API
+  slug: ios-gamecenterleaderboardsetreleases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterleaderboardsetreleases-api-openapi.yml
+- filename: ios-gamecenterleaderboardsets-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterLeaderboardSets API
+  slug: ios-gamecenterleaderboardsets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterleaderboardsets-api-openapi.yml
+- filename: ios-gamecenterleaderboardsetversions-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterLeaderboardSetVersions API
+  slug: ios-gamecenterleaderboardsetversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterleaderboardsetversions-api-openapi.yml
+- filename: ios-gamecenterleaderboardversions-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterLeaderboardVersions API
+  slug: ios-gamecenterleaderboardversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterleaderboardversions-api-openapi.yml
+- filename: ios-gamecentermatchmakingqueues-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterMatchmakingQueues API
+  slug: ios-gamecentermatchmakingqueues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecentermatchmakingqueues-api-openapi.yml
+- filename: ios-gamecentermatchmakingrules-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterMatchmakingRules API
+  slug: ios-gamecentermatchmakingrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecentermatchmakingrules-api-openapi.yml
+- filename: ios-gamecentermatchmakingrulesets-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterMatchmakingRuleSets API
+  slug: ios-gamecentermatchmakingrulesets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecentermatchmakingrulesets-api-openapi.yml
+- filename: ios-gamecentermatchmakingrulesettests-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterMatchmakingRuleSetTests API
+  slug: ios-gamecentermatchmakingrulesettests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecentermatchmakingrulesettests-api-openapi.yml
+- filename: ios-gamecentermatchmakingteams-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterMatchmakingTeams API
+  slug: ios-gamecentermatchmakingteams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecentermatchmakingteams-api-openapi.yml
+- filename: ios-gamecenterplayerachievementsubmissions-api-openapi.yml
+  format: yaml
+  label: iOS GameCenterPlayerAchievementSubmissions API
+  slug: ios-gamecenterplayerachievementsubmissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-gamecenterplayerachievementsubmissions-api-openapi.yml
+- filename: ios-inapppurchaseappstorereviewscreenshots-api-openapi.yml
+  format: yaml
+  label: iOS InAppPurchaseAppStoreReviewScreenshots API
+  slug: ios-inapppurchaseappstorereviewscreenshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-inapppurchaseappstorereviewscreenshots-api-openapi.yml
+- filename: ios-inapppurchaseavailabilities-api-openapi.yml
+  format: yaml
+  label: iOS InAppPurchaseAvailabilities API
+  slug: ios-inapppurchaseavailabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-inapppurchaseavailabilities-api-openapi.yml
+- filename: ios-inapppurchasecontents-api-openapi.yml
+  format: yaml
+  label: iOS InAppPurchaseContents API
+  slug: ios-inapppurchasecontents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-inapppurchasecontents-api-openapi.yml
+- filename: ios-inapppurchaseimages-api-openapi.yml
+  format: yaml
+  label: iOS InAppPurchaseImages API
+  slug: ios-inapppurchaseimages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-inapppurchaseimages-api-openapi.yml
+- filename: ios-inapppurchaselocalizations-api-openapi.yml
+  format: yaml
+  label: iOS InAppPurchaseLocalizations API
+  slug: ios-inapppurchaselocalizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-inapppurchaselocalizations-api-openapi.yml
+- filename: ios-inapppurchaseoffercodecustomcodes-api-openapi.yml
+  format: yaml
+  label: iOS InAppPurchaseOfferCodeCustomCodes API
+  slug: ios-inapppurchaseoffercodecustomcodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-inapppurchaseoffercodecustomcodes-api-openapi.yml
+- filename: ios-inapppurchaseoffercodeonetimeusecodes-api-openapi.yml
+  format: yaml
+  label: iOS InAppPurchaseOfferCodeOneTimeUseCodes API
+  slug: ios-inapppurchaseoffercodeonetimeusecodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-inapppurchaseoffercodeonetimeusecodes-api-openapi.yml
+- filename: ios-inapppurchaseoffercodes-api-openapi.yml
+  format: yaml
+  label: iOS InAppPurchaseOfferCodes API
+  slug: ios-inapppurchaseoffercodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-inapppurchaseoffercodes-api-openapi.yml
+- filename: ios-inapppurchasepricepoints-api-openapi.yml
+  format: yaml
+  label: iOS InAppPurchasePricePoints API
+  slug: ios-inapppurchasepricepoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-inapppurchasepricepoints-api-openapi.yml
+- filename: ios-inapppurchasepriceschedules-api-openapi.yml
+  format: yaml
+  label: iOS InAppPurchasePriceSchedules API
+  slug: ios-inapppurchasepriceschedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-inapppurchasepriceschedules-api-openapi.yml
+- filename: ios-inapppurchases-api-openapi.yml
+  format: yaml
+  label: iOS InAppPurchases API
+  slug: ios-inapppurchases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-inapppurchases-api-openapi.yml
+- filename: ios-inapppurchasesubmissions-api-openapi.yml
+  format: yaml
+  label: iOS InAppPurchaseSubmissions API
+  slug: ios-inapppurchasesubmissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-inapppurchasesubmissions-api-openapi.yml
+- filename: ios-marketplacesearchdetails-api-openapi.yml
+  format: yaml
+  label: iOS MarketplaceSearchDetails API
+  slug: ios-marketplacesearchdetails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-marketplacesearchdetails-api-openapi.yml
+- filename: ios-marketplacewebhooks-api-openapi.yml
+  format: yaml
+  label: iOS MarketplaceWebhooks API
+  slug: ios-marketplacewebhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-marketplacewebhooks-api-openapi.yml
+- filename: ios-merchantids-api-openapi.yml
+  format: yaml
+  label: iOS MerchantIds API
+  slug: ios-merchantids-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-merchantids-api-openapi.yml
+- filename: ios-metrics-api-openapi.yml
+  format: yaml
+  label: iOS Metrics API
+  slug: ios-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-metrics-api-openapi.yml
+- filename: ios-nominations-api-openapi.yml
+  format: yaml
+  label: iOS Nominations API
+  slug: ios-nominations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-nominations-api-openapi.yml
+- filename: ios-passtypeids-api-openapi.yml
+  format: yaml
+  label: iOS PassTypeIds API
+  slug: ios-passtypeids-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-passtypeids-api-openapi.yml
+- filename: ios-prereleaseversions-api-openapi.yml
+  format: yaml
+  label: iOS PreReleaseVersions API
+  slug: ios-prereleaseversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-prereleaseversions-api-openapi.yml
+- filename: ios-profiles-api-openapi.yml
+  format: yaml
+  label: iOS Profiles API
+  slug: ios-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-profiles-api-openapi.yml
+- filename: ios-promotedpurchases-api-openapi.yml
+  format: yaml
+  label: iOS PromotedPurchases API
+  slug: ios-promotedpurchases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-promotedpurchases-api-openapi.yml
+- filename: ios-reviewsubmissionitems-api-openapi.yml
+  format: yaml
+  label: iOS ReviewSubmissionItems API
+  slug: ios-reviewsubmissionitems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-reviewsubmissionitems-api-openapi.yml
+- filename: ios-reviewsubmissions-api-openapi.yml
+  format: yaml
+  label: iOS ReviewSubmissions API
+  slug: ios-reviewsubmissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-reviewsubmissions-api-openapi.yml
+- filename: ios-routingappcoverages-api-openapi.yml
+  format: yaml
+  label: iOS RoutingAppCoverages API
+  slug: ios-routingappcoverages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-routingappcoverages-api-openapi.yml
+- filename: ios-salesreports-api-openapi.yml
+  format: yaml
+  label: iOS SalesReports API
+  slug: ios-salesreports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-salesreports-api-openapi.yml
+- filename: ios-sandboxtesters-api-openapi.yml
+  format: yaml
+  label: iOS SandboxTesters API
+  slug: ios-sandboxtesters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-sandboxtesters-api-openapi.yml
+- filename: ios-sandboxtestersclearpurchasehistoryrequest-api-openapi.yml
+  format: yaml
+  label: iOS SandboxTestersClearPurchaseHistoryRequest API
+  slug: ios-sandboxtestersclearpurchasehistoryrequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-sandboxtestersclearpurchasehistoryrequest-api-openapi.yml
+- filename: ios-scmgitreferences-api-openapi.yml
+  format: yaml
+  label: iOS ScmGitReferences API
+  slug: ios-scmgitreferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-scmgitreferences-api-openapi.yml
+- filename: ios-scmproviders-api-openapi.yml
+  format: yaml
+  label: iOS ScmProviders API
+  slug: ios-scmproviders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-scmproviders-api-openapi.yml
+- filename: ios-scmpullrequests-api-openapi.yml
+  format: yaml
+  label: iOS ScmPullRequests API
+  slug: ios-scmpullrequests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-scmpullrequests-api-openapi.yml
+- filename: ios-scmrepositories-api-openapi.yml
+  format: yaml
+  label: iOS ScmRepositories API
+  slug: ios-scmrepositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-scmrepositories-api-openapi.yml
+- filename: ios-subscriptionappstorereviewscreenshots-api-openapi.yml
+  format: yaml
+  label: iOS SubscriptionAppStoreReviewScreenshots API
+  slug: ios-subscriptionappstorereviewscreenshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-subscriptionappstorereviewscreenshots-api-openapi.yml
+- filename: ios-subscriptionavailabilities-api-openapi.yml
+  format: yaml
+  label: iOS SubscriptionAvailabilities API
+  slug: ios-subscriptionavailabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-subscriptionavailabilities-api-openapi.yml
+- filename: ios-subscriptiongraceperiods-api-openapi.yml
+  format: yaml
+  label: iOS SubscriptionGracePeriods API
+  slug: ios-subscriptiongraceperiods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-subscriptiongraceperiods-api-openapi.yml
+- filename: ios-subscriptiongrouplocalizations-api-openapi.yml
+  format: yaml
+  label: iOS SubscriptionGroupLocalizations API
+  slug: ios-subscriptiongrouplocalizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-subscriptiongrouplocalizations-api-openapi.yml
+- filename: ios-subscriptiongroups-api-openapi.yml
+  format: yaml
+  label: iOS SubscriptionGroups API
+  slug: ios-subscriptiongroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-subscriptiongroups-api-openapi.yml
+- filename: ios-subscriptiongroupsubmissions-api-openapi.yml
+  format: yaml
+  label: iOS SubscriptionGroupSubmissions API
+  slug: ios-subscriptiongroupsubmissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-subscriptiongroupsubmissions-api-openapi.yml
+- filename: ios-subscriptionimages-api-openapi.yml
+  format: yaml
+  label: iOS SubscriptionImages API
+  slug: ios-subscriptionimages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-subscriptionimages-api-openapi.yml
+- filename: ios-subscriptionintroductoryoffers-api-openapi.yml
+  format: yaml
+  label: iOS SubscriptionIntroductoryOffers API
+  slug: ios-subscriptionintroductoryoffers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-subscriptionintroductoryoffers-api-openapi.yml
+- filename: ios-subscriptionlocalizations-api-openapi.yml
+  format: yaml
+  label: iOS SubscriptionLocalizations API
+  slug: ios-subscriptionlocalizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-subscriptionlocalizations-api-openapi.yml
+- filename: ios-subscriptionoffercodecustomcodes-api-openapi.yml
+  format: yaml
+  label: iOS SubscriptionOfferCodeCustomCodes API
+  slug: ios-subscriptionoffercodecustomcodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-subscriptionoffercodecustomcodes-api-openapi.yml
+- filename: ios-subscriptionoffercodeonetimeusecodes-api-openapi.yml
+  format: yaml
+  label: iOS SubscriptionOfferCodeOneTimeUseCodes API
+  slug: ios-subscriptionoffercodeonetimeusecodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-subscriptionoffercodeonetimeusecodes-api-openapi.yml
+- filename: ios-subscriptionoffercodes-api-openapi.yml
+  format: yaml
+  label: iOS SubscriptionOfferCodes API
+  slug: ios-subscriptionoffercodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-subscriptionoffercodes-api-openapi.yml
+- filename: ios-subscriptionpricepoints-api-openapi.yml
+  format: yaml
+  label: iOS SubscriptionPricePoints API
+  slug: ios-subscriptionpricepoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-subscriptionpricepoints-api-openapi.yml
+- filename: ios-subscriptionprices-api-openapi.yml
+  format: yaml
+  label: iOS SubscriptionPrices API
+  slug: ios-subscriptionprices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-subscriptionprices-api-openapi.yml
+- filename: ios-subscriptionpromotionaloffers-api-openapi.yml
+  format: yaml
+  label: iOS SubscriptionPromotionalOffers API
+  slug: ios-subscriptionpromotionaloffers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-subscriptionpromotionaloffers-api-openapi.yml
+- filename: ios-subscriptions-api-openapi.yml
+  format: yaml
+  label: iOS Subscriptions API
+  slug: ios-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-subscriptions-api-openapi.yml
+- filename: ios-subscriptionsubmissions-api-openapi.yml
+  format: yaml
+  label: iOS SubscriptionSubmissions API
+  slug: ios-subscriptionsubmissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-subscriptionsubmissions-api-openapi.yml
+- filename: ios-territories-api-openapi.yml
+  format: yaml
+  label: iOS Territories API
+  slug: ios-territories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-territories-api-openapi.yml
+- filename: ios-territoryavailabilities-api-openapi.yml
+  format: yaml
+  label: iOS TerritoryAvailabilities API
+  slug: ios-territoryavailabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-territoryavailabilities-api-openapi.yml
+- filename: ios-userinvitations-api-openapi.yml
+  format: yaml
+  label: iOS UserInvitations API
+  slug: ios-userinvitations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-userinvitations-api-openapi.yml
+- filename: ios-users-api-openapi.yml
+  format: yaml
+  label: iOS Users API
+  slug: ios-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-users-api-openapi.yml
+- filename: ios-webhookdeliveries-api-openapi.yml
+  format: yaml
+  label: iOS WebhookDeliveries API
+  slug: ios-webhookdeliveries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-webhookdeliveries-api-openapi.yml
+- filename: ios-webhookpings-api-openapi.yml
+  format: yaml
+  label: iOS WebhookPings API
+  slug: ios-webhookpings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-webhookpings-api-openapi.yml
+- filename: ios-webhooks-api-openapi.yml
+  format: yaml
+  label: iOS Webhooks API
+  slug: ios-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-webhooks-api-openapi.yml
+- filename: ios-winbackoffers-api-openapi.yml
+  format: yaml
+  label: iOS WinBackOffers API
+  slug: ios-winbackoffers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-winbackoffers-api-openapi.yml
 auth_types:
 - http
 description: ''

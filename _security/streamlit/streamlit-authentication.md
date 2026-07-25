@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: streamlit-cloud-openapi.yml
+- filename: streamlit-apps-api-openapi.yml
   format: yaml
-  label: Streamlit Community Cloud API
-  slug: streamlit-cloud-api
+  label: Streamlit Apps API
+  slug: streamlit-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/openapi/streamlit-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/openapi/streamlit-apps-api-openapi.yml
+- filename: streamlit-secrets-api-openapi.yml
+  format: yaml
+  label: Streamlit Secrets API
+  slug: streamlit-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/openapi/streamlit-secrets-api-openapi.yml
+- filename: streamlit-workspaces-api-openapi.yml
+  format: yaml
+  label: Streamlit Workspaces API
+  slug: streamlit-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/openapi/streamlit-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''

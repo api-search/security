@@ -1,41 +1,35 @@
 ---
 api_specs:
-- filename: inflection-openapi.json
-  format: json
-  label: Inflection Chat API
+- filename: inflection-chat-api-openapi.yml
+  format: yaml
+  label: Inflection AI Chat API
   slug: inflection-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-openapi.json
-- filename: inflection-openapi.json
-  format: json
-  label: Inflection Models API
-  slug: inflection-models-api
+  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-chat-api-openapi.yml
+- filename: inflection-discovery-api-openapi.yml
+  format: yaml
+  label: Inflection AI Discovery API
+  slug: inflection-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-openapi.json
-- filename: inflection-openapi.json
-  format: json
-  label: Inflection Playground
-  slug: inflection-playground
+  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-discovery-api-openapi.yml
+- filename: inflection-embeddings-api-openapi.yml
+  format: yaml
+  label: Inflection AI Embeddings API
+  slug: inflection-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-openapi.json
-- filename: inflection-openapi.json
-  format: json
-  label: Inflection Usage API
-  slug: inflection-usage-api
+  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-embeddings-api-openapi.yml
+- filename: inflection-external-api-openapi.yml
+  format: yaml
+  label: Inflection AI External API
+  slug: inflection-external-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-openapi.json
-- filename: inflection-openapi.json
-  format: json
-  label: Pi Personal AI
-  slug: inflection-pi-app
+  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-external-api-openapi.yml
+- filename: inflection-status-api-openapi.yml
+  format: yaml
+  label: Inflection AI Status API
+  slug: inflection-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-openapi.json
-- filename: inflection-openapi.json
-  format: json
-  label: Inflection for Enterprise
-  slug: inflection-enterprise
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

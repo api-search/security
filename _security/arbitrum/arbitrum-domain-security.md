@@ -18,6 +18,12 @@ api_specs:
   slug: sepolia-rpc
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/arbitrum/refs/heads/main/asyncapi/arbitrum-asyncapi.yml
+- filename: arbitrum-json-rpc-api-openapi.yml
+  format: yaml
+  label: Arbitrum JSON-RPC API
+  slug: arbitrum-json-rpc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arbitrum/refs/heads/main/openapi/arbitrum-json-rpc-api-openapi.yml
 description: ''
 domains:
 - caa: []

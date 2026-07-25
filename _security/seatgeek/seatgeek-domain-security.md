@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: seatgeek-platform-openapi.yml
+- filename: seatgeek-events-api-openapi.yml
   format: yaml
-  label: SeatGeek Platform API
-  slug: seatgeek-platform-api
+  label: SeatGeek Events API
+  slug: seatgeek-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/openapi/seatgeek-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/openapi/seatgeek-events-api-openapi.yml
+- filename: seatgeek-performers-api-openapi.yml
+  format: yaml
+  label: SeatGeek Performers API
+  slug: seatgeek-performers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/openapi/seatgeek-performers-api-openapi.yml
+- filename: seatgeek-recommendations-api-openapi.yml
+  format: yaml
+  label: SeatGeek Recommendations API
+  slug: seatgeek-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/openapi/seatgeek-recommendations-api-openapi.yml
+- filename: seatgeek-taxonomies-api-openapi.yml
+  format: yaml
+  label: SeatGeek Taxonomies API
+  slug: seatgeek-taxonomies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/openapi/seatgeek-taxonomies-api-openapi.yml
+- filename: seatgeek-venues-api-openapi.yml
+  format: yaml
+  label: SeatGeek Venues API
+  slug: seatgeek-venues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/openapi/seatgeek-venues-api-openapi.yml
 description: ''
 domains:
 - caa: []

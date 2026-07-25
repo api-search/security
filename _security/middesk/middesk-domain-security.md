@@ -1,11 +1,173 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Middesk Business Verification API
-  slug: middesk-business-verification-api
+- filename: middesk-subpackage-actions-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_actions API
+  slug: middesk-subpackage-actions-api
   spec_type: OpenAPI
-  url: https://docs.middesk.com/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-actions-api-openapi.yml
+- filename: middesk-subpackage-agents-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_agents API
+  slug: middesk-subpackage-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-agents-api-openapi.yml
+- filename: middesk-subpackage-applications-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_applications API
+  slug: middesk-subpackage-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-applications-api-openapi.yml
+- filename: middesk-subpackage-businessbatches-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_businessBatches API
+  slug: middesk-subpackage-businessbatches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-businessbatches-api-openapi.yml
+- filename: middesk-subpackage-businesses-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_businesses API
+  slug: middesk-subpackage-businesses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-businesses-api-openapi.yml
+- filename: middesk-subpackage-companies-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_companies API
+  slug: middesk-subpackage-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-companies-api-openapi.yml
+- filename: middesk-subpackage-connections-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_connections API
+  slug: middesk-subpackage-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-connections-api-openapi.yml
+- filename: middesk-subpackage-documents-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_documents API
+  slug: middesk-subpackage-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-documents-api-openapi.yml
+- filename: middesk-subpackage-identities-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_identities API
+  slug: middesk-subpackage-identities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-identities-api-openapi.yml
+- filename: middesk-subpackage-informationrequests-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_informationRequests API
+  slug: middesk-subpackage-informationrequests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-informationrequests-api-openapi.yml
+- filename: middesk-subpackage-jurisdictions-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_jurisdictions API
+  slug: middesk-subpackage-jurisdictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-jurisdictions-api-openapi.yml
+- filename: middesk-subpackage-liens-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_liens API
+  slug: middesk-subpackage-liens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-liens-api-openapi.yml
+- filename: middesk-subpackage-lienterminations-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_lienTerminations API
+  slug: middesk-subpackage-lienterminations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-lienterminations-api-openapi.yml
+- filename: middesk-subpackage-mail-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_mail API
+  slug: middesk-subpackage-mail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-mail-api-openapi.yml
+- filename: middesk-subpackage-monitoring-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_monitoring API
+  slug: middesk-subpackage-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-monitoring-api-openapi.yml
+- filename: middesk-subpackage-orders-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_orders API
+  slug: middesk-subpackage-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-orders-api-openapi.yml
+- filename: middesk-subpackage-policyresults-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_policyResults API
+  slug: middesk-subpackage-policyresults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-policyresults-api-openapi.yml
+- filename: middesk-subpackage-prefill-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_prefill API
+  slug: middesk-subpackage-prefill-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-prefill-api-openapi.yml
+- filename: middesk-subpackage-questions-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_questions API
+  slug: middesk-subpackage-questions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-questions-api-openapi.yml
+- filename: middesk-subpackage-registrationrequests-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_registrationRequests API
+  slug: middesk-subpackage-registrationrequests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-registrationrequests-api-openapi.yml
+- filename: middesk-subpackage-reviews-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_reviews API
+  slug: middesk-subpackage-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-reviews-api-openapi.yml
+- filename: middesk-subpackage-runs-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_runs API
+  slug: middesk-subpackage-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-runs-api-openapi.yml
+- filename: middesk-subpackage-signals-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_signals API
+  slug: middesk-subpackage-signals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-signals-api-openapi.yml
+- filename: middesk-subpackage-threads-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_threads API
+  slug: middesk-subpackage-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-threads-api-openapi.yml
+- filename: middesk-subpackage-timeline-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_timeline API
+  slug: middesk-subpackage-timeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-timeline-api-openapi.yml
+- filename: middesk-subpackage-tinmatch-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_tinMatch API
+  slug: middesk-subpackage-tinmatch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-tinmatch-api-openapi.yml
+- filename: middesk-subpackage-webhooks-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_webhooks API
+  slug: middesk-subpackage-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-webhooks-api-openapi.yml
+- filename: middesk-subpackage-websites-api-openapi.yml
+  format: yaml
+  label: Middesk subpackage_websites API
+  slug: middesk-subpackage-websites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/openapi/middesk-subpackage-websites-api-openapi.yml
 description: ''
 domains:
 - caa: []

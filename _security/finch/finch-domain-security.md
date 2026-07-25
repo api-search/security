@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: finch-openapi.yml
+- filename: finch-auth-api-openapi.yml
   format: yaml
-  label: Finch API
-  slug: finch-api
+  label: Finch Auth API
+  slug: finch-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-auth-api-openapi.yml
+- filename: finch-connect-api-openapi.yml
+  format: yaml
+  label: Finch Connect API
+  slug: finch-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-connect-api-openapi.yml
+- filename: finch-employer-api-openapi.yml
+  format: yaml
+  label: Finch Employer API
+  slug: finch-employer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-employer-api-openapi.yml
 description: ''
 domains:
 - caa:

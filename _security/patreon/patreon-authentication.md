@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: patreon-openapi.yml
+- filename: patreon-oauth2-api-openapi.yml
   format: yaml
-  label: Patreon API v2
-  slug: patreon-api-v2
+  label: Patreon Oauth2 API
+  slug: patreon-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/patreon/refs/heads/main/openapi/patreon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/patreon/refs/heads/main/openapi/patreon-oauth2-api-openapi.yml
 auth_types:
 - http
 description: ''

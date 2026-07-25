@@ -1,53 +1,53 @@
 ---
 api_specs:
-- filename: up42-openapi.yml
+- filename: up42-catalog-api-openapi.yml
   format: yaml
   label: UP42 Catalog API
   slug: up42-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-openapi.yml
-- filename: up42-openapi.yml
-  format: yaml
-  label: UP42 Tasking API
-  slug: up42-tasking-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-openapi.yml
-- filename: up42-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-catalog-api-openapi.yml
+- filename: up42-orders-api-openapi.yml
   format: yaml
   label: UP42 Orders API
   slug: up42-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-openapi.yml
-- filename: up42-openapi.yml
-  format: yaml
-  label: UP42 Storage Assets API
-  slug: up42-storage-assets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-openapi.yml
-- filename: up42-openapi.yml
-  format: yaml
-  label: UP42 STAC Data Management API
-  slug: up42-stac-data-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-openapi.yml
-- filename: up42-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-orders-api-openapi.yml
+- filename: up42-processing-api-openapi.yml
   format: yaml
   label: UP42 Processing API
   slug: up42-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-openapi.yml
-- filename: up42-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-processing-api-openapi.yml
+- filename: up42-stac-data-management-api-openapi.yml
+  format: yaml
+  label: UP42 STAC Data Management API
+  slug: up42-stac-data-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-stac-data-management-api-openapi.yml
+- filename: up42-storage-assets-api-openapi.yml
+  format: yaml
+  label: UP42 Storage Assets API
+  slug: up42-storage-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-storage-assets-api-openapi.yml
+- filename: up42-tasking-api-openapi.yml
+  format: yaml
+  label: UP42 Tasking API
+  slug: up42-tasking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-tasking-api-openapi.yml
+- filename: up42-webhooks-api-openapi.yml
   format: yaml
   label: UP42 Webhooks API
   slug: up42-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-openapi.yml
-- filename: up42-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-webhooks-api-openapi.yml
+- filename: up42-workspaces-account-api-openapi.yml
   format: yaml
-  label: UP42 Workspaces and Account API
+  label: UP42 Workspaces & Account API
   slug: up42-workspaces-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-workspaces-account-api-openapi.yml
 description: ''
 domains:
 - caa:

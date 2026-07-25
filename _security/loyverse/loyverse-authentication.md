@@ -1,48 +1,96 @@
 ---
 api_key_in: []
 api_specs:
-- filename: loyverse-openapi.yml
-  format: yaml
-  label: Loyverse Items API
-  slug: loyverse-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-openapi.yml
-- filename: loyverse-openapi.yml
+- filename: loyverse-categories-api-openapi.yml
   format: yaml
   label: Loyverse Categories API
   slug: loyverse-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-openapi.yml
-- filename: loyverse-openapi.yml
-  format: yaml
-  label: Loyverse Receipts API
-  slug: loyverse-receipts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-openapi.yml
-- filename: loyverse-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-categories-api-openapi.yml
+- filename: loyverse-customers-api-openapi.yml
   format: yaml
   label: Loyverse Customers API
   slug: loyverse-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-openapi.yml
-- filename: loyverse-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-customers-api-openapi.yml
+- filename: loyverse-discounts-api-openapi.yml
   format: yaml
-  label: Loyverse Inventory API
-  slug: loyverse-inventory-api
+  label: Loyverse Discounts API
+  slug: loyverse-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-openapi.yml
-- filename: loyverse-openapi.yml
-  format: yaml
-  label: Loyverse Stores API
-  slug: loyverse-stores-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-openapi.yml
-- filename: loyverse-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-discounts-api-openapi.yml
+- filename: loyverse-employees-api-openapi.yml
   format: yaml
   label: Loyverse Employees API
   slug: loyverse-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-employees-api-openapi.yml
+- filename: loyverse-inventory-api-openapi.yml
+  format: yaml
+  label: Loyverse Inventory API
+  slug: loyverse-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-inventory-api-openapi.yml
+- filename: loyverse-items-api-openapi.yml
+  format: yaml
+  label: Loyverse Items API
+  slug: loyverse-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-items-api-openapi.yml
+- filename: loyverse-merchants-api-openapi.yml
+  format: yaml
+  label: Loyverse Merchants API
+  slug: loyverse-merchants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-merchants-api-openapi.yml
+- filename: loyverse-modifiers-api-openapi.yml
+  format: yaml
+  label: Loyverse Modifiers API
+  slug: loyverse-modifiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-modifiers-api-openapi.yml
+- filename: loyverse-payment-types-api-openapi.yml
+  format: yaml
+  label: Loyverse Payment Types API
+  slug: loyverse-payment-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-payment-types-api-openapi.yml
+- filename: loyverse-pos-devices-api-openapi.yml
+  format: yaml
+  label: Loyverse POS Devices API
+  slug: loyverse-pos-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-pos-devices-api-openapi.yml
+- filename: loyverse-receipts-api-openapi.yml
+  format: yaml
+  label: Loyverse Receipts API
+  slug: loyverse-receipts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-receipts-api-openapi.yml
+- filename: loyverse-shifts-api-openapi.yml
+  format: yaml
+  label: Loyverse Shifts API
+  slug: loyverse-shifts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-shifts-api-openapi.yml
+- filename: loyverse-stores-api-openapi.yml
+  format: yaml
+  label: Loyverse Stores API
+  slug: loyverse-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-stores-api-openapi.yml
+- filename: loyverse-suppliers-api-openapi.yml
+  format: yaml
+  label: Loyverse Suppliers API
+  slug: loyverse-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-suppliers-api-openapi.yml
+- filename: loyverse-taxes-api-openapi.yml
+  format: yaml
+  label: Loyverse Taxes API
+  slug: loyverse-taxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-taxes-api-openapi.yml
 auth_types:
 - http
 - oauth2

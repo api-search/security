@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: open-container-initiative-openapi.yml
+- filename: open-container-initiative-blobs-api-openapi.yml
   format: yaml
-  label: Open Container Initiative
-  slug: open-container-initiative
+  label: Open Container Initiative Blobs API
+  slug: open-container-initiative-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/openapi/open-container-initiative-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/openapi/open-container-initiative-blobs-api-openapi.yml
+- filename: open-container-initiative-manifests-api-openapi.yml
+  format: yaml
+  label: Open Container Initiative Manifests API
+  slug: open-container-initiative-manifests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/openapi/open-container-initiative-manifests-api-openapi.yml
+- filename: open-container-initiative-oci-distribution-specification-api-openapi.yml
+  format: yaml
+  label: Open Container Initiative OCI Distribution Specification API
+  slug: open-container-initiative-oci-distribution-specification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/openapi/open-container-initiative-oci-distribution-specification-api-openapi.yml
+- filename: open-container-initiative-referrers-api-openapi.yml
+  format: yaml
+  label: Open Container Initiative Referrers API
+  slug: open-container-initiative-referrers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/openapi/open-container-initiative-referrers-api-openapi.yml
+- filename: open-container-initiative-tags-api-openapi.yml
+  format: yaml
+  label: Open Container Initiative Tags API
+  slug: open-container-initiative-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/openapi/open-container-initiative-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

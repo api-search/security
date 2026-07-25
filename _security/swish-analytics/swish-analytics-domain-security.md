@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: swish-analytics-sportsbook-openapi.yml
+- filename: swish-analytics-atp-tennis-api-openapi.yml
   format: yaml
-  label: Swish Analytics Sportsbook API
-  slug: swish-analytics-sportsbook-api
+  label: Swish Analytics ATP Tennis API
+  slug: swish-analytics-atp-tennis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/openapi/swish-analytics-sportsbook-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/openapi/swish-analytics-atp-tennis-api-openapi.yml
+- filename: swish-analytics-bet-request-api-openapi.yml
+  format: yaml
+  label: Swish Analytics Bet Request API
+  slug: swish-analytics-bet-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/openapi/swish-analytics-bet-request-api-openapi.yml
+- filename: swish-analytics-mlb-api-openapi.yml
+  format: yaml
+  label: Swish Analytics MLB API
+  slug: swish-analytics-mlb-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/openapi/swish-analytics-mlb-api-openapi.yml
+- filename: swish-analytics-nba-api-openapi.yml
+  format: yaml
+  label: Swish Analytics NBA API
+  slug: swish-analytics-nba-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/openapi/swish-analytics-nba-api-openapi.yml
+- filename: swish-analytics-ncaa-basketball-api-openapi.yml
+  format: yaml
+  label: Swish Analytics NCAA Basketball API
+  slug: swish-analytics-ncaa-basketball-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/openapi/swish-analytics-ncaa-basketball-api-openapi.yml
+- filename: swish-analytics-ncaa-football-api-openapi.yml
+  format: yaml
+  label: Swish Analytics NCAA Football API
+  slug: swish-analytics-ncaa-football-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/openapi/swish-analytics-ncaa-football-api-openapi.yml
+- filename: swish-analytics-nfl-api-openapi.yml
+  format: yaml
+  label: Swish Analytics NFL API
+  slug: swish-analytics-nfl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/openapi/swish-analytics-nfl-api-openapi.yml
+- filename: swish-analytics-nhl-api-openapi.yml
+  format: yaml
+  label: Swish Analytics NHL API
+  slug: swish-analytics-nhl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/openapi/swish-analytics-nhl-api-openapi.yml
+- filename: swish-analytics-soccer-api-openapi.yml
+  format: yaml
+  label: Swish Analytics Soccer API
+  slug: swish-analytics-soccer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/openapi/swish-analytics-soccer-api-openapi.yml
+- filename: swish-analytics-wta-tennis-api-openapi.yml
+  format: yaml
+  label: Swish Analytics WTA Tennis API
+  slug: swish-analytics-wta-tennis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/openapi/swish-analytics-wta-tennis-api-openapi.yml
 description: ''
 domains:
 - caa: []

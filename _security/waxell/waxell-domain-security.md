@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: waxell-observe-openapi.yml
+- filename: waxell-cost-management-api-openapi.yml
   format: yaml
-  label: Waxell Observe API
-  slug: observe
+  label: Waxell Cost Management API
+  slug: waxell-cost-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/openapi/waxell-observe-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/openapi/waxell-cost-management-api-openapi.yml
+- filename: waxell-governance-api-openapi.yml
+  format: yaml
+  label: Waxell Governance API
+  slug: waxell-governance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/openapi/waxell-governance-api-openapi.yml
+- filename: waxell-prompts-api-openapi.yml
+  format: yaml
+  label: Waxell Prompts API
+  slug: waxell-prompts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/openapi/waxell-prompts-api-openapi.yml
+- filename: waxell-runs-api-openapi.yml
+  format: yaml
+  label: Waxell Runs API
+  slug: waxell-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/openapi/waxell-runs-api-openapi.yml
+- filename: waxell-telemetry-api-openapi.yml
+  format: yaml
+  label: Waxell Telemetry API
+  slug: waxell-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/openapi/waxell-telemetry-api-openapi.yml
 description: ''
 domains:
 - caa: []

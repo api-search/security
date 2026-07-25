@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: safeline-management-openapi.yml
+- filename: safeline-acl-rules-api-openapi.yml
   format: yaml
-  label: SafeLine Management API
-  slug: safeline
+  label: SafeLine ACL Rules API
+  slug: safeline-acl-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-acl-rules-api-openapi.yml
+- filename: safeline-authentication-api-openapi.yml
+  format: yaml
+  label: SafeLine Authentication API
+  slug: safeline-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-authentication-api-openapi.yml
+- filename: safeline-reports-api-openapi.yml
+  format: yaml
+  label: SafeLine Reports API
+  slug: safeline-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-reports-api-openapi.yml
+- filename: safeline-security-policies-api-openapi.yml
+  format: yaml
+  label: SafeLine Security Policies API
+  slug: safeline-security-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-security-policies-api-openapi.yml
+- filename: safeline-ssl-certificates-api-openapi.yml
+  format: yaml
+  label: SafeLine SSL Certificates API
+  slug: safeline-ssl-certificates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-ssl-certificates-api-openapi.yml
+- filename: safeline-system-api-openapi.yml
+  format: yaml
+  label: SafeLine System API
+  slug: safeline-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-system-api-openapi.yml
+- filename: safeline-users-api-openapi.yml
+  format: yaml
+  label: SafeLine Users API
+  slug: safeline-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-users-api-openapi.yml
+- filename: safeline-websites-api-openapi.yml
+  format: yaml
+  label: SafeLine Websites API
+  slug: safeline-websites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-websites-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

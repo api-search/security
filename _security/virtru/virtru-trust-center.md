@@ -1,95 +1,89 @@
 ---
 api_specs:
-- filename: virtru-authorization-openapi.yaml
+- filename: virtru-authorization-authorizationservice-api-openapi.yml
   format: yaml
-  label: Virtru Authorization (v1)
-  slug: virtru-authorization-v1
+  label: Virtru authorization.AuthorizationService API
+  slug: virtru-authorization-authorizationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-authorization-openapi.yaml
-- filename: virtru-authorization-v2-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-authorization-authorizationservice-api-openapi.yml
+- filename: virtru-authorization-v2-authorizationservice-api-openapi.yml
   format: yaml
-  label: Virtru Authorization (v2)
-  slug: virtru-authorization-v2
+  label: Virtru authorization.v2.AuthorizationService API
+  slug: virtru-authorization-v2-authorizationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-authorization-v2-openapi.yaml
-- filename: virtru-entity-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-authorization-v2-authorizationservice-api-openapi.yml
+- filename: virtru-entityresolution-v2-entityresolutionservice-api-openapi.yml
   format: yaml
-  label: Virtru Entity
-  slug: virtru-entity
+  label: Virtru entityresolution.v2.EntityResolutionService API
+  slug: virtru-entityresolution-v2-entityresolutionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-entity-openapi.yaml
-- filename: virtru-entity-resolution-v2-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-entityresolution-v2-entityresolutionservice-api-openapi.yml
+- filename: virtru-kas-accessservice-api-openapi.yml
   format: yaml
-  label: Virtru Entity Resolution (v2)
-  slug: virtru-entity-resolution-v2
+  label: Virtru kas.AccessService API
+  slug: virtru-kas-accessservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-entity-resolution-v2-openapi.yaml
-- filename: virtru-kas-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-kas-accessservice-api-openapi.yml
+- filename: virtru-policy-actions-actionservice-api-openapi.yml
   format: yaml
-  label: Virtru Key Access Service (KAS)
-  slug: virtru-key-access-service-kas
+  label: Virtru policy.actions.ActionService API
+  slug: virtru-policy-actions-actionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-kas-openapi.yaml
-- filename: virtru-policy-actions-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-actions-actionservice-api-openapi.yml
+- filename: virtru-policy-attributes-attributesservice-api-openapi.yml
   format: yaml
-  label: Virtru Policy — Actions
-  slug: virtru-policy-actions
+  label: Virtru policy.attributes.AttributesService API
+  slug: virtru-policy-attributes-attributesservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-actions-openapi.yaml
-- filename: virtru-policy-attributes-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-attributes-attributesservice-api-openapi.yml
+- filename: virtru-policy-kasregistry-keyaccessserverregistryservice-api-openapi.yml
   format: yaml
-  label: Virtru Policy — Attributes
-  slug: virtru-policy-attributes
+  label: Virtru policy.kasregistry.KeyAccessServerRegistryService API
+  slug: virtru-policy-kasregistry-keyaccessserverregistryservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-attributes-openapi.yaml
-- filename: virtru-policy-kas-registry-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-kasregistry-keyaccessserverregistryservice-api-openapi.yml
+- filename: virtru-policy-keymanagement-keymanagementservice-api-openapi.yml
   format: yaml
-  label: Virtru Policy — KAS Registry
-  slug: virtru-policy-kas-registry
+  label: Virtru policy.keymanagement.KeyManagementService API
+  slug: virtru-policy-keymanagement-keymanagementservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-kas-registry-openapi.yaml
-- filename: virtru-policy-key-management-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-keymanagement-keymanagementservice-api-openapi.yml
+- filename: virtru-policy-namespaces-namespaceservice-api-openapi.yml
   format: yaml
-  label: Virtru Policy — Key Management
-  slug: virtru-policy-key-management
+  label: Virtru policy.namespaces.NamespaceService API
+  slug: virtru-policy-namespaces-namespaceservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-key-management-openapi.yaml
-- filename: virtru-policy-namespaces-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-namespaces-namespaceservice-api-openapi.yml
+- filename: virtru-policy-obligations-service-api-openapi.yml
   format: yaml
-  label: Virtru Policy — Namespaces
-  slug: virtru-policy-namespaces
+  label: Virtru policy.obligations.Service API
+  slug: virtru-policy-obligations-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-namespaces-openapi.yaml
-- filename: virtru-policy-obligations-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-obligations-service-api-openapi.yml
+- filename: virtru-policy-registeredresources-registeredresourcesservice-api-openapi.yml
   format: yaml
-  label: Virtru Policy — Obligations
-  slug: virtru-policy-obligations
+  label: Virtru policy.registeredresources.RegisteredResourcesService API
+  slug: virtru-policy-registeredresources-registeredresourcesservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-obligations-openapi.yaml
-- filename: virtru-policy-registered-resources-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-registeredresources-registeredresourcesservice-api-openapi.yml
+- filename: virtru-policy-resourcemapping-resourcemappingservice-api-openapi.yml
   format: yaml
-  label: Virtru Policy — Registered Resources
-  slug: virtru-policy-registered-resources
+  label: Virtru policy.resourcemapping.ResourceMappingService API
+  slug: virtru-policy-resourcemapping-resourcemappingservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-registered-resources-openapi.yaml
-- filename: virtru-policy-resource-mapping-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-resourcemapping-resourcemappingservice-api-openapi.yml
+- filename: virtru-policy-subjectmapping-subjectmappingservice-api-openapi.yml
   format: yaml
-  label: Virtru Policy — Resource Mapping
-  slug: virtru-policy-resource-mapping
+  label: Virtru policy.subjectmapping.SubjectMappingService API
+  slug: virtru-policy-subjectmapping-subjectmappingservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-resource-mapping-openapi.yaml
-- filename: virtru-policy-subject-mapping-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-subjectmapping-subjectmappingservice-api-openapi.yml
+- filename: virtru-wellknownconfiguration-wellknownservice-api-openapi.yml
   format: yaml
-  label: Virtru Policy — Subject Mapping
-  slug: virtru-policy-subject-mapping
+  label: Virtru wellknownconfiguration.WellKnownService API
+  slug: virtru-wellknownconfiguration-wellknownservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-subject-mapping-openapi.yaml
-- filename: virtru-wellknown-configuration-openapi.yaml
-  format: yaml
-  label: Virtru Well-Known Configuration
-  slug: virtru-well-known-configuration
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-wellknown-configuration-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-wellknownconfiguration-wellknownservice-api-openapi.yml
 certifications:
 - SOC 2
 - PCI DSS

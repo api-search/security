@@ -2,12 +2,84 @@
 api_key_in:
 - header
 api_specs:
-- filename: introduction
+- filename: datafold-audit-logs-api-openapi.yml
   format: yaml
-  label: Datafold REST API
-  slug: datafold-rest-api
+  label: Datafold Audit Logs API
+  slug: datafold-audit-logs-api
   spec_type: OpenAPI
-  url: https://docs.datafold.com/api-reference/introduction
+  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-audit-logs-api-openapi.yml
+- filename: datafold-bi-added-api-openapi.yml
+  format: yaml
+  label: Datafold bi_added API
+  slug: datafold-bi-added-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-bi-added-api-openapi.yml
+- filename: datafold-bi-api-openapi.yml
+  format: yaml
+  label: Datafold BI API
+  slug: datafold-bi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-bi-api-openapi.yml
+- filename: datafold-bi-deleted-api-openapi.yml
+  format: yaml
+  label: Datafold bi_deleted API
+  slug: datafold-bi-deleted-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-bi-deleted-api-openapi.yml
+- filename: datafold-bi-modified-api-openapi.yml
+  format: yaml
+  label: Datafold bi_modified API
+  slug: datafold-bi-modified-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-bi-modified-api-openapi.yml
+- filename: datafold-bolt-api-openapi.yml
+  format: yaml
+  label: Datafold bolt API
+  slug: datafold-bolt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-bolt-api-openapi.yml
+- filename: datafold-ci-api-openapi.yml
+  format: yaml
+  label: Datafold CI API
+  slug: datafold-ci-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-ci-api-openapi.yml
+- filename: datafold-data-diffs-api-openapi.yml
+  format: yaml
+  label: Datafold Data diffs API
+  slug: datafold-data-diffs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-data-diffs-api-openapi.yml
+- filename: datafold-data-source-added-api-openapi.yml
+  format: yaml
+  label: Datafold data_source_added API
+  slug: datafold-data-source-added-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-data-source-added-api-openapi.yml
+- filename: datafold-data-sources-api-openapi.yml
+  format: yaml
+  label: Datafold Data sources API
+  slug: datafold-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-data-sources-api-openapi.yml
+- filename: datafold-diff-created-api-openapi.yml
+  format: yaml
+  label: Datafold diff_created API
+  slug: datafold-diff-created-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-diff-created-api-openapi.yml
+- filename: datafold-explore-api-openapi.yml
+  format: yaml
+  label: Datafold Explore API
+  slug: datafold-explore-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-explore-api-openapi.yml
+- filename: datafold-monitors-api-openapi.yml
+  format: yaml
+  label: Datafold Monitors API
+  slug: datafold-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-monitors-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

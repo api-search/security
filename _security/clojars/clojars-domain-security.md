@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Clojars REST API
-  slug: clojars-rest-api
+- filename: clojars-artifacts-api-openapi.yml
+  format: yaml
+  label: Clojars Artifacts API
+  slug: clojars-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/openapi/clojars-artifacts-api-openapi.yml
+- filename: clojars-feeds-api-openapi.yml
+  format: yaml
+  label: Clojars Feeds API
+  slug: clojars-feeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/openapi/clojars-feeds-api-openapi.yml
+- filename: clojars-groups-api-openapi.yml
+  format: yaml
+  label: Clojars Groups API
+  slug: clojars-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/openapi/clojars-groups-api-openapi.yml
+- filename: clojars-search-api-openapi.yml
+  format: yaml
+  label: Clojars Search API
+  slug: clojars-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/openapi/clojars-search-api-openapi.yml
+- filename: clojars-users-api-openapi.yml
+  format: yaml
+  label: Clojars Users API
+  slug: clojars-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/openapi/clojars-users-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -2,36 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: nirvana-openapi.yml
+- filename: nirvana-cost-estimation-api-openapi.yml
   format: yaml
-  label: Nirvana Eligibility & Coverage API
-  slug: eligibility-coverage-api
+  label: Nirvana Health Cost Estimation API
+  slug: nirvana-cost-estimation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nirvana/refs/heads/main/openapi/nirvana-openapi.yml
-- filename: nirvana-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nirvana/refs/heads/main/openapi/nirvana-cost-estimation-api-openapi.yml
+- filename: nirvana-coverage-scan-api-openapi.yml
   format: yaml
-  label: Nirvana Coverage Scan API
-  slug: coverage-scan-api
+  label: Nirvana Health Coverage Scan API
+  slug: nirvana-coverage-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nirvana/refs/heads/main/openapi/nirvana-openapi.yml
-- filename: nirvana-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nirvana/refs/heads/main/openapi/nirvana-coverage-scan-api-openapi.yml
+- filename: nirvana-eligibility-api-openapi.yml
   format: yaml
-  label: Nirvana Benefits API
-  slug: benefits-api
+  label: Nirvana Health Eligibility API
+  slug: nirvana-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nirvana/refs/heads/main/openapi/nirvana-openapi.yml
-- filename: nirvana-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nirvana/refs/heads/main/openapi/nirvana-eligibility-api-openapi.yml
+- filename: nirvana-medicaid-api-openapi.yml
   format: yaml
-  label: Nirvana Cost Estimation API
-  slug: cost-estimation-api
+  label: Nirvana Health Medicaid API
+  slug: nirvana-medicaid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nirvana/refs/heads/main/openapi/nirvana-openapi.yml
-- filename: nirvana-openapi.yml
-  format: yaml
-  label: Nirvana Medicaid API
-  slug: medicaid-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nirvana/refs/heads/main/openapi/nirvana-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nirvana/refs/heads/main/openapi/nirvana-medicaid-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

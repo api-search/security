@@ -1,78 +1,90 @@
 ---
 api_key_in: []
 api_specs:
-- filename: mixedbread-embeddings-api-openapi.yml
+- filename: mixedbread-ai-admin-api-openapi.yml
+  format: yaml
+  label: Mixedbread admin API
+  slug: mixedbread-ai-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-admin-api-openapi.yml
+- filename: mixedbread-ai-api-keys-api-openapi.yml
+  format: yaml
+  label: Mixedbread api_keys API
+  slug: mixedbread-ai-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-api-keys-api-openapi.yml
+- filename: mixedbread-ai-billing-api-openapi.yml
+  format: yaml
+  label: Mixedbread billing API
+  slug: mixedbread-ai-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-billing-api-openapi.yml
+- filename: mixedbread-ai-completions-api-openapi.yml
+  format: yaml
+  label: Mixedbread completions API
+  slug: mixedbread-ai-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-completions-api-openapi.yml
+- filename: mixedbread-ai-data-sources-api-openapi.yml
+  format: yaml
+  label: Mixedbread data_sources API
+  slug: mixedbread-ai-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-data-sources-api-openapi.yml
+- filename: mixedbread-ai-deprecated-vector-stores-api-openapi.yml
+  format: yaml
+  label: Mixedbread deprecated_vector_stores API
+  slug: mixedbread-ai-deprecated-vector-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-deprecated-vector-stores-api-openapi.yml
+- filename: mixedbread-ai-embeddings-api-openapi.yml
   format: yaml
   label: Mixedbread Embeddings API
-  slug: mixedbread-embeddings-api
+  slug: mixedbread-ai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-embeddings-api-openapi.yml
-- filename: mixedbread-reranking-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-embeddings-api-openapi.yml
+- filename: mixedbread-ai-extractions-api-openapi.yml
+  format: yaml
+  label: Mixedbread extractions API
+  slug: mixedbread-ai-extractions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-extractions-api-openapi.yml
+- filename: mixedbread-ai-files-api-openapi.yml
+  format: yaml
+  label: Mixedbread files API
+  slug: mixedbread-ai-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-files-api-openapi.yml
+- filename: mixedbread-ai-mixedbread-embeddings-api-api-openapi.yml
+  format: yaml
+  label: Mixedbread Mixedbread Embeddings API API
+  slug: mixedbread-ai-mixedbread-embeddings-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-mixedbread-embeddings-api-api-openapi.yml
+- filename: mixedbread-ai-parsing-api-openapi.yml
+  format: yaml
+  label: Mixedbread parsing API
+  slug: mixedbread-ai-parsing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-parsing-api-openapi.yml
+- filename: mixedbread-ai-reranking-api-openapi.yml
   format: yaml
   label: Mixedbread Reranking API
-  slug: mixedbread-reranking-api
+  slug: mixedbread-ai-reranking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-reranking-api-openapi.yml
-- filename: mixedbread-stores-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-reranking-api-openapi.yml
+- filename: mixedbread-ai-schemas-api-openapi.yml
   format: yaml
-  label: Mixedbread Stores API
-  slug: mixedbread-stores-api
+  label: Mixedbread schemas API
+  slug: mixedbread-ai-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-stores-api-openapi.yml
-- filename: mixedbread-parsing-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-schemas-api-openapi.yml
+- filename: mixedbread-ai-stores-api-openapi.yml
   format: yaml
-  label: Mixedbread Parsing API
-  slug: mixedbread-parsing-api
+  label: Mixedbread stores API
+  slug: mixedbread-ai-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-parsing-api-openapi.yml
-- filename: mixedbread-extractions-api-openapi.yml
-  format: yaml
-  label: Mixedbread Extractions API
-  slug: mixedbread-extractions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-extractions-api-openapi.yml
-- filename: mixedbread-files-api-openapi.yml
-  format: yaml
-  label: Mixedbread Files API
-  slug: mixedbread-files-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-files-api-openapi.yml
-- filename: mixedbread-completions-api-openapi.yml
-  format: yaml
-  label: Mixedbread Chat Completions API
-  slug: mixedbread-completions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-completions-api-openapi.yml
-- filename: mixedbread-data-sources-api-openapi.yml
-  format: yaml
-  label: Mixedbread Data Sources API
-  slug: mixedbread-data-sources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-data-sources-api-openapi.yml
-- filename: mixedbread-api-keys-api-openapi.yml
-  format: yaml
-  label: Mixedbread API Keys API
-  slug: mixedbread-api-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-api-keys-api-openapi.yml
-- filename: mixedbread-billing-api-openapi.yml
-  format: yaml
-  label: Mixedbread Billing API
-  slug: mixedbread-billing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-billing-api-openapi.yml
-- filename: mixedbread-schemas-api-openapi.yml
-  format: yaml
-  label: Mixedbread Schemas API
-  slug: mixedbread-schemas-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-schemas-api-openapi.yml
-- filename: mixedbread-admin-api-openapi.yml
-  format: yaml
-  label: Mixedbread Admin API
-  slug: mixedbread-admin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-admin-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-stores-api-openapi.yml
 auth_types:
 - http
 description: ''

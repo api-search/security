@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: acord-ngds-openapi.yml
+- filename: acord-claims-api-openapi.yml
   format: yaml
-  label: ACORD Next-Generation Digital Standards (NGDS) API
-  slug: acord-ngds-api
+  label: ACORD Claims API
+  slug: acord-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/openapi/acord-ngds-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/openapi/acord-claims-api-openapi.yml
+- filename: acord-party-api-openapi.yml
+  format: yaml
+  label: ACORD Party API
+  slug: acord-party-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/openapi/acord-party-api-openapi.yml
+- filename: acord-policy-api-openapi.yml
+  format: yaml
+  label: ACORD Policy API
+  slug: acord-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/openapi/acord-policy-api-openapi.yml
+- filename: acord-underwriting-api-openapi.yml
+  format: yaml
+  label: ACORD Underwriting API
+  slug: acord-underwriting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/openapi/acord-underwriting-api-openapi.yml
 description: ''
 domains:
 - caa: []

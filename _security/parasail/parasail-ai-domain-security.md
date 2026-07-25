@@ -1,23 +1,47 @@
 ---
 api_specs:
-- filename: parasail-inference-api-openapi.yml
-  format: yaml
-  label: Parasail Inference API
-  slug: parasail-inference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parasail/refs/heads/main/openapi/parasail-inference-api-openapi.yml
-- filename: parasail-batch-api-openapi.yml
+- filename: parasail-ai-batch-api-openapi.yml
   format: yaml
   label: Parasail Batch API
-  slug: parasail-batch-api
+  slug: parasail-ai-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parasail/refs/heads/main/openapi/parasail-batch-api-openapi.yml
-- filename: parasail-dedicated-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/parasail/refs/heads/main/openapi/parasail-ai-batch-api-openapi.yml
+- filename: parasail-ai-chat-api-openapi.yml
   format: yaml
-  label: Parasail Dedicated Deployments API
-  slug: parasail-dedicated-api
+  label: Parasail Chat API
+  slug: parasail-ai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parasail/refs/heads/main/openapi/parasail-dedicated-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/parasail/refs/heads/main/openapi/parasail-ai-chat-api-openapi.yml
+- filename: parasail-ai-completions-api-openapi.yml
+  format: yaml
+  label: Parasail Completions API
+  slug: parasail-ai-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parasail/refs/heads/main/openapi/parasail-ai-completions-api-openapi.yml
+- filename: parasail-ai-deployments-api-openapi.yml
+  format: yaml
+  label: Parasail Deployments API
+  slug: parasail-ai-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parasail/refs/heads/main/openapi/parasail-ai-deployments-api-openapi.yml
+- filename: parasail-ai-embeddings-api-openapi.yml
+  format: yaml
+  label: Parasail Embeddings API
+  slug: parasail-ai-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parasail/refs/heads/main/openapi/parasail-ai-embeddings-api-openapi.yml
+- filename: parasail-ai-files-api-openapi.yml
+  format: yaml
+  label: Parasail Files API
+  slug: parasail-ai-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parasail/refs/heads/main/openapi/parasail-ai-files-api-openapi.yml
+- filename: parasail-ai-models-api-openapi.yml
+  format: yaml
+  label: Parasail Models API
+  slug: parasail-ai-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parasail/refs/heads/main/openapi/parasail-ai-models-api-openapi.yml
 description: ''
 domains:
 - caa: []

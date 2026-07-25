@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: impossible-cloud-management-console-openapi-original.json
-  format: json
-  label: Impossible Cloud Management Console API
-  slug: impossible-cloud-management-console-api
+- filename: impossible-cloud-distributors-api-openapi.yml
+  format: yaml
+  label: Impossible Cloud Distributors API
+  slug: impossible-cloud-distributors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/openapi/impossible-cloud-management-console-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/openapi/impossible-cloud-distributors-api-openapi.yml
+- filename: impossible-cloud-integrations-api-openapi.yml
+  format: yaml
+  label: Impossible Cloud Integrations API
+  slug: impossible-cloud-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/openapi/impossible-cloud-integrations-api-openapi.yml
+- filename: impossible-cloud-partners-api-openapi.yml
+  format: yaml
+  label: Impossible Cloud Partners API
+  slug: impossible-cloud-partners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/openapi/impossible-cloud-partners-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

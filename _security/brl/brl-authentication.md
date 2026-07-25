@@ -2,12 +2,66 @@
 api_key_in:
 - header
 api_specs:
-- filename: brl-openapi-original.json
-  format: json
-  label: Crown API & Webhooks
-  slug: crown-api-webhooks
+- filename: brl-accounts-api-openapi.yml
+  format: yaml
+  label: BRL Accounts API
+  slug: brl-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-accounts-api-openapi.yml
+- filename: brl-assets-api-openapi.yml
+  format: yaml
+  label: BRL Assets API
+  slug: brl-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-assets-api-openapi.yml
+- filename: brl-claims-api-openapi.yml
+  format: yaml
+  label: BRL Claims API
+  slug: brl-claims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-claims-api-openapi.yml
+- filename: brl-nft-transfers-api-openapi.yml
+  format: yaml
+  label: BRL Nft Transfers API
+  slug: brl-nft-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-nft-transfers-api-openapi.yml
+- filename: brl-orders-api-openapi.yml
+  format: yaml
+  label: BRL Orders API
+  slug: brl-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-orders-api-openapi.yml
+- filename: brl-quotes-api-openapi.yml
+  format: yaml
+  label: BRL Quotes API
+  slug: brl-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-quotes-api-openapi.yml
+- filename: brl-tax-exemption-api-openapi.yml
+  format: yaml
+  label: BRL Tax Exemption API
+  slug: brl-tax-exemption-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-tax-exemption-api-openapi.yml
+- filename: brl-transfers-api-openapi.yml
+  format: yaml
+  label: BRL Transfers API
+  slug: brl-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-transfers-api-openapi.yml
+- filename: brl-wallets-api-openapi.yml
+  format: yaml
+  label: BRL Wallets API
+  slug: brl-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-wallets-api-openapi.yml
+- filename: brl-withdrawals-api-openapi.yml
+  format: yaml
+  label: BRL Withdrawals API
+  slug: brl-withdrawals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-withdrawals-api-openapi.yml
 auth_types:
 - apiKey
 - http

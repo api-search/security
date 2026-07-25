@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Itch.io API
-  slug: itch-io-api
+- filename: itch-io-auth-api-openapi.yml
+  format: yaml
+  label: Itch.io Auth API
+  slug: itch-io-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/itch-io-auth-api-openapi.yml
+- filename: itch-io-builds-api-openapi.yml
+  format: yaml
+  label: Itch.io Builds API
+  slug: itch-io-builds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/itch-io-builds-api-openapi.yml
+- filename: itch-io-bundles-api-openapi.yml
+  format: yaml
+  label: Itch.io Bundles API
+  slug: itch-io-bundles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/itch-io-bundles-api-openapi.yml
+- filename: itch-io-collections-api-openapi.yml
+  format: yaml
+  label: Itch.io Collections API
+  slug: itch-io-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/itch-io-collections-api-openapi.yml
+- filename: itch-io-downloads-api-openapi.yml
+  format: yaml
+  label: Itch.io Downloads API
+  slug: itch-io-downloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/itch-io-downloads-api-openapi.yml
+- filename: itch-io-games-api-openapi.yml
+  format: yaml
+  label: Itch.io Games API
+  slug: itch-io-games-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/itch-io-games-api-openapi.yml
+- filename: itch-io-profile-api-openapi.yml
+  format: yaml
+  label: Itch.io Profile API
+  slug: itch-io-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/itch-io-profile-api-openapi.yml
+- filename: itch-io-search-api-openapi.yml
+  format: yaml
+  label: Itch.io Search API
+  slug: itch-io-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/itch-io-search-api-openapi.yml
+- filename: itch-io-uploads-api-openapi.yml
+  format: yaml
+  label: Itch.io Uploads API
+  slug: itch-io-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/itch-io-uploads-api-openapi.yml
+- filename: itch-io-users-api-openapi.yml
+  format: yaml
+  label: Itch.io Users API
+  slug: itch-io-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/itch-io-users-api-openapi.yml
+- filename: itch-io-wharf-api-openapi.yml
+  format: yaml
+  label: Itch.io Wharf API
+  slug: itch-io-wharf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/itch-io-wharf-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: radio-browser-openapi.yml
+- filename: radio-browser-categories-api-openapi.yml
   format: yaml
-  label: Radio Browser API
-  slug: radio-browser-api
+  label: Radio Browser Categories API
+  slug: radio-browser-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/openapi/radio-browser-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/openapi/radio-browser-categories-api-openapi.yml
+- filename: radio-browser-interactions-api-openapi.yml
+  format: yaml
+  label: Radio Browser Interactions API
+  slug: radio-browser-interactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/openapi/radio-browser-interactions-api-openapi.yml
+- filename: radio-browser-service-api-openapi.yml
+  format: yaml
+  label: Radio Browser Service API
+  slug: radio-browser-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/openapi/radio-browser-service-api-openapi.yml
+- filename: radio-browser-stations-api-openapi.yml
+  format: yaml
+  label: Radio Browser Stations API
+  slug: radio-browser-stations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/openapi/radio-browser-stations-api-openapi.yml
 description: ''
 domains:
 - caa:

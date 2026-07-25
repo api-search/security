@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: microsoft-sentinel-openapi.yml
+- filename: microsoft-sentinel-alertrules-api-openapi.yml
   format: yaml
-  label: Microsoft Sentinel REST API
-  slug: rest-api
+  label: Microsoft Sentinel AlertRules API
+  slug: microsoft-sentinel-alertrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sentinel/refs/heads/main/openapi/microsoft-sentinel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sentinel/refs/heads/main/openapi/microsoft-sentinel-alertrules-api-openapi.yml
+- filename: microsoft-sentinel-bookmarks-api-openapi.yml
+  format: yaml
+  label: Microsoft Sentinel Bookmarks API
+  slug: microsoft-sentinel-bookmarks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sentinel/refs/heads/main/openapi/microsoft-sentinel-bookmarks-api-openapi.yml
+- filename: microsoft-sentinel-dataconnectors-api-openapi.yml
+  format: yaml
+  label: Microsoft Sentinel DataConnectors API
+  slug: microsoft-sentinel-dataconnectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sentinel/refs/heads/main/openapi/microsoft-sentinel-dataconnectors-api-openapi.yml
+- filename: microsoft-sentinel-incidents-api-openapi.yml
+  format: yaml
+  label: Microsoft Sentinel Incidents API
+  slug: microsoft-sentinel-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sentinel/refs/heads/main/openapi/microsoft-sentinel-incidents-api-openapi.yml
+- filename: microsoft-sentinel-threatintelligence-api-openapi.yml
+  format: yaml
+  label: Microsoft Sentinel ThreatIntelligence API
+  slug: microsoft-sentinel-threatintelligence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sentinel/refs/heads/main/openapi/microsoft-sentinel-threatintelligence-api-openapi.yml
 auth_types:
 - http
 description: ''

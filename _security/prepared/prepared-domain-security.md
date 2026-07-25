@@ -33,7 +33,7 @@ tags:
 - Company
 - Emergency Response
 - Public Safety
-- 911
+- '911'
 - Artificial Intelligence
 - Communications
 - Translation

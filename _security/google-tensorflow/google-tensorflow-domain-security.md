@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: tensorflow-serving-openapi.yml
+- filename: google-tensorflow-model-status-api-openapi.yml
   format: yaml
-  label: TensorFlow Serving REST API
-  slug: tensorflow-serving-rest-api
+  label: Google TensorFlow Model Status API
+  slug: google-tensorflow-model-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tensorflow/refs/heads/main/openapi/tensorflow-serving-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-tensorflow/refs/heads/main/openapi/google-tensorflow-model-status-api-openapi.yml
+- filename: google-tensorflow-prediction-api-openapi.yml
+  format: yaml
+  label: Google TensorFlow Prediction API
+  slug: google-tensorflow-prediction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-tensorflow/refs/heads/main/openapi/google-tensorflow-prediction-api-openapi.yml
 description: ''
 domains:
 - caa: []

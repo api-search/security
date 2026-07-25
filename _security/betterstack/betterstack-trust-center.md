@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: better-stack-openapi.yml
+- filename: betterstack-heartbeats-api-openapi.yml
   format: yaml
-  label: Better Stack API
-  slug: betterstack-api
+  label: Better Stack Heartbeats API
+  slug: betterstack-heartbeats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/better-stack/refs/heads/main/openapi/better-stack-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/openapi/betterstack-heartbeats-api-openapi.yml
+- filename: betterstack-incidents-api-openapi.yml
+  format: yaml
+  label: Better Stack Incidents API
+  slug: betterstack-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/openapi/betterstack-incidents-api-openapi.yml
+- filename: betterstack-monitors-api-openapi.yml
+  format: yaml
+  label: Better Stack Monitors API
+  slug: betterstack-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/openapi/betterstack-monitors-api-openapi.yml
+- filename: betterstack-status-pages-api-openapi.yml
+  format: yaml
+  label: Better Stack Status Pages API
+  slug: betterstack-status-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/openapi/betterstack-status-pages-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

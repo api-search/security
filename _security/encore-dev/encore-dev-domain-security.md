@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: encore-framework-openapi.yml
+- filename: encore-dev-apps-api-openapi.yml
   format: yaml
-  label: Encore Framework API
-  slug: encore-framework-api
+  label: Encore Apps API
+  slug: encore-dev-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encore-dev/refs/heads/main/openapi/encore-framework-openapi.yml
-- filename: encore-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/encore-dev/refs/heads/main/openapi/encore-dev-apps-api-openapi.yml
+- filename: encore-dev-encore-api-openapi.yml
   format: yaml
-  label: Encore Cloud Platform API
-  slug: encore-platform-api
+  label: Encore Encore API
+  slug: encore-dev-encore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encore-dev/refs/heads/main/openapi/encore-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/encore-dev/refs/heads/main/openapi/encore-dev-encore-api-openapi.yml
+- filename: encore-dev-encore-framework-api-api-openapi.yml
+  format: yaml
+  label: Encore Encore Framework API API
+  slug: encore-dev-encore-framework-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/encore-dev/refs/heads/main/openapi/encore-dev-encore-framework-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: export-import-bank-of-the-united-states-openapi.yml
+- filename: export-import-bank-of-the-united-states-resource-api-openapi.yml
   format: yaml
-  label: EXIM Open Data API
-  slug: open-data
+  label: Export-Import Bank of the United States Resource API
+  slug: export-import-bank-of-the-united-states-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/about-exim-exim-gov-export-import-bank-of-the-united-states/refs/heads/main/openapi/export-import-bank-of-the-united-states-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/about-exim-exim-gov-export-import-bank-of-the-united-states/refs/heads/main/openapi/export-import-bank-of-the-united-states-resource-api-openapi.yml
+- filename: export-import-bank-of-the-united-states-views-api-openapi.yml
+  format: yaml
+  label: Export-Import Bank of the United States Views API
+  slug: export-import-bank-of-the-united-states-views-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/about-exim-exim-gov-export-import-bank-of-the-united-states/refs/heads/main/openapi/export-import-bank-of-the-united-states-views-api-openapi.yml
 description: ''
 domains:
 - caa:

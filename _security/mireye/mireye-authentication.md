@@ -1,12 +1,108 @@
 ---
 api_key_in: []
 api_specs:
-- filename: mireye-openapi-original.json
-  format: json
-  label: Mireye Earth API
-  slug: mireye-earth-api
+- filename: mireye-ask-api-openapi.yml
+  format: yaml
+  label: Mireye Ask API
+  slug: mireye-ask-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-ask-api-openapi.yml
+- filename: mireye-ask-site-api-openapi.yml
+  format: yaml
+  label: Mireye Ask Site API
+  slug: mireye-ask-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-ask-site-api-openapi.yml
+- filename: mireye-auth-api-openapi.yml
+  format: yaml
+  label: Mireye Auth API
+  slug: mireye-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-auth-api-openapi.yml
+- filename: mireye-authorize-api-openapi.yml
+  format: yaml
+  label: Mireye Authorize API
+  slug: mireye-authorize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-authorize-api-openapi.yml
+- filename: mireye-feature-requests-api-openapi.yml
+  format: yaml
+  label: Mireye Feature Requests API
+  slug: mireye-feature-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-feature-requests-api-openapi.yml
+- filename: mireye-fetch-api-openapi.yml
+  format: yaml
+  label: Mireye Fetch API
+  slug: mireye-fetch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-fetch-api-openapi.yml
+- filename: mireye-healthz-api-openapi.yml
+  format: yaml
+  label: Mireye Healthz API
+  slug: mireye-healthz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-healthz-api-openapi.yml
+- filename: mireye-mcp-api-openapi.yml
+  format: yaml
+  label: Mireye Mcp API
+  slug: mireye-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-mcp-api-openapi.yml
+- filename: mireye-meta-api-openapi.yml
+  format: yaml
+  label: Mireye Meta API
+  slug: mireye-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-meta-api-openapi.yml
+- filename: mireye-oauth-api-openapi.yml
+  format: yaml
+  label: Mireye Oauth API
+  slug: mireye-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-oauth-api-openapi.yml
+- filename: mireye-readyz-api-openapi.yml
+  format: yaml
+  label: Mireye Readyz API
+  slug: mireye-readyz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-readyz-api-openapi.yml
+- filename: mireye-register-api-openapi.yml
+  format: yaml
+  label: Mireye Register API
+  slug: mireye-register-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-register-api-openapi.yml
+- filename: mireye-revoke-api-openapi.yml
+  format: yaml
+  label: Mireye Revoke API
+  slug: mireye-revoke-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-revoke-api-openapi.yml
+- filename: mireye-sites-api-openapi.yml
+  format: yaml
+  label: Mireye Sites API
+  slug: mireye-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-sites-api-openapi.yml
+- filename: mireye-token-api-openapi.yml
+  format: yaml
+  label: Mireye Token API
+  slug: mireye-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-token-api-openapi.yml
+- filename: mireye-users-api-openapi.yml
+  format: yaml
+  label: Mireye Users API
+  slug: mireye-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-users-api-openapi.yml
+- filename: mireye-well-known-api-openapi.yml
+  format: yaml
+  label: Mireye .well Known API
+  slug: mireye-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-well-known-api-openapi.yml
 auth_types:
 - http
 - oauth2

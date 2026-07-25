@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: parallel-openapi-original.json
-  format: json
-  label: Parallel API
-  slug: parallel-api
+- filename: parallel-chat-api-beta-api-openapi.yml
+  format: yaml
+  label: Parallel Chat API (Beta) API
+  slug: parallel-chat-api-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel/refs/heads/main/openapi/parallel-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/parallel/refs/heads/main/openapi/parallel-chat-api-beta-api-openapi.yml
+- filename: parallel-extract-api-openapi.yml
+  format: yaml
+  label: Parallel Extract API
+  slug: parallel-extract-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parallel/refs/heads/main/openapi/parallel-extract-api-openapi.yml
+- filename: parallel-findall-api-openapi.yml
+  format: yaml
+  label: Parallel FindAll API
+  slug: parallel-findall-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parallel/refs/heads/main/openapi/parallel-findall-api-openapi.yml
+- filename: parallel-monitor-api-openapi.yml
+  format: yaml
+  label: Parallel Monitor API
+  slug: parallel-monitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parallel/refs/heads/main/openapi/parallel-monitor-api-openapi.yml
+- filename: parallel-search-api-openapi.yml
+  format: yaml
+  label: Parallel Search API
+  slug: parallel-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parallel/refs/heads/main/openapi/parallel-search-api-openapi.yml
+- filename: parallel-tasks-api-openapi.yml
+  format: yaml
+  label: Parallel Tasks API
+  slug: parallel-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parallel/refs/heads/main/openapi/parallel-tasks-api-openapi.yml
 certifications:
 - SOC 2 Type I (as of April 2025)
 - SOC 2 Type II (as of April 2025)

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: clover-health-fhir-openapi-original.yml
+- filename: clover-health-fhir-r4-formulary-api-api-openapi.yml
   format: yaml
-  label: Clover Health FHIR API (Formulary & Provider Directory)
-  slug: clover-health-fhir-api-formulary-provider-directory
+  label: Clover Health fhir-r4-formulary-api API
+  slug: clover-health-fhir-r4-formulary-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/openapi/clover-health-fhir-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/openapi/clover-health-fhir-r4-formulary-api-api-openapi.yml
+- filename: clover-health-fhir-r4-providerdirectory-api-api-openapi.yml
+  format: yaml
+  label: Clover Health FHIR R4 ProviderDirectory API API
+  slug: clover-health-fhir-r4-providerdirectory-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/openapi/clover-health-fhir-r4-providerdirectory-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

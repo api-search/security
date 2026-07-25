@@ -2,18 +2,12 @@
 api_key_in:
 - query
 api_specs:
-- filename: openapi.yaml
+- filename: depositphotos-authentication-api-openapi.yml
   format: yaml
-  label: Depositphotos Partner API
-  slug: depositphotos-partner-api
+  label: Depositphotos Authentication API
+  slug: depositphotos-authentication-api
   spec_type: OpenAPI
-  url: https://api.depositphotos.com/doc/
-- filename: depositphotos-enterprise-api.json
-  format: json
-  label: Depositphotos Enterprise API
-  slug: depositphotos-enterprise-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depositphotos/refs/heads/main/openapi/depositphotos-enterprise-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/depositphotos/refs/heads/main/openapi/depositphotos-authentication-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

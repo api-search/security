@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Luma API
-  slug: luma-api
+- filename: luma-calendars-api-openapi.yml
+  format: yaml
+  label: Luma Calendars API
+  slug: luma-calendars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/luma-calendars-api-openapi.yml
+- filename: luma-events-api-openapi.yml
+  format: yaml
+  label: Luma Events API
+  slug: luma-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/luma-events-api-openapi.yml
+- filename: luma-memberships-api-openapi.yml
+  format: yaml
+  label: Luma Memberships API
+  slug: luma-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/luma-memberships-api-openapi.yml
+- filename: luma-miscellaneous-api-openapi.yml
+  format: yaml
+  label: Luma Miscellaneous API
+  slug: luma-miscellaneous-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/luma-miscellaneous-api-openapi.yml
+- filename: luma-organizations-api-openapi.yml
+  format: yaml
+  label: Luma Organizations API
+  slug: luma-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/luma-organizations-api-openapi.yml
+- filename: luma-webhooks-api-openapi.yml
+  format: yaml
+  label: Luma Webhooks API
+  slug: luma-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/luma-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

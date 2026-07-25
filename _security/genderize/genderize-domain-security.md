@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: genderize-gender-prediction-api-openapi.yml
   format: yaml
-  label: Genderize.io API
-  slug: genderize-api
+  label: Genderize.io Gender Prediction API
+  slug: genderize-gender-prediction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genderize/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/genderize/refs/heads/main/openapi/genderize-gender-prediction-api-openapi.yml
 description: ''
 domains:
 - caa: []

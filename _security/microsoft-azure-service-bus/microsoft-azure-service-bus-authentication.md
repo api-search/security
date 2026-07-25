@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: microsoft-azure-service-bus-openapi.yml
+- filename: microsoft-azure-service-bus-messages-api-openapi.yml
   format: yaml
-  label: Azure Service Bus REST API
-  slug: rest-api
+  label: Azure Service Bus Messages API
+  slug: microsoft-azure-service-bus-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-bus/refs/heads/main/openapi/microsoft-azure-service-bus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-bus/refs/heads/main/openapi/microsoft-azure-service-bus-messages-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: iis-administration-api.yml
+- filename: microsoft-windows-server-application-pools-api-openapi.yml
   format: yaml
-  label: IIS Administration API
-  slug: iis-administration-api
+  label: Microsoft Windows Server Application Pools API
+  slug: microsoft-windows-server-application-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/openapi/iis-administration-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/openapi/microsoft-windows-server-application-pools-api-openapi.yml
+- filename: microsoft-windows-server-applications-api-openapi.yml
+  format: yaml
+  label: Microsoft Windows Server Applications API
+  slug: microsoft-windows-server-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/openapi/microsoft-windows-server-applications-api-openapi.yml
+- filename: microsoft-windows-server-web-sites-api-openapi.yml
+  format: yaml
+  label: Microsoft Windows Server Web Sites API
+  slug: microsoft-windows-server-web-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/openapi/microsoft-windows-server-web-sites-api-openapi.yml
 auth_types:
 - http
 description: ''

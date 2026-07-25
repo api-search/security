@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: thought-industries-openapi.yml
+- filename: thought-industries-content-api-openapi.yml
   format: yaml
-  label: Thought Industries REST API
-  slug: rest-api
+  label: Thought Industries Content API
+  slug: thought-industries-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-content-api-openapi.yml
+- filename: thought-industries-courses-api-openapi.yml
+  format: yaml
+  label: Thought Industries Courses API
+  slug: thought-industries-courses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-courses-api-openapi.yml
+- filename: thought-industries-enrollments-api-openapi.yml
+  format: yaml
+  label: Thought Industries Enrollments API
+  slug: thought-industries-enrollments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-enrollments-api-openapi.yml
+- filename: thought-industries-groups-api-openapi.yml
+  format: yaml
+  label: Thought Industries Groups API
+  slug: thought-industries-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-groups-api-openapi.yml
+- filename: thought-industries-reports-api-openapi.yml
+  format: yaml
+  label: Thought Industries Reports API
+  slug: thought-industries-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-reports-api-openapi.yml
+- filename: thought-industries-users-api-openapi.yml
+  format: yaml
+  label: Thought Industries Users API
+  slug: thought-industries-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-users-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,11 +1,77 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: loops-so-api-key-api-openapi.yml
   format: yaml
-  label: Loops API
-  slug: loops-api
+  label: Loops API key API
+  slug: loops-so-api-key-api
   spec_type: OpenAPI
-  url: https://app.loops.so/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/loops-so/refs/heads/main/openapi/loops-so-api-key-api-openapi.yml
+- filename: loops-so-campaigns-api-openapi.yml
+  format: yaml
+  label: Loops Campaigns API
+  slug: loops-so-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loops-so/refs/heads/main/openapi/loops-so-campaigns-api-openapi.yml
+- filename: loops-so-components-api-openapi.yml
+  format: yaml
+  label: Loops Components API
+  slug: loops-so-components-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loops-so/refs/heads/main/openapi/loops-so-components-api-openapi.yml
+- filename: loops-so-contact-properties-api-openapi.yml
+  format: yaml
+  label: Loops Contact properties API
+  slug: loops-so-contact-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loops-so/refs/heads/main/openapi/loops-so-contact-properties-api-openapi.yml
+- filename: loops-so-contacts-api-openapi.yml
+  format: yaml
+  label: Loops Contacts API
+  slug: loops-so-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loops-so/refs/heads/main/openapi/loops-so-contacts-api-openapi.yml
+- filename: loops-so-dedicated-sending-ips-api-openapi.yml
+  format: yaml
+  label: Loops Dedicated sending IPs API
+  slug: loops-so-dedicated-sending-ips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loops-so/refs/heads/main/openapi/loops-so-dedicated-sending-ips-api-openapi.yml
+- filename: loops-so-email-messages-api-openapi.yml
+  format: yaml
+  label: Loops Email messages API
+  slug: loops-so-email-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loops-so/refs/heads/main/openapi/loops-so-email-messages-api-openapi.yml
+- filename: loops-so-events-api-openapi.yml
+  format: yaml
+  label: Loops Events API
+  slug: loops-so-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loops-so/refs/heads/main/openapi/loops-so-events-api-openapi.yml
+- filename: loops-so-mailing-lists-api-openapi.yml
+  format: yaml
+  label: Loops Mailing lists API
+  slug: loops-so-mailing-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loops-so/refs/heads/main/openapi/loops-so-mailing-lists-api-openapi.yml
+- filename: loops-so-themes-api-openapi.yml
+  format: yaml
+  label: Loops Themes API
+  slug: loops-so-themes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loops-so/refs/heads/main/openapi/loops-so-themes-api-openapi.yml
+- filename: loops-so-transactional-emails-api-openapi.yml
+  format: yaml
+  label: Loops Transactional emails API
+  slug: loops-so-transactional-emails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loops-so/refs/heads/main/openapi/loops-so-transactional-emails-api-openapi.yml
+- filename: loops-so-uploads-api-openapi.yml
+  format: yaml
+  label: Loops Uploads API
+  slug: loops-so-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loops-so/refs/heads/main/openapi/loops-so-uploads-api-openapi.yml
 description: ''
 domains:
 - caa: []

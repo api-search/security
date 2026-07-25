@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: mailmodo-openapi.yml
+- filename: mailmodo-campaigns-api-openapi.yml
   format: yaml
-  label: Mailmodo REST API
-  slug: rest-api
+  label: Mailmodo Campaigns API
+  slug: mailmodo-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-campaigns-api-openapi.yml
+- filename: mailmodo-contact-lists-api-openapi.yml
+  format: yaml
+  label: Mailmodo Contact Lists API
+  slug: mailmodo-contact-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-contact-lists-api-openapi.yml
+- filename: mailmodo-contacts-api-openapi.yml
+  format: yaml
+  label: Mailmodo Contacts API
+  slug: mailmodo-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-contacts-api-openapi.yml
+- filename: mailmodo-events-api-openapi.yml
+  format: yaml
+  label: Mailmodo Events API
+  slug: mailmodo-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-events-api-openapi.yml
+- filename: mailmodo-templates-api-openapi.yml
+  format: yaml
+  label: Mailmodo Templates API
+  slug: mailmodo-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-templates-api-openapi.yml
 certifications:
 - SOC 2
 - GDPR

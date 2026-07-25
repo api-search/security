@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: heroic-labs-nakama-openapi-original.json
-  format: json
-  label: Nakama API v2
-  slug: nakama-api-v2
+- filename: heroic-labs-console-api-openapi.yml
+  format: yaml
+  label: Heroic Labs Console API
+  slug: heroic-labs-console-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroic-labs/refs/heads/main/openapi/heroic-labs-nakama-openapi-original.json
-- filename: heroic-labs-nakama-console-openapi-original.json
-  format: json
-  label: Nakama Console API v2
-  slug: nakama-console-api-v2
+  url: https://raw.githubusercontent.com/api-evangelist/heroic-labs/refs/heads/main/openapi/heroic-labs-console-api-openapi.yml
+- filename: heroic-labs-nakama-api-openapi.yml
+  format: yaml
+  label: Heroic Labs Nakama API
+  slug: heroic-labs-nakama-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroic-labs/refs/heads/main/openapi/heroic-labs-nakama-console-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/heroic-labs/refs/heads/main/openapi/heroic-labs-nakama-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: AWS Lambda API
-  slug: aws-lambda-api
+- filename: aws-lambda-aliases-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Aliases API
+  slug: aws-lambda-aliases-api
   spec_type: OpenAPI
-  url: https://api.apis.guru/v2/specs/amazonaws.com/lambda/2015-03-31/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-aliases-api-openapi.yml
+- filename: aws-lambda-concurrency-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Concurrency API
+  slug: aws-lambda-concurrency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-concurrency-api-openapi.yml
+- filename: aws-lambda-event-source-mappings-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Event Source Mappings API
+  slug: aws-lambda-event-source-mappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-event-source-mappings-api-openapi.yml
+- filename: aws-lambda-function-url-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Function URL API
+  slug: aws-lambda-function-url-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-function-url-api-openapi.yml
+- filename: aws-lambda-functions-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Functions API
+  slug: aws-lambda-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-functions-api-openapi.yml
+- filename: aws-lambda-layers-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Layers API
+  slug: aws-lambda-layers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-layers-api-openapi.yml
+- filename: aws-lambda-tags-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Tags API
+  slug: aws-lambda-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-tags-api-openapi.yml
+- filename: aws-lambda-versions-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Versions API
+  slug: aws-lambda-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-versions-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

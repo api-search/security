@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: listnr-openapi.yml
+- filename: listnr-jobs-api-openapi.yml
+  format: yaml
+  label: Listnr Jobs API
+  slug: listnr-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/openapi/listnr-jobs-api-openapi.yml
+- filename: listnr-text-to-speech-api-openapi.yml
   format: yaml
   label: Listnr Text-to-Speech API
   slug: listnr-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/openapi/listnr-openapi.yml
-- filename: listnr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/openapi/listnr-text-to-speech-api-openapi.yml
+- filename: listnr-voices-api-openapi.yml
   format: yaml
   label: Listnr Voices API
   slug: listnr-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/openapi/listnr-openapi.yml
-- filename: listnr-openapi.yml
-  format: yaml
-  label: Listnr Audio Jobs API
-  slug: listnr-audio-jobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/openapi/listnr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/openapi/listnr-voices-api-openapi.yml
 description: ''
 domains:
 - caa:

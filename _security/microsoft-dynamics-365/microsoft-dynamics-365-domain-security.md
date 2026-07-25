@@ -1,29 +1,23 @@
 ---
 api_specs:
-- filename: $metadata
+- filename: microsoft-dynamics-365-accounts-api-openapi.yml
   format: yaml
-  label: Dynamics 365 Sales API
-  slug: dynamics-365-sales-api
+  label: Microsoft Dynamics 365 Accounts API
+  slug: microsoft-dynamics-365-accounts-api
   spec_type: OpenAPI
-  url: https://[org].api.crm.dynamics.com/api/data/v9.2/$metadata
-- filename: $metadata
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-accounts-api-openapi.yml
+- filename: microsoft-dynamics-365-contacts-api-openapi.yml
   format: yaml
-  label: Dynamics 365 Customer Service API
-  slug: dynamics-365-customer-service-api
+  label: Microsoft Dynamics 365 Contacts API
+  slug: microsoft-dynamics-365-contacts-api
   spec_type: OpenAPI
-  url: https://[org].api.crm.dynamics.com/api/data/v9.2/$metadata
-- filename: openapi
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-contacts-api-openapi.yml
+- filename: microsoft-dynamics-365-opportunities-api-openapi.yml
   format: yaml
-  label: Dynamics 365 Business Central API
-  slug: dynamics-365-business-central-api
+  label: Microsoft Dynamics 365 Opportunities API
+  slug: microsoft-dynamics-365-opportunities-api
   spec_type: OpenAPI
-  url: https://docs.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/openapi
-- filename: microsoft-dynamics-365-dataverse-web-api-openapi.yml
-  format: yaml
-  label: Microsoft Dataverse Web API
-  slug: microsoft-dataverse-web-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-dataverse-web-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-opportunities-api-openapi.yml
 description: ''
 domains:
 - caa:

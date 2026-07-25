@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: unitary-ai-content-classification-openapi-original.yaml
+- filename: unitary-ai-api-authentication-api-openapi.yml
   format: yaml
-  label: Unitary Content Classification API
-  slug: unitary-content-classification-api
+  label: Unitary AI API Authentication API
+  slug: unitary-ai-api-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-content-classification-openapi-original.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-api-authentication-api-openapi.yml
+- filename: unitary-ai-detoxify-api-openapi.yml
+  format: yaml
+  label: Unitary AI Detoxify API
+  slug: unitary-ai-detoxify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-detoxify-api-openapi.yml
+- filename: unitary-ai-items-characteristics-api-openapi.yml
+  format: yaml
+  label: Unitary AI Items & Characteristics API
+  slug: unitary-ai-items-characteristics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-items-characteristics-api-openapi.yml
+- filename: unitary-ai-moderation-api-openapi.yml
+  format: yaml
+  label: Unitary AI moderation API
+  slug: unitary-ai-moderation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-moderation-api-openapi.yml
+- filename: unitary-ai-policy-classification-api-openapi.yml
+  format: yaml
+  label: Unitary AI Policy Classification API
+  slug: unitary-ai-policy-classification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-policy-classification-api-openapi.yml
 description: ''
 domains:
 - caa: []

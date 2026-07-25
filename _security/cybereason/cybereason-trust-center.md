@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: cybereason-openapi.yml
+- filename: cybereason-authentication-api-openapi.yml
   format: yaml
-  label: Cybereason REST API
-  slug: cybereason-rest-api
+  label: Cybereason Authentication API
+  slug: cybereason-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-authentication-api-openapi.yml
+- filename: cybereason-customdetectionrules-api-openapi.yml
+  format: yaml
+  label: Cybereason CustomDetectionRules API
+  slug: cybereason-customdetectionrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-customdetectionrules-api-openapi.yml
+- filename: cybereason-isolationrules-api-openapi.yml
+  format: yaml
+  label: Cybereason IsolationRules API
+  slug: cybereason-isolationrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-isolationrules-api-openapi.yml
+- filename: cybereason-malops-api-openapi.yml
+  format: yaml
+  label: Cybereason Malops API
+  slug: cybereason-malops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-malops-api-openapi.yml
+- filename: cybereason-remediation-api-openapi.yml
+  format: yaml
+  label: Cybereason Remediation API
+  slug: cybereason-remediation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-remediation-api-openapi.yml
+- filename: cybereason-reputation-api-openapi.yml
+  format: yaml
+  label: Cybereason Reputation API
+  slug: cybereason-reputation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-reputation-api-openapi.yml
+- filename: cybereason-sensors-api-openapi.yml
+  format: yaml
+  label: Cybereason Sensors API
+  slug: cybereason-sensors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-sensors-api-openapi.yml
+- filename: cybereason-threatintel-api-openapi.yml
+  format: yaml
+  label: Cybereason ThreatIntel API
+  slug: cybereason-threatintel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-threatintel-api-openapi.yml
+- filename: cybereason-visualsearch-api-openapi.yml
+  format: yaml
+  label: Cybereason VisualSearch API
+  slug: cybereason-visualsearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-visualsearch-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

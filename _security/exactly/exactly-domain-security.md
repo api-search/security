@@ -1,29 +1,77 @@
 ---
 api_specs:
-- filename: previewer-api.yml
+- filename: exactly-erc-4626-api-openapi.yml
+  format: yaml
+  label: Exactly Protocol ERC-4626 API
+  slug: exactly-erc-4626-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-erc-4626-api-openapi.yml
+- filename: exactly-fixed-rate-api-openapi.yml
+  format: yaml
+  label: Exactly Protocol Fixed Rate API
+  slug: exactly-fixed-rate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-fixed-rate-api-openapi.yml
+- filename: exactly-liquidations-api-openapi.yml
+  format: yaml
+  label: Exactly Protocol Liquidations API
+  slug: exactly-liquidations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-liquidations-api-openapi.yml
+- filename: exactly-liquidity-api-openapi.yml
+  format: yaml
+  label: Exactly Protocol Liquidity API
+  slug: exactly-liquidity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-liquidity-api-openapi.yml
+- filename: exactly-market-management-api-openapi.yml
+  format: yaml
+  label: Exactly Protocol Market Management API
+  slug: exactly-market-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-market-management-api-openapi.yml
+- filename: exactly-market-state-api-openapi.yml
+  format: yaml
+  label: Exactly Protocol Market State API
+  slug: exactly-market-state-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-market-state-api-openapi.yml
+- filename: exactly-markets-api-openapi.yml
+  format: yaml
+  label: Exactly Protocol Markets API
+  slug: exactly-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-markets-api-openapi.yml
+- filename: exactly-previewer-api-openapi.yml
   format: yaml
   label: Exactly Protocol Previewer API
-  slug: exactly-protocol-previewer-api
+  slug: exactly-previewer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/previewer-api.yml
-- filename: market-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-previewer-api-openapi.yml
+- filename: exactly-reward-configuration-api-openapi.yml
   format: yaml
-  label: Exactly Protocol Market API
-  slug: exactly-protocol-market-api
+  label: Exactly Protocol Reward Configuration API
+  slug: exactly-reward-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/market-api.yml
-- filename: auditor-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-reward-configuration-api-openapi.yml
+- filename: exactly-rewards-claims-api-openapi.yml
   format: yaml
-  label: Exactly Protocol Auditor API
-  slug: exactly-protocol-auditor-api
+  label: Exactly Protocol Rewards Claims API
+  slug: exactly-rewards-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/auditor-api.yml
-- filename: rewards-controller-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-rewards-claims-api-openapi.yml
+- filename: exactly-rewards-query-api-openapi.yml
   format: yaml
-  label: Exactly Protocol RewardsController API
-  slug: exactly-protocol-rewardscontroller-api
+  label: Exactly Protocol Rewards Query API
+  slug: exactly-rewards-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/rewards-controller-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-rewards-query-api-openapi.yml
+- filename: exactly-variable-rate-api-openapi.yml
+  format: yaml
+  label: Exactly Protocol Variable Rate API
+  slug: exactly-variable-rate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-variable-rate-api-openapi.yml
 description: ''
 domains:
 - caa: []

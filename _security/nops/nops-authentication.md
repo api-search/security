@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: nops-nops-openapi.yml
+- filename: nops-essentials-scheduler-api-openapi.yml
   format: yaml
-  label: nOps
-  slug: nops
+  label: nOps Essentials Scheduler API
+  slug: nops-essentials-scheduler-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nops/refs/heads/main/openapi/nops-nops-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nops/refs/heads/main/openapi/nops-essentials-scheduler-api-openapi.yml
+- filename: nops-map-migration-api-openapi.yml
+  format: yaml
+  label: nOps MAP Migration API
+  slug: nops-map-migration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nops/refs/heads/main/openapi/nops-map-migration-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

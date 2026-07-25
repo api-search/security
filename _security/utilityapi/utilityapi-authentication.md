@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: utilityapi-openapi.yml
+- filename: utilityapi-accounting-api-openapi.yml
   format: yaml
-  label: UtilityAPI
-  slug: utilityapi
+  label: UtilityAPI Accounting API
+  slug: utilityapi-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-accounting-api-openapi.yml
+- filename: utilityapi-authorizations-api-openapi.yml
+  format: yaml
+  label: UtilityAPI Authorizations API
+  slug: utilityapi-authorizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-authorizations-api-openapi.yml
+- filename: utilityapi-bills-api-openapi.yml
+  format: yaml
+  label: UtilityAPI Bills API
+  slug: utilityapi-bills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-bills-api-openapi.yml
+- filename: utilityapi-events-api-openapi.yml
+  format: yaml
+  label: UtilityAPI Events API
+  slug: utilityapi-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-events-api-openapi.yml
+- filename: utilityapi-files-api-openapi.yml
+  format: yaml
+  label: UtilityAPI Files API
+  slug: utilityapi-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-files-api-openapi.yml
+- filename: utilityapi-forms-api-openapi.yml
+  format: yaml
+  label: UtilityAPI Forms API
+  slug: utilityapi-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-forms-api-openapi.yml
+- filename: utilityapi-intervals-api-openapi.yml
+  format: yaml
+  label: UtilityAPI Intervals API
+  slug: utilityapi-intervals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-intervals-api-openapi.yml
+- filename: utilityapi-meters-api-openapi.yml
+  format: yaml
+  label: UtilityAPI Meters API
+  slug: utilityapi-meters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-meters-api-openapi.yml
+- filename: utilityapi-templates-api-openapi.yml
+  format: yaml
+  label: UtilityAPI Templates API
+  slug: utilityapi-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-templates-api-openapi.yml
 auth_types:
 - http
 description: ''

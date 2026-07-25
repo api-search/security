@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: autopass-openapi.yml
+- filename: autopass-locations-api-openapi.yml
   format: yaml
-  label: Autopass Service Authorization API
-  slug: autopass-service-authorization-api
+  label: Autopass Locations API
+  slug: autopass-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/openapi/autopass-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/openapi/autopass-locations-api-openapi.yml
+- filename: autopass-orders-api-openapi.yml
+  format: yaml
+  label: Autopass Orders API
+  slug: autopass-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/openapi/autopass-orders-api-openapi.yml
+- filename: autopass-sessions-api-openapi.yml
+  format: yaml
+  label: Autopass Sessions API
+  slug: autopass-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/openapi/autopass-sessions-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect

@@ -2,36 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: samcart-openapi.yml
+- filename: samcart-charges-api-openapi.yml
   format: yaml
-  label: SamCart Orders API
-  slug: samcart-orders-api
+  label: SamCart Charges API
+  slug: samcart-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-openapi.yml
-- filename: samcart-openapi.yml
-  format: yaml
-  label: SamCart Products API
-  slug: samcart-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-openapi.yml
-- filename: samcart-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-charges-api-openapi.yml
+- filename: samcart-customers-api-openapi.yml
   format: yaml
   label: SamCart Customers API
   slug: samcart-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-openapi.yml
-- filename: samcart-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-customers-api-openapi.yml
+- filename: samcart-orders-api-openapi.yml
+  format: yaml
+  label: SamCart Orders API
+  slug: samcart-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-orders-api-openapi.yml
+- filename: samcart-products-api-openapi.yml
+  format: yaml
+  label: SamCart Products API
+  slug: samcart-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-products-api-openapi.yml
+- filename: samcart-refunds-api-openapi.yml
+  format: yaml
+  label: SamCart Refunds API
+  slug: samcart-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-refunds-api-openapi.yml
+- filename: samcart-subscriptions-api-openapi.yml
   format: yaml
   label: SamCart Subscriptions API
   slug: samcart-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-openapi.yml
-- filename: samcart-openapi.yml
-  format: yaml
-  label: SamCart Charges and Refunds API
-  slug: samcart-charges-refunds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-subscriptions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

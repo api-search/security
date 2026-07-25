@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: stormglass-openapi.yml
+- filename: stormglass-astronomy-api-openapi.yml
   format: yaml
-  label: Stormglass API
-  slug: stormglass-api
+  label: Stormglass Astronomy API
+  slug: stormglass-astronomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stormglass/refs/heads/main/openapi/stormglass-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stormglass/refs/heads/main/openapi/stormglass-astronomy-api-openapi.yml
+- filename: stormglass-bio-api-openapi.yml
+  format: yaml
+  label: Stormglass Bio API
+  slug: stormglass-bio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stormglass/refs/heads/main/openapi/stormglass-bio-api-openapi.yml
+- filename: stormglass-elevation-api-openapi.yml
+  format: yaml
+  label: Stormglass Elevation API
+  slug: stormglass-elevation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stormglass/refs/heads/main/openapi/stormglass-elevation-api-openapi.yml
+- filename: stormglass-marine-api-openapi.yml
+  format: yaml
+  label: Stormglass Marine API
+  slug: stormglass-marine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stormglass/refs/heads/main/openapi/stormglass-marine-api-openapi.yml
+- filename: stormglass-solar-api-openapi.yml
+  format: yaml
+  label: Stormglass Solar API
+  slug: stormglass-solar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stormglass/refs/heads/main/openapi/stormglass-solar-api-openapi.yml
+- filename: stormglass-tides-api-openapi.yml
+  format: yaml
+  label: Stormglass Tides API
+  slug: stormglass-tides-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stormglass/refs/heads/main/openapi/stormglass-tides-api-openapi.yml
+- filename: stormglass-weather-api-openapi.yml
+  format: yaml
+  label: Stormglass Weather API
+  slug: stormglass-weather-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stormglass/refs/heads/main/openapi/stormglass-weather-api-openapi.yml
 description: ''
 domains:
 - caa: []

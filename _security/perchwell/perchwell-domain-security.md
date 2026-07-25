@@ -1,17 +1,47 @@
 ---
 api_specs:
-- filename: perchwell-json-api-openapi.yml
+- filename: perchwell-listings-api-openapi.yml
   format: yaml
-  label: Perchwell JSON API
-  slug: perchwell-json-api
+  label: Perchwell Listings API
+  slug: perchwell-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-json-api-openapi.yml
-- filename: perchwell-reso-web-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-listings-api-openapi.yml
+- filename: perchwell-media-api-openapi.yml
   format: yaml
-  label: Perchwell RESO Web API
-  slug: perchwell-reso-web-api
+  label: Perchwell Media API
+  slug: perchwell-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-reso-web-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-media-api-openapi.yml
+- filename: perchwell-member-api-openapi.yml
+  format: yaml
+  label: Perchwell Member API
+  slug: perchwell-member-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-member-api-openapi.yml
+- filename: perchwell-metadata-api-openapi.yml
+  format: yaml
+  label: Perchwell Metadata API
+  slug: perchwell-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-metadata-api-openapi.yml
+- filename: perchwell-office-api-openapi.yml
+  format: yaml
+  label: Perchwell Office API
+  slug: perchwell-office-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-office-api-openapi.yml
+- filename: perchwell-openhouse-api-openapi.yml
+  format: yaml
+  label: Perchwell OpenHouse API
+  slug: perchwell-openhouse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-openhouse-api-openapi.yml
+- filename: perchwell-property-api-openapi.yml
+  format: yaml
+  label: Perchwell Property API
+  slug: perchwell-property-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-property-api-openapi.yml
 description: ''
 domains:
 - caa: []

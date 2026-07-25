@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: kafka-connect-openapi.yml
+- filename: kafka-connect-connector-plugins-api-openapi.yml
   format: yaml
-  label: Kafka Connect REST API
-  slug: kafka-connect-rest-api
+  label: Kafka Connect Connector Plugins API
+  slug: kafka-connect-connector-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kafka-connect/refs/heads/main/openapi/kafka-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kafka-connect/refs/heads/main/openapi/kafka-connect-connector-plugins-api-openapi.yml
+- filename: kafka-connect-connectors-api-openapi.yml
+  format: yaml
+  label: Kafka Connect Connectors API
+  slug: kafka-connect-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kafka-connect/refs/heads/main/openapi/kafka-connect-connectors-api-openapi.yml
+- filename: kafka-connect-kafka-connect-rest-api-api-openapi.yml
+  format: yaml
+  label: Kafka Connect Kafka Connect REST API API
+  slug: kafka-connect-kafka-connect-rest-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kafka-connect/refs/heads/main/openapi/kafka-connect-kafka-connect-rest-api-api-openapi.yml
 description: ''
 domains:
 - caa:

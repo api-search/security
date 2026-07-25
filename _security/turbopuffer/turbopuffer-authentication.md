@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: turbopuffer-openapi.yml
+- filename: turbopuffer-namespaces-api-openapi.yml
   format: yaml
-  label: turbopuffer REST API
-  slug: rest-api
+  label: turbopuffer Namespaces API
+  slug: turbopuffer-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turbopuffer/main/openapi/turbopuffer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/turbopuffer/refs/heads/main/openapi/turbopuffer-namespaces-api-openapi.yml
 auth_types:
 - http
 description: ''

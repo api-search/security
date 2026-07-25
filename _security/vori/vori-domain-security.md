@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: vori-openapi.yml
+- filename: vori-store-products-api-openapi.yml
   format: yaml
-  label: Vori API
-  slug: vori-api
+  label: Vori Store products API
+  slug: vori-store-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vori/refs/heads/main/openapi/vori-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vori/refs/heads/main/openapi/vori-store-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

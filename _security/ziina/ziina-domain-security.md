@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: ziina-openapi.yml
-  format: yaml
-  label: Ziina Payment Intent API
-  slug: ziina-payment-intent-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-openapi.yml
-- filename: ziina-openapi.yml
-  format: yaml
-  label: Ziina Refund API
-  slug: ziina-refund-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-openapi.yml
-- filename: ziina-openapi.yml
-  format: yaml
-  label: Ziina Transfer API
-  slug: ziina-transfer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-openapi.yml
-- filename: ziina-openapi.yml
-  format: yaml
-  label: Ziina Webhooks API
-  slug: ziina-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-openapi.yml
-- filename: ziina-openapi.yml
+- filename: ziina-account-api-openapi.yml
   format: yaml
   label: Ziina Account API
   slug: ziina-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-account-api-openapi.yml
+- filename: ziina-healthcheck-api-openapi.yml
+  format: yaml
+  label: Ziina HealthCheck API
+  slug: ziina-healthcheck-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-healthcheck-api-openapi.yml
+- filename: ziina-log-api-openapi.yml
+  format: yaml
+  label: Ziina Log API
+  slug: ziina-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-log-api-openapi.yml
+- filename: ziina-paymentintent-api-openapi.yml
+  format: yaml
+  label: Ziina PaymentIntent API
+  slug: ziina-paymentintent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-paymentintent-api-openapi.yml
+- filename: ziina-refund-api-openapi.yml
+  format: yaml
+  label: Ziina Refund API
+  slug: ziina-refund-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-refund-api-openapi.yml
+- filename: ziina-transfer-api-openapi.yml
+  format: yaml
+  label: Ziina Transfer API
+  slug: ziina-transfer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-transfer-api-openapi.yml
+- filename: ziina-webhook-api-openapi.yml
+  format: yaml
+  label: Ziina Webhook API
+  slug: ziina-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-webhook-api-openapi.yml
 description: ''
 domains:
 - caa: []

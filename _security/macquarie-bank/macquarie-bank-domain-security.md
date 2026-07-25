@@ -1,41 +1,47 @@
 ---
 api_specs:
-- filename: macquarie-bank-cds-banking-products-openapi.yml
+- filename: macquarie-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Macquarie Bank CDR Product Reference Data API
-  slug: macquarie-bank-cdr-product-reference-data-api
+  label: Macquarie Bank Banking Account Balances API
+  slug: macquarie-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/openapi/macquarie-bank-cds-banking-products-openapi.yml
-- filename: macquarie-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/openapi/macquarie-bank-banking-account-balances-api-openapi.yml
+- filename: macquarie-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Macquarie Bank CDR Discovery Status API
-  slug: macquarie-bank-cdr-discovery-status-api
+  label: Macquarie Bank Banking Account Direct Debits API
+  slug: macquarie-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/openapi/macquarie-bank-cds-banking-products-openapi.yml
-- filename: macquarie-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/openapi/macquarie-bank-banking-account-direct-debits-api-openapi.yml
+- filename: macquarie-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Macquarie Bank CDR Accounts & Balances API
-  slug: macquarie-bank-cdr-accounts-balances-api
+  label: Macquarie Bank Banking Account Scheduled Payments API
+  slug: macquarie-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/openapi/macquarie-bank-cds-banking-products-openapi.yml
-- filename: macquarie-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/openapi/macquarie-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: macquarie-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Macquarie Bank CDR Transactions API
-  slug: macquarie-bank-cdr-transactions-api
+  label: Macquarie Bank Banking Account Transactions API
+  slug: macquarie-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/openapi/macquarie-bank-cds-banking-products-openapi.yml
-- filename: macquarie-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/openapi/macquarie-bank-banking-account-transactions-api-openapi.yml
+- filename: macquarie-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: Macquarie Bank CDR Direct Debits & Scheduled Payments API
-  slug: macquarie-bank-cdr-direct-debits-scheduled-payments-api
+  label: Macquarie Bank Banking Accounts API
+  slug: macquarie-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/openapi/macquarie-bank-cds-banking-products-openapi.yml
-- filename: macquarie-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/openapi/macquarie-bank-banking-accounts-api-openapi.yml
+- filename: macquarie-bank-banking-payees-api-openapi.yml
   format: yaml
-  label: Macquarie Bank CDR Payees API
-  slug: macquarie-bank-cdr-payees-api
+  label: Macquarie Bank Banking Payees API
+  slug: macquarie-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/openapi/macquarie-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/openapi/macquarie-bank-banking-payees-api-openapi.yml
+- filename: macquarie-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: Macquarie Bank Banking Products API
+  slug: macquarie-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/openapi/macquarie-bank-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

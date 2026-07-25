@@ -3,18 +3,108 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: howler-consumer-portal-openapi.yml
+- filename: howler-artists-api-openapi.yml
   format: yaml
-  label: Howler API v3 (Consumer Portal)
-  slug: howler-api-v3-consumer-portal
+  label: Howler Artists API
+  slug: howler-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-consumer-portal-openapi.yml
-- filename: howler-webhooks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-artists-api-openapi.yml
+- filename: howler-assign-ticket-api-openapi.yml
   format: yaml
-  label: Howler Webhooks v1
-  slug: howler-webhooks-v1
+  label: Howler Assign Ticket API
+  slug: howler-assign-ticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-webhooks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-assign-ticket-api-openapi.yml
+- filename: howler-bank-account-api-openapi.yml
+  format: yaml
+  label: Howler Bank Account API
+  slug: howler-bank-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-bank-account-api-openapi.yml
+- filename: howler-basic-authentication-api-openapi.yml
+  format: yaml
+  label: Howler Basic Authentication API
+  slug: howler-basic-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-basic-authentication-api-openapi.yml
+- filename: howler-cashless-tags-api-openapi.yml
+  format: yaml
+  label: Howler Cashless Tags API
+  slug: howler-cashless-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-cashless-tags-api-openapi.yml
+- filename: howler-cashout-api-openapi.yml
+  format: yaml
+  label: Howler Cashout API
+  slug: howler-cashout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-cashout-api-openapi.yml
+- filename: howler-email-otp-api-openapi.yml
+  format: yaml
+  label: Howler Email OTP API
+  slug: howler-email-otp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-email-otp-api-openapi.yml
+- filename: howler-events-api-openapi.yml
+  format: yaml
+  label: Howler Events API
+  slug: howler-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-events-api-openapi.yml
+- filename: howler-oauth-api-openapi.yml
+  format: yaml
+  label: Howler OAuth API
+  slug: howler-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-oauth-api-openapi.yml
+- filename: howler-third-party-oauth-api-openapi.yml
+  format: yaml
+  label: Howler Third Party OAuth API
+  slug: howler-third-party-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-third-party-oauth-api-openapi.yml
+- filename: howler-tickets-api-openapi.yml
+  format: yaml
+  label: Howler Tickets API
+  slug: howler-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-tickets-api-openapi.yml
+- filename: howler-top-up-api-openapi.yml
+  format: yaml
+  label: Howler Top Up API
+  slug: howler-top-up-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-top-up-api-openapi.yml
+- filename: howler-top-up-cashless-tag-api-openapi.yml
+  format: yaml
+  label: Howler Top Up Cashless Tag API
+  slug: howler-top-up-cashless-tag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-top-up-cashless-tag-api-openapi.yml
+- filename: howler-top-up-ticket-api-openapi.yml
+  format: yaml
+  label: Howler Top Up Ticket API
+  slug: howler-top-up-ticket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-top-up-ticket-api-openapi.yml
+- filename: howler-topupables-api-openapi.yml
+  format: yaml
+  label: Howler Topupables API
+  slug: howler-topupables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-topupables-api-openapi.yml
+- filename: howler-transfer-ticket-api-openapi.yml
+  format: yaml
+  label: Howler Transfer Ticket API
+  slug: howler-transfer-ticket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-transfer-ticket-api-openapi.yml
+- filename: howler-user-api-openapi.yml
+  format: yaml
+  label: Howler User API
+  slug: howler-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-user-api-openapi.yml
 auth_types:
 - apiKey
 - http

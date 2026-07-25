@@ -2,24 +2,132 @@
 api_key_in:
 - cookie
 api_specs:
-- filename: ankorstore-main-openapi-original.yml
+- filename: ankorstore-applications-api-openapi.yml
   format: yaml
-  label: Ankorstore Public API
-  slug: ankorstore-public-api
+  label: Ankorstore Applications API
+  slug: ankorstore-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-main-openapi-original.yml
-- filename: ankorstore-astral-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-applications-api-openapi.yml
+- filename: ankorstore-brands-api-openapi.yml
   format: yaml
-  label: Ankorstore Stock Tracking and Logistics API (ASTRAL)
-  slug: ankorstore-stock-tracking-and-logistics-api-astral
+  label: Ankorstore Brands API
+  slug: ankorstore-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-astral-openapi-original.yml
-- filename: ankorstore-fulfillment-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-brands-api-openapi.yml
+- filename: ankorstore-catalog-api-openapi.yml
   format: yaml
-  label: Ankorstore Fulfillment Service API
-  slug: ankorstore-fulfillment-service-api
+  label: Ankorstore Catalog API
+  slug: ankorstore-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-fulfillment-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-catalog-api-openapi.yml
+- filename: ankorstore-catalog-exchange-api-openapi.yml
+  format: yaml
+  label: Ankorstore Catalog Exchange API
+  slug: ankorstore-catalog-exchange-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-catalog-exchange-api-openapi.yml
+- filename: ankorstore-catalog-integrations-api-openapi.yml
+  format: yaml
+  label: Ankorstore Catalog Integrations API
+  slug: ankorstore-catalog-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-catalog-integrations-api-openapi.yml
+- filename: ankorstore-deprecated-api-openapi.yml
+  format: yaml
+  label: Ankorstore Deprecated API
+  slug: ankorstore-deprecated-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-deprecated-api-openapi.yml
+- filename: ankorstore-fulfillment-api-openapi.yml
+  format: yaml
+  label: Ankorstore Fulfillment API
+  slug: ankorstore-fulfillment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-fulfillment-api-openapi.yml
+- filename: ankorstore-general-api-openapi.yml
+  format: yaml
+  label: Ankorstore General API
+  slug: ankorstore-general-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-general-api-openapi.yml
+- filename: ankorstore-integration-api-openapi.yml
+  format: yaml
+  label: Ankorstore Integration API
+  slug: ankorstore-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-integration-api-openapi.yml
+- filename: ankorstore-locations-api-openapi.yml
+  format: yaml
+  label: Ankorstore Locations API
+  slug: ankorstore-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-locations-api-openapi.yml
+- filename: ankorstore-media-api-openapi.yml
+  format: yaml
+  label: Ankorstore Media API
+  slug: ankorstore-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-media-api-openapi.yml
+- filename: ankorstore-movements-api-openapi.yml
+  format: yaml
+  label: Ankorstore Movements API
+  slug: ankorstore-movements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-movements-api-openapi.yml
+- filename: ankorstore-ordering-api-openapi.yml
+  format: yaml
+  label: Ankorstore Ordering API
+  slug: ankorstore-ordering-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-ordering-api-openapi.yml
+- filename: ankorstore-orderpay-api-openapi.yml
+  format: yaml
+  label: Ankorstore OrderPay API
+  slug: ankorstore-orderpay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-orderpay-api-openapi.yml
+- filename: ankorstore-shipping-api-openapi.yml
+  format: yaml
+  label: Ankorstore Shipping API
+  slug: ankorstore-shipping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-shipping-api-openapi.yml
+- filename: ankorstore-state-api-openapi.yml
+  format: yaml
+  label: Ankorstore State API
+  slug: ankorstore-state-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-state-api-openapi.yml
+- filename: ankorstore-stock-management-api-openapi.yml
+  format: yaml
+  label: Ankorstore Stock Management API
+  slug: ankorstore-stock-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-stock-management-api-openapi.yml
+- filename: ankorstore-testing-api-openapi.yml
+  format: yaml
+  label: Ankorstore Testing API
+  slug: ankorstore-testing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-testing-api-openapi.yml
+- filename: ankorstore-user-api-openapi.yml
+  format: yaml
+  label: Ankorstore User API
+  slug: ankorstore-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-user-api-openapi.yml
+- filename: ankorstore-users-api-openapi.yml
+  format: yaml
+  label: Ankorstore Users API
+  slug: ankorstore-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-users-api-openapi.yml
+- filename: ankorstore-webhooks-api-openapi.yml
+  format: yaml
+  label: Ankorstore Webhooks API
+  slug: ankorstore-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/openapi/ankorstore-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

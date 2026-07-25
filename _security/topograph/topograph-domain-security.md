@@ -1,17 +1,47 @@
 ---
 api_specs:
-- filename: topograph-openapi-original.json
-  format: json
-  label: Topograph API
-  slug: topograph-api
+- filename: topograph-billing-api-openapi.yml
+  format: yaml
+  label: Topograph Billing API
+  slug: topograph-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-openapi-original.json
-- filename: topograph-x402-openapi.json
-  format: json
-  label: Topograph x402 (agentic commerce)
-  slug: topograph-x402-agentic-commerce
+  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-billing-api-openapi.yml
+- filename: topograph-billing-notifications-api-openapi.yml
+  format: yaml
+  label: Topograph Billing Notifications API
+  slug: topograph-billing-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-x402-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-billing-notifications-api-openapi.yml
+- filename: topograph-data-api-openapi.yml
+  format: yaml
+  label: Topograph Data API
+  slug: topograph-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-data-api-openapi.yml
+- filename: topograph-monitors-api-openapi.yml
+  format: yaml
+  label: Topograph Monitors API
+  slug: topograph-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-monitors-api-openapi.yml
+- filename: topograph-pricing-api-openapi.yml
+  format: yaml
+  label: Topograph Pricing API
+  slug: topograph-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-pricing-api-openapi.yml
+- filename: topograph-search-api-openapi.yml
+  format: yaml
+  label: Topograph Search API
+  slug: topograph-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-search-api-openapi.yml
+- filename: topograph-workspaces-api-openapi.yml
+  format: yaml
+  label: Topograph Workspaces API
+  slug: topograph-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,18 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cisco-systems-cisco-api-openapi.yml
+- filename: cisco-systems-networking-api-openapi.yml
   format: yaml
-  label: Cisco DevNet API Catalog
-  slug: devnet-api
+  label: Cisco Systems Networking API
+  slug: cisco-systems-networking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-systems/refs/heads/main/openapi/cisco-systems-cisco-api-openapi.yml
-- filename: openapiSpec
-  format: yaml
-  label: Cisco Meraki Dashboard
-  slug: meraki
-  spec_type: OpenAPI
-  url: https://api.meraki.com/api/v1/openapiSpec
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-systems/refs/heads/main/openapi/cisco-systems-networking-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: fedex-openapi.yml
+- filename: fedex-authorization-api-openapi.yml
+  format: yaml
+  label: FedEx Authorization API
+  slug: fedex-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fedex/refs/heads/main/openapi/fedex-authorization-api-openapi.yml
+- filename: fedex-track-api-openapi.yml
   format: yaml
   label: FedEx Track API
-  slug: track
+  slug: fedex-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fedex/refs/heads/main/openapi/fedex-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fedex/refs/heads/main/openapi/fedex-track-api-openapi.yml
 description: ''
 domains:
 - caa:

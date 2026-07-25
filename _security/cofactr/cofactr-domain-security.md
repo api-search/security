@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: cofactr-knowledge-graph-openapi-original.json
-  format: json
-  label: Cofactr Knowledge Graph (Component Cloud) API
-  slug: cofactr-knowledge-graph-component-cloud-api
+- filename: cofactr-batch-api-openapi.yml
+  format: yaml
+  label: Cofactr batch API
+  slug: cofactr-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/openapi/cofactr-knowledge-graph-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/openapi/cofactr-batch-api-openapi.yml
+- filename: cofactr-products-api-openapi.yml
+  format: yaml
+  label: Cofactr products API
+  slug: cofactr-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/openapi/cofactr-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

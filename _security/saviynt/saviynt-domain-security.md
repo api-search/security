@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: saviynt-eic-api_openapi3.yaml
+- filename: saviynt-analytics-api-openapi.yml
   format: yaml
-  label: Saviynt Enterprise Identity Cloud API
-  slug: saviynt-enterprise-identity-cloud-api
+  label: Saviynt Analytics API
+  slug: saviynt-analytics-api
   spec_type: OpenAPI
-  url: https://github.com/vivek9237/saviynt-api-reference/blob/main/docs/saviynt-eic-api_openapi3.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/openapi/saviynt-analytics-api-openapi.yml
 description: ''
 domains:
 - caa:

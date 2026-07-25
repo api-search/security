@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: unpaywall-openapi.yml
+- filename: unpaywall-doi-lookup-api-openapi.yml
   format: yaml
-  label: Unpaywall API
-  slug: unpaywall
+  label: Unpaywall DOI Lookup API
+  slug: unpaywall-doi-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unpaywall/refs/heads/main/openapi/unpaywall-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unpaywall/refs/heads/main/openapi/unpaywall-doi-lookup-api-openapi.yml
+- filename: unpaywall-search-api-openapi.yml
+  format: yaml
+  label: Unpaywall Search API
+  slug: unpaywall-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unpaywall/refs/heads/main/openapi/unpaywall-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

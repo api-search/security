@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: pexels-openapi.yml
+- filename: pexels-collections-api-openapi.yml
   format: yaml
-  label: Pexels API
-  slug: pexels-api
+  label: Pexels Collections API
+  slug: pexels-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexels/refs/heads/main/openapi/pexels-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pexels/refs/heads/main/openapi/pexels-collections-api-openapi.yml
+- filename: pexels-photos-api-openapi.yml
+  format: yaml
+  label: Pexels Photos API
+  slug: pexels-photos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pexels/refs/heads/main/openapi/pexels-photos-api-openapi.yml
+- filename: pexels-videos-api-openapi.yml
+  format: yaml
+  label: Pexels Videos API
+  slug: pexels-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pexels/refs/heads/main/openapi/pexels-videos-api-openapi.yml
 description: ''
 domains:
 - caa: []

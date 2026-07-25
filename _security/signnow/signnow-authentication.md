@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: signnow-openapi.yml
+- filename: signnow-authentication-api-openapi.yml
   format: yaml
-  label: SignNow REST API
-  slug: signnow-rest-api
+  label: SignNow Authentication API
+  slug: signnow-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-authentication-api-openapi.yml
+- filename: signnow-documents-api-openapi.yml
+  format: yaml
+  label: SignNow Documents API
+  slug: signnow-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-documents-api-openapi.yml
+- filename: signnow-envelopes-api-openapi.yml
+  format: yaml
+  label: SignNow Envelopes API
+  slug: signnow-envelopes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-envelopes-api-openapi.yml
+- filename: signnow-signing-api-openapi.yml
+  format: yaml
+  label: SignNow Signing API
+  slug: signnow-signing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-signing-api-openapi.yml
+- filename: signnow-templates-api-openapi.yml
+  format: yaml
+  label: SignNow Templates API
+  slug: signnow-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-templates-api-openapi.yml
+- filename: signnow-users-api-openapi.yml
+  format: yaml
+  label: SignNow Users API
+  slug: signnow-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-users-api-openapi.yml
+- filename: signnow-webhooks-api-openapi.yml
+  format: yaml
+  label: SignNow Webhooks API
+  slug: signnow-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

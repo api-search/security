@@ -1,30 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: prelude-so-openapi.yml
-  format: yaml
-  label: Prelude Verification API
-  slug: prelude-so-verification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prelude-so/refs/heads/main/openapi/prelude-so-openapi.yml
-- filename: prelude-so-openapi.yml
+- filename: prelude-so-lookup-api-openapi.yml
   format: yaml
   label: Prelude Lookup API
   slug: prelude-so-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prelude-so/refs/heads/main/openapi/prelude-so-openapi.yml
-- filename: prelude-so-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prelude-so/refs/heads/main/openapi/prelude-so-lookup-api-openapi.yml
+- filename: prelude-so-transactional-api-openapi.yml
   format: yaml
-  label: Prelude Watch Anti-Fraud API
-  slug: prelude-so-watch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prelude-so/refs/heads/main/openapi/prelude-so-openapi.yml
-- filename: prelude-so-openapi.yml
-  format: yaml
-  label: Prelude Transactional Messaging API
+  label: Prelude Transactional API
   slug: prelude-so-transactional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prelude-so/refs/heads/main/openapi/prelude-so-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prelude-so/refs/heads/main/openapi/prelude-so-transactional-api-openapi.yml
+- filename: prelude-so-verification-api-openapi.yml
+  format: yaml
+  label: Prelude Verification API
+  slug: prelude-so-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prelude-so/refs/heads/main/openapi/prelude-so-verification-api-openapi.yml
+- filename: prelude-so-watch-api-openapi.yml
+  format: yaml
+  label: Prelude Watch API
+  slug: prelude-so-watch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prelude-so/refs/heads/main/openapi/prelude-so-watch-api-openapi.yml
 auth_types:
 - http
 description: ''

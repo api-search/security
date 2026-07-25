@@ -1,12 +1,120 @@
 ---
 api_key_in: []
 api_specs:
-- filename: fudo-openapi-original.yml
+- filename: fudo-customers-api-openapi.yml
   format: yaml
-  label: Fudo API
-  slug: fudo-api
+  label: Fudo Customers API
+  slug: fudo-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/openapi/fudo-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/openapi/fudo-customers-api-openapi.yml
+- filename: fudo-discounts-api-openapi.yml
+  format: yaml
+  label: Fudo Discounts API
+  slug: fudo-discounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/openapi/fudo-discounts-api-openapi.yml
+- filename: fudo-expense-categories-api-openapi.yml
+  format: yaml
+  label: Fudo Expense Categories API
+  slug: fudo-expense-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/openapi/fudo-expense-categories-api-openapi.yml
+- filename: fudo-expenses-api-openapi.yml
+  format: yaml
+  label: Fudo Expenses API
+  slug: fudo-expenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/openapi/fudo-expenses-api-openapi.yml
+- filename: fudo-ingredients-api-openapi.yml
+  format: yaml
+  label: Fudo Ingredients API
+  slug: fudo-ingredients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/openapi/fudo-ingredients-api-openapi.yml
+- filename: fudo-items-api-openapi.yml
+  format: yaml
+  label: Fudo Items API
+  slug: fudo-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/openapi/fudo-items-api-openapi.yml
+- filename: fudo-kitchens-api-openapi.yml
+  format: yaml
+  label: Fudo Kitchens API
+  slug: fudo-kitchens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/openapi/fudo-kitchens-api-openapi.yml
+- filename: fudo-payment-methods-api-openapi.yml
+  format: yaml
+  label: Fudo Payment Methods API
+  slug: fudo-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/openapi/fudo-payment-methods-api-openapi.yml
+- filename: fudo-payments-api-openapi.yml
+  format: yaml
+  label: Fudo Payments API
+  slug: fudo-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/openapi/fudo-payments-api-openapi.yml
+- filename: fudo-product-categories-api-openapi.yml
+  format: yaml
+  label: Fudo Product Categories API
+  slug: fudo-product-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/openapi/fudo-product-categories-api-openapi.yml
+- filename: fudo-product-modifiers-api-openapi.yml
+  format: yaml
+  label: Fudo Product Modifiers API
+  slug: fudo-product-modifiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/openapi/fudo-product-modifiers-api-openapi.yml
+- filename: fudo-products-api-openapi.yml
+  format: yaml
+  label: Fudo Products API
+  slug: fudo-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/openapi/fudo-products-api-openapi.yml
+- filename: fudo-providers-api-openapi.yml
+  format: yaml
+  label: Fudo Providers API
+  slug: fudo-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/openapi/fudo-providers-api-openapi.yml
+- filename: fudo-roles-api-openapi.yml
+  format: yaml
+  label: Fudo Roles API
+  slug: fudo-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/openapi/fudo-roles-api-openapi.yml
+- filename: fudo-rooms-api-openapi.yml
+  format: yaml
+  label: Fudo Rooms API
+  slug: fudo-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/openapi/fudo-rooms-api-openapi.yml
+- filename: fudo-sales-api-openapi.yml
+  format: yaml
+  label: Fudo Sales API
+  slug: fudo-sales-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/openapi/fudo-sales-api-openapi.yml
+- filename: fudo-subitems-api-openapi.yml
+  format: yaml
+  label: Fudo Subitems API
+  slug: fudo-subitems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/openapi/fudo-subitems-api-openapi.yml
+- filename: fudo-tables-api-openapi.yml
+  format: yaml
+  label: Fudo Tables API
+  slug: fudo-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/openapi/fudo-tables-api-openapi.yml
+- filename: fudo-users-api-openapi.yml
+  format: yaml
+  label: Fudo Users API
+  slug: fudo-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/openapi/fudo-users-api-openapi.yml
 auth_types:
 - http
 description: ''

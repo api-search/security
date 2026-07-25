@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: amazon-resilience-hub-applications-api-openapi.yml
   format: yaml
-  label: AWS Resilience Hub API
-  slug: aws-resilience-hub-api
+  label: Amazon Resilience Hub Applications API
+  slug: amazon-resilience-hub-applications-api
   spec_type: OpenAPI
-  url: https://api.apis.guru/v2/specs/amazonaws.com/resiliencehub/2020-04-30/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/openapi/amazon-resilience-hub-applications-api-openapi.yml
+- filename: amazon-resilience-hub-assessments-api-openapi.yml
+  format: yaml
+  label: Amazon Resilience Hub Assessments API
+  slug: amazon-resilience-hub-assessments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/openapi/amazon-resilience-hub-assessments-api-openapi.yml
+- filename: amazon-resilience-hub-recommendations-api-openapi.yml
+  format: yaml
+  label: Amazon Resilience Hub Recommendations API
+  slug: amazon-resilience-hub-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/openapi/amazon-resilience-hub-recommendations-api-openapi.yml
+- filename: amazon-resilience-hub-resiliency-policies-api-openapi.yml
+  format: yaml
+  label: Amazon Resilience Hub Resiliency Policies API
+  slug: amazon-resilience-hub-resiliency-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/openapi/amazon-resilience-hub-resiliency-policies-api-openapi.yml
+- filename: amazon-resilience-hub-resource-management-api-openapi.yml
+  format: yaml
+  label: Amazon Resilience Hub Resource Management API
+  slug: amazon-resilience-hub-resource-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/openapi/amazon-resilience-hub-resource-management-api-openapi.yml
+- filename: amazon-resilience-hub-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Resilience Hub Tags API
+  slug: amazon-resilience-hub-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/openapi/amazon-resilience-hub-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,12 +2,18 @@
 api_key_in:
 - query
 api_specs:
-- filename: johns-hopkins-university-sis-course-search.yaml
+- filename: johns-hopkins-university-classes-api-openapi.yml
   format: yaml
-  label: Self-Service Public Course Search API (SIS)
-  slug: sis-course-search
+  label: Johns Hopkins University Classes API
+  slug: johns-hopkins-university-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/openapi/johns-hopkins-university-sis-course-search.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/openapi/johns-hopkins-university-classes-api-openapi.yml
+- filename: johns-hopkins-university-codes-api-openapi.yml
+  format: yaml
+  label: Johns Hopkins University Codes API
+  slug: johns-hopkins-university-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/openapi/johns-hopkins-university-codes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

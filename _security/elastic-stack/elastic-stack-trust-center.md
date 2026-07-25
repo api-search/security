@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: elastic-stack-openapi.yml
+- filename: elastic-stack-bulk-api-openapi.yml
   format: yaml
-  label: Elasticsearch API
-  slug: elasticsearch-api
+  label: Elastic Stack Bulk API
+  slug: elastic-stack-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elastic-stack/refs/heads/main/openapi/elastic-stack-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elastic-stack/refs/heads/main/openapi/elastic-stack-bulk-api-openapi.yml
+- filename: elastic-stack-cluster-api-openapi.yml
+  format: yaml
+  label: Elastic Stack Cluster API
+  slug: elastic-stack-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic-stack/refs/heads/main/openapi/elastic-stack-cluster-api-openapi.yml
+- filename: elastic-stack-doc-api-openapi.yml
+  format: yaml
+  label: Elastic Stack Doc API
+  slug: elastic-stack-doc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic-stack/refs/heads/main/openapi/elastic-stack-doc-api-openapi.yml
+- filename: elastic-stack-elasticsearch-api-api-openapi.yml
+  format: yaml
+  label: Elastic Stack Elasticsearch API API
+  slug: elastic-stack-elasticsearch-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic-stack/refs/heads/main/openapi/elastic-stack-elasticsearch-api-api-openapi.yml
+- filename: elastic-stack-search-api-openapi.yml
+  format: yaml
+  label: Elastic Stack Search API
+  slug: elastic-stack-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic-stack/refs/heads/main/openapi/elastic-stack-search-api-openapi.yml
+- filename: elastic-stack-settings-api-openapi.yml
+  format: yaml
+  label: Elastic Stack Settings API
+  slug: elastic-stack-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic-stack/refs/heads/main/openapi/elastic-stack-settings-api-openapi.yml
 certifications:
 - GDPR
 description: ''

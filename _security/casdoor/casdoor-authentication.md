@@ -7,6 +7,48 @@ api_specs:
   slug: casdoor-rest-api
   spec_type: OpenAPI
   url: https://door.casdoor.com/swagger/
+- filename: casdoor-applications-api-openapi.yml
+  format: yaml
+  label: Casdoor Applications API
+  slug: casdoor-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-applications-api-openapi.yml
+- filename: casdoor-authentication-api-openapi.yml
+  format: yaml
+  label: Casdoor Authentication API
+  slug: casdoor-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-authentication-api-openapi.yml
+- filename: casdoor-oidc-api-openapi.yml
+  format: yaml
+  label: Casdoor OIDC API
+  slug: casdoor-oidc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-oidc-api-openapi.yml
+- filename: casdoor-organizations-api-openapi.yml
+  format: yaml
+  label: Casdoor Organizations API
+  slug: casdoor-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-organizations-api-openapi.yml
+- filename: casdoor-permissions-api-openapi.yml
+  format: yaml
+  label: Casdoor Permissions API
+  slug: casdoor-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-permissions-api-openapi.yml
+- filename: casdoor-roles-api-openapi.yml
+  format: yaml
+  label: Casdoor Roles API
+  slug: casdoor-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-roles-api-openapi.yml
+- filename: casdoor-users-api-openapi.yml
+  format: yaml
+  label: Casdoor Users API
+  slug: casdoor-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-users-api-openapi.yml
 auth_types:
 - http
 description: ''

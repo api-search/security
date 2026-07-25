@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: ssh-key-management-openapi.yml
+- filename: ssh-authorized-keys-api-openapi.yml
   format: yaml
-  label: OpenSSH Key Management API
-  slug: openssh-management
+  label: SSH Authorized Keys API
+  slug: ssh-authorized-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssh/refs/heads/main/openapi/ssh-key-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ssh/refs/heads/main/openapi/ssh-authorized-keys-api-openapi.yml
+- filename: ssh-certificates-api-openapi.yml
+  format: yaml
+  label: SSH Certificates API
+  slug: ssh-certificates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ssh/refs/heads/main/openapi/ssh-certificates-api-openapi.yml
+- filename: ssh-host-keys-api-openapi.yml
+  format: yaml
+  label: SSH Host Keys API
+  slug: ssh-host-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ssh/refs/heads/main/openapi/ssh-host-keys-api-openapi.yml
+- filename: ssh-keys-api-openapi.yml
+  format: yaml
+  label: SSH Keys API
+  slug: ssh-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ssh/refs/heads/main/openapi/ssh-keys-api-openapi.yml
+- filename: ssh-known-hosts-api-openapi.yml
+  format: yaml
+  label: SSH Known Hosts API
+  slug: ssh-known-hosts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ssh/refs/heads/main/openapi/ssh-known-hosts-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: swift-swiftref-api-openapi.yml
+- filename: swift-account-numbers-api-openapi.yml
   format: yaml
-  label: SwiftRef API
-  slug: swiftref-api
+  label: SWIFT Account Numbers API
+  slug: swift-account-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swift/refs/heads/main/openapi/swift-swiftref-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/swift/refs/heads/main/openapi/swift-account-numbers-api-openapi.yml
+- filename: swift-bbans-api-openapi.yml
+  format: yaml
+  label: SWIFT BBANs API
+  slug: swift-bbans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swift/refs/heads/main/openapi/swift-bbans-api-openapi.yml
+- filename: swift-bics-api-openapi.yml
+  format: yaml
+  label: SWIFT BICs API
+  slug: swift-bics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swift/refs/heads/main/openapi/swift-bics-api-openapi.yml
+- filename: swift-country-codes-api-openapi.yml
+  format: yaml
+  label: SWIFT Country Codes API
+  slug: swift-country-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swift/refs/heads/main/openapi/swift-country-codes-api-openapi.yml
+- filename: swift-currency-codes-api-openapi.yml
+  format: yaml
+  label: SWIFT Currency Codes API
+  slug: swift-currency-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swift/refs/heads/main/openapi/swift-currency-codes-api-openapi.yml
+- filename: swift-ibans-api-openapi.yml
+  format: yaml
+  label: SWIFT IBANs API
+  slug: swift-ibans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swift/refs/heads/main/openapi/swift-ibans-api-openapi.yml
+- filename: swift-leis-api-openapi.yml
+  format: yaml
+  label: SWIFT LEIs API
+  slug: swift-leis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swift/refs/heads/main/openapi/swift-leis-api-openapi.yml
+- filename: swift-national-ids-api-openapi.yml
+  format: yaml
+  label: SWIFT National IDs API
+  slug: swift-national-ids-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swift/refs/heads/main/openapi/swift-national-ids-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,36 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: refuel-ai-openapi.yml
+- filename: refuel-ai-applications-api-openapi.yml
   format: yaml
   label: Refuel Applications API
-  slug: refuel-applications-api
+  slug: refuel-ai-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-openapi.yml
-- filename: refuel-ai-openapi.yml
-  format: yaml
-  label: Refuel Tasks API
-  slug: refuel-tasks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-openapi.yml
-- filename: refuel-ai-openapi.yml
-  format: yaml
-  label: Refuel Datasets API
-  slug: refuel-datasets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-openapi.yml
-- filename: refuel-ai-openapi.yml
-  format: yaml
-  label: Refuel Labeling and Predict API
-  slug: refuel-labeling-predict-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-openapi.yml
-- filename: refuel-ai-openapi.yml
-  format: yaml
-  label: Refuel Models API
-  slug: refuel-models-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-applications-api-openapi.yml
 auth_types:
 - http
 description: ''

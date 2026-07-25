@@ -1,24 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Microsoft Copilot API
-  slug: microsoft-copilot-api
-  spec_type: OpenAPI
-  url: https://api.copilot.microsoft.com/openapi.json
-- filename: openapi.json
-  format: json
-  label: Microsoft Graph API (Copilot Integration)
-  slug: microsoft-graph-api-copilot-integration
-  spec_type: OpenAPI
-  url: https://graph.microsoft.com/openapi.json
-- filename: microsoft-copilot-openapi.yml
+- filename: microsoft-copilot-change-notifications-api-openapi.yml
   format: yaml
-  label: Microsoft 365 Copilot APIs
-  slug: microsoft-365-copilot-apis
+  label: Microsoft Copilot Change Notifications API
+  slug: microsoft-copilot-change-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/openapi/microsoft-copilot-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/openapi/microsoft-copilot-change-notifications-api-openapi.yml
+- filename: microsoft-copilot-chat-api-openapi.yml
+  format: yaml
+  label: Microsoft Copilot Chat API
+  slug: microsoft-copilot-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/openapi/microsoft-copilot-chat-api-openapi.yml
+- filename: microsoft-copilot-interaction-export-api-openapi.yml
+  format: yaml
+  label: Microsoft Copilot Interaction Export API
+  slug: microsoft-copilot-interaction-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/openapi/microsoft-copilot-interaction-export-api-openapi.yml
+- filename: microsoft-copilot-retrieval-api-openapi.yml
+  format: yaml
+  label: Microsoft Copilot Retrieval API
+  slug: microsoft-copilot-retrieval-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/openapi/microsoft-copilot-retrieval-api-openapi.yml
+- filename: microsoft-copilot-search-api-openapi.yml
+  format: yaml
+  label: Microsoft Copilot Search API
+  slug: microsoft-copilot-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/openapi/microsoft-copilot-search-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,23 +1,107 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Trellix Web Gateway REST API
-  slug: trellix-web-gateway-rest-api
-  spec_type: OpenAPI
-  url: https://docs.trellix.com/api/web-gateway/openapi.json
-- filename: trellix-web-gateway-reporting-openapi.yml
+- filename: trellix-web-gateway-anti-malware-api-openapi.yml
   format: yaml
-  label: Trellix Web Gateway Reporting API
-  slug: trellix-web-gateway-reporting-api
+  label: Trellix Web Gateway Anti-Malware API
+  slug: trellix-web-gateway-anti-malware-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-reporting-openapi.yml
-- filename: trellix-web-gateway-policy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-anti-malware-api-openapi.yml
+- filename: trellix-web-gateway-authentication-api-openapi.yml
   format: yaml
-  label: Trellix Web Gateway Policy API
-  slug: trellix-web-gateway-policy-api
+  label: Trellix Web Gateway Authentication API
+  slug: trellix-web-gateway-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-policy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-authentication-api-openapi.yml
+- filename: trellix-web-gateway-configuration-api-openapi.yml
+  format: yaml
+  label: Trellix Web Gateway Configuration API
+  slug: trellix-web-gateway-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-configuration-api-openapi.yml
+- filename: trellix-web-gateway-dashboards-api-openapi.yml
+  format: yaml
+  label: Trellix Web Gateway Dashboards API
+  slug: trellix-web-gateway-dashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-dashboards-api-openapi.yml
+- filename: trellix-web-gateway-data-loss-prevention-api-openapi.yml
+  format: yaml
+  label: Trellix Web Gateway Data Loss Prevention API
+  slug: trellix-web-gateway-data-loss-prevention-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-data-loss-prevention-api-openapi.yml
+- filename: trellix-web-gateway-files-api-openapi.yml
+  format: yaml
+  label: Trellix Web Gateway Files API
+  slug: trellix-web-gateway-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-files-api-openapi.yml
+- filename: trellix-web-gateway-lists-api-openapi.yml
+  format: yaml
+  label: Trellix Web Gateway Lists API
+  slug: trellix-web-gateway-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-lists-api-openapi.yml
+- filename: trellix-web-gateway-reports-api-openapi.yml
+  format: yaml
+  label: Trellix Web Gateway Reports API
+  slug: trellix-web-gateway-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-reports-api-openapi.yml
+- filename: trellix-web-gateway-rule-sets-api-openapi.yml
+  format: yaml
+  label: Trellix Web Gateway Rule Sets API
+  slug: trellix-web-gateway-rule-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-rule-sets-api-openapi.yml
+- filename: trellix-web-gateway-rules-api-openapi.yml
+  format: yaml
+  label: Trellix Web Gateway Rules API
+  slug: trellix-web-gateway-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-rules-api-openapi.yml
+- filename: trellix-web-gateway-security-events-api-openapi.yml
+  format: yaml
+  label: Trellix Web Gateway Security Events API
+  slug: trellix-web-gateway-security-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-security-events-api-openapi.yml
+- filename: trellix-web-gateway-ssl-scanning-api-openapi.yml
+  format: yaml
+  label: Trellix Web Gateway SSL Scanning API
+  slug: trellix-web-gateway-ssl-scanning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-ssl-scanning-api-openapi.yml
+- filename: trellix-web-gateway-statistics-api-openapi.yml
+  format: yaml
+  label: Trellix Web Gateway Statistics API
+  slug: trellix-web-gateway-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-statistics-api-openapi.yml
+- filename: trellix-web-gateway-system-api-openapi.yml
+  format: yaml
+  label: Trellix Web Gateway System API
+  slug: trellix-web-gateway-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-system-api-openapi.yml
+- filename: trellix-web-gateway-traffic-logs-api-openapi.yml
+  format: yaml
+  label: Trellix Web Gateway Traffic Logs API
+  slug: trellix-web-gateway-traffic-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-traffic-logs-api-openapi.yml
+- filename: trellix-web-gateway-troubleshooting-api-openapi.yml
+  format: yaml
+  label: Trellix Web Gateway Troubleshooting API
+  slug: trellix-web-gateway-troubleshooting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-troubleshooting-api-openapi.yml
+- filename: trellix-web-gateway-url-filtering-api-openapi.yml
+  format: yaml
+  label: Trellix Web Gateway URL Filtering API
+  slug: trellix-web-gateway-url-filtering-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-url-filtering-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: ethereum-json-rpc-openapi.yml
+- filename: ethereum-ethereum-json-rpc-api-api-openapi.yml
   format: yaml
-  label: Ethereum JSON-RPC API
-  slug: ethereum-json-rpc-api
+  label: Ethereum Ethereum JSON RPC API API
+  slug: ethereum-ethereum-json-rpc-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ethereum/refs/heads/main/openapi/ethereum-json-rpc-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ethereum/refs/heads/main/openapi/ethereum-ethereum-json-rpc-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

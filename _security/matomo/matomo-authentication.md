@@ -2,18 +2,18 @@
 api_key_in:
 - query
 api_specs:
-- filename: matomo-openapi.yml
+- filename: matomo-index-php-api-openapi.yml
   format: yaml
-  label: Matomo Reporting API
-  slug: reporting-api
+  label: Matomo Index.php API
+  slug: matomo-index-php-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-openapi.yml
-- filename: matomo-tracking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-index-php-api-openapi.yml
+- filename: matomo-matomo-php-api-openapi.yml
   format: yaml
-  label: Matomo Tracking API
-  slug: tracking-api
+  label: Matomo Matomo.php API
+  slug: matomo-matomo-php-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-tracking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-matomo-php-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

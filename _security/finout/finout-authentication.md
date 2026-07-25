@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: finout-api-openapi.yml
+- filename: finout-cost-api-openapi.yml
   format: yaml
-  label: Finout
-  slug: finout
+  label: Finout Cost API
+  slug: finout-cost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finout/refs/heads/main/openapi/finout-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/finout/refs/heads/main/openapi/finout-cost-api-openapi.yml
+- filename: finout-costguard-api-openapi.yml
+  format: yaml
+  label: Finout CostGuard API
+  slug: finout-costguard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finout/refs/heads/main/openapi/finout-costguard-api-openapi.yml
+- filename: finout-endpoints-api-openapi.yml
+  format: yaml
+  label: Finout Endpoints API
+  slug: finout-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finout/refs/heads/main/openapi/finout-endpoints-api-openapi.yml
+- filename: finout-query-language-api-openapi.yml
+  format: yaml
+  label: Finout Query Language API
+  slug: finout-query-language-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finout/refs/heads/main/openapi/finout-query-language-api-openapi.yml
+- filename: finout-virtual-tag-metadata-api-openapi.yml
+  format: yaml
+  label: Finout Virtual Tag Metadata API
+  slug: finout-virtual-tag-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finout/refs/heads/main/openapi/finout-virtual-tag-metadata-api-openapi.yml
+- filename: finout-virtual-tags-api-openapi.yml
+  format: yaml
+  label: Finout Virtual Tags API
+  slug: finout-virtual-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finout/refs/heads/main/openapi/finout-virtual-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

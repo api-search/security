@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: sana-openapi.yml
+- filename: sana-assignments-api-openapi.yml
   format: yaml
-  label: Sana API
-  slug: sana-api
+  label: Sana Assignments API
+  slug: sana-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-assignments-api-openapi.yml
+- filename: sana-authentication-api-openapi.yml
+  format: yaml
+  label: Sana Authentication API
+  slug: sana-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-authentication-api-openapi.yml
+- filename: sana-courses-api-openapi.yml
+  format: yaml
+  label: Sana Courses API
+  slug: sana-courses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-courses-api-openapi.yml
+- filename: sana-groups-api-openapi.yml
+  format: yaml
+  label: Sana Groups API
+  slug: sana-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-groups-api-openapi.yml
+- filename: sana-paths-api-openapi.yml
+  format: yaml
+  label: Sana Paths API
+  slug: sana-paths-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-paths-api-openapi.yml
+- filename: sana-programs-api-openapi.yml
+  format: yaml
+  label: Sana Programs API
+  slug: sana-programs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-programs-api-openapi.yml
+- filename: sana-reporting-api-openapi.yml
+  format: yaml
+  label: Sana Reporting API
+  slug: sana-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-reporting-api-openapi.yml
+- filename: sana-teamspaces-api-openapi.yml
+  format: yaml
+  label: Sana Teamspaces API
+  slug: sana-teamspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-teamspaces-api-openapi.yml
+- filename: sana-users-api-openapi.yml
+  format: yaml
+  label: Sana Users API
+  slug: sana-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-users-api-openapi.yml
+- filename: sana-xapi-api-openapi.yml
+  format: yaml
+  label: Sana xAPI API
+  slug: sana-xapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-xapi-api-openapi.yml
 certifications:
 - ISO 27001
 - SOC 2

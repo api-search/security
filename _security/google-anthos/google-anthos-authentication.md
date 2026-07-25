@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: gke-on-prem-api-openapi.yml
+- filename: google-anthos-baremetalclusters-api-openapi.yml
   format: yaml
-  label: GKE On-Prem API
-  slug: gke-on-prem-api
+  label: Google Anthos BareMetalClusters API
+  slug: google-anthos-baremetalclusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-anthos/refs/heads/main/openapi/gke-on-prem-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-anthos/refs/heads/main/openapi/google-anthos-baremetalclusters-api-openapi.yml
+- filename: google-anthos-vmwareclusters-api-openapi.yml
+  format: yaml
+  label: Google Anthos VmwareClusters API
+  slug: google-anthos-vmwareclusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-anthos/refs/heads/main/openapi/google-anthos-vmwareclusters-api-openapi.yml
+- filename: google-anthos-vmwarenodepools-api-openapi.yml
+  format: yaml
+  label: Google Anthos VmwareNodePools API
+  slug: google-anthos-vmwarenodepools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-anthos/refs/heads/main/openapi/google-anthos-vmwarenodepools-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

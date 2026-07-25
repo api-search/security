@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: google-cloud-datastore-projects-api-openapi.yml
+  format: yaml
+  label: Google Cloud Datastore Projects API
+  slug: google-cloud-datastore-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastore/refs/heads/main/openapi/google-cloud-datastore-projects-api-openapi.yml
 description: ''
 domains:
 - caa:

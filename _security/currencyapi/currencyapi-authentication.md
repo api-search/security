@@ -3,42 +3,42 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: currencyapi-openapi.yml
-  format: yaml
-  label: CurrencyAPI Latest Exchange Rates API
-  slug: currencyapi-latest-exchange-rates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/openapi/currencyapi-openapi.yml
-- filename: currencyapi-openapi.yml
-  format: yaml
-  label: CurrencyAPI Historical Exchange Rates API
-  slug: currencyapi-historical-exchange-rates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/openapi/currencyapi-openapi.yml
-- filename: currencyapi-openapi.yml
-  format: yaml
-  label: CurrencyAPI Range Exchange Rates API
-  slug: currencyapi-range-exchange-rates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/openapi/currencyapi-openapi.yml
-- filename: currencyapi-openapi.yml
+- filename: currencyapi-convert-api-openapi.yml
   format: yaml
   label: CurrencyAPI Convert API
   slug: currencyapi-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/openapi/currencyapi-openapi.yml
-- filename: currencyapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/openapi/currencyapi-convert-api-openapi.yml
+- filename: currencyapi-currencies-api-openapi.yml
   format: yaml
   label: CurrencyAPI Currencies API
   slug: currencyapi-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/openapi/currencyapi-openapi.yml
-- filename: currencyapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/openapi/currencyapi-currencies-api-openapi.yml
+- filename: currencyapi-historical-api-openapi.yml
+  format: yaml
+  label: CurrencyAPI Historical API
+  slug: currencyapi-historical-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/openapi/currencyapi-historical-api-openapi.yml
+- filename: currencyapi-latest-api-openapi.yml
+  format: yaml
+  label: CurrencyAPI Latest API
+  slug: currencyapi-latest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/openapi/currencyapi-latest-api-openapi.yml
+- filename: currencyapi-range-api-openapi.yml
+  format: yaml
+  label: CurrencyAPI Range API
+  slug: currencyapi-range-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/openapi/currencyapi-range-api-openapi.yml
+- filename: currencyapi-status-api-openapi.yml
   format: yaml
   label: CurrencyAPI Status API
   slug: currencyapi-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/openapi/currencyapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/openapi/currencyapi-status-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: v2-public.yaml
+- filename: wappalyzer-basics-api-openapi.yml
+  format: yaml
+  label: Wappalyzer Basics API
+  slug: wappalyzer-basics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/openapi/wappalyzer-basics-api-openapi.yml
+- filename: wappalyzer-lists-api-openapi.yml
+  format: yaml
+  label: Wappalyzer Lists API
+  slug: wappalyzer-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/openapi/wappalyzer-lists-api-openapi.yml
+- filename: wappalyzer-lookup-api-openapi.yml
   format: yaml
   label: Wappalyzer Lookup API
   slug: wappalyzer-lookup-api
   spec_type: OpenAPI
-  url: https://www.wappalyzer.com/openapi/v2-public.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/openapi/wappalyzer-lookup-api-openapi.yml
+- filename: wappalyzer-subdomains-api-openapi.yml
+  format: yaml
+  label: Wappalyzer Subdomains API
+  slug: wappalyzer-subdomains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/openapi/wappalyzer-subdomains-api-openapi.yml
+- filename: wappalyzer-verify-api-openapi.yml
+  format: yaml
+  label: Wappalyzer Verify API
+  slug: wappalyzer-verify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/openapi/wappalyzer-verify-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

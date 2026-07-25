@@ -1,24 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: creatomate-openapi.yml
+- filename: creatomate-renders-api-openapi.yml
   format: yaml
   label: Creatomate Renders API
-  slug: renders
+  slug: creatomate-renders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatomate/refs/heads/main/openapi/creatomate-openapi.yml
-- filename: creatomate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/creatomate/refs/heads/main/openapi/creatomate-renders-api-openapi.yml
+- filename: creatomate-templates-api-openapi.yml
   format: yaml
   label: Creatomate Templates API
-  slug: templates
+  slug: creatomate-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatomate/refs/heads/main/openapi/creatomate-openapi.yml
-- filename: creatomate-openapi.yml
-  format: yaml
-  label: Creatomate Webhooks
-  slug: webhooks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatomate/refs/heads/main/openapi/creatomate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/creatomate/refs/heads/main/openapi/creatomate-templates-api-openapi.yml
 auth_types:
 - http
 description: ''

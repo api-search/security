@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: lufthansa-openapi.yml
+- filename: lufthansa-cargo-api-openapi.yml
   format: yaml
-  label: Lufthansa Public API
-  slug: public-api
+  label: Lufthansa Cargo API
+  slug: lufthansa-cargo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/openapi/lufthansa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/openapi/lufthansa-cargo-api-openapi.yml
+- filename: lufthansa-offers-api-openapi.yml
+  format: yaml
+  label: Lufthansa Offers API
+  slug: lufthansa-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/openapi/lufthansa-offers-api-openapi.yml
+- filename: lufthansa-operations-api-openapi.yml
+  format: yaml
+  label: Lufthansa Operations API
+  slug: lufthansa-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/openapi/lufthansa-operations-api-openapi.yml
+- filename: lufthansa-reference-data-api-openapi.yml
+  format: yaml
+  label: Lufthansa Reference Data API
+  slug: lufthansa-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/openapi/lufthansa-reference-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: ms-excel-me-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Excel API
-  slug: microsoft-graph-excel-api
+  label: Microsoft Excel API Me API
+  slug: ms-excel-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/ms-excel/refs/heads/main/openapi/ms-excel-me-api-openapi.yml
 description: ''
 domains:
 - caa:

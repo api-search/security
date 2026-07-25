@@ -1,53 +1,47 @@
 ---
 api_specs:
-- filename: drycleancloud-openapi.yml
+- filename: drycleancloud-business-and-reporting-api-openapi.yml
+  format: yaml
+  label: CleanCloud Business and Reporting API
+  slug: drycleancloud-business-and-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-business-and-reporting-api-openapi.yml
+- filename: drycleancloud-customers-api-openapi.yml
   format: yaml
   label: CleanCloud Customers API
   slug: drycleancloud-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-openapi.yml
-- filename: drycleancloud-openapi.yml
-  format: yaml
-  label: CleanCloud Orders API
-  slug: drycleancloud-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-openapi.yml
-- filename: drycleancloud-openapi.yml
-  format: yaml
-  label: CleanCloud Products & Inventory API
-  slug: drycleancloud-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-openapi.yml
-- filename: drycleancloud-openapi.yml
-  format: yaml
-  label: CleanCloud Pickup & Delivery API
-  slug: drycleancloud-deliveries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-openapi.yml
-- filename: drycleancloud-openapi.yml
-  format: yaml
-  label: CleanCloud Payments & Promotions API
-  slug: drycleancloud-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-openapi.yml
-- filename: drycleancloud-openapi.yml
-  format: yaml
-  label: CleanCloud Business & Reporting API
-  slug: drycleancloud-stores-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-openapi.yml
-- filename: drycleancloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-customers-api-openapi.yml
+- filename: drycleancloud-messaging-api-openapi.yml
   format: yaml
   label: CleanCloud Messaging API
   slug: drycleancloud-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-openapi.yml
-- filename: drycleancloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-messaging-api-openapi.yml
+- filename: drycleancloud-orders-api-openapi.yml
   format: yaml
-  label: CleanCloud Webhooks
-  slug: drycleancloud-webhooks-api
+  label: CleanCloud Orders API
+  slug: drycleancloud-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-orders-api-openapi.yml
+- filename: drycleancloud-payments-api-openapi.yml
+  format: yaml
+  label: CleanCloud Payments API
+  slug: drycleancloud-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-payments-api-openapi.yml
+- filename: drycleancloud-pickup-and-delivery-api-openapi.yml
+  format: yaml
+  label: CleanCloud Pickup and Delivery API
+  slug: drycleancloud-pickup-and-delivery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-pickup-and-delivery-api-openapi.yml
+- filename: drycleancloud-products-api-openapi.yml
+  format: yaml
+  label: CleanCloud Products API
+  slug: drycleancloud-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

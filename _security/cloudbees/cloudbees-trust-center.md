@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: cloudbees-computer-api-openapi.yml
+  format: yaml
+  label: CloudBees Computer API
+  slug: cloudbees-computer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-computer-api-openapi.yml
+- filename: cloudbees-createitem-api-openapi.yml
+  format: yaml
+  label: CloudBees CreateItem API
+  slug: cloudbees-createitem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-createitem-api-openapi.yml
+- filename: cloudbees-job-api-openapi.yml
+  format: yaml
+  label: CloudBees Job API
+  slug: cloudbees-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-job-api-openapi.yml
+- filename: cloudbees-json-api-openapi.yml
+  format: yaml
+  label: CloudBees Json API
+  slug: cloudbees-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-json-api-openapi.yml
+- filename: cloudbees-python-api-openapi.yml
+  format: yaml
+  label: CloudBees Python API
+  slug: cloudbees-python-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-python-api-openapi.yml
+- filename: cloudbees-queue-api-openapi.yml
+  format: yaml
+  label: CloudBees Queue API
+  slug: cloudbees-queue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-queue-api-openapi.yml
+- filename: cloudbees-xml-api-openapi.yml
+  format: yaml
+  label: CloudBees Xml API
+  slug: cloudbees-xml-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-xml-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

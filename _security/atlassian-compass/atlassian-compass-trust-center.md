@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: atlassian-compass-openapi.yml
+- filename: atlassian-compass-events-api-openapi.yml
   format: yaml
-  label: Atlassian Compass REST API
-  slug: atlassian-compass-rest-api
+  label: Atlassian Compass Events API
+  slug: atlassian-compass-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-events-api-openapi.yml
+- filename: atlassian-compass-metrics-api-openapi.yml
+  format: yaml
+  label: Atlassian Compass Metrics API
+  slug: atlassian-compass-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-metrics-api-openapi.yml
 certifications:
 - FedRAMP
 description: ''

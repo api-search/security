@@ -3,12 +3,66 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: vast-ai-openapi.json
-  format: json
-  label: Vast.ai REST API
-  slug: rest-api
+- filename: vast-ai-accounts-api-openapi.yml
+  format: yaml
+  label: Vast.ai Accounts API
+  slug: vast-ai-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/openapi/vast-ai-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/openapi/vast-ai-accounts-api-openapi.yml
+- filename: vast-ai-billing-api-openapi.yml
+  format: yaml
+  label: Vast.ai Billing API
+  slug: vast-ai-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/openapi/vast-ai-billing-api-openapi.yml
+- filename: vast-ai-instances-api-openapi.yml
+  format: yaml
+  label: Vast.ai Instances API
+  slug: vast-ai-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/openapi/vast-ai-instances-api-openapi.yml
+- filename: vast-ai-machines-api-openapi.yml
+  format: yaml
+  label: Vast.ai Machines API
+  slug: vast-ai-machines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/openapi/vast-ai-machines-api-openapi.yml
+- filename: vast-ai-network-volumes-api-openapi.yml
+  format: yaml
+  label: Vast.ai Network Volumes API
+  slug: vast-ai-network-volumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/openapi/vast-ai-network-volumes-api-openapi.yml
+- filename: vast-ai-search-api-openapi.yml
+  format: yaml
+  label: Vast.ai Search API
+  slug: vast-ai-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/openapi/vast-ai-search-api-openapi.yml
+- filename: vast-ai-serverless-api-openapi.yml
+  format: yaml
+  label: Vast.ai Serverless API
+  slug: vast-ai-serverless-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/openapi/vast-ai-serverless-api-openapi.yml
+- filename: vast-ai-team-api-openapi.yml
+  format: yaml
+  label: Vast.ai Team API
+  slug: vast-ai-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/openapi/vast-ai-team-api-openapi.yml
+- filename: vast-ai-templates-api-openapi.yml
+  format: yaml
+  label: Vast.ai Templates API
+  slug: vast-ai-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/openapi/vast-ai-templates-api-openapi.yml
+- filename: vast-ai-volumes-api-openapi.yml
+  format: yaml
+  label: Vast.ai Volumes API
+  slug: vast-ai-volumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/openapi/vast-ai-volumes-api-openapi.yml
 auth_types:
 - apiKey
 - http

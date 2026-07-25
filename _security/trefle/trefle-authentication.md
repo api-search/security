@@ -2,12 +2,66 @@
 api_key_in:
 - query
 api_specs:
-- filename: trefle-openapi.yml
+- filename: trefle-distributions-api-openapi.yml
   format: yaml
-  label: Trefle API
-  slug: trefle
+  label: Trefle Distributions API
+  slug: trefle-distributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-distributions-api-openapi.yml
+- filename: trefle-division-classes-api-openapi.yml
+  format: yaml
+  label: Trefle Division Classes API
+  slug: trefle-division-classes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-division-classes-api-openapi.yml
+- filename: trefle-division-orders-api-openapi.yml
+  format: yaml
+  label: Trefle Division Orders API
+  slug: trefle-division-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-division-orders-api-openapi.yml
+- filename: trefle-divisions-api-openapi.yml
+  format: yaml
+  label: Trefle Divisions API
+  slug: trefle-divisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-divisions-api-openapi.yml
+- filename: trefle-families-api-openapi.yml
+  format: yaml
+  label: Trefle Families API
+  slug: trefle-families-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-families-api-openapi.yml
+- filename: trefle-genus-api-openapi.yml
+  format: yaml
+  label: Trefle Genus API
+  slug: trefle-genus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-genus-api-openapi.yml
+- filename: trefle-kingdoms-api-openapi.yml
+  format: yaml
+  label: Trefle Kingdoms API
+  slug: trefle-kingdoms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-kingdoms-api-openapi.yml
+- filename: trefle-plants-api-openapi.yml
+  format: yaml
+  label: Trefle Plants API
+  slug: trefle-plants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-plants-api-openapi.yml
+- filename: trefle-species-api-openapi.yml
+  format: yaml
+  label: Trefle Species API
+  slug: trefle-species-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-species-api-openapi.yml
+- filename: trefle-subkingdoms-api-openapi.yml
+  format: yaml
+  label: Trefle Subkingdoms API
+  slug: trefle-subkingdoms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-subkingdoms-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -2,12 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: archera-openapi-original.json
-  format: json
-  label: Archera Public API
-  slug: archera-public-api
+- filename: archera-commitment-plans-api-openapi.yml
+  format: yaml
+  label: Archera Commitment Plans API
+  slug: archera-commitment-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-commitment-plans-api-openapi.yml
+- filename: archera-commitments-api-openapi.yml
+  format: yaml
+  label: Archera Commitments API
+  slug: archera-commitments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-commitments-api-openapi.yml
+- filename: archera-exchanges-api-openapi.yml
+  format: yaml
+  label: Archera Exchanges API
+  slug: archera-exchanges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-exchanges-api-openapi.yml
+- filename: archera-metrics-api-openapi.yml
+  format: yaml
+  label: Archera Metrics API
+  slug: archera-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-metrics-api-openapi.yml
+- filename: archera-oauth-api-openapi.yml
+  format: yaml
+  label: Archera OAuth API
+  slug: archera-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-oauth-api-openapi.yml
+- filename: archera-orgs-api-openapi.yml
+  format: yaml
+  label: Archera Orgs API
+  slug: archera-orgs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-orgs-api-openapi.yml
+- filename: archera-resources-api-openapi.yml
+  format: yaml
+  label: Archera Resources API
+  slug: archera-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-resources-api-openapi.yml
+- filename: archera-uploads-api-openapi.yml
+  format: yaml
+  label: Archera Uploads API
+  slug: archera-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-uploads-api-openapi.yml
+- filename: archera-well-known-api-openapi.yml
+  format: yaml
+  label: Archera Well-Known API
+  slug: archera-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-well-known-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

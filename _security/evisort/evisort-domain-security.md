@@ -1,35 +1,29 @@
 ---
 api_specs:
-- filename: evisort-openapi.yml
+- filename: evisort-authentication-api-openapi.yml
+  format: yaml
+  label: Evisort Authentication API
+  slug: evisort-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/openapi/evisort-authentication-api-openapi.yml
+- filename: evisort-documents-api-openapi.yml
   format: yaml
   label: Evisort Documents API
-  slug: documents
+  slug: evisort-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/openapi/evisort-openapi.yml
-- filename: evisort-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/openapi/evisort-documents-api-openapi.yml
+- filename: evisort-fields-api-openapi.yml
   format: yaml
-  label: Evisort Field and Metadata Extraction API
-  slug: field-extraction
+  label: Evisort Fields API
+  slug: evisort-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/openapi/evisort-openapi.yml
-- filename: evisort-openapi.yml
-  format: yaml
-  label: Evisort Workflow API
-  slug: workflows
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/openapi/evisort-openapi.yml
-- filename: evisort-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/openapi/evisort-fields-api-openapi.yml
+- filename: evisort-search-api-openapi.yml
   format: yaml
   label: Evisort Search API
-  slug: search
+  slug: evisort-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/openapi/evisort-openapi.yml
-- filename: evisort-openapi.yml
-  format: yaml
-  label: Evisort Webhooks
-  slug: webhooks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/openapi/evisort-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/openapi/evisort-search-api-openapi.yml
 description: ''
 domains:
 - caa:

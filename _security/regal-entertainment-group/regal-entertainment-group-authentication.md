@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: regal-cinema-openapi.yml
+- filename: regal-entertainment-group-loyalty-api-openapi.yml
   format: yaml
-  label: Regal Cinema API
-  slug: regal-cinema-api
+  label: regal-entertainment-group Loyalty API
+  slug: regal-entertainment-group-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/openapi/regal-cinema-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/openapi/regal-entertainment-group-loyalty-api-openapi.yml
+- filename: regal-entertainment-group-movies-api-openapi.yml
+  format: yaml
+  label: regal-entertainment-group Movies API
+  slug: regal-entertainment-group-movies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/openapi/regal-entertainment-group-movies-api-openapi.yml
+- filename: regal-entertainment-group-showtimes-api-openapi.yml
+  format: yaml
+  label: regal-entertainment-group Showtimes API
+  slug: regal-entertainment-group-showtimes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/openapi/regal-entertainment-group-showtimes-api-openapi.yml
+- filename: regal-entertainment-group-theatres-api-openapi.yml
+  format: yaml
+  label: regal-entertainment-group Theatres API
+  slug: regal-entertainment-group-theatres-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/openapi/regal-entertainment-group-theatres-api-openapi.yml
+- filename: regal-entertainment-group-tickets-api-openapi.yml
+  format: yaml
+  label: regal-entertainment-group Tickets API
+  slug: regal-entertainment-group-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/openapi/regal-entertainment-group-tickets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

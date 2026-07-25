@@ -1,24 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: buymeacoffee-openapi.yml
-  format: yaml
-  label: Buy Me a Coffee Supporters API
-  slug: buymeacoffee-supporters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/openapi/buymeacoffee-openapi.yml
-- filename: buymeacoffee-openapi.yml
-  format: yaml
-  label: Buy Me a Coffee Subscriptions API
-  slug: buymeacoffee-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/openapi/buymeacoffee-openapi.yml
-- filename: buymeacoffee-openapi.yml
+- filename: buymeacoffee-extras-api-openapi.yml
   format: yaml
   label: Buy Me a Coffee Extras API
   slug: buymeacoffee-extras-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/openapi/buymeacoffee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/openapi/buymeacoffee-extras-api-openapi.yml
+- filename: buymeacoffee-subscriptions-api-openapi.yml
+  format: yaml
+  label: Buy Me a Coffee Subscriptions API
+  slug: buymeacoffee-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/openapi/buymeacoffee-subscriptions-api-openapi.yml
+- filename: buymeacoffee-supporters-api-openapi.yml
+  format: yaml
+  label: Buy Me a Coffee Supporters API
+  slug: buymeacoffee-supporters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/openapi/buymeacoffee-supporters-api-openapi.yml
 auth_types:
 - http
 description: ''

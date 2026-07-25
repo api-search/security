@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: informatica-platform-rest-api-openapi.yml
+- filename: informatica-authentication-api-openapi.yml
   format: yaml
-  label: Informatica Platform REST API
-  slug: informatica
+  label: Informatica Authentication API
+  slug: informatica-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/openapi/informatica-platform-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/openapi/informatica-authentication-api-openapi.yml
+- filename: informatica-connections-api-openapi.yml
+  format: yaml
+  label: Informatica Connections API
+  slug: informatica-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/openapi/informatica-connections-api-openapi.yml
+- filename: informatica-jobs-api-openapi.yml
+  format: yaml
+  label: Informatica Jobs API
+  slug: informatica-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/openapi/informatica-jobs-api-openapi.yml
+- filename: informatica-mapping-tasks-api-openapi.yml
+  format: yaml
+  label: Informatica Mapping Tasks API
+  slug: informatica-mapping-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/openapi/informatica-mapping-tasks-api-openapi.yml
+- filename: informatica-mappings-api-openapi.yml
+  format: yaml
+  label: Informatica Mappings API
+  slug: informatica-mappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/openapi/informatica-mappings-api-openapi.yml
+- filename: informatica-schedules-api-openapi.yml
+  format: yaml
+  label: Informatica Schedules API
+  slug: informatica-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/openapi/informatica-schedules-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

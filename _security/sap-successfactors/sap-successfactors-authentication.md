@@ -1,5 +1,54 @@
 ---
 api_key_in: []
+api_specs:
+- filename: sap-successfactors-empemployment-api-openapi.yml
+  format: yaml
+  label: SAP SuccessFactors EmpEmployment API
+  slug: sap-successfactors-empemployment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-empemployment-api-openapi.yml
+- filename: sap-successfactors-empjob-api-openapi.yml
+  format: yaml
+  label: SAP SuccessFactors EmpJob API
+  slug: sap-successfactors-empjob-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-empjob-api-openapi.yml
+- filename: sap-successfactors-focompany-api-openapi.yml
+  format: yaml
+  label: SAP SuccessFactors FOCompany API
+  slug: sap-successfactors-focompany-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-focompany-api-openapi.yml
+- filename: sap-successfactors-oauth-api-openapi.yml
+  format: yaml
+  label: SAP SuccessFactors Oauth API
+  slug: sap-successfactors-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-oauth-api-openapi.yml
+- filename: sap-successfactors-perperson-api-openapi.yml
+  format: yaml
+  label: SAP SuccessFactors PerPerson API
+  slug: sap-successfactors-perperson-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-perperson-api-openapi.yml
+- filename: sap-successfactors-upsert-api-openapi.yml
+  format: yaml
+  label: SAP SuccessFactors Upsert API
+  slug: sap-successfactors-upsert-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-upsert-api-openapi.yml
+- filename: sap-successfactors-user-api-openapi.yml
+  format: yaml
+  label: SAP SuccessFactors User API
+  slug: sap-successfactors-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-user-api-openapi.yml
+- filename: sap-successfactors-user-userid-api-openapi.yml
+  format: yaml
+  label: SAP SuccessFactors User('{userId}') API
+  slug: sap-successfactors-user-userid-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-user-userid-api-openapi.yml
 auth_types:
 - http
 - oauth2

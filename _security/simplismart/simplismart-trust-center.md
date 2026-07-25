@@ -1,29 +1,53 @@
 ---
 api_specs:
-- filename: simplismart-llama-3.3-70b-openapi.yml
+- filename: simplismart-chat-completion-api-openapi.yml
   format: yaml
-  label: Simplismart LLM Inference API
-  slug: simplismart-llm-inference-api
+  label: Simplismart Chat Completion API
+  slug: simplismart-chat-completion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/openapi/simplismart-llama-3.3-70b-openapi.yml
-- filename: simplismart-flux-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/openapi/simplismart-chat-completion-api-openapi.yml
+- filename: simplismart-flux-api-openapi.yml
   format: yaml
-  label: Simplismart Image Generation API
-  slug: simplismart-image-generation-api
+  label: Simplismart Flux API
+  slug: simplismart-flux-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/openapi/simplismart-flux-dev-openapi.yml
-- filename: simplismart-whisper-v3-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/openapi/simplismart-flux-api-openapi.yml
+- filename: simplismart-flux-training-api-openapi.yml
   format: yaml
-  label: Simplismart Audio Transcription API
-  slug: simplismart-audio-transcription-api
+  label: Simplismart Flux Training API
+  slug: simplismart-flux-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/openapi/simplismart-whisper-v3-openapi.yml
-- filename: simplismart-llm-training-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/openapi/simplismart-flux-training-api-openapi.yml
+- filename: simplismart-llm-api-openapi.yml
+  format: yaml
+  label: Simplismart Llm API
+  slug: simplismart-llm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/openapi/simplismart-llm-api-openapi.yml
+- filename: simplismart-metrics-api-openapi.yml
+  format: yaml
+  label: Simplismart Metrics API
+  slug: simplismart-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/openapi/simplismart-metrics-api-openapi.yml
+- filename: simplismart-model-api-openapi.yml
+  format: yaml
+  label: Simplismart Model API
+  slug: simplismart-model-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/openapi/simplismart-model-api-openapi.yml
+- filename: simplismart-speech-to-text-api-openapi.yml
+  format: yaml
+  label: Simplismart Speech to Text API
+  slug: simplismart-speech-to-text-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/openapi/simplismart-speech-to-text-api-openapi.yml
+- filename: simplismart-training-api-openapi.yml
   format: yaml
   label: Simplismart Training API
   slug: simplismart-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/openapi/simplismart-llm-training-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/openapi/simplismart-training-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,18 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: booking-and-referral-fhir-api.yaml
+- filename: nhs-digital-booking-api-openapi.yml
   format: yaml
-  label: Booking and Referral - FHIR API
-  slug: booking-and-referral-fhir-api
+  label: NHS Digital Booking API
+  slug: nhs-digital-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/openapi/booking-and-referral-fhir-api.yaml
-- filename: nhs-app-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/openapi/nhs-digital-booking-api-openapi.yml
+- filename: nhs-digital-communication-api-openapi.yml
   format: yaml
-  label: NHS App API
-  slug: nhs-app-api
+  label: NHS Digital communication API
+  slug: nhs-digital-communication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/openapi/nhs-app-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/openapi/nhs-digital-communication-api-openapi.yml
+- filename: nhs-digital-message-api-openapi.yml
+  format: yaml
+  label: NHS Digital Message API
+  slug: nhs-digital-message-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/openapi/nhs-digital-message-api-openapi.yml
+- filename: nhs-digital-metadata-api-openapi.yml
+  format: yaml
+  label: NHS Digital Metadata API
+  slug: nhs-digital-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/openapi/nhs-digital-metadata-api-openapi.yml
+- filename: nhs-digital-r4-api-openapi.yml
+  format: yaml
+  label: NHS Digital R4 API
+  slug: nhs-digital-r4-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/openapi/nhs-digital-r4-api-openapi.yml
+- filename: nhs-digital-referral-api-openapi.yml
+  format: yaml
+  label: NHS Digital Referral API
+  slug: nhs-digital-referral-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/openapi/nhs-digital-referral-api-openapi.yml
+- filename: nhs-digital-slots-api-openapi.yml
+  format: yaml
+  label: NHS Digital Slots API
+  slug: nhs-digital-slots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/openapi/nhs-digital-slots-api-openapi.yml
+- filename: nhs-digital-stu3-api-openapi.yml
+  format: yaml
+  label: NHS Digital STU3 API
+  slug: nhs-digital-stu3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/openapi/nhs-digital-stu3-api-openapi.yml
 auth_types:
 - http
 description: ''

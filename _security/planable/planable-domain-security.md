@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: planable-openapi.json
-  format: json
-  label: Planable Public API
-  slug: planable-api
+- filename: planable-campaigns-api-openapi.yml
+  format: yaml
+  label: Planable Campaigns API
+  slug: planable-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-campaigns-api-openapi.yml
+- filename: planable-labels-api-openapi.yml
+  format: yaml
+  label: Planable Labels API
+  slug: planable-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-labels-api-openapi.yml
+- filename: planable-media-api-openapi.yml
+  format: yaml
+  label: Planable Media API
+  slug: planable-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-media-api-openapi.yml
+- filename: planable-pages-api-openapi.yml
+  format: yaml
+  label: Planable Pages API
+  slug: planable-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-pages-api-openapi.yml
+- filename: planable-posts-api-openapi.yml
+  format: yaml
+  label: Planable Posts API
+  slug: planable-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-posts-api-openapi.yml
+- filename: planable-stories-api-openapi.yml
+  format: yaml
+  label: Planable Stories API
+  slug: planable-stories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-stories-api-openapi.yml
+- filename: planable-system-api-openapi.yml
+  format: yaml
+  label: Planable System API
+  slug: planable-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-system-api-openapi.yml
+- filename: planable-workspaces-api-openapi.yml
+  format: yaml
+  label: Planable Workspaces API
+  slug: planable-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa:

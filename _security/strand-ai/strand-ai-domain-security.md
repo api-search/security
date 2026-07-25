@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: strand-ai-openapi-original.json
-  format: json
-  label: Strand Platform API
-  slug: strand-platform-api
+- filename: strand-ai-jobs-api-openapi.yml
+  format: yaml
+  label: Strand AI Jobs API
+  slug: strand-ai-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strand-ai/refs/heads/main/openapi/strand-ai-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/strand-ai/refs/heads/main/openapi/strand-ai-jobs-api-openapi.yml
+- filename: strand-ai-predict-api-openapi.yml
+  format: yaml
+  label: Strand AI Predict API
+  slug: strand-ai-predict-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/strand-ai/refs/heads/main/openapi/strand-ai-predict-api-openapi.yml
+- filename: strand-ai-samples-api-openapi.yml
+  format: yaml
+  label: Strand AI Samples API
+  slug: strand-ai-samples-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/strand-ai/refs/heads/main/openapi/strand-ai-samples-api-openapi.yml
+- filename: strand-ai-uploads-api-openapi.yml
+  format: yaml
+  label: Strand AI Uploads API
+  slug: strand-ai-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/strand-ai/refs/heads/main/openapi/strand-ai-uploads-api-openapi.yml
 description: ''
 domains:
 - caa: []

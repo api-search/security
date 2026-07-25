@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: scout-rfp-events-openapi.yml
+- filename: scout-rfp-bids-api-openapi.yml
   format: yaml
-  label: Workday Strategic Sourcing API
-  slug: workday-strategic-sourcing
+  label: Scout RFP Bids API
+  slug: scout-rfp-bids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scout-rfp/refs/heads/main/openapi/scout-rfp-events-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scout-rfp/refs/heads/main/openapi/scout-rfp-bids-api-openapi.yml
+- filename: scout-rfp-event-suppliers-api-openapi.yml
+  format: yaml
+  label: Scout RFP Event Suppliers API
+  slug: scout-rfp-event-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scout-rfp/refs/heads/main/openapi/scout-rfp-event-suppliers-api-openapi.yml
+- filename: scout-rfp-event-templates-api-openapi.yml
+  format: yaml
+  label: Scout RFP Event Templates API
+  slug: scout-rfp-event-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scout-rfp/refs/heads/main/openapi/scout-rfp-event-templates-api-openapi.yml
+- filename: scout-rfp-events-api-openapi.yml
+  format: yaml
+  label: Scout RFP Events API
+  slug: scout-rfp-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scout-rfp/refs/heads/main/openapi/scout-rfp-events-api-openapi.yml
+- filename: scout-rfp-line-items-api-openapi.yml
+  format: yaml
+  label: Scout RFP Line Items API
+  slug: scout-rfp-line-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scout-rfp/refs/heads/main/openapi/scout-rfp-line-items-api-openapi.yml
+- filename: scout-rfp-worksheets-api-openapi.yml
+  format: yaml
+  label: Scout RFP Worksheets API
+  slug: scout-rfp-worksheets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scout-rfp/refs/heads/main/openapi/scout-rfp-worksheets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: riot-games-league-of-legends-openapi.yml
+- filename: riot-games-champion-api-openapi.yml
   format: yaml
-  label: League of Legends API
-  slug: league-of-legends-api
+  label: Riot Games Champion API
+  slug: riot-games-champion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-league-of-legends-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-champion-api-openapi.yml
+- filename: riot-games-champion-mastery-api-openapi.yml
+  format: yaml
+  label: Riot Games Champion Mastery API
+  slug: riot-games-champion-mastery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-champion-mastery-api-openapi.yml
+- filename: riot-games-clash-api-openapi.yml
+  format: yaml
+  label: Riot Games Clash API
+  slug: riot-games-clash-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-clash-api-openapi.yml
+- filename: riot-games-league-api-openapi.yml
+  format: yaml
+  label: Riot Games League API
+  slug: riot-games-league-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-league-api-openapi.yml
+- filename: riot-games-match-api-openapi.yml
+  format: yaml
+  label: Riot Games Match API
+  slug: riot-games-match-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-match-api-openapi.yml
+- filename: riot-games-spectator-api-openapi.yml
+  format: yaml
+  label: Riot Games Spectator API
+  slug: riot-games-spectator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-spectator-api-openapi.yml
+- filename: riot-games-status-api-openapi.yml
+  format: yaml
+  label: Riot Games Status API
+  slug: riot-games-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-status-api-openapi.yml
+- filename: riot-games-summoner-api-openapi.yml
+  format: yaml
+  label: Riot Games Summoner API
+  slug: riot-games-summoner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-summoner-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -3,12 +3,30 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: mockaroo-openapi.yml
+- filename: mockaroo-datasets-api-openapi.yml
   format: yaml
-  label: Mockaroo API
-  slug: mockaroo
+  label: Mockaroo Datasets API
+  slug: mockaroo-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mockaroo/refs/heads/main/openapi/mockaroo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mockaroo/refs/heads/main/openapi/mockaroo-datasets-api-openapi.yml
+- filename: mockaroo-downloads-api-openapi.yml
+  format: yaml
+  label: Mockaroo Downloads API
+  slug: mockaroo-downloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mockaroo/refs/heads/main/openapi/mockaroo-downloads-api-openapi.yml
+- filename: mockaroo-generate-api-openapi.yml
+  format: yaml
+  label: Mockaroo Generate API
+  slug: mockaroo-generate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mockaroo/refs/heads/main/openapi/mockaroo-generate-api-openapi.yml
+- filename: mockaroo-types-api-openapi.yml
+  format: yaml
+  label: Mockaroo Types API
+  slug: mockaroo-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mockaroo/refs/heads/main/openapi/mockaroo-types-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: harver-openapi-original.json
-  format: json
-  label: Harver Public API
-  slug: harver-public-api
+- filename: harver-accounts-api-openapi.yml
+  format: yaml
+  label: Harver accounts API
+  slug: harver-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-accounts-api-openapi.yml
+- filename: harver-applications-api-openapi.yml
+  format: yaml
+  label: Harver applications API
+  slug: harver-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-applications-api-openapi.yml
+- filename: harver-candidate-statuses-api-openapi.yml
+  format: yaml
+  label: Harver candidate-statuses API
+  slug: harver-candidate-statuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-candidate-statuses-api-openapi.yml
+- filename: harver-candidateapplications-api-openapi.yml
+  format: yaml
+  label: Harver candidateApplications API
+  slug: harver-candidateapplications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-candidateapplications-api-openapi.yml
+- filename: harver-oauth-api-openapi.yml
+  format: yaml
+  label: Harver oauth API
+  slug: harver-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-oauth-api-openapi.yml
+- filename: harver-scheduling-api-openapi.yml
+  format: yaml
+  label: Harver scheduling API
+  slug: harver-scheduling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-scheduling-api-openapi.yml
+- filename: harver-user-profile-api-openapi.yml
+  format: yaml
+  label: Harver user-profile API
+  slug: harver-user-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-user-profile-api-openapi.yml
+- filename: harver-vacancies-api-openapi.yml
+  format: yaml
+  label: Harver vacancies API
+  slug: harver-vacancies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-vacancies-api-openapi.yml
+- filename: harver-webhook-api-openapi.yml
+  format: yaml
+  label: Harver webhook API
+  slug: harver-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-webhook-api-openapi.yml
 description: ''
 domains:
 - caa: []

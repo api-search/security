@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: thatch-health-platforms-openapi-original.yml
+- filename: thatch-health-deductions-api-openapi.yml
   format: yaml
-  label: Thatch for Platforms API
-  slug: thatch-for-platforms-api
+  label: Thatch Health Deductions API
+  slug: thatch-health-deductions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/openapi/thatch-health-platforms-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/openapi/thatch-health-deductions-api-openapi.yml
+- filename: thatch-health-employees-api-openapi.yml
+  format: yaml
+  label: Thatch Health Employees API
+  slug: thatch-health-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/openapi/thatch-health-employees-api-openapi.yml
+- filename: thatch-health-employer-onboarding-sessions-api-openapi.yml
+  format: yaml
+  label: Thatch Health Employer onboarding sessions API
+  slug: thatch-health-employer-onboarding-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/openapi/thatch-health-employer-onboarding-sessions-api-openapi.yml
+- filename: thatch-health-employers-api-openapi.yml
+  format: yaml
+  label: Thatch Health Employers API
+  slug: thatch-health-employers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/openapi/thatch-health-employers-api-openapi.yml
+- filename: thatch-health-enrollments-api-openapi.yml
+  format: yaml
+  label: Thatch Health Enrollments API
+  slug: thatch-health-enrollments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/openapi/thatch-health-enrollments-api-openapi.yml
+- filename: thatch-health-members-api-openapi.yml
+  format: yaml
+  label: Thatch Health Members API
+  slug: thatch-health-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/openapi/thatch-health-members-api-openapi.yml
+- filename: thatch-health-pay-schedules-api-openapi.yml
+  format: yaml
+  label: Thatch Health Pay Schedules API
+  slug: thatch-health-pay-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/openapi/thatch-health-pay-schedules-api-openapi.yml
 certifications:
 - SOC 2
 description: ''

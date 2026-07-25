@@ -2,18 +2,42 @@
 api_key_in:
 - query
 api_specs:
-- filename: air-quality-programmatic-apis-openapi.yml
+- filename: air-quality-programmatic-apis-air-quality-programmatic-apis-real-time-air-quality-tile-api-api-openapi.yml
   format: yaml
-  label: AQICN Real-Time Air Quality API
-  slug: air-quality-programmatic-apis
+  label: Air Quality Programmatic APIs Air Quality Programmatic APIs Real Time Air Quality Tile API API
+  slug: air-quality-programmatic-apis-air-quality-programmatic-apis-real-time-air-quality-tile-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/openapi/air-quality-programmatic-apis-openapi.yml
-- filename: aqicn-json-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/openapi/air-quality-programmatic-apis-air-quality-programmatic-apis-real-time-air-quality-tile-api-api-openapi.yml
+- filename: air-quality-programmatic-apis-cities-api-openapi.yml
   format: yaml
-  label: AQICN JSON Air Quality API
-  slug: aqicn-json-api
+  label: Air Quality Programmatic APIs Cities API
+  slug: air-quality-programmatic-apis-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/openapi/aqicn-json-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/openapi/air-quality-programmatic-apis-cities-api-openapi.yml
+- filename: air-quality-programmatic-apis-geolocation-api-openapi.yml
+  format: yaml
+  label: Air Quality Programmatic APIs Geolocation API
+  slug: air-quality-programmatic-apis-geolocation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/openapi/air-quality-programmatic-apis-geolocation-api-openapi.yml
+- filename: air-quality-programmatic-apis-map-api-openapi.yml
+  format: yaml
+  label: Air Quality Programmatic APIs Map API
+  slug: air-quality-programmatic-apis-map-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/openapi/air-quality-programmatic-apis-map-api-openapi.yml
+- filename: air-quality-programmatic-apis-search-api-openapi.yml
+  format: yaml
+  label: Air Quality Programmatic APIs Search API
+  slug: air-quality-programmatic-apis-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/openapi/air-quality-programmatic-apis-search-api-openapi.yml
+- filename: air-quality-programmatic-apis-stations-api-openapi.yml
+  format: yaml
+  label: Air Quality Programmatic APIs Stations API
+  slug: air-quality-programmatic-apis-stations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/openapi/air-quality-programmatic-apis-stations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

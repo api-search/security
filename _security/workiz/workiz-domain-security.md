@@ -1,41 +1,35 @@
 ---
 api_specs:
-- filename: workiz-openapi.yml
+- filename: workiz-jobs-api-openapi.yml
   format: yaml
   label: Workiz Jobs API
   slug: workiz-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/openapi/workiz-openapi.yml
-- filename: workiz-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/openapi/workiz-jobs-api-openapi.yml
+- filename: workiz-leads-api-openapi.yml
   format: yaml
   label: Workiz Leads API
   slug: workiz-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/openapi/workiz-openapi.yml
-- filename: workiz-openapi.yml
-  format: yaml
-  label: Workiz Team API
-  slug: workiz-team-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/openapi/workiz-openapi.yml
-- filename: workiz-openapi.yml
-  format: yaml
-  label: Workiz Time Off API
-  slug: workiz-time-off-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/openapi/workiz-openapi.yml
-- filename: workiz-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/openapi/workiz-leads-api-openapi.yml
+- filename: workiz-payments-api-openapi.yml
   format: yaml
   label: Workiz Payments API
   slug: workiz-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/openapi/workiz-openapi.yml
-- filename: workiz-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/openapi/workiz-payments-api-openapi.yml
+- filename: workiz-team-api-openapi.yml
   format: yaml
-  label: Workiz Webhooks
-  slug: workiz-webhooks
+  label: Workiz Team API
+  slug: workiz-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/openapi/workiz-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/openapi/workiz-team-api-openapi.yml
+- filename: workiz-time-off-api-openapi.yml
+  format: yaml
+  label: Workiz Time Off API
+  slug: workiz-time-off-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/openapi/workiz-time-off-api-openapi.yml
 description: ''
 domains:
 - caa: []

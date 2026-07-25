@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: tesla-openapi-original.yml
+- filename: tesla-authentication-api-openapi.yml
   format: yaml
-  label: Tesla Fleet API
-  slug: fleet-api
+  label: Tesla Authentication API
+  slug: tesla-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesla/refs/heads/main/openapi/tesla-openapi-original.yml
-- filename: tesla-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tesla/refs/heads/main/openapi/tesla-authentication-api-openapi.yml
+- filename: tesla-media-control-api-openapi.yml
   format: yaml
-  label: Tesla Owner API
-  slug: owner-api
+  label: Tesla Media Control API
+  slug: tesla-media-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesla/refs/heads/main/openapi/tesla-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tesla/refs/heads/main/openapi/tesla-media-control-api-openapi.yml
+- filename: tesla-vehicle-commands-api-openapi.yml
+  format: yaml
+  label: Tesla Vehicle Commands API
+  slug: tesla-vehicle-commands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tesla/refs/heads/main/openapi/tesla-vehicle-commands-api-openapi.yml
+- filename: tesla-vehicles-api-openapi.yml
+  format: yaml
+  label: Tesla Vehicles API
+  slug: tesla-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tesla/refs/heads/main/openapi/tesla-vehicles-api-openapi.yml
 description: ''
 domains:
 - caa: []

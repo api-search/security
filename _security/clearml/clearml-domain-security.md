@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: clearml-openapi.yml
+- filename: clearml-auth-api-openapi.yml
   format: yaml
-  label: ClearML REST API
-  slug: clearml-rest-api
+  label: ClearML Auth API
+  slug: clearml-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-auth-api-openapi.yml
+- filename: clearml-debug-api-openapi.yml
+  format: yaml
+  label: ClearML Debug API
+  slug: clearml-debug-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-debug-api-openapi.yml
+- filename: clearml-events-api-openapi.yml
+  format: yaml
+  label: ClearML Events API
+  slug: clearml-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-events-api-openapi.yml
+- filename: clearml-models-api-openapi.yml
+  format: yaml
+  label: ClearML Models API
+  slug: clearml-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-models-api-openapi.yml
+- filename: clearml-projects-api-openapi.yml
+  format: yaml
+  label: ClearML Projects API
+  slug: clearml-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-projects-api-openapi.yml
+- filename: clearml-queues-api-openapi.yml
+  format: yaml
+  label: ClearML Queues API
+  slug: clearml-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-queues-api-openapi.yml
+- filename: clearml-tasks-api-openapi.yml
+  format: yaml
+  label: ClearML Tasks API
+  slug: clearml-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-tasks-api-openapi.yml
+- filename: clearml-workers-api-openapi.yml
+  format: yaml
+  label: ClearML Workers API
+  slug: clearml-workers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-workers-api-openapi.yml
 description: ''
 domains:
 - caa: []

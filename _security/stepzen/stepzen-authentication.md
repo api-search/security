@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: stepzen-admin-openapi.yml
+- filename: stepzen-account-api-openapi.yml
   format: yaml
-  label: StepZen Admin API
-  slug: stepzen-admin-api
+  label: StepZen Account API
+  slug: stepzen-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stepzen/refs/heads/main/openapi/stepzen-admin-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stepzen/refs/heads/main/openapi/stepzen-account-api-openapi.yml
+- filename: stepzen-api-keys-api-openapi.yml
+  format: yaml
+  label: StepZen API Keys API
+  slug: stepzen-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stepzen/refs/heads/main/openapi/stepzen-api-keys-api-openapi.yml
+- filename: stepzen-endpoints-api-openapi.yml
+  format: yaml
+  label: StepZen Endpoints API
+  slug: stepzen-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stepzen/refs/heads/main/openapi/stepzen-endpoints-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

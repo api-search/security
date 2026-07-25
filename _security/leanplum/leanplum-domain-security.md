@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: leanplum-openapi.yml
-  format: yaml
-  label: Leanplum Events & Tracking API
-  slug: leanplum-events-tracking-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-openapi.yml
-- filename: leanplum-openapi.yml
-  format: yaml
-  label: Leanplum User & Device Attributes API
-  slug: leanplum-user-attributes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-openapi.yml
-- filename: leanplum-openapi.yml
-  format: yaml
-  label: Leanplum Messaging API
-  slug: leanplum-messaging-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-openapi.yml
-- filename: leanplum-openapi.yml
+- filename: leanplum-a-b-tests-api-openapi.yml
   format: yaml
   label: Leanplum A/B Tests API
-  slug: leanplum-ab-tests-api
+  slug: leanplum-a-b-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-openapi.yml
-- filename: leanplum-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-a-b-tests-api-openapi.yml
+- filename: leanplum-content-variables-api-openapi.yml
   format: yaml
   label: Leanplum Content & Variables API
   slug: leanplum-content-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-openapi.yml
-- filename: leanplum-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-content-variables-api-openapi.yml
+- filename: leanplum-data-export-api-openapi.yml
   format: yaml
   label: Leanplum Data Export API
   slug: leanplum-data-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-openapi.yml
-- filename: leanplum-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-data-export-api-openapi.yml
+- filename: leanplum-events-tracking-api-openapi.yml
+  format: yaml
+  label: Leanplum Events & Tracking API
+  slug: leanplum-events-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-events-tracking-api-openapi.yml
+- filename: leanplum-messaging-api-openapi.yml
+  format: yaml
+  label: Leanplum Messaging API
+  slug: leanplum-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-messaging-api-openapi.yml
+- filename: leanplum-postbacks-batch-api-openapi.yml
   format: yaml
   label: Leanplum Postbacks & Batch API
-  slug: leanplum-postbacks-api
+  slug: leanplum-postbacks-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-postbacks-batch-api-openapi.yml
+- filename: leanplum-user-device-attributes-api-openapi.yml
+  format: yaml
+  label: Leanplum User & Device Attributes API
+  slug: leanplum-user-device-attributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-user-device-attributes-api-openapi.yml
 description: ''
 domains:
 - caa: []

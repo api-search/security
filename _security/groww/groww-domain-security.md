@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: groww-trade-api-openapi.yml
+- filename: groww-authentication-api-openapi.yml
   format: yaml
-  label: Groww Trading API
-  slug: groww-trade-api
+  label: Groww Authentication API
+  slug: groww-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/openapi/groww-trade-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/openapi/groww-authentication-api-openapi.yml
+- filename: groww-historical-data-api-openapi.yml
+  format: yaml
+  label: Groww Historical Data API
+  slug: groww-historical-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/openapi/groww-historical-data-api-openapi.yml
+- filename: groww-live-data-api-openapi.yml
+  format: yaml
+  label: Groww Live Data API
+  slug: groww-live-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/openapi/groww-live-data-api-openapi.yml
+- filename: groww-margin-api-openapi.yml
+  format: yaml
+  label: Groww Margin API
+  slug: groww-margin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/openapi/groww-margin-api-openapi.yml
+- filename: groww-orders-api-openapi.yml
+  format: yaml
+  label: Groww Orders API
+  slug: groww-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/openapi/groww-orders-api-openapi.yml
+- filename: groww-portfolio-api-openapi.yml
+  format: yaml
+  label: Groww Portfolio API
+  slug: groww-portfolio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/openapi/groww-portfolio-api-openapi.yml
 description: ''
 domains:
 - caa: []

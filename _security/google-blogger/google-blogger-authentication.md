@@ -2,12 +2,18 @@
 api_key_in:
 - query
 api_specs:
-- filename: blogger.yml
+- filename: google-blogger-blogs-api-openapi.yml
   format: yaml
-  label: Google Blogger API V3
-  slug: google-blogger
+  label: Google Blogger Blogs API
+  slug: google-blogger-blogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-blogger/refs/heads/main/openapi/blogger.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-blogger/refs/heads/main/openapi/google-blogger-blogs-api-openapi.yml
+- filename: google-blogger-users-api-openapi.yml
+  format: yaml
+  label: Google Blogger Users API
+  slug: google-blogger-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-blogger/refs/heads/main/openapi/google-blogger-users-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

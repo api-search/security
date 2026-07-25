@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: zenadmin-external-api.yml
+- filename: zenadmin-catalog-api-openapi.yml
   format: yaml
-  label: ZenAdmin External API
-  slug: zenadmin-external-api
+  label: ZenAdmin Catalog API
+  slug: zenadmin-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/openapi/zenadmin-external-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/openapi/zenadmin-catalog-api-openapi.yml
+- filename: zenadmin-context-api-openapi.yml
+  format: yaml
+  label: ZenAdmin Context API
+  slug: zenadmin-context-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/openapi/zenadmin-context-api-openapi.yml
+- filename: zenadmin-devices-api-openapi.yml
+  format: yaml
+  label: ZenAdmin Devices API
+  slug: zenadmin-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/openapi/zenadmin-devices-api-openapi.yml
+- filename: zenadmin-employees-api-openapi.yml
+  format: yaml
+  label: ZenAdmin Employees API
+  slug: zenadmin-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/openapi/zenadmin-employees-api-openapi.yml
+- filename: zenadmin-orders-api-openapi.yml
+  format: yaml
+  label: ZenAdmin Orders API
+  slug: zenadmin-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/openapi/zenadmin-orders-api-openapi.yml
+- filename: zenadmin-webhooks-api-openapi.yml
+  format: yaml
+  label: ZenAdmin Webhooks API
+  slug: zenadmin-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/openapi/zenadmin-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: amazon-systems-manager-openapi.yml
+- filename: amazon-systems-manager-automation-api-openapi.yml
   format: yaml
-  label: AWS Systems Manager API
-  slug: aws-systems-manager-api
+  label: Amazon Systems Manager Automation API
+  slug: amazon-systems-manager-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-systems-manager/refs/heads/main/openapi/amazon-systems-manager-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-systems-manager/refs/heads/main/openapi/amazon-systems-manager-automation-api-openapi.yml
+- filename: amazon-systems-manager-documents-api-openapi.yml
+  format: yaml
+  label: Amazon Systems Manager Documents API
+  slug: amazon-systems-manager-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-systems-manager/refs/heads/main/openapi/amazon-systems-manager-documents-api-openapi.yml
+- filename: amazon-systems-manager-managed-instances-api-openapi.yml
+  format: yaml
+  label: Amazon Systems Manager Managed Instances API
+  slug: amazon-systems-manager-managed-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-systems-manager/refs/heads/main/openapi/amazon-systems-manager-managed-instances-api-openapi.yml
+- filename: amazon-systems-manager-parameter-store-api-openapi.yml
+  format: yaml
+  label: Amazon Systems Manager Parameter Store API
+  slug: amazon-systems-manager-parameter-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-systems-manager/refs/heads/main/openapi/amazon-systems-manager-parameter-store-api-openapi.yml
+- filename: amazon-systems-manager-run-command-api-openapi.yml
+  format: yaml
+  label: Amazon Systems Manager Run Command API
+  slug: amazon-systems-manager-run-command-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-systems-manager/refs/heads/main/openapi/amazon-systems-manager-run-command-api-openapi.yml
 description: ''
 domains:
 - caa: []

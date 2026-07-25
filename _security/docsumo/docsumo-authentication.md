@@ -2,24 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: docsumo-openapi.yml
-  format: yaml
-  label: Docsumo Documents & Extraction API
-  slug: docsumo-documents-extraction-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/openapi/docsumo-openapi.yml
-- filename: docsumo-openapi.yml
+- filename: docsumo-document-types-api-openapi.yml
   format: yaml
   label: Docsumo Document Types API
   slug: docsumo-document-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/openapi/docsumo-openapi.yml
-- filename: docsumo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/openapi/docsumo-document-types-api-openapi.yml
+- filename: docsumo-documents-api-openapi.yml
   format: yaml
-  label: Docsumo Review & Validation API
-  slug: docsumo-review-validation-api
+  label: Docsumo Documents API
+  slug: docsumo-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/openapi/docsumo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/openapi/docsumo-documents-api-openapi.yml
+- filename: docsumo-extraction-api-openapi.yml
+  format: yaml
+  label: Docsumo Extraction API
+  slug: docsumo-extraction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/openapi/docsumo-extraction-api-openapi.yml
+- filename: docsumo-review-api-openapi.yml
+  format: yaml
+  label: Docsumo Review API
+  slug: docsumo-review-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/openapi/docsumo-review-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

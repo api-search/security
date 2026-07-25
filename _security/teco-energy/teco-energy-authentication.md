@@ -1,18 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: teco-energy-outage-openapi.yml
+- filename: teco-energy-accounts-api-openapi.yml
   format: yaml
-  label: Tampa Electric Outage API
-  slug: outage-api
+  label: TECO Energy Accounts API
+  slug: teco-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/openapi/teco-energy-outage-openapi.yml
-- filename: teco-energy-account-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/openapi/teco-energy-accounts-api-openapi.yml
+- filename: teco-energy-billing-api-openapi.yml
   format: yaml
-  label: Tampa Electric Account API
-  slug: account-api
+  label: TECO Energy Billing API
+  slug: teco-energy-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/openapi/teco-energy-account-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/openapi/teco-energy-billing-api-openapi.yml
+- filename: teco-energy-energy-usage-api-openapi.yml
+  format: yaml
+  label: TECO Energy Energy Usage API
+  slug: teco-energy-energy-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/openapi/teco-energy-energy-usage-api-openapi.yml
+- filename: teco-energy-outages-api-openapi.yml
+  format: yaml
+  label: TECO Energy Outages API
+  slug: teco-energy-outages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/openapi/teco-energy-outages-api-openapi.yml
+- filename: teco-energy-service-requests-api-openapi.yml
+  format: yaml
+  label: TECO Energy Service Requests API
+  slug: teco-energy-service-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/openapi/teco-energy-service-requests-api-openapi.yml
 auth_types:
 - http
 description: ''

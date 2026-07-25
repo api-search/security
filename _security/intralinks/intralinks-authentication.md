@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: intralinks-api-openapi.yml
+- filename: intralinks-authentication-api-openapi.yml
   format: yaml
-  label: Intralinks API
-  slug: api
+  label: Intralinks Authentication API
+  slug: intralinks-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/openapi/intralinks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/openapi/intralinks-authentication-api-openapi.yml
+- filename: intralinks-custom-fields-api-openapi.yml
+  format: yaml
+  label: Intralinks Custom Fields API
+  slug: intralinks-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/openapi/intralinks-custom-fields-api-openapi.yml
+- filename: intralinks-documents-api-openapi.yml
+  format: yaml
+  label: Intralinks Documents API
+  slug: intralinks-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/openapi/intralinks-documents-api-openapi.yml
+- filename: intralinks-folders-api-openapi.yml
+  format: yaml
+  label: Intralinks Folders API
+  slug: intralinks-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/openapi/intralinks-folders-api-openapi.yml
+- filename: intralinks-groups-api-openapi.yml
+  format: yaml
+  label: Intralinks Groups API
+  slug: intralinks-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/openapi/intralinks-groups-api-openapi.yml
+- filename: intralinks-permissions-api-openapi.yml
+  format: yaml
+  label: Intralinks Permissions API
+  slug: intralinks-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/openapi/intralinks-permissions-api-openapi.yml
+- filename: intralinks-splash-api-openapi.yml
+  format: yaml
+  label: Intralinks Splash API
+  slug: intralinks-splash-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/openapi/intralinks-splash-api-openapi.yml
+- filename: intralinks-workspaces-api-openapi.yml
+  format: yaml
+  label: Intralinks Workspaces API
+  slug: intralinks-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/openapi/intralinks-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''

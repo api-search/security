@@ -1,12 +1,78 @@
 ---
 api_key_in: []
 api_specs:
-- filename: primis-openapi-original.json
-  format: json
-  label: Primis REST API
-  slug: primis-rest-api
+- filename: primis-auth-api-openapi.yml
+  format: yaml
+  label: PRIMIS Auth API
+  slug: primis-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/openapi/primis-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/openapi/primis-auth-api-openapi.yml
+- filename: primis-billing-api-openapi.yml
+  format: yaml
+  label: PRIMIS Billing API
+  slug: primis-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/openapi/primis-billing-api-openapi.yml
+- filename: primis-campaign-api-openapi.yml
+  format: yaml
+  label: PRIMIS Campaign API
+  slug: primis-campaign-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/openapi/primis-campaign-api-openapi.yml
+- filename: primis-document-api-openapi.yml
+  format: yaml
+  label: PRIMIS Document API
+  slug: primis-document-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/openapi/primis-document-api-openapi.yml
+- filename: primis-faq-api-openapi.yml
+  format: yaml
+  label: PRIMIS FAQ API
+  slug: primis-faq-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/openapi/primis-faq-api-openapi.yml
+- filename: primis-index-api-openapi.yml
+  format: yaml
+  label: PRIMIS Index API
+  slug: primis-index-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/openapi/primis-index-api-openapi.yml
+- filename: primis-invitation-api-openapi.yml
+  format: yaml
+  label: PRIMIS Invitation API
+  slug: primis-invitation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/openapi/primis-invitation-api-openapi.yml
+- filename: primis-order-api-openapi.yml
+  format: yaml
+  label: PRIMIS Order API
+  slug: primis-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/openapi/primis-order-api-openapi.yml
+- filename: primis-product-api-openapi.yml
+  format: yaml
+  label: PRIMIS Product API
+  slug: primis-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/openapi/primis-product-api-openapi.yml
+- filename: primis-retailer-api-openapi.yml
+  format: yaml
+  label: PRIMIS Retailer API
+  slug: primis-retailer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/openapi/primis-retailer-api-openapi.yml
+- filename: primis-tracking-api-openapi.yml
+  format: yaml
+  label: PRIMIS Tracking API
+  slug: primis-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/openapi/primis-tracking-api-openapi.yml
+- filename: primis-user-api-openapi.yml
+  format: yaml
+  label: PRIMIS User API
+  slug: primis-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/openapi/primis-user-api-openapi.yml
 auth_types:
 - http
 description: ''

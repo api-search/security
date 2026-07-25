@@ -1,35 +1,53 @@
 ---
 api_specs:
-- filename: regal-events-api-openapi.yml
-  format: yaml
-  label: Regal Events API
-  slug: regal-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-events-api-openapi.yml
-- filename: regal-branded-phone-numbers-api-openapi.yml
-  format: yaml
-  label: Regal Branded Phone Numbers API
-  slug: regal-branded-phone-numbers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-branded-phone-numbers-api-openapi.yml
-- filename: regal-management-api-openapi.yml
-  format: yaml
-  label: Regal Management API
-  slug: regal-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-management-api-openapi.yml
-- filename: regal-messages-api-openapi.yml
-  format: yaml
-  label: Regal Messages API
-  slug: regal-messages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-messages-api-openapi.yml
 - filename: regal-reporting-webhooks-asyncapi.yml
   format: yaml
   label: Regal Reporting Webhooks
   slug: regal-reporting-webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/asyncapi/regal-reporting-webhooks-asyncapi.yml
+- filename: regal-ai-branded-phone-numbers-api-openapi.yml
+  format: yaml
+  label: Regal Branded Phone Numbers API
+  slug: regal-ai-branded-phone-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-branded-phone-numbers-api-openapi.yml
+- filename: regal-ai-business-profiles-api-openapi.yml
+  format: yaml
+  label: Regal Business Profiles API
+  slug: regal-ai-business-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-business-profiles-api-openapi.yml
+- filename: regal-ai-campaigns-api-openapi.yml
+  format: yaml
+  label: Regal Campaigns API
+  slug: regal-ai-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-campaigns-api-openapi.yml
+- filename: regal-ai-dispositions-api-openapi.yml
+  format: yaml
+  label: Regal Dispositions API
+  slug: regal-ai-dispositions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-dispositions-api-openapi.yml
+- filename: regal-ai-events-api-openapi.yml
+  format: yaml
+  label: Regal Events API
+  slug: regal-ai-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-events-api-openapi.yml
+- filename: regal-ai-messages-api-openapi.yml
+  format: yaml
+  label: Regal Messages API
+  slug: regal-ai-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-messages-api-openapi.yml
+- filename: regal-ai-phone-numbers-api-openapi.yml
+  format: yaml
+  label: Regal Phone Numbers API
+  slug: regal-ai-phone-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-phone-numbers-api-openapi.yml
 certifications:
 - SOC 2
 - HIPAA

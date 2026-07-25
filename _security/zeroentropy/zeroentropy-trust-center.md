@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: zeroentropy-openapi.json
-  format: json
-  label: ZeroEntropy API
-  slug: zeroentropy-api
+- filename: zeroentropy-admin-api-openapi.yml
+  format: yaml
+  label: ZeroEntropy Admin API
+  slug: zeroentropy-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/openapi/zeroentropy-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/openapi/zeroentropy-admin-api-openapi.yml
+- filename: zeroentropy-collections-api-openapi.yml
+  format: yaml
+  label: ZeroEntropy Collections API
+  slug: zeroentropy-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/openapi/zeroentropy-collections-api-openapi.yml
+- filename: zeroentropy-documents-api-openapi.yml
+  format: yaml
+  label: ZeroEntropy Documents API
+  slug: zeroentropy-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/openapi/zeroentropy-documents-api-openapi.yml
+- filename: zeroentropy-models-api-openapi.yml
+  format: yaml
+  label: ZeroEntropy Models API
+  slug: zeroentropy-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/openapi/zeroentropy-models-api-openapi.yml
+- filename: zeroentropy-queries-api-openapi.yml
+  format: yaml
+  label: ZeroEntropy Queries API
+  slug: zeroentropy-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/openapi/zeroentropy-queries-api-openapi.yml
+- filename: zeroentropy-status-api-openapi.yml
+  format: yaml
+  label: ZeroEntropy Status API
+  slug: zeroentropy-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/openapi/zeroentropy-status-api-openapi.yml
+- filename: zeroentropy-usage-api-openapi.yml
+  format: yaml
+  label: ZeroEntropy Usage API
+  slug: zeroentropy-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/openapi/zeroentropy-usage-api-openapi.yml
 certifications:
 - SOC 2
 - HIPAA

@@ -3,12 +3,54 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: openapi.yml
+- filename: wazirx-websocket-api-openapi.yml
   format: yaml
-  label: WazirX REST API
-  slug: wazirx-rest-api
+  label: WazirX WebSocket API
+  slug: wazirx-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-websocket-api-openapi.yml
+- filename: wazirx-account-api-openapi.yml
+  format: yaml
+  label: WazirX Account API
+  slug: wazirx-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-account-api-openapi.yml
+- filename: wazirx-general-api-openapi.yml
+  format: yaml
+  label: WazirX General API
+  slug: wazirx-general-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-general-api-openapi.yml
+- filename: wazirx-market-data-api-openapi.yml
+  format: yaml
+  label: WazirX Market Data API
+  slug: wazirx-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-market-data-api-openapi.yml
+- filename: wazirx-sub-account-api-openapi.yml
+  format: yaml
+  label: WazirX Sub-Account API
+  slug: wazirx-sub-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-sub-account-api-openapi.yml
+- filename: wazirx-trading-api-openapi.yml
+  format: yaml
+  label: WazirX Trading API
+  slug: wazirx-trading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-trading-api-openapi.yml
+- filename: wazirx-wallet-api-openapi.yml
+  format: yaml
+  label: WazirX Wallet API
+  slug: wazirx-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-wallet-api-openapi.yml
+- filename: wazirx-websocket-api-openapi.yml
+  format: yaml
+  label: WazirX WebSocket API
+  slug: wazirx-websocket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-websocket-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

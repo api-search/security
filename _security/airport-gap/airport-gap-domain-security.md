@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: airport-gap-airports-api-openapi.yml
   format: yaml
-  label: Airport Gap REST API
-  slug: airport-gap-rest-api
+  label: Airport Gap Airports API
+  slug: airport-gap-airports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/openapi/airport-gap-airports-api-openapi.yml
+- filename: airport-gap-distance-api-openapi.yml
+  format: yaml
+  label: Airport Gap Distance API
+  slug: airport-gap-distance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/openapi/airport-gap-distance-api-openapi.yml
+- filename: airport-gap-favorites-api-openapi.yml
+  format: yaml
+  label: Airport Gap Favorites API
+  slug: airport-gap-favorites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/openapi/airport-gap-favorites-api-openapi.yml
+- filename: airport-gap-tokens-api-openapi.yml
+  format: yaml
+  label: Airport Gap Tokens API
+  slug: airport-gap-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/openapi/airport-gap-tokens-api-openapi.yml
 description: ''
 domains:
 - caa: []

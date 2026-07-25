@@ -1,23 +1,17 @@
 ---
 api_specs:
-- filename: chowly-openapi.yml
+- filename: chowly-menu-api-openapi.yml
+  format: yaml
+  label: Chowly Menu API
+  slug: chowly-menu-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chowly/refs/heads/main/openapi/chowly-menu-api-openapi.yml
+- filename: chowly-orders-api-openapi.yml
   format: yaml
   label: Chowly Orders API
-  slug: orders
+  slug: chowly-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chowly/refs/heads/main/openapi/chowly-openapi.yml
-- filename: chowly-openapi.yml
-  format: yaml
-  label: Chowly Menu Sync API
-  slug: menu-sync
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chowly/refs/heads/main/openapi/chowly-openapi.yml
-- filename: chowly-openapi.yml
-  format: yaml
-  label: Chowly Stores API
-  slug: stores
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chowly/refs/heads/main/openapi/chowly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chowly/refs/heads/main/openapi/chowly-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []

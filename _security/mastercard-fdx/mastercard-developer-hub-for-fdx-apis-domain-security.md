@@ -1,17 +1,65 @@
 ---
 api_specs:
-- filename: fdx-authorization-api-openapi.yaml
+- filename: mastercard-developer-hub-for-fdx-apis-application-check-controller-api-openapi.yml
   format: yaml
-  label: Mastercard FDX Authorization API
-  slug: authorization-api
+  label: Mastercard Developer Hub for FDX APIs Application Check Controller API
+  slug: mastercard-developer-hub-for-fdx-apis-application-check-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard-fdx/refs/heads/main/openapi/fdx-authorization-api-openapi.yaml
-- filename: fdx-resource-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/mastercard-fdx/refs/heads/main/openapi/mastercard-developer-hub-for-fdx-apis-application-check-controller-api-openapi.yml
+- filename: mastercard-developer-hub-for-fdx-apis-consent-api-openapi.yml
   format: yaml
-  label: Mastercard FDX Resource API
-  slug: resource-api
+  label: Mastercard Developer Hub for FDX APIs Consent API
+  slug: mastercard-developer-hub-for-fdx-apis-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard-fdx/refs/heads/main/openapi/fdx-resource-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/mastercard-fdx/refs/heads/main/openapi/mastercard-developer-hub-for-fdx-apis-consent-api-openapi.yml
+- filename: mastercard-developer-hub-for-fdx-apis-data-resource-apis-api-openapi.yml
+  format: yaml
+  label: Mastercard Developer Hub for FDX APIs Data Resource APIs API
+  slug: mastercard-developer-hub-for-fdx-apis-data-resource-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mastercard-fdx/refs/heads/main/openapi/mastercard-developer-hub-for-fdx-apis-data-resource-apis-api-openapi.yml
+- filename: mastercard-developer-hub-for-fdx-apis-dynamic-client-registration-api-openapi.yml
+  format: yaml
+  label: Mastercard Developer Hub for FDX APIs Dynamic Client Registration API
+  slug: mastercard-developer-hub-for-fdx-apis-dynamic-client-registration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mastercard-fdx/refs/heads/main/openapi/mastercard-developer-hub-for-fdx-apis-dynamic-client-registration-api-openapi.yml
+- filename: mastercard-developer-hub-for-fdx-apis-non-par-authorize-api-openapi.yml
+  format: yaml
+  label: Mastercard Developer Hub for FDX APIs Non PAR Authorize API
+  slug: mastercard-developer-hub-for-fdx-apis-non-par-authorize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mastercard-fdx/refs/heads/main/openapi/mastercard-developer-hub-for-fdx-apis-non-par-authorize-api-openapi.yml
+- filename: mastercard-developer-hub-for-fdx-apis-par-rar-authorize-api-openapi.yml
+  format: yaml
+  label: Mastercard Developer Hub for FDX APIs PAR+RAR Authorize API
+  slug: mastercard-developer-hub-for-fdx-apis-par-rar-authorize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mastercard-fdx/refs/heads/main/openapi/mastercard-developer-hub-for-fdx-apis-par-rar-authorize-api-openapi.yml
+- filename: mastercard-developer-hub-for-fdx-apis-resource-token-api-openapi.yml
+  format: yaml
+  label: Mastercard Developer Hub for FDX APIs Resource Token API
+  slug: mastercard-developer-hub-for-fdx-apis-resource-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mastercard-fdx/refs/heads/main/openapi/mastercard-developer-hub-for-fdx-apis-resource-token-api-openapi.yml
+- filename: mastercard-developer-hub-for-fdx-apis-token-introspection-api-openapi.yml
+  format: yaml
+  label: Mastercard Developer Hub for FDX APIs Token Introspection API
+  slug: mastercard-developer-hub-for-fdx-apis-token-introspection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mastercard-fdx/refs/heads/main/openapi/mastercard-developer-hub-for-fdx-apis-token-introspection-api-openapi.yml
+- filename: mastercard-developer-hub-for-fdx-apis-upload-data-api-openapi.yml
+  format: yaml
+  label: Mastercard Developer Hub for FDX APIs Upload Data API
+  slug: mastercard-developer-hub-for-fdx-apis-upload-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mastercard-fdx/refs/heads/main/openapi/mastercard-developer-hub-for-fdx-apis-upload-data-api-openapi.yml
+- filename: mastercard-developer-hub-for-fdx-apis-user-apis-api-openapi.yml
+  format: yaml
+  label: Mastercard Developer Hub for FDX APIs User APIs API
+  slug: mastercard-developer-hub-for-fdx-apis-user-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mastercard-fdx/refs/heads/main/openapi/mastercard-developer-hub-for-fdx-apis-user-apis-api-openapi.yml
 description: ''
 domains:
 - caa: []

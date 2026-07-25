@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-appsheet-apps-api-openapi.yml
   format: yaml
-  label: Google AppSheet API
-  slug: google-appsheet
+  label: Google AppSheet Apps API
+  slug: google-appsheet-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-appsheet/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-appsheet/refs/heads/main/openapi/google-appsheet-apps-api-openapi.yml
 description: ''
 domains:
 - caa:

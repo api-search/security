@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: narvar-order-openapi.yml
+- filename: narvar-orders-api-openapi.yml
   format: yaml
-  label: Narvar Order API
-  slug: narvar-order-api
+  label: Narvar Orders API
+  slug: narvar-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/narvar/refs/heads/main/openapi/narvar-order-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/narvar/refs/heads/main/openapi/narvar-orders-api-openapi.yml
 auth_types:
 - http
 description: ''

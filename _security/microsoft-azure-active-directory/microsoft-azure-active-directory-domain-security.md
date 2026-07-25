@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: microsoft-azure-active-directory-applications-api-openapi.yml
   format: yaml
-  label: Microsoft Graph API
-  slug: microsoft-graph-api
+  label: Microsoft Azure Active Directory Applications API
+  slug: microsoft-azure-active-directory-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
-- filename: microsoft-graph-identity-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-active-directory/refs/heads/main/openapi/microsoft-azure-active-directory-applications-api-openapi.yml
+- filename: microsoft-azure-active-directory-groups-api-openapi.yml
   format: yaml
-  label: Microsoft Graph Identity and Access API
-  slug: microsoft-graph-identity-and-access-api
+  label: Microsoft Azure Active Directory Groups API
+  slug: microsoft-azure-active-directory-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-active-directory/refs/heads/main/openapi/microsoft-graph-identity-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-active-directory/refs/heads/main/openapi/microsoft-azure-active-directory-groups-api-openapi.yml
+- filename: microsoft-azure-active-directory-service-principals-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Active Directory Service Principals API
+  slug: microsoft-azure-active-directory-service-principals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-active-directory/refs/heads/main/openapi/microsoft-azure-active-directory-service-principals-api-openapi.yml
+- filename: microsoft-azure-active-directory-users-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Active Directory Users API
+  slug: microsoft-azure-active-directory-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-active-directory/refs/heads/main/openapi/microsoft-azure-active-directory-users-api-openapi.yml
 description: ''
 domains:
 - caa:

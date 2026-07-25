@@ -1,29 +1,11 @@
 ---
 api_specs:
-- filename: zerodev-openapi.yml
+- filename: zerodev-json-rpc-api-openapi.yml
   format: yaml
-  label: ZeroDev Bundler RPC
-  slug: zerodev-bundler-rpc
+  label: ZeroDev JSON-RPC API
+  slug: zerodev-json-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerodev/refs/heads/main/openapi/zerodev-openapi.yml
-- filename: zerodev-openapi.yml
-  format: yaml
-  label: ZeroDev Paymaster RPC
-  slug: zerodev-paymaster-rpc
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerodev/refs/heads/main/openapi/zerodev-openapi.yml
-- filename: zerodev-openapi.yml
-  format: yaml
-  label: ZeroDev Kernel SDK
-  slug: zerodev-kernel-sdk
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerodev/refs/heads/main/openapi/zerodev-openapi.yml
-- filename: zerodev-openapi.yml
-  format: yaml
-  label: ZeroDev Meta-Aggregator (Smart Routing)
-  slug: zerodev-meta-aggregator
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerodev/refs/heads/main/openapi/zerodev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zerodev/refs/heads/main/openapi/zerodev-json-rpc-api-openapi.yml
 description: ''
 domains:
 - caa: []

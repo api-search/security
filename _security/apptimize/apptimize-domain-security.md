@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: apptimize-rest-api-openapi.yml
+- filename: apptimize-events-api-openapi.yml
   format: yaml
-  label: Apptimize REST API
-  slug: apptimize-rest-api
+  label: Apptimize Events API
+  slug: apptimize-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptimize/refs/heads/main/openapi/apptimize-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apptimize/refs/heads/main/openapi/apptimize-events-api-openapi.yml
+- filename: apptimize-experiments-api-openapi.yml
+  format: yaml
+  label: Apptimize Experiments API
+  slug: apptimize-experiments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apptimize/refs/heads/main/openapi/apptimize-experiments-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,42 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: exotel-openapi.yml
-  format: yaml
-  label: Exotel Voice Call API
-  slug: exotel-voice-call-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-openapi.yml
-- filename: exotel-openapi.yml
-  format: yaml
-  label: Exotel Call Details API
-  slug: exotel-call-details-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-openapi.yml
-- filename: exotel-openapi.yml
-  format: yaml
-  label: Exotel SMS API
-  slug: exotel-sms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-openapi.yml
-- filename: exotel-openapi.yml
-  format: yaml
-  label: Exotel Numbers API
-  slug: exotel-numbers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-openapi.yml
-- filename: exotel-openapi.yml
-  format: yaml
-  label: Exotel Campaigns API
-  slug: exotel-campaigns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-openapi.yml
 - filename: exotel-asyncapi.yml
   format: yaml
   label: Exotel AgentStream Voice Streaming API
   slug: exotel-agentstream-voice-streaming-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/asyncapi/exotel-asyncapi.yml
+- filename: exotel-call-details-api-openapi.yml
+  format: yaml
+  label: Exotel Call Details API
+  slug: exotel-call-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-call-details-api-openapi.yml
+- filename: exotel-campaigns-api-openapi.yml
+  format: yaml
+  label: Exotel Campaigns API
+  slug: exotel-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-campaigns-api-openapi.yml
+- filename: exotel-numbers-api-openapi.yml
+  format: yaml
+  label: Exotel Numbers API
+  slug: exotel-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-numbers-api-openapi.yml
+- filename: exotel-sms-api-openapi.yml
+  format: yaml
+  label: Exotel SMS API
+  slug: exotel-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-sms-api-openapi.yml
+- filename: exotel-voice-api-openapi.yml
+  format: yaml
+  label: Exotel Voice API
+  slug: exotel-voice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-voice-api-openapi.yml
 auth_types:
 - http
 description: ''

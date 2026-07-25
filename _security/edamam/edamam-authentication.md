@@ -8,12 +8,6 @@ api_specs:
   slug: edamam-nutrition-analysis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/edamam/main/openapi/edamam-nutrition-analysis-api-openapi.yml
-- filename: edamam-food-and-grocery-database-api-openapi.yml
-  format: yaml
-  label: Edamam Food and Grocery Database API
-  slug: edamam-food-and-grocery-database-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edamam/main/openapi/edamam-food-and-grocery-database-api-openapi.yml
 - filename: edamam-recipe-search-api-openapi.yml
   format: yaml
   label: Edamam Recipe Search API
@@ -26,6 +20,12 @@ api_specs:
   slug: edamam-meal-planner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/edamam/main/openapi/edamam-meal-planner-api-openapi.yml
+- filename: edamam-food-database-api-openapi.yml
+  format: yaml
+  label: Edamam Food Database API
+  slug: edamam-food-database-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edamam/refs/heads/main/openapi/edamam-food-database-api-openapi.yml
 auth_types:
 - apiKey
 - http

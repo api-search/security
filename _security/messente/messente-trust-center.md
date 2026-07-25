@@ -1,47 +1,71 @@
 ---
 api_specs:
-- filename: messente-openapi.yml
+- filename: messente-account-balance-api-openapi.yml
   format: yaml
-  label: Messente Omnimessage API
-  slug: messente-omnimessage-api
+  label: Messente Account Balance API
+  slug: messente-account-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-openapi.yml
-- filename: messente-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-account-balance-api-openapi.yml
+- filename: messente-blacklist-api-openapi.yml
   format: yaml
-  label: Messente SMS API
-  slug: messente-sms-api
+  label: Messente Blacklist API
+  slug: messente-blacklist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-openapi.yml
-- filename: messente-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-blacklist-api-openapi.yml
+- filename: messente-bulk-messaging-api-openapi.yml
+  format: yaml
+  label: Messente Bulk Messaging API
+  slug: messente-bulk-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-bulk-messaging-api-openapi.yml
+- filename: messente-contacts-api-openapi.yml
   format: yaml
   label: Messente Contacts API
   slug: messente-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-openapi.yml
-- filename: messente-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-contacts-api-openapi.yml
+- filename: messente-delivery-report-api-openapi.yml
+  format: yaml
+  label: Messente Delivery Report API
+  slug: messente-delivery-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-delivery-report-api-openapi.yml
+- filename: messente-groups-api-openapi.yml
   format: yaml
   label: Messente Groups API
   slug: messente-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-openapi.yml
-- filename: messente-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-groups-api-openapi.yml
+- filename: messente-number-lookup-api-openapi.yml
   format: yaml
   label: Messente Number Lookup API
   slug: messente-number-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-openapi.yml
-- filename: messente-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-number-lookup-api-openapi.yml
+- filename: messente-number-verification-api-openapi.yml
+  format: yaml
+  label: Messente Number Verification API
+  slug: messente-number-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-number-verification-api-openapi.yml
+- filename: messente-omnimessage-api-openapi.yml
+  format: yaml
+  label: Messente Omnimessage API
+  slug: messente-omnimessage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-omnimessage-api-openapi.yml
+- filename: messente-pricing-api-openapi.yml
+  format: yaml
+  label: Messente Pricing API
+  slug: messente-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-pricing-api-openapi.yml
+- filename: messente-statistics-api-openapi.yml
   format: yaml
   label: Messente Statistics API
   slug: messente-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-openapi.yml
-- filename: messente-openapi.yml
-  format: yaml
-  label: Messente Delivery Reports API
-  slug: messente-delivery-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-statistics-api-openapi.yml
 certifications:
 - ISO 27001
 - GDPR

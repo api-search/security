@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: placer-papi-openapi.json
-  format: json
-  label: Placer Public API (PAPI)
-  slug: placer-public-api-papi
+- filename: placer-account-info-api-openapi.yml
+  format: yaml
+  label: Placer Account Info API
+  slug: placer-account-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/openapi/placer-papi-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/openapi/placer-account-info-api-openapi.yml
+- filename: placer-loyalty-reports-api-openapi.yml
+  format: yaml
+  label: Placer Loyalty Reports API
+  slug: placer-loyalty-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/openapi/placer-loyalty-reports-api-openapi.yml
+- filename: placer-manage-pois-api-openapi.yml
+  format: yaml
+  label: Placer Manage POIs API
+  slug: placer-manage-pois-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/openapi/placer-manage-pois-api-openapi.yml
+- filename: placer-ranking-reports-api-openapi.yml
+  format: yaml
+  label: Placer Ranking Reports API
+  slug: placer-ranking-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/openapi/placer-ranking-reports-api-openapi.yml
+- filename: placer-retail-sales-reports-api-openapi.yml
+  format: yaml
+  label: Placer Retail Sales Reports API
+  slug: placer-retail-sales-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/openapi/placer-retail-sales-reports-api-openapi.yml
+- filename: placer-trade-area-reports-api-openapi.yml
+  format: yaml
+  label: Placer Trade Area Reports API
+  slug: placer-trade-area-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/openapi/placer-trade-area-reports-api-openapi.yml
+- filename: placer-visitor-journey-reports-api-openapi.yml
+  format: yaml
+  label: Placer Visitor Journey Reports API
+  slug: placer-visitor-journey-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/openapi/placer-visitor-journey-reports-api-openapi.yml
+- filename: placer-visits-reports-api-openapi.yml
+  format: yaml
+  label: Placer Visits Reports API
+  slug: placer-visits-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/openapi/placer-visits-reports-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

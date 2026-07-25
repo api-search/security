@@ -3,24 +3,48 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: unifonic-sms-openapi-original.json
-  format: json
-  label: Unifonic SMS API
-  slug: unifonic-sms-api
+- filename: unifonic-call-management-and-status-api-openapi.yml
+  format: yaml
+  label: Unifonic Call Management and Status API
+  slug: unifonic-call-management-and-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-sms-openapi-original.json
-- filename: unifonic-authenticate-openapi-original.json
-  format: json
-  label: Unifonic Authenticate API
-  slug: unifonic-authenticate-api
+  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-call-management-and-status-api-openapi.yml
+- filename: unifonic-call-queue-management-api-openapi.yml
+  format: yaml
+  label: Unifonic Call Queue Management API
+  slug: unifonic-call-queue-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-authenticate-openapi-original.json
-- filename: unifonic-voice-openapi-original.json
-  format: json
-  label: Unifonic Voice APIs
-  slug: unifonic-voice-api
+  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-call-queue-management-api-openapi.yml
+- filename: unifonic-number-masking-api-openapi.yml
+  format: yaml
+  label: Unifonic Number Masking API
+  slug: unifonic-number-masking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-voice-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-number-masking-api-openapi.yml
+- filename: unifonic-rest-api-openapi.yml
+  format: yaml
+  label: Unifonic Rest API
+  slug: unifonic-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-rest-api-openapi.yml
+- filename: unifonic-verifications-api-openapi.yml
+  format: yaml
+  label: Unifonic Verifications API
+  slug: unifonic-verifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-verifications-api-openapi.yml
+- filename: unifonic-webhooks-api-openapi.yml
+  format: yaml
+  label: Unifonic Webhooks API
+  slug: unifonic-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-webhooks-api-openapi.yml
+- filename: unifonic-wrapper-api-openapi.yml
+  format: yaml
+  label: Unifonic Wrapper API
+  slug: unifonic-wrapper-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-wrapper-api-openapi.yml
 auth_types:
 - http-basic
 - apiKey

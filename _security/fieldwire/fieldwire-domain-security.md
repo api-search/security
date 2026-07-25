@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: fieldwire-account-api-openapi.yml
-  format: yaml
-  label: Fieldwire Account API
-  slug: fieldwire-account-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-account-api-openapi.yml
 - filename: fieldwire-projects-api-openapi.yml
   format: yaml
   label: Fieldwire Projects API
@@ -18,42 +12,168 @@ api_specs:
   slug: fieldwire-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-tasks-api-openapi.yml
-- filename: fieldwire-plans-api-openapi.yml
-  format: yaml
-  label: Fieldwire Plans and Sheets API
-  slug: fieldwire-plans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-plans-api-openapi.yml
-- filename: fieldwire-forms-api-openapi.yml
-  format: yaml
-  label: Fieldwire Forms API
-  slug: fieldwire-forms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-forms-api-openapi.yml
 - filename: fieldwire-attachments-api-openapi.yml
   format: yaml
   label: Fieldwire Attachments and Media API
   slug: fieldwire-attachments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-attachments-api-openapi.yml
-- filename: fieldwire-financials-api-openapi.yml
+- filename: fieldwire-actual-costs-api-openapi.yml
   format: yaml
-  label: Fieldwire Project Financials API
-  slug: fieldwire-financials-api
+  label: Fieldwire Actual Costs API
+  slug: fieldwire-actual-costs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-financials-api-openapi.yml
-- filename: fieldwire-rfis-submittals-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-actual-costs-api-openapi.yml
+- filename: fieldwire-authentication-api-openapi.yml
   format: yaml
-  label: Fieldwire RFIs and Submittals API
-  slug: fieldwire-rfis-submittals-api
+  label: Fieldwire Authentication API
+  slug: fieldwire-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-rfis-submittals-api-openapi.yml
-- filename: fieldwire-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-authentication-api-openapi.yml
+- filename: fieldwire-bubbles-api-openapi.yml
   format: yaml
-  label: Fieldwire Webhooks API
-  slug: fieldwire-webhooks-api
+  label: Fieldwire Bubbles API
+  slug: fieldwire-bubbles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-bubbles-api-openapi.yml
+- filename: fieldwire-budget-line-items-api-openapi.yml
+  format: yaml
+  label: Fieldwire Budget Line Items API
+  slug: fieldwire-budget-line-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-budget-line-items-api-openapi.yml
+- filename: fieldwire-building-information-models-api-openapi.yml
+  format: yaml
+  label: Fieldwire Building Information Models API
+  slug: fieldwire-building-information-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-building-information-models-api-openapi.yml
+- filename: fieldwire-change-orders-api-openapi.yml
+  format: yaml
+  label: Fieldwire Change Orders API
+  slug: fieldwire-change-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-change-orders-api-openapi.yml
+- filename: fieldwire-custom-stamps-api-openapi.yml
+  format: yaml
+  label: Fieldwire Custom Stamps API
+  slug: fieldwire-custom-stamps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-custom-stamps-api-openapi.yml
+- filename: fieldwire-floorplans-api-openapi.yml
+  format: yaml
+  label: Fieldwire Floorplans API
+  slug: fieldwire-floorplans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-floorplans-api-openapi.yml
+- filename: fieldwire-form-inputs-api-openapi.yml
+  format: yaml
+  label: Fieldwire Form Inputs API
+  slug: fieldwire-form-inputs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-form-inputs-api-openapi.yml
+- filename: fieldwire-form-records-api-openapi.yml
+  format: yaml
+  label: Fieldwire Form Records API
+  slug: fieldwire-form-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-form-records-api-openapi.yml
+- filename: fieldwire-form-sections-api-openapi.yml
+  format: yaml
+  label: Fieldwire Form Sections API
+  slug: fieldwire-form-sections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-form-sections-api-openapi.yml
+- filename: fieldwire-form-templates-api-openapi.yml
+  format: yaml
+  label: Fieldwire Form Templates API
+  slug: fieldwire-form-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-form-templates-api-openapi.yml
+- filename: fieldwire-hyperlinks-api-openapi.yml
+  format: yaml
+  label: Fieldwire Hyperlinks API
+  slug: fieldwire-hyperlinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-hyperlinks-api-openapi.yml
+- filename: fieldwire-markups-api-openapi.yml
+  format: yaml
+  label: Fieldwire Markups API
+  slug: fieldwire-markups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-markups-api-openapi.yml
+- filename: fieldwire-project-stats-api-openapi.yml
+  format: yaml
+  label: Fieldwire Project Stats API
+  slug: fieldwire-project-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-project-stats-api-openapi.yml
+- filename: fieldwire-project-teams-api-openapi.yml
+  format: yaml
+  label: Fieldwire Project Teams API
+  slug: fieldwire-project-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-project-teams-api-openapi.yml
+- filename: fieldwire-project-users-api-openapi.yml
+  format: yaml
+  label: Fieldwire Project Users API
+  slug: fieldwire-project-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-project-users-api-openapi.yml
+- filename: fieldwire-rfis-api-openapi.yml
+  format: yaml
+  label: Fieldwire RFIs API
+  slug: fieldwire-rfis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-rfis-api-openapi.yml
+- filename: fieldwire-s3-tokens-api-openapi.yml
+  format: yaml
+  label: Fieldwire S3 Tokens API
+  slug: fieldwire-s3-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-s3-tokens-api-openapi.yml
+- filename: fieldwire-sheets-api-openapi.yml
+  format: yaml
+  label: Fieldwire Sheets API
+  slug: fieldwire-sheets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-sheets-api-openapi.yml
+- filename: fieldwire-spec-sections-api-openapi.yml
+  format: yaml
+  label: Fieldwire Spec Sections API
+  slug: fieldwire-spec-sections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-spec-sections-api-openapi.yml
+- filename: fieldwire-submittals-api-openapi.yml
+  format: yaml
+  label: Fieldwire Submittals API
+  slug: fieldwire-submittals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-submittals-api-openapi.yml
+- filename: fieldwire-subscriptions-api-openapi.yml
+  format: yaml
+  label: Fieldwire Subscriptions API
+  slug: fieldwire-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-subscriptions-api-openapi.yml
+- filename: fieldwire-task-check-items-api-openapi.yml
+  format: yaml
+  label: Fieldwire Task Check Items API
+  slug: fieldwire-task-check-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-task-check-items-api-openapi.yml
+- filename: fieldwire-task-relations-api-openapi.yml
+  format: yaml
+  label: Fieldwire Task Relations API
+  slug: fieldwire-task-relations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-task-relations-api-openapi.yml
+- filename: fieldwire-users-api-openapi.yml
+  format: yaml
+  label: Fieldwire Users API
+  slug: fieldwire-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

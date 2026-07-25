@@ -1,95 +1,95 @@
 ---
 api_specs:
-- filename: wellnessliving-openapi.yml
-  format: yaml
-  label: WellnessLiving Clients API
-  slug: clients
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-openapi.yml
-- filename: wellnessliving-openapi.yml
-  format: yaml
-  label: WellnessLiving Classes & Schedules API
-  slug: classes-schedule
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-openapi.yml
-- filename: wellnessliving-openapi.yml
+- filename: wellnessliving-appointments-api-openapi.yml
   format: yaml
   label: WellnessLiving Appointments API
-  slug: appointments
+  slug: wellnessliving-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-openapi.yml
-- filename: wellnessliving-openapi.yml
-  format: yaml
-  label: WellnessLiving Booking Wizard API
-  slug: booking-wizard
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-openapi.yml
-- filename: wellnessliving-openapi.yml
-  format: yaml
-  label: WellnessLiving Memberships & Passes API
-  slug: memberships-passes
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-openapi.yml
-- filename: wellnessliving-openapi.yml
-  format: yaml
-  label: WellnessLiving Staff API
-  slug: staff
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-openapi.yml
-- filename: wellnessliving-openapi.yml
-  format: yaml
-  label: WellnessLiving Locations API
-  slug: locations
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-openapi.yml
-- filename: wellnessliving-openapi.yml
-  format: yaml
-  label: WellnessLiving Business API
-  slug: business
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-openapi.yml
-- filename: wellnessliving-openapi.yml
-  format: yaml
-  label: WellnessLiving Sales & Catalog API
-  slug: sales-catalog
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-openapi.yml
-- filename: wellnessliving-openapi.yml
-  format: yaml
-  label: WellnessLiving Payments API
-  slug: payments
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-openapi.yml
-- filename: wellnessliving-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-appointments-api-openapi.yml
+- filename: wellnessliving-authentication-api-openapi.yml
   format: yaml
   label: WellnessLiving Authentication API
-  slug: authentication
+  slug: wellnessliving-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-openapi.yml
-- filename: wellnessliving-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-authentication-api-openapi.yml
+- filename: wellnessliving-booking-api-openapi.yml
   format: yaml
-  label: WellnessLiving Rewards & Loyalty API
-  slug: rewards-loyalty
+  label: WellnessLiving Booking API
+  slug: wellnessliving-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-openapi.yml
-- filename: wellnessliving-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-booking-api-openapi.yml
+- filename: wellnessliving-business-api-openapi.yml
   format: yaml
-  label: WellnessLiving Reviews API
-  slug: reviews
+  label: WellnessLiving Business API
+  slug: wellnessliving-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-openapi.yml
-- filename: wellnessliving-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-business-api-openapi.yml
+- filename: wellnessliving-catalog-api-openapi.yml
+  format: yaml
+  label: WellnessLiving Catalog API
+  slug: wellnessliving-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-catalog-api-openapi.yml
+- filename: wellnessliving-classes-api-openapi.yml
+  format: yaml
+  label: WellnessLiving Classes API
+  slug: wellnessliving-classes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-classes-api-openapi.yml
+- filename: wellnessliving-clients-api-openapi.yml
+  format: yaml
+  label: WellnessLiving Clients API
+  slug: wellnessliving-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-clients-api-openapi.yml
+- filename: wellnessliving-locations-api-openapi.yml
+  format: yaml
+  label: WellnessLiving Locations API
+  slug: wellnessliving-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-locations-api-openapi.yml
+- filename: wellnessliving-payments-api-openapi.yml
+  format: yaml
+  label: WellnessLiving Payments API
+  slug: wellnessliving-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-payments-api-openapi.yml
+- filename: wellnessliving-promotions-api-openapi.yml
+  format: yaml
+  label: WellnessLiving Promotions API
+  slug: wellnessliving-promotions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-promotions-api-openapi.yml
+- filename: wellnessliving-reports-api-openapi.yml
   format: yaml
   label: WellnessLiving Reports API
-  slug: reports
+  slug: wellnessliving-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-openapi.yml
-- filename: wellnessliving-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-reports-api-openapi.yml
+- filename: wellnessliving-reviews-api-openapi.yml
   format: yaml
-  label: WellnessLiving Real-Time Notifications API
-  slug: realtime-notifications
+  label: WellnessLiving Reviews API
+  slug: wellnessliving-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-reviews-api-openapi.yml
+- filename: wellnessliving-rewards-api-openapi.yml
+  format: yaml
+  label: WellnessLiving Rewards API
+  slug: wellnessliving-rewards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-rewards-api-openapi.yml
+- filename: wellnessliving-staff-api-openapi.yml
+  format: yaml
+  label: WellnessLiving Staff API
+  slug: wellnessliving-staff-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-staff-api-openapi.yml
+- filename: wellnessliving-websocket-api-openapi.yml
+  format: yaml
+  label: WellnessLiving WebSocket API
+  slug: wellnessliving-websocket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-websocket-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: swagger.json
-  format: json
-  label: CloudGuard CNAPP REST API
-  slug: cloudguard-cnapp-api
+- filename: cloudguard-cloudaccounts-api-openapi.yml
+  format: yaml
+  label: CloudGuard CloudAccounts API
+  slug: cloudguard-cloudaccounts-api
   spec_type: OpenAPI
-  url: https://api.dome9.com/v2/swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/cloudguard/refs/heads/main/openapi/cloudguard-cloudaccounts-api-openapi.yml
+- filename: cloudguard-compliance-api-openapi.yml
+  format: yaml
+  label: CloudGuard Compliance API
+  slug: cloudguard-compliance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudguard/refs/heads/main/openapi/cloudguard-compliance-api-openapi.yml
+- filename: cloudguard-findings-api-openapi.yml
+  format: yaml
+  label: CloudGuard Findings API
+  slug: cloudguard-findings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudguard/refs/heads/main/openapi/cloudguard-findings-api-openapi.yml
+- filename: cloudguard-notifications-api-openapi.yml
+  format: yaml
+  label: CloudGuard Notifications API
+  slug: cloudguard-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudguard/refs/heads/main/openapi/cloudguard-notifications-api-openapi.yml
+- filename: cloudguard-policies-api-openapi.yml
+  format: yaml
+  label: CloudGuard Policies API
+  slug: cloudguard-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudguard/refs/heads/main/openapi/cloudguard-policies-api-openapi.yml
 auth_types:
 - http
 description: ''

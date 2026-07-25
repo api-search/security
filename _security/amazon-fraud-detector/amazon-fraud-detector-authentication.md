@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-fraud-detector-openapi.yml
+- filename: amazon-fraud-detector-detectors-api-openapi.yml
   format: yaml
-  label: Amazon Fraud Detector API
-  slug: amazon-fraud-detector-api
+  label: Amazon Fraud Detector Detectors API
+  slug: amazon-fraud-detector-detectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/openapi/amazon-fraud-detector-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/openapi/amazon-fraud-detector-detectors-api-openapi.yml
+- filename: amazon-fraud-detector-event-types-api-openapi.yml
+  format: yaml
+  label: Amazon Fraud Detector Event Types API
+  slug: amazon-fraud-detector-event-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/openapi/amazon-fraud-detector-event-types-api-openapi.yml
+- filename: amazon-fraud-detector-labels-api-openapi.yml
+  format: yaml
+  label: Amazon Fraud Detector Labels API
+  slug: amazon-fraud-detector-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/openapi/amazon-fraud-detector-labels-api-openapi.yml
+- filename: amazon-fraud-detector-models-api-openapi.yml
+  format: yaml
+  label: Amazon Fraud Detector Models API
+  slug: amazon-fraud-detector-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/openapi/amazon-fraud-detector-models-api-openapi.yml
+- filename: amazon-fraud-detector-predictions-api-openapi.yml
+  format: yaml
+  label: Amazon Fraud Detector Predictions API
+  slug: amazon-fraud-detector-predictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/openapi/amazon-fraud-detector-predictions-api-openapi.yml
+- filename: amazon-fraud-detector-rules-api-openapi.yml
+  format: yaml
+  label: Amazon Fraud Detector Rules API
+  slug: amazon-fraud-detector-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/openapi/amazon-fraud-detector-rules-api-openapi.yml
+- filename: amazon-fraud-detector-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Fraud Detector Tags API
+  slug: amazon-fraud-detector-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/openapi/amazon-fraud-detector-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

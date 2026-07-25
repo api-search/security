@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: rigetti-computing-qcs-openapi-original.yml
+- filename: rigetti-computing-account-api-openapi.yml
   format: yaml
-  label: Rigetti QCS API
-  slug: rigetti-qcs-api
+  label: Rigetti Computing account API
+  slug: rigetti-computing-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/openapi/rigetti-computing-qcs-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/openapi/rigetti-computing-account-api-openapi.yml
+- filename: rigetti-computing-authentication-api-openapi.yml
+  format: yaml
+  label: Rigetti Computing authentication API
+  slug: rigetti-computing-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/openapi/rigetti-computing-authentication-api-openapi.yml
+- filename: rigetti-computing-clientapplications-api-openapi.yml
+  format: yaml
+  label: Rigetti Computing clientApplications API
+  slug: rigetti-computing-clientapplications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/openapi/rigetti-computing-clientapplications-api-openapi.yml
+- filename: rigetti-computing-endpoints-api-openapi.yml
+  format: yaml
+  label: Rigetti Computing endpoints API
+  slug: rigetti-computing-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/openapi/rigetti-computing-endpoints-api-openapi.yml
+- filename: rigetti-computing-engagements-api-openapi.yml
+  format: yaml
+  label: Rigetti Computing engagements API
+  slug: rigetti-computing-engagements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/openapi/rigetti-computing-engagements-api-openapi.yml
+- filename: rigetti-computing-healthcheck-api-openapi.yml
+  format: yaml
+  label: Rigetti Computing Healthcheck API
+  slug: rigetti-computing-healthcheck-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/openapi/rigetti-computing-healthcheck-api-openapi.yml
+- filename: rigetti-computing-quantumprocessors-api-openapi.yml
+  format: yaml
+  label: Rigetti Computing quantumProcessors API
+  slug: rigetti-computing-quantumprocessors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/openapi/rigetti-computing-quantumprocessors-api-openapi.yml
+- filename: rigetti-computing-reservations-api-openapi.yml
+  format: yaml
+  label: Rigetti Computing reservations API
+  slug: rigetti-computing-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/openapi/rigetti-computing-reservations-api-openapi.yml
+- filename: rigetti-computing-rigetti-qcs-api-api-openapi.yml
+  format: yaml
+  label: Rigetti Computing Rigetti QCS API API
+  slug: rigetti-computing-rigetti-qcs-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/openapi/rigetti-computing-rigetti-qcs-api-api-openapi.yml
 auth_types:
 - http
 description: ''

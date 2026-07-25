@@ -1,78 +1,78 @@
 ---
 api_key_in: []
 api_specs:
-- filename: okra-africa-openapi.yml
-  format: yaml
-  label: Okra Auth API
-  slug: okra-africa-auth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-openapi.yml
-- filename: okra-africa-openapi.yml
+- filename: okra-africa-accounts-api-openapi.yml
   format: yaml
   label: Okra Accounts API
   slug: okra-africa-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-openapi.yml
-- filename: okra-africa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-accounts-api-openapi.yml
+- filename: okra-africa-auth-api-openapi.yml
+  format: yaml
+  label: Okra Auth API
+  slug: okra-africa-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-auth-api-openapi.yml
+- filename: okra-africa-balance-api-openapi.yml
   format: yaml
   label: Okra Balance API
   slug: okra-africa-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-openapi.yml
-- filename: okra-africa-openapi.yml
-  format: yaml
-  label: Okra Transactions API
-  slug: okra-africa-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-openapi.yml
-- filename: okra-africa-openapi.yml
-  format: yaml
-  label: Okra Identity API
-  slug: okra-africa-identity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-openapi.yml
-- filename: okra-africa-openapi.yml
-  format: yaml
-  label: Okra Income API
-  slug: okra-africa-income-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-openapi.yml
-- filename: okra-africa-openapi.yml
-  format: yaml
-  label: Okra Verification (KYC) API
-  slug: okra-africa-verification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-openapi.yml
-- filename: okra-africa-openapi.yml
-  format: yaml
-  label: Okra Payments API
-  slug: okra-africa-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-openapi.yml
-- filename: okra-africa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-balance-api-openapi.yml
+- filename: okra-africa-banks-api-openapi.yml
   format: yaml
   label: Okra Banks API
   slug: okra-africa-banks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-openapi.yml
-- filename: okra-africa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-banks-api-openapi.yml
+- filename: okra-africa-customers-api-openapi.yml
   format: yaml
   label: Okra Customers API
   slug: okra-africa-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-openapi.yml
-- filename: okra-africa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-customers-api-openapi.yml
+- filename: okra-africa-identity-api-openapi.yml
   format: yaml
-  label: Okra Wallet API
-  slug: okra-africa-wallet-api
+  label: Okra Identity API
+  slug: okra-africa-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-openapi.yml
-- filename: okra-africa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-identity-api-openapi.yml
+- filename: okra-africa-income-api-openapi.yml
+  format: yaml
+  label: Okra Income API
+  slug: okra-africa-income-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-income-api-openapi.yml
+- filename: okra-africa-payments-api-openapi.yml
+  format: yaml
+  label: Okra Payments API
+  slug: okra-africa-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-payments-api-openapi.yml
+- filename: okra-africa-reports-api-openapi.yml
   format: yaml
   label: Okra Reports API
   slug: okra-africa-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-reports-api-openapi.yml
+- filename: okra-africa-transactions-api-openapi.yml
+  format: yaml
+  label: Okra Transactions API
+  slug: okra-africa-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-transactions-api-openapi.yml
+- filename: okra-africa-verification-api-openapi.yml
+  format: yaml
+  label: Okra Verification API
+  slug: okra-africa-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-verification-api-openapi.yml
+- filename: okra-africa-wallet-api-openapi.yml
+  format: yaml
+  label: Okra Wallet API
+  slug: okra-africa-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/openapi/okra-africa-wallet-api-openapi.yml
 auth_types:
 - http
 description: ''

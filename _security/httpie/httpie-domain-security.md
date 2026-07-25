@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: httpie-httpie-openapi.yml
+- filename: httpie-app-api-openapi.yml
   format: yaml
-  label: HTTPie
-  slug: httpie
+  label: HTTPie App API
+  slug: httpie-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/httpie/refs/heads/main/openapi/httpie-httpie-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/httpie/refs/heads/main/openapi/httpie-app-api-openapi.yml
+- filename: httpie-hello-api-openapi.yml
+  format: yaml
+  label: HTTPie Hello API
+  slug: httpie-hello-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/httpie/refs/heads/main/openapi/httpie-hello-api-openapi.yml
 description: ''
 domains:
 - caa: []

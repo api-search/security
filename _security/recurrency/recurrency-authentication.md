@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: recurrency-openapi.yml
+- filename: recurrency-e-procurement-api-openapi.yml
   format: yaml
-  label: Recurrency API
-  slug: recurrency-api
+  label: Recurrency E-Procurement API
+  slug: recurrency-e-procurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/openapi/recurrency-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/openapi/recurrency-e-procurement-api-openapi.yml
+- filename: recurrency-orders-api-openapi.yml
+  format: yaml
+  label: Recurrency Orders API
+  slug: recurrency-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/openapi/recurrency-orders-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

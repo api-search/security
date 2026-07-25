@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cerebras-systems-inference-openapi-original.yml
+- filename: cerebras-systems-chat-api-openapi.yml
   format: yaml
-  label: Cerebras Inference API
-  slug: cerebras-inference-api
+  label: Cerebras Systems Chat API
+  slug: cerebras-systems-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/openapi/cerebras-systems-inference-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/openapi/cerebras-systems-chat-api-openapi.yml
+- filename: cerebras-systems-completions-api-openapi.yml
+  format: yaml
+  label: Cerebras Systems Completions API
+  slug: cerebras-systems-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/openapi/cerebras-systems-completions-api-openapi.yml
+- filename: cerebras-systems-models-api-openapi.yml
+  format: yaml
+  label: Cerebras Systems Models API
+  slug: cerebras-systems-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/openapi/cerebras-systems-models-api-openapi.yml
+- filename: cerebras-systems-public-models-api-openapi.yml
+  format: yaml
+  label: Cerebras Systems Public Models API
+  slug: cerebras-systems-public-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/openapi/cerebras-systems-public-models-api-openapi.yml
+- filename: cerebras-systems-tcp-warming-api-openapi.yml
+  format: yaml
+  label: Cerebras Systems Tcp Warming API
+  slug: cerebras-systems-tcp-warming-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/openapi/cerebras-systems-tcp-warming-api-openapi.yml
 auth_types:
 - http
 description: ''

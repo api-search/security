@@ -6,18 +6,48 @@ api_specs:
   slug: registry
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-registry-api-openapi.yml
-- filename: npm-public-api-openapi.yml
-  format: yaml
-  label: npm Public API
-  slug: public
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-public-api-openapi.yml
 - filename: npm-hooks-api-openapi.yml
   format: yaml
   label: npm Hooks API
   slug: hooks
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-hooks-api-openapi.yml
+- filename: npm-downloads-api-openapi.yml
+  format: yaml
+  label: npm Downloads API
+  slug: npm-downloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-downloads-api-openapi.yml
+- filename: npm-oidc-api-openapi.yml
+  format: yaml
+  label: npm OIDC API
+  slug: npm-oidc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-oidc-api-openapi.yml
+- filename: npm-packages-api-openapi.yml
+  format: yaml
+  label: npm Packages API
+  slug: npm-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-packages-api-openapi.yml
+- filename: npm-search-api-openapi.yml
+  format: yaml
+  label: npm Search API
+  slug: npm-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-search-api-openapi.yml
+- filename: npm-tokens-api-openapi.yml
+  format: yaml
+  label: npm Tokens API
+  slug: npm-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-tokens-api-openapi.yml
+- filename: npm-trusted-publishers-api-openapi.yml
+  format: yaml
+  label: npm Trusted Publishers API
+  slug: npm-trusted-publishers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-trusted-publishers-api-openapi.yml
 description: ''
 domains:
 - caa:

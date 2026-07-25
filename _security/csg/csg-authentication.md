@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: csg-forte-rest-openapi.yml
+- filename: csg-customers-api-openapi.yml
   format: yaml
-  label: CSG Forte REST API
-  slug: csg-forte-rest-api
+  label: CSG Systems Customers API
+  slug: csg-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csg/refs/heads/main/openapi/csg-forte-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/csg/refs/heads/main/openapi/csg-customers-api-openapi.yml
+- filename: csg-payment-methods-api-openapi.yml
+  format: yaml
+  label: CSG Systems Payment Methods API
+  slug: csg-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/csg/refs/heads/main/openapi/csg-payment-methods-api-openapi.yml
+- filename: csg-settlements-api-openapi.yml
+  format: yaml
+  label: CSG Systems Settlements API
+  slug: csg-settlements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/csg/refs/heads/main/openapi/csg-settlements-api-openapi.yml
+- filename: csg-transactions-api-openapi.yml
+  format: yaml
+  label: CSG Systems Transactions API
+  slug: csg-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/csg/refs/heads/main/openapi/csg-transactions-api-openapi.yml
 auth_types:
 - http
 description: ''

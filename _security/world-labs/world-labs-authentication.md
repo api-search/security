@@ -1,6 +1,19 @@
 ---
 api_key_in:
 - header
+api_specs:
+- filename: world-labs-credits-api-openapi.yml
+  format: yaml
+  label: World Labs credits API
+  slug: world-labs-credits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/world-labs/refs/heads/main/openapi/world-labs-credits-api-openapi.yml
+- filename: world-labs-marble-api-openapi.yml
+  format: yaml
+  label: World Labs Marble API
+  slug: world-labs-marble-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/world-labs/refs/heads/main/openapi/world-labs-marble-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

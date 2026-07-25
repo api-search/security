@@ -1,18 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: scalable-software-and-systems-openapi.yml
+- filename: scalable-software-and-systems-entities-api-openapi.yml
   format: yaml
-  label: Backstage Software Catalog API
-  slug: backstage
+  label: Scalable Software and Systems Entities API
+  slug: scalable-software-and-systems-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalable-software-and-systems/refs/heads/main/openapi/scalable-software-and-systems-openapi.yml
-- filename: openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scalable-software-and-systems/refs/heads/main/openapi/scalable-software-and-systems-entities-api-openapi.yml
+- filename: scalable-software-and-systems-locations-api-openapi.yml
   format: yaml
-  label: Temporal API
-  slug: temporal
+  label: Scalable Software and Systems Locations API
+  slug: scalable-software-and-systems-locations-api
   spec_type: OpenAPI
-  url: https://github.com/temporalio/api/blob/master/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scalable-software-and-systems/refs/heads/main/openapi/scalable-software-and-systems-locations-api-openapi.yml
 auth_types:
 - http
 description: ''

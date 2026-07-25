@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: yuzu-health-openapi-original.json
-  format: json
-  label: Yuzu API
-  slug: yuzu-api
+- filename: yuzu-health-accumulator-experimental-api-openapi.yml
+  format: yaml
+  label: Yuzu Health Accumulator (Experimental) API
+  slug: yuzu-health-accumulator-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/openapi/yuzu-health-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/openapi/yuzu-health-accumulator-experimental-api-openapi.yml
+- filename: yuzu-health-benefits-api-openapi.yml
+  format: yaml
+  label: Yuzu Health Benefits API
+  slug: yuzu-health-benefits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/openapi/yuzu-health-benefits-api-openapi.yml
+- filename: yuzu-health-coverage-api-openapi.yml
+  format: yaml
+  label: Yuzu Health Coverage API
+  slug: yuzu-health-coverage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/openapi/yuzu-health-coverage-api-openapi.yml
+- filename: yuzu-health-enrollment-api-openapi.yml
+  format: yaml
+  label: Yuzu Health Enrollment API
+  slug: yuzu-health-enrollment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/openapi/yuzu-health-enrollment-api-openapi.yml
+- filename: yuzu-health-eob-experimental-api-openapi.yml
+  format: yaml
+  label: Yuzu Health EOB (Experimental) API
+  slug: yuzu-health-eob-experimental-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/openapi/yuzu-health-eob-experimental-api-openapi.yml
+- filename: yuzu-health-group-policy-api-openapi.yml
+  format: yaml
+  label: Yuzu Health Group Policy API
+  slug: yuzu-health-group-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/openapi/yuzu-health-group-policy-api-openapi.yml
+- filename: yuzu-health-member-api-openapi.yml
+  format: yaml
+  label: Yuzu Health Member API
+  slug: yuzu-health-member-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/openapi/yuzu-health-member-api-openapi.yml
+- filename: yuzu-health-publicapiv1-api-openapi.yml
+  format: yaml
+  label: Yuzu Health PublicApiV1 API
+  slug: yuzu-health-publicapiv1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/openapi/yuzu-health-publicapiv1-api-openapi.yml
+- filename: yuzu-health-publicapiv2-api-openapi.yml
+  format: yaml
+  label: Yuzu Health PublicApiV2 API
+  slug: yuzu-health-publicapiv2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/openapi/yuzu-health-publicapiv2-api-openapi.yml
+- filename: yuzu-health-sponsor-api-openapi.yml
+  format: yaml
+  label: Yuzu Health Sponsor API
+  slug: yuzu-health-sponsor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/openapi/yuzu-health-sponsor-api-openapi.yml
 auth_types:
 - http
 description: ''

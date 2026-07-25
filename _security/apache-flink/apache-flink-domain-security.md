@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: apache-flink-rest-openapi-original.yml
+- filename: apache-flink-cluster-api-openapi.yml
   format: yaml
-  label: Apache Flink REST API
-  slug: apache-flink-rest-api
+  label: Apache Flink Cluster API
+  slug: apache-flink-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-rest-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-cluster-api-openapi.yml
+- filename: apache-flink-config-api-openapi.yml
+  format: yaml
+  label: Apache Flink Config API
+  slug: apache-flink-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-config-api-openapi.yml
+- filename: apache-flink-datasets-api-openapi.yml
+  format: yaml
+  label: Apache Flink Datasets API
+  slug: apache-flink-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-datasets-api-openapi.yml
+- filename: apache-flink-jars-api-openapi.yml
+  format: yaml
+  label: Apache Flink Jars API
+  slug: apache-flink-jars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-jars-api-openapi.yml
+- filename: apache-flink-jobmanager-api-openapi.yml
+  format: yaml
+  label: Apache Flink Jobmanager API
+  slug: apache-flink-jobmanager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-jobmanager-api-openapi.yml
+- filename: apache-flink-jobs-api-openapi.yml
+  format: yaml
+  label: Apache Flink Jobs API
+  slug: apache-flink-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-jobs-api-openapi.yml
+- filename: apache-flink-overview-api-openapi.yml
+  format: yaml
+  label: Apache Flink Overview API
+  slug: apache-flink-overview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-overview-api-openapi.yml
+- filename: apache-flink-savepoint-disposal-api-openapi.yml
+  format: yaml
+  label: Apache Flink Savepoint Disposal API
+  slug: apache-flink-savepoint-disposal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-savepoint-disposal-api-openapi.yml
+- filename: apache-flink-taskmanagers-api-openapi.yml
+  format: yaml
+  label: Apache Flink Taskmanagers API
+  slug: apache-flink-taskmanagers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-taskmanagers-api-openapi.yml
 description: ''
 domains:
 - caa:

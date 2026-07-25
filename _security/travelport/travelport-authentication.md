@@ -1,12 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: travelport-openapi.yml
+- filename: travelport-booking-api-openapi.yml
   format: yaml
-  label: Travelport TripServices Flights API
-  slug: trip-services-flights
+  label: Travelport Booking API
+  slug: travelport-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-booking-api-openapi.yml
+- filename: travelport-emds-api-openapi.yml
+  format: yaml
+  label: Travelport EMDs API
+  slug: travelport-emds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-emds-api-openapi.yml
+- filename: travelport-fare-rules-api-openapi.yml
+  format: yaml
+  label: Travelport Fare Rules API
+  slug: travelport-fare-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-fare-rules-api-openapi.yml
+- filename: travelport-modifications-api-openapi.yml
+  format: yaml
+  label: Travelport Modifications API
+  slug: travelport-modifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-modifications-api-openapi.yml
+- filename: travelport-pricing-api-openapi.yml
+  format: yaml
+  label: Travelport Pricing API
+  slug: travelport-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-pricing-api-openapi.yml
+- filename: travelport-queues-api-openapi.yml
+  format: yaml
+  label: Travelport Queues API
+  slug: travelport-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-queues-api-openapi.yml
+- filename: travelport-reservations-api-openapi.yml
+  format: yaml
+  label: Travelport Reservations API
+  slug: travelport-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-reservations-api-openapi.yml
+- filename: travelport-search-api-openapi.yml
+  format: yaml
+  label: Travelport Search API
+  slug: travelport-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-search-api-openapi.yml
+- filename: travelport-seats-and-ancillaries-api-openapi.yml
+  format: yaml
+  label: Travelport Seats and Ancillaries API
+  slug: travelport-seats-and-ancillaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-seats-and-ancillaries-api-openapi.yml
+- filename: travelport-ticketing-api-openapi.yml
+  format: yaml
+  label: Travelport Ticketing API
+  slug: travelport-ticketing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-ticketing-api-openapi.yml
+- filename: travelport-workbench-api-openapi.yml
+  format: yaml
+  label: Travelport Workbench API
+  slug: travelport-workbench-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-workbench-api-openapi.yml
 auth_types:
 - http
 description: ''

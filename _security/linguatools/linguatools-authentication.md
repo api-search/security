@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: linguatools-collocations-openapi.yml
+- filename: linguatools-collocations-api-openapi.yml
   format: yaml
   label: Linguatools Collocations API
-  slug: collocations
+  slug: linguatools-collocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linguatools/refs/heads/main/openapi/linguatools-collocations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/linguatools/refs/heads/main/openapi/linguatools-collocations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

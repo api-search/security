@@ -1,11 +1,101 @@
 ---
 api_specs:
-- filename: athenian-openapi-original.yml
+- filename: athenian-align-api-openapi.yml
   format: yaml
-  label: Athenian API
-  slug: athenian-api
+  label: Athenian align API
+  slug: athenian-align-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-align-api-openapi.yml
+- filename: athenian-default-api-openapi.yml
+  format: yaml
+  label: Athenian default API
+  slug: athenian-default-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-default-api-openapi.yml
+- filename: athenian-events-api-openapi.yml
+  format: yaml
+  label: Athenian events API
+  slug: athenian-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-events-api-openapi.yml
+- filename: athenian-filter-api-openapi.yml
+  format: yaml
+  label: Athenian filter API
+  slug: athenian-filter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-filter-api-openapi.yml
+- filename: athenian-get-api-openapi.yml
+  format: yaml
+  label: Athenian get API
+  slug: athenian-get-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-get-api-openapi.yml
+- filename: athenian-histograms-api-openapi.yml
+  format: yaml
+  label: Athenian histograms API
+  slug: athenian-histograms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-histograms-api-openapi.yml
+- filename: athenian-integrations-api-openapi.yml
+  format: yaml
+  label: Athenian integrations API
+  slug: athenian-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-integrations-api-openapi.yml
+- filename: athenian-metrics-api-openapi.yml
+  format: yaml
+  label: Athenian metrics API
+  slug: athenian-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-metrics-api-openapi.yml
+- filename: athenian-pagination-api-openapi.yml
+  format: yaml
+  label: Athenian pagination API
+  slug: athenian-pagination-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-pagination-api-openapi.yml
+- filename: athenian-registration-api-openapi.yml
+  format: yaml
+  label: Athenian registration API
+  slug: athenian-registration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-registration-api-openapi.yml
+- filename: athenian-reposet-api-openapi.yml
+  format: yaml
+  label: Athenian reposet API
+  slug: athenian-reposet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-reposet-api-openapi.yml
+- filename: athenian-security-api-openapi.yml
+  format: yaml
+  label: Athenian security API
+  slug: athenian-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-security-api-openapi.yml
+- filename: athenian-settings-api-openapi.yml
+  format: yaml
+  label: Athenian settings API
+  slug: athenian-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-settings-api-openapi.yml
+- filename: athenian-team-api-openapi.yml
+  format: yaml
+  label: Athenian team API
+  slug: athenian-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-team-api-openapi.yml
+- filename: athenian-user-api-openapi.yml
+  format: yaml
+  label: Athenian user API
+  slug: athenian-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-user-api-openapi.yml
+- filename: athenian-version-api-openapi.yml
+  format: yaml
+  label: Athenian version API
+  slug: athenian-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-version-api-openapi.yml
 description: ''
 domains:
 - caa: []

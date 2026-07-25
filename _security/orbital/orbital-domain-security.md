@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: orbital-query-api-openapi.yml
+- filename: orbital-caches-api-openapi.yml
   format: yaml
-  label: Orbital Query API
-  slug: query-api
+  label: Orbital Caches API
+  slug: orbital-caches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/openapi/orbital-query-api-openapi.yml
-- filename: orbital-schema-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/openapi/orbital-caches-api-openapi.yml
+- filename: orbital-connections-api-openapi.yml
   format: yaml
-  label: Orbital Schema Management API
-  slug: schema-management-api
+  label: Orbital Connections API
+  slug: orbital-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/openapi/orbital-schema-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/openapi/orbital-connections-api-openapi.yml
+- filename: orbital-schemas-api-openapi.yml
+  format: yaml
+  label: Orbital Schemas API
+  slug: orbital-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/openapi/orbital-schemas-api-openapi.yml
+- filename: orbital-services-api-openapi.yml
+  format: yaml
+  label: Orbital Services API
+  slug: orbital-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/openapi/orbital-services-api-openapi.yml
+- filename: orbital-taxiql-api-openapi.yml
+  format: yaml
+  label: Orbital Taxiql API
+  slug: orbital-taxiql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/openapi/orbital-taxiql-api-openapi.yml
+- filename: orbital-types-api-openapi.yml
+  format: yaml
+  label: Orbital Types API
+  slug: orbital-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/openapi/orbital-types-api-openapi.yml
 description: ''
 domains:
 - caa: []

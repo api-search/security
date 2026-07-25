@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: moonbounce-openapi-original.json
-  format: json
-  label: Clavata Public API v1
-  slug: clavata-public-api-v1
+- filename: moonbounce-batch-processing-api-openapi.yml
+  format: yaml
+  label: Moonbounce Batch Processing API
+  slug: moonbounce-batch-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moonbounce/refs/heads/main/openapi/moonbounce-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/moonbounce/refs/heads/main/openapi/moonbounce-batch-processing-api-openapi.yml
+- filename: moonbounce-create-jobs-api-openapi.yml
+  format: yaml
+  label: Moonbounce Create Jobs API
+  slug: moonbounce-create-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moonbounce/refs/heads/main/openapi/moonbounce-create-jobs-api-openapi.yml
+- filename: moonbounce-get-jobs-api-openapi.yml
+  format: yaml
+  label: Moonbounce Get Jobs API
+  slug: moonbounce-get-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moonbounce/refs/heads/main/openapi/moonbounce-get-jobs-api-openapi.yml
+- filename: moonbounce-labels-api-openapi.yml
+  format: yaml
+  label: Moonbounce Labels API
+  slug: moonbounce-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moonbounce/refs/heads/main/openapi/moonbounce-labels-api-openapi.yml
 auth_types:
 - http
 description: ''

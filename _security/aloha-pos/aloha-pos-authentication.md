@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: ncr-voyix-platform-openapi.yml
+- filename: aloha-pos-catalog-api-openapi.yml
   format: yaml
-  label: NCR Voyix Commerce Platform APIs (Aloha)
-  slug: ncr-voyix-platform
+  label: Aloha POS Catalog API
+  slug: aloha-pos-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aloha-pos/refs/heads/main/openapi/ncr-voyix-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aloha-pos/refs/heads/main/openapi/aloha-pos-catalog-api-openapi.yml
+- filename: aloha-pos-menu-api-openapi.yml
+  format: yaml
+  label: Aloha POS Menu API
+  slug: aloha-pos-menu-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aloha-pos/refs/heads/main/openapi/aloha-pos-menu-api-openapi.yml
+- filename: aloha-pos-order-api-openapi.yml
+  format: yaml
+  label: Aloha POS Order API
+  slug: aloha-pos-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aloha-pos/refs/heads/main/openapi/aloha-pos-order-api-openapi.yml
+- filename: aloha-pos-site-api-openapi.yml
+  format: yaml
+  label: Aloha POS Site API
+  slug: aloha-pos-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aloha-pos/refs/heads/main/openapi/aloha-pos-site-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

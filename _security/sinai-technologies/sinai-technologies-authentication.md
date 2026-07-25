@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sinai-technologies-openapi-original.yml
+- filename: sinai-technologies-baseline-forecasts-api-openapi.yml
   format: yaml
-  label: SINAI API
-  slug: sinai-api
+  label: Sinai Technologies Baseline forecasts API
+  slug: sinai-technologies-baseline-forecasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinai-technologies/refs/heads/main/openapi/sinai-technologies-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sinai-technologies/refs/heads/main/openapi/sinai-technologies-baseline-forecasts-api-openapi.yml
+- filename: sinai-technologies-carbon-accounting-api-openapi.yml
+  format: yaml
+  label: Sinai Technologies Carbon accounting API
+  slug: sinai-technologies-carbon-accounting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sinai-technologies/refs/heads/main/openapi/sinai-technologies-carbon-accounting-api-openapi.yml
+- filename: sinai-technologies-organization-management-api-openapi.yml
+  format: yaml
+  label: Sinai Technologies Organization management API
+  slug: sinai-technologies-organization-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sinai-technologies/refs/heads/main/openapi/sinai-technologies-organization-management-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

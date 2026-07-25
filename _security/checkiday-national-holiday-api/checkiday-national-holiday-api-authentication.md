@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: checkiday-openapi.yml
+- filename: checkiday-national-holiday-api-events-api-openapi.yml
   format: yaml
-  label: Checkiday Holiday and Event API
-  slug: checkiday-holiday-api
+  label: Checkiday - National Holiday and Event API Events API
+  slug: checkiday-national-holiday-api-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/openapi/checkiday-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/openapi/checkiday-national-holiday-api-events-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

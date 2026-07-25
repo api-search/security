@@ -1,60 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: rest
+- filename: google-cloud-platform-gcp-projects-api-openapi.yml
   format: yaml
-  label: Compute Engine API
-  slug: compute-engine-api
+  label: Google Cloud Platform Projects API
+  slug: google-cloud-platform-gcp-projects-api
   spec_type: OpenAPI
-  url: https://www.googleapis.com/discovery/v1/apis/compute/v1/rest
-- filename: rest
-  format: yaml
-  label: Cloud Storage API
-  slug: cloud-storage-api
-  spec_type: OpenAPI
-  url: https://www.googleapis.com/discovery/v1/apis/storage/v1/rest
-- filename: rest
-  format: yaml
-  label: BigQuery API
-  slug: bigquery-api
-  spec_type: OpenAPI
-  url: https://www.googleapis.com/discovery/v1/apis/bigquery/v2/rest
-- filename: rest
-  format: yaml
-  label: Cloud Functions API
-  slug: cloud-functions-api
-  spec_type: OpenAPI
-  url: https://www.googleapis.com/discovery/v1/apis/cloudfunctions/v2/rest
-- filename: rest
-  format: yaml
-  label: Kubernetes Engine API
-  slug: kubernetes-engine-api
-  spec_type: OpenAPI
-  url: https://www.googleapis.com/discovery/v1/apis/container/v1/rest
-- filename: rest
-  format: yaml
-  label: Cloud Pub/Sub API
-  slug: cloud-pubsub-api
-  spec_type: OpenAPI
-  url: https://www.googleapis.com/discovery/v1/apis/pubsub/v1/rest
-- filename: rest
-  format: yaml
-  label: Cloud Vision API
-  slug: cloud-vision-api
-  spec_type: OpenAPI
-  url: https://www.googleapis.com/discovery/v1/apis/vision/v1/rest
-- filename: rest
-  format: yaml
-  label: Cloud SQL Admin API
-  slug: cloud-sql-admin-api
-  spec_type: OpenAPI
-  url: https://www.googleapis.com/discovery/v1/apis/sqladmin/v1/rest
-- filename: rest
-  format: yaml
-  label: Cloud Run API
-  slug: cloud-run-api
-  spec_type: OpenAPI
-  url: https://www.googleapis.com/discovery/v1/apis/run/v2/rest
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform-gcp/refs/heads/main/openapi/google-cloud-platform-gcp-projects-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

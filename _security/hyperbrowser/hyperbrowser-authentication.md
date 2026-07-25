@@ -50,6 +50,30 @@ api_specs:
   slug: web-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-web-api-openapi.yml
+- filename: hyperbrowser-profile-api-openapi.yml
+  format: yaml
+  label: Hyperbrowser Profile API
+  slug: hyperbrowser-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-profile-api-openapi.yml
+- filename: hyperbrowser-session-api-openapi.yml
+  format: yaml
+  label: Hyperbrowser Session API
+  slug: hyperbrowser-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-session-api-openapi.yml
+- filename: hyperbrowser-task-api-openapi.yml
+  format: yaml
+  label: Hyperbrowser Task API
+  slug: hyperbrowser-task-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-task-api-openapi.yml
+- filename: hyperbrowser-x402-api-openapi.yml
+  format: yaml
+  label: Hyperbrowser X402 API
+  slug: hyperbrowser-x402-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-x402-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

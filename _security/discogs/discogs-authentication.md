@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: discogs-openapi-original.yml
+- filename: discogs-database-api-openapi.yml
   format: yaml
-  label: Discogs API
-  slug: discogs-api
+  label: Discogs Database API
+  slug: discogs-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-database-api-openapi.yml
+- filename: discogs-image-api-openapi.yml
+  format: yaml
+  label: Discogs Image API
+  slug: discogs-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-image-api-openapi.yml
+- filename: discogs-inventory-management-api-openapi.yml
+  format: yaml
+  label: Discogs Inventory Management API
+  slug: discogs-inventory-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-inventory-management-api-openapi.yml
+- filename: discogs-marketplace-api-openapi.yml
+  format: yaml
+  label: Discogs Marketplace API
+  slug: discogs-marketplace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-marketplace-api-openapi.yml
+- filename: discogs-user-collection-api-openapi.yml
+  format: yaml
+  label: Discogs User Collection API
+  slug: discogs-user-collection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-user-collection-api-openapi.yml
+- filename: discogs-user-identity-api-openapi.yml
+  format: yaml
+  label: Discogs User Identity API
+  slug: discogs-user-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-user-identity-api-openapi.yml
+- filename: discogs-user-lists-api-openapi.yml
+  format: yaml
+  label: Discogs User Lists API
+  slug: discogs-user-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-user-lists-api-openapi.yml
+- filename: discogs-user-wantlist-api-openapi.yml
+  format: yaml
+  label: Discogs User Wantlist API
+  slug: discogs-user-wantlist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-user-wantlist-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

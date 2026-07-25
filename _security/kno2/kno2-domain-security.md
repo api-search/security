@@ -1,23 +1,35 @@
 ---
 api_specs:
-- filename: kno2-openapi.yml
+- filename: kno2-attachments-api-openapi.yml
   format: yaml
-  label: Kno2 Messaging API
-  slug: kno2-messaging-api
+  label: Kno2 Attachments API
+  slug: kno2-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/openapi/kno2-openapi.yml
-- filename: kno2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/openapi/kno2-attachments-api-openapi.yml
+- filename: kno2-authentication-api-openapi.yml
   format: yaml
-  label: Kno2 Intake and Retrieval API
-  slug: kno2-intake-api
+  label: Kno2 Authentication API
+  slug: kno2-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/openapi/kno2-openapi.yml
-- filename: kno2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/openapi/kno2-authentication-api-openapi.yml
+- filename: kno2-directory-api-openapi.yml
   format: yaml
   label: Kno2 Directory API
   slug: kno2-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/openapi/kno2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/openapi/kno2-directory-api-openapi.yml
+- filename: kno2-intake-api-openapi.yml
+  format: yaml
+  label: Kno2 Intake API
+  slug: kno2-intake-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/openapi/kno2-intake-api-openapi.yml
+- filename: kno2-messaging-api-openapi.yml
+  format: yaml
+  label: Kno2 Messaging API
+  slug: kno2-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/openapi/kno2-messaging-api-openapi.yml
 description: ''
 domains:
 - caa: []

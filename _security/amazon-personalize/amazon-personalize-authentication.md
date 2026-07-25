@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: API_Reference.html
+- filename: amazon-personalize-datasets-api-openapi.yml
   format: yaml
-  label: Amazon Personalize API
-  slug: amazon-personalize-api
+  label: Amazon Personalize Datasets API
+  slug: amazon-personalize-datasets-api
   spec_type: OpenAPI
-  url: https://docs.aws.amazon.com/personalize/latest/dg/API_Reference.html
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-personalize/refs/heads/main/openapi/amazon-personalize-datasets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

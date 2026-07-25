@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: yu-gi-oh-ygoprodeck-openapi.yml
+- filename: yu-gi-oh-archetypes-api-openapi.yml
   format: yaml
-  label: YGOPRODeck Card Database API
-  slug: ygoprodeck-card-database-api
+  label: YGOPRODeck Archetypes API
+  slug: yu-gi-oh-archetypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/openapi/yu-gi-oh-ygoprodeck-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/openapi/yu-gi-oh-archetypes-api-openapi.yml
+- filename: yu-gi-oh-card-sets-api-openapi.yml
+  format: yaml
+  label: YGOPRODeck Card Sets API
+  slug: yu-gi-oh-card-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/openapi/yu-gi-oh-card-sets-api-openapi.yml
+- filename: yu-gi-oh-cards-api-openapi.yml
+  format: yaml
+  label: YGOPRODeck Cards API
+  slug: yu-gi-oh-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/openapi/yu-gi-oh-cards-api-openapi.yml
+- filename: yu-gi-oh-database-api-openapi.yml
+  format: yaml
+  label: YGOPRODeck Database API
+  slug: yu-gi-oh-database-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/openapi/yu-gi-oh-database-api-openapi.yml
+- filename: yu-gi-oh-reference-data-api-openapi.yml
+  format: yaml
+  label: YGOPRODeck Reference Data API
+  slug: yu-gi-oh-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/openapi/yu-gi-oh-reference-data-api-openapi.yml
 description: ''
 domains:
 - caa:

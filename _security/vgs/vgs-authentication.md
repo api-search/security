@@ -1,36 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: vgs-openapi.yml
+- filename: vgs-aliases-api-openapi.yml
   format: yaml
-  label: VGS Vault Tokenization API
-  slug: vgs-vault-tokenization-api
+  label: Very Good Security aliases API
+  slug: vgs-aliases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-openapi.yml
-- filename: vgs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-aliases-api-openapi.yml
+- filename: vgs-organizations-api-openapi.yml
   format: yaml
-  label: VGS Accounts Management API
-  slug: vgs-accounts-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-openapi.yml
-- filename: vgs-openapi.yml
-  format: yaml
-  label: VGS Routes & Proxy API
-  slug: vgs-routes-proxy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-openapi.yml
-- filename: vgs-openapi.yml
-  format: yaml
-  label: VGS Functions API
-  slug: vgs-functions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-openapi.yml
-- filename: vgs-openapi.yml
-  format: yaml
-  label: VGS Organizations API
+  label: Very Good Security organizations API
   slug: vgs-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-organizations-api-openapi.yml
+- filename: vgs-routes-api-openapi.yml
+  format: yaml
+  label: Very Good Security routes API
+  slug: vgs-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-routes-api-openapi.yml
+- filename: vgs-vaults-api-openapi.yml
+  format: yaml
+  label: Very Good Security vaults API
+  slug: vgs-vaults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-vaults-api-openapi.yml
 auth_types:
 - http
 description: ''

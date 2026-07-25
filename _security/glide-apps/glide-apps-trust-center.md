@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: glide-apps-openapi.yml
-  format: yaml
-  label: Glide Tables API
-  slug: glide-apps-tables-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/openapi/glide-apps-openapi.yml
-- filename: glide-apps-openapi.yml
-  format: yaml
-  label: Glide Big Tables Rows API
-  slug: glide-apps-rows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/openapi/glide-apps-openapi.yml
-- filename: glide-apps-openapi.yml
-  format: yaml
-  label: Glide Stash & Bulk API
-  slug: glide-apps-stash-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/openapi/glide-apps-openapi.yml
-- filename: glide-apps-openapi.yml
+- filename: glide-apps-queries-api-openapi.yml
   format: yaml
   label: Glide Queries API
   slug: glide-apps-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/openapi/glide-apps-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/openapi/glide-apps-queries-api-openapi.yml
+- filename: glide-apps-rows-api-openapi.yml
+  format: yaml
+  label: Glide Rows API
+  slug: glide-apps-rows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/openapi/glide-apps-rows-api-openapi.yml
+- filename: glide-apps-stashes-api-openapi.yml
+  format: yaml
+  label: Glide Stashes API
+  slug: glide-apps-stashes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/openapi/glide-apps-stashes-api-openapi.yml
+- filename: glide-apps-tables-api-openapi.yml
+  format: yaml
+  label: Glide Tables API
+  slug: glide-apps-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/openapi/glide-apps-tables-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

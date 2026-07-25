@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: trivy-server-openapi.yml
+- filename: trivy-health-api-openapi.yml
+  format: yaml
+  label: Trivy Health API
+  slug: trivy-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trivy/refs/heads/main/openapi/trivy-health-api-openapi.yml
+- filename: trivy-server-api-openapi.yml
   format: yaml
   label: Trivy Server API
-  slug: trivy-server
+  slug: trivy-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trivy/refs/heads/main/openapi/trivy-server-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trivy/refs/heads/main/openapi/trivy-server-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

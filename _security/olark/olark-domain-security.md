@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: olark-openapi.yml
+- filename: olark-box-api-openapi.yml
   format: yaml
-  label: Olark JavaScript API
-  slug: javascript-api
+  label: Olark Box API
+  slug: olark-box-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/openapi/olark-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/openapi/olark-box-api-openapi.yml
+- filename: olark-chat-api-openapi.yml
+  format: yaml
+  label: Olark Chat API
+  slug: olark-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/openapi/olark-chat-api-openapi.yml
+- filename: olark-configure-api-openapi.yml
+  format: yaml
+  label: Olark Configure API
+  slug: olark-configure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/openapi/olark-configure-api-openapi.yml
+- filename: olark-rules-api-openapi.yml
+  format: yaml
+  label: Olark Rules API
+  slug: olark-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/openapi/olark-rules-api-openapi.yml
+- filename: olark-visitor-api-openapi.yml
+  format: yaml
+  label: Olark Visitor API
+  slug: olark-visitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/openapi/olark-visitor-api-openapi.yml
 description: ''
 domains:
 - caa: []

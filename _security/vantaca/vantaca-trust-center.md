@@ -1,47 +1,23 @@
 ---
 api_specs:
-- filename: vantaca-openapi.json
-  format: json
-  label: Vantaca Associations API
-  slug: vantaca-associations-api
+- filename: vantaca-ap-api-openapi.yml
+  format: yaml
+  label: Vantaca /AP/ API
+  slug: vantaca-ap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantaca/refs/heads/main/openapi/vantaca-openapi.json
-- filename: vantaca-openapi.json
-  format: json
-  label: Vantaca Homeowner Accounts API
-  slug: vantaca-homeowner-accounts-api
+  url: https://raw.githubusercontent.com/api-evangelist/vantaca/refs/heads/main/openapi/vantaca-ap-api-openapi.yml
+- filename: vantaca-read-api-openapi.yml
+  format: yaml
+  label: Vantaca /read/ API
+  slug: vantaca-read-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantaca/refs/heads/main/openapi/vantaca-openapi.json
-- filename: vantaca-openapi.json
-  format: json
-  label: Vantaca Accounts Payable & Ledger API
-  slug: vantaca-accounts-payable-ledger-api
+  url: https://raw.githubusercontent.com/api-evangelist/vantaca/refs/heads/main/openapi/vantaca-read-api-openapi.yml
+- filename: vantaca-write-api-openapi.yml
+  format: yaml
+  label: Vantaca /write/ API
+  slug: vantaca-write-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantaca/refs/heads/main/openapi/vantaca-openapi.json
-- filename: vantaca-openapi.json
-  format: json
-  label: Vantaca Work Orders API
-  slug: vantaca-work-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantaca/refs/heads/main/openapi/vantaca-openapi.json
-- filename: vantaca-openapi.json
-  format: json
-  label: Vantaca Violations & Compliance API
-  slug: vantaca-violations-compliance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantaca/refs/heads/main/openapi/vantaca-openapi.json
-- filename: vantaca-openapi.json
-  format: json
-  label: Vantaca Architectural Requests (ARC) API
-  slug: vantaca-architectural-requests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantaca/refs/heads/main/openapi/vantaca-openapi.json
-- filename: vantaca-openapi.json
-  format: json
-  label: Vantaca Vendors & Service Providers API
-  slug: vantaca-vendors-providers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantaca/refs/heads/main/openapi/vantaca-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/vantaca/refs/heads/main/openapi/vantaca-write-api-openapi.yml
 certifications:
 - SOC 2
 description: ''

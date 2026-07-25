@@ -1,65 +1,65 @@
 ---
 api_specs:
-- filename: convai-character-api-openapi.yml
+- filename: convai-com-characters-api-openapi.yml
   format: yaml
-  label: Convai Character API
-  slug: convai-character-api
+  label: Convai Characters API
+  slug: convai-com-characters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-character-api-openapi.yml
-- filename: convai-interaction-api-openapi.yml
-  format: yaml
-  label: Convai Interaction API
-  slug: convai-interaction-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-interaction-api-openapi.yml
-- filename: convai-knowledge-bank-api-openapi.yml
-  format: yaml
-  label: Convai Knowledge Bank API
-  slug: convai-knowledge-bank-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-knowledge-bank-api-openapi.yml
-- filename: convai-tts-api-openapi.yml
-  format: yaml
-  label: Convai Text-to-Speech API
-  slug: convai-tts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-tts-api-openapi.yml
-- filename: convai-narrative-design-api-openapi.yml
-  format: yaml
-  label: Convai Narrative Design API
-  slug: convai-narrative-design-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-narrative-design-api-openapi.yml
-- filename: convai-chat-history-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-characters-api-openapi.yml
+- filename: convai-com-chat-history-api-openapi.yml
   format: yaml
   label: Convai Chat History API
-  slug: convai-chat-history-api
+  slug: convai-com-chat-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-chat-history-api-openapi.yml
-- filename: convai-custom-llm-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-chat-history-api-openapi.yml
+- filename: convai-com-custom-llm-api-openapi.yml
   format: yaml
   label: Convai Custom LLM API
-  slug: convai-custom-llm-api
+  slug: convai-com-custom-llm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-custom-llm-api-openapi.yml
-- filename: convai-evaluation-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-custom-llm-api-openapi.yml
+- filename: convai-com-evaluation-api-openapi.yml
   format: yaml
   label: Convai Evaluation API
-  slug: convai-evaluation-api
+  slug: convai-com-evaluation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-evaluation-api-openapi.yml
-- filename: convai-streaming-transcription-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-evaluation-api-openapi.yml
+- filename: convai-com-interaction-api-openapi.yml
   format: yaml
-  label: Convai Streaming Transcription API
-  slug: convai-streaming-transcription-api
+  label: Convai Interaction API
+  slug: convai-com-interaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-streaming-transcription-api-openapi.yml
-- filename: convai-live-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-interaction-api-openapi.yml
+- filename: convai-com-knowledge-bank-api-openapi.yml
+  format: yaml
+  label: Convai Knowledge Bank API
+  slug: convai-com-knowledge-bank-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-knowledge-bank-api-openapi.yml
+- filename: convai-com-live-api-openapi.yml
   format: yaml
   label: Convai Live API
-  slug: convai-live-api
+  slug: convai-com-live-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-live-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-live-api-openapi.yml
+- filename: convai-com-narrative-api-openapi.yml
+  format: yaml
+  label: Convai Narrative API
+  slug: convai-com-narrative-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-narrative-api-openapi.yml
+- filename: convai-com-streaming-api-openapi.yml
+  format: yaml
+  label: Convai Streaming API
+  slug: convai-com-streaming-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-streaming-api-openapi.yml
+- filename: convai-com-tts-api-openapi.yml
+  format: yaml
+  label: Convai TTS API
+  slug: convai-com-tts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-tts-api-openapi.yml
 description: ''
 domains:
 - caa: []

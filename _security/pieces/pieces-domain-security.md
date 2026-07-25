@@ -1,41 +1,53 @@
 ---
 api_specs:
-- filename: pieces-openapi.yml
+- filename: pieces-applications-api-openapi.yml
+  format: yaml
+  label: Pieces Applications API
+  slug: pieces-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-applications-api-openapi.yml
+- filename: pieces-assets-api-openapi.yml
   format: yaml
   label: Pieces Assets API
   slug: pieces-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-openapi.yml
-- filename: pieces-openapi.yml
-  format: yaml
-  label: Pieces Copilot (QGPT) API
-  slug: pieces-copilot-qgpt-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-openapi.yml
-- filename: pieces-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-assets-api-openapi.yml
+- filename: pieces-conversations-api-openapi.yml
   format: yaml
   label: Pieces Conversations API
   slug: pieces-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-openapi.yml
-- filename: pieces-openapi.yml
-  format: yaml
-  label: Pieces Models API
-  slug: pieces-models-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-openapi.yml
-- filename: pieces-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-conversations-api-openapi.yml
+- filename: pieces-formats-api-openapi.yml
   format: yaml
   label: Pieces Formats API
   slug: pieces-formats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-openapi.yml
-- filename: pieces-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-formats-api-openapi.yml
+- filename: pieces-models-api-openapi.yml
   format: yaml
-  label: Pieces Applications & Workspace API
-  slug: pieces-applications-workspace-api
+  label: Pieces Models API
+  slug: pieces-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-models-api-openapi.yml
+- filename: pieces-qgpt-api-openapi.yml
+  format: yaml
+  label: Pieces QGPT API
+  slug: pieces-qgpt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-qgpt-api-openapi.yml
+- filename: pieces-user-api-openapi.yml
+  format: yaml
+  label: Pieces User API
+  slug: pieces-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-user-api-openapi.yml
+- filename: pieces-well-known-api-openapi.yml
+  format: yaml
+  label: Pieces Well Known API
+  slug: pieces-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-well-known-api-openapi.yml
 description: ''
 domains:
 - caa: []

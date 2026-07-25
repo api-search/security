@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: pinata-auth-api-openapi.yml
+  format: yaml
+  label: Pinata Auth API
+  slug: pinata-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinata/refs/heads/main/openapi/pinata-auth-api-openapi.yml
+- filename: pinata-files-api-openapi.yml
+  format: yaml
+  label: Pinata Files API
+  slug: pinata-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinata/refs/heads/main/openapi/pinata-files-api-openapi.yml
 description: ''
 domains:
 - caa: []

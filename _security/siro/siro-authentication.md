@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: siro-external-api-openapi.json
-  format: json
-  label: Siro External API
-  slug: siro-external-api
+- filename: siro-audit-api-openapi.yml
+  format: yaml
+  label: Siro Audit API
+  slug: siro-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-external-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-audit-api-openapi.yml
+- filename: siro-core-api-openapi.yml
+  format: yaml
+  label: Siro Core API
+  slug: siro-core-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-core-api-openapi.yml
+- filename: siro-folders-api-openapi.yml
+  format: yaml
+  label: Siro Folders API
+  slug: siro-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-folders-api-openapi.yml
+- filename: siro-integrations-api-openapi.yml
+  format: yaml
+  label: Siro Integrations API
+  slug: siro-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-integrations-api-openapi.yml
 auth_types:
 - apiKey
 - http

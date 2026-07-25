@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: mlflow-openapi.yml
+- filename: mlflow-artifacts-api-openapi.yml
   format: yaml
-  label: MLflow REST API
-  slug: mlflow-tracking-rest-api
+  label: MLflow Artifacts API
+  slug: mlflow-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-artifacts-api-openapi.yml
+- filename: mlflow-experiments-api-openapi.yml
+  format: yaml
+  label: MLflow Experiments API
+  slug: mlflow-experiments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-experiments-api-openapi.yml
+- filename: mlflow-metrics-api-openapi.yml
+  format: yaml
+  label: MLflow Metrics API
+  slug: mlflow-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-metrics-api-openapi.yml
+- filename: mlflow-model-versions-api-openapi.yml
+  format: yaml
+  label: MLflow Model Versions API
+  slug: mlflow-model-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-model-versions-api-openapi.yml
+- filename: mlflow-registered-models-api-openapi.yml
+  format: yaml
+  label: MLflow Registered Models API
+  slug: mlflow-registered-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-registered-models-api-openapi.yml
+- filename: mlflow-runs-api-openapi.yml
+  format: yaml
+  label: MLflow Runs API
+  slug: mlflow-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-runs-api-openapi.yml
 auth_types:
 - http
 description: ''

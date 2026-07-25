@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: misoai-openapi-original.json
-  format: json
-  label: Miso API
-  slug: miso-api
+- filename: misoai-ask-apis-api-openapi.yml
+  format: yaml
+  label: miso.ai Ask APIs API
+  slug: misoai-ask-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-ask-apis-api-openapi.yml
+- filename: misoai-bulk-api-api-openapi.yml
+  format: yaml
+  label: miso.ai Bulk API API
+  slug: misoai-bulk-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-bulk-api-api-openapi.yml
+- filename: misoai-experiment-apis-api-openapi.yml
+  format: yaml
+  label: miso.ai Experiment APIs API
+  slug: misoai-experiment-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-experiment-apis-api-openapi.yml
+- filename: misoai-interaction-apis-api-openapi.yml
+  format: yaml
+  label: miso.ai Interaction APIs API
+  slug: misoai-interaction-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-interaction-apis-api-openapi.yml
+- filename: misoai-product-content-apis-api-openapi.yml
+  format: yaml
+  label: miso.ai Product / Content APIs API
+  slug: misoai-product-content-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-product-content-apis-api-openapi.yml
+- filename: misoai-product-recommendations-api-openapi.yml
+  format: yaml
+  label: miso.ai Product Recommendations API
+  slug: misoai-product-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-product-recommendations-api-openapi.yml
+- filename: misoai-q-a-apis-api-openapi.yml
+  format: yaml
+  label: miso.ai Q&A APIs API
+  slug: misoai-q-a-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-q-a-apis-api-openapi.yml
+- filename: misoai-search-apis-api-openapi.yml
+  format: yaml
+  label: miso.ai Search APIs API
+  slug: misoai-search-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-search-apis-api-openapi.yml
+- filename: misoai-user-apis-api-openapi.yml
+  format: yaml
+  label: miso.ai User APIs API
+  slug: misoai-user-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-user-apis-api-openapi.yml
+- filename: misoai-user-recommendations-api-openapi.yml
+  format: yaml
+  label: miso.ai User Recommendations API
+  slug: misoai-user-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-user-recommendations-api-openapi.yml
 description: ''
 domains:
 - caa: []

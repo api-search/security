@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: LanguageTool Proofreading API
-  slug: languagetool-api
+- filename: languagetools-check-api-openapi.yml
+  format: yaml
+  label: LanguageTool Check API
+  slug: languagetools-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/languagetools/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/languagetools/refs/heads/main/openapi/languagetools-check-api-openapi.yml
+- filename: languagetools-languages-api-openapi.yml
+  format: yaml
+  label: LanguageTool Languages API
+  slug: languagetools-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/languagetools/refs/heads/main/openapi/languagetools-languages-api-openapi.yml
+- filename: languagetools-words-api-openapi.yml
+  format: yaml
+  label: LanguageTool Words API
+  slug: languagetools-words-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/languagetools/refs/heads/main/openapi/languagetools-words-api-openapi.yml
 description: ''
 domains:
 - caa: []

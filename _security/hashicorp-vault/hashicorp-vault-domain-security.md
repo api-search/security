@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: hashicorp-vault-openapi.yml
+- filename: hashicorp-vault-auth-approle-api-openapi.yml
   format: yaml
-  label: HashiCorp Vault HTTP API
-  slug: vault-http-api
+  label: HashiCorp Vault Auth - AppRole API
+  slug: hashicorp-vault-auth-approle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hashicorp-vault/refs/heads/main/openapi/hashicorp-vault-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hashicorp-vault/refs/heads/main/openapi/hashicorp-vault-auth-approle-api-openapi.yml
+- filename: hashicorp-vault-auth-token-api-openapi.yml
+  format: yaml
+  label: HashiCorp Vault Auth - Token API
+  slug: hashicorp-vault-auth-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hashicorp-vault/refs/heads/main/openapi/hashicorp-vault-auth-token-api-openapi.yml
+- filename: hashicorp-vault-auth-userpass-api-openapi.yml
+  format: yaml
+  label: HashiCorp Vault Auth - Userpass API
+  slug: hashicorp-vault-auth-userpass-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hashicorp-vault/refs/heads/main/openapi/hashicorp-vault-auth-userpass-api-openapi.yml
+- filename: hashicorp-vault-identity-api-openapi.yml
+  format: yaml
+  label: HashiCorp Vault Identity API
+  slug: hashicorp-vault-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hashicorp-vault/refs/heads/main/openapi/hashicorp-vault-identity-api-openapi.yml
+- filename: hashicorp-vault-leases-api-openapi.yml
+  format: yaml
+  label: HashiCorp Vault Leases API
+  slug: hashicorp-vault-leases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hashicorp-vault/refs/heads/main/openapi/hashicorp-vault-leases-api-openapi.yml
+- filename: hashicorp-vault-policy-api-openapi.yml
+  format: yaml
+  label: HashiCorp Vault Policy API
+  slug: hashicorp-vault-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hashicorp-vault/refs/heads/main/openapi/hashicorp-vault-policy-api-openapi.yml
+- filename: hashicorp-vault-secrets-kv-v2-api-openapi.yml
+  format: yaml
+  label: HashiCorp Vault Secrets - KV v2 API
+  slug: hashicorp-vault-secrets-kv-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hashicorp-vault/refs/heads/main/openapi/hashicorp-vault-secrets-kv-v2-api-openapi.yml
+- filename: hashicorp-vault-secrets-transit-api-openapi.yml
+  format: yaml
+  label: HashiCorp Vault Secrets - Transit API
+  slug: hashicorp-vault-secrets-transit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hashicorp-vault/refs/heads/main/openapi/hashicorp-vault-secrets-transit-api-openapi.yml
+- filename: hashicorp-vault-system-api-openapi.yml
+  format: yaml
+  label: HashiCorp Vault System API
+  slug: hashicorp-vault-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hashicorp-vault/refs/heads/main/openapi/hashicorp-vault-system-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,42 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ledgy-openapi.yml
+- filename: ledgy-graphql-api-openapi.yml
   format: yaml
-  label: Ledgy Companies API
-  slug: companies
+  label: Ledgy GraphQL API
+  slug: ledgy-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/openapi/ledgy-openapi.yml
-- filename: ledgy-openapi.yml
-  format: yaml
-  label: Ledgy Stakeholders API
-  slug: stakeholders
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/openapi/ledgy-openapi.yml
-- filename: ledgy-openapi.yml
-  format: yaml
-  label: Ledgy Transactions API
-  slug: transactions
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/openapi/ledgy-openapi.yml
-- filename: ledgy-openapi.yml
-  format: yaml
-  label: Ledgy Share Classes API
-  slug: share-classes
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/openapi/ledgy-openapi.yml
-- filename: ledgy-openapi.yml
-  format: yaml
-  label: Ledgy Financing Rounds API
-  slug: financing-rounds
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/openapi/ledgy-openapi.yml
-- filename: ledgy-openapi.yml
-  format: yaml
-  label: Ledgy ESOP and Grants API
-  slug: esop-grants
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/openapi/ledgy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/openapi/ledgy-graphql-api-openapi.yml
 auth_types:
 - http
 description: ''

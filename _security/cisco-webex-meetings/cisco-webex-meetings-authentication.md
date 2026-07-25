@@ -1,5 +1,30 @@
 ---
 api_key_in: []
+api_specs:
+- filename: cisco-webex-meetings-invitees-api-openapi.yml
+  format: yaml
+  label: Cisco Webex Meetings Invitees API
+  slug: cisco-webex-meetings-invitees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/openapi/cisco-webex-meetings-invitees-api-openapi.yml
+- filename: cisco-webex-meetings-meetings-api-openapi.yml
+  format: yaml
+  label: Cisco Webex Meetings Meetings API
+  slug: cisco-webex-meetings-meetings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/openapi/cisco-webex-meetings-meetings-api-openapi.yml
+- filename: cisco-webex-meetings-recordings-api-openapi.yml
+  format: yaml
+  label: Cisco Webex Meetings Recordings API
+  slug: cisco-webex-meetings-recordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/openapi/cisco-webex-meetings-recordings-api-openapi.yml
+- filename: cisco-webex-meetings-transcripts-api-openapi.yml
+  format: yaml
+  label: Cisco Webex Meetings Transcripts API
+  slug: cisco-webex-meetings-transcripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/openapi/cisco-webex-meetings-transcripts-api-openapi.yml
 auth_types:
 - http
 description: ''

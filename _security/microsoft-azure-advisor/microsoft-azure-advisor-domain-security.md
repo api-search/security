@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: microsoft-azure-advisor-openapi.yml
+- filename: microsoft-azure-advisor-operations-api-openapi.yml
   format: yaml
-  label: Azure Advisor REST API
-  slug: rest-api
+  label: Microsoft Azure Advisor Operations API
+  slug: microsoft-azure-advisor-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-advisor/refs/heads/main/openapi/microsoft-azure-advisor-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-advisor/refs/heads/main/openapi/microsoft-azure-advisor-operations-api-openapi.yml
+- filename: microsoft-azure-advisor-recommendations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Advisor Recommendations API
+  slug: microsoft-azure-advisor-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-advisor/refs/heads/main/openapi/microsoft-azure-advisor-recommendations-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: upbound-openapi.yml
+- filename: upbound-control-planes-api-openapi.yml
   format: yaml
-  label: Upbound API
-  slug: upbound
+  label: Upbound Control Planes API
+  slug: upbound-control-planes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/openapi/upbound-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/openapi/upbound-control-planes-api-openapi.yml
+- filename: upbound-organizations-api-openapi.yml
+  format: yaml
+  label: Upbound Organizations API
+  slug: upbound-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/openapi/upbound-organizations-api-openapi.yml
+- filename: upbound-repositories-api-openapi.yml
+  format: yaml
+  label: Upbound Repositories API
+  slug: upbound-repositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/openapi/upbound-repositories-api-openapi.yml
+- filename: upbound-robots-api-openapi.yml
+  format: yaml
+  label: Upbound Robots API
+  slug: upbound-robots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/openapi/upbound-robots-api-openapi.yml
+- filename: upbound-teams-api-openapi.yml
+  format: yaml
+  label: Upbound Teams API
+  slug: upbound-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/openapi/upbound-teams-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

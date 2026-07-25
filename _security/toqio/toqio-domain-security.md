@@ -1,89 +1,299 @@
 ---
 api_specs:
-- filename: toqio-accounts-openapi.yml
+- filename: toqio-account-api-openapi.yml
   format: yaml
-  label: Toqio Accounts API
-  slug: toqio-accounts-api
+  label: Toqio Account API
+  slug: toqio-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-accounts-openapi.yml
-- filename: toqio-cards-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-account-api-openapi.yml
+- filename: toqio-account-information-api-openapi.yml
   format: yaml
-  label: Toqio Cards API
-  slug: toqio-cards-api
+  label: Toqio Account information API
+  slug: toqio-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-cards-openapi.yml
-- filename: toqio-transactions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-account-information-api-openapi.yml
+- filename: toqio-api-endpoints-api-openapi.yml
   format: yaml
-  label: Toqio Transactions API
-  slug: toqio-transactions-api
+  label: Toqio API Endpoints API
+  slug: toqio-api-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-transactions-openapi.yml
-- filename: toqio-beneficiaries-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-api-endpoints-api-openapi.yml
+- filename: toqio-beneficiary-actions-api-openapi.yml
   format: yaml
-  label: Toqio Beneficiaries API
-  slug: toqio-beneficiaries-api
+  label: Toqio Beneficiary actions API
+  slug: toqio-beneficiary-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-beneficiaries-openapi.yml
-- filename: toqio-fees-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-beneficiary-actions-api-openapi.yml
+- filename: toqio-beneficiary-api-openapi.yml
   format: yaml
-  label: Toqio Fees API
-  slug: toqio-fees-api
+  label: Toqio Beneficiary API
+  slug: toqio-beneficiary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-fees-openapi.yml
-- filename: toqio-clients-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-beneficiary-api-openapi.yml
+- filename: toqio-card-actions-api-openapi.yml
   format: yaml
-  label: Toqio Clients API
-  slug: toqio-clients-api
+  label: Toqio Card actions API
+  slug: toqio-card-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-clients-openapi.yml
-- filename: toqio-compliance-endpoints-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-card-actions-api-openapi.yml
+- filename: toqio-card-details-api-openapi.yml
+  format: yaml
+  label: Toqio Card Details API
+  slug: toqio-card-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-card-details-api-openapi.yml
+- filename: toqio-card-lifecycle-api-openapi.yml
+  format: yaml
+  label: Toqio Card Lifecycle API
+  slug: toqio-card-lifecycle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-card-lifecycle-api-openapi.yml
+- filename: toqio-card-limits-api-openapi.yml
+  format: yaml
+  label: Toqio Card Limits API
+  slug: toqio-card-limits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-card-limits-api-openapi.yml
+- filename: toqio-client-accounts-information-api-openapi.yml
+  format: yaml
+  label: Toqio Client accounts information API
+  slug: toqio-client-accounts-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-client-accounts-information-api-openapi.yml
+- filename: toqio-client-actions-api-openapi.yml
+  format: yaml
+  label: Toqio Client actions API
+  slug: toqio-client-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-client-actions-api-openapi.yml
+- filename: toqio-client-information-api-openapi.yml
+  format: yaml
+  label: Toqio Client information API
+  slug: toqio-client-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-client-information-api-openapi.yml
+- filename: toqio-compliance-api-openapi.yml
   format: yaml
   label: Toqio Compliance API
   slug: toqio-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-compliance-endpoints-openapi.yml
-- filename: toqio-upload-kyb-documents-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-compliance-api-openapi.yml
+- filename: toqio-compliance-controller-api-openapi.yml
   format: yaml
-  label: Toqio KYB Documents API
-  slug: toqio-kyb-documents-api
+  label: Toqio compliance-controller API
+  slug: toqio-compliance-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-upload-kyb-documents-openapi.yml
-- filename: toqio-create-lead-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-compliance-controller-api-openapi.yml
+- filename: toqio-create-transaction-api-openapi.yml
   format: yaml
-  label: Toqio Create Lead API
-  slug: toqio-create-lead-api
+  label: Toqio Create transaction API
+  slug: toqio-create-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-create-lead-service-openapi.yml
-- filename: toqio-revenue-collections-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-create-transaction-api-openapi.yml
+- filename: toqio-credit-cards-api-openapi.yml
   format: yaml
-  label: Toqio Revenue Collections API
-  slug: toqio-revenue-collections-api
+  label: Toqio Credit Cards API
+  slug: toqio-credit-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-revenue-collections-openapi.yml
-- filename: toqio-custom-notifications-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-credit-cards-api-openapi.yml
+- filename: toqio-custom-faculties-api-openapi.yml
+  format: yaml
+  label: Toqio Custom Faculties API
+  slug: toqio-custom-faculties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-custom-faculties-api-openapi.yml
+- filename: toqio-custom-ledger-app-texts-api-openapi.yml
+  format: yaml
+  label: Toqio Custom Ledger App Texts API
+  slug: toqio-custom-ledger-app-texts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-custom-ledger-app-texts-api-openapi.yml
+- filename: toqio-custom-notifications-api-openapi.yml
   format: yaml
   label: Toqio Custom Notifications API
   slug: toqio-custom-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-custom-notifications-openapi.yml
-- filename: toqio-security-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-custom-notifications-api-openapi.yml
+- filename: toqio-customer-api-openapi.yml
+  format: yaml
+  label: Toqio Customer API
+  slug: toqio-customer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-customer-api-openapi.yml
+- filename: toqio-delete-account-api-openapi.yml
+  format: yaml
+  label: Toqio Delete Account API
+  slug: toqio-delete-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-delete-account-api-openapi.yml
+- filename: toqio-direct-debit-api-openapi.yml
+  format: yaml
+  label: Toqio Direct debit API
+  slug: toqio-direct-debit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-direct-debit-api-openapi.yml
+- filename: toqio-dynamic-account-button-configuration-api-openapi.yml
+  format: yaml
+  label: Toqio Dynamic Account Button Configuration API
+  slug: toqio-dynamic-account-button-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-dynamic-account-button-configuration-api-openapi.yml
+- filename: toqio-email-configuration-api-openapi.yml
+  format: yaml
+  label: Toqio Email Configuration API
+  slug: toqio-email-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-email-configuration-api-openapi.yml
+- filename: toqio-fees-api-openapi.yml
+  format: yaml
+  label: Toqio Fees API
+  slug: toqio-fees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-fees-api-openapi.yml
+- filename: toqio-get-customer-account-information-api-openapi.yml
+  format: yaml
+  label: Toqio Get Customer account information API
+  slug: toqio-get-customer-account-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-get-customer-account-information-api-openapi.yml
+- filename: toqio-jwt-validation-api-openapi.yml
+  format: yaml
+  label: Toqio JWT validation API
+  slug: toqio-jwt-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-jwt-validation-api-openapi.yml
+- filename: toqio-lending-api-openapi.yml
+  format: yaml
+  label: Toqio Lending API
+  slug: toqio-lending-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-lending-api-openapi.yml
+- filename: toqio-lending-lender-api-openapi.yml
+  format: yaml
+  label: Toqio Lending - Lender API
+  slug: toqio-lending-lender-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-lending-lender-api-openapi.yml
+- filename: toqio-lending-loan-api-openapi.yml
+  format: yaml
+  label: Toqio Lending - Loan API
+  slug: toqio-lending-loan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-lending-loan-api-openapi.yml
+- filename: toqio-lending-loan-offer-api-openapi.yml
+  format: yaml
+  label: Toqio Lending - Loan - Offer API
+  slug: toqio-lending-loan-offer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-lending-loan-offer-api-openapi.yml
+- filename: toqio-lending-loan-request-api-openapi.yml
+  format: yaml
+  label: Toqio Lending - Loan - Request API
+  slug: toqio-lending-loan-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-lending-loan-request-api-openapi.yml
+- filename: toqio-manage-requests-api-openapi.yml
+  format: yaml
+  label: Toqio Manage requests API
+  slug: toqio-manage-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-manage-requests-api-openapi.yml
+- filename: toqio-meawallet-api-openapi.yml
+  format: yaml
+  label: Toqio MeaWallet API
+  slug: toqio-meawallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-meawallet-api-openapi.yml
+- filename: toqio-merchant-api-openapi.yml
+  format: yaml
+  label: Toqio Merchant API
+  slug: toqio-merchant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-merchant-api-openapi.yml
+- filename: toqio-onboarding-api-openapi.yml
+  format: yaml
+  label: Toqio Onboarding API
+  slug: toqio-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-onboarding-api-openapi.yml
+- filename: toqio-onboarding-controller-api-openapi.yml
+  format: yaml
+  label: Toqio onboarding-controller API
+  slug: toqio-onboarding-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-onboarding-controller-api-openapi.yml
+- filename: toqio-otp-api-openapi.yml
+  format: yaml
+  label: Toqio OTP API
+  slug: toqio-otp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-otp-api-openapi.yml
+- filename: toqio-pre-signed-url-controller-api-openapi.yml
+  format: yaml
+  label: Toqio pre-signed-url-controller API
+  slug: toqio-pre-signed-url-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-pre-signed-url-controller-api-openapi.yml
+- filename: toqio-products-api-openapi.yml
+  format: yaml
+  label: Toqio Products API
+  slug: toqio-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-products-api-openapi.yml
+- filename: toqio-provider-api-openapi.yml
+  format: yaml
+  label: Toqio Provider API
+  slug: toqio-provider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-provider-api-openapi.yml
+- filename: toqio-receive-request-payment-api-openapi.yml
+  format: yaml
+  label: Toqio Receive request payment API
+  slug: toqio-receive-request-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-receive-request-payment-api-openapi.yml
+- filename: toqio-security-api-openapi.yml
   format: yaml
   label: Toqio Security API
   slug: toqio-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-security-openapi.yml
-- filename: toqio-integration-hub-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-security-api-openapi.yml
+- filename: toqio-transaction-api-openapi.yml
   format: yaml
-  label: Toqio Integration Hub API
-  slug: toqio-integration-hub-api
+  label: Toqio Transaction API
+  slug: toqio-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-integration-hub-api-openapi.yml
-- filename: toqio-card-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-transaction-api-openapi.yml
+- filename: toqio-transactions-information-api-openapi.yml
   format: yaml
-  label: Toqio Card Management API (Integration Hub)
-  slug: toqio-card-management-api-integration-hub
+  label: Toqio Transactions information API
+  slug: toqio-transactions-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-card-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-transactions-information-api-openapi.yml
+- filename: toqio-user-api-openapi.yml
+  format: yaml
+  label: Toqio User API
+  slug: toqio-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-user-api-openapi.yml
+- filename: toqio-user-credentials-api-openapi.yml
+  format: yaml
+  label: Toqio User credentials API
+  slug: toqio-user-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-user-credentials-api-openapi.yml
+- filename: toqio-user-status-api-openapi.yml
+  format: yaml
+  label: Toqio User status API
+  slug: toqio-user-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-user-status-api-openapi.yml
+- filename: toqio-webhook-api-openapi.yml
+  format: yaml
+  label: Toqio Webhook API
+  slug: toqio-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-webhook-api-openapi.yml
 description: ''
 domains:
 - caa: []

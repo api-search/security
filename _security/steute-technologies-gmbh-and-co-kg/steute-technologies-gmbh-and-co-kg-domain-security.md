@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: steute-technologies-gmbh-and-co-kg-sensor-bridge-openapi-original.json
-  format: json
-  label: steute nexy Sensor Bridge API
-  slug: steute-nexy-sensor-bridge-api
+- filename: steute-technologies-gmbh-and-co-kg-access-point-api-openapi.yml
+  format: yaml
+  label: steute Technologies GmbH & Co. KG Access Point API
+  slug: steute-technologies-gmbh-and-co-kg-access-point-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/openapi/steute-technologies-gmbh-and-co-kg-sensor-bridge-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/openapi/steute-technologies-gmbh-and-co-kg-access-point-api-openapi.yml
+- filename: steute-technologies-gmbh-and-co-kg-auth-api-openapi.yml
+  format: yaml
+  label: steute Technologies GmbH & Co. KG Auth API
+  slug: steute-technologies-gmbh-and-co-kg-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/openapi/steute-technologies-gmbh-and-co-kg-auth-api-openapi.yml
+- filename: steute-technologies-gmbh-and-co-kg-history-api-openapi.yml
+  format: yaml
+  label: steute Technologies GmbH & Co. KG History API
+  slug: steute-technologies-gmbh-and-co-kg-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/openapi/steute-technologies-gmbh-and-co-kg-history-api-openapi.yml
+- filename: steute-technologies-gmbh-and-co-kg-notification-config-api-openapi.yml
+  format: yaml
+  label: steute Technologies GmbH & Co. KG Notification Config API
+  slug: steute-technologies-gmbh-and-co-kg-notification-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/openapi/steute-technologies-gmbh-and-co-kg-notification-config-api-openapi.yml
+- filename: steute-technologies-gmbh-and-co-kg-switch-api-openapi.yml
+  format: yaml
+  label: steute Technologies GmbH & Co. KG Switch API
+  slug: steute-technologies-gmbh-and-co-kg-switch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/openapi/steute-technologies-gmbh-and-co-kg-switch-api-openapi.yml
+- filename: steute-technologies-gmbh-and-co-kg-switch-group-api-openapi.yml
+  format: yaml
+  label: steute Technologies GmbH & Co. KG Switch Group API
+  slug: steute-technologies-gmbh-and-co-kg-switch-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/openapi/steute-technologies-gmbh-and-co-kg-switch-group-api-openapi.yml
+- filename: steute-technologies-gmbh-and-co-kg-system-status-api-openapi.yml
+  format: yaml
+  label: steute Technologies GmbH & Co. KG System Status API
+  slug: steute-technologies-gmbh-and-co-kg-system-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/openapi/steute-technologies-gmbh-and-co-kg-system-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

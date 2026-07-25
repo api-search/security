@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: usda-snap-openapi.yml
+- filename: usda-snap-retailers-api-openapi.yml
   format: yaml
-  label: SNAP Retailer Location Data API
-  slug: usda-snap-retailer-location-data-api
+  label: USDA SNAP Retailer Locator Retailers API
+  slug: usda-snap-retailers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usda-snap/refs/heads/main/openapi/usda-snap-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usda-snap/refs/heads/main/openapi/usda-snap-retailers-api-openapi.yml
+- filename: usda-snap-service-api-openapi.yml
+  format: yaml
+  label: USDA SNAP Retailer Locator Service API
+  slug: usda-snap-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usda-snap/refs/heads/main/openapi/usda-snap-service-api-openapi.yml
 description: ''
 domains:
 - caa:

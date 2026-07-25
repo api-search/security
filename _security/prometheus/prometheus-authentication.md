@@ -1,30 +1,78 @@
 ---
 api_key_in: []
 api_specs:
-- filename: prometheus-http-api-openapi.yml
+- filename: prometheus-admin-api-openapi.yml
   format: yaml
-  label: Prometheus HTTP API
-  slug: prometheus-http-api
+  label: Prometheus Admin API
+  slug: prometheus-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/openapi/prometheus-http-api-openapi.yml
-- filename: prometheus-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/openapi/prometheus-admin-api-openapi.yml
+- filename: prometheus-alerts-api-openapi.yml
   format: yaml
-  label: Prometheus Management API
-  slug: prometheus-management-api
+  label: Prometheus Alerts API
+  slug: prometheus-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/openapi/prometheus-management-api-openapi.yml
-- filename: prometheus-pushgateway-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/openapi/prometheus-alerts-api-openapi.yml
+- filename: prometheus-lifecycle-api-openapi.yml
   format: yaml
-  label: Prometheus Pushgateway API
-  slug: prometheus-pushgateway-api
+  label: Prometheus Lifecycle API
+  slug: prometheus-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/openapi/prometheus-pushgateway-api-openapi.yml
-- filename: prometheus-alertmanager-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/openapi/prometheus-lifecycle-api-openapi.yml
+- filename: prometheus-metadata-api-openapi.yml
   format: yaml
-  label: Prometheus Alertmanager API
-  slug: prometheus-alertmanager-api
+  label: Prometheus Metadata API
+  slug: prometheus-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/openapi/prometheus-alertmanager-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/openapi/prometheus-metadata-api-openapi.yml
+- filename: prometheus-metrics-api-openapi.yml
+  format: yaml
+  label: Prometheus Metrics API
+  slug: prometheus-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/openapi/prometheus-metrics-api-openapi.yml
+- filename: prometheus-query-api-openapi.yml
+  format: yaml
+  label: Prometheus Query API
+  slug: prometheus-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/openapi/prometheus-query-api-openapi.yml
+- filename: prometheus-receivers-api-openapi.yml
+  format: yaml
+  label: Prometheus Receivers API
+  slug: prometheus-receivers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/openapi/prometheus-receivers-api-openapi.yml
+- filename: prometheus-rules-api-openapi.yml
+  format: yaml
+  label: Prometheus Rules API
+  slug: prometheus-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/openapi/prometheus-rules-api-openapi.yml
+- filename: prometheus-silences-api-openapi.yml
+  format: yaml
+  label: Prometheus Silences API
+  slug: prometheus-silences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/openapi/prometheus-silences-api-openapi.yml
+- filename: prometheus-status-api-openapi.yml
+  format: yaml
+  label: Prometheus Status API
+  slug: prometheus-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/openapi/prometheus-status-api-openapi.yml
+- filename: prometheus-targets-api-openapi.yml
+  format: yaml
+  label: Prometheus Targets API
+  slug: prometheus-targets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/openapi/prometheus-targets-api-openapi.yml
+- filename: prometheus-tsdb-api-openapi.yml
+  format: yaml
+  label: Prometheus TSDB API
+  slug: prometheus-tsdb-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/openapi/prometheus-tsdb-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

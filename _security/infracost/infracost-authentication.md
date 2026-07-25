@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: infracost-openapi.yml
+- filename: infracost-breakdown-api-openapi.yml
   format: yaml
-  label: Infracost Cloud Pricing API
-  slug: infracost-api
+  label: Infracost Breakdown API
+  slug: infracost-breakdown-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infracost/refs/heads/main/openapi/infracost-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/infracost/refs/heads/main/openapi/infracost-breakdown-api-openapi.yml
+- filename: infracost-diff-api-openapi.yml
+  format: yaml
+  label: Infracost Diff API
+  slug: infracost-diff-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infracost/refs/heads/main/openapi/infracost-diff-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

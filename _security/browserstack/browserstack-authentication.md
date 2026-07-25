@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: browserstack-openapi.yml
+- filename: browserstack-accesskey-api-openapi.yml
   format: yaml
-  label: BrowserStack
-  slug: browserstack
+  label: BrowserStack AccessKey API
+  slug: browserstack-accesskey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/openapi/browserstack-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/openapi/browserstack-accesskey-api-openapi.yml
+- filename: browserstack-browsers-api-openapi.yml
+  format: yaml
+  label: BrowserStack Browsers API
+  slug: browserstack-browsers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/openapi/browserstack-browsers-api-openapi.yml
+- filename: browserstack-builds-api-openapi.yml
+  format: yaml
+  label: BrowserStack Builds API
+  slug: browserstack-builds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/openapi/browserstack-builds-api-openapi.yml
+- filename: browserstack-plan-api-openapi.yml
+  format: yaml
+  label: BrowserStack Plan API
+  slug: browserstack-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/openapi/browserstack-plan-api-openapi.yml
+- filename: browserstack-projects-api-openapi.yml
+  format: yaml
+  label: BrowserStack Projects API
+  slug: browserstack-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/openapi/browserstack-projects-api-openapi.yml
+- filename: browserstack-sessions-api-openapi.yml
+  format: yaml
+  label: BrowserStack Sessions API
+  slug: browserstack-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/openapi/browserstack-sessions-api-openapi.yml
 auth_types:
 - http
 description: ''

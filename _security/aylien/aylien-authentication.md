@@ -2,12 +2,108 @@
 api_key_in:
 - header
 api_specs:
-- filename: apis
+- filename: aylien-absa-api-openapi.yml
   format: yaml
-  label: AYLIEN News API
-  slug: news-api
+  label: AYLIEN Absa API
+  slug: aylien-absa-api
   spec_type: OpenAPI
-  url: https://github.com/AYLIEN/apis
+  url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-absa-api-openapi.yml
+- filename: aylien-autocomplete-api-openapi.yml
+  format: yaml
+  label: AYLIEN autocomplete API
+  slug: aylien-autocomplete-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-autocomplete-api-openapi.yml
+- filename: aylien-classify-api-openapi.yml
+  format: yaml
+  label: AYLIEN Classify API
+  slug: aylien-classify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-classify-api-openapi.yml
+- filename: aylien-cluster-api-openapi.yml
+  format: yaml
+  label: AYLIEN cluster API
+  slug: aylien-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-cluster-api-openapi.yml
+- filename: aylien-concepts-api-openapi.yml
+  format: yaml
+  label: AYLIEN Concepts API
+  slug: aylien-concepts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-concepts-api-openapi.yml
+- filename: aylien-elsa-api-openapi.yml
+  format: yaml
+  label: AYLIEN Elsa API
+  slug: aylien-elsa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-elsa-api-openapi.yml
+- filename: aylien-entities-api-openapi.yml
+  format: yaml
+  label: AYLIEN Entities API
+  slug: aylien-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-entities-api-openapi.yml
+- filename: aylien-extract-api-openapi.yml
+  format: yaml
+  label: AYLIEN Extract API
+  slug: aylien-extract-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-extract-api-openapi.yml
+- filename: aylien-hashtags-api-openapi.yml
+  format: yaml
+  label: AYLIEN Hashtags API
+  slug: aylien-hashtags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-hashtags-api-openapi.yml
+- filename: aylien-histogram-api-openapi.yml
+  format: yaml
+  label: AYLIEN histogram API
+  slug: aylien-histogram-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-histogram-api-openapi.yml
+- filename: aylien-language-api-openapi.yml
+  format: yaml
+  label: AYLIEN Language API
+  slug: aylien-language-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-language-api-openapi.yml
+- filename: aylien-related-story-api-openapi.yml
+  format: yaml
+  label: AYLIEN related_story API
+  slug: aylien-related-story-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-related-story-api-openapi.yml
+- filename: aylien-sentiment-api-openapi.yml
+  format: yaml
+  label: AYLIEN Sentiment API
+  slug: aylien-sentiment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-sentiment-api-openapi.yml
+- filename: aylien-story-api-openapi.yml
+  format: yaml
+  label: AYLIEN story API
+  slug: aylien-story-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-story-api-openapi.yml
+- filename: aylien-summarize-api-openapi.yml
+  format: yaml
+  label: AYLIEN Summarize API
+  slug: aylien-summarize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-summarize-api-openapi.yml
+- filename: aylien-time-series-api-openapi.yml
+  format: yaml
+  label: AYLIEN time_series API
+  slug: aylien-time-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-time-series-api-openapi.yml
+- filename: aylien-trends-api-openapi.yml
+  format: yaml
+  label: AYLIEN trends API
+  slug: aylien-trends-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-trends-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

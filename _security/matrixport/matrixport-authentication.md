@@ -3,12 +3,48 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: matrixport-bitcom-openapi.yml
+- filename: matrixport-account-api-openapi.yml
   format: yaml
-  label: bit.com v1 API
-  slug: bitcom-v1-api
+  label: Matrixport Account API
+  slug: matrixport-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matrixport/refs/heads/main/openapi/matrixport-bitcom-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/matrixport/refs/heads/main/openapi/matrixport-account-api-openapi.yml
+- filename: matrixport-batch-orders-api-openapi.yml
+  format: yaml
+  label: Matrixport Batch Orders API
+  slug: matrixport-batch-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matrixport/refs/heads/main/openapi/matrixport-batch-orders-api-openapi.yml
+- filename: matrixport-block-trade-api-openapi.yml
+  format: yaml
+  label: Matrixport Block Trade API
+  slug: matrixport-block-trade-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matrixport/refs/heads/main/openapi/matrixport-block-trade-api-openapi.yml
+- filename: matrixport-market-api-openapi.yml
+  format: yaml
+  label: Matrixport Market API
+  slug: matrixport-market-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matrixport/refs/heads/main/openapi/matrixport-market-api-openapi.yml
+- filename: matrixport-order-api-openapi.yml
+  format: yaml
+  label: Matrixport Order API
+  slug: matrixport-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matrixport/refs/heads/main/openapi/matrixport-order-api-openapi.yml
+- filename: matrixport-system-api-openapi.yml
+  format: yaml
+  label: Matrixport System API
+  slug: matrixport-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matrixport/refs/heads/main/openapi/matrixport-system-api-openapi.yml
+- filename: matrixport-websocket-api-openapi.yml
+  format: yaml
+  label: Matrixport WebSocket API
+  slug: matrixport-websocket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matrixport/refs/heads/main/openapi/matrixport-websocket-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

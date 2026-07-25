@@ -2,12 +2,42 @@
 api_key_in:
 - query
 api_specs:
-- filename: musixmatch-openapi-original.yml
+- filename: musixmatch-album-api-openapi.yml
   format: yaml
-  label: Musixmatch API
-  slug: musixmatch-api
+  label: Musixmatch Album API
+  slug: musixmatch-album-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/openapi/musixmatch-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/openapi/musixmatch-album-api-openapi.yml
+- filename: musixmatch-artist-api-openapi.yml
+  format: yaml
+  label: Musixmatch Artist API
+  slug: musixmatch-artist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/openapi/musixmatch-artist-api-openapi.yml
+- filename: musixmatch-lyrics-api-openapi.yml
+  format: yaml
+  label: Musixmatch Lyrics API
+  slug: musixmatch-lyrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/openapi/musixmatch-lyrics-api-openapi.yml
+- filename: musixmatch-snippets-api-openapi.yml
+  format: yaml
+  label: Musixmatch Snippets API
+  slug: musixmatch-snippets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/openapi/musixmatch-snippets-api-openapi.yml
+- filename: musixmatch-subtitle-api-openapi.yml
+  format: yaml
+  label: Musixmatch Subtitle API
+  slug: musixmatch-subtitle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/openapi/musixmatch-subtitle-api-openapi.yml
+- filename: musixmatch-track-api-openapi.yml
+  format: yaml
+  label: Musixmatch Track API
+  slug: musixmatch-track-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/openapi/musixmatch-track-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,17 +1,11 @@
 ---
 api_specs:
-- filename: memgraph-openapi.yml
+- filename: memgraph-monitoring-api-openapi.yml
   format: yaml
-  label: Memgraph Bolt/Cypher Query Interface
-  slug: memgraph-bolt-cypher-query-interface
+  label: Memgraph Monitoring API
+  slug: memgraph-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memgraph/refs/heads/main/openapi/memgraph-openapi.yml
-- filename: memgraph-openapi.yml
-  format: yaml
-  label: Memgraph Monitoring and Metrics
-  slug: memgraph-monitoring-metrics
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memgraph/refs/heads/main/openapi/memgraph-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/memgraph/refs/heads/main/openapi/memgraph-monitoring-api-openapi.yml
 description: ''
 domains:
 - caa: []

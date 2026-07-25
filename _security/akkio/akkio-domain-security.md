@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: akkio-api-openapi.yml
+- filename: akkio-datasets-api-openapi.yml
   format: yaml
-  label: Akkio API
-  slug: akkio-api
+  label: Akkio Datasets API
+  slug: akkio-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akkio/refs/heads/main/openapi/akkio-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/akkio/refs/heads/main/openapi/akkio-datasets-api-openapi.yml
+- filename: akkio-models-api-openapi.yml
+  format: yaml
+  label: Akkio Models API
+  slug: akkio-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akkio/refs/heads/main/openapi/akkio-models-api-openapi.yml
 description: ''
 domains:
 - caa:

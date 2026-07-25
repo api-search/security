@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: dopesecurity-flightdeck-openapi.yml
+- filename: dopesecurity-authorization-api-openapi.yml
   format: yaml
-  label: Flightdeck API
-  slug: flightdeck-api
+  label: dope.security Authorization API
+  slug: dopesecurity-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/openapi/dopesecurity-flightdeck-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/openapi/dopesecurity-authorization-api-openapi.yml
+- filename: dopesecurity-custom-categories-api-openapi.yml
+  format: yaml
+  label: dope.security Custom Categories API
+  slug: dopesecurity-custom-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/openapi/dopesecurity-custom-categories-api-openapi.yml
+- filename: dopesecurity-endpoints-api-openapi.yml
+  format: yaml
+  label: dope.security Endpoints API
+  slug: dopesecurity-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/openapi/dopesecurity-endpoints-api-openapi.yml
+- filename: dopesecurity-policies-api-openapi.yml
+  format: yaml
+  label: dope.security Policies API
+  slug: dopesecurity-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/openapi/dopesecurity-policies-api-openapi.yml
 certifications:
 - SOC 2 Type II
 - GDPR

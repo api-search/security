@@ -1,59 +1,89 @@
 ---
 api_specs:
-- filename: dust-agents-api-openapi.yml
+- filename: dust-tt-agents-api-openapi.yml
   format: yaml
   label: Dust Agents API
-  slug: dust-agents-api
+  slug: dust-tt-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-agents-api-openapi.yml
-- filename: dust-conversations-api-openapi.yml
-  format: yaml
-  label: Dust Conversations API
-  slug: dust-conversations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-conversations-api-openapi.yml
-- filename: dust-datasources-api-openapi.yml
-  format: yaml
-  label: Dust Data Sources API
-  slug: dust-datasources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-datasources-api-openapi.yml
-- filename: dust-mcp-api-openapi.yml
-  format: yaml
-  label: Dust MCP API
-  slug: dust-mcp-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-mcp-api-openapi.yml
-- filename: dust-apps-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-agents-api-openapi.yml
+- filename: dust-tt-apps-api-openapi.yml
   format: yaml
   label: Dust Apps API
-  slug: dust-apps-api
+  slug: dust-tt-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-apps-api-openapi.yml
-- filename: dust-search-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-apps-api-openapi.yml
+- filename: dust-tt-conversations-api-openapi.yml
+  format: yaml
+  label: Dust Conversations API
+  slug: dust-tt-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-conversations-api-openapi.yml
+- filename: dust-tt-datasources-api-openapi.yml
+  format: yaml
+  label: Dust Datasources API
+  slug: dust-tt-datasources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-datasources-api-openapi.yml
+- filename: dust-tt-datasourceviews-api-openapi.yml
+  format: yaml
+  label: Dust DatasourceViews API
+  slug: dust-tt-datasourceviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-datasourceviews-api-openapi.yml
+- filename: dust-tt-feedbacks-api-openapi.yml
+  format: yaml
+  label: Dust Feedbacks API
+  slug: dust-tt-feedbacks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-feedbacks-api-openapi.yml
+- filename: dust-tt-mcp-api-openapi.yml
+  format: yaml
+  label: Dust MCP API
+  slug: dust-tt-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-mcp-api-openapi.yml
+- filename: dust-tt-mentions-api-openapi.yml
+  format: yaml
+  label: Dust Mentions API
+  slug: dust-tt-mentions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-mentions-api-openapi.yml
+- filename: dust-tt-search-api-openapi.yml
   format: yaml
   label: Dust Search API
-  slug: dust-search-api
+  slug: dust-tt-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-search-api-openapi.yml
-- filename: dust-skills-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-search-api-openapi.yml
+- filename: dust-tt-skills-api-openapi.yml
   format: yaml
   label: Dust Skills API
-  slug: dust-skills-api
+  slug: dust-tt-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-skills-api-openapi.yml
-- filename: dust-triggers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-skills-api-openapi.yml
+- filename: dust-tt-spaces-api-openapi.yml
+  format: yaml
+  label: Dust Spaces API
+  slug: dust-tt-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-spaces-api-openapi.yml
+- filename: dust-tt-tools-api-openapi.yml
+  format: yaml
+  label: Dust Tools API
+  slug: dust-tt-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-tools-api-openapi.yml
+- filename: dust-tt-triggers-api-openapi.yml
   format: yaml
   label: Dust Triggers API
-  slug: dust-triggers-api
+  slug: dust-tt-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-triggers-api-openapi.yml
-- filename: dust-workspace-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-triggers-api-openapi.yml
+- filename: dust-tt-workspace-api-openapi.yml
   format: yaml
   label: Dust Workspace API
-  slug: dust-workspace-api
+  slug: dust-tt-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-workspace-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-workspace-api-openapi.yml
 description: ''
 domains:
 - caa:

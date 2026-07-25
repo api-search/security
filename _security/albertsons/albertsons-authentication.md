@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: albertsons-retail-media-api-openapi.yml
+- filename: albertsons-audiences-api-openapi.yml
   format: yaml
-  label: Albertsons Media Collective API
-  slug: retail-media-api
+  label: albertsons Audiences API
+  slug: albertsons-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/openapi/albertsons-retail-media-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/openapi/albertsons-audiences-api-openapi.yml
+- filename: albertsons-campaigns-api-openapi.yml
+  format: yaml
+  label: albertsons Campaigns API
+  slug: albertsons-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/openapi/albertsons-campaigns-api-openapi.yml
+- filename: albertsons-performance-api-openapi.yml
+  format: yaml
+  label: albertsons Performance API
+  slug: albertsons-performance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/openapi/albertsons-performance-api-openapi.yml
+- filename: albertsons-reporting-api-openapi.yml
+  format: yaml
+  label: albertsons Reporting API
+  slug: albertsons-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/openapi/albertsons-reporting-api-openapi.yml
 auth_types:
 - http
 description: ''

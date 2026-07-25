@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: warrant-dev-openapi.yml
+- filename: warrant-dev-check-api-openapi.yml
   format: yaml
-  label: Warrant Objects API
-  slug: warrant-dev-objects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-openapi.yml
-- filename: warrant-dev-openapi.yml
-  format: yaml
-  label: Warrant Relationships (Warrants) API
-  slug: warrant-dev-warrants-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-openapi.yml
-- filename: warrant-dev-openapi.yml
-  format: yaml
-  label: Warrant Check (Authorization) API
+  label: Warrant Check API
   slug: warrant-dev-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-openapi.yml
-- filename: warrant-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-check-api-openapi.yml
+- filename: warrant-dev-object-types-api-openapi.yml
   format: yaml
   label: Warrant Object Types API
   slug: warrant-dev-object-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-openapi.yml
-- filename: warrant-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-object-types-api-openapi.yml
+- filename: warrant-dev-objects-api-openapi.yml
   format: yaml
-  label: Warrant Roles & Permissions API
-  slug: warrant-dev-roles-permissions-api
+  label: Warrant Objects API
+  slug: warrant-dev-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-objects-api-openapi.yml
+- filename: warrant-dev-roles-and-permissions-api-openapi.yml
+  format: yaml
+  label: Warrant Roles and Permissions API
+  slug: warrant-dev-roles-and-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-roles-and-permissions-api-openapi.yml
+- filename: warrant-dev-warrants-api-openapi.yml
+  format: yaml
+  label: Warrant Warrants API
+  slug: warrant-dev-warrants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-warrants-api-openapi.yml
 description: ''
 domains:
 - caa: []

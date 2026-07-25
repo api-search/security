@@ -1,41 +1,71 @@
 ---
 api_specs:
-- filename: plane-so-openapi.yml
+- filename: plane-so-cycle-work-items-api-openapi.yml
   format: yaml
-  label: Plane Projects API
-  slug: projects
+  label: Plane Cycle Work Items API
+  slug: plane-so-cycle-work-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-openapi.yml
-- filename: plane-so-openapi.yml
-  format: yaml
-  label: Plane Issues API
-  slug: issues
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-openapi.yml
-- filename: plane-so-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-cycle-work-items-api-openapi.yml
+- filename: plane-so-cycles-api-openapi.yml
   format: yaml
   label: Plane Cycles API
-  slug: cycles
+  slug: plane-so-cycles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-openapi.yml
-- filename: plane-so-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-cycles-api-openapi.yml
+- filename: plane-so-labels-api-openapi.yml
   format: yaml
-  label: Plane Modules API
-  slug: modules
+  label: Plane Labels API
+  slug: plane-so-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-openapi.yml
-- filename: plane-so-openapi.yml
-  format: yaml
-  label: Plane States & Labels API
-  slug: states-labels
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-openapi.yml
-- filename: plane-so-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-labels-api-openapi.yml
+- filename: plane-so-members-api-openapi.yml
   format: yaml
   label: Plane Members API
-  slug: members
+  slug: plane-so-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-members-api-openapi.yml
+- filename: plane-so-module-work-items-api-openapi.yml
+  format: yaml
+  label: Plane Module Work Items API
+  slug: plane-so-module-work-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-module-work-items-api-openapi.yml
+- filename: plane-so-modules-api-openapi.yml
+  format: yaml
+  label: Plane Modules API
+  slug: plane-so-modules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-modules-api-openapi.yml
+- filename: plane-so-projects-api-openapi.yml
+  format: yaml
+  label: Plane Projects API
+  slug: plane-so-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-projects-api-openapi.yml
+- filename: plane-so-states-api-openapi.yml
+  format: yaml
+  label: Plane States API
+  slug: plane-so-states-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-states-api-openapi.yml
+- filename: plane-so-work-item-comments-api-openapi.yml
+  format: yaml
+  label: Plane Work Item Comments API
+  slug: plane-so-work-item-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-work-item-comments-api-openapi.yml
+- filename: plane-so-work-item-links-api-openapi.yml
+  format: yaml
+  label: Plane Work Item Links API
+  slug: plane-so-work-item-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-work-item-links-api-openapi.yml
+- filename: plane-so-work-items-api-openapi.yml
+  format: yaml
+  label: Plane Work Items API
+  slug: plane-so-work-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-work-items-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

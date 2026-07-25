@@ -1,11 +1,35 @@
 ---
 api_specs:
+- filename: plivo-account-api-openapi.yml
+  format: yaml
+  label: Plivo Account API
+  slug: plivo-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/openapi/plivo-account-api-openapi.yml
 - filename: plivo-asyncapi.yml
   format: yaml
   label: Plivo Audio Stream API
   slug: plivo-audio-stream-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/asyncapi/plivo-asyncapi.yml
+- filename: plivo-message-api-openapi.yml
+  format: yaml
+  label: Plivo Message API
+  slug: plivo-message-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/openapi/plivo-message-api-openapi.yml
+- filename: plivo-account-api-openapi.yml
+  format: yaml
+  label: Plivo Account API
+  slug: plivo-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/openapi/plivo-account-api-openapi.yml
+- filename: plivo-message-api-openapi.yml
+  format: yaml
+  label: Plivo Message API
+  slug: plivo-message-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/openapi/plivo-message-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

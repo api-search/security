@@ -1,59 +1,59 @@
 ---
 api_specs:
-- filename: fountain-com-openapi.yml
+- filename: fountain-com-applicants-api-openapi.yml
   format: yaml
   label: Fountain Applicants API
-  slug: fountain-applicants-api
+  slug: fountain-com-applicants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-openapi.yml
-- filename: fountain-com-openapi.yml
-  format: yaml
-  label: Fountain Openings API
-  slug: fountain-openings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-openapi.yml
-- filename: fountain-com-openapi.yml
-  format: yaml
-  label: Fountain Positions API
-  slug: fountain-positions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-openapi.yml
-- filename: fountain-com-openapi.yml
-  format: yaml
-  label: Fountain Stages API
-  slug: fountain-stages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-openapi.yml
-- filename: fountain-com-openapi.yml
-  format: yaml
-  label: Fountain Scheduling API
-  slug: fountain-scheduling-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-openapi.yml
-- filename: fountain-com-openapi.yml
-  format: yaml
-  label: Fountain Labels API
-  slug: fountain-labels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-openapi.yml
-- filename: fountain-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-applicants-api-openapi.yml
+- filename: fountain-com-documents-api-openapi.yml
   format: yaml
   label: Fountain Documents API
-  slug: fountain-documents-api
+  slug: fountain-com-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-openapi.yml
-- filename: fountain-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-documents-api-openapi.yml
+- filename: fountain-com-labels-api-openapi.yml
+  format: yaml
+  label: Fountain Labels API
+  slug: fountain-com-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-labels-api-openapi.yml
+- filename: fountain-com-openings-api-openapi.yml
+  format: yaml
+  label: Fountain Openings API
+  slug: fountain-com-openings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-openings-api-openapi.yml
+- filename: fountain-com-positions-api-openapi.yml
+  format: yaml
+  label: Fountain Positions API
+  slug: fountain-com-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-positions-api-openapi.yml
+- filename: fountain-com-scheduling-api-openapi.yml
+  format: yaml
+  label: Fountain Scheduling API
+  slug: fountain-com-scheduling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-scheduling-api-openapi.yml
+- filename: fountain-com-stages-api-openapi.yml
+  format: yaml
+  label: Fountain Stages API
+  slug: fountain-com-stages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-stages-api-openapi.yml
+- filename: fountain-com-webhooks-api-openapi.yml
   format: yaml
   label: Fountain Webhooks API
-  slug: fountain-webhooks-api
+  slug: fountain-com-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-openapi.yml
-- filename: fountain-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-webhooks-api-openapi.yml
+- filename: fountain-com-workers-api-openapi.yml
   format: yaml
   label: Fountain Workers API
-  slug: fountain-workers-api
+  slug: fountain-com-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-workers-api-openapi.yml
 description: ''
 domains:
 - caa:

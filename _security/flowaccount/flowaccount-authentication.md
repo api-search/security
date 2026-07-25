@@ -1,12 +1,120 @@
 ---
 api_key_in: []
 api_specs:
-- filename: flowaccount-openapi-original.json
-  format: json
-  label: FlowAccount Open API
-  slug: flowaccount-open-api
+- filename: flowaccount-batchimport-api-openapi.yml
+  format: yaml
+  label: FlowAccount BatchImport API
+  slug: flowaccount-batchimport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-batchimport-api-openapi.yml
+- filename: flowaccount-billingnote-api-openapi.yml
+  format: yaml
+  label: FlowAccount BillingNote API
+  slug: flowaccount-billingnote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-billingnote-api-openapi.yml
+- filename: flowaccount-cashinvoice-api-openapi.yml
+  format: yaml
+  label: FlowAccount CashInvoice API
+  slug: flowaccount-cashinvoice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-cashinvoice-api-openapi.yml
+- filename: flowaccount-companycurrency-api-openapi.yml
+  format: yaml
+  label: FlowAccount CompanyCurrency API
+  slug: flowaccount-companycurrency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-companycurrency-api-openapi.yml
+- filename: flowaccount-contact-api-openapi.yml
+  format: yaml
+  label: FlowAccount Contact API
+  slug: flowaccount-contact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-contact-api-openapi.yml
+- filename: flowaccount-creditnote-api-openapi.yml
+  format: yaml
+  label: FlowAccount CreditNote API
+  slug: flowaccount-creditnote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-creditnote-api-openapi.yml
+- filename: flowaccount-debitnote-api-openapi.yml
+  format: yaml
+  label: FlowAccount DebitNote API
+  slug: flowaccount-debitnote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-debitnote-api-openapi.yml
+- filename: flowaccount-employee-api-openapi.yml
+  format: yaml
+  label: FlowAccount Employee API
+  slug: flowaccount-employee-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-employee-api-openapi.yml
+- filename: flowaccount-expense-api-openapi.yml
+  format: yaml
+  label: FlowAccount Expense API
+  slug: flowaccount-expense-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-expense-api-openapi.yml
+- filename: flowaccount-productcategory-api-openapi.yml
+  format: yaml
+  label: FlowAccount ProductCategory API
+  slug: flowaccount-productcategory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-productcategory-api-openapi.yml
+- filename: flowaccount-productinventory-api-openapi.yml
+  format: yaml
+  label: FlowAccount ProductInventory API
+  slug: flowaccount-productinventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-productinventory-api-openapi.yml
+- filename: flowaccount-products-api-openapi.yml
+  format: yaml
+  label: FlowAccount Products API
+  slug: flowaccount-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-products-api-openapi.yml
+- filename: flowaccount-productunit-api-openapi.yml
+  format: yaml
+  label: FlowAccount ProductUnit API
+  slug: flowaccount-productunit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-productunit-api-openapi.yml
+- filename: flowaccount-purchase-api-openapi.yml
+  format: yaml
+  label: FlowAccount Purchase API
+  slug: flowaccount-purchase-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-purchase-api-openapi.yml
+- filename: flowaccount-purchaseorder-api-openapi.yml
+  format: yaml
+  label: FlowAccount PurchaseOrder API
+  slug: flowaccount-purchaseorder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-purchaseorder-api-openapi.yml
+- filename: flowaccount-quotation-api-openapi.yml
+  format: yaml
+  label: FlowAccount Quotation API
+  slug: flowaccount-quotation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-quotation-api-openapi.yml
+- filename: flowaccount-receipt-api-openapi.yml
+  format: yaml
+  label: FlowAccount Receipt API
+  slug: flowaccount-receipt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-receipt-api-openapi.yml
+- filename: flowaccount-receivableinvoice-api-openapi.yml
+  format: yaml
+  label: FlowAccount ReceivableInvoice API
+  slug: flowaccount-receivableinvoice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-receivableinvoice-api-openapi.yml
+- filename: flowaccount-taxinvoice-api-openapi.yml
+  format: yaml
+  label: FlowAccount TaxInvoice API
+  slug: flowaccount-taxinvoice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-taxinvoice-api-openapi.yml
 auth_types:
 - oauth2
 - http

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: harness-platform-api.yaml
+- filename: harness-organizations-api-openapi.yml
   format: yaml
-  label: Harness Platform API
-  slug: platform-api
+  label: Harness Organizations API
+  slug: harness-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harness/refs/heads/main/openapi/harness-platform-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/harness/refs/heads/main/openapi/harness-organizations-api-openapi.yml
+- filename: harness-pipeline-execution-api-openapi.yml
+  format: yaml
+  label: Harness Pipeline Execution API
+  slug: harness-pipeline-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harness/refs/heads/main/openapi/harness-pipeline-execution-api-openapi.yml
+- filename: harness-pipelines-api-openapi.yml
+  format: yaml
+  label: Harness Pipelines API
+  slug: harness-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harness/refs/heads/main/openapi/harness-pipelines-api-openapi.yml
+- filename: harness-projects-api-openapi.yml
+  format: yaml
+  label: Harness Projects API
+  slug: harness-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harness/refs/heads/main/openapi/harness-projects-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

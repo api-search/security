@@ -1,42 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: endor-labs-openapi.yml
+- filename: endor-labs-authentication-api-openapi.yml
   format: yaml
-  label: Endor Labs Projects API
-  slug: endor-labs-projects-api
+  label: Endor Labs Authentication API
+  slug: endor-labs-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-openapi.yml
-- filename: endor-labs-openapi.yml
-  format: yaml
-  label: Endor Labs Dependencies & Packages API
-  slug: endor-labs-dependencies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-openapi.yml
-- filename: endor-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-authentication-api-openapi.yml
+- filename: endor-labs-findings-api-openapi.yml
   format: yaml
   label: Endor Labs Findings API
   slug: endor-labs-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-openapi.yml
-- filename: endor-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-findings-api-openapi.yml
+- filename: endor-labs-namespaces-api-openapi.yml
+  format: yaml
+  label: Endor Labs Namespaces API
+  slug: endor-labs-namespaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-namespaces-api-openapi.yml
+- filename: endor-labs-packages-api-openapi.yml
+  format: yaml
+  label: Endor Labs Packages API
+  slug: endor-labs-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-packages-api-openapi.yml
+- filename: endor-labs-policies-api-openapi.yml
   format: yaml
   label: Endor Labs Policies API
   slug: endor-labs-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-openapi.yml
-- filename: endor-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-policies-api-openapi.yml
+- filename: endor-labs-projects-api-openapi.yml
+  format: yaml
+  label: Endor Labs Projects API
+  slug: endor-labs-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-projects-api-openapi.yml
+- filename: endor-labs-scan-results-api-openapi.yml
   format: yaml
   label: Endor Labs Scan Results API
   slug: endor-labs-scan-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-openapi.yml
-- filename: endor-labs-openapi.yml
-  format: yaml
-  label: Endor Labs Auth & Namespaces API
-  slug: endor-labs-auth-namespaces-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-scan-results-api-openapi.yml
 auth_types:
 - http
 description: ''

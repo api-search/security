@@ -2,12 +2,18 @@
 api_key_in:
 - query
 api_specs:
-- filename: nasdaq-omx-group-openapi.yml
+- filename: nasdaq-omx-group-databases-api-openapi.yml
   format: yaml
-  label: Nasdaq Data Link Time-series API
-  slug: data-link-time-series
+  label: Nasdaq Databases API
+  slug: nasdaq-omx-group-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasdaq-omx-group/refs/heads/main/openapi/nasdaq-omx-group-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nasdaq-omx-group/refs/heads/main/openapi/nasdaq-omx-group-databases-api-openapi.yml
+- filename: nasdaq-omx-group-datasets-api-openapi.yml
+  format: yaml
+  label: Nasdaq Datasets API
+  slug: nasdaq-omx-group-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasdaq-omx-group/refs/heads/main/openapi/nasdaq-omx-group-datasets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

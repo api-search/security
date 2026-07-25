@@ -1,59 +1,59 @@
 ---
 api_specs:
-- filename: bunq-openapi.yml
-  format: yaml
-  label: bunq Session (Handshake) API
-  slug: bunq-session-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-openapi.yml
-- filename: bunq-openapi.yml
-  format: yaml
-  label: bunq User API
-  slug: bunq-user-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-openapi.yml
-- filename: bunq-openapi.yml
-  format: yaml
-  label: bunq Monetary Account API
-  slug: bunq-monetary-account-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-openapi.yml
-- filename: bunq-openapi.yml
-  format: yaml
-  label: bunq Payment API
-  slug: bunq-payment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-openapi.yml
-- filename: bunq-openapi.yml
-  format: yaml
-  label: bunq Request Inquiry API
-  slug: bunq-request-inquiry-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-openapi.yml
-- filename: bunq-openapi.yml
-  format: yaml
-  label: bunq Card API
-  slug: bunq-card-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-openapi.yml
-- filename: bunq-openapi.yml
+- filename: bunq-attachment-api-openapi.yml
   format: yaml
   label: bunq Attachment API
   slug: bunq-attachment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-openapi.yml
-- filename: bunq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-attachment-api-openapi.yml
+- filename: bunq-card-api-openapi.yml
   format: yaml
-  label: bunq Customer Statement (Export) API
+  label: bunq Card API
+  slug: bunq-card-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-card-api-openapi.yml
+- filename: bunq-customer-statement-api-openapi.yml
+  format: yaml
+  label: bunq Customer Statement API
   slug: bunq-customer-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-openapi.yml
-- filename: bunq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-customer-statement-api-openapi.yml
+- filename: bunq-handshake-api-openapi.yml
   format: yaml
-  label: bunq Notification Filter (Callbacks) API
+  label: bunq Handshake API
+  slug: bunq-handshake-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-handshake-api-openapi.yml
+- filename: bunq-monetary-account-api-openapi.yml
+  format: yaml
+  label: bunq Monetary Account API
+  slug: bunq-monetary-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-monetary-account-api-openapi.yml
+- filename: bunq-notification-filter-api-openapi.yml
+  format: yaml
+  label: bunq Notification Filter API
   slug: bunq-notification-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-notification-filter-api-openapi.yml
+- filename: bunq-payment-api-openapi.yml
+  format: yaml
+  label: bunq Payment API
+  slug: bunq-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-payment-api-openapi.yml
+- filename: bunq-request-inquiry-api-openapi.yml
+  format: yaml
+  label: bunq Request Inquiry API
+  slug: bunq-request-inquiry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-request-inquiry-api-openapi.yml
+- filename: bunq-user-api-openapi.yml
+  format: yaml
+  label: bunq User API
+  slug: bunq-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: acc-admin-openapi.yml
+- filename: autodesk-construction-cloud-companies-api-openapi.yml
   format: yaml
-  label: Autodesk Construction Cloud Admin API
-  slug: acc-admin-api
+  label: Autodesk Construction Cloud Companies API
+  slug: autodesk-construction-cloud-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/acc-admin-openapi.yml
-- filename: acc-issues-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-companies-api-openapi.yml
+- filename: autodesk-construction-cloud-issues-api-openapi.yml
   format: yaml
   label: Autodesk Construction Cloud Issues API
-  slug: acc-issues-api
+  slug: autodesk-construction-cloud-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/acc-issues-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-issues-api-openapi.yml
+- filename: autodesk-construction-cloud-issuetypes-api-openapi.yml
+  format: yaml
+  label: Autodesk Construction Cloud IssueTypes API
+  slug: autodesk-construction-cloud-issuetypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-issuetypes-api-openapi.yml
+- filename: autodesk-construction-cloud-projects-api-openapi.yml
+  format: yaml
+  label: Autodesk Construction Cloud Projects API
+  slug: autodesk-construction-cloud-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-projects-api-openapi.yml
+- filename: autodesk-construction-cloud-users-api-openapi.yml
+  format: yaml
+  label: Autodesk Construction Cloud Users API
+  slug: autodesk-construction-cloud-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

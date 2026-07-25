@@ -2,18 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: batch.yaml
+- filename: speechmatics-api-keys-api-openapi.yml
   format: yaml
-  label: Speechmatics Batch Transcription API
-  slug: batch-transcription-api
+  label: Speechmatics API Keys API
+  slug: speechmatics-api-keys-api
   spec_type: OpenAPI
-  url: https://docs.speechmatics.com/batch.yaml
-- filename: speechmatics-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/openapi/speechmatics-api-keys-api-openapi.yml
+- filename: speechmatics-jobs-api-openapi.yml
   format: yaml
-  label: Speechmatics Management API
-  slug: management-api
+  label: Speechmatics Jobs API
+  slug: speechmatics-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/openapi/speechmatics-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/openapi/speechmatics-jobs-api-openapi.yml
+- filename: speechmatics-projects-api-openapi.yml
+  format: yaml
+  label: Speechmatics Projects API
+  slug: speechmatics-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/openapi/speechmatics-projects-api-openapi.yml
+- filename: speechmatics-usage-api-openapi.yml
+  format: yaml
+  label: Speechmatics Usage API
+  slug: speechmatics-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/openapi/speechmatics-usage-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

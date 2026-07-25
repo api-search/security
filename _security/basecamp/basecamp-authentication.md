@@ -1,24 +1,126 @@
 ---
 api_key_in: []
 api_specs:
-- filename: basecamp-api-openapi.yml
-  format: yaml
-  label: Basecamp API
-  slug: basecamp-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-api-openapi.yml
 - filename: basecamp-webhooks-asyncapi.yml
   format: yaml
   label: Basecamp Webhooks
   slug: basecamp-webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/asyncapi/basecamp-webhooks-asyncapi.yml
-- filename: basecamp-oauth-openapi.yml
+- filename: basecamp-authorization-api-openapi.yml
   format: yaml
-  label: Basecamp OAuth
-  slug: basecamp-oauth
+  label: Basecamp Authorization API
+  slug: basecamp-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-oauth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-authorization-api-openapi.yml
+- filename: basecamp-campfires-api-openapi.yml
+  format: yaml
+  label: Basecamp Campfires API
+  slug: basecamp-campfires-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-campfires-api-openapi.yml
+- filename: basecamp-card-tables-api-openapi.yml
+  format: yaml
+  label: Basecamp Card Tables API
+  slug: basecamp-card-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-card-tables-api-openapi.yml
+- filename: basecamp-comments-api-openapi.yml
+  format: yaml
+  label: Basecamp Comments API
+  slug: basecamp-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-comments-api-openapi.yml
+- filename: basecamp-documents-api-openapi.yml
+  format: yaml
+  label: Basecamp Documents API
+  slug: basecamp-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-documents-api-openapi.yml
+- filename: basecamp-identity-api-openapi.yml
+  format: yaml
+  label: Basecamp Identity API
+  slug: basecamp-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-identity-api-openapi.yml
+- filename: basecamp-messages-api-openapi.yml
+  format: yaml
+  label: Basecamp Messages API
+  slug: basecamp-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-messages-api-openapi.yml
+- filename: basecamp-people-api-openapi.yml
+  format: yaml
+  label: Basecamp People API
+  slug: basecamp-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-people-api-openapi.yml
+- filename: basecamp-projects-api-openapi.yml
+  format: yaml
+  label: Basecamp Projects API
+  slug: basecamp-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-projects-api-openapi.yml
+- filename: basecamp-recordings-api-openapi.yml
+  format: yaml
+  label: Basecamp Recordings API
+  slug: basecamp-recordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-recordings-api-openapi.yml
+- filename: basecamp-schedule-entries-api-openapi.yml
+  format: yaml
+  label: Basecamp Schedule Entries API
+  slug: basecamp-schedule-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-schedule-entries-api-openapi.yml
+- filename: basecamp-schedules-api-openapi.yml
+  format: yaml
+  label: Basecamp Schedules API
+  slug: basecamp-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-schedules-api-openapi.yml
+- filename: basecamp-subscriptions-api-openapi.yml
+  format: yaml
+  label: Basecamp Subscriptions API
+  slug: basecamp-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-subscriptions-api-openapi.yml
+- filename: basecamp-templates-api-openapi.yml
+  format: yaml
+  label: Basecamp Templates API
+  slug: basecamp-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-templates-api-openapi.yml
+- filename: basecamp-to-do-lists-api-openapi.yml
+  format: yaml
+  label: Basecamp To-Do Lists API
+  slug: basecamp-to-do-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-to-do-lists-api-openapi.yml
+- filename: basecamp-to-dos-api-openapi.yml
+  format: yaml
+  label: Basecamp To-Dos API
+  slug: basecamp-to-dos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-to-dos-api-openapi.yml
+- filename: basecamp-token-api-openapi.yml
+  format: yaml
+  label: Basecamp Token API
+  slug: basecamp-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-token-api-openapi.yml
+- filename: basecamp-uploads-api-openapi.yml
+  format: yaml
+  label: Basecamp Uploads API
+  slug: basecamp-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-uploads-api-openapi.yml
+- filename: basecamp-webhooks-api-openapi.yml
+  format: yaml
+  label: Basecamp Webhooks API
+  slug: basecamp-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

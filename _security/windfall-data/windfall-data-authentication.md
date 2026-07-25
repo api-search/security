@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: windfall-data-openapi-original.json
-  format: json
-  label: Windfall API
-  slug: windfall-data-api
+- filename: windfall-data-windfall-api-api-openapi.yml
+  format: yaml
+  label: Windfall Data Windfall API API
+  slug: windfall-data-windfall-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windfall-data/refs/heads/main/openapi/windfall-data-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/windfall-data/refs/heads/main/openapi/windfall-data-windfall-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

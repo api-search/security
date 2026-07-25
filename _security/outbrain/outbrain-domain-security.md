@@ -1,23 +1,65 @@
 ---
 api_specs:
-- filename: outbrain-amplify-api-openapi.yml
+- filename: outbrain-authentication-api-openapi.yml
   format: yaml
-  label: Outbrain Amplify API
-  slug: outbrain-amplify-api
+  label: Outbrain Authentication API
+  slug: outbrain-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-amplify-api-openapi.yml
-- filename: outbrain-engage-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-authentication-api-openapi.yml
+- filename: outbrain-budgets-api-openapi.yml
   format: yaml
-  label: Outbrain Engage API
-  slug: outbrain-engage-api
+  label: Outbrain Budgets API
+  slug: outbrain-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-engage-api-openapi.yml
-- filename: outbrain-teads-conversion-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-budgets-api-openapi.yml
+- filename: outbrain-campaigns-api-openapi.yml
   format: yaml
-  label: Teads / Outbrain Conversion API
-  slug: outbrain-teads-conversion-api
+  label: Outbrain Campaigns API
+  slug: outbrain-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-teads-conversion-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-campaigns-api-openapi.yml
+- filename: outbrain-conversions-api-openapi.yml
+  format: yaml
+  label: Outbrain Conversions API
+  slug: outbrain-conversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-conversions-api-openapi.yml
+- filename: outbrain-events-api-openapi.yml
+  format: yaml
+  label: Outbrain Events API
+  slug: outbrain-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-events-api-openapi.yml
+- filename: outbrain-marketers-api-openapi.yml
+  format: yaml
+  label: Outbrain Marketers API
+  slug: outbrain-marketers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-marketers-api-openapi.yml
+- filename: outbrain-promotedlinks-api-openapi.yml
+  format: yaml
+  label: Outbrain PromotedLinks API
+  slug: outbrain-promotedlinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-promotedlinks-api-openapi.yml
+- filename: outbrain-recommendations-api-openapi.yml
+  format: yaml
+  label: Outbrain Recommendations API
+  slug: outbrain-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-recommendations-api-openapi.yml
+- filename: outbrain-reporting-api-openapi.yml
+  format: yaml
+  label: Outbrain Reporting API
+  slug: outbrain-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-reporting-api-openapi.yml
+- filename: outbrain-targeting-api-openapi.yml
+  format: yaml
+  label: Outbrain Targeting API
+  slug: outbrain-targeting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-targeting-api-openapi.yml
 description: ''
 domains:
 - caa:

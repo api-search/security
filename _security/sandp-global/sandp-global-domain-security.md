@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: sandp-global-capital-iq-openapi.yml
+- filename: sandp-global-authentication-api-openapi.yml
   format: yaml
-  label: S&P Capital IQ API
-  slug: sandp-global-capital-iq-api
+  label: S&P Global Authentication API
+  slug: sandp-global-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sandp-global/refs/heads/main/openapi/sandp-global-capital-iq-openapi.yml
-- filename: sandp-global-commodity-insights-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sandp-global/refs/heads/main/openapi/sandp-global-authentication-api-openapi.yml
+- filename: sandp-global-financial-data-api-openapi.yml
   format: yaml
-  label: S&P Global Commodity Insights API
-  slug: sandp-global-commodity-insights-api
+  label: S&P Global Financial Data API
+  slug: sandp-global-financial-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sandp-global/refs/heads/main/openapi/sandp-global-commodity-insights-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sandp-global/refs/heads/main/openapi/sandp-global-financial-data-api-openapi.yml
+- filename: sandp-global-market-data-api-openapi.yml
+  format: yaml
+  label: S&P Global Market Data API
+  slug: sandp-global-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandp-global/refs/heads/main/openapi/sandp-global-market-data-api-openapi.yml
+- filename: sandp-global-price-assessments-api-openapi.yml
+  format: yaml
+  label: S&P Global Price Assessments API
+  slug: sandp-global-price-assessments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandp-global/refs/heads/main/openapi/sandp-global-price-assessments-api-openapi.yml
+- filename: sandp-global-reference-data-api-openapi.yml
+  format: yaml
+  label: S&P Global Reference Data API
+  slug: sandp-global-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandp-global/refs/heads/main/openapi/sandp-global-reference-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

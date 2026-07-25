@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: google-cloud-datastream-openapi.yml
+- filename: google-cloud-datastream-connectionprofiles-api-openapi.yml
   format: yaml
-  label: Google Cloud Datastream API
-  slug: google-cloud-datastream-api
+  label: Google Cloud Datastream ConnectionProfiles API
+  slug: google-cloud-datastream-connectionprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastream/refs/heads/main/openapi/google-cloud-datastream-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastream/refs/heads/main/openapi/google-cloud-datastream-connectionprofiles-api-openapi.yml
+- filename: google-cloud-datastream-operations-api-openapi.yml
+  format: yaml
+  label: Google Cloud Datastream Operations API
+  slug: google-cloud-datastream-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastream/refs/heads/main/openapi/google-cloud-datastream-operations-api-openapi.yml
+- filename: google-cloud-datastream-streams-api-openapi.yml
+  format: yaml
+  label: Google Cloud Datastream Streams API
+  slug: google-cloud-datastream-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastream/refs/heads/main/openapi/google-cloud-datastream-streams-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

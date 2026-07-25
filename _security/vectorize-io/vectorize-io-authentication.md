@@ -1,42 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: vectorize-io-openapi.yml
+- filename: vectorize-io-ai-platform-connectors-api-openapi.yml
+  format: yaml
+  label: Vectorize AI Platform Connectors API
+  slug: vectorize-io-ai-platform-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/openapi/vectorize-io-ai-platform-connectors-api-openapi.yml
+- filename: vectorize-io-destination-connectors-api-openapi.yml
+  format: yaml
+  label: Vectorize Destination Connectors API
+  slug: vectorize-io-destination-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/openapi/vectorize-io-destination-connectors-api-openapi.yml
+- filename: vectorize-io-extraction-api-openapi.yml
+  format: yaml
+  label: Vectorize Extraction API
+  slug: vectorize-io-extraction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/openapi/vectorize-io-extraction-api-openapi.yml
+- filename: vectorize-io-files-api-openapi.yml
+  format: yaml
+  label: Vectorize Files API
+  slug: vectorize-io-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/openapi/vectorize-io-files-api-openapi.yml
+- filename: vectorize-io-pipelines-api-openapi.yml
   format: yaml
   label: Vectorize Pipelines API
-  slug: vectorize-pipelines-api
+  slug: vectorize-io-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/openapi/vectorize-io-openapi.yml
-- filename: vectorize-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/openapi/vectorize-io-pipelines-api-openapi.yml
+- filename: vectorize-io-source-connectors-api-openapi.yml
   format: yaml
-  label: Vectorize Retrieval API
-  slug: vectorize-retrieval-api
+  label: Vectorize Source Connectors API
+  slug: vectorize-io-source-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/openapi/vectorize-io-openapi.yml
-- filename: vectorize-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/openapi/vectorize-io-source-connectors-api-openapi.yml
+- filename: vectorize-io-uploads-api-openapi.yml
   format: yaml
-  label: Vectorize Connectors API
-  slug: vectorize-connectors-api
+  label: Vectorize Uploads API
+  slug: vectorize-io-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/openapi/vectorize-io-openapi.yml
-- filename: vectorize-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/openapi/vectorize-io-uploads-api-openapi.yml
+- filename: vectorize-io-workspaces-api-openapi.yml
   format: yaml
-  label: Vectorize File Upload API
-  slug: vectorize-file-upload-api
+  label: Vectorize Workspaces API
+  slug: vectorize-io-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/openapi/vectorize-io-openapi.yml
-- filename: vectorize-io-openapi.yml
-  format: yaml
-  label: Vectorize Extraction (Iris) API
-  slug: vectorize-extraction-iris-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/openapi/vectorize-io-openapi.yml
-- filename: vectorize-io-openapi.yml
-  format: yaml
-  label: Vectorize Deep Research API
-  slug: vectorize-deep-research-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/openapi/vectorize-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/openapi/vectorize-io-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''

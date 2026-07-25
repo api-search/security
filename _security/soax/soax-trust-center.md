@@ -6,12 +6,30 @@ api_specs:
   slug: soax-web-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-web-data-api-openapi.yml
-- filename: soax-proxy-management-api-openapi.yml
+- filename: soax-ecommerce-data-api-openapi.yml
   format: yaml
-  label: SOAX Proxy Management API
-  slug: soax-proxy-management-api
+  label: SOAX Ecommerce Data API
+  slug: soax-ecommerce-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-proxy-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-ecommerce-data-api-openapi.yml
+- filename: soax-geo-targeting-api-openapi.yml
+  format: yaml
+  label: SOAX Geo Targeting API
+  slug: soax-geo-targeting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-geo-targeting-api-openapi.yml
+- filename: soax-ip-whitelist-api-openapi.yml
+  format: yaml
+  label: SOAX IP Whitelist API
+  slug: soax-ip-whitelist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-ip-whitelist-api-openapi.yml
+- filename: soax-serp-data-api-openapi.yml
+  format: yaml
+  label: SOAX SERP Data API
+  slug: soax-serp-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-serp-data-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

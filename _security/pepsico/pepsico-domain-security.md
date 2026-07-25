@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: pepsico-pepsico-api-openapi.yml
+- filename: pepsico-food-api-openapi.yml
   format: yaml
-  label: PepsiCo API
-  slug: pepsico-api
+  label: PepsiCo Food API
+  slug: pepsico-food-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pepsico/refs/heads/main/openapi/pepsico-pepsico-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pepsico/refs/heads/main/openapi/pepsico-food-api-openapi.yml
 description: ''
 domains:
 - caa: []

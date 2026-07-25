@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: hotglue-openapi.yml
+- filename: hotglue-connector-metadata-api-openapi.yml
   format: yaml
-  label: Hotglue API V2
-  slug: hotglue-api-v2
+  label: Hotglue Connector Metadata API
+  slug: hotglue-connector-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-connector-metadata-api-openapi.yml
+- filename: hotglue-connector-state-api-openapi.yml
+  format: yaml
+  label: Hotglue Connector State API
+  slug: hotglue-connector-state-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-connector-state-api-openapi.yml
+- filename: hotglue-discover-api-openapi.yml
+  format: yaml
+  label: Hotglue Discover API
+  slug: hotglue-discover-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-discover-api-openapi.yml
+- filename: hotglue-jobs-api-openapi.yml
+  format: yaml
+  label: Hotglue Jobs API
+  slug: hotglue-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-jobs-api-openapi.yml
+- filename: hotglue-linked-connectors-api-openapi.yml
+  format: yaml
+  label: Hotglue Linked Connectors API
+  slug: hotglue-linked-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-linked-connectors-api-openapi.yml
 certifications:
 - ISO 27001
 - GDPR

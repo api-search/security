@@ -1,41 +1,65 @@
 ---
 api_specs:
-- filename: ticketspice-openapi.yml
-  format: yaml
-  label: TicketSpice Forms and Inventory API
-  slug: ticketspice-forms-inventory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-openapi.yml
-- filename: ticketspice-openapi.yml
-  format: yaml
-  label: TicketSpice Orders and Registrants API
-  slug: ticketspice-orders-registrants-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-openapi.yml
-- filename: ticketspice-openapi.yml
-  format: yaml
-  label: TicketSpice Tickets API
-  slug: ticketspice-tickets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-openapi.yml
-- filename: ticketspice-openapi.yml
-  format: yaml
-  label: TicketSpice Transactions and Customers API
-  slug: ticketspice-transactions-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-openapi.yml
-- filename: ticketspice-openapi.yml
+- filename: ticketspice-coupons-api-openapi.yml
   format: yaml
   label: TicketSpice Coupons API
   slug: ticketspice-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-openapi.yml
-- filename: ticketspice-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-coupons-api-openapi.yml
+- filename: ticketspice-customers-api-openapi.yml
+  format: yaml
+  label: TicketSpice Customers API
+  slug: ticketspice-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-customers-api-openapi.yml
+- filename: ticketspice-forms-api-openapi.yml
+  format: yaml
+  label: TicketSpice Forms API
+  slug: ticketspice-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-forms-api-openapi.yml
+- filename: ticketspice-health-api-openapi.yml
+  format: yaml
+  label: TicketSpice Health API
+  slug: ticketspice-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-health-api-openapi.yml
+- filename: ticketspice-orders-api-openapi.yml
+  format: yaml
+  label: TicketSpice Orders API
+  slug: ticketspice-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-orders-api-openapi.yml
+- filename: ticketspice-registrants-api-openapi.yml
+  format: yaml
+  label: TicketSpice Registrants API
+  slug: ticketspice-registrants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-registrants-api-openapi.yml
+- filename: ticketspice-subscriptions-api-openapi.yml
+  format: yaml
+  label: TicketSpice Subscriptions API
+  slug: ticketspice-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-subscriptions-api-openapi.yml
+- filename: ticketspice-tickets-api-openapi.yml
+  format: yaml
+  label: TicketSpice Tickets API
+  slug: ticketspice-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-tickets-api-openapi.yml
+- filename: ticketspice-transactions-api-openapi.yml
+  format: yaml
+  label: TicketSpice Transactions API
+  slug: ticketspice-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-transactions-api-openapi.yml
+- filename: ticketspice-webhooks-api-openapi.yml
   format: yaml
   label: TicketSpice Webhooks API
   slug: ticketspice-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

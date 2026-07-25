@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: scispot-openapi.yml
+- filename: scispot-eln-api-openapi.yml
   format: yaml
-  label: Scispot API
-  slug: scispot-api
+  label: Scispot ELN API
+  slug: scispot-eln-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/openapi/scispot-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/openapi/scispot-eln-api-openapi.yml
+- filename: scispot-labsheets-api-openapi.yml
+  format: yaml
+  label: Scispot Labsheets API
+  slug: scispot-labsheets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/openapi/scispot-labsheets-api-openapi.yml
+- filename: scispot-manifests-api-openapi.yml
+  format: yaml
+  label: Scispot Manifests API
+  slug: scispot-manifests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/openapi/scispot-manifests-api-openapi.yml
+- filename: scispot-samples-api-openapi.yml
+  format: yaml
+  label: Scispot Samples API
+  slug: scispot-samples-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/openapi/scispot-samples-api-openapi.yml
+- filename: scispot-sequences-api-openapi.yml
+  format: yaml
+  label: Scispot Sequences API
+  slug: scispot-sequences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/openapi/scispot-sequences-api-openapi.yml
 description: ''
 domains:
 - caa:

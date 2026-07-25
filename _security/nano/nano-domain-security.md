@@ -1,35 +1,53 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: nano-accounts-api-openapi.yml
   format: yaml
-  label: Nano RPC API - Account Operations
-  slug: nano-rpc-api-account-operations
+  label: Nano Accounts API
+  slug: nano-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nano/refs/heads/main/openapi.yml
-- filename: openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nano/refs/heads/main/openapi/nano-accounts-api-openapi.yml
+- filename: nano-blocks-api-openapi.yml
   format: yaml
-  label: Nano RPC API - Block Operations
-  slug: nano-rpc-api-block-operations
+  label: Nano Blocks API
+  slug: nano-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nano/refs/heads/main/openapi.yml
-- filename: openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nano/refs/heads/main/openapi/nano-blocks-api-openapi.yml
+- filename: nano-keys-api-openapi.yml
   format: yaml
-  label: Nano RPC API - Node Operations
-  slug: nano-rpc-api-node-operations
+  label: Nano Keys API
+  slug: nano-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nano/refs/heads/main/openapi.yml
-- filename: openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nano/refs/heads/main/openapi/nano-keys-api-openapi.yml
+- filename: nano-ledger-api-openapi.yml
   format: yaml
-  label: Nano RPC API - Wallet Operations
-  slug: nano-rpc-api-wallet-operations
+  label: Nano Ledger API
+  slug: nano-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nano/refs/heads/main/openapi.yml
-- filename: openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nano/refs/heads/main/openapi/nano-ledger-api-openapi.yml
+- filename: nano-node-api-openapi.yml
   format: yaml
-  label: Nano RPC API - Unit Conversion
-  slug: nano-rpc-api-unit-conversion
+  label: Nano Node API
+  slug: nano-node-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nano/refs/heads/main/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nano/refs/heads/main/openapi/nano-node-api-openapi.yml
+- filename: nano-unit-conversion-api-openapi.yml
+  format: yaml
+  label: Nano Unit Conversion API
+  slug: nano-unit-conversion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nano/refs/heads/main/openapi/nano-unit-conversion-api-openapi.yml
+- filename: nano-wallets-api-openapi.yml
+  format: yaml
+  label: Nano Wallets API
+  slug: nano-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nano/refs/heads/main/openapi/nano-wallets-api-openapi.yml
+- filename: nano-work-api-openapi.yml
+  format: yaml
+  label: Nano Work API
+  slug: nano-work-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nano/refs/heads/main/openapi/nano-work-api-openapi.yml
 description: ''
 domains:
 - caa:

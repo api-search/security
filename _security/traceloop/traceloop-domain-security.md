@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Traceloop REST API
-  slug: traceloop-rest-api
+- filename: traceloop-auto-monitor-setups-api-openapi.yml
+  format: yaml
+  label: Traceloop auto-monitor-setups API
+  slug: traceloop-auto-monitor-setups-api
   spec_type: OpenAPI
-  url: https://www.traceloop.com/docs/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/openapi/traceloop-auto-monitor-setups-api-openapi.yml
+- filename: traceloop-evaluators-api-openapi.yml
+  format: yaml
+  label: Traceloop evaluators API
+  slug: traceloop-evaluators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/openapi/traceloop-evaluators-api-openapi.yml
+- filename: traceloop-metrics-api-openapi.yml
+  format: yaml
+  label: Traceloop metrics API
+  slug: traceloop-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/openapi/traceloop-metrics-api-openapi.yml
+- filename: traceloop-organizations-api-openapi.yml
+  format: yaml
+  label: Traceloop organizations API
+  slug: traceloop-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/openapi/traceloop-organizations-api-openapi.yml
 description: ''
 domains:
 - caa: []

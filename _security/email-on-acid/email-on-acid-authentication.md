@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: email-on-acid-openapi.yml
+- filename: email-on-acid-authentication-api-openapi.yml
   format: yaml
-  label: Email on Acid API
-  slug: email-on-acid-api
+  label: Email on Acid Authentication API
+  slug: email-on-acid-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/openapi/email-on-acid-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/openapi/email-on-acid-authentication-api-openapi.yml
+- filename: email-on-acid-email-clients-api-openapi.yml
+  format: yaml
+  label: Email on Acid Email Clients API
+  slug: email-on-acid-email-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/openapi/email-on-acid-email-clients-api-openapi.yml
+- filename: email-on-acid-email-testing-api-openapi.yml
+  format: yaml
+  label: Email on Acid Email Testing API
+  slug: email-on-acid-email-testing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/openapi/email-on-acid-email-testing-api-openapi.yml
+- filename: email-on-acid-spam-testing-api-openapi.yml
+  format: yaml
+  label: Email on Acid Spam Testing API
+  slug: email-on-acid-spam-testing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/openapi/email-on-acid-spam-testing-api-openapi.yml
 auth_types:
 - http
 description: ''

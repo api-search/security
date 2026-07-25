@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: dad-jokes-openapi.json
-  format: json
-  label: icanhazdadjoke API
-  slug: dad-jokes-api
+- filename: dad-jokes-integrations-api-openapi.yml
+  format: yaml
+  label: Dad Jokes (icanhazdadjoke) Integrations API
+  slug: dad-jokes-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dad-jokes/refs/heads/main/openapi/dad-jokes-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/dad-jokes/refs/heads/main/openapi/dad-jokes-integrations-api-openapi.yml
+- filename: dad-jokes-jokes-api-openapi.yml
+  format: yaml
+  label: Dad Jokes (icanhazdadjoke) Jokes API
+  slug: dad-jokes-jokes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dad-jokes/refs/heads/main/openapi/dad-jokes-jokes-api-openapi.yml
 description: ''
 domains:
 - caa: []

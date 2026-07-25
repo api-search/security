@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: open-trivia-db-openapi.yml
+- filename: open-trivia-db-categories-api-openapi.yml
   format: yaml
-  label: Open Trivia DB
-  slug: open-trivia-db
+  label: Open Trivia DB Categories API
+  slug: open-trivia-db-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-trivia-db/refs/heads/main/openapi/open-trivia-db-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/open-trivia-db/refs/heads/main/openapi/open-trivia-db-categories-api-openapi.yml
+- filename: open-trivia-db-questions-api-openapi.yml
+  format: yaml
+  label: Open Trivia DB Questions API
+  slug: open-trivia-db-questions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-trivia-db/refs/heads/main/openapi/open-trivia-db-questions-api-openapi.yml
+- filename: open-trivia-db-tokens-api-openapi.yml
+  format: yaml
+  label: Open Trivia DB Tokens API
+  slug: open-trivia-db-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-trivia-db/refs/heads/main/openapi/open-trivia-db-tokens-api-openapi.yml
 description: ''
 domains:
 - caa: []

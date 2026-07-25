@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: serper-google-search-api-openapi.yml
+- filename: serper-autocomplete-api-openapi.yml
   format: yaml
-  label: Serper Google Search API
-  slug: google-search-api
+  label: Serper Autocomplete API
+  slug: serper-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-google-search-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-autocomplete-api-openapi.yml
+- filename: serper-images-api-openapi.yml
+  format: yaml
+  label: Serper Images API
+  slug: serper-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-images-api-openapi.yml
+- filename: serper-maps-api-openapi.yml
+  format: yaml
+  label: Serper Maps API
+  slug: serper-maps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-maps-api-openapi.yml
+- filename: serper-news-api-openapi.yml
+  format: yaml
+  label: Serper News API
+  slug: serper-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-news-api-openapi.yml
+- filename: serper-patents-api-openapi.yml
+  format: yaml
+  label: Serper Patents API
+  slug: serper-patents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-patents-api-openapi.yml
+- filename: serper-places-api-openapi.yml
+  format: yaml
+  label: Serper Places API
+  slug: serper-places-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-places-api-openapi.yml
+- filename: serper-scholar-api-openapi.yml
+  format: yaml
+  label: Serper Scholar API
+  slug: serper-scholar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-scholar-api-openapi.yml
+- filename: serper-search-api-openapi.yml
+  format: yaml
+  label: Serper Search API
+  slug: serper-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-search-api-openapi.yml
+- filename: serper-shopping-api-openapi.yml
+  format: yaml
+  label: Serper Shopping API
+  slug: serper-shopping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-shopping-api-openapi.yml
+- filename: serper-videos-api-openapi.yml
+  format: yaml
+  label: Serper Videos API
+  slug: serper-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-videos-api-openapi.yml
 description: ''
 domains:
 - caa: []

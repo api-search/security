@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: ngrok-ai-openapi.yml
+- filename: ngrok-ai-anthropic-api-openapi.yml
   format: yaml
-  label: ngrok AI Gateway
-  slug: ai-gateway
+  label: ngrok AI Gateway Anthropic API
+  slug: ngrok-ai-anthropic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ngrok-ai/refs/heads/main/openapi/ngrok-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ngrok-ai/refs/heads/main/openapi/ngrok-ai-anthropic-api-openapi.yml
+- filename: ngrok-ai-openai-api-openapi.yml
+  format: yaml
+  label: ngrok AI Gateway OpenAI API
+  slug: ngrok-ai-openai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ngrok-ai/refs/heads/main/openapi/ngrok-ai-openai-api-openapi.yml
 certifications:
 - SOC 2
 - HIPAA

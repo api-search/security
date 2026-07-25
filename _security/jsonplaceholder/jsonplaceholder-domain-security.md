@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: jsonplaceholder-openapi.yml
+- filename: jsonplaceholder-albums-api-openapi.yml
   format: yaml
-  label: JSONPlaceholder REST API
-  slug: jsonplaceholder-rest-api
+  label: JSONPlaceholder Albums API
+  slug: jsonplaceholder-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-albums-api-openapi.yml
+- filename: jsonplaceholder-comments-api-openapi.yml
+  format: yaml
+  label: JSONPlaceholder Comments API
+  slug: jsonplaceholder-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-comments-api-openapi.yml
+- filename: jsonplaceholder-photos-api-openapi.yml
+  format: yaml
+  label: JSONPlaceholder Photos API
+  slug: jsonplaceholder-photos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-photos-api-openapi.yml
+- filename: jsonplaceholder-posts-api-openapi.yml
+  format: yaml
+  label: JSONPlaceholder Posts API
+  slug: jsonplaceholder-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-posts-api-openapi.yml
+- filename: jsonplaceholder-todos-api-openapi.yml
+  format: yaml
+  label: JSONPlaceholder Todos API
+  slug: jsonplaceholder-todos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-todos-api-openapi.yml
+- filename: jsonplaceholder-users-api-openapi.yml
+  format: yaml
+  label: JSONPlaceholder Users API
+  slug: jsonplaceholder-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

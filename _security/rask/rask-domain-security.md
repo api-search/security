@@ -1,35 +1,23 @@
 ---
 api_specs:
-- filename: rask-openapi.yml
+- filename: rask-media-api-openapi.yml
   format: yaml
-  label: Rask AI Projects & Dubbing Jobs API
-  slug: projects-dubbing-jobs
+  label: Rask AI Media API
+  slug: rask-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rask/refs/heads/main/openapi/rask-openapi.yml
-- filename: rask-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rask/refs/heads/main/openapi/rask-media-api-openapi.yml
+- filename: rask-projects-api-openapi.yml
   format: yaml
-  label: Rask AI Translation API
-  slug: translation
+  label: Rask AI Projects API
+  slug: rask-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rask/refs/heads/main/openapi/rask-openapi.yml
-- filename: rask-openapi.yml
-  format: yaml
-  label: Rask AI Voices API
-  slug: voices
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rask/refs/heads/main/openapi/rask-openapi.yml
-- filename: rask-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rask/refs/heads/main/openapi/rask-projects-api-openapi.yml
+- filename: rask-transcription-api-openapi.yml
   format: yaml
   label: Rask AI Transcription API
-  slug: transcription
+  slug: rask-transcription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rask/refs/heads/main/openapi/rask-openapi.yml
-- filename: rask-openapi.yml
-  format: yaml
-  label: Rask AI Job Status API
-  slug: job-status
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rask/refs/heads/main/openapi/rask-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rask/refs/heads/main/openapi/rask-transcription-api-openapi.yml
 description: ''
 domains:
 - caa: []

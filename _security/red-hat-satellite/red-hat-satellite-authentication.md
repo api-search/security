@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: v2.json
-  format: json
-  label: Red Hat Satellite REST API
-  slug: red-hat-satellite-rest-api
+- filename: red-hat-satellite-content-views-api-openapi.yml
+  format: yaml
+  label: Red Hat Satellite Content Views API
+  slug: red-hat-satellite-content-views-api
   spec_type: OpenAPI
-  url: https://satellite.example.com/apidoc/v2.json
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-content-views-api-openapi.yml
+- filename: red-hat-satellite-hosts-api-openapi.yml
+  format: yaml
+  label: Red Hat Satellite Hosts API
+  slug: red-hat-satellite-hosts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-hosts-api-openapi.yml
+- filename: red-hat-satellite-lifecycle-environments-api-openapi.yml
+  format: yaml
+  label: Red Hat Satellite Lifecycle Environments API
+  slug: red-hat-satellite-lifecycle-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-lifecycle-environments-api-openapi.yml
+- filename: red-hat-satellite-organizations-api-openapi.yml
+  format: yaml
+  label: Red Hat Satellite Organizations API
+  slug: red-hat-satellite-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-organizations-api-openapi.yml
+- filename: red-hat-satellite-subscriptions-api-openapi.yml
+  format: yaml
+  label: Red Hat Satellite Subscriptions API
+  slug: red-hat-satellite-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-subscriptions-api-openapi.yml
 auth_types:
 - http
 - oauth2

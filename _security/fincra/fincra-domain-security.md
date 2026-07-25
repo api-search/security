@@ -1,53 +1,53 @@
 ---
 api_specs:
-- filename: fincra-openapi.yml
+- filename: fincra-account-resolution-api-openapi.yml
   format: yaml
-  label: Fincra Collections API
-  slug: fincra-collections-api
+  label: Fincra Account Resolution API
+  slug: fincra-account-resolution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-openapi.yml
-- filename: fincra-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-account-resolution-api-openapi.yml
+- filename: fincra-banks-api-openapi.yml
   format: yaml
-  label: Fincra Payouts / Disbursements API
-  slug: fincra-payouts-api
+  label: Fincra Banks API
+  slug: fincra-banks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-openapi.yml
-- filename: fincra-openapi.yml
-  format: yaml
-  label: Fincra Conversions / FX API
-  slug: fincra-conversions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-openapi.yml
-- filename: fincra-openapi.yml
-  format: yaml
-  label: Fincra Quotes API
-  slug: fincra-quotes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-openapi.yml
-- filename: fincra-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-banks-api-openapi.yml
+- filename: fincra-beneficiaries-api-openapi.yml
   format: yaml
   label: Fincra Beneficiaries API
   slug: fincra-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-openapi.yml
-- filename: fincra-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-beneficiaries-api-openapi.yml
+- filename: fincra-collections-api-openapi.yml
+  format: yaml
+  label: Fincra Collections API
+  slug: fincra-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-collections-api-openapi.yml
+- filename: fincra-conversions-api-openapi.yml
+  format: yaml
+  label: Fincra Conversions API
+  slug: fincra-conversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-conversions-api-openapi.yml
+- filename: fincra-payouts-api-openapi.yml
+  format: yaml
+  label: Fincra Payouts API
+  slug: fincra-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-payouts-api-openapi.yml
+- filename: fincra-quotes-api-openapi.yml
+  format: yaml
+  label: Fincra Quotes API
+  slug: fincra-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-quotes-api-openapi.yml
+- filename: fincra-virtual-accounts-api-openapi.yml
   format: yaml
   label: Fincra Virtual Accounts API
   slug: fincra-virtual-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-openapi.yml
-- filename: fincra-openapi.yml
-  format: yaml
-  label: Fincra Banks & Account Resolution API
-  slug: fincra-banks-resolution-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-openapi.yml
-- filename: fincra-openapi.yml
-  format: yaml
-  label: Fincra Webhooks
-  slug: fincra-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-virtual-accounts-api-openapi.yml
 description: ''
 domains:
 - caa: []

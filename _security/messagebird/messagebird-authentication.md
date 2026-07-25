@@ -2,78 +2,120 @@
 api_key_in:
 - header
 api_specs:
-- filename: messagebird-sms-messaging-openapi.yml
+- filename: messagebird-available-numbers-api-openapi.yml
   format: yaml
-  label: MessageBird SMS Messaging API
-  slug: sms-messaging-api
+  label: messagebird Available Numbers API
+  slug: messagebird-available-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-sms-messaging-openapi.yml
-- filename: messagebird-voice-calling-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-available-numbers-api-openapi.yml
+- filename: messagebird-balance-api-openapi.yml
   format: yaml
-  label: MessageBird Voice Calling API
-  slug: voice-calling-api
+  label: messagebird Balance API
+  slug: messagebird-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-voice-calling-openapi.yml
-- filename: messagebird-voice-messaging-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-balance-api-openapi.yml
+- filename: messagebird-call-flows-api-openapi.yml
   format: yaml
-  label: MessageBird Voice Messaging API
-  slug: voice-messaging-api
+  label: messagebird Call Flows API
+  slug: messagebird-call-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-voice-messaging-openapi.yml
-- filename: messagebird-conversations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-call-flows-api-openapi.yml
+- filename: messagebird-calls-api-openapi.yml
   format: yaml
-  label: MessageBird Conversations API
-  slug: conversations-api
+  label: messagebird Calls API
+  slug: messagebird-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-conversations-openapi.yml
-- filename: messagebird-whatsapp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-calls-api-openapi.yml
+- filename: messagebird-contacts-api-openapi.yml
   format: yaml
-  label: MessageBird WhatsApp API
-  slug: whatsapp-api
+  label: messagebird Contacts API
+  slug: messagebird-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-whatsapp-openapi.yml
-- filename: messagebird-verify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-contacts-api-openapi.yml
+- filename: messagebird-conversations-api-openapi.yml
   format: yaml
-  label: MessageBird Verify API
-  slug: verify-api
+  label: messagebird Conversations API
+  slug: messagebird-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-verify-openapi.yml
-- filename: messagebird-lookup-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-conversations-api-openapi.yml
+- filename: messagebird-groups-api-openapi.yml
   format: yaml
-  label: MessageBird Lookup API
-  slug: lookup-api
+  label: messagebird Groups API
+  slug: messagebird-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-lookup-openapi.yml
-- filename: messagebird-hlr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-groups-api-openapi.yml
+- filename: messagebird-hlr-api-openapi.yml
   format: yaml
-  label: MessageBird HLR API
-  slug: hlr-api
+  label: messagebird HLR API
+  slug: messagebird-hlr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-hlr-openapi.yml
-- filename: messagebird-contacts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-hlr-api-openapi.yml
+- filename: messagebird-legs-api-openapi.yml
   format: yaml
-  label: MessageBird Contacts API
-  slug: contacts-api
+  label: messagebird Legs API
+  slug: messagebird-legs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-contacts-openapi.yml
-- filename: messagebird-numbers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-legs-api-openapi.yml
+- filename: messagebird-lookup-api-openapi.yml
   format: yaml
-  label: MessageBird Numbers API
-  slug: numbers-api
+  label: messagebird Lookup API
+  slug: messagebird-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-numbers-openapi.yml
-- filename: messagebird-balance-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-lookup-api-openapi.yml
+- filename: messagebird-messages-api-openapi.yml
   format: yaml
-  label: MessageBird Balance API
-  slug: balance-api
+  label: messagebird Messages API
+  slug: messagebird-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-balance-openapi.yml
-- filename: messagebird-integrations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-messages-api-openapi.yml
+- filename: messagebird-purchased-numbers-api-openapi.yml
   format: yaml
-  label: MessageBird Integrations API
-  slug: integrations-api
+  label: messagebird Purchased Numbers API
+  slug: messagebird-purchased-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-integrations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-purchased-numbers-api-openapi.yml
+- filename: messagebird-recordings-api-openapi.yml
+  format: yaml
+  label: messagebird Recordings API
+  slug: messagebird-recordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-recordings-api-openapi.yml
+- filename: messagebird-templates-api-openapi.yml
+  format: yaml
+  label: messagebird Templates API
+  slug: messagebird-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-templates-api-openapi.yml
+- filename: messagebird-transcriptions-api-openapi.yml
+  format: yaml
+  label: messagebird Transcriptions API
+  slug: messagebird-transcriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-transcriptions-api-openapi.yml
+- filename: messagebird-verify-api-openapi.yml
+  format: yaml
+  label: messagebird Verify API
+  slug: messagebird-verify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-verify-api-openapi.yml
+- filename: messagebird-voice-messages-api-openapi.yml
+  format: yaml
+  label: messagebird Voice Messages API
+  slug: messagebird-voice-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-voice-messages-api-openapi.yml
+- filename: messagebird-webhooks-api-openapi.yml
+  format: yaml
+  label: messagebird Webhooks API
+  slug: messagebird-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-webhooks-api-openapi.yml
+- filename: messagebird-whatsapp-messages-api-openapi.yml
+  format: yaml
+  label: messagebird WhatsApp Messages API
+  slug: messagebird-whatsapp-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-whatsapp-messages-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

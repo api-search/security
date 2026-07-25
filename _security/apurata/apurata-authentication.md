@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: apurata-acuotaz-pos-openapi.yml
+- filename: apurata-config-api-openapi.yml
   format: yaml
-  label: Apurata aCuotaz POS REST API
-  slug: apurata-acuotaz-pos-rest-api
+  label: Apurata config API
+  slug: apurata-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/openapi/apurata-acuotaz-pos-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/openapi/apurata-config-api-openapi.yml
+- filename: apurata-orders-api-openapi.yml
+  format: yaml
+  label: Apurata orders API
+  slug: apurata-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/openapi/apurata-orders-api-openapi.yml
+- filename: apurata-refunds-api-openapi.yml
+  format: yaml
+  label: Apurata refunds API
+  slug: apurata-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/openapi/apurata-refunds-api-openapi.yml
+- filename: apurata-widgets-api-openapi.yml
+  format: yaml
+  label: Apurata widgets API
+  slug: apurata-widgets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/openapi/apurata-widgets-api-openapi.yml
 auth_types:
 - http
 - apiKey

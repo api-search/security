@@ -1,18 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: kataai-platform-openapi.yml
+- filename: kataai-auth-api-openapi.yml
   format: yaml
-  label: Kata.ai Platform Public API
-  slug: kataai-platform-public-api
+  label: Kata.ai Auth API
+  slug: kataai-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/openapi/kataai-platform-openapi.yml
-- filename: kataai-nlu-prediction-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/openapi/kataai-auth-api-openapi.yml
+- filename: kataai-bots-api-openapi.yml
   format: yaml
-  label: Kata.ai NL Prediction API
-  slug: kataai-nl-prediction-api
+  label: Kata.ai Bots API
+  slug: kataai-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/openapi/kataai-nlu-prediction-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/openapi/kataai-bots-api-openapi.yml
+- filename: kataai-channels-api-openapi.yml
+  format: yaml
+  label: Kata.ai Channels API
+  slug: kataai-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/openapi/kataai-channels-api-openapi.yml
+- filename: kataai-deployments-api-openapi.yml
+  format: yaml
+  label: Kata.ai Deployments API
+  slug: kataai-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/openapi/kataai-deployments-api-openapi.yml
+- filename: kataai-environments-api-openapi.yml
+  format: yaml
+  label: Kata.ai Environments API
+  slug: kataai-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/openapi/kataai-environments-api-openapi.yml
+- filename: kataai-nlu-api-openapi.yml
+  format: yaml
+  label: Kata.ai NLU API
+  slug: kataai-nlu-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/openapi/kataai-nlu-api-openapi.yml
+- filename: kataai-prediction-api-openapi.yml
+  format: yaml
+  label: Kata.ai Prediction API
+  slug: kataai-prediction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/openapi/kataai-prediction-api-openapi.yml
+- filename: kataai-projects-api-openapi.yml
+  format: yaml
+  label: Kata.ai Projects API
+  slug: kataai-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/openapi/kataai-projects-api-openapi.yml
+- filename: kataai-teams-api-openapi.yml
+  format: yaml
+  label: Kata.ai Teams API
+  slug: kataai-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/openapi/kataai-teams-api-openapi.yml
 auth_types:
 - http
 description: ''

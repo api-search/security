@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: publicapi_spec.json
-  format: json
-  label: GOV.UK Pay API
-  slug: govuk-pay-api
+- filename: gov-uk-pay-agreements-api-openapi.yml
+  format: yaml
+  label: GOV.UK Pay Agreements API
+  slug: gov-uk-pay-agreements-api
   spec_type: OpenAPI
-  url: https://github.com/alphagov/pay-publicapi/blob/master/openapi/publicapi_spec.json
+  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/openapi/gov-uk-pay-agreements-api-openapi.yml
+- filename: gov-uk-pay-authorise-card-payments-api-openapi.yml
+  format: yaml
+  label: GOV.UK Pay Authorise card payments API
+  slug: gov-uk-pay-authorise-card-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/openapi/gov-uk-pay-authorise-card-payments-api-openapi.yml
+- filename: gov-uk-pay-card-payments-api-openapi.yml
+  format: yaml
+  label: GOV.UK Pay Card payments API
+  slug: gov-uk-pay-card-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/openapi/gov-uk-pay-card-payments-api-openapi.yml
+- filename: gov-uk-pay-disputes-api-openapi.yml
+  format: yaml
+  label: GOV.UK Pay Disputes API
+  slug: gov-uk-pay-disputes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/openapi/gov-uk-pay-disputes-api-openapi.yml
+- filename: gov-uk-pay-refunding-card-payments-api-openapi.yml
+  format: yaml
+  label: GOV.UK Pay Refunding card payments API
+  slug: gov-uk-pay-refunding-card-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/openapi/gov-uk-pay-refunding-card-payments-api-openapi.yml
 description: ''
 domains:
 - caa: []

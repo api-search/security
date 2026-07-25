@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: ludo-ai-rest-api-openapi.yml
+- filename: ludo-ai-3d-models-api-openapi.yml
   format: yaml
-  label: Ludo.ai REST API
-  slug: rest-api
+  label: Ludo.ai 3D Models API
+  slug: ludo-ai-3d-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-3d-models-api-openapi.yml
+- filename: ludo-ai-animation-api-openapi.yml
+  format: yaml
+  label: Ludo.ai Animation API
+  slug: ludo-ai-animation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-animation-api-openapi.yml
+- filename: ludo-ai-audio-api-openapi.yml
+  format: yaml
+  label: Ludo.ai Audio API
+  slug: ludo-ai-audio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-audio-api-openapi.yml
+- filename: ludo-ai-images-api-openapi.yml
+  format: yaml
+  label: Ludo.ai Images API
+  slug: ludo-ai-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-images-api-openapi.yml
+- filename: ludo-ai-results-api-openapi.yml
+  format: yaml
+  label: Ludo.ai Results API
+  slug: ludo-ai-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-results-api-openapi.yml
+- filename: ludo-ai-video-api-openapi.yml
+  format: yaml
+  label: Ludo.ai Video API
+  slug: ludo-ai-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-video-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

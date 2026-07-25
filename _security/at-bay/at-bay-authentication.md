@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: at-bay-partner-api-openapi.yml
+- filename: at-bay-documents-api-openapi.yml
   format: yaml
-  label: At-Bay Partner API
-  slug: at-bay-partner-api
+  label: At-Bay Documents API
+  slug: at-bay-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/openapi/at-bay-partner-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/openapi/at-bay-documents-api-openapi.yml
+- filename: at-bay-health-api-openapi.yml
+  format: yaml
+  label: At-Bay Health API
+  slug: at-bay-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/openapi/at-bay-health-api-openapi.yml
+- filename: at-bay-policies-api-openapi.yml
+  format: yaml
+  label: At-Bay Policies API
+  slug: at-bay-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/openapi/at-bay-policies-api-openapi.yml
+- filename: at-bay-quotes-api-openapi.yml
+  format: yaml
+  label: At-Bay Quotes API
+  slug: at-bay-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/openapi/at-bay-quotes-api-openapi.yml
+- filename: at-bay-webhooks-api-openapi.yml
+  format: yaml
+  label: At-Bay Webhooks API
+  slug: at-bay-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/openapi/at-bay-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

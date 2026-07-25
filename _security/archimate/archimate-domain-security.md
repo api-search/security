@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: archimate-model-exchange-api.yaml
+- filename: archimate-elements-api-openapi.yml
   format: yaml
-  label: ArchiMate Model Exchange API
-  slug: archimate-model-exchange-api
+  label: ArchiMate Elements API
+  slug: archimate-elements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archimate/refs/heads/main/openapi/archimate-model-exchange-api.yaml
-- filename: archimate-repository-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/archimate/refs/heads/main/openapi/archimate-elements-api-openapi.yml
+- filename: archimate-models-api-openapi.yml
   format: yaml
-  label: ArchiMate Repository API
-  slug: archimate-repository-api
+  label: ArchiMate Models API
+  slug: archimate-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archimate/refs/heads/main/openapi/archimate-repository-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/archimate/refs/heads/main/openapi/archimate-models-api-openapi.yml
+- filename: archimate-relationships-api-openapi.yml
+  format: yaml
+  label: ArchiMate Relationships API
+  slug: archimate-relationships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archimate/refs/heads/main/openapi/archimate-relationships-api-openapi.yml
 description: ''
 domains:
 - caa: []

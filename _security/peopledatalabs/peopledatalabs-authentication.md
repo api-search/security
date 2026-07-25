@@ -1,36 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: peopledatalabs-openapi.yml
+- filename: peopledatalabs-autocomplete-api-openapi.yml
   format: yaml
-  label: People Data Labs Person Enrichment API
-  slug: peopledatalabs-person-enrichment-api
+  label: People Data Labs Autocomplete API
+  slug: peopledatalabs-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-openapi.yml
-- filename: peopledatalabs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-autocomplete-api-openapi.yml
+- filename: peopledatalabs-cleaner-endpoints-api-openapi.yml
   format: yaml
-  label: People Data Labs Person Search API
-  slug: peopledatalabs-person-search-api
+  label: People Data Labs Cleaner Endpoints API
+  slug: peopledatalabs-cleaner-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-openapi.yml
-- filename: peopledatalabs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-cleaner-endpoints-api-openapi.yml
+- filename: peopledatalabs-company-endpoints-api-openapi.yml
   format: yaml
-  label: People Data Labs Company Enrichment API
-  slug: peopledatalabs-company-enrichment-api
+  label: People Data Labs Company Endpoints API
+  slug: peopledatalabs-company-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-openapi.yml
-- filename: peopledatalabs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-company-endpoints-api-openapi.yml
+- filename: peopledatalabs-ip-enrichment-api-openapi.yml
   format: yaml
-  label: People Data Labs Company Search API
-  slug: peopledatalabs-company-search-api
+  label: People Data Labs IP Enrichment API
+  slug: peopledatalabs-ip-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-openapi.yml
-- filename: peopledatalabs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-ip-enrichment-api-openapi.yml
+- filename: peopledatalabs-job-title-enrichment-api-openapi.yml
   format: yaml
-  label: People Data Labs Cleaner and Enrichment Utilities API
-  slug: peopledatalabs-cleaner-utilities-api
+  label: People Data Labs Job Title Enrichment API
+  slug: peopledatalabs-job-title-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-job-title-enrichment-api-openapi.yml
+- filename: peopledatalabs-person-endpoints-api-openapi.yml
+  format: yaml
+  label: People Data Labs Person Endpoints API
+  slug: peopledatalabs-person-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-person-endpoints-api-openapi.yml
+- filename: peopledatalabs-skill-enrichment-api-openapi.yml
+  format: yaml
+  label: People Data Labs Skill Enrichment API
+  slug: peopledatalabs-skill-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-skill-enrichment-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,59 +1,59 @@
 ---
 api_specs:
-- filename: myfatoorah-openapi.yml
-  format: yaml
-  label: MyFatoorah Payments API
-  slug: myfatoorah-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-openapi.yml
-- filename: myfatoorah-openapi.yml
+- filename: myfatoorah-invoicing-api-openapi.yml
   format: yaml
   label: MyFatoorah Invoicing API
   slug: myfatoorah-invoicing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-openapi.yml
-- filename: myfatoorah-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-invoicing-api-openapi.yml
+- filename: myfatoorah-payment-status-api-openapi.yml
   format: yaml
   label: MyFatoorah Payment Status API
   slug: myfatoorah-payment-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-openapi.yml
-- filename: myfatoorah-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-payment-status-api-openapi.yml
+- filename: myfatoorah-payments-api-openapi.yml
+  format: yaml
+  label: MyFatoorah Payments API
+  slug: myfatoorah-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-payments-api-openapi.yml
+- filename: myfatoorah-recurring-api-openapi.yml
+  format: yaml
+  label: MyFatoorah Recurring API
+  slug: myfatoorah-recurring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-recurring-api-openapi.yml
+- filename: myfatoorah-refunds-api-openapi.yml
   format: yaml
   label: MyFatoorah Refunds API
   slug: myfatoorah-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-openapi.yml
-- filename: myfatoorah-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-refunds-api-openapi.yml
+- filename: myfatoorah-sessions-api-openapi.yml
   format: yaml
-  label: MyFatoorah Embedded Sessions API
-  slug: myfatoorah-embedded-sessions-api
+  label: MyFatoorah Sessions API
+  slug: myfatoorah-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-openapi.yml
-- filename: myfatoorah-openapi.yml
-  format: yaml
-  label: MyFatoorah Suppliers API
-  slug: myfatoorah-suppliers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-openapi.yml
-- filename: myfatoorah-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-sessions-api-openapi.yml
+- filename: myfatoorah-shipping-api-openapi.yml
   format: yaml
   label: MyFatoorah Shipping API
   slug: myfatoorah-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-openapi.yml
-- filename: myfatoorah-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-shipping-api-openapi.yml
+- filename: myfatoorah-suppliers-api-openapi.yml
   format: yaml
-  label: MyFatoorah Recurring Payments API
-  slug: myfatoorah-recurring-payments-api
+  label: MyFatoorah Suppliers API
+  slug: myfatoorah-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-openapi.yml
-- filename: myfatoorah-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-suppliers-api-openapi.yml
+- filename: myfatoorah-webhooks-api-openapi.yml
   format: yaml
   label: MyFatoorah Webhooks API
   slug: myfatoorah-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-webhooks-api-openapi.yml
 description: ''
 domains:
 - dmarc: true

@@ -2,54 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: trail_task_reports_v1.yaml
-  format: yaml
-  label: Trail Task Reports API
-  slug: trail-task-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail_task_reports_v1.yaml
-- filename: trail_task_instances_v1.yaml
-  format: yaml
-  label: Trail Task Instances API
-  slug: trail-task-instances-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail_task_instances_v1.yaml
-- filename: trail_task_templates_v1.yaml
-  format: yaml
-  label: Trail Task Templates API
-  slug: trail-task-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail_task_templates_v1.yaml
-- filename: trail_sites_v1.yaml
-  format: yaml
-  label: Trail Sites API
-  slug: trail-sites-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail_sites_v1.yaml
-- filename: trail_areas_v1.yaml
+- filename: trail-areas-api-openapi.yml
   format: yaml
   label: Trail Areas API
   slug: trail-areas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail_areas_v1.yaml
-- filename: trail_tags_v1.yaml
-  format: yaml
-  label: Trail Tags API
-  slug: trail-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail_tags_v1.yaml
-- filename: trail_scores_v1.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-areas-api-openapi.yml
+- filename: trail-scores-api-openapi.yml
   format: yaml
   label: Trail Scores API
   slug: trail-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail_scores_v1.yaml
-- filename: trail_evo_api_v1.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-scores-api-openapi.yml
+- filename: trail-sites-api-openapi.yml
   format: yaml
-  label: Trail Evo API
-  slug: trail-evo-api
+  label: Trail Sites API
+  slug: trail-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail_evo_api_v1.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-sites-api-openapi.yml
+- filename: trail-tags-api-openapi.yml
+  format: yaml
+  label: Trail Tags API
+  slug: trail-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-tags-api-openapi.yml
+- filename: trail-task-instances-api-openapi.yml
+  format: yaml
+  label: Trail Task Instances API
+  slug: trail-task-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-task-instances-api-openapi.yml
+- filename: trail-task-reports-api-openapi.yml
+  format: yaml
+  label: Trail Task Reports API
+  slug: trail-task-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-task-reports-api-openapi.yml
+- filename: trail-task-templates-api-openapi.yml
+  format: yaml
+  label: Trail Task Templates API
+  slug: trail-task-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-task-templates-api-openapi.yml
+- filename: trail-tasks-api-openapi.yml
+  format: yaml
+  label: Trail Tasks API
+  slug: trail-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-tasks-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

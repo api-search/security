@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: zettle-finance-api-openapi.yaml
+- filename: zettle-accounts-api-openapi.yml
   format: yaml
-  label: Zettle Finance API
-  slug: zettle-finance-api
+  label: Zettle accounts API
+  slug: zettle-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/openapi/zettle-finance-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/openapi/zettle-accounts-api-openapi.yml
+- filename: zettle-payout-api-openapi.yml
+  format: yaml
+  label: Zettle payout API
+  slug: zettle-payout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/openapi/zettle-payout-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

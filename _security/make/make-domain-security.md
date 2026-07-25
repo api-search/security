@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: make-openapi.yml
+- filename: make-ai-agents-api-openapi.yml
   format: yaml
-  label: Make API
-  slug: make-api
+  label: Make AI Agents API
+  slug: make-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/openapi/make-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/openapi/make-ai-agents-api-openapi.yml
+- filename: make-scenario-execution-api-openapi.yml
+  format: yaml
+  label: Make Scenario Execution API
+  slug: make-scenario-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/openapi/make-scenario-execution-api-openapi.yml
+- filename: make-scenario-variables-api-openapi.yml
+  format: yaml
+  label: Make Scenario Variables API
+  slug: make-scenario-variables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/openapi/make-scenario-variables-api-openapi.yml
+- filename: make-scenarios-api-openapi.yml
+  format: yaml
+  label: Make Scenarios API
+  slug: make-scenarios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/openapi/make-scenarios-api-openapi.yml
 description: ''
 domains:
 - caa:

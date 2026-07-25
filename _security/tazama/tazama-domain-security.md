@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: tazama-transaction-monitoring-service-openapi.yml
+- filename: tazama-health-api-openapi.yml
   format: yaml
-  label: Tazama Transaction Monitoring Service API
-  slug: transaction-monitoring-service
+  label: Tazama Health API
+  slug: tazama-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tazama/refs/heads/main/openapi/tazama-transaction-monitoring-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tazama/refs/heads/main/openapi/tazama-health-api-openapi.yml
+- filename: tazama-transaction-evaluation-api-openapi.yml
+  format: yaml
+  label: Tazama Transaction Evaluation API
+  slug: tazama-transaction-evaluation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tazama/refs/heads/main/openapi/tazama-transaction-evaluation-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -3,12 +3,24 @@ api_key_in:
 - query
 - header
 api_specs:
-- filename: tindie-openapi.yml
+- filename: tindie-order-api-openapi.yml
   format: yaml
-  label: Tindie API
-  slug: tindie-api
+  label: Tindie order API
+  slug: tindie-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tindie/refs/heads/main/openapi/tindie-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tindie/refs/heads/main/openapi/tindie-order-api-openapi.yml
+- filename: tindie-orderitem-api-openapi.yml
+  format: yaml
+  label: Tindie orderitem API
+  slug: tindie-orderitem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tindie/refs/heads/main/openapi/tindie-orderitem-api-openapi.yml
+- filename: tindie-product-api-openapi.yml
+  format: yaml
+  label: Tindie product API
+  slug: tindie-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tindie/refs/heads/main/openapi/tindie-product-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

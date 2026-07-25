@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: realtymole-openapi.yml
-  format: yaml
-  label: RealtyMole Property Records API
-  slug: property-records
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realtymole/refs/heads/main/openapi/realtymole-openapi.yml
-- filename: realtymole-openapi.yml
-  format: yaml
-  label: RealtyMole Rental Estimate API
-  slug: rental-estimate
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realtymole/refs/heads/main/openapi/realtymole-openapi.yml
-- filename: realtymole-openapi.yml
-  format: yaml
-  label: RealtyMole Sale Estimate API
-  slug: sale-estimate
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realtymole/refs/heads/main/openapi/realtymole-openapi.yml
-- filename: realtymole-openapi.yml
+- filename: realtymole-listings-api-openapi.yml
   format: yaml
   label: RealtyMole Listings API
-  slug: listings
+  slug: realtymole-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realtymole/refs/heads/main/openapi/realtymole-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/realtymole/refs/heads/main/openapi/realtymole-listings-api-openapi.yml
+- filename: realtymole-property-records-api-openapi.yml
+  format: yaml
+  label: RealtyMole Property Records API
+  slug: realtymole-property-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/realtymole/refs/heads/main/openapi/realtymole-property-records-api-openapi.yml
+- filename: realtymole-rental-estimate-api-openapi.yml
+  format: yaml
+  label: RealtyMole Rental Estimate API
+  slug: realtymole-rental-estimate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/realtymole/refs/heads/main/openapi/realtymole-rental-estimate-api-openapi.yml
+- filename: realtymole-sale-estimate-api-openapi.yml
+  format: yaml
+  label: RealtyMole Sale Estimate API
+  slug: realtymole-sale-estimate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/realtymole/refs/heads/main/openapi/realtymole-sale-estimate-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: pointclickcare-ehr-openapi.yml
+- filename: pointclickcare-assessments-api-openapi.yml
   format: yaml
-  label: PointClickCare Long-Term Care EHR API
-  slug: pointclickcare-ehr-api
+  label: PointClickCare Assessments API
+  slug: pointclickcare-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/openapi/pointclickcare-ehr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/openapi/pointclickcare-assessments-api-openapi.yml
+- filename: pointclickcare-diagnoses-api-openapi.yml
+  format: yaml
+  label: PointClickCare Diagnoses API
+  slug: pointclickcare-diagnoses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/openapi/pointclickcare-diagnoses-api-openapi.yml
+- filename: pointclickcare-facilities-api-openapi.yml
+  format: yaml
+  label: PointClickCare Facilities API
+  slug: pointclickcare-facilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/openapi/pointclickcare-facilities-api-openapi.yml
+- filename: pointclickcare-medications-api-openapi.yml
+  format: yaml
+  label: PointClickCare Medications API
+  slug: pointclickcare-medications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/openapi/pointclickcare-medications-api-openapi.yml
+- filename: pointclickcare-patients-api-openapi.yml
+  format: yaml
+  label: PointClickCare Patients API
+  slug: pointclickcare-patients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/openapi/pointclickcare-patients-api-openapi.yml
+- filename: pointclickcare-vitals-api-openapi.yml
+  format: yaml
+  label: PointClickCare Vitals API
+  slug: pointclickcare-vitals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/openapi/pointclickcare-vitals-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

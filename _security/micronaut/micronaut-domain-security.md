@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: micronaut-management-openapi.yml
+- filename: micronaut-beans-api-openapi.yml
   format: yaml
-  label: Micronaut
-  slug: micronaut
+  label: Micronaut Beans API
+  slug: micronaut-beans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/openapi/micronaut-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/openapi/micronaut-beans-api-openapi.yml
+- filename: micronaut-configuration-api-openapi.yml
+  format: yaml
+  label: Micronaut Configuration API
+  slug: micronaut-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/openapi/micronaut-configuration-api-openapi.yml
+- filename: micronaut-environment-api-openapi.yml
+  format: yaml
+  label: Micronaut Environment API
+  slug: micronaut-environment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/openapi/micronaut-environment-api-openapi.yml
+- filename: micronaut-health-api-openapi.yml
+  format: yaml
+  label: Micronaut Health API
+  slug: micronaut-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/openapi/micronaut-health-api-openapi.yml
+- filename: micronaut-info-api-openapi.yml
+  format: yaml
+  label: Micronaut Info API
+  slug: micronaut-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/openapi/micronaut-info-api-openapi.yml
+- filename: micronaut-jvm-api-openapi.yml
+  format: yaml
+  label: Micronaut JVM API
+  slug: micronaut-jvm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/openapi/micronaut-jvm-api-openapi.yml
+- filename: micronaut-lifecycle-api-openapi.yml
+  format: yaml
+  label: Micronaut Lifecycle API
+  slug: micronaut-lifecycle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/openapi/micronaut-lifecycle-api-openapi.yml
+- filename: micronaut-loggers-api-openapi.yml
+  format: yaml
+  label: Micronaut Loggers API
+  slug: micronaut-loggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/openapi/micronaut-loggers-api-openapi.yml
+- filename: micronaut-metrics-api-openapi.yml
+  format: yaml
+  label: Micronaut Metrics API
+  slug: micronaut-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/openapi/micronaut-metrics-api-openapi.yml
+- filename: micronaut-routes-api-openapi.yml
+  format: yaml
+  label: Micronaut Routes API
+  slug: micronaut-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/openapi/micronaut-routes-api-openapi.yml
 description: ''
 domains:
 - caa:

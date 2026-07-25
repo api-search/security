@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: flexai-token-factory-openapi.yml
+- filename: flexai-audio-api-openapi.yml
   format: yaml
-  label: FlexAI Token Factory API
-  slug: flexai-token-factory-api
+  label: FlexAI Audio API
+  slug: flexai-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-token-factory-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-audio-api-openapi.yml
+- filename: flexai-chat-api-openapi.yml
+  format: yaml
+  label: FlexAI Chat API
+  slug: flexai-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-chat-api-openapi.yml
+- filename: flexai-completions-api-openapi.yml
+  format: yaml
+  label: FlexAI Completions API
+  slug: flexai-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-completions-api-openapi.yml
+- filename: flexai-embeddings-api-openapi.yml
+  format: yaml
+  label: FlexAI Embeddings API
+  slug: flexai-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-embeddings-api-openapi.yml
+- filename: flexai-images-api-openapi.yml
+  format: yaml
+  label: FlexAI Images API
+  slug: flexai-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-images-api-openapi.yml
+- filename: flexai-models-api-openapi.yml
+  format: yaml
+  label: FlexAI Models API
+  slug: flexai-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-models-api-openapi.yml
+- filename: flexai-video-api-openapi.yml
+  format: yaml
+  label: FlexAI Video API
+  slug: flexai-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-video-api-openapi.yml
 auth_types:
 - http
 description: ''

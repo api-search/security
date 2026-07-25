@@ -1,11 +1,125 @@
 ---
 api_specs:
-- filename: suprsend-rest-api-openapi.yml
+- filename: suprsend-broadcast-api-openapi.yml
   format: yaml
-  label: SuprSend REST API
-  slug: rest-api
+  label: SuprSend Broadcast API
+  slug: suprsend-broadcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-broadcast-api-openapi.yml
+- filename: suprsend-broadcast-run-api-openapi.yml
+  format: yaml
+  label: SuprSend Broadcast Run API
+  slug: suprsend-broadcast-run-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-broadcast-run-api-openapi.yml
+- filename: suprsend-bulk-api-openapi.yml
+  format: yaml
+  label: SuprSend Bulk API
+  slug: suprsend-bulk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-bulk-api-openapi.yml
+- filename: suprsend-event-api-openapi.yml
+  format: yaml
+  label: SuprSend Event API
+  slug: suprsend-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-event-api-openapi.yml
+- filename: suprsend-message-api-openapi.yml
+  format: yaml
+  label: SuprSend Message API
+  slug: suprsend-message-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-message-api-openapi.yml
+- filename: suprsend-object-api-openapi.yml
+  format: yaml
+  label: SuprSend Object API
+  slug: suprsend-object-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-object-api-openapi.yml
+- filename: suprsend-preference-category-api-openapi.yml
+  format: yaml
+  label: SuprSend Preference Category API
+  slug: suprsend-preference-category-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-preference-category-api-openapi.yml
+- filename: suprsend-schema-api-openapi.yml
+  format: yaml
+  label: SuprSend Schema API
+  slug: suprsend-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-schema-api-openapi.yml
+- filename: suprsend-subscriber-list-api-openapi.yml
+  format: yaml
+  label: SuprSend Subscriber List API
+  slug: suprsend-subscriber-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-subscriber-list-api-openapi.yml
+- filename: suprsend-template-api-openapi.yml
+  format: yaml
+  label: SuprSend Template API
+  slug: suprsend-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-template-api-openapi.yml
+- filename: suprsend-tenant-api-openapi.yml
+  format: yaml
+  label: SuprSend Tenant API
+  slug: suprsend-tenant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-tenant-api-openapi.yml
+- filename: suprsend-translation-api-openapi.yml
+  format: yaml
+  label: SuprSend Translation API
+  slug: suprsend-translation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-translation-api-openapi.yml
+- filename: suprsend-trigger-api-openapi.yml
+  format: yaml
+  label: SuprSend Trigger API
+  slug: suprsend-trigger-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-trigger-api-openapi.yml
+- filename: suprsend-user-api-openapi.yml
+  format: yaml
+  label: SuprSend User API
+  slug: suprsend-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-user-api-openapi.yml
+- filename: suprsend-workflow-api-openapi.yml
+  format: yaml
+  label: SuprSend Workflow API
+  slug: suprsend-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-workflow-api-openapi.yml
+- filename: suprsend-workflow-run-api-openapi.yml
+  format: yaml
+  label: SuprSend Workflow Run API
+  slug: suprsend-workflow-run-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-workflow-run-api-openapi.yml
+- filename: suprsend-workspace-api-openapi.yml
+  format: yaml
+  label: SuprSend Workspace API
+  slug: suprsend-workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-workspace-api-openapi.yml
+- filename: suprsend-ws-api-key-api-openapi.yml
+  format: yaml
+  label: SuprSend Ws Api Key API
+  slug: suprsend-ws-api-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-ws-api-key-api-openapi.yml
+- filename: suprsend-ws-public-key-api-openapi.yml
+  format: yaml
+  label: SuprSend Ws Public Key API
+  slug: suprsend-ws-public-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-ws-public-key-api-openapi.yml
+- filename: suprsend-ws-signing-key-api-openapi.yml
+  format: yaml
+  label: SuprSend Ws Signing Key API
+  slug: suprsend-ws-signing-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-ws-signing-key-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

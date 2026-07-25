@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: awin-affiliate-openapi.yml
+- filename: awin-affiliate-accounts-api-openapi.yml
   format: yaml
   label: Awin Accounts API
   slug: awin-affiliate-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-openapi.yml
-- filename: awin-affiliate-openapi.yml
-  format: yaml
-  label: Awin Transactions API
-  slug: awin-affiliate-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-openapi.yml
-- filename: awin-affiliate-openapi.yml
-  format: yaml
-  label: Awin Reports API
-  slug: awin-affiliate-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-openapi.yml
-- filename: awin-affiliate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-accounts-api-openapi.yml
+- filename: awin-affiliate-commission-groups-api-openapi.yml
   format: yaml
   label: Awin Commission Groups API
   slug: awin-affiliate-commission-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-openapi.yml
-- filename: awin-affiliate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-commission-groups-api-openapi.yml
+- filename: awin-affiliate-programmes-api-openapi.yml
   format: yaml
   label: Awin Programmes API
   slug: awin-affiliate-programmes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-programmes-api-openapi.yml
+- filename: awin-affiliate-reports-api-openapi.yml
+  format: yaml
+  label: Awin Reports API
+  slug: awin-affiliate-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-reports-api-openapi.yml
+- filename: awin-affiliate-transactions-api-openapi.yml
+  format: yaml
+  label: Awin Transactions API
+  slug: awin-affiliate-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

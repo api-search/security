@@ -1,35 +1,95 @@
 ---
 api_specs:
-- filename: stubhub-account-openapi.yml
+- filename: stubhub-addressess-api-openapi.yml
   format: yaml
-  label: StubHub Account API
-  slug: stubhub-account-api
+  label: StubHub Addressess API
+  slug: stubhub-addressess-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-account-openapi.yml
-- filename: stubhub-catalog-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-addressess-api-openapi.yml
+- filename: stubhub-categories-api-openapi.yml
   format: yaml
-  label: StubHub Catalog API
-  slug: stubhub-catalog-api
+  label: StubHub Categories API
+  slug: stubhub-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-catalog-openapi.yml
-- filename: stubhub-inventory-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-categories-api-openapi.yml
+- filename: stubhub-e-tickets-api-openapi.yml
   format: yaml
-  label: StubHub Inventory API
-  slug: stubhub-inventory-api
+  label: StubHub E-Tickets API
+  slug: stubhub-e-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-inventory-openapi.yml
-- filename: stubhub-sales-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-e-tickets-api-openapi.yml
+- filename: stubhub-events-api-openapi.yml
+  format: yaml
+  label: StubHub Events API
+  slug: stubhub-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-events-api-openapi.yml
+- filename: stubhub-listingconstraints-api-openapi.yml
+  format: yaml
+  label: StubHub ListingConstraints API
+  slug: stubhub-listingconstraints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-listingconstraints-api-openapi.yml
+- filename: stubhub-paymentmethods-api-openapi.yml
+  format: yaml
+  label: StubHub PaymentMethods API
+  slug: stubhub-paymentmethods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-paymentmethods-api-openapi.yml
+- filename: stubhub-payments-api-openapi.yml
+  format: yaml
+  label: StubHub Payments API
+  slug: stubhub-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-payments-api-openapi.yml
+- filename: stubhub-sales-api-openapi.yml
   format: yaml
   label: StubHub Sales API
   slug: stubhub-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-sales-openapi.yml
-- filename: stubhub-webhooks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-sales-api-openapi.yml
+- filename: stubhub-sellerevents-api-openapi.yml
+  format: yaml
+  label: StubHub SellerEvents API
+  slug: stubhub-sellerevents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-sellerevents-api-openapi.yml
+- filename: stubhub-sellerlistings-api-openapi.yml
+  format: yaml
+  label: StubHub SellerListings API
+  slug: stubhub-sellerlistings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-sellerlistings-api-openapi.yml
+- filename: stubhub-shipments-api-openapi.yml
+  format: yaml
+  label: StubHub Shipments API
+  slug: stubhub-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-shipments-api-openapi.yml
+- filename: stubhub-ticketholders-api-openapi.yml
+  format: yaml
+  label: StubHub TicketHolders API
+  slug: stubhub-ticketholders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-ticketholders-api-openapi.yml
+- filename: stubhub-user-api-openapi.yml
+  format: yaml
+  label: StubHub User API
+  slug: stubhub-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-user-api-openapi.yml
+- filename: stubhub-venues-api-openapi.yml
+  format: yaml
+  label: StubHub Venues API
+  slug: stubhub-venues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-venues-api-openapi.yml
+- filename: stubhub-webhooks-api-openapi.yml
   format: yaml
   label: StubHub Webhooks API
   slug: stubhub-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-webhooks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

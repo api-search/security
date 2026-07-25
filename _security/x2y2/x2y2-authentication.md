@@ -2,18 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: introduction
+- filename: x2y2-chain-api-openapi.yml
   format: yaml
-  label: X2Y2 OpenAPI
-  slug: x2y2-openapi
+  label: X2Y2 Chain API
+  slug: x2y2-chain-api
   spec_type: OpenAPI
-  url: https://x2y2.readme.io/reference/introduction
-- filename: introduction
+  url: https://raw.githubusercontent.com/api-evangelist/x2y2/refs/heads/main/openapi/x2y2-chain-api-openapi.yml
+- filename: x2y2-contracts-api-openapi.yml
   format: yaml
-  label: X2Y2 Fi API
-  slug: x2y2-fi-api
+  label: X2Y2 Contracts API
+  slug: x2y2-contracts-api
   spec_type: OpenAPI
-  url: https://x2y2.readme.io/reference/introduction
+  url: https://raw.githubusercontent.com/api-evangelist/x2y2/refs/heads/main/openapi/x2y2-contracts-api-openapi.yml
+- filename: x2y2-events-api-openapi.yml
+  format: yaml
+  label: X2Y2 Events API
+  slug: x2y2-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/x2y2/refs/heads/main/openapi/x2y2-events-api-openapi.yml
+- filename: x2y2-general-api-openapi.yml
+  format: yaml
+  label: X2Y2 General API
+  slug: x2y2-general-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/x2y2/refs/heads/main/openapi/x2y2-general-api-openapi.yml
+- filename: x2y2-loan-api-openapi.yml
+  format: yaml
+  label: X2Y2 Loan API
+  slug: x2y2-loan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/x2y2/refs/heads/main/openapi/x2y2-loan-api-openapi.yml
+- filename: x2y2-offer-api-openapi.yml
+  format: yaml
+  label: X2Y2 Offer API
+  slug: x2y2-offer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/x2y2/refs/heads/main/openapi/x2y2-offer-api-openapi.yml
+- filename: x2y2-offers-api-openapi.yml
+  format: yaml
+  label: X2Y2 Offers API
+  slug: x2y2-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/x2y2/refs/heads/main/openapi/x2y2-offers-api-openapi.yml
+- filename: x2y2-orders-api-openapi.yml
+  format: yaml
+  label: X2Y2 Orders API
+  slug: x2y2-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/x2y2/refs/heads/main/openapi/x2y2-orders-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

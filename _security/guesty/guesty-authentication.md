@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: guesty-openapi.yml
+- filename: guesty-calendars-api-openapi.yml
   format: yaml
-  label: Guesty Open API
-  slug: guesty-open-api
+  label: Guesty Calendars API
+  slug: guesty-calendars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guesty/refs/heads/main/openapi/guesty-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/guesty/refs/heads/main/openapi/guesty-calendars-api-openapi.yml
+- filename: guesty-conversations-api-openapi.yml
+  format: yaml
+  label: Guesty Conversations API
+  slug: guesty-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guesty/refs/heads/main/openapi/guesty-conversations-api-openapi.yml
+- filename: guesty-guests-api-openapi.yml
+  format: yaml
+  label: Guesty Guests API
+  slug: guesty-guests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guesty/refs/heads/main/openapi/guesty-guests-api-openapi.yml
+- filename: guesty-listings-api-openapi.yml
+  format: yaml
+  label: Guesty Listings API
+  slug: guesty-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guesty/refs/heads/main/openapi/guesty-listings-api-openapi.yml
+- filename: guesty-reservations-api-openapi.yml
+  format: yaml
+  label: Guesty Reservations API
+  slug: guesty-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guesty/refs/heads/main/openapi/guesty-reservations-api-openapi.yml
 auth_types:
 - http
 description: ''

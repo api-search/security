@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: hubilo-openapi.yml
+- filename: hubilo-event-api-openapi.yml
   format: yaml
-  label: Hubilo (Virtual PRO) Public API
-  slug: hubilo-virtual-pro-public-api
+  label: hubilo Event API
+  slug: hubilo-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/openapi/hubilo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/openapi/hubilo-event-api-openapi.yml
+- filename: hubilo-exhibitor-api-openapi.yml
+  format: yaml
+  label: hubilo Exhibitor API
+  slug: hubilo-exhibitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/openapi/hubilo-exhibitor-api-openapi.yml
+- filename: hubilo-organiser-api-openapi.yml
+  format: yaml
+  label: hubilo Organiser API
+  slug: hubilo-organiser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/openapi/hubilo-organiser-api-openapi.yml
+- filename: hubilo-session-api-openapi.yml
+  format: yaml
+  label: hubilo Session API
+  slug: hubilo-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/openapi/hubilo-session-api-openapi.yml
+- filename: hubilo-speaker-api-openapi.yml
+  format: yaml
+  label: hubilo Speaker API
+  slug: hubilo-speaker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/openapi/hubilo-speaker-api-openapi.yml
+- filename: hubilo-upload-media-api-openapi.yml
+  format: yaml
+  label: hubilo Upload Media API
+  slug: hubilo-upload-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/openapi/hubilo-upload-media-api-openapi.yml
+- filename: hubilo-user-api-openapi.yml
+  format: yaml
+  label: hubilo User API
+  slug: hubilo-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/openapi/hubilo-user-api-openapi.yml
 auth_types:
 - http
 description: ''

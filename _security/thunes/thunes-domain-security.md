@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: thunes-openapi.yml
+- filename: thunes-account-management-api-openapi.yml
   format: yaml
-  label: Thunes Money Transfer API
-  slug: thunes-money-transfer-api
+  label: Thunes Account Management API
+  slug: thunes-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/openapi/thunes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/openapi/thunes-account-management-api-openapi.yml
+- filename: thunes-connectivity-api-openapi.yml
+  format: yaml
+  label: Thunes Connectivity API
+  slug: thunes-connectivity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/openapi/thunes-connectivity-api-openapi.yml
+- filename: thunes-credit-parties-api-openapi.yml
+  format: yaml
+  label: Thunes Credit Parties API
+  slug: thunes-credit-parties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/openapi/thunes-credit-parties-api-openapi.yml
+- filename: thunes-discovery-api-openapi.yml
+  format: yaml
+  label: Thunes Discovery API
+  slug: thunes-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/openapi/thunes-discovery-api-openapi.yml
+- filename: thunes-quotations-api-openapi.yml
+  format: yaml
+  label: Thunes Quotations API
+  slug: thunes-quotations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/openapi/thunes-quotations-api-openapi.yml
+- filename: thunes-simulation-api-openapi.yml
+  format: yaml
+  label: Thunes Simulation API
+  slug: thunes-simulation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/openapi/thunes-simulation-api-openapi.yml
+- filename: thunes-transactions-api-openapi.yml
+  format: yaml
+  label: Thunes Transactions API
+  slug: thunes-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/openapi/thunes-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:

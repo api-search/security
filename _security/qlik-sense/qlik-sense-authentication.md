@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: qlik-sense-cloud-rest-api-openapi.yml
+- filename: qlik-sense-apps-api-openapi.yml
   format: yaml
-  label: Qlik Cloud Platform REST API
-  slug: qlik-cloud-platform-rest-api
+  label: Qlik Sense Apps API
+  slug: qlik-sense-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense/refs/heads/main/openapi/qlik-sense-cloud-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense/refs/heads/main/openapi/qlik-sense-apps-api-openapi.yml
+- filename: qlik-sense-reloads-api-openapi.yml
+  format: yaml
+  label: Qlik Sense Reloads API
+  slug: qlik-sense-reloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense/refs/heads/main/openapi/qlik-sense-reloads-api-openapi.yml
+- filename: qlik-sense-spaces-api-openapi.yml
+  format: yaml
+  label: Qlik Sense Spaces API
+  slug: qlik-sense-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense/refs/heads/main/openapi/qlik-sense-spaces-api-openapi.yml
 auth_types:
 - apiKey
 - http

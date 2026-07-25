@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: spring-cloud-gateway-actuator-openapi.yml
+- filename: spring-cloud-gateway-filters-api-openapi.yml
   format: yaml
-  label: Spring Cloud Gateway Actuator API
-  slug: spring-cloud-gateway-actuator
+  label: Spring Cloud Gateway Filters API
+  slug: spring-cloud-gateway-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-gateway/refs/heads/main/openapi/spring-cloud-gateway-actuator-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-gateway/refs/heads/main/openapi/spring-cloud-gateway-filters-api-openapi.yml
+- filename: spring-cloud-gateway-predicates-api-openapi.yml
+  format: yaml
+  label: Spring Cloud Gateway Predicates API
+  slug: spring-cloud-gateway-predicates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-gateway/refs/heads/main/openapi/spring-cloud-gateway-predicates-api-openapi.yml
+- filename: spring-cloud-gateway-routes-api-openapi.yml
+  format: yaml
+  label: Spring Cloud Gateway Routes API
+  slug: spring-cloud-gateway-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-gateway/refs/heads/main/openapi/spring-cloud-gateway-routes-api-openapi.yml
 description: ''
 domains:
 - caa:

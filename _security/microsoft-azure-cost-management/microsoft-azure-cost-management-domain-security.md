@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: microsoft-azure-cost-management-openapi.yml
+- filename: microsoft-azure-cost-management-exports-api-openapi.yml
   format: yaml
-  label: Azure Cost Management REST API
-  slug: rest-api
+  label: microsoft-azure-cost-management Exports API
+  slug: microsoft-azure-cost-management-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/openapi/microsoft-azure-cost-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/openapi/microsoft-azure-cost-management-exports-api-openapi.yml
+- filename: microsoft-azure-cost-management-operations-api-openapi.yml
+  format: yaml
+  label: microsoft-azure-cost-management Operations API
+  slug: microsoft-azure-cost-management-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/openapi/microsoft-azure-cost-management-operations-api-openapi.yml
 description: ''
 domains:
 - caa:

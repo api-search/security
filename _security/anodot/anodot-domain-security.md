@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: anodot-openapi.yml
+- filename: anodot-access-token-api-openapi.yml
   format: yaml
-  label: Anodot Business Monitoring API
-  slug: anodot-business-monitoring-api
+  label: Anodot Access Token API
+  slug: anodot-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/openapi/anodot-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/openapi/anodot-access-token-api-openapi.yml
+- filename: anodot-alert-actions-api-openapi.yml
+  format: yaml
+  label: Anodot Alert Actions API
+  slug: anodot-alert-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/openapi/anodot-alert-actions-api-openapi.yml
+- filename: anodot-alerts-api-openapi.yml
+  format: yaml
+  label: Anodot Alerts API
+  slug: anodot-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/openapi/anodot-alerts-api-openapi.yml
+- filename: anodot-anomalies-api-openapi.yml
+  format: yaml
+  label: Anodot Anomalies API
+  slug: anodot-anomalies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/openapi/anodot-anomalies-api-openapi.yml
+- filename: anodot-customers-api-openapi.yml
+  format: yaml
+  label: Anodot Customers API
+  slug: anodot-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/openapi/anodot-customers-api-openapi.yml
+- filename: anodot-forecast-api-openapi.yml
+  format: yaml
+  label: Anodot Forecast API
+  slug: anodot-forecast-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/openapi/anodot-forecast-api-openapi.yml
+- filename: anodot-groups-api-openapi.yml
+  format: yaml
+  label: Anodot Groups API
+  slug: anodot-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/openapi/anodot-groups-api-openapi.yml
+- filename: anodot-users-api-openapi.yml
+  format: yaml
+  label: Anodot Users API
+  slug: anodot-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/openapi/anodot-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

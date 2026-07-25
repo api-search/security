@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: cyberark-identity-openapi.yml
+- filename: cyberark-identity-authentication-api-openapi.yml
   format: yaml
-  label: CyberArk Identity API
-  slug: identity-api
+  label: CyberArk Identity Authentication API
+  slug: cyberark-identity-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-authentication-api-openapi.yml
+- filename: cyberark-identity-cdirectoryservice-api-openapi.yml
+  format: yaml
+  label: CyberArk Identity CDirectoryService API
+  slug: cyberark-identity-cdirectoryservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-cdirectoryservice-api-openapi.yml
+- filename: cyberark-identity-extdata-api-openapi.yml
+  format: yaml
+  label: CyberArk Identity ExtData API
+  slug: cyberark-identity-extdata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-extdata-api-openapi.yml
+- filename: cyberark-identity-oauth-api-openapi.yml
+  format: yaml
+  label: CyberArk Identity OAuth API
+  slug: cyberark-identity-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-oauth-api-openapi.yml
+- filename: cyberark-identity-org-api-openapi.yml
+  format: yaml
+  label: CyberArk Identity Org API
+  slug: cyberark-identity-org-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-org-api-openapi.yml
+- filename: cyberark-identity-scim-api-openapi.yml
+  format: yaml
+  label: CyberArk Identity SCIM API
+  slug: cyberark-identity-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-scim-api-openapi.yml
+- filename: cyberark-identity-usermgmt-api-openapi.yml
+  format: yaml
+  label: CyberArk Identity UserMgmt API
+  slug: cyberark-identity-usermgmt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-usermgmt-api-openapi.yml
 description: ''
 domains:
 - caa: []

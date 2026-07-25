@@ -1,4 +1,83 @@
 ---
+api_specs:
+- filename: newline-platform-api.json
+  format: json
+  label: Newline Auth API
+  slug: newline-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
+- filename: newline-platform-api.json
+  format: json
+  label: Newline Customers API
+  slug: newline-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
+- filename: newline-platform-api.json
+  format: json
+  label: Newline Customer Products API
+  slug: newline-customer-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
+- filename: newline-platform-api.json
+  format: json
+  label: Newline Products API
+  slug: newline-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
+- filename: newline-platform-api.json
+  format: json
+  label: Newline Pools API
+  slug: newline-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
+- filename: newline-platform-api.json
+  format: json
+  label: Newline Custodial Accounts API
+  slug: newline-custodial-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
+- filename: newline-platform-api.json
+  format: json
+  label: Newline Synthetic Accounts API
+  slug: newline-synthetic-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
+- filename: newline-platform-api.json
+  format: json
+  label: Newline Transfers API
+  slug: newline-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
+- filename: newline-platform-api.json
+  format: json
+  label: Newline Combined Transfers API
+  slug: newline-combined-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
+- filename: newline-platform-api.json
+  format: json
+  label: Newline Transactions API
+  slug: newline-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
+- filename: newline-platform-api.json
+  format: json
+  label: Newline Returns API
+  slug: newline-returns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
+- filename: newline-platform-api.json
+  format: json
+  label: Newline Virtual Reference Numbers API
+  slug: newline-virtual-reference-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
+- filename: newline-platform-api.json
+  format: json
+  label: Newline Sandbox API
+  slug: newline-sandbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
 description: ''
 domains:
 - caa: []
@@ -30,9 +109,18 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fifth-third-ba
 summary_line: TLSv1.3 · DMARC
 tags:
 - Banking
+- United States
+- Embedded Finance
+- Banking as a Service
+- Payments
+- ACH
+- Real-Time Payments
+- Deposits
+- Card Issuing
 - Commercial Banking
 - Consumer Lending
 - Wealth Management
 - Treasury Management
+- Super-Regional Bank
 - Fortune 500
 ---

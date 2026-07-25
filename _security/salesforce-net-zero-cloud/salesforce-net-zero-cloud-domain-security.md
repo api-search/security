@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: salesforce-net-zero-cloud-rest-api-openapi.yml
+- filename: salesforce-net-zero-cloud-carbon-emissions-api-openapi.yml
   format: yaml
-  label: Net Zero Cloud REST API
-  slug: net-zero-cloud-rest-api
+  label: Salesforce Net Zero Cloud Carbon Emissions API
+  slug: salesforce-net-zero-cloud-carbon-emissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-carbon-emissions-api-openapi.yml
+- filename: salesforce-net-zero-cloud-emission-factors-api-openapi.yml
+  format: yaml
+  label: Salesforce Net Zero Cloud Emission Factors API
+  slug: salesforce-net-zero-cloud-emission-factors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-emission-factors-api-openapi.yml
+- filename: salesforce-net-zero-cloud-energy-consumption-api-openapi.yml
+  format: yaml
+  label: Salesforce Net Zero Cloud Energy Consumption API
+  slug: salesforce-net-zero-cloud-energy-consumption-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-energy-consumption-api-openapi.yml
+- filename: salesforce-net-zero-cloud-esg-reporting-api-openapi.yml
+  format: yaml
+  label: Salesforce Net Zero Cloud ESG Reporting API
+  slug: salesforce-net-zero-cloud-esg-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-esg-reporting-api-openapi.yml
+- filename: salesforce-net-zero-cloud-sustainability-goals-api-openapi.yml
+  format: yaml
+  label: Salesforce Net Zero Cloud Sustainability Goals API
+  slug: salesforce-net-zero-cloud-sustainability-goals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-sustainability-goals-api-openapi.yml
+- filename: salesforce-net-zero-cloud-waste-management-api-openapi.yml
+  format: yaml
+  label: Salesforce Net Zero Cloud Waste Management API
+  slug: salesforce-net-zero-cloud-waste-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-waste-management-api-openapi.yml
+- filename: salesforce-net-zero-cloud-water-usage-api-openapi.yml
+  format: yaml
+  label: Salesforce Net Zero Cloud Water Usage API
+  slug: salesforce-net-zero-cloud-water-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-water-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []

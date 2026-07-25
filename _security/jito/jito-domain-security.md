@@ -1,23 +1,29 @@
 ---
 api_specs:
-- filename: jito-block-engine-openapi.yml
-  format: yaml
-  label: Jito Block Engine JSON-RPC API
-  slug: jito-block-engine
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/openapi/jito-block-engine-openapi.yml
-- filename: jito-bundles-tip-floor-openapi.yml
-  format: yaml
-  label: Jito Bundles Tip Floor API
-  slug: jito-bundles-tip-floor
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/openapi/jito-bundles-tip-floor-openapi.yml
 - filename: jito-streaming-asyncapi.yml
   format: yaml
   label: Jito Streaming Surfaces
   slug: jito-streaming
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/asyncapi/jito-streaming-asyncapi.yml
+- filename: jito-bundles-api-openapi.yml
+  format: yaml
+  label: Jito Labs Bundles API
+  slug: jito-bundles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/openapi/jito-bundles-api-openapi.yml
+- filename: jito-tips-api-openapi.yml
+  format: yaml
+  label: Jito Labs Tips API
+  slug: jito-tips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/openapi/jito-tips-api-openapi.yml
+- filename: jito-transactions-api-openapi.yml
+  format: yaml
+  label: Jito Labs Transactions API
+  slug: jito-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/openapi/jito-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:

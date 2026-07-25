@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: fawrypay-server-api-openapi.yml
+- filename: fawry-installments-api-openapi.yml
   format: yaml
-  label: FawryPay Server API
-  slug: fawrypay-server-api
+  label: Fawry Installments API
+  slug: fawry-installments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fawry/refs/heads/main/openapi/fawrypay-server-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fawry/refs/heads/main/openapi/fawry-installments-api-openapi.yml
+- filename: fawry-orders-api-openapi.yml
+  format: yaml
+  label: Fawry Orders API
+  slug: fawry-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fawry/refs/heads/main/openapi/fawry-orders-api-openapi.yml
+- filename: fawry-payments-api-openapi.yml
+  format: yaml
+  label: Fawry Payments API
+  slug: fawry-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fawry/refs/heads/main/openapi/fawry-payments-api-openapi.yml
+- filename: fawry-refunds-api-openapi.yml
+  format: yaml
+  label: Fawry Refunds API
+  slug: fawry-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fawry/refs/heads/main/openapi/fawry-refunds-api-openapi.yml
 description: ''
 domains:
 - caa: []

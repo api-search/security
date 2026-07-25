@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: flint-agent-tasks-openapi.yml
+- filename: flint-agent-tasks-api-openapi.yml
   format: yaml
   label: Flint Agent Tasks API
   slug: flint-agent-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/openapi/flint-agent-tasks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/openapi/flint-agent-tasks-api-openapi.yml
 auth_types:
 - http
 - oauth2

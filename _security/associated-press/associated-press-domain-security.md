@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: associated-press-meda-openapi-original.yml
+- filename: associated-press-account-api-openapi.yml
   format: yaml
-  label: AP Media API
-  slug: ap-media-api
+  label: Associated Press Account API
+  slug: associated-press-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/associated-press/refs/heads/main/openapi/associated-press-meda-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/associated-press/refs/heads/main/openapi/associated-press-account-api-openapi.yml
+- filename: associated-press-content-api-openapi.yml
+  format: yaml
+  label: Associated Press Content API
+  slug: associated-press-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/associated-press/refs/heads/main/openapi/associated-press-content-api-openapi.yml
+- filename: associated-press-monitors-and-alerts-api-openapi.yml
+  format: yaml
+  label: Associated Press Monitors and Alerts API
+  slug: associated-press-monitors-and-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/associated-press/refs/heads/main/openapi/associated-press-monitors-and-alerts-api-openapi.yml
 description: ''
 domains:
 - caa: []

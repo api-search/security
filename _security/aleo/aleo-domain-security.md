@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: aleo-node-api-openapi.yml
+- filename: aleo-blocks-api-openapi.yml
   format: yaml
-  label: Aleo Node REST API
-  slug: aleo-node-rest-api
+  label: Aleo Blocks API
+  slug: aleo-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/openapi/aleo-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/openapi/aleo-blocks-api-openapi.yml
+- filename: aleo-chain-api-openapi.yml
+  format: yaml
+  label: Aleo Chain API
+  slug: aleo-chain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/openapi/aleo-chain-api-openapi.yml
+- filename: aleo-network-api-openapi.yml
+  format: yaml
+  label: Aleo Network API
+  slug: aleo-network-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/openapi/aleo-network-api-openapi.yml
+- filename: aleo-programs-api-openapi.yml
+  format: yaml
+  label: Aleo Programs API
+  slug: aleo-programs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/openapi/aleo-programs-api-openapi.yml
+- filename: aleo-transactions-api-openapi.yml
+  format: yaml
+  label: Aleo Transactions API
+  slug: aleo-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/openapi/aleo-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

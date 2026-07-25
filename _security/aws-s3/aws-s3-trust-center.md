@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: aws-s3-openapi.yaml
+- filename: aws-s3-amazon-simple-storage-service-api-openapi.yml
   format: yaml
-  label: Amazon S3 REST API
-  slug: amazon-s3-rest-api
+  label: Amazon S3 API Amazon Simple Storage Service API
+  slug: aws-s3-amazon-simple-storage-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/openapi/aws-s3-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/openapi/aws-s3-amazon-simple-storage-service-api-openapi.yml
+- filename: aws-s3-writegetobjectresponse-x-amz-request-route-x-amz-request-token-api-openapi.yml
+  format: yaml
+  label: Amazon S3 API WriteGetObjectResponse#x Amz Request Route&x Amz Request Token API
+  slug: aws-s3-writegetobjectresponse-x-amz-request-route-x-amz-request-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/openapi/aws-s3-writegetobjectresponse-x-amz-request-route-x-amz-request-token-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

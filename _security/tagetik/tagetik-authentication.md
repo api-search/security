@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cch-tagetik-odata-openapi.yml
+- filename: tagetik-financial-data-api-openapi.yml
   format: yaml
-  label: CCH Tagetik OData API
-  slug: cch-tagetik-odata-api
+  label: CCH Tagetik Financial Data API
+  slug: tagetik-financial-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tagetik/refs/heads/main/openapi/cch-tagetik-odata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tagetik/refs/heads/main/openapi/tagetik-financial-data-api-openapi.yml
+- filename: tagetik-metadata-api-openapi.yml
+  format: yaml
+  label: CCH Tagetik Metadata API
+  slug: tagetik-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tagetik/refs/heads/main/openapi/tagetik-metadata-api-openapi.yml
 auth_types:
 - http
 - oauth2

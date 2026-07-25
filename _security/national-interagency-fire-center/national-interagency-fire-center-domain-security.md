@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: national-interagency-fire-center-openapi.yml
+- filename: national-interagency-fire-center-featureserver-api-openapi.yml
   format: yaml
-  label: NIFC ArcGIS REST Services API
-  slug: nifc-arcgis-api
+  label: National Interagency Fire Center FeatureServer API
+  slug: national-interagency-fire-center-featureserver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-interagency-fire-center/main/openapi/national-interagency-fire-center-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/national-interagency-fire-center/refs/heads/main/openapi/national-interagency-fire-center-featureserver-api-openapi.yml
+- filename: national-interagency-fire-center-layer-api-openapi.yml
+  format: yaml
+  label: National Interagency Fire Center Layer API
+  slug: national-interagency-fire-center-layer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-interagency-fire-center/refs/heads/main/openapi/national-interagency-fire-center-layer-api-openapi.yml
+- filename: national-interagency-fire-center-services-api-openapi.yml
+  format: yaml
+  label: National Interagency Fire Center Services API
+  slug: national-interagency-fire-center-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-interagency-fire-center/refs/heads/main/openapi/national-interagency-fire-center-services-api-openapi.yml
 description: ''
 domains:
 - caa: []

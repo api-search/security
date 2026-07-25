@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: oidc.yml
+- filename: oidc-authentication-api-openapi.yml
   format: yaml
-  label: OpenID Connect API
-  slug: openid-connect
+  label: OIDC Authentication API
+  slug: oidc-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oidc/refs/heads/main/openapi/oidc.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oidc/refs/heads/main/openapi/oidc-authentication-api-openapi.yml
+- filename: oidc-discovery-api-openapi.yml
+  format: yaml
+  label: OIDC Discovery API
+  slug: oidc-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oidc/refs/heads/main/openapi/oidc-discovery-api-openapi.yml
+- filename: oidc-jwks-api-openapi.yml
+  format: yaml
+  label: OIDC JWKS API
+  slug: oidc-jwks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oidc/refs/heads/main/openapi/oidc-jwks-api-openapi.yml
+- filename: oidc-session-api-openapi.yml
+  format: yaml
+  label: OIDC Session API
+  slug: oidc-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oidc/refs/heads/main/openapi/oidc-session-api-openapi.yml
+- filename: oidc-token-api-openapi.yml
+  format: yaml
+  label: OIDC Token API
+  slug: oidc-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oidc/refs/heads/main/openapi/oidc-token-api-openapi.yml
+- filename: oidc-userinfo-api-openapi.yml
+  format: yaml
+  label: OIDC UserInfo API
+  slug: oidc-userinfo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oidc/refs/heads/main/openapi/oidc-userinfo-api-openapi.yml
 auth_types:
 - http
 description: ''

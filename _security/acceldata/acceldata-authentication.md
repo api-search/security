@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: acceldata-adoc-api.yaml
+- filename: acceldata-alerts-api-openapi.yml
   format: yaml
-  label: Acceldata Data Observability Cloud API
-  slug: adoc-api
+  label: Acceldata Alerts API
+  slug: acceldata-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/openapi/acceldata-adoc-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/openapi/acceldata-alerts-api-openapi.yml
+- filename: acceldata-data-quality-rules-api-openapi.yml
+  format: yaml
+  label: Acceldata Data Quality Rules API
+  slug: acceldata-data-quality-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/openapi/acceldata-data-quality-rules-api-openapi.yml
+- filename: acceldata-datasets-api-openapi.yml
+  format: yaml
+  label: Acceldata Datasets API
+  slug: acceldata-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/openapi/acceldata-datasets-api-openapi.yml
+- filename: acceldata-lineage-api-openapi.yml
+  format: yaml
+  label: Acceldata Lineage API
+  slug: acceldata-lineage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/openapi/acceldata-lineage-api-openapi.yml
+- filename: acceldata-pipeline-jobs-api-openapi.yml
+  format: yaml
+  label: Acceldata Pipeline Jobs API
+  slug: acceldata-pipeline-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/openapi/acceldata-pipeline-jobs-api-openapi.yml
+- filename: acceldata-roles-api-openapi.yml
+  format: yaml
+  label: Acceldata Roles API
+  slug: acceldata-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/openapi/acceldata-roles-api-openapi.yml
+- filename: acceldata-users-api-openapi.yml
+  format: yaml
+  label: Acceldata Users API
+  slug: acceldata-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/openapi/acceldata-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

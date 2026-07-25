@@ -1,30 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: global-relay-conversation-archiving-api-openapi.yml
+- filename: global-relay-conversations-api-openapi.yml
   format: yaml
-  label: Global Relay Conversation Archiving API
-  slug: conversation-archiving-api
+  label: Global Relay Conversations API
+  slug: global-relay-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/openapi/global-relay-conversation-archiving-api-openapi.yml
-- filename: global-relay-email-archiving-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/openapi/global-relay-conversations-api-openapi.yml
+- filename: global-relay-email-api-openapi.yml
   format: yaml
-  label: Global Relay Email Archiving API
-  slug: email-archiving-api
+  label: Global Relay Email API
+  slug: global-relay-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/openapi/global-relay-email-archiving-api-openapi.yml
-- filename: global-relay-voice-archiving-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/openapi/global-relay-email-api-openapi.yml
+- filename: global-relay-events-api-openapi.yml
   format: yaml
-  label: Global Relay Voice Archiving API
-  slug: voice-archiving-api
+  label: Global Relay Events API
+  slug: global-relay-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/openapi/global-relay-voice-archiving-api-openapi.yml
-- filename: global-relay-event-archiving-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/openapi/global-relay-events-api-openapi.yml
+- filename: global-relay-files-api-openapi.yml
   format: yaml
-  label: Global Relay Event Archiving API
-  slug: event-archiving-api
+  label: Global Relay Files API
+  slug: global-relay-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/openapi/global-relay-event-archiving-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/openapi/global-relay-files-api-openapi.yml
+- filename: global-relay-voice-api-openapi.yml
+  format: yaml
+  label: Global Relay Voice API
+  slug: global-relay-voice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/openapi/global-relay-voice-api-openapi.yml
 auth_types:
 - http
 description: ''

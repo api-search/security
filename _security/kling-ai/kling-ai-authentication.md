@@ -1,60 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: kling-ai-openapi.yml
+- filename: kling-ai-account-api-openapi.yml
   format: yaml
-  label: Kling AI Text-to-Video API
-  slug: kling-ai-text-to-video-api
+  label: Kling AI Account API
+  slug: kling-ai-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-openapi.yml
-- filename: kling-ai-openapi.yml
-  format: yaml
-  label: Kling AI Image-to-Video API
-  slug: kling-ai-image-to-video-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-openapi.yml
-- filename: kling-ai-openapi.yml
-  format: yaml
-  label: Kling AI Multi-Image-to-Video API
-  slug: kling-ai-multi-image-to-video-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-openapi.yml
-- filename: kling-ai-openapi.yml
-  format: yaml
-  label: Kling AI Video Extension API
-  slug: kling-ai-video-extension-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-openapi.yml
-- filename: kling-ai-openapi.yml
-  format: yaml
-  label: Kling AI Lip-Sync API
-  slug: kling-ai-lip-sync-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-openapi.yml
-- filename: kling-ai-openapi.yml
-  format: yaml
-  label: Kling AI Video Effects API
-  slug: kling-ai-video-effects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-openapi.yml
-- filename: kling-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-account-api-openapi.yml
+- filename: kling-ai-image-generation-api-openapi.yml
   format: yaml
   label: Kling AI Image Generation API
   slug: kling-ai-image-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-openapi.yml
-- filename: kling-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-image-generation-api-openapi.yml
+- filename: kling-ai-image-to-video-api-openapi.yml
+  format: yaml
+  label: Kling AI Image-to-Video API
+  slug: kling-ai-image-to-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-image-to-video-api-openapi.yml
+- filename: kling-ai-lip-sync-api-openapi.yml
+  format: yaml
+  label: Kling AI Lip-Sync API
+  slug: kling-ai-lip-sync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-lip-sync-api-openapi.yml
+- filename: kling-ai-text-to-video-api-openapi.yml
+  format: yaml
+  label: Kling AI Text-to-Video API
+  slug: kling-ai-text-to-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-text-to-video-api-openapi.yml
+- filename: kling-ai-video-effects-api-openapi.yml
+  format: yaml
+  label: Kling AI Video Effects API
+  slug: kling-ai-video-effects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-video-effects-api-openapi.yml
+- filename: kling-ai-video-extension-api-openapi.yml
+  format: yaml
+  label: Kling AI Video Extension API
+  slug: kling-ai-video-extension-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-video-extension-api-openapi.yml
+- filename: kling-ai-virtual-try-on-api-openapi.yml
   format: yaml
   label: Kling AI Virtual Try-On API
   slug: kling-ai-virtual-try-on-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-openapi.yml
-- filename: kling-ai-openapi.yml
-  format: yaml
-  label: Kling AI Account Resource API
-  slug: kling-ai-account-resource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-virtual-try-on-api-openapi.yml
 auth_types:
 - http
 description: ''

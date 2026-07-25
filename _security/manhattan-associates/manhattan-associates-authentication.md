@@ -1,18 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: manhattan-associates-omni-openapi.yml
+- filename: manhattan-associates-inbound-api-openapi.yml
   format: yaml
-  label: Manhattan Active Omni and Enterprise Promise & Fulfill API
-  slug: manhattan-active-omni-api
+  label: manhattan-associates Inbound API
+  slug: manhattan-associates-inbound-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-omni-openapi.yml
-- filename: manhattan-associates-wms-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-inbound-api-openapi.yml
+- filename: manhattan-associates-inventory-api-openapi.yml
   format: yaml
-  label: Manhattan Active Supply Chain API
-  slug: manhattan-active-supply-chain-api
+  label: manhattan-associates Inventory API
+  slug: manhattan-associates-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-wms-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-inventory-api-openapi.yml
+- filename: manhattan-associates-orders-api-openapi.yml
+  format: yaml
+  label: manhattan-associates Orders API
+  slug: manhattan-associates-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-orders-api-openapi.yml
+- filename: manhattan-associates-outbound-api-openapi.yml
+  format: yaml
+  label: manhattan-associates Outbound API
+  slug: manhattan-associates-outbound-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-outbound-api-openapi.yml
+- filename: manhattan-associates-promising-api-openapi.yml
+  format: yaml
+  label: manhattan-associates Promising API
+  slug: manhattan-associates-promising-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-promising-api-openapi.yml
+- filename: manhattan-associates-returns-api-openapi.yml
+  format: yaml
+  label: manhattan-associates Returns API
+  slug: manhattan-associates-returns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-returns-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

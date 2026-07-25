@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: rivet-rivetkit-openapi.json
-  format: json
-  label: RivetKit API
-  slug: rivetkit-api
+- filename: rivet-actors-api-openapi.yml
+  format: yaml
+  label: Rivet Actors API
+  slug: rivet-actors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/openapi/rivet-rivetkit-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/openapi/rivet-actors-api-openapi.yml
+- filename: rivet-gateway-api-openapi.yml
+  format: yaml
+  label: Rivet Gateway API
+  slug: rivet-gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/openapi/rivet-gateway-api-openapi.yml
 auth_types:
 - bearer
 - custom-token

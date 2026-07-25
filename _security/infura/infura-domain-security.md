@@ -6,6 +6,12 @@ api_specs:
   slug: json-rpc
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/infura/refs/heads/main/asyncapi/infura-asyncapi.yml
+- filename: infura-infura-metamask-developer-json-rpc-api-api-openapi.yml
+  format: yaml
+  label: Infura Infura (MetaMask Developer) JSON RPC API API
+  slug: infura-infura-metamask-developer-json-rpc-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infura/refs/heads/main/openapi/infura-infura-metamask-developer-json-rpc-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

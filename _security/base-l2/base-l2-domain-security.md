@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: base-l2-json-rpc-api-openapi.yml
+  format: yaml
+  label: Base JSON-RPC API
+  slug: base-l2-json-rpc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/base-l2/refs/heads/main/openapi/base-l2-json-rpc-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: api-docs.json
-  format: json
-  label: ScyllaDB Cloud Management API
-  slug: cloud-management-api
+- filename: scylladb-account-api-openapi.yml
+  format: yaml
+  label: ScyllaDB Account API
+  slug: scylladb-account-api
   spec_type: OpenAPI
-  url: https://api.cloud.scylladb.com/api-docs.json
+  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-account-api-openapi.yml
+- filename: scylladb-account-cluster-network-api-openapi.yml
+  format: yaml
+  label: ScyllaDB Account Cluster Network API
+  slug: scylladb-account-cluster-network-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-account-cluster-network-api-openapi.yml
+- filename: scylladb-account-network-cluster-connection-api-openapi.yml
+  format: yaml
+  label: ScyllaDB Account network cluster connection API
+  slug: scylladb-account-network-cluster-connection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-account-network-cluster-connection-api-openapi.yml
+- filename: scylladb-cluster-api-openapi.yml
+  format: yaml
+  label: ScyllaDB Cluster API
+  slug: scylladb-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-cluster-api-openapi.yml
+- filename: scylladb-cluster-request-api-openapi.yml
+  format: yaml
+  label: ScyllaDB Cluster Request API
+  slug: scylladb-cluster-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-cluster-request-api-openapi.yml
+- filename: scylladb-deployment-api-openapi.yml
+  format: yaml
+  label: ScyllaDB Deployment API
+  slug: scylladb-deployment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-deployment-api-openapi.yml
+- filename: scylladb-pricing-api-openapi.yml
+  format: yaml
+  label: ScyllaDB Pricing API
+  slug: scylladb-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-pricing-api-openapi.yml
+- filename: scylladb-vectorsearch-api-openapi.yml
+  format: yaml
+  label: ScyllaDB VectorSearch API
+  slug: scylladb-vectorsearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-vectorsearch-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: xbow-openapi-original.json
-  format: json
-  label: XBOW API
-  slug: xbow-api
+- filename: xbow-assessments-api-openapi.yml
+  format: yaml
+  label: Xbow Assessments API
+  slug: xbow-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/openapi/xbow-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/openapi/xbow-assessments-api-openapi.yml
+- filename: xbow-assets-api-openapi.yml
+  format: yaml
+  label: Xbow Assets API
+  slug: xbow-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/openapi/xbow-assets-api-openapi.yml
+- filename: xbow-findings-api-openapi.yml
+  format: yaml
+  label: Xbow Findings API
+  slug: xbow-findings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/openapi/xbow-findings-api-openapi.yml
+- filename: xbow-lightspeed-api-openapi.yml
+  format: yaml
+  label: Xbow Lightspeed API
+  slug: xbow-lightspeed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/openapi/xbow-lightspeed-api-openapi.yml
+- filename: xbow-meta-api-openapi.yml
+  format: yaml
+  label: Xbow Meta API
+  slug: xbow-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/openapi/xbow-meta-api-openapi.yml
+- filename: xbow-organizations-api-openapi.yml
+  format: yaml
+  label: Xbow Organizations API
+  slug: xbow-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/openapi/xbow-organizations-api-openapi.yml
+- filename: xbow-reports-api-openapi.yml
+  format: yaml
+  label: Xbow Reports API
+  slug: xbow-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/openapi/xbow-reports-api-openapi.yml
+- filename: xbow-resources-api-openapi.yml
+  format: yaml
+  label: Xbow Resources API
+  slug: xbow-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/openapi/xbow-resources-api-openapi.yml
+- filename: xbow-webhooks-api-openapi.yml
+  format: yaml
+  label: Xbow Webhooks API
+  slug: xbow-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/openapi/xbow-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

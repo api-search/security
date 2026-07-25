@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Webex APIs
-  slug: webex-api
+- filename: cisco-collaboration-hybrid-solutions-devices-api-openapi.yml
+  format: yaml
+  label: Cisco Collaboration Hybrid Solutions Devices API
+  slug: cisco-collaboration-hybrid-solutions-devices-api
   spec_type: OpenAPI
-  url: https://developer.webex.com/docs/api/v1/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-collaboration-hybrid-solutions/refs/heads/main/openapi/cisco-collaboration-hybrid-solutions-devices-api-openapi.yml
+- filename: cisco-collaboration-hybrid-solutions-memberships-api-openapi.yml
+  format: yaml
+  label: Cisco Collaboration Hybrid Solutions Memberships API
+  slug: cisco-collaboration-hybrid-solutions-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-collaboration-hybrid-solutions/refs/heads/main/openapi/cisco-collaboration-hybrid-solutions-memberships-api-openapi.yml
+- filename: cisco-collaboration-hybrid-solutions-messages-api-openapi.yml
+  format: yaml
+  label: Cisco Collaboration Hybrid Solutions Messages API
+  slug: cisco-collaboration-hybrid-solutions-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-collaboration-hybrid-solutions/refs/heads/main/openapi/cisco-collaboration-hybrid-solutions-messages-api-openapi.yml
+- filename: cisco-collaboration-hybrid-solutions-rooms-api-openapi.yml
+  format: yaml
+  label: Cisco Collaboration Hybrid Solutions Rooms API
+  slug: cisco-collaboration-hybrid-solutions-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-collaboration-hybrid-solutions/refs/heads/main/openapi/cisco-collaboration-hybrid-solutions-rooms-api-openapi.yml
+- filename: cisco-collaboration-hybrid-solutions-teams-api-openapi.yml
+  format: yaml
+  label: Cisco Collaboration Hybrid Solutions Teams API
+  slug: cisco-collaboration-hybrid-solutions-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-collaboration-hybrid-solutions/refs/heads/main/openapi/cisco-collaboration-hybrid-solutions-teams-api-openapi.yml
+- filename: cisco-collaboration-hybrid-solutions-webhooks-api-openapi.yml
+  format: yaml
+  label: Cisco Collaboration Hybrid Solutions Webhooks API
+  slug: cisco-collaboration-hybrid-solutions-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-collaboration-hybrid-solutions/refs/heads/main/openapi/cisco-collaboration-hybrid-solutions-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

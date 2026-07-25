@@ -1,30 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: aladdin-studio-graph-openapi.yaml
+- filename: aladdin-studio-analytics-api-openapi.yml
   format: yaml
-  label: Aladdin Graph API
-  slug: graph-api
+  label: Aladdin Studio Analytics API
+  slug: aladdin-studio-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-graph-openapi.yaml
-- filename: aladdin-studio-data-cloud-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-analytics-api-openapi.yml
+- filename: aladdin-studio-connections-api-openapi.yml
   format: yaml
-  label: Aladdin Data Cloud API
-  slug: data-cloud-api
+  label: Aladdin Studio Connections API
+  slug: aladdin-studio-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-data-cloud-openapi.yaml
-- filename: aladdin-studio-trading-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-connections-api-openapi.yml
+- filename: aladdin-studio-datasets-api-openapi.yml
   format: yaml
-  label: Aladdin Trading API
-  slug: trading-api
+  label: Aladdin Studio Datasets API
+  slug: aladdin-studio-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-trading-openapi.yaml
-- filename: aladdin-studio-investment-research-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-datasets-api-openapi.yml
+- filename: aladdin-studio-orders-api-openapi.yml
   format: yaml
-  label: Aladdin Investment Research API
-  slug: investment-research-api
+  label: Aladdin Studio Orders API
+  slug: aladdin-studio-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-investment-research-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-orders-api-openapi.yml
+- filename: aladdin-studio-portfolios-api-openapi.yml
+  format: yaml
+  label: Aladdin Studio Portfolios API
+  slug: aladdin-studio-portfolios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-portfolios-api-openapi.yml
+- filename: aladdin-studio-positions-api-openapi.yml
+  format: yaml
+  label: Aladdin Studio Positions API
+  slug: aladdin-studio-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-positions-api-openapi.yml
+- filename: aladdin-studio-queries-api-openapi.yml
+  format: yaml
+  label: Aladdin Studio Queries API
+  slug: aladdin-studio-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-queries-api-openapi.yml
+- filename: aladdin-studio-research-api-openapi.yml
+  format: yaml
+  label: Aladdin Studio Research API
+  slug: aladdin-studio-research-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-research-api-openapi.yml
+- filename: aladdin-studio-risk-api-openapi.yml
+  format: yaml
+  label: Aladdin Studio Risk API
+  slug: aladdin-studio-risk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-risk-api-openapi.yml
+- filename: aladdin-studio-securities-api-openapi.yml
+  format: yaml
+  label: Aladdin Studio Securities API
+  slug: aladdin-studio-securities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-securities-api-openapi.yml
 auth_types:
 - http
 - oauth2

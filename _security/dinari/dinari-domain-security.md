@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: dinari-openapi-original.yml
+- filename: dinari-accounts-api-openapi.yml
   format: yaml
-  label: Dinari Enterprise API
-  slug: dinari-enterprise-api
+  label: Dinari Accounts API
+  slug: dinari-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/openapi/dinari-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/openapi/dinari-accounts-api-openapi.yml
+- filename: dinari-corporate-actions-api-openapi.yml
+  format: yaml
+  label: Dinari Corporate Actions API
+  slug: dinari-corporate-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/openapi/dinari-corporate-actions-api-openapi.yml
+- filename: dinari-entities-api-openapi.yml
+  format: yaml
+  label: Dinari Entities API
+  slug: dinari-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/openapi/dinari-entities-api-openapi.yml
+- filename: dinari-kyc-api-openapi.yml
+  format: yaml
+  label: Dinari KYC API
+  slug: dinari-kyc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/openapi/dinari-kyc-api-openapi.yml
+- filename: dinari-managed-orders-api-openapi.yml
+  format: yaml
+  label: Dinari Managed Orders API
+  slug: dinari-managed-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/openapi/dinari-managed-orders-api-openapi.yml
+- filename: dinari-market-data-api-openapi.yml
+  format: yaml
+  label: Dinari Market Data API
+  slug: dinari-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/openapi/dinari-market-data-api-openapi.yml
+- filename: dinari-order-requests-api-openapi.yml
+  format: yaml
+  label: Dinari Order Requests API
+  slug: dinari-order-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/openapi/dinari-order-requests-api-openapi.yml
+- filename: dinari-orders-api-openapi.yml
+  format: yaml
+  label: Dinari Orders API
+  slug: dinari-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/openapi/dinari-orders-api-openapi.yml
+- filename: dinari-wallets-api-openapi.yml
+  format: yaml
+  label: Dinari Wallets API
+  slug: dinari-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/openapi/dinari-wallets-api-openapi.yml
+- filename: dinari-withdrawals-api-openapi.yml
+  format: yaml
+  label: Dinari Withdrawals API
+  slug: dinari-withdrawals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/openapi/dinari-withdrawals-api-openapi.yml
 description: ''
 domains:
 - caa: []

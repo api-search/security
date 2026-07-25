@@ -1,4 +1,89 @@
 ---
+api_specs:
+- filename: autodesk-bim360-account-users-api-openapi.yml
+  format: yaml
+  label: Autodesk BIM 360 Account Users API
+  slug: autodesk-bim360-account-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-account-users-api-openapi.yml
+- filename: autodesk-bim360-business-units-api-openapi.yml
+  format: yaml
+  label: Autodesk BIM 360 Business Units API
+  slug: autodesk-bim360-business-units-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-business-units-api-openapi.yml
+- filename: autodesk-bim360-companies-api-openapi.yml
+  format: yaml
+  label: Autodesk BIM 360 Companies API
+  slug: autodesk-bim360-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-companies-api-openapi.yml
+- filename: autodesk-bim360-issue-attachments-api-openapi.yml
+  format: yaml
+  label: Autodesk BIM 360 Issue Attachments API
+  slug: autodesk-bim360-issue-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issue-attachments-api-openapi.yml
+- filename: autodesk-bim360-issue-attribute-definitions-api-openapi.yml
+  format: yaml
+  label: Autodesk BIM 360 Issue Attribute Definitions API
+  slug: autodesk-bim360-issue-attribute-definitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issue-attribute-definitions-api-openapi.yml
+- filename: autodesk-bim360-issue-attribute-mappings-api-openapi.yml
+  format: yaml
+  label: Autodesk BIM 360 Issue Attribute Mappings API
+  slug: autodesk-bim360-issue-attribute-mappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issue-attribute-mappings-api-openapi.yml
+- filename: autodesk-bim360-issue-comments-api-openapi.yml
+  format: yaml
+  label: Autodesk BIM 360 Issue Comments API
+  slug: autodesk-bim360-issue-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issue-comments-api-openapi.yml
+- filename: autodesk-bim360-issue-root-cause-categories-api-openapi.yml
+  format: yaml
+  label: Autodesk BIM 360 Issue Root Cause Categories API
+  slug: autodesk-bim360-issue-root-cause-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issue-root-cause-categories-api-openapi.yml
+- filename: autodesk-bim360-issue-types-api-openapi.yml
+  format: yaml
+  label: Autodesk BIM 360 Issue Types API
+  slug: autodesk-bim360-issue-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issue-types-api-openapi.yml
+- filename: autodesk-bim360-issues-api-openapi.yml
+  format: yaml
+  label: Autodesk BIM 360 Issues API
+  slug: autodesk-bim360-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issues-api-openapi.yml
+- filename: autodesk-bim360-issues-profile-api-openapi.yml
+  format: yaml
+  label: Autodesk BIM 360 Issues Profile API
+  slug: autodesk-bim360-issues-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issues-profile-api-openapi.yml
+- filename: autodesk-bim360-project-users-api-openapi.yml
+  format: yaml
+  label: Autodesk BIM 360 Project Users API
+  slug: autodesk-bim360-project-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-project-users-api-openapi.yml
+- filename: autodesk-bim360-projects-api-openapi.yml
+  format: yaml
+  label: Autodesk BIM 360 Projects API
+  slug: autodesk-bim360-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-projects-api-openapi.yml
+- filename: autodesk-bim360-user-projects-api-openapi.yml
+  format: yaml
+  label: Autodesk BIM 360 User Projects API
+  slug: autodesk-bim360-user-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-user-projects-api-openapi.yml
 description: ''
 domains:
 - caa: []

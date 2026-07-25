@@ -2,42 +2,66 @@
 api_key_in:
 - header
 api_specs:
-- filename: overview
+- filename: sap-brim-billing-and-revenue-innovation-management-balances-api-openapi.yml
   format: yaml
-  label: SAP Convergent Charging API
-  slug: sap-convergent-charging-api
+  label: SAP BRIM (Billing and Revenue Innovation Management) Balances API
+  slug: sap-brim-billing-and-revenue-innovation-management-balances-api
   spec_type: OpenAPI
-  url: https://api.sap.com/api/convergent_charging/overview
-- filename: overview
+  url: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/openapi/sap-brim-billing-and-revenue-innovation-management-balances-api-openapi.yml
+- filename: sap-brim-billing-and-revenue-innovation-management-billing-api-openapi.yml
   format: yaml
-  label: SAP Convergent Invoicing API
-  slug: sap-convergent-invoicing-api
+  label: SAP BRIM (Billing and Revenue Innovation Management) Billing API
+  slug: sap-brim-billing-and-revenue-innovation-management-billing-api
   spec_type: OpenAPI
-  url: https://api.sap.com/api/convergent_invoicing/overview
-- filename: overview
+  url: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/openapi/sap-brim-billing-and-revenue-innovation-management-billing-api-openapi.yml
+- filename: sap-brim-billing-and-revenue-innovation-management-charging-api-openapi.yml
   format: yaml
-  label: SAP Subscription Billing API
-  slug: sap-subscription-billing-api
+  label: SAP BRIM (Billing and Revenue Innovation Management) Charging API
+  slug: sap-brim-billing-and-revenue-innovation-management-charging-api
   spec_type: OpenAPI
-  url: https://api.sap.com/api/subscription_billing/overview
-- filename: overview
+  url: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/openapi/sap-brim-billing-and-revenue-innovation-management-charging-api-openapi.yml
+- filename: sap-brim-billing-and-revenue-innovation-management-customers-api-openapi.yml
   format: yaml
-  label: SAP Contract Accounts Receivable and Payable API
-  slug: sap-contract-accounts-receivable-and-payable-api
+  label: SAP BRIM (Billing and Revenue Innovation Management) Customers API
+  slug: sap-brim-billing-and-revenue-innovation-management-customers-api
   spec_type: OpenAPI
-  url: https://api.sap.com/api/fica/overview
-- filename: overview
+  url: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/openapi/sap-brim-billing-and-revenue-innovation-management-customers-api-openapi.yml
+- filename: sap-brim-billing-and-revenue-innovation-management-plans-api-openapi.yml
   format: yaml
-  label: SAP BRIM Usage Data Intake API
-  slug: sap-brim-usage-data-intake-api
+  label: SAP BRIM (Billing and Revenue Innovation Management) Plans API
+  slug: sap-brim-billing-and-revenue-innovation-management-plans-api
   spec_type: OpenAPI
-  url: https://api.sap.com/api/usage_data_intake/overview
-- filename: overview
+  url: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/openapi/sap-brim-billing-and-revenue-innovation-management-plans-api-openapi.yml
+- filename: sap-brim-billing-and-revenue-innovation-management-pricing-api-openapi.yml
   format: yaml
-  label: SAP Revenue Accounting and Reporting API
-  slug: sap-revenue-accounting-and-reporting-api
+  label: SAP BRIM (Billing and Revenue Innovation Management) Pricing API
+  slug: sap-brim-billing-and-revenue-innovation-management-pricing-api
   spec_type: OpenAPI
-  url: https://api.sap.com/api/revenue_accounting/overview
+  url: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/openapi/sap-brim-billing-and-revenue-innovation-management-pricing-api-openapi.yml
+- filename: sap-brim-billing-and-revenue-innovation-management-rating-api-openapi.yml
+  format: yaml
+  label: SAP BRIM (Billing and Revenue Innovation Management) Rating API
+  slug: sap-brim-billing-and-revenue-innovation-management-rating-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/openapi/sap-brim-billing-and-revenue-innovation-management-rating-api-openapi.yml
+- filename: sap-brim-billing-and-revenue-innovation-management-subscription-items-api-openapi.yml
+  format: yaml
+  label: SAP BRIM (Billing and Revenue Innovation Management) Subscription Items API
+  slug: sap-brim-billing-and-revenue-innovation-management-subscription-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/openapi/sap-brim-billing-and-revenue-innovation-management-subscription-items-api-openapi.yml
+- filename: sap-brim-billing-and-revenue-innovation-management-subscriptions-api-openapi.yml
+  format: yaml
+  label: SAP BRIM (Billing and Revenue Innovation Management) Subscriptions API
+  slug: sap-brim-billing-and-revenue-innovation-management-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/openapi/sap-brim-billing-and-revenue-innovation-management-subscriptions-api-openapi.yml
+- filename: sap-brim-billing-and-revenue-innovation-management-usage-events-api-openapi.yml
+  format: yaml
+  label: SAP BRIM (Billing and Revenue Innovation Management) Usage Events API
+  slug: sap-brim-billing-and-revenue-innovation-management-usage-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/openapi/sap-brim-billing-and-revenue-innovation-management-usage-events-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

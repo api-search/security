@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: dns-check-openapi.yml
+- filename: dns-check-dns-record-monitoring-api-openapi.yml
   format: yaml
-  label: DNS Check REST API
-  slug: rest-api
+  label: DNS Check DNS Record Monitoring API
+  slug: dns-check-dns-record-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dns-check/refs/heads/main/openapi/dns-check-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dns-check/refs/heads/main/openapi/dns-check-dns-record-monitoring-api-openapi.yml
 description: ''
 domains:
 - caa:

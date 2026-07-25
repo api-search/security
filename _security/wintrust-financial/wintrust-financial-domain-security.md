@@ -36,5 +36,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Banking
 - Financial Services
-- Community
+- Treasury Management
+- Commercial Banking
+- Open Banking
+- United States
 ---

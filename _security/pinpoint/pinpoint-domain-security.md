@@ -1,41 +1,29 @@
 ---
 api_specs:
-- filename: pinpoint-openapi.yml
-  format: yaml
-  label: Pinpoint Jobs API
-  slug: jobs
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/openapi/pinpoint-openapi.yml
-- filename: pinpoint-openapi.yml
-  format: yaml
-  label: Pinpoint Applications API
-  slug: applications
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/openapi/pinpoint-openapi.yml
-- filename: pinpoint-openapi.yml
+- filename: pinpoint-applicants-api-openapi.yml
   format: yaml
   label: Pinpoint Applicants API
-  slug: applicants
+  slug: pinpoint-applicants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/openapi/pinpoint-openapi.yml
-- filename: pinpoint-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/openapi/pinpoint-applicants-api-openapi.yml
+- filename: pinpoint-applications-api-openapi.yml
   format: yaml
-  label: Pinpoint Job Stages API
-  slug: job-stages
+  label: Pinpoint Applications API
+  slug: pinpoint-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/openapi/pinpoint-openapi.yml
-- filename: pinpoint-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/openapi/pinpoint-applications-api-openapi.yml
+- filename: pinpoint-comments-api-openapi.yml
   format: yaml
-  label: Pinpoint Comments and Files API
-  slug: comments-files
+  label: Pinpoint Comments API
+  slug: pinpoint-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/openapi/pinpoint-openapi.yml
-- filename: pinpoint-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/openapi/pinpoint-comments-api-openapi.yml
+- filename: pinpoint-jobs-api-openapi.yml
   format: yaml
-  label: Pinpoint Webhooks
-  slug: webhooks
+  label: Pinpoint Jobs API
+  slug: pinpoint-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/openapi/pinpoint-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/openapi/pinpoint-jobs-api-openapi.yml
 description: ''
 domains:
 - caa: []

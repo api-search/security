@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: runautomat-extract-openapi.json
-  format: json
-  label: Automat Document Extraction API
-  slug: automat-document-extraction-api
+- filename: runautomat-extract-api-openapi.yml
+  format: yaml
+  label: Runautomat extract API
+  slug: runautomat-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/openapi/runautomat-extract-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/openapi/runautomat-extract-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: emailrep-api-openapi.yml
+- filename: emailrep-reports-api-openapi.yml
   format: yaml
-  label: EmailRep API
-  slug: emailrep-api
+  label: EmailRep Reports API
+  slug: emailrep-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/openapi/emailrep-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/openapi/emailrep-reports-api-openapi.yml
+- filename: emailrep-reputation-api-openapi.yml
+  format: yaml
+  label: EmailRep Reputation API
+  slug: emailrep-reputation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/openapi/emailrep-reputation-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

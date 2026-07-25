@@ -1,11 +1,143 @@
 ---
 api_specs:
-- filename: lichess-openapi.yml
+- filename: lichess-account-api-openapi.yml
   format: yaml
-  label: Lichess API
-  slug: lichess-api
+  label: Lichess Account API
+  slug: lichess-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-account-api-openapi.yml
+- filename: lichess-analysis-api-openapi.yml
+  format: yaml
+  label: Lichess Analysis API
+  slug: lichess-analysis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-analysis-api-openapi.yml
+- filename: lichess-board-api-openapi.yml
+  format: yaml
+  label: Lichess Board API
+  slug: lichess-board-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-board-api-openapi.yml
+- filename: lichess-bot-api-openapi.yml
+  format: yaml
+  label: Lichess Bot API
+  slug: lichess-bot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-bot-api-openapi.yml
+- filename: lichess-broadcasts-api-openapi.yml
+  format: yaml
+  label: Lichess Broadcasts API
+  slug: lichess-broadcasts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-broadcasts-api-openapi.yml
+- filename: lichess-bulk-pairings-api-openapi.yml
+  format: yaml
+  label: Lichess Bulk pairings API
+  slug: lichess-bulk-pairings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-bulk-pairings-api-openapi.yml
+- filename: lichess-challenges-api-openapi.yml
+  format: yaml
+  label: Lichess Challenges API
+  slug: lichess-challenges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-challenges-api-openapi.yml
+- filename: lichess-external-engine-api-openapi.yml
+  format: yaml
+  label: Lichess External engine API
+  slug: lichess-external-engine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-external-engine-api-openapi.yml
+- filename: lichess-fide-api-openapi.yml
+  format: yaml
+  label: Lichess FIDE API
+  slug: lichess-fide-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-fide-api-openapi.yml
+- filename: lichess-games-api-openapi.yml
+  format: yaml
+  label: Lichess Games API
+  slug: lichess-games-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-games-api-openapi.yml
+- filename: lichess-messaging-api-openapi.yml
+  format: yaml
+  label: Lichess Messaging API
+  slug: lichess-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-messaging-api-openapi.yml
+- filename: lichess-oauth-api-openapi.yml
+  format: yaml
+  label: Lichess OAuth API
+  slug: lichess-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-oauth-api-openapi.yml
+- filename: lichess-opening-explorer-api-openapi.yml
+  format: yaml
+  label: Lichess Opening Explorer API
+  slug: lichess-opening-explorer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-opening-explorer-api-openapi.yml
+- filename: lichess-puzzles-api-openapi.yml
+  format: yaml
+  label: Lichess Puzzles API
+  slug: lichess-puzzles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-puzzles-api-openapi.yml
+- filename: lichess-relations-api-openapi.yml
+  format: yaml
+  label: Lichess Relations API
+  slug: lichess-relations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-relations-api-openapi.yml
+- filename: lichess-simuls-api-openapi.yml
+  format: yaml
+  label: Lichess Simuls API
+  slug: lichess-simuls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-simuls-api-openapi.yml
+- filename: lichess-studies-api-openapi.yml
+  format: yaml
+  label: Lichess Studies API
+  slug: lichess-studies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-studies-api-openapi.yml
+- filename: lichess-tablebase-api-openapi.yml
+  format: yaml
+  label: Lichess Tablebase API
+  slug: lichess-tablebase-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-tablebase-api-openapi.yml
+- filename: lichess-teams-api-openapi.yml
+  format: yaml
+  label: Lichess Teams API
+  slug: lichess-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-teams-api-openapi.yml
+- filename: lichess-tournaments-arena-api-openapi.yml
+  format: yaml
+  label: Lichess Tournaments (Arena) API
+  slug: lichess-tournaments-arena-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-tournaments-arena-api-openapi.yml
+- filename: lichess-tournaments-swiss-api-openapi.yml
+  format: yaml
+  label: Lichess Tournaments (Swiss) API
+  slug: lichess-tournaments-swiss-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-tournaments-swiss-api-openapi.yml
+- filename: lichess-tv-api-openapi.yml
+  format: yaml
+  label: Lichess TV API
+  slug: lichess-tv-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-tv-api-openapi.yml
+- filename: lichess-users-api-openapi.yml
+  format: yaml
+  label: Lichess Users API
+  slug: lichess-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-users-api-openapi.yml
 description: ''
 domains:
 - caa:

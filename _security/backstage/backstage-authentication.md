@@ -2,48 +2,84 @@
 api_key_in:
 - cookie
 api_specs:
-- filename: backstage-catalog-openapi.yml
-  format: yaml
-  label: Backstage Catalog API
-  slug: catalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-catalog-openapi.yml
-- filename: backstage-scaffolder-openapi.yml
-  format: yaml
-  label: Backstage Scaffolder API
-  slug: scaffolder-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-scaffolder-openapi.yml
-- filename: backstage-auth-openapi.yml
-  format: yaml
-  label: Backstage Auth API
-  slug: auth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-auth-openapi.yml
-- filename: backstage-techdocs-openapi.yml
-  format: yaml
-  label: Backstage TechDocs API
-  slug: techdocs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-techdocs-openapi.yml
-- filename: backstage-search-openapi.yml
-  format: yaml
-  label: Backstage Search API
-  slug: search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-search-openapi.yml
-- filename: backstage-permissions-openapi.yml
-  format: yaml
-  label: Backstage Permissions API
-  slug: permissions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-permissions-openapi.yml
 - filename: backstage-events-asyncapi.yml
   format: yaml
   label: Backstage Events System
   slug: events-system
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/asyncapi/backstage-events-asyncapi.yml
+- filename: backstage-actions-api-openapi.yml
+  format: yaml
+  label: Backstage Actions API
+  slug: backstage-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-actions-api-openapi.yml
+- filename: backstage-authentication-api-openapi.yml
+  format: yaml
+  label: Backstage Authentication API
+  slug: backstage-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-authentication-api-openapi.yml
+- filename: backstage-authorization-api-openapi.yml
+  format: yaml
+  label: Backstage Authorization API
+  slug: backstage-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-authorization-api-openapi.yml
+- filename: backstage-documentation-api-openapi.yml
+  format: yaml
+  label: Backstage Documentation API
+  slug: backstage-documentation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-documentation-api-openapi.yml
+- filename: backstage-entities-api-openapi.yml
+  format: yaml
+  label: Backstage Entities API
+  slug: backstage-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-entities-api-openapi.yml
+- filename: backstage-locations-api-openapi.yml
+  format: yaml
+  label: Backstage Locations API
+  slug: backstage-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-locations-api-openapi.yml
+- filename: backstage-metadata-api-openapi.yml
+  format: yaml
+  label: Backstage Metadata API
+  slug: backstage-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-metadata-api-openapi.yml
+- filename: backstage-search-api-openapi.yml
+  format: yaml
+  label: Backstage Search API
+  slug: backstage-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-search-api-openapi.yml
+- filename: backstage-sync-api-openapi.yml
+  format: yaml
+  label: Backstage Sync API
+  slug: backstage-sync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-sync-api-openapi.yml
+- filename: backstage-tasks-api-openapi.yml
+  format: yaml
+  label: Backstage Tasks API
+  slug: backstage-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-tasks-api-openapi.yml
+- filename: backstage-templates-api-openapi.yml
+  format: yaml
+  label: Backstage Templates API
+  slug: backstage-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-templates-api-openapi.yml
+- filename: backstage-token-verification-api-openapi.yml
+  format: yaml
+  label: Backstage Token Verification API
+  slug: backstage-token-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-token-verification-api-openapi.yml
 auth_types:
 - apiKey
 - http

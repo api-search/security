@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: state-dept-country-information-api-openapi.yml
   format: yaml
-  label: State Department Consular Affairs API
-  slug: state-dept-consular-affairs
+  label: State Department Country Information API
+  slug: state-dept-country-information-api
   spec_type: OpenAPI
-  url: https://cadataapi.state.gov/
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/state-dept/refs/heads/main/openapi/state-dept-country-information-api-openapi.yml
+- filename: state-dept-passport-locations-api-openapi.yml
   format: yaml
-  label: State Department Travel Advisories
-  slug: state-dept-travel-advisories
+  label: State Department Passport Locations API
+  slug: state-dept-passport-locations-api
   spec_type: OpenAPI
-  url: https://cadataapi.state.gov/
+  url: https://raw.githubusercontent.com/api-evangelist/state-dept/refs/heads/main/openapi/state-dept-passport-locations-api-openapi.yml
+- filename: state-dept-travel-advisories-api-openapi.yml
+  format: yaml
+  label: State Department Travel Advisories API
+  slug: state-dept-travel-advisories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/state-dept/refs/heads/main/openapi/state-dept-travel-advisories-api-openapi.yml
 description: ''
 domains:
 - caa: []

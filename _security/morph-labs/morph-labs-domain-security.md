@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: morph-labs-openapi.yml
+- filename: morph-labs-apply-api-openapi.yml
   format: yaml
   label: Morph Apply API
-  slug: morph-apply-api
+  slug: morph-labs-apply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morph-labs/refs/heads/main/openapi/morph-labs-openapi.yml
-- filename: morph-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/morph-labs/refs/heads/main/openapi/morph-labs-apply-api-openapi.yml
+- filename: morph-labs-embeddings-api-openapi.yml
   format: yaml
   label: Morph Embeddings API
-  slug: morph-embeddings-api
+  slug: morph-labs-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morph-labs/refs/heads/main/openapi/morph-labs-openapi.yml
-- filename: morph-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/morph-labs/refs/heads/main/openapi/morph-labs-embeddings-api-openapi.yml
+- filename: morph-labs-rerank-api-openapi.yml
   format: yaml
   label: Morph Rerank API
-  slug: morph-rerank-api
+  slug: morph-labs-rerank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morph-labs/refs/heads/main/openapi/morph-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/morph-labs/refs/heads/main/openapi/morph-labs-rerank-api-openapi.yml
 description: ''
 domains:
 - caa:

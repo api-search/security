@@ -1,11 +1,101 @@
 ---
 api_specs:
-- filename: national-archives-and-records-administration-openapi.json
-  format: json
-  label: National Archives Catalog API
-  slug: catalog-api
+- filename: national-archives-and-records-administration-accounts-api-openapi.yml
+  format: yaml
+  label: National Archives and Records Administration Accounts API
+  slug: national-archives-and-records-administration-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/main/openapi/national-archives-and-records-administration-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/openapi/national-archives-and-records-administration-accounts-api-openapi.yml
+- filename: national-archives-and-records-administration-announcements-api-openapi.yml
+  format: yaml
+  label: National Archives and Records Administration Announcements API
+  slug: national-archives-and-records-administration-announcements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/openapi/national-archives-and-records-administration-announcements-api-openapi.yml
+- filename: national-archives-and-records-administration-comments-api-openapi.yml
+  format: yaml
+  label: National Archives and Records Administration Comments API
+  slug: national-archives-and-records-administration-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/openapi/national-archives-and-records-administration-comments-api-openapi.yml
+- filename: national-archives-and-records-administration-contributions-api-openapi.yml
+  format: yaml
+  label: National Archives and Records Administration Contributions API
+  slug: national-archives-and-records-administration-contributions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/openapi/national-archives-and-records-administration-contributions-api-openapi.yml
+- filename: national-archives-and-records-administration-extracted-text-api-openapi.yml
+  format: yaml
+  label: National Archives and Records Administration Extracted Text API
+  slug: national-archives-and-records-administration-extracted-text-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/openapi/national-archives-and-records-administration-extracted-text-api-openapi.yml
+- filename: national-archives-and-records-administration-justifications-api-openapi.yml
+  format: yaml
+  label: National Archives and Records Administration Justifications API
+  slug: national-archives-and-records-administration-justifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/openapi/national-archives-and-records-administration-justifications-api-openapi.yml
+- filename: national-archives-and-records-administration-metadata-api-openapi.yml
+  format: yaml
+  label: National Archives and Records Administration Metadata API
+  slug: national-archives-and-records-administration-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/openapi/national-archives-and-records-administration-metadata-api-openapi.yml
+- filename: national-archives-and-records-administration-online-availability-api-openapi.yml
+  format: yaml
+  label: National Archives and Records Administration Online Availability API
+  slug: national-archives-and-records-administration-online-availability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/openapi/national-archives-and-records-administration-online-availability-api-openapi.yml
+- filename: national-archives-and-records-administration-other-extracted-text-api-openapi.yml
+  format: yaml
+  label: National Archives and Records Administration Other Extracted Text API
+  slug: national-archives-and-records-administration-other-extracted-text-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/openapi/national-archives-and-records-administration-other-extracted-text-api-openapi.yml
+- filename: national-archives-and-records-administration-partner-api-openapi.yml
+  format: yaml
+  label: National Archives and Records Administration Partner API
+  slug: national-archives-and-records-administration-partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/openapi/national-archives-and-records-administration-partner-api-openapi.yml
+- filename: national-archives-and-records-administration-records-api-openapi.yml
+  format: yaml
+  label: National Archives and Records Administration Records API
+  slug: national-archives-and-records-administration-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/openapi/national-archives-and-records-administration-records-api-openapi.yml
+- filename: national-archives-and-records-administration-statistics-api-openapi.yml
+  format: yaml
+  label: National Archives and Records Administration Statistics API
+  slug: national-archives-and-records-administration-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/openapi/national-archives-and-records-administration-statistics-api-openapi.yml
+- filename: national-archives-and-records-administration-tags-api-openapi.yml
+  format: yaml
+  label: National Archives and Records Administration Tags API
+  slug: national-archives-and-records-administration-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/openapi/national-archives-and-records-administration-tags-api-openapi.yml
+- filename: national-archives-and-records-administration-transcriptions-api-openapi.yml
+  format: yaml
+  label: National Archives and Records Administration Transcriptions API
+  slug: national-archives-and-records-administration-transcriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/openapi/national-archives-and-records-administration-transcriptions-api-openapi.yml
+- filename: national-archives-and-records-administration-users-api-openapi.yml
+  format: yaml
+  label: National Archives and Records Administration Users API
+  slug: national-archives-and-records-administration-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/openapi/national-archives-and-records-administration-users-api-openapi.yml
+- filename: national-archives-and-records-administration-utilities-api-openapi.yml
+  format: yaml
+  label: National Archives and Records Administration Utilities API
+  slug: national-archives-and-records-administration-utilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/openapi/national-archives-and-records-administration-utilities-api-openapi.yml
 description: ''
 domains:
 - caa:

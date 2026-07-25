@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: apptainer-openapi.yaml
+- filename: apptainer-images-api-openapi.yml
   format: yaml
-  label: Apptainer API
-  slug: apptainer-api
+  label: Apptainer Images API
+  slug: apptainer-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptainer/refs/heads/main/openapi/apptainer-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apptainer/refs/heads/main/openapi/apptainer-images-api-openapi.yml
+- filename: apptainer-instances-api-openapi.yml
+  format: yaml
+  label: Apptainer Instances API
+  slug: apptainer-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apptainer/refs/heads/main/openapi/apptainer-instances-api-openapi.yml
 description: ''
 domains:
 - caa: []

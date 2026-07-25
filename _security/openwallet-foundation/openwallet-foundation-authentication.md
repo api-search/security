@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: openwallet-foundation-openapi.yml
+- filename: openwallet-foundation-basicmessages-api-openapi.yml
   format: yaml
-  label: ACA-Py Admin API
-  slug: aca-py-admin-api
+  label: OpenWallet Foundation Basicmessages API
+  slug: openwallet-foundation-basicmessages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/openapi/openwallet-foundation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/openapi/openwallet-foundation-basicmessages-api-openapi.yml
+- filename: openwallet-foundation-connections-api-openapi.yml
+  format: yaml
+  label: OpenWallet Foundation Connections API
+  slug: openwallet-foundation-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/openapi/openwallet-foundation-connections-api-openapi.yml
+- filename: openwallet-foundation-forward-api-openapi.yml
+  format: yaml
+  label: OpenWallet Foundation Forward API
+  slug: openwallet-foundation-forward-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/openapi/openwallet-foundation-forward-api-openapi.yml
+- filename: openwallet-foundation-issue-credential-api-openapi.yml
+  format: yaml
+  label: OpenWallet Foundation Issue Credential API
+  slug: openwallet-foundation-issue-credential-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/openapi/openwallet-foundation-issue-credential-api-openapi.yml
+- filename: openwallet-foundation-present-proof-api-openapi.yml
+  format: yaml
+  label: OpenWallet Foundation Present Proof API
+  slug: openwallet-foundation-present-proof-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/openapi/openwallet-foundation-present-proof-api-openapi.yml
+- filename: openwallet-foundation-ws-api-openapi.yml
+  format: yaml
+  label: OpenWallet Foundation Ws API
+  slug: openwallet-foundation-ws-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/openapi/openwallet-foundation-ws-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

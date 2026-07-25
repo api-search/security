@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: uptrace-openapi.yml
+- filename: uptrace-alerts-api-openapi.yml
   format: yaml
-  label: Uptrace API
-  slug: uptrace
+  label: Uptrace Alerts API
+  slug: uptrace-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/openapi/uptrace-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/openapi/uptrace-alerts-api-openapi.yml
+- filename: uptrace-annotations-api-openapi.yml
+  format: yaml
+  label: Uptrace Annotations API
+  slug: uptrace-annotations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/openapi/uptrace-annotations-api-openapi.yml
+- filename: uptrace-dashboards-api-openapi.yml
+  format: yaml
+  label: Uptrace Dashboards API
+  slug: uptrace-dashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/openapi/uptrace-dashboards-api-openapi.yml
+- filename: uptrace-metrics-api-openapi.yml
+  format: yaml
+  label: Uptrace Metrics API
+  slug: uptrace-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/openapi/uptrace-metrics-api-openapi.yml
+- filename: uptrace-projects-api-openapi.yml
+  format: yaml
+  label: Uptrace Projects API
+  slug: uptrace-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/openapi/uptrace-projects-api-openapi.yml
 description: ''
 domains:
 - caa: []

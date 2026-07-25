@@ -1,36 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: roadie-io-openapi.yml
+- filename: roadie-io-catalog-api-openapi.yml
   format: yaml
   label: Roadie Catalog API
   slug: roadie-io-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/openapi/roadie-io-openapi.yml
-- filename: roadie-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/openapi/roadie-io-catalog-api-openapi.yml
+- filename: roadie-io-entity-push-api-openapi.yml
   format: yaml
   label: Roadie Entity Push API
   slug: roadie-io-entity-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/openapi/roadie-io-openapi.yml
-- filename: roadie-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/openapi/roadie-io-entity-push-api-openapi.yml
+- filename: roadie-io-scaffolder-api-openapi.yml
   format: yaml
   label: Roadie Scaffolder API
   slug: roadie-io-scaffolder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/openapi/roadie-io-openapi.yml
-- filename: roadie-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/openapi/roadie-io-scaffolder-api-openapi.yml
+- filename: roadie-io-tech-insights-api-openapi.yml
   format: yaml
   label: Roadie Tech Insights API
   slug: roadie-io-tech-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/openapi/roadie-io-openapi.yml
-- filename: roadie-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/openapi/roadie-io-tech-insights-api-openapi.yml
+- filename: roadie-io-techdocs-api-openapi.yml
   format: yaml
   label: Roadie TechDocs API
   slug: roadie-io-techdocs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/openapi/roadie-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/openapi/roadie-io-techdocs-api-openapi.yml
 auth_types:
 - http
 description: ''

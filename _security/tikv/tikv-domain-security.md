@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: tikv-http-api-openapi.yml
+- filename: tikv-configuration-api-openapi.yml
   format: yaml
-  label: TiKV HTTP Management API
-  slug: tikv-http-api
+  label: TiKV Configuration API
+  slug: tikv-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tikv/refs/heads/main/openapi/tikv-http-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tikv/refs/heads/main/openapi/tikv-configuration-api-openapi.yml
+- filename: tikv-debug-api-openapi.yml
+  format: yaml
+  label: TiKV Debug API
+  slug: tikv-debug-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tikv/refs/heads/main/openapi/tikv-debug-api-openapi.yml
+- filename: tikv-metrics-api-openapi.yml
+  format: yaml
+  label: TiKV Metrics API
+  slug: tikv-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tikv/refs/heads/main/openapi/tikv-metrics-api-openapi.yml
+- filename: tikv-regions-api-openapi.yml
+  format: yaml
+  label: TiKV Regions API
+  slug: tikv-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tikv/refs/heads/main/openapi/tikv-regions-api-openapi.yml
+- filename: tikv-status-api-openapi.yml
+  format: yaml
+  label: TiKV Status API
+  slug: tikv-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tikv/refs/heads/main/openapi/tikv-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

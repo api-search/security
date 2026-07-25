@@ -1,5 +1,30 @@
 ---
 api_key_in: []
+api_specs:
+- filename: bandcamp-account-api-openapi.yml
+  format: yaml
+  label: Bandcamp Account API
+  slug: bandcamp-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/openapi/bandcamp-account-api-openapi.yml
+- filename: bandcamp-merch-orders-api-openapi.yml
+  format: yaml
+  label: Bandcamp Merch Orders API
+  slug: bandcamp-merch-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/openapi/bandcamp-merch-orders-api-openapi.yml
+- filename: bandcamp-oauth-api-openapi.yml
+  format: yaml
+  label: Bandcamp OAuth API
+  slug: bandcamp-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/openapi/bandcamp-oauth-api-openapi.yml
+- filename: bandcamp-sales-api-openapi.yml
+  format: yaml
+  label: Bandcamp Sales API
+  slug: bandcamp-sales-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/openapi/bandcamp-sales-api-openapi.yml
 auth_types:
 - http
 - oauth2

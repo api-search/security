@@ -8,6 +8,36 @@ api_specs:
   slug: inference-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-openai/refs/heads/main/asyncapi/azure-openai-asyncapi.yml
+- filename: azure-openai-audio-api-openapi.yml
+  format: yaml
+  label: Azure OpenAI Service Audio API
+  slug: azure-openai-audio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-openai/refs/heads/main/openapi/azure-openai-audio-api-openapi.yml
+- filename: azure-openai-chat-completions-api-openapi.yml
+  format: yaml
+  label: Azure OpenAI Service Chat Completions API
+  slug: azure-openai-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-openai/refs/heads/main/openapi/azure-openai-chat-completions-api-openapi.yml
+- filename: azure-openai-completions-api-openapi.yml
+  format: yaml
+  label: Azure OpenAI Service Completions API
+  slug: azure-openai-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-openai/refs/heads/main/openapi/azure-openai-completions-api-openapi.yml
+- filename: azure-openai-embeddings-api-openapi.yml
+  format: yaml
+  label: Azure OpenAI Service Embeddings API
+  slug: azure-openai-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-openai/refs/heads/main/openapi/azure-openai-embeddings-api-openapi.yml
+- filename: azure-openai-images-api-openapi.yml
+  format: yaml
+  label: Azure OpenAI Service Images API
+  slug: azure-openai-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-openai/refs/heads/main/openapi/azure-openai-images-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

@@ -1,35 +1,77 @@
 ---
 api_specs:
-- filename: coval-ai-openapi.yml
+- filename: coval-ai-agents-api-openapi.yml
   format: yaml
-  label: Coval Datasets API
-  slug: datasets
+  label: Coval Agents API
+  slug: coval-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/openapi/coval-ai-openapi.yml
-- filename: coval-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/openapi/coval-ai-agents-api-openapi.yml
+- filename: coval-ai-conversations-api-openapi.yml
   format: yaml
-  label: Coval Simulations & Runs API
-  slug: simulations
+  label: Coval Conversations API
+  slug: coval-ai-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/openapi/coval-ai-openapi.yml
-- filename: coval-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/openapi/coval-ai-conversations-api-openapi.yml
+- filename: coval-ai-metrics-api-openapi.yml
   format: yaml
-  label: Coval Scenarios & Personas API
-  slug: scenarios
+  label: Coval Metrics API
+  slug: coval-ai-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/openapi/coval-ai-openapi.yml
-- filename: coval-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/openapi/coval-ai-metrics-api-openapi.yml
+- filename: coval-ai-mutations-api-openapi.yml
   format: yaml
-  label: Coval Metrics & Scorers API
-  slug: metrics
+  label: Coval Mutations API
+  slug: coval-ai-mutations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/openapi/coval-ai-openapi.yml
-- filename: coval-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/openapi/coval-ai-mutations-api-openapi.yml
+- filename: coval-ai-personas-api-openapi.yml
   format: yaml
-  label: Coval Conversations & Observability API
-  slug: conversations
+  label: Coval Personas API
+  slug: coval-ai-personas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/openapi/coval-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/openapi/coval-ai-personas-api-openapi.yml
+- filename: coval-ai-reports-api-openapi.yml
+  format: yaml
+  label: Coval Reports API
+  slug: coval-ai-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/openapi/coval-ai-reports-api-openapi.yml
+- filename: coval-ai-run-templates-api-openapi.yml
+  format: yaml
+  label: Coval Run Templates API
+  slug: coval-ai-run-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/openapi/coval-ai-run-templates-api-openapi.yml
+- filename: coval-ai-runs-api-openapi.yml
+  format: yaml
+  label: Coval Runs API
+  slug: coval-ai-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/openapi/coval-ai-runs-api-openapi.yml
+- filename: coval-ai-scheduled-runs-api-openapi.yml
+  format: yaml
+  label: Coval Scheduled Runs API
+  slug: coval-ai-scheduled-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/openapi/coval-ai-scheduled-runs-api-openapi.yml
+- filename: coval-ai-simulations-api-openapi.yml
+  format: yaml
+  label: Coval Simulations API
+  slug: coval-ai-simulations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/openapi/coval-ai-simulations-api-openapi.yml
+- filename: coval-ai-test-cases-api-openapi.yml
+  format: yaml
+  label: Coval Test Cases API
+  slug: coval-ai-test-cases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/openapi/coval-ai-test-cases-api-openapi.yml
+- filename: coval-ai-test-sets-api-openapi.yml
+  format: yaml
+  label: Coval Test Sets API
+  slug: coval-ai-test-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/openapi/coval-ai-test-sets-api-openapi.yml
 description: ''
 domains:
 - caa: []

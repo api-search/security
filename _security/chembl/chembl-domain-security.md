@@ -1,17 +1,101 @@
 ---
 api_specs:
-- filename: docs
+- filename: chembl-activity-api-openapi.yml
   format: yaml
-  label: ChEMBL Data API
-  slug: chembl-data-api
+  label: ChEMBL Activity API
+  slug: chembl-activity-api
   spec_type: OpenAPI
-  url: https://www.ebi.ac.uk/chembl/api/data/docs
-- filename: docs
+  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-activity-api-openapi.yml
+- filename: chembl-assay-api-openapi.yml
   format: yaml
-  label: ChEMBL Cheminformatics Utilities API
-  slug: chembl-cheminformatics-utilities-api
+  label: ChEMBL Assay API
+  slug: chembl-assay-api
   spec_type: OpenAPI
-  url: https://www.ebi.ac.uk/chembl/api/utils/docs
+  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-assay-api-openapi.yml
+- filename: chembl-atc-classification-api-openapi.yml
+  format: yaml
+  label: ChEMBL ATC Classification API
+  slug: chembl-atc-classification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-atc-classification-api-openapi.yml
+- filename: chembl-binding-site-api-openapi.yml
+  format: yaml
+  label: ChEMBL Binding Site API
+  slug: chembl-binding-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-binding-site-api-openapi.yml
+- filename: chembl-cell-line-api-openapi.yml
+  format: yaml
+  label: ChEMBL Cell Line API
+  slug: chembl-cell-line-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-cell-line-api-openapi.yml
+- filename: chembl-compound-record-api-openapi.yml
+  format: yaml
+  label: ChEMBL Compound Record API
+  slug: chembl-compound-record-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-compound-record-api-openapi.yml
+- filename: chembl-document-api-openapi.yml
+  format: yaml
+  label: ChEMBL Document API
+  slug: chembl-document-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-document-api-openapi.yml
+- filename: chembl-drug-api-openapi.yml
+  format: yaml
+  label: ChEMBL Drug API
+  slug: chembl-drug-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-drug-api-openapi.yml
+- filename: chembl-drug-indication-api-openapi.yml
+  format: yaml
+  label: ChEMBL Drug Indication API
+  slug: chembl-drug-indication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-drug-indication-api-openapi.yml
+- filename: chembl-drug-warning-api-openapi.yml
+  format: yaml
+  label: ChEMBL Drug Warning API
+  slug: chembl-drug-warning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-drug-warning-api-openapi.yml
+- filename: chembl-mechanism-api-openapi.yml
+  format: yaml
+  label: ChEMBL Mechanism API
+  slug: chembl-mechanism-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-mechanism-api-openapi.yml
+- filename: chembl-molecule-api-openapi.yml
+  format: yaml
+  label: ChEMBL Molecule API
+  slug: chembl-molecule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-molecule-api-openapi.yml
+- filename: chembl-similarity-api-openapi.yml
+  format: yaml
+  label: ChEMBL Similarity API
+  slug: chembl-similarity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-similarity-api-openapi.yml
+- filename: chembl-status-api-openapi.yml
+  format: yaml
+  label: ChEMBL Status API
+  slug: chembl-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-status-api-openapi.yml
+- filename: chembl-substructure-api-openapi.yml
+  format: yaml
+  label: ChEMBL Substructure API
+  slug: chembl-substructure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-substructure-api-openapi.yml
+- filename: chembl-target-api-openapi.yml
+  format: yaml
+  label: ChEMBL Target API
+  slug: chembl-target-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-target-api-openapi.yml
 description: ''
 domains:
 - caa: []

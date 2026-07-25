@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: emissary-ingress-openapi.yml
+- filename: emissary-ingress-authservice-api-openapi.yml
   format: yaml
-  label: Emissary-Ingress Configuration API
-  slug: emissary-ingress-api
+  label: Emissary-Ingress AuthService API
+  slug: emissary-ingress-authservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emissary-ingress/refs/heads/main/openapi/emissary-ingress-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emissary-ingress/refs/heads/main/openapi/emissary-ingress-authservice-api-openapi.yml
+- filename: emissary-ingress-host-api-openapi.yml
+  format: yaml
+  label: Emissary-Ingress Host API
+  slug: emissary-ingress-host-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emissary-ingress/refs/heads/main/openapi/emissary-ingress-host-api-openapi.yml
+- filename: emissary-ingress-mapping-api-openapi.yml
+  format: yaml
+  label: Emissary-Ingress Mapping API
+  slug: emissary-ingress-mapping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emissary-ingress/refs/heads/main/openapi/emissary-ingress-mapping-api-openapi.yml
+- filename: emissary-ingress-ratelimitservice-api-openapi.yml
+  format: yaml
+  label: Emissary-Ingress RateLimitService API
+  slug: emissary-ingress-ratelimitservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emissary-ingress/refs/heads/main/openapi/emissary-ingress-ratelimitservice-api-openapi.yml
+- filename: emissary-ingress-tlscontext-api-openapi.yml
+  format: yaml
+  label: Emissary-Ingress TLSContext API
+  slug: emissary-ingress-tlscontext-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emissary-ingress/refs/heads/main/openapi/emissary-ingress-tlscontext-api-openapi.yml
 description: ''
 domains:
 - caa: []

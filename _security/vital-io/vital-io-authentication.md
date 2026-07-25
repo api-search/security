@@ -2,48 +2,108 @@
 api_key_in:
 - header
 api_specs:
-- filename: vital-users-api-openapi.yml
+- filename: vital-io-aggregate-api-openapi.yml
   format: yaml
-  label: Vital Users API
-  slug: vital-users-api
+  label: Vital Aggregate API
+  slug: vital-io-aggregate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-users-api-openapi.yml
-- filename: vital-link-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-aggregate-api-openapi.yml
+- filename: vital-io-compendium-api-openapi.yml
   format: yaml
-  label: Vital Link API
-  slug: vital-link-api
+  label: Vital compendium API
+  slug: vital-io-compendium-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-link-api-openapi.yml
-- filename: vital-wearables-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-compendium-api-openapi.yml
+- filename: vital-io-insurance-api-openapi.yml
   format: yaml
-  label: Vital Wearables Data API
-  slug: vital-wearables-api
+  label: Vital insurance API
+  slug: vital-io-insurance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-wearables-api-openapi.yml
-- filename: vital-lab-testing-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-insurance-api-openapi.yml
+- filename: vital-io-introspect-api-openapi.yml
   format: yaml
-  label: Vital Lab Testing API
-  slug: vital-lab-testing-api
+  label: Vital introspect API
+  slug: vital-io-introspect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-lab-testing-api-openapi.yml
-- filename: vital-lab-report-parser-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-introspect-api-openapi.yml
+- filename: vital-io-lab-account-api-openapi.yml
   format: yaml
-  label: Vital Lab Report Parser API
-  slug: vital-lab-report-parser-api
+  label: Vital lab_account API
+  slug: vital-io-lab-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-lab-report-parser-api-openapi.yml
-- filename: vital-sense-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-lab-account-api-openapi.yml
+- filename: vital-io-lab-report-api-openapi.yml
   format: yaml
-  label: Vital Sense API
-  slug: vital-sense-api
+  label: Vital lab_report API
+  slug: vital-io-lab-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-sense-api-openapi.yml
-- filename: vital-team-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-lab-report-api-openapi.yml
+- filename: vital-io-lab-tests-api-openapi.yml
   format: yaml
-  label: Vital Team API
-  slug: vital-team-api
+  label: Vital lab_tests API
+  slug: vital-io-lab-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-team-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-lab-tests-api-openapi.yml
+- filename: vital-io-link-api-openapi.yml
+  format: yaml
+  label: Vital link API
+  slug: vital-io-link-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-link-api-openapi.yml
+- filename: vital-io-order-api-openapi.yml
+  format: yaml
+  label: Vital order API
+  slug: vital-io-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-order-api-openapi.yml
+- filename: vital-io-order-transaction-api-openapi.yml
+  format: yaml
+  label: Vital order_transaction API
+  slug: vital-io-order-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-order-transaction-api-openapi.yml
+- filename: vital-io-orders-api-openapi.yml
+  format: yaml
+  label: Vital orders API
+  slug: vital-io-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-orders-api-openapi.yml
+- filename: vital-io-payor-api-openapi.yml
+  format: yaml
+  label: Vital payor API
+  slug: vital-io-payor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-payor-api-openapi.yml
+- filename: vital-io-providers-api-openapi.yml
+  format: yaml
+  label: Vital providers API
+  slug: vital-io-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-providers-api-openapi.yml
+- filename: vital-io-summary-api-openapi.yml
+  format: yaml
+  label: Vital summary API
+  slug: vital-io-summary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-summary-api-openapi.yml
+- filename: vital-io-team-api-openapi.yml
+  format: yaml
+  label: Vital team API
+  slug: vital-io-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-team-api-openapi.yml
+- filename: vital-io-timeseries-api-openapi.yml
+  format: yaml
+  label: Vital timeseries API
+  slug: vital-io-timeseries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-timeseries-api-openapi.yml
+- filename: vital-io-user-api-openapi.yml
+  format: yaml
+  label: Vital user API
+  slug: vital-io-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-user-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

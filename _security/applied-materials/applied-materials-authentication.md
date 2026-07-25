@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: applied-materials-openapi.yaml
+- filename: applied-materials-equipment-api-openapi.yml
   format: yaml
-  label: Applied Materials API
-  slug: applied-materials-api
+  label: Applied Materials Equipment API
+  slug: applied-materials-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applied-materials/refs/heads/main/openapi/applied-materials-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/applied-materials/refs/heads/main/openapi/applied-materials-equipment-api-openapi.yml
+- filename: applied-materials-maintenance-api-openapi.yml
+  format: yaml
+  label: Applied Materials Maintenance API
+  slug: applied-materials-maintenance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/applied-materials/refs/heads/main/openapi/applied-materials-maintenance-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: mysql-authentication-api-openapi.yml
+  format: yaml
+  label: MySQL Authentication API
+  slug: mysql-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mysql/refs/heads/main/openapi/mysql-authentication-api-openapi.yml
 description: ''
 domains:
 - caa:

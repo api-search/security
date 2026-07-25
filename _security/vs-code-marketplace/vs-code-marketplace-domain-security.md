@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: vs-code-marketplace-gallery-api-openapi.yml
+- filename: vs-code-marketplace-assets-api-openapi.yml
   format: yaml
-  label: VS Code Marketplace Gallery API
-  slug: vs-code-marketplace-gallery-api
+  label: VS Code Marketplace Assets API
+  slug: vs-code-marketplace-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vs-code-marketplace/refs/heads/main/openapi/vs-code-marketplace-gallery-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vs-code-marketplace/refs/heads/main/openapi/vs-code-marketplace-assets-api-openapi.yml
+- filename: vs-code-marketplace-extensions-api-openapi.yml
+  format: yaml
+  label: VS Code Marketplace Extensions API
+  slug: vs-code-marketplace-extensions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vs-code-marketplace/refs/heads/main/openapi/vs-code-marketplace-extensions-api-openapi.yml
+- filename: vs-code-marketplace-publishers-api-openapi.yml
+  format: yaml
+  label: VS Code Marketplace Publishers API
+  slug: vs-code-marketplace-publishers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vs-code-marketplace/refs/heads/main/openapi/vs-code-marketplace-publishers-api-openapi.yml
 description: ''
 domains:
 - caa:

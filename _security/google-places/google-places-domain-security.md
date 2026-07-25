@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-places-places-api-openapi.yml
   format: yaml
-  label: Google Places API
-  slug: google-places-api
+  label: Google Places Places API
+  slug: google-places-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/openapi/google-places-places-api-openapi.yml
+- filename: google-places-search-api-openapi.yml
+  format: yaml
+  label: Google Places Search API
+  slug: google-places-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/openapi/google-places-search-api-openapi.yml
 description: ''
 domains:
 - caa:

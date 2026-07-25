@@ -3,162 +3,198 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: chainstack-platform-api-openapi.yml
-  format: yaml
-  label: Chainstack Platform API
-  slug: chainstack-platform-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-platform-api-openapi.yml
 - filename: chainstack-faucet-api-openapi.yml
   format: yaml
   label: Chainstack Faucet API
   slug: chainstack-faucet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-faucet-api-openapi.yml
-- filename: chainstack-ethereum-node-api-openapi.yml
+- filename: chainstack-account-info-api-openapi.yml
   format: yaml
-  label: Chainstack Ethereum Node API
-  slug: chainstack-ethereum-node-api
+  label: Chainstack Account Info API
+  slug: chainstack-account-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-ethereum-node-api-openapi.yml
-- filename: chainstack-ethereum-beacon-chain-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-account-info-api-openapi.yml
+- filename: chainstack-accounts-info-api-openapi.yml
   format: yaml
-  label: Chainstack Ethereum Beacon Chain API
-  slug: chainstack-ethereum-beacon-chain-api
+  label: Chainstack Accounts Info API
+  slug: chainstack-accounts-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-ethereum-beacon-chain-api-openapi.yml
-- filename: chainstack-solana-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-accounts-info-api-openapi.yml
+- filename: chainstack-blocks-info-api-openapi.yml
   format: yaml
-  label: Chainstack Solana Node API
-  slug: chainstack-solana-node-api
+  label: Chainstack Blocks Info API
+  slug: chainstack-blocks-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-solana-node-api-openapi.yml
-- filename: chainstack-bitcoin-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-blocks-info-api-openapi.yml
+- filename: chainstack-chain-info-api-openapi.yml
   format: yaml
-  label: Chainstack Bitcoin Node API
-  slug: chainstack-bitcoin-node-api
+  label: Chainstack Chain Info API
+  slug: chainstack-chain-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-bitcoin-node-api-openapi.yml
-- filename: chainstack-bnb-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-chain-info-api-openapi.yml
+- filename: chainstack-client-info-api-openapi.yml
   format: yaml
-  label: Chainstack BNB Smart Chain Node API
-  slug: chainstack-bnb-node-api
+  label: Chainstack Client Info API
+  slug: chainstack-client-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-bnb-node-api-openapi.yml
-- filename: chainstack-polygon-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-client-info-api-openapi.yml
+- filename: chainstack-configuration-info-api-openapi.yml
   format: yaml
-  label: Chainstack Polygon Node API
-  slug: chainstack-polygon-node-api
+  label: Chainstack Configuration Info API
+  slug: chainstack-configuration-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-polygon-node-api-openapi.yml
-- filename: chainstack-arbitrum-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-configuration-info-api-openapi.yml
+- filename: chainstack-debug-and-trace-api-openapi.yml
   format: yaml
-  label: Chainstack Arbitrum Node API
-  slug: chainstack-arbitrum-node-api
+  label: Chainstack Debug And Trace API
+  slug: chainstack-debug-and-trace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-arbitrum-node-api-openapi.yml
-- filename: chainstack-optimism-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-debug-and-trace-api-openapi.yml
+- filename: chainstack-debug-api-openapi.yml
   format: yaml
-  label: Chainstack Optimism Node API
-  slug: chainstack-optimism-node-api
+  label: Chainstack Debug API
+  slug: chainstack-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-optimism-node-api-openapi.yml
-- filename: chainstack-base-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-debug-api-openapi.yml
+- filename: chainstack-deployment-options-api-openapi.yml
   format: yaml
-  label: Chainstack Base Node API
-  slug: chainstack-base-node-api
+  label: Chainstack Deployment Options API
+  slug: chainstack-deployment-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-base-node-api-openapi.yml
-- filename: chainstack-avalanche-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-deployment-options-api-openapi.yml
+- filename: chainstack-events-api-openapi.yml
   format: yaml
-  label: Chainstack Avalanche Node API
-  slug: chainstack-avalanche-node-api
+  label: Chainstack Events API
+  slug: chainstack-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-avalanche-node-api-openapi.yml
-- filename: chainstack-fantom-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-events-api-openapi.yml
+- filename: chainstack-execute-transactions-api-openapi.yml
   format: yaml
-  label: Chainstack Fantom Node API
-  slug: chainstack-fantom-node-api
+  label: Chainstack Execute Transactions API
+  slug: chainstack-execute-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-fantom-node-api-openapi.yml
-- filename: chainstack-gnosis-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-execute-transactions-api-openapi.yml
+- filename: chainstack-filter-handling-api-openapi.yml
   format: yaml
-  label: Chainstack Gnosis Node API
-  slug: chainstack-gnosis-node-api
+  label: Chainstack Filter Handling API
+  slug: chainstack-filter-handling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-gnosis-node-api-openapi.yml
-- filename: chainstack-cronos-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-filter-handling-api-openapi.yml
+- filename: chainstack-gas-data-api-openapi.yml
   format: yaml
-  label: Chainstack Cronos Node API
-  slug: chainstack-cronos-node-api
+  label: Chainstack Gas Data API
+  slug: chainstack-gas-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-cronos-node-api-openapi.yml
-- filename: chainstack-aurora-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-gas-data-api-openapi.yml
+- filename: chainstack-general-api-openapi.yml
   format: yaml
-  label: Chainstack Aurora Node API
-  slug: chainstack-aurora-node-api
+  label: Chainstack General API
+  slug: chainstack-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-aurora-node-api-openapi.yml
-- filename: chainstack-ronin-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-general-api-openapi.yml
+- filename: chainstack-history-api-openapi.yml
   format: yaml
-  label: Chainstack Ronin Node API
-  slug: chainstack-ronin-node-api
+  label: Chainstack History API
+  slug: chainstack-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-ronin-node-api-openapi.yml
-- filename: chainstack-tron-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-history-api-openapi.yml
+- filename: chainstack-logs-and-events-api-openapi.yml
   format: yaml
-  label: Chainstack TRON Node API
-  slug: chainstack-tron-node-api
+  label: Chainstack Logs And Events API
+  slug: chainstack-logs-and-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-tron-node-api-openapi.yml
-- filename: chainstack-ton-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-logs-and-events-api-openapi.yml
+- filename: chainstack-network-api-openapi.yml
   format: yaml
-  label: Chainstack TON Node API
-  slug: chainstack-ton-node-api
+  label: Chainstack Network API
+  slug: chainstack-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-ton-node-api-openapi.yml
-- filename: chainstack-starknet-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-network-api-openapi.yml
+- filename: chainstack-node-api-openapi.yml
   format: yaml
-  label: Chainstack Starknet Node API
-  slug: chainstack-starknet-node-api
+  label: Chainstack Node API
+  slug: chainstack-node-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-starknet-node-api-openapi.yml
-- filename: chainstack-zksync-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-node-api-openapi.yml
+- filename: chainstack-node-v2-api-openapi.yml
   format: yaml
-  label: Chainstack zkSync Era Node API
-  slug: chainstack-zksync-node-api
+  label: Chainstack Node V2 API
+  slug: chainstack-node-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-zksync-node-api-openapi.yml
-- filename: chainstack-polygon-zkevm-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-node-v2-api-openapi.yml
+- filename: chainstack-organization-api-openapi.yml
   format: yaml
-  label: Chainstack Polygon zkEVM Node API
-  slug: chainstack-polygon-zkevm-node-api
+  label: Chainstack Organization API
+  slug: chainstack-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-polygon-zkevm-node-api-openapi.yml
-- filename: chainstack-hyperliquid-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-organization-api-openapi.yml
+- filename: chainstack-project-api-openapi.yml
   format: yaml
-  label: Chainstack Hyperliquid Node API
-  slug: chainstack-hyperliquid-node-api
+  label: Chainstack Project API
+  slug: chainstack-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-hyperliquid-node-api-openapi.yml
-- filename: chainstack-monad-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-project-api-openapi.yml
+- filename: chainstack-project-v2-api-openapi.yml
   format: yaml
-  label: Chainstack Monad Node API
-  slug: chainstack-monad-node-api
+  label: Chainstack Project V2 API
+  slug: chainstack-project-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-monad-node-api-openapi.yml
-- filename: chainstack-plasma-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-project-v2-api-openapi.yml
+- filename: chainstack-state-api-openapi.yml
   format: yaml
-  label: Chainstack Plasma Node API
-  slug: chainstack-plasma-node-api
+  label: Chainstack State API
+  slug: chainstack-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-plasma-node-api-openapi.yml
-- filename: chainstack-tempo-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-state-api-openapi.yml
+- filename: chainstack-tempo-specific-api-openapi.yml
   format: yaml
-  label: Chainstack Tempo Node API
-  slug: chainstack-tempo-node-api
+  label: Chainstack Tempo Specific API
+  slug: chainstack-tempo-specific-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-tempo-node-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-tempo-specific-api-openapi.yml
+- filename: chainstack-transaction-info-api-openapi.yml
+  format: yaml
+  label: Chainstack Transaction Info API
+  slug: chainstack-transaction-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-transaction-info-api-openapi.yml
+- filename: chainstack-transactions-info-api-openapi.yml
+  format: yaml
+  label: Chainstack Transactions Info API
+  slug: chainstack-transactions-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-transactions-info-api-openapi.yml
+- filename: chainstack-txpool-api-openapi.yml
+  format: yaml
+  label: Chainstack Txpool API
+  slug: chainstack-txpool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-txpool-api-openapi.yml
+- filename: chainstack-v2-api-openapi.yml
+  format: yaml
+  label: Chainstack V2 API
+  slug: chainstack-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-v2-api-openapi.yml
+- filename: chainstack-v3-api-openapi.yml
+  format: yaml
+  label: Chainstack V3 API
+  slug: chainstack-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-v3-api-openapi.yml
+- filename: chainstack-validatiors-info-api-openapi.yml
+  format: yaml
+  label: Chainstack Validatiors Info API
+  slug: chainstack-validatiors-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-validatiors-info-api-openapi.yml
+- filename: chainstack-zkevm-methods-api-openapi.yml
+  format: yaml
+  label: Chainstack Zkevm Methods API
+  slug: chainstack-zkevm-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-zkevm-methods-api-openapi.yml
 auth_types:
 - apiKey
 - http

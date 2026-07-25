@@ -1,60 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: joblogic-openapi.yml
-  format: yaml
-  label: Joblogic Customers API
-  slug: joblogic-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-openapi.yml
-- filename: joblogic-openapi.yml
-  format: yaml
-  label: Joblogic Contacts API
-  slug: joblogic-contacts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-openapi.yml
-- filename: joblogic-openapi.yml
-  format: yaml
-  label: Joblogic Sites API
-  slug: joblogic-sites-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-openapi.yml
-- filename: joblogic-openapi.yml
+- filename: joblogic-assets-api-openapi.yml
   format: yaml
   label: Joblogic Assets API
   slug: joblogic-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-openapi.yml
-- filename: joblogic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-assets-api-openapi.yml
+- filename: joblogic-contacts-api-openapi.yml
   format: yaml
-  label: Joblogic Jobs API
-  slug: joblogic-jobs-api
+  label: Joblogic Contacts API
+  slug: joblogic-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-openapi.yml
-- filename: joblogic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-contacts-api-openapi.yml
+- filename: joblogic-customers-api-openapi.yml
   format: yaml
-  label: Joblogic Visits API
-  slug: joblogic-visits-api
+  label: Joblogic Customers API
+  slug: joblogic-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-openapi.yml
-- filename: joblogic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-customers-api-openapi.yml
+- filename: joblogic-engineers-api-openapi.yml
   format: yaml
   label: Joblogic Engineers API
   slug: joblogic-engineers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-openapi.yml
-- filename: joblogic-openapi.yml
-  format: yaml
-  label: Joblogic Quotes API
-  slug: joblogic-quotes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-openapi.yml
-- filename: joblogic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-engineers-api-openapi.yml
+- filename: joblogic-invoices-api-openapi.yml
   format: yaml
   label: Joblogic Invoices API
   slug: joblogic-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-invoices-api-openapi.yml
+- filename: joblogic-jobs-api-openapi.yml
+  format: yaml
+  label: Joblogic Jobs API
+  slug: joblogic-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-jobs-api-openapi.yml
+- filename: joblogic-quotes-api-openapi.yml
+  format: yaml
+  label: Joblogic Quotes API
+  slug: joblogic-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-quotes-api-openapi.yml
+- filename: joblogic-sites-api-openapi.yml
+  format: yaml
+  label: Joblogic Sites API
+  slug: joblogic-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-sites-api-openapi.yml
+- filename: joblogic-visits-api-openapi.yml
+  format: yaml
+  label: Joblogic Visits API
+  slug: joblogic-visits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-visits-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

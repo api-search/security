@@ -1,59 +1,77 @@
 ---
 api_specs:
-- filename: 2ndkitchen-authservice.yaml
+- filename: 2ndkitchen-authentication-api-openapi.yml
   format: yaml
-  label: 2ndKitchen Authentication Service
-  slug: 2ndkitchen-authentication-service
+  label: 2ndKitchen Authentication API
+  slug: 2ndkitchen-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/openapi/2ndkitchen-authservice.yaml
-- filename: 2ndkitchen-businessservice.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/openapi/2ndkitchen-authentication-api-openapi.yml
+- filename: 2ndkitchen-brand-api-openapi.yml
   format: yaml
-  label: 2ndKitchen Business Service
-  slug: 2ndkitchen-business-service
+  label: 2ndKitchen Brand API
+  slug: 2ndkitchen-brand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/openapi/2ndkitchen-businessservice.yaml
-- filename: 2ndkitchen-userservice.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/openapi/2ndkitchen-brand-api-openapi.yml
+- filename: 2ndkitchen-business-api-openapi.yml
   format: yaml
-  label: 2ndKitchen User Service
-  slug: 2ndkitchen-user-service
+  label: 2ndKitchen Business API
+  slug: 2ndkitchen-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/openapi/2ndkitchen-userservice.yaml
-- filename: 2ndkitchen-restaurantservice.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/openapi/2ndkitchen-business-api-openapi.yml
+- filename: 2ndkitchen-coupons-api-openapi.yml
   format: yaml
-  label: 2ndKitchen Restaurant Service
-  slug: 2ndkitchen-restaurant-service
+  label: 2ndKitchen Coupons API
+  slug: 2ndkitchen-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/openapi/2ndkitchen-restaurantservice.yaml
-- filename: 2ndkitchen-orderservice.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/openapi/2ndkitchen-coupons-api-openapi.yml
+- filename: 2ndkitchen-deliveries-api-openapi.yml
   format: yaml
-  label: 2ndKitchen Order Service
-  slug: 2ndkitchen-order-service
+  label: 2ndKitchen Deliveries API
+  slug: 2ndkitchen-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/openapi/2ndkitchen-orderservice.yaml
-- filename: 2ndkitchen-pricingservice.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/openapi/2ndkitchen-deliveries-api-openapi.yml
+- filename: 2ndkitchen-orders-api-openapi.yml
   format: yaml
-  label: 2ndKitchen Pricing Service
-  slug: 2ndkitchen-pricing-service
+  label: 2ndKitchen Orders API
+  slug: 2ndkitchen-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/openapi/2ndkitchen-pricingservice.yaml
-- filename: 2ndkitchen-paymentservice.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/openapi/2ndkitchen-orders-api-openapi.yml
+- filename: 2ndkitchen-payment-api-openapi.yml
   format: yaml
-  label: 2ndKitchen Payment Service
-  slug: 2ndkitchen-payment-service
+  label: 2ndKitchen Payment API
+  slug: 2ndkitchen-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/openapi/2ndkitchen-paymentservice.yaml
-- filename: 2ndkitchen-deliveryservice.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/openapi/2ndkitchen-payment-api-openapi.yml
+- filename: 2ndkitchen-product-api-openapi.yml
   format: yaml
-  label: 2ndKitchen Delivery Service
-  slug: 2ndkitchen-delivery-service
+  label: 2ndKitchen Product API
+  slug: 2ndkitchen-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/openapi/2ndkitchen-deliveryservice.yaml
-- filename: 2ndkitchen-indexingservice.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/openapi/2ndkitchen-product-api-openapi.yml
+- filename: 2ndkitchen-products-api-openapi.yml
   format: yaml
-  label: 2ndKitchen Indexing Service
-  slug: 2ndkitchen-indexing-service
+  label: 2ndKitchen Products API
+  slug: 2ndkitchen-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/openapi/2ndkitchen-indexingservice.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/openapi/2ndkitchen-products-api-openapi.yml
+- filename: 2ndkitchen-restaurant-api-openapi.yml
+  format: yaml
+  label: 2ndKitchen Restaurant API
+  slug: 2ndkitchen-restaurant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/openapi/2ndkitchen-restaurant-api-openapi.yml
+- filename: 2ndkitchen-restaurants-api-openapi.yml
+  format: yaml
+  label: 2ndKitchen Restaurants API
+  slug: 2ndkitchen-restaurants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/openapi/2ndkitchen-restaurants-api-openapi.yml
+- filename: 2ndkitchen-users-api-openapi.yml
+  format: yaml
+  label: 2ndKitchen Users API
+  slug: 2ndkitchen-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/openapi/2ndkitchen-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

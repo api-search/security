@@ -6,6 +6,48 @@ api_specs:
   slug: webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumologic/refs/heads/main/asyncapi/sumologic-asyncapi.yml
+- filename: sumologic-collectors-api-openapi.yml
+  format: yaml
+  label: Sumo Logic Collectors API
+  slug: sumologic-collectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumologic/refs/heads/main/openapi/sumologic-collectors-api-openapi.yml
+- filename: sumologic-content-api-openapi.yml
+  format: yaml
+  label: Sumo Logic Content API
+  slug: sumologic-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumologic/refs/heads/main/openapi/sumologic-content-api-openapi.yml
+- filename: sumologic-dashboards-api-openapi.yml
+  format: yaml
+  label: Sumo Logic Dashboards API
+  slug: sumologic-dashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumologic/refs/heads/main/openapi/sumologic-dashboards-api-openapi.yml
+- filename: sumologic-monitors-api-openapi.yml
+  format: yaml
+  label: Sumo Logic Monitors API
+  slug: sumologic-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumologic/refs/heads/main/openapi/sumologic-monitors-api-openapi.yml
+- filename: sumologic-roles-api-openapi.yml
+  format: yaml
+  label: Sumo Logic Roles API
+  slug: sumologic-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumologic/refs/heads/main/openapi/sumologic-roles-api-openapi.yml
+- filename: sumologic-search-jobs-api-openapi.yml
+  format: yaml
+  label: Sumo Logic Search Jobs API
+  slug: sumologic-search-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumologic/refs/heads/main/openapi/sumologic-search-jobs-api-openapi.yml
+- filename: sumologic-users-api-openapi.yml
+  format: yaml
+  label: Sumo Logic Users API
+  slug: sumologic-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumologic/refs/heads/main/openapi/sumologic-users-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

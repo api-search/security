@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: logiless-openapi.yml
+- filename: logiless-articles-api-openapi.yml
   format: yaml
-  label: LOGILESS API
-  slug: logiless-api
+  label: Logiless Articles API
+  slug: logiless-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/openapi/logiless-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/openapi/logiless-articles-api-openapi.yml
+- filename: logiless-inbound-deliveries-api-openapi.yml
+  format: yaml
+  label: Logiless Inbound Deliveries API
+  slug: logiless-inbound-deliveries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/openapi/logiless-inbound-deliveries-api-openapi.yml
+- filename: logiless-inter-warehouse-transfers-api-openapi.yml
+  format: yaml
+  label: Logiless Inter-Warehouse Transfers API
+  slug: logiless-inter-warehouse-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/openapi/logiless-inter-warehouse-transfers-api-openapi.yml
+- filename: logiless-inventory-api-openapi.yml
+  format: yaml
+  label: Logiless Inventory API
+  slug: logiless-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/openapi/logiless-inventory-api-openapi.yml
+- filename: logiless-locations-api-openapi.yml
+  format: yaml
+  label: Logiless Locations API
+  slug: logiless-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/openapi/logiless-locations-api-openapi.yml
+- filename: logiless-outbound-deliveries-api-openapi.yml
+  format: yaml
+  label: Logiless Outbound Deliveries API
+  slug: logiless-outbound-deliveries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/openapi/logiless-outbound-deliveries-api-openapi.yml
+- filename: logiless-sales-orders-api-openapi.yml
+  format: yaml
+  label: Logiless Sales Orders API
+  slug: logiless-sales-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/openapi/logiless-sales-orders-api-openapi.yml
+- filename: logiless-sales-returns-api-openapi.yml
+  format: yaml
+  label: Logiless Sales Returns API
+  slug: logiless-sales-returns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/openapi/logiless-sales-returns-api-openapi.yml
+- filename: logiless-suppliers-api-openapi.yml
+  format: yaml
+  label: Logiless Suppliers API
+  slug: logiless-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/openapi/logiless-suppliers-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

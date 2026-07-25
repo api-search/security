@@ -1,24 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: jina-ai-embeddings-openapi.yml
+- filename: jina-ai-batch-api-openapi.yml
+  format: yaml
+  label: Jina AI Batch API
+  slug: jina-ai-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/openapi/jina-ai-batch-api-openapi.yml
+- filename: jina-ai-embeddings-api-openapi.yml
   format: yaml
   label: Jina AI Embeddings API
-  slug: embeddings-api
+  slug: jina-ai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/openapi/jina-ai-embeddings-openapi.yml
-- filename: jina-ai-reader-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/openapi/jina-ai-embeddings-api-openapi.yml
+- filename: jina-ai-reader-api-openapi.yml
   format: yaml
   label: Jina AI Reader API
-  slug: reader-api
+  slug: jina-ai-reader-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/openapi/jina-ai-reader-openapi.yml
-- filename: jina-ai-reranker-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/openapi/jina-ai-reader-api-openapi.yml
+- filename: jina-ai-reranker-api-openapi.yml
   format: yaml
   label: Jina AI Reranker API
-  slug: reranker-api
+  slug: jina-ai-reranker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/openapi/jina-ai-reranker-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/openapi/jina-ai-reranker-api-openapi.yml
 auth_types:
 - http
 description: ''

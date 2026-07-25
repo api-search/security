@@ -1,53 +1,47 @@
 ---
 api_specs:
-- filename: krea-api-openapi.json
-  format: json
-  label: Krea API
-  slug: krea-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-api-openapi.json
-- filename: krea-api-openapi.json
-  format: json
-  label: Krea Image Generation API
-  slug: krea-image-generation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-api-openapi.json
-- filename: krea-api-openapi.json
-  format: json
-  label: Krea Video Generation API
-  slug: krea-video-generation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-api-openapi.json
-- filename: krea-api-openapi.json
-  format: json
-  label: Krea Image Enhance API
-  slug: krea-image-enhance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-api-openapi.json
-- filename: krea-api-openapi.json
-  format: json
-  label: Krea Styles API (LoRA)
-  slug: krea-styles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-api-openapi.json
-- filename: krea-api-openapi.json
-  format: json
+- filename: krea-ai-assets-api-openapi.yml
+  format: yaml
   label: Krea Assets API
-  slug: krea-assets-api
+  slug: krea-ai-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-api-openapi.json
-- filename: krea-api-openapi.json
-  format: json
-  label: Krea Jobs API
-  slug: krea-jobs-api
+  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-assets-api-openapi.yml
+- filename: krea-ai-general-api-openapi.yml
+  format: yaml
+  label: Krea General API
+  slug: krea-ai-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-api-openapi.json
-- filename: krea-api-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-general-api-openapi.yml
+- filename: krea-ai-image-api-openapi.yml
+  format: yaml
+  label: Krea Image API
+  slug: krea-ai-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-image-api-openapi.yml
+- filename: krea-ai-image-enhance-api-openapi.yml
+  format: yaml
+  label: Krea Image Enhance API
+  slug: krea-ai-image-enhance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-image-enhance-api-openapi.yml
+- filename: krea-ai-node-apps-api-openapi.yml
+  format: yaml
   label: Krea Node Apps API
-  slug: krea-node-apps-api
+  slug: krea-ai-node-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-node-apps-api-openapi.yml
+- filename: krea-ai-styles-api-openapi.yml
+  format: yaml
+  label: Krea Styles API
+  slug: krea-ai-styles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-styles-api-openapi.yml
+- filename: krea-ai-video-api-openapi.yml
+  format: yaml
+  label: Krea Video API
+  slug: krea-ai-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-video-api-openapi.yml
 description: ''
 domains:
 - caa: []

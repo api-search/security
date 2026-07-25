@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: microsoft-office-management-activity-api-openapi.yml
+- filename: microsoft-office-integration-currentstatus-api-openapi.yml
   format: yaml
-  label: Microsoft Office 365 Management Activity API
-  slug: management-activity-api
+  label: Microsoft Office Integration CurrentStatus API
+  slug: microsoft-office-integration-currentstatus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-integration/refs/heads/main/openapi/microsoft-office-management-activity-api-openapi.yml
-- filename: microsoft-office-service-communications-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-integration/refs/heads/main/openapi/microsoft-office-integration-currentstatus-api-openapi.yml
+- filename: microsoft-office-integration-historicalstatus-api-openapi.yml
   format: yaml
-  label: Microsoft Office 365 Service Communications API
-  slug: service-communications-api
+  label: Microsoft Office Integration HistoricalStatus API
+  slug: microsoft-office-integration-historicalstatus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-integration/refs/heads/main/openapi/microsoft-office-service-communications-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-integration/refs/heads/main/openapi/microsoft-office-integration-historicalstatus-api-openapi.yml
+- filename: microsoft-office-integration-messages-api-openapi.yml
+  format: yaml
+  label: Microsoft Office Integration Messages API
+  slug: microsoft-office-integration-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-integration/refs/heads/main/openapi/microsoft-office-integration-messages-api-openapi.yml
+- filename: microsoft-office-integration-resources-api-openapi.yml
+  format: yaml
+  label: Microsoft Office Integration Resources API
+  slug: microsoft-office-integration-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-integration/refs/heads/main/openapi/microsoft-office-integration-resources-api-openapi.yml
+- filename: microsoft-office-integration-services-api-openapi.yml
+  format: yaml
+  label: Microsoft Office Integration Services API
+  slug: microsoft-office-integration-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-integration/refs/heads/main/openapi/microsoft-office-integration-services-api-openapi.yml
+- filename: microsoft-office-integration-subscriptions-api-openapi.yml
+  format: yaml
+  label: Microsoft Office Integration Subscriptions API
+  slug: microsoft-office-integration-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-integration/refs/heads/main/openapi/microsoft-office-integration-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa:

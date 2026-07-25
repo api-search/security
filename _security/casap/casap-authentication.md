@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: casap-openapi.json
-  format: json
-  label: Casap API
-  slug: casap-api
+- filename: casap-auth-api-openapi.yml
+  format: yaml
+  label: Casap Auth API
+  slug: casap-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/openapi/casap-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/openapi/casap-auth-api-openapi.yml
+- filename: casap-disputes-api-openapi.yml
+  format: yaml
+  label: Casap Disputes API
+  slug: casap-disputes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/openapi/casap-disputes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

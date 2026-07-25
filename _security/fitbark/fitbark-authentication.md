@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: fitbark-openapi.yml
+- filename: fitbark-activity-api-openapi.yml
   format: yaml
-  label: FitBark API v2
-  slug: fitbark-api-v2
+  label: FitBark Activity API
+  slug: fitbark-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-activity-api-openapi.yml
+- filename: fitbark-dog-api-openapi.yml
+  format: yaml
+  label: FitBark Dog API
+  slug: fitbark-dog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-dog-api-openapi.yml
+- filename: fitbark-goals-api-openapi.yml
+  format: yaml
+  label: FitBark Goals API
+  slug: fitbark-goals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-goals-api-openapi.yml
+- filename: fitbark-oauth-api-openapi.yml
+  format: yaml
+  label: FitBark OAuth API
+  slug: fitbark-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-oauth-api-openapi.yml
+- filename: fitbark-user-api-openapi.yml
+  format: yaml
+  label: FitBark User API
+  slug: fitbark-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-user-api-openapi.yml
 auth_types:
 - http
 - oauth2

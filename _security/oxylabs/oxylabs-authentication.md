@@ -1,24 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: oxylabs-openapi.yml
+- filename: oxylabs-login-api-openapi.yml
   format: yaml
-  label: Oxylabs Web Scraper API
-  slug: oxylabs-web-scraper-api
+  label: Oxylabs Login API
+  slug: oxylabs-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/openapi/oxylabs-openapi.yml
-- filename: oxylabs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/openapi/oxylabs-login-api-openapi.yml
+- filename: oxylabs-queries-api-openapi.yml
   format: yaml
-  label: Oxylabs Residential Public API
-  slug: oxylabs-residential-public-api
+  label: Oxylabs Queries API
+  slug: oxylabs-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/openapi/oxylabs-openapi.yml
-- filename: oxylabs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/openapi/oxylabs-queries-api-openapi.yml
+- filename: oxylabs-stats-api-openapi.yml
   format: yaml
-  label: Oxylabs Dashboard API
-  slug: oxylabs-dashboard-api
+  label: Oxylabs Stats API
+  slug: oxylabs-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/openapi/oxylabs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/openapi/oxylabs-stats-api-openapi.yml
+- filename: oxylabs-users-api-openapi.yml
+  format: yaml
+  label: Oxylabs Users API
+  slug: oxylabs-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/openapi/oxylabs-users-api-openapi.yml
 auth_types:
 - http
 description: ''

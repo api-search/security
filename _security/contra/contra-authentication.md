@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: contra-openapi-original.json
-  format: json
-  label: Contra Public API
-  slug: contra-public-api
+- filename: contra-public-api-api-openapi.yml
+  format: yaml
+  label: Contra Public Api API
+  slug: contra-public-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contra/refs/heads/main/openapi/contra-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/contra/refs/heads/main/openapi/contra-public-api-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

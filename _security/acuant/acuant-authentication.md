@@ -1,30 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: acuant-assureid-connect-openapi.yml
+- filename: acuant-authentication-api-openapi.yml
   format: yaml
-  label: Acuant AssureID Connect API
-  slug: assureid-connect
+  label: Acuant Authentication API
+  slug: acuant-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-assureid-connect-openapi.yml
-- filename: acuant-frm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-authentication-api-openapi.yml
+- filename: acuant-chip-data-api-openapi.yml
   format: yaml
-  label: Acuant FRM Face Recognition API
-  slug: frm
+  label: Acuant Chip Data API
+  slug: acuant-chip-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-frm-openapi.yml
-- filename: acuant-passive-liveness-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-chip-data-api-openapi.yml
+- filename: acuant-document-data-api-openapi.yml
   format: yaml
-  label: Acuant Passive Liveness API
-  slug: passive-liveness
+  label: Acuant Document Data API
+  slug: acuant-document-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-passive-liveness-openapi.yml
-- filename: acuant-acas-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-document-data-api-openapi.yml
+- filename: acuant-document-instances-api-openapi.yml
   format: yaml
-  label: Acuant ACAS (Cloud Authentication Service) API
-  slug: acas
+  label: Acuant Document Instances API
+  slug: acuant-document-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-acas-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-document-instances-api-openapi.yml
+- filename: acuant-face-match-api-openapi.yml
+  format: yaml
+  label: Acuant Face Match API
+  slug: acuant-face-match-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-face-match-api-openapi.yml
+- filename: acuant-images-api-openapi.yml
+  format: yaml
+  label: Acuant Images API
+  slug: acuant-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-images-api-openapi.yml
+- filename: acuant-liveness-api-openapi.yml
+  format: yaml
+  label: Acuant Liveness API
+  slug: acuant-liveness-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-liveness-api-openapi.yml
+- filename: acuant-metadata-api-openapi.yml
+  format: yaml
+  label: Acuant Metadata API
+  slug: acuant-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-metadata-api-openapi.yml
 auth_types:
 - http
 description: ''

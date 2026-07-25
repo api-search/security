@@ -2,12 +2,96 @@
 api_key_in:
 - header
 api_specs:
-- filename: superform-openapi-original.json
-  format: json
-  label: Superform API
-  slug: superform-api
+- filename: superform-auxiliary-api-openapi.yml
+  format: yaml
+  label: Superform Auxiliary API
+  slug: superform-auxiliary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-auxiliary-api-openapi.yml
+- filename: superform-balances-api-openapi.yml
+  format: yaml
+  label: Superform Balances API
+  slug: superform-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-balances-api-openapi.yml
+- filename: superform-contract-checker-api-openapi.yml
+  format: yaml
+  label: Superform Contract Checker API
+  slug: superform-contract-checker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-contract-checker-api-openapi.yml
+- filename: superform-data-api-openapi.yml
+  format: yaml
+  label: Superform Data API
+  slug: superform-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-data-api-openapi.yml
+- filename: superform-execution-api-openapi.yml
+  format: yaml
+  label: Superform Execution API
+  slug: superform-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-execution-api-openapi.yml
+- filename: superform-explorer-api-openapi.yml
+  format: yaml
+  label: Superform Explorer API
+  slug: superform-explorer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-explorer-api-openapi.yml
+- filename: superform-health-api-openapi.yml
+  format: yaml
+  label: Superform Health API
+  slug: superform-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-health-api-openapi.yml
+- filename: superform-migrate-api-openapi.yml
+  format: yaml
+  label: Superform Migrate API
+  slug: superform-migrate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-migrate-api-openapi.yml
+- filename: superform-protocol-api-openapi.yml
+  format: yaml
+  label: Superform Protocol API
+  slug: superform-protocol-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-protocol-api-openapi.yml
+- filename: superform-protocol-rewards-api-openapi.yml
+  format: yaml
+  label: Superform Protocol Rewards API
+  slug: superform-protocol-rewards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-protocol-rewards-api-openapi.yml
+- filename: superform-simulator-api-openapi.yml
+  format: yaml
+  label: Superform Simulator API
+  slug: superform-simulator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-simulator-api-openapi.yml
+- filename: superform-stats-api-openapi.yml
+  format: yaml
+  label: Superform Stats API
+  slug: superform-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-stats-api-openapi.yml
+- filename: superform-superrewardsapi-api-openapi.yml
+  format: yaml
+  label: Superform SuperRewardsAPI API
+  slug: superform-superrewardsapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-superrewardsapi-api-openapi.yml
+- filename: superform-token-distribution-api-openapi.yml
+  format: yaml
+  label: Superform Token Distribution API
+  slug: superform-token-distribution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-token-distribution-api-openapi.yml
+- filename: superform-vault-api-openapi.yml
+  format: yaml
+  label: Superform Vault API
+  slug: superform-vault-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-vault-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

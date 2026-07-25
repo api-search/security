@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: smoobu-openapi.yml
-  format: yaml
-  label: Smoobu Reservations API
-  slug: smoobu-reservations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-openapi.yml
-- filename: smoobu-openapi.yml
+- filename: smoobu-apartments-api-openapi.yml
   format: yaml
   label: Smoobu Apartments API
   slug: smoobu-apartments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-openapi.yml
-- filename: smoobu-openapi.yml
-  format: yaml
-  label: Smoobu Rates and Availability API
-  slug: smoobu-rates-availability-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-openapi.yml
-- filename: smoobu-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-apartments-api-openapi.yml
+- filename: smoobu-guests-api-openapi.yml
   format: yaml
   label: Smoobu Guests API
   slug: smoobu-guests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-openapi.yml
-- filename: smoobu-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-guests-api-openapi.yml
+- filename: smoobu-messaging-api-openapi.yml
   format: yaml
   label: Smoobu Messaging API
   slug: smoobu-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-openapi.yml
-- filename: smoobu-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-messaging-api-openapi.yml
+- filename: smoobu-rates-and-availability-api-openapi.yml
   format: yaml
-  label: Smoobu Webhooks
-  slug: smoobu-webhooks-api
+  label: Smoobu Rates and Availability API
+  slug: smoobu-rates-and-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-rates-and-availability-api-openapi.yml
+- filename: smoobu-reservations-api-openapi.yml
+  format: yaml
+  label: Smoobu Reservations API
+  slug: smoobu-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-reservations-api-openapi.yml
+- filename: smoobu-user-api-openapi.yml
+  format: yaml
+  label: Smoobu User API
+  slug: smoobu-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-user-api-openapi.yml
 description: ''
 domains:
 - caa:

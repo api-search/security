@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: advance-intelligence-group-advance-ai-openapi.yml
+- filename: advance-intelligence-group-authentication-api-openapi.yml
   format: yaml
-  label: ADVANCE.AI Open API
-  slug: advanceai-open-api
+  label: Advance Intelligence Group Authentication API
+  slug: advance-intelligence-group-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/openapi/advance-intelligence-group-advance-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/openapi/advance-intelligence-group-authentication-api-openapi.yml
+- filename: advance-intelligence-group-document-verification-api-openapi.yml
+  format: yaml
+  label: Advance Intelligence Group Document Verification API
+  slug: advance-intelligence-group-document-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/openapi/advance-intelligence-group-document-verification-api-openapi.yml
+- filename: advance-intelligence-group-face-recognition-api-openapi.yml
+  format: yaml
+  label: Advance Intelligence Group Face Recognition API
+  slug: advance-intelligence-group-face-recognition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/openapi/advance-intelligence-group-face-recognition-api-openapi.yml
+- filename: advance-intelligence-group-ocr-api-openapi.yml
+  format: yaml
+  label: Advance Intelligence Group OCR API
+  slug: advance-intelligence-group-ocr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/openapi/advance-intelligence-group-ocr-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

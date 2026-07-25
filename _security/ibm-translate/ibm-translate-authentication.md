@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yaml
+- filename: ibm-translate-documents-api-openapi.yml
   format: yaml
-  label: Language Translator V3
-  slug: language-translator-v3
+  label: IBM Language Translator Documents API
+  slug: ibm-translate-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/openapi/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/openapi/ibm-translate-documents-api-openapi.yml
+- filename: ibm-translate-languages-api-openapi.yml
+  format: yaml
+  label: IBM Language Translator Languages API
+  slug: ibm-translate-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/openapi/ibm-translate-languages-api-openapi.yml
+- filename: ibm-translate-models-api-openapi.yml
+  format: yaml
+  label: IBM Language Translator Models API
+  slug: ibm-translate-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/openapi/ibm-translate-models-api-openapi.yml
+- filename: ibm-translate-translation-api-openapi.yml
+  format: yaml
+  label: IBM Language Translator Translation API
+  slug: ibm-translate-translation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/openapi/ibm-translate-translation-api-openapi.yml
 auth_types:
 - http
 description: ''

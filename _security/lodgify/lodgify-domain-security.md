@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: lodgify-openapi.yml
+- filename: lodgify-availability-api-openapi.yml
   format: yaml
-  label: Lodgify Properties API
-  slug: properties
+  label: Lodgify Availability API
+  slug: lodgify-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/openapi/lodgify-openapi.yml
-- filename: lodgify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/openapi/lodgify-availability-api-openapi.yml
+- filename: lodgify-bookings-api-openapi.yml
   format: yaml
-  label: Lodgify Rates & Availability API
-  slug: rates-availability
+  label: Lodgify Bookings API
+  slug: lodgify-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/openapi/lodgify-openapi.yml
-- filename: lodgify-openapi.yml
-  format: yaml
-  label: Lodgify Bookings & Reservations API
-  slug: bookings-reservations
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/openapi/lodgify-openapi.yml
-- filename: lodgify-openapi.yml
-  format: yaml
-  label: Lodgify Quotes API
-  slug: quotes
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/openapi/lodgify-openapi.yml
-- filename: lodgify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/openapi/lodgify-bookings-api-openapi.yml
+- filename: lodgify-messaging-api-openapi.yml
   format: yaml
   label: Lodgify Messaging API
-  slug: messaging
+  slug: lodgify-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/openapi/lodgify-openapi.yml
-- filename: lodgify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/openapi/lodgify-messaging-api-openapi.yml
+- filename: lodgify-properties-api-openapi.yml
+  format: yaml
+  label: Lodgify Properties API
+  slug: lodgify-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/openapi/lodgify-properties-api-openapi.yml
+- filename: lodgify-rates-quotes-api-openapi.yml
+  format: yaml
+  label: Lodgify Rates & Quotes API
+  slug: lodgify-rates-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/openapi/lodgify-rates-quotes-api-openapi.yml
+- filename: lodgify-webhooks-api-openapi.yml
   format: yaml
   label: Lodgify Webhooks API
-  slug: webhooks
+  slug: lodgify-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/openapi/lodgify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/openapi/lodgify-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

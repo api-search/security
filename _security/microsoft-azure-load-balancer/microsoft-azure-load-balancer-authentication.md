@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: microsoft-azure-load-balancer-openapi.yml
+- filename: microsoft-azure-load-balancer-load-balancers-api-openapi.yml
   format: yaml
-  label: Azure Load Balancer REST API
-  slug: azure-load-balancer-rest-api
+  label: Azure Load Balancer Load Balancers API
+  slug: microsoft-azure-load-balancer-load-balancers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-load-balancer/refs/heads/main/openapi/microsoft-azure-load-balancer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-load-balancer/refs/heads/main/openapi/microsoft-azure-load-balancer-load-balancers-api-openapi.yml
+- filename: microsoft-azure-load-balancer-operations-api-openapi.yml
+  format: yaml
+  label: Azure Load Balancer Operations API
+  slug: microsoft-azure-load-balancer-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-load-balancer/refs/heads/main/openapi/microsoft-azure-load-balancer-operations-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

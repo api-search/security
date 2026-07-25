@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: voiceflow-openapi.yml
+- filename: voiceflow-interact-api-openapi.yml
   format: yaml
-  label: Voiceflow Conversations API
-  slug: conversations
+  label: Voiceflow Interact API
+  slug: voiceflow-interact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/openapi/voiceflow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/openapi/voiceflow-interact-api-openapi.yml
+- filename: voiceflow-session-api-openapi.yml
+  format: yaml
+  label: Voiceflow Session API
+  slug: voiceflow-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/openapi/voiceflow-session-api-openapi.yml
+- filename: voiceflow-state-api-openapi.yml
+  format: yaml
+  label: Voiceflow State API
+  slug: voiceflow-state-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/openapi/voiceflow-state-api-openapi.yml
+- filename: voiceflow-variables-api-openapi.yml
+  format: yaml
+  label: Voiceflow Variables API
+  slug: voiceflow-variables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/openapi/voiceflow-variables-api-openapi.yml
 description: ''
 domains:
 - caa: []

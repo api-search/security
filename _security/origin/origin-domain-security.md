@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: origin-airbrush-openapi-original.yml
+- filename: origin-trades-api-openapi.yml
   format: yaml
-  label: Origin Trades API (Airbrush v3)
-  slug: origin-trades-api-airbrush-v3
+  label: Origin Trades API
+  slug: origin-trades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/openapi/origin-airbrush-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/openapi/origin-trades-api-openapi.yml
 description: ''
 domains:
 - caa: []

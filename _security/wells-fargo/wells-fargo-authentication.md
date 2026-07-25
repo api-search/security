@@ -1,24 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: wells-fargo-gateway-api-openapi.yml
-  format: yaml
-  label: Wells Fargo Gateway API
-  slug: gateway-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-gateway-api-openapi.yml
-- filename: wells-fargo-account-transactions-api-openapi.yml
-  format: yaml
-  label: Wells Fargo Account Transactions API
-  slug: account-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-account-transactions-api-openapi.yml
 - filename: wells-fargo-ach-payments-api-openapi.yml
   format: yaml
   label: Wells Fargo ACH Payments API
   slug: ach-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-ach-payments-api-openapi.yml
+- filename: wells-fargo-accounts-api-openapi.yml
+  format: yaml
+  label: wells-fargo Accounts API
+  slug: wells-fargo-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-accounts-api-openapi.yml
+- filename: wells-fargo-payment-batches-api-openapi.yml
+  format: yaml
+  label: wells-fargo Payment Batches API
+  slug: wells-fargo-payment-batches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-payment-batches-api-openapi.yml
+- filename: wells-fargo-payment-returns-api-openapi.yml
+  format: yaml
+  label: wells-fargo Payment Returns API
+  slug: wells-fargo-payment-returns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-payment-returns-api-openapi.yml
+- filename: wells-fargo-payments-api-openapi.yml
+  format: yaml
+  label: wells-fargo Payments API
+  slug: wells-fargo-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-payments-api-openapi.yml
+- filename: wells-fargo-transactions-api-openapi.yml
+  format: yaml
+  label: wells-fargo Transactions API
+  slug: wells-fargo-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-transactions-api-openapi.yml
 auth_types:
 - http
 - oauth2

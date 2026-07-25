@@ -2,42 +2,132 @@
 api_key_in:
 - header
 api_specs:
-- filename: supabase-management-api-openapi.yml
-  format: yaml
-  label: Supabase Management API
-  slug: management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-management-api-openapi.yml
-- filename: supabase-auth-api-openapi.yml
-  format: yaml
-  label: Supabase Auth API
-  slug: auth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-auth-api-openapi.yml
-- filename: supabase-storage-api-openapi.yml
-  format: yaml
-  label: Supabase Storage API
-  slug: storage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-storage-api-openapi.yml
-- filename: supabase-database-rest-api-openapi.yml
-  format: yaml
-  label: Supabase Database REST API
-  slug: database-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-database-rest-api-openapi.yml
-- filename: supabase-edge-functions-api-openapi.yml
-  format: yaml
-  label: Supabase Edge Functions API
-  slug: edge-functions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-edge-functions-api-openapi.yml
 - filename: supabase-realtime-api-asyncapi.yml
   format: yaml
   label: Supabase Realtime API
   slug: realtime-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/asyncapi/supabase-realtime-api-asyncapi.yml
+- filename: supabase-admin-api-openapi.yml
+  format: yaml
+  label: Supabase Admin API
+  slug: supabase-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-admin-api-openapi.yml
+- filename: supabase-authentication-api-openapi.yml
+  format: yaml
+  label: Supabase Authentication API
+  slug: supabase-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-authentication-api-openapi.yml
+- filename: supabase-buckets-api-openapi.yml
+  format: yaml
+  label: Supabase Buckets API
+  slug: supabase-buckets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-buckets-api-openapi.yml
+- filename: supabase-configuration-api-openapi.yml
+  format: yaml
+  label: Supabase Configuration API
+  slug: supabase-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-configuration-api-openapi.yml
+- filename: supabase-database-api-openapi.yml
+  format: yaml
+  label: Supabase Database API
+  slug: supabase-database-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-database-api-openapi.yml
+- filename: supabase-domains-api-openapi.yml
+  format: yaml
+  label: Supabase Domains API
+  slug: supabase-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-domains-api-openapi.yml
+- filename: supabase-functions-api-openapi.yml
+  format: yaml
+  label: Supabase Functions API
+  slug: supabase-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-functions-api-openapi.yml
+- filename: supabase-invocation-api-openapi.yml
+  format: yaml
+  label: Supabase Invocation API
+  slug: supabase-invocation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-invocation-api-openapi.yml
+- filename: supabase-mfa-api-openapi.yml
+  format: yaml
+  label: Supabase MFA API
+  slug: supabase-mfa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-mfa-api-openapi.yml
+- filename: supabase-network-api-openapi.yml
+  format: yaml
+  label: Supabase Network API
+  slug: supabase-network-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-network-api-openapi.yml
+- filename: supabase-oauth-api-openapi.yml
+  format: yaml
+  label: Supabase OAuth API
+  slug: supabase-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-oauth-api-openapi.yml
+- filename: supabase-objects-api-openapi.yml
+  format: yaml
+  label: Supabase Objects API
+  slug: supabase-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-objects-api-openapi.yml
+- filename: supabase-organizations-api-openapi.yml
+  format: yaml
+  label: Supabase Organizations API
+  slug: supabase-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-organizations-api-openapi.yml
+- filename: supabase-projects-api-openapi.yml
+  format: yaml
+  label: Supabase Projects API
+  slug: supabase-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-projects-api-openapi.yml
+- filename: supabase-rendering-api-openapi.yml
+  format: yaml
+  label: Supabase Rendering API
+  slug: supabase-rendering-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-rendering-api-openapi.yml
+- filename: supabase-rpc-api-openapi.yml
+  format: yaml
+  label: Supabase RPC API
+  slug: supabase-rpc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-rpc-api-openapi.yml
+- filename: supabase-secrets-api-openapi.yml
+  format: yaml
+  label: Supabase Secrets API
+  slug: supabase-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-secrets-api-openapi.yml
+- filename: supabase-sso-api-openapi.yml
+  format: yaml
+  label: Supabase SSO API
+  slug: supabase-sso-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-sso-api-openapi.yml
+- filename: supabase-tables-api-openapi.yml
+  format: yaml
+  label: Supabase Tables API
+  slug: supabase-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-tables-api-openapi.yml
+- filename: supabase-user-management-api-openapi.yml
+  format: yaml
+  label: Supabase User Management API
+  slug: supabase-user-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-user-management-api-openapi.yml
 auth_types:
 - apiKey
 - http

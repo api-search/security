@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-load-balancing-backendservices-api-openapi.yml
   format: yaml
-  label: Google Cloud Load Balancing API
-  slug: google-cloud-load-balancing-api
+  label: Google Cloud Load Balancing BackendServices API
+  slug: google-cloud-load-balancing-backendservices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-load-balancing/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-load-balancing/refs/heads/main/openapi/google-cloud-load-balancing-backendservices-api-openapi.yml
+- filename: google-cloud-load-balancing-forwardingrules-api-openapi.yml
+  format: yaml
+  label: Google Cloud Load Balancing ForwardingRules API
+  slug: google-cloud-load-balancing-forwardingrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-load-balancing/refs/heads/main/openapi/google-cloud-load-balancing-forwardingrules-api-openapi.yml
+- filename: google-cloud-load-balancing-healthchecks-api-openapi.yml
+  format: yaml
+  label: Google Cloud Load Balancing HealthChecks API
+  slug: google-cloud-load-balancing-healthchecks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-load-balancing/refs/heads/main/openapi/google-cloud-load-balancing-healthchecks-api-openapi.yml
+- filename: google-cloud-load-balancing-urlmaps-api-openapi.yml
+  format: yaml
+  label: Google Cloud Load Balancing UrlMaps API
+  slug: google-cloud-load-balancing-urlmaps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-load-balancing/refs/heads/main/openapi/google-cloud-load-balancing-urlmaps-api-openapi.yml
 description: ''
 domains:
 - caa:

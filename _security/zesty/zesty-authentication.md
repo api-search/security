@@ -2,30 +2,156 @@
 api_key_in:
 - header
 api_specs:
-- filename: zesty-auth-api-openapi.yml
-  format: yaml
-  label: Zesty Auth API
-  slug: auth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-auth-api-openapi.yml
-- filename: zesty-accounts-api-openapi.yml
-  format: yaml
-  label: Zesty Accounts API
-  slug: accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-accounts-api-openapi.yml
 - filename: zesty-instances-api-openapi.yml
   format: yaml
   label: Zesty Instances API
   slug: instances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-instances-api-openapi.yml
-- filename: zesty-media-api-openapi.yml
+- filename: zesty-apps-api-openapi.yml
   format: yaml
-  label: Zesty Media API
-  slug: media-api
+  label: Zesty Apps API
+  slug: zesty-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-media-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-apps-api-openapi.yml
+- filename: zesty-audits-api-openapi.yml
+  format: yaml
+  label: Zesty Audits API
+  slug: zesty-audits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-audits-api-openapi.yml
+- filename: zesty-authentication-api-openapi.yml
+  format: yaml
+  label: Zesty Authentication API
+  slug: zesty-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-authentication-api-openapi.yml
+- filename: zesty-bins-api-openapi.yml
+  format: yaml
+  label: Zesty Bins API
+  slug: zesty-bins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-bins-api-openapi.yml
+- filename: zesty-content-items-api-openapi.yml
+  format: yaml
+  label: Zesty Content Items API
+  slug: zesty-content-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-content-items-api-openapi.yml
+- filename: zesty-content-models-api-openapi.yml
+  format: yaml
+  label: Zesty Content Models API
+  slug: zesty-content-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-content-models-api-openapi.yml
+- filename: zesty-fields-api-openapi.yml
+  format: yaml
+  label: Zesty Fields API
+  slug: zesty-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-fields-api-openapi.yml
+- filename: zesty-files-api-openapi.yml
+  format: yaml
+  label: Zesty Files API
+  slug: zesty-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-files-api-openapi.yml
+- filename: zesty-groups-api-openapi.yml
+  format: yaml
+  label: Zesty Groups API
+  slug: zesty-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-groups-api-openapi.yml
+- filename: zesty-head-tags-api-openapi.yml
+  format: yaml
+  label: Zesty Head Tags API
+  slug: zesty-head-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-head-tags-api-openapi.yml
+- filename: zesty-navigation-api-openapi.yml
+  format: yaml
+  label: Zesty Navigation API
+  slug: zesty-navigation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-navigation-api-openapi.yml
+- filename: zesty-password-api-openapi.yml
+  format: yaml
+  label: Zesty Password API
+  slug: zesty-password-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-password-api-openapi.yml
+- filename: zesty-publishing-api-openapi.yml
+  format: yaml
+  label: Zesty Publishing API
+  slug: zesty-publishing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-publishing-api-openapi.yml
+- filename: zesty-resolver-api-openapi.yml
+  format: yaml
+  label: Zesty Resolver API
+  slug: zesty-resolver-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-resolver-api-openapi.yml
+- filename: zesty-roles-api-openapi.yml
+  format: yaml
+  label: Zesty Roles API
+  slug: zesty-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-roles-api-openapi.yml
+- filename: zesty-scripts-api-openapi.yml
+  format: yaml
+  label: Zesty Scripts API
+  slug: zesty-scripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-scripts-api-openapi.yml
+- filename: zesty-search-api-openapi.yml
+  format: yaml
+  label: Zesty Search API
+  slug: zesty-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-search-api-openapi.yml
+- filename: zesty-settings-api-openapi.yml
+  format: yaml
+  label: Zesty Settings API
+  slug: zesty-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-settings-api-openapi.yml
+- filename: zesty-stylesheets-api-openapi.yml
+  format: yaml
+  label: Zesty Stylesheets API
+  slug: zesty-stylesheets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-stylesheets-api-openapi.yml
+- filename: zesty-teams-api-openapi.yml
+  format: yaml
+  label: Zesty Teams API
+  slug: zesty-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-teams-api-openapi.yml
+- filename: zesty-tokens-api-openapi.yml
+  format: yaml
+  label: Zesty Tokens API
+  slug: zesty-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-tokens-api-openapi.yml
+- filename: zesty-users-api-openapi.yml
+  format: yaml
+  label: Zesty Users API
+  slug: zesty-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-users-api-openapi.yml
+- filename: zesty-views-api-openapi.yml
+  format: yaml
+  label: Zesty Views API
+  slug: zesty-views-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-views-api-openapi.yml
+- filename: zesty-webhooks-api-openapi.yml
+  format: yaml
+  label: Zesty Webhooks API
+  slug: zesty-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

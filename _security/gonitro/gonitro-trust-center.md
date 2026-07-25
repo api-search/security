@@ -1,17 +1,53 @@
 ---
 api_specs:
-- filename: gonitro-sign-openapi.json
-  format: json
-  label: Nitro Sign API
-  slug: nitro-sign-api
+- filename: gonitro-authentication-api-openapi.yml
+  format: yaml
+  label: GoNitro Authentication API
+  slug: gonitro-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/openapi/gonitro-sign-openapi.json
-- filename: gonitro-pdf-services-openapi.json
-  format: json
-  label: Nitro PDF Services API
-  slug: nitro-pdf-services-api
+  url: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/openapi/gonitro-authentication-api-openapi.yml
+- filename: gonitro-conversions-api-openapi.yml
+  format: yaml
+  label: GoNitro Conversions API
+  slug: gonitro-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/openapi/gonitro-pdf-services-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/openapi/gonitro-conversions-api-openapi.yml
+- filename: gonitro-extractions-api-openapi.yml
+  format: yaml
+  label: GoNitro Extractions API
+  slug: gonitro-extractions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/openapi/gonitro-extractions-api-openapi.yml
+- filename: gonitro-generations-api-openapi.yml
+  format: yaml
+  label: GoNitro Generations API
+  slug: gonitro-generations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/openapi/gonitro-generations-api-openapi.yml
+- filename: gonitro-jobs-api-openapi.yml
+  format: yaml
+  label: GoNitro Jobs API
+  slug: gonitro-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/openapi/gonitro-jobs-api-openapi.yml
+- filename: gonitro-platform-api-openapi.yml
+  format: yaml
+  label: GoNitro Platform API
+  slug: gonitro-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/openapi/gonitro-platform-api-openapi.yml
+- filename: gonitro-sign-api-openapi.yml
+  format: yaml
+  label: GoNitro Sign API
+  slug: gonitro-sign-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/openapi/gonitro-sign-api-openapi.yml
+- filename: gonitro-transformations-api-openapi.yml
+  format: yaml
+  label: GoNitro Transformations API
+  slug: gonitro-transformations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/openapi/gonitro-transformations-api-openapi.yml
 certifications:
 - ISO 27001
 - SOC 2

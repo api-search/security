@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: holded-openapi.yml
+- filename: holded-accounting-api-openapi.yml
   format: yaml
-  label: Holded REST API
-  slug: rest-api
+  label: Holded Accounting API
+  slug: holded-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/openapi/holded-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/openapi/holded-accounting-api-openapi.yml
+- filename: holded-crm-api-openapi.yml
+  format: yaml
+  label: Holded Crm API
+  slug: holded-crm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/openapi/holded-crm-api-openapi.yml
+- filename: holded-invoicing-api-openapi.yml
+  format: yaml
+  label: Holded Invoicing API
+  slug: holded-invoicing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/openapi/holded-invoicing-api-openapi.yml
+- filename: holded-projects-api-openapi.yml
+  format: yaml
+  label: Holded Projects API
+  slug: holded-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/openapi/holded-projects-api-openapi.yml
+- filename: holded-team-api-openapi.yml
+  format: yaml
+  label: Holded Team API
+  slug: holded-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/openapi/holded-team-api-openapi.yml
 description: ''
 domains:
 - caa: []

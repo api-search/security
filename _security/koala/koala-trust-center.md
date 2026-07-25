@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: koala-server-side-api-openapi.yml
+- filename: koala-account-ingestion-api-openapi.yml
   format: yaml
-  label: Koala Server-Side Batch API
-  slug: koala-server-side-api
+  label: Koala Account Ingestion API
+  slug: koala-account-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koala/refs/heads/main/openapi/koala-server-side-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/koala/refs/heads/main/openapi/koala-account-ingestion-api-openapi.yml
+- filename: koala-profile-ingestion-api-openapi.yml
+  format: yaml
+  label: Koala Profile Ingestion API
+  slug: koala-profile-ingestion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koala/refs/heads/main/openapi/koala-profile-ingestion-api-openapi.yml
 certifications:
 - SOC 2
 - GDPR

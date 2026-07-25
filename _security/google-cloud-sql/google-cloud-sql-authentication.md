@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cloud-sql-openapi.yml
+- filename: google-cloud-sql-backupruns-api-openapi.yml
   format: yaml
-  label: Cloud SQL Admin API
-  slug: cloud-sql-admin-api
+  label: Google Cloud SQL BackupRuns API
+  slug: google-cloud-sql-backupruns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/openapi/cloud-sql-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/openapi/google-cloud-sql-backupruns-api-openapi.yml
+- filename: google-cloud-sql-databases-api-openapi.yml
+  format: yaml
+  label: Google Cloud SQL Databases API
+  slug: google-cloud-sql-databases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/openapi/google-cloud-sql-databases-api-openapi.yml
+- filename: google-cloud-sql-instances-api-openapi.yml
+  format: yaml
+  label: Google Cloud SQL Instances API
+  slug: google-cloud-sql-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/openapi/google-cloud-sql-instances-api-openapi.yml
+- filename: google-cloud-sql-users-api-openapi.yml
+  format: yaml
+  label: Google Cloud SQL Users API
+  slug: google-cloud-sql-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/openapi/google-cloud-sql-users-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

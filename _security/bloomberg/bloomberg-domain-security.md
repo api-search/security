@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: blpapi-core.yml
+- filename: bloomberg-reference-data-api-openapi.yml
   format: yaml
   label: Bloomberg BLPAPI Core
   slug: bloomberg-blpapi-core
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/openapi/blpapi-core.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/openapi/bloomberg-reference-data-api-openapi.yml
 description: ''
 domains:
 - caa:

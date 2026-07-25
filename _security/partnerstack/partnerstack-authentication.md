@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: partnerstack-openapi.yml
+- filename: partnerstack-customers-api-openapi.yml
   format: yaml
-  label: PartnerStack
-  slug: partnerstack
+  label: PartnerStack Customers API
+  slug: partnerstack-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/openapi/partnerstack-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/openapi/partnerstack-customers-api-openapi.yml
+- filename: partnerstack-deals-api-openapi.yml
+  format: yaml
+  label: PartnerStack Deals API
+  slug: partnerstack-deals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/openapi/partnerstack-deals-api-openapi.yml
+- filename: partnerstack-partnerships-api-openapi.yml
+  format: yaml
+  label: PartnerStack Partnerships API
+  slug: partnerstack-partnerships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/openapi/partnerstack-partnerships-api-openapi.yml
+- filename: partnerstack-rewards-api-openapi.yml
+  format: yaml
+  label: PartnerStack Rewards API
+  slug: partnerstack-rewards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/openapi/partnerstack-rewards-api-openapi.yml
+- filename: partnerstack-transactions-api-openapi.yml
+  format: yaml
+  label: PartnerStack Transactions API
+  slug: partnerstack-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/openapi/partnerstack-transactions-api-openapi.yml
 auth_types:
 - http
 description: ''

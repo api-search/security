@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: blissfully-vendr-catalog-api-openapi.yaml
+- filename: blissfully-pricing-api-openapi.yml
   format: yaml
-  label: Vendr Catalog API
-  slug: vendr-catalog-api
+  label: Blissfully Pricing API
+  slug: blissfully-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/openapi/blissfully-vendr-catalog-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/openapi/blissfully-pricing-api-openapi.yml
+- filename: blissfully-products-api-openapi.yml
+  format: yaml
+  label: Blissfully Products API
+  slug: blissfully-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/openapi/blissfully-products-api-openapi.yml
+- filename: blissfully-vendors-api-openapi.yml
+  format: yaml
+  label: Blissfully Vendors API
+  slug: blissfully-vendors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/openapi/blissfully-vendors-api-openapi.yml
+- filename: blissfully-webhooks-api-openapi.yml
+  format: yaml
+  label: Blissfully Webhooks API
+  slug: blissfully-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/openapi/blissfully-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

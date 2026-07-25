@@ -2,24 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: telefoon-voice-openapi.yml
+- filename: telefoon-available-numbers-api-openapi.yml
   format: yaml
-  label: Telefoon Voice API
-  slug: telefoon-voice-api
+  label: Telefoon Available Numbers API
+  slug: telefoon-available-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefoon/refs/heads/main/openapi/telefoon-voice-openapi.yml
-- filename: telefoon-sms-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telefoon/refs/heads/main/openapi/telefoon-available-numbers-api-openapi.yml
+- filename: telefoon-calls-api-openapi.yml
   format: yaml
-  label: Telefoon SMS API
-  slug: telefoon-sms-api
+  label: Telefoon Calls API
+  slug: telefoon-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefoon/refs/heads/main/openapi/telefoon-sms-openapi.yml
-- filename: telefoon-numbers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telefoon/refs/heads/main/openapi/telefoon-calls-api-openapi.yml
+- filename: telefoon-conferences-api-openapi.yml
   format: yaml
-  label: Telefoon Number Management API
-  slug: telefoon-number-management-api
+  label: Telefoon Conferences API
+  slug: telefoon-conferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefoon/refs/heads/main/openapi/telefoon-numbers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telefoon/refs/heads/main/openapi/telefoon-conferences-api-openapi.yml
+- filename: telefoon-messages-api-openapi.yml
+  format: yaml
+  label: Telefoon Messages API
+  slug: telefoon-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telefoon/refs/heads/main/openapi/telefoon-messages-api-openapi.yml
+- filename: telefoon-owned-numbers-api-openapi.yml
+  format: yaml
+  label: Telefoon Owned Numbers API
+  slug: telefoon-owned-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telefoon/refs/heads/main/openapi/telefoon-owned-numbers-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

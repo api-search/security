@@ -1,23 +1,53 @@
 ---
 api_specs:
-- filename: plausible-stats-openapi.yml
+- filename: plausible-customprops-api-openapi.yml
   format: yaml
-  label: Plausible Stats API
-  slug: stats-api
+  label: Plausible CustomProps API
+  slug: plausible-customprops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-stats-openapi.yml
-- filename: plausible-events-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-customprops-api-openapi.yml
+- filename: plausible-events-api-openapi.yml
   format: yaml
   label: Plausible Events API
-  slug: events-api
+  slug: plausible-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-events-openapi.yml
-- filename: plausible-sites-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-events-api-openapi.yml
+- filename: plausible-goals-api-openapi.yml
+  format: yaml
+  label: Plausible Goals API
+  slug: plausible-goals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-goals-api-openapi.yml
+- filename: plausible-guests-api-openapi.yml
+  format: yaml
+  label: Plausible Guests API
+  slug: plausible-guests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-guests-api-openapi.yml
+- filename: plausible-query-api-openapi.yml
+  format: yaml
+  label: Plausible Query API
+  slug: plausible-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-query-api-openapi.yml
+- filename: plausible-sharedlinks-api-openapi.yml
+  format: yaml
+  label: Plausible SharedLinks API
+  slug: plausible-sharedlinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-sharedlinks-api-openapi.yml
+- filename: plausible-sites-api-openapi.yml
   format: yaml
   label: Plausible Sites API
-  slug: sites-api
+  slug: plausible-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-sites-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-sites-api-openapi.yml
+- filename: plausible-teams-api-openapi.yml
+  format: yaml
+  label: Plausible Teams API
+  slug: plausible-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-teams-api-openapi.yml
 description: ''
 domains:
 - caa: []

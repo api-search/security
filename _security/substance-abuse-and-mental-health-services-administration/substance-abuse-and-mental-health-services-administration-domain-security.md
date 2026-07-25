@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: samhsa-treatment-locator-openapi.yml
+- filename: substance-abuse-and-mental-health-services-administration-treatment-facilities-api-openapi.yml
   format: yaml
-  label: SAMHSA Behavioral Health Treatment Services Locator API
-  slug: samhsa-treatment-locator-api
+  label: Substance Abuse and Mental Health Services Administration Treatment Facilities API
+  slug: substance-abuse-and-mental-health-services-administration-treatment-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/substance-abuse-and-mental-health-services-administration/refs/heads/main/openapi/samhsa-treatment-locator-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/substance-abuse-and-mental-health-services-administration/refs/heads/main/openapi/substance-abuse-and-mental-health-services-administration-treatment-facilities-api-openapi.yml
 description: ''
 domains:
 - caa:

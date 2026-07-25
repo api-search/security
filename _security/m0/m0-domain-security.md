@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: m0-orchestration-openapi-original.json
-  format: json
-  label: M0 Orchestration API
-  slug: m0-orchestration-api
+- filename: m0-order-api-openapi.yml
+  format: yaml
+  label: M0 Order API
+  slug: m0-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/m0/refs/heads/main/openapi/m0-orchestration-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/m0/refs/heads/main/openapi/m0-order-api-openapi.yml
+- filename: m0-permit-api-openapi.yml
+  format: yaml
+  label: M0 Permit API
+  slug: m0-permit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/m0/refs/heads/main/openapi/m0-permit-api-openapi.yml
+- filename: m0-quote-api-openapi.yml
+  format: yaml
+  label: M0 Quote API
+  slug: m0-quote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/m0/refs/heads/main/openapi/m0-quote-api-openapi.yml
+- filename: m0-topology-api-openapi.yml
+  format: yaml
+  label: M0 Topology API
+  slug: m0-topology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/m0/refs/heads/main/openapi/m0-topology-api-openapi.yml
 description: ''
 domains:
 - caa: []

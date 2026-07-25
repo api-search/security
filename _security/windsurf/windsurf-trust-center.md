@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: windsurf-cascadeanalytics-api-openapi.yml
+  format: yaml
+  label: Windsurf CascadeAnalytics API
+  slug: windsurf-cascadeanalytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-cascadeanalytics-api-openapi.yml
+- filename: windsurf-creditbalance-api-openapi.yml
+  format: yaml
+  label: Windsurf CreditBalance API
+  slug: windsurf-creditbalance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-creditbalance-api-openapi.yml
+- filename: windsurf-customanalytics-api-openapi.yml
+  format: yaml
+  label: Windsurf CustomAnalytics API
+  slug: windsurf-customanalytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-customanalytics-api-openapi.yml
+- filename: windsurf-usageconfiguration-api-openapi.yml
+  format: yaml
+  label: Windsurf UsageConfiguration API
+  slug: windsurf-usageconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-usageconfiguration-api-openapi.yml
+- filename: windsurf-useranalytics-api-openapi.yml
+  format: yaml
+  label: Windsurf UserAnalytics API
+  slug: windsurf-useranalytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-useranalytics-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

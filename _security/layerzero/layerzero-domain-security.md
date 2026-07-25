@@ -1,29 +1,35 @@
 ---
 api_specs:
-- filename: scan-mainnet.json
-  format: json
-  label: LayerZero Scan API
-  slug: layerzero-scan-api
+- filename: layerzero-discovery-api-openapi.yml
+  format: yaml
+  label: LayerZero Discovery API
+  slug: layerzero-discovery-api
   spec_type: OpenAPI
-  url: https://docs.layerzero.network/openapi/scan-mainnet.json
-- filename: scan-testnet.json
-  format: json
-  label: LayerZero Scan API (Testnet)
-  slug: layerzero-scan-api-testnet
+  url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/openapi/layerzero-discovery-api-openapi.yml
+- filename: layerzero-messages-api-openapi.yml
+  format: yaml
+  label: LayerZero messages API
+  slug: layerzero-messages-api
   spec_type: OpenAPI
-  url: https://docs.layerzero.network/openapi/scan-testnet.json
-- filename: vt-api.json
-  format: json
-  label: LayerZero Value Transfer API
-  slug: layerzero-value-transfer-api
+  url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/openapi/layerzero-messages-api-openapi.yml
+- filename: layerzero-ofts-api-openapi.yml
+  format: yaml
+  label: LayerZero ofts API
+  slug: layerzero-ofts-api
   spec_type: OpenAPI
-  url: https://docs.layerzero.network/openapi/vt-api.json
-- filename: oft-mainnet.json
-  format: json
-  label: LayerZero OFT Transfer API
-  slug: layerzero-oft-transfer-api
+  url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/openapi/layerzero-ofts-api-openapi.yml
+- filename: layerzero-openapi-api-openapi.yml
+  format: yaml
+  label: LayerZero openapi API
+  slug: layerzero-openapi-api
   spec_type: OpenAPI
-  url: https://docs.layerzero.network/openapi/oft-mainnet.json
+  url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/openapi/layerzero-openapi-api-openapi.yml
+- filename: layerzero-transfer-api-openapi.yml
+  format: yaml
+  label: LayerZero Transfer API
+  slug: layerzero-transfer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/openapi/layerzero-transfer-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,48 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: simpletexting-openapi.yml
-  format: yaml
-  label: SimpleTexting Messages API
-  slug: messages
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-openapi.yml
-- filename: simpletexting-openapi.yml
-  format: yaml
-  label: SimpleTexting Contacts API
-  slug: contacts
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-openapi.yml
-- filename: simpletexting-openapi.yml
-  format: yaml
-  label: SimpleTexting Lists API
-  slug: lists
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-openapi.yml
-- filename: simpletexting-openapi.yml
+- filename: simpletexting-campaigns-api-openapi.yml
   format: yaml
   label: SimpleTexting Campaigns API
-  slug: campaigns
+  slug: simpletexting-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-openapi.yml
-- filename: simpletexting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-campaigns-api-openapi.yml
+- filename: simpletexting-contact-lists-api-openapi.yml
   format: yaml
-  label: SimpleTexting Autoresponders API
-  slug: autoresponders
+  label: SimpleTexting Contact Lists API
+  slug: simpletexting-contact-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-openapi.yml
-- filename: simpletexting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-contact-lists-api-openapi.yml
+- filename: simpletexting-contact-segments-api-openapi.yml
   format: yaml
-  label: SimpleTexting Sending Numbers API
-  slug: sending-numbers
+  label: SimpleTexting Contact Segments API
+  slug: simpletexting-contact-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-openapi.yml
-- filename: simpletexting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-contact-segments-api-openapi.yml
+- filename: simpletexting-contacts-api-openapi.yml
+  format: yaml
+  label: SimpleTexting Contacts API
+  slug: simpletexting-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-contacts-api-openapi.yml
+- filename: simpletexting-contacts-batch-operations-api-openapi.yml
+  format: yaml
+  label: SimpleTexting Contacts - Batch Operations API
+  slug: simpletexting-contacts-batch-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-contacts-batch-operations-api-openapi.yml
+- filename: simpletexting-custom-fields-api-openapi.yml
+  format: yaml
+  label: SimpleTexting Custom Fields API
+  slug: simpletexting-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-custom-fields-api-openapi.yml
+- filename: simpletexting-media-items-api-openapi.yml
+  format: yaml
+  label: SimpleTexting Media Items API
+  slug: simpletexting-media-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-media-items-api-openapi.yml
+- filename: simpletexting-messages-api-openapi.yml
+  format: yaml
+  label: SimpleTexting Messages API
+  slug: simpletexting-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-messages-api-openapi.yml
+- filename: simpletexting-tenant-api-openapi.yml
+  format: yaml
+  label: SimpleTexting Tenant API
+  slug: simpletexting-tenant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-tenant-api-openapi.yml
+- filename: simpletexting-webhooks-api-openapi.yml
   format: yaml
   label: SimpleTexting Webhooks API
-  slug: webhooks
+  slug: simpletexting-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

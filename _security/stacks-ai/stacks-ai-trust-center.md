@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: stacks-ai-openapi-original.yml
+- filename: stacks-ai-analytics-api-openapi.yml
   format: yaml
-  label: StackAI API
-  slug: stackai-api
+  label: Stacks Ai analytics API
+  slug: stacks-ai-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-analytics-api-openapi.yml
+- filename: stacks-ai-knowledge-base-resources-api-openapi.yml
+  format: yaml
+  label: Stacks Ai Knowledge Base Resources API
+  slug: stacks-ai-knowledge-base-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-knowledge-base-resources-api-openapi.yml
+- filename: stacks-ai-knowledge-base-sync-api-openapi.yml
+  format: yaml
+  label: Stacks Ai Knowledge Base Sync API
+  slug: stacks-ai-knowledge-base-sync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-knowledge-base-sync-api-openapi.yml
+- filename: stacks-ai-knowledge-bases-api-openapi.yml
+  format: yaml
+  label: Stacks Ai Knowledge Bases API
+  slug: stacks-ai-knowledge-bases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-knowledge-bases-api-openapi.yml
+- filename: stacks-ai-run-flow-api-openapi.yml
+  format: yaml
+  label: Stacks Ai Run Flow API
+  slug: stacks-ai-run-flow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-run-flow-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

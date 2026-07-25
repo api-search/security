@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yaml
+- filename: whoop-activity-id-mapping-api-openapi.yml
   format: yaml
-  label: WHOOP API
-  slug: whoop-api
+  label: WHOOP Activity ID Mapping API
+  slug: whoop-activity-id-mapping-api
   spec_type: OpenAPI
-  url: https://developer.whoop.com/api/
+  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-activity-id-mapping-api-openapi.yml
+- filename: whoop-cycle-api-openapi.yml
+  format: yaml
+  label: WHOOP Cycle API
+  slug: whoop-cycle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-cycle-api-openapi.yml
+- filename: whoop-partner-api-openapi.yml
+  format: yaml
+  label: WHOOP Partner API
+  slug: whoop-partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-partner-api-openapi.yml
+- filename: whoop-recovery-api-openapi.yml
+  format: yaml
+  label: WHOOP Recovery API
+  slug: whoop-recovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-recovery-api-openapi.yml
+- filename: whoop-sleep-api-openapi.yml
+  format: yaml
+  label: WHOOP Sleep API
+  slug: whoop-sleep-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-sleep-api-openapi.yml
+- filename: whoop-user-api-openapi.yml
+  format: yaml
+  label: WHOOP User API
+  slug: whoop-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-user-api-openapi.yml
+- filename: whoop-workout-api-openapi.yml
+  format: yaml
+  label: WHOOP Workout API
+  slug: whoop-workout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-workout-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

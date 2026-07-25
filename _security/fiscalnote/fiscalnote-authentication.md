@@ -2,30 +2,84 @@
 api_key_in:
 - header
 api_specs:
-- filename: fiscalnote-policynote-openapi.yml
+- filename: fiscalnote-bills-api-openapi.yml
   format: yaml
-  label: FiscalNote PolicyNote API
-  slug: policynote-api
+  label: FiscalNote Bills API
+  slug: fiscalnote-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-policynote-openapi.yml
-- filename: fiscalnote-appdata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-bills-api-openapi.yml
+- filename: fiscalnote-committees-api-openapi.yml
   format: yaml
-  label: FiscalNote AppData API
-  slug: appdata-api
+  label: FiscalNote Committees API
+  slug: fiscalnote-committees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-appdata-openapi.yml
-- filename: fiscalnote-people-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-committees-api-openapi.yml
+- filename: fiscalnote-issues-api-openapi.yml
   format: yaml
-  label: FiscalNote People API
-  slug: people-api
+  label: FiscalNote Issues API
+  slug: fiscalnote-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-people-openapi.yml
-- filename: fiscalnote-organization-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-issues-api-openapi.yml
+- filename: fiscalnote-labels-api-openapi.yml
   format: yaml
-  label: FiscalNote Organization API
-  slug: organization-api
+  label: FiscalNote Labels API
+  slug: fiscalnote-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-organization-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-labels-api-openapi.yml
+- filename: fiscalnote-legislation-api-openapi.yml
+  format: yaml
+  label: FiscalNote Legislation API
+  slug: fiscalnote-legislation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-legislation-api-openapi.yml
+- filename: fiscalnote-legislators-api-openapi.yml
+  format: yaml
+  label: FiscalNote Legislators API
+  slug: fiscalnote-legislators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-legislators-api-openapi.yml
+- filename: fiscalnote-officials-api-openapi.yml
+  format: yaml
+  label: FiscalNote Officials API
+  slug: fiscalnote-officials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-officials-api-openapi.yml
+- filename: fiscalnote-organizations-api-openapi.yml
+  format: yaml
+  label: FiscalNote Organizations API
+  slug: fiscalnote-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-organizations-api-openapi.yml
+- filename: fiscalnote-policy-intelligence-api-openapi.yml
+  format: yaml
+  label: FiscalNote Policy Intelligence API
+  slug: fiscalnote-policy-intelligence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-policy-intelligence-api-openapi.yml
+- filename: fiscalnote-presidential-transcripts-api-openapi.yml
+  format: yaml
+  label: FiscalNote Presidential Transcripts API
+  slug: fiscalnote-presidential-transcripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-presidential-transcripts-api-openapi.yml
+- filename: fiscalnote-regulations-api-openapi.yml
+  format: yaml
+  label: FiscalNote Regulations API
+  slug: fiscalnote-regulations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-regulations-api-openapi.yml
+- filename: fiscalnote-regulatory-documents-api-openapi.yml
+  format: yaml
+  label: FiscalNote Regulatory Documents API
+  slug: fiscalnote-regulatory-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-regulatory-documents-api-openapi.yml
+- filename: fiscalnote-stakeholders-api-openapi.yml
+  format: yaml
+  label: FiscalNote Stakeholders API
+  slug: fiscalnote-stakeholders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-stakeholders-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

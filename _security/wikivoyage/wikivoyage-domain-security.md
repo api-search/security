@@ -1,17 +1,89 @@
 ---
 api_specs:
-- filename: wikivoyage-mediawiki-action-api-openapi.yaml
+- filename: wikivoyage-authentication-api-openapi.yml
   format: yaml
-  label: Wikivoyage MediaWiki Action API
-  slug: wikivoyage-mediawiki-action-api
+  label: Wikivoyage Authentication API
+  slug: wikivoyage-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-mediawiki-action-api-openapi.yaml
-- filename: wikivoyage-mediawiki-core-rest-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-authentication-api-openapi.yml
+- filename: wikivoyage-edit-api-openapi.yml
   format: yaml
-  label: Wikivoyage MediaWiki Core REST API
-  slug: wikivoyage-mediawiki-core-rest-api
+  label: Wikivoyage Edit API
+  slug: wikivoyage-edit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-mediawiki-core-rest-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-edit-api-openapi.yml
+- filename: wikivoyage-files-api-openapi.yml
+  format: yaml
+  label: Wikivoyage Files API
+  slug: wikivoyage-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-files-api-openapi.yml
+- filename: wikivoyage-history-api-openapi.yml
+  format: yaml
+  label: Wikivoyage History API
+  slug: wikivoyage-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-history-api-openapi.yml
+- filename: wikivoyage-links-api-openapi.yml
+  format: yaml
+  label: Wikivoyage Links API
+  slug: wikivoyage-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-links-api-openapi.yml
+- filename: wikivoyage-meta-api-openapi.yml
+  format: yaml
+  label: Wikivoyage Meta API
+  slug: wikivoyage-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-meta-api-openapi.yml
+- filename: wikivoyage-pages-api-openapi.yml
+  format: yaml
+  label: Wikivoyage Pages API
+  slug: wikivoyage-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-pages-api-openapi.yml
+- filename: wikivoyage-parse-api-openapi.yml
+  format: yaml
+  label: Wikivoyage Parse API
+  slug: wikivoyage-parse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-parse-api-openapi.yml
+- filename: wikivoyage-patrol-api-openapi.yml
+  format: yaml
+  label: Wikivoyage Patrol API
+  slug: wikivoyage-patrol-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-patrol-api-openapi.yml
+- filename: wikivoyage-query-api-openapi.yml
+  format: yaml
+  label: Wikivoyage Query API
+  slug: wikivoyage-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-query-api-openapi.yml
+- filename: wikivoyage-revisions-api-openapi.yml
+  format: yaml
+  label: Wikivoyage Revisions API
+  slug: wikivoyage-revisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-revisions-api-openapi.yml
+- filename: wikivoyage-search-api-openapi.yml
+  format: yaml
+  label: Wikivoyage Search API
+  slug: wikivoyage-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-search-api-openapi.yml
+- filename: wikivoyage-transforms-api-openapi.yml
+  format: yaml
+  label: Wikivoyage Transforms API
+  slug: wikivoyage-transforms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-transforms-api-openapi.yml
+- filename: wikivoyage-upload-api-openapi.yml
+  format: yaml
+  label: Wikivoyage Upload API
+  slug: wikivoyage-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-upload-api-openapi.yml
 description: ''
 domains:
 - caa:

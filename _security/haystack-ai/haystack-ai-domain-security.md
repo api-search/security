@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: haystack-ai-openapi.yml
+- filename: haystack-ai-files-api-openapi.yml
   format: yaml
-  label: deepset Cloud API - Pipelines
-  slug: deepset-cloud-pipelines-api
+  label: Haystack / deepset Files API
+  slug: haystack-ai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-openapi.yml
-- filename: haystack-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-files-api-openapi.yml
+- filename: haystack-ai-pipelines-api-openapi.yml
   format: yaml
-  label: deepset Cloud API - Search
-  slug: deepset-cloud-search-api
+  label: Haystack / deepset Pipelines API
+  slug: haystack-ai-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-openapi.yml
-- filename: haystack-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-pipelines-api-openapi.yml
+- filename: haystack-ai-search-api-openapi.yml
   format: yaml
-  label: deepset Cloud API - Files
-  slug: deepset-cloud-files-api
+  label: Haystack / deepset Search API
+  slug: haystack-ai-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-openapi.yml
-- filename: haystack-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-search-api-openapi.yml
+- filename: haystack-ai-workspaces-api-openapi.yml
   format: yaml
-  label: deepset Cloud API - Workspaces
-  slug: deepset-cloud-workspaces-api
+  label: Haystack / deepset Workspaces API
+  slug: haystack-ai-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: govly-tools-v1-openapi-original.yml
+- filename: govly-awards-api-openapi.yml
   format: yaml
-  label: Govly Tools API
-  slug: govly-tools-api
+  label: Govly Awards API
+  slug: govly-awards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-tools-v1-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-awards-api-openapi.yml
+- filename: govly-documents-api-openapi.yml
+  format: yaml
+  label: Govly Documents API
+  slug: govly-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-documents-api-openapi.yml
+- filename: govly-follows-api-openapi.yml
+  format: yaml
+  label: Govly Follows API
+  slug: govly-follows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-follows-api-openapi.yml
+- filename: govly-inbox-api-openapi.yml
+  format: yaml
+  label: Govly Inbox API
+  slug: govly-inbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-inbox-api-openapi.yml
+- filename: govly-opportunities-api-openapi.yml
+  format: yaml
+  label: Govly Opportunities API
+  slug: govly-opportunities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-opportunities-api-openapi.yml
+- filename: govly-quote-submissions-api-openapi.yml
+  format: yaml
+  label: Govly Quote Submissions API
+  slug: govly-quote-submissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-quote-submissions-api-openapi.yml
+- filename: govly-saved-searches-api-openapi.yml
+  format: yaml
+  label: Govly Saved Searches API
+  slug: govly-saved-searches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-saved-searches-api-openapi.yml
+- filename: govly-workspace-attachments-api-openapi.yml
+  format: yaml
+  label: Govly Workspace Attachments API
+  slug: govly-workspace-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-workspace-attachments-api-openapi.yml
+- filename: govly-workspace-comments-api-openapi.yml
+  format: yaml
+  label: Govly Workspace Comments API
+  slug: govly-workspace-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-workspace-comments-api-openapi.yml
+- filename: govly-workspace-members-api-openapi.yml
+  format: yaml
+  label: Govly Workspace Members API
+  slug: govly-workspace-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-workspace-members-api-openapi.yml
+- filename: govly-workspaces-api-openapi.yml
+  format: yaml
+  label: Govly Workspaces API
+  slug: govly-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []

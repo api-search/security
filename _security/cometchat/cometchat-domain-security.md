@@ -1,53 +1,83 @@
 ---
 api_specs:
-- filename: cometchat-openapi.yml
-  format: yaml
-  label: CometChat Users API
-  slug: cometchat-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/openapi/cometchat-openapi.yml
-- filename: cometchat-openapi.yml
-  format: yaml
-  label: CometChat Groups & Members API
-  slug: cometchat-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/openapi/cometchat-openapi.yml
-- filename: cometchat-openapi.yml
-  format: yaml
-  label: CometChat Messages API
-  slug: cometchat-messages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/openapi/cometchat-openapi.yml
-- filename: cometchat-openapi.yml
-  format: yaml
-  label: CometChat Conversations API
-  slug: cometchat-conversations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/openapi/cometchat-openapi.yml
-- filename: cometchat-openapi.yml
-  format: yaml
-  label: CometChat Roles API
-  slug: cometchat-roles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/openapi/cometchat-openapi.yml
-- filename: cometchat-openapi.yml
-  format: yaml
-  label: CometChat Relationships API
-  slug: cometchat-relationships-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/openapi/cometchat-openapi.yml
-- filename: cometchat-openapi.yml
-  format: yaml
-  label: CometChat Webhooks API
-  slug: cometchat-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/openapi/cometchat-openapi.yml
 - filename: cometchat-asyncapi.yml
   format: yaml
   label: CometChat Realtime & Client SDK
   slug: cometchat-realtime-sdk
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/asyncapi/cometchat-asyncapi.yml
+- filename: cometchat-auth-tokens-api-openapi.yml
+  format: yaml
+  label: CometChat Auth Tokens API
+  slug: cometchat-auth-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/openapi/cometchat-auth-tokens-api-openapi.yml
+- filename: cometchat-banned-users-api-openapi.yml
+  format: yaml
+  label: CometChat Banned Users API
+  slug: cometchat-banned-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/openapi/cometchat-banned-users-api-openapi.yml
+- filename: cometchat-blocked-users-api-openapi.yml
+  format: yaml
+  label: CometChat Blocked Users API
+  slug: cometchat-blocked-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/openapi/cometchat-blocked-users-api-openapi.yml
+- filename: cometchat-conversations-api-openapi.yml
+  format: yaml
+  label: CometChat Conversations API
+  slug: cometchat-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/openapi/cometchat-conversations-api-openapi.yml
+- filename: cometchat-friends-api-openapi.yml
+  format: yaml
+  label: CometChat Friends API
+  slug: cometchat-friends-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/openapi/cometchat-friends-api-openapi.yml
+- filename: cometchat-group-members-api-openapi.yml
+  format: yaml
+  label: CometChat Group Members API
+  slug: cometchat-group-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/openapi/cometchat-group-members-api-openapi.yml
+- filename: cometchat-groups-api-openapi.yml
+  format: yaml
+  label: CometChat Groups API
+  slug: cometchat-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/openapi/cometchat-groups-api-openapi.yml
+- filename: cometchat-messages-api-openapi.yml
+  format: yaml
+  label: CometChat Messages API
+  slug: cometchat-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/openapi/cometchat-messages-api-openapi.yml
+- filename: cometchat-reactions-api-openapi.yml
+  format: yaml
+  label: CometChat Reactions API
+  slug: cometchat-reactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/openapi/cometchat-reactions-api-openapi.yml
+- filename: cometchat-roles-api-openapi.yml
+  format: yaml
+  label: CometChat Roles API
+  slug: cometchat-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/openapi/cometchat-roles-api-openapi.yml
+- filename: cometchat-users-api-openapi.yml
+  format: yaml
+  label: CometChat Users API
+  slug: cometchat-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/openapi/cometchat-users-api-openapi.yml
+- filename: cometchat-webhooks-api-openapi.yml
+  format: yaml
+  label: CometChat Webhooks API
+  slug: cometchat-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/openapi/cometchat-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

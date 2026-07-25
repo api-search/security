@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: hsbc-australia-cds-banking-products-openapi.yml
+- filename: hsbc-australia-banking-account-balances-api-openapi.yml
   format: yaml
-  label: HSBC Bank Australia CDR Product Reference Data API
-  slug: hsbc-australia-cdr-product-reference-data-api
+  label: HSBC Bank Australia Banking Account Balances API
+  slug: hsbc-australia-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/openapi/hsbc-australia-cds-banking-products-openapi.yml
-- filename: hsbc-australia-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/openapi/hsbc-australia-banking-account-balances-api-openapi.yml
+- filename: hsbc-australia-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: HSBC Bank Australia CDR Accounts & Balances API
-  slug: hsbc-australia-cdr-accounts-balances-api
+  label: HSBC Bank Australia Banking Account Direct Debits API
+  slug: hsbc-australia-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/openapi/hsbc-australia-cds-banking-products-openapi.yml
-- filename: hsbc-australia-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/openapi/hsbc-australia-banking-account-direct-debits-api-openapi.yml
+- filename: hsbc-australia-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: HSBC Bank Australia CDR Transactions API
-  slug: hsbc-australia-cdr-transactions-api
+  label: HSBC Bank Australia Banking Account Scheduled Payments API
+  slug: hsbc-australia-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/openapi/hsbc-australia-cds-banking-products-openapi.yml
-- filename: hsbc-australia-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/openapi/hsbc-australia-banking-account-scheduled-payments-api-openapi.yml
+- filename: hsbc-australia-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: HSBC Bank Australia CDR Direct Debits & Scheduled Payments API
-  slug: hsbc-australia-cdr-direct-debits-scheduled-payments-api
+  label: HSBC Bank Australia Banking Account Transactions API
+  slug: hsbc-australia-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/openapi/hsbc-australia-cds-banking-products-openapi.yml
-- filename: hsbc-australia-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/openapi/hsbc-australia-banking-account-transactions-api-openapi.yml
+- filename: hsbc-australia-banking-accounts-api-openapi.yml
   format: yaml
-  label: HSBC Bank Australia CDR Payees API
-  slug: hsbc-australia-cdr-payees-api
+  label: HSBC Bank Australia Banking Accounts API
+  slug: hsbc-australia-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/openapi/hsbc-australia-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/openapi/hsbc-australia-banking-accounts-api-openapi.yml
+- filename: hsbc-australia-banking-payees-api-openapi.yml
+  format: yaml
+  label: HSBC Bank Australia Banking Payees API
+  slug: hsbc-australia-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/openapi/hsbc-australia-banking-payees-api-openapi.yml
+- filename: hsbc-australia-banking-products-api-openapi.yml
+  format: yaml
+  label: HSBC Bank Australia Banking Products API
+  slug: hsbc-australia-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/openapi/hsbc-australia-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

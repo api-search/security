@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: microsoft-onedrive-openapi.yml
+- filename: microsoft-onedrive-driveitems-api-openapi.yml
   format: yaml
-  label: Microsoft Graph OneDrive API
-  slug: graph-drive-api
+  label: Microsoft OneDrive DriveItems API
+  slug: microsoft-onedrive-driveitems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onedrive/refs/heads/main/openapi/microsoft-onedrive-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onedrive/refs/heads/main/openapi/microsoft-onedrive-driveitems-api-openapi.yml
+- filename: microsoft-onedrive-drives-api-openapi.yml
+  format: yaml
+  label: Microsoft OneDrive Drives API
+  slug: microsoft-onedrive-drives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onedrive/refs/heads/main/openapi/microsoft-onedrive-drives-api-openapi.yml
+- filename: microsoft-onedrive-sharing-api-openapi.yml
+  format: yaml
+  label: Microsoft OneDrive Sharing API
+  slug: microsoft-onedrive-sharing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onedrive/refs/heads/main/openapi/microsoft-onedrive-sharing-api-openapi.yml
 auth_types:
 - http
 description: ''

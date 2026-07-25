@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: akka-management.json
-  format: json
-  label: Akka Management
-  slug: akka-management
+- filename: akka-bootstrap-api-openapi.yml
+  format: yaml
+  label: Akka Bootstrap API
+  slug: akka-bootstrap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akka/refs/heads/main/openapi/akka-management.json
+  url: https://raw.githubusercontent.com/api-evangelist/akka/refs/heads/main/openapi/akka-bootstrap-api-openapi.yml
+- filename: akka-cluster-api-openapi.yml
+  format: yaml
+  label: Akka Cluster API
+  slug: akka-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akka/refs/heads/main/openapi/akka-cluster-api-openapi.yml
+- filename: akka-health-api-openapi.yml
+  format: yaml
+  label: Akka Health API
+  slug: akka-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akka/refs/heads/main/openapi/akka-health-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

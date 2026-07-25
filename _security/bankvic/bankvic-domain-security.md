@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: bankvic-cds-banking-products-openapi.yml
+- filename: bankvic-banking-account-balances-api-openapi.yml
   format: yaml
-  label: BankVic CDR Product Reference Data API
-  slug: bankvic-cdr-product-reference-data-api
+  label: BankVic Banking Account Balances API
+  slug: bankvic-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/openapi/bankvic-cds-banking-products-openapi.yml
-- filename: bankvic-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/openapi/bankvic-banking-account-balances-api-openapi.yml
+- filename: bankvic-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: BankVic CDR Accounts & Balances API
-  slug: bankvic-cdr-accounts-balances-api
+  label: BankVic Banking Account Direct Debits API
+  slug: bankvic-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/openapi/bankvic-cds-banking-products-openapi.yml
-- filename: bankvic-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/openapi/bankvic-banking-account-direct-debits-api-openapi.yml
+- filename: bankvic-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: BankVic CDR Transactions API
-  slug: bankvic-cdr-transactions-api
+  label: BankVic Banking Account Scheduled Payments API
+  slug: bankvic-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/openapi/bankvic-cds-banking-products-openapi.yml
-- filename: bankvic-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/openapi/bankvic-banking-account-scheduled-payments-api-openapi.yml
+- filename: bankvic-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: BankVic CDR Direct Debits & Scheduled Payments API
-  slug: bankvic-cdr-direct-debits-scheduled-payments-api
+  label: BankVic Banking Account Transactions API
+  slug: bankvic-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/openapi/bankvic-cds-banking-products-openapi.yml
-- filename: bankvic-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/openapi/bankvic-banking-account-transactions-api-openapi.yml
+- filename: bankvic-banking-accounts-api-openapi.yml
   format: yaml
-  label: BankVic CDR Payees API
-  slug: bankvic-cdr-payees-api
+  label: BankVic Banking Accounts API
+  slug: bankvic-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/openapi/bankvic-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/openapi/bankvic-banking-accounts-api-openapi.yml
+- filename: bankvic-banking-payees-api-openapi.yml
+  format: yaml
+  label: BankVic Banking Payees API
+  slug: bankvic-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/openapi/bankvic-banking-payees-api-openapi.yml
+- filename: bankvic-banking-products-api-openapi.yml
+  format: yaml
+  label: BankVic Banking Products API
+  slug: bankvic-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/openapi/bankvic-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

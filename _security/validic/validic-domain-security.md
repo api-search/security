@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: validic-openapi.yml
-  format: yaml
-  label: Validic Users API
-  slug: validic-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-openapi.yml
-- filename: validic-openapi.yml
-  format: yaml
-  label: Validic Marketplace & Connections API
-  slug: validic-marketplace-connections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-openapi.yml
-- filename: validic-openapi.yml
-  format: yaml
-  label: Validic Observations & Data API
-  slug: validic-observations-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-openapi.yml
-- filename: validic-openapi.yml
+- filename: validic-devices-api-openapi.yml
   format: yaml
   label: Validic Devices API
   slug: validic-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-openapi.yml
-- filename: validic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-devices-api-openapi.yml
+- filename: validic-marketplace-connections-api-openapi.yml
   format: yaml
-  label: Validic Streaming API
-  slug: validic-streaming-api
+  label: Validic Marketplace & Connections API
+  slug: validic-marketplace-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-openapi.yml
-- filename: validic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-marketplace-connections-api-openapi.yml
+- filename: validic-observations-data-api-openapi.yml
+  format: yaml
+  label: Validic Observations & Data API
+  slug: validic-observations-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-observations-data-api-openapi.yml
+- filename: validic-push-service-api-openapi.yml
   format: yaml
   label: Validic Push Service API
   slug: validic-push-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-push-service-api-openapi.yml
+- filename: validic-streaming-api-openapi.yml
+  format: yaml
+  label: Validic Streaming API
+  slug: validic-streaming-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-streaming-api-openapi.yml
+- filename: validic-users-api-openapi.yml
+  format: yaml
+  label: Validic Users API
+  slug: validic-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

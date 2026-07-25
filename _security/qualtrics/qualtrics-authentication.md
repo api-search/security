@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: qualtrics-api-openapi-3.0.json
-  format: json
-  label: Qualtrics REST API
-  slug: qualtrics-rest-api
+- filename: qualtrics-automations-api-openapi.yml
+  format: yaml
+  label: Qualtrics automations API
+  slug: qualtrics-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualtrics/refs/heads/main/openapi/qualtrics-api-openapi-3.0.json
+  url: https://raw.githubusercontent.com/api-evangelist/qualtrics/refs/heads/main/openapi/qualtrics-automations-api-openapi.yml
+- filename: qualtrics-directories-api-openapi.yml
+  format: yaml
+  label: Qualtrics Directories API
+  slug: qualtrics-directories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualtrics/refs/heads/main/openapi/qualtrics-directories-api-openapi.yml
+- filename: qualtrics-distributions-api-openapi.yml
+  format: yaml
+  label: Qualtrics Distributions API
+  slug: qualtrics-distributions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualtrics/refs/heads/main/openapi/qualtrics-distributions-api-openapi.yml
+- filename: qualtrics-eventsubscriptions-api-openapi.yml
+  format: yaml
+  label: Qualtrics Eventsubscriptions API
+  slug: qualtrics-eventsubscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualtrics/refs/heads/main/openapi/qualtrics-eventsubscriptions-api-openapi.yml
+- filename: qualtrics-file-api-openapi.yml
+  format: yaml
+  label: Qualtrics file API
+  slug: qualtrics-file-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualtrics/refs/heads/main/openapi/qualtrics-file-api-openapi.yml
+- filename: qualtrics-files-api-openapi.yml
+  format: yaml
+  label: Qualtrics files API
+  slug: qualtrics-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualtrics/refs/heads/main/openapi/qualtrics-files-api-openapi.yml
+- filename: qualtrics-survey-definitions-api-openapi.yml
+  format: yaml
+  label: Qualtrics Survey Definitions API
+  slug: qualtrics-survey-definitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualtrics/refs/heads/main/openapi/qualtrics-survey-definitions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -2,18 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: flux-image-generation-openapi.yml
+- filename: flux-editing-api-openapi.yml
   format: yaml
-  label: Flux Image Generation API
-  slug: flux-image-generation-api
+  label: Flux Editing API
+  slug: flux-editing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flux/refs/heads/main/openapi/flux-image-generation-openapi.yml
-- filename: flux-image-editing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flux/refs/heads/main/openapi/flux-editing-api-openapi.yml
+- filename: flux-generation-api-openapi.yml
   format: yaml
-  label: Flux Image Editing API
-  slug: flux-image-editing-api
+  label: Flux Generation API
+  slug: flux-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flux/refs/heads/main/openapi/flux-image-editing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flux/refs/heads/main/openapi/flux-generation-api-openapi.yml
+- filename: flux-results-api-openapi.yml
+  format: yaml
+  label: Flux Results API
+  slug: flux-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flux/refs/heads/main/openapi/flux-results-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: spacelift-openapi.yml
+- filename: spacelift-graphql-api-openapi.yml
   format: yaml
   label: Spacelift GraphQL API
-  slug: spacelift-graphql
+  slug: spacelift-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacelift/refs/heads/main/openapi/spacelift-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spacelift/refs/heads/main/openapi/spacelift-graphql-api-openapi.yml
 auth_types:
 - http
 description: ''

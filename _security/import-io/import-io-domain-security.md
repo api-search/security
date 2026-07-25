@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: import-io-openapi.yml
+- filename: import-io-crawlrun-api-openapi.yml
   format: yaml
-  label: Import.io API
-  slug: import-io-api
+  label: Import.io Crawlrun API
+  slug: import-io-crawlrun-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/import-io/main/openapi/import-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/openapi/import-io-crawlrun-api-openapi.yml
+- filename: import-io-extractor-api-openapi.yml
+  format: yaml
+  label: Import.io Extractor API
+  slug: import-io-extractor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/openapi/import-io-extractor-api-openapi.yml
+- filename: import-io-report-api-openapi.yml
+  format: yaml
+  label: Import.io Report API
+  slug: import-io-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/openapi/import-io-report-api-openapi.yml
+- filename: import-io-reportrun-api-openapi.yml
+  format: yaml
+  label: Import.io ReportRun API
+  slug: import-io-reportrun-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/openapi/import-io-reportrun-api-openapi.yml
+- filename: import-io-user-api-openapi.yml
+  format: yaml
+  label: Import.io User API
+  slug: import-io-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/openapi/import-io-user-api-openapi.yml
 description: ''
 domains:
 - caa:

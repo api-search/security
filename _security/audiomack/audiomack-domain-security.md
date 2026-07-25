@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: audiomack-data-api-openapi.yml
+- filename: audiomack-artist-api-openapi.yml
   format: yaml
-  label: Audiomack Data API
-  slug: audiomack-data-api
+  label: Audiomack Artist API
+  slug: audiomack-artist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-artist-api-openapi.yml
+- filename: audiomack-chart-api-openapi.yml
+  format: yaml
+  label: Audiomack Chart API
+  slug: audiomack-chart-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-chart-api-openapi.yml
+- filename: audiomack-music-api-openapi.yml
+  format: yaml
+  label: Audiomack Music API
+  slug: audiomack-music-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-music-api-openapi.yml
+- filename: audiomack-oauth-api-openapi.yml
+  format: yaml
+  label: Audiomack OAuth API
+  slug: audiomack-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-oauth-api-openapi.yml
+- filename: audiomack-playlist-api-openapi.yml
+  format: yaml
+  label: Audiomack Playlist API
+  slug: audiomack-playlist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-playlist-api-openapi.yml
+- filename: audiomack-search-api-openapi.yml
+  format: yaml
+  label: Audiomack Search API
+  slug: audiomack-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-search-api-openapi.yml
+- filename: audiomack-stats-api-openapi.yml
+  format: yaml
+  label: Audiomack Stats API
+  slug: audiomack-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-stats-api-openapi.yml
+- filename: audiomack-user-api-openapi.yml
+  format: yaml
+  label: Audiomack User API
+  slug: audiomack-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

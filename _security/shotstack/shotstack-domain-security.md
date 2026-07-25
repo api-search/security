@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: shotstack-openapi.yml
+- filename: shotstack-create-api-openapi.yml
   format: yaml
-  label: Shotstack Edit (Render) API
-  slug: edit-render-api
+  label: Shotstack Create API
+  slug: shotstack-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/openapi/shotstack-openapi.yml
-- filename: shotstack-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/openapi/shotstack-create-api-openapi.yml
+- filename: shotstack-edit-api-openapi.yml
   format: yaml
-  label: Shotstack Templates API
-  slug: templates-api
+  label: Shotstack Edit API
+  slug: shotstack-edit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/openapi/shotstack-openapi.yml
-- filename: shotstack-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/openapi/shotstack-edit-api-openapi.yml
+- filename: shotstack-ingest-api-openapi.yml
   format: yaml
   label: Shotstack Ingest API
-  slug: ingest-api
+  slug: shotstack-ingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/openapi/shotstack-openapi.yml
-- filename: shotstack-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/openapi/shotstack-ingest-api-openapi.yml
+- filename: shotstack-serve-api-openapi.yml
   format: yaml
   label: Shotstack Serve API
-  slug: serve-api
+  slug: shotstack-serve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/openapi/shotstack-openapi.yml
-- filename: shotstack-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/openapi/shotstack-serve-api-openapi.yml
+- filename: shotstack-templates-api-openapi.yml
   format: yaml
-  label: Shotstack Create (AI Assets) API
-  slug: create-ai-assets-api
+  label: Shotstack Templates API
+  slug: shotstack-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/openapi/shotstack-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/openapi/shotstack-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []

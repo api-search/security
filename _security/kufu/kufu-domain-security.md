@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: kufu-smarthr-openapi.json
-  format: json
-  label: SmartHR API
-  slug: smarthr-api
+- filename: kufu-default-api-openapi.yml
+  format: yaml
+  label: KUFU カスタム家族項目テンプレート API
+  slug: kufu-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kufu/refs/heads/main/openapi/kufu-smarthr-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/kufu/refs/heads/main/openapi/kufu-default-api-openapi.yml
+- filename: kufu-webhook-api-openapi.yml
+  format: yaml
+  label: KUFU Webhook API
+  slug: kufu-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kufu/refs/heads/main/openapi/kufu-webhook-api-openapi.yml
 description: ''
 domains:
 - caa: []

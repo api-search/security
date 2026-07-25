@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: bitpay-bills-api-openapi.yml
+  format: yaml
+  label: BitPay Bills API
+  slug: bitpay-bills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-bills-api-openapi.yml
+- filename: bitpay-payouts-api-openapi.yml
+  format: yaml
+  label: BitPay Payouts API
+  slug: bitpay-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-payouts-api-openapi.yml
+- filename: bitpay-refunds-api-openapi.yml
+  format: yaml
+  label: BitPay Refunds API
+  slug: bitpay-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-refunds-api-openapi.yml
+- filename: bitpay-settlements-api-openapi.yml
+  format: yaml
+  label: BitPay Settlements API
+  slug: bitpay-settlements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-settlements-api-openapi.yml
+- filename: bitpay-rates-api-openapi.yml
+  format: yaml
+  label: BitPay Rates API
+  slug: bitpay-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-rates-api-openapi.yml
+- filename: bitpay-ledgers-api-openapi.yml
+  format: yaml
+  label: BitPay Ledgers API
+  slug: bitpay-ledgers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-ledgers-api-openapi.yml
+- filename: bitpay-bills-api-openapi.yml
+  format: yaml
+  label: BitPay Bills API
+  slug: bitpay-bills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-bills-api-openapi.yml
+- filename: bitpay-invoices-api-openapi.yml
   format: yaml
   label: BitPay Invoices API
   slug: bitpay-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-invoices-api-openapi.yml
+- filename: bitpay-ledgers-api-openapi.yml
+  format: yaml
+  label: BitPay Ledgers API
+  slug: bitpay-ledgers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-ledgers-api-openapi.yml
+- filename: bitpay-payouts-api-openapi.yml
+  format: yaml
+  label: BitPay Payouts API
+  slug: bitpay-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-payouts-api-openapi.yml
+- filename: bitpay-rates-api-openapi.yml
+  format: yaml
+  label: BitPay Rates API
+  slug: bitpay-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-rates-api-openapi.yml
+- filename: bitpay-refunds-api-openapi.yml
+  format: yaml
+  label: BitPay Refunds API
+  slug: bitpay-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-refunds-api-openapi.yml
+- filename: bitpay-settlements-api-openapi.yml
+  format: yaml
+  label: BitPay Settlements API
+  slug: bitpay-settlements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-settlements-api-openapi.yml
 description: ''
 domains:
 - caa: []

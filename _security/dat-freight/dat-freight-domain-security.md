@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: dat-freight-openapi.yml
+- filename: dat-freight-booknow-api-openapi.yml
   format: yaml
-  label: DAT Identity & Token API
-  slug: dat-freight-identity-token-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-openapi.yml
-- filename: dat-freight-openapi.yml
-  format: yaml
-  label: DAT Load Board Search API
-  slug: dat-freight-load-board-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-openapi.yml
-- filename: dat-freight-openapi.yml
-  format: yaml
-  label: DAT Freight Posting API
-  slug: dat-freight-posting-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-openapi.yml
-- filename: dat-freight-openapi.yml
-  format: yaml
-  label: DAT RateView Rate Lookup API
-  slug: dat-freight-rateview-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-openapi.yml
-- filename: dat-freight-openapi.yml
-  format: yaml
-  label: DAT BookNow API
+  label: DAT Freight & Analytics BookNow API
   slug: dat-freight-booknow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-openapi.yml
-- filename: dat-freight-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-booknow-api-openapi.yml
+- filename: dat-freight-freight-posting-api-openapi.yml
   format: yaml
-  label: DAT Tracking API
+  label: DAT Freight & Analytics Freight Posting API
+  slug: dat-freight-freight-posting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-freight-posting-api-openapi.yml
+- filename: dat-freight-identity-api-openapi.yml
+  format: yaml
+  label: DAT Freight & Analytics Identity API
+  slug: dat-freight-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-identity-api-openapi.yml
+- filename: dat-freight-load-board-search-api-openapi.yml
+  format: yaml
+  label: DAT Freight & Analytics Load Board Search API
+  slug: dat-freight-load-board-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-load-board-search-api-openapi.yml
+- filename: dat-freight-rateview-api-openapi.yml
+  format: yaml
+  label: DAT Freight & Analytics RateView API
+  slug: dat-freight-rateview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-rateview-api-openapi.yml
+- filename: dat-freight-tracking-api-openapi.yml
+  format: yaml
+  label: DAT Freight & Analytics Tracking API
   slug: dat-freight-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-tracking-api-openapi.yml
 description: ''
 domains:
 - caa: []

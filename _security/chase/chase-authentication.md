@@ -1,42 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: chase-account-and-customer-information-api-openapi.yml
-  format: yaml
-  label: Chase Account and Customer Information API
-  slug: account-and-customer-information-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-account-and-customer-information-api-openapi.yml
-- filename: chase-account-aggregation-user-consent-api-openapi.yml
-  format: yaml
-  label: Chase Account Aggregation User Consent API
-  slug: account-aggregation-user-consent-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-account-aggregation-user-consent-api-openapi.yml
 - filename: chase-rewards-balance-api-openapi.yml
   format: yaml
   label: Chase Rewards Balance API
   slug: rewards-balance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-rewards-balance-api-openapi.yml
-- filename: chase-loyalty-pay-with-points-order-service-api-openapi.yml
+- filename: chase-accounts-api-openapi.yml
   format: yaml
-  label: Chase Loyalty Pay with Points Order Service API
-  slug: loyalty-pay-with-points-order-service-api
+  label: Chase Accounts API
+  slug: chase-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-loyalty-pay-with-points-order-service-api-openapi.yml
-- filename: chase-loyalty-pay-with-points-enrollment-service-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-accounts-api-openapi.yml
+- filename: chase-consents-api-openapi.yml
   format: yaml
-  label: Chase Loyalty Pay with Points Enrollment Service API
-  slug: loyalty-pay-with-points-enrollment-service-api
+  label: Chase Consents API
+  slug: chase-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-loyalty-pay-with-points-enrollment-service-api-openapi.yml
-- filename: chase-loyalty-pci-merchant-relationship-manager-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-consents-api-openapi.yml
+- filename: chase-customers-api-openapi.yml
   format: yaml
-  label: Chase Loyalty PCI Merchant Relationship Manager API
-  slug: loyalty-pci-merchant-relationship-manager-api
+  label: Chase Customers API
+  slug: chase-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-loyalty-pci-merchant-relationship-manager-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-customers-api-openapi.yml
+- filename: chase-enrollments-api-openapi.yml
+  format: yaml
+  label: Chase Enrollments API
+  slug: chase-enrollments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-enrollments-api-openapi.yml
+- filename: chase-merchants-api-openapi.yml
+  format: yaml
+  label: Chase Merchants API
+  slug: chase-merchants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-merchants-api-openapi.yml
+- filename: chase-orders-api-openapi.yml
+  format: yaml
+  label: Chase Orders API
+  slug: chase-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-orders-api-openapi.yml
+- filename: chase-refunds-api-openapi.yml
+  format: yaml
+  label: Chase Refunds API
+  slug: chase-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-refunds-api-openapi.yml
+- filename: chase-statements-api-openapi.yml
+  format: yaml
+  label: Chase Statements API
+  slug: chase-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-statements-api-openapi.yml
+- filename: chase-tax-forms-api-openapi.yml
+  format: yaml
+  label: Chase Tax Forms API
+  slug: chase-tax-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-tax-forms-api-openapi.yml
+- filename: chase-transactions-api-openapi.yml
+  format: yaml
+  label: Chase Transactions API
+  slug: chase-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-transactions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: bland-ai-openapi.yml
+- filename: bland-ai-calls-api-openapi.yml
   format: yaml
-  label: Bland AI Platform API
-  slug: platform
+  label: Bland AI Calls API
+  slug: bland-ai-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bland-ai/refs/heads/main/openapi/bland-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bland-ai/refs/heads/main/openapi/bland-ai-calls-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

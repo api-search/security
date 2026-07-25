@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: eco-routes-openapi-original.json
-  format: json
-  label: Eco Routes API
-  slug: eco-routes-api
+- filename: eco-quotes-v1-api-openapi.yml
+  format: yaml
+  label: Eco Quotes V1 API
+  slug: eco-quotes-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/openapi/eco-routes-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/openapi/eco-quotes-v1-api-openapi.yml
+- filename: eco-quotes-v2-api-openapi.yml
+  format: yaml
+  label: Eco Quotes V2 API
+  slug: eco-quotes-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/openapi/eco-quotes-v2-api-openapi.yml
+- filename: eco-quotes-v3-api-openapi.yml
+  format: yaml
+  label: Eco Quotes V3 API
+  slug: eco-quotes-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/openapi/eco-quotes-v3-api-openapi.yml
 description: ''
 domains:
 - caa:

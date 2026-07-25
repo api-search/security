@@ -8,12 +8,72 @@ api_specs:
   slug: nuix-core-engine-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-nuix-core-engine-rest-api-openapi.yml
-- filename: nuix-nuix-ecc-rest-api-openapi.yml
+- filename: nuix-case-api-openapi.yml
   format: yaml
-  label: Nuix Enterprise Collection Center REST API
-  slug: nuix-ecc-rest-api
+  label: Nuix Case API
+  slug: nuix-case-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-nuix-ecc-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-case-api-openapi.yml
+- filename: nuix-collection-and-survey-api-openapi.yml
+  format: yaml
+  label: Nuix Collection and Survey API
+  slug: nuix-collection-and-survey-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-collection-and-survey-api-openapi.yml
+- filename: nuix-collection-configuration-api-openapi.yml
+  format: yaml
+  label: Nuix Collection Configuration API
+  slug: nuix-collection-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-collection-configuration-api-openapi.yml
+- filename: nuix-computer-api-openapi.yml
+  format: yaml
+  label: Nuix Computer API
+  slug: nuix-computer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-computer-api-openapi.yml
+- filename: nuix-computer-configuration-api-openapi.yml
+  format: yaml
+  label: Nuix Computer Configuration API
+  slug: nuix-computer-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-computer-configuration-api-openapi.yml
+- filename: nuix-custodian-api-openapi.yml
+  format: yaml
+  label: Nuix Custodian API
+  slug: nuix-custodian-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-custodian-api-openapi.yml
+- filename: nuix-group-api-openapi.yml
+  format: yaml
+  label: Nuix Group API
+  slug: nuix-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-group-api-openapi.yml
+- filename: nuix-job-api-openapi.yml
+  format: yaml
+  label: Nuix Job API
+  slug: nuix-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-job-api-openapi.yml
+- filename: nuix-log-api-openapi.yml
+  format: yaml
+  label: Nuix Log API
+  slug: nuix-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-log-api-openapi.yml
+- filename: nuix-target-api-openapi.yml
+  format: yaml
+  label: Nuix Target API
+  slug: nuix-target-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-target-api-openapi.yml
+- filename: nuix-utility-api-openapi.yml
+  format: yaml
+  label: Nuix Utility API
+  slug: nuix-utility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-utility-api-openapi.yml
 auth_types:
 - apiKey
 - http

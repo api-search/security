@@ -2,48 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: listmonk-openapi.yml
+- filename: listmonk-bounces-api-openapi.yml
   format: yaml
-  label: listmonk Subscribers API
-  slug: listmonk-subscribers-api
+  label: listmonk Bounces API
+  slug: listmonk-bounces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-openapi.yml
-- filename: listmonk-openapi.yml
-  format: yaml
-  label: listmonk Lists API
-  slug: listmonk-lists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-openapi.yml
-- filename: listmonk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-bounces-api-openapi.yml
+- filename: listmonk-campaigns-api-openapi.yml
   format: yaml
   label: listmonk Campaigns API
   slug: listmonk-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-openapi.yml
-- filename: listmonk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-campaigns-api-openapi.yml
+- filename: listmonk-import-api-openapi.yml
   format: yaml
-  label: listmonk Templates API
-  slug: listmonk-templates-api
+  label: listmonk Import API
+  slug: listmonk-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-openapi.yml
-- filename: listmonk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-import-api-openapi.yml
+- filename: listmonk-lists-api-openapi.yml
+  format: yaml
+  label: listmonk Lists API
+  slug: listmonk-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-lists-api-openapi.yml
+- filename: listmonk-media-api-openapi.yml
   format: yaml
   label: listmonk Media API
   slug: listmonk-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-openapi.yml
-- filename: listmonk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-media-api-openapi.yml
+- filename: listmonk-subscribers-api-openapi.yml
+  format: yaml
+  label: listmonk Subscribers API
+  slug: listmonk-subscribers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-subscribers-api-openapi.yml
+- filename: listmonk-templates-api-openapi.yml
+  format: yaml
+  label: listmonk Templates API
+  slug: listmonk-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-templates-api-openapi.yml
+- filename: listmonk-transactional-api-openapi.yml
   format: yaml
   label: listmonk Transactional API
   slug: listmonk-transactional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-openapi.yml
-- filename: listmonk-openapi.yml
-  format: yaml
-  label: listmonk Import and Bounces API
-  slug: listmonk-import-bounces-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-transactional-api-openapi.yml
 auth_types:
 - apiKey
 - http

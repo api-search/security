@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-braket-api-openapi.yml
+- filename: amazon-braket-devices-api-openapi.yml
   format: yaml
-  label: Amazon Braket API
-  slug: amazon-braket-api
+  label: Amazon Braket Devices API
+  slug: amazon-braket-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/openapi/amazon-braket-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/openapi/amazon-braket-devices-api-openapi.yml
+- filename: amazon-braket-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon Braket Jobs API
+  slug: amazon-braket-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/openapi/amazon-braket-jobs-api-openapi.yml
+- filename: amazon-braket-quantum-tasks-api-openapi.yml
+  format: yaml
+  label: Amazon Braket Quantum Tasks API
+  slug: amazon-braket-quantum-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/openapi/amazon-braket-quantum-tasks-api-openapi.yml
+- filename: amazon-braket-spending-limits-api-openapi.yml
+  format: yaml
+  label: Amazon Braket Spending Limits API
+  slug: amazon-braket-spending-limits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/openapi/amazon-braket-spending-limits-api-openapi.yml
+- filename: amazon-braket-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Braket Tags API
+  slug: amazon-braket-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/openapi/amazon-braket-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

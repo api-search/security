@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: amazon-data-exchange-openapi.yml
+- filename: amazon-data-exchange-assets-api-openapi.yml
   format: yaml
-  label: AWS Data Exchange API
-  slug: aws-data-exchange-api
+  label: Amazon Data Exchange Assets API
+  slug: amazon-data-exchange-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-assets-api-openapi.yml
+- filename: amazon-data-exchange-data-sets-api-openapi.yml
+  format: yaml
+  label: Amazon Data Exchange Data Sets API
+  slug: amazon-data-exchange-data-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-data-sets-api-openapi.yml
+- filename: amazon-data-exchange-event-actions-api-openapi.yml
+  format: yaml
+  label: Amazon Data Exchange Event Actions API
+  slug: amazon-data-exchange-event-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-event-actions-api-openapi.yml
+- filename: amazon-data-exchange-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon Data Exchange Jobs API
+  slug: amazon-data-exchange-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-jobs-api-openapi.yml
+- filename: amazon-data-exchange-revisions-api-openapi.yml
+  format: yaml
+  label: Amazon Data Exchange Revisions API
+  slug: amazon-data-exchange-revisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-revisions-api-openapi.yml
+- filename: amazon-data-exchange-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Data Exchange Tags API
+  slug: amazon-data-exchange-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

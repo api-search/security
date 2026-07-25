@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: bucket-management-openapi-original.json
-  format: json
-  label: Reflag Management API
-  slug: reflag-management-api
+- filename: bucket-apps-api-openapi.yml
+  format: yaml
+  label: Bucket Apps API
+  slug: bucket-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bucket/refs/heads/main/openapi/bucket-management-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/bucket/refs/heads/main/openapi/bucket-apps-api-openapi.yml
 description: ''
 domains:
 - caa: []

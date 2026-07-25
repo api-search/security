@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: veritus-openapi.json
-  format: json
-  label: Veritus API
-  slug: veritus-api
+- filename: veritus-calls-api-openapi.yml
+  format: yaml
+  label: Veritus Calls API
+  slug: veritus-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/openapi/veritus-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/openapi/veritus-calls-api-openapi.yml
+- filename: veritus-clients-api-openapi.yml
+  format: yaml
+  label: Veritus Clients API
+  slug: veritus-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/openapi/veritus-clients-api-openapi.yml
+- filename: veritus-customers-api-openapi.yml
+  format: yaml
+  label: Veritus Customers API
+  slug: veritus-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/openapi/veritus-customers-api-openapi.yml
+- filename: veritus-interactions-api-openapi.yml
+  format: yaml
+  label: Veritus Interactions API
+  slug: veritus-interactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/openapi/veritus-interactions-api-openapi.yml
 auth_types:
 - http
 description: ''

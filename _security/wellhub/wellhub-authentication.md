@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: wellhub-integrations-openapi-original.json
-  format: json
-  label: Wellhub Integrations API
-  slug: wellhub-integrations-api
+- filename: wellhub-companies-api-openapi.yml
+  format: yaml
+  label: Wellhub Companies API
+  slug: wellhub-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/openapi/wellhub-integrations-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/openapi/wellhub-companies-api-openapi.yml
+- filename: wellhub-employees-api-openapi.yml
+  format: yaml
+  label: Wellhub Employees API
+  slug: wellhub-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/openapi/wellhub-employees-api-openapi.yml
+- filename: wellhub-jobs-api-openapi.yml
+  format: yaml
+  label: Wellhub Jobs API
+  slug: wellhub-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/openapi/wellhub-jobs-api-openapi.yml
+- filename: wellhub-oauth-api-openapi.yml
+  format: yaml
+  label: Wellhub OAuth API
+  slug: wellhub-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/openapi/wellhub-oauth-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

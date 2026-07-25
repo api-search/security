@@ -1,71 +1,107 @@
 ---
 api_specs:
-- filename: zaius-events-openapi.json
-  format: json
-  label: ODP Events API
-  slug: odp-events-api
+- filename: zaius-compliance-api-openapi.yml
+  format: yaml
+  label: Zaius Compliance API
+  slug: zaius-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-events-openapi.json
-- filename: zaius-customers-openapi.json
-  format: json
-  label: ODP Customers API
-  slug: odp-customers-api
+  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-compliance-api-openapi.yml
+- filename: zaius-consent-api-openapi.yml
+  format: yaml
+  label: Zaius Consent API
+  slug: zaius-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-customers-openapi.json
-- filename: zaius-orders-openapi.json
-  format: json
-  label: ODP Orders API
-  slug: odp-orders-api
+  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-consent-api-openapi.yml
+- filename: zaius-consent-legacy-api-openapi.yml
+  format: yaml
+  label: Zaius Consent (Legacy) API
+  slug: zaius-consent-legacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-orders-openapi.json
-- filename: zaius-products-openapi.json
-  format: json
-  label: ODP Products API
-  slug: odp-products-api
+  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-consent-legacy-api-openapi.yml
+- filename: zaius-customers-api-openapi.yml
+  format: yaml
+  label: Zaius Customers API
+  slug: zaius-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-products-openapi.json
-- filename: zaius-objects-openapi.json
-  format: json
-  label: ODP Objects API
-  slug: odp-objects-api
+  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-customers-api-openapi.yml
+- filename: zaius-events-api-openapi.yml
+  format: yaml
+  label: Zaius Events API
+  slug: zaius-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-objects-openapi.json
-- filename: zaius-lists-openapi.json
-  format: json
-  label: ODP Lists API
-  slug: odp-lists-api
+  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-events-api-openapi.yml
+- filename: zaius-exports-api-openapi.yml
+  format: yaml
+  label: Zaius Exports API
+  slug: zaius-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-lists-openapi.json
-- filename: zaius-consent-openapi.json
-  format: json
-  label: ODP Consent API
-  slug: odp-consent-api
+  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-exports-api-openapi.yml
+- filename: zaius-fields-schema-api-openapi.yml
+  format: yaml
+  label: Zaius Fields schema API
+  slug: zaius-fields-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-consent-openapi.json
-- filename: zaius-exports-openapi.json
-  format: json
-  label: ODP Exports API
-  slug: odp-exports-api
+  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-fields-schema-api-openapi.yml
+- filename: zaius-identifiers-api-openapi.yml
+  format: yaml
+  label: Zaius Identifiers API
+  slug: zaius-identifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-exports-openapi.json
-- filename: zaius-recommendations-openapi.json
-  format: json
-  label: ODP Recommendations API
-  slug: odp-recommendations-api
+  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-identifiers-api-openapi.yml
+- filename: zaius-lists-api-openapi.yml
+  format: yaml
+  label: Zaius Lists API
+  slug: zaius-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-recommendations-openapi.json
-- filename: zaius-realtimesegments-openapi.json
-  format: json
-  label: ODP Real-Time Segments API
-  slug: odp-real-time-segments-api
+  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-lists-api-openapi.yml
+- filename: zaius-object-schema-api-openapi.yml
+  format: yaml
+  label: Zaius Object schema API
+  slug: zaius-object-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-realtimesegments-openapi.json
-- filename: zaius-advanced-openapi.json
-  format: json
-  label: ODP Advanced API (schema, identifiers, compliance)
-  slug: odp-advanced-api-schema-identifiers-compliance
+  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-object-schema-api-openapi.yml
+- filename: zaius-objects-api-openapi.yml
+  format: yaml
+  label: Zaius Objects API
+  slug: zaius-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-advanced-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-objects-api-openapi.yml
+- filename: zaius-orders-api-openapi.yml
+  format: yaml
+  label: Zaius Orders API
+  slug: zaius-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-orders-api-openapi.yml
+- filename: zaius-products-api-openapi.yml
+  format: yaml
+  label: Zaius Products API
+  slug: zaius-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-products-api-openapi.yml
+- filename: zaius-reachability-api-openapi.yml
+  format: yaml
+  label: Zaius Reachability API
+  slug: zaius-reachability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-reachability-api-openapi.yml
+- filename: zaius-realtimesegments-api-openapi.yml
+  format: yaml
+  label: Zaius RealtimeSegments API
+  slug: zaius-realtimesegments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-realtimesegments-api-openapi.yml
+- filename: zaius-recommendations-api-openapi.yml
+  format: yaml
+  label: Zaius Recommendations API
+  slug: zaius-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-recommendations-api-openapi.yml
+- filename: zaius-relationships-schema-api-openapi.yml
+  format: yaml
+  label: Zaius Relationships schema API
+  slug: zaius-relationships-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-relationships-schema-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

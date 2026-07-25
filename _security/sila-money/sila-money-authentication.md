@@ -1,36 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sila-money-openapi.yml
+- filename: sila-money-accounts-api-openapi.yml
   format: yaml
-  label: Sila Identity & KYC/KYB API
+  label: Sila Accounts API
+  slug: sila-money-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-accounts-api-openapi.yml
+- filename: sila-money-identity-api-openapi.yml
+  format: yaml
+  label: Sila Identity API
   slug: sila-money-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-openapi.yml
-- filename: sila-money-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-identity-api-openapi.yml
+- filename: sila-money-payment-methods-api-openapi.yml
+  format: yaml
+  label: Sila Payment Methods API
+  slug: sila-money-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-payment-methods-api-openapi.yml
+- filename: sila-money-payments-api-openapi.yml
+  format: yaml
+  label: Sila Payments API
+  slug: sila-money-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-payments-api-openapi.yml
+- filename: sila-money-wallets-api-openapi.yml
   format: yaml
   label: Sila Wallets API
   slug: sila-money-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-openapi.yml
-- filename: sila-money-openapi.yml
-  format: yaml
-  label: Sila Bank Accounts API
-  slug: sila-money-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-openapi.yml
-- filename: sila-money-openapi.yml
-  format: yaml
-  label: Sila Payments & Transactions API
-  slug: sila-money-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-openapi.yml
-- filename: sila-money-openapi.yml
-  format: yaml
-  label: Sila Payment Methods & Cards API
-  slug: sila-money-payment-methods-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-wallets-api-openapi.yml
 auth_types:
 - signature
 description: ''

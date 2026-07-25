@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: google-cloud-data-fusion-openapi.yml
+- filename: google-cloud-data-fusion-instances-api-openapi.yml
   format: yaml
-  label: Google Cloud Data Fusion API
-  slug: google-cloud-data-fusion-api
+  label: Google Cloud Data Fusion Instances API
+  slug: google-cloud-data-fusion-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/openapi/google-cloud-data-fusion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/openapi/google-cloud-data-fusion-instances-api-openapi.yml
+- filename: google-cloud-data-fusion-locations-api-openapi.yml
+  format: yaml
+  label: Google Cloud Data Fusion Locations API
+  slug: google-cloud-data-fusion-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/openapi/google-cloud-data-fusion-locations-api-openapi.yml
+- filename: google-cloud-data-fusion-operations-api-openapi.yml
+  format: yaml
+  label: Google Cloud Data Fusion Operations API
+  slug: google-cloud-data-fusion-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/openapi/google-cloud-data-fusion-operations-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

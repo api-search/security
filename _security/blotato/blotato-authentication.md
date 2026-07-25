@@ -2,30 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: blotato-openapi.yml
-  format: yaml
-  label: Blotato Media Upload API
-  slug: blotato-media-upload-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/openapi/blotato-openapi.yml
-- filename: blotato-openapi.yml
-  format: yaml
-  label: Blotato Posts Publishing API
-  slug: blotato-posts-publishing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/openapi/blotato-openapi.yml
-- filename: blotato-openapi.yml
-  format: yaml
-  label: Blotato AI Content API
-  slug: blotato-ai-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/openapi/blotato-openapi.yml
-- filename: blotato-openapi.yml
+- filename: blotato-accounts-api-openapi.yml
   format: yaml
   label: Blotato Accounts API
   slug: blotato-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/openapi/blotato-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/openapi/blotato-accounts-api-openapi.yml
+- filename: blotato-media-api-openapi.yml
+  format: yaml
+  label: Blotato Media API
+  slug: blotato-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/openapi/blotato-media-api-openapi.yml
+- filename: blotato-posts-api-openapi.yml
+  format: yaml
+  label: Blotato Posts API
+  slug: blotato-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/openapi/blotato-posts-api-openapi.yml
+- filename: blotato-visuals-api-openapi.yml
+  format: yaml
+  label: Blotato Visuals API
+  slug: blotato-visuals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/openapi/blotato-visuals-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

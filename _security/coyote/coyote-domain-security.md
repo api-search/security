@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: CoyoteGO API
-  slug: coyotego-api
+- filename: coyote-associated-entities-api-api-openapi.yml
+  format: yaml
+  label: Coyote Logistics Associated Entities API API
+  slug: coyote-associated-entities-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/openapi/coyote-associated-entities-api-api-openapi.yml
+- filename: coyote-carrier-available-load-apis-api-openapi.yml
+  format: yaml
+  label: Coyote Logistics Carrier - Available Load APIs API
+  slug: coyote-carrier-available-load-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/openapi/coyote-carrier-available-load-apis-api-openapi.yml
+- filename: coyote-carrier-booking-apis-api-openapi.yml
+  format: yaml
+  label: Coyote Logistics Carrier - Booking APIs API
+  slug: coyote-carrier-booking-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/openapi/coyote-carrier-booking-apis-api-openapi.yml
+- filename: coyote-carrier-offer-apis-api-openapi.yml
+  format: yaml
+  label: Coyote Logistics Carrier - Offer APIs API
+  slug: coyote-carrier-offer-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/openapi/coyote-carrier-offer-apis-api-openapi.yml
+- filename: coyote-document-apis-api-openapi.yml
+  format: yaml
+  label: Coyote Logistics Document APIs API
+  slug: coyote-document-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/openapi/coyote-document-apis-api-openapi.yml
+- filename: coyote-shipper-quoting-apis-api-openapi.yml
+  format: yaml
+  label: Coyote Logistics Shipper - Quoting APIs API
+  slug: coyote-shipper-quoting-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/openapi/coyote-shipper-quoting-apis-api-openapi.yml
+- filename: coyote-shipper-shipment-apis-api-openapi.yml
+  format: yaml
+  label: Coyote Logistics Shipper - Shipment APIs API
+  slug: coyote-shipper-shipment-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/openapi/coyote-shipper-shipment-apis-api-openapi.yml
+- filename: coyote-shipper-tracking-apis-api-openapi.yml
+  format: yaml
+  label: Coyote Logistics Shipper - Tracking APIs API
+  slug: coyote-shipper-tracking-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/openapi/coyote-shipper-tracking-apis-api-openapi.yml
 description: ''
 domains:
 - caa: []

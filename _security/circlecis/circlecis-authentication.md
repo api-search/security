@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: circlecis-openapi.yml
+- filename: circlecis-context-api-openapi.yml
   format: yaml
-  label: CircleCI REST API V2
-  slug: rest-api-v2
+  label: CircleCI Context API
+  slug: circlecis-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circlecis/refs/heads/main/openapi/circlecis-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/circlecis/refs/heads/main/openapi/circlecis-context-api-openapi.yml
+- filename: circlecis-job-api-openapi.yml
+  format: yaml
+  label: CircleCI Job API
+  slug: circlecis-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circlecis/refs/heads/main/openapi/circlecis-job-api-openapi.yml
+- filename: circlecis-pipeline-api-openapi.yml
+  format: yaml
+  label: CircleCI Pipeline API
+  slug: circlecis-pipeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circlecis/refs/heads/main/openapi/circlecis-pipeline-api-openapi.yml
+- filename: circlecis-project-api-openapi.yml
+  format: yaml
+  label: CircleCI Project API
+  slug: circlecis-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circlecis/refs/heads/main/openapi/circlecis-project-api-openapi.yml
+- filename: circlecis-user-api-openapi.yml
+  format: yaml
+  label: CircleCI User API
+  slug: circlecis-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circlecis/refs/heads/main/openapi/circlecis-user-api-openapi.yml
+- filename: circlecis-workflow-api-openapi.yml
+  format: yaml
+  label: CircleCI Workflow API
+  slug: circlecis-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circlecis/refs/heads/main/openapi/circlecis-workflow-api-openapi.yml
 auth_types:
 - apiKey
 - http

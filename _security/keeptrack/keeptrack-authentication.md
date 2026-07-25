@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: keeptrack-openapi.yml
+- filename: keeptrack-catalog-api-openapi.yml
   format: yaml
-  label: KeepTrack
-  slug: keeptrack
+  label: KeepTrack Catalog API
+  slug: keeptrack-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keeptrack/refs/heads/main/openapi/keeptrack-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keeptrack/refs/heads/main/openapi/keeptrack-catalog-api-openapi.yml
+- filename: keeptrack-orbits-api-openapi.yml
+  format: yaml
+  label: KeepTrack Orbits API
+  slug: keeptrack-orbits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keeptrack/refs/heads/main/openapi/keeptrack-orbits-api-openapi.yml
+- filename: keeptrack-positions-api-openapi.yml
+  format: yaml
+  label: KeepTrack Positions API
+  slug: keeptrack-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keeptrack/refs/heads/main/openapi/keeptrack-positions-api-openapi.yml
+- filename: keeptrack-satellites-api-openapi.yml
+  format: yaml
+  label: KeepTrack Satellites API
+  slug: keeptrack-satellites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keeptrack/refs/heads/main/openapi/keeptrack-satellites-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

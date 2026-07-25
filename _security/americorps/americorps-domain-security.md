@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: americorps-openapi.yml
+- filename: americorps-catalog-api-openapi.yml
   format: yaml
-  label: AmeriCorps Open Data SODA API
-  slug: americorps-open-data-soda-api
+  label: AmeriCorps Catalog API
+  slug: americorps-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/openapi/americorps-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/openapi/americorps-catalog-api-openapi.yml
+- filename: americorps-datasets-api-openapi.yml
+  format: yaml
+  label: AmeriCorps Datasets API
+  slug: americorps-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/openapi/americorps-datasets-api-openapi.yml
+- filename: americorps-metadata-api-openapi.yml
+  format: yaml
+  label: AmeriCorps Metadata API
+  slug: americorps-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/openapi/americorps-metadata-api-openapi.yml
 description: ''
 domains:
 - caa: []

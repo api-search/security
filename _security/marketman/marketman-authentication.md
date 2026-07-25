@@ -2,48 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: marketman-openapi.yml
+- filename: marketman-accounts-api-openapi.yml
   format: yaml
-  label: MarketMan Inventory & Items API
-  slug: inventory-items-api
+  label: MarketMan Accounts API
+  slug: marketman-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-openapi.yml
-- filename: marketman-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-accounts-api-openapi.yml
+- filename: marketman-authentication-api-openapi.yml
   format: yaml
-  label: MarketMan Vendors API
-  slug: vendors-api
+  label: MarketMan Authentication API
+  slug: marketman-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-openapi.yml
-- filename: marketman-openapi.yml
-  format: yaml
-  label: MarketMan Purchase Orders API
-  slug: purchase-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-openapi.yml
-- filename: marketman-openapi.yml
-  format: yaml
-  label: MarketMan Invoices & Docs API
-  slug: invoices-docs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-openapi.yml
-- filename: marketman-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-authentication-api-openapi.yml
+- filename: marketman-deliveries-api-openapi.yml
   format: yaml
   label: MarketMan Deliveries API
-  slug: deliveries-api
+  slug: marketman-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-openapi.yml
-- filename: marketman-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-deliveries-api-openapi.yml
+- filename: marketman-docs-api-openapi.yml
   format: yaml
-  label: MarketMan Recipes & Menu Profitability API
-  slug: recipes-menu-profitability-api
+  label: MarketMan Docs API
+  slug: marketman-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-openapi.yml
-- filename: marketman-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-docs-api-openapi.yml
+- filename: marketman-inventory-api-openapi.yml
+  format: yaml
+  label: MarketMan Inventory API
+  slug: marketman-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-inventory-api-openapi.yml
+- filename: marketman-items-api-openapi.yml
+  format: yaml
+  label: MarketMan Items API
+  slug: marketman-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-items-api-openapi.yml
+- filename: marketman-orders-api-openapi.yml
+  format: yaml
+  label: MarketMan Orders API
+  slug: marketman-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-orders-api-openapi.yml
+- filename: marketman-recipes-api-openapi.yml
+  format: yaml
+  label: MarketMan Recipes API
+  slug: marketman-recipes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-recipes-api-openapi.yml
+- filename: marketman-webhooks-api-openapi.yml
   format: yaml
   label: MarketMan Webhooks API
-  slug: webhooks-api
+  slug: marketman-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

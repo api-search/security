@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: step-functions-openapi.yml
+- filename: step-functions-state-machines-api-openapi.yml
   format: yaml
-  label: AWS Step Functions API
-  slug: step-functions
+  label: AWS Step Functions State Machines API
+  slug: step-functions-state-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/step-functions/refs/heads/main/openapi/step-functions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/step-functions/refs/heads/main/openapi/step-functions-state-machines-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

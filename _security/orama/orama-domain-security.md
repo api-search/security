@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: orama-openapi.yml
+- filename: orama-answer-api-openapi.yml
   format: yaml
-  label: Orama Cloud Indexes and Collections
-  slug: indexes-collections
+  label: Orama Answer API
+  slug: orama-answer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orama/refs/heads/main/openapi/orama-openapi.yml
-- filename: orama-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orama/refs/heads/main/openapi/orama-answer-api-openapi.yml
+- filename: orama-documents-api-openapi.yml
   format: yaml
-  label: Orama Cloud Documents
-  slug: documents
+  label: Orama Documents API
+  slug: orama-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orama/refs/heads/main/openapi/orama-openapi.yml
-- filename: orama-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orama/refs/heads/main/openapi/orama-documents-api-openapi.yml
+- filename: orama-indexes-api-openapi.yml
   format: yaml
-  label: Orama Cloud Search
-  slug: search
+  label: Orama Indexes API
+  slug: orama-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orama/refs/heads/main/openapi/orama-openapi.yml
-- filename: orama-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orama/refs/heads/main/openapi/orama-indexes-api-openapi.yml
+- filename: orama-search-api-openapi.yml
   format: yaml
-  label: Orama Cloud Answer Sessions (RAG)
-  slug: answer-sessions-rag
+  label: Orama Search API
+  slug: orama-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orama/refs/heads/main/openapi/orama-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orama/refs/heads/main/openapi/orama-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: macquarie-rdr-figshare.yaml
+- filename: macquarie-altmetric-api-openapi.yml
   format: yaml
-  label: Macquarie University Research Data Repository (Figshare API)
-  slug: rdr-figshare
+  label: Macquarie University altmetric API
+  slug: macquarie-altmetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-rdr-figshare.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-altmetric-api-openapi.yml
+- filename: macquarie-articles-api-openapi.yml
+  format: yaml
+  label: Macquarie University articles API
+  slug: macquarie-articles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-articles-api-openapi.yml
+- filename: macquarie-authors-api-openapi.yml
+  format: yaml
+  label: Macquarie University authors API
+  slug: macquarie-authors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-authors-api-openapi.yml
+- filename: macquarie-collections-api-openapi.yml
+  format: yaml
+  label: Macquarie University collections API
+  slug: macquarie-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-collections-api-openapi.yml
+- filename: macquarie-institutions-api-openapi.yml
+  format: yaml
+  label: Macquarie University institutions API
+  slug: macquarie-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-institutions-api-openapi.yml
+- filename: macquarie-oauth-api-openapi.yml
+  format: yaml
+  label: Macquarie University oauth API
+  slug: macquarie-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-oauth-api-openapi.yml
+- filename: macquarie-other-api-openapi.yml
+  format: yaml
+  label: Macquarie University other API
+  slug: macquarie-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-other-api-openapi.yml
+- filename: macquarie-profiles-api-openapi.yml
+  format: yaml
+  label: Macquarie University profiles API
+  slug: macquarie-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-profiles-api-openapi.yml
+- filename: macquarie-projects-api-openapi.yml
+  format: yaml
+  label: Macquarie University projects API
+  slug: macquarie-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-projects-api-openapi.yml
+- filename: macquarie-symplectic-api-openapi.yml
+  format: yaml
+  label: Macquarie University symplectic API
+  slug: macquarie-symplectic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-symplectic-api-openapi.yml
 description: ''
 domains:
 - caa: []

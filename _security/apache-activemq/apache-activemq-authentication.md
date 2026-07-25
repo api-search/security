@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: apache-activemq-rest-openapi.yaml
+- filename: apache-activemq-management-api-openapi.yml
   format: yaml
-  label: Apache ActiveMQ REST API
-  slug: apache-activemq-rest-api
+  label: Apache ActiveMQ Management API
+  slug: apache-activemq-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-activemq/refs/heads/main/openapi/apache-activemq-rest-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-activemq/refs/heads/main/openapi/apache-activemq-management-api-openapi.yml
+- filename: apache-activemq-messages-api-openapi.yml
+  format: yaml
+  label: Apache ActiveMQ Messages API
+  slug: apache-activemq-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-activemq/refs/heads/main/openapi/apache-activemq-messages-api-openapi.yml
 auth_types:
 - http
 description: ''

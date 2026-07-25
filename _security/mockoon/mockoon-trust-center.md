@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: mockoon-openapi.yml
+- filename: mockoon-data-buckets-api-openapi.yml
   format: yaml
-  label: Mockoon
-  slug: mockoon
+  label: Mockoon Data Buckets API
+  slug: mockoon-data-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mockoon/refs/heads/main/openapi/mockoon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mockoon/refs/heads/main/openapi/mockoon-data-buckets-api-openapi.yml
 certifications:
 - PCI DSS
 - GDPR

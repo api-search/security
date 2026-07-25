@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: nist-nvd-cve-openapi.yml
+- filename: nist-cvehistory-api-openapi.yml
   format: yaml
-  label: NIST National Vulnerability Database (NVD) API
-  slug: nist-nvd-api
+  label: National Institute of Standards and Technology (NIST) Cvehistory API
+  slug: nist-cvehistory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/openapi/nist-nvd-cve-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/openapi/nist-cvehistory-api-openapi.yml
+- filename: nist-cves-api-openapi.yml
+  format: yaml
+  label: National Institute of Standards and Technology (NIST) Cves API
+  slug: nist-cves-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/openapi/nist-cves-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

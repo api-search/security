@@ -1,42 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: epos-now-openapi.yml
-  format: yaml
-  label: Epos Now Products API
-  slug: epos-now-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/openapi/epos-now-openapi.yml
-- filename: epos-now-openapi.yml
+- filename: epos-now-categories-api-openapi.yml
   format: yaml
   label: Epos Now Categories API
   slug: epos-now-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/openapi/epos-now-openapi.yml
-- filename: epos-now-openapi.yml
-  format: yaml
-  label: Epos Now Transactions API
-  slug: epos-now-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/openapi/epos-now-openapi.yml
-- filename: epos-now-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/openapi/epos-now-categories-api-openapi.yml
+- filename: epos-now-customers-api-openapi.yml
   format: yaml
   label: Epos Now Customers API
   slug: epos-now-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/openapi/epos-now-openapi.yml
-- filename: epos-now-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/openapi/epos-now-customers-api-openapi.yml
+- filename: epos-now-devices-api-openapi.yml
+  format: yaml
+  label: Epos Now Devices API
+  slug: epos-now-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/openapi/epos-now-devices-api-openapi.yml
+- filename: epos-now-products-api-openapi.yml
+  format: yaml
+  label: Epos Now Products API
+  slug: epos-now-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/openapi/epos-now-products-api-openapi.yml
+- filename: epos-now-stock-api-openapi.yml
   format: yaml
   label: Epos Now Stock API
   slug: epos-now-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/openapi/epos-now-openapi.yml
-- filename: epos-now-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/openapi/epos-now-stock-api-openapi.yml
+- filename: epos-now-transactions-api-openapi.yml
   format: yaml
-  label: Epos Now Devices and Webhooks API
-  slug: epos-now-devices-webhooks-api
+  label: Epos Now Transactions API
+  slug: epos-now-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/openapi/epos-now-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/openapi/epos-now-transactions-api-openapi.yml
 auth_types:
 - http
 description: ''

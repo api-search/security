@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: amazon-kendra-data-sources-api-openapi.yml
   format: yaml
-  label: Amazon Kendra API
-  slug: amazon-kendra-api
+  label: Amazon Kendra Data Sources API
+  slug: amazon-kendra-data-sources-api
   spec_type: OpenAPI
-  url: https://api.apis.guru/v2/specs/amazonaws.com/kendra/2019-02-03/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-data-sources-api-openapi.yml
+- filename: amazon-kendra-documents-api-openapi.yml
+  format: yaml
+  label: Amazon Kendra Documents API
+  slug: amazon-kendra-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-documents-api-openapi.yml
+- filename: amazon-kendra-experience-api-openapi.yml
+  format: yaml
+  label: Amazon Kendra Experience API
+  slug: amazon-kendra-experience-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-experience-api-openapi.yml
+- filename: amazon-kendra-faqs-api-openapi.yml
+  format: yaml
+  label: Amazon Kendra FAQs API
+  slug: amazon-kendra-faqs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-faqs-api-openapi.yml
+- filename: amazon-kendra-indexes-api-openapi.yml
+  format: yaml
+  label: Amazon Kendra Indexes API
+  slug: amazon-kendra-indexes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-indexes-api-openapi.yml
+- filename: amazon-kendra-queries-api-openapi.yml
+  format: yaml
+  label: Amazon Kendra Queries API
+  slug: amazon-kendra-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-queries-api-openapi.yml
+- filename: amazon-kendra-query-suggestions-api-openapi.yml
+  format: yaml
+  label: Amazon Kendra Query Suggestions API
+  slug: amazon-kendra-query-suggestions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-query-suggestions-api-openapi.yml
+- filename: amazon-kendra-thesaurus-api-openapi.yml
+  format: yaml
+  label: Amazon Kendra Thesaurus API
+  slug: amazon-kendra-thesaurus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-thesaurus-api-openapi.yml
 description: ''
 domains:
 - caa: []

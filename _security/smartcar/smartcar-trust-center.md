@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: smartcar-vehicles-openapi.yml
+- filename: smartcar-charging-api-openapi.yml
   format: yaml
-  label: Smartcar Vehicles API
-  slug: vehicles-api
+  label: Smartcar Charging API
+  slug: smartcar-charging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-vehicles-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-charging-api-openapi.yml
+- filename: smartcar-connections-api-openapi.yml
+  format: yaml
+  label: Smartcar Connections API
+  slug: smartcar-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-connections-api-openapi.yml
+- filename: smartcar-navigation-api-openapi.yml
+  format: yaml
+  label: Smartcar Navigation API
+  slug: smartcar-navigation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-navigation-api-openapi.yml
+- filename: smartcar-security-api-openapi.yml
+  format: yaml
+  label: Smartcar Security API
+  slug: smartcar-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-security-api-openapi.yml
+- filename: smartcar-vehicle-data-api-openapi.yml
+  format: yaml
+  label: Smartcar Vehicle Data API
+  slug: smartcar-vehicle-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-vehicle-data-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

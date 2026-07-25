@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: corebridgefinancial.yml
-  format: yaml
-  label: Corebridge Financial Website
-  slug: website
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corebridge-financial/refs/heads/main/openapi/corebridgefinancial.yml
 description: ''
 domains:
 - caa: []

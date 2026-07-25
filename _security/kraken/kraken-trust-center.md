@@ -1,23 +1,89 @@
 ---
 api_specs:
-- filename: kraken-spot-rest-openapi.yml
-  format: yaml
-  label: Kraken Spot REST API
-  slug: kraken-spot-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-spot-rest-openapi.yml
 - filename: kraken-asyncapi.yml
   format: yaml
   label: Kraken Spot WebSocket API v2
   slug: kraken-spot-websocket-api-v2
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/asyncapi/kraken-asyncapi.yml
-- filename: kraken-futures-rest-openapi.yml
+- filename: kraken-earn-api-openapi.yml
   format: yaml
-  label: Kraken Futures REST API
-  slug: kraken-futures-rest-api
+  label: Kraken Earn API
+  slug: kraken-earn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-futures-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-earn-api-openapi.yml
+- filename: kraken-account-api-openapi.yml
+  format: yaml
+  label: Kraken Account API
+  slug: kraken-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-account-api-openapi.yml
+- filename: kraken-account-data-api-openapi.yml
+  format: yaml
+  label: Kraken Account Data API
+  slug: kraken-account-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-account-data-api-openapi.yml
+- filename: kraken-auth-api-openapi.yml
+  format: yaml
+  label: Kraken Auth API
+  slug: kraken-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-auth-api-openapi.yml
+- filename: kraken-charts-api-openapi.yml
+  format: yaml
+  label: Kraken Charts API
+  slug: kraken-charts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-charts-api-openapi.yml
+- filename: kraken-earn-api-openapi.yml
+  format: yaml
+  label: Kraken Earn API
+  slug: kraken-earn-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-earn-api-openapi.yml
+- filename: kraken-funding-api-openapi.yml
+  format: yaml
+  label: Kraken Funding API
+  slug: kraken-funding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-funding-api-openapi.yml
+- filename: kraken-history-api-openapi.yml
+  format: yaml
+  label: Kraken History API
+  slug: kraken-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-history-api-openapi.yml
+- filename: kraken-market-data-api-openapi.yml
+  format: yaml
+  label: Kraken Market Data API
+  slug: kraken-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-market-data-api-openapi.yml
+- filename: kraken-subaccounts-api-openapi.yml
+  format: yaml
+  label: Kraken Subaccounts API
+  slug: kraken-subaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-subaccounts-api-openapi.yml
+- filename: kraken-trading-api-openapi.yml
+  format: yaml
+  label: Kraken Trading API
+  slug: kraken-trading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-trading-api-openapi.yml
+- filename: kraken-transfers-api-openapi.yml
+  format: yaml
+  label: Kraken Transfers API
+  slug: kraken-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-transfers-api-openapi.yml
+- filename: kraken-websocket-api-openapi.yml
+  format: yaml
+  label: Kraken WebSocket API
+  slug: kraken-websocket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-websocket-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

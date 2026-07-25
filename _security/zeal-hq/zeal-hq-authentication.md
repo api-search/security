@@ -1,72 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: zeal-hq-openapi.yml
+- filename: zeal-hq-companies-api-openapi.yml
   format: yaml
   label: Zeal Companies API
   slug: zeal-hq-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-openapi.yml
-- filename: zeal-hq-openapi.yml
-  format: yaml
-  label: Zeal Employees API
-  slug: zeal-hq-employees-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-openapi.yml
-- filename: zeal-hq-openapi.yml
-  format: yaml
-  label: Zeal Contractors API
-  slug: zeal-hq-contractors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-openapi.yml
-- filename: zeal-hq-openapi.yml
-  format: yaml
-  label: Zeal Employee Check (Payroll Run) API
-  slug: zeal-hq-employee-check-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-openapi.yml
-- filename: zeal-hq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-companies-api-openapi.yml
+- filename: zeal-hq-contractor-payments-api-openapi.yml
   format: yaml
   label: Zeal Contractor Payments API
   slug: zeal-hq-contractor-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-openapi.yml
-- filename: zeal-hq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-contractor-payments-api-openapi.yml
+- filename: zeal-hq-contractors-api-openapi.yml
+  format: yaml
+  label: Zeal Contractors API
+  slug: zeal-hq-contractors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-contractors-api-openapi.yml
+- filename: zeal-hq-employee-check-api-openapi.yml
+  format: yaml
+  label: Zeal Employee Check API
+  slug: zeal-hq-employee-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-employee-check-api-openapi.yml
+- filename: zeal-hq-employees-api-openapi.yml
+  format: yaml
+  label: Zeal Employees API
+  slug: zeal-hq-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-employees-api-openapi.yml
+- filename: zeal-hq-funding-api-openapi.yml
+  format: yaml
+  label: Zeal Funding API
+  slug: zeal-hq-funding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-funding-api-openapi.yml
+- filename: zeal-hq-onboarding-api-openapi.yml
+  format: yaml
+  label: Zeal Onboarding API
+  slug: zeal-hq-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-onboarding-api-openapi.yml
+- filename: zeal-hq-pay-schedules-api-openapi.yml
   format: yaml
   label: Zeal Pay Schedules API
   slug: zeal-hq-pay-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-openapi.yml
-- filename: zeal-hq-openapi.yml
-  format: yaml
-  label: Zeal Worker Onboarding API
-  slug: zeal-hq-onboarding-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-openapi.yml
-- filename: zeal-hq-openapi.yml
-  format: yaml
-  label: Zeal Tax and Compliance API
-  slug: zeal-hq-tax-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-openapi.yml
-- filename: zeal-hq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-pay-schedules-api-openapi.yml
+- filename: zeal-hq-reports-api-openapi.yml
   format: yaml
   label: Zeal Reports API
   slug: zeal-hq-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-openapi.yml
-- filename: zeal-hq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-reports-api-openapi.yml
+- filename: zeal-hq-tax-api-openapi.yml
   format: yaml
-  label: Zeal Funding and Journal API
-  slug: zeal-hq-funding-api
+  label: Zeal Tax API
+  slug: zeal-hq-tax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-openapi.yml
-- filename: zeal-hq-openapi.yml
-  format: yaml
-  label: Zeal Webhooks and Events API
-  slug: zeal-hq-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-tax-api-openapi.yml
 auth_types:
 - http
 description: ''

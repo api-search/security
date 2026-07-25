@@ -3,12 +3,18 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: panorama-openapi.yml
+- filename: panorama-panorama-api-api-openapi.yml
   format: yaml
-  label: Panorama API
-  slug: panorama
+  label: Panorama Panorama API API
+  slug: panorama-panorama-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/panorama/refs/heads/main/openapi/panorama-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/panorama/refs/heads/main/openapi/panorama-panorama-api-api-openapi.yml
+- filename: panorama-restapi-api-openapi.yml
+  format: yaml
+  label: Panorama Restapi API
+  slug: panorama-restapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/panorama/refs/heads/main/openapi/panorama-restapi-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

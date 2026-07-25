@@ -1,42 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: lucidworks-ai-platform-openapi.yml
+- filename: lucidworks-chunking-api-openapi.yml
   format: yaml
-  label: Lucidworks AI Platform API
-  slug: ai-platform
+  label: Lucidworks Chunking API
+  slug: lucidworks-chunking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/openapi/lucidworks-ai-platform-openapi.yml
-- filename: lucidworks-embeddings-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/openapi/lucidworks-chunking-api-openapi.yml
+- filename: lucidworks-classification-api-openapi.yml
   format: yaml
-  label: Lucidworks Embeddings and Classification API
-  slug: embeddings
+  label: Lucidworks Classification API
+  slug: lucidworks-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/openapi/lucidworks-embeddings-openapi.yml
-- filename: lucidworks-signals-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/openapi/lucidworks-classification-api-openapi.yml
+- filename: lucidworks-deployments-api-openapi.yml
+  format: yaml
+  label: Lucidworks Deployments API
+  slug: lucidworks-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/openapi/lucidworks-deployments-api-openapi.yml
+- filename: lucidworks-embeddings-api-openapi.yml
+  format: yaml
+  label: Lucidworks Embeddings API
+  slug: lucidworks-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/openapi/lucidworks-embeddings-api-openapi.yml
+- filename: lucidworks-models-api-openapi.yml
+  format: yaml
+  label: Lucidworks Models API
+  slug: lucidworks-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/openapi/lucidworks-models-api-openapi.yml
+- filename: lucidworks-predictions-api-openapi.yml
+  format: yaml
+  label: Lucidworks Predictions API
+  slug: lucidworks-predictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/openapi/lucidworks-predictions-api-openapi.yml
+- filename: lucidworks-queryrewrites-api-openapi.yml
+  format: yaml
+  label: Lucidworks QueryRewrites API
+  slug: lucidworks-queryrewrites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/openapi/lucidworks-queryrewrites-api-openapi.yml
+- filename: lucidworks-results-api-openapi.yml
+  format: yaml
+  label: Lucidworks Results API
+  slug: lucidworks-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/openapi/lucidworks-results-api-openapi.yml
+- filename: lucidworks-rules-api-openapi.yml
+  format: yaml
+  label: Lucidworks Rules API
+  slug: lucidworks-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/openapi/lucidworks-rules-api-openapi.yml
+- filename: lucidworks-signals-api-openapi.yml
   format: yaml
   label: Lucidworks Signals API
-  slug: signals
+  slug: lucidworks-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/openapi/lucidworks-signals-openapi.yml
-- filename: lucidworks-rules-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/openapi/lucidworks-signals-api-openapi.yml
+- filename: lucidworks-tokenization-api-openapi.yml
   format: yaml
-  label: Lucidworks Rules and Query Rewrites API
-  slug: rules
+  label: Lucidworks Tokenization API
+  slug: lucidworks-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/openapi/lucidworks-rules-openapi.yml
-- filename: lucidworks-chunking-openapi.yml
-  format: yaml
-  label: Lucidworks Content Chunking API
-  slug: chunking
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/openapi/lucidworks-chunking-openapi.yml
-- filename: lucidworks-models-openapi.yml
-  format: yaml
-  label: Lucidworks Model Management API
-  slug: models
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/openapi/lucidworks-models-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/openapi/lucidworks-tokenization-api-openapi.yml
 auth_types:
 - http
 description: ''

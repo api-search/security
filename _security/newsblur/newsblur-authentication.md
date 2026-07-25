@@ -2,12 +2,48 @@
 api_key_in:
 - cookie
 api_specs:
-- filename: newsblur-openapi.yml
+- filename: newsblur-authentication-api-openapi.yml
   format: yaml
-  label: NewsBlur API
-  slug: newsblur-api
+  label: NewsBlur authentication API
+  slug: newsblur-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/openapi/newsblur-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/openapi/newsblur-authentication-api-openapi.yml
+- filename: newsblur-classifiers-api-openapi.yml
+  format: yaml
+  label: NewsBlur classifiers API
+  slug: newsblur-classifiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/openapi/newsblur-classifiers-api-openapi.yml
+- filename: newsblur-feed-management-api-openapi.yml
+  format: yaml
+  label: NewsBlur feed-management API
+  slug: newsblur-feed-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/openapi/newsblur-feed-management-api-openapi.yml
+- filename: newsblur-feeds-api-openapi.yml
+  format: yaml
+  label: NewsBlur feeds API
+  slug: newsblur-feeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/openapi/newsblur-feeds-api-openapi.yml
+- filename: newsblur-import-export-api-openapi.yml
+  format: yaml
+  label: NewsBlur import-export API
+  slug: newsblur-import-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/openapi/newsblur-import-export-api-openapi.yml
+- filename: newsblur-social-api-openapi.yml
+  format: yaml
+  label: NewsBlur social API
+  slug: newsblur-social-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/openapi/newsblur-social-api-openapi.yml
+- filename: newsblur-stories-api-openapi.yml
+  format: yaml
+  label: NewsBlur stories API
+  slug: newsblur-stories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/openapi/newsblur-stories-api-openapi.yml
 auth_types:
 - apiKey
 - http

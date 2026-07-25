@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: bis-stats-api-latest.yaml
+- filename: bis-data-availability-queries-api-openapi.yml
   format: yaml
-  label: BIS Stats API
-  slug: bis-stats-api
+  label: BIS Data availability queries API
+  slug: bis-data-availability-queries-api
   spec_type: OpenAPI
-  url: https://stats.bis.org/api-doc/v1/bis-stats-api-latest.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/bis/refs/heads/main/openapi/bis-data-availability-queries-api-openapi.yml
+- filename: bis-data-queries-api-openapi.yml
+  format: yaml
+  label: BIS Data queries API
+  slug: bis-data-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bis/refs/heads/main/openapi/bis-data-queries-api-openapi.yml
+- filename: bis-item-queries-api-openapi.yml
+  format: yaml
+  label: BIS Item queries API
+  slug: bis-item-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bis/refs/heads/main/openapi/bis-item-queries-api-openapi.yml
+- filename: bis-structure-queries-api-openapi.yml
+  format: yaml
+  label: BIS Structure queries API
+  slug: bis-structure-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bis/refs/heads/main/openapi/bis-structure-queries-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cvent-registration-openapi.yml
+- filename: cvent-registration-attendees-api-openapi.yml
   format: yaml
-  label: Cvent Registration REST API
-  slug: rest-api
+  label: Cvent Registration Attendees API
+  slug: cvent-registration-attendees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/openapi/cvent-registration-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/openapi/cvent-registration-attendees-api-openapi.yml
+- filename: cvent-registration-contacts-api-openapi.yml
+  format: yaml
+  label: Cvent Registration Contacts API
+  slug: cvent-registration-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/openapi/cvent-registration-contacts-api-openapi.yml
+- filename: cvent-registration-events-api-openapi.yml
+  format: yaml
+  label: Cvent Registration Events API
+  slug: cvent-registration-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/openapi/cvent-registration-events-api-openapi.yml
+- filename: cvent-registration-exhibitors-api-openapi.yml
+  format: yaml
+  label: Cvent Registration Exhibitors API
+  slug: cvent-registration-exhibitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/openapi/cvent-registration-exhibitors-api-openapi.yml
+- filename: cvent-registration-oauth-api-openapi.yml
+  format: yaml
+  label: Cvent Registration OAuth API
+  slug: cvent-registration-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/openapi/cvent-registration-oauth-api-openapi.yml
+- filename: cvent-registration-sessions-api-openapi.yml
+  format: yaml
+  label: Cvent Registration Sessions API
+  slug: cvent-registration-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/openapi/cvent-registration-sessions-api-openapi.yml
+- filename: cvent-registration-webhooks-api-openapi.yml
+  format: yaml
+  label: Cvent Registration Webhooks API
+  slug: cvent-registration-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/openapi/cvent-registration-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2

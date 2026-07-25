@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: mailersend-openapi.yml
+- filename: mailersend-bulk-email-api-openapi.yml
   format: yaml
-  label: MailerSend API
-  slug: mailersend-api
+  label: MailerSend Bulk Email API
+  slug: mailersend-bulk-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/openapi/mailersend-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/openapi/mailersend-bulk-email-api-openapi.yml
+- filename: mailersend-domains-api-openapi.yml
+  format: yaml
+  label: MailerSend Domains API
+  slug: mailersend-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/openapi/mailersend-domains-api-openapi.yml
+- filename: mailersend-email-api-openapi.yml
+  format: yaml
+  label: MailerSend Email API
+  slug: mailersend-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/openapi/mailersend-email-api-openapi.yml
+- filename: mailersend-messages-api-openapi.yml
+  format: yaml
+  label: MailerSend Messages API
+  slug: mailersend-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/openapi/mailersend-messages-api-openapi.yml
+- filename: mailersend-sender-identities-api-openapi.yml
+  format: yaml
+  label: MailerSend Sender Identities API
+  slug: mailersend-sender-identities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/openapi/mailersend-sender-identities-api-openapi.yml
+- filename: mailersend-templates-api-openapi.yml
+  format: yaml
+  label: MailerSend Templates API
+  slug: mailersend-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/openapi/mailersend-templates-api-openapi.yml
+- filename: mailersend-webhooks-api-openapi.yml
+  format: yaml
+  label: MailerSend Webhooks API
+  slug: mailersend-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/openapi/mailersend-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

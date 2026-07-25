@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: zest-openapi-original.json
-  format: json
-  label: Zest Public API
-  slug: zest-public-api
+- filename: zest-authentication-api-openapi.yml
+  format: yaml
+  label: Zest Authentication API
+  slug: zest-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/openapi/zest-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/openapi/zest-authentication-api-openapi.yml
+- filename: zest-contracts-api-openapi.yml
+  format: yaml
+  label: Zest Contracts API
+  slug: zest-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/openapi/zest-contracts-api-openapi.yml
+- filename: zest-investors-api-openapi.yml
+  format: yaml
+  label: Zest Investors API
+  slug: zest-investors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/openapi/zest-investors-api-openapi.yml
+- filename: zest-spv-requests-api-openapi.yml
+  format: yaml
+  label: Zest SPV Requests API
+  slug: zest-spv-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/openapi/zest-spv-requests-api-openapi.yml
+- filename: zest-subscription-forms-api-openapi.yml
+  format: yaml
+  label: Zest Subscription Forms API
+  slug: zest-subscription-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/openapi/zest-subscription-forms-api-openapi.yml
+- filename: zest-subscription-fundings-api-openapi.yml
+  format: yaml
+  label: Zest Subscription Fundings API
+  slug: zest-subscription-fundings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/openapi/zest-subscription-fundings-api-openapi.yml
+- filename: zest-subscriptions-api-openapi.yml
+  format: yaml
+  label: Zest Subscriptions API
+  slug: zest-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/openapi/zest-subscriptions-api-openapi.yml
+- filename: zest-system-api-openapi.yml
+  format: yaml
+  label: Zest System API
+  slug: zest-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/openapi/zest-system-api-openapi.yml
 description: ''
 domains:
 - caa: []

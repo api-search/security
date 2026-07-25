@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: kanban-openapi.yml
+- filename: kanban-attachments-api-openapi.yml
   format: yaml
-  label: Kanban Tool REST API v3
-  slug: kanban-tool-rest-api-v3
+  label: Kanban Tool Attachments API
+  slug: kanban-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/openapi/kanban-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/openapi/kanban-attachments-api-openapi.yml
+- filename: kanban-attachments-json-api-openapi.yml
+  format: yaml
+  label: Kanban Tool Attachments.json API
+  slug: kanban-attachments-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/openapi/kanban-attachments-json-api-openapi.yml
+- filename: kanban-boards-api-openapi.yml
+  format: yaml
+  label: Kanban Tool Boards API
+  slug: kanban-boards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/openapi/kanban-boards-api-openapi.yml
+- filename: kanban-subtasks-api-openapi.yml
+  format: yaml
+  label: Kanban Tool Subtasks API
+  slug: kanban-subtasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/openapi/kanban-subtasks-api-openapi.yml
+- filename: kanban-subtasks-json-api-openapi.yml
+  format: yaml
+  label: Kanban Tool Subtasks.json API
+  slug: kanban-subtasks-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/openapi/kanban-subtasks-json-api-openapi.yml
+- filename: kanban-tasks-api-openapi.yml
+  format: yaml
+  label: Kanban Tool Tasks API
+  slug: kanban-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/openapi/kanban-tasks-api-openapi.yml
+- filename: kanban-tasks-json-api-openapi.yml
+  format: yaml
+  label: Kanban Tool Tasks.json API
+  slug: kanban-tasks-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/openapi/kanban-tasks-json-api-openapi.yml
+- filename: kanban-time-trackers-api-openapi.yml
+  format: yaml
+  label: Kanban Tool Time Trackers API
+  slug: kanban-time-trackers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/openapi/kanban-time-trackers-api-openapi.yml
+- filename: kanban-time-trackers-json-api-openapi.yml
+  format: yaml
+  label: Kanban Tool Time Trackers.json API
+  slug: kanban-time-trackers-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/openapi/kanban-time-trackers-json-api-openapi.yml
+- filename: kanban-users-api-openapi.yml
+  format: yaml
+  label: Kanban Tool Users API
+  slug: kanban-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/openapi/kanban-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

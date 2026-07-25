@@ -1,41 +1,89 @@
 ---
 api_specs:
-- filename: newcastle-permanent-products-openapi.json
-  format: json
-  label: Newcastle Permanent Building Society CDR Product Reference Data API
-  slug: newcastle-permanent-cds-banking-products-api
+- filename: newcastle-permanent-accounts-api-openapi.yml
+  format: yaml
+  label: Newcastle Permanent Building Society Accounts API
+  slug: newcastle-permanent-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-products-openapi.json
-- filename: newcastle-permanent-customer-data-openapi.json
-  format: json
-  label: Newcastle Permanent Building Society CDR Accounts & Balances API
-  slug: newcastle-permanent-cdr-accounts-balances-api
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-accounts-api-openapi.yml
+- filename: newcastle-permanent-banking-account-balances-api-openapi.yml
+  format: yaml
+  label: Newcastle Permanent Building Society Banking Account Balances API
+  slug: newcastle-permanent-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-customer-data-openapi.json
-- filename: newcastle-permanent-customer-data-openapi.json
-  format: json
-  label: Newcastle Permanent Building Society CDR Transactions API
-  slug: newcastle-permanent-cdr-transactions-api
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-account-balances-api-openapi.yml
+- filename: newcastle-permanent-banking-account-direct-debits-api-openapi.yml
+  format: yaml
+  label: Newcastle Permanent Building Society Banking Account Direct Debits API
+  slug: newcastle-permanent-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-customer-data-openapi.json
-- filename: newcastle-permanent-customer-data-openapi.json
-  format: json
-  label: Newcastle Permanent Building Society CDR Direct Debits & Scheduled Payments API
-  slug: newcastle-permanent-cdr-direct-debits-scheduled-payments-api
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-account-direct-debits-api-openapi.yml
+- filename: newcastle-permanent-banking-account-scheduled-payments-api-openapi.yml
+  format: yaml
+  label: Newcastle Permanent Building Society Banking Account Scheduled Payments API
+  slug: newcastle-permanent-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-customer-data-openapi.json
-- filename: newcastle-permanent-customer-data-openapi.json
-  format: json
-  label: Newcastle Permanent Building Society CDR Payees API
-  slug: newcastle-permanent-cdr-payees-api
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-account-scheduled-payments-api-openapi.yml
+- filename: newcastle-permanent-banking-account-transactions-api-openapi.yml
+  format: yaml
+  label: Newcastle Permanent Building Society Banking Account Transactions API
+  slug: newcastle-permanent-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-customer-data-openapi.json
-- filename: newcastle-permanent-customer-data-openapi.json
-  format: json
-  label: Newcastle Permanent Building Society CDR Common Customer API
-  slug: newcastle-permanent-cdr-common-customer-api
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-account-transactions-api-openapi.yml
+- filename: newcastle-permanent-banking-accounts-api-openapi.yml
+  format: yaml
+  label: Newcastle Permanent Building Society Banking Accounts API
+  slug: newcastle-permanent-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-customer-data-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-accounts-api-openapi.yml
+- filename: newcastle-permanent-banking-api-openapi.yml
+  format: yaml
+  label: Newcastle Permanent Building Society Banking API
+  slug: newcastle-permanent-banking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-api-openapi.yml
+- filename: newcastle-permanent-banking-payees-api-openapi.yml
+  format: yaml
+  label: Newcastle Permanent Building Society Banking Payees API
+  slug: newcastle-permanent-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-payees-api-openapi.yml
+- filename: newcastle-permanent-banking-products-api-openapi.yml
+  format: yaml
+  label: Newcastle Permanent Building Society Banking Products API
+  slug: newcastle-permanent-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-products-api-openapi.yml
+- filename: newcastle-permanent-common-api-openapi.yml
+  format: yaml
+  label: Newcastle Permanent Building Society Common API
+  slug: newcastle-permanent-common-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-common-api-openapi.yml
+- filename: newcastle-permanent-customer-api-openapi.yml
+  format: yaml
+  label: Newcastle Permanent Building Society Customer API
+  slug: newcastle-permanent-customer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-customer-api-openapi.yml
+- filename: newcastle-permanent-direct-debits-api-openapi.yml
+  format: yaml
+  label: Newcastle Permanent Building Society Direct Debits API
+  slug: newcastle-permanent-direct-debits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-direct-debits-api-openapi.yml
+- filename: newcastle-permanent-payees-api-openapi.yml
+  format: yaml
+  label: Newcastle Permanent Building Society Payees API
+  slug: newcastle-permanent-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-payees-api-openapi.yml
+- filename: newcastle-permanent-scheduled-payments-api-openapi.yml
+  format: yaml
+  label: Newcastle Permanent Building Society Scheduled Payments API
+  slug: newcastle-permanent-scheduled-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-scheduled-payments-api-openapi.yml
 description: ''
 domains:
 - caa: []

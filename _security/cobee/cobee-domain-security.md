@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: cobee-public-api-openapi-original.json
-  format: json
-  label: Cobee Public API
-  slug: cobee-public-api
+- filename: cobee-companies-api-openapi.yml
+  format: yaml
+  label: Cobee by Pluxee Companies API
+  slug: cobee-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/openapi/cobee-public-api-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/openapi/cobee-companies-api-openapi.yml
+- filename: cobee-oauth-api-openapi.yml
+  format: yaml
+  label: Cobee by Pluxee Oauth API
+  slug: cobee-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/openapi/cobee-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

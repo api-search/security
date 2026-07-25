@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: snaplogic-public-apis-openapi.yml
+- filename: snaplogic-asset-management-api-openapi.yml
   format: yaml
-  label: SnapLogic Public APIs
-  slug: snaplogic-public-apis
+  label: SnapLogic Asset Management API
+  slug: snaplogic-asset-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/openapi/snaplogic-public-apis-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/openapi/snaplogic-asset-management-api-openapi.yml
+- filename: snaplogic-runtime-api-openapi.yml
+  format: yaml
+  label: SnapLogic Runtime API
+  slug: snaplogic-runtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/openapi/snaplogic-runtime-api-openapi.yml
+- filename: snaplogic-tasks-api-openapi.yml
+  format: yaml
+  label: SnapLogic Tasks API
+  slug: snaplogic-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/openapi/snaplogic-tasks-api-openapi.yml
+- filename: snaplogic-users-and-groups-api-openapi.yml
+  format: yaml
+  label: SnapLogic Users and Groups API
+  slug: snaplogic-users-and-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/openapi/snaplogic-users-and-groups-api-openapi.yml
 description: ''
 domains:
 - caa:

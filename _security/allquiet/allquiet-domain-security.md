@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: allquiet-openapi.yml
-  format: yaml
-  label: All Quiet Incidents API
-  slug: incidents
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allquiet/refs/heads/main/openapi/allquiet-openapi.yml
-- filename: allquiet-openapi.yml
+- filename: allquiet-inbound-integrations-api-openapi.yml
   format: yaml
   label: All Quiet Inbound Integrations API
-  slug: inbound-integrations
+  slug: allquiet-inbound-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allquiet/refs/heads/main/openapi/allquiet-openapi.yml
-- filename: allquiet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/allquiet/refs/heads/main/openapi/allquiet-inbound-integrations-api-openapi.yml
+- filename: allquiet-incidents-api-openapi.yml
   format: yaml
-  label: All Quiet Teams API
-  slug: teams
+  label: All Quiet Incidents API
+  slug: allquiet-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allquiet/refs/heads/main/openapi/allquiet-openapi.yml
-- filename: allquiet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/allquiet/refs/heads/main/openapi/allquiet-incidents-api-openapi.yml
+- filename: allquiet-on-call-schedules-api-openapi.yml
   format: yaml
   label: All Quiet On-Call Schedules API
-  slug: on-call-schedules
+  slug: allquiet-on-call-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allquiet/refs/heads/main/openapi/allquiet-openapi.yml
-- filename: allquiet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/allquiet/refs/heads/main/openapi/allquiet-on-call-schedules-api-openapi.yml
+- filename: allquiet-teams-api-openapi.yml
+  format: yaml
+  label: All Quiet Teams API
+  slug: allquiet-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allquiet/refs/heads/main/openapi/allquiet-teams-api-openapi.yml
+- filename: allquiet-webhooks-api-openapi.yml
   format: yaml
   label: All Quiet Webhooks API
-  slug: webhooks
+  slug: allquiet-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allquiet/refs/heads/main/openapi/allquiet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/allquiet/refs/heads/main/openapi/allquiet-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

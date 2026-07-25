@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: greenly-carbon-analytics-api-openapi.yml
+- filename: greenly-earth-alternatives-api-openapi.yml
   format: yaml
-  label: Greenly Carbon Analytics API
-  slug: greenly-carbon-analytics-api
+  label: Greenly alternatives API
+  slug: greenly-earth-alternatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-carbon-analytics-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-alternatives-api-openapi.yml
+- filename: greenly-earth-live-api-openapi.yml
+  format: yaml
+  label: Greenly live API
+  slug: greenly-earth-live-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-live-api-openapi.yml
+- filename: greenly-earth-offsetprojects-api-openapi.yml
+  format: yaml
+  label: Greenly offsetProjects API
+  slug: greenly-earth-offsetprojects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-offsetprojects-api-openapi.yml
+- filename: greenly-earth-purchasecategories-api-openapi.yml
+  format: yaml
+  label: Greenly purchaseCategories API
+  slug: greenly-earth-purchasecategories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-purchasecategories-api-openapi.yml
+- filename: greenly-earth-ready-api-openapi.yml
+  format: yaml
+  label: Greenly ready API
+  slug: greenly-earth-ready-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-ready-api-openapi.yml
+- filename: greenly-earth-transactions-api-openapi.yml
+  format: yaml
+  label: Greenly transactions API
+  slug: greenly-earth-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-transactions-api-openapi.yml
+- filename: greenly-earth-users-api-openapi.yml
+  format: yaml
+  label: Greenly users API
+  slug: greenly-earth-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

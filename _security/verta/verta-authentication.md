@@ -1,12 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: verta-APISync.swagger.json
-  format: json
-  label: Verta ModelDB REST API
-  slug: verta-modeldb-rest-api
+- filename: verta-authzservice-api-openapi.yml
+  format: yaml
+  label: Verta AuthzService API
+  slug: verta-authzservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-APISync.swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-authzservice-api-openapi.yml
+- filename: verta-datasetservice-api-openapi.yml
+  format: yaml
+  label: Verta DatasetService API
+  slug: verta-datasetservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-datasetservice-api-openapi.yml
+- filename: verta-experimentrunservice-api-openapi.yml
+  format: yaml
+  label: Verta ExperimentRunService API
+  slug: verta-experimentrunservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-experimentrunservice-api-openapi.yml
+- filename: verta-experimentservice-api-openapi.yml
+  format: yaml
+  label: Verta ExperimentService API
+  slug: verta-experimentservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-experimentservice-api-openapi.yml
+- filename: verta-monitoredentityservice-api-openapi.yml
+  format: yaml
+  label: Verta MonitoredEntityService API
+  slug: verta-monitoredentityservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-monitoredentityservice-api-openapi.yml
+- filename: verta-projectservice-api-openapi.yml
+  format: yaml
+  label: Verta ProjectService API
+  slug: verta-projectservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-projectservice-api-openapi.yml
+- filename: verta-registryservice-api-openapi.yml
+  format: yaml
+  label: Verta RegistryService API
+  slug: verta-registryservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-registryservice-api-openapi.yml
+- filename: verta-scimconfigurationservice-api-openapi.yml
+  format: yaml
+  label: Verta SCIMConfigurationService API
+  slug: verta-scimconfigurationservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-scimconfigurationservice-api-openapi.yml
+- filename: verta-stageservice-api-openapi.yml
+  format: yaml
+  label: Verta StageService API
+  slug: verta-stageservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-stageservice-api-openapi.yml
+- filename: verta-uacservice-api-openapi.yml
+  format: yaml
+  label: Verta UACService API
+  slug: verta-uacservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-uacservice-api-openapi.yml
+- filename: verta-versioningservice-api-openapi.yml
+  format: yaml
+  label: Verta VersioningService API
+  slug: verta-versioningservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-versioningservice-api-openapi.yml
 auth_types:
 - custom
 description: ''

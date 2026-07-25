@@ -1,47 +1,59 @@
 ---
 api_specs:
-- filename: smile-io-openapi.yml
-  format: yaml
-  label: Smile.io Customers API
-  slug: smile-io-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-openapi.yml
-- filename: smile-io-openapi.yml
-  format: yaml
-  label: Smile.io Points Transactions API
-  slug: smile-io-points-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-openapi.yml
-- filename: smile-io-openapi.yml
-  format: yaml
-  label: Smile.io Points Products API
-  slug: smile-io-points-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-openapi.yml
-- filename: smile-io-openapi.yml
-  format: yaml
-  label: Smile.io Reward Fulfillments API
-  slug: smile-io-rewards-fulfillments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-openapi.yml
-- filename: smile-io-openapi.yml
-  format: yaml
-  label: Smile.io Earning Rules API
-  slug: smile-io-earning-rules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-openapi.yml
-- filename: smile-io-openapi.yml
-  format: yaml
-  label: Smile.io VIP Tiers API
-  slug: smile-io-vip-tiers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-openapi.yml
-- filename: smile-io-openapi.yml
+- filename: smile-io-activities-api-openapi.yml
   format: yaml
   label: Smile.io Activities API
   slug: smile-io-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-activities-api-openapi.yml
+- filename: smile-io-customer-identities-api-openapi.yml
+  format: yaml
+  label: Smile.io Customer Identities API
+  slug: smile-io-customer-identities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-customer-identities-api-openapi.yml
+- filename: smile-io-customers-api-openapi.yml
+  format: yaml
+  label: Smile.io Customers API
+  slug: smile-io-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-customers-api-openapi.yml
+- filename: smile-io-earning-rules-api-openapi.yml
+  format: yaml
+  label: Smile.io Earning Rules API
+  slug: smile-io-earning-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-earning-rules-api-openapi.yml
+- filename: smile-io-points-products-api-openapi.yml
+  format: yaml
+  label: Smile.io Points Products API
+  slug: smile-io-points-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-points-products-api-openapi.yml
+- filename: smile-io-points-settings-api-openapi.yml
+  format: yaml
+  label: Smile.io Points Settings API
+  slug: smile-io-points-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-points-settings-api-openapi.yml
+- filename: smile-io-points-transactions-api-openapi.yml
+  format: yaml
+  label: Smile.io Points Transactions API
+  slug: smile-io-points-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-points-transactions-api-openapi.yml
+- filename: smile-io-reward-fulfillments-api-openapi.yml
+  format: yaml
+  label: Smile.io Reward Fulfillments API
+  slug: smile-io-reward-fulfillments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-reward-fulfillments-api-openapi.yml
+- filename: smile-io-vip-tiers-api-openapi.yml
+  format: yaml
+  label: Smile.io VIP Tiers API
+  slug: smile-io-vip-tiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-vip-tiers-api-openapi.yml
 description: ''
 domains:
 - caa:

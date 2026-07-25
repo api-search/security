@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: azure-container-registry-openapi.yaml
+- filename: azure-container-registry-operation-api-openapi.yml
   format: yaml
-  label: Azure Container Registry
-  slug: azure-container-registry
+  label: Azure Container Registry Operation API
+  slug: azure-container-registry-operation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-operation-api-openapi.yml
+- filename: azure-container-registry-registries-api-openapi.yml
+  format: yaml
+  label: Azure Container Registry Registries API
+  slug: azure-container-registry-registries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-registries-api-openapi.yml
+- filename: azure-container-registry-replications-api-openapi.yml
+  format: yaml
+  label: Azure Container Registry Replications API
+  slug: azure-container-registry-replications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-replications-api-openapi.yml
+- filename: azure-container-registry-webhooks-api-openapi.yml
+  format: yaml
+  label: Azure Container Registry Webhooks API
+  slug: azure-container-registry-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

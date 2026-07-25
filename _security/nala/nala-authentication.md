@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: nala-rafiki-openapi.yml
+- filename: nala-bank-api-openapi.yml
   format: yaml
-  label: Rafiki API
-  slug: rafiki-api
+  label: NALA Bank API
+  slug: nala-bank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/openapi/nala-rafiki-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/openapi/nala-bank-api-openapi.yml
+- filename: nala-lookup-api-openapi.yml
+  format: yaml
+  label: NALA Lookup API
+  slug: nala-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/openapi/nala-lookup-api-openapi.yml
+- filename: nala-payment-account-api-openapi.yml
+  format: yaml
+  label: NALA Payment Account API
+  slug: nala-payment-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/openapi/nala-payment-account-api-openapi.yml
+- filename: nala-payout-api-openapi.yml
+  format: yaml
+  label: NALA Payout API
+  slug: nala-payout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/openapi/nala-payout-api-openapi.yml
+- filename: nala-wallet-api-openapi.yml
+  format: yaml
+  label: NALA Wallet API
+  slug: nala-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/openapi/nala-wallet-api-openapi.yml
 auth_types:
 - http
 description: ''

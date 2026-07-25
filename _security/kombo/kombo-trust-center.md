@@ -1,35 +1,53 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Kombo Unified API
-  slug: unified-api
+- filename: kombo-ai-apply-api-openapi.yml
+  format: yaml
+  label: Kombo AI Apply API
+  slug: kombo-ai-apply-api
   spec_type: OpenAPI
-  url: https://api.kombo.dev/openapi.json
-- filename: openapi.json
-  format: json
-  label: Kombo Unified HRIS API
-  slug: hris-api
+  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-ai-apply-api-openapi.yml
+- filename: kombo-custom-endpoints-api-openapi.yml
+  format: yaml
+  label: Kombo Custom Endpoints API
+  slug: kombo-custom-endpoints-api
   spec_type: OpenAPI
-  url: https://api.kombo.dev/openapi.json
-- filename: openapi.json
-  format: json
-  label: Kombo Unified ATS API
-  slug: ats-api
+  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-custom-endpoints-api-openapi.yml
+- filename: kombo-general-api-openapi.yml
+  format: yaml
+  label: Kombo General API
+  slug: kombo-general-api
   spec_type: OpenAPI
-  url: https://api.kombo.dev/openapi.json
-- filename: openapi.json
-  format: json
-  label: Kombo Unified ATS-Assessment API
-  slug: ats-assessment-api
+  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-general-api-openapi.yml
+- filename: kombo-kombo-connect-api-openapi.yml
+  format: yaml
+  label: Kombo Kombo Connect API
+  slug: kombo-kombo-connect-api
   spec_type: OpenAPI
-  url: https://api.kombo.dev/openapi.json
-- filename: openapi.json
-  format: json
-  label: Kombo Unified LMS API
-  slug: lms-api
+  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-kombo-connect-api-openapi.yml
+- filename: kombo-unified-ats-api-api-openapi.yml
+  format: yaml
+  label: Kombo Unified ATS API API
+  slug: kombo-unified-ats-api-api
   spec_type: OpenAPI
-  url: https://api.kombo.dev/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-unified-ats-api-api-openapi.yml
+- filename: kombo-unified-ats-assessment-background-check-api-api-openapi.yml
+  format: yaml
+  label: Kombo Unified ATS (Assessment & Background Check) API API
+  slug: kombo-unified-ats-assessment-background-check-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-unified-ats-assessment-background-check-api-api-openapi.yml
+- filename: kombo-unified-hris-api-api-openapi.yml
+  format: yaml
+  label: Kombo Unified HRIS API API
+  slug: kombo-unified-hris-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-unified-hris-api-api-openapi.yml
+- filename: kombo-unified-lms-api-api-openapi.yml
+  format: yaml
+  label: Kombo Unified LMS API API
+  slug: kombo-unified-lms-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-unified-lms-api-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

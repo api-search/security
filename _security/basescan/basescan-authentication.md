@@ -2,12 +2,66 @@
 api_key_in:
 - query
 api_specs:
-- filename: openapi.yml
+- filename: basescan-accounts-api-openapi.yml
   format: yaml
-  label: Basescan API
-  slug: basescan-api
+  label: Basescan Accounts API
+  slug: basescan-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/openapi/basescan-accounts-api-openapi.yml
+- filename: basescan-api-pro-endpoints-api-openapi.yml
+  format: yaml
+  label: Basescan API PRO Endpoints API
+  slug: basescan-api-pro-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/openapi/basescan-api-pro-endpoints-api-openapi.yml
+- filename: basescan-blocks-api-openapi.yml
+  format: yaml
+  label: Basescan Blocks API
+  slug: basescan-blocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/openapi/basescan-blocks-api-openapi.yml
+- filename: basescan-contracts-api-openapi.yml
+  format: yaml
+  label: Basescan Contracts API
+  slug: basescan-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/openapi/basescan-contracts-api-openapi.yml
+- filename: basescan-gas-tracker-api-openapi.yml
+  format: yaml
+  label: Basescan Gas Tracker API
+  slug: basescan-gas-tracker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/openapi/basescan-gas-tracker-api-openapi.yml
+- filename: basescan-geth-parity-proxy-api-openapi.yml
+  format: yaml
+  label: Basescan Geth/Parity Proxy API
+  slug: basescan-geth-parity-proxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/openapi/basescan-geth-parity-proxy-api-openapi.yml
+- filename: basescan-logs-api-openapi.yml
+  format: yaml
+  label: Basescan Logs API
+  slug: basescan-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/openapi/basescan-logs-api-openapi.yml
+- filename: basescan-stats-api-openapi.yml
+  format: yaml
+  label: Basescan Stats API
+  slug: basescan-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/openapi/basescan-stats-api-openapi.yml
+- filename: basescan-tokens-api-openapi.yml
+  format: yaml
+  label: Basescan Tokens API
+  slug: basescan-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/openapi/basescan-tokens-api-openapi.yml
+- filename: basescan-transactions-api-openapi.yml
+  format: yaml
+  label: Basescan Transactions API
+  slug: basescan-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/openapi/basescan-transactions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

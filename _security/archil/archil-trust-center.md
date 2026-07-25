@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: archil-openapi-original.yml
+- filename: archil-api-tokens-api-openapi.yml
   format: yaml
-  label: Archil Control Plane API
-  slug: archil-control-plane-api
+  label: Archil API Tokens API
+  slug: archil-api-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archil/refs/heads/main/openapi/archil-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/archil/refs/heads/main/openapi/archil-api-tokens-api-openapi.yml
+- filename: archil-disk-users-api-openapi.yml
+  format: yaml
+  label: Archil Disk Users API
+  slug: archil-disk-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archil/refs/heads/main/openapi/archil-disk-users-api-openapi.yml
+- filename: archil-disks-api-openapi.yml
+  format: yaml
+  label: Archil Disks API
+  slug: archil-disks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archil/refs/heads/main/openapi/archil-disks-api-openapi.yml
+- filename: archil-serverless-execution-api-openapi.yml
+  format: yaml
+  label: Archil Serverless Execution API
+  slug: archil-serverless-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archil/refs/heads/main/openapi/archil-serverless-execution-api-openapi.yml
 certifications:
 - SOC 2 Type II
 description: ''

@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: squid-cache-manager-openapi.yml
+- filename: squid-cache-statistics-api-openapi.yml
   format: yaml
-  label: Squid Cache Manager API
-  slug: squid-cache-manager
+  label: Squid Cache Statistics API
+  slug: squid-cache-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/openapi/squid-cache-manager-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/openapi/squid-cache-statistics-api-openapi.yml
+- filename: squid-configuration-api-openapi.yml
+  format: yaml
+  label: Squid Configuration API
+  slug: squid-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/openapi/squid-configuration-api-openapi.yml
+- filename: squid-connections-api-openapi.yml
+  format: yaml
+  label: Squid Connections API
+  slug: squid-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/openapi/squid-connections-api-openapi.yml
+- filename: squid-memory-api-openapi.yml
+  format: yaml
+  label: Squid Memory API
+  slug: squid-memory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/openapi/squid-memory-api-openapi.yml
+- filename: squid-operations-api-openapi.yml
+  format: yaml
+  label: Squid Operations API
+  slug: squid-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/openapi/squid-operations-api-openapi.yml
 auth_types:
 - http
 description: ''

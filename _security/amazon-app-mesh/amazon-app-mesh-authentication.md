@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-app-mesh-openapi.yaml
+- filename: amazon-app-mesh-meshes-api-openapi.yml
   format: yaml
-  label: AWS App Mesh API
-  slug: aws-app-mesh-api
+  label: Amazon App Mesh Meshes API
+  slug: amazon-app-mesh-meshes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/openapi/amazon-app-mesh-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/openapi/amazon-app-mesh-meshes-api-openapi.yml
+- filename: amazon-app-mesh-tag-resourcearn-api-openapi.yml
+  format: yaml
+  label: Amazon App Mesh Tag#resourceArn API
+  slug: amazon-app-mesh-tag-resourcearn-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/openapi/amazon-app-mesh-tag-resourcearn-api-openapi.yml
+- filename: amazon-app-mesh-tags-resourcearn-api-openapi.yml
+  format: yaml
+  label: Amazon App Mesh Tags#resourceArn API
+  slug: amazon-app-mesh-tags-resourcearn-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/openapi/amazon-app-mesh-tags-resourcearn-api-openapi.yml
+- filename: amazon-app-mesh-untag-resourcearn-api-openapi.yml
+  format: yaml
+  label: Amazon App Mesh Untag#resourceArn API
+  slug: amazon-app-mesh-untag-resourcearn-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/openapi/amazon-app-mesh-untag-resourcearn-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

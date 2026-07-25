@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: nus-nusmods.yaml
+- filename: nus-modules-api-openapi.yml
   format: yaml
-  label: NUSMods API (Unofficial / Community)
-  slug: nusmods
+  label: National University of Singapore Modules API
+  slug: nus-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/openapi/nus-nusmods.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/openapi/nus-modules-api-openapi.yml
+- filename: nus-venues-api-openapi.yml
+  format: yaml
+  label: National University of Singapore Venues API
+  slug: nus-venues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/openapi/nus-venues-api-openapi.yml
 description: ''
 domains:
 - caa: []

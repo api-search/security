@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: zenrows-universal-scraper-openapi.yml
+- filename: zenrows-universal-scraper-api-openapi.yml
   format: yaml
   label: ZenRows Universal Scraper API
-  slug: universal-scraper-api
+  slug: zenrows-universal-scraper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenrows/refs/heads/main/openapi/zenrows-universal-scraper-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zenrows/refs/heads/main/openapi/zenrows-universal-scraper-api-openapi.yml
 description: ''
 domains:
 - caa: []

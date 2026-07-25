@@ -2,18 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: grapes-finance-openapi.yml
+- filename: grapes-finance-contacts-api-openapi.yml
   format: yaml
-  label: Grapes Finance Core API (Master Vintner)
-  slug: grapes-finance-core-api
+  label: Grapes Finance Contacts API
+  slug: grapes-finance-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grapes-finance/refs/heads/main/openapi/grapes-finance-openapi.yml
-- filename: grapes-finance-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/grapes-finance/refs/heads/main/openapi/grapes-finance-contacts-api-openapi.yml
+- filename: grapes-finance-kyc-api-openapi.yml
   format: yaml
-  label: Grapes Finance Organizations API (Vineyard Manager)
+  label: Grapes Finance KYC API
+  slug: grapes-finance-kyc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grapes-finance/refs/heads/main/openapi/grapes-finance-kyc-api-openapi.yml
+- filename: grapes-finance-orders-api-openapi.yml
+  format: yaml
+  label: Grapes Finance Orders API
+  slug: grapes-finance-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grapes-finance/refs/heads/main/openapi/grapes-finance-orders-api-openapi.yml
+- filename: grapes-finance-organizations-api-openapi.yml
+  format: yaml
+  label: Grapes Finance Organizations API
   slug: grapes-finance-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grapes-finance/refs/heads/main/openapi/grapes-finance-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/grapes-finance/refs/heads/main/openapi/grapes-finance-organizations-api-openapi.yml
+- filename: grapes-finance-users-api-openapi.yml
+  format: yaml
+  label: Grapes Finance Users API
+  slug: grapes-finance-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grapes-finance/refs/heads/main/openapi/grapes-finance-users-api-openapi.yml
+- filename: grapes-finance-wallets-api-openapi.yml
+  format: yaml
+  label: Grapes Finance Wallets API
+  slug: grapes-finance-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grapes-finance/refs/heads/main/openapi/grapes-finance-wallets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

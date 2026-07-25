@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: logmeal-food-recognition-api-openapi.yml
+- filename: logmeal-history-api-openapi.yml
   format: yaml
-  label: LogMeal Food Recognition API
-  slug: food-recognition-api
+  label: LogMeal History API
+  slug: logmeal-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logmeal/refs/heads/main/openapi/logmeal-food-recognition-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/logmeal/refs/heads/main/openapi/logmeal-history-api-openapi.yml
+- filename: logmeal-image-recognition-api-openapi.yml
+  format: yaml
+  label: LogMeal Image Recognition API
+  slug: logmeal-image-recognition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logmeal/refs/heads/main/openapi/logmeal-image-recognition-api-openapi.yml
+- filename: logmeal-nutrition-api-openapi.yml
+  format: yaml
+  label: LogMeal Nutrition API
+  slug: logmeal-nutrition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logmeal/refs/heads/main/openapi/logmeal-nutrition-api-openapi.yml
 description: ''
 domains:
 - caa: []

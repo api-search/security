@@ -1,174 +1,378 @@
 ---
 api_key_in: []
 api_specs:
-- filename: close-openapi.yml
+- filename: close-subpackage-activities-api-openapi.yml
   format: yaml
-  label: Close Leads API
-  slug: close-leads-api
+  label: Close subpackage_activities API
+  slug: close-subpackage-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-activities-api-openapi.yml
+- filename: close-subpackage-activitiescalls-api-openapi.yml
   format: yaml
-  label: Close Contacts API
-  slug: close-contacts-api
+  label: Close subpackage_activitiesCalls API
+  slug: close-subpackage-activitiescalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-activitiescalls-api-openapi.yml
+- filename: close-subpackage-activitiescreations-api-openapi.yml
   format: yaml
-  label: Close Opportunities API
-  slug: close-opportunities-api
+  label: Close subpackage_activitiesCreations API
+  slug: close-subpackage-activitiescreations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-activitiescreations-api-openapi.yml
+- filename: close-subpackage-activitiescustomactivities-api-openapi.yml
   format: yaml
-  label: Close Tasks API
-  slug: close-tasks-api
+  label: Close subpackage_activitiesCustomActivities API
+  slug: close-subpackage-activitiescustomactivities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-activitiescustomactivities-api-openapi.yml
+- filename: close-subpackage-activitiesemails-api-openapi.yml
   format: yaml
-  label: Close Activities API
-  slug: close-activities-api
+  label: Close subpackage_activitiesEmails API
+  slug: close-subpackage-activitiesemails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-activitiesemails-api-openapi.yml
+- filename: close-subpackage-activitiesemailthreads-api-openapi.yml
   format: yaml
-  label: Close Calls API
-  slug: close-calls-api
+  label: Close subpackage_activitiesEmailThreads API
+  slug: close-subpackage-activitiesemailthreads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-activitiesemailthreads-api-openapi.yml
+- filename: close-subpackage-activitiesformsubmissions-api-openapi.yml
   format: yaml
-  label: Close Emails API
-  slug: close-emails-api
+  label: Close subpackage_activitiesFormSubmissions API
+  slug: close-subpackage-activitiesformsubmissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-activitiesformsubmissions-api-openapi.yml
+- filename: close-subpackage-activitiesleadmerges-api-openapi.yml
   format: yaml
-  label: Close SMS API
-  slug: close-sms-api
+  label: Close subpackage_activitiesLeadMerges API
+  slug: close-subpackage-activitiesleadmerges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-activitiesleadmerges-api-openapi.yml
+- filename: close-subpackage-activitiesleadstatuschanges-api-openapi.yml
   format: yaml
-  label: Close Meetings API
-  slug: close-meetings-api
+  label: Close subpackage_activitiesLeadStatusChanges API
+  slug: close-subpackage-activitiesleadstatuschanges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-activitiesleadstatuschanges-api-openapi.yml
+- filename: close-subpackage-activitiesmeetings-api-openapi.yml
   format: yaml
-  label: Close Pipelines & Statuses API
-  slug: close-pipelines-api
+  label: Close subpackage_activitiesMeetings API
+  slug: close-subpackage-activitiesmeetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-activitiesmeetings-api-openapi.yml
+- filename: close-subpackage-activitiesnotes-api-openapi.yml
   format: yaml
-  label: Close Custom Fields API
-  slug: close-custom-fields-api
+  label: Close subpackage_activitiesNotes API
+  slug: close-subpackage-activitiesnotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-activitiesnotes-api-openapi.yml
+- filename: close-subpackage-activitiesopportunitystatuschanges-api-openapi.yml
   format: yaml
-  label: Close Custom Objects API
-  slug: close-custom-objects-api
+  label: Close subpackage_activitiesOpportunityStatusChanges API
+  slug: close-subpackage-activitiesopportunitystatuschanges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-activitiesopportunitystatuschanges-api-openapi.yml
+- filename: close-subpackage-activitiessms-api-openapi.yml
   format: yaml
-  label: Close Templates API
-  slug: close-templates-api
+  label: Close subpackage_activitiesSms API
+  slug: close-subpackage-activitiessms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-activitiessms-api-openapi.yml
+- filename: close-subpackage-activitiestaskcompletions-api-openapi.yml
   format: yaml
-  label: Close Sequences API
-  slug: close-sequences-api
+  label: Close subpackage_activitiesTaskCompletions API
+  slug: close-subpackage-activitiestaskcompletions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-activitiestaskcompletions-api-openapi.yml
+- filename: close-subpackage-activitieswhatsappmessages-api-openapi.yml
   format: yaml
-  label: Close Bulk Actions API
-  slug: close-bulk-actions-api
+  label: Close subpackage_activitiesWhatsappMessages API
+  slug: close-subpackage-activitieswhatsappmessages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-activitieswhatsappmessages-api-openapi.yml
+- filename: close-subpackage-blockedphonenumbers-api-openapi.yml
   format: yaml
-  label: Close Smart Views API
-  slug: close-smart-views-api
+  label: Close subpackage_blockedPhoneNumbers API
+  slug: close-subpackage-blockedphonenumbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-blockedphonenumbers-api-openapi.yml
+- filename: close-subpackage-bulkactionsdelete-api-openapi.yml
   format: yaml
-  label: Close Exports API
-  slug: close-exports-api
+  label: Close subpackage_bulkActionsDelete API
+  slug: close-subpackage-bulkactionsdelete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-bulkactionsdelete-api-openapi.yml
+- filename: close-subpackage-bulkactionsedit-api-openapi.yml
   format: yaml
-  label: Close Reporting API
-  slug: close-reporting-api
+  label: Close subpackage_bulkActionsEdit API
+  slug: close-subpackage-bulkactionsedit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-bulkactionsedit-api-openapi.yml
+- filename: close-subpackage-bulkactionsemail-api-openapi.yml
   format: yaml
-  label: Close Phone Numbers API
-  slug: close-phone-numbers-api
+  label: Close subpackage_bulkActionsEmail API
+  slug: close-subpackage-bulkactionsemail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-bulkactionsemail-api-openapi.yml
+- filename: close-subpackage-bulkactionssequencesubscriptions-api-openapi.yml
   format: yaml
-  label: Close Scheduling Links API
-  slug: close-scheduling-api
+  label: Close subpackage_bulkActionsSequenceSubscriptions API
+  slug: close-subpackage-bulkactionssequencesubscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-bulkactionssequencesubscriptions-api-openapi.yml
+- filename: close-subpackage-comments-api-openapi.yml
   format: yaml
-  label: Close Connected Accounts API
-  slug: close-connected-accounts-api
+  label: Close subpackage_comments API
+  slug: close-subpackage-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-comments-api-openapi.yml
+- filename: close-subpackage-connectedaccounts-api-openapi.yml
   format: yaml
-  label: Close Users API
-  slug: close-users-api
+  label: Close subpackage_connectedAccounts API
+  slug: close-subpackage-connectedaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-connectedaccounts-api-openapi.yml
+- filename: close-subpackage-contacts-api-openapi.yml
   format: yaml
-  label: Close Organizations API
-  slug: close-organizations-api
+  label: Close subpackage_contacts API
+  slug: close-subpackage-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-contacts-api-openapi.yml
+- filename: close-subpackage-customactivitytypes-api-openapi.yml
   format: yaml
-  label: Close Roles & Permissions API
-  slug: close-roles-api
+  label: Close subpackage_customActivityTypes API
+  slug: close-subpackage-customactivitytypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-customactivitytypes-api-openapi.yml
+- filename: close-subpackage-customfieldsactivity-api-openapi.yml
   format: yaml
-  label: Close Groups API
-  slug: close-groups-api
+  label: Close subpackage_customFieldsActivity API
+  slug: close-subpackage-customfieldsactivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-customfieldsactivity-api-openapi.yml
+- filename: close-subpackage-customfieldschemas-api-openapi.yml
   format: yaml
-  label: Close Event Log API
-  slug: close-event-log-api
+  label: Close subpackage_customFieldSchemas API
+  slug: close-subpackage-customfieldschemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-customfieldschemas-api-openapi.yml
+- filename: close-subpackage-customfieldscontact-api-openapi.yml
   format: yaml
-  label: Close Webhooks API
-  slug: close-webhooks-api
+  label: Close subpackage_customFieldsContact API
+  slug: close-subpackage-customfieldscontact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
-- filename: close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-customfieldscontact-api-openapi.yml
+- filename: close-subpackage-customfieldscustomobject-api-openapi.yml
   format: yaml
-  label: Close OAuth & Apps API
-  slug: close-oauth-api
+  label: Close subpackage_customFieldsCustomObject API
+  slug: close-subpackage-customfieldscustomobject-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-customfieldscustomobject-api-openapi.yml
+- filename: close-subpackage-customfieldslead-api-openapi.yml
+  format: yaml
+  label: Close subpackage_customFieldsLead API
+  slug: close-subpackage-customfieldslead-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-customfieldslead-api-openapi.yml
+- filename: close-subpackage-customfieldsopportunity-api-openapi.yml
+  format: yaml
+  label: Close subpackage_customFieldsOpportunity API
+  slug: close-subpackage-customfieldsopportunity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-customfieldsopportunity-api-openapi.yml
+- filename: close-subpackage-customfieldsshared-api-openapi.yml
+  format: yaml
+  label: Close subpackage_customFieldsShared API
+  slug: close-subpackage-customfieldsshared-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-customfieldsshared-api-openapi.yml
+- filename: close-subpackage-customobjects-api-openapi.yml
+  format: yaml
+  label: Close subpackage_customObjects API
+  slug: close-subpackage-customobjects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-customobjects-api-openapi.yml
+- filename: close-subpackage-customobjecttypes-api-openapi.yml
+  format: yaml
+  label: Close subpackage_customObjectTypes API
+  slug: close-subpackage-customobjecttypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-customobjecttypes-api-openapi.yml
+- filename: close-subpackage-dialers-api-openapi.yml
+  format: yaml
+  label: Close subpackage_dialers API
+  slug: close-subpackage-dialers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-dialers-api-openapi.yml
+- filename: close-subpackage-emailtemplates-api-openapi.yml
+  format: yaml
+  label: Close subpackage_emailTemplates API
+  slug: close-subpackage-emailtemplates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-emailtemplates-api-openapi.yml
+- filename: close-subpackage-events-api-openapi.yml
+  format: yaml
+  label: Close subpackage_events API
+  slug: close-subpackage-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-events-api-openapi.yml
+- filename: close-subpackage-exports-api-openapi.yml
+  format: yaml
+  label: Close subpackage_exports API
+  slug: close-subpackage-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-exports-api-openapi.yml
+- filename: close-subpackage-fieldenrichment-api-openapi.yml
+  format: yaml
+  label: Close subpackage_fieldEnrichment API
+  slug: close-subpackage-fieldenrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-fieldenrichment-api-openapi.yml
+- filename: close-subpackage-files-api-openapi.yml
+  format: yaml
+  label: Close subpackage_files API
+  slug: close-subpackage-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-files-api-openapi.yml
+- filename: close-subpackage-groups-api-openapi.yml
+  format: yaml
+  label: Close subpackage_groups API
+  slug: close-subpackage-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-groups-api-openapi.yml
+- filename: close-subpackage-integrationlinks-api-openapi.yml
+  format: yaml
+  label: Close subpackage_integrationLinks API
+  slug: close-subpackage-integrationlinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-integrationlinks-api-openapi.yml
+- filename: close-subpackage-leads-api-openapi.yml
+  format: yaml
+  label: Close subpackage_leads API
+  slug: close-subpackage-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-leads-api-openapi.yml
+- filename: close-subpackage-leadstatuses-api-openapi.yml
+  format: yaml
+  label: Close subpackage_leadStatuses API
+  slug: close-subpackage-leadstatuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-leadstatuses-api-openapi.yml
+- filename: close-subpackage-memberships-api-openapi.yml
+  format: yaml
+  label: Close subpackage_memberships API
+  slug: close-subpackage-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-memberships-api-openapi.yml
+- filename: close-subpackage-opportunities-api-openapi.yml
+  format: yaml
+  label: Close subpackage_opportunities API
+  slug: close-subpackage-opportunities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-opportunities-api-openapi.yml
+- filename: close-subpackage-opportunitystatuses-api-openapi.yml
+  format: yaml
+  label: Close subpackage_opportunityStatuses API
+  slug: close-subpackage-opportunitystatuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-opportunitystatuses-api-openapi.yml
+- filename: close-subpackage-organizations-api-openapi.yml
+  format: yaml
+  label: Close subpackage_organizations API
+  slug: close-subpackage-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-organizations-api-openapi.yml
+- filename: close-subpackage-outcomes-api-openapi.yml
+  format: yaml
+  label: Close subpackage_outcomes API
+  slug: close-subpackage-outcomes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-outcomes-api-openapi.yml
+- filename: close-subpackage-phonenumbers-api-openapi.yml
+  format: yaml
+  label: Close subpackage_phoneNumbers API
+  slug: close-subpackage-phonenumbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-phonenumbers-api-openapi.yml
+- filename: close-subpackage-pipelines-api-openapi.yml
+  format: yaml
+  label: Close subpackage_pipelines API
+  slug: close-subpackage-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-pipelines-api-openapi.yml
+- filename: close-subpackage-playbooks-api-openapi.yml
+  format: yaml
+  label: Close subpackage_playbooks API
+  slug: close-subpackage-playbooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-playbooks-api-openapi.yml
+- filename: close-subpackage-reporting-api-openapi.yml
+  format: yaml
+  label: Close subpackage_reporting API
+  slug: close-subpackage-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-reporting-api-openapi.yml
+- filename: close-subpackage-roles-api-openapi.yml
+  format: yaml
+  label: Close subpackage_roles API
+  slug: close-subpackage-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-roles-api-openapi.yml
+- filename: close-subpackage-schedulinglinks-api-openapi.yml
+  format: yaml
+  label: Close subpackage_schedulingLinks API
+  slug: close-subpackage-schedulinglinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-schedulinglinks-api-openapi.yml
+- filename: close-subpackage-sendas-api-openapi.yml
+  format: yaml
+  label: Close subpackage_sendAs API
+  slug: close-subpackage-sendas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-sendas-api-openapi.yml
+- filename: close-subpackage-sequences-api-openapi.yml
+  format: yaml
+  label: Close subpackage_sequences API
+  slug: close-subpackage-sequences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-sequences-api-openapi.yml
+- filename: close-subpackage-smartviews-api-openapi.yml
+  format: yaml
+  label: Close subpackage_smartViews API
+  slug: close-subpackage-smartviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-smartviews-api-openapi.yml
+- filename: close-subpackage-smstemplates-api-openapi.yml
+  format: yaml
+  label: Close subpackage_smsTemplates API
+  slug: close-subpackage-smstemplates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-smstemplates-api-openapi.yml
+- filename: close-subpackage-tasks-api-openapi.yml
+  format: yaml
+  label: Close subpackage_tasks API
+  slug: close-subpackage-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-tasks-api-openapi.yml
+- filename: close-subpackage-unsubscribedemails-api-openapi.yml
+  format: yaml
+  label: Close subpackage_unsubscribedEmails API
+  slug: close-subpackage-unsubscribedemails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-unsubscribedemails-api-openapi.yml
+- filename: close-subpackage-users-api-openapi.yml
+  format: yaml
+  label: Close subpackage_users API
+  slug: close-subpackage-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-users-api-openapi.yml
+- filename: close-subpackage-webhooks-api-openapi.yml
+  format: yaml
+  label: Close subpackage_webhooks API
+  slug: close-subpackage-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

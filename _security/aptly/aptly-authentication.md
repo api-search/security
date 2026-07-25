@@ -2,12 +2,96 @@
 api_key_in:
 - header
 api_specs:
-- filename: aptly-openapi-original.yml
+- filename: aptly-app-api-openapi.yml
   format: yaml
-  label: Aptly Core API
-  slug: aptly-core-api
+  label: Aptly App API
+  slug: aptly-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-app-api-openapi.yml
+- filename: aptly-board-api-openapi.yml
+  format: yaml
+  label: Aptly Board API
+  slug: aptly-board-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-board-api-openapi.yml
+- filename: aptly-boards-api-openapi.yml
+  format: yaml
+  label: Aptly Boards API
+  slug: aptly-boards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-boards-api-openapi.yml
+- filename: aptly-cards-api-openapi.yml
+  format: yaml
+  label: Aptly Cards API
+  slug: aptly-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-cards-api-openapi.yml
+- filename: aptly-company-api-openapi.yml
+  format: yaml
+  label: Aptly Company API
+  slug: aptly-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-company-api-openapi.yml
+- filename: aptly-contacts-api-openapi.yml
+  format: yaml
+  label: Aptly Contacts API
+  slug: aptly-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-contacts-api-openapi.yml
+- filename: aptly-email-api-openapi.yml
+  format: yaml
+  label: Aptly Email API
+  slug: aptly-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-email-api-openapi.yml
+- filename: aptly-files-api-openapi.yml
+  format: yaml
+  label: Aptly Files API
+  slug: aptly-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-files-api-openapi.yml
+- filename: aptly-inboxes-api-openapi.yml
+  format: yaml
+  label: Aptly Inboxes API
+  slug: aptly-inboxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-inboxes-api-openapi.yml
+- filename: aptly-knowledge-api-openapi.yml
+  format: yaml
+  label: Aptly Knowledge API
+  slug: aptly-knowledge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-knowledge-api-openapi.yml
+- filename: aptly-routinggroups-api-openapi.yml
+  format: yaml
+  label: Aptly RoutingGroups API
+  slug: aptly-routinggroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-routinggroups-api-openapi.yml
+- filename: aptly-schema-api-openapi.yml
+  format: yaml
+  label: Aptly Schema API
+  slug: aptly-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-schema-api-openapi.yml
+- filename: aptly-tasks-api-openapi.yml
+  format: yaml
+  label: Aptly Tasks API
+  slug: aptly-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-tasks-api-openapi.yml
+- filename: aptly-templates-api-openapi.yml
+  format: yaml
+  label: Aptly Templates API
+  slug: aptly-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-templates-api-openapi.yml
+- filename: aptly-users-api-openapi.yml
+  format: yaml
+  label: Aptly Users API
+  slug: aptly-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-users-api-openapi.yml
 auth_types:
 - apiKey
 - http

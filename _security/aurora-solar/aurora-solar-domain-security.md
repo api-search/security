@@ -1,53 +1,53 @@
 ---
 api_specs:
-- filename: aurora-solar-openapi.yml
-  format: yaml
-  label: Aurora Solar Projects API
-  slug: aurora-solar-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurora-solar/refs/heads/main/openapi/aurora-solar-openapi.yml
-- filename: aurora-solar-openapi.yml
-  format: yaml
-  label: Aurora Solar Designs API
-  slug: aurora-solar-designs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurora-solar/refs/heads/main/openapi/aurora-solar-openapi.yml
-- filename: aurora-solar-openapi.yml
-  format: yaml
-  label: Aurora Solar Proposals API
-  slug: aurora-solar-proposals-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurora-solar/refs/heads/main/openapi/aurora-solar-openapi.yml
-- filename: aurora-solar-openapi.yml
-  format: yaml
-  label: Aurora Solar Consumption Profiles API
-  slug: aurora-solar-consumption-profiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurora-solar/refs/heads/main/openapi/aurora-solar-openapi.yml
-- filename: aurora-solar-openapi.yml
-  format: yaml
-  label: Aurora Solar Users & Tenants API
-  slug: aurora-solar-users-tenants-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurora-solar/refs/heads/main/openapi/aurora-solar-openapi.yml
-- filename: aurora-solar-openapi.yml
-  format: yaml
-  label: Aurora Solar Webhooks API
-  slug: aurora-solar-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurora-solar/refs/heads/main/openapi/aurora-solar-openapi.yml
-- filename: aurora-solar-openapi.yml
-  format: yaml
-  label: Aurora Solar Financings API
-  slug: aurora-solar-financings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurora-solar/refs/heads/main/openapi/aurora-solar-openapi.yml
-- filename: aurora-solar-openapi.yml
+- filename: aurora-solar-agreements-api-openapi.yml
   format: yaml
   label: Aurora Solar Agreements API
   slug: aurora-solar-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurora-solar/refs/heads/main/openapi/aurora-solar-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aurora-solar/refs/heads/main/openapi/aurora-solar-agreements-api-openapi.yml
+- filename: aurora-solar-consumption-profiles-api-openapi.yml
+  format: yaml
+  label: Aurora Solar Consumption Profiles API
+  slug: aurora-solar-consumption-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aurora-solar/refs/heads/main/openapi/aurora-solar-consumption-profiles-api-openapi.yml
+- filename: aurora-solar-designs-api-openapi.yml
+  format: yaml
+  label: Aurora Solar Designs API
+  slug: aurora-solar-designs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aurora-solar/refs/heads/main/openapi/aurora-solar-designs-api-openapi.yml
+- filename: aurora-solar-financings-api-openapi.yml
+  format: yaml
+  label: Aurora Solar Financings API
+  slug: aurora-solar-financings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aurora-solar/refs/heads/main/openapi/aurora-solar-financings-api-openapi.yml
+- filename: aurora-solar-projects-api-openapi.yml
+  format: yaml
+  label: Aurora Solar Projects API
+  slug: aurora-solar-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aurora-solar/refs/heads/main/openapi/aurora-solar-projects-api-openapi.yml
+- filename: aurora-solar-proposals-api-openapi.yml
+  format: yaml
+  label: Aurora Solar Proposals API
+  slug: aurora-solar-proposals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aurora-solar/refs/heads/main/openapi/aurora-solar-proposals-api-openapi.yml
+- filename: aurora-solar-users-tenants-api-openapi.yml
+  format: yaml
+  label: Aurora Solar Users & Tenants API
+  slug: aurora-solar-users-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aurora-solar/refs/heads/main/openapi/aurora-solar-users-tenants-api-openapi.yml
+- filename: aurora-solar-webhooks-api-openapi.yml
+  format: yaml
+  label: Aurora Solar Webhooks API
+  slug: aurora-solar-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aurora-solar/refs/heads/main/openapi/aurora-solar-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,42 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sterling-check-openapi.yml
+- filename: sterling-check-authentication-api-openapi.yml
   format: yaml
-  label: Sterling Screenings API
-  slug: sterling-check-screenings-api
+  label: Sterling Authentication API
+  slug: sterling-check-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-openapi.yml
-- filename: sterling-check-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-authentication-api-openapi.yml
+- filename: sterling-check-candidates-api-openapi.yml
   format: yaml
   label: Sterling Candidates API
   slug: sterling-check-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-openapi.yml
-- filename: sterling-check-openapi.yml
-  format: yaml
-  label: Sterling Packages API
-  slug: sterling-check-packages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-openapi.yml
-- filename: sterling-check-openapi.yml
-  format: yaml
-  label: Sterling Reports API
-  slug: sterling-check-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-openapi.yml
-- filename: sterling-check-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-candidates-api-openapi.yml
+- filename: sterling-check-invites-api-openapi.yml
   format: yaml
   label: Sterling Invites API
   slug: sterling-check-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-openapi.yml
-- filename: sterling-check-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-invites-api-openapi.yml
+- filename: sterling-check-packages-api-openapi.yml
+  format: yaml
+  label: Sterling Packages API
+  slug: sterling-check-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-packages-api-openapi.yml
+- filename: sterling-check-reports-api-openapi.yml
+  format: yaml
+  label: Sterling Reports API
+  slug: sterling-check-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-reports-api-openapi.yml
+- filename: sterling-check-screenings-api-openapi.yml
+  format: yaml
+  label: Sterling Screenings API
+  slug: sterling-check-screenings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-screenings-api-openapi.yml
+- filename: sterling-check-webhooks-api-openapi.yml
   format: yaml
   label: Sterling Webhooks API
   slug: sterling-check-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2

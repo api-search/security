@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: rightnow-openapi.json
-  format: json
-  label: RunInfra Inference API
-  slug: runinfra-inference-api
+- filename: rightnow-audio-api-openapi.yml
+  format: yaml
+  label: RightNow AI Audio API
+  slug: rightnow-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rightnow/refs/heads/main/openapi/rightnow-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/rightnow/refs/heads/main/openapi/rightnow-audio-api-openapi.yml
+- filename: rightnow-chat-api-openapi.yml
+  format: yaml
+  label: RightNow AI Chat API
+  slug: rightnow-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rightnow/refs/heads/main/openapi/rightnow-chat-api-openapi.yml
+- filename: rightnow-embeddings-api-openapi.yml
+  format: yaml
+  label: RightNow AI Embeddings API
+  slug: rightnow-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rightnow/refs/heads/main/openapi/rightnow-embeddings-api-openapi.yml
+- filename: rightnow-images-api-openapi.yml
+  format: yaml
+  label: RightNow AI Images API
+  slug: rightnow-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rightnow/refs/heads/main/openapi/rightnow-images-api-openapi.yml
+- filename: rightnow-models-api-openapi.yml
+  format: yaml
+  label: RightNow AI Models API
+  slug: rightnow-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rightnow/refs/heads/main/openapi/rightnow-models-api-openapi.yml
+- filename: rightnow-rerank-api-openapi.yml
+  format: yaml
+  label: RightNow AI Rerank API
+  slug: rightnow-rerank-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rightnow/refs/heads/main/openapi/rightnow-rerank-api-openapi.yml
+- filename: rightnow-responses-api-openapi.yml
+  format: yaml
+  label: RightNow AI Responses API
+  slug: rightnow-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rightnow/refs/heads/main/openapi/rightnow-responses-api-openapi.yml
 certifications:
 - SOC 2
 - HIPAA

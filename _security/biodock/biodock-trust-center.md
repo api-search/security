@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: biodock-public-api-openapi.yml
+- filename: biodock-analysis-jobs-api-openapi.yml
   format: yaml
-  label: Biodock Public API
-  slug: biodock-public-api
+  label: Biodock Analysis Jobs API
+  slug: biodock-analysis-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/openapi/biodock-public-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/openapi/biodock-analysis-jobs-api-openapi.yml
+- filename: biodock-auth-api-openapi.yml
+  format: yaml
+  label: Biodock Auth API
+  slug: biodock-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/openapi/biodock-auth-api-openapi.yml
+- filename: biodock-files-api-openapi.yml
+  format: yaml
+  label: Biodock Files API
+  slug: biodock-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/openapi/biodock-files-api-openapi.yml
+- filename: biodock-pipelines-api-openapi.yml
+  format: yaml
+  label: Biodock Pipelines API
+  slug: biodock-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/openapi/biodock-pipelines-api-openapi.yml
 certifications:
 - SOC 2 Type II
 - SOC 3

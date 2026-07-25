@@ -8,6 +8,18 @@ api_specs:
   slug: rest-api
   spec_type: Postman
   url: https://apidocs.leadsquared.com/leadsquared-run-in-postman/
+- filename: leadsquared-activities-api-openapi.yml
+  format: yaml
+  label: LeadSquared Activities API
+  slug: leadsquared-activities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/openapi/leadsquared-activities-api-openapi.yml
+- filename: leadsquared-leads-api-openapi.yml
+  format: yaml
+  label: LeadSquared Leads API
+  slug: leadsquared-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/openapi/leadsquared-leads-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

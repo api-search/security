@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: payjoy-partner-api-openapi.yml
+- filename: payjoy-carts-api-openapi.yml
   format: yaml
-  label: PayJoy Partner API V2 (Sales Integration)
-  slug: payjoy-partner-api-v2-sales-integration
+  label: PayJoy Carts API
+  slug: payjoy-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/openapi/payjoy-partner-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/openapi/payjoy-carts-api-openapi.yml
+- filename: payjoy-down-payments-api-openapi.yml
+  format: yaml
+  label: PayJoy Down Payments API
+  slug: payjoy-down-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/openapi/payjoy-down-payments-api-openapi.yml
+- filename: payjoy-merchants-api-openapi.yml
+  format: yaml
+  label: PayJoy Merchants API
+  slug: payjoy-merchants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/openapi/payjoy-merchants-api-openapi.yml
+- filename: payjoy-reconciliation-api-openapi.yml
+  format: yaml
+  label: PayJoy Reconciliation API
+  slug: payjoy-reconciliation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/openapi/payjoy-reconciliation-api-openapi.yml
+- filename: payjoy-repayments-api-openapi.yml
+  format: yaml
+  label: PayJoy Repayments API
+  slug: payjoy-repayments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/openapi/payjoy-repayments-api-openapi.yml
+- filename: payjoy-salesclerks-api-openapi.yml
+  format: yaml
+  label: PayJoy SalesClerks API
+  slug: payjoy-salesclerks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/openapi/payjoy-salesclerks-api-openapi.yml
+- filename: payjoy-status-api-openapi.yml
+  format: yaml
+  label: PayJoy Status API
+  slug: payjoy-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/openapi/payjoy-status-api-openapi.yml
+- filename: payjoy-vouchers-api-openapi.yml
+  format: yaml
+  label: PayJoy Vouchers API
+  slug: payjoy-vouchers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/openapi/payjoy-vouchers-api-openapi.yml
 description: ''
 domains:
 - caa: []

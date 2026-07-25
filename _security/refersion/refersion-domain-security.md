@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: refersion-rest-api-openapi.yml
+- filename: refersion-affiliates-api-openapi.yml
   format: yaml
-  label: Refersion REST API
-  slug: refersion-rest-api
+  label: Refersion Affiliates API
+  slug: refersion-affiliates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/openapi/refersion-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/openapi/refersion-affiliates-api-openapi.yml
+- filename: refersion-conversions-api-openapi.yml
+  format: yaml
+  label: Refersion Conversions API
+  slug: refersion-conversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/openapi/refersion-conversions-api-openapi.yml
+- filename: refersion-offers-api-openapi.yml
+  format: yaml
+  label: Refersion Offers API
+  slug: refersion-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/openapi/refersion-offers-api-openapi.yml
+- filename: refersion-reporting-api-openapi.yml
+  format: yaml
+  label: Refersion Reporting API
+  slug: refersion-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/openapi/refersion-reporting-api-openapi.yml
 description: ''
 domains:
 - caa: []

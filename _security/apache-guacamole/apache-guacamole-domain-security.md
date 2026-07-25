@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: apache-guacamole-rest-openapi.yml
+- filename: apache-guacamole-active-connections-api-openapi.yml
   format: yaml
-  label: Apache Guacamole REST API
-  slug: apache-guacamole-rest-api
+  label: Apache Guacamole Active Connections API
+  slug: apache-guacamole-active-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-guacamole/refs/heads/main/openapi/apache-guacamole-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-guacamole/refs/heads/main/openapi/apache-guacamole-active-connections-api-openapi.yml
+- filename: apache-guacamole-authentication-api-openapi.yml
+  format: yaml
+  label: Apache Guacamole Authentication API
+  slug: apache-guacamole-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-guacamole/refs/heads/main/openapi/apache-guacamole-authentication-api-openapi.yml
+- filename: apache-guacamole-connections-api-openapi.yml
+  format: yaml
+  label: Apache Guacamole Connections API
+  slug: apache-guacamole-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-guacamole/refs/heads/main/openapi/apache-guacamole-connections-api-openapi.yml
+- filename: apache-guacamole-history-api-openapi.yml
+  format: yaml
+  label: Apache Guacamole History API
+  slug: apache-guacamole-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-guacamole/refs/heads/main/openapi/apache-guacamole-history-api-openapi.yml
+- filename: apache-guacamole-user-groups-api-openapi.yml
+  format: yaml
+  label: Apache Guacamole User Groups API
+  slug: apache-guacamole-user-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-guacamole/refs/heads/main/openapi/apache-guacamole-user-groups-api-openapi.yml
+- filename: apache-guacamole-users-api-openapi.yml
+  format: yaml
+  label: Apache Guacamole Users API
+  slug: apache-guacamole-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-guacamole/refs/heads/main/openapi/apache-guacamole-users-api-openapi.yml
 description: ''
 domains:
 - caa:

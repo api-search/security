@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: loadtestservice.json
-  format: json
-  label: Azure Load Testing API
-  slug: azure-load-testing
+- filename: scalability-testing-projects-api-openapi.yml
+  format: yaml
+  label: Scalability Testing Projects API
+  slug: scalability-testing-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/loadtestservice/resource-manager/Microsoft.LoadTestService/stable/2022-12-01/loadtestservice.json
+  url: https://raw.githubusercontent.com/api-evangelist/scalability-testing/refs/heads/main/openapi/scalability-testing-projects-api-openapi.yml
 auth_types:
 - apiKey
 - http

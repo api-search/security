@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: meditech-fhir-openapi.yml
+- filename: meditech-allergy-api-openapi.yml
   format: yaml
-  label: Meditech Expanse FHIR API
-  slug: meditech-expanse-fhir-api
+  label: meditech Allergy API
+  slug: meditech-allergy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-fhir-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-allergy-api-openapi.yml
+- filename: meditech-capability-api-openapi.yml
+  format: yaml
+  label: meditech Capability API
+  slug: meditech-capability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-capability-api-openapi.yml
+- filename: meditech-condition-api-openapi.yml
+  format: yaml
+  label: meditech Condition API
+  slug: meditech-condition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-condition-api-openapi.yml
+- filename: meditech-diagnostic-api-openapi.yml
+  format: yaml
+  label: meditech Diagnostic API
+  slug: meditech-diagnostic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-diagnostic-api-openapi.yml
+- filename: meditech-encounter-api-openapi.yml
+  format: yaml
+  label: meditech Encounter API
+  slug: meditech-encounter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-encounter-api-openapi.yml
+- filename: meditech-medication-api-openapi.yml
+  format: yaml
+  label: meditech Medication API
+  slug: meditech-medication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-medication-api-openapi.yml
+- filename: meditech-observation-api-openapi.yml
+  format: yaml
+  label: meditech Observation API
+  slug: meditech-observation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-observation-api-openapi.yml
+- filename: meditech-patient-api-openapi.yml
+  format: yaml
+  label: meditech Patient API
+  slug: meditech-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-patient-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

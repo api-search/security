@@ -1,24 +1,6 @@
 ---
 api_key_in: []
 api_specs:
-- filename: deliveroo-order-api-openapi.yml
-  format: yaml
-  label: Deliveroo Order API
-  slug: order-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-order-api-openapi.yml
-- filename: deliveroo-menu-api-openapi.yml
-  format: yaml
-  label: Deliveroo Menu API
-  slug: menu-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-menu-api-openapi.yml
-- filename: deliveroo-site-api-openapi.yml
-  format: yaml
-  label: Deliveroo Site API
-  slug: site-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-site-api-openapi.yml
 - filename: deliveroo-catalogue-api-openapi.yml
   format: yaml
   label: Deliveroo Catalogue API
@@ -31,12 +13,48 @@ api_specs:
   slug: picking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-picking-api-openapi.yml
-- filename: deliveroo-signature-api-openapi.yml
+- filename: deliveroo-deliveries-api-openapi.yml
   format: yaml
-  label: Deliveroo Signature API
-  slug: signature-api
+  label: Deliveroo Deliveries API
+  slug: deliveroo-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-signature-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-deliveries-api-openapi.yml
+- filename: deliveroo-menus-api-openapi.yml
+  format: yaml
+  label: Deliveroo Menus API
+  slug: deliveroo-menus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-menus-api-openapi.yml
+- filename: deliveroo-opening-hours-api-openapi.yml
+  format: yaml
+  label: Deliveroo Opening Hours API
+  slug: deliveroo-opening-hours-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-opening-hours-api-openapi.yml
+- filename: deliveroo-orders-api-openapi.yml
+  format: yaml
+  label: Deliveroo Orders API
+  slug: deliveroo-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-orders-api-openapi.yml
+- filename: deliveroo-pricing-api-openapi.yml
+  format: yaml
+  label: Deliveroo Pricing API
+  slug: deliveroo-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-pricing-api-openapi.yml
+- filename: deliveroo-quotes-api-openapi.yml
+  format: yaml
+  label: Deliveroo Quotes API
+  slug: deliveroo-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-quotes-api-openapi.yml
+- filename: deliveroo-sync-status-api-openapi.yml
+  format: yaml
+  label: Deliveroo Sync Status API
+  slug: deliveroo-sync-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-sync-status-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: corridor-openapi.yml
+- filename: corridor-dashboard-api-openapi.yml
   format: yaml
-  label: Corridor API
-  slug: corridor-api
+  label: Corridor Dashboard API
+  slug: corridor-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/openapi/corridor-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/openapi/corridor-dashboard-api-openapi.yml
+- filename: corridor-findings-api-openapi.yml
+  format: yaml
+  label: Corridor Findings API
+  slug: corridor-findings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/openapi/corridor-findings-api-openapi.yml
+- filename: corridor-guardrails-api-openapi.yml
+  format: yaml
+  label: Corridor Guardrails API
+  slug: corridor-guardrails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/openapi/corridor-guardrails-api-openapi.yml
+- filename: corridor-pr-reviews-api-openapi.yml
+  format: yaml
+  label: Corridor PR Reviews API
+  slug: corridor-pr-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/openapi/corridor-pr-reviews-api-openapi.yml
+- filename: corridor-projects-api-openapi.yml
+  format: yaml
+  label: Corridor Projects API
+  slug: corridor-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/openapi/corridor-projects-api-openapi.yml
+- filename: corridor-teams-api-openapi.yml
+  format: yaml
+  label: Corridor Teams API
+  slug: corridor-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/openapi/corridor-teams-api-openapi.yml
 certifications: []
 description: ''
 kind: trust-center

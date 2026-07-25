@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: userlens-events-openapi.yml
+- filename: userlens-events-api-openapi.yml
   format: yaml
   label: Userlens Events API
   slug: userlens-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/userlens/refs/heads/main/openapi/userlens-events-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/userlens/refs/heads/main/openapi/userlens-events-api-openapi.yml
 auth_types:
 - http
 description: ''

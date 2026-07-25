@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: whereby-openapi.yml
+- filename: whereby-insights-api-openapi.yml
   format: yaml
-  label: Whereby REST API
-  slug: whereby-rest-api
+  label: Whereby Insights API
+  slug: whereby-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-insights-api-openapi.yml
+- filename: whereby-meetings-api-openapi.yml
+  format: yaml
+  label: Whereby Meetings API
+  slug: whereby-meetings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-meetings-api-openapi.yml
+- filename: whereby-recordings-api-openapi.yml
+  format: yaml
+  label: Whereby Recordings API
+  slug: whereby-recordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-recordings-api-openapi.yml
+- filename: whereby-rooms-api-openapi.yml
+  format: yaml
+  label: Whereby Rooms API
+  slug: whereby-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-rooms-api-openapi.yml
+- filename: whereby-summaries-api-openapi.yml
+  format: yaml
+  label: Whereby Summaries API
+  slug: whereby-summaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-summaries-api-openapi.yml
+- filename: whereby-transcriptions-api-openapi.yml
+  format: yaml
+  label: Whereby Transcriptions API
+  slug: whereby-transcriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-transcriptions-api-openapi.yml
 auth_types:
 - http
 description: ''

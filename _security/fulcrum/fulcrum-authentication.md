@@ -2,12 +2,96 @@
 api_key_in:
 - header
 api_specs:
-- filename: fulcrum-api-openapi.yml
+- filename: fulcrum-audio-api-openapi.yml
   format: yaml
-  label: Fulcrum API
-  slug: fulcrum-api
+  label: Fulcrum Audio API
+  slug: fulcrum-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-audio-api-openapi.yml
+- filename: fulcrum-changesets-api-openapi.yml
+  format: yaml
+  label: Fulcrum Changesets API
+  slug: fulcrum-changesets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-changesets-api-openapi.yml
+- filename: fulcrum-choice-lists-api-openapi.yml
+  format: yaml
+  label: Fulcrum Choice Lists API
+  slug: fulcrum-choice-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-choice-lists-api-openapi.yml
+- filename: fulcrum-classification-sets-api-openapi.yml
+  format: yaml
+  label: Fulcrum Classification Sets API
+  slug: fulcrum-classification-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-classification-sets-api-openapi.yml
+- filename: fulcrum-forms-api-openapi.yml
+  format: yaml
+  label: Fulcrum Forms API
+  slug: fulcrum-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-forms-api-openapi.yml
+- filename: fulcrum-layers-api-openapi.yml
+  format: yaml
+  label: Fulcrum Layers API
+  slug: fulcrum-layers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-layers-api-openapi.yml
+- filename: fulcrum-memberships-api-openapi.yml
+  format: yaml
+  label: Fulcrum Memberships API
+  slug: fulcrum-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-memberships-api-openapi.yml
+- filename: fulcrum-photos-api-openapi.yml
+  format: yaml
+  label: Fulcrum Photos API
+  slug: fulcrum-photos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-photos-api-openapi.yml
+- filename: fulcrum-projects-api-openapi.yml
+  format: yaml
+  label: Fulcrum Projects API
+  slug: fulcrum-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-projects-api-openapi.yml
+- filename: fulcrum-query-api-openapi.yml
+  format: yaml
+  label: Fulcrum Query API
+  slug: fulcrum-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-query-api-openapi.yml
+- filename: fulcrum-records-api-openapi.yml
+  format: yaml
+  label: Fulcrum Records API
+  slug: fulcrum-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-records-api-openapi.yml
+- filename: fulcrum-roles-api-openapi.yml
+  format: yaml
+  label: Fulcrum Roles API
+  slug: fulcrum-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-roles-api-openapi.yml
+- filename: fulcrum-signatures-api-openapi.yml
+  format: yaml
+  label: Fulcrum Signatures API
+  slug: fulcrum-signatures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-signatures-api-openapi.yml
+- filename: fulcrum-videos-api-openapi.yml
+  format: yaml
+  label: Fulcrum Videos API
+  slug: fulcrum-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-videos-api-openapi.yml
+- filename: fulcrum-webhooks-api-openapi.yml
+  format: yaml
+  label: Fulcrum Webhooks API
+  slug: fulcrum-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

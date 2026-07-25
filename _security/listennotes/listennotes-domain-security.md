@@ -1,77 +1,35 @@
 ---
 api_specs:
-- filename: listennotes-openapi.yml
+- filename: listennotes-directory-api-api-openapi.yml
   format: yaml
-  label: Listen Notes Search API
-  slug: listennotes-search-api
+  label: Listen Notes Directory API API
+  slug: listennotes-directory-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-openapi.yml
-- filename: listennotes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-directory-api-api-openapi.yml
+- filename: listennotes-insights-api-api-openapi.yml
   format: yaml
-  label: Listen Notes Typeahead API
-  slug: listennotes-typeahead-api
+  label: Listen Notes Insights API API
+  slug: listennotes-insights-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-openapi.yml
-- filename: listennotes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-insights-api-api-openapi.yml
+- filename: listennotes-playlist-api-api-openapi.yml
   format: yaml
-  label: Listen Notes Trending & Related Searches API
-  slug: listennotes-trending-searches-api
+  label: Listen Notes Playlist API API
+  slug: listennotes-playlist-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-openapi.yml
-- filename: listennotes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-playlist-api-api-openapi.yml
+- filename: listennotes-podcaster-api-api-openapi.yml
   format: yaml
-  label: Listen Notes Podcasts API
-  slug: listennotes-podcasts-api
+  label: Listen Notes Podcaster API API
+  slug: listennotes-podcaster-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-openapi.yml
-- filename: listennotes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-podcaster-api-api-openapi.yml
+- filename: listennotes-search-api-api-openapi.yml
   format: yaml
-  label: Listen Notes Episodes API
-  slug: listennotes-episodes-api
+  label: Listen Notes Search API API
+  slug: listennotes-search-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-openapi.yml
-- filename: listennotes-openapi.yml
-  format: yaml
-  label: Listen Notes Best Podcasts API
-  slug: listennotes-best-podcasts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-openapi.yml
-- filename: listennotes-openapi.yml
-  format: yaml
-  label: Listen Notes Curated Lists API
-  slug: listennotes-curated-lists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-openapi.yml
-- filename: listennotes-openapi.yml
-  format: yaml
-  label: Listen Notes Playlists API
-  slug: listennotes-playlists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-openapi.yml
-- filename: listennotes-openapi.yml
-  format: yaml
-  label: Listen Notes Genres, Regions & Languages API
-  slug: listennotes-genres-regions-languages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-openapi.yml
-- filename: listennotes-openapi.yml
-  format: yaml
-  label: Listen Notes Recommendations API
-  slug: listennotes-recommendations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-openapi.yml
-- filename: listennotes-openapi.yml
-  format: yaml
-  label: Listen Notes Podcast Audience Insights API
-  slug: listennotes-audience-insights-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-openapi.yml
-- filename: listennotes-openapi.yml
-  format: yaml
-  label: Listen Notes Podcaster API
-  slug: listennotes-podcaster-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-search-api-api-openapi.yml
 description: ''
 domains:
 - caa:

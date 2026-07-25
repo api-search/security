@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: hyperbeat-staking-openapi.yml
+- filename: hyperbeat-hyperliquid-api-openapi.yml
   format: yaml
-  label: Hyperbeat Staking API
-  slug: hyperbeat-staking-api
+  label: Hyperbeat Hyperliquid API
+  slug: hyperbeat-hyperliquid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/openapi/hyperbeat-staking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/openapi/hyperbeat-hyperliquid-api-openapi.yml
 auth_types:
 - http
 description: ''

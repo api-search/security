@@ -1,71 +1,161 @@
 ---
 api_specs:
-- filename: workspan-authentication-openapi.yml
+- filename: workspan-actions-api-openapi.yml
   format: yaml
-  label: WorkSpan Authentication API
-  slug: workspan-authentication-api
+  label: WorkSpan Actions API
+  slug: workspan-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-authentication-openapi.yml
-- filename: workspan-co-sell-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-actions-api-openapi.yml
+- filename: workspan-audit-api-openapi.yml
   format: yaml
-  label: WorkSpan Co-Sell API
-  slug: workspan-co-sell-api
+  label: WorkSpan Audit API
+  slug: workspan-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-co-sell-openapi.yml
-- filename: workspan-scim-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-audit-api-openapi.yml
+- filename: workspan-authorize-api-openapi.yml
   format: yaml
-  label: WorkSpan SCIM API
-  slug: workspan-scim-api
+  label: WorkSpan Authorize API
+  slug: workspan-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-scim-openapi.yml
-- filename: workspan-users-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-authorize-api-openapi.yml
+- filename: workspan-bulkload-api-openapi.yml
+  format: yaml
+  label: WorkSpan Bulkload API
+  slug: workspan-bulkload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-bulkload-api-openapi.yml
+- filename: workspan-bulkload-opportunity-api-openapi.yml
+  format: yaml
+  label: WorkSpan Bulkload Opportunity API
+  slug: workspan-bulkload-opportunity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-bulkload-opportunity-api-openapi.yml
+- filename: workspan-chart-data-api-openapi.yml
+  format: yaml
+  label: WorkSpan Chart Data API
+  slug: workspan-chart-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-chart-data-api-openapi.yml
+- filename: workspan-chart-metadata-api-openapi.yml
+  format: yaml
+  label: WorkSpan Chart Metadata API
+  slug: workspan-chart-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-chart-metadata-api-openapi.yml
+- filename: workspan-check-attribute-api-openapi.yml
+  format: yaml
+  label: WorkSpan Check Attribute API
+  slug: workspan-check-attribute-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-check-attribute-api-openapi.yml
+- filename: workspan-cosell-api-openapi.yml
+  format: yaml
+  label: WorkSpan Cosell API
+  slug: workspan-cosell-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-cosell-api-openapi.yml
+- filename: workspan-crm-inbound-api-openapi.yml
+  format: yaml
+  label: WorkSpan Crm Inbound API
+  slug: workspan-crm-inbound-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-crm-inbound-api-openapi.yml
+- filename: workspan-crm-inbound-v2-api-openapi.yml
+  format: yaml
+  label: WorkSpan Crm Inbound V2 API
+  slug: workspan-crm-inbound-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-crm-inbound-v2-api-openapi.yml
+- filename: workspan-data-api-openapi.yml
+  format: yaml
+  label: WorkSpan Data API
+  slug: workspan-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-data-api-openapi.yml
+- filename: workspan-data-schema-api-openapi.yml
+  format: yaml
+  label: WorkSpan Data Schema API
+  slug: workspan-data-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-data-schema-api-openapi.yml
+- filename: workspan-export-report-api-openapi.yml
+  format: yaml
+  label: WorkSpan Export Report API
+  slug: workspan-export-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-export-report-api-openapi.yml
+- filename: workspan-external-id-api-openapi.yml
+  format: yaml
+  label: WorkSpan External Id API
+  slug: workspan-external-id-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-external-id-api-openapi.yml
+- filename: workspan-list-api-openapi.yml
+  format: yaml
+  label: WorkSpan List API
+  slug: workspan-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-list-api-openapi.yml
+- filename: workspan-lists-api-openapi.yml
+  format: yaml
+  label: WorkSpan Lists API
+  slug: workspan-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-lists-api-openapi.yml
+- filename: workspan-metadata-api-openapi.yml
+  format: yaml
+  label: WorkSpan Metadata API
+  slug: workspan-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-metadata-api-openapi.yml
+- filename: workspan-status-api-openapi.yml
+  format: yaml
+  label: WorkSpan Status API
+  slug: workspan-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-status-api-openapi.yml
+- filename: workspan-subscriber-api-openapi.yml
+  format: yaml
+  label: WorkSpan Subscriber API
+  slug: workspan-subscriber-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-subscriber-api-openapi.yml
+- filename: workspan-token-api-openapi.yml
+  format: yaml
+  label: WorkSpan Token API
+  slug: workspan-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-token-api-openapi.yml
+- filename: workspan-upload-partner-account-api-openapi.yml
+  format: yaml
+  label: WorkSpan Upload Partner Account API
+  slug: workspan-upload-partner-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-upload-partner-account-api-openapi.yml
+- filename: workspan-usage-api-openapi.yml
+  format: yaml
+  label: WorkSpan Usage API
+  slug: workspan-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-usage-api-openapi.yml
+- filename: workspan-usage-upload-api-openapi.yml
+  format: yaml
+  label: WorkSpan Usage Upload API
+  slug: workspan-usage-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-usage-upload-api-openapi.yml
+- filename: workspan-users-api-openapi.yml
   format: yaml
   label: WorkSpan Users API
   slug: workspan-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-users-openapi.yml
-- filename: workspan-bulk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-users-api-openapi.yml
+- filename: workspan-view-api-openapi.yml
   format: yaml
-  label: WorkSpan Bulk API
-  slug: workspan-bulk-api
+  label: WorkSpan View API
+  slug: workspan-view-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-bulk-openapi.yml
-- filename: workspan-company-openapi.yml
-  format: yaml
-  label: WorkSpan Company API
-  slug: workspan-company-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-company-openapi.yml
-- filename: workspan-events-openapi.yml
-  format: yaml
-  label: WorkSpan Events API
-  slug: workspan-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-events-openapi.yml
-- filename: workspan-marketplace-openapi.yml
-  format: yaml
-  label: WorkSpan Marketplace API
-  slug: workspan-marketplace-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-marketplace-openapi.yml
-- filename: workspan-object-openapi.yml
-  format: yaml
-  label: WorkSpan Object API
-  slug: workspan-object-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-object-openapi.yml
-- filename: workspan-partner-account-load-openapi.yml
-  format: yaml
-  label: WorkSpan Partner Account Load API
-  slug: workspan-partner-account-load-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-partner-account-load-openapi.yml
-- filename: workspan-report-openapi.yml
-  format: yaml
-  label: WorkSpan Report API
-  slug: workspan-report-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-report-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-view-api-openapi.yml
 certifications:
 - SOC 2
 - GDPR

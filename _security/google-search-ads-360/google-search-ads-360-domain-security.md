@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-search-ads-360-customers-api-openapi.yml
   format: yaml
-  label: Google Search Ads 360 Reporting API
-  slug: google-search-ads-360-reporting-api
+  label: Google Search Ads 360 Reporting Customers API
+  slug: google-search-ads-360-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-search-ads-360/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-search-ads-360/refs/heads/main/openapi/google-search-ads-360-customers-api-openapi.yml
+- filename: google-search-ads-360-google-search-ads-360-reporting-api-api-openapi.yml
+  format: yaml
+  label: Google Search Ads 360 Reporting Google Search Ads 360 Reporting API API
+  slug: google-search-ads-360-google-search-ads-360-reporting-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-search-ads-360/refs/heads/main/openapi/google-search-ads-360-google-search-ads-360-reporting-api-api-openapi.yml
 description: ''
 domains:
 - caa:

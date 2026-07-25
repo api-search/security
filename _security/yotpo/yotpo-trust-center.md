@@ -1,41 +1,29 @@
 ---
 api_specs:
-- filename: yotpo-openapi.yml
+- filename: yotpo-authentication-api-openapi.yml
   format: yaml
-  label: Yotpo Reviews & Ratings API
-  slug: yotpo-reviews-ratings-api
+  label: Yotpo Authentication API
+  slug: yotpo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/openapi/yotpo-openapi.yml
-- filename: yotpo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/openapi/yotpo-authentication-api-openapi.yml
+- filename: yotpo-loyalty-api-openapi.yml
   format: yaml
-  label: Yotpo Loyalty & Referrals API
-  slug: yotpo-loyalty-referrals-api
+  label: Yotpo Loyalty API
+  slug: yotpo-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/openapi/yotpo-openapi.yml
-- filename: yotpo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/openapi/yotpo-loyalty-api-openapi.yml
+- filename: yotpo-reviews-api-openapi.yml
   format: yaml
-  label: Yotpo SMS & Email API
-  slug: yotpo-sms-email-api
+  label: Yotpo Reviews API
+  slug: yotpo-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/openapi/yotpo-openapi.yml
-- filename: yotpo-openapi.yml
-  format: yaml
-  label: Yotpo UGC & Visual API
-  slug: yotpo-ugc-visual-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/openapi/yotpo-openapi.yml
-- filename: yotpo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/openapi/yotpo-reviews-api-openapi.yml
+- filename: yotpo-subscriptions-api-openapi.yml
   format: yaml
   label: Yotpo Subscriptions API
   slug: yotpo-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/openapi/yotpo-openapi.yml
-- filename: yotpo-openapi.yml
-  format: yaml
-  label: Yotpo Webhooks
-  slug: yotpo-webhooks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/openapi/yotpo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/openapi/yotpo-subscriptions-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

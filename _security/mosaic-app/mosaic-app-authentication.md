@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: mosaic-app-openapi.yml
+- filename: mosaic-app-members-api-openapi.yml
   format: yaml
-  label: Mosaic Open API
-  slug: open-api
+  label: Mosaic Members API
+  slug: mosaic-app-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/openapi/mosaic-app-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/openapi/mosaic-app-members-api-openapi.yml
+- filename: mosaic-app-projects-api-openapi.yml
+  format: yaml
+  label: Mosaic Projects API
+  slug: mosaic-app-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/openapi/mosaic-app-projects-api-openapi.yml
+- filename: mosaic-app-tasks-api-openapi.yml
+  format: yaml
+  label: Mosaic Tasks API
+  slug: mosaic-app-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/openapi/mosaic-app-tasks-api-openapi.yml
+- filename: mosaic-app-time-entries-api-openapi.yml
+  format: yaml
+  label: Mosaic Time Entries API
+  slug: mosaic-app-time-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/openapi/mosaic-app-time-entries-api-openapi.yml
+- filename: mosaic-app-work-plans-api-openapi.yml
+  format: yaml
+  label: Mosaic Work Plans API
+  slug: mosaic-app-work-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/openapi/mosaic-app-work-plans-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

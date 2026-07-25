@@ -1,23 +1,89 @@
 ---
 api_specs:
-- filename: runway-video-generation-openapi.yml
+- filename: runway-avatars-api-openapi.yml
   format: yaml
-  label: Runway Video Generation API
-  slug: video-generation
+  label: Runway Avatars API
+  slug: runway-avatars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-video-generation-openapi.yml
-- filename: runway-image-generation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-avatars-api-openapi.yml
+- filename: runway-character-performance-api-openapi.yml
   format: yaml
-  label: Runway Image Generation API
-  slug: image-generation
+  label: Runway Character Performance API
+  slug: runway-character-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-image-generation-openapi.yml
-- filename: runway-characters-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-character-performance-api-openapi.yml
+- filename: runway-documents-api-openapi.yml
   format: yaml
-  label: Runway Characters API
-  slug: characters
+  label: Runway Documents API
+  slug: runway-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-characters-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-documents-api-openapi.yml
+- filename: runway-frame-interpolation-api-openapi.yml
+  format: yaml
+  label: Runway Frame Interpolation API
+  slug: runway-frame-interpolation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-frame-interpolation-api-openapi.yml
+- filename: runway-image-to-video-api-openapi.yml
+  format: yaml
+  label: Runway Image to Video API
+  slug: runway-image-to-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-image-to-video-api-openapi.yml
+- filename: runway-lip-sync-api-openapi.yml
+  format: yaml
+  label: Runway Lip Sync API
+  slug: runway-lip-sync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-lip-sync-api-openapi.yml
+- filename: runway-realtime-sessions-api-openapi.yml
+  format: yaml
+  label: Runway Realtime Sessions API
+  slug: runway-realtime-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-realtime-sessions-api-openapi.yml
+- filename: runway-sound-effects-api-openapi.yml
+  format: yaml
+  label: Runway Sound Effects API
+  slug: runway-sound-effects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-sound-effects-api-openapi.yml
+- filename: runway-tasks-api-openapi.yml
+  format: yaml
+  label: Runway Tasks API
+  slug: runway-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-tasks-api-openapi.yml
+- filename: runway-text-to-image-api-openapi.yml
+  format: yaml
+  label: Runway Text to Image API
+  slug: runway-text-to-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-text-to-image-api-openapi.yml
+- filename: runway-text-to-video-api-openapi.yml
+  format: yaml
+  label: Runway Text to Video API
+  slug: runway-text-to-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-text-to-video-api-openapi.yml
+- filename: runway-uploads-api-openapi.yml
+  format: yaml
+  label: Runway Uploads API
+  slug: runway-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-uploads-api-openapi.yml
+- filename: runway-video-to-video-api-openapi.yml
+  format: yaml
+  label: Runway Video to Video API
+  slug: runway-video-to-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-video-to-video-api-openapi.yml
+- filename: runway-video-upscale-api-openapi.yml
+  format: yaml
+  label: Runway Video Upscale API
+  slug: runway-video-upscale-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-video-upscale-api-openapi.yml
 description: ''
 domains:
 - caa: []

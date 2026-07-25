@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: microsoft-azure-application-gateway-openapi.yml
+- filename: microsoft-azure-application-gateway-application-gateways-api-openapi.yml
   format: yaml
-  label: Azure Application Gateway REST API
-  slug: rest-api
+  label: Azure Application Gateway Application Gateways API
+  slug: microsoft-azure-application-gateway-application-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-application-gateway/refs/heads/main/openapi/microsoft-azure-application-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-application-gateway/refs/heads/main/openapi/microsoft-azure-application-gateway-application-gateways-api-openapi.yml
+- filename: microsoft-azure-application-gateway-operations-api-openapi.yml
+  format: yaml
+  label: Azure Application Gateway Operations API
+  slug: microsoft-azure-application-gateway-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-application-gateway/refs/heads/main/openapi/microsoft-azure-application-gateway-operations-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

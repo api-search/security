@@ -2,12 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: rubygems-registry-openapi.yml
+- filename: ruby-activity-api-openapi.yml
   format: yaml
-  label: RubyGems.org Registry API v1
-  slug: rubygems-registry-api
+  label: Ruby Programming Language and Popular API Gems Activity API
+  slug: ruby-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/openapi/rubygems-registry-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/openapi/ruby-activity-api-openapi.yml
+- filename: ruby-api-keys-api-openapi.yml
+  format: yaml
+  label: Ruby Programming Language and Popular API Gems API Keys API
+  slug: ruby-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/openapi/ruby-api-keys-api-openapi.yml
+- filename: ruby-downloads-api-openapi.yml
+  format: yaml
+  label: Ruby Programming Language and Popular API Gems Downloads API
+  slug: ruby-downloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/openapi/ruby-downloads-api-openapi.yml
+- filename: ruby-gems-api-openapi.yml
+  format: yaml
+  label: Ruby Programming Language and Popular API Gems Gems API
+  slug: ruby-gems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/openapi/ruby-gems-api-openapi.yml
+- filename: ruby-oidc-api-openapi.yml
+  format: yaml
+  label: Ruby Programming Language and Popular API Gems OIDC API
+  slug: ruby-oidc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/openapi/ruby-oidc-api-openapi.yml
+- filename: ruby-owners-api-openapi.yml
+  format: yaml
+  label: Ruby Programming Language and Popular API Gems Owners API
+  slug: ruby-owners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/openapi/ruby-owners-api-openapi.yml
+- filename: ruby-profiles-api-openapi.yml
+  format: yaml
+  label: Ruby Programming Language and Popular API Gems Profiles API
+  slug: ruby-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/openapi/ruby-profiles-api-openapi.yml
+- filename: ruby-versions-api-openapi.yml
+  format: yaml
+  label: Ruby Programming Language and Popular API Gems Versions API
+  slug: ruby-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/openapi/ruby-versions-api-openapi.yml
+- filename: ruby-webhooks-api-openapi.yml
+  format: yaml
+  label: Ruby Programming Language and Popular API Gems Webhooks API
+  slug: ruby-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/openapi/ruby-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http

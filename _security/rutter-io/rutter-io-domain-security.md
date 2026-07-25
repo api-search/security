@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: rutter-io-openapi.yml
-  format: yaml
-  label: Rutter Connections API
-  slug: rutter-io-connections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rutter-io/refs/heads/main/openapi/rutter-io-openapi.yml
-- filename: rutter-io-openapi.yml
+- filename: rutter-io-accounting-api-openapi.yml
   format: yaml
   label: Rutter Accounting API
   slug: rutter-io-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rutter-io/refs/heads/main/openapi/rutter-io-openapi.yml
-- filename: rutter-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rutter-io/refs/heads/main/openapi/rutter-io-accounting-api-openapi.yml
+- filename: rutter-io-commerce-api-openapi.yml
   format: yaml
   label: Rutter Commerce API
   slug: rutter-io-commerce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rutter-io/refs/heads/main/openapi/rutter-io-openapi.yml
-- filename: rutter-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rutter-io/refs/heads/main/openapi/rutter-io-commerce-api-openapi.yml
+- filename: rutter-io-connections-api-openapi.yml
+  format: yaml
+  label: Rutter Connections API
+  slug: rutter-io-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rutter-io/refs/heads/main/openapi/rutter-io-connections-api-openapi.yml
+- filename: rutter-io-payments-api-openapi.yml
   format: yaml
   label: Rutter Payments API
   slug: rutter-io-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rutter-io/refs/heads/main/openapi/rutter-io-openapi.yml
-- filename: rutter-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rutter-io/refs/heads/main/openapi/rutter-io-payments-api-openapi.yml
+- filename: rutter-io-webhooks-api-openapi.yml
   format: yaml
   label: Rutter Webhooks API
   slug: rutter-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rutter-io/refs/heads/main/openapi/rutter-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rutter-io/refs/heads/main/openapi/rutter-io-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

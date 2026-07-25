@@ -2,42 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Qiskit Runtime Jobs API
-  slug: qiskit-runtime-jobs-api
-  spec_type: OpenAPI
-  url: https://quantum.cloud.ibm.com/api/openapi.json
-- filename: ibm-quantum-runtime-backends-openapi.yml
+- filename: ibm-quantum-accounts-api-openapi.yml
   format: yaml
-  label: Qiskit Runtime Backends API
-  slug: qiskit-runtime-backends-api
+  label: ibm-quantum Accounts API
+  slug: ibm-quantum-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-runtime-backends-openapi.yml
-- filename: ibm-quantum-runtime-sessions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-accounts-api-openapi.yml
+- filename: ibm-quantum-analytics-api-openapi.yml
   format: yaml
-  label: Qiskit Runtime Sessions API
-  slug: qiskit-runtime-sessions-api
+  label: ibm-quantum Analytics API
+  slug: ibm-quantum-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-runtime-sessions-openapi.yml
-- filename: ibm-quantum-runtime-instances-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-analytics-api-openapi.yml
+- filename: ibm-quantum-backends-api-openapi.yml
   format: yaml
-  label: Qiskit Runtime Instances API
-  slug: qiskit-runtime-instances-api
+  label: ibm-quantum Backends API
+  slug: ibm-quantum-backends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-runtime-instances-openapi.yml
-- filename: ibm-quantum-runtime-analytics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-backends-api-openapi.yml
+- filename: ibm-quantum-instances-api-openapi.yml
   format: yaml
-  label: Qiskit Runtime Analytics API
-  slug: qiskit-runtime-analytics-api
+  label: ibm-quantum Instances API
+  slug: ibm-quantum-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-runtime-analytics-openapi.yml
-- filename: ibm-quantum-runtime-versions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-instances-api-openapi.yml
+- filename: ibm-quantum-jobs-api-openapi.yml
   format: yaml
-  label: Qiskit Runtime Versions API
-  slug: qiskit-runtime-versions-api
+  label: ibm-quantum Jobs API
+  slug: ibm-quantum-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-runtime-versions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-jobs-api-openapi.yml
+- filename: ibm-quantum-sessions-api-openapi.yml
+  format: yaml
+  label: ibm-quantum Sessions API
+  slug: ibm-quantum-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-sessions-api-openapi.yml
+- filename: ibm-quantum-tags-api-openapi.yml
+  format: yaml
+  label: ibm-quantum Tags API
+  slug: ibm-quantum-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-tags-api-openapi.yml
+- filename: ibm-quantum-versions-api-openapi.yml
+  format: yaml
+  label: ibm-quantum Versions API
+  slug: ibm-quantum-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-versions-api-openapi.yml
+- filename: ibm-quantum-workloads-api-openapi.yml
+  format: yaml
+  label: ibm-quantum Workloads API
+  slug: ibm-quantum-workloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-workloads-api-openapi.yml
 auth_types:
 - apiKey
 - http

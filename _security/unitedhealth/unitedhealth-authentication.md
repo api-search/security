@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: unitedhealth-optum-api-openapi.yml
+- filename: unitedhealth-clinical-data-api-openapi.yml
   format: yaml
-  label: UnitedHealth Group Optum API
-  slug: optum-api
+  label: UnitedHealth Group Clinical Data API
+  slug: unitedhealth-clinical-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/openapi/unitedhealth-optum-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/openapi/unitedhealth-clinical-data-api-openapi.yml
+- filename: unitedhealth-drug-formulary-api-openapi.yml
+  format: yaml
+  label: UnitedHealth Group Drug Formulary API
+  slug: unitedhealth-drug-formulary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/openapi/unitedhealth-drug-formulary-api-openapi.yml
+- filename: unitedhealth-patient-access-api-openapi.yml
+  format: yaml
+  label: UnitedHealth Group Patient Access API
+  slug: unitedhealth-patient-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/openapi/unitedhealth-patient-access-api-openapi.yml
+- filename: unitedhealth-provider-directory-api-openapi.yml
+  format: yaml
+  label: UnitedHealth Group Provider Directory API
+  slug: unitedhealth-provider-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/openapi/unitedhealth-provider-directory-api-openapi.yml
 auth_types:
 - http
 description: ''

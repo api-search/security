@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: mapbox-openapi.yml
+- filename: mapbox-activity-api-openapi.yml
   format: yaml
-  label: Mapbox Tiling Service
-  slug: mapbox-tiling-service
+  label: Mapbox Activity API
+  slug: mapbox-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mapbox/refs/heads/main/openapi/mapbox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mapbox/refs/heads/main/openapi/mapbox-activity-api-openapi.yml
+- filename: mapbox-mapbox-tiling-service-api-api-openapi.yml
+  format: yaml
+  label: Mapbox Mapbox Tiling Service API API
+  slug: mapbox-mapbox-tiling-service-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mapbox/refs/heads/main/openapi/mapbox-mapbox-tiling-service-api-api-openapi.yml
+- filename: mapbox-tilesets-api-openapi.yml
+  format: yaml
+  label: Mapbox Tilesets API
+  slug: mapbox-tilesets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mapbox/refs/heads/main/openapi/mapbox-tilesets-api-openapi.yml
 description: ''
 domains:
 - caa: []

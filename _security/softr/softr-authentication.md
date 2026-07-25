@@ -2,18 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: softr-openapi.yml
+- filename: softr-databases-api-openapi.yml
   format: yaml
-  label: Softr Users Management API
-  slug: users-management-api
+  label: Softr Databases API
+  slug: softr-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/softr/refs/heads/main/openapi/softr-openapi.yml
-- filename: softr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/softr/refs/heads/main/openapi/softr-databases-api-openapi.yml
+- filename: softr-records-api-openapi.yml
   format: yaml
-  label: Softr Database API
-  slug: app-data-api
+  label: Softr Records API
+  slug: softr-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/softr/refs/heads/main/openapi/softr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/softr/refs/heads/main/openapi/softr-records-api-openapi.yml
+- filename: softr-users-api-openapi.yml
+  format: yaml
+  label: Softr Users API
+  slug: softr-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/softr/refs/heads/main/openapi/softr-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

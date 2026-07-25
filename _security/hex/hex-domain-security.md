@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: hex-openapi-original.json
-  format: json
-  label: Hex External API
-  slug: hex-external-api
+- filename: hex-cells-api-openapi.yml
+  format: yaml
+  label: Hex Cells API
+  slug: hex-cells-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-cells-api-openapi.yml
+- filename: hex-collections-api-openapi.yml
+  format: yaml
+  label: Hex Collections API
+  slug: hex-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-collections-api-openapi.yml
+- filename: hex-context-api-openapi.yml
+  format: yaml
+  label: Hex Context API
+  slug: hex-context-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-context-api-openapi.yml
+- filename: hex-data-connections-api-openapi.yml
+  format: yaml
+  label: Hex Data Connections API
+  slug: hex-data-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-data-connections-api-openapi.yml
+- filename: hex-embedding-api-openapi.yml
+  format: yaml
+  label: Hex Embedding API
+  slug: hex-embedding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-embedding-api-openapi.yml
+- filename: hex-groups-api-openapi.yml
+  format: yaml
+  label: Hex Groups API
+  slug: hex-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-groups-api-openapi.yml
+- filename: hex-guides-api-openapi.yml
+  format: yaml
+  label: Hex Guides API
+  slug: hex-guides-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-guides-api-openapi.yml
+- filename: hex-projects-api-openapi.yml
+  format: yaml
+  label: Hex Projects API
+  slug: hex-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-projects-api-openapi.yml
+- filename: hex-semantic-projects-models-api-openapi.yml
+  format: yaml
+  label: Hex Semantic (projects|models) API
+  slug: hex-semantic-projects-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-semantic-projects-models-api-openapi.yml
+- filename: hex-threads-api-openapi.yml
+  format: yaml
+  label: Hex Threads API
+  slug: hex-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-threads-api-openapi.yml
+- filename: hex-users-api-openapi.yml
+  format: yaml
+  label: Hex Users API
+  slug: hex-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-users-api-openapi.yml
 description: ''
 domains:
 - caa:

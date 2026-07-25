@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: axon-server-api.yml
+- filename: axon-framework-applications-api-openapi.yml
   format: yaml
-  label: Axon Framework
-  slug: axon-framework
+  label: Axon Framework Applications API
+  slug: axon-framework-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-server-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-applications-api-openapi.yml
+- filename: axon-framework-cluster-api-openapi.yml
+  format: yaml
+  label: Axon Framework Cluster API
+  slug: axon-framework-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-cluster-api-openapi.yml
+- filename: axon-framework-commands-api-openapi.yml
+  format: yaml
+  label: Axon Framework Commands API
+  slug: axon-framework-commands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-commands-api-openapi.yml
+- filename: axon-framework-contexts-api-openapi.yml
+  format: yaml
+  label: Axon Framework Contexts API
+  slug: axon-framework-contexts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-contexts-api-openapi.yml
+- filename: axon-framework-event-processors-api-openapi.yml
+  format: yaml
+  label: Axon Framework Event Processors API
+  slug: axon-framework-event-processors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-event-processors-api-openapi.yml
+- filename: axon-framework-events-api-openapi.yml
+  format: yaml
+  label: Axon Framework Events API
+  slug: axon-framework-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-events-api-openapi.yml
+- filename: axon-framework-queries-api-openapi.yml
+  format: yaml
+  label: Axon Framework Queries API
+  slug: axon-framework-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-queries-api-openapi.yml
+- filename: axon-framework-snapshots-api-openapi.yml
+  format: yaml
+  label: Axon Framework Snapshots API
+  slug: axon-framework-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-snapshots-api-openapi.yml
+- filename: axon-framework-users-api-openapi.yml
+  format: yaml
+  label: Axon Framework Users API
+  slug: axon-framework-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

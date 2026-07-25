@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: radio-cult-openapi.yml
+- filename: radio-cult-artists-api-openapi.yml
   format: yaml
-  label: Radio Cult
-  slug: radio-cult
+  label: Radio Cult Artists API
+  slug: radio-cult-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/openapi/radio-cult-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/openapi/radio-cult-artists-api-openapi.yml
+- filename: radio-cult-media-api-openapi.yml
+  format: yaml
+  label: Radio Cult Media API
+  slug: radio-cult-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/openapi/radio-cult-media-api-openapi.yml
+- filename: radio-cult-playlists-api-openapi.yml
+  format: yaml
+  label: Radio Cult Playlists API
+  slug: radio-cult-playlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/openapi/radio-cult-playlists-api-openapi.yml
+- filename: radio-cult-recordings-api-openapi.yml
+  format: yaml
+  label: Radio Cult Recordings API
+  slug: radio-cult-recordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/openapi/radio-cult-recordings-api-openapi.yml
+- filename: radio-cult-schedule-api-openapi.yml
+  format: yaml
+  label: Radio Cult Schedule API
+  slug: radio-cult-schedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/openapi/radio-cult-schedule-api-openapi.yml
+- filename: radio-cult-streaming-api-openapi.yml
+  format: yaml
+  label: Radio Cult Streaming API
+  slug: radio-cult-streaming-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/openapi/radio-cult-streaming-api-openapi.yml
+- filename: radio-cult-tags-api-openapi.yml
+  format: yaml
+  label: Radio Cult Tags API
+  slug: radio-cult-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/openapi/radio-cult-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

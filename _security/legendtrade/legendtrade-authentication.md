@@ -1,18 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: legendtrade-info-openapi.yml
-  format: yaml
-  label: Legend Info API
-  slug: info
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/legendtrade/refs/heads/main/openapi/legendtrade-info-openapi.yml
 - filename: legendtrade-ws-asyncapi.yml
   format: yaml
   label: Legend WebSocket API
   slug: websocket
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/legendtrade/refs/heads/main/asyncapi/legendtrade-ws-asyncapi.yml
+- filename: legendtrade-health-api-openapi.yml
+  format: yaml
+  label: LegendTrade Health API
+  slug: legendtrade-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/legendtrade/refs/heads/main/openapi/legendtrade-health-api-openapi.yml
+- filename: legendtrade-info-api-openapi.yml
+  format: yaml
+  label: LegendTrade Info API
+  slug: legendtrade-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/legendtrade/refs/heads/main/openapi/legendtrade-info-api-openapi.yml
+- filename: legendtrade-market-data-api-openapi.yml
+  format: yaml
+  label: LegendTrade Market Data API
+  slug: legendtrade-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/legendtrade/refs/heads/main/openapi/legendtrade-market-data-api-openapi.yml
+- filename: legendtrade-wallets-api-openapi.yml
+  format: yaml
+  label: LegendTrade Wallets API
+  slug: legendtrade-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/legendtrade/refs/heads/main/openapi/legendtrade-wallets-api-openapi.yml
 auth_types:
 - http
 description: ''

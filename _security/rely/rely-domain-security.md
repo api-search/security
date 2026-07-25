@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: rely-openapi.yml
+- filename: rely-automations-api-openapi.yml
   format: yaml
-  label: Rely.io Public API
-  slug: public-api
+  label: Rely.io Automations API
+  slug: rely-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rely/refs/heads/main/openapi/rely-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rely/refs/heads/main/openapi/rely-automations-api-openapi.yml
+- filename: rely-blueprints-api-openapi.yml
+  format: yaml
+  label: Rely.io Blueprints API
+  slug: rely-blueprints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rely/refs/heads/main/openapi/rely-blueprints-api-openapi.yml
+- filename: rely-entities-api-openapi.yml
+  format: yaml
+  label: Rely.io Entities API
+  slug: rely-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rely/refs/heads/main/openapi/rely-entities-api-openapi.yml
+- filename: rely-scorecards-api-openapi.yml
+  format: yaml
+  label: Rely.io Scorecards API
+  slug: rely-scorecards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rely/refs/heads/main/openapi/rely-scorecards-api-openapi.yml
+- filename: rely-self-service-actions-api-openapi.yml
+  format: yaml
+  label: Rely.io Self-Service Actions API
+  slug: rely-self-service-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rely/refs/heads/main/openapi/rely-self-service-actions-api-openapi.yml
+- filename: rely-users-api-openapi.yml
+  format: yaml
+  label: Rely.io Users API
+  slug: rely-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rely/refs/heads/main/openapi/rely-users-api-openapi.yml
 description: ''
 domains:
 - caa:

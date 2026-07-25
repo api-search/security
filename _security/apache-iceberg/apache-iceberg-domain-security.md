@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: apache-iceberg-rest-catalog-open-api.yaml
+- filename: apache-iceberg-catalog-api-api-openapi.yml
   format: yaml
-  label: Apache Iceberg REST Catalog API
-  slug: rest-catalog-api
+  label: Apache Iceberg Catalog API API
+  slug: apache-iceberg-catalog-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/openapi/apache-iceberg-rest-catalog-open-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/openapi/apache-iceberg-catalog-api-api-openapi.yml
+- filename: apache-iceberg-configuration-api-api-openapi.yml
+  format: yaml
+  label: Apache Iceberg Configuration API API
+  slug: apache-iceberg-configuration-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/openapi/apache-iceberg-configuration-api-api-openapi.yml
+- filename: apache-iceberg-oauth2-api-api-openapi.yml
+  format: yaml
+  label: Apache Iceberg OAuth2 API API
+  slug: apache-iceberg-oauth2-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/openapi/apache-iceberg-oauth2-api-api-openapi.yml
 description: ''
 domains:
 - caa:

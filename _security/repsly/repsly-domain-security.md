@@ -1,59 +1,59 @@
 ---
 api_specs:
-- filename: repsly-openapi.yml
+- filename: repsly-clients-api-openapi.yml
   format: yaml
   label: Repsly Clients API
   slug: repsly-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-openapi.yml
-- filename: repsly-openapi.yml
-  format: yaml
-  label: Repsly Representatives API
-  slug: repsly-representatives-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-openapi.yml
-- filename: repsly-openapi.yml
-  format: yaml
-  label: Repsly Visits API
-  slug: repsly-visits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-openapi.yml
-- filename: repsly-openapi.yml
-  format: yaml
-  label: Repsly Products API
-  slug: repsly-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-openapi.yml
-- filename: repsly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-clients-api-openapi.yml
+- filename: repsly-forms-api-openapi.yml
   format: yaml
   label: Repsly Forms API
   slug: repsly-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-openapi.yml
-- filename: repsly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-forms-api-openapi.yml
+- filename: repsly-import-api-openapi.yml
+  format: yaml
+  label: Repsly Import API
+  slug: repsly-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-import-api-openapi.yml
+- filename: repsly-photos-api-openapi.yml
   format: yaml
   label: Repsly Photos API
   slug: repsly-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-openapi.yml
-- filename: repsly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-photos-api-openapi.yml
+- filename: repsly-pricelists-api-openapi.yml
   format: yaml
   label: Repsly Pricelists API
   slug: repsly-pricelists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-openapi.yml
-- filename: repsly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-pricelists-api-openapi.yml
+- filename: repsly-products-api-openapi.yml
+  format: yaml
+  label: Repsly Products API
+  slug: repsly-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-products-api-openapi.yml
+- filename: repsly-purchase-orders-api-openapi.yml
   format: yaml
   label: Repsly Purchase Orders API
   slug: repsly-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-openapi.yml
-- filename: repsly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-purchase-orders-api-openapi.yml
+- filename: repsly-representatives-api-openapi.yml
   format: yaml
-  label: Repsly Import and Export API
-  slug: repsly-import-export-api
+  label: Repsly Representatives API
+  slug: repsly-representatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-representatives-api-openapi.yml
+- filename: repsly-visits-api-openapi.yml
+  format: yaml
+  label: Repsly Visits API
+  slug: repsly-visits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-visits-api-openapi.yml
 description: ''
 domains:
 - caa: []

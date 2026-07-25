@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: sex-offenders-api-openapi.yml
+- filename: sex-offenders-api-sex-offenders-api-openapi.yml
   format: yaml
-  label: Sex Offenders API
-  slug: sex-offenders-api
+  label: Sex Offenders API Sex Offenders API
+  slug: sex-offenders-api-sex-offenders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sex-offenders-api/refs/heads/main/openapi/sex-offenders-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sex-offenders-api/refs/heads/main/openapi/sex-offenders-api-sex-offenders-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

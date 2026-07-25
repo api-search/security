@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: kolayik-public-api-openapi.yml
+- filename: kolayik-approval-process-api-openapi.yml
   format: yaml
-  label: Kolay Public API
-  slug: kolay-public-api
+  label: KolayIK Approval Process API
+  slug: kolayik-approval-process-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-public-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-approval-process-api-openapi.yml
+- filename: kolayik-calendar-api-openapi.yml
+  format: yaml
+  label: KolayIK Calendar API
+  slug: kolayik-calendar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-calendar-api-openapi.yml
+- filename: kolayik-expense-api-openapi.yml
+  format: yaml
+  label: KolayIK Expense API
+  slug: kolayik-expense-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-expense-api-openapi.yml
+- filename: kolayik-leave-api-openapi.yml
+  format: yaml
+  label: KolayIK Leave API
+  slug: kolayik-leave-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-leave-api-openapi.yml
+- filename: kolayik-payroll-api-openapi.yml
+  format: yaml
+  label: KolayIK Payroll API
+  slug: kolayik-payroll-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-payroll-api-openapi.yml
+- filename: kolayik-person-api-openapi.yml
+  format: yaml
+  label: KolayIK Person API
+  slug: kolayik-person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-person-api-openapi.yml
+- filename: kolayik-profile-api-openapi.yml
+  format: yaml
+  label: KolayIK Profile API
+  slug: kolayik-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-profile-api-openapi.yml
+- filename: kolayik-timelog-api-openapi.yml
+  format: yaml
+  label: KolayIK Timelog API
+  slug: kolayik-timelog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-timelog-api-openapi.yml
+- filename: kolayik-training-api-openapi.yml
+  format: yaml
+  label: KolayIK Training API
+  slug: kolayik-training-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-training-api-openapi.yml
+- filename: kolayik-transaction-api-openapi.yml
+  format: yaml
+  label: KolayIK Transaction API
+  slug: kolayik-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-transaction-api-openapi.yml
+- filename: kolayik-unit-api-openapi.yml
+  format: yaml
+  label: KolayIK Unit API
+  slug: kolayik-unit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-unit-api-openapi.yml
 description: ''
 domains:
 - caa: []

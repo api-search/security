@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: palantir-openapi.yml
+- filename: palantir-admin-groups-api-openapi.yml
   format: yaml
-  label: Palantir Foundry API
-  slug: palantir-foundry-api
+  label: Palantir Admin - Groups API
+  slug: palantir-admin-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/openapi/palantir-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/openapi/palantir-admin-groups-api-openapi.yml
+- filename: palantir-admin-users-api-openapi.yml
+  format: yaml
+  label: Palantir Admin - Users API
+  slug: palantir-admin-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/openapi/palantir-admin-users-api-openapi.yml
+- filename: palantir-datasets-api-openapi.yml
+  format: yaml
+  label: Palantir Datasets API
+  slug: palantir-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/openapi/palantir-datasets-api-openapi.yml
 description: ''
 domains:
 - caa:

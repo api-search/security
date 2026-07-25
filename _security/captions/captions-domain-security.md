@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: captions-mirage-openapi-original.json
-  format: json
-  label: Mirage Video API
-  slug: mirage-video-api
+- filename: captions-audio-api-openapi.yml
+  format: yaml
+  label: Captions Audio API
+  slug: captions-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-mirage-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-audio-api-openapi.yml
+- filename: captions-health-api-openapi.yml
+  format: yaml
+  label: Captions health API
+  slug: captions-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-health-api-openapi.yml
+- filename: captions-internal-api-openapi.yml
+  format: yaml
+  label: Captions internal API
+  slug: captions-internal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-internal-api-openapi.yml
+- filename: captions-meta-text-overlays-api-openapi.yml
+  format: yaml
+  label: Captions Meta Text Overlays API
+  slug: captions-meta-text-overlays-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-meta-text-overlays-api-openapi.yml
+- filename: captions-root-api-openapi.yml
+  format: yaml
+  label: Captions root API
+  slug: captions-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-root-api-openapi.yml
+- filename: captions-video-captions-api-openapi.yml
+  format: yaml
+  label: Captions Video Captions API
+  slug: captions-video-captions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-video-captions-api-openapi.yml
+- filename: captions-videos-api-openapi.yml
+  format: yaml
+  label: Captions Videos API
+  slug: captions-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-videos-api-openapi.yml
 description: ''
 domains:
 - caa: []

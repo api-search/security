@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: amazon-clean-rooms-openapi.yml
+- filename: amazon-clean-rooms-collaborations-api-openapi.yml
   format: yaml
-  label: Amazon Clean Rooms API
-  slug: amazon-clean-rooms-api
+  label: Amazon Clean Rooms Collaborations API
+  slug: amazon-clean-rooms-collaborations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/openapi/amazon-clean-rooms-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/openapi/amazon-clean-rooms-collaborations-api-openapi.yml
+- filename: amazon-clean-rooms-configured-tables-api-openapi.yml
+  format: yaml
+  label: Amazon Clean Rooms Configured Tables API
+  slug: amazon-clean-rooms-configured-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/openapi/amazon-clean-rooms-configured-tables-api-openapi.yml
+- filename: amazon-clean-rooms-memberships-api-openapi.yml
+  format: yaml
+  label: Amazon Clean Rooms Memberships API
+  slug: amazon-clean-rooms-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/openapi/amazon-clean-rooms-memberships-api-openapi.yml
+- filename: amazon-clean-rooms-protected-queries-api-openapi.yml
+  format: yaml
+  label: Amazon Clean Rooms Protected Queries API
+  slug: amazon-clean-rooms-protected-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/openapi/amazon-clean-rooms-protected-queries-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

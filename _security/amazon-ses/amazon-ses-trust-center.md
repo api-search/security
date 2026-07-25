@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: amazon-ses-openapi.yml
+- filename: amazon-ses-contact-lists-api-openapi.yml
   format: yaml
-  label: Amazon SES OpenAPI
-  slug: amazon-ses-openapi
+  label: Amazon SES Contact Lists API
+  slug: amazon-ses-contact-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/openapi/amazon-ses-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/openapi/amazon-ses-contact-lists-api-openapi.yml
+- filename: amazon-ses-email-sending-api-openapi.yml
+  format: yaml
+  label: Amazon SES Email Sending API
+  slug: amazon-ses-email-sending-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/openapi/amazon-ses-email-sending-api-openapi.yml
+- filename: amazon-ses-identities-api-openapi.yml
+  format: yaml
+  label: Amazon SES Identities API
+  slug: amazon-ses-identities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/openapi/amazon-ses-identities-api-openapi.yml
+- filename: amazon-ses-templates-api-openapi.yml
+  format: yaml
+  label: Amazon SES Templates API
+  slug: amazon-ses-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/openapi/amazon-ses-templates-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

@@ -1,18 +1,90 @@
 ---
 api_key_in: []
 api_specs:
-- filename: scope3-measurement-openapi.yml
-  format: yaml
-  label: Scope3 Carbon Calculator (Measurement) API
-  slug: scope3-carbon-calculator-measurement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/openapi/scope3-measurement-openapi.yml
-- filename: scope3-ai-openapi-original.yml
+- filename: scope3-ai-impact-measurement-api-openapi.yml
   format: yaml
   label: Scope3 AI Impact Measurement API
   slug: scope3-ai-impact-measurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/openapi/scope3-ai-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/openapi/scope3-ai-impact-measurement-api-openapi.yml
+- filename: scope3-benchmarks-api-openapi.yml
+  format: yaml
+  label: Scope3 Benchmarks API
+  slug: scope3-benchmarks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/openapi/scope3-benchmarks-api-openapi.yml
+- filename: scope3-creative-api-openapi.yml
+  format: yaml
+  label: Scope3 Creative API
+  slug: scope3-creative-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/openapi/scope3-creative-api-openapi.yml
+- filename: scope3-data-api-openapi.yml
+  format: yaml
+  label: Scope3 Data API
+  slug: scope3-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/openapi/scope3-data-api-openapi.yml
+- filename: scope3-gpu-api-openapi.yml
+  format: yaml
+  label: Scope3 Gpu API
+  slug: scope3-gpu-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/openapi/scope3-gpu-api-openapi.yml
+- filename: scope3-impact-api-openapi.yml
+  format: yaml
+  label: Scope3 Impact API
+  slug: scope3-impact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/openapi/scope3-impact-api-openapi.yml
+- filename: scope3-measure-api-openapi.yml
+  format: yaml
+  label: Scope3 Measure API
+  slug: scope3-measure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/openapi/scope3-measure-api-openapi.yml
+- filename: scope3-model-api-openapi.yml
+  format: yaml
+  label: Scope3 Model API
+  slug: scope3-model-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/openapi/scope3-model-api-openapi.yml
+- filename: scope3-node-api-openapi.yml
+  format: yaml
+  label: Scope3 Node API
+  slug: scope3-node-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/openapi/scope3-node-api-openapi.yml
+- filename: scope3-reload-api-openapi.yml
+  format: yaml
+  label: Scope3 Reload API
+  slug: scope3-reload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/openapi/scope3-reload-api-openapi.yml
+- filename: scope3-saved-lists-api-openapi.yml
+  format: yaml
+  label: Scope3 Saved Lists API
+  slug: scope3-saved-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/openapi/scope3-saved-lists-api-openapi.yml
+- filename: scope3-segment-api-openapi.yml
+  format: yaml
+  label: Scope3 Segment API
+  slug: scope3-segment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/openapi/scope3-segment-api-openapi.yml
+- filename: scope3-signals-api-openapi.yml
+  format: yaml
+  label: Scope3 Signals API
+  slug: scope3-signals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/openapi/scope3-signals-api-openapi.yml
+- filename: scope3-status-api-openapi.yml
+  format: yaml
+  label: Scope3 Status API
+  slug: scope3-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/openapi/scope3-status-api-openapi.yml
 auth_types:
 - http
 description: ''

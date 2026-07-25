@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: spider-cloud-openapi.yml
+- filename: spider-cloud-crawling-api-openapi.yml
   format: yaml
-  label: Spider API
-  slug: spider-api
+  label: Spider Crawling API
+  slug: spider-cloud-crawling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-crawling-api-openapi.yml
+- filename: spider-cloud-data-api-openapi.yml
+  format: yaml
+  label: Spider Data API
+  slug: spider-cloud-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-data-api-openapi.yml
+- filename: spider-cloud-fetch-api-openapi.yml
+  format: yaml
+  label: Spider Fetch API
+  slug: spider-cloud-fetch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-fetch-api-openapi.yml
+- filename: spider-cloud-links-api-openapi.yml
+  format: yaml
+  label: Spider Links API
+  slug: spider-cloud-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-links-api-openapi.yml
+- filename: spider-cloud-scraping-api-openapi.yml
+  format: yaml
+  label: Spider Scraping API
+  slug: spider-cloud-scraping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-scraping-api-openapi.yml
+- filename: spider-cloud-screenshot-api-openapi.yml
+  format: yaml
+  label: Spider Screenshot API
+  slug: spider-cloud-screenshot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-screenshot-api-openapi.yml
+- filename: spider-cloud-search-api-openapi.yml
+  format: yaml
+  label: Spider Search API
+  slug: spider-cloud-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-search-api-openapi.yml
+- filename: spider-cloud-transform-api-openapi.yml
+  format: yaml
+  label: Spider Transform API
+  slug: spider-cloud-transform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-transform-api-openapi.yml
+- filename: spider-cloud-unblocker-api-openapi.yml
+  format: yaml
+  label: Spider Unblocker API
+  slug: spider-cloud-unblocker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-unblocker-api-openapi.yml
 auth_types:
 - http
 description: ''

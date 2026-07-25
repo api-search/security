@@ -2,18 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi.yaml
+- filename: amazon-redshift-metadata-api-openapi.yml
   format: yaml
-  label: Amazon Redshift API
-  slug: amazon-redshift-api
+  label: Amazon Redshift Metadata API
+  slug: amazon-redshift-metadata-api
   spec_type: OpenAPI
-  url: https://api.apis.guru/v2/specs/amazonaws.com/redshift/2012-12-01/openapi.yaml
-- filename: amazon-redshift-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/openapi/amazon-redshift-metadata-api-openapi.yml
+- filename: amazon-redshift-result-retrieval-api-openapi.yml
   format: yaml
-  label: Amazon Redshift Data API
-  slug: amazon-redshift-data-api
+  label: Amazon Redshift Result Retrieval API
+  slug: amazon-redshift-result-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/openapi/amazon-redshift-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/openapi/amazon-redshift-result-retrieval-api-openapi.yml
+- filename: amazon-redshift-statement-execution-api-openapi.yml
+  format: yaml
+  label: Amazon Redshift Statement Execution API
+  slug: amazon-redshift-statement-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/openapi/amazon-redshift-statement-execution-api-openapi.yml
+- filename: amazon-redshift-statement-management-api-openapi.yml
+  format: yaml
+  label: Amazon Redshift Statement Management API
+  slug: amazon-redshift-statement-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/openapi/amazon-redshift-statement-management-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

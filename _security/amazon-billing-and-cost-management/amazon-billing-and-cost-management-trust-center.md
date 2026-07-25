@@ -1,17 +1,59 @@
 ---
 api_specs:
-- filename: aws-cost-explorer-api-openapi.yml
+- filename: amazon-billing-and-cost-management-anomaly-detection-api-openapi.yml
   format: yaml
-  label: AWS Cost Explorer API
-  slug: aws-cost-explorer-api
+  label: Amazon Billing And Cost Management Anomaly Detection API
+  slug: amazon-billing-and-cost-management-anomaly-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/aws-cost-explorer-api-openapi.yml
-- filename: aws-budgets-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/amazon-billing-and-cost-management-anomaly-detection-api-openapi.yml
+- filename: amazon-billing-and-cost-management-budget-actions-api-openapi.yml
   format: yaml
-  label: AWS Budgets API
-  slug: aws-budgets-api
+  label: Amazon Billing And Cost Management Budget Actions API
+  slug: amazon-billing-and-cost-management-budget-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/aws-budgets-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/amazon-billing-and-cost-management-budget-actions-api-openapi.yml
+- filename: amazon-billing-and-cost-management-budgets-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Budgets API
+  slug: amazon-billing-and-cost-management-budgets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/amazon-billing-and-cost-management-budgets-api-openapi.yml
+- filename: amazon-billing-and-cost-management-cost-and-usage-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Cost And Usage API
+  slug: amazon-billing-and-cost-management-cost-and-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/amazon-billing-and-cost-management-cost-and-usage-api-openapi.yml
+- filename: amazon-billing-and-cost-management-cost-categories-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Cost Categories API
+  slug: amazon-billing-and-cost-management-cost-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/amazon-billing-and-cost-management-cost-categories-api-openapi.yml
+- filename: amazon-billing-and-cost-management-forecasting-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Forecasting API
+  slug: amazon-billing-and-cost-management-forecasting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/amazon-billing-and-cost-management-forecasting-api-openapi.yml
+- filename: amazon-billing-and-cost-management-notifications-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Notifications API
+  slug: amazon-billing-and-cost-management-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/amazon-billing-and-cost-management-notifications-api-openapi.yml
+- filename: amazon-billing-and-cost-management-recommendations-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Recommendations API
+  slug: amazon-billing-and-cost-management-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/amazon-billing-and-cost-management-recommendations-api-openapi.yml
+- filename: amazon-billing-and-cost-management-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Tags API
+  slug: amazon-billing-and-cost-management-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/amazon-billing-and-cost-management-tags-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

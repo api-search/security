@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: aws-marketplace-openapi.yml
+- filename: aws-marketplace-change-sets-api-openapi.yml
   format: yaml
-  label: AWS Marketplace Catalog API
-  slug: catalog-api
+  label: AWS Marketplace Change Sets API
+  slug: aws-marketplace-change-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-marketplace/refs/heads/main/openapi/aws-marketplace-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aws-marketplace/refs/heads/main/openapi/aws-marketplace-change-sets-api-openapi.yml
+- filename: aws-marketplace-entities-api-openapi.yml
+  format: yaml
+  label: AWS Marketplace Entities API
+  slug: aws-marketplace-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-marketplace/refs/heads/main/openapi/aws-marketplace-entities-api-openapi.yml
+- filename: aws-marketplace-resource-policies-api-openapi.yml
+  format: yaml
+  label: AWS Marketplace Resource Policies API
+  slug: aws-marketplace-resource-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-marketplace/refs/heads/main/openapi/aws-marketplace-resource-policies-api-openapi.yml
+- filename: aws-marketplace-tags-api-openapi.yml
+  format: yaml
+  label: AWS Marketplace Tags API
+  slug: aws-marketplace-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-marketplace/refs/heads/main/openapi/aws-marketplace-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: octopus-deploy-openapi.yml
+- filename: octopus-deploy-accounts-api-openapi.yml
   format: yaml
-  label: Octopus Deploy REST API
-  slug: rest-api
+  label: Octopus Deploy Accounts API
+  slug: octopus-deploy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/openapi/octopus-deploy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/openapi/octopus-deploy-accounts-api-openapi.yml
+- filename: octopus-deploy-environments-api-openapi.yml
+  format: yaml
+  label: Octopus Deploy Environments API
+  slug: octopus-deploy-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/openapi/octopus-deploy-environments-api-openapi.yml
+- filename: octopus-deploy-feeds-api-openapi.yml
+  format: yaml
+  label: Octopus Deploy Feeds API
+  slug: octopus-deploy-feeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/openapi/octopus-deploy-feeds-api-openapi.yml
+- filename: octopus-deploy-machines-api-openapi.yml
+  format: yaml
+  label: Octopus Deploy Machines API
+  slug: octopus-deploy-machines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/openapi/octopus-deploy-machines-api-openapi.yml
+- filename: octopus-deploy-projects-api-openapi.yml
+  format: yaml
+  label: Octopus Deploy Projects API
+  slug: octopus-deploy-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/openapi/octopus-deploy-projects-api-openapi.yml
+- filename: octopus-deploy-root-api-openapi.yml
+  format: yaml
+  label: Octopus Deploy Root API
+  slug: octopus-deploy-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/openapi/octopus-deploy-root-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: zircuit-gud-trading-engine-openapi.yml
+- filename: zircuit-orders-api-openapi.yml
   format: yaml
-  label: Zircuit GUD Trading Engine API (Beta)
-  slug: zircuit-gud-trading-engine-api-beta
+  label: Zircuit Orders API
+  slug: zircuit-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/openapi/zircuit-gud-trading-engine-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/openapi/zircuit-orders-api-openapi.yml
 auth_types:
 - http
 - none

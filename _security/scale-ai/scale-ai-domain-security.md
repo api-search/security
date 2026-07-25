@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: scale-ai-batches-api-openapi.yml
+  format: yaml
+  label: Scale AI Batches API
+  slug: scale-ai-batches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scale-ai/refs/heads/main/openapi/scale-ai-batches-api-openapi.yml
+- filename: scale-ai-projects-api-openapi.yml
+  format: yaml
+  label: Scale AI Projects API
+  slug: scale-ai-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scale-ai/refs/heads/main/openapi/scale-ai-projects-api-openapi.yml
+- filename: scale-ai-tasks-api-openapi.yml
+  format: yaml
+  label: Scale AI Tasks API
+  slug: scale-ai-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scale-ai/refs/heads/main/openapi/scale-ai-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []

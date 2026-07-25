@@ -6,6 +6,24 @@ api_specs:
   slug: channels-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/asyncapi/pusher-asyncapi.yml
+- filename: pusher-channels-api-openapi.yml
+  format: yaml
+  label: Pusher Channels API
+  slug: pusher-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/openapi/pusher-channels-api-openapi.yml
+- filename: pusher-events-api-openapi.yml
+  format: yaml
+  label: Pusher Events API
+  slug: pusher-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/openapi/pusher-events-api-openapi.yml
+- filename: pusher-users-api-openapi.yml
+  format: yaml
+  label: Pusher Users API
+  slug: pusher-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/openapi/pusher-users-api-openapi.yml
 certifications:
 - ISO 27001
 - HIPAA

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: eodhd-eod-historical-data-openapi.yml
+- filename: eodhd-financial-data-openapi.yml
   format: yaml
-  label: EODHD End-Of-Day Historical Data API
-  slug: eod-historical-data-api
+  label: EODHD Financial Data API
+  slug: financial-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/openapi/eodhd-eod-historical-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/openapi/eodhd-financial-data-openapi.yml
+- filename: eodhd-websockets-asyncapi.yml
+  format: yaml
+  label: EODHD WebSockets Real-Time API
+  slug: websockets-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/asyncapi/eodhd-websockets-asyncapi.yml
+- filename: eodhd-eod-api-openapi.yml
+  format: yaml
+  label: EODHD Eod API
+  slug: eodhd-eod-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/openapi/eodhd-eod-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,4 +51,9 @@ tags:
 - Market Data
 - Stock Options
 - Stocks
+- ETFs
+- Forex
+- Cryptocurrency
+- Fundamentals
+- News
 ---

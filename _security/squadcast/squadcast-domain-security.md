@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: squadcast-openapi.yml
+- filename: squadcast-authentication-api-openapi.yml
   format: yaml
-  label: Squadcast Public API
-  slug: public-api
+  label: Squadcast Authentication API
+  slug: squadcast-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squadcast/refs/heads/main/openapi/squadcast-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/squadcast/refs/heads/main/openapi/squadcast-authentication-api-openapi.yml
+- filename: squadcast-incidents-api-openapi.yml
+  format: yaml
+  label: Squadcast Incidents API
+  slug: squadcast-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/squadcast/refs/heads/main/openapi/squadcast-incidents-api-openapi.yml
+- filename: squadcast-requests-api-openapi.yml
+  format: yaml
+  label: Squadcast Requests API
+  slug: squadcast-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/squadcast/refs/heads/main/openapi/squadcast-requests-api-openapi.yml
 description: ''
 domains:
 - caa: []

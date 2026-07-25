@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: deepinfra-openapi.yml
+- filename: deepinfra-audio-api-openapi.yml
   format: yaml
-  label: DeepInfra Platform API
-  slug: platform
+  label: DeepInfra Audio API
+  slug: deepinfra-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-audio-api-openapi.yml
+- filename: deepinfra-chat-api-openapi.yml
+  format: yaml
+  label: DeepInfra Chat API
+  slug: deepinfra-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-chat-api-openapi.yml
+- filename: deepinfra-completions-api-openapi.yml
+  format: yaml
+  label: DeepInfra Completions API
+  slug: deepinfra-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-completions-api-openapi.yml
+- filename: deepinfra-embeddings-api-openapi.yml
+  format: yaml
+  label: DeepInfra Embeddings API
+  slug: deepinfra-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-embeddings-api-openapi.yml
+- filename: deepinfra-images-api-openapi.yml
+  format: yaml
+  label: DeepInfra Images API
+  slug: deepinfra-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-images-api-openapi.yml
+- filename: deepinfra-models-api-openapi.yml
+  format: yaml
+  label: DeepInfra Models API
+  slug: deepinfra-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-models-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

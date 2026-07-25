@@ -1,53 +1,89 @@
 ---
 api_specs:
-- filename: phorest-openapi.yml
+- filename: phorest-appointments-api-openapi.yml
   format: yaml
-  label: Phorest Clients API
-  slug: phorest-clients-api
+  label: Phorest Appointments API
+  slug: phorest-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-openapi.yml
-- filename: phorest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-appointments-api-openapi.yml
+- filename: phorest-bookings-api-openapi.yml
   format: yaml
-  label: Phorest Appointments & Bookings API
-  slug: phorest-appointments-bookings-api
+  label: Phorest Bookings API
+  slug: phorest-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-openapi.yml
-- filename: phorest-openapi.yml
-  format: yaml
-  label: Phorest Staff API
-  slug: phorest-staff-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-openapi.yml
-- filename: phorest-openapi.yml
-  format: yaml
-  label: Phorest Services API
-  slug: phorest-services-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-openapi.yml
-- filename: phorest-openapi.yml
-  format: yaml
-  label: Phorest Products & Purchases API
-  slug: phorest-products-purchases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-openapi.yml
-- filename: phorest-openapi.yml
-  format: yaml
-  label: Phorest Vouchers & Loyalty API
-  slug: phorest-vouchers-loyalty-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-openapi.yml
-- filename: phorest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-bookings-api-openapi.yml
+- filename: phorest-branches-api-openapi.yml
   format: yaml
   label: Phorest Branches API
   slug: phorest-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-openapi.yml
-- filename: phorest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-branches-api-openapi.yml
+- filename: phorest-clients-api-openapi.yml
   format: yaml
-  label: Phorest Reporting & Reviews API
-  slug: phorest-reporting-reviews-api
+  label: Phorest Clients API
+  slug: phorest-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-clients-api-openapi.yml
+- filename: phorest-courses-api-openapi.yml
+  format: yaml
+  label: Phorest Courses API
+  slug: phorest-courses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-courses-api-openapi.yml
+- filename: phorest-leads-api-openapi.yml
+  format: yaml
+  label: Phorest Leads API
+  slug: phorest-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-leads-api-openapi.yml
+- filename: phorest-loyalty-api-openapi.yml
+  format: yaml
+  label: Phorest Loyalty API
+  slug: phorest-loyalty-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-loyalty-api-openapi.yml
+- filename: phorest-products-api-openapi.yml
+  format: yaml
+  label: Phorest Products API
+  slug: phorest-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-products-api-openapi.yml
+- filename: phorest-purchases-api-openapi.yml
+  format: yaml
+  label: Phorest Purchases API
+  slug: phorest-purchases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-purchases-api-openapi.yml
+- filename: phorest-reporting-api-openapi.yml
+  format: yaml
+  label: Phorest Reporting API
+  slug: phorest-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-reporting-api-openapi.yml
+- filename: phorest-reviews-api-openapi.yml
+  format: yaml
+  label: Phorest Reviews API
+  slug: phorest-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-reviews-api-openapi.yml
+- filename: phorest-services-api-openapi.yml
+  format: yaml
+  label: Phorest Services API
+  slug: phorest-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-services-api-openapi.yml
+- filename: phorest-staff-api-openapi.yml
+  format: yaml
+  label: Phorest Staff API
+  slug: phorest-staff-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-staff-api-openapi.yml
+- filename: phorest-vouchers-api-openapi.yml
+  format: yaml
+  label: Phorest Vouchers API
+  slug: phorest-vouchers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-vouchers-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

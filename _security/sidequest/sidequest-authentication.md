@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sidequest-openapi.json
-  format: json
-  label: SideQuest Public API
-  slug: sidequest-public-api
+- filename: sidequest-apps-api-openapi.yml
+  format: yaml
+  label: SideQuest Apps API
+  slug: sidequest-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/openapi/sidequest-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/openapi/sidequest-apps-api-openapi.yml
+- filename: sidequest-developers-api-openapi.yml
+  format: yaml
+  label: SideQuest Developers API
+  slug: sidequest-developers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/openapi/sidequest-developers-api-openapi.yml
+- filename: sidequest-oauth2-api-openapi.yml
+  format: yaml
+  label: SideQuest OAuth2 API
+  slug: sidequest-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/openapi/sidequest-oauth2-api-openapi.yml
+- filename: sidequest-users-api-openapi.yml
+  format: yaml
+  label: SideQuest Users API
+  slug: sidequest-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/openapi/sidequest-users-api-openapi.yml
+- filename: sidequest-usersapps-api-openapi.yml
+  format: yaml
+  label: SideQuest UsersApps API
+  slug: sidequest-usersapps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/openapi/sidequest-usersapps-api-openapi.yml
 auth_types:
 - http
 description: ''

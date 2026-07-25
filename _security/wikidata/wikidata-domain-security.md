@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: wikidata-mediawiki-openapi.yml
+- filename: wikidata-descriptions-api-openapi.yml
   format: yaml
-  label: Wikibase REST API
-  slug: wikibase-rest-api
+  label: Wikidata Descriptions API
+  slug: wikidata-descriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/openapi/wikidata-mediawiki-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/openapi/wikidata-descriptions-api-openapi.yml
+- filename: wikidata-items-api-openapi.yml
+  format: yaml
+  label: Wikidata Items API
+  slug: wikidata-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/openapi/wikidata-items-api-openapi.yml
+- filename: wikidata-labels-api-openapi.yml
+  format: yaml
+  label: Wikidata Labels API
+  slug: wikidata-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/openapi/wikidata-labels-api-openapi.yml
+- filename: wikidata-properties-api-openapi.yml
+  format: yaml
+  label: Wikidata Properties API
+  slug: wikidata-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/openapi/wikidata-properties-api-openapi.yml
+- filename: wikidata-statements-api-openapi.yml
+  format: yaml
+  label: Wikidata Statements API
+  slug: wikidata-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/openapi/wikidata-statements-api-openapi.yml
 description: ''
 domains:
 - caa:

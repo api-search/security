@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: microsoft-azure-cosmos-db-openapi.yml
+- filename: microsoft-azure-cosmos-db-collections-api-openapi.yml
   format: yaml
-  label: Azure Cosmos DB API
-  slug: azure-cosmos-db-api
+  label: microsoft-azure-cosmos-db Collections API
+  slug: microsoft-azure-cosmos-db-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cosmos-db/refs/heads/main/openapi/microsoft-azure-cosmos-db-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cosmos-db/refs/heads/main/openapi/microsoft-azure-cosmos-db-collections-api-openapi.yml
+- filename: microsoft-azure-cosmos-db-databases-api-openapi.yml
+  format: yaml
+  label: microsoft-azure-cosmos-db Databases API
+  slug: microsoft-azure-cosmos-db-databases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cosmos-db/refs/heads/main/openapi/microsoft-azure-cosmos-db-databases-api-openapi.yml
+- filename: microsoft-azure-cosmos-db-documents-api-openapi.yml
+  format: yaml
+  label: microsoft-azure-cosmos-db Documents API
+  slug: microsoft-azure-cosmos-db-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cosmos-db/refs/heads/main/openapi/microsoft-azure-cosmos-db-documents-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

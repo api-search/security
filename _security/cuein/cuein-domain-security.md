@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: cuein-insights-openapi.json
-  format: json
-  label: Cuein Insights API
-  slug: cuein-insights-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/openapi/cuein-insights-openapi.json
-- filename: cuein-answers-openapi.json
-  format: json
-  label: Cuein Answers API
+- filename: cuein-answers-api-openapi.yml
+  format: yaml
+  label: Cuein answers API
   slug: cuein-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/openapi/cuein-answers-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/openapi/cuein-answers-api-openapi.yml
+- filename: cuein-conversations-api-openapi.yml
+  format: yaml
+  label: Cuein conversations API
+  slug: cuein-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/openapi/cuein-conversations-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: printify-openapi.yml
-  format: yaml
-  label: Printify Shops API
-  slug: printify-shops-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-openapi.yml
-- filename: printify-openapi.yml
+- filename: printify-catalog-api-openapi.yml
   format: yaml
   label: Printify Catalog API
   slug: printify-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-openapi.yml
-- filename: printify-openapi.yml
-  format: yaml
-  label: Printify Products API
-  slug: printify-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-openapi.yml
-- filename: printify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-catalog-api-openapi.yml
+- filename: printify-orders-api-openapi.yml
   format: yaml
   label: Printify Orders API
   slug: printify-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-openapi.yml
-- filename: printify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-orders-api-openapi.yml
+- filename: printify-products-api-openapi.yml
+  format: yaml
+  label: Printify Products API
+  slug: printify-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-products-api-openapi.yml
+- filename: printify-shops-api-openapi.yml
+  format: yaml
+  label: Printify Shops API
+  slug: printify-shops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-shops-api-openapi.yml
+- filename: printify-uploads-api-openapi.yml
   format: yaml
   label: Printify Uploads API
   slug: printify-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-openapi.yml
-- filename: printify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-uploads-api-openapi.yml
+- filename: printify-webhooks-api-openapi.yml
   format: yaml
   label: Printify Webhooks API
   slug: printify-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

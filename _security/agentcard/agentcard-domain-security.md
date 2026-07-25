@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: agentcard-openapi-original.json
-  format: json
-  label: Agentcard v2 API
-  slug: agentcard-v2-api
+- filename: agentcard-authentication-api-openapi.yml
+  format: yaml
+  label: Agentcard Authentication API
+  slug: agentcard-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-authentication-api-openapi.yml
+- filename: agentcard-connect-api-openapi.yml
+  format: yaml
+  label: Agentcard Connect API
+  slug: agentcard-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-connect-api-openapi.yml
+- filename: agentcard-identity-verification-api-openapi.yml
+  format: yaml
+  label: Agentcard Identity verification API
+  slug: agentcard-identity-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-identity-verification-api-openapi.yml
+- filename: agentcard-wallet-funding-api-openapi.yml
+  format: yaml
+  label: Agentcard Wallet funding API
+  slug: agentcard-wallet-funding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-wallet-funding-api-openapi.yml
+- filename: agentcard-withdrawals-api-openapi.yml
+  format: yaml
+  label: Agentcard Withdrawals API
+  slug: agentcard-withdrawals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-withdrawals-api-openapi.yml
 description: ''
 domains:
 - caa:

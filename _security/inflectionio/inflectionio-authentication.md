@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: inflectionio-openapi-original.yml
+- filename: inflectionio-contact-activity-api-openapi.yml
   format: yaml
-  label: Inflection Developer API
-  slug: inflectionio-developer-api
+  label: Inflection.io Contact Activity API
+  slug: inflectionio-contact-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-contact-activity-api-openapi.yml
+- filename: inflectionio-contacts-api-openapi.yml
+  format: yaml
+  label: Inflection.io Contacts API
+  slug: inflectionio-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-contacts-api-openapi.yml
+- filename: inflectionio-email-templates-api-openapi.yml
+  format: yaml
+  label: Inflection.io Email Templates API
+  slug: inflectionio-email-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-email-templates-api-openapi.yml
+- filename: inflectionio-lists-and-members-api-openapi.yml
+  format: yaml
+  label: Inflection.io Lists and Members API
+  slug: inflectionio-lists-and-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-lists-and-members-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,77 @@
 ---
 api_specs:
-- filename: oddsjam-openapi.yml
+- filename: oddsjam-fixtures-api-openapi.yml
   format: yaml
-  label: OddsJam API
-  slug: oddsjam
+  label: OddsJam Fixtures API
+  slug: oddsjam-fixtures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-fixtures-api-openapi.yml
+- filename: oddsjam-futures-api-openapi.yml
+  format: yaml
+  label: OddsJam Futures API
+  slug: oddsjam-futures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-futures-api-openapi.yml
+- filename: oddsjam-grader-api-openapi.yml
+  format: yaml
+  label: OddsJam Grader API
+  slug: oddsjam-grader-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-grader-api-openapi.yml
+- filename: oddsjam-injuries-api-openapi.yml
+  format: yaml
+  label: OddsJam Injuries API
+  slug: oddsjam-injuries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-injuries-api-openapi.yml
+- filename: oddsjam-leagues-api-openapi.yml
+  format: yaml
+  label: OddsJam Leagues API
+  slug: oddsjam-leagues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-leagues-api-openapi.yml
+- filename: oddsjam-markets-api-openapi.yml
+  format: yaml
+  label: OddsJam Markets API
+  slug: oddsjam-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-markets-api-openapi.yml
+- filename: oddsjam-players-api-openapi.yml
+  format: yaml
+  label: OddsJam Players API
+  slug: oddsjam-players-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-players-api-openapi.yml
+- filename: oddsjam-sports-api-openapi.yml
+  format: yaml
+  label: OddsJam Sports API
+  slug: oddsjam-sports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-sports-api-openapi.yml
+- filename: oddsjam-sportsbooks-api-openapi.yml
+  format: yaml
+  label: OddsJam Sportsbooks API
+  slug: oddsjam-sportsbooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-sportsbooks-api-openapi.yml
+- filename: oddsjam-streaming-api-openapi.yml
+  format: yaml
+  label: OddsJam Streaming API
+  slug: oddsjam-streaming-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-streaming-api-openapi.yml
+- filename: oddsjam-teams-api-openapi.yml
+  format: yaml
+  label: OddsJam Teams API
+  slug: oddsjam-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-teams-api-openapi.yml
+- filename: oddsjam-tournaments-api-openapi.yml
+  format: yaml
+  label: OddsJam Tournaments API
+  slug: oddsjam-tournaments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-tournaments-api-openapi.yml
 description: ''
 domains:
 - caa: []

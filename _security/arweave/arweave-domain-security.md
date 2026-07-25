@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: arweave-blocks-api-openapi.yml
   format: yaml
-  label: Arweave HTTP Node API
-  slug: arweave-http-node-api
+  label: Arweave Blocks API
+  slug: arweave-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arweave/refs/heads/main/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arweave/refs/heads/main/openapi/arweave-blocks-api-openapi.yml
+- filename: arweave-chunks-api-openapi.yml
+  format: yaml
+  label: Arweave Chunks API
+  slug: arweave-chunks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arweave/refs/heads/main/openapi/arweave-chunks-api-openapi.yml
+- filename: arweave-network-api-openapi.yml
+  format: yaml
+  label: Arweave Network API
+  slug: arweave-network-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arweave/refs/heads/main/openapi/arweave-network-api-openapi.yml
+- filename: arweave-transactions-api-openapi.yml
+  format: yaml
+  label: Arweave Transactions API
+  slug: arweave-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arweave/refs/heads/main/openapi/arweave-transactions-api-openapi.yml
+- filename: arweave-wallets-api-openapi.yml
+  format: yaml
+  label: Arweave Wallets API
+  slug: arweave-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arweave/refs/heads/main/openapi/arweave-wallets-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,42 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: fastpix-openapi.yml
+- filename: fastpix-data-api-openapi.yml
   format: yaml
-  label: FastPix On-Demand API
-  slug: fastpix-on-demand-api
+  label: FastPix Data API
+  slug: fastpix-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-openapi.yml
-- filename: fastpix-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-data-api-openapi.yml
+- filename: fastpix-drm-api-openapi.yml
   format: yaml
-  label: FastPix Live Streaming API
-  slug: fastpix-live-streaming-api
+  label: FastPix DRM API
+  slug: fastpix-drm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-openapi.yml
-- filename: fastpix-openapi.yml
-  format: yaml
-  label: FastPix Simulcast API
-  slug: fastpix-simulcast-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-openapi.yml
-- filename: fastpix-openapi.yml
-  format: yaml
-  label: FastPix Playback & Signing Keys API
-  slug: fastpix-playback-signing-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-openapi.yml
-- filename: fastpix-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-drm-api-openapi.yml
+- filename: fastpix-in-video-ai-api-openapi.yml
   format: yaml
   label: FastPix In-Video AI API
   slug: fastpix-in-video-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-openapi.yml
-- filename: fastpix-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-in-video-ai-api-openapi.yml
+- filename: fastpix-live-streaming-api-openapi.yml
   format: yaml
-  label: FastPix Data & Views API
-  slug: fastpix-data-views-api
+  label: FastPix Live Streaming API
+  slug: fastpix-live-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-live-streaming-api-openapi.yml
+- filename: fastpix-on-demand-api-openapi.yml
+  format: yaml
+  label: FastPix On-Demand API
+  slug: fastpix-on-demand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-on-demand-api-openapi.yml
+- filename: fastpix-playback-api-openapi.yml
+  format: yaml
+  label: FastPix Playback API
+  slug: fastpix-playback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-playback-api-openapi.yml
+- filename: fastpix-signing-keys-api-openapi.yml
+  format: yaml
+  label: FastPix Signing Keys API
+  slug: fastpix-signing-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-signing-keys-api-openapi.yml
+- filename: fastpix-simulcast-api-openapi.yml
+  format: yaml
+  label: FastPix Simulcast API
+  slug: fastpix-simulcast-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-simulcast-api-openapi.yml
 auth_types:
 - http
 description: ''

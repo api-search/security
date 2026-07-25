@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: meteomatics-weather-openapi.yml
+- filename: meteomatics-authentication-api-openapi.yml
   format: yaml
-  label: Meteomatics Weather API
-  slug: meteomatics-weather-api
+  label: Meteomatics Authentication API
+  slug: meteomatics-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meteomatics/refs/heads/main/openapi/meteomatics-weather-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/meteomatics/refs/heads/main/openapi/meteomatics-authentication-api-openapi.yml
+- filename: meteomatics-user-api-openapi.yml
+  format: yaml
+  label: Meteomatics User API
+  slug: meteomatics-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meteomatics/refs/heads/main/openapi/meteomatics-user-api-openapi.yml
+- filename: meteomatics-weather-data-api-openapi.yml
+  format: yaml
+  label: Meteomatics Weather Data API
+  slug: meteomatics-weather-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meteomatics/refs/heads/main/openapi/meteomatics-weather-data-api-openapi.yml
 auth_types:
 - http
 description: ''

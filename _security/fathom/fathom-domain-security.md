@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: fathom-analytics-api-openapi.yml
+- filename: fathom-account-api-openapi.yml
   format: yaml
-  label: Fathom Analytics REST API
-  slug: fathom-analytics-api
+  label: Fathom Analytics Account API
+  slug: fathom-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/openapi/fathom-analytics-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/openapi/fathom-account-api-openapi.yml
+- filename: fathom-events-api-openapi.yml
+  format: yaml
+  label: Fathom Analytics Events API
+  slug: fathom-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/openapi/fathom-events-api-openapi.yml
+- filename: fathom-milestones-api-openapi.yml
+  format: yaml
+  label: Fathom Analytics Milestones API
+  slug: fathom-milestones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/openapi/fathom-milestones-api-openapi.yml
+- filename: fathom-reports-api-openapi.yml
+  format: yaml
+  label: Fathom Analytics Reports API
+  slug: fathom-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/openapi/fathom-reports-api-openapi.yml
+- filename: fathom-sites-api-openapi.yml
+  format: yaml
+  label: Fathom Analytics Sites API
+  slug: fathom-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/openapi/fathom-sites-api-openapi.yml
 description: ''
 domains:
 - caa: []

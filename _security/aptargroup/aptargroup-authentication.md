@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: aptargroup-openapi.yaml
+- filename: aptargroup-orders-api-openapi.yml
   format: yaml
-  label: AptarGroup API
-  slug: aptargroup-api
+  label: AptarGroup Orders API
+  slug: aptargroup-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptargroup/refs/heads/main/openapi/aptargroup-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/aptargroup/refs/heads/main/openapi/aptargroup-orders-api-openapi.yml
+- filename: aptargroup-products-api-openapi.yml
+  format: yaml
+  label: AptarGroup Products API
+  slug: aptargroup-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptargroup/refs/heads/main/openapi/aptargroup-products-api-openapi.yml
 auth_types:
 - http
 description: ''

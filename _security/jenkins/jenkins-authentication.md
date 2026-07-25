@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: jenkins-openapi.yml
+- filename: jenkins-computer-api-openapi.yml
   format: yaml
-  label: Jenkins Remote Access API
-  slug: jenkins-remote-access-api
+  label: Jenkins Computer API
+  slug: jenkins-computer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/openapi/jenkins-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/openapi/jenkins-computer-api-openapi.yml
+- filename: jenkins-jobs-api-openapi.yml
+  format: yaml
+  label: Jenkins Jobs API
+  slug: jenkins-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/openapi/jenkins-jobs-api-openapi.yml
+- filename: jenkins-queue-api-openapi.yml
+  format: yaml
+  label: Jenkins Queue API
+  slug: jenkins-queue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/openapi/jenkins-queue-api-openapi.yml
+- filename: jenkins-server-api-openapi.yml
+  format: yaml
+  label: Jenkins Server API
+  slug: jenkins-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/openapi/jenkins-server-api-openapi.yml
 auth_types:
 - http
 description: ''

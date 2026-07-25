@@ -2,12 +2,66 @@
 api_key_in:
 - header
 api_specs:
-- filename: genlogs-openapi.yml
+- filename: genlogs-alerts-api-openapi.yml
   format: yaml
-  label: GenLogs Truck Intelligence API
-  slug: genlogs-truck-intelligence-api
+  label: GenLogs Alerts API
+  slug: genlogs-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genlogs/refs/heads/main/openapi/genlogs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/genlogs/refs/heads/main/openapi/genlogs-alerts-api-openapi.yml
+- filename: genlogs-auth-api-openapi.yml
+  format: yaml
+  label: GenLogs auth API
+  slug: genlogs-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genlogs/refs/heads/main/openapi/genlogs-auth-api-openapi.yml
+- filename: genlogs-carrier-api-openapi.yml
+  format: yaml
+  label: GenLogs Carrier API
+  slug: genlogs-carrier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genlogs/refs/heads/main/openapi/genlogs-carrier-api-openapi.yml
+- filename: genlogs-carrier-vetting-api-openapi.yml
+  format: yaml
+  label: GenLogs carrier-vetting API
+  slug: genlogs-carrier-vetting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genlogs/refs/heads/main/openapi/genlogs-carrier-vetting-api-openapi.yml
+- filename: genlogs-compliance-rules-api-openapi.yml
+  format: yaml
+  label: GenLogs Compliance Rules API
+  slug: genlogs-compliance-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genlogs/refs/heads/main/openapi/genlogs-compliance-rules-api-openapi.yml
+- filename: genlogs-facilities-api-openapi.yml
+  format: yaml
+  label: GenLogs Facilities API
+  slug: genlogs-facilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genlogs/refs/heads/main/openapi/genlogs-facilities-api-openapi.yml
+- filename: genlogs-mismatch-alerts-api-openapi.yml
+  format: yaml
+  label: GenLogs Mismatch alerts API
+  slug: genlogs-mismatch-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genlogs/refs/heads/main/openapi/genlogs-mismatch-alerts-api-openapi.yml
+- filename: genlogs-onboarded-carriers-api-openapi.yml
+  format: yaml
+  label: GenLogs Onboarded Carriers API
+  slug: genlogs-onboarded-carriers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genlogs/refs/heads/main/openapi/genlogs-onboarded-carriers-api-openapi.yml
+- filename: genlogs-shipper-api-openapi.yml
+  format: yaml
+  label: GenLogs Shipper API
+  slug: genlogs-shipper-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genlogs/refs/heads/main/openapi/genlogs-shipper-api-openapi.yml
+- filename: genlogs-webhook-alerts-api-openapi.yml
+  format: yaml
+  label: GenLogs Webhook Alerts API
+  slug: genlogs-webhook-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genlogs/refs/heads/main/openapi/genlogs-webhook-alerts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

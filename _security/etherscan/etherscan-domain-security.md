@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: etherscan-openapi.yml
+- filename: etherscan-accounts-api-openapi.yml
   format: yaml
-  label: Etherscan API
-  slug: etherscan
+  label: Etherscan Accounts API
+  slug: etherscan-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/openapi/etherscan-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/openapi/etherscan-accounts-api-openapi.yml
+- filename: etherscan-blocks-api-openapi.yml
+  format: yaml
+  label: Etherscan Blocks API
+  slug: etherscan-blocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/openapi/etherscan-blocks-api-openapi.yml
+- filename: etherscan-contracts-api-openapi.yml
+  format: yaml
+  label: Etherscan Contracts API
+  slug: etherscan-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/openapi/etherscan-contracts-api-openapi.yml
+- filename: etherscan-gas-tracker-api-openapi.yml
+  format: yaml
+  label: Etherscan Gas Tracker API
+  slug: etherscan-gas-tracker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/openapi/etherscan-gas-tracker-api-openapi.yml
+- filename: etherscan-stats-api-openapi.yml
+  format: yaml
+  label: Etherscan Stats API
+  slug: etherscan-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/openapi/etherscan-stats-api-openapi.yml
+- filename: etherscan-tokens-api-openapi.yml
+  format: yaml
+  label: Etherscan Tokens API
+  slug: etherscan-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/openapi/etherscan-tokens-api-openapi.yml
+- filename: etherscan-transactions-api-openapi.yml
+  format: yaml
+  label: Etherscan Transactions API
+  slug: etherscan-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/openapi/etherscan-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

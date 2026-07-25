@@ -1,12 +1,78 @@
 ---
 api_key_in: []
 api_specs:
-- filename: amazon-connect-openapi.yml
+- filename: amazon-connect-agent-statuses-api-openapi.yml
   format: yaml
-  label: Amazon Connect Service API
-  slug: amazon-connect-service-api
+  label: Amazon Connect Agent Statuses API
+  slug: amazon-connect-agent-statuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/openapi/amazon-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/openapi/amazon-connect-agent-statuses-api-openapi.yml
+- filename: amazon-connect-authentication-api-openapi.yml
+  format: yaml
+  label: Amazon Connect Authentication API
+  slug: amazon-connect-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/openapi/amazon-connect-authentication-api-openapi.yml
+- filename: amazon-connect-contact-flows-api-openapi.yml
+  format: yaml
+  label: Amazon Connect Contact Flows API
+  slug: amazon-connect-contact-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/openapi/amazon-connect-contact-flows-api-openapi.yml
+- filename: amazon-connect-contacts-api-openapi.yml
+  format: yaml
+  label: Amazon Connect Contacts API
+  slug: amazon-connect-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/openapi/amazon-connect-contacts-api-openapi.yml
+- filename: amazon-connect-hours-of-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Connect Hours of Operations API
+  slug: amazon-connect-hours-of-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/openapi/amazon-connect-hours-of-operations-api-openapi.yml
+- filename: amazon-connect-instances-api-openapi.yml
+  format: yaml
+  label: Amazon Connect Instances API
+  slug: amazon-connect-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/openapi/amazon-connect-instances-api-openapi.yml
+- filename: amazon-connect-metrics-api-openapi.yml
+  format: yaml
+  label: Amazon Connect Metrics API
+  slug: amazon-connect-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/openapi/amazon-connect-metrics-api-openapi.yml
+- filename: amazon-connect-queues-api-openapi.yml
+  format: yaml
+  label: Amazon Connect Queues API
+  slug: amazon-connect-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/openapi/amazon-connect-queues-api-openapi.yml
+- filename: amazon-connect-routing-profiles-api-openapi.yml
+  format: yaml
+  label: Amazon Connect Routing Profiles API
+  slug: amazon-connect-routing-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/openapi/amazon-connect-routing-profiles-api-openapi.yml
+- filename: amazon-connect-security-profiles-api-openapi.yml
+  format: yaml
+  label: Amazon Connect Security Profiles API
+  slug: amazon-connect-security-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/openapi/amazon-connect-security-profiles-api-openapi.yml
+- filename: amazon-connect-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Connect Tags API
+  slug: amazon-connect-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/openapi/amazon-connect-tags-api-openapi.yml
+- filename: amazon-connect-users-api-openapi.yml
+  format: yaml
+  label: Amazon Connect Users API
+  slug: amazon-connect-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/openapi/amazon-connect-users-api-openapi.yml
 auth_types:
 - http
 description: ''

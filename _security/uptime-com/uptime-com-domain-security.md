@@ -1,41 +1,47 @@
 ---
 api_specs:
-- filename: uptime-com-openapi.yml
+- filename: uptime-com-checks-api-openapi.yml
   format: yaml
-  label: Uptime.com Checks & Monitors API
-  slug: checks-monitors
+  label: Uptime.com Checks API
+  slug: uptime-com-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-openapi.yml
-- filename: uptime-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-checks-api-openapi.yml
+- filename: uptime-com-contacts-api-openapi.yml
+  format: yaml
+  label: Uptime.com Contacts API
+  slug: uptime-com-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-contacts-api-openapi.yml
+- filename: uptime-com-integrations-api-openapi.yml
+  format: yaml
+  label: Uptime.com Integrations API
+  slug: uptime-com-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-integrations-api-openapi.yml
+- filename: uptime-com-outages-api-openapi.yml
   format: yaml
   label: Uptime.com Outages API
-  slug: outages
+  slug: uptime-com-outages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-openapi.yml
-- filename: uptime-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-outages-api-openapi.yml
+- filename: uptime-com-sla-reports-api-openapi.yml
   format: yaml
   label: Uptime.com SLA Reports API
-  slug: sla-reports
+  slug: uptime-com-sla-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-openapi.yml
-- filename: uptime-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-sla-reports-api-openapi.yml
+- filename: uptime-com-status-pages-api-openapi.yml
   format: yaml
   label: Uptime.com Status Pages API
-  slug: status-pages
+  slug: uptime-com-status-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-openapi.yml
-- filename: uptime-com-openapi.yml
-  format: yaml
-  label: Uptime.com Contacts & Integrations API
-  slug: contacts-integrations
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-openapi.yml
-- filename: uptime-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-status-pages-api-openapi.yml
+- filename: uptime-com-tags-api-openapi.yml
   format: yaml
   label: Uptime.com Tags API
-  slug: tags
+  slug: uptime-com-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

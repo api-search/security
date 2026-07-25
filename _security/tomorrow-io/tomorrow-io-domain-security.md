@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: tomorrow-io-weather-api-openapi.yml
-  format: yaml
-  label: Tomorrow.io Weather API
-  slug: tomorrow-io-weather-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/openapi/tomorrow-io-weather-api-openapi.yml
 - filename: tomorrow-io-historical-api-openapi.yml
   format: yaml
   label: Tomorrow.io Historical Weather API
@@ -24,12 +18,6 @@ api_specs:
   slug: tomorrow-io-route-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/openapi/tomorrow-io-route-api-openapi.yml
-- filename: tomorrow-io-map-tiles-api-openapi.yml
-  format: yaml
-  label: Tomorrow.io Weather Maps API
-  slug: tomorrow-io-map-tiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/openapi/tomorrow-io-map-tiles-api-openapi.yml
 - filename: tomorrow-io-locations-api-openapi.yml
   format: yaml
   label: Tomorrow.io Locations API
@@ -48,6 +36,30 @@ api_specs:
   slug: tomorrow-io-insights-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/openapi/tomorrow-io-insights-api-openapi.yml
+- filename: tomorrow-io-forecast-api-openapi.yml
+  format: yaml
+  label: Tomorrow.io Forecast API
+  slug: tomorrow-io-forecast-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/openapi/tomorrow-io-forecast-api-openapi.yml
+- filename: tomorrow-io-maps-api-openapi.yml
+  format: yaml
+  label: Tomorrow.io Maps API
+  slug: tomorrow-io-maps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/openapi/tomorrow-io-maps-api-openapi.yml
+- filename: tomorrow-io-realtime-api-openapi.yml
+  format: yaml
+  label: Tomorrow.io Realtime API
+  slug: tomorrow-io-realtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/openapi/tomorrow-io-realtime-api-openapi.yml
+- filename: tomorrow-io-timelines-api-openapi.yml
+  format: yaml
+  label: Tomorrow.io Timelines API
+  slug: tomorrow-io-timelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/openapi/tomorrow-io-timelines-api-openapi.yml
 description: ''
 domains:
 - caa: []

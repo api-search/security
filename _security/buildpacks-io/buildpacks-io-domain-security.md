@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: buildpacks-registry-api-openapi.yml
+- filename: buildpacks-io-buildpacks-api-openapi.yml
   format: yaml
-  label: Buildpack Registry Extension
-  slug: buildpack-registry-spec
+  label: buildpacks-io Buildpacks API
+  slug: buildpacks-io-buildpacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/openapi/buildpacks-registry-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/openapi/buildpacks-io-buildpacks-api-openapi.yml
+- filename: buildpacks-io-search-api-openapi.yml
+  format: yaml
+  label: buildpacks-io Search API
+  slug: buildpacks-io-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/openapi/buildpacks-io-search-api-openapi.yml
 description: ''
 domains:
 - caa:

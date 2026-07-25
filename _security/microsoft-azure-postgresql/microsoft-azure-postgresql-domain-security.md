@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: microsoft-azure-postgresql-openapi.yml
+- filename: microsoft-azure-postgresql-operations-api-openapi.yml
   format: yaml
-  label: Azure Database for PostgreSQL REST API
-  slug: azure-database-for-postgresql-rest-api
+  label: Azure Database for PostgreSQL Operations API
+  slug: microsoft-azure-postgresql-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-postgresql/refs/heads/main/openapi/microsoft-azure-postgresql-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-postgresql/refs/heads/main/openapi/microsoft-azure-postgresql-operations-api-openapi.yml
+- filename: microsoft-azure-postgresql-servers-api-openapi.yml
+  format: yaml
+  label: Azure Database for PostgreSQL Servers API
+  slug: microsoft-azure-postgresql-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-postgresql/refs/heads/main/openapi/microsoft-azure-postgresql-servers-api-openapi.yml
 description: ''
 domains:
 - caa:

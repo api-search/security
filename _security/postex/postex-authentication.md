@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: postex-order-openapi.yml
+- filename: postex-orders-api-openapi.yml
   format: yaml
-  label: PostEx Merchant Order Integration API
-  slug: postex-merchant-order-integration-api
+  label: PostEx Orders API
+  slug: postex-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postex/refs/heads/main/openapi/postex-order-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/postex/refs/heads/main/openapi/postex-orders-api-openapi.yml
+- filename: postex-reference-api-openapi.yml
+  format: yaml
+  label: PostEx Reference API
+  slug: postex-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postex/refs/heads/main/openapi/postex-reference-api-openapi.yml
 auth_types:
 - apiKey
 description: PostEx's merchant Order Integration API authenticates every request with a merchant API token issued from the PostEx merchant dashboard, supplied in the `token` request header. No OAuth or OpenID Connect surface was found.

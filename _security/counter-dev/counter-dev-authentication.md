@@ -3,24 +3,24 @@ api_key_in:
 - cookie
 - query
 api_specs:
-- filename: counter-dev-openapi.yml
-  format: yaml
-  label: Counter Tracking / Collect API
-  slug: counter-dev-tracking-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/counter-dev/refs/heads/main/openapi/counter-dev-openapi.yml
-- filename: counter-dev-openapi.yml
-  format: yaml
-  label: Counter Stats / Dashboard Data API
-  slug: counter-dev-stats-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/counter-dev/refs/heads/main/openapi/counter-dev-openapi.yml
-- filename: counter-dev-openapi.yml
+- filename: counter-dev-account-api-openapi.yml
   format: yaml
   label: Counter Account API
   slug: counter-dev-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/counter-dev/refs/heads/main/openapi/counter-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/counter-dev/refs/heads/main/openapi/counter-dev-account-api-openapi.yml
+- filename: counter-dev-stats-api-openapi.yml
+  format: yaml
+  label: Counter Stats API
+  slug: counter-dev-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/counter-dev/refs/heads/main/openapi/counter-dev-stats-api-openapi.yml
+- filename: counter-dev-tracking-api-openapi.yml
+  format: yaml
+  label: Counter Tracking API
+  slug: counter-dev-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/counter-dev/refs/heads/main/openapi/counter-dev-tracking-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -2,12 +2,48 @@
 api_key_in:
 - query
 api_specs:
-- filename: cornell-codi-classes.yaml
+- filename: cornell-config-api-openapi.yml
   format: yaml
-  label: Cornell Open Data Initiative (CODI)
-  slug: codi
+  label: Cornell University config API
+  slug: cornell-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-codi-classes.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-config-api-openapi.yml
+- filename: cornell-dining-api-openapi.yml
+  format: yaml
+  label: Cornell University dining API
+  slug: cornell-dining-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-dining-api-openapi.yml
+- filename: cornell-events-api-openapi.yml
+  format: yaml
+  label: Cornell University events API
+  slug: cornell-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-events-api-openapi.yml
+- filename: cornell-location-api-openapi.yml
+  format: yaml
+  label: Cornell University location API
+  slug: cornell-location-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-location-api-openapi.yml
+- filename: cornell-map-items-api-openapi.yml
+  format: yaml
+  label: Cornell University map items API
+  slug: cornell-map-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-map-items-api-openapi.yml
+- filename: cornell-search-api-openapi.yml
+  format: yaml
+  label: Cornell University search API
+  slug: cornell-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-search-api-openapi.yml
+- filename: cornell-tags-api-openapi.yml
+  format: yaml
+  label: Cornell University tags API
+  slug: cornell-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

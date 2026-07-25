@@ -1,17 +1,101 @@
 ---
 api_specs:
-- filename: eia-open-data-api-openapi.yaml
+- filename: doe-aeo-api-openapi.yml
   format: yaml
-  label: EIA Open Data API
-  slug: eia-open-data-api
+  label: Department of Energy AEO API
+  slug: doe-aeo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/eia-open-data-api-openapi.yaml
-- filename: docs
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-aeo-api-openapi.yml
+- filename: doe-coal-api-openapi.yml
   format: yaml
-  label: OSTI.GOV API
-  slug: osti-api
+  label: Department of Energy COAL API
+  slug: doe-coal-api
   spec_type: OpenAPI
-  url: https://www.osti.gov/api/v1/docs
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-coal-api-openapi.yml
+- filename: doe-crud-imports-api-openapi.yml
+  format: yaml
+  label: Department of Energy CRUD_IMPORTS API
+  slug: doe-crud-imports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-crud-imports-api-openapi.yml
+- filename: doe-dbf-api-openapi.yml
+  format: yaml
+  label: Department of Energy DBF API
+  slug: doe-dbf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-dbf-api-openapi.yml
+- filename: doe-elec-api-openapi.yml
+  format: yaml
+  label: Department of Energy ELEC API
+  slug: doe-elec-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-elec-api-openapi.yml
+- filename: doe-emiss-api-openapi.yml
+  format: yaml
+  label: Department of Energy EMISS API
+  slug: doe-emiss-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-emiss-api-openapi.yml
+- filename: doe-ieo-api-openapi.yml
+  format: yaml
+  label: Department of Energy IEO API
+  slug: doe-ieo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-ieo-api-openapi.yml
+- filename: doe-intl-api-openapi.yml
+  format: yaml
+  label: Department of Energy INTL API
+  slug: doe-intl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-intl-api-openapi.yml
+- filename: doe-ng-api-openapi.yml
+  format: yaml
+  label: Department of Energy NG API
+  slug: doe-ng-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-ng-api-openapi.yml
+- filename: doe-nuc-status-api-openapi.yml
+  format: yaml
+  label: Department of Energy NUC_STATUS API
+  slug: doe-nuc-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-nuc-status-api-openapi.yml
+- filename: doe-root-api-openapi.yml
+  format: yaml
+  label: Department of Energy Root API
+  slug: doe-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-root-api-openapi.yml
+- filename: doe-rto-api-openapi.yml
+  format: yaml
+  label: Department of Energy RTO API
+  slug: doe-rto-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-rto-api-openapi.yml
+- filename: doe-seds-api-openapi.yml
+  format: yaml
+  label: Department of Energy SEDS API
+  slug: doe-seds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-seds-api-openapi.yml
+- filename: doe-sep-api-openapi.yml
+  format: yaml
+  label: Department of Energy SEP API
+  slug: doe-sep-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-sep-api-openapi.yml
+- filename: doe-steo-api-openapi.yml
+  format: yaml
+  label: Department of Energy STEO API
+  slug: doe-steo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-steo-api-openapi.yml
+- filename: doe-total-api-openapi.yml
+  format: yaml
+  label: Department of Energy TOTAL API
+  slug: doe-total-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-total-api-openapi.yml
 description: ''
 domains:
 - caa: []

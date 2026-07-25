@@ -1,66 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: xero-accounting-openapi.yml
+- filename: xero-accounting-api-openapi.yml
   format: yaml
   label: Xero Accounting API
   slug: xero-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-accounting-openapi.yml
-- filename: xero-assets-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-accounting-api-openapi.yml
+- filename: xero-asset-api-openapi.yml
   format: yaml
-  label: Xero Assets API
-  slug: xero-assets-api
+  label: Xero Asset API
+  slug: xero-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-assets-openapi.yml
-- filename: xero-bankfeeds-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-asset-api-openapi.yml
+- filename: xero-bankfeeds-api-openapi.yml
   format: yaml
-  label: Xero Bank Feeds API
-  slug: xero-bank-feeds-api
+  label: Xero BankFeeds API
+  slug: xero-bankfeeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-bankfeeds-openapi.yml
-- filename: xero-finance-openapi.yml
-  format: yaml
-  label: Xero Finance API
-  slug: xero-finance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-finance-openapi.yml
-- filename: xero-identity-openapi.yml
-  format: yaml
-  label: Xero Identity API
-  slug: xero-identity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-identity-openapi.yml
-- filename: xero-payroll-au-openapi.yml
-  format: yaml
-  label: Xero Payroll Australia API
-  slug: xero-payroll-australia-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-payroll-au-openapi.yml
-- filename: xero-payroll-nz-openapi.yml
-  format: yaml
-  label: Xero Payroll New Zealand API
-  slug: xero-payroll-new-zealand-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-payroll-nz-openapi.yml
-- filename: xero-payroll-uk-openapi.yml
-  format: yaml
-  label: Xero Payroll United Kingdom API
-  slug: xero-payroll-united-kingdom-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-payroll-uk-openapi.yml
-- filename: xero-projects-openapi.yml
-  format: yaml
-  label: Xero Projects API
-  slug: xero-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-projects-openapi.yml
-- filename: xero-files-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-bankfeeds-api-openapi.yml
+- filename: xero-files-api-openapi.yml
   format: yaml
   label: Xero Files API
   slug: xero-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-files-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-files-api-openapi.yml
+- filename: xero-finance-api-openapi.yml
+  format: yaml
+  label: Xero Finance API
+  slug: xero-finance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-finance-api-openapi.yml
+- filename: xero-identity-api-openapi.yml
+  format: yaml
+  label: Xero Identity API
+  slug: xero-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-identity-api-openapi.yml
+- filename: xero-payrollau-api-openapi.yml
+  format: yaml
+  label: Xero PayrollAu API
+  slug: xero-payrollau-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-payrollau-api-openapi.yml
+- filename: xero-payrollnz-api-openapi.yml
+  format: yaml
+  label: Xero PayrollNz API
+  slug: xero-payrollnz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-payrollnz-api-openapi.yml
+- filename: xero-payrolluk-api-openapi.yml
+  format: yaml
+  label: Xero PayrollUk API
+  slug: xero-payrolluk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-payrolluk-api-openapi.yml
+- filename: xero-project-api-openapi.yml
+  format: yaml
+  label: Xero Project API
+  slug: xero-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-project-api-openapi.yml
 auth_types:
 - http
 - oauth2

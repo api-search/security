@@ -1,5 +1,48 @@
 ---
 api_key_in: []
+api_specs:
+- filename: apache-solr-schema-api-openapi.yml
+  format: yaml
+  label: Apache Solr Schema API
+  slug: apache-solr-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/openapi/apache-solr-schema-api-openapi.yml
+- filename: apache-solr-collections-api-openapi.yml
+  format: yaml
+  label: Apache Solr Collections API
+  slug: apache-solr-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/openapi/apache-solr-collections-api-openapi.yml
+- filename: apache-solr-cluster-api-openapi.yml
+  format: yaml
+  label: Apache Solr Cluster API
+  slug: apache-solr-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/openapi/apache-solr-cluster-api-openapi.yml
+- filename: apache-solr-collections-api-openapi.yml
+  format: yaml
+  label: Apache Solr Collections API
+  slug: apache-solr-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/openapi/apache-solr-collections-api-openapi.yml
+- filename: apache-solr-query-api-openapi.yml
+  format: yaml
+  label: Apache Solr Query API
+  slug: apache-solr-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/openapi/apache-solr-query-api-openapi.yml
+- filename: apache-solr-schema-api-openapi.yml
+  format: yaml
+  label: Apache Solr Schema API
+  slug: apache-solr-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/openapi/apache-solr-schema-api-openapi.yml
+- filename: apache-solr-update-api-openapi.yml
+  format: yaml
+  label: Apache Solr Update API
+  slug: apache-solr-update-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/openapi/apache-solr-update-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: atla-insights-openapi.yaml
+- filename: atla-sdk-api-openapi.yml
   format: yaml
-  label: Atla Insights API
-  slug: atla-insights-api
+  label: Atla SDK API
+  slug: atla-sdk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/openapi/atla-insights-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/openapi/atla-sdk-api-openapi.yml
 description: ''
 domains:
 - caa: []

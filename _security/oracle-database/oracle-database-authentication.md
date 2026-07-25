@@ -1,30 +1,156 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yaml
-  format: yaml
-  label: Oracle REST Data Services (ORDS)
-  slug: oracle-rest-data-services-ords
-  spec_type: OpenAPI
-  url: https://docs.oracle.com/en/database/oracle/oracle-rest-data-services/
-- filename: openapi.yaml
-  format: yaml
-  label: Oracle Cloud Infrastructure Database API
-  slug: oracle-cloud-infrastructure-database-api
-  spec_type: OpenAPI
-  url: https://docs.oracle.com/iaas/api/#/en/database/
-- filename: oracle-database-soda-openapi.yml
-  format: yaml
-  label: Oracle SODA (Simple Oracle Document Access)
-  slug: oracle-soda-simple-oracle-document-access
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-soda-openapi.yml
 - filename: oracle-database-txeventq-asyncapi.yml
   format: yaml
   label: Oracle Transactional Event Queues (TxEventQ)
   slug: oracle-transactional-event-queues-txeventq
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/asyncapi/oracle-database-txeventq-asyncapi.yml
+- filename: oracle-database-apex-api-openapi.yml
+  format: yaml
+  label: Oracle Database APEX API
+  slug: oracle-database-apex-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-apex-api-openapi.yml
+- filename: oracle-database-autonomous-databases-api-openapi.yml
+  format: yaml
+  label: Oracle Database Autonomous Databases API
+  slug: oracle-database-autonomous-databases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-autonomous-databases-api-openapi.yml
+- filename: oracle-database-backups-api-openapi.yml
+  format: yaml
+  label: Oracle Database Backups API
+  slug: oracle-database-backups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-backups-api-openapi.yml
+- filename: oracle-database-bulk-operations-api-openapi.yml
+  format: yaml
+  label: Oracle Database Bulk Operations API
+  slug: oracle-database-bulk-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-bulk-operations-api-openapi.yml
+- filename: oracle-database-collections-api-openapi.yml
+  format: yaml
+  label: Oracle Database Collections API
+  slug: oracle-database-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-collections-api-openapi.yml
+- filename: oracle-database-data-dictionary-api-openapi.yml
+  format: yaml
+  label: Oracle Database Data Dictionary API
+  slug: oracle-database-data-dictionary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-data-dictionary-api-openapi.yml
+- filename: oracle-database-data-guard-api-openapi.yml
+  format: yaml
+  label: Oracle Database Data Guard API
+  slug: oracle-database-data-guard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-data-guard-api-openapi.yml
+- filename: oracle-database-data-pump-api-openapi.yml
+  format: yaml
+  label: Oracle Database Data Pump API
+  slug: oracle-database-data-pump-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-data-pump-api-openapi.yml
+- filename: oracle-database-database-homes-api-openapi.yml
+  format: yaml
+  label: Oracle Database Database Homes API
+  slug: oracle-database-database-homes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-database-homes-api-openapi.yml
+- filename: oracle-database-databases-api-openapi.yml
+  format: yaml
+  label: Oracle Database Databases API
+  slug: oracle-database-databases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-databases-api-openapi.yml
+- filename: oracle-database-db-systems-api-openapi.yml
+  format: yaml
+  label: Oracle Database DB Systems API
+  slug: oracle-database-db-systems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-db-systems-api-openapi.yml
+- filename: oracle-database-documents-api-openapi.yml
+  format: yaml
+  label: Oracle Database Documents API
+  slug: oracle-database-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-documents-api-openapi.yml
+- filename: oracle-database-general-api-openapi.yml
+  format: yaml
+  label: Oracle Database General API
+  slug: oracle-database-general-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-general-api-openapi.yml
+- filename: oracle-database-indexes-api-openapi.yml
+  format: yaml
+  label: Oracle Database Indexes API
+  slug: oracle-database-indexes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-indexes-api-openapi.yml
+- filename: oracle-database-metadata-api-openapi.yml
+  format: yaml
+  label: Oracle Database Metadata API
+  slug: oracle-database-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-metadata-api-openapi.yml
+- filename: oracle-database-monitoring-api-openapi.yml
+  format: yaml
+  label: Oracle Database Monitoring API
+  slug: oracle-database-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-monitoring-api-openapi.yml
+- filename: oracle-database-open-service-broker-api-openapi.yml
+  format: yaml
+  label: Oracle Database Open Service Broker API
+  slug: oracle-database-open-service-broker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-open-service-broker-api-openapi.yml
+- filename: oracle-database-pdb-snapshots-api-openapi.yml
+  format: yaml
+  label: Oracle Database PDB Snapshots API
+  slug: oracle-database-pdb-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-pdb-snapshots-api-openapi.yml
+- filename: oracle-database-performance-api-openapi.yml
+  format: yaml
+  label: Oracle Database Performance API
+  slug: oracle-database-performance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-performance-api-openapi.yml
+- filename: oracle-database-pluggable-databases-api-openapi.yml
+  format: yaml
+  label: Oracle Database Pluggable Databases API
+  slug: oracle-database-pluggable-databases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-pluggable-databases-api-openapi.yml
+- filename: oracle-database-queries-api-openapi.yml
+  format: yaml
+  label: Oracle Database Queries API
+  slug: oracle-database-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-queries-api-openapi.yml
+- filename: oracle-database-rdf-graph-api-openapi.yml
+  format: yaml
+  label: Oracle Database RDF Graph API
+  slug: oracle-database-rdf-graph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-rdf-graph-api-openapi.yml
+- filename: oracle-database-rest-services-api-openapi.yml
+  format: yaml
+  label: Oracle Database REST Services API
+  slug: oracle-database-rest-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-rest-services-api-openapi.yml
+- filename: oracle-database-scheduler-api-openapi.yml
+  format: yaml
+  label: Oracle Database Scheduler API
+  slug: oracle-database-scheduler-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-scheduler-api-openapi.yml
 auth_types:
 - http
 - oauth2

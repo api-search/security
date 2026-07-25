@@ -1,42 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: vidu-ai-openapi.yml
+- filename: vidu-ai-generation-api-openapi.yml
   format: yaml
-  label: Vidu Text-to-Video API
-  slug: vidu-ai-text-to-video-api
+  label: Vidu Generation API
+  slug: vidu-ai-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidu-ai/refs/heads/main/openapi/vidu-ai-openapi.yml
-- filename: vidu-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vidu-ai/refs/heads/main/openapi/vidu-ai-generation-api-openapi.yml
+- filename: vidu-ai-tasks-api-openapi.yml
   format: yaml
-  label: Vidu Image-to-Video API
-  slug: vidu-ai-image-to-video-api
+  label: Vidu Tasks API
+  slug: vidu-ai-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidu-ai/refs/heads/main/openapi/vidu-ai-openapi.yml
-- filename: vidu-ai-openapi.yml
-  format: yaml
-  label: Vidu Reference-to-Video API
-  slug: vidu-ai-reference-to-video-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidu-ai/refs/heads/main/openapi/vidu-ai-openapi.yml
-- filename: vidu-ai-openapi.yml
-  format: yaml
-  label: Vidu Start-End Frame API
-  slug: vidu-ai-start-end-frame-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidu-ai/refs/heads/main/openapi/vidu-ai-openapi.yml
-- filename: vidu-ai-openapi.yml
-  format: yaml
-  label: Vidu Upscale API
-  slug: vidu-ai-upscale-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidu-ai/refs/heads/main/openapi/vidu-ai-openapi.yml
-- filename: vidu-ai-openapi.yml
-  format: yaml
-  label: Vidu Task Query API
-  slug: vidu-ai-task-query-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidu-ai/refs/heads/main/openapi/vidu-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vidu-ai/refs/heads/main/openapi/vidu-ai-tasks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

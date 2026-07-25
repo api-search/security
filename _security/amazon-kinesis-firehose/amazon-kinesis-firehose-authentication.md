@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-kinesis-firehose-openapi.yml
+- filename: amazon-kinesis-firehose-delivery-streams-api-openapi.yml
   format: yaml
-  label: Amazon Kinesis Data Firehose API
-  slug: amazon-kinesis-data-firehose-api
+  label: Amazon Kinesis Data Firehose Delivery Streams API
+  slug: amazon-kinesis-firehose-delivery-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-firehose/refs/heads/main/openapi/amazon-kinesis-firehose-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-firehose/refs/heads/main/openapi/amazon-kinesis-firehose-delivery-streams-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

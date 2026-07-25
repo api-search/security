@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: energy-charts-api-openapi.yml
+- filename: energy-charts-api-import-export-api-openapi.yml
   format: yaml
-  label: Energy Charts API
-  slug: energy-charts-api
+  label: Energy Charts API import_export API
+  slug: energy-charts-api-import-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-import-export-api-openapi.yml
+- filename: energy-charts-api-power-api-openapi.yml
+  format: yaml
+  label: Energy Charts API power API
+  slug: energy-charts-api-power-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-power-api-openapi.yml
+- filename: energy-charts-api-prices-api-openapi.yml
+  format: yaml
+  label: Energy Charts API prices API
+  slug: energy-charts-api-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-prices-api-openapi.yml
+- filename: energy-charts-api-ren-share-api-openapi.yml
+  format: yaml
+  label: Energy Charts API ren_share API
+  slug: energy-charts-api-ren-share-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-ren-share-api-openapi.yml
 description: ''
 domains:
 - caa: []

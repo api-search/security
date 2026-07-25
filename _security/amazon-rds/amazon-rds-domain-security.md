@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: amazon-rds-openapi.yml
+- filename: amazon-rds-db-clusters-api-openapi.yml
   format: yaml
-  label: Amazon RDS API
-  slug: amazon-rds-api
+  label: Amazon RDS DB Clusters API
+  slug: amazon-rds-db-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/openapi/amazon-rds-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/openapi/amazon-rds-db-clusters-api-openapi.yml
+- filename: amazon-rds-db-engine-versions-api-openapi.yml
+  format: yaml
+  label: Amazon RDS DB Engine Versions API
+  slug: amazon-rds-db-engine-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/openapi/amazon-rds-db-engine-versions-api-openapi.yml
+- filename: amazon-rds-db-instances-api-openapi.yml
+  format: yaml
+  label: Amazon RDS DB Instances API
+  slug: amazon-rds-db-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/openapi/amazon-rds-db-instances-api-openapi.yml
+- filename: amazon-rds-db-snapshots-api-openapi.yml
+  format: yaml
+  label: Amazon RDS DB Snapshots API
+  slug: amazon-rds-db-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/openapi/amazon-rds-db-snapshots-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,59 +1,47 @@
 ---
 api_specs:
-- filename: godaddy-domains-openapi.json
-  format: json
+- filename: godaddy-actions-api-openapi.yml
+  format: yaml
+  label: GoDaddy Actions API
+  slug: godaddy-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-actions-api-openapi.yml
+- filename: godaddy-contacts-api-openapi.yml
+  format: yaml
+  label: GoDaddy Contacts API
+  slug: godaddy-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-contacts-api-openapi.yml
+- filename: godaddy-domains-api-openapi.yml
+  format: yaml
   label: GoDaddy Domains API
-  slug: domains
+  slug: godaddy-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-domains-openapi.json
-- filename: godaddy-certificates-openapi.json
-  format: json
-  label: GoDaddy Certificates API
-  slug: certificates
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-domains-api-openapi.yml
+- filename: godaddy-expiry-auctions-registrar-partners-api-openapi.yml
+  format: yaml
+  label: 'GoDaddy Expiry Auctions: Registrar Partners API'
+  slug: godaddy-expiry-auctions-registrar-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-certificates-openapi.json
-- filename: godaddy-shoppers-openapi.json
-  format: json
-  label: GoDaddy Shoppers API
-  slug: shoppers
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-expiry-auctions-registrar-partners-api-openapi.yml
+- filename: godaddy-notifications-api-openapi.yml
+  format: yaml
+  label: GoDaddy Notifications API
+  slug: godaddy-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-shoppers-openapi.json
-- filename: godaddy-subscriptions-openapi.json
-  format: json
-  label: GoDaddy Subscriptions API
-  slug: subscriptions
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-notifications-api-openapi.yml
+- filename: godaddy-v1-api-openapi.yml
+  format: yaml
+  label: GoDaddy v1 API
+  slug: godaddy-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-subscriptions-openapi.json
-- filename: godaddy-orders-openapi.json
-  format: json
-  label: GoDaddy Orders API
-  slug: orders
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-v1-api-openapi.yml
+- filename: godaddy-v2-api-openapi.yml
+  format: yaml
+  label: GoDaddy v2 API
+  slug: godaddy-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-orders-openapi.json
-- filename: godaddy-aftermarket-openapi.json
-  format: json
-  label: GoDaddy Aftermarket API
-  slug: aftermarket
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-aftermarket-openapi.json
-- filename: godaddy-abuse-openapi.json
-  format: json
-  label: GoDaddy Abuse API
-  slug: abuse
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-abuse-openapi.json
-- filename: godaddy-agreements-openapi.json
-  format: json
-  label: GoDaddy Agreements API
-  slug: agreements
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-agreements-openapi.json
-- filename: godaddy-countries-openapi.json
-  format: json
-  label: GoDaddy Countries API
-  slug: countries
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-countries-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-v2-api-openapi.yml
 description: ''
 domains:
 - caa: []

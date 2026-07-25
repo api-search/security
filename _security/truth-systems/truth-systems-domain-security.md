@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: truth-systems-gateway-openapi-original.json
-  format: json
-  label: Truth Systems Gateway API
-  slug: truth-systems-gateway-api
+- filename: truth-systems-get-context-output-api-openapi.yml
+  format: yaml
+  label: Truth Systems Get Context Output API
+  slug: truth-systems-get-context-output-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truth-systems/refs/heads/main/openapi/truth-systems-gateway-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/truth-systems/refs/heads/main/openapi/truth-systems-get-context-output-api-openapi.yml
 description: ''
 domains:
 - caa: []

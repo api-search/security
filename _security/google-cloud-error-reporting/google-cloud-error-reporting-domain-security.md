@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-error-reporting-v1beta1-api-openapi.yml
   format: yaml
-  label: Google Cloud Error Reporting API
-  slug: google-cloud-error-reporting-api
+  label: Google Cloud Error Reporting V1beta1 API
+  slug: google-cloud-error-reporting-v1beta1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-error-reporting/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-error-reporting/refs/heads/main/openapi/google-cloud-error-reporting-v1beta1-api-openapi.yml
 description: ''
 domains:
 - caa:

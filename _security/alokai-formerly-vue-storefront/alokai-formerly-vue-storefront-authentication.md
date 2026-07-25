@@ -2,12 +2,114 @@
 api_key_in:
 - header
 api_specs:
-- filename: alokai-formerly-vue-storefront-cloud-openapi.json
-  format: json
-  label: Alokai Cloud API
-  slug: alokai-cloud-api
+- filename: alokai-formerly-vue-storefront-cdn-api-openapi.yml
+  format: yaml
+  label: Alokai (formerly Vue Storefront) cdn API
+  slug: alokai-formerly-vue-storefront-cdn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/openapi/alokai-formerly-vue-storefront-cloud-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/openapi/alokai-formerly-vue-storefront-cdn-api-openapi.yml
+- filename: alokai-formerly-vue-storefront-deploy-check-api-openapi.yml
+  format: yaml
+  label: Alokai (formerly Vue Storefront) deploy_check API
+  slug: alokai-formerly-vue-storefront-deploy-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/openapi/alokai-formerly-vue-storefront-deploy-check-api-openapi.yml
+- filename: alokai-formerly-vue-storefront-flush-cache-api-openapi.yml
+  format: yaml
+  label: Alokai (formerly Vue Storefront) flush_cache API
+  slug: alokai-formerly-vue-storefront-flush-cache-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/openapi/alokai-formerly-vue-storefront-flush-cache-api-openapi.yml
+- filename: alokai-formerly-vue-storefront-healthz-api-openapi.yml
+  format: yaml
+  label: Alokai (formerly Vue Storefront) Healthz API
+  slug: alokai-formerly-vue-storefront-healthz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/openapi/alokai-formerly-vue-storefront-healthz-api-openapi.yml
+- filename: alokai-formerly-vue-storefront-instance-api-openapi.yml
+  format: yaml
+  label: Alokai (formerly Vue Storefront) Instance API
+  slug: alokai-formerly-vue-storefront-instance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/openapi/alokai-formerly-vue-storefront-instance-api-openapi.yml
+- filename: alokai-formerly-vue-storefront-instance-namespace-api-openapi.yml
+  format: yaml
+  label: Alokai (formerly Vue Storefront) instance/{namespace} API
+  slug: alokai-formerly-vue-storefront-instance-namespace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/openapi/alokai-formerly-vue-storefront-instance-namespace-api-openapi.yml
+- filename: alokai-formerly-vue-storefront-instance-namespace-exists-api-openapi.yml
+  format: yaml
+  label: Alokai (formerly Vue Storefront) instance/{namespace}/exists API
+  slug: alokai-formerly-vue-storefront-instance-namespace-exists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/openapi/alokai-formerly-vue-storefront-instance-namespace-exists-api-openapi.yml
+- filename: alokai-formerly-vue-storefront-instance-namespace-ingresses-api-openapi.yml
+  format: yaml
+  label: Alokai (formerly Vue Storefront) instance/{namespace}/ingresses API
+  slug: alokai-formerly-vue-storefront-instance-namespace-ingresses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/openapi/alokai-formerly-vue-storefront-instance-namespace-ingresses-api-openapi.yml
+- filename: alokai-formerly-vue-storefront-instance-namespace-kube-config-api-openapi.yml
+  format: yaml
+  label: Alokai (formerly Vue Storefront) instance/{namespace}/kube_config API
+  slug: alokai-formerly-vue-storefront-instance-namespace-kube-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/openapi/alokai-formerly-vue-storefront-instance-namespace-kube-config-api-openapi.yml
+- filename: alokai-formerly-vue-storefront-instance-namespace-pod-api-openapi.yml
+  format: yaml
+  label: Alokai (formerly Vue Storefront) instance/{namespace}/pod API
+  slug: alokai-formerly-vue-storefront-instance-namespace-pod-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/openapi/alokai-formerly-vue-storefront-instance-namespace-pod-api-openapi.yml
+- filename: alokai-formerly-vue-storefront-instance-namespace-pod-pod-api-openapi.yml
+  format: yaml
+  label: Alokai (formerly Vue Storefront) instance/{namespace}/pod/{pod} API
+  slug: alokai-formerly-vue-storefront-instance-namespace-pod-pod-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/openapi/alokai-formerly-vue-storefront-instance-namespace-pod-pod-api-openapi.yml
+- filename: alokai-formerly-vue-storefront-instance-namespace-pod-pod-log-api-openapi.yml
+  format: yaml
+  label: Alokai (formerly Vue Storefront) instance/{namespace}/pod/{pod}/log API
+  slug: alokai-formerly-vue-storefront-instance-namespace-pod-pod-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/openapi/alokai-formerly-vue-storefront-instance-namespace-pod-pod-log-api-openapi.yml
+- filename: alokai-formerly-vue-storefront-v2-2-admin-instance-api-openapi.yml
+  format: yaml
+  label: Alokai (formerly Vue Storefront) v2.2/admin/instance API
+  slug: alokai-formerly-vue-storefront-v2-2-admin-instance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/openapi/alokai-formerly-vue-storefront-v2-2-admin-instance-api-openapi.yml
+- filename: alokai-formerly-vue-storefront-v2-2-instance-additional-application-api-openapi.yml
+  format: yaml
+  label: Alokai (formerly Vue Storefront) v2.2/instance/additional_application API
+  slug: alokai-formerly-vue-storefront-v2-2-instance-additional-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/openapi/alokai-formerly-vue-storefront-v2-2-instance-additional-application-api-openapi.yml
+- filename: alokai-formerly-vue-storefront-v2-2-instance-api-openapi.yml
+  format: yaml
+  label: Alokai (formerly Vue Storefront) v2.2/instance API
+  slug: alokai-formerly-vue-storefront-v2-2-instance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/openapi/alokai-formerly-vue-storefront-v2-2-instance-api-openapi.yml
+- filename: alokai-formerly-vue-storefront-v2-2-instance-namespace-env-vars-api-openapi.yml
+  format: yaml
+  label: Alokai (formerly Vue Storefront) v2.2/instance/{namespace}/env_vars API
+  slug: alokai-formerly-vue-storefront-v2-2-instance-namespace-env-vars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/openapi/alokai-formerly-vue-storefront-v2-2-instance-namespace-env-vars-api-openapi.yml
+- filename: alokai-formerly-vue-storefront-v2-2-instance-namespace-pod-pod-api-openapi.yml
+  format: yaml
+  label: Alokai (formerly Vue Storefront) v2.2/instance/{namespace}/pod/{pod} API
+  slug: alokai-formerly-vue-storefront-v2-2-instance-namespace-pod-pod-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/openapi/alokai-formerly-vue-storefront-v2-2-instance-namespace-pod-pod-api-openapi.yml
+- filename: alokai-formerly-vue-storefront-v2-2-instance-namespace-pods-api-openapi.yml
+  format: yaml
+  label: Alokai (formerly Vue Storefront) v2.2/instance/{namespace}/pods API
+  slug: alokai-formerly-vue-storefront-v2-2-instance-namespace-pods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/openapi/alokai-formerly-vue-storefront-v2-2-instance-namespace-pods-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

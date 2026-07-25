@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: ex-human-openapi.yml
+- filename: ex-human-animations-api-openapi.yml
   format: yaml
-  label: Ex-Human API
-  slug: ex-human-api
+  label: Ex-Human animations API
+  slug: ex-human-animations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-animations-api-openapi.yml
+- filename: ex-human-chatbot-api-openapi.yml
+  format: yaml
+  label: Ex-Human chatbot API
+  slug: ex-human-chatbot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-chatbot-api-openapi.yml
+- filename: ex-human-image-generation-api-openapi.yml
+  format: yaml
+  label: Ex-Human Image Generation API
+  slug: ex-human-image-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-image-generation-api-openapi.yml
+- filename: ex-human-text-to-speech-api-openapi.yml
+  format: yaml
+  label: Ex-Human Text to Speech API
+  slug: ex-human-text-to-speech-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-text-to-speech-api-openapi.yml
 description: ''
 domains:
 - caa: []

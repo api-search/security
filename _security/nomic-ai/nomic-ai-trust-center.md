@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: nomic-ai-openapi.yml
+- filename: nomic-ai-embeddings-api-openapi.yml
   format: yaml
-  label: Nomic Atlas API
-  slug: atlas
+  label: Nomic AI Embeddings API
+  slug: nomic-ai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomic-ai/refs/heads/main/openapi/nomic-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nomic-ai/refs/heads/main/openapi/nomic-ai-embeddings-api-openapi.yml
+- filename: nomic-ai-files-api-openapi.yml
+  format: yaml
+  label: Nomic AI Files API
+  slug: nomic-ai-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nomic-ai/refs/heads/main/openapi/nomic-ai-files-api-openapi.yml
+- filename: nomic-ai-tasks-api-openapi.yml
+  format: yaml
+  label: Nomic AI Tasks API
+  slug: nomic-ai-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nomic-ai/refs/heads/main/openapi/nomic-ai-tasks-api-openapi.yml
 certifications:
 - SOC 2
 description: ''

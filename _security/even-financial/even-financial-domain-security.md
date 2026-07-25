@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: even-financial-openapi-original.json
-  format: json
-  label: Engine by MoneyLion API
-  slug: engine-by-moneylion-api
+- filename: even-financial-analytics-api-openapi.yml
+  format: yaml
+  label: Even Financial Analytics API
+  slug: even-financial-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/openapi/even-financial-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/openapi/even-financial-analytics-api-openapi.yml
+- filename: even-financial-approval-probability-api-openapi.yml
+  format: yaml
+  label: Even Financial Approval Probability API
+  slug: even-financial-approval-probability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/openapi/even-financial-approval-probability-api-openapi.yml
+- filename: even-financial-lead-api-openapi.yml
+  format: yaml
+  label: Even Financial Lead API
+  slug: even-financial-lead-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/openapi/even-financial-lead-api-openapi.yml
+- filename: even-financial-offer-preview-api-openapi.yml
+  format: yaml
+  label: Even Financial Offer Preview API
+  slug: even-financial-offer-preview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/openapi/even-financial-offer-preview-api-openapi.yml
+- filename: even-financial-prefill-api-openapi.yml
+  format: yaml
+  label: Even Financial Prefill API
+  slug: even-financial-prefill-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/openapi/even-financial-prefill-api-openapi.yml
+- filename: even-financial-ui-utils-api-openapi.yml
+  format: yaml
+  label: Even Financial UI Utils API
+  slug: even-financial-ui-utils-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/openapi/even-financial-ui-utils-api-openapi.yml
 description: ''
 domains:
 - caa: []

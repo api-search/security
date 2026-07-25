@@ -1,18 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: door-partner-openapi.json
-  format: json
-  label: OpenDOOR Partner API
-  slug: opendoor-partner-api
+- filename: door-access-management-api-openapi.yml
+  format: yaml
+  label: Door Access Management API
+  slug: door-access-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/openapi/door-partner-openapi.json
-- filename: door-authentication-openapi.json
-  format: json
-  label: OpenDOOR Authentication API
-  slug: opendoor-authentication-api
+  url: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/openapi/door-access-management-api-openapi.yml
+- filename: door-buildings-api-openapi.yml
+  format: yaml
+  label: Door Buildings API
+  slug: door-buildings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/openapi/door-authentication-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/openapi/door-buildings-api-openapi.yml
+- filename: door-doors-and-keys-api-openapi.yml
+  format: yaml
+  label: Door Doors and Keys API
+  slug: door-doors-and-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/openapi/door-doors-and-keys-api-openapi.yml
+- filename: door-partner-authentication-api-openapi.yml
+  format: yaml
+  label: Door Partner Authentication API
+  slug: door-partner-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/openapi/door-partner-authentication-api-openapi.yml
+- filename: door-user-authentication-api-openapi.yml
+  format: yaml
+  label: Door User Authentication API
+  slug: door-user-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/openapi/door-user-authentication-api-openapi.yml
+- filename: door-users-api-openapi.yml
+  format: yaml
+  label: Door Users API
+  slug: door-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/openapi/door-users-api-openapi.yml
 auth_types:
 - http
 - oauth2

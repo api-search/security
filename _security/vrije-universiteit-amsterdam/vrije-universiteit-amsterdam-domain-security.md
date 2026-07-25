@@ -1,11 +1,161 @@
 ---
 api_specs:
-- filename: vrije-universiteit-amsterdam-pure-web-service.yaml
+- filename: vrije-universiteit-amsterdam-activity-api-openapi.yml
   format: yaml
-  label: VU Research Portal Pure Web Service (REST)
-  slug: pure-web-service
+  label: Vrije Universiteit Amsterdam activity API
+  slug: vrije-universiteit-amsterdam-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-pure-web-service.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-activity-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-application-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam application API
+  slug: vrije-universiteit-amsterdam-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-application-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-authorcollaboration-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam authorCollaboration API
+  slug: vrije-universiteit-amsterdam-authorcollaboration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-authorcollaboration-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-award-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam award API
+  slug: vrije-universiteit-amsterdam-award-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-award-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-classificationscheme-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam classificationScheme API
+  slug: vrije-universiteit-amsterdam-classificationscheme-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-classificationscheme-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-concept-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam concept API
+  slug: vrije-universiteit-amsterdam-concept-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-concept-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-course-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam course API
+  slug: vrije-universiteit-amsterdam-course-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-course-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-dataset-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam dataSet API
+  slug: vrije-universiteit-amsterdam-dataset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-dataset-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-equipment-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam equipment API
+  slug: vrije-universiteit-amsterdam-equipment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-equipment-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-event-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam event API
+  slug: vrije-universiteit-amsterdam-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-event-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-externalorganization-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam externalOrganization API
+  slug: vrije-universiteit-amsterdam-externalorganization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-externalorganization-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-externalperson-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam externalPerson API
+  slug: vrije-universiteit-amsterdam-externalperson-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-externalperson-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-fundingopportunity-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam fundingOpportunity API
+  slug: vrije-universiteit-amsterdam-fundingopportunity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-fundingopportunity-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-journal-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam journal API
+  slug: vrije-universiteit-amsterdam-journal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-journal-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-keywordgroupconfiguration-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam keywordGroupConfiguration API
+  slug: vrije-universiteit-amsterdam-keywordgroupconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-keywordgroupconfiguration-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-organization-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam organization API
+  slug: vrije-universiteit-amsterdam-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-organization-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-person-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam person API
+  slug: vrije-universiteit-amsterdam-person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-person-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-pressmedia-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam pressMedia API
+  slug: vrije-universiteit-amsterdam-pressmedia-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-pressmedia-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-prize-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam prize API
+  slug: vrije-universiteit-amsterdam-prize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-prize-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-project-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam project API
+  slug: vrije-universiteit-amsterdam-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-project-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-publisher-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam publisher API
+  slug: vrije-universiteit-amsterdam-publisher-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-publisher-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-researchoutput-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam researchOutput API
+  slug: vrije-universiteit-amsterdam-researchoutput-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-researchoutput-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-role-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam role API
+  slug: vrije-universiteit-amsterdam-role-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-role-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-studentthesis-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam studentThesis API
+  slug: vrije-universiteit-amsterdam-studentthesis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-studentthesis-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-thesaurus-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam thesaurus API
+  slug: vrije-universiteit-amsterdam-thesaurus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-thesaurus-api-openapi.yml
+- filename: vrije-universiteit-amsterdam-user-api-openapi.yml
+  format: yaml
+  label: Vrije Universiteit Amsterdam user API
+  slug: vrije-universiteit-amsterdam-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/openapi/vrije-universiteit-amsterdam-user-api-openapi.yml
 description: ''
 domains:
 - caa:

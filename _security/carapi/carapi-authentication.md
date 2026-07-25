@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: carapi-openapi.yml
+- filename: carapi-authentication-api-openapi.yml
   format: yaml
-  label: CarAPI
-  slug: carapi
+  label: CarAPI Authentication API
+  slug: carapi-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carapi/refs/heads/main/openapi/carapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/carapi/refs/heads/main/openapi/carapi-authentication-api-openapi.yml
+- filename: carapi-vehicles-api-openapi.yml
+  format: yaml
+  label: CarAPI Vehicles API
+  slug: carapi-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carapi/refs/heads/main/openapi/carapi-vehicles-api-openapi.yml
 auth_types:
 - http
 description: ''

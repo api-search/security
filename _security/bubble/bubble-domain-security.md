@@ -12,12 +12,30 @@ api_specs:
   slug: bubble-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/openapi/bubble-workflow-api-openapi.yml
-- filename: bubble-plugin-api-openapi.yml
+- filename: bubble-action-api-openapi.yml
   format: yaml
-  label: Bubble Plugin API
-  slug: bubble-plugin-api
+  label: Bubble Action API
+  slug: bubble-action-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/openapi/bubble-plugin-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/openapi/bubble-action-api-openapi.yml
+- filename: bubble-context-api-openapi.yml
+  format: yaml
+  label: Bubble Context API
+  slug: bubble-context-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/openapi/bubble-context-api-openapi.yml
+- filename: bubble-element-api-openapi.yml
+  format: yaml
+  label: Bubble Element API
+  slug: bubble-element-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/openapi/bubble-element-api-openapi.yml
+- filename: bubble-thing-api-openapi.yml
+  format: yaml
+  label: Bubble Thing API
+  slug: bubble-thing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/openapi/bubble-thing-api-openapi.yml
 description: ''
 domains:
 - caa:

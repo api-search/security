@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: flightaware-aeroapi-openapi.yml
+- filename: rockwell-collins-airports-api-openapi.yml
   format: yaml
-  label: FlightAware AeroAPI
-  slug: flightaware-aeroapi
+  label: Rockwell Collins airports API
+  slug: rockwell-collins-airports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/flightaware-aeroapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-airports-api-openapi.yml
+- filename: rockwell-collins-alerts-api-openapi.yml
+  format: yaml
+  label: Rockwell Collins alerts API
+  slug: rockwell-collins-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-alerts-api-openapi.yml
+- filename: rockwell-collins-flights-api-openapi.yml
+  format: yaml
+  label: Rockwell Collins flights API
+  slug: rockwell-collins-flights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-flights-api-openapi.yml
+- filename: rockwell-collins-foresight-api-openapi.yml
+  format: yaml
+  label: Rockwell Collins foresight API
+  slug: rockwell-collins-foresight-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-foresight-api-openapi.yml
+- filename: rockwell-collins-history-api-openapi.yml
+  format: yaml
+  label: Rockwell Collins history API
+  slug: rockwell-collins-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-history-api-openapi.yml
+- filename: rockwell-collins-miscellaneous-api-openapi.yml
+  format: yaml
+  label: Rockwell Collins miscellaneous API
+  slug: rockwell-collins-miscellaneous-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-miscellaneous-api-openapi.yml
+- filename: rockwell-collins-operators-api-openapi.yml
+  format: yaml
+  label: Rockwell Collins operators API
+  slug: rockwell-collins-operators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-operators-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: subbly-openapi.yml
+- filename: subbly-cart-api-openapi.yml
   format: yaml
-  label: Subbly Products API
-  slug: subbly-products-api
+  label: Subbly Cart API
+  slug: subbly-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/openapi/subbly-openapi.yml
-- filename: subbly-openapi.yml
-  format: yaml
-  label: Subbly Subscriptions API
-  slug: subbly-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/openapi/subbly-openapi.yml
-- filename: subbly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/openapi/subbly-cart-api-openapi.yml
+- filename: subbly-customers-api-openapi.yml
   format: yaml
   label: Subbly Customers API
   slug: subbly-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/openapi/subbly-openapi.yml
-- filename: subbly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/openapi/subbly-customers-api-openapi.yml
+- filename: subbly-products-api-openapi.yml
   format: yaml
-  label: Subbly Cart and Checkout API
-  slug: subbly-cart-checkout-api
+  label: Subbly Products API
+  slug: subbly-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/openapi/subbly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/openapi/subbly-products-api-openapi.yml
+- filename: subbly-subscriptions-api-openapi.yml
+  format: yaml
+  label: Subbly Subscriptions API
+  slug: subbly-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/openapi/subbly-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []

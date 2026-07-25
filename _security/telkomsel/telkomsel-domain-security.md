@@ -1,53 +1,53 @@
 ---
 api_specs:
-- filename: telkomsel-openapi.yml
+- filename: telkomsel-consent-management-api-openapi.yml
   format: yaml
-  label: Telkomsel DigiHub SMS API
-  slug: telkomsel-digihub-sms-api
+  label: Telkomsel Consent Management API
+  slug: telkomsel-consent-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-openapi.yml
-- filename: telkomsel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-consent-management-api-openapi.yml
+- filename: telkomsel-identity-verification-api-openapi.yml
   format: yaml
-  label: Telkomsel DigiHub USSD API
-  slug: telkomsel-digihub-ussd-api
+  label: Telkomsel Identity Verification API
+  slug: telkomsel-identity-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-openapi.yml
-- filename: telkomsel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-identity-verification-api-openapi.yml
+- filename: telkomsel-location-api-openapi.yml
   format: yaml
-  label: Telkomsel DigiHub Subscriber Check API
-  slug: telkomsel-digihub-subscriber-check-api
+  label: Telkomsel Location API
+  slug: telkomsel-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-openapi.yml
-- filename: telkomsel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-location-api-openapi.yml
+- filename: telkomsel-scoring-and-insights-api-openapi.yml
   format: yaml
-  label: Telkomsel DigiHub Identity Verification API
-  slug: telkomsel-digihub-identity-verification-api
+  label: Telkomsel Scoring and Insights API
+  slug: telkomsel-scoring-and-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-openapi.yml
-- filename: telkomsel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-scoring-and-insights-api-openapi.yml
+- filename: telkomsel-sim-swap-api-openapi.yml
   format: yaml
-  label: Telkomsel DigiHub Location API
-  slug: telkomsel-digihub-location-api
+  label: Telkomsel SIM Swap API
+  slug: telkomsel-sim-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-openapi.yml
-- filename: telkomsel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-sim-swap-api-openapi.yml
+- filename: telkomsel-sms-api-openapi.yml
   format: yaml
-  label: Telkomsel DigiHub SIM Swap API
-  slug: telkomsel-digihub-sim-swap-api
+  label: Telkomsel SMS API
+  slug: telkomsel-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-openapi.yml
-- filename: telkomsel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-sms-api-openapi.yml
+- filename: telkomsel-subscriber-check-api-openapi.yml
   format: yaml
-  label: Telkomsel DigiHub Consent Management API
-  slug: telkomsel-digihub-consent-management-api
+  label: Telkomsel Subscriber Check API
+  slug: telkomsel-subscriber-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-openapi.yml
-- filename: telkomsel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-subscriber-check-api-openapi.yml
+- filename: telkomsel-ussd-api-openapi.yml
   format: yaml
-  label: Telkomsel DigiHub Scoring and Insights API
-  slug: telkomsel-digihub-scoring-insights-api
+  label: Telkomsel USSD API
+  slug: telkomsel-ussd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-ussd-api-openapi.yml
 description: ''
 domains:
 - caa: []

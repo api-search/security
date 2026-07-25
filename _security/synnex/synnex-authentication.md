@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: synnex-streamone-ion-openapi.yml
+- filename: synnex-cart-api-openapi.yml
   format: yaml
-  label: TD SYNNEX StreamOne ION API
-  slug: streamone-ion
+  label: Synnex Cart API
+  slug: synnex-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/openapi/synnex-streamone-ion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/openapi/synnex-cart-api-openapi.yml
+- filename: synnex-customers-api-openapi.yml
+  format: yaml
+  label: Synnex Customers API
+  slug: synnex-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/openapi/synnex-customers-api-openapi.yml
+- filename: synnex-orders-api-openapi.yml
+  format: yaml
+  label: Synnex Orders API
+  slug: synnex-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/openapi/synnex-orders-api-openapi.yml
+- filename: synnex-products-api-openapi.yml
+  format: yaml
+  label: Synnex Products API
+  slug: synnex-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/openapi/synnex-products-api-openapi.yml
+- filename: synnex-reports-api-openapi.yml
+  format: yaml
+  label: Synnex Reports API
+  slug: synnex-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/openapi/synnex-reports-api-openapi.yml
+- filename: synnex-subscriptions-api-openapi.yml
+  format: yaml
+  label: Synnex Subscriptions API
+  slug: synnex-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/openapi/synnex-subscriptions-api-openapi.yml
 auth_types:
 - http
 description: ''

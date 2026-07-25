@@ -1,83 +1,113 @@
 ---
 api_specs:
-- filename: monnify-authentication-api-openapi.yml
+- filename: moniepoint-authentication-api-openapi.yml
   format: yaml
-  label: Monnify Authentication API
-  slug: monnify-authentication-api
+  label: Moniepoint Authentication API
+  slug: moniepoint-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/monnify-authentication-api-openapi.yml
-- filename: monnify-collections-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-authentication-api-openapi.yml
+- filename: moniepoint-banks-api-openapi.yml
   format: yaml
-  label: Monnify Collections API
-  slug: monnify-collections-api
+  label: Moniepoint Banks API
+  slug: moniepoint-banks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/monnify-collections-api-openapi.yml
-- filename: monnify-reserved-accounts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-banks-api-openapi.yml
+- filename: moniepoint-bills-payment-api-openapi.yml
   format: yaml
-  label: Monnify Reserved Accounts API
-  slug: monnify-reserved-accounts-api
+  label: Moniepoint Bills Payment API
+  slug: moniepoint-bills-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/monnify-reserved-accounts-api-openapi.yml
-- filename: monnify-disbursements-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-bills-payment-api-openapi.yml
+- filename: moniepoint-bulk-transfers-api-openapi.yml
   format: yaml
-  label: Monnify Disbursements API
-  slug: monnify-disbursements-api
+  label: Moniepoint Bulk Transfers API
+  slug: moniepoint-bulk-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/monnify-disbursements-api-openapi.yml
-- filename: monnify-sub-accounts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-bulk-transfers-api-openapi.yml
+- filename: moniepoint-debits-api-openapi.yml
   format: yaml
-  label: Monnify Sub-Accounts API
-  slug: monnify-sub-accounts-api
+  label: Moniepoint Debits API
+  slug: moniepoint-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/monnify-sub-accounts-api-openapi.yml
-- filename: monnify-direct-debit-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-debits-api-openapi.yml
+- filename: moniepoint-invoices-api-openapi.yml
   format: yaml
-  label: Monnify Direct Debit API
-  slug: monnify-direct-debit-api
+  label: Moniepoint Invoices API
+  slug: moniepoint-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/monnify-direct-debit-api-openapi.yml
-- filename: monnify-invoices-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-invoices-api-openapi.yml
+- filename: moniepoint-limit-profiles-api-openapi.yml
   format: yaml
-  label: Monnify Invoices API
-  slug: monnify-invoices-api
+  label: Moniepoint Limit Profiles API
+  slug: moniepoint-limit-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/monnify-invoices-api-openapi.yml
-- filename: monnify-bills-payment-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-limit-profiles-api-openapi.yml
+- filename: moniepoint-mandates-api-openapi.yml
   format: yaml
-  label: Monnify Bills Payment API
-  slug: monnify-bills-payment-api
+  label: Moniepoint Mandates API
+  slug: moniepoint-mandates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/monnify-bills-payment-api-openapi.yml
-- filename: monnify-verification-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-mandates-api-openapi.yml
+- filename: moniepoint-push-payments-api-openapi.yml
   format: yaml
-  label: Monnify Verification API
-  slug: monnify-verification-api
+  label: Moniepoint Push Payments API
+  slug: moniepoint-push-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/monnify-verification-api-openapi.yml
-- filename: monnify-wallets-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-push-payments-api-openapi.yml
+- filename: moniepoint-refunds-api-openapi.yml
   format: yaml
-  label: Monnify Wallets API
-  slug: monnify-wallets-api
+  label: Moniepoint Refunds API
+  slug: moniepoint-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/monnify-wallets-api-openapi.yml
-- filename: monnify-refunds-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-refunds-api-openapi.yml
+- filename: moniepoint-reserved-accounts-api-openapi.yml
   format: yaml
-  label: Monnify Refunds API
-  slug: monnify-refunds-api
+  label: Moniepoint Reserved Accounts API
+  slug: moniepoint-reserved-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/monnify-refunds-api-openapi.yml
-- filename: monnify-settlements-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-reserved-accounts-api-openapi.yml
+- filename: moniepoint-settlements-api-openapi.yml
   format: yaml
-  label: Monnify Settlements API
-  slug: monnify-settlements-api
+  label: Moniepoint Settlements API
+  slug: moniepoint-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/monnify-settlements-api-openapi.yml
-- filename: moniepoint-pos-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-settlements-api-openapi.yml
+- filename: moniepoint-single-transfers-api-openapi.yml
   format: yaml
-  label: Moniepoint POS Push Payment API
-  slug: moniepoint-pos-api
+  label: Moniepoint Single Transfers API
+  slug: moniepoint-single-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-pos-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-single-transfers-api-openapi.yml
+- filename: moniepoint-sub-accounts-api-openapi.yml
+  format: yaml
+  label: Moniepoint Sub-Accounts API
+  slug: moniepoint-sub-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-sub-accounts-api-openapi.yml
+- filename: moniepoint-transactions-api-openapi.yml
+  format: yaml
+  label: Moniepoint Transactions API
+  slug: moniepoint-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-transactions-api-openapi.yml
+- filename: moniepoint-verification-api-openapi.yml
+  format: yaml
+  label: Moniepoint Verification API
+  slug: moniepoint-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-verification-api-openapi.yml
+- filename: moniepoint-wallet-api-openapi.yml
+  format: yaml
+  label: Moniepoint Wallet API
+  slug: moniepoint-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-wallet-api-openapi.yml
+- filename: moniepoint-wallets-api-openapi.yml
+  format: yaml
+  label: Moniepoint Wallets API
+  slug: moniepoint-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-wallets-api-openapi.yml
 description: ''
 domains:
 - caa: []

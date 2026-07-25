@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: nutrical-solution-ltd-openapi.yml
+- filename: nutrical-solution-ltd-entity-api-openapi.yml
   format: yaml
-  label: NutriCal Food & Nutrition API
-  slug: nutrical-food-nutrition-api
+  label: Nutrical Solution Ltd Entity API
+  slug: nutrical-solution-ltd-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/openapi/nutrical-solution-ltd-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/openapi/nutrical-solution-ltd-entity-api-openapi.yml
+- filename: nutrical-solution-ltd-ingredients-api-openapi.yml
+  format: yaml
+  label: Nutrical Solution Ltd Ingredients API
+  slug: nutrical-solution-ltd-ingredients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/openapi/nutrical-solution-ltd-ingredients-api-openapi.yml
+- filename: nutrical-solution-ltd-meal-plans-api-openapi.yml
+  format: yaml
+  label: Nutrical Solution Ltd Meal Plans API
+  slug: nutrical-solution-ltd-meal-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/openapi/nutrical-solution-ltd-meal-plans-api-openapi.yml
+- filename: nutrical-solution-ltd-metadata-api-openapi.yml
+  format: yaml
+  label: Nutrical Solution Ltd Metadata API
+  slug: nutrical-solution-ltd-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/openapi/nutrical-solution-ltd-metadata-api-openapi.yml
+- filename: nutrical-solution-ltd-recipe-categories-api-openapi.yml
+  format: yaml
+  label: Nutrical Solution Ltd Recipe Categories API
+  slug: nutrical-solution-ltd-recipe-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/openapi/nutrical-solution-ltd-recipe-categories-api-openapi.yml
+- filename: nutrical-solution-ltd-recipes-api-openapi.yml
+  format: yaml
+  label: Nutrical Solution Ltd Recipes API
+  slug: nutrical-solution-ltd-recipes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/openapi/nutrical-solution-ltd-recipes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

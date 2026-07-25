@@ -36,12 +36,84 @@ api_specs:
   slug: trulioo-document-verification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-document-verification-api-openapi.yml
-- filename: trulioo-platform-api-openapi.yml
+- filename: trulioo-authentication-api-openapi.yml
   format: yaml
-  label: Trulioo Platform API
-  slug: trulioo-platform-api
+  label: Trulioo Authentication API
+  slug: trulioo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-platform-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-authentication-api-openapi.yml
+- filename: trulioo-business-configuration-api-openapi.yml
+  format: yaml
+  label: Trulioo Business Configuration API
+  slug: trulioo-business-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-business-configuration-api-openapi.yml
+- filename: trulioo-business-reports-api-openapi.yml
+  format: yaml
+  label: Trulioo Business Reports API
+  slug: trulioo-business-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-business-reports-api-openapi.yml
+- filename: trulioo-business-search-api-openapi.yml
+  format: yaml
+  label: Trulioo Business Search API
+  slug: trulioo-business-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-business-search-api-openapi.yml
+- filename: trulioo-document-configuration-api-openapi.yml
+  format: yaml
+  label: Trulioo Document Configuration API
+  slug: trulioo-document-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-document-configuration-api-openapi.yml
+- filename: trulioo-documents-api-openapi.yml
+  format: yaml
+  label: Trulioo Documents API
+  slug: trulioo-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-documents-api-openapi.yml
+- filename: trulioo-end-clients-api-openapi.yml
+  format: yaml
+  label: Trulioo End Clients API
+  slug: trulioo-end-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-end-clients-api-openapi.yml
+- filename: trulioo-events-api-openapi.yml
+  format: yaml
+  label: Trulioo Events API
+  slug: trulioo-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-events-api-openapi.yml
+- filename: trulioo-flows-api-openapi.yml
+  format: yaml
+  label: Trulioo Flows API
+  slug: trulioo-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-flows-api-openapi.yml
+- filename: trulioo-known-faces-api-openapi.yml
+  format: yaml
+  label: Trulioo Known Faces API
+  slug: trulioo-known-faces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-known-faces-api-openapi.yml
+- filename: trulioo-sessions-api-openapi.yml
+  format: yaml
+  label: Trulioo Sessions API
+  slug: trulioo-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-sessions-api-openapi.yml
+- filename: trulioo-transactions-api-openapi.yml
+  format: yaml
+  label: Trulioo Transactions API
+  slug: trulioo-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-transactions-api-openapi.yml
+- filename: trulioo-workflows-api-openapi.yml
+  format: yaml
+  label: Trulioo Workflows API
+  slug: trulioo-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-workflows-api-openapi.yml
 description: ''
 domains:
 - caa:

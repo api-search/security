@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: amazon-app-studio-openapi.yaml
+- filename: amazon-app-studio-apps-api-openapi.yml
   format: yaml
-  label: Amazon App Studio API
-  slug: app-studio-api
+  label: Amazon App Studio Apps API
+  slug: amazon-app-studio-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/openapi/amazon-app-studio-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/openapi/amazon-app-studio-apps-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

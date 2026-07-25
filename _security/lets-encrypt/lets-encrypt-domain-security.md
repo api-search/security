@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: lets-encrypt-acme-openapi.yml
+- filename: lets-encrypt-account-api-openapi.yml
   format: yaml
-  label: Let's Encrypt ACME API
-  slug: lets-encrypt-acme-api
+  label: Let's Encrypt Account API
+  slug: lets-encrypt-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/openapi/lets-encrypt-acme-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/openapi/lets-encrypt-account-api-openapi.yml
+- filename: lets-encrypt-authorization-api-openapi.yml
+  format: yaml
+  label: Let's Encrypt Authorization API
+  slug: lets-encrypt-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/openapi/lets-encrypt-authorization-api-openapi.yml
+- filename: lets-encrypt-certificate-api-openapi.yml
+  format: yaml
+  label: Let's Encrypt Certificate API
+  slug: lets-encrypt-certificate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/openapi/lets-encrypt-certificate-api-openapi.yml
+- filename: lets-encrypt-challenge-api-openapi.yml
+  format: yaml
+  label: Let's Encrypt Challenge API
+  slug: lets-encrypt-challenge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/openapi/lets-encrypt-challenge-api-openapi.yml
+- filename: lets-encrypt-directory-api-openapi.yml
+  format: yaml
+  label: Let's Encrypt Directory API
+  slug: lets-encrypt-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/openapi/lets-encrypt-directory-api-openapi.yml
+- filename: lets-encrypt-nonce-api-openapi.yml
+  format: yaml
+  label: Let's Encrypt Nonce API
+  slug: lets-encrypt-nonce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/openapi/lets-encrypt-nonce-api-openapi.yml
+- filename: lets-encrypt-order-api-openapi.yml
+  format: yaml
+  label: Let's Encrypt Order API
+  slug: lets-encrypt-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/openapi/lets-encrypt-order-api-openapi.yml
 description: ''
 domains:
 - caa:

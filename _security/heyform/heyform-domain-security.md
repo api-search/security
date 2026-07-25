@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: heyform-heyform-api-openapi.yml
+- filename: heyform-auth-api-openapi.yml
   format: yaml
-  label: HeyForm API
-  slug: heyform-api
+  label: HeyForm Auth API
+  slug: heyform-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-heyform-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-auth-api-openapi.yml
+- filename: heyform-config-api-openapi.yml
+  format: yaml
+  label: HeyForm Config API
+  slug: heyform-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-config-api-openapi.yml
+- filename: heyform-forms-api-openapi.yml
+  format: yaml
+  label: HeyForm Forms API
+  slug: heyform-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-forms-api-openapi.yml
+- filename: heyform-graphql-api-openapi.yml
+  format: yaml
+  label: HeyForm GraphQL API
+  slug: heyform-graphql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-graphql-api-openapi.yml
+- filename: heyform-images-api-openapi.yml
+  format: yaml
+  label: HeyForm Images API
+  slug: heyform-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-images-api-openapi.yml
+- filename: heyform-submissions-api-openapi.yml
+  format: yaml
+  label: HeyForm Submissions API
+  slug: heyform-submissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-submissions-api-openapi.yml
+- filename: heyform-upload-api-openapi.yml
+  format: yaml
+  label: HeyForm Upload API
+  slug: heyform-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-upload-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,6 +1,19 @@
 ---
 api_key_in:
 - header
+api_specs:
+- filename: paytm-payments-api-openapi.yml
+  format: yaml
+  label: Paytm Payments API
+  slug: paytm-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paytm/refs/heads/main/openapi/paytm-payments-api-openapi.yml
+- filename: paytm-refunds-api-openapi.yml
+  format: yaml
+  label: Paytm Refunds API
+  slug: paytm-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paytm/refs/heads/main/openapi/paytm-refunds-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

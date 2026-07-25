@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: orderdesk-openapi.yml
-  format: yaml
-  label: Order Desk Orders API
-  slug: orderdesk-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/openapi/orderdesk-openapi.yml
-- filename: orderdesk-openapi.yml
-  format: yaml
-  label: Order Desk Order Items API
-  slug: orderdesk-order-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/openapi/orderdesk-openapi.yml
-- filename: orderdesk-openapi.yml
-  format: yaml
-  label: Order Desk Shipments API
-  slug: orderdesk-shipments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/openapi/orderdesk-openapi.yml
-- filename: orderdesk-openapi.yml
+- filename: orderdesk-inventory-items-api-openapi.yml
   format: yaml
   label: Order Desk Inventory Items API
   slug: orderdesk-inventory-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/openapi/orderdesk-openapi.yml
-- filename: orderdesk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/openapi/orderdesk-inventory-items-api-openapi.yml
+- filename: orderdesk-order-items-api-openapi.yml
+  format: yaml
+  label: Order Desk Order Items API
+  slug: orderdesk-order-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/openapi/orderdesk-order-items-api-openapi.yml
+- filename: orderdesk-orders-api-openapi.yml
+  format: yaml
+  label: Order Desk Orders API
+  slug: orderdesk-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/openapi/orderdesk-orders-api-openapi.yml
+- filename: orderdesk-shipments-api-openapi.yml
+  format: yaml
+  label: Order Desk Shipments API
+  slug: orderdesk-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/openapi/orderdesk-shipments-api-openapi.yml
+- filename: orderdesk-store-api-openapi.yml
   format: yaml
   label: Order Desk Store API
   slug: orderdesk-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/openapi/orderdesk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/openapi/orderdesk-store-api-openapi.yml
 description: ''
 domains:
 - caa: []

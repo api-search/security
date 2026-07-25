@@ -2,12 +2,114 @@
 api_key_in:
 - header
 api_specs:
-- filename: combocurve-openapi.yml
+- filename: combocurve-v1-custom-columns-api-openapi.yml
   format: yaml
-  label: ComboCurve REST API
-  slug: combocurve-rest-api
+  label: ComboCurve v1 custom-columns API
+  slug: combocurve-v1-custom-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/openapi/combocurve-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/openapi/combocurve-v1-custom-columns-api-openapi.yml
+- filename: combocurve-v1-daily-productions-api-openapi.yml
+  format: yaml
+  label: ComboCurve v1 daily-productions API
+  slug: combocurve-v1-daily-productions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/openapi/combocurve-v1-daily-productions-api-openapi.yml
+- filename: combocurve-v1-directional-surveys-api-openapi.yml
+  format: yaml
+  label: ComboCurve v1 directional-surveys API
+  slug: combocurve-v1-directional-surveys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/openapi/combocurve-v1-directional-surveys-api-openapi.yml
+- filename: combocurve-v1-econ-models-api-openapi.yml
+  format: yaml
+  label: ComboCurve v1 econ-models API
+  slug: combocurve-v1-econ-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/openapi/combocurve-v1-econ-models-api-openapi.yml
+- filename: combocurve-v1-econ-runs-api-openapi.yml
+  format: yaml
+  label: ComboCurve v1 econ-runs API
+  slug: combocurve-v1-econ-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/openapi/combocurve-v1-econ-runs-api-openapi.yml
+- filename: combocurve-v1-exports-api-openapi.yml
+  format: yaml
+  label: ComboCurve v1 exports API
+  slug: combocurve-v1-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/openapi/combocurve-v1-exports-api-openapi.yml
+- filename: combocurve-v1-forecast-configurations-api-openapi.yml
+  format: yaml
+  label: ComboCurve v1 forecast-configurations API
+  slug: combocurve-v1-forecast-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/openapi/combocurve-v1-forecast-configurations-api-openapi.yml
+- filename: combocurve-v1-forecast-daily-volumes-api-openapi.yml
+  format: yaml
+  label: ComboCurve v1 forecast-daily-volumes API
+  slug: combocurve-v1-forecast-daily-volumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/openapi/combocurve-v1-forecast-daily-volumes-api-openapi.yml
+- filename: combocurve-v1-forecast-monthly-volumes-api-openapi.yml
+  format: yaml
+  label: ComboCurve v1 forecast-monthly-volumes API
+  slug: combocurve-v1-forecast-monthly-volumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/openapi/combocurve-v1-forecast-monthly-volumes-api-openapi.yml
+- filename: combocurve-v1-monthly-productions-api-openapi.yml
+  format: yaml
+  label: ComboCurve v1 monthly-productions API
+  slug: combocurve-v1-monthly-productions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/openapi/combocurve-v1-monthly-productions-api-openapi.yml
+- filename: combocurve-v1-ownership-qualifiers-api-openapi.yml
+  format: yaml
+  label: ComboCurve v1 ownership-qualifiers API
+  slug: combocurve-v1-ownership-qualifiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/openapi/combocurve-v1-ownership-qualifiers-api-openapi.yml
+- filename: combocurve-v1-projects-api-openapi.yml
+  format: yaml
+  label: ComboCurve v1 projects API
+  slug: combocurve-v1-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/openapi/combocurve-v1-projects-api-openapi.yml
+- filename: combocurve-v1-tags-api-openapi.yml
+  format: yaml
+  label: ComboCurve v1 tags API
+  slug: combocurve-v1-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/openapi/combocurve-v1-tags-api-openapi.yml
+- filename: combocurve-v1-users-api-openapi.yml
+  format: yaml
+  label: ComboCurve v1 users API
+  slug: combocurve-v1-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/openapi/combocurve-v1-users-api-openapi.yml
+- filename: combocurve-v1-well-comments-api-openapi.yml
+  format: yaml
+  label: ComboCurve v1 well-comments API
+  slug: combocurve-v1-well-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/openapi/combocurve-v1-well-comments-api-openapi.yml
+- filename: combocurve-v1-wells-api-openapi.yml
+  format: yaml
+  label: ComboCurve v1 wells API
+  slug: combocurve-v1-wells-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/openapi/combocurve-v1-wells-api-openapi.yml
+- filename: combocurve-v1-wells-identifiers-api-openapi.yml
+  format: yaml
+  label: ComboCurve v1 wells-identifiers API
+  slug: combocurve-v1-wells-identifiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/openapi/combocurve-v1-wells-identifiers-api-openapi.yml
+- filename: combocurve-v2-exports-api-openapi.yml
+  format: yaml
+  label: ComboCurve v2 exports API
+  slug: combocurve-v2-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/openapi/combocurve-v2-exports-api-openapi.yml
 auth_types:
 - apiKey
 - http

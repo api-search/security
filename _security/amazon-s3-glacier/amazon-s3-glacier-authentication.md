@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-s3-glacier-openapi.yml
+- filename: amazon-s3-glacier-vaults-api-openapi.yml
   format: yaml
-  label: Amazon S3 Glacier API
-  slug: amazon-s3-glacier-api
+  label: Amazon S3 Glacier Vaults API
+  slug: amazon-s3-glacier-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3-glacier/refs/heads/main/openapi/amazon-s3-glacier-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3-glacier/refs/heads/main/openapi/amazon-s3-glacier-vaults-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

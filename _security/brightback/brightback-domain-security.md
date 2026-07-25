@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: brightback-retention-openapi.yml
+- filename: brightback-retention-api-openapi.yml
   format: yaml
-  label: Brightback Pre-cancel API
-  slug: brightback-pre-cancel-api
+  label: brightback Retention API
+  slug: brightback-retention-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/openapi/brightback-retention-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/openapi/brightback-retention-api-openapi.yml
 description: ''
 domains:
 - caa: []

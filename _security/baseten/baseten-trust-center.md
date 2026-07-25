@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: baseten-llm-openapi.json
-  format: json
-  label: Baseten LLM Inference API
-  slug: llm-inference
+- filename: baseten-chat-completions-api-openapi.yml
+  format: yaml
+  label: Baseten Chat Completions API
+  slug: baseten-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baseten/refs/heads/main/openapi/baseten-llm-openapi.json
-- filename: baseten-messages-openapi.json
-  format: json
-  label: Baseten Anthropic-Compatible Messages API
-  slug: messages
+  url: https://raw.githubusercontent.com/api-evangelist/baseten/refs/heads/main/openapi/baseten-chat-completions-api-openapi.yml
+- filename: baseten-messages-api-openapi.yml
+  format: yaml
+  label: Baseten Messages API
+  slug: baseten-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baseten/refs/heads/main/openapi/baseten-messages-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/baseten/refs/heads/main/openapi/baseten-messages-api-openapi.yml
 certifications:
 - SOC 2
 - PCI DSS

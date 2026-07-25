@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: indiegogo-public-openapi.yml
+- filename: indiegogo-creators-api-openapi.yml
   format: yaml
-  label: Indiegogo Public API
-  slug: indiegogo-public-api
+  label: Indiegogo Creators API
+  slug: indiegogo-creators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indiegogo/refs/heads/main/openapi/indiegogo-public-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/indiegogo/refs/heads/main/openapi/indiegogo-creators-api-openapi.yml
+- filename: indiegogo-projects-api-openapi.yml
+  format: yaml
+  label: Indiegogo Projects API
+  slug: indiegogo-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/indiegogo/refs/heads/main/openapi/indiegogo-projects-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: apache-openwhisk-rest-api.yaml
+- filename: apache-openwhisk-actions-api-openapi.yml
   format: yaml
-  label: Apache OpenWhisk REST API
-  slug: apache-openwhisk-rest-api
+  label: Apache OpenWhisk Actions API
+  slug: apache-openwhisk-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/openapi/apache-openwhisk-rest-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/openapi/apache-openwhisk-actions-api-openapi.yml
+- filename: apache-openwhisk-activations-api-openapi.yml
+  format: yaml
+  label: Apache OpenWhisk Activations API
+  slug: apache-openwhisk-activations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/openapi/apache-openwhisk-activations-api-openapi.yml
+- filename: apache-openwhisk-namespaces-api-openapi.yml
+  format: yaml
+  label: Apache OpenWhisk Namespaces API
+  slug: apache-openwhisk-namespaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/openapi/apache-openwhisk-namespaces-api-openapi.yml
+- filename: apache-openwhisk-packages-api-openapi.yml
+  format: yaml
+  label: Apache OpenWhisk Packages API
+  slug: apache-openwhisk-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/openapi/apache-openwhisk-packages-api-openapi.yml
+- filename: apache-openwhisk-rules-api-openapi.yml
+  format: yaml
+  label: Apache OpenWhisk Rules API
+  slug: apache-openwhisk-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/openapi/apache-openwhisk-rules-api-openapi.yml
+- filename: apache-openwhisk-triggers-api-openapi.yml
+  format: yaml
+  label: Apache OpenWhisk Triggers API
+  slug: apache-openwhisk-triggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/openapi/apache-openwhisk-triggers-api-openapi.yml
 description: ''
 domains:
 - caa:

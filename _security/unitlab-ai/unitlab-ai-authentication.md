@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: unitlab-ai-sdk-openapi.yml
+- filename: unitlab-ai-datasets-api-openapi.yml
   format: yaml
-  label: Unitlab SDK API
-  slug: unitlab-sdk-api
+  label: Unitlab AI Datasets API
+  slug: unitlab-ai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/openapi/unitlab-ai-sdk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/openapi/unitlab-ai-datasets-api-openapi.yml
+- filename: unitlab-ai-projects-api-openapi.yml
+  format: yaml
+  label: Unitlab AI Projects API
+  slug: unitlab-ai-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/openapi/unitlab-ai-projects-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: punkapi-openapi.yml
+- filename: punkapi-beers-api-openapi.yml
   format: yaml
-  label: Punk API — Beers
-  slug: punk-api-beers
+  label: Punk API Beers API
+  slug: punkapi-beers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/punkapi/refs/heads/main/openapi/punkapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/punkapi/refs/heads/main/openapi/punkapi-beers-api-openapi.yml
 description: ''
 domains:
 - caa: []

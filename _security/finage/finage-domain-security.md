@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: finage-openapi.yml
+  format: yaml
+  label: Finage Market Data API
+  slug: finage-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/openapi/finage-openapi.yml
+- filename: finage-websocket-asyncapi.yml
+  format: yaml
+  label: Finage WebSocket Market Data Stream
+  slug: finage-websocket-market-data-stream
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/asyncapi/finage-websocket-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -30,5 +43,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finage/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Finance
+- Market Data
+- Stocks
+- Forex
+- Cryptocurrency
+- ETFs
+- Indices
+- Fundamentals
+- Real-Time Data
 - Public APIs
 ---

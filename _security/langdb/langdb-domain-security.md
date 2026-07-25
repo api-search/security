@@ -1,47 +1,41 @@
 ---
 api_specs:
-- filename: langdb-openapi.yml
+- filename: langdb-analytics-api-openapi.yml
   format: yaml
-  label: LangDB Chat Completions / Routing API
-  slug: langdb-chat-completions-api
+  label: LangDB Analytics API
+  slug: langdb-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-openapi.yml
-- filename: langdb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-analytics-api-openapi.yml
+- filename: langdb-chat-api-openapi.yml
+  format: yaml
+  label: LangDB Chat API
+  slug: langdb-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-chat-api-openapi.yml
+- filename: langdb-embeddings-api-openapi.yml
   format: yaml
   label: LangDB Embeddings API
   slug: langdb-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-openapi.yml
-- filename: langdb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-embeddings-api-openapi.yml
+- filename: langdb-images-api-openapi.yml
   format: yaml
   label: LangDB Images API
   slug: langdb-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-openapi.yml
-- filename: langdb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-images-api-openapi.yml
+- filename: langdb-models-api-openapi.yml
   format: yaml
   label: LangDB Models API
   slug: langdb-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-openapi.yml
-- filename: langdb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-models-api-openapi.yml
+- filename: langdb-threads-api-openapi.yml
   format: yaml
-  label: LangDB Threads / Messages API
-  slug: langdb-threads-messages-api
+  label: LangDB Threads API
+  slug: langdb-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-openapi.yml
-- filename: langdb-openapi.yml
-  format: yaml
-  label: LangDB Analytics / Usage API
-  slug: langdb-analytics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-openapi.yml
-- filename: langdb-openapi.yml
-  format: yaml
-  label: LangDB MCP Gateway API
-  slug: langdb-mcp-gateway-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-threads-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,29 +1,101 @@
 ---
 api_specs:
-- filename: aml-api-oauth.json
-  format: json
-  label: Elliptic AML API
-  slug: elliptic-aml-api
+- filename: elliptic-assets-api-openapi.yml
+  format: yaml
+  label: Elliptic Assets API
+  slug: elliptic-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/aml-api-oauth.json
-- filename: ia-api.json
-  format: json
-  label: Elliptic AI API
-  slug: elliptic-ai-api
+  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-assets-api-openapi.yml
+- filename: elliptic-count-analyses-api-openapi.yml
+  format: yaml
+  label: Elliptic Count Analyses API
+  slug: elliptic-count-analyses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/ia-api.json
-- filename: sanctions-api.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-count-analyses-api-openapi.yml
+- filename: elliptic-criteria-api-openapi.yml
+  format: yaml
+  label: Elliptic Criteria API
+  slug: elliptic-criteria-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-criteria-api-openapi.yml
+- filename: elliptic-customers-api-openapi.yml
+  format: yaml
+  label: Elliptic Customers API
+  slug: elliptic-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-customers-api-openapi.yml
+- filename: elliptic-health-api-openapi.yml
+  format: yaml
+  label: Elliptic Health API
+  slug: elliptic-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-health-api-openapi.yml
+- filename: elliptic-risk-rules-api-openapi.yml
+  format: yaml
+  label: Elliptic Risk Rules API
+  slug: elliptic-risk-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-risk-rules-api-openapi.yml
+- filename: elliptic-sanctions-api-openapi.yml
+  format: yaml
   label: Elliptic Sanctions API
   slug: elliptic-sanctions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/sanctions-api.json
-- filename: data-fabric.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-sanctions-api-openapi.yml
+- filename: elliptic-screenings-api-openapi.yml
   format: yaml
-  label: Elliptic Data Fabric API
-  slug: elliptic-data-fabric-api
+  label: Elliptic Screenings API
+  slug: elliptic-screenings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/data-fabric.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-screenings-api-openapi.yml
+- filename: elliptic-transaction-analyses-api-openapi.yml
+  format: yaml
+  label: Elliptic Transaction Analyses API
+  slug: elliptic-transaction-analyses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-transaction-analyses-api-openapi.yml
+- filename: elliptic-transaction-workflow-api-openapi.yml
+  format: yaml
+  label: Elliptic Transaction Workflow API
+  slug: elliptic-transaction-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-transaction-workflow-api-openapi.yml
+- filename: elliptic-tron-nodeintelligence-api-openapi.yml
+  format: yaml
+  label: Elliptic Tron NodeIntelligence API
+  slug: elliptic-tron-nodeintelligence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-tron-nodeintelligence-api-openapi.yml
+- filename: elliptic-users-api-openapi.yml
+  format: yaml
+  label: Elliptic Users API
+  slug: elliptic-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-users-api-openapi.yml
+- filename: elliptic-wallet-analyses-api-openapi.yml
+  format: yaml
+  label: Elliptic Wallet Analyses API
+  slug: elliptic-wallet-analyses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-wallet-analyses-api-openapi.yml
+- filename: elliptic-wallet-analyses-count-api-openapi.yml
+  format: yaml
+  label: Elliptic Wallet Analyses Count API
+  slug: elliptic-wallet-analyses-count-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-wallet-analyses-count-api-openapi.yml
+- filename: elliptic-wallet-api-openapi.yml
+  format: yaml
+  label: Elliptic Wallet API
+  slug: elliptic-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-wallet-api-openapi.yml
+- filename: elliptic-wallet-workflow-api-openapi.yml
+  format: yaml
+  label: Elliptic Wallet Workflow API
+  slug: elliptic-wallet-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-wallet-workflow-api-openapi.yml
 description: ''
 domains:
 - caa: []

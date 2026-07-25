@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: lunar-configuration-api-openapi.yml
+  format: yaml
+  label: Lunar Configuration API
+  slug: lunar-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/openapi/lunar-configuration-api-openapi.yml
+- filename: lunar-discovery-api-openapi.yml
+  format: yaml
+  label: Lunar Discovery API
+  slug: lunar-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/openapi/lunar-discovery-api-openapi.yml
+- filename: lunar-doctor-api-openapi.yml
+  format: yaml
+  label: Lunar Doctor API
+  slug: lunar-doctor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/openapi/lunar-doctor-api-openapi.yml
+- filename: lunar-flows-api-openapi.yml
+  format: yaml
+  label: Lunar Flows API
+  slug: lunar-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/openapi/lunar-flows-api-openapi.yml
+- filename: lunar-handshake-api-openapi.yml
+  format: yaml
+  label: Lunar Handshake API
+  slug: lunar-handshake-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/openapi/lunar-handshake-api-openapi.yml
+- filename: lunar-policies-api-openapi.yml
+  format: yaml
+  label: Lunar Policies API
+  slug: lunar-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/openapi/lunar-policies-api-openapi.yml
 description: ''
 domains:
 - caa: []

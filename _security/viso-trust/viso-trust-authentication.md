@@ -1,12 +1,78 @@
 ---
 api_key_in: []
 api_specs:
-- filename: viso-trust-openapi-original.json
-  format: json
-  label: VISO TRUST Client API
-  slug: viso-trust-client-api
+- filename: viso-trust-client-api-assessment-rest-resource-api-openapi.yml
+  format: yaml
+  label: VISO Trust client-api-assessment-rest-resource API
+  slug: viso-trust-client-api-assessment-rest-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/openapi/viso-trust-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/openapi/viso-trust-client-api-assessment-rest-resource-api-openapi.yml
+- filename: viso-trust-client-api-audit-log-rest-resource-api-openapi.yml
+  format: yaml
+  label: VISO Trust client-api-audit-log-rest-resource API
+  slug: viso-trust-client-api-audit-log-rest-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/openapi/viso-trust-client-api-audit-log-rest-resource-api-openapi.yml
+- filename: viso-trust-client-api-chat-rest-resource-api-openapi.yml
+  format: yaml
+  label: VISO Trust client-api-chat-rest-resource API
+  slug: viso-trust-client-api-chat-rest-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/openapi/viso-trust-client-api-chat-rest-resource-api-openapi.yml
+- filename: viso-trust-client-api-context-type-rest-resource-api-openapi.yml
+  format: yaml
+  label: VISO Trust client-api-context-type-rest-resource API
+  slug: viso-trust-client-api-context-type-rest-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/openapi/viso-trust-client-api-context-type-rest-resource-api-openapi.yml
+- filename: viso-trust-client-api-data-type-rest-resource-api-openapi.yml
+  format: yaml
+  label: VISO Trust client-api-data-type-rest-resource API
+  slug: viso-trust-client-api-data-type-rest-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/openapi/viso-trust-client-api-data-type-rest-resource-api-openapi.yml
+- filename: viso-trust-client-api-external-intelligence-report-rest-resource-api-openapi.yml
+  format: yaml
+  label: VISO Trust client-api-external-intelligence-report-rest-resource API
+  slug: viso-trust-client-api-external-intelligence-report-rest-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/openapi/viso-trust-client-api-external-intelligence-report-rest-resource-api-openapi.yml
+- filename: viso-trust-client-api-questionnaire-rest-resource-api-openapi.yml
+  format: yaml
+  label: VISO Trust client-api-questionnaire-rest-resource API
+  slug: viso-trust-client-api-questionnaire-rest-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/openapi/viso-trust-client-api-questionnaire-rest-resource-api-openapi.yml
+- filename: viso-trust-client-api-relationship-rest-resource-api-openapi.yml
+  format: yaml
+  label: VISO Trust client-api-relationship-rest-resource API
+  slug: viso-trust-client-api-relationship-rest-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/openapi/viso-trust-client-api-relationship-rest-resource-api-openapi.yml
+- filename: viso-trust-client-api-user-rest-resource-api-openapi.yml
+  format: yaml
+  label: VISO Trust client-api-user-rest-resource API
+  slug: viso-trust-client-api-user-rest-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/openapi/viso-trust-client-api-user-rest-resource-api-openapi.yml
+- filename: viso-trust-client-api-vendor-directory-rest-resource-api-openapi.yml
+  format: yaml
+  label: VISO Trust client-api-vendor-directory-rest-resource API
+  slug: viso-trust-client-api-vendor-directory-rest-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/openapi/viso-trust-client-api-vendor-directory-rest-resource-api-openapi.yml
+- filename: viso-trust-client-api-vendor-risk-summary-rest-resource-api-openapi.yml
+  format: yaml
+  label: VISO Trust client-api-vendor-risk-summary-rest-resource API
+  slug: viso-trust-client-api-vendor-risk-summary-rest-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/openapi/viso-trust-client-api-vendor-risk-summary-rest-resource-api-openapi.yml
+- filename: viso-trust-client-api-webhook-rest-resource-api-openapi.yml
+  format: yaml
+  label: VISO Trust client-api-webhook-rest-resource API
+  slug: viso-trust-client-api-webhook-rest-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/openapi/viso-trust-client-api-webhook-rest-resource-api-openapi.yml
 auth_types:
 - http
 description: ''

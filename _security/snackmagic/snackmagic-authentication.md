@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: snackmagic-stadium-openapi.yml
+- filename: snackmagic-authentication-api-openapi.yml
   format: yaml
-  label: Stadium API (SnackMagic)
-  slug: stadium-api-snackmagic
+  label: SnackMagic Authentication API
+  slug: snackmagic-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/openapi/snackmagic-stadium-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/openapi/snackmagic-authentication-api-openapi.yml
+- filename: snackmagic-automation-management-api-openapi.yml
+  format: yaml
+  label: SnackMagic Automation management API
+  slug: snackmagic-automation-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/openapi/snackmagic-automation-management-api-openapi.yml
+- filename: snackmagic-order-management-api-openapi.yml
+  format: yaml
+  label: SnackMagic Order management API
+  slug: snackmagic-order-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/openapi/snackmagic-order-management-api-openapi.yml
+- filename: snackmagic-store-management-api-openapi.yml
+  format: yaml
+  label: SnackMagic Store management API
+  slug: snackmagic-store-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/openapi/snackmagic-store-management-api-openapi.yml
+- filename: snackmagic-user-management-api-openapi.yml
+  format: yaml
+  label: SnackMagic User management API
+  slug: snackmagic-user-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/openapi/snackmagic-user-management-api-openapi.yml
 auth_types:
 - http
 - apiKey

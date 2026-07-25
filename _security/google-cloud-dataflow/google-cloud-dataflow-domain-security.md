@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: google-cloud-dataflow-api-openapi.yml
+- filename: google-cloud-dataflow-debug-api-openapi.yml
   format: yaml
-  label: Google Cloud Dataflow API
-  slug: google-cloud-dataflow-api
+  label: Google Cloud Dataflow Debug API
+  slug: google-cloud-dataflow-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/openapi/google-cloud-dataflow-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/openapi/google-cloud-dataflow-debug-api-openapi.yml
+- filename: google-cloud-dataflow-flex-templates-api-openapi.yml
+  format: yaml
+  label: Google Cloud Dataflow Flex Templates API
+  slug: google-cloud-dataflow-flex-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/openapi/google-cloud-dataflow-flex-templates-api-openapi.yml
+- filename: google-cloud-dataflow-jobs-api-openapi.yml
+  format: yaml
+  label: Google Cloud Dataflow Jobs API
+  slug: google-cloud-dataflow-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/openapi/google-cloud-dataflow-jobs-api-openapi.yml
+- filename: google-cloud-dataflow-messages-api-openapi.yml
+  format: yaml
+  label: Google Cloud Dataflow Messages API
+  slug: google-cloud-dataflow-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/openapi/google-cloud-dataflow-messages-api-openapi.yml
+- filename: google-cloud-dataflow-metrics-api-openapi.yml
+  format: yaml
+  label: Google Cloud Dataflow Metrics API
+  slug: google-cloud-dataflow-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/openapi/google-cloud-dataflow-metrics-api-openapi.yml
+- filename: google-cloud-dataflow-snapshots-api-openapi.yml
+  format: yaml
+  label: Google Cloud Dataflow Snapshots API
+  slug: google-cloud-dataflow-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/openapi/google-cloud-dataflow-snapshots-api-openapi.yml
+- filename: google-cloud-dataflow-stages-api-openapi.yml
+  format: yaml
+  label: Google Cloud Dataflow Stages API
+  slug: google-cloud-dataflow-stages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/openapi/google-cloud-dataflow-stages-api-openapi.yml
+- filename: google-cloud-dataflow-templates-api-openapi.yml
+  format: yaml
+  label: Google Cloud Dataflow Templates API
+  slug: google-cloud-dataflow-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/openapi/google-cloud-dataflow-templates-api-openapi.yml
 description: ''
 domains:
 - caa:

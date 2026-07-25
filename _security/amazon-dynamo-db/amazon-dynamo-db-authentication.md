@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-dynamo-db-openapi.yml
+- filename: amazon-dynamo-db-amazon-dynamodb-api-api-openapi.yml
   format: yaml
-  label: Amazon DynamoDB API
-  slug: api
+  label: Amazon DynamoDB Amazon DynamoDB API API
+  slug: amazon-dynamo-db-amazon-dynamodb-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamo-db/refs/heads/main/openapi/amazon-dynamo-db-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamo-db/refs/heads/main/openapi/amazon-dynamo-db-amazon-dynamodb-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

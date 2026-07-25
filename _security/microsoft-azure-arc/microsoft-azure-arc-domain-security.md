@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: microsoft-azure-arc-openapi.yml
+- filename: microsoft-azure-arc-machines-api-openapi.yml
   format: yaml
-  label: Azure Arc REST API
-  slug: rest-api
+  label: Azure Arc Machines API
+  slug: microsoft-azure-arc-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-arc/refs/heads/main/openapi/microsoft-azure-arc-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-arc/refs/heads/main/openapi/microsoft-azure-arc-machines-api-openapi.yml
+- filename: microsoft-azure-arc-operations-api-openapi.yml
+  format: yaml
+  label: Azure Arc Operations API
+  slug: microsoft-azure-arc-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-arc/refs/heads/main/openapi/microsoft-azure-arc-operations-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,12 +1,120 @@
 ---
 api_key_in: []
 api_specs:
-- filename: otter-public-api-openapi.yml
+- filename: otter-account-pairing-endpoints-api-openapi.yml
   format: yaml
-  label: Otter Public API
-  slug: public-api
+  label: Otter Account Pairing Endpoints API
+  slug: otter-account-pairing-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-public-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-account-pairing-endpoints-api-openapi.yml
+- filename: otter-auth-endpoints-api-openapi.yml
+  format: yaml
+  label: Otter Auth Endpoints API
+  slug: otter-auth-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-auth-endpoints-api-openapi.yml
+- filename: otter-callback-endpoints-api-openapi.yml
+  format: yaml
+  label: Otter Callback Endpoints API
+  slug: otter-callback-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-callback-endpoints-api-openapi.yml
+- filename: otter-delivery-endpoints-api-openapi.yml
+  format: yaml
+  label: Otter Delivery Endpoints API
+  slug: otter-delivery-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-delivery-endpoints-api-openapi.yml
+- filename: otter-direct-orders-endpoints-api-openapi.yml
+  format: yaml
+  label: Otter Direct Orders Endpoints API
+  slug: otter-direct-orders-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-direct-orders-endpoints-api-openapi.yml
+- filename: otter-finance-endpoints-api-openapi.yml
+  format: yaml
+  label: Otter Finance Endpoints API
+  slug: otter-finance-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-finance-endpoints-api-openapi.yml
+- filename: otter-inventory-endpoints-api-openapi.yml
+  format: yaml
+  label: Otter Inventory Endpoints API
+  slug: otter-inventory-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-inventory-endpoints-api-openapi.yml
+- filename: otter-manager-loyalty-endpoints-api-openapi.yml
+  format: yaml
+  label: Otter Manager Loyalty Endpoints API
+  slug: otter-manager-loyalty-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-manager-loyalty-endpoints-api-openapi.yml
+- filename: otter-manager-menu-endpoints-api-openapi.yml
+  format: yaml
+  label: Otter Manager Menu Endpoints API
+  slug: otter-manager-menu-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-manager-menu-endpoints-api-openapi.yml
+- filename: otter-manager-order-endpoints-api-openapi.yml
+  format: yaml
+  label: Otter Manager Order Endpoints API
+  slug: otter-manager-order-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-manager-order-endpoints-api-openapi.yml
+- filename: otter-manager-storefront-endpoints-api-openapi.yml
+  format: yaml
+  label: Otter Manager Storefront Endpoints API
+  slug: otter-manager-storefront-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-manager-storefront-endpoints-api-openapi.yml
+- filename: otter-market-intel-endpoints-api-openapi.yml
+  format: yaml
+  label: Otter Market Intel Endpoints API
+  slug: otter-market-intel-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-market-intel-endpoints-api-openapi.yml
+- filename: otter-menus-endpoints-api-openapi.yml
+  format: yaml
+  label: Otter Menus Endpoints API
+  slug: otter-menus-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-menus-endpoints-api-openapi.yml
+- filename: otter-orders-endpoints-api-openapi.yml
+  format: yaml
+  label: Otter Orders Endpoints API
+  slug: otter-orders-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-orders-endpoints-api-openapi.yml
+- filename: otter-organization-endpoints-api-openapi.yml
+  format: yaml
+  label: Otter Organization Endpoints API
+  slug: otter-organization-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-organization-endpoints-api-openapi.yml
+- filename: otter-ping-endpoints-api-openapi.yml
+  format: yaml
+  label: Otter Ping Endpoints API
+  slug: otter-ping-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-ping-endpoints-api-openapi.yml
+- filename: otter-reports-endpoints-api-openapi.yml
+  format: yaml
+  label: Otter Reports Endpoints API
+  slug: otter-reports-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-reports-endpoints-api-openapi.yml
+- filename: otter-reviews-endpoints-api-openapi.yml
+  format: yaml
+  label: Otter Reviews Endpoints API
+  slug: otter-reviews-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-reviews-endpoints-api-openapi.yml
+- filename: otter-storefront-endpoints-api-openapi.yml
+  format: yaml
+  label: Otter Storefront Endpoints API
+  slug: otter-storefront-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-storefront-endpoints-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

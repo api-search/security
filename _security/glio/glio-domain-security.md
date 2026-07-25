@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: glio-openapi-original.json
-  format: json
-  label: Glio API
-  slug: glio-api
+- filename: glio-jobs-api-openapi.yml
+  format: yaml
+  label: Glio Jobs API
+  slug: glio-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glio/refs/heads/main/openapi/glio-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/glio/refs/heads/main/openapi/glio-jobs-api-openapi.yml
+- filename: glio-llm-api-openapi.yml
+  format: yaml
+  label: Glio LLM API
+  slug: glio-llm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glio/refs/heads/main/openapi/glio-llm-api-openapi.yml
 description: ''
 domains:
 - caa: []

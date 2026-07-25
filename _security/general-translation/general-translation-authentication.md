@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: general-translation-openapi-original.yml
+- filename: general-translation-branches-api-openapi.yml
   format: yaml
-  label: General Translation API
-  slug: general-translation-api
+  label: General Translation Branches API
+  slug: general-translation-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-branches-api-openapi.yml
+- filename: general-translation-context-api-openapi.yml
+  format: yaml
+  label: General Translation Context API
+  slug: general-translation-context-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-context-api-openapi.yml
+- filename: general-translation-files-api-openapi.yml
+  format: yaml
+  label: General Translation Files API
+  slug: general-translation-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-files-api-openapi.yml
+- filename: general-translation-jobs-api-openapi.yml
+  format: yaml
+  label: General Translation Jobs API
+  slug: general-translation-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-jobs-api-openapi.yml
+- filename: general-translation-project-api-openapi.yml
+  format: yaml
+  label: General Translation Project API
+  slug: general-translation-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-project-api-openapi.yml
+- filename: general-translation-tags-api-openapi.yml
+  format: yaml
+  label: General Translation Tags API
+  slug: general-translation-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-tags-api-openapi.yml
+- filename: general-translation-translation-api-openapi.yml
+  format: yaml
+  label: General Translation Translation API
+  slug: general-translation-translation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-translation-api-openapi.yml
 auth_types:
 - http
 description: ''

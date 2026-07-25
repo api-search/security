@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: spot-by-netapp-openapi.yml
+- filename: spot-by-netapp-audit-service-api-openapi.yml
   format: yaml
-  label: Spot by NetApp API
-  slug: spot-by-netapp
+  label: Spot by NetApp Audit Service API
+  slug: spot-by-netapp-audit-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/openapi/spot-by-netapp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/openapi/spot-by-netapp-audit-service-api-openapi.yml
+- filename: spot-by-netapp-create-an-api-token-api-openapi.yml
+  format: yaml
+  label: Spot by NetApp Create an API Token API
+  slug: spot-by-netapp-create-an-api-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/openapi/spot-by-netapp-create-an-api-token-api-openapi.yml
+- filename: spot-by-netapp-elastigroup-aws-api-openapi.yml
+  format: yaml
+  label: Spot by NetApp Elastigroup AWS API
+  slug: spot-by-netapp-elastigroup-aws-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/openapi/spot-by-netapp-elastigroup-aws-api-openapi.yml
+- filename: spot-by-netapp-elastigroup-azure-spot-vms-api-openapi.yml
+  format: yaml
+  label: Spot by NetApp Elastigroup Azure Spot VMs API
+  slug: spot-by-netapp-elastigroup-azure-spot-vms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/openapi/spot-by-netapp-elastigroup-azure-spot-vms-api-openapi.yml
+- filename: spot-by-netapp-elastigroup-gcp-api-openapi.yml
+  format: yaml
+  label: Spot by NetApp Elastigroup GCP API
+  slug: spot-by-netapp-elastigroup-gcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/openapi/spot-by-netapp-elastigroup-gcp-api-openapi.yml
+- filename: spot-by-netapp-health-check-service-api-openapi.yml
+  format: yaml
+  label: Spot by NetApp Health Check Service API
+  slug: spot-by-netapp-health-check-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/openapi/spot-by-netapp-health-check-service-api-openapi.yml
+- filename: spot-by-netapp-insights-service-api-openapi.yml
+  format: yaml
+  label: Spot by NetApp Insights Service API
+  slug: spot-by-netapp-insights-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/openapi/spot-by-netapp-insights-service-api-openapi.yml
+- filename: spot-by-netapp-notification-subscription-service-api-openapi.yml
+  format: yaml
+  label: Spot by NetApp Notification Subscription Service API
+  slug: spot-by-netapp-notification-subscription-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/openapi/spot-by-netapp-notification-subscription-service-api-openapi.yml
+- filename: spot-by-netapp-ocean-automatic-rightsizing-api-openapi.yml
+  format: yaml
+  label: Spot by NetApp Ocean Automatic Rightsizing API
+  slug: spot-by-netapp-ocean-automatic-rightsizing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/openapi/spot-by-netapp-ocean-automatic-rightsizing-api-openapi.yml
+- filename: spot-by-netapp-ocean-aws-api-openapi.yml
+  format: yaml
+  label: Spot by NetApp Ocean AWS API
+  slug: spot-by-netapp-ocean-aws-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/openapi/spot-by-netapp-ocean-aws-api-openapi.yml
 auth_types:
 - http
 description: ''

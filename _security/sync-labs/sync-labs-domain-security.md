@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: sync-labs-openapi.yml
+- filename: sync-labs-assets-api-openapi.yml
   format: yaml
-  label: Sync Labs API
-  slug: sync-labs-api
+  label: Sync Labs Assets API
+  slug: sync-labs-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sync-labs/refs/heads/main/openapi/sync-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sync-labs/refs/heads/main/openapi/sync-labs-assets-api-openapi.yml
+- filename: sync-labs-batch-api-openapi.yml
+  format: yaml
+  label: Sync Labs Batch API
+  slug: sync-labs-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sync-labs/refs/heads/main/openapi/sync-labs-batch-api-openapi.yml
+- filename: sync-labs-generate-api-openapi.yml
+  format: yaml
+  label: Sync Labs Generate API
+  slug: sync-labs-generate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sync-labs/refs/heads/main/openapi/sync-labs-generate-api-openapi.yml
+- filename: sync-labs-models-api-openapi.yml
+  format: yaml
+  label: Sync Labs Models API
+  slug: sync-labs-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sync-labs/refs/heads/main/openapi/sync-labs-models-api-openapi.yml
 description: ''
 domains:
 - caa: []

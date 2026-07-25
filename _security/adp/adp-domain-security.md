@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: adp-workers-openapi.yml
+- filename: adp-organizations-api-openapi.yml
+  format: yaml
+  label: ADP Organizations API
+  slug: adp-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/openapi/adp-organizations-api-openapi.yml
+- filename: adp-payrollinstructions-api-openapi.yml
+  format: yaml
+  label: ADP PayrollInstructions API
+  slug: adp-payrollinstructions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/openapi/adp-payrollinstructions-api-openapi.yml
+- filename: adp-payrolloutputs-api-openapi.yml
+  format: yaml
+  label: ADP PayrollOutputs API
+  slug: adp-payrolloutputs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/openapi/adp-payrolloutputs-api-openapi.yml
+- filename: adp-workers-api-openapi.yml
   format: yaml
   label: ADP Workers API
   slug: adp-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/openapi/adp-workers-openapi.yml
-- filename: adp-payroll-openapi.yml
-  format: yaml
-  label: ADP Payroll API
-  slug: adp-payroll-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/openapi/adp-payroll-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/openapi/adp-workers-api-openapi.yml
 description: ''
 domains:
 - caa: []

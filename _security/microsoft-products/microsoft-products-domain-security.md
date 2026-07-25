@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: microsoft-products-drive-api-openapi.yml
   format: yaml
-  label: Microsoft Graph API
-  slug: microsoft-graph-api
+  label: Microsoft Products Drive API
+  slug: microsoft-products-drive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
-- filename: azure-rest-api-specs
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-products/refs/heads/main/openapi/microsoft-products-drive-api-openapi.yml
+- filename: microsoft-products-mail-api-openapi.yml
   format: yaml
-  label: Azure REST API
-  slug: azure-rest-api
+  label: Microsoft Products Mail API
+  slug: microsoft-products-mail-api
   spec_type: OpenAPI
-  url: https://github.com/Azure/azure-rest-api-specs
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-products/refs/heads/main/openapi/microsoft-products-mail-api-openapi.yml
+- filename: microsoft-products-teams-api-openapi.yml
+  format: yaml
+  label: Microsoft Products Teams API
+  slug: microsoft-products-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-products/refs/heads/main/openapi/microsoft-products-teams-api-openapi.yml
 description: ''
 domains:
 - caa:

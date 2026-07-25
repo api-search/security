@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: apigit-api.yaml
+- filename: apigit-apis-api-openapi.yml
   format: yaml
-  label: APIGit
-  slug: apigit
+  label: APIGit APIs API
+  slug: apigit-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-apis-api-openapi.yml
+- filename: apigit-mocks-api-openapi.yml
+  format: yaml
+  label: APIGit Mocks API
+  slug: apigit-mocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-mocks-api-openapi.yml
+- filename: apigit-repositories-api-openapi.yml
+  format: yaml
+  label: APIGit Repositories API
+  slug: apigit-repositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-repositories-api-openapi.yml
+- filename: apigit-tests-api-openapi.yml
+  format: yaml
+  label: APIGit Tests API
+  slug: apigit-tests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-tests-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

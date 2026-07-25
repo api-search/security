@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: apis
+- filename: td-ameritrade-instruments-api-openapi.yml
+  format: yaml
+  label: TD Ameritrade Instruments API
+  slug: td-ameritrade-instruments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-instruments-api-openapi.yml
+- filename: td-ameritrade-authentication-api-openapi.yml
+  format: yaml
+  label: TD Ameritrade Authentication API
+  slug: td-ameritrade-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-authentication-api-openapi.yml
+- filename: td-ameritrade-accounts-and-trading-api-openapi.yml
   format: yaml
   label: TD Ameritrade Accounts and Trading API
   slug: td-ameritrade-accounts-and-trading-api
   spec_type: OpenAPI
-  url: https://developer.tdameritrade.com/account-access/apis
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-accounts-and-trading-api-openapi.yml
+- filename: td-ameritrade-authentication-api-openapi.yml
+  format: yaml
+  label: TD Ameritrade Authentication API
+  slug: td-ameritrade-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-authentication-api-openapi.yml
+- filename: td-ameritrade-instruments-api-openapi.yml
+  format: yaml
+  label: TD Ameritrade Instruments API
+  slug: td-ameritrade-instruments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-instruments-api-openapi.yml
+- filename: td-ameritrade-market-hours-api-openapi.yml
+  format: yaml
+  label: TD Ameritrade Market Hours API
+  slug: td-ameritrade-market-hours-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-market-hours-api-openapi.yml
+- filename: td-ameritrade-movers-api-openapi.yml
+  format: yaml
+  label: TD Ameritrade Movers API
+  slug: td-ameritrade-movers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-movers-api-openapi.yml
+- filename: td-ameritrade-option-chains-api-openapi.yml
+  format: yaml
+  label: TD Ameritrade Option Chains API
+  slug: td-ameritrade-option-chains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-option-chains-api-openapi.yml
+- filename: td-ameritrade-price-history-api-openapi.yml
+  format: yaml
+  label: TD Ameritrade Price History API
+  slug: td-ameritrade-price-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-price-history-api-openapi.yml
+- filename: td-ameritrade-quotes-api-openapi.yml
+  format: yaml
+  label: TD Ameritrade Quotes API
+  slug: td-ameritrade-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-quotes-api-openapi.yml
+- filename: td-ameritrade-transaction-history-api-openapi.yml
+  format: yaml
+  label: TD Ameritrade Transaction History API
+  slug: td-ameritrade-transaction-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-transaction-history-api-openapi.yml
+- filename: td-ameritrade-user-info-preferences-api-openapi.yml
+  format: yaml
+  label: TD Ameritrade User Info & Preferences API
+  slug: td-ameritrade-user-info-preferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-user-info-preferences-api-openapi.yml
+- filename: td-ameritrade-watchlist-api-openapi.yml
+  format: yaml
+  label: TD Ameritrade Watchlist API
+  slug: td-ameritrade-watchlist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-watchlist-api-openapi.yml
 description: ''
 domains:
 - caa: []

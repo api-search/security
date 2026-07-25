@@ -1,17 +1,71 @@
 ---
 api_specs:
-- filename: teradata-querygrid-manager-api.yaml
+- filename: teradata-api-info-api-openapi.yml
   format: yaml
-  label: Teradata QueryGrid Manager API
-  slug: querygrid-manager-api
+  label: Teradata API Info API
+  slug: teradata-api-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-querygrid-manager-api.yaml
-- filename: teradata-query-service-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-api-info-api-openapi.yml
+- filename: teradata-configuration-api-openapi.yml
   format: yaml
-  label: Teradata Query Service API
-  slug: query-service-api
+  label: Teradata Configuration API
+  slug: teradata-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-query-service-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-configuration-api-openapi.yml
+- filename: teradata-issues-api-openapi.yml
+  format: yaml
+  label: Teradata Issues API
+  slug: teradata-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-issues-api-openapi.yml
+- filename: teradata-managers-api-openapi.yml
+  format: yaml
+  label: Teradata Managers API
+  slug: teradata-managers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-managers-api-openapi.yml
+- filename: teradata-nodes-api-openapi.yml
+  format: yaml
+  label: Teradata Nodes API
+  slug: teradata-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-nodes-api-openapi.yml
+- filename: teradata-operations-api-openapi.yml
+  format: yaml
+  label: Teradata Operations API
+  slug: teradata-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-operations-api-openapi.yml
+- filename: teradata-queries-api-openapi.yml
+  format: yaml
+  label: Teradata Queries API
+  slug: teradata-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-queries-api-openapi.yml
+- filename: teradata-sessions-api-openapi.yml
+  format: yaml
+  label: Teradata Sessions API
+  slug: teradata-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-sessions-api-openapi.yml
+- filename: teradata-software-api-openapi.yml
+  format: yaml
+  label: Teradata Software API
+  slug: teradata-software-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-software-api-openapi.yml
+- filename: teradata-systems-api-openapi.yml
+  format: yaml
+  label: Teradata Systems API
+  slug: teradata-systems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-systems-api-openapi.yml
+- filename: teradata-users-api-openapi.yml
+  format: yaml
+  label: Teradata Users API
+  slug: teradata-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

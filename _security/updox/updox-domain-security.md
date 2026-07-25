@@ -1,23 +1,29 @@
 ---
 api_specs:
-- filename: updox-openapi.yml
+- filename: updox-address-book-api-openapi.yml
   format: yaml
   label: Updox Address Book API
   slug: updox-address-book-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/updox/refs/heads/main/openapi/updox-openapi.yml
-- filename: updox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/updox/refs/heads/main/openapi/updox-address-book-api-openapi.yml
+- filename: updox-faxing-api-openapi.yml
   format: yaml
   label: Updox Faxing API
   slug: updox-faxing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/updox/refs/heads/main/openapi/updox-openapi.yml
-- filename: updox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/updox/refs/heads/main/openapi/updox-faxing-api-openapi.yml
+- filename: updox-ping-api-openapi.yml
+  format: yaml
+  label: Updox Ping API
+  slug: updox-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/updox/refs/heads/main/openapi/updox-ping-api-openapi.yml
+- filename: updox-video-chat-api-openapi.yml
   format: yaml
   label: Updox Video Chat API
   slug: updox-video-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/updox/refs/heads/main/openapi/updox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/updox/refs/heads/main/openapi/updox-video-chat-api-openapi.yml
 description: ''
 domains:
 - caa: []

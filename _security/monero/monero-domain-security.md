@@ -1,17 +1,53 @@
 ---
 api_specs:
-- filename: monero-daemon-rpc-openapi.json
-  format: json
-  label: Monero Daemon RPC API
-  slug: monero-daemon-rpc-api
+- filename: monero-blockchain-api-openapi.yml
+  format: yaml
+  label: Monero Blockchain API
+  slug: monero-blockchain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-daemon-rpc-openapi.json
-- filename: monero-wallet-rpc-openapi.json
-  format: json
-  label: Monero Wallet RPC API
-  slug: monero-wallet-rpc-api
+  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-blockchain-api-openapi.yml
+- filename: monero-json-rpc-api-openapi.yml
+  format: yaml
+  label: Monero JSON-RPC API
+  slug: monero-json-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-wallet-rpc-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-json-rpc-api-openapi.yml
+- filename: monero-mining-api-openapi.yml
+  format: yaml
+  label: Monero Mining API
+  slug: monero-mining-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-mining-api-openapi.yml
+- filename: monero-network-api-openapi.yml
+  format: yaml
+  label: Monero Network API
+  slug: monero-network-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-network-api-openapi.yml
+- filename: monero-node-info-api-openapi.yml
+  format: yaml
+  label: Monero Node Info API
+  slug: monero-node-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-node-info-api-openapi.yml
+- filename: monero-outputs-api-openapi.yml
+  format: yaml
+  label: Monero Outputs API
+  slug: monero-outputs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-outputs-api-openapi.yml
+- filename: monero-transaction-pool-api-openapi.yml
+  format: yaml
+  label: Monero Transaction Pool API
+  slug: monero-transaction-pool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-transaction-pool-api-openapi.yml
+- filename: monero-transactions-api-openapi.yml
+  format: yaml
+  label: Monero Transactions API
+  slug: monero-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: aspentech-inmation-web-openapi.yml
+- filename: aspentech-data-api-openapi.yml
   format: yaml
-  label: AspenTech Inmation Web API
-  slug: inmation-web-api
+  label: AspenTech Data API
+  slug: aspentech-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/openapi/aspentech-inmation-web-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/openapi/aspentech-data-api-openapi.yml
+- filename: aspentech-historical-api-openapi.yml
+  format: yaml
+  label: AspenTech Historical API
+  slug: aspentech-historical-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/openapi/aspentech-historical-api-openapi.yml
+- filename: aspentech-items-api-openapi.yml
+  format: yaml
+  label: AspenTech Items API
+  slug: aspentech-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/openapi/aspentech-items-api-openapi.yml
+- filename: aspentech-system-api-openapi.yml
+  format: yaml
+  label: AspenTech System API
+  slug: aspentech-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/openapi/aspentech-system-api-openapi.yml
 auth_types:
 - http
 description: ''

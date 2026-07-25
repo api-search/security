@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: amazon-lex-bots-api-openapi.yml
   format: yaml
-  label: Amazon Lex API
-  slug: amazon-lex-api
+  label: Amazon Lex Bots API
+  slug: amazon-lex-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-bots-api-openapi.yml
 description: ''
 domains:
 - caa: []

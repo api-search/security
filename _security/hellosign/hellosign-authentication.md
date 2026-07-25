@@ -1,12 +1,78 @@
 ---
 api_key_in: []
 api_specs:
-- filename: hellosign-openapi-original.yaml
+- filename: hellosign-account-api-openapi.yml
   format: yaml
-  label: Dropbox Sign API
-  slug: dropbox-sign-api
+  label: Dropbox Sign (HelloSign) Account API
+  slug: hellosign-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-openapi-original.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-account-api-openapi.yml
+- filename: hellosign-api-app-api-openapi.yml
+  format: yaml
+  label: Dropbox Sign (HelloSign) Api App API
+  slug: hellosign-api-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-api-app-api-openapi.yml
+- filename: hellosign-bulk-send-job-api-openapi.yml
+  format: yaml
+  label: Dropbox Sign (HelloSign) Bulk Send Job API
+  slug: hellosign-bulk-send-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-bulk-send-job-api-openapi.yml
+- filename: hellosign-embedded-api-openapi.yml
+  format: yaml
+  label: Dropbox Sign (HelloSign) Embedded API
+  slug: hellosign-embedded-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-embedded-api-openapi.yml
+- filename: hellosign-fax-api-openapi.yml
+  format: yaml
+  label: Dropbox Sign (HelloSign) Fax API
+  slug: hellosign-fax-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-fax-api-openapi.yml
+- filename: hellosign-fax-line-api-openapi.yml
+  format: yaml
+  label: Dropbox Sign (HelloSign) Fax Line API
+  slug: hellosign-fax-line-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-fax-line-api-openapi.yml
+- filename: hellosign-oauth-api-openapi.yml
+  format: yaml
+  label: Dropbox Sign (HelloSign) OAuth API
+  slug: hellosign-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-oauth-api-openapi.yml
+- filename: hellosign-report-api-openapi.yml
+  format: yaml
+  label: Dropbox Sign (HelloSign) Report API
+  slug: hellosign-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-report-api-openapi.yml
+- filename: hellosign-signature-request-api-openapi.yml
+  format: yaml
+  label: Dropbox Sign (HelloSign) Signature Request API
+  slug: hellosign-signature-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-signature-request-api-openapi.yml
+- filename: hellosign-team-api-openapi.yml
+  format: yaml
+  label: Dropbox Sign (HelloSign) Team API
+  slug: hellosign-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-team-api-openapi.yml
+- filename: hellosign-template-api-openapi.yml
+  format: yaml
+  label: Dropbox Sign (HelloSign) Template API
+  slug: hellosign-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-template-api-openapi.yml
+- filename: hellosign-unclaimed-draft-api-openapi.yml
+  format: yaml
+  label: Dropbox Sign (HelloSign) Unclaimed Draft API
+  slug: hellosign-unclaimed-draft-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-unclaimed-draft-api-openapi.yml
 auth_types:
 - http
 description: ''

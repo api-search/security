@@ -1,17 +1,113 @@
 ---
 api_specs:
-- filename: algod.oas3.yml
+- filename: algorand-common-api-openapi.yml
   format: yaml
-  label: Algorand Algod REST API
-  slug: algorand-algod-api
+  label: Algorand common API
+  slug: algorand-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/algorand/go-algorand/master/daemon/algod/api/algod.oas3.yml
-- filename: indexer.oas3.yml
+  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-common-api-openapi.yml
+- filename: algorand-data-api-openapi.yml
   format: yaml
-  label: Algorand Indexer REST API
-  slug: algorand-indexer-api
+  label: Algorand data API
+  slug: algorand-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/algorand/indexer/main/api/indexer.oas3.yml
+  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-data-api-openapi.yml
+- filename: algorand-experimental-api-openapi.yml
+  format: yaml
+  label: Algorand experimental API
+  slug: algorand-experimental-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-experimental-api-openapi.yml
+- filename: algorand-key-api-openapi.yml
+  format: yaml
+  label: Algorand Key API
+  slug: algorand-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-key-api-openapi.yml
+- filename: algorand-lookup-api-openapi.yml
+  format: yaml
+  label: Algorand lookup API
+  slug: algorand-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-lookup-api-openapi.yml
+- filename: algorand-master-key-api-openapi.yml
+  format: yaml
+  label: Algorand Master Key API
+  slug: algorand-master-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-master-key-api-openapi.yml
+- filename: algorand-multisig-api-openapi.yml
+  format: yaml
+  label: Algorand Multisig API
+  slug: algorand-multisig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-multisig-api-openapi.yml
+- filename: algorand-nonparticipating-api-openapi.yml
+  format: yaml
+  label: Algorand nonparticipating API
+  slug: algorand-nonparticipating-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-nonparticipating-api-openapi.yml
+- filename: algorand-participating-api-openapi.yml
+  format: yaml
+  label: Algorand participating API
+  slug: algorand-participating-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-participating-api-openapi.yml
+- filename: algorand-private-api-openapi.yml
+  format: yaml
+  label: Algorand private API
+  slug: algorand-private-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-private-api-openapi.yml
+- filename: algorand-program-api-openapi.yml
+  format: yaml
+  label: Algorand Program API
+  slug: algorand-program-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-program-api-openapi.yml
+- filename: algorand-public-api-openapi.yml
+  format: yaml
+  label: Algorand public API
+  slug: algorand-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-public-api-openapi.yml
+- filename: algorand-search-api-openapi.yml
+  format: yaml
+  label: Algorand search API
+  slug: algorand-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-search-api-openapi.yml
+- filename: algorand-swagger-json-api-openapi.yml
+  format: yaml
+  label: Algorand Swagger.json API
+  slug: algorand-swagger-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-swagger-json-api-openapi.yml
+- filename: algorand-transaction-api-openapi.yml
+  format: yaml
+  label: Algorand Transaction API
+  slug: algorand-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-transaction-api-openapi.yml
+- filename: algorand-versions-api-openapi.yml
+  format: yaml
+  label: Algorand Versions API
+  slug: algorand-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-versions-api-openapi.yml
+- filename: algorand-wallet-api-openapi.yml
+  format: yaml
+  label: Algorand Wallet API
+  slug: algorand-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-wallet-api-openapi.yml
+- filename: algorand-wallets-api-openapi.yml
+  format: yaml
+  label: Algorand Wallets API
+  slug: algorand-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-wallets-api-openapi.yml
 description: ''
 domains:
 - caa: []

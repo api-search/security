@@ -1,54 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cudo-compute-openapi.yml
-  format: yaml
-  label: CUDO Compute Virtual Machines API
-  slug: virtual-machines
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-openapi.yml
-- filename: cudo-compute-openapi.yml
-  format: yaml
-  label: CUDO Compute Machine Types API
-  slug: machine-types
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-openapi.yml
-- filename: cudo-compute-openapi.yml
-  format: yaml
-  label: CUDO Compute Data Centers API
-  slug: data-centers
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-openapi.yml
-- filename: cudo-compute-openapi.yml
-  format: yaml
-  label: CUDO Compute Disks & Storage API
-  slug: disks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-openapi.yml
-- filename: cudo-compute-openapi.yml
-  format: yaml
-  label: CUDO Compute Networks API
-  slug: networks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-openapi.yml
-- filename: cudo-compute-openapi.yml
-  format: yaml
-  label: CUDO Compute Images API
-  slug: images
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-openapi.yml
-- filename: cudo-compute-openapi.yml
-  format: yaml
-  label: CUDO Compute SSH Keys API
-  slug: ssh-keys
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-openapi.yml
-- filename: cudo-compute-openapi.yml
+- filename: cudo-compute-billing-api-openapi.yml
   format: yaml
   label: CUDO Compute Billing API
-  slug: billing
+  slug: cudo-compute-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-billing-api-openapi.yml
+- filename: cudo-compute-data-centers-api-openapi.yml
+  format: yaml
+  label: CUDO Compute Data Centers API
+  slug: cudo-compute-data-centers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-data-centers-api-openapi.yml
+- filename: cudo-compute-disks-api-openapi.yml
+  format: yaml
+  label: CUDO Compute Disks API
+  slug: cudo-compute-disks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-disks-api-openapi.yml
+- filename: cudo-compute-images-api-openapi.yml
+  format: yaml
+  label: CUDO Compute Images API
+  slug: cudo-compute-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-images-api-openapi.yml
+- filename: cudo-compute-machine-types-api-openapi.yml
+  format: yaml
+  label: CUDO Compute Machine Types API
+  slug: cudo-compute-machine-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-machine-types-api-openapi.yml
+- filename: cudo-compute-networks-api-openapi.yml
+  format: yaml
+  label: CUDO Compute Networks API
+  slug: cudo-compute-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-networks-api-openapi.yml
+- filename: cudo-compute-ssh-keys-api-openapi.yml
+  format: yaml
+  label: CUDO Compute SSH Keys API
+  slug: cudo-compute-ssh-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-ssh-keys-api-openapi.yml
+- filename: cudo-compute-virtual-machines-api-openapi.yml
+  format: yaml
+  label: CUDO Compute Virtual Machines API
+  slug: cudo-compute-virtual-machines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-virtual-machines-api-openapi.yml
 auth_types:
 - http
 description: ''

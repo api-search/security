@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: pika-text-to-video-openapi.yml
+- filename: pika-fal-ai-api-openapi.yml
   format: yaml
-  label: Pika Video API
-  slug: pika-video-api
+  label: Pika Fal Ai API
+  slug: pika-fal-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pika/refs/heads/main/openapi/pika-text-to-video-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pika/refs/heads/main/openapi/pika-fal-ai-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

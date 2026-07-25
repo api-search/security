@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: babylon-labs-staking-api-openapi-original.yml
+- filename: babylon-labs-shared-api-openapi.yml
   format: yaml
-  label: Babylon Staking API
-  slug: babylon-staking-api
+  label: Babylon Labs shared API
+  slug: babylon-labs-shared-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-staking-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-shared-api-openapi.yml
+- filename: babylon-labs-v1-api-openapi.yml
+  format: yaml
+  label: Babylon Labs v1 API
+  slug: babylon-labs-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-v1-api-openapi.yml
+- filename: babylon-labs-v2-api-openapi.yml
+  format: yaml
+  label: Babylon Labs v2 API
+  slug: babylon-labs-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-v2-api-openapi.yml
 description: ''
 domains:
 - caa:

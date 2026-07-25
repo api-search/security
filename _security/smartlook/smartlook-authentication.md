@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: llms.txt
+- filename: smartlook-events-api-openapi.yml
   format: yaml
-  label: Smartlook REST API
-  slug: smartlook-rest-api
+  label: Smartlook Events API
+  slug: smartlook-events-api
   spec_type: OpenAPI
-  url: https://integrations.smartlook.com/llms.txt
+  url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-events-api-openapi.yml
+- filename: smartlook-funnels-api-openapi.yml
+  format: yaml
+  label: Smartlook Funnels API
+  slug: smartlook-funnels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-funnels-api-openapi.yml
+- filename: smartlook-mappingfiles-api-openapi.yml
+  format: yaml
+  label: Smartlook mappingFiles API
+  slug: smartlook-mappingfiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-mappingfiles-api-openapi.yml
+- filename: smartlook-sessions-api-openapi.yml
+  format: yaml
+  label: Smartlook Sessions API
+  slug: smartlook-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-sessions-api-openapi.yml
+- filename: smartlook-system-api-openapi.yml
+  format: yaml
+  label: Smartlook System API
+  slug: smartlook-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-system-api-openapi.yml
+- filename: smartlook-visitors-api-openapi.yml
+  format: yaml
+  label: Smartlook Visitors API
+  slug: smartlook-visitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-visitors-api-openapi.yml
+- filename: smartlook-webhooks-api-openapi.yml
+  format: yaml
+  label: Smartlook Webhooks API
+  slug: smartlook-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

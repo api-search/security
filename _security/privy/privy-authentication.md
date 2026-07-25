@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: privy-openapi.yml
+- filename: privy-users-api-openapi.yml
   format: yaml
-  label: Privy REST API
-  slug: rest-api
+  label: Privy Users API
+  slug: privy-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/privy/refs/heads/main/openapi/privy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/privy/refs/heads/main/openapi/privy-users-api-openapi.yml
+- filename: privy-wallets-api-openapi.yml
+  format: yaml
+  label: Privy Wallets API
+  slug: privy-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/privy/refs/heads/main/openapi/privy-wallets-api-openapi.yml
 auth_types:
 - http
 description: ''

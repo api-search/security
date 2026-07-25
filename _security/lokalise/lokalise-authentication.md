@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: lokalise-openapi.yml
+- filename: lokalise-files-api-openapi.yml
   format: yaml
-  label: Lokalise API v2
-  slug: api-v2
+  label: Lokalise Files API
+  slug: lokalise-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-files-api-openapi.yml
+- filename: lokalise-keys-api-openapi.yml
+  format: yaml
+  label: Lokalise Keys API
+  slug: lokalise-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-keys-api-openapi.yml
+- filename: lokalise-projects-api-openapi.yml
+  format: yaml
+  label: Lokalise Projects API
+  slug: lokalise-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-projects-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

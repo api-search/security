@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: surge-ai-projects-api-openapi.yml
+  format: yaml
+  label: Surge AI Projects API
+  slug: surge-ai-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/surge-ai/refs/heads/main/openapi/surge-ai-projects-api-openapi.yml
+- filename: surge-ai-tasks-api-openapi.yml
+  format: yaml
+  label: Surge AI Tasks API
+  slug: surge-ai-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/surge-ai/refs/heads/main/openapi/surge-ai-tasks-api-openapi.yml
+- filename: surge-ai-teams-api-openapi.yml
+  format: yaml
+  label: Surge AI Teams API
+  slug: surge-ai-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/surge-ai/refs/heads/main/openapi/surge-ai-teams-api-openapi.yml
 description: ''
 domains:
 - caa: []

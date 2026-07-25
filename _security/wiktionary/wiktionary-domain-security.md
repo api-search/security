@@ -1,23 +1,71 @@
 ---
 api_specs:
-- filename: wiktionary-mediawiki-action-api-openapi-original.yml
+- filename: wiktionary-definition-api-openapi.yml
   format: yaml
-  label: MediaWiki Action API (Wiktionary)
-  slug: mediawiki-action-api-wiktionary
+  label: Wiktionary Definition API
+  slug: wiktionary-definition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-mediawiki-action-api-openapi-original.yml
-- filename: wiktionary-rest-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-definition-api-openapi.yml
+- filename: wiktionary-expandtemplates-api-openapi.yml
   format: yaml
-  label: Wikimedia REST API (Wiktionary)
-  slug: wikimedia-rest-api-wiktionary
+  label: Wiktionary ExpandTemplates API
+  slug: wiktionary-expandtemplates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-rest-api-openapi-original.yml
-- filename: wiktionary-core-rest-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-expandtemplates-api-openapi.yml
+- filename: wiktionary-file-api-openapi.yml
   format: yaml
-  label: MediaWiki Core REST API (Wiktionary)
-  slug: mediawiki-core-rest-api-wiktionary
+  label: Wiktionary File API
+  slug: wiktionary-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-core-rest-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-file-api-openapi.yml
+- filename: wiktionary-history-api-openapi.yml
+  format: yaml
+  label: Wiktionary History API
+  slug: wiktionary-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-history-api-openapi.yml
+- filename: wiktionary-opensearch-api-openapi.yml
+  format: yaml
+  label: Wiktionary OpenSearch API
+  slug: wiktionary-opensearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-opensearch-api-openapi.yml
+- filename: wiktionary-page-api-openapi.yml
+  format: yaml
+  label: Wiktionary Page API
+  slug: wiktionary-page-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-page-api-openapi.yml
+- filename: wiktionary-page-content-api-openapi.yml
+  format: yaml
+  label: Wiktionary Page Content API
+  slug: wiktionary-page-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-page-content-api-openapi.yml
+- filename: wiktionary-parse-api-openapi.yml
+  format: yaml
+  label: Wiktionary Parse API
+  slug: wiktionary-parse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-parse-api-openapi.yml
+- filename: wiktionary-query-api-openapi.yml
+  format: yaml
+  label: Wiktionary Query API
+  slug: wiktionary-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-query-api-openapi.yml
+- filename: wiktionary-search-api-openapi.yml
+  format: yaml
+  label: Wiktionary Search API
+  slug: wiktionary-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-search-api-openapi.yml
+- filename: wiktionary-transform-api-openapi.yml
+  format: yaml
+  label: Wiktionary Transform API
+  slug: wiktionary-transform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-transform-api-openapi.yml
 description: ''
 domains:
 - caa:

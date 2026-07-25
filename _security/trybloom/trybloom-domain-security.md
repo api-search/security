@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: trybloom-api-openapi.json
-  format: json
-  label: Bloom API
-  slug: bloom-api
+- filename: trybloom-account-api-openapi.yml
+  format: yaml
+  label: Bloom Account API
+  slug: trybloom-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/openapi/trybloom-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/openapi/trybloom-account-api-openapi.yml
+- filename: trybloom-brands-api-openapi.yml
+  format: yaml
+  label: Bloom Brands API
+  slug: trybloom-brands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/openapi/trybloom-brands-api-openapi.yml
+- filename: trybloom-images-api-openapi.yml
+  format: yaml
+  label: Bloom Images API
+  slug: trybloom-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/openapi/trybloom-images-api-openapi.yml
 description: ''
 domains:
 - caa:

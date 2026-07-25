@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: seon-tech-openapi.yml
-  format: yaml
-  label: SEON Fraud API
-  slug: fraud-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-openapi.yml
-- filename: seon-tech-openapi.yml
-  format: yaml
-  label: SEON Email API
-  slug: email-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-openapi.yml
-- filename: seon-tech-openapi.yml
-  format: yaml
-  label: SEON Phone API
-  slug: phone-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-openapi.yml
-- filename: seon-tech-openapi.yml
-  format: yaml
-  label: SEON IP API
-  slug: ip-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-openapi.yml
-- filename: seon-tech-openapi.yml
-  format: yaml
-  label: SEON BIN API
-  slug: bin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-openapi.yml
-- filename: seon-tech-openapi.yml
+- filename: seon-tech-aml-api-openapi.yml
   format: yaml
   label: SEON AML API
-  slug: aml-api
+  slug: seon-tech-aml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-aml-api-openapi.yml
+- filename: seon-tech-bin-api-openapi.yml
+  format: yaml
+  label: SEON BIN API
+  slug: seon-tech-bin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-bin-api-openapi.yml
+- filename: seon-tech-email-api-openapi.yml
+  format: yaml
+  label: SEON Email API
+  slug: seon-tech-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-email-api-openapi.yml
+- filename: seon-tech-fraud-api-openapi.yml
+  format: yaml
+  label: SEON Fraud API
+  slug: seon-tech-fraud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-fraud-api-openapi.yml
+- filename: seon-tech-ip-api-openapi.yml
+  format: yaml
+  label: SEON IP API
+  slug: seon-tech-ip-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-ip-api-openapi.yml
+- filename: seon-tech-phone-api-openapi.yml
+  format: yaml
+  label: SEON Phone API
+  slug: seon-tech-phone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-phone-api-openapi.yml
 description: ''
 domains:
 - caa:

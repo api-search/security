@@ -1,23 +1,29 @@
 ---
 api_specs:
-- filename: cachet-parking-openapi.yml
+- filename: cachet-connect-api-openapi.yml
   format: yaml
-  label: Cachet Parking API
-  slug: cachet-parking-api
+  label: Cachet Connect API
+  slug: cachet-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/openapi/cachet-parking-openapi.yml
-- filename: cachet-verify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/openapi/cachet-connect-api-openapi.yml
+- filename: cachet-gig-events-api-openapi.yml
   format: yaml
-  label: Cachet Verify / Platform API
-  slug: cachet-verify-platform-api
+  label: Cachet Gig-Events API
+  slug: cachet-gig-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/openapi/cachet-verify-openapi.yml
-- filename: cachet-partners-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/openapi/cachet-gig-events-api-openapi.yml
+- filename: cachet-user-api-openapi.yml
   format: yaml
-  label: Cachet Partners API
-  slug: cachet-partners-api
+  label: Cachet User API
+  slug: cachet-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/openapi/cachet-partners-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/openapi/cachet-user-api-openapi.yml
+- filename: cachet-vehicle-events-api-openapi.yml
+  format: yaml
+  label: Cachet Vehicle events API
+  slug: cachet-vehicle-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/openapi/cachet-vehicle-events-api-openapi.yml
 description: ''
 domains:
 - caa:

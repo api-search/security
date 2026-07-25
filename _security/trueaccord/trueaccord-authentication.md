@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: trueaccord-recover-openapi.yml
+- filename: trueaccord-customers-api-openapi.yml
   format: yaml
-  label: TrueAccord Recover API
-  slug: trueaccord-recover-api
+  label: TrueAccord Customers API
+  slug: trueaccord-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trueaccord/refs/heads/main/openapi/trueaccord-recover-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trueaccord/refs/heads/main/openapi/trueaccord-customers-api-openapi.yml
 auth_types:
 - http
 description: ''

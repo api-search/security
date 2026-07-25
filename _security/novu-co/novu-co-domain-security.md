@@ -1,83 +1,83 @@
 ---
 api_specs:
-- filename: novu-co-openapi.yml
-  format: yaml
-  label: Novu Events API
-  slug: novu-co-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-openapi.yml
-- filename: novu-co-openapi.yml
-  format: yaml
-  label: Novu Subscribers API
-  slug: novu-co-subscribers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-openapi.yml
-- filename: novu-co-openapi.yml
-  format: yaml
-  label: Novu Topics API
-  slug: novu-co-topics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-openapi.yml
-- filename: novu-co-openapi.yml
-  format: yaml
-  label: Novu Inbox API
-  slug: novu-co-inbox-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-openapi.yml
-- filename: novu-co-openapi.yml
-  format: yaml
-  label: Novu Messages API
-  slug: novu-co-messages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-openapi.yml
-- filename: novu-co-openapi.yml
-  format: yaml
-  label: Novu Notifications API
-  slug: novu-co-notifications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-openapi.yml
-- filename: novu-co-openapi.yml
-  format: yaml
-  label: Novu Workflows API
-  slug: novu-co-workflows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-openapi.yml
-- filename: novu-co-openapi.yml
-  format: yaml
-  label: Novu Integrations API
-  slug: novu-co-integrations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-openapi.yml
-- filename: novu-co-openapi.yml
-  format: yaml
-  label: Novu Layouts API
-  slug: novu-co-layouts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-openapi.yml
-- filename: novu-co-openapi.yml
-  format: yaml
-  label: Novu Subscriber Preferences API
-  slug: novu-co-subscriber-preferences-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-openapi.yml
-- filename: novu-co-openapi.yml
-  format: yaml
-  label: Novu Environments API
-  slug: novu-co-environments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-openapi.yml
-- filename: novu-co-openapi.yml
-  format: yaml
-  label: Novu Translations API
-  slug: novu-co-translations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-openapi.yml
 - filename: novu-co-asyncapi.yml
   format: yaml
   label: Novu Inbox Realtime API
   slug: novu-co-inbox-realtime-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/asyncapi/novu-co-asyncapi.yml
+- filename: novu-co-environments-api-openapi.yml
+  format: yaml
+  label: Novu Environments API
+  slug: novu-co-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-environments-api-openapi.yml
+- filename: novu-co-events-api-openapi.yml
+  format: yaml
+  label: Novu Events API
+  slug: novu-co-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-events-api-openapi.yml
+- filename: novu-co-inbox-api-openapi.yml
+  format: yaml
+  label: Novu Inbox API
+  slug: novu-co-inbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-inbox-api-openapi.yml
+- filename: novu-co-integrations-api-openapi.yml
+  format: yaml
+  label: Novu Integrations API
+  slug: novu-co-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-integrations-api-openapi.yml
+- filename: novu-co-layouts-api-openapi.yml
+  format: yaml
+  label: Novu Layouts API
+  slug: novu-co-layouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-layouts-api-openapi.yml
+- filename: novu-co-messages-api-openapi.yml
+  format: yaml
+  label: Novu Messages API
+  slug: novu-co-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-messages-api-openapi.yml
+- filename: novu-co-notifications-api-openapi.yml
+  format: yaml
+  label: Novu Notifications API
+  slug: novu-co-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-notifications-api-openapi.yml
+- filename: novu-co-preferences-api-openapi.yml
+  format: yaml
+  label: Novu Preferences API
+  slug: novu-co-preferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-preferences-api-openapi.yml
+- filename: novu-co-subscribers-api-openapi.yml
+  format: yaml
+  label: Novu Subscribers API
+  slug: novu-co-subscribers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-subscribers-api-openapi.yml
+- filename: novu-co-topics-api-openapi.yml
+  format: yaml
+  label: Novu Topics API
+  slug: novu-co-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-topics-api-openapi.yml
+- filename: novu-co-translations-api-openapi.yml
+  format: yaml
+  label: Novu Translations API
+  slug: novu-co-translations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-translations-api-openapi.yml
+- filename: novu-co-workflows-api-openapi.yml
+  format: yaml
+  label: Novu Workflows API
+  slug: novu-co-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/novu-co/refs/heads/main/openapi/novu-co-workflows-api-openapi.yml
 description: ''
 domains:
 - caa:

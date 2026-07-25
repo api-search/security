@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: rancher-management-api-openapi.yml
+- filename: rancher-apps-api-openapi.yml
   format: yaml
-  label: Rancher Management API
-  slug: rancher-management-api
+  label: Rancher Apps API
+  slug: rancher-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-apps-api-openapi.yml
+- filename: rancher-catalogs-api-openapi.yml
+  format: yaml
+  label: Rancher Catalogs API
+  slug: rancher-catalogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-catalogs-api-openapi.yml
+- filename: rancher-clusters-api-openapi.yml
+  format: yaml
+  label: Rancher Clusters API
+  slug: rancher-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-clusters-api-openapi.yml
+- filename: rancher-nodes-api-openapi.yml
+  format: yaml
+  label: Rancher Nodes API
+  slug: rancher-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-nodes-api-openapi.yml
+- filename: rancher-projects-api-openapi.yml
+  format: yaml
+  label: Rancher Projects API
+  slug: rancher-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-projects-api-openapi.yml
+- filename: rancher-roles-api-openapi.yml
+  format: yaml
+  label: Rancher Roles API
+  slug: rancher-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-roles-api-openapi.yml
+- filename: rancher-tokens-api-openapi.yml
+  format: yaml
+  label: Rancher Tokens API
+  slug: rancher-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-tokens-api-openapi.yml
+- filename: rancher-users-api-openapi.yml
+  format: yaml
+  label: Rancher Users API
+  slug: rancher-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-users-api-openapi.yml
 auth_types:
 - http
 description: ''

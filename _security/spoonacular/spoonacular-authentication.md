@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: spoonacular-openapi.yml
+- filename: spoonacular-ingredients-api-openapi.yml
   format: yaml
-  label: Spoonacular
-  slug: spoonacular
+  label: Spoonacular Ingredients API
+  slug: spoonacular-ingredients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/openapi/spoonacular-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/openapi/spoonacular-ingredients-api-openapi.yml
+- filename: spoonacular-meal-planning-api-openapi.yml
+  format: yaml
+  label: Spoonacular Meal Planning API
+  slug: spoonacular-meal-planning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/openapi/spoonacular-meal-planning-api-openapi.yml
+- filename: spoonacular-menu-items-api-openapi.yml
+  format: yaml
+  label: Spoonacular Menu Items API
+  slug: spoonacular-menu-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/openapi/spoonacular-menu-items-api-openapi.yml
+- filename: spoonacular-misc-api-openapi.yml
+  format: yaml
+  label: Spoonacular Misc API
+  slug: spoonacular-misc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/openapi/spoonacular-misc-api-openapi.yml
+- filename: spoonacular-products-api-openapi.yml
+  format: yaml
+  label: Spoonacular Products API
+  slug: spoonacular-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/openapi/spoonacular-products-api-openapi.yml
+- filename: spoonacular-recipes-api-openapi.yml
+  format: yaml
+  label: Spoonacular Recipes API
+  slug: spoonacular-recipes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/openapi/spoonacular-recipes-api-openapi.yml
+- filename: spoonacular-wine-api-openapi.yml
+  format: yaml
+  label: Spoonacular Wine API
+  slug: spoonacular-wine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/openapi/spoonacular-wine-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

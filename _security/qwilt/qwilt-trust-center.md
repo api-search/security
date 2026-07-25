@@ -1,23 +1,41 @@
 ---
 api_specs:
-- filename: qwilt-media-delivery-openapi.yml
+- filename: qwilt-certificate-templates-api-openapi.yml
   format: yaml
-  label: Qwilt CDN Media Delivery (Sites) API
-  slug: qwilt-cdn-media-delivery-sites-api
+  label: Qwilt Certificate Templates API
+  slug: qwilt-certificate-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-media-delivery-openapi.yml
-- filename: qwilt-certificate-manager-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-certificate-templates-api-openapi.yml
+- filename: qwilt-certificates-api-openapi.yml
   format: yaml
-  label: Qwilt CDN Certificate Manager API
-  slug: qwilt-cdn-certificate-manager-api
+  label: Qwilt Certificates API
+  slug: qwilt-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-certificate-manager-openapi.yml
-- filename: qwilt-origin-allow-list-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-certificates-api-openapi.yml
+- filename: qwilt-origin-allow-list-api-openapi.yml
   format: yaml
-  label: Qwilt CDN Origin Allow List API
-  slug: qwilt-cdn-origin-allow-list-api
+  label: Qwilt Origin Allow List API
+  slug: qwilt-origin-allow-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-origin-allow-list-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-origin-allow-list-api-openapi.yml
+- filename: qwilt-publishing-operations-api-openapi.yml
+  format: yaml
+  label: Qwilt Publishing Operations API
+  slug: qwilt-publishing-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-publishing-operations-api-openapi.yml
+- filename: qwilt-site-configurations-api-openapi.yml
+  format: yaml
+  label: Qwilt Site Configurations API
+  slug: qwilt-site-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-site-configurations-api-openapi.yml
+- filename: qwilt-sites-api-openapi.yml
+  format: yaml
+  label: Qwilt Sites API
+  slug: qwilt-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-sites-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

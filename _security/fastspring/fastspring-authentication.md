@@ -1,12 +1,78 @@
 ---
 api_key_in: []
 api_specs:
-- filename: fastspring-openapi.yml
+- filename: fastspring-accounts-api-openapi.yml
   format: yaml
-  label: FastSpring API
-  slug: commerce-api
+  label: FastSpring Accounts API
+  slug: fastspring-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-accounts-api-openapi.yml
+- filename: fastspring-coupons-api-openapi.yml
+  format: yaml
+  label: FastSpring Coupons API
+  slug: fastspring-coupons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-coupons-api-openapi.yml
+- filename: fastspring-data-api-openapi.yml
+  format: yaml
+  label: FastSpring Data API
+  slug: fastspring-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-data-api-openapi.yml
+- filename: fastspring-events-api-openapi.yml
+  format: yaml
+  label: FastSpring Events API
+  slug: fastspring-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-events-api-openapi.yml
+- filename: fastspring-invoices-api-openapi.yml
+  format: yaml
+  label: FastSpring Invoices API
+  slug: fastspring-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-invoices-api-openapi.yml
+- filename: fastspring-orders-api-openapi.yml
+  format: yaml
+  label: FastSpring Orders API
+  slug: fastspring-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-orders-api-openapi.yml
+- filename: fastspring-products-api-openapi.yml
+  format: yaml
+  label: FastSpring Products API
+  slug: fastspring-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-products-api-openapi.yml
+- filename: fastspring-quotes-api-openapi.yml
+  format: yaml
+  label: FastSpring Quotes API
+  slug: fastspring-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-quotes-api-openapi.yml
+- filename: fastspring-returns-api-openapi.yml
+  format: yaml
+  label: FastSpring Returns API
+  slug: fastspring-returns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-returns-api-openapi.yml
+- filename: fastspring-sessions-api-openapi.yml
+  format: yaml
+  label: FastSpring Sessions API
+  slug: fastspring-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-sessions-api-openapi.yml
+- filename: fastspring-subscriptions-api-openapi.yml
+  format: yaml
+  label: FastSpring Subscriptions API
+  slug: fastspring-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-subscriptions-api-openapi.yml
+- filename: fastspring-webhooks-api-openapi.yml
+  format: yaml
+  label: FastSpring Webhooks API
+  slug: fastspring-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

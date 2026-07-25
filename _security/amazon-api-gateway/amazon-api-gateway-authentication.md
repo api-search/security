@@ -2,18 +2,102 @@
 api_key_in:
 - header
 api_specs:
-- filename: API_Operations.html
-  format: yaml
-  label: Amazon API Gateway REST API
-  slug: rest-api
-  spec_type: OpenAPI
-  url: https://docs.aws.amazon.com/apigateway/latest/api/API_Operations.html
 - filename: amazon-api-gateway-websocket-asyncapi.yml
   format: yaml
   label: Amazon API Gateway WebSocket API
   slug: websocket-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/asyncapi/amazon-api-gateway-websocket-asyncapi.yml
+- filename: amazon-api-gateway-api-keys-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway API Keys API
+  slug: amazon-api-gateway-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/openapi/amazon-api-gateway-api-keys-api-openapi.yml
+- filename: amazon-api-gateway-authorizers-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Authorizers API
+  slug: amazon-api-gateway-authorizers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/openapi/amazon-api-gateway-authorizers-api-openapi.yml
+- filename: amazon-api-gateway-base-path-mappings-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Base Path Mappings API
+  slug: amazon-api-gateway-base-path-mappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/openapi/amazon-api-gateway-base-path-mappings-api-openapi.yml
+- filename: amazon-api-gateway-deployments-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Deployments API
+  slug: amazon-api-gateway-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/openapi/amazon-api-gateway-deployments-api-openapi.yml
+- filename: amazon-api-gateway-documentation-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Documentation API
+  slug: amazon-api-gateway-documentation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/openapi/amazon-api-gateway-documentation-api-openapi.yml
+- filename: amazon-api-gateway-domain-names-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Domain Names API
+  slug: amazon-api-gateway-domain-names-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/openapi/amazon-api-gateway-domain-names-api-openapi.yml
+- filename: amazon-api-gateway-gateway-responses-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Gateway Responses API
+  slug: amazon-api-gateway-gateway-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/openapi/amazon-api-gateway-gateway-responses-api-openapi.yml
+- filename: amazon-api-gateway-methods-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Methods API
+  slug: amazon-api-gateway-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/openapi/amazon-api-gateway-methods-api-openapi.yml
+- filename: amazon-api-gateway-models-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Models API
+  slug: amazon-api-gateway-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/openapi/amazon-api-gateway-models-api-openapi.yml
+- filename: amazon-api-gateway-request-validators-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Request Validators API
+  slug: amazon-api-gateway-request-validators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/openapi/amazon-api-gateway-request-validators-api-openapi.yml
+- filename: amazon-api-gateway-resources-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Resources API
+  slug: amazon-api-gateway-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/openapi/amazon-api-gateway-resources-api-openapi.yml
+- filename: amazon-api-gateway-rest-apis-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway REST APIs API
+  slug: amazon-api-gateway-rest-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/openapi/amazon-api-gateway-rest-apis-api-openapi.yml
+- filename: amazon-api-gateway-stages-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Stages API
+  slug: amazon-api-gateway-stages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/openapi/amazon-api-gateway-stages-api-openapi.yml
+- filename: amazon-api-gateway-usage-plans-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Usage Plans API
+  slug: amazon-api-gateway-usage-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/openapi/amazon-api-gateway-usage-plans-api-openapi.yml
+- filename: amazon-api-gateway-vpc-links-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway VPC Links API
+  slug: amazon-api-gateway-vpc-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/openapi/amazon-api-gateway-vpc-links-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

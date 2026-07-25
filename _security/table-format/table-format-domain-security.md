@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: rest-catalog-open-api.yaml
+- filename: table-format-commits-api-openapi.yml
   format: yaml
-  label: Apache Iceberg REST Catalog API
-  slug: apache-iceberg-rest-catalog
+  label: Table Format Commits API
+  slug: table-format-commits-api
   spec_type: OpenAPI
-  url: https://github.com/apache/iceberg/blob/main/open-api/rest-catalog-open-api.yaml
-- filename: all.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/openapi/table-format-commits-api-openapi.yml
+- filename: table-format-configuration-api-openapi.yml
   format: yaml
-  label: Unity Catalog
-  slug: unity-catalog
+  label: Table Format Configuration API
+  slug: table-format-configuration-api
   spec_type: OpenAPI
-  url: https://github.com/unitycatalog/unitycatalog/blob/main/api/all.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/openapi/table-format-configuration-api-openapi.yml
+- filename: table-format-namespaces-api-openapi.yml
+  format: yaml
+  label: Table Format Namespaces API
+  slug: table-format-namespaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/openapi/table-format-namespaces-api-openapi.yml
+- filename: table-format-oauth2-api-openapi.yml
+  format: yaml
+  label: Table Format OAuth2 API
+  slug: table-format-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/openapi/table-format-oauth2-api-openapi.yml
+- filename: table-format-tables-api-openapi.yml
+  format: yaml
+  label: Table Format Tables API
+  slug: table-format-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/openapi/table-format-tables-api-openapi.yml
+- filename: table-format-views-api-openapi.yml
+  format: yaml
+  label: Table Format Views API
+  slug: table-format-views-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/openapi/table-format-views-api-openapi.yml
 description: ''
 domains:
 - caa:

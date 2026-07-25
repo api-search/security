@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: most-wanted-api-openapi.yml
+- filename: federal-bureau-of-investigation-list-api-openapi.yml
   format: yaml
-  label: FBI Most Wanted
-  slug: most-wanted-api
+  label: Federal Bureau of Investigation List API
+  slug: federal-bureau-of-investigation-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-bureau-of-investigation/refs/heads/main/openapi/most-wanted-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/federal-bureau-of-investigation/refs/heads/main/openapi/federal-bureau-of-investigation-list-api-openapi.yml
 description: ''
 domains:
 - caa:

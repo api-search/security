@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: k6-openapi.yml
+- filename: k6-load-tests-api-openapi.yml
   format: yaml
-  label: K6
-  slug: k6
+  label: K6 Load tests API
+  slug: k6-load-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/openapi/k6-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/openapi/k6-load-tests-api-openapi.yml
+- filename: k6-load-zones-api-openapi.yml
+  format: yaml
+  label: K6 Load zones API
+  slug: k6-load-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/openapi/k6-load-zones-api-openapi.yml
+- filename: k6-projects-api-openapi.yml
+  format: yaml
+  label: K6 Projects API
+  slug: k6-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/openapi/k6-projects-api-openapi.yml
+- filename: k6-schedules-api-openapi.yml
+  format: yaml
+  label: K6 Schedules API
+  slug: k6-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/openapi/k6-schedules-api-openapi.yml
+- filename: k6-test-runs-api-openapi.yml
+  format: yaml
+  label: K6 Test runs API
+  slug: k6-test-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/openapi/k6-test-runs-api-openapi.yml
 description: ''
 domains:
 - caa: []

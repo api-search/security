@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: haekka-public-api-openapi.yml
+- filename: haekka-employee-trainings-api-openapi.yml
   format: yaml
-  label: Haekka Public API
-  slug: haekka-public-api
+  label: Haekka Employee Trainings API
+  slug: haekka-employee-trainings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/haekka/refs/heads/main/openapi/haekka-public-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/haekka/refs/heads/main/openapi/haekka-employee-trainings-api-openapi.yml
+- filename: haekka-employees-api-openapi.yml
+  format: yaml
+  label: Haekka Employees API
+  slug: haekka-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/haekka/refs/heads/main/openapi/haekka-employees-api-openapi.yml
+- filename: haekka-trainings-api-openapi.yml
+  format: yaml
+  label: Haekka Trainings API
+  slug: haekka-trainings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/haekka/refs/heads/main/openapi/haekka-trainings-api-openapi.yml
 auth_types:
 - http
 description: ''

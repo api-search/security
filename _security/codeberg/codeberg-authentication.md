@@ -1,42 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: codeberg-openapi.yml
-  format: yaml
-  label: Codeberg Repositories API
-  slug: codeberg-repositories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeberg/refs/heads/main/openapi/codeberg-openapi.yml
-- filename: codeberg-openapi.yml
-  format: yaml
-  label: Codeberg Issues API
-  slug: codeberg-issues-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeberg/refs/heads/main/openapi/codeberg-openapi.yml
-- filename: codeberg-openapi.yml
-  format: yaml
-  label: Codeberg Pull Requests API
-  slug: codeberg-pull-requests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeberg/refs/heads/main/openapi/codeberg-openapi.yml
-- filename: codeberg-openapi.yml
-  format: yaml
-  label: Codeberg Users and Organizations API
-  slug: codeberg-users-organizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeberg/refs/heads/main/openapi/codeberg-openapi.yml
-- filename: codeberg-openapi.yml
-  format: yaml
-  label: Codeberg Releases API
-  slug: codeberg-releases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeberg/refs/heads/main/openapi/codeberg-openapi.yml
-- filename: codeberg-openapi.yml
+- filename: codeberg-git-content-api-openapi.yml
   format: yaml
   label: Codeberg Git Content API
   slug: codeberg-git-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeberg/refs/heads/main/openapi/codeberg-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/codeberg/refs/heads/main/openapi/codeberg-git-content-api-openapi.yml
+- filename: codeberg-issues-api-openapi.yml
+  format: yaml
+  label: Codeberg Issues API
+  slug: codeberg-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codeberg/refs/heads/main/openapi/codeberg-issues-api-openapi.yml
+- filename: codeberg-miscellaneous-api-openapi.yml
+  format: yaml
+  label: Codeberg Miscellaneous API
+  slug: codeberg-miscellaneous-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codeberg/refs/heads/main/openapi/codeberg-miscellaneous-api-openapi.yml
+- filename: codeberg-organizations-api-openapi.yml
+  format: yaml
+  label: Codeberg Organizations API
+  slug: codeberg-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codeberg/refs/heads/main/openapi/codeberg-organizations-api-openapi.yml
+- filename: codeberg-pull-requests-api-openapi.yml
+  format: yaml
+  label: Codeberg Pull Requests API
+  slug: codeberg-pull-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codeberg/refs/heads/main/openapi/codeberg-pull-requests-api-openapi.yml
+- filename: codeberg-releases-api-openapi.yml
+  format: yaml
+  label: Codeberg Releases API
+  slug: codeberg-releases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codeberg/refs/heads/main/openapi/codeberg-releases-api-openapi.yml
+- filename: codeberg-repositories-api-openapi.yml
+  format: yaml
+  label: Codeberg Repositories API
+  slug: codeberg-repositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codeberg/refs/heads/main/openapi/codeberg-repositories-api-openapi.yml
+- filename: codeberg-users-api-openapi.yml
+  format: yaml
+  label: Codeberg Users API
+  slug: codeberg-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codeberg/refs/heads/main/openapi/codeberg-users-api-openapi.yml
 auth_types:
 - apiKey
 - basic

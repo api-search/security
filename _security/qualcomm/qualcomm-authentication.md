@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: qualcomm-qualcomm-api-openapi.yml
+- filename: qualcomm-semiconductors-api-openapi.yml
   format: yaml
-  label: Qualcomm Developer API
-  slug: qualcomm-api
+  label: qualcomm Semiconductors API
+  slug: qualcomm-semiconductors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualcomm/refs/heads/main/openapi/qualcomm-qualcomm-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qualcomm/refs/heads/main/openapi/qualcomm-semiconductors-api-openapi.yml
 auth_types:
 - http
 description: ''

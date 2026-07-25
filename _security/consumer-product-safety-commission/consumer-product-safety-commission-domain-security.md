@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: cpsc-recalls-openapi.yml
+- filename: consumer-product-safety-commission-recalls-api-openapi.yml
   format: yaml
-  label: CPSC Recalls API
-  slug: recalls
+  label: Consumer Product Safety Commission Recalls API
+  slug: consumer-product-safety-commission-recalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consumer-product-safety-commission/refs/heads/main/openapi/cpsc-recalls-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/consumer-product-safety-commission/refs/heads/main/openapi/consumer-product-safety-commission-recalls-api-openapi.yml
 description: ''
 domains:
 - caa: []

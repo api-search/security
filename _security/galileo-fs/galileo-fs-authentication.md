@@ -1,5 +1,54 @@
 ---
 api_key_in: []
+api_specs:
+- filename: galileo-fs-config-api-openapi.yml
+  format: yaml
+  label: Galileo Financial Technologies Config API
+  slug: galileo-fs-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-config-api-openapi.yml
+- filename: galileo-fs-dispute-api-openapi.yml
+  format: yaml
+  label: Galileo Financial Technologies Dispute API
+  slug: galileo-fs-dispute-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-dispute-api-openapi.yml
+- filename: galileo-fs-events-api-openapi.yml
+  format: yaml
+  label: Galileo Financial Technologies Events API
+  slug: galileo-fs-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-events-api-openapi.yml
+- filename: galileo-fs-externaltransactions-api-openapi.yml
+  format: yaml
+  label: Galileo Financial Technologies ExternalTransactions API
+  slug: galileo-fs-externaltransactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-externaltransactions-api-openapi.yml
+- filename: galileo-fs-loan-api-openapi.yml
+  format: yaml
+  label: Galileo Financial Technologies Loan API
+  slug: galileo-fs-loan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-loan-api-openapi.yml
+- filename: galileo-fs-paymenthub-api-openapi.yml
+  format: yaml
+  label: Galileo Financial Technologies PaymentHub API
+  slug: galileo-fs-paymenthub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-paymenthub-api-openapi.yml
+- filename: galileo-fs-program-api-openapi.yml
+  format: yaml
+  label: Galileo Financial Technologies Program API
+  slug: galileo-fs-program-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-program-api-openapi.yml
+- filename: galileo-fs-risk-api-openapi.yml
+  format: yaml
+  label: Galileo Financial Technologies Risk API
+  slug: galileo-fs-risk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-risk-api-openapi.yml
 auth_types:
 - http
 description: ''

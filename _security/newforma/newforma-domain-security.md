@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: newforma-konekt-openapi-original.json
-  format: json
-  label: Newforma Konekt REST API
-  slug: newforma-konekt-rest-api
+- filename: newforma-hub-api-openapi.yml
+  format: yaml
+  label: Newforma Hub API
+  slug: newforma-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newforma/refs/heads/main/openapi/newforma-konekt-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/newforma/refs/heads/main/openapi/newforma-hub-api-openapi.yml
+- filename: newforma-issue-api-openapi.yml
+  format: yaml
+  label: Newforma Issue API
+  slug: newforma-issue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newforma/refs/heads/main/openapi/newforma-issue-api-openapi.yml
+- filename: newforma-project-api-openapi.yml
+  format: yaml
+  label: Newforma Project API
+  slug: newforma-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newforma/refs/heads/main/openapi/newforma-project-api-openapi.yml
 description: ''
 domains:
 - caa: []

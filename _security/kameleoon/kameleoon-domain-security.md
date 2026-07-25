@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: kameleoon-openapi.yml
+- filename: kameleoon-experiments-api-openapi.yml
   format: yaml
-  label: Kameleoon Automation API
-  slug: kameleoon-automation-api
+  label: Kameleoon Experiments API
+  slug: kameleoon-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/openapi/kameleoon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/openapi/kameleoon-experiments-api-openapi.yml
+- filename: kameleoon-oauth-api-openapi.yml
+  format: yaml
+  label: Kameleoon OAuth API
+  slug: kameleoon-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/openapi/kameleoon-oauth-api-openapi.yml
+- filename: kameleoon-personalizations-api-openapi.yml
+  format: yaml
+  label: Kameleoon Personalizations API
+  slug: kameleoon-personalizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/openapi/kameleoon-personalizations-api-openapi.yml
 description: ''
 domains:
 - caa: []

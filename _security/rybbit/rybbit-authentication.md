@@ -1,30 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: rybbit-openapi.yml
+- filename: rybbit-analytics-api-openapi.yml
+  format: yaml
+  label: Rybbit Analytics API
+  slug: rybbit-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/openapi/rybbit-analytics-api-openapi.yml
+- filename: rybbit-event-tracking-api-openapi.yml
   format: yaml
   label: Rybbit Event Tracking API
   slug: rybbit-event-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/openapi/rybbit-openapi.yml
-- filename: rybbit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/openapi/rybbit-event-tracking-api-openapi.yml
+- filename: rybbit-sessions-api-openapi.yml
   format: yaml
-  label: Rybbit Sites API
-  slug: rybbit-sites-api
+  label: Rybbit Sessions API
+  slug: rybbit-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/openapi/rybbit-openapi.yml
-- filename: rybbit-openapi.yml
-  format: yaml
-  label: Rybbit Analytics Stats API
-  slug: rybbit-analytics-stats-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/openapi/rybbit-openapi.yml
-- filename: rybbit-openapi.yml
-  format: yaml
-  label: Rybbit Sessions & Retention API
-  slug: rybbit-sessions-retention-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/openapi/rybbit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/openapi/rybbit-sessions-api-openapi.yml
 auth_types:
 - http
 description: ''

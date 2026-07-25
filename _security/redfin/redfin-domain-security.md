@@ -1,23 +1,47 @@
 ---
 api_specs:
-- filename: redfin-stingray-api-openapi.yml
+- filename: redfin-csv-export-api-openapi.yml
   format: yaml
-  label: Redfin Stingray API
-  slug: redfin-stingray-api
+  label: Redfin CSV Export API
+  slug: redfin-csv-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redfin/refs/heads/main/openapi/redfin-stingray-api-openapi.yml
-- filename: redfin-gis-csv-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/redfin/refs/heads/main/openapi/redfin-csv-export-api-openapi.yml
+- filename: redfin-market-tracker-api-openapi.yml
   format: yaml
-  label: Redfin GIS CSV Export API
-  slug: redfin-gis-csv-api
+  label: Redfin Market Tracker API
+  slug: redfin-market-tracker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redfin/refs/heads/main/openapi/redfin-gis-csv-api-openapi.yml
-- filename: redfin-data-center-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/redfin/refs/heads/main/openapi/redfin-market-tracker-api-openapi.yml
+- filename: redfin-market-trends-api-openapi.yml
   format: yaml
-  label: Redfin Data Center
-  slug: redfin-data-center
+  label: Redfin Market Trends API
+  slug: redfin-market-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redfin/refs/heads/main/openapi/redfin-data-center-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/redfin/refs/heads/main/openapi/redfin-market-trends-api-openapi.yml
+- filename: redfin-neighborhood-api-openapi.yml
+  format: yaml
+  label: Redfin Neighborhood API
+  slug: redfin-neighborhood-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/redfin/refs/heads/main/openapi/redfin-neighborhood-api-openapi.yml
+- filename: redfin-property-details-api-openapi.yml
+  format: yaml
+  label: Redfin Property Details API
+  slug: redfin-property-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/redfin/refs/heads/main/openapi/redfin-property-details-api-openapi.yml
+- filename: redfin-search-api-openapi.yml
+  format: yaml
+  label: Redfin Search API
+  slug: redfin-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/redfin/refs/heads/main/openapi/redfin-search-api-openapi.yml
+- filename: redfin-valuation-api-openapi.yml
+  format: yaml
+  label: Redfin Valuation API
+  slug: redfin-valuation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/redfin/refs/heads/main/openapi/redfin-valuation-api-openapi.yml
 description: ''
 domains:
 - caa: []

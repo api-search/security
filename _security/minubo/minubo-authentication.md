@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: minubo-api-openapi-original.json
-  format: json
-  label: Minubo API
-  slug: minubo-api
+- filename: minubo-auth-api-openapi.yml
+  format: yaml
+  label: Minubo Auth API
+  slug: minubo-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/openapi/minubo-api-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/openapi/minubo-auth-api-openapi.yml
+- filename: minubo-data-api-openapi.yml
+  format: yaml
+  label: Minubo Data API
+  slug: minubo-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/openapi/minubo-data-api-openapi.yml
+- filename: minubo-etl-api-openapi.yml
+  format: yaml
+  label: Minubo ETL API
+  slug: minubo-etl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/openapi/minubo-etl-api-openapi.yml
 auth_types:
 - http
 description: ''

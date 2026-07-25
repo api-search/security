@@ -1,29 +1,71 @@
 ---
 api_specs:
-- filename: logikio-runtime-v2-openapi-original.yml
+- filename: logikio-blueprint-export-api-openapi.yml
   format: yaml
-  label: Logik Configurator Runtime API (v2)
-  slug: logik-configurator-runtime-api-v2
+  label: Logik.io Blueprint > Export API
+  slug: logikio-blueprint-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-runtime-v2-openapi-original.yml
-- filename: logikio-runtime-v1-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-blueprint-export-api-openapi.yml
+- filename: logikio-blueprint-import-api-openapi.yml
   format: yaml
-  label: Logik Configurator Runtime API (v1)
-  slug: logik-configurator-runtime-api-v1
+  label: Logik.io Blueprint > Import API
+  slug: logikio-blueprint-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-runtime-v1-openapi-original.yml
-- filename: logikio-admin-managed-tables-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-blueprint-import-api-openapi.yml
+- filename: logikio-bom-api-openapi.yml
   format: yaml
-  label: Logik.io Admin API - Managed Tables
-  slug: logikio-admin-api-managed-tables
+  label: Logik.io BOM API
+  slug: logikio-bom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-admin-managed-tables-openapi-original.yml
-- filename: logikio-admin-blueprint-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-bom-api-openapi.yml
+- filename: logikio-configuration-api-openapi.yml
   format: yaml
-  label: Logik.io Admin API - Blueprint Import/Export
-  slug: logikio-admin-api-blueprint-importexport
+  label: Logik.io Configuration API
+  slug: logikio-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-admin-blueprint-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-configuration-api-openapi.yml
+- filename: logikio-configuration-v2-api-openapi.yml
+  format: yaml
+  label: Logik.io Configuration (V2) API
+  slug: logikio-configuration-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-configuration-v2-api-openapi.yml
+- filename: logikio-managed-tables-export-tables-api-openapi.yml
+  format: yaml
+  label: Logik.io Managed Tables > Export Tables API
+  slug: logikio-managed-tables-export-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-managed-tables-export-tables-api-openapi.yml
+- filename: logikio-managed-tables-import-tables-api-openapi.yml
+  format: yaml
+  label: Logik.io Managed Tables > Import Tables API
+  slug: logikio-managed-tables-import-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-managed-tables-import-tables-api-openapi.yml
+- filename: logikio-managed-tables-metadata-api-openapi.yml
+  format: yaml
+  label: Logik.io Managed Tables > Metadata API
+  slug: logikio-managed-tables-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-managed-tables-metadata-api-openapi.yml
+- filename: logikio-managed-tables-table-rows-api-openapi.yml
+  format: yaml
+  label: Logik.io Managed Tables > Table Rows API
+  slug: logikio-managed-tables-table-rows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-managed-tables-table-rows-api-openapi.yml
+- filename: logikio-managed-tables-tables-api-openapi.yml
+  format: yaml
+  label: Logik.io Managed Tables > Tables API
+  slug: logikio-managed-tables-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-managed-tables-tables-api-openapi.yml
+- filename: logikio-runtime-bill-of-materials-api-openapi.yml
+  format: yaml
+  label: Logik.io Runtime - Bill of Materials API
+  slug: logikio-runtime-bill-of-materials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-runtime-bill-of-materials-api-openapi.yml
 description: ''
 domains:
 - caa:

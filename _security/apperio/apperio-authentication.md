@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: apperio-openapi-original.yml
+- filename: apperio-analytics-api-openapi.yml
   format: yaml
-  label: Apperio API
-  slug: apperio-api
+  label: Apperio Analytics API
+  slug: apperio-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-analytics-api-openapi.yml
+- filename: apperio-e-billing-api-openapi.yml
+  format: yaml
+  label: Apperio E-billing API
+  slug: apperio-e-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-e-billing-api-openapi.yml
+- filename: apperio-filter-api-openapi.yml
+  format: yaml
+  label: Apperio Filter API
+  slug: apperio-filter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-filter-api-openapi.yml
+- filename: apperio-matter-information-api-openapi.yml
+  format: yaml
+  label: Apperio Matter information API
+  slug: apperio-matter-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-matter-information-api-openapi.yml
+- filename: apperio-users-api-openapi.yml
+  format: yaml
+  label: Apperio Users API
+  slug: apperio-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-users-api-openapi.yml
 auth_types:
 - apiKey
 description: Apperio authenticates every API request with a user-scoped API token supplied in the HTTP Authorization header using the "Token" scheme. The OpenAPI does not declare a securityScheme, so this profile is captured from the published docs.

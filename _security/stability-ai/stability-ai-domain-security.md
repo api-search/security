@@ -1,41 +1,113 @@
 ---
 api_specs:
-- filename: stability-ai-stable-image-generate-openapi.yml
+- filename: stability-ai-3d-generation-api-openapi.yml
   format: yaml
-  label: Stability AI Stable Image Generate API
-  slug: stable-image-generate
+  label: Stability AI 3D Generation API
+  slug: stability-ai-3d-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-stable-image-generate-openapi.yml
-- filename: stability-ai-stable-image-edit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-3d-generation-api-openapi.yml
+- filename: stability-ai-conservative-upscale-api-openapi.yml
   format: yaml
-  label: Stability AI Stable Image Edit API
-  slug: stable-image-edit
+  label: Stability AI Conservative Upscale API
+  slug: stability-ai-conservative-upscale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-stable-image-edit-openapi.yml
-- filename: stability-ai-stable-image-upscale-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-conservative-upscale-api-openapi.yml
+- filename: stability-ai-creative-upscale-api-openapi.yml
   format: yaml
-  label: Stability AI Stable Image Upscale API
-  slug: stable-image-upscale
+  label: Stability AI Creative Upscale API
+  slug: stability-ai-creative-upscale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-stable-image-upscale-openapi.yml
-- filename: stability-ai-stable-image-control-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-creative-upscale-api-openapi.yml
+- filename: stability-ai-erase-api-openapi.yml
   format: yaml
-  label: Stability AI Stable Image Control API
-  slug: stable-image-control
+  label: Stability AI Erase API
+  slug: stability-ai-erase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-stable-image-control-openapi.yml
-- filename: stability-ai-stable-video-diffusion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-erase-api-openapi.yml
+- filename: stability-ai-fast-upscale-api-openapi.yml
   format: yaml
-  label: Stability AI Stable Video Diffusion API
-  slug: stable-video-diffusion
+  label: Stability AI Fast Upscale API
+  slug: stability-ai-fast-upscale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-stable-video-diffusion-openapi.yml
-- filename: stability-ai-stable-fast-3d-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-fast-upscale-api-openapi.yml
+- filename: stability-ai-generate-core-api-openapi.yml
   format: yaml
-  label: Stability AI Stable Fast 3D API
-  slug: stable-fast-3d
+  label: Stability AI Generate Core API
+  slug: stability-ai-generate-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-stable-fast-3d-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-generate-core-api-openapi.yml
+- filename: stability-ai-generate-sd3-api-openapi.yml
+  format: yaml
+  label: Stability AI Generate SD3 API
+  slug: stability-ai-generate-sd3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-generate-sd3-api-openapi.yml
+- filename: stability-ai-generate-ultra-api-openapi.yml
+  format: yaml
+  label: Stability AI Generate Ultra API
+  slug: stability-ai-generate-ultra-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-generate-ultra-api-openapi.yml
+- filename: stability-ai-image-to-video-api-openapi.yml
+  format: yaml
+  label: Stability AI Image to Video API
+  slug: stability-ai-image-to-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-image-to-video-api-openapi.yml
+- filename: stability-ai-inpaint-api-openapi.yml
+  format: yaml
+  label: Stability AI Inpaint API
+  slug: stability-ai-inpaint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-inpaint-api-openapi.yml
+- filename: stability-ai-outpaint-api-openapi.yml
+  format: yaml
+  label: Stability AI Outpaint API
+  slug: stability-ai-outpaint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-outpaint-api-openapi.yml
+- filename: stability-ai-remove-background-api-openapi.yml
+  format: yaml
+  label: Stability AI Remove Background API
+  slug: stability-ai-remove-background-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-remove-background-api-openapi.yml
+- filename: stability-ai-replace-background-and-relight-api-openapi.yml
+  format: yaml
+  label: Stability AI Replace Background and Relight API
+  slug: stability-ai-replace-background-and-relight-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-replace-background-and-relight-api-openapi.yml
+- filename: stability-ai-search-and-recolor-api-openapi.yml
+  format: yaml
+  label: Stability AI Search and Recolor API
+  slug: stability-ai-search-and-recolor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-search-and-recolor-api-openapi.yml
+- filename: stability-ai-search-and-replace-api-openapi.yml
+  format: yaml
+  label: Stability AI Search and Replace API
+  slug: stability-ai-search-and-replace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-search-and-replace-api-openapi.yml
+- filename: stability-ai-sketch-api-openapi.yml
+  format: yaml
+  label: Stability AI Sketch API
+  slug: stability-ai-sketch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-sketch-api-openapi.yml
+- filename: stability-ai-structure-api-openapi.yml
+  format: yaml
+  label: Stability AI Structure API
+  slug: stability-ai-structure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-structure-api-openapi.yml
+- filename: stability-ai-style-api-openapi.yml
+  format: yaml
+  label: Stability AI Style API
+  slug: stability-ai-style-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-style-api-openapi.yml
 description: ''
 domains:
 - caa:

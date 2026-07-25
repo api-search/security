@@ -1,72 +1,234 @@
 ---
 api_key_in: []
 api_specs:
-- filename: salesforce-rest-api-openapi.json
-  format: json
-  label: Salesforce REST API
-  slug: salesforce-rest-api
+- filename: salesforce-automation-actions-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Actions API
+  slug: salesforce-automation-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-rest-api-openapi.json
-- filename: salesforce-bulk-api-openapi.json
-  format: json
-  label: Salesforce Bulk API 2.0
-  slug: salesforce-bulk-api-20
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-actions-api-openapi.yml
+- filename: salesforce-automation-approvals-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Approvals API
+  slug: salesforce-automation-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-bulk-api-openapi.json
-- filename: salesforce-streaming-api-openapi.json
-  format: json
-  label: Salesforce Streaming API
-  slug: salesforce-streaming-api
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-approvals-api-openapi.yml
+- filename: salesforce-automation-batch-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Batch API
+  slug: salesforce-automation-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-streaming-api-openapi.json
-- filename: salesforce-platform-events-api-openapi.json
-  format: json
-  label: Salesforce Platform Events API
-  slug: salesforce-platform-events-api
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-batch-api-openapi.yml
+- filename: salesforce-automation-change-events-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Change Events API
+  slug: salesforce-automation-change-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-platform-events-api-openapi.json
-- filename: salesforce-analytics-api-openapi.json
-  format: json
-  label: Salesforce Analytics API
-  slug: salesforce-analytics-api
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-change-events-api-openapi.yml
+- filename: salesforce-automation-comments-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Comments API
+  slug: salesforce-automation-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-analytics-api-openapi.json
-- filename: salesforce-tooling-api-openapi.json
-  format: json
-  label: Salesforce Tooling API
-  slug: salesforce-tooling-api
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-comments-api-openapi.yml
+- filename: salesforce-automation-composite-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Composite API
+  slug: salesforce-automation-composite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-tooling-api-openapi.json
-- filename: salesforce-connect-rest-api-openapi.json
-  format: json
-  label: Salesforce Connect REST API
-  slug: salesforce-connect-rest-api
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-composite-api-openapi.yml
+- filename: salesforce-automation-configuration-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Configuration API
+  slug: salesforce-automation-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-connect-rest-api-openapi.json
-- filename: salesforce-change-data-capture-api-openapi.json
-  format: json
-  label: Salesforce Change Data Capture API
-  slug: salesforce-change-data-capture-api
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-configuration-api-openapi.yml
+- filename: salesforce-automation-custom-actions-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Custom Actions API
+  slug: salesforce-automation-custom-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-change-data-capture-api-openapi.json
-- filename: salesforce-invocable-actions-api-openapi.json
-  format: json
-  label: Salesforce Invocable Actions API
-  slug: salesforce-invocable-actions-api
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-custom-actions-api-openapi.yml
+- filename: salesforce-automation-custom-endpoints-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Custom Endpoints API
+  slug: salesforce-automation-custom-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-invocable-actions-api-openapi.json
-- filename: salesforce-composite-api-openapi.json
-  format: json
-  label: Salesforce Composite API
-  slug: salesforce-composite-api
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-custom-endpoints-api-openapi.yml
+- filename: salesforce-automation-dashboards-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Dashboards API
+  slug: salesforce-automation-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-composite-api-openapi.json
-- filename: salesforce-apex-rest-api-openapi.json
-  format: json
-  label: Salesforce Apex REST API
-  slug: salesforce-apex-rest-api
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-dashboards-api-openapi.yml
+- filename: salesforce-automation-dataflows-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Dataflows API
+  slug: salesforce-automation-dataflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-apex-rest-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-dataflows-api-openapi.yml
+- filename: salesforce-automation-datasets-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Datasets API
+  slug: salesforce-automation-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-datasets-api-openapi.yml
+- filename: salesforce-automation-development-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Development API
+  slug: salesforce-automation-development-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-development-api-openapi.yml
+- filename: salesforce-automation-events-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Events API
+  slug: salesforce-automation-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-events-api-openapi.yml
+- filename: salesforce-automation-feeds-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Feeds API
+  slug: salesforce-automation-feeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-feeds-api-openapi.yml
+- filename: salesforce-automation-flows-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Flows API
+  slug: salesforce-automation-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-flows-api-openapi.yml
+- filename: salesforce-automation-folders-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Folders API
+  slug: salesforce-automation-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-folders-api-openapi.yml
+- filename: salesforce-automation-graph-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Graph API
+  slug: salesforce-automation-graph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-graph-api-openapi.yml
+- filename: salesforce-automation-groups-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Groups API
+  slug: salesforce-automation-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-groups-api-openapi.yml
+- filename: salesforce-automation-ingest-jobs-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Ingest Jobs API
+  slug: salesforce-automation-ingest-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-ingest-jobs-api-openapi.yml
+- filename: salesforce-automation-lenses-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Lenses API
+  slug: salesforce-automation-lenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-lenses-api-openapi.yml
+- filename: salesforce-automation-limits-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Limits API
+  slug: salesforce-automation-limits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-limits-api-openapi.yml
+- filename: salesforce-automation-pushtopics-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation PushTopics API
+  slug: salesforce-automation-pushtopics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-pushtopics-api-openapi.yml
+- filename: salesforce-automation-query-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Query API
+  slug: salesforce-automation-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-query-api-openapi.yml
+- filename: salesforce-automation-query-jobs-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Query Jobs API
+  slug: salesforce-automation-query-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-query-jobs-api-openapi.yml
+- filename: salesforce-automation-records-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Records API
+  slug: salesforce-automation-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-records-api-openapi.yml
+- filename: salesforce-automation-sobject-collections-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation SObject Collections API
+  slug: salesforce-automation-sobject-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-sobject-collections-api-openapi.yml
+- filename: salesforce-automation-sobject-tree-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation SObject Tree API
+  slug: salesforce-automation-sobject-tree-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-sobject-tree-api-openapi.yml
+- filename: salesforce-automation-sobjects-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation SObjects API
+  slug: salesforce-automation-sobjects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-sobjects-api-openapi.yml
+- filename: salesforce-automation-soql-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation SOQL API
+  slug: salesforce-automation-soql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-soql-api-openapi.yml
+- filename: salesforce-automation-sosl-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation SOSL API
+  slug: salesforce-automation-sosl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-sosl-api-openapi.yml
+- filename: salesforce-automation-standard-actions-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Standard Actions API
+  slug: salesforce-automation-standard-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-standard-actions-api-openapi.yml
+- filename: salesforce-automation-streaming-channels-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Streaming Channels API
+  slug: salesforce-automation-streaming-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-streaming-channels-api-openapi.yml
+- filename: salesforce-automation-testing-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Testing API
+  slug: salesforce-automation-testing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-testing-api-openapi.yml
+- filename: salesforce-automation-topics-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Topics API
+  slug: salesforce-automation-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-topics-api-openapi.yml
+- filename: salesforce-automation-users-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Users API
+  slug: salesforce-automation-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-users-api-openapi.yml
+- filename: salesforce-automation-versions-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Versions API
+  slug: salesforce-automation-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-versions-api-openapi.yml
+- filename: salesforce-automation-workflow-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation Workflow API
+  slug: salesforce-automation-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-workflow-api-openapi.yml
 auth_types:
 - http
 - oauth2

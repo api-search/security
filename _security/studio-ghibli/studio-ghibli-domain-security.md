@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: studio-ghibli-openapi.yml
+- filename: studio-ghibli-films-api-openapi.yml
   format: yaml
-  label: Studio Ghibli API
-  slug: studio-ghibli-api
+  label: Studio Ghibli Films API
+  slug: studio-ghibli-films-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/openapi/studio-ghibli-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/openapi/studio-ghibli-films-api-openapi.yml
+- filename: studio-ghibli-locations-api-openapi.yml
+  format: yaml
+  label: Studio Ghibli Locations API
+  slug: studio-ghibli-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/openapi/studio-ghibli-locations-api-openapi.yml
+- filename: studio-ghibli-people-api-openapi.yml
+  format: yaml
+  label: Studio Ghibli People API
+  slug: studio-ghibli-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/openapi/studio-ghibli-people-api-openapi.yml
+- filename: studio-ghibli-species-api-openapi.yml
+  format: yaml
+  label: Studio Ghibli Species API
+  slug: studio-ghibli-species-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/openapi/studio-ghibli-species-api-openapi.yml
+- filename: studio-ghibli-vehicles-api-openapi.yml
+  format: yaml
+  label: Studio Ghibli Vehicles API
+  slug: studio-ghibli-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/openapi/studio-ghibli-vehicles-api-openapi.yml
 description: ''
 domains:
 - caa:

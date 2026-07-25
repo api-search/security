@@ -1,29 +1,35 @@
 ---
 api_specs:
-- filename: portcast-openapi.yml
+- filename: portcast-augmentation-api-openapi.yml
   format: yaml
-  label: Portcast Container Tracking API
-  slug: container-tracking-api
+  label: Portcast Augmentation API
+  slug: portcast-augmentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/openapi/portcast-openapi.yml
-- filename: portcast-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/openapi/portcast-augmentation-api-openapi.yml
+- filename: portcast-container-detail-api-openapi.yml
   format: yaml
-  label: Portcast Predictive ETA API
-  slug: predictive-eta-api
+  label: Portcast Container Detail API
+  slug: portcast-container-detail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/openapi/portcast-openapi.yml
-- filename: portcast-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/openapi/portcast-container-detail-api-openapi.yml
+- filename: portcast-reference-api-openapi.yml
   format: yaml
-  label: Portcast Vessel Schedules API
-  slug: vessel-schedules-api
+  label: Portcast Reference API
+  slug: portcast-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/openapi/portcast-openapi.yml
-- filename: portcast-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/openapi/portcast-reference-api-openapi.yml
+- filename: portcast-tracking-data-api-openapi.yml
   format: yaml
-  label: Portcast Webhooks (Push API)
-  slug: webhooks-api
+  label: Portcast Tracking Data API
+  slug: portcast-tracking-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/openapi/portcast-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/openapi/portcast-tracking-data-api-openapi.yml
+- filename: portcast-tracking-upload-api-openapi.yml
+  format: yaml
+  label: Portcast Tracking Upload API
+  slug: portcast-tracking-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/openapi/portcast-tracking-upload-api-openapi.yml
 description: ''
 domains:
 - caa: []

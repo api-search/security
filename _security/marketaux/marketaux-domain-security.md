@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: marketaux-openapi.yml
+  format: yaml
+  label: MarketAux API
+  slug: marketaux-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/openapi/marketaux-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -29,5 +36,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marketaux/refs
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - News
+- Financial News
+- Stock Market
+- Sentiment Analysis
+- Market Data
+- Entity Recognition
 - Public APIs
 ---

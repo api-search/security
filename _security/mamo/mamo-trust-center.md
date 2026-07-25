@@ -1,11 +1,77 @@
 ---
 api_specs:
-- filename: mamo-openapi.yml
+- filename: mamo-business-details-api-openapi.yml
   format: yaml
-  label: Mamo Business API
-  slug: mamo-business-api
+  label: Mamo Business Details API
+  slug: mamo-business-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/openapi/mamo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/openapi/mamo-business-details-api-openapi.yml
+- filename: mamo-cards-api-openapi.yml
+  format: yaml
+  label: Mamo Cards API
+  slug: mamo-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/openapi/mamo-cards-api-openapi.yml
+- filename: mamo-expenses-api-openapi.yml
+  format: yaml
+  label: Mamo Expenses API
+  slug: mamo-expenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/openapi/mamo-expenses-api-openapi.yml
+- filename: mamo-getting-started-api-openapi.yml
+  format: yaml
+  label: Mamo Getting Started API
+  slug: mamo-getting-started-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/openapi/mamo-getting-started-api-openapi.yml
+- filename: mamo-invoices-api-openapi.yml
+  format: yaml
+  label: Mamo Invoices API
+  slug: mamo-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/openapi/mamo-invoices-api-openapi.yml
+- filename: mamo-payment-links-api-openapi.yml
+  format: yaml
+  label: Mamo Payment Links API
+  slug: mamo-payment-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/openapi/mamo-payment-links-api-openapi.yml
+- filename: mamo-payouts-api-openapi.yml
+  format: yaml
+  label: Mamo Payouts API
+  slug: mamo-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/openapi/mamo-payouts-api-openapi.yml
+- filename: mamo-receipts-api-openapi.yml
+  format: yaml
+  label: Mamo Receipts API
+  slug: mamo-receipts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/openapi/mamo-receipts-api-openapi.yml
+- filename: mamo-recipients-api-openapi.yml
+  format: yaml
+  label: Mamo Recipients API
+  slug: mamo-recipients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/openapi/mamo-recipients-api-openapi.yml
+- filename: mamo-subscriptions-api-openapi.yml
+  format: yaml
+  label: Mamo Subscriptions API
+  slug: mamo-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/openapi/mamo-subscriptions-api-openapi.yml
+- filename: mamo-transactions-api-openapi.yml
+  format: yaml
+  label: Mamo Transactions API
+  slug: mamo-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/openapi/mamo-transactions-api-openapi.yml
+- filename: mamo-webhooks-api-openapi.yml
+  format: yaml
+  label: Mamo Webhooks API
+  slug: mamo-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/openapi/mamo-webhooks-api-openapi.yml
 certifications:
 - PCI DSS
 description: ''

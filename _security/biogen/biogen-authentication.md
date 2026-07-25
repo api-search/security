@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: biogen-developer-api-openapi.yml
+- filename: biogen-keys-api-openapi.yml
   format: yaml
-  label: Biogen Developer API
-  slug: developer-api
+  label: Biogen Keys API
+  slug: biogen-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/openapi/biogen-developer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/openapi/biogen-keys-api-openapi.yml
+- filename: biogen-services-api-openapi.yml
+  format: yaml
+  label: Biogen Services API
+  slug: biogen-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/openapi/biogen-services-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

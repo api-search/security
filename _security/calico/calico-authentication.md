@@ -1,5 +1,48 @@
 ---
 api_key_in: []
+api_specs:
+- filename: calico-bgpconfiguration-api-openapi.yml
+  format: yaml
+  label: Calico BGPConfiguration API
+  slug: calico-bgpconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-bgpconfiguration-api-openapi.yml
+- filename: calico-bgppeer-api-openapi.yml
+  format: yaml
+  label: Calico BGPPeer API
+  slug: calico-bgppeer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-bgppeer-api-openapi.yml
+- filename: calico-globalnetworkpolicy-api-openapi.yml
+  format: yaml
+  label: Calico GlobalNetworkPolicy API
+  slug: calico-globalnetworkpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-globalnetworkpolicy-api-openapi.yml
+- filename: calico-hostendpoint-api-openapi.yml
+  format: yaml
+  label: Calico HostEndpoint API
+  slug: calico-hostendpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-hostendpoint-api-openapi.yml
+- filename: calico-ippool-api-openapi.yml
+  format: yaml
+  label: Calico IPPool API
+  slug: calico-ippool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-ippool-api-openapi.yml
+- filename: calico-networkpolicy-api-openapi.yml
+  format: yaml
+  label: Calico NetworkPolicy API
+  slug: calico-networkpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-networkpolicy-api-openapi.yml
+- filename: calico-profile-api-openapi.yml
+  format: yaml
+  label: Calico Profile API
+  slug: calico-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-profile-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -2,12 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: huuray-openapi.yml
+- filename: huuray-balance-api-openapi.yml
   format: yaml
-  label: Huuray Gift Card API
-  slug: huuray-api
+  label: Huuray Balance API
+  slug: huuray-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-balance-api-openapi.yml
+- filename: huuray-cancel-api-openapi.yml
+  format: yaml
+  label: Huuray Cancel API
+  slug: huuray-cancel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-cancel-api-openapi.yml
+- filename: huuray-catalogue-api-openapi.yml
+  format: yaml
+  label: Huuray Catalogue API
+  slug: huuray-catalogue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-catalogue-api-openapi.yml
+- filename: huuray-exchangerates-api-openapi.yml
+  format: yaml
+  label: Huuray ExchangeRates API
+  slug: huuray-exchangerates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-exchangerates-api-openapi.yml
+- filename: huuray-order-api-openapi.yml
+  format: yaml
+  label: Huuray Order API
+  slug: huuray-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-order-api-openapi.yml
+- filename: huuray-resend-api-openapi.yml
+  format: yaml
+  label: Huuray Resend API
+  slug: huuray-resend-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-resend-api-openapi.yml
+- filename: huuray-search-api-openapi.yml
+  format: yaml
+  label: Huuray Search API
+  slug: huuray-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-search-api-openapi.yml
+- filename: huuray-stock-api-openapi.yml
+  format: yaml
+  label: Huuray Stock API
+  slug: huuray-stock-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-stock-api-openapi.yml
+- filename: huuray-template-api-openapi.yml
+  format: yaml
+  label: Huuray Template API
+  slug: huuray-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-template-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: mailgun.yaml
+- filename: mailgun-domains-api-openapi.yml
   format: yaml
-  label: Mailgun Send API
-  slug: send-api
+  label: Mailgun Domains API
+  slug: mailgun-domains-api
   spec_type: OpenAPI
-  url: https://documentation.mailgun.com/_spec/docs/mailgun/api-reference/send/mailgun.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/mailgun/refs/heads/main/openapi/mailgun-domains-api-openapi.yml
+- filename: mailgun-events-api-openapi.yml
+  format: yaml
+  label: Mailgun Events API
+  slug: mailgun-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailgun/refs/heads/main/openapi/mailgun-events-api-openapi.yml
+- filename: mailgun-mailing-lists-api-openapi.yml
+  format: yaml
+  label: Mailgun Mailing Lists API
+  slug: mailgun-mailing-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailgun/refs/heads/main/openapi/mailgun-mailing-lists-api-openapi.yml
+- filename: mailgun-messages-api-openapi.yml
+  format: yaml
+  label: Mailgun Messages API
+  slug: mailgun-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailgun/refs/heads/main/openapi/mailgun-messages-api-openapi.yml
+- filename: mailgun-routes-api-openapi.yml
+  format: yaml
+  label: Mailgun Routes API
+  slug: mailgun-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailgun/refs/heads/main/openapi/mailgun-routes-api-openapi.yml
+- filename: mailgun-suppressions-api-openapi.yml
+  format: yaml
+  label: Mailgun Suppressions API
+  slug: mailgun-suppressions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailgun/refs/heads/main/openapi/mailgun-suppressions-api-openapi.yml
+- filename: mailgun-webhooks-api-openapi.yml
+  format: yaml
+  label: Mailgun Webhooks API
+  slug: mailgun-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailgun/refs/heads/main/openapi/mailgun-webhooks-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: soda-data-openapi.yml
+- filename: soda-data-attributes-api-openapi.yml
   format: yaml
-  label: Soda
-  slug: soda-data
+  label: Soda Attributes API
+  slug: soda-data-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-attributes-api-openapi.yml
+- filename: soda-data-authentication-api-openapi.yml
+  format: yaml
+  label: Soda Authentication API
+  slug: soda-data-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-authentication-api-openapi.yml
+- filename: soda-data-checks-api-openapi.yml
+  format: yaml
+  label: Soda Checks API
+  slug: soda-data-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-checks-api-openapi.yml
+- filename: soda-data-contracts-api-openapi.yml
+  format: yaml
+  label: Soda Contracts API
+  slug: soda-data-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-contracts-api-openapi.yml
+- filename: soda-data-datasets-api-openapi.yml
+  format: yaml
+  label: Soda Datasets API
+  slug: soda-data-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-datasets-api-openapi.yml
 auth_types:
 - http
 description: ''

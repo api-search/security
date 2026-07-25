@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: esimgo-openapi.yml
+- filename: esimgo-catalogue-api-openapi.yml
   format: yaml
   label: eSIM Go Catalogue API
-  slug: catalogue
+  slug: esimgo-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/openapi/esimgo-openapi.yml
-- filename: esimgo-openapi.yml
-  format: yaml
-  label: eSIM Go Orders API
-  slug: orders
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/openapi/esimgo-openapi.yml
-- filename: esimgo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/openapi/esimgo-catalogue-api-openapi.yml
+- filename: esimgo-esims-api-openapi.yml
   format: yaml
   label: eSIM Go eSIMs API
-  slug: esims
+  slug: esimgo-esims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/openapi/esimgo-openapi.yml
-- filename: esimgo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/openapi/esimgo-esims-api-openapi.yml
+- filename: esimgo-inventory-api-openapi.yml
   format: yaml
   label: eSIM Go Inventory API
-  slug: inventory
+  slug: esimgo-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/openapi/esimgo-openapi.yml
-- filename: esimgo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/openapi/esimgo-inventory-api-openapi.yml
+- filename: esimgo-networks-api-openapi.yml
   format: yaml
-  label: eSIM Go Network API
-  slug: network
+  label: eSIM Go Networks API
+  slug: esimgo-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/openapi/esimgo-openapi.yml
-- filename: esimgo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/openapi/esimgo-networks-api-openapi.yml
+- filename: esimgo-orders-api-openapi.yml
   format: yaml
-  label: eSIM Go Webhooks
-  slug: webhooks
+  label: eSIM Go Orders API
+  slug: esimgo-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/openapi/esimgo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/openapi/esimgo-orders-api-openapi.yml
+- filename: esimgo-organisation-api-openapi.yml
+  format: yaml
+  label: eSIM Go Organisation API
+  slug: esimgo-organisation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/openapi/esimgo-organisation-api-openapi.yml
 description: ''
 domains:
 - caa: []

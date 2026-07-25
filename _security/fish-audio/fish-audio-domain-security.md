@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: fish-audio-openapi.yml
+- filename: fish-audio-asr-api-openapi.yml
   format: yaml
-  label: Fish Audio API
-  slug: fish-audio-api
+  label: Fish Audio Asr API
+  slug: fish-audio-asr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fish-audio/refs/heads/main/openapi/fish-audio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fish-audio/refs/heads/main/openapi/fish-audio-asr-api-openapi.yml
+- filename: fish-audio-model-api-openapi.yml
+  format: yaml
+  label: Fish Audio Model API
+  slug: fish-audio-model-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fish-audio/refs/heads/main/openapi/fish-audio-model-api-openapi.yml
+- filename: fish-audio-tts-api-openapi.yml
+  format: yaml
+  label: Fish Audio Tts API
+  slug: fish-audio-tts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fish-audio/refs/heads/main/openapi/fish-audio-tts-api-openapi.yml
+- filename: fish-audio-wallet-api-openapi.yml
+  format: yaml
+  label: Fish Audio Wallet API
+  slug: fish-audio-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fish-audio/refs/heads/main/openapi/fish-audio-wallet-api-openapi.yml
 description: ''
 domains:
 - caa: []

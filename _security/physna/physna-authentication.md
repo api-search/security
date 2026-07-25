@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: physna-openapi-original.json
-  format: json
-  label: Physna Public API
-  slug: physna-public-api
+- filename: physna-clientcredentials-api-openapi.yml
+  format: yaml
+  label: Physna ClientCredentials API
+  slug: physna-clientcredentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-clientcredentials-api-openapi.yml
+- filename: physna-collections-api-openapi.yml
+  format: yaml
+  label: Physna Collections API
+  slug: physna-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-collections-api-openapi.yml
+- filename: physna-deprecated-api-openapi.yml
+  format: yaml
+  label: Physna Deprecated API
+  slug: physna-deprecated-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-deprecated-api-openapi.yml
+- filename: physna-folders-api-openapi.yml
+  format: yaml
+  label: Physna Folders API
+  slug: physna-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-folders-api-openapi.yml
+- filename: physna-image-search-api-openapi.yml
+  format: yaml
+  label: Physna Image Search API
+  slug: physna-image-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-image-search-api-openapi.yml
+- filename: physna-metadata-api-openapi.yml
+  format: yaml
+  label: Physna Metadata API
+  slug: physna-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-metadata-api-openapi.yml
+- filename: physna-models-api-openapi.yml
+  format: yaml
+  label: Physna Models API
+  slug: physna-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-models-api-openapi.yml
+- filename: physna-users-api-openapi.yml
+  format: yaml
+  label: Physna Users API
+  slug: physna-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-users-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

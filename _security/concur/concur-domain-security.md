@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: concur-expense-api.yaml
+- filename: concur-expense-reports-api-openapi.yml
   format: yaml
-  label: SAP Concur Expense API
-  slug: expense-api
+  label: SAP Concur Expense Reports API
+  slug: concur-expense-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-expense-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-expense-reports-api-openapi.yml
+- filename: concur-expenses-api-openapi.yml
+  format: yaml
+  label: SAP Concur Expenses API
+  slug: concur-expenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-expenses-api-openapi.yml
 description: ''
 domains:
 - caa: []

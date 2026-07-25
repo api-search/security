@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: egnyte-openapi.yml
+- filename: egnyte-file-system-api-openapi.yml
   format: yaml
-  label: Egnyte Public API
-  slug: public-api
+  label: Egnyte File System API
+  slug: egnyte-file-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-file-system-api-openapi.yml
+- filename: egnyte-groups-api-openapi.yml
+  format: yaml
+  label: Egnyte Groups API
+  slug: egnyte-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-groups-api-openapi.yml
+- filename: egnyte-links-api-openapi.yml
+  format: yaml
+  label: Egnyte Links API
+  slug: egnyte-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-links-api-openapi.yml
+- filename: egnyte-permissions-api-openapi.yml
+  format: yaml
+  label: Egnyte Permissions API
+  slug: egnyte-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-permissions-api-openapi.yml
+- filename: egnyte-users-api-openapi.yml
+  format: yaml
+  label: Egnyte Users API
+  slug: egnyte-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

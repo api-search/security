@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: mesa-partner-api-openapi.yml
+- filename: mesa-authentication-api-openapi.yml
   format: yaml
-  label: Mesa Partner API
-  slug: mesa-partner-api
+  label: Mesa Authentication API
+  slug: mesa-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/openapi/mesa-partner-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/openapi/mesa-authentication-api-openapi.yml
+- filename: mesa-invoices-api-openapi.yml
+  format: yaml
+  label: Mesa Invoices API
+  slug: mesa-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/openapi/mesa-invoices-api-openapi.yml
 certifications:
 - SOC 2
 description: ''

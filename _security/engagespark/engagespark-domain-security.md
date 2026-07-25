@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: engagespark-openapi-original.yml
+- filename: engagespark-balance-api-openapi.yml
   format: yaml
-  label: engageSPARK API
-  slug: engagespark-api
+  label: engageSPARK Balance API
+  slug: engagespark-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-balance-api-openapi.yml
+- filename: engagespark-campaigns-api-openapi.yml
+  format: yaml
+  label: engageSPARK Campaigns API
+  slug: engagespark-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-campaigns-api-openapi.yml
+- filename: engagespark-contacts-api-openapi.yml
+  format: yaml
+  label: engageSPARK Contacts API
+  slug: engagespark-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-contacts-api-openapi.yml
+- filename: engagespark-files-api-openapi.yml
+  format: yaml
+  label: engageSPARK Files API
+  slug: engagespark-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-files-api-openapi.yml
+- filename: engagespark-sms-api-openapi.yml
+  format: yaml
+  label: engageSPARK SMS API
+  slug: engagespark-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-sms-api-openapi.yml
+- filename: engagespark-top-up-api-openapi.yml
+  format: yaml
+  label: engageSPARK Top-Up API
+  slug: engagespark-top-up-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-top-up-api-openapi.yml
+- filename: engagespark-whatsapp-api-openapi.yml
+  format: yaml
+  label: engageSPARK WhatsApp API
+  slug: engagespark-whatsapp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-whatsapp-api-openapi.yml
 description: ''
 domains:
 - caa: []

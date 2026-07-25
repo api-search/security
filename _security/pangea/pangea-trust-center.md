@@ -1,53 +1,53 @@
 ---
 api_specs:
-- filename: pangea-openapi.yml
+- filename: pangea-ai-guard-api-openapi.yml
+  format: yaml
+  label: Pangea AI Guard API
+  slug: pangea-ai-guard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-ai-guard-api-openapi.yml
+- filename: pangea-authn-api-openapi.yml
   format: yaml
   label: Pangea AuthN API
-  slug: authn
+  slug: pangea-authn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-openapi.yml
-- filename: pangea-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-authn-api-openapi.yml
+- filename: pangea-domain-intel-api-openapi.yml
   format: yaml
-  label: Pangea Secure Audit Log API
-  slug: secure-audit-log
+  label: Pangea Domain Intel API
+  slug: pangea-domain-intel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-openapi.yml
-- filename: pangea-openapi.yml
-  format: yaml
-  label: Pangea Redact API
-  slug: redact
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-openapi.yml
-- filename: pangea-openapi.yml
-  format: yaml
-  label: Pangea Vault API
-  slug: vault
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-openapi.yml
-- filename: pangea-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-domain-intel-api-openapi.yml
+- filename: pangea-file-scan-api-openapi.yml
   format: yaml
   label: Pangea File Scan API
-  slug: file-scan
+  slug: pangea-file-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-openapi.yml
-- filename: pangea-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-file-scan-api-openapi.yml
+- filename: pangea-ip-intel-api-openapi.yml
   format: yaml
   label: Pangea IP Intel API
-  slug: ip-intel
+  slug: pangea-ip-intel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-openapi.yml
-- filename: pangea-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-ip-intel-api-openapi.yml
+- filename: pangea-redact-api-openapi.yml
   format: yaml
-  label: Pangea Domain & URL Intel API
-  slug: domain-intel
+  label: Pangea Redact API
+  slug: pangea-redact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-openapi.yml
-- filename: pangea-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-redact-api-openapi.yml
+- filename: pangea-secure-audit-log-api-openapi.yml
   format: yaml
-  label: Pangea AI Guard & Prompt Guard API
-  slug: ai-guard
+  label: Pangea Secure Audit Log API
+  slug: pangea-secure-audit-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-secure-audit-log-api-openapi.yml
+- filename: pangea-vault-api-openapi.yml
+  format: yaml
+  label: Pangea Vault API
+  slug: pangea-vault-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-vault-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

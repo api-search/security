@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: brewpage-openapi.yml
+- filename: brewpage-files-api-openapi.yml
   format: yaml
-  label: BrewPage API
-  slug: api
+  label: BrewPage Files API
+  slug: brewpage-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-files-api-openapi.yml
+- filename: brewpage-gallery-api-openapi.yml
+  format: yaml
+  label: BrewPage Gallery API
+  slug: brewpage-gallery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-gallery-api-openapi.yml
+- filename: brewpage-html-api-openapi.yml
+  format: yaml
+  label: BrewPage HTML API
+  slug: brewpage-html-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-html-api-openapi.yml
+- filename: brewpage-json-api-openapi.yml
+  format: yaml
+  label: BrewPage JSON API
+  slug: brewpage-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-json-api-openapi.yml
+- filename: brewpage-kv-api-openapi.yml
+  format: yaml
+  label: BrewPage KV API
+  slug: brewpage-kv-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-kv-api-openapi.yml
+- filename: brewpage-namespace-api-openapi.yml
+  format: yaml
+  label: BrewPage Namespace API
+  slug: brewpage-namespace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-namespace-api-openapi.yml
+- filename: brewpage-owner-check-api-openapi.yml
+  format: yaml
+  label: BrewPage Owner Check API
+  slug: brewpage-owner-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-owner-check-api-openapi.yml
+- filename: brewpage-preview-api-openapi.yml
+  format: yaml
+  label: BrewPage preview API
+  slug: brewpage-preview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-preview-api-openapi.yml
+- filename: brewpage-reports-api-openapi.yml
+  format: yaml
+  label: BrewPage Reports API
+  slug: brewpage-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-reports-api-openapi.yml
+- filename: brewpage-seo-api-openapi.yml
+  format: yaml
+  label: BrewPage SEO API
+  slug: brewpage-seo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-seo-api-openapi.yml
+- filename: brewpage-short-links-api-openapi.yml
+  format: yaml
+  label: BrewPage Short Links API
+  slug: brewpage-short-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-short-links-api-openapi.yml
+- filename: brewpage-sites-api-openapi.yml
+  format: yaml
+  label: BrewPage Sites API
+  slug: brewpage-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-sites-api-openapi.yml
+- filename: brewpage-stats-api-openapi.yml
+  format: yaml
+  label: BrewPage Stats API
+  slug: brewpage-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-stats-api-openapi.yml
 description: ''
 domains:
 - caa: []

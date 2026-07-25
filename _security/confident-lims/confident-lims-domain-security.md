@@ -1,23 +1,65 @@
 ---
 api_specs:
-- filename: confident-lims-labs-openapi.json
-  format: json
-  label: Confident Cannabis API - Lab Endpoints
-  slug: confident-cannabis-api-lab-endpoints
+- filename: confident-lims-client-info-api-openapi.yml
+  format: yaml
+  label: Confident LIMS Client Info API
+  slug: confident-lims-client-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-labs-openapi.json
-- filename: confident-lims-clients-openapi.json
-  format: json
-  label: Confident Cannabis API - Client Endpoints
-  slug: confident-cannabis-api-client-endpoints
+  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-client-info-api-openapi.yml
+- filename: confident-lims-clients-api-openapi.yml
+  format: yaml
+  label: Confident LIMS Clients API
+  slug: confident-lims-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-clients-openapi.json
-- filename: confident-lims-common-openapi.json
-  format: json
-  label: Confident Cannabis API - Common Reference Data
-  slug: confident-cannabis-api-common-reference-data
+  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-clients-api-openapi.yml
+- filename: confident-lims-lab-info-api-openapi.yml
+  format: yaml
+  label: Confident LIMS Lab Info API
+  slug: confident-lims-lab-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-common-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-lab-info-api-openapi.yml
+- filename: confident-lims-labs-api-openapi.yml
+  format: yaml
+  label: Confident LIMS Labs API
+  slug: confident-lims-labs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-labs-api-openapi.yml
+- filename: confident-lims-order-status-api-openapi.yml
+  format: yaml
+  label: Confident LIMS Order Status API
+  slug: confident-lims-order-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-order-status-api-openapi.yml
+- filename: confident-lims-orders-api-openapi.yml
+  format: yaml
+  label: Confident LIMS Orders API
+  slug: confident-lims-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-orders-api-openapi.yml
+- filename: confident-lims-reference-data-api-openapi.yml
+  format: yaml
+  label: Confident LIMS Reference Data API
+  slug: confident-lims-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-reference-data-api-openapi.yml
+- filename: confident-lims-sample-files-api-openapi.yml
+  format: yaml
+  label: Confident LIMS Sample Files API
+  slug: confident-lims-sample-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-sample-files-api-openapi.yml
+- filename: confident-lims-samples-api-openapi.yml
+  format: yaml
+  label: Confident LIMS Samples API
+  slug: confident-lims-samples-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-samples-api-openapi.yml
+- filename: confident-lims-test-results-api-openapi.yml
+  format: yaml
+  label: Confident LIMS Test Results API
+  slug: confident-lims-test-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-test-results-api-openapi.yml
 description: ''
 domains:
 - caa: []

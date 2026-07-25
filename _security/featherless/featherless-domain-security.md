@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: featherless-openapi.yml
+- filename: featherless-chat-api-openapi.yml
   format: yaml
-  label: Featherless Chat Completions API
-  slug: featherless-chat-completions-api
+  label: Featherless AI Chat API
+  slug: featherless-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/featherless-openapi.yml
-- filename: featherless-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/featherless-chat-api-openapi.yml
+- filename: featherless-completions-api-openapi.yml
   format: yaml
-  label: Featherless Completions API
+  label: Featherless AI Completions API
   slug: featherless-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/featherless-openapi.yml
-- filename: featherless-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/featherless-completions-api-openapi.yml
+- filename: featherless-embeddings-api-openapi.yml
   format: yaml
-  label: Featherless Models API
-  slug: featherless-models-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/featherless-openapi.yml
-- filename: featherless-openapi.yml
-  format: yaml
-  label: Featherless Embeddings API
+  label: Featherless AI Embeddings API
   slug: featherless-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/featherless-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/featherless-embeddings-api-openapi.yml
+- filename: featherless-models-api-openapi.yml
+  format: yaml
+  label: Featherless AI Models API
+  slug: featherless-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/featherless-models-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,24 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: lido-finance-eth-api-openapi-original.json
-  format: json
-  label: Lido Ethereum API
-  slug: lido-ethereum-api
+- filename: lido-finance-apr-for-eth-and-steth-api-openapi.yml
+  format: yaml
+  label: Lido Finance APR for Eth and stEth API
+  slug: lido-finance-apr-for-eth-and-steth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lido-finance/refs/heads/main/openapi/lido-finance-eth-api-openapi-original.json
-- filename: lido-finance-withdrawal-queue-openapi-original.json
-  format: json
-  label: Lido Withdrawals API
-  slug: lido-withdrawals-api
+  url: https://raw.githubusercontent.com/api-evangelist/lido-finance/refs/heads/main/openapi/lido-finance-apr-for-eth-and-steth-api-openapi.yml
+- filename: lido-finance-estimate-api-openapi.yml
+  format: yaml
+  label: Lido Finance Estimate API
+  slug: lido-finance-estimate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lido-finance/refs/heads/main/openapi/lido-finance-withdrawal-queue-openapi-original.json
-- filename: lido-finance-reward-history-openapi-original.json
-  format: json
-  label: Lido Reward History Backend API
-  slug: lido-reward-history-api
+  url: https://raw.githubusercontent.com/api-evangelist/lido-finance/refs/heads/main/openapi/lido-finance-estimate-api-openapi.yml
+- filename: lido-finance-nft-api-openapi.yml
+  format: yaml
+  label: Lido Finance NFT API
+  slug: lido-finance-nft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lido-finance/refs/heads/main/openapi/lido-finance-reward-history-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/lido-finance/refs/heads/main/openapi/lido-finance-nft-api-openapi.yml
+- filename: lido-finance-request-time-api-openapi.yml
+  format: yaml
+  label: Lido Finance Request Time API
+  slug: lido-finance-request-time-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lido-finance/refs/heads/main/openapi/lido-finance-request-time-api-openapi.yml
+- filename: lido-finance-rewards-api-openapi.yml
+  format: yaml
+  label: Lido Finance Rewards API
+  slug: lido-finance-rewards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lido-finance/refs/heads/main/openapi/lido-finance-rewards-api-openapi.yml
+- filename: lido-finance-swap-rate-for-steth-and-wsteth-api-openapi.yml
+  format: yaml
+  label: Lido Finance Swap rate for stETH and wstETH API
+  slug: lido-finance-swap-rate-for-steth-and-wsteth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lido-finance/refs/heads/main/openapi/lido-finance-swap-rate-for-steth-and-wsteth-api-openapi.yml
+- filename: lido-finance-validators-api-openapi.yml
+  format: yaml
+  label: Lido Finance Validators API
+  slug: lido-finance-validators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lido-finance/refs/heads/main/openapi/lido-finance-validators-api-openapi.yml
 auth_types: []
 description: Lido's three public REST APIs declare no securitySchemes in their OpenAPI documents and the docs state plainly that "Lido APIs are strictly for read-only access". There are no API keys, no OAuth flows, and no scope surface. The only credentialed surface in the Lido developer stack is The Graph gateway API key required to query the Lido subgraph — that key is issued by The Graph, not by Lido.
 kind: authentication

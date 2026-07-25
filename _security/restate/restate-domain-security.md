@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: restate-admin-api.yml
+- filename: restate-cluster-health-api-openapi.yml
   format: yaml
-  label: Restate Admin API
-  slug: restate-admin
+  label: Restate cluster_health API
+  slug: restate-cluster-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-admin-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-cluster-health-api-openapi.yml
+- filename: restate-deployment-api-openapi.yml
+  format: yaml
+  label: Restate deployment API
+  slug: restate-deployment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-deployment-api-openapi.yml
+- filename: restate-health-api-openapi.yml
+  format: yaml
+  label: Restate health API
+  slug: restate-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-health-api-openapi.yml
+- filename: restate-invocation-api-openapi.yml
+  format: yaml
+  label: Restate invocation API
+  slug: restate-invocation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-invocation-api-openapi.yml
+- filename: restate-openapi-api-openapi.yml
+  format: yaml
+  label: Restate openapi API
+  slug: restate-openapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-openapi-api-openapi.yml
+- filename: restate-service-api-openapi.yml
+  format: yaml
+  label: Restate service API
+  slug: restate-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-service-api-openapi.yml
+- filename: restate-service-handler-api-openapi.yml
+  format: yaml
+  label: Restate service_handler API
+  slug: restate-service-handler-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-service-handler-api-openapi.yml
+- filename: restate-subscription-api-openapi.yml
+  format: yaml
+  label: Restate subscription API
+  slug: restate-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-subscription-api-openapi.yml
+- filename: restate-version-api-openapi.yml
+  format: yaml
+  label: Restate version API
+  slug: restate-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-version-api-openapi.yml
 description: ''
 domains:
 - caa: []

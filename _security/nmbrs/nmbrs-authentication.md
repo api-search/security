@@ -1,42 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: nmbrs-openapi.yml
-  format: yaml
-  label: Nmbrs Companies API
-  slug: nmbrs-companies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-openapi.yml
-- filename: nmbrs-openapi.yml
-  format: yaml
-  label: Nmbrs Employees API
-  slug: nmbrs-employees-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-openapi.yml
-- filename: nmbrs-openapi.yml
-  format: yaml
-  label: Nmbrs Employments API
-  slug: nmbrs-employments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-openapi.yml
-- filename: nmbrs-openapi.yml
-  format: yaml
-  label: Nmbrs Payroll & Payruns API
-  slug: nmbrs-payroll-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-openapi.yml
-- filename: nmbrs-openapi.yml
-  format: yaml
-  label: Nmbrs Wage Components API
-  slug: nmbrs-wage-components-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-openapi.yml
-- filename: nmbrs-openapi.yml
+- filename: nmbrs-absences-api-openapi.yml
   format: yaml
   label: Nmbrs Absences API
   slug: nmbrs-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-absences-api-openapi.yml
+- filename: nmbrs-companies-api-openapi.yml
+  format: yaml
+  label: Nmbrs Companies API
+  slug: nmbrs-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-companies-api-openapi.yml
+- filename: nmbrs-employees-api-openapi.yml
+  format: yaml
+  label: Nmbrs Employees API
+  slug: nmbrs-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-employees-api-openapi.yml
+- filename: nmbrs-employments-api-openapi.yml
+  format: yaml
+  label: Nmbrs Employments API
+  slug: nmbrs-employments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-employments-api-openapi.yml
+- filename: nmbrs-payruns-api-openapi.yml
+  format: yaml
+  label: Nmbrs Payruns API
+  slug: nmbrs-payruns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-payruns-api-openapi.yml
+- filename: nmbrs-salaries-api-openapi.yml
+  format: yaml
+  label: Nmbrs Salaries API
+  slug: nmbrs-salaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-salaries-api-openapi.yml
+- filename: nmbrs-wage-components-api-openapi.yml
+  format: yaml
+  label: Nmbrs Wage Components API
+  slug: nmbrs-wage-components-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-wage-components-api-openapi.yml
 auth_types:
 - oauth2
 - apiKey

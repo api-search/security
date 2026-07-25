@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tripetto-form-builder-openapi.yml
+- filename: tripetto-forms-api-openapi.yml
   format: yaml
-  label: Tripetto FormBuilder SDK
-  slug: tripetto-form-builder-sdk
+  label: Tripetto Forms API
+  slug: tripetto-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/openapi/tripetto-form-builder-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/openapi/tripetto-forms-api-openapi.yml
+- filename: tripetto-responses-api-openapi.yml
+  format: yaml
+  label: Tripetto Responses API
+  slug: tripetto-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/openapi/tripetto-responses-api-openapi.yml
+- filename: tripetto-webhooks-api-openapi.yml
+  format: yaml
+  label: Tripetto Webhooks API
+  slug: tripetto-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/openapi/tripetto-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

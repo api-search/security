@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: the-climate-corporation-platform-openapi-original.yml
+- filename: the-climate-corporation-boundaries-api-openapi.yml
   format: yaml
-  label: Climate FieldView Platform API
-  slug: climate-fieldview-platform-api
+  label: The Climate Corporation Boundaries API
+  slug: the-climate-corporation-boundaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-platform-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-boundaries-api-openapi.yml
+- filename: the-climate-corporation-exports-api-openapi.yml
+  format: yaml
+  label: The Climate Corporation Exports API
+  slug: the-climate-corporation-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-exports-api-openapi.yml
+- filename: the-climate-corporation-farmorganizations-api-openapi.yml
+  format: yaml
+  label: The Climate Corporation FarmOrganizations API
+  slug: the-climate-corporation-farmorganizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-farmorganizations-api-openapi.yml
+- filename: the-climate-corporation-fields-api-openapi.yml
+  format: yaml
+  label: The Climate Corporation Fields API
+  slug: the-climate-corporation-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-fields-api-openapi.yml
+- filename: the-climate-corporation-layers-api-openapi.yml
+  format: yaml
+  label: The Climate Corporation Layers API
+  slug: the-climate-corporation-layers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-layers-api-openapi.yml
+- filename: the-climate-corporation-operations-api-openapi.yml
+  format: yaml
+  label: The Climate Corporation Operations API
+  slug: the-climate-corporation-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-operations-api-openapi.yml
+- filename: the-climate-corporation-resourceowners-api-openapi.yml
+  format: yaml
+  label: The Climate Corporation ResourceOwners API
+  slug: the-climate-corporation-resourceowners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-resourceowners-api-openapi.yml
+- filename: the-climate-corporation-uploads-api-openapi.yml
+  format: yaml
+  label: The Climate Corporation Uploads API
+  slug: the-climate-corporation-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-uploads-api-openapi.yml
 description: ''
 domains:
 - caa: []

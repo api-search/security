@@ -2,12 +2,12 @@
 api_key_in:
 - query
 api_specs:
-- filename: national-agricultural-library-openapi.json
-  format: json
-  label: USDA FoodData Central API
-  slug: fooddata-central
+- filename: national-agricultural-library-fdc-api-openapi.yml
+  format: yaml
+  label: National Agricultural Library FDC API
+  slug: national-agricultural-library-fdc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-agricultural-library/main/openapi/national-agricultural-library-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/national-agricultural-library/refs/heads/main/openapi/national-agricultural-library-fdc-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

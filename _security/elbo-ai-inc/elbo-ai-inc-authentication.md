@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: elbo-ai-inc-puppetry-openapi-original.json
-  format: json
-  label: Puppetry Developer API
-  slug: puppetry-developer-api
+- filename: elbo-ai-inc-audio-uploads-api-openapi.yml
+  format: yaml
+  label: ELBO AI, INC Audio Uploads API
+  slug: elbo-ai-inc-audio-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/openapi/elbo-ai-inc-puppetry-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/openapi/elbo-ai-inc-audio-uploads-api-openapi.yml
+- filename: elbo-ai-inc-text-to-speech-api-openapi.yml
+  format: yaml
+  label: ELBO AI, INC Text to Speech API
+  slug: elbo-ai-inc-text-to-speech-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/openapi/elbo-ai-inc-text-to-speech-api-openapi.yml
+- filename: elbo-ai-inc-usage-api-openapi.yml
+  format: yaml
+  label: ELBO AI, INC Usage API
+  slug: elbo-ai-inc-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/openapi/elbo-ai-inc-usage-api-openapi.yml
+- filename: elbo-ai-inc-videos-api-openapi.yml
+  format: yaml
+  label: ELBO AI, INC Videos API
+  slug: elbo-ai-inc-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/openapi/elbo-ai-inc-videos-api-openapi.yml
+- filename: elbo-ai-inc-voices-api-openapi.yml
+  format: yaml
+  label: ELBO AI, INC Voices API
+  slug: elbo-ai-inc-voices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/openapi/elbo-ai-inc-voices-api-openapi.yml
 auth_types:
 - http
 description: ''

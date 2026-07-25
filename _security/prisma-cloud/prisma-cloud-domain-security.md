@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: prisma-cloud-openapi.yml
+- filename: prisma-cloud-authentication-api-openapi.yml
   format: yaml
-  label: Prisma Cloud
-  slug: prisma-cloud
+  label: Prisma Cloud Authentication API
+  slug: prisma-cloud-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma-cloud/refs/heads/main/openapi/prisma-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prisma-cloud/refs/heads/main/openapi/prisma-cloud-authentication-api-openapi.yml
 description: ''
 domains:
 - caa: []

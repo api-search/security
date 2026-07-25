@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: dashbot-export-openapi.json
-  format: json
-  label: Dashbot / Dimension Labs Export API
-  slug: dashbot-dimension-labs-export-api
+- filename: dashbot-export-api-openapi.yml
+  format: yaml
+  label: Dashbot Export API
+  slug: dashbot-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/openapi/dashbot-export-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/openapi/dashbot-export-api-openapi.yml
 description: ''
 domains:
 - caa: []

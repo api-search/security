@@ -1,23 +1,77 @@
 ---
 api_specs:
-- filename: elastic-elasticsearch-openapi.yml
+- filename: elastic-account-api-openapi.yml
   format: yaml
-  label: Elasticsearch REST API
-  slug: elasticsearch
+  label: Elastic Account API
+  slug: elastic-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-elasticsearch-openapi.yml
-- filename: elastic-kibana-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-account-api-openapi.yml
+- filename: elastic-cluster-api-openapi.yml
   format: yaml
-  label: Kibana API
-  slug: kibana
+  label: Elastic Cluster API
+  slug: elastic-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-kibana-openapi.yml
-- filename: elastic-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-cluster-api-openapi.yml
+- filename: elastic-dataviews-api-openapi.yml
   format: yaml
-  label: Elastic Cloud API
-  slug: elastic-cloud
+  label: Elastic DataViews API
+  slug: elastic-dataviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-dataviews-api-openapi.yml
+- filename: elastic-deployments-api-openapi.yml
+  format: yaml
+  label: Elastic Deployments API
+  slug: elastic-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-deployments-api-openapi.yml
+- filename: elastic-documents-api-openapi.yml
+  format: yaml
+  label: Elastic Documents API
+  slug: elastic-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-documents-api-openapi.yml
+- filename: elastic-indices-api-openapi.yml
+  format: yaml
+  label: Elastic Indices API
+  slug: elastic-indices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-indices-api-openapi.yml
+- filename: elastic-savedobjects-api-openapi.yml
+  format: yaml
+  label: Elastic SavedObjects API
+  slug: elastic-savedobjects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-savedobjects-api-openapi.yml
+- filename: elastic-search-api-openapi.yml
+  format: yaml
+  label: Elastic Search API
+  slug: elastic-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-search-api-openapi.yml
+- filename: elastic-security-api-openapi.yml
+  format: yaml
+  label: Elastic Security API
+  slug: elastic-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-security-api-openapi.yml
+- filename: elastic-spaces-api-openapi.yml
+  format: yaml
+  label: Elastic Spaces API
+  slug: elastic-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-spaces-api-openapi.yml
+- filename: elastic-status-api-openapi.yml
+  format: yaml
+  label: Elastic Status API
+  slug: elastic-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-status-api-openapi.yml
+- filename: elastic-trafficfilters-api-openapi.yml
+  format: yaml
+  label: Elastic TrafficFilters API
+  slug: elastic-trafficfilters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-trafficfilters-api-openapi.yml
 certifications:
 - GDPR
 description: ''

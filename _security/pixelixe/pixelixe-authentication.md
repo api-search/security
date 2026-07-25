@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: pixelixe-openapi.yml
+- filename: pixelixe-authentication-api-openapi.yml
   format: yaml
-  label: Pixelixe
-  slug: pixelixe
+  label: Pixelixe Authentication API
+  slug: pixelixe-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixelixe/refs/heads/main/openapi/pixelixe-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pixelixe/refs/heads/main/openapi/pixelixe-authentication-api-openapi.yml
+- filename: pixelixe-document-api-openapi.yml
+  format: yaml
+  label: Pixelixe Document API
+  slug: pixelixe-document-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pixelixe/refs/heads/main/openapi/pixelixe-document-api-openapi.yml
+- filename: pixelixe-graphic-api-openapi.yml
+  format: yaml
+  label: Pixelixe Graphic API
+  slug: pixelixe-graphic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pixelixe/refs/heads/main/openapi/pixelixe-graphic-api-openapi.yml
 auth_types:
 - http
 description: ''

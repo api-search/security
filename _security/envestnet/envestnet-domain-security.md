@@ -1,41 +1,131 @@
 ---
 api_specs:
-- filename: envestnet-account-aggregation-openapi-original.yml
+- filename: envestnet-account-token-api-openapi.yml
   format: yaml
-  label: Envestnet Account Aggregation API
-  slug: envestnet-account-aggregation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-account-aggregation-openapi-original.yml
-- filename: envestnet-account-token-openapi-original.yml
-  format: yaml
-  label: Envestnet Account Token APIs
+  label: Envestnet Account Token API
   slug: envestnet-account-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-account-token-openapi-original.yml
-- filename: envestnet-verification-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-account-token-api-openapi.yml
+- filename: envestnet-accounts-api-openapi.yml
   format: yaml
-  label: Envestnet Account Verification APIs
-  slug: envestnet-account-verification-api
+  label: Envestnet Accounts API
+  slug: envestnet-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-verification-openapi-original.yml
-- filename: envestnet-credit-accelerator-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-accounts-api-openapi.yml
+- filename: envestnet-associated-details-api-openapi.yml
   format: yaml
-  label: Envestnet Credit Accelerator API
-  slug: envestnet-credit-accelerator-api
+  label: Envestnet Associated Details API
+  slug: envestnet-associated-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-credit-accelerator-openapi-original.yml
-- filename: envestnet-insights-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-associated-details-api-openapi.yml
+- filename: envestnet-auth-api-openapi.yml
   format: yaml
-  label: Envestnet Insights API
-  slug: envestnet-insights-api
+  label: Envestnet Auth API
+  slug: envestnet-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-insights-openapi-original.yml
-- filename: envestnet-personalized-views-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-auth-api-openapi.yml
+- filename: envestnet-configs-api-openapi.yml
   format: yaml
-  label: Envestnet Personalized View API
-  slug: envestnet-personalized-view-api
+  label: Envestnet Configs API
+  slug: envestnet-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-personalized-views-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-configs-api-openapi.yml
+- filename: envestnet-consents-api-openapi.yml
+  format: yaml
+  label: Envestnet Consents API
+  slug: envestnet-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-consents-api-openapi.yml
+- filename: envestnet-creditacceleratorfile-api-openapi.yml
+  format: yaml
+  label: Envestnet CreditAcceleratorFile API
+  slug: envestnet-creditacceleratorfile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-creditacceleratorfile-api-openapi.yml
+- filename: envestnet-customer-api-openapi.yml
+  format: yaml
+  label: Envestnet Customer API
+  slug: envestnet-customer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-customer-api-openapi.yml
+- filename: envestnet-dataextracts-api-openapi.yml
+  format: yaml
+  label: Envestnet DataExtracts API
+  slug: envestnet-dataextracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-dataextracts-api-openapi.yml
+- filename: envestnet-derived-api-openapi.yml
+  format: yaml
+  label: Envestnet Derived API
+  slug: envestnet-derived-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-derived-api-openapi.yml
+- filename: envestnet-documents-api-openapi.yml
+  format: yaml
+  label: Envestnet Documents API
+  slug: envestnet-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-documents-api-openapi.yml
+- filename: envestnet-holdings-api-openapi.yml
+  format: yaml
+  label: Envestnet Holdings API
+  slug: envestnet-holdings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-holdings-api-openapi.yml
+- filename: envestnet-payment-processor-api-openapi.yml
+  format: yaml
+  label: Envestnet Payment Processor API
+  slug: envestnet-payment-processor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-payment-processor-api-openapi.yml
+- filename: envestnet-provideraccounts-api-openapi.yml
+  format: yaml
+  label: Envestnet ProviderAccounts API
+  slug: envestnet-provideraccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-provideraccounts-api-openapi.yml
+- filename: envestnet-providers-api-openapi.yml
+  format: yaml
+  label: Envestnet Providers API
+  slug: envestnet-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-providers-api-openapi.yml
+- filename: envestnet-statements-api-openapi.yml
+  format: yaml
+  label: Envestnet Statements API
+  slug: envestnet-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-statements-api-openapi.yml
+- filename: envestnet-transactions-api-openapi.yml
+  format: yaml
+  label: Envestnet Transactions API
+  slug: envestnet-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-transactions-api-openapi.yml
+- filename: envestnet-user-api-openapi.yml
+  format: yaml
+  label: Envestnet User API
+  slug: envestnet-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-user-api-openapi.yml
+- filename: envestnet-verification-api-openapi.yml
+  format: yaml
+  label: Envestnet Verification API
+  slug: envestnet-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-verification-api-openapi.yml
+- filename: envestnet-verify-account-api-openapi.yml
+  format: yaml
+  label: Envestnet Verify Account API
+  slug: envestnet-verify-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-verify-account-api-openapi.yml
+- filename: envestnet-view-api-openapi.yml
+  format: yaml
+  label: Envestnet View API
+  slug: envestnet-view-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-view-api-openapi.yml
 description: ''
 domains:
 - caa: []

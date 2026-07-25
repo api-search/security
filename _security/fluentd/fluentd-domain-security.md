@@ -6,12 +6,12 @@ api_specs:
   slug: fluentd-forward-protocol
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/fluentd/refs/heads/main/asyncapi/fluentd-forward-protocol-asyncapi.yml
-- filename: fluentd-http-input-openapi.yml
+- filename: fluentd-events-api-openapi.yml
   format: yaml
-  label: Fluentd HTTP Input API
-  slug: fluentd-http-input
+  label: Fluentd Events API
+  slug: fluentd-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluentd/refs/heads/main/openapi/fluentd-http-input-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fluentd/refs/heads/main/openapi/fluentd-events-api-openapi.yml
 description: ''
 domains:
 - caa: []

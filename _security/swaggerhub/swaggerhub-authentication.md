@@ -2,18 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: swaggerhub-registry-api-openapi.yml
+- filename: swaggerhub-apis-api-openapi.yml
   format: yaml
-  label: SwaggerHub Registry API
-  slug: swaggerhub-registry-api
+  label: SwaggerHub APIs API
+  slug: swaggerhub-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-registry-api-openapi.yml
-- filename: swaggerhub-user-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-apis-api-openapi.yml
+- filename: swaggerhub-domains-api-openapi.yml
   format: yaml
-  label: SwaggerHub User Management API
-  slug: swaggerhub-user-management-api
+  label: SwaggerHub Domains API
+  slug: swaggerhub-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-user-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-domains-api-openapi.yml
+- filename: swaggerhub-integrations-api-openapi.yml
+  format: yaml
+  label: SwaggerHub Integrations API
+  slug: swaggerhub-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-integrations-api-openapi.yml
+- filename: swaggerhub-organizations-api-openapi.yml
+  format: yaml
+  label: SwaggerHub Organizations API
+  slug: swaggerhub-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-organizations-api-openapi.yml
+- filename: swaggerhub-projects-api-openapi.yml
+  format: yaml
+  label: SwaggerHub Projects API
+  slug: swaggerhub-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-projects-api-openapi.yml
+- filename: swaggerhub-search-api-openapi.yml
+  format: yaml
+  label: SwaggerHub Search API
+  slug: swaggerhub-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-search-api-openapi.yml
+- filename: swaggerhub-settings-api-openapi.yml
+  format: yaml
+  label: SwaggerHub Settings API
+  slug: swaggerhub-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-settings-api-openapi.yml
+- filename: swaggerhub-standardization-api-openapi.yml
+  format: yaml
+  label: SwaggerHub Standardization API
+  slug: swaggerhub-standardization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-standardization-api-openapi.yml
+- filename: swaggerhub-teams-api-openapi.yml
+  format: yaml
+  label: SwaggerHub Teams API
+  slug: swaggerhub-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-teams-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

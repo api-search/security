@@ -1,60 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: servicefusion-openapi.yml
-  format: yaml
-  label: Service Fusion Customers API
-  slug: servicefusion-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-openapi.yml
-- filename: servicefusion-openapi.yml
-  format: yaml
-  label: Service Fusion Contacts API
-  slug: servicefusion-contacts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-openapi.yml
-- filename: servicefusion-openapi.yml
-  format: yaml
-  label: Service Fusion Jobs API
-  slug: servicefusion-jobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-openapi.yml
-- filename: servicefusion-openapi.yml
-  format: yaml
-  label: Service Fusion Estimates API
-  slug: servicefusion-estimates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-openapi.yml
-- filename: servicefusion-openapi.yml
-  format: yaml
-  label: Service Fusion Invoices API
-  slug: servicefusion-invoices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-openapi.yml
-- filename: servicefusion-openapi.yml
-  format: yaml
-  label: Service Fusion Products and Services API
-  slug: servicefusion-products-services-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-openapi.yml
-- filename: servicefusion-openapi.yml
-  format: yaml
-  label: Service Fusion Payments API
-  slug: servicefusion-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-openapi.yml
-- filename: servicefusion-openapi.yml
-  format: yaml
-  label: Service Fusion Techs and Users API
-  slug: servicefusion-techs-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-openapi.yml
-- filename: servicefusion-openapi.yml
+- filename: servicefusion-calendar-tasks-api-openapi.yml
   format: yaml
   label: Service Fusion Calendar Tasks API
   slug: servicefusion-calendar-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-calendar-tasks-api-openapi.yml
+- filename: servicefusion-contacts-api-openapi.yml
+  format: yaml
+  label: Service Fusion Contacts API
+  slug: servicefusion-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-contacts-api-openapi.yml
+- filename: servicefusion-customers-api-openapi.yml
+  format: yaml
+  label: Service Fusion Customers API
+  slug: servicefusion-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-customers-api-openapi.yml
+- filename: servicefusion-estimates-api-openapi.yml
+  format: yaml
+  label: Service Fusion Estimates API
+  slug: servicefusion-estimates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-estimates-api-openapi.yml
+- filename: servicefusion-invoices-api-openapi.yml
+  format: yaml
+  label: Service Fusion Invoices API
+  slug: servicefusion-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-invoices-api-openapi.yml
+- filename: servicefusion-jobs-api-openapi.yml
+  format: yaml
+  label: Service Fusion Jobs API
+  slug: servicefusion-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-jobs-api-openapi.yml
+- filename: servicefusion-payments-api-openapi.yml
+  format: yaml
+  label: Service Fusion Payments API
+  slug: servicefusion-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-payments-api-openapi.yml
+- filename: servicefusion-products-and-services-api-openapi.yml
+  format: yaml
+  label: Service Fusion Products and Services API
+  slug: servicefusion-products-and-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-products-and-services-api-openapi.yml
+- filename: servicefusion-techs-and-users-api-openapi.yml
+  format: yaml
+  label: Service Fusion Techs and Users API
+  slug: servicefusion-techs-and-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-techs-and-users-api-openapi.yml
 auth_types:
 - http
 - oauth2

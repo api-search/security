@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: starwood-hotel-search-openapi.yml
+- filename: starwood-hotels-and-resorts-availability-api-openapi.yml
   format: yaml
-  label: Hotel Search API
-  slug: hotel-search-api
+  label: Starwood Hotels and Resorts Availability API
+  slug: starwood-hotels-and-resorts-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/openapi/starwood-hotel-search-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/openapi/starwood-hotels-and-resorts-availability-api-openapi.yml
+- filename: starwood-hotels-and-resorts-hotels-api-openapi.yml
+  format: yaml
+  label: Starwood Hotels and Resorts Hotels API
+  slug: starwood-hotels-and-resorts-hotels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/openapi/starwood-hotels-and-resorts-hotels-api-openapi.yml
+- filename: starwood-hotels-and-resorts-properties-api-openapi.yml
+  format: yaml
+  label: Starwood Hotels and Resorts Properties API
+  slug: starwood-hotels-and-resorts-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/openapi/starwood-hotels-and-resorts-properties-api-openapi.yml
 description: ''
 domains:
 - caa: []

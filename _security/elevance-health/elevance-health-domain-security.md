@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: elevance-health-claims-api-openapi.yml
+  format: yaml
+  label: Elevance Health Claims API
+  slug: elevance-health-claims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-claims-api-openapi.yml
+- filename: elevance-health-conformance-api-openapi.yml
+  format: yaml
+  label: Elevance Health Conformance API
+  slug: elevance-health-conformance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-conformance-api-openapi.yml
+- filename: elevance-health-coverage-api-openapi.yml
+  format: yaml
+  label: Elevance Health Coverage API
+  slug: elevance-health-coverage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-coverage-api-openapi.yml
+- filename: elevance-health-patient-api-openapi.yml
+  format: yaml
+  label: Elevance Health Patient API
+  slug: elevance-health-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-patient-api-openapi.yml
+- filename: elevance-health-provider-directory-api-openapi.yml
+  format: yaml
+  label: Elevance Health Provider Directory API
+  slug: elevance-health-provider-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-provider-directory-api-openapi.yml
 description: ''
 domains:
 - caa:

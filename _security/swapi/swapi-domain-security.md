@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: swapi-openapi.yml
+- filename: swapi-films-api-openapi.yml
   format: yaml
-  label: SWAPI REST API (swapi.dev)
-  slug: swapi-rest-api-swapidev
+  label: SWAPI - Star Wars API Films API
+  slug: swapi-films-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/openapi/swapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/openapi/swapi-films-api-openapi.yml
+- filename: swapi-people-api-openapi.yml
+  format: yaml
+  label: SWAPI - Star Wars API People API
+  slug: swapi-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/openapi/swapi-people-api-openapi.yml
+- filename: swapi-planets-api-openapi.yml
+  format: yaml
+  label: SWAPI - Star Wars API Planets API
+  slug: swapi-planets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/openapi/swapi-planets-api-openapi.yml
+- filename: swapi-species-api-openapi.yml
+  format: yaml
+  label: SWAPI - Star Wars API Species API
+  slug: swapi-species-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/openapi/swapi-species-api-openapi.yml
+- filename: swapi-starships-api-openapi.yml
+  format: yaml
+  label: SWAPI - Star Wars API Starships API
+  slug: swapi-starships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/openapi/swapi-starships-api-openapi.yml
+- filename: swapi-vehicles-api-openapi.yml
+  format: yaml
+  label: SWAPI - Star Wars API Vehicles API
+  slug: swapi-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/openapi/swapi-vehicles-api-openapi.yml
 description: ''
 domains:
 - caa: []

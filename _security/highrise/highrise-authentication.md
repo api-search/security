@@ -9,12 +9,36 @@ api_specs:
   slug: highrise-bot-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/asyncapi/highrise-bot-api-asyncapi.yml
-- filename: highrise-web-api-openapi.yml
+- filename: highrise-grabs-api-openapi.yml
   format: yaml
-  label: Highrise Web API
-  slug: highrise-web-api
+  label: Highrise grabs API
+  slug: highrise-grabs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/openapi/highrise-web-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/openapi/highrise-grabs-api-openapi.yml
+- filename: highrise-items-api-openapi.yml
+  format: yaml
+  label: Highrise items API
+  slug: highrise-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/openapi/highrise-items-api-openapi.yml
+- filename: highrise-posts-api-openapi.yml
+  format: yaml
+  label: Highrise posts API
+  slug: highrise-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/openapi/highrise-posts-api-openapi.yml
+- filename: highrise-rooms-api-openapi.yml
+  format: yaml
+  label: Highrise rooms API
+  slug: highrise-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/openapi/highrise-rooms-api-openapi.yml
+- filename: highrise-users-api-openapi.yml
+  format: yaml
+  label: Highrise users API
+  slug: highrise-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/openapi/highrise-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

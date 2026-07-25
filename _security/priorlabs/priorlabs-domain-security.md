@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: priorlabs-openapi-original.json
-  format: json
-  label: TabPFN API
-  slug: tabpfn-api
+- filename: priorlabs-prediction-api-openapi.yml
+  format: yaml
+  label: Prior Labs Prediction API
+  slug: priorlabs-prediction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/openapi/priorlabs-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/openapi/priorlabs-prediction-api-openapi.yml
+- filename: priorlabs-training-api-openapi.yml
+  format: yaml
+  label: Prior Labs Training API
+  slug: priorlabs-training-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/openapi/priorlabs-training-api-openapi.yml
 description: ''
 domains:
 - caa: []

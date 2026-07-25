@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: bitwise-openapi.yml
+- filename: bitwise-etfs-api-openapi.yml
   format: yaml
-  label: Bitwise API
-  slug: bitwise-api
+  label: Bitwise ETFs API
+  slug: bitwise-etfs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/openapi/bitwise-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/openapi/bitwise-etfs-api-openapi.yml
+- filename: bitwise-funds-api-openapi.yml
+  format: yaml
+  label: Bitwise Funds API
+  slug: bitwise-funds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/openapi/bitwise-funds-api-openapi.yml
+- filename: bitwise-indexes-api-openapi.yml
+  format: yaml
+  label: Bitwise Indexes API
+  slug: bitwise-indexes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/openapi/bitwise-indexes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

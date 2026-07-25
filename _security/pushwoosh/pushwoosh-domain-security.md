@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: pushwoosh-openapi.yml
+- filename: pushwoosh-messages-api-openapi.yml
   format: yaml
-  label: Pushwoosh Messaging API
-  slug: pushwoosh-messaging-api
+  label: Pushwoosh Messages API
+  slug: pushwoosh-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushwoosh/refs/heads/main/openapi/pushwoosh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pushwoosh/refs/heads/main/openapi/pushwoosh-messages-api-openapi.yml
 description: ''
 domains:
 - caa:

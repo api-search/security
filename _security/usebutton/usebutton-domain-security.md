@@ -1,35 +1,41 @@
 ---
 api_specs:
-- filename: usebutton-brands-openapi.yml
+- filename: usebutton-accounts-api-openapi.yml
   format: yaml
-  label: Button Brands API
-  slug: button-brands-api
+  label: Button Accounts API
+  slug: usebutton-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/openapi/usebutton-brands-openapi.yml
-- filename: usebutton-billing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/openapi/usebutton-accounts-api-openapi.yml
+- filename: usebutton-brands-api-api-openapi.yml
   format: yaml
-  label: Button Billing API
-  slug: button-billing-api
+  label: Button Brands Api API
+  slug: usebutton-brands-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/openapi/usebutton-billing-openapi.yml
-- filename: usebutton-links-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/openapi/usebutton-brands-api-api-openapi.yml
+- filename: usebutton-create-api-openapi.yml
   format: yaml
-  label: Button Links API
-  slug: button-links-api
+  label: Button Create API
+  slug: usebutton-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/openapi/usebutton-links-openapi.yml
-- filename: usebutton-shortlink-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/openapi/usebutton-create-api-openapi.yml
+- filename: usebutton-links-api-api-openapi.yml
   format: yaml
-  label: Button Shortlink API
-  slug: button-shortlink-api
+  label: Button Links Api API
+  slug: usebutton-links-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/openapi/usebutton-shortlink-openapi.yml
-- filename: usebutton-offers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/openapi/usebutton-links-api-api-openapi.yml
+- filename: usebutton-offers-api-openapi.yml
   format: yaml
   label: Button Offers API
-  slug: button-offers-api
+  slug: usebutton-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/openapi/usebutton-offers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/openapi/usebutton-offers-api-openapi.yml
+- filename: usebutton-transactions-api-openapi.yml
+  format: yaml
+  label: Button Transactions API
+  slug: usebutton-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/openapi/usebutton-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

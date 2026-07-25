@@ -1,11 +1,119 @@
 ---
 api_specs:
-- filename: smol-machines-smolfleet-openapi.json
-  format: json
-  label: Smol Machines Cloud API (smolfleet)
-  slug: smol-machines-cloud-api-smolfleet
+- filename: smol-machines-apikeys-api-openapi.yml
+  format: yaml
+  label: Smol Machines apikeys API
+  slug: smol-machines-apikeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-smolfleet-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-apikeys-api-openapi.yml
+- filename: smol-machines-apps-api-openapi.yml
+  format: yaml
+  label: Smol Machines apps API
+  slug: smol-machines-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-apps-api-openapi.yml
+- filename: smol-machines-billing-api-openapi.yml
+  format: yaml
+  label: Smol Machines billing API
+  slug: smol-machines-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-billing-api-openapi.yml
+- filename: smol-machines-containers-api-openapi.yml
+  format: yaml
+  label: Smol Machines Containers API
+  slug: smol-machines-containers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-containers-api-openapi.yml
+- filename: smol-machines-execution-api-openapi.yml
+  format: yaml
+  label: Smol Machines Execution API
+  slug: smol-machines-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-execution-api-openapi.yml
+- filename: smol-machines-health-api-openapi.yml
+  format: yaml
+  label: Smol Machines health API
+  slug: smol-machines-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-health-api-openapi.yml
+- filename: smol-machines-images-api-openapi.yml
+  format: yaml
+  label: Smol Machines Images API
+  slug: smol-machines-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-images-api-openapi.yml
+- filename: smol-machines-logs-api-openapi.yml
+  format: yaml
+  label: Smol Machines Logs API
+  slug: smol-machines-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-logs-api-openapi.yml
+- filename: smol-machines-machines-api-openapi.yml
+  format: yaml
+  label: Smol Machines machines API
+  slug: smol-machines-machines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-machines-api-openapi.yml
+- filename: smol-machines-microvms-api-openapi.yml
+  format: yaml
+  label: Smol Machines MicroVMs API
+  slug: smol-machines-microvms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-microvms-api-openapi.yml
+- filename: smol-machines-nodes-api-openapi.yml
+  format: yaml
+  label: Smol Machines nodes API
+  slug: smol-machines-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-nodes-api-openapi.yml
+- filename: smol-machines-operations-api-openapi.yml
+  format: yaml
+  label: Smol Machines operations API
+  slug: smol-machines-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-operations-api-openapi.yml
+- filename: smol-machines-plans-api-openapi.yml
+  format: yaml
+  label: Smol Machines plans API
+  slug: smol-machines-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-plans-api-openapi.yml
+- filename: smol-machines-pools-api-openapi.yml
+  format: yaml
+  label: Smol Machines pools API
+  slug: smol-machines-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-pools-api-openapi.yml
+- filename: smol-machines-sandboxes-api-openapi.yml
+  format: yaml
+  label: Smol Machines Sandboxes API
+  slug: smol-machines-sandboxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-sandboxes-api-openapi.yml
+- filename: smol-machines-tenants-api-openapi.yml
+  format: yaml
+  label: Smol Machines tenants API
+  slug: smol-machines-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-tenants-api-openapi.yml
+- filename: smol-machines-tokens-api-openapi.yml
+  format: yaml
+  label: Smol Machines tokens API
+  slug: smol-machines-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-tokens-api-openapi.yml
+- filename: smol-machines-usage-api-openapi.yml
+  format: yaml
+  label: Smol Machines usage API
+  slug: smol-machines-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-usage-api-openapi.yml
+- filename: smol-machines-volumes-api-openapi.yml
+  format: yaml
+  label: Smol Machines volumes API
+  slug: smol-machines-volumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-volumes-api-openapi.yml
 description: ''
 domains:
 - caa: []

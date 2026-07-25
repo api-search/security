@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: list-all-sports
+- filename: therundown-v1-delta-api-openapi.yml
   format: yaml
-  label: TheRundown Sports Odds API
-  slug: sports-odds-api
+  label: The Rundown V1 Delta API
+  slug: therundown-v1-delta-api
   spec_type: OpenAPI
-  url: https://docs.therundown.io/api-reference/generated/v2-sports/list-all-sports
+  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v1-delta-api-openapi.yml
+- filename: therundown-v1-events-api-openapi.yml
+  format: yaml
+  label: The Rundown V1 Events API
+  slug: therundown-v1-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v1-events-api-openapi.yml
+- filename: therundown-v1-lines-api-openapi.yml
+  format: yaml
+  label: The Rundown V1 Lines API
+  slug: therundown-v1-lines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v1-lines-api-openapi.yml
+- filename: therundown-v1-reference-api-openapi.yml
+  format: yaml
+  label: The Rundown V1 Reference API
+  slug: therundown-v1-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v1-reference-api-openapi.yml
+- filename: therundown-v1-sports-api-openapi.yml
+  format: yaml
+  label: The Rundown V1 Sports API
+  slug: therundown-v1-sports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v1-sports-api-openapi.yml
+- filename: therundown-v1-websocket-api-openapi.yml
+  format: yaml
+  label: The Rundown V1 WebSocket API
+  slug: therundown-v1-websocket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v1-websocket-api-openapi.yml
+- filename: therundown-v2-events-api-openapi.yml
+  format: yaml
+  label: The Rundown V2 Events API
+  slug: therundown-v2-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v2-events-api-openapi.yml
+- filename: therundown-v2-markets-api-openapi.yml
+  format: yaml
+  label: The Rundown V2 Markets API
+  slug: therundown-v2-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v2-markets-api-openapi.yml
+- filename: therundown-v2-players-api-openapi.yml
+  format: yaml
+  label: The Rundown V2 Players API
+  slug: therundown-v2-players-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v2-players-api-openapi.yml
+- filename: therundown-v2-reference-api-openapi.yml
+  format: yaml
+  label: The Rundown V2 Reference API
+  slug: therundown-v2-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v2-reference-api-openapi.yml
+- filename: therundown-v2-sports-api-openapi.yml
+  format: yaml
+  label: The Rundown V2 Sports API
+  slug: therundown-v2-sports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v2-sports-api-openapi.yml
+- filename: therundown-v2-stats-api-openapi.yml
+  format: yaml
+  label: The Rundown V2 Stats API
+  slug: therundown-v2-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v2-stats-api-openapi.yml
+- filename: therundown-v2-teams-api-openapi.yml
+  format: yaml
+  label: The Rundown V2 Teams API
+  slug: therundown-v2-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v2-teams-api-openapi.yml
+- filename: therundown-v2-websocket-api-openapi.yml
+  format: yaml
+  label: The Rundown V2 WebSocket API
+  slug: therundown-v2-websocket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v2-websocket-api-openapi.yml
 description: ''
 domains:
 - caa: []

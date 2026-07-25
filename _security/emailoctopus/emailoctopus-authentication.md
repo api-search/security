@@ -1,42 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: emailoctopus-openapi.yml
+- filename: emailoctopus-automation-api-openapi.yml
   format: yaml
-  label: EmailOctopus Lists API
-  slug: emailoctopus-lists-api
+  label: EmailOctopus Automation API
+  slug: emailoctopus-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-openapi.yml
-- filename: emailoctopus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-automation-api-openapi.yml
+- filename: emailoctopus-campaign-api-openapi.yml
   format: yaml
-  label: EmailOctopus Contacts API
-  slug: emailoctopus-contacts-api
+  label: EmailOctopus Campaign API
+  slug: emailoctopus-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-openapi.yml
-- filename: emailoctopus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-campaign-api-openapi.yml
+- filename: emailoctopus-contact-api-openapi.yml
   format: yaml
-  label: EmailOctopus Campaigns API
-  slug: emailoctopus-campaigns-api
+  label: EmailOctopus Contact API
+  slug: emailoctopus-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-openapi.yml
-- filename: emailoctopus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-contact-api-openapi.yml
+- filename: emailoctopus-field-api-openapi.yml
   format: yaml
-  label: EmailOctopus Tags API
-  slug: emailoctopus-tags-api
+  label: EmailOctopus Field API
+  slug: emailoctopus-field-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-openapi.yml
-- filename: emailoctopus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-field-api-openapi.yml
+- filename: emailoctopus-list-api-openapi.yml
   format: yaml
-  label: EmailOctopus Automations API
-  slug: emailoctopus-automations-api
+  label: EmailOctopus List API
+  slug: emailoctopus-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-openapi.yml
-- filename: emailoctopus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-list-api-openapi.yml
+- filename: emailoctopus-tag-api-openapi.yml
   format: yaml
-  label: EmailOctopus Reports API
-  slug: emailoctopus-reports-api
+  label: EmailOctopus Tag API
+  slug: emailoctopus-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-tag-api-openapi.yml
 auth_types:
 - http
 description: ''

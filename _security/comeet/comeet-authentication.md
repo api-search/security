@@ -2,12 +2,12 @@
 api_key_in:
 - query
 api_specs:
-- filename: comeet-careers-api-openapi.yml
+- filename: comeet-positions-api-openapi.yml
   format: yaml
-  label: Comeet Careers API
-  slug: comeet-careers-api
+  label: Comeet Positions API
+  slug: comeet-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comeet/refs/heads/main/openapi/comeet-careers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/comeet/refs/heads/main/openapi/comeet-positions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: microsoft-sql-server-azure-sql-databases-api-openapi.yml
   format: yaml
-  label: SQL Server Database Engine API
-  slug: sql-server-database-engine-api
+  label: Microsoft SQL Server Azure SQL Databases API
+  slug: microsoft-sql-server-azure-sql-databases-api
   spec_type: OpenAPI
-  url: https://docs.microsoft.com/sql/connect/
-- filename: sql
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sql-server/refs/heads/main/openapi/microsoft-sql-server-azure-sql-databases-api-openapi.yml
+- filename: microsoft-sql-server-azure-sql-servers-api-openapi.yml
   format: yaml
-  label: Azure SQL Database REST API
-  slug: azure-sql-database-rest-api
+  label: Microsoft SQL Server Azure SQL Servers API
+  slug: microsoft-sql-server-azure-sql-servers-api
   spec_type: OpenAPI
-  url: https://github.com/Azure/azure-rest-api-specs/tree/main/specification/sql
-- filename: '2.0'
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sql-server/refs/heads/main/openapi/microsoft-sql-server-azure-sql-servers-api-openapi.yml
+- filename: microsoft-sql-server-data-api-builder-api-openapi.yml
   format: yaml
-  label: SQL Server Reporting Services (SSRS) API
-  slug: sql-server-reporting-services-ssrs-api
+  label: Microsoft SQL Server Data API Builder API
+  slug: microsoft-sql-server-data-api-builder-api
   spec_type: OpenAPI
-  url: https://app.swaggerhub.com/apis/microsoft-rs/SSRS/2.0
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sql-server/refs/heads/main/openapi/microsoft-sql-server-data-api-builder-api-openapi.yml
 description: ''
 domains:
 - caa:

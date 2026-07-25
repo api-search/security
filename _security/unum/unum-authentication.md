@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: unum-hr-connect-openapi.yml
+- filename: unum-authentication-api-openapi.yml
   format: yaml
-  label: Unum HR Connect API
-  slug: hr-connect
+  label: Unum Authentication API
+  slug: unum-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/openapi/unum-hr-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/openapi/unum-authentication-api-openapi.yml
+- filename: unum-billing-api-openapi.yml
+  format: yaml
+  label: Unum Billing API
+  slug: unum-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/openapi/unum-billing-api-openapi.yml
+- filename: unum-eligibility-api-openapi.yml
+  format: yaml
+  label: Unum Eligibility API
+  slug: unum-eligibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/openapi/unum-eligibility-api-openapi.yml
+- filename: unum-enrollment-api-openapi.yml
+  format: yaml
+  label: Unum Enrollment API
+  slug: unum-enrollment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/openapi/unum-enrollment-api-openapi.yml
+- filename: unum-evidence-of-insurability-api-openapi.yml
+  format: yaml
+  label: Unum Evidence of Insurability API
+  slug: unum-evidence-of-insurability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/openapi/unum-evidence-of-insurability-api-openapi.yml
+- filename: unum-leave-management-api-openapi.yml
+  format: yaml
+  label: Unum Leave Management API
+  slug: unum-leave-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/openapi/unum-leave-management-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

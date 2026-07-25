@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: apache-hudi-timeline-openapi.yml
+- filename: apache-hudi-tables-api-openapi.yml
   format: yaml
-  label: Apache Hudi Timeline Server API
+  label: Apache Hudi Tables API
+  slug: apache-hudi-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/openapi/apache-hudi-tables-api-openapi.yml
+- filename: apache-hudi-timeline-api-openapi.yml
+  format: yaml
+  label: Apache Hudi Timeline API
   slug: apache-hudi-timeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/openapi/apache-hudi-timeline-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/openapi/apache-hudi-timeline-api-openapi.yml
 description: ''
 domains:
 - caa:

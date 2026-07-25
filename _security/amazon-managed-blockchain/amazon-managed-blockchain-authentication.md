@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-managed-blockchain-openapi-original.yaml
+- filename: amazon-managed-blockchain-accessors-api-openapi.yml
   format: yaml
-  label: Amazon Managed Blockchain API
-  slug: amazon-managed-blockchain-api
+  label: Amazon Managed Blockchain Accessors API
+  slug: amazon-managed-blockchain-accessors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/openapi/amazon-managed-blockchain-openapi-original.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/openapi/amazon-managed-blockchain-accessors-api-openapi.yml
+- filename: amazon-managed-blockchain-invitations-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Blockchain Invitations API
+  slug: amazon-managed-blockchain-invitations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/openapi/amazon-managed-blockchain-invitations-api-openapi.yml
+- filename: amazon-managed-blockchain-networks-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Blockchain Networks API
+  slug: amazon-managed-blockchain-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/openapi/amazon-managed-blockchain-networks-api-openapi.yml
+- filename: amazon-managed-blockchain-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Blockchain Tags API
+  slug: amazon-managed-blockchain-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/openapi/amazon-managed-blockchain-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

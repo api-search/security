@@ -1,5 +1,18 @@
 ---
 api_key_in: []
+api_specs:
+- filename: orange-device-phone-number-api-openapi.yml
+  format: yaml
+  label: Orange Device Phone Number API
+  slug: orange-device-phone-number-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orange/refs/heads/main/openapi/orange-device-phone-number-api-openapi.yml
+- filename: orange-verify-api-openapi.yml
+  format: yaml
+  label: Orange Verify API
+  slug: orange-verify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orange/refs/heads/main/openapi/orange-verify-api-openapi.yml
 auth_types:
 - openIdConnect
 description: ''

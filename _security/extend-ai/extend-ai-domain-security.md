@@ -1,41 +1,59 @@
 ---
 api_specs:
-- filename: extend-ai-openapi.yml
+- filename: extend-ai-batch-api-openapi.yml
   format: yaml
-  label: Extend Files API
-  slug: files
+  label: Extend Batch API
+  slug: extend-ai-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend-ai/refs/heads/main/openapi/extend-ai-openapi.yml
-- filename: extend-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/extend-ai/refs/heads/main/openapi/extend-ai-batch-api-openapi.yml
+- filename: extend-ai-classify-api-openapi.yml
   format: yaml
-  label: Extend Processors API
-  slug: processors
+  label: Extend Classify API
+  slug: extend-ai-classify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend-ai/refs/heads/main/openapi/extend-ai-openapi.yml
-- filename: extend-ai-openapi.yml
-  format: yaml
-  label: Extend Processor Runs API
-  slug: processor-runs
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend-ai/refs/heads/main/openapi/extend-ai-openapi.yml
-- filename: extend-ai-openapi.yml
-  format: yaml
-  label: Extend Workflows API
-  slug: workflows
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend-ai/refs/heads/main/openapi/extend-ai-openapi.yml
-- filename: extend-ai-openapi.yml
-  format: yaml
-  label: Extend Workflow Runs API
-  slug: workflow-runs
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend-ai/refs/heads/main/openapi/extend-ai-openapi.yml
-- filename: extend-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/extend-ai/refs/heads/main/openapi/extend-ai-classify-api-openapi.yml
+- filename: extend-ai-evaluations-api-openapi.yml
   format: yaml
   label: Extend Evaluations API
-  slug: evaluations
+  slug: extend-ai-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend-ai/refs/heads/main/openapi/extend-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/extend-ai/refs/heads/main/openapi/extend-ai-evaluations-api-openapi.yml
+- filename: extend-ai-extract-api-openapi.yml
+  format: yaml
+  label: Extend Extract API
+  slug: extend-ai-extract-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extend-ai/refs/heads/main/openapi/extend-ai-extract-api-openapi.yml
+- filename: extend-ai-files-api-openapi.yml
+  format: yaml
+  label: Extend Files API
+  slug: extend-ai-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extend-ai/refs/heads/main/openapi/extend-ai-files-api-openapi.yml
+- filename: extend-ai-parse-api-openapi.yml
+  format: yaml
+  label: Extend Parse API
+  slug: extend-ai-parse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extend-ai/refs/heads/main/openapi/extend-ai-parse-api-openapi.yml
+- filename: extend-ai-split-api-openapi.yml
+  format: yaml
+  label: Extend Split API
+  slug: extend-ai-split-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extend-ai/refs/heads/main/openapi/extend-ai-split-api-openapi.yml
+- filename: extend-ai-workflow-runs-api-openapi.yml
+  format: yaml
+  label: Extend Workflow Runs API
+  slug: extend-ai-workflow-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extend-ai/refs/heads/main/openapi/extend-ai-workflow-runs-api-openapi.yml
+- filename: extend-ai-workflows-api-openapi.yml
+  format: yaml
+  label: Extend Workflows API
+  slug: extend-ai-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extend-ai/refs/heads/main/openapi/extend-ai-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []

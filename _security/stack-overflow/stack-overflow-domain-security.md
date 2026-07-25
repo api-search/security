@@ -1,17 +1,65 @@
 ---
 api_specs:
-- filename: stack-overflow-openapi.yml
+- filename: stack-overflow-answers-api-openapi.yml
   format: yaml
-  label: Stack Overflow API
-  slug: stack-overflow-api
+  label: Stack Overflow Answers API
+  slug: stack-overflow-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-openapi.yml
-- filename: stack-overflow-for-teams-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-answers-api-openapi.yml
+- filename: stack-overflow-articles-api-openapi.yml
   format: yaml
-  label: Stack Overflow for Teams API v3
-  slug: stack-overflow-for-teams-api
+  label: Stack Overflow Articles API
+  slug: stack-overflow-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-for-teams-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-articles-api-openapi.yml
+- filename: stack-overflow-badges-api-openapi.yml
+  format: yaml
+  label: Stack Overflow Badges API
+  slug: stack-overflow-badges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-badges-api-openapi.yml
+- filename: stack-overflow-comments-api-openapi.yml
+  format: yaml
+  label: Stack Overflow Comments API
+  slug: stack-overflow-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-comments-api-openapi.yml
+- filename: stack-overflow-questions-api-openapi.yml
+  format: yaml
+  label: Stack Overflow Questions API
+  slug: stack-overflow-questions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-questions-api-openapi.yml
+- filename: stack-overflow-search-api-openapi.yml
+  format: yaml
+  label: Stack Overflow Search API
+  slug: stack-overflow-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-search-api-openapi.yml
+- filename: stack-overflow-smes-api-openapi.yml
+  format: yaml
+  label: Stack Overflow SMEs API
+  slug: stack-overflow-smes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-smes-api-openapi.yml
+- filename: stack-overflow-tags-api-openapi.yml
+  format: yaml
+  label: Stack Overflow Tags API
+  slug: stack-overflow-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-tags-api-openapi.yml
+- filename: stack-overflow-user-groups-api-openapi.yml
+  format: yaml
+  label: Stack Overflow User Groups API
+  slug: stack-overflow-user-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-user-groups-api-openapi.yml
+- filename: stack-overflow-users-api-openapi.yml
+  format: yaml
+  label: Stack Overflow Users API
+  slug: stack-overflow-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-users-api-openapi.yml
 description: ''
 domains:
 - caa:

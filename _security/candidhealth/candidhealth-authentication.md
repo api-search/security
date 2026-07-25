@@ -1,42 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: candidhealth-openapi.yml
+- filename: candidhealth-auth-api-openapi.yml
   format: yaml
-  label: Candid Health Encounters & Claims API
-  slug: encounters-claims-api
+  label: Candid Health Auth API
+  slug: candidhealth-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candidhealth/refs/heads/main/openapi/candidhealth-openapi.yml
-- filename: candidhealth-openapi.yml
-  format: yaml
-  label: Candid Health Eligibility API
-  slug: eligibility-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candidhealth/refs/heads/main/openapi/candidhealth-openapi.yml
-- filename: candidhealth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/candidhealth/refs/heads/main/openapi/candidhealth-auth-api-openapi.yml
+- filename: candidhealth-charge-capture-api-openapi.yml
   format: yaml
   label: Candid Health Charge Capture API
-  slug: charge-capture-api
+  slug: candidhealth-charge-capture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candidhealth/refs/heads/main/openapi/candidhealth-openapi.yml
-- filename: candidhealth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/candidhealth/refs/heads/main/openapi/candidhealth-charge-capture-api-openapi.yml
+- filename: candidhealth-eligibility-api-openapi.yml
   format: yaml
-  label: Candid Health Payers & Fee Schedules API
-  slug: payers-fee-schedules-api
+  label: Candid Health Eligibility API
+  slug: candidhealth-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candidhealth/refs/heads/main/openapi/candidhealth-openapi.yml
-- filename: candidhealth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/candidhealth/refs/heads/main/openapi/candidhealth-eligibility-api-openapi.yml
+- filename: candidhealth-encounters-api-openapi.yml
   format: yaml
-  label: Candid Health Remits & ERAs API
-  slug: remits-eras-api
+  label: Candid Health Encounters API
+  slug: candidhealth-encounters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candidhealth/refs/heads/main/openapi/candidhealth-openapi.yml
-- filename: candidhealth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/candidhealth/refs/heads/main/openapi/candidhealth-encounters-api-openapi.yml
+- filename: candidhealth-events-api-openapi.yml
   format: yaml
-  label: Candid Health Webhooks & Events API
-  slug: webhooks-events-api
+  label: Candid Health Events API
+  slug: candidhealth-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candidhealth/refs/heads/main/openapi/candidhealth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/candidhealth/refs/heads/main/openapi/candidhealth-events-api-openapi.yml
+- filename: candidhealth-fee-schedules-api-openapi.yml
+  format: yaml
+  label: Candid Health Fee Schedules API
+  slug: candidhealth-fee-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/candidhealth/refs/heads/main/openapi/candidhealth-fee-schedules-api-openapi.yml
+- filename: candidhealth-insurance-adjudications-api-openapi.yml
+  format: yaml
+  label: Candid Health Insurance Adjudications API
+  slug: candidhealth-insurance-adjudications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/candidhealth/refs/heads/main/openapi/candidhealth-insurance-adjudications-api-openapi.yml
+- filename: candidhealth-payers-api-openapi.yml
+  format: yaml
+  label: Candid Health Payers API
+  slug: candidhealth-payers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/candidhealth/refs/heads/main/openapi/candidhealth-payers-api-openapi.yml
 auth_types:
 - http
 description: ''

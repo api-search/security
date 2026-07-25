@@ -1,18 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: medium-rest-api-openapi.yml
+- filename: medium-authorization-api-openapi.yml
   format: yaml
-  label: Medium REST API
-  slug: rest-api
+  label: medium Authorization API
+  slug: medium-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/openapi/medium-rest-api-openapi.yml
-- filename: medium-oauth2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/openapi/medium-authorization-api-openapi.yml
+- filename: medium-images-api-openapi.yml
   format: yaml
-  label: Medium OAuth2 API
-  slug: oauth2
+  label: medium Images API
+  slug: medium-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/openapi/medium-oauth2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/openapi/medium-images-api-openapi.yml
+- filename: medium-posts-api-openapi.yml
+  format: yaml
+  label: medium Posts API
+  slug: medium-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/openapi/medium-posts-api-openapi.yml
+- filename: medium-publications-api-openapi.yml
+  format: yaml
+  label: medium Publications API
+  slug: medium-publications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/openapi/medium-publications-api-openapi.yml
+- filename: medium-tokens-api-openapi.yml
+  format: yaml
+  label: medium Tokens API
+  slug: medium-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/openapi/medium-tokens-api-openapi.yml
+- filename: medium-users-api-openapi.yml
+  format: yaml
+  label: medium Users API
+  slug: medium-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/openapi/medium-users-api-openapi.yml
 auth_types:
 - http
 description: ''

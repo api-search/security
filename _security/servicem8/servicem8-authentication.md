@@ -2,72 +2,72 @@
 api_key_in:
 - header
 api_specs:
-- filename: servicem8-openapi.yml
-  format: yaml
-  label: ServiceM8 Jobs API
-  slug: servicem8-jobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-openapi.yml
-- filename: servicem8-openapi.yml
-  format: yaml
-  label: ServiceM8 Job Activities API
-  slug: servicem8-job-activities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-openapi.yml
-- filename: servicem8-openapi.yml
-  format: yaml
-  label: ServiceM8 Clients (Companies) API
-  slug: servicem8-clients-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-openapi.yml
-- filename: servicem8-openapi.yml
-  format: yaml
-  label: ServiceM8 Job Contacts API
-  slug: servicem8-contacts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-openapi.yml
-- filename: servicem8-openapi.yml
-  format: yaml
-  label: ServiceM8 Staff API
-  slug: servicem8-staff-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-openapi.yml
-- filename: servicem8-openapi.yml
-  format: yaml
-  label: ServiceM8 Materials API
-  slug: servicem8-materials-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-openapi.yml
-- filename: servicem8-openapi.yml
+- filename: servicem8-attachments-api-openapi.yml
   format: yaml
   label: ServiceM8 Attachments API
   slug: servicem8-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-openapi.yml
-- filename: servicem8-openapi.yml
-  format: yaml
-  label: ServiceM8 Queues API
-  slug: servicem8-queues-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-openapi.yml
-- filename: servicem8-openapi.yml
-  format: yaml
-  label: ServiceM8 Vendors API
-  slug: servicem8-vendors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-openapi.yml
-- filename: servicem8-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-attachments-api-openapi.yml
+- filename: servicem8-badges-api-openapi.yml
   format: yaml
   label: ServiceM8 Badges API
   slug: servicem8-badges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-openapi.yml
-- filename: servicem8-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-badges-api-openapi.yml
+- filename: servicem8-clients-api-openapi.yml
+  format: yaml
+  label: ServiceM8 Clients API
+  slug: servicem8-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-clients-api-openapi.yml
+- filename: servicem8-job-activities-api-openapi.yml
+  format: yaml
+  label: ServiceM8 Job Activities API
+  slug: servicem8-job-activities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-job-activities-api-openapi.yml
+- filename: servicem8-job-contacts-api-openapi.yml
+  format: yaml
+  label: ServiceM8 Job Contacts API
+  slug: servicem8-job-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-job-contacts-api-openapi.yml
+- filename: servicem8-jobs-api-openapi.yml
+  format: yaml
+  label: ServiceM8 Jobs API
+  slug: servicem8-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-jobs-api-openapi.yml
+- filename: servicem8-materials-api-openapi.yml
+  format: yaml
+  label: ServiceM8 Materials API
+  slug: servicem8-materials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-materials-api-openapi.yml
+- filename: servicem8-queues-api-openapi.yml
+  format: yaml
+  label: ServiceM8 Queues API
+  slug: servicem8-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-queues-api-openapi.yml
+- filename: servicem8-staff-api-openapi.yml
+  format: yaml
+  label: ServiceM8 Staff API
+  slug: servicem8-staff-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-staff-api-openapi.yml
+- filename: servicem8-vendors-api-openapi.yml
+  format: yaml
+  label: ServiceM8 Vendors API
+  slug: servicem8-vendors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-vendors-api-openapi.yml
+- filename: servicem8-webhooks-api-openapi.yml
   format: yaml
   label: ServiceM8 Webhooks API
   slug: servicem8-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

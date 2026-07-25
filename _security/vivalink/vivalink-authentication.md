@@ -1,36 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: vivalink-openapi.yml
-  format: yaml
-  label: VivaLNK Subjects API
-  slug: vivalink-subjects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-openapi.yml
-- filename: vivalink-openapi.yml
+- filename: vivalink-devices-api-openapi.yml
   format: yaml
   label: VivaLNK Devices API
   slug: vivalink-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-openapi.yml
-- filename: vivalink-openapi.yml
-  format: yaml
-  label: VivaLNK Vital Signs Data API
-  slug: vivalink-vital-signs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-openapi.yml
-- filename: vivalink-openapi.yml
-  format: yaml
-  label: VivaLNK Webhooks API
-  slug: vivalink-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-openapi.yml
-- filename: vivalink-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-devices-api-openapi.yml
+- filename: vivalink-fhir-api-openapi.yml
   format: yaml
   label: VivaLNK FHIR API
   slug: vivalink-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-fhir-api-openapi.yml
+- filename: vivalink-subjects-api-openapi.yml
+  format: yaml
+  label: VivaLNK Subjects API
+  slug: vivalink-subjects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-subjects-api-openapi.yml
+- filename: vivalink-vital-signs-api-openapi.yml
+  format: yaml
+  label: VivaLNK Vital Signs API
+  slug: vivalink-vital-signs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-vital-signs-api-openapi.yml
+- filename: vivalink-webhooks-api-openapi.yml
+  format: yaml
+  label: VivaLNK Webhooks API
+  slug: vivalink-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

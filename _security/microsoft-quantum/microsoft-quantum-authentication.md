@@ -2,18 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: azure-quantum-data-plane-openapi.json
-  format: json
-  label: Azure Quantum Workspace Data-Plane API
-  slug: azure-quantum-workspace-data-plane
+- filename: microsoft-quantum-offerings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Quantum Offerings API
+  slug: microsoft-quantum-offerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/azure-quantum-data-plane-openapi.json
-- filename: azure-quantum-resource-manager-openapi.json
-  format: json
-  label: Azure Quantum Resource Manager API
-  slug: azure-quantum-resource-manager
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/microsoft-quantum-offerings-api-openapi.yml
+- filename: microsoft-quantum-operations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Quantum Operations API
+  slug: microsoft-quantum-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/azure-quantum-resource-manager-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/microsoft-quantum-operations-api-openapi.yml
+- filename: microsoft-quantum-subscriptions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Quantum Subscriptions API
+  slug: microsoft-quantum-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/microsoft-quantum-subscriptions-api-openapi.yml
+- filename: microsoft-quantum-suiteoffers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Quantum SuiteOffers API
+  slug: microsoft-quantum-suiteoffers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/microsoft-quantum-suiteoffers-api-openapi.yml
+- filename: microsoft-quantum-workspaces-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Quantum Workspaces API
+  slug: microsoft-quantum-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/microsoft-quantum-workspaces-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

@@ -2,12 +2,72 @@
 api_key_in:
 - query
 api_specs:
-- filename: tomorrow-openapi.yml
+- filename: tomorrow-alerts-api-openapi.yml
   format: yaml
-  label: Tomorrow.io Weather API
-  slug: tomorrowio-weather-api
+  label: Tomorrow.io Alerts API
+  slug: tomorrow-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomorrow/refs/heads/main/openapi/tomorrow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tomorrow/refs/heads/main/openapi/tomorrow-alerts-api-openapi.yml
+- filename: tomorrow-climate-api-openapi.yml
+  format: yaml
+  label: Tomorrow.io Climate API
+  slug: tomorrow-climate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tomorrow/refs/heads/main/openapi/tomorrow-climate-api-openapi.yml
+- filename: tomorrow-events-api-openapi.yml
+  format: yaml
+  label: Tomorrow.io Events API
+  slug: tomorrow-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tomorrow/refs/heads/main/openapi/tomorrow-events-api-openapi.yml
+- filename: tomorrow-forecast-api-openapi.yml
+  format: yaml
+  label: Tomorrow.io Forecast API
+  slug: tomorrow-forecast-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tomorrow/refs/heads/main/openapi/tomorrow-forecast-api-openapi.yml
+- filename: tomorrow-historical-api-openapi.yml
+  format: yaml
+  label: Tomorrow.io Historical API
+  slug: tomorrow-historical-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tomorrow/refs/heads/main/openapi/tomorrow-historical-api-openapi.yml
+- filename: tomorrow-insights-api-openapi.yml
+  format: yaml
+  label: Tomorrow.io Insights API
+  slug: tomorrow-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tomorrow/refs/heads/main/openapi/tomorrow-insights-api-openapi.yml
+- filename: tomorrow-locations-api-openapi.yml
+  format: yaml
+  label: Tomorrow.io Locations API
+  slug: tomorrow-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tomorrow/refs/heads/main/openapi/tomorrow-locations-api-openapi.yml
+- filename: tomorrow-map-tiles-api-openapi.yml
+  format: yaml
+  label: Tomorrow.io Map Tiles API
+  slug: tomorrow-map-tiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tomorrow/refs/heads/main/openapi/tomorrow-map-tiles-api-openapi.yml
+- filename: tomorrow-realtime-api-openapi.yml
+  format: yaml
+  label: Tomorrow.io Realtime API
+  slug: tomorrow-realtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tomorrow/refs/heads/main/openapi/tomorrow-realtime-api-openapi.yml
+- filename: tomorrow-routes-api-openapi.yml
+  format: yaml
+  label: Tomorrow.io Routes API
+  slug: tomorrow-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tomorrow/refs/heads/main/openapi/tomorrow-routes-api-openapi.yml
+- filename: tomorrow-timelines-api-openapi.yml
+  format: yaml
+  label: Tomorrow.io Timelines API
+  slug: tomorrow-timelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tomorrow/refs/heads/main/openapi/tomorrow-timelines-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

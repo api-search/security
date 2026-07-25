@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: swagger.yaml
+- filename: life-sciences-stats-api-openapi.yml
   format: yaml
-  label: ClinicalTrials.gov API v2
-  slug: clinicaltrialsgov-api-v2
+  label: Life Sciences Stats API
+  slug: life-sciences-stats-api
   spec_type: OpenAPI
-  url: https://clinicaltrials.gov/api/v2/swagger.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/life-sciences/refs/heads/main/openapi/life-sciences-stats-api-openapi.yml
+- filename: life-sciences-studies-api-openapi.yml
+  format: yaml
+  label: Life Sciences Studies API
+  slug: life-sciences-studies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/life-sciences/refs/heads/main/openapi/life-sciences-studies-api-openapi.yml
+- filename: life-sciences-version-api-openapi.yml
+  format: yaml
+  label: Life Sciences Version API
+  slug: life-sciences-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/life-sciences/refs/heads/main/openapi/life-sciences-version-api-openapi.yml
 description: ''
 domains:
 - caa:

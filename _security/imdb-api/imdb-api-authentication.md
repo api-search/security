@@ -2,12 +2,42 @@
 api_key_in:
 - query
 api_specs:
-- filename: imdb-api-openapi.yml
+- filename: imdb-api-external-api-openapi.yml
   format: yaml
-  label: IMDb-API
-  slug: imdb-api
+  label: IMDb-API External API
+  slug: imdb-api-external-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/openapi/imdb-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/openapi/imdb-api-external-api-openapi.yml
+- filename: imdb-api-lists-api-openapi.yml
+  format: yaml
+  label: IMDb-API Lists API
+  slug: imdb-api-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/openapi/imdb-api-lists-api-openapi.yml
+- filename: imdb-api-name-api-openapi.yml
+  format: yaml
+  label: IMDb-API Name API
+  slug: imdb-api-name-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/openapi/imdb-api-name-api-openapi.yml
+- filename: imdb-api-search-api-openapi.yml
+  format: yaml
+  label: IMDb-API Search API
+  slug: imdb-api-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/openapi/imdb-api-search-api-openapi.yml
+- filename: imdb-api-title-api-openapi.yml
+  format: yaml
+  label: IMDb-API Title API
+  slug: imdb-api-title-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/openapi/imdb-api-title-api-openapi.yml
+- filename: imdb-api-tools-api-openapi.yml
+  format: yaml
+  label: IMDb-API Tools API
+  slug: imdb-api-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/openapi/imdb-api-tools-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

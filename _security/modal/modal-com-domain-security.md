@@ -1,59 +1,107 @@
 ---
 api_specs:
-- filename: modal-functions-openapi.yml
+- filename: modal-com-apps-api-openapi.yml
+  format: yaml
+  label: Modal Apps API
+  slug: modal-com-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-apps-api-openapi.yml
+- filename: modal-com-dicts-api-openapi.yml
+  format: yaml
+  label: Modal Dicts API
+  slug: modal-com-dicts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-dicts-api-openapi.yml
+- filename: modal-com-environments-api-openapi.yml
+  format: yaml
+  label: Modal Environments API
+  slug: modal-com-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-environments-api-openapi.yml
+- filename: modal-com-execution-api-openapi.yml
+  format: yaml
+  label: Modal Execution API
+  slug: modal-com-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-execution-api-openapi.yml
+- filename: modal-com-files-api-openapi.yml
+  format: yaml
+  label: Modal Files API
+  slug: modal-com-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-files-api-openapi.yml
+- filename: modal-com-filesystem-api-openapi.yml
+  format: yaml
+  label: Modal Filesystem API
+  slug: modal-com-filesystem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-filesystem-api-openapi.yml
+- filename: modal-com-functions-api-openapi.yml
   format: yaml
   label: Modal Functions API
-  slug: modal-functions-api
+  slug: modal-com-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-functions-openapi.yml
-- filename: modal-sandboxes-openapi.yml
-  format: yaml
-  label: Modal Sandboxes API
-  slug: modal-sandboxes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-sandboxes-openapi.yml
-- filename: modal-volumes-openapi.yml
-  format: yaml
-  label: Modal Volumes API
-  slug: modal-volumes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-volumes-openapi.yml
-- filename: modal-images-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-functions-api-openapi.yml
+- filename: modal-com-images-api-openapi.yml
   format: yaml
   label: Modal Images API
-  slug: modal-images-api
+  slug: modal-com-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-images-openapi.yml
-- filename: modal-secrets-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-images-api-openapi.yml
+- filename: modal-com-invocations-api-openapi.yml
   format: yaml
-  label: Modal Secrets API
-  slug: modal-secrets-api
+  label: Modal Invocations API
+  slug: modal-com-invocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-secrets-openapi.yml
-- filename: modal-dicts-queues-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-invocations-api-openapi.yml
+- filename: modal-com-queues-api-openapi.yml
   format: yaml
-  label: Modal Dicts and Queues API
-  slug: modal-dicts-queues-api
+  label: Modal Queues API
+  slug: modal-com-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-dicts-queues-openapi.yml
-- filename: modal-schedules-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-queues-api-openapi.yml
+- filename: modal-com-sandboxes-api-openapi.yml
+  format: yaml
+  label: Modal Sandboxes API
+  slug: modal-com-sandboxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-sandboxes-api-openapi.yml
+- filename: modal-com-schedules-api-openapi.yml
   format: yaml
   label: Modal Schedules API
-  slug: modal-schedules-api
+  slug: modal-com-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-schedules-openapi.yml
-- filename: modal-web-endpoints-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-schedules-api-openapi.yml
+- filename: modal-com-secrets-api-openapi.yml
   format: yaml
-  label: Modal Web Endpoints API
-  slug: modal-web-endpoints-api
+  label: Modal Secrets API
+  slug: modal-com-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-web-endpoints-openapi.yml
-- filename: modal-tokens-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-secrets-api-openapi.yml
+- filename: modal-com-tokens-api-openapi.yml
   format: yaml
-  label: Modal Tokens and Administration API
-  slug: modal-tokens-api
+  label: Modal Tokens API
+  slug: modal-com-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-tokens-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-tokens-api-openapi.yml
+- filename: modal-com-volumes-api-openapi.yml
+  format: yaml
+  label: Modal Volumes API
+  slug: modal-com-volumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-volumes-api-openapi.yml
+- filename: modal-com-webendpoints-api-openapi.yml
+  format: yaml
+  label: Modal WebEndpoints API
+  slug: modal-com-webendpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-webendpoints-api-openapi.yml
+- filename: modal-com-workspaces-api-openapi.yml
+  format: yaml
+  label: Modal Workspaces API
+  slug: modal-com-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa:

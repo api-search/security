@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: apache-ofbiz-rest-api-openapi.yaml
+- filename: apache-ofbiz-authentication-api-openapi.yml
   format: yaml
-  label: Apache OFBiz REST API
-  slug: apache-ofbiz-rest-api
+  label: Apache OFBiz Authentication API
+  slug: apache-ofbiz-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ofbiz/refs/heads/main/openapi/apache-ofbiz-rest-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ofbiz/refs/heads/main/openapi/apache-ofbiz-authentication-api-openapi.yml
+- filename: apache-ofbiz-services-api-openapi.yml
+  format: yaml
+  label: Apache OFBiz Services API
+  slug: apache-ofbiz-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ofbiz/refs/heads/main/openapi/apache-ofbiz-services-api-openapi.yml
 auth_types:
 - http
 description: ''

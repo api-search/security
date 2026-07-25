@@ -2,12 +2,66 @@
 api_key_in:
 - query
 api_specs:
-- filename: puma-openapi.yml
+- filename: puma-gc-api-openapi.yml
   format: yaml
-  label: Puma Control/Status Application
-  slug: control-app
+  label: Puma Gc API
+  slug: puma-gc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/openapi/puma-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/openapi/puma-gc-api-openapi.yml
+- filename: puma-gc-stats-api-openapi.yml
+  format: yaml
+  label: Puma Gc Stats API
+  slug: puma-gc-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/openapi/puma-gc-stats-api-openapi.yml
+- filename: puma-halt-api-openapi.yml
+  format: yaml
+  label: Puma Halt API
+  slug: puma-halt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/openapi/puma-halt-api-openapi.yml
+- filename: puma-phased-restart-api-openapi.yml
+  format: yaml
+  label: Puma Phased Restart API
+  slug: puma-phased-restart-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/openapi/puma-phased-restart-api-openapi.yml
+- filename: puma-refork-api-openapi.yml
+  format: yaml
+  label: Puma Refork API
+  slug: puma-refork-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/openapi/puma-refork-api-openapi.yml
+- filename: puma-reload-worker-directory-api-openapi.yml
+  format: yaml
+  label: Puma Reload Worker Directory API
+  slug: puma-reload-worker-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/openapi/puma-reload-worker-directory-api-openapi.yml
+- filename: puma-restart-api-openapi.yml
+  format: yaml
+  label: Puma Restart API
+  slug: puma-restart-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/openapi/puma-restart-api-openapi.yml
+- filename: puma-stats-api-openapi.yml
+  format: yaml
+  label: Puma Stats API
+  slug: puma-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/openapi/puma-stats-api-openapi.yml
+- filename: puma-stop-api-openapi.yml
+  format: yaml
+  label: Puma Stop API
+  slug: puma-stop-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/openapi/puma-stop-api-openapi.yml
+- filename: puma-thread-backtraces-api-openapi.yml
+  format: yaml
+  label: Puma Thread Backtraces API
+  slug: puma-thread-backtraces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/openapi/puma-thread-backtraces-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

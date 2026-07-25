@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: contentful-openapi.yml
-  format: yaml
-  label: Contentful Content Delivery API
-  slug: contentful-content-delivery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentful/refs/heads/main/openapi/contentful-openapi.yml
 - filename: contentful-webhooks-asyncapi.yml
   format: yaml
   label: Contentful Webhooks
   slug: contentful-webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/contentful/refs/heads/main/openapi/contentful-webhooks-asyncapi.yml
+- filename: contentful-spaces-api-openapi.yml
+  format: yaml
+  label: Contentful Spaces API
+  slug: contentful-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contentful/refs/heads/main/openapi/contentful-spaces-api-openapi.yml
 description: ''
 domains:
 - caa: []

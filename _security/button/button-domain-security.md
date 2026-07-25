@@ -1,35 +1,41 @@
 ---
 api_specs:
-- filename: button-brands-api-openapi.json
-  format: json
-  label: Button Brands API
-  slug: button-brands-api
+- filename: button-accounts-api-openapi.yml
+  format: yaml
+  label: Button Accounts API
+  slug: button-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/button/refs/heads/main/openapi/button-brands-api-openapi.json
-- filename: button-billing-api-openapi.json
-  format: json
-  label: Button Billing API
-  slug: button-billing-api
+  url: https://raw.githubusercontent.com/api-evangelist/button/refs/heads/main/openapi/button-accounts-api-openapi.yml
+- filename: button-brands-api-api-openapi.yml
+  format: yaml
+  label: Button Brands Api API
+  slug: button-brands-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/button/refs/heads/main/openapi/button-billing-api-openapi.json
-- filename: button-links-api-openapi.json
-  format: json
-  label: Button Links API
-  slug: button-links-api
+  url: https://raw.githubusercontent.com/api-evangelist/button/refs/heads/main/openapi/button-brands-api-api-openapi.yml
+- filename: button-create-api-openapi.yml
+  format: yaml
+  label: Button Create API
+  slug: button-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/button/refs/heads/main/openapi/button-links-api-openapi.json
-- filename: button-shortlink-api-openapi.json
-  format: json
-  label: Button Shortlink API
-  slug: button-shortlink-api
+  url: https://raw.githubusercontent.com/api-evangelist/button/refs/heads/main/openapi/button-create-api-openapi.yml
+- filename: button-links-api-api-openapi.yml
+  format: yaml
+  label: Button Links Api API
+  slug: button-links-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/button/refs/heads/main/openapi/button-shortlink-api-openapi.json
-- filename: button-offers-api-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/button/refs/heads/main/openapi/button-links-api-api-openapi.yml
+- filename: button-offers-api-openapi.yml
+  format: yaml
   label: Button Offers API
   slug: button-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/button/refs/heads/main/openapi/button-offers-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/button/refs/heads/main/openapi/button-offers-api-openapi.yml
+- filename: button-transactions-api-openapi.yml
+  format: yaml
+  label: Button Transactions API
+  slug: button-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/button/refs/heads/main/openapi/button-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

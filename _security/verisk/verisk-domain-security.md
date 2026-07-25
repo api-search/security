@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: verisk-insurance-analytics-openapi.yml
+- filename: verisk-catastrophe-api-openapi.yml
   format: yaml
-  label: Verisk Insurance Analytics API
-  slug: insurance-analytics
+  label: Verisk Catastrophe API
+  slug: verisk-catastrophe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/openapi/verisk-insurance-analytics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/openapi/verisk-catastrophe-api-openapi.yml
+- filename: verisk-claims-api-openapi.yml
+  format: yaml
+  label: Verisk Claims API
+  slug: verisk-claims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/openapi/verisk-claims-api-openapi.yml
+- filename: verisk-property-api-openapi.yml
+  format: yaml
+  label: Verisk Property API
+  slug: verisk-property-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/openapi/verisk-property-api-openapi.yml
+- filename: verisk-risk-scoring-api-openapi.yml
+  format: yaml
+  label: Verisk Risk Scoring API
+  slug: verisk-risk-scoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/openapi/verisk-risk-scoring-api-openapi.yml
 description: ''
 domains:
 - caa: []

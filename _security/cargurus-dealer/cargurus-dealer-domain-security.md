@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: cargurus-dealer-openapi.yml
+- filename: cargurus-dealer-car-selector-api-openapi.yml
   format: yaml
   label: CarGurus Car Selector API
-  slug: cargurus-car-selector-api
+  slug: cargurus-dealer-car-selector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargurus-dealer/refs/heads/main/openapi/cargurus-dealer-openapi.yml
-- filename: cargurus-dealer-openapi.yml
-  format: yaml
-  label: CarGurus Instant Market Value API
-  slug: cargurus-instant-market-value-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargurus-dealer/refs/heads/main/openapi/cargurus-dealer-openapi.yml
-- filename: cargurus-dealer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cargurus-dealer/refs/heads/main/openapi/cargurus-dealer-car-selector-api-openapi.yml
+- filename: cargurus-dealer-dealer-reviews-api-openapi.yml
   format: yaml
   label: CarGurus Dealer Reviews API
-  slug: cargurus-dealer-reviews-api
+  slug: cargurus-dealer-dealer-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargurus-dealer/refs/heads/main/openapi/cargurus-dealer-openapi.yml
-- filename: cargurus-dealer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cargurus-dealer/refs/heads/main/openapi/cargurus-dealer-dealer-reviews-api-openapi.yml
+- filename: cargurus-dealer-dealer-stats-api-openapi.yml
   format: yaml
   label: CarGurus Dealer Stats API
-  slug: cargurus-dealer-stats-api
+  slug: cargurus-dealer-dealer-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargurus-dealer/refs/heads/main/openapi/cargurus-dealer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cargurus-dealer/refs/heads/main/openapi/cargurus-dealer-dealer-stats-api-openapi.yml
+- filename: cargurus-dealer-instant-market-value-api-openapi.yml
+  format: yaml
+  label: CarGurus Instant Market Value API
+  slug: cargurus-dealer-instant-market-value-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cargurus-dealer/refs/heads/main/openapi/cargurus-dealer-instant-market-value-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: sofi-partner-offer-api-openapi.yml
+  format: yaml
+  label: SoFi Partner Offer Pre-Qualification API
+  slug: sofi-partner-offer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sofi/refs/heads/main/openapi/sofi-partner-offer-api-openapi.yml
+- filename: sofi-home-loan-affiliate-lead-api-openapi.yml
+  format: yaml
+  label: SoFi Home Loan Affiliate Lead API
+  slug: sofi-home-loan-affiliate-lead-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sofi/refs/heads/main/openapi/sofi-home-loan-affiliate-lead-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -45,4 +58,8 @@ tags:
 - Fintech
 - Open Banking
 - Digital Banking
+- Banking-as-a-Service
+- Partner API
+- Business Banking
+- United States
 ---

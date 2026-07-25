@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: university-of-cape-town-datafirst-nada.yaml
+- filename: university-of-cape-town-articles-api-openapi.yml
   format: yaml
-  label: DataFirst Microdata Catalog API (NADA)
-  slug: datafirst-nada
+  label: University of Cape Town articles API
+  slug: university-of-cape-town-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/openapi/university-of-cape-town-datafirst-nada.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/openapi/university-of-cape-town-articles-api-openapi.yml
+- filename: university-of-cape-town-catalog-api-openapi.yml
+  format: yaml
+  label: University of Cape Town catalog API
+  slug: university-of-cape-town-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/openapi/university-of-cape-town-catalog-api-openapi.yml
+- filename: university-of-cape-town-collections-api-openapi.yml
+  format: yaml
+  label: University of Cape Town collections API
+  slug: university-of-cape-town-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/openapi/university-of-cape-town-collections-api-openapi.yml
+- filename: university-of-cape-town-projects-api-openapi.yml
+  format: yaml
+  label: University of Cape Town projects API
+  slug: university-of-cape-town-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/openapi/university-of-cape-town-projects-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: mileiq-external-openapi-original.json
-  format: json
-  label: MileIQ External API
-  slug: mileiq-external-api
+- filename: mileiq-groups-api-openapi.yml
+  format: yaml
+  label: MileIQ groups API
+  slug: mileiq-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/openapi/mileiq-external-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/openapi/mileiq-groups-api-openapi.yml
+- filename: mileiq-users-api-openapi.yml
+  format: yaml
+  label: MileIQ users API
+  slug: mileiq-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/openapi/mileiq-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,119 +1,131 @@
 ---
 api_specs:
-- filename: cisco-webex-meetings-openapi.yml
+- filename: cisco-webex-admin-audit-events-api-openapi.yml
   format: yaml
-  label: Webex Meetings API
-  slug: webex-meetings-api
+  label: Cisco Webex Admin Audit Events API
+  slug: cisco-webex-admin-audit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-meetings-openapi.yml
-- filename: cisco-webex-messaging-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-admin-audit-events-api-openapi.yml
+- filename: cisco-webex-admin-recordings-api-openapi.yml
   format: yaml
-  label: Webex Messaging API
-  slug: webex-messaging-api
+  label: Cisco Webex Admin Recordings API
+  slug: cisco-webex-admin-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-messaging-openapi.yml
-- filename: cisco-webex-people-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-admin-recordings-api-openapi.yml
+- filename: cisco-webex-attachment-actions-api-openapi.yml
   format: yaml
-  label: Webex People API
-  slug: webex-people-api
+  label: Cisco Webex Attachment Actions API
+  slug: cisco-webex-attachment-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-people-openapi.yml
-- filename: cisco-webex-teams-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-attachment-actions-api-openapi.yml
+- filename: cisco-webex-call-controls-api-openapi.yml
   format: yaml
-  label: Webex Teams API
-  slug: webex-teams-api
+  label: Cisco Webex Call Controls API
+  slug: cisco-webex-call-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-teams-openapi.yml
-- filename: cisco-webex-rooms-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-call-controls-api-openapi.yml
+- filename: cisco-webex-converged-recordings-api-openapi.yml
   format: yaml
-  label: Webex Rooms API
-  slug: webex-rooms-api
+  label: Cisco Webex Converged Recordings API
+  slug: cisco-webex-converged-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-rooms-openapi.yml
-- filename: cisco-webex-webhooks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-converged-recordings-api-openapi.yml
+- filename: cisco-webex-devices-api-openapi.yml
   format: yaml
-  label: Webex Webhooks API
-  slug: webex-webhooks-api
+  label: Cisco Webex Devices API
+  slug: cisco-webex-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-webhooks-openapi.yml
-- filename: cisco-webex-devices-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-devices-api-openapi.yml
+- filename: cisco-webex-events-api-openapi.yml
   format: yaml
-  label: Webex Devices API
-  slug: webex-devices-api
+  label: Cisco Webex Events API
+  slug: cisco-webex-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-devices-openapi.yml
-- filename: cisco-webex-memberships-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-events-api-openapi.yml
+- filename: cisco-webex-licenses-api-openapi.yml
   format: yaml
-  label: Webex Memberships API
-  slug: webex-memberships-api
+  label: Cisco Webex Licenses API
+  slug: cisco-webex-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-memberships-openapi.yml
-- filename: cisco-webex-team-memberships-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-licenses-api-openapi.yml
+- filename: cisco-webex-meetings-api-openapi.yml
   format: yaml
-  label: Webex Team Memberships API
-  slug: webex-team-memberships-api
+  label: Cisco Webex Meetings API
+  slug: cisco-webex-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-team-memberships-openapi.yml
-- filename: cisco-webex-events-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-meetings-api-openapi.yml
+- filename: cisco-webex-memberships-api-openapi.yml
   format: yaml
-  label: Webex Events API
-  slug: webex-events-api
+  label: Cisco Webex Memberships API
+  slug: cisco-webex-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-events-openapi.yml
-- filename: cisco-webex-recordings-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-memberships-api-openapi.yml
+- filename: cisco-webex-messages-api-openapi.yml
   format: yaml
-  label: Webex Recordings API
-  slug: webex-recordings-api
+  label: Cisco Webex Messages API
+  slug: cisco-webex-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-recordings-openapi.yml
-- filename: cisco-webex-call-controls-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-messages-api-openapi.yml
+- filename: cisco-webex-organizations-api-openapi.yml
   format: yaml
-  label: Webex Call Controls API
-  slug: webex-call-controls-api
+  label: Cisco Webex Organizations API
+  slug: cisco-webex-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-call-controls-openapi.yml
-- filename: cisco-webex-attachment-actions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-organizations-api-openapi.yml
+- filename: cisco-webex-people-api-openapi.yml
   format: yaml
-  label: Webex Attachment Actions API
-  slug: webex-attachment-actions-api
+  label: Cisco Webex People API
+  slug: cisco-webex-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-attachment-actions-openapi.yml
-- filename: cisco-webex-organizations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-people-api-openapi.yml
+- filename: cisco-webex-recordings-api-openapi.yml
   format: yaml
-  label: Webex Organizations API
-  slug: webex-organizations-api
+  label: Cisco Webex Recordings API
+  slug: cisco-webex-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-organizations-openapi.yml
-- filename: cisco-webex-licenses-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-recordings-api-openapi.yml
+- filename: cisco-webex-registrants-api-openapi.yml
   format: yaml
-  label: Webex Licenses API
-  slug: webex-licenses-api
+  label: Cisco Webex Registrants API
+  slug: cisco-webex-registrants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-licenses-openapi.yml
-- filename: cisco-webex-roles-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-registrants-api-openapi.yml
+- filename: cisco-webex-roles-api-openapi.yml
   format: yaml
-  label: Webex Roles API
-  slug: webex-roles-api
+  label: Cisco Webex Roles API
+  slug: cisco-webex-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-roles-openapi.yml
-- filename: cisco-webex-workspaces-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-roles-api-openapi.yml
+- filename: cisco-webex-rooms-api-openapi.yml
   format: yaml
-  label: Webex Workspaces API
-  slug: webex-workspaces-api
+  label: Cisco Webex Rooms API
+  slug: cisco-webex-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-workspaces-openapi.yml
-- filename: cisco-webex-admin-audit-events-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-rooms-api-openapi.yml
+- filename: cisco-webex-team-memberships-api-openapi.yml
   format: yaml
-  label: Webex Admin Audit Events API
-  slug: webex-admin-audit-events-api
+  label: Cisco Webex Team Memberships API
+  slug: cisco-webex-team-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-admin-audit-events-openapi.yml
-- filename: cisco-webex-converged-recordings-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-team-memberships-api-openapi.yml
+- filename: cisco-webex-teams-api-openapi.yml
   format: yaml
-  label: Webex Converged Recordings API
-  slug: webex-converged-recordings-api
+  label: Cisco Webex Teams API
+  slug: cisco-webex-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-converged-recordings-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-teams-api-openapi.yml
+- filename: cisco-webex-webhooks-api-openapi.yml
+  format: yaml
+  label: Cisco Webex Webhooks API
+  slug: cisco-webex-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-webhooks-api-openapi.yml
+- filename: cisco-webex-workspaces-api-openapi.yml
+  format: yaml
+  label: Cisco Webex Workspaces API
+  slug: cisco-webex-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa:

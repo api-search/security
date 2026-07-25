@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: todoist-openapi.yml
+- filename: todoist-sync-api-openapi.yml
   format: yaml
-  label: Todoist API
-  slug: todoist-api
+  label: Todoist Sync API v9
+  slug: todoist-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/openapi/todoist-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/openapi/todoist-sync-api-openapi.yml
+- filename: todoist-comments-api-openapi.yml
+  format: yaml
+  label: Todoist Comments API
+  slug: todoist-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/openapi/todoist-comments-api-openapi.yml
+- filename: todoist-labels-api-openapi.yml
+  format: yaml
+  label: Todoist Labels API
+  slug: todoist-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/openapi/todoist-labels-api-openapi.yml
+- filename: todoist-projects-api-openapi.yml
+  format: yaml
+  label: Todoist Projects API
+  slug: todoist-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/openapi/todoist-projects-api-openapi.yml
+- filename: todoist-reminders-api-openapi.yml
+  format: yaml
+  label: Todoist Reminders API
+  slug: todoist-reminders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/openapi/todoist-reminders-api-openapi.yml
+- filename: todoist-sections-api-openapi.yml
+  format: yaml
+  label: Todoist Sections API
+  slug: todoist-sections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/openapi/todoist-sections-api-openapi.yml
+- filename: todoist-sync-api-openapi.yml
+  format: yaml
+  label: Todoist Sync API
+  slug: todoist-sync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/openapi/todoist-sync-api-openapi.yml
+- filename: todoist-tasks-api-openapi.yml
+  format: yaml
+  label: Todoist Tasks API
+  slug: todoist-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/openapi/todoist-tasks-api-openapi.yml
+- filename: todoist-user-api-openapi.yml
+  format: yaml
+  label: Todoist User API
+  slug: todoist-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/openapi/todoist-user-api-openapi.yml
+- filename: todoist-workspaces-api-openapi.yml
+  format: yaml
+  label: Todoist Workspaces API
+  slug: todoist-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/openapi/todoist-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa:

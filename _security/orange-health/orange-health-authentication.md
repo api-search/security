@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: orange-health-partner-openapi.yml
+- filename: orange-health-orders-api-openapi.yml
   format: yaml
-  label: Orange Health Partner API
-  slug: orange-health-partner-api
+  label: Orange Health Orders API
+  slug: orange-health-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/openapi/orange-health-partner-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/openapi/orange-health-orders-api-openapi.yml
+- filename: orange-health-results-api-openapi.yml
+  format: yaml
+  label: Orange Health Results API
+  slug: orange-health-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/openapi/orange-health-results-api-openapi.yml
+- filename: orange-health-serviceability-api-openapi.yml
+  format: yaml
+  label: Orange Health Serviceability API
+  slug: orange-health-serviceability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/openapi/orange-health-serviceability-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

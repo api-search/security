@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cryptoquant-openapi.yml
+- filename: cryptoquant-exchange-flows-api-openapi.yml
   format: yaml
-  label: CryptoQuant API
-  slug: cryptoquant-api
+  label: CryptoQuant Exchange Flows API
+  slug: cryptoquant-exchange-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptoquant/refs/heads/main/openapi/cryptoquant-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cryptoquant/refs/heads/main/openapi/cryptoquant-exchange-flows-api-openapi.yml
+- filename: cryptoquant-market-data-api-openapi.yml
+  format: yaml
+  label: CryptoQuant Market Data API
+  slug: cryptoquant-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptoquant/refs/heads/main/openapi/cryptoquant-market-data-api-openapi.yml
+- filename: cryptoquant-miner-api-openapi.yml
+  format: yaml
+  label: CryptoQuant Miner API
+  slug: cryptoquant-miner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptoquant/refs/heads/main/openapi/cryptoquant-miner-api-openapi.yml
+- filename: cryptoquant-on-chain-api-openapi.yml
+  format: yaml
+  label: CryptoQuant On-Chain API
+  slug: cryptoquant-on-chain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptoquant/refs/heads/main/openapi/cryptoquant-on-chain-api-openapi.yml
+- filename: cryptoquant-stablecoins-api-openapi.yml
+  format: yaml
+  label: CryptoQuant Stablecoins API
+  slug: cryptoquant-stablecoins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptoquant/refs/heads/main/openapi/cryptoquant-stablecoins-api-openapi.yml
 auth_types:
 - http
 description: ''

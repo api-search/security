@@ -1,17 +1,71 @@
 ---
 api_specs:
-- filename: dispatch-rest-v3-openapi.yml
+- filename: dispatch-appointments-api-openapi.yml
   format: yaml
-  label: Dispatch REST API v3
-  slug: rest-v3
+  label: Dispatch Appointments API
+  slug: dispatch-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-rest-v3-openapi.yml
-- filename: dispatch-files-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-appointments-api-openapi.yml
+- filename: dispatch-authentication-api-openapi.yml
   format: yaml
-  label: Dispatch Files API v1
-  slug: files-v1
+  label: Dispatch Authentication API
+  slug: dispatch-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-files-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-authentication-api-openapi.yml
+- filename: dispatch-brands-api-openapi.yml
+  format: yaml
+  label: Dispatch Brands API
+  slug: dispatch-brands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-brands-api-openapi.yml
+- filename: dispatch-customers-api-openapi.yml
+  format: yaml
+  label: Dispatch Customers API
+  slug: dispatch-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-customers-api-openapi.yml
+- filename: dispatch-files-api-openapi.yml
+  format: yaml
+  label: Dispatch Files API
+  slug: dispatch-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-files-api-openapi.yml
+- filename: dispatch-jobs-api-openapi.yml
+  format: yaml
+  label: Dispatch Jobs API
+  slug: dispatch-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-jobs-api-openapi.yml
+- filename: dispatch-organizations-api-openapi.yml
+  format: yaml
+  label: Dispatch Organizations API
+  slug: dispatch-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-organizations-api-openapi.yml
+- filename: dispatch-sources-api-openapi.yml
+  format: yaml
+  label: Dispatch Sources API
+  slug: dispatch-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-sources-api-openapi.yml
+- filename: dispatch-survey-responses-api-openapi.yml
+  format: yaml
+  label: Dispatch Survey Responses API
+  slug: dispatch-survey-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-survey-responses-api-openapi.yml
+- filename: dispatch-users-api-openapi.yml
+  format: yaml
+  label: Dispatch Users API
+  slug: dispatch-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-users-api-openapi.yml
+- filename: dispatch-work-orders-api-openapi.yml
+  format: yaml
+  label: Dispatch Work Orders API
+  slug: dispatch-work-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-work-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []

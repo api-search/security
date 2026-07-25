@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: djangocms-rest-openapi.yml
+- filename: django-cms-breadcrumbs-api-openapi.yml
   format: yaml
-  label: djangocms-rest API
-  slug: djangocms-rest
+  label: Django CMS Breadcrumbs API
+  slug: django-cms-breadcrumbs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/django-cms/main/openapi/djangocms-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/openapi/django-cms-breadcrumbs-api-openapi.yml
+- filename: django-cms-health-api-openapi.yml
+  format: yaml
+  label: Django CMS Health API
+  slug: django-cms-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/openapi/django-cms-health-api-openapi.yml
+- filename: django-cms-languages-api-openapi.yml
+  format: yaml
+  label: Django CMS Languages API
+  slug: django-cms-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/openapi/django-cms-languages-api-openapi.yml
+- filename: django-cms-menus-api-openapi.yml
+  format: yaml
+  label: Django CMS Menus API
+  slug: django-cms-menus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/openapi/django-cms-menus-api-openapi.yml
+- filename: django-cms-pages-api-openapi.yml
+  format: yaml
+  label: Django CMS Pages API
+  slug: django-cms-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/openapi/django-cms-pages-api-openapi.yml
+- filename: django-cms-placeholders-api-openapi.yml
+  format: yaml
+  label: Django CMS Placeholders API
+  slug: django-cms-placeholders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/openapi/django-cms-placeholders-api-openapi.yml
+- filename: django-cms-plugins-api-openapi.yml
+  format: yaml
+  label: Django CMS Plugins API
+  slug: django-cms-plugins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/openapi/django-cms-plugins-api-openapi.yml
 description: ''
 domains:
 - caa: []

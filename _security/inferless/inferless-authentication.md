@@ -1,24 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: inferless-openapi.yml
+- filename: inferless-inference-api-openapi.yml
   format: yaml
-  label: Inferless Inference Endpoints API
-  slug: inferless-inference-endpoints-api
+  label: Inferless Inference API
+  slug: inferless-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/openapi/inferless-openapi.yml
-- filename: inferless-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/openapi/inferless-inference-api-openapi.yml
+- filename: inferless-model-management-api-openapi.yml
   format: yaml
   label: Inferless Model Management API
   slug: inferless-model-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/openapi/inferless-openapi.yml
-- filename: inferless-openapi.yml
-  format: yaml
-  label: Inferless Workspaces and Deployments
-  slug: inferless-workspaces-deployments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/openapi/inferless-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/openapi/inferless-model-management-api-openapi.yml
 auth_types:
 - http
 description: ''

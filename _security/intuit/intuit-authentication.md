@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: quickbooks-accounting.yml
+- filename: intuit-customers-api-openapi.yml
   format: yaml
-  label: QuickBooks Online Accounting API
-  slug: quickbooks-accounting
+  label: Intuit Customers API
+  slug: intuit-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/openapi/quickbooks-accounting.yml
+  url: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/openapi/intuit-customers-api-openapi.yml
+- filename: intuit-invoices-api-openapi.yml
+  format: yaml
+  label: Intuit Invoices API
+  slug: intuit-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/openapi/intuit-invoices-api-openapi.yml
+- filename: intuit-items-api-openapi.yml
+  format: yaml
+  label: Intuit Items API
+  slug: intuit-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/openapi/intuit-items-api-openapi.yml
+- filename: intuit-payments-api-openapi.yml
+  format: yaml
+  label: Intuit Payments API
+  slug: intuit-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/openapi/intuit-payments-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

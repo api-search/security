@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: lendapi-openapi.json
-  format: json
-  label: LendAPI API
-  slug: lendapi-api
+- filename: lendapi-amortization-api-openapi.yml
+  format: yaml
+  label: LendAPI Amortization API
+  slug: lendapi-amortization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lendapi/refs/heads/main/openapi/lendapi-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/lendapi/refs/heads/main/openapi/lendapi-amortization-api-openapi.yml
+- filename: lendapi-application-api-openapi.yml
+  format: yaml
+  label: LendAPI Application API
+  slug: lendapi-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendapi/refs/heads/main/openapi/lendapi-application-api-openapi.yml
+- filename: lendapi-credit-risk-api-openapi.yml
+  format: yaml
+  label: LendAPI Credit Risk API
+  slug: lendapi-credit-risk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendapi/refs/heads/main/openapi/lendapi-credit-risk-api-openapi.yml
+- filename: lendapi-decision-api-openapi.yml
+  format: yaml
+  label: LendAPI Decision API
+  slug: lendapi-decision-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendapi/refs/heads/main/openapi/lendapi-decision-api-openapi.yml
+- filename: lendapi-decisions-api-openapi.yml
+  format: yaml
+  label: LendAPI Decisions API
+  slug: lendapi-decisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendapi/refs/heads/main/openapi/lendapi-decisions-api-openapi.yml
+- filename: lendapi-get-app-credit-report-api-openapi.yml
+  format: yaml
+  label: LendAPI Get App Credit Report API
+  slug: lendapi-get-app-credit-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendapi/refs/heads/main/openapi/lendapi-get-app-credit-report-api-openapi.yml
+- filename: lendapi-outcomes-api-openapi.yml
+  format: yaml
+  label: LendAPI Outcomes API
+  slug: lendapi-outcomes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendapi/refs/heads/main/openapi/lendapi-outcomes-api-openapi.yml
+- filename: lendapi-page-submit-api-openapi.yml
+  format: yaml
+  label: LendAPI Page Submit API
+  slug: lendapi-page-submit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendapi/refs/heads/main/openapi/lendapi-page-submit-api-openapi.yml
+- filename: lendapi-pricing-engine-api-openapi.yml
+  format: yaml
+  label: LendAPI Pricing Engine API
+  slug: lendapi-pricing-engine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendapi/refs/heads/main/openapi/lendapi-pricing-engine-api-openapi.yml
+- filename: lendapi-pricing-engines-api-openapi.yml
+  format: yaml
+  label: LendAPI Pricing Engines API
+  slug: lendapi-pricing-engines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendapi/refs/heads/main/openapi/lendapi-pricing-engines-api-openapi.yml
+- filename: lendapi-sub-tenant-api-openapi.yml
+  format: yaml
+  label: LendAPI Sub Tenant API
+  slug: lendapi-sub-tenant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendapi/refs/heads/main/openapi/lendapi-sub-tenant-api-openapi.yml
+- filename: lendapi-sub-tenants-api-openapi.yml
+  format: yaml
+  label: LendAPI Sub Tenants API
+  slug: lendapi-sub-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendapi/refs/heads/main/openapi/lendapi-sub-tenants-api-openapi.yml
+- filename: lendapi-variable-api-openapi.yml
+  format: yaml
+  label: LendAPI Variable API
+  slug: lendapi-variable-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendapi/refs/heads/main/openapi/lendapi-variable-api-openapi.yml
 description: ''
 domains:
 - caa: []

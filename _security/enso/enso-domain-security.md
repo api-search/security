@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: enso-openapi-original.json
-  format: json
-  label: Enso API
-  slug: enso-api
+- filename: enso-ccip-api-openapi.yml
+  format: yaml
+  label: Enso ccip API
+  slug: enso-ccip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/openapi/enso-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/openapi/enso-ccip-api-openapi.yml
+- filename: enso-cctp-api-openapi.yml
+  format: yaml
+  label: Enso cctp API
+  slug: enso-cctp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/openapi/enso-cctp-api-openapi.yml
+- filename: enso-layerzero-api-openapi.yml
+  format: yaml
+  label: Enso layerzero API
+  slug: enso-layerzero-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/openapi/enso-layerzero-api-openapi.yml
+- filename: enso-metadata-api-openapi.yml
+  format: yaml
+  label: Enso metadata API
+  slug: enso-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/openapi/enso-metadata-api-openapi.yml
+- filename: enso-projects-api-openapi.yml
+  format: yaml
+  label: Enso projects API
+  slug: enso-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/openapi/enso-projects-api-openapi.yml
+- filename: enso-relay-api-openapi.yml
+  format: yaml
+  label: Enso relay API
+  slug: enso-relay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/openapi/enso-relay-api-openapi.yml
+- filename: enso-shortcuts-api-openapi.yml
+  format: yaml
+  label: Enso shortcuts API
+  slug: enso-shortcuts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/openapi/enso-shortcuts-api-openapi.yml
+- filename: enso-standards-api-openapi.yml
+  format: yaml
+  label: Enso standards API
+  slug: enso-standards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/openapi/enso-standards-api-openapi.yml
+- filename: enso-wallet-api-openapi.yml
+  format: yaml
+  label: Enso wallet API
+  slug: enso-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/openapi/enso-wallet-api-openapi.yml
 description: ''
 domains:
 - caa:

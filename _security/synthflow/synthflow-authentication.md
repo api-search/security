@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: synthflow-openapi.json
-  format: json
-  label: Synthflow Platform API
-  slug: platform-api
+- filename: synthflow-default-api-openapi.yml
+  format: yaml
+  label: Synthflow Default API
+  slug: synthflow-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-default-api-openapi.yml
+- filename: synthflow-subpackage-chat-api-openapi.yml
+  format: yaml
+  label: Synthflow subpackage_chat API
+  slug: synthflow-subpackage-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-subpackage-chat-api-openapi.yml
+- filename: synthflow-subpackage-contacts-api-openapi.yml
+  format: yaml
+  label: Synthflow subpackage_contacts API
+  slug: synthflow-subpackage-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-subpackage-contacts-api-openapi.yml
+- filename: synthflow-subpackage-mcp-api-openapi.yml
+  format: yaml
+  label: Synthflow subpackage_mcp API
+  slug: synthflow-subpackage-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-subpackage-mcp-api-openapi.yml
+- filename: synthflow-subpackage-memorystores-api-openapi.yml
+  format: yaml
+  label: Synthflow subpackage_memoryStores API
+  slug: synthflow-subpackage-memorystores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-subpackage-memorystores-api-openapi.yml
+- filename: synthflow-subpackage-phonenumbers-api-openapi.yml
+  format: yaml
+  label: Synthflow subpackage_phoneNumbers API
+  slug: synthflow-subpackage-phonenumbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-subpackage-phonenumbers-api-openapi.yml
+- filename: synthflow-subpackage-webhooklogs-api-openapi.yml
+  format: yaml
+  label: Synthflow subpackage_webhookLogs API
+  slug: synthflow-subpackage-webhooklogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-subpackage-webhooklogs-api-openapi.yml
 auth_types:
 - http
 description: ''

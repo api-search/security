@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: finops-foundation-focus-cost-and-usage-openapi.yml
+- filename: finops-foundation-contract-commitments-api-openapi.yml
   format: yaml
-  label: FOCUS Cost and Usage API
-  slug: focus-cost-and-usage
+  label: FinOps Foundation Contract Commitments API
+  slug: finops-foundation-contract-commitments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/openapi/finops-foundation-focus-cost-and-usage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/openapi/finops-foundation-contract-commitments-api-openapi.yml
+- filename: finops-foundation-cost-and-usage-api-openapi.yml
+  format: yaml
+  label: FinOps Foundation Cost and Usage API
+  slug: finops-foundation-cost-and-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/openapi/finops-foundation-cost-and-usage-api-openapi.yml
+- filename: finops-foundation-schema-metadata-api-openapi.yml
+  format: yaml
+  label: FinOps Foundation Schema Metadata API
+  slug: finops-foundation-schema-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/openapi/finops-foundation-schema-metadata-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: careacademy-openapi-original.yml
+- filename: careacademy-compliance-report-api-openapi.yml
   format: yaml
-  label: CareAcademy API
-  slug: careacademy-api
+  label: CareAcademy Compliance Report API
+  slug: careacademy-compliance-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/openapi/careacademy-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/openapi/careacademy-compliance-report-api-openapi.yml
+- filename: careacademy-locations-api-openapi.yml
+  format: yaml
+  label: CareAcademy Locations API
+  slug: careacademy-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/openapi/careacademy-locations-api-openapi.yml
+- filename: careacademy-organizations-api-openapi.yml
+  format: yaml
+  label: CareAcademy Organizations API
+  slug: careacademy-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/openapi/careacademy-organizations-api-openapi.yml
+- filename: careacademy-practitioners-api-openapi.yml
+  format: yaml
+  label: CareAcademy Practitioners API
+  slug: careacademy-practitioners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/openapi/careacademy-practitioners-api-openapi.yml
+- filename: careacademy-sign-in-url-api-openapi.yml
+  format: yaml
+  label: CareAcademy Sign In Url API
+  slug: careacademy-sign-in-url-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/openapi/careacademy-sign-in-url-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,53 +1,53 @@
 ---
 api_specs:
-- filename: trengo-openapi.yml
-  format: yaml
-  label: Trengo Tickets API
-  slug: trengo-tickets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-openapi.yml
-- filename: trengo-openapi.yml
-  format: yaml
-  label: Trengo Contacts API
-  slug: trengo-contacts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-openapi.yml
-- filename: trengo-openapi.yml
-  format: yaml
-  label: Trengo Messages API
-  slug: trengo-messages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-openapi.yml
-- filename: trengo-openapi.yml
+- filename: trengo-channels-api-openapi.yml
   format: yaml
   label: Trengo Channels API
   slug: trengo-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-openapi.yml
-- filename: trengo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-channels-api-openapi.yml
+- filename: trengo-contacts-api-openapi.yml
   format: yaml
-  label: Trengo Teams and Users API
-  slug: trengo-teams-users-api
+  label: Trengo Contacts API
+  slug: trengo-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-openapi.yml
-- filename: trengo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-contacts-api-openapi.yml
+- filename: trengo-labels-and-custom-fields-api-openapi.yml
   format: yaml
   label: Trengo Labels and Custom Fields API
-  slug: trengo-labels-custom-fields-api
+  slug: trengo-labels-and-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-openapi.yml
-- filename: trengo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-labels-and-custom-fields-api-openapi.yml
+- filename: trengo-messages-api-openapi.yml
+  format: yaml
+  label: Trengo Messages API
+  slug: trengo-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-messages-api-openapi.yml
+- filename: trengo-teams-and-users-api-openapi.yml
+  format: yaml
+  label: Trengo Teams and Users API
+  slug: trengo-teams-and-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-teams-and-users-api-openapi.yml
+- filename: trengo-tickets-api-openapi.yml
+  format: yaml
+  label: Trengo Tickets API
+  slug: trengo-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-tickets-api-openapi.yml
+- filename: trengo-webhooks-api-openapi.yml
   format: yaml
   label: Trengo Webhooks API
   slug: trengo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-openapi.yml
-- filename: trengo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-webhooks-api-openapi.yml
+- filename: trengo-whatsapp-api-openapi.yml
   format: yaml
-  label: Trengo WhatsApp Templates API
-  slug: trengo-whatsapp-templates-api
+  label: Trengo WhatsApp API
+  slug: trengo-whatsapp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-whatsapp-api-openapi.yml
 certifications:
 - PCI DSS
 - GDPR

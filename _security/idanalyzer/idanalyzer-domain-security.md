@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: developer.idanalyzer.com
+- filename: idanalyzer-account-api-openapi.yml
+  format: yaml
+  label: ID Analyzer Account API
+  slug: idanalyzer-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/openapi/idanalyzer-account-api-openapi.yml
+- filename: idanalyzer-aml-api-openapi.yml
+  format: yaml
+  label: ID Analyzer AML API
+  slug: idanalyzer-aml-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/openapi/idanalyzer-aml-api-openapi.yml
+- filename: idanalyzer-biometric-api-openapi.yml
+  format: yaml
+  label: ID Analyzer Biometric API
+  slug: idanalyzer-biometric-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/openapi/idanalyzer-biometric-api-openapi.yml
+- filename: idanalyzer-contract-api-openapi.yml
+  format: yaml
+  label: ID Analyzer Contract API
+  slug: idanalyzer-contract-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/openapi/idanalyzer-contract-api-openapi.yml
+- filename: idanalyzer-docupass-api-openapi.yml
+  format: yaml
+  label: ID Analyzer Docupass API
+  slug: idanalyzer-docupass-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/openapi/idanalyzer-docupass-api-openapi.yml
+- filename: idanalyzer-profile-api-openapi.yml
+  format: yaml
+  label: ID Analyzer Profile API
+  slug: idanalyzer-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/openapi/idanalyzer-profile-api-openapi.yml
+- filename: idanalyzer-scanner-api-openapi.yml
   format: yaml
   label: ID Analyzer Scanner API
-  slug: scanner-api
+  slug: idanalyzer-scanner-api
   spec_type: OpenAPI
-  url: https://developer.idanalyzer.com
+  url: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/openapi/idanalyzer-scanner-api-openapi.yml
+- filename: idanalyzer-transaction-api-openapi.yml
+  format: yaml
+  label: ID Analyzer Transaction API
+  slug: idanalyzer-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/openapi/idanalyzer-transaction-api-openapi.yml
+- filename: idanalyzer-webhook-api-openapi.yml
+  format: yaml
+  label: ID Analyzer Webhook API
+  slug: idanalyzer-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/openapi/idanalyzer-webhook-api-openapi.yml
 description: ''
 domains:
 - caa: []

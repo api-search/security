@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: llms.txt
+- filename: synthesia-assets-api-openapi.yml
   format: yaml
-  label: Synthesia API
-  slug: synthesia-api
+  label: Synthesia Assets API
+  slug: synthesia-assets-api
   spec_type: OpenAPI
-  url: https://docs.synthesia.io/llms.txt
+  url: https://raw.githubusercontent.com/api-evangelist/synthesia/refs/heads/main/openapi/synthesia-assets-api-openapi.yml
+- filename: synthesia-auditlogs-api-openapi.yml
+  format: yaml
+  label: Synthesia AuditLogs API
+  slug: synthesia-auditlogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthesia/refs/heads/main/openapi/synthesia-auditlogs-api-openapi.yml
+- filename: synthesia-dubbing-api-openapi.yml
+  format: yaml
+  label: Synthesia Dubbing API
+  slug: synthesia-dubbing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthesia/refs/heads/main/openapi/synthesia-dubbing-api-openapi.yml
+- filename: synthesia-templates-api-openapi.yml
+  format: yaml
+  label: Synthesia Templates API
+  slug: synthesia-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthesia/refs/heads/main/openapi/synthesia-templates-api-openapi.yml
+- filename: synthesia-translations-api-openapi.yml
+  format: yaml
+  label: Synthesia Translations API
+  slug: synthesia-translations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthesia/refs/heads/main/openapi/synthesia-translations-api-openapi.yml
+- filename: synthesia-videos-api-openapi.yml
+  format: yaml
+  label: Synthesia Videos API
+  slug: synthesia-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthesia/refs/heads/main/openapi/synthesia-videos-api-openapi.yml
+- filename: synthesia-webhooks-api-openapi.yml
+  format: yaml
+  label: Synthesia Webhooks API
+  slug: synthesia-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthesia/refs/heads/main/openapi/synthesia-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

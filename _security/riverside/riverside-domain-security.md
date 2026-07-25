@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: riverside-business-openapi.yml
+- filename: riverside-exports-api-openapi.yml
   format: yaml
-  label: Riverside Business API
-  slug: riverside-business-api
+  label: Riverside Exports API
+  slug: riverside-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/openapi/riverside-business-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/openapi/riverside-exports-api-openapi.yml
+- filename: riverside-productions-api-openapi.yml
+  format: yaml
+  label: Riverside Productions API
+  slug: riverside-productions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/openapi/riverside-productions-api-openapi.yml
+- filename: riverside-recordings-api-openapi.yml
+  format: yaml
+  label: Riverside Recordings API
+  slug: riverside-recordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/openapi/riverside-recordings-api-openapi.yml
+- filename: riverside-webinars-api-openapi.yml
+  format: yaml
+  label: Riverside Webinars API
+  slug: riverside-webinars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/openapi/riverside-webinars-api-openapi.yml
 description: ''
 domains:
 - caa: []

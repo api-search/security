@@ -1,12 +1,108 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi
+- filename: octane-admin-api-openapi.yml
   format: yaml
-  label: Octane REST API
-  slug: octane-rest-api
+  label: Octane Admin API
+  slug: octane-admin-api
   spec_type: OpenAPI
-  url: https://docs.getoctane.io/openapi
+  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-admin-api-openapi.yml
+- filename: octane-avalara-api-openapi.yml
+  format: yaml
+  label: Octane Avalara API
+  slug: octane-avalara-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-avalara-api-openapi.yml
+- filename: octane-billing-settings-api-openapi.yml
+  format: yaml
+  label: Octane Billing Settings API
+  slug: octane-billing-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-billing-settings-api-openapi.yml
+- filename: octane-coupons-api-openapi.yml
+  format: yaml
+  label: Octane Coupons API
+  slug: octane-coupons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-coupons-api-openapi.yml
+- filename: octane-credits-api-openapi.yml
+  format: yaml
+  label: Octane Credits API
+  slug: octane-credits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-credits-api-openapi.yml
+- filename: octane-customer-portal-api-openapi.yml
+  format: yaml
+  label: Octane Customer Portal API
+  slug: octane-customer-portal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-customer-portal-api-openapi.yml
+- filename: octane-customers-api-openapi.yml
+  format: yaml
+  label: Octane Customers API
+  slug: octane-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-customers-api-openapi.yml
+- filename: octane-features-api-openapi.yml
+  format: yaml
+  label: Octane Features API
+  slug: octane-features-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-features-api-openapi.yml
+- filename: octane-invoices-api-openapi.yml
+  format: yaml
+  label: Octane Invoices API
+  slug: octane-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-invoices-api-openapi.yml
+- filename: octane-live-measurements-api-openapi.yml
+  format: yaml
+  label: Octane Live Measurements API
+  slug: octane-live-measurements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-live-measurements-api-openapi.yml
+- filename: octane-measurements-api-openapi.yml
+  format: yaml
+  label: Octane Measurements API
+  slug: octane-measurements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-measurements-api-openapi.yml
+- filename: octane-meters-api-openapi.yml
+  format: yaml
+  label: Octane Meters API
+  slug: octane-meters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-meters-api-openapi.yml
+- filename: octane-price-plans-api-openapi.yml
+  format: yaml
+  label: Octane Price Plans API
+  slug: octane-price-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-price-plans-api-openapi.yml
+- filename: octane-refunds-api-openapi.yml
+  format: yaml
+  label: Octane Refunds API
+  slug: octane-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-refunds-api-openapi.yml
+- filename: octane-revenue-recognition-api-openapi.yml
+  format: yaml
+  label: Octane Revenue Recognition API
+  slug: octane-revenue-recognition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-revenue-recognition-api-openapi.yml
+- filename: octane-subscriptions-api-openapi.yml
+  format: yaml
+  label: Octane Subscriptions API
+  slug: octane-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-subscriptions-api-openapi.yml
+- filename: octane-webhooks-api-openapi.yml
+  format: yaml
+  label: Octane Webhooks API
+  slug: octane-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

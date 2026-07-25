@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: state-farm-renters-insurance-openapi.yml
+- filename: state-farm-coverage-api-openapi.yml
   format: yaml
-  label: Renters Insurance API
-  slug: renters-insurance-api
+  label: State Farm Coverage API
+  slug: state-farm-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/openapi/state-farm-renters-insurance-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/openapi/state-farm-coverage-api-openapi.yml
+- filename: state-farm-policies-api-openapi.yml
+  format: yaml
+  label: State Farm Policies API
+  slug: state-farm-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/openapi/state-farm-policies-api-openapi.yml
+- filename: state-farm-quotes-api-openapi.yml
+  format: yaml
+  label: State Farm Quotes API
+  slug: state-farm-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/openapi/state-farm-quotes-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

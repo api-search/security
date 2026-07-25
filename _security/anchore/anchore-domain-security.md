@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: anchore-enterprise-api.yaml
+- filename: anchore-images-api-openapi.yml
   format: yaml
-  label: Anchore Enterprise API
-  slug: anchore-enterprise-api
+  label: Anchore Images API
+  slug: anchore-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/openapi/anchore-enterprise-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/openapi/anchore-images-api-openapi.yml
+- filename: anchore-policies-api-openapi.yml
+  format: yaml
+  label: Anchore Policies API
+  slug: anchore-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/openapi/anchore-policies-api-openapi.yml
+- filename: anchore-registries-api-openapi.yml
+  format: yaml
+  label: Anchore Registries API
+  slug: anchore-registries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/openapi/anchore-registries-api-openapi.yml
+- filename: anchore-sbom-api-openapi.yml
+  format: yaml
+  label: Anchore SBOM API
+  slug: anchore-sbom-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/openapi/anchore-sbom-api-openapi.yml
+- filename: anchore-subscriptions-api-openapi.yml
+  format: yaml
+  label: Anchore Subscriptions API
+  slug: anchore-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/openapi/anchore-subscriptions-api-openapi.yml
+- filename: anchore-vulnerabilities-api-openapi.yml
+  format: yaml
+  label: Anchore Vulnerabilities API
+  slug: anchore-vulnerabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/openapi/anchore-vulnerabilities-api-openapi.yml
 description: ''
 domains:
 - caa: []

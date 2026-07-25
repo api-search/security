@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: open-food-facts-openapi.yml
+- filename: open-food-facts-cgi-api-openapi.yml
   format: yaml
-  label: Open Food Facts
-  slug: open-food-facts
+  label: Open Food Facts Cgi API
+  slug: open-food-facts-cgi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-food-facts/refs/heads/main/openapi/open-food-facts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/open-food-facts/refs/heads/main/openapi/open-food-facts-cgi-api-openapi.yml
+- filename: open-food-facts-product-api-openapi.yml
+  format: yaml
+  label: Open Food Facts Product API
+  slug: open-food-facts-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-food-facts/refs/heads/main/openapi/open-food-facts-product-api-openapi.yml
+- filename: open-food-facts-search-api-openapi.yml
+  format: yaml
+  label: Open Food Facts Search API
+  slug: open-food-facts-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-food-facts/refs/heads/main/openapi/open-food-facts-search-api-openapi.yml
+- filename: open-food-facts-taxonomy-api-openapi.yml
+  format: yaml
+  label: Open Food Facts Taxonomy API
+  slug: open-food-facts-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-food-facts/refs/heads/main/openapi/open-food-facts-taxonomy-api-openapi.yml
+- filename: open-food-facts-taxonomy-suggestions-api-openapi.yml
+  format: yaml
+  label: Open Food Facts Taxonomy Suggestions API
+  slug: open-food-facts-taxonomy-suggestions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-food-facts/refs/heads/main/openapi/open-food-facts-taxonomy-suggestions-api-openapi.yml
 description: ''
 domains:
 - caa: []

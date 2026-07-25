@@ -6,12 +6,54 @@ api_specs:
   slug: flags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-flags-api-openapi.yml
-- filename: flagsmith-admin-api-openapi.yml
+- filename: flagsmith-environments-api-openapi.yml
   format: yaml
-  label: Flagsmith Admin API
-  slug: admin-api
+  label: flagsmith Environments API
+  slug: flagsmith-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-admin-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-environments-api-openapi.yml
+- filename: flagsmith-features-api-openapi.yml
+  format: yaml
+  label: flagsmith Features API
+  slug: flagsmith-features-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-features-api-openapi.yml
+- filename: flagsmith-identities-api-openapi.yml
+  format: yaml
+  label: flagsmith Identities API
+  slug: flagsmith-identities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-identities-api-openapi.yml
+- filename: flagsmith-organisations-api-openapi.yml
+  format: yaml
+  label: flagsmith Organisations API
+  slug: flagsmith-organisations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-organisations-api-openapi.yml
+- filename: flagsmith-projects-api-openapi.yml
+  format: yaml
+  label: flagsmith Projects API
+  slug: flagsmith-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-projects-api-openapi.yml
+- filename: flagsmith-segments-api-openapi.yml
+  format: yaml
+  label: flagsmith Segments API
+  slug: flagsmith-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-segments-api-openapi.yml
+- filename: flagsmith-users-api-openapi.yml
+  format: yaml
+  label: flagsmith Users API
+  slug: flagsmith-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-users-api-openapi.yml
+- filename: flagsmith-webhooks-api-openapi.yml
+  format: yaml
+  label: flagsmith Webhooks API
+  slug: flagsmith-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

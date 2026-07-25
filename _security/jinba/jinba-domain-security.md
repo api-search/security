@@ -1,17 +1,89 @@
 ---
 api_specs:
-- filename: jinba-toolbox-openapi.yml
+- filename: jinba-api-keys-api-openapi.yml
   format: yaml
-  label: Jinba Toolbox API
-  slug: jinba-toolbox-api
+  label: Jinba API Keys API
+  slug: jinba-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-toolbox-openapi.yml
-- filename: jinba-flow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-api-keys-api-openapi.yml
+- filename: jinba-credits-api-openapi.yml
   format: yaml
-  label: Jinba Flow External API
-  slug: jinba-flow-api
+  label: Jinba Credits API
+  slug: jinba-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-flow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-credits-api-openapi.yml
+- filename: jinba-execution-api-openapi.yml
+  format: yaml
+  label: Jinba Execution API
+  slug: jinba-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-execution-api-openapi.yml
+- filename: jinba-explore-api-openapi.yml
+  format: yaml
+  label: Jinba Explore API
+  slug: jinba-explore-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-explore-api-openapi.yml
+- filename: jinba-flows-api-openapi.yml
+  format: yaml
+  label: Jinba Flows API
+  slug: jinba-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-flows-api-openapi.yml
+- filename: jinba-mcp-api-openapi.yml
+  format: yaml
+  label: Jinba MCP API
+  slug: jinba-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-mcp-api-openapi.yml
+- filename: jinba-members-api-openapi.yml
+  format: yaml
+  label: Jinba Members API
+  slug: jinba-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-members-api-openapi.yml
+- filename: jinba-organizations-api-openapi.yml
+  format: yaml
+  label: Jinba Organizations API
+  slug: jinba-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-organizations-api-openapi.yml
+- filename: jinba-public-api-openapi.yml
+  format: yaml
+  label: Jinba Public API
+  slug: jinba-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-public-api-openapi.yml
+- filename: jinba-runs-api-openapi.yml
+  format: yaml
+  label: Jinba Runs API
+  slug: jinba-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-runs-api-openapi.yml
+- filename: jinba-tools-api-openapi.yml
+  format: yaml
+  label: Jinba Tools API
+  slug: jinba-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-tools-api-openapi.yml
+- filename: jinba-toolsets-api-openapi.yml
+  format: yaml
+  label: Jinba ToolSets API
+  slug: jinba-toolsets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-toolsets-api-openapi.yml
+- filename: jinba-versions-api-openapi.yml
+  format: yaml
+  label: Jinba Versions API
+  slug: jinba-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-versions-api-openapi.yml
+- filename: jinba-webhooks-api-openapi.yml
+  format: yaml
+  label: Jinba Webhooks API
+  slug: jinba-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

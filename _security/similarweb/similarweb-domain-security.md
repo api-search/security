@@ -1,17 +1,83 @@
 ---
 api_specs:
-- filename: llms.txt
+- filename: similarweb-account-api-openapi.yml
   format: yaml
-  label: SimilarWeb REST API
-  slug: similarweb-rest-api
+  label: SimilarWeb Account API
+  slug: similarweb-account-api
   spec_type: OpenAPI
-  url: https://developers.similarweb.com/llms.txt
-- filename: similarweb-batch-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-account-api-openapi.yml
+- filename: similarweb-app-intelligence-api-openapi.yml
   format: yaml
-  label: SimilarWeb Batch API
-  slug: similarweb-batch-api
+  label: SimilarWeb App Intelligence API
+  slug: similarweb-app-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-batch-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-app-intelligence-api-openapi.yml
+- filename: similarweb-credits-api-openapi.yml
+  format: yaml
+  label: SimilarWeb Credits API
+  slug: similarweb-credits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-credits-api-openapi.yml
+- filename: similarweb-geography-api-openapi.yml
+  format: yaml
+  label: SimilarWeb Geography API
+  slug: similarweb-geography-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-geography-api-openapi.yml
+- filename: similarweb-integrations-api-openapi.yml
+  format: yaml
+  label: SimilarWeb Integrations API
+  slug: similarweb-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-integrations-api-openapi.yml
+- filename: similarweb-keywords-api-openapi.yml
+  format: yaml
+  label: SimilarWeb Keywords API
+  slug: similarweb-keywords-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-keywords-api-openapi.yml
+- filename: similarweb-lead-enrichment-api-openapi.yml
+  format: yaml
+  label: SimilarWeb Lead Enrichment API
+  slug: similarweb-lead-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-lead-enrichment-api-openapi.yml
+- filename: similarweb-rankings-api-openapi.yml
+  format: yaml
+  label: SimilarWeb Rankings API
+  slug: similarweb-rankings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-rankings-api-openapi.yml
+- filename: similarweb-reports-api-openapi.yml
+  format: yaml
+  label: SimilarWeb Reports API
+  slug: similarweb-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-reports-api-openapi.yml
+- filename: similarweb-similar-sites-api-openapi.yml
+  format: yaml
+  label: SimilarWeb Similar Sites API
+  slug: similarweb-similar-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-similar-sites-api-openapi.yml
+- filename: similarweb-traffic-and-engagement-api-openapi.yml
+  format: yaml
+  label: SimilarWeb Traffic and Engagement API
+  slug: similarweb-traffic-and-engagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-traffic-and-engagement-api-openapi.yml
+- filename: similarweb-traffic-sources-api-openapi.yml
+  format: yaml
+  label: SimilarWeb Traffic Sources API
+  slug: similarweb-traffic-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-traffic-sources-api-openapi.yml
+- filename: similarweb-webhooks-api-openapi.yml
+  format: yaml
+  label: SimilarWeb Webhooks API
+  slug: similarweb-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

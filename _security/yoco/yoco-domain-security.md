@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: yoco-openapi.yml
+- filename: yoco-checkout-api-openapi.yml
   format: yaml
   label: Yoco Checkout API
   slug: yoco-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-openapi.yml
-- filename: yoco-openapi.yml
-  format: yaml
-  label: Yoco Refunds API
-  slug: yoco-refunds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-openapi.yml
-- filename: yoco-openapi.yml
-  format: yaml
-  label: Yoco Webhooks API
-  slug: yoco-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-openapi.yml
-- filename: yoco-openapi.yml
-  format: yaml
-  label: Yoco Payments API
-  slug: yoco-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-openapi.yml
-- filename: yoco-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-checkout-api-openapi.yml
+- filename: yoco-payment-links-api-openapi.yml
   format: yaml
   label: Yoco Payment Links API
   slug: yoco-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-payment-links-api-openapi.yml
+- filename: yoco-payments-api-openapi.yml
+  format: yaml
+  label: Yoco Payments API
+  slug: yoco-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-payments-api-openapi.yml
+- filename: yoco-refunds-api-openapi.yml
+  format: yaml
+  label: Yoco Refunds API
+  slug: yoco-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-refunds-api-openapi.yml
+- filename: yoco-webhooks-api-openapi.yml
+  format: yaml
+  label: Yoco Webhooks API
+  slug: yoco-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

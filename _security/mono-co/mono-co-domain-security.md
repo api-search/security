@@ -1,47 +1,41 @@
 ---
 api_specs:
-- filename: mono-co-openapi.yml
+- filename: mono-co-account-information-api-openapi.yml
   format: yaml
-  label: Account Linking and Auth
-  slug: account-linking-auth
+  label: Mono Account Information API
+  slug: mono-co-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-openapi.yml
-- filename: mono-co-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-account-information-api-openapi.yml
+- filename: mono-co-account-linking-api-openapi.yml
   format: yaml
-  label: Account Information
-  slug: account-information
+  label: Mono Account Linking API
+  slug: mono-co-account-linking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-openapi.yml
-- filename: mono-co-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-account-linking-api-openapi.yml
+- filename: mono-co-direct-debit-api-openapi.yml
   format: yaml
-  label: Transactions and Statements
-  slug: transactions-statements
+  label: Mono Direct Debit API
+  slug: mono-co-direct-debit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-openapi.yml
-- filename: mono-co-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-direct-debit-api-openapi.yml
+- filename: mono-co-directpay-api-openapi.yml
   format: yaml
-  label: Identity and Income
-  slug: identity-income
+  label: Mono DirectPay API
+  slug: mono-co-directpay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-openapi.yml
-- filename: mono-co-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-directpay-api-openapi.yml
+- filename: mono-co-identity-and-income-api-openapi.yml
   format: yaml
-  label: DirectPay Payments
-  slug: directpay-payments
+  label: Mono Identity and Income API
+  slug: mono-co-identity-and-income-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-openapi.yml
-- filename: mono-co-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-identity-and-income-api-openapi.yml
+- filename: mono-co-transactions-and-statements-api-openapi.yml
   format: yaml
-  label: Direct Debit and Mandates
-  slug: direct-debit-mandates
+  label: Mono Transactions and Statements API
+  slug: mono-co-transactions-and-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-openapi.yml
-- filename: mono-co-openapi.yml
-  format: yaml
-  label: Webhooks
-  slug: webhooks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-transactions-and-statements-api-openapi.yml
 description: ''
 domains:
 - caa: []

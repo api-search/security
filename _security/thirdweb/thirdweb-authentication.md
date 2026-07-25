@@ -2,42 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: thirdweb-openapi.yml
+- filename: thirdweb-authentication-api-openapi.yml
   format: yaml
-  label: thirdweb API
-  slug: thirdweb-api
+  label: thirdweb Authentication API
+  slug: thirdweb-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-openapi.yml
-- filename: thirdweb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-authentication-api-openapi.yml
+- filename: thirdweb-contracts-api-openapi.yml
   format: yaml
-  label: thirdweb Engine
-  slug: thirdweb-engine
+  label: thirdweb Contracts API
+  slug: thirdweb-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-openapi.yml
-- filename: thirdweb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-contracts-api-openapi.yml
+- filename: thirdweb-engine-api-openapi.yml
   format: yaml
-  label: thirdweb Insight
-  slug: thirdweb-insight
+  label: thirdweb Engine API
+  slug: thirdweb-engine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-openapi.yml
-- filename: thirdweb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-engine-api-openapi.yml
+- filename: thirdweb-insight-api-openapi.yml
   format: yaml
-  label: thirdweb Nebula
-  slug: thirdweb-nebula
+  label: thirdweb Insight API
+  slug: thirdweb-insight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-openapi.yml
-- filename: thirdweb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-insight-api-openapi.yml
+- filename: thirdweb-nebula-api-openapi.yml
   format: yaml
-  label: thirdweb Payments and Bridge
-  slug: thirdweb-payments
+  label: thirdweb Nebula API
+  slug: thirdweb-nebula-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-openapi.yml
-- filename: thirdweb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-nebula-api-openapi.yml
+- filename: thirdweb-payments-api-openapi.yml
   format: yaml
-  label: thirdweb RPC Edge
-  slug: thirdweb-rpc-edge
+  label: thirdweb Payments API
+  slug: thirdweb-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-payments-api-openapi.yml
+- filename: thirdweb-tokens-api-openapi.yml
+  format: yaml
+  label: thirdweb Tokens API
+  slug: thirdweb-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-tokens-api-openapi.yml
+- filename: thirdweb-transactions-api-openapi.yml
+  format: yaml
+  label: thirdweb Transactions API
+  slug: thirdweb-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-transactions-api-openapi.yml
+- filename: thirdweb-wallets-api-openapi.yml
+  format: yaml
+  label: thirdweb Wallets API
+  slug: thirdweb-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-wallets-api-openapi.yml
 auth_types:
 - apiKey
 - http

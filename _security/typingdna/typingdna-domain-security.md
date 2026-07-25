@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: typingdna-authentication-api-openapi-original.json
-  format: json
-  label: TypingDNA Authentication API
-  slug: typingdna-authentication-api
+- filename: typingdna-advanced-api-openapi.yml
+  format: yaml
+  label: TypingDNA advanced API
+  slug: typingdna-advanced-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/openapi/typingdna-authentication-api-openapi-original.json
-- filename: typingdna-verify-2fa-openapi.json
-  format: json
-  label: TypingDNA Verify 2FA API
-  slug: typingdna-verify-2fa-api
+  url: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/openapi/typingdna-advanced-api-openapi.yml
+- filename: typingdna-optional-api-openapi.yml
+  format: yaml
+  label: TypingDNA optional API
+  slug: typingdna-optional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/openapi/typingdna-verify-2fa-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/openapi/typingdna-optional-api-openapi.yml
+- filename: typingdna-standard-api-openapi.yml
+  format: yaml
+  label: TypingDNA standard API
+  slug: typingdna-standard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/openapi/typingdna-standard-api-openapi.yml
 description: ''
 domains:
 - caa: []

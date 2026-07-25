@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: insomnia-mock-server-openapi.yml
+- filename: insomnia-mock-logs-api-openapi.yml
   format: yaml
-  label: Insomnia Mock Server API
-  slug: mock-server-api
+  label: Insomnia Mock Logs API
+  slug: insomnia-mock-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insomnia/refs/heads/main/openapi/insomnia-mock-server-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/insomnia/refs/heads/main/openapi/insomnia-mock-logs-api-openapi.yml
+- filename: insomnia-mock-routes-api-openapi.yml
+  format: yaml
+  label: Insomnia Mock Routes API
+  slug: insomnia-mock-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/insomnia/refs/heads/main/openapi/insomnia-mock-routes-api-openapi.yml
+- filename: insomnia-mock-servers-api-openapi.yml
+  format: yaml
+  label: Insomnia Mock Servers API
+  slug: insomnia-mock-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/insomnia/refs/heads/main/openapi/insomnia-mock-servers-api-openapi.yml
 auth_types:
 - http
 description: ''

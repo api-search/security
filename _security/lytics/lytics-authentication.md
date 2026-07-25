@@ -3,12 +3,48 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: lytics-rest-api-openapi.yml
+- filename: lytics-accounts-api-openapi.yml
   format: yaml
-  label: Lytics REST API
-  slug: lytics-rest-api
+  label: Lytics Accounts API
+  slug: lytics-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-accounts-api-openapi.yml
+- filename: lytics-connections-api-openapi.yml
+  format: yaml
+  label: Lytics Connections API
+  slug: lytics-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-connections-api-openapi.yml
+- filename: lytics-datamodels-api-openapi.yml
+  format: yaml
+  label: Lytics Datamodels API
+  slug: lytics-datamodels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-datamodels-api-openapi.yml
+- filename: lytics-entity-api-openapi.yml
+  format: yaml
+  label: Lytics Entity API
+  slug: lytics-entity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-entity-api-openapi.yml
+- filename: lytics-jobs-api-openapi.yml
+  format: yaml
+  label: Lytics Jobs API
+  slug: lytics-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-jobs-api-openapi.yml
+- filename: lytics-segments-api-openapi.yml
+  format: yaml
+  label: Lytics Segments API
+  slug: lytics-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-segments-api-openapi.yml
+- filename: lytics-work-api-openapi.yml
+  format: yaml
+  label: Lytics Work API
+  slug: lytics-work-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-work-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

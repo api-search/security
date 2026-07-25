@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: s2-dev-openapi-original.json
-  format: json
-  label: S2 Stream Store API
-  slug: s2-stream-store-api
+- filename: s2-dev-access-tokens-api-openapi.yml
+  format: yaml
+  label: S2 Dev access-tokens API
+  slug: s2-dev-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-access-tokens-api-openapi.yml
+- filename: s2-dev-basins-api-openapi.yml
+  format: yaml
+  label: S2 Dev basins API
+  slug: s2-dev-basins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-basins-api-openapi.yml
+- filename: s2-dev-locations-api-openapi.yml
+  format: yaml
+  label: S2 Dev locations API
+  slug: s2-dev-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-locations-api-openapi.yml
+- filename: s2-dev-metrics-api-openapi.yml
+  format: yaml
+  label: S2 Dev metrics API
+  slug: s2-dev-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-metrics-api-openapi.yml
+- filename: s2-dev-records-api-openapi.yml
+  format: yaml
+  label: S2 Dev records API
+  slug: s2-dev-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-records-api-openapi.yml
+- filename: s2-dev-streams-api-openapi.yml
+  format: yaml
+  label: S2 Dev streams API
+  slug: s2-dev-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-streams-api-openapi.yml
 auth_types:
 - http
 description: ''

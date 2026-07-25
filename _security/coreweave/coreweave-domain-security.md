@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: coreweave-clusters-api-openapi.yml
+  format: yaml
+  label: CoreWeave Clusters API
+  slug: coreweave-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coreweave/refs/heads/main/openapi/coreweave-clusters-api-openapi.yml
 description: ''
 domains:
 - caa: []

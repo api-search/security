@@ -1,29 +1,47 @@
 ---
 api_specs:
-- filename: tinyfish-main-openapi.json
-  format: json
-  label: TinyFish Web Agent Automation API
-  slug: tinyfish-web-agent-automation-api
+- filename: tinyfish-automation-api-openapi.yml
+  format: yaml
+  label: TinyFish Automation API
+  slug: tinyfish-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-main-openapi.json
-- filename: tinyfish-search-openapi.json
-  format: json
-  label: TinyFish Search API
-  slug: tinyfish-search-api
+  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-automation-api-openapi.yml
+- filename: tinyfish-runs-api-openapi.yml
+  format: yaml
+  label: TinyFish Runs API
+  slug: tinyfish-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-search-openapi.json
-- filename: tinyfish-fetch-openapi.json
-  format: json
-  label: TinyFish Fetch API
-  slug: tinyfish-fetch-api
+  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-runs-api-openapi.yml
+- filename: tinyfish-tinyfish-browser-api-api-openapi.yml
+  format: yaml
+  label: TinyFish TinyFish Browser API API
+  slug: tinyfish-tinyfish-browser-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-fetch-openapi.json
-- filename: tinyfish-browser-openapi.json
-  format: json
-  label: TinyFish Browser API
-  slug: tinyfish-browser-api
+  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-tinyfish-browser-api-api-openapi.yml
+- filename: tinyfish-tinyfish-fetch-api-api-openapi.yml
+  format: yaml
+  label: TinyFish TinyFish Fetch API API
+  slug: tinyfish-tinyfish-fetch-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-browser-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-tinyfish-fetch-api-api-openapi.yml
+- filename: tinyfish-tinyfish-search-api-api-openapi.yml
+  format: yaml
+  label: TinyFish TinyFish Search API API
+  slug: tinyfish-tinyfish-search-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-tinyfish-search-api-api-openapi.yml
+- filename: tinyfish-usage-api-openapi.yml
+  format: yaml
+  label: TinyFish Usage API
+  slug: tinyfish-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-usage-api-openapi.yml
+- filename: tinyfish-vault-api-openapi.yml
+  format: yaml
+  label: TinyFish Vault API
+  slug: tinyfish-vault-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-vault-api-openapi.yml
 description: ''
 domains:
 - caa:

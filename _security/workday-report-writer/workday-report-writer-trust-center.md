@@ -1,23 +1,53 @@
 ---
 api_specs:
-- filename: workday-report-writer-raas-openapi.yml
+- filename: workday-report-writer-agentdefinition-api-openapi.yml
   format: yaml
-  label: Workday Report-as-a-Service (RaaS) REST API
-  slug: workday-report-as-a-service-raas-rest-api
+  label: Workday Report Writer agentDefinition API
+  slug: workday-report-writer-agentdefinition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/openapi/workday-report-writer-raas-openapi.yml
-- filename: workday-report-writer-wql-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/openapi/workday-report-writer-agentdefinition-api-openapi.yml
+- filename: workday-report-writer-buckets-api-openapi.yml
   format: yaml
-  label: Workday WQL API
-  slug: workday-wql-api
+  label: Workday Report Writer Buckets API
+  slug: workday-report-writer-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/openapi/workday-report-writer-wql-openapi.yml
-- filename: workday-report-writer-prism-analytics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/openapi/workday-report-writer-buckets-api-openapi.yml
+- filename: workday-report-writer-custom-reports-api-openapi.yml
   format: yaml
-  label: Workday Prism Analytics API
-  slug: workday-prism-analytics-api
+  label: Workday Report Writer Custom Reports API
+  slug: workday-report-writer-custom-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/openapi/workday-report-writer-prism-analytics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/openapi/workday-report-writer-custom-reports-api-openapi.yml
+- filename: workday-report-writer-data-change-tasks-api-openapi.yml
+  format: yaml
+  label: Workday Report Writer Data Change Tasks API
+  slug: workday-report-writer-data-change-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/openapi/workday-report-writer-data-change-tasks-api-openapi.yml
+- filename: workday-report-writer-data-sources-api-openapi.yml
+  format: yaml
+  label: Workday Report Writer Data Sources API
+  slug: workday-report-writer-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/openapi/workday-report-writer-data-sources-api-openapi.yml
+- filename: workday-report-writer-datasets-api-openapi.yml
+  format: yaml
+  label: Workday Report Writer Datasets API
+  slug: workday-report-writer-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/openapi/workday-report-writer-datasets-api-openapi.yml
+- filename: workday-report-writer-query-execution-api-openapi.yml
+  format: yaml
+  label: Workday Report Writer Query Execution API
+  slug: workday-report-writer-query-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/openapi/workday-report-writer-query-execution-api-openapi.yml
+- filename: workday-report-writer-tables-api-openapi.yml
+  format: yaml
+  label: Workday Report Writer Tables API
+  slug: workday-report-writer-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/openapi/workday-report-writer-tables-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

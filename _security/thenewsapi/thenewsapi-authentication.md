@@ -2,12 +2,18 @@
 api_key_in:
 - query
 api_specs:
-- filename: openapi.json
-  format: json
-  label: TheNewsAPI
-  slug: thenewsapi
+- filename: thenewsapi-news-api-openapi.yml
+  format: yaml
+  label: TheNewsAPI news API
+  slug: thenewsapi-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thenewsapi/refs/heads/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/thenewsapi/refs/heads/main/openapi/thenewsapi-news-api-openapi.yml
+- filename: thenewsapi-sources-api-openapi.yml
+  format: yaml
+  label: TheNewsAPI sources API
+  slug: thenewsapi-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thenewsapi/refs/heads/main/openapi/thenewsapi-sources-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

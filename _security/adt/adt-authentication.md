@@ -1,18 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: adt-platform-api-openapi.yml
+- filename: adt-access-codes-api-openapi.yml
   format: yaml
-  label: ADT+ Platform API
-  slug: adt-platform-api
+  label: ADT Access Codes API
+  slug: adt-access-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-platform-api-openapi.yml
-- filename: adt-business-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-access-codes-api-openapi.yml
+- filename: adt-access-control-api-openapi.yml
   format: yaml
-  label: ADT Business API
-  slug: adt-business-api
+  label: ADT Access Control API
+  slug: adt-access-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-business-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-access-control-api-openapi.yml
+- filename: adt-automation-api-openapi.yml
+  format: yaml
+  label: ADT Automation API
+  slug: adt-automation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-automation-api-openapi.yml
+- filename: adt-devices-api-openapi.yml
+  format: yaml
+  label: ADT Devices API
+  slug: adt-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-devices-api-openapi.yml
+- filename: adt-events-api-openapi.yml
+  format: yaml
+  label: ADT Events API
+  slug: adt-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-events-api-openapi.yml
+- filename: adt-reports-api-openapi.yml
+  format: yaml
+  label: ADT Reports API
+  slug: adt-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-reports-api-openapi.yml
+- filename: adt-security-systems-api-openapi.yml
+  format: yaml
+  label: ADT Security Systems API
+  slug: adt-security-systems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-security-systems-api-openapi.yml
+- filename: adt-sites-api-openapi.yml
+  format: yaml
+  label: ADT Sites API
+  slug: adt-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-sites-api-openapi.yml
+- filename: adt-users-api-openapi.yml
+  format: yaml
+  label: ADT Users API
+  slug: adt-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-users-api-openapi.yml
+- filename: adt-video-api-openapi.yml
+  format: yaml
+  label: ADT Video API
+  slug: adt-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-video-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

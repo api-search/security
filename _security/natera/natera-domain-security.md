@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: natera-openapi.yml
+- filename: natera-orders-api-openapi.yml
   format: yaml
-  label: Natera EMR Ordering and Results Integration
-  slug: natera-emr-ordering-integration
+  label: Natera Orders API
+  slug: natera-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/natera/refs/heads/main/openapi/natera-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/natera/refs/heads/main/openapi/natera-orders-api-openapi.yml
+- filename: natera-results-api-openapi.yml
+  format: yaml
+  label: Natera Results API
+  slug: natera-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/natera/refs/heads/main/openapi/natera-results-api-openapi.yml
 description: ''
 domains:
 - caa: []

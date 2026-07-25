@@ -1,19 +1,11 @@
 ---
 api_specs:
-- filename: generate-a-client-from-openapi-definition
-  format: yaml
-  label: Moody's KYC API
-  slug: moodys
-  spec_type: OpenAPI
-  url: 'https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/
-
-    https://www.kompany.com/kycapi/docs/resources/resources/customer-facing-documents/generate-a-client-from-openapi-definition'
-- filename: moodys-data-buffet-api-openapi.yml
+- filename: moodys-series-api-openapi.yml
   format: yaml
   label: Moody's Data Buffet API
   slug: data-buffet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-data-buffet-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-series-api-openapi.yml
 description: ''
 domains:
 - caa: []

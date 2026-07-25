@@ -1,18 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: WHOOP API
-  slug: whoop-api
-  spec_type: OpenAPI
-  url: https://api.prod.whoop.com/developer/doc/openapi.json
-- filename: whoop-api-openapi.yml
+- filename: whoop-co-activity-id-mapping-api-openapi.yml
   format: yaml
-  label: WHOOP Trusted Partner API
-  slug: whoop-partner-api
+  label: WHOOP Activity ID Mapping API
+  slug: whoop-co-activity-id-mapping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoop-co/refs/heads/main/openapi/whoop-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/whoop-co/refs/heads/main/openapi/whoop-co-activity-id-mapping-api-openapi.yml
+- filename: whoop-co-cycle-api-openapi.yml
+  format: yaml
+  label: WHOOP Cycle API
+  slug: whoop-co-cycle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whoop-co/refs/heads/main/openapi/whoop-co-cycle-api-openapi.yml
+- filename: whoop-co-partner-api-openapi.yml
+  format: yaml
+  label: WHOOP Partner API
+  slug: whoop-co-partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whoop-co/refs/heads/main/openapi/whoop-co-partner-api-openapi.yml
+- filename: whoop-co-recovery-api-openapi.yml
+  format: yaml
+  label: WHOOP Recovery API
+  slug: whoop-co-recovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whoop-co/refs/heads/main/openapi/whoop-co-recovery-api-openapi.yml
+- filename: whoop-co-sleep-api-openapi.yml
+  format: yaml
+  label: WHOOP Sleep API
+  slug: whoop-co-sleep-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whoop-co/refs/heads/main/openapi/whoop-co-sleep-api-openapi.yml
+- filename: whoop-co-user-api-openapi.yml
+  format: yaml
+  label: WHOOP User API
+  slug: whoop-co-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whoop-co/refs/heads/main/openapi/whoop-co-user-api-openapi.yml
+- filename: whoop-co-workout-api-openapi.yml
+  format: yaml
+  label: WHOOP Workout API
+  slug: whoop-co-workout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whoop-co/refs/heads/main/openapi/whoop-co-workout-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

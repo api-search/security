@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: test-cases-collections-api-openapi.yml
+  format: yaml
+  label: Test Cases Collections API
+  slug: test-cases-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/test-cases/refs/heads/main/openapi/test-cases-collections-api-openapi.yml
+- filename: test-cases-environments-api-openapi.yml
+  format: yaml
+  label: Test Cases Environments API
+  slug: test-cases-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/test-cases/refs/heads/main/openapi/test-cases-environments-api-openapi.yml
+- filename: test-cases-mocks-api-openapi.yml
+  format: yaml
+  label: Test Cases Mocks API
+  slug: test-cases-mocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/test-cases/refs/heads/main/openapi/test-cases-mocks-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

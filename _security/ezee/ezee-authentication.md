@@ -2,30 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: ezee-openapi.yml
+- filename: ezee-inventory-and-rates-api-openapi.yml
   format: yaml
-  label: eZee Reservations & Bookings API
-  slug: ezee-reservations-bookings-api
+  label: eZee Technosys Inventory and Rates API
+  slug: ezee-inventory-and-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezee/refs/heads/main/openapi/ezee-openapi.yml
-- filename: ezee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ezee/refs/heads/main/openapi/ezee-inventory-and-rates-api-openapi.yml
+- filename: ezee-pms-connectivity-api-openapi.yml
   format: yaml
-  label: eZee Room Inventory & Rates API
-  slug: ezee-room-inventory-rates-api
+  label: eZee Technosys PMS Connectivity API
+  slug: ezee-pms-connectivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezee/refs/heads/main/openapi/ezee-openapi.yml
-- filename: ezee-openapi.yml
-  format: yaml
-  label: eZee Guests & Configuration API
-  slug: ezee-guests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezee/refs/heads/main/openapi/ezee-openapi.yml
-- filename: ezee-openapi.yml
-  format: yaml
-  label: eZee Centrix Channel Manager API
-  slug: ezee-channel-manager-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezee/refs/heads/main/openapi/ezee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ezee/refs/heads/main/openapi/ezee-pms-connectivity-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

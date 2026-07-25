@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: bitoasis-exchange-openapi.yml
+- filename: bitoasis-account-api-openapi.yml
   format: yaml
-  label: BitOasis Exchange API
-  slug: bitoasis-exchange-api
+  label: BitOasis Account API
+  slug: bitoasis-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/openapi/bitoasis-exchange-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/openapi/bitoasis-account-api-openapi.yml
+- filename: bitoasis-coin-deposits-api-openapi.yml
+  format: yaml
+  label: BitOasis Coin Deposits API
+  slug: bitoasis-coin-deposits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/openapi/bitoasis-coin-deposits-api-openapi.yml
+- filename: bitoasis-coin-withdrawals-api-openapi.yml
+  format: yaml
+  label: BitOasis Coin Withdrawals API
+  slug: bitoasis-coin-withdrawals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/openapi/bitoasis-coin-withdrawals-api-openapi.yml
+- filename: bitoasis-fiat-deposits-api-openapi.yml
+  format: yaml
+  label: BitOasis Fiat Deposits API
+  slug: bitoasis-fiat-deposits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/openapi/bitoasis-fiat-deposits-api-openapi.yml
+- filename: bitoasis-fiat-withdrawals-api-openapi.yml
+  format: yaml
+  label: BitOasis Fiat Withdrawals API
+  slug: bitoasis-fiat-withdrawals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/openapi/bitoasis-fiat-withdrawals-api-openapi.yml
+- filename: bitoasis-market-data-api-openapi.yml
+  format: yaml
+  label: BitOasis Market Data API
+  slug: bitoasis-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/openapi/bitoasis-market-data-api-openapi.yml
+- filename: bitoasis-orders-api-openapi.yml
+  format: yaml
+  label: BitOasis Orders API
+  slug: bitoasis-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/openapi/bitoasis-orders-api-openapi.yml
 auth_types:
 - http
 description: ''

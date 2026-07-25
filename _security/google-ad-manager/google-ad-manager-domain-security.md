@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-ad-manager-adunits-api-openapi.yml
   format: yaml
-  label: Google Ad Manager API
-  slug: google-ad-manager
+  label: Google Ad Manager adUnits API
+  slug: google-ad-manager-adunits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-ad-manager/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-ad-manager/refs/heads/main/openapi/google-ad-manager-adunits-api-openapi.yml
+- filename: google-ad-manager-companies-api-openapi.yml
+  format: yaml
+  label: Google Ad Manager Companies API
+  slug: google-ad-manager-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ad-manager/refs/heads/main/openapi/google-ad-manager-companies-api-openapi.yml
+- filename: google-ad-manager-networks-api-openapi.yml
+  format: yaml
+  label: Google Ad Manager Networks API
+  slug: google-ad-manager-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ad-manager/refs/heads/main/openapi/google-ad-manager-networks-api-openapi.yml
+- filename: google-ad-manager-orders-api-openapi.yml
+  format: yaml
+  label: Google Ad Manager Orders API
+  slug: google-ad-manager-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ad-manager/refs/heads/main/openapi/google-ad-manager-orders-api-openapi.yml
+- filename: google-ad-manager-reports-run-api-openapi.yml
+  format: yaml
+  label: Google Ad Manager Reports:run API
+  slug: google-ad-manager-reports-run-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ad-manager/refs/heads/main/openapi/google-ad-manager-reports-run-api-openapi.yml
 description: ''
 domains:
 - caa:

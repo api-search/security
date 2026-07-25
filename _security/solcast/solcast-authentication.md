@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: solcast-openapi.yml
+- filename: solcast-aggregations-api-openapi.yml
   format: yaml
-  label: Solcast API
-  slug: solcast
+  label: Solcast Aggregations API
+  slug: solcast-aggregations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/openapi/solcast-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/openapi/solcast-aggregations-api-openapi.yml
+- filename: solcast-forecast-data-api-openapi.yml
+  format: yaml
+  label: Solcast Forecast Data API
+  slug: solcast-forecast-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/openapi/solcast-forecast-data-api-openapi.yml
+- filename: solcast-historic-data-api-openapi.yml
+  format: yaml
+  label: Solcast Historic Data API
+  slug: solcast-historic-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/openapi/solcast-historic-data-api-openapi.yml
+- filename: solcast-live-data-api-openapi.yml
+  format: yaml
+  label: Solcast Live Data API
+  slug: solcast-live-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/openapi/solcast-live-data-api-openapi.yml
+- filename: solcast-pv-power-sites-api-openapi.yml
+  format: yaml
+  label: Solcast PV Power Sites API
+  slug: solcast-pv-power-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/openapi/solcast-pv-power-sites-api-openapi.yml
+- filename: solcast-tmy-data-api-openapi.yml
+  format: yaml
+  label: Solcast TMY Data API
+  slug: solcast-tmy-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/openapi/solcast-tmy-data-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: block-square-api-openapi.yaml
+- filename: block-catalog-api-openapi.yml
   format: yaml
-  label: Square API
-  slug: block-square-api
+  label: Block Catalog API
+  slug: block-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-square-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-catalog-api-openapi.yml
+- filename: block-customers-api-openapi.yml
+  format: yaml
+  label: Block Customers API
+  slug: block-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-customers-api-openapi.yml
+- filename: block-merchants-api-openapi.yml
+  format: yaml
+  label: Block Merchants API
+  slug: block-merchants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-merchants-api-openapi.yml
+- filename: block-orders-api-openapi.yml
+  format: yaml
+  label: Block Orders API
+  slug: block-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-orders-api-openapi.yml
+- filename: block-payments-api-openapi.yml
+  format: yaml
+  label: Block Payments API
+  slug: block-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-payments-api-openapi.yml
 description: ''
 domains:
 - caa: []

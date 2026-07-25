@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-transit-gateway-openapi.yml
+- filename: amazon-transit-gateway-route-tables-api-openapi.yml
   format: yaml
-  label: Amazon Transit Gateway REST API
-  slug: amazon-transit-gateway-rest-api
+  label: Amazon Transit Gateway Route Tables API
+  slug: amazon-transit-gateway-route-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/openapi/amazon-transit-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/openapi/amazon-transit-gateway-route-tables-api-openapi.yml
+- filename: amazon-transit-gateway-transit-gateways-api-openapi.yml
+  format: yaml
+  label: Amazon Transit Gateway Transit Gateways API
+  slug: amazon-transit-gateway-transit-gateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/openapi/amazon-transit-gateway-transit-gateways-api-openapi.yml
+- filename: amazon-transit-gateway-vpc-attachments-api-openapi.yml
+  format: yaml
+  label: Amazon Transit Gateway VPC Attachments API
+  slug: amazon-transit-gateway-vpc-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/openapi/amazon-transit-gateway-vpc-attachments-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

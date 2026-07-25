@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: d3-doma-openapi.json
-  format: json
-  label: Doma Protocol API
-  slug: doma-protocol-api
+- filename: d3-events-poll-api-api-openapi.yml
+  format: yaml
+  label: D3 Events Poll API API
+  slug: d3-events-poll-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d3/refs/heads/main/openapi/d3-doma-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/d3/refs/heads/main/openapi/d3-events-poll-api-api-openapi.yml
+- filename: d3-orderbook-api-api-openapi.yml
+  format: yaml
+  label: D3 Orderbook API API
+  slug: d3-orderbook-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/d3/refs/heads/main/openapi/d3-orderbook-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

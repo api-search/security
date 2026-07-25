@@ -1,17 +1,59 @@
 ---
 api_specs:
-- filename: hcp-terraform-openapi.yml
+- filename: terraform-modules-api-openapi.yml
   format: yaml
-  label: HCP Terraform API
-  slug: hcp-terraform-api
+  label: Terraform Modules API
+  slug: terraform-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/openapi/hcp-terraform-openapi.yml
-- filename: terraform-registry-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/openapi/terraform-modules-api-openapi.yml
+- filename: terraform-organizations-api-openapi.yml
   format: yaml
-  label: Terraform Registry API
-  slug: terraform-registry-api
+  label: Terraform Organizations API
+  slug: terraform-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/openapi/terraform-registry-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/openapi/terraform-organizations-api-openapi.yml
+- filename: terraform-policies-api-openapi.yml
+  format: yaml
+  label: Terraform Policies API
+  slug: terraform-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/openapi/terraform-policies-api-openapi.yml
+- filename: terraform-projects-api-openapi.yml
+  format: yaml
+  label: Terraform Projects API
+  slug: terraform-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/openapi/terraform-projects-api-openapi.yml
+- filename: terraform-runs-api-openapi.yml
+  format: yaml
+  label: Terraform Runs API
+  slug: terraform-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/openapi/terraform-runs-api-openapi.yml
+- filename: terraform-state-versions-api-openapi.yml
+  format: yaml
+  label: Terraform State Versions API
+  slug: terraform-state-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/openapi/terraform-state-versions-api-openapi.yml
+- filename: terraform-teams-api-openapi.yml
+  format: yaml
+  label: Terraform Teams API
+  slug: terraform-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/openapi/terraform-teams-api-openapi.yml
+- filename: terraform-variables-api-openapi.yml
+  format: yaml
+  label: Terraform Variables API
+  slug: terraform-variables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/openapi/terraform-variables-api-openapi.yml
+- filename: terraform-workspaces-api-openapi.yml
+  format: yaml
+  label: Terraform Workspaces API
+  slug: terraform-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/openapi/terraform-workspaces-api-openapi.yml
 certifications:
 - SOC 2 Type 2
 - ISO 27001

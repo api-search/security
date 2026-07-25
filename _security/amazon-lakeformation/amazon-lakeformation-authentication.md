@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-lakeformation-openapi.yml
+- filename: amazon-lakeformation-databases-api-openapi.yml
   format: yaml
-  label: AWS Lake Formation API
-  slug: aws-lake-formation-api
+  label: AWS Lake Formation Databases API
+  slug: amazon-lakeformation-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lakeformation/refs/heads/main/openapi/amazon-lakeformation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lakeformation/refs/heads/main/openapi/amazon-lakeformation-databases-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

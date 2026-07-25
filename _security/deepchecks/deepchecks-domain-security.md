@@ -1,29 +1,41 @@
 ---
 api_specs:
-- filename: deepchecks-openapi.yml
+- filename: deepchecks-application-versions-api-openapi.yml
   format: yaml
-  label: Deepchecks LLM Interactions / Logging API
-  slug: llm-interactions-logging
+  label: Deepchecks Application Versions API
+  slug: deepchecks-application-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/openapi/deepchecks-openapi.yml
-- filename: deepchecks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/openapi/deepchecks-application-versions-api-openapi.yml
+- filename: deepchecks-applications-api-openapi.yml
   format: yaml
-  label: Deepchecks Applications / Versions API
-  slug: applications-versions
+  label: Deepchecks Applications API
+  slug: deepchecks-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/openapi/deepchecks-openapi.yml
-- filename: deepchecks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/openapi/deepchecks-applications-api-openapi.yml
+- filename: deepchecks-interactions-api-openapi.yml
   format: yaml
-  label: Deepchecks Annotations API
-  slug: annotations
+  label: Deepchecks Interactions API
+  slug: deepchecks-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/openapi/deepchecks-openapi.yml
-- filename: deepchecks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/openapi/deepchecks-interactions-api-openapi.yml
+- filename: deepchecks-properties-api-openapi.yml
   format: yaml
   label: Deepchecks Properties API
-  slug: properties
+  slug: deepchecks-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/openapi/deepchecks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/openapi/deepchecks-properties-api-openapi.yml
+- filename: deepchecks-spans-api-openapi.yml
+  format: yaml
+  label: Deepchecks Spans API
+  slug: deepchecks-spans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/openapi/deepchecks-spans-api-openapi.yml
+- filename: deepchecks-system-api-openapi.yml
+  format: yaml
+  label: Deepchecks System API
+  slug: deepchecks-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/openapi/deepchecks-system-api-openapi.yml
 description: ''
 domains:
 - caa: []

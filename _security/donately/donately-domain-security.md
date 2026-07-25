@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: donately-openapi.yml
-  format: yaml
-  label: Donately Donations API
-  slug: donately-donations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-openapi.yml
-- filename: donately-openapi.yml
-  format: yaml
-  label: Donately People API
-  slug: donately-people-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-openapi.yml
-- filename: donately-openapi.yml
-  format: yaml
-  label: Donately Campaigns API
-  slug: donately-campaigns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-openapi.yml
-- filename: donately-openapi.yml
-  format: yaml
-  label: Donately Fundraisers API
-  slug: donately-fundraisers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-openapi.yml
-- filename: donately-openapi.yml
-  format: yaml
-  label: Donately Subscriptions API
-  slug: donately-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-openapi.yml
-- filename: donately-openapi.yml
+- filename: donately-accounts-api-openapi.yml
   format: yaml
   label: Donately Accounts API
   slug: donately-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-accounts-api-openapi.yml
+- filename: donately-campaigns-api-openapi.yml
+  format: yaml
+  label: Donately Campaigns API
+  slug: donately-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-campaigns-api-openapi.yml
+- filename: donately-donations-api-openapi.yml
+  format: yaml
+  label: Donately Donations API
+  slug: donately-donations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-donations-api-openapi.yml
+- filename: donately-fundraisers-api-openapi.yml
+  format: yaml
+  label: Donately Fundraisers API
+  slug: donately-fundraisers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-fundraisers-api-openapi.yml
+- filename: donately-people-api-openapi.yml
+  format: yaml
+  label: Donately People API
+  slug: donately-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-people-api-openapi.yml
+- filename: donately-subscriptions-api-openapi.yml
+  format: yaml
+  label: Donately Subscriptions API
+  slug: donately-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []

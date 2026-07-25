@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yml
+- filename: detectlanguage-account-api-openapi.yml
   format: yaml
-  label: DetectLanguage API
-  slug: detectlanguage-api
+  label: DetectLanguage Account API
+  slug: detectlanguage-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/detectlanguage/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/detectlanguage/refs/heads/main/openapi/detectlanguage-account-api-openapi.yml
+- filename: detectlanguage-detection-api-openapi.yml
+  format: yaml
+  label: DetectLanguage Detection API
+  slug: detectlanguage-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/detectlanguage/refs/heads/main/openapi/detectlanguage-detection-api-openapi.yml
+- filename: detectlanguage-languages-api-openapi.yml
+  format: yaml
+  label: DetectLanguage Languages API
+  slug: detectlanguage-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/detectlanguage/refs/heads/main/openapi/detectlanguage-languages-api-openapi.yml
 auth_types:
 - http
 description: ''

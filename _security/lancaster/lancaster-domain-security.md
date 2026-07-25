@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: lancaster-eprints-oai.yaml
+- filename: lancaster-oai2-api-openapi.yml
   format: yaml
-  label: Lancaster EPrints OAI-PMH
-  slug: eprints-oai
+  label: Lancaster University Oai2 API
+  slug: lancaster-oai2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/openapi/lancaster-eprints-oai.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/openapi/lancaster-oai2-api-openapi.yml
 description: ''
 domains:
 - caa: []

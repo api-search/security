@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: mailosaur-mailosaur-api-openapi.yml
+- filename: mailosaur-analysis-api-openapi.yml
   format: yaml
-  label: Mailosaur API
-  slug: mailosaur-api
+  label: Mailosaur Analysis API
+  slug: mailosaur-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-mailosaur-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-analysis-api-openapi.yml
+- filename: mailosaur-devices-api-openapi.yml
+  format: yaml
+  label: Mailosaur Devices API
+  slug: mailosaur-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-devices-api-openapi.yml
+- filename: mailosaur-files-api-openapi.yml
+  format: yaml
+  label: Mailosaur Files API
+  slug: mailosaur-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-files-api-openapi.yml
+- filename: mailosaur-messages-api-openapi.yml
+  format: yaml
+  label: Mailosaur Messages API
+  slug: mailosaur-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-messages-api-openapi.yml
+- filename: mailosaur-previews-api-openapi.yml
+  format: yaml
+  label: Mailosaur Previews API
+  slug: mailosaur-previews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-previews-api-openapi.yml
+- filename: mailosaur-servers-api-openapi.yml
+  format: yaml
+  label: Mailosaur Servers API
+  slug: mailosaur-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-servers-api-openapi.yml
+- filename: mailosaur-usage-api-openapi.yml
+  format: yaml
+  label: Mailosaur Usage API
+  slug: mailosaur-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-usage-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: indico-data-openapi.yml
+- filename: indico-data-authentication-api-openapi.yml
   format: yaml
-  label: Indico REST API
-  slug: indico-rest-api
+  label: Indico Data Authentication API
+  slug: indico-data-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/openapi/indico-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/openapi/indico-data-authentication-api-openapi.yml
+- filename: indico-data-datasets-api-openapi.yml
+  format: yaml
+  label: Indico Data Datasets API
+  slug: indico-data-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/openapi/indico-data-datasets-api-openapi.yml
+- filename: indico-data-storage-api-openapi.yml
+  format: yaml
+  label: Indico Data Storage API
+  slug: indico-data-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/openapi/indico-data-storage-api-openapi.yml
+- filename: indico-data-submissions-api-openapi.yml
+  format: yaml
+  label: Indico Data Submissions API
+  slug: indico-data-submissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/openapi/indico-data-submissions-api-openapi.yml
+- filename: indico-data-workflows-api-openapi.yml
+  format: yaml
+  label: Indico Data Workflows API
+  slug: indico-data-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/openapi/indico-data-workflows-api-openapi.yml
 certifications:
 - SOC 2 Type II
 description: ''

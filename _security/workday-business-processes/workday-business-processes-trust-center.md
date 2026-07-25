@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: Business_Process_Service.yaml
+- filename: workday-business-processes-approvals-api-openapi.yml
   format: yaml
-  label: Workday Business Process API
-  slug: workday-business-process-api
+  label: Workday Business Processes Approvals API
+  slug: workday-business-processes-approvals-api
   spec_type: OpenAPI
-  url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Business_Process_Service/v41.1/Business_Process_Service.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-approvals-api-openapi.yml
+- filename: workday-business-processes-business-process-definitions-api-openapi.yml
+  format: yaml
+  label: Workday Business Processes Business Process Definitions API
+  slug: workday-business-processes-business-process-definitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-business-process-definitions-api-openapi.yml
+- filename: workday-business-processes-inbox-items-api-openapi.yml
+  format: yaml
+  label: Workday Business Processes Inbox Items API
+  slug: workday-business-processes-inbox-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-inbox-items-api-openapi.yml
+- filename: workday-business-processes-process-instances-api-openapi.yml
+  format: yaml
+  label: Workday Business Processes Process Instances API
+  slug: workday-business-processes-process-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-process-instances-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,24 +1,102 @@
 ---
 api_key_in: []
 api_specs:
-- filename: choreo-api-management-openapi.yml
+- filename: choreo-alerts-api-openapi.yml
   format: yaml
-  label: Choreo API Management API
-  slug: api-management
+  label: Choreo Alerts API
+  slug: choreo-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-api-management-openapi.yml
-- filename: choreo-developer-portal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-alerts-api-openapi.yml
+- filename: choreo-apis-api-openapi.yml
   format: yaml
-  label: Choreo Developer Portal API
-  slug: developer-portal
+  label: Choreo Apis API
+  slug: choreo-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-developer-portal-openapi.yml
-- filename: choreo-insights-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-apis-api-openapi.yml
+- filename: choreo-application-keys-api-openapi.yml
   format: yaml
-  label: Choreo Insights API
-  slug: insights
+  label: Choreo Application Keys API
+  slug: choreo-application-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-insights-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-application-keys-api-openapi.yml
+- filename: choreo-applications-api-openapi.yml
+  format: yaml
+  label: Choreo Applications API
+  slug: choreo-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-applications-api-openapi.yml
+- filename: choreo-builds-api-openapi.yml
+  format: yaml
+  label: Choreo Builds API
+  slug: choreo-builds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-builds-api-openapi.yml
+- filename: choreo-business-plans-api-openapi.yml
+  format: yaml
+  label: Choreo Business Plans API
+  slug: choreo-business-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-business-plans-api-openapi.yml
+- filename: choreo-components-api-openapi.yml
+  format: yaml
+  label: Choreo Components API
+  slug: choreo-components-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-components-api-openapi.yml
+- filename: choreo-deployments-api-openapi.yml
+  format: yaml
+  label: Choreo Deployments API
+  slug: choreo-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-deployments-api-openapi.yml
+- filename: choreo-environments-api-openapi.yml
+  format: yaml
+  label: Choreo Environments API
+  slug: choreo-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-environments-api-openapi.yml
+- filename: choreo-errors-api-openapi.yml
+  format: yaml
+  label: Choreo Errors API
+  slug: choreo-errors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-errors-api-openapi.yml
+- filename: choreo-latency-api-openapi.yml
+  format: yaml
+  label: Choreo Latency API
+  slug: choreo-latency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-latency-api-openapi.yml
+- filename: choreo-logs-api-openapi.yml
+  format: yaml
+  label: Choreo Logs API
+  slug: choreo-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-logs-api-openapi.yml
+- filename: choreo-organizations-api-openapi.yml
+  format: yaml
+  label: Choreo Organizations API
+  slug: choreo-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-organizations-api-openapi.yml
+- filename: choreo-projects-api-openapi.yml
+  format: yaml
+  label: Choreo Projects API
+  slug: choreo-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-projects-api-openapi.yml
+- filename: choreo-subscriptions-api-openapi.yml
+  format: yaml
+  label: Choreo Subscriptions API
+  slug: choreo-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-subscriptions-api-openapi.yml
+- filename: choreo-usage-api-openapi.yml
+  format: yaml
+  label: Choreo Usage API
+  slug: choreo-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-usage-api-openapi.yml
 auth_types:
 - http
 - oauth2

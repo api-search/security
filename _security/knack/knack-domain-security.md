@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: knack-openapi.yml
+- filename: knack-object-records-api-openapi.yml
   format: yaml
-  label: Knack REST API
-  slug: rest-api
+  label: Knack Object Records API
+  slug: knack-object-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knack/refs/heads/main/openapi/knack-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/knack/refs/heads/main/openapi/knack-object-records-api-openapi.yml
+- filename: knack-view-records-api-openapi.yml
+  format: yaml
+  label: Knack View Records API
+  slug: knack-view-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knack/refs/heads/main/openapi/knack-view-records-api-openapi.yml
 description: ''
 domains:
 - caa:

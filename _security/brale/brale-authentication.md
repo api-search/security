@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: brale-openapi-original.yml
+- filename: brale-accounts-api-openapi.yml
   format: yaml
-  label: Brale Issuance and Orchestration API
-  slug: brale-issuance-and-orchestration-api
+  label: Brale Accounts API
+  slug: brale-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-accounts-api-openapi.yml
+- filename: brale-addresses-api-openapi.yml
+  format: yaml
+  label: Brale Addresses API
+  slug: brale-addresses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-addresses-api-openapi.yml
+- filename: brale-automations-api-openapi.yml
+  format: yaml
+  label: Brale Automations API
+  slug: brale-automations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-automations-api-openapi.yml
+- filename: brale-financial-institutions-api-openapi.yml
+  format: yaml
+  label: Brale Financial Institutions API
+  slug: brale-financial-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-financial-institutions-api-openapi.yml
+- filename: brale-orders-api-openapi.yml
+  format: yaml
+  label: Brale Orders API
+  slug: brale-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-orders-api-openapi.yml
+- filename: brale-webhooks-api-openapi.yml
+  format: yaml
+  label: Brale Webhooks API
+  slug: brale-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

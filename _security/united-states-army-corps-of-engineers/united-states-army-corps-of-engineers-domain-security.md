@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: cwms-data-api-openapi.yml
+- filename: united-states-army-corps-of-engineers-basins-api-openapi.yml
   format: yaml
-  label: CWMS Data API
-  slug: cwms-data-api
+  label: United States Army Corps of Engineers Basins API
+  slug: united-states-army-corps-of-engineers-basins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/openapi/cwms-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/openapi/united-states-army-corps-of-engineers-basins-api-openapi.yml
+- filename: united-states-army-corps-of-engineers-catalog-api-openapi.yml
+  format: yaml
+  label: United States Army Corps of Engineers Catalog API
+  slug: united-states-army-corps-of-engineers-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/openapi/united-states-army-corps-of-engineers-catalog-api-openapi.yml
+- filename: united-states-army-corps-of-engineers-forecasts-api-openapi.yml
+  format: yaml
+  label: United States Army Corps of Engineers Forecasts API
+  slug: united-states-army-corps-of-engineers-forecasts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/openapi/united-states-army-corps-of-engineers-forecasts-api-openapi.yml
+- filename: united-states-army-corps-of-engineers-levels-api-openapi.yml
+  format: yaml
+  label: United States Army Corps of Engineers Levels API
+  slug: united-states-army-corps-of-engineers-levels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/openapi/united-states-army-corps-of-engineers-levels-api-openapi.yml
+- filename: united-states-army-corps-of-engineers-locations-api-openapi.yml
+  format: yaml
+  label: United States Army Corps of Engineers Locations API
+  slug: united-states-army-corps-of-engineers-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/openapi/united-states-army-corps-of-engineers-locations-api-openapi.yml
+- filename: united-states-army-corps-of-engineers-parameters-api-openapi.yml
+  format: yaml
+  label: United States Army Corps of Engineers Parameters API
+  slug: united-states-army-corps-of-engineers-parameters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/openapi/united-states-army-corps-of-engineers-parameters-api-openapi.yml
+- filename: united-states-army-corps-of-engineers-projects-api-openapi.yml
+  format: yaml
+  label: United States Army Corps of Engineers Projects API
+  slug: united-states-army-corps-of-engineers-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/openapi/united-states-army-corps-of-engineers-projects-api-openapi.yml
+- filename: united-states-army-corps-of-engineers-ratings-api-openapi.yml
+  format: yaml
+  label: United States Army Corps of Engineers Ratings API
+  slug: united-states-army-corps-of-engineers-ratings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/openapi/united-states-army-corps-of-engineers-ratings-api-openapi.yml
+- filename: united-states-army-corps-of-engineers-time-series-api-openapi.yml
+  format: yaml
+  label: United States Army Corps of Engineers Time Series API
+  slug: united-states-army-corps-of-engineers-time-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/openapi/united-states-army-corps-of-engineers-time-series-api-openapi.yml
+- filename: united-states-army-corps-of-engineers-version-api-openapi.yml
+  format: yaml
+  label: United States Army Corps of Engineers Version API
+  slug: united-states-army-corps-of-engineers-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/openapi/united-states-army-corps-of-engineers-version-api-openapi.yml
 description: ''
 domains:
 - caa: []

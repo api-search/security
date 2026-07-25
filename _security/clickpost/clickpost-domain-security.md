@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: clickpost-openapi.yml
+- filename: clickpost-cancellation-api-openapi.yml
   format: yaml
-  label: ClickPost API
-  slug: clickpost-api
+  label: ClickPost Cancellation API
+  slug: clickpost-cancellation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-cancellation-api-openapi.yml
+- filename: clickpost-label-api-openapi.yml
+  format: yaml
+  label: ClickPost Label API
+  slug: clickpost-label-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-label-api-openapi.yml
+- filename: clickpost-order-api-openapi.yml
+  format: yaml
+  label: ClickPost Order API
+  slug: clickpost-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-order-api-openapi.yml
+- filename: clickpost-pickup-api-openapi.yml
+  format: yaml
+  label: ClickPost Pickup API
+  slug: clickpost-pickup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-pickup-api-openapi.yml
+- filename: clickpost-recommendation-api-openapi.yml
+  format: yaml
+  label: ClickPost Recommendation API
+  slug: clickpost-recommendation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-recommendation-api-openapi.yml
+- filename: clickpost-serviceability-api-openapi.yml
+  format: yaml
+  label: ClickPost Serviceability API
+  slug: clickpost-serviceability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-serviceability-api-openapi.yml
+- filename: clickpost-tracking-api-openapi.yml
+  format: yaml
+  label: ClickPost Tracking API
+  slug: clickpost-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-tracking-api-openapi.yml
 description: ''
 domains:
 - caa: []

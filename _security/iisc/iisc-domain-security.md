@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: iisc-etd-rest.yaml
+- filename: iisc-bitstreams-api-openapi.yml
   format: yaml
-  label: ETD@IISc OAI-PMH
-  slug: etd-oai
+  label: Indian Institute of Science Bangalore Bitstreams API
+  slug: iisc-bitstreams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iisc/refs/heads/main/openapi/iisc-etd-rest.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/iisc/refs/heads/main/openapi/iisc-bitstreams-api-openapi.yml
+- filename: iisc-collections-api-openapi.yml
+  format: yaml
+  label: Indian Institute of Science Bangalore Collections API
+  slug: iisc-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iisc/refs/heads/main/openapi/iisc-collections-api-openapi.yml
+- filename: iisc-communities-api-openapi.yml
+  format: yaml
+  label: Indian Institute of Science Bangalore Communities API
+  slug: iisc-communities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iisc/refs/heads/main/openapi/iisc-communities-api-openapi.yml
+- filename: iisc-items-api-openapi.yml
+  format: yaml
+  label: Indian Institute of Science Bangalore Items API
+  slug: iisc-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iisc/refs/heads/main/openapi/iisc-items-api-openapi.yml
 description: ''
 domains:
 - caa: []

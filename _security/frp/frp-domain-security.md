@@ -1,17 +1,59 @@
 ---
 api_specs:
-- filename: frp-server-admin-api-openapi.yml
+- filename: frp-clients-api-openapi.yml
   format: yaml
-  label: frp Server Admin API
-  slug: server-admin-api
+  label: frp Clients API
+  slug: frp-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-server-admin-api-openapi.yml
-- filename: frp-client-admin-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-clients-api-openapi.yml
+- filename: frp-configuration-api-openapi.yml
   format: yaml
-  label: frp Client Admin API
-  slug: client-admin-api
+  label: frp Configuration API
+  slug: frp-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-client-admin-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-configuration-api-openapi.yml
+- filename: frp-health-api-openapi.yml
+  format: yaml
+  label: frp Health API
+  slug: frp-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-health-api-openapi.yml
+- filename: frp-lifecycle-api-openapi.yml
+  format: yaml
+  label: frp Lifecycle API
+  slug: frp-lifecycle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-lifecycle-api-openapi.yml
+- filename: frp-metrics-api-openapi.yml
+  format: yaml
+  label: frp Metrics API
+  slug: frp-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-metrics-api-openapi.yml
+- filename: frp-proxies-api-openapi.yml
+  format: yaml
+  label: frp Proxies API
+  slug: frp-proxies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-proxies-api-openapi.yml
+- filename: frp-server-api-openapi.yml
+  format: yaml
+  label: frp Server API
+  slug: frp-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-server-api-openapi.yml
+- filename: frp-status-api-openapi.yml
+  format: yaml
+  label: frp Status API
+  slug: frp-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-status-api-openapi.yml
+- filename: frp-store-api-openapi.yml
+  format: yaml
+  label: frp Store API
+  slug: frp-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-store-api-openapi.yml
 description: ''
 domains:
 - caa:

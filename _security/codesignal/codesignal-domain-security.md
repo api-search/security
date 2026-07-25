@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: codesignal-learn-openapi.json
-  format: json
-  label: CodeSignal Learn Public API
-  slug: codesignal-learn-public-api
+- filename: codesignal-organization-api-openapi.yml
+  format: yaml
+  label: Codesignal Organization API
+  slug: codesignal-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesignal/refs/heads/main/openapi/codesignal-learn-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/codesignal/refs/heads/main/openapi/codesignal-organization-api-openapi.yml
 description: ''
 domains:
 - caa: []

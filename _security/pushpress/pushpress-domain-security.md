@@ -1,71 +1,83 @@
 ---
 api_specs:
-- filename: pushpress-openapi.yml
+- filename: pushpress-apikeys-api-openapi.yml
   format: yaml
-  label: PushPress Customers API
-  slug: pushpress-customers-api
+  label: PushPress ApiKeys API
+  slug: pushpress-apikeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-openapi.yml
-- filename: pushpress-openapi.yml
-  format: yaml
-  label: PushPress Check-Ins API
-  slug: pushpress-checkins-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-openapi.yml
-- filename: pushpress-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-apikeys-api-openapi.yml
+- filename: pushpress-appointments-api-openapi.yml
   format: yaml
   label: PushPress Appointments API
   slug: pushpress-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-openapi.yml
-- filename: pushpress-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-appointments-api-openapi.yml
+- filename: pushpress-attributions-api-openapi.yml
+  format: yaml
+  label: PushPress Attributions API
+  slug: pushpress-attributions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-attributions-api-openapi.yml
+- filename: pushpress-checkins-api-openapi.yml
+  format: yaml
+  label: PushPress Checkins API
+  slug: pushpress-checkins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-checkins-api-openapi.yml
+- filename: pushpress-classes-api-openapi.yml
   format: yaml
   label: PushPress Classes API
   slug: pushpress-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-openapi.yml
-- filename: pushpress-openapi.yml
-  format: yaml
-  label: PushPress Events API
-  slug: pushpress-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-openapi.yml
-- filename: pushpress-openapi.yml
-  format: yaml
-  label: PushPress Enrollments and Plans API
-  slug: pushpress-enrollments-plans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-openapi.yml
-- filename: pushpress-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-classes-api-openapi.yml
+- filename: pushpress-company-api-openapi.yml
   format: yaml
   label: PushPress Company API
   slug: pushpress-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-openapi.yml
-- filename: pushpress-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-company-api-openapi.yml
+- filename: pushpress-customers-api-openapi.yml
+  format: yaml
+  label: PushPress Customers API
+  slug: pushpress-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-customers-api-openapi.yml
+- filename: pushpress-enrollments-api-openapi.yml
+  format: yaml
+  label: PushPress Enrollments API
+  slug: pushpress-enrollments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-enrollments-api-openapi.yml
+- filename: pushpress-events-api-openapi.yml
+  format: yaml
+  label: PushPress Events API
+  slug: pushpress-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-events-api-openapi.yml
+- filename: pushpress-invitations-api-openapi.yml
   format: yaml
   label: PushPress Invitations API
   slug: pushpress-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-openapi.yml
-- filename: pushpress-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-invitations-api-openapi.yml
+- filename: pushpress-messages-api-openapi.yml
   format: yaml
-  label: PushPress Messaging API
-  slug: pushpress-messaging-api
+  label: PushPress Messages API
+  slug: pushpress-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-openapi.yml
-- filename: pushpress-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-messages-api-openapi.yml
+- filename: pushpress-plans-api-openapi.yml
+  format: yaml
+  label: PushPress Plans API
+  slug: pushpress-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-plans-api-openapi.yml
+- filename: pushpress-webhooks-api-openapi.yml
   format: yaml
   label: PushPress Webhooks API
   slug: pushpress-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-openapi.yml
-- filename: pushpress-openapi.yml
-  format: yaml
-  label: PushPress API Keys API
-  slug: pushpress-api-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-documentdb-openapi.yml
+- filename: amazon-documentdb-amazon-documentdb-api-api-openapi.yml
   format: yaml
-  label: Amazon DocumentDB API
-  slug: amazon-documentdb-api
+  label: Amazon DocumentDB Amazon DocumentDB API API
+  slug: amazon-documentdb-amazon-documentdb-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-documentdb/refs/heads/main/openapi/amazon-documentdb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-documentdb/refs/heads/main/openapi/amazon-documentdb-amazon-documentdb-api-api-openapi.yml
+- filename: amazon-documentdb-createdbinstance-api-openapi.yml
+  format: yaml
+  label: 'Amazon DocumentDB #CreateDBInstance API'
+  slug: amazon-documentdb-createdbinstance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-documentdb/refs/heads/main/openapi/amazon-documentdb-createdbinstance-api-openapi.yml
+- filename: amazon-documentdb-deletedbcluster-api-openapi.yml
+  format: yaml
+  label: 'Amazon DocumentDB #DeleteDBCluster API'
+  slug: amazon-documentdb-deletedbcluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-documentdb/refs/heads/main/openapi/amazon-documentdb-deletedbcluster-api-openapi.yml
+- filename: amazon-documentdb-describedbinstances-api-openapi.yml
+  format: yaml
+  label: 'Amazon DocumentDB #DescribeDBInstances API'
+  slug: amazon-documentdb-describedbinstances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-documentdb/refs/heads/main/openapi/amazon-documentdb-describedbinstances-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

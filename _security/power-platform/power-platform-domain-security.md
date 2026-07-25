@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: v1
+- filename: power-platform-applications-api-openapi.yml
   format: yaml
-  label: Power Apps API
-  slug: power-apps-api
+  label: Microsoft Power Platform APIs Applications API
+  slug: power-platform-applications-api
   spec_type: OpenAPI
-  url: https://api.powerapps.com/openapi/v1
-- filename: v1
+  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-applications-api-openapi.yml
+- filename: power-platform-environments-api-openapi.yml
   format: yaml
-  label: Power Automate API
-  slug: power-automate-api
+  label: Microsoft Power Platform APIs Environments API
+  slug: power-platform-environments-api
   spec_type: OpenAPI
-  url: https://api.flow.microsoft.com/openapi/v1
-- filename: swagger.json
-  format: json
-  label: Power BI REST API
-  slug: power-bi-rest-api
+  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-environments-api-openapi.yml
+- filename: power-platform-flow-runs-api-openapi.yml
+  format: yaml
+  label: Microsoft Power Platform APIs Flow Runs API
+  slug: power-platform-flow-runs-api
   spec_type: OpenAPI
-  url: https://api.powerbi.com/v1.0/myorg/swagger.json
-- filename: power-platform-api-openapi.json
-  format: json
-  label: Power Platform Unified API
-  slug: power-platform-unified-api
+  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-flow-runs-api-openapi.yml
+- filename: power-platform-licensing-api-openapi.yml
+  format: yaml
+  label: Microsoft Power Platform APIs Licensing API
+  slug: power-platform-licensing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-licensing-api-openapi.yml
 description: ''
 domains:
 - caa:

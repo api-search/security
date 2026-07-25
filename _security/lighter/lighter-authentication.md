@@ -2,12 +2,84 @@
 api_key_in:
 - header
 api_specs:
-- filename: lighter-zklighter-openapi-original.json
-  format: json
-  label: zkLighter API
-  slug: zklighter
+- filename: lighter-account-api-openapi.yml
+  format: yaml
+  label: Lighter account API
+  slug: lighter-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/openapi/lighter-zklighter-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/openapi/lighter-account-api-openapi.yml
+- filename: lighter-announcement-api-openapi.yml
+  format: yaml
+  label: Lighter announcement API
+  slug: lighter-announcement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/openapi/lighter-announcement-api-openapi.yml
+- filename: lighter-block-api-openapi.yml
+  format: yaml
+  label: Lighter block API
+  slug: lighter-block-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/openapi/lighter-block-api-openapi.yml
+- filename: lighter-bridge-api-openapi.yml
+  format: yaml
+  label: Lighter bridge API
+  slug: lighter-bridge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/openapi/lighter-bridge-api-openapi.yml
+- filename: lighter-candlestick-api-openapi.yml
+  format: yaml
+  label: Lighter candlestick API
+  slug: lighter-candlestick-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/openapi/lighter-candlestick-api-openapi.yml
+- filename: lighter-funding-api-openapi.yml
+  format: yaml
+  label: Lighter funding API
+  slug: lighter-funding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/openapi/lighter-funding-api-openapi.yml
+- filename: lighter-info-api-openapi.yml
+  format: yaml
+  label: Lighter info API
+  slug: lighter-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/openapi/lighter-info-api-openapi.yml
+- filename: lighter-notification-api-openapi.yml
+  format: yaml
+  label: Lighter notification API
+  slug: lighter-notification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/openapi/lighter-notification-api-openapi.yml
+- filename: lighter-order-api-openapi.yml
+  format: yaml
+  label: Lighter order API
+  slug: lighter-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/openapi/lighter-order-api-openapi.yml
+- filename: lighter-referral-api-openapi.yml
+  format: yaml
+  label: Lighter referral API
+  slug: lighter-referral-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/openapi/lighter-referral-api-openapi.yml
+- filename: lighter-root-api-openapi.yml
+  format: yaml
+  label: Lighter root API
+  slug: lighter-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/openapi/lighter-root-api-openapi.yml
+- filename: lighter-tokenlist-api-openapi.yml
+  format: yaml
+  label: Lighter tokenlist API
+  slug: lighter-tokenlist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/openapi/lighter-tokenlist-api-openapi.yml
+- filename: lighter-transaction-api-openapi.yml
+  format: yaml
+  label: Lighter transaction API
+  slug: lighter-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/openapi/lighter-transaction-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

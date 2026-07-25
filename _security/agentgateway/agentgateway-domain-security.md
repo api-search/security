@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: agentgateway-openapi.yml
+- filename: agentgateway-config-api-openapi.yml
   format: yaml
-  label: AgentGateway
-  slug: agentgateway
+  label: AgentGateway Config API
+  slug: agentgateway-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-config-api-openapi.yml
+- filename: agentgateway-debug-api-openapi.yml
+  format: yaml
+  label: AgentGateway Debug API
+  slug: agentgateway-debug-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-debug-api-openapi.yml
+- filename: agentgateway-lifecycle-api-openapi.yml
+  format: yaml
+  label: AgentGateway Lifecycle API
+  slug: agentgateway-lifecycle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-lifecycle-api-openapi.yml
+- filename: agentgateway-logging-api-openapi.yml
+  format: yaml
+  label: AgentGateway Logging API
+  slug: agentgateway-logging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-logging-api-openapi.yml
+- filename: agentgateway-memory-api-openapi.yml
+  format: yaml
+  label: AgentGateway Memory API
+  slug: agentgateway-memory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-memory-api-openapi.yml
+- filename: agentgateway-profiling-api-openapi.yml
+  format: yaml
+  label: AgentGateway Profiling API
+  slug: agentgateway-profiling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-profiling-api-openapi.yml
 description: ''
 domains:
 - caa: []

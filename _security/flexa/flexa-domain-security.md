@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: flexa-openapi.json
-  format: json
-  label: Flexa API
-  slug: flexa-api
+- filename: flexa-assets-api-openapi.yml
+  format: yaml
+  label: Flexa Assets API
+  slug: flexa-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/openapi/flexa-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/openapi/flexa-assets-api-openapi.yml
+- filename: flexa-commerce-intents-api-openapi.yml
+  format: yaml
+  label: Flexa Commerce Intents API
+  slug: flexa-commerce-intents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/openapi/flexa-commerce-intents-api-openapi.yml
+- filename: flexa-events-api-openapi.yml
+  format: yaml
+  label: Flexa Events API
+  slug: flexa-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/openapi/flexa-events-api-openapi.yml
+- filename: flexa-refunds-api-openapi.yml
+  format: yaml
+  label: Flexa Refunds API
+  slug: flexa-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/openapi/flexa-refunds-api-openapi.yml
 description: ''
 domains:
 - caa: []

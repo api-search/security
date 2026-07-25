@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: eder-labs-persona-openapi.yml
+- filename: eder-labs-ingestion-api-openapi.yml
   format: yaml
-  label: Persona API
-  slug: persona-api
+  label: Eder Labs Ingestion API
+  slug: eder-labs-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eder-labs/refs/heads/main/openapi/eder-labs-persona-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/eder-labs/refs/heads/main/openapi/eder-labs-ingestion-api-openapi.yml
+- filename: eder-labs-meta-api-openapi.yml
+  format: yaml
+  label: Eder Labs Meta API
+  slug: eder-labs-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eder-labs/refs/heads/main/openapi/eder-labs-meta-api-openapi.yml
+- filename: eder-labs-query-api-openapi.yml
+  format: yaml
+  label: Eder Labs Query API
+  slug: eder-labs-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eder-labs/refs/heads/main/openapi/eder-labs-query-api-openapi.yml
+- filename: eder-labs-users-api-openapi.yml
+  format: yaml
+  label: Eder Labs Users API
+  slug: eder-labs-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eder-labs/refs/heads/main/openapi/eder-labs-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

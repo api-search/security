@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: microsoft-azure-sql-database-openapi.yml
+- filename: microsoft-azure-sql-database-databases-api-openapi.yml
   format: yaml
-  label: Azure SQL Database API
-  slug: rest-api
+  label: Azure SQL Database Databases API
+  slug: microsoft-azure-sql-database-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-databases-api-openapi.yml
+- filename: microsoft-azure-sql-database-elasticpools-api-openapi.yml
+  format: yaml
+  label: Azure SQL Database ElasticPools API
+  slug: microsoft-azure-sql-database-elasticpools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-elasticpools-api-openapi.yml
+- filename: microsoft-azure-sql-database-failovergroups-api-openapi.yml
+  format: yaml
+  label: Azure SQL Database FailoverGroups API
+  slug: microsoft-azure-sql-database-failovergroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-failovergroups-api-openapi.yml
+- filename: microsoft-azure-sql-database-firewallrules-api-openapi.yml
+  format: yaml
+  label: Azure SQL Database FirewallRules API
+  slug: microsoft-azure-sql-database-firewallrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-firewallrules-api-openapi.yml
+- filename: microsoft-azure-sql-database-servers-api-openapi.yml
+  format: yaml
+  label: Azure SQL Database Servers API
+  slug: microsoft-azure-sql-database-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-servers-api-openapi.yml
 auth_types:
 - http
 description: ''

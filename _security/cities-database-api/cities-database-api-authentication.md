@@ -2,12 +2,12 @@
 api_key_in:
 - query
 api_specs:
-- filename: cities-database-api-openapi.yml
+- filename: cities-database-api-cities-api-openapi.yml
   format: yaml
-  label: AirLabs Cities API
-  slug: airlabs-cities-api
+  label: Cities Database API Cities API
+  slug: cities-database-api-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cities-database-api/refs/heads/main/openapi/cities-database-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cities-database-api/refs/heads/main/openapi/cities-database-api-cities-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

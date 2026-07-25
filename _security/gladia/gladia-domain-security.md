@@ -1,17 +1,59 @@
 ---
 api_specs:
-- filename: api-reference
-  format: yaml
-  label: Gladia Pre-recorded (Async) API
-  slug: gladia-pre-recorded-async-api
-  spec_type: OpenAPI
-  url: https://docs.gladia.io/api-reference
 - filename: docs
   format: yaml
   label: Gladia Live (Real-time) API
   slug: gladia-live-real-time-api
   spec_type: AsyncAPI
   url: https://github.com/gladiaio/docs
+- filename: gladia-audiototext-api-openapi.yml
+  format: yaml
+  label: Gladia AudioToText API
+  slug: gladia-audiototext-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-audiototext-api-openapi.yml
+- filename: gladia-file-management-api-openapi.yml
+  format: yaml
+  label: Gladia File Management API
+  slug: gladia-file-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-file-management-api-openapi.yml
+- filename: gladia-job-history-api-openapi.yml
+  format: yaml
+  label: Gladia Job History API
+  slug: gladia-job-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-job-history-api-openapi.yml
+- filename: gladia-live-v2-api-openapi.yml
+  format: yaml
+  label: Gladia Live V2 API
+  slug: gladia-live-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-live-v2-api-openapi.yml
+- filename: gladia-openrouter-api-openapi.yml
+  format: yaml
+  label: Gladia OpenRouter API
+  slug: gladia-openrouter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-openrouter-api-openapi.yml
+- filename: gladia-pre-recorded-v2-api-openapi.yml
+  format: yaml
+  label: Gladia Pre-recorded V2 API
+  slug: gladia-pre-recorded-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-pre-recorded-v2-api-openapi.yml
+- filename: gladia-transcription-v1-api-openapi.yml
+  format: yaml
+  label: Gladia Transcription V1 API
+  slug: gladia-transcription-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-transcription-v1-api-openapi.yml
+- filename: gladia-transcription-v2-api-openapi.yml
+  format: yaml
+  label: Gladia Transcription V2 API
+  slug: gladia-transcription-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-transcription-v2-api-openapi.yml
 description: ''
 domains:
 - caa:

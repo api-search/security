@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: hadoop-openapi.yml
+- filename: hadoop-webhdfs-api-openapi.yml
   format: yaml
-  label: HDFS REST API (WebHDFS)
-  slug: hdfs-rest-api
+  label: Apache Hadoop WebHDFS API
+  slug: hadoop-webhdfs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hadoop/refs/heads/main/openapi/hadoop-openapi.yml
-- filename: hadoop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hadoop/refs/heads/main/openapi/hadoop-webhdfs-api-openapi.yml
+- filename: hadoop-yarn-applications-api-openapi.yml
   format: yaml
-  label: YARN REST API
-  slug: yarn-rest-api
+  label: Apache Hadoop YARN Applications API
+  slug: hadoop-yarn-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hadoop/refs/heads/main/openapi/hadoop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hadoop/refs/heads/main/openapi/hadoop-yarn-applications-api-openapi.yml
+- filename: hadoop-yarn-cluster-api-openapi.yml
+  format: yaml
+  label: Apache Hadoop YARN Cluster API
+  slug: hadoop-yarn-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hadoop/refs/heads/main/openapi/hadoop-yarn-cluster-api-openapi.yml
+- filename: hadoop-yarn-nodes-api-openapi.yml
+  format: yaml
+  label: Apache Hadoop YARN Nodes API
+  slug: hadoop-yarn-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hadoop/refs/heads/main/openapi/hadoop-yarn-nodes-api-openapi.yml
 description: ''
 domains:
 - caa:

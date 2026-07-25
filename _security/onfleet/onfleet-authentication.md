@@ -49,6 +49,12 @@ api_specs:
   slug: onfleet-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/openapi/onfleet-webhooks-api-openapi.yml
+- filename: onfleet-route-optimization-api-openapi.yml
+  format: yaml
+  label: Onfleet Route Optimization API
+  slug: onfleet-route-optimization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/openapi/onfleet-route-optimization-api-openapi.yml
 auth_types:
 - http
 description: ''

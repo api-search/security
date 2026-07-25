@@ -1,89 +1,89 @@
 ---
 api_specs:
-- filename: leonardo-ai-image-generation-openapi.json
-  format: json
-  label: Leonardo.AI Image Generation API
-  slug: leonardo-ai-image-generation
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-image-generation-openapi.json
-- filename: leonardo-ai-video-generation-openapi.json
-  format: json
-  label: Leonardo.AI Video Generation API
-  slug: leonardo-ai-video-generation
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-video-generation-openapi.json
-- filename: leonardo-ai-variation-openapi.json
-  format: json
-  label: Leonardo.AI Variation and Upscale API
-  slug: leonardo-ai-variation
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-variation-openapi.json
-- filename: leonardo-ai-realtime-canvas-openapi.json
-  format: json
-  label: Leonardo.AI Realtime Canvas API
-  slug: leonardo-ai-realtime-canvas
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-realtime-canvas-openapi.json
-- filename: leonardo-ai-models-openapi.json
-  format: json
-  label: Leonardo.AI Models API
-  slug: leonardo-ai-models
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-models-openapi.json
-- filename: leonardo-ai-elements-openapi.json
-  format: json
-  label: Leonardo.AI Elements API
-  slug: leonardo-ai-elements
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-elements-openapi.json
-- filename: leonardo-ai-datasets-openapi.json
-  format: json
-  label: Leonardo.AI Datasets API
-  slug: leonardo-ai-datasets
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-datasets-openapi.json
-- filename: leonardo-ai-init-images-openapi.json
-  format: json
-  label: Leonardo.AI Init Images API
-  slug: leonardo-ai-init-images
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-init-images-openapi.json
-- filename: leonardo-ai-media-openapi.json
-  format: json
-  label: Leonardo.AI Media API
-  slug: leonardo-ai-media
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-media-openapi.json
-- filename: leonardo-ai-3d-model-assets-openapi.json
-  format: json
+- filename: leonardo-ai-3d-model-assets-api-openapi.yml
+  format: yaml
   label: Leonardo.AI 3D Model Assets API
-  slug: leonardo-ai-3d-model-assets
+  slug: leonardo-ai-3d-model-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-3d-model-assets-openapi.json
-- filename: leonardo-ai-blueprints-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-3d-model-assets-api-openapi.yml
+- filename: leonardo-ai-blueprints-api-openapi.yml
+  format: yaml
   label: Leonardo.AI Blueprints API
-  slug: leonardo-ai-blueprints
+  slug: leonardo-ai-blueprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-blueprints-openapi.json
-- filename: leonardo-ai-prompt-openapi.json
-  format: json
-  label: Leonardo.AI Prompt API
-  slug: leonardo-ai-prompt
+  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-blueprints-api-openapi.yml
+- filename: leonardo-ai-dataset-api-openapi.yml
+  format: yaml
+  label: Leonardo.AI Dataset API
+  slug: leonardo-ai-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-prompt-openapi.json
-- filename: leonardo-ai-pricing-calculator-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-dataset-api-openapi.yml
+- filename: leonardo-ai-elements-api-openapi.yml
+  format: yaml
+  label: Leonardo.AI Elements API
+  slug: leonardo-ai-elements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-elements-api-openapi.yml
+- filename: leonardo-ai-image-api-openapi.yml
+  format: yaml
+  label: Leonardo.AI Image API
+  slug: leonardo-ai-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-image-api-openapi.yml
+- filename: leonardo-ai-init-images-api-openapi.yml
+  format: yaml
+  label: Leonardo.AI Init Images API
+  slug: leonardo-ai-init-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-init-images-api-openapi.yml
+- filename: leonardo-ai-media-api-openapi.yml
+  format: yaml
+  label: Leonardo.AI Media API
+  slug: leonardo-ai-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-media-api-openapi.yml
+- filename: leonardo-ai-models-api-openapi.yml
+  format: yaml
+  label: Leonardo.AI Models API
+  slug: leonardo-ai-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-models-api-openapi.yml
+- filename: leonardo-ai-motion-api-openapi.yml
+  format: yaml
+  label: Leonardo.AI Motion API
+  slug: leonardo-ai-motion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-motion-api-openapi.yml
+- filename: leonardo-ai-pricing-calculator-api-openapi.yml
+  format: yaml
   label: Leonardo.AI Pricing Calculator API
-  slug: leonardo-ai-pricing-calculator
+  slug: leonardo-ai-pricing-calculator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-pricing-calculator-openapi.json
-- filename: leonardo-ai-user-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-pricing-calculator-api-openapi.yml
+- filename: leonardo-ai-prompt-api-openapi.yml
+  format: yaml
+  label: Leonardo.AI Prompt API
+  slug: leonardo-ai-prompt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-prompt-api-openapi.yml
+- filename: leonardo-ai-realtime-canvas-api-openapi.yml
+  format: yaml
+  label: Leonardo.AI Realtime Canvas API
+  slug: leonardo-ai-realtime-canvas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-realtime-canvas-api-openapi.yml
+- filename: leonardo-ai-user-api-openapi.yml
+  format: yaml
   label: Leonardo.AI User API
-  slug: leonardo-ai-user
+  slug: leonardo-ai-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-user-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-user-api-openapi.yml
+- filename: leonardo-ai-variation-api-openapi.yml
+  format: yaml
+  label: Leonardo.AI Variation API
+  slug: leonardo-ai-variation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-variation-api-openapi.yml
 description: ''
 domains:
 - caa: []

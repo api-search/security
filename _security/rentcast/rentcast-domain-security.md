@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: rentcast-openapi.json
-  format: json
-  label: RentCast API
-  slug: rentcast-api
+- filename: rentcast-avm-api-openapi.yml
+  format: yaml
+  label: RentCast Avm API
+  slug: rentcast-avm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/openapi/rentcast-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/openapi/rentcast-avm-api-openapi.yml
+- filename: rentcast-listings-api-openapi.yml
+  format: yaml
+  label: RentCast Listings API
+  slug: rentcast-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/openapi/rentcast-listings-api-openapi.yml
+- filename: rentcast-markets-api-openapi.yml
+  format: yaml
+  label: RentCast Markets API
+  slug: rentcast-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/openapi/rentcast-markets-api-openapi.yml
+- filename: rentcast-properties-api-openapi.yml
+  format: yaml
+  label: RentCast Properties API
+  slug: rentcast-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/openapi/rentcast-properties-api-openapi.yml
 description: ''
 domains:
 - caa: []

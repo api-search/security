@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: oracle-otm-business-objects-openapi.yml
+- filename: oracle-transportation-management-carriers-api-openapi.yml
   format: yaml
-  label: Oracle Transportation Management Business Object Resources REST API
-  slug: oracle-transportation-management-business-object-resources-rest-api
+  label: Oracle Transportation Management Carriers API
+  slug: oracle-transportation-management-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-transportation-management/refs/heads/main/openapi/oracle-otm-business-objects-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-transportation-management/refs/heads/main/openapi/oracle-transportation-management-carriers-api-openapi.yml
+- filename: oracle-transportation-management-locations-api-openapi.yml
+  format: yaml
+  label: Oracle Transportation Management Locations API
+  slug: oracle-transportation-management-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-transportation-management/refs/heads/main/openapi/oracle-transportation-management-locations-api-openapi.yml
+- filename: oracle-transportation-management-rates-api-openapi.yml
+  format: yaml
+  label: Oracle Transportation Management Rates API
+  slug: oracle-transportation-management-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-transportation-management/refs/heads/main/openapi/oracle-transportation-management-rates-api-openapi.yml
+- filename: oracle-transportation-management-shipmentorders-api-openapi.yml
+  format: yaml
+  label: Oracle Transportation Management ShipmentOrders API
+  slug: oracle-transportation-management-shipmentorders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-transportation-management/refs/heads/main/openapi/oracle-transportation-management-shipmentorders-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

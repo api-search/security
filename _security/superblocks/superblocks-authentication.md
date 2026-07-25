@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Superblocks Management API
-  slug: superblocks-api
+- filename: superblocks-applications-api-openapi.yml
+  format: yaml
+  label: Superblocks Applications API
+  slug: superblocks-applications-api
   spec_type: OpenAPI
-  url: https://docs.superblocks.com/api-reference/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/superblocks/refs/heads/main/openapi/superblocks-applications-api-openapi.yml
+- filename: superblocks-workflows-api-openapi.yml
+  format: yaml
+  label: Superblocks Workflows API
+  slug: superblocks-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superblocks/refs/heads/main/openapi/superblocks-workflows-api-openapi.yml
 auth_types:
 - apiKey
 - http

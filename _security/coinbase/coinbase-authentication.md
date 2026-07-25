@@ -2,36 +2,162 @@
 api_key_in:
 - header
 api_specs:
-- filename: coinbase-advanced-trade-openapi.yml
+- filename: coinbase-accounts-api-openapi.yml
   format: yaml
-  label: Coinbase Advanced Trade API
-  slug: advanced-trade-api
+  label: Coinbase Accounts API
+  slug: coinbase-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-advanced-trade-openapi.yml
-- filename: coinbase-exchange-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-accounts-api-openapi.yml
+- filename: coinbase-activities-api-openapi.yml
   format: yaml
-  label: Coinbase Exchange API
-  slug: exchange-api
+  label: Coinbase Activities API
+  slug: coinbase-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-exchange-openapi.yml
-- filename: coinbase-prime-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-activities-api-openapi.yml
+- filename: coinbase-address-book-api-openapi.yml
   format: yaml
-  label: Coinbase Prime API
-  slug: prime-api
+  label: Coinbase Address Book API
+  slug: coinbase-address-book-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-prime-openapi.yml
-- filename: coinbase-onramp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-address-book-api-openapi.yml
+- filename: coinbase-allocations-api-openapi.yml
   format: yaml
-  label: Coinbase Onramp API
-  slug: onramp-api
+  label: Coinbase Allocations API
+  slug: coinbase-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-onramp-openapi.yml
-- filename: coinbase-commerce-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-allocations-api-openapi.yml
+- filename: coinbase-assets-api-openapi.yml
   format: yaml
-  label: Coinbase Commerce API
-  slug: commerce-api
+  label: Coinbase Assets API
+  slug: coinbase-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-commerce-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-assets-api-openapi.yml
+- filename: coinbase-balances-api-openapi.yml
+  format: yaml
+  label: Coinbase Balances API
+  slug: coinbase-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-balances-api-openapi.yml
+- filename: coinbase-buy-api-openapi.yml
+  format: yaml
+  label: Coinbase Buy API
+  slug: coinbase-buy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-buy-api-openapi.yml
+- filename: coinbase-charges-api-openapi.yml
+  format: yaml
+  label: Coinbase Charges API
+  slug: coinbase-charges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-charges-api-openapi.yml
+- filename: coinbase-checkouts-api-openapi.yml
+  format: yaml
+  label: Coinbase Checkouts API
+  slug: coinbase-checkouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-checkouts-api-openapi.yml
+- filename: coinbase-conversions-api-openapi.yml
+  format: yaml
+  label: Coinbase Conversions API
+  slug: coinbase-conversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-conversions-api-openapi.yml
+- filename: coinbase-currencies-api-openapi.yml
+  format: yaml
+  label: Coinbase Currencies API
+  slug: coinbase-currencies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-currencies-api-openapi.yml
+- filename: coinbase-deposits-api-openapi.yml
+  format: yaml
+  label: Coinbase Deposits API
+  slug: coinbase-deposits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-deposits-api-openapi.yml
+- filename: coinbase-events-api-openapi.yml
+  format: yaml
+  label: Coinbase Events API
+  slug: coinbase-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-events-api-openapi.yml
+- filename: coinbase-fees-api-openapi.yml
+  format: yaml
+  label: Coinbase Fees API
+  slug: coinbase-fees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-fees-api-openapi.yml
+- filename: coinbase-invoices-api-openapi.yml
+  format: yaml
+  label: Coinbase Invoices API
+  slug: coinbase-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-invoices-api-openapi.yml
+- filename: coinbase-market-data-api-openapi.yml
+  format: yaml
+  label: Coinbase Market Data API
+  slug: coinbase-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-market-data-api-openapi.yml
+- filename: coinbase-orders-api-openapi.yml
+  format: yaml
+  label: Coinbase Orders API
+  slug: coinbase-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-orders-api-openapi.yml
+- filename: coinbase-portfolios-api-openapi.yml
+  format: yaml
+  label: Coinbase Portfolios API
+  slug: coinbase-portfolios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-portfolios-api-openapi.yml
+- filename: coinbase-products-api-openapi.yml
+  format: yaml
+  label: Coinbase Products API
+  slug: coinbase-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-products-api-openapi.yml
+- filename: coinbase-profiles-api-openapi.yml
+  format: yaml
+  label: Coinbase Profiles API
+  slug: coinbase-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-profiles-api-openapi.yml
+- filename: coinbase-sell-api-openapi.yml
+  format: yaml
+  label: Coinbase Sell API
+  slug: coinbase-sell-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-sell-api-openapi.yml
+- filename: coinbase-session-api-openapi.yml
+  format: yaml
+  label: Coinbase Session API
+  slug: coinbase-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-session-api-openapi.yml
+- filename: coinbase-transactions-api-openapi.yml
+  format: yaml
+  label: Coinbase Transactions API
+  slug: coinbase-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-transactions-api-openapi.yml
+- filename: coinbase-users-api-openapi.yml
+  format: yaml
+  label: Coinbase Users API
+  slug: coinbase-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-users-api-openapi.yml
+- filename: coinbase-wallets-api-openapi.yml
+  format: yaml
+  label: Coinbase Wallets API
+  slug: coinbase-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-wallets-api-openapi.yml
+- filename: coinbase-withdrawals-api-openapi.yml
+  format: yaml
+  label: Coinbase Withdrawals API
+  slug: coinbase-withdrawals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-withdrawals-api-openapi.yml
 auth_types:
 - apiKey
 - http

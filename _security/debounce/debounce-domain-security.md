@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: debounce-email-validation-api-openapi.yml
+- filename: debounce-account-api-openapi.yml
   format: yaml
-  label: DeBounce Email Validation API
-  slug: email-validation-api
+  label: DeBounce Account API
+  slug: debounce-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-email-validation-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-account-api-openapi.yml
+- filename: debounce-bulk-api-openapi.yml
+  format: yaml
+  label: DeBounce Bulk API
+  slug: debounce-bulk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-bulk-api-openapi.yml
+- filename: debounce-data-api-openapi.yml
+  format: yaml
+  label: DeBounce Data API
+  slug: debounce-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-data-api-openapi.yml
+- filename: debounce-validation-api-openapi.yml
+  format: yaml
+  label: DeBounce Validation API
+  slug: debounce-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-validation-api-openapi.yml
 description: ''
 domains:
 - caa: []

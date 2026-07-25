@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: lund-lup-search.yaml
+- filename: lund-publication-api-openapi.yml
   format: yaml
-  label: Lund University Publications (LUP) Search API
-  slug: lup-search
+  label: Lund University Publication API
+  slug: lund-publication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lund/refs/heads/main/openapi/lund-lup-search.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/lund/refs/heads/main/openapi/lund-publication-api-openapi.yml
 description: ''
 domains:
 - caa: []

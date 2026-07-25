@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: targon-openapi.yml
+- filename: targon-chat-api-openapi.yml
   format: yaml
-  label: Targon Chat Completions API
-  slug: targon-chat-completions-api
+  label: Targon Chat API
+  slug: targon-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-openapi.yml
-- filename: targon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-chat-api-openapi.yml
+- filename: targon-completions-api-openapi.yml
   format: yaml
   label: Targon Completions API
   slug: targon-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-openapi.yml
-- filename: targon-openapi.yml
-  format: yaml
-  label: Targon Models API
-  slug: targon-models-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-openapi.yml
-- filename: targon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-completions-api-openapi.yml
+- filename: targon-images-api-openapi.yml
   format: yaml
   label: Targon Images API
   slug: targon-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-openapi.yml
-- filename: targon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-images-api-openapi.yml
+- filename: targon-models-api-openapi.yml
+  format: yaml
+  label: Targon Models API
+  slug: targon-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-models-api-openapi.yml
+- filename: targon-search-api-openapi.yml
   format: yaml
   label: Targon Search API
   slug: targon-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-search-api-openapi.yml
 description: ''
 domains:
 - caa:

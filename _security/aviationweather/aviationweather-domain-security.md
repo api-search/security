@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: aviationweather-openapi.yml
+- filename: aviationweather-navigational-data-api-openapi.yml
   format: yaml
-  label: Aviation Weather Data API
-  slug: aviation-weather-data-api
+  label: Aviation Weather Center Navigational Data API
+  slug: aviationweather-navigational-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviationweather/refs/heads/main/openapi/aviationweather-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aviationweather/refs/heads/main/openapi/aviationweather-navigational-data-api-openapi.yml
+- filename: aviationweather-weather-data-api-openapi.yml
+  format: yaml
+  label: Aviation Weather Center Weather Data API
+  slug: aviationweather-weather-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aviationweather/refs/heads/main/openapi/aviationweather-weather-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

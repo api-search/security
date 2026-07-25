@@ -1,35 +1,77 @@
 ---
 api_specs:
-- filename: kubernetes-services-openapi.yml
+- filename: kubernetes-services-endpointslices-api-openapi.yml
   format: yaml
-  label: Kubernetes Services
-  slug: kubernetes-services
+  label: Kubernetes Services EndpointSlices API
+  slug: kubernetes-services-endpointslices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-openapi.yml
-- filename: kubernetes-ingress-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-endpointslices-api-openapi.yml
+- filename: kubernetes-services-gateway-api-openapi.yml
   format: yaml
-  label: Kubernetes Ingress
-  slug: kubernetes-ingress
+  label: Kubernetes Services Gateway API
+  slug: kubernetes-services-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-ingress-openapi.yml
-- filename: kubernetes-gateway-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-gateway-api-openapi.yml
+- filename: kubernetes-services-gatewayclass-api-openapi.yml
   format: yaml
-  label: Kubernetes Gateway API
-  slug: kubernetes-gateway-api
+  label: Kubernetes Services GatewayClass API
+  slug: kubernetes-services-gatewayclass-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-gateway-api-openapi.yml
-- filename: kubernetes-endpoint-slices-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-gatewayclass-api-openapi.yml
+- filename: kubernetes-services-grpcroute-api-openapi.yml
   format: yaml
-  label: Kubernetes EndpointSlices
-  slug: kubernetes-endpoint-slices
+  label: Kubernetes Services GRPCRoute API
+  slug: kubernetes-services-grpcroute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-endpoint-slices-openapi.yml
-- filename: kubernetes-network-policies-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-grpcroute-api-openapi.yml
+- filename: kubernetes-services-httproute-api-openapi.yml
   format: yaml
-  label: Kubernetes Network Policies
-  slug: kubernetes-network-policies
+  label: Kubernetes Services HTTPRoute API
+  slug: kubernetes-services-httproute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-network-policies-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-httproute-api-openapi.yml
+- filename: kubernetes-services-ingress-api-openapi.yml
+  format: yaml
+  label: Kubernetes Services Ingress API
+  slug: kubernetes-services-ingress-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-ingress-api-openapi.yml
+- filename: kubernetes-services-ingressclass-api-openapi.yml
+  format: yaml
+  label: Kubernetes Services IngressClass API
+  slug: kubernetes-services-ingressclass-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-ingressclass-api-openapi.yml
+- filename: kubernetes-services-ingressstatus-api-openapi.yml
+  format: yaml
+  label: Kubernetes Services IngressStatus API
+  slug: kubernetes-services-ingressstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-ingressstatus-api-openapi.yml
+- filename: kubernetes-services-namespaces-api-openapi.yml
+  format: yaml
+  label: Kubernetes Services Namespaces API
+  slug: kubernetes-services-namespaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-namespaces-api-openapi.yml
+- filename: kubernetes-services-networkpolicy-api-openapi.yml
+  format: yaml
+  label: Kubernetes Services NetworkPolicy API
+  slug: kubernetes-services-networkpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-networkpolicy-api-openapi.yml
+- filename: kubernetes-services-services-api-openapi.yml
+  format: yaml
+  label: Kubernetes Services Services API
+  slug: kubernetes-services-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-services-api-openapi.yml
+- filename: kubernetes-services-servicestatus-api-openapi.yml
+  format: yaml
+  label: Kubernetes Services ServiceStatus API
+  slug: kubernetes-services-servicestatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-servicestatus-api-openapi.yml
 description: ''
 domains:
 - caa:

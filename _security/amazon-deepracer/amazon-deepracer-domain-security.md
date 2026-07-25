@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: amazon-deepracer-openapi.yml
+- filename: amazon-deepracer-cars-api-openapi.yml
   format: yaml
-  label: AWS DeepRacer API
-  slug: aws-deepracer-api
+  label: Amazon DeepRacer Cars API
+  slug: amazon-deepracer-cars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/openapi/amazon-deepracer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/openapi/amazon-deepracer-cars-api-openapi.yml
+- filename: amazon-deepracer-leaderboards-api-openapi.yml
+  format: yaml
+  label: Amazon DeepRacer Leaderboards API
+  slug: amazon-deepracer-leaderboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/openapi/amazon-deepracer-leaderboards-api-openapi.yml
+- filename: amazon-deepracer-models-api-openapi.yml
+  format: yaml
+  label: Amazon DeepRacer Models API
+  slug: amazon-deepracer-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/openapi/amazon-deepracer-models-api-openapi.yml
+- filename: amazon-deepracer-tracks-api-openapi.yml
+  format: yaml
+  label: Amazon DeepRacer Tracks API
+  slug: amazon-deepracer-tracks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/openapi/amazon-deepracer-tracks-api-openapi.yml
 description: ''
 domains:
 - caa: []

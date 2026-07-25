@@ -2,12 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: snappr-openapi.yml
+- filename: snappr-availability-api-openapi.yml
   format: yaml
-  label: Snappr API
-  slug: snappr-api
+  label: Snappr Availability API
+  slug: snappr-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-availability-api-openapi.yml
+- filename: snappr-bookings-api-openapi.yml
+  format: yaml
+  label: Snappr Bookings API
+  slug: snappr-bookings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-bookings-api-openapi.yml
+- filename: snappr-coverage-api-openapi.yml
+  format: yaml
+  label: Snappr Coverage API
+  slug: snappr-coverage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-coverage-api-openapi.yml
+- filename: snappr-editing-job-types-api-openapi.yml
+  format: yaml
+  label: Snappr Editing Job Types API
+  slug: snappr-editing-job-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-editing-job-types-api-openapi.yml
+- filename: snappr-editing-jobs-api-openapi.yml
+  format: yaml
+  label: Snappr Editing Jobs API
+  slug: snappr-editing-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-editing-jobs-api-openapi.yml
+- filename: snappr-images-api-openapi.yml
+  format: yaml
+  label: Snappr Images API
+  slug: snappr-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-images-api-openapi.yml
+- filename: snappr-presets-api-openapi.yml
+  format: yaml
+  label: Snappr Presets API
+  slug: snappr-presets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-presets-api-openapi.yml
+- filename: snappr-shoot-types-api-openapi.yml
+  format: yaml
+  label: Snappr Shoot Types API
+  slug: snappr-shoot-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-shoot-types-api-openapi.yml
+- filename: snappr-videos-api-openapi.yml
+  format: yaml
+  label: Snappr Videos API
+  slug: snappr-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-videos-api-openapi.yml
 auth_types:
 - http
 description: ''

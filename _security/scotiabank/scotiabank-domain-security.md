@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: scotiabank-tranxact-openapi.yml
+- filename: scotiabank-account-validation-api-openapi.yml
   format: yaml
-  label: Scotia TranXact APIs
-  slug: scotia-tranxact
+  label: Scotiabank Account Validation API
+  slug: scotiabank-account-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/openapi/scotiabank-tranxact-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/openapi/scotiabank-account-validation-api-openapi.yml
+- filename: scotiabank-accounts-api-openapi.yml
+  format: yaml
+  label: Scotiabank Accounts API
+  slug: scotiabank-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/openapi/scotiabank-accounts-api-openapi.yml
+- filename: scotiabank-eft-payments-api-openapi.yml
+  format: yaml
+  label: Scotiabank EFT Payments API
+  slug: scotiabank-eft-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/openapi/scotiabank-eft-payments-api-openapi.yml
+- filename: scotiabank-payment-tracking-api-openapi.yml
+  format: yaml
+  label: Scotiabank Payment Tracking API
+  slug: scotiabank-payment-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/openapi/scotiabank-payment-tracking-api-openapi.yml
+- filename: scotiabank-real-time-payments-api-openapi.yml
+  format: yaml
+  label: Scotiabank Real-Time Payments API
+  slug: scotiabank-real-time-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/openapi/scotiabank-real-time-payments-api-openapi.yml
+- filename: scotiabank-request-for-payment-api-openapi.yml
+  format: yaml
+  label: Scotiabank Request for Payment API
+  slug: scotiabank-request-for-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/openapi/scotiabank-request-for-payment-api-openapi.yml
+- filename: scotiabank-wire-payments-api-openapi.yml
+  format: yaml
+  label: Scotiabank Wire Payments API
+  slug: scotiabank-wire-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/openapi/scotiabank-wire-payments-api-openapi.yml
 description: ''
 domains:
 - caa: []

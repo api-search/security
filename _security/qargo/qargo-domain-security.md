@@ -1,11 +1,149 @@
 ---
 api_specs:
-- filename: qargo-tms-openapi-original.yml
+- filename: qargo-api-accounting-api-openapi.yml
   format: yaml
-  label: Qargo TMS API
-  slug: qargo-tms-api
+  label: Qargo API / Accounting API
+  slug: qargo-api-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-tms-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-api-accounting-api-openapi.yml
+- filename: qargo-api-authentication-api-openapi.yml
+  format: yaml
+  label: Qargo API / Authentication API
+  slug: qargo-api-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-api-authentication-api-openapi.yml
+- filename: qargo-api-company-api-openapi.yml
+  format: yaml
+  label: Qargo API / Company API
+  slug: qargo-api-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-api-company-api-openapi.yml
+- filename: qargo-api-document-api-openapi.yml
+  format: yaml
+  label: Qargo API / Document API
+  slug: qargo-api-document-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-api-document-api-openapi.yml
+- filename: qargo-api-order-api-openapi.yml
+  format: yaml
+  label: Qargo API / Order API
+  slug: qargo-api-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-api-order-api-openapi.yml
+- filename: qargo-api-resource-api-openapi.yml
+  format: yaml
+  label: Qargo API / Resource API
+  slug: qargo-api-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-api-resource-api-openapi.yml
+- filename: qargo-api-task-api-openapi.yml
+  format: yaml
+  label: Qargo API / Task API
+  slug: qargo-api-task-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-api-task-api-openapi.yml
+- filename: qargo-api-trip-api-openapi.yml
+  format: yaml
+  label: Qargo API / Trip API
+  slug: qargo-api-trip-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-api-trip-api-openapi.yml
+- filename: qargo-system-api-openapi.yml
+  format: yaml
+  label: Qargo System API
+  slug: qargo-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-system-api-openapi.yml
+- filename: qargo-use-case-accounting-api-openapi.yml
+  format: yaml
+  label: Qargo Use case / Accounting API
+  slug: qargo-use-case-accounting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-accounting-api-openapi.yml
+- filename: qargo-use-case-customer-portal-api-openapi.yml
+  format: yaml
+  label: Qargo Use case / Customer portal API
+  slug: qargo-use-case-customer-portal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-customer-portal-api-openapi.yml
+- filename: qargo-use-case-document-import-api-openapi.yml
+  format: yaml
+  label: Qargo Use case / Document import API
+  slug: qargo-use-case-document-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-document-import-api-openapi.yml
+- filename: qargo-use-case-e-invoicing-api-openapi.yml
+  format: yaml
+  label: Qargo Use case / E-invoicing API
+  slug: qargo-use-case-e-invoicing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-e-invoicing-api-openapi.yml
+- filename: qargo-use-case-fleet-dispatch-api-openapi.yml
+  format: yaml
+  label: Qargo Use case / Fleet dispatch API
+  slug: qargo-use-case-fleet-dispatch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-fleet-dispatch-api-openapi.yml
+- filename: qargo-use-case-intermodal-partner-api-openapi.yml
+  format: yaml
+  label: Qargo Use case / Intermodal [partner] API
+  slug: qargo-use-case-intermodal-partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-intermodal-partner-api-openapi.yml
+- filename: qargo-use-case-location-booking-api-openapi.yml
+  format: yaml
+  label: Qargo Use case / Location booking API
+  slug: qargo-use-case-location-booking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-location-booking-api-openapi.yml
+- filename: qargo-use-case-master-data-sync-api-openapi.yml
+  format: yaml
+  label: Qargo Use case / Master data sync API
+  slug: qargo-use-case-master-data-sync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-master-data-sync-api-openapi.yml
+- filename: qargo-use-case-order-api-openapi.yml
+  format: yaml
+  label: Qargo Use case / Order API
+  slug: qargo-use-case-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-order-api-openapi.yml
+- filename: qargo-use-case-subcontractor-dispatch-api-openapi.yml
+  format: yaml
+  label: Qargo Use case / Subcontractor dispatch API
+  slug: qargo-use-case-subcontractor-dispatch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-subcontractor-dispatch-api-openapi.yml
+- filename: qargo-use-case-tracking-api-openapi.yml
+  format: yaml
+  label: Qargo Use case / Tracking API
+  slug: qargo-use-case-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-tracking-api-openapi.yml
+- filename: qargo-use-case-trip-import-api-openapi.yml
+  format: yaml
+  label: Qargo Use case / Trip import API
+  slug: qargo-use-case-trip-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-trip-import-api-openapi.yml
+- filename: qargo-use-case-visibility-api-openapi.yml
+  format: yaml
+  label: Qargo Use case / Visibility API
+  slug: qargo-use-case-visibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-visibility-api-openapi.yml
+- filename: qargo-webhooks-inbound-api-openapi.yml
+  format: yaml
+  label: Qargo Webhooks / Inbound API
+  slug: qargo-webhooks-inbound-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-webhooks-inbound-api-openapi.yml
+- filename: qargo-webhooks-outbound-api-openapi.yml
+  format: yaml
+  label: Qargo Webhooks / Outbound API
+  slug: qargo-webhooks-outbound-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-webhooks-outbound-api-openapi.yml
 description: ''
 domains:
 - caa:

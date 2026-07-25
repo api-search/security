@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: digicert-openapi.yml
+- filename: digicert-account-api-openapi.yml
   format: yaml
-  label: DigiCert Services API
-  slug: digicert-services-api
+  label: Digicert Account API
+  slug: digicert-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digicert/refs/heads/main/openapi/digicert-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/digicert/refs/heads/main/openapi/digicert-account-api-openapi.yml
+- filename: digicert-domain-api-openapi.yml
+  format: yaml
+  label: Digicert Domain API
+  slug: digicert-domain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digicert/refs/heads/main/openapi/digicert-domain-api-openapi.yml
+- filename: digicert-order-api-openapi.yml
+  format: yaml
+  label: Digicert Order API
+  slug: digicert-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digicert/refs/heads/main/openapi/digicert-order-api-openapi.yml
+- filename: digicert-organization-api-openapi.yml
+  format: yaml
+  label: Digicert Organization API
+  slug: digicert-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digicert/refs/heads/main/openapi/digicert-organization-api-openapi.yml
+- filename: digicert-user-api-openapi.yml
+  format: yaml
+  label: Digicert User API
+  slug: digicert-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digicert/refs/heads/main/openapi/digicert-user-api-openapi.yml
 description: ''
 domains:
 - caa:

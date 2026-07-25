@@ -2,42 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: tithely-openapi.yml
-  format: yaml
-  label: Tithe.ly Transactions API
-  slug: tithely-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-openapi.yml
-- filename: tithely-openapi.yml
-  format: yaml
-  label: Tithe.ly Payments & Tokenization API
-  slug: tithely-payments-tokenization-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-openapi.yml
-- filename: tithely-openapi.yml
-  format: yaml
-  label: Tithe.ly Organizations API
-  slug: tithely-organizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-openapi.yml
-- filename: tithely-openapi.yml
-  format: yaml
-  label: Tithe.ly Payment Categories (Funds) API
-  slug: tithely-payment-categories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-openapi.yml
-- filename: tithely-openapi.yml
-  format: yaml
-  label: Tithe.ly Mail API
-  slug: tithely-mail-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-openapi.yml
-- filename: tithely-openapi.yml
+- filename: tithely-accounts-api-openapi.yml
   format: yaml
   label: Tithe.ly Accounts API
   slug: tithely-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-accounts-api-openapi.yml
+- filename: tithely-mail-api-openapi.yml
+  format: yaml
+  label: Tithe.ly Mail API
+  slug: tithely-mail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-mail-api-openapi.yml
+- filename: tithely-organizations-api-openapi.yml
+  format: yaml
+  label: Tithe.ly Organizations API
+  slug: tithely-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-organizations-api-openapi.yml
+- filename: tithely-payment-categories-api-openapi.yml
+  format: yaml
+  label: Tithe.ly Payment Categories API
+  slug: tithely-payment-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-payment-categories-api-openapi.yml
+- filename: tithely-payments-api-openapi.yml
+  format: yaml
+  label: Tithe.ly Payments API
+  slug: tithely-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-payments-api-openapi.yml
+- filename: tithely-transactions-api-openapi.yml
+  format: yaml
+  label: Tithe.ly Transactions API
+  slug: tithely-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-transactions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

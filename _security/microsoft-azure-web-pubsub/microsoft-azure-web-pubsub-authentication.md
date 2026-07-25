@@ -1,24 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: webpubsub.json
-  format: json
-  label: Azure Web PubSub Service REST API
-  slug: azure-web-pubsub-service-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/webpubsub/data-plane/WebPubSub/stable/2024-01-01/webpubsub.json
 - filename: microsoft-azure-web-pubsub-asyncapi.yml
   format: yaml
   label: Azure Web PubSub Client and Upstream Events
   slug: azure-web-pubsub-client-and-upstream-events
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-web-pubsub/main/asyncapi/microsoft-azure-web-pubsub-asyncapi.yml
-- filename: webpubsub.json
-  format: json
-  label: Azure Web PubSub Management REST API
-  slug: azure-web-pubsub-management-rest-api
+- filename: microsoft-azure-web-pubsub-clienttoken-api-openapi.yml
+  format: yaml
+  label: Azure Web PubSub ClientToken API
+  slug: microsoft-azure-web-pubsub-clienttoken-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/webpubsub/resource-manager/Microsoft.SignalRService/stable/2024-03-01/webpubsub.json
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-web-pubsub/refs/heads/main/openapi/microsoft-azure-web-pubsub-clienttoken-api-openapi.yml
+- filename: microsoft-azure-web-pubsub-hub-api-openapi.yml
+  format: yaml
+  label: Azure Web PubSub Hub API
+  slug: microsoft-azure-web-pubsub-hub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-web-pubsub/refs/heads/main/openapi/microsoft-azure-web-pubsub-hub-api-openapi.yml
+- filename: microsoft-azure-web-pubsub-permission-api-openapi.yml
+  format: yaml
+  label: Azure Web PubSub Permission API
+  slug: microsoft-azure-web-pubsub-permission-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-web-pubsub/refs/heads/main/openapi/microsoft-azure-web-pubsub-permission-api-openapi.yml
 auth_types:
 - http
 description: ''

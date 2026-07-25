@@ -2,12 +2,84 @@
 api_key_in:
 - header
 api_specs:
-- filename: augustus-openapi-original.yml
+- filename: augustus-account-programs-api-openapi.yml
   format: yaml
-  label: Augustus Banking API
-  slug: augustus-banking-api
+  label: Augustus Account Programs API
+  slug: augustus-account-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-account-programs-api-openapi.yml
+- filename: augustus-accounts-api-openapi.yml
+  format: yaml
+  label: Augustus Accounts API
+  slug: augustus-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-accounts-api-openapi.yml
+- filename: augustus-api-key-api-openapi.yml
+  format: yaml
+  label: Augustus API Key API
+  slug: augustus-api-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-api-key-api-openapi.yml
+- filename: augustus-api-versions-api-openapi.yml
+  format: yaml
+  label: Augustus API Versions API
+  slug: augustus-api-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-api-versions-api-openapi.yml
+- filename: augustus-conversions-api-openapi.yml
+  format: yaml
+  label: Augustus Conversions API
+  slug: augustus-conversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-conversions-api-openapi.yml
+- filename: augustus-deposits-api-openapi.yml
+  format: yaml
+  label: Augustus Deposits API
+  slug: augustus-deposits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-deposits-api-openapi.yml
+- filename: augustus-events-api-openapi.yml
+  format: yaml
+  label: Augustus Events API
+  slug: augustus-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-events-api-openapi.yml
+- filename: augustus-payouts-api-openapi.yml
+  format: yaml
+  label: Augustus Payouts API
+  slug: augustus-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-payouts-api-openapi.yml
+- filename: augustus-quotes-api-openapi.yml
+  format: yaml
+  label: Augustus Quotes API
+  slug: augustus-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-quotes-api-openapi.yml
+- filename: augustus-returns-api-openapi.yml
+  format: yaml
+  label: Augustus Returns API
+  slug: augustus-returns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-returns-api-openapi.yml
+- filename: augustus-scopes-api-openapi.yml
+  format: yaml
+  label: Augustus Scopes API
+  slug: augustus-scopes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-scopes-api-openapi.yml
+- filename: augustus-webhook-deliveries-api-openapi.yml
+  format: yaml
+  label: Augustus Webhook Deliveries API
+  slug: augustus-webhook-deliveries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-webhook-deliveries-api-openapi.yml
+- filename: augustus-webhook-subscriptions-api-openapi.yml
+  format: yaml
+  label: Augustus Webhook Subscriptions API
+  slug: augustus-webhook-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-webhook-subscriptions-api-openapi.yml
 auth_types:
 - http
 - apiKey

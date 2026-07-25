@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: rasgo-openapi.yml
+- filename: rasgo-metadata-api-openapi.yml
   format: yaml
-  label: Rasgo API
-  slug: rasgo-api
+  label: Rasgo Metadata API
+  slug: rasgo-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasgo/refs/heads/main/openapi/rasgo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rasgo/refs/heads/main/openapi/rasgo-metadata-api-openapi.yml
 description: ''
 domains:
 - caa: []

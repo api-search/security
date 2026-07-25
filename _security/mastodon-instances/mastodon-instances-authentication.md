@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: mastodon-instances-openapi.yml
+- filename: mastodon-instances-instances-api-openapi.yml
   format: yaml
-  label: Mastodon Instances API
-  slug: mastodon-instances
+  label: Mastodon Instances Instances API
+  slug: mastodon-instances-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastodon-instances/refs/heads/main/openapi/mastodon-instances-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mastodon-instances/refs/heads/main/openapi/mastodon-instances-instances-api-openapi.yml
+- filename: mastodon-instances-versions-api-openapi.yml
+  format: yaml
+  label: Mastodon Instances Versions API
+  slug: mastodon-instances-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mastodon-instances/refs/heads/main/openapi/mastodon-instances-versions-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: the-color-api-openapi.yml
+- filename: the-color-api-colors-api-openapi.yml
   format: yaml
-  label: The Color API
-  slug: the-color-api
+  label: The Color API Colors API
+  slug: the-color-api-colors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-color-api/refs/heads/main/openapi/the-color-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/the-color-api/refs/heads/main/openapi/the-color-api-colors-api-openapi.yml
+- filename: the-color-api-schemes-api-openapi.yml
+  format: yaml
+  label: The Color API Schemes API
+  slug: the-color-api-schemes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-color-api/refs/heads/main/openapi/the-color-api-schemes-api-openapi.yml
 description: ''
 domains:
 - caa: []

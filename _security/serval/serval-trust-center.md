@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: serval-auth-openapi.yml
+- filename: serval-auth-api-api-openapi.yml
   format: yaml
-  label: Serval Public API
-  slug: serval-public-api
+  label: Serval Auth API API
+  slug: serval-auth-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serval/refs/heads/main/openapi/serval-auth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/serval/refs/heads/main/openapi/serval-auth-api-api-openapi.yml
 certifications: []
 description: ''
 kind: trust-center

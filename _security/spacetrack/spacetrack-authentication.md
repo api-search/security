@@ -2,12 +2,48 @@
 api_key_in:
 - cookie
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Space-Track API
-  slug: space-track-api
+- filename: spacetrack-ancillary-api-openapi.yml
+  format: yaml
+  label: Space-Track Ancillary API
+  slug: spacetrack-ancillary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacetrack/refs/heads/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/spacetrack/refs/heads/main/openapi/spacetrack-ancillary-api-openapi.yml
+- filename: spacetrack-authentication-api-openapi.yml
+  format: yaml
+  label: Space-Track Authentication API
+  slug: spacetrack-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spacetrack/refs/heads/main/openapi/spacetrack-authentication-api-openapi.yml
+- filename: spacetrack-conjunction-data-api-openapi.yml
+  format: yaml
+  label: Space-Track Conjunction Data API
+  slug: spacetrack-conjunction-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spacetrack/refs/heads/main/openapi/spacetrack-conjunction-data-api-openapi.yml
+- filename: spacetrack-decay-predictions-api-openapi.yml
+  format: yaml
+  label: Space-Track Decay Predictions API
+  slug: spacetrack-decay-predictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spacetrack/refs/heads/main/openapi/spacetrack-decay-predictions-api-openapi.yml
+- filename: spacetrack-general-perturbations-api-openapi.yml
+  format: yaml
+  label: Space-Track General Perturbations API
+  slug: spacetrack-general-perturbations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spacetrack/refs/heads/main/openapi/spacetrack-general-perturbations-api-openapi.yml
+- filename: spacetrack-satellite-catalog-api-openapi.yml
+  format: yaml
+  label: Space-Track Satellite Catalog API
+  slug: spacetrack-satellite-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spacetrack/refs/heads/main/openapi/spacetrack-satellite-catalog-api-openapi.yml
+- filename: spacetrack-tracking-and-impact-prediction-api-openapi.yml
+  format: yaml
+  label: Space-Track Tracking and Impact Prediction API
+  slug: spacetrack-tracking-and-impact-prediction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spacetrack/refs/heads/main/openapi/spacetrack-tracking-and-impact-prediction-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

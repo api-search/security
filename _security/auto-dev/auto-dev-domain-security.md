@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: auto-dev-openapi.yml
-  format: yaml
-  label: Auto.dev VIN Decoding API
-  slug: vin-decoding
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auto-dev/refs/heads/main/openapi/auto-dev-openapi.yml
-- filename: auto-dev-openapi.yml
-  format: yaml
-  label: Auto.dev Listings / Search API
-  slug: listings-search
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auto-dev/refs/heads/main/openapi/auto-dev-openapi.yml
-- filename: auto-dev-openapi.yml
-  format: yaml
-  label: Auto.dev Market Value / Pricing API
-  slug: market-value-pricing
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auto-dev/refs/heads/main/openapi/auto-dev-openapi.yml
-- filename: auto-dev-openapi.yml
+- filename: auto-dev-dealers-api-openapi.yml
   format: yaml
   label: Auto.dev Dealers API
-  slug: dealers
+  slug: auto-dev-dealers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auto-dev/refs/heads/main/openapi/auto-dev-openapi.yml
-- filename: auto-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/auto-dev/refs/heads/main/openapi/auto-dev-dealers-api-openapi.yml
+- filename: auto-dev-listings-api-openapi.yml
+  format: yaml
+  label: Auto.dev Listings API
+  slug: auto-dev-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/auto-dev/refs/heads/main/openapi/auto-dev-listings-api-openapi.yml
+- filename: auto-dev-market-value-api-openapi.yml
+  format: yaml
+  label: Auto.dev Market Value API
+  slug: auto-dev-market-value-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/auto-dev/refs/heads/main/openapi/auto-dev-market-value-api-openapi.yml
+- filename: auto-dev-recalls-api-openapi.yml
   format: yaml
   label: Auto.dev Recalls API
-  slug: recalls
+  slug: auto-dev-recalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auto-dev/refs/heads/main/openapi/auto-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/auto-dev/refs/heads/main/openapi/auto-dev-recalls-api-openapi.yml
+- filename: auto-dev-vin-decoding-api-openapi.yml
+  format: yaml
+  label: Auto.dev VIN Decoding API
+  slug: auto-dev-vin-decoding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/auto-dev/refs/heads/main/openapi/auto-dev-vin-decoding-api-openapi.yml
 description: ''
 domains:
 - caa: []

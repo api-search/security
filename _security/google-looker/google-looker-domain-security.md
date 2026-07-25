@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: Looker.4.0.oas.json
-  format: json
-  label: Looker API
-  slug: looker-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/looker-open-source/sdk-codegen/main/spec/Looker.4.0.oas.json
-- filename: rest
+- filename: google-looker-authentication-api-openapi.yml
   format: yaml
-  label: Looker (Google Cloud core) API
-  slug: looker-google-cloud-core-api
+  label: Google Looker Authentication API
+  slug: google-looker-authentication-api
   spec_type: OpenAPI
-  url: https://looker.googleapis.com/$discovery/rest?version=v1
+  url: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/openapi/google-looker-authentication-api-openapi.yml
+- filename: google-looker-looks-api-openapi.yml
+  format: yaml
+  label: Google Looker Looks API
+  slug: google-looker-looks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/openapi/google-looker-looks-api-openapi.yml
+- filename: google-looker-users-api-openapi.yml
+  format: yaml
+  label: Google Looker Users API
+  slug: google-looker-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/openapi/google-looker-users-api-openapi.yml
 description: ''
 domains:
 - caa:

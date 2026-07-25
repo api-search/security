@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: singularitynet-marketplace-openapi.yml
+- filename: singularity-net-channels-api-openapi.yml
   format: yaml
-  label: SingularityNET Daemon API
-  slug: singularitynet-daemon-api
+  label: SingularityNET Channels API
+  slug: singularity-net-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singularity-net/refs/heads/main/openapi/singularitynet-marketplace-openapi.yml
-- filename: singularitynet-marketplace-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/singularity-net/refs/heads/main/openapi/singularity-net-channels-api-openapi.yml
+- filename: singularity-net-organizations-api-openapi.yml
   format: yaml
-  label: SingularityNET Marketplace API
-  slug: singularitynet-marketplace-api
+  label: SingularityNET Organizations API
+  slug: singularity-net-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singularity-net/refs/heads/main/openapi/singularitynet-marketplace-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/singularity-net/refs/heads/main/openapi/singularity-net-organizations-api-openapi.yml
+- filename: singularity-net-service-groups-api-openapi.yml
+  format: yaml
+  label: SingularityNET Service Groups API
+  slug: singularity-net-service-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/singularity-net/refs/heads/main/openapi/singularity-net-service-groups-api-openapi.yml
+- filename: singularity-net-services-api-openapi.yml
+  format: yaml
+  label: SingularityNET Services API
+  slug: singularity-net-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/singularity-net/refs/heads/main/openapi/singularity-net-services-api-openapi.yml
 description: ''
 domains:
 - caa:

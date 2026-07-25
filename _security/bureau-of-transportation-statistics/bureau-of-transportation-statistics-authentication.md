@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: bureau-of-transportation-statistics-openapi.yml
+- filename: bureau-of-transportation-statistics-metadata-api-openapi.yml
   format: yaml
-  label: BTS Open Data SODA API
-  slug: bts-open-data-soda-api
+  label: Bureau of Transportation Statistics Metadata API
+  slug: bureau-of-transportation-statistics-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-metadata-api-openapi.yml
+- filename: bureau-of-transportation-statistics-resource-api-openapi.yml
+  format: yaml
+  label: Bureau of Transportation Statistics Resource API
+  slug: bureau-of-transportation-statistics-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-resource-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: agromonitoring-openapi.yml
+- filename: agromonitoring-ndvi-history-api-openapi.yml
   format: yaml
-  label: Agromonitoring
-  slug: agromonitoring
+  label: Agromonitoring NDVI History API
+  slug: agromonitoring-ndvi-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/openapi/agromonitoring-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/openapi/agromonitoring-ndvi-history-api-openapi.yml
+- filename: agromonitoring-polygons-api-openapi.yml
+  format: yaml
+  label: Agromonitoring Polygons API
+  slug: agromonitoring-polygons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/openapi/agromonitoring-polygons-api-openapi.yml
+- filename: agromonitoring-satellite-imagery-api-openapi.yml
+  format: yaml
+  label: Agromonitoring Satellite Imagery API
+  slug: agromonitoring-satellite-imagery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/openapi/agromonitoring-satellite-imagery-api-openapi.yml
+- filename: agromonitoring-soil-api-openapi.yml
+  format: yaml
+  label: Agromonitoring Soil API
+  slug: agromonitoring-soil-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/openapi/agromonitoring-soil-api-openapi.yml
+- filename: agromonitoring-uv-index-api-openapi.yml
+  format: yaml
+  label: Agromonitoring UV Index API
+  slug: agromonitoring-uv-index-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/openapi/agromonitoring-uv-index-api-openapi.yml
+- filename: agromonitoring-weather-api-openapi.yml
+  format: yaml
+  label: Agromonitoring Weather API
+  slug: agromonitoring-weather-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/openapi/agromonitoring-weather-api-openapi.yml
 description: ''
 domains:
 - caa: []

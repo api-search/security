@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: inworld-tts-api-openapi.yml
-  format: yaml
-  label: Inworld TTS API
-  slug: inworld-tts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/openapi/inworld-tts-api-openapi.yml
-- filename: inworld-voice-api-openapi.yml
-  format: yaml
-  label: Inworld Voice API
-  slug: inworld-voice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/openapi/inworld-voice-api-openapi.yml
-- filename: inworld-stt-api-openapi.yml
-  format: yaml
-  label: Inworld STT API
-  slug: inworld-stt-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/openapi/inworld-stt-api-openapi.yml
-- filename: inworld-realtime-api-openapi.yml
-  format: yaml
-  label: Inworld Realtime API
-  slug: inworld-realtime-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/openapi/inworld-realtime-api-openapi.yml
 - filename: inworld-router-api-openapi.yml
   format: yaml
   label: Inworld LLM Router API
   slug: inworld-router-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/openapi/inworld-router-api-openapi.yml
-- filename: inworld-models-api-openapi.yml
+- filename: inworld-ai-models-api-openapi.yml
   format: yaml
-  label: Inworld Models API
-  slug: inworld-models-api
+  label: Inworld AI Models API
+  slug: inworld-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/openapi/inworld-models-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/openapi/inworld-ai-models-api-openapi.yml
+- filename: inworld-ai-realtime-api-openapi.yml
+  format: yaml
+  label: Inworld AI Realtime API
+  slug: inworld-ai-realtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/openapi/inworld-ai-realtime-api-openapi.yml
+- filename: inworld-ai-speech-to-text-api-openapi.yml
+  format: yaml
+  label: Inworld AI Speech To Text API
+  slug: inworld-ai-speech-to-text-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/openapi/inworld-ai-speech-to-text-api-openapi.yml
+- filename: inworld-ai-text-to-speech-api-openapi.yml
+  format: yaml
+  label: Inworld AI Text To Speech API
+  slug: inworld-ai-text-to-speech-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/openapi/inworld-ai-text-to-speech-api-openapi.yml
+- filename: inworld-ai-voices-api-openapi.yml
+  format: yaml
+  label: Inworld AI Voices API
+  slug: inworld-ai-voices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/openapi/inworld-ai-voices-api-openapi.yml
 certifications:
 - SOC 2
 - HIPAA

@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: goethena-openapi-original.yml
+- filename: goethena-learner-training-campaigns-api-openapi.yml
   format: yaml
-  label: Ethena API
-  slug: ethena-api
+  label: Goethena Learner Training Campaigns API
+  slug: goethena-learner-training-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goethena/refs/heads/main/openapi/goethena-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/goethena/refs/heads/main/openapi/goethena-learner-training-campaigns-api-openapi.yml
+- filename: goethena-learner-training-modules-api-openapi.yml
+  format: yaml
+  label: Goethena Learner Training Modules API
+  slug: goethena-learner-training-modules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goethena/refs/heads/main/openapi/goethena-learner-training-modules-api-openapi.yml
+- filename: goethena-learners-api-openapi.yml
+  format: yaml
+  label: Goethena Learners API
+  slug: goethena-learners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goethena/refs/heads/main/openapi/goethena-learners-api-openapi.yml
+- filename: goethena-training-campaigns-api-openapi.yml
+  format: yaml
+  label: Goethena Training Campaigns API
+  slug: goethena-training-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goethena/refs/heads/main/openapi/goethena-training-campaigns-api-openapi.yml
+- filename: goethena-webhooks-api-openapi.yml
+  format: yaml
+  label: Goethena Webhooks API
+  slug: goethena-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goethena/refs/heads/main/openapi/goethena-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

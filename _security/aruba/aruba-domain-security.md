@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: aruba-central-api.yml
+- filename: aruba-access-points-api-openapi.yml
   format: yaml
-  label: Aruba Central API
-  slug: aruba-central-api
+  label: Aruba Access Points API
+  slug: aruba-access-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/openapi/aruba-central-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/openapi/aruba-access-points-api-openapi.yml
+- filename: aruba-devices-api-openapi.yml
+  format: yaml
+  label: Aruba Devices API
+  slug: aruba-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/openapi/aruba-devices-api-openapi.yml
+- filename: aruba-groups-api-openapi.yml
+  format: yaml
+  label: Aruba Groups API
+  slug: aruba-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/openapi/aruba-groups-api-openapi.yml
+- filename: aruba-monitoring-api-openapi.yml
+  format: yaml
+  label: Aruba Monitoring API
+  slug: aruba-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/openapi/aruba-monitoring-api-openapi.yml
+- filename: aruba-sites-api-openapi.yml
+  format: yaml
+  label: Aruba Sites API
+  slug: aruba-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/openapi/aruba-sites-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,41 +1,65 @@
 ---
 api_specs:
-- filename: thanos-query-api.yml
+- filename: thanos-alerts-api-openapi.yml
+  format: yaml
+  label: Thanos Alerts API
+  slug: thanos-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-alerts-api-openapi.yml
+- filename: thanos-blocks-api-openapi.yml
+  format: yaml
+  label: Thanos Blocks API
+  slug: thanos-blocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-blocks-api-openapi.yml
+- filename: thanos-health-api-openapi.yml
+  format: yaml
+  label: Thanos Health API
+  slug: thanos-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-health-api-openapi.yml
+- filename: thanos-metadata-api-openapi.yml
+  format: yaml
+  label: Thanos Metadata API
+  slug: thanos-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-metadata-api-openapi.yml
+- filename: thanos-metrics-api-openapi.yml
+  format: yaml
+  label: Thanos Metrics API
+  slug: thanos-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-metrics-api-openapi.yml
+- filename: thanos-query-api-openapi.yml
   format: yaml
   label: Thanos Query API
   slug: thanos-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-query-api.yml
-- filename: thanos-store-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-query-api-openapi.yml
+- filename: thanos-remote-write-api-openapi.yml
   format: yaml
-  label: Thanos Store Gateway API
-  slug: thanos-store-gateway-api
+  label: Thanos Remote Write API
+  slug: thanos-remote-write-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-store-gateway-openapi.yml
-- filename: thanos-sidecar-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-remote-write-api-openapi.yml
+- filename: thanos-rules-api-openapi.yml
   format: yaml
-  label: Thanos Sidecar API
-  slug: thanos-sidecar-api
+  label: Thanos Rules API
+  slug: thanos-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-sidecar-openapi.yml
-- filename: thanos-ruler-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-rules-api-openapi.yml
+- filename: thanos-stores-api-openapi.yml
   format: yaml
-  label: Thanos Ruler API
-  slug: thanos-ruler-api
+  label: Thanos Stores API
+  slug: thanos-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-ruler-openapi.yml
-- filename: thanos-receive-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-stores-api-openapi.yml
+- filename: thanos-targets-api-openapi.yml
   format: yaml
-  label: Thanos Receive API
-  slug: thanos-receive-api
+  label: Thanos Targets API
+  slug: thanos-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-receive-openapi.yml
-- filename: thanos-compact-openapi.yml
-  format: yaml
-  label: Thanos Compact API
-  slug: thanos-compact-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-compact-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-targets-api-openapi.yml
 description: ''
 domains:
 - caa: []

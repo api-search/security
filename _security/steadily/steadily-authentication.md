@@ -3,24 +3,54 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: steadily-partner-openapi-original.json
-  format: json
-  label: Steadily Partner API
-  slug: steadily-partner-api
+- filename: steadily-account-api-openapi.yml
+  format: yaml
+  label: Steadily Account API
+  slug: steadily-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-partner-openapi-original.json
-- filename: steadily-estimate-api-openapi-original.json
-  format: json
-  label: Steadily Partner (Estimate) API
-  slug: steadily-partner-estimate-api
+  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-account-api-openapi.yml
+- filename: steadily-draft-quote-api-openapi.yml
+  format: yaml
+  label: Steadily Draft Quote API
+  slug: steadily-draft-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-estimate-api-openapi-original.json
-- filename: steadily-rater-quotes-openapi-original.json
-  format: json
-  label: Steadily Rater Quotes API
-  slug: steadily-rater-quotes-api
+  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-draft-quote-api-openapi.yml
+- filename: steadily-lead-referrals-api-openapi.yml
+  format: yaml
+  label: Steadily Lead Referrals API
+  slug: steadily-lead-referrals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-rater-quotes-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-lead-referrals-api-openapi.yml
+- filename: steadily-lender-api-openapi.yml
+  format: yaml
+  label: Steadily Lender API
+  slug: steadily-lender-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-lender-api-openapi.yml
+- filename: steadily-policy-api-openapi.yml
+  format: yaml
+  label: Steadily Policy API
+  slug: steadily-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-policy-api-openapi.yml
+- filename: steadily-quote-estimates-api-openapi.yml
+  format: yaml
+  label: Steadily Quote Estimates API
+  slug: steadily-quote-estimates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-quote-estimates-api-openapi.yml
+- filename: steadily-quote-offer-api-openapi.yml
+  format: yaml
+  label: Steadily Quote Offer API
+  slug: steadily-quote-offer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-quote-offer-api-openapi.yml
+- filename: steadily-reporting-api-openapi.yml
+  format: yaml
+  label: Steadily Reporting API
+  slug: steadily-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-reporting-api-openapi.yml
 auth_types:
 - apiKey
 - http

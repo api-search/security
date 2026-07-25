@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cipherowl-openapi.json
-  format: json
-  label: CipherOwl SRR API
-  slug: cipherowl-srr-api
+- filename: cipherowl-onchain-service-api-openapi.yml
+  format: yaml
+  label: CipherOwl Onchain Service API
+  slug: cipherowl-onchain-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/openapi/cipherowl-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/openapi/cipherowl-onchain-service-api-openapi.yml
+- filename: cipherowl-private-data-api-api-openapi.yml
+  format: yaml
+  label: CipherOwl Private Data API API
+  slug: cipherowl-private-data-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/openapi/cipherowl-private-data-api-api-openapi.yml
+- filename: cipherowl-srr-api-api-openapi.yml
+  format: yaml
+  label: CipherOwl SRR API API
+  slug: cipherowl-srr-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/openapi/cipherowl-srr-api-api-openapi.yml
 auth_types:
 - http
 description: ''

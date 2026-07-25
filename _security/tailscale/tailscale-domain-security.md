@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: v2
+- filename: tailscale-devices-api-openapi.yml
   format: yaml
-  label: Tailscale REST API
-  slug: rest-api
+  label: Tailscale Devices API
+  slug: tailscale-devices-api
   spec_type: OpenAPI
-  url: https://api.tailscale.com/api/v2
+  url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/openapi/tailscale-devices-api-openapi.yml
+- filename: tailscale-dns-api-openapi.yml
+  format: yaml
+  label: Tailscale DNS API
+  slug: tailscale-dns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/openapi/tailscale-dns-api-openapi.yml
+- filename: tailscale-invites-api-openapi.yml
+  format: yaml
+  label: Tailscale Invites API
+  slug: tailscale-invites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/openapi/tailscale-invites-api-openapi.yml
+- filename: tailscale-keys-api-openapi.yml
+  format: yaml
+  label: Tailscale Keys API
+  slug: tailscale-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/openapi/tailscale-keys-api-openapi.yml
+- filename: tailscale-logging-api-openapi.yml
+  format: yaml
+  label: Tailscale Logging API
+  slug: tailscale-logging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/openapi/tailscale-logging-api-openapi.yml
+- filename: tailscale-policy-api-openapi.yml
+  format: yaml
+  label: Tailscale Policy API
+  slug: tailscale-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/openapi/tailscale-policy-api-openapi.yml
+- filename: tailscale-tailnet-api-openapi.yml
+  format: yaml
+  label: Tailscale Tailnet API
+  slug: tailscale-tailnet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/openapi/tailscale-tailnet-api-openapi.yml
 description: ''
 domains:
 - caa:

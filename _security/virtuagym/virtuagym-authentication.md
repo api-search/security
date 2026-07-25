@@ -1,48 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: virtuagym-openapi.yml
-  format: yaml
-  label: Virtuagym Club Members API
-  slug: virtuagym-club-members-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtuagym/refs/heads/main/openapi/virtuagym-openapi.yml
-- filename: virtuagym-openapi.yml
-  format: yaml
-  label: Virtuagym Club Employees API
-  slug: virtuagym-club-employees-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtuagym/refs/heads/main/openapi/virtuagym-openapi.yml
-- filename: virtuagym-openapi.yml
-  format: yaml
-  label: Virtuagym Memberships API
-  slug: virtuagym-memberships-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtuagym/refs/heads/main/openapi/virtuagym-openapi.yml
-- filename: virtuagym-openapi.yml
+- filename: virtuagym-billing-api-openapi.yml
   format: yaml
   label: Virtuagym Billing API
   slug: virtuagym-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtuagym/refs/heads/main/openapi/virtuagym-openapi.yml
-- filename: virtuagym-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/virtuagym/refs/heads/main/openapi/virtuagym-billing-api-openapi.yml
+- filename: virtuagym-club-employees-api-openapi.yml
   format: yaml
-  label: Virtuagym Visits API
-  slug: virtuagym-visits-api
+  label: Virtuagym Club Employees API
+  slug: virtuagym-club-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtuagym/refs/heads/main/openapi/virtuagym-openapi.yml
-- filename: virtuagym-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/virtuagym/refs/heads/main/openapi/virtuagym-club-employees-api-openapi.yml
+- filename: virtuagym-club-members-api-openapi.yml
+  format: yaml
+  label: Virtuagym Club Members API
+  slug: virtuagym-club-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/virtuagym/refs/heads/main/openapi/virtuagym-club-members-api-openapi.yml
+- filename: virtuagym-coaching-api-openapi.yml
+  format: yaml
+  label: Virtuagym Coaching API
+  slug: virtuagym-coaching-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/virtuagym/refs/heads/main/openapi/virtuagym-coaching-api-openapi.yml
+- filename: virtuagym-events-api-openapi.yml
   format: yaml
   label: Virtuagym Events API
   slug: virtuagym-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtuagym/refs/heads/main/openapi/virtuagym-openapi.yml
-- filename: virtuagym-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/virtuagym/refs/heads/main/openapi/virtuagym-events-api-openapi.yml
+- filename: virtuagym-memberships-api-openapi.yml
   format: yaml
-  label: Virtuagym Coaching Workouts API
-  slug: virtuagym-coaching-workouts-api
+  label: Virtuagym Memberships API
+  slug: virtuagym-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtuagym/refs/heads/main/openapi/virtuagym-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/virtuagym/refs/heads/main/openapi/virtuagym-memberships-api-openapi.yml
+- filename: virtuagym-visits-api-openapi.yml
+  format: yaml
+  label: Virtuagym Visits API
+  slug: virtuagym-visits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/virtuagym/refs/heads/main/openapi/virtuagym-visits-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

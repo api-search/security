@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: hl7-fhir-r4-openapi.yml
+- filename: hl7-fhir-bundle-api-openapi.yml
   format: yaml
-  label: HL7 FHIR R4 Healthcare API
-  slug: hl7-fhir-r4-api
+  label: HL7 FHIR Bundle API
+  slug: hl7-fhir-bundle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-r4-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-bundle-api-openapi.yml
+- filename: hl7-fhir-condition-api-openapi.yml
+  format: yaml
+  label: HL7 FHIR Condition API
+  slug: hl7-fhir-condition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-condition-api-openapi.yml
+- filename: hl7-fhir-encounter-api-openapi.yml
+  format: yaml
+  label: HL7 FHIR Encounter API
+  slug: hl7-fhir-encounter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-encounter-api-openapi.yml
+- filename: hl7-fhir-medicationrequest-api-openapi.yml
+  format: yaml
+  label: HL7 FHIR MedicationRequest API
+  slug: hl7-fhir-medicationrequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-medicationrequest-api-openapi.yml
+- filename: hl7-fhir-observation-api-openapi.yml
+  format: yaml
+  label: HL7 FHIR Observation API
+  slug: hl7-fhir-observation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-observation-api-openapi.yml
+- filename: hl7-fhir-patient-api-openapi.yml
+  format: yaml
+  label: HL7 FHIR Patient API
+  slug: hl7-fhir-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-patient-api-openapi.yml
 description: ''
 domains:
 - caa:

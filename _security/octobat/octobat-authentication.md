@@ -1,60 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: octobat-openapi.yml
-  format: yaml
-  label: Octobat Invoices API
-  slug: octobat-invoices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-openapi.yml
-- filename: octobat-openapi.yml
-  format: yaml
-  label: Octobat Credit Notes API
-  slug: octobat-credit-notes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-openapi.yml
-- filename: octobat-openapi.yml
-  format: yaml
-  label: Octobat Transactions API
-  slug: octobat-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-openapi.yml
-- filename: octobat-openapi.yml
-  format: yaml
-  label: Octobat Customers API
-  slug: octobat-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-openapi.yml
-- filename: octobat-openapi.yml
-  format: yaml
-  label: Octobat Products API
-  slug: octobat-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-openapi.yml
-- filename: octobat-openapi.yml
-  format: yaml
-  label: Octobat Tax Evidence API
-  slug: octobat-tax-evidence-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-openapi.yml
-- filename: octobat-openapi.yml
+- filename: octobat-coupons-api-openapi.yml
   format: yaml
   label: Octobat Coupons API
   slug: octobat-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-openapi.yml
-- filename: octobat-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-coupons-api-openapi.yml
+- filename: octobat-credit-notes-api-openapi.yml
   format: yaml
-  label: Octobat Subscriptions API
-  slug: octobat-subscriptions-api
+  label: Octobat Credit Notes API
+  slug: octobat-credit-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-openapi.yml
-- filename: octobat-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-credit-notes-api-openapi.yml
+- filename: octobat-customers-api-openapi.yml
+  format: yaml
+  label: Octobat Customers API
+  slug: octobat-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-customers-api-openapi.yml
+- filename: octobat-invoices-api-openapi.yml
+  format: yaml
+  label: Octobat Invoices API
+  slug: octobat-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-invoices-api-openapi.yml
+- filename: octobat-payouts-api-openapi.yml
   format: yaml
   label: Octobat Payouts API
   slug: octobat-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-payouts-api-openapi.yml
+- filename: octobat-products-api-openapi.yml
+  format: yaml
+  label: Octobat Products API
+  slug: octobat-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-products-api-openapi.yml
+- filename: octobat-subscriptions-api-openapi.yml
+  format: yaml
+  label: Octobat Subscriptions API
+  slug: octobat-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-subscriptions-api-openapi.yml
+- filename: octobat-tax-evidence-api-openapi.yml
+  format: yaml
+  label: Octobat Tax Evidence API
+  slug: octobat-tax-evidence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-tax-evidence-api-openapi.yml
+- filename: octobat-transactions-api-openapi.yml
+  format: yaml
+  label: Octobat Transactions API
+  slug: octobat-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-transactions-api-openapi.yml
 auth_types:
 - http
 description: ''

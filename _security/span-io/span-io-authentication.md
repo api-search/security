@@ -1,18 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: span-rest-api-openapi.json
-  format: json
-  label: SPAN REST API
-  slug: span-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/openapi/span-rest-api-openapi.json
 - filename: span-ebus-asyncapi.yml
   format: yaml
   label: SPAN eBus MQTT API
   slug: span-ebus-mqtt-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/asyncapi/span-ebus-asyncapi.yml
+- filename: span-io-auth-api-openapi.yml
+  format: yaml
+  label: SPAN Auth API
+  slug: span-io-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/openapi/span-io-auth-api-openapi.yml
+- filename: span-io-circuits-api-openapi.yml
+  format: yaml
+  label: SPAN Circuits API
+  slug: span-io-circuits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/openapi/span-io-circuits-api-openapi.yml
+- filename: span-io-islanding-state-api-openapi.yml
+  format: yaml
+  label: SPAN Islanding State API
+  slug: span-io-islanding-state-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/openapi/span-io-islanding-state-api-openapi.yml
+- filename: span-io-panel-api-openapi.yml
+  format: yaml
+  label: SPAN Panel API
+  slug: span-io-panel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/openapi/span-io-panel-api-openapi.yml
+- filename: span-io-spaces-api-openapi.yml
+  format: yaml
+  label: SPAN Spaces API
+  slug: span-io-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/openapi/span-io-spaces-api-openapi.yml
+- filename: span-io-status-api-openapi.yml
+  format: yaml
+  label: SPAN Status API
+  slug: span-io-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/openapi/span-io-status-api-openapi.yml
+- filename: span-io-storage-api-openapi.yml
+  format: yaml
+  label: SPAN Storage API
+  slug: span-io-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/openapi/span-io-storage-api-openapi.yml
+- filename: span-io-wifi-api-openapi.yml
+  format: yaml
+  label: SPAN Wifi API
+  slug: span-io-wifi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/openapi/span-io-wifi-api-openapi.yml
 auth_types:
 - http
 description: ''

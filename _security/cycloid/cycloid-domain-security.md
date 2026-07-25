@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: cycloid-api-openapi.yml
+- filename: cycloid-cloudcost-api-openapi.yml
   format: yaml
-  label: Cycloid HTTP API
-  slug: http-api
+  label: Cycloid CloudCost API
+  slug: cycloid-cloudcost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-cloudcost-api-openapi.yml
+- filename: cycloid-configrepositories-api-openapi.yml
+  format: yaml
+  label: Cycloid ConfigRepositories API
+  slug: cycloid-configrepositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-configrepositories-api-openapi.yml
+- filename: cycloid-credentials-api-openapi.yml
+  format: yaml
+  label: Cycloid Credentials API
+  slug: cycloid-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-credentials-api-openapi.yml
+- filename: cycloid-inventory-api-openapi.yml
+  format: yaml
+  label: Cycloid Inventory API
+  slug: cycloid-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-inventory-api-openapi.yml
+- filename: cycloid-organizations-api-openapi.yml
+  format: yaml
+  label: Cycloid Organizations API
+  slug: cycloid-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-organizations-api-openapi.yml
+- filename: cycloid-pipelines-api-openapi.yml
+  format: yaml
+  label: Cycloid Pipelines API
+  slug: cycloid-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-pipelines-api-openapi.yml
+- filename: cycloid-projects-api-openapi.yml
+  format: yaml
+  label: Cycloid Projects API
+  slug: cycloid-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-projects-api-openapi.yml
+- filename: cycloid-servicecatalogs-api-openapi.yml
+  format: yaml
+  label: Cycloid ServiceCatalogs API
+  slug: cycloid-servicecatalogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-servicecatalogs-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: fixer-openapi.yml
+- filename: fixer-conversion-api-openapi.yml
   format: yaml
-  label: Fixer API
-  slug: fixer-api
+  label: Fixer Conversion API
+  slug: fixer-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/openapi/fixer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/openapi/fixer-conversion-api-openapi.yml
+- filename: fixer-fluctuation-api-openapi.yml
+  format: yaml
+  label: Fixer Fluctuation API
+  slug: fixer-fluctuation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/openapi/fixer-fluctuation-api-openapi.yml
+- filename: fixer-rates-api-openapi.yml
+  format: yaml
+  label: Fixer Rates API
+  slug: fixer-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/openapi/fixer-rates-api-openapi.yml
+- filename: fixer-symbols-api-openapi.yml
+  format: yaml
+  label: Fixer Symbols API
+  slug: fixer-symbols-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/openapi/fixer-symbols-api-openapi.yml
+- filename: fixer-time-series-api-openapi.yml
+  format: yaml
+  label: Fixer Time Series API
+  slug: fixer-time-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/openapi/fixer-time-series-api-openapi.yml
 description: ''
 domains:
 - caa: []

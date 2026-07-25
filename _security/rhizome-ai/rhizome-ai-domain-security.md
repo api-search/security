@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: rhizome-ai-openapi.yml
+- filename: rhizome-ai-documents-api-openapi.yml
   format: yaml
-  label: Rhizome AI API
-  slug: rhizome-ai-api
+  label: Rhizome Ai Documents API
+  slug: rhizome-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhizome-ai/refs/heads/main/openapi/rhizome-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rhizome-ai/refs/heads/main/openapi/rhizome-ai-documents-api-openapi.yml
 description: ''
 domains:
 - caa:

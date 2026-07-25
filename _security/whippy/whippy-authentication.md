@@ -2,48 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: whippy-openapi.yml
-  format: yaml
-  label: Whippy Messaging API
-  slug: messaging
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/openapi/whippy-openapi.yml
-- filename: whippy-openapi.yml
-  format: yaml
-  label: Whippy Contacts API
-  slug: contacts
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/openapi/whippy-openapi.yml
-- filename: whippy-openapi.yml
-  format: yaml
-  label: Whippy Conversations API
-  slug: conversations
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/openapi/whippy-openapi.yml
-- filename: whippy-openapi.yml
+- filename: whippy-campaigns-api-openapi.yml
   format: yaml
   label: Whippy Campaigns API
-  slug: campaigns
+  slug: whippy-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/openapi/whippy-openapi.yml
-- filename: whippy-openapi.yml
-  format: yaml
-  label: Whippy Sequences API
-  slug: sequences
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/openapi/whippy-openapi.yml
-- filename: whippy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/openapi/whippy-campaigns-api-openapi.yml
+- filename: whippy-channels-api-openapi.yml
   format: yaml
   label: Whippy Channels API
-  slug: channels
+  slug: whippy-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/openapi/whippy-openapi.yml
-- filename: whippy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/openapi/whippy-channels-api-openapi.yml
+- filename: whippy-contacts-api-openapi.yml
+  format: yaml
+  label: Whippy Contacts API
+  slug: whippy-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/openapi/whippy-contacts-api-openapi.yml
+- filename: whippy-conversations-api-openapi.yml
+  format: yaml
+  label: Whippy Conversations API
+  slug: whippy-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/openapi/whippy-conversations-api-openapi.yml
+- filename: whippy-messaging-api-openapi.yml
+  format: yaml
+  label: Whippy Messaging API
+  slug: whippy-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/openapi/whippy-messaging-api-openapi.yml
+- filename: whippy-sequences-api-openapi.yml
+  format: yaml
+  label: Whippy Sequences API
+  slug: whippy-sequences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/openapi/whippy-sequences-api-openapi.yml
+- filename: whippy-webhooks-api-openapi.yml
   format: yaml
   label: Whippy Webhooks API
-  slug: webhooks
+  slug: whippy-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/openapi/whippy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/openapi/whippy-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

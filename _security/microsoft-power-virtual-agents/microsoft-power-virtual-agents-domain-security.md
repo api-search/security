@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: microsoft-power-virtual-agents-conversations-api-openapi.yml
+  format: yaml
+  label: Microsoft Power Virtual Agents Conversations API
+  slug: microsoft-power-virtual-agents-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-virtual-agents/refs/heads/main/openapi/microsoft-power-virtual-agents-conversations-api-openapi.yml
+- filename: microsoft-power-virtual-agents-tokens-api-openapi.yml
+  format: yaml
+  label: Microsoft Power Virtual Agents Tokens API
+  slug: microsoft-power-virtual-agents-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-virtual-agents/refs/heads/main/openapi/microsoft-power-virtual-agents-tokens-api-openapi.yml
 description: ''
 domains:
 - caa:

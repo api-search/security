@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: xerox-public-print-openapi.yml
+- filename: xerox-eula-api-openapi.yml
   format: yaml
-  label: Xerox Public Print API
-  slug: xerox-public-print-api
+  label: Xerox EULA API
+  slug: xerox-eula-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-public-print-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-eula-api-openapi.yml
+- filename: xerox-jobs-api-openapi.yml
+  format: yaml
+  label: Xerox Jobs API
+  slug: xerox-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-jobs-api-openapi.yml
+- filename: xerox-provider-types-api-openapi.yml
+  format: yaml
+  label: Xerox Provider Types API
+  slug: xerox-provider-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-provider-types-api-openapi.yml
+- filename: xerox-providers-api-openapi.yml
+  format: yaml
+  label: Xerox Providers API
+  slug: xerox-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-providers-api-openapi.yml
+- filename: xerox-sites-api-openapi.yml
+  format: yaml
+  label: Xerox Sites API
+  slug: xerox-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-sites-api-openapi.yml
+- filename: xerox-status-api-openapi.yml
+  format: yaml
+  label: Xerox Status API
+  slug: xerox-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: chucknorris-io-openapi.yml
+- filename: chucknorris-io-categories-api-openapi.yml
   format: yaml
-  label: Chuck Norris Jokes API
-  slug: chuck-norris-jokes-api
+  label: chucknorris.io Categories API
+  slug: chucknorris-io-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chucknorris-io/refs/heads/main/openapi/chucknorris-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chucknorris-io/refs/heads/main/openapi/chucknorris-io-categories-api-openapi.yml
+- filename: chucknorris-io-jokes-api-openapi.yml
+  format: yaml
+  label: chucknorris.io Jokes API
+  slug: chucknorris-io-jokes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chucknorris-io/refs/heads/main/openapi/chucknorris-io-jokes-api-openapi.yml
+- filename: chucknorris-io-search-api-openapi.yml
+  format: yaml
+  label: chucknorris.io Search API
+  slug: chucknorris-io-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chucknorris-io/refs/heads/main/openapi/chucknorris-io-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

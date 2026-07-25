@@ -1,36 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: regional-australia-bank-cds-banking-products-openapi.yml
+- filename: regional-australia-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Regional Australia Bank CDR Product Reference Data API
-  slug: regional-australia-bank-cdr-product-reference-data-api
+  label: Regional Australia Bank Banking Account Balances API
+  slug: regional-australia-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-cds-banking-products-openapi.yml
-- filename: regional-australia-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-banking-account-balances-api-openapi.yml
+- filename: regional-australia-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Regional Australia Bank CDR Accounts & Balances API
-  slug: regional-australia-bank-cdr-accounts-balances-api
+  label: Regional Australia Bank Banking Account Direct Debits API
+  slug: regional-australia-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-cds-banking-products-openapi.yml
-- filename: regional-australia-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-banking-account-direct-debits-api-openapi.yml
+- filename: regional-australia-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Regional Australia Bank CDR Transactions API
-  slug: regional-australia-bank-cdr-transactions-api
+  label: Regional Australia Bank Banking Account Scheduled Payments API
+  slug: regional-australia-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-cds-banking-products-openapi.yml
-- filename: regional-australia-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: regional-australia-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Regional Australia Bank CDR Direct Debits & Scheduled Payments API
-  slug: regional-australia-bank-cdr-direct-debits-scheduled-payments-api
+  label: Regional Australia Bank Banking Account Transactions API
+  slug: regional-australia-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-cds-banking-products-openapi.yml
-- filename: regional-australia-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-banking-account-transactions-api-openapi.yml
+- filename: regional-australia-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: Regional Australia Bank CDR Payees API
-  slug: regional-australia-bank-cdr-payees-api
+  label: Regional Australia Bank Banking Accounts API
+  slug: regional-australia-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-banking-accounts-api-openapi.yml
+- filename: regional-australia-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: Regional Australia Bank Banking Payees API
+  slug: regional-australia-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-banking-payees-api-openapi.yml
+- filename: regional-australia-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: Regional Australia Bank Banking Products API
+  slug: regional-australia-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2

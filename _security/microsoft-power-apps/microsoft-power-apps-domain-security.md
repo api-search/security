@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: microsoft-power-apps-accounts-api-openapi.yml
   format: yaml
-  label: Power Apps API
-  slug: power-apps-api
+  label: Microsoft Power Apps Accounts API
+  slug: microsoft-power-apps-accounts-api
   spec_type: OpenAPI
-  url: https://docs.microsoft.com/en-us/connectors/powerappsforappmakers/
-- filename: openapi
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/openapi/microsoft-power-apps-accounts-api-openapi.yml
+- filename: microsoft-power-apps-contacts-api-openapi.yml
   format: yaml
-  label: Dataverse API (Common Data Service)
-  slug: dataverse-api-common-data-service
+  label: Microsoft Power Apps Contacts API
+  slug: microsoft-power-apps-contacts-api
   spec_type: OpenAPI
-  url: https://docs.microsoft.com/en-us/power-apps/developer/data-platform/webapi/openapi
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/openapi/microsoft-power-apps-contacts-api-openapi.yml
+- filename: microsoft-power-apps-entities-api-openapi.yml
+  format: yaml
+  label: Microsoft Power Apps Entities API
+  slug: microsoft-power-apps-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/openapi/microsoft-power-apps-entities-api-openapi.yml
 description: ''
 domains:
 - caa:

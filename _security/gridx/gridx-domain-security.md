@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: gridx-openapi.yml
+- filename: gridx-authentication-api-openapi.yml
   format: yaml
-  label: GridX Rate Engine API
-  slug: gridx-rate-engine-api
+  label: GridX Authentication API
+  slug: gridx-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/openapi/gridx-openapi.yml
-- filename: gridx-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/openapi/gridx-authentication-api-openapi.yml
+- filename: gridx-customer-api-openapi.yml
   format: yaml
-  label: GridX Bill Calculation API
-  slug: gridx-bill-calculation-api
+  label: GridX Customer API
+  slug: gridx-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/openapi/gridx-openapi.yml
-- filename: gridx-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/openapi/gridx-customer-api-openapi.yml
+- filename: gridx-openadr-api-openapi.yml
   format: yaml
-  label: GridX Rate Analytics API
-  slug: gridx-rate-analytics-api
+  label: GridX OpenADR API
+  slug: gridx-openadr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/openapi/gridx-openapi.yml
-- filename: gridx-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/openapi/gridx-openadr-api-openapi.yml
+- filename: gridx-pricing-api-openapi.yml
   format: yaml
-  label: GridX OpenADR Programs API
-  slug: gridx-openadr-programs-api
+  label: GridX Pricing API
+  slug: gridx-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/openapi/gridx-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/openapi/gridx-pricing-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: timezonedb-conversion-api-openapi.yml
   format: yaml
-  label: TimezoneDB API
-  slug: timezonedb-api
+  label: TimezoneDB Conversion API
+  slug: timezonedb-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timezonedb/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/timezonedb/refs/heads/main/openapi/timezonedb-conversion-api-openapi.yml
+- filename: timezonedb-timezones-api-openapi.yml
+  format: yaml
+  label: TimezoneDB Timezones API
+  slug: timezonedb-timezones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/timezonedb/refs/heads/main/openapi/timezonedb-timezones-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,36 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: loyaltylion-openapi.yml
-  format: yaml
-  label: LoyaltyLion Customers API
-  slug: loyaltylion-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-openapi.yml
-- filename: loyaltylion-openapi.yml
+- filename: loyaltylion-activities-api-openapi.yml
   format: yaml
   label: LoyaltyLion Activities API
   slug: loyaltylion-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-openapi.yml
-- filename: loyaltylion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-activities-api-openapi.yml
+- filename: loyaltylion-customers-api-openapi.yml
+  format: yaml
+  label: LoyaltyLion Customers API
+  slug: loyaltylion-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-customers-api-openapi.yml
+- filename: loyaltylion-points-api-openapi.yml
   format: yaml
   label: LoyaltyLion Points API
   slug: loyaltylion-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-openapi.yml
-- filename: loyaltylion-openapi.yml
-  format: yaml
-  label: LoyaltyLion Rewards API
-  slug: loyaltylion-rewards-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-openapi.yml
-- filename: loyaltylion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-points-api-openapi.yml
+- filename: loyaltylion-redemptions-api-openapi.yml
   format: yaml
   label: LoyaltyLion Redemptions API
   slug: loyaltylion-redemptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-redemptions-api-openapi.yml
+- filename: loyaltylion-rewards-api-openapi.yml
+  format: yaml
+  label: LoyaltyLion Rewards API
+  slug: loyaltylion-rewards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-rewards-api-openapi.yml
+- filename: loyaltylion-utility-api-openapi.yml
+  format: yaml
+  label: LoyaltyLion Utility API
+  slug: loyaltylion-utility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-utility-api-openapi.yml
 auth_types:
 - http
 description: ''

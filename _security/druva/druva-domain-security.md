@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: druva-accounts-api-openapi.yml
+  format: yaml
+  label: Druva Accounts API
+  slug: druva-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/druva/refs/heads/main/openapi/druva-accounts-api-openapi.yml
+- filename: druva-authentication-api-openapi.yml
+  format: yaml
+  label: Druva Authentication API
+  slug: druva-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/druva/refs/heads/main/openapi/druva-authentication-api-openapi.yml
+- filename: druva-backups-api-openapi.yml
+  format: yaml
+  label: Druva Backups API
+  slug: druva-backups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/druva/refs/heads/main/openapi/druva-backups-api-openapi.yml
+- filename: druva-cyber-resilience-api-openapi.yml
+  format: yaml
+  label: Druva Cyber Resilience API
+  slug: druva-cyber-resilience-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/druva/refs/heads/main/openapi/druva-cyber-resilience-api-openapi.yml
+- filename: druva-policies-api-openapi.yml
+  format: yaml
+  label: Druva Policies API
+  slug: druva-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/druva/refs/heads/main/openapi/druva-policies-api-openapi.yml
+- filename: druva-reports-api-openapi.yml
+  format: yaml
+  label: Druva Reports API
+  slug: druva-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/druva/refs/heads/main/openapi/druva-reports-api-openapi.yml
+- filename: druva-schedules-api-openapi.yml
+  format: yaml
+  label: Druva Schedules API
+  slug: druva-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/druva/refs/heads/main/openapi/druva-schedules-api-openapi.yml
+- filename: druva-servers-api-openapi.yml
+  format: yaml
+  label: Druva Servers API
+  slug: druva-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/druva/refs/heads/main/openapi/druva-servers-api-openapi.yml
 description: ''
 domains:
 - caa:

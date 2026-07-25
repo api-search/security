@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: work-market-employer-api-openapi.yml
+- filename: work-market-addressbook-api-openapi.yml
   format: yaml
-  label: WorkMarket Employer API
-  slug: workmarket-employer-api
+  label: Work Market Addressbook API
+  slug: work-market-addressbook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-employer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-addressbook-api-openapi.yml
+- filename: work-market-assignments-api-openapi.yml
+  format: yaml
+  label: Work Market Assignments API
+  slug: work-market-assignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-assignments-api-openapi.yml
+- filename: work-market-authorization-api-openapi.yml
+  format: yaml
+  label: Work Market Authorization API
+  slug: work-market-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-authorization-api-openapi.yml
+- filename: work-market-constants-api-openapi.yml
+  format: yaml
+  label: Work Market Constants API
+  slug: work-market-constants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-constants-api-openapi.yml
+- filename: work-market-custom-fields-api-openapi.yml
+  format: yaml
+  label: Work Market Custom Fields API
+  slug: work-market-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-custom-fields-api-openapi.yml
+- filename: work-market-labels-api-openapi.yml
+  format: yaml
+  label: Work Market Labels API
+  slug: work-market-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-labels-api-openapi.yml
+- filename: work-market-locations-api-openapi.yml
+  format: yaml
+  label: Work Market Locations API
+  slug: work-market-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-locations-api-openapi.yml
+- filename: work-market-projects-api-openapi.yml
+  format: yaml
+  label: Work Market Projects API
+  slug: work-market-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-projects-api-openapi.yml
+- filename: work-market-talent-pools-api-openapi.yml
+  format: yaml
+  label: Work Market Talent Pools API
+  slug: work-market-talent-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-talent-pools-api-openapi.yml
+- filename: work-market-updatecheckin-api-openapi.yml
+  format: yaml
+  label: Work Market UpdateCheckIn API
+  slug: work-market-updatecheckin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-updatecheckin-api-openapi.yml
 description: ''
 domains:
 - caa:

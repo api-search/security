@@ -2,36 +2,36 @@
 api_key_in:
 - query
 api_specs:
-- filename: vincario-openapi.yml
+- filename: vincario-account-api-openapi.yml
   format: yaml
-  label: Vincario VIN Decode API
-  slug: vin-decode-api
+  label: Vincario Account API
+  slug: vincario-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-openapi.yml
-- filename: vincario-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-account-api-openapi.yml
+- filename: vincario-decode-api-openapi.yml
   format: yaml
-  label: Vincario Vehicle Market Value API
-  slug: market-value-api
+  label: Vincario Decode API
+  slug: vincario-decode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-openapi.yml
-- filename: vincario-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-decode-api-openapi.yml
+- filename: vincario-market-value-api-openapi.yml
+  format: yaml
+  label: Vincario Market Value API
+  slug: vincario-market-value-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-market-value-api-openapi.yml
+- filename: vincario-stolen-check-api-openapi.yml
   format: yaml
   label: Vincario Stolen Check API
-  slug: stolen-check-api
+  slug: vincario-stolen-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-openapi.yml
-- filename: vincario-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-stolen-check-api-openapi.yml
+- filename: vincario-vehicle-info-api-openapi.yml
   format: yaml
   label: Vincario Vehicle Info API
-  slug: vehicle-info-api
+  slug: vincario-vehicle-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-openapi.yml
-- filename: vincario-openapi.yml
-  format: yaml
-  label: Vincario Account Balance API
-  slug: account-balance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-vehicle-info-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

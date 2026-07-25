@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: permutive-openapi.yml
+- filename: permutive-cohorts-api-openapi.yml
   format: yaml
-  label: Permutive API
-  slug: permutive-api
+  label: Permutive Cohorts API
+  slug: permutive-cohorts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-cohorts-api-openapi.yml
+- filename: permutive-contextual-api-openapi.yml
+  format: yaml
+  label: Permutive Contextual API
+  slug: permutive-contextual-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-contextual-api-openapi.yml
+- filename: permutive-events-api-openapi.yml
+  format: yaml
+  label: Permutive Events API
+  slug: permutive-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-events-api-openapi.yml
+- filename: permutive-identity-api-openapi.yml
+  format: yaml
+  label: Permutive Identity API
+  slug: permutive-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-identity-api-openapi.yml
+- filename: permutive-segmentation-api-openapi.yml
+  format: yaml
+  label: Permutive Segmentation API
+  slug: permutive-segmentation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-segmentation-api-openapi.yml
+- filename: permutive-taxonomy-api-openapi.yml
+  format: yaml
+  label: Permutive Taxonomy API
+  slug: permutive-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-taxonomy-api-openapi.yml
 certifications: []
 description: ''
 kind: trust-center

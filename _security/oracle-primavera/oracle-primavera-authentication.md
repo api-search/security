@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: oracle-primavera-p6-eppm-openapi.yml
+- filename: oracle-primavera-activities-api-openapi.yml
   format: yaml
-  label: Oracle Primavera P6 EPPM REST API
-  slug: oracle-primavera-p6-eppm-rest-api
+  label: Oracle Primavera Activities API
+  slug: oracle-primavera-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-p6-eppm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-activities-api-openapi.yml
+- filename: oracle-primavera-baselines-api-openapi.yml
+  format: yaml
+  label: Oracle Primavera Baselines API
+  slug: oracle-primavera-baselines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-baselines-api-openapi.yml
+- filename: oracle-primavera-projects-api-openapi.yml
+  format: yaml
+  label: Oracle Primavera Projects API
+  slug: oracle-primavera-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-projects-api-openapi.yml
+- filename: oracle-primavera-resourceassignments-api-openapi.yml
+  format: yaml
+  label: Oracle Primavera ResourceAssignments API
+  slug: oracle-primavera-resourceassignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-resourceassignments-api-openapi.yml
+- filename: oracle-primavera-resources-api-openapi.yml
+  format: yaml
+  label: Oracle Primavera Resources API
+  slug: oracle-primavera-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-resources-api-openapi.yml
+- filename: oracle-primavera-wbs-api-openapi.yml
+  format: yaml
+  label: Oracle Primavera WBS API
+  slug: oracle-primavera-wbs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-wbs-api-openapi.yml
 auth_types:
 - http
 - oauth2

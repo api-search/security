@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: medplum-openapi-original.yml
+- filename: medplum-fhir-api-openapi.yml
   format: yaml
-  label: Medplum FHIR REST API
-  slug: medplum-fhir-rest-api
+  label: Medplum Fhir API
+  slug: medplum-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/openapi/medplum-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/openapi/medplum-fhir-api-openapi.yml
 auth_types:
 - http
 - openIdConnect

@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: llms.txt
+- filename: inkit-batches-api-openapi.yml
   format: yaml
-  label: Inkit Document Generation API
-  slug: inkit-document-generation-api
+  label: Inkit Batches API
+  slug: inkit-batches-api
   spec_type: OpenAPI
-  url: https://docs.inkit.com/llms.txt
+  url: https://raw.githubusercontent.com/api-evangelist/inkit/refs/heads/main/openapi/inkit-batches-api-openapi.yml
+- filename: inkit-documents-api-openapi.yml
+  format: yaml
+  label: Inkit Documents API
+  slug: inkit-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inkit/refs/heads/main/openapi/inkit-documents-api-openapi.yml
+- filename: inkit-folders-api-openapi.yml
+  format: yaml
+  label: Inkit Folders API
+  slug: inkit-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inkit/refs/heads/main/openapi/inkit-folders-api-openapi.yml
+- filename: inkit-renders-api-openapi.yml
+  format: yaml
+  label: Inkit Renders API
+  slug: inkit-renders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inkit/refs/heads/main/openapi/inkit-renders-api-openapi.yml
+- filename: inkit-templates-api-openapi.yml
+  format: yaml
+  label: Inkit Templates API
+  slug: inkit-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inkit/refs/heads/main/openapi/inkit-templates-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

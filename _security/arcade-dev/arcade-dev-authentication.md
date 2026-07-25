@@ -2,60 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: arcade-tools-api-openapi.yml
+- filename: arcade-dev-admin-api-openapi.yml
   format: yaml
-  label: Arcade Tools API
-  slug: arcade-tools-api
+  label: arcade-dev Admin API
+  slug: arcade-dev-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-tools-api-openapi.yml
-- filename: arcade-auth-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-dev-admin-api-openapi.yml
+- filename: arcade-dev-authorization-api-openapi.yml
   format: yaml
-  label: Arcade Authorization API
-  slug: arcade-auth-api
+  label: arcade-dev Authorization API
+  slug: arcade-dev-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-auth-api-openapi.yml
-- filename: arcade-llm-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-dev-authorization-api-openapi.yml
+- filename: arcade-dev-gateways-api-openapi.yml
   format: yaml
-  label: Arcade LLM API
-  slug: arcade-llm-api
+  label: arcade-dev Gateways API
+  slug: arcade-dev-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-llm-api-openapi.yml
-- filename: arcade-workers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-dev-gateways-api-openapi.yml
+- filename: arcade-dev-hooks-api-openapi.yml
   format: yaml
-  label: Arcade Workers API
-  slug: arcade-workers-api
+  label: arcade-dev Hooks API
+  slug: arcade-dev-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-workers-api-openapi.yml
-- filename: arcade-gateways-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-dev-hooks-api-openapi.yml
+- filename: arcade-dev-llm-api-openapi.yml
   format: yaml
-  label: Arcade Gateways API
-  slug: arcade-gateways-api
+  label: arcade-dev LLM API
+  slug: arcade-dev-llm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-gateways-api-openapi.yml
-- filename: arcade-hooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-dev-llm-api-openapi.yml
+- filename: arcade-dev-operations-api-openapi.yml
   format: yaml
-  label: Arcade Hooks API
-  slug: arcade-hooks-api
+  label: arcade-dev Operations API
+  slug: arcade-dev-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-hooks-api-openapi.yml
-- filename: arcade-admin-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-dev-operations-api-openapi.yml
+- filename: arcade-dev-plugins-api-openapi.yml
   format: yaml
-  label: Arcade Admin API
-  slug: arcade-admin-api
+  label: arcade-dev Plugins API
+  slug: arcade-dev-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-admin-api-openapi.yml
-- filename: arcade-plugins-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-dev-plugins-api-openapi.yml
+- filename: arcade-dev-tools-api-openapi.yml
   format: yaml
-  label: Arcade Plugins API
-  slug: arcade-plugins-api
+  label: arcade-dev Tools API
+  slug: arcade-dev-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-plugins-api-openapi.yml
-- filename: arcade-operations-api-openapi.yml
-  format: yaml
-  label: Arcade Operations API
-  slug: arcade-operations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-operations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-dev-tools-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

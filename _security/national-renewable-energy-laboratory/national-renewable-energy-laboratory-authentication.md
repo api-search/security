@@ -2,12 +2,30 @@
 api_key_in:
 - query
 api_specs:
-- filename: national-renewable-energy-laboratory-openapi.yml
+- filename: national-renewable-energy-laboratory-alt-fuel-stations-api-openapi.yml
   format: yaml
-  label: NREL Developer Network
-  slug: nrel-developer-network
+  label: National Renewable Energy Laboratory Alt Fuel Stations API
+  slug: national-renewable-energy-laboratory-alt-fuel-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-renewable-energy-laboratory/refs/heads/main/openapi/national-renewable-energy-laboratory-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/national-renewable-energy-laboratory/refs/heads/main/openapi/national-renewable-energy-laboratory-alt-fuel-stations-api-openapi.yml
+- filename: national-renewable-energy-laboratory-pvwatts-api-openapi.yml
+  format: yaml
+  label: National Renewable Energy Laboratory Pvwatts API
+  slug: national-renewable-energy-laboratory-pvwatts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-renewable-energy-laboratory/refs/heads/main/openapi/national-renewable-energy-laboratory-pvwatts-api-openapi.yml
+- filename: national-renewable-energy-laboratory-solar-api-openapi.yml
+  format: yaml
+  label: National Renewable Energy Laboratory Solar API
+  slug: national-renewable-energy-laboratory-solar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-renewable-energy-laboratory/refs/heads/main/openapi/national-renewable-energy-laboratory-solar-api-openapi.yml
+- filename: national-renewable-energy-laboratory-utility-rates-api-openapi.yml
+  format: yaml
+  label: National Renewable Energy Laboratory Utility Rates API
+  slug: national-renewable-energy-laboratory-utility-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-renewable-energy-laboratory/refs/heads/main/openapi/national-renewable-energy-laboratory-utility-rates-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

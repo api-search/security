@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: amazon-elastic-transcoder-openapi.yml
+- filename: amazon-elastic-transcoder-jobs-api-openapi.yml
   format: yaml
-  label: Amazon Elastic Transcoder API
-  slug: amazon-elastic-transcoder-api
+  label: Amazon Elastic Transcoder Jobs API
+  slug: amazon-elastic-transcoder-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/openapi/amazon-elastic-transcoder-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/openapi/amazon-elastic-transcoder-jobs-api-openapi.yml
+- filename: amazon-elastic-transcoder-jobsbypipeline-api-openapi.yml
+  format: yaml
+  label: Amazon Elastic Transcoder JobsByPipeline API
+  slug: amazon-elastic-transcoder-jobsbypipeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/openapi/amazon-elastic-transcoder-jobsbypipeline-api-openapi.yml
+- filename: amazon-elastic-transcoder-jobsbystatus-api-openapi.yml
+  format: yaml
+  label: Amazon Elastic Transcoder JobsByStatus API
+  slug: amazon-elastic-transcoder-jobsbystatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/openapi/amazon-elastic-transcoder-jobsbystatus-api-openapi.yml
+- filename: amazon-elastic-transcoder-pipelines-api-openapi.yml
+  format: yaml
+  label: Amazon Elastic Transcoder Pipelines API
+  slug: amazon-elastic-transcoder-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/openapi/amazon-elastic-transcoder-pipelines-api-openapi.yml
+- filename: amazon-elastic-transcoder-presets-api-openapi.yml
+  format: yaml
+  label: Amazon Elastic Transcoder Presets API
+  slug: amazon-elastic-transcoder-presets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/openapi/amazon-elastic-transcoder-presets-api-openapi.yml
+- filename: amazon-elastic-transcoder-roletests-api-openapi.yml
+  format: yaml
+  label: Amazon Elastic Transcoder RoleTests API
+  slug: amazon-elastic-transcoder-roletests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/openapi/amazon-elastic-transcoder-roletests-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

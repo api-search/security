@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: getpaid-openapi-original.yml
+- filename: getpaid-accounts-api-openapi.yml
   format: yaml
-  label: Getpaid API v2
-  slug: getpaid-api-v2
+  label: GetPaid Accounts API
+  slug: getpaid-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-accounts-api-openapi.yml
+- filename: getpaid-applications-api-openapi.yml
+  format: yaml
+  label: GetPaid Applications API
+  slug: getpaid-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-applications-api-openapi.yml
+- filename: getpaid-authentication-api-openapi.yml
+  format: yaml
+  label: GetPaid Authentication API
+  slug: getpaid-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-authentication-api-openapi.yml
+- filename: getpaid-checkouts-api-openapi.yml
+  format: yaml
+  label: GetPaid Checkouts API
+  slug: getpaid-checkouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-checkouts-api-openapi.yml
+- filename: getpaid-payments-api-openapi.yml
+  format: yaml
+  label: GetPaid Payments API
+  slug: getpaid-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-payments-api-openapi.yml
+- filename: getpaid-queries-api-openapi.yml
+  format: yaml
+  label: GetPaid Queries API
+  slug: getpaid-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-queries-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

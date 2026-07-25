@@ -1,6 +1,13 @@
 ---
 api_key_in:
 - query
+api_specs:
+- filename: hcaptcha-siteverify-api-openapi.yml
+  format: yaml
+  label: hCaptcha Siteverify API
+  slug: hcaptcha-siteverify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hcaptcha/refs/heads/main/openapi/hcaptcha-siteverify-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

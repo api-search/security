@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: llmwhisperer-openapi.yml
+- filename: llmwhisperer-extraction-api-openapi.yml
   format: yaml
-  label: LLMWhisperer Whisper Extraction API
-  slug: whisper-extraction-api
+  label: LLMWhisperer Extraction API
+  slug: llmwhisperer-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/openapi/llmwhisperer-openapi.yml
-- filename: llmwhisperer-openapi.yml
-  format: yaml
-  label: LLMWhisperer Whisper Status API
-  slug: whisper-status-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/openapi/llmwhisperer-openapi.yml
-- filename: llmwhisperer-openapi.yml
-  format: yaml
-  label: LLMWhisperer Whisper Retrieve API
-  slug: whisper-retrieve-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/openapi/llmwhisperer-openapi.yml
-- filename: llmwhisperer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/openapi/llmwhisperer-extraction-api-openapi.yml
+- filename: llmwhisperer-highlights-api-openapi.yml
   format: yaml
   label: LLMWhisperer Highlights API
-  slug: highlights-api
+  slug: llmwhisperer-highlights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/openapi/llmwhisperer-openapi.yml
-- filename: llmwhisperer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/openapi/llmwhisperer-highlights-api-openapi.yml
+- filename: llmwhisperer-retrieve-api-openapi.yml
+  format: yaml
+  label: LLMWhisperer Retrieve API
+  slug: llmwhisperer-retrieve-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/openapi/llmwhisperer-retrieve-api-openapi.yml
+- filename: llmwhisperer-status-api-openapi.yml
+  format: yaml
+  label: LLMWhisperer Status API
+  slug: llmwhisperer-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/openapi/llmwhisperer-status-api-openapi.yml
+- filename: llmwhisperer-webhooks-api-openapi.yml
   format: yaml
   label: LLMWhisperer Webhooks API
-  slug: webhooks-api
+  slug: llmwhisperer-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/openapi/llmwhisperer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/openapi/llmwhisperer-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

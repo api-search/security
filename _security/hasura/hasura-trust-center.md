@@ -6,6 +6,60 @@ api_specs:
   slug: hasura-graphql-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/asyncapi/hasura-asyncapi.yml
+- filename: hasura-metadata-api-openapi.yml
+  format: yaml
+  label: Hasura Metadata API
+  slug: hasura-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-metadata-api-openapi.yml
+- filename: hasura-graphql-api-openapi.yml
+  format: yaml
+  label: Hasura Graphql API
+  slug: hasura-graphql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-graphql-api-openapi.yml
+- filename: hasura-healthz-api-openapi.yml
+  format: yaml
+  label: Hasura Healthz API
+  slug: hasura-healthz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-healthz-api-openapi.yml
+- filename: hasura-metadata-api-openapi.yml
+  format: yaml
+  label: Hasura Metadata API
+  slug: hasura-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-metadata-api-openapi.yml
+- filename: hasura-query-api-openapi.yml
+  format: yaml
+  label: Hasura Query API
+  slug: hasura-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-query-api-openapi.yml
+- filename: hasura-source-health-api-openapi.yml
+  format: yaml
+  label: Hasura Source Health API
+  slug: hasura-source-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-source-health-api-openapi.yml
+- filename: hasura-v1alpha1-api-openapi.yml
+  format: yaml
+  label: Hasura V1alpha1 API
+  slug: hasura-v1alpha1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-v1alpha1-api-openapi.yml
+- filename: hasura-v1beta1-api-openapi.yml
+  format: yaml
+  label: Hasura V1beta1 API
+  slug: hasura-v1beta1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-v1beta1-api-openapi.yml
+- filename: hasura-version-api-openapi.yml
+  format: yaml
+  label: Hasura Version API
+  slug: hasura-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-version-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

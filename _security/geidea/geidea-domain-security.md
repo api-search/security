@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: geidea-openapi.yml
+- filename: geidea-checkout-api-openapi.yml
   format: yaml
   label: Geidea Checkout API
   slug: geidea-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/openapi/geidea-openapi.yml
-- filename: geidea-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/openapi/geidea-checkout-api-openapi.yml
+- filename: geidea-direct-api-api-openapi.yml
   format: yaml
-  label: Geidea Direct API
-  slug: geidea-direct-api
+  label: Geidea Direct API API
+  slug: geidea-direct-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/openapi/geidea-openapi.yml
-- filename: geidea-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/openapi/geidea-direct-api-api-openapi.yml
+- filename: geidea-tokenization-api-openapi.yml
   format: yaml
   label: Geidea Tokenization API
   slug: geidea-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/openapi/geidea-openapi.yml
-- filename: geidea-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/openapi/geidea-tokenization-api-openapi.yml
+- filename: geidea-transaction-management-api-openapi.yml
   format: yaml
   label: Geidea Transaction Management API
   slug: geidea-transaction-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/openapi/geidea-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/openapi/geidea-transaction-management-api-openapi.yml
 description: ''
 domains:
 - caa: []

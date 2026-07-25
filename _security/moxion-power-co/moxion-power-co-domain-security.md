@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: moxion-power-co-openapi.yml
+- filename: moxion-power-co-device-faults-api-openapi.yml
   format: yaml
-  label: Moxion Power Developer API
-  slug: moxion-power-developer-api
+  label: Moxion Power Co Device Faults API
+  slug: moxion-power-co-device-faults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/openapi/moxion-power-co-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/openapi/moxion-power-co-device-faults-api-openapi.yml
+- filename: moxion-power-co-device-location-api-openapi.yml
+  format: yaml
+  label: Moxion Power Co Device Location API
+  slug: moxion-power-co-device-location-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/openapi/moxion-power-co-device-location-api-openapi.yml
+- filename: moxion-power-co-device-metrics-api-openapi.yml
+  format: yaml
+  label: Moxion Power Co Device Metrics API
+  slug: moxion-power-co-device-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/openapi/moxion-power-co-device-metrics-api-openapi.yml
+- filename: moxion-power-co-devices-api-openapi.yml
+  format: yaml
+  label: Moxion Power Co Devices API
+  slug: moxion-power-co-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/openapi/moxion-power-co-devices-api-openapi.yml
+- filename: moxion-power-co-fleet-snapshot-aemp-api-openapi.yml
+  format: yaml
+  label: Moxion Power Co Fleet Snapshot (AEMP) API
+  slug: moxion-power-co-fleet-snapshot-aemp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/openapi/moxion-power-co-fleet-snapshot-aemp-api-openapi.yml
+- filename: moxion-power-co-organizations-api-openapi.yml
+  format: yaml
+  label: Moxion Power Co Organizations API
+  slug: moxion-power-co-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/openapi/moxion-power-co-organizations-api-openapi.yml
 description: ''
 domains:
 - caa: []

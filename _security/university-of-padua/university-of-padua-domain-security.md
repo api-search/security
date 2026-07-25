@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: openapi
+- filename: university-of-padua-datastream-api-openapi.yml
   format: yaml
-  label: PHAIDRA Digital Collections REST API
-  slug: phaidra
+  label: University of Padua datastream API
+  slug: university-of-padua-datastream-api
   spec_type: OpenAPI
-  url: https://phaidra.cab.unipd.it/api/openapi
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-padua/refs/heads/main/openapi/university-of-padua-datastream-api-openapi.yml
+- filename: university-of-padua-directory-api-openapi.yml
+  format: yaml
+  label: University of Padua directory API
+  slug: university-of-padua-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-padua/refs/heads/main/openapi/university-of-padua-directory-api-openapi.yml
+- filename: university-of-padua-imageserver-api-openapi.yml
+  format: yaml
+  label: University of Padua imageserver API
+  slug: university-of-padua-imageserver-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-padua/refs/heads/main/openapi/university-of-padua-imageserver-api-openapi.yml
+- filename: university-of-padua-lists-api-openapi.yml
+  format: yaml
+  label: University of Padua lists API
+  slug: university-of-padua-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-padua/refs/heads/main/openapi/university-of-padua-lists-api-openapi.yml
+- filename: university-of-padua-misc-api-openapi.yml
+  format: yaml
+  label: University of Padua misc API
+  slug: university-of-padua-misc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-padua/refs/heads/main/openapi/university-of-padua-misc-api-openapi.yml
+- filename: university-of-padua-oai-pmh-api-openapi.yml
+  format: yaml
+  label: University of Padua oai-pmh API
+  slug: university-of-padua-oai-pmh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-padua/refs/heads/main/openapi/university-of-padua-oai-pmh-api-openapi.yml
+- filename: university-of-padua-object-advanced-api-openapi.yml
+  format: yaml
+  label: University of Padua object-advanced API
+  slug: university-of-padua-object-advanced-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-padua/refs/heads/main/openapi/university-of-padua-object-advanced-api-openapi.yml
+- filename: university-of-padua-object-basics-api-openapi.yml
+  format: yaml
+  label: University of Padua object-basics API
+  slug: university-of-padua-object-basics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-padua/refs/heads/main/openapi/university-of-padua-object-basics-api-openapi.yml
+- filename: university-of-padua-relationships-api-openapi.yml
+  format: yaml
+  label: University of Padua relationships API
+  slug: university-of-padua-relationships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-padua/refs/heads/main/openapi/university-of-padua-relationships-api-openapi.yml
+- filename: university-of-padua-search-api-openapi.yml
+  format: yaml
+  label: University of Padua search API
+  slug: university-of-padua-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-padua/refs/heads/main/openapi/university-of-padua-search-api-openapi.yml
+- filename: university-of-padua-session-api-openapi.yml
+  format: yaml
+  label: University of Padua session API
+  slug: university-of-padua-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-padua/refs/heads/main/openapi/university-of-padua-session-api-openapi.yml
+- filename: university-of-padua-stats-api-openapi.yml
+  format: yaml
+  label: University of Padua stats API
+  slug: university-of-padua-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-padua/refs/heads/main/openapi/university-of-padua-stats-api-openapi.yml
+- filename: university-of-padua-templates-api-openapi.yml
+  format: yaml
+  label: University of Padua templates API
+  slug: university-of-padua-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-padua/refs/heads/main/openapi/university-of-padua-templates-api-openapi.yml
+- filename: university-of-padua-vocabularies-api-openapi.yml
+  format: yaml
+  label: University of Padua vocabularies API
+  slug: university-of-padua-vocabularies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-padua/refs/heads/main/openapi/university-of-padua-vocabularies-api-openapi.yml
 description: ''
 domains:
 - caa:

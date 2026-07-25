@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-admin-sdk-admin-api-openapi.yml
   format: yaml
-  label: Google Admin SDK Directory API
-  slug: google-admin-sdk-directory-api
+  label: Google Admin SDK Admin API
+  slug: google-admin-sdk-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admin-sdk/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-admin-sdk/refs/heads/main/openapi/google-admin-sdk-admin-api-openapi.yml
 description: ''
 domains:
 - caa:

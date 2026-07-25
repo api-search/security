@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: vllm-openapi.yml
+- filename: vllm-audio-api-openapi.yml
   format: yaml
-  label: vLLM OpenAI-Compatible Server
-  slug: openai-compatible
+  label: vLLM Audio API
+  slug: vllm-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-audio-api-openapi.yml
+- filename: vllm-chat-api-openapi.yml
+  format: yaml
+  label: vLLM Chat API
+  slug: vllm-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-chat-api-openapi.yml
+- filename: vllm-completions-api-openapi.yml
+  format: yaml
+  label: vLLM Completions API
+  slug: vllm-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-completions-api-openapi.yml
+- filename: vllm-embeddings-api-openapi.yml
+  format: yaml
+  label: vLLM Embeddings API
+  slug: vllm-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-embeddings-api-openapi.yml
+- filename: vllm-scoring-api-openapi.yml
+  format: yaml
+  label: vLLM Scoring API
+  slug: vllm-scoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-scoring-api-openapi.yml
+- filename: vllm-tokenize-api-openapi.yml
+  format: yaml
+  label: vLLM Tokenize API
+  slug: vllm-tokenize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-tokenize-api-openapi.yml
 description: ''
 domains:
 - caa: []

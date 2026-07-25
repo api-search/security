@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: flower-shop-network-openapi.yml
+- filename: flower-shop-network-authentication-api-openapi.yml
   format: yaml
-  label: Flower Shop Network JSON API
-  slug: flower-shop-network-json-api
+  label: Flower Shop Network Authentication API
+  slug: flower-shop-network-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flower-shop-network/refs/heads/main/openapi/flower-shop-network-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flower-shop-network/refs/heads/main/openapi/flower-shop-network-authentication-api-openapi.yml
+- filename: flower-shop-network-florists-api-openapi.yml
+  format: yaml
+  label: Flower Shop Network Florists API
+  slug: flower-shop-network-florists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flower-shop-network/refs/heads/main/openapi/flower-shop-network-florists-api-openapi.yml
+- filename: flower-shop-network-orders-api-openapi.yml
+  format: yaml
+  label: Flower Shop Network Orders API
+  slug: flower-shop-network-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flower-shop-network/refs/heads/main/openapi/flower-shop-network-orders-api-openapi.yml
+- filename: flower-shop-network-products-api-openapi.yml
+  format: yaml
+  label: Flower Shop Network Products API
+  slug: flower-shop-network-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flower-shop-network/refs/heads/main/openapi/flower-shop-network-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

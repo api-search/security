@@ -1,11 +1,317 @@
 ---
 api_specs:
-- filename: oper-credits-api-openapi.json
-  format: json
-  label: Oper Mortgage API
-  slug: oper-mortgage-api
+- filename: oper-credits-agent-documents-api-openapi.yml
+  format: yaml
+  label: Oper Credits Agent Documents API
+  slug: oper-credits-agent-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-agent-documents-api-openapi.yml
+- filename: oper-credits-appointment-booking-websites-api-openapi.yml
+  format: yaml
+  label: Oper Credits Appointment Booking Websites API
+  slug: oper-credits-appointment-booking-websites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-appointment-booking-websites-api-openapi.yml
+- filename: oper-credits-approvals-api-openapi.yml
+  format: yaml
+  label: Oper Credits Approvals API
+  slug: oper-credits-approvals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-approvals-api-openapi.yml
+- filename: oper-credits-bank-release-policy-api-openapi.yml
+  format: yaml
+  label: Oper Credits Bank Release Policy API
+  slug: oper-credits-bank-release-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-bank-release-policy-api-openapi.yml
+- filename: oper-credits-base-products-api-openapi.yml
+  format: yaml
+  label: Oper Credits Base Products API
+  slug: oper-credits-base-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-base-products-api-openapi.yml
+- filename: oper-credits-calculate-api-openapi.yml
+  format: yaml
+  label: Oper Credits Calculate API
+  slug: oper-credits-calculate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-calculate-api-openapi.yml
+- filename: oper-credits-check-invite-token-api-openapi.yml
+  format: yaml
+  label: Oper Credits Check Invite Token API
+  slug: oper-credits-check-invite-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-check-invite-token-api-openapi.yml
+- filename: oper-credits-check-reset-password-api-openapi.yml
+  format: yaml
+  label: Oper Credits Check Reset Password API
+  slug: oper-credits-check-reset-password-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-check-reset-password-api-openapi.yml
+- filename: oper-credits-client-users-api-openapi.yml
+  format: yaml
+  label: Oper Credits Client Users API
+  slug: oper-credits-client-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-client-users-api-openapi.yml
+- filename: oper-credits-clients-api-openapi.yml
+  format: yaml
+  label: Oper Credits Clients API
+  slug: oper-credits-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-clients-api-openapi.yml
+- filename: oper-credits-commissions-api-openapi.yml
+  format: yaml
+  label: Oper Credits Commissions API
+  slug: oper-credits-commissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-commissions-api-openapi.yml
+- filename: oper-credits-communication-history-api-openapi.yml
+  format: yaml
+  label: Oper Credits Communication History API
+  slug: oper-credits-communication-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-communication-history-api-openapi.yml
+- filename: oper-credits-connective-api-openapi.yml
+  format: yaml
+  label: Oper Credits Connective API
+  slug: oper-credits-connective-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-connective-api-openapi.yml
+- filename: oper-credits-contact-advisor-api-openapi.yml
+  format: yaml
+  label: Oper Credits Contact Advisor API
+  slug: oper-credits-contact-advisor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-contact-advisor-api-openapi.yml
+- filename: oper-credits-contact-api-openapi.yml
+  format: yaml
+  label: Oper Credits Contact API
+  slug: oper-credits-contact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-contact-api-openapi.yml
+- filename: oper-credits-contact-policy-api-openapi.yml
+  format: yaml
+  label: Oper Credits Contact Policy API
+  slug: oper-credits-contact-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-contact-policy-api-openapi.yml
+- filename: oper-credits-credit-providers-api-openapi.yml
+  format: yaml
+  label: Oper Credits Credit Providers API
+  slug: oper-credits-credit-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-credit-providers-api-openapi.yml
+- filename: oper-credits-documentation-library-api-openapi.yml
+  format: yaml
+  label: Oper Credits Documentation Library API
+  slug: oper-credits-documentation-library-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-documentation-library-api-openapi.yml
+- filename: oper-credits-documents-api-openapi.yml
+  format: yaml
+  label: Oper Credits Documents API
+  slug: oper-credits-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-documents-api-openapi.yml
+- filename: oper-credits-easy-audit-api-openapi.yml
+  format: yaml
+  label: Oper Credits Easy Audit API
+  slug: oper-credits-easy-audit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-easy-audit-api-openapi.yml
+- filename: oper-credits-forgot-password-api-openapi.yml
+  format: yaml
+  label: Oper Credits Forgot Password API
+  slug: oper-credits-forgot-password-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-forgot-password-api-openapi.yml
+- filename: oper-credits-gdpr-policy-api-openapi.yml
+  format: yaml
+  label: Oper Credits Gdpr Policy API
+  slug: oper-credits-gdpr-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-gdpr-policy-api-openapi.yml
+- filename: oper-credits-health-api-openapi.yml
+  format: yaml
+  label: Oper Credits Health API
+  slug: oper-credits-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-health-api-openapi.yml
+- filename: oper-credits-integrations-api-openapi.yml
+  format: yaml
+  label: Oper Credits Integrations API
+  slug: oper-credits-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-integrations-api-openapi.yml
+- filename: oper-credits-internaldocuments-api-openapi.yml
+  format: yaml
+  label: Oper Credits Internaldocuments API
+  slug: oper-credits-internaldocuments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-internaldocuments-api-openapi.yml
+- filename: oper-credits-jwt-api-openapi.yml
+  format: yaml
+  label: Oper Credits Jwt API
+  slug: oper-credits-jwt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-jwt-api-openapi.yml
+- filename: oper-credits-legal-links-api-openapi.yml
+  format: yaml
+  label: Oper Credits Legal Links API
+  slug: oper-credits-legal-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-legal-links-api-openapi.yml
+- filename: oper-credits-library-api-openapi.yml
+  format: yaml
+  label: Oper Credits Library API
+  slug: oper-credits-library-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-library-api-openapi.yml
+- filename: oper-credits-loan-requests-api-openapi.yml
+  format: yaml
+  label: Oper Credits Loan Requests API
+  slug: oper-credits-loan-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-loan-requests-api-openapi.yml
+- filename: oper-credits-loan-requests-client-info-api-openapi.yml
+  format: yaml
+  label: Oper Credits Loan Requests Client Info API
+  slug: oper-credits-loan-requests-client-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-loan-requests-client-info-api-openapi.yml
+- filename: oper-credits-main-api-openapi.yml
+  format: yaml
+  label: Oper Credits Main API
+  slug: oper-credits-main-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-main-api-openapi.yml
+- filename: oper-credits-me-api-openapi.yml
+  format: yaml
+  label: Oper Credits Me API
+  slug: oper-credits-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-me-api-openapi.yml
+- filename: oper-credits-metrics-api-openapi.yml
+  format: yaml
+  label: Oper Credits Metrics API
+  slug: oper-credits-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-metrics-api-openapi.yml
+- filename: oper-credits-model-fields-api-openapi.yml
+  format: yaml
+  label: Oper Credits Model Fields API
+  slug: oper-credits-model-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-model-fields-api-openapi.yml
+- filename: oper-credits-pricing-api-openapi.yml
+  format: yaml
+  label: Oper Credits Pricing API
+  slug: oper-credits-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-pricing-api-openapi.yml
+- filename: oper-credits-privacy-policy-api-openapi.yml
+  format: yaml
+  label: Oper Credits Privacy Policy API
+  slug: oper-credits-privacy-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-privacy-policy-api-openapi.yml
+- filename: oper-credits-products-api-openapi.yml
+  format: yaml
+  label: Oper Credits Products API
+  slug: oper-credits-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-products-api-openapi.yml
+- filename: oper-credits-reset-password-api-openapi.yml
+  format: yaml
+  label: Oper Credits Reset Password API
+  slug: oper-credits-reset-password-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-reset-password-api-openapi.yml
+- filename: oper-credits-resources-api-openapi.yml
+  format: yaml
+  label: Oper Credits Resources API
+  slug: oper-credits-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-resources-api-openapi.yml
+- filename: oper-credits-send-generic-email-api-openapi.yml
+  format: yaml
+  label: Oper Credits Send Generic Email API
+  slug: oper-credits-send-generic-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-send-generic-email-api-openapi.yml
+- filename: oper-credits-sign-in-api-openapi.yml
+  format: yaml
+  label: Oper Credits Sign In API
+  slug: oper-credits-sign-in-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-sign-in-api-openapi.yml
+- filename: oper-credits-sign-up-api-openapi.yml
+  format: yaml
+  label: Oper Credits Sign Up API
+  slug: oper-credits-sign-up-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-sign-up-api-openapi.yml
+- filename: oper-credits-simulators-api-openapi.yml
+  format: yaml
+  label: Oper Credits Simulators API
+  slug: oper-credits-simulators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-simulators-api-openapi.yml
+- filename: oper-credits-sso-api-openapi.yml
+  format: yaml
+  label: Oper Credits Sso API
+  slug: oper-credits-sso-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-sso-api-openapi.yml
+- filename: oper-credits-tasks-api-openapi.yml
+  format: yaml
+  label: Oper Credits Tasks API
+  slug: oper-credits-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-tasks-api-openapi.yml
+- filename: oper-credits-terms-and-conditions-api-openapi.yml
+  format: yaml
+  label: Oper Credits Terms And Conditions API
+  slug: oper-credits-terms-and-conditions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-terms-and-conditions-api-openapi.yml
+- filename: oper-credits-third-parties-api-openapi.yml
+  format: yaml
+  label: Oper Credits Third Parties API
+  slug: oper-credits-third-parties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-third-parties-api-openapi.yml
+- filename: oper-credits-third-party-api-api-openapi.yml
+  format: yaml
+  label: Oper Credits Third Party Api API
+  slug: oper-credits-third-party-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-third-party-api-api-openapi.yml
+- filename: oper-credits-user-management-api-openapi.yml
+  format: yaml
+  label: Oper Credits User Management API
+  slug: oper-credits-user-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-user-management-api-openapi.yml
+- filename: oper-credits-users-api-openapi.yml
+  format: yaml
+  label: Oper Credits Users API
+  slug: oper-credits-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-users-api-openapi.yml
+- filename: oper-credits-validators-api-openapi.yml
+  format: yaml
+  label: Oper Credits Validators API
+  slug: oper-credits-validators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-validators-api-openapi.yml
+- filename: oper-credits-webhooks-api-openapi.yml
+  format: yaml
+  label: Oper Credits Webhooks API
+  slug: oper-credits-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,18 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: rest-api-description
+- filename: github-enterprise-actions-api-openapi.yml
   format: yaml
-  label: GitHub Enterprise Cloud REST API
-  slug: cloud-rest-api
+  label: GitHub Enterprise Actions API
+  slug: github-enterprise-actions-api
   spec_type: OpenAPI
-  url: https://github.com/github/rest-api-description
-- filename: rest-api-description
+  url: https://raw.githubusercontent.com/api-evangelist/github-enterprise/refs/heads/main/openapi/github-enterprise-actions-api-openapi.yml
+- filename: github-enterprise-code-scanning-api-openapi.yml
   format: yaml
-  label: GitHub Enterprise Server REST API
-  slug: server-rest-api
+  label: GitHub Enterprise Code Scanning API
+  slug: github-enterprise-code-scanning-api
   spec_type: OpenAPI
-  url: https://github.com/github/rest-api-description
+  url: https://raw.githubusercontent.com/api-evangelist/github-enterprise/refs/heads/main/openapi/github-enterprise-code-scanning-api-openapi.yml
+- filename: github-enterprise-enterprise-admin-api-openapi.yml
+  format: yaml
+  label: GitHub Enterprise Enterprise Admin API
+  slug: github-enterprise-enterprise-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github-enterprise/refs/heads/main/openapi/github-enterprise-enterprise-admin-api-openapi.yml
+- filename: github-enterprise-issues-api-openapi.yml
+  format: yaml
+  label: GitHub Enterprise Issues API
+  slug: github-enterprise-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github-enterprise/refs/heads/main/openapi/github-enterprise-issues-api-openapi.yml
+- filename: github-enterprise-organizations-api-openapi.yml
+  format: yaml
+  label: GitHub Enterprise Organizations API
+  slug: github-enterprise-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github-enterprise/refs/heads/main/openapi/github-enterprise-organizations-api-openapi.yml
+- filename: github-enterprise-pull-requests-api-openapi.yml
+  format: yaml
+  label: GitHub Enterprise Pull Requests API
+  slug: github-enterprise-pull-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github-enterprise/refs/heads/main/openapi/github-enterprise-pull-requests-api-openapi.yml
+- filename: github-enterprise-repositories-api-openapi.yml
+  format: yaml
+  label: GitHub Enterprise Repositories API
+  slug: github-enterprise-repositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github-enterprise/refs/heads/main/openapi/github-enterprise-repositories-api-openapi.yml
+- filename: github-enterprise-scim-api-openapi.yml
+  format: yaml
+  label: GitHub Enterprise SCIM API
+  slug: github-enterprise-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github-enterprise/refs/heads/main/openapi/github-enterprise-scim-api-openapi.yml
+- filename: github-enterprise-users-api-openapi.yml
+  format: yaml
+  label: GitHub Enterprise Users API
+  slug: github-enterprise-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github-enterprise/refs/heads/main/openapi/github-enterprise-users-api-openapi.yml
 auth_types:
 - apiKey
 - http

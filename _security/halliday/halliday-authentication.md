@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: halliday-openapi-original.yml
+- filename: halliday-assets-api-openapi.yml
   format: yaml
-  label: Halliday API V2
-  slug: halliday-api-v2
+  label: Halliday Assets API
+  slug: halliday-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/openapi/halliday-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/openapi/halliday-assets-api-openapi.yml
+- filename: halliday-chains-api-openapi.yml
+  format: yaml
+  label: Halliday Chains API
+  slug: halliday-chains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/openapi/halliday-chains-api-openapi.yml
+- filename: halliday-payments-api-openapi.yml
+  format: yaml
+  label: Halliday Payments API
+  slug: halliday-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/openapi/halliday-payments-api-openapi.yml
+- filename: halliday-webhooks-api-openapi.yml
+  format: yaml
+  label: Halliday Webhooks API
+  slug: halliday-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/openapi/halliday-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

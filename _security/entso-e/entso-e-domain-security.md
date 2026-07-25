@@ -1,35 +1,11 @@
 ---
 api_specs:
-- filename: entso-e-openapi.yml
+- filename: entso-e-market-data-query-api-openapi.yml
   format: yaml
-  label: ENTSO-E Day-Ahead Prices API
-  slug: entso-e-day-ahead-prices-api
+  label: ENTSO-E Market Data Query API
+  slug: entso-e-market-data-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entso-e/refs/heads/main/openapi/entso-e-openapi.yml
-- filename: entso-e-openapi.yml
-  format: yaml
-  label: ENTSO-E Load API
-  slug: entso-e-load-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entso-e/refs/heads/main/openapi/entso-e-openapi.yml
-- filename: entso-e-openapi.yml
-  format: yaml
-  label: ENTSO-E Generation API
-  slug: entso-e-generation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entso-e/refs/heads/main/openapi/entso-e-openapi.yml
-- filename: entso-e-openapi.yml
-  format: yaml
-  label: ENTSO-E Balancing API
-  slug: entso-e-balancing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entso-e/refs/heads/main/openapi/entso-e-openapi.yml
-- filename: entso-e-openapi.yml
-  format: yaml
-  label: ENTSO-E Transmission API
-  slug: entso-e-transmission-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entso-e/refs/heads/main/openapi/entso-e-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/entso-e/refs/heads/main/openapi/entso-e-market-data-query-api-openapi.yml
 description: ''
 domains:
 - caa: []

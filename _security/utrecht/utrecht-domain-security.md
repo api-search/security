@@ -1,11 +1,125 @@
 ---
 api_specs:
-- filename: utrecht-yoda-core.yaml
+- filename: utrecht-admin-api-openapi.yml
   format: yaml
-  label: Yoda Research Data Management Platform
-  slug: yoda
+  label: Utrecht University admin API
+  slug: utrecht-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-yoda-core.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-admin-api-openapi.yml
+- filename: utrecht-browse-api-openapi.yml
+  format: yaml
+  label: Utrecht University browse API
+  slug: utrecht-browse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-browse-api-openapi.yml
+- filename: utrecht-data-access-token-api-openapi.yml
+  format: yaml
+  label: Utrecht University data_access_token API
+  slug: utrecht-data-access-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-data-access-token-api-openapi.yml
+- filename: utrecht-datarequest-api-openapi.yml
+  format: yaml
+  label: Utrecht University datarequest API
+  slug: utrecht-datarequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-datarequest-api-openapi.yml
+- filename: utrecht-folder-api-openapi.yml
+  format: yaml
+  label: Utrecht University folder API
+  slug: utrecht-folder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-folder-api-openapi.yml
+- filename: utrecht-groups-api-openapi.yml
+  format: yaml
+  label: Utrecht University groups API
+  slug: utrecht-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-groups-api-openapi.yml
+- filename: utrecht-meta-api-openapi.yml
+  format: yaml
+  label: Utrecht University meta API
+  slug: utrecht-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-meta-api-openapi.yml
+- filename: utrecht-meta-form-api-openapi.yml
+  format: yaml
+  label: Utrecht University meta_form API
+  slug: utrecht-meta-form-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-meta-form-api-openapi.yml
+- filename: utrecht-notifications-api-openapi.yml
+  format: yaml
+  label: Utrecht University notifications API
+  slug: utrecht-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-notifications-api-openapi.yml
+- filename: utrecht-provenance-api-openapi.yml
+  format: yaml
+  label: Utrecht University provenance API
+  slug: utrecht-provenance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-provenance-api-openapi.yml
+- filename: utrecht-publication-troubleshoot-api-openapi.yml
+  format: yaml
+  label: Utrecht University publication_troubleshoot API
+  slug: utrecht-publication-troubleshoot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-publication-troubleshoot-api-openapi.yml
+- filename: utrecht-research-api-openapi.yml
+  format: yaml
+  label: Utrecht University research API
+  slug: utrecht-research-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-research-api-openapi.yml
+- filename: utrecht-revisions-api-openapi.yml
+  format: yaml
+  label: Utrecht University revisions API
+  slug: utrecht-revisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-revisions-api-openapi.yml
+- filename: utrecht-schema-api-openapi.yml
+  format: yaml
+  label: Utrecht University schema API
+  slug: utrecht-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-schema-api-openapi.yml
+- filename: utrecht-schema-transformation-api-openapi.yml
+  format: yaml
+  label: Utrecht University schema_transformation API
+  slug: utrecht-schema-transformation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-schema-transformation-api-openapi.yml
+- filename: utrecht-settings-api-openapi.yml
+  format: yaml
+  label: Utrecht University settings API
+  slug: utrecht-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-settings-api-openapi.yml
+- filename: utrecht-stats-api-openapi.yml
+  format: yaml
+  label: Utrecht University stats API
+  slug: utrecht-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-stats-api-openapi.yml
+- filename: utrecht-vault-api-openapi.yml
+  format: yaml
+  label: Utrecht University vault API
+  slug: utrecht-vault-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-vault-api-openapi.yml
+- filename: utrecht-vault-archive-api-openapi.yml
+  format: yaml
+  label: Utrecht University vault_archive API
+  slug: utrecht-vault-archive-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-vault-archive-api-openapi.yml
+- filename: utrecht-vault-deaccession-api-openapi.yml
+  format: yaml
+  label: Utrecht University vault_deaccession API
+  slug: utrecht-vault-deaccession-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-vault-deaccession-api-openapi.yml
 description: ''
 domains:
 - caa:

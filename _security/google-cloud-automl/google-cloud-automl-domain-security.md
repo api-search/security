@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-automl-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud AutoML API
-  slug: google-cloud-automl-api
+  label: Google Cloud AutoML Projects API
+  slug: google-cloud-automl-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-automl/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-automl/refs/heads/main/openapi/google-cloud-automl-projects-api-openapi.yml
 description: ''
 domains:
 - caa:

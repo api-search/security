@@ -2,12 +2,12 @@
 api_key_in:
 - query
 api_specs:
-- filename: identity-toolkit-openapi.yml
+- filename: google-identity-platform-accounts-api-openapi.yml
   format: yaml
-  label: Identity Toolkit API
-  slug: identity-toolkit-api
+  label: Google Identity Platform Accounts API
+  slug: google-identity-platform-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-identity-platform/refs/heads/main/openapi/identity-toolkit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-identity-platform/refs/heads/main/openapi/google-identity-platform-accounts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: core-exchange
+- filename: fdx-account-information-api-openapi.yml
   format: yaml
-  label: FDX Accounts API
-  slug: fdx-accounts-api
+  label: Financial Data Exchange (FDX) Account Information API
+  slug: fdx-account-information-api
   spec_type: OpenAPI
-  url: https://github.com/plaid/core-exchange
+  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-account-information-api-openapi.yml
+- filename: fdx-account-statements-api-openapi.yml
+  format: yaml
+  label: Financial Data Exchange (FDX) Account Statements API
+  slug: fdx-account-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-account-statements-api-openapi.yml
+- filename: fdx-account-transactions-api-openapi.yml
+  format: yaml
+  label: Financial Data Exchange (FDX) Account Transactions API
+  slug: fdx-account-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-account-transactions-api-openapi.yml
+- filename: fdx-asset-transfer-networks-information-api-openapi.yml
+  format: yaml
+  label: Financial Data Exchange (FDX) Asset Transfer Networks Information API
+  slug: fdx-asset-transfer-networks-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-asset-transfer-networks-information-api-openapi.yml
+- filename: fdx-payment-networks-information-api-openapi.yml
+  format: yaml
+  label: Financial Data Exchange (FDX) Payment Networks Information API
+  slug: fdx-payment-networks-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-payment-networks-information-api-openapi.yml
+- filename: fdx-personal-information-api-openapi.yml
+  format: yaml
+  label: Financial Data Exchange (FDX) Personal Information API
+  slug: fdx-personal-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-personal-information-api-openapi.yml
 description: ''
 domains:
 - caa: []

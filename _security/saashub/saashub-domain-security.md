@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: saashub-openapi.yml
+- filename: saashub-alternatives-api-openapi.yml
   format: yaml
-  label: SaaSHub API
-  slug: saashub-api
+  label: SaaSHub Alternatives API
+  slug: saashub-alternatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saashub/refs/heads/main/openapi/saashub-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/saashub/refs/heads/main/openapi/saashub-alternatives-api-openapi.yml
+- filename: saashub-products-api-openapi.yml
+  format: yaml
+  label: SaaSHub Products API
+  slug: saashub-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/saashub/refs/heads/main/openapi/saashub-products-api-openapi.yml
 description: ''
 domains:
 - caa:

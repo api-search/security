@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: bounti-content-api-openapi.json
-  format: json
-  label: Bounti.ai Content API
-  slug: bountiai-content-api
+- filename: bounti-llms-full-txt-api-openapi.yml
+  format: yaml
+  label: Bounti Llms Full.txt API
+  slug: bounti-llms-full-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/openapi/bounti-content-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/openapi/bounti-llms-full-txt-api-openapi.yml
+- filename: bounti-llms-txt-api-openapi.yml
+  format: yaml
+  label: Bounti Llms.txt API
+  slug: bounti-llms-txt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/openapi/bounti-llms-txt-api-openapi.yml
 description: ''
 domains:
 - caa: []

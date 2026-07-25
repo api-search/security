@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cloud-bigtable-openapi.yml
+- filename: google-cloud-bigtable-clusters-api-openapi.yml
   format: yaml
-  label: Cloud Bigtable Admin API
-  slug: cloud-bigtable-admin-api
+  label: Google Cloud Bigtable Clusters API
+  slug: google-cloud-bigtable-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-bigtable/refs/heads/main/openapi/cloud-bigtable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-bigtable/refs/heads/main/openapi/google-cloud-bigtable-clusters-api-openapi.yml
+- filename: google-cloud-bigtable-instances-api-openapi.yml
+  format: yaml
+  label: Google Cloud Bigtable Instances API
+  slug: google-cloud-bigtable-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-bigtable/refs/heads/main/openapi/google-cloud-bigtable-instances-api-openapi.yml
+- filename: google-cloud-bigtable-tables-api-openapi.yml
+  format: yaml
+  label: Google Cloud Bigtable Tables API
+  slug: google-cloud-bigtable-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-bigtable/refs/heads/main/openapi/google-cloud-bigtable-tables-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

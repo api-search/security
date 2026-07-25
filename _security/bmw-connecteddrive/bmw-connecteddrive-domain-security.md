@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: bmw-cardata-customer-api-openapi.json
-  format: json
-  label: BMW CarData Customer API
-  slug: bmw-cardata-customer-api
+- filename: bmw-connecteddrive-containers-api-openapi.yml
+  format: yaml
+  label: BMW ConnectedDrive Containers API
+  slug: bmw-connecteddrive-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmw-connecteddrive/refs/heads/main/openapi/bmw-cardata-customer-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/bmw-connecteddrive/refs/heads/main/openapi/bmw-connecteddrive-containers-api-openapi.yml
+- filename: bmw-connecteddrive-vehicles-api-openapi.yml
+  format: yaml
+  label: BMW ConnectedDrive Vehicles API
+  slug: bmw-connecteddrive-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bmw-connecteddrive/refs/heads/main/openapi/bmw-connecteddrive-vehicles-api-openapi.yml
 description: ''
 domains:
 - caa: []

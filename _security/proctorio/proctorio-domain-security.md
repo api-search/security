@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: proctorio-openapi.yml
+- filename: proctorio-launch-api-openapi.yml
   format: yaml
-  label: Proctorio Launch API (v2)
+  label: Proctorio Launch API
   slug: proctorio-launch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/proctorio/refs/heads/main/openapi/proctorio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/proctorio/refs/heads/main/openapi/proctorio-launch-api-openapi.yml
 description: ''
 domains:
 - caa: []

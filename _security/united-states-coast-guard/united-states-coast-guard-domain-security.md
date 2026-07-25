@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: cgmix-maritime-information-exchange-openapi.yml
+- filename: united-states-coast-guard-equipment-api-openapi.yml
   format: yaml
-  label: CGMIX Maritime Information Exchange API
-  slug: cgmix-maritime-information-exchange
+  label: United States Coast Guard Equipment API
+  slug: united-states-coast-guard-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-coast-guard/refs/heads/main/openapi/cgmix-maritime-information-exchange-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-coast-guard/refs/heads/main/openapi/united-states-coast-guard-equipment-api-openapi.yml
+- filename: united-states-coast-guard-incident-reports-api-openapi.yml
+  format: yaml
+  label: United States Coast Guard Incident Reports API
+  slug: united-states-coast-guard-incident-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-coast-guard/refs/heads/main/openapi/united-states-coast-guard-incident-reports-api-openapi.yml
+- filename: united-states-coast-guard-port-state-information-api-openapi.yml
+  format: yaml
+  label: United States Coast Guard Port State Information API
+  slug: united-states-coast-guard-port-state-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-coast-guard/refs/heads/main/openapi/united-states-coast-guard-port-state-information-api-openapi.yml
+- filename: united-states-coast-guard-vessel-documentation-api-openapi.yml
+  format: yaml
+  label: United States Coast Guard Vessel Documentation API
+  slug: united-states-coast-guard-vessel-documentation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-coast-guard/refs/heads/main/openapi/united-states-coast-guard-vessel-documentation-api-openapi.yml
 description: ''
 domains:
 - caa: []

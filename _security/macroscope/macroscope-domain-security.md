@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: macroscope-webhook-api.json
-  format: json
-  label: Macroscope Agent Webhook API
-  slug: macroscope-agent-webhook-api
+- filename: macroscope-workspaces-api-openapi.yml
+  format: yaml
+  label: Macroscope Workspaces API
+  slug: macroscope-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macroscope/refs/heads/main/openapi/macroscope-webhook-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/macroscope/refs/heads/main/openapi/macroscope-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []

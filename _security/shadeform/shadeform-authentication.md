@@ -2,36 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: shadeform-openapi.yml
+- filename: shadeform-instance-types-api-openapi.yml
+  format: yaml
+  label: Shadeform Instance Types API
+  slug: shadeform-instance-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-instance-types-api-openapi.yml
+- filename: shadeform-instances-api-openapi.yml
   format: yaml
   label: Shadeform Instances API
   slug: shadeform-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-openapi.yml
-- filename: shadeform-openapi.yml
-  format: yaml
-  label: Shadeform Instance Types & Availability API
-  slug: shadeform-instance-types-availability-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-openapi.yml
-- filename: shadeform-openapi.yml
-  format: yaml
-  label: Shadeform Templates API
-  slug: shadeform-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-openapi.yml
-- filename: shadeform-openapi.yml
-  format: yaml
-  label: Shadeform Volumes API
-  slug: shadeform-volumes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-openapi.yml
-- filename: shadeform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-instances-api-openapi.yml
+- filename: shadeform-ssh-keys-api-openapi.yml
   format: yaml
   label: Shadeform SSH Keys API
   slug: shadeform-ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-ssh-keys-api-openapi.yml
+- filename: shadeform-templates-api-openapi.yml
+  format: yaml
+  label: Shadeform Templates API
+  slug: shadeform-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-templates-api-openapi.yml
+- filename: shadeform-volumes-api-openapi.yml
+  format: yaml
+  label: Shadeform Volumes API
+  slug: shadeform-volumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-volumes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

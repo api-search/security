@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: fivetran-openapi.yml
+- filename: fivetran-connections-api-openapi.yml
   format: yaml
-  label: Fivetran REST API
-  slug: fivetran-rest-api
+  label: Fivetran Connections API
+  slug: fivetran-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-connections-api-openapi.yml
+- filename: fivetran-destinations-api-openapi.yml
+  format: yaml
+  label: Fivetran Destinations API
+  slug: fivetran-destinations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-destinations-api-openapi.yml
+- filename: fivetran-groups-api-openapi.yml
+  format: yaml
+  label: Fivetran Groups API
+  slug: fivetran-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-groups-api-openapi.yml
+- filename: fivetran-metadata-api-openapi.yml
+  format: yaml
+  label: Fivetran Metadata API
+  slug: fivetran-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-metadata-api-openapi.yml
+- filename: fivetran-roles-api-openapi.yml
+  format: yaml
+  label: Fivetran Roles API
+  slug: fivetran-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-roles-api-openapi.yml
+- filename: fivetran-teams-api-openapi.yml
+  format: yaml
+  label: Fivetran Teams API
+  slug: fivetran-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-teams-api-openapi.yml
+- filename: fivetran-users-api-openapi.yml
+  format: yaml
+  label: Fivetran Users API
+  slug: fivetran-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-users-api-openapi.yml
+- filename: fivetran-webhooks-api-openapi.yml
+  format: yaml
+  label: Fivetran Webhooks API
+  slug: fivetran-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

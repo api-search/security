@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: climate-engine-openapi.yml
+- filename: climate-engine-home-api-openapi.yml
   format: yaml
-  label: Climate Engine Timeseries API
-  slug: climate-engine-timeseries-api
+  label: Climate Engine Home API
+  slug: climate-engine-home-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-openapi.yml
-- filename: climate-engine-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-home-api-openapi.yml
+- filename: climate-engine-metadata-api-openapi.yml
   format: yaml
-  label: Climate Engine Zonal Statistics API
-  slug: climate-engine-zonal-statistics-api
+  label: Climate Engine Metadata API
+  slug: climate-engine-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-openapi.yml
-- filename: climate-engine-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-metadata-api-openapi.yml
+- filename: climate-engine-raster-api-openapi.yml
   format: yaml
   label: Climate Engine Raster API
   slug: climate-engine-raster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-openapi.yml
-- filename: climate-engine-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-raster-api-openapi.yml
+- filename: climate-engine-reports-api-openapi.yml
   format: yaml
   label: Climate Engine Reports API
   slug: climate-engine-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-openapi.yml
-- filename: climate-engine-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-reports-api-openapi.yml
+- filename: climate-engine-timeseries-api-openapi.yml
   format: yaml
-  label: Climate Engine Dataset Catalog API
-  slug: climate-engine-dataset-catalog-api
+  label: Climate Engine Timeseries API
+  slug: climate-engine-timeseries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-openapi.yml
-- filename: climate-engine-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-timeseries-api-openapi.yml
+- filename: climate-engine-zonal-statistics-api-openapi.yml
   format: yaml
-  label: Climate Engine Account API
-  slug: climate-engine-account-api
+  label: Climate Engine Zonal Statistics API
+  slug: climate-engine-zonal-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-zonal-statistics-api-openapi.yml
 description: ''
 domains:
 - caa:

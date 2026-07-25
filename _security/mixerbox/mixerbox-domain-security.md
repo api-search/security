@@ -1,77 +1,23 @@
 ---
 api_specs:
-- filename: mixerbox-oneplayer-openapi-original.json
-  format: json
-  label: MixerBox OnePlayer
-  slug: mixerbox-oneplayer
+- filename: mixerbox-gpt-api-openapi.yml
+  format: yaml
+  label: MixerBox Gpt API
+  slug: mixerbox-gpt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/openapi/mixerbox-oneplayer-openapi-original.json
-- filename: mixerbox-podcasts-openapi-original.json
-  format: json
-  label: MixerBox Podcasts
-  slug: mixerbox-podcasts
+  url: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/openapi/mixerbox-gpt-api-openapi.yml
+- filename: mixerbox-gpt-plugins-api-openapi.yml
+  format: yaml
+  label: MixerBox Gpt Plugins API
+  slug: mixerbox-gpt-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/openapi/mixerbox-podcasts-openapi-original.json
-- filename: mixerbox-weather-openapi-original.json
-  format: json
-  label: MixerBox Weather
-  slug: mixerbox-weather
+  url: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/openapi/mixerbox-gpt-plugins-api-openapi.yml
+- filename: mixerbox-services-funcs-getweatherinfo-mobile-0-api-openapi.yml
+  format: yaml
+  label: MixerBox Services?funcs=GetWeatherInfo&mobile=0 API
+  slug: mixerbox-services-funcs-getweatherinfo-mobile-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/openapi/mixerbox-weather-openapi-original.json
-- filename: mixerbox-calendar-openapi-original.json
-  format: json
-  label: MixerBox Calendar
-  slug: mixerbox-calendar
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/openapi/mixerbox-calendar-openapi-original.json
-- filename: mixerbox-translate-openapi-original.json
-  format: json
-  label: MixerBox Translate
-  slug: mixerbox-translate
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/openapi/mixerbox-translate-openapi-original.json
-- filename: mixerbox-imagegen-openapi-original.json
-  format: json
-  label: MixerBox ImageGen
-  slug: mixerbox-imagegen
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/openapi/mixerbox-imagegen-openapi-original.json
-- filename: mixerbox-photomagic-openapi-original.json
-  format: json
-  label: MixerBox PhotoMagic
-  slug: mixerbox-photomagic
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/openapi/mixerbox-photomagic-openapi-original.json
-- filename: mixerbox-chatpdf-openapi-original.json
-  format: json
-  label: MixerBox ChatPDF
-  slug: mixerbox-chatpdf
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/openapi/mixerbox-chatpdf-openapi-original.json
-- filename: mixerbox-scholar-openapi-original.json
-  format: json
-  label: MixerBox Scholar
-  slug: mixerbox-scholar
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/openapi/mixerbox-scholar-openapi-original.json
-- filename: mixerbox-qr-openapi-original.json
-  format: json
-  label: MixerBox QR
-  slug: mixerbox-qr
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/openapi/mixerbox-qr-openapi-original.json
-- filename: mixerbox-diagrams-openapi-original.json
-  format: json
-  label: MixerBox Diagrams
-  slug: mixerbox-diagrams
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/openapi/mixerbox-diagrams-openapi-original.json
-- filename: mixerbox-promptpro-openapi-original.json
-  format: json
-  label: MixerBox Prompt Pro
-  slug: mixerbox-prompt-pro
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/openapi/mixerbox-promptpro-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/openapi/mixerbox-services-funcs-getweatherinfo-mobile-0-api-openapi.yml
 description: ''
 domains:
 - caa: []

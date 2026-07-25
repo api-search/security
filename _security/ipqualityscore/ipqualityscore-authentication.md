@@ -2,48 +2,42 @@
 api_key_in:
 - path
 api_specs:
-- filename: ipqualityscore-openapi.yml
+- filename: ipqualityscore-device-fingerprint-api-openapi.yml
   format: yaml
-  label: IP Reputation & Proxy/VPN Detection API
-  slug: ip-reputation-proxy-vpn-api
+  label: IPQualityScore Device Fingerprint API
+  slug: ipqualityscore-device-fingerprint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-openapi.yml
-- filename: ipqualityscore-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-device-fingerprint-api-openapi.yml
+- filename: ipqualityscore-email-validation-api-openapi.yml
   format: yaml
-  label: Email Validation API
-  slug: email-validation-api
+  label: IPQualityScore Email Validation API
+  slug: ipqualityscore-email-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-openapi.yml
-- filename: ipqualityscore-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-email-validation-api-openapi.yml
+- filename: ipqualityscore-ip-reputation-api-openapi.yml
   format: yaml
-  label: Phone Number Validation API
-  slug: phone-validation-api
+  label: IPQualityScore IP Reputation API
+  slug: ipqualityscore-ip-reputation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-openapi.yml
-- filename: ipqualityscore-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-ip-reputation-api-openapi.yml
+- filename: ipqualityscore-leaked-data-api-openapi.yml
   format: yaml
-  label: Malicious URL Scanner API
-  slug: malicious-url-scanner-api
+  label: IPQualityScore Leaked Data API
+  slug: ipqualityscore-leaked-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-openapi.yml
-- filename: ipqualityscore-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-leaked-data-api-openapi.yml
+- filename: ipqualityscore-phone-validation-api-openapi.yml
   format: yaml
-  label: Device Fingerprint API
-  slug: device-fingerprint-api
+  label: IPQualityScore Phone Validation API
+  slug: ipqualityscore-phone-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-openapi.yml
-- filename: ipqualityscore-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-phone-validation-api-openapi.yml
+- filename: ipqualityscore-url-scanner-api-openapi.yml
   format: yaml
-  label: Transaction Scoring API
-  slug: transaction-scoring-api
+  label: IPQualityScore URL Scanner API
+  slug: ipqualityscore-url-scanner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-openapi.yml
-- filename: ipqualityscore-openapi.yml
-  format: yaml
-  label: Leaked Data (Dark Web) API
-  slug: leaked-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-url-scanner-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

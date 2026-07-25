@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: dxc-developer-central-api-openapi.yml
+- filename: dxc-technology-integration-api-openapi.yml
   format: yaml
-  label: DXC Developer Central API
-  slug: developer-central-api
+  label: DXC Technology Integration API
+  slug: dxc-technology-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dxc-technology/refs/heads/main/openapi/dxc-developer-central-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dxc-technology/refs/heads/main/openapi/dxc-technology-integration-api-openapi.yml
+- filename: dxc-technology-platform-api-openapi.yml
+  format: yaml
+  label: DXC Technology Platform API
+  slug: dxc-technology-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dxc-technology/refs/heads/main/openapi/dxc-technology-platform-api-openapi.yml
 description: ''
 domains:
 - caa: []

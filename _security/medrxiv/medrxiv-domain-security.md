@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: medrxiv-details-api-openapi.yml
   format: yaml
-  label: medRxiv REST API
-  slug: medrxiv-rest-api
+  label: medRxiv Details API
+  slug: medrxiv-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medrxiv/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/medrxiv/refs/heads/main/openapi/medrxiv-details-api-openapi.yml
+- filename: medrxiv-publications-api-openapi.yml
+  format: yaml
+  label: medRxiv Publications API
+  slug: medrxiv-publications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medrxiv/refs/heads/main/openapi/medrxiv-publications-api-openapi.yml
+- filename: medrxiv-usage-api-openapi.yml
+  format: yaml
+  label: medRxiv Usage API
+  slug: medrxiv-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medrxiv/refs/heads/main/openapi/medrxiv-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []

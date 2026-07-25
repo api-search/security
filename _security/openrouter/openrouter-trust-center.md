@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: OpenRouter
-  slug: openrouter
+- filename: openrouter-chat-api-openapi.yml
+  format: yaml
+  label: OpenRouter Chat API
+  slug: openrouter-chat-api
   spec_type: OpenAPI
-  url: https://openrouter.ai/openapi.json
-- filename: openapi.json
-  format: json
-  label: OpenRouter Chat Completions API
-  slug: chat-completions-api
+  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-chat-api-openapi.yml
+- filename: openrouter-completions-api-openapi.yml
+  format: yaml
+  label: OpenRouter Completions API
+  slug: openrouter-completions-api
   spec_type: OpenAPI
-  url: https://openrouter.ai/openapi.json
-- filename: openapi.json
-  format: json
-  label: OpenRouter Models API
-  slug: models-api
+  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-completions-api-openapi.yml
+- filename: openrouter-credits-api-openapi.yml
+  format: yaml
+  label: OpenRouter Credits API
+  slug: openrouter-credits-api
   spec_type: OpenAPI
-  url: https://openrouter.ai/openapi.json
-- filename: openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-credits-api-openapi.yml
+- filename: openrouter-generation-api-openapi.yml
+  format: yaml
   label: OpenRouter Generation API
-  slug: generation-api
+  slug: openrouter-generation-api
   spec_type: OpenAPI
-  url: https://openrouter.ai/openapi.json
-- filename: openapi.json
-  format: json
-  label: OpenRouter Keys Management API
-  slug: keys-api
+  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-generation-api-openapi.yml
+- filename: openrouter-keys-api-openapi.yml
+  format: yaml
+  label: OpenRouter Keys API
+  slug: openrouter-keys-api
   spec_type: OpenAPI
-  url: https://openrouter.ai/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-keys-api-openapi.yml
+- filename: openrouter-models-api-openapi.yml
+  format: yaml
+  label: OpenRouter Models API
+  slug: openrouter-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-models-api-openapi.yml
+- filename: openrouter-providers-api-openapi.yml
+  format: yaml
+  label: OpenRouter Providers API
+  slug: openrouter-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-providers-api-openapi.yml
 certifications:
 - SOC 2
 description: ''

@@ -1,47 +1,77 @@
 ---
 api_specs:
-- filename: polygon-stocks-openapi.yml
-  format: yaml
-  label: Polygon Stocks API
-  slug: stocks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-stocks-openapi.yml
-- filename: polygon-options-openapi.yml
-  format: yaml
-  label: Polygon Options API
-  slug: options-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-options-openapi.yml
-- filename: polygon-indices-openapi.yml
-  format: yaml
-  label: Polygon Indices API
-  slug: indices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-indices-openapi.yml
-- filename: polygon-forex-openapi.yml
-  format: yaml
-  label: Polygon Forex API
-  slug: forex-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-forex-openapi.yml
-- filename: polygon-crypto-openapi.yml
-  format: yaml
-  label: Polygon Crypto API
-  slug: crypto-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-crypto-openapi.yml
-- filename: polygon-reference-openapi.yml
-  format: yaml
-  label: Polygon Reference API
-  slug: reference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-reference-openapi.yml
 - filename: polygon-websocket-asyncapi.yml
   format: yaml
   label: Polygon WebSocket API
   slug: websocket-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/asyncapi/polygon-websocket-asyncapi.yml
+- filename: polygon-aggregates-api-openapi.yml
+  format: yaml
+  label: Polygon Aggregates API
+  slug: polygon-aggregates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-aggregates-api-openapi.yml
+- filename: polygon-books-api-openapi.yml
+  format: yaml
+  label: Polygon Books API
+  slug: polygon-books-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-books-api-openapi.yml
+- filename: polygon-contracts-api-openapi.yml
+  format: yaml
+  label: Polygon Contracts API
+  slug: polygon-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-contracts-api-openapi.yml
+- filename: polygon-conversion-api-openapi.yml
+  format: yaml
+  label: Polygon Conversion API
+  slug: polygon-conversion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-conversion-api-openapi.yml
+- filename: polygon-corporateactions-api-openapi.yml
+  format: yaml
+  label: Polygon CorporateActions API
+  slug: polygon-corporateactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-corporateactions-api-openapi.yml
+- filename: polygon-dailybars-api-openapi.yml
+  format: yaml
+  label: Polygon DailyBars API
+  slug: polygon-dailybars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-dailybars-api-openapi.yml
+- filename: polygon-markets-api-openapi.yml
+  format: yaml
+  label: Polygon Markets API
+  slug: polygon-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-markets-api-openapi.yml
+- filename: polygon-news-api-openapi.yml
+  format: yaml
+  label: Polygon News API
+  slug: polygon-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-news-api-openapi.yml
+- filename: polygon-quotes-api-openapi.yml
+  format: yaml
+  label: Polygon Quotes API
+  slug: polygon-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-quotes-api-openapi.yml
+- filename: polygon-snapshots-api-openapi.yml
+  format: yaml
+  label: Polygon Snapshots API
+  slug: polygon-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-snapshots-api-openapi.yml
+- filename: polygon-tickers-api-openapi.yml
+  format: yaml
+  label: Polygon Tickers API
+  slug: polygon-tickers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-tickers-api-openapi.yml
 description: ''
 domains:
 - caa: []

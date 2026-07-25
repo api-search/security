@@ -1,42 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: respond-openapi.yml
-  format: yaml
-  label: Respond.io Contacts API
-  slug: contacts
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-openapi.yml
-- filename: respond-openapi.yml
-  format: yaml
-  label: Respond.io Messages API
-  slug: messages
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-openapi.yml
-- filename: respond-openapi.yml
-  format: yaml
-  label: Respond.io Conversations API
-  slug: conversations
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-openapi.yml
-- filename: respond-openapi.yml
+- filename: respond-comments-api-openapi.yml
   format: yaml
   label: Respond.io Comments API
-  slug: comments
+  slug: respond-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-openapi.yml
-- filename: respond-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-comments-api-openapi.yml
+- filename: respond-contacts-api-openapi.yml
   format: yaml
-  label: Respond.io Tags and Custom Fields API
-  slug: tags-custom-fields
+  label: Respond.io Contacts API
+  slug: respond-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-openapi.yml
-- filename: respond-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-contacts-api-openapi.yml
+- filename: respond-conversations-api-openapi.yml
   format: yaml
-  label: Respond.io Webhooks API
-  slug: webhooks
+  label: Respond.io Conversations API
+  slug: respond-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-conversations-api-openapi.yml
+- filename: respond-custom-fields-api-openapi.yml
+  format: yaml
+  label: Respond.io Custom Fields API
+  slug: respond-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-custom-fields-api-openapi.yml
+- filename: respond-messages-api-openapi.yml
+  format: yaml
+  label: Respond.io Messages API
+  slug: respond-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-messages-api-openapi.yml
+- filename: respond-tags-api-openapi.yml
+  format: yaml
+  label: Respond.io Tags API
+  slug: respond-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-tags-api-openapi.yml
 auth_types:
 - http
 description: ''

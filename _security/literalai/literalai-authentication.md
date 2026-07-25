@@ -2,42 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: literalai-openapi.yml
+- filename: literalai-graphql-api-openapi.yml
   format: yaml
-  label: Literal AI Threads & Steps API
-  slug: threads-steps
+  label: Literal AI GraphQL API
+  slug: literalai-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/literalai/refs/heads/main/openapi/literalai-openapi.yml
-- filename: literalai-openapi.yml
-  format: yaml
-  label: Literal AI Generations API
-  slug: generations
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/literalai/refs/heads/main/openapi/literalai-openapi.yml
-- filename: literalai-openapi.yml
-  format: yaml
-  label: Literal AI Datasets API
-  slug: datasets
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/literalai/refs/heads/main/openapi/literalai-openapi.yml
-- filename: literalai-openapi.yml
-  format: yaml
-  label: Literal AI Experiments API
-  slug: experiments
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/literalai/refs/heads/main/openapi/literalai-openapi.yml
-- filename: literalai-openapi.yml
-  format: yaml
-  label: Literal AI Prompts API
-  slug: prompts
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/literalai/refs/heads/main/openapi/literalai-openapi.yml
-- filename: literalai-openapi.yml
-  format: yaml
-  label: Literal AI Scores API
-  slug: scores
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/literalai/refs/heads/main/openapi/literalai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/literalai/refs/heads/main/openapi/literalai-graphql-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

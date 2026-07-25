@@ -2,48 +2,180 @@
 api_key_in:
 - header
 api_specs:
-- filename: sitecore-xm-cloud-rest-api-openapi.yml
-  format: yaml
-  label: Sitecore XM Cloud REST API
-  slug: xm-cloud-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-xm-cloud-rest-api-openapi.yml
-- filename: sitecore-cdp-rest-api-openapi.yml
-  format: yaml
-  label: Sitecore CDP REST API
-  slug: cdp-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-cdp-rest-api-openapi.yml
 - filename: sitecore-cdp-stream-api-asyncapi.yml
   format: yaml
   label: Sitecore CDP Stream API
   slug: cdp-stream-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/asyncapi/sitecore-cdp-stream-api-asyncapi.yml
-- filename: sitecore-personalize-rest-api-openapi.yml
+- filename: sitecore-audit-api-openapi.yml
   format: yaml
-  label: Sitecore Personalize REST API
-  slug: personalize-rest-api
+  label: sitecore Audit API
+  slug: sitecore-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-personalize-rest-api-openapi.yml
-- filename: sitecore-content-hub-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-audit-api-openapi.yml
+- filename: sitecore-authentication-api-openapi.yml
   format: yaml
-  label: Sitecore Content Hub REST API
-  slug: content-hub-rest-api
+  label: sitecore Authentication API
+  slug: sitecore-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-content-hub-rest-api-openapi.yml
-- filename: sitecore-ordercloud-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-authentication-api-openapi.yml
+- filename: sitecore-buyers-api-openapi.yml
   format: yaml
-  label: Sitecore OrderCloud API
-  slug: ordercloud-api
+  label: sitecore Buyers API
+  slug: sitecore-buyers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-ordercloud-api-openapi.yml
-- filename: sitecore-discover-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-buyers-api-openapi.yml
+- filename: sitecore-collections-api-openapi.yml
   format: yaml
-  label: Sitecore Discover API
-  slug: discover-api
+  label: sitecore Collections API
+  slug: sitecore-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-discover-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-collections-api-openapi.yml
+- filename: sitecore-connections-api-openapi.yml
+  format: yaml
+  label: sitecore Connections API
+  slug: sitecore-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-connections-api-openapi.yml
+- filename: sitecore-decision-models-api-openapi.yml
+  format: yaml
+  label: sitecore Decision Models API
+  slug: sitecore-decision-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-decision-models-api-openapi.yml
+- filename: sitecore-download-orders-api-openapi.yml
+  format: yaml
+  label: sitecore Download Orders API
+  slug: sitecore-download-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-download-orders-api-openapi.yml
+- filename: sitecore-entities-api-openapi.yml
+  format: yaml
+  label: sitecore Entities API
+  slug: sitecore-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-entities-api-openapi.yml
+- filename: sitecore-events-api-openapi.yml
+  format: yaml
+  label: sitecore Events API
+  slug: sitecore-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-events-api-openapi.yml
+- filename: sitecore-flow-definitions-api-openapi.yml
+  format: yaml
+  label: sitecore Flow Definitions API
+  slug: sitecore-flow-definitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-flow-definitions-api-openapi.yml
+- filename: sitecore-guest-data-extensions-api-openapi.yml
+  format: yaml
+  label: sitecore Guest Data Extensions API
+  slug: sitecore-guest-data-extensions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-guest-data-extensions-api-openapi.yml
+- filename: sitecore-guests-api-openapi.yml
+  format: yaml
+  label: sitecore Guests API
+  slug: sitecore-guests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-guests-api-openapi.yml
+- filename: sitecore-incremental-feed-api-openapi.yml
+  format: yaml
+  label: sitecore Incremental Feed API
+  slug: sitecore-incremental-feed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-incremental-feed-api-openapi.yml
+- filename: sitecore-jobs-api-openapi.yml
+  format: yaml
+  label: sitecore Jobs API
+  slug: sitecore-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-jobs-api-openapi.yml
+- filename: sitecore-languages-api-openapi.yml
+  format: yaml
+  label: sitecore Languages API
+  slug: sitecore-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-languages-api-openapi.yml
+- filename: sitecore-order-items-api-openapi.yml
+  format: yaml
+  label: sitecore Order Items API
+  slug: sitecore-order-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-order-items-api-openapi.yml
+- filename: sitecore-orders-api-openapi.yml
+  format: yaml
+  label: sitecore Orders API
+  slug: sitecore-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-orders-api-openapi.yml
+- filename: sitecore-pages-api-openapi.yml
+  format: yaml
+  label: sitecore Pages API
+  slug: sitecore-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-pages-api-openapi.yml
+- filename: sitecore-products-api-openapi.yml
+  format: yaml
+  label: sitecore Products API
+  slug: sitecore-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-products-api-openapi.yml
+- filename: sitecore-promotions-api-openapi.yml
+  format: yaml
+  label: sitecore Promotions API
+  slug: sitecore-promotions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-promotions-api-openapi.yml
+- filename: sitecore-publishing-jobs-api-openapi.yml
+  format: yaml
+  label: sitecore Publishing Jobs API
+  slug: sitecore-publishing-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-publishing-jobs-api-openapi.yml
+- filename: sitecore-querying-api-openapi.yml
+  format: yaml
+  label: sitecore Querying API
+  slug: sitecore-querying-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-querying-api-openapi.yml
+- filename: sitecore-search-and-recommendations-api-openapi.yml
+  format: yaml
+  label: sitecore Search and Recommendations API
+  slug: sitecore-search-and-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-search-and-recommendations-api-openapi.yml
+- filename: sitecore-search-api-openapi.yml
+  format: yaml
+  label: sitecore Search API
+  slug: sitecore-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-search-api-openapi.yml
+- filename: sitecore-selections-api-openapi.yml
+  format: yaml
+  label: sitecore Selections API
+  slug: sitecore-selections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-selections-api-openapi.yml
+- filename: sitecore-sites-api-openapi.yml
+  format: yaml
+  label: sitecore Sites API
+  slug: sitecore-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-sites-api-openapi.yml
+- filename: sitecore-templates-api-openapi.yml
+  format: yaml
+  label: sitecore Templates API
+  slug: sitecore-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-templates-api-openapi.yml
+- filename: sitecore-upload-api-openapi.yml
+  format: yaml
+  label: sitecore Upload API
+  slug: sitecore-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-upload-api-openapi.yml
 auth_types:
 - apiKey
 - http

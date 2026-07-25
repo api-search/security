@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: supermicro-redfish-openapi.yml
+- filename: super-micro-computer-accounts-api-openapi.yml
   format: yaml
-  label: Supermicro Redfish API
-  slug: redfish-api
+  label: Super Micro Computer Accounts API
+  slug: super-micro-computer-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/supermicro-redfish-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-accounts-api-openapi.yml
+- filename: super-micro-computer-chassis-api-openapi.yml
+  format: yaml
+  label: Super Micro Computer Chassis API
+  slug: super-micro-computer-chassis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-chassis-api-openapi.yml
+- filename: super-micro-computer-event-service-api-openapi.yml
+  format: yaml
+  label: Super Micro Computer Event Service API
+  slug: super-micro-computer-event-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-event-service-api-openapi.yml
+- filename: super-micro-computer-managers-api-openapi.yml
+  format: yaml
+  label: Super Micro Computer Managers API
+  slug: super-micro-computer-managers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-managers-api-openapi.yml
+- filename: super-micro-computer-network-api-openapi.yml
+  format: yaml
+  label: Super Micro Computer Network API
+  slug: super-micro-computer-network-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-network-api-openapi.yml
+- filename: super-micro-computer-service-root-api-openapi.yml
+  format: yaml
+  label: Super Micro Computer Service Root API
+  slug: super-micro-computer-service-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-service-root-api-openapi.yml
+- filename: super-micro-computer-sessions-api-openapi.yml
+  format: yaml
+  label: Super Micro Computer Sessions API
+  slug: super-micro-computer-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-sessions-api-openapi.yml
+- filename: super-micro-computer-storage-api-openapi.yml
+  format: yaml
+  label: Super Micro Computer Storage API
+  slug: super-micro-computer-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-storage-api-openapi.yml
+- filename: super-micro-computer-systems-api-openapi.yml
+  format: yaml
+  label: Super Micro Computer Systems API
+  slug: super-micro-computer-systems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-systems-api-openapi.yml
+- filename: super-micro-computer-update-service-api-openapi.yml
+  format: yaml
+  label: Super Micro Computer Update Service API
+  slug: super-micro-computer-update-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-update-service-api-openapi.yml
 description: ''
 domains:
 - caa: []

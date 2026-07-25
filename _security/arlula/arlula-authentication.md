@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: arlula-openapi.yaml
+- filename: arlula-archive-api-openapi.yml
   format: yaml
-  label: Arlula API
-  slug: arlula-api
+  label: Arlula Archive API
+  slug: arlula-archive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/openapi/arlula-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/openapi/arlula-archive-api-openapi.yml
+- filename: arlula-connection-api-openapi.yml
+  format: yaml
+  label: Arlula Connection API
+  slug: arlula-connection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/openapi/arlula-connection-api-openapi.yml
+- filename: arlula-orders-api-openapi.yml
+  format: yaml
+  label: Arlula Orders API
+  slug: arlula-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/openapi/arlula-orders-api-openapi.yml
+- filename: arlula-tasking-api-openapi.yml
+  format: yaml
+  label: Arlula Tasking API
+  slug: arlula-tasking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/openapi/arlula-tasking-api-openapi.yml
 auth_types:
 - http
 description: ''

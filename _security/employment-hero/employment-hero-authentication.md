@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: employment-hero-openapi.yml
+- filename: employment-hero-bank-accounts-api-openapi.yml
   format: yaml
-  label: Employment Hero REST API
-  slug: rest-api
+  label: Employment Hero Bank Accounts API
+  slug: employment-hero-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-bank-accounts-api-openapi.yml
+- filename: employment-hero-certifications-api-openapi.yml
+  format: yaml
+  label: Employment Hero Certifications API
+  slug: employment-hero-certifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-certifications-api-openapi.yml
+- filename: employment-hero-cost-centres-api-openapi.yml
+  format: yaml
+  label: Employment Hero Cost Centres API
+  slug: employment-hero-cost-centres-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-cost-centres-api-openapi.yml
+- filename: employment-hero-custom-fields-api-openapi.yml
+  format: yaml
+  label: Employment Hero Custom Fields API
+  slug: employment-hero-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-custom-fields-api-openapi.yml
+- filename: employment-hero-departments-api-openapi.yml
+  format: yaml
+  label: Employment Hero Departments API
+  slug: employment-hero-departments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-departments-api-openapi.yml
+- filename: employment-hero-documents-api-openapi.yml
+  format: yaml
+  label: Employment Hero Documents API
+  slug: employment-hero-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-documents-api-openapi.yml
+- filename: employment-hero-emergency-contacts-api-openapi.yml
+  format: yaml
+  label: Employment Hero Emergency Contacts API
+  slug: employment-hero-emergency-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-emergency-contacts-api-openapi.yml
+- filename: employment-hero-employees-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employees API
+  slug: employment-hero-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employees-api-openapi.yml
+- filename: employment-hero-forms-api-openapi.yml
+  format: yaml
+  label: Employment Hero Forms API
+  slug: employment-hero-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-forms-api-openapi.yml
+- filename: employment-hero-job-histories-api-openapi.yml
+  format: yaml
+  label: Employment Hero Job Histories API
+  slug: employment-hero-job-histories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-job-histories-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

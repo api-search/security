@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: radio-mast-openapi.yml
+- filename: radio-mast-analytics-api-openapi.yml
   format: yaml
-  label: Radio Mast
-  slug: radio-mast
+  label: Radio Mast Analytics API
+  slug: radio-mast-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/openapi/radio-mast-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/openapi/radio-mast-analytics-api-openapi.yml
+- filename: radio-mast-listener-pools-api-openapi.yml
+  format: yaml
+  label: Radio Mast Listener Pools API
+  slug: radio-mast-listener-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/openapi/radio-mast-listener-pools-api-openapi.yml
+- filename: radio-mast-radio-mast-api-api-openapi.yml
+  format: yaml
+  label: Radio Mast Radio Mast API API
+  slug: radio-mast-radio-mast-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/openapi/radio-mast-radio-mast-api-api-openapi.yml
+- filename: radio-mast-radio-stations-api-openapi.yml
+  format: yaml
+  label: Radio Mast Radio Stations API
+  slug: radio-mast-radio-stations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/openapi/radio-mast-radio-stations-api-openapi.yml
+- filename: radio-mast-radio-streams-api-openapi.yml
+  format: yaml
+  label: Radio Mast Radio Streams API
+  slug: radio-mast-radio-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/openapi/radio-mast-radio-streams-api-openapi.yml
 description: ''
 domains:
 - caa: []

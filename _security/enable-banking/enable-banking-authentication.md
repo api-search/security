@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: enable-banking-api-openapi.yml
+- filename: enable-banking-accounts-data-api-openapi.yml
   format: yaml
-  label: Enable Banking API
-  slug: enable-banking-api
+  label: Enable Banking Accounts data API
+  slug: enable-banking-accounts-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/openapi/enable-banking-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/openapi/enable-banking-accounts-data-api-openapi.yml
+- filename: enable-banking-misc-api-openapi.yml
+  format: yaml
+  label: Enable Banking Misc API
+  slug: enable-banking-misc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/openapi/enable-banking-misc-api-openapi.yml
+- filename: enable-banking-payments-api-openapi.yml
+  format: yaml
+  label: Enable Banking Payments API
+  slug: enable-banking-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/openapi/enable-banking-payments-api-openapi.yml
+- filename: enable-banking-user-sessions-api-openapi.yml
+  format: yaml
+  label: Enable Banking User sessions API
+  slug: enable-banking-user-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/openapi/enable-banking-user-sessions-api-openapi.yml
 auth_types:
 - http
 description: ''

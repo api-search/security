@@ -1,59 +1,59 @@
 ---
 api_specs:
-- filename: skimmer-pool-openapi.yml
-  format: yaml
-  label: Skimmer Customers API
-  slug: skimmer-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-openapi.yml
-- filename: skimmer-pool-openapi.yml
+- filename: skimmer-pool-bodies-of-water-api-openapi.yml
   format: yaml
   label: Skimmer Bodies of Water API
-  slug: skimmer-bodies-of-water-api
+  slug: skimmer-pool-bodies-of-water-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-openapi.yml
-- filename: skimmer-pool-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-bodies-of-water-api-openapi.yml
+- filename: skimmer-pool-customers-api-openapi.yml
   format: yaml
-  label: Skimmer Service Locations API
-  slug: skimmer-service-locations-api
+  label: Skimmer Customers API
+  slug: skimmer-pool-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-openapi.yml
-- filename: skimmer-pool-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-customers-api-openapi.yml
+- filename: skimmer-pool-invoices-api-openapi.yml
   format: yaml
-  label: Skimmer Work Orders API
-  slug: skimmer-work-orders-api
+  label: Skimmer Invoices API
+  slug: skimmer-pool-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-openapi.yml
-- filename: skimmer-pool-openapi.yml
-  format: yaml
-  label: Skimmer Routes API
-  slug: skimmer-routes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-openapi.yml
-- filename: skimmer-pool-openapi.yml
-  format: yaml
-  label: Skimmer Invoices and Billing API
-  slug: skimmer-invoices-billing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-openapi.yml
-- filename: skimmer-pool-openapi.yml
-  format: yaml
-  label: Skimmer Quotes API
-  slug: skimmer-quotes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-openapi.yml
-- filename: skimmer-pool-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-invoices-api-openapi.yml
+- filename: skimmer-pool-products-api-openapi.yml
   format: yaml
   label: Skimmer Products API
-  slug: skimmer-products-api
+  slug: skimmer-pool-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-openapi.yml
-- filename: skimmer-pool-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-products-api-openapi.yml
+- filename: skimmer-pool-quotes-api-openapi.yml
+  format: yaml
+  label: Skimmer Quotes API
+  slug: skimmer-pool-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-quotes-api-openapi.yml
+- filename: skimmer-pool-routes-api-openapi.yml
+  format: yaml
+  label: Skimmer Routes API
+  slug: skimmer-pool-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-routes-api-openapi.yml
+- filename: skimmer-pool-service-locations-api-openapi.yml
+  format: yaml
+  label: Skimmer Service Locations API
+  slug: skimmer-pool-service-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-service-locations-api-openapi.yml
+- filename: skimmer-pool-users-api-openapi.yml
   format: yaml
   label: Skimmer Users API
-  slug: skimmer-users-api
+  slug: skimmer-pool-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-users-api-openapi.yml
+- filename: skimmer-pool-work-orders-api-openapi.yml
+  format: yaml
+  label: Skimmer Work Orders API
+  slug: skimmer-pool-work-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-work-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []

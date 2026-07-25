@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: lingo-dev-openapi.yml
+- filename: lingo-dev-account-api-openapi.yml
   format: yaml
-  label: Lingo.dev Engine API (Localize)
-  slug: engine-api-localize
+  label: Lingo.dev Account API
+  slug: lingo-dev-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingo-dev/refs/heads/main/openapi/lingo-dev-openapi.yml
-- filename: lingo-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lingo-dev/refs/heads/main/openapi/lingo-dev-account-api-openapi.yml
+- filename: lingo-dev-asynchronous-api-openapi.yml
   format: yaml
-  label: Lingo.dev SDK
-  slug: sdk
+  label: Lingo.dev Asynchronous API
+  slug: lingo-dev-asynchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingo-dev/refs/heads/main/openapi/lingo-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lingo-dev/refs/heads/main/openapi/lingo-dev-asynchronous-api-openapi.yml
+- filename: lingo-dev-synchronous-api-openapi.yml
+  format: yaml
+  label: Lingo.dev Synchronous API
+  slug: lingo-dev-synchronous-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lingo-dev/refs/heads/main/openapi/lingo-dev-synchronous-api-openapi.yml
 description: ''
 domains:
 - caa: []

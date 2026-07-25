@@ -1,47 +1,65 @@
 ---
 api_specs:
-- filename: herald-openapi.yml
+- filename: herald-applications-api-openapi.yml
   format: yaml
   label: Herald Applications API
-  slug: applications
+  slug: herald-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-openapi.yml
-- filename: herald-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-applications-api-openapi.yml
+- filename: herald-authentication-api-openapi.yml
   format: yaml
-  label: Herald Quotes API
-  slug: quotes
+  label: Herald Authentication API
+  slug: herald-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-openapi.yml
-- filename: herald-openapi.yml
-  format: yaml
-  label: Herald Products API
-  slug: products
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-openapi.yml
-- filename: herald-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-authentication-api-openapi.yml
+- filename: herald-classifications-api-openapi.yml
   format: yaml
   label: Herald Classifications API
-  slug: classifications
+  slug: herald-classifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-openapi.yml
-- filename: herald-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-classifications-api-openapi.yml
+- filename: herald-distributors-api-openapi.yml
   format: yaml
   label: Herald Distributors API
-  slug: distributors
+  slug: herald-distributors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-openapi.yml
-- filename: herald-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-distributors-api-openapi.yml
+- filename: herald-files-api-openapi.yml
   format: yaml
   label: Herald Files API
-  slug: files
+  slug: herald-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-openapi.yml
-- filename: herald-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-files-api-openapi.yml
+- filename: herald-producers-api-openapi.yml
+  format: yaml
+  label: Herald Producers API
+  slug: herald-producers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-producers-api-openapi.yml
+- filename: herald-products-api-openapi.yml
+  format: yaml
+  label: Herald Products API
+  slug: herald-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-products-api-openapi.yml
+- filename: herald-quotes-api-openapi.yml
+  format: yaml
+  label: Herald Quotes API
+  slug: herald-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-quotes-api-openapi.yml
+- filename: herald-submissions-api-openapi.yml
+  format: yaml
+  label: Herald Submissions API
+  slug: herald-submissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-submissions-api-openapi.yml
+- filename: herald-webhooks-api-openapi.yml
   format: yaml
   label: Herald Webhooks API
-  slug: webhooks
+  slug: herald-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

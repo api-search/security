@@ -1,54 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: wm-openapi.yml
-  format: yaml
-  label: WM Services API
-  slug: wm-services-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-openapi.yml
-- filename: wm-openapi.yml
-  format: yaml
-  label: WM Service Operations & Materials API
-  slug: wm-service-operations-materials-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-openapi.yml
-- filename: wm-openapi.yml
-  format: yaml
-  label: WM Service Pricing API
-  slug: wm-service-pricing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-openapi.yml
-- filename: wm-openapi.yml
-  format: yaml
-  label: WM Invoices & Balance API
-  slug: wm-invoices-balance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-openapi.yml
-- filename: wm-openapi.yml
-  format: yaml
-  label: WM Profiles & Preferences API
-  slug: wm-profiles-preferences-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-openapi.yml
-- filename: wm-openapi.yml
-  format: yaml
-  label: WM Contacts API
-  slug: wm-contacts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-openapi.yml
-- filename: wm-openapi.yml
-  format: yaml
-  label: WM Cases & Tickets API
-  slug: wm-cases-tickets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-openapi.yml
-- filename: wm-openapi.yml
+- filename: wm-activities-api-openapi.yml
   format: yaml
   label: WM Activities API
   slug: wm-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-activities-api-openapi.yml
+- filename: wm-cases-tickets-api-openapi.yml
+  format: yaml
+  label: WM Cases & Tickets API
+  slug: wm-cases-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-cases-tickets-api-openapi.yml
+- filename: wm-contacts-api-openapi.yml
+  format: yaml
+  label: WM Contacts API
+  slug: wm-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-contacts-api-openapi.yml
+- filename: wm-invoices-balance-api-openapi.yml
+  format: yaml
+  label: WM Invoices & Balance API
+  slug: wm-invoices-balance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-invoices-balance-api-openapi.yml
+- filename: wm-profiles-preferences-api-openapi.yml
+  format: yaml
+  label: WM Profiles & Preferences API
+  slug: wm-profiles-preferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-profiles-preferences-api-openapi.yml
+- filename: wm-service-operations-materials-api-openapi.yml
+  format: yaml
+  label: WM Service Operations & Materials API
+  slug: wm-service-operations-materials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-service-operations-materials-api-openapi.yml
+- filename: wm-service-pricing-api-openapi.yml
+  format: yaml
+  label: WM Service Pricing API
+  slug: wm-service-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-service-pricing-api-openapi.yml
+- filename: wm-services-api-openapi.yml
+  format: yaml
+  label: WM Services API
+  slug: wm-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-services-api-openapi.yml
 auth_types:
 - http
 description: ''

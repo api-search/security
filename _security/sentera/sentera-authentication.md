@@ -1,30 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sentera-openapi.yml
+- filename: sentera-graphql-api-openapi.yml
   format: yaml
-  label: Sentera FieldAgent GraphQL API
-  slug: sentera-fieldagent-graphql-api
+  label: Sentera GraphQL API
+  slug: sentera-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sentera/refs/heads/main/openapi/sentera-openapi.yml
-- filename: sentera-openapi.yml
-  format: yaml
-  label: Sentera Imagery & Data API
-  slug: sentera-imagery-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sentera/refs/heads/main/openapi/sentera-openapi.yml
-- filename: sentera-openapi.yml
-  format: yaml
-  label: Sentera Plot Analytics API
-  slug: sentera-plot-analytics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sentera/refs/heads/main/openapi/sentera-openapi.yml
-- filename: sentera-openapi.yml
-  format: yaml
-  label: Sentera Orders & Organizations API
-  slug: sentera-orders-organizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sentera/refs/heads/main/openapi/sentera-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sentera/refs/heads/main/openapi/sentera-graphql-api-openapi.yml
 auth_types:
 - http
 description: ''

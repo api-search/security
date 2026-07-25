@@ -1,36 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: chroma-db-openapi.yml
+- filename: chroma-db-collections-api-openapi.yml
   format: yaml
   label: Chroma Collections API
   slug: chroma-db-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroma-db/refs/heads/main/openapi/chroma-db-openapi.yml
-- filename: chroma-db-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chroma-db/refs/heads/main/openapi/chroma-db-collections-api-openapi.yml
+- filename: chroma-db-databases-api-openapi.yml
   format: yaml
-  label: Chroma Records (Embeddings) API
-  slug: chroma-db-records-api
+  label: Chroma Databases API
+  slug: chroma-db-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroma-db/refs/heads/main/openapi/chroma-db-openapi.yml
-- filename: chroma-db-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chroma-db/refs/heads/main/openapi/chroma-db-databases-api-openapi.yml
+- filename: chroma-db-query-api-openapi.yml
   format: yaml
-  label: Chroma Query and Similarity Search API
+  label: Chroma Query API
   slug: chroma-db-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroma-db/refs/heads/main/openapi/chroma-db-openapi.yml
-- filename: chroma-db-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chroma-db/refs/heads/main/openapi/chroma-db-query-api-openapi.yml
+- filename: chroma-db-records-api-openapi.yml
   format: yaml
-  label: Chroma Tenants and Databases API
-  slug: chroma-db-tenants-databases-api
+  label: Chroma Records API
+  slug: chroma-db-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroma-db/refs/heads/main/openapi/chroma-db-openapi.yml
-- filename: chroma-db-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chroma-db/refs/heads/main/openapi/chroma-db-records-api-openapi.yml
+- filename: chroma-db-system-api-openapi.yml
   format: yaml
-  label: Chroma System and Health API
+  label: Chroma System API
   slug: chroma-db-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroma-db/refs/heads/main/openapi/chroma-db-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chroma-db/refs/heads/main/openapi/chroma-db-system-api-openapi.yml
+- filename: chroma-db-tenants-api-openapi.yml
+  format: yaml
+  label: Chroma Tenants API
+  slug: chroma-db-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chroma-db/refs/heads/main/openapi/chroma-db-tenants-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

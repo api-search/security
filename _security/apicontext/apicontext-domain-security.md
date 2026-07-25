@@ -1,11 +1,77 @@
 ---
 api_specs:
-- filename: apicontext-platform-openapi.yaml
+- filename: apicontext-agents-api-openapi.yml
   format: yaml
-  label: APIContext Synthetic API Testing
-  slug: synthetic-api-testing
+  label: APIContext Agents API
+  slug: apicontext-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicontext/refs/heads/main/openapi/apicontext-platform-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apicontext/refs/heads/main/openapi/apicontext-agents-api-openapi.yml
+- filename: apicontext-alerts-api-openapi.yml
+  format: yaml
+  label: APIContext Alerts API
+  slug: apicontext-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicontext/refs/heads/main/openapi/apicontext-alerts-api-openapi.yml
+- filename: apicontext-api-calls-api-openapi.yml
+  format: yaml
+  label: APIContext API Calls API
+  slug: apicontext-api-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicontext/refs/heads/main/openapi/apicontext-api-calls-api-openapi.yml
+- filename: apicontext-directory-api-openapi.yml
+  format: yaml
+  label: APIContext Directory API
+  slug: apicontext-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicontext/refs/heads/main/openapi/apicontext-directory-api-openapi.yml
+- filename: apicontext-insights-api-openapi.yml
+  format: yaml
+  label: APIContext Insights API
+  slug: apicontext-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicontext/refs/heads/main/openapi/apicontext-insights-api-openapi.yml
+- filename: apicontext-projects-api-openapi.yml
+  format: yaml
+  label: APIContext Projects API
+  slug: apicontext-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicontext/refs/heads/main/openapi/apicontext-projects-api-openapi.yml
+- filename: apicontext-reports-api-openapi.yml
+  format: yaml
+  label: APIContext Reports API
+  slug: apicontext-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicontext/refs/heads/main/openapi/apicontext-reports-api-openapi.yml
+- filename: apicontext-results-api-openapi.yml
+  format: yaml
+  label: APIContext Results API
+  slug: apicontext-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicontext/refs/heads/main/openapi/apicontext-results-api-openapi.yml
+- filename: apicontext-schedules-api-openapi.yml
+  format: yaml
+  label: APIContext Schedules API
+  slug: apicontext-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicontext/refs/heads/main/openapi/apicontext-schedules-api-openapi.yml
+- filename: apicontext-statistics-api-openapi.yml
+  format: yaml
+  label: APIContext Statistics API
+  slug: apicontext-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicontext/refs/heads/main/openapi/apicontext-statistics-api-openapi.yml
+- filename: apicontext-tokens-api-openapi.yml
+  format: yaml
+  label: APIContext Tokens API
+  slug: apicontext-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicontext/refs/heads/main/openapi/apicontext-tokens-api-openapi.yml
+- filename: apicontext-workflows-api-openapi.yml
+  format: yaml
+  label: APIContext Workflows API
+  slug: apicontext-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicontext/refs/heads/main/openapi/apicontext-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []

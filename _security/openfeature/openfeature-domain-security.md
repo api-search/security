@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openfeature-openapi.yaml
+- filename: openfeature-ofrep-core-api-openapi.yml
   format: yaml
-  label: OpenFeature Evaluation API
-  slug: openfeature-spec
+  label: OpenFeature OFREP Core API
+  slug: openfeature-ofrep-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openfeature/refs/heads/main/openapi/openfeature-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/openfeature/refs/heads/main/openapi/openfeature-ofrep-core-api-openapi.yml
 description: ''
 domains:
 - caa: []

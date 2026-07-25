@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-secret-manager-secret-versions-api-openapi.yml
   format: yaml
-  label: Google Cloud Secret Manager API
-  slug: google-cloud-secret-manager-api
+  label: Google Cloud Secret Manager Secret Versions API
+  slug: google-cloud-secret-manager-secret-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-secret-manager/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-secret-manager/refs/heads/main/openapi/google-cloud-secret-manager-secret-versions-api-openapi.yml
+- filename: google-cloud-secret-manager-secrets-api-openapi.yml
+  format: yaml
+  label: Google Cloud Secret Manager Secrets API
+  slug: google-cloud-secret-manager-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-secret-manager/refs/heads/main/openapi/google-cloud-secret-manager-secrets-api-openapi.yml
 description: ''
 domains:
 - caa:

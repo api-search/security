@@ -1,83 +1,77 @@
 ---
 api_specs:
-- filename: hunter-api-openapi.yml
-  format: yaml
-  label: Hunter Domain Search API
-  slug: domain-search
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
-- filename: hunter-api-openapi.yml
-  format: yaml
-  label: Hunter Email Finder API
-  slug: email-finder
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
-- filename: hunter-api-openapi.yml
-  format: yaml
-  label: Hunter Email Verifier API
-  slug: email-verifier
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
-- filename: hunter-api-openapi.yml
-  format: yaml
-  label: Hunter Email Count API
-  slug: email-count
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
-- filename: hunter-api-openapi.yml
+- filename: hunter-account-api-openapi.yml
   format: yaml
   label: Hunter Account API
-  slug: account
+  slug: hunter-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
-- filename: hunter-api-openapi.yml
-  format: yaml
-  label: Hunter Discover API
-  slug: discover
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
-- filename: hunter-api-openapi.yml
-  format: yaml
-  label: Hunter Email Enrichment API
-  slug: email-enrichment
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
-- filename: hunter-api-openapi.yml
-  format: yaml
-  label: Hunter Company Enrichment API
-  slug: company-enrichment
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
-- filename: hunter-api-openapi.yml
-  format: yaml
-  label: Hunter Combined Enrichment API
-  slug: combined-enrichment
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
-- filename: hunter-api-openapi.yml
-  format: yaml
-  label: Hunter Leads API
-  slug: leads
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
-- filename: hunter-api-openapi.yml
-  format: yaml
-  label: Hunter Leads Lists API
-  slug: leads-lists
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
-- filename: hunter-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-account-api-openapi.yml
+- filename: hunter-campaigns-api-openapi.yml
   format: yaml
   label: Hunter Campaigns API
-  slug: campaigns
+  slug: hunter-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
-- filename: hunter-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-campaigns-api-openapi.yml
+- filename: hunter-combined-enrichment-api-openapi.yml
   format: yaml
-  label: Hunter Logo API
-  slug: logo
+  label: Hunter Combined Enrichment API
+  slug: hunter-combined-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-combined-enrichment-api-openapi.yml
+- filename: hunter-company-enrichment-api-openapi.yml
+  format: yaml
+  label: Hunter Company Enrichment API
+  slug: hunter-company-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-company-enrichment-api-openapi.yml
+- filename: hunter-discover-api-openapi.yml
+  format: yaml
+  label: Hunter Discover API
+  slug: hunter-discover-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-discover-api-openapi.yml
+- filename: hunter-domain-search-api-openapi.yml
+  format: yaml
+  label: Hunter Domain Search API
+  slug: hunter-domain-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-domain-search-api-openapi.yml
+- filename: hunter-email-count-api-openapi.yml
+  format: yaml
+  label: Hunter Email Count API
+  slug: hunter-email-count-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-email-count-api-openapi.yml
+- filename: hunter-email-enrichment-api-openapi.yml
+  format: yaml
+  label: Hunter Email Enrichment API
+  slug: hunter-email-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-email-enrichment-api-openapi.yml
+- filename: hunter-email-finder-api-openapi.yml
+  format: yaml
+  label: Hunter Email Finder API
+  slug: hunter-email-finder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-email-finder-api-openapi.yml
+- filename: hunter-email-verifier-api-openapi.yml
+  format: yaml
+  label: Hunter Email Verifier API
+  slug: hunter-email-verifier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-email-verifier-api-openapi.yml
+- filename: hunter-leads-api-openapi.yml
+  format: yaml
+  label: Hunter Leads API
+  slug: hunter-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-leads-api-openapi.yml
+- filename: hunter-leads-lists-api-openapi.yml
+  format: yaml
+  label: Hunter Leads Lists API
+  slug: hunter-leads-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-leads-lists-api-openapi.yml
 description: ''
 domains:
 - caa:

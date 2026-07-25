@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: stitch-openapi.yml
+- filename: stitch-authentication-api-openapi.yml
   format: yaml
-  label: Stitch GraphQL API
-  slug: stitch-graphql
+  label: Stitch Authentication API
+  slug: stitch-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stitch/refs/heads/main/openapi/stitch-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stitch/refs/heads/main/openapi/stitch-authentication-api-openapi.yml
+- filename: stitch-disbursements-api-openapi.yml
+  format: yaml
+  label: Stitch Disbursements API
+  slug: stitch-disbursements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stitch/refs/heads/main/openapi/stitch-disbursements-api-openapi.yml
+- filename: stitch-financial-data-api-openapi.yml
+  format: yaml
+  label: Stitch Financial Data API
+  slug: stitch-financial-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stitch/refs/heads/main/openapi/stitch-financial-data-api-openapi.yml
+- filename: stitch-payments-api-openapi.yml
+  format: yaml
+  label: Stitch Payments API
+  slug: stitch-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stitch/refs/heads/main/openapi/stitch-payments-api-openapi.yml
 description: ''
 domains:
 - caa:

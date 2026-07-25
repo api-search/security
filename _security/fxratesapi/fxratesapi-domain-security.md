@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: fxratesapi-openapi.yml
-  format: yaml
-  label: FXRatesAPI Latest Rates API
-  slug: fxratesapi-latest-rates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-openapi.yml
-- filename: fxratesapi-openapi.yml
-  format: yaml
-  label: FXRatesAPI Historical Rates API
-  slug: fxratesapi-historical-rates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-openapi.yml
-- filename: fxratesapi-openapi.yml
-  format: yaml
-  label: FXRatesAPI Time-Series API
-  slug: fxratesapi-time-series-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-openapi.yml
-- filename: fxratesapi-openapi.yml
+- filename: fxratesapi-convert-api-openapi.yml
   format: yaml
   label: FXRatesAPI Convert API
   slug: fxratesapi-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-openapi.yml
-- filename: fxratesapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-convert-api-openapi.yml
+- filename: fxratesapi-currencies-api-openapi.yml
   format: yaml
   label: FXRatesAPI Currencies API
   slug: fxratesapi-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-currencies-api-openapi.yml
+- filename: fxratesapi-historical-rates-api-openapi.yml
+  format: yaml
+  label: FXRatesAPI Historical Rates API
+  slug: fxratesapi-historical-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-historical-rates-api-openapi.yml
+- filename: fxratesapi-latest-rates-api-openapi.yml
+  format: yaml
+  label: FXRatesAPI Latest Rates API
+  slug: fxratesapi-latest-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-latest-rates-api-openapi.yml
+- filename: fxratesapi-time-series-api-openapi.yml
+  format: yaml
+  label: FXRatesAPI Time-Series API
+  slug: fxratesapi-time-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-time-series-api-openapi.yml
 description: ''
 domains:
 - caa: []

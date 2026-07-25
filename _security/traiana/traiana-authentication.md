@@ -2,24 +2,66 @@
 api_key_in:
 - header
 api_specs:
-- filename: traiana-harmony-trade-processing-openapi.yml
+- filename: traiana-allocations-api-openapi.yml
   format: yaml
-  label: Traiana Harmony Trade Processing API
-  slug: harmony-trade-processing
+  label: Traiana Allocations API
+  slug: traiana-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-harmony-trade-processing-openapi.yml
-- filename: traiana-harmony-creditlink-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-allocations-api-openapi.yml
+- filename: traiana-compression-api-openapi.yml
   format: yaml
-  label: Traiana Harmony CreditLink API
-  slug: harmony-creditlink
+  label: Traiana Compression API
+  slug: traiana-compression-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-harmony-creditlink-openapi.yml
-- filename: traiana-harmony-netlink-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-compression-api-openapi.yml
+- filename: traiana-credit-limits-api-openapi.yml
   format: yaml
-  label: Traiana Harmony NetLink API
-  slug: harmony-netlink
+  label: Traiana Credit Limits API
+  slug: traiana-credit-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-harmony-netlink-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-credit-limits-api-openapi.yml
+- filename: traiana-designation-notices-api-openapi.yml
+  format: yaml
+  label: Traiana Designation Notices API
+  slug: traiana-designation-notices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-designation-notices-api-openapi.yml
+- filename: traiana-give-ups-api-openapi.yml
+  format: yaml
+  label: Traiana Give-Ups API
+  slug: traiana-give-ups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-give-ups-api-openapi.yml
+- filename: traiana-matching-api-openapi.yml
+  format: yaml
+  label: Traiana Matching API
+  slug: traiana-matching-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-matching-api-openapi.yml
+- filename: traiana-netting-api-openapi.yml
+  format: yaml
+  label: Traiana Netting API
+  slug: traiana-netting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-netting-api-openapi.yml
+- filename: traiana-settlement-api-openapi.yml
+  format: yaml
+  label: Traiana Settlement API
+  slug: traiana-settlement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-settlement-api-openapi.yml
+- filename: traiana-trades-api-openapi.yml
+  format: yaml
+  label: Traiana Trades API
+  slug: traiana-trades-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-trades-api-openapi.yml
+- filename: traiana-utilization-api-openapi.yml
+  format: yaml
+  label: Traiana Utilization API
+  slug: traiana-utilization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-utilization-api-openapi.yml
 auth_types:
 - apiKey
 - http

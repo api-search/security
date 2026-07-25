@@ -1,59 +1,59 @@
 ---
 api_specs:
-- filename: sevdesk-openapi.yml
+- filename: sevdesk-checkaccount-api-openapi.yml
   format: yaml
-  label: sevdesk Contacts API
-  slug: sevdesk-contacts-api
+  label: sevdesk CheckAccount API
+  slug: sevdesk-checkaccount-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-openapi.yml
-- filename: sevdesk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-checkaccount-api-openapi.yml
+- filename: sevdesk-checkaccounttransaction-api-openapi.yml
   format: yaml
-  label: sevdesk Invoices API
-  slug: sevdesk-invoices-api
+  label: sevdesk CheckAccountTransaction API
+  slug: sevdesk-checkaccounttransaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-openapi.yml
-- filename: sevdesk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-checkaccounttransaction-api-openapi.yml
+- filename: sevdesk-contact-api-openapi.yml
   format: yaml
-  label: sevdesk Orders API
-  slug: sevdesk-orders-api
+  label: sevdesk Contact API
+  slug: sevdesk-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-openapi.yml
-- filename: sevdesk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-contact-api-openapi.yml
+- filename: sevdesk-creditnote-api-openapi.yml
   format: yaml
-  label: sevdesk Credit Notes API
-  slug: sevdesk-credit-notes-api
+  label: sevdesk CreditNote API
+  slug: sevdesk-creditnote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-openapi.yml
-- filename: sevdesk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-creditnote-api-openapi.yml
+- filename: sevdesk-invoice-api-openapi.yml
   format: yaml
-  label: sevdesk Vouchers API
-  slug: sevdesk-vouchers-api
+  label: sevdesk Invoice API
+  slug: sevdesk-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-openapi.yml
-- filename: sevdesk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-invoice-api-openapi.yml
+- filename: sevdesk-order-api-openapi.yml
   format: yaml
-  label: sevdesk Bank and Transactions API
-  slug: sevdesk-bank-transactions-api
+  label: sevdesk Order API
+  slug: sevdesk-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-openapi.yml
-- filename: sevdesk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-order-api-openapi.yml
+- filename: sevdesk-part-api-openapi.yml
   format: yaml
-  label: sevdesk Parts API
-  slug: sevdesk-parts-api
+  label: sevdesk Part API
+  slug: sevdesk-part-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-openapi.yml
-- filename: sevdesk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-part-api-openapi.yml
+- filename: sevdesk-tag-api-openapi.yml
   format: yaml
-  label: sevdesk Tags API
-  slug: sevdesk-tags-api
+  label: sevdesk Tag API
+  slug: sevdesk-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-openapi.yml
-- filename: sevdesk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-tag-api-openapi.yml
+- filename: sevdesk-voucher-api-openapi.yml
   format: yaml
-  label: sevdesk Export and Reports API
-  slug: sevdesk-export-reports-api
+  label: sevdesk Voucher API
+  slug: sevdesk-voucher-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-voucher-api-openapi.yml
 description: ''
 domains:
 - caa: []

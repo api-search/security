@@ -1,30 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: flexpa-openapi.yml
-  format: yaml
-  label: Flexpa Link / Connect API
-  slug: flexpa-link-connect-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/openapi/flexpa-openapi.yml
-- filename: flexpa-openapi.yml
+- filename: flexpa-access-tokens-api-openapi.yml
   format: yaml
   label: Flexpa Access Tokens API
   slug: flexpa-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/openapi/flexpa-openapi.yml
-- filename: flexpa-openapi.yml
-  format: yaml
-  label: Flexpa FHIR Resources API
-  slug: flexpa-fhir-resources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/openapi/flexpa-openapi.yml
-- filename: flexpa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/openapi/flexpa-access-tokens-api-openapi.yml
+- filename: flexpa-claims-data-api-openapi.yml
   format: yaml
   label: Flexpa Claims Data API
   slug: flexpa-claims-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/openapi/flexpa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/openapi/flexpa-claims-data-api-openapi.yml
+- filename: flexpa-fhir-api-openapi.yml
+  format: yaml
+  label: Flexpa FHIR API
+  slug: flexpa-fhir-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/openapi/flexpa-fhir-api-openapi.yml
+- filename: flexpa-link-api-openapi.yml
+  format: yaml
+  label: Flexpa Link API
+  slug: flexpa-link-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/openapi/flexpa-link-api-openapi.yml
 auth_types:
 - http
 description: ''

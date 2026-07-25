@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: reflektive-real-time-feedback-v1-api-openapi.yml
   format: yaml
-  label: Reflektive API
-  slug: reflektive-api
+  label: Reflektive Real-time Feedback (v1) API
+  slug: reflektive-real-time-feedback-v1-api
   spec_type: OpenAPI
-  url: https://docs.api.reflektive.com/
+  url: https://raw.githubusercontent.com/api-evangelist/reflektive/refs/heads/main/openapi/reflektive-real-time-feedback-v1-api-openapi.yml
+- filename: reflektive-real-time-feedback-v2-api-openapi.yml
+  format: yaml
+  label: Reflektive Real-time Feedback (v2) API
+  slug: reflektive-real-time-feedback-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reflektive/refs/heads/main/openapi/reflektive-real-time-feedback-v2-api-openapi.yml
+- filename: reflektive-reports-api-openapi.yml
+  format: yaml
+  label: Reflektive Reports API
+  slug: reflektive-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reflektive/refs/heads/main/openapi/reflektive-reports-api-openapi.yml
+- filename: reflektive-tasks-api-openapi.yml
+  format: yaml
+  label: Reflektive Tasks API
+  slug: reflektive-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reflektive/refs/heads/main/openapi/reflektive-tasks-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

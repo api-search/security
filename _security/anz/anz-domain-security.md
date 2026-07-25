@@ -1,41 +1,47 @@
 ---
 api_specs:
-- filename: anz-cds-banking-products-openapi.yml
+- filename: anz-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Australia and New Zealand Banking Group (ANZ) CDR Product Reference Data API
-  slug: anz-cdr-product-reference-data-api
+  label: Australia and New Zealand Banking Group (ANZ) Banking Account Balances API
+  slug: anz-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/openapi/anz-cds-banking-products-openapi.yml
-- filename: anz-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/openapi/anz-banking-account-balances-api-openapi.yml
+- filename: anz-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: ANZ Plus CDR Product Reference Data API
-  slug: anz-plus-cdr-product-reference-data-api
+  label: Australia and New Zealand Banking Group (ANZ) Banking Account Direct Debits API
+  slug: anz-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/openapi/anz-cds-banking-products-openapi.yml
-- filename: anz-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/openapi/anz-banking-account-direct-debits-api-openapi.yml
+- filename: anz-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Australia and New Zealand Banking Group (ANZ) CDR Accounts & Balances API
-  slug: anz-cdr-accounts-balances-api
+  label: Australia and New Zealand Banking Group (ANZ) Banking Account Scheduled Payments API
+  slug: anz-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/openapi/anz-cds-banking-products-openapi.yml
-- filename: anz-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/openapi/anz-banking-account-scheduled-payments-api-openapi.yml
+- filename: anz-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Australia and New Zealand Banking Group (ANZ) CDR Transactions API
-  slug: anz-cdr-transactions-api
+  label: Australia and New Zealand Banking Group (ANZ) Banking Account Transactions API
+  slug: anz-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/openapi/anz-cds-banking-products-openapi.yml
-- filename: anz-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/openapi/anz-banking-account-transactions-api-openapi.yml
+- filename: anz-banking-accounts-api-openapi.yml
   format: yaml
-  label: Australia and New Zealand Banking Group (ANZ) CDR Direct Debits & Scheduled Payments API
-  slug: anz-cdr-direct-debits-scheduled-payments-api
+  label: Australia and New Zealand Banking Group (ANZ) Banking Accounts API
+  slug: anz-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/openapi/anz-cds-banking-products-openapi.yml
-- filename: anz-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/openapi/anz-banking-accounts-api-openapi.yml
+- filename: anz-banking-payees-api-openapi.yml
   format: yaml
-  label: Australia and New Zealand Banking Group (ANZ) CDR Payees API
-  slug: anz-cdr-payees-api
+  label: Australia and New Zealand Banking Group (ANZ) Banking Payees API
+  slug: anz-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/openapi/anz-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/openapi/anz-banking-payees-api-openapi.yml
+- filename: anz-banking-products-api-openapi.yml
+  format: yaml
+  label: Australia and New Zealand Banking Group (ANZ) Banking Products API
+  slug: anz-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/openapi/anz-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

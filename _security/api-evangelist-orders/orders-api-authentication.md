@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: orders-api-openapi.yml
+- filename: orders-api-orders-api-openapi.yml
   format: yaml
-  label: Orders API.
-  slug: orders-api
+  label: Orders Orders API
+  slug: orders-api-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-orders/refs/heads/main/openapi/orders-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-orders/refs/heads/main/openapi/orders-api-orders-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

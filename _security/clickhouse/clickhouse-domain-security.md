@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: clickhouse-openapi.yml
+- filename: clickhouse-clickhouse-http-interface-api-openapi.yml
   format: yaml
-  label: ClickHouse HTTP Interface
-  slug: clickhouse-http-interface
+  label: ClickHouse ClickHouse HTTP Interface API
+  slug: clickhouse-clickhouse-http-interface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-openapi.yml
-- filename: swagger
+  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-clickhouse-http-interface-api-openapi.yml
+- filename: clickhouse-ping-api-openapi.yml
   format: yaml
-  label: ClickHouse Cloud API
-  slug: clickhouse-cloud-api
+  label: ClickHouse Ping API
+  slug: clickhouse-ping-api
   spec_type: OpenAPI
-  url: https://clickhouse.com/docs/cloud/manage/api/swagger
+  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-ping-api-openapi.yml
+- filename: clickhouse-play-api-openapi.yml
+  format: yaml
+  label: ClickHouse Play API
+  slug: clickhouse-play-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-play-api-openapi.yml
+- filename: clickhouse-replicas-status-api-openapi.yml
+  format: yaml
+  label: ClickHouse Replicas Status API
+  slug: clickhouse-replicas-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-replicas-status-api-openapi.yml
 description: ''
 domains:
 - caa:

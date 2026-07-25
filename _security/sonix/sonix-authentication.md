@@ -1,36 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sonix-openapi.yml
-  format: yaml
-  label: Sonix Media & Transcription API
-  slug: sonix-media-transcription-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-openapi.yml
-- filename: sonix-openapi.yml
-  format: yaml
-  label: Sonix Transcripts API
-  slug: sonix-transcripts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-openapi.yml
-- filename: sonix-openapi.yml
-  format: yaml
-  label: Sonix Translations API
-  slug: sonix-translations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-openapi.yml
-- filename: sonix-openapi.yml
-  format: yaml
-  label: Sonix Exports & Subtitles API
-  slug: sonix-exports-subtitles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-openapi.yml
-- filename: sonix-openapi.yml
+- filename: sonix-ai-analysis-api-openapi.yml
   format: yaml
   label: Sonix AI Analysis API
   slug: sonix-ai-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-ai-analysis-api-openapi.yml
+- filename: sonix-exports-api-openapi.yml
+  format: yaml
+  label: Sonix Exports API
+  slug: sonix-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-exports-api-openapi.yml
+- filename: sonix-folders-api-openapi.yml
+  format: yaml
+  label: Sonix Folders API
+  slug: sonix-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-folders-api-openapi.yml
+- filename: sonix-media-api-openapi.yml
+  format: yaml
+  label: Sonix Media API
+  slug: sonix-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-media-api-openapi.yml
+- filename: sonix-transcripts-api-openapi.yml
+  format: yaml
+  label: Sonix Transcripts API
+  slug: sonix-transcripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-transcripts-api-openapi.yml
+- filename: sonix-translations-api-openapi.yml
+  format: yaml
+  label: Sonix Translations API
+  slug: sonix-translations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-translations-api-openapi.yml
 auth_types:
 - http
 description: ''

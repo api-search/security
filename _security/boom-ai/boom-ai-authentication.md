@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: boom-ai-openapi-original.json
-  format: json
-  label: Boom API
-  slug: boom-api
+- filename: boom-ai-cdp-custom-objects-api-openapi.yml
+  format: yaml
+  label: Boom Ai CDP Custom Objects API
+  slug: boom-ai-cdp-custom-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-cdp-custom-objects-api-openapi.yml
+- filename: boom-ai-cdp-events-api-openapi.yml
+  format: yaml
+  label: Boom Ai CDP Events API
+  slug: boom-ai-cdp-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-cdp-events-api-openapi.yml
+- filename: boom-ai-cdp-people-api-openapi.yml
+  format: yaml
+  label: Boom Ai CDP People API
+  slug: boom-ai-cdp-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-cdp-people-api-openapi.yml
+- filename: boom-ai-cdp-relationships-api-openapi.yml
+  format: yaml
+  label: Boom Ai CDP Relationships API
+  slug: boom-ai-cdp-relationships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-cdp-relationships-api-openapi.yml
+- filename: boom-ai-cdp-sources-api-openapi.yml
+  format: yaml
+  label: Boom Ai CDP Sources API
+  slug: boom-ai-cdp-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-cdp-sources-api-openapi.yml
+- filename: boom-ai-http-credentials-api-openapi.yml
+  format: yaml
+  label: Boom Ai HTTP credentials API
+  slug: boom-ai-http-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-http-credentials-api-openapi.yml
+- filename: boom-ai-initiatives-api-openapi.yml
+  format: yaml
+  label: Boom Ai Initiatives API
+  slug: boom-ai-initiatives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-initiatives-api-openapi.yml
+- filename: boom-ai-journeys-api-openapi.yml
+  format: yaml
+  label: Boom Ai Journeys API
+  slug: boom-ai-journeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-journeys-api-openapi.yml
+- filename: boom-ai-segments-api-openapi.yml
+  format: yaml
+  label: Boom Ai Segments API
+  slug: boom-ai-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-segments-api-openapi.yml
+- filename: boom-ai-whatsapp-templates-api-openapi.yml
+  format: yaml
+  label: Boom Ai WhatsApp templates API
+  slug: boom-ai-whatsapp-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-whatsapp-templates-api-openapi.yml
 auth_types:
 - http
 description: ''

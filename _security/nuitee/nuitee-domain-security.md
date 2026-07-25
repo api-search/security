@@ -1,35 +1,29 @@
 ---
 api_specs:
-- filename: nuitee-openapi.yml
+- filename: nuitee-booking-api-openapi.yml
   format: yaml
-  label: LiteAPI Hotel Data API
-  slug: hotel-data
+  label: Nuitée (LiteAPI) Booking API
+  slug: nuitee-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuitee/refs/heads/main/openapi/nuitee-openapi.yml
-- filename: nuitee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nuitee/refs/heads/main/openapi/nuitee-booking-api-openapi.yml
+- filename: nuitee-hotel-data-api-openapi.yml
   format: yaml
-  label: LiteAPI Rates Search API
-  slug: rates-search
+  label: Nuitée (LiteAPI) Hotel Data API
+  slug: nuitee-hotel-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuitee/refs/heads/main/openapi/nuitee-openapi.yml
-- filename: nuitee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nuitee/refs/heads/main/openapi/nuitee-hotel-data-api-openapi.yml
+- filename: nuitee-loyalty-api-openapi.yml
   format: yaml
-  label: LiteAPI Booking API
-  slug: booking
+  label: Nuitée (LiteAPI) Loyalty API
+  slug: nuitee-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuitee/refs/heads/main/openapi/nuitee-openapi.yml
-- filename: nuitee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nuitee/refs/heads/main/openapi/nuitee-loyalty-api-openapi.yml
+- filename: nuitee-rates-api-openapi.yml
   format: yaml
-  label: LiteAPI Loyalty and Vouchers API
-  slug: loyalty-vouchers
+  label: Nuitée (LiteAPI) Rates API
+  slug: nuitee-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuitee/refs/heads/main/openapi/nuitee-openapi.yml
-- filename: nuitee-openapi.yml
-  format: yaml
-  label: LiteAPI Webhooks
-  slug: webhooks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuitee/refs/heads/main/openapi/nuitee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nuitee/refs/heads/main/openapi/nuitee-rates-api-openapi.yml
 description: ''
 domains:
 - caa: []

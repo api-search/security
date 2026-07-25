@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: syndicate-transaction-cloud-openapi-original.yml
+- filename: syndicate-api-key-manager-admin-api-openapi.yml
   format: yaml
-  label: Syndicate Transaction Cloud API
-  slug: syndicate-transaction-cloud-api
+  label: Syndicate api-key-manager > admin API
+  slug: syndicate-api-key-manager-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/openapi/syndicate-transaction-cloud-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/openapi/syndicate-api-key-manager-admin-api-openapi.yml
+- filename: syndicate-call-api-openapi.yml
+  format: yaml
+  label: Syndicate call API
+  slug: syndicate-call-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/openapi/syndicate-call-api-openapi.yml
+- filename: syndicate-transact-api-openapi.yml
+  format: yaml
+  label: Syndicate transact API
+  slug: syndicate-transact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/openapi/syndicate-transact-api-openapi.yml
+- filename: syndicate-wallet-api-openapi.yml
+  format: yaml
+  label: Syndicate wallet API
+  slug: syndicate-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/openapi/syndicate-wallet-api-openapi.yml
 auth_types:
 - http
 description: ''

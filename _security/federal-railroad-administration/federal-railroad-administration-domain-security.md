@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: federal-railroad-administration-openapi.yml
+- filename: federal-railroad-administration-accidents-api-openapi.yml
   format: yaml
-  label: Federal Railroad Administration Public API
-  slug: federal-railroad-administration
+  label: Federal Railroad Administration Accidents API
+  slug: federal-railroad-administration-accidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-railroad-administration/refs/heads/main/openapi/federal-railroad-administration-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/federal-railroad-administration/refs/heads/main/openapi/federal-railroad-administration-accidents-api-openapi.yml
+- filename: federal-railroad-administration-crossings-api-openapi.yml
+  format: yaml
+  label: Federal Railroad Administration Crossings API
+  slug: federal-railroad-administration-crossings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-railroad-administration/refs/heads/main/openapi/federal-railroad-administration-crossings-api-openapi.yml
+- filename: federal-railroad-administration-incidents-api-openapi.yml
+  format: yaml
+  label: Federal Railroad Administration Incidents API
+  slug: federal-railroad-administration-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-railroad-administration/refs/heads/main/openapi/federal-railroad-administration-incidents-api-openapi.yml
+- filename: federal-railroad-administration-inspections-api-openapi.yml
+  format: yaml
+  label: Federal Railroad Administration Inspections API
+  slug: federal-railroad-administration-inspections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-railroad-administration/refs/heads/main/openapi/federal-railroad-administration-inspections-api-openapi.yml
+- filename: federal-railroad-administration-operational-data-api-openapi.yml
+  format: yaml
+  label: Federal Railroad Administration Operational Data API
+  slug: federal-railroad-administration-operational-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-railroad-administration/refs/heads/main/openapi/federal-railroad-administration-operational-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

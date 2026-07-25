@@ -1,30 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: juro-openapi.yml
+- filename: juro-contracts-api-openapi.yml
   format: yaml
   label: Juro Contracts API
   slug: juro-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juro/refs/heads/main/openapi/juro-openapi.yml
-- filename: juro-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/juro/refs/heads/main/openapi/juro-contracts-api-openapi.yml
+- filename: juro-health-api-openapi.yml
   format: yaml
-  label: Juro Templates API
-  slug: juro-templates-api
+  label: Juro Health API
+  slug: juro-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juro/refs/heads/main/openapi/juro-openapi.yml
-- filename: juro-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/juro/refs/heads/main/openapi/juro-health-api-openapi.yml
+- filename: juro-signatures-api-openapi.yml
   format: yaml
   label: Juro Signatures API
   slug: juro-signatures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juro/refs/heads/main/openapi/juro-openapi.yml
-- filename: juro-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/juro/refs/heads/main/openapi/juro-signatures-api-openapi.yml
+- filename: juro-templates-api-openapi.yml
+  format: yaml
+  label: Juro Templates API
+  slug: juro-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/juro/refs/heads/main/openapi/juro-templates-api-openapi.yml
+- filename: juro-webhooks-api-openapi.yml
   format: yaml
   label: Juro Webhooks API
   slug: juro-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juro/refs/heads/main/openapi/juro-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/juro/refs/heads/main/openapi/juro-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

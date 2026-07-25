@@ -2,60 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: mobula-openapi.yml
+- filename: mobula-market-api-openapi.yml
   format: yaml
-  label: Mobula Market Data API
-  slug: mobula-market-data-api
+  label: Mobula Market API
+  slug: mobula-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobula/refs/heads/main/openapi/mobula-openapi.yml
-- filename: mobula-openapi.yml
-  format: yaml
-  label: Mobula Multi-Data API
-  slug: mobula-multi-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobula/refs/heads/main/openapi/mobula-openapi.yml
-- filename: mobula-openapi.yml
-  format: yaml
-  label: Mobula Market History API
-  slug: mobula-market-history-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobula/refs/heads/main/openapi/mobula-openapi.yml
-- filename: mobula-openapi.yml
-  format: yaml
-  label: Mobula Pairs and OHLCV API
-  slug: mobula-pairs-ohlcv-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobula/refs/heads/main/openapi/mobula-openapi.yml
-- filename: mobula-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mobula/refs/heads/main/openapi/mobula-market-api-openapi.yml
+- filename: mobula-metadata-api-openapi.yml
   format: yaml
   label: Mobula Metadata API
   slug: mobula-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobula/refs/heads/main/openapi/mobula-openapi.yml
-- filename: mobula-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mobula/refs/heads/main/openapi/mobula-metadata-api-openapi.yml
+- filename: mobula-search-api-openapi.yml
   format: yaml
-  label: Mobula Wallet Portfolio API
-  slug: mobula-wallet-portfolio-api
+  label: Mobula Search API
+  slug: mobula-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobula/refs/heads/main/openapi/mobula-openapi.yml
-- filename: mobula-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mobula/refs/heads/main/openapi/mobula-search-api-openapi.yml
+- filename: mobula-wallet-api-openapi.yml
   format: yaml
-  label: Mobula Wallet History and Transactions API
-  slug: mobula-wallet-history-transactions-api
+  label: Mobula Wallet API
+  slug: mobula-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobula/refs/heads/main/openapi/mobula-openapi.yml
-- filename: mobula-openapi.yml
-  format: yaml
-  label: Mobula Search and Query API
-  slug: mobula-search-query-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobula/refs/heads/main/openapi/mobula-openapi.yml
-- filename: mobula-openapi.yml
-  format: yaml
-  label: Mobula Realtime Feed API
-  slug: mobula-realtime-feed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobula/refs/heads/main/openapi/mobula-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mobula/refs/heads/main/openapi/mobula-wallet-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

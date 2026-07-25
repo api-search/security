@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: api-spec.json
-  format: json
-  label: Eraser API
-  slug: eraser-api
+- filename: eraser-ai-requests-api-openapi.yml
+  format: yaml
+  label: Eraser AI Requests API
+  slug: eraser-ai-requests-api
   spec_type: OpenAPI
-  url: https://app.eraser.io/.well-known/api-spec.json
+  url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/openapi/eraser-ai-requests-api-openapi.yml
+- filename: eraser-audit-logs-api-openapi.yml
+  format: yaml
+  label: Eraser Audit Logs API
+  slug: eraser-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/openapi/eraser-audit-logs-api-openapi.yml
+- filename: eraser-diagram-elements-api-openapi.yml
+  format: yaml
+  label: Eraser Diagram Elements API
+  slug: eraser-diagram-elements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/openapi/eraser-diagram-elements-api-openapi.yml
+- filename: eraser-diagrams-ai-api-openapi.yml
+  format: yaml
+  label: Eraser Diagrams (AI) API
+  slug: eraser-diagrams-ai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/openapi/eraser-diagrams-ai-api-openapi.yml
+- filename: eraser-files-api-openapi.yml
+  format: yaml
+  label: Eraser Files API
+  slug: eraser-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/openapi/eraser-files-api-openapi.yml
+- filename: eraser-folders-api-openapi.yml
+  format: yaml
+  label: Eraser Folders API
+  slug: eraser-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/openapi/eraser-folders-api-openapi.yml
+- filename: eraser-usage-metrics-api-openapi.yml
+  format: yaml
+  label: Eraser Usage Metrics API
+  slug: eraser-usage-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/openapi/eraser-usage-metrics-api-openapi.yml
 description: ''
 domains:
 - caa:

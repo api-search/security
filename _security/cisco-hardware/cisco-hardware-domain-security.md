@@ -1,17 +1,47 @@
 ---
 api_specs:
-- filename: openapiSpec
+- filename: cisco-hardware-authentication-api-openapi.yml
   format: yaml
-  label: Cisco Meraki Dashboard API
-  slug: meraki-dashboard-api
+  label: Cisco Hardware Authentication API
+  slug: cisco-hardware-authentication-api
   spec_type: OpenAPI
-  url: https://api.meraki.com/api/v1/openapiSpec
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-hardware/refs/heads/main/openapi/cisco-hardware-authentication-api-openapi.yml
+- filename: cisco-hardware-commandrunner-api-openapi.yml
   format: yaml
-  label: Cisco Intersight API
-  slug: intersight-api
+  label: Cisco Hardware CommandRunner API
+  slug: cisco-hardware-commandrunner-api
   spec_type: OpenAPI
-  url: https://intersight.com/apidocs/downloads/
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-hardware/refs/heads/main/openapi/cisco-hardware-commandrunner-api-openapi.yml
+- filename: cisco-hardware-devices-api-openapi.yml
+  format: yaml
+  label: Cisco Hardware Devices API
+  slug: cisco-hardware-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-hardware/refs/heads/main/openapi/cisco-hardware-devices-api-openapi.yml
+- filename: cisco-hardware-discovery-api-openapi.yml
+  format: yaml
+  label: Cisco Hardware Discovery API
+  slug: cisco-hardware-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-hardware/refs/heads/main/openapi/cisco-hardware-discovery-api-openapi.yml
+- filename: cisco-hardware-network-api-openapi.yml
+  format: yaml
+  label: Cisco Hardware Network API
+  slug: cisco-hardware-network-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-hardware/refs/heads/main/openapi/cisco-hardware-network-api-openapi.yml
+- filename: cisco-hardware-sites-api-openapi.yml
+  format: yaml
+  label: Cisco Hardware Sites API
+  slug: cisco-hardware-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-hardware/refs/heads/main/openapi/cisco-hardware-sites-api-openapi.yml
+- filename: cisco-hardware-topology-api-openapi.yml
+  format: yaml
+  label: Cisco Hardware Topology API
+  slug: cisco-hardware-topology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-hardware/refs/heads/main/openapi/cisco-hardware-topology-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -2,12 +2,54 @@
 api_key_in:
 - query
 api_specs:
-- filename: youtube.yml
+- filename: google-youtube-activities-api-openapi.yml
   format: yaml
-  label: YouTube Data API v3
-  slug: youtube-data-api-v3
+  label: YouTube Data Activities API
+  slug: google-youtube-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-youtube/refs/heads/main/openapi/youtube.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-youtube/refs/heads/main/openapi/google-youtube-activities-api-openapi.yml
+- filename: google-youtube-channels-api-openapi.yml
+  format: yaml
+  label: YouTube Data Channels API
+  slug: google-youtube-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-youtube/refs/heads/main/openapi/google-youtube-channels-api-openapi.yml
+- filename: google-youtube-commentthreads-api-openapi.yml
+  format: yaml
+  label: YouTube Data CommentThreads API
+  slug: google-youtube-commentthreads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-youtube/refs/heads/main/openapi/google-youtube-commentthreads-api-openapi.yml
+- filename: google-youtube-playlistitems-api-openapi.yml
+  format: yaml
+  label: YouTube Data PlaylistItems API
+  slug: google-youtube-playlistitems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-youtube/refs/heads/main/openapi/google-youtube-playlistitems-api-openapi.yml
+- filename: google-youtube-playlists-api-openapi.yml
+  format: yaml
+  label: YouTube Data Playlists API
+  slug: google-youtube-playlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-youtube/refs/heads/main/openapi/google-youtube-playlists-api-openapi.yml
+- filename: google-youtube-search-api-openapi.yml
+  format: yaml
+  label: YouTube Data Search API
+  slug: google-youtube-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-youtube/refs/heads/main/openapi/google-youtube-search-api-openapi.yml
+- filename: google-youtube-subscriptions-api-openapi.yml
+  format: yaml
+  label: YouTube Data Subscriptions API
+  slug: google-youtube-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-youtube/refs/heads/main/openapi/google-youtube-subscriptions-api-openapi.yml
+- filename: google-youtube-videos-api-openapi.yml
+  format: yaml
+  label: YouTube Data Videos API
+  slug: google-youtube-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-youtube/refs/heads/main/openapi/google-youtube-videos-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

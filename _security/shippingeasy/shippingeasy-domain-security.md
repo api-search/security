@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: shippingeasy-customer-api-openapi.yml
+- filename: shippingeasy-orders-api-openapi.yml
   format: yaml
-  label: ShippingEasy Customer API
-  slug: shippingeasy-customer-api
+  label: ShippingEasy Orders API
+  slug: shippingeasy-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippingeasy/refs/heads/main/openapi/shippingeasy-customer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shippingeasy/refs/heads/main/openapi/shippingeasy-orders-api-openapi.yml
+- filename: shippingeasy-stores-api-openapi.yml
+  format: yaml
+  label: ShippingEasy Stores API
+  slug: shippingeasy-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shippingeasy/refs/heads/main/openapi/shippingeasy-stores-api-openapi.yml
 description: ''
 domains:
 - caa: []

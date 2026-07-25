@@ -2,36 +2,36 @@
 api_key_in:
 - query
 api_specs:
-- filename: claim-md-openapi.yml
-  format: yaml
-  label: Claim.MD Claim Submission API
-  slug: claim-submission
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claim-md/refs/heads/main/openapi/claim-md-openapi.yml
-- filename: claim-md-openapi.yml
+- filename: claim-md-claim-status-api-openapi.yml
   format: yaml
   label: Claim.MD Claim Status API
-  slug: claim-status
+  slug: claim-md-claim-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claim-md/refs/heads/main/openapi/claim-md-openapi.yml
-- filename: claim-md-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/claim-md/refs/heads/main/openapi/claim-md-claim-status-api-openapi.yml
+- filename: claim-md-claims-api-openapi.yml
   format: yaml
-  label: Claim.MD ERA / Remits API
-  slug: era-remits
+  label: Claim.MD Claims API
+  slug: claim-md-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claim-md/refs/heads/main/openapi/claim-md-openapi.yml
-- filename: claim-md-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/claim-md/refs/heads/main/openapi/claim-md-claims-api-openapi.yml
+- filename: claim-md-eligibility-api-openapi.yml
   format: yaml
   label: Claim.MD Eligibility API
-  slug: eligibility
+  slug: claim-md-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claim-md/refs/heads/main/openapi/claim-md-openapi.yml
-- filename: claim-md-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/claim-md/refs/heads/main/openapi/claim-md-eligibility-api-openapi.yml
+- filename: claim-md-era-api-openapi.yml
   format: yaml
-  label: Claim.MD Responses & Files API
-  slug: responses-files
+  label: Claim.MD ERA API
+  slug: claim-md-era-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claim-md/refs/heads/main/openapi/claim-md-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/claim-md/refs/heads/main/openapi/claim-md-era-api-openapi.yml
+- filename: claim-md-reference-api-openapi.yml
+  format: yaml
+  label: Claim.MD Reference API
+  slug: claim-md-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/claim-md/refs/heads/main/openapi/claim-md-reference-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,215 @@
 ---
 api_specs:
-- filename: actionstep-actions-openapi.yml
+- filename: actionstep-action-bill-settings-api-openapi.yml
   format: yaml
-  label: Actionstep API
-  slug: actionstep-api
+  label: Actionstep Action Bill Settings API
+  slug: actionstep-action-bill-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-actions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-action-bill-settings-api-openapi.yml
+- filename: actionstep-action-folders-api-openapi.yml
+  format: yaml
+  label: Actionstep Action Folders API
+  slug: actionstep-action-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-action-folders-api-openapi.yml
+- filename: actionstep-action-netdocuments-settings-api-openapi.yml
+  format: yaml
+  label: Actionstep Action NetDocuments Settings API
+  slug: actionstep-action-netdocuments-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-action-netdocuments-settings-api-openapi.yml
+- filename: actionstep-action-participants-api-openapi.yml
+  format: yaml
+  label: Actionstep Action Participants API
+  slug: actionstep-action-participants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-action-participants-api-openapi.yml
+- filename: actionstep-action-type-participant-types-api-openapi.yml
+  format: yaml
+  label: Actionstep Action Type Participant Types API
+  slug: actionstep-action-type-participant-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-action-type-participant-types-api-openapi.yml
+- filename: actionstep-actions-api-openapi.yml
+  format: yaml
+  label: Actionstep Actions API
+  slug: actionstep-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-actions-api-openapi.yml
+- filename: actionstep-actiontypes-api-openapi.yml
+  format: yaml
+  label: Actionstep ActionTypes API
+  slug: actionstep-actiontypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-actiontypes-api-openapi.yml
+- filename: actionstep-bills-api-openapi.yml
+  format: yaml
+  label: Actionstep Bills API
+  slug: actionstep-bills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-bills-api-openapi.yml
+- filename: actionstep-contact-documents-api-openapi.yml
+  format: yaml
+  label: Actionstep Contact Documents API
+  slug: actionstep-contact-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-contact-documents-api-openapi.yml
+- filename: actionstep-contact-folders-api-openapi.yml
+  format: yaml
+  label: Actionstep Contact Folders API
+  slug: actionstep-contact-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-contact-folders-api-openapi.yml
+- filename: actionstep-contact-notes-api-openapi.yml
+  format: yaml
+  label: Actionstep Contact Notes API
+  slug: actionstep-contact-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-contact-notes-api-openapi.yml
+- filename: actionstep-contact-relationships-api-openapi.yml
+  format: yaml
+  label: Actionstep Contact Relationships API
+  slug: actionstep-contact-relationships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-contact-relationships-api-openapi.yml
+- filename: actionstep-cultural-identity-api-openapi.yml
+  format: yaml
+  label: Actionstep Cultural Identity API
+  slug: actionstep-cultural-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-cultural-identity-api-openapi.yml
+- filename: actionstep-data-collection-field-dropdown-choices-api-openapi.yml
+  format: yaml
+  label: Actionstep Data Collection Field Dropdown Choices API
+  slug: actionstep-data-collection-field-dropdown-choices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-data-collection-field-dropdown-choices-api-openapi.yml
+- filename: actionstep-data-collection-fields-api-openapi.yml
+  format: yaml
+  label: Actionstep Data Collection Fields API
+  slug: actionstep-data-collection-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-data-collection-fields-api-openapi.yml
+- filename: actionstep-data-collection-record-values-api-openapi.yml
+  format: yaml
+  label: Actionstep Data Collection Record Values API
+  slug: actionstep-data-collection-record-values-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-data-collection-record-values-api-openapi.yml
+- filename: actionstep-data-collection-records-api-openapi.yml
+  format: yaml
+  label: Actionstep Data Collection Records API
+  slug: actionstep-data-collection-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-data-collection-records-api-openapi.yml
+- filename: actionstep-data-collections-api-openapi.yml
+  format: yaml
+  label: Actionstep Data Collections API
+  slug: actionstep-data-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-data-collections-api-openapi.yml
+- filename: actionstep-disability-status-api-openapi.yml
+  format: yaml
+  label: Actionstep Disability Status API
+  slug: actionstep-disability-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-disability-status-api-openapi.yml
+- filename: actionstep-disbursements-api-openapi.yml
+  format: yaml
+  label: Actionstep Disbursements API
+  slug: actionstep-disbursements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-disbursements-api-openapi.yml
+- filename: actionstep-file-notes-api-openapi.yml
+  format: yaml
+  label: Actionstep File Notes API
+  slug: actionstep-file-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-file-notes-api-openapi.yml
+- filename: actionstep-gender-types-api-openapi.yml
+  format: yaml
+  label: Actionstep Gender Types API
+  slug: actionstep-gender-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-gender-types-api-openapi.yml
+- filename: actionstep-participant-additional-notification-methods-api-openapi.yml
+  format: yaml
+  label: Actionstep Participant Additional Notification Methods API
+  slug: actionstep-participant-additional-notification-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-participant-additional-notification-methods-api-openapi.yml
+- filename: actionstep-participant-data-field-dropdown-choices-api-openapi.yml
+  format: yaml
+  label: Actionstep Participant Data Field Dropdown Choices API
+  slug: actionstep-participant-data-field-dropdown-choices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-participant-data-field-dropdown-choices-api-openapi.yml
+- filename: actionstep-participant-default-types-api-openapi.yml
+  format: yaml
+  label: Actionstep Participant Default Types API
+  slug: actionstep-participant-default-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-participant-default-types-api-openapi.yml
+- filename: actionstep-participant-relationship-types-api-openapi.yml
+  format: yaml
+  label: Actionstep Participant Relationship Types API
+  slug: actionstep-participant-relationship-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-participant-relationship-types-api-openapi.yml
+- filename: actionstep-participant-type-data-fields-api-openapi.yml
+  format: yaml
+  label: Actionstep Participant Type Data Fields API
+  slug: actionstep-participant-type-data-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-participant-type-data-fields-api-openapi.yml
+- filename: actionstep-participants-api-openapi.yml
+  format: yaml
+  label: Actionstep Participants API
+  slug: actionstep-participants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-participants-api-openapi.yml
+- filename: actionstep-phone-records-api-openapi.yml
+  format: yaml
+  label: Actionstep Phone Records API
+  slug: actionstep-phone-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-phone-records-api-openapi.yml
+- filename: actionstep-primary-language-api-openapi.yml
+  format: yaml
+  label: Actionstep Primary Language API
+  slug: actionstep-primary-language-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-primary-language-api-openapi.yml
+- filename: actionstep-quick-codes-api-openapi.yml
+  format: yaml
+  label: Actionstep Quick Codes API
+  slug: actionstep-quick-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-quick-codes-api-openapi.yml
+- filename: actionstep-rest-hooks-api-openapi.yml
+  format: yaml
+  label: Actionstep REST Hooks API
+  slug: actionstep-rest-hooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-rest-hooks-api-openapi.yml
+- filename: actionstep-tasks-api-openapi.yml
+  format: yaml
+  label: Actionstep Tasks API
+  slug: actionstep-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-tasks-api-openapi.yml
+- filename: actionstep-time-entries-api-openapi.yml
+  format: yaml
+  label: Actionstep Time Entries API
+  slug: actionstep-time-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-time-entries-api-openapi.yml
+- filename: actionstep-utbms-codes-api-openapi.yml
+  format: yaml
+  label: Actionstep UTBMS Codes API
+  slug: actionstep-utbms-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-utbms-codes-api-openapi.yml
 description: ''
 domains:
 - caa:

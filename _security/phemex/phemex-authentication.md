@@ -2,30 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: contract.yml
+- filename: phemex-account-api-openapi.yml
   format: yaml
-  label: Phemex Contract Trading API
-  slug: phemex-contract-trading-api
+  label: Phemex Account API
+  slug: phemex-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/openapi/contract.yml
-- filename: spot.yml
+  url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/openapi/phemex-account-api-openapi.yml
+- filename: phemex-conversion-api-openapi.yml
   format: yaml
-  label: Phemex Spot Trading API
-  slug: phemex-spot-trading-api
+  label: Phemex Conversion API
+  slug: phemex-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/openapi/spot.yml
-- filename: hedged-perpetual.yml
+  url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/openapi/phemex-conversion-api-openapi.yml
+- filename: phemex-market-data-api-openapi.yml
   format: yaml
-  label: Phemex Hedged Perpetual API
-  slug: phemex-hedged-perpetual-api
+  label: Phemex Market Data API
+  slug: phemex-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/openapi/hedged-perpetual.yml
-- filename: transfer.yml
+  url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/openapi/phemex-market-data-api-openapi.yml
+- filename: phemex-orders-api-openapi.yml
   format: yaml
-  label: Phemex Asset Transfer API
-  slug: phemex-asset-transfer-api
+  label: Phemex Orders API
+  slug: phemex-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/openapi/transfer.yml
+  url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/openapi/phemex-orders-api-openapi.yml
+- filename: phemex-positions-api-openapi.yml
+  format: yaml
+  label: Phemex Positions API
+  slug: phemex-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/openapi/phemex-positions-api-openapi.yml
+- filename: phemex-sub-account-transfers-api-openapi.yml
+  format: yaml
+  label: Phemex Sub-Account Transfers API
+  slug: phemex-sub-account-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/openapi/phemex-sub-account-transfers-api-openapi.yml
+- filename: phemex-trades-api-openapi.yml
+  format: yaml
+  label: Phemex Trades API
+  slug: phemex-trades-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/openapi/phemex-trades-api-openapi.yml
+- filename: phemex-transfers-api-openapi.yml
+  format: yaml
+  label: Phemex Transfers API
+  slug: phemex-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/openapi/phemex-transfers-api-openapi.yml
+- filename: phemex-wallets-api-openapi.yml
+  format: yaml
+  label: Phemex Wallets API
+  slug: phemex-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/openapi/phemex-wallets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

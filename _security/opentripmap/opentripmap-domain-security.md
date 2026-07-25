@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: opentripmap-openapi.json
-  format: json
-  label: OpenTripMap API
-  slug: opentripmap-api
+- filename: opentripmap-geographic-coordinates-of-populated-place-api-openapi.yml
+  format: yaml
+  label: OpenTripMap Geographic coordinates of populated place API
+  slug: opentripmap-geographic-coordinates-of-populated-place-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentripmap/refs/heads/main/openapi/opentripmap-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/opentripmap/refs/heads/main/openapi/opentripmap-geographic-coordinates-of-populated-place-api-openapi.yml
+- filename: opentripmap-object-properties-api-openapi.yml
+  format: yaml
+  label: OpenTripMap Object properties API
+  slug: opentripmap-object-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opentripmap/refs/heads/main/openapi/opentripmap-object-properties-api-openapi.yml
+- filename: opentripmap-objects-list-api-openapi.yml
+  format: yaml
+  label: OpenTripMap Objects list API
+  slug: opentripmap-objects-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opentripmap/refs/heads/main/openapi/opentripmap-objects-list-api-openapi.yml
 description: ''
 domains:
 - caa: []

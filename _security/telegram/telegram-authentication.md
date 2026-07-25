@@ -2,12 +2,60 @@
 api_key_in:
 - path
 api_specs:
-- filename: telegram-bot-openapi.yml
+- filename: telegram-bot-info-api-openapi.yml
   format: yaml
-  label: Telegram Bot API
-  slug: telegram-bot-api
+  label: Telegram Bot Info API
+  slug: telegram-bot-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-bot-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-bot-info-api-openapi.yml
+- filename: telegram-chat-management-api-openapi.yml
+  format: yaml
+  label: Telegram Chat Management API
+  slug: telegram-chat-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-chat-management-api-openapi.yml
+- filename: telegram-getting-updates-api-openapi.yml
+  format: yaml
+  label: Telegram Getting Updates API
+  slug: telegram-getting-updates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-getting-updates-api-openapi.yml
+- filename: telegram-invites-api-openapi.yml
+  format: yaml
+  label: Telegram Invites API
+  slug: telegram-invites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-invites-api-openapi.yml
+- filename: telegram-member-management-api-openapi.yml
+  format: yaml
+  label: Telegram Member Management API
+  slug: telegram-member-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-member-management-api-openapi.yml
+- filename: telegram-message-editing-api-openapi.yml
+  format: yaml
+  label: Telegram Message Editing API
+  slug: telegram-message-editing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-message-editing-api-openapi.yml
+- filename: telegram-messaging-api-openapi.yml
+  format: yaml
+  label: Telegram Messaging API
+  slug: telegram-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-messaging-api-openapi.yml
+- filename: telegram-payments-api-openapi.yml
+  format: yaml
+  label: Telegram Payments API
+  slug: telegram-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-payments-api-openapi.yml
+- filename: telegram-stickers-api-openapi.yml
+  format: yaml
+  label: Telegram Stickers API
+  slug: telegram-stickers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-stickers-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

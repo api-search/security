@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: htmlcsstoimage-openapi.yml
+- filename: htmlcsstoimage-image-generation-api-openapi.yml
   format: yaml
-  label: HTML/CSS to Image Generation API
-  slug: image-generation-api
+  label: HTML/CSS to Image Image Generation API
+  slug: htmlcsstoimage-image-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-openapi.yml
-- filename: htmlcsstoimage-openapi.yml
-  format: yaml
-  label: HTML/CSS to Image Templates API
-  slug: templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-openapi.yml
-- filename: htmlcsstoimage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-image-generation-api-openapi.yml
+- filename: htmlcsstoimage-signed-urls-api-openapi.yml
   format: yaml
   label: HTML/CSS to Image Signed URLs API
-  slug: signed-urls-api
+  slug: htmlcsstoimage-signed-urls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-signed-urls-api-openapi.yml
+- filename: htmlcsstoimage-templates-api-openapi.yml
+  format: yaml
+  label: HTML/CSS to Image Templates API
+  slug: htmlcsstoimage-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-templates-api-openapi.yml
 description: ''
 domains:
 - caa:

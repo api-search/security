@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: finra-openapi.yml
+- filename: finra-async-api-openapi.yml
   format: yaml
-  label: FINRA Query API
-  slug: query-api
+  label: FINRA Async API
+  slug: finra-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finra/refs/heads/main/openapi/finra-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/finra/refs/heads/main/openapi/finra-async-api-openapi.yml
+- filename: finra-datasets-api-openapi.yml
+  format: yaml
+  label: FINRA Datasets API
+  slug: finra-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finra/refs/heads/main/openapi/finra-datasets-api-openapi.yml
+- filename: finra-metadata-api-openapi.yml
+  format: yaml
+  label: FINRA Metadata API
+  slug: finra-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finra/refs/heads/main/openapi/finra-metadata-api-openapi.yml
+- filename: finra-partitions-api-openapi.yml
+  format: yaml
+  label: FINRA Partitions API
+  slug: finra-partitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finra/refs/heads/main/openapi/finra-partitions-api-openapi.yml
 description: ''
 domains:
 - caa: []

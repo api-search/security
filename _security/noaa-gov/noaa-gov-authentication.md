@@ -2,12 +2,84 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi.json
-  format: json
-  label: National Weather Service API (api.weather.gov)
-  slug: weather-gov-api
+- filename: noaa-gov-alerts-api-openapi.yml
+  format: yaml
+  label: NOAA — National Oceanic and Atmospheric Administration Alerts API
+  slug: noaa-gov-alerts-api
   spec_type: OpenAPI
-  url: https://api.weather.gov/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-alerts-api-openapi.yml
+- filename: noaa-gov-aviation-api-openapi.yml
+  format: yaml
+  label: NOAA — National Oceanic and Atmospheric Administration Aviation API
+  slug: noaa-gov-aviation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-aviation-api-openapi.yml
+- filename: noaa-gov-glossary-api-openapi.yml
+  format: yaml
+  label: NOAA — National Oceanic and Atmospheric Administration Glossary API
+  slug: noaa-gov-glossary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-glossary-api-openapi.yml
+- filename: noaa-gov-gridpoints-api-openapi.yml
+  format: yaml
+  label: NOAA — National Oceanic and Atmospheric Administration Gridpoints API
+  slug: noaa-gov-gridpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-gridpoints-api-openapi.yml
+- filename: noaa-gov-icons-api-openapi.yml
+  format: yaml
+  label: NOAA — National Oceanic and Atmospheric Administration Icons API
+  slug: noaa-gov-icons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-icons-api-openapi.yml
+- filename: noaa-gov-offices-api-openapi.yml
+  format: yaml
+  label: NOAA — National Oceanic and Atmospheric Administration Offices API
+  slug: noaa-gov-offices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-offices-api-openapi.yml
+- filename: noaa-gov-points-api-openapi.yml
+  format: yaml
+  label: NOAA — National Oceanic and Atmospheric Administration Points API
+  slug: noaa-gov-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-points-api-openapi.yml
+- filename: noaa-gov-products-api-openapi.yml
+  format: yaml
+  label: NOAA — National Oceanic and Atmospheric Administration Products API
+  slug: noaa-gov-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-products-api-openapi.yml
+- filename: noaa-gov-radar-api-openapi.yml
+  format: yaml
+  label: NOAA — National Oceanic and Atmospheric Administration Radar API
+  slug: noaa-gov-radar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-radar-api-openapi.yml
+- filename: noaa-gov-radio-api-openapi.yml
+  format: yaml
+  label: NOAA — National Oceanic and Atmospheric Administration Radio API
+  slug: noaa-gov-radio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-radio-api-openapi.yml
+- filename: noaa-gov-stations-api-openapi.yml
+  format: yaml
+  label: NOAA — National Oceanic and Atmospheric Administration Stations API
+  slug: noaa-gov-stations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-stations-api-openapi.yml
+- filename: noaa-gov-thumbnails-api-openapi.yml
+  format: yaml
+  label: NOAA — National Oceanic and Atmospheric Administration Thumbnails API
+  slug: noaa-gov-thumbnails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-thumbnails-api-openapi.yml
+- filename: noaa-gov-zones-api-openapi.yml
+  format: yaml
+  label: NOAA — National Oceanic and Atmospheric Administration Zones API
+  slug: noaa-gov-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-zones-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

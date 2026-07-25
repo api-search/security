@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: knowi-management-api-openapi.yml
+- filename: knowi-authentication-api-openapi.yml
   format: yaml
-  label: Knowi Management API
-  slug: knowi-management-api
+  label: Knowi Authentication API
+  slug: knowi-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/openapi/knowi-management-api-openapi.yml
-- filename: knowi-push-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/openapi/knowi-authentication-api-openapi.yml
+- filename: knowi-dashboards-api-openapi.yml
   format: yaml
-  label: Knowi Push Data API
-  slug: knowi-push-data-api
+  label: Knowi Dashboards API
+  slug: knowi-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/openapi/knowi-push-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/openapi/knowi-dashboards-api-openapi.yml
+- filename: knowi-groups-api-openapi.yml
+  format: yaml
+  label: Knowi Groups API
+  slug: knowi-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/openapi/knowi-groups-api-openapi.yml
+- filename: knowi-pull-api-openapi.yml
+  format: yaml
+  label: Knowi Pull API
+  slug: knowi-pull-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/openapi/knowi-pull-api-openapi.yml
+- filename: knowi-push-api-openapi.yml
+  format: yaml
+  label: Knowi Push API
+  slug: knowi-push-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/openapi/knowi-push-api-openapi.yml
+- filename: knowi-users-api-openapi.yml
+  format: yaml
+  label: Knowi Users API
+  slug: knowi-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/openapi/knowi-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

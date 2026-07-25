@@ -1,35 +1,41 @@
 ---
 api_specs:
-- filename: gorilladesk-openapi.yml
-  format: yaml
-  label: GorillaDesk Customers API
-  slug: gorilladesk-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/openapi/gorilladesk-openapi.yml
-- filename: gorilladesk-openapi.yml
-  format: yaml
-  label: GorillaDesk Customer Notes API
-  slug: gorilladesk-notes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/openapi/gorilladesk-openapi.yml
-- filename: gorilladesk-openapi.yml
-  format: yaml
-  label: GorillaDesk Users API
-  slug: gorilladesk-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/openapi/gorilladesk-openapi.yml
-- filename: gorilladesk-openapi.yml
+- filename: gorilladesk-company-api-openapi.yml
   format: yaml
   label: GorillaDesk Company API
   slug: gorilladesk-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/openapi/gorilladesk-openapi.yml
-- filename: gorilladesk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/openapi/gorilladesk-company-api-openapi.yml
+- filename: gorilladesk-customer-api-openapi.yml
   format: yaml
-  label: GorillaDesk Phone Types API
-  slug: gorilladesk-phone-types-api
+  label: GorillaDesk Customer API
+  slug: gorilladesk-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/openapi/gorilladesk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/openapi/gorilladesk-customer-api-openapi.yml
+- filename: gorilladesk-note-api-openapi.yml
+  format: yaml
+  label: GorillaDesk Note API
+  slug: gorilladesk-note-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/openapi/gorilladesk-note-api-openapi.yml
+- filename: gorilladesk-phone-type-api-openapi.yml
+  format: yaml
+  label: GorillaDesk Phone Type API
+  slug: gorilladesk-phone-type-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/openapi/gorilladesk-phone-type-api-openapi.yml
+- filename: gorilladesk-user-api-openapi.yml
+  format: yaml
+  label: GorillaDesk User API
+  slug: gorilladesk-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/openapi/gorilladesk-user-api-openapi.yml
+- filename: gorilladesk-users-api-openapi.yml
+  format: yaml
+  label: GorillaDesk Users API
+  slug: gorilladesk-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/openapi/gorilladesk-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

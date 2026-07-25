@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: bigchaindb-http-openapi.yml
+- filename: bigchaindb-assets-api-openapi.yml
   format: yaml
-  label: BigchainDB HTTP API
-  slug: bigchaindb-http-api
+  label: Bigchaindb Assets API
+  slug: bigchaindb-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/openapi/bigchaindb-http-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/openapi/bigchaindb-assets-api-openapi.yml
+- filename: bigchaindb-blocks-api-openapi.yml
+  format: yaml
+  label: Bigchaindb Blocks API
+  slug: bigchaindb-blocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/openapi/bigchaindb-blocks-api-openapi.yml
+- filename: bigchaindb-metadata-api-openapi.yml
+  format: yaml
+  label: Bigchaindb Metadata API
+  slug: bigchaindb-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/openapi/bigchaindb-metadata-api-openapi.yml
+- filename: bigchaindb-outputs-api-openapi.yml
+  format: yaml
+  label: Bigchaindb Outputs API
+  slug: bigchaindb-outputs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/openapi/bigchaindb-outputs-api-openapi.yml
+- filename: bigchaindb-root-api-openapi.yml
+  format: yaml
+  label: Bigchaindb Root API
+  slug: bigchaindb-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/openapi/bigchaindb-root-api-openapi.yml
+- filename: bigchaindb-transactions-api-openapi.yml
+  format: yaml
+  label: Bigchaindb Transactions API
+  slug: bigchaindb-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/openapi/bigchaindb-transactions-api-openapi.yml
+- filename: bigchaindb-validators-api-openapi.yml
+  format: yaml
+  label: Bigchaindb Validators API
+  slug: bigchaindb-validators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/openapi/bigchaindb-validators-api-openapi.yml
 auth_types:
 - none
 - payload-signature

@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: cogny-openapi.yml
+- filename: cogny-reports-api-openapi.yml
   format: yaml
-  label: Cogny API
-  slug: cogny-api
+  label: Cogny Reports API
+  slug: cogny-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/openapi/cogny-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/openapi/cogny-reports-api-openapi.yml
+- filename: cogny-tickets-api-openapi.yml
+  format: yaml
+  label: Cogny Tickets API
+  slug: cogny-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/openapi/cogny-tickets-api-openapi.yml
+- filename: cogny-warehouses-api-openapi.yml
+  format: yaml
+  label: Cogny Warehouses API
+  slug: cogny-warehouses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/openapi/cogny-warehouses-api-openapi.yml
+- filename: cogny-webhooks-api-openapi.yml
+  format: yaml
+  label: Cogny Webhooks API
+  slug: cogny-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/openapi/cogny-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http

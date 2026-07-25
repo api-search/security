@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: oracle-general-ledger-accounting-periods-api-openapi.yml
+  format: yaml
+  label: Oracle General Ledger Accounting Periods API
+  slug: oracle-general-ledger-accounting-periods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-general-ledger/refs/heads/main/openapi/oracle-general-ledger-accounting-periods-api-openapi.yml
+- filename: oracle-general-ledger-budgetary-control-api-openapi.yml
+  format: yaml
+  label: Oracle General Ledger Budgetary Control API
+  slug: oracle-general-ledger-budgetary-control-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-general-ledger/refs/heads/main/openapi/oracle-general-ledger-budgetary-control-api-openapi.yml
+- filename: oracle-general-ledger-currency-rates-api-openapi.yml
+  format: yaml
+  label: Oracle General Ledger Currency Rates API
+  slug: oracle-general-ledger-currency-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-general-ledger/refs/heads/main/openapi/oracle-general-ledger-currency-rates-api-openapi.yml
+- filename: oracle-general-ledger-erp-integrations-api-openapi.yml
+  format: yaml
+  label: Oracle General Ledger ERP Integrations API
+  slug: oracle-general-ledger-erp-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-general-ledger/refs/heads/main/openapi/oracle-general-ledger-erp-integrations-api-openapi.yml
+- filename: oracle-general-ledger-intercompany-api-openapi.yml
+  format: yaml
+  label: Oracle General Ledger Intercompany API
+  slug: oracle-general-ledger-intercompany-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-general-ledger/refs/heads/main/openapi/oracle-general-ledger-intercompany-api-openapi.yml
+- filename: oracle-general-ledger-journal-batches-api-openapi.yml
+  format: yaml
+  label: Oracle General Ledger Journal Batches API
+  slug: oracle-general-ledger-journal-batches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-general-ledger/refs/heads/main/openapi/oracle-general-ledger-journal-batches-api-openapi.yml
+- filename: oracle-general-ledger-ledger-balances-api-openapi.yml
+  format: yaml
+  label: Oracle General Ledger Ledger Balances API
+  slug: oracle-general-ledger-ledger-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-general-ledger/refs/heads/main/openapi/oracle-general-ledger-ledger-balances-api-openapi.yml
+- filename: oracle-general-ledger-ledger-options-api-openapi.yml
+  format: yaml
+  label: Oracle General Ledger Ledger Options API
+  slug: oracle-general-ledger-ledger-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-general-ledger/refs/heads/main/openapi/oracle-general-ledger-ledger-options-api-openapi.yml
 description: ''
 domains:
 - caa:

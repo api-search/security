@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: clickfunnels-openapi.yml
+- filename: clickfunnels-contacts-api-openapi.yml
   format: yaml
-  label: ClickFunnels 2.0 API
-  slug: clickfunnels-api
+  label: ClickFunnels Contacts API
+  slug: clickfunnels-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-contacts-api-openapi.yml
+- filename: clickfunnels-fulfillments-api-openapi.yml
+  format: yaml
+  label: ClickFunnels Fulfillments API
+  slug: clickfunnels-fulfillments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-fulfillments-api-openapi.yml
+- filename: clickfunnels-products-api-openapi.yml
+  format: yaml
+  label: ClickFunnels Products API
+  slug: clickfunnels-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-products-api-openapi.yml
+- filename: clickfunnels-teams-api-openapi.yml
+  format: yaml
+  label: ClickFunnels Teams API
+  slug: clickfunnels-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-teams-api-openapi.yml
+- filename: clickfunnels-workspaces-api-openapi.yml
+  format: yaml
+  label: ClickFunnels Workspaces API
+  slug: clickfunnels-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []

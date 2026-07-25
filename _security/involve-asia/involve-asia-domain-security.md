@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: involve-asia-publisher-openapi.yml
+- filename: involve-asia-auth-api-openapi.yml
   format: yaml
-  label: Involve Asia Publisher API
-  slug: involve-asia-publisher-api
+  label: Involve Asia Auth API
+  slug: involve-asia-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/openapi/involve-asia-publisher-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/openapi/involve-asia-auth-api-openapi.yml
+- filename: involve-asia-campaigns-api-openapi.yml
+  format: yaml
+  label: Involve Asia Campaigns API
+  slug: involve-asia-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/openapi/involve-asia-campaigns-api-openapi.yml
+- filename: involve-asia-conversions-api-openapi.yml
+  format: yaml
+  label: Involve Asia Conversions API
+  slug: involve-asia-conversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/openapi/involve-asia-conversions-api-openapi.yml
+- filename: involve-asia-deeplink-api-openapi.yml
+  format: yaml
+  label: Involve Asia Deeplink API
+  slug: involve-asia-deeplink-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/openapi/involve-asia-deeplink-api-openapi.yml
+- filename: involve-asia-offers-api-openapi.yml
+  format: yaml
+  label: Involve Asia Offers API
+  slug: involve-asia-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/openapi/involve-asia-offers-api-openapi.yml
+- filename: involve-asia-shopee-api-openapi.yml
+  format: yaml
+  label: Involve Asia Shopee API
+  slug: involve-asia-shopee-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/openapi/involve-asia-shopee-api-openapi.yml
 description: ''
 domains:
 - caa: []

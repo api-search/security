@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: pipefy-openapi.yml
+- filename: pipefy-graphql-api-openapi.yml
   format: yaml
   label: Pipefy GraphQL API
-  slug: graphql-api
+  slug: pipefy-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipefy/refs/heads/main/openapi/pipefy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pipefy/refs/heads/main/openapi/pipefy-graphql-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

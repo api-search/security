@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: zus-openapi.yml
+- filename: zus-auth-api-openapi.yml
   format: yaml
-  label: Zus Patients (FHIR)
-  slug: patients-fhir
+  label: Zus Health Auth API
+  slug: zus-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/openapi/zus-openapi.yml
-- filename: zus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/openapi/zus-auth-api-openapi.yml
+- filename: zus-documents-api-openapi.yml
   format: yaml
-  label: Zus Aggregated Profile
-  slug: aggregated-profile
+  label: Zus Health Documents API
+  slug: zus-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/openapi/zus-openapi.yml
-- filename: zus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/openapi/zus-documents-api-openapi.yml
+- filename: zus-fhir-api-openapi.yml
   format: yaml
-  label: Zus FHIR Resources
-  slug: fhir-resources
+  label: Zus Health FHIR API
+  slug: zus-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/openapi/zus-openapi.yml
-- filename: zus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/openapi/zus-fhir-api-openapi.yml
+- filename: zus-patient-api-openapi.yml
   format: yaml
-  label: Zus Document Retrieval
-  slug: document-retrieval
+  label: Zus Health Patient API
+  slug: zus-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/openapi/zus-openapi.yml
-- filename: zus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/openapi/zus-patient-api-openapi.yml
+- filename: zus-patient-history-api-openapi.yml
   format: yaml
-  label: Zus Subscriptions and Webhooks
-  slug: subscriptions-webhooks
+  label: Zus Health Patient History API
+  slug: zus-patient-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/openapi/zus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/openapi/zus-patient-history-api-openapi.yml
 description: ''
 domains:
 - caa: []

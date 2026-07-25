@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: go1-openapi.yml
+- filename: go1-enrollments-api-openapi.yml
   format: yaml
-  label: Go1 API
-  slug: go1-api
+  label: Go1 Enrollments API
+  slug: go1-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-enrollments-api-openapi.yml
+- filename: go1-learning-objects-api-openapi.yml
+  format: yaml
+  label: Go1 Learning objects API
+  slug: go1-learning-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-learning-objects-api-openapi.yml
+- filename: go1-portals-api-openapi.yml
+  format: yaml
+  label: Go1 Portals API
+  slug: go1-portals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-portals-api-openapi.yml
+- filename: go1-webhooks-api-openapi.yml
+  format: yaml
+  label: Go1 Webhooks API
+  slug: go1-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

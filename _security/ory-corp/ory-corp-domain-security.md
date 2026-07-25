@@ -1,77 +1,77 @@
 ---
 api_specs:
-- filename: ory-corp-openapi.yml
+- filename: ory-corp-billing-api-openapi.yml
   format: yaml
-  label: Ory Identity API (Kratos - Self-Service)
-  slug: ory-corp-identity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-openapi.yml
-- filename: ory-corp-openapi.yml
-  format: yaml
-  label: Ory Identity Admin API (Kratos)
-  slug: ory-corp-identity-admin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-openapi.yml
-- filename: ory-corp-openapi.yml
-  format: yaml
-  label: Ory OAuth2 and OpenID Connect API (Hydra)
-  slug: ory-corp-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-openapi.yml
-- filename: ory-corp-openapi.yml
-  format: yaml
-  label: Ory OAuth2 Admin API (Hydra)
-  slug: ory-corp-oauth2-admin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-openapi.yml
-- filename: ory-corp-openapi.yml
-  format: yaml
-  label: Ory Permissions API (Keto)
-  slug: ory-corp-permissions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-openapi.yml
-- filename: ory-corp-openapi.yml
-  format: yaml
-  label: Ory Relationships API (Keto Write)
-  slug: ory-corp-relationships-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-openapi.yml
-- filename: ory-corp-openapi.yml
-  format: yaml
-  label: Ory Courier Messages API
-  slug: ory-corp-courier-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-openapi.yml
-- filename: ory-corp-openapi.yml
-  format: yaml
-  label: Ory Organizations API (B2B SSO)
-  slug: ory-corp-organizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-openapi.yml
-- filename: ory-corp-openapi.yml
-  format: yaml
-  label: Ory Network Projects API (Console)
-  slug: ory-corp-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-openapi.yml
-- filename: ory-corp-openapi.yml
-  format: yaml
-  label: Ory Network Project API Tokens API
-  slug: ory-corp-project-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-openapi.yml
-- filename: ory-corp-openapi.yml
-  format: yaml
-  label: Ory Network Event Streams API
-  slug: ory-corp-event-streams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-openapi.yml
-- filename: ory-corp-openapi.yml
-  format: yaml
-  label: Ory Network Subscriptions and Billing API
+  label: Ory Billing API
   slug: ory-corp-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-billing-api-openapi.yml
+- filename: ory-corp-courier-api-openapi.yml
+  format: yaml
+  label: Ory Courier API
+  slug: ory-corp-courier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-courier-api-openapi.yml
+- filename: ory-corp-event-streams-api-openapi.yml
+  format: yaml
+  label: Ory Event Streams API
+  slug: ory-corp-event-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-event-streams-api-openapi.yml
+- filename: ory-corp-identity-admin-api-openapi.yml
+  format: yaml
+  label: Ory Identity (Admin) API
+  slug: ory-corp-identity-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-identity-admin-api-openapi.yml
+- filename: ory-corp-identity-self-service-api-openapi.yml
+  format: yaml
+  label: Ory Identity (Self-Service) API
+  slug: ory-corp-identity-self-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-identity-self-service-api-openapi.yml
+- filename: ory-corp-oauth2-admin-api-openapi.yml
+  format: yaml
+  label: Ory OAuth2 (Admin) API
+  slug: ory-corp-oauth2-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-oauth2-admin-api-openapi.yml
+- filename: ory-corp-oauth2-public-api-openapi.yml
+  format: yaml
+  label: Ory OAuth2 (Public) API
+  slug: ory-corp-oauth2-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-oauth2-public-api-openapi.yml
+- filename: ory-corp-organizations-api-openapi.yml
+  format: yaml
+  label: Ory Organizations API
+  slug: ory-corp-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-organizations-api-openapi.yml
+- filename: ory-corp-permissions-api-openapi.yml
+  format: yaml
+  label: Ory Permissions API
+  slug: ory-corp-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-permissions-api-openapi.yml
+- filename: ory-corp-project-tokens-api-openapi.yml
+  format: yaml
+  label: Ory Project Tokens API
+  slug: ory-corp-project-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-project-tokens-api-openapi.yml
+- filename: ory-corp-projects-api-openapi.yml
+  format: yaml
+  label: Ory Projects API
+  slug: ory-corp-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-projects-api-openapi.yml
+- filename: ory-corp-relationships-api-openapi.yml
+  format: yaml
+  label: Ory Relationships API
+  slug: ory-corp-relationships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/openapi/ory-corp-relationships-api-openapi.yml
 description: ''
 domains:
 - caa: []

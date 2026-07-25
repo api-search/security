@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: monad-openapi.yml
+- filename: monad-monad-json-rpc-api-api-openapi.yml
   format: yaml
-  label: Monad JSON-RPC API
-  slug: json-rpc-api
+  label: Monad Monad JSON RPC API API
+  slug: monad-monad-json-rpc-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monad/refs/heads/main/openapi/monad-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/monad/refs/heads/main/openapi/monad-monad-json-rpc-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: brandtrack-openapi-original.yml
+- filename: brandtrack-accounts-api-openapi.yml
   format: yaml
-  label: Brandtrack API
-  slug: brandtrack-api
+  label: Brandtrack Accounts API
+  slug: brandtrack-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-accounts-api-openapi.yml
+- filename: brandtrack-groups-api-openapi.yml
+  format: yaml
+  label: Brandtrack Groups API
+  slug: brandtrack-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-groups-api-openapi.yml
+- filename: brandtrack-locations-api-openapi.yml
+  format: yaml
+  label: Brandtrack Locations API
+  slug: brandtrack-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-locations-api-openapi.yml
+- filename: brandtrack-other-api-openapi.yml
+  format: yaml
+  label: Brandtrack Other API
+  slug: brandtrack-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-other-api-openapi.yml
+- filename: brandtrack-partner-api-openapi.yml
+  format: yaml
+  label: Brandtrack Partner API
+  slug: brandtrack-partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-partner-api-openapi.yml
+- filename: brandtrack-roles-api-openapi.yml
+  format: yaml
+  label: Brandtrack Roles API
+  slug: brandtrack-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-roles-api-openapi.yml
+- filename: brandtrack-subscriptions-api-openapi.yml
+  format: yaml
+  label: Brandtrack Subscriptions API
+  slug: brandtrack-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-subscriptions-api-openapi.yml
+- filename: brandtrack-users-api-openapi.yml
+  format: yaml
+  label: Brandtrack Users API
+  slug: brandtrack-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-users-api-openapi.yml
+- filename: brandtrack-zones-api-openapi.yml
+  format: yaml
+  label: Brandtrack Zones API
+  slug: brandtrack-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-zones-api-openapi.yml
 description: ''
 domains:
 - caa: []

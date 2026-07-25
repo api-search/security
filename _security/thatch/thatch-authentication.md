@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: thatch-partners-openapi.yml
+- filename: thatch-deductions-api-openapi.yml
   format: yaml
-  label: Thatch for Platforms API
-  slug: thatch-for-platforms-api
+  label: Thatch Deductions API
+  slug: thatch-deductions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thatch/refs/heads/main/openapi/thatch-partners-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thatch/refs/heads/main/openapi/thatch-deductions-api-openapi.yml
+- filename: thatch-employees-api-openapi.yml
+  format: yaml
+  label: Thatch Employees API
+  slug: thatch-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thatch/refs/heads/main/openapi/thatch-employees-api-openapi.yml
+- filename: thatch-employer-onboarding-sessions-api-openapi.yml
+  format: yaml
+  label: Thatch Employer onboarding sessions API
+  slug: thatch-employer-onboarding-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thatch/refs/heads/main/openapi/thatch-employer-onboarding-sessions-api-openapi.yml
+- filename: thatch-employers-api-openapi.yml
+  format: yaml
+  label: Thatch Employers API
+  slug: thatch-employers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thatch/refs/heads/main/openapi/thatch-employers-api-openapi.yml
+- filename: thatch-enrollments-api-openapi.yml
+  format: yaml
+  label: Thatch Enrollments API
+  slug: thatch-enrollments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thatch/refs/heads/main/openapi/thatch-enrollments-api-openapi.yml
+- filename: thatch-members-api-openapi.yml
+  format: yaml
+  label: Thatch Members API
+  slug: thatch-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thatch/refs/heads/main/openapi/thatch-members-api-openapi.yml
+- filename: thatch-pay-schedules-api-openapi.yml
+  format: yaml
+  label: Thatch Pay Schedules API
+  slug: thatch-pay-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thatch/refs/heads/main/openapi/thatch-pay-schedules-api-openapi.yml
 auth_types:
 - http
 description: ''

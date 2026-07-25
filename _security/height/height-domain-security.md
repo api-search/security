@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: height-activities-api-openapi.yml
   format: yaml
-  label: Height REST API
-  slug: height-api
+  label: Height Activities API
+  slug: height-activities-api
   spec_type: OpenAPI
-  url: https://height-api.xyz/openapi/
+  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-activities-api-openapi.yml
+- filename: height-field-templates-api-openapi.yml
+  format: yaml
+  label: Height Field Templates API
+  slug: height-field-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-field-templates-api-openapi.yml
+- filename: height-groups-api-openapi.yml
+  format: yaml
+  label: Height Groups API
+  slug: height-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-groups-api-openapi.yml
+- filename: height-lists-api-openapi.yml
+  format: yaml
+  label: Height Lists API
+  slug: height-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-lists-api-openapi.yml
+- filename: height-security-log-events-api-openapi.yml
+  format: yaml
+  label: Height Security Log Events API
+  slug: height-security-log-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-security-log-events-api-openapi.yml
+- filename: height-task-forms-api-openapi.yml
+  format: yaml
+  label: Height Task Forms API
+  slug: height-task-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-task-forms-api-openapi.yml
+- filename: height-tasks-api-openapi.yml
+  format: yaml
+  label: Height Tasks API
+  slug: height-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-tasks-api-openapi.yml
+- filename: height-users-api-openapi.yml
+  format: yaml
+  label: Height Users API
+  slug: height-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-users-api-openapi.yml
+- filename: height-workspace-api-openapi.yml
+  format: yaml
+  label: Height Workspace API
+  slug: height-workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-workspace-api-openapi.yml
 description: ''
 domains:
 - caa: []

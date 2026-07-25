@@ -1,17 +1,77 @@
 ---
 api_specs:
-- filename: paytronix-server-api-openapi.yml
+- filename: paytronix-check-api-openapi.yml
   format: yaml
-  label: Paytronix Server API
-  slug: rest-api
+  label: Paytronix Check API
+  slug: paytronix-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-server-api-openapi.yml
-- filename: paytronix-online-ordering-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-check-api-openapi.yml
+- filename: paytronix-enrollment-api-openapi.yml
   format: yaml
-  label: Paytronix Online Ordering API
-  slug: online-ordering-api
+  label: Paytronix Enrollment API
+  slug: paytronix-enrollment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-online-ordering-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-enrollment-api-openapi.yml
+- filename: paytronix-gift-api-openapi.yml
+  format: yaml
+  label: Paytronix Gift API
+  slug: paytronix-gift-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-gift-api-openapi.yml
+- filename: paytronix-guest-api-openapi.yml
+  format: yaml
+  label: Paytronix Guest API
+  slug: paytronix-guest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-guest-api-openapi.yml
+- filename: paytronix-menu-items-api-openapi.yml
+  format: yaml
+  label: Paytronix Menu Items API
+  slug: paytronix-menu-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-menu-items-api-openapi.yml
+- filename: paytronix-oauth-api-openapi.yml
+  format: yaml
+  label: Paytronix OAuth API
+  slug: paytronix-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-oauth-api-openapi.yml
+- filename: paytronix-orders-api-openapi.yml
+  format: yaml
+  label: Paytronix Orders API
+  slug: paytronix-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-orders-api-openapi.yml
+- filename: paytronix-payment-api-openapi.yml
+  format: yaml
+  label: Paytronix Payment API
+  slug: paytronix-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-payment-api-openapi.yml
+- filename: paytronix-restaurants-api-openapi.yml
+  format: yaml
+  label: Paytronix Restaurants API
+  slug: paytronix-restaurants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-restaurants-api-openapi.yml
+- filename: paytronix-search-api-openapi.yml
+  format: yaml
+  label: Paytronix Search API
+  slug: paytronix-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-search-api-openapi.yml
+- filename: paytronix-store-api-openapi.yml
+  format: yaml
+  label: Paytronix Store API
+  slug: paytronix-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-store-api-openapi.yml
+- filename: paytronix-transaction-api-openapi.yml
+  format: yaml
+  label: Paytronix Transaction API
+  slug: paytronix-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-transaction-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: tako-openapi-original.yml
+- filename: tako-agent-api-openapi.yml
   format: yaml
-  label: Tako Knowledge Search API
-  slug: tako-knowledge-search-api
+  label: Tako agent API
+  slug: tako-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/openapi/tako-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/openapi/tako-agent-api-openapi.yml
+- filename: tako-tako-api-openapi.yml
+  format: yaml
+  label: Tako tako API
+  slug: tako-tako-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/openapi/tako-tako-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

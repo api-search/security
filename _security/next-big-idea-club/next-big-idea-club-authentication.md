@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: next-big-idea-club-members-openapi.yml
+- filename: next-big-idea-club-members-api-openapi.yml
   format: yaml
-  label: Next Big Idea Club Members API
+  label: Next Big Idea Club members API
   slug: next-big-idea-club-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/next-big-idea-club/refs/heads/main/openapi/next-big-idea-club-members-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/next-big-idea-club/refs/heads/main/openapi/next-big-idea-club-members-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect

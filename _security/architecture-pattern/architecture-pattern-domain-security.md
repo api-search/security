@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: architecture-pattern-api.yaml
+- filename: architecture-pattern-domains-api-openapi.yml
   format: yaml
-  label: Architecture Pattern API
-  slug: architecture-pattern-api
+  label: Architecture Pattern Domains API
+  slug: architecture-pattern-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/architecture-pattern/refs/heads/main/openapi/architecture-pattern-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/architecture-pattern/refs/heads/main/openapi/architecture-pattern-domains-api-openapi.yml
+- filename: architecture-pattern-patterns-api-openapi.yml
+  format: yaml
+  label: Architecture Pattern Patterns API
+  slug: architecture-pattern-patterns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/architecture-pattern/refs/heads/main/openapi/architecture-pattern-patterns-api-openapi.yml
+- filename: architecture-pattern-trade-offs-api-openapi.yml
+  format: yaml
+  label: Architecture Pattern Trade-offs API
+  slug: architecture-pattern-trade-offs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/architecture-pattern/refs/heads/main/openapi/architecture-pattern-trade-offs-api-openapi.yml
 description: ''
 domains:
 - caa: []

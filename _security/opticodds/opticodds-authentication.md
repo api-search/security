@@ -3,12 +3,36 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: opticodds-openapi.yml
+- filename: opticodds-fixtures-api-openapi.yml
   format: yaml
-  label: OpticOdds
-  slug: opticodds
+  label: OpticOdds Fixtures API
+  slug: opticodds-fixtures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-fixtures-api-openapi.yml
+- filename: opticodds-futures-api-openapi.yml
+  format: yaml
+  label: OpticOdds Futures API
+  slug: opticodds-futures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-futures-api-openapi.yml
+- filename: opticodds-injuries-api-openapi.yml
+  format: yaml
+  label: OpticOdds Injuries API
+  slug: opticodds-injuries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-injuries-api-openapi.yml
+- filename: opticodds-reference-api-openapi.yml
+  format: yaml
+  label: OpticOdds Reference API
+  slug: opticodds-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-reference-api-openapi.yml
+- filename: opticodds-results-api-openapi.yml
+  format: yaml
+  label: OpticOdds Results API
+  slug: opticodds-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-results-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

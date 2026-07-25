@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: strimzi-kafka-bridge-openapi.yml
+- filename: strimzi-consumer-api-openapi.yml
   format: yaml
-  label: Strimzi Kafka Bridge REST API
-  slug: strimzi-kafka-bridge-api
+  label: Strimzi Consumer API
+  slug: strimzi-consumer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strimzi/refs/heads/main/openapi/strimzi-kafka-bridge-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/strimzi/refs/heads/main/openapi/strimzi-consumer-api-openapi.yml
+- filename: strimzi-producer-api-openapi.yml
+  format: yaml
+  label: Strimzi Producer API
+  slug: strimzi-producer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/strimzi/refs/heads/main/openapi/strimzi-producer-api-openapi.yml
+- filename: strimzi-seek-api-openapi.yml
+  format: yaml
+  label: Strimzi Seek API
+  slug: strimzi-seek-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/strimzi/refs/heads/main/openapi/strimzi-seek-api-openapi.yml
+- filename: strimzi-topics-api-openapi.yml
+  format: yaml
+  label: Strimzi Topics API
+  slug: strimzi-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/strimzi/refs/heads/main/openapi/strimzi-topics-api-openapi.yml
 description: ''
 domains:
 - caa: []

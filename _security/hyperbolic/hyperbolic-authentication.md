@@ -1,5 +1,36 @@
 ---
 api_key_in: []
+api_specs:
+- filename: hyperbolic-audio-api-openapi.yml
+  format: yaml
+  label: Hyperbolic Audio API
+  slug: hyperbolic-audio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbolic/refs/heads/main/openapi/hyperbolic-audio-api-openapi.yml
+- filename: hyperbolic-chat-api-openapi.yml
+  format: yaml
+  label: Hyperbolic Chat API
+  slug: hyperbolic-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbolic/refs/heads/main/openapi/hyperbolic-chat-api-openapi.yml
+- filename: hyperbolic-completions-api-openapi.yml
+  format: yaml
+  label: Hyperbolic Completions API
+  slug: hyperbolic-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbolic/refs/heads/main/openapi/hyperbolic-completions-api-openapi.yml
+- filename: hyperbolic-image-api-openapi.yml
+  format: yaml
+  label: Hyperbolic Image API
+  slug: hyperbolic-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbolic/refs/heads/main/openapi/hyperbolic-image-api-openapi.yml
+- filename: hyperbolic-models-api-openapi.yml
+  format: yaml
+  label: Hyperbolic Models API
+  slug: hyperbolic-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbolic/refs/heads/main/openapi/hyperbolic-models-api-openapi.yml
 auth_types:
 - http
 description: ''

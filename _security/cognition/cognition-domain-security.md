@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: cognition-openapi.yml
+- filename: cognition-attachments-api-openapi.yml
   format: yaml
-  label: Devin API
-  slug: devin-api
+  label: Cognition AI Attachments API
+  slug: cognition-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition/refs/heads/main/openapi/cognition-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cognition/refs/heads/main/openapi/cognition-attachments-api-openapi.yml
+- filename: cognition-auditlogs-api-openapi.yml
+  format: yaml
+  label: Cognition AI AuditLogs API
+  slug: cognition-auditlogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognition/refs/heads/main/openapi/cognition-auditlogs-api-openapi.yml
+- filename: cognition-enterprise-api-openapi.yml
+  format: yaml
+  label: Cognition AI Enterprise API
+  slug: cognition-enterprise-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognition/refs/heads/main/openapi/cognition-enterprise-api-openapi.yml
+- filename: cognition-knowledge-api-openapi.yml
+  format: yaml
+  label: Cognition AI Knowledge API
+  slug: cognition-knowledge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognition/refs/heads/main/openapi/cognition-knowledge-api-openapi.yml
+- filename: cognition-playbooks-api-openapi.yml
+  format: yaml
+  label: Cognition AI Playbooks API
+  slug: cognition-playbooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognition/refs/heads/main/openapi/cognition-playbooks-api-openapi.yml
+- filename: cognition-secrets-api-openapi.yml
+  format: yaml
+  label: Cognition AI Secrets API
+  slug: cognition-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognition/refs/heads/main/openapi/cognition-secrets-api-openapi.yml
+- filename: cognition-sessions-api-openapi.yml
+  format: yaml
+  label: Cognition AI Sessions API
+  slug: cognition-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognition/refs/heads/main/openapi/cognition-sessions-api-openapi.yml
 description: ''
 domains:
 - caa: []

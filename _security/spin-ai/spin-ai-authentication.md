@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: spin-ai-openapi.yml
+- filename: spin-ai-entities-api-openapi.yml
   format: yaml
-  label: Spin.AI SpinOne API
-  slug: spin-ai-spinone-api
+  label: Spin.AI Entities API
+  slug: spin-ai-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spin-ai/refs/heads/main/openapi/spin-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spin-ai/refs/heads/main/openapi/spin-ai-entities-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: timeswap-api-openapi.json
-  format: json
-  label: Timeswap API
-  slug: timeswap-api
+- filename: timeswap-fastapi-api-openapi.yml
+  format: yaml
+  label: Timeswap FastAPI API
+  slug: timeswap-fastapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeswap/refs/heads/main/openapi/timeswap-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/timeswap/refs/heads/main/openapi/timeswap-fastapi-api-openapi.yml
+- filename: timeswap-paulygon-api-openapi.yml
+  format: yaml
+  label: Timeswap Paulygon API
+  slug: timeswap-paulygon-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/timeswap/refs/heads/main/openapi/timeswap-paulygon-api-openapi.yml
+- filename: timeswap-pools-api-openapi.yml
+  format: yaml
+  label: Timeswap Pools API
+  slug: timeswap-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/timeswap/refs/heads/main/openapi/timeswap-pools-api-openapi.yml
+- filename: timeswap-taskon-api-openapi.yml
+  format: yaml
+  label: Timeswap TaskON API
+  slug: timeswap-taskon-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/timeswap/refs/heads/main/openapi/timeswap-taskon-api-openapi.yml
+- filename: timeswap-token-api-openapi.yml
+  format: yaml
+  label: Timeswap Token API
+  slug: timeswap-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/timeswap/refs/heads/main/openapi/timeswap-token-api-openapi.yml
 description: ''
 domains:
 - caa: []

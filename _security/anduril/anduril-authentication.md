@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: anduril-openapi.yml
+- filename: anduril-entities-api-openapi.yml
   format: yaml
-  label: Anduril Lattice SDK
-  slug: lattice-sdk
+  label: Anduril Industries Entities API
+  slug: anduril-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-entities-api-openapi.yml
+- filename: anduril-oauth-api-openapi.yml
+  format: yaml
+  label: Anduril Industries OAuth API
+  slug: anduril-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-oauth-api-openapi.yml
+- filename: anduril-objects-api-openapi.yml
+  format: yaml
+  label: Anduril Industries Objects API
+  slug: anduril-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-objects-api-openapi.yml
+- filename: anduril-tasks-api-openapi.yml
+  format: yaml
+  label: Anduril Industries Tasks API
+  slug: anduril-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-tasks-api-openapi.yml
 auth_types:
 - http
 - oauth2

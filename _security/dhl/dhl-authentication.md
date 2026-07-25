@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: dhl-openapi.yml
+- filename: dhl-find-by-address-api-openapi.yml
   format: yaml
-  label: Location Finder Unified
-  slug: location-finder-unified
+  label: DHL Find By Address API
+  slug: dhl-find-by-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/openapi/dhl-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/openapi/dhl-find-by-address-api-openapi.yml
+- filename: dhl-find-by-geo-api-openapi.yml
+  format: yaml
+  label: DHL Find By Geo API
+  slug: dhl-find-by-geo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/openapi/dhl-find-by-geo-api-openapi.yml
+- filename: dhl-find-by-keyword-id-api-openapi.yml
+  format: yaml
+  label: DHL Find By Keyword Id API
+  slug: dhl-find-by-keyword-id-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/openapi/dhl-find-by-keyword-id-api-openapi.yml
+- filename: dhl-find-by-location-id-api-openapi.yml
+  format: yaml
+  label: DHL Find By Location Id API
+  slug: dhl-find-by-location-id-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/openapi/dhl-find-by-location-id-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -2,30 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: churnkey-openapi.yml
+- filename: churnkey-billing-contacts-api-openapi.yml
   format: yaml
-  label: Churnkey Data API
-  slug: churnkey-data-api
+  label: Churnkey Billing Contacts API
+  slug: churnkey-billing-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/openapi/churnkey-openapi.yml
-- filename: churnkey-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/openapi/churnkey-billing-contacts-api-openapi.yml
+- filename: churnkey-customers-api-openapi.yml
   format: yaml
-  label: Churnkey Event Tracking API
-  slug: churnkey-event-tracking-api
+  label: Churnkey Customers API
+  slug: churnkey-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/openapi/churnkey-openapi.yml
-- filename: churnkey-openapi.yml
-  format: yaml
-  label: Churnkey Billing Contact API
-  slug: churnkey-billing-contact-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/openapi/churnkey-openapi.yml
-- filename: churnkey-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/openapi/churnkey-customers-api-openapi.yml
+- filename: churnkey-data-subject-requests-api-openapi.yml
   format: yaml
   label: Churnkey Data Subject Requests API
   slug: churnkey-data-subject-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/openapi/churnkey-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/openapi/churnkey-data-subject-requests-api-openapi.yml
+- filename: churnkey-events-api-openapi.yml
+  format: yaml
+  label: Churnkey Events API
+  slug: churnkey-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/openapi/churnkey-events-api-openapi.yml
+- filename: churnkey-sessions-api-openapi.yml
+  format: yaml
+  label: Churnkey Sessions API
+  slug: churnkey-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/openapi/churnkey-sessions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

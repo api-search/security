@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: api-pulse-publish-openapi.yml
+- filename: api-pulse-signals-api-openapi.yml
   format: yaml
-  label: API Pulse Publish API
-  slug: api-pulse-publish
+  label: API Pulse Signals API
+  slug: api-pulse-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-pulse/refs/heads/main/openapi/api-pulse-publish-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/api-pulse/refs/heads/main/openapi/api-pulse-signals-api-openapi.yml
 description: ''
 domains:
 - caa: []

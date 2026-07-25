@@ -1,24 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: client-server
+- filename: synapse-federation-api-openapi.yml
   format: yaml
-  label: Synapse Client-Server API
-  slug: synapse-client-server-api
+  label: Synapse Federation API
+  slug: synapse-federation-api
   spec_type: OpenAPI
-  url: https://github.com/matrix-org/matrix-spec/tree/main/data/api/client-server
-- filename: server-server
+  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-federation-api-openapi.yml
+- filename: synapse-media-api-openapi.yml
   format: yaml
-  label: Synapse Server-Server API
-  slug: synapse-server-server-api
+  label: Synapse Media API
+  slug: synapse-media-api
   spec_type: OpenAPI
-  url: https://github.com/matrix-org/matrix-spec/tree/main/data/api/server-server
-- filename: synapse-admin-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-media-api-openapi.yml
+- filename: synapse-registration-api-openapi.yml
   format: yaml
-  label: Synapse Admin API
-  slug: synapse-admin-api
+  label: Synapse Registration API
+  slug: synapse-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-admin-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-registration-api-openapi.yml
+- filename: synapse-reports-api-openapi.yml
+  format: yaml
+  label: Synapse Reports API
+  slug: synapse-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-reports-api-openapi.yml
+- filename: synapse-rooms-api-openapi.yml
+  format: yaml
+  label: Synapse Rooms API
+  slug: synapse-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-rooms-api-openapi.yml
+- filename: synapse-server-api-openapi.yml
+  format: yaml
+  label: Synapse Server API
+  slug: synapse-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-server-api-openapi.yml
+- filename: synapse-statistics-api-openapi.yml
+  format: yaml
+  label: Synapse Statistics API
+  slug: synapse-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-statistics-api-openapi.yml
+- filename: synapse-users-api-openapi.yml
+  format: yaml
+  label: Synapse Users API
+  slug: synapse-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-users-api-openapi.yml
 auth_types:
 - http
 description: ''

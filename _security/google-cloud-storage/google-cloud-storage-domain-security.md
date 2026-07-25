@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: cloud-storage-openapi.yml
+- filename: google-cloud-storage-buckets-api-openapi.yml
   format: yaml
-  label: Cloud Storage JSON API
-  slug: cloud-storage-json-api
+  label: Google Cloud Storage Buckets API
+  slug: google-cloud-storage-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-storage/refs/heads/main/openapi/cloud-storage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-storage/refs/heads/main/openapi/google-cloud-storage-buckets-api-openapi.yml
+- filename: google-cloud-storage-objects-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Objects API
+  slug: google-cloud-storage-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-storage/refs/heads/main/openapi/google-cloud-storage-objects-api-openapi.yml
 description: ''
 domains:
 - caa:

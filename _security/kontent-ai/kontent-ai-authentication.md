@@ -1,5 +1,24 @@
 ---
 api_key_in: []
+api_specs:
+- filename: kontent-ai-assets-api-openapi.yml
+  format: yaml
+  label: Kontent AI Assets API
+  slug: kontent-ai-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kontent-ai/refs/heads/main/openapi/kontent-ai-assets-api-openapi.yml
+- filename: kontent-ai-items-api-openapi.yml
+  format: yaml
+  label: Kontent AI Items API
+  slug: kontent-ai-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kontent-ai/refs/heads/main/openapi/kontent-ai-items-api-openapi.yml
+- filename: kontent-ai-items-feed-api-openapi.yml
+  format: yaml
+  label: Kontent AI Items Feed API
+  slug: kontent-ai-items-feed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kontent-ai/refs/heads/main/openapi/kontent-ai-items-feed-api-openapi.yml
 auth_types:
 - http
 description: ''

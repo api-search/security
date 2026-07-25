@@ -2,24 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: payhip-openapi.yml
+- filename: payhip-coupons-api-openapi.yml
   format: yaml
   label: Payhip Coupons API
   slug: payhip-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payhip/refs/heads/main/openapi/payhip-openapi.yml
-- filename: payhip-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/payhip/refs/heads/main/openapi/payhip-coupons-api-openapi.yml
+- filename: payhip-license-keys-api-openapi.yml
   format: yaml
   label: Payhip License Keys API
   slug: payhip-license-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payhip/refs/heads/main/openapi/payhip-openapi.yml
-- filename: payhip-openapi.yml
-  format: yaml
-  label: Payhip Webhooks API
-  slug: payhip-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payhip/refs/heads/main/openapi/payhip-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/payhip/refs/heads/main/openapi/payhip-license-keys-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: surveymonkey-openapi.yml
+- filename: surveymonkey-collectors-api-openapi.yml
   format: yaml
-  label: SurveyMonkey API v3
-  slug: rest-v3
+  label: SurveyMonkey Collectors API
+  slug: surveymonkey-collectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-collectors-api-openapi.yml
+- filename: surveymonkey-contacts-api-openapi.yml
+  format: yaml
+  label: SurveyMonkey Contacts API
+  slug: surveymonkey-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-contacts-api-openapi.yml
+- filename: surveymonkey-groups-api-openapi.yml
+  format: yaml
+  label: SurveyMonkey Groups API
+  slug: surveymonkey-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-groups-api-openapi.yml
+- filename: surveymonkey-responses-api-openapi.yml
+  format: yaml
+  label: SurveyMonkey Responses API
+  slug: surveymonkey-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-responses-api-openapi.yml
+- filename: surveymonkey-survey-structure-api-openapi.yml
+  format: yaml
+  label: SurveyMonkey Survey Structure API
+  slug: surveymonkey-survey-structure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-survey-structure-api-openapi.yml
+- filename: surveymonkey-surveys-api-openapi.yml
+  format: yaml
+  label: SurveyMonkey Surveys API
+  slug: surveymonkey-surveys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-surveys-api-openapi.yml
+- filename: surveymonkey-users-api-openapi.yml
+  format: yaml
+  label: SurveyMonkey Users API
+  slug: surveymonkey-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-users-api-openapi.yml
+- filename: surveymonkey-workgroups-api-openapi.yml
+  format: yaml
+  label: SurveyMonkey Workgroups API
+  slug: surveymonkey-workgroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-workgroups-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

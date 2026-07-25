@@ -2,24 +2,54 @@
 api_key_in:
 - query
 api_specs:
-- filename: skimbit-merchant-openapi.yml
+- filename: skimbit-commissions-api-openapi.yml
   format: yaml
-  label: Skimlinks Merchant API
-  slug: skimlinks-merchant-api
+  label: SkimBit Commissions API
+  slug: skimbit-commissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/openapi/skimbit-merchant-openapi.yml
-- filename: skimbit-reporting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/openapi/skimbit-commissions-api-openapi.yml
+- filename: skimbit-domains-api-openapi.yml
   format: yaml
-  label: Skimlinks Reporting API
-  slug: skimlinks-reporting-api
+  label: SkimBit Domains API
+  slug: skimbit-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/openapi/skimbit-reporting-openapi.yml
-- filename: skimbit-product-key-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/openapi/skimbit-domains-api-openapi.yml
+- filename: skimbit-merchants-api-openapi.yml
   format: yaml
-  label: Skimlinks Product Key API
-  slug: skimlinks-product-key-api
+  label: SkimBit Merchants API
+  slug: skimbit-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/openapi/skimbit-product-key-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/openapi/skimbit-merchants-api-openapi.yml
+- filename: skimbit-offers-api-openapi.yml
+  format: yaml
+  label: SkimBit Offers API
+  slug: skimbit-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/openapi/skimbit-offers-api-openapi.yml
+- filename: skimbit-payments-api-openapi.yml
+  format: yaml
+  label: SkimBit Payments API
+  slug: skimbit-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/openapi/skimbit-payments-api-openapi.yml
+- filename: skimbit-products-api-openapi.yml
+  format: yaml
+  label: SkimBit Products API
+  slug: skimbit-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/openapi/skimbit-products-api-openapi.yml
+- filename: skimbit-reports-api-openapi.yml
+  format: yaml
+  label: SkimBit Reports API
+  slug: skimbit-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/openapi/skimbit-reports-api-openapi.yml
+- filename: skimbit-verticals-api-openapi.yml
+  format: yaml
+  label: SkimBit Verticals API
+  slug: skimbit-verticals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/openapi/skimbit-verticals-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2-like-client-credentials

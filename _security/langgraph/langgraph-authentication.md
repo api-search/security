@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: langgraph-openapi.json
-  format: json
-  label: LangSmith Deployment Control Plane API
-  slug: control-plane
+- filename: langgraph-agent-connections-v2-api-openapi.yml
+  format: yaml
+  label: LangGraph Agent Connections (v2) API
+  slug: langgraph-agent-connections-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/openapi/langgraph-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/openapi/langgraph-agent-connections-v2-api-openapi.yml
+- filename: langgraph-auth-service-v2-api-openapi.yml
+  format: yaml
+  label: LangGraph Auth Service (v2) API
+  slug: langgraph-auth-service-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/openapi/langgraph-auth-service-v2-api-openapi.yml
+- filename: langgraph-deployments-v2-api-openapi.yml
+  format: yaml
+  label: LangGraph Deployments (v2) API
+  slug: langgraph-deployments-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/openapi/langgraph-deployments-v2-api-openapi.yml
+- filename: langgraph-integrations-v1-api-openapi.yml
+  format: yaml
+  label: LangGraph Integrations (v1) API
+  slug: langgraph-integrations-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/openapi/langgraph-integrations-v1-api-openapi.yml
+- filename: langgraph-listeners-v2-api-openapi.yml
+  format: yaml
+  label: LangGraph Listeners (v2) API
+  slug: langgraph-listeners-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/openapi/langgraph-listeners-v2-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

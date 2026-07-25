@@ -1,48 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: midtrans-openapi.yml
-  format: yaml
-  label: Midtrans Snap API
-  slug: midtrans-snap-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-openapi.yml
-- filename: midtrans-openapi.yml
-  format: yaml
-  label: Midtrans Core API
-  slug: midtrans-core-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-openapi.yml
-- filename: midtrans-openapi.yml
+- filename: midtrans-card-tokenization-api-openapi.yml
   format: yaml
   label: Midtrans Card Tokenization API
   slug: midtrans-card-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-openapi.yml
-- filename: midtrans-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-card-tokenization-api-openapi.yml
+- filename: midtrans-core-api-api-openapi.yml
+  format: yaml
+  label: Midtrans Core API API
+  slug: midtrans-core-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-core-api-api-openapi.yml
+- filename: midtrans-gopay-tokenization-api-openapi.yml
   format: yaml
   label: Midtrans GoPay Tokenization API
   slug: midtrans-gopay-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-openapi.yml
-- filename: midtrans-openapi.yml
-  format: yaml
-  label: Midtrans Payment Link API
-  slug: midtrans-payment-link-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-openapi.yml
-- filename: midtrans-openapi.yml
-  format: yaml
-  label: Midtrans Subscription API
-  slug: midtrans-subscription-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-openapi.yml
-- filename: midtrans-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-gopay-tokenization-api-openapi.yml
+- filename: midtrans-iris-disbursement-api-openapi.yml
   format: yaml
   label: Midtrans Iris Disbursement API
   slug: midtrans-iris-disbursement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-iris-disbursement-api-openapi.yml
+- filename: midtrans-payment-link-api-openapi.yml
+  format: yaml
+  label: Midtrans Payment Link API
+  slug: midtrans-payment-link-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-payment-link-api-openapi.yml
+- filename: midtrans-snap-api-openapi.yml
+  format: yaml
+  label: Midtrans Snap API
+  slug: midtrans-snap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-snap-api-openapi.yml
+- filename: midtrans-subscription-api-openapi.yml
+  format: yaml
+  label: Midtrans Subscription API
+  slug: midtrans-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-subscription-api-openapi.yml
 auth_types:
 - http
 - apiKey

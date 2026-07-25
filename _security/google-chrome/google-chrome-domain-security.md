@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: google-chrome-management-api-openapi.json
-  format: json
-  label: Chrome Management API
-  slug: chrome-management-api
+- filename: google-chrome-app-details-api-openapi.yml
+  format: yaml
+  label: Google Chrome App Details API
+  slug: google-chrome-app-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-management-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-app-details-api-openapi.yml
+- filename: google-chrome-reports-api-openapi.yml
+  format: yaml
+  label: Google Chrome Reports API
+  slug: google-chrome-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-reports-api-openapi.yml
+- filename: google-chrome-telemetry-devices-api-openapi.yml
+  format: yaml
+  label: Google Chrome Telemetry Devices API
+  slug: google-chrome-telemetry-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-telemetry-devices-api-openapi.yml
+- filename: google-chrome-telemetry-events-api-openapi.yml
+  format: yaml
+  label: Google Chrome Telemetry Events API
+  slug: google-chrome-telemetry-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-telemetry-events-api-openapi.yml
+- filename: google-chrome-telemetry-notification-configs-api-openapi.yml
+  format: yaml
+  label: Google Chrome Telemetry Notification Configs API
+  slug: google-chrome-telemetry-notification-configs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-telemetry-notification-configs-api-openapi.yml
+- filename: google-chrome-telemetry-users-api-openapi.yml
+  format: yaml
+  label: Google Chrome Telemetry Users API
+  slug: google-chrome-telemetry-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-telemetry-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

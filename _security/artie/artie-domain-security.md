@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: artie-openapi-original.yml
+- filename: artie-column-hashing-salts-api-openapi.yml
   format: yaml
-  label: Artie API
-  slug: artie-api
+  label: Artie Column Hashing Salts API
+  slug: artie-column-hashing-salts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-column-hashing-salts-api-openapi.yml
+- filename: artie-connectors-api-openapi.yml
+  format: yaml
+  label: Artie Connectors API
+  slug: artie-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-connectors-api-openapi.yml
+- filename: artie-data-catalog-api-openapi.yml
+  format: yaml
+  label: Artie Data Catalog API
+  slug: artie-data-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-data-catalog-api-openapi.yml
+- filename: artie-encryption-keys-api-openapi.yml
+  format: yaml
+  label: Artie Encryption Keys API
+  slug: artie-encryption-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-encryption-keys-api-openapi.yml
+- filename: artie-ingestion-api-keys-api-openapi.yml
+  format: yaml
+  label: Artie Ingestion API Keys API
+  slug: artie-ingestion-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-ingestion-api-keys-api-openapi.yml
+- filename: artie-pipelines-api-openapi.yml
+  format: yaml
+  label: Artie Pipelines API
+  slug: artie-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-pipelines-api-openapi.yml
+- filename: artie-privatelink-connections-api-openapi.yml
+  format: yaml
+  label: Artie PrivateLink Connections API
+  slug: artie-privatelink-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-privatelink-connections-api-openapi.yml
+- filename: artie-source-readers-api-openapi.yml
+  format: yaml
+  label: Artie Source Readers API
+  slug: artie-source-readers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-source-readers-api-openapi.yml
+- filename: artie-ssh-tunnels-api-openapi.yml
+  format: yaml
+  label: Artie SSH Tunnels API
+  slug: artie-ssh-tunnels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-ssh-tunnels-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: mashable-openapi.yml
+- filename: mashable-articles-api-openapi.yml
   format: yaml
-  label: Mashable via News API
-  slug: mashable-via-newsapi
+  label: Mashable Articles API
+  slug: mashable-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mashable/refs/heads/main/openapi/mashable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mashable/refs/heads/main/openapi/mashable-articles-api-openapi.yml
+- filename: mashable-headlines-api-openapi.yml
+  format: yaml
+  label: Mashable Headlines API
+  slug: mashable-headlines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mashable/refs/heads/main/openapi/mashable-headlines-api-openapi.yml
 description: ''
 domains:
 - caa: []

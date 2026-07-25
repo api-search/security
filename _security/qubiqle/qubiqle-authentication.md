@@ -2,12 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: qubiqle-openapi-original.json
-  format: json
-  label: Ottimate API V1
-  slug: ottimate-api-v1
+- filename: qubiqle-accounts-api-openapi.yml
+  format: yaml
+  label: Qubiqle accounts API
+  slug: qubiqle-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/openapi/qubiqle-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/openapi/qubiqle-accounts-api-openapi.yml
+- filename: qubiqle-batch-api-openapi.yml
+  format: yaml
+  label: Qubiqle batch API
+  slug: qubiqle-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/openapi/qubiqle-batch-api-openapi.yml
+- filename: qubiqle-catalog-api-openapi.yml
+  format: yaml
+  label: Qubiqle catalog API
+  slug: qubiqle-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/openapi/qubiqle-catalog-api-openapi.yml
+- filename: qubiqle-dimensions-api-openapi.yml
+  format: yaml
+  label: Qubiqle dimensions API
+  slug: qubiqle-dimensions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/openapi/qubiqle-dimensions-api-openapi.yml
+- filename: qubiqle-invoices-api-openapi.yml
+  format: yaml
+  label: Qubiqle invoices API
+  slug: qubiqle-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/openapi/qubiqle-invoices-api-openapi.yml
+- filename: qubiqle-oauth-api-openapi.yml
+  format: yaml
+  label: Qubiqle oauth API
+  slug: qubiqle-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/openapi/qubiqle-oauth-api-openapi.yml
+- filename: qubiqle-purchaseorders-api-openapi.yml
+  format: yaml
+  label: Qubiqle purchaseOrders API
+  slug: qubiqle-purchaseorders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/openapi/qubiqle-purchaseorders-api-openapi.yml
+- filename: qubiqle-receipts-api-openapi.yml
+  format: yaml
+  label: Qubiqle receipts API
+  slug: qubiqle-receipts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/openapi/qubiqle-receipts-api-openapi.yml
+- filename: qubiqle-vendors-api-openapi.yml
+  format: yaml
+  label: Qubiqle vendors API
+  slug: qubiqle-vendors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/openapi/qubiqle-vendors-api-openapi.yml
 auth_types:
 - oauth2
 - apiKey

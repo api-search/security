@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: high-mobility-openapi.yml
+- filename: high-mobility-authentication-api-openapi.yml
   format: yaml
-  label: High Mobility Vehicle API
-  slug: high-mobility-api
+  label: High Mobility Authentication API
+  slug: high-mobility-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/high-mobility/refs/heads/main/openapi/high-mobility-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/high-mobility/refs/heads/main/openapi/high-mobility-authentication-api-openapi.yml
+- filename: high-mobility-fleet-clearance-api-openapi.yml
+  format: yaml
+  label: High Mobility Fleet Clearance API
+  slug: high-mobility-fleet-clearance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/high-mobility/refs/heads/main/openapi/high-mobility-fleet-clearance-api-openapi.yml
+- filename: high-mobility-vehicle-data-api-openapi.yml
+  format: yaml
+  label: High Mobility Vehicle Data API
+  slug: high-mobility-vehicle-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/high-mobility/refs/heads/main/openapi/high-mobility-vehicle-data-api-openapi.yml
+- filename: high-mobility-vehicle-eligibility-api-openapi.yml
+  format: yaml
+  label: High Mobility Vehicle Eligibility API
+  slug: high-mobility-vehicle-eligibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/high-mobility/refs/heads/main/openapi/high-mobility-vehicle-eligibility-api-openapi.yml
 description: ''
 domains:
 - caa: []

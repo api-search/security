@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Bitstamp REST API
-  slug: bitstamp-rest-api
+- filename: bitstamp-market-data-api-openapi.yml
+  format: yaml
+  label: Bitstamp Market Data API
+  slug: bitstamp-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitstamp/refs/heads/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/bitstamp/refs/heads/main/openapi/bitstamp-market-data-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: cms-energy-openapi.yml
+- filename: cms-energy-authorizations-api-openapi.yml
   format: yaml
-  label: Consumers Energy Green Button Connect My Data API
-  slug: consumers-green-button-api
+  label: CMS Energy Authorizations API
+  slug: cms-energy-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-authorizations-api-openapi.yml
+- filename: cms-energy-bills-api-openapi.yml
+  format: yaml
+  label: CMS Energy Bills API
+  slug: cms-energy-bills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-bills-api-openapi.yml
+- filename: cms-energy-greenbutton-api-openapi.yml
+  format: yaml
+  label: CMS Energy GreenButton API
+  slug: cms-energy-greenbutton-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-greenbutton-api-openapi.yml
+- filename: cms-energy-intervals-api-openapi.yml
+  format: yaml
+  label: CMS Energy Intervals API
+  slug: cms-energy-intervals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-intervals-api-openapi.yml
+- filename: cms-energy-meters-api-openapi.yml
+  format: yaml
+  label: CMS Energy Meters API
+  slug: cms-energy-meters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-meters-api-openapi.yml
 description: ''
 domains:
 - caa: []

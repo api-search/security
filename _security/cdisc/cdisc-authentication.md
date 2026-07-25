@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: cdisc-library-openapi.yml
+- filename: cdisc-adam-api-openapi.yml
   format: yaml
-  label: CDISC Library API
-  slug: cdisc-library-api
+  label: cdisc ADaM API
+  slug: cdisc-adam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-library-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-adam-api-openapi.yml
+- filename: cdisc-biomedical-concepts-api-openapi.yml
+  format: yaml
+  label: cdisc Biomedical Concepts API
+  slug: cdisc-biomedical-concepts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-biomedical-concepts-api-openapi.yml
+- filename: cdisc-cdash-api-openapi.yml
+  format: yaml
+  label: cdisc CDASH API
+  slug: cdisc-cdash-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-cdash-api-openapi.yml
+- filename: cdisc-products-api-openapi.yml
+  format: yaml
+  label: cdisc Products API
+  slug: cdisc-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-products-api-openapi.yml
+- filename: cdisc-sdtm-api-openapi.yml
+  format: yaml
+  label: cdisc SDTM API
+  slug: cdisc-sdtm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-sdtm-api-openapi.yml
+- filename: cdisc-terminology-api-openapi.yml
+  format: yaml
+  label: cdisc Terminology API
+  slug: cdisc-terminology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-terminology-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

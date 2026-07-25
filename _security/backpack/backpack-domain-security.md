@@ -1,17 +1,89 @@
 ---
 api_specs:
-- filename: backpack-exchange-openapi.yml
+- filename: backpack-account-api-openapi.yml
   format: yaml
-  label: Backpack Exchange API
-  slug: backpack-exchange-api
+  label: Backpack Account API
+  slug: backpack-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-exchange-openapi.yml
-- filename: backpack-exchange-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-account-api-openapi.yml
+- filename: backpack-assets-api-openapi.yml
   format: yaml
-  label: Backpack Exchange WebSocket Streams API
-  slug: backpack-exchange-streams-api
+  label: Backpack Assets API
+  slug: backpack-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-exchange-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-assets-api-openapi.yml
+- filename: backpack-borrow-lend-api-openapi.yml
+  format: yaml
+  label: Backpack Borrow Lend API
+  slug: backpack-borrow-lend-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-borrow-lend-api-openapi.yml
+- filename: backpack-borrow-lend-markets-api-openapi.yml
+  format: yaml
+  label: Backpack Borrow Lend Markets API
+  slug: backpack-borrow-lend-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-borrow-lend-markets-api-openapi.yml
+- filename: backpack-capital-api-openapi.yml
+  format: yaml
+  label: Backpack Capital API
+  slug: backpack-capital-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-capital-api-openapi.yml
+- filename: backpack-markets-api-openapi.yml
+  format: yaml
+  label: Backpack Markets API
+  slug: backpack-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-markets-api-openapi.yml
+- filename: backpack-order-api-openapi.yml
+  format: yaml
+  label: Backpack Order API
+  slug: backpack-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-order-api-openapi.yml
+- filename: backpack-position-api-openapi.yml
+  format: yaml
+  label: Backpack Position API
+  slug: backpack-position-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-position-api-openapi.yml
+- filename: backpack-rfq-api-openapi.yml
+  format: yaml
+  label: Backpack RFQ API
+  slug: backpack-rfq-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-rfq-api-openapi.yml
+- filename: backpack-strategy-api-openapi.yml
+  format: yaml
+  label: Backpack Strategy API
+  slug: backpack-strategy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-strategy-api-openapi.yml
+- filename: backpack-system-api-openapi.yml
+  format: yaml
+  label: Backpack System API
+  slug: backpack-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-system-api-openapi.yml
+- filename: backpack-trades-api-openapi.yml
+  format: yaml
+  label: Backpack Trades API
+  slug: backpack-trades-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-trades-api-openapi.yml
+- filename: backpack-vaults-api-openapi.yml
+  format: yaml
+  label: Backpack Vaults API
+  slug: backpack-vaults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-vaults-api-openapi.yml
+- filename: backpack-withdrawal-delays-api-openapi.yml
+  format: yaml
+  label: Backpack Withdrawal Delays API
+  slug: backpack-withdrawal-delays-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-withdrawal-delays-api-openapi.yml
 description: ''
 domains:
 - caa: []

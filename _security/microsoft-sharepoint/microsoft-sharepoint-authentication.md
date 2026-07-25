@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: microsoft-sharepoint-openapi.yml
+- filename: microsoft-sharepoint-batch-api-openapi.yml
   format: yaml
-  label: SharePoint REST API
-  slug: rest-api
+  label: Microsoft SharePoint $batch API
+  slug: microsoft-sharepoint-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sharepoint/refs/heads/main/openapi/microsoft-sharepoint-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sharepoint/refs/heads/main/openapi/microsoft-sharepoint-batch-api-openapi.yml
+- filename: microsoft-sharepoint-files-api-openapi.yml
+  format: yaml
+  label: Microsoft SharePoint Files API
+  slug: microsoft-sharepoint-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sharepoint/refs/heads/main/openapi/microsoft-sharepoint-files-api-openapi.yml
+- filename: microsoft-sharepoint-listitems-api-openapi.yml
+  format: yaml
+  label: Microsoft SharePoint ListItems API
+  slug: microsoft-sharepoint-listitems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sharepoint/refs/heads/main/openapi/microsoft-sharepoint-listitems-api-openapi.yml
+- filename: microsoft-sharepoint-lists-api-openapi.yml
+  format: yaml
+  label: Microsoft SharePoint Lists API
+  slug: microsoft-sharepoint-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sharepoint/refs/heads/main/openapi/microsoft-sharepoint-lists-api-openapi.yml
+- filename: microsoft-sharepoint-site-api-openapi.yml
+  format: yaml
+  label: Microsoft SharePoint Site API
+  slug: microsoft-sharepoint-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sharepoint/refs/heads/main/openapi/microsoft-sharepoint-site-api-openapi.yml
+- filename: microsoft-sharepoint-web-api-openapi.yml
+  format: yaml
+  label: Microsoft SharePoint Web API
+  slug: microsoft-sharepoint-web-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sharepoint/refs/heads/main/openapi/microsoft-sharepoint-web-api-openapi.yml
 auth_types:
 - http
 description: ''

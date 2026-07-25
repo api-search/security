@@ -1,17 +1,47 @@
 ---
 api_specs:
-- filename: edfapay-inc-revamp.json
-  format: json
-  label: EdfaPay Management API
-  slug: edfapay-management-api
+- filename: edfapay-inc-branch-management-api-openapi.yml
+  format: yaml
+  label: EdfaPay, Inc. Branch Management API
+  slug: edfapay-inc-branch-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-revamp.json
-- filename: edfapay-inc-payment-initiate.json
-  format: json
-  label: EdfaPay Payment Gateway API
-  slug: edfapay-payment-gateway-api
+  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-branch-management-api-openapi.yml
+- filename: edfapay-inc-merchant-management-api-openapi.yml
+  format: yaml
+  label: EdfaPay, Inc. Merchant Management API
+  slug: edfapay-inc-merchant-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-payment-initiate.json
+  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-merchant-management-api-openapi.yml
+- filename: edfapay-inc-partner-management-api-openapi.yml
+  format: yaml
+  label: EdfaPay, Inc. Partner Management API
+  slug: edfapay-inc-partner-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-partner-management-api-openapi.yml
+- filename: edfapay-inc-payment-api-openapi.yml
+  format: yaml
+  label: EdfaPay, Inc. Payment API
+  slug: edfapay-inc-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-payment-api-openapi.yml
+- filename: edfapay-inc-role-management-api-openapi.yml
+  format: yaml
+  label: EdfaPay, Inc. Role Management API
+  slug: edfapay-inc-role-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-role-management-api-openapi.yml
+- filename: edfapay-inc-transaction-management-api-openapi.yml
+  format: yaml
+  label: EdfaPay, Inc. Transaction Management API
+  slug: edfapay-inc-transaction-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-transaction-management-api-openapi.yml
+- filename: edfapay-inc-user-management-api-openapi.yml
+  format: yaml
+  label: EdfaPay, Inc. User Management API
+  slug: edfapay-inc-user-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-user-management-api-openapi.yml
 certifications:
 - PCI DSS
 description: ''

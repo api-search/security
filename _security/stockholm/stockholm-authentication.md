@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: stockholm-figshare.yaml
+- filename: stockholm-altmetric-api-openapi.yml
   format: yaml
-  label: Stockholm University Research Data Repository (Figshare)
-  slug: figshare
+  label: Stockholm University altmetric API
+  slug: stockholm-altmetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/openapi/stockholm-figshare.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/openapi/stockholm-altmetric-api-openapi.yml
+- filename: stockholm-articles-api-openapi.yml
+  format: yaml
+  label: Stockholm University articles API
+  slug: stockholm-articles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/openapi/stockholm-articles-api-openapi.yml
+- filename: stockholm-authors-api-openapi.yml
+  format: yaml
+  label: Stockholm University authors API
+  slug: stockholm-authors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/openapi/stockholm-authors-api-openapi.yml
+- filename: stockholm-collections-api-openapi.yml
+  format: yaml
+  label: Stockholm University collections API
+  slug: stockholm-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/openapi/stockholm-collections-api-openapi.yml
+- filename: stockholm-institutions-api-openapi.yml
+  format: yaml
+  label: Stockholm University institutions API
+  slug: stockholm-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/openapi/stockholm-institutions-api-openapi.yml
+- filename: stockholm-oauth-api-openapi.yml
+  format: yaml
+  label: Stockholm University oauth API
+  slug: stockholm-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/openapi/stockholm-oauth-api-openapi.yml
+- filename: stockholm-other-api-openapi.yml
+  format: yaml
+  label: Stockholm University other API
+  slug: stockholm-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/openapi/stockholm-other-api-openapi.yml
+- filename: stockholm-profiles-api-openapi.yml
+  format: yaml
+  label: Stockholm University profiles API
+  slug: stockholm-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/openapi/stockholm-profiles-api-openapi.yml
+- filename: stockholm-projects-api-openapi.yml
+  format: yaml
+  label: Stockholm University projects API
+  slug: stockholm-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/openapi/stockholm-projects-api-openapi.yml
+- filename: stockholm-symplectic-api-openapi.yml
+  format: yaml
+  label: Stockholm University symplectic API
+  slug: stockholm-symplectic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/openapi/stockholm-symplectic-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

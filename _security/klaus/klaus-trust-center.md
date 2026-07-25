@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: klaus-public-export-api-openapi-original.json
-  format: json
-  label: Klaus Public Export API
-  slug: public-export-api
+- filename: klaus-pubimportapi-api-openapi.yml
+  format: yaml
+  label: Klaus PubImportApi API
+  slug: klaus-pubimportapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/openapi/klaus-public-export-api-openapi-original.json
-- filename: klaus-public-import-api-openapi-original.json
-  format: json
-  label: Klaus Public Import API
-  slug: public-import-api
+  url: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/openapi/klaus-pubimportapi-api-openapi.yml
+- filename: klaus-publicexportapi-api-openapi.yml
+  format: yaml
+  label: Klaus PublicExportApi API
+  slug: klaus-publicexportapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/openapi/klaus-public-import-api-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/openapi/klaus-publicexportapi-api-openapi.yml
 certifications:
 - SOC 2 Type II
 - ISO 27001:2022

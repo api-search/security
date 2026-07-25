@@ -1,30 +1,78 @@
 ---
 api_key_in: []
 api_specs:
-- filename: OpenAPI_3_0
+- filename: boomi-atoms-api-openapi.yml
   format: yaml
-  label: Boomi Platform REST API
-  slug: platform-rest-api
+  label: Boomi Atoms API
+  slug: boomi-atoms-api
   spec_type: OpenAPI
-  url: https://developer.boomi.com/docs/APIs/PlatformAPI/Introduction/OpenAPI_3_0
-- filename: OpenAPI_3_0
+  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-atoms-api-openapi.yml
+- filename: boomi-components-api-openapi.yml
   format: yaml
-  label: Boomi Platform Partner API
-  slug: platform-partner-api
+  label: Boomi Components API
+  slug: boomi-components-api
   spec_type: OpenAPI
-  url: https://developer.boomi.com/docs/APIs/PlatformAPI/Introduction/OpenAPI_3_0
-- filename: boomi-datahub-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-components-api-openapi.yml
+- filename: boomi-deployments-api-openapi.yml
   format: yaml
-  label: Boomi DataHub API
-  slug: datahub-api
+  label: Boomi Deployments API
+  slug: boomi-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-datahub-api-openapi.yml
-- filename: boomi-event-streams-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-deployments-api-openapi.yml
+- filename: boomi-environments-api-openapi.yml
   format: yaml
-  label: Boomi Event Streams REST API
-  slug: event-streams-api
+  label: Boomi Environments API
+  slug: boomi-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-event-streams-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-environments-api-openapi.yml
+- filename: boomi-execution-api-openapi.yml
+  format: yaml
+  label: Boomi Execution API
+  slug: boomi-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-execution-api-openapi.yml
+- filename: boomi-golden-records-api-openapi.yml
+  format: yaml
+  label: Boomi Golden Records API
+  slug: boomi-golden-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-golden-records-api-openapi.yml
+- filename: boomi-messages-api-openapi.yml
+  format: yaml
+  label: Boomi Messages API
+  slug: boomi-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-messages-api-openapi.yml
+- filename: boomi-models-api-openapi.yml
+  format: yaml
+  label: Boomi Models API
+  slug: boomi-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-models-api-openapi.yml
+- filename: boomi-processes-api-openapi.yml
+  format: yaml
+  label: Boomi Processes API
+  slug: boomi-processes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-processes-api-openapi.yml
+- filename: boomi-quarantine-api-openapi.yml
+  format: yaml
+  label: Boomi Quarantine API
+  slug: boomi-quarantine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-quarantine-api-openapi.yml
+- filename: boomi-repositories-api-openapi.yml
+  format: yaml
+  label: Boomi Repositories API
+  slug: boomi-repositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-repositories-api-openapi.yml
+- filename: boomi-sources-api-openapi.yml
+  format: yaml
+  label: Boomi Sources API
+  slug: boomi-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-sources-api-openapi.yml
 auth_types:
 - http
 description: ''

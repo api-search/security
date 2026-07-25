@@ -1,53 +1,59 @@
 ---
 api_specs:
-- filename: pylon-openapi.yml
-  format: yaml
-  label: Pylon Issues API
-  slug: pylon-issues-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pylon/refs/heads/main/openapi/pylon-openapi.yml
-- filename: pylon-openapi.yml
+- filename: pylon-accounts-api-openapi.yml
   format: yaml
   label: Pylon Accounts API
   slug: pylon-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pylon/refs/heads/main/openapi/pylon-openapi.yml
-- filename: pylon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pylon/refs/heads/main/openapi/pylon-accounts-api-openapi.yml
+- filename: pylon-contacts-api-openapi.yml
   format: yaml
   label: Pylon Contacts API
   slug: pylon-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pylon/refs/heads/main/openapi/pylon-openapi.yml
-- filename: pylon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pylon/refs/heads/main/openapi/pylon-contacts-api-openapi.yml
+- filename: pylon-custom-fields-api-openapi.yml
   format: yaml
-  label: Pylon Users and Teams API
-  slug: pylon-users-teams-api
+  label: Pylon Custom Fields API
+  slug: pylon-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pylon/refs/heads/main/openapi/pylon-openapi.yml
-- filename: pylon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pylon/refs/heads/main/openapi/pylon-custom-fields-api-openapi.yml
+- filename: pylon-issues-api-openapi.yml
+  format: yaml
+  label: Pylon Issues API
+  slug: pylon-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pylon/refs/heads/main/openapi/pylon-issues-api-openapi.yml
+- filename: pylon-knowledge-base-api-openapi.yml
   format: yaml
   label: Pylon Knowledge Base API
   slug: pylon-knowledge-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pylon/refs/heads/main/openapi/pylon-openapi.yml
-- filename: pylon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pylon/refs/heads/main/openapi/pylon-knowledge-base-api-openapi.yml
+- filename: pylon-tags-api-openapi.yml
   format: yaml
-  label: Pylon Tags and Custom Fields API
-  slug: pylon-tags-custom-fields-api
+  label: Pylon Tags API
+  slug: pylon-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pylon/refs/heads/main/openapi/pylon-openapi.yml
-- filename: pylon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pylon/refs/heads/main/openapi/pylon-tags-api-openapi.yml
+- filename: pylon-tasks-api-openapi.yml
   format: yaml
-  label: Pylon Tasks and Projects API
-  slug: pylon-tasks-projects-api
+  label: Pylon Tasks API
+  slug: pylon-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pylon/refs/heads/main/openapi/pylon-openapi.yml
-- filename: pylon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pylon/refs/heads/main/openapi/pylon-tasks-api-openapi.yml
+- filename: pylon-teams-api-openapi.yml
   format: yaml
-  label: Pylon Webhooks API
-  slug: pylon-webhooks-api
+  label: Pylon Teams API
+  slug: pylon-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pylon/refs/heads/main/openapi/pylon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pylon/refs/heads/main/openapi/pylon-teams-api-openapi.yml
+- filename: pylon-users-api-openapi.yml
+  format: yaml
+  label: Pylon Users API
+  slug: pylon-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pylon/refs/heads/main/openapi/pylon-users-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

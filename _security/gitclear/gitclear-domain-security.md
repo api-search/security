@@ -1,29 +1,53 @@
 ---
 api_specs:
-- filename: gitclear-openapi.yml
+- filename: gitclear-api-tokens-api-openapi.yml
   format: yaml
-  label: GitClear Repositories API
-  slug: gitclear-repositories-api
+  label: GitClear API Tokens API
+  slug: gitclear-api-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitclear/refs/heads/main/openapi/gitclear-openapi.yml
-- filename: gitclear-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gitclear/refs/heads/main/openapi/gitclear-api-tokens-api-openapi.yml
+- filename: gitclear-code-introspection-api-openapi.yml
   format: yaml
-  label: GitClear Commits API
-  slug: gitclear-commits-api
+  label: GitClear Code Introspection API
+  slug: gitclear-code-introspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitclear/refs/heads/main/openapi/gitclear-openapi.yml
-- filename: gitclear-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gitclear/refs/heads/main/openapi/gitclear-code-introspection-api-openapi.yml
+- filename: gitclear-data-audit-api-openapi.yml
   format: yaml
-  label: GitClear Metrics & Diff Delta API
-  slug: gitclear-metrics-diff-delta-api
+  label: GitClear Data Audit API
+  slug: gitclear-data-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitclear/refs/heads/main/openapi/gitclear-openapi.yml
-- filename: gitclear-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gitclear/refs/heads/main/openapi/gitclear-data-audit-api-openapi.yml
+- filename: gitclear-developers-api-openapi.yml
   format: yaml
   label: GitClear Developers API
   slug: gitclear-developers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitclear/refs/heads/main/openapi/gitclear-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gitclear/refs/heads/main/openapi/gitclear-developers-api-openapi.yml
+- filename: gitclear-imports-api-openapi.yml
+  format: yaml
+  label: GitClear Imports API
+  slug: gitclear-imports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitclear/refs/heads/main/openapi/gitclear-imports-api-openapi.yml
+- filename: gitclear-releases-api-openapi.yml
+  format: yaml
+  label: GitClear Releases API
+  slug: gitclear-releases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitclear/refs/heads/main/openapi/gitclear-releases-api-openapi.yml
+- filename: gitclear-reports-api-openapi.yml
+  format: yaml
+  label: GitClear Reports API
+  slug: gitclear-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitclear/refs/heads/main/openapi/gitclear-reports-api-openapi.yml
+- filename: gitclear-teams-api-openapi.yml
+  format: yaml
+  label: GitClear Teams API
+  slug: gitclear-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitclear/refs/heads/main/openapi/gitclear-teams-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -6,12 +6,54 @@ api_specs:
   slug: projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-projects-api-openapi.yml
-- filename: apache-software-foundation-whimsy-api-openapi.yml
+- filename: apache-software-foundation-committees-api-openapi.yml
   format: yaml
-  label: Apache Software Foundation Whimsy Public Data API
-  slug: whimsy-api
+  label: Apache Software Foundation Committees API
+  slug: apache-software-foundation-committees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-whimsy-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-committees-api-openapi.yml
+- filename: apache-software-foundation-foundation-api-openapi.yml
+  format: yaml
+  label: Apache Software Foundation Foundation API
+  slug: apache-software-foundation-foundation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-foundation-api-openapi.yml
+- filename: apache-software-foundation-groups-api-openapi.yml
+  format: yaml
+  label: Apache Software Foundation Groups API
+  slug: apache-software-foundation-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-groups-api-openapi.yml
+- filename: apache-software-foundation-icla-api-openapi.yml
+  format: yaml
+  label: Apache Software Foundation ICLA API
+  slug: apache-software-foundation-icla-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-icla-api-openapi.yml
+- filename: apache-software-foundation-members-api-openapi.yml
+  format: yaml
+  label: Apache Software Foundation Members API
+  slug: apache-software-foundation-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-members-api-openapi.yml
+- filename: apache-software-foundation-people-api-openapi.yml
+  format: yaml
+  label: Apache Software Foundation People API
+  slug: apache-software-foundation-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-people-api-openapi.yml
+- filename: apache-software-foundation-podlings-api-openapi.yml
+  format: yaml
+  label: Apache Software Foundation Podlings API
+  slug: apache-software-foundation-podlings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-podlings-api-openapi.yml
+- filename: apache-software-foundation-releases-api-openapi.yml
+  format: yaml
+  label: Apache Software Foundation Releases API
+  slug: apache-software-foundation-releases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-releases-api-openapi.yml
 description: ''
 domains:
 - caa:

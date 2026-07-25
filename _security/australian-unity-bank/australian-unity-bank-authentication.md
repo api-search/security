@@ -1,36 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: australian-unity-bank-cds-banking-openapi.json
-  format: json
-  label: Australian Unity Bank CDR Product Reference Data API
-  slug: australian-unity-bank-cdr-product-reference-data-api
+- filename: australian-unity-bank-banking-account-balances-api-openapi.yml
+  format: yaml
+  label: Australian Unity Bank Banking Account Balances API
+  slug: australian-unity-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-cds-banking-openapi.json
-- filename: australian-unity-bank-cds-banking-openapi.json
-  format: json
-  label: Australian Unity Bank CDR Accounts & Balances API
-  slug: australian-unity-bank-cdr-accounts-balances-api
+  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-account-balances-api-openapi.yml
+- filename: australian-unity-bank-banking-account-direct-debits-api-openapi.yml
+  format: yaml
+  label: Australian Unity Bank Banking Account Direct Debits API
+  slug: australian-unity-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-cds-banking-openapi.json
-- filename: australian-unity-bank-cds-banking-openapi.json
-  format: json
-  label: Australian Unity Bank CDR Transactions API
-  slug: australian-unity-bank-cdr-transactions-api
+  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-account-direct-debits-api-openapi.yml
+- filename: australian-unity-bank-banking-account-scheduled-payments-api-openapi.yml
+  format: yaml
+  label: Australian Unity Bank Banking Account Scheduled Payments API
+  slug: australian-unity-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-cds-banking-openapi.json
-- filename: australian-unity-bank-cds-banking-openapi.json
-  format: json
-  label: Australian Unity Bank CDR Direct Debits & Scheduled Payments API
-  slug: australian-unity-bank-cdr-direct-debits-scheduled-payments-api
+  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: australian-unity-bank-banking-account-transactions-api-openapi.yml
+  format: yaml
+  label: Australian Unity Bank Banking Account Transactions API
+  slug: australian-unity-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-cds-banking-openapi.json
-- filename: australian-unity-bank-cds-banking-openapi.json
-  format: json
-  label: Australian Unity Bank CDR Payees API
-  slug: australian-unity-bank-cdr-payees-api
+  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-account-transactions-api-openapi.yml
+- filename: australian-unity-bank-banking-accounts-api-openapi.yml
+  format: yaml
+  label: Australian Unity Bank Banking Accounts API
+  slug: australian-unity-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-cds-banking-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-accounts-api-openapi.yml
+- filename: australian-unity-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: Australian Unity Bank Banking Payees API
+  slug: australian-unity-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-payees-api-openapi.yml
+- filename: australian-unity-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: Australian Unity Bank Banking Products API
+  slug: australian-unity-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-products-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect

@@ -1,72 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: smsapi-openapi.yml
+- filename: smsapi-2fa-api-openapi.yml
   format: yaml
-  label: SMSAPI SMS API
-  slug: smsapi-sms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-openapi.yml
-- filename: smsapi-openapi.yml
-  format: yaml
-  label: SMSAPI MMS API
-  slug: smsapi-mms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-openapi.yml
-- filename: smsapi-openapi.yml
-  format: yaml
-  label: SMSAPI VMS Voice API
-  slug: smsapi-vms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-openapi.yml
-- filename: smsapi-openapi.yml
-  format: yaml
-  label: SMSAPI Contacts API
-  slug: smsapi-contacts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-openapi.yml
-- filename: smsapi-openapi.yml
-  format: yaml
-  label: SMSAPI Sender Names API
-  slug: smsapi-sender-names-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-openapi.yml
-- filename: smsapi-openapi.yml
-  format: yaml
-  label: SMSAPI 2FA Authentication API
+  label: SMSAPI 2FA API
   slug: smsapi-2fa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-openapi.yml
-- filename: smsapi-openapi.yml
-  format: yaml
-  label: SMSAPI Subusers API
-  slug: smsapi-subusers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-openapi.yml
-- filename: smsapi-openapi.yml
-  format: yaml
-  label: SMSAPI Profile and Account API
-  slug: smsapi-profile-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-openapi.yml
-- filename: smsapi-openapi.yml
-  format: yaml
-  label: SMSAPI HLR Lookup API
-  slug: smsapi-hlr-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-openapi.yml
-- filename: smsapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-2fa-api-openapi.yml
+- filename: smsapi-blacklist-api-openapi.yml
   format: yaml
   label: SMSAPI Blacklist API
   slug: smsapi-blacklist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-openapi.yml
-- filename: smsapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-blacklist-api-openapi.yml
+- filename: smsapi-contacts-api-openapi.yml
+  format: yaml
+  label: SMSAPI Contacts API
+  slug: smsapi-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-contacts-api-openapi.yml
+- filename: smsapi-hlr-api-openapi.yml
+  format: yaml
+  label: SMSAPI HLR API
+  slug: smsapi-hlr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-hlr-api-openapi.yml
+- filename: smsapi-mms-api-openapi.yml
+  format: yaml
+  label: SMSAPI MMS API
+  slug: smsapi-mms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-mms-api-openapi.yml
+- filename: smsapi-profile-api-openapi.yml
+  format: yaml
+  label: SMSAPI Profile API
+  slug: smsapi-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-profile-api-openapi.yml
+- filename: smsapi-sender-names-api-openapi.yml
+  format: yaml
+  label: SMSAPI Sender Names API
+  slug: smsapi-sender-names-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-sender-names-api-openapi.yml
+- filename: smsapi-short-urls-api-openapi.yml
   format: yaml
   label: SMSAPI Short URLs API
   slug: smsapi-short-urls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-short-urls-api-openapi.yml
+- filename: smsapi-sms-api-openapi.yml
+  format: yaml
+  label: SMSAPI SMS API
+  slug: smsapi-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-sms-api-openapi.yml
+- filename: smsapi-subusers-api-openapi.yml
+  format: yaml
+  label: SMSAPI Subusers API
+  slug: smsapi-subusers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-subusers-api-openapi.yml
+- filename: smsapi-vms-api-openapi.yml
+  format: yaml
+  label: SMSAPI VMS API
+  slug: smsapi-vms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-vms-api-openapi.yml
 auth_types:
 - http
 description: ''

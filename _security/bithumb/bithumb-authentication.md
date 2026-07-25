@@ -2,12 +2,36 @@
 api_key_in:
 - query
 api_specs:
-- filename: llms.txt
+- filename: bithumb-account-api-openapi.yml
   format: yaml
-  label: Bithumb REST API
-  slug: bithumb-rest-api
+  label: Bithumb Account API
+  slug: bithumb-account-api
   spec_type: OpenAPI
-  url: https://apidocs.bithumb.com/llms.txt
+  url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/openapi/bithumb-account-api-openapi.yml
+- filename: bithumb-general-api-openapi.yml
+  format: yaml
+  label: Bithumb General API
+  slug: bithumb-general-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/openapi/bithumb-general-api-openapi.yml
+- filename: bithumb-market-data-api-openapi.yml
+  format: yaml
+  label: Bithumb Market Data API
+  slug: bithumb-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/openapi/bithumb-market-data-api-openapi.yml
+- filename: bithumb-spot-trading-api-openapi.yml
+  format: yaml
+  label: Bithumb Spot Trading API
+  slug: bithumb-spot-trading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/openapi/bithumb-spot-trading-api-openapi.yml
+- filename: bithumb-wallet-api-openapi.yml
+  format: yaml
+  label: Bithumb Wallet API
+  slug: bithumb-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/openapi/bithumb-wallet-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi.yml
+- filename: amazon-lightsail-instances-api-openapi.yml
   format: yaml
-  label: Amazon Lightsail API
-  slug: amazon-lightsail-api
+  label: Amazon Lightsail Instances API
+  slug: amazon-lightsail-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-instances-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

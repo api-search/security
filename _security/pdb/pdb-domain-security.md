@@ -1,23 +1,29 @@
 ---
 api_specs:
-- filename: rcsb-pdb-search-api.json
-  format: json
-  label: RCSB PDB Search API
-  slug: rcsb-pdb-search-api
+- filename: pdb-general-api-openapi.yml
+  format: yaml
+  label: RCSB PDB General API
+  slug: pdb-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdb/refs/heads/main/openapi/rcsb-pdb-search-api.json
-- filename: rcsb-pdb-model-server-api.json
-  format: json
-  label: RCSB PDB ModelServer API
-  slug: rcsb-pdb-model-server-api
+  url: https://raw.githubusercontent.com/api-evangelist/pdb/refs/heads/main/openapi/pdb-general-api-openapi.yml
+- filename: pdb-metadata-service-api-openapi.yml
+  format: yaml
+  label: RCSB PDB Metadata Service API
+  slug: pdb-metadata-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdb/refs/heads/main/openapi/rcsb-pdb-model-server-api.json
-- filename: rcsb-pdb-volume-server-api.json
-  format: json
-  label: RCSB PDB VolumeServer API
-  slug: rcsb-pdb-volume-server-api
+  url: https://raw.githubusercontent.com/api-evangelist/pdb/refs/heads/main/openapi/pdb-metadata-service-api-openapi.yml
+- filename: pdb-search-service-api-openapi.yml
+  format: yaml
+  label: RCSB PDB Search Service API
+  slug: pdb-search-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdb/refs/heads/main/openapi/rcsb-pdb-volume-server-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/pdb/refs/heads/main/openapi/pdb-search-service-api-openapi.yml
+- filename: pdb-suggest-service-api-openapi.yml
+  format: yaml
+  label: RCSB PDB Suggest Service API
+  slug: pdb-suggest-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdb/refs/heads/main/openapi/pdb-suggest-service-api-openapi.yml
 description: ''
 domains:
 - caa: []

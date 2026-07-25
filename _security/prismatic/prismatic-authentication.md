@@ -8,6 +8,12 @@ api_specs:
   slug: prismatics-graphql-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/prismatic/refs/heads/main/openapi/prismatic-graphql-api-openapi.yml
+- filename: prismatic-authentication-api-openapi.yml
+  format: yaml
+  label: Prismatic Authentication API
+  slug: prismatic-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prismatic/refs/heads/main/openapi/prismatic-authentication-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: engagedly-openapi.yml
+- filename: engagedly-activities-api-openapi.yml
   format: yaml
-  label: Engagedly API
-  slug: engagedly-api
+  label: Engagedly Activities API
+  slug: engagedly-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-activities-api-openapi.yml
+- filename: engagedly-businesses-api-openapi.yml
+  format: yaml
+  label: Engagedly Businesses API
+  slug: engagedly-businesses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-businesses-api-openapi.yml
+- filename: engagedly-departments-api-openapi.yml
+  format: yaml
+  label: Engagedly Departments API
+  slug: engagedly-departments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-departments-api-openapi.yml
+- filename: engagedly-job-titles-api-openapi.yml
+  format: yaml
+  label: Engagedly Job Titles API
+  slug: engagedly-job-titles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-job-titles-api-openapi.yml
+- filename: engagedly-locations-api-openapi.yml
+  format: yaml
+  label: Engagedly Locations API
+  slug: engagedly-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-locations-api-openapi.yml
+- filename: engagedly-permissions-api-openapi.yml
+  format: yaml
+  label: Engagedly Permissions API
+  slug: engagedly-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-permissions-api-openapi.yml
+- filename: engagedly-user-attributes-api-openapi.yml
+  format: yaml
+  label: Engagedly User Attributes API
+  slug: engagedly-user-attributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-user-attributes-api-openapi.yml
+- filename: engagedly-users-api-openapi.yml
+  format: yaml
+  label: Engagedly Users API
+  slug: engagedly-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: voiceitt-rest-api-openapi-original.json
-  format: json
-  label: Voiceitt HTTP API
-  slug: voiceitt-http-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voiceitt/refs/heads/main/openapi/voiceitt-rest-api-openapi-original.json
 - filename: voiceitt-websockets-asyncapi.yml
   format: yaml
   label: Voiceitt WebSockets API
   slug: voiceitt-websockets-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/voiceitt/refs/heads/main/asyncapi/voiceitt-websockets-asyncapi.yml
+- filename: voiceitt-auth-api-openapi.yml
+  format: yaml
+  label: Voiceitt Auth API
+  slug: voiceitt-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voiceitt/refs/heads/main/openapi/voiceitt-auth-api-openapi.yml
+- filename: voiceitt-rec-api-openapi.yml
+  format: yaml
+  label: Voiceitt Rec API
+  slug: voiceitt-rec-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voiceitt/refs/heads/main/openapi/voiceitt-rec-api-openapi.yml
 description: ''
 domains:
 - caa: []

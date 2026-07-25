@@ -1,41 +1,23 @@
 ---
 api_specs:
-- filename: evident-id-openapi.yml
-  format: yaml
-  label: Evident Verification Requests API
-  slug: evident-id-verification-requests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evident-id/refs/heads/main/openapi/evident-id-openapi.yml
-- filename: evident-id-openapi.yml
-  format: yaml
-  label: Evident Attributes & Credentials API
-  slug: evident-id-attributes-credentials-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evident-id/refs/heads/main/openapi/evident-id-openapi.yml
-- filename: evident-id-openapi.yml
-  format: yaml
-  label: Evident Identity Assurance API
-  slug: evident-id-identity-assurance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evident-id/refs/heads/main/openapi/evident-id-openapi.yml
-- filename: evident-id-openapi.yml
-  format: yaml
-  label: Evident Insurance & COI Verification API
-  slug: evident-id-insurance-coi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evident-id/refs/heads/main/openapi/evident-id-openapi.yml
-- filename: evident-id-openapi.yml
+- filename: evident-id-results-api-openapi.yml
   format: yaml
   label: Evident Results API
   slug: evident-id-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evident-id/refs/heads/main/openapi/evident-id-openapi.yml
-- filename: evident-id-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/evident-id/refs/heads/main/openapi/evident-id-results-api-openapi.yml
+- filename: evident-id-submission-api-openapi.yml
   format: yaml
-  label: Evident Webhooks API
-  slug: evident-id-webhooks-api
+  label: Evident Submission API
+  slug: evident-id-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evident-id/refs/heads/main/openapi/evident-id-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/evident-id/refs/heads/main/openapi/evident-id-submission-api-openapi.yml
+- filename: evident-id-verification-requests-api-openapi.yml
+  format: yaml
+  label: Evident Verification Requests API
+  slug: evident-id-verification-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evident-id/refs/heads/main/openapi/evident-id-verification-requests-api-openapi.yml
 description: ''
 domains:
 - caa: []

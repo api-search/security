@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: trpc-openapi.yml
+- filename: trpc-procedures-api-openapi.yml
   format: yaml
-  label: tRPC HTTP Protocol
-  slug: http-api
+  label: tRPC Procedures API
+  slug: trpc-procedures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trpc/refs/heads/main/openapi/trpc-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trpc/refs/heads/main/openapi/trpc-procedures-api-openapi.yml
 auth_types:
 - http
 description: ''

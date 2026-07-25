@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: stonex-payments-openapi.yml
+- filename: stonex-accounts-api-openapi.yml
+  format: yaml
+  label: StoneX Accounts API
+  slug: stonex-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stonex/refs/heads/main/openapi/stonex-accounts-api-openapi.yml
+- filename: stonex-authentication-api-openapi.yml
+  format: yaml
+  label: StoneX Authentication API
+  slug: stonex-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stonex/refs/heads/main/openapi/stonex-authentication-api-openapi.yml
+- filename: stonex-documents-api-openapi.yml
+  format: yaml
+  label: StoneX Documents API
+  slug: stonex-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stonex/refs/heads/main/openapi/stonex-documents-api-openapi.yml
+- filename: stonex-fx-rates-api-openapi.yml
+  format: yaml
+  label: StoneX FX Rates API
+  slug: stonex-fx-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stonex/refs/heads/main/openapi/stonex-fx-rates-api-openapi.yml
+- filename: stonex-payments-api-openapi.yml
   format: yaml
   label: StoneX Payments API
-  slug: stonex-payments
+  slug: stonex-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stonex/refs/heads/main/openapi/stonex-payments-openapi.yml
-- filename: stonex-clearing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stonex/refs/heads/main/openapi/stonex-payments-api-openapi.yml
+- filename: stonex-trading-api-openapi.yml
   format: yaml
-  label: StoneX Clearing API
-  slug: stonex-clearing
+  label: StoneX Trading API
+  slug: stonex-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stonex/refs/heads/main/openapi/stonex-clearing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stonex/refs/heads/main/openapi/stonex-trading-api-openapi.yml
 description: ''
 domains:
 - caa: []

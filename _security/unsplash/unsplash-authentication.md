@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: unsplash-openapi.yml
+- filename: unsplash-collections-api-openapi.yml
   format: yaml
-  label: Unsplash API
-  slug: unsplash
+  label: Unsplash Collections API
+  slug: unsplash-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-collections-api-openapi.yml
+- filename: unsplash-current-user-api-openapi.yml
+  format: yaml
+  label: Unsplash Current User API
+  slug: unsplash-current-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-current-user-api-openapi.yml
+- filename: unsplash-photos-api-openapi.yml
+  format: yaml
+  label: Unsplash Photos API
+  slug: unsplash-photos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-photos-api-openapi.yml
+- filename: unsplash-search-api-openapi.yml
+  format: yaml
+  label: Unsplash Search API
+  slug: unsplash-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-search-api-openapi.yml
+- filename: unsplash-stats-api-openapi.yml
+  format: yaml
+  label: Unsplash Stats API
+  slug: unsplash-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-stats-api-openapi.yml
+- filename: unsplash-topics-api-openapi.yml
+  format: yaml
+  label: Unsplash Topics API
+  slug: unsplash-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-topics-api-openapi.yml
+- filename: unsplash-users-api-openapi.yml
+  format: yaml
+  label: Unsplash Users API
+  slug: unsplash-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-users-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

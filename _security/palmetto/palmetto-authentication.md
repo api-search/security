@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: palmetto-energy-intelligence-openapi.json
-  format: json
-  label: Palmetto Energy Intelligence API
-  slug: palmetto-energy-intelligence-api
+- filename: palmetto-bem-api-openapi.yml
+  format: yaml
+  label: Palmetto Bem API
+  slug: palmetto-bem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palmetto/refs/heads/main/openapi/palmetto-energy-intelligence-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/palmetto/refs/heads/main/openapi/palmetto-bem-api-openapi.yml
+- filename: palmetto-health-api-openapi.yml
+  format: yaml
+  label: Palmetto Health API
+  slug: palmetto-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palmetto/refs/heads/main/openapi/palmetto-health-api-openapi.yml
 auth_types:
 - apiKey
 - http

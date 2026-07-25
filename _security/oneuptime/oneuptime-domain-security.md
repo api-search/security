@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: oneuptime-openapi.yml
+- filename: oneuptime-projects-api-openapi.yml
   format: yaml
-  label: OneUptime
-  slug: oneuptime
+  label: OneUptime Projects API
+  slug: oneuptime-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneuptime/refs/heads/main/openapi/oneuptime-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oneuptime/refs/heads/main/openapi/oneuptime-projects-api-openapi.yml
 description: ''
 domains:
 - caa: []

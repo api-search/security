@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: hackmd-openapi-original.json
-  format: json
-  label: HackMD API
-  slug: hackmd-api
+- filename: hackmd-history-api-openapi.yml
+  format: yaml
+  label: HackMD History API
+  slug: hackmd-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/openapi/hackmd-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/openapi/hackmd-history-api-openapi.yml
+- filename: hackmd-profile-api-openapi.yml
+  format: yaml
+  label: HackMD Profile API
+  slug: hackmd-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/openapi/hackmd-profile-api-openapi.yml
+- filename: hackmd-team-folders-api-openapi.yml
+  format: yaml
+  label: HackMD Team Folders API
+  slug: hackmd-team-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/openapi/hackmd-team-folders-api-openapi.yml
+- filename: hackmd-team-notes-api-openapi.yml
+  format: yaml
+  label: HackMD Team Notes API
+  slug: hackmd-team-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/openapi/hackmd-team-notes-api-openapi.yml
+- filename: hackmd-teams-api-openapi.yml
+  format: yaml
+  label: HackMD Teams API
+  slug: hackmd-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/openapi/hackmd-teams-api-openapi.yml
+- filename: hackmd-trash-api-openapi.yml
+  format: yaml
+  label: HackMD Trash API
+  slug: hackmd-trash-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/openapi/hackmd-trash-api-openapi.yml
+- filename: hackmd-user-folders-api-openapi.yml
+  format: yaml
+  label: HackMD User Folders API
+  slug: hackmd-user-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/openapi/hackmd-user-folders-api-openapi.yml
+- filename: hackmd-user-notes-api-openapi.yml
+  format: yaml
+  label: HackMD User Notes API
+  slug: hackmd-user-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/openapi/hackmd-user-notes-api-openapi.yml
 auth_types:
 - http
 description: ''

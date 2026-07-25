@@ -1,18 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: $metadata
+- filename: who-foundation-api-openapi.yml
   format: yaml
-  label: WHO GHO OData API
-  slug: who-gho-odata-api
+  label: World Health Organization (WHO) Foundation API
+  slug: who-foundation-api
   spec_type: OpenAPI
-  url: https://ghoapi.azureedge.net/api/$metadata
-- filename: index.html
+  url: https://raw.githubusercontent.com/api-evangelist/who/refs/heads/main/openapi/who-foundation-api-openapi.yml
+- filename: who-icd10-api-openapi.yml
   format: yaml
-  label: WHO ICD API
-  slug: who-icd-api
+  label: World Health Organization (WHO) ICD10 API
+  slug: who-icd10-api
   spec_type: OpenAPI
-  url: https://id.who.int/swagger/index.html
+  url: https://raw.githubusercontent.com/api-evangelist/who/refs/heads/main/openapi/who-icd10-api-openapi.yml
+- filename: who-linearization-classification-endpoints-api-openapi.yml
+  format: yaml
+  label: World Health Organization (WHO) Linearization (classification endpoints) API
+  slug: who-linearization-classification-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/who/refs/heads/main/openapi/who-linearization-classification-endpoints-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: infoblox-wapi-openapi.yml
+- filename: infoblox-dhcp-api-openapi.yml
   format: yaml
-  label: Infoblox WAPI (Web API)
-  slug: infoblox-wapi-web-api
+  label: Infoblox DHCP API
+  slug: infoblox-dhcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-wapi-openapi.yml
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-dhcp-api-openapi.yml
+- filename: infoblox-dns-records-api-openapi.yml
   format: yaml
-  label: Infoblox BloxOne API
-  slug: infoblox-bloxone-api
+  label: Infoblox DNS Records API
+  slug: infoblox-dns-records-api
   spec_type: OpenAPI
-  url: https://csp.infoblox.com/apidoc/
+  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-dns-records-api-openapi.yml
+- filename: infoblox-dns-zones-api-openapi.yml
+  format: yaml
+  label: Infoblox DNS Zones API
+  slug: infoblox-dns-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-dns-zones-api-openapi.yml
+- filename: infoblox-grid-api-openapi.yml
+  format: yaml
+  label: Infoblox Grid API
+  slug: infoblox-grid-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-grid-api-openapi.yml
+- filename: infoblox-ip-address-management-api-openapi.yml
+  format: yaml
+  label: Infoblox IP Address Management API
+  slug: infoblox-ip-address-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-ip-address-management-api-openapi.yml
+- filename: infoblox-networks-api-openapi.yml
+  format: yaml
+  label: Infoblox Networks API
+  slug: infoblox-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-networks-api-openapi.yml
 description: ''
 domains:
 - caa:

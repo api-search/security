@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: etcd-http-gateway-openapi.yml
+- filename: etcd-auth-api-openapi.yml
   format: yaml
-  label: etcd HTTP Gateway API
-  slug: etcd-http-api
+  label: Etcd Auth API
+  slug: etcd-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/openapi/etcd-http-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/openapi/etcd-auth-api-openapi.yml
+- filename: etcd-cluster-api-openapi.yml
+  format: yaml
+  label: Etcd Cluster API
+  slug: etcd-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/openapi/etcd-cluster-api-openapi.yml
+- filename: etcd-kv-api-openapi.yml
+  format: yaml
+  label: Etcd KV API
+  slug: etcd-kv-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/openapi/etcd-kv-api-openapi.yml
+- filename: etcd-lease-api-openapi.yml
+  format: yaml
+  label: Etcd Lease API
+  slug: etcd-lease-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/openapi/etcd-lease-api-openapi.yml
+- filename: etcd-maintenance-api-openapi.yml
+  format: yaml
+  label: Etcd Maintenance API
+  slug: etcd-maintenance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/openapi/etcd-maintenance-api-openapi.yml
+- filename: etcd-watch-api-openapi.yml
+  format: yaml
+  label: Etcd Watch API
+  slug: etcd-watch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/openapi/etcd-watch-api-openapi.yml
 auth_types:
 - http
 description: ''

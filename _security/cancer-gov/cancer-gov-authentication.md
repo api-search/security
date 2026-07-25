@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: cancer-gov-openapi.yml
+- filename: cancer-gov-diseases-api-openapi.yml
   format: yaml
-  label: NCI Clinical Trials Search API
-  slug: clinical-trials-api
+  label: Cancer.gov Diseases API
+  slug: cancer-gov-diseases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-diseases-api-openapi.yml
+- filename: cancer-gov-interventions-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Interventions API
+  slug: cancer-gov-interventions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-interventions-api-openapi.yml
+- filename: cancer-gov-terms-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Terms API
+  slug: cancer-gov-terms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-terms-api-openapi.yml
+- filename: cancer-gov-trials-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Trials API
+  slug: cancer-gov-trials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-trials-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,23 +1,65 @@
 ---
 api_specs:
-- filename: tsys-payment-gateway-openapi.yml
+- filename: total-system-services-accounts-api-openapi.yml
   format: yaml
-  label: TSYS Payment Gateway
-  slug: tsys-payment-gateway
+  label: Total System Services Accounts API
+  slug: total-system-services-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/tsys-payment-gateway-openapi.yml
-- filename: tsys-issuing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-accounts-api-openapi.yml
+- filename: total-system-services-authorization-api-openapi.yml
   format: yaml
-  label: TSYS Issuing Platform
-  slug: tsys-issuing
+  label: Total System Services Authorization API
+  slug: total-system-services-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/tsys-issuing-openapi.yml
-- filename: tsys-merchant-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-authorization-api-openapi.yml
+- filename: total-system-services-capture-api-openapi.yml
   format: yaml
-  label: TSYS Merchant Services
-  slug: tsys-merchant
+  label: Total System Services Capture API
+  slug: total-system-services-capture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/tsys-merchant-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-capture-api-openapi.yml
+- filename: total-system-services-cards-api-openapi.yml
+  format: yaml
+  label: Total System Services Cards API
+  slug: total-system-services-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-cards-api-openapi.yml
+- filename: total-system-services-controls-api-openapi.yml
+  format: yaml
+  label: Total System Services Controls API
+  slug: total-system-services-controls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-controls-api-openapi.yml
+- filename: total-system-services-disputes-api-openapi.yml
+  format: yaml
+  label: Total System Services Disputes API
+  slug: total-system-services-disputes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-disputes-api-openapi.yml
+- filename: total-system-services-inquiries-api-openapi.yml
+  format: yaml
+  label: Total System Services Inquiries API
+  slug: total-system-services-inquiries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-inquiries-api-openapi.yml
+- filename: total-system-services-refunds-api-openapi.yml
+  format: yaml
+  label: Total System Services Refunds API
+  slug: total-system-services-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-refunds-api-openapi.yml
+- filename: total-system-services-transactions-api-openapi.yml
+  format: yaml
+  label: Total System Services Transactions API
+  slug: total-system-services-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-transactions-api-openapi.yml
+- filename: total-system-services-voids-api-openapi.yml
+  format: yaml
+  label: Total System Services Voids API
+  slug: total-system-services-voids-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-voids-api-openapi.yml
 description: ''
 domains:
 - caa: []

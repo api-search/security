@@ -2,30 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: instacart-developer-platform-api-openapi.yml
+- filename: instacart-authentication-api-openapi.yml
   format: yaml
-  label: Instacart Developer Platform API
-  slug: developer-platform-api
+  label: instacart Authentication API
+  slug: instacart-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-developer-platform-api-openapi.yml
-- filename: instacart-connect-fulfillment-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-authentication-api-openapi.yml
+- filename: instacart-chat-api-openapi.yml
   format: yaml
-  label: Instacart Connect Fulfillment API
-  slug: connect-fulfillment-api
+  label: instacart Chat API
+  slug: instacart-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-connect-fulfillment-api-openapi.yml
-- filename: instacart-connect-post-checkout-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-chat-api-openapi.yml
+- filename: instacart-delivery-api-openapi.yml
   format: yaml
-  label: Instacart Connect Post-Checkout API
-  slug: connect-post-checkout-api
+  label: instacart Delivery API
+  slug: instacart-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-connect-post-checkout-api-openapi.yml
-- filename: instacart-catalog-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-delivery-api-openapi.yml
+- filename: instacart-items-api-openapi.yml
   format: yaml
-  label: Instacart Catalog API
-  slug: catalog-api
+  label: instacart Items API
+  slug: instacart-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-catalog-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-items-api-openapi.yml
+- filename: instacart-last-mile-delivery-api-openapi.yml
+  format: yaml
+  label: instacart Last Mile Delivery API
+  slug: instacart-last-mile-delivery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-last-mile-delivery-api-openapi.yml
+- filename: instacart-orders-api-openapi.yml
+  format: yaml
+  label: instacart Orders API
+  slug: instacart-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-orders-api-openapi.yml
+- filename: instacart-pickup-api-openapi.yml
+  format: yaml
+  label: instacart Pickup API
+  slug: instacart-pickup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-pickup-api-openapi.yml
+- filename: instacart-products-api-openapi.yml
+  format: yaml
+  label: instacart Products API
+  slug: instacart-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-products-api-openapi.yml
+- filename: instacart-replacements-api-openapi.yml
+  format: yaml
+  label: instacart Replacements API
+  slug: instacart-replacements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-replacements-api-openapi.yml
 auth_types:
 - apiKey
 - http

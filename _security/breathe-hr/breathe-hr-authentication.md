@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: breathe-hr-openapi.yml
+- filename: breathe-hr-absences-api-openapi.yml
   format: yaml
-  label: Breathe HR REST API
-  slug: rest-api
+  label: Breathe HR Absences API
+  slug: breathe-hr-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breathe-hr/refs/heads/main/openapi/breathe-hr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/breathe-hr/refs/heads/main/openapi/breathe-hr-absences-api-openapi.yml
+- filename: breathe-hr-account-api-openapi.yml
+  format: yaml
+  label: Breathe HR Account API
+  slug: breathe-hr-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/breathe-hr/refs/heads/main/openapi/breathe-hr-account-api-openapi.yml
+- filename: breathe-hr-employees-api-openapi.yml
+  format: yaml
+  label: Breathe HR Employees API
+  slug: breathe-hr-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/breathe-hr/refs/heads/main/openapi/breathe-hr-employees-api-openapi.yml
+- filename: breathe-hr-holidays-api-openapi.yml
+  format: yaml
+  label: Breathe HR Holidays API
+  slug: breathe-hr-holidays-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/breathe-hr/refs/heads/main/openapi/breathe-hr-holidays-api-openapi.yml
+- filename: breathe-hr-sicknesses-api-openapi.yml
+  format: yaml
+  label: Breathe HR Sicknesses API
+  slug: breathe-hr-sicknesses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/breathe-hr/refs/heads/main/openapi/breathe-hr-sicknesses-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

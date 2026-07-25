@@ -1,23 +1,17 @@
 ---
 api_specs:
-- filename: cover-genius-openapi.yml
+- filename: cover-genius-bookings-api-openapi.yml
   format: yaml
-  label: XCover Offers API
-  slug: xcover-offers-api
+  label: Cover Genius Bookings API
+  slug: cover-genius-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cover-genius/refs/heads/main/openapi/cover-genius-openapi.yml
-- filename: cover-genius-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cover-genius/refs/heads/main/openapi/cover-genius-bookings-api-openapi.yml
+- filename: cover-genius-offers-api-openapi.yml
   format: yaml
-  label: XCover Bookings and Policies API
-  slug: xcover-bookings-policies-api
+  label: Cover Genius Offers API
+  slug: cover-genius-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cover-genius/refs/heads/main/openapi/cover-genius-openapi.yml
-- filename: cover-genius-openapi.yml
-  format: yaml
-  label: XClaim Claims API
-  slug: xclaim-claims-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cover-genius/refs/heads/main/openapi/cover-genius-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cover-genius/refs/heads/main/openapi/cover-genius-offers-api-openapi.yml
 description: ''
 domains:
 - caa: []

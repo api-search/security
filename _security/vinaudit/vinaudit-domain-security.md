@@ -1,29 +1,47 @@
 ---
 api_specs:
-- filename: vehicle-history-api
+- filename: vinaudit-getownershipcost-php-api-openapi.yml
   format: yaml
-  label: VINaudit Vehicle History API
-  slug: vinaudit-vehicle-history-api
+  label: VINaudit Getownershipcost.php API
+  slug: vinaudit-getownershipcost-php-api
   spec_type: OpenAPI
-  url: https://www.vinaudit.com/vehicle-history-api
-- filename: vinaudit-vehicle-specifications-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-getownershipcost-php-api-openapi.yml
+- filename: vinaudit-marketvalue-api-openapi.yml
   format: yaml
-  label: VINaudit Vehicle Specifications API
-  slug: vinaudit-vehicle-specifications-api
+  label: VINaudit Marketvalue API
+  slug: vinaudit-marketvalue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-vehicle-specifications-openapi.yml
-- filename: vinaudit-vehicle-market-value-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-marketvalue-api-openapi.yml
+- filename: vinaudit-pullreport-api-openapi.yml
   format: yaml
-  label: VINaudit Vehicle Market Value API
-  slug: vinaudit-vehicle-market-value-api
+  label: VINaudit Pullreport API
+  slug: vinaudit-pullreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-vehicle-market-value-openapi.yml
-- filename: vinaudit-vehicle-ownership-cost-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-pullreport-api-openapi.yml
+- filename: vinaudit-query-api-openapi.yml
   format: yaml
-  label: VINaudit Vehicle Ownership Cost API
-  slug: vinaudit-vehicle-ownership-cost-api
+  label: VINaudit Query API
+  slug: vinaudit-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-vehicle-ownership-cost-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-query-api-openapi.yml
+- filename: vinaudit-report-api-openapi.yml
+  format: yaml
+  label: VINaudit Report API
+  slug: vinaudit-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-report-api-openapi.yml
+- filename: vinaudit-selections-api-openapi.yml
+  format: yaml
+  label: VINaudit Selections API
+  slug: vinaudit-selections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-selections-api-openapi.yml
+- filename: vinaudit-specifications-api-openapi.yml
+  format: yaml
+  label: VINaudit Specifications API
+  slug: vinaudit-specifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-specifications-api-openapi.yml
 description: ''
 domains:
 - caa:

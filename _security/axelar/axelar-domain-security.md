@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: amplifier-gmp-api.yaml
+- filename: axelar-chains-api-openapi.yml
   format: yaml
-  label: Axelar Amplifier GMP API
-  slug: amplifier-gmp-api
+  label: Axelar Chains API
+  slug: axelar-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axelar/refs/heads/main/openapi/amplifier-gmp-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/axelar/refs/heads/main/openapi/axelar-chains-api-openapi.yml
+- filename: axelar-contracts-api-openapi.yml
+  format: yaml
+  label: Axelar Contracts API
+  slug: axelar-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axelar/refs/heads/main/openapi/axelar-contracts-api-openapi.yml
+- filename: axelar-health-api-openapi.yml
+  format: yaml
+  label: Axelar Health API
+  slug: axelar-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axelar/refs/heads/main/openapi/axelar-health-api-openapi.yml
+- filename: axelar-payloads-api-openapi.yml
+  format: yaml
+  label: Axelar Payloads API
+  slug: axelar-payloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axelar/refs/heads/main/openapi/axelar-payloads-api-openapi.yml
 description: ''
 domains:
 - caa:

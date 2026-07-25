@@ -2,18 +2,90 @@
 api_key_in:
 - header
 api_specs:
-- filename: n8n-openapi.yml
+- filename: n8n-audit-api-openapi.yml
   format: yaml
-  label: N8n
-  slug: n8n
+  label: N8n Audit API
+  slug: n8n-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-openapi.yml
-- filename: n8n-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-audit-api-openapi.yml
+- filename: n8n-communitypackage-api-openapi.yml
   format: yaml
-  label: N8n REST API
-  slug: n8n-rest-api
+  label: N8n CommunityPackage API
+  slug: n8n-communitypackage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-communitypackage-api-openapi.yml
+- filename: n8n-credential-api-openapi.yml
+  format: yaml
+  label: N8n Credential API
+  slug: n8n-credential-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-credential-api-openapi.yml
+- filename: n8n-datatable-api-openapi.yml
+  format: yaml
+  label: N8n DataTable API
+  slug: n8n-datatable-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-datatable-api-openapi.yml
+- filename: n8n-discover-api-openapi.yml
+  format: yaml
+  label: N8n Discover API
+  slug: n8n-discover-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-discover-api-openapi.yml
+- filename: n8n-execution-api-openapi.yml
+  format: yaml
+  label: N8n Execution API
+  slug: n8n-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-execution-api-openapi.yml
+- filename: n8n-folders-api-openapi.yml
+  format: yaml
+  label: N8n Folders API
+  slug: n8n-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-folders-api-openapi.yml
+- filename: n8n-insights-api-openapi.yml
+  format: yaml
+  label: N8n Insights API
+  slug: n8n-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-insights-api-openapi.yml
+- filename: n8n-projects-api-openapi.yml
+  format: yaml
+  label: N8n Projects API
+  slug: n8n-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-projects-api-openapi.yml
+- filename: n8n-sourcecontrol-api-openapi.yml
+  format: yaml
+  label: N8n SourceControl API
+  slug: n8n-sourcecontrol-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-sourcecontrol-api-openapi.yml
+- filename: n8n-tags-api-openapi.yml
+  format: yaml
+  label: N8n Tags API
+  slug: n8n-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-tags-api-openapi.yml
+- filename: n8n-user-api-openapi.yml
+  format: yaml
+  label: N8n User API
+  slug: n8n-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-user-api-openapi.yml
+- filename: n8n-variables-api-openapi.yml
+  format: yaml
+  label: N8n Variables API
+  slug: n8n-variables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-variables-api-openapi.yml
+- filename: n8n-workflow-api-openapi.yml
+  format: yaml
+  label: N8n Workflow API
+  slug: n8n-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-workflow-api-openapi.yml
 auth_types:
 - apiKey
 - http

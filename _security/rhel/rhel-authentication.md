@@ -1,54 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Red Hat Subscription Management API
-  slug: subscription-management-api
-  spec_type: OpenAPI
-  url: https://api.access.redhat.com/management/v1/openapi.json
-- filename: openapi.json
-  format: json
-  label: Red Hat Insights API
-  slug: insights-api
-  spec_type: OpenAPI
-  url: https://cloud.redhat.com/api/insights/v1/openapi.json
-- filename: rhel-security-data-openapi.yml
+- filename: rhel-advisories-api-openapi.yml
   format: yaml
-  label: Red Hat Security Data API
-  slug: security-data-api
+  label: Red Hat Enterprise Linux Advisories API
+  slug: rhel-advisories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-security-data-openapi.yml
-- filename: openapi.json
-  format: json
-  label: Red Hat Insights Compliance API
-  slug: compliance-api
+  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-advisories-api-openapi.yml
+- filename: rhel-cves-api-openapi.yml
+  format: yaml
+  label: Red Hat Enterprise Linux CVEs API
+  slug: rhel-cves-api
   spec_type: OpenAPI
-  url: https://console.redhat.com/api/compliance/v2/openapi.json
-- filename: openapi.json
-  format: json
-  label: Red Hat Insights Vulnerability API
-  slug: vulnerability-api
+  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-cves-api-openapi.yml
+- filename: rhel-oval-api-openapi.yml
+  format: yaml
+  label: Red Hat Enterprise Linux OVAL API
+  slug: rhel-oval-api
   spec_type: OpenAPI
-  url: https://console.redhat.com/api/vulnerability/v1/openapi.json
-- filename: openapi.json
-  format: json
-  label: Red Hat Insights Patch API
-  slug: patch-api
+  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-oval-api-openapi.yml
+- filename: rhel-subscriptions-api-openapi.yml
+  format: yaml
+  label: Red Hat Enterprise Linux Subscriptions API
+  slug: rhel-subscriptions-api
   spec_type: OpenAPI
-  url: https://console.redhat.com/api/patch/v3/openapi.json
-- filename: openapi.json
-  format: json
-  label: Red Hat Insights Host Inventory API
-  slug: inventory-api
+  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-subscriptions-api-openapi.yml
+- filename: rhel-systems-api-openapi.yml
+  format: yaml
+  label: Red Hat Enterprise Linux Systems API
+  slug: rhel-systems-api
   spec_type: OpenAPI
-  url: https://console.redhat.com/api/inventory/v1/openapi.json
-- filename: openapi.json
-  format: json
-  label: Red Hat Insights Remediations API
-  slug: remediations-api
-  spec_type: OpenAPI
-  url: https://console.redhat.com/api/remediations/v1/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-systems-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

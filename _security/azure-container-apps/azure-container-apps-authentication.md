@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: azure-container-apps-openapi.yml
+- filename: azure-container-apps-authentication-api-openapi.yml
   format: yaml
-  label: Azure Container Apps
-  slug: azure-container-apps
+  label: Azure Container Apps Authentication API
+  slug: azure-container-apps-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/openapi/azure-container-apps-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/openapi/azure-container-apps-authentication-api-openapi.yml
+- filename: azure-container-apps-container-apps-api-openapi.yml
+  format: yaml
+  label: Azure Container Apps Container Apps API
+  slug: azure-container-apps-container-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/openapi/azure-container-apps-container-apps-api-openapi.yml
+- filename: azure-container-apps-jobs-api-openapi.yml
+  format: yaml
+  label: Azure Container Apps Jobs API
+  slug: azure-container-apps-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/openapi/azure-container-apps-jobs-api-openapi.yml
+- filename: azure-container-apps-managed-environments-api-openapi.yml
+  format: yaml
+  label: Azure Container Apps Managed Environments API
+  slug: azure-container-apps-managed-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/openapi/azure-container-apps-managed-environments-api-openapi.yml
+- filename: azure-container-apps-revisions-api-openapi.yml
+  format: yaml
+  label: Azure Container Apps Revisions API
+  slug: azure-container-apps-revisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/openapi/azure-container-apps-revisions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

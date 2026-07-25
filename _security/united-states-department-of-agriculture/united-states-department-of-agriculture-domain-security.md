@@ -1,29 +1,53 @@
 ---
 api_specs:
-- filename: yaml-spec
+- filename: united-states-department-of-agriculture-data-api-openapi.yml
   format: yaml
-  label: USDA FoodData Central API
-  slug: usda-fooddata-central-api
+  label: United States Department of Agriculture Data API
+  slug: united-states-department-of-agriculture-data-api
   spec_type: OpenAPI
-  url: https://api.nal.usda.gov/fdc/v1/yaml-spec?api_key=DEMO_KEY
-- filename: usda-nass-quickstats-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-data-api-openapi.yml
+- filename: united-states-department-of-agriculture-foods-api-openapi.yml
   format: yaml
-  label: USDA NASS Quick Stats API
-  slug: usda-nass-quickstats-api
+  label: United States Department of Agriculture Foods API
+  slug: united-states-department-of-agriculture-foods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/usda-nass-quickstats-openapi.yml
-- filename: usda-ers-arms-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-foods-api-openapi.yml
+- filename: united-states-department-of-agriculture-forecasts-api-openapi.yml
   format: yaml
-  label: USDA ERS ARMS Data API
-  slug: usda-ers-arms-api
+  label: United States Department of Agriculture Forecasts API
+  slug: united-states-department-of-agriculture-forecasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/usda-ers-arms-openapi.yml
-- filename: usda-nrcs-awdb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-forecasts-api-openapi.yml
+- filename: united-states-department-of-agriculture-metadata-api-openapi.yml
   format: yaml
-  label: USDA NRCS AWDB Water and Climate REST API
-  slug: usda-nrcs-awdb-api
+  label: United States Department of Agriculture Metadata API
+  slug: united-states-department-of-agriculture-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/usda-nrcs-awdb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-metadata-api-openapi.yml
+- filename: united-states-department-of-agriculture-nutrients-api-openapi.yml
+  format: yaml
+  label: United States Department of Agriculture Nutrients API
+  slug: united-states-department-of-agriculture-nutrients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-nutrients-api-openapi.yml
+- filename: united-states-department-of-agriculture-stations-api-openapi.yml
+  format: yaml
+  label: United States Department of Agriculture Stations API
+  slug: united-states-department-of-agriculture-stations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-stations-api-openapi.yml
+- filename: united-states-department-of-agriculture-statistics-api-openapi.yml
+  format: yaml
+  label: United States Department of Agriculture Statistics API
+  slug: united-states-department-of-agriculture-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-statistics-api-openapi.yml
+- filename: united-states-department-of-agriculture-survey-data-api-openapi.yml
+  format: yaml
+  label: United States Department of Agriculture Survey Data API
+  slug: united-states-department-of-agriculture-survey-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-survey-data-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: sandbox-banking-glyue-openapi.yml
+- filename: sandbox-banking-adapters-api-openapi.yml
   format: yaml
-  label: Glyue Integration Gateway API
-  slug: glyue
+  label: Sandbox Banking Adapters API
+  slug: sandbox-banking-adapters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/openapi/sandbox-banking-glyue-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/openapi/sandbox-banking-adapters-api-openapi.yml
+- filename: sandbox-banking-field-mappings-api-openapi.yml
+  format: yaml
+  label: Sandbox Banking Field Mappings API
+  slug: sandbox-banking-field-mappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/openapi/sandbox-banking-field-mappings-api-openapi.yml
+- filename: sandbox-banking-integrations-api-openapi.yml
+  format: yaml
+  label: Sandbox Banking Integrations API
+  slug: sandbox-banking-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/openapi/sandbox-banking-integrations-api-openapi.yml
+- filename: sandbox-banking-run-history-api-openapi.yml
+  format: yaml
+  label: Sandbox Banking Run History API
+  slug: sandbox-banking-run-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/openapi/sandbox-banking-run-history-api-openapi.yml
+- filename: sandbox-banking-service-requests-api-openapi.yml
+  format: yaml
+  label: Sandbox Banking Service Requests API
+  slug: sandbox-banking-service-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/openapi/sandbox-banking-service-requests-api-openapi.yml
+- filename: sandbox-banking-value-mappings-api-openapi.yml
+  format: yaml
+  label: Sandbox Banking Value Mappings API
+  slug: sandbox-banking-value-mappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/openapi/sandbox-banking-value-mappings-api-openapi.yml
 description: ''
 domains:
 - caa: []

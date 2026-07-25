@@ -1,71 +1,71 @@
 ---
 api_specs:
-- filename: booqable-openapi.yml
-  format: yaml
-  label: Booqable Orders API
-  slug: booqable-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-openapi.yml
-- filename: booqable-openapi.yml
-  format: yaml
-  label: Booqable Order Fulfillment API
-  slug: booqable-order-fulfillment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-openapi.yml
-- filename: booqable-openapi.yml
-  format: yaml
-  label: Booqable Products API
-  slug: booqable-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-openapi.yml
-- filename: booqable-openapi.yml
-  format: yaml
-  label: Booqable Product Groups API
-  slug: booqable-product-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-openapi.yml
-- filename: booqable-openapi.yml
-  format: yaml
-  label: Booqable Customers API
-  slug: booqable-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-openapi.yml
-- filename: booqable-openapi.yml
-  format: yaml
-  label: Booqable Stock Items API
-  slug: booqable-stock-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-openapi.yml
-- filename: booqable-openapi.yml
+- filename: booqable-availability-api-openapi.yml
   format: yaml
   label: Booqable Availability API
   slug: booqable-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-openapi.yml
-- filename: booqable-openapi.yml
-  format: yaml
-  label: Booqable Documents & Invoices API
-  slug: booqable-documents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-openapi.yml
-- filename: booqable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-availability-api-openapi.yml
+- filename: booqable-bundles-collections-api-openapi.yml
   format: yaml
   label: Booqable Bundles & Collections API
   slug: booqable-bundles-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-openapi.yml
-- filename: booqable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-bundles-collections-api-openapi.yml
+- filename: booqable-customers-api-openapi.yml
+  format: yaml
+  label: Booqable Customers API
+  slug: booqable-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-customers-api-openapi.yml
+- filename: booqable-documents-api-openapi.yml
+  format: yaml
+  label: Booqable Documents API
+  slug: booqable-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-documents-api-openapi.yml
+- filename: booqable-order-fulfillment-api-openapi.yml
+  format: yaml
+  label: Booqable Order Fulfillment API
+  slug: booqable-order-fulfillment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-order-fulfillment-api-openapi.yml
+- filename: booqable-orders-api-openapi.yml
+  format: yaml
+  label: Booqable Orders API
+  slug: booqable-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-orders-api-openapi.yml
+- filename: booqable-product-groups-api-openapi.yml
+  format: yaml
+  label: Booqable Product Groups API
+  slug: booqable-product-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-product-groups-api-openapi.yml
+- filename: booqable-products-api-openapi.yml
+  format: yaml
+  label: Booqable Products API
+  slug: booqable-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-products-api-openapi.yml
+- filename: booqable-settings-api-openapi.yml
+  format: yaml
+  label: Booqable Settings API
+  slug: booqable-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-settings-api-openapi.yml
+- filename: booqable-stock-items-api-openapi.yml
+  format: yaml
+  label: Booqable Stock Items API
+  slug: booqable-stock-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-stock-items-api-openapi.yml
+- filename: booqable-webhooks-api-openapi.yml
   format: yaml
   label: Booqable Webhooks API
   slug: booqable-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-openapi.yml
-- filename: booqable-openapi.yml
-  format: yaml
-  label: Booqable Settings & Locations API
-  slug: booqable-settings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,29 +1,83 @@
 ---
 api_specs:
-- filename: qubrid-ai-inference-openapi.yml
+- filename: qubrid-ai-chat-completions-api-openapi.yml
   format: yaml
-  label: Qubrid AI Inference API
-  slug: inference
+  label: Qubrid AI Chat Completions API
+  slug: qubrid-ai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-inference-openapi.yml
-- filename: qubrid-ai-compute-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-chat-completions-api-openapi.yml
+- filename: qubrid-ai-datasets-api-openapi.yml
   format: yaml
-  label: Qubrid AI Compute API
-  slug: compute
+  label: Qubrid AI Datasets API
+  slug: qubrid-ai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-compute-openapi.yml
-- filename: qubrid-ai-fine-tuning-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-datasets-api-openapi.yml
+- filename: qubrid-ai-documents-api-openapi.yml
   format: yaml
-  label: Qubrid AI Fine-Tuning API
-  slug: fine-tuning
+  label: Qubrid AI Documents API
+  slug: qubrid-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-fine-tuning-openapi.yml
-- filename: qubrid-ai-rag-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-documents-api-openapi.yml
+- filename: qubrid-ai-embeddings-api-openapi.yml
   format: yaml
-  label: Qubrid AI RAG API
-  slug: rag
+  label: Qubrid AI Embeddings API
+  slug: qubrid-ai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-rag-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-embeddings-api-openapi.yml
+- filename: qubrid-ai-fine-tuned-models-api-openapi.yml
+  format: yaml
+  label: Qubrid AI Fine-Tuned Models API
+  slug: qubrid-ai-fine-tuned-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-fine-tuned-models-api-openapi.yml
+- filename: qubrid-ai-fine-tuning-jobs-api-openapi.yml
+  format: yaml
+  label: Qubrid AI Fine-Tuning Jobs API
+  slug: qubrid-ai-fine-tuning-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-fine-tuning-jobs-api-openapi.yml
+- filename: qubrid-ai-gpu-catalog-api-openapi.yml
+  format: yaml
+  label: Qubrid AI GPU Catalog API
+  slug: qubrid-ai-gpu-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-gpu-catalog-api-openapi.yml
+- filename: qubrid-ai-instances-api-openapi.yml
+  format: yaml
+  label: Qubrid AI Instances API
+  slug: qubrid-ai-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-instances-api-openapi.yml
+- filename: qubrid-ai-knowledge-bases-api-openapi.yml
+  format: yaml
+  label: Qubrid AI Knowledge Bases API
+  slug: qubrid-ai-knowledge-bases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-knowledge-bases-api-openapi.yml
+- filename: qubrid-ai-models-api-openapi.yml
+  format: yaml
+  label: Qubrid AI Models API
+  slug: qubrid-ai-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-models-api-openapi.yml
+- filename: qubrid-ai-rag-queries-api-openapi.yml
+  format: yaml
+  label: Qubrid AI RAG Queries API
+  slug: qubrid-ai-rag-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-rag-queries-api-openapi.yml
+- filename: qubrid-ai-ssh-keys-api-openapi.yml
+  format: yaml
+  label: Qubrid AI SSH Keys API
+  slug: qubrid-ai-ssh-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-ssh-keys-api-openapi.yml
+- filename: qubrid-ai-templates-api-openapi.yml
+  format: yaml
+  label: Qubrid AI Templates API
+  slug: qubrid-ai-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []

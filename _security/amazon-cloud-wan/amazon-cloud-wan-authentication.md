@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-cloud-wan-openapi.yml
+- filename: amazon-cloud-wan-core-networks-api-openapi.yml
   format: yaml
-  label: Amazon Cloud WAN API
-  slug: amazon-cloud-wan-api
+  label: Amazon Cloud WAN Core Networks API
+  slug: amazon-cloud-wan-core-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/openapi/amazon-cloud-wan-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/openapi/amazon-cloud-wan-core-networks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

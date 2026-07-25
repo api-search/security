@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: characterquilt-branding-openapi.yml
+- filename: characterquilt-branding-api-openapi.yml
   format: yaml
-  label: CharacterQuilt Brand Profiles
-  slug: characterquilt-brand-profiles
+  label: CharacterQuilt Branding API
+  slug: characterquilt-branding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/openapi/characterquilt-branding-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/openapi/characterquilt-branding-api-openapi.yml
+- filename: characterquilt-discovery-api-openapi.yml
+  format: yaml
+  label: CharacterQuilt Discovery API
+  slug: characterquilt-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/openapi/characterquilt-discovery-api-openapi.yml
 description: ''
 domains:
 - caa: []

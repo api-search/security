@@ -1,17 +1,11 @@
 ---
 api_specs:
-- filename: haproxy_spec.yaml
+- filename: scalable-systems-applicationautoscaling-api-openapi.yml
   format: yaml
-  label: HAProxy Data Plane API
-  slug: haproxy
+  label: Scalable Systems ApplicationAutoScaling API
+  slug: scalable-systems-applicationautoscaling-api
   spec_type: OpenAPI
-  url: https://github.com/haproxytech/dataplaneapi/blob/master/specification/build/haproxy_spec.yaml
-- filename: management-api.json
-  format: json
-  label: RabbitMQ Management API
-  slug: rabbitmq
-  spec_type: OpenAPI
-  url: https://www.rabbitmq.com/resources/specs/management-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/scalable-systems/refs/heads/main/openapi/scalable-systems-applicationautoscaling-api-openapi.yml
 description: ''
 domains:
 - caa: []

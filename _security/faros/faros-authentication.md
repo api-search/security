@@ -2,30 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: faros-openapi.yml
+- filename: faros-account-api-openapi.yml
   format: yaml
-  label: Faros Events / Ingestion API (REST)
-  slug: faros-events-ingestion-rest-api
+  label: Faros AI Account API
+  slug: faros-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-openapi.yml
-- filename: faros-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-account-api-openapi.yml
+- filename: faros-events-api-openapi.yml
   format: yaml
-  label: Faros GraphQL Query API
-  slug: faros-graphql-query-api
+  label: Faros AI Events API
+  slug: faros-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-openapi.yml
-- filename: faros-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-events-api-openapi.yml
+- filename: faros-graphql-api-openapi.yml
   format: yaml
-  label: Faros Deployments / CI-CD API
-  slug: faros-deployments-ci-cd-api
+  label: Faros AI GraphQL API
+  slug: faros-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-openapi.yml
-- filename: faros-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-graphql-api-openapi.yml
+- filename: faros-graphs-api-openapi.yml
   format: yaml
-  label: Faros Webhooks API
+  label: Faros AI Graphs API
+  slug: faros-graphs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-graphs-api-openapi.yml
+- filename: faros-ingestion-api-openapi.yml
+  format: yaml
+  label: Faros AI Ingestion API
+  slug: faros-ingestion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-ingestion-api-openapi.yml
+- filename: faros-webhooks-api-openapi.yml
+  format: yaml
+  label: Faros AI Webhooks API
   slug: faros-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,29 +1,47 @@
 ---
 api_specs:
-- filename: telefon-voice-openapi.yml
+- filename: telefon-available-numbers-api-openapi.yml
   format: yaml
-  label: Telefon Voice API
-  slug: telefon-voice-api
+  label: Telefon Available Numbers API
+  slug: telefon-available-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefon/refs/heads/main/openapi/telefon-voice-openapi.yml
-- filename: telefon-sms-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telefon/refs/heads/main/openapi/telefon-available-numbers-api-openapi.yml
+- filename: telefon-calls-api-openapi.yml
   format: yaml
-  label: Telefon SMS API
-  slug: telefon-sms-api
+  label: Telefon Calls API
+  slug: telefon-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefon/refs/heads/main/openapi/telefon-sms-openapi.yml
-- filename: telefon-numbers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telefon/refs/heads/main/openapi/telefon-calls-api-openapi.yml
+- filename: telefon-conferences-api-openapi.yml
   format: yaml
-  label: Telefon Number Management API
-  slug: telefon-number-management-api
+  label: Telefon Conferences API
+  slug: telefon-conferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefon/refs/heads/main/openapi/telefon-numbers-openapi.yml
-- filename: telefon-recording-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telefon/refs/heads/main/openapi/telefon-conferences-api-openapi.yml
+- filename: telefon-messages-api-openapi.yml
   format: yaml
-  label: Telefon Call Recording API
-  slug: telefon-call-recording-api
+  label: Telefon Messages API
+  slug: telefon-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefon/refs/heads/main/openapi/telefon-recording-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telefon/refs/heads/main/openapi/telefon-messages-api-openapi.yml
+- filename: telefon-owned-numbers-api-openapi.yml
+  format: yaml
+  label: Telefon Owned Numbers API
+  slug: telefon-owned-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telefon/refs/heads/main/openapi/telefon-owned-numbers-api-openapi.yml
+- filename: telefon-recordings-api-openapi.yml
+  format: yaml
+  label: Telefon Recordings API
+  slug: telefon-recordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telefon/refs/heads/main/openapi/telefon-recordings-api-openapi.yml
+- filename: telefon-transcriptions-api-openapi.yml
+  format: yaml
+  label: Telefon Transcriptions API
+  slug: telefon-transcriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telefon/refs/heads/main/openapi/telefon-transcriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []

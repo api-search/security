@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: brainbase-openapi-original.json
-  format: json
-  label: Brainbase API v1
-  slug: brainbase-api-v1
+- filename: brainbase-apicontract-api-openapi.yml
+  format: yaml
+  label: Brainbase ApiContract API
+  slug: brainbase-apicontract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainbase/refs/heads/main/openapi/brainbase-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/brainbase/refs/heads/main/openapi/brainbase-apicontract-api-openapi.yml
+- filename: brainbase-general-api-openapi.yml
+  format: yaml
+  label: Brainbase General API
+  slug: brainbase-general-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brainbase/refs/heads/main/openapi/brainbase-general-api-openapi.yml
 auth_types:
 - http
 description: ''

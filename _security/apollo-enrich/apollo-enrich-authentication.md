@@ -1,48 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: apollo-enrich-openapi.yml
+- filename: apollo-enrich-accounts-api-openapi.yml
   format: yaml
-  label: Apollo People Enrichment API
-  slug: apollo-people-enrichment-api
+  label: Apollo.io Accounts API
+  slug: apollo-enrich-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-enrich/refs/heads/main/openapi/apollo-enrich-openapi.yml
-- filename: apollo-enrich-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-enrich/refs/heads/main/openapi/apollo-enrich-accounts-api-openapi.yml
+- filename: apollo-enrich-contacts-api-openapi.yml
   format: yaml
-  label: Apollo People Search API
-  slug: apollo-people-search-api
+  label: Apollo.io Contacts API
+  slug: apollo-enrich-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-enrich/refs/heads/main/openapi/apollo-enrich-openapi.yml
-- filename: apollo-enrich-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-enrich/refs/heads/main/openapi/apollo-enrich-contacts-api-openapi.yml
+- filename: apollo-enrich-organization-enrichment-api-openapi.yml
   format: yaml
-  label: Apollo Organization Enrichment API
-  slug: apollo-organization-enrichment-api
+  label: Apollo.io Organization Enrichment API
+  slug: apollo-enrich-organization-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-enrich/refs/heads/main/openapi/apollo-enrich-openapi.yml
-- filename: apollo-enrich-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-enrich/refs/heads/main/openapi/apollo-enrich-organization-enrichment-api-openapi.yml
+- filename: apollo-enrich-organization-search-api-openapi.yml
   format: yaml
-  label: Apollo Organization Search API
-  slug: apollo-organization-search-api
+  label: Apollo.io Organization Search API
+  slug: apollo-enrich-organization-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-enrich/refs/heads/main/openapi/apollo-enrich-openapi.yml
-- filename: apollo-enrich-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-enrich/refs/heads/main/openapi/apollo-enrich-organization-search-api-openapi.yml
+- filename: apollo-enrich-people-enrichment-api-openapi.yml
   format: yaml
-  label: Apollo Contacts API
-  slug: apollo-contacts-api
+  label: Apollo.io People Enrichment API
+  slug: apollo-enrich-people-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-enrich/refs/heads/main/openapi/apollo-enrich-openapi.yml
-- filename: apollo-enrich-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-enrich/refs/heads/main/openapi/apollo-enrich-people-enrichment-api-openapi.yml
+- filename: apollo-enrich-people-search-api-openapi.yml
   format: yaml
-  label: Apollo Accounts API
-  slug: apollo-accounts-api
+  label: Apollo.io People Search API
+  slug: apollo-enrich-people-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-enrich/refs/heads/main/openapi/apollo-enrich-openapi.yml
-- filename: apollo-enrich-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-enrich/refs/heads/main/openapi/apollo-enrich-people-search-api-openapi.yml
+- filename: apollo-enrich-sequences-api-openapi.yml
   format: yaml
-  label: Apollo Sequences API
-  slug: apollo-sequences-api
+  label: Apollo.io Sequences API
+  slug: apollo-enrich-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-enrich/refs/heads/main/openapi/apollo-enrich-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-enrich/refs/heads/main/openapi/apollo-enrich-sequences-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

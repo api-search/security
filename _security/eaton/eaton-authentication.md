@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: smart-breaker-openapi.yml
+- filename: eaton-authorization-api-openapi.yml
   format: yaml
-  label: Eaton Smart Breaker API
-  slug: eaton-smart-breaker-api
+  label: Eaton Authorization API
+  slug: eaton-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/smart-breaker-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-authorization-api-openapi.yml
+- filename: eaton-device-commands-api-openapi.yml
+  format: yaml
+  label: Eaton Device Commands API
+  slug: eaton-device-commands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-device-commands-api-openapi.yml
+- filename: eaton-devices-api-openapi.yml
+  format: yaml
+  label: Eaton Devices API
+  slug: eaton-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-devices-api-openapi.yml
+- filename: eaton-energy-data-api-openapi.yml
+  format: yaml
+  label: Eaton Energy Data API
+  slug: eaton-energy-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-energy-data-api-openapi.yml
+- filename: eaton-ev-only-api-openapi.yml
+  format: yaml
+  label: Eaton EV Only API
+  slug: eaton-ev-only-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-ev-only-api-openapi.yml
+- filename: eaton-events-api-openapi.yml
+  format: yaml
+  label: Eaton Events API
+  slug: eaton-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-events-api-openapi.yml
+- filename: eaton-locations-api-openapi.yml
+  format: yaml
+  label: Eaton Locations API
+  slug: eaton-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-locations-api-openapi.yml
+- filename: eaton-organizations-api-openapi.yml
+  format: yaml
+  label: Eaton Organizations API
+  slug: eaton-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-organizations-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

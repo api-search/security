@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: voltage-park-openapi.yml
+- filename: voltage-park-bare-metal-api-openapi.yml
   format: yaml
-  label: Voltage Park Virtual Machines API
-  slug: voltage-park-virtual-machines-api
+  label: Voltage Park Bare Metal API
+  slug: voltage-park-bare-metal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-openapi.yml
-- filename: voltage-park-openapi.yml
-  format: yaml
-  label: Voltage Park Bare Metal & Clusters API
-  slug: voltage-park-bare-metal-clusters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-openapi.yml
-- filename: voltage-park-openapi.yml
-  format: yaml
-  label: Voltage Park SSH Keys API
-  slug: voltage-park-ssh-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-openapi.yml
-- filename: voltage-park-openapi.yml
-  format: yaml
-  label: Voltage Park Storage API
-  slug: voltage-park-storage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-openapi.yml
-- filename: voltage-park-openapi.yml
-  format: yaml
-  label: Voltage Park Locations & HostNodes API
-  slug: voltage-park-locations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-openapi.yml
-- filename: voltage-park-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-bare-metal-api-openapi.yml
+- filename: voltage-park-billing-api-openapi.yml
   format: yaml
   label: Voltage Park Billing API
   slug: voltage-park-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-openapi.yml
-- filename: voltage-park-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-billing-api-openapi.yml
+- filename: voltage-park-locations-api-openapi.yml
+  format: yaml
+  label: Voltage Park Locations API
+  slug: voltage-park-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-locations-api-openapi.yml
+- filename: voltage-park-organization-api-openapi.yml
   format: yaml
   label: Voltage Park Organization API
   slug: voltage-park-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-organization-api-openapi.yml
+- filename: voltage-park-storage-api-openapi.yml
+  format: yaml
+  label: Voltage Park Storage API
+  slug: voltage-park-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-storage-api-openapi.yml
+- filename: voltage-park-validation-api-openapi.yml
+  format: yaml
+  label: Voltage Park Validation API
+  slug: voltage-park-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-validation-api-openapi.yml
+- filename: voltage-park-virtual-machines-api-openapi.yml
+  format: yaml
+  label: Voltage Park Virtual Machines API
+  slug: voltage-park-virtual-machines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-virtual-machines-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

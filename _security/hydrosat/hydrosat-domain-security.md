@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: hydrosat-stac-openapi.json
-  format: json
-  label: Hydrosat Discovery STAC API
-  slug: hydrosat-discovery-stac-api
+- filename: hydrosat-catalog-api-openapi.yml
+  format: yaml
+  label: Hydrosat Catalog API
+  slug: hydrosat-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/openapi/hydrosat-stac-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/openapi/hydrosat-catalog-api-openapi.yml
+- filename: hydrosat-collections-api-openapi.yml
+  format: yaml
+  label: Hydrosat Collections API
+  slug: hydrosat-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/openapi/hydrosat-collections-api-openapi.yml
+- filename: hydrosat-items-api-openapi.yml
+  format: yaml
+  label: Hydrosat Items API
+  slug: hydrosat-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/openapi/hydrosat-items-api-openapi.yml
+- filename: hydrosat-queryables-api-openapi.yml
+  format: yaml
+  label: Hydrosat Queryables API
+  slug: hydrosat-queryables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/openapi/hydrosat-queryables-api-openapi.yml
+- filename: hydrosat-search-api-openapi.yml
+  format: yaml
+  label: Hydrosat Search API
+  slug: hydrosat-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/openapi/hydrosat-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

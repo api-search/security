@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: messaging-api-openapi.yml
+- filename: messaging-api-messages-api-openapi.yml
   format: yaml
   label: Messaging API Messages API
-  slug: messages-api
+  slug: messaging-api-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messaging-api/refs/heads/main/openapi/messaging-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/messaging-api/refs/heads/main/openapi/messaging-api-messages-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

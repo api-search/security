@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: spindl-openapi.yml
+- filename: spindl-events-api-openapi.yml
   format: yaml
-  label: Spindl Server-to-Server API
-  slug: spindl-server-to-server-api
+  label: Spindl Events API
+  slug: spindl-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/openapi/spindl-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/openapi/spindl-events-api-openapi.yml
+- filename: spindl-short-links-api-openapi.yml
+  format: yaml
+  label: Spindl Short Links API
+  slug: spindl-short-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/openapi/spindl-short-links-api-openapi.yml
 description: ''
 domains:
 - caa: []

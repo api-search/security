@@ -2,12 +2,24 @@
 api_key_in:
 - query
 api_specs:
-- filename: bls-public-data-api-openapi.yml
+- filename: bls-gov-popular-series-api-openapi.yml
   format: yaml
-  label: BLS Public Data API
-  slug: bls-public-data-api
+  label: Bureau of Labor Statistics Popular Series API
+  slug: bls-gov-popular-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bls-gov/refs/heads/main/openapi/bls-public-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bls-gov/refs/heads/main/openapi/bls-gov-popular-series-api-openapi.yml
+- filename: bls-gov-surveys-api-openapi.yml
+  format: yaml
+  label: Bureau of Labor Statistics Surveys API
+  slug: bls-gov-surveys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bls-gov/refs/heads/main/openapi/bls-gov-surveys-api-openapi.yml
+- filename: bls-gov-time-series-api-openapi.yml
+  format: yaml
+  label: Bureau of Labor Statistics Time Series API
+  slug: bls-gov-time-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bls-gov/refs/heads/main/openapi/bls-gov-time-series-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

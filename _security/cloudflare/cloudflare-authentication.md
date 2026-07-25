@@ -2,150 +2,348 @@
 api_key_in:
 - header
 api_specs:
-- filename: cloudflare-openapi-original.yml
-  format: yaml
-  label: Cloudflare API
-  slug: cloudflare-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-openapi-original.yml
-- filename: cloudflare-accounts--openapi-original.yml
+- filename: cloudflare-accounts-api-openapi.yml
   format: yaml
   label: Cloudflare Accounts API
   slug: cloudflare-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-accounts--openapi-original.yml
-- filename: cloudflare-certificates--openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-accounts-api-openapi.yml
+- filename: cloudflare-ai-inference-api-openapi.yml
+  format: yaml
+  label: Cloudflare AI Inference API
+  slug: cloudflare-ai-inference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-ai-inference-api-openapi.yml
+- filename: cloudflare-buckets-api-openapi.yml
+  format: yaml
+  label: Cloudflare Buckets API
+  slug: cloudflare-buckets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-buckets-api-openapi.yml
+- filename: cloudflare-bulk-operations-api-openapi.yml
+  format: yaml
+  label: Cloudflare Bulk Operations API
+  slug: cloudflare-bulk-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-bulk-operations-api-openapi.yml
+- filename: cloudflare-certificates-api-openapi.yml
   format: yaml
   label: Cloudflare Certificates API
   slug: cloudflare-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-certificates--openapi-original.yml
-- filename: cloudflare-ips--openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-certificates-api-openapi.yml
+- filename: cloudflare-configuration-api-openapi.yml
   format: yaml
-  label: Cloudflare IP Addresses API
-  slug: cloudflare-ip-addresses-api
+  label: Cloudflare Configuration API
+  slug: cloudflare-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-ips--openapi-original.yml
-- filename: cloudflare-memberships--openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-configuration-api-openapi.yml
+- filename: cloudflare-configurations-api-openapi.yml
   format: yaml
-  label: Cloudflare Memberships API
-  slug: cloudflare-memberships-api
+  label: Cloudflare Configurations API
+  slug: cloudflare-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-memberships--openapi-original.yml
-- filename: cloudflare-radar--openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-configurations-api-openapi.yml
+- filename: cloudflare-consumers-api-openapi.yml
   format: yaml
-  label: Cloudflare Radar API
-  slug: cloudflare-radar-api
+  label: Cloudflare Consumers API
+  slug: cloudflare-consumers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-radar--openapi-original.yml
-- filename: cloudflare-user--openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-consumers-api-openapi.yml
+- filename: cloudflare-databases-api-openapi.yml
   format: yaml
-  label: Cloudflare User API
-  slug: cloudflare-user-api
+  label: Cloudflare Databases API
+  slug: cloudflare-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-user--openapi-original.yml
-- filename: cloudflare-zones--openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-databases-api-openapi.yml
+- filename: cloudflare-datasets-api-openapi.yml
   format: yaml
-  label: Cloudflare Zones API
-  slug: cloudflare-zones-api
+  label: Cloudflare Datasets API
+  slug: cloudflare-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-zones--openapi-original.yml
-- filename: cloudflare-dns-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-datasets-api-openapi.yml
+- filename: cloudflare-deployments-api-openapi.yml
   format: yaml
-  label: Cloudflare DNS API
-  slug: cloudflare-dns-api
+  label: Cloudflare Deployments API
+  slug: cloudflare-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-dns-openapi.yml
-- filename: cloudflare-workers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-deployments-api-openapi.yml
+- filename: cloudflare-direct-uploads-api-openapi.yml
   format: yaml
-  label: Cloudflare Workers API
-  slug: cloudflare-workers-api
+  label: Cloudflare Direct Uploads API
+  slug: cloudflare-direct-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-workers-openapi.yml
-- filename: cloudflare-workers-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-direct-uploads-api-openapi.yml
+- filename: cloudflare-dns-analytics-api-openapi.yml
   format: yaml
-  label: Cloudflare Workers AI API
-  slug: cloudflare-workers-ai-api
+  label: Cloudflare DNS Analytics API
+  slug: cloudflare-dns-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-workers-ai-openapi.yml
-- filename: cloudflare-ai-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-dns-analytics-api-openapi.yml
+- filename: cloudflare-dns-batch-operations-api-openapi.yml
   format: yaml
-  label: Cloudflare AI Gateway API
-  slug: cloudflare-ai-gateway-api
+  label: Cloudflare DNS Batch Operations API
+  slug: cloudflare-dns-batch-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-ai-gateway-openapi.yml
-- filename: cloudflare-r2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-dns-batch-operations-api-openapi.yml
+- filename: cloudflare-dns-record-import-export-api-openapi.yml
   format: yaml
-  label: Cloudflare R2 API
-  slug: cloudflare-r2-api
+  label: Cloudflare DNS Record Import/Export API
+  slug: cloudflare-dns-record-import-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-r2-openapi.yml
-- filename: cloudflare-d1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-dns-record-import-export-api-openapi.yml
+- filename: cloudflare-dns-record-scanning-api-openapi.yml
   format: yaml
-  label: Cloudflare D1 API
-  slug: cloudflare-d1-api
+  label: Cloudflare DNS Record Scanning API
+  slug: cloudflare-dns-record-scanning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-d1-openapi.yml
-- filename: cloudflare-kv-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-dns-record-scanning-api-openapi.yml
+- filename: cloudflare-dns-records-api-openapi.yml
   format: yaml
-  label: Cloudflare KV API
-  slug: cloudflare-kv-api
+  label: Cloudflare DNS Records API
+  slug: cloudflare-dns-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-kv-openapi.yml
-- filename: cloudflare-queues-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-dns-records-api-openapi.yml
+- filename: cloudflare-dnssec-api-openapi.yml
   format: yaml
-  label: Cloudflare Queues API
-  slug: cloudflare-queues-api
+  label: Cloudflare DNSSEC API
+  slug: cloudflare-dnssec-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-queues-openapi.yml
-- filename: cloudflare-durable-objects-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-dnssec-api-openapi.yml
+- filename: cloudflare-domains-api-openapi.yml
   format: yaml
-  label: Cloudflare Durable Objects API
-  slug: cloudflare-durable-objects-api
+  label: Cloudflare Domains API
+  slug: cloudflare-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-durable-objects-openapi.yml
-- filename: cloudflare-vectorize-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-domains-api-openapi.yml
+- filename: cloudflare-gateways-api-openapi.yml
   format: yaml
-  label: Cloudflare Vectorize API
-  slug: cloudflare-vectorize-api
+  label: Cloudflare Gateways API
+  slug: cloudflare-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-vectorize-openapi.yml
-- filename: cloudflare-pages-openapi.yml
-  format: yaml
-  label: Cloudflare Pages API
-  slug: cloudflare-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-pages-openapi.yml
-- filename: cloudflare-stream-openapi.yml
-  format: yaml
-  label: Cloudflare Stream API
-  slug: cloudflare-stream-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-stream-openapi.yml
-- filename: cloudflare-images-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-gateways-api-openapi.yml
+- filename: cloudflare-images-api-openapi.yml
   format: yaml
   label: Cloudflare Images API
   slug: cloudflare-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-images-openapi.yml
-- filename: cloudflare-turnstile-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-images-api-openapi.yml
+- filename: cloudflare-import-export-api-openapi.yml
   format: yaml
-  label: Cloudflare Turnstile API
-  slug: cloudflare-turnstile-api
+  label: Cloudflare Import/Export API
+  slug: cloudflare-import-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-turnstile-openapi.yml
-- filename: cloudflare-logpush-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-import-export-api-openapi.yml
+- filename: cloudflare-indexes-api-openapi.yml
   format: yaml
-  label: Cloudflare Logpush API
-  slug: cloudflare-logpush-api
+  label: Cloudflare Indexes API
+  slug: cloudflare-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-logpush-openapi.yml
-- filename: cloudflare-hyperdrive-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-indexes-api-openapi.yml
+- filename: cloudflare-ips-api-openapi.yml
   format: yaml
-  label: Cloudflare Hyperdrive API
-  slug: cloudflare-hyperdrive-api
+  label: Cloudflare Ips API
+  slug: cloudflare-ips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-hyperdrive-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-ips-api-openapi.yml
+- filename: cloudflare-key-value-pairs-api-openapi.yml
+  format: yaml
+  label: Cloudflare Key-Value Pairs API
+  slug: cloudflare-key-value-pairs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-key-value-pairs-api-openapi.yml
+- filename: cloudflare-keys-api-openapi.yml
+  format: yaml
+  label: Cloudflare Keys API
+  slug: cloudflare-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-keys-api-openapi.yml
+- filename: cloudflare-live-inputs-api-openapi.yml
+  format: yaml
+  label: Cloudflare Live Inputs API
+  slug: cloudflare-live-inputs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-live-inputs-api-openapi.yml
+- filename: cloudflare-logpush-jobs-api-openapi.yml
+  format: yaml
+  label: Cloudflare Logpush Jobs API
+  slug: cloudflare-logpush-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-logpush-jobs-api-openapi.yml
+- filename: cloudflare-logs-api-openapi.yml
+  format: yaml
+  label: Cloudflare Logs API
+  slug: cloudflare-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-logs-api-openapi.yml
+- filename: cloudflare-memberships-api-openapi.yml
+  format: yaml
+  label: Cloudflare Memberships API
+  slug: cloudflare-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-memberships-api-openapi.yml
+- filename: cloudflare-messages-api-openapi.yml
+  format: yaml
+  label: Cloudflare Messages API
+  slug: cloudflare-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-messages-api-openapi.yml
+- filename: cloudflare-metadata-api-openapi.yml
+  format: yaml
+  label: Cloudflare Metadata API
+  slug: cloudflare-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-metadata-api-openapi.yml
+- filename: cloudflare-namespaces-api-openapi.yml
+  format: yaml
+  label: Cloudflare Namespaces API
+  slug: cloudflare-namespaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-namespaces-api-openapi.yml
+- filename: cloudflare-objects-api-openapi.yml
+  format: yaml
+  label: Cloudflare Objects API
+  slug: cloudflare-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-objects-api-openapi.yml
+- filename: cloudflare-openai-compatible-api-openapi.yml
+  format: yaml
+  label: Cloudflare OpenAI Compatible API
+  slug: cloudflare-openai-compatible-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-openai-compatible-api-openapi.yml
+- filename: cloudflare-organizations-api-openapi.yml
+  format: yaml
+  label: Cloudflare Organizations API
+  slug: cloudflare-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-organizations-api-openapi.yml
+- filename: cloudflare-ownership-api-openapi.yml
+  format: yaml
+  label: Cloudflare Ownership API
+  slug: cloudflare-ownership-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-ownership-api-openapi.yml
+- filename: cloudflare-projects-api-openapi.yml
+  format: yaml
+  label: Cloudflare Projects API
+  slug: cloudflare-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-projects-api-openapi.yml
+- filename: cloudflare-purge-api-openapi.yml
+  format: yaml
+  label: Cloudflare Purge API
+  slug: cloudflare-purge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-purge-api-openapi.yml
+- filename: cloudflare-queries-api-openapi.yml
+  format: yaml
+  label: Cloudflare Queries API
+  slug: cloudflare-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-queries-api-openapi.yml
+- filename: cloudflare-queues-api-openapi.yml
+  format: yaml
+  label: Cloudflare Queues API
+  slug: cloudflare-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-queues-api-openapi.yml
+- filename: cloudflare-radar-api-openapi.yml
+  format: yaml
+  label: Cloudflare Radar API
+  slug: cloudflare-radar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-radar-api-openapi.yml
+- filename: cloudflare-routes-api-openapi.yml
+  format: yaml
+  label: Cloudflare Routes API
+  slug: cloudflare-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-routes-api-openapi.yml
+- filename: cloudflare-scripts-api-openapi.yml
+  format: yaml
+  label: Cloudflare Scripts API
+  slug: cloudflare-scripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-scripts-api-openapi.yml
+- filename: cloudflare-secrets-api-openapi.yml
+  format: yaml
+  label: Cloudflare Secrets API
+  slug: cloudflare-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-secrets-api-openapi.yml
+- filename: cloudflare-signing-keys-api-openapi.yml
+  format: yaml
+  label: Cloudflare Signing Keys API
+  slug: cloudflare-signing-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-signing-keys-api-openapi.yml
+- filename: cloudflare-time-travel-api-openapi.yml
+  format: yaml
+  label: Cloudflare Time Travel API
+  slug: cloudflare-time-travel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-time-travel-api-openapi.yml
+- filename: cloudflare-user-api-openapi.yml
+  format: yaml
+  label: Cloudflare User API
+  slug: cloudflare-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-user-api-openapi.yml
+- filename: cloudflare-variants-api-openapi.yml
+  format: yaml
+  label: Cloudflare Variants API
+  slug: cloudflare-variants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-variants-api-openapi.yml
+- filename: cloudflare-vectors-api-openapi.yml
+  format: yaml
+  label: Cloudflare Vectors API
+  slug: cloudflare-vectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-vectors-api-openapi.yml
+- filename: cloudflare-verification-api-openapi.yml
+  format: yaml
+  label: Cloudflare Verification API
+  slug: cloudflare-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-verification-api-openapi.yml
+- filename: cloudflare-versions-api-openapi.yml
+  format: yaml
+  label: Cloudflare Versions API
+  slug: cloudflare-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-versions-api-openapi.yml
+- filename: cloudflare-videos-api-openapi.yml
+  format: yaml
+  label: Cloudflare Videos API
+  slug: cloudflare-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-videos-api-openapi.yml
+- filename: cloudflare-webhooks-api-openapi.yml
+  format: yaml
+  label: Cloudflare Webhooks API
+  slug: cloudflare-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-webhooks-api-openapi.yml
+- filename: cloudflare-widgets-api-openapi.yml
+  format: yaml
+  label: Cloudflare Widgets API
+  slug: cloudflare-widgets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-widgets-api-openapi.yml
+- filename: cloudflare-workers-api-openapi.yml
+  format: yaml
+  label: Cloudflare Workers API
+  slug: cloudflare-workers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-workers-api-openapi.yml
+- filename: cloudflare-zones-api-openapi.yml
+  format: yaml
+  label: Cloudflare Zones API
+  slug: cloudflare-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-zones-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: codesignal-learn-openapi.json
-  format: json
-  label: CodeSignal Learn Public API
-  slug: codesignal-learn-public-api
+- filename: codesignal-organization-api-openapi.yml
+  format: yaml
+  label: Codesignal Organization API
+  slug: codesignal-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesignal/refs/heads/main/openapi/codesignal-learn-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/codesignal/refs/heads/main/openapi/codesignal-organization-api-openapi.yml
 certifications: []
 description: CodeSignal operates a public Trust Center at trust.codesignal.com (returns HTTP 200, titled "CodeSignal Trust Center"). The portal is a client-rendered application; specific certification names could not be extracted verbatim from the static response, so none are asserted here. No Compliance pointer is emitted until named certifications are verified.
 kind: trust-center

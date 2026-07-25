@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: checkmate-openstock-openapi-original.json
-  format: json
-  label: OpenStock API
-  slug: openstock-api
+- filename: checkmate-health-api-openapi.yml
+  format: yaml
+  label: Checkmate Health API
+  slug: checkmate-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/openapi/checkmate-openstock-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/openapi/checkmate-health-api-openapi.yml
+- filename: checkmate-merchants-api-openapi.yml
+  format: yaml
+  label: Checkmate Merchants API
+  slug: checkmate-merchants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/openapi/checkmate-merchants-api-openapi.yml
+- filename: checkmate-shoppers-api-openapi.yml
+  format: yaml
+  label: Checkmate Shoppers API
+  slug: checkmate-shoppers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/openapi/checkmate-shoppers-api-openapi.yml
 auth_types:
 - http
 description: ''

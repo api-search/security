@@ -1,23 +1,83 @@
 ---
 api_specs:
-- filename: data-retrieval-api.json
-  format: json
-  label: CO-OPS Data Retrieval API
-  slug: co-ops-data-retrieval-api
+- filename: noaa-co-ops-benchmarks-api-openapi.yml
+  format: yaml
+  label: NOAA CO-OPS Benchmarks API
+  slug: noaa-co-ops-benchmarks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/data-retrieval-api.json
-- filename: metadata-api.json
-  format: json
-  label: CO-OPS Metadata API
-  slug: co-ops-metadata-api
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-benchmarks-api-openapi.yml
+- filename: noaa-co-ops-datagetter-api-openapi.yml
+  format: yaml
+  label: NOAA CO-OPS Datagetter API
+  slug: noaa-co-ops-datagetter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/metadata-api.json
-- filename: derived-product-api.json
-  format: json
-  label: CO-OPS Derived Product API
-  slug: co-ops-derived-product-api
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-datagetter-api-openapi.yml
+- filename: noaa-co-ops-extremewaterlevels-api-openapi.yml
+  format: yaml
+  label: NOAA CO-OPS Extremewaterlevels API
+  slug: noaa-co-ops-extremewaterlevels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/derived-product-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-extremewaterlevels-api-openapi.yml
+- filename: noaa-co-ops-htf-annual-api-openapi.yml
+  format: yaml
+  label: NOAA CO-OPS Htf Annual API
+  slug: noaa-co-ops-htf-annual-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-htf-annual-api-openapi.yml
+- filename: noaa-co-ops-htf-monthly-api-openapi.yml
+  format: yaml
+  label: NOAA CO-OPS Htf Monthly API
+  slug: noaa-co-ops-htf-monthly-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-htf-monthly-api-openapi.yml
+- filename: noaa-co-ops-htf-projection-decadal-api-openapi.yml
+  format: yaml
+  label: NOAA CO-OPS Htf Projection Decadal API
+  slug: noaa-co-ops-htf-projection-decadal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-htf-projection-decadal-api-openapi.yml
+- filename: noaa-co-ops-peakwaterlevels-api-openapi.yml
+  format: yaml
+  label: NOAA CO-OPS Peakwaterlevels API
+  slug: noaa-co-ops-peakwaterlevels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-peakwaterlevels-api-openapi.yml
+- filename: noaa-co-ops-ports-json-api-openapi.yml
+  format: yaml
+  label: NOAA CO-OPS Ports.json API
+  slug: noaa-co-ops-ports-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-ports-json-api-openapi.yml
+- filename: noaa-co-ops-sealvltrends-api-openapi.yml
+  format: yaml
+  label: NOAA CO-OPS Sealvltrends API
+  slug: noaa-co-ops-sealvltrends-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-sealvltrends-api-openapi.yml
+- filename: noaa-co-ops-slr-projections-api-openapi.yml
+  format: yaml
+  label: NOAA CO-OPS Slr Projections API
+  slug: noaa-co-ops-slr-projections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-slr-projections-api-openapi.yml
+- filename: noaa-co-ops-stations-api-openapi.yml
+  format: yaml
+  label: NOAA CO-OPS Stations API
+  slug: noaa-co-ops-stations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-stations-api-openapi.yml
+- filename: noaa-co-ops-stations-json-api-openapi.yml
+  format: yaml
+  label: NOAA CO-OPS Stations.json API
+  slug: noaa-co-ops-stations-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-stations-json-api-openapi.yml
+- filename: noaa-co-ops-toptenwaterlevels-api-openapi.yml
+  format: yaml
+  label: NOAA CO-OPS Toptenwaterlevels API
+  slug: noaa-co-ops-toptenwaterlevels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-toptenwaterlevels-api-openapi.yml
 description: ''
 domains:
 - caa:

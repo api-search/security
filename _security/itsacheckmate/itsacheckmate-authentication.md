@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: itsacheckmate-marketplace-api.yml
+- filename: itsacheckmate-locations-api-openapi.yml
   format: yaml
-  label: Marketplace for Developers API
-  slug: rest-api
+  label: ItsaCheckmate Locations API
+  slug: itsacheckmate-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/openapi/itsacheckmate-marketplace-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/openapi/itsacheckmate-locations-api-openapi.yml
+- filename: itsacheckmate-menus-api-openapi.yml
+  format: yaml
+  label: ItsaCheckmate Menus API
+  slug: itsacheckmate-menus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/openapi/itsacheckmate-menus-api-openapi.yml
+- filename: itsacheckmate-oauth-api-openapi.yml
+  format: yaml
+  label: ItsaCheckmate OAuth API
+  slug: itsacheckmate-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/openapi/itsacheckmate-oauth-api-openapi.yml
+- filename: itsacheckmate-orders-api-openapi.yml
+  format: yaml
+  label: ItsaCheckmate Orders API
+  slug: itsacheckmate-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/openapi/itsacheckmate-orders-api-openapi.yml
 auth_types:
 - http
 description: ''

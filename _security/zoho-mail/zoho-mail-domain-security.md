@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: openapi-specification.html
+- filename: zoho-mail-accounts-api-openapi.yml
   format: yaml
-  label: Zoho Mail API
-  slug: zoho-mail-api
+  label: Zoho Mail Accounts API
+  slug: zoho-mail-accounts-api
   spec_type: OpenAPI
-  url: https://prezohoweb.zoho.com/mail/help/api/openapi-specification.html
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/openapi/zoho-mail-accounts-api-openapi.yml
+- filename: zoho-mail-folders-api-openapi.yml
+  format: yaml
+  label: Zoho Mail Folders API
+  slug: zoho-mail-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/openapi/zoho-mail-folders-api-openapi.yml
+- filename: zoho-mail-messages-api-openapi.yml
+  format: yaml
+  label: Zoho Mail Messages API
+  slug: zoho-mail-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/openapi/zoho-mail-messages-api-openapi.yml
+- filename: zoho-mail-organization-api-openapi.yml
+  format: yaml
+  label: Zoho Mail Organization API
+  slug: zoho-mail-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/openapi/zoho-mail-organization-api-openapi.yml
 description: ''
 domains:
 - caa:

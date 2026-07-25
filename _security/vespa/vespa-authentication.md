@@ -1,5 +1,18 @@
 ---
 api_key_in: []
+api_specs:
+- filename: vespa-documents-api-openapi.yml
+  format: yaml
+  label: Vespa Documents API
+  slug: vespa-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vespa/refs/heads/main/openapi/vespa-documents-api-openapi.yml
+- filename: vespa-visit-api-openapi.yml
+  format: yaml
+  label: Vespa Visit API
+  slug: vespa-visit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vespa/refs/heads/main/openapi/vespa-visit-api-openapi.yml
 auth_types:
 - mutualTLS
 description: ''

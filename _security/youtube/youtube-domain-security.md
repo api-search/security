@@ -1,101 +1,149 @@
 ---
 api_specs:
-- filename: youtube-data-api-openapi.yml
+- filename: youtube-analytics-groups-api-openapi.yml
   format: yaml
-  label: Youtube Activities API
-  slug: youtube-activities-api
+  label: Youtube Analytics Groups API
+  slug: youtube-analytics-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
-- filename: youtube-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-analytics-groups-api-openapi.yml
+- filename: youtube-analytics-reports-api-openapi.yml
   format: yaml
-  label: Youtube Channels API
-  slug: youtube-channels-api
+  label: Youtube Analytics Reports API
+  slug: youtube-analytics-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
-- filename: youtube-data-api-openapi.yml
-  format: yaml
-  label: Youtube Comments API
-  slug: youtube-comments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
-- filename: youtube-data-api-openapi.yml
-  format: yaml
-  label: Youtube Comment Threads API
-  slug: youtube-comment-threads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
-- filename: youtube-data-api-openapi.yml
-  format: yaml
-  label: Youtube Playlists API
-  slug: youtube-playlists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
-- filename: youtube-data-api-openapi.yml
-  format: yaml
-  label: Youtube Playlist Items API
-  slug: youtube-playlist-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
-- filename: youtube-data-api-openapi.yml
-  format: yaml
-  label: Youtube Search API
-  slug: youtube-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
-- filename: youtube-data-api-openapi.yml
-  format: yaml
-  label: Youtube Subscriptions API
-  slug: youtube-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
-- filename: youtube-data-api-openapi.yml
-  format: yaml
-  label: Youtube Videos API
-  slug: youtube-videos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
-- filename: youtube-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-analytics-reports-api-openapi.yml
+- filename: youtube-captions-api-openapi.yml
   format: yaml
   label: Youtube Captions API
   slug: youtube-captions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
-- filename: youtube-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-captions-api-openapi.yml
+- filename: youtube-channels-api-openapi.yml
   format: yaml
-  label: Youtube Video Categories API
-  slug: youtube-video-categories-api
+  label: Youtube Channels API
+  slug: youtube-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
-- filename: youtube-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-channels-api-openapi.yml
+- filename: youtube-comments-api-openapi.yml
   format: yaml
-  label: Youtube I18n Languages API
-  slug: youtube-i18n-languages-api
+  label: Youtube Comments API
+  slug: youtube-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
-- filename: youtube-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-comments-api-openapi.yml
+- filename: youtube-commentthreads-api-openapi.yml
   format: yaml
-  label: Youtube I18n Regions API
-  slug: youtube-i18n-regions-api
+  label: Youtube CommentThreads API
+  slug: youtube-commentthreads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
-- filename: youtube-analytics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-commentthreads-api-openapi.yml
+- filename: youtube-group-items-api-openapi.yml
   format: yaml
-  label: YouTube Analytics API
-  slug: youtube-analytics-api
+  label: Youtube Group Items API
+  slug: youtube-group-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-analytics-openapi.yml
-- filename: youtube-reporting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-group-items-api-openapi.yml
+- filename: youtube-groupitems-api-openapi.yml
   format: yaml
-  label: YouTube Reporting API
-  slug: youtube-reporting-api
+  label: Youtube GroupItems API
+  slug: youtube-groupitems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-reporting-openapi.yml
-- filename: youtube-live-streaming-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-groupitems-api-openapi.yml
+- filename: youtube-groups-api-openapi.yml
   format: yaml
-  label: YouTube Live Streaming API
-  slug: youtube-live-streaming-api
+  label: Youtube Groups API
+  slug: youtube-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-live-streaming-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-groups-api-openapi.yml
+- filename: youtube-i18n-api-openapi.yml
+  format: yaml
+  label: Youtube I18n API
+  slug: youtube-i18n-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-i18n-api-openapi.yml
+- filename: youtube-jobs-api-openapi.yml
+  format: yaml
+  label: Youtube Jobs API
+  slug: youtube-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-jobs-api-openapi.yml
+- filename: youtube-livebroadcasts-api-openapi.yml
+  format: yaml
+  label: Youtube LiveBroadcasts API
+  slug: youtube-livebroadcasts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-livebroadcasts-api-openapi.yml
+- filename: youtube-livechatmessages-api-openapi.yml
+  format: yaml
+  label: Youtube LiveChatMessages API
+  slug: youtube-livechatmessages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-livechatmessages-api-openapi.yml
+- filename: youtube-livechatmoderators-api-openapi.yml
+  format: yaml
+  label: Youtube LiveChatModerators API
+  slug: youtube-livechatmoderators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-livechatmoderators-api-openapi.yml
+- filename: youtube-livestreams-api-openapi.yml
+  format: yaml
+  label: Youtube LiveStreams API
+  slug: youtube-livestreams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-livestreams-api-openapi.yml
+- filename: youtube-playlist-items-api-openapi.yml
+  format: yaml
+  label: Youtube Playlist Items API
+  slug: youtube-playlist-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-playlist-items-api-openapi.yml
+- filename: youtube-playlistitems-api-openapi.yml
+  format: yaml
+  label: Youtube PlaylistItems API
+  slug: youtube-playlistitems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-playlistitems-api-openapi.yml
+- filename: youtube-playlists-api-openapi.yml
+  format: yaml
+  label: Youtube Playlists API
+  slug: youtube-playlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-playlists-api-openapi.yml
+- filename: youtube-reports-api-openapi.yml
+  format: yaml
+  label: Youtube Reports API
+  slug: youtube-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-reports-api-openapi.yml
+- filename: youtube-reporttypes-api-openapi.yml
+  format: yaml
+  label: Youtube ReportTypes API
+  slug: youtube-reporttypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-reporttypes-api-openapi.yml
+- filename: youtube-search-api-openapi.yml
+  format: yaml
+  label: Youtube Search API
+  slug: youtube-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-search-api-openapi.yml
+- filename: youtube-subscriptions-api-openapi.yml
+  format: yaml
+  label: Youtube Subscriptions API
+  slug: youtube-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-subscriptions-api-openapi.yml
+- filename: youtube-videocategories-api-openapi.yml
+  format: yaml
+  label: Youtube VideoCategories API
+  slug: youtube-videocategories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-videocategories-api-openapi.yml
+- filename: youtube-videos-api-openapi.yml
+  format: yaml
+  label: Youtube Videos API
+  slug: youtube-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-videos-api-openapi.yml
 description: ''
 domains:
 - caa:

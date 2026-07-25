@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: tooljet-tooljet-external-api-openapi.yml
+- filename: tooljet-applications-api-openapi.yml
   format: yaml
-  label: ToolJet External API
-  slug: tooljet-external-api
+  label: ToolJet Applications API
+  slug: tooljet-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/openapi/tooljet-tooljet-external-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/openapi/tooljet-applications-api-openapi.yml
+- filename: tooljet-groups-api-openapi.yml
+  format: yaml
+  label: ToolJet Groups API
+  slug: tooljet-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/openapi/tooljet-groups-api-openapi.yml
+- filename: tooljet-users-api-openapi.yml
+  format: yaml
+  label: ToolJet Users API
+  slug: tooljet-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/openapi/tooljet-users-api-openapi.yml
+- filename: tooljet-workspaces-api-openapi.yml
+  format: yaml
+  label: ToolJet Workspaces API
+  slug: tooljet-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/openapi/tooljet-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: amazon-healthimaging-openapi.yaml
+- filename: amazon-healthimaging-datastore-api-openapi.yml
   format: yaml
-  label: AWS HealthImaging API
-  slug: aws-healthimaging-api
+  label: Amazon HealthImaging Datastore API
+  slug: amazon-healthimaging-datastore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/openapi/amazon-healthimaging-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/openapi/amazon-healthimaging-datastore-api-openapi.yml
+- filename: amazon-healthimaging-getdicomimportjob-api-openapi.yml
+  format: yaml
+  label: Amazon HealthImaging GetDICOMImportJob API
+  slug: amazon-healthimaging-getdicomimportjob-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/openapi/amazon-healthimaging-getdicomimportjob-api-openapi.yml
+- filename: amazon-healthimaging-listdicomimportjobs-api-openapi.yml
+  format: yaml
+  label: Amazon HealthImaging ListDICOMImportJobs API
+  slug: amazon-healthimaging-listdicomimportjobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/openapi/amazon-healthimaging-listdicomimportjobs-api-openapi.yml
+- filename: amazon-healthimaging-startdicomimportjob-api-openapi.yml
+  format: yaml
+  label: Amazon HealthImaging StartDICOMImportJob API
+  slug: amazon-healthimaging-startdicomimportjob-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/openapi/amazon-healthimaging-startdicomimportjob-api-openapi.yml
+- filename: amazon-healthimaging-tags-api-openapi.yml
+  format: yaml
+  label: Amazon HealthImaging Tags API
+  slug: amazon-healthimaging-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/openapi/amazon-healthimaging-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

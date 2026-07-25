@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: uber-eats-openapi.yml
+- filename: uber-eats-customers-api-openapi.yml
   format: yaml
-  label: Uber Eats Store API
-  slug: store-api
+  label: Uber Eats Customers API
+  slug: uber-eats-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber-eats/refs/heads/main/openapi/uber-eats-openapi.yml
-- filename: uber-direct-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uber-eats/refs/heads/main/openapi/uber-eats-customers-api-openapi.yml
+- filename: uber-eats-eats-api-openapi.yml
   format: yaml
-  label: Uber Direct (Deliveries) API
-  slug: uber-direct
+  label: Uber Eats Eats API
+  slug: uber-eats-eats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber-eats/refs/heads/main/openapi/uber-direct-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uber-eats/refs/heads/main/openapi/uber-eats-eats-api-openapi.yml
 description: ''
 domains:
 - caa: []

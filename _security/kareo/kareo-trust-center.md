@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: kareo-soap-api-openapi.yml
+- filename: kareo-administrative-api-openapi.yml
   format: yaml
-  label: Kareo Integration SOAP API
-  slug: kareo-soap-api
+  label: Kareo Administrative API
+  slug: kareo-administrative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/openapi/kareo-soap-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/openapi/kareo-administrative-api-openapi.yml
+- filename: kareo-appointments-api-openapi.yml
+  format: yaml
+  label: Kareo Appointments API
+  slug: kareo-appointments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/openapi/kareo-appointments-api-openapi.yml
+- filename: kareo-billing-api-openapi.yml
+  format: yaml
+  label: Kareo Billing API
+  slug: kareo-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/openapi/kareo-billing-api-openapi.yml
+- filename: kareo-encounters-api-openapi.yml
+  format: yaml
+  label: Kareo Encounters API
+  slug: kareo-encounters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/openapi/kareo-encounters-api-openapi.yml
+- filename: kareo-patients-api-openapi.yml
+  format: yaml
+  label: Kareo Patients API
+  slug: kareo-patients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/openapi/kareo-patients-api-openapi.yml
+- filename: kareo-providers-api-openapi.yml
+  format: yaml
+  label: Kareo Providers API
+  slug: kareo-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/openapi/kareo-providers-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

@@ -1,24 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: litmus-instant-openapi.yml
+- filename: litmus-analytics-api-openapi.yml
   format: yaml
-  label: Litmus Instant API
-  slug: litmus-instant-api
+  label: Litmus Analytics API
+  slug: litmus-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/openapi/litmus-instant-openapi.yml
-- filename: litmus-legacy-previews-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/openapi/litmus-analytics-api-openapi.yml
+- filename: litmus-campaigns-api-openapi.yml
   format: yaml
-  label: Litmus Legacy Previews API
-  slug: litmus-legacy-previews-api
+  label: Litmus Campaigns API
+  slug: litmus-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/openapi/litmus-legacy-previews-openapi.yml
-- filename: litmus-email-analytics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/openapi/litmus-campaigns-api-openapi.yml
+- filename: litmus-clients-api-openapi.yml
   format: yaml
-  label: Litmus Email Analytics API
-  slug: litmus-email-analytics-api
+  label: Litmus Clients API
+  slug: litmus-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/openapi/litmus-email-analytics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/openapi/litmus-clients-api-openapi.yml
+- filename: litmus-previews-api-openapi.yml
+  format: yaml
+  label: Litmus Previews API
+  slug: litmus-previews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/openapi/litmus-previews-api-openapi.yml
+- filename: litmus-results-api-openapi.yml
+  format: yaml
+  label: Litmus Results API
+  slug: litmus-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/openapi/litmus-results-api-openapi.yml
+- filename: litmus-tests-api-openapi.yml
+  format: yaml
+  label: Litmus Tests API
+  slug: litmus-tests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/openapi/litmus-tests-api-openapi.yml
 auth_types:
 - http
 description: ''

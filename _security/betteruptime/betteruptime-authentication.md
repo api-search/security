@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: betteruptime-uptime-api-openapi.yml
+- filename: betteruptime-heartbeats-api-openapi.yml
   format: yaml
-  label: Better Stack Uptime API
-  slug: uptime-api
+  label: Better Uptime Heartbeats API
+  slug: betteruptime-heartbeats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/openapi/betteruptime-uptime-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/openapi/betteruptime-heartbeats-api-openapi.yml
+- filename: betteruptime-incidents-api-openapi.yml
+  format: yaml
+  label: Better Uptime Incidents API
+  slug: betteruptime-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/openapi/betteruptime-incidents-api-openapi.yml
+- filename: betteruptime-monitors-api-openapi.yml
+  format: yaml
+  label: Better Uptime Monitors API
+  slug: betteruptime-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/openapi/betteruptime-monitors-api-openapi.yml
+- filename: betteruptime-status-pages-api-openapi.yml
+  format: yaml
+  label: Better Uptime Status Pages API
+  slug: betteruptime-status-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/openapi/betteruptime-status-pages-api-openapi.yml
 auth_types:
 - http
 description: ''

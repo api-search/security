@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: bank-of-america-cashpro-api-openapi.yml
+- filename: bank-of-america-accounts-api-openapi.yml
   format: yaml
-  label: Bank of America CashPro API
-  slug: cashpro-api
+  label: Bank of America Accounts API
+  slug: bank-of-america-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/openapi/bank-of-america-cashpro-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/openapi/bank-of-america-accounts-api-openapi.yml
+- filename: bank-of-america-balances-api-openapi.yml
+  format: yaml
+  label: Bank of America Balances API
+  slug: bank-of-america-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/openapi/bank-of-america-balances-api-openapi.yml
+- filename: bank-of-america-banking-api-openapi.yml
+  format: yaml
+  label: Bank of America Banking API
+  slug: bank-of-america-banking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/openapi/bank-of-america-banking-api-openapi.yml
+- filename: bank-of-america-payments-api-openapi.yml
+  format: yaml
+  label: Bank of America Payments API
+  slug: bank-of-america-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/openapi/bank-of-america-payments-api-openapi.yml
+- filename: bank-of-america-statements-api-openapi.yml
+  format: yaml
+  label: Bank of America Statements API
+  slug: bank-of-america-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/openapi/bank-of-america-statements-api-openapi.yml
+- filename: bank-of-america-transactions-api-openapi.yml
+  format: yaml
+  label: Bank of America Transactions API
+  slug: bank-of-america-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/openapi/bank-of-america-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:

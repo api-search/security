@@ -1,54 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ecobee-openapi.yml
-  format: yaml
-  label: ecobee Thermostat API
-  slug: ecobee-thermostat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecobee/refs/heads/main/openapi/ecobee-openapi.yml
-- filename: ecobee-openapi.yml
-  format: yaml
-  label: ecobee Thermostat Update and Functions API
-  slug: ecobee-thermostat-update-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecobee/refs/heads/main/openapi/ecobee-openapi.yml
-- filename: ecobee-openapi.yml
-  format: yaml
-  label: ecobee Runtime Report API
-  slug: ecobee-runtime-report-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecobee/refs/heads/main/openapi/ecobee-openapi.yml
-- filename: ecobee-openapi.yml
-  format: yaml
-  label: ecobee Group API
-  slug: ecobee-group-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecobee/refs/heads/main/openapi/ecobee-openapi.yml
-- filename: ecobee-openapi.yml
-  format: yaml
-  label: ecobee Demand Response API
-  slug: ecobee-demand-response-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecobee/refs/heads/main/openapi/ecobee-openapi.yml
-- filename: ecobee-openapi.yml
-  format: yaml
-  label: ecobee Hierarchy API
-  slug: ecobee-hierarchy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecobee/refs/heads/main/openapi/ecobee-openapi.yml
-- filename: ecobee-openapi.yml
-  format: yaml
-  label: ecobee Meter Report API
-  slug: ecobee-meter-report-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecobee/refs/heads/main/openapi/ecobee-openapi.yml
-- filename: ecobee-openapi.yml
+- filename: ecobee-authorization-api-openapi.yml
   format: yaml
   label: ecobee Authorization API
   slug: ecobee-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecobee/refs/heads/main/openapi/ecobee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ecobee/refs/heads/main/openapi/ecobee-authorization-api-openapi.yml
+- filename: ecobee-demand-response-api-openapi.yml
+  format: yaml
+  label: ecobee Demand Response API
+  slug: ecobee-demand-response-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ecobee/refs/heads/main/openapi/ecobee-demand-response-api-openapi.yml
+- filename: ecobee-group-api-openapi.yml
+  format: yaml
+  label: ecobee Group API
+  slug: ecobee-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ecobee/refs/heads/main/openapi/ecobee-group-api-openapi.yml
+- filename: ecobee-hierarchy-api-openapi.yml
+  format: yaml
+  label: ecobee Hierarchy API
+  slug: ecobee-hierarchy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ecobee/refs/heads/main/openapi/ecobee-hierarchy-api-openapi.yml
+- filename: ecobee-reports-api-openapi.yml
+  format: yaml
+  label: ecobee Reports API
+  slug: ecobee-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ecobee/refs/heads/main/openapi/ecobee-reports-api-openapi.yml
+- filename: ecobee-thermostat-api-openapi.yml
+  format: yaml
+  label: ecobee Thermostat API
+  slug: ecobee-thermostat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ecobee/refs/heads/main/openapi/ecobee-thermostat-api-openapi.yml
+- filename: ecobee-thermostat-update-api-openapi.yml
+  format: yaml
+  label: ecobee Thermostat Update API
+  slug: ecobee-thermostat-update-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ecobee/refs/heads/main/openapi/ecobee-thermostat-update-api-openapi.yml
 auth_types:
 - http
 description: ''

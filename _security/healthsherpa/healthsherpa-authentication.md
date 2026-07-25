@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: healthsherpa-one-openapi.json
-  format: json
-  label: HealthSherpa Public API (ONE)
-  slug: healthsherpa-public-api-one
+- filename: healthsherpa-enrollment-sessions-api-openapi.yml
+  format: yaml
+  label: HealthSherpa Enrollment Sessions API
+  slug: healthsherpa-enrollment-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/openapi/healthsherpa-one-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/openapi/healthsherpa-enrollment-sessions-api-openapi.yml
+- filename: healthsherpa-enrollments-api-openapi.yml
+  format: yaml
+  label: HealthSherpa Enrollments API
+  slug: healthsherpa-enrollments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/openapi/healthsherpa-enrollments-api-openapi.yml
+- filename: healthsherpa-quotes-api-openapi.yml
+  format: yaml
+  label: HealthSherpa Quotes API
+  slug: healthsherpa-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/openapi/healthsherpa-quotes-api-openapi.yml
+- filename: healthsherpa-reference-api-openapi.yml
+  format: yaml
+  label: HealthSherpa Reference API
+  slug: healthsherpa-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/openapi/healthsherpa-reference-api-openapi.yml
+- filename: healthsherpa-utility-api-openapi.yml
+  format: yaml
+  label: HealthSherpa Utility API
+  slug: healthsherpa-utility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/openapi/healthsherpa-utility-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

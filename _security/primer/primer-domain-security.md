@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: primer-payments-openapi.yml
+- filename: primer-client-session-api-api-openapi.yml
   format: yaml
-  label: Primer Payments API
-  slug: primer-payments-api
+  label: Primer Client Session API API
+  slug: primer-client-session-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/openapi/primer-payments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/openapi/primer-client-session-api-api-openapi.yml
+- filename: primer-dispute-chargebacks-webhooks-api-openapi.yml
+  format: yaml
+  label: Primer Dispute & Chargebacks Webhooks API
+  slug: primer-dispute-chargebacks-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/openapi/primer-dispute-chargebacks-webhooks-api-openapi.yml
+- filename: primer-payment-methods-api-api-openapi.yml
+  format: yaml
+  label: Primer Payment Methods API API
+  slug: primer-payment-methods-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/openapi/primer-payment-methods-api-api-openapi.yml
+- filename: primer-payment-webhooks-api-openapi.yml
+  format: yaml
+  label: Primer Payment Webhooks API
+  slug: primer-payment-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/openapi/primer-payment-webhooks-api-openapi.yml
+- filename: primer-payments-api-api-openapi.yml
+  format: yaml
+  label: Primer Payments API API
+  slug: primer-payments-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/openapi/primer-payments-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

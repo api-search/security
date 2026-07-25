@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: timeular-early-openapi.yml
+- filename: timeular-activities-api-openapi.yml
   format: yaml
-  label: EARLY (Timeular) Public API
-  slug: early-timeular-public-api
+  label: Timeular Activities API
+  slug: timeular-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-early-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-activities-api-openapi.yml
+- filename: timeular-authentication-api-openapi.yml
+  format: yaml
+  label: Timeular Authentication API
+  slug: timeular-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-authentication-api-openapi.yml
+- filename: timeular-current-tracking-api-openapi.yml
+  format: yaml
+  label: Timeular Current Tracking API
+  slug: timeular-current-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-current-tracking-api-openapi.yml
+- filename: timeular-folders-api-openapi.yml
+  format: yaml
+  label: Timeular Folders API
+  slug: timeular-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-folders-api-openapi.yml
+- filename: timeular-leaves-api-openapi.yml
+  format: yaml
+  label: Timeular Leaves API
+  slug: timeular-leaves-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-leaves-api-openapi.yml
+- filename: timeular-members-api-openapi.yml
+  format: yaml
+  label: Timeular Members API
+  slug: timeular-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-members-api-openapi.yml
+- filename: timeular-reports-api-openapi.yml
+  format: yaml
+  label: Timeular Reports API
+  slug: timeular-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-reports-api-openapi.yml
+- filename: timeular-tags-mentions-api-openapi.yml
+  format: yaml
+  label: Timeular Tags & Mentions API
+  slug: timeular-tags-mentions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-tags-mentions-api-openapi.yml
+- filename: timeular-time-entries-api-openapi.yml
+  format: yaml
+  label: Timeular Time Entries API
+  slug: timeular-time-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-time-entries-api-openapi.yml
+- filename: timeular-users-api-openapi.yml
+  format: yaml
+  label: Timeular Users API
+  slug: timeular-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-users-api-openapi.yml
+- filename: timeular-webhooks-api-openapi.yml
+  format: yaml
+  label: Timeular Webhooks API
+  slug: timeular-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

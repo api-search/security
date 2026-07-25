@@ -1,11 +1,95 @@
 ---
 api_specs:
-- filename: salv-aml-openapi-original.yml
+- filename: salv-alert-api-openapi.yml
   format: yaml
-  label: Salv AML API
+  label: Salv alert API
+  slug: salv-alert-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salv/refs/heads/main/openapi/salv-alert-api-openapi.yml
+- filename: salv-alerts-api-openapi.yml
+  format: yaml
+  label: Salv alerts API
+  slug: salv-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salv/refs/heads/main/openapi/salv-alerts-api-openapi.yml
+- filename: salv-aml-api-openapi.yml
+  format: yaml
+  label: Salv aml API
   slug: salv-aml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salv/refs/heads/main/openapi/salv-aml-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/salv/refs/heads/main/openapi/salv-aml-api-openapi.yml
+- filename: salv-custom-list-record-api-openapi.yml
+  format: yaml
+  label: Salv custom-list-record API
+  slug: salv-custom-list-record-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salv/refs/heads/main/openapi/salv-custom-list-record-api-openapi.yml
+- filename: salv-custom-list-usable-field-public-api-openapi.yml
+  format: yaml
+  label: Salv custom-list-usable-field-public API
+  slug: salv-custom-list-usable-field-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salv/refs/heads/main/openapi/salv-custom-list-usable-field-public-api-openapi.yml
+- filename: salv-data-upload-api-openapi.yml
+  format: yaml
+  label: Salv data-upload API
+  slug: salv-data-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salv/refs/heads/main/openapi/salv-data-upload-api-openapi.yml
+- filename: salv-manual-alerts-api-openapi.yml
+  format: yaml
+  label: Salv manual-alerts API
+  slug: salv-manual-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salv/refs/heads/main/openapi/salv-manual-alerts-api-openapi.yml
+- filename: salv-monitoring-checks-api-openapi.yml
+  format: yaml
+  label: Salv monitoring-checks API
+  slug: salv-monitoring-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salv/refs/heads/main/openapi/salv-monitoring-checks-api-openapi.yml
+- filename: salv-note-api-openapi.yml
+  format: yaml
+  label: Salv note API
+  slug: salv-note-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salv/refs/heads/main/openapi/salv-note-api-openapi.yml
+- filename: salv-risk-api-openapi.yml
+  format: yaml
+  label: Salv risk API
+  slug: salv-risk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salv/refs/heads/main/openapi/salv-risk-api-openapi.yml
+- filename: salv-screening-alerts-api-openapi.yml
+  format: yaml
+  label: Salv screening-alerts API
+  slug: salv-screening-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salv/refs/heads/main/openapi/salv-screening-alerts-api-openapi.yml
+- filename: salv-screening-checks-api-openapi.yml
+  format: yaml
+  label: Salv screening-checks API
+  slug: salv-screening-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salv/refs/heads/main/openapi/salv-screening-checks-api-openapi.yml
+- filename: salv-screening-list-groups-api-openapi.yml
+  format: yaml
+  label: Salv screening-list-groups API
+  slug: salv-screening-list-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salv/refs/heads/main/openapi/salv-screening-list-groups-api-openapi.yml
+- filename: salv-screening-searches-api-openapi.yml
+  format: yaml
+  label: Salv screening-searches API
+  slug: salv-screening-searches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salv/refs/heads/main/openapi/salv-screening-searches-api-openapi.yml
+- filename: salv-unresolved-alerts-api-openapi.yml
+  format: yaml
+  label: Salv unresolved-alerts API
+  slug: salv-unresolved-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salv/refs/heads/main/openapi/salv-unresolved-alerts-api-openapi.yml
 description: ''
 domains:
 - caa:

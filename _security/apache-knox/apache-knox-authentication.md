@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: apache-knox-admin-api.yaml
+- filename: apache-knox-descriptors-api-openapi.yml
   format: yaml
-  label: Apache Knox Admin REST API
-  slug: admin-api
+  label: Apache Knox Descriptors API
+  slug: apache-knox-descriptors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-knox/refs/heads/main/openapi/apache-knox-admin-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-knox/refs/heads/main/openapi/apache-knox-descriptors-api-openapi.yml
+- filename: apache-knox-providers-api-openapi.yml
+  format: yaml
+  label: Apache Knox Providers API
+  slug: apache-knox-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-knox/refs/heads/main/openapi/apache-knox-providers-api-openapi.yml
+- filename: apache-knox-topologies-api-openapi.yml
+  format: yaml
+  label: Apache Knox Topologies API
+  slug: apache-knox-topologies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-knox/refs/heads/main/openapi/apache-knox-topologies-api-openapi.yml
 auth_types:
 - http
 description: ''

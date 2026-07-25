@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: sourcebot-public-openapi-original.json
-  format: json
-  label: Sourcebot Public API
-  slug: sourcebot-public-api
+- filename: sourcebot-enterprise-ee-api-openapi.yml
+  format: yaml
+  label: Sourcebot Enterprise (EE) API
+  slug: sourcebot-enterprise-ee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sourcebot/refs/heads/main/openapi/sourcebot-public-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/sourcebot/refs/heads/main/openapi/sourcebot-enterprise-ee-api-openapi.yml
+- filename: sourcebot-git-api-openapi.yml
+  format: yaml
+  label: Sourcebot Git API
+  slug: sourcebot-git-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sourcebot/refs/heads/main/openapi/sourcebot-git-api-openapi.yml
+- filename: sourcebot-repositories-api-openapi.yml
+  format: yaml
+  label: Sourcebot Repositories API
+  slug: sourcebot-repositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sourcebot/refs/heads/main/openapi/sourcebot-repositories-api-openapi.yml
+- filename: sourcebot-search-navigation-api-openapi.yml
+  format: yaml
+  label: Sourcebot Search & Navigation API
+  slug: sourcebot-search-navigation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sourcebot/refs/heads/main/openapi/sourcebot-search-navigation-api-openapi.yml
+- filename: sourcebot-system-api-openapi.yml
+  format: yaml
+  label: Sourcebot System API
+  slug: sourcebot-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sourcebot/refs/heads/main/openapi/sourcebot-system-api-openapi.yml
 description: ''
 domains:
 - caa: []

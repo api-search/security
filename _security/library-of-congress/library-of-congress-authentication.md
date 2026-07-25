@@ -2,24 +2,78 @@
 api_key_in:
 - query
 api_specs:
-- filename: library-of-congress-loc-gov-json-api-openapi.yml
+- filename: library-of-congress-bills-api-openapi.yml
   format: yaml
-  label: Library of Congress loc.gov JSON API
-  slug: loc-gov-json-api
+  label: Library of Congress Bills API
+  slug: library-of-congress-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/library-of-congress/refs/heads/main/openapi/library-of-congress-loc-gov-json-api-openapi.yml
-- filename: library-of-congress-chronicling-america-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/library-of-congress/refs/heads/main/openapi/library-of-congress-bills-api-openapi.yml
+- filename: library-of-congress-collections-api-openapi.yml
   format: yaml
-  label: Library of Congress Chronicling America API
-  slug: chronicling-america-api
+  label: Library of Congress Collections API
+  slug: library-of-congress-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/library-of-congress/refs/heads/main/openapi/library-of-congress-chronicling-america-api-openapi.yml
-- filename: library-of-congress-congress-gov-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/library-of-congress/refs/heads/main/openapi/library-of-congress-collections-api-openapi.yml
+- filename: library-of-congress-committees-api-openapi.yml
   format: yaml
-  label: Library of Congress Congress.gov API
-  slug: congress-gov-api
+  label: Library of Congress Committees API
+  slug: library-of-congress-committees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/library-of-congress/refs/heads/main/openapi/library-of-congress-congress-gov-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/library-of-congress/refs/heads/main/openapi/library-of-congress-committees-api-openapi.yml
+- filename: library-of-congress-congressional-record-api-openapi.yml
+  format: yaml
+  label: Library of Congress Congressional Record API
+  slug: library-of-congress-congressional-record-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/library-of-congress/refs/heads/main/openapi/library-of-congress-congressional-record-api-openapi.yml
+- filename: library-of-congress-issues-api-openapi.yml
+  format: yaml
+  label: Library of Congress Issues API
+  slug: library-of-congress-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/library-of-congress/refs/heads/main/openapi/library-of-congress-issues-api-openapi.yml
+- filename: library-of-congress-items-api-openapi.yml
+  format: yaml
+  label: Library of Congress Items API
+  slug: library-of-congress-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/library-of-congress/refs/heads/main/openapi/library-of-congress-items-api-openapi.yml
+- filename: library-of-congress-laws-api-openapi.yml
+  format: yaml
+  label: Library of Congress Laws API
+  slug: library-of-congress-laws-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/library-of-congress/refs/heads/main/openapi/library-of-congress-laws-api-openapi.yml
+- filename: library-of-congress-members-api-openapi.yml
+  format: yaml
+  label: Library of Congress Members API
+  slug: library-of-congress-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/library-of-congress/refs/heads/main/openapi/library-of-congress-members-api-openapi.yml
+- filename: library-of-congress-pages-api-openapi.yml
+  format: yaml
+  label: Library of Congress Pages API
+  slug: library-of-congress-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/library-of-congress/refs/heads/main/openapi/library-of-congress-pages-api-openapi.yml
+- filename: library-of-congress-resources-api-openapi.yml
+  format: yaml
+  label: Library of Congress Resources API
+  slug: library-of-congress-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/library-of-congress/refs/heads/main/openapi/library-of-congress-resources-api-openapi.yml
+- filename: library-of-congress-search-api-openapi.yml
+  format: yaml
+  label: Library of Congress Search API
+  slug: library-of-congress-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/library-of-congress/refs/heads/main/openapi/library-of-congress-search-api-openapi.yml
+- filename: library-of-congress-titles-api-openapi.yml
+  format: yaml
+  label: Library of Congress Titles API
+  slug: library-of-congress-titles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/library-of-congress/refs/heads/main/openapi/library-of-congress-titles-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

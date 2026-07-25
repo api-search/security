@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: warner-bros-discovery-content-partner-openapi.yml
+- filename: warner-bros-discovery-assets-api-openapi.yml
   format: yaml
-  label: Warner Bros. Discovery Content Partner API
-  slug: wbd-content-partner-api
+  label: Warner Bros. Discovery Assets API
+  slug: warner-bros-discovery-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/openapi/warner-bros-discovery-content-partner-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/openapi/warner-bros-discovery-assets-api-openapi.yml
+- filename: warner-bros-discovery-deliveries-api-openapi.yml
+  format: yaml
+  label: Warner Bros. Discovery Deliveries API
+  slug: warner-bros-discovery-deliveries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/openapi/warner-bros-discovery-deliveries-api-openapi.yml
+- filename: warner-bros-discovery-metadata-api-openapi.yml
+  format: yaml
+  label: Warner Bros. Discovery Metadata API
+  slug: warner-bros-discovery-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/openapi/warner-bros-discovery-metadata-api-openapi.yml
+- filename: warner-bros-discovery-status-api-openapi.yml
+  format: yaml
+  label: Warner Bros. Discovery Status API
+  slug: warner-bros-discovery-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/openapi/warner-bros-discovery-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

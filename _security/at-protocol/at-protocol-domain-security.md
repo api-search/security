@@ -1,17 +1,47 @@
 ---
 api_specs:
-- filename: at-protocol-openapi.yml
-  format: yaml
-  label: AT Protocol XRPC API
-  slug: atproto-xrpc
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/at-protocol/refs/heads/main/openapi/at-protocol-openapi.yml
 - filename: at-protocol-asyncapi.yml
   format: yaml
   label: AT Protocol Relay & Firehose
   slug: relay-firehose
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/at-protocol/refs/heads/main/asyncapi/at-protocol-asyncapi.yml
+- filename: at-protocol-actor-api-openapi.yml
+  format: yaml
+  label: AT Protocol Actor API
+  slug: at-protocol-actor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-protocol/refs/heads/main/openapi/at-protocol-actor-api-openapi.yml
+- filename: at-protocol-feed-api-openapi.yml
+  format: yaml
+  label: AT Protocol Feed API
+  slug: at-protocol-feed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-protocol/refs/heads/main/openapi/at-protocol-feed-api-openapi.yml
+- filename: at-protocol-graph-api-openapi.yml
+  format: yaml
+  label: AT Protocol Graph API
+  slug: at-protocol-graph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-protocol/refs/heads/main/openapi/at-protocol-graph-api-openapi.yml
+- filename: at-protocol-identity-api-openapi.yml
+  format: yaml
+  label: AT Protocol Identity API
+  slug: at-protocol-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-protocol/refs/heads/main/openapi/at-protocol-identity-api-openapi.yml
+- filename: at-protocol-repo-api-openapi.yml
+  format: yaml
+  label: AT Protocol Repo API
+  slug: at-protocol-repo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-protocol/refs/heads/main/openapi/at-protocol-repo-api-openapi.yml
+- filename: at-protocol-server-api-openapi.yml
+  format: yaml
+  label: AT Protocol Server API
+  slug: at-protocol-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-protocol/refs/heads/main/openapi/at-protocol-server-api-openapi.yml
 description: ''
 domains:
 - caa: []

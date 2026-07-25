@@ -1,24 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: poolside-ai-openapi.json
-  format: json
-  label: Poolside Chat Completions API
-  slug: poolside-chat-completions-api
+- filename: poolside-ai-chat-api-openapi.yml
+  format: yaml
+  label: Poolside chat API
+  slug: poolside-ai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/openapi/poolside-ai-openapi.json
-- filename: poolside-ai-openapi.json
-  format: json
-  label: Poolside Completions API (Legacy)
-  slug: poolside-completions-api
+  url: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/openapi/poolside-ai-chat-api-openapi.yml
+- filename: poolside-ai-models-api-openapi.yml
+  format: yaml
+  label: Poolside models API
+  slug: poolside-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/openapi/poolside-ai-openapi.json
-- filename: poolside-ai-openapi.json
-  format: json
-  label: Poolside Models API
-  slug: poolside-models-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/openapi/poolside-ai-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/openapi/poolside-ai-models-api-openapi.yml
 auth_types:
 - http
 description: ''

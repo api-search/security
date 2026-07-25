@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: spec
+- filename: libre-translate-misc-api-openapi.yml
   format: yaml
-  label: LibreTranslate API
-  slug: libre-translate-api
+  label: LibreTranslate misc API
+  slug: libre-translate-misc-api
   spec_type: OpenAPI
-  url: https://libretranslate.com/spec
+  url: https://raw.githubusercontent.com/api-evangelist/libre-translate/refs/heads/main/openapi/libre-translate-misc-api-openapi.yml
+- filename: libre-translate-translate-api-openapi.yml
+  format: yaml
+  label: LibreTranslate translate API
+  slug: libre-translate-translate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/libre-translate/refs/heads/main/openapi/libre-translate-translate-api-openapi.yml
 description: ''
 domains:
 - caa: []

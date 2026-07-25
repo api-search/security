@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: jupiter-ag-openapi.yml
+- filename: jupiter-ag-swap-api-openapi.yml
   format: yaml
   label: Jupiter Swap API
-  slug: swap-api
+  slug: jupiter-ag-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupiter-ag/refs/heads/main/openapi/jupiter-ag-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jupiter-ag/refs/heads/main/openapi/jupiter-ag-swap-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: userback-openapi.yml
+- filename: userback-feedback-api-openapi.yml
   format: yaml
-  label: Userback REST API
-  slug: rest-api
+  label: Userback Feedback API
+  slug: userback-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/userback/refs/heads/main/openapi/userback-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/userback/refs/heads/main/openapi/userback-feedback-api-openapi.yml
+- filename: userback-feedback-comments-api-openapi.yml
+  format: yaml
+  label: Userback Feedback Comments API
+  slug: userback-feedback-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/userback/refs/heads/main/openapi/userback-feedback-comments-api-openapi.yml
+- filename: userback-projects-api-openapi.yml
+  format: yaml
+  label: Userback Projects API
+  slug: userback-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/userback/refs/heads/main/openapi/userback-projects-api-openapi.yml
 auth_types:
 - http
 description: ''

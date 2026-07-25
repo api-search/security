@@ -1,53 +1,53 @@
 ---
 api_specs:
-- filename: viglink-link-check-openapi.yml
+- filename: viglink-account-api-openapi.yml
   format: yaml
-  label: Sovrn Commerce Link Check API
-  slug: link-check-api
+  label: VigLink (Sovrn Commerce) Account API
+  slug: viglink-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-link-check-openapi.yml
-- filename: viglink-bid-check-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-account-api-openapi.yml
+- filename: viglink-ai-orchestration-api-openapi.yml
   format: yaml
-  label: Sovrn Commerce Bid Check API
-  slug: bid-check-api
+  label: VigLink (Sovrn Commerce) Ai Orchestration API
+  slug: viglink-ai-orchestration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-bid-check-openapi.yml
-- filename: viglink-campaigns-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-ai-orchestration-api-openapi.yml
+- filename: viglink-bid-api-openapi.yml
   format: yaml
-  label: Sovrn Commerce Campaigns API
-  slug: campaigns-api
+  label: VigLink (Sovrn Commerce) Bid API
+  slug: viglink-bid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-campaigns-openapi.yml
-- filename: viglink-reports-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-bid-api-openapi.yml
+- filename: viglink-link-api-openapi.yml
   format: yaml
-  label: Sovrn Commerce Real-Time Reports API
-  slug: real-time-reports-api
+  label: VigLink (Sovrn Commerce) Link API
+  slug: viglink-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-reports-openapi.yml
-- filename: viglink-merchant-summaries-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-link-api-openapi.yml
+- filename: viglink-merchant-group-summaries-api-openapi.yml
   format: yaml
-  label: Sovrn Commerce Merchant Group Summaries API
-  slug: merchant-summaries-api
+  label: VigLink (Sovrn Commerce) Merchant Group Summaries API
+  slug: viglink-merchant-group-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-merchant-summaries-openapi.yml
-- filename: viglink-product-recommendations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-merchant-group-summaries-api-openapi.yml
+- filename: viglink-product-coupons-api-openapi.yml
   format: yaml
-  label: Sovrn Commerce Product Recommendations API
-  slug: product-recommendations-api
+  label: VigLink (Sovrn Commerce) Product Coupons API
+  slug: viglink-product-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-product-recommendations-openapi.yml
-- filename: viglink-product-promo-codes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-product-coupons-api-openapi.yml
+- filename: viglink-reports-api-openapi.yml
   format: yaml
-  label: Sovrn Commerce Product Promo Codes API
-  slug: product-promo-codes-api
+  label: VigLink (Sovrn Commerce) reports API
+  slug: viglink-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-product-promo-codes-openapi.yml
-- filename: viglink-price-comparisons-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-reports-api-openapi.yml
+- filename: viglink-sites-api-openapi.yml
   format: yaml
-  label: Sovrn Commerce Price Comparisons API
-  slug: price-comparisons-api
+  label: VigLink (Sovrn Commerce) Sites API
+  slug: viglink-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-price-comparisons-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-sites-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: saas-alerts-openapi.yml
+- filename: saas-alerts-events-api-openapi.yml
   format: yaml
-  label: SaaS Alerts API
-  slug: saas-alerts
+  label: SaaS Alerts Events API
+  slug: saas-alerts-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/openapi/saas-alerts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/openapi/saas-alerts-events-api-openapi.yml
+- filename: saas-alerts-reports-api-openapi.yml
+  format: yaml
+  label: SaaS Alerts Reports API
+  slug: saas-alerts-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/openapi/saas-alerts-reports-api-openapi.yml
 description: ''
 domains:
 - caa: []

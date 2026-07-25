@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: positionstack-openapi.yml
+- filename: positionstack-batch-geocoding-api-openapi.yml
   format: yaml
-  label: positionstack Geocoding API
-  slug: positionstack-geocoding-api
+  label: positionstack Batch Geocoding API
+  slug: positionstack-batch-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/openapi/positionstack-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/openapi/positionstack-batch-geocoding-api-openapi.yml
+- filename: positionstack-forward-geocoding-api-openapi.yml
+  format: yaml
+  label: positionstack Forward Geocoding API
+  slug: positionstack-forward-geocoding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/openapi/positionstack-forward-geocoding-api-openapi.yml
+- filename: positionstack-reverse-geocoding-api-openapi.yml
+  format: yaml
+  label: positionstack Reverse Geocoding API
+  slug: positionstack-reverse-geocoding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/openapi/positionstack-reverse-geocoding-api-openapi.yml
 description: ''
 domains:
 - caa: []

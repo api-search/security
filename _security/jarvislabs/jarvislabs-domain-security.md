@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: jarvislabs-openapi.yml
+- filename: jarvislabs-account-api-openapi.yml
   format: yaml
-  label: JarvisLabs Instances API
-  slug: jarvislabs-instances-api
+  label: JarvisLabs Account API
+  slug: jarvislabs-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-openapi.yml
-- filename: jarvislabs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-account-api-openapi.yml
+- filename: jarvislabs-filesystems-api-openapi.yml
+  format: yaml
+  label: JarvisLabs Filesystems API
+  slug: jarvislabs-filesystems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-filesystems-api-openapi.yml
+- filename: jarvislabs-gpu-types-api-openapi.yml
   format: yaml
   label: JarvisLabs GPU Types API
   slug: jarvislabs-gpu-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-openapi.yml
-- filename: jarvislabs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-gpu-types-api-openapi.yml
+- filename: jarvislabs-instances-api-openapi.yml
+  format: yaml
+  label: JarvisLabs Instances API
+  slug: jarvislabs-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-instances-api-openapi.yml
+- filename: jarvislabs-templates-api-openapi.yml
   format: yaml
   label: JarvisLabs Templates API
   slug: jarvislabs-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-openapi.yml
-- filename: jarvislabs-openapi.yml
-  format: yaml
-  label: JarvisLabs Inference & Deploy API
-  slug: jarvislabs-inference-deploy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-openapi.yml
-- filename: jarvislabs-openapi.yml
-  format: yaml
-  label: JarvisLabs SDK & CLI
-  slug: jarvislabs-sdk
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []

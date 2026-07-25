@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: shopup-redx-openapi.yml
+- filename: shopup-areas-api-openapi.yml
   format: yaml
-  label: REDX Open API
-  slug: redx-open-api
+  label: ShopUp Areas API
+  slug: shopup-areas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/openapi/shopup-redx-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/openapi/shopup-areas-api-openapi.yml
+- filename: shopup-parcels-api-openapi.yml
+  format: yaml
+  label: ShopUp Parcels API
+  slug: shopup-parcels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/openapi/shopup-parcels-api-openapi.yml
+- filename: shopup-pickup-stores-api-openapi.yml
+  format: yaml
+  label: ShopUp Pickup Stores API
+  slug: shopup-pickup-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/openapi/shopup-pickup-stores-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

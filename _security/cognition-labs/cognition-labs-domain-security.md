@@ -1,59 +1,59 @@
 ---
 api_specs:
-- filename: cognition-labs-openapi.yml
+- filename: cognition-labs-attachments-api-openapi.yml
   format: yaml
-  label: Devin Sessions API
-  slug: devin-sessions-api
+  label: Cognition Labs Attachments API
+  slug: cognition-labs-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-openapi.yml
-- filename: cognition-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-attachments-api-openapi.yml
+- filename: cognition-labs-consumption-api-openapi.yml
   format: yaml
-  label: Devin Messages API
-  slug: devin-messages-api
+  label: Cognition Labs Consumption API
+  slug: cognition-labs-consumption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-openapi.yml
-- filename: cognition-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-consumption-api-openapi.yml
+- filename: cognition-labs-enterprise-v3-api-openapi.yml
   format: yaml
-  label: Devin Attachments API
-  slug: devin-attachments-api
+  label: Cognition Labs Enterprise (v3) API
+  slug: cognition-labs-enterprise-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-openapi.yml
-- filename: cognition-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-enterprise-v3-api-openapi.yml
+- filename: cognition-labs-knowledge-api-openapi.yml
   format: yaml
-  label: Devin Knowledge API
-  slug: devin-knowledge-api
+  label: Cognition Labs Knowledge API
+  slug: cognition-labs-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-openapi.yml
-- filename: cognition-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-knowledge-api-openapi.yml
+- filename: cognition-labs-messages-api-openapi.yml
   format: yaml
-  label: Devin Playbooks API
-  slug: devin-playbooks-api
+  label: Cognition Labs Messages API
+  slug: cognition-labs-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-openapi.yml
-- filename: cognition-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-messages-api-openapi.yml
+- filename: cognition-labs-organizations-v3-api-openapi.yml
   format: yaml
-  label: Devin Secrets API
-  slug: devin-secrets-api
+  label: Cognition Labs Organizations (v3) API
+  slug: cognition-labs-organizations-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-openapi.yml
-- filename: cognition-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-organizations-v3-api-openapi.yml
+- filename: cognition-labs-playbooks-api-openapi.yml
   format: yaml
-  label: Devin Organizations API
-  slug: devin-organizations-api
+  label: Cognition Labs Playbooks API
+  slug: cognition-labs-playbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-openapi.yml
-- filename: cognition-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-playbooks-api-openapi.yml
+- filename: cognition-labs-secrets-api-openapi.yml
   format: yaml
-  label: Devin Enterprise API
-  slug: devin-enterprise-api
+  label: Cognition Labs Secrets API
+  slug: cognition-labs-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-openapi.yml
-- filename: cognition-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-secrets-api-openapi.yml
+- filename: cognition-labs-sessions-api-openapi.yml
   format: yaml
-  label: Devin Usage & Consumption API
-  slug: devin-usage-consumption-api
+  label: Cognition Labs Sessions API
+  slug: cognition-labs-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-sessions-api-openapi.yml
 description: ''
 domains:
 - caa: []

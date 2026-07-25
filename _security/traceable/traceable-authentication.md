@@ -1,18 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: traceable-platform-openapi.yml
+- filename: traceable-graphql-api-openapi.yml
   format: yaml
-  label: Traceable Platform GraphQL API
-  slug: traceable-platform-graphql
+  label: Traceable GraphQL API
+  slug: traceable-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traceable/refs/heads/main/openapi/traceable-platform-openapi.yml
-- filename: traceable-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/traceable/refs/heads/main/openapi/traceable-graphql-api-openapi.yml
+- filename: traceable-specifications-api-openapi.yml
   format: yaml
-  label: Traceable API Security Platform
-  slug: traceable-platform
+  label: Traceable Specifications API
+  slug: traceable-specifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traceable/refs/heads/main/openapi/traceable-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/traceable/refs/heads/main/openapi/traceable-specifications-api-openapi.yml
 auth_types:
 - http
 description: ''

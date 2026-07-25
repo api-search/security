@@ -1,11 +1,107 @@
 ---
 api_specs:
-- filename: lemon-markets-brokerage-openapi.json
-  format: json
-  label: lemon.markets Brokerage API
-  slug: brokerage-api
+- filename: lemon-markets-accounts-general-api-openapi.yml
+  format: yaml
+  label: 'Lemon Markets Accounts: General API'
+  slug: lemon-markets-accounts-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-markets/refs/heads/main/openapi/lemon-markets-brokerage-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/lemon-markets/refs/heads/main/openapi/lemon-markets-accounts-general-api-openapi.yml
+- filename: lemon-markets-accounts-id-v-api-openapi.yml
+  format: yaml
+  label: 'Lemon Markets Accounts: ID+V API'
+  slug: lemon-markets-accounts-id-v-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemon-markets/refs/heads/main/openapi/lemon-markets-accounts-id-v-api-openapi.yml
+- filename: lemon-markets-batch-orders-api-openapi.yml
+  format: yaml
+  label: Lemon Markets Batch Orders API
+  slug: lemon-markets-batch-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemon-markets/refs/heads/main/openapi/lemon-markets-batch-orders-api-openapi.yml
+- filename: lemon-markets-businesses-api-openapi.yml
+  format: yaml
+  label: Lemon Markets Businesses API
+  slug: lemon-markets-businesses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemon-markets/refs/heads/main/openapi/lemon-markets-businesses-api-openapi.yml
+- filename: lemon-markets-cash-settlement-api-openapi.yml
+  format: yaml
+  label: Lemon Markets Cash Settlement API
+  slug: lemon-markets-cash-settlement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemon-markets/refs/heads/main/openapi/lemon-markets-cash-settlement-api-openapi.yml
+- filename: lemon-markets-corporate-actions-api-openapi.yml
+  format: yaml
+  label: Lemon Markets Corporate Actions API
+  slug: lemon-markets-corporate-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemon-markets/refs/heads/main/openapi/lemon-markets-corporate-actions-api-openapi.yml
+- filename: lemon-markets-documents-api-openapi.yml
+  format: yaml
+  label: Lemon Markets Documents API
+  slug: lemon-markets-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemon-markets/refs/heads/main/openapi/lemon-markets-documents-api-openapi.yml
+- filename: lemon-markets-events-webhooks-api-openapi.yml
+  format: yaml
+  label: Lemon Markets Events + Webhooks API
+  slug: lemon-markets-events-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemon-markets/refs/heads/main/openapi/lemon-markets-events-webhooks-api-openapi.yml
+- filename: lemon-markets-instruments-api-openapi.yml
+  format: yaml
+  label: Lemon Markets Instruments API
+  slug: lemon-markets-instruments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemon-markets/refs/heads/main/openapi/lemon-markets-instruments-api-openapi.yml
+- filename: lemon-markets-money-positions-api-openapi.yml
+  format: yaml
+  label: Lemon Markets Money + Positions API
+  slug: lemon-markets-money-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemon-markets/refs/heads/main/openapi/lemon-markets-money-positions-api-openapi.yml
+- filename: lemon-markets-orders-api-openapi.yml
+  format: yaml
+  label: Lemon Markets Orders API
+  slug: lemon-markets-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemon-markets/refs/heads/main/openapi/lemon-markets-orders-api-openapi.yml
+- filename: lemon-markets-persons-api-openapi.yml
+  format: yaml
+  label: Lemon Markets Persons API
+  slug: lemon-markets-persons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemon-markets/refs/heads/main/openapi/lemon-markets-persons-api-openapi.yml
+- filename: lemon-markets-securities-accounts-api-openapi.yml
+  format: yaml
+  label: Lemon Markets Securities Accounts API
+  slug: lemon-markets-securities-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemon-markets/refs/heads/main/openapi/lemon-markets-securities-accounts-api-openapi.yml
+- filename: lemon-markets-taxes-api-openapi.yml
+  format: yaml
+  label: Lemon Markets Taxes API
+  slug: lemon-markets-taxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemon-markets/refs/heads/main/openapi/lemon-markets-taxes-api-openapi.yml
+- filename: lemon-markets-trades-api-openapi.yml
+  format: yaml
+  label: Lemon Markets Trades API
+  slug: lemon-markets-trades-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemon-markets/refs/heads/main/openapi/lemon-markets-trades-api-openapi.yml
+- filename: lemon-markets-treasury-mandates-api-openapi.yml
+  format: yaml
+  label: Lemon Markets Treasury Mandates API
+  slug: lemon-markets-treasury-mandates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemon-markets/refs/heads/main/openapi/lemon-markets-treasury-mandates-api-openapi.yml
+- filename: lemon-markets-workflows-api-openapi.yml
+  format: yaml
+  label: Lemon Markets Workflows API
+  slug: lemon-markets-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemon-markets/refs/heads/main/openapi/lemon-markets-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []

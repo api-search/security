@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: fluent-bit-monitoring-openapi.yml
+- filename: fluent-bit-build-api-openapi.yml
   format: yaml
-  label: Fluent Bit Monitoring HTTP API
-  slug: fluent-bit-monitoring-http-api
+  label: Fluent Bit Build API
+  slug: fluent-bit-build-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluent-bit/refs/heads/main/openapi/fluent-bit-monitoring-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fluent-bit/refs/heads/main/openapi/fluent-bit-build-api-openapi.yml
+- filename: fluent-bit-health-api-openapi.yml
+  format: yaml
+  label: Fluent Bit Health API
+  slug: fluent-bit-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluent-bit/refs/heads/main/openapi/fluent-bit-health-api-openapi.yml
+- filename: fluent-bit-metrics-api-openapi.yml
+  format: yaml
+  label: Fluent Bit Metrics API
+  slug: fluent-bit-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluent-bit/refs/heads/main/openapi/fluent-bit-metrics-api-openapi.yml
+- filename: fluent-bit-reload-api-openapi.yml
+  format: yaml
+  label: Fluent Bit Reload API
+  slug: fluent-bit-reload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluent-bit/refs/heads/main/openapi/fluent-bit-reload-api-openapi.yml
+- filename: fluent-bit-storage-api-openapi.yml
+  format: yaml
+  label: Fluent Bit Storage API
+  slug: fluent-bit-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluent-bit/refs/heads/main/openapi/fluent-bit-storage-api-openapi.yml
+- filename: fluent-bit-uptime-api-openapi.yml
+  format: yaml
+  label: Fluent Bit Uptime API
+  slug: fluent-bit-uptime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluent-bit/refs/heads/main/openapi/fluent-bit-uptime-api-openapi.yml
 description: ''
 domains:
 - caa: []

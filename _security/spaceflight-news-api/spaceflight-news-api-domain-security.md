@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: spaceflight-news-api-openapi.yml
+- filename: spaceflight-news-api-articles-api-openapi.yml
   format: yaml
-  label: Spaceflight News API
-  slug: spaceflight-news-api
+  label: Spaceflight News API Articles API
+  slug: spaceflight-news-api-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news-api/refs/heads/main/openapi/spaceflight-news-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news-api/refs/heads/main/openapi/spaceflight-news-api-articles-api-openapi.yml
+- filename: spaceflight-news-api-blogs-api-openapi.yml
+  format: yaml
+  label: Spaceflight News API Blogs API
+  slug: spaceflight-news-api-blogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news-api/refs/heads/main/openapi/spaceflight-news-api-blogs-api-openapi.yml
+- filename: spaceflight-news-api-info-api-openapi.yml
+  format: yaml
+  label: Spaceflight News API Info API
+  slug: spaceflight-news-api-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news-api/refs/heads/main/openapi/spaceflight-news-api-info-api-openapi.yml
+- filename: spaceflight-news-api-reports-api-openapi.yml
+  format: yaml
+  label: Spaceflight News API Reports API
+  slug: spaceflight-news-api-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news-api/refs/heads/main/openapi/spaceflight-news-api-reports-api-openapi.yml
 description: ''
 domains:
 - caa: []

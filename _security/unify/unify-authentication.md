@@ -2,24 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: unify-data-openapi.json
-  format: json
-  label: Unify Data API
-  slug: unify-data-api
+- filename: unify-events-api-openapi.yml
+  format: yaml
+  label: Unify Events API
+  slug: unify-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-data-openapi.json
-- filename: unify-sequences-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-events-api-openapi.yml
+- filename: unify-object-attribute-options-api-openapi.yml
+  format: yaml
+  label: Unify Object Attribute Options API
+  slug: unify-object-attribute-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-object-attribute-options-api-openapi.yml
+- filename: unify-object-attributes-api-openapi.yml
+  format: yaml
+  label: Unify Object Attributes API
+  slug: unify-object-attributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-object-attributes-api-openapi.yml
+- filename: unify-object-records-api-openapi.yml
+  format: yaml
+  label: Unify Object Records API
+  slug: unify-object-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-object-records-api-openapi.yml
+- filename: unify-objects-api-openapi.yml
+  format: yaml
+  label: Unify Objects API
+  slug: unify-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-objects-api-openapi.yml
+- filename: unify-sequence-enrollment-steps-api-openapi.yml
+  format: yaml
+  label: Unify Sequence Enrollment Steps API
+  slug: unify-sequence-enrollment-steps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-sequence-enrollment-steps-api-openapi.yml
+- filename: unify-sequence-enrollments-api-openapi.yml
+  format: yaml
+  label: Unify Sequence Enrollments API
+  slug: unify-sequence-enrollments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-sequence-enrollments-api-openapi.yml
+- filename: unify-sequences-api-openapi.yml
+  format: yaml
   label: Unify Sequences API
   slug: unify-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-sequences-openapi.json
-- filename: unify-analytics-openapi.json
-  format: json
-  label: Unify Analytics API
-  slug: unify-analytics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-analytics-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-sequences-api-openapi.yml
 auth_types:
 - apiKey
 - http

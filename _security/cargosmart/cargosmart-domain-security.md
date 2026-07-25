@@ -1,29 +1,35 @@
 ---
 api_specs:
-- filename: cargosmart-shipment-tracking-openapi.yml
+- filename: cargosmart-bookings-api-openapi.yml
   format: yaml
-  label: CargoSmart Container Booking API
-  slug: cargosmart-container-booking-api
+  label: CargoSmart Bookings API
+  slug: cargosmart-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-shipment-tracking-openapi.yml
-- filename: cargosmart-shipment-tracking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-bookings-api-openapi.yml
+- filename: cargosmart-containers-api-openapi.yml
   format: yaml
-  label: CargoSmart Shipment Tracking API
-  slug: cargosmart-shipment-tracking-api
+  label: CargoSmart Containers API
+  slug: cargosmart-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-shipment-tracking-openapi.yml
-- filename: cargosmart-shipment-tracking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-containers-api-openapi.yml
+- filename: cargosmart-documents-api-openapi.yml
   format: yaml
-  label: CargoSmart Vessel Schedule API
-  slug: cargosmart-vessel-schedule-api
+  label: CargoSmart Documents API
+  slug: cargosmart-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-shipment-tracking-openapi.yml
-- filename: cargosmart-shipment-tracking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-documents-api-openapi.yml
+- filename: cargosmart-shipments-api-openapi.yml
   format: yaml
-  label: CargoSmart Shipping Documentation API
-  slug: cargosmart-shipping-documents-api
+  label: CargoSmart Shipments API
+  slug: cargosmart-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-shipment-tracking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-shipments-api-openapi.yml
+- filename: cargosmart-vessels-api-openapi.yml
+  format: yaml
+  label: CargoSmart Vessels API
+  slug: cargosmart-vessels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-vessels-api-openapi.yml
 description: ''
 domains:
 - caa: []

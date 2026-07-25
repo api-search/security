@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: tango-raas-api-openapi.yml
+- filename: tango-accounts-api-openapi.yml
   format: yaml
-  label: Tango RaaS API
-  slug: raas-api
+  label: Tango Accounts API
+  slug: tango-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/openapi/tango-raas-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/openapi/tango-accounts-api-openapi.yml
+- filename: tango-catalog-api-openapi.yml
+  format: yaml
+  label: Tango Catalog API
+  slug: tango-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/openapi/tango-catalog-api-openapi.yml
+- filename: tango-customers-api-openapi.yml
+  format: yaml
+  label: Tango Customers API
+  slug: tango-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/openapi/tango-customers-api-openapi.yml
+- filename: tango-digital-templates-api-openapi.yml
+  format: yaml
+  label: Tango Digital Templates API
+  slug: tango-digital-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/openapi/tango-digital-templates-api-openapi.yml
+- filename: tango-funding-api-openapi.yml
+  format: yaml
+  label: Tango Funding API
+  slug: tango-funding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/openapi/tango-funding-api-openapi.yml
+- filename: tango-line-items-api-openapi.yml
+  format: yaml
+  label: Tango Line Items API
+  slug: tango-line-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/openapi/tango-line-items-api-openapi.yml
+- filename: tango-low-balance-alerts-api-openapi.yml
+  format: yaml
+  label: Tango Low Balance Alerts API
+  slug: tango-low-balance-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/openapi/tango-low-balance-alerts-api-openapi.yml
+- filename: tango-orders-api-openapi.yml
+  format: yaml
+  label: Tango Orders API
+  slug: tango-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/openapi/tango-orders-api-openapi.yml
+- filename: tango-reference-data-api-openapi.yml
+  format: yaml
+  label: Tango Reference Data API
+  slug: tango-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/openapi/tango-reference-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

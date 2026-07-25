@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: suki-ai-openapi.yml
+- filename: suki-ai-ambient-content-api-openapi.yml
   format: yaml
-  label: Suki Platform REST API
-  slug: suki-platform-api
+  label: Suki AI Ambient Content API
+  slug: suki-ai-ambient-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-ambient-content-api-openapi.yml
+- filename: suki-ai-ambient-sessions-api-openapi.yml
+  format: yaml
+  label: Suki AI Ambient Sessions API
+  slug: suki-ai-ambient-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-ambient-sessions-api-openapi.yml
+- filename: suki-ai-authentication-api-openapi.yml
+  format: yaml
+  label: Suki AI Authentication API
+  slug: suki-ai-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-authentication-api-openapi.yml
+- filename: suki-ai-feedback-api-openapi.yml
+  format: yaml
+  label: Suki AI Feedback API
+  slug: suki-ai-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-feedback-api-openapi.yml
+- filename: suki-ai-form-filling-content-api-openapi.yml
+  format: yaml
+  label: Suki AI Form Filling Content API
+  slug: suki-ai-form-filling-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-form-filling-content-api-openapi.yml
+- filename: suki-ai-form-filling-sessions-api-openapi.yml
+  format: yaml
+  label: Suki AI Form Filling Sessions API
+  slug: suki-ai-form-filling-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-form-filling-sessions-api-openapi.yml
+- filename: suki-ai-info-api-openapi.yml
+  format: yaml
+  label: Suki AI Info API
+  slug: suki-ai-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-info-api-openapi.yml
+- filename: suki-ai-notifications-api-openapi.yml
+  format: yaml
+  label: Suki AI Notifications API
+  slug: suki-ai-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-notifications-api-openapi.yml
+- filename: suki-ai-user-preferences-api-openapi.yml
+  format: yaml
+  label: Suki AI User Preferences API
+  slug: suki-ai-user-preferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-user-preferences-api-openapi.yml
 auth_types:
 - http
 description: ''

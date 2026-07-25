@@ -1,59 +1,65 @@
 ---
 api_specs:
-- filename: dynamic-labs-openapi.yml
-  format: yaml
-  label: Dynamic Users API
-  slug: dynamic-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynamic-labs/refs/heads/main/openapi/dynamic-labs-openapi.yml
-- filename: dynamic-labs-openapi.yml
-  format: yaml
-  label: Dynamic Wallets API
-  slug: dynamic-wallets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynamic-labs/refs/heads/main/openapi/dynamic-labs-openapi.yml
-- filename: dynamic-labs-openapi.yml
-  format: yaml
-  label: Dynamic Embedded Wallets API
-  slug: dynamic-embedded-wallets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynamic-labs/refs/heads/main/openapi/dynamic-labs-openapi.yml
-- filename: dynamic-labs-openapi.yml
-  format: yaml
-  label: Dynamic Environments API
-  slug: dynamic-environments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynamic-labs/refs/heads/main/openapi/dynamic-labs-openapi.yml
-- filename: dynamic-labs-openapi.yml
-  format: yaml
-  label: Dynamic API Tokens API
-  slug: dynamic-api-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynamic-labs/refs/heads/main/openapi/dynamic-labs-openapi.yml
-- filename: dynamic-labs-openapi.yml
-  format: yaml
-  label: Dynamic Webhooks API
-  slug: dynamic-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynamic-labs/refs/heads/main/openapi/dynamic-labs-openapi.yml
-- filename: dynamic-labs-openapi.yml
-  format: yaml
-  label: Dynamic Token Verification API
-  slug: dynamic-token-verification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynamic-labs/refs/heads/main/openapi/dynamic-labs-openapi.yml
-- filename: dynamic-labs-openapi.yml
+- filename: dynamic-labs-allowlists-api-openapi.yml
   format: yaml
   label: Dynamic Allowlists API
-  slug: dynamic-allowlists-api
+  slug: dynamic-labs-allowlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynamic-labs/refs/heads/main/openapi/dynamic-labs-openapi.yml
-- filename: dynamic-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dynamic-labs/refs/heads/main/openapi/dynamic-labs-allowlists-api-openapi.yml
+- filename: dynamic-labs-analytics-api-openapi.yml
   format: yaml
   label: Dynamic Analytics API
-  slug: dynamic-analytics-api
+  slug: dynamic-labs-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynamic-labs/refs/heads/main/openapi/dynamic-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dynamic-labs/refs/heads/main/openapi/dynamic-labs-analytics-api-openapi.yml
+- filename: dynamic-labs-api-tokens-api-openapi.yml
+  format: yaml
+  label: Dynamic API Tokens API
+  slug: dynamic-labs-api-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dynamic-labs/refs/heads/main/openapi/dynamic-labs-api-tokens-api-openapi.yml
+- filename: dynamic-labs-embedded-wallets-api-openapi.yml
+  format: yaml
+  label: Dynamic Embedded Wallets API
+  slug: dynamic-labs-embedded-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dynamic-labs/refs/heads/main/openapi/dynamic-labs-embedded-wallets-api-openapi.yml
+- filename: dynamic-labs-environments-api-openapi.yml
+  format: yaml
+  label: Dynamic Environments API
+  slug: dynamic-labs-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dynamic-labs/refs/heads/main/openapi/dynamic-labs-environments-api-openapi.yml
+- filename: dynamic-labs-exports-api-openapi.yml
+  format: yaml
+  label: Dynamic Exports API
+  slug: dynamic-labs-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dynamic-labs/refs/heads/main/openapi/dynamic-labs-exports-api-openapi.yml
+- filename: dynamic-labs-jwks-api-openapi.yml
+  format: yaml
+  label: Dynamic JWKS API
+  slug: dynamic-labs-jwks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dynamic-labs/refs/heads/main/openapi/dynamic-labs-jwks-api-openapi.yml
+- filename: dynamic-labs-users-api-openapi.yml
+  format: yaml
+  label: Dynamic Users API
+  slug: dynamic-labs-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dynamic-labs/refs/heads/main/openapi/dynamic-labs-users-api-openapi.yml
+- filename: dynamic-labs-wallets-api-openapi.yml
+  format: yaml
+  label: Dynamic Wallets API
+  slug: dynamic-labs-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dynamic-labs/refs/heads/main/openapi/dynamic-labs-wallets-api-openapi.yml
+- filename: dynamic-labs-webhooks-api-openapi.yml
+  format: yaml
+  label: Dynamic Webhooks API
+  slug: dynamic-labs-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dynamic-labs/refs/heads/main/openapi/dynamic-labs-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

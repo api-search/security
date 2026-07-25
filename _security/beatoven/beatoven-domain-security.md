@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: beatoven-composition-api-openapi.yml
+- filename: beatoven-tasks-api-openapi.yml
   format: yaml
-  label: Beatoven Composition API
-  slug: beatoven-composition-api
+  label: Beatoven.ai Tasks API
+  slug: beatoven-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beatoven/refs/heads/main/openapi/beatoven-composition-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beatoven/refs/heads/main/openapi/beatoven-tasks-api-openapi.yml
+- filename: beatoven-tracks-api-openapi.yml
+  format: yaml
+  label: Beatoven.ai Tracks API
+  slug: beatoven-tracks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beatoven/refs/heads/main/openapi/beatoven-tracks-api-openapi.yml
 description: ''
 domains:
 - caa: []

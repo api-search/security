@@ -2,12 +2,36 @@
 api_key_in:
 - query
 api_specs:
-- filename: solaredge-monitoring-openapi.yml
+- filename: solaredge-account-api-openapi.yml
   format: yaml
-  label: SolarEdge Monitoring API
-  slug: solaredge-monitoring-api
+  label: Solaredge Account API
+  slug: solaredge-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solaredge/refs/heads/main/openapi/solaredge-monitoring-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/solaredge/refs/heads/main/openapi/solaredge-account-api-openapi.yml
+- filename: solaredge-equipment-api-openapi.yml
+  format: yaml
+  label: Solaredge Equipment API
+  slug: solaredge-equipment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solaredge/refs/heads/main/openapi/solaredge-equipment-api-openapi.yml
+- filename: solaredge-sites-api-openapi.yml
+  format: yaml
+  label: Solaredge Sites API
+  slug: solaredge-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solaredge/refs/heads/main/openapi/solaredge-sites-api-openapi.yml
+- filename: solaredge-storage-api-openapi.yml
+  format: yaml
+  label: Solaredge Storage API
+  slug: solaredge-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solaredge/refs/heads/main/openapi/solaredge-storage-api-openapi.yml
+- filename: solaredge-version-api-openapi.yml
+  format: yaml
+  label: Solaredge Version API
+  slug: solaredge-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solaredge/refs/heads/main/openapi/solaredge-version-api-openapi.yml
 auth_types:
 - apiKey
 description: The SolarEdge Monitoring API authenticates every request with a single API key passed as the api_key query parameter. Keys are generated inside the SolarEdge monitoring platform under Admin > Site Access > API Access and are scoped to the account (and the sites it can access). There is no OAuth2/OIDC surface. Verified live against https://monitoringapi.solaredge.com/version/current and /sites/list?api_key=INVALID, both of which return an RFC 9457 problem+json body with title "Unauthorized - Authentication Failed" / detail "Invalid API key" (HTTP 401) when the key is missing or wrong.

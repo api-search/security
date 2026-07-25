@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: logrocket-rest-api-openapi.yml
-  format: yaml
-  label: LogRocket REST API
-  slug: logrocket-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-rest-api-openapi.yml
 - filename: logrocket-graphql-api-openapi.yml
   format: yaml
   label: LogRocket GraphQL API
   slug: logrocket-graphql-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-graphql-api-openapi.yml
+- filename: logrocket-data-export-api-openapi.yml
+  format: yaml
+  label: LogRocket Data Export API
+  slug: logrocket-data-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-data-export-api-openapi.yml
+- filename: logrocket-highlights-api-openapi.yml
+  format: yaml
+  label: LogRocket Highlights API
+  slug: logrocket-highlights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-highlights-api-openapi.yml
+- filename: logrocket-users-api-openapi.yml
+  format: yaml
+  label: LogRocket Users API
+  slug: logrocket-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-users-api-openapi.yml
 certifications:
 - SOC 2
 - GDPR

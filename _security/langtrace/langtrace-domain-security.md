@@ -1,29 +1,23 @@
 ---
 api_specs:
-- filename: langtrace-openapi.yml
+- filename: langtrace-projects-api-openapi.yml
   format: yaml
-  label: Langtrace Trace Ingestion (OTEL)
-  slug: trace-ingestion-otel
+  label: Langtrace AI Projects API
+  slug: langtrace-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langtrace/refs/heads/main/openapi/langtrace-openapi.yml
-- filename: langtrace-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/langtrace/refs/heads/main/openapi/langtrace-projects-api-openapi.yml
+- filename: langtrace-prompt-registry-api-openapi.yml
   format: yaml
-  label: Langtrace Projects and API Keys
-  slug: projects-api-keys
+  label: Langtrace AI Prompt Registry API
+  slug: langtrace-prompt-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langtrace/refs/heads/main/openapi/langtrace-openapi.yml
-- filename: langtrace-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/langtrace/refs/heads/main/openapi/langtrace-prompt-registry-api-openapi.yml
+- filename: langtrace-traces-api-openapi.yml
   format: yaml
-  label: Langtrace Prompt Registry
-  slug: prompt-registry
+  label: Langtrace AI Traces API
+  slug: langtrace-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langtrace/refs/heads/main/openapi/langtrace-openapi.yml
-- filename: langtrace-openapi.yml
-  format: yaml
-  label: Langtrace Trace Retrieval and Metrics
-  slug: trace-retrieval
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langtrace/refs/heads/main/openapi/langtrace-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/langtrace/refs/heads/main/openapi/langtrace-traces-api-openapi.yml
 description: ''
 domains:
 - caa: []

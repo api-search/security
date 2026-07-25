@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: esa-copernicus-stac-openapi.json
-  format: json
-  label: Copernicus Data Space STAC Catalogue API
-  slug: copernicus-stac
+- filename: esa-bulk-transaction-extension-api-openapi.yml
+  format: yaml
+  label: European Space Agency (ESA) Bulk Transaction Extension API
+  slug: esa-bulk-transaction-extension-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-copernicus-stac-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-bulk-transaction-extension-api-openapi.yml
+- filename: esa-collections-api-openapi.yml
+  format: yaml
+  label: European Space Agency (ESA) Collections API
+  slug: esa-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-collections-api-openapi.yml
+- filename: esa-conformance-api-openapi.yml
+  format: yaml
+  label: European Space Agency (ESA) Conformance API
+  slug: esa-conformance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-conformance-api-openapi.yml
+- filename: esa-copernicus-data-space-ecosystem-cdse-asset-level-stac-catalogue-api-openapi.yml
+  format: yaml
+  label: European Space Agency (ESA) Copernicus Data Space Ecosystem (CDSE) Asset Level STAC Catalogue API
+  slug: esa-copernicus-data-space-ecosystem-cdse-asset-level-stac-catalogue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-copernicus-data-space-ecosystem-cdse-asset-level-stac-catalogue-api-openapi.yml
+- filename: esa-filter-extension-api-openapi.yml
+  format: yaml
+  label: European Space Agency (ESA) Filter Extension API
+  slug: esa-filter-extension-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-filter-extension-api-openapi.yml
+- filename: esa-liveliness-readiness-api-openapi.yml
+  format: yaml
+  label: European Space Agency (ESA) Liveliness/Readiness API
+  slug: esa-liveliness-readiness-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-liveliness-readiness-api-openapi.yml
+- filename: esa-search-api-openapi.yml
+  format: yaml
+  label: European Space Agency (ESA) Search API
+  slug: esa-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-search-api-openapi.yml
+- filename: esa-transaction-extension-api-openapi.yml
+  format: yaml
+  label: European Space Agency (ESA) Transaction Extension API
+  slug: esa-transaction-extension-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-transaction-extension-api-openapi.yml
 description: ''
 domains:
 - caa: []

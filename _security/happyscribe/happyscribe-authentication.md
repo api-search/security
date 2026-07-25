@@ -1,48 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: happyscribe-openapi.yml
-  format: yaml
-  label: Happy Scribe Transcriptions API
-  slug: happyscribe-transcriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-openapi.yml
-- filename: happyscribe-openapi.yml
-  format: yaml
-  label: Happy Scribe Orders API
-  slug: happyscribe-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-openapi.yml
-- filename: happyscribe-openapi.yml
+- filename: happyscribe-exports-api-openapi.yml
   format: yaml
   label: Happy Scribe Exports API
   slug: happyscribe-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-openapi.yml
-- filename: happyscribe-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-exports-api-openapi.yml
+- filename: happyscribe-glossaries-and-style-guides-api-openapi.yml
   format: yaml
-  label: Happy Scribe Organizations API
-  slug: happyscribe-organizations-api
+  label: Happy Scribe Glossaries and Style Guides API
+  slug: happyscribe-glossaries-and-style-guides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-openapi.yml
-- filename: happyscribe-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-glossaries-and-style-guides-api-openapi.yml
+- filename: happyscribe-orders-api-openapi.yml
+  format: yaml
+  label: Happy Scribe Orders API
+  slug: happyscribe-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-orders-api-openapi.yml
+- filename: happyscribe-organization-memberships-api-openapi.yml
   format: yaml
   label: Happy Scribe Organization Memberships API
   slug: happyscribe-organization-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-openapi.yml
-- filename: happyscribe-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-organization-memberships-api-openapi.yml
+- filename: happyscribe-organizations-api-openapi.yml
+  format: yaml
+  label: Happy Scribe Organizations API
+  slug: happyscribe-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-organizations-api-openapi.yml
+- filename: happyscribe-transcriptions-api-openapi.yml
+  format: yaml
+  label: Happy Scribe Transcriptions API
+  slug: happyscribe-transcriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-transcriptions-api-openapi.yml
+- filename: happyscribe-uploads-api-openapi.yml
   format: yaml
   label: Happy Scribe Uploads API
   slug: happyscribe-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-openapi.yml
-- filename: happyscribe-openapi.yml
-  format: yaml
-  label: Happy Scribe Glossaries and Style Guides API
-  slug: happyscribe-glossaries-style-guides-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-uploads-api-openapi.yml
 auth_types:
 - http
 description: ''

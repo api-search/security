@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: jokeapi-openapi.yml
+- filename: jokeapi-jokes-api-openapi.yml
   format: yaml
-  label: JokeAPI v2
-  slug: jokeapi-v2
+  label: JokeAPI Jokes API
+  slug: jokeapi-jokes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jokeapi/refs/heads/main/openapi/jokeapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jokeapi/refs/heads/main/openapi/jokeapi-jokes-api-openapi.yml
+- filename: jokeapi-metadata-api-openapi.yml
+  format: yaml
+  label: JokeAPI Metadata API
+  slug: jokeapi-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jokeapi/refs/heads/main/openapi/jokeapi-metadata-api-openapi.yml
+- filename: jokeapi-system-api-openapi.yml
+  format: yaml
+  label: JokeAPI System API
+  slug: jokeapi-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jokeapi/refs/heads/main/openapi/jokeapi-system-api-openapi.yml
 description: ''
 domains:
 - caa: []

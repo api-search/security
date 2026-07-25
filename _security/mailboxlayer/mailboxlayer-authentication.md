@@ -2,12 +2,12 @@
 api_key_in:
 - query
 api_specs:
-- filename: mailboxlayer-openapi.yml
+- filename: mailboxlayer-verification-api-openapi.yml
   format: yaml
   label: mailboxlayer Verification API
   slug: mailboxlayer-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailboxlayer/refs/heads/main/openapi/mailboxlayer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mailboxlayer/refs/heads/main/openapi/mailboxlayer-verification-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

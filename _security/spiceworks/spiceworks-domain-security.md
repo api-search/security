@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: spiceworks-cloud-apps-openapi.yml
+- filename: spiceworks-comments-api-openapi.yml
   format: yaml
-  label: Spiceworks Cloud Apps API
-  slug: spiceworks-cloud-apps-api
+  label: Spiceworks Comments API
+  slug: spiceworks-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/openapi/spiceworks-cloud-apps-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/openapi/spiceworks-comments-api-openapi.yml
+- filename: spiceworks-devices-api-openapi.yml
+  format: yaml
+  label: Spiceworks Devices API
+  slug: spiceworks-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/openapi/spiceworks-devices-api-openapi.yml
+- filename: spiceworks-tickets-api-openapi.yml
+  format: yaml
+  label: Spiceworks Tickets API
+  slug: spiceworks-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/openapi/spiceworks-tickets-api-openapi.yml
+- filename: spiceworks-users-api-openapi.yml
+  format: yaml
+  label: Spiceworks Users API
+  slug: spiceworks-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/openapi/spiceworks-users-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: cisco-nexus-nxapi-rest.yml
+- filename: cisco-nexus-authentication-api-openapi.yml
   format: yaml
-  label: Cisco NX-API REST
-  slug: cisco-nx-api-rest
+  label: Cisco Nexus Dashboard Authentication API
+  slug: cisco-nexus-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-nexus/refs/heads/main/openapi/cisco-nexus-nxapi-rest.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-nexus/refs/heads/main/openapi/cisco-nexus-authentication-api-openapi.yml
+- filename: cisco-nexus-interfaces-api-openapi.yml
+  format: yaml
+  label: Cisco Nexus Dashboard Interfaces API
+  slug: cisco-nexus-interfaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-nexus/refs/heads/main/openapi/cisco-nexus-interfaces-api-openapi.yml
+- filename: cisco-nexus-routing-api-openapi.yml
+  format: yaml
+  label: Cisco Nexus Dashboard Routing API
+  slug: cisco-nexus-routing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-nexus/refs/heads/main/openapi/cisco-nexus-routing-api-openapi.yml
+- filename: cisco-nexus-system-api-openapi.yml
+  format: yaml
+  label: Cisco Nexus Dashboard System API
+  slug: cisco-nexus-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-nexus/refs/heads/main/openapi/cisco-nexus-system-api-openapi.yml
+- filename: cisco-nexus-vlans-api-openapi.yml
+  format: yaml
+  label: Cisco Nexus Dashboard VLANs API
+  slug: cisco-nexus-vlans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-nexus/refs/heads/main/openapi/cisco-nexus-vlans-api-openapi.yml
 description: ''
 domains:
 - caa:

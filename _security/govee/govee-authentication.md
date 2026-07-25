@@ -2,42 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: govee-openapi.yml
-  format: yaml
-  label: Govee Devices API
-  slug: govee-devices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govee/refs/heads/main/openapi/govee-openapi.yml
-- filename: govee-openapi.yml
-  format: yaml
-  label: Govee Device State API
-  slug: govee-device-state-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govee/refs/heads/main/openapi/govee-openapi.yml
-- filename: govee-openapi.yml
+- filename: govee-device-control-api-openapi.yml
   format: yaml
   label: Govee Device Control API
   slug: govee-device-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govee/refs/heads/main/openapi/govee-openapi.yml
-- filename: govee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/govee/refs/heads/main/openapi/govee-device-control-api-openapi.yml
+- filename: govee-device-state-api-openapi.yml
   format: yaml
-  label: Govee Dynamic Scenes API
-  slug: govee-dynamic-scenes-api
+  label: Govee Device State API
+  slug: govee-device-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govee/refs/heads/main/openapi/govee-openapi.yml
-- filename: govee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/govee/refs/heads/main/openapi/govee-device-state-api-openapi.yml
+- filename: govee-devices-api-openapi.yml
   format: yaml
-  label: Govee DIY Scenes API
-  slug: govee-diy-scenes-api
+  label: Govee Devices API
+  slug: govee-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govee/refs/heads/main/openapi/govee-openapi.yml
-- filename: govee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/govee/refs/heads/main/openapi/govee-devices-api-openapi.yml
+- filename: govee-scenes-api-openapi.yml
   format: yaml
-  label: Govee Segment Color and Brightness API
-  slug: govee-segment-control-api
+  label: Govee Scenes API
+  slug: govee-scenes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govee/refs/heads/main/openapi/govee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/govee/refs/heads/main/openapi/govee-scenes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

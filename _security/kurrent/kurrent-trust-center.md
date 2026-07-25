@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: kurrent-kurrentdb-http-api-openapi.yml
+- filename: kurrent-admin-api-openapi.yml
   format: yaml
-  label: KurrentDB HTTP API
-  slug: kurrentdb-http-api
+  label: Kurrent Admin API
+  slug: kurrent-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-kurrentdb-http-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-admin-api-openapi.yml
+- filename: kurrent-gossip-api-openapi.yml
+  format: yaml
+  label: Kurrent Gossip API
+  slug: kurrent-gossip-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-gossip-api-openapi.yml
+- filename: kurrent-info-api-openapi.yml
+  format: yaml
+  label: Kurrent Info API
+  slug: kurrent-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-info-api-openapi.yml
+- filename: kurrent-projections-api-openapi.yml
+  format: yaml
+  label: Kurrent Projections API
+  slug: kurrent-projections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-projections-api-openapi.yml
+- filename: kurrent-statistics-api-openapi.yml
+  format: yaml
+  label: Kurrent Statistics API
+  slug: kurrent-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-statistics-api-openapi.yml
+- filename: kurrent-streams-api-openapi.yml
+  format: yaml
+  label: Kurrent Streams API
+  slug: kurrent-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-streams-api-openapi.yml
+- filename: kurrent-subscriptions-api-openapi.yml
+  format: yaml
+  label: Kurrent Subscriptions API
+  slug: kurrent-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-subscriptions-api-openapi.yml
+- filename: kurrent-users-api-openapi.yml
+  format: yaml
+  label: Kurrent Users API
+  slug: kurrent-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-users-api-openapi.yml
 certifications: []
 description: ''
 kind: trust-center

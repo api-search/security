@@ -2,12 +2,54 @@
 api_key_in:
 - query
 api_specs:
-- filename: department-of-better-technology-screendoor-openapi.yml
+- filename: department-of-better-technology-files-api-openapi.yml
   format: yaml
-  label: Screendoor API
-  slug: screendoor-api
+  label: Department of Better Technology Files API
+  slug: department-of-better-technology-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/openapi/department-of-better-technology-screendoor-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/openapi/department-of-better-technology-files-api-openapi.yml
+- filename: department-of-better-technology-forms-api-openapi.yml
+  format: yaml
+  label: Department of Better Technology Forms API
+  slug: department-of-better-technology-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/openapi/department-of-better-technology-forms-api-openapi.yml
+- filename: department-of-better-technology-labels-api-openapi.yml
+  format: yaml
+  label: Department of Better Technology Labels API
+  slug: department-of-better-technology-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/openapi/department-of-better-technology-labels-api-openapi.yml
+- filename: department-of-better-technology-projects-api-openapi.yml
+  format: yaml
+  label: Department of Better Technology Projects API
+  slug: department-of-better-technology-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/openapi/department-of-better-technology-projects-api-openapi.yml
+- filename: department-of-better-technology-response-assignments-api-openapi.yml
+  format: yaml
+  label: Department of Better Technology Response Assignments API
+  slug: department-of-better-technology-response-assignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/openapi/department-of-better-technology-response-assignments-api-openapi.yml
+- filename: department-of-better-technology-response-labels-api-openapi.yml
+  format: yaml
+  label: Department of Better Technology Response Labels API
+  slug: department-of-better-technology-response-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/openapi/department-of-better-technology-response-labels-api-openapi.yml
+- filename: department-of-better-technology-responses-api-openapi.yml
+  format: yaml
+  label: Department of Better Technology Responses API
+  slug: department-of-better-technology-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/openapi/department-of-better-technology-responses-api-openapi.yml
+- filename: department-of-better-technology-statuses-api-openapi.yml
+  format: yaml
+  label: Department of Better Technology Statuses API
+  slug: department-of-better-technology-statuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/openapi/department-of-better-technology-statuses-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

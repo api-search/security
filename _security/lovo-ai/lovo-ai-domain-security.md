@@ -1,29 +1,23 @@
 ---
 api_specs:
-- filename: lovo-ai-openapi.yml
-  format: yaml
-  label: LOVO AI Text-to-Speech API
-  slug: lovo-ai-text-to-speech-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lovo-ai/refs/heads/main/openapi/lovo-ai-openapi.yml
-- filename: lovo-ai-openapi.yml
+- filename: lovo-ai-speakers-api-openapi.yml
   format: yaml
   label: LOVO AI Speakers API
   slug: lovo-ai-speakers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lovo-ai/refs/heads/main/openapi/lovo-ai-openapi.yml
-- filename: lovo-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lovo-ai/refs/heads/main/openapi/lovo-ai-speakers-api-openapi.yml
+- filename: lovo-ai-teams-api-openapi.yml
   format: yaml
-  label: LOVO AI Pronunciation and Prosody
-  slug: lovo-ai-pronunciation-api
+  label: LOVO AI Teams API
+  slug: lovo-ai-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lovo-ai/refs/heads/main/openapi/lovo-ai-openapi.yml
-- filename: lovo-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lovo-ai/refs/heads/main/openapi/lovo-ai-teams-api-openapi.yml
+- filename: lovo-ai-text-to-speech-api-openapi.yml
   format: yaml
-  label: LOVO AI Teams and Billing API
-  slug: lovo-ai-teams-billing-api
+  label: LOVO AI Text-to-Speech API
+  slug: lovo-ai-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lovo-ai/refs/heads/main/openapi/lovo-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lovo-ai/refs/heads/main/openapi/lovo-ai-text-to-speech-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: amazon-ebs-openapi.yml
+- filename: amazon-ebs-amazon-ebs-amazon-elastic-block-store-ebs-api-api-openapi.yml
   format: yaml
-  label: Amazon EBS API
-  slug: amazon-ebs-api
+  label: Amazon EBS Amazon EBS Amazon Elastic Block Store (EBS) API API
+  slug: amazon-ebs-amazon-ebs-amazon-elastic-block-store-ebs-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ebs/refs/heads/main/openapi/amazon-ebs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ebs/refs/heads/main/openapi/amazon-ebs-amazon-ebs-amazon-elastic-block-store-ebs-api-api-openapi.yml
+- filename: amazon-ebs-attachvolume-api-openapi.yml
+  format: yaml
+  label: 'Amazon EBS #AttachVolume API'
+  slug: amazon-ebs-attachvolume-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ebs/refs/heads/main/openapi/amazon-ebs-attachvolume-api-openapi.yml
+- filename: amazon-ebs-createsnapshot-api-openapi.yml
+  format: yaml
+  label: 'Amazon EBS #CreateSnapshot API'
+  slug: amazon-ebs-createsnapshot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ebs/refs/heads/main/openapi/amazon-ebs-createsnapshot-api-openapi.yml
+- filename: amazon-ebs-deletevolume-api-openapi.yml
+  format: yaml
+  label: 'Amazon EBS #DeleteVolume API'
+  slug: amazon-ebs-deletevolume-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ebs/refs/heads/main/openapi/amazon-ebs-deletevolume-api-openapi.yml
+- filename: amazon-ebs-describesnapshots-api-openapi.yml
+  format: yaml
+  label: 'Amazon EBS #DescribeSnapshots API'
+  slug: amazon-ebs-describesnapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ebs/refs/heads/main/openapi/amazon-ebs-describesnapshots-api-openapi.yml
+- filename: amazon-ebs-detachvolume-api-openapi.yml
+  format: yaml
+  label: 'Amazon EBS #DetachVolume API'
+  slug: amazon-ebs-detachvolume-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ebs/refs/heads/main/openapi/amazon-ebs-detachvolume-api-openapi.yml
 description: ''
 domains:
 - caa: []

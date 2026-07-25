@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: dotcms-openapi.yml
+- filename: dotcms-authentication-api-openapi.yml
   format: yaml
-  label: dotCMS REST API
-  slug: rest
+  label: dotCMS Authentication API
+  slug: dotcms-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotcms/refs/heads/main/openapi/dotcms-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dotcms/refs/heads/main/openapi/dotcms-authentication-api-openapi.yml
+- filename: dotcms-content-api-openapi.yml
+  format: yaml
+  label: dotCMS Content API
+  slug: dotcms-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dotcms/refs/heads/main/openapi/dotcms-content-api-openapi.yml
+- filename: dotcms-navigation-api-openapi.yml
+  format: yaml
+  label: dotCMS Navigation API
+  slug: dotcms-navigation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dotcms/refs/heads/main/openapi/dotcms-navigation-api-openapi.yml
+- filename: dotcms-search-api-openapi.yml
+  format: yaml
+  label: dotCMS Search API
+  slug: dotcms-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dotcms/refs/heads/main/openapi/dotcms-search-api-openapi.yml
+- filename: dotcms-sites-api-openapi.yml
+  format: yaml
+  label: dotCMS Sites API
+  slug: dotcms-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dotcms/refs/heads/main/openapi/dotcms-sites-api-openapi.yml
+- filename: dotcms-users-api-openapi.yml
+  format: yaml
+  label: dotCMS Users API
+  slug: dotcms-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dotcms/refs/heads/main/openapi/dotcms-users-api-openapi.yml
+- filename: dotcms-workflow-api-openapi.yml
+  format: yaml
+  label: dotCMS Workflow API
+  slug: dotcms-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dotcms/refs/heads/main/openapi/dotcms-workflow-api-openapi.yml
 auth_types:
 - http
 description: ''

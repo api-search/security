@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: td-ameritrade-accounts-trading-openapi.yml
+- filename: td-ameritrade-holding-accounts-api-openapi.yml
   format: yaml
-  label: TD Ameritrade Accounts and Trading API
-  slug: accounts-and-trading
+  label: TD Ameritrade Holding Accounts API
+  slug: td-ameritrade-holding-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade-holding/refs/heads/main/openapi/td-ameritrade-accounts-trading-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade-holding/refs/heads/main/openapi/td-ameritrade-holding-accounts-api-openapi.yml
+- filename: td-ameritrade-holding-instruments-api-openapi.yml
+  format: yaml
+  label: TD Ameritrade Holding Instruments API
+  slug: td-ameritrade-holding-instruments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade-holding/refs/heads/main/openapi/td-ameritrade-holding-instruments-api-openapi.yml
+- filename: td-ameritrade-holding-market-data-api-openapi.yml
+  format: yaml
+  label: TD Ameritrade Holding Market Data API
+  slug: td-ameritrade-holding-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade-holding/refs/heads/main/openapi/td-ameritrade-holding-market-data-api-openapi.yml
+- filename: td-ameritrade-holding-options-api-openapi.yml
+  format: yaml
+  label: TD Ameritrade Holding Options API
+  slug: td-ameritrade-holding-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade-holding/refs/heads/main/openapi/td-ameritrade-holding-options-api-openapi.yml
+- filename: td-ameritrade-holding-orders-api-openapi.yml
+  format: yaml
+  label: TD Ameritrade Holding Orders API
+  slug: td-ameritrade-holding-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade-holding/refs/heads/main/openapi/td-ameritrade-holding-orders-api-openapi.yml
+- filename: td-ameritrade-holding-saved-orders-api-openapi.yml
+  format: yaml
+  label: TD Ameritrade Holding Saved Orders API
+  slug: td-ameritrade-holding-saved-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade-holding/refs/heads/main/openapi/td-ameritrade-holding-saved-orders-api-openapi.yml
+- filename: td-ameritrade-holding-transactions-api-openapi.yml
+  format: yaml
+  label: TD Ameritrade Holding Transactions API
+  slug: td-ameritrade-holding-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade-holding/refs/heads/main/openapi/td-ameritrade-holding-transactions-api-openapi.yml
+- filename: td-ameritrade-holding-user-management-api-openapi.yml
+  format: yaml
+  label: TD Ameritrade Holding User Management API
+  slug: td-ameritrade-holding-user-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade-holding/refs/heads/main/openapi/td-ameritrade-holding-user-management-api-openapi.yml
+- filename: td-ameritrade-holding-watchlists-api-openapi.yml
+  format: yaml
+  label: TD Ameritrade Holding Watchlists API
+  slug: td-ameritrade-holding-watchlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade-holding/refs/heads/main/openapi/td-ameritrade-holding-watchlists-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,42 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: africastalking-openapi.yml
-  format: yaml
-  label: Africa's Talking SMS API
-  slug: sms
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/openapi/africastalking-openapi.yml
-- filename: africastalking-openapi.yml
-  format: yaml
-  label: Africa's Talking USSD API
-  slug: ussd
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/openapi/africastalking-openapi.yml
-- filename: africastalking-openapi.yml
-  format: yaml
-  label: Africa's Talking Voice API
-  slug: voice
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/openapi/africastalking-openapi.yml
-- filename: africastalking-openapi.yml
+- filename: africastalking-airtime-api-openapi.yml
   format: yaml
   label: Africa's Talking Airtime API
-  slug: airtime
+  slug: africastalking-airtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/openapi/africastalking-openapi.yml
-- filename: africastalking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/openapi/africastalking-airtime-api-openapi.yml
+- filename: africastalking-mobile-data-api-openapi.yml
   format: yaml
   label: Africa's Talking Mobile Data API
-  slug: mobile-data
+  slug: africastalking-mobile-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/openapi/africastalking-openapi.yml
-- filename: africastalking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/openapi/africastalking-mobile-data-api-openapi.yml
+- filename: africastalking-payments-api-openapi.yml
   format: yaml
   label: Africa's Talking Payments API
-  slug: payments
+  slug: africastalking-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/openapi/africastalking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/openapi/africastalking-payments-api-openapi.yml
+- filename: africastalking-premium-sms-api-openapi.yml
+  format: yaml
+  label: Africa's Talking Premium SMS API
+  slug: africastalking-premium-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/openapi/africastalking-premium-sms-api-openapi.yml
+- filename: africastalking-sms-api-openapi.yml
+  format: yaml
+  label: Africa's Talking SMS API
+  slug: africastalking-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/openapi/africastalking-sms-api-openapi.yml
+- filename: africastalking-voice-api-openapi.yml
+  format: yaml
+  label: Africa's Talking Voice API
+  slug: africastalking-voice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/openapi/africastalking-voice-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

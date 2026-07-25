@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: apifuse-api.yaml
+- filename: apifuse-analytics-api-openapi.yml
   format: yaml
-  label: Apifuse API
-  slug: apifuse-api
+  label: Apifuse Analytics API
+  slug: apifuse-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/openapi/apifuse-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/openapi/apifuse-analytics-api-openapi.yml
+- filename: apifuse-connectors-api-openapi.yml
+  format: yaml
+  label: Apifuse Connectors API
+  slug: apifuse-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/openapi/apifuse-connectors-api-openapi.yml
+- filename: apifuse-integrations-api-openapi.yml
+  format: yaml
+  label: Apifuse Integrations API
+  slug: apifuse-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/openapi/apifuse-integrations-api-openapi.yml
+- filename: apifuse-users-api-openapi.yml
+  format: yaml
+  label: Apifuse Users API
+  slug: apifuse-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/openapi/apifuse-users-api-openapi.yml
+- filename: apifuse-workflows-api-openapi.yml
+  format: yaml
+  label: Apifuse Workflows API
+  slug: apifuse-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/openapi/apifuse-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []

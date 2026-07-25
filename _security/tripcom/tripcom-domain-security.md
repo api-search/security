@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: tripcom-plugin-openapi-original.yml
+- filename: tripcom-searchattractionandactivity-api-openapi.yml
   format: yaml
-  label: Trip.com AI Travel Assistant Plugin API
-  slug: tripcom-ai-travel-assistant-plugin-api
+  label: Trip.com SearchAttractionAndActivity API
+  slug: tripcom-searchattractionandactivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/openapi/tripcom-plugin-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/openapi/tripcom-searchattractionandactivity-api-openapi.yml
+- filename: tripcom-searchcars-api-openapi.yml
+  format: yaml
+  label: Trip.com SearchCars API
+  slug: tripcom-searchcars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/openapi/tripcom-searchcars-api-openapi.yml
+- filename: tripcom-searchflightticket-api-openapi.yml
+  format: yaml
+  label: Trip.com SearchFlightTicket API
+  slug: tripcom-searchflightticket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/openapi/tripcom-searchflightticket-api-openapi.yml
+- filename: tripcom-searchhotel-api-openapi.yml
+  format: yaml
+  label: Trip.com SearchHotel API
+  slug: tripcom-searchhotel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/openapi/tripcom-searchhotel-api-openapi.yml
 description: ''
 domains:
 - caa: []

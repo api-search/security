@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tenfold-openapi.yml
+- filename: tenfold-analytics-api-openapi.yml
   format: yaml
-  label: Tenfold API
-  slug: tenfold-api
+  label: Tenfold Analytics API
+  slug: tenfold-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/openapi/tenfold-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/openapi/tenfold-analytics-api-openapi.yml
+- filename: tenfold-authentication-api-openapi.yml
+  format: yaml
+  label: Tenfold Authentication API
+  slug: tenfold-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/openapi/tenfold-authentication-api-openapi.yml
+- filename: tenfold-calls-api-openapi.yml
+  format: yaml
+  label: Tenfold Calls API
+  slug: tenfold-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/openapi/tenfold-calls-api-openapi.yml
+- filename: tenfold-contact-lists-api-openapi.yml
+  format: yaml
+  label: Tenfold Contact Lists API
+  slug: tenfold-contact-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/openapi/tenfold-contact-lists-api-openapi.yml
+- filename: tenfold-crm-records-api-openapi.yml
+  format: yaml
+  label: Tenfold CRM Records API
+  slug: tenfold-crm-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/openapi/tenfold-crm-records-api-openapi.yml
+- filename: tenfold-organizations-api-openapi.yml
+  format: yaml
+  label: Tenfold Organizations API
+  slug: tenfold-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/openapi/tenfold-organizations-api-openapi.yml
+- filename: tenfold-tracking-api-openapi.yml
+  format: yaml
+  label: Tenfold Tracking API
+  slug: tenfold-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/openapi/tenfold-tracking-api-openapi.yml
+- filename: tenfold-users-api-openapi.yml
+  format: yaml
+  label: Tenfold Users API
+  slug: tenfold-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/openapi/tenfold-users-api-openapi.yml
 auth_types:
 - oauth2
 - http

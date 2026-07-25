@@ -1,23 +1,47 @@
 ---
 api_specs:
-- filename: rainbow-application-openapi.yml
+- filename: rainbow-applications-api-openapi.yml
   format: yaml
-  label: Rainbow Application Portal API
-  slug: rainbow-application-api
+  label: Rainbow Applications API
+  slug: rainbow-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/openapi/rainbow-application-openapi.yml
-- filename: rainbow-messaging-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/openapi/rainbow-applications-api-openapi.yml
+- filename: rainbow-authentication-api-openapi.yml
   format: yaml
-  label: Rainbow Messaging API
-  slug: rainbow-messaging-api
+  label: Rainbow Authentication API
+  slug: rainbow-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/openapi/rainbow-messaging-openapi.yml
-- filename: rainbow-contacts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/openapi/rainbow-authentication-api-openapi.yml
+- filename: rainbow-bubbles-api-openapi.yml
+  format: yaml
+  label: Rainbow Bubbles API
+  slug: rainbow-bubbles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/openapi/rainbow-bubbles-api-openapi.yml
+- filename: rainbow-contacts-api-openapi.yml
   format: yaml
   label: Rainbow Contacts API
   slug: rainbow-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/openapi/rainbow-contacts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/openapi/rainbow-contacts-api-openapi.yml
+- filename: rainbow-conversations-api-openapi.yml
+  format: yaml
+  label: Rainbow Conversations API
+  slug: rainbow-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/openapi/rainbow-conversations-api-openapi.yml
+- filename: rainbow-messages-api-openapi.yml
+  format: yaml
+  label: Rainbow Messages API
+  slug: rainbow-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/openapi/rainbow-messages-api-openapi.yml
+- filename: rainbow-users-api-openapi.yml
+  format: yaml
+  label: Rainbow Users API
+  slug: rainbow-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/openapi/rainbow-users-api-openapi.yml
 certifications:
 - ISO 27001
 - HIPAA

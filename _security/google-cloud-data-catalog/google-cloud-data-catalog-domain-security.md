@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: google-cloud-data-catalog-openapi.yml
+- filename: google-cloud-data-catalog-catalog-api-openapi.yml
   format: yaml
-  label: Google Cloud Data Catalog API
-  slug: google-cloud-data-catalog-api
+  label: Google Cloud Data Catalog Catalog API
+  slug: google-cloud-data-catalog-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-catalog/refs/heads/main/openapi/google-cloud-data-catalog-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-catalog/refs/heads/main/openapi/google-cloud-data-catalog-catalog-api-openapi.yml
+- filename: google-cloud-data-catalog-entries-api-openapi.yml
+  format: yaml
+  label: Google Cloud Data Catalog Entries API
+  slug: google-cloud-data-catalog-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-catalog/refs/heads/main/openapi/google-cloud-data-catalog-entries-api-openapi.yml
+- filename: google-cloud-data-catalog-entrygroups-api-openapi.yml
+  format: yaml
+  label: Google Cloud Data Catalog EntryGroups API
+  slug: google-cloud-data-catalog-entrygroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-catalog/refs/heads/main/openapi/google-cloud-data-catalog-entrygroups-api-openapi.yml
+- filename: google-cloud-data-catalog-tagtemplates-api-openapi.yml
+  format: yaml
+  label: Google Cloud Data Catalog TagTemplates API
+  slug: google-cloud-data-catalog-tagtemplates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-catalog/refs/heads/main/openapi/google-cloud-data-catalog-tagtemplates-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yaml
+- filename: drchrono-administrative-api-openapi.yml
   format: yaml
-  label: drchrono REST API
-  slug: drchrono-rest-api
+  label: drchrono Administrative API
+  slug: drchrono-administrative-api
   spec_type: OpenAPI
-  url: https://app.drchrono.com/api-docs/
+  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-administrative-api-openapi.yml
+- filename: drchrono-audit-api-openapi.yml
+  format: yaml
+  label: drchrono Audit API
+  slug: drchrono-audit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-audit-api-openapi.yml
+- filename: drchrono-availability-api-openapi.yml
+  format: yaml
+  label: drchrono Availability API
+  slug: drchrono-availability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-availability-api-openapi.yml
+- filename: drchrono-billing-api-openapi.yml
+  format: yaml
+  label: drchrono Billing API
+  slug: drchrono-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-billing-api-openapi.yml
+- filename: drchrono-clinical-api-openapi.yml
+  format: yaml
+  label: drchrono Clinical API
+  slug: drchrono-clinical-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-clinical-api-openapi.yml
+- filename: drchrono-practice-management-api-openapi.yml
+  format: yaml
+  label: drchrono Practice Management API
+  slug: drchrono-practice-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-practice-management-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

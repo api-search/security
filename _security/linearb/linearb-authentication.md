@@ -2,42 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: linearb-openapi.yml
+- filename: linearb-deployments-api-openapi.yml
   format: yaml
   label: LinearB Deployments API
   slug: linearb-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-openapi.yml
-- filename: linearb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-deployments-api-openapi.yml
+- filename: linearb-incidents-api-openapi.yml
   format: yaml
   label: LinearB Incidents API
   slug: linearb-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-openapi.yml
-- filename: linearb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-incidents-api-openapi.yml
+- filename: linearb-measurements-api-openapi.yml
   format: yaml
   label: LinearB Measurements API
   slug: linearb-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-openapi.yml
-- filename: linearb-openapi.yml
-  format: yaml
-  label: LinearB Teams API
-  slug: linearb-teams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-openapi.yml
-- filename: linearb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-measurements-api-openapi.yml
+- filename: linearb-services-api-openapi.yml
   format: yaml
   label: LinearB Services API
   slug: linearb-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-openapi.yml
-- filename: linearb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-services-api-openapi.yml
+- filename: linearb-teams-api-openapi.yml
   format: yaml
-  label: LinearB Webhooks API
-  slug: linearb-webhooks-api
+  label: LinearB Teams API
+  slug: linearb-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-teams-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

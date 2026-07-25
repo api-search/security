@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: sonar-sonarcloud-api-openapi.yml
+- filename: sonar-issues-api-openapi.yml
   format: yaml
-  label: SonarCloud API
-  slug: sonarcloud-api
+  label: Sonar Issues API
+  slug: sonar-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/openapi/sonar-sonarcloud-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/openapi/sonar-issues-api-openapi.yml
+- filename: sonar-measures-api-openapi.yml
+  format: yaml
+  label: Sonar Measures API
+  slug: sonar-measures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/openapi/sonar-measures-api-openapi.yml
+- filename: sonar-organizations-api-openapi.yml
+  format: yaml
+  label: Sonar Organizations API
+  slug: sonar-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/openapi/sonar-organizations-api-openapi.yml
+- filename: sonar-projects-api-openapi.yml
+  format: yaml
+  label: Sonar Projects API
+  slug: sonar-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/openapi/sonar-projects-api-openapi.yml
+- filename: sonar-quality-gates-api-openapi.yml
+  format: yaml
+  label: Sonar Quality Gates API
+  slug: sonar-quality-gates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/openapi/sonar-quality-gates-api-openapi.yml
+- filename: sonar-user-tokens-api-openapi.yml
+  format: yaml
+  label: Sonar User Tokens API
+  slug: sonar-user-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/openapi/sonar-user-tokens-api-openapi.yml
 description: ''
 domains:
 - caa:

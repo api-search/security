@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: nabla-openapi.yml
+- filename: nabla-authentication-api-openapi.yml
   format: yaml
-  label: Nabla Core API
-  slug: nabla-core-api
+  label: Nabla Authentication API
+  slug: nabla-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nabla/refs/heads/main/openapi/nabla-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nabla/refs/heads/main/openapi/nabla-authentication-api-openapi.yml
+- filename: nabla-transcription-api-openapi.yml
+  format: yaml
+  label: Nabla Transcription API
+  slug: nabla-transcription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nabla/refs/heads/main/openapi/nabla-transcription-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,66 +1,708 @@
 ---
 api_key_in: []
 api_specs:
-- filename: merge-hris-api-openapi.yaml
+- filename: merge-default-api-openapi.yml
   format: yaml
-  label: Merge HRIS API
-  slug: hris-api
+  label: Merge Default API
+  slug: merge-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-hris-api-openapi.yaml
-- filename: merge-ats-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-default-api-openapi.yml
+- filename: merge-subpackage-accesskeys-api-openapi.yml
   format: yaml
-  label: Merge ATS API
-  slug: ats-api
+  label: Merge subpackage_accessKeys API
+  slug: merge-subpackage-accesskeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-ats-api-openapi.yaml
-- filename: merge-accounting-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-accesskeys-api-openapi.yml
+- filename: merge-subpackage-accountdetails-api-openapi.yml
   format: yaml
-  label: Merge Accounting API
-  slug: accounting-api
+  label: Merge subpackage_accountDetails API
+  slug: merge-subpackage-accountdetails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-accounting-api-openapi.yaml
-- filename: merge-ticketing-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-accountdetails-api-openapi.yml
+- filename: merge-subpackage-accountingperiods-api-openapi.yml
   format: yaml
-  label: Merge Ticketing API
-  slug: ticketing-api
+  label: Merge subpackage_accountingPeriods API
+  slug: merge-subpackage-accountingperiods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-ticketing-api-openapi.yaml
-- filename: merge-crm-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-accountingperiods-api-openapi.yml
+- filename: merge-subpackage-accounts-api-openapi.yml
   format: yaml
-  label: Merge CRM API
-  slug: crm-api
+  label: Merge subpackage_accounts API
+  slug: merge-subpackage-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-crm-api-openapi.yaml
-- filename: merge-file-storage-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-accounts-api-openapi.yml
+- filename: merge-subpackage-accounttoken-api-openapi.yml
   format: yaml
-  label: Merge File Storage API
-  slug: file-storage-api
+  label: Merge subpackage_accountToken API
+  slug: merge-subpackage-accounttoken-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-file-storage-api-openapi.yaml
-- filename: merge-knowledge-base-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-accounttoken-api-openapi.yml
+- filename: merge-subpackage-activities-api-openapi.yml
   format: yaml
-  label: Merge Knowledge Base API
-  slug: knowledge-base-api
+  label: Merge subpackage_activities API
+  slug: merge-subpackage-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-knowledge-base-api-openapi.yaml
-- filename: merge-chat-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-activities-api-openapi.yml
+- filename: merge-subpackage-addresses-api-openapi.yml
   format: yaml
-  label: Merge Chat API
-  slug: chat-api
+  label: Merge subpackage_addresses API
+  slug: merge-subpackage-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-chat-api-openapi.yaml
-- filename: merge-agent-handler-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-addresses-api-openapi.yml
+- filename: merge-subpackage-applicationcredentials-api-openapi.yml
   format: yaml
-  label: Merge Agent Handler
-  slug: agent-handler
+  label: Merge subpackage_applicationCredentials API
+  slug: merge-subpackage-applicationcredentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-agent-handler-api-openapi.yaml
-- filename: merge-gateway-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-applicationcredentials-api-openapi.yml
+- filename: merge-subpackage-applications-api-openapi.yml
   format: yaml
-  label: Merge Gateway
-  slug: gateway
+  label: Merge subpackage_applications API
+  slug: merge-subpackage-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-gateway-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-applications-api-openapi.yml
+- filename: merge-subpackage-articles-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_articles API
+  slug: merge-subpackage-articles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-articles-api-openapi.yml
+- filename: merge-subpackage-associations-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_associations API
+  slug: merge-subpackage-associations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-associations-api-openapi.yml
+- filename: merge-subpackage-associationtypes-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_associationTypes API
+  slug: merge-subpackage-associationtypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-associationtypes-api-openapi.yml
+- filename: merge-subpackage-asyncpassthrough-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_asyncPassthrough API
+  slug: merge-subpackage-asyncpassthrough-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-asyncpassthrough-api-openapi.yml
+- filename: merge-subpackage-asynctasks-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_asyncTasks API
+  slug: merge-subpackage-asynctasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-asynctasks-api-openapi.yml
+- filename: merge-subpackage-attachments-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_attachments API
+  slug: merge-subpackage-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-attachments-api-openapi.yml
+- filename: merge-subpackage-auditlog-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_auditLog API
+  slug: merge-subpackage-auditlog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-auditlog-api-openapi.yml
+- filename: merge-subpackage-audittrail-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_auditTrail API
+  slug: merge-subpackage-audittrail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-audittrail-api-openapi.yml
+- filename: merge-subpackage-availableactions-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_availableActions API
+  slug: merge-subpackage-availableactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-availableactions-api-openapi.yml
+- filename: merge-subpackage-balancesheets-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_balanceSheets API
+  slug: merge-subpackage-balancesheets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-balancesheets-api-openapi.yml
+- filename: merge-subpackage-bankfeedaccounts-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_bankFeedAccounts API
+  slug: merge-subpackage-bankfeedaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-bankfeedaccounts-api-openapi.yml
+- filename: merge-subpackage-bankfeedtransactions-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_bankFeedTransactions API
+  slug: merge-subpackage-bankfeedtransactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-bankfeedtransactions-api-openapi.yml
+- filename: merge-subpackage-bankinfo-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_bankInfo API
+  slug: merge-subpackage-bankinfo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-bankinfo-api-openapi.yml
+- filename: merge-subpackage-benefits-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_benefits API
+  slug: merge-subpackage-benefits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-benefits-api-openapi.yml
+- filename: merge-subpackage-candidates-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_candidates API
+  slug: merge-subpackage-candidates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-candidates-api-openapi.yml
+- filename: merge-subpackage-cashflowstatements-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_cashFlowStatements API
+  slug: merge-subpackage-cashflowstatements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-cashflowstatements-api-openapi.yml
+- filename: merge-subpackage-collections-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_collections API
+  slug: merge-subpackage-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-collections-api-openapi.yml
+- filename: merge-subpackage-comments-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_comments API
+  slug: merge-subpackage-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-comments-api-openapi.yml
+- filename: merge-subpackage-companies-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_companies API
+  slug: merge-subpackage-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-companies-api-openapi.yml
+- filename: merge-subpackage-companyinfo-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_companyInfo API
+  slug: merge-subpackage-companyinfo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-companyinfo-api-openapi.yml
+- filename: merge-subpackage-connectors-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_connectors API
+  slug: merge-subpackage-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-connectors-api-openapi.yml
+- filename: merge-subpackage-contacts-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_contacts API
+  slug: merge-subpackage-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-contacts-api-openapi.yml
+- filename: merge-subpackage-containers-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_containers API
+  slug: merge-subpackage-containers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-containers-api-openapi.yml
+- filename: merge-subpackage-conversations-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_conversations API
+  slug: merge-subpackage-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-conversations-api-openapi.yml
+- filename: merge-subpackage-credentials-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_credentials API
+  slug: merge-subpackage-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-credentials-api-openapi.yml
+- filename: merge-subpackage-creditnotes-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_creditNotes API
+  slug: merge-subpackage-creditnotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-creditnotes-api-openapi.yml
+- filename: merge-subpackage-customobjectclasses-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_customObjectClasses API
+  slug: merge-subpackage-customobjectclasses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-customobjectclasses-api-openapi.yml
+- filename: merge-subpackage-customobjects-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_customObjects API
+  slug: merge-subpackage-customobjects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-customobjects-api-openapi.yml
+- filename: merge-subpackage-customregexrules-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_customRegexRules API
+  slug: merge-subpackage-customregexrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-customregexrules-api-openapi.yml
+- filename: merge-subpackage-deleteaccount-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_deleteAccount API
+  slug: merge-subpackage-deleteaccount-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-deleteaccount-api-openapi.yml
+- filename: merge-subpackage-departments-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_departments API
+  slug: merge-subpackage-departments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-departments-api-openapi.yml
+- filename: merge-subpackage-dependents-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_dependents API
+  slug: merge-subpackage-dependents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-dependents-api-openapi.yml
+- filename: merge-subpackage-drives-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_drives API
+  slug: merge-subpackage-drives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-drives-api-openapi.yml
+- filename: merge-subpackage-eeocs-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_eeocs API
+  slug: merge-subpackage-eeocs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-eeocs-api-openapi.yml
+- filename: merge-subpackage-embeddings-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_embeddings API
+  slug: merge-subpackage-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-embeddings-api-openapi.yml
+- filename: merge-subpackage-employeepayrollruns-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_employeePayrollRuns API
+  slug: merge-subpackage-employeepayrollruns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-employeepayrollruns-api-openapi.yml
+- filename: merge-subpackage-employees-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_employees API
+  slug: merge-subpackage-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-employees-api-openapi.yml
+- filename: merge-subpackage-employerbenefits-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_employerBenefits API
+  slug: merge-subpackage-employerbenefits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-employerbenefits-api-openapi.yml
+- filename: merge-subpackage-employments-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_employments API
+  slug: merge-subpackage-employments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-employments-api-openapi.yml
+- filename: merge-subpackage-engagements-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_engagements API
+  slug: merge-subpackage-engagements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-engagements-api-openapi.yml
+- filename: merge-subpackage-engagementtypes-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_engagementTypes API
+  slug: merge-subpackage-engagementtypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-engagementtypes-api-openapi.yml
+- filename: merge-subpackage-expensereports-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_expenseReports API
+  slug: merge-subpackage-expensereports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-expensereports-api-openapi.yml
+- filename: merge-subpackage-expenses-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_expenses API
+  slug: merge-subpackage-expenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-expenses-api-openapi.yml
+- filename: merge-subpackage-fieldmapping-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_fieldMapping API
+  slug: merge-subpackage-fieldmapping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-fieldmapping-api-openapi.yml
+- filename: merge-subpackage-files-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_files API
+  slug: merge-subpackage-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-files-api-openapi.yml
+- filename: merge-subpackage-folders-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_folders API
+  slug: merge-subpackage-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-folders-api-openapi.yml
+- filename: merge-subpackage-forceresync-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_forceResync API
+  slug: merge-subpackage-forceresync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-forceresync-api-openapi.yml
+- filename: merge-subpackage-generatekey-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_generateKey API
+  slug: merge-subpackage-generatekey-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-generatekey-api-openapi.yml
+- filename: merge-subpackage-groups-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_groups API
+  slug: merge-subpackage-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-groups-api-openapi.yml
+- filename: merge-subpackage-incomestatements-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_incomeStatements API
+  slug: merge-subpackage-incomestatements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-incomestatements-api-openapi.yml
+- filename: merge-subpackage-interviews-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_interviews API
+  slug: merge-subpackage-interviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-interviews-api-openapi.yml
+- filename: merge-subpackage-invoices-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_invoices API
+  slug: merge-subpackage-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-invoices-api-openapi.yml
+- filename: merge-subpackage-issues-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_issues API
+  slug: merge-subpackage-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-issues-api-openapi.yml
+- filename: merge-subpackage-itemfulfillments-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_itemFulfillments API
+  slug: merge-subpackage-itemfulfillments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-itemfulfillments-api-openapi.yml
+- filename: merge-subpackage-items-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_items API
+  slug: merge-subpackage-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-items-api-openapi.yml
+- filename: merge-subpackage-jobinterviewstages-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_jobInterviewStages API
+  slug: merge-subpackage-jobinterviewstages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-jobinterviewstages-api-openapi.yml
+- filename: merge-subpackage-jobpostings-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_jobPostings API
+  slug: merge-subpackage-jobpostings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-jobpostings-api-openapi.yml
+- filename: merge-subpackage-jobs-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_jobs API
+  slug: merge-subpackage-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-jobs-api-openapi.yml
+- filename: merge-subpackage-journalentries-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_journalEntries API
+  slug: merge-subpackage-journalentries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-journalentries-api-openapi.yml
+- filename: merge-subpackage-leads-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_leads API
+  slug: merge-subpackage-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-leads-api-openapi.yml
+- filename: merge-subpackage-linkedaccounts-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_linkedAccounts API
+  slug: merge-subpackage-linkedaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-linkedaccounts-api-openapi.yml
+- filename: merge-subpackage-linktoken-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_linkToken API
+  slug: merge-subpackage-linktoken-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-linktoken-api-openapi.yml
+- filename: merge-subpackage-locations-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_locations API
+  slug: merge-subpackage-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-locations-api-openapi.yml
+- filename: merge-subpackage-mcp-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_mcp API
+  slug: merge-subpackage-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-mcp-api-openapi.yml
+- filename: merge-subpackage-messages-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_messages API
+  slug: merge-subpackage-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-messages-api-openapi.yml
+- filename: merge-subpackage-models-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_models API
+  slug: merge-subpackage-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-models-api-openapi.yml
+- filename: merge-subpackage-notes-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_notes API
+  slug: merge-subpackage-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-notes-api-openapi.yml
+- filename: merge-subpackage-offers-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_offers API
+  slug: merge-subpackage-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-offers-api-openapi.yml
+- filename: merge-subpackage-offices-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_offices API
+  slug: merge-subpackage-offices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-offices-api-openapi.yml
+- filename: merge-subpackage-opportunities-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_opportunities API
+  slug: merge-subpackage-opportunities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-opportunities-api-openapi.yml
+- filename: merge-subpackage-passthrough-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_passthrough API
+  slug: merge-subpackage-passthrough-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-passthrough-api-openapi.yml
+- filename: merge-subpackage-paygroups-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_payGroups API
+  slug: merge-subpackage-paygroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-paygroups-api-openapi.yml
+- filename: merge-subpackage-paymentmethods-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_paymentMethods API
+  slug: merge-subpackage-paymentmethods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-paymentmethods-api-openapi.yml
+- filename: merge-subpackage-payments-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_payments API
+  slug: merge-subpackage-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-payments-api-openapi.yml
+- filename: merge-subpackage-paymentterms-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_paymentTerms API
+  slug: merge-subpackage-paymentterms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-paymentterms-api-openapi.yml
+- filename: merge-subpackage-payrollruns-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_payrollRuns API
+  slug: merge-subpackage-payrollruns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-payrollruns-api-openapi.yml
+- filename: merge-subpackage-phonenumbers-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_phoneNumbers API
+  slug: merge-subpackage-phonenumbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-phonenumbers-api-openapi.yml
+- filename: merge-subpackage-projects-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_projects API
+  slug: merge-subpackage-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-projects-api-openapi.yml
+- filename: merge-subpackage-purchaseorders-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_purchaseOrders API
+  slug: merge-subpackage-purchaseorders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-purchaseorders-api-openapi.yml
+- filename: merge-subpackage-regeneratekey-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_regenerateKey API
+  slug: merge-subpackage-regeneratekey-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-regeneratekey-api-openapi.yml
+- filename: merge-subpackage-registeredusers-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_registeredUsers API
+  slug: merge-subpackage-registeredusers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-registeredusers-api-openapi.yml
+- filename: merge-subpackage-rejectreasons-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_rejectReasons API
+  slug: merge-subpackage-rejectreasons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-rejectreasons-api-openapi.yml
+- filename: merge-subpackage-responses-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_responses API
+  slug: merge-subpackage-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-responses-api-openapi.yml
+- filename: merge-subpackage-roles-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_roles API
+  slug: merge-subpackage-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-roles-api-openapi.yml
+- filename: merge-subpackage-routing-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_routing API
+  slug: merge-subpackage-routing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-routing-api-openapi.yml
+- filename: merge-subpackage-salesorders-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_salesOrders API
+  slug: merge-subpackage-salesorders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-salesorders-api-openapi.yml
+- filename: merge-subpackage-scopes-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_scopes API
+  slug: merge-subpackage-scopes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-scopes-api-openapi.yml
+- filename: merge-subpackage-scorecards-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_scorecards API
+  slug: merge-subpackage-scorecards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-scorecards-api-openapi.yml
+- filename: merge-subpackage-stages-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_stages API
+  slug: merge-subpackage-stages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-stages-api-openapi.yml
+- filename: merge-subpackage-standardentityrules-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_standardEntityRules API
+  slug: merge-subpackage-standardentityrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-standardentityrules-api-openapi.yml
+- filename: merge-subpackage-syncstatus-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_syncStatus API
+  slug: merge-subpackage-syncstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-syncstatus-api-openapi.yml
+- filename: merge-subpackage-tags-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_tags API
+  slug: merge-subpackage-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-tags-api-openapi.yml
+- filename: merge-subpackage-tasks-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_tasks API
+  slug: merge-subpackage-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-tasks-api-openapi.yml
+- filename: merge-subpackage-taxrates-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_taxRates API
+  slug: merge-subpackage-taxrates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-taxrates-api-openapi.yml
+- filename: merge-subpackage-teams-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_teams API
+  slug: merge-subpackage-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-teams-api-openapi.yml
+- filename: merge-subpackage-tickets-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_tickets API
+  slug: merge-subpackage-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-tickets-api-openapi.yml
+- filename: merge-subpackage-timeoff-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_timeOff API
+  slug: merge-subpackage-timeoff-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-timeoff-api-openapi.yml
+- filename: merge-subpackage-timeoffbalances-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_timeOffBalances API
+  slug: merge-subpackage-timeoffbalances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-timeoffbalances-api-openapi.yml
+- filename: merge-subpackage-timesheetentries-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_timesheetEntries API
+  slug: merge-subpackage-timesheetentries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-timesheetentries-api-openapi.yml
+- filename: merge-subpackage-tooldescriptionoverrides-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_toolDescriptionOverrides API
+  slug: merge-subpackage-tooldescriptionoverrides-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-tooldescriptionoverrides-api-openapi.yml
+- filename: merge-subpackage-toolpacks-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_toolPacks API
+  slug: merge-subpackage-toolpacks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-toolpacks-api-openapi.yml
+- filename: merge-subpackage-toolsearch-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_toolSearch API
+  slug: merge-subpackage-toolsearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-toolsearch-api-openapi.yml
+- filename: merge-subpackage-trackingcategories-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_trackingCategories API
+  slug: merge-subpackage-trackingcategories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-trackingcategories-api-openapi.yml
+- filename: merge-subpackage-transactions-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_transactions API
+  slug: merge-subpackage-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-transactions-api-openapi.yml
+- filename: merge-subpackage-users-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_users API
+  slug: merge-subpackage-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-users-api-openapi.yml
+- filename: merge-subpackage-vendorcredits-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_vendorCredits API
+  slug: merge-subpackage-vendorcredits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-vendorcredits-api-openapi.yml
+- filename: merge-subpackage-vendors-api-openapi.yml
+  format: yaml
+  label: Merge subpackage_vendors API
+  slug: merge-subpackage-vendors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-vendors-api-openapi.yml
 auth_types:
 - http
 description: ''

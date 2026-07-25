@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: leeo-insurance-services-fleet-openapi.yml
+- filename: leeo-insurance-services-aggregates-api-openapi.yml
   format: yaml
-  label: LEEO Fleet Telematics API
-  slug: leeo-insurance-services-fleet-telematics
+  label: LEEO Insurance Services Aggregates API
+  slug: leeo-insurance-services-aggregates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/openapi/leeo-insurance-services-fleet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/openapi/leeo-insurance-services-aggregates-api-openapi.yml
+- filename: leeo-insurance-services-drivers-api-openapi.yml
+  format: yaml
+  label: LEEO Insurance Services Drivers API
+  slug: leeo-insurance-services-drivers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/openapi/leeo-insurance-services-drivers-api-openapi.yml
+- filename: leeo-insurance-services-reports-api-openapi.yml
+  format: yaml
+  label: LEEO Insurance Services Reports API
+  slug: leeo-insurance-services-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/openapi/leeo-insurance-services-reports-api-openapi.yml
+- filename: leeo-insurance-services-trips-api-openapi.yml
+  format: yaml
+  label: LEEO Insurance Services Trips API
+  slug: leeo-insurance-services-trips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/openapi/leeo-insurance-services-trips-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

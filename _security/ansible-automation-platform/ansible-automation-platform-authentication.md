@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ansible-controller-api.yaml
+- filename: ansible-automation-platform-inventories-api-openapi.yml
   format: yaml
-  label: Ansible Automation Controller API
-  slug: controller-api
+  label: Ansible Automation Platform Inventories API
+  slug: ansible-automation-platform-inventories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/openapi/ansible-controller-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/openapi/ansible-automation-platform-inventories-api-openapi.yml
+- filename: ansible-automation-platform-job-templates-api-openapi.yml
+  format: yaml
+  label: Ansible Automation Platform Job Templates API
+  slug: ansible-automation-platform-job-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/openapi/ansible-automation-platform-job-templates-api-openapi.yml
+- filename: ansible-automation-platform-jobs-api-openapi.yml
+  format: yaml
+  label: Ansible Automation Platform Jobs API
+  slug: ansible-automation-platform-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/openapi/ansible-automation-platform-jobs-api-openapi.yml
+- filename: ansible-automation-platform-projects-api-openapi.yml
+  format: yaml
+  label: Ansible Automation Platform Projects API
+  slug: ansible-automation-platform-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/openapi/ansible-automation-platform-projects-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -2,42 +2,90 @@
 api_key_in:
 - header
 api_specs:
-- filename: tablecheck-availability.yml
+- filename: tablecheck-availability-api-openapi.yml
   format: yaml
-  label: TableCheck Availability API
+  label: TableCheck availability API
   slug: tablecheck-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-availability.yml
-- filename: tablecheck-web-booking.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-availability-api-openapi.yml
+- filename: tablecheck-blockages-api-openapi.yml
   format: yaml
-  label: TableCheck Web Booking API
-  slug: tablecheck-web-booking-api
+  label: TableCheck blockages API
+  slug: tablecheck-blockages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-web-booking.yml
-- filename: tablecheck-booking.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-blockages-api-openapi.yml
+- filename: tablecheck-calendar-api-openapi.yml
   format: yaml
-  label: TableCheck Booking API
-  slug: tablecheck-booking-api
+  label: TableCheck calendar API
+  slug: tablecheck-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-booking.yml
-- filename: tablecheck-crm.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-calendar-api-openapi.yml
+- filename: tablecheck-customers-api-openapi.yml
   format: yaml
-  label: TableCheck CRM API
-  slug: tablecheck-crm-api
+  label: TableCheck customers API
+  slug: tablecheck-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-crm.yml
-- filename: tablecheck-pos.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-customers-api-openapi.yml
+- filename: tablecheck-franchises-api-openapi.yml
   format: yaml
-  label: TableCheck POS API
-  slug: tablecheck-pos-api
+  label: TableCheck franchises API
+  slug: tablecheck-franchises-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-pos.yml
-- filename: tablecheck-site-controller.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-franchises-api-openapi.yml
+- filename: tablecheck-membership-programs-api-openapi.yml
   format: yaml
-  label: TableCheck Site Controller API
-  slug: tablecheck-site-controller-api
+  label: TableCheck membership_programs API
+  slug: tablecheck-membership-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-site-controller.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-membership-programs-api-openapi.yml
+- filename: tablecheck-memberships-api-openapi.yml
+  format: yaml
+  label: TableCheck memberships API
+  slug: tablecheck-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-memberships-api-openapi.yml
+- filename: tablecheck-pos-journals-api-openapi.yml
+  format: yaml
+  label: TableCheck pos_journals API
+  slug: tablecheck-pos-journals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-pos-journals-api-openapi.yml
+- filename: tablecheck-reservation-flags-api-openapi.yml
+  format: yaml
+  label: TableCheck reservation_flags API
+  slug: tablecheck-reservation-flags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-reservation-flags-api-openapi.yml
+- filename: tablecheck-reservations-api-openapi.yml
+  format: yaml
+  label: TableCheck reservations API
+  slug: tablecheck-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-reservations-api-openapi.yml
+- filename: tablecheck-shops-api-openapi.yml
+  format: yaml
+  label: TableCheck shops API
+  slug: tablecheck-shops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-shops-api-openapi.yml
+- filename: tablecheck-table-status-api-openapi.yml
+  format: yaml
+  label: TableCheck table_status API
+  slug: tablecheck-table-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-table-status-api-openapi.yml
+- filename: tablecheck-tables-api-openapi.yml
+  format: yaml
+  label: TableCheck tables API
+  slug: tablecheck-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-tables-api-openapi.yml
+- filename: tablecheck-timetable-api-openapi.yml
+  format: yaml
+  label: TableCheck timetable API
+  slug: tablecheck-timetable-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-timetable-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

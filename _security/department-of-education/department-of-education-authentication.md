@@ -1,6 +1,13 @@
 ---
 api_key_in:
 - query
+api_specs:
+- filename: department-of-education-schools-api-openapi.yml
+  format: yaml
+  label: Department of Education Schools API
+  slug: department-of-education-schools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-education/refs/heads/main/openapi/department-of-education-schools-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

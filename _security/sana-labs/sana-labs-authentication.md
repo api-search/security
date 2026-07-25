@@ -1,30 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sana-labs-openapi.yml
+- filename: sana-labs-assignments-api-openapi.yml
   format: yaml
-  label: Sana AI Assistant & Agents API
-  slug: ai-assistant-agents-api
+  label: Sana Assignments API
+  slug: sana-labs-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-openapi.yml
-- filename: sana-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-assignments-api-openapi.yml
+- filename: sana-labs-authentication-api-openapi.yml
   format: yaml
-  label: Sana Knowledge & Search API
-  slug: knowledge-search-api
+  label: Sana Authentication API
+  slug: sana-labs-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-openapi.yml
-- filename: sana-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-authentication-api-openapi.yml
+- filename: sana-labs-courses-api-openapi.yml
   format: yaml
-  label: Sana Learn Content & Learning API
-  slug: content-learning-api
+  label: Sana Courses API
+  slug: sana-labs-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-openapi.yml
-- filename: sana-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-courses-api-openapi.yml
+- filename: sana-labs-groups-api-openapi.yml
   format: yaml
-  label: Sana Integrations API
-  slug: integrations-api
+  label: Sana Groups API
+  slug: sana-labs-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-groups-api-openapi.yml
+- filename: sana-labs-insights-api-openapi.yml
+  format: yaml
+  label: Sana Insights API
+  slug: sana-labs-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-insights-api-openapi.yml
+- filename: sana-labs-paths-api-openapi.yml
+  format: yaml
+  label: Sana Paths API
+  slug: sana-labs-paths-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-paths-api-openapi.yml
+- filename: sana-labs-programs-api-openapi.yml
+  format: yaml
+  label: Sana Programs API
+  slug: sana-labs-programs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-programs-api-openapi.yml
+- filename: sana-labs-reporting-api-openapi.yml
+  format: yaml
+  label: Sana Reporting API
+  slug: sana-labs-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-reporting-api-openapi.yml
+- filename: sana-labs-teamspaces-api-openapi.yml
+  format: yaml
+  label: Sana Teamspaces API
+  slug: sana-labs-teamspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-teamspaces-api-openapi.yml
+- filename: sana-labs-users-api-openapi.yml
+  format: yaml
+  label: Sana Users API
+  slug: sana-labs-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-users-api-openapi.yml
+- filename: sana-labs-xapi-api-openapi.yml
+  format: yaml
+  label: Sana xAPI API
+  slug: sana-labs-xapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-xapi-api-openapi.yml
 auth_types:
 - http
 description: ''

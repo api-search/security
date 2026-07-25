@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: keyframe-labs-sessions-openapi-original.json
-  format: json
-  label: Keyframe Sessions API
-  slug: keyframe-sessions-api
+- filename: keyframe-labs-llm-models-api-openapi.yml
+  format: yaml
+  label: Keyframe Labs LLM models API
+  slug: keyframe-labs-llm-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/openapi/keyframe-labs-sessions-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/openapi/keyframe-labs-llm-models-api-openapi.yml
+- filename: keyframe-labs-meet-bots-api-openapi.yml
+  format: yaml
+  label: Keyframe Labs Meet bots API
+  slug: keyframe-labs-meet-bots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/openapi/keyframe-labs-meet-bots-api-openapi.yml
+- filename: keyframe-labs-sessions-api-openapi.yml
+  format: yaml
+  label: Keyframe Labs Sessions API
+  slug: keyframe-labs-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/openapi/keyframe-labs-sessions-api-openapi.yml
+- filename: keyframe-labs-voices-api-openapi.yml
+  format: yaml
+  label: Keyframe Labs Voices API
+  slug: keyframe-labs-voices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/openapi/keyframe-labs-voices-api-openapi.yml
 description: ''
 domains:
 - caa: []

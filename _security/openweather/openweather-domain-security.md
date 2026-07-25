@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: openweather-openapi.yml
+- filename: openweather-air-pollution-api-openapi.yml
+  format: yaml
+  label: OpenWeather Air Pollution API
+  slug: openweather-air-pollution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openweather/refs/heads/main/openapi/openweather-air-pollution-api-openapi.yml
+- filename: openweather-air-pollution-api-openapi.yml
+  format: yaml
+  label: OpenWeather Air Pollution API
+  slug: openweather-air-pollution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openweather/refs/heads/main/openapi/openweather-air-pollution-api-openapi.yml
+- filename: openweather-one-call-api-openapi.yml
   format: yaml
   label: OpenWeather One Call API
   slug: openweather-one-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweather/refs/heads/main/openapi/openweather-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openweather/refs/heads/main/openapi/openweather-one-call-api-openapi.yml
 description: ''
 domains:
 - caa: []

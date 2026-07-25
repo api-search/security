@@ -24,6 +24,42 @@ api_specs:
   slug: hostaway-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-webhooks-api-openapi.yml
+- filename: hostaway-listing-amenities-api-openapi.yml
+  format: yaml
+  label: Hostaway Listing Amenities API
+  slug: hostaway-listing-amenities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-listing-amenities-api-openapi.yml
+- filename: hostaway-listing-bed-types-api-openapi.yml
+  format: yaml
+  label: Hostaway Listing Bed Types API
+  slug: hostaway-listing-bed-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-listing-bed-types-api-openapi.yml
+- filename: hostaway-listing-images-api-openapi.yml
+  format: yaml
+  label: Hostaway Listing Images API
+  slug: hostaway-listing-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-listing-images-api-openapi.yml
+- filename: hostaway-reservation-coupons-api-openapi.yml
+  format: yaml
+  label: Hostaway Reservation Coupons API
+  slug: hostaway-reservation-coupons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-reservation-coupons-api-openapi.yml
+- filename: hostaway-reservation-fees-api-openapi.yml
+  format: yaml
+  label: Hostaway Reservation Fees API
+  slug: hostaway-reservation-fees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-reservation-fees-api-openapi.yml
+- filename: hostaway-reservation-units-api-openapi.yml
+  format: yaml
+  label: Hostaway Reservation Units API
+  slug: hostaway-reservation-units-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-reservation-units-api-openapi.yml
 description: ''
 domains:
 - caa: []

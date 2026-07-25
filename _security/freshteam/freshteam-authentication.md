@@ -1,36 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: freshteam-openapi.yml
-  format: yaml
-  label: Freshteam Employees API
-  slug: freshteam-employees-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/openapi/freshteam-openapi.yml
-- filename: freshteam-openapi.yml
-  format: yaml
-  label: Freshteam Time-off API
-  slug: freshteam-time-off-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/openapi/freshteam-openapi.yml
-- filename: freshteam-openapi.yml
-  format: yaml
-  label: Freshteam Job Postings API
-  slug: freshteam-job-postings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/openapi/freshteam-openapi.yml
-- filename: freshteam-openapi.yml
+- filename: freshteam-applicants-api-openapi.yml
   format: yaml
   label: Freshteam Applicants API
   slug: freshteam-applicants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/openapi/freshteam-openapi.yml
-- filename: freshteam-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/openapi/freshteam-applicants-api-openapi.yml
+- filename: freshteam-employees-api-openapi.yml
+  format: yaml
+  label: Freshteam Employees API
+  slug: freshteam-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/openapi/freshteam-employees-api-openapi.yml
+- filename: freshteam-job-postings-api-openapi.yml
+  format: yaml
+  label: Freshteam Job Postings API
+  slug: freshteam-job-postings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/openapi/freshteam-job-postings-api-openapi.yml
+- filename: freshteam-onboarding-api-openapi.yml
   format: yaml
   label: Freshteam Onboarding API
   slug: freshteam-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/openapi/freshteam-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/openapi/freshteam-onboarding-api-openapi.yml
+- filename: freshteam-time-off-api-openapi.yml
+  format: yaml
+  label: Freshteam Time-off API
+  slug: freshteam-time-off-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/openapi/freshteam-time-off-api-openapi.yml
 auth_types:
 - http
 description: ''

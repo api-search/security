@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: rest
+- filename: meet-conference-records-api-openapi.yml
   format: yaml
-  label: Google Meet REST API v2
-  slug: rest-api-v2
+  label: Google Meet Conference Records API
+  slug: meet-conference-records-api
   spec_type: OpenAPI
-  url: https://meet.googleapis.com/$discovery/rest?version=v2
+  url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/openapi/meet-conference-records-api-openapi.yml
+- filename: meet-participants-api-openapi.yml
+  format: yaml
+  label: Google Meet Participants API
+  slug: meet-participants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/openapi/meet-participants-api-openapi.yml
+- filename: meet-recordings-api-openapi.yml
+  format: yaml
+  label: Google Meet Recordings API
+  slug: meet-recordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/openapi/meet-recordings-api-openapi.yml
+- filename: meet-spaces-api-openapi.yml
+  format: yaml
+  label: Google Meet Spaces API
+  slug: meet-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/openapi/meet-spaces-api-openapi.yml
+- filename: meet-transcripts-api-openapi.yml
+  format: yaml
+  label: Google Meet Transcripts API
+  slug: meet-transcripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/openapi/meet-transcripts-api-openapi.yml
 auth_types:
 - http
 - oauth2

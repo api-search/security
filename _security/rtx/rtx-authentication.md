@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: rtx-eagle-api-openapi.yml
+- filename: rtx-analytics-api-openapi.yml
   format: yaml
-  label: RTX EAGLE API
-  slug: eagle-api
+  label: RTX Analytics API
+  slug: rtx-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/openapi/rtx-eagle-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/openapi/rtx-analytics-api-openapi.yml
+- filename: rtx-data-sources-api-openapi.yml
+  format: yaml
+  label: RTX Data Sources API
+  slug: rtx-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/openapi/rtx-data-sources-api-openapi.yml
+- filename: rtx-reports-api-openapi.yml
+  format: yaml
+  label: RTX Reports API
+  slug: rtx-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/openapi/rtx-reports-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: gupshup-openapi.yml
+- filename: gupshup-messaging-api-openapi.yml
   format: yaml
-  label: Gupshup WhatsApp Messaging API
-  slug: gupshup-whatsapp-messaging-api
+  label: Gupshup Messaging API
+  slug: gupshup-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gupshup/refs/heads/main/openapi/gupshup-openapi.yml
-- filename: gupshup-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gupshup/refs/heads/main/openapi/gupshup-messaging-api-openapi.yml
+- filename: gupshup-opt-in-api-openapi.yml
   format: yaml
-  label: Gupshup WhatsApp Template Messaging API
-  slug: gupshup-whatsapp-template-api
+  label: Gupshup Opt-In API
+  slug: gupshup-opt-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gupshup/refs/heads/main/openapi/gupshup-openapi.yml
-- filename: gupshup-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gupshup/refs/heads/main/openapi/gupshup-opt-in-api-openapi.yml
+- filename: gupshup-templates-api-openapi.yml
   format: yaml
-  label: Gupshup WhatsApp Opt-In Management API
-  slug: gupshup-whatsapp-optin-api
+  label: Gupshup Templates API
+  slug: gupshup-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gupshup/refs/heads/main/openapi/gupshup-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gupshup/refs/heads/main/openapi/gupshup-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []

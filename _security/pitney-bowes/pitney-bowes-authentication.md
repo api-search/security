@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: pitney-bowes-openapi.yml
+- filename: pitney-bowes-address-api-openapi.yml
   format: yaml
-  label: Pitney Bowes APIs
-  slug: pitney-bowes
+  label: Pitney Bowes Address API
+  slug: pitney-bowes-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-address-api-openapi.yml
+- filename: pitney-bowes-manifests-api-openapi.yml
+  format: yaml
+  label: Pitney Bowes Manifests API
+  slug: pitney-bowes-manifests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-manifests-api-openapi.yml
+- filename: pitney-bowes-oauth-api-openapi.yml
+  format: yaml
+  label: Pitney Bowes Oauth API
+  slug: pitney-bowes-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-oauth-api-openapi.yml
+- filename: pitney-bowes-pickups-api-openapi.yml
+  format: yaml
+  label: Pitney Bowes Pickups API
+  slug: pitney-bowes-pickups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-pickups-api-openapi.yml
+- filename: pitney-bowes-rating-api-openapi.yml
+  format: yaml
+  label: Pitney Bowes Rating API
+  slug: pitney-bowes-rating-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-rating-api-openapi.yml
+- filename: pitney-bowes-reports-api-openapi.yml
+  format: yaml
+  label: Pitney Bowes Reports API
+  slug: pitney-bowes-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-reports-api-openapi.yml
+- filename: pitney-bowes-shipments-api-openapi.yml
+  format: yaml
+  label: Pitney Bowes Shipments API
+  slug: pitney-bowes-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-shipments-api-openapi.yml
+- filename: pitney-bowes-tracking-api-openapi.yml
+  format: yaml
+  label: Pitney Bowes Tracking API
+  slug: pitney-bowes-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-tracking-api-openapi.yml
 auth_types:
 - http
 - oauth2

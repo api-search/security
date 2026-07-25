@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: brandfetch-brand-api.yml
+- filename: brand-api-brands-api-openapi.yml
   format: yaml
-  label: Brandfetch Brand API
-  slug: brandfetch-brand-api
+  label: Brand API (Brandfetch) Brands API
+  slug: brand-api-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brandfetch-brand-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brand-api-brands-api-openapi.yml
 description: ''
 domains:
 - caa: []

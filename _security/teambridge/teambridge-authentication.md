@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: teambridge-openapi-original.json
-  format: json
-  label: Teambridge External API
-  slug: teambridge-external-api
+- filename: teambridge-collections-unified-api-api-openapi.yml
+  format: yaml
+  label: Teambridge Collections (Unified API) API
+  slug: teambridge-collections-unified-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/openapi/teambridge-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/openapi/teambridge-collections-unified-api-api-openapi.yml
+- filename: teambridge-documents-api-openapi.yml
+  format: yaml
+  label: Teambridge Documents API
+  slug: teambridge-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/openapi/teambridge-documents-api-openapi.yml
+- filename: teambridge-mappings-api-openapi.yml
+  format: yaml
+  label: Teambridge Mappings API
+  slug: teambridge-mappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/openapi/teambridge-mappings-api-openapi.yml
+- filename: teambridge-utilities-api-openapi.yml
+  format: yaml
+  label: Teambridge Utilities API
+  slug: teambridge-utilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/openapi/teambridge-utilities-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

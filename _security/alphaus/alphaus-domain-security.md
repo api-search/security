@@ -1,11 +1,95 @@
 ---
 api_specs:
-- filename: alphaus-blueapi-openapi-original.json
-  format: json
-  label: Blue API
-  slug: blue-api
+- filename: alphaus-admin-api-openapi.yml
+  format: yaml
+  label: Alphaus Admin API
+  slug: alphaus-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-blueapi-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-admin-api-openapi.yml
+- filename: alphaus-billing-api-openapi.yml
+  format: yaml
+  label: Alphaus Billing API
+  slug: alphaus-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-billing-api-openapi.yml
+- filename: alphaus-cost-api-openapi.yml
+  format: yaml
+  label: Alphaus Cost API
+  slug: alphaus-cost-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-cost-api-openapi.yml
+- filename: alphaus-cover-api-openapi.yml
+  format: yaml
+  label: Alphaus Cover API
+  slug: alphaus-cover-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-cover-api-openapi.yml
+- filename: alphaus-flags-api-openapi.yml
+  format: yaml
+  label: Alphaus Flags API
+  slug: alphaus-flags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-flags-api-openapi.yml
+- filename: alphaus-flow-api-openapi.yml
+  format: yaml
+  label: Alphaus Flow API
+  slug: alphaus-flow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-flow-api-openapi.yml
+- filename: alphaus-guaranteedcommitments-api-openapi.yml
+  format: yaml
+  label: Alphaus GuaranteedCommitments API
+  slug: alphaus-guaranteedcommitments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-guaranteedcommitments-api-openapi.yml
+- filename: alphaus-iam-api-openapi.yml
+  format: yaml
+  label: Alphaus Iam API
+  slug: alphaus-iam-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-iam-api-openapi.yml
+- filename: alphaus-luster-api-openapi.yml
+  format: yaml
+  label: Alphaus Luster API
+  slug: alphaus-luster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-luster-api-openapi.yml
+- filename: alphaus-operations-api-openapi.yml
+  format: yaml
+  label: Alphaus Operations API
+  slug: alphaus-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-operations-api-openapi.yml
+- filename: alphaus-organization-api-openapi.yml
+  format: yaml
+  label: Alphaus Organization API
+  slug: alphaus-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-organization-api-openapi.yml
+- filename: alphaus-preferences-api-openapi.yml
+  format: yaml
+  label: Alphaus Preferences API
+  slug: alphaus-preferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-preferences-api-openapi.yml
+- filename: alphaus-pricing-api-openapi.yml
+  format: yaml
+  label: Alphaus Pricing API
+  slug: alphaus-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-pricing-api-openapi.yml
+- filename: alphaus-prism-api-openapi.yml
+  format: yaml
+  label: Alphaus Prism API
+  slug: alphaus-prism-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-prism-api-openapi.yml
+- filename: alphaus-vortex-api-openapi.yml
+  format: yaml
+  label: Alphaus Vortex API
+  slug: alphaus-vortex-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-vortex-api-openapi.yml
 description: ''
 domains:
 - caa: []

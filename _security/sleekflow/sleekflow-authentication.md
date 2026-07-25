@@ -2,42 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: sleekflow-openapi.yml
-  format: yaml
-  label: SleekFlow Contacts API
-  slug: contacts
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-openapi.yml
-- filename: sleekflow-openapi.yml
-  format: yaml
-  label: SleekFlow Conversations & Messaging API
-  slug: conversations
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-openapi.yml
-- filename: sleekflow-openapi.yml
+- filename: sleekflow-companies-api-openapi.yml
   format: yaml
   label: SleekFlow Companies API
-  slug: companies
+  slug: sleekflow-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-openapi.yml
-- filename: sleekflow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-companies-api-openapi.yml
+- filename: sleekflow-contacts-api-openapi.yml
+  format: yaml
+  label: SleekFlow Contacts API
+  slug: sleekflow-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-contacts-api-openapi.yml
+- filename: sleekflow-conversations-api-openapi.yml
+  format: yaml
+  label: SleekFlow Conversations API
+  slug: sleekflow-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-conversations-api-openapi.yml
+- filename: sleekflow-lists-api-openapi.yml
   format: yaml
   label: SleekFlow Lists API
-  slug: lists
+  slug: sleekflow-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-openapi.yml
-- filename: sleekflow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-lists-api-openapi.yml
+- filename: sleekflow-messaging-api-openapi.yml
   format: yaml
-  label: SleekFlow Staff & Teams API
-  slug: staff-teams
+  label: SleekFlow Messaging API
+  slug: sleekflow-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-openapi.yml
-- filename: sleekflow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-messaging-api-openapi.yml
+- filename: sleekflow-staff-and-teams-api-openapi.yml
+  format: yaml
+  label: SleekFlow Staff and Teams API
+  slug: sleekflow-staff-and-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-staff-and-teams-api-openapi.yml
+- filename: sleekflow-webhooks-api-openapi.yml
   format: yaml
   label: SleekFlow Webhooks API
-  slug: webhooks
+  slug: sleekflow-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,53 +1,53 @@
 ---
 api_specs:
-- filename: scrapybara-openapi.yml
-  format: yaml
-  label: Scrapybara Instances API
-  slug: scrapybara-instances-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-openapi.yml
-- filename: scrapybara-openapi.yml
-  format: yaml
-  label: Scrapybara Computer Actions API
-  slug: scrapybara-computer-actions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-openapi.yml
-- filename: scrapybara-openapi.yml
-  format: yaml
-  label: Scrapybara Browser API
-  slug: scrapybara-browser-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-openapi.yml
-- filename: scrapybara-openapi.yml
-  format: yaml
-  label: Scrapybara Code Execution API
-  slug: scrapybara-code-execution-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-openapi.yml
-- filename: scrapybara-openapi.yml
-  format: yaml
-  label: Scrapybara Filesystem API
-  slug: scrapybara-filesystem-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-openapi.yml
-- filename: scrapybara-openapi.yml
-  format: yaml
-  label: Scrapybara Notebook API
-  slug: scrapybara-notebook-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-openapi.yml
-- filename: scrapybara-openapi.yml
+- filename: scrapybara-auth-states-api-openapi.yml
   format: yaml
   label: Scrapybara Auth States API
   slug: scrapybara-auth-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-openapi.yml
-- filename: scrapybara-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-auth-states-api-openapi.yml
+- filename: scrapybara-browser-api-openapi.yml
+  format: yaml
+  label: Scrapybara Browser API
+  slug: scrapybara-browser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-browser-api-openapi.yml
+- filename: scrapybara-code-execution-api-openapi.yml
+  format: yaml
+  label: Scrapybara Code Execution API
+  slug: scrapybara-code-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-code-execution-api-openapi.yml
+- filename: scrapybara-computer-actions-api-openapi.yml
+  format: yaml
+  label: Scrapybara Computer Actions API
+  slug: scrapybara-computer-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-computer-actions-api-openapi.yml
+- filename: scrapybara-environment-api-openapi.yml
   format: yaml
   label: Scrapybara Environment API
   slug: scrapybara-environment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-environment-api-openapi.yml
+- filename: scrapybara-filesystem-api-openapi.yml
+  format: yaml
+  label: Scrapybara Filesystem API
+  slug: scrapybara-filesystem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-filesystem-api-openapi.yml
+- filename: scrapybara-instances-api-openapi.yml
+  format: yaml
+  label: Scrapybara Instances API
+  slug: scrapybara-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-instances-api-openapi.yml
+- filename: scrapybara-notebook-api-openapi.yml
+  format: yaml
+  label: Scrapybara Notebook API
+  slug: scrapybara-notebook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-notebook-api-openapi.yml
 description: ''
 domains:
 - caa:

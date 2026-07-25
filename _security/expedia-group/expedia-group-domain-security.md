@@ -1,35 +1,95 @@
 ---
 api_specs:
-- filename: expedia-rapid-openapi-original.yml
+- filename: expedia-group-bookings-api-openapi.yml
   format: yaml
-  label: Expedia Rapid API
-  slug: rapid
+  label: Expedia Group Bookings API
+  slug: expedia-group-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-rapid-openapi-original.yml
-- filename: expedia-fraud-protection-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-bookings-api-openapi.yml
+- filename: expedia-group-content-api-openapi.yml
   format: yaml
-  label: Expedia Fraud Protection API
-  slug: fraud-protection
+  label: Expedia Group Content API
+  slug: expedia-group-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-fraud-protection-openapi-original.yml
-- filename: expedia-lodging-product-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-content-api-openapi.yml
+- filename: expedia-group-deposit-api-openapi.yml
   format: yaml
-  label: Expedia Lodging API
-  slug: lodging
+  label: Expedia Group Deposit API
+  slug: expedia-group-deposit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-lodging-product-openapi-original.yml
-- filename: expedia-deposit-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-deposit-api-openapi.yml
+- filename: expedia-group-geography-api-openapi.yml
   format: yaml
-  label: Expedia EPS Deposit API
-  slug: deposit
+  label: Expedia Group Geography API
+  slug: expedia-group-geography-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-deposit-openapi-original.yml
-- filename: expedia-loyalty-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-geography-api-openapi.yml
+- filename: expedia-group-loyalty-api-openapi.yml
   format: yaml
-  label: Expedia Loyalty Earn API
-  slug: loyalty
+  label: Expedia Group Loyalty API
+  slug: expedia-group-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-loyalty-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-loyalty-api-openapi.yml
+- filename: expedia-group-manage-booking-api-openapi.yml
+  format: yaml
+  label: Expedia Group Manage Booking API
+  slug: expedia-group-manage-booking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-manage-booking-api-openapi.yml
+- filename: expedia-group-notifications-api-openapi.yml
+  format: yaml
+  label: Expedia Group Notifications API
+  slug: expedia-group-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-notifications-api-openapi.yml
+- filename: expedia-group-orderpurchasescreen-api-openapi.yml
+  format: yaml
+  label: Expedia Group OrderPurchaseScreen API
+  slug: expedia-group-orderpurchasescreen-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-orderpurchasescreen-api-openapi.yml
+- filename: expedia-group-orderpurchaseupdate-api-openapi.yml
+  format: yaml
+  label: Expedia Group OrderPurchaseUpdate API
+  slug: expedia-group-orderpurchaseupdate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-orderpurchaseupdate-api-openapi.yml
+- filename: expedia-group-property-api-openapi.yml
+  format: yaml
+  label: Expedia Group Property API
+  slug: expedia-group-property-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-property-api-openapi.yml
+- filename: expedia-group-rate-plan-api-openapi.yml
+  format: yaml
+  label: Expedia Group Rate Plan API
+  slug: expedia-group-rate-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-rate-plan-api-openapi.yml
+- filename: expedia-group-rate-verification-thresholds-api-openapi.yml
+  format: yaml
+  label: Expedia Group Rate Verification Thresholds API
+  slug: expedia-group-rate-verification-thresholds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-rate-verification-thresholds-api-openapi.yml
+- filename: expedia-group-room-type-amenities-api-openapi.yml
+  format: yaml
+  label: Expedia Group Room Type Amenities API
+  slug: expedia-group-room-type-amenities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-room-type-amenities-api-openapi.yml
+- filename: expedia-group-room-type-api-openapi.yml
+  format: yaml
+  label: Expedia Group Room Type API
+  slug: expedia-group-room-type-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-room-type-api-openapi.yml
+- filename: expedia-group-shopping-api-openapi.yml
+  format: yaml
+  label: Expedia Group Shopping API
+  slug: expedia-group-shopping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-shopping-api-openapi.yml
 description: ''
 domains:
 - caa: []

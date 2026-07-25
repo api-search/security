@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: andel-data-exchange-openapi.yaml
+- filename: andel-purchases-api-openapi.yml
   format: yaml
-  label: Data Exchange API
-  slug: data-exchange-api
+  label: Andel purchases API
+  slug: andel-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/openapi/andel-data-exchange-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/openapi/andel-purchases-api-openapi.yml
+- filename: andel-webhooks-api-openapi.yml
+  format: yaml
+  label: Andel webhooks API
+  slug: andel-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/openapi/andel-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2

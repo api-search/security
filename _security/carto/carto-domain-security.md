@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: carto-jobs-api-openapi.yml
+  format: yaml
+  label: Carto Jobs API
+  slug: carto-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carto/refs/heads/main/openapi/carto-jobs-api-openapi.yml
+- filename: carto-sql-api-openapi.yml
+  format: yaml
+  label: Carto SQL API
+  slug: carto-sql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carto/refs/heads/main/openapi/carto-sql-api-openapi.yml
 description: ''
 domains:
 - caa:

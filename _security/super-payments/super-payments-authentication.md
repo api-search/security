@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: super-payments-openapi.yml
+- filename: super-payments-checkout-sessions-api-openapi.yml
   format: yaml
-  label: Super Payments API
-  slug: super-payments-api
+  label: Super Payments Checkout Sessions API
+  slug: super-payments-checkout-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-checkout-sessions-api-openapi.yml
+- filename: super-payments-customer-api-openapi.yml
+  format: yaml
+  label: Super Payments Customer API
+  slug: super-payments-customer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-customer-api-openapi.yml
+- filename: super-payments-payment-links-api-openapi.yml
+  format: yaml
+  label: Super Payments Payment Links API
+  slug: super-payments-payment-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-payment-links-api-openapi.yml
+- filename: super-payments-payment-methods-api-openapi.yml
+  format: yaml
+  label: Super Payments Payment Methods API
+  slug: super-payments-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-payment-methods-api-openapi.yml
+- filename: super-payments-payments-api-openapi.yml
+  format: yaml
+  label: Super Payments Payments API
+  slug: super-payments-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-payments-api-openapi.yml
+- filename: super-payments-refunds-api-openapi.yml
+  format: yaml
+  label: Super Payments Refunds API
+  slug: super-payments-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-refunds-api-openapi.yml
+- filename: super-payments-rewards-api-openapi.yml
+  format: yaml
+  label: Super Payments Rewards API
+  slug: super-payments-rewards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-rewards-api-openapi.yml
+- filename: super-payments-settlements-api-openapi.yml
+  format: yaml
+  label: Super Payments Settlements API
+  slug: super-payments-settlements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-settlements-api-openapi.yml
 auth_types:
 - apiKey
 description: 'Super Payments authenticates server-side requests with a static secret API key passed raw in the Authorization header (no Bearer prefix). Two key types exist: secret keys (sk_prod_ / sk_test_) for server-side use, and public keys (PUB_) safe for client-side/front-end use. There is no OAuth2/OIDC. Webhooks are authenticated separately via an HMAC-SHA256 super-signature header. All calls must be over HTTPS.'

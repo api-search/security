@@ -2,36 +2,78 @@
 api_key_in:
 - header
 api_specs:
-- filename: deepgram-speech-to-text-openapi.yml
-  format: yaml
-  label: Deepgram Speech-To-Text API
-  slug: speech-to-text-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-speech-to-text-openapi.yml
-- filename: deepgram-text-to-speech-openapi.yml
-  format: yaml
-  label: Deepgram Text-To-Speech API
-  slug: text-to-speech-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-text-to-speech-openapi.yml
 - filename: deepgram-voice-agent-asyncapi.yml
   format: yaml
   label: Deepgram Voice Agent API
   slug: voice-agent-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/asyncapi/deepgram-voice-agent-asyncapi.yml
-- filename: deepgram-speech-to-text-openapi.yml
+- filename: deepgram-balances-api-openapi.yml
   format: yaml
-  label: Deepgram Audio Intelligence API
-  slug: audio-intelligence-api
+  label: Deepgram Balances API
+  slug: deepgram-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-speech-to-text-openapi.yml
-- filename: deepgram-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-balances-api-openapi.yml
+- filename: deepgram-invitations-api-openapi.yml
   format: yaml
-  label: Deepgram Management API
-  slug: management-api
+  label: Deepgram Invitations API
+  slug: deepgram-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-invitations-api-openapi.yml
+- filename: deepgram-keys-api-openapi.yml
+  format: yaml
+  label: Deepgram Keys API
+  slug: deepgram-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-keys-api-openapi.yml
+- filename: deepgram-members-api-openapi.yml
+  format: yaml
+  label: Deepgram Members API
+  slug: deepgram-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-members-api-openapi.yml
+- filename: deepgram-models-api-openapi.yml
+  format: yaml
+  label: Deepgram Models API
+  slug: deepgram-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-models-api-openapi.yml
+- filename: deepgram-pre-recorded-api-openapi.yml
+  format: yaml
+  label: Deepgram Pre-Recorded API
+  slug: deepgram-pre-recorded-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-pre-recorded-api-openapi.yml
+- filename: deepgram-projects-api-openapi.yml
+  format: yaml
+  label: Deepgram Projects API
+  slug: deepgram-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-projects-api-openapi.yml
+- filename: deepgram-scopes-api-openapi.yml
+  format: yaml
+  label: Deepgram Scopes API
+  slug: deepgram-scopes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-scopes-api-openapi.yml
+- filename: deepgram-text-intelligence-api-openapi.yml
+  format: yaml
+  label: Deepgram Text Intelligence API
+  slug: deepgram-text-intelligence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-text-intelligence-api-openapi.yml
+- filename: deepgram-text-to-speech-api-openapi.yml
+  format: yaml
+  label: Deepgram Text-To-Speech API
+  slug: deepgram-text-to-speech-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-text-to-speech-api-openapi.yml
+- filename: deepgram-usage-api-openapi.yml
+  format: yaml
+  label: Deepgram Usage API
+  slug: deepgram-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-usage-api-openapi.yml
 auth_types:
 - apiKey
 - http

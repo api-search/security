@@ -1,59 +1,47 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Webex Admin API
-  slug: webex-admin-api
+- filename: cisco-control-hub-adminauditevents-api-openapi.yml
+  format: yaml
+  label: Cisco Control Hub AdminAuditEvents API
+  slug: cisco-control-hub-adminauditevents-api
   spec_type: OpenAPI
-  url: https://developer.webex.com/docs/api/v1/openapi.json
-- filename: openapi.json
-  format: json
-  label: Webex Calling API
-  slug: webex-calling-api
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-adminauditevents-api-openapi.yml
+- filename: cisco-control-hub-devices-api-openapi.yml
+  format: yaml
+  label: Cisco Control Hub Devices API
+  slug: cisco-control-hub-devices-api
   spec_type: OpenAPI
-  url: https://developer.webex.com/docs/api/v1/openapi.json
-- filename: openapi.json
-  format: json
-  label: Webex Devices API
-  slug: webex-devices-api
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-devices-api-openapi.yml
+- filename: cisco-control-hub-licenses-api-openapi.yml
+  format: yaml
+  label: Cisco Control Hub Licenses API
+  slug: cisco-control-hub-licenses-api
   spec_type: OpenAPI
-  url: https://developer.webex.com/docs/api/v1/openapi.json
-- filename: openapi.json
-  format: json
-  label: Webex Workspaces API
-  slug: webex-workspaces-api
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-licenses-api-openapi.yml
+- filename: cisco-control-hub-locations-api-openapi.yml
+  format: yaml
+  label: Cisco Control Hub Locations API
+  slug: cisco-control-hub-locations-api
   spec_type: OpenAPI
-  url: https://developer.webex.com/docs/api/v1/openapi.json
-- filename: openapi.json
-  format: json
-  label: Webex People API
-  slug: webex-people-api
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-locations-api-openapi.yml
+- filename: cisco-control-hub-organizations-api-openapi.yml
+  format: yaml
+  label: Cisco Control Hub Organizations API
+  slug: cisco-control-hub-organizations-api
   spec_type: OpenAPI
-  url: https://developer.webex.com/docs/api/v1/openapi.json
-- filename: openapi.json
-  format: json
-  label: Webex Organizations API
-  slug: webex-organizations-api
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-organizations-api-openapi.yml
+- filename: cisco-control-hub-people-api-openapi.yml
+  format: yaml
+  label: Cisco Control Hub People API
+  slug: cisco-control-hub-people-api
   spec_type: OpenAPI
-  url: https://developer.webex.com/docs/api/v1/openapi.json
-- filename: openapi.json
-  format: json
-  label: Webex Licenses API
-  slug: webex-licenses-api
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-people-api-openapi.yml
+- filename: cisco-control-hub-workspaces-api-openapi.yml
+  format: yaml
+  label: Cisco Control Hub Workspaces API
+  slug: cisco-control-hub-workspaces-api
   spec_type: OpenAPI
-  url: https://developer.webex.com/docs/api/v1/openapi.json
-- filename: openapi.json
-  format: json
-  label: Webex Locations API
-  slug: webex-locations-api
-  spec_type: OpenAPI
-  url: https://developer.webex.com/docs/api/v1/openapi.json
-- filename: openapi.json
-  format: json
-  label: Webex Reports API
-  slug: webex-reports-api
-  spec_type: OpenAPI
-  url: https://developer.webex.com/docs/api/v1/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa:

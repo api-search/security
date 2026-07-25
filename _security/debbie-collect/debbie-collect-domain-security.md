@@ -1,17 +1,65 @@
 ---
 api_specs:
-- filename: debbie-platform-api-openapi.yml
+- filename: debbie-collect-billing-api-openapi.yml
   format: yaml
-  label: Debbie Platform API
-  slug: debbie-platform-api
+  label: Debbie Collect Billing API
+  slug: debbie-collect-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/openapi/debbie-platform-api-openapi.yml
-- filename: debbie-client-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/openapi/debbie-collect-billing-api-openapi.yml
+- filename: debbie-collect-case-vouchers-api-openapi.yml
   format: yaml
-  label: Debbie Client API
-  slug: debbie-client-api
+  label: Debbie Collect Case Vouchers API
+  slug: debbie-collect-case-vouchers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/openapi/debbie-client-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/openapi/debbie-collect-case-vouchers-api-openapi.yml
+- filename: debbie-collect-cases-api-openapi.yml
+  format: yaml
+  label: Debbie Collect Cases API
+  slug: debbie-collect-cases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/openapi/debbie-collect-cases-api-openapi.yml
+- filename: debbie-collect-creditors-api-openapi.yml
+  format: yaml
+  label: Debbie Collect Creditors API
+  slug: debbie-collect-creditors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/openapi/debbie-collect-creditors-api-openapi.yml
+- filename: debbie-collect-customers-api-openapi.yml
+  format: yaml
+  label: Debbie Collect Customers API
+  slug: debbie-collect-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/openapi/debbie-collect-customers-api-openapi.yml
+- filename: debbie-collect-files-api-openapi.yml
+  format: yaml
+  label: Debbie Collect Files API
+  slug: debbie-collect-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/openapi/debbie-collect-files-api-openapi.yml
+- filename: debbie-collect-payments-api-openapi.yml
+  format: yaml
+  label: Debbie Collect Payments API
+  slug: debbie-collect-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/openapi/debbie-collect-payments-api-openapi.yml
+- filename: debbie-collect-properties-api-openapi.yml
+  format: yaml
+  label: Debbie Collect Properties API
+  slug: debbie-collect-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/openapi/debbie-collect-properties-api-openapi.yml
+- filename: debbie-collect-updates-api-openapi.yml
+  format: yaml
+  label: Debbie Collect Updates API
+  slug: debbie-collect-updates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/openapi/debbie-collect-updates-api-openapi.yml
+- filename: debbie-collect-webhooks-api-openapi.yml
+  format: yaml
+  label: Debbie Collect Webhooks API
+  slug: debbie-collect-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/openapi/debbie-collect-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

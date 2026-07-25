@@ -1,72 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: fyle-openapi.yml
-  format: yaml
-  label: Fyle Expenses API
-  slug: fyle-expenses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-openapi.yml
-- filename: fyle-openapi.yml
-  format: yaml
-  label: Fyle Reports API
-  slug: fyle-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-openapi.yml
-- filename: fyle-openapi.yml
+- filename: fyle-advances-api-openapi.yml
   format: yaml
   label: Fyle Advances API
   slug: fyle-advances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-openapi.yml
-- filename: fyle-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-advances-api-openapi.yml
+- filename: fyle-categories-api-openapi.yml
   format: yaml
   label: Fyle Categories API
   slug: fyle-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-openapi.yml
-- filename: fyle-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-categories-api-openapi.yml
+- filename: fyle-corporate-cards-api-openapi.yml
   format: yaml
-  label: Fyle Projects API
-  slug: fyle-projects-api
+  label: Fyle Corporate Cards API
+  slug: fyle-corporate-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-openapi.yml
-- filename: fyle-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-corporate-cards-api-openapi.yml
+- filename: fyle-cost-centers-api-openapi.yml
   format: yaml
   label: Fyle Cost Centers API
   slug: fyle-cost-centers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-openapi.yml
-- filename: fyle-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-cost-centers-api-openapi.yml
+- filename: fyle-employees-api-openapi.yml
   format: yaml
   label: Fyle Employees API
   slug: fyle-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-openapi.yml
-- filename: fyle-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-employees-api-openapi.yml
+- filename: fyle-expenses-api-openapi.yml
+  format: yaml
+  label: Fyle Expenses API
+  slug: fyle-expenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-expenses-api-openapi.yml
+- filename: fyle-files-api-openapi.yml
+  format: yaml
+  label: Fyle Files API
+  slug: fyle-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-files-api-openapi.yml
+- filename: fyle-merchants-api-openapi.yml
   format: yaml
   label: Fyle Merchants API
   slug: fyle-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-openapi.yml
-- filename: fyle-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-merchants-api-openapi.yml
+- filename: fyle-projects-api-openapi.yml
   format: yaml
-  label: Fyle Corporate Cards & Transactions API
-  slug: fyle-corporate-cards-api
+  label: Fyle Projects API
+  slug: fyle-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-openapi.yml
-- filename: fyle-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-projects-api-openapi.yml
+- filename: fyle-reports-api-openapi.yml
+  format: yaml
+  label: Fyle Reports API
+  slug: fyle-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-reports-api-openapi.yml
+- filename: fyle-webhooks-api-openapi.yml
   format: yaml
   label: Fyle Webhooks API
   slug: fyle-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-openapi.yml
-- filename: fyle-openapi.yml
-  format: yaml
-  label: Fyle Files & Receipts API
-  slug: fyle-files-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

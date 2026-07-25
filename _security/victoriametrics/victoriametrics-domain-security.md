@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: victoriametrics-admin-api-openapi.yml
+  format: yaml
+  label: VictoriaMetrics Admin API
+  slug: victoriametrics-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/victoriametrics/refs/heads/main/openapi/victoriametrics-admin-api-openapi.yml
+- filename: victoriametrics-export-api-openapi.yml
+  format: yaml
+  label: VictoriaMetrics Export API
+  slug: victoriametrics-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/victoriametrics/refs/heads/main/openapi/victoriametrics-export-api-openapi.yml
+- filename: victoriametrics-import-api-openapi.yml
+  format: yaml
+  label: VictoriaMetrics Import API
+  slug: victoriametrics-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/victoriametrics/refs/heads/main/openapi/victoriametrics-import-api-openapi.yml
+- filename: victoriametrics-query-api-openapi.yml
+  format: yaml
+  label: VictoriaMetrics Query API
+  slug: victoriametrics-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/victoriametrics/refs/heads/main/openapi/victoriametrics-query-api-openapi.yml
+- filename: victoriametrics-third-party-api-openapi.yml
+  format: yaml
+  label: VictoriaMetrics Third-Party API
+  slug: victoriametrics-third-party-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/victoriametrics/refs/heads/main/openapi/victoriametrics-third-party-api-openapi.yml
 description: ''
 domains:
 - caa:

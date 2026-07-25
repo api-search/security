@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: taxjar-sales-tax-openapi.yml
+- filename: taxjar-categories-api-openapi.yml
   format: yaml
-  label: TaxJar Sales Tax API
-  slug: taxjar-sales-tax-api
+  label: TaxJar Categories API
+  slug: taxjar-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-sales-tax-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-categories-api-openapi.yml
+- filename: taxjar-customers-api-openapi.yml
+  format: yaml
+  label: TaxJar Customers API
+  slug: taxjar-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-customers-api-openapi.yml
+- filename: taxjar-nexus-api-openapi.yml
+  format: yaml
+  label: TaxJar Nexus API
+  slug: taxjar-nexus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-nexus-api-openapi.yml
+- filename: taxjar-rates-api-openapi.yml
+  format: yaml
+  label: TaxJar Rates API
+  slug: taxjar-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-rates-api-openapi.yml
+- filename: taxjar-summary-rates-api-openapi.yml
+  format: yaml
+  label: TaxJar Summary Rates API
+  slug: taxjar-summary-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-summary-rates-api-openapi.yml
+- filename: taxjar-taxes-api-openapi.yml
+  format: yaml
+  label: TaxJar Taxes API
+  slug: taxjar-taxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-taxes-api-openapi.yml
+- filename: taxjar-transactions-orders-api-openapi.yml
+  format: yaml
+  label: TaxJar Transactions - Orders API
+  slug: taxjar-transactions-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-transactions-orders-api-openapi.yml
+- filename: taxjar-transactions-refunds-api-openapi.yml
+  format: yaml
+  label: TaxJar Transactions - Refunds API
+  slug: taxjar-transactions-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-transactions-refunds-api-openapi.yml
+- filename: taxjar-validations-api-openapi.yml
+  format: yaml
+  label: TaxJar Validations API
+  slug: taxjar-validations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-validations-api-openapi.yml
 certifications:
 - SOC 2
 - GDPR

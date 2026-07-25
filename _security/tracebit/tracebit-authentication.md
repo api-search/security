@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tracebit-community-openapi-original.json
-  format: json
-  label: Tracebit API (Community Edition)
-  slug: tracebit-api-community-edition
+- filename: tracebit-alerts-api-openapi.yml
+  format: yaml
+  label: Tracebit Alerts API
+  slug: tracebit-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tracebit/refs/heads/main/openapi/tracebit-community-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/tracebit/refs/heads/main/openapi/tracebit-alerts-api-openapi.yml
+- filename: tracebit-canary-credentials-api-openapi.yml
+  format: yaml
+  label: Tracebit Canary Credentials API
+  slug: tracebit-canary-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tracebit/refs/heads/main/openapi/tracebit-canary-credentials-api-openapi.yml
 auth_types:
 - http
 description: ''

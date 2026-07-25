@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: plateiq-openapi.yaml
+- filename: plateiq-accounts-api-openapi.yml
   format: yaml
-  label: Ottimate API
-  slug: ottimate-api
+  label: PlateIQ accounts API
+  slug: plateiq-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/openapi/plateiq-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/openapi/plateiq-accounts-api-openapi.yml
+- filename: plateiq-batch-api-openapi.yml
+  format: yaml
+  label: PlateIQ batch API
+  slug: plateiq-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/openapi/plateiq-batch-api-openapi.yml
+- filename: plateiq-catalog-api-openapi.yml
+  format: yaml
+  label: PlateIQ catalog API
+  slug: plateiq-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/openapi/plateiq-catalog-api-openapi.yml
+- filename: plateiq-dimensions-api-openapi.yml
+  format: yaml
+  label: PlateIQ dimensions API
+  slug: plateiq-dimensions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/openapi/plateiq-dimensions-api-openapi.yml
+- filename: plateiq-invoices-api-openapi.yml
+  format: yaml
+  label: PlateIQ invoices API
+  slug: plateiq-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/openapi/plateiq-invoices-api-openapi.yml
+- filename: plateiq-oauth-api-openapi.yml
+  format: yaml
+  label: PlateIQ oauth API
+  slug: plateiq-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/openapi/plateiq-oauth-api-openapi.yml
+- filename: plateiq-purchaseorders-api-openapi.yml
+  format: yaml
+  label: PlateIQ purchaseOrders API
+  slug: plateiq-purchaseorders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/openapi/plateiq-purchaseorders-api-openapi.yml
+- filename: plateiq-receipts-api-openapi.yml
+  format: yaml
+  label: PlateIQ receipts API
+  slug: plateiq-receipts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/openapi/plateiq-receipts-api-openapi.yml
+- filename: plateiq-vendors-api-openapi.yml
+  format: yaml
+  label: PlateIQ vendors API
+  slug: plateiq-vendors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/openapi/plateiq-vendors-api-openapi.yml
 certifications:
 - SOC 2 Type II
 - ISO 27001

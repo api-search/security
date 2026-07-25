@@ -1,72 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Mistral AI Chat API
-  slug: mistral-ai-chat-api
-  spec_type: OpenAPI
-  url: https://docs.mistral.ai/openapi.json
-- filename: mistral-embeddings-openapi.yml
-  format: yaml
-  label: Mistral Embeddings API
-  slug: mistral-embeddings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-embeddings-openapi.yml
-- filename: mistral-moderation-openapi.yml
-  format: yaml
-  label: Mistral Moderation API
-  slug: mistral-moderation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-moderation-openapi.yml
-- filename: mistral-agents-openapi.yml
+- filename: mistral-agents-api-openapi.yml
   format: yaml
   label: Mistral AI Agents API
-  slug: mistral-ai-agents-api
+  slug: mistral-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-agents-openapi.yml
-- filename: mistral-fim-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-agents-api-openapi.yml
+- filename: mistral-audio-api-openapi.yml
   format: yaml
-  label: Mistral AI FIM API
-  slug: mistral-ai-fim-api
+  label: Mistral AI Audio API
+  slug: mistral-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-fim-openapi.yml
-- filename: mistral-ocr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-audio-api-openapi.yml
+- filename: mistral-batch-jobs-api-openapi.yml
   format: yaml
-  label: Mistral AI OCR API
-  slug: mistral-ai-ocr-api
+  label: Mistral AI Batch Jobs API
+  slug: mistral-batch-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-ocr-openapi.yml
-- filename: mistral-fine-tuning-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-batch-jobs-api-openapi.yml
+- filename: mistral-chat-api-openapi.yml
   format: yaml
-  label: Mistral AI Fine-Tuning API
-  slug: mistral-ai-fine-tuning-api
+  label: Mistral AI Chat API
+  slug: mistral-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-fine-tuning-openapi.yml
-- filename: mistral-files-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-chat-api-openapi.yml
+- filename: mistral-embeddings-api-openapi.yml
+  format: yaml
+  label: Mistral AI Embeddings API
+  slug: mistral-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-embeddings-api-openapi.yml
+- filename: mistral-files-api-openapi.yml
   format: yaml
   label: Mistral AI Files API
-  slug: mistral-ai-files-api
+  slug: mistral-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-files-openapi.yml
-- filename: mistral-models-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-files-api-openapi.yml
+- filename: mistral-fim-api-openapi.yml
+  format: yaml
+  label: Mistral AI FIM API
+  slug: mistral-fim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-fim-api-openapi.yml
+- filename: mistral-fine-tuning-jobs-api-openapi.yml
+  format: yaml
+  label: Mistral AI Fine-Tuning Jobs API
+  slug: mistral-fine-tuning-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-fine-tuning-jobs-api-openapi.yml
+- filename: mistral-models-api-openapi.yml
   format: yaml
   label: Mistral AI Models API
-  slug: mistral-ai-models-api
+  slug: mistral-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-models-openapi.yml
-- filename: mistral-batch-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-models-api-openapi.yml
+- filename: mistral-moderation-api-openapi.yml
   format: yaml
-  label: Mistral AI Batch API
-  slug: mistral-ai-batch-api
+  label: Mistral AI Moderation API
+  slug: mistral-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-batch-openapi.yml
-- filename: mistral-audio-transcription-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-moderation-api-openapi.yml
+- filename: mistral-ocr-api-openapi.yml
   format: yaml
-  label: Mistral AI Audio Transcription API
-  slug: mistral-ai-audio-transcription-api
+  label: Mistral AI OCR API
+  slug: mistral-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-audio-transcription-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-ocr-api-openapi.yml
 auth_types:
 - http
 description: ''

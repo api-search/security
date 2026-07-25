@@ -1,12 +1,108 @@
 ---
 api_key_in: []
 api_specs:
-- filename: guru-openapi.yml
+- filename: guru-analytics-api-openapi.yml
   format: yaml
-  label: Guru REST API
-  slug: rest-api
+  label: Guru Analytics API
+  slug: guru-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-analytics-api-openapi.yml
+- filename: guru-announcements-api-openapi.yml
+  format: yaml
+  label: Guru Announcements API
+  slug: guru-announcements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-announcements-api-openapi.yml
+- filename: guru-answers-api-openapi.yml
+  format: yaml
+  label: Guru Answers API
+  slug: guru-answers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-answers-api-openapi.yml
+- filename: guru-cardcomments-api-openapi.yml
+  format: yaml
+  label: Guru CardComments API
+  slug: guru-cardcomments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-cardcomments-api-openapi.yml
+- filename: guru-cards-api-openapi.yml
+  format: yaml
+  label: Guru Cards API
+  slug: guru-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-cards-api-openapi.yml
+- filename: guru-cardverifiers-api-openapi.yml
+  format: yaml
+  label: Guru CardVerifiers API
+  slug: guru-cardverifiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-cardverifiers-api-openapi.yml
+- filename: guru-collections-api-openapi.yml
+  format: yaml
+  label: Guru Collections API
+  slug: guru-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-collections-api-openapi.yml
+- filename: guru-folders-api-openapi.yml
+  format: yaml
+  label: Guru Folders API
+  slug: guru-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-folders-api-openapi.yml
+- filename: guru-groups-api-openapi.yml
+  format: yaml
+  label: Guru Groups API
+  slug: guru-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-groups-api-openapi.yml
+- filename: guru-members-api-openapi.yml
+  format: yaml
+  label: Guru Members API
+  slug: guru-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-members-api-openapi.yml
+- filename: guru-people-api-openapi.yml
+  format: yaml
+  label: Guru People API
+  slug: guru-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-people-api-openapi.yml
+- filename: guru-search-api-openapi.yml
+  format: yaml
+  label: Guru Search API
+  slug: guru-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-search-api-openapi.yml
+- filename: guru-tags-api-openapi.yml
+  format: yaml
+  label: Guru Tags API
+  slug: guru-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-tags-api-openapi.yml
+- filename: guru-tasks-api-openapi.yml
+  format: yaml
+  label: Guru Tasks API
+  slug: guru-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-tasks-api-openapi.yml
+- filename: guru-templates-api-openapi.yml
+  format: yaml
+  label: Guru Templates API
+  slug: guru-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-templates-api-openapi.yml
+- filename: guru-ticketlinking-api-openapi.yml
+  format: yaml
+  label: Guru TicketLinking API
+  slug: guru-ticketlinking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-ticketlinking-api-openapi.yml
+- filename: guru-user-api-openapi.yml
+  format: yaml
+  label: Guru User API
+  slug: guru-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-user-api-openapi.yml
 auth_types:
 - http
 description: ''

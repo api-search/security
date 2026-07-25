@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: amazon-bedrock-openapi.yml
+- filename: amazon-bedrock-converse-api-openapi.yml
   format: yaml
-  label: Amazon Bedrock API
-  slug: amazon-bedrock-api
+  label: Amazon Bedrock Converse API
+  slug: amazon-bedrock-converse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/openapi/amazon-bedrock-openapi.yml
-- filename: amazon-bedrock-runtime-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/openapi/amazon-bedrock-converse-api-openapi.yml
+- filename: amazon-bedrock-custom-models-api-openapi.yml
   format: yaml
-  label: Amazon Bedrock Runtime API
-  slug: amazon-bedrock-runtime-api
+  label: Amazon Bedrock Custom Models API
+  slug: amazon-bedrock-custom-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/openapi/amazon-bedrock-runtime-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/openapi/amazon-bedrock-custom-models-api-openapi.yml
+- filename: amazon-bedrock-foundation-models-api-openapi.yml
+  format: yaml
+  label: Amazon Bedrock Foundation Models API
+  slug: amazon-bedrock-foundation-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/openapi/amazon-bedrock-foundation-models-api-openapi.yml
+- filename: amazon-bedrock-inference-api-openapi.yml
+  format: yaml
+  label: Amazon Bedrock Inference API
+  slug: amazon-bedrock-inference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/openapi/amazon-bedrock-inference-api-openapi.yml
+- filename: amazon-bedrock-model-customization-api-openapi.yml
+  format: yaml
+  label: Amazon Bedrock Model Customization API
+  slug: amazon-bedrock-model-customization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/openapi/amazon-bedrock-model-customization-api-openapi.yml
+- filename: amazon-bedrock-provisioned-throughput-api-openapi.yml
+  format: yaml
+  label: Amazon Bedrock Provisioned Throughput API
+  slug: amazon-bedrock-provisioned-throughput-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/openapi/amazon-bedrock-provisioned-throughput-api-openapi.yml
 description: ''
 domains:
 - caa: []

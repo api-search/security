@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: imgix-openapi.yml
+- filename: imgix-sources-api-openapi.yml
   format: yaml
-  label: Imgix Rendering API
-  slug: imgix-rendering-api
+  label: Imgix Sources API
+  slug: imgix-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imgix/refs/heads/main/openapi/imgix-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/imgix/refs/heads/main/openapi/imgix-sources-api-openapi.yml
 description: ''
 domains:
 - caa:

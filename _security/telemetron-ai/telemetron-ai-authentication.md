@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: telemetron-ai-ext-v1-openapi.yml
+- filename: telemetron-ai-customer-api-openapi.yml
   format: yaml
-  label: Telemetron External API (ext-v1)
-  slug: telemetron-external-api-ext-v1
+  label: Telemetron Customer API
+  slug: telemetron-ai-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/openapi/telemetron-ai-ext-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/openapi/telemetron-ai-customer-api-openapi.yml
+- filename: telemetron-ai-device-api-openapi.yml
+  format: yaml
+  label: Telemetron Device API
+  slug: telemetron-ai-device-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/openapi/telemetron-ai-device-api-openapi.yml
+- filename: telemetron-ai-device-assignment-api-openapi.yml
+  format: yaml
+  label: Telemetron Device Assignment API
+  slug: telemetron-ai-device-assignment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/openapi/telemetron-ai-device-assignment-api-openapi.yml
+- filename: telemetron-ai-ticket-api-openapi.yml
+  format: yaml
+  label: Telemetron Ticket API
+  slug: telemetron-ai-ticket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/openapi/telemetron-ai-ticket-api-openapi.yml
 auth_types:
 - apiKey
 description: 'Telemetron authenticates every External API request with a single per-organization API key. For the REST API the key is sent in the x-api-key header; the same key authenticates the hosted MCP server, where it is sent as an Authorization: Bearer token. There is no OAuth, OIDC, or per-scope model — the key grants the organization''s full API surface. Keys are issued and rotated from the dashboard (Settings > Integrations); regenerating invalidates the prior key immediately.'

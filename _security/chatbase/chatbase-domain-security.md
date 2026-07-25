@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: chatbase-openapi.yml
+- filename: chatbase-chat-api-openapi.yml
   format: yaml
   label: Chatbase Chat API
   slug: chatbase-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/openapi/chatbase-openapi.yml
-- filename: chatbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/openapi/chatbase-chat-api-openapi.yml
+- filename: chatbase-chatbots-api-openapi.yml
   format: yaml
-  label: Chatbase Chatbots and Agents API
-  slug: chatbase-chatbots-agents-api
+  label: Chatbase Chatbots API
+  slug: chatbase-chatbots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/openapi/chatbase-openapi.yml
-- filename: chatbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/openapi/chatbase-chatbots-api-openapi.yml
+- filename: chatbase-contacts-api-openapi.yml
+  format: yaml
+  label: Chatbase Contacts API
+  slug: chatbase-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/openapi/chatbase-contacts-api-openapi.yml
+- filename: chatbase-conversations-api-openapi.yml
   format: yaml
   label: Chatbase Conversations API
   slug: chatbase-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/openapi/chatbase-openapi.yml
-- filename: chatbase-openapi.yml
-  format: yaml
-  label: Chatbase Sources and Data API
-  slug: chatbase-sources-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/openapi/chatbase-openapi.yml
-- filename: chatbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/openapi/chatbase-conversations-api-openapi.yml
+- filename: chatbase-leads-api-openapi.yml
   format: yaml
   label: Chatbase Leads API
   slug: chatbase-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/openapi/chatbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/openapi/chatbase-leads-api-openapi.yml
 description: ''
 domains:
 - caa: []

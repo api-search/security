@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: choozle-accounts-api-openapi.yml
   format: yaml
-  label: Choozle Reporting API
-  slug: choozle-reporting-api
+  label: Choozle Accounts API
+  slug: choozle-accounts-api
   spec_type: OpenAPI
-  url: https://app.choozle.com/apidoc/
+  url: https://raw.githubusercontent.com/api-evangelist/choozle/refs/heads/main/openapi/choozle-accounts-api-openapi.yml
+- filename: choozle-authorization-api-openapi.yml
+  format: yaml
+  label: Choozle Authorization API
+  slug: choozle-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/choozle/refs/heads/main/openapi/choozle-authorization-api-openapi.yml
+- filename: choozle-reports-api-openapi.yml
+  format: yaml
+  label: Choozle Reports API
+  slug: choozle-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/choozle/refs/heads/main/openapi/choozle-reports-api-openapi.yml
 description: ''
 domains:
 - caa: []

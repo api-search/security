@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: passage-1password-openapi.yml
+- filename: passage-1password-devices-api-openapi.yml
   format: yaml
-  label: Passage Management API
-  slug: passage-management-api
+  label: Passage by 1Password Devices API
+  slug: passage-1password-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passage-1password/refs/heads/main/openapi/passage-1password-openapi.yml
-- filename: passage-1password-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/passage-1password/refs/heads/main/openapi/passage-1password-devices-api-openapi.yml
+- filename: passage-1password-magic-links-api-openapi.yml
   format: yaml
-  label: Passage Users API
-  slug: passage-users-api
+  label: Passage by 1Password Magic Links API
+  slug: passage-1password-magic-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passage-1password/refs/heads/main/openapi/passage-1password-openapi.yml
-- filename: passage-1password-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/passage-1password/refs/heads/main/openapi/passage-1password-magic-links-api-openapi.yml
+- filename: passage-1password-tokens-api-openapi.yml
   format: yaml
-  label: Passage Magic Links API
-  slug: passage-magic-links-api
+  label: Passage by 1Password Tokens API
+  slug: passage-1password-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passage-1password/refs/heads/main/openapi/passage-1password-openapi.yml
-- filename: passage-1password-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/passage-1password/refs/heads/main/openapi/passage-1password-tokens-api-openapi.yml
+- filename: passage-1password-users-api-openapi.yml
   format: yaml
-  label: Passage Authentication API
-  slug: passage-authentication-api
+  label: Passage by 1Password Users API
+  slug: passage-1password-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passage-1password/refs/heads/main/openapi/passage-1password-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/passage-1password/refs/heads/main/openapi/passage-1password-users-api-openapi.yml
 certifications:
 - SOC 2
 description: ''

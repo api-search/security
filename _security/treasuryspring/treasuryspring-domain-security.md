@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: treasuryspring-openapi-original.json
-  format: json
-  label: TreasurySpring Public API
-  slug: treasuryspring-public-api
+- filename: treasuryspring-calendar-api-openapi.yml
+  format: yaml
+  label: TreasurySpring Calendar API
+  slug: treasuryspring-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/openapi/treasuryspring-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/openapi/treasuryspring-calendar-api-openapi.yml
+- filename: treasuryspring-cells-api-openapi.yml
+  format: yaml
+  label: TreasurySpring Cells API
+  slug: treasuryspring-cells-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/openapi/treasuryspring-cells-api-openapi.yml
+- filename: treasuryspring-entities-api-openapi.yml
+  format: yaml
+  label: TreasurySpring Entities API
+  slug: treasuryspring-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/openapi/treasuryspring-entities-api-openapi.yml
+- filename: treasuryspring-event-checkpoints-api-openapi.yml
+  format: yaml
+  label: TreasurySpring Event Checkpoints API
+  slug: treasuryspring-event-checkpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/openapi/treasuryspring-event-checkpoints-api-openapi.yml
+- filename: treasuryspring-events-api-openapi.yml
+  format: yaml
+  label: TreasurySpring Events API
+  slug: treasuryspring-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/openapi/treasuryspring-events-api-openapi.yml
+- filename: treasuryspring-healthcheck-api-openapi.yml
+  format: yaml
+  label: TreasurySpring Healthcheck API
+  slug: treasuryspring-healthcheck-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/openapi/treasuryspring-healthcheck-api-openapi.yml
+- filename: treasuryspring-holdings-api-openapi.yml
+  format: yaml
+  label: TreasurySpring Holdings API
+  slug: treasuryspring-holdings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/openapi/treasuryspring-holdings-api-openapi.yml
+- filename: treasuryspring-indications-api-openapi.yml
+  format: yaml
+  label: TreasurySpring Indications API
+  slug: treasuryspring-indications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/openapi/treasuryspring-indications-api-openapi.yml
+- filename: treasuryspring-oauth-api-openapi.yml
+  format: yaml
+  label: TreasurySpring OAuth API
+  slug: treasuryspring-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/openapi/treasuryspring-oauth-api-openapi.yml
+- filename: treasuryspring-obligor-exposure-api-openapi.yml
+  format: yaml
+  label: TreasurySpring Obligor Exposure API
+  slug: treasuryspring-obligor-exposure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/openapi/treasuryspring-obligor-exposure-api-openapi.yml
+- filename: treasuryspring-subscriptions-api-openapi.yml
+  format: yaml
+  label: TreasurySpring Subscriptions API
+  slug: treasuryspring-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/openapi/treasuryspring-subscriptions-api-openapi.yml
+- filename: treasuryspring-tasks-api-openapi.yml
+  format: yaml
+  label: TreasurySpring Tasks API
+  slug: treasuryspring-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/openapi/treasuryspring-tasks-api-openapi.yml
+- filename: treasuryspring-webhooks-api-openapi.yml
+  format: yaml
+  label: TreasurySpring Webhooks API
+  slug: treasuryspring-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/openapi/treasuryspring-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

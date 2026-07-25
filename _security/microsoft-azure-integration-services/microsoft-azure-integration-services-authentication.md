@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: microsoft-azure-integration-services-openapi.yml
+- filename: microsoft-azure-integration-services-operations-api-openapi.yml
   format: yaml
-  label: Azure API Management
-  slug: azure-api-management
+  label: Microsoft Azure Integration Services Operations API
+  slug: microsoft-azure-integration-services-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-integration-services/refs/heads/main/openapi/microsoft-azure-integration-services-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-integration-services/refs/heads/main/openapi/microsoft-azure-integration-services-operations-api-openapi.yml
+- filename: microsoft-azure-integration-services-services-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Services API
+  slug: microsoft-azure-integration-services-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-integration-services/refs/heads/main/openapi/microsoft-azure-integration-services-services-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: switchfly-loyalty-openapi.json
-  format: json
-  label: Switchfly Loyalty API
-  slug: switchfly-loyalty-api
+- filename: switchfly-machine-to-machine-oauth2-refund-api-openapi.yml
+  format: yaml
+  label: Switchfly Machine to Machine (OAuth2 & Refund) API
+  slug: switchfly-machine-to-machine-oauth2-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/openapi/switchfly-loyalty-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/openapi/switchfly-machine-to-machine-oauth2-refund-api-openapi.yml
+- filename: switchfly-oauth-2-sso-authorize-api-openapi.yml
+  format: yaml
+  label: Switchfly OAuth 2 - SSO Authorize API
+  slug: switchfly-oauth-2-sso-authorize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/openapi/switchfly-oauth-2-sso-authorize-api-openapi.yml
+- filename: switchfly-shopping-flow-api-openapi.yml
+  format: yaml
+  label: Switchfly Shopping Flow API
+  slug: switchfly-shopping-flow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/openapi/switchfly-shopping-flow-api-openapi.yml
 auth_types:
 - http
 - oauth2

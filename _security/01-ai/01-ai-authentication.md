@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: 01-ai-openapi.yml
+- filename: 01-ai-chat-api-openapi.yml
   format: yaml
-  label: Lingyiwanwu Platform API
-  slug: platform
+  label: 01.AI Chat API
+  slug: 01-ai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01-ai/refs/heads/main/openapi/01-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/01-ai/refs/heads/main/openapi/01-ai-chat-api-openapi.yml
 auth_types:
 - http
 description: ''

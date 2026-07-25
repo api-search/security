@@ -2,66 +2,78 @@
 api_key_in:
 - header
 api_specs:
-- filename: dfns-openapi.yml
+- filename: dfns-approvals-api-openapi.yml
   format: yaml
-  label: Dfns Wallets API
-  slug: dfns-wallets-api
+  label: Dfns Approvals API
+  slug: dfns-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-openapi.yml
-- filename: dfns-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-approvals-api-openapi.yml
+- filename: dfns-auth-api-openapi.yml
+  format: yaml
+  label: Dfns Auth API
+  slug: dfns-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-auth-api-openapi.yml
+- filename: dfns-keys-api-openapi.yml
   format: yaml
   label: Dfns Keys API
   slug: dfns-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-openapi.yml
-- filename: dfns-openapi.yml
-  format: yaml
-  label: Dfns Transfers API
-  slug: dfns-transfers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-openapi.yml
-- filename: dfns-openapi.yml
-  format: yaml
-  label: Dfns Transactions API
-  slug: dfns-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-openapi.yml
-- filename: dfns-openapi.yml
-  format: yaml
-  label: Dfns Signatures API
-  slug: dfns-signatures-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-openapi.yml
-- filename: dfns-openapi.yml
-  format: yaml
-  label: Dfns Policy Engine and Approvals API
-  slug: dfns-policy-engine-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-openapi.yml
-- filename: dfns-openapi.yml
-  format: yaml
-  label: Dfns Webhooks API
-  slug: dfns-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-openapi.yml
-- filename: dfns-openapi.yml
-  format: yaml
-  label: Dfns Permissions and Auth API
-  slug: dfns-permissions-auth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-openapi.yml
-- filename: dfns-openapi.yml
-  format: yaml
-  label: Dfns Service Accounts API
-  slug: dfns-service-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-openapi.yml
-- filename: dfns-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-keys-api-openapi.yml
+- filename: dfns-networks-api-openapi.yml
   format: yaml
   label: Dfns Networks API
   slug: dfns-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-networks-api-openapi.yml
+- filename: dfns-permissions-api-openapi.yml
+  format: yaml
+  label: Dfns Permissions API
+  slug: dfns-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-permissions-api-openapi.yml
+- filename: dfns-policies-api-openapi.yml
+  format: yaml
+  label: Dfns Policies API
+  slug: dfns-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-policies-api-openapi.yml
+- filename: dfns-serviceaccounts-api-openapi.yml
+  format: yaml
+  label: Dfns ServiceAccounts API
+  slug: dfns-serviceaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-serviceaccounts-api-openapi.yml
+- filename: dfns-signatures-api-openapi.yml
+  format: yaml
+  label: Dfns Signatures API
+  slug: dfns-signatures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-signatures-api-openapi.yml
+- filename: dfns-transactions-api-openapi.yml
+  format: yaml
+  label: Dfns Transactions API
+  slug: dfns-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-transactions-api-openapi.yml
+- filename: dfns-transfers-api-openapi.yml
+  format: yaml
+  label: Dfns Transfers API
+  slug: dfns-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-transfers-api-openapi.yml
+- filename: dfns-wallets-api-openapi.yml
+  format: yaml
+  label: Dfns Wallets API
+  slug: dfns-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-wallets-api-openapi.yml
+- filename: dfns-webhooks-api-openapi.yml
+  format: yaml
+  label: Dfns Webhooks API
+  slug: dfns-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http

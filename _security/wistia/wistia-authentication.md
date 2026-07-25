@@ -1,18 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: wistia-openapi.yml
-  format: yaml
-  label: Wistia Data API
-  slug: data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-openapi.yml
 - filename: wistia-asyncapi.yml
   format: yaml
   label: Wistia Webhooks
   slug: webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/asyncapi/wistia-asyncapi.yml
+- filename: wistia-account-api-openapi.yml
+  format: yaml
+  label: Wistia Account API
+  slug: wistia-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-account-api-openapi.yml
+- filename: wistia-alloweddomains-api-openapi.yml
+  format: yaml
+  label: Wistia AllowedDomains API
+  slug: wistia-alloweddomains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-alloweddomains-api-openapi.yml
+- filename: wistia-captions-api-openapi.yml
+  format: yaml
+  label: Wistia Captions API
+  slug: wistia-captions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-captions-api-openapi.yml
+- filename: wistia-channels-api-openapi.yml
+  format: yaml
+  label: Wistia Channels API
+  slug: wistia-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-channels-api-openapi.yml
+- filename: wistia-customizations-api-openapi.yml
+  format: yaml
+  label: Wistia Customizations API
+  slug: wistia-customizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-customizations-api-openapi.yml
+- filename: wistia-folders-api-openapi.yml
+  format: yaml
+  label: Wistia Folders API
+  slug: wistia-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-folders-api-openapi.yml
+- filename: wistia-medias-api-openapi.yml
+  format: yaml
+  label: Wistia Medias API
+  slug: wistia-medias-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-medias-api-openapi.yml
+- filename: wistia-tags-api-openapi.yml
+  format: yaml
+  label: Wistia Tags API
+  slug: wistia-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-tags-api-openapi.yml
+- filename: wistia-tokens-api-openapi.yml
+  format: yaml
+  label: Wistia Tokens API
+  slug: wistia-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-tokens-api-openapi.yml
+- filename: wistia-webinars-api-openapi.yml
+  format: yaml
+  label: Wistia Webinars API
+  slug: wistia-webinars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-webinars-api-openapi.yml
 auth_types:
 - http
 description: ''

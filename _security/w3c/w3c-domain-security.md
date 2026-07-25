@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: w3c-openapi.yml
+- filename: w3c-affiliations-api-openapi.yml
   format: yaml
-  label: W3C API
-  slug: w3c-api
+  label: W3C Affiliations API
+  slug: w3c-affiliations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/w3c/refs/heads/main/openapi/w3c-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/w3c/refs/heads/main/openapi/w3c-affiliations-api-openapi.yml
+- filename: w3c-ecosystems-api-openapi.yml
+  format: yaml
+  label: W3C Ecosystems API
+  slug: w3c-ecosystems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/w3c/refs/heads/main/openapi/w3c-ecosystems-api-openapi.yml
+- filename: w3c-groups-api-openapi.yml
+  format: yaml
+  label: W3C Groups API
+  slug: w3c-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/w3c/refs/heads/main/openapi/w3c-groups-api-openapi.yml
+- filename: w3c-specifications-api-openapi.yml
+  format: yaml
+  label: W3C Specifications API
+  slug: w3c-specifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/w3c/refs/heads/main/openapi/w3c-specifications-api-openapi.yml
+- filename: w3c-translations-api-openapi.yml
+  format: yaml
+  label: W3C Translations API
+  slug: w3c-translations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/w3c/refs/heads/main/openapi/w3c-translations-api-openapi.yml
 description: ''
 domains:
 - caa:

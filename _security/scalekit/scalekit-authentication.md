@@ -1,36 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: scalekit-openapi.yml
+- filename: scalekit-admin-portal-api-openapi.yml
   format: yaml
-  label: Scalekit SSO Connections API
-  slug: scalekit-sso-connections-api
+  label: Scalekit Admin Portal API
+  slug: scalekit-admin-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-openapi.yml
-- filename: scalekit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-admin-portal-api-openapi.yml
+- filename: scalekit-authentication-api-openapi.yml
+  format: yaml
+  label: Scalekit Authentication API
+  slug: scalekit-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-authentication-api-openapi.yml
+- filename: scalekit-connected-accounts-api-openapi.yml
+  format: yaml
+  label: Scalekit Connected Accounts API
+  slug: scalekit-connected-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-connected-accounts-api-openapi.yml
+- filename: scalekit-connections-api-openapi.yml
+  format: yaml
+  label: Scalekit Connections API
+  slug: scalekit-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-connections-api-openapi.yml
+- filename: scalekit-directories-api-openapi.yml
+  format: yaml
+  label: Scalekit Directories API
+  slug: scalekit-directories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-directories-api-openapi.yml
+- filename: scalekit-organization-settings-api-openapi.yml
+  format: yaml
+  label: Scalekit Organization Settings API
+  slug: scalekit-organization-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-organization-settings-api-openapi.yml
+- filename: scalekit-organizations-api-openapi.yml
   format: yaml
   label: Scalekit Organizations API
   slug: scalekit-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-openapi.yml
-- filename: scalekit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-organizations-api-openapi.yml
+- filename: scalekit-roles-api-openapi.yml
   format: yaml
-  label: Scalekit Directory / SCIM API
-  slug: scalekit-directory-scim-api
+  label: Scalekit Roles API
+  slug: scalekit-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-openapi.yml
-- filename: scalekit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-roles-api-openapi.yml
+- filename: scalekit-users-memberships-api-openapi.yml
   format: yaml
   label: Scalekit Users & Memberships API
   slug: scalekit-users-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-openapi.yml
-- filename: scalekit-openapi.yml
-  format: yaml
-  label: Scalekit Agent / M2M Auth API
-  slug: scalekit-agent-m2m-auth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-users-memberships-api-openapi.yml
 auth_types:
 - http
 - oauth2

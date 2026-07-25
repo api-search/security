@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: capsule-opportunities-api-openapi.yml
   format: yaml
-  label: Capsule REST API
-  slug: capsule-rest-api
+  label: Capsule Opportunities API
+  slug: capsule-opportunities-api
   spec_type: OpenAPI
-  url: https://developer.capsulecrm.com/
+  url: https://raw.githubusercontent.com/api-evangelist/capsule/refs/heads/main/openapi/capsule-opportunities-api-openapi.yml
+- filename: capsule-parties-api-openapi.yml
+  format: yaml
+  label: Capsule Parties API
+  slug: capsule-parties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capsule/refs/heads/main/openapi/capsule-parties-api-openapi.yml
+- filename: capsule-projects-api-openapi.yml
+  format: yaml
+  label: Capsule Projects API
+  slug: capsule-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capsule/refs/heads/main/openapi/capsule-projects-api-openapi.yml
+- filename: capsule-tasks-api-openapi.yml
+  format: yaml
+  label: Capsule Tasks API
+  slug: capsule-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capsule/refs/heads/main/openapi/capsule-tasks-api-openapi.yml
 description: ''
 domains:
 - caa:

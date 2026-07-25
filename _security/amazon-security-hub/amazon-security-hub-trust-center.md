@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: amazon-security-hub-openapi.yml
+- filename: amazon-security-hub-administration-api-openapi.yml
   format: yaml
-  label: AWS Security Hub API
-  slug: aws-security-hub-api
+  label: Amazon Security Hub Administration API
+  slug: amazon-security-hub-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-security-hub/refs/heads/main/openapi/amazon-security-hub-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-security-hub/refs/heads/main/openapi/amazon-security-hub-administration-api-openapi.yml
+- filename: amazon-security-hub-findings-api-openapi.yml
+  format: yaml
+  label: Amazon Security Hub Findings API
+  slug: amazon-security-hub-findings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-security-hub/refs/heads/main/openapi/amazon-security-hub-findings-api-openapi.yml
+- filename: amazon-security-hub-insights-api-openapi.yml
+  format: yaml
+  label: Amazon Security Hub Insights API
+  slug: amazon-security-hub-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-security-hub/refs/heads/main/openapi/amazon-security-hub-insights-api-openapi.yml
+- filename: amazon-security-hub-integrations-api-openapi.yml
+  format: yaml
+  label: Amazon Security Hub Integrations API
+  slug: amazon-security-hub-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-security-hub/refs/heads/main/openapi/amazon-security-hub-integrations-api-openapi.yml
+- filename: amazon-security-hub-standards-api-openapi.yml
+  format: yaml
+  label: Amazon Security Hub Standards API
+  slug: amazon-security-hub-standards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-security-hub/refs/heads/main/openapi/amazon-security-hub-standards-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

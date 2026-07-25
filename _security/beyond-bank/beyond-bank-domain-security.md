@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: beyond-bank-cds-banking-products-openapi.yml
+- filename: beyond-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Beyond Bank Australia CDR Product Reference Data API
-  slug: beyond-bank-cdr-product-reference-data-api
+  label: Beyond Bank Australia Banking Account Balances API
+  slug: beyond-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-cds-banking-products-openapi.yml
-- filename: beyond-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-account-balances-api-openapi.yml
+- filename: beyond-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Beyond Bank Australia CDR Accounts & Balances API
-  slug: beyond-bank-cdr-accounts-balances-api
+  label: Beyond Bank Australia Banking Account Direct Debits API
+  slug: beyond-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-cds-banking-products-openapi.yml
-- filename: beyond-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-account-direct-debits-api-openapi.yml
+- filename: beyond-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Beyond Bank Australia CDR Transactions API
-  slug: beyond-bank-cdr-transactions-api
+  label: Beyond Bank Australia Banking Account Scheduled Payments API
+  slug: beyond-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-cds-banking-products-openapi.yml
-- filename: beyond-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: beyond-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Beyond Bank Australia CDR Direct Debits & Scheduled Payments API
-  slug: beyond-bank-cdr-direct-debits-scheduled-payments-api
+  label: Beyond Bank Australia Banking Account Transactions API
+  slug: beyond-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-cds-banking-products-openapi.yml
-- filename: beyond-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-account-transactions-api-openapi.yml
+- filename: beyond-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: Beyond Bank Australia CDR Payees API
-  slug: beyond-bank-cdr-payees-api
+  label: Beyond Bank Australia Banking Accounts API
+  slug: beyond-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-accounts-api-openapi.yml
+- filename: beyond-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: Beyond Bank Australia Banking Payees API
+  slug: beyond-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-payees-api-openapi.yml
+- filename: beyond-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: Beyond Bank Australia Banking Products API
+  slug: beyond-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

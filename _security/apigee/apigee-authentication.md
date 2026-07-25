@@ -1,36 +1,246 @@
 ---
 api_key_in: []
 api_specs:
-- filename: apigee-api-management-openapi.yml
+- filename: apigee-analytics-api-openapi.yml
   format: yaml
-  label: Apigee API Management
-  slug: apigee-api-management
+  label: Apigee Analytics API
+  slug: apigee-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-api-management-openapi.yml
-- filename: apigee-api-hub-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-analytics-api-openapi.yml
+- filename: apigee-api-deployments-api-openapi.yml
   format: yaml
-  label: Apigee API Hub API
-  slug: apigee-api-hub-api
+  label: Apigee API Deployments API
+  slug: apigee-api-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-api-hub-openapi.yml
-- filename: apigee-integrations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-api-deployments-api-openapi.yml
+- filename: apigee-api-observations-api-openapi.yml
+  format: yaml
+  label: Apigee API Observations API
+  slug: apigee-api-observations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-api-observations-api-openapi.yml
+- filename: apigee-api-operations-api-openapi.yml
+  format: yaml
+  label: Apigee API Operations API
+  slug: apigee-api-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-api-operations-api-openapi.yml
+- filename: apigee-api-products-api-openapi.yml
+  format: yaml
+  label: Apigee API Products API
+  slug: apigee-api-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-api-products-api-openapi.yml
+- filename: apigee-api-proxies-api-openapi.yml
+  format: yaml
+  label: Apigee API Proxies API
+  slug: apigee-api-proxies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-api-proxies-api-openapi.yml
+- filename: apigee-api-proxy-revisions-api-openapi.yml
+  format: yaml
+  label: Apigee API Proxy Revisions API
+  slug: apigee-api-proxy-revisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-api-proxy-revisions-api-openapi.yml
+- filename: apigee-api-specs-api-openapi.yml
+  format: yaml
+  label: Apigee API Specs API
+  slug: apigee-api-specs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-api-specs-api-openapi.yml
+- filename: apigee-api-versions-api-openapi.yml
+  format: yaml
+  label: Apigee API Versions API
+  slug: apigee-api-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-api-versions-api-openapi.yml
+- filename: apigee-app-groups-api-openapi.yml
+  format: yaml
+  label: Apigee App Groups API
+  slug: apigee-app-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-app-groups-api-openapi.yml
+- filename: apigee-artifacts-api-openapi.yml
+  format: yaml
+  label: Apigee Artifacts API
+  slug: apigee-artifacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-artifacts-api-openapi.yml
+- filename: apigee-attributes-api-openapi.yml
+  format: yaml
+  label: Apigee Attributes API
+  slug: apigee-attributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-attributes-api-openapi.yml
+- filename: apigee-auth-configs-api-openapi.yml
+  format: yaml
+  label: Apigee Auth Configs API
+  slug: apigee-auth-configs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-auth-configs-api-openapi.yml
+- filename: apigee-certificates-api-openapi.yml
+  format: yaml
+  label: Apigee Certificates API
+  slug: apigee-certificates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-certificates-api-openapi.yml
+- filename: apigee-dependencies-api-openapi.yml
+  format: yaml
+  label: Apigee Dependencies API
+  slug: apigee-dependencies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-dependencies-api-openapi.yml
+- filename: apigee-deployments-api-openapi.yml
+  format: yaml
+  label: Apigee Deployments API
+  slug: apigee-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-deployments-api-openapi.yml
+- filename: apigee-developer-app-keys-api-openapi.yml
+  format: yaml
+  label: Apigee Developer App Keys API
+  slug: apigee-developer-app-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-developer-app-keys-api-openapi.yml
+- filename: apigee-developer-apps-api-openapi.yml
+  format: yaml
+  label: Apigee Developer Apps API
+  slug: apigee-developer-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-developer-apps-api-openapi.yml
+- filename: apigee-developers-api-openapi.yml
+  format: yaml
+  label: Apigee Developers API
+  slug: apigee-developers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-developers-api-openapi.yml
+- filename: apigee-environments-api-openapi.yml
+  format: yaml
+  label: Apigee Environments API
+  slug: apigee-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-environments-api-openapi.yml
+- filename: apigee-executions-api-openapi.yml
+  format: yaml
+  label: Apigee Executions API
+  slug: apigee-executions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-executions-api-openapi.yml
+- filename: apigee-external-apis-api-openapi.yml
+  format: yaml
+  label: Apigee External APIs API
+  slug: apigee-external-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-external-apis-api-openapi.yml
+- filename: apigee-instances-api-openapi.yml
+  format: yaml
+  label: Apigee Instances API
+  slug: apigee-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-instances-api-openapi.yml
+- filename: apigee-integration-versions-api-openapi.yml
+  format: yaml
+  label: Apigee Integration Versions API
+  slug: apigee-integration-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-integration-versions-api-openapi.yml
+- filename: apigee-integrations-api-openapi.yml
   format: yaml
   label: Apigee Integrations API
   slug: apigee-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-integrations-openapi.yml
-- filename: apigee-apim-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-integrations-api-openapi.yml
+- filename: apigee-key-value-maps-api-openapi.yml
   format: yaml
-  label: Apigee API Management API
-  slug: apigee-api-management-api
+  label: Apigee Key Value Maps API
+  slug: apigee-key-value-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-apim-openapi.yml
-- filename: apigee-registry-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-key-value-maps-api-openapi.yml
+- filename: apigee-locations-api-openapi.yml
   format: yaml
-  label: Apigee Registry API
-  slug: apigee-registry-api
+  label: Apigee Locations API
+  slug: apigee-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-registry-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-locations-api-openapi.yml
+- filename: apigee-observation-jobs-api-openapi.yml
+  format: yaml
+  label: Apigee Observation Jobs API
+  slug: apigee-observation-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-observation-jobs-api-openapi.yml
+- filename: apigee-observation-sources-api-openapi.yml
+  format: yaml
+  label: Apigee Observation Sources API
+  slug: apigee-observation-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-observation-sources-api-openapi.yml
+- filename: apigee-operations-api-openapi.yml
+  format: yaml
+  label: Apigee Operations API
+  slug: apigee-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-operations-api-openapi.yml
+- filename: apigee-organizations-api-openapi.yml
+  format: yaml
+  label: Apigee Organizations API
+  slug: apigee-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-organizations-api-openapi.yml
+- filename: apigee-projects-api-openapi.yml
+  format: yaml
+  label: Apigee Projects API
+  slug: apigee-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-projects-api-openapi.yml
+- filename: apigee-runtime-project-attachments-api-openapi.yml
+  format: yaml
+  label: Apigee Runtime Project Attachments API
+  slug: apigee-runtime-project-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-runtime-project-attachments-api-openapi.yml
+- filename: apigee-sfdc-channels-api-openapi.yml
+  format: yaml
+  label: Apigee SFDC Channels API
+  slug: apigee-sfdc-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-sfdc-channels-api-openapi.yml
+- filename: apigee-sfdc-instances-api-openapi.yml
+  format: yaml
+  label: Apigee SFDC Instances API
+  slug: apigee-sfdc-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-sfdc-instances-api-openapi.yml
+- filename: apigee-shared-flows-api-openapi.yml
+  format: yaml
+  label: Apigee Shared Flows API
+  slug: apigee-shared-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-shared-flows-api-openapi.yml
+- filename: apigee-specs-api-openapi.yml
+  format: yaml
+  label: Apigee Specs API
+  slug: apigee-specs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-specs-api-openapi.yml
+- filename: apigee-suspensions-api-openapi.yml
+  format: yaml
+  label: Apigee Suspensions API
+  slug: apigee-suspensions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-suspensions-api-openapi.yml
+- filename: apigee-target-servers-api-openapi.yml
+  format: yaml
+  label: Apigee Target Servers API
+  slug: apigee-target-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-target-servers-api-openapi.yml
+- filename: apigee-versions-api-openapi.yml
+  format: yaml
+  label: Apigee Versions API
+  slug: apigee-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-versions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

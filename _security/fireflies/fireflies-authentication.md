@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Fireflies GraphQL API
-  slug: fireflies-graphql-api
+- filename: fireflies-ai-apps-api-openapi.yml
+  format: yaml
+  label: Fireflies.ai AI Apps API
+  slug: fireflies-ai-apps-api
   spec_type: OpenAPI
-  url: https://docs.fireflies.ai/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/openapi/fireflies-ai-apps-api-openapi.yml
+- filename: fireflies-audio-upload-api-openapi.yml
+  format: yaml
+  label: Fireflies.ai Audio Upload API
+  slug: fireflies-audio-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/openapi/fireflies-audio-upload-api-openapi.yml
+- filename: fireflies-bites-api-openapi.yml
+  format: yaml
+  label: Fireflies.ai Bites API
+  slug: fireflies-bites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/openapi/fireflies-bites-api-openapi.yml
+- filename: fireflies-live-meetings-api-openapi.yml
+  format: yaml
+  label: Fireflies.ai Live Meetings API
+  slug: fireflies-live-meetings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/openapi/fireflies-live-meetings-api-openapi.yml
+- filename: fireflies-transcripts-api-openapi.yml
+  format: yaml
+  label: Fireflies.ai Transcripts API
+  slug: fireflies-transcripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/openapi/fireflies-transcripts-api-openapi.yml
+- filename: fireflies-users-api-openapi.yml
+  format: yaml
+  label: Fireflies.ai Users API
+  slug: fireflies-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/openapi/fireflies-users-api-openapi.yml
 auth_types:
 - http
 description: ''

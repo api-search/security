@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tesseract-public-api-openapi.json
-  format: json
-  label: Tesseract Public API
-  slug: tesseract-public-api
+- filename: tesseract-clients-api-openapi.yml
+  format: yaml
+  label: Tesseract clients API
+  slug: tesseract-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/openapi/tesseract-public-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/openapi/tesseract-clients-api-openapi.yml
+- filename: tesseract-health-api-openapi.yml
+  format: yaml
+  label: Tesseract health API
+  slug: tesseract-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/openapi/tesseract-health-api-openapi.yml
+- filename: tesseract-insights-api-openapi.yml
+  format: yaml
+  label: Tesseract insights API
+  slug: tesseract-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/openapi/tesseract-insights-api-openapi.yml
+- filename: tesseract-strategies-api-openapi.yml
+  format: yaml
+  label: Tesseract strategies API
+  slug: tesseract-strategies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/openapi/tesseract-strategies-api-openapi.yml
+- filename: tesseract-vaults-api-openapi.yml
+  format: yaml
+  label: Tesseract vaults API
+  slug: tesseract-vaults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/openapi/tesseract-vaults-api-openapi.yml
 auth_types:
 - none
 - signature

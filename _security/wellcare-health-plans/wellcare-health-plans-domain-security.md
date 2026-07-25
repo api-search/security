@@ -1,17 +1,83 @@
 ---
 api_specs:
-- filename: wellcare-fhir-patient-access-api-openapi.yml
+- filename: wellcare-health-plans-condition-api-openapi.yml
   format: yaml
-  label: WellCare FHIR Patient Access API
-  slug: fhir-patient-access-api
+  label: wellcare-health-plans Condition API
+  slug: wellcare-health-plans-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellcare-health-plans/refs/heads/main/openapi/wellcare-fhir-patient-access-api-openapi.yml
-- filename: wellcare-fhir-provider-directory-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wellcare-health-plans/refs/heads/main/openapi/wellcare-health-plans-condition-api-openapi.yml
+- filename: wellcare-health-plans-coverage-api-openapi.yml
   format: yaml
-  label: WellCare FHIR Provider Directory API
-  slug: fhir-provider-directory-api
+  label: wellcare-health-plans Coverage API
+  slug: wellcare-health-plans-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellcare-health-plans/refs/heads/main/openapi/wellcare-fhir-provider-directory-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wellcare-health-plans/refs/heads/main/openapi/wellcare-health-plans-coverage-api-openapi.yml
+- filename: wellcare-health-plans-encounter-api-openapi.yml
+  format: yaml
+  label: wellcare-health-plans Encounter API
+  slug: wellcare-health-plans-encounter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellcare-health-plans/refs/heads/main/openapi/wellcare-health-plans-encounter-api-openapi.yml
+- filename: wellcare-health-plans-explanation-of-benefits-api-openapi.yml
+  format: yaml
+  label: wellcare-health-plans Explanation of Benefits API
+  slug: wellcare-health-plans-explanation-of-benefits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellcare-health-plans/refs/heads/main/openapi/wellcare-health-plans-explanation-of-benefits-api-openapi.yml
+- filename: wellcare-health-plans-immunization-api-openapi.yml
+  format: yaml
+  label: wellcare-health-plans Immunization API
+  slug: wellcare-health-plans-immunization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellcare-health-plans/refs/heads/main/openapi/wellcare-health-plans-immunization-api-openapi.yml
+- filename: wellcare-health-plans-insurance-plan-api-openapi.yml
+  format: yaml
+  label: wellcare-health-plans Insurance Plan API
+  slug: wellcare-health-plans-insurance-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellcare-health-plans/refs/heads/main/openapi/wellcare-health-plans-insurance-plan-api-openapi.yml
+- filename: wellcare-health-plans-location-api-openapi.yml
+  format: yaml
+  label: wellcare-health-plans Location API
+  slug: wellcare-health-plans-location-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellcare-health-plans/refs/heads/main/openapi/wellcare-health-plans-location-api-openapi.yml
+- filename: wellcare-health-plans-medication-request-api-openapi.yml
+  format: yaml
+  label: wellcare-health-plans Medication Request API
+  slug: wellcare-health-plans-medication-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellcare-health-plans/refs/heads/main/openapi/wellcare-health-plans-medication-request-api-openapi.yml
+- filename: wellcare-health-plans-observation-api-openapi.yml
+  format: yaml
+  label: wellcare-health-plans Observation API
+  slug: wellcare-health-plans-observation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellcare-health-plans/refs/heads/main/openapi/wellcare-health-plans-observation-api-openapi.yml
+- filename: wellcare-health-plans-organization-api-openapi.yml
+  format: yaml
+  label: wellcare-health-plans Organization API
+  slug: wellcare-health-plans-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellcare-health-plans/refs/heads/main/openapi/wellcare-health-plans-organization-api-openapi.yml
+- filename: wellcare-health-plans-patient-api-openapi.yml
+  format: yaml
+  label: wellcare-health-plans Patient API
+  slug: wellcare-health-plans-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellcare-health-plans/refs/heads/main/openapi/wellcare-health-plans-patient-api-openapi.yml
+- filename: wellcare-health-plans-practitioner-api-openapi.yml
+  format: yaml
+  label: wellcare-health-plans Practitioner API
+  slug: wellcare-health-plans-practitioner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellcare-health-plans/refs/heads/main/openapi/wellcare-health-plans-practitioner-api-openapi.yml
+- filename: wellcare-health-plans-practitioner-role-api-openapi.yml
+  format: yaml
+  label: wellcare-health-plans Practitioner Role API
+  slug: wellcare-health-plans-practitioner-role-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellcare-health-plans/refs/heads/main/openapi/wellcare-health-plans-practitioner-role-api-openapi.yml
 description: ''
 domains:
 - caa: []

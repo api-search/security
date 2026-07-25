@@ -1,53 +1,59 @@
 ---
 api_specs:
-- filename: cedarai-external-openapi.yml
+- filename: cedarai-chargeservice-api-openapi.yml
   format: yaml
-  label: Cedar ARMS External API
-  slug: cedar-arms-external-api
+  label: Cedarai ChargeService API
+  slug: cedarai-chargeservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/openapi/cedarai-external-openapi.yml
-- filename: cedarai-work-order-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/openapi/cedarai-chargeservice-api-openapi.yml
+- filename: cedarai-equipment-history-api-openapi.yml
   format: yaml
-  label: Cedar ARMS Work Order API
-  slug: cedar-arms-work-order-api
+  label: Cedarai Equipment History API
+  slug: cedarai-equipment-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/openapi/cedarai-work-order-openapi.yml
-- filename: cedarai-charge-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/openapi/cedarai-equipment-history-api-openapi.yml
+- filename: cedarai-ims-api-openapi.yml
   format: yaml
-  label: Cedar ARMS Charges API
-  slug: cedar-arms-charges-api
+  label: Cedarai Ims API
+  slug: cedarai-ims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/openapi/cedarai-charge-openapi.yml
-- filename: cedarai-invoices-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/openapi/cedarai-ims-api-openapi.yml
+- filename: cedarai-invoicesservice-api-openapi.yml
   format: yaml
-  label: Cedar ARMS Shipper Invoices API
-  slug: cedar-arms-shipper-invoices-api
+  label: Cedarai InvoicesService API
+  slug: cedarai-invoicesservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/openapi/cedarai-invoices-openapi.yml
-- filename: cedarai-quotes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/openapi/cedarai-invoicesservice-api-openapi.yml
+- filename: cedarai-lindaservice-api-openapi.yml
   format: yaml
-  label: Cedar ARMS Shipper Quotes API
-  slug: cedar-arms-shipper-quotes-api
+  label: Cedarai LindaService API
+  slug: cedarai-lindaservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/openapi/cedarai-quotes-openapi.yml
-- filename: cedarai-load-tender-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/openapi/cedarai-lindaservice-api-openapi.yml
+- filename: cedarai-networkstructureservice-api-openapi.yml
   format: yaml
-  label: Cedar ARMS Truck Load Tender API
-  slug: cedar-arms-truck-load-tender-api
+  label: Cedarai NetworkStructureService API
+  slug: cedarai-networkstructureservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/openapi/cedarai-load-tender-openapi.yml
-- filename: cedarai-network-structure-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/openapi/cedarai-networkstructureservice-api-openapi.yml
+- filename: cedarai-quotesservice-api-openapi.yml
   format: yaml
-  label: Cedar ARMS Network Structure API
-  slug: cedar-arms-network-structure-api
+  label: Cedarai QuotesService API
+  slug: cedarai-quotesservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/openapi/cedarai-network-structure-openapi.yml
-- filename: cedarai-linda-notes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/openapi/cedarai-quotesservice-api-openapi.yml
+- filename: cedarai-truckloadtenderservice-api-openapi.yml
   format: yaml
-  label: Cedar Linda Notes API
-  slug: cedar-linda-notes-api
+  label: Cedarai TruckLoadTenderService API
+  slug: cedarai-truckloadtenderservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/openapi/cedarai-linda-notes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/openapi/cedarai-truckloadtenderservice-api-openapi.yml
+- filename: cedarai-workorderservice-api-openapi.yml
+  format: yaml
+  label: Cedarai WorkOrderService API
+  slug: cedarai-workorderservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/openapi/cedarai-workorderservice-api-openapi.yml
 description: ''
 domains:
 - caa: []

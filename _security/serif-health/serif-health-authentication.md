@@ -1,30 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: serif-health-openapi.yml
+- filename: serif-health-distributions-api-openapi.yml
   format: yaml
-  label: Serif Health Negotiated Rates API
-  slug: negotiated-rates-api
+  label: Serif Health Distributions API
+  slug: serif-health-distributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serif-health/refs/heads/main/openapi/serif-health-openapi.yml
-- filename: serif-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/serif-health/refs/heads/main/openapi/serif-health-distributions-api-openapi.yml
+- filename: serif-health-rates-api-openapi.yml
   format: yaml
-  label: Serif Health Rate Distributions API
-  slug: rate-search-api
+  label: Serif Health Rates API
+  slug: serif-health-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serif-health/refs/heads/main/openapi/serif-health-openapi.yml
-- filename: serif-health-openapi.yml
-  format: yaml
-  label: Serif Health Find Care API
-  slug: find-care-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serif-health/refs/heads/main/openapi/serif-health-openapi.yml
-- filename: serif-health-openapi.yml
-  format: yaml
-  label: Serif Health Provider Directory API
-  slug: provider-directory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serif-health/refs/heads/main/openapi/serif-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/serif-health/refs/heads/main/openapi/serif-health-rates-api-openapi.yml
 auth_types:
 - http
 description: ''

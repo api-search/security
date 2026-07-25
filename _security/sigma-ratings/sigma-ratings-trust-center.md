@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: sigma-ratings-openapi-original.json
-  format: json
-  label: Sigma360 API
-  slug: sigma360-api
+- filename: sigma-ratings-account-api-openapi.yml
+  format: yaml
+  label: Sigma360 Account API
+  slug: sigma-ratings-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-ratings/refs/heads/main/openapi/sigma-ratings-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/sigma-ratings/refs/heads/main/openapi/sigma-ratings-account-api-openapi.yml
+- filename: sigma-ratings-informational-api-openapi.yml
+  format: yaml
+  label: Sigma360 Informational API
+  slug: sigma-ratings-informational-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sigma-ratings/refs/heads/main/openapi/sigma-ratings-informational-api-openapi.yml
+- filename: sigma-ratings-monitoring-entity-creation-api-openapi.yml
+  format: yaml
+  label: 'Sigma360 Monitoring: Entity Creation API'
+  slug: sigma-ratings-monitoring-entity-creation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sigma-ratings/refs/heads/main/openapi/sigma-ratings-monitoring-entity-creation-api-openapi.yml
+- filename: sigma-ratings-monitoring-entity-management-api-openapi.yml
+  format: yaml
+  label: 'Sigma360 Monitoring: Entity Management API'
+  slug: sigma-ratings-monitoring-entity-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sigma-ratings/refs/heads/main/openapi/sigma-ratings-monitoring-entity-management-api-openapi.yml
+- filename: sigma-ratings-monitoring-history-api-openapi.yml
+  format: yaml
+  label: 'Sigma360 Monitoring: History API'
+  slug: sigma-ratings-monitoring-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sigma-ratings/refs/heads/main/openapi/sigma-ratings-monitoring-history-api-openapi.yml
+- filename: sigma-ratings-one-off-screening-api-openapi.yml
+  format: yaml
+  label: Sigma360 One-Off Screening API
+  slug: sigma-ratings-one-off-screening-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sigma-ratings/refs/heads/main/openapi/sigma-ratings-one-off-screening-api-openapi.yml
+- filename: sigma-ratings-utilities-api-openapi.yml
+  format: yaml
+  label: Sigma360 Utilities API
+  slug: sigma-ratings-utilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sigma-ratings/refs/heads/main/openapi/sigma-ratings-utilities-api-openapi.yml
 certifications:
 - SOC 2 Type II
 - GDPR

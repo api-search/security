@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: bjs-wholesale-club-openapi.yaml
+- filename: bjs-wholesale-club-clubs-api-openapi.yml
   format: yaml
-  label: BJ's Wholesale Club API
-  slug: bjs-wholesale-club
+  label: BJ's Wholesale Club Clubs API
+  slug: bjs-wholesale-club-clubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/openapi/bjs-wholesale-club-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/openapi/bjs-wholesale-club-clubs-api-openapi.yml
+- filename: bjs-wholesale-club-inventory-api-openapi.yml
+  format: yaml
+  label: BJ's Wholesale Club Inventory API
+  slug: bjs-wholesale-club-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/openapi/bjs-wholesale-club-inventory-api-openapi.yml
+- filename: bjs-wholesale-club-membership-api-openapi.yml
+  format: yaml
+  label: BJ's Wholesale Club Membership API
+  slug: bjs-wholesale-club-membership-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/openapi/bjs-wholesale-club-membership-api-openapi.yml
+- filename: bjs-wholesale-club-orders-api-openapi.yml
+  format: yaml
+  label: BJ's Wholesale Club Orders API
+  slug: bjs-wholesale-club-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/openapi/bjs-wholesale-club-orders-api-openapi.yml
+- filename: bjs-wholesale-club-products-api-openapi.yml
+  format: yaml
+  label: BJ's Wholesale Club Products API
+  slug: bjs-wholesale-club-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/openapi/bjs-wholesale-club-products-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

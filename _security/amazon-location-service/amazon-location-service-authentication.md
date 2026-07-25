@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-location-service-openapi.yml
+- filename: amazon-location-service-maps-api-openapi.yml
   format: yaml
-  label: Amazon Location Service REST API
-  slug: amazon-location-service-rest-api
+  label: Amazon Location Service Maps API
+  slug: amazon-location-service-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-location-service/refs/heads/main/openapi/amazon-location-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-location-service/refs/heads/main/openapi/amazon-location-service-maps-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

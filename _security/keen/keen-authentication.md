@@ -2,18 +2,6 @@
 api_key_in:
 - header
 api_specs:
-- filename: keen-event-collection-api-openapi.yml
-  format: yaml
-  label: Keen Event Collection API
-  slug: event-collection-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-event-collection-api-openapi.yml
-- filename: keen-query-api-openapi.yml
-  format: yaml
-  label: Keen Query API
-  slug: query-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-query-api-openapi.yml
 - filename: keen-cached-queries-api-openapi.yml
   format: yaml
   label: Keen Cached Queries API
@@ -26,12 +14,30 @@ api_specs:
   slug: saved-queries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-saved-queries-api-openapi.yml
-- filename: keen-data-extraction-api-openapi.yml
+- filename: keen-collections-api-openapi.yml
   format: yaml
-  label: Keen Data Extraction API
-  slug: data-extraction-api
+  label: Keen Collections API
+  slug: keen-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-data-extraction-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-collections-api-openapi.yml
+- filename: keen-events-api-openapi.yml
+  format: yaml
+  label: Keen Events API
+  slug: keen-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-events-api-openapi.yml
+- filename: keen-extractions-api-openapi.yml
+  format: yaml
+  label: Keen Extractions API
+  slug: keen-extractions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-extractions-api-openapi.yml
+- filename: keen-queries-api-openapi.yml
+  format: yaml
+  label: Keen Queries API
+  slug: keen-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-queries-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: opereit-invoice-auditing-openapi.json
-  format: json
-  label: Opereit Invoice Auditing API
-  slug: opereit-invoice-auditing-api
+- filename: opereit-contracts-api-openapi.yml
+  format: yaml
+  label: Opereit Contracts API
+  slug: opereit-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opereit/refs/heads/main/openapi/opereit-invoice-auditing-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/opereit/refs/heads/main/openapi/opereit-contracts-api-openapi.yml
+- filename: opereit-invoice-audits-api-openapi.yml
+  format: yaml
+  label: Opereit Invoice Audits API
+  slug: opereit-invoice-audits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opereit/refs/heads/main/openapi/opereit-invoice-audits-api-openapi.yml
 auth_types:
 - http
 description: ''

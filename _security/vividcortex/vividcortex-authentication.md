@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: vividcortex-openapi.yml
+- filename: vividcortex-alerts-api-openapi.yml
   format: yaml
-  label: VividCortex Database Performance Monitor API
-  slug: vividcortex-database-performance-monitor-api
+  label: VividCortex Alerts API
+  slug: vividcortex-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/openapi/vividcortex-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/openapi/vividcortex-alerts-api-openapi.yml
+- filename: vividcortex-events-api-openapi.yml
+  format: yaml
+  label: VividCortex Events API
+  slug: vividcortex-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/openapi/vividcortex-events-api-openapi.yml
+- filename: vividcortex-hosts-api-openapi.yml
+  format: yaml
+  label: VividCortex Hosts API
+  slug: vividcortex-hosts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/openapi/vividcortex-hosts-api-openapi.yml
+- filename: vividcortex-metrics-api-openapi.yml
+  format: yaml
+  label: VividCortex Metrics API
+  slug: vividcortex-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/openapi/vividcortex-metrics-api-openapi.yml
+- filename: vividcortex-queries-api-openapi.yml
+  format: yaml
+  label: VividCortex Queries API
+  slug: vividcortex-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/openapi/vividcortex-queries-api-openapi.yml
 auth_types:
 - http
 description: ''

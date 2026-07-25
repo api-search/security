@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: verdigris-technologies-data-v4-openapi.json
-  format: json
-  label: Verdigris Data API
-  slug: verdigris-data-api
+- filename: verdigris-technologies-control-api-openapi.yml
+  format: yaml
+  label: Verdigris Technologies Control API
+  slug: verdigris-technologies-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdigris-technologies/refs/heads/main/openapi/verdigris-technologies-data-v4-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/verdigris-technologies/refs/heads/main/openapi/verdigris-technologies-control-api-openapi.yml
+- filename: verdigris-technologies-current-api-openapi.yml
+  format: yaml
+  label: Verdigris Technologies Current API
+  slug: verdigris-technologies-current-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verdigris-technologies/refs/heads/main/openapi/verdigris-technologies-current-api-openapi.yml
+- filename: verdigris-technologies-energy-api-openapi.yml
+  format: yaml
+  label: Verdigris Technologies Energy API
+  slug: verdigris-technologies-energy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verdigris-technologies/refs/heads/main/openapi/verdigris-technologies-energy-api-openapi.yml
+- filename: verdigris-technologies-events-api-openapi.yml
+  format: yaml
+  label: Verdigris Technologies Events API
+  slug: verdigris-technologies-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verdigris-technologies/refs/heads/main/openapi/verdigris-technologies-events-api-openapi.yml
+- filename: verdigris-technologies-forecast-api-openapi.yml
+  format: yaml
+  label: Verdigris Technologies Forecast API
+  slug: verdigris-technologies-forecast-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verdigris-technologies/refs/heads/main/openapi/verdigris-technologies-forecast-api-openapi.yml
+- filename: verdigris-technologies-power-api-openapi.yml
+  format: yaml
+  label: Verdigris Technologies Power API
+  slug: verdigris-technologies-power-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verdigris-technologies/refs/heads/main/openapi/verdigris-technologies-power-api-openapi.yml
+- filename: verdigris-technologies-power-factor-api-openapi.yml
+  format: yaml
+  label: Verdigris Technologies Power Factor API
+  slug: verdigris-technologies-power-factor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verdigris-technologies/refs/heads/main/openapi/verdigris-technologies-power-factor-api-openapi.yml
+- filename: verdigris-technologies-total-harmonic-distortion-api-openapi.yml
+  format: yaml
+  label: Verdigris Technologies Total Harmonic Distortion API
+  slug: verdigris-technologies-total-harmonic-distortion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verdigris-technologies/refs/heads/main/openapi/verdigris-technologies-total-harmonic-distortion-api-openapi.yml
+- filename: verdigris-technologies-voltage-api-openapi.yml
+  format: yaml
+  label: Verdigris Technologies Voltage API
+  slug: verdigris-technologies-voltage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verdigris-technologies/refs/heads/main/openapi/verdigris-technologies-voltage-api-openapi.yml
+- filename: verdigris-technologies-weather-api-openapi.yml
+  format: yaml
+  label: Verdigris Technologies Weather API
+  slug: verdigris-technologies-weather-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verdigris-technologies/refs/heads/main/openapi/verdigris-technologies-weather-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

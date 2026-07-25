@@ -1,4 +1,89 @@
 ---
+api_specs:
+- filename: blockscout-addresses-api-openapi.yml
+  format: yaml
+  label: Blockscout Addresses API
+  slug: blockscout-addresses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-addresses-api-openapi.yml
+- filename: blockscout-blocks-api-openapi.yml
+  format: yaml
+  label: Blockscout Blocks API
+  slug: blockscout-blocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-blocks-api-openapi.yml
+- filename: blockscout-celestiaservice-api-openapi.yml
+  format: yaml
+  label: Blockscout CelestiaService API
+  slug: blockscout-celestiaservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-celestiaservice-api-openapi.yml
+- filename: blockscout-config-api-openapi.yml
+  format: yaml
+  label: Blockscout Config API
+  slug: blockscout-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-config-api-openapi.yml
+- filename: blockscout-internal-transactions-api-openapi.yml
+  format: yaml
+  label: Blockscout Internal Transactions API
+  slug: blockscout-internal-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-internal-transactions-api-openapi.yml
+- filename: blockscout-main-page-api-openapi.yml
+  format: yaml
+  label: Blockscout Main Page API
+  slug: blockscout-main-page-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-main-page-api-openapi.yml
+- filename: blockscout-proxy-api-openapi.yml
+  format: yaml
+  label: Blockscout Proxy API
+  slug: blockscout-proxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-proxy-api-openapi.yml
+- filename: blockscout-search-api-openapi.yml
+  format: yaml
+  label: Blockscout Search API
+  slug: blockscout-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-search-api-openapi.yml
+- filename: blockscout-smart-contracts-api-openapi.yml
+  format: yaml
+  label: Blockscout Smart Contracts API
+  slug: blockscout-smart-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-smart-contracts-api-openapi.yml
+- filename: blockscout-stats-api-openapi.yml
+  format: yaml
+  label: Blockscout Stats API
+  slug: blockscout-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-stats-api-openapi.yml
+- filename: blockscout-token-transfers-api-openapi.yml
+  format: yaml
+  label: Blockscout Token Transfers API
+  slug: blockscout-token-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-token-transfers-api-openapi.yml
+- filename: blockscout-tokens-api-openapi.yml
+  format: yaml
+  label: Blockscout Tokens API
+  slug: blockscout-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-tokens-api-openapi.yml
+- filename: blockscout-transactions-api-openapi.yml
+  format: yaml
+  label: Blockscout Transactions API
+  slug: blockscout-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-transactions-api-openapi.yml
+- filename: blockscout-withdrawals-api-openapi.yml
+  format: yaml
+  label: Blockscout Withdrawals API
+  slug: blockscout-withdrawals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-withdrawals-api-openapi.yml
 description: ''
 domains:
 - caa:

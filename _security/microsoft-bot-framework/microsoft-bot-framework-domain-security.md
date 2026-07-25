@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: microsoft-bot-framework-openapi.yml
+- filename: microsoft-bot-framework-activities-api-openapi.yml
   format: yaml
-  label: Bot Connector REST API
-  slug: bot-connector
+  label: Microsoft Bot Framework Activities API
+  slug: microsoft-bot-framework-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/openapi/microsoft-bot-framework-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/openapi/microsoft-bot-framework-activities-api-openapi.yml
+- filename: microsoft-bot-framework-attachments-api-openapi.yml
+  format: yaml
+  label: Microsoft Bot Framework Attachments API
+  slug: microsoft-bot-framework-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/openapi/microsoft-bot-framework-attachments-api-openapi.yml
+- filename: microsoft-bot-framework-conversations-api-openapi.yml
+  format: yaml
+  label: Microsoft Bot Framework Conversations API
+  slug: microsoft-bot-framework-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/openapi/microsoft-bot-framework-conversations-api-openapi.yml
+- filename: microsoft-bot-framework-members-api-openapi.yml
+  format: yaml
+  label: Microsoft Bot Framework Members API
+  slug: microsoft-bot-framework-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/openapi/microsoft-bot-framework-members-api-openapi.yml
 description: ''
 domains:
 - caa:

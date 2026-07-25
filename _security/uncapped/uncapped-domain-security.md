@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: uncapped-partners-openapi-original.json
-  format: json
-  label: Uncapped Partners API
-  slug: uncapped-partners-api
+- filename: uncapped-applicants-api-openapi.yml
+  format: yaml
+  label: Uncapped Applicants API
+  slug: uncapped-applicants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uncapped/refs/heads/main/openapi/uncapped-partners-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/uncapped/refs/heads/main/openapi/uncapped-applicants-api-openapi.yml
+- filename: uncapped-applications-api-openapi.yml
+  format: yaml
+  label: Uncapped Applications API
+  slug: uncapped-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uncapped/refs/heads/main/openapi/uncapped-applications-api-openapi.yml
+- filename: uncapped-authentication-api-openapi.yml
+  format: yaml
+  label: Uncapped Authentication API
+  slug: uncapped-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uncapped/refs/heads/main/openapi/uncapped-authentication-api-openapi.yml
+- filename: uncapped-estimations-api-openapi.yml
+  format: yaml
+  label: Uncapped Estimations API
+  slug: uncapped-estimations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uncapped/refs/heads/main/openapi/uncapped-estimations-api-openapi.yml
+- filename: uncapped-webhook-subscriptions-api-openapi.yml
+  format: yaml
+  label: Uncapped Webhook Subscriptions API
+  slug: uncapped-webhook-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uncapped/refs/heads/main/openapi/uncapped-webhook-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []

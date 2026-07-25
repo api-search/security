@@ -1,35 +1,53 @@
 ---
 api_specs:
-- filename: mystate-bank-cds-banking-products-openapi.yml
+- filename: mystate-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: MyState Bank CDR Product Reference Data API
-  slug: mystate-bank-cdr-product-reference-data-api
+  label: MyState Bank Banking Account Balances API
+  slug: mystate-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/openapi/mystate-bank-cds-banking-products-openapi.yml
-- filename: mystate-bank-cds-banking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/openapi/mystate-bank-banking-account-balances-api-openapi.yml
+- filename: mystate-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: MyState Bank CDR Accounts & Balances API
-  slug: mystate-bank-cdr-accounts-balances-api
+  label: MyState Bank Banking Account Direct Debits API
+  slug: mystate-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/openapi/mystate-bank-cds-banking-openapi.yml
-- filename: mystate-bank-cds-banking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/openapi/mystate-bank-banking-account-direct-debits-api-openapi.yml
+- filename: mystate-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: MyState Bank CDR Transactions API
-  slug: mystate-bank-cdr-transactions-api
+  label: MyState Bank Banking Account Scheduled Payments API
+  slug: mystate-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/openapi/mystate-bank-cds-banking-openapi.yml
-- filename: mystate-bank-cds-banking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/openapi/mystate-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: mystate-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: MyState Bank CDR Direct Debits & Scheduled Payments API
-  slug: mystate-bank-cdr-direct-debits-scheduled-payments-api
+  label: MyState Bank Banking Account Transactions API
+  slug: mystate-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/openapi/mystate-bank-cds-banking-openapi.yml
-- filename: mystate-bank-cds-banking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/openapi/mystate-bank-banking-account-transactions-api-openapi.yml
+- filename: mystate-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: MyState Bank CDR Payees API
-  slug: mystate-bank-cdr-payees-api
+  label: MyState Bank Banking Accounts API
+  slug: mystate-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/openapi/mystate-bank-cds-banking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/openapi/mystate-bank-banking-accounts-api-openapi.yml
+- filename: mystate-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: MyState Bank Banking Payees API
+  slug: mystate-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/openapi/mystate-bank-banking-payees-api-openapi.yml
+- filename: mystate-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: MyState Bank Banking Products API
+  slug: mystate-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/openapi/mystate-bank-banking-products-api-openapi.yml
+- filename: mystate-bank-products-api-openapi.yml
+  format: yaml
+  label: MyState Bank Products API
+  slug: mystate-bank-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/openapi/mystate-bank-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

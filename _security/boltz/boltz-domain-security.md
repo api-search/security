@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: boltz-compute.yml
+- filename: boltz-admin-api-openapi.yml
   format: yaml
-  label: Boltz Compute API
-  slug: boltz-compute-api
+  label: Boltz Admin API
+  slug: boltz-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltz/refs/heads/main/openapi/boltz-compute.yml
+  url: https://raw.githubusercontent.com/api-evangelist/boltz/refs/heads/main/openapi/boltz-admin-api-openapi.yml
+- filename: boltz-auth-api-openapi.yml
+  format: yaml
+  label: Boltz Auth API
+  slug: boltz-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boltz/refs/heads/main/openapi/boltz-auth-api-openapi.yml
+- filename: boltz-cli-api-openapi.yml
+  format: yaml
+  label: Boltz CLI API
+  slug: boltz-cli-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boltz/refs/heads/main/openapi/boltz-cli-api-openapi.yml
+- filename: boltz-predictions-api-openapi.yml
+  format: yaml
+  label: Boltz Predictions API
+  slug: boltz-predictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boltz/refs/heads/main/openapi/boltz-predictions-api-openapi.yml
+- filename: boltz-protein-api-openapi.yml
+  format: yaml
+  label: Boltz Protein API
+  slug: boltz-protein-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boltz/refs/heads/main/openapi/boltz-protein-api-openapi.yml
+- filename: boltz-share-links-api-openapi.yml
+  format: yaml
+  label: Boltz Share Links API
+  slug: boltz-share-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boltz/refs/heads/main/openapi/boltz-share-links-api-openapi.yml
+- filename: boltz-small-molecule-api-openapi.yml
+  format: yaml
+  label: Boltz Small Molecule API
+  slug: boltz-small-molecule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boltz/refs/heads/main/openapi/boltz-small-molecule-api-openapi.yml
 description: ''
 domains:
 - caa: []

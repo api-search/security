@@ -2,42 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: sphere-tax-openapi.yml
+- filename: sphere-tax-tax-calculation-api-openapi.yml
   format: yaml
-  label: Sphere Tax Calculations API
-  slug: sphere-tax-calculations-api
+  label: Sphere Tax Calculation API
+  slug: sphere-tax-tax-calculation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sphere-tax/refs/heads/main/openapi/sphere-tax-openapi.yml
-- filename: sphere-tax-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sphere-tax/refs/heads/main/openapi/sphere-tax-tax-calculation-api-openapi.yml
+- filename: sphere-tax-transactions-export-api-openapi.yml
   format: yaml
   label: Sphere Transactions Export API
-  slug: sphere-transactions-export-api
+  slug: sphere-tax-transactions-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sphere-tax/refs/heads/main/openapi/sphere-tax-openapi.yml
-- filename: sphere-tax-openapi.yml
-  format: yaml
-  label: Sphere Registrations and Filings API
-  slug: sphere-registrations-filings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sphere-tax/refs/heads/main/openapi/sphere-tax-openapi.yml
-- filename: sphere-tax-openapi.yml
-  format: yaml
-  label: Sphere Nexus Monitoring API
-  slug: sphere-nexus-monitoring-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sphere-tax/refs/heads/main/openapi/sphere-tax-openapi.yml
-- filename: sphere-tax-openapi.yml
-  format: yaml
-  label: Sphere Exemptions API
-  slug: sphere-exemptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sphere-tax/refs/heads/main/openapi/sphere-tax-openapi.yml
-- filename: sphere-tax-openapi.yml
-  format: yaml
-  label: Sphere Webhooks API
-  slug: sphere-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sphere-tax/refs/heads/main/openapi/sphere-tax-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sphere-tax/refs/heads/main/openapi/sphere-tax-transactions-export-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

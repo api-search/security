@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: orca-openapi-original.json
-  format: json
-  label: Orca Public API
-  slug: orca-public-api
+- filename: orca-protocol-api-openapi.yml
+  format: yaml
+  label: Orca protocol API
+  slug: orca-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/openapi/orca-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/openapi/orca-protocol-api-openapi.yml
+- filename: orca-tokens-api-openapi.yml
+  format: yaml
+  label: Orca tokens API
+  slug: orca-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/openapi/orca-tokens-api-openapi.yml
+- filename: orca-whirlpools-api-openapi.yml
+  format: yaml
+  label: Orca whirlpools API
+  slug: orca-whirlpools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/openapi/orca-whirlpools-api-openapi.yml
 auth_types:
 - none
 description: 'Authentication posture for the Orca Public REST API. The API is deliberately open: "The Orca Public API is open and does not require authentication for read access." There are no OpenAPI securitySchemes. Write access to the protocol is not via this API — it happens on-chain by signing Solana transactions with the user''s own wallet keypair (client-side, via the SDKs).'

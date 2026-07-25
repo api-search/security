@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: jupyter-server-rest-api-openapi.yml
+- filename: jupyter-server-checkpoints-api-openapi.yml
   format: yaml
-  label: Jupyter Server REST API
-  slug: jupyter-server-rest-api
+  label: Jupyter Server Checkpoints API
+  slug: jupyter-server-checkpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-server/refs/heads/main/openapi/jupyter-server-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jupyter-server/refs/heads/main/openapi/jupyter-server-checkpoints-api-openapi.yml
+- filename: jupyter-server-config-api-openapi.yml
+  format: yaml
+  label: Jupyter Server Config API
+  slug: jupyter-server-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jupyter-server/refs/heads/main/openapi/jupyter-server-config-api-openapi.yml
+- filename: jupyter-server-contents-api-openapi.yml
+  format: yaml
+  label: Jupyter Server Contents API
+  slug: jupyter-server-contents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jupyter-server/refs/heads/main/openapi/jupyter-server-contents-api-openapi.yml
+- filename: jupyter-server-general-api-openapi.yml
+  format: yaml
+  label: Jupyter Server General API
+  slug: jupyter-server-general-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jupyter-server/refs/heads/main/openapi/jupyter-server-general-api-openapi.yml
+- filename: jupyter-server-kernels-api-openapi.yml
+  format: yaml
+  label: Jupyter Server Kernels API
+  slug: jupyter-server-kernels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jupyter-server/refs/heads/main/openapi/jupyter-server-kernels-api-openapi.yml
+- filename: jupyter-server-kernelspecs-api-openapi.yml
+  format: yaml
+  label: Jupyter Server Kernelspecs API
+  slug: jupyter-server-kernelspecs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jupyter-server/refs/heads/main/openapi/jupyter-server-kernelspecs-api-openapi.yml
+- filename: jupyter-server-sessions-api-openapi.yml
+  format: yaml
+  label: Jupyter Server Sessions API
+  slug: jupyter-server-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jupyter-server/refs/heads/main/openapi/jupyter-server-sessions-api-openapi.yml
+- filename: jupyter-server-terminals-api-openapi.yml
+  format: yaml
+  label: Jupyter Server Terminals API
+  slug: jupyter-server-terminals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jupyter-server/refs/heads/main/openapi/jupyter-server-terminals-api-openapi.yml
 description: ''
 domains:
 - caa:

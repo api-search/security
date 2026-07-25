@@ -1,2735 +1,9959 @@
 ---
 api_specs:
-- filename: api-client-openapi-original.yml
+- filename: microsoft-azure-accessconnector-api-openapi.yml
   format: yaml
-  label: Microsoft Azure  API Client
-  slug: api-client
+  label: Microsoft Azure AccessConnector API
+  slug: microsoft-azure-accessconnector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/api-client-openapi-original.yml
-- filename: accesscontrolclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-accessconnector-api-openapi.yml
+- filename: microsoft-azure-accesscontrolrecords-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Access Control Client
-  slug: accesscontrolclient
+  label: Microsoft Azure AccessControlRecords API
+  slug: microsoft-azure-accesscontrolrecords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/accesscontrolclient-openapi-original.yml
-- filename: azure-action-groups-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-accesscontrolrecords-api-openapi.yml
+- filename: microsoft-azure-accesspolicies-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Action Groups API
-  slug: azure-action-groups-api
+  label: Microsoft Azure AccessPolicies API
+  slug: microsoft-azure-accesspolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-action-groups-api-openapi-original.yml
-- filename: azureactivedirectory-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-accesspolicies-api-openapi.yml
+- filename: microsoft-azure-accessreviewinstanceacceptrecommmendations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Active Directory
-  slug: azureactivedirectory
+  label: Microsoft Azure AccessReviewInstanceAcceptRecommmendations API
+  slug: microsoft-azure-accessreviewinstanceacceptrecommmendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azureactivedirectory-openapi-original.yml
-- filename: azure-activity-log-alerts-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-accessreviewinstanceacceptrecommmendations-api-openapi.yml
+- filename: microsoft-azure-accessreviewinstanceapplydecisions-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Activity Log Alerts API
-  slug: azure-activity-log-alerts-api
+  label: Microsoft Azure AccessReviewInstanceApplyDecisions API
+  slug: microsoft-azure-accessreviewinstanceapplydecisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-activity-log-alerts-api-openapi-original.yml
-- filename: adhybridhealthservice-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-accessreviewinstanceapplydecisions-api-openapi.yml
+- filename: microsoft-azure-accessreviewinstanceresetdecisions-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Ad Hybrid Health Service
-  slug: adhybridhealthservice
+  label: Microsoft Azure AccessReviewInstanceResetDecisions API
+  slug: microsoft-azure-accessreviewinstanceresetdecisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/adhybridhealthservice-openapi-original.yml
-- filename: azure-addons-resource-provider-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-accessreviewinstanceresetdecisions-api-openapi.yml
+- filename: microsoft-azure-accessreviewinstancesendreminders-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Addons Resource Provider
-  slug: azure-addons-resource-provider
+  label: Microsoft Azure AccessReviewInstanceSendReminders API
+  slug: microsoft-azure-accessreviewinstancesendreminders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-addons-resource-provider-openapi-original.yml
-- filename: adp-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-accessreviewinstancesendreminders-api-openapi.yml
+- filename: microsoft-azure-accessreviewinstancestop-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Adp
-  slug: adp
+  label: Microsoft Azure AccessReviewInstanceStop API
+  slug: microsoft-azure-accessreviewinstancestop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/adp-openapi-original.yml
-- filename: advisormanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-accessreviewinstancestop-api-openapi.yml
+- filename: microsoft-azure-accessreviewscheduledefinitionstop-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Advisor Management Client
-  slug: advisormanagementclient
+  label: Microsoft Azure AccessReviewScheduleDefinitionStop API
+  slug: microsoft-azure-accessreviewscheduledefinitionstop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/advisormanagementclient-openapi-original.yml
-- filename: azure-agfoodplatform-data-plane-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-accessreviewscheduledefinitionstop-api-openapi.yml
+- filename: microsoft-azure-accesstoken-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Ag Food Platform Data Plane Service
-  slug: azure-agfoodplatform-data-plane-service
+  label: Microsoft Azure AccessToken API
+  slug: microsoft-azure-accesstoken-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-agfoodplatform-data-plane-service-openapi-original.yml
-- filename: azure-agfoodplatform-rp-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-accesstoken-api-openapi.yml
+- filename: microsoft-azure-account-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Ag Food Platform Rp Service
-  slug: azure-agfoodplatform-rp-service
+  label: Microsoft Azure Account API
+  slug: microsoft-azure-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-agfoodplatform-rp-service-openapi-original.yml
-- filename: azure-agrifood-rp-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-account-api-openapi.yml
+- filename: microsoft-azure-account-operations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Agri Food Rp Service
-  slug: azure-agrifood-rp-service
+  label: Microsoft Azure Account Operations API
+  slug: microsoft-azure-account-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-agrifood-rp-service-openapi-original.yml
-- filename: azureaidocumenttranslation-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-account-operations-api-openapi.yml
+- filename: microsoft-azure-accountquotas-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Ai Document Translation
-  slug: azureaidocumenttranslation
+  label: Microsoft Azure AccountQuotas API
+  slug: microsoft-azure-accountquotas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azureaidocumenttranslation-openapi-original.yml
-- filename: azure-ai-health-insights-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-accountquotas-api-openapi.yml
+- filename: microsoft-azure-accounts-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Ai Health Insights
-  slug: azure-ai-health-insights
+  label: Microsoft Azure Accounts API
+  slug: microsoft-azure-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-ai-health-insights-openapi-original.yml
-- filename: azure-alerts-management-service-resource-provider-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-accounts-api-openapi.yml
+- filename: microsoft-azure-acr-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Alerts Management Service Resource Provider
-  slug: azure-alerts-management-service-resource-provider
+  label: Microsoft Azure Acr API
+  slug: microsoft-azure-acr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-alerts-management-service-resource-provider-openapi-original.yml
-- filename: azureanalysisservices-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-acr-api-openapi.yml
+- filename: microsoft-azure-acrmanifest-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Analysis Services
-  slug: azureanalysisservices
+  label: Microsoft Azure AcrManifest API
+  slug: microsoft-azure-acrmanifest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azureanalysisservices-openapi-original.yml
-- filename: azure-analytics-purview-data-map-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-acrmanifest-api-openapi.yml
+- filename: microsoft-azure-acrmetadata-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Analytics Purview Data Map
-  slug: azure-analytics-purview-data-map
+  label: Microsoft Azure AcrMetadata API
+  slug: microsoft-azure-acrmetadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-analytics-purview-data-map-openapi-original.yml
-- filename: anomaly-detector-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-acrmetadata-api-openapi.yml
+- filename: microsoft-azure-acrrepository-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Anomaly Detector
-  slug: anomaly-detector
+  label: Microsoft Azure AcrRepository API
+  slug: microsoft-azure-acrrepository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/anomaly-detector-openapi-original.yml
-- filename: anomaly-detector-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-acrrepository-api-openapi.yml
+- filename: microsoft-azure-acrtag-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Anomaly Detector Client
-  slug: anomaly-detector-client
+  label: Microsoft Azure AcrTag API
+  slug: microsoft-azure-acrtag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/anomaly-detector-client-openapi-original.yml
-- filename: aoa-front-end-apis-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-acrtag-api-openapi.yml
+- filename: microsoft-azure-acrtoken-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Aoa Front End APIs
-  slug: aoa-front-end-apis
+  label: Microsoft Azure AcrToken API
+  slug: microsoft-azure-acrtoken-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/aoa-front-end-apis-openapi-original.yml
-- filename: azure-api-center-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-acrtoken-api-openapi.yml
+- filename: microsoft-azure-actions-api-openapi.yml
   format: yaml
-  label: Microsoft Azure API Center
-  slug: azure-api-center
+  label: Microsoft Azure Actions API
+  slug: microsoft-azure-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-api-center-openapi-original.yml
-- filename: azure-api-center-data-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-actions-api-openapi.yml
+- filename: microsoft-azure-activesessionhostconfiguration-api-openapi.yml
   format: yaml
-  label: Microsoft Azure API Center Data Api
-  slug: azure-api-center-data-api
+  label: Microsoft Azure ActiveSessionHostConfiguration API
+  slug: microsoft-azure-activesessionhostconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-api-center-data-api-openapi-original.yml
-- filename: azure-api-for-managing-scom-managed-instances-and-monitored-resources-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-activesessionhostconfiguration-api-openapi.yml
+- filename: microsoft-azure-addondetails-api-openapi.yml
   format: yaml
-  label: Microsoft Azure API for Managing Scom Managed Instances and Monitored Resources
-  slug: azure-api-for-managing-scom-managed-instances-and-monitored-resources
+  label: Microsoft Azure AddonDetails API
+  slug: microsoft-azure-addondetails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-api-for-managing-scom-managed-instances-and-monitored-resources-openapi-original.yml
-- filename: apimanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-addondetails-api-openapi.yml
+- filename: microsoft-azure-addons-api-openapi.yml
   format: yaml
-  label: Microsoft Azure API Management Client
-  slug: apimanagementclient
+  label: Microsoft Azure Addons API
+  slug: microsoft-azure-addons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/apimanagementclient-openapi-original.yml
-- filename: app-compliance-automation-tool-for-microsoft-365-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-addons-api-openapi.yml
+- filename: microsoft-azure-addonstatus-api-openapi.yml
   format: yaml
-  label: Microsoft Azure App Compliance Automation Tool for Microsoft 365
-  slug: app-compliance-automation-tool-for-microsoft-365
+  label: Microsoft Azure AddonStatus API
+  slug: microsoft-azure-addonstatus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/app-compliance-automation-tool-for-microsoft-365-openapi-original.yml
-- filename: azure-app-configuration-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-addonstatus-api-openapi.yml
+- filename: microsoft-azure-addresses-api-openapi.yml
   format: yaml
-  label: Microsoft Azure App Configuration
-  slug: azure-app-configuration
+  label: Microsoft Azure Addresses API
+  slug: microsoft-azure-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-app-configuration-openapi-original.yml
-- filename: appconfigurationmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-addresses-api-openapi.yml
+- filename: microsoft-azure-adds-api-openapi.yml
   format: yaml
-  label: Microsoft Azure App Configuration Management Client
-  slug: appconfigurationmanagementclient
+  label: Microsoft Azure Adds API
+  slug: microsoft-azure-adds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/appconfigurationmanagementclient-openapi-original.yml
-- filename: appplatformmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-adds-api-openapi.yml
+- filename: microsoft-azure-admin-api-openapi.yml
   format: yaml
-  label: Microsoft Azure App Platform Management Client
-  slug: appplatformmanagementclient
+  label: Microsoft Azure Admin API
+  slug: microsoft-azure-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/appplatformmanagementclient-openapi-original.yml
-- filename: appservicecertificateorders-api-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-admin-api-openapi.yml
+- filename: microsoft-azure-adminkeys-api-openapi.yml
   format: yaml
-  label: Microsoft Azure App Service Certificate Orders API Client
-  slug: appservicecertificateorders-api-client
+  label: Microsoft Azure AdminKeys API
+  slug: microsoft-azure-adminkeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/appservicecertificateorders-api-client-openapi-original.yml
-- filename: appserviceenvironments-api-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-adminkeys-api-openapi.yml
+- filename: microsoft-azure-adminrulecollections-api-openapi.yml
   format: yaml
-  label: Microsoft Azure App Service Environments API Client
-  slug: appserviceenvironments-api-client
+  label: Microsoft Azure AdminRuleCollections API
+  slug: microsoft-azure-adminrulecollections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/appserviceenvironments-api-client-openapi-original.yml
-- filename: appserviceplans-api-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-adminrulecollections-api-openapi.yml
+- filename: microsoft-azure-adminrules-api-openapi.yml
   format: yaml
-  label: Microsoft Azure App Service Plans API Client
-  slug: appserviceplans-api-client
+  label: Microsoft Azure AdminRules API
+  slug: microsoft-azure-adminrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/appserviceplans-api-client-openapi-original.yml
-- filename: appliances-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-adminrules-api-openapi.yml
+- filename: microsoft-azure-advisors-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Appliances
-  slug: appliances
+  label: Microsoft Azure Advisors API
+  slug: microsoft-azure-advisors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/appliances-openapi-original.yml
-- filename: applicationclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-advisors-api-openapi.yml
+- filename: microsoft-azure-agent-pools-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Application Client
-  slug: applicationclient
+  label: Microsoft Azure Agent Pools API
+  slug: microsoft-azure-agent-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/applicationclient-openapi-original.yml
-- filename: applicationinsightsclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-agent-pools-api-openapi.yml
+- filename: microsoft-azure-agents-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Application Insights Client
-  slug: applicationinsightsclient
+  label: Microsoft Azure Agents API
+  slug: microsoft-azure-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/applicationinsightsclient-openapi-original.yml
-- filename: applicationinsightscomponentlinkedstorageaccountsclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-agents-api-openapi.yml
+- filename: microsoft-azure-aggregatedcost-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Application Insights Component Linked Storage Accounts Client
-  slug: applicationinsightscomponentlinkedstorageaccountsclient
+  label: Microsoft Azure AggregatedCost API
+  slug: microsoft-azure-aggregatedcost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/applicationinsightscomponentlinkedstorageaccountsclient-openapi-original.yml
-- filename: application-insights-data-plane-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-aggregatedcost-api-openapi.yml
+- filename: microsoft-azure-agreements-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Application Insights Data Plane
-  slug: application-insights-data-plane
+  label: Microsoft Azure Agreements API
+  slug: microsoft-azure-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/application-insights-data-plane-openapi-original.yml
-- filename: applicationinsightsmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-agreements-api-openapi.yml
+- filename: microsoft-azure-aksassessmentoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Application Insights Management Client
-  slug: applicationinsightsmanagementclient
+  label: Microsoft Azure AKSAssessmentOperations API
+  slug: microsoft-azure-aksassessmentoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/applicationinsightsmanagementclient-openapi-original.yml
-- filename: azurearcdatamanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-aksassessmentoperations-api-openapi.yml
+- filename: microsoft-azure-aksclusteroperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Arc Data Management Client
-  slug: azurearcdatamanagementclient
+  label: Microsoft Azure AKSClusterOperations API
+  slug: microsoft-azure-aksclusteroperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azurearcdatamanagementclient-openapi-original.yml
-- filename: arg-query-generation-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-aksclusteroperations-api-openapi.yml
+- filename: microsoft-azure-akscostdetailoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Arg Query Generation
-  slug: arg-query-generation
+  label: Microsoft Azure AKSCostDetailOperations API
+  slug: microsoft-azure-akscostdetailoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/arg-query-generation-openapi-original.yml
-- filename: artifactsclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-akscostdetailoperations-api-openapi.yml
+- filename: microsoft-azure-aksoptionsoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Artifacts Client
-  slug: artifactsclient
+  label: Microsoft Azure AKSOptionsOperations API
+  slug: microsoft-azure-aksoptionsoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/artifactsclient-openapi-original.yml
-- filename: attestationclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-aksoptionsoperations-api-openapi.yml
+- filename: microsoft-azure-akssummaryoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Attestation Client
-  slug: attestationclient
+  label: Microsoft Azure AKSSummaryOperations API
+  slug: microsoft-azure-akssummaryoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/attestationclient-openapi-original.yml
-- filename: attestationmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-akssummaryoperations-api-openapi.yml
+- filename: microsoft-azure-alerts-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Attestation Management Client
-  slug: attestationmanagementclient
+  label: Microsoft Azure Alerts API
+  slug: microsoft-azure-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/attestationmanagementclient-openapi-original.yml
-- filename: attestationsclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-alerts-api-openapi.yml
+- filename: microsoft-azure-aliases-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Attestations Client
-  slug: attestationsclient
+  label: Microsoft Azure Aliases API
+  slug: microsoft-azure-aliases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/attestationsclient-openapi-original.yml
-- filename: authorizationmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-aliases-api-openapi.yml
+- filename: microsoft-azure-alterations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Authorization Management Client
-  slug: authorizationmanagementclient
+  label: Microsoft Azure Alterations API
+  slug: microsoft-azure-alterations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/authorizationmanagementclient-openapi-original.yml
-- filename: autosuggest-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-alterations-api-openapi.yml
+- filename: microsoft-azure-amfdeployments-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Auto Suggest Client
-  slug: autosuggest-client
+  label: Microsoft Azure AmfDeployments API
+  slug: microsoft-azure-amfdeployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/autosuggest-client-openapi-original.yml
-- filename: automanage-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-amfdeployments-api-openapi.yml
+- filename: microsoft-azure-amlfilesystems-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Automanage
-  slug: automanage
+  label: Microsoft Azure amlFilesystems API
+  slug: microsoft-azure-amlfilesystems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/automanage-openapi-original.yml
-- filename: automationmanagement-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-amlfilesystems-api-openapi.yml
+- filename: microsoft-azure-analyze-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Automation Management
-  slug: automationmanagement
+  label: Microsoft Azure Analyze API
+  slug: microsoft-azure-analyze-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/automationmanagement-openapi-original.yml
-- filename: automationmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-analyze-api-openapi.yml
+- filename: microsoft-azure-analyze-conversations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Automation Management Client
-  slug: automationmanagementclient
+  label: Microsoft Azure :Analyze Conversations API
+  slug: microsoft-azure-analyze-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/automationmanagementclient-openapi-original.yml
-- filename: backupmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-analyze-conversations-api-openapi.yml
+- filename: microsoft-azure-analyze-text-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Backup Management Client
-  slug: backupmanagementclient
+  label: Microsoft Azure :Analyze Text API
+  slug: microsoft-azure-analyze-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/backupmanagementclient-openapi-original.yml
-- filename: baremetalinfrastructureclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-analyze-text-api-openapi.yml
+- filename: microsoft-azure-anomalyalerting-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Bare Metal Infrastructure Client
-  slug: baremetalinfrastructureclient
+  label: Microsoft Azure AnomalyAlerting API
+  slug: microsoft-azure-anomalyalerting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/baremetalinfrastructureclient-openapi-original.yml
-- filename: azure-batch-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-anomalyalerting-api-openapi.yml
+- filename: microsoft-azure-anomalydetection-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Batch
-  slug: azure-batch
+  label: Microsoft Azure AnomalyDetection API
+  slug: microsoft-azure-anomalydetection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-batch-openapi-original.yml
-- filename: batch-document-translation-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-anomalydetection-api-openapi.yml
+- filename: microsoft-azure-apikey-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Batch Document Translation Client
-  slug: batch-document-translation-client
+  label: Microsoft Azure ApiKey API
+  slug: microsoft-azure-apikey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/batch-document-translation-client-openapi-original.yml
-- filename: batchmanagement-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-apikey-api-openapi.yml
+- filename: microsoft-azure-apioperation-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Batch Management
-  slug: batchmanagement
+  label: Microsoft Azure ApiOperation API
+  slug: microsoft-azure-apioperation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/batchmanagement-openapi-original.yml
-- filename: batchmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-apioperation-api-openapi.yml
+- filename: microsoft-azure-apioperationpolicy-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Batch Management Client
-  slug: batchmanagementclient
+  label: Microsoft Azure ApiOperationPolicy API
+  slug: microsoft-azure-apioperationpolicy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/batchmanagementclient-openapi-original.yml
-- filename: batchservice-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-apioperationpolicy-api-openapi.yml
+- filename: microsoft-azure-apipolicy-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Batch Service
-  slug: batchservice
+  label: Microsoft Azure ApiPolicy API
+  slug: microsoft-azure-apipolicy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/batchservice-openapi-original.yml
-- filename: batchserviceclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-apipolicy-api-openapi.yml
+- filename: microsoft-azure-apirelease-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Batch Service Client
-  slug: batchserviceclient
+  label: Microsoft Azure ApiRelease API
+  slug: microsoft-azure-apirelease-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/batchserviceclient-openapi-original.yml
-- filename: batch-synthesis-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-apirelease-api-openapi.yml
+- filename: microsoft-azure-apirevision-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Batch Synthesis API
-  slug: batch-synthesis-api
+  label: Microsoft Azure ApiRevision API
+  slug: microsoft-azure-apirevision-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/batch-synthesis-api-openapi-original.yml
-- filename: bicepclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-apirevision-api-openapi.yml
+- filename: microsoft-azure-apis-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Bicep Client
-  slug: bicepclient
+  label: Microsoft Azure Apis API
+  slug: microsoft-azure-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/bicepclient-openapi-original.yml
-- filename: billing-benefits-rp-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-apis-api-openapi.yml
+- filename: microsoft-azure-apischema-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Billing Benefits Rp
-  slug: billing-benefits-rp
+  label: Microsoft Azure ApiSchema API
+  slug: microsoft-azure-apischema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/billing-benefits-rp-openapi-original.yml
-- filename: billingclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-apischema-api-openapi.yml
+- filename: microsoft-azure-apitokens-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Billing Client
-  slug: billingclient
+  label: Microsoft Azure apiTokens API
+  slug: microsoft-azure-apitokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/billingclient-openapi-original.yml
-- filename: billingmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-apitokens-api-openapi.yml
+- filename: microsoft-azure-apiversionset-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Billing Management Client
-  slug: billingmanagementclient
+  label: Microsoft Azure ApiVersionSet API
+  slug: microsoft-azure-apiversionset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/billingmanagementclient-openapi-original.yml
-- filename: azure-blob-storage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-apiversionset-api-openapi.yml
+- filename: microsoft-azure-apiversionsets-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Blob Storage
-  slug: azure-blob-storage
+  label: Microsoft Azure ApiVersionSets API
+  slug: microsoft-azure-apiversionsets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-blob-storage-openapi.yml
-- filename: blockchainmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-apiversionsets-api-openapi.yml
+- filename: microsoft-azure-app-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Blockchain Management Client
-  slug: blockchainmanagementclient
+  label: Microsoft Azure App API
+  slug: microsoft-azure-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/blockchainmanagementclient-openapi-original.yml
-- filename: blueprintclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-app-api-openapi.yml
+- filename: microsoft-azure-appattachpackage-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Blueprint Client
-  slug: blueprintclient
+  label: Microsoft Azure AppAttachPackage API
+  slug: microsoft-azure-appattachpackage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/blueprintclient-openapi-original.yml
-- filename: azure-bot-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-appattachpackage-api-openapi.yml
+- filename: microsoft-azure-appattachpackageinfo-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Bot Service
-  slug: azure-bot-service
+  label: Microsoft Azure AppAttachPackageInfo API
+  slug: microsoft-azure-appattachpackageinfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-bot-service-openapi-original.yml
-- filename: azurebridgeadminclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-appattachpackageinfo-api-openapi.yml
+- filename: microsoft-azure-appcomplianceautomation-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Bridge Admin Client
-  slug: azurebridgeadminclient
+  label: Microsoft Azure AppComplianceAutomation API
+  slug: microsoft-azure-appcomplianceautomation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azurebridgeadminclient-openapi-original.yml
-- filename: capability-metadata-types-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-appcomplianceautomation-api-openapi.yml
+- filename: microsoft-azure-appcomponent-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Capability Metadata Types
-  slug: capability-metadata-types
+  label: Microsoft Azure AppComponent API
+  slug: microsoft-azure-appcomponent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/capability-metadata-types-openapi-original.yml
-- filename: capability-types-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-appcomponent-api-openapi.yml
+- filename: microsoft-azure-appliancedefinitions-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Capability Types
-  slug: capability-types
+  label: Microsoft Azure ApplianceDefinitions API
+  slug: microsoft-azure-appliancedefinitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/capability-types-openapi-original.yml
-- filename: carbon-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-appliancedefinitions-api-openapi.yml
+- filename: microsoft-azure-appliances-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Carbon
-  slug: carbon
+  label: Microsoft Azure Appliances API
+  slug: microsoft-azure-appliances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/carbon-openapi-original.yml
-- filename: cdnmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-appliances-api-openapi.yml
+- filename: microsoft-azure-application-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Cdn Management Client
-  slug: cdnmanagementclient
+  label: Microsoft Azure Application API
+  slug: microsoft-azure-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/cdnmanagementclient-openapi-original.yml
-- filename: azure-cdn-webapplicationfirewallmanagement-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-application-api-openapi.yml
+- filename: microsoft-azure-applicationdata-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Cdn Web Application Firewall Management
-  slug: azure-cdn-webapplicationfirewallmanagement
+  label: Microsoft Azure ApplicationData API
+  slug: microsoft-azure-applicationdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-cdn-webapplicationfirewallmanagement-openapi-original.yml
-- filename: certificateordersdiagnostics-api-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-applicationdata-api-openapi.yml
+- filename: microsoft-azure-applicationdefinitions-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Certificate Orders Diagnostics API Client
-  slug: certificateordersdiagnostics-api-client
+  label: Microsoft Azure ApplicationDefinitions API
+  slug: microsoft-azure-applicationdefinitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/certificateordersdiagnostics-api-client-openapi-original.yml
-- filename: certificateregistrationprovider-api-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-applicationdefinitions-api-openapi.yml
+- filename: microsoft-azure-applicationgateways-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Certificate Registration Provider API Client
-  slug: certificateregistrationprovider-api-client
+  label: Microsoft Azure ApplicationGateways API
+  slug: microsoft-azure-applicationgateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/certificateregistrationprovider-api-client-openapi-original.yml
-- filename: certificates-api-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-applicationgateways-api-openapi.yml
+- filename: microsoft-azure-applicationgroup-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Certificates API Client
-  slug: certificates-api-client
+  label: Microsoft Azure ApplicationGroup API
+  slug: microsoft-azure-applicationgroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/certificates-api-client-openapi-original.yml
-- filename: azurechangeanalysismanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-applicationgroup-api-openapi.yml
+- filename: microsoft-azure-applicationkeycredentials-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Change Analysis Management Client
-  slug: azurechangeanalysismanagementclient
+  label: Microsoft Azure ApplicationKeyCredentials API
+  slug: microsoft-azure-applicationkeycredentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azurechangeanalysismanagementclient-openapi-original.yml
-- filename: changesclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-applicationkeycredentials-api-openapi.yml
+- filename: microsoft-azure-applicationowners-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Changes Client
-  slug: changesclient
+  label: Microsoft Azure ApplicationOwners API
+  slug: microsoft-azure-applicationowners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/changesclient-openapi-original.yml
-- filename: chaos-management-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-applicationowners-api-openapi.yml
+- filename: microsoft-azure-applicationpackage-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Chaos Management
-  slug: chaos-management
+  label: Microsoft Azure ApplicationPackage API
+  slug: microsoft-azure-applicationpackage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/chaos-management-openapi-original.yml
-- filename: checkpolicyrestrictionsclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-applicationpackage-api-openapi.yml
+- filename: microsoft-azure-applicationpasswordcredentials-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Check Policy Restrictions Client
-  slug: checkpolicyrestrictionsclient
+  label: Microsoft Azure ApplicationPasswordCredentials API
+  slug: microsoft-azure-applicationpasswordcredentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/checkpolicyrestrictionsclient-openapi-original.yml
-- filename: cloudservicemanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-applicationpasswordcredentials-api-openapi.yml
+- filename: microsoft-azure-applicationresources-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Cloud Service Management Client
-  slug: cloudservicemanagementclient
+  label: Microsoft Azure ApplicationResources API
+  slug: microsoft-azure-applicationresources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/cloudservicemanagementclient-openapi-original.yml
-- filename: cloudshellclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-applicationresources-api-openapi.yml
+- filename: microsoft-azure-applications-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Cloud Shell Client
-  slug: cloudshellclient
+  label: Microsoft Azure Applications API
+  slug: microsoft-azure-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/cloudshellclient-openapi-original.yml
-- filename: codesigningmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-applications-api-openapi.yml
+- filename: microsoft-azure-applicationtype-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Code Signing Management Client
-  slug: codesigningmanagementclient
+  label: Microsoft Azure ApplicationType API
+  slug: microsoft-azure-applicationtype-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/codesigningmanagementclient-openapi-original.yml
-- filename: cognitiveservicesmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-applicationtype-api-openapi.yml
+- filename: microsoft-azure-applyupdate-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Cognitive Services Management Client
-  slug: cognitiveservicesmanagementclient
+  label: Microsoft Azure ApplyUpdate API
+  slug: microsoft-azure-applyupdate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/cognitiveservicesmanagementclient-openapi-original.yml
-- filename: commercemanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-applyupdate-api-openapi.yml
+- filename: microsoft-azure-applyupdates-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Commerce Management Client
-  slug: commercemanagementclient
+  label: Microsoft Azure ApplyUpdates API
+  slug: microsoft-azure-applyupdates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/commercemanagementclient-openapi-original.yml
-- filename: common-alert-types-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-applyupdates-api-openapi.yml
+- filename: microsoft-azure-appplatform-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Common Alert Types
-  slug: common-alert-types
+  label: Microsoft Azure AppPlatform API
+  slug: microsoft-azure-appplatform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/common-alert-types-openapi-original.yml
-- filename: common-content-metadata-types-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-appplatform-api-openapi.yml
+- filename: microsoft-azure-apps-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Common Content Metadata Types
-  slug: common-content-metadata-types
+  label: Microsoft Azure Apps API
+  slug: microsoft-azure-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/common-content-metadata-types-openapi-original.yml
-- filename: common-definitions-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-apps-api-openapi.yml
+- filename: microsoft-azure-appservicecertificateorders-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Common Definitions
-  slug: common-definitions
+  label: Microsoft Azure AppServiceCertificateOrders API
+  slug: microsoft-azure-appservicecertificateorders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/common-definitions-openapi-original.yml
-- filename: common-entity-types-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-appservicecertificateorders-api-openapi.yml
+- filename: microsoft-azure-appserviceenvironments-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Common Entity Types
-  slug: common-entity-types
+  label: Microsoft Azure AppServiceEnvironments API
+  slug: microsoft-azure-appserviceenvironments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/common-entity-types-openapi-original.yml
-- filename: common-incident-types-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-appserviceenvironments-api-openapi.yml
+- filename: microsoft-azure-appserviceplans-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Common Incident Types
-  slug: common-incident-types
+  label: Microsoft Azure AppServicePlans API
+  slug: microsoft-azure-appserviceplans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/common-incident-types-openapi-original.yml
-- filename: common-monitoring-types-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-appserviceplans-api-openapi.yml
+- filename: microsoft-azure-armtemplates-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Common Monitoring Types
-  slug: common-monitoring-types
+  label: Microsoft Azure ArmTemplates API
+  slug: microsoft-azure-armtemplates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/common-monitoring-types-openapi-original.yml
-- filename: common-referenced-parameters-file-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-armtemplates-api-openapi.yml
+- filename: microsoft-azure-artifact-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Common Referenced Parameters File
-  slug: common-referenced-parameters-file
+  label: Microsoft Azure Artifact API
+  slug: microsoft-azure-artifact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/common-referenced-parameters-file-openapi-original.yml
-- filename: common-relation-types-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-artifact-api-openapi.yml
+- filename: microsoft-azure-artifacts-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Common Relation Types
-  slug: common-relation-types
+  label: Microsoft Azure Artifacts API
+  slug: microsoft-azure-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/common-relation-types-openapi-original.yml
-- filename: common-types-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-artifacts-api-openapi.yml
+- filename: microsoft-azure-artifactsources-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Common Types
-  slug: common-types
+  label: Microsoft Azure ArtifactSources API
+  slug: microsoft-azure-artifactsources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/common-types-openapi-original.yml
-- filename: common-types-for-microsoftbilling-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-artifactsources-api-openapi.yml
+- filename: microsoft-azure-ascoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Common Types for Microsoft Billing
-  slug: common-types-for-microsoftbilling
+  label: Microsoft Azure AscOperations API
+  slug: microsoft-azure-ascoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/common-types-for-microsoftbilling-openapi-original.yml
-- filename: common-types-for-microsoftoperationalinsights-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-ascoperations-api-openapi.yml
+- filename: microsoft-azure-ascusages-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Common Types for Operational Insights
-  slug: common-types-for-microsoftoperationalinsights
+  label: Microsoft Azure AscUsages API
+  slug: microsoft-azure-ascusages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/common-types-for-microsoftoperationalinsights-openapi-original.yml
-- filename: communitygalleryserviceclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-ascusages-api-openapi.yml
+- filename: microsoft-azure-assessedmachinesoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Community Gallery Service Client
-  slug: communitygalleryserviceclient
+  label: Microsoft Azure AssessedMachinesOperations API
+  slug: microsoft-azure-assessedmachinesoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/communitygalleryserviceclient-openapi-original.yml
-- filename: componentpolicystatesclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-assessedmachinesoperations-api-openapi.yml
+- filename: microsoft-azure-assessedsqldatabasev2operations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Component Policy States Client
-  slug: componentpolicystatesclient
+  label: Microsoft Azure AssessedSqlDatabaseV2Operations API
+  slug: microsoft-azure-assessedsqldatabasev2operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/componentpolicystatesclient-openapi-original.yml
-- filename: compute-admin-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-assessedsqldatabasev2operations-api-openapi.yml
+- filename: microsoft-azure-assessedsqlinstancev2operations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Compute Admin Client
-  slug: compute-admin-client
+  label: Microsoft Azure AssessedSqlInstanceV2Operations API
+  slug: microsoft-azure-assessedsqlinstancev2operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/compute-admin-client-openapi-original.yml
-- filename: computediagnosticresourceproviderclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-assessedsqlinstancev2operations-api-openapi.yml
+- filename: microsoft-azure-assessedsqlmachinesoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Compute Diagnostic Resource Provider Client
-  slug: computediagnosticresourceproviderclient
+  label: Microsoft Azure AssessedSqlMachinesOperations API
+  slug: microsoft-azure-assessedsqlmachinesoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/computediagnosticresourceproviderclient-openapi-original.yml
-- filename: computediskadminmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-assessedsqlmachinesoperations-api-openapi.yml
+- filename: microsoft-azure-assessedsqlrecommendedentityoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Compute Disk Admin Management Client
-  slug: computediskadminmanagementclient
+  label: Microsoft Azure AssessedSqlRecommendedEntityOperations API
+  slug: microsoft-azure-assessedsqlrecommendedentityoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/computediskadminmanagementclient-openapi-original.yml
-- filename: computer-vision-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-assessedsqlrecommendedentityoperations-api-openapi.yml
+- filename: microsoft-azure-assessedwebapplicationoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Computer Vision API
-  slug: computer-vision-api
+  label: Microsoft Azure AssessedWebApplicationOperations API
+  slug: microsoft-azure-assessedwebapplicationoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/computer-vision-api-openapi-original.yml
-- filename: computer-vision-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-assessedwebapplicationoperations-api-openapi.yml
+- filename: microsoft-azure-assessedwebappv2operations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Computer Vision Client
-  slug: computer-vision-client
+  label: Microsoft Azure AssessedWebAppV2Operations API
+  slug: microsoft-azure-assessedwebappv2operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/computer-vision-client-openapi-original.yml
-- filename: connectivityconfiguration-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-assessedwebappv2operations-api-openapi.yml
+- filename: microsoft-azure-assessmentoptionsoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Connectivity Configuration
-  slug: connectivityconfiguration
+  label: Microsoft Azure AssessmentOptionsOperations API
+  slug: microsoft-azure-assessmentoptionsoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/connectivityconfiguration-openapi-original.yml
-- filename: containerapps-api-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-assessmentoptionsoperations-api-openapi.yml
+- filename: microsoft-azure-assessmentprojectsoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Container Apps API Client
-  slug: containerapps-api-client
+  label: Microsoft Azure AssessmentProjectsOperations API
+  slug: microsoft-azure-assessmentprojectsoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/containerapps-api-client-openapi-original.yml
-- filename: containerappsrevisions-api-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-assessmentprojectsoperations-api-openapi.yml
+- filename: microsoft-azure-assessmentprojectsummaryoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Container Apps Revisions API Client
-  slug: containerappsrevisions-api-client
+  label: Microsoft Azure AssessmentProjectSummaryOperations API
+  slug: microsoft-azure-assessmentprojectsummaryoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/containerappsrevisions-api-client-openapi-original.yml
-- filename: containerserviceadminclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-assessmentprojectsummaryoperations-api-openapi.yml
+- filename: microsoft-azure-assessmentsoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Container Service Admin Client
-  slug: containerserviceadminclient
+  label: Microsoft Azure AssessmentsOperations API
+  slug: microsoft-azure-assessmentsoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/containerserviceadminclient-openapi-original.yml
-- filename: containerservicefleetclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-assessmentsoperations-api-openapi.yml
+- filename: microsoft-azure-asset-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Container Service Fleet Client
-  slug: containerservicefleetclient
+  label: Microsoft Azure Asset API
+  slug: microsoft-azure-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/containerservicefleetclient-openapi-original.yml
-- filename: content-moderator-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-asset-api-openapi.yml
+- filename: microsoft-azure-assetendpointprofiles-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Content Moderator Client
-  slug: content-moderator-client
+  label: Microsoft Azure AssetEndpointProfiles API
+  slug: microsoft-azure-assetendpointprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/content-moderator-client-openapi-original.yml
-- filename: contentsafety-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-assetendpointprofiles-api-openapi.yml
+- filename: microsoft-azure-assets-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Content Safety Service
-  slug: contentsafety-service
+  label: Microsoft Azure Assets API
+  slug: microsoft-azure-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/contentsafety-service-openapi-original.yml
-- filename: azure-cosmos-db-for-postgresql-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-assets-api-openapi.yml
+- filename: microsoft-azure-assistant-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Cosmos Db for Postgre SQL
-  slug: azure-cosmos-db-for-postgresql
+  label: Microsoft Azure Assistant API
+  slug: microsoft-azure-assistant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-cosmos-db-for-postgresql-openapi-original.yml
-- filename: custom-image-search-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-assistant-api-openapi.yml
+- filename: microsoft-azure-assistants-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Custom Image Search Client
-  slug: custom-image-search-client
+  label: Microsoft Azure Assistants API
+  slug: microsoft-azure-assistants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/custom-image-search-client-openapi-original.yml
-- filename: custom-search-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-assistants-api-openapi.yml
+- filename: microsoft-azure-associations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Custom Search Client
-  slug: custom-search-client
+  label: Microsoft Azure Associations API
+  slug: microsoft-azure-associations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/custom-search-client-openapi-original.yml
-- filename: custom-vision-prediction-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-associations-api-openapi.yml
+- filename: microsoft-azure-associationsinterface-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Custom Vision Prediction Client
-  slug: custom-vision-prediction-client
+  label: Microsoft Azure AssociationsInterface API
+  slug: microsoft-azure-associationsinterface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/custom-vision-prediction-client-openapi-original.yml
-- filename: custom-vision-training-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-associationsinterface-api-openapi.yml
+- filename: microsoft-azure-asyncoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Custom Vision Training Client
-  slug: custom-vision-training-client
+  label: Microsoft Azure asyncOperations API
+  slug: microsoft-azure-asyncoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/custom-vision-training-client-openapi-original.yml
-- filename: custom-voice-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-asyncoperations-api-openapi.yml
+- filename: microsoft-azure-atlas-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Custom Voice API
-  slug: custom-voice-api
+  label: Microsoft Azure Atlas API
+  slug: microsoft-azure-atlas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/custom-voice-api-openapi-original.yml
-- filename: azure-data-lake-storage-rest-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-atlas-api-openapi.yml
+- filename: microsoft-azure-attachments-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Data Lake Storage  API
-  slug: azure-data-lake-storage-rest-api
+  label: Microsoft Azure Attachments API
+  slug: microsoft-azure-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-data-lake-storage-rest-api-openapi-original.yml
-- filename: azuredatamanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-attachments-api-openapi.yml
+- filename: microsoft-azure-attestation-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Data Management Client
-  slug: azuredatamanagementclient
+  label: Microsoft Azure Attestation API
+  slug: microsoft-azure-attestation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azuredatamanagementclient-openapi-original.yml
-- filename: microsoft-azure-data-manager-for-agriculture-data-plane-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-attestation-api-openapi.yml
+- filename: microsoft-azure-attestationproviders-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Data Manager for Agriculture Data Plane Service
-  slug: microsoft-azure-data-manager-for-agriculture-data-plane-service
+  label: Microsoft Azure AttestationProviders API
+  slug: microsoft-azure-attestationproviders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-data-manager-for-agriculture-data-plane-service-openapi-original.yml
-- filename: azure-data-migration-service-classic-resource-provider-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-attestationproviders-api-openapi.yml
+- filename: microsoft-azure-attested-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Data Migration Service (Classic) Resource Provider
-  slug: azure-data-migration-service-classic-resource-provider
+  label: Microsoft Azure Attested API
+  slug: microsoft-azure-attested-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-data-migration-service-classic-resource-provider-openapi-original.yml
-- filename: dataplaneaccountclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-attested-api-openapi.yml
+- filename: microsoft-azure-audio-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Data Plane Account Client
-  slug: dataplaneaccountclient
+  label: Microsoft Azure Audio API
+  slug: microsoft-azure-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/dataplaneaccountclient-openapi-original.yml
-- filename: data-sensitivity-settings-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-audio-api-openapi.yml
+- filename: microsoft-azure-audit-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Data Sensitivity Settings
-  slug: data-sensitivity-settings
+  label: Microsoft Azure Audit API
+  slug: microsoft-azure-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/data-sensitivity-settings-openapi-original.yml
-- filename: azuredatatransferrp-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-audit-api-openapi.yml
+- filename: microsoft-azure-authoring-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Data Transfer
-  slug: azuredatatransferrp
+  label: Microsoft Azure Authoring API
+  slug: microsoft-azure-authoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azuredatatransferrp-openapi-original.yml
-- filename: database-threat-detection-policy-apis-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-authoring-api-openapi.yml
+- filename: microsoft-azure-authorizationpolicies-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Database Threat Detection Policy APIs
-  slug: database-threat-detection-policy-apis
+  label: Microsoft Azure AuthorizationPolicies API
+  slug: microsoft-azure-authorizationpolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/database-threat-detection-policy-apis-openapi-original.yml
-- filename: defender-easm-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-authorizationpolicies-api-openapi.yml
+- filename: microsoft-azure-authorizations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Defender Easm
-  slug: defender-easm
+  label: Microsoft Azure Authorizations API
+  slug: microsoft-azure-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/defender-easm-openapi-original.yml
-- filename: definitions-file-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-authorizations-api-openapi.yml
+- filename: microsoft-azure-autoquotaincrease-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Definitions File
-  slug: definitions-file
+  label: Microsoft Azure AutoQuotaIncrease API
+  slug: microsoft-azure-autoquotaincrease-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/definitions-file-openapi-original.yml
-- filename: deletedwebapps-api-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-autoquotaincrease-api-openapi.yml
+- filename: microsoft-azure-autosuggest-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Deleted Web Apps API Client
-  slug: deletedwebapps-api-client
+  label: Microsoft Azure AutoSuggest API
+  slug: microsoft-azure-autosuggest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/deletedwebapps-api-client-openapi-original.yml
-- filename: deploymentadminclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-autosuggest-api-openapi.yml
+- filename: microsoft-azure-availabilitygrouplisteners-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Deployment Admin Client
-  slug: deploymentadminclient
+  label: Microsoft Azure AvailabilityGroupListeners API
+  slug: microsoft-azure-availabilitygrouplisteners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/deploymentadminclient-openapi-original.yml
-- filename: deploymentscriptsclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-availabilitygrouplisteners-api-openapi.yml
+- filename: microsoft-azure-availabilitysets-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Deployment Scripts Client
-  slug: deploymentscriptsclient
+  label: Microsoft Azure AvailabilitySets API
+  slug: microsoft-azure-availabilitysets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/deploymentscriptsclient-openapi-original.yml
-- filename: deployment-settings-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-availabilitysets-api-openapi.yml
+- filename: microsoft-azure-availabilitystatuses-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Deployment Settings
-  slug: deployment-settings
+  label: Microsoft Azure AvailabilityStatuses API
+  slug: microsoft-azure-availabilitystatuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/deployment-settings-openapi-original.yml
-- filename: deploymentstacksclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-availabilitystatuses-api-openapi.yml
+- filename: microsoft-azure-availabilityusages-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Deployment Stacks Client
-  slug: deploymentstacksclient
+  label: Microsoft Azure AvailabilityUsages API
+  slug: microsoft-azure-availabilityusages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/deploymentstacksclient-openapi-original.yml
-- filename: deviceservices-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-availabilityusages-api-openapi.yml
+- filename: microsoft-azure-availableprovideroperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Device Services
-  slug: deviceservices
+  label: Microsoft Azure AvailableProviderOperations API
+  slug: microsoft-azure-availableprovideroperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/deviceservices-openapi-original.yml
-- filename: diagnostics-api-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-availableprovideroperations-api-openapi.yml
+- filename: microsoft-azure-availableskus-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Diagnostics API Client
-  slug: diagnostics-api-client
+  label: Microsoft Azure AvailableSkus API
+  slug: microsoft-azure-availableskus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/diagnostics-api-client-openapi-original.yml
-- filename: diskresourceproviderclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-availableskus-api-openapi.yml
+- filename: microsoft-azure-avsassessedmachinesoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Disk Resource Provider Client
-  slug: diskresourceproviderclient
+  label: Microsoft Azure AvsAssessedMachinesOperations API
+  slug: microsoft-azure-avsassessedmachinesoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/diskresourceproviderclient-openapi-original.yml
-- filename: document-intelligence-formerly-form-recognizer-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-avsassessedmachinesoperations-api-openapi.yml
+- filename: microsoft-azure-avsassessmentoptionsoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Document Intelligence (formerly Form Recognizer)
-  slug: document-intelligence-formerly-form-recognizer
+  label: Microsoft Azure AvsAssessmentOptionsOperations API
+  slug: microsoft-azure-avsassessmentoptionsoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/document-intelligence-formerly-form-recognizer-openapi-original.yml
-- filename: domainregistrationprovider-api-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-avsassessmentoptionsoperations-api-openapi.yml
+- filename: microsoft-azure-avsassessmentsoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Domain Registration Provider API Client
-  slug: domainregistrationprovider-api-client
+  label: Microsoft Azure AvsAssessmentsOperations API
+  slug: microsoft-azure-avsassessmentsoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/domainregistrationprovider-api-client-openapi-original.yml
-- filename: domains-api-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-avsassessmentsoperations-api-openapi.yml
+- filename: microsoft-azure-azureaccounts-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Domains API Client
-  slug: domains-api-client
+  label: Microsoft Azure Azureaccounts API
+  slug: microsoft-azure-azureaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/domains-api-client-openapi-original.yml
-- filename: azure-easm-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-azureaccounts-api-openapi.yml
+- filename: microsoft-azure-azurebackupjob-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Easm
-  slug: azure-easm
+  label: Microsoft Azure AzureBackupJob API
+  slug: microsoft-azure-azurebackupjob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-easm-openapi-original.yml
-- filename: edge-devices-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-azurebackupjob-api-openapi.yml
+- filename: microsoft-azure-azurebackupjobs-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Edge Devices
-  slug: edge-devices
+  label: Microsoft Azure AzureBackupJobs API
+  slug: microsoft-azure-azurebackupjobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/edge-devices-openapi-original.yml
-- filename: azure-enterprise-knowledge-graph-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-azurebackupjobs-api-openapi.yml
+- filename: microsoft-azure-azurebaremetal-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Enterprise Knowledge Graph Service
-  slug: azure-enterprise-knowledge-graph-service
+  label: Microsoft Azure AzureBareMetal API
+  slug: microsoft-azure-azurebaremetal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-enterprise-knowledge-graph-service-openapi-original.yml
-- filename: entity-search-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-azurebaremetal-api-openapi.yml
+- filename: microsoft-azure-azuredatacatalog-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Entity Search Client
-  slug: entity-search-client
+  label: Microsoft Azure AzureDataCatalog API
+  slug: microsoft-azure-azuredatacatalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/entity-search-client-openapi-original.yml
-- filename: experiment-types-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-azuredatacatalog-api-openapi.yml
+- filename: microsoft-azure-azurekeyvaults-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Experiment Types
-  slug: experiment-types
+  label: Microsoft Azure AzureKeyVaults API
+  slug: microsoft-azure-azurekeyvaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/experiment-types-openapi-original.yml
-- filename: expressroutecrossconnection-rest-apis-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-azurekeyvaults-api-openapi.yml
+- filename: microsoft-azure-azurelargeinstances-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Express Route Cross Connection  APIs
-  slug: expressroutecrossconnection-rest-apis
+  label: Microsoft Azure AzureLargeInstances API
+  slug: microsoft-azure-azurelargeinstances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/expressroutecrossconnection-rest-apis-openapi-original.yml
-- filename: fabricadminclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-azurelargeinstances-api-openapi.yml
+- filename: microsoft-azure-azurelargestorageinstances-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Fabric Admin Client
-  slug: fabricadminclient
+  label: Microsoft Azure AzureLargeStorageInstances API
+  slug: microsoft-azure-azurelargestorageinstances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/fabricadminclient-openapi-original.yml
-- filename: face-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-azurelargestorageinstances-api-openapi.yml
+- filename: microsoft-azure-azuretrafficcollectors-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Face Client
-  slug: face-client
+  label: Microsoft Azure AzureTrafficCollectors API
+  slug: microsoft-azure-azuretrafficcollectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/face-client-openapi-original.yml
-- filename: featureclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-azuretrafficcollectors-api-openapi.yml
+- filename: microsoft-azure-b2ctenants-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Feature Client
-  slug: featureclient
+  label: Microsoft Azure B2CTenants API
+  slug: microsoft-azure-b2ctenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/featureclient-openapi-original.yml
-- filename: azure-file-storage-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-b2ctenants-api-openapi.yml
+- filename: microsoft-azure-backup-policy-api-openapi.yml
   format: yaml
-  label: Microsoft Azure File Storage
-  slug: azure-file-storage
+  label: Microsoft Azure Backup Policy API
+  slug: microsoft-azure-backup-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-file-storage-openapi-original.yml
-- filename: form-recognizer-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backup-policy-api-openapi.yml
+- filename: microsoft-azure-backup-restore-api-openapi.yml
   format: yaml
-  label: Microsoft Azure form Recognizer Client
-  slug: form-recognizer-client
+  label: Microsoft Azure Backup Restore API
+  slug: microsoft-azure-backup-restore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/form-recognizer-client-openapi-original.yml
-- filename: gallerymanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backup-restore-api-openapi.yml
+- filename: microsoft-azure-backup-vaults-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Gallery Management Client
-  slug: gallerymanagementclient
+  label: Microsoft Azure Backup Vaults API
+  slug: microsoft-azure-backup-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/gallerymanagementclient-openapi-original.yml
-- filename: global-api-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backup-vaults-api-openapi.yml
+- filename: microsoft-azure-backupengines-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Global API Client
-  slug: global-api-client
+  label: Microsoft Azure BackupEngines API
+  slug: microsoft-azure-backupengines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/global-api-client-openapi-original.yml
-- filename: guest-diagnostic-settings-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backupengines-api-openapi.yml
+- filename: microsoft-azure-backupinstances-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Guest Diagnostic Settings API
-  slug: guest-diagnostic-settings-api
+  label: Microsoft Azure BackupInstances API
+  slug: microsoft-azure-backupinstances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/guest-diagnostic-settings-api-openapi-original.yml
-- filename: guest-diagnostic-settings-association-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backupinstances-api-openapi.yml
+- filename: microsoft-azure-backupinstancesextensionrouting-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Guest Diagnostic Settings Association API
-  slug: guest-diagnostic-settings-association-api
+  label: Microsoft Azure BackupInstancesExtensionRouting API
+  slug: microsoft-azure-backupinstancesextensionrouting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/guest-diagnostic-settings-association-api-openapi-original.yml
-- filename: hdinsight-on-aks-management-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backupinstancesextensionrouting-api-openapi.yml
+- filename: microsoft-azure-backupjobs-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Hdinsight On Aks Management Client
-  slug: hdinsight-on-aks-management-client
+  label: Microsoft Azure BackupJobs API
+  slug: microsoft-azure-backupjobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/hdinsight-on-aks-management-client-openapi-original.yml
-- filename: azure-health-insights-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backupjobs-api-openapi.yml
+- filename: microsoft-azure-backupoperationresults-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Health Insights
-  slug: azure-health-insights
+  label: Microsoft Azure BackupOperationResults API
+  slug: microsoft-azure-backupoperationresults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-health-insights-openapi-original.yml
-- filename: hyperscalecitusmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backupoperationresults-api-openapi.yml
+- filename: microsoft-azure-backupoperationstatuses-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Hyperscale Citus Management Client
-  slug: hyperscalecitusmanagementclient
+  label: Microsoft Azure BackupOperationStatuses API
+  slug: microsoft-azure-backupoperationstatuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/hyperscalecitusmanagementclient-openapi-original.yml
-- filename: image-analysis-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backupoperationstatuses-api-openapi.yml
+- filename: microsoft-azure-backuppolicies-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Image Analysis
-  slug: image-analysis
+  label: Microsoft Azure BackupPolicies API
+  slug: microsoft-azure-backuppolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/image-analysis-openapi-original.yml
-- filename: image-search-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backuppolicies-api-openapi.yml
+- filename: microsoft-azure-backupprotectableitems-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Image Search Client
-  slug: image-search-client
+  label: Microsoft Azure BackupProtectableItems API
+  slug: microsoft-azure-backupprotectableitems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/image-search-client-openapi-original.yml
-- filename: infrastructureinsightsmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backupprotectableitems-api-openapi.yml
+- filename: microsoft-azure-backupprotecteditems-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Infrastructure Insights Management Client
-  slug: infrastructureinsightsmanagementclient
+  label: Microsoft Azure BackupProtectedItems API
+  slug: microsoft-azure-backupprotecteditems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/infrastructureinsightsmanagementclient-openapi-original.yml
-- filename: ingestion-using-data-collection-rules-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backupprotecteditems-api-openapi.yml
+- filename: microsoft-azure-backupprotectioncontainers-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Ingestion Using Data Collection Rules
-  slug: ingestion-using-data-collection-rules
+  label: Microsoft Azure BackupProtectionContainers API
+  slug: microsoft-azure-backupprotectioncontainers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/ingestion-using-data-collection-rules-openapi-original.yml
-- filename: microsoftintegrationspaces-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backupprotectioncontainers-api-openapi.yml
+- filename: microsoft-azure-backupprotectionintent-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Integration Spaces
-  slug: microsoftintegrationspaces
+  label: Microsoft Azure BackupProtectionIntent API
+  slug: microsoft-azure-backupprotectionintent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoftintegrationspaces-openapi-original.yml
-- filename: kafka-restproxy-apis-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backupprotectionintent-api-openapi.yml
+- filename: microsoft-azure-backupresourceencryptionconfigs-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Kafka Restproxy APIs
-  slug: kafka-restproxy-apis
+  label: Microsoft Azure BackupResourceEncryptionConfigs API
+  slug: microsoft-azure-backupresourceencryptionconfigs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/kafka-restproxy-apis-openapi-original.yml
-- filename: kubeenvironments-api-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backupresourceencryptionconfigs-api-openapi.yml
+- filename: microsoft-azure-backupresourcestorageconfigsnoncrr-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Kube Environments API Client
-  slug: kubeenvironments-api-client
+  label: Microsoft Azure BackupResourceStorageConfigsNonCRR API
+  slug: microsoft-azure-backupresourcestorageconfigsnoncrr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/kubeenvironments-api-client-openapi-original.yml
-- filename: kustomanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backupresourcestorageconfigsnoncrr-api-openapi.yml
+- filename: microsoft-azure-backupresourcevaultconfigs-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Kusto Management Client
-  slug: kustomanagementclient
+  label: Microsoft Azure BackupResourceVaultConfigs API
+  slug: microsoft-azure-backupresourcevaultconfigs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/kustomanagementclient-openapi-original.yml
-- filename: azure-large-instance-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backupresourcevaultconfigs-api-openapi.yml
+- filename: microsoft-azure-backuprestore-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Large Instance
-  slug: azure-large-instance
+  label: Microsoft Azure BackupRestore API
+  slug: microsoft-azure-backuprestore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-large-instance-openapi-original.yml
-- filename: live-metrics-rest-apis-for-client-sdks-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backuprestore-api-openapi.yml
+- filename: microsoft-azure-backups-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Live Metrics  APIs for Client Sdks
-  slug: live-metrics-rest-apis-for-client-sdks
+  label: Microsoft Azure Backups API
+  slug: microsoft-azure-backups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/live-metrics-rest-apis-for-client-sdks-openapi-original.yml
-- filename: local-search-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backups-api-openapi.yml
+- filename: microsoft-azure-backupschedulegroups-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Local Search Client
-  slug: local-search-client
+  label: Microsoft Azure BackupScheduleGroups API
+  slug: microsoft-azure-backupschedulegroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/local-search-client-openapi-original.yml
-- filename: azure-log-analytics-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backupschedulegroups-api-openapi.yml
+- filename: microsoft-azure-backupschedules-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Log Analytics
-  slug: azure-log-analytics
+  label: Microsoft Azure BackupSchedules API
+  slug: microsoft-azure-backupschedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-log-analytics-openapi-original.yml
-- filename: azure-log-analytics-operations-management-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backupschedules-api-openapi.yml
+- filename: microsoft-azure-backupstatus-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Log Analytics  Operations Management
-  slug: azure-log-analytics-operations-management
+  label: Microsoft Azure BackupStatus API
+  slug: microsoft-azure-backupstatus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-log-analytics-operations-management-openapi-original.yml
-- filename: azure-log-analytics-query-packs-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backupstatus-api-openapi.yml
+- filename: microsoft-azure-backupusagesummaries-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Log Analytics Query Packs
-  slug: azure-log-analytics-query-packs
+  label: Microsoft Azure BackupUsageSummaries API
+  slug: microsoft-azure-backupusagesummaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-log-analytics-query-packs-openapi-original.yml
-- filename: logicappsmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backupusagesummaries-api-openapi.yml
+- filename: microsoft-azure-backupvaults-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Logic Apps Management Client
-  slug: logicappsmanagementclient
+  label: Microsoft Azure BackupVaults API
+  slug: microsoft-azure-backupvaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/logicappsmanagementclient-openapi-original.yml
-- filename: luis-authoring-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backupvaults-api-openapi.yml
+- filename: microsoft-azure-backupworkloaditems-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Luis Authoring Client
-  slug: luis-authoring-client
+  label: Microsoft Azure BackupWorkloadItems API
+  slug: microsoft-azure-backupworkloaditems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/luis-authoring-client-openapi-original.yml
-- filename: luis-runtime-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-backupworkloaditems-api-openapi.yml
+- filename: microsoft-azure-balances-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Luis Runtime Client
-  slug: luis-runtime-client
+  label: Microsoft Azure Balances API
+  slug: microsoft-azure-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/luis-runtime-client-openapi-original.yml
-- filename: managedapplicationclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-balances-api-openapi.yml
+- filename: microsoft-azure-bandwidthschedules-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Managed Application Client
-  slug: managedapplicationclient
+  label: Microsoft Azure BandwidthSchedules API
+  slug: microsoft-azure-bandwidthschedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/managedapplicationclient-openapi-original.yml
-- filename: managed-lustre-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-bandwidthschedules-api-openapi.yml
+- filename: microsoft-azure-bandwidthsettings-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Managed Lustre Client
-  slug: managed-lustre-client
+  label: Microsoft Azure BandwidthSettings API
+  slug: microsoft-azure-bandwidthsettings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/managed-lustre-client-openapi-original.yml
-- filename: managedprivateendpointsclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-bandwidthsettings-api-openapi.yml
+- filename: microsoft-azure-baremetalinfrastructure-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Managed Private Endpoints Client
-  slug: managedprivateendpointsclient
+  label: Microsoft Azure BareMetalInfrastructure API
+  slug: microsoft-azure-baremetalinfrastructure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/managedprivateendpointsclient-openapi-original.yml
-- filename: managedserviceidentityclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-baremetalinfrastructure-api-openapi.yml
+- filename: microsoft-azure-basemodel-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Managed Service Identity Client
-  slug: managedserviceidentityclient
+  label: Microsoft Azure BaseModel API
+  slug: microsoft-azure-basemodel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/managedserviceidentityclient-openapi-original.yml
-- filename: managementlinkclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-basemodel-api-openapi.yml
+- filename: microsoft-azure-batch-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Management Link Client
-  slug: managementlinkclient
+  label: Microsoft Azure $Batch API
+  slug: microsoft-azure-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/managementlinkclient-openapi-original.yml
-- filename: managementlockclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-batch-api-openapi.yml
+- filename: microsoft-azure-batchaccount-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Management Lock Client
-  slug: managementlockclient
+  label: Microsoft Azure BatchAccount API
+  slug: microsoft-azure-batchaccount-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/managementlockclient-openapi-original.yml
-- filename: azure-maps-data-registry-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-batchaccount-api-openapi.yml
+- filename: microsoft-azure-batchnumbers-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Maps Data Registry Service
-  slug: azure-maps-data-registry-service
+  label: Microsoft Azure BatchNumbers API
+  slug: microsoft-azure-batchnumbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-maps-data-registry-service-openapi-original.yml
-- filename: azure-maps-feedback-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-batchnumbers-api-openapi.yml
+- filename: microsoft-azure-batchsynthesis-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Maps Feedback Service
-  slug: azure-maps-feedback-service
+  label: Microsoft Azure BatchSynthesis API
+  slug: microsoft-azure-batchsynthesis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-maps-feedback-service-openapi-original.yml
-- filename: azure-maps-geocoding-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-batchsynthesis-api-openapi.yml
+- filename: microsoft-azure-benefits-operations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Maps Geocoding Service
-  slug: azure-maps-geocoding-service
+  label: Microsoft Azure Benefits Operations API
+  slug: microsoft-azure-benefits-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-maps-geocoding-service-openapi-original.yml
-- filename: azure-maps-render-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-benefits-operations-api-openapi.yml
+- filename: microsoft-azure-bestpractices-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Maps Render Service
-  slug: azure-maps-render-service
+  label: Microsoft Azure BestPractices API
+  slug: microsoft-azure-bestpractices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-maps-render-service-openapi-original.yml
-- filename: azure-maps-route-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-bestpractices-api-openapi.yml
+- filename: microsoft-azure-bestpracticesversions-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Maps Route Service
-  slug: azure-maps-route-service
+  label: Microsoft Azure BestPracticesVersions API
+  slug: microsoft-azure-bestpracticesversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-maps-route-service-openapi-original.yml
-- filename: azure-maps-routeset-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-bestpracticesversions-api-openapi.yml
+- filename: microsoft-azure-bgppeers-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Maps Routeset Service
-  slug: azure-maps-routeset-service
+  label: Microsoft Azure BgpPeers API
+  slug: microsoft-azure-bgppeers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-maps-routeset-service-openapi-original.yml
-- filename: azure-maps-search-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-bgppeers-api-openapi.yml
+- filename: microsoft-azure-bicepclient-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Maps Search Service
-  slug: azure-maps-search-service
+  label: Microsoft Azure BicepClient API
+  slug: microsoft-azure-bicepclient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-maps-search-service-openapi-original.yml
-- filename: azure-maps-spatial-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-bicepclient-api-openapi.yml
+- filename: microsoft-azure-billingperiods-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Maps Spatial Service
-  slug: azure-maps-spatial-service
+  label: Microsoft Azure BillingPeriods API
+  slug: microsoft-azure-billingperiods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-maps-spatial-service-openapi-original.yml
-- filename: azure-maps-tileset-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-billingperiods-api-openapi.yml
+- filename: microsoft-azure-blobs-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Maps Tileset Service
-  slug: azure-maps-tileset-service
+  label: Microsoft Azure Blobs API
+  slug: microsoft-azure-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-maps-tileset-service-openapi-original.yml
-- filename: azure-maps-time-zone-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-blobs-api-openapi.yml
+- filename: microsoft-azure-blockchainmember-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Maps Time Zone Service
-  slug: azure-maps-time-zone-service
+  label: Microsoft Azure BlockchainMember API
+  slug: microsoft-azure-blockchainmember-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-maps-time-zone-service-openapi-original.yml
-- filename: azure-maps-traffic-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-blockchainmember-api-openapi.yml
+- filename: microsoft-azure-blockchainmemberoperationresult-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Maps Traffic Service
-  slug: azure-maps-traffic-service
+  label: Microsoft Azure BlockchainMemberOperationResult API
+  slug: microsoft-azure-blockchainmemberoperationresult-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-maps-traffic-service-openapi-original.yml
-- filename: azure-maps-wayfinding-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-blockchainmemberoperationresult-api-openapi.yml
+- filename: microsoft-azure-blueprint-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Maps Wayfinding Service
-  slug: azure-maps-wayfinding-service
+  label: Microsoft Azure Blueprint API
+  slug: microsoft-azure-blueprint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-maps-wayfinding-service-openapi-original.yml
-- filename: azure-maps-weather-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-blueprint-api-openapi.yml
+- filename: microsoft-azure-bmspreparedatamoveoperationresult-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Maps Weather Service
-  slug: azure-maps-weather-service
+  label: Microsoft Azure BMSPrepareDataMoveOperationResult API
+  slug: microsoft-azure-bmspreparedatamoveoperationresult-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-maps-weather-service-openapi-original.yml
-- filename: azure-maps-web-feature-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-bmspreparedatamoveoperationresult-api-openapi.yml
+- filename: microsoft-azure-bot-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Maps Web Feature Service
-  slug: azure-maps-web-feature-service
+  label: Microsoft Azure Bot API
+  slug: microsoft-azure-bot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-maps-web-feature-service-openapi-original.yml
-- filename: saas-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-bot-api-openapi.yml
+- filename: microsoft-azure-botconnection-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Marketplace Saa S Offers
-  slug: saas
+  label: Microsoft Azure BotConnection API
+  slug: microsoft-azure-botconnection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/saas-openapi-original.yml
-- filename: azure-media-services-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-botconnection-api-openapi.yml
+- filename: microsoft-azure-bothostsettings-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Media Services
-  slug: azure-media-services
+  label: Microsoft Azure BotHostSettings API
+  slug: microsoft-azure-bothostsettings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-media-services-openapi-original.yml
-- filename: mediaservicesmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-bothostsettings-api-openapi.yml
+- filename: microsoft-azure-boundaries-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Media Services Management Client
-  slug: mediaservicesmanagementclient
+  label: Microsoft Azure Boundaries API
+  slug: microsoft-azure-boundaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/mediaservicesmanagementclient-openapi-original.yml
-- filename: azure-metrics-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-boundaries-api-openapi.yml
+- filename: microsoft-azure-breaksentence-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Metrics
-  slug: azure-metrics
+  label: Microsoft Azure Breaksentence API
+  slug: microsoft-azure-breaksentence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-metrics-openapi-original.yml
-- filename: metrics-advisor-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-breaksentence-api-openapi.yml
+- filename: microsoft-azure-broker-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Metrics Advisor
-  slug: metrics-advisor
+  label: Microsoft Azure Broker API
+  slug: microsoft-azure-broker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/metrics-advisor-openapi-original.yml
-- filename: microsoft-cognitive-language-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-broker-api-openapi.yml
+- filename: microsoft-azure-brokerauthentication-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoft Cognitive Language Service
-  slug: microsoft-cognitive-language-service
+  label: Microsoft Azure BrokerAuthentication API
+  slug: microsoft-azure-brokerauthentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-cognitive-language-service-openapi-original.yml
-- filename: microsoft-cognitive-language-service-analyze-conversations-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-brokerauthentication-api-openapi.yml
+- filename: microsoft-azure-brokerauthorization-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoft Cognitive Language Service  Analyze Conversations
-  slug: microsoft-cognitive-language-service-analyze-conversations
+  label: Microsoft Azure BrokerAuthorization API
+  slug: microsoft-azure-brokerauthorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-cognitive-language-service-analyze-conversations-openapi-original.yml
-- filename: microsoft-cognitive-language-service-analyze-conversations-authoring-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-brokerauthorization-api-openapi.yml
+- filename: microsoft-azure-brokerlistener-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoft Cognitive Language Service  Analyze Conversations Authoring
-  slug: microsoft-cognitive-language-service-analyze-conversations-authoring
+  label: Microsoft Azure BrokerListener API
+  slug: microsoft-azure-brokerlistener-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-cognitive-language-service-analyze-conversations-authoring-openapi-original.yml
-- filename: microsoft-cognitive-language-service-analyze-text-authoring-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-brokerlistener-api-openapi.yml
+- filename: microsoft-azure-budgets-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoft Cognitive Language Service  Analyze Text Authoring
-  slug: microsoft-cognitive-language-service-analyze-text-authoring
+  label: Microsoft Azure Budgets API
+  slug: microsoft-azure-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-cognitive-language-service-analyze-text-authoring-openapi-original.yml
-- filename: microsoft-cognitive-language-service-question-answering-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-budgets-api-openapi.yml
+- filename: microsoft-azure-businesscaseavssummaryoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoft Cognitive Language Service  Question Answering
-  slug: microsoft-cognitive-language-service-question-answering
+  label: Microsoft Azure BusinessCaseAvsSummaryOperations API
+  slug: microsoft-azure-businesscaseavssummaryoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-cognitive-language-service-question-answering-openapi-original.yml
-- filename: microsoft-cognitive-language-service-question-answering-authoring-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-businesscaseavssummaryoperations-api-openapi.yml
+- filename: microsoft-azure-businesscaseiaassummaryoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoft Cognitive Language Service  Question Answering  Authoring
-  slug: microsoft-cognitive-language-service-question-answering-authoring
+  label: Microsoft Azure BusinessCaseIaasSummaryOperations API
+  slug: microsoft-azure-businesscaseiaassummaryoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-cognitive-language-service-question-answering-authoring-openapi-original.yml
-- filename: microsoft-cognitive-language-service-text-analysis-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-businesscaseiaassummaryoperations-api-openapi.yml
+- filename: microsoft-azure-businesscaseoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoft Cognitive Language Service  Text Analysis
-  slug: microsoft-cognitive-language-service-text-analysis
+  label: Microsoft Azure BusinessCaseOperations API
+  slug: microsoft-azure-businesscaseoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-cognitive-language-service-text-analysis-openapi-original.yml
-- filename: microsoft-cognitive-language-service-text-analysis-authoring-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-businesscaseoperations-api-openapi.yml
+- filename: microsoft-azure-businesscaseoverviewsummaryoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoft Cognitive Language Service  Text Analysis Authoring
-  slug: microsoft-cognitive-language-service-text-analysis-authoring
+  label: Microsoft Azure BusinessCaseOverviewSummaryOperations API
+  slug: microsoft-azure-businesscaseoverviewsummaryoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-cognitive-language-service-text-analysis-authoring-openapi-original.yml
-- filename: microsoft-defender-for-cloud-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-businesscaseoverviewsummaryoperations-api-openapi.yml
+- filename: microsoft-azure-businesscasepaassummaryoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoft Defender for Cloud
-  slug: microsoft-defender-for-cloud
+  label: Microsoft Azure BusinessCasePaasSummaryOperations API
+  slug: microsoft-azure-businesscasepaassummaryoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-defender-for-cloud-openapi-original.yml
-- filename: microsofteasm-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-businesscasepaassummaryoperations-api-openapi.yml
+- filename: microsoft-azure-businessprocesses-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoft External Attack Surface Management
-  slug: microsofteasm
+  label: Microsoft Azure BusinessProcesses API
+  slug: microsoft-azure-businessprocesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsofteasm-openapi-original.yml
-- filename: microsoft-insights-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-businessprocesses-api-openapi.yml
+- filename: microsoft-azure-businessprocessversions-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoft Insights API
-  slug: microsoft-insights-api
+  label: Microsoft Azure BusinessProcessVersions API
+  slug: microsoft-azure-businessprocessversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-insights-api-openapi-original.yml
-- filename: microsoft-marketplace-rating-and-reviews-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-businessprocessversions-api-openapi.yml
+- filename: microsoft-azure-caches-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoft Marketplace Rating and Reviews API
-  slug: microsoft-marketplace-rating-and-reviews-api
+  label: Microsoft Azure Caches API
+  slug: microsoft-azure-caches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-marketplace-rating-and-reviews-api-openapi-original.yml
-- filename: microsoft-netapp-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-caches-api-openapi.yml
+- filename: microsoft-azure-callconnection-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoft Net App
-  slug: microsoft-netapp
+  label: Microsoft Azure CallConnection API
+  slug: microsoft-azure-callconnection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-netapp-openapi-original.yml
-- filename: microsoft-playwrighttesting-authmanager-service-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-callconnection-api-openapi.yml
+- filename: microsoft-azure-capabilities-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoft Playwright Testing Auth Manager Service API
-  slug: microsoft-playwrighttesting-authmanager-service-api
+  label: Microsoft Azure Capabilities API
+  slug: microsoft-azure-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-playwrighttesting-authmanager-service-api-openapi-original.yml
-- filename: microsoftscanningclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-capabilities-api-openapi.yml
+- filename: microsoft-azure-capacities-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoft Scanning Client
-  slug: microsoftscanningclient
+  label: Microsoft Azure Capacities API
+  slug: microsoft-azure-capacities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoftscanningclient-openapi-original.yml
-- filename: microsoftsecuritydevops-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-capacities-api-openapi.yml
+- filename: microsoft-azure-capacity-pools-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoft Security Dev Ops
-  slug: microsoftsecuritydevops
+  label: Microsoft Azure Capacity Pools API
+  slug: microsoft-azure-capacity-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoftsecuritydevops-openapi-original.yml
-- filename: microsoft-sentinel-upload-indicators-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-capacity-pools-api-openapi.yml
+- filename: microsoft-azure-catalog-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoft Sentinel Upload Indicators API
-  slug: microsoft-sentinel-upload-indicators-api
+  label: Microsoft Azure Catalog API
+  slug: microsoft-azure-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-sentinel-upload-indicators-api-openapi-original.yml
-- filename: microsoftserialconsoleclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-catalog-api-openapi.yml
+- filename: microsoft-azure-catalogs-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoft Serial Console Client
-  slug: microsoftserialconsoleclient
+  label: Microsoft Azure Catalogs API
+  slug: microsoft-azure-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoftserialconsoleclient-openapi-original.yml
-- filename: microsoftservicelinker-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-catalogs-api-openapi.yml
+- filename: microsoft-azure-certificate-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoft Service Linker
-  slug: microsoftservicelinker
+  label: Microsoft Azure Certificate API
+  slug: microsoft-azure-certificate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoftservicelinker-openapi-original.yml
-- filename: microsoftstandbypool-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-certificate-api-openapi.yml
+- filename: microsoft-azure-certificateobjectglobalrulestack-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoft Standby Pool
-  slug: microsoftstandbypool
+  label: Microsoft Azure CertificateObjectGlobalRulestack API
+  slug: microsoft-azure-certificateobjectglobalrulestack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoftstandbypool-openapi-original.yml
-- filename: microsoft-storage-sync-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-certificateobjectglobalrulestack-api-openapi.yml
+- filename: microsoft-azure-certificateobjectlocalrulestack-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoft Storage Sync
-  slug: microsoft-storage-sync
+  label: Microsoft Azure CertificateObjectLocalRulestack API
+  slug: microsoft-azure-certificateobjectlocalrulestack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-storage-sync-openapi-original.yml
-- filename: microsoftazureamhwebrolev20200501-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-certificateobjectlocalrulestack-api-openapi.yml
+- filename: microsoft-azure-certificateorders-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoftazureamhweb Rolev20200501
-  slug: microsoftazureamhwebrolev20200501
+  label: Microsoft Azure CertificateOrders API
+  slug: microsoft-azure-certificateorders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoftazureamhwebrolev20200501-openapi-original.yml
-- filename: microsoftmobilepacketcore-mobile-packet-core-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-certificateorders-api-openapi.yml
+- filename: microsoft-azure-certificateordersdiagnostics-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoftmobile Packet Core Mobile Packet Core Service
-  slug: microsoftmobilepacketcore-mobile-packet-core-service
+  label: Microsoft Azure CertificateOrdersDiagnostics API
+  slug: microsoft-azure-certificateordersdiagnostics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoftmobilepacketcore-mobile-packet-core-service-openapi-original.yml
-- filename: microsoftmobilepacketcore-network-function-resource-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-certificateordersdiagnostics-api-openapi.yml
+- filename: microsoft-azure-certificateprofiles-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoftmobile Packet Core Network Function Resource
-  slug: microsoftmobilepacketcore-network-function-resource
+  label: Microsoft Azure CertificateProfiles API
+  slug: microsoft-azure-certificateprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoftmobilepacketcore-network-function-resource-openapi-original.yml
-- filename: microsoftnetworkanalytics-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-certificateprofiles-api-openapi.yml
+- filename: microsoft-azure-certificateregistrationprovider-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoftnetwork Analytics
-  slug: microsoftnetworkanalytics
+  label: Microsoft Azure CertificateRegistrationProvider API
+  slug: microsoft-azure-certificateregistrationprovider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoftnetworkanalytics-openapi-original.yml
-- filename: microsoftresourcehealth-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-certificateregistrationprovider-api-openapi.yml
+- filename: microsoft-azure-certificates-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoftresource Health
-  slug: microsoftresourcehealth
+  label: Microsoft Azure Certificates API
+  slug: microsoft-azure-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoftresourcehealth-openapi-original.yml
-- filename: microsoftsecurity-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-certificates-api-openapi.yml
+- filename: microsoft-azure-certificates-thumbprintalgorithm-thumbprintalgorithm-thumbprint-thumbprint-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Microsoftsecurity
-  slug: microsoftsecurity
+  label: Microsoft Azure certificates(thumbprintAlgorithm={thumbprintAlgorithm},thumbprint={thumbprint}) API
+  slug: microsoft-azure-certificates-thumbprintalgorithm-thumbprintalgorithm-thumbprint-thumbprint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoftsecurity-openapi-original.yml
-- filename: azure-migrate-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-certificates-thumbprintalgorithm-thumbprintalgorithm-thumbprint-thumbprint-api-openapi.yml
+- filename: microsoft-azure-change-detection-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Migrate
-  slug: azure-migrate
+  label: Microsoft Azure Change Detection API
+  slug: microsoft-azure-change-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-migrate-openapi-original.yml
-- filename: azure-migrate-assessment-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-change-detection-api-openapi.yml
+- filename: microsoft-azure-changes-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Migrate Assessment Service
-  slug: azure-migrate-assessment-service
+  label: Microsoft Azure Changes API
+  slug: microsoft-azure-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-migrate-assessment-service-openapi-original.yml
-- filename: azure-migrate-engine-apis-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-changes-api-openapi.yml
+- filename: microsoft-azure-changesnapshots-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Migrate Engine APIs
-  slug: azure-migrate-engine-apis
+  label: Microsoft Azure ChangeSnapshots API
+  slug: microsoft-azure-changesnapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-migrate-engine-apis-openapi-original.yml
-- filename: mixedrealityremoterendering-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-changesnapshots-api-openapi.yml
+- filename: microsoft-azure-channel-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Mixed Reality Remote Rendering
-  slug: mixedrealityremoterendering
+  label: Microsoft Azure Channel API
+  slug: microsoft-azure-channel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/mixedrealityremoterendering-openapi-original.yml
-- filename: mixedrealitystsclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-channel-api-openapi.yml
+- filename: microsoft-azure-channels-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Mixed Reality Sts Client
-  slug: mixedrealitystsclient
+  label: Microsoft Azure Channels API
+  slug: microsoft-azure-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/mixedrealitystsclient-openapi-original.yml
-- filename: monitorclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-channels-api-openapi.yml
+- filename: microsoft-azure-chaos-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Monitor Client
-  slug: monitorclient
+  label: Microsoft Azure Chaos API
+  slug: microsoft-azure-chaos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/monitorclient-openapi-original.yml
-- filename: azure-monitor-data-collection-control-plane-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-chaos-api-openapi.yml
+- filename: microsoft-azure-chapsettings-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Monitor Data Collection Control Plane API
-  slug: azure-monitor-data-collection-control-plane-api
+  label: Microsoft Azure ChapSettings API
+  slug: microsoft-azure-chapsettings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-monitor-data-collection-control-plane-api-openapi-original.yml
-- filename: azure-monitor-data-collection-endpoints-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-chapsettings-api-openapi.yml
+- filename: microsoft-azure-charges-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Monitor Data Collection Endpoints API
-  slug: azure-monitor-data-collection-endpoints-api
+  label: Microsoft Azure Charges API
+  slug: microsoft-azure-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-monitor-data-collection-endpoints-api-openapi-original.yml
-- filename: azure-monitor-data-collection-rule-associations-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-charges-api-openapi.yml
+- filename: microsoft-azure-chat-completions-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Monitor Data Collection Rule Associations API
-  slug: azure-monitor-data-collection-rule-associations-api
+  label: Microsoft Azure Chat Completions API
+  slug: microsoft-azure-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-monitor-data-collection-rule-associations-api-openapi-original.yml
-- filename: azure-monitor-data-collection-rules-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-chat-completions-api-openapi.yml
+- filename: microsoft-azure-chattranscripts-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Monitor Data Collection Rules API
-  slug: azure-monitor-data-collection-rules-api
+  label: Microsoft Azure ChatTranscripts API
+  slug: microsoft-azure-chattranscripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-monitor-data-collection-rules-api-openapi-original.yml
-- filename: monitormanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-chattranscripts-api-openapi.yml
+- filename: microsoft-azure-checkdeviceservicenameavailability-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Monitor Management Client
-  slug: monitormanagementclient
+  label: Microsoft Azure CheckDeviceServiceNameAvailability API
+  slug: microsoft-azure-checkdeviceservicenameavailability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/monitormanagementclient-openapi-original.yml
-- filename: azure-monitor-metric-batch-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-checkdeviceservicenameavailability-api-openapi.yml
+- filename: microsoft-azure-checkfrontdoornameavailability-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Monitor Metric Batch
-  slug: azure-monitor-metric-batch
+  label: Microsoft Azure CheckFrontDoorNameAvailability API
+  slug: microsoft-azure-checkfrontdoornameavailability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-monitor-metric-batch-openapi-original.yml
-- filename: azure-monitor-metrics-data-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-checkfrontdoornameavailability-api-openapi.yml
+- filename: microsoft-azure-checkfrontdoornameavailabilitywithsubscription-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Monitor Metrics Data API
-  slug: azure-monitor-metrics-data-api
+  label: Microsoft Azure CheckFrontDoorNameAvailabilityWithSubscription API
+  slug: microsoft-azure-checkfrontdoornameavailabilitywithsubscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-monitor-metrics-data-api-openapi-original.yml
-- filename: azure-monitor-metrics-definitions-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-checkfrontdoornameavailabilitywithsubscription-api-openapi.yml
+- filename: microsoft-azure-checknameavailability-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Monitor Metrics Definitions API
-  slug: azure-monitor-metrics-definitions-api
+  label: Microsoft Azure CheckNameAvailability API
+  slug: microsoft-azure-checknameavailability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-monitor-metrics-definitions-api-openapi-original.yml
-- filename: azure-monitor-operations-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-checknameavailability-api-openapi.yml
+- filename: microsoft-azure-checknameavailabilitywithsubscription-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Monitor Operations API
-  slug: azure-monitor-operations-api
+  label: Microsoft Azure CheckNameAvailabilityWithSubscription API
+  slug: microsoft-azure-checknameavailabilitywithsubscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-monitor-operations-api-openapi-original.yml
-- filename: azure-monitor-workspaces-control-plane-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-checknameavailabilitywithsubscription-api-openapi.yml
+- filename: microsoft-azure-checkresourceusage-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Monitor Workspaces Control Plane API
-  slug: azure-monitor-workspaces-control-plane-api
+  label: Microsoft Azure CheckResourceUsage API
+  slug: microsoft-azure-checkresourceusage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-monitor-workspaces-control-plane-api-openapi-original.yml
-- filename: monitoringclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-checkresourceusage-api-openapi.yml
+- filename: microsoft-azure-checkserviceprovideravailability-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Monitoring Client
-  slug: monitoringclient
+  label: Microsoft Azure CheckServiceProviderAvailability API
+  slug: microsoft-azure-checkserviceprovideravailability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/monitoringclient-openapi-original.yml
-- filename: mysqlmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-checkserviceprovideravailability-api-openapi.yml
+- filename: microsoft-azure-checkvirtualnetworksubnetusage-api-openapi.yml
   format: yaml
-  label: Microsoft Azure My SQLmanagement Client
-  slug: mysqlmanagementclient
+  label: Microsoft Azure CheckVirtualNetworkSubnetUsage API
+  slug: microsoft-azure-checkvirtualnetworksubnetusage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/mysqlmanagementclient-openapi-original.yml
-- filename: networkadminmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-checkvirtualnetworksubnetusage-api-openapi.yml
+- filename: microsoft-azure-chemicalproducts-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Network Admin Management Client
-  slug: networkadminmanagementclient
+  label: Microsoft Azure ChemicalProducts API
+  slug: microsoft-azure-chemicalproducts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/networkadminmanagementclient-openapi-original.yml
-- filename: networkcloud-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-chemicalproducts-api-openapi.yml
+- filename: microsoft-azure-childavailabilitystatuses-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Network Cloud
-  slug: networkcloud
+  label: Microsoft Azure ChildAvailabilityStatuses API
+  slug: microsoft-azure-childavailabilitystatuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/networkcloud-openapi-original.yml
-- filename: networkgroup-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-childavailabilitystatuses-api-openapi.yml
+- filename: microsoft-azure-childresources-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Network Group
-  slug: networkgroup
+  label: Microsoft Azure ChildResources API
+  slug: microsoft-azure-childresources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/networkgroup-openapi-original.yml
-- filename: networkmanager-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-childresources-api-openapi.yml
+- filename: microsoft-azure-ciamtenants-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Network Manager
-  slug: networkmanager
+  label: Microsoft Azure CIAMTenants API
+  slug: microsoft-azure-ciamtenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/networkmanager-openapi-original.yml
-- filename: networkmanageractiveconfiguration-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-ciamtenants-api-openapi.yml
+- filename: microsoft-azure-classicmobileservices-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Network Manager Active Configuration
-  slug: networkmanageractiveconfiguration
+  label: Microsoft Azure ClassicMobileServices API
+  slug: microsoft-azure-classicmobileservices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/networkmanageractiveconfiguration-openapi-original.yml
-- filename: networkmanagereffectiveconfiguration-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-classicmobileservices-api-openapi.yml
+- filename: microsoft-azure-classificationrules-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Network Manager Effective Configuration
-  slug: networkmanagereffectiveconfiguration
+  label: Microsoft Azure ClassificationRules API
+  slug: microsoft-azure-classificationrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/networkmanagereffectiveconfiguration-openapi-original.yml
-- filename: networkmanagergroupmembership-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-classificationrules-api-openapi.yml
+- filename: microsoft-azure-client-groups-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Network Manager Group Membership
-  slug: networkmanagergroupmembership
+  label: Microsoft Azure Client Groups API
+  slug: microsoft-azure-client-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/networkmanagergroupmembership-openapi-original.yml
-- filename: networkresourceproviderclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-client-groups-api-openapi.yml
+- filename: microsoft-azure-cloudappliances-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Network Resource Provider Client
-  slug: networkresourceproviderclient
+  label: Microsoft Azure CloudAppliances API
+  slug: microsoft-azure-cloudappliances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/networkresourceproviderclient-openapi-original.yml
-- filename: networksecurityperimeter-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-cloudappliances-api-openapi.yml
+- filename: microsoft-azure-cloudconnections-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Network Security Perimeter
-  slug: networksecurityperimeter
+  label: Microsoft Azure CloudConnections API
+  slug: microsoft-azure-cloudconnections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/networksecurityperimeter-openapi-original.yml
-- filename: newrelicobservability-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-cloudconnections-api-openapi.yml
+- filename: microsoft-azure-cloudconnectors-api-openapi.yml
   format: yaml
-  label: Microsoft Azure New Relic Observability
-  slug: newrelicobservability
+  label: Microsoft Azure CloudConnectors API
+  slug: microsoft-azure-cloudconnectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/newrelicobservability-openapi-original.yml
-- filename: news-search-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-cloudconnectors-api-openapi.yml
+- filename: microsoft-azure-cloudendpoint-resource-api-openapi.yml
   format: yaml
-  label: Microsoft Azure News Search Client
-  slug: news-search-client
+  label: Microsoft Azure CloudEndpoint Resource API
+  slug: microsoft-azure-cloudendpoint-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/news-search-client-openapi-original.yml
-- filename: nginxnginxplus-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-cloudendpoint-resource-api-openapi.yml
+- filename: microsoft-azure-clouds-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Nginx Plus
-  slug: nginxnginxplus
+  label: Microsoft Azure Clouds API
+  slug: microsoft-azure-clouds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/nginxnginxplus-openapi-original.yml
-- filename: notificationhubsmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-clouds-api-openapi.yml
+- filename: microsoft-azure-cloudserviceoperatingsystems-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Notification Hubs Management Client
-  slug: notificationhubsmanagementclient
+  label: Microsoft Azure CloudServiceOperatingSystems API
+  slug: microsoft-azure-cloudserviceoperatingsystems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/notificationhubsmanagementclient-openapi-original.yml
-- filename: notificationhubs-rp-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-cloudserviceoperatingsystems-api-openapi.yml
+- filename: microsoft-azure-cloudserviceroleinstances-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Notification Hubs Rp Client
-  slug: notificationhubs-rp-client
+  label: Microsoft Azure CloudServiceRoleInstances API
+  slug: microsoft-azure-cloudserviceroleinstances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/notificationhubs-rp-client-openapi-original.yml
-- filename: offazurespringboot-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-cloudserviceroleinstances-api-openapi.yml
+- filename: microsoft-azure-cloudserviceroles-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Off Azure Spring Boot
-  slug: offazurespringboot
+  label: Microsoft Azure CloudServiceRoles API
+  slug: microsoft-azure-cloudserviceroles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/offazurespringboot-openapi-original.yml
-- filename: azure-openai-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-cloudserviceroles-api-openapi.yml
+- filename: microsoft-azure-cloudservices-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Open Ai
-  slug: azure-openai
+  label: Microsoft Azure CloudServices API
+  slug: microsoft-azure-cloudservices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-openapi-original.yml
-- filename: azure-openai-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-cloudservices-api-openapi.yml
+- filename: microsoft-azure-cloudservicesupdatedomain-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Open Ai API
-  slug: azure-openai-api
+  label: Microsoft Azure CloudServicesUpdateDomain API
+  slug: microsoft-azure-cloudservicesupdatedomain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-openapi-original.yml
-- filename: azure-openai-api-version-2022-03-01-preview-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-cloudservicesupdatedomain-api-openapi.yml
+- filename: microsoft-azure-cluster-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Open Ai API Version 20220301preview
-  slug: azure-openai-api-version-2022-03-01-preview
+  label: Microsoft Azure Cluster API
+  slug: microsoft-azure-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2022-03-01-preview-openapi-original.yml
-- filename: azure-openai-api-version-2022-06-01-preview-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-cluster-api-openapi.yml
+- filename: microsoft-azure-clusterextensions-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Open Ai API Version 20220601preview
-  slug: azure-openai-api-version-2022-06-01-preview
+  label: Microsoft Azure ClusterExtensions API
+  slug: microsoft-azure-clusterextensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2022-06-01-preview-openapi-original.yml
-- filename: azure-openai-api-version-2022-12-01-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-clusterextensions-api-openapi.yml
+- filename: microsoft-azure-clusterextensiontypes-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Open Ai API Version 20221201
-  slug: azure-openai-api-version-2022-12-01
+  label: Microsoft Azure ClusterExtensionTypes API
+  slug: microsoft-azure-clusterextensiontypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2022-12-01-openapi-original.yml
-- filename: azure-openai-api-version-2023-03-15-preview-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-clusterextensiontypes-api-openapi.yml
+- filename: microsoft-azure-clusteroperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Open Ai API Version 20230315preview
-  slug: azure-openai-api-version-2023-03-15-preview
+  label: Microsoft Azure ClusterOperations API
+  slug: microsoft-azure-clusteroperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2023-03-15-preview-openapi-original.yml
-- filename: azure-openai-api-version-2023-05-15-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-clusteroperations-api-openapi.yml
+- filename: microsoft-azure-clusters-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Open Ai API Version 20230515
-  slug: azure-openai-api-version-2023-05-15
+  label: Microsoft Azure Clusters API
+  slug: microsoft-azure-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2023-05-15-openapi-original.yml
-- filename: azure-openai-api-version-2023-06-01-preview-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-clusters-api-openapi.yml
+- filename: microsoft-azure-clusterservices-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Open Ai API Version 20230601preview
-  slug: azure-openai-api-version-2023-06-01-preview
+  label: Microsoft Azure ClusterServices API
+  slug: microsoft-azure-clusterservices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2023-06-01-preview-openapi-original.yml
-- filename: azure-openai-api-version-2023-07-01-preview-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-clusterservices-api-openapi.yml
+- filename: microsoft-azure-code-package-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Open Ai API Version 20230701preview
-  slug: azure-openai-api-version-2023-07-01-preview
+  label: Microsoft Azure Code Package API
+  slug: microsoft-azure-code-package-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2023-07-01-preview-openapi-original.yml
-- filename: azure-openai-api-version-2023-08-01-preview-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-code-package-api-openapi.yml
+- filename: microsoft-azure-codesigningaccounts-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Open Ai API Version 20230801preview
-  slug: azure-openai-api-version-2023-08-01-preview
+  label: Microsoft Azure Codesigningaccounts API
+  slug: microsoft-azure-codesigningaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2023-08-01-preview-openapi-original.yml
-- filename: azure-openai-api-version-2023-09-01-preview-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-codesigningaccounts-api-openapi.yml
+- filename: microsoft-azure-cognitiveservicesaccounts-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Open Ai API Version 20230901preview
-  slug: azure-openai-api-version-2023-09-01-preview
+  label: Microsoft Azure CognitiveServicesAccounts API
+  slug: microsoft-azure-cognitiveservicesaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2023-09-01-preview-openapi-original.yml
-- filename: azure-openai-api-version-2023-10-01-preview-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-cognitiveservicesaccounts-api-openapi.yml
+- filename: microsoft-azure-collection-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Open Ai API Version 20231001preview
-  slug: azure-openai-api-version-2023-10-01-preview
+  label: Microsoft Azure Collection API
+  slug: microsoft-azure-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2023-10-01-preview-openapi-original.yml
-- filename: azure-openai-api-version-2023-12-01-preview-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-collection-api-openapi.yml
+- filename: microsoft-azure-collectorpolicies-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Open Ai API Version 20231201preview
-  slug: azure-openai-api-version-2023-12-01-preview
+  label: Microsoft Azure CollectorPolicies API
+  slug: microsoft-azure-collectorpolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2023-12-01-preview-openapi-original.yml
-- filename: azure-openai-api-version-2024-02-01-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-collectorpolicies-api-openapi.yml
+- filename: microsoft-azure-commerce-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Open Ai API Version 20240201
-  slug: azure-openai-api-version-2024-02-01
+  label: Microsoft Azure Commerce API
+  slug: microsoft-azure-commerce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2024-02-01-openapi-original.yml
-- filename: azure-openai-api-version-2024-02-15-preview-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-commerce-api-openapi.yml
+- filename: microsoft-azure-commitmentassociations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Open Ai API Version 20240215preview
-  slug: azure-openai-api-version-2024-02-15-preview
+  label: Microsoft Azure CommitmentAssociations API
+  slug: microsoft-azure-commitmentassociations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2024-02-15-preview-openapi-original.yml
-- filename: azure-openai-api-version-2024-03-01-preview-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-commitmentassociations-api-openapi.yml
+- filename: microsoft-azure-commitmentplans-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Open Ai API Version 20240301preview
-  slug: azure-openai-api-version-2024-03-01-preview
+  label: Microsoft Azure CommitmentPlans API
+  slug: microsoft-azure-commitmentplans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2024-03-01-preview-openapi-original.yml
-- filename: azure-openai-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-commitmentplans-api-openapi.yml
+- filename: microsoft-azure-communications-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Open AI Service API
-  slug: azure-openai-service-api
+  label: Microsoft Azure Communications API
+  slug: microsoft-azure-communications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-service-openapi.yml
-- filename: open-energy-platform-management-service-apis-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-communications-api-openapi.yml
+- filename: microsoft-azure-communicationsgateways-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Open Energy Platform Management Service APIs
-  slug: open-energy-platform-management-service-apis
+  label: Microsoft Azure CommunicationsGateways API
+  slug: microsoft-azure-communicationsgateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/open-energy-platform-management-service-apis-openapi-original.yml
-- filename: azure-orbital-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-communicationsgateways-api-openapi.yml
+- filename: microsoft-azure-communitygalleries-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Orbital
-  slug: azure-orbital
+  label: Microsoft Azure CommunityGalleries API
+  slug: microsoft-azure-communitygalleries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-orbital-openapi-original.yml
-- filename: paloaltonetworkscloudngfw-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-communitygalleries-api-openapi.yml
+- filename: microsoft-azure-communitygalleryimages-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Palo Alto Network Cloud Ngfw
-  slug: paloaltonetworkscloudngfw
+  label: Microsoft Azure CommunityGalleryImages API
+  slug: microsoft-azure-communitygalleryimages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/paloaltonetworkscloudngfw-openapi-original.yml
-- filename: paymentmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-communitygalleryimages-api-openapi.yml
+- filename: microsoft-azure-communitygalleryimageversions-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Payment Management Client
-  slug: paymentmanagementclient
+  label: Microsoft Azure CommunityGalleryImageVersions API
+  slug: microsoft-azure-communitygalleryimageversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/paymentmanagementclient-openapi-original.yml
-- filename: peeringmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-communitygalleryimageversions-api-openapi.yml
+- filename: microsoft-azure-communitytrainings-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Peering Management Client
-  slug: peeringmanagementclient
+  label: Microsoft Azure CommunityTrainings API
+  slug: microsoft-azure-communitytrainings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/peeringmanagementclient-openapi-original.yml
-- filename: personalizer-base-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-communitytrainings-api-openapi.yml
+- filename: microsoft-azure-completions-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Personalizer Base
-  slug: personalizer-base
+  label: Microsoft Azure Completions API
+  slug: microsoft-azure-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/personalizer-base-openapi-original.yml
-- filename: personalizer-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-completions-api-openapi.yml
+- filename: microsoft-azure-compose-deployment-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Personalizer Client
-  slug: personalizer-client
+  label: Microsoft Azure Compose Deployment API
+  slug: microsoft-azure-compose-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/personalizer-client-openapi-original.yml
-- filename: personalizer-client-2022-09-01-preview-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-compose-deployment-api-openapi.yml
+- filename: microsoft-azure-computenodes-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Personalizer Client 20220901preview
-  slug: personalizer-client-2022-09-01-preview
+  label: Microsoft Azure ComputeNodes API
+  slug: microsoft-azure-computenodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/personalizer-client-2022-09-01-preview-openapi-original.yml
-- filename: personalizer-client-v11-preview3-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-computenodes-api-openapi.yml
+- filename: microsoft-azure-computepolicies-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Personalizer Client V11preview3
-  slug: personalizer-client-v11-preview3
+  label: Microsoft Azure ComputePolicies API
+  slug: microsoft-azure-computepolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/personalizer-client-v11-preview3-openapi-original.yml
-- filename: microsoft-azureplaywrightservice-management-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-computepolicies-api-openapi.yml
+- filename: microsoft-azure-configuration-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Playwright Service Management API
-  slug: microsoft-azureplaywrightservice-management-api
+  label: Microsoft Azure Configuration API
+  slug: microsoft-azure-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azureplaywrightservice-management-api-openapi-original.yml
-- filename: policyclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-configuration-api-openapi.yml
+- filename: microsoft-azure-configurationassignments-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Policy Client
-  slug: policyclient
+  label: Microsoft Azure ConfigurationAssignments API
+  slug: microsoft-azure-configurationassignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/policyclient-openapi-original.yml
-- filename: policyeventsclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-configurationassignments-api-openapi.yml
+- filename: microsoft-azure-configurationnames-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Policy Events Client
-  slug: policyeventsclient
+  label: Microsoft Azure ConfigurationNames API
+  slug: microsoft-azure-configurationnames-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/policyeventsclient-openapi-original.yml
-- filename: policy-insights-operations-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-configurationnames-api-openapi.yml
+- filename: microsoft-azure-configurationprofileassignments-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Policy Insights Operations API
-  slug: policy-insights-operations-api
+  label: Microsoft Azure ConfigurationProfileAssignments API
+  slug: microsoft-azure-configurationprofileassignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/policy-insights-operations-api-openapi-original.yml
-- filename: policymetadataclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-configurationprofileassignments-api-openapi.yml
+- filename: microsoft-azure-configurationprofilehciassignments-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Policy Metadata Client
-  slug: policymetadataclient
+  label: Microsoft Azure ConfigurationProfileHCIAssignments API
+  slug: microsoft-azure-configurationprofilehciassignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/policymetadataclient-openapi-original.yml
-- filename: policystatesclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-configurationprofilehciassignments-api-openapi.yml
+- filename: microsoft-azure-configurationprofilehcrpassignments-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Policy States Client
-  slug: policystatesclient
+  label: Microsoft Azure ConfigurationProfileHCRPAssignments API
+  slug: microsoft-azure-configurationprofilehcrpassignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/policystatesclient-openapi-original.yml
-- filename: policytrackedresourcesclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-configurationprofilehcrpassignments-api-openapi.yml
+- filename: microsoft-azure-configurationprofiles-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Policy Tracked Resources Client
-  slug: policytrackedresourcesclient
+  label: Microsoft Azure ConfigurationProfiles API
+  slug: microsoft-azure-configurationprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/policytrackedresourcesclient-openapi-original.yml
-- filename: portal-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-configurationprofiles-api-openapi.yml
+- filename: microsoft-azure-configurationprofilesversions-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Portal
-  slug: portal
+  label: Microsoft Azure ConfigurationProfilesVersions API
+  slug: microsoft-azure-configurationprofilesversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/portal-openapi-original.yml
-- filename: postgresqlmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-configurationprofilesversions-api-openapi.yml
+- filename: microsoft-azure-configurations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Postgre SQLmanagement Client
-  slug: postgresqlmanagementclient
+  label: Microsoft Azure Configurations API
+  slug: microsoft-azure-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/postgresqlmanagementclient-openapi-original.yml
-- filename: postgresqlservermanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-configurations-api-openapi.yml
+- filename: microsoft-azure-configurations20220901preview-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Postgre SQLserver Management Client
-  slug: postgresqlservermanagementclient
+  label: Microsoft Azure Configurations20220901Preview API
+  slug: microsoft-azure-configurations20220901preview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/postgresqlservermanagementclient-openapi-original.yml
-- filename: power-bi-embedded-management-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-configurations20220901preview-api-openapi.yml
+- filename: microsoft-azure-configurationstores-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Power Bi Embedded Management Client
-  slug: power-bi-embedded-management-client
+  label: Microsoft Azure ConfigurationStores API
+  slug: microsoft-azure-configurationstores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/power-bi-embedded-management-client-openapi-original.yml
-- filename: powerbidedicated-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-configurationstores-api-openapi.yml
+- filename: microsoft-azure-configurationsv1dot1preview1-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Power Bidedicated
-  slug: powerbidedicated
+  label: Microsoft Azure ConfigurationsV1Dot1Preview1 API
+  slug: microsoft-azure-configurationsv1dot1preview1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/powerbidedicated-openapi-original.yml
-- filename: powerplatform-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-configurationsv1dot1preview1-api-openapi.yml
+- filename: microsoft-azure-connectedresources-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Power Platform
-  slug: powerplatform
+  label: Microsoft Azure ConnectedResources API
+  slug: microsoft-azure-connectedresources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/powerplatform-openapi-original.yml
-- filename: predictionendpoint-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-connectedresources-api-openapi.yml
+- filename: microsoft-azure-connection-gateways-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Prediction Endpoint
-  slug: predictionendpoint
+  label: Microsoft Azure Connection Gateways API
+  slug: microsoft-azure-connection-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/predictionendpoint-openapi-original.yml
-- filename: privateaccesses-types-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-connection-gateways-api-openapi.yml
+- filename: microsoft-azure-connectionpolicies-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Private Accesses Types
-  slug: privateaccesses-types
+  label: Microsoft Azure ConnectionPolicies API
+  slug: microsoft-azure-connectionpolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/privateaccesses-types-openapi-original.yml
-- filename: privatednsmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-connectionpolicies-api-openapi.yml
+- filename: microsoft-azure-connections-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Private Dns Management Client
-  slug: privatednsmanagementclient
+  label: Microsoft Azure Connections API
+  slug: microsoft-azure-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/privatednsmanagementclient-openapi-original.yml
-- filename: privateendpointconnection-types-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-connections-api-openapi.yml
+- filename: microsoft-azure-connectivityconfigurations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Private Endpoint Connection Types
-  slug: privateendpointconnection-types
+  label: Microsoft Azure ConnectivityConfigurations API
+  slug: microsoft-azure-connectivityconfigurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/privateendpointconnection-types-openapi-original.yml
-- filename: privatelinkservicesforpowerbiclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-connectivityconfigurations-api-openapi.yml
+- filename: microsoft-azure-connector-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Private Link Services for Power Biclient
-  slug: privatelinkservicesforpowerbiclient
+  label: Microsoft Azure Connector API
+  slug: microsoft-azure-connector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/privatelinkservicesforpowerbiclient-openapi-original.yml
-- filename: professionalservice-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-connector-api-openapi.yml
+- filename: microsoft-azure-connectormappings-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Professional Service
-  slug: professionalservice
+  label: Microsoft Azure ConnectorMappings API
+  slug: microsoft-azure-connectormappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/professionalservice-openapi-original.yml
-- filename: programmable-connectivity-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-connectormappings-api-openapi.yml
+- filename: microsoft-azure-connectors-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Programmable Connectivity
-  slug: programmable-connectivity
+  label: Microsoft Azure Connectors API
+  slug: microsoft-azure-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/programmable-connectivity-openapi-original.yml
-- filename: provider-api-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-connectors-api-openapi.yml
+- filename: microsoft-azure-consent-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Provider API Client
-  slug: provider-api-client
+  label: Microsoft Azure Consent API
+  slug: microsoft-azure-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/provider-api-client-openapi-original.yml
-- filename: providerhub-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-consent-api-openapi.yml
+- filename: microsoft-azure-consumerinvitation-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Provider Hub
-  slug: providerhub
+  label: Microsoft Azure ConsumerInvitation API
+  slug: microsoft-azure-consumerinvitation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/providerhub-openapi-original.yml
-- filename: purview-catalog-service-rest-api-document-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-consumerinvitation-api-openapi.yml
+- filename: microsoft-azure-contactassignment-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Purview Catalog Service  API Document
-  slug: purview-catalog-service-rest-api-document
+  label: Microsoft Azure ContactAssignment API
+  slug: microsoft-azure-contactassignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/purview-catalog-service-rest-api-document-openapi-original.yml
-- filename: purview-data-map-service-rest-api-document-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-contactassignment-api-openapi.yml
+- filename: microsoft-azure-contactgroupdefinition-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Purview Data Map Service  API Document
-  slug: purview-data-map-service-rest-api-document
+  label: Microsoft Azure ContactGroupDefinition API
+  slug: microsoft-azure-contactgroupdefinition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/purview-data-map-service-rest-api-document-openapi-original.yml
-- filename: purview-devops-policies-rest-api-document-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-contactgroupdefinition-api-openapi.yml
+- filename: microsoft-azure-contacts-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Purview Devops Policies  API Document
-  slug: purview-devops-policies-rest-api-document
+  label: Microsoft Azure Contacts API
+  slug: microsoft-azure-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/purview-devops-policies-rest-api-document-openapi-original.yml
-- filename: purview-distribution-service-rest-api-document-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-contacts-api-openapi.yml
+- filename: microsoft-azure-containerapps-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Purview Distribution Service  API Document
-  slug: purview-distribution-service-rest-api-document
+  label: Microsoft Azure ContainerApps API
+  slug: microsoft-azure-containerapps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/purview-distribution-service-rest-api-document-openapi-original.yml
-- filename: purviewmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-containerapps-api-openapi.yml
+- filename: microsoft-azure-containerappsrevisions-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Purview Management Client
-  slug: purviewmanagementclient
+  label: Microsoft Azure ContainerAppsRevisions API
+  slug: microsoft-azure-containerappsrevisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/purviewmanagementclient-openapi-original.yml
-- filename: purview-metadata-policies-service-rest-api-document-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-containerappsrevisions-api-openapi.yml
+- filename: microsoft-azure-containerhostmappings-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Purview Metadata Policies Service  API Document
-  slug: purview-metadata-policies-service-rest-api-document
+  label: Microsoft Azure ContainerHostMappings API
+  slug: microsoft-azure-containerhostmappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/purview-metadata-policies-service-rest-api-document-openapi-original.yml
-- filename: purviewpolicyclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-containerhostmappings-api-openapi.yml
+- filename: microsoft-azure-containerlogs-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Purview Policy Client
-  slug: purviewpolicyclient
+  label: Microsoft Azure ContainerLogs API
+  slug: microsoft-azure-containerlogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/purviewpolicyclient-openapi-original.yml
-- filename: purview-self-service-policies-rest-api-document-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-containerlogs-api-openapi.yml
+- filename: microsoft-azure-containerregistrysetupstart-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Purview Selfservice Policies  API Document
-  slug: purview-self-service-policies-rest-api-document
+  label: Microsoft Azure ContainerRegistrySetupStart API
+  slug: microsoft-azure-containerregistrysetupstart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/purview-self-service-policies-rest-api-document-openapi-original.yml
-- filename: purview-share-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-containerregistrysetupstart-api-openapi.yml
+- filename: microsoft-azure-containerregistrysetupstatus-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Purview Share Client
-  slug: purview-share-client
+  label: Microsoft Azure ContainerRegistrySetupStatus API
+  slug: microsoft-azure-containerregistrysetupstatus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/purview-share-client-openapi-original.yml
-- filename: purview-workflow-service-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-containerregistrysetupstatus-api-openapi.yml
+- filename: microsoft-azure-containers-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Purview Workflow Service
-  slug: purview-workflow-service
+  label: Microsoft Azure Containers API
+  slug: microsoft-azure-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/purview-workflow-service-openapi-original.yml
-- filename: qnamaker-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-containers-api-openapi.yml
+- filename: microsoft-azure-containerservicequotas-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Qn Amaker Client
-  slug: qnamaker-client
+  label: Microsoft Azure ContainerServiceQuotas API
+  slug: microsoft-azure-containerservicequotas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/qnamaker-client-openapi-original.yml
-- filename: qnamaker-runtime-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-containerservicequotas-api-openapi.yml
+- filename: microsoft-azure-content-recording-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Qn Amaker Runtime Client
-  slug: qnamaker-runtime-client
+  label: Microsoft Azure Content_Recording API
+  slug: microsoft-azure-content-recording-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/qnamaker-runtime-client-openapi-original.yml
-- filename: quantum-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-content-recording-api-openapi.yml
+- filename: microsoft-azure-controllers-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Quantum Client
-  slug: quantum-client
+  label: Microsoft Azure Controllers API
+  slug: microsoft-azure-controllers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/quantum-client-openapi-original.yml
-- filename: azure-quantum-management-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-controllers-api-openapi.yml
+- filename: microsoft-azure-conversion-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Quantum Management Client
-  slug: azure-quantum-management-client
+  label: Microsoft Azure Conversion API
+  slug: microsoft-azure-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-quantum-management-client-openapi-original.yml
-- filename: azure-quantum-workspace-services-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-conversion-api-openapi.yml
+- filename: microsoft-azure-conversions-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Quantum Workspace Services
-  slug: azure-quantum-workspace-services
+  label: Microsoft Azure Conversions API
+  slug: microsoft-azure-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-quantum-workspace-services-openapi-original.yml
-- filename: azure-queue-storage-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-conversions-api-openapi.yml
+- filename: microsoft-azure-costs-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Queue Storage
-  slug: azure-queue-storage
+  label: Microsoft Azure Costs API
+  slug: microsoft-azure-costs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-queue-storage-openapi-original.yml
-- filename: azure-quota-extension-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-costs-api-openapi.yml
+- filename: microsoft-azure-createapikey-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Quota Extension API
-  slug: azure-quota-extension-api
+  label: Microsoft Azure CreateApiKey API
+  slug: microsoft-azure-createapikey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-quota-extension-api-openapi-original.yml
-- filename: recommendations-api-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-createapikey-api-openapi.yml
+- filename: microsoft-azure-creators-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Recommendations API Client
-  slug: recommendations-api-client
+  label: Microsoft Azure Creators API
+  slug: microsoft-azure-creators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/recommendations-api-client-openapi-original.yml
-- filename: recommendationsservice-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-creators-api-openapi.yml
+- filename: microsoft-azure-credential-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Recommendations Service
-  slug: recommendationsservice
+  label: Microsoft Azure Credential API
+  slug: microsoft-azure-credential-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/recommendationsservice-openapi-original.yml
-- filename: recoveryservicesbackupclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-credential-api-openapi.yml
+- filename: microsoft-azure-cropproducts-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Recovery Services Backup Client
-  slug: recoveryservicesbackupclient
+  label: Microsoft Azure CropProducts API
+  slug: microsoft-azure-cropproducts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/recoveryservicesbackupclient-openapi-original.yml
-- filename: recoveryservicesclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-cropproducts-api-openapi.yml
+- filename: microsoft-azure-crops-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Recovery Services Client
-  slug: recoveryservicesclient
+  label: Microsoft Azure Crops API
+  slug: microsoft-azure-crops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/recoveryservicesclient-openapi-original.yml
-- filename: azure-red-hat-openshift-4-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-crops-api-openapi.yml
+- filename: microsoft-azure-custom-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Red Hat Open Shift 4 Client
-  slug: azure-red-hat-openshift-4-client
+  label: Microsoft Azure Custom API
+  slug: microsoft-azure-custom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-red-hat-openshift-4-client-openapi-original.yml
-- filename: azure-red-hat-openshift-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-custom-api-openapi.yml
+- filename: microsoft-azure-custom-apis-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Red Hat Open Shift Client
-  slug: azure-red-hat-openshift-client
+  label: Microsoft Azure Custom APIs API
+  slug: microsoft-azure-custom-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-red-hat-openshift-client-openapi-original.yml
-- filename: redisenterprise-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-custom-apis-api-openapi.yml
+- filename: microsoft-azure-custom-speech-accuracy-tests-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Redis Enterprise
-  slug: redisenterprise
+  label: 'Microsoft Azure Custom Speech Accuracy Tests: API'
+  slug: microsoft-azure-custom-speech-accuracy-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/redisenterprise-openapi-original.yml
-- filename: redisenterprisemanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-custom-speech-accuracy-tests-api-openapi.yml
+- filename: microsoft-azure-custom-speech-datasets-for-model-adaptation-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Redis Enterprise Management Client
-  slug: redisenterprisemanagementclient
+  label: 'Microsoft Azure Custom Speech Datasets for Model Adaptation: API'
+  slug: microsoft-azure-custom-speech-datasets-for-model-adaptation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/redisenterprisemanagementclient-openapi-original.yml
-- filename: redismanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-custom-speech-datasets-for-model-adaptation-api-openapi.yml
+- filename: microsoft-azure-custom-speech-endpoints-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Redis Management Client
-  slug: redismanagementclient
+  label: 'Microsoft Azure Custom Speech Endpoints: API'
+  slug: microsoft-azure-custom-speech-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/redismanagementclient-openapi-original.yml
-- filename: relay-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-custom-speech-endpoints-api-openapi.yml
+- filename: microsoft-azure-custom-speech-model-evaluations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Relay API
-  slug: relay-api
+  label: 'Microsoft Azure Custom Speech Model Evaluations: API'
+  slug: microsoft-azure-custom-speech-model-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/relay-api-openapi-original.yml
-- filename: remediationsclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-custom-speech-model-evaluations-api-openapi.yml
+- filename: microsoft-azure-custom-speech-models-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Remediations Client
-  slug: remediationsclient
+  label: 'Microsoft Azure Custom Speech Models: API'
+  slug: microsoft-azure-custom-speech-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/remediationsclient-openapi-original.yml
-- filename: azure-reservation-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-custom-speech-models-api-openapi.yml
+- filename: microsoft-azure-custom-speech-operations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Reservation API
-  slug: azure-reservation-api
+  label: 'Microsoft Azure Custom Speech Operations: API'
+  slug: microsoft-azure-custom-speech-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-reservation-api-openapi-original.yml
-- filename: azure-resource-graph-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-custom-speech-operations-api-openapi.yml
+- filename: microsoft-azure-custom-speech-projects-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Resource Graph
-  slug: azure-resource-graph
+  label: 'Microsoft Azure Custom Speech Projects: API'
+  slug: microsoft-azure-custom-speech-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-resource-graph-openapi-original.yml
-- filename: azure-resource-graph-query-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-custom-speech-projects-api-openapi.yml
+- filename: microsoft-azure-custom-speech-transcriptions-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Resource Graph Query
-  slug: azure-resource-graph-query
+  label: 'Microsoft Azure Custom Speech Transcriptions: API'
+  slug: microsoft-azure-custom-speech-transcriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-resource-graph-query-openapi-original.yml
-- filename: resourcehealthmetadata-api-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-custom-speech-transcriptions-api-openapi.yml
+- filename: microsoft-azure-custom-speech-web-hooks-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Resource Health Metadata API Client
-  slug: resourcehealthmetadata-api-client
+  label: 'Microsoft Azure Custom Speech Web Hooks: API'
+  slug: microsoft-azure-custom-speech-web-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/resourcehealthmetadata-api-client-openapi-original.yml
-- filename: resourcemanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-custom-speech-web-hooks-api-openapi.yml
+- filename: microsoft-azure-customdomains-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Resource Management Client
-  slug: resourcemanagementclient
+  label: Microsoft Azure CustomDomains API
+  slug: microsoft-azure-customdomains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/resourcemanagementclient-openapi-original.yml
-- filename: resource-mover-service-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-customdomains-api-openapi.yml
+- filename: microsoft-azure-customimages-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Resource Mover Service API
-  slug: resource-mover-service-api
+  label: Microsoft Azure CustomImages API
+  slug: microsoft-azure-customimages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/resource-mover-service-api-openapi-original.yml
-- filename: resourceprivatelinkclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-customimages-api-openapi.yml
+- filename: microsoft-azure-customimagesearch-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Resource Private Link Client
-  slug: resourceprivatelinkclient
+  label: Microsoft Azure CustomImageSearch API
+  slug: microsoft-azure-customimagesearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/resourceprivatelinkclient-openapi-original.yml
-- filename: routingconfiguration-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-customimagesearch-api-openapi.yml
+- filename: microsoft-azure-customizationpolicies-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Routing Configuration
-  slug: routingconfiguration
+  label: Microsoft Azure customizationPolicies API
+  slug: microsoft-azure-customizationpolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/routingconfiguration-openapi-original.yml
-- filename: runcommandsclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-customizationpolicies-api-openapi.yml
+- filename: microsoft-azure-customlocations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Run Commands Client
-  slug: runcommandsclient
+  label: Microsoft Azure customLocations API
+  slug: microsoft-azure-customlocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/runcommandsclient-openapi-original.yml
-- filename: scheduled-query-rules-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-customlocations-api-openapi.yml
+- filename: microsoft-azure-customresourceprovider-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Scheduled Query Rules API
-  slug: scheduled-query-rules-api
+  label: Microsoft Azure CustomResourceProvider API
+  slug: microsoft-azure-customresourceprovider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/scheduled-query-rules-api-openapi-original.yml
-- filename: schedulermanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-customresourceprovider-api-openapi.yml
+- filename: microsoft-azure-customrollouts-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Scheduler Management Client
-  slug: schedulermanagementclient
+  label: Microsoft Azure CustomRollouts API
+  slug: microsoft-azure-customrollouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/schedulermanagementclient-openapi-original.yml
-- filename: azure-schema-registry-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-customrollouts-api-openapi.yml
+- filename: microsoft-azure-customsearch-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Schema Registry
-  slug: azure-schema-registry
+  label: Microsoft Azure CustomSearch API
+  slug: microsoft-azure-customsearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-schema-registry-openapi-original.yml
-- filename: scopeconnections-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-customsearch-api-openapi.yml
+- filename: microsoft-azure-dashboards-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Scope Connections
-  slug: scopeconnections
+  label: Microsoft Azure Dashboards API
+  slug: microsoft-azure-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/scopeconnections-openapi-original.yml
-- filename: seabreezemanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dashboards-api-openapi.yml
+- filename: microsoft-azure-data-collection-rules-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Sea Breeze Management Client
-  slug: seabreezemanagementclient
+  label: Microsoft Azure Data Collection Rules API
+  slug: microsoft-azure-data-collection-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/seabreezemanagementclient-openapi-original.yml
-- filename: searchindexclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-data-collection-rules-api-openapi.yml
+- filename: microsoft-azure-data-connections-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Search Index Client
-  slug: searchindexclient
+  label: Microsoft Azure Data Connections API
+  slug: microsoft-azure-data-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/searchindexclient-openapi-original.yml
-- filename: searchmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-data-connections-api-openapi.yml
+- filename: microsoft-azure-databasebackup-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Search Management Client
-  slug: searchmanagementclient
+  label: Microsoft Azure DatabaseBackup API
+  slug: microsoft-azure-databasebackup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/searchmanagementclient-openapi-original.yml
-- filename: searchserviceclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-databasebackup-api-openapi.yml
+- filename: microsoft-azure-databaseinstances-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Search Service Client
-  slug: searchserviceclient
+  label: Microsoft Azure DatabaseInstances API
+  slug: microsoft-azure-databaseinstances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/searchserviceclient-openapi-original.yml
-- filename: securityadminconfiguration-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-databaseinstances-api-openapi.yml
+- filename: microsoft-azure-databaseinstancescontroller-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Security Admin Configuration
-  slug: securityadminconfiguration
+  label: Microsoft Azure DatabaseInstancesController API
+  slug: microsoft-azure-databaseinstancescontroller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/securityadminconfiguration-openapi-original.yml
-- filename: securityandcomplianceapis-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-databaseinstancescontroller-api-openapi.yml
+- filename: microsoft-azure-databasemigrations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Security and Compliance APIs
-  slug: securityandcomplianceapis
+  label: Microsoft Azure DatabaseMigrations API
+  slug: microsoft-azure-databasemigrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/securityandcomplianceapis-openapi-original.yml
-- filename: security-center-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-databasemigrations-api-openapi.yml
+- filename: microsoft-azure-databasereplicationlinks-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Security Center
-  slug: security-center
+  label: Microsoft Azure DatabaseReplicationLinks API
+  slug: microsoft-azure-databasereplicationlinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/security-center-openapi-original.yml
-- filename: security-insights-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-databasereplicationlinks-api-openapi.yml
+- filename: microsoft-azure-databases-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Security Insights
-  slug: security-insights
+  label: Microsoft Azure Databases API
+  slug: microsoft-azure-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/security-insights-openapi-original.yml
-- filename: securityuserconfiguration-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-databases-api-openapi.yml
+- filename: microsoft-azure-databasescontroller-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Security User Configuration
-  slug: securityuserconfiguration
+  label: Microsoft Azure DatabasesController API
+  slug: microsoft-azure-databasescontroller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/securityuserconfiguration-openapi-original.yml
-- filename: servicebusmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-databasescontroller-api-openapi.yml
+- filename: microsoft-azure-datacollectionendpoints-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Service Bus Management Client
-  slug: servicebusmanagementclient
+  label: Microsoft Azure DataCollectionEndpoints API
+  slug: microsoft-azure-datacollectionendpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/servicebusmanagementclient-openapi-original.yml
-- filename: service-fabric-client-apis-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datacollectionendpoints-api-openapi.yml
+- filename: microsoft-azure-datacollectionruleassociations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Service Fabric Client APIs
-  slug: service-fabric-client-apis
+  label: Microsoft Azure DataCollectionRuleAssociations API
+  slug: microsoft-azure-datacollectionruleassociations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/service-fabric-client-apis-openapi-original.yml
-- filename: servicefabricmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datacollectionruleassociations-api-openapi.yml
+- filename: microsoft-azure-datacollectionrules-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Service Fabric Management Client
-  slug: servicefabricmanagementclient
+  label: Microsoft Azure DataCollectionRules API
+  slug: microsoft-azure-datacollectionrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/servicefabricmanagementclient-openapi-original.yml
-- filename: service-map-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datacollectionrules-api-openapi.yml
+- filename: microsoft-azure-dataconnectors-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Service Map
-  slug: service-map
+  label: Microsoft Azure DataConnectors API
+  slug: microsoft-azure-dataconnectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/service-map-openapi-original.yml
-- filename: sharedgalleryserviceclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dataconnectors-api-openapi.yml
+- filename: microsoft-azure-dataexport-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Shared Gallery Service Client
-  slug: sharedgalleryserviceclient
+  label: Microsoft Azure dataExport API
+  slug: microsoft-azure-dataexport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/sharedgalleryserviceclient-openapi-original.yml
-- filename: sharedimagegalleryserviceclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dataexport-api-openapi.yml
+- filename: microsoft-azure-datafeed-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Shared Image Gallery Service Client
-  slug: sharedimagegalleryserviceclient
+  label: Microsoft Azure DataFeed API
+  slug: microsoft-azure-datafeed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/sharedimagegalleryserviceclient-openapi-original.yml
-- filename: signalrmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datafeed-api-openapi.yml
+- filename: microsoft-azure-datalakeconnector-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Signal R Management Client
-  slug: signalrmanagementclient
+  label: Microsoft Azure DataLakeConnector API
+  slug: microsoft-azure-datalakeconnector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/signalrmanagementclient-openapi-original.yml
-- filename: siterecoverymanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datalakeconnector-api-openapi.yml
+- filename: microsoft-azure-datalakeconnectortopicmap-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Site Recovery Management Client
-  slug: siterecoverymanagementclient
+  label: Microsoft Azure DataLakeConnectorTopicMap API
+  slug: microsoft-azure-datalakeconnectortopicmap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/siterecoverymanagementclient-openapi-original.yml
-- filename: azure-site-recovery-management-service-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datalakeconnectortopicmap-api-openapi.yml
+- filename: microsoft-azure-datalakestoreaccounts-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Site Recovery Management Service API
-  slug: azure-site-recovery-management-service-api
+  label: Microsoft Azure DataLakeStoreAccounts API
+  slug: microsoft-azure-datalakestoreaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-site-recovery-management-service-api-openapi-original.yml
-- filename: snapshotsclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datalakestoreaccounts-api-openapi.yml
+- filename: microsoft-azure-datamanagerforagricultureextensions-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Snapshots Client
-  slug: snapshotsclient
+  label: Microsoft Azure DataManagerForAgricultureExtensions API
+  slug: microsoft-azure-datamanagerforagricultureextensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/snapshotsclient-openapi-original.yml
-- filename: software-plan-rp-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datamanagerforagricultureextensions-api-openapi.yml
+- filename: microsoft-azure-datamanagerforagricultureresources-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Software Plan Rp
-  slug: software-plan-rp
+  label: Microsoft Azure DataManagerForAgricultureResources API
+  slug: microsoft-azure-datamanagerforagricultureresources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/software-plan-rp-openapi-original.yml
-- filename: sparkclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datamanagerforagricultureresources-api-openapi.yml
+- filename: microsoft-azure-datamanagers-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Spark Client
-  slug: sparkclient
+  label: Microsoft Azure DataManagers API
+  slug: microsoft-azure-datamanagers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/sparkclient-openapi-original.yml
-- filename: speaker-identification-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datamanagers-api-openapi.yml
+- filename: microsoft-azure-datamaskingpolicies-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Speaker Identification API
-  slug: speaker-identification-api
+  label: Microsoft Azure DataMaskingPolicies API
+  slug: microsoft-azure-datamaskingpolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/speaker-identification-api-openapi-original.yml
-- filename: speaker-verification-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datamaskingpolicies-api-openapi.yml
+- filename: microsoft-azure-datamaskingrules-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Speaker Verification API
-  slug: speaker-verification-api
+  label: Microsoft Azure DataMaskingRules API
+  slug: microsoft-azure-datamaskingrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/speaker-verification-api-openapi-original.yml
-- filename: speech-services-api-v20-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datamaskingrules-api-openapi.yml
+- filename: microsoft-azure-datamove-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Speech Services API V20
-  slug: speech-services-api-v20
+  label: Microsoft Azure DataMove API
+  slug: microsoft-azure-datamove-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/speech-services-api-v20-openapi-original.yml
-- filename: speech-services-api-v30-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datamove-api-openapi.yml
+- filename: microsoft-azure-datapools-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Speech Services API V30
-  slug: speech-services-api-v30
+  label: Microsoft Azure DataPools API
+  slug: microsoft-azure-datapools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/speech-services-api-v30-openapi-original.yml
-- filename: speech-services-api-v31-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datapools-api-openapi.yml
+- filename: microsoft-azure-dataproducts-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Speech Services API V31
-  slug: speech-services-api-v31
+  label: Microsoft Azure DataProducts API
+  slug: microsoft-azure-dataproducts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/speech-services-api-v31-openapi-original.yml
-- filename: speech-services-api-v31-preview1-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dataproducts-api-openapi.yml
+- filename: microsoft-azure-dataproductscatalogs-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Speech Services API V31preview1
-  slug: speech-services-api-v31-preview1
+  label: Microsoft Azure DataProductsCatalogs API
+  slug: microsoft-azure-dataproductscatalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/speech-services-api-v31-preview1-openapi-original.yml
-- filename: speech-services-api-v32-preview1-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dataproductscatalogs-api-openapi.yml
+- filename: microsoft-azure-dataregistries-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Speech Services API V32preview1
-  slug: speech-services-api-v32-preview1
+  label: Microsoft Azure dataRegistries API
+  slug: microsoft-azure-dataregistries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/speech-services-api-v32-preview1-openapi-original.yml
-- filename: speech-services-api-v32-preview2-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dataregistries-api-openapi.yml
+- filename: microsoft-azure-dataservices-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Speech Services API V32preview2
-  slug: speech-services-api-v32-preview2
+  label: Microsoft Azure DataServices API
+  slug: microsoft-azure-dataservices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/speech-services-api-v32-preview2-openapi-original.yml
-- filename: spell-check-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dataservices-api-openapi.yml
+- filename: microsoft-azure-dataset-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Spell Check Client
-  slug: spell-check-client
+  label: Microsoft Azure DataSet API
+  slug: microsoft-azure-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/spell-check-client-openapi-original.yml
-- filename: azuresphereproviderclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dataset-api-openapi.yml
+- filename: microsoft-azure-datasetmapping-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Sphere Provider Client
-  slug: azuresphereproviderclient
+  label: Microsoft Azure DataSetMapping API
+  slug: microsoft-azure-datasetmapping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azuresphereproviderclient-openapi-original.yml
-- filename: azure-sql-database-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datasetmapping-api-openapi.yml
+- filename: microsoft-azure-datasetrecords-api-openapi.yml
   format: yaml
-  label: Microsoft Azure SQL Database
-  slug: azure-sql-database
+  label: Microsoft Azure DatasetRecords API
+  slug: microsoft-azure-datasetrecords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-sql-database-openapi-original.yml
-- filename: azure-sql-database-api-spec-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datasetrecords-api-openapi.yml
+- filename: microsoft-azure-datasets-api-openapi.yml
   format: yaml
-  label: Microsoft Azure SQL Database API Spec
-  slug: azure-sql-database-api-spec
+  label: Microsoft Azure Datasets API
+  slug: microsoft-azure-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-sql-database-api-spec-openapi-original.yml
-- filename: azure-sql-database-backup-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datasets-api-openapi.yml
+- filename: microsoft-azure-datasourcepreferences-api-openapi.yml
   format: yaml
-  label: Microsoft Azure SQL Database Backup
-  slug: azure-sql-database-backup
+  label: Microsoft Azure DatasourcePreferences API
+  slug: microsoft-azure-datasourcepreferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-sql-database-backup-openapi-original.yml
-- filename: azure-sql-database-capabilities-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datasourcepreferences-api-openapi.yml
+- filename: microsoft-azure-datasources-api-openapi.yml
   format: yaml
-  label: Microsoft Azure SQL Database Capabilities
-  slug: azure-sql-database-capabilities
+  label: Microsoft Azure DataSources API
+  slug: microsoft-azure-datasources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-sql-database-capabilities-openapi-original.yml
-- filename: azure-sql-database-datamasking-policies-and-rules-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datasources-api-openapi.yml
+- filename: microsoft-azure-datastore-api-openapi.yml
   format: yaml
-  label: Microsoft Azure SQL Database Datamasking Policies and Rules
-  slug: azure-sql-database-datamasking-policies-and-rules
+  label: Microsoft Azure DataStore API
+  slug: microsoft-azure-datastore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-sql-database-datamasking-policies-and-rules-openapi-original.yml
-- filename: azure-sql-database-disaster-recovery-configurations-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datastore-api-openapi.yml
+- filename: microsoft-azure-datastoredefault-api-openapi.yml
   format: yaml
-  label: Microsoft Azure SQL Database Disaster Recovery Configurations
-  slug: azure-sql-database-disaster-recovery-configurations
+  label: Microsoft Azure DataStoreDefault API
+  slug: microsoft-azure-datastoredefault-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-sql-database-disaster-recovery-configurations-openapi-original.yml
-- filename: azure-sql-database-importexport-spec-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datastoredefault-api-openapi.yml
+- filename: microsoft-azure-datastores-api-openapi.yml
   format: yaml
-  label: Microsoft Azure SQL Database Import/export Spec
-  slug: azure-sql-database-importexport-spec
+  label: Microsoft Azure Datastores API
+  slug: microsoft-azure-datastores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-sql-database-importexport-spec-openapi-original.yml
-- filename: azure-sql-database-replication-links-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datastores-api-openapi.yml
+- filename: microsoft-azure-datastoretypes-api-openapi.yml
   format: yaml
-  label: Microsoft Azure SQL Database Replication Links
-  slug: azure-sql-database-replication-links
+  label: Microsoft Azure DataStoreTypes API
+  slug: microsoft-azure-datastoretypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-sql-database-replication-links-openapi-original.yml
-- filename: azure-sql-database-server-firewall-rules-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datastoretypes-api-openapi.yml
+- filename: microsoft-azure-datatypes-api-openapi.yml
   format: yaml
-  label: Microsoft Azure SQL Database Server Firewall Rules
-  slug: azure-sql-database-server-firewall-rules
+  label: Microsoft Azure DataTypes API
+  slug: microsoft-azure-datatypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-sql-database-server-firewall-rules-openapi-original.yml
-- filename: sqlmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-datatypes-api-openapi.yml
+- filename: microsoft-azure-dedicatedcloudnodes-api-openapi.yml
   format: yaml
-  label: Microsoft Azure SQL Management Client
-  slug: sqlmanagementclient
+  label: Microsoft Azure DedicatedCloudNodes API
+  slug: microsoft-azure-dedicatedcloudnodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/sqlmanagementclient-openapi-original.yml
-- filename: azure-sql-server-api-spec-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dedicatedcloudnodes-api-openapi.yml
+- filename: microsoft-azure-dedicatedcloudservices-api-openapi.yml
   format: yaml
-  label: Microsoft Azure SQL Server API Spec
-  slug: azure-sql-server-api-spec
+  label: Microsoft Azure DedicatedCloudServices API
+  slug: microsoft-azure-dedicatedcloudservices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-sql-server-api-spec-openapi-original.yml
-- filename: sqlvirtualmachinemanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dedicatedcloudservices-api-openapi.yml
+- filename: microsoft-azure-dedicatedhsmoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure SQL Virtual Machine Management Client
-  slug: sqlvirtualmachinemanagementclient
+  label: Microsoft Azure DedicatedHsmOperations API
+  slug: microsoft-azure-dedicatedhsmoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/sqlvirtualmachinemanagementclient-openapi-original.yml
-- filename: azure-stack-azure-bridge-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dedicatedhsmoperations-api-openapi.yml
+- filename: microsoft-azure-dedicatedhsms-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Stack Azure Bridge Client
-  slug: azure-stack-azure-bridge-client
+  label: Microsoft Azure DedicatedHsms API
+  slug: microsoft-azure-dedicatedhsms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-stack-azure-bridge-client-openapi-original.yml
-- filename: azurestackhci-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dedicatedhsms-api-openapi.yml
+- filename: microsoft-azure-defaultaccount-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Stack Hci
-  slug: azurestackhci
+  label: Microsoft Azure DefaultAccount API
+  slug: microsoft-azure-defaultaccount-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azurestackhci-openapi-original.yml
-- filename: azurestackhci-common-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-defaultaccount-api-openapi.yml
+- filename: microsoft-azure-defaultrollouts-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Stack Hci Common
-  slug: azurestackhci-common
+  label: Microsoft Azure DefaultRollouts API
+  slug: microsoft-azure-defaultrollouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azurestackhci-common-openapi-original.yml
-- filename: staticsites-api-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-defaultrollouts-api-openapi.yml
+- filename: microsoft-azure-delete-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Static Sites API Client
-  slug: staticsites-api-client
+  label: Microsoft Azure DELETE API
+  slug: microsoft-azure-delete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/staticsites-api-client-openapi-original.yml
-- filename: storsimplemanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-delete-api-openapi.yml
+- filename: microsoft-azure-deleteaccessreviewhistorydefinition-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Stor Simple Management Client
-  slug: storsimplemanagementclient
+  label: Microsoft Azure DeleteAccessReviewHistoryDefinition API
+  slug: microsoft-azure-deleteaccessreviewhistorydefinition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/storsimplemanagementclient-openapi-original.yml
-- filename: storsimple8000seriesmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deleteaccessreviewhistorydefinition-api-openapi.yml
+- filename: microsoft-azure-deleteaccessreviewscheduledefinition-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Stor Simple8000series Management Client
-  slug: storsimple8000seriesmanagementclient
+  label: Microsoft Azure DeleteAccessReviewScheduleDefinition API
+  slug: microsoft-azure-deleteaccessreviewscheduledefinition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/storsimple8000seriesmanagementclient-openapi-original.yml
-- filename: storage-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deleteaccessreviewscheduledefinition-api-openapi.yml
+- filename: microsoft-azure-deletedapplications-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Storage
-  slug: storage
+  label: Microsoft Azure deletedApplications API
+  slug: microsoft-azure-deletedapplications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/storage-openapi-original.yml
-- filename: storageactionsmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deletedapplications-api-openapi.yml
+- filename: microsoft-azure-deletedbackupinstances-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Storage Actions Management Client
-  slug: storageactionsmanagementclient
+  label: Microsoft Azure DeletedBackupInstances API
+  slug: microsoft-azure-deletedbackupinstances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/storageactionsmanagementclient-openapi-original.yml
-- filename: storage-cache-mgmt-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deletedbackupinstances-api-openapi.yml
+- filename: microsoft-azure-deletedconfigurationstores-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Storage Cache Mgmt Client
-  slug: storage-cache-mgmt-client
+  label: Microsoft Azure DeletedConfigurationStores API
+  slug: microsoft-azure-deletedconfigurationstores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/storage-cache-mgmt-client-openapi-original.yml
-- filename: storageimportexport-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deletedconfigurationstores-api-openapi.yml
+- filename: microsoft-azure-deletedstorage-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Storage Import Export
-  slug: storageimportexport
+  label: Microsoft Azure DeletedStorage API
+  slug: microsoft-azure-deletedstorage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/storageimportexport-openapi-original.yml
-- filename: storagemanagement-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deletedstorage-api-openapi.yml
+- filename: microsoft-azure-deletedwebapps-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Storage Management
-  slug: storagemanagement
+  label: Microsoft Azure DeletedWebApps API
+  slug: microsoft-azure-deletedwebapps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/storagemanagement-openapi-original.yml
-- filename: storagemanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deletedwebapps-api-openapi.yml
+- filename: microsoft-azure-dependencymapcontroller-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Storage Management Client
-  slug: storagemanagementclient
+  label: Microsoft Azure DependencyMapController API
+  slug: microsoft-azure-dependencymapcontroller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/storagemanagementclient-openapi-original.yml
-- filename: storagemoverclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dependencymapcontroller-api-openapi.yml
+- filename: microsoft-azure-deployedresource-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Storage Mover Client
-  slug: storagemoverclient
+  label: Microsoft Azure DeployedResource API
+  slug: microsoft-azure-deployedresource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/storagemoverclient-openapi-original.yml
-- filename: storagepoolmanagement-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deployedresource-api-openapi.yml
+- filename: microsoft-azure-deployment-management-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Storage Pool Management
-  slug: storagepoolmanagement
+  label: Microsoft Azure Deployment Management API
+  slug: microsoft-azure-deployment-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/storagepoolmanagement-openapi-original.yml
-- filename: streamanalyticsmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deployment-management-api-openapi.yml
+- filename: microsoft-azure-deploymentinfo-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Stream Analytics Management Client
-  slug: streamanalyticsmanagementclient
+  label: Microsoft Azure DeploymentInfo API
+  slug: microsoft-azure-deploymentinfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/streamanalyticsmanagementclient-openapi-original.yml
-- filename: subscriptionclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deploymentinfo-api-openapi.yml
+- filename: microsoft-azure-deploymentmanifests-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Subscription Client
-  slug: subscriptionclient
+  label: Microsoft Azure deploymentManifests API
+  slug: microsoft-azure-deploymentmanifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/subscriptionclient-openapi-original.yml
-- filename: subscriptiondefinitionsclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deploymentmanifests-api-openapi.yml
+- filename: microsoft-azure-deploymentoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Subscription Definitions Client
-  slug: subscriptiondefinitionsclient
+  label: Microsoft Azure DeploymentOperations API
+  slug: microsoft-azure-deploymentoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/subscriptiondefinitionsclient-openapi-original.yml
-- filename: subscriptionsmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deploymentoperations-api-openapi.yml
+- filename: microsoft-azure-deployments-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Subscriptions Management Client
-  slug: subscriptionsmanagementclient
+  label: Microsoft Azure Deployments API
+  slug: microsoft-azure-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/subscriptionsmanagementclient-openapi-original.yml
-- filename: microsoftsupport-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deployments-api-openapi.yml
+- filename: microsoft-azure-deploymentscripts-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Support
-  slug: microsoftsupport
+  label: Microsoft Azure DeploymentScripts API
+  slug: microsoft-azure-deploymentscripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoftsupport-openapi-original.yml
-- filename: synapsemanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deploymentscripts-api-openapi.yml
+- filename: microsoft-azure-deploymentsettings-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Synapse Management Client
-  slug: synapsemanagementclient
+  label: Microsoft Azure DeploymentSettings API
+  slug: microsoft-azure-deploymentsettings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/synapsemanagementclient-openapi-original.yml
-- filename: synapsesqlv3managementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deploymentsettings-api-openapi.yml
+- filename: microsoft-azure-deploymentstacks-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Synapse SQL V3 Management Client
-  slug: synapsesqlv3managementclient
+  label: Microsoft Azure DeploymentStacks API
+  slug: microsoft-azure-deploymentstacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/synapsesqlv3managementclient-openapi-original.yml
-- filename: syntex-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deploymentstacks-api-openapi.yml
+- filename: microsoft-azure-deploymentupdate-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Syntex
-  slug: syntex
+  label: Microsoft Azure DeploymentUpdate API
+  slug: microsoft-azure-deploymentupdate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/syntex-openapi-original.yml
-- filename: scvmm-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deploymentupdate-api-openapi.yml
+- filename: microsoft-azure-describe-api-openapi.yml
   format: yaml
-  label: Microsoft Azure System Center Virtual Machine Manager
-  slug: scvmm
+  label: Microsoft Azure Describe API
+  slug: microsoft-azure-describe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/scvmm-openapi-original.yml
-- filename: target-metadata-types-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-describe-api-openapi.yml
+- filename: microsoft-azure-desktop-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Target Metadata Types
-  slug: target-metadata-types
+  label: Microsoft Azure Desktop API
+  slug: microsoft-azure-desktop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/target-metadata-types-openapi-original.yml
-- filename: target-types-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-desktop-api-openapi.yml
+- filename: microsoft-azure-detect-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Target Types
-  slug: target-types
+  label: Microsoft Azure Detect API
+  slug: microsoft-azure-detect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/target-types-openapi-original.yml
-- filename: templatespecsclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-detect-api-openapi.yml
+- filename: microsoft-azure-device-and-deployment-management-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Template Specs Client
-  slug: templatespecsclient
+  label: Microsoft Azure Device and Deployment Management API
+  slug: microsoft-azure-device-and-deployment-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/templatespecsclient-openapi-original.yml
-- filename: azure-tenant-action-groups-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-device-and-deployment-management-api-openapi.yml
+- filename: microsoft-azure-device-location-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Tenant Action Groups API
-  slug: azure-tenant-action-groups-api
+  label: Microsoft Azure Device Location API
+  slug: microsoft-azure-device-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-tenant-action-groups-api-openapi-original.yml
-- filename: tenant-level-activity-log-alert-rules-in-alertsmanagement-resource-provider-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-device-location-api-openapi.yml
+- filename: microsoft-azure-device-network-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Tenant Level Activity Log Alert Rules In Alerts Management Resource Provider
-  slug: tenant-level-activity-log-alert-rules-in-alertsmanagement-resource-provider
+  label: Microsoft Azure Device Network API
+  slug: microsoft-azure-device-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/tenant-level-activity-log-alert-rules-in-alertsmanagement-resource-provider-openapi-original.yml
-- filename: test-base-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-device-network-api-openapi.yml
+- filename: microsoft-azure-devicecapacitycheck-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Test Base
-  slug: test-base
+  label: Microsoft Azure DeviceCapacityCheck API
+  slug: microsoft-azure-devicecapacitycheck-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/test-base-openapi-original.yml
-- filename: text-analytics-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-devicecapacitycheck-api-openapi.yml
+- filename: microsoft-azure-devicecapacityinfo-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Text Analytics Client
-  slug: text-analytics-client
+  label: Microsoft Azure DeviceCapacityInfo API
+  slug: microsoft-azure-devicecapacityinfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/text-analytics-client-openapi-original.yml
-- filename: text-translation-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-devicecapacityinfo-api-openapi.yml
+- filename: microsoft-azure-devicedatamodels-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Text Translation
-  slug: text-translation
+  label: Microsoft Azure DeviceDataModels API
+  slug: microsoft-azure-devicedatamodels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/text-translation-openapi-original.yml
-- filename: timeseriesinsightsclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-devicedatamodels-api-openapi.yml
+- filename: microsoft-azure-devicegroups-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Time Series Insights Client
-  slug: timeseriesinsightsclient
+  label: Microsoft Azure deviceGroups API
+  slug: microsoft-azure-devicegroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/timeseriesinsightsclient-openapi-original.yml
-- filename: topleveldomains-api-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-devicegroups-api-openapi.yml
+- filename: microsoft-azure-deviceregistrationstate-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Top Level Domains API Client
-  slug: topleveldomains-api-client
+  label: Microsoft Azure DeviceRegistrationState API
+  slug: microsoft-azure-deviceregistrationstate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/topleveldomains-api-client-openapi-original.yml
-- filename: azure-traffic-collector-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deviceregistrationstate-api-openapi.yml
+- filename: microsoft-azure-devices-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Traffic Collector
-  slug: azure-traffic-collector
+  label: Microsoft Azure Devices API
+  slug: microsoft-azure-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-traffic-collector-openapi-original.yml
-- filename: trafficcontroller-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-devices-api-openapi.yml
+- filename: microsoft-azure-deviceservices-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Traffic Controller
-  slug: trafficcontroller
+  label: Microsoft Azure DeviceServices API
+  slug: microsoft-azure-deviceservices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/trafficcontroller-openapi-original.yml
-- filename: trafficmanagermanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deviceservices-api-openapi.yml
+- filename: microsoft-azure-devicesettings-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Traffic Manager Management Client
-  slug: trafficmanagermanagementclient
+  label: Microsoft Azure DeviceSettings API
+  slug: microsoft-azure-devicesettings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/trafficmanagermanagementclient-openapi-original.yml
-- filename: trainingapi-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-devicesettings-api-openapi.yml
+- filename: microsoft-azure-devicetemplates-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Training API
-  slug: trainingapi
+  label: Microsoft Azure deviceTemplates API
+  slug: microsoft-azure-devicetemplates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/trainingapi-openapi-original.yml
-- filename: updateadminclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-devicetemplates-api-openapi.yml
+- filename: microsoft-azure-devops-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Update Admin Client
-  slug: updateadminclient
+  label: Microsoft Azure DevOps API
+  slug: microsoft-azure-devops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/updateadminclient-openapi-original.yml
-- filename: update-management-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-devops-api-openapi.yml
+- filename: microsoft-azure-devopspolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure DevopsPolicy API
+  slug: microsoft-azure-devopspolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-devopspolicy-api-openapi.yml
+- filename: microsoft-azure-diagnosticoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure diagnosticOperations API
+  slug: microsoft-azure-diagnosticoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-diagnosticoperations-api-openapi.yml
+- filename: microsoft-azure-diagnostics-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Diagnostics API
+  slug: microsoft-azure-diagnostics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-diagnostics-api-openapi.yml
+- filename: microsoft-azure-diagnostics-diskinspection-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure diagnostics_DiskInspection API
+  slug: microsoft-azure-diagnostics-diskinspection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-diagnostics-diskinspection-api-openapi.yml
+- filename: microsoft-azure-diagnostics-spotplacementrecommender-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure diagnostics_SpotPlacementRecommender API
+  slug: microsoft-azure-diagnostics-spotplacementrecommender-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-diagnostics-spotplacementrecommender-api-openapi.yml
+- filename: microsoft-azure-diagnosticservice-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure DiagnosticService API
+  slug: microsoft-azure-diagnosticservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-diagnosticservice-api-openapi.yml
+- filename: microsoft-azure-diagnosticsettings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure DiagnosticSettings API
+  slug: microsoft-azure-diagnosticsettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-diagnosticsettings-api-openapi.yml
+- filename: microsoft-azure-dictionary-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Dictionary API
+  slug: microsoft-azure-dictionary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dictionary-api-openapi.yml
+- filename: microsoft-azure-dictionary-lookup-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Dictionary/Lookup API
+  slug: microsoft-azure-dictionary-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dictionary-lookup-api-openapi.yml
+- filename: microsoft-azure-dictionaryexamples-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure DictionaryExamples API
+  slug: microsoft-azure-dictionaryexamples-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dictionaryexamples-api-openapi.yml
+- filename: microsoft-azure-digitaltwinsinstance-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure DigitalTwinsInstance API
+  slug: microsoft-azure-digitaltwinsinstance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-digitaltwinsinstance-api-openapi.yml
+- filename: microsoft-azure-disasterrecoveryconfigurations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure DisasterRecoveryConfigurations API
+  slug: microsoft-azure-disasterrecoveryconfigurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-disasterrecoveryconfigurations-api-openapi.yml
+- filename: microsoft-azure-disco-groups-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Disco Groups API
+  slug: microsoft-azure-disco-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-disco-groups-api-openapi.yml
+- filename: microsoft-azure-disco-templates-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Disco Templates API
+  slug: microsoft-azure-disco-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-disco-templates-api-openapi.yml
+- filename: microsoft-azure-discoversolutions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure discoverSolutions API
+  slug: microsoft-azure-discoversolutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-discoversolutions-api-openapi.yml
+- filename: microsoft-azure-discovery-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Discovery API
+  slug: microsoft-azure-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-discovery-api-openapi.yml
+- filename: microsoft-azure-discovery-groups-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Discovery Groups API
+  slug: microsoft-azure-discovery-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-discovery-groups-api-openapi.yml
+- filename: microsoft-azure-discovery-templates-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Discovery Templates API
+  slug: microsoft-azure-discovery-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-discovery-templates-api-openapi.yml
+- filename: microsoft-azure-discoverysolutions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure discoverySolutions API
+  slug: microsoft-azure-discoverysolutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-discoverysolutions-api-openapi.yml
+- filename: microsoft-azure-diskpools-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure DiskPools API
+  slug: microsoft-azure-diskpools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-diskpools-api-openapi.yml
+- filename: microsoft-azure-diskpoolzones-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure DiskPoolZones API
+  slug: microsoft-azure-diskpoolzones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-diskpoolzones-api-openapi.yml
+- filename: microsoft-azure-disks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Disks API
+  slug: microsoft-azure-disks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-disks-api-openapi.yml
+- filename: microsoft-azure-dnsforwardingrulesets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure DnsForwardingRulesets API
+  slug: microsoft-azure-dnsforwardingrulesets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dnsforwardingrulesets-api-openapi.yml
+- filename: microsoft-azure-dnsresolvers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure DnsResolvers API
+  slug: microsoft-azure-dnsresolvers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dnsresolvers-api-openapi.yml
+- filename: microsoft-azure-dnssecconfigs-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure DnssecConfigs API
+  slug: microsoft-azure-dnssecconfigs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dnssecconfigs-api-openapi.yml
+- filename: microsoft-azure-document-translate-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Document:translate API
+  slug: microsoft-azure-document-translate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-document-translate-api-openapi.yml
+- filename: microsoft-azure-document-translation-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Document Translation API
+  slug: microsoft-azure-document-translation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-document-translation-api-openapi.yml
+- filename: microsoft-azure-documentclassifiers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure documentClassifiers API
+  slug: microsoft-azure-documentclassifiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-documentclassifiers-api-openapi.yml
+- filename: microsoft-azure-documentclassifiers-build-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure documentClassifiers:build API
+  slug: microsoft-azure-documentclassifiers-build-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-documentclassifiers-build-api-openapi.yml
+- filename: microsoft-azure-documentmodels-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure documentModels API
+  slug: microsoft-azure-documentmodels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-documentmodels-api-openapi.yml
+- filename: microsoft-azure-documentmodels-authorizecopy-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure documentModels:authorizeCopy API
+  slug: microsoft-azure-documentmodels-authorizecopy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-documentmodels-authorizecopy-api-openapi.yml
+- filename: microsoft-azure-documentmodels-build-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure documentModels:build API
+  slug: microsoft-azure-documentmodels-build-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-documentmodels-build-api-openapi.yml
+- filename: microsoft-azure-documentmodels-compose-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure documentModels:compose API
+  slug: microsoft-azure-documentmodels-compose-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-documentmodels-compose-api-openapi.yml
+- filename: microsoft-azure-documents-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Documents API
+  slug: microsoft-azure-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-documents-api-openapi.yml
+- filename: microsoft-azure-domain-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Domain API
+  slug: microsoft-azure-domain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-domain-api-openapi.yml
+- filename: microsoft-azure-domainregistrationprovider-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure DomainRegistrationProvider API
+  slug: microsoft-azure-domainregistrationprovider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-domainregistrationprovider-api-openapi.yml
+- filename: microsoft-azure-domains-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Domains API
+  slug: microsoft-azure-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-domains-api-openapi.yml
+- filename: microsoft-azure-domainsapi-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure DomainsApi API
+  slug: microsoft-azure-domainsapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-domainsapi-api-openapi.yml
+- filename: microsoft-azure-domaintopics-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure DomainTopics API
+  slug: microsoft-azure-domaintopics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-domaintopics-api-openapi.yml
+- filename: microsoft-azure-dppfeaturesupport-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure DppFeatureSupport API
+  slug: microsoft-azure-dppfeaturesupport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dppfeaturesupport-api-openapi.yml
+- filename: microsoft-azure-dppjob-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure DppJob API
+  slug: microsoft-azure-dppjob-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dppjob-api-openapi.yml
+- filename: microsoft-azure-dppresourceguardproxies-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure DppResourceGuardProxies API
+  slug: microsoft-azure-dppresourceguardproxies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dppresourceguardproxies-api-openapi.yml
+- filename: microsoft-azure-dpscertificate-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure DpsCertificate API
+  slug: microsoft-azure-dpscertificate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dpscertificate-api-openapi.yml
+- filename: microsoft-azure-dra-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Dra API
+  slug: microsoft-azure-dra-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dra-api-openapi.yml
+- filename: microsoft-azure-edge-site-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Edge Site API
+  slug: microsoft-azure-edge-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-edge-site-api-openapi.yml
+- filename: microsoft-azure-edgedevices-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EdgeDevices API
+  slug: microsoft-azure-edgedevices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-edgedevices-api-openapi.yml
+- filename: microsoft-azure-edgenodes-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Edgenodes API
+  slug: microsoft-azure-edgenodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-edgenodes-api-openapi.yml
+- filename: microsoft-azure-elastic-san-operations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Elastic San Operations API
+  slug: microsoft-azure-elastic-san-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-elastic-san-operations-api-openapi.yml
+- filename: microsoft-azure-elastic-san-skus-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Elastic San Skus API
+  slug: microsoft-azure-elastic-san-skus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-elastic-san-skus-api-openapi.yml
+- filename: microsoft-azure-elasticsan-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ElasticSan API
+  slug: microsoft-azure-elasticsan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-elasticsan-api-openapi.yml
+- filename: microsoft-azure-elasticsans-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ElasticSans API
+  slug: microsoft-azure-elasticsans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-elasticsans-api-openapi.yml
+- filename: microsoft-azure-elasticversions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ElasticVersions API
+  slug: microsoft-azure-elasticversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-elasticversions-api-openapi.yml
+- filename: microsoft-azure-elevation-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Elevation API
+  slug: microsoft-azure-elevation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-elevation-api-openapi.yml
+- filename: microsoft-azure-emailconfiguration-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EmailConfiguration API
+  slug: microsoft-azure-emailconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-emailconfiguration-api-openapi.yml
+- filename: microsoft-azure-emailgetsendresult-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EmailGetSendResult API
+  slug: microsoft-azure-emailgetsendresult-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-emailgetsendresult-api-openapi.yml
+- filename: microsoft-azure-emailgetsendstatus-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EmailGetSendStatus API
+  slug: microsoft-azure-emailgetsendstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-emailgetsendstatus-api-openapi.yml
+- filename: microsoft-azure-emailsend-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EmailSend API
+  slug: microsoft-azure-emailsend-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-emailsend-api-openapi.yml
+- filename: microsoft-azure-embeddings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Embeddings API
+  slug: microsoft-azure-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-embeddings-api-openapi.yml
+- filename: microsoft-azure-emergingissues-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EmergingIssues API
+  slug: microsoft-azure-emergingissues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-emergingissues-api-openapi.yml
+- filename: microsoft-azure-endpoint-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Endpoint API
+  slug: microsoft-azure-endpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-endpoint-api-openapi.yml
+- filename: microsoft-azure-endpointkeys-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EndpointKeys API
+  slug: microsoft-azure-endpointkeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-endpointkeys-api-openapi.yml
+- filename: microsoft-azure-endpoints-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Endpoints API
+  slug: microsoft-azure-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-endpoints-api-openapi.yml
+- filename: microsoft-azure-endpointsettings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure endpointSettings API
+  slug: microsoft-azure-endpointsettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-endpointsettings-api-openapi.yml
+- filename: microsoft-azure-enrollmentaccounts-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EnrollmentAccounts API
+  slug: microsoft-azure-enrollmentaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-enrollmentaccounts-api-openapi.yml
+- filename: microsoft-azure-enrollmentgroup-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EnrollmentGroup API
+  slug: microsoft-azure-enrollmentgroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-enrollmentgroup-api-openapi.yml
+- filename: microsoft-azure-enrollmentgroups-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure enrollmentGroups API
+  slug: microsoft-azure-enrollmentgroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-enrollmentgroups-api-openapi.yml
+- filename: microsoft-azure-enterpriseknowledgegraph-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EnterpriseKnowledgeGraph API
+  slug: microsoft-azure-enterpriseknowledgegraph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-enterpriseknowledgegraph-api-openapi.yml
+- filename: microsoft-azure-entities-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Entities API
+  slug: microsoft-azure-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-entities-api-openapi.yml
+- filename: microsoft-azure-entity-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Entity API
+  slug: microsoft-azure-entity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-entity-api-openapi.yml
+- filename: microsoft-azure-entitysearch-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EntitySearch API
+  slug: microsoft-azure-entitysearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-entitysearch-api-openapi.yml
+- filename: microsoft-azure-entries-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Entries API
+  slug: microsoft-azure-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-entries-api-openapi.yml
+- filename: microsoft-azure-environment-definitions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Environment Definitions API
+  slug: microsoft-azure-environment-definitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-environment-definitions-api-openapi.yml
+- filename: microsoft-azure-environment-types-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Environment Types API
+  slug: microsoft-azure-environment-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-environment-types-api-openapi.yml
+- filename: microsoft-azure-environmentoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EnvironmentOperations API
+  slug: microsoft-azure-environmentoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-environmentoperations-api-openapi.yml
+- filename: microsoft-azure-environments-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Environments API
+  slug: microsoft-azure-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-environments-api-openapi.yml
+- filename: microsoft-azure-environmentsettings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EnvironmentSettings API
+  slug: microsoft-azure-environmentsettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-environmentsettings-api-openapi.yml
+- filename: microsoft-azure-errorsummaries-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ErrorSummaries API
+  slug: microsoft-azure-errorsummaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-errorsummaries-api-openapi.yml
+- filename: microsoft-azure-evaluatedavsmachinesoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EvaluatedAvsMachinesOperations API
+  slug: microsoft-azure-evaluatedavsmachinesoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-evaluatedavsmachinesoperations-api-openapi.yml
+- filename: microsoft-azure-evaluatedmachinesoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EvaluatedMachinesOperations API
+  slug: microsoft-azure-evaluatedmachinesoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-evaluatedmachinesoperations-api-openapi.yml
+- filename: microsoft-azure-evaluatedsqlentitiesoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EvaluatedSqlEntitiesOperations API
+  slug: microsoft-azure-evaluatedsqlentitiesoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-evaluatedsqlentitiesoperations-api-openapi.yml
+- filename: microsoft-azure-evaluatedwebappsoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EvaluatedWebAppsOperations API
+  slug: microsoft-azure-evaluatedwebappsoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-evaluatedwebappsoperations-api-openapi.yml
+- filename: microsoft-azure-evaluations20220901preview-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Evaluations20220901Preview API
+  slug: microsoft-azure-evaluations20220901preview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-evaluations20220901preview-api-openapi.yml
+- filename: microsoft-azure-evaluationsv1dot1preview1-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EvaluationsV1Dot1Preview1 API
+  slug: microsoft-azure-evaluationsv1dot1preview1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-evaluationsv1dot1preview1-api-openapi.yml
+- filename: microsoft-azure-event-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Event API
+  slug: microsoft-azure-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-event-api-openapi.yml
+- filename: microsoft-azure-event-hubs-clusters-configuration-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Event Hubs Clusters Configuration API
+  slug: microsoft-azure-event-hubs-clusters-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-event-hubs-clusters-configuration-api-openapi.yml
+- filename: microsoft-azure-eventchannels-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EventChannels API
+  slug: microsoft-azure-eventchannels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-eventchannels-api-openapi.yml
+- filename: microsoft-azure-eventhubconnections-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EventHubConnections API
+  slug: microsoft-azure-eventhubconnections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-eventhubconnections-api-openapi.yml
+- filename: microsoft-azure-eventimpactedresources-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EventImpactedResources API
+  slug: microsoft-azure-eventimpactedresources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-eventimpactedresources-api-openapi.yml
+- filename: microsoft-azure-eventroutes-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EventRoutes API
+  slug: microsoft-azure-eventroutes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-eventroutes-api-openapi.yml
+- filename: microsoft-azure-events-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Events API
+  slug: microsoft-azure-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-events-api-openapi.yml
+- filename: microsoft-azure-eventscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EventsController API
+  slug: microsoft-azure-eventscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-eventscontroller-api-openapi.yml
+- filename: microsoft-azure-eventsources-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EventSources API
+  slug: microsoft-azure-eventsources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-eventsources-api-openapi.yml
+- filename: microsoft-azure-eventsstore-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EventsStore API
+  slug: microsoft-azure-eventsstore-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-eventsstore-api-openapi.yml
+- filename: microsoft-azure-eventsubscriptions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure EventSubscriptions API
+  slug: microsoft-azure-eventsubscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-eventsubscriptions-api-openapi.yml
+- filename: microsoft-azure-execution-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Execution API
+  slug: microsoft-azure-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-execution-api-openapi.yml
+- filename: microsoft-azure-experiments-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Experiments API
+  slug: microsoft-azure-experiments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-experiments-api-openapi.yml
+- filename: microsoft-azure-exportjobsoperationresults-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ExportJobsOperationResults API
+  slug: microsoft-azure-exportjobsoperationresults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-exportjobsoperationresults-api-openapi.yml
+- filename: microsoft-azure-exposurecontrol-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ExposureControl API
+  slug: microsoft-azure-exposurecontrol-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-exposurecontrol-api-openapi.yml
+- filename: microsoft-azure-expressroutecircuitauthorizations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ExpressRouteCircuitAuthorizations API
+  slug: microsoft-azure-expressroutecircuitauthorizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-expressroutecircuitauthorizations-api-openapi.yml
+- filename: microsoft-azure-expressroutecircuitpeerings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ExpressRouteCircuitPeerings API
+  slug: microsoft-azure-expressroutecircuitpeerings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-expressroutecircuitpeerings-api-openapi.yml
+- filename: microsoft-azure-expressroutecircuits-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ExpressRouteCircuits API
+  slug: microsoft-azure-expressroutecircuits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-expressroutecircuits-api-openapi.yml
+- filename: microsoft-azure-expressrouteconnections-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ExpressRouteConnections API
+  slug: microsoft-azure-expressrouteconnections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-expressrouteconnections-api-openapi.yml
+- filename: microsoft-azure-expressroutecrossconnectionarptable-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ExpressRouteCrossConnectionArpTable API
+  slug: microsoft-azure-expressroutecrossconnectionarptable-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-expressroutecrossconnectionarptable-api-openapi.yml
+- filename: microsoft-azure-expressroutecrossconnectionpeerings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ExpressRouteCrossConnectionPeerings API
+  slug: microsoft-azure-expressroutecrossconnectionpeerings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-expressroutecrossconnectionpeerings-api-openapi.yml
+- filename: microsoft-azure-expressroutecrossconnectionroutetable-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ExpressRouteCrossConnectionRouteTable API
+  slug: microsoft-azure-expressroutecrossconnectionroutetable-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-expressroutecrossconnectionroutetable-api-openapi.yml
+- filename: microsoft-azure-expressroutecrossconnectionroutetablesummary-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ExpressRouteCrossConnectionRouteTableSummary API
+  slug: microsoft-azure-expressroutecrossconnectionroutetablesummary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-expressroutecrossconnectionroutetablesummary-api-openapi.yml
+- filename: microsoft-azure-expressroutecrossconnections-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ExpressRouteCrossConnections API
+  slug: microsoft-azure-expressroutecrossconnections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-expressroutecrossconnections-api-openapi.yml
+- filename: microsoft-azure-expressroutegateways-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ExpressRouteGateways API
+  slug: microsoft-azure-expressroutegateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-expressroutegateways-api-openapi.yml
+- filename: microsoft-azure-expressrouteserviceproviders-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ExpressRouteServiceProviders API
+  slug: microsoft-azure-expressrouteserviceproviders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-expressrouteserviceproviders-api-openapi.yml
+- filename: microsoft-azure-extendedzones-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ExtendedZones API
+  slug: microsoft-azure-extendedzones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-extendedzones-api-openapi.yml
+- filename: microsoft-azure-extension-operation-status-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Extension Operation Status API
+  slug: microsoft-azure-extension-operation-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-extension-operation-status-api-openapi.yml
+- filename: microsoft-azure-extensions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Extensions API
+  slug: microsoft-azure-extensions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-extensions-api-openapi.yml
+- filename: microsoft-azure-extensiontype-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ExtensionType API
+  slug: microsoft-azure-extensiontype-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-extensiontype-api-openapi.yml
+- filename: microsoft-azure-extensiontypes-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ExtensionTypes API
+  slug: microsoft-azure-extensiontypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-extensiontypes-api-openapi.yml
+- filename: microsoft-azure-fabric-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Fabric API
+  slug: microsoft-azure-fabric-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-fabric-api-openapi.yml
+- filename: microsoft-azure-facelists-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Facelists API
+  slug: microsoft-azure-facelists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-facelists-api-openapi.yml
+- filename: microsoft-azure-farmbeatsextensions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FarmBeatsExtensions API
+  slug: microsoft-azure-farmbeatsextensions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-farmbeatsextensions-api-openapi.yml
+- filename: microsoft-azure-farmbeatsmodels-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FarmBeatsModels API
+  slug: microsoft-azure-farmbeatsmodels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-farmbeatsmodels-api-openapi.yml
+- filename: microsoft-azure-farmequipments-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FarmEquipments API
+  slug: microsoft-azure-farmequipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-farmequipments-api-openapi.yml
+- filename: microsoft-azure-farmoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FarmOperations API
+  slug: microsoft-azure-farmoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-farmoperations-api-openapi.yml
+- filename: microsoft-azure-farms-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Farms API
+  slug: microsoft-azure-farms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-farms-api-openapi.yml
+- filename: microsoft-azure-faults-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Faults API
+  slug: microsoft-azure-faults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-faults-api-openapi.yml
+- filename: microsoft-azure-featureimportances20220901preview-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FeatureImportances20220901Preview API
+  slug: microsoft-azure-featureimportances20220901preview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-featureimportances20220901preview-api-openapi.yml
+- filename: microsoft-azure-features-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Features API
+  slug: microsoft-azure-features-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-features-api-openapi.yml
+- filename: microsoft-azure-featurestatesets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure featureStateSets API
+  slug: microsoft-azure-featurestatesets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-featurestatesets-api-openapi.yml
+- filename: microsoft-azure-featuresupport-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FeatureSupport API
+  slug: microsoft-azure-featuresupport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-featuresupport-api-openapi.yml
+- filename: microsoft-azure-feedback-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Feedback API
+  slug: microsoft-azure-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-feedback-api-openapi.yml
+- filename: microsoft-azure-fetchsecondaryrecoverypoints-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FetchSecondaryRecoveryPoints API
+  slug: microsoft-azure-fetchsecondaryrecoverypoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-fetchsecondaryrecoverypoints-api-openapi.yml
+- filename: microsoft-azure-fields-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Fields API
+  slug: microsoft-azure-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-fields-api-openapi.yml
+- filename: microsoft-azure-file-and-directory-operations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure File and Directory Operations API
+  slug: microsoft-azure-file-and-directory-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-file-and-directory-operations-api-openapi.yml
+- filename: microsoft-azure-file-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure File API
+  slug: microsoft-azure-file-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-file-api-openapi.yml
+- filename: microsoft-azure-file-locks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure File Locks API
+  slug: microsoft-azure-file-locks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-file-locks-api-openapi.yml
+- filename: microsoft-azure-files-api-openapi.yml
+  format: yaml
+  label: 'Microsoft Azure Files: API'
+  slug: microsoft-azure-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-files-api-openapi.yml
+- filename: microsoft-azure-fileservers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FileServers API
+  slug: microsoft-azure-fileservers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-fileservers-api-openapi.yml
+- filename: microsoft-azure-fileshares-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FileShares API
+  slug: microsoft-azure-fileshares-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-fileshares-api-openapi.yml
+- filename: microsoft-azure-filesystem-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FileSystem API
+  slug: microsoft-azure-filesystem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-filesystem-api-openapi.yml
+- filename: microsoft-azure-filesystem-operations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Filesystem Operations API
+  slug: microsoft-azure-filesystem-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-filesystem-operations-api-openapi.yml
+- filename: microsoft-azure-filesystems-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FileSystems API
+  slug: microsoft-azure-filesystems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-filesystems-api-openapi.yml
+- filename: microsoft-azure-fileuploads-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure fileUploads API
+  slug: microsoft-azure-fileuploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-fileuploads-api-openapi.yml
+- filename: microsoft-azure-fileworkspaces-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FileWorkspaces API
+  slug: microsoft-azure-fileworkspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-fileworkspaces-api-openapi.yml
+- filename: microsoft-azure-filters-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Filters API
+  slug: microsoft-azure-filters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-filters-api-openapi.yml
+- filename: microsoft-azure-find-and-purchase-available-phone-numbers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Find and Purchase Available Phone Numbers API
+  slug: microsoft-azure-find-and-purchase-available-phone-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-find-and-purchase-available-phone-numbers-api-openapi.yml
+- filename: microsoft-azure-findrestorabletimeranges-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FindRestorableTimeRanges API
+  slug: microsoft-azure-findrestorabletimeranges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-findrestorabletimeranges-api-openapi.yml
+- filename: microsoft-azure-findsimilars-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Findsimilars API
+  slug: microsoft-azure-findsimilars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-findsimilars-api-openapi.yml
+- filename: microsoft-azure-fine-tunes-api-openapi.yml
+  format: yaml
+  label: 'Microsoft Azure Fine-Tunes: API'
+  slug: microsoft-azure-fine-tunes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-fine-tunes-api-openapi.yml
+- filename: microsoft-azure-fine-tuning-api-openapi.yml
+  format: yaml
+  label: 'Microsoft Azure Fine-Tuning: API'
+  slug: microsoft-azure-fine-tuning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-fine-tuning-api-openapi.yml
+- filename: microsoft-azure-firewallrules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FirewallRules API
+  slug: microsoft-azure-firewallrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-firewallrules-api-openapi.yml
+- filename: microsoft-azure-firewalls-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Firewalls API
+  slug: microsoft-azure-firewalls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-firewalls-api-openapi.yml
+- filename: microsoft-azure-firewallstatus-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FirewallStatus API
+  slug: microsoft-azure-firewallstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-firewallstatus-api-openapi.yml
+- filename: microsoft-azure-fleetmembers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FleetMembers API
+  slug: microsoft-azure-fleetmembers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-fleetmembers-api-openapi.yml
+- filename: microsoft-azure-fleets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Fleets API
+  slug: microsoft-azure-fleets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-fleets-api-openapi.yml
+- filename: microsoft-azure-fleetupdatestrategies-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FleetUpdateStrategies API
+  slug: microsoft-azure-fleetupdatestrategies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-fleetupdatestrategies-api-openapi.yml
+- filename: microsoft-azure-fluidrelaycontainers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FluidRelayContainers API
+  slug: microsoft-azure-fluidrelaycontainers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-fluidrelaycontainers-api-openapi.yml
+- filename: microsoft-azure-fluidrelayoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FluidRelayOperations API
+  slug: microsoft-azure-fluidrelayoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-fluidrelayoperations-api-openapi.yml
+- filename: microsoft-azure-fluidrelayservers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FluidRelayServers API
+  slug: microsoft-azure-fluidrelayservers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-fluidrelayservers-api-openapi.yml
+- filename: microsoft-azure-flux-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Flux API
+  slug: microsoft-azure-flux-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-flux-api-openapi.yml
+- filename: microsoft-azure-fluxconfiguration-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FluxConfiguration API
+  slug: microsoft-azure-fluxconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-fluxconfiguration-api-openapi.yml
+- filename: microsoft-azure-fluxconfiguration-operation-status-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FluxConfiguration Operation Status API
+  slug: microsoft-azure-fluxconfiguration-operation-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-fluxconfiguration-operation-status-api-openapi.yml
+- filename: microsoft-azure-forecasts-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Forecasts API
+  slug: microsoft-azure-forecasts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-forecasts-api-openapi.yml
+- filename: microsoft-azure-form-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Form API
+  slug: microsoft-azure-form-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-form-api-openapi.yml
+- filename: microsoft-azure-formulas-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Formulas API
+  slug: microsoft-azure-formulas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-formulas-api-openapi.yml
+- filename: microsoft-azure-forwardingrules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ForwardingRules API
+  slug: microsoft-azure-forwardingrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-forwardingrules-api-openapi.yml
+- filename: microsoft-azure-fqdnlistglobalrulestack-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FqdnListGlobalRulestack API
+  slug: microsoft-azure-fqdnlistglobalrulestack-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-fqdnlistglobalrulestack-api-openapi.yml
+- filename: microsoft-azure-fqdnlistlocalrulestack-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FqdnListLocalRulestack API
+  slug: microsoft-azure-fqdnlistlocalrulestack-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-fqdnlistlocalrulestack-api-openapi.yml
+- filename: microsoft-azure-frontdoors-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FrontDoors API
+  slug: microsoft-azure-frontdoors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-frontdoors-api-openapi.yml
+- filename: microsoft-azure-frontendsinterface-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure FrontendsInterface API
+  slug: microsoft-azure-frontendsinterface-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-frontendsinterface-api-openapi.yml
+- filename: microsoft-azure-galleries-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Galleries API
+  slug: microsoft-azure-galleries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-galleries-api-openapi.yml
+- filename: microsoft-azure-galleryapplications-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GalleryApplications API
+  slug: microsoft-azure-galleryapplications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-galleryapplications-api-openapi.yml
+- filename: microsoft-azure-galleryapplicationversions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GalleryApplicationVersions API
+  slug: microsoft-azure-galleryapplicationversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-galleryapplicationversions-api-openapi.yml
+- filename: microsoft-azure-galleryimages-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GalleryImages API
+  slug: microsoft-azure-galleryimages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-galleryimages-api-openapi.yml
+- filename: microsoft-azure-galleryimageversions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GalleryImageVersions API
+  slug: microsoft-azure-galleryimageversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-galleryimageversions-api-openapi.yml
+- filename: microsoft-azure-galleryitems-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GalleryItems API
+  slug: microsoft-azure-galleryitems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-galleryitems-api-openapi.yml
+- filename: microsoft-azure-gallerysharingupdate-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GallerySharingUpdate API
+  slug: microsoft-azure-gallerysharingupdate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-gallerysharingupdate-api-openapi.yml
+- filename: microsoft-azure-general-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure General API
+  slug: microsoft-azure-general-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-general-api-openapi.yml
+- filename: microsoft-azure-generatethumbnail-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure generateThumbnail API
+  slug: microsoft-azure-generatethumbnail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-generatethumbnail-api-openapi.yml
+- filename: microsoft-azure-geocode-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Geocode API
+  slug: microsoft-azure-geocode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-geocode-api-openapi.yml
+- filename: microsoft-azure-geolocation-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Geolocation API
+  slug: microsoft-azure-geolocation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-geolocation-api-openapi.yml
+- filename: microsoft-azure-get-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GET API
+  slug: microsoft-azure-get-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-get-api-openapi.yml
+- filename: microsoft-azure-get-metadata-information-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Get Metadata Information API
+  slug: microsoft-azure-get-metadata-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-get-metadata-information-api-openapi.yml
+- filename: microsoft-azure-get-token-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Get Token API
+  slug: microsoft-azure-get-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-get-token-api-openapi.yml
+- filename: microsoft-azure-getaccessreviewdefaultsettings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GetAccessReviewDefaultSettings API
+  slug: microsoft-azure-getaccessreviewdefaultsettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-getaccessreviewdefaultsettings-api-openapi.yml
+- filename: microsoft-azure-getaccessreviewhistorydefinition-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GetAccessReviewHistoryDefinition API
+  slug: microsoft-azure-getaccessreviewhistorydefinition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-getaccessreviewhistorydefinition-api-openapi.yml
+- filename: microsoft-azure-getaccessreviewhistorydefinitioninstances-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GetAccessReviewHistoryDefinitionInstances API
+  slug: microsoft-azure-getaccessreviewhistorydefinitioninstances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-getaccessreviewhistorydefinitioninstances-api-openapi.yml
+- filename: microsoft-azure-getaccessreviewhistorydefinitions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GetAccessReviewHistoryDefinitions API
+  slug: microsoft-azure-getaccessreviewhistorydefinitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-getaccessreviewhistorydefinitions-api-openapi.yml
+- filename: microsoft-azure-getaccessreviewinstance-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GetAccessReviewInstance API
+  slug: microsoft-azure-getaccessreviewinstance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-getaccessreviewinstance-api-openapi.yml
+- filename: microsoft-azure-getaccessreviewinstancecontactedreviewers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GetAccessReviewInstanceContactedReviewers API
+  slug: microsoft-azure-getaccessreviewinstancecontactedreviewers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-getaccessreviewinstancecontactedreviewers-api-openapi.yml
+- filename: microsoft-azure-getaccessreviewinstancedecisions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GetAccessReviewInstanceDecisions API
+  slug: microsoft-azure-getaccessreviewinstancedecisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-getaccessreviewinstancedecisions-api-openapi.yml
+- filename: microsoft-azure-getaccessreviewinstances-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GetAccessReviewInstances API
+  slug: microsoft-azure-getaccessreviewinstances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-getaccessreviewinstances-api-openapi.yml
+- filename: microsoft-azure-getaccessreviewinstancesassignedformyapproval-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GetAccessReviewInstancesAssignedForMyApproval API
+  slug: microsoft-azure-getaccessreviewinstancesassignedformyapproval-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-getaccessreviewinstancesassignedformyapproval-api-openapi.yml
+- filename: microsoft-azure-getaccessreviewmyinstancedecision-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GetAccessReviewMyInstanceDecision API
+  slug: microsoft-azure-getaccessreviewmyinstancedecision-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-getaccessreviewmyinstancedecision-api-openapi.yml
+- filename: microsoft-azure-getaccessreviewmyinstancedecisions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GetAccessReviewMyInstanceDecisions API
+  slug: microsoft-azure-getaccessreviewmyinstancedecisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-getaccessreviewmyinstancedecisions-api-openapi.yml
+- filename: microsoft-azure-getaccessreviewscheduledefinition-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GetAccessReviewScheduleDefinition API
+  slug: microsoft-azure-getaccessreviewscheduledefinition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-getaccessreviewscheduledefinition-api-openapi.yml
+- filename: microsoft-azure-getaccessreviewscheduledefinitions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GetAccessReviewScheduleDefinitions API
+  slug: microsoft-azure-getaccessreviewscheduledefinitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-getaccessreviewscheduledefinitions-api-openapi.yml
+- filename: microsoft-azure-getaccessreviewscheduledefinitionsassignedformyapproval-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GetAccessReviewScheduleDefinitionsAssignedForMyApproval API
+  slug: microsoft-azure-getaccessreviewscheduledefinitionsassignedformyapproval-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-getaccessreviewscheduledefinitionsassignedformyapproval-api-openapi.yml
+- filename: microsoft-azure-getapikeys-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GetApiKeys API
+  slug: microsoft-azure-getapikeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-getapikeys-api-openapi.yml
+- filename: microsoft-azure-getchange-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GetChange API
+  slug: microsoft-azure-getchange-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-getchange-api-openapi.yml
+- filename: microsoft-azure-getoperationresult-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GetOperationResult API
+  slug: microsoft-azure-getoperationresult-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-getoperationresult-api-openapi.yml
+- filename: microsoft-azure-getprivatednszonesuffix-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GetPrivateDnsZoneSuffix API
+  slug: microsoft-azure-getprivatednszonesuffix-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-getprivatednszonesuffix-api-openapi.yml
+- filename: microsoft-azure-getsnapshot-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GetSnapshot API
+  slug: microsoft-azure-getsnapshot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-getsnapshot-api-openapi.yml
+- filename: microsoft-azure-githuboauth-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GitHubOAuth API
+  slug: microsoft-azure-githuboauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-githuboauth-api-openapi.yml
+- filename: microsoft-azure-global-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Global API
+  slug: microsoft-azure-global-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-global-api-openapi.yml
+- filename: microsoft-azure-global-communications-site-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Global Communications Site API
+  slug: microsoft-azure-global-communications-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-global-communications-site-api-openapi.yml
+- filename: microsoft-azure-globalcertificateorder-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GlobalCertificateOrder API
+  slug: microsoft-azure-globalcertificateorder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-globalcertificateorder-api-openapi.yml
+- filename: microsoft-azure-globaldomainregistration-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GlobalDomainRegistration API
+  slug: microsoft-azure-globaldomainregistration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-globaldomainregistration-api-openapi.yml
+- filename: microsoft-azure-globalreachconnections-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GlobalReachConnections API
+  slug: microsoft-azure-globalreachconnections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-globalreachconnections-api-openapi.yml
+- filename: microsoft-azure-globalresourcegroups-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GlobalResourceGroups API
+  slug: microsoft-azure-globalresourcegroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-globalresourcegroups-api-openapi.yml
+- filename: microsoft-azure-globalrulestack-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GlobalRulestack API
+  slug: microsoft-azure-globalrulestack-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-globalrulestack-api-openapi.yml
+- filename: microsoft-azure-globalschedules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GlobalSchedules API
+  slug: microsoft-azure-globalschedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-globalschedules-api-openapi.yml
+- filename: microsoft-azure-globalusers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GlobalUsers API
+  slug: microsoft-azure-globalusers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-globalusers-api-openapi.yml
+- filename: microsoft-azure-glossary-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Glossary API
+  slug: microsoft-azure-glossary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-glossary-api-openapi.yml
+- filename: microsoft-azure-gov-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Gov API
+  slug: microsoft-azure-gov-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-gov-api-openapi.yml
+- filename: microsoft-azure-grafanaresource-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GrafanaResource API
+  slug: microsoft-azure-grafanaresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-grafanaresource-api-openapi.yml
+- filename: microsoft-azure-grants-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Grants API
+  slug: microsoft-azure-grants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-grants-api-openapi.yml
+- filename: microsoft-azure-graphquery-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GraphQuery API
+  slug: microsoft-azure-graphquery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-graphquery-api-openapi.yml
+- filename: microsoft-azure-ground-station-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Ground Station API
+  slug: microsoft-azure-ground-station-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-ground-station-api-openapi.yml
+- filename: microsoft-azure-group-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Group API
+  slug: microsoft-azure-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-group-api-openapi.yml
+- filename: microsoft-azure-group-id-list-for-ldap-user-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Group ID List for LDAP User API
+  slug: microsoft-azure-group-id-list-for-ldap-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-group-id-list-for-ldap-user-api-openapi.yml
+- filename: microsoft-azure-groupowners-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GroupOwners API
+  slug: microsoft-azure-groupowners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-groupowners-api-openapi.yml
+- filename: microsoft-azure-groupsoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GroupsOperations API
+  slug: microsoft-azure-groupsoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-groupsoperations-api-openapi.yml
+- filename: microsoft-azure-groupsowners-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GroupsOwners API
+  slug: microsoft-azure-groupsowners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-groupsowners-api-openapi.yml
+- filename: microsoft-azure-groupuser-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GroupUser API
+  slug: microsoft-azure-groupuser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-groupuser-api-openapi.yml
+- filename: microsoft-azure-guestagents-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GuestAgents API
+  slug: microsoft-azure-guestagents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-guestagents-api-openapi.yml
+- filename: microsoft-azure-guestconfigurationassignmenthcrpreports-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GuestConfigurationAssignmentHCRPReports API
+  slug: microsoft-azure-guestconfigurationassignmenthcrpreports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-guestconfigurationassignmenthcrpreports-api-openapi.yml
+- filename: microsoft-azure-guestconfigurationassignmentreports-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GuestConfigurationAssignmentReports API
+  slug: microsoft-azure-guestconfigurationassignmentreports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-guestconfigurationassignmentreports-api-openapi.yml
+- filename: microsoft-azure-guestconfigurationassignments-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GuestConfigurationAssignments API
+  slug: microsoft-azure-guestconfigurationassignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-guestconfigurationassignments-api-openapi.yml
+- filename: microsoft-azure-guestconfigurationconnectedvmwarevsphereassignments-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GuestConfigurationConnectedVMwarevSphereAssignments API
+  slug: microsoft-azure-guestconfigurationconnectedvmwarevsphereassignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-guestconfigurationconnectedvmwarevsphereassignments-api-openapi.yml
+- filename: microsoft-azure-guestconfigurationconnectedvmwarevsphereassignmentsreports-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GuestConfigurationConnectedVMwarevSphereAssignmentsReports API
+  slug: microsoft-azure-guestconfigurationconnectedvmwarevsphereassignmentsreports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-guestconfigurationconnectedvmwarevsphereassignmentsreports-api-openapi.yml
+- filename: microsoft-azure-guestconfigurationhcrpassignments-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GuestConfigurationHCRPAssignments API
+  slug: microsoft-azure-guestconfigurationhcrpassignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-guestconfigurationhcrpassignments-api-openapi.yml
+- filename: microsoft-azure-guestdiagnosticssettings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GuestDiagnosticsSettings API
+  slug: microsoft-azure-guestdiagnosticssettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-guestdiagnosticssettings-api-openapi.yml
+- filename: microsoft-azure-guestdiagnosticssettingsassociation-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GuestDiagnosticsSettingsAssociation API
+  slug: microsoft-azure-guestdiagnosticssettingsassociation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-guestdiagnosticssettingsassociation-api-openapi.yml
+- filename: microsoft-azure-guestusages-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure GuestUsages API
+  slug: microsoft-azure-guestusages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-guestusages-api-openapi.yml
+- filename: microsoft-azure-hanaonazure-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HanaOnAzure API
+  slug: microsoft-azure-hanaonazure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hanaonazure-api-openapi.yml
+- filename: microsoft-azure-hardwarecomponentgroups-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HardwareComponentGroups API
+  slug: microsoft-azure-hardwarecomponentgroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hardwarecomponentgroups-api-openapi.yml
+- filename: microsoft-azure-harvestdata-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HarvestData API
+  slug: microsoft-azure-harvestdata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-harvestdata-api-openapi.yml
+- filename: microsoft-azure-hcireports-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HCIReports API
+  slug: microsoft-azure-hcireports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hcireports-api-openapi.yml
+- filename: microsoft-azure-hcrpreports-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HCRPReports API
+  slug: microsoft-azure-hcrpreports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hcrpreports-api-openapi.yml
+- filename: microsoft-azure-hcxenterprisesites-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HcxEnterpriseSites API
+  slug: microsoft-azure-hcxenterprisesites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hcxenterprisesites-api-openapi.yml
+- filename: microsoft-azure-heatmaps-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HeatMaps API
+  slug: microsoft-azure-heatmaps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-heatmaps-api-openapi.yml
+- filename: microsoft-azure-hook-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Hook API
+  slug: microsoft-azure-hook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hook-api-openapi.yml
+- filename: microsoft-azure-hostingenvironments-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HostingEnvironments API
+  slug: microsoft-azure-hostingenvironments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hostingenvironments-api-openapi.yml
+- filename: microsoft-azure-hostpool-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HostPool API
+  slug: microsoft-azure-hostpool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hostpool-api-openapi.yml
+- filename: microsoft-azure-hosts-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Hosts API
+  slug: microsoft-azure-hosts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hosts-api-openapi.yml
+- filename: microsoft-azure-hubs-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Hubs API
+  slug: microsoft-azure-hubs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hubs-api-openapi.yml
+- filename: microsoft-azure-hybrid-use-benefit-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Hybrid Use Benefit API
+  slug: microsoft-azure-hybrid-use-benefit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hybrid-use-benefit-api-openapi.yml
+- filename: microsoft-azure-hybrid-use-benefit-revisions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Hybrid Use Benefit Revisions API
+  slug: microsoft-azure-hybrid-use-benefit-revisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hybrid-use-benefit-revisions-api-openapi.yml
+- filename: microsoft-azure-hybrid-use-benefits-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Hybrid Use Benefits API
+  slug: microsoft-azure-hybrid-use-benefits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hybrid-use-benefits-api-openapi.yml
+- filename: microsoft-azure-hybrididentitymetadata-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HybridIdentityMetadata API
+  slug: microsoft-azure-hybrididentitymetadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hybrididentitymetadata-api-openapi.yml
+- filename: microsoft-azure-hyperdriveexperiment-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HyperDriveExperiment API
+  slug: microsoft-azure-hyperdriveexperiment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hyperdriveexperiment-api-openapi.yml
+- filename: microsoft-azure-hypervclustercontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HypervClusterController API
+  slug: microsoft-azure-hypervclustercontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hypervclustercontroller-api-openapi.yml
+- filename: microsoft-azure-hypervcollectorsoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HypervCollectorsOperations API
+  slug: microsoft-azure-hypervcollectorsoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hypervcollectorsoperations-api-openapi.yml
+- filename: microsoft-azure-hypervdependencymapcontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HypervDependencyMapController API
+  slug: microsoft-azure-hypervdependencymapcontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hypervdependencymapcontroller-api-openapi.yml
+- filename: microsoft-azure-hypervhostcontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HypervHostController API
+  slug: microsoft-azure-hypervhostcontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hypervhostcontroller-api-openapi.yml
+- filename: microsoft-azure-hypervjobs-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HypervJobs API
+  slug: microsoft-azure-hypervjobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hypervjobs-api-openapi.yml
+- filename: microsoft-azure-hypervjobscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HypervJobsController API
+  slug: microsoft-azure-hypervjobscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hypervjobscontroller-api-openapi.yml
+- filename: microsoft-azure-hypervmachinescontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HypervMachinesController API
+  slug: microsoft-azure-hypervmachinescontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hypervmachinescontroller-api-openapi.yml
+- filename: microsoft-azure-hypervoperationsstatuscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HypervOperationsStatusController API
+  slug: microsoft-azure-hypervoperationsstatuscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hypervoperationsstatuscontroller-api-openapi.yml
+- filename: microsoft-azure-hypervrunasaccountscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HypervRunAsAccountsController API
+  slug: microsoft-azure-hypervrunasaccountscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hypervrunasaccountscontroller-api-openapi.yml
+- filename: microsoft-azure-hypervsites-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HypervSites API
+  slug: microsoft-azure-hypervsites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hypervsites-api-openapi.yml
+- filename: microsoft-azure-hypervsitescontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HypervSitesController API
+  slug: microsoft-azure-hypervsitescontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hypervsitescontroller-api-openapi.yml
+- filename: microsoft-azure-hypervsoftwareinventoriescontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure HypervSoftwareInventoriesController API
+  slug: microsoft-azure-hypervsoftwareinventoriescontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-hypervsoftwareinventoriescontroller-api-openapi.yml
+- filename: microsoft-azure-identify-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Identify API
+  slug: microsoft-azure-identify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-identify-api-openapi.yml
+- filename: microsoft-azure-identity-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Identity API
+  slug: microsoft-azure-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-identity-api-openapi.yml
+- filename: microsoft-azure-iiswebapplicationscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure IisWebApplicationsController API
+  slug: microsoft-azure-iiswebapplicationscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-iiswebapplicationscontroller-api-openapi.yml
+- filename: microsoft-azure-iiswebserverscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure IisWebServersController API
+  slug: microsoft-azure-iiswebserverscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-iiswebserverscontroller-api-openapi.yml
+- filename: microsoft-azure-image-analyze-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Image:analyze API
+  slug: microsoft-azure-image-analyze-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-image-analyze-api-openapi.yml
+- filename: microsoft-azure-imageanalysis-analyze-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Imageanalysis:analyze API
+  slug: microsoft-azure-imageanalysis-analyze-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-imageanalysis-analyze-api-openapi.yml
+- filename: microsoft-azure-imageapi-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ImageApi API
+  slug: microsoft-azure-imageapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-imageapi-api-openapi.yml
+- filename: microsoft-azure-imagedetailsearch-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ImageDetailSearch API
+  slug: microsoft-azure-imagedetailsearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-imagedetailsearch-api-openapi.yml
+- filename: microsoft-azure-imagemoderation-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ImageModeration API
+  slug: microsoft-azure-imagemoderation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-imagemoderation-api-openapi.yml
+- filename: microsoft-azure-imagepredictionapi-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ImagePredictionApi API
+  slug: microsoft-azure-imagepredictionapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-imagepredictionapi-api-openapi.yml
+- filename: microsoft-azure-imageprocessing-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ImageProcessing API
+  slug: microsoft-azure-imageprocessing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-imageprocessing-api-openapi.yml
+- filename: microsoft-azure-imageregionproposalapi-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ImageRegionProposalApi API
+  slug: microsoft-azure-imageregionproposalapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-imageregionproposalapi-api-openapi.yml
+- filename: microsoft-azure-imageretrieval-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ImageRetrieval API
+  slug: microsoft-azure-imageretrieval-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-imageretrieval-api-openapi.yml
+- filename: microsoft-azure-images-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Images API
+  slug: microsoft-azure-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-images-api-openapi.yml
+- filename: microsoft-azure-imagesearch-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ImageSearch API
+  slug: microsoft-azure-imagesearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-imagesearch-api-openapi.yml
+- filename: microsoft-azure-imagestore-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ImageStore API
+  slug: microsoft-azure-imagestore-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-imagestore-api-openapi.yml
+- filename: microsoft-azure-imagetrendingsearch-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ImageTrendingSearch API
+  slug: microsoft-azure-imagetrendingsearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-imagetrendingsearch-api-openapi.yml
+- filename: microsoft-azure-imagevisualsearch-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ImageVisualSearch API
+  slug: microsoft-azure-imagevisualsearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-imagevisualsearch-api-openapi.yml
+- filename: microsoft-azure-importcollectorsoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ImportCollectorsOperations API
+  slug: microsoft-azure-importcollectorsoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-importcollectorsoperations-api-openapi.yml
+- filename: microsoft-azure-importexport-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ImportExport API
+  slug: microsoft-azure-importexport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-importexport-api-openapi.yml
+- filename: microsoft-azure-importjobs-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ImportJobs API
+  slug: microsoft-azure-importjobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-importjobs-api-openapi.yml
+- filename: microsoft-azure-importjobscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ImportJobsController API
+  slug: microsoft-azure-importjobscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-importjobscontroller-api-openapi.yml
+- filename: microsoft-azure-importmachinescontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ImportMachinesController API
+  slug: microsoft-azure-importmachinescontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-importmachinescontroller-api-openapi.yml
+- filename: microsoft-azure-importsitescontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ImportSitesController API
+  slug: microsoft-azure-importsitescontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-importsitescontroller-api-openapi.yml
+- filename: microsoft-azure-inboundendpoints-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure InboundEndpoints API
+  slug: microsoft-azure-inboundendpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-inboundendpoints-api-openapi.yml
+- filename: microsoft-azure-indexers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Indexers API
+  slug: microsoft-azure-indexers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-indexers-api-openapi.yml
+- filename: microsoft-azure-indexes-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Indexes API
+  slug: microsoft-azure-indexes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-indexes-api-openapi.yml
+- filename: microsoft-azure-individualenrollment-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure IndividualEnrollment API
+  slug: microsoft-azure-individualenrollment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-individualenrollment-api-openapi.yml
+- filename: microsoft-azure-info-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Info API
+  slug: microsoft-azure-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-info-api-openapi.yml
+- filename: microsoft-azure-infrastructure-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Infrastructure API
+  slug: microsoft-azure-infrastructure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-infrastructure-api-openapi.yml
+- filename: microsoft-azure-infrastructureresources-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure InfrastructureResources API
+  slug: microsoft-azure-infrastructureresources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-infrastructureresources-api-openapi.yml
+- filename: microsoft-azure-ingestion-api-openapi.yml
+  format: yaml
+  label: 'Microsoft Azure Ingestion: API'
+  slug: microsoft-azure-ingestion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-ingestion-api-openapi.yml
+- filename: microsoft-azure-ingestionjob-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure IngestionJob API
+  slug: microsoft-azure-ingestionjob-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-ingestionjob-api-openapi.yml
+- filename: microsoft-azure-ingestionstatus-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure IngestionStatus API
+  slug: microsoft-azure-ingestionstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-ingestionstatus-api-openapi.yml
+- filename: microsoft-azure-insightattachments-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure InsightAttachments API
+  slug: microsoft-azure-insightattachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-insightattachments-api-openapi.yml
+- filename: microsoft-azure-insights-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Insights API
+  slug: microsoft-azure-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-insights-api-openapi.yml
+- filename: microsoft-azure-instance-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Instance API
+  slug: microsoft-azure-instance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-instance-api-openapi.yml
+- filename: microsoft-azure-instances-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Instances API
+  slug: microsoft-azure-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-instances-api-openapi.yml
+- filename: microsoft-azure-integrationaccountagreements-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure IntegrationAccountAgreements API
+  slug: microsoft-azure-integrationaccountagreements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-integrationaccountagreements-api-openapi.yml
+- filename: microsoft-azure-integrationaccountassemblies-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure IntegrationAccountAssemblies API
+  slug: microsoft-azure-integrationaccountassemblies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-integrationaccountassemblies-api-openapi.yml
+- filename: microsoft-azure-integrationaccountbatchconfigurations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure IntegrationAccountBatchConfigurations API
+  slug: microsoft-azure-integrationaccountbatchconfigurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-integrationaccountbatchconfigurations-api-openapi.yml
+- filename: microsoft-azure-integrationaccountcertificates-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure IntegrationAccountCertificates API
+  slug: microsoft-azure-integrationaccountcertificates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-integrationaccountcertificates-api-openapi.yml
+- filename: microsoft-azure-integrationaccountmaps-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure IntegrationAccountMaps API
+  slug: microsoft-azure-integrationaccountmaps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-integrationaccountmaps-api-openapi.yml
+- filename: microsoft-azure-integrationaccountpartners-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure IntegrationAccountPartners API
+  slug: microsoft-azure-integrationaccountpartners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-integrationaccountpartners-api-openapi.yml
+- filename: microsoft-azure-integrationaccounts-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure IntegrationAccounts API
+  slug: microsoft-azure-integrationaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-integrationaccounts-api-openapi.yml
+- filename: microsoft-azure-integrationaccountschemas-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure IntegrationAccountSchemas API
+  slug: microsoft-azure-integrationaccountschemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-integrationaccountschemas-api-openapi.yml
+- filename: microsoft-azure-integrationaccountsessions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure IntegrationAccountSessions API
+  slug: microsoft-azure-integrationaccountsessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-integrationaccountsessions-api-openapi.yml
+- filename: microsoft-azure-integrationruntimes-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure IntegrationRuntimes API
+  slug: microsoft-azure-integrationruntimes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-integrationruntimes-api-openapi.yml
+- filename: microsoft-azure-interactions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Interactions API
+  slug: microsoft-azure-interactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-interactions-api-openapi.yml
+- filename: microsoft-azure-inventoryitems-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure InventoryItems API
+  slug: microsoft-azure-inventoryitems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-inventoryitems-api-openapi.yml
+- filename: microsoft-azure-invitation-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Invitation API
+  slug: microsoft-azure-invitation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-invitation-api-openapi.yml
+- filename: microsoft-azure-invoices-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Invoices API
+  slug: microsoft-azure-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-invoices-api-openapi.yml
+- filename: microsoft-azure-iotdpsresource-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure IotDpsResource API
+  slug: microsoft-azure-iotdpsresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-iotdpsresource-api-openapi.yml
+- filename: microsoft-azure-iscsidisks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure IscsiDisks API
+  slug: microsoft-azure-iscsidisks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-iscsidisks-api-openapi.yml
+- filename: microsoft-azure-iscsiservers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure IscsiServers API
+  slug: microsoft-azure-iscsiservers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-iscsiservers-api-openapi.yml
+- filename: microsoft-azure-iscsitargets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure IscsiTargets API
+  slug: microsoft-azure-iscsitargets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-iscsitargets-api-openapi.yml
+- filename: microsoft-azure-itemlevelrecoveryconnections-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ItemLevelRecoveryConnections API
+  slug: microsoft-azure-itemlevelrecoveryconnections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-itemlevelrecoveryconnections-api-openapi.yml
+- filename: microsoft-azure-items-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Items API
+  slug: microsoft-azure-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-items-api-openapi.yml
+- filename: microsoft-azure-jitrequests-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure JitRequests API
+  slug: microsoft-azure-jitrequests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-jitrequests-api-openapi.yml
+- filename: microsoft-azure-job-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Job API
+  slug: microsoft-azure-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-job-api-openapi.yml
+- filename: microsoft-azure-jobcancellations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure JobCancellations API
+  slug: microsoft-azure-jobcancellations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-jobcancellations-api-openapi.yml
+- filename: microsoft-azure-jobcollections-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure JobCollections API
+  slug: microsoft-azure-jobcollections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-jobcollections-api-openapi.yml
+- filename: microsoft-azure-jobdefinitions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure JobDefinitions API
+  slug: microsoft-azure-jobdefinitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-jobdefinitions-api-openapi.yml
+- filename: microsoft-azure-jobdetails-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure JobDetails API
+  slug: microsoft-azure-jobdetails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-jobdetails-api-openapi.yml
+- filename: microsoft-azure-joboperationresults-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure JobOperationResults API
+  slug: microsoft-azure-joboperationresults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-joboperationresults-api-openapi.yml
+- filename: microsoft-azure-jobruns-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure JobRuns API
+  slug: microsoft-azure-jobruns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-jobruns-api-openapi.yml
+- filename: microsoft-azure-jobs-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Jobs API
+  slug: microsoft-azure-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-jobs-api-openapi.yml
+- filename: microsoft-azure-jobschedules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Jobschedules API
+  slug: microsoft-azure-jobschedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-jobschedules-api-openapi.yml
+- filename: microsoft-azure-joinrequest-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure JoinRequest API
+  slug: microsoft-azure-joinrequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-joinrequest-api-openapi.yml
+- filename: microsoft-azure-kafkaconnector-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure KafkaConnector API
+  slug: microsoft-azure-kafkaconnector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-kafkaconnector-api-openapi.yml
+- filename: microsoft-azure-kafkaconnectortopicmap-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure KafkaConnectorTopicMap API
+  slug: microsoft-azure-kafkaconnectortopicmap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-kafkaconnectortopicmap-api-openapi.yml
+- filename: microsoft-azure-key-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Key API
+  slug: microsoft-azure-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-key-api-openapi.yml
+- filename: microsoft-azure-keyphrases-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure keyPhrases API
+  slug: microsoft-azure-keyphrases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-keyphrases-api-openapi.yml
+- filename: microsoft-azure-keys-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Keys API
+  slug: microsoft-azure-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-keys-api-openapi.yml
+- filename: microsoft-azure-keyvalues-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure KeyValues API
+  slug: microsoft-azure-keyvalues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-keyvalues-api-openapi.yml
+- filename: microsoft-azure-keyvault-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure KeyVault API
+  slug: microsoft-azure-keyvault-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-keyvault-api-openapi.yml
+- filename: microsoft-azure-knowledgebases-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Knowledgebases API
+  slug: microsoft-azure-knowledgebases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-knowledgebases-api-openapi.yml
+- filename: microsoft-azure-kpi-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Kpi API
+  slug: microsoft-azure-kpi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-kpi-api-openapi.yml
+- filename: microsoft-azure-kubeenvironments-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure KubeEnvironments API
+  slug: microsoft-azure-kubeenvironments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-kubeenvironments-api-openapi.yml
+- filename: microsoft-azure-l2-connection-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure L2 Connection API
+  slug: microsoft-azure-l2-connection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-l2-connection-api-openapi.yml
+- filename: microsoft-azure-labaccounts-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure LabAccounts API
+  slug: microsoft-azure-labaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-labaccounts-api-openapi.yml
+- filename: microsoft-azure-labels-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Labels API
+  slug: microsoft-azure-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-labels-api-openapi.yml
+- filename: microsoft-azure-labs-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Labs API
+  slug: microsoft-azure-labs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-labs-api-openapi.yml
+- filename: microsoft-azure-languages-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Languages API
+  slug: microsoft-azure-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-languages-api-openapi.yml
+- filename: microsoft-azure-largefacelists-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Largefacelists API
+  slug: microsoft-azure-largefacelists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-largefacelists-api-openapi.yml
+- filename: microsoft-azure-largepersongroups-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Largepersongroups API
+  slug: microsoft-azure-largepersongroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-largepersongroups-api-openapi.yml
+- filename: microsoft-azure-layout-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Layout API
+  slug: microsoft-azure-layout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-layout-api-openapi.yml
+- filename: microsoft-azure-ledgeridentity-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ledgerIdentity API
+  slug: microsoft-azure-ledgeridentity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-ledgeridentity-api-openapi.yml
+- filename: microsoft-azure-legacypeerings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure LegacyPeerings API
+  slug: microsoft-azure-legacypeerings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-legacypeerings-api-openapi.yml
+- filename: microsoft-azure-lineage-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Lineage API
+  slug: microsoft-azure-lineage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-lineage-api-openapi.yml
+- filename: microsoft-azure-linkedresources-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure LinkedResources API
+  slug: microsoft-azure-linkedresources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-linkedresources-api-openapi.yml
+- filename: microsoft-azure-linkers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Linkers API
+  slug: microsoft-azure-linkers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-linkers-api-openapi.yml
+- filename: microsoft-azure-links-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Links API
+  slug: microsoft-azure-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-links-api-openapi.yml
+- filename: microsoft-azure-listchanges-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ListChanges API
+  slug: microsoft-azure-listchanges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-listchanges-api-openapi.yml
+- filename: microsoft-azure-listmanagementimage-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ListManagementImage API
+  slug: microsoft-azure-listmanagementimage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-listmanagementimage-api-openapi.yml
+- filename: microsoft-azure-listmanagementimagelists-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ListManagementImageLists API
+  slug: microsoft-azure-listmanagementimagelists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-listmanagementimagelists-api-openapi.yml
+- filename: microsoft-azure-listmanagementterm-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ListManagementTerm API
+  slug: microsoft-azure-listmanagementterm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-listmanagementterm-api-openapi.yml
+- filename: microsoft-azure-listmanagementtermlists-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ListManagementTermLists API
+  slug: microsoft-azure-listmanagementtermlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-listmanagementtermlists-api-openapi.yml
+- filename: microsoft-azure-listqnamakerendpointkeys-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ListQnAMakerEndpointKeys API
+  slug: microsoft-azure-listqnamakerendpointkeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-listqnamakerendpointkeys-api-openapi.yml
+- filename: microsoft-azure-listserviceproviders-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ListServiceProviders API
+  slug: microsoft-azure-listserviceproviders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-listserviceproviders-api-openapi.yml
+- filename: microsoft-azure-listsnapshots-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ListSnapshots API
+  slug: microsoft-azure-listsnapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-listsnapshots-api-openapi.yml
+- filename: microsoft-azure-loadbalancers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure LoadBalancers API
+  slug: microsoft-azure-loadbalancers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-loadbalancers-api-openapi.yml
+- filename: microsoft-azure-loadtests-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure LoadTests API
+  slug: microsoft-azure-loadtests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-loadtests-api-openapi.yml
+- filename: microsoft-azure-localnetworkgateways-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure LocalNetworkGateways API
+  slug: microsoft-azure-localnetworkgateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-localnetworkgateways-api-openapi.yml
+- filename: microsoft-azure-localrules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure LocalRules API
+  slug: microsoft-azure-localrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-localrules-api-openapi.yml
+- filename: microsoft-azure-localrulestacks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure LocalRulestacks API
+  slug: microsoft-azure-localrulestacks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-localrulestacks-api-openapi.yml
+- filename: microsoft-azure-localsearch-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure LocalSearch API
+  slug: microsoft-azure-localsearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-localsearch-api-openapi.yml
+- filename: microsoft-azure-location-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Location API
+  slug: microsoft-azure-location-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-location-api-openapi.yml
+- filename: microsoft-azure-locationbasedcapabilities-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure LocationBasedCapabilities API
+  slug: microsoft-azure-locationbasedcapabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-locationbasedcapabilities-api-openapi.yml
+- filename: microsoft-azure-locationbasedcapability-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure LocationBasedCapability API
+  slug: microsoft-azure-locationbasedcapability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-locationbasedcapability-api-openapi.yml
+- filename: microsoft-azure-locationbasedperformancetier-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure LocationBasedPerformanceTier API
+  slug: microsoft-azure-locationbasedperformancetier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-locationbasedperformancetier-api-openapi.yml
+- filename: microsoft-azure-locationbasedrecommendedactionsessionsoperationstatus-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure LocationBasedRecommendedActionSessionsOperationStatus API
+  slug: microsoft-azure-locationbasedrecommendedactionsessionsoperationstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-locationbasedrecommendedactionsessionsoperationstatus-api-openapi.yml
+- filename: microsoft-azure-locationbasedrecommendedactionsessionsresult-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure LocationBasedRecommendedActionSessionsResult API
+  slug: microsoft-azure-locationbasedrecommendedactionsessionsresult-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-locationbasedrecommendedactionsessionsresult-api-openapi.yml
+- filename: microsoft-azure-locations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Locations API
+  slug: microsoft-azure-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-locations-api-openapi.yml
+- filename: microsoft-azure-locationusage-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure LocationUsage API
+  slug: microsoft-azure-locationusage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-locationusage-api-openapi.yml
+- filename: microsoft-azure-locks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Locks API
+  slug: microsoft-azure-locks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-locks-api-openapi.yml
+- filename: microsoft-azure-logfiles-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure LogFiles API
+  slug: microsoft-azure-logfiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-logfiles-api-openapi.yml
+- filename: microsoft-azure-logsv1dot1preview2-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure LogsV1Dot1Preview2 API
+  slug: microsoft-azure-logsv1dot1preview2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-logsv1dot1preview2-api-openapi.yml
+- filename: microsoft-azure-long-running-operations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Long Running Operations API
+  slug: microsoft-azure-long-running-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-long-running-operations-api-openapi.yml
+- filename: microsoft-azure-machineextensions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MachineExtensions API
+  slug: microsoft-azure-machineextensions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-machineextensions-api-openapi.yml
+- filename: microsoft-azure-machineextensions-upgrade-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MachineExtensions Upgrade API
+  slug: microsoft-azure-machineextensions-upgrade-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-machineextensions-upgrade-api-openapi.yml
+- filename: microsoft-azure-machinegroups-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MachineGroups API
+  slug: microsoft-azure-machinegroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-machinegroups-api-openapi.yml
+- filename: microsoft-azure-machinelearningcomputeoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MachineLearningComputeOperations API
+  slug: microsoft-azure-machinelearningcomputeoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-machinelearningcomputeoperations-api-openapi.yml
+- filename: microsoft-azure-machines-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Machines API
+  slug: microsoft-azure-machines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-machines-api-openapi.yml
+- filename: microsoft-azure-machinescontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MachinesController API
+  slug: microsoft-azure-machinescontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-machinescontroller-api-openapi.yml
+- filename: microsoft-azure-machinesoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MachinesOperations API
+  slug: microsoft-azure-machinesoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-machinesoperations-api-openapi.yml
+- filename: microsoft-azure-maintenanceconfigurations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MaintenanceConfigurations API
+  slug: microsoft-azure-maintenanceconfigurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-maintenanceconfigurations-api-openapi.yml
+- filename: microsoft-azure-manage-purchased-phone-numbers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Manage Purchased Phone Numbers API
+  slug: microsoft-azure-manage-purchased-phone-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-manage-purchased-phone-numbers-api-openapi.yml
+- filename: microsoft-azure-managed-apis-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Managed APIs API
+  slug: microsoft-azure-managed-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-managed-apis-api-openapi.yml
+- filename: microsoft-azure-managed-ccf-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Managed CCF API
+  slug: microsoft-azure-managed-ccf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-managed-ccf-api-openapi.yml
+- filename: microsoft-azure-managed-clusters-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Managed Clusters API
+  slug: microsoft-azure-managed-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-managed-clusters-api-openapi.yml
+- filename: microsoft-azure-managedhostingenvironments-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ManagedHostingEnvironments API
+  slug: microsoft-azure-managedhostingenvironments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-managedhostingenvironments-api-openapi.yml
+- filename: microsoft-azure-managednetwork-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ManagedNetwork API
+  slug: microsoft-azure-managednetwork-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-managednetwork-api-openapi.yml
+- filename: microsoft-azure-managednetworkgroups-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ManagedNetworkGroups API
+  slug: microsoft-azure-managednetworkgroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-managednetworkgroups-api-openapi.yml
+- filename: microsoft-azure-managednetworkpeeringpolicies-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ManagedNetworkPeeringPolicies API
+  slug: microsoft-azure-managednetworkpeeringpolicies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-managednetworkpeeringpolicies-api-openapi.yml
+- filename: microsoft-azure-managednetworks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ManagedNetworks API
+  slug: microsoft-azure-managednetworks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-managednetworks-api-openapi.yml
+- filename: microsoft-azure-managedprivateendpoints-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ManagedPrivateEndpoints API
+  slug: microsoft-azure-managedprivateendpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-managedprivateendpoints-api-openapi.yml
+- filename: microsoft-azure-managedvirtualnetworks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ManagedVirtualNetworks API
+  slug: microsoft-azure-managedvirtualnetworks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-managedvirtualnetworks-api-openapi.yml
+- filename: microsoft-azure-managementassociation-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ManagementAssociation API
+  slug: microsoft-azure-managementassociation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-managementassociation-api-openapi.yml
+- filename: microsoft-azure-managementconfiguration-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ManagementConfiguration API
+  slug: microsoft-azure-managementconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-managementconfiguration-api-openapi.yml
+- filename: microsoft-azure-managementgroups-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ManagementGroups API
+  slug: microsoft-azure-managementgroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-managementgroups-api-openapi.yml
+- filename: microsoft-azure-managementlocks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ManagementLocks API
+  slug: microsoft-azure-managementlocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-managementlocks-api-openapi.yml
+- filename: microsoft-azure-managementzones-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ManagementZones API
+  slug: microsoft-azure-managementzones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-managementzones-api-openapi.yml
+- filename: microsoft-azure-managers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Managers API
+  slug: microsoft-azure-managers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-managers-api-openapi.yml
+- filename: microsoft-azure-manifest-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Manifest API
+  slug: microsoft-azure-manifest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-manifest-api-openapi.yml
+- filename: microsoft-azure-manifests-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Manifests API
+  slug: microsoft-azure-manifests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-manifests-api-openapi.yml
+- filename: microsoft-azure-map-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Map API
+  slug: microsoft-azure-map-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-map-api-openapi.yml
+- filename: microsoft-azure-mapdata-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure mapData API
+  slug: microsoft-azure-mapdata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-mapdata-api-openapi.yml
+- filename: microsoft-azure-maps-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Maps API
+  slug: microsoft-azure-maps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-maps-api-openapi.yml
+- filename: microsoft-azure-marketplaceimageoffer-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MarketplaceImageOffer API
+  slug: microsoft-azure-marketplaceimageoffer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-marketplaceimageoffer-api-openapi.yml
+- filename: microsoft-azure-marketplaceimagepublisher-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MarketplaceImagePublisher API
+  slug: microsoft-azure-marketplaceimagepublisher-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-marketplaceimagepublisher-api-openapi.yml
+- filename: microsoft-azure-marketplaceimagesastoken-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MarketplaceImageSasToken API
+  slug: microsoft-azure-marketplaceimagesastoken-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-marketplaceimagesastoken-api-openapi.yml
+- filename: microsoft-azure-marketplaceimagesku-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MarketplaceImageSku API
+  slug: microsoft-azure-marketplaceimagesku-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-marketplaceimagesku-api-openapi.yml
+- filename: microsoft-azure-marketplaceimageversion-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MarketplaceImageVersion API
+  slug: microsoft-azure-marketplaceimageversion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-marketplaceimageversion-api-openapi.yml
+- filename: microsoft-azure-marketplaces-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Marketplaces API
+  slug: microsoft-azure-marketplaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-marketplaces-api-openapi.yml
+- filename: microsoft-azure-mastersitescontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MasterSitesController API
+  slug: microsoft-azure-mastersitescontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-mastersitescontroller-api-openapi.yml
+- filename: microsoft-azure-mastersitesoperationsstatuscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MasterSitesOperationsStatusController API
+  slug: microsoft-azure-mastersitesoperationsstatuscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-mastersitesoperationsstatuscontroller-api-openapi.yml
+- filename: microsoft-azure-mediacomposition-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MediaComposition API
+  slug: microsoft-azure-mediacomposition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-mediacomposition-api-openapi.yml
+- filename: microsoft-azure-meshapplications-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MeshApplications API
+  slug: microsoft-azure-meshapplications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-meshapplications-api-openapi.yml
+- filename: microsoft-azure-meshcodepackages-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MeshCodePackages API
+  slug: microsoft-azure-meshcodepackages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-meshcodepackages-api-openapi.yml
+- filename: microsoft-azure-meshgateways-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MeshGateways API
+  slug: microsoft-azure-meshgateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-meshgateways-api-openapi.yml
+- filename: microsoft-azure-meshnetworks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MeshNetworks API
+  slug: microsoft-azure-meshnetworks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-meshnetworks-api-openapi.yml
+- filename: microsoft-azure-meshsecrets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MeshSecrets API
+  slug: microsoft-azure-meshsecrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-meshsecrets-api-openapi.yml
+- filename: microsoft-azure-meshsecretvalues-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MeshSecretValues API
+  slug: microsoft-azure-meshsecretvalues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-meshsecretvalues-api-openapi.yml
+- filename: microsoft-azure-meshservicereplicas-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MeshServiceReplicas API
+  slug: microsoft-azure-meshservicereplicas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-meshservicereplicas-api-openapi.yml
+- filename: microsoft-azure-meshservices-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MeshServices API
+  slug: microsoft-azure-meshservices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-meshservices-api-openapi.yml
+- filename: microsoft-azure-meshvolumes-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MeshVolumes API
+  slug: microsoft-azure-meshvolumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-meshvolumes-api-openapi.yml
+- filename: microsoft-azure-messages-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Messages API
+  slug: microsoft-azure-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-messages-api-openapi.yml
+- filename: microsoft-azure-metadata-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Metadata API
+  slug: microsoft-azure-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-metadata-api-openapi.yml
+- filename: microsoft-azure-metadatapolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MetadataPolicy API
+  slug: microsoft-azure-metadatapolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-metadatapolicy-api-openapi.yml
+- filename: microsoft-azure-metadataroles-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MetadataRoles API
+  slug: microsoft-azure-metadataroles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-metadataroles-api-openapi.yml
+- filename: microsoft-azure-metric-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Metric API
+  slug: microsoft-azure-metric-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-metric-api-openapi.yml
+- filename: microsoft-azure-metricdefinitions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MetricDefinitions API
+  slug: microsoft-azure-metricdefinitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-metricdefinitions-api-openapi.yml
+- filename: microsoft-azure-metrics-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Metrics API
+  slug: microsoft-azure-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-metrics-api-openapi.yml
+- filename: microsoft-azure-microsoft-azure-azure-blob-storage-api-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Microsoft Azure Azure Blob Storage API API
+  slug: microsoft-azure-microsoft-azure-azure-blob-storage-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-microsoft-azure-azure-blob-storage-api-api-openapi.yml
+- filename: microsoft-azure-microsoft-azure-azure-ml-chat-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Microsoft Azure Azure ML Chat API
+  slug: microsoft-azure-microsoft-azure-azure-ml-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-microsoft-azure-azure-ml-chat-api-openapi.yml
+- filename: microsoft-azure-midconnections-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MidConnections API
+  slug: microsoft-azure-midconnections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-midconnections-api-openapi.yml
+- filename: microsoft-azure-migrateagent-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MigrateAgent API
+  slug: microsoft-azure-migrateagent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-migrateagent-api-openapi.yml
+- filename: microsoft-azure-migrateprojects-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MigrateProjects API
+  slug: microsoft-azure-migrateprojects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-migrateprojects-api-openapi.yml
+- filename: microsoft-azure-migrateprojectscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MigrateProjectsController API
+  slug: microsoft-azure-migrateprojectscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-migrateprojectscontroller-api-openapi.yml
+- filename: microsoft-azure-migrationrecoverypoints-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MigrationRecoveryPoints API
+  slug: microsoft-azure-migrationrecoverypoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-migrationrecoverypoints-api-openapi.yml
+- filename: microsoft-azure-migrationservices-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MigrationServices API
+  slug: microsoft-azure-migrationservices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-migrationservices-api-openapi.yml
+- filename: microsoft-azure-model-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Model API
+  slug: microsoft-azure-model-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-model-api-openapi.yml
+- filename: microsoft-azure-modelinference-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ModelInference API
+  slug: microsoft-azure-modelinference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-modelinference-api-openapi.yml
+- filename: microsoft-azure-modelmanagement-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Modelmanagement API
+  slug: microsoft-azure-modelmanagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-modelmanagement-api-openapi.yml
+- filename: microsoft-azure-models-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Models API
+  slug: microsoft-azure-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-models-api-openapi.yml
+- filename: microsoft-azure-modelv1dot1preview3-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ModelV1Dot1Preview3 API
+  slug: microsoft-azure-modelv1dot1preview3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-modelv1dot1preview3-api-openapi.yml
+- filename: microsoft-azure-modernizeproject-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ModernizeProject API
+  slug: microsoft-azure-modernizeproject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-modernizeproject-api-openapi.yml
+- filename: microsoft-azure-mongoclusteroperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MongoClusterOperations API
+  slug: microsoft-azure-mongoclusteroperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-mongoclusteroperations-api-openapi.yml
+- filename: microsoft-azure-mongoclusters-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MongoClusters API
+  slug: microsoft-azure-mongoclusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-mongoclusters-api-openapi.yml
+- filename: microsoft-azure-monitoredresources-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MonitoredResources API
+  slug: microsoft-azure-monitoredresources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-monitoredresources-api-openapi.yml
+- filename: microsoft-azure-monitoredsubscriptions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MonitoredSubscriptions API
+  slug: microsoft-azure-monitoredsubscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-monitoredsubscriptions-api-openapi.yml
+- filename: microsoft-azure-monitoring-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Monitoring API
+  slug: microsoft-azure-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-monitoring-api-openapi.yml
+- filename: microsoft-azure-monitoringconfig-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MonitoringConfig API
+  slug: microsoft-azure-monitoringconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-monitoringconfig-api-openapi.yml
+- filename: microsoft-azure-monitors-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Monitors API
+  slug: microsoft-azure-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-monitors-api-openapi.yml
+- filename: microsoft-azure-monitorsresource-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MonitorsResource API
+  slug: microsoft-azure-monitorsresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-monitorsresource-api-openapi.yml
+- filename: microsoft-azure-monitorupgradableversions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MonitorUpgradableVersions API
+  slug: microsoft-azure-monitorupgradableversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-monitorupgradableversions-api-openapi.yml
+- filename: microsoft-azure-movecollections-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MoveCollections API
+  slug: microsoft-azure-movecollections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-movecollections-api-openapi.yml
+- filename: microsoft-azure-moveresources-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MoveResources API
+  slug: microsoft-azure-moveresources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-moveresources-api-openapi.yml
+- filename: microsoft-azure-mq-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Mq API
+  slug: microsoft-azure-mq-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-mq-api-openapi.yml
+- filename: microsoft-azure-mqttbridgeconnector-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MqttBridgeConnector API
+  slug: microsoft-azure-mqttbridgeconnector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-mqttbridgeconnector-api-openapi.yml
+- filename: microsoft-azure-mqttbridgetopicmap-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MqttBridgeTopicMap API
+  slug: microsoft-azure-mqttbridgetopicmap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-mqttbridgetopicmap-api-openapi.yml
+- filename: microsoft-azure-msiximage-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MsixImage API
+  slug: microsoft-azure-msiximage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-msiximage-api-openapi.yml
+- filename: microsoft-azure-msixpackage-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MSIXPackage API
+  slug: microsoft-azure-msixpackage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-msixpackage-api-openapi.yml
+- filename: microsoft-azure-multipleactivationkeys-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MultipleActivationKeys API
+  slug: microsoft-azure-multipleactivationkeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-multipleactivationkeys-api-openapi.yml
+- filename: microsoft-azure-multislotevents-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MultiSlotEvents API
+  slug: microsoft-azure-multislotevents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-multislotevents-api-openapi.yml
+- filename: microsoft-azure-multislotrank-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure MultiSlotRank API
+  slug: microsoft-azure-multislotrank-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-multislotrank-api-openapi.yml
+- filename: microsoft-azure-multivariate-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Multivariate API
+  slug: microsoft-azure-multivariate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-multivariate-api-openapi.yml
+- filename: microsoft-azure-nameavailability-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NameAvailability API
+  slug: microsoft-azure-nameavailability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-nameavailability-api-openapi.yml
+- filename: microsoft-azure-namedvalue-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NamedValue API
+  slug: microsoft-azure-namedvalue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-namedvalue-api-openapi.yml
+- filename: microsoft-azure-namespaces-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Namespaces API
+  slug: microsoft-azure-namespaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-namespaces-api-openapi.yml
+- filename: microsoft-azure-netapp-accounts-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NetApp Accounts API
+  slug: microsoft-azure-netapp-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-netapp-accounts-api-openapi.yml
+- filename: microsoft-azure-netapp-resource-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NetApp Resource API
+  slug: microsoft-azure-netapp-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-netapp-resource-api-openapi.yml
+- filename: microsoft-azure-network-connections-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Network Connections API
+  slug: microsoft-azure-network-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-network-connections-api-openapi.yml
+- filename: microsoft-azure-network-settings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Network Settings API
+  slug: microsoft-azure-network-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-network-settings-api-openapi.yml
+- filename: microsoft-azure-networkexperimentprofiles-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NetworkExperimentProfiles API
+  slug: microsoft-azure-networkexperimentprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-networkexperimentprofiles-api-openapi.yml
+- filename: microsoft-azure-networkfunctions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NetworkFunctions API
+  slug: microsoft-azure-networkfunctions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-networkfunctions-api-openapi.yml
+- filename: microsoft-azure-networkgroupmemberships-list-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NetworkGroupMemberships_List API
+  slug: microsoft-azure-networkgroupmemberships-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-networkgroupmemberships-list-api-openapi.yml
+- filename: microsoft-azure-networkgroups-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NetworkGroups API
+  slug: microsoft-azure-networkgroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-networkgroups-api-openapi.yml
+- filename: microsoft-azure-networkinterfaces-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NetworkInterfaces API
+  slug: microsoft-azure-networkinterfaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-networkinterfaces-api-openapi.yml
+- filename: microsoft-azure-networkmanageractiveconfigurations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NetworkManagerActiveConfigurations API
+  slug: microsoft-azure-networkmanageractiveconfigurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-networkmanageractiveconfigurations-api-openapi.yml
+- filename: microsoft-azure-networkmanageractiveconnectivityconfigurations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NetworkManagerActiveConnectivityConfigurations API
+  slug: microsoft-azure-networkmanageractiveconnectivityconfigurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-networkmanageractiveconnectivityconfigurations-api-openapi.yml
+- filename: microsoft-azure-networkmanageractivesecurityuserrules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NetworkManagerActiveSecurityUserRules API
+  slug: microsoft-azure-networkmanageractivesecurityuserrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-networkmanageractivesecurityuserrules-api-openapi.yml
+- filename: microsoft-azure-networkmanagereffectiveconnectivityconfiguration-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NetworkManagerEffectiveConnectivityConfiguration API
+  slug: microsoft-azure-networkmanagereffectiveconnectivityconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-networkmanagereffectiveconnectivityconfiguration-api-openapi.yml
+- filename: microsoft-azure-networkmanagereffectivesecurityadminrules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NetworkManagerEffectiveSecurityAdminRules API
+  slug: microsoft-azure-networkmanagereffectivesecurityadminrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-networkmanagereffectivesecurityadminrules-api-openapi.yml
+- filename: microsoft-azure-networkmanagers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NetworkManagers API
+  slug: microsoft-azure-networkmanagers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-networkmanagers-api-openapi.yml
+- filename: microsoft-azure-networks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Networks API
+  slug: microsoft-azure-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-networks-api-openapi.yml
+- filename: microsoft-azure-networksecuritygroups-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NetworkSecurityGroups API
+  slug: microsoft-azure-networksecuritygroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-networksecuritygroups-api-openapi.yml
+- filename: microsoft-azure-networksecurityperimeterconfigurations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NetworkSecurityPerimeterConfigurations API
+  slug: microsoft-azure-networksecurityperimeterconfigurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-networksecurityperimeterconfigurations-api-openapi.yml
+- filename: microsoft-azure-networksecurityperimeters-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NetworkSecurityPerimeters API
+  slug: microsoft-azure-networksecurityperimeters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-networksecurityperimeters-api-openapi.yml
+- filename: microsoft-azure-newscategory-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NewsCategory API
+  slug: microsoft-azure-newscategory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-newscategory-api-openapi.yml
+- filename: microsoft-azure-newssearch-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NewsSearch API
+  slug: microsoft-azure-newssearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-newssearch-api-openapi.yml
+- filename: microsoft-azure-newstrendingtopics-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NewsTrendingTopics API
+  slug: microsoft-azure-newstrendingtopics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-newstrendingtopics-api-openapi.yml
+- filename: microsoft-azure-nginxcertificate-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NginxCertificate API
+  slug: microsoft-azure-nginxcertificate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-nginxcertificate-api-openapi.yml
+- filename: microsoft-azure-nginxconfiguration-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NginxConfiguration API
+  slug: microsoft-azure-nginxconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-nginxconfiguration-api-openapi.yml
+- filename: microsoft-azure-nginxdeployment-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NginxDeployment API
+  slug: microsoft-azure-nginxdeployment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-nginxdeployment-api-openapi.yml
+- filename: microsoft-azure-node-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Node API
+  slug: microsoft-azure-node-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-node-api-openapi.yml
+- filename: microsoft-azure-nodecounts-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Nodecounts API
+  slug: microsoft-azure-nodecounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-nodecounts-api-openapi.yml
+- filename: microsoft-azure-nodes-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Nodes API
+  slug: microsoft-azure-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-nodes-api-openapi.yml
+- filename: microsoft-azure-nodetype-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NodeType API
+  slug: microsoft-azure-nodetype-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-nodetype-api-openapi.yml
+- filename: microsoft-azure-notification-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Notification API
+  slug: microsoft-azure-notification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-notification-api-openapi.yml
+- filename: microsoft-azure-notificationchannels-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NotificationChannels API
+  slug: microsoft-azure-notificationchannels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-notificationchannels-api-openapi.yml
+- filename: microsoft-azure-notificationhubs-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NotificationHubs API
+  slug: microsoft-azure-notificationhubs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-notificationhubs-api-openapi.yml
+- filename: microsoft-azure-notificationrecipientemail-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NotificationRecipientEmail API
+  slug: microsoft-azure-notificationrecipientemail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-notificationrecipientemail-api-openapi.yml
+- filename: microsoft-azure-notificationrecipientuser-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NotificationRecipientUser API
+  slug: microsoft-azure-notificationrecipientuser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-notificationrecipientuser-api-openapi.yml
+- filename: microsoft-azure-notificationregistration-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NotificationRegistration API
+  slug: microsoft-azure-notificationregistration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-notificationregistration-api-openapi.yml
+- filename: microsoft-azure-notifications-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Notifications API
+  slug: microsoft-azure-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-notifications-api-openapi.yml
+- filename: microsoft-azure-nrfdeployments-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NrfDeployments API
+  slug: microsoft-azure-nrfdeployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-nrfdeployments-api-openapi.yml
+- filename: microsoft-azure-nspaccessrules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NspAccessRules API
+  slug: microsoft-azure-nspaccessrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-nspaccessrules-api-openapi.yml
+- filename: microsoft-azure-nspaccessrulesreconcile-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NspAccessRulesReconcile API
+  slug: microsoft-azure-nspaccessrulesreconcile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-nspaccessrulesreconcile-api-openapi.yml
+- filename: microsoft-azure-nspassociationreconcile-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NspAssociationReconcile API
+  slug: microsoft-azure-nspassociationreconcile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-nspassociationreconcile-api-openapi.yml
+- filename: microsoft-azure-nspassociations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NspAssociations API
+  slug: microsoft-azure-nspassociations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-nspassociations-api-openapi.yml
+- filename: microsoft-azure-nsplinkreferences-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NspLinkReferences API
+  slug: microsoft-azure-nsplinkreferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-nsplinkreferences-api-openapi.yml
+- filename: microsoft-azure-nsplinks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NspLinks API
+  slug: microsoft-azure-nsplinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-nsplinks-api-openapi.yml
+- filename: microsoft-azure-nspprofiles-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NspProfiles API
+  slug: microsoft-azure-nspprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-nspprofiles-api-openapi.yml
+- filename: microsoft-azure-nssfdeployments-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NssfDeployments API
+  slug: microsoft-azure-nssfdeployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-nssfdeployments-api-openapi.yml
+- filename: microsoft-azure-number-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Number API
+  slug: microsoft-azure-number-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-number-api-openapi.yml
+- filename: microsoft-azure-number-verification-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Number Verification API
+  slug: microsoft-azure-number-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-number-verification-api-openapi.yml
+- filename: microsoft-azure-numberroutingvalidation-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NumberRoutingValidation API
+  slug: microsoft-azure-numberroutingvalidation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-numberroutingvalidation-api-openapi.yml
+- filename: microsoft-azure-numbers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Numbers API
+  slug: microsoft-azure-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-numbers-api-openapi.yml
+- filename: microsoft-azure-nutrientanalyses-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure NutrientAnalyses API
+  slug: microsoft-azure-nutrientanalyses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-nutrientanalyses-api-openapi.yml
+- filename: microsoft-azure-oauth2permissiongrant-create-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure OAuth2PermissionGrant_Create API
+  slug: microsoft-azure-oauth2permissiongrant-create-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-oauth2permissiongrant-create-api-openapi.yml
+- filename: microsoft-azure-oauth2permissiongrant-delete-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure OAuth2PermissionGrant_delete API
+  slug: microsoft-azure-oauth2permissiongrant-delete-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-oauth2permissiongrant-delete-api-openapi.yml
+- filename: microsoft-azure-oauth2permissiongrant-list-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure OAuth2PermissionGrant_List API
+  slug: microsoft-azure-oauth2permissiongrant-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-oauth2permissiongrant-list-api-openapi.yml
+- filename: microsoft-azure-oauthproviders-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure OAuthProviders API
+  slug: microsoft-azure-oauthproviders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-oauthproviders-api-openapi.yml
+- filename: microsoft-azure-oauthtokens-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure OAuthTokens API
+  slug: microsoft-azure-oauthtokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-oauthtokens-api-openapi.yml
+- filename: microsoft-azure-objects-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Objects API
+  slug: microsoft-azure-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-objects-api-openapi.yml
+- filename: microsoft-azure-observabilityservices-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ObservabilityServices API
+  slug: microsoft-azure-observabilityservices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-observabilityservices-api-openapi.yml
+- filename: microsoft-azure-ocr-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Ocr API
+  slug: microsoft-azure-ocr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-ocr-api-openapi.yml
+- filename: microsoft-azure-oepresourcepartition-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure OEPResourcePartition API
+  slug: microsoft-azure-oepresourcepartition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-oepresourcepartition-api-openapi.yml
+- filename: microsoft-azure-oncophenotype-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure OncoPhenotype API
+  slug: microsoft-azure-oncophenotype-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-oncophenotype-api-openapi.yml
+- filename: microsoft-azure-openaiintegration-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure OpenAIIntegration API
+  slug: microsoft-azure-openaiintegration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-openaiintegration-api-openapi.yml
+- filename: microsoft-azure-openid-metadata-discovery-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure OpenID Metadata Discovery API
+  slug: microsoft-azure-openid-metadata-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-openid-metadata-discovery-api-openapi.yml
+- filename: microsoft-azure-openshiftclusters-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure OpenShiftClusters API
+  slug: microsoft-azure-openshiftclusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-openshiftclusters-api-openapi.yml
+- filename: microsoft-azure-operation-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Operation API
+  slug: microsoft-azure-operation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-operation-api-openapi.yml
+- filename: microsoft-azure-operation-status-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Operation Status API
+  slug: microsoft-azure-operation-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-operation-status-api-openapi.yml
+- filename: microsoft-azure-operationalizationclusters-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure OperationalizationClusters API
+  slug: microsoft-azure-operationalizationclusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-operationalizationclusters-api-openapi.yml
+- filename: microsoft-azure-operationresults-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure OperationResults API
+  slug: microsoft-azure-operationresults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-operationresults-api-openapi.yml
+- filename: microsoft-azure-operations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Operations API
+  slug: microsoft-azure-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-operations-api-openapi.yml
+- filename: microsoft-azure-operations-in-a-cluster-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Operations in a Cluster API
+  slug: microsoft-azure-operations-in-a-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-operations-in-a-cluster-api-openapi.yml
+- filename: microsoft-azure-operationsdiscovery-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure OperationsDiscovery API
+  slug: microsoft-azure-operationsdiscovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-operationsdiscovery-api-openapi.yml
+- filename: microsoft-azure-operationsstatus-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure OperationsStatus API
+  slug: microsoft-azure-operationsstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-operationsstatus-api-openapi.yml
+- filename: microsoft-azure-operationstatus-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure OperationStatus API
+  slug: microsoft-azure-operationstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-operationstatus-api-openapi.yml
+- filename: microsoft-azure-operator-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Operator API
+  slug: microsoft-azure-operator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-operator-api-openapi.yml
+- filename: microsoft-azure-orchestratorinstance-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure OrchestratorInstance API
+  slug: microsoft-azure-orchestratorinstance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-orchestratorinstance-api-openapi.yml
+- filename: microsoft-azure-orchestratorinstancelist-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure OrchestratorInstanceList API
+  slug: microsoft-azure-orchestratorinstancelist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-orchestratorinstancelist-api-openapi.yml
+- filename: microsoft-azure-order-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Order API
+  slug: microsoft-azure-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-order-api-openapi.yml
+- filename: microsoft-azure-orderitems-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure OrderItems API
+  slug: microsoft-azure-orderitems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-orderitems-api-openapi.yml
+- filename: microsoft-azure-orders-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Orders API
+  slug: microsoft-azure-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-orders-api-openapi.yml
+- filename: microsoft-azure-organization-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Organization API
+  slug: microsoft-azure-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-organization-api-openapi.yml
+- filename: microsoft-azure-organizations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Organizations API
+  slug: microsoft-azure-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-organizations-api-openapi.yml
+- filename: microsoft-azure-origingroups-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure OriginGroups API
+  slug: microsoft-azure-origingroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-origingroups-api-openapi.yml
+- filename: microsoft-azure-origins-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Origins API
+  slug: microsoft-azure-origins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-origins-api-openapi.yml
+- filename: microsoft-azure-oucontainer-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure OuContainer API
+  slug: microsoft-azure-oucontainer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-oucontainer-api-openapi.yml
+- filename: microsoft-azure-outboundendpoints-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure OutboundEndpoints API
+  slug: microsoft-azure-outboundendpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-outboundendpoints-api-openapi.yml
+- filename: microsoft-azure-outboundnetworkdependenciesendpoints-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure OutboundNetworkDependenciesEndpoints API
+  slug: microsoft-azure-outboundnetworkdependenciesendpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-outboundnetworkdependenciesendpoints-api-openapi.yml
+- filename: microsoft-azure-p2svpngateways-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure P2SVpnGateways API
+  slug: microsoft-azure-p2svpngateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-p2svpngateways-api-openapi.yml
+- filename: microsoft-azure-package-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Package API
+  slug: microsoft-azure-package-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-package-api-openapi.yml
+- filename: microsoft-azure-parameters-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Parameters API
+  slug: microsoft-azure-parameters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-parameters-api-openapi.yml
+- filename: microsoft-azure-participants-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Participants API
+  slug: microsoft-azure-participants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-participants-api-openapi.yml
+- filename: microsoft-azure-parties-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Parties API
+  slug: microsoft-azure-parties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-parties-api-openapi.yml
+- filename: microsoft-azure-partition-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Partition API
+  slug: microsoft-azure-partition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-partition-api-openapi.yml
+- filename: microsoft-azure-partner-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Partner API
+  slug: microsoft-azure-partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-partner-api-openapi.yml
+- filename: microsoft-azure-partnerconfigurations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PartnerConfigurations API
+  slug: microsoft-azure-partnerconfigurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-partnerconfigurations-api-openapi.yml
+- filename: microsoft-azure-partnerdestinations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PartnerDestinations API
+  slug: microsoft-azure-partnerdestinations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-partnerdestinations-api-openapi.yml
+- filename: microsoft-azure-partnerinventory-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PartnerInventory API
+  slug: microsoft-azure-partnerinventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-partnerinventory-api-openapi.yml
+- filename: microsoft-azure-partnernamespaces-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PartnerNamespaces API
+  slug: microsoft-azure-partnernamespaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-partnernamespaces-api-openapi.yml
+- filename: microsoft-azure-partnerregistrations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PartnerRegistrations API
+  slug: microsoft-azure-partnerregistrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-partnerregistrations-api-openapi.yml
+- filename: microsoft-azure-partners-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Partners API
+  slug: microsoft-azure-partners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-partners-api-openapi.yml
+- filename: microsoft-azure-partnertopics-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PartnerTopics API
+  slug: microsoft-azure-partnertopics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-partnertopics-api-openapi.yml
+- filename: microsoft-azure-patch-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PATCH API
+  slug: microsoft-azure-patch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-patch-api-openapi.yml
+- filename: microsoft-azure-patchaccessreviewmyinstancedecision-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PatchAccessReviewMyInstanceDecision API
+  slug: microsoft-azure-patchaccessreviewmyinstancedecision-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-patchaccessreviewmyinstancedecision-api-openapi.yml
+- filename: microsoft-azure-patchschedules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PatchSchedules API
+  slug: microsoft-azure-patchschedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-patchschedules-api-openapi.yml
+- filename: microsoft-azure-patienttimeline-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PatientTimeline API
+  slug: microsoft-azure-patienttimeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-patienttimeline-api-openapi.yml
+- filename: microsoft-azure-paymentmethods-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PaymentMethods API
+  slug: microsoft-azure-paymentmethods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-paymentmethods-api-openapi.yml
+- filename: microsoft-azure-peerasns-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PeerAsns API
+  slug: microsoft-azure-peerasns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-peerasns-api-openapi.yml
+- filename: microsoft-azure-peeringlocations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PeeringLocations API
+  slug: microsoft-azure-peeringlocations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-peeringlocations-api-openapi.yml
+- filename: microsoft-azure-peerings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Peerings API
+  slug: microsoft-azure-peerings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-peerings-api-openapi.yml
+- filename: microsoft-azure-peeringservicelocations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PeeringServiceLocations API
+  slug: microsoft-azure-peeringservicelocations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-peeringservicelocations-api-openapi.yml
+- filename: microsoft-azure-peeringserviceprefixes-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PeeringServicePrefixes API
+  slug: microsoft-azure-peeringserviceprefixes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-peeringserviceprefixes-api-openapi.yml
+- filename: microsoft-azure-peeringserviceproviders-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PeeringServiceProviders API
+  slug: microsoft-azure-peeringserviceproviders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-peeringserviceproviders-api-openapi.yml
+- filename: microsoft-azure-peeringservices-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PeeringServices API
+  slug: microsoft-azure-peeringservices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-peeringservices-api-openapi.yml
+- filename: microsoft-azure-personalvoice-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PersonalVoice API
+  slug: microsoft-azure-personalvoice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-personalvoice-api-openapi.yml
+- filename: microsoft-azure-persondirectory-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PersonDirectory API
+  slug: microsoft-azure-persondirectory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-persondirectory-api-openapi.yml
+- filename: microsoft-azure-persongroups-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Persongroups API
+  slug: microsoft-azure-persongroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-persongroups-api-openapi.yml
+- filename: microsoft-azure-pipeline-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Pipeline API
+  slug: microsoft-azure-pipeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-pipeline-api-openapi.yml
+- filename: microsoft-azure-pipelines-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Pipelines API
+  slug: microsoft-azure-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-pipelines-api-openapi.yml
+- filename: microsoft-azure-pipelinetemplatedefinitions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PipelineTemplateDefinitions API
+  slug: microsoft-azure-pipelinetemplatedefinitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-pipelinetemplatedefinitions-api-openapi.yml
+- filename: microsoft-azure-plan-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Plan API
+  slug: microsoft-azure-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-plan-api-openapi.yml
+- filename: microsoft-azure-plantingdata-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PlantingData API
+  slug: microsoft-azure-plantingdata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-plantingdata-api-openapi.yml
+- filename: microsoft-azure-planttissueanalyses-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PlantTissueAnalyses API
+  slug: microsoft-azure-planttissueanalyses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-planttissueanalyses-api-openapi.yml
+- filename: microsoft-azure-policies-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Policies API
+  slug: microsoft-azure-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-policies-api-openapi.yml
+- filename: microsoft-azure-policy-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Policy API
+  slug: microsoft-azure-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-policy-api-openapi.yml
+- filename: microsoft-azure-policy-management-certificates-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Policy Management Certificates API
+  slug: microsoft-azure-policy-management-certificates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-policy-management-certificates-api-openapi.yml
+- filename: microsoft-azure-policyelements-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PolicyElements API
+  slug: microsoft-azure-policyelements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-policyelements-api-openapi.yml
+- filename: microsoft-azure-policyevents-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PolicyEvents API
+  slug: microsoft-azure-policyevents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-policyevents-api-openapi.yml
+- filename: microsoft-azure-policyfragment-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PolicyFragment API
+  slug: microsoft-azure-policyfragment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-policyfragment-api-openapi.yml
+- filename: microsoft-azure-policylisting-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PolicyListing API
+  slug: microsoft-azure-policylisting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-policylisting-api-openapi.yml
+- filename: microsoft-azure-policysets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PolicySets API
+  slug: microsoft-azure-policysets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-policysets-api-openapi.yml
+- filename: microsoft-azure-pool-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Pool API
+  slug: microsoft-azure-pool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-pool-api-openapi.yml
+- filename: microsoft-azure-pool-change-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Pool Change API
+  slug: microsoft-azure-pool-change-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-pool-change-api-openapi.yml
+- filename: microsoft-azure-pools-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Pools API
+  slug: microsoft-azure-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-pools-api-openapi.yml
+- filename: microsoft-azure-poolusagemetrics-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Poolusagemetrics API
+  slug: microsoft-azure-poolusagemetrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-poolusagemetrics-api-openapi.yml
+- filename: microsoft-azure-portalregistrypackage-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PortalRegistryPackage API
+  slug: microsoft-azure-portalregistrypackage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-portalregistrypackage-api-openapi.yml
+- filename: microsoft-azure-portaltenant-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PortalTenant API
+  slug: microsoft-azure-portaltenant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-portaltenant-api-openapi.yml
+- filename: microsoft-azure-ports-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Ports API
+  slug: microsoft-azure-ports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-ports-api-openapi.yml
+- filename: microsoft-azure-post-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure POST API
+  slug: microsoft-azure-post-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-post-api-openapi.yml
+- filename: microsoft-azure-postaccessreviewhistorydefinitioninstance-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PostAccessReviewHistoryDefinitionInstance API
+  slug: microsoft-azure-postaccessreviewhistorydefinitioninstance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-postaccessreviewhistorydefinitioninstance-api-openapi.yml
+- filename: microsoft-azure-postrules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PostRules API
+  slug: microsoft-azure-postrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-postrules-api-openapi.yml
+- filename: microsoft-azure-powerbiresources-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PowerBIResources API
+  slug: microsoft-azure-powerbiresources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-powerbiresources-api-openapi.yml
+- filename: microsoft-azure-prebuilt-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Prebuilt API
+  slug: microsoft-azure-prebuilt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-prebuilt-api-openapi.yml
+- filename: microsoft-azure-preconfiguredendpoints-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PreconfiguredEndpoints API
+  slug: microsoft-azure-preconfiguredendpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-preconfiguredendpoints-api-openapi.yml
+- filename: microsoft-azure-preconnections-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PreConnections API
+  slug: microsoft-azure-preconnections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-preconnections-api-openapi.yml
+- filename: microsoft-azure-prediction-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Prediction API
+  slug: microsoft-azure-prediction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-prediction-api-openapi.yml
+- filename: microsoft-azure-predictions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Predictions API
+  slug: microsoft-azure-predictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-predictions-api-openapi.yml
+- filename: microsoft-azure-predictionsapi-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PredictionsApi API
+  slug: microsoft-azure-predictionsapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-predictionsapi-api-openapi.yml
+- filename: microsoft-azure-prefixlistglobalrulestack-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrefixListGlobalRulestack API
+  slug: microsoft-azure-prefixlistglobalrulestack-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-prefixlistglobalrulestack-api-openapi.yml
+- filename: microsoft-azure-prefixlistlocalrulestack-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrefixListLocalRulestack API
+  slug: microsoft-azure-prefixlistlocalrulestack-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-prefixlistlocalrulestack-api-openapi.yml
+- filename: microsoft-azure-prerules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PreRules API
+  slug: microsoft-azure-prerules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-prerules-api-openapi.yml
+- filename: microsoft-azure-prescriptionmaps-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrescriptionMaps API
+  slug: microsoft-azure-prescriptionmaps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-prescriptionmaps-api-openapi.yml
+- filename: microsoft-azure-prescriptions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Prescriptions API
+  slug: microsoft-azure-prescriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-prescriptions-api-openapi.yml
+- filename: microsoft-azure-pricesheet-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PriceSheet API
+  slug: microsoft-azure-pricesheet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-pricesheet-api-openapi.yml
+- filename: microsoft-azure-privateclouds-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrivateClouds API
+  slug: microsoft-azure-privateclouds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-privateclouds-api-openapi.yml
+- filename: microsoft-azure-privateendpoint-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrivateEndpoint API
+  slug: microsoft-azure-privateendpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-privateendpoint-api-openapi.yml
+- filename: microsoft-azure-privateendpointconnection-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrivateEndpointConnection API
+  slug: microsoft-azure-privateendpointconnection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-privateendpointconnection-api-openapi.yml
+- filename: microsoft-azure-privateendpointconnection-resource-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrivateEndpointConnection Resource API
+  slug: microsoft-azure-privateendpointconnection-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-privateendpointconnection-resource-api-openapi.yml
+- filename: microsoft-azure-privateendpointconnectioncontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrivateEndpointConnectionController API
+  slug: microsoft-azure-privateendpointconnectioncontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-privateendpointconnectioncontroller-api-openapi.yml
+- filename: microsoft-azure-privateendpointconnectionoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrivateEndpointConnectionOperations API
+  slug: microsoft-azure-privateendpointconnectionoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-privateendpointconnectionoperations-api-openapi.yml
+- filename: microsoft-azure-privateendpointconnectionproxies-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrivateEndpointConnectionProxies API
+  slug: microsoft-azure-privateendpointconnectionproxies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-privateendpointconnectionproxies-api-openapi.yml
+- filename: microsoft-azure-privateendpointconnectionproxycontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrivateEndpointConnectionProxyController API
+  slug: microsoft-azure-privateendpointconnectionproxycontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-privateendpointconnectionproxycontroller-api-openapi.yml
+- filename: microsoft-azure-privateendpointconnections-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrivateEndpointConnections API
+  slug: microsoft-azure-privateendpointconnections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-privateendpointconnections-api-openapi.yml
+- filename: microsoft-azure-privateendpointconnectionscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrivateEndpointConnectionsController API
+  slug: microsoft-azure-privateendpointconnectionscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-privateendpointconnectionscontroller-api-openapi.yml
+- filename: microsoft-azure-privatelink-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrivateLink API
+  slug: microsoft-azure-privatelink-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-privatelink-api-openapi.yml
+- filename: microsoft-azure-privatelinkassociation-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrivateLinkAssociation API
+  slug: microsoft-azure-privatelinkassociation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-privatelinkassociation-api-openapi.yml
+- filename: microsoft-azure-privatelinkresource-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrivateLinkResource API
+  slug: microsoft-azure-privatelinkresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-privatelinkresource-api-openapi.yml
+- filename: microsoft-azure-privatelinkresourcecontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrivateLinkResourceController API
+  slug: microsoft-azure-privatelinkresourcecontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-privatelinkresourcecontroller-api-openapi.yml
+- filename: microsoft-azure-privatelinkresourceoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrivateLinkResourceOperations API
+  slug: microsoft-azure-privatelinkresourceoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-privatelinkresourceoperations-api-openapi.yml
+- filename: microsoft-azure-privatelinkresources-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrivateLinkResources API
+  slug: microsoft-azure-privatelinkresources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-privatelinkresources-api-openapi.yml
+- filename: microsoft-azure-privatelinkresourcescontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrivateLinkResourcesController API
+  slug: microsoft-azure-privatelinkresourcescontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-privatelinkresourcescontroller-api-openapi.yml
+- filename: microsoft-azure-privatelinkscopedresources-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrivateLinkScopedResources API
+  slug: microsoft-azure-privatelinkscopedresources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-privatelinkscopedresources-api-openapi.yml
+- filename: microsoft-azure-privatelinkserviceresourceoperationresults-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrivateLinkServiceResourceOperationResults API
+  slug: microsoft-azure-privatelinkserviceresourceoperationresults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-privatelinkserviceresourceoperationresults-api-openapi.yml
+- filename: microsoft-azure-privatelinkservices-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrivateLinkServices API
+  slug: microsoft-azure-privatelinkservices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-privatelinkservices-api-openapi.yml
+- filename: microsoft-azure-privatezones-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PrivateZones API
+  slug: microsoft-azure-privatezones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-privatezones-api-openapi.yml
+- filename: microsoft-azure-problemclassifications-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProblemClassifications API
+  slug: microsoft-azure-problemclassifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-problemclassifications-api-openapi.yml
+- filename: microsoft-azure-processes-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Processes API
+  slug: microsoft-azure-processes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-processes-api-openapi.yml
+- filename: microsoft-azure-product-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Product API
+  slug: microsoft-azure-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-product-api-openapi.yml
+- filename: microsoft-azure-productapilink-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProductApiLink API
+  slug: microsoft-azure-productapilink-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-productapilink-api-openapi.yml
+- filename: microsoft-azure-productfamilymetadata-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProductFamilyMetadata API
+  slug: microsoft-azure-productfamilymetadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-productfamilymetadata-api-openapi.yml
+- filename: microsoft-azure-productgrouplink-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProductGroupLink API
+  slug: microsoft-azure-productgrouplink-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-productgrouplink-api-openapi.yml
+- filename: microsoft-azure-productpolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProductPolicy API
+  slug: microsoft-azure-productpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-productpolicy-api-openapi.yml
+- filename: microsoft-azure-products-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Products API
+  slug: microsoft-azure-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-products-api-openapi.yml
+- filename: microsoft-azure-productsandconfigurations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProductsAndConfigurations API
+  slug: microsoft-azure-productsandconfigurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-productsandconfigurations-api-openapi.yml
+- filename: microsoft-azure-productsecrets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProductSecrets API
+  slug: microsoft-azure-productsecrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-productsecrets-api-openapi.yml
+- filename: microsoft-azure-professionalserviceoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProfessionalServiceOperations API
+  slug: microsoft-azure-professionalserviceoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-professionalserviceoperations-api-openapi.yml
+- filename: microsoft-azure-professionalserviceresources-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProfessionalServiceResources API
+  slug: microsoft-azure-professionalserviceresources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-professionalserviceresources-api-openapi.yml
+- filename: microsoft-azure-profile-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Profile API
+  slug: microsoft-azure-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-profile-api-openapi.yml
+- filename: microsoft-azure-profiles-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Profiles API
+  slug: microsoft-azure-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-profiles-api-openapi.yml
+- filename: microsoft-azure-project-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Project API
+  slug: microsoft-azure-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-project-api-openapi.yml
+- filename: microsoft-azure-projectapi-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProjectApi API
+  slug: microsoft-azure-projectapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-projectapi-api-openapi.yml
+- filename: microsoft-azure-projects-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Projects API
+  slug: microsoft-azure-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-projects-api-openapi.yml
+- filename: microsoft-azure-property-management-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Property Management API
+  slug: microsoft-azure-property-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-property-management-api-openapi.yml
+- filename: microsoft-azure-protectablecontainers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProtectableContainers API
+  slug: microsoft-azure-protectablecontainers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-protectablecontainers-api-openapi.yml
+- filename: microsoft-azure-protecteditem-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProtectedItem API
+  slug: microsoft-azure-protecteditem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-protecteditem-api-openapi.yml
+- filename: microsoft-azure-protecteditemoperationresults-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProtectedItemOperationResults API
+  slug: microsoft-azure-protecteditemoperationresults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-protecteditemoperationresults-api-openapi.yml
+- filename: microsoft-azure-protecteditemoperationstatuses-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProtectedItemOperationStatuses API
+  slug: microsoft-azure-protecteditemoperationstatuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-protecteditemoperationstatuses-api-openapi.yml
+- filename: microsoft-azure-protecteditems-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProtectedItems API
+  slug: microsoft-azure-protecteditems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-protecteditems-api-openapi.yml
+- filename: microsoft-azure-protectioncontaineroperationresults-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProtectionContainerOperationResults API
+  slug: microsoft-azure-protectioncontaineroperationresults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-protectioncontaineroperationresults-api-openapi.yml
+- filename: microsoft-azure-protectioncontainerrefreshoperationresults-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProtectionContainerRefreshOperationResults API
+  slug: microsoft-azure-protectioncontainerrefreshoperationresults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-protectioncontainerrefreshoperationresults-api-openapi.yml
+- filename: microsoft-azure-protectioncontainers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProtectionContainers API
+  slug: microsoft-azure-protectioncontainers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-protectioncontainers-api-openapi.yml
+- filename: microsoft-azure-protectionintent-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProtectionIntent API
+  slug: microsoft-azure-protectionintent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-protectionintent-api-openapi.yml
+- filename: microsoft-azure-protectionpolicies-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProtectionPolicies API
+  slug: microsoft-azure-protectionpolicies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-protectionpolicies-api-openapi.yml
+- filename: microsoft-azure-protectionpolicyoperationresults-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProtectionPolicyOperationResults API
+  slug: microsoft-azure-protectionpolicyoperationresults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-protectionpolicyoperationresults-api-openapi.yml
+- filename: microsoft-azure-protectionpolicyoperationstatuses-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProtectionPolicyOperationStatuses API
+  slug: microsoft-azure-protectionpolicyoperationstatuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-protectionpolicyoperationstatuses-api-openapi.yml
+- filename: microsoft-azure-provider-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Provider API
+  slug: microsoft-azure-provider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-provider-api-openapi.yml
+- filename: microsoft-azure-provideroperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProviderOperations API
+  slug: microsoft-azure-provideroperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-provideroperations-api-openapi.yml
+- filename: microsoft-azure-providerregistration-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProviderRegistration API
+  slug: microsoft-azure-providerregistration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-providerregistration-api-openapi.yml
+- filename: microsoft-azure-providers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Providers API
+  slug: microsoft-azure-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-providers-api-openapi.yml
+- filename: microsoft-azure-proxy-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Proxy API
+  slug: microsoft-azure-proxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-proxy-api-openapi.yml
+- filename: microsoft-azure-proxyoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ProxyOperations API
+  slug: microsoft-azure-proxyoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-proxyoperations-api-openapi.yml
+- filename: microsoft-azure-public-offers-listing-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Public-Offers-Listing API
+  slug: microsoft-azure-public-offers-listing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-public-offers-listing-api-openapi.yml
+- filename: microsoft-azure-public-offers-single-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Public-Offers-Single API
+  slug: microsoft-azure-public-offers-single-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-public-offers-single-api-openapi.yml
+- filename: microsoft-azure-public-search-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Public-Search API
+  slug: microsoft-azure-public-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-public-search-api-openapi.yml
+- filename: microsoft-azure-public-suggestions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Public-Suggestions API
+  slug: microsoft-azure-public-suggestions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-public-suggestions-api-openapi.yml
+- filename: microsoft-azure-publicipaddresses-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PublicIpAddresses API
+  slug: microsoft-azure-publicipaddresses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-publicipaddresses-api-openapi.yml
+- filename: microsoft-azure-publickeys-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PublicKeys API
+  slug: microsoft-azure-publickeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-publickeys-api-openapi.yml
+- filename: microsoft-azure-publicmaintenanceconfigurations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PublicMaintenanceConfigurations API
+  slug: microsoft-azure-publicmaintenanceconfigurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-publicmaintenanceconfigurations-api-openapi.yml
+- filename: microsoft-azure-publishedartifact-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PublishedArtifact API
+  slug: microsoft-azure-publishedartifact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-publishedartifact-api-openapi.yml
+- filename: microsoft-azure-publishedblueprint-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PublishedBlueprint API
+  slug: microsoft-azure-publishedblueprint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-publishedblueprint-api-openapi.yml
+- filename: microsoft-azure-publishers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Publishers API
+  slug: microsoft-azure-publishers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-publishers-api-openapi.yml
+- filename: microsoft-azure-purviewpolicies-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PurviewPolicies API
+  slug: microsoft-azure-purviewpolicies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-purviewpolicies-api-openapi.yml
+- filename: microsoft-azure-put-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PUT API
+  slug: microsoft-azure-put-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-put-api-openapi.yml
+- filename: microsoft-azure-putaccessreviewdefaultsettings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PutAccessReviewDefaultSettings API
+  slug: microsoft-azure-putaccessreviewdefaultsettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-putaccessreviewdefaultsettings-api-openapi.yml
+- filename: microsoft-azure-putaccessreviewhistorydefinition-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PutAccessReviewHistoryDefinition API
+  slug: microsoft-azure-putaccessreviewhistorydefinition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-putaccessreviewhistorydefinition-api-openapi.yml
+- filename: microsoft-azure-putaccessreviewinstance-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PutAccessReviewInstance API
+  slug: microsoft-azure-putaccessreviewinstance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-putaccessreviewinstance-api-openapi.yml
+- filename: microsoft-azure-putaccessreviewscheduledefinition-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure PutAccessReviewScheduleDefinition API
+  slug: microsoft-azure-putaccessreviewscheduledefinition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-putaccessreviewscheduledefinition-api-openapi.yml
+- filename: microsoft-azure-query-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Query API
+  slug: microsoft-azure-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-query-api-openapi.yml
+- filename: microsoft-azure-query-knowledgebases-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure :Query Knowledgebases API
+  slug: microsoft-azure-query-knowledgebases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-query-knowledgebases-api-openapi.yml
+- filename: microsoft-azure-query-text-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure :Query Text API
+  slug: microsoft-azure-query-text-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-query-text-api-openapi.yml
+- filename: microsoft-azure-querygeneration-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure QueryGeneration API
+  slug: microsoft-azure-querygeneration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-querygeneration-api-openapi.yml
+- filename: microsoft-azure-querykeys-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure QueryKeys API
+  slug: microsoft-azure-querykeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-querykeys-api-openapi.yml
+- filename: microsoft-azure-querytexts-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure QueryTexts API
+  slug: microsoft-azure-querytexts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-querytexts-api-openapi.yml
+- filename: microsoft-azure-quickpulseservice-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure QuickPulseService API
+  slug: microsoft-azure-quickpulseservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-quickpulseservice-api-openapi.yml
+- filename: microsoft-azure-quotainformation-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure QuotaInformation API
+  slug: microsoft-azure-quotainformation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-quotainformation-api-openapi.yml
+- filename: microsoft-azure-quotarequests-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure QuotaRequests API
+  slug: microsoft-azure-quotarequests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-quotarequests-api-openapi.yml
+- filename: microsoft-azure-quotas-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Quotas API
+  slug: microsoft-azure-quotas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-quotas-api-openapi.yml
+- filename: microsoft-azure-radiologyinsights-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RadiologyInsights API
+  slug: microsoft-azure-radiologyinsights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-radiologyinsights-api-openapi.yml
+- filename: microsoft-azure-rank-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Rank API
+  slug: microsoft-azure-rank-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-rank-api-openapi.yml
+- filename: microsoft-azure-ratecard-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RateCard API
+  slug: microsoft-azure-ratecard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-ratecard-api-openapi.yml
+- filename: microsoft-azure-rating-and-reviews-public-api-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Rating and Reviews Public API API
+  slug: microsoft-azure-rating-and-reviews-public-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-rating-and-reviews-public-api-api-openapi.yml
+- filename: microsoft-azure-realusermetrics-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RealUserMetrics API
+  slug: microsoft-azure-realusermetrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-realusermetrics-api-openapi.yml
+- filename: microsoft-azure-receivedshare-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReceivedShare API
+  slug: microsoft-azure-receivedshare-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-receivedshare-api-openapi.yml
+- filename: microsoft-azure-recognizetext-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure recognizeText API
+  slug: microsoft-azure-recognizetext-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-recognizetext-api-openapi.yml
+- filename: microsoft-azure-recommendations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Recommendations API
+  slug: microsoft-azure-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-recommendations-api-openapi.yml
+- filename: microsoft-azure-recommendedactions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RecommendedActions API
+  slug: microsoft-azure-recommendedactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-recommendedactions-api-openapi.yml
+- filename: microsoft-azure-recommendedactionsessions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RecommendedActionSessions API
+  slug: microsoft-azure-recommendedactionsessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-recommendedactionsessions-api-openapi.yml
+- filename: microsoft-azure-recording-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Recording API
+  slug: microsoft-azure-recording-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-recording-api-openapi.yml
+- filename: microsoft-azure-recordsets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RecordSets API
+  slug: microsoft-azure-recordsets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-recordsets-api-openapi.yml
+- filename: microsoft-azure-recoverypoint-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RecoveryPoint API
+  slug: microsoft-azure-recoverypoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-recoverypoint-api-openapi.yml
+- filename: microsoft-azure-recoverypoints-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RecoveryPoints API
+  slug: microsoft-azure-recoverypoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-recoverypoints-api-openapi.yml
+- filename: microsoft-azure-recoverypointsrecommendedformove-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RecoveryPointsRecommendedForMove API
+  slug: microsoft-azure-recoverypointsrecommendedformove-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-recoverypointsrecommendedformove-api-openapi.yml
+- filename: microsoft-azure-recurrence-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Recurrence API
+  slug: microsoft-azure-recurrence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-recurrence-api-openapi.yml
+- filename: microsoft-azure-redis-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Redis API
+  slug: microsoft-azure-redis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-redis-api-openapi.yml
+- filename: microsoft-azure-redisenterprise-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RedisEnterprise API
+  slug: microsoft-azure-redisenterprise-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-redisenterprise-api-openapi.yml
+- filename: microsoft-azure-referencedatasets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReferenceDataSets API
+  slug: microsoft-azure-referencedatasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-referencedatasets-api-openapi.yml
+- filename: microsoft-azure-refreshsetpasswordlink-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RefreshSetPasswordLink API
+  slug: microsoft-azure-refreshsetpasswordlink-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-refreshsetpasswordlink-api-openapi.yml
+- filename: microsoft-azure-refreshtoken-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RefreshToken API
+  slug: microsoft-azure-refreshtoken-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-refreshtoken-api-openapi.yml
+- filename: microsoft-azure-registeredserver-resource-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RegisteredServer Resource API
+  slug: microsoft-azure-registeredserver-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-registeredserver-resource-api-openapi.yml
+- filename: microsoft-azure-registerstorageconfiguration-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure registerStorageConfiguration API
+  slug: microsoft-azure-registerstorageconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-registerstorageconfiguration-api-openapi.yml
+- filename: microsoft-azure-registrationassignments-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RegistrationAssignments API
+  slug: microsoft-azure-registrationassignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-registrationassignments-api-openapi.yml
+- filename: microsoft-azure-registrationdefinitions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RegistrationDefinitions API
+  slug: microsoft-azure-registrationdefinitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-registrationdefinitions-api-openapi.yml
+- filename: microsoft-azure-registrations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Registrations API
+  slug: microsoft-azure-registrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-registrations-api-openapi.yml
+- filename: microsoft-azure-relationship-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Relationship API
+  slug: microsoft-azure-relationship-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-relationship-api-openapi.yml
+- filename: microsoft-azure-relationshiplinks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RelationshipLinks API
+  slug: microsoft-azure-relationshiplinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-relationshiplinks-api-openapi.yml
+- filename: microsoft-azure-relationships-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Relationships API
+  slug: microsoft-azure-relationships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-relationships-api-openapi.yml
+- filename: microsoft-azure-rendering-session-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Rendering Session API
+  slug: microsoft-azure-rendering-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-rendering-session-api-openapi.yml
+- filename: microsoft-azure-repairmanagement-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RepairManagement API
+  slug: microsoft-azure-repairmanagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-repairmanagement-api-openapi.yml
+- filename: microsoft-azure-replica-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Replica API
+  slug: microsoft-azure-replica-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replica-api-openapi.yml
+- filename: microsoft-azure-replicas-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Replicas API
+  slug: microsoft-azure-replicas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicas-api-openapi.yml
+- filename: microsoft-azure-replicationalertsettings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationAlertSettings API
+  slug: microsoft-azure-replicationalertsettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationalertsettings-api-openapi.yml
+- filename: microsoft-azure-replicationappliances-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationAppliances API
+  slug: microsoft-azure-replicationappliances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationappliances-api-openapi.yml
+- filename: microsoft-azure-replicationeligibilityresults-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationEligibilityResults API
+  slug: microsoft-azure-replicationeligibilityresults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationeligibilityresults-api-openapi.yml
+- filename: microsoft-azure-replicationevents-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationEvents API
+  slug: microsoft-azure-replicationevents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationevents-api-openapi.yml
+- filename: microsoft-azure-replicationextension-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationExtension API
+  slug: microsoft-azure-replicationextension-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationextension-api-openapi.yml
+- filename: microsoft-azure-replicationfabrics-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationFabrics API
+  slug: microsoft-azure-replicationfabrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationfabrics-api-openapi.yml
+- filename: microsoft-azure-replicationjobs-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationJobs API
+  slug: microsoft-azure-replicationjobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationjobs-api-openapi.yml
+- filename: microsoft-azure-replicationlogicalnetworks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationLogicalNetworks API
+  slug: microsoft-azure-replicationlogicalnetworks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationlogicalnetworks-api-openapi.yml
+- filename: microsoft-azure-replicationmigrationitems-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationMigrationItems API
+  slug: microsoft-azure-replicationmigrationitems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationmigrationitems-api-openapi.yml
+- filename: microsoft-azure-replicationnetworkmappings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationNetworkMappings API
+  slug: microsoft-azure-replicationnetworkmappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationnetworkmappings-api-openapi.yml
+- filename: microsoft-azure-replicationnetworks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationNetworks API
+  slug: microsoft-azure-replicationnetworks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationnetworks-api-openapi.yml
+- filename: microsoft-azure-replicationpolicies-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationPolicies API
+  slug: microsoft-azure-replicationpolicies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationpolicies-api-openapi.yml
+- filename: microsoft-azure-replicationprotectableitems-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationProtectableItems API
+  slug: microsoft-azure-replicationprotectableitems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationprotectableitems-api-openapi.yml
+- filename: microsoft-azure-replicationprotecteditems-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationProtectedItems API
+  slug: microsoft-azure-replicationprotecteditems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationprotecteditems-api-openapi.yml
+- filename: microsoft-azure-replicationprotectioncontainermappings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationProtectionContainerMappings API
+  slug: microsoft-azure-replicationprotectioncontainermappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationprotectioncontainermappings-api-openapi.yml
+- filename: microsoft-azure-replicationprotectioncontainers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationProtectionContainers API
+  slug: microsoft-azure-replicationprotectioncontainers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationprotectioncontainers-api-openapi.yml
+- filename: microsoft-azure-replicationprotectionintents-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationProtectionIntents API
+  slug: microsoft-azure-replicationprotectionintents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationprotectionintents-api-openapi.yml
+- filename: microsoft-azure-replicationrecoveryplans-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationRecoveryPlans API
+  slug: microsoft-azure-replicationrecoveryplans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationrecoveryplans-api-openapi.yml
+- filename: microsoft-azure-replicationrecoveryservicesproviders-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationRecoveryServicesProviders API
+  slug: microsoft-azure-replicationrecoveryservicesproviders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationrecoveryservicesproviders-api-openapi.yml
+- filename: microsoft-azure-replicationstorageclassificationmappings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationStorageClassificationMappings API
+  slug: microsoft-azure-replicationstorageclassificationmappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationstorageclassificationmappings-api-openapi.yml
+- filename: microsoft-azure-replicationstorageclassifications-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationStorageClassifications API
+  slug: microsoft-azure-replicationstorageclassifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationstorageclassifications-api-openapi.yml
+- filename: microsoft-azure-replicationvaulthealth-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationVaultHealth API
+  slug: microsoft-azure-replicationvaulthealth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationvaulthealth-api-openapi.yml
+- filename: microsoft-azure-replicationvaultsetting-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationVaultSetting API
+  slug: microsoft-azure-replicationvaultsetting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationvaultsetting-api-openapi.yml
+- filename: microsoft-azure-replicationvcenters-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReplicationvCenters API
+  slug: microsoft-azure-replicationvcenters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-replicationvcenters-api-openapi.yml
+- filename: microsoft-azure-reports-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Reports API
+  slug: microsoft-azure-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-reports-api-openapi.yml
+- filename: microsoft-azure-repositories-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Repositories API
+  slug: microsoft-azure-repositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-repositories-api-openapi.yml
+- filename: microsoft-azure-repository-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Repository API
+  slug: microsoft-azure-repository-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-repository-api-openapi.yml
+- filename: microsoft-azure-requests-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Requests API
+  slug: microsoft-azure-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-requests-api-openapi.yml
+- filename: microsoft-azure-reservation-order-aliases-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Reservation Order Aliases API
+  slug: microsoft-azure-reservation-order-aliases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-reservation-order-aliases-api-openapi.yml
+- filename: microsoft-azure-reservationrecommendations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReservationRecommendations API
+  slug: microsoft-azure-reservationrecommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-reservationrecommendations-api-openapi.yml
+- filename: microsoft-azure-reservedinstances-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ReservedInstances API
+  slug: microsoft-azure-reservedinstances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-reservedinstances-api-openapi.yml
+- filename: microsoft-azure-reset-cifs-password-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Reset Cifs Password API
+  slug: microsoft-azure-reset-cifs-password-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-reset-cifs-password-api-openapi.yml
+- filename: microsoft-azure-resource-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Resource API
+  slug: microsoft-azure-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-resource-api-openapi.yml
+- filename: microsoft-azure-resource-groups-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Resource Groups API
+  slug: microsoft-azure-resource-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-resource-groups-api-openapi.yml
+- filename: microsoft-azure-resourceactions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ResourceActions API
+  slug: microsoft-azure-resourceactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-resourceactions-api-openapi.yml
+- filename: microsoft-azure-resourcechanges-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ResourceChanges API
+  slug: microsoft-azure-resourcechanges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-resourcechanges-api-openapi.yml
+- filename: microsoft-azure-resourcedetails-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ResourceDetails API
+  slug: microsoft-azure-resourcedetails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-resourcedetails-api-openapi.yml
+- filename: microsoft-azure-resourcegroups-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ResourceGroups API
+  slug: microsoft-azure-resourcegroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-resourcegroups-api-openapi.yml
+- filename: microsoft-azure-resourceguardproxies-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ResourceGuardProxies API
+  slug: microsoft-azure-resourceguardproxies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-resourceguardproxies-api-openapi.yml
+- filename: microsoft-azure-resourceguardproxy-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ResourceGuardProxy API
+  slug: microsoft-azure-resourceguardproxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-resourceguardproxy-api-openapi.yml
+- filename: microsoft-azure-resourceguards-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ResourceGuards API
+  slug: microsoft-azure-resourceguards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-resourceguards-api-openapi.yml
+- filename: microsoft-azure-resourcehealthmetadata-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ResourceHealthMetadata API
+  slug: microsoft-azure-resourcehealthmetadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-resourcehealthmetadata-api-openapi.yml
+- filename: microsoft-azure-resourcelinks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ResourceLinks API
+  slug: microsoft-azure-resourcelinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-resourcelinks-api-openapi.yml
+- filename: microsoft-azure-resourcemanagementprivatelink-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ResourceManagementPrivateLink API
+  slug: microsoft-azure-resourcemanagementprivatelink-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-resourcemanagementprivatelink-api-openapi.yml
+- filename: microsoft-azure-resourcepools-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ResourcePools API
+  slug: microsoft-azure-resourcepools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-resourcepools-api-openapi.yml
+- filename: microsoft-azure-resourceprovider-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ResourceProvider API
+  slug: microsoft-azure-resourceprovider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-resourceprovider-api-openapi.yml
+- filename: microsoft-azure-resources-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Resources API
+  slug: microsoft-azure-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-resources-api-openapi.yml
+- filename: microsoft-azure-resourcesetruleconfig-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ResourceSetRuleConfig API
+  slug: microsoft-azure-resourcesetruleconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-resourcesetruleconfig-api-openapi.yml
+- filename: microsoft-azure-resourcesyncrules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure resourceSyncRules API
+  slug: microsoft-azure-resourcesyncrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-resourcesyncrules-api-openapi.yml
+- filename: microsoft-azure-resourcetyperegistration-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ResourceTypeRegistration API
+  slug: microsoft-azure-resourcetyperegistration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-resourcetyperegistration-api-openapi.yml
+- filename: microsoft-azure-resourcetypesku-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ResourceTypeSku API
+  slug: microsoft-azure-resourcetypesku-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-resourcetypesku-api-openapi.yml
+- filename: microsoft-azure-restorabledroppedsqlpools-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RestorableDroppedSqlPools API
+  slug: microsoft-azure-restorabledroppedsqlpools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-restorabledroppedsqlpools-api-openapi.yml
+- filename: microsoft-azure-restore-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Restore API
+  slug: microsoft-azure-restore-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-restore-api-openapi.yml
+- filename: microsoft-azure-restores-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Restores API
+  slug: microsoft-azure-restores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-restores-api-openapi.yml
+- filename: microsoft-azure-reviews-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Reviews API
+  slug: microsoft-azure-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-reviews-api-openapi.yml
+- filename: microsoft-azure-reviews-public-api-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Reviews Public API API
+  slug: microsoft-azure-reviews-public-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-reviews-public-api-api-openapi.yml
+- filename: microsoft-azure-revisions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Revisions API
+  slug: microsoft-azure-revisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-revisions-api-openapi.yml
+- filename: microsoft-azure-revokeapikey-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RevokeApiKey API
+  slug: microsoft-azure-revokeapikey-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-revokeapikey-api-openapi.yml
+- filename: microsoft-azure-roleassignments-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RoleAssignments API
+  slug: microsoft-azure-roleassignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-roleassignments-api-openapi.yml
+- filename: microsoft-azure-roleinstances-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RoleInstances API
+  slug: microsoft-azure-roleinstances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-roleinstances-api-openapi.yml
+- filename: microsoft-azure-roles-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Roles API
+  slug: microsoft-azure-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-roles-api-openapi.yml
+- filename: microsoft-azure-rooms-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Rooms API
+  slug: microsoft-azure-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-rooms-api-openapi.yml
+- filename: microsoft-azure-rootcauseanalysisdataset-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RootCauseAnalysisDataSet API
+  slug: microsoft-azure-rootcauseanalysisdataset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-rootcauseanalysisdataset-api-openapi.yml
+- filename: microsoft-azure-rootcauseanalysisinstance-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RootCauseAnalysisInstance API
+  slug: microsoft-azure-rootcauseanalysisinstance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-rootcauseanalysisinstance-api-openapi.yml
+- filename: microsoft-azure-rootcauseanalysiskind-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RootCauseAnalysisKind API
+  slug: microsoft-azure-rootcauseanalysiskind-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-rootcauseanalysiskind-api-openapi.yml
+- filename: microsoft-azure-rootcauseanalysismodel-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RootCauseAnalysisModel API
+  slug: microsoft-azure-rootcauseanalysismodel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-rootcauseanalysismodel-api-openapi.yml
+- filename: microsoft-azure-route-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Route API
+  slug: microsoft-azure-route-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-route-api-openapi.yml
+- filename: microsoft-azure-routes-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Routes API
+  slug: microsoft-azure-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-routes-api-openapi.yml
+- filename: microsoft-azure-routesets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Routesets API
+  slug: microsoft-azure-routesets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-routesets-api-openapi.yml
+- filename: microsoft-azure-routetables-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RouteTables API
+  slug: microsoft-azure-routetables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-routetables-api-openapi.yml
+- filename: microsoft-azure-routing-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Routing API
+  slug: microsoft-azure-routing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-routing-api-openapi.yml
+- filename: microsoft-azure-routingconfigurations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RoutingConfigurations API
+  slug: microsoft-azure-routingconfigurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-routingconfigurations-api-openapi.yml
+- filename: microsoft-azure-routingrulecollections-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RoutingRuleCollections API
+  slug: microsoft-azure-routingrulecollections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-routingrulecollections-api-openapi.yml
+- filename: microsoft-azure-routingrules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RoutingRules API
+  slug: microsoft-azure-routingrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-routingrules-api-openapi.yml
+- filename: microsoft-azure-rulecollections-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RuleCollections API
+  slug: microsoft-azure-rulecollections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-rulecollections-api-openapi.yml
+- filename: microsoft-azure-rules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Rules API
+  slug: microsoft-azure-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-rules-api-openapi.yml
+- filename: microsoft-azure-run-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Run API
+  slug: microsoft-azure-run-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-run-api-openapi.yml
+- filename: microsoft-azure-runartifacts-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RunArtifacts API
+  slug: microsoft-azure-runartifacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-runartifacts-api-openapi.yml
+- filename: microsoft-azure-runasaccountscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RunAsAccountsController API
+  slug: microsoft-azure-runasaccountscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-runasaccountscontroller-api-openapi.yml
+- filename: microsoft-azure-runmetrics-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure RunMetrics API
+  slug: microsoft-azure-runmetrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-runmetrics-api-openapi.yml
+- filename: microsoft-azure-saasoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SaaSOperations API
+  slug: microsoft-azure-saasoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-saasoperations-api-openapi.yml
+- filename: microsoft-azure-saasresources-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SaaSResources API
+  slug: microsoft-azure-saasresources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-saasresources-api-openapi.yml
+- filename: microsoft-azure-saved-filters-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Saved Filters API
+  slug: microsoft-azure-saved-filters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-saved-filters-api-openapi.yml
+- filename: microsoft-azure-savings-plan-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Savings Plan API
+  slug: microsoft-azure-savings-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-savings-plan-api-openapi.yml
+- filename: microsoft-azure-savings-plan-order-aliases-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Savings Plan Order Aliases API
+  slug: microsoft-azure-savings-plan-order-aliases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-savings-plan-order-aliases-api-openapi.yml
+- filename: microsoft-azure-savings-plan-order-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Savings Plan Order API
+  slug: microsoft-azure-savings-plan-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-savings-plan-order-api-openapi.yml
+- filename: microsoft-azure-scaleunitnodes-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ScaleUnitNodes API
+  slug: microsoft-azure-scaleunitnodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-scaleunitnodes-api-openapi.yml
+- filename: microsoft-azure-scalingplan-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ScalingPlan API
+  slug: microsoft-azure-scalingplan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-scalingplan-api-openapi.yml
+- filename: microsoft-azure-scalingplanpersonalschedule-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ScalingPlanPersonalSchedule API
+  slug: microsoft-azure-scalingplanpersonalschedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-scalingplanpersonalschedule-api-openapi.yml
+- filename: microsoft-azure-scalingplanpooledschedule-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ScalingPlanPooledSchedule API
+  slug: microsoft-azure-scalingplanpooledschedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-scalingplanpooledschedule-api-openapi.yml
+- filename: microsoft-azure-scan-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Scan API
+  slug: microsoft-azure-scan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-scan-api-openapi.yml
+- filename: microsoft-azure-scanresult-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ScanResult API
+  slug: microsoft-azure-scanresult-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-scanresult-api-openapi.yml
+- filename: microsoft-azure-scanrulesets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ScanRulesets API
+  slug: microsoft-azure-scanrulesets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-scanrulesets-api-openapi.yml
+- filename: microsoft-azure-scenes-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Scenes API
+  slug: microsoft-azure-scenes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-scenes-api-openapi.yml
+- filename: microsoft-azure-scheduledevents-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ScheduledEvents API
+  slug: microsoft-azure-scheduledevents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-scheduledevents-api-openapi.yml
+- filename: microsoft-azure-scheduledjobs-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure scheduledJobs API
+  slug: microsoft-azure-scheduledjobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-scheduledjobs-api-openapi.yml
+- filename: microsoft-azure-scheduledqueryrules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure scheduledQueryRules API
+  slug: microsoft-azure-scheduledqueryrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-scheduledqueryrules-api-openapi.yml
+- filename: microsoft-azure-schedules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Schedules API
+  slug: microsoft-azure-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-schedules-api-openapi.yml
+- filename: microsoft-azure-schema-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Schema API
+  slug: microsoft-azure-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-schema-api-openapi.yml
+- filename: microsoft-azure-schemagroups-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure $schemaGroups API
+  slug: microsoft-azure-schemagroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-schemagroups-api-openapi.yml
+- filename: microsoft-azure-scom-instance-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SCOM Instance API
+  slug: microsoft-azure-scom-instance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-scom-instance-api-openapi.yml
+- filename: microsoft-azure-scom-instances-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SCOM Instances API
+  slug: microsoft-azure-scom-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-scom-instances-api-openapi.yml
+- filename: microsoft-azure-scopeassignments-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ScopeAssignments API
+  slug: microsoft-azure-scopeassignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-scopeassignments-api-openapi.yml
+- filename: microsoft-azure-scopeconnections-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ScopeConnections API
+  slug: microsoft-azure-scopeconnections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-scopeconnections-api-openapi.yml
+- filename: microsoft-azure-search-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Search API
+  slug: microsoft-azure-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-search-api-openapi.yml
+- filename: microsoft-azure-seasonalfields-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SeasonalFields API
+  slug: microsoft-azure-seasonalfields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-seasonalfields-api-openapi.yml
+- filename: microsoft-azure-seasons-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Seasons API
+  slug: microsoft-azure-seasons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-seasons-api-openapi.yml
+- filename: microsoft-azure-secrets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Secrets API
+  slug: microsoft-azure-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-secrets-api-openapi.yml
+- filename: microsoft-azure-security-contacts-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Security Contacts API
+  slug: microsoft-azure-security-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-security-contacts-api-openapi.yml
+- filename: microsoft-azure-securityadminconfigurations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SecurityAdminConfigurations API
+  slug: microsoft-azure-securityadminconfigurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-securityadminconfigurations-api-openapi.yml
+- filename: microsoft-azure-securityadvisoryimpactedresources-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SecurityAdvisoryImpactedResources API
+  slug: microsoft-azure-securityadvisoryimpactedresources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-securityadvisoryimpactedresources-api-openapi.yml
+- filename: microsoft-azure-securityalert-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SecurityAlert API
+  slug: microsoft-azure-securityalert-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-securityalert-api-openapi.yml
+- filename: microsoft-azure-securityconnectors-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SecurityConnectors API
+  slug: microsoft-azure-securityconnectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-securityconnectors-api-openapi.yml
+- filename: microsoft-azure-securitypins-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SecurityPINs API
+  slug: microsoft-azure-securitypins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-securitypins-api-openapi.yml
+- filename: microsoft-azure-securityrules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SecurityRules API
+  slug: microsoft-azure-securityrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-securityrules-api-openapi.yml
+- filename: microsoft-azure-securityuserconfigurations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SecurityUserConfigurations API
+  slug: microsoft-azure-securityuserconfigurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-securityuserconfigurations-api-openapi.yml
+- filename: microsoft-azure-selfservicepolicies-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SelfServicePolicies API
+  slug: microsoft-azure-selfservicepolicies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-selfservicepolicies-api-openapi.yml
+- filename: microsoft-azure-sensitivitysettings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure sensitivitySettings API
+  slug: microsoft-azure-sensitivitysettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sensitivitysettings-api-openapi.yml
+- filename: microsoft-azure-sensordatamodels-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SensorDataModels API
+  slug: microsoft-azure-sensordatamodels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sensordatamodels-api-openapi.yml
+- filename: microsoft-azure-sensorevents-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SensorEvents API
+  slug: microsoft-azure-sensorevents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sensorevents-api-openapi.yml
+- filename: microsoft-azure-sensormappings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SensorMappings API
+  slug: microsoft-azure-sensormappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sensormappings-api-openapi.yml
+- filename: microsoft-azure-sensorpartnerintegrations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SensorPartnerIntegrations API
+  slug: microsoft-azure-sensorpartnerintegrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sensorpartnerintegrations-api-openapi.yml
+- filename: microsoft-azure-sensors-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Sensors API
+  slug: microsoft-azure-sensors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sensors-api-openapi.yml
+- filename: microsoft-azure-sentiment-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Sentiment API
+  slug: microsoft-azure-sentiment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sentiment-api-openapi.yml
+- filename: microsoft-azure-sentshare-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SentShare API
+  slug: microsoft-azure-sentshare-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sentshare-api-openapi.yml
+- filename: microsoft-azure-sentshareinvitation-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SentShareInvitation API
+  slug: microsoft-azure-sentshareinvitation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sentshareinvitation-api-openapi.yml
+- filename: microsoft-azure-serialports-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SerialPorts API
+  slug: microsoft-azure-serialports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-serialports-api-openapi.yml
+- filename: microsoft-azure-serveradministrators-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServerAdministrators API
+  slug: microsoft-azure-serveradministrators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-serveradministrators-api-openapi.yml
+- filename: microsoft-azure-servercall-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServerCall API
+  slug: microsoft-azure-servercall-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-servercall-api-openapi.yml
+- filename: microsoft-azure-servercollectorsoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServerCollectorsOperations API
+  slug: microsoft-azure-servercollectorsoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-servercollectorsoperations-api-openapi.yml
+- filename: microsoft-azure-serverdependencymapcontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServerDependencyMapController API
+  slug: microsoft-azure-serverdependencymapcontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-serverdependencymapcontroller-api-openapi.yml
+- filename: microsoft-azure-serverendpoint-resource-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServerEndpoint Resource API
+  slug: microsoft-azure-serverendpoint-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-serverendpoint-resource-api-openapi.yml
+- filename: microsoft-azure-serverfarms-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServerFarms API
+  slug: microsoft-azure-serverfarms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-serverfarms-api-openapi.yml
+- filename: microsoft-azure-servergroupoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServerGroupOperations API
+  slug: microsoft-azure-servergroupoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-servergroupoperations-api-openapi.yml
+- filename: microsoft-azure-servergroups-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServerGroups API
+  slug: microsoft-azure-servergroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-servergroups-api-openapi.yml
+- filename: microsoft-azure-serverjobscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServerJobsController API
+  slug: microsoft-azure-serverjobscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-serverjobscontroller-api-openapi.yml
+- filename: microsoft-azure-servermetrics-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServerMetrics API
+  slug: microsoft-azure-servermetrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-servermetrics-api-openapi.yml
+- filename: microsoft-azure-serveroperationsstatuscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServerOperationsStatusController API
+  slug: microsoft-azure-serveroperationsstatuscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-serveroperationsstatuscontroller-api-openapi.yml
+- filename: microsoft-azure-serverrestart-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServerRestart API
+  slug: microsoft-azure-serverrestart-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-serverrestart-api-openapi.yml
+- filename: microsoft-azure-serverrunasaccountscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServerRunAsAccountsController API
+  slug: microsoft-azure-serverrunasaccountscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-serverrunasaccountscontroller-api-openapi.yml
+- filename: microsoft-azure-servers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Servers API
+  slug: microsoft-azure-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-servers-api-openapi.yml
+- filename: microsoft-azure-serverscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServersController API
+  slug: microsoft-azure-serverscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-serverscontroller-api-openapi.yml
+- filename: microsoft-azure-serversecurityalertpolicies-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServerSecurityAlertPolicies API
+  slug: microsoft-azure-serversecurityalertpolicies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-serversecurityalertpolicies-api-openapi.yml
+- filename: microsoft-azure-serversitescontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServerSitesController API
+  slug: microsoft-azure-serversitescontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-serversitescontroller-api-openapi.yml
+- filename: microsoft-azure-serversoftwareinventoriescontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServerSoftwareInventoriesController API
+  slug: microsoft-azure-serversoftwareinventoriescontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-serversoftwareinventoriescontroller-api-openapi.yml
+- filename: microsoft-azure-service-health-api-openapi.yml
+  format: yaml
+  label: 'Microsoft Azure Service Health: API'
+  slug: microsoft-azure-service-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-service-health-api-openapi.yml
+- filename: microsoft-azure-service-package-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Service Package API
+  slug: microsoft-azure-service-package-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-service-package-api-openapi.yml
+- filename: microsoft-azure-servicefabrics-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServiceFabrics API
+  slug: microsoft-azure-servicefabrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-servicefabrics-api-openapi.yml
+- filename: microsoft-azure-servicefabricschedules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServiceFabricSchedules API
+  slug: microsoft-azure-servicefabricschedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-servicefabricschedules-api-openapi.yml
+- filename: microsoft-azure-servicehealths-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServiceHealths API
+  slug: microsoft-azure-servicehealths-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-servicehealths-api-openapi.yml
+- filename: microsoft-azure-servicemembers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServiceMembers API
+  slug: microsoft-azure-servicemembers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-servicemembers-api-openapi.yml
+- filename: microsoft-azure-serviceprincipal-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServicePrincipal API
+  slug: microsoft-azure-serviceprincipal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-serviceprincipal-api-openapi.yml
+- filename: microsoft-azure-serviceprincipalapproleassignedto-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServicePrincipalAppRoleAssignedTo API
+  slug: microsoft-azure-serviceprincipalapproleassignedto-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-serviceprincipalapproleassignedto-api-openapi.yml
+- filename: microsoft-azure-serviceprincipalapproleassignments-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServicePrincipalAppRoleAssignments API
+  slug: microsoft-azure-serviceprincipalapproleassignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-serviceprincipalapproleassignments-api-openapi.yml
+- filename: microsoft-azure-serviceprincipalkeycredentials-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServicePrincipalKeyCredentials API
+  slug: microsoft-azure-serviceprincipalkeycredentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-serviceprincipalkeycredentials-api-openapi.yml
+- filename: microsoft-azure-serviceprincipalowners-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServicePrincipalOwners API
+  slug: microsoft-azure-serviceprincipalowners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-serviceprincipalowners-api-openapi.yml
+- filename: microsoft-azure-serviceprincipalpasswordcredentials-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServicePrincipalPasswordCredentials API
+  slug: microsoft-azure-serviceprincipalpasswordcredentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-serviceprincipalpasswordcredentials-api-openapi.yml
+- filename: microsoft-azure-serviceprincipals-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure servicePrincipals API
+  slug: microsoft-azure-serviceprincipals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-serviceprincipals-api-openapi.yml
+- filename: microsoft-azure-serviceprincipalsbyappid-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServicePrincipalsByAppId API
+  slug: microsoft-azure-serviceprincipalsbyappid-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-serviceprincipalsbyappid-api-openapi.yml
+- filename: microsoft-azure-servicerunners-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServiceRunners API
+  slug: microsoft-azure-servicerunners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-servicerunners-api-openapi.yml
+- filename: microsoft-azure-services-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Services API
+  slug: microsoft-azure-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-services-api-openapi.yml
+- filename: microsoft-azure-servicestats-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Servicestats API
+  slug: microsoft-azure-servicestats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-servicestats-api-openapi.yml
+- filename: microsoft-azure-servicetype-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ServiceType API
+  slug: microsoft-azure-servicetype-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-servicetype-api-openapi.yml
+- filename: microsoft-azure-sessionhost-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SessionHost API
+  slug: microsoft-azure-sessionhost-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sessionhost-api-openapi.yml
+- filename: microsoft-azure-sessionhostconfiguration-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SessionHostConfiguration API
+  slug: microsoft-azure-sessionhostconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sessionhostconfiguration-api-openapi.yml
+- filename: microsoft-azure-sessionhostconfigurations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SessionHostConfigurations API
+  slug: microsoft-azure-sessionhostconfigurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sessionhostconfigurations-api-openapi.yml
+- filename: microsoft-azure-sessionhostmanagement-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SessionHostManagement API
+  slug: microsoft-azure-sessionhostmanagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sessionhostmanagement-api-openapi.yml
+- filename: microsoft-azure-sessionhostmanagements-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SessionHostManagements API
+  slug: microsoft-azure-sessionhostmanagements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sessionhostmanagements-api-openapi.yml
+- filename: microsoft-azure-settings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Settings API
+  slug: microsoft-azure-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-settings-api-openapi.yml
+- filename: microsoft-azure-share-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Share API
+  slug: microsoft-azure-share-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-share-api-openapi.yml
+- filename: microsoft-azure-sharedgalleries-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SharedGalleries API
+  slug: microsoft-azure-sharedgalleries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sharedgalleries-api-openapi.yml
+- filename: microsoft-azure-sharedgalleryimages-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SharedGalleryImages API
+  slug: microsoft-azure-sharedgalleryimages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sharedgalleryimages-api-openapi.yml
+- filename: microsoft-azure-sharedgalleryimageversions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SharedGalleryImageVersions API
+  slug: microsoft-azure-sharedgalleryimageversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sharedgalleryimageversions-api-openapi.yml
+- filename: microsoft-azure-sharedprivatelinkresources-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SharedPrivateLinkResources API
+  slug: microsoft-azure-sharedprivatelinkresources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sharedprivatelinkresources-api-openapi.yml
+- filename: microsoft-azure-shareresource-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ShareResource API
+  slug: microsoft-azure-shareresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-shareresource-api-openapi.yml
+- filename: microsoft-azure-shares-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Shares API
+  slug: microsoft-azure-shares-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-shares-api-openapi.yml
+- filename: microsoft-azure-sharesubscription-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ShareSubscription API
+  slug: microsoft-azure-sharesubscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sharesubscription-api-openapi.yml
+- filename: microsoft-azure-signalr-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SignalR API
+  slug: microsoft-azure-signalr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-signalr-api-openapi.yml
+- filename: microsoft-azure-signedinuser-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SignedInUser API
+  slug: microsoft-azure-signedinuser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-signedinuser-api-openapi.yml
+- filename: microsoft-azure-sim-swap-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Sim Swap API
+  slug: microsoft-azure-sim-swap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sim-swap-api-openapi.yml
+- filename: microsoft-azure-simplifiedsolutions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure simplifiedSolutions API
+  slug: microsoft-azure-simplifiedsolutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-simplifiedsolutions-api-openapi.yml
+- filename: microsoft-azure-singlesignon-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SingleSignOn API
+  slug: microsoft-azure-singlesignon-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-singlesignon-api-openapi.yml
+- filename: microsoft-azure-sipconfiguration-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SipConfiguration API
+  slug: microsoft-azure-sipconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sipconfiguration-api-openapi.yml
+- filename: microsoft-azure-sites-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Sites API
+  slug: microsoft-azure-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sites-api-openapi.yml
+- filename: microsoft-azure-sitescontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SitesController API
+  slug: microsoft-azure-sitescontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sitescontroller-api-openapi.yml
+- filename: microsoft-azure-skillsets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Skillsets API
+  slug: microsoft-azure-skillsets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-skillsets-api-openapi.yml
+- filename: microsoft-azure-sku-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Sku API
+  slug: microsoft-azure-sku-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sku-api-openapi.yml
+- filename: microsoft-azure-skus-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Skus API
+  slug: microsoft-azure-skus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-skus-api-openapi.yml
+- filename: microsoft-azure-smfdeployments-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SmfDeployments API
+  slug: microsoft-azure-smfdeployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-smfdeployments-api-openapi.yml
+- filename: microsoft-azure-sms-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Sms API
+  slug: microsoft-azure-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sms-api-openapi.yml
+- filename: microsoft-azure-snapshot-policy-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Snapshot Policy API
+  slug: microsoft-azure-snapshot-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-snapshot-policy-api-openapi.yml
+- filename: microsoft-azure-snapshot-policy-list-volumes-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Snapshot Policy List Volumes API
+  slug: microsoft-azure-snapshot-policy-list-volumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-snapshot-policy-list-volumes-api-openapi.yml
+- filename: microsoft-azure-snapshots-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Snapshots API
+  slug: microsoft-azure-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-snapshots-api-openapi.yml
+- filename: microsoft-azure-softdeletedcontainers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SoftDeletedContainers API
+  slug: microsoft-azure-softdeletedcontainers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-softdeletedcontainers-api-openapi.yml
+- filename: microsoft-azure-software-plan-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Software Plan API
+  slug: microsoft-azure-software-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-software-plan-api-openapi.yml
+- filename: microsoft-azure-software-plan-operations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Software Plan Operations API
+  slug: microsoft-azure-software-plan-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-software-plan-operations-api-openapi.yml
+- filename: microsoft-azure-software-update-configuration-run-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Software Update Configuration Run API
+  slug: microsoft-azure-software-update-configuration-run-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-software-update-configuration-run-api-openapi.yml
+- filename: microsoft-azure-solution-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Solution API
+  slug: microsoft-azure-solution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-solution-api-openapi.yml
+- filename: microsoft-azure-solutioninference-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SolutionInference API
+  slug: microsoft-azure-solutioninference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-solutioninference-api-openapi.yml
+- filename: microsoft-azure-solutions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Solutions API
+  slug: microsoft-azure-solutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-solutions-api-openapi.yml
+- filename: microsoft-azure-solutionscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SolutionsController API
+  slug: microsoft-azure-solutionscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-solutionscontroller-api-openapi.yml
+- filename: microsoft-azure-solutionsdiscoverability-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SolutionsDiscoverability API
+  slug: microsoft-azure-solutionsdiscoverability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-solutionsdiscoverability-api-openapi.yml
+- filename: microsoft-azure-solutionselfhelp-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SolutionSelfHelp API
+  slug: microsoft-azure-solutionselfhelp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-solutionselfhelp-api-openapi.yml
+- filename: microsoft-azure-sourcecontrolconfiguration-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SourceControlConfiguration API
+  slug: microsoft-azure-sourcecontrolconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sourcecontrolconfiguration-api-openapi.yml
+- filename: microsoft-azure-spaces-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Spaces API
+  slug: microsoft-azure-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-spaces-api-openapi.yml
+- filename: microsoft-azure-sparkbatch-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SparkBatch API
+  slug: microsoft-azure-sparkbatch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sparkbatch-api-openapi.yml
+- filename: microsoft-azure-sparksession-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SparkSession API
+  slug: microsoft-azure-sparksession-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sparksession-api-openapi.yml
+- filename: microsoft-azure-spatial-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Spatial API
+  slug: microsoft-azure-spatial-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-spatial-api-openapi.yml
+- filename: microsoft-azure-spellcheck-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SpellCheck API
+  slug: microsoft-azure-spellcheck-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-spellcheck-api-openapi.yml
+- filename: microsoft-azure-split-clone-volume-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Split Clone Volume API
+  slug: microsoft-azure-split-clone-volume-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-split-clone-volume-api-openapi.yml
+- filename: microsoft-azure-spotplacementrecommender-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure spotPlacementRecommender API
+  slug: microsoft-azure-spotplacementrecommender-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-spotplacementrecommender-api-openapi.yml
+- filename: microsoft-azure-springbootapps-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Springbootapps API
+  slug: microsoft-azure-springbootapps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-springbootapps-api-openapi.yml
+- filename: microsoft-azure-springbootservers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Springbootservers API
+  slug: microsoft-azure-springbootservers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-springbootservers-api-openapi.yml
+- filename: microsoft-azure-springbootsites-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Springbootsites API
+  slug: microsoft-azure-springbootsites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-springbootsites-api-openapi.yml
+- filename: microsoft-azure-sqlassessmentoptionsoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SqlAssessmentOptionsOperations API
+  slug: microsoft-azure-sqlassessmentoptionsoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sqlassessmentoptionsoperations-api-openapi.yml
+- filename: microsoft-azure-sqlassessmentv2operations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SqlAssessmentV2Operations API
+  slug: microsoft-azure-sqlassessmentv2operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sqlassessmentv2operations-api-openapi.yml
+- filename: microsoft-azure-sqlassessmentv2summaryoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SqlAssessmentV2SummaryOperations API
+  slug: microsoft-azure-sqlassessmentv2summaryoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sqlassessmentv2summaryoperations-api-openapi.yml
+- filename: microsoft-azure-sqlavailabilitygroupscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SqlAvailabilityGroupsController API
+  slug: microsoft-azure-sqlavailabilitygroupscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sqlavailabilitygroupscontroller-api-openapi.yml
+- filename: microsoft-azure-sqlcollectoroperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SqlCollectorOperations API
+  slug: microsoft-azure-sqlcollectoroperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sqlcollectoroperations-api-openapi.yml
+- filename: microsoft-azure-sqldatabasescontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SqlDatabasesController API
+  slug: microsoft-azure-sqldatabasescontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sqldatabasescontroller-api-openapi.yml
+- filename: microsoft-azure-sqldiscoverysitedatasourcecontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SqlDiscoverySiteDataSourceController API
+  slug: microsoft-azure-sqldiscoverysitedatasourcecontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sqldiscoverysitedatasourcecontroller-api-openapi.yml
+- filename: microsoft-azure-sqljobscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SqlJobsController API
+  slug: microsoft-azure-sqljobscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sqljobscontroller-api-openapi.yml
+- filename: microsoft-azure-sqlmigrationservices-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SqlMigrationServices API
+  slug: microsoft-azure-sqlmigrationservices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sqlmigrationservices-api-openapi.yml
+- filename: microsoft-azure-sqloperationsstatuscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SqlOperationsStatusController API
+  slug: microsoft-azure-sqloperationsstatuscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sqloperationsstatuscontroller-api-openapi.yml
+- filename: microsoft-azure-sqlpoolsv3-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SqlPoolsV3 API
+  slug: microsoft-azure-sqlpoolsv3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sqlpoolsv3-api-openapi.yml
+- filename: microsoft-azure-sqlrunasaccountscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SqlRunAsAccountsController API
+  slug: microsoft-azure-sqlrunasaccountscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sqlrunasaccountscontroller-api-openapi.yml
+- filename: microsoft-azure-sqlserverregistrations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SqlServerRegistrations API
+  slug: microsoft-azure-sqlserverregistrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sqlserverregistrations-api-openapi.yml
+- filename: microsoft-azure-sqlservers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SqlServers API
+  slug: microsoft-azure-sqlservers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sqlservers-api-openapi.yml
+- filename: microsoft-azure-sqlserverscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SqlServersController API
+  slug: microsoft-azure-sqlserverscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sqlserverscontroller-api-openapi.yml
+- filename: microsoft-azure-sqlsitescontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SqlSitesController API
+  slug: microsoft-azure-sqlsitescontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sqlsitescontroller-api-openapi.yml
+- filename: microsoft-azure-sqlvirtualmachinegroups-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SqlVirtualMachineGroups API
+  slug: microsoft-azure-sqlvirtualmachinegroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sqlvirtualmachinegroups-api-openapi.yml
+- filename: microsoft-azure-sqlvirtualmachines-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SqlVirtualMachines API
+  slug: microsoft-azure-sqlvirtualmachines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sqlvirtualmachines-api-openapi.yml
+- filename: microsoft-azure-sqlvirtualmachinetroubleshoot-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SqlVirtualMachineTroubleshoot API
+  slug: microsoft-azure-sqlvirtualmachinetroubleshoot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sqlvirtualmachinetroubleshoot-api-openapi.yml
+- filename: microsoft-azure-standbycontainergrouppools-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure StandbyContainerGroupPools API
+  slug: microsoft-azure-standbycontainergrouppools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-standbycontainergrouppools-api-openapi.yml
+- filename: microsoft-azure-standbyvirtualmachinepools-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure StandbyVirtualMachinePools API
+  slug: microsoft-azure-standbyvirtualmachinepools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-standbyvirtualmachinepools-api-openapi.yml
+- filename: microsoft-azure-standbyvirtualmachines-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure StandbyVirtualMachines API
+  slug: microsoft-azure-standbyvirtualmachines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-standbyvirtualmachines-api-openapi.yml
+- filename: microsoft-azure-startmenuitem-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure StartMenuItem API
+  slug: microsoft-azure-startmenuitem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-startmenuitem-api-openapi.yml
+- filename: microsoft-azure-staticmembers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure StaticMembers API
+  slug: microsoft-azure-staticmembers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-staticmembers-api-openapi.yml
+- filename: microsoft-azure-staticsites-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure StaticSites API
+  slug: microsoft-azure-staticsites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-staticsites-api-openapi.yml
+- filename: microsoft-azure-storage-actions-operations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Storage Actions Operations API
+  slug: microsoft-azure-storage-actions-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-storage-actions-operations-api-openapi.yml
+- filename: microsoft-azure-storage-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Storage API
+  slug: microsoft-azure-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-storage-api-openapi.yml
+- filename: microsoft-azure-storageaccountcredentials-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure StorageAccountCredentials API
+  slug: microsoft-azure-storageaccountcredentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-storageaccountcredentials-api-openapi.yml
+- filename: microsoft-azure-storageaccounts-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure StorageAccounts API
+  slug: microsoft-azure-storageaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-storageaccounts-api-openapi.yml
+- filename: microsoft-azure-storageclass-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure StorageClass API
+  slug: microsoft-azure-storageclass-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-storageclass-api-openapi.yml
+- filename: microsoft-azure-storagedomains-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure StorageDomains API
+  slug: microsoft-azure-storagedomains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-storagedomains-api-openapi.yml
+- filename: microsoft-azure-storageimportexport-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure StorageImportExport API
+  slug: microsoft-azure-storageimportexport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-storageimportexport-api-openapi.yml
+- filename: microsoft-azure-storagemovers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure StorageMovers API
+  slug: microsoft-azure-storagemovers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-storagemovers-api-openapi.yml
+- filename: microsoft-azure-storagepooloperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure StoragePoolOperations API
+  slug: microsoft-azure-storagepooloperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-storagepooloperations-api-openapi.yml
+- filename: microsoft-azure-storagesyncservice-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure StorageSyncService API
+  slug: microsoft-azure-storagesyncservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-storagesyncservice-api-openapi.yml
+- filename: microsoft-azure-storagesyncservices-resource-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure StorageSyncServices Resource API
+  slug: microsoft-azure-storagesyncservices-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-storagesyncservices-resource-api-openapi.yml
+- filename: microsoft-azure-storagetargets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure StorageTargets API
+  slug: microsoft-azure-storagetargets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-storagetargets-api-openapi.yml
+- filename: microsoft-azure-storagetasks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure StorageTasks API
+  slug: microsoft-azure-storagetasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-storagetasks-api-openapi.yml
+- filename: microsoft-azure-stored-procedures-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Stored Procedures API
+  slug: microsoft-azure-stored-procedures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-stored-procedures-api-openapi.yml
+- filename: microsoft-azure-stream-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Stream API
+  slug: microsoft-azure-stream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-stream-api-openapi.yml
+- filename: microsoft-azure-studentlabs-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure StudentLabs API
+  slug: microsoft-azure-studentlabs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-studentlabs-api-openapi.yml
+- filename: microsoft-azure-students-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Students API
+  slug: microsoft-azure-students-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-students-api-openapi.yml
+- filename: microsoft-azure-styles-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Styles API
+  slug: microsoft-azure-styles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-styles-api-openapi.yml
+- filename: microsoft-azure-subaccount-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SubAccount API
+  slug: microsoft-azure-subaccount-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-subaccount-api-openapi.yml
+- filename: microsoft-azure-subnets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Subnets API
+  slug: microsoft-azure-subnets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-subnets-api-openapi.yml
+- filename: microsoft-azure-subscription-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Subscription API
+  slug: microsoft-azure-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-subscription-api-openapi.yml
+- filename: microsoft-azure-subscriptiondefinitions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SubscriptionDefinitions API
+  slug: microsoft-azure-subscriptiondefinitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-subscriptiondefinitions-api-openapi.yml
+- filename: microsoft-azure-subscriptionlevelprofessionalserviceresources-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SubscriptionLevelProfessionalServiceResources API
+  slug: microsoft-azure-subscriptionlevelprofessionalserviceresources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-subscriptionlevelprofessionalserviceresources-api-openapi.yml
+- filename: microsoft-azure-subscriptionlevelsaasresources-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SubscriptionLevelSaaSResources API
+  slug: microsoft-azure-subscriptionlevelsaasresources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-subscriptionlevelsaasresources-api-openapi.yml
+- filename: microsoft-azure-subscriptions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Subscriptions API
+  slug: microsoft-azure-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-subscriptions-api-openapi.yml
+- filename: microsoft-azure-subvolumes-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Subvolumes API
+  slug: microsoft-azure-subvolumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-subvolumes-api-openapi.yml
+- filename: microsoft-azure-suggesttagsandregionsapi-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SuggestTagsAndRegionsApi API
+  slug: microsoft-azure-suggesttagsandregionsapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-suggesttagsandregionsapi-api-openapi.yml
+- filename: microsoft-azure-summaries-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Summaries API
+  slug: microsoft-azure-summaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-summaries-api-openapi.yml
+- filename: microsoft-azure-supportedimages-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Supportedimages API
+  slug: microsoft-azure-supportedimages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-supportedimages-api-openapi.yml
+- filename: microsoft-azure-supportedoperatingsystems-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SupportedOperatingSystems API
+  slug: microsoft-azure-supportedoperatingsystems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-supportedoperatingsystems-api-openapi.yml
+- filename: microsoft-azure-supportpackages-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SupportPackages API
+  slug: microsoft-azure-supportpackages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-supportpackages-api-openapi.yml
+- filename: microsoft-azure-supporttickets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SupportTickets API
+  slug: microsoft-azure-supporttickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-supporttickets-api-openapi.yml
+- filename: microsoft-azure-suppressionlists-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SuppressionLists API
+  slug: microsoft-azure-suppressionlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-suppressionlists-api-openapi.yml
+- filename: microsoft-azure-synapserbacscopes-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SynapseRbacScopes API
+  slug: microsoft-azure-synapserbacscopes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-synapserbacscopes-api-openapi.yml
+- filename: microsoft-azure-synapseroledefinitions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SynapseRoleDefinitions API
+  slug: microsoft-azure-synapseroledefinitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-synapseroledefinitions-api-openapi.yml
+- filename: microsoft-azure-syncgroup-resource-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SyncGroup Resource API
+  slug: microsoft-azure-syncgroup-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-syncgroup-resource-api-openapi.yml
+- filename: microsoft-azure-synchronizationsetting-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SynchronizationSetting API
+  slug: microsoft-azure-synchronizationsetting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-synchronizationsetting-api-openapi.yml
+- filename: microsoft-azure-synonymmaps-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SynonymMaps API
+  slug: microsoft-azure-synonymmaps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-synonymmaps-api-openapi.yml
+- filename: microsoft-azure-systemscanrulesets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SystemScanRulesets API
+  slug: microsoft-azure-systemscanrulesets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-systemscanrulesets-api-openapi.yml
+- filename: microsoft-azure-systemtopics-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure SystemTopics API
+  slug: microsoft-azure-systemtopics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-systemtopics-api-openapi.yml
+- filename: microsoft-azure-table-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Table API
+  slug: microsoft-azure-table-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-table-api-openapi.yml
+- filename: microsoft-azure-tag-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Tag API
+  slug: microsoft-azure-tag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-tag-api-openapi.yml
+- filename: microsoft-azure-tagapilink-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TagApiLink API
+  slug: microsoft-azure-tagapilink-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-tagapilink-api-openapi.yml
+- filename: microsoft-azure-tagoperationlink-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TagOperationLink API
+  slug: microsoft-azure-tagoperationlink-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-tagoperationlink-api-openapi.yml
+- filename: microsoft-azure-tagproductlink-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TagProductLink API
+  slug: microsoft-azure-tagproductlink-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-tagproductlink-api-openapi.yml
+- filename: microsoft-azure-tagrules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TagRules API
+  slug: microsoft-azure-tagrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-tagrules-api-openapi.yml
+- filename: microsoft-azure-tags-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Tags API
+  slug: microsoft-azure-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-tags-api-openapi.yml
+- filename: microsoft-azure-tagsapi-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TagsApi API
+  slug: microsoft-azure-tagsapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-tagsapi-api-openapi.yml
+- filename: microsoft-azure-targetcomputesizes-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TargetComputeSizes API
+  slug: microsoft-azure-targetcomputesizes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-targetcomputesizes-api-openapi.yml
+- filename: microsoft-azure-targets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Targets API
+  slug: microsoft-azure-targets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-targets-api-openapi.yml
+- filename: microsoft-azure-tasks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Tasks API
+  slug: microsoft-azure-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-tasks-api-openapi.yml
+- filename: microsoft-azure-tcbbaseline-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TcbBaseline API
+  slug: microsoft-azure-tcbbaseline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-tcbbaseline-api-openapi.yml
+- filename: microsoft-azure-teamsavailablecapabilities-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TeamsAvailableCapabilities API
+  slug: microsoft-azure-teamsavailablecapabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-teamsavailablecapabilities-api-openapi.yml
+- filename: microsoft-azure-teamscapabilityplans-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TeamsCapabilityPlans API
+  slug: microsoft-azure-teamscapabilityplans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-teamscapabilityplans-api-openapi.yml
+- filename: microsoft-azure-teamscivicaddress-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TeamsCivicAddress API
+  slug: microsoft-azure-teamscivicaddress-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-teamscivicaddress-api-openapi.yml
+- filename: microsoft-azure-teamscivicaddresses-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TeamsCivicAddresses API
+  slug: microsoft-azure-teamscivicaddresses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-teamscivicaddresses-api-openapi.yml
+- filename: microsoft-azure-teamsrequestforinformation-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TeamsRequestForInformation API
+  slug: microsoft-azure-teamsrequestforinformation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-teamsrequestforinformation-api-openapi.yml
+- filename: microsoft-azure-template-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Template API
+  slug: microsoft-azure-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-template-api-openapi.yml
+- filename: microsoft-azure-templatespecs-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TemplateSpecs API
+  slug: microsoft-azure-templatespecs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-templatespecs-api-openapi.yml
+- filename: microsoft-azure-templatespecversions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TemplateSpecVersions API
+  slug: microsoft-azure-templatespecversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-templatespecversions-api-openapi.yml
+- filename: microsoft-azure-tenant-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Tenant API
+  slug: microsoft-azure-tenant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-tenant-api-openapi.yml
+- filename: microsoft-azure-tenantemailregistration-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TenantEmailRegistration API
+  slug: microsoft-azure-tenantemailregistration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-tenantemailregistration-api-openapi.yml
+- filename: microsoft-azure-tenantlevelgetaccessreviewinstancecontactedreviewers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TenantLevelGetAccessReviewInstanceContactedReviewers API
+  slug: microsoft-azure-tenantlevelgetaccessreviewinstancecontactedreviewers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-tenantlevelgetaccessreviewinstancecontactedreviewers-api-openapi.yml
+- filename: microsoft-azure-test-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Test API
+  slug: microsoft-azure-test-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-test-api-openapi.yml
+- filename: microsoft-azure-test-base-account-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Test Base Account API
+  slug: microsoft-azure-test-base-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-test-base-account-api-openapi.yml
+- filename: microsoft-azure-test-base-customer-event-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Test Base Customer Event API
+  slug: microsoft-azure-test-base-customer-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-test-base-customer-event-api-openapi.yml
+- filename: microsoft-azure-test-base-customer-notification-events-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Test Base Customer Notification Events API
+  slug: microsoft-azure-test-base-customer-notification-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-test-base-customer-notification-events-api-openapi.yml
+- filename: microsoft-azure-test-base-email-event-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Test Base Email Event API
+  slug: microsoft-azure-test-base-email-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-test-base-email-event-api-openapi.yml
+- filename: microsoft-azure-test-base-package-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Test Base Package API
+  slug: microsoft-azure-test-base-package-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-test-base-package-api-openapi.yml
+- filename: microsoft-azure-test-result-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Test Result API
+  slug: microsoft-azure-test-result-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-test-result-api-openapi.yml
+- filename: microsoft-azure-testlines-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TestLines API
+  slug: microsoft-azure-testlines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-testlines-api-openapi.yml
+- filename: microsoft-azure-testrun-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TestRun API
+  slug: microsoft-azure-testrun-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-testrun-api-openapi.yml
+- filename: microsoft-azure-text-analyze-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Text:analyze API
+  slug: microsoft-azure-text-analyze-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-text-analyze-api-openapi.yml
+- filename: microsoft-azure-text-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Text API
+  slug: microsoft-azure-text-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-text-api-openapi.yml
+- filename: microsoft-azure-text-dependent-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Text-Dependent API
+  slug: microsoft-azure-text-dependent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-text-dependent-api-openapi.yml
+- filename: microsoft-azure-text-detectgroundedness-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure text:detectGroundedness API
+  slug: microsoft-azure-text-detectgroundedness-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-text-detectgroundedness-api-openapi.yml
+- filename: microsoft-azure-text-detectjailbreak-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure text:detectJailbreak API
+  slug: microsoft-azure-text-detectjailbreak-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-text-detectjailbreak-api-openapi.yml
+- filename: microsoft-azure-text-detectprotectedmaterial-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure text:detectProtectedMaterial API
+  slug: microsoft-azure-text-detectprotectedmaterial-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-text-detectprotectedmaterial-api-openapi.yml
+- filename: microsoft-azure-text-independent-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Text-Independent API
+  slug: microsoft-azure-text-independent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-text-independent-api-openapi.yml
+- filename: microsoft-azure-text-shieldprompt-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure text:shieldPrompt API
+  slug: microsoft-azure-text-shieldprompt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-text-shieldprompt-api-openapi.yml
+- filename: microsoft-azure-textmoderation-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TextModeration API
+  slug: microsoft-azure-textmoderation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-textmoderation-api-openapi.yml
+- filename: microsoft-azure-textoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure textOperations API
+  slug: microsoft-azure-textoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-textoperations-api-openapi.yml
+- filename: microsoft-azure-threads-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Threads API
+  slug: microsoft-azure-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-threads-api-openapi.yml
+- filename: microsoft-azure-throughputpools-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ThroughputPools API
+  slug: microsoft-azure-throughputpools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-throughputpools-api-openapi.yml
+- filename: microsoft-azure-tilesets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Tilesets API
+  slug: microsoft-azure-tilesets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-tilesets-api-openapi.yml
+- filename: microsoft-azure-tillagedata-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TillageData API
+  slug: microsoft-azure-tillagedata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-tillagedata-api-openapi.yml
+- filename: microsoft-azure-timeseries-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Timeseries API
+  slug: microsoft-azure-timeseries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-timeseries-api-openapi.yml
+- filename: microsoft-azure-timezone-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Timezone API
+  slug: microsoft-azure-timezone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-timezone-api-openapi.yml
+- filename: microsoft-azure-token-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Token API
+  slug: microsoft-azure-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-token-api-openapi.yml
+- filename: microsoft-azure-tomcatwebapplicationscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TomcatWebApplicationsController API
+  slug: microsoft-azure-tomcatwebapplicationscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-tomcatwebapplicationscontroller-api-openapi.yml
+- filename: microsoft-azure-tomcatwebserverscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TomcatWebServersController API
+  slug: microsoft-azure-tomcatwebserverscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-tomcatwebserverscontroller-api-openapi.yml
+- filename: microsoft-azure-topics-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Topics API
+  slug: microsoft-azure-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-topics-api-openapi.yml
+- filename: microsoft-azure-topictypes-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TopicTypes API
+  slug: microsoft-azure-topictypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-topictypes-api-openapi.yml
+- filename: microsoft-azure-topleveldomains-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TopLevelDomains API
+  slug: microsoft-azure-topleveldomains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-topleveldomains-api-openapi.yml
+- filename: microsoft-azure-topquerystatistics-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TopQueryStatistics API
+  slug: microsoft-azure-topquerystatistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-topquerystatistics-api-openapi.yml
+- filename: microsoft-azure-track-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Track API
+  slug: microsoft-azure-track-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-track-api-openapi.yml
+- filename: microsoft-azure-traffic-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Traffic API
+  slug: microsoft-azure-traffic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-traffic-api-openapi.yml
+- filename: microsoft-azure-trafficcontrollerinterface-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TrafficControllerInterface API
+  slug: microsoft-azure-trafficcontrollerinterface-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-trafficcontrollerinterface-api-openapi.yml
+- filename: microsoft-azure-trafficfilter-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TrafficFilter API
+  slug: microsoft-azure-trafficfilter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-trafficfilter-api-openapi.yml
+- filename: microsoft-azure-trainingset-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TrainingSet API
+  slug: microsoft-azure-trainingset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-trainingset-api-openapi.yml
+- filename: microsoft-azure-transactionnode-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TransactionNode API
+  slug: microsoft-azure-transactionnode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-transactionnode-api-openapi.yml
+- filename: microsoft-azure-transformations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Transformations API
+  slug: microsoft-azure-transformations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-transformations-api-openapi.yml
+- filename: microsoft-azure-translate-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Translate API
+  slug: microsoft-azure-translate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-translate-api-openapi.yml
+- filename: microsoft-azure-transliterate-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Transliterate API
+  slug: microsoft-azure-transliterate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-transliterate-api-openapi.yml
+- filename: microsoft-azure-trialmatcher-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TrialMatcher API
+  slug: microsoft-azure-trialmatcher-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-trialmatcher-api-openapi.yml
+- filename: microsoft-azure-trigger-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Trigger API
+  slug: microsoft-azure-trigger-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-trigger-api-openapi.yml
+- filename: microsoft-azure-triggers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Triggers API
+  slug: microsoft-azure-triggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-triggers-api-openapi.yml
+- filename: microsoft-azure-troubleshooter-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Troubleshooter API
+  slug: microsoft-azure-troubleshooter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-troubleshooter-api-openapi.yml
+- filename: microsoft-azure-trustedidproviders-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TrustedIdProviders API
+  slug: microsoft-azure-trustedidproviders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-trustedidproviders-api-openapi.yml
+- filename: microsoft-azure-turn-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Turn API
+  slug: microsoft-azure-turn-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-turn-api-openapi.yml
+- filename: microsoft-azure-twins-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Twins API
+  slug: microsoft-azure-twins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-twins-api-openapi.yml
+- filename: microsoft-azure-type-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Type API
+  slug: microsoft-azure-type-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-type-api-openapi.yml
+- filename: microsoft-azure-types-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Types API
+  slug: microsoft-azure-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-types-api-openapi.yml
+- filename: microsoft-azure-typingnotifications-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure TypingNotifications API
+  slug: microsoft-azure-typingnotifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-typingnotifications-api-openapi.yml
+- filename: microsoft-azure-update-management-api-openapi.yml
   format: yaml
   label: Microsoft Azure Update Management API
-  slug: update-management-api
+  slug: microsoft-azure-update-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/update-management-api-openapi-original.yml
-- filename: usagemanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-update-management-api-openapi.yml
+- filename: microsoft-azure-updateruns-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Usage Management Client
-  slug: usagemanagementclient
+  label: Microsoft Azure UpdateRuns API
+  slug: microsoft-azure-updateruns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/usagemanagementclient-openapi-original.yml
-- filename: vi-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-updateruns-api-openapi.yml
+- filename: microsoft-azure-updates-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Vi
-  slug: vi
+  label: Microsoft Azure Updates API
+  slug: microsoft-azure-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/vi-openapi-original.yml
-- filename: azure-video-analyzer-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-updates-api-openapi.yml
+- filename: microsoft-azure-upfdeployments-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Video Analyzer
-  slug: azure-video-analyzer
+  label: Microsoft Azure UpfDeployments API
+  slug: microsoft-azure-upfdeployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-video-analyzer-openapi-original.yml
-- filename: azure-video-analyzer-for-edge-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-upfdeployments-api-openapi.yml
+- filename: microsoft-azure-usage-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Video Analyzer for Edge
-  slug: azure-video-analyzer-for-edge
+  label: Microsoft Azure Usage API
+  slug: microsoft-azure-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-video-analyzer-for-edge-openapi-original.yml
-- filename: azure-video-analyzer-resource-provider-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-usage-api-openapi.yml
+- filename: microsoft-azure-usageaggregates-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Video Analyzer Resource Provider
-  slug: azure-video-analyzer-resource-provider
+  label: Microsoft Azure UsageAggregates API
+  slug: microsoft-azure-usageaggregates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-video-analyzer-resource-provider-openapi-original.yml
-- filename: virtualwanasaservicemanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-usageaggregates-api-openapi.yml
+- filename: microsoft-azure-usagedetails-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Virtual Wanas Aservice Management Client
-  slug: virtualwanasaservicemanagementclient
+  label: Microsoft Azure UsageDetails API
+  slug: microsoft-azure-usagedetails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/virtualwanasaservicemanagementclient-openapi-original.yml
-- filename: visual-studio-projects-resource-provider-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-usagedetails-api-openapi.yml
+- filename: microsoft-azure-usagemodels-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Visual Studio Projects Resource Provider Client
-  slug: visual-studio-projects-resource-provider-client
+  label: Microsoft Azure UsageModels API
+  slug: microsoft-azure-usagemodels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/visual-studio-projects-resource-provider-client-openapi-original.yml
-- filename: visual-studio-resource-provider-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-usagemodels-api-openapi.yml
+- filename: microsoft-azure-usages-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Visual Studio Resource Provider Client
-  slug: visual-studio-resource-provider-client
+  label: Microsoft Azure Usages API
+  slug: microsoft-azure-usages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/visual-studio-resource-provider-client-openapi-original.yml
-- filename: vm-insights-onboarding-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-usages-api-openapi.yml
+- filename: microsoft-azure-usagesinformation-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Vm Insights Onboarding API
-  slug: vm-insights-onboarding-api
+  label: Microsoft Azure UsagesInformation API
+  slug: microsoft-azure-usagesinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/vm-insights-onboarding-api-openapi-original.yml
-- filename: vmwarecloudsimple-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-usagesinformation-api-openapi.yml
+- filename: microsoft-azure-user-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Vmware Cloud Simple
-  slug: vmwarecloudsimple
+  label: Microsoft Azure User API
+  slug: microsoft-azure-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/vmwarecloudsimple-openapi-original.yml
-- filename: azure-vmware-solution-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-user-api-openapi.yml
+- filename: microsoft-azure-userlogin-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Vmware Solution API
-  slug: azure-vmware-solution-api
+  label: Microsoft Azure userLogin API
+  slug: microsoft-azure-userlogin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-vmware-solution-api-openapi-original.yml
-- filename: vnetclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-userlogin-api-openapi.yml
+- filename: microsoft-azure-userorganization-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Vnet Client
-  slug: vnetclient
+  label: Microsoft Azure UserOrganization API
+  slug: microsoft-azure-userorganization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/vnetclient-openapi-original.yml
-- filename: microsoftvoiceservices-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-userorganization-api-openapi.yml
+- filename: microsoft-azure-userrequests-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Voice Services
-  slug: microsoftvoiceservices
+  label: Microsoft Azure UserRequests API
+  slug: microsoft-azure-userrequests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoftvoiceservices-openapi-original.yml
-- filename: microsoftvoiceservicesprovisioning-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-userrequests-api-openapi.yml
+- filename: microsoft-azure-userrpoepresource-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Voice Services Provisioning
-  slug: microsoftvoiceservicesprovisioning
+  label: Microsoft Azure UserRPOepResource API
+  slug: microsoft-azure-userrpoepresource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoftvoiceservicesprovisioning-openapi-original.yml
-- filename: microsoftvoiceservicesacgprovisioningplatformapi-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-userrpoepresource-api-openapi.yml
+- filename: microsoft-azure-userrulecollections-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Voice Services Provisioning Platform API
-  slug: microsoftvoiceservicesacgprovisioningplatformapi
+  label: Microsoft Azure UserRuleCollections API
+  slug: microsoft-azure-userrulecollections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoftvoiceservicesacgprovisioningplatformapi-openapi-original.yml
-- filename: webapps-api-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-userrulecollections-api-openapi.yml
+- filename: microsoft-azure-userrules-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Web Apps API Client
-  slug: webapps-api-client
+  label: Microsoft Azure UserRules API
+  slug: microsoft-azure-userrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/webapps-api-client-openapi-original.yml
-- filename: webpubsubmanagementclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-userrules-api-openapi.yml
+- filename: microsoft-azure-users-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Web Pub Sub Management Client
-  slug: webpubsubmanagementclient
+  label: Microsoft Azure Users API
+  slug: microsoft-azure-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/webpubsubmanagementclient-openapi-original.yml
-- filename: azure-web-pubsub-service-rest-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-users-api-openapi.yml
+- filename: microsoft-azure-usersession-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Web Pub Sub Service  API
-  slug: azure-web-pubsub-service-rest-api
+  label: Microsoft Azure UserSession API
+  slug: microsoft-azure-usersession-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-web-pubsub-service-rest-api-openapi-original.yml
-- filename: website-management-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-usersession-api-openapi.yml
+- filename: microsoft-azure-usersolutions-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Web Site Management Client
-  slug: website-management-client
+  label: Microsoft Azure UserSolutions API
+  slug: microsoft-azure-usersolutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/website-management-client-openapi-original.yml
-- filename: windowsesu-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-usersolutions-api-openapi.yml
+- filename: microsoft-azure-v1consumer-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Windows Extended Security Updates
-  slug: windowsesu
+  label: Microsoft Azure V1consumer API
+  slug: microsoft-azure-v1consumer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/windowsesu-openapi-original.yml
-- filename: workbookclient-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-v1consumer-api-openapi.yml
+- filename: microsoft-azure-v1metadata-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Workbook Client
-  slug: workbookclient
+  label: Microsoft Azure V1metadata API
+  slug: microsoft-azure-v1metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/workbookclient-openapi-original.yml
-- filename: workload-monitor-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-v1metadata-api-openapi.yml
+- filename: microsoft-azure-v1producer-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Workload Monitor API
-  slug: workload-monitor-api
+  label: Microsoft Azure V1producer API
+  slug: microsoft-azure-v1producer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/workload-monitor-api-openapi-original.yml
-- filename: workloads-client-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-v1producer-api-openapi.yml
+- filename: microsoft-azure-v1status-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Workloads Client
-  slug: workloads-client
+  label: Microsoft Azure V1status API
+  slug: microsoft-azure-v1status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/workloads-client-openapi-original.yml
-- filename: azure-container-registry-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-v1status-api-openapi.yml
+- filename: microsoft-azure-v1topics-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Container Registry API
-  slug: azure-container-registry-api
+  label: Microsoft Azure V1topics API
+  slug: microsoft-azure-v1topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-container-registry-openapi.yml
-- filename: azure-kubernetes-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-v1topics-api-openapi.yml
+- filename: microsoft-azure-v2-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Kubernetes Service API
-  slug: azure-kubernetes-service-api
+  label: Microsoft Azure V2 API
+  slug: microsoft-azure-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-kubernetes-service-openapi.yml
-- filename: azure-cosmos-db-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-v2-api-openapi.yml
+- filename: microsoft-azure-v2workspaceconnectionresource-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Cosmos DB API
-  slug: azure-cosmos-db-api
+  label: Microsoft Azure V2WorkspaceConnectionResource API
+  slug: microsoft-azure-v2workspaceconnectionresource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-cosmos-db-openapi.yml
-- filename: azure-resource-manager-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-v2workspaceconnectionresource-api-openapi.yml
+- filename: microsoft-azure-validateoperation-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Resource Manager API
-  slug: azure-resource-manager-api
+  label: Microsoft Azure ValidateOperation API
+  slug: microsoft-azure-validateoperation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-resource-manager-openapi.yml
-- filename: azure-cognitive-services-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-validateoperation-api-openapi.yml
+- filename: microsoft-azure-validateoperationresults-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Cognitive Services API
-  slug: azure-cognitive-services-api
+  label: Microsoft Azure ValidateOperationResults API
+  slug: microsoft-azure-validateoperationresults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-cognitive-services-openapi.yml
-- filename: azure-key-vault-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-validateoperationresults-api-openapi.yml
+- filename: microsoft-azure-validateoperationstatuses-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Key Vault API
-  slug: azure-key-vault-api
+  label: Microsoft Azure ValidateOperationStatuses API
+  slug: microsoft-azure-validateoperationstatuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-key-vault-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-validateoperationstatuses-api-openapi.yml
+- filename: microsoft-azure-validateprobe-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure ValidateProbe API
+  slug: microsoft-azure-validateprobe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-validateprobe-api-openapi.yml
+- filename: microsoft-azure-validatestorageconfiguration-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure validateStorageConfiguration API
+  slug: microsoft-azure-validatestorageconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-validatestorageconfiguration-api-openapi.yml
+- filename: microsoft-azure-validations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Validations API
+  slug: microsoft-azure-validations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-validations-api-openapi.yml
+- filename: microsoft-azure-variables-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Variables API
+  slug: microsoft-azure-variables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-variables-api-openapi.yml
+- filename: microsoft-azure-vault-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Vault API
+  slug: microsoft-azure-vault-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vault-api-openapi.yml
+- filename: microsoft-azure-vaultusages-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VaultUsages API
+  slug: microsoft-azure-vaultusages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vaultusages-api-openapi.yml
+- filename: microsoft-azure-vcentercontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VcenterController API
+  slug: microsoft-azure-vcentercontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vcentercontroller-api-openapi.yml
+- filename: microsoft-azure-vcenters-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VCenters API
+  slug: microsoft-azure-vcenters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vcenters-api-openapi.yml
+- filename: microsoft-azure-vendornetworkfunctions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VendorNetworkFunctions API
+  slug: microsoft-azure-vendornetworkfunctions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vendornetworkfunctions-api-openapi.yml
+- filename: microsoft-azure-verifiedpartners-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VerifiedPartners API
+  slug: microsoft-azure-verifiedpartners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-verifiedpartners-api-openapi.yml
+- filename: microsoft-azure-verify-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Verify API
+  slug: microsoft-azure-verify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-verify-api-openapi.yml
+- filename: microsoft-azure-version-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Version API
+  slug: microsoft-azure-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-version-api-openapi.yml
+- filename: microsoft-azure-videodetailsearch-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VideoDetailSearch API
+  slug: microsoft-azure-videodetailsearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-videodetailsearch-api-openapi.yml
+- filename: microsoft-azure-videosearch-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VideoSearch API
+  slug: microsoft-azure-videosearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-videosearch-api-openapi.yml
+- filename: microsoft-azure-videotrendingsearch-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VideoTrendingSearch API
+  slug: microsoft-azure-videotrendingsearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-videotrendingsearch-api-openapi.yml
+- filename: microsoft-azure-views-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Views API
+  slug: microsoft-azure-views-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-views-api-openapi.yml
+- filename: microsoft-azure-virtualdesktopusercontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VirtualDesktopUserController API
+  slug: microsoft-azure-virtualdesktopusercontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-virtualdesktopusercontroller-api-openapi.yml
+- filename: microsoft-azure-virtualmachine-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VirtualMachine API
+  slug: microsoft-azure-virtualmachine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-virtualmachine-api-openapi.yml
+- filename: microsoft-azure-virtualmachineimagetemplate-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VirtualMachineImageTemplate API
+  slug: microsoft-azure-virtualmachineimagetemplate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-virtualmachineimagetemplate-api-openapi.yml
+- filename: microsoft-azure-virtualmachineinstances-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VirtualMachineInstances API
+  slug: microsoft-azure-virtualmachineinstances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-virtualmachineinstances-api-openapi.yml
+- filename: microsoft-azure-virtualmachineruncommands-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VirtualMachineRunCommands API
+  slug: microsoft-azure-virtualmachineruncommands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-virtualmachineruncommands-api-openapi.yml
+- filename: microsoft-azure-virtualmachines-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VirtualMachines API
+  slug: microsoft-azure-virtualmachines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-virtualmachines-api-openapi.yml
+- filename: microsoft-azure-virtualmachinescalesetvmruncommands-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VirtualMachineScaleSetVMRunCommands API
+  slug: microsoft-azure-virtualmachinescalesetvmruncommands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-virtualmachinescalesetvmruncommands-api-openapi.yml
+- filename: microsoft-azure-virtualmachinescalesetvms-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VirtualMachineScaleSetVMs API
+  slug: microsoft-azure-virtualmachinescalesetvms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-virtualmachinescalesetvms-api-openapi.yml
+- filename: microsoft-azure-virtualmachineschedules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VirtualMachineSchedules API
+  slug: microsoft-azure-virtualmachineschedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-virtualmachineschedules-api-openapi.yml
+- filename: microsoft-azure-virtualmachinetemplates-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VirtualMachineTemplates API
+  slug: microsoft-azure-virtualmachinetemplates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-virtualmachinetemplates-api-openapi.yml
+- filename: microsoft-azure-virtualnetworkgatewayconnections-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VirtualNetworkGatewayConnections API
+  slug: microsoft-azure-virtualnetworkgatewayconnections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-virtualnetworkgatewayconnections-api-openapi.yml
+- filename: microsoft-azure-virtualnetworkgateways-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VirtualNetworkGateways API
+  slug: microsoft-azure-virtualnetworkgateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-virtualnetworkgateways-api-openapi.yml
+- filename: microsoft-azure-virtualnetworklinks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VirtualNetworkLinks API
+  slug: microsoft-azure-virtualnetworklinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-virtualnetworklinks-api-openapi.yml
+- filename: microsoft-azure-virtualnetworkrules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VirtualNetworkRules API
+  slug: microsoft-azure-virtualnetworkrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-virtualnetworkrules-api-openapi.yml
+- filename: microsoft-azure-virtualnetworks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VirtualNetworks API
+  slug: microsoft-azure-virtualnetworks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-virtualnetworks-api-openapi.yml
+- filename: microsoft-azure-virtualnetworksubnetusage-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VirtualNetworkSubnetUsage API
+  slug: microsoft-azure-virtualnetworksubnetusage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-virtualnetworksubnetusage-api-openapi.yml
+- filename: microsoft-azure-virtualwans-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VirtualWANs API
+  slug: microsoft-azure-virtualwans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-virtualwans-api-openapi.yml
+- filename: microsoft-azure-vm-host-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VM_Host API
+  slug: microsoft-azure-vm-host-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vm-host-api-openapi.yml
+- filename: microsoft-azure-vm-insights-onboarding-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VM Insights Onboarding API
+  slug: microsoft-azure-vm-insights-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vm-insights-onboarding-api-openapi.yml
+- filename: microsoft-azure-vmcollectionupdate-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VMCollectionUpdate API
+  slug: microsoft-azure-vmcollectionupdate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vmcollectionupdate-api-openapi.yml
+- filename: microsoft-azure-vmextensions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VMExtensions API
+  slug: microsoft-azure-vmextensions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vmextensions-api-openapi.yml
+- filename: microsoft-azure-vmhhostlist-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VMHHostList API
+  slug: microsoft-azure-vmhhostlist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vmhhostlist-api-openapi.yml
+- filename: microsoft-azure-vmingestiondetails-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VMIngestionDetails API
+  slug: microsoft-azure-vmingestiondetails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vmingestiondetails-api-openapi.yml
+- filename: microsoft-azure-vminstanceguestagents-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VMInstanceGuestAgents API
+  slug: microsoft-azure-vminstanceguestagents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vminstanceguestagents-api-openapi.yml
+- filename: microsoft-azure-vminstancehybrididentitymetadata-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VmInstanceHybridIdentityMetadata API
+  slug: microsoft-azure-vminstancehybrididentitymetadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vminstancehybrididentitymetadata-api-openapi.yml
+- filename: microsoft-azure-vmmservers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VmmServers API
+  slug: microsoft-azure-vmmservers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vmmservers-api-openapi.yml
+- filename: microsoft-azure-vmwarecollectorsoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VmwareCollectorsOperations API
+  slug: microsoft-azure-vmwarecollectorsoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vmwarecollectorsoperations-api-openapi.yml
+- filename: microsoft-azure-vmwarehostcontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VmwareHostController API
+  slug: microsoft-azure-vmwarehostcontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vmwarehostcontroller-api-openapi.yml
+- filename: microsoft-azure-vmwareoperationsstatus-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VmwareOperationsStatus API
+  slug: microsoft-azure-vmwareoperationsstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vmwareoperationsstatus-api-openapi.yml
+- filename: microsoft-azure-vmwarepropertiescontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VmwarePropertiesController API
+  slug: microsoft-azure-vmwarepropertiescontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vmwarepropertiescontroller-api-openapi.yml
+- filename: microsoft-azure-vmwaresoftwareinventoriescontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VmwareSoftwareInventoriesController API
+  slug: microsoft-azure-vmwaresoftwareinventoriescontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vmwaresoftwareinventoriescontroller-api-openapi.yml
+- filename: microsoft-azure-vnetpeering-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure vNetPeering API
+  slug: microsoft-azure-vnetpeering-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vnetpeering-api-openapi.yml
+- filename: microsoft-azure-volume-groups-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Volume Groups API
+  slug: microsoft-azure-volume-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-volume-groups-api-openapi.yml
+- filename: microsoft-azure-volumecontainers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VolumeContainers API
+  slug: microsoft-azure-volumecontainers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-volumecontainers-api-openapi.yml
+- filename: microsoft-azure-volumegroups-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VolumeGroups API
+  slug: microsoft-azure-volumegroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-volumegroups-api-openapi.yml
+- filename: microsoft-azure-volumequotarules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VolumeQuotaRules API
+  slug: microsoft-azure-volumequotarules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-volumequotarules-api-openapi.yml
+- filename: microsoft-azure-volumes-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Volumes API
+  slug: microsoft-azure-volumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-volumes-api-openapi.yml
+- filename: microsoft-azure-volumes-onprem-migration-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Volumes OnPrem Migration API
+  slug: microsoft-azure-volumes-onprem-migration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-volumes-onprem-migration-api-openapi.yml
+- filename: microsoft-azure-volumes-onprem-migration-finalize-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Volumes OnPrem Migration Finalize API
+  slug: microsoft-azure-volumes-onprem-migration-finalize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-volumes-onprem-migration-finalize-api-openapi.yml
+- filename: microsoft-azure-volumes-relocation-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Volumes Relocation API
+  slug: microsoft-azure-volumes-relocation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-volumes-relocation-api-openapi.yml
+- filename: microsoft-azure-volumes-replication-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Volumes Replication API
+  slug: microsoft-azure-volumes-replication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-volumes-replication-api-openapi.yml
+- filename: microsoft-azure-volumes-revert-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Volumes Revert API
+  slug: microsoft-azure-volumes-revert-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-volumes-revert-api-openapi.yml
+- filename: microsoft-azure-vpngateways-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VpnGateways API
+  slug: microsoft-azure-vpngateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vpngateways-api-openapi.yml
+- filename: microsoft-azure-vpnlinkconnections-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure vpnLinkConnections API
+  slug: microsoft-azure-vpnlinkconnections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vpnlinkconnections-api-openapi.yml
+- filename: microsoft-azure-vpnserverconfigurations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VpnServerConfigurations API
+  slug: microsoft-azure-vpnserverconfigurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vpnserverconfigurations-api-openapi.yml
+- filename: microsoft-azure-vpnsites-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure VpnSites API
+  slug: microsoft-azure-vpnsites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vpnsites-api-openapi.yml
+- filename: microsoft-azure-waitstatistics-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WaitStatistics API
+  slug: microsoft-azure-waitstatistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-waitstatistics-api-openapi.yml
+- filename: microsoft-azure-watcher-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Watcher API
+  slug: microsoft-azure-watcher-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-watcher-api-openapi.yml
+- filename: microsoft-azure-watchers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Watchers API
+  slug: microsoft-azure-watchers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-watchers-api-openapi.yml
+- filename: microsoft-azure-wayfinding-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Wayfinding API
+  slug: microsoft-azure-wayfinding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-wayfinding-api-openapi.yml
+- filename: microsoft-azure-weather-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Weather API
+  slug: microsoft-azure-weather-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-weather-api-openapi.yml
+- filename: microsoft-azure-weatherdata-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WeatherData API
+  slug: microsoft-azure-weatherdata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-weatherdata-api-openapi.yml
+- filename: microsoft-azure-webappassessmentoptionsoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WebAppAssessmentOptionsOperations API
+  slug: microsoft-azure-webappassessmentoptionsoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-webappassessmentoptionsoperations-api-openapi.yml
+- filename: microsoft-azure-webappassessmentv2operations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WebAppAssessmentV2Operations API
+  slug: microsoft-azure-webappassessmentv2operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-webappassessmentv2operations-api-openapi.yml
+- filename: microsoft-azure-webappassessmentv2summaryoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WebAppAssessmentV2SummaryOperations API
+  slug: microsoft-azure-webappassessmentv2summaryoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-webappassessmentv2summaryoperations-api-openapi.yml
+- filename: microsoft-azure-webappcollectoroperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WebAppCollectorOperations API
+  slug: microsoft-azure-webappcollectoroperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-webappcollectoroperations-api-openapi.yml
+- filename: microsoft-azure-webappdiscoverysitedatasourcescontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WebAppDiscoverySiteDataSourcesController API
+  slug: microsoft-azure-webappdiscoverysitedatasourcescontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-webappdiscoverysitedatasourcescontroller-api-openapi.yml
+- filename: microsoft-azure-webappextendedmachinescontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WebAppExtendedMachinesController API
+  slug: microsoft-azure-webappextendedmachinescontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-webappextendedmachinescontroller-api-openapi.yml
+- filename: microsoft-azure-webapplicationfirewallmanagedrulesets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WebApplicationFirewallManagedRuleSets API
+  slug: microsoft-azure-webapplicationfirewallmanagedrulesets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-webapplicationfirewallmanagedrulesets-api-openapi.yml
+- filename: microsoft-azure-webapplicationfirewallpolicies-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WebApplicationFirewallPolicies API
+  slug: microsoft-azure-webapplicationfirewallpolicies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-webapplicationfirewallpolicies-api-openapi.yml
+- filename: microsoft-azure-webapplicationscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WebApplicationsController API
+  slug: microsoft-azure-webapplicationscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-webapplicationscontroller-api-openapi.yml
+- filename: microsoft-azure-webapppropertiescontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WebAppPropertiesController API
+  slug: microsoft-azure-webapppropertiescontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-webapppropertiescontroller-api-openapi.yml
+- filename: microsoft-azure-webapprunasaccountscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WebAppRunAsAccountsController API
+  slug: microsoft-azure-webapprunasaccountscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-webapprunasaccountscontroller-api-openapi.yml
+- filename: microsoft-azure-webapps-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WebApps API
+  slug: microsoft-azure-webapps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-webapps-api-openapi.yml
+- filename: microsoft-azure-webappserviceplanv2operations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WebAppServicePlanV2Operations API
+  slug: microsoft-azure-webappserviceplanv2operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-webappserviceplanv2operations-api-openapi.yml
+- filename: microsoft-azure-webappsitescontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WebAppSitesController API
+  slug: microsoft-azure-webappsitescontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-webappsitescontroller-api-openapi.yml
+- filename: microsoft-azure-webhook-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Webhook API
+  slug: microsoft-azure-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-webhook-api-openapi.yml
+- filename: microsoft-azure-webpubsub-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Webpubsub API
+  slug: microsoft-azure-webpubsub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-webpubsub-api-openapi.yml
+- filename: microsoft-azure-websearch-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WebSearch API
+  slug: microsoft-azure-websearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-websearch-api-openapi.yml
+- filename: microsoft-azure-webserverscontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WebServersController API
+  slug: microsoft-azure-webserverscontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-webserverscontroller-api-openapi.yml
+- filename: microsoft-azure-webservices-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WebServices API
+  slug: microsoft-azure-webservices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-webservices-api-openapi.yml
+- filename: microsoft-azure-websitescontroller-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WebSitesController API
+  slug: microsoft-azure-websitescontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-websitescontroller-api-openapi.yml
+- filename: microsoft-azure-well-known-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure .Well Known API
+  slug: microsoft-azure-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-well-known-api-openapi.yml
+- filename: microsoft-azure-wfs-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Wfs API
+  slug: microsoft-azure-wfs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-wfs-api-openapi.yml
+- filename: microsoft-azure-widgets-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Widgets API
+  slug: microsoft-azure-widgets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-widgets-api-openapi.yml
+- filename: microsoft-azure-widgettypes-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WidgetTypes API
+  slug: microsoft-azure-widgettypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-widgettypes-api-openapi.yml
+- filename: microsoft-azure-workflow-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Workflow API
+  slug: microsoft-azure-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-workflow-api-openapi.yml
+- filename: microsoft-azure-workflow-resource-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Workflow Resource API
+  slug: microsoft-azure-workflow-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-workflow-resource-api-openapi.yml
+- filename: microsoft-azure-workflowrunactions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WorkflowRunActions API
+  slug: microsoft-azure-workflowrunactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-workflowrunactions-api-openapi.yml
+- filename: microsoft-azure-workflowrunoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WorkflowRunOperations API
+  slug: microsoft-azure-workflowrunoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-workflowrunoperations-api-openapi.yml
+- filename: microsoft-azure-workflowruns-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WorkflowRuns API
+  slug: microsoft-azure-workflowruns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-workflowruns-api-openapi.yml
+- filename: microsoft-azure-workflows-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Workflows API
+  slug: microsoft-azure-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-workflows-api-openapi.yml
+- filename: microsoft-azure-workflowtasks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WorkflowTasks API
+  slug: microsoft-azure-workflowtasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-workflowtasks-api-openapi.yml
+- filename: microsoft-azure-workflowtriggerhistories-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WorkflowTriggerHistories API
+  slug: microsoft-azure-workflowtriggerhistories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-workflowtriggerhistories-api-openapi.yml
+- filename: microsoft-azure-workflowtriggers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WorkflowTriggers API
+  slug: microsoft-azure-workflowtriggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-workflowtriggers-api-openapi.yml
+- filename: microsoft-azure-workflowversions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WorkflowVersions API
+  slug: microsoft-azure-workflowversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-workflowversions-api-openapi.yml
+- filename: microsoft-azure-workloaddeployment-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WorkloadDeployment API
+  slug: microsoft-azure-workloaddeployment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-workloaddeployment-api-openapi.yml
+- filename: microsoft-azure-workloadgroups-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WorkloadGroups API
+  slug: microsoft-azure-workloadgroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-workloadgroups-api-openapi.yml
+- filename: microsoft-azure-workloadinstance-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WorkloadInstance API
+  slug: microsoft-azure-workloadinstance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-workloadinstance-api-openapi.yml
+- filename: microsoft-azure-workloadnetworks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WorkloadNetworks API
+  slug: microsoft-azure-workloadnetworks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-workloadnetworks-api-openapi.yml
+- filename: microsoft-azure-workspace-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Workspace API
+  slug: microsoft-azure-workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-workspace-api-openapi.yml
+- filename: microsoft-azure-workspacecollections-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WorkspaceCollections API
+  slug: microsoft-azure-workspacecollections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-workspacecollections-api-openapi.yml
+- filename: microsoft-azure-workspacepolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WorkspacePolicy API
+  slug: microsoft-azure-workspacepolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-workspacepolicy-api-openapi.yml
+- filename: microsoft-azure-workspaceprivateendpointconnections-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WorkspacePrivateEndpointConnections API
+  slug: microsoft-azure-workspaceprivateendpointconnections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-workspaceprivateendpointconnections-api-openapi.yml
+- filename: microsoft-azure-workspaceprivatelinkresources-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure WorkspacePrivateLinkResources API
+  slug: microsoft-azure-workspaceprivatelinkresources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-workspaceprivatelinkresources-api-openapi.yml
+- filename: microsoft-azure-workspaces-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Workspaces API
+  slug: microsoft-azure-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-workspaces-api-openapi.yml
+- filename: microsoft-azure-zones-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Zones API
+  slug: microsoft-azure-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-zones-api-openapi.yml
 description: ''
 domains:
 - caa:

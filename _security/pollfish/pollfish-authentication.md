@@ -1,48 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: pollfish-openapi.yml
+- filename: pollfish-apps-api-openapi.yml
   format: yaml
   label: Pollfish Apps API
   slug: pollfish-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pollfish/refs/heads/main/openapi/pollfish-openapi.yml
-- filename: pollfish-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pollfish/refs/heads/main/openapi/pollfish-apps-api-openapi.yml
+- filename: pollfish-demographics-api-openapi.yml
+  format: yaml
+  label: Pollfish Demographics API
+  slug: pollfish-demographics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pollfish/refs/heads/main/openapi/pollfish-demographics-api-openapi.yml
+- filename: pollfish-logs-api-openapi.yml
+  format: yaml
+  label: Pollfish Logs API
+  slug: pollfish-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pollfish/refs/heads/main/openapi/pollfish-logs-api-openapi.yml
+- filename: pollfish-performance-api-openapi.yml
   format: yaml
   label: Pollfish Performance API
   slug: pollfish-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pollfish/refs/heads/main/openapi/pollfish-openapi.yml
-- filename: pollfish-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pollfish/refs/heads/main/openapi/pollfish-performance-api-openapi.yml
+- filename: pollfish-revenue-api-openapi.yml
   format: yaml
   label: Pollfish Revenue API
   slug: pollfish-revenue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pollfish/refs/heads/main/openapi/pollfish-openapi.yml
-- filename: pollfish-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pollfish/refs/heads/main/openapi/pollfish-revenue-api-openapi.yml
+- filename: pollfish-survey-distribution-api-openapi.yml
   format: yaml
-  label: Pollfish Respondent Demographics API
-  slug: pollfish-respondent-demographics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pollfish/refs/heads/main/openapi/pollfish-openapi.yml
-- filename: pollfish-openapi.yml
-  format: yaml
-  label: Pollfish User Logs API
-  slug: pollfish-user-logs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pollfish/refs/heads/main/openapi/pollfish-openapi.yml
-- filename: pollfish-openapi.yml
-  format: yaml
-  label: Pollfish Survey Distribution and Offerwall API
+  label: Pollfish Survey Distribution API
   slug: pollfish-survey-distribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pollfish/refs/heads/main/openapi/pollfish-openapi.yml
-- filename: pollfish-openapi.yml
-  format: yaml
-  label: Pollfish Server-to-Server Callbacks
-  slug: pollfish-s2s-callbacks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pollfish/refs/heads/main/openapi/pollfish-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pollfish/refs/heads/main/openapi/pollfish-survey-distribution-api-openapi.yml
 auth_types:
 - http
 description: ''

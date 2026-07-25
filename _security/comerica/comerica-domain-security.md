@@ -35,5 +35,9 @@ tags:
 - Financial Services
 - Retail Banking
 - Wealth Management
+- Treasury Management
+- Open Banking
+- Super-Regional Bank
+- United States
 - Fortune 1000
 ---

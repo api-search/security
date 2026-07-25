@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: uplimit-organization-openapi-original.yml
+- filename: uplimit-course-api-openapi.yml
   format: yaml
-  label: Uplimit Organization API
-  slug: uplimit-organization-api
+  label: Uplimit Course API
+  slug: uplimit-course-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/openapi/uplimit-organization-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/openapi/uplimit-course-api-openapi.yml
+- filename: uplimit-enrollment-api-openapi.yml
+  format: yaml
+  label: Uplimit Enrollment API
+  slug: uplimit-enrollment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/openapi/uplimit-enrollment-api-openapi.yml
+- filename: uplimit-export-api-openapi.yml
+  format: yaml
+  label: Uplimit Export API
+  slug: uplimit-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/openapi/uplimit-export-api-openapi.yml
+- filename: uplimit-platform-api-openapi.yml
+  format: yaml
+  label: Uplimit Platform API
+  slug: uplimit-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/openapi/uplimit-platform-api-openapi.yml
+- filename: uplimit-session-api-openapi.yml
+  format: yaml
+  label: Uplimit Session API
+  slug: uplimit-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/openapi/uplimit-session-api-openapi.yml
+- filename: uplimit-user-api-openapi.yml
+  format: yaml
+  label: Uplimit User API
+  slug: uplimit-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/openapi/uplimit-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: jones-lang-lasalle-corrigo-rest-api-openapi.yml
+- filename: jones-lang-lasalle-assets-api-openapi.yml
   format: yaml
-  label: JLL Corrigo Enterprise REST API
-  slug: corrigo-rest-api
+  label: Jones Lang LaSalle Assets API
+  slug: jones-lang-lasalle-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jones-lang-lasalle/refs/heads/main/openapi/jones-lang-lasalle-corrigo-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jones-lang-lasalle/refs/heads/main/openapi/jones-lang-lasalle-assets-api-openapi.yml
+- filename: jones-lang-lasalle-contacts-api-openapi.yml
+  format: yaml
+  label: Jones Lang LaSalle Contacts API
+  slug: jones-lang-lasalle-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jones-lang-lasalle/refs/heads/main/openapi/jones-lang-lasalle-contacts-api-openapi.yml
+- filename: jones-lang-lasalle-locations-api-openapi.yml
+  format: yaml
+  label: Jones Lang LaSalle Locations API
+  slug: jones-lang-lasalle-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jones-lang-lasalle/refs/heads/main/openapi/jones-lang-lasalle-locations-api-openapi.yml
+- filename: jones-lang-lasalle-work-orders-api-openapi.yml
+  format: yaml
+  label: Jones Lang LaSalle Work Orders API
+  slug: jones-lang-lasalle-work-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jones-lang-lasalle/refs/heads/main/openapi/jones-lang-lasalle-work-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []

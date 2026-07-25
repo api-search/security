@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: freight-waves-sonar-openapi.yml
+- filename: freight-waves-authentication-api-openapi.yml
   format: yaml
-  label: SONAR API
-  slug: sonar-api
+  label: Freight Waves Authentication API
+  slug: freight-waves-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/openapi/freight-waves-sonar-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/openapi/freight-waves-authentication-api-openapi.yml
+- filename: freight-waves-data-api-openapi.yml
+  format: yaml
+  label: Freight Waves Data API
+  slug: freight-waves-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/openapi/freight-waves-data-api-openapi.yml
+- filename: freight-waves-lookup-api-openapi.yml
+  format: yaml
+  label: Freight Waves Lookup API
+  slug: freight-waves-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/openapi/freight-waves-lookup-api-openapi.yml
 auth_types:
 - http
 - oauth2

@@ -1,59 +1,59 @@
 ---
 api_specs:
-- filename: bexio-openapi.yml
-  format: yaml
-  label: bexio Contacts API
-  slug: bexio-contacts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-openapi.yml
-- filename: bexio-openapi.yml
-  format: yaml
-  label: bexio Sales Order Management API
-  slug: bexio-sales-order-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-openapi.yml
-- filename: bexio-openapi.yml
+- filename: bexio-accounting-api-openapi.yml
   format: yaml
   label: bexio Accounting API
   slug: bexio-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-openapi.yml
-- filename: bexio-openapi.yml
-  format: yaml
-  label: bexio Items API
-  slug: bexio-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-openapi.yml
-- filename: bexio-openapi.yml
-  format: yaml
-  label: bexio Projects & Time Tracking API
-  slug: bexio-projects-time-tracking-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-openapi.yml
-- filename: bexio-openapi.yml
-  format: yaml
-  label: bexio Files API
-  slug: bexio-files-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-openapi.yml
-- filename: bexio-openapi.yml
-  format: yaml
-  label: bexio Purchase API
-  slug: bexio-purchase-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-openapi.yml
-- filename: bexio-openapi.yml
-  format: yaml
-  label: bexio Payroll API
-  slug: bexio-payroll-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-openapi.yml
-- filename: bexio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-accounting-api-openapi.yml
+- filename: bexio-banking-api-openapi.yml
   format: yaml
   label: bexio Banking API
   slug: bexio-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-banking-api-openapi.yml
+- filename: bexio-contacts-api-openapi.yml
+  format: yaml
+  label: bexio Contacts API
+  slug: bexio-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-contacts-api-openapi.yml
+- filename: bexio-files-api-openapi.yml
+  format: yaml
+  label: bexio Files API
+  slug: bexio-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-files-api-openapi.yml
+- filename: bexio-items-api-openapi.yml
+  format: yaml
+  label: bexio Items API
+  slug: bexio-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-items-api-openapi.yml
+- filename: bexio-payroll-api-openapi.yml
+  format: yaml
+  label: bexio Payroll API
+  slug: bexio-payroll-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-payroll-api-openapi.yml
+- filename: bexio-projects-api-openapi.yml
+  format: yaml
+  label: bexio Projects API
+  slug: bexio-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-projects-api-openapi.yml
+- filename: bexio-purchase-api-openapi.yml
+  format: yaml
+  label: bexio Purchase API
+  slug: bexio-purchase-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-purchase-api-openapi.yml
+- filename: bexio-sales-orders-api-openapi.yml
+  format: yaml
+  label: bexio Sales Orders API
+  slug: bexio-sales-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-sales-orders-api-openapi.yml
 certifications:
 - ISO 27001
 - Swiss FADP (revDSG)

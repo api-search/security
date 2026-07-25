@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: reka-ai-openapi.yml
+- filename: reka-ai-chat-api-openapi.yml
   format: yaml
-  label: Reka AI Platform API
-  slug: platform
+  label: Reka AI Chat API
+  slug: reka-ai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reka-ai/refs/heads/main/openapi/reka-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reka-ai/refs/heads/main/openapi/reka-ai-chat-api-openapi.yml
+- filename: reka-ai-models-api-openapi.yml
+  format: yaml
+  label: Reka AI Models API
+  slug: reka-ai-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reka-ai/refs/heads/main/openapi/reka-ai-models-api-openapi.yml
+- filename: reka-ai-research-api-openapi.yml
+  format: yaml
+  label: Reka AI Research API
+  slug: reka-ai-research-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reka-ai/refs/heads/main/openapi/reka-ai-research-api-openapi.yml
+- filename: reka-ai-speech-api-openapi.yml
+  format: yaml
+  label: Reka AI Speech API
+  slug: reka-ai-speech-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reka-ai/refs/heads/main/openapi/reka-ai-speech-api-openapi.yml
+- filename: reka-ai-vision-api-openapi.yml
+  format: yaml
+  label: Reka AI Vision API
+  slug: reka-ai-vision-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reka-ai/refs/heads/main/openapi/reka-ai-vision-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-amplify-openapi.yaml
+- filename: amazon-amplify-apps-api-openapi.yml
   format: yaml
-  label: Amazon Amplify REST API
-  slug: amazon-amplify-rest-api
+  label: Amazon Amplify Apps API
+  slug: amazon-amplify-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/openapi/amazon-amplify-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/openapi/amazon-amplify-apps-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: dnb-direct-plus-openapi-original.yml
+- filename: dun-and-bradstreet-authentication-api-openapi.yml
   format: yaml
-  label: D&B Direct+ API
-  slug: direct-plus
+  label: Dun & Bradstreet Authentication API
+  slug: dun-and-bradstreet-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/openapi/dnb-direct-plus-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/openapi/dun-and-bradstreet-authentication-api-openapi.yml
+- filename: dun-and-bradstreet-data-file-api-openapi.yml
+  format: yaml
+  label: Dun & Bradstreet Data File API
+  slug: dun-and-bradstreet-data-file-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/openapi/dun-and-bradstreet-data-file-api-openapi.yml
+- filename: dun-and-bradstreet-enrich-api-openapi.yml
+  format: yaml
+  label: Dun & Bradstreet Enrich API
+  slug: dun-and-bradstreet-enrich-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/openapi/dun-and-bradstreet-enrich-api-openapi.yml
+- filename: dun-and-bradstreet-identity-resolution-api-openapi.yml
+  format: yaml
+  label: Dun & Bradstreet Identity Resolution API
+  slug: dun-and-bradstreet-identity-resolution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/openapi/dun-and-bradstreet-identity-resolution-api-openapi.yml
+- filename: dun-and-bradstreet-monitoring-api-openapi.yml
+  format: yaml
+  label: Dun & Bradstreet Monitoring API
+  slug: dun-and-bradstreet-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/openapi/dun-and-bradstreet-monitoring-api-openapi.yml
+- filename: dun-and-bradstreet-multi-process-api-openapi.yml
+  format: yaml
+  label: Dun & Bradstreet Multi-Process API
+  slug: dun-and-bradstreet-multi-process-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/openapi/dun-and-bradstreet-multi-process-api-openapi.yml
+- filename: dun-and-bradstreet-research-api-openapi.yml
+  format: yaml
+  label: Dun & Bradstreet Research API
+  slug: dun-and-bradstreet-research-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/openapi/dun-and-bradstreet-research-api-openapi.yml
+- filename: dun-and-bradstreet-search-api-openapi.yml
+  format: yaml
+  label: Dun & Bradstreet Search API
+  slug: dun-and-bradstreet-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/openapi/dun-and-bradstreet-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

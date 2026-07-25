@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: stacker-openapi.yml
+- filename: stacker-accounts-api-openapi.yml
   format: yaml
-  label: Stacker API
-  slug: stacker-api
+  label: Stacker Accounts API
+  slug: stacker-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/openapi/stacker-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/openapi/stacker-accounts-api-openapi.yml
+- filename: stacker-hello-api-openapi.yml
+  format: yaml
+  label: Stacker Hello API
+  slug: stacker-hello-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/openapi/stacker-hello-api-openapi.yml
+- filename: stacker-objects-api-openapi.yml
+  format: yaml
+  label: Stacker Objects API
+  slug: stacker-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/openapi/stacker-objects-api-openapi.yml
+- filename: stacker-records-api-openapi.yml
+  format: yaml
+  label: Stacker Records API
+  slug: stacker-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/openapi/stacker-records-api-openapi.yml
 description: ''
 domains:
 - caa: []

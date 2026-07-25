@@ -1,221 +1,221 @@
 ---
 api_specs:
-- filename: account.yaml
+- filename: snowflake-account-api-openapi.yml
   format: yaml
-  label: Snowflake Account API
+  label: Snowflake account API
   slug: snowflake-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/account.yaml
-- filename: alert.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-account-api-openapi.yml
+- filename: snowflake-alert-api-openapi.yml
   format: yaml
-  label: Snowflake Alert API
+  label: Snowflake alert API
   slug: snowflake-alert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/alert.yaml
-- filename: api-integration.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-alert-api-openapi.yml
+- filename: snowflake-api-integration-api-openapi.yml
   format: yaml
-  label: Snowflake API Integration API
+  label: Snowflake api-integration API
   slug: snowflake-api-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/api-integration.yaml
-- filename: catalog-integration.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-api-integration-api-openapi.yml
+- filename: snowflake-catalog-integration-api-openapi.yml
   format: yaml
-  label: Snowflake Catalog Integration API
+  label: Snowflake catalog-integration API
   slug: snowflake-catalog-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/catalog-integration.yaml
-- filename: compute-pool.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-catalog-integration-api-openapi.yml
+- filename: snowflake-compute-pool-api-openapi.yml
   format: yaml
-  label: Snowflake Compute Pools API
-  slug: snowflake-compute-pools-api
+  label: Snowflake compute-pool API
+  slug: snowflake-compute-pool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/compute-pool.yaml
-- filename: cortex-analyst.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-compute-pool-api-openapi.yml
+- filename: snowflake-cortex-analyst-api-openapi.yml
   format: yaml
-  label: Cortex Analyst API
-  slug: cortex-analyst-api
+  label: Snowflake cortex-analyst API
+  slug: snowflake-cortex-analyst-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/cortex-analyst.yaml
-- filename: cortex-inference.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-cortex-analyst-api-openapi.yml
+- filename: snowflake-cortex-inference-api-openapi.yml
   format: yaml
-  label: Cortex Inference API
-  slug: cortex-inference-api
+  label: Snowflake cortex-inference API
+  slug: snowflake-cortex-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/cortex-inference.yaml
-- filename: cortex-search-service.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-cortex-inference-api-openapi.yml
+- filename: snowflake-cortex-search-service-api-openapi.yml
   format: yaml
-  label: Cortex Search REST API
-  slug: cortex-search-rest-api
+  label: Snowflake cortex search service API
+  slug: snowflake-cortex-search-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/cortex-search-service.yaml
-- filename: database-role.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-cortex-search-service-api-openapi.yml
+- filename: snowflake-database-api-openapi.yml
   format: yaml
-  label: Snowflake Database Role API
-  slug: snowflake-database-role-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/database-role.yaml
-- filename: database.yaml
-  format: yaml
-  label: Snowflake Database API
+  label: Snowflake database API
   slug: snowflake-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/database.yaml
-- filename: dynamic-table.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-database-api-openapi.yml
+- filename: snowflake-database-role-api-openapi.yml
   format: yaml
-  label: Snowflake Dynamic Table API
+  label: Snowflake database-role API
+  slug: snowflake-database-role-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-database-role-api-openapi.yml
+- filename: snowflake-dynamic-table-api-openapi.yml
+  format: yaml
+  label: Snowflake dynamic-table API
   slug: snowflake-dynamic-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/dynamic-table.yaml
-- filename: event-table.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-dynamic-table-api-openapi.yml
+- filename: snowflake-event-table-api-openapi.yml
   format: yaml
-  label: Snowflake Event Table API
+  label: Snowflake event-table API
   slug: snowflake-event-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/event-table.yaml
-- filename: external-volume.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-event-table-api-openapi.yml
+- filename: snowflake-external-volume-api-openapi.yml
   format: yaml
-  label: Snowflake External Volume API
+  label: Snowflake external-volume API
   slug: snowflake-external-volume-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/external-volume.yaml
-- filename: function.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-external-volume-api-openapi.yml
+- filename: snowflake-function-api-openapi.yml
   format: yaml
-  label: Snowflake Function API
+  label: Snowflake function API
   slug: snowflake-function-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/function.yaml
-- filename: grant.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-function-api-openapi.yml
+- filename: snowflake-grant-api-openapi.yml
   format: yaml
-  label: Snowflake Grant API
+  label: Snowflake grant API
   slug: snowflake-grant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/grant.yaml
-- filename: iceberg-table.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-grant-api-openapi.yml
+- filename: snowflake-iceberg-table-api-openapi.yml
   format: yaml
-  label: Snowflake Iceberg Table API
+  label: Snowflake iceberg-table API
   slug: snowflake-iceberg-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/iceberg-table.yaml
-- filename: image-repository.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-iceberg-table-api-openapi.yml
+- filename: snowflake-image-repository-api-openapi.yml
   format: yaml
-  label: Snowflake Image Repository API
+  label: Snowflake image-repository API
   slug: snowflake-image-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/image-repository.yaml
-- filename: managed-account.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-image-repository-api-openapi.yml
+- filename: snowflake-managed-account-api-openapi.yml
   format: yaml
-  label: Snowflake Managed Account API
+  label: Snowflake managed-account API
   slug: snowflake-managed-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/managed-account.yaml
-- filename: network-policy.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-managed-account-api-openapi.yml
+- filename: snowflake-network-policy-api-openapi.yml
   format: yaml
-  label: Snowflake Network Policy API
+  label: Snowflake network-policy API
   slug: snowflake-network-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/network-policy.yaml
-- filename: notebook.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-network-policy-api-openapi.yml
+- filename: snowflake-notebook-api-openapi.yml
   format: yaml
-  label: Snowflake Notebook API
+  label: Snowflake notebook API
   slug: snowflake-notebook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/notebook.yaml
-- filename: notification-integration.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-notebook-api-openapi.yml
+- filename: snowflake-notification-integration-api-openapi.yml
   format: yaml
-  label: Snowflake Notification Integration API
+  label: Snowflake notification-integration API
   slug: snowflake-notification-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/notification-integration.yaml
-- filename: pipe.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-notification-integration-api-openapi.yml
+- filename: snowflake-pipe-api-openapi.yml
   format: yaml
-  label: Snowflake Pipe API
+  label: Snowflake pipe API
   slug: snowflake-pipe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/pipe.yaml
-- filename: procedure.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-pipe-api-openapi.yml
+- filename: snowflake-procedure-api-openapi.yml
   format: yaml
-  label: Snowflake Procedure API
+  label: Snowflake procedure API
   slug: snowflake-procedure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/procedure.yaml
-- filename: result.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-procedure-api-openapi.yml
+- filename: snowflake-result-api-openapi.yml
   format: yaml
-  label: Snowflake Result API
+  label: Snowflake result API
   slug: snowflake-result-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/result.yaml
-- filename: role.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-result-api-openapi.yml
+- filename: snowflake-role-api-openapi.yml
   format: yaml
-  label: Snowflake Role API
+  label: Snowflake role API
   slug: snowflake-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/role.yaml
-- filename: schema.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-role-api-openapi.yml
+- filename: snowflake-schema-api-openapi.yml
   format: yaml
-  label: Snowflake Schema API
+  label: Snowflake schema API
   slug: snowflake-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/schema.yaml
-- filename: service.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-schema-api-openapi.yml
+- filename: snowflake-service-api-openapi.yml
   format: yaml
-  label: Snowflake Services API
-  slug: snowflake-services-api
+  label: Snowflake service API
+  slug: snowflake-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/service.yaml
-- filename: sqlapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-service-api-openapi.yml
+- filename: snowflake-stage-api-openapi.yml
   format: yaml
-  label: Snowflake SQL API
-  slug: snowflake-sql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/sqlapi.yaml
-- filename: stage.yaml
-  format: yaml
-  label: Snowflake Stage API
+  label: Snowflake stage API
   slug: snowflake-stage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/stage.yaml
-- filename: stream.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-stage-api-openapi.yml
+- filename: snowflake-statements-api-openapi.yml
   format: yaml
-  label: Snowflake Stream API
+  label: Snowflake statements API
+  slug: snowflake-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-statements-api-openapi.yml
+- filename: snowflake-stream-api-openapi.yml
+  format: yaml
+  label: Snowflake stream API
   slug: snowflake-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/stream.yaml
-- filename: table.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-stream-api-openapi.yml
+- filename: snowflake-table-api-openapi.yml
   format: yaml
-  label: Snowflake Table API
+  label: Snowflake table API
   slug: snowflake-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/table.yaml
-- filename: task.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-table-api-openapi.yml
+- filename: snowflake-task-api-openapi.yml
   format: yaml
-  label: Snowflake Task API
+  label: Snowflake task API
   slug: snowflake-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/task.yaml
-- filename: user-defined-function.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-task-api-openapi.yml
+- filename: snowflake-user-api-openapi.yml
   format: yaml
-  label: Snowflake User Defined Function API
-  slug: snowflake-user-defined-function-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/user-defined-function.yaml
-- filename: user.yaml
-  format: yaml
-  label: Snowflake User API
+  label: Snowflake user API
   slug: snowflake-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/user.yaml
-- filename: view.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-user-api-openapi.yml
+- filename: snowflake-user-defined-function-api-openapi.yml
   format: yaml
-  label: Snowflake View API
+  label: Snowflake user-defined-function API
+  slug: snowflake-user-defined-function-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-user-defined-function-api-openapi.yml
+- filename: snowflake-view-api-openapi.yml
+  format: yaml
+  label: Snowflake view API
   slug: snowflake-view-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/view.yaml
-- filename: warehouse.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-view-api-openapi.yml
+- filename: snowflake-warehouse-api-openapi.yml
   format: yaml
-  label: Snowflake Warehouse API
+  label: Snowflake warehouse API
   slug: snowflake-warehouse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/warehouse.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-warehouse-api-openapi.yml
 certifications: []
 description: ''
 kind: trust-center

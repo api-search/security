@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: nylas-openapi.yml
+- filename: nylas-admin-api-openapi.yml
   format: yaml
-  label: Nylas API
-  slug: nylas-api
+  label: Nylas Admin API
+  slug: nylas-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-admin-api-openapi.yml
+- filename: nylas-auth-api-openapi.yml
+  format: yaml
+  label: Nylas Auth API
+  slug: nylas-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-auth-api-openapi.yml
+- filename: nylas-calendars-api-openapi.yml
+  format: yaml
+  label: Nylas Calendars API
+  slug: nylas-calendars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-calendars-api-openapi.yml
+- filename: nylas-contacts-api-openapi.yml
+  format: yaml
+  label: Nylas Contacts API
+  slug: nylas-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-contacts-api-openapi.yml
+- filename: nylas-drafts-api-openapi.yml
+  format: yaml
+  label: Nylas Drafts API
+  slug: nylas-drafts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-drafts-api-openapi.yml
+- filename: nylas-events-api-openapi.yml
+  format: yaml
+  label: Nylas Events API
+  slug: nylas-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-events-api-openapi.yml
+- filename: nylas-grants-api-openapi.yml
+  format: yaml
+  label: Nylas Grants API
+  slug: nylas-grants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-grants-api-openapi.yml
+- filename: nylas-messages-api-openapi.yml
+  format: yaml
+  label: Nylas Messages API
+  slug: nylas-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-messages-api-openapi.yml
+- filename: nylas-scheduling-api-openapi.yml
+  format: yaml
+  label: Nylas Scheduling API
+  slug: nylas-scheduling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-scheduling-api-openapi.yml
+- filename: nylas-threads-api-openapi.yml
+  format: yaml
+  label: Nylas Threads API
+  slug: nylas-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-threads-api-openapi.yml
 auth_types:
 - http
 description: ''

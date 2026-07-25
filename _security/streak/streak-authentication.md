@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: streak-openapi.yml
+- filename: streak-boxes-api-openapi.yml
   format: yaml
-  label: Streak REST API
-  slug: rest-api
+  label: Streak Boxes API
+  slug: streak-boxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-boxes-api-openapi.yml
+- filename: streak-fields-api-openapi.yml
+  format: yaml
+  label: Streak Fields API
+  slug: streak-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-fields-api-openapi.yml
+- filename: streak-newsfeed-api-openapi.yml
+  format: yaml
+  label: Streak Newsfeed API
+  slug: streak-newsfeed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-newsfeed-api-openapi.yml
+- filename: streak-pipelines-api-openapi.yml
+  format: yaml
+  label: Streak Pipelines API
+  slug: streak-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-pipelines-api-openapi.yml
+- filename: streak-stages-api-openapi.yml
+  format: yaml
+  label: Streak Stages API
+  slug: streak-stages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-stages-api-openapi.yml
+- filename: streak-users-api-openapi.yml
+  format: yaml
+  label: Streak Users API
+  slug: streak-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-users-api-openapi.yml
+- filename: streak-webhooks-api-openapi.yml
+  format: yaml
+  label: Streak Webhooks API
+  slug: streak-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

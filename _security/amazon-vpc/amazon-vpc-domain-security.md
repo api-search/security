@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: amazon-vpc-openapi.yml
+- filename: amazon-vpc-internet-gateways-api-openapi.yml
   format: yaml
-  label: Amazon VPC API
-  slug: amazon-vpc-api
+  label: Amazon VPC Internet Gateways API
+  slug: amazon-vpc-internet-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-internet-gateways-api-openapi.yml
+- filename: amazon-vpc-nat-gateways-api-openapi.yml
+  format: yaml
+  label: Amazon VPC NAT Gateways API
+  slug: amazon-vpc-nat-gateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-nat-gateways-api-openapi.yml
+- filename: amazon-vpc-network-acls-api-openapi.yml
+  format: yaml
+  label: Amazon VPC Network ACLs API
+  slug: amazon-vpc-network-acls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-network-acls-api-openapi.yml
+- filename: amazon-vpc-route-tables-api-openapi.yml
+  format: yaml
+  label: Amazon VPC Route Tables API
+  slug: amazon-vpc-route-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-route-tables-api-openapi.yml
+- filename: amazon-vpc-subnets-api-openapi.yml
+  format: yaml
+  label: Amazon VPC Subnets API
+  slug: amazon-vpc-subnets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-subnets-api-openapi.yml
+- filename: amazon-vpc-vpcs-api-openapi.yml
+  format: yaml
+  label: Amazon VPC VPCs API
+  slug: amazon-vpc-vpcs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-vpcs-api-openapi.yml
 description: ''
 domains:
 - caa: []

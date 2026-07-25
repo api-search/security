@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-wallet-event-tickets-api-openapi.yml
   format: yaml
-  label: Google Wallet API
-  slug: google-wallet-api
+  label: Google Wallet Event Tickets API
+  slug: google-wallet-event-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/openapi/google-wallet-event-tickets-api-openapi.yml
+- filename: google-wallet-generic-passes-api-openapi.yml
+  format: yaml
+  label: Google Wallet Generic Passes API
+  slug: google-wallet-generic-passes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/openapi/google-wallet-generic-passes-api-openapi.yml
+- filename: google-wallet-issuers-api-openapi.yml
+  format: yaml
+  label: Google Wallet Issuers API
+  slug: google-wallet-issuers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/openapi/google-wallet-issuers-api-openapi.yml
+- filename: google-wallet-jwt-api-openapi.yml
+  format: yaml
+  label: Google Wallet JWT API
+  slug: google-wallet-jwt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/openapi/google-wallet-jwt-api-openapi.yml
+- filename: google-wallet-loyalty-cards-api-openapi.yml
+  format: yaml
+  label: Google Wallet Loyalty Cards API
+  slug: google-wallet-loyalty-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/openapi/google-wallet-loyalty-cards-api-openapi.yml
 description: ''
 domains:
 - caa:

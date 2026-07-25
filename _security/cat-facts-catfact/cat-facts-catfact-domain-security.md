@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: cat-facts-catfact-openapi.yml
+- filename: cat-facts-catfact-breeds-api-openapi.yml
   format: yaml
-  label: Cat Facts API
-  slug: cat-facts-api
+  label: Cat Facts (catfact.ninja) Breeds API
+  slug: cat-facts-catfact-breeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cat-facts-catfact/refs/heads/main/openapi/cat-facts-catfact-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cat-facts-catfact/refs/heads/main/openapi/cat-facts-catfact-breeds-api-openapi.yml
+- filename: cat-facts-catfact-facts-api-openapi.yml
+  format: yaml
+  label: Cat Facts (catfact.ninja) Facts API
+  slug: cat-facts-catfact-facts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cat-facts-catfact/refs/heads/main/openapi/cat-facts-catfact-facts-api-openapi.yml
 description: ''
 domains:
 - caa: []

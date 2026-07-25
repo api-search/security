@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: routable-openapi.yml
+- filename: routable-companies-api-openapi.yml
   format: yaml
-  label: Routable Vendors API
-  slug: vendors
+  label: Routable Companies API
+  slug: routable-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-openapi.yml
-- filename: routable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-companies-api-openapi.yml
+- filename: routable-contacts-api-openapi.yml
   format: yaml
-  label: Routable Customers API
-  slug: customers
+  label: Routable Contacts API
+  slug: routable-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-openapi.yml
-- filename: routable-openapi.yml
-  format: yaml
-  label: Routable Payables API
-  slug: payables
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-openapi.yml
-- filename: routable-openapi.yml
-  format: yaml
-  label: Routable Receivables API
-  slug: receivables
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-openapi.yml
-- filename: routable-openapi.yml
-  format: yaml
-  label: Routable Payments API
-  slug: payments
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-openapi.yml
-- filename: routable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-contacts-api-openapi.yml
+- filename: routable-funding-sources-api-openapi.yml
   format: yaml
   label: Routable Funding Sources API
-  slug: funding-sources
+  slug: routable-funding-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-openapi.yml
-- filename: routable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-funding-sources-api-openapi.yml
+- filename: routable-payables-api-openapi.yml
+  format: yaml
+  label: Routable Payables API
+  slug: routable-payables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-payables-api-openapi.yml
+- filename: routable-payment-methods-api-openapi.yml
+  format: yaml
+  label: Routable Payment Methods API
+  slug: routable-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-payment-methods-api-openapi.yml
+- filename: routable-receivables-api-openapi.yml
+  format: yaml
+  label: Routable Receivables API
+  slug: routable-receivables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-receivables-api-openapi.yml
+- filename: routable-webhooks-api-openapi.yml
   format: yaml
   label: Routable Webhooks API
-  slug: webhooks
+  slug: routable-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

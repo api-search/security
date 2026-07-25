@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: risingwave-events-api-openapi.yml
+  format: yaml
+  label: RisingWave Events API
+  slug: risingwave-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/risingwave/refs/heads/main/openapi/risingwave-events-api-openapi.yml
+- filename: risingwave-healthz-api-openapi.yml
+  format: yaml
+  label: RisingWave Healthz API
+  slug: risingwave-healthz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/risingwave/refs/heads/main/openapi/risingwave-healthz-api-openapi.yml
+- filename: risingwave-sql-api-openapi.yml
+  format: yaml
+  label: RisingWave Sql API
+  slug: risingwave-sql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/risingwave/refs/heads/main/openapi/risingwave-sql-api-openapi.yml
 description: ''
 domains:
 - caa: []

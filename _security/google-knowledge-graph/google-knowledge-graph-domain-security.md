@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-knowledge-graph-entities-search-api-openapi.yml
   format: yaml
-  label: Google Knowledge Graph Search API
-  slug: google-knowledge-graph-search-api
+  label: Google Knowledge Graph Search Entities:search API
+  slug: google-knowledge-graph-entities-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-knowledge-graph/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-knowledge-graph/refs/heads/main/openapi/google-knowledge-graph-entities-search-api-openapi.yml
 description: ''
 domains:
 - caa:

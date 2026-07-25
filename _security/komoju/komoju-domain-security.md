@@ -1,47 +1,53 @@
 ---
 api_specs:
-- filename: komoju-openapi.yml
+- filename: komoju-barcodes-api-openapi.yml
   format: yaml
-  label: KOMOJU Payments API
-  slug: komoju-payments-api
+  label: KOMOJU Barcodes API
+  slug: komoju-barcodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-openapi.yml
-- filename: komoju-openapi.yml
-  format: yaml
-  label: KOMOJU Sessions API
-  slug: komoju-sessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-openapi.yml
-- filename: komoju-openapi.yml
-  format: yaml
-  label: KOMOJU Tokens API
-  slug: komoju-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-openapi.yml
-- filename: komoju-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-barcodes-api-openapi.yml
+- filename: komoju-customers-api-openapi.yml
   format: yaml
   label: KOMOJU Customers API
   slug: komoju-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-openapi.yml
-- filename: komoju-openapi.yml
-  format: yaml
-  label: KOMOJU Subscriptions API
-  slug: komoju-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-openapi.yml
-- filename: komoju-openapi.yml
-  format: yaml
-  label: KOMOJU Payment Methods API
-  slug: komoju-payment-methods-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-openapi.yml
-- filename: komoju-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-customers-api-openapi.yml
+- filename: komoju-events-api-openapi.yml
   format: yaml
   label: KOMOJU Events API
   slug: komoju-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-events-api-openapi.yml
+- filename: komoju-payment-methods-api-openapi.yml
+  format: yaml
+  label: KOMOJU Payment Methods API
+  slug: komoju-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-payment-methods-api-openapi.yml
+- filename: komoju-payments-api-openapi.yml
+  format: yaml
+  label: KOMOJU Payments API
+  slug: komoju-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-payments-api-openapi.yml
+- filename: komoju-sessions-api-openapi.yml
+  format: yaml
+  label: KOMOJU Sessions API
+  slug: komoju-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-sessions-api-openapi.yml
+- filename: komoju-subscriptions-api-openapi.yml
+  format: yaml
+  label: KOMOJU Subscriptions API
+  slug: komoju-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-subscriptions-api-openapi.yml
+- filename: komoju-tokens-api-openapi.yml
+  format: yaml
+  label: KOMOJU Tokens API
+  slug: komoju-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-tokens-api-openapi.yml
 description: ''
 domains:
 - caa: []

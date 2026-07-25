@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: incognia-openapi-original.yml
+- filename: incognia-authentication-api-openapi.yml
   format: yaml
-  label: Incognia API
-  slug: incognia-api
+  label: Incognia Authentication API
+  slug: incognia-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/openapi/incognia-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/openapi/incognia-authentication-api-openapi.yml
+- filename: incognia-feedback-api-openapi.yml
+  format: yaml
+  label: Incognia Feedback API
+  slug: incognia-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/openapi/incognia-feedback-api-openapi.yml
+- filename: incognia-onboarding-api-openapi.yml
+  format: yaml
+  label: Incognia Onboarding API
+  slug: incognia-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/openapi/incognia-onboarding-api-openapi.yml
+- filename: incognia-transactions-api-openapi.yml
+  format: yaml
+  label: Incognia Transactions API
+  slug: incognia-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/openapi/incognia-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sisense-rest-api-openapi.yml
+- filename: sisense-authentication-api-openapi.yml
   format: yaml
-  label: Sisense REST API v1
-  slug: rest-api-v1
+  label: Sisense Authentication API
+  slug: sisense-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/openapi/sisense-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/openapi/sisense-authentication-api-openapi.yml
+- filename: sisense-dashboards-api-openapi.yml
+  format: yaml
+  label: Sisense Dashboards API
+  slug: sisense-dashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/openapi/sisense-dashboards-api-openapi.yml
+- filename: sisense-data-security-api-openapi.yml
+  format: yaml
+  label: Sisense Data Security API
+  slug: sisense-data-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/openapi/sisense-data-security-api-openapi.yml
+- filename: sisense-elasticubes-api-openapi.yml
+  format: yaml
+  label: Sisense Elasticubes API
+  slug: sisense-elasticubes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/openapi/sisense-elasticubes-api-openapi.yml
+- filename: sisense-groups-api-openapi.yml
+  format: yaml
+  label: Sisense Groups API
+  slug: sisense-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/openapi/sisense-groups-api-openapi.yml
+- filename: sisense-users-api-openapi.yml
+  format: yaml
+  label: Sisense Users API
+  slug: sisense-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/openapi/sisense-users-api-openapi.yml
 auth_types:
 - http
 description: ''

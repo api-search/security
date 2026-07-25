@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: bored-api-openapi.yml
+- filename: bored-api-activities-api-openapi.yml
   format: yaml
-  label: Bored API
-  slug: bored-api
+  label: Bored API Activities API
+  slug: bored-api-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bored-api/refs/heads/main/openapi/bored-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bored-api/refs/heads/main/openapi/bored-api-activities-api-openapi.yml
 description: ''
 domains:
 - caa: []

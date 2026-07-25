@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: north-cloud-openapi.yml
+- filename: north-cloud-cost-units-api-openapi.yml
   format: yaml
-  label: North.Cloud Public API
-  slug: north-cloud
+  label: North.Cloud Cost Units API
+  slug: north-cloud-cost-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/north-cloud/refs/heads/main/openapi/north-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/north-cloud/refs/heads/main/openapi/north-cloud-cost-units-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

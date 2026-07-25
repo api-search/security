@@ -1,60 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tap-payments-openapi.yml
-  format: yaml
-  label: Tap Payments Charges API
-  slug: tap-payments-charges-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-openapi.yml
-- filename: tap-payments-openapi.yml
+- filename: tap-payments-authorize-api-openapi.yml
   format: yaml
   label: Tap Payments Authorize API
   slug: tap-payments-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-openapi.yml
-- filename: tap-payments-openapi.yml
-  format: yaml
-  label: Tap Payments Refunds API
-  slug: tap-payments-refunds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-openapi.yml
-- filename: tap-payments-openapi.yml
-  format: yaml
-  label: Tap Payments Customers API
-  slug: tap-payments-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-openapi.yml
-- filename: tap-payments-openapi.yml
-  format: yaml
-  label: Tap Payments Tokens API
-  slug: tap-payments-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-openapi.yml
-- filename: tap-payments-openapi.yml
-  format: yaml
-  label: Tap Payments Cards API
-  slug: tap-payments-cards-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-openapi.yml
-- filename: tap-payments-openapi.yml
-  format: yaml
-  label: Tap Payments Invoices API
-  slug: tap-payments-invoices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-openapi.yml
-- filename: tap-payments-openapi.yml
-  format: yaml
-  label: Tap Payments Payouts API
-  slug: tap-payments-payouts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-openapi.yml
-- filename: tap-payments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-authorize-api-openapi.yml
+- filename: tap-payments-business-api-openapi.yml
   format: yaml
   label: Tap Payments Business API
   slug: tap-payments-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-business-api-openapi.yml
+- filename: tap-payments-cards-api-openapi.yml
+  format: yaml
+  label: Tap Payments Cards API
+  slug: tap-payments-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-cards-api-openapi.yml
+- filename: tap-payments-charges-api-openapi.yml
+  format: yaml
+  label: Tap Payments Charges API
+  slug: tap-payments-charges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-charges-api-openapi.yml
+- filename: tap-payments-customers-api-openapi.yml
+  format: yaml
+  label: Tap Payments Customers API
+  slug: tap-payments-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-customers-api-openapi.yml
+- filename: tap-payments-invoices-api-openapi.yml
+  format: yaml
+  label: Tap Payments Invoices API
+  slug: tap-payments-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-invoices-api-openapi.yml
+- filename: tap-payments-payouts-api-openapi.yml
+  format: yaml
+  label: Tap Payments Payouts API
+  slug: tap-payments-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-payouts-api-openapi.yml
+- filename: tap-payments-refunds-api-openapi.yml
+  format: yaml
+  label: Tap Payments Refunds API
+  slug: tap-payments-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-refunds-api-openapi.yml
+- filename: tap-payments-tokens-api-openapi.yml
+  format: yaml
+  label: Tap Payments Tokens API
+  slug: tap-payments-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-tokens-api-openapi.yml
 auth_types:
 - http
 description: ''

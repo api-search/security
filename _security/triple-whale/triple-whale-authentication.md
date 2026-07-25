@@ -2,24 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: triple-whale-openapi.yml
+- filename: triple-whale-api-keys-api-openapi.yml
   format: yaml
-  label: Triple Whale Summary API
-  slug: triple-whale-summary-api
+  label: Triple Whale API Keys API
+  slug: triple-whale-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-openapi.yml
-- filename: triple-whale-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-api-keys-api-openapi.yml
+- filename: triple-whale-compliance-api-openapi.yml
   format: yaml
-  label: Triple Whale Attribution API
-  slug: triple-whale-attribution-api
+  label: Triple Whale Compliance API
+  slug: triple-whale-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-openapi.yml
-- filename: triple-whale-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-compliance-api-openapi.yml
+- filename: triple-whale-data-in-api-openapi.yml
   format: yaml
-  label: Triple Whale Data-In API
+  label: Triple Whale Data In API
   slug: triple-whale-data-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-data-in-api-openapi.yml
+- filename: triple-whale-data-out-api-openapi.yml
+  format: yaml
+  label: Triple Whale Data Out API
+  slug: triple-whale-data-out-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-data-out-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

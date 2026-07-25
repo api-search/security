@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: screenshotone-openapi.yml
+- filename: screenshotone-account-api-openapi.yml
   format: yaml
-  label: ScreenshotOne API
-  slug: screenshotone
+  label: ScreenshotOne Account API
+  slug: screenshotone-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenshotone/refs/heads/main/openapi/screenshotone-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/screenshotone/refs/heads/main/openapi/screenshotone-account-api-openapi.yml
+- filename: screenshotone-animations-api-openapi.yml
+  format: yaml
+  label: ScreenshotOne Animations API
+  slug: screenshotone-animations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/screenshotone/refs/heads/main/openapi/screenshotone-animations-api-openapi.yml
+- filename: screenshotone-screenshots-api-openapi.yml
+  format: yaml
+  label: ScreenshotOne Screenshots API
+  slug: screenshotone-screenshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/screenshotone/refs/heads/main/openapi/screenshotone-screenshots-api-openapi.yml
 description: ''
 domains:
 - caa:

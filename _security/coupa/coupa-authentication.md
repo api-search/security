@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: api_docs
+- filename: coupa-invoices-api-openapi.yml
   format: yaml
-  label: Coupa Core API
-  slug: coupa-core-api
+  label: Coupa Invoices API
+  slug: coupa-invoices-api
   spec_type: OpenAPI
-  url: https://compass.coupa.com/en-us/api_docs
+  url: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/openapi/coupa-invoices-api-openapi.yml
+- filename: coupa-purchase-orders-api-openapi.yml
+  format: yaml
+  label: Coupa Purchase Orders API
+  slug: coupa-purchase-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/openapi/coupa-purchase-orders-api-openapi.yml
+- filename: coupa-requisitions-api-openapi.yml
+  format: yaml
+  label: Coupa Requisitions API
+  slug: coupa-requisitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/openapi/coupa-requisitions-api-openapi.yml
+- filename: coupa-suppliers-api-openapi.yml
+  format: yaml
+  label: Coupa Suppliers API
+  slug: coupa-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/openapi/coupa-suppliers-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

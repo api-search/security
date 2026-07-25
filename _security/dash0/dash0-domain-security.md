@@ -1,11 +1,113 @@
 ---
 api_specs:
-- filename: dash0-openapi.json
-  format: json
-  label: Dash0 API
-  slug: dash0-api
+- filename: dash0-edge-collectors-api-openapi.yml
+  format: yaml
+  label: Dash0 Edge Collectors API
+  slug: dash0-edge-collectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-edge-collectors-api-openapi.yml
+- filename: dash0-manage-agent0-automations-api-openapi.yml
+  format: yaml
+  label: Dash0 Manage Agent0 Automations API
+  slug: dash0-manage-agent0-automations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-agent0-automations-api-openapi.yml
+- filename: dash0-manage-alerting-api-openapi.yml
+  format: yaml
+  label: Dash0 Manage Alerting API
+  slug: dash0-manage-alerting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-alerting-api-openapi.yml
+- filename: dash0-manage-dashboards-api-openapi.yml
+  format: yaml
+  label: Dash0 Manage Dashboards API
+  slug: dash0-manage-dashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-dashboards-api-openapi.yml
+- filename: dash0-manage-notification-channels-api-openapi.yml
+  format: yaml
+  label: Dash0 Manage Notification Channels API
+  slug: dash0-manage-notification-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-notification-channels-api-openapi.yml
+- filename: dash0-manage-recording-rules-api-openapi.yml
+  format: yaml
+  label: Dash0 Manage Recording Rules API
+  slug: dash0-manage-recording-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-recording-rules-api-openapi.yml
+- filename: dash0-manage-sampling-rules-api-openapi.yml
+  format: yaml
+  label: Dash0 Manage Sampling Rules API
+  slug: dash0-manage-sampling-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-sampling-rules-api-openapi.yml
+- filename: dash0-manage-signal-to-metrics-beta-api-openapi.yml
+  format: yaml
+  label: Dash0 Manage Signal To Metrics (BETA) API
+  slug: dash0-manage-signal-to-metrics-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-signal-to-metrics-beta-api-openapi.yml
+- filename: dash0-manage-slos-private-beta-api-openapi.yml
+  format: yaml
+  label: Dash0 Manage SLOs (Private BETA) API
+  slug: dash0-manage-slos-private-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-slos-private-beta-api-openapi.yml
+- filename: dash0-manage-spam-filters-api-openapi.yml
+  format: yaml
+  label: Dash0 Manage Spam Filters API
+  slug: dash0-manage-spam-filters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-spam-filters-api-openapi.yml
+- filename: dash0-manage-synthetic-checks-api-openapi.yml
+  format: yaml
+  label: Dash0 Manage Synthetic Checks API
+  slug: dash0-manage-synthetic-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-synthetic-checks-api-openapi.yml
+- filename: dash0-manage-teams-and-members-api-openapi.yml
+  format: yaml
+  label: Dash0 Manage Teams and Members API
+  slug: dash0-manage-teams-and-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-teams-and-members-api-openapi.yml
+- filename: dash0-manage-time-series-aggregations-private-beta-api-openapi.yml
+  format: yaml
+  label: Dash0 Manage Time Series Aggregations (Private BETA) API
+  slug: dash0-manage-time-series-aggregations-private-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-time-series-aggregations-private-beta-api-openapi.yml
+- filename: dash0-manage-views-api-openapi.yml
+  format: yaml
+  label: Dash0 Manage Views API
+  slug: dash0-manage-views-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-views-api-openapi.yml
+- filename: dash0-oauth-2-0-api-openapi.yml
+  format: yaml
+  label: Dash0 OAuth 2.0 API
+  slug: dash0-oauth-2-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-oauth-2-0-api-openapi.yml
+- filename: dash0-prometheus-api-api-openapi.yml
+  format: yaml
+  label: Dash0 Prometheus API API
+  slug: dash0-prometheus-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-prometheus-api-api-openapi.yml
+- filename: dash0-query-sql-api-openapi.yml
+  format: yaml
+  label: Dash0 Query SQL API
+  slug: dash0-query-sql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-query-sql-api-openapi.yml
+- filename: dash0-query-telemetry-api-openapi.yml
+  format: yaml
+  label: Dash0 Query Telemetry API
+  slug: dash0-query-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-query-telemetry-api-openapi.yml
 description: ''
 domains:
 - caa:

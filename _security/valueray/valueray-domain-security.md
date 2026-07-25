@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: valueray-symbol-data-openapi.yml
+- filename: valueray-symbol-data-api-openapi.yml
   format: yaml
   label: ValueRay Symbol Data API
-  slug: symbol-data-api
+  slug: valueray-symbol-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valueray/refs/heads/main/openapi/valueray-symbol-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/valueray/refs/heads/main/openapi/valueray-symbol-data-api-openapi.yml
 description: ''
 domains:
 - caa:

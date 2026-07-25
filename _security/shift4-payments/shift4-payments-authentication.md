@@ -1,12 +1,114 @@
 ---
 api_key_in: []
 api_specs:
-- filename: shift4-api-openapi.yml
+- filename: shift4-payments-blacklist-api-openapi.yml
   format: yaml
-  label: Shift4 Payments API
-  slug: shift4-api
+  label: Shift4 Payments Blacklist API
+  slug: shift4-payments-blacklist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4-payments/main/openapi/shift4-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/openapi/shift4-payments-blacklist-api-openapi.yml
+- filename: shift4-payments-cards-api-openapi.yml
+  format: yaml
+  label: Shift4 Payments Cards API
+  slug: shift4-payments-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/openapi/shift4-payments-cards-api-openapi.yml
+- filename: shift4-payments-charges-api-openapi.yml
+  format: yaml
+  label: Shift4 Payments Charges API
+  slug: shift4-payments-charges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/openapi/shift4-payments-charges-api-openapi.yml
+- filename: shift4-payments-checkout-sessions-api-openapi.yml
+  format: yaml
+  label: Shift4 Payments Checkout Sessions API
+  slug: shift4-payments-checkout-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/openapi/shift4-payments-checkout-sessions-api-openapi.yml
+- filename: shift4-payments-credits-api-openapi.yml
+  format: yaml
+  label: Shift4 Payments Credits API
+  slug: shift4-payments-credits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/openapi/shift4-payments-credits-api-openapi.yml
+- filename: shift4-payments-customers-api-openapi.yml
+  format: yaml
+  label: Shift4 Payments Customers API
+  slug: shift4-payments-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/openapi/shift4-payments-customers-api-openapi.yml
+- filename: shift4-payments-disputes-api-openapi.yml
+  format: yaml
+  label: Shift4 Payments Disputes API
+  slug: shift4-payments-disputes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/openapi/shift4-payments-disputes-api-openapi.yml
+- filename: shift4-payments-events-api-openapi.yml
+  format: yaml
+  label: Shift4 Payments Events API
+  slug: shift4-payments-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/openapi/shift4-payments-events-api-openapi.yml
+- filename: shift4-payments-file-uploads-api-openapi.yml
+  format: yaml
+  label: Shift4 Payments File Uploads API
+  slug: shift4-payments-file-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/openapi/shift4-payments-file-uploads-api-openapi.yml
+- filename: shift4-payments-fraud-warnings-api-openapi.yml
+  format: yaml
+  label: Shift4 Payments Fraud Warnings API
+  slug: shift4-payments-fraud-warnings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/openapi/shift4-payments-fraud-warnings-api-openapi.yml
+- filename: shift4-payments-payment-links-api-openapi.yml
+  format: yaml
+  label: Shift4 Payments Payment Links API
+  slug: shift4-payments-payment-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/openapi/shift4-payments-payment-links-api-openapi.yml
+- filename: shift4-payments-payment-methods-api-openapi.yml
+  format: yaml
+  label: Shift4 Payments Payment Methods API
+  slug: shift4-payments-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/openapi/shift4-payments-payment-methods-api-openapi.yml
+- filename: shift4-payments-payouts-api-openapi.yml
+  format: yaml
+  label: Shift4 Payments Payouts API
+  slug: shift4-payments-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/openapi/shift4-payments-payouts-api-openapi.yml
+- filename: shift4-payments-plans-api-openapi.yml
+  format: yaml
+  label: Shift4 Payments Plans API
+  slug: shift4-payments-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/openapi/shift4-payments-plans-api-openapi.yml
+- filename: shift4-payments-refunds-api-openapi.yml
+  format: yaml
+  label: Shift4 Payments Refunds API
+  slug: shift4-payments-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/openapi/shift4-payments-refunds-api-openapi.yml
+- filename: shift4-payments-subscriptions-api-openapi.yml
+  format: yaml
+  label: Shift4 Payments Subscriptions API
+  slug: shift4-payments-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/openapi/shift4-payments-subscriptions-api-openapi.yml
+- filename: shift4-payments-tokens-api-openapi.yml
+  format: yaml
+  label: Shift4 Payments Tokens API
+  slug: shift4-payments-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/openapi/shift4-payments-tokens-api-openapi.yml
+- filename: shift4-payments-webhook-endpoints-api-openapi.yml
+  format: yaml
+  label: Shift4 Payments Webhook Endpoints API
+  slug: shift4-payments-webhook-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/openapi/shift4-payments-webhook-endpoints-api-openapi.yml
 auth_types:
 - http
 description: ''

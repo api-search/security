@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: commusoft-api-openapi.yml
+- filename: commusoft-authentication-api-openapi.yml
   format: yaml
-  label: Commusoft API
-  slug: commusoft-api
+  label: Commusoft Authentication API
+  slug: commusoft-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-authentication-api-openapi.yml
+- filename: commusoft-contacts-api-openapi.yml
+  format: yaml
+  label: Commusoft Contacts API
+  slug: commusoft-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-contacts-api-openapi.yml
+- filename: commusoft-customers-api-openapi.yml
+  format: yaml
+  label: Commusoft Customers API
+  slug: commusoft-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-customers-api-openapi.yml
+- filename: commusoft-diary-events-api-openapi.yml
+  format: yaml
+  label: Commusoft Diary Events API
+  slug: commusoft-diary-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-diary-events-api-openapi.yml
+- filename: commusoft-locations-api-openapi.yml
+  format: yaml
+  label: Commusoft Locations API
+  slug: commusoft-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-locations-api-openapi.yml
+- filename: commusoft-suppliers-api-openapi.yml
+  format: yaml
+  label: Commusoft Suppliers API
+  slug: commusoft-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-suppliers-api-openapi.yml
+- filename: commusoft-titles-api-openapi.yml
+  format: yaml
+  label: Commusoft Titles API
+  slug: commusoft-titles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-titles-api-openapi.yml
+- filename: commusoft-users-api-openapi.yml
+  format: yaml
+  label: Commusoft Users API
+  slug: commusoft-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

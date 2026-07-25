@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: fal-model-apis-openapi.yml
-  format: yaml
-  label: fal Model APIs
-  slug: fal-model-apis
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/openapi/fal-model-apis-openapi.yml
 - filename: fal-ai-asyncapi.yml
   format: yaml
   label: fal Realtime API
@@ -18,18 +12,42 @@ api_specs:
   slug: fal-streaming-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/asyncapi/fal-ai-asyncapi.yml
-- filename: fal-storage-api-openapi.yml
+- filename: fal-ai-apps-api-openapi.yml
+  format: yaml
+  label: fal Apps API
+  slug: fal-ai-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/openapi/fal-ai-apps-api-openapi.yml
+- filename: fal-ai-files-api-openapi.yml
+  format: yaml
+  label: fal Files API
+  slug: fal-ai-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/openapi/fal-ai-files-api-openapi.yml
+- filename: fal-ai-queue-api-openapi.yml
+  format: yaml
+  label: fal Queue API
+  slug: fal-ai-queue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/openapi/fal-ai-queue-api-openapi.yml
+- filename: fal-ai-secrets-api-openapi.yml
+  format: yaml
+  label: fal Secrets API
+  slug: fal-ai-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/openapi/fal-ai-secrets-api-openapi.yml
+- filename: fal-ai-storage-api-openapi.yml
   format: yaml
   label: fal Storage API
-  slug: fal-storage-api
+  slug: fal-ai-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/openapi/fal-storage-api-openapi.yml
-- filename: fal-serverless-platform-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/openapi/fal-ai-storage-api-openapi.yml
+- filename: fal-ai-streaming-api-openapi.yml
   format: yaml
-  label: fal Serverless Platform API
-  slug: fal-serverless-platform-api
+  label: fal Streaming API
+  slug: fal-ai-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/openapi/fal-serverless-platform-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/openapi/fal-ai-streaming-api-openapi.yml
 description: ''
 domains:
 - caa:

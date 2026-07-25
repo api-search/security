@@ -2,12 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: adaptive-ml-openapi-original.json
-  format: json
-  label: Adaptive Engine API
-  slug: adaptive-engine-api
+- filename: adaptive-ml-artifacts-rest-api-openapi.yml
+  format: yaml
+  label: Adaptive ML artifacts::rest API
+  slug: adaptive-ml-artifacts-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-artifacts-rest-api-openapi.yml
+- filename: adaptive-ml-chunked-upload-api-openapi.yml
+  format: yaml
+  label: Adaptive ML Chunked Upload API
+  slug: adaptive-ml-chunked-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-chunked-upload-api-openapi.yml
+- filename: adaptive-ml-completions-api-openapi.yml
+  format: yaml
+  label: Adaptive ML Completions API
+  slug: adaptive-ml-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-completions-api-openapi.yml
+- filename: adaptive-ml-datasets-api-openapi.yml
+  format: yaml
+  label: Adaptive ML Datasets API
+  slug: adaptive-ml-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-datasets-api-openapi.yml
+- filename: adaptive-ml-embeddings-api-openapi.yml
+  format: yaml
+  label: Adaptive ML Embeddings API
+  slug: adaptive-ml-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-embeddings-api-openapi.yml
+- filename: adaptive-ml-feedback-api-openapi.yml
+  format: yaml
+  label: Adaptive ML Feedback API
+  slug: adaptive-ml-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-feedback-api-openapi.yml
+- filename: adaptive-ml-image-rest-api-openapi.yml
+  format: yaml
+  label: Adaptive ML image::rest API
+  slug: adaptive-ml-image-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-image-rest-api-openapi.yml
+- filename: adaptive-ml-interactions-api-openapi.yml
+  format: yaml
+  label: Adaptive ML Interactions API
+  slug: adaptive-ml-interactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-interactions-api-openapi.yml
+- filename: adaptive-ml-recipes-api-openapi.yml
+  format: yaml
+  label: Adaptive ML Recipes API
+  slug: adaptive-ml-recipes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-recipes-api-openapi.yml
 auth_types:
 - http
 description: ''

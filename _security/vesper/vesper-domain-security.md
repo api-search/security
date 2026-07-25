@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: vesper-pools-api-openapi.yml
   format: yaml
-  label: Vesper Finance API
-  slug: vesper-finance-api
+  label: Vesper Finance Pools API
+  slug: vesper-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/openapi/vesper-pools-api-openapi.yml
+- filename: vesper-rates-api-openapi.yml
+  format: yaml
+  label: Vesper Finance Rates API
+  slug: vesper-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/openapi/vesper-rates-api-openapi.yml
+- filename: vesper-tvl-api-openapi.yml
+  format: yaml
+  label: Vesper Finance TVL API
+  slug: vesper-tvl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/openapi/vesper-tvl-api-openapi.yml
+- filename: vesper-vsp-api-openapi.yml
+  format: yaml
+  label: Vesper Finance VSP API
+  slug: vesper-vsp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/openapi/vesper-vsp-api-openapi.yml
 description: ''
 domains:
 - caa: []

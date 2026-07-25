@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: api.html
+- filename: nasa-cmr-capabilities-api-openapi.yml
   format: yaml
-  label: CMR Search API
-  slug: cmr-search
+  label: NASA CMR Capabilities API
+  slug: nasa-cmr-capabilities-api
   spec_type: OpenAPI
-  url: https://cmr.earthdata.nasa.gov/search/site/docs/search/api.html
+  url: https://raw.githubusercontent.com/api-evangelist/nasa-cmr/refs/heads/main/openapi/nasa-cmr-capabilities-api-openapi.yml
+- filename: nasa-cmr-collections-api-openapi.yml
+  format: yaml
+  label: NASA CMR Collections API
+  slug: nasa-cmr-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa-cmr/refs/heads/main/openapi/nasa-cmr-collections-api-openapi.yml
+- filename: nasa-cmr-data-api-openapi.yml
+  format: yaml
+  label: NASA CMR Data API
+  slug: nasa-cmr-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa-cmr/refs/heads/main/openapi/nasa-cmr-data-api-openapi.yml
+- filename: nasa-cmr-stac-api-openapi.yml
+  format: yaml
+  label: NASA CMR STAC API
+  slug: nasa-cmr-stac-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa-cmr/refs/heads/main/openapi/nasa-cmr-stac-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: jelly-belly-openapi.yml
+- filename: jelly-belly-beans-api-openapi.yml
   format: yaml
-  label: Jelly Belly Wiki API
-  slug: jelly-belly-wiki-api
+  label: Jelly Belly Beans API
+  slug: jelly-belly-beans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jelly-belly/refs/heads/main/openapi/jelly-belly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jelly-belly/refs/heads/main/openapi/jelly-belly-beans-api-openapi.yml
+- filename: jelly-belly-combinations-api-openapi.yml
+  format: yaml
+  label: Jelly Belly Combinations API
+  slug: jelly-belly-combinations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jelly-belly/refs/heads/main/openapi/jelly-belly-combinations-api-openapi.yml
+- filename: jelly-belly-facts-api-openapi.yml
+  format: yaml
+  label: Jelly Belly Facts API
+  slug: jelly-belly-facts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jelly-belly/refs/heads/main/openapi/jelly-belly-facts-api-openapi.yml
+- filename: jelly-belly-milestones-api-openapi.yml
+  format: yaml
+  label: Jelly Belly MileStones API
+  slug: jelly-belly-milestones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jelly-belly/refs/heads/main/openapi/jelly-belly-milestones-api-openapi.yml
+- filename: jelly-belly-recipes-api-openapi.yml
+  format: yaml
+  label: Jelly Belly Recipes API
+  slug: jelly-belly-recipes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jelly-belly/refs/heads/main/openapi/jelly-belly-recipes-api-openapi.yml
 description: ''
 domains:
 - caa: []

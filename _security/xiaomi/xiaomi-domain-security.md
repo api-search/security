@@ -1,23 +1,53 @@
 ---
 api_specs:
-- filename: xiaomi-open-api-openapi.yml
+- filename: xiaomi-access-control-api-openapi.yml
   format: yaml
-  label: Xiaomi Open API
-  slug: xiaomi-open-api
+  label: Xiaomi Access Control API
+  slug: xiaomi-access-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-open-api-openapi.yml
-- filename: xiaomi-galaxy-fds-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-access-control-api-openapi.yml
+- filename: xiaomi-authentication-api-openapi.yml
   format: yaml
-  label: Xiaomi Galaxy FDS API
-  slug: xiaomi-galaxy-fds
+  label: Xiaomi Authentication API
+  slug: xiaomi-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-galaxy-fds-openapi.yml
-- filename: xiaomi-mimo-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-authentication-api-openapi.yml
+- filename: xiaomi-cdn-api-openapi.yml
   format: yaml
-  label: Xiaomi MiMo AI API
-  slug: xiaomi-mimo-api
+  label: Xiaomi CDN API
+  slug: xiaomi-cdn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-mimo-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-cdn-api-openapi.yml
+- filename: xiaomi-chat-api-openapi.yml
+  format: yaml
+  label: Xiaomi Chat API
+  slug: xiaomi-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-chat-api-openapi.yml
+- filename: xiaomi-models-api-openapi.yml
+  format: yaml
+  label: Xiaomi Models API
+  slug: xiaomi-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-models-api-openapi.yml
+- filename: xiaomi-multipart-upload-api-openapi.yml
+  format: yaml
+  label: Xiaomi Multipart Upload API
+  slug: xiaomi-multipart-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-multipart-upload-api-openapi.yml
+- filename: xiaomi-objects-api-openapi.yml
+  format: yaml
+  label: Xiaomi Objects API
+  slug: xiaomi-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-objects-api-openapi.yml
+- filename: xiaomi-user-api-openapi.yml
+  format: yaml
+  label: Xiaomi User API
+  slug: xiaomi-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-user-api-openapi.yml
 description: ''
 domains:
 - caa:

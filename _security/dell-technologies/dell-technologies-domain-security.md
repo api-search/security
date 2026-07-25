@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: dell-technologies-dell-api-openapi.yml
+- filename: dell-technologies-enterprise-it-api-openapi.yml
   format: yaml
-  label: Dell Technologies API
-  slug: dell-api
+  label: Dell Technologies Enterprise IT API
+  slug: dell-technologies-enterprise-it-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dell-technologies/refs/heads/main/openapi/dell-technologies-dell-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dell-technologies/refs/heads/main/openapi/dell-technologies-enterprise-it-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: university-of-st-andrews-status.yaml
+- filename: university-of-st-andrews-components-api-openapi.yml
   format: yaml
-  label: Service Status API
-  slug: status
+  label: University of St Andrews Components API
+  slug: university-of-st-andrews-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-st-andrews/refs/heads/main/openapi/university-of-st-andrews-status.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-st-andrews/refs/heads/main/openapi/university-of-st-andrews-components-api-openapi.yml
+- filename: university-of-st-andrews-notices-api-openapi.yml
+  format: yaml
+  label: University of St Andrews Notices API
+  slug: university-of-st-andrews-notices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-st-andrews/refs/heads/main/openapi/university-of-st-andrews-notices-api-openapi.yml
+- filename: university-of-st-andrews-status-api-openapi.yml
+  format: yaml
+  label: University of St Andrews Status API
+  slug: university-of-st-andrews-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-st-andrews/refs/heads/main/openapi/university-of-st-andrews-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

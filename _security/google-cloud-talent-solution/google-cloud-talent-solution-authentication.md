@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-talent-solution-companies-api-openapi.yml
   format: yaml
-  label: Google Cloud Talent Solution API
-  slug: google-cloud-talent-solution-api
+  label: Google Cloud Talent Solution Companies API
+  slug: google-cloud-talent-solution-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-talent-solution/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-talent-solution/refs/heads/main/openapi/google-cloud-talent-solution-companies-api-openapi.yml
+- filename: google-cloud-talent-solution-jobs-api-openapi.yml
+  format: yaml
+  label: Google Cloud Talent Solution Jobs API
+  slug: google-cloud-talent-solution-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-talent-solution/refs/heads/main/openapi/google-cloud-talent-solution-jobs-api-openapi.yml
+- filename: google-cloud-talent-solution-tenants-api-openapi.yml
+  format: yaml
+  label: Google Cloud Talent Solution Tenants API
+  slug: google-cloud-talent-solution-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-talent-solution/refs/heads/main/openapi/google-cloud-talent-solution-tenants-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

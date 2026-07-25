@@ -2,12 +2,66 @@
 api_key_in:
 - header
 api_specs:
-- filename: greynoise-openapi.yml
+- filename: greynoise-callback-api-openapi.yml
   format: yaml
-  label: GreyNoise API
-  slug: greynoise-api
+  label: GreyNoise Intelligence Callback API
+  slug: greynoise-callback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/openapi/greynoise-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/openapi/greynoise-callback-api-openapi.yml
+- filename: greynoise-community-api-openapi.yml
+  format: yaml
+  label: GreyNoise Intelligence Community API
+  slug: greynoise-community-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/openapi/greynoise-community-api-openapi.yml
+- filename: greynoise-cve-api-openapi.yml
+  format: yaml
+  label: GreyNoise Intelligence CVE API
+  slug: greynoise-cve-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/openapi/greynoise-cve-api-openapi.yml
+- filename: greynoise-gnql-api-openapi.yml
+  format: yaml
+  label: GreyNoise Intelligence GNQL API
+  slug: greynoise-gnql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/openapi/greynoise-gnql-api-openapi.yml
+- filename: greynoise-ip-lookup-api-openapi.yml
+  format: yaml
+  label: GreyNoise Intelligence IP Lookup API
+  slug: greynoise-ip-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/openapi/greynoise-ip-lookup-api-openapi.yml
+- filename: greynoise-ip-timeline-api-openapi.yml
+  format: yaml
+  label: GreyNoise Intelligence IP Timeline API
+  slug: greynoise-ip-timeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/openapi/greynoise-ip-timeline-api-openapi.yml
+- filename: greynoise-recall-api-openapi.yml
+  format: yaml
+  label: GreyNoise Intelligence Recall API
+  slug: greynoise-recall-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/openapi/greynoise-recall-api-openapi.yml
+- filename: greynoise-sessions-api-openapi.yml
+  format: yaml
+  label: GreyNoise Intelligence Sessions API
+  slug: greynoise-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/openapi/greynoise-sessions-api-openapi.yml
+- filename: greynoise-tags-api-openapi.yml
+  format: yaml
+  label: GreyNoise Intelligence Tags API
+  slug: greynoise-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/openapi/greynoise-tags-api-openapi.yml
+- filename: greynoise-utility-api-openapi.yml
+  format: yaml
+  label: GreyNoise Intelligence Utility API
+  slug: greynoise-utility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/openapi/greynoise-utility-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

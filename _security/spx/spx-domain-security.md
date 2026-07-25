@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: spx-graphics-control-api-openapi.yml
+- filename: spx-data-api-openapi.yml
   format: yaml
-  label: SPX Graphics Control API
-  slug: spx-graphics-control-api
+  label: SPX Graphics Data API
+  slug: spx-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spx/refs/heads/main/openapi/spx-graphics-control-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spx/refs/heads/main/openapi/spx-data-api-openapi.yml
+- filename: spx-extensions-api-openapi.yml
+  format: yaml
+  label: SPX Graphics Extensions API
+  slug: spx-extensions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spx/refs/heads/main/openapi/spx-extensions-api-openapi.yml
+- filename: spx-files-api-openapi.yml
+  format: yaml
+  label: SPX Graphics Files API
+  slug: spx-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spx/refs/heads/main/openapi/spx-files-api-openapi.yml
+- filename: spx-item-api-openapi.yml
+  format: yaml
+  label: SPX Graphics Item API
+  slug: spx-item-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spx/refs/heads/main/openapi/spx-item-api-openapi.yml
+- filename: spx-rundown-api-openapi.yml
+  format: yaml
+  label: SPX Graphics Rundown API
+  slug: spx-rundown-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spx/refs/heads/main/openapi/spx-rundown-api-openapi.yml
 description: ''
 domains:
 - caa: []

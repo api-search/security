@@ -1,5 +1,12 @@
 ---
 api_key_in: []
+api_specs:
+- filename: the-graph-subgraphs-api-openapi.yml
+  format: yaml
+  label: The Graph Subgraphs API
+  slug: the-graph-subgraphs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-graph/refs/heads/main/openapi/the-graph-subgraphs-api-openapi.yml
 auth_types:
 - http
 description: ''

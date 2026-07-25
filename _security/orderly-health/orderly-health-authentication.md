@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: orderly-health-provider-directory-openapi.json
-  format: json
-  label: Orderly Provider Directory API
-  slug: orderly-provider-directory-api
+- filename: orderly-health-look-up-practitioners-api-openapi.yml
+  format: yaml
+  label: Orderly Health Look Up Practitioners API
+  slug: orderly-health-look-up-practitioners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderly-health/refs/heads/main/openapi/orderly-health-provider-directory-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/orderly-health/refs/heads/main/openapi/orderly-health-look-up-practitioners-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

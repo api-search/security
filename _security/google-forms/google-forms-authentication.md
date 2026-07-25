@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: google-forms-api.yaml
+- filename: google-forms-forms-api-openapi.yml
   format: yaml
-  label: Google Forms API v1
-  slug: google-forms-api-v1
+  label: Google Forms Forms API
+  slug: google-forms-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/openapi/google-forms-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/openapi/google-forms-forms-api-openapi.yml
+- filename: google-forms-responses-api-openapi.yml
+  format: yaml
+  label: Google Forms Responses API
+  slug: google-forms-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/openapi/google-forms-responses-api-openapi.yml
+- filename: google-forms-watches-api-openapi.yml
+  format: yaml
+  label: Google Forms Watches API
+  slug: google-forms-watches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/openapi/google-forms-watches-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

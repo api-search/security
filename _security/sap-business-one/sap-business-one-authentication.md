@@ -2,12 +2,60 @@
 api_key_in:
 - cookie
 api_specs:
-- filename: sap-business-one-openapi.yml
+- filename: sap-business-one-businesspartners-api-openapi.yml
   format: yaml
-  label: SAP Business One Service Layer API
-  slug: service-layer
+  label: SAP Business One BusinessPartners API
+  slug: sap-business-one-businesspartners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-businesspartners-api-openapi.yml
+- filename: sap-business-one-businesspartners-cardcode-api-openapi.yml
+  format: yaml
+  label: SAP Business One BusinessPartners('{CardCode}') API
+  slug: sap-business-one-businesspartners-cardcode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-businesspartners-cardcode-api-openapi.yml
+- filename: sap-business-one-companyservice-getcompanyinfo-api-openapi.yml
+  format: yaml
+  label: SAP Business One CompanyService GetCompanyInfo API
+  slug: sap-business-one-companyservice-getcompanyinfo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-companyservice-getcompanyinfo-api-openapi.yml
+- filename: sap-business-one-invoices-api-openapi.yml
+  format: yaml
+  label: SAP Business One Invoices API
+  slug: sap-business-one-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-invoices-api-openapi.yml
+- filename: sap-business-one-items-api-openapi.yml
+  format: yaml
+  label: SAP Business One Items API
+  slug: sap-business-one-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-items-api-openapi.yml
+- filename: sap-business-one-login-api-openapi.yml
+  format: yaml
+  label: SAP Business One Login API
+  slug: sap-business-one-login-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-login-api-openapi.yml
+- filename: sap-business-one-logout-api-openapi.yml
+  format: yaml
+  label: SAP Business One Logout API
+  slug: sap-business-one-logout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-logout-api-openapi.yml
+- filename: sap-business-one-orders-api-openapi.yml
+  format: yaml
+  label: SAP Business One Orders API
+  slug: sap-business-one-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-orders-api-openapi.yml
+- filename: sap-business-one-orders-docentry-api-openapi.yml
+  format: yaml
+  label: SAP Business One Orders({DocEntry}) API
+  slug: sap-business-one-orders-docentry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-orders-docentry-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

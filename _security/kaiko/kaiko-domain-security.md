@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: kaiko-canton-oracle-api-openapi.yml
+  format: yaml
+  label: Kaiko Canton Oracle API
+  slug: kaiko-canton-oracle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/openapi/kaiko-canton-oracle-api-openapi.yml
+- filename: kaiko-index-reference-data-api-openapi.yml
+  format: yaml
+  label: Kaiko Index Reference Data API
+  slug: kaiko-index-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/openapi/kaiko-index-reference-data-api-openapi.yml
+- filename: kaiko-indices-api-openapi.yml
+  format: yaml
+  label: Kaiko Indices API
+  slug: kaiko-indices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/openapi/kaiko-indices-api-openapi.yml
+- filename: kaiko-supply-api-openapi.yml
+  format: yaml
+  label: Kaiko Supply API
+  slug: kaiko-supply-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/openapi/kaiko-supply-api-openapi.yml
 description: ''
 domains:
 - caa: []

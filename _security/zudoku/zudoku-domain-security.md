@@ -6,6 +6,36 @@ api_specs:
   slug: configuration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zudoku/refs/heads/main/openapi/zudoku-configuration-api-openapi.yml
+- filename: zudoku-api-references-api-openapi.yml
+  format: yaml
+  label: Zudoku API References API
+  slug: zudoku-api-references-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zudoku/refs/heads/main/openapi/zudoku-api-references-api-openapi.yml
+- filename: zudoku-authentication-api-openapi.yml
+  format: yaml
+  label: Zudoku Authentication API
+  slug: zudoku-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zudoku/refs/heads/main/openapi/zudoku-authentication-api-openapi.yml
+- filename: zudoku-navigation-api-openapi.yml
+  format: yaml
+  label: Zudoku Navigation API
+  slug: zudoku-navigation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zudoku/refs/heads/main/openapi/zudoku-navigation-api-openapi.yml
+- filename: zudoku-plugins-api-openapi.yml
+  format: yaml
+  label: Zudoku Plugins API
+  slug: zudoku-plugins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zudoku/refs/heads/main/openapi/zudoku-plugins-api-openapi.yml
+- filename: zudoku-theming-api-openapi.yml
+  format: yaml
+  label: Zudoku Theming API
+  slug: zudoku-theming-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zudoku/refs/heads/main/openapi/zudoku-theming-api-openapi.yml
 description: ''
 domains:
 - caa: []

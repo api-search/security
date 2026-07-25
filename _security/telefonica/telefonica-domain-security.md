@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: telefonica-number-verification-openapi.yml
+- filename: telefonica-device-roaming-api-openapi.yml
   format: yaml
-  label: Telefónica Number Verification API
-  slug: number-verification-api
+  label: Telefónica Device Roaming API
+  slug: telefonica-device-roaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-number-verification-openapi.yml
-- filename: telefonica-sim-swap-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-device-roaming-api-openapi.yml
+- filename: telefonica-kyc-match-api-openapi.yml
   format: yaml
-  label: Telefónica SIM Swap API
-  slug: sim-swap-api
+  label: Telefónica KYC Match API
+  slug: telefonica-kyc-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-sim-swap-openapi.yml
-- filename: telefonica-kyc-match-openapi.yml
-  format: yaml
-  label: Telefónica Know Your Customer Match API
-  slug: kyc-match-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-kyc-match-openapi.yml
-- filename: telefonica-location-verification-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-kyc-match-api-openapi.yml
+- filename: telefonica-location-verification-api-openapi.yml
   format: yaml
   label: Telefónica Location Verification API
-  slug: location-verification-api
+  slug: telefonica-location-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-location-verification-openapi.yml
-- filename: telefonica-quality-on-demand-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-location-verification-api-openapi.yml
+- filename: telefonica-number-verification-api-openapi.yml
   format: yaml
-  label: Telefónica Quality on Demand API
-  slug: quality-on-demand-api
+  label: Telefónica Number Verification API
+  slug: telefonica-number-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-quality-on-demand-openapi.yml
-- filename: telefonica-device-roaming-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-number-verification-api-openapi.yml
+- filename: telefonica-qod-sessions-api-openapi.yml
   format: yaml
-  label: Telefónica Device Roaming Status API
-  slug: device-roaming-status-api
+  label: Telefónica QoD Sessions API
+  slug: telefonica-qod-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-device-roaming-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-qod-sessions-api-openapi.yml
+- filename: telefonica-sim-swap-api-openapi.yml
+  format: yaml
+  label: Telefónica SIM Swap API
+  slug: telefonica-sim-swap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-sim-swap-api-openapi.yml
 description: ''
 domains:
 - caa: []

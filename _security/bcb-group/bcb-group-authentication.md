@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: bcb-group-payments-openapi.json
-  format: json
+- filename: bcb-group-accounts-api-openapi.yml
+  format: yaml
+  label: BCB Group Accounts API
+  slug: bcb-group-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-accounts-api-openapi.yml
+- filename: bcb-group-authentication-api-openapi.yml
+  format: yaml
+  label: BCB Group Authentication API
+  slug: bcb-group-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-authentication-api-openapi.yml
+- filename: bcb-group-beneficiaries-api-openapi.yml
+  format: yaml
+  label: BCB Group Beneficiaries API
+  slug: bcb-group-beneficiaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-beneficiaries-api-openapi.yml
+- filename: bcb-group-blinc-api-openapi.yml
+  format: yaml
+  label: BCB Group BLINC API
+  slug: bcb-group-blinc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-blinc-api-openapi.yml
+- filename: bcb-group-notifications-api-openapi.yml
+  format: yaml
+  label: BCB Group Notifications API
+  slug: bcb-group-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-notifications-api-openapi.yml
+- filename: bcb-group-payments-api-openapi.yml
+  format: yaml
   label: BCB Group Payments API
   slug: bcb-group-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-payments-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-payments-api-openapi.yml
+- filename: bcb-group-tools-api-openapi.yml
+  format: yaml
+  label: BCB Group Tools API
+  slug: bcb-group-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-tools-api-openapi.yml
+- filename: bcb-group-virtual-accounts-api-openapi.yml
+  format: yaml
+  label: BCB Group Virtual Accounts API
+  slug: bcb-group-virtual-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-virtual-accounts-api-openapi.yml
 auth_types:
 - oauth2
 - http

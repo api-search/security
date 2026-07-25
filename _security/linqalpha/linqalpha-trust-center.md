@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: linqalpha-openapi-original.json
-  format: json
-  label: LinqAlpha API
-  slug: linqalpha-api
+- filename: linqalpha-briefing-api-openapi.yml
+  format: yaml
+  label: LinqAlpha Briefing API
+  slug: linqalpha-briefing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/linqalpha-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/linqalpha-briefing-api-openapi.yml
+- filename: linqalpha-connectors-api-openapi.yml
+  format: yaml
+  label: LinqAlpha Connectors API
+  slug: linqalpha-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/linqalpha-connectors-api-openapi.yml
+- filename: linqalpha-data-api-openapi.yml
+  format: yaml
+  label: LinqAlpha Data API
+  slug: linqalpha-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/linqalpha-data-api-openapi.yml
+- filename: linqalpha-feedback-api-openapi.yml
+  format: yaml
+  label: LinqAlpha Feedback API
+  slug: linqalpha-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/linqalpha-feedback-api-openapi.yml
+- filename: linqalpha-mcp-api-openapi.yml
+  format: yaml
+  label: LinqAlpha MCP API
+  slug: linqalpha-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/linqalpha-mcp-api-openapi.yml
+- filename: linqalpha-rms-api-openapi.yml
+  format: yaml
+  label: LinqAlpha RMS API
+  slug: linqalpha-rms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/linqalpha-rms-api-openapi.yml
+- filename: linqalpha-search-api-openapi.yml
+  format: yaml
+  label: LinqAlpha Search API
+  slug: linqalpha-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/linqalpha-search-api-openapi.yml
+- filename: linqalpha-source-management-api-openapi.yml
+  format: yaml
+  label: LinqAlpha Source Management API
+  slug: linqalpha-source-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/linqalpha-source-management-api-openapi.yml
+- filename: linqalpha-status-api-openapi.yml
+  format: yaml
+  label: LinqAlpha Status API
+  slug: linqalpha-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/linqalpha-status-api-openapi.yml
+- filename: linqalpha-vault-api-openapi.yml
+  format: yaml
+  label: LinqAlpha Vault API
+  slug: linqalpha-vault-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/linqalpha-vault-api-openapi.yml
 certifications:
 - SOC 1 Type II
 - SOC 2 Type II

@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: adapt-prospect-api-openapi.yml
+- filename: adapt-io-company-search-api-openapi.yml
   format: yaml
-  label: Adapt Prospect API
-  slug: adapt-prospect-api
+  label: Adapt Company Search API
+  slug: adapt-io-company-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/openapi/adapt-prospect-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/openapi/adapt-io-company-search-api-openapi.yml
+- filename: adapt-io-contact-enrichment-api-openapi.yml
+  format: yaml
+  label: Adapt Contact Enrichment API
+  slug: adapt-io-contact-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/openapi/adapt-io-contact-enrichment-api-openapi.yml
+- filename: adapt-io-contact-purchase-api-openapi.yml
+  format: yaml
+  label: Adapt Contact Purchase API
+  slug: adapt-io-contact-purchase-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/openapi/adapt-io-contact-purchase-api-openapi.yml
+- filename: adapt-io-contact-search-api-openapi.yml
+  format: yaml
+  label: Adapt Contact Search API
+  slug: adapt-io-contact-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/openapi/adapt-io-contact-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

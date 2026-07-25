@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: allium-openapi-original.json
-  format: json
-  label: Allium Realtime API
-  slug: allium-realtime-api
+- filename: allium-explorer-api-openapi.yml
+  format: yaml
+  label: Allium Explorer API
+  slug: allium-explorer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/openapi/allium-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/openapi/allium-explorer-api-openapi.yml
+- filename: allium-ping-api-openapi.yml
+  format: yaml
+  label: Allium ping API
+  slug: allium-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/openapi/allium-ping-api-openapi.yml
+- filename: allium-polygon-api-openapi.yml
+  format: yaml
+  label: Allium Polygon API
+  slug: allium-polygon-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/openapi/allium-polygon-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

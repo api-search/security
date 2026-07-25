@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: humana-openapi.yml
+- filename: humana-clinical-api-openapi.yml
   format: yaml
-  label: Humana FHIR Clinical Data API
-  slug: humana-fhir-clinical-api
+  label: Humana Clinical API
+  slug: humana-clinical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humana/refs/heads/main/openapi/humana-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/humana/refs/heads/main/openapi/humana-clinical-api-openapi.yml
+- filename: humana-coverage-api-openapi.yml
+  format: yaml
+  label: Humana Coverage API
+  slug: humana-coverage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humana/refs/heads/main/openapi/humana-coverage-api-openapi.yml
+- filename: humana-demographic-api-openapi.yml
+  format: yaml
+  label: Humana Demographic API
+  slug: humana-demographic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humana/refs/heads/main/openapi/humana-demographic-api-openapi.yml
+- filename: humana-medications-api-openapi.yml
+  format: yaml
+  label: Humana Medications API
+  slug: humana-medications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humana/refs/heads/main/openapi/humana-medications-api-openapi.yml
 auth_types:
 - http
 description: ''

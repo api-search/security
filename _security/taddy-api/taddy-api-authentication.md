@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: taddy-podcast-openapi.yml
+- filename: taddy-api-graphql-api-openapi.yml
   format: yaml
-  label: Taddy Podcast API
-  slug: taddy-podcast-api
+  label: Taddy API GraphQL API
+  slug: taddy-api-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taddy-api/refs/heads/main/openapi/taddy-podcast-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/taddy-api/refs/heads/main/openapi/taddy-api-graphql-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

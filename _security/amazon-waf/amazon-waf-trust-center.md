@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: amazon-waf-openapi.yml
+- filename: amazon-waf-ip-sets-api-openapi.yml
   format: yaml
-  label: Amazon WAF REST API
-  slug: amazon-waf-rest-api
+  label: Amazon WAF IP Sets API
+  slug: amazon-waf-ip-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-waf/refs/heads/main/openapi/amazon-waf-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-waf/refs/heads/main/openapi/amazon-waf-ip-sets-api-openapi.yml
+- filename: amazon-waf-rule-groups-api-openapi.yml
+  format: yaml
+  label: Amazon WAF Rule Groups API
+  slug: amazon-waf-rule-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-waf/refs/heads/main/openapi/amazon-waf-rule-groups-api-openapi.yml
+- filename: amazon-waf-web-acls-api-openapi.yml
+  format: yaml
+  label: Amazon WAF Web ACLs API
+  slug: amazon-waf-web-acls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-waf/refs/heads/main/openapi/amazon-waf-web-acls-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

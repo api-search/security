@@ -2,24 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: leadspace-enrichment-openapi.yml
+- filename: leadspace-authorization-api-openapi.yml
   format: yaml
-  label: Leadspace Enrichment API
-  slug: leadspace-enrichment-api
+  label: Leadspace Authorization API
+  slug: leadspace-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-enrichment-openapi.yml
-- filename: leadspace-discovery-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-authorization-api-openapi.yml
+- filename: leadspace-discovery-api-openapi.yml
   format: yaml
   label: Leadspace Discovery API
   slug: leadspace-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-discovery-openapi.yml
-- filename: leadspace-intent-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-discovery-api-openapi.yml
+- filename: leadspace-enrichment-api-openapi.yml
   format: yaml
-  label: Leadspace Intent Only API
+  label: Leadspace Enrichment API
+  slug: leadspace-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-enrichment-api-openapi.yml
+- filename: leadspace-intent-api-openapi.yml
+  format: yaml
+  label: Leadspace Intent API
   slug: leadspace-intent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-intent-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-intent-api-openapi.yml
+- filename: leadspace-results-api-openapi.yml
+  format: yaml
+  label: Leadspace Results API
+  slug: leadspace-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-results-api-openapi.yml
 auth_types:
 - http
 - oauth2

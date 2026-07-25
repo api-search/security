@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: apache-opennlp-tools.yaml
+- filename: apache-opennlp-chunking-api-openapi.yml
   format: yaml
-  label: Apache OpenNLP
-  slug: apache-opennlp
+  label: Apache OpenNLP Chunking API
+  slug: apache-opennlp-chunking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-tools.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-chunking-api-openapi.yml
+- filename: apache-opennlp-document-categorization-api-openapi.yml
+  format: yaml
+  label: Apache OpenNLP Document Categorization API
+  slug: apache-opennlp-document-categorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-document-categorization-api-openapi.yml
+- filename: apache-opennlp-language-detection-api-openapi.yml
+  format: yaml
+  label: Apache OpenNLP Language Detection API
+  slug: apache-opennlp-language-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-language-detection-api-openapi.yml
+- filename: apache-opennlp-lemmatization-api-openapi.yml
+  format: yaml
+  label: Apache OpenNLP Lemmatization API
+  slug: apache-opennlp-lemmatization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-lemmatization-api-openapi.yml
+- filename: apache-opennlp-models-api-openapi.yml
+  format: yaml
+  label: Apache OpenNLP Models API
+  slug: apache-opennlp-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-models-api-openapi.yml
+- filename: apache-opennlp-named-entity-recognition-api-openapi.yml
+  format: yaml
+  label: Apache OpenNLP Named Entity Recognition API
+  slug: apache-opennlp-named-entity-recognition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-named-entity-recognition-api-openapi.yml
+- filename: apache-opennlp-parsing-api-openapi.yml
+  format: yaml
+  label: Apache OpenNLP Parsing API
+  slug: apache-opennlp-parsing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-parsing-api-openapi.yml
+- filename: apache-opennlp-pos-tagging-api-openapi.yml
+  format: yaml
+  label: Apache OpenNLP POS Tagging API
+  slug: apache-opennlp-pos-tagging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-pos-tagging-api-openapi.yml
+- filename: apache-opennlp-sentence-detection-api-openapi.yml
+  format: yaml
+  label: Apache OpenNLP Sentence Detection API
+  slug: apache-opennlp-sentence-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-sentence-detection-api-openapi.yml
+- filename: apache-opennlp-tokenization-api-openapi.yml
+  format: yaml
+  label: Apache OpenNLP Tokenization API
+  slug: apache-opennlp-tokenization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-tokenization-api-openapi.yml
 description: ''
 domains:
 - caa:

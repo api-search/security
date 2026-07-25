@@ -1,60 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: api_v2.json
-  format: json
+- filename: instantly-ai-campaigns-api-openapi.yml
+  format: yaml
   label: Instantly Campaigns API
-  slug: campaigns-api
+  slug: instantly-ai-campaigns-api
   spec_type: OpenAPI
-  url: https://api.instantly.ai/openapi/api_v2.json
-- filename: api_v2.json
-  format: json
-  label: Instantly Leads API
-  slug: leads-api
-  spec_type: OpenAPI
-  url: https://api.instantly.ai/openapi/api_v2.json
-- filename: api_v2.json
-  format: json
-  label: Instantly Accounts API
-  slug: accounts-api
-  spec_type: OpenAPI
-  url: https://api.instantly.ai/openapi/api_v2.json
-- filename: api_v2.json
-  format: json
-  label: Instantly Email Verification API
-  slug: email-verification-api
-  spec_type: OpenAPI
-  url: https://api.instantly.ai/openapi/api_v2.json
-- filename: api_v2.json
-  format: json
-  label: Instantly Inbox Placement Test API
-  slug: inbox-placement-api
-  spec_type: OpenAPI
-  url: https://api.instantly.ai/openapi/api_v2.json
-- filename: api_v2.json
-  format: json
-  label: Instantly Webhooks API
-  slug: webhooks-api
-  spec_type: OpenAPI
-  url: https://api.instantly.ai/openapi/api_v2.json
-- filename: api_v2.json
-  format: json
-  label: Instantly Analytics API
-  slug: analytics-api
-  spec_type: OpenAPI
-  url: https://api.instantly.ai/openapi/api_v2.json
-- filename: api_v2.json
-  format: json
-  label: Instantly API Keys API
-  slug: api-keys-api
-  spec_type: OpenAPI
-  url: https://api.instantly.ai/openapi/api_v2.json
-- filename: api_v2.json
-  format: json
-  label: Instantly Workspaces API
-  slug: workspaces-api
-  spec_type: OpenAPI
-  url: https://api.instantly.ai/openapi/api_v2.json
+  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-campaigns-api-openapi.yml
 auth_types:
 - http
 description: ''

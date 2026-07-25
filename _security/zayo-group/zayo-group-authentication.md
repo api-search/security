@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: zayo-group-openapi.yml
+- filename: zayo-group-network-discovery-api-openapi.yml
   format: yaml
-  label: Zayo Group Holdings API
-  slug: zayo-group-api
+  label: Zayo Group Holdings Network Discovery API
+  slug: zayo-group-network-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zayo-group/refs/heads/main/openapi/zayo-group-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zayo-group/refs/heads/main/openapi/zayo-group-network-discovery-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

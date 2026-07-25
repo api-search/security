@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: ardent-openapi-original.json
-  format: json
-  label: Ardent API
-  slug: ardent-api
+- filename: ardent-v1-api-keys-api-openapi.yml
+  format: yaml
+  label: Ardent v1-api-keys API
+  slug: ardent-v1-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-v1-api-keys-api-openapi.yml
+- filename: ardent-v1-branching-api-openapi.yml
+  format: yaml
+  label: Ardent v1-branching API
+  slug: ardent-v1-branching-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-v1-branching-api-openapi.yml
+- filename: ardent-v1-connectors-api-openapi.yml
+  format: yaml
+  label: Ardent v1-connectors API
+  slug: ardent-v1-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-v1-connectors-api-openapi.yml
+- filename: ardent-v1-operations-api-openapi.yml
+  format: yaml
+  label: Ardent v1-operations API
+  slug: ardent-v1-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-v1-operations-api-openapi.yml
+- filename: ardent-v1-orgs-api-openapi.yml
+  format: yaml
+  label: Ardent v1-orgs API
+  slug: ardent-v1-orgs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-v1-orgs-api-openapi.yml
+- filename: ardent-v1-projects-api-openapi.yml
+  format: yaml
+  label: Ardent v1-projects API
+  slug: ardent-v1-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-v1-projects-api-openapi.yml
 description: ''
 domains:
 - caa: []

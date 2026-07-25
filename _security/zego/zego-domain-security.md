@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: zego-partner-openapi.yml
+- filename: zego-customer-integration-api-openapi.yml
   format: yaml
-  label: Zego Partner API
-  slug: zego-partner-api
+  label: Zego Customer Integration API
+  slug: zego-customer-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/openapi/zego-partner-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/openapi/zego-customer-integration-api-openapi.yml
+- filename: zego-customers-api-openapi.yml
+  format: yaml
+  label: Zego Customers API
+  slug: zego-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/openapi/zego-customers-api-openapi.yml
+- filename: zego-occupations-api-openapi.yml
+  format: yaml
+  label: Zego Occupations API
+  slug: zego-occupations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/openapi/zego-occupations-api-openapi.yml
+- filename: zego-policies-api-openapi.yml
+  format: yaml
+  label: Zego Policies API
+  slug: zego-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/openapi/zego-policies-api-openapi.yml
+- filename: zego-shifts-api-openapi.yml
+  format: yaml
+  label: Zego Shifts API
+  slug: zego-shifts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/openapi/zego-shifts-api-openapi.yml
 description: ''
 domains:
 - caa: []

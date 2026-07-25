@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: emarsys-openapi.yml
+- filename: emarsys-contact-lists-api-openapi.yml
   format: yaml
-  label: SAP Emarsys Core API
-  slug: core-api
+  label: SAP Emarsys Contact Lists API
+  slug: emarsys-contact-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-contact-lists-api-openapi.yml
+- filename: emarsys-contacts-api-openapi.yml
+  format: yaml
+  label: SAP Emarsys Contacts API
+  slug: emarsys-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-contacts-api-openapi.yml
+- filename: emarsys-email-api-openapi.yml
+  format: yaml
+  label: SAP Emarsys Email API
+  slug: emarsys-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-email-api-openapi.yml
+- filename: emarsys-events-api-openapi.yml
+  format: yaml
+  label: SAP Emarsys Events API
+  slug: emarsys-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-events-api-openapi.yml
+- filename: emarsys-segments-api-openapi.yml
+  format: yaml
+  label: SAP Emarsys Segments API
+  slug: emarsys-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-segments-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

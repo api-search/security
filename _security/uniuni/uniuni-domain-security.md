@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: uniuni-platform-client-api-openapi.yml
+- filename: uniuni-batches-api-openapi.yml
   format: yaml
-  label: UniUni Platform Client API
-  slug: uniuni-platform-client-api
+  label: UniUni Batches API
+  slug: uniuni-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/openapi/uniuni-platform-client-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/openapi/uniuni-batches-api-openapi.yml
+- filename: uniuni-labels-api-openapi.yml
+  format: yaml
+  label: UniUni Labels API
+  slug: uniuni-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/openapi/uniuni-labels-api-openapi.yml
+- filename: uniuni-shipments-api-openapi.yml
+  format: yaml
+  label: UniUni Shipments API
+  slug: uniuni-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/openapi/uniuni-shipments-api-openapi.yml
+- filename: uniuni-tracking-api-openapi.yml
+  format: yaml
+  label: UniUni Tracking API
+  slug: uniuni-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/openapi/uniuni-tracking-api-openapi.yml
+- filename: uniuni-webhooks-api-openapi.yml
+  format: yaml
+  label: UniUni Webhooks API
+  slug: uniuni-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/openapi/uniuni-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: microsoft-package-packagecontent-api-openapi.yml
+  format: yaml
+  label: Microsoft Package PackageContent API
+  slug: microsoft-package-packagecontent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-package/refs/heads/main/openapi/microsoft-package-packagecontent-api-openapi.yml
+- filename: microsoft-package-registration-api-openapi.yml
+  format: yaml
+  label: Microsoft Package Registration API
+  slug: microsoft-package-registration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-package/refs/heads/main/openapi/microsoft-package-registration-api-openapi.yml
+- filename: microsoft-package-search-api-openapi.yml
+  format: yaml
+  label: Microsoft Package Search API
+  slug: microsoft-package-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-package/refs/heads/main/openapi/microsoft-package-search-api-openapi.yml
+- filename: microsoft-package-serviceindex-api-openapi.yml
+  format: yaml
+  label: Microsoft Package ServiceIndex API
+  slug: microsoft-package-serviceindex-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-package/refs/heads/main/openapi/microsoft-package-serviceindex-api-openapi.yml
 description: ''
 domains:
 - caa:

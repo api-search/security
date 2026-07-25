@@ -41,4 +41,8 @@ tags:
 - Cash Advance
 - Financial Services
 - Mobile Banking
+- United States
+- Open Finance
+- Aggregator Access
+- Plaid
 ---

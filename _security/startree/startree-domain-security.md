@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: startree-query-openapi.json
-  format: json
-  label: StarTree Cloud Query API
-  slug: startree-cloud-query-api
+- filename: startree-query-api-api-openapi.yml
+  format: yaml
+  label: StarTree Query API API
+  slug: startree-query-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/openapi/startree-query-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/openapi/startree-query-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

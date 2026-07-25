@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: vineyard-python-client-openapi.yml
+- filename: vineyard-blobs-api-openapi.yml
   format: yaml
-  label: Vineyard Python Client API
-  slug: vineyard-python-client
+  label: Vineyard Blobs API
+  slug: vineyard-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/openapi/vineyard-python-client-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/openapi/vineyard-blobs-api-openapi.yml
+- filename: vineyard-connection-api-openapi.yml
+  format: yaml
+  label: Vineyard Connection API
+  slug: vineyard-connection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/openapi/vineyard-connection-api-openapi.yml
+- filename: vineyard-metadata-api-openapi.yml
+  format: yaml
+  label: Vineyard Metadata API
+  slug: vineyard-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/openapi/vineyard-metadata-api-openapi.yml
+- filename: vineyard-names-api-openapi.yml
+  format: yaml
+  label: Vineyard Names API
+  slug: vineyard-names-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/openapi/vineyard-names-api-openapi.yml
+- filename: vineyard-objects-api-openapi.yml
+  format: yaml
+  label: Vineyard Objects API
+  slug: vineyard-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/openapi/vineyard-objects-api-openapi.yml
+- filename: vineyard-persistence-api-openapi.yml
+  format: yaml
+  label: Vineyard Persistence API
+  slug: vineyard-persistence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/openapi/vineyard-persistence-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,35 +1,23 @@
 ---
 api_specs:
-- filename: geocode-earth-openapi.yml
+- filename: geocode-earth-forward-api-openapi.yml
   format: yaml
-  label: Geocode Earth Search API
-  slug: search
+  label: Geocode Earth Forward API
+  slug: geocode-earth-forward-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocode-earth/refs/heads/main/openapi/geocode-earth-openapi.yml
-- filename: geocode-earth-openapi.yml
-  format: yaml
-  label: Geocode Earth Autocomplete API
-  slug: autocomplete
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocode-earth/refs/heads/main/openapi/geocode-earth-openapi.yml
-- filename: geocode-earth-openapi.yml
-  format: yaml
-  label: Geocode Earth Reverse API
-  slug: reverse
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocode-earth/refs/heads/main/openapi/geocode-earth-openapi.yml
-- filename: geocode-earth-openapi.yml
-  format: yaml
-  label: Geocode Earth Structured Search API
-  slug: structured-search
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocode-earth/refs/heads/main/openapi/geocode-earth-openapi.yml
-- filename: geocode-earth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/geocode-earth/refs/heads/main/openapi/geocode-earth-forward-api-openapi.yml
+- filename: geocode-earth-place-api-openapi.yml
   format: yaml
   label: Geocode Earth Place API
-  slug: place
+  slug: geocode-earth-place-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocode-earth/refs/heads/main/openapi/geocode-earth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/geocode-earth/refs/heads/main/openapi/geocode-earth-place-api-openapi.yml
+- filename: geocode-earth-reverse-api-openapi.yml
+  format: yaml
+  label: Geocode Earth Reverse API
+  slug: geocode-earth-reverse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geocode-earth/refs/heads/main/openapi/geocode-earth-reverse-api-openapi.yml
 description: ''
 domains:
 - caa: []

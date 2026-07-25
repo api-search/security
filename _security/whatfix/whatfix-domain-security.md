@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: whatfix-openapi.yml
+- filename: whatfix-analytics-api-openapi.yml
   format: yaml
-  label: Whatfix REST API
-  slug: whatfix-rest-api
+  label: Whatfix Analytics API
+  slug: whatfix-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/openapi/whatfix-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/openapi/whatfix-analytics-api-openapi.yml
+- filename: whatfix-content-api-openapi.yml
+  format: yaml
+  label: Whatfix Content API
+  slug: whatfix-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/openapi/whatfix-content-api-openapi.yml
+- filename: whatfix-end-users-api-openapi.yml
+  format: yaml
+  label: Whatfix End Users API
+  slug: whatfix-end-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/openapi/whatfix-end-users-api-openapi.yml
+- filename: whatfix-reports-api-openapi.yml
+  format: yaml
+  label: Whatfix Reports API
+  slug: whatfix-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/openapi/whatfix-reports-api-openapi.yml
+- filename: whatfix-segments-api-openapi.yml
+  format: yaml
+  label: Whatfix Segments API
+  slug: whatfix-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/openapi/whatfix-segments-api-openapi.yml
 description: ''
 domains:
 - caa: []

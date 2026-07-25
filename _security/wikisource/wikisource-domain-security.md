@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: wikimedia-rest-api-v1-openapi.json
-  format: json
-  label: Wikimedia REST API v1
-  slug: wikimedia-rest-api-v1
+- filename: wikisource-citation-api-openapi.yml
+  format: yaml
+  label: Wikisource Citation API
+  slug: wikisource-citation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/openapi/wikimedia-rest-api-v1-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/openapi/wikisource-citation-api-openapi.yml
+- filename: wikisource-math-api-openapi.yml
+  format: yaml
+  label: Wikisource Math API
+  slug: wikisource-math-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/openapi/wikisource-math-api-openapi.yml
+- filename: wikisource-mobile-api-openapi.yml
+  format: yaml
+  label: Wikisource Mobile API
+  slug: wikisource-mobile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/openapi/wikisource-mobile-api-openapi.yml
+- filename: wikisource-page-content-api-openapi.yml
+  format: yaml
+  label: Wikisource Page content API
+  slug: wikisource-page-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/openapi/wikisource-page-content-api-openapi.yml
+- filename: wikisource-reading-lists-api-openapi.yml
+  format: yaml
+  label: Wikisource Reading lists API
+  slug: wikisource-reading-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/openapi/wikisource-reading-lists-api-openapi.yml
+- filename: wikisource-recommendation-api-openapi.yml
+  format: yaml
+  label: Wikisource Recommendation API
+  slug: wikisource-recommendation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/openapi/wikisource-recommendation-api-openapi.yml
+- filename: wikisource-transforms-api-openapi.yml
+  format: yaml
+  label: Wikisource Transforms API
+  slug: wikisource-transforms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/openapi/wikisource-transforms-api-openapi.yml
 description: ''
 domains:
 - caa:

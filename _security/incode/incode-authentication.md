@@ -2,48 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: incode-openapi.yml
-  format: yaml
-  label: Incode Onboarding Sessions API
-  slug: incode-onboarding-sessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/incode/refs/heads/main/openapi/incode-openapi.yml
-- filename: incode-openapi.yml
-  format: yaml
-  label: Incode ID Verification API
-  slug: incode-id-verification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/incode/refs/heads/main/openapi/incode-openapi.yml
-- filename: incode-openapi.yml
+- filename: incode-face-and-liveness-api-openapi.yml
   format: yaml
   label: Incode Face and Liveness API
-  slug: incode-face-liveness-api
+  slug: incode-face-and-liveness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/incode/refs/heads/main/openapi/incode-openapi.yml
-- filename: incode-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/incode/refs/heads/main/openapi/incode-face-and-liveness-api-openapi.yml
+- filename: incode-government-validation-api-openapi.yml
   format: yaml
   label: Incode Government Validation API
   slug: incode-government-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/incode/refs/heads/main/openapi/incode-openapi.yml
-- filename: incode-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/incode/refs/heads/main/openapi/incode-government-validation-api-openapi.yml
+- filename: incode-id-verification-api-openapi.yml
   format: yaml
-  label: Incode Watchlist and AML API
-  slug: incode-watchlist-aml-api
+  label: Incode ID Verification API
+  slug: incode-id-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/incode/refs/heads/main/openapi/incode-openapi.yml
-- filename: incode-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/incode/refs/heads/main/openapi/incode-id-verification-api-openapi.yml
+- filename: incode-onboarding-api-openapi.yml
+  format: yaml
+  label: Incode Onboarding API
+  slug: incode-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/incode/refs/heads/main/openapi/incode-onboarding-api-openapi.yml
+- filename: incode-results-api-openapi.yml
   format: yaml
   label: Incode Results API
   slug: incode-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/incode/refs/heads/main/openapi/incode-openapi.yml
-- filename: incode-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/incode/refs/heads/main/openapi/incode-results-api-openapi.yml
+- filename: incode-watchlist-and-aml-api-openapi.yml
   format: yaml
-  label: Incode Webhooks API
-  slug: incode-webhooks-api
+  label: Incode Watchlist and AML API
+  slug: incode-watchlist-and-aml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/incode/refs/heads/main/openapi/incode-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/incode/refs/heads/main/openapi/incode-watchlist-and-aml-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

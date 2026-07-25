@@ -1,42 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: spark-hire-openapi.yml
+- filename: spark-hire-account-api-openapi.yml
   format: yaml
-  label: Spark Hire Interviews API
-  slug: spark-hire-interviews-api
+  label: Spark Hire Account API
+  slug: spark-hire-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-openapi.yml
-- filename: spark-hire-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-account-api-openapi.yml
+- filename: spark-hire-interview-questions-api-openapi.yml
   format: yaml
   label: Spark Hire Interview Questions API
   slug: spark-hire-interview-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-openapi.yml
-- filename: spark-hire-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-interview-questions-api-openapi.yml
+- filename: spark-hire-interviews-api-openapi.yml
+  format: yaml
+  label: Spark Hire Interviews API
+  slug: spark-hire-interviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-interviews-api-openapi.yml
+- filename: spark-hire-jobs-api-openapi.yml
   format: yaml
   label: Spark Hire Jobs API
   slug: spark-hire-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-openapi.yml
-- filename: spark-hire-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-jobs-api-openapi.yml
+- filename: spark-hire-share-links-api-openapi.yml
+  format: yaml
+  label: Spark Hire Share Links API
+  slug: spark-hire-share-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-share-links-api-openapi.yml
+- filename: spark-hire-users-api-openapi.yml
   format: yaml
   label: Spark Hire Users API
   slug: spark-hire-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-openapi.yml
-- filename: spark-hire-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-users-api-openapi.yml
+- filename: spark-hire-webhooks-api-openapi.yml
   format: yaml
   label: Spark Hire Webhooks API
   slug: spark-hire-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-openapi.yml
-- filename: spark-hire-openapi.yml
-  format: yaml
-  label: Spark Hire Account and Plan API
-  slug: spark-hire-account-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

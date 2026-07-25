@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: metriport-openapi.yml
+- filename: metriport-consolidated-api-openapi.yml
   format: yaml
-  label: Metriport Medical Patients API
-  slug: medical-patients
+  label: Metriport Consolidated API
+  slug: metriport-consolidated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/openapi/metriport-openapi.yml
-- filename: metriport-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/openapi/metriport-consolidated-api-openapi.yml
+- filename: metriport-devices-data-api-openapi.yml
   format: yaml
-  label: Metriport Medical Facilities API
-  slug: medical-facilities
+  label: Metriport Devices Data API
+  slug: metriport-devices-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/openapi/metriport-openapi.yml
-- filename: metriport-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/openapi/metriport-devices-data-api-openapi.yml
+- filename: metriport-document-api-openapi.yml
   format: yaml
-  label: Metriport Medical Document Query API
-  slug: medical-document-query
+  label: Metriport Document API
+  slug: metriport-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/openapi/metriport-openapi.yml
-- filename: metriport-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/openapi/metriport-document-api-openapi.yml
+- filename: metriport-facility-api-openapi.yml
   format: yaml
-  label: Metriport Medical Consolidated FHIR API
-  slug: medical-consolidated-fhir
+  label: Metriport Facility API
+  slug: metriport-facility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/openapi/metriport-openapi.yml
-- filename: metriport-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/openapi/metriport-facility-api-openapi.yml
+- filename: metriport-patient-api-openapi.yml
   format: yaml
-  label: Metriport Devices Users API
-  slug: devices-users
+  label: Metriport Patient API
+  slug: metriport-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/openapi/metriport-openapi.yml
-- filename: metriport-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/openapi/metriport-patient-api-openapi.yml
+- filename: metriport-settings-api-openapi.yml
   format: yaml
-  label: Metriport Devices Biometrics API
-  slug: devices-biometrics
+  label: Metriport Settings API
+  slug: metriport-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/openapi/metriport-openapi.yml
-- filename: metriport-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/openapi/metriport-settings-api-openapi.yml
+- filename: metriport-user-api-openapi.yml
   format: yaml
-  label: Metriport Webhooks API
-  slug: webhooks
+  label: Metriport User API
+  slug: metriport-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/openapi/metriport-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/openapi/metriport-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

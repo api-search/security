@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: altbank-guard-openapi.yml
+- filename: altbank-underwriting-api-openapi.yml
   format: yaml
-  label: alt.bank GUARD API
-  slug: altbank-guard-api
+  label: alt.bank Underwriting API
+  slug: altbank-underwriting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altbank/refs/heads/main/openapi/altbank-guard-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/altbank/refs/heads/main/openapi/altbank-underwriting-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

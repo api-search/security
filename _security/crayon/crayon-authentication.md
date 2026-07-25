@@ -1,5 +1,54 @@
 ---
 api_key_in: []
+api_specs:
+- filename: crayon-agreements-api-openapi.yml
+  format: yaml
+  label: Crayon Agreements API
+  slug: crayon-agreements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-agreements-api-openapi.yml
+- filename: crayon-authentication-api-openapi.yml
+  format: yaml
+  label: Crayon Authentication API
+  slug: crayon-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-authentication-api-openapi.yml
+- filename: crayon-billing-api-openapi.yml
+  format: yaml
+  label: Crayon Billing API
+  slug: crayon-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-billing-api-openapi.yml
+- filename: crayon-clients-api-openapi.yml
+  format: yaml
+  label: Crayon Clients API
+  slug: crayon-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-clients-api-openapi.yml
+- filename: crayon-customertenants-api-openapi.yml
+  format: yaml
+  label: Crayon CustomerTenants API
+  slug: crayon-customertenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-customertenants-api-openapi.yml
+- filename: crayon-organizations-api-openapi.yml
+  format: yaml
+  label: Crayon Organizations API
+  slug: crayon-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-organizations-api-openapi.yml
+- filename: crayon-subscriptions-api-openapi.yml
+  format: yaml
+  label: Crayon Subscriptions API
+  slug: crayon-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-subscriptions-api-openapi.yml
+- filename: crayon-users-api-openapi.yml
+  format: yaml
+  label: Crayon Users API
+  slug: crayon-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-users-api-openapi.yml
 auth_types:
 - http
 - oauth2

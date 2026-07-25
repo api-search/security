@@ -1,17 +1,65 @@
 ---
 api_specs:
-- filename: charles-schwab-trader-api-openapi.yml
+- filename: charles-schwab-accounts-api-openapi.yml
   format: yaml
-  label: Charles Schwab Trader API
-  slug: trader-api
+  label: Charles Schwab Accounts API
+  slug: charles-schwab-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-trader-api-openapi.yml
-- filename: charles-schwab-market-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-accounts-api-openapi.yml
+- filename: charles-schwab-instruments-api-openapi.yml
   format: yaml
-  label: Charles Schwab Market Data API
-  slug: market-data-api
+  label: Charles Schwab Instruments API
+  slug: charles-schwab-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-market-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-instruments-api-openapi.yml
+- filename: charles-schwab-market-hours-api-openapi.yml
+  format: yaml
+  label: Charles Schwab Market Hours API
+  slug: charles-schwab-market-hours-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-market-hours-api-openapi.yml
+- filename: charles-schwab-movers-api-openapi.yml
+  format: yaml
+  label: Charles Schwab Movers API
+  slug: charles-schwab-movers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-movers-api-openapi.yml
+- filename: charles-schwab-options-api-openapi.yml
+  format: yaml
+  label: Charles Schwab Options API
+  slug: charles-schwab-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-options-api-openapi.yml
+- filename: charles-schwab-orders-api-openapi.yml
+  format: yaml
+  label: Charles Schwab Orders API
+  slug: charles-schwab-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-orders-api-openapi.yml
+- filename: charles-schwab-price-history-api-openapi.yml
+  format: yaml
+  label: Charles Schwab Price History API
+  slug: charles-schwab-price-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-price-history-api-openapi.yml
+- filename: charles-schwab-quotes-api-openapi.yml
+  format: yaml
+  label: Charles Schwab Quotes API
+  slug: charles-schwab-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-quotes-api-openapi.yml
+- filename: charles-schwab-transactions-api-openapi.yml
+  format: yaml
+  label: Charles Schwab Transactions API
+  slug: charles-schwab-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-transactions-api-openapi.yml
+- filename: charles-schwab-user-preferences-api-openapi.yml
+  format: yaml
+  label: Charles Schwab User Preferences API
+  slug: charles-schwab-user-preferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-user-preferences-api-openapi.yml
 description: ''
 domains:
 - caa: []

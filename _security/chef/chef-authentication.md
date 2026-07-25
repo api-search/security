@@ -2,24 +2,84 @@
 api_key_in:
 - header
 api_specs:
-- filename: chef-infra-server-api-openapi.yml
+- filename: chef-channels-api-openapi.yml
   format: yaml
-  label: Chef Infra Server API
-  slug: chef-infra-server-api
+  label: Chef Channels API
+  slug: chef-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/openapi/chef-infra-server-api-openapi.yml
-- filename: chef-automate-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/openapi/chef-channels-api-openapi.yml
+- filename: chef-clients-api-openapi.yml
   format: yaml
-  label: Chef Automate API
-  slug: chef-automate-api
+  label: Chef Clients API
+  slug: chef-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/openapi/chef-automate-api-openapi.yml
-- filename: chef-habitat-builder-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/openapi/chef-clients-api-openapi.yml
+- filename: chef-cookbooks-api-openapi.yml
   format: yaml
-  label: Chef Habitat Builder API
-  slug: chef-habitat-builder-api
+  label: Chef Cookbooks API
+  slug: chef-cookbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/openapi/chef-habitat-builder-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/openapi/chef-cookbooks-api-openapi.yml
+- filename: chef-data-bags-api-openapi.yml
+  format: yaml
+  label: Chef Data Bags API
+  slug: chef-data-bags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/openapi/chef-data-bags-api-openapi.yml
+- filename: chef-environments-api-openapi.yml
+  format: yaml
+  label: Chef Environments API
+  slug: chef-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/openapi/chef-environments-api-openapi.yml
+- filename: chef-iam-api-openapi.yml
+  format: yaml
+  label: Chef IAM API
+  slug: chef-iam-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/openapi/chef-iam-api-openapi.yml
+- filename: chef-nodes-api-openapi.yml
+  format: yaml
+  label: Chef Nodes API
+  slug: chef-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/openapi/chef-nodes-api-openapi.yml
+- filename: chef-packages-api-openapi.yml
+  format: yaml
+  label: Chef Packages API
+  slug: chef-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/openapi/chef-packages-api-openapi.yml
+- filename: chef-profiles-api-openapi.yml
+  format: yaml
+  label: Chef Profiles API
+  slug: chef-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/openapi/chef-profiles-api-openapi.yml
+- filename: chef-reports-api-openapi.yml
+  format: yaml
+  label: Chef Reports API
+  slug: chef-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/openapi/chef-reports-api-openapi.yml
+- filename: chef-roles-api-openapi.yml
+  format: yaml
+  label: Chef Roles API
+  slug: chef-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/openapi/chef-roles-api-openapi.yml
+- filename: chef-scans-api-openapi.yml
+  format: yaml
+  label: Chef Scans API
+  slug: chef-scans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/openapi/chef-scans-api-openapi.yml
+- filename: chef-users-api-openapi.yml
+  format: yaml
+  label: Chef Users API
+  slug: chef-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/openapi/chef-users-api-openapi.yml
 auth_types:
 - apiKey
 - http

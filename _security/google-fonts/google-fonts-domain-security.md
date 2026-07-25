@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-fonts-fonts-api-openapi.yml
   format: yaml
-  label: Google Fonts Developer API
-  slug: google-fonts-developer-api
+  label: Google Fonts Developer Fonts API
+  slug: google-fonts-fonts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-fonts/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-fonts/refs/heads/main/openapi/google-fonts-fonts-api-openapi.yml
 description: ''
 domains:
 - caa:

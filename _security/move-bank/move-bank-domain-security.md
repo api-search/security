@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: move-bank-cds-banking-products-openapi.yml
+- filename: move-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: MOVE Bank CDR Product Reference Data API
-  slug: move-bank-cdr-product-reference-data-api
+  label: MOVE Bank Banking Account Balances API
+  slug: move-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/openapi/move-bank-cds-banking-products-openapi.yml
-- filename: move-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/openapi/move-bank-banking-account-balances-api-openapi.yml
+- filename: move-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: MOVE Bank CDR Accounts & Balances API
-  slug: move-bank-cdr-accounts-balances-api
+  label: MOVE Bank Banking Account Direct Debits API
+  slug: move-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/openapi/move-bank-cds-banking-products-openapi.yml
-- filename: move-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/openapi/move-bank-banking-account-direct-debits-api-openapi.yml
+- filename: move-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: MOVE Bank CDR Transactions API
-  slug: move-bank-cdr-transactions-api
+  label: MOVE Bank Banking Account Scheduled Payments API
+  slug: move-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/openapi/move-bank-cds-banking-products-openapi.yml
-- filename: move-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/openapi/move-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: move-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: MOVE Bank CDR Direct Debits & Scheduled Payments API
-  slug: move-bank-cdr-direct-debits-scheduled-payments-api
+  label: MOVE Bank Banking Account Transactions API
+  slug: move-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/openapi/move-bank-cds-banking-products-openapi.yml
-- filename: move-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/openapi/move-bank-banking-account-transactions-api-openapi.yml
+- filename: move-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: MOVE Bank CDR Payees API
-  slug: move-bank-cdr-payees-api
+  label: MOVE Bank Banking Accounts API
+  slug: move-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/openapi/move-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/openapi/move-bank-banking-accounts-api-openapi.yml
+- filename: move-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: MOVE Bank Banking Payees API
+  slug: move-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/openapi/move-bank-banking-payees-api-openapi.yml
+- filename: move-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: MOVE Bank Banking Products API
+  slug: move-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/openapi/move-bank-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

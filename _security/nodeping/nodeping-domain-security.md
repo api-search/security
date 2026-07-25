@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: nodeping-openapi.yml
+- filename: nodeping-accounts-api-openapi.yml
   format: yaml
-  label: NodePing API
-  slug: nodeping
+  label: NodePing Accounts API
+  slug: nodeping-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-accounts-api-openapi.yml
+- filename: nodeping-checks-api-openapi.yml
+  format: yaml
+  label: NodePing Checks API
+  slug: nodeping-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-checks-api-openapi.yml
+- filename: nodeping-contactgroups-api-openapi.yml
+  format: yaml
+  label: NodePing Contactgroups API
+  slug: nodeping-contactgroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-contactgroups-api-openapi.yml
+- filename: nodeping-contacts-api-openapi.yml
+  format: yaml
+  label: NodePing Contacts API
+  slug: nodeping-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-contacts-api-openapi.yml
+- filename: nodeping-info-api-openapi.yml
+  format: yaml
+  label: NodePing Info API
+  slug: nodeping-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-info-api-openapi.yml
+- filename: nodeping-notifications-api-openapi.yml
+  format: yaml
+  label: NodePing Notifications API
+  slug: nodeping-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-notifications-api-openapi.yml
+- filename: nodeping-results-api-openapi.yml
+  format: yaml
+  label: NodePing Results API
+  slug: nodeping-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-results-api-openapi.yml
+- filename: nodeping-schedules-api-openapi.yml
+  format: yaml
+  label: NodePing Schedules API
+  slug: nodeping-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-schedules-api-openapi.yml
 description: ''
 domains:
 - caa:

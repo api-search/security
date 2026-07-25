@@ -1,18 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yaml
+- filename: openzeppelin-health-api-openapi.yml
   format: yaml
-  label: OpenZeppelin Defender API
-  slug: openzeppelin-defender-api
+  label: OpenZeppelin Health API
+  slug: openzeppelin-health-api
   spec_type: OpenAPI
-  url: https://www.api-docs.defender.openzeppelin.com/
-- filename: api
+  url: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/openapi/openzeppelin-health-api-openapi.yml
+- filename: openzeppelin-metrics-api-openapi.yml
   format: yaml
-  label: OpenZeppelin Relayer API
-  slug: openzeppelin-relayer-api
+  label: OpenZeppelin Metrics API
+  slug: openzeppelin-metrics-api
   spec_type: OpenAPI
-  url: https://docs.openzeppelin.com/relayer/1.4.x/api
+  url: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/openapi/openzeppelin-metrics-api-openapi.yml
+- filename: openzeppelin-networks-api-openapi.yml
+  format: yaml
+  label: OpenZeppelin Networks API
+  slug: openzeppelin-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/openapi/openzeppelin-networks-api-openapi.yml
+- filename: openzeppelin-notifications-api-openapi.yml
+  format: yaml
+  label: OpenZeppelin Notifications API
+  slug: openzeppelin-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/openapi/openzeppelin-notifications-api-openapi.yml
+- filename: openzeppelin-plugins-api-openapi.yml
+  format: yaml
+  label: OpenZeppelin Plugins API
+  slug: openzeppelin-plugins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/openapi/openzeppelin-plugins-api-openapi.yml
+- filename: openzeppelin-relayers-api-openapi.yml
+  format: yaml
+  label: OpenZeppelin Relayers API
+  slug: openzeppelin-relayers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/openapi/openzeppelin-relayers-api-openapi.yml
+- filename: openzeppelin-signers-api-openapi.yml
+  format: yaml
+  label: OpenZeppelin Signers API
+  slug: openzeppelin-signers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/openapi/openzeppelin-signers-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,60 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tito-openapi.yml
+- filename: tito-account-api-openapi.yml
   format: yaml
-  label: Tito Events API
-  slug: tito-events-api
+  label: Tito Account API
+  slug: tito-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-openapi.yml
-- filename: tito-openapi.yml
-  format: yaml
-  label: Tito Releases API
-  slug: tito-releases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-openapi.yml
-- filename: tito-openapi.yml
-  format: yaml
-  label: Tito Tickets API
-  slug: tito-tickets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-openapi.yml
-- filename: tito-openapi.yml
-  format: yaml
-  label: Tito Registrations API
-  slug: tito-registrations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-openapi.yml
-- filename: tito-openapi.yml
-  format: yaml
-  label: Tito Discount Codes API
-  slug: tito-discount-codes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-openapi.yml
-- filename: tito-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-account-api-openapi.yml
+- filename: tito-activities-api-openapi.yml
   format: yaml
   label: Tito Activities API
   slug: tito-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-openapi.yml
-- filename: tito-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-activities-api-openapi.yml
+- filename: tito-check-in-lists-api-openapi.yml
   format: yaml
   label: Tito Check-in Lists API
   slug: tito-check-in-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-openapi.yml
-- filename: tito-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-check-in-lists-api-openapi.yml
+- filename: tito-discount-codes-api-openapi.yml
+  format: yaml
+  label: Tito Discount Codes API
+  slug: tito-discount-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-discount-codes-api-openapi.yml
+- filename: tito-events-api-openapi.yml
+  format: yaml
+  label: Tito Events API
+  slug: tito-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-events-api-openapi.yml
+- filename: tito-refunds-api-openapi.yml
   format: yaml
   label: Tito Refunds API
   slug: tito-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-openapi.yml
-- filename: tito-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-refunds-api-openapi.yml
+- filename: tito-registrations-api-openapi.yml
+  format: yaml
+  label: Tito Registrations API
+  slug: tito-registrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-registrations-api-openapi.yml
+- filename: tito-releases-api-openapi.yml
+  format: yaml
+  label: Tito Releases API
+  slug: tito-releases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-releases-api-openapi.yml
+- filename: tito-tickets-api-openapi.yml
+  format: yaml
+  label: Tito Tickets API
+  slug: tito-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-tickets-api-openapi.yml
+- filename: tito-webhook-endpoints-api-openapi.yml
   format: yaml
   label: Tito Webhook Endpoints API
   slug: tito-webhook-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-webhook-endpoints-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

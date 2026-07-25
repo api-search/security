@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: rigetti-qcs-api-openapi.yml
+- filename: rigetti-account-api-openapi.yml
   format: yaml
-  label: Rigetti QCS API
-  slug: rigetti-qcs-api
+  label: Rigetti Computing account API
+  slug: rigetti-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-qcs-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-account-api-openapi.yml
+- filename: rigetti-authentication-api-openapi.yml
+  format: yaml
+  label: Rigetti Computing authentication API
+  slug: rigetti-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-authentication-api-openapi.yml
+- filename: rigetti-clientapplications-api-openapi.yml
+  format: yaml
+  label: Rigetti Computing clientApplications API
+  slug: rigetti-clientapplications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-clientapplications-api-openapi.yml
+- filename: rigetti-endpoints-api-openapi.yml
+  format: yaml
+  label: Rigetti Computing endpoints API
+  slug: rigetti-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-endpoints-api-openapi.yml
+- filename: rigetti-engagements-api-openapi.yml
+  format: yaml
+  label: Rigetti Computing engagements API
+  slug: rigetti-engagements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-engagements-api-openapi.yml
+- filename: rigetti-healthcheck-api-openapi.yml
+  format: yaml
+  label: Rigetti Computing Healthcheck API
+  slug: rigetti-healthcheck-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-healthcheck-api-openapi.yml
+- filename: rigetti-quantumprocessors-api-openapi.yml
+  format: yaml
+  label: Rigetti Computing quantumProcessors API
+  slug: rigetti-quantumprocessors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-quantumprocessors-api-openapi.yml
+- filename: rigetti-reservations-api-openapi.yml
+  format: yaml
+  label: Rigetti Computing reservations API
+  slug: rigetti-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-reservations-api-openapi.yml
+- filename: rigetti-rigetti-qcs-api-api-openapi.yml
+  format: yaml
+  label: Rigetti Computing Rigetti QCS API API
+  slug: rigetti-rigetti-qcs-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-rigetti-qcs-api-api-openapi.yml
 description: ''
 domains:
 - caa:

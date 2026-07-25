@@ -1,18 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yaml
+- filename: netapp-aggregates-api-openapi.yml
   format: yaml
-  label: NetApp Cloud Manager API
-  slug: netapp-cloud-manager-api
+  label: NetApp Aggregates API
+  slug: netapp-aggregates-api
   spec_type: OpenAPI
-  url: https://docs.netapp.com/us-en/cloud-manager-automation/api/openapi.yaml
-- filename: netapp-ontap-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/openapi/netapp-aggregates-api-openapi.yml
+- filename: netapp-cluster-api-openapi.yml
   format: yaml
-  label: NetApp ONTAP REST API
-  slug: netapp-ontap-rest-api
+  label: NetApp Cluster API
+  slug: netapp-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/openapi/netapp-ontap-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/openapi/netapp-cluster-api-openapi.yml
+- filename: netapp-network-api-openapi.yml
+  format: yaml
+  label: NetApp Network API
+  slug: netapp-network-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/openapi/netapp-network-api-openapi.yml
+- filename: netapp-snapshots-api-openapi.yml
+  format: yaml
+  label: NetApp Snapshots API
+  slug: netapp-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/openapi/netapp-snapshots-api-openapi.yml
+- filename: netapp-svms-api-openapi.yml
+  format: yaml
+  label: NetApp SVMs API
+  slug: netapp-svms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/openapi/netapp-svms-api-openapi.yml
+- filename: netapp-volumes-api-openapi.yml
+  format: yaml
+  label: NetApp Volumes API
+  slug: netapp-volumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/openapi/netapp-volumes-api-openapi.yml
 auth_types:
 - http
 description: ''

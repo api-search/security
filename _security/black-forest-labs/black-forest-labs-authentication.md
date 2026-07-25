@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: black-forest-labs-openapi.yml
+- filename: black-forest-labs-editing-api-openapi.yml
   format: yaml
-  label: Flux Image Generation API
-  slug: flux
+  label: Black Forest Labs Editing API
+  slug: black-forest-labs-editing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/black-forest-labs/refs/heads/main/openapi/black-forest-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/black-forest-labs/refs/heads/main/openapi/black-forest-labs-editing-api-openapi.yml
+- filename: black-forest-labs-generation-api-openapi.yml
+  format: yaml
+  label: Black Forest Labs Generation API
+  slug: black-forest-labs-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/black-forest-labs/refs/heads/main/openapi/black-forest-labs-generation-api-openapi.yml
+- filename: black-forest-labs-utility-api-openapi.yml
+  format: yaml
+  label: Black Forest Labs Utility API
+  slug: black-forest-labs-utility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/black-forest-labs/refs/heads/main/openapi/black-forest-labs-utility-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

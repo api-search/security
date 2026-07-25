@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: azure-networking-services-virtual-network-openapi.yaml
+- filename: azure-networking-services-loadbalancers-api-openapi.yml
   format: yaml
-  label: Azure Virtual Networks API
-  slug: azure-virtual-networks-api
+  label: Azure Networking Services LoadBalancers API
+  slug: azure-networking-services-loadbalancers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-virtual-network-openapi.yaml
-- filename: azure-networking-services-virtual-network-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-loadbalancers-api-openapi.yml
+- filename: azure-networking-services-subnets-api-openapi.yml
   format: yaml
-  label: Azure Load Balancer API
-  slug: azure-load-balancer-api
+  label: Azure Networking Services Subnets API
+  slug: azure-networking-services-subnets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-virtual-network-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-subnets-api-openapi.yml
+- filename: azure-networking-services-subscriptions-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Subscriptions API
+  slug: azure-networking-services-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-subscriptions-api-openapi.yml
+- filename: azure-networking-services-virtualnetworkpeerings-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services VirtualNetworkPeerings API
+  slug: azure-networking-services-virtualnetworkpeerings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-virtualnetworkpeerings-api-openapi.yml
+- filename: azure-networking-services-virtualnetworks-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services VirtualNetworks API
+  slug: azure-networking-services-virtualnetworks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-virtualnetworks-api-openapi.yml
 description: ''
 domains:
 - caa:

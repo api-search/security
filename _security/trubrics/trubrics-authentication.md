@@ -2,24 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: trubrics-openapi.yml
+- filename: trubrics-events-api-openapi.yml
   format: yaml
-  label: Trubrics Event Ingestion API
-  slug: trubrics-event-ingestion-api
+  label: Trubrics Events API
+  slug: trubrics-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trubrics/refs/heads/main/openapi/trubrics-openapi.yml
-- filename: trubrics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trubrics/refs/heads/main/openapi/trubrics-events-api-openapi.yml
+- filename: trubrics-llm-events-api-openapi.yml
   format: yaml
-  label: Trubrics LLM Event Ingestion API
-  slug: trubrics-llm-event-ingestion-api
+  label: Trubrics LLM Events API
+  slug: trubrics-llm-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trubrics/refs/heads/main/openapi/trubrics-openapi.yml
-- filename: trubrics-openapi.yml
-  format: yaml
-  label: Trubrics Experiences and Feedback API
-  slug: trubrics-experiences-feedback-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trubrics/refs/heads/main/openapi/trubrics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trubrics/refs/heads/main/openapi/trubrics-llm-events-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

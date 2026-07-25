@@ -6,6 +6,48 @@ api_specs:
   slug: asyncapi-spec
   spec_type: AsyncAPI
   url: https://github.com/asyncapi/spec/blob/master/spec/asyncapi.md
+- filename: asyncapi-bundle-api-openapi.yml
+  format: yaml
+  label: AsyncAPI Bundle API
+  slug: asyncapi-bundle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/openapi/asyncapi-bundle-api-openapi.yml
+- filename: asyncapi-convert-api-openapi.yml
+  format: yaml
+  label: AsyncAPI Convert API
+  slug: asyncapi-convert-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/openapi/asyncapi-convert-api-openapi.yml
+- filename: asyncapi-diff-api-openapi.yml
+  format: yaml
+  label: AsyncAPI Diff API
+  slug: asyncapi-diff-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/openapi/asyncapi-diff-api-openapi.yml
+- filename: asyncapi-generate-api-openapi.yml
+  format: yaml
+  label: AsyncAPI Generate API
+  slug: asyncapi-generate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/openapi/asyncapi-generate-api-openapi.yml
+- filename: asyncapi-help-api-openapi.yml
+  format: yaml
+  label: AsyncAPI Help API
+  slug: asyncapi-help-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/openapi/asyncapi-help-api-openapi.yml
+- filename: asyncapi-parse-api-openapi.yml
+  format: yaml
+  label: AsyncAPI Parse API
+  slug: asyncapi-parse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/openapi/asyncapi-parse-api-openapi.yml
+- filename: asyncapi-validate-api-openapi.yml
+  format: yaml
+  label: AsyncAPI Validate API
+  slug: asyncapi-validate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/openapi/asyncapi-validate-api-openapi.yml
 description: ''
 domains:
 - caa: []

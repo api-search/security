@@ -1,36 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: localazy-openapi.yml
-  format: yaml
-  label: Localazy Import / Upload API
-  slug: import-upload
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/openapi/localazy-openapi.yml
-- filename: localazy-openapi.yml
+- filename: localazy-export-api-openapi.yml
   format: yaml
   label: Localazy Export API
-  slug: export
+  slug: localazy-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/openapi/localazy-openapi.yml
-- filename: localazy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/openapi/localazy-export-api-openapi.yml
+- filename: localazy-files-api-openapi.yml
   format: yaml
   label: Localazy Files API
-  slug: files
+  slug: localazy-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/openapi/localazy-openapi.yml
-- filename: localazy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/openapi/localazy-files-api-openapi.yml
+- filename: localazy-import-api-openapi.yml
   format: yaml
-  label: Localazy Languages API
-  slug: languages
+  label: Localazy Import API
+  slug: localazy-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/openapi/localazy-openapi.yml
-- filename: localazy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/openapi/localazy-import-api-openapi.yml
+- filename: localazy-projects-api-openapi.yml
   format: yaml
-  label: Localazy Projects (Management) API
-  slug: projects-management
+  label: Localazy Projects API
+  slug: localazy-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/openapi/localazy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/openapi/localazy-projects-api-openapi.yml
 auth_types:
 - http
 description: ''

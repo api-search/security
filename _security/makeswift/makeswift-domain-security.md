@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: makeswift-openapi.json
-  format: json
-  label: Makeswift REST API
-  slug: makeswift-rest-api
+- filename: makeswift-locale-api-openapi.yml
+  format: yaml
+  label: Makeswift locale API
+  slug: makeswift-locale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeswift/refs/heads/main/openapi/makeswift-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/makeswift/refs/heads/main/openapi/makeswift-locale-api-openapi.yml
+- filename: makeswift-page-api-openapi.yml
+  format: yaml
+  label: Makeswift page API
+  slug: makeswift-page-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/makeswift/refs/heads/main/openapi/makeswift-page-api-openapi.yml
+- filename: makeswift-site-api-openapi.yml
+  format: yaml
+  label: Makeswift site API
+  slug: makeswift-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/makeswift/refs/heads/main/openapi/makeswift-site-api-openapi.yml
 description: ''
 domains:
 - caa: []

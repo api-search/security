@@ -2,12 +2,60 @@
 api_key_in:
 - query
 api_specs:
-- filename: runsignup-openapi.yml
+- filename: runsignup-corrals-api-openapi.yml
   format: yaml
-  label: RunSignup API
-  slug: runsignup
+  label: RunSignup Corrals API
+  slug: runsignup-corrals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-corrals-api-openapi.yml
+- filename: runsignup-divisions-api-openapi.yml
+  format: yaml
+  label: RunSignup Divisions API
+  slug: runsignup-divisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-divisions-api-openapi.yml
+- filename: runsignup-donations-api-openapi.yml
+  format: yaml
+  label: RunSignup Donations API
+  slug: runsignup-donations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-donations-api-openapi.yml
+- filename: runsignup-participants-api-openapi.yml
+  format: yaml
+  label: RunSignup Participants API
+  slug: runsignup-participants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-participants-api-openapi.yml
+- filename: runsignup-races-api-openapi.yml
+  format: yaml
+  label: RunSignup Races API
+  slug: runsignup-races-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-races-api-openapi.yml
+- filename: runsignup-reference-api-openapi.yml
+  format: yaml
+  label: RunSignup Reference API
+  slug: runsignup-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-reference-api-openapi.yml
+- filename: runsignup-results-api-openapi.yml
+  format: yaml
+  label: RunSignup Results API
+  slug: runsignup-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-results-api-openapi.yml
+- filename: runsignup-teams-api-openapi.yml
+  format: yaml
+  label: RunSignup Teams API
+  slug: runsignup-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-teams-api-openapi.yml
+- filename: runsignup-users-api-openapi.yml
+  format: yaml
+  label: RunSignup Users API
+  slug: runsignup-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-users-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

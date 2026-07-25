@@ -2,12 +2,72 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi3.json
-  format: json
-  label: Convoy API
-  slug: convoy-api
+- filename: convoy-delivery-attempts-api-openapi.yml
+  format: yaml
+  label: Convoy Delivery Attempts API
+  slug: convoy-delivery-attempts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/frain-dev/convoy/main/docs/v3/openapi3.json
+  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-delivery-attempts-api-openapi.yml
+- filename: convoy-endpoints-api-openapi.yml
+  format: yaml
+  label: Convoy Endpoints API
+  slug: convoy-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-endpoints-api-openapi.yml
+- filename: convoy-event-deliveries-api-openapi.yml
+  format: yaml
+  label: Convoy Event Deliveries API
+  slug: convoy-event-deliveries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-event-deliveries-api-openapi.yml
+- filename: convoy-events-api-openapi.yml
+  format: yaml
+  label: Convoy Events API
+  slug: convoy-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-events-api-openapi.yml
+- filename: convoy-eventtypes-api-openapi.yml
+  format: yaml
+  label: Convoy EventTypes API
+  slug: convoy-eventtypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-eventtypes-api-openapi.yml
+- filename: convoy-filters-api-openapi.yml
+  format: yaml
+  label: Convoy Filters API
+  slug: convoy-filters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-filters-api-openapi.yml
+- filename: convoy-meta-events-api-openapi.yml
+  format: yaml
+  label: Convoy Meta Events API
+  slug: convoy-meta-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-meta-events-api-openapi.yml
+- filename: convoy-onboard-api-openapi.yml
+  format: yaml
+  label: Convoy Onboard API
+  slug: convoy-onboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-onboard-api-openapi.yml
+- filename: convoy-portal-links-api-openapi.yml
+  format: yaml
+  label: Convoy Portal Links API
+  slug: convoy-portal-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-portal-links-api-openapi.yml
+- filename: convoy-sources-api-openapi.yml
+  format: yaml
+  label: Convoy Sources API
+  slug: convoy-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-sources-api-openapi.yml
+- filename: convoy-subscriptions-api-openapi.yml
+  format: yaml
+  label: Convoy Subscriptions API
+  slug: convoy-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-subscriptions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

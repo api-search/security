@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: amazon-service-catalog-portfolios-api-openapi.yml
   format: yaml
-  label: AWS Service Catalog API
-  slug: aws-service-catalog-api
+  label: Amazon Service Catalog Portfolios API
+  slug: amazon-service-catalog-portfolios-api
   spec_type: OpenAPI
-  url: https://api.apis.guru/v2/specs/amazonaws.com/servicecatalog/2015-12-10/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/openapi/amazon-service-catalog-portfolios-api-openapi.yml
+- filename: amazon-service-catalog-products-api-openapi.yml
+  format: yaml
+  label: Amazon Service Catalog Products API
+  slug: amazon-service-catalog-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/openapi/amazon-service-catalog-products-api-openapi.yml
+- filename: amazon-service-catalog-provisioned-products-api-openapi.yml
+  format: yaml
+  label: Amazon Service Catalog Provisioned Products API
+  slug: amazon-service-catalog-provisioned-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/openapi/amazon-service-catalog-provisioned-products-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

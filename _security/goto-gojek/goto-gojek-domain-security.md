@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: goto-gojek-tokenization-api-openapi.yml
+  format: yaml
+  label: GoTo Group (Gojek + Tokopedia) Tokenization API
+  slug: goto-gojek-tokenization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goto-gojek/refs/heads/main/openapi/goto-gojek-tokenization-api-openapi.yml
+- filename: goto-gojek-transactions-api-openapi.yml
+  format: yaml
+  label: GoTo Group (Gojek + Tokopedia) Transactions API
+  slug: goto-gojek-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goto-gojek/refs/heads/main/openapi/goto-gojek-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

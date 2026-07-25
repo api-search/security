@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: doppel-openapi-original.yml
+- filename: doppel-alerts-api-openapi.yml
   format: yaml
-  label: Doppel API
-  slug: doppel-api
+  label: Doppel alerts API
+  slug: doppel-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/openapi/doppel-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/openapi/doppel-alerts-api-openapi.yml
+- filename: doppel-brands-api-openapi.yml
+  format: yaml
+  label: Doppel brands API
+  slug: doppel-brands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/openapi/doppel-brands-api-openapi.yml
+- filename: doppel-hrm-api-openapi.yml
+  format: yaml
+  label: Doppel hrm API
+  slug: doppel-hrm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/openapi/doppel-hrm-api-openapi.yml
+- filename: doppel-phishing-simulation-api-openapi.yml
+  format: yaml
+  label: Doppel phishing-simulation API
+  slug: doppel-phishing-simulation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/openapi/doppel-phishing-simulation-api-openapi.yml
+- filename: doppel-protected-assets-api-openapi.yml
+  format: yaml
+  label: Doppel protected-assets API
+  slug: doppel-protected-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/openapi/doppel-protected-assets-api-openapi.yml
+- filename: doppel-reports-api-openapi.yml
+  format: yaml
+  label: Doppel reports API
+  slug: doppel-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/openapi/doppel-reports-api-openapi.yml
+- filename: doppel-scan-api-openapi.yml
+  format: yaml
+  label: Doppel scan API
+  slug: doppel-scan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/openapi/doppel-scan-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

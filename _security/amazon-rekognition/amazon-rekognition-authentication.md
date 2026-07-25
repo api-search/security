@@ -2,12 +2,66 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-rekognition-openapi.yml
+- filename: amazon-rekognition-celebrity-recognition-api-openapi.yml
   format: yaml
-  label: Amazon Rekognition
-  slug: amazon-rekognition
+  label: Amazon Rekognition Celebrity Recognition API
+  slug: amazon-rekognition-celebrity-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-celebrity-recognition-api-openapi.yml
+- filename: amazon-rekognition-content-moderation-api-openapi.yml
+  format: yaml
+  label: Amazon Rekognition Content Moderation API
+  slug: amazon-rekognition-content-moderation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-content-moderation-api-openapi.yml
+- filename: amazon-rekognition-custom-labels-api-openapi.yml
+  format: yaml
+  label: Amazon Rekognition Custom Labels API
+  slug: amazon-rekognition-custom-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-custom-labels-api-openapi.yml
+- filename: amazon-rekognition-face-collections-api-openapi.yml
+  format: yaml
+  label: Amazon Rekognition Face Collections API
+  slug: amazon-rekognition-face-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-face-collections-api-openapi.yml
+- filename: amazon-rekognition-face-liveness-api-openapi.yml
+  format: yaml
+  label: Amazon Rekognition Face Liveness API
+  slug: amazon-rekognition-face-liveness-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-face-liveness-api-openapi.yml
+- filename: amazon-rekognition-face-search-api-openapi.yml
+  format: yaml
+  label: Amazon Rekognition Face Search API
+  slug: amazon-rekognition-face-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-face-search-api-openapi.yml
+- filename: amazon-rekognition-facial-analysis-api-openapi.yml
+  format: yaml
+  label: Amazon Rekognition Facial Analysis API
+  slug: amazon-rekognition-facial-analysis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-facial-analysis-api-openapi.yml
+- filename: amazon-rekognition-image-analysis-api-openapi.yml
+  format: yaml
+  label: Amazon Rekognition Image Analysis API
+  slug: amazon-rekognition-image-analysis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-image-analysis-api-openapi.yml
+- filename: amazon-rekognition-stored-video-analysis-api-openapi.yml
+  format: yaml
+  label: Amazon Rekognition Stored Video Analysis API
+  slug: amazon-rekognition-stored-video-analysis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-stored-video-analysis-api-openapi.yml
+- filename: amazon-rekognition-text-detection-api-openapi.yml
+  format: yaml
+  label: Amazon Rekognition Text Detection API
+  slug: amazon-rekognition-text-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-text-detection-api-openapi.yml
 auth_types:
 - apiKey
 description: Amazon Rekognition authorizes requests with AWS Identity and Access Management (IAM). Every call must be signed with AWS Signature Version 4 (SigV4) using the caller's access key / temporary credentials; the OpenAPI models this as an apiKey scheme on the Authorization header. Fine-grained authorization is controlled by IAM policies (e.g. AmazonRekognitionFullAccess, AmazonRekognitionReadOnlyAccess) and rekognition:* actions.

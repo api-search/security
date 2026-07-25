@@ -1,11 +1,77 @@
 ---
 api_specs:
-- filename: nascar-openapi.yml
+- filename: nascar-companies-api-openapi.yml
   format: yaml
-  label: NASCAR Feed API
-  slug: nascar
+  label: NASCAR Companies API
+  slug: nascar-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-companies-api-openapi.yml
+- filename: nascar-drivers-api-openapi.yml
+  format: yaml
+  label: NASCAR Drivers API
+  slug: nascar-drivers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-drivers-api-openapi.yml
+- filename: nascar-entrylist-api-openapi.yml
+  format: yaml
+  label: NASCAR EntryList API
+  slug: nascar-entrylist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-entrylist-api-openapi.yml
+- filename: nascar-inspection-api-openapi.yml
+  format: yaml
+  label: NASCAR Inspection API
+  slug: nascar-inspection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-inspection-api-openapi.yml
+- filename: nascar-live-api-openapi.yml
+  format: yaml
+  label: NASCAR Live API
+  slug: nascar-live-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-live-api-openapi.yml
+- filename: nascar-points-api-openapi.yml
+  format: yaml
+  label: NASCAR Points API
+  slug: nascar-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-points-api-openapi.yml
+- filename: nascar-races-api-openapi.yml
+  format: yaml
+  label: NASCAR Races API
+  slug: nascar-races-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-races-api-openapi.yml
+- filename: nascar-series-api-openapi.yml
+  format: yaml
+  label: NASCAR Series API
+  slug: nascar-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-series-api-openapi.yml
+- filename: nascar-stats-api-openapi.yml
+  format: yaml
+  label: NASCAR Stats API
+  slug: nascar-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-stats-api-openapi.yml
+- filename: nascar-tracks-api-openapi.yml
+  format: yaml
+  label: NASCAR Tracks API
+  slug: nascar-tracks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-tracks-api-openapi.yml
+- filename: nascar-tracktemp-api-openapi.yml
+  format: yaml
+  label: NASCAR TrackTemp API
+  slug: nascar-tracktemp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-tracktemp-api-openapi.yml
+- filename: nascar-weekend-api-openapi.yml
+  format: yaml
+  label: NASCAR Weekend API
+  slug: nascar-weekend-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-weekend-api-openapi.yml
 description: ''
 domains:
 - caa: []

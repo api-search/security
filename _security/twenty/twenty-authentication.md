@@ -1,18 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: core
+- filename: twenty-companies-api-openapi.yml
   format: yaml
-  label: Twenty Core API
-  slug: core-api
+  label: Twenty companies API
+  slug: twenty-companies-api
   spec_type: OpenAPI
-  url: https://api.twenty.com/open-api/core
-- filename: metadata
+  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-companies-api-openapi.yml
+- filename: twenty-fields-api-openapi.yml
   format: yaml
-  label: Twenty Metadata API
-  slug: metadata-api
+  label: Twenty fields API
+  slug: twenty-fields-api
   spec_type: OpenAPI
-  url: https://api.twenty.com/open-api/metadata
+  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-fields-api-openapi.yml
+- filename: twenty-notes-api-openapi.yml
+  format: yaml
+  label: Twenty notes API
+  slug: twenty-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-notes-api-openapi.yml
+- filename: twenty-objects-api-openapi.yml
+  format: yaml
+  label: Twenty objects API
+  slug: twenty-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-objects-api-openapi.yml
+- filename: twenty-openapi-api-openapi.yml
+  format: yaml
+  label: Twenty openapi API
+  slug: twenty-openapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-openapi-api-openapi.yml
+- filename: twenty-opportunities-api-openapi.yml
+  format: yaml
+  label: Twenty opportunities API
+  slug: twenty-opportunities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-opportunities-api-openapi.yml
+- filename: twenty-people-api-openapi.yml
+  format: yaml
+  label: Twenty people API
+  slug: twenty-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-people-api-openapi.yml
+- filename: twenty-relations-api-openapi.yml
+  format: yaml
+  label: Twenty relations API
+  slug: twenty-relations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-relations-api-openapi.yml
+- filename: twenty-tasks-api-openapi.yml
+  format: yaml
+  label: Twenty tasks API
+  slug: twenty-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-tasks-api-openapi.yml
 auth_types:
 - http
 description: ''

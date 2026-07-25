@@ -1,48 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: worldnewsapi-openapi.yml
+- filename: worldnewsapi-extract-news-api-openapi.yml
   format: yaml
-  label: World News Search News API
-  slug: worldnewsapi-search-news-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/openapi/worldnewsapi-openapi.yml
-- filename: worldnewsapi-openapi.yml
-  format: yaml
-  label: World News Geo Coordinates API
-  slug: worldnewsapi-geo-coordinates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/openapi/worldnewsapi-openapi.yml
-- filename: worldnewsapi-openapi.yml
-  format: yaml
-  label: World News Top News API
-  slug: worldnewsapi-top-news-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/openapi/worldnewsapi-openapi.yml
-- filename: worldnewsapi-openapi.yml
-  format: yaml
-  label: World News Extract News API
+  label: World News API Extract News API
   slug: worldnewsapi-extract-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/openapi/worldnewsapi-openapi.yml
-- filename: worldnewsapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/openapi/worldnewsapi-extract-news-api-openapi.yml
+- filename: worldnewsapi-front-pages-api-openapi.yml
   format: yaml
-  label: World News Retrieve News API
-  slug: worldnewsapi-retrieve-news-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/openapi/worldnewsapi-openapi.yml
-- filename: worldnewsapi-openapi.yml
-  format: yaml
-  label: World News Sources API
-  slug: worldnewsapi-news-sources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/openapi/worldnewsapi-openapi.yml
-- filename: worldnewsapi-openapi.yml
-  format: yaml
-  label: World News Front Pages API
+  label: World News API Front Pages API
   slug: worldnewsapi-front-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/openapi/worldnewsapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/openapi/worldnewsapi-front-pages-api-openapi.yml
+- filename: worldnewsapi-geo-coordinates-api-openapi.yml
+  format: yaml
+  label: World News API Geo Coordinates API
+  slug: worldnewsapi-geo-coordinates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/openapi/worldnewsapi-geo-coordinates-api-openapi.yml
+- filename: worldnewsapi-news-sources-api-openapi.yml
+  format: yaml
+  label: World News API News Sources API
+  slug: worldnewsapi-news-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/openapi/worldnewsapi-news-sources-api-openapi.yml
+- filename: worldnewsapi-retrieve-news-api-openapi.yml
+  format: yaml
+  label: World News API Retrieve News API
+  slug: worldnewsapi-retrieve-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/openapi/worldnewsapi-retrieve-news-api-openapi.yml
+- filename: worldnewsapi-search-news-api-openapi.yml
+  format: yaml
+  label: World News API Search News API
+  slug: worldnewsapi-search-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/openapi/worldnewsapi-search-news-api-openapi.yml
+- filename: worldnewsapi-top-news-api-openapi.yml
+  format: yaml
+  label: World News API Top News API
+  slug: worldnewsapi-top-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/openapi/worldnewsapi-top-news-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

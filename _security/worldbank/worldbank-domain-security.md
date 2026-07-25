@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: v2
+- filename: worldbank-classifications-api-openapi.yml
+  format: yaml
+  label: World Bank Classifications API
+  slug: worldbank-classifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worldbank/refs/heads/main/openapi/worldbank-classifications-api-openapi.yml
+- filename: worldbank-countries-api-openapi.yml
+  format: yaml
+  label: World Bank Countries API
+  slug: worldbank-countries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worldbank/refs/heads/main/openapi/worldbank-countries-api-openapi.yml
+- filename: worldbank-indicators-api-openapi.yml
   format: yaml
   label: World Bank Indicators API
-  slug: worldbank-indicators
+  slug: worldbank-indicators-api
   spec_type: OpenAPI
-  url: https://api.worldbank.org/v2
+  url: https://raw.githubusercontent.com/api-evangelist/worldbank/refs/heads/main/openapi/worldbank-indicators-api-openapi.yml
+- filename: worldbank-regions-api-openapi.yml
+  format: yaml
+  label: World Bank Regions API
+  slug: worldbank-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worldbank/refs/heads/main/openapi/worldbank-regions-api-openapi.yml
+- filename: worldbank-sources-api-openapi.yml
+  format: yaml
+  label: World Bank Sources API
+  slug: worldbank-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worldbank/refs/heads/main/openapi/worldbank-sources-api-openapi.yml
+- filename: worldbank-topics-api-openapi.yml
+  format: yaml
+  label: World Bank Topics API
+  slug: worldbank-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worldbank/refs/heads/main/openapi/worldbank-topics-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,18 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: channel-openapi.yml
+- filename: restaurant-brands-loyalty-api-openapi.yml
   format: yaml
-  label: Channel Partners API
-  slug: channel-partners-api
+  label: Restaurant Brands International Loyalty API
+  slug: restaurant-brands-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/openapi/channel-openapi.yml
-- filename: menu-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/openapi/restaurant-brands-loyalty-api-openapi.yml
+- filename: restaurant-brands-menus-api-openapi.yml
   format: yaml
-  label: Partners Menu API v2
-  slug: partners-menu-api-v2
+  label: Restaurant Brands International Menus API
+  slug: restaurant-brands-menus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/openapi/menu-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/openapi/restaurant-brands-menus-api-openapi.yml
+- filename: restaurant-brands-orders-api-openapi.yml
+  format: yaml
+  label: Restaurant Brands International Orders API
+  slug: restaurant-brands-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/openapi/restaurant-brands-orders-api-openapi.yml
+- filename: restaurant-brands-stores-api-openapi.yml
+  format: yaml
+  label: Restaurant Brands International Stores API
+  slug: restaurant-brands-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/openapi/restaurant-brands-stores-api-openapi.yml
 auth_types:
 - http
 description: ''

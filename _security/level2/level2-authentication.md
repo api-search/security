@@ -2,18 +2,42 @@
 api_key_in:
 - query
 api_specs:
-- filename: level2-strategy-builder-openapi.yml
+- filename: level2-backtesting-api-openapi.yml
   format: yaml
-  label: Level2 Strategy Builder API
-  slug: strategy-builder-api
+  label: level2 Backtesting API
+  slug: level2-backtesting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/level2/refs/heads/main/openapi/level2-strategy-builder-openapi.yml
-- filename: level2-tradestation-integration-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/level2/refs/heads/main/openapi/level2-backtesting-api-openapi.yml
+- filename: level2-discovery-api-openapi.yml
   format: yaml
-  label: Level2 TradeStation Integration API
-  slug: tradestation-integration-api
+  label: level2 Discovery API
+  slug: level2-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/level2/refs/heads/main/openapi/level2-tradestation-integration-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/level2/refs/heads/main/openapi/level2-discovery-api-openapi.yml
+- filename: level2-market-data-api-openapi.yml
+  format: yaml
+  label: level2 Market Data API
+  slug: level2-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/level2/refs/heads/main/openapi/level2-market-data-api-openapi.yml
+- filename: level2-strategies-api-openapi.yml
+  format: yaml
+  label: level2 Strategies API
+  slug: level2-strategies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/level2/refs/heads/main/openapi/level2-strategies-api-openapi.yml
+- filename: level2-technical-analysis-api-openapi.yml
+  format: yaml
+  label: level2 Technical Analysis API
+  slug: level2-technical-analysis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/level2/refs/heads/main/openapi/level2-technical-analysis-api-openapi.yml
+- filename: level2-users-api-openapi.yml
+  format: yaml
+  label: level2 Users API
+  slug: level2-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/level2/refs/heads/main/openapi/level2-users-api-openapi.yml
 auth_types:
 - apiKey
 - http

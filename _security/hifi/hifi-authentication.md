@@ -2,12 +2,96 @@
 api_key_in:
 - header
 api_specs:
-- filename: hifi-openapi-original.json
-  format: json
-  label: Hifi API
-  slug: hifi-api
+- filename: hifi-account-api-openapi.yml
+  format: yaml
+  label: Hifi Account API
+  slug: hifi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-account-api-openapi.yml
+- filename: hifi-common-api-openapi.yml
+  format: yaml
+  label: Hifi Common API
+  slug: hifi-common-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-common-api-openapi.yml
+- filename: hifi-cross-chain-bridge-api-openapi.yml
+  format: yaml
+  label: Hifi Cross-Chain Bridge API
+  slug: hifi-cross-chain-bridge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-cross-chain-bridge-api-openapi.yml
+- filename: hifi-crypto-transfer-api-openapi.yml
+  format: yaml
+  label: Hifi Crypto Transfer API
+  slug: hifi-crypto-transfer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-crypto-transfer-api-openapi.yml
+- filename: hifi-file-api-openapi.yml
+  format: yaml
+  label: Hifi File API
+  slug: hifi-file-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-file-api-openapi.yml
+- filename: hifi-kyc-api-openapi.yml
+  format: yaml
+  label: Hifi Kyc API
+  slug: hifi-kyc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-kyc-api-openapi.yml
+- filename: hifi-offramp-api-openapi.yml
+  format: yaml
+  label: Hifi Offramp API
+  slug: hifi-offramp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-offramp-api-openapi.yml
+- filename: hifi-onramp-api-openapi.yml
+  format: yaml
+  label: Hifi Onramp API
+  slug: hifi-onramp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-onramp-api-openapi.yml
+- filename: hifi-reporting-api-openapi.yml
+  format: yaml
+  label: Hifi Reporting API
+  slug: hifi-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-reporting-api-openapi.yml
+- filename: hifi-settlement-rules-api-openapi.yml
+  format: yaml
+  label: Hifi Settlement Rules API
+  slug: hifi-settlement-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-settlement-rules-api-openapi.yml
+- filename: hifi-token-swap-api-openapi.yml
+  format: yaml
+  label: Hifi Token Swap API
+  slug: hifi-token-swap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-token-swap-api-openapi.yml
+- filename: hifi-transfer-approvals-api-openapi.yml
+  format: yaml
+  label: Hifi Transfer Approvals API
+  slug: hifi-transfer-approvals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-transfer-approvals-api-openapi.yml
+- filename: hifi-user-api-openapi.yml
+  format: yaml
+  label: Hifi User API
+  slug: hifi-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-user-api-openapi.yml
+- filename: hifi-virtual-account-api-openapi.yml
+  format: yaml
+  label: Hifi Virtual Account API
+  slug: hifi-virtual-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-virtual-account-api-openapi.yml
+- filename: hifi-wallet-api-openapi.yml
+  format: yaml
+  label: Hifi Wallet API
+  slug: hifi-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-wallet-api-openapi.yml
 auth_types:
 - http
 description: ''

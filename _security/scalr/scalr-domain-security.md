@@ -1,23 +1,155 @@
 ---
 api_specs:
-- filename: scalr-user-openapi.yml
+- filename: scalr-acl-roles-api-openapi.yml
   format: yaml
-  label: Scalr User API
-  slug: scalr-user-api
+  label: Scalr Acl Roles API
+  slug: scalr-acl-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-user-openapi.yml
-- filename: scalr-account-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-acl-roles-api-openapi.yml
+- filename: scalr-ansible-tower-api-openapi.yml
   format: yaml
-  label: Scalr Account API
-  slug: scalr-account-api
+  label: Scalr Ansible Tower API
+  slug: scalr-ansible-tower-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-account-openapi.yml
-- filename: scalr-global-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-ansible-tower-api-openapi.yml
+- filename: scalr-cloud-credentials-api-openapi.yml
   format: yaml
-  label: Scalr Global API
-  slug: scalr-global-api
+  label: Scalr Cloud Credentials API
+  slug: scalr-cloud-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-global-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-cloud-credentials-api-openapi.yml
+- filename: scalr-clouds-api-openapi.yml
+  format: yaml
+  label: Scalr Clouds API
+  slug: scalr-clouds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-clouds-api-openapi.yml
+- filename: scalr-cost-centers-api-openapi.yml
+  format: yaml
+  label: Scalr Cost Centers API
+  slug: scalr-cost-centers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-cost-centers-api-openapi.yml
+- filename: scalr-environments-api-openapi.yml
+  format: yaml
+  label: Scalr Environments API
+  slug: scalr-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-environments-api-openapi.yml
+- filename: scalr-event-logs-api-openapi.yml
+  format: yaml
+  label: Scalr Event Logs API
+  slug: scalr-event-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-event-logs-api-openapi.yml
+- filename: scalr-events-api-openapi.yml
+  format: yaml
+  label: Scalr Events API
+  slug: scalr-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-events-api-openapi.yml
+- filename: scalr-farm-roles-api-openapi.yml
+  format: yaml
+  label: Scalr Farm Roles API
+  slug: scalr-farm-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-farm-roles-api-openapi.yml
+- filename: scalr-farms-api-openapi.yml
+  format: yaml
+  label: Scalr Farms API
+  slug: scalr-farms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-farms-api-openapi.yml
+- filename: scalr-global-variables-api-openapi.yml
+  format: yaml
+  label: Scalr Global Variables API
+  slug: scalr-global-variables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-global-variables-api-openapi.yml
+- filename: scalr-images-api-openapi.yml
+  format: yaml
+  label: Scalr Images API
+  slug: scalr-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-images-api-openapi.yml
+- filename: scalr-orchestration-logs-api-openapi.yml
+  format: yaml
+  label: Scalr Orchestration Logs API
+  slug: scalr-orchestration-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-orchestration-logs-api-openapi.yml
+- filename: scalr-orchestration-rules-api-openapi.yml
+  format: yaml
+  label: Scalr Orchestration Rules API
+  slug: scalr-orchestration-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-orchestration-rules-api-openapi.yml
+- filename: scalr-os-api-openapi.yml
+  format: yaml
+  label: Scalr Os API
+  slug: scalr-os-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-os-api-openapi.yml
+- filename: scalr-projects-api-openapi.yml
+  format: yaml
+  label: Scalr Projects API
+  slug: scalr-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-projects-api-openapi.yml
+- filename: scalr-role-categories-api-openapi.yml
+  format: yaml
+  label: Scalr Role Categories API
+  slug: scalr-role-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-role-categories-api-openapi.yml
+- filename: scalr-roles-api-openapi.yml
+  format: yaml
+  label: Scalr Roles API
+  slug: scalr-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-roles-api-openapi.yml
+- filename: scalr-scaling-metrics-api-openapi.yml
+  format: yaml
+  label: Scalr Scaling Metrics API
+  slug: scalr-scaling-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-scaling-metrics-api-openapi.yml
+- filename: scalr-script-executions-api-openapi.yml
+  format: yaml
+  label: Scalr Script Executions API
+  slug: scalr-script-executions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-script-executions-api-openapi.yml
+- filename: scalr-scripts-api-openapi.yml
+  format: yaml
+  label: Scalr Scripts API
+  slug: scalr-scripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-scripts-api-openapi.yml
+- filename: scalr-servers-api-openapi.yml
+  format: yaml
+  label: Scalr Servers API
+  slug: scalr-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-servers-api-openapi.yml
+- filename: scalr-teams-api-openapi.yml
+  format: yaml
+  label: Scalr Teams API
+  slug: scalr-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-teams-api-openapi.yml
+- filename: scalr-users-api-openapi.yml
+  format: yaml
+  label: Scalr Users API
+  slug: scalr-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-users-api-openapi.yml
+- filename: scalr-webhook-endpoints-api-openapi.yml
+  format: yaml
+  label: Scalr Webhook Endpoints API
+  slug: scalr-webhook-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-webhook-endpoints-api-openapi.yml
 description: ''
 domains:
 - caa:

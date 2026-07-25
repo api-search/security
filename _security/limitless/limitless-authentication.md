@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: limitless-developer-openapi-original.yml
+- filename: limitless-chats-api-openapi.yml
   format: yaml
-  label: Limitless Developer API
-  slug: developer
+  label: Limitless Chats API
+  slug: limitless-chats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limitless/refs/heads/main/openapi/limitless-developer-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/limitless/refs/heads/main/openapi/limitless-chats-api-openapi.yml
+- filename: limitless-download-audio-api-openapi.yml
+  format: yaml
+  label: Limitless Download Audio API
+  slug: limitless-download-audio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/limitless/refs/heads/main/openapi/limitless-download-audio-api-openapi.yml
+- filename: limitless-lifelogs-api-openapi.yml
+  format: yaml
+  label: Limitless Lifelogs API
+  slug: limitless-lifelogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/limitless/refs/heads/main/openapi/limitless-lifelogs-api-openapi.yml
+- filename: limitless-limitless-developer-api-api-openapi.yml
+  format: yaml
+  label: Limitless Limitless Developer API API
+  slug: limitless-limitless-developer-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/limitless/refs/heads/main/openapi/limitless-limitless-developer-api-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

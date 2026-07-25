@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: ressl-ai-platform-openapi.yml
+- filename: ressl-ai-providers-api-openapi.yml
   format: yaml
-  label: Ressl Platform API
-  slug: ressl-platform-api
+  label: Ressl Providers API
+  slug: ressl-ai-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/openapi/ressl-ai-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/openapi/ressl-ai-providers-api-openapi.yml
+- filename: ressl-ai-snapshots-api-openapi.yml
+  format: yaml
+  label: Ressl Snapshots API
+  slug: ressl-ai-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/openapi/ressl-ai-snapshots-api-openapi.yml
 auth_types:
 - apiKey
 - http

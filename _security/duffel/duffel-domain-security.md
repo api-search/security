@@ -1,59 +1,65 @@
 ---
 api_specs:
-- filename: duffel-openapi.yml
+- filename: duffel-ancillaries-api-openapi.yml
+  format: yaml
+  label: Duffel Ancillaries API
+  slug: duffel-ancillaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-ancillaries-api-openapi.yml
+- filename: duffel-offer-requests-api-openapi.yml
   format: yaml
   label: Duffel Offer Requests API
   slug: duffel-offer-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-openapi.yml
-- filename: duffel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-offer-requests-api-openapi.yml
+- filename: duffel-offers-api-openapi.yml
   format: yaml
   label: Duffel Offers API
   slug: duffel-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-openapi.yml
-- filename: duffel-openapi.yml
-  format: yaml
-  label: Duffel Orders API
-  slug: duffel-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-openapi.yml
-- filename: duffel-openapi.yml
-  format: yaml
-  label: Duffel Seat Maps API
-  slug: duffel-seat-maps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-openapi.yml
-- filename: duffel-openapi.yml
-  format: yaml
-  label: Duffel Order Changes API
-  slug: duffel-order-changes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-openapi.yml
-- filename: duffel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-offers-api-openapi.yml
+- filename: duffel-order-cancellations-api-openapi.yml
   format: yaml
   label: Duffel Order Cancellations API
   slug: duffel-order-cancellations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-openapi.yml
-- filename: duffel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-order-cancellations-api-openapi.yml
+- filename: duffel-order-changes-api-openapi.yml
+  format: yaml
+  label: Duffel Order Changes API
+  slug: duffel-order-changes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-order-changes-api-openapi.yml
+- filename: duffel-orders-api-openapi.yml
+  format: yaml
+  label: Duffel Orders API
+  slug: duffel-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-orders-api-openapi.yml
+- filename: duffel-payments-api-openapi.yml
   format: yaml
   label: Duffel Payments API
   slug: duffel-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-openapi.yml
-- filename: duffel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-payments-api-openapi.yml
+- filename: duffel-seat-maps-api-openapi.yml
+  format: yaml
+  label: Duffel Seat Maps API
+  slug: duffel-seat-maps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-seat-maps-api-openapi.yml
+- filename: duffel-stays-api-openapi.yml
   format: yaml
   label: Duffel Stays API
   slug: duffel-stays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-openapi.yml
-- filename: duffel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-stays-api-openapi.yml
+- filename: duffel-webhooks-api-openapi.yml
   format: yaml
   label: Duffel Webhooks API
   slug: duffel-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

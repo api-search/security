@@ -1,41 +1,53 @@
 ---
 api_specs:
-- filename: at-t-developer-hub-network-insights-api.yaml
+- filename: at-t-developer-hub-device-connectivity-api-openapi.yml
   format: yaml
-  label: AT&T Network Insights API
-  slug: att-network-insights-api
+  label: AT&T Developer Hub Device Connectivity API
+  slug: at-t-developer-hub-device-connectivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/openapi/at-t-developer-hub-network-insights-api.yaml
-- filename: at-t-developer-hub-mobility-threat-anomaly-detection-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/openapi/at-t-developer-hub-device-connectivity-api-openapi.yml
+- filename: at-t-developer-hub-device-roaming-api-openapi.yml
   format: yaml
-  label: AT&T Mobility Threat and Anomaly Detection API
-  slug: att-mobility-threat-anomaly-detection-api
+  label: AT&T Developer Hub Device Roaming API
+  slug: at-t-developer-hub-device-roaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/openapi/at-t-developer-hub-mobility-threat-anomaly-detection-api.yaml
-- filename: at-t-developer-hub-sim-swap-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/openapi/at-t-developer-hub-device-roaming-api-openapi.yml
+- filename: at-t-developer-hub-network-metrics-api-openapi.yml
   format: yaml
-  label: AT&T SIM Swap API
-  slug: att-sim-swap-api
+  label: AT&T Developer Hub Network Metrics API
+  slug: at-t-developer-hub-network-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/openapi/at-t-developer-hub-sim-swap-api.yaml
-- filename: at-t-developer-hub-device-status-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/openapi/at-t-developer-hub-network-metrics-api-openapi.yml
+- filename: at-t-developer-hub-number-verification-api-openapi.yml
   format: yaml
-  label: AT&T Device Status API
-  slug: att-device-status-api
+  label: AT&T Developer Hub Number Verification API
+  slug: at-t-developer-hub-number-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/openapi/at-t-developer-hub-device-status-api.yaml
-- filename: at-t-developer-hub-quality-on-demand-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/openapi/at-t-developer-hub-number-verification-api-openapi.yml
+- filename: at-t-developer-hub-qod-sessions-api-openapi.yml
   format: yaml
-  label: AT&T Quality on Demand API
-  slug: att-quality-on-demand-api
+  label: AT&T Developer Hub QoD Sessions API
+  slug: at-t-developer-hub-qod-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/openapi/at-t-developer-hub-quality-on-demand-api.yaml
-- filename: at-t-developer-hub-number-verification-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/openapi/at-t-developer-hub-qod-sessions-api-openapi.yml
+- filename: at-t-developer-hub-sim-swap-api-openapi.yml
   format: yaml
-  label: AT&T Number Verification API
-  slug: att-number-verification-api
+  label: AT&T Developer Hub SIM Swap API
+  slug: at-t-developer-hub-sim-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/openapi/at-t-developer-hub-number-verification-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/openapi/at-t-developer-hub-sim-swap-api-openapi.yml
+- filename: at-t-developer-hub-threat-detection-api-openapi.yml
+  format: yaml
+  label: AT&T Developer Hub Threat Detection API
+  slug: at-t-developer-hub-threat-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/openapi/at-t-developer-hub-threat-detection-api-openapi.yml
+- filename: at-t-developer-hub-threat-subscriptions-api-openapi.yml
+  format: yaml
+  label: AT&T Developer Hub Threat Subscriptions API
+  slug: at-t-developer-hub-threat-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/openapi/at-t-developer-hub-threat-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []

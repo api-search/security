@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: lusd_total_supply.txt
+- filename: liquity-v2-protocol-stats-api-openapi.yml
   format: yaml
-  label: Liquity V1 Circulating Supply API
-  slug: liquity-v1-circulating-supply-api
+  label: Liquity V2 Protocol Stats API
+  slug: liquity-v2-protocol-stats-api
   spec_type: OpenAPI
-  url: https://api.liquity.org/v1/lusd_total_supply.txt
+  url: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/openapi/liquity-v2-protocol-stats-api-openapi.yml
+- filename: liquity-v2-website-data-api-openapi.yml
+  format: yaml
+  label: Liquity V2 Website Data API
+  slug: liquity-v2-website-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/openapi/liquity-v2-website-data-api-openapi.yml
+- filename: liquity-v2-governance-api-openapi.yml
+  format: yaml
+  label: Liquity V2 Governance API
+  slug: liquity-v2-governance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/openapi/liquity-v2-governance-api-openapi.yml
+- filename: liquity-v1-supply-api-openapi.yml
+  format: yaml
+  label: Liquity V1 Supply API
+  slug: liquity-v1-supply-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/openapi/liquity-v1-supply-api-openapi.yml
+- filename: liquity-v2-governance-api-openapi.yml
+  format: yaml
+  label: Liquity V2 Governance API
+  slug: liquity-v2-governance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/openapi/liquity-v2-governance-api-openapi.yml
+- filename: liquity-v2-protocol-stats-api-openapi.yml
+  format: yaml
+  label: Liquity V2 Protocol Stats API
+  slug: liquity-v2-protocol-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/openapi/liquity-v2-protocol-stats-api-openapi.yml
+- filename: liquity-v2-website-data-api-openapi.yml
+  format: yaml
+  label: Liquity V2 Website Data API
+  slug: liquity-v2-website-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/openapi/liquity-v2-website-data-api-openapi.yml
 description: ''
 domains:
 - caa:

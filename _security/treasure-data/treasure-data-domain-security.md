@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: treasure-data-bulk-loads-api-openapi.yml
   format: yaml
-  label: Treasure Data TD API
-  slug: treasure-data-td-api
+  label: Treasure Data Bulk Loads API
+  slug: treasure-data-bulk-loads-api
   spec_type: OpenAPI
-  url: https://api-docs.treasuredata.com/
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-bulk-loads-api-openapi.yml
+- filename: treasure-data-system-api-openapi.yml
+  format: yaml
+  label: Treasure Data System API
+  slug: treasure-data-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-system-api-openapi.yml
+- filename: treasure-data-bulk-import-api-openapi.yml
+  format: yaml
+  label: Treasure Data Bulk Import API
+  slug: treasure-data-bulk-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-bulk-import-api-openapi.yml
+- filename: treasure-data-bulk-loads-api-openapi.yml
+  format: yaml
+  label: Treasure Data Bulk Loads API
+  slug: treasure-data-bulk-loads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-bulk-loads-api-openapi.yml
+- filename: treasure-data-connectors-api-openapi.yml
+  format: yaml
+  label: Treasure Data Connectors API
+  slug: treasure-data-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-connectors-api-openapi.yml
+- filename: treasure-data-databases-api-openapi.yml
+  format: yaml
+  label: Treasure Data Databases API
+  slug: treasure-data-databases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-databases-api-openapi.yml
+- filename: treasure-data-jobs-api-openapi.yml
+  format: yaml
+  label: Treasure Data Jobs API
+  slug: treasure-data-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-jobs-api-openapi.yml
+- filename: treasure-data-sso-api-openapi.yml
+  format: yaml
+  label: Treasure Data SSO API
+  slug: treasure-data-sso-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-sso-api-openapi.yml
+- filename: treasure-data-system-api-openapi.yml
+  format: yaml
+  label: Treasure Data System API
+  slug: treasure-data-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-system-api-openapi.yml
+- filename: treasure-data-tables-api-openapi.yml
+  format: yaml
+  label: Treasure Data Tables API
+  slug: treasure-data-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-tables-api-openapi.yml
+- filename: treasure-data-users-api-openapi.yml
+  format: yaml
+  label: Treasure Data Users API
+  slug: treasure-data-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

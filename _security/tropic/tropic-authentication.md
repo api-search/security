@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tropic-openapi.yml
+- filename: tropic-contracts-api-openapi.yml
   format: yaml
-  label: Tropic API
-  slug: rest-api
+  label: Tropic Contracts API
+  slug: tropic-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/openapi/tropic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/openapi/tropic-contracts-api-openapi.yml
+- filename: tropic-requests-api-openapi.yml
+  format: yaml
+  label: Tropic Requests API
+  slug: tropic-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/openapi/tropic-requests-api-openapi.yml
+- filename: tropic-suppliers-api-openapi.yml
+  format: yaml
+  label: Tropic Suppliers API
+  slug: tropic-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/openapi/tropic-suppliers-api-openapi.yml
+- filename: tropic-users-api-openapi.yml
+  format: yaml
+  label: Tropic Users API
+  slug: tropic-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/openapi/tropic-users-api-openapi.yml
+- filename: tropic-webhooks-api-openapi.yml
+  format: yaml
+  label: Tropic Webhooks API
+  slug: tropic-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/openapi/tropic-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

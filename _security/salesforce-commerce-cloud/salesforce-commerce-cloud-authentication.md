@@ -1,5 +1,12 @@
 ---
 api_key_in: []
+api_specs:
+- filename: salesforce-commerce-cloud-shopper-api-openapi.yml
+  format: yaml
+  label: Salesforce Commerce Cloud Shopper API
+  slug: salesforce-commerce-cloud-shopper-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-commerce-cloud/refs/heads/main/openapi/salesforce-commerce-cloud-shopper-api-openapi.yml
 auth_types:
 - http
 description: ''

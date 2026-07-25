@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: bandwidth-voice-api-openapi.yml
-  format: yaml
-  label: Bandwidth Voice API
-  slug: voice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-voice-api-openapi.yml
-- filename: bandwidth-messaging-api-openapi.yml
-  format: yaml
-  label: Bandwidth Messaging API
-  slug: messaging-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-messaging-api-openapi.yml
 - filename: bandwidth-phone-numbers-api-openapi.yml
   format: yaml
   label: Bandwidth Phone Numbers API
@@ -24,18 +12,102 @@ api_specs:
   slug: multi-factor-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-mfa-api-openapi.yml
-- filename: bandwidth-emergency-calling-api-openapi.yml
-  format: yaml
-  label: Bandwidth Emergency Calling API
-  slug: emergency-calling-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-emergency-calling-api-openapi.yml
 - filename: bandwidth-toll-free-verification-api-openapi.yml
   format: yaml
   label: Bandwidth Toll-Free Verification API
   slug: toll-free-verification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-toll-free-verification-api-openapi.yml
+- filename: bandwidth-available-numbers-api-openapi.yml
+  format: yaml
+  label: Bandwidth Available Numbers API
+  slug: bandwidth-available-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-available-numbers-api-openapi.yml
+- filename: bandwidth-calls-api-openapi.yml
+  format: yaml
+  label: Bandwidth Calls API
+  slug: bandwidth-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-calls-api-openapi.yml
+- filename: bandwidth-conferences-api-openapi.yml
+  format: yaml
+  label: Bandwidth Conferences API
+  slug: bandwidth-conferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-conferences-api-openapi.yml
+- filename: bandwidth-disconnects-api-openapi.yml
+  format: yaml
+  label: Bandwidth Disconnects API
+  slug: bandwidth-disconnects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-disconnects-api-openapi.yml
+- filename: bandwidth-emergency-notification-recipients-api-openapi.yml
+  format: yaml
+  label: Bandwidth Emergency Notification Recipients API
+  slug: bandwidth-emergency-notification-recipients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-emergency-notification-recipients-api-openapi.yml
+- filename: bandwidth-endpoints-api-openapi.yml
+  format: yaml
+  label: Bandwidth Endpoints API
+  slug: bandwidth-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-endpoints-api-openapi.yml
+- filename: bandwidth-locations-api-openapi.yml
+  format: yaml
+  label: Bandwidth Locations API
+  slug: bandwidth-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-locations-api-openapi.yml
+- filename: bandwidth-media-api-openapi.yml
+  format: yaml
+  label: Bandwidth Media API
+  slug: bandwidth-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-media-api-openapi.yml
+- filename: bandwidth-messages-api-openapi.yml
+  format: yaml
+  label: Bandwidth Messages API
+  slug: bandwidth-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-messages-api-openapi.yml
+- filename: bandwidth-number-features-api-openapi.yml
+  format: yaml
+  label: Bandwidth Number Features API
+  slug: bandwidth-number-features-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-number-features-api-openapi.yml
+- filename: bandwidth-orders-api-openapi.yml
+  format: yaml
+  label: Bandwidth Orders API
+  slug: bandwidth-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-orders-api-openapi.yml
+- filename: bandwidth-port-ins-api-openapi.yml
+  format: yaml
+  label: Bandwidth Port-Ins API
+  slug: bandwidth-port-ins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-port-ins-api-openapi.yml
+- filename: bandwidth-recordings-api-openapi.yml
+  format: yaml
+  label: Bandwidth Recordings API
+  slug: bandwidth-recordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-recordings-api-openapi.yml
+- filename: bandwidth-sip-peers-api-openapi.yml
+  format: yaml
+  label: Bandwidth SIP Peers API
+  slug: bandwidth-sip-peers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-sip-peers-api-openapi.yml
+- filename: bandwidth-sites-api-openapi.yml
+  format: yaml
+  label: Bandwidth Sites API
+  slug: bandwidth-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-sites-api-openapi.yml
 description: ''
 domains:
 - caa: []

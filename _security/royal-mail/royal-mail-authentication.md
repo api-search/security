@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: click-and-drop-api-v1.yaml
+- filename: royal-mail-labels-api-openapi.yml
   format: yaml
-  label: Royal Mail Click & Drop API
-  slug: royal-mail-click-drop-api
+  label: Royal Mail Labels API
+  slug: royal-mail-labels-api
   spec_type: OpenAPI
-  url: https://api.parcel.royalmail.com/doc/v1/click-and-drop-api-v1.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/openapi/royal-mail-labels-api-openapi.yml
+- filename: royal-mail-manifests-api-openapi.yml
+  format: yaml
+  label: Royal Mail Manifests API
+  slug: royal-mail-manifests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/openapi/royal-mail-manifests-api-openapi.yml
+- filename: royal-mail-orders-api-openapi.yml
+  format: yaml
+  label: Royal Mail Orders API
+  slug: royal-mail-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/openapi/royal-mail-orders-api-openapi.yml
+- filename: royal-mail-returns-api-openapi.yml
+  format: yaml
+  label: Royal Mail Returns API
+  slug: royal-mail-returns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/openapi/royal-mail-returns-api-openapi.yml
+- filename: royal-mail-version-api-openapi.yml
+  format: yaml
+  label: Royal Mail Version API
+  slug: royal-mail-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/openapi/royal-mail-version-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

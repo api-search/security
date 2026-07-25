@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: peopleforce-openapi.yml
+- filename: peopleforce-candidates-api-openapi.yml
   format: yaml
-  label: PeopleForce API
-  slug: peopleforce
+  label: PeopleForce Candidates API
+  slug: peopleforce-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/openapi/peopleforce-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/openapi/peopleforce-candidates-api-openapi.yml
+- filename: peopleforce-departments-api-openapi.yml
+  format: yaml
+  label: PeopleForce Departments API
+  slug: peopleforce-departments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/openapi/peopleforce-departments-api-openapi.yml
+- filename: peopleforce-divisions-api-openapi.yml
+  format: yaml
+  label: PeopleForce Divisions API
+  slug: peopleforce-divisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/openapi/peopleforce-divisions-api-openapi.yml
+- filename: peopleforce-employees-api-openapi.yml
+  format: yaml
+  label: PeopleForce Employees API
+  slug: peopleforce-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/openapi/peopleforce-employees-api-openapi.yml
+- filename: peopleforce-leave-requests-api-openapi.yml
+  format: yaml
+  label: PeopleForce Leave Requests API
+  slug: peopleforce-leave-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/openapi/peopleforce-leave-requests-api-openapi.yml
+- filename: peopleforce-positions-api-openapi.yml
+  format: yaml
+  label: PeopleForce Positions API
+  slug: peopleforce-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/openapi/peopleforce-positions-api-openapi.yml
+- filename: peopleforce-vacancies-api-openapi.yml
+  format: yaml
+  label: PeopleForce Vacancies API
+  slug: peopleforce-vacancies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/openapi/peopleforce-vacancies-api-openapi.yml
 description: ''
 domains:
 - caa:

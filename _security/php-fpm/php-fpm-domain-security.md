@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: php-fpm-openapi.yml
+- filename: php-fpm-ping-api-openapi.yml
   format: yaml
-  label: PHP-FPM Status Endpoint
-  slug: status-endpoint
+  label: PHP-FPM Ping API
+  slug: php-fpm-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/php-fpm/refs/heads/main/openapi/php-fpm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/php-fpm/refs/heads/main/openapi/php-fpm-ping-api-openapi.yml
+- filename: php-fpm-status-api-openapi.yml
+  format: yaml
+  label: PHP-FPM Status API
+  slug: php-fpm-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/php-fpm/refs/heads/main/openapi/php-fpm-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

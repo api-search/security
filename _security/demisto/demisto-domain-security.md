@@ -1,11 +1,149 @@
 ---
 api_specs:
-- filename: demisto-openapi-original.json
-  format: json
-  label: Demisto REST API
-  slug: demisto-rest-api
+- filename: demisto-apikeys-api-openapi.yml
+  format: yaml
+  label: Demisto Apikeys API
+  slug: demisto-apikeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-apikeys-api-openapi.yml
+- filename: demisto-automation-api-openapi.yml
+  format: yaml
+  label: Demisto Automation API
+  slug: demisto-automation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-automation-api-openapi.yml
+- filename: demisto-classifier-api-openapi.yml
+  format: yaml
+  label: Demisto Classifier API
+  slug: demisto-classifier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-classifier-api-openapi.yml
+- filename: demisto-contentpacks-api-openapi.yml
+  format: yaml
+  label: Demisto Contentpacks API
+  slug: demisto-contentpacks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-contentpacks-api-openapi.yml
+- filename: demisto-dashboards-api-openapi.yml
+  format: yaml
+  label: Demisto Dashboards API
+  slug: demisto-dashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-dashboards-api-openapi.yml
+- filename: demisto-entry-api-openapi.yml
+  format: yaml
+  label: Demisto Entry API
+  slug: demisto-entry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-entry-api-openapi.yml
+- filename: demisto-evidence-api-openapi.yml
+  format: yaml
+  label: Demisto Evidence API
+  slug: demisto-evidence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-evidence-api-openapi.yml
+- filename: demisto-incident-api-openapi.yml
+  format: yaml
+  label: Demisto Incident API
+  slug: demisto-incident-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-incident-api-openapi.yml
+- filename: demisto-incidentfields-api-openapi.yml
+  format: yaml
+  label: Demisto Incidentfields API
+  slug: demisto-incidentfields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-incidentfields-api-openapi.yml
+- filename: demisto-incidents-api-openapi.yml
+  format: yaml
+  label: Demisto Incidents API
+  slug: demisto-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-incidents-api-openapi.yml
+- filename: demisto-incidenttype-api-openapi.yml
+  format: yaml
+  label: Demisto Incidenttype API
+  slug: demisto-incidenttype-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-incidenttype-api-openapi.yml
+- filename: demisto-incidenttypes-api-openapi.yml
+  format: yaml
+  label: Demisto Incidenttypes API
+  slug: demisto-incidenttypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-incidenttypes-api-openapi.yml
+- filename: demisto-indicator-api-openapi.yml
+  format: yaml
+  label: Demisto Indicator API
+  slug: demisto-indicator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-indicator-api-openapi.yml
+- filename: demisto-indicators-api-openapi.yml
+  format: yaml
+  label: Demisto Indicators API
+  slug: demisto-indicators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-indicators-api-openapi.yml
+- filename: demisto-inv-playbook-api-openapi.yml
+  format: yaml
+  label: Demisto Inv Playbook API
+  slug: demisto-inv-playbook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-inv-playbook-api-openapi.yml
+- filename: demisto-investigations-api-openapi.yml
+  format: yaml
+  label: Demisto Investigations API
+  slug: demisto-investigations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-investigations-api-openapi.yml
+- filename: demisto-layouts-api-openapi.yml
+  format: yaml
+  label: Demisto Layouts API
+  slug: demisto-layouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-layouts-api-openapi.yml
+- filename: demisto-playbook-api-openapi.yml
+  format: yaml
+  label: Demisto Playbook API
+  slug: demisto-playbook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-playbook-api-openapi.yml
+- filename: demisto-report-api-openapi.yml
+  format: yaml
+  label: Demisto Report API
+  slug: demisto-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-report-api-openapi.yml
+- filename: demisto-reports-api-openapi.yml
+  format: yaml
+  label: Demisto Reports API
+  slug: demisto-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-reports-api-openapi.yml
+- filename: demisto-reputation-api-openapi.yml
+  format: yaml
+  label: Demisto Reputation API
+  slug: demisto-reputation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-reputation-api-openapi.yml
+- filename: demisto-settings-api-openapi.yml
+  format: yaml
+  label: Demisto Settings API
+  slug: demisto-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-settings-api-openapi.yml
+- filename: demisto-statistics-api-openapi.yml
+  format: yaml
+  label: Demisto Statistics API
+  slug: demisto-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-statistics-api-openapi.yml
+- filename: demisto-widgets-api-openapi.yml
+  format: yaml
+  label: Demisto Widgets API
+  slug: demisto-widgets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-widgets-api-openapi.yml
 description: ''
 domains:
 - caa: []

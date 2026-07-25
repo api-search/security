@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: swagger
+- filename: swimlane-applications-api-openapi.yml
   format: yaml
-  label: Swimlane REST API
-  slug: swimlane-rest-api
+  label: Swimlane Applications API
+  slug: swimlane-applications-api
   spec_type: OpenAPI
-  url: https://{your-instance}.swimlane.app/api/swagger
+  url: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/openapi/swimlane-applications-api-openapi.yml
+- filename: swimlane-authentication-api-openapi.yml
+  format: yaml
+  label: Swimlane Authentication API
+  slug: swimlane-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/openapi/swimlane-authentication-api-openapi.yml
+- filename: swimlane-groups-api-openapi.yml
+  format: yaml
+  label: Swimlane Groups API
+  slug: swimlane-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/openapi/swimlane-groups-api-openapi.yml
+- filename: swimlane-logging-api-openapi.yml
+  format: yaml
+  label: Swimlane Logging API
+  slug: swimlane-logging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/openapi/swimlane-logging-api-openapi.yml
+- filename: swimlane-records-api-openapi.yml
+  format: yaml
+  label: Swimlane Records API
+  slug: swimlane-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/openapi/swimlane-records-api-openapi.yml
+- filename: swimlane-reports-api-openapi.yml
+  format: yaml
+  label: Swimlane Reports API
+  slug: swimlane-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/openapi/swimlane-reports-api-openapi.yml
+- filename: swimlane-settings-api-openapi.yml
+  format: yaml
+  label: Swimlane Settings API
+  slug: swimlane-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/openapi/swimlane-settings-api-openapi.yml
+- filename: swimlane-tasks-api-openapi.yml
+  format: yaml
+  label: Swimlane Tasks API
+  slug: swimlane-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/openapi/swimlane-tasks-api-openapi.yml
+- filename: swimlane-users-api-openapi.yml
+  format: yaml
+  label: Swimlane Users API
+  slug: swimlane-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/openapi/swimlane-users-api-openapi.yml
 description: ''
 domains:
 - caa:

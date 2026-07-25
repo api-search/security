@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: deepnote-openapi.yml
+- filename: deepnote-execute-v1-api-openapi.yml
   format: yaml
-  label: Deepnote Execution API (Notebooks/Projects)
-  slug: execution-api
+  label: Deepnote Execute (v1) API
+  slug: deepnote-execute-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/openapi/deepnote-openapi.yml
-- filename: deepnote-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/openapi/deepnote-execute-v1-api-openapi.yml
+- filename: deepnote-me-api-openapi.yml
+  format: yaml
+  label: Deepnote Me API
+  slug: deepnote-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/openapi/deepnote-me-api-openapi.yml
+- filename: deepnote-notebooks-api-openapi.yml
+  format: yaml
+  label: Deepnote Notebooks API
+  slug: deepnote-notebooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/openapi/deepnote-notebooks-api-openapi.yml
+- filename: deepnote-projects-api-openapi.yml
   format: yaml
   label: Deepnote Projects API
-  slug: projects-api
+  slug: deepnote-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/openapi/deepnote-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/openapi/deepnote-projects-api-openapi.yml
+- filename: deepnote-runs-api-openapi.yml
+  format: yaml
+  label: Deepnote Runs API
+  slug: deepnote-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/openapi/deepnote-runs-api-openapi.yml
 description: ''
 domains:
 - caa: []

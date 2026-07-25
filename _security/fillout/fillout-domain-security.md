@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: fillout-openapi.yml
+- filename: fillout-forms-api-openapi.yml
   format: yaml
-  label: Fillout REST API
-  slug: rest
+  label: Fillout Forms API
+  slug: fillout-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fillout/refs/heads/main/openapi/fillout-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fillout/refs/heads/main/openapi/fillout-forms-api-openapi.yml
+- filename: fillout-webhook-api-openapi.yml
+  format: yaml
+  label: Fillout Webhook API
+  slug: fillout-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fillout/refs/heads/main/openapi/fillout-webhook-api-openapi.yml
 description: ''
 domains:
 - caa: []

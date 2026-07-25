@@ -2,12 +2,30 @@
 api_key_in:
 - query
 api_specs:
-- filename: openapi.json
-  format: json
+- filename: guardian-content-api-openapi.yml
+  format: yaml
   label: The Guardian Content API
-  slug: the-guardian-content-api
+  slug: guardian-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/openapi/guardian-content-api-openapi.yml
+- filename: guardian-editions-api-openapi.yml
+  format: yaml
+  label: The Guardian Editions API
+  slug: guardian-editions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/openapi/guardian-editions-api-openapi.yml
+- filename: guardian-sections-api-openapi.yml
+  format: yaml
+  label: The Guardian Sections API
+  slug: guardian-sections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/openapi/guardian-sections-api-openapi.yml
+- filename: guardian-tags-api-openapi.yml
+  format: yaml
+  label: The Guardian Tags API
+  slug: guardian-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/openapi/guardian-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

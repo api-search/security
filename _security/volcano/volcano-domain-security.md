@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: volcano-job-openapi.yml
+- filename: volcano-jobs-api-openapi.yml
   format: yaml
-  label: Volcano Batch Scheduling API
-  slug: volcano-api
+  label: Volcano Jobs API
+  slug: volcano-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/volcano/refs/heads/main/openapi/volcano-job-openapi.yml
-- filename: volcano-queue-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/volcano/refs/heads/main/openapi/volcano-jobs-api-openapi.yml
+- filename: volcano-podgroups-api-openapi.yml
   format: yaml
-  label: Volcano Queue API
-  slug: volcano-queue-api
+  label: Volcano PodGroups API
+  slug: volcano-podgroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/volcano/refs/heads/main/openapi/volcano-queue-openapi.yml
-- filename: volcano-podgroup-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/volcano/refs/heads/main/openapi/volcano-podgroups-api-openapi.yml
+- filename: volcano-queues-api-openapi.yml
   format: yaml
-  label: Volcano PodGroup API
-  slug: volcano-podgroup-api
+  label: Volcano Queues API
+  slug: volcano-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/volcano/refs/heads/main/openapi/volcano-podgroup-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/volcano/refs/heads/main/openapi/volcano-queues-api-openapi.yml
 description: ''
 domains:
 - caa: []

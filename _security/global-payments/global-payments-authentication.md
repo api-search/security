@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: global-payments-unified-payments-api-openapi.yml
+- filename: global-payments-disputes-api-openapi.yml
   format: yaml
-  label: Global Payments Unified Payments API
-  slug: payments-api
+  label: Global Payments Disputes API
+  slug: global-payments-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/openapi/global-payments-unified-payments-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/openapi/global-payments-disputes-api-openapi.yml
+- filename: global-payments-payment-methods-api-openapi.yml
+  format: yaml
+  label: Global Payments Payment Methods API
+  slug: global-payments-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/openapi/global-payments-payment-methods-api-openapi.yml
+- filename: global-payments-settlements-api-openapi.yml
+  format: yaml
+  label: Global Payments Settlements API
+  slug: global-payments-settlements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/openapi/global-payments-settlements-api-openapi.yml
+- filename: global-payments-transactions-api-openapi.yml
+  format: yaml
+  label: Global Payments Transactions API
+  slug: global-payments-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/openapi/global-payments-transactions-api-openapi.yml
 auth_types:
 - http
 - oauth2

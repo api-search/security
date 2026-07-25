@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: amazon-deadline-cloud-openapi.yml
+- filename: amazon-deadline-cloud-farms-api-openapi.yml
   format: yaml
-  label: Amazon Deadline Cloud API
-  slug: amazon-deadline-cloud-api
+  label: Amazon Deadline Cloud Farms API
+  slug: amazon-deadline-cloud-farms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/openapi/amazon-deadline-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/openapi/amazon-deadline-cloud-farms-api-openapi.yml
+- filename: amazon-deadline-cloud-fleets-api-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud Fleets API
+  slug: amazon-deadline-cloud-fleets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/openapi/amazon-deadline-cloud-fleets-api-openapi.yml
+- filename: amazon-deadline-cloud-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud Jobs API
+  slug: amazon-deadline-cloud-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/openapi/amazon-deadline-cloud-jobs-api-openapi.yml
+- filename: amazon-deadline-cloud-queues-api-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud Queues API
+  slug: amazon-deadline-cloud-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/openapi/amazon-deadline-cloud-queues-api-openapi.yml
+- filename: amazon-deadline-cloud-workers-api-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud Workers API
+  slug: amazon-deadline-cloud-workers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/openapi/amazon-deadline-cloud-workers-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: appium-server-openapi.yaml
+- filename: appium-actions-api-openapi.yml
+  format: yaml
+  label: Appium Actions API
+  slug: appium-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-actions-api-openapi.yml
+- filename: appium-alerts-api-openapi.yml
+  format: yaml
+  label: Appium Alerts API
+  slug: appium-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-alerts-api-openapi.yml
+- filename: appium-appium-device-api-openapi.yml
+  format: yaml
+  label: Appium Appium Device API
+  slug: appium-appium-device-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-appium-device-api-openapi.yml
+- filename: appium-appium-session-api-openapi.yml
+  format: yaml
+  label: Appium Appium Session API
+  slug: appium-appium-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-appium-session-api-openapi.yml
+- filename: appium-cookies-api-openapi.yml
+  format: yaml
+  label: Appium Cookies API
+  slug: appium-cookies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-cookies-api-openapi.yml
+- filename: appium-elements-api-openapi.yml
+  format: yaml
+  label: Appium Elements API
+  slug: appium-elements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-elements-api-openapi.yml
+- filename: appium-navigation-api-openapi.yml
+  format: yaml
+  label: Appium Navigation API
+  slug: appium-navigation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-navigation-api-openapi.yml
+- filename: appium-screenshots-api-openapi.yml
+  format: yaml
+  label: Appium Screenshots API
+  slug: appium-screenshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-screenshots-api-openapi.yml
+- filename: appium-server-api-openapi.yml
   format: yaml
   label: Appium Server API
   slug: appium-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-server-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-server-api-openapi.yml
+- filename: appium-sessions-api-openapi.yml
+  format: yaml
+  label: Appium Sessions API
+  slug: appium-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-sessions-api-openapi.yml
 description: ''
 domains:
 - caa: []

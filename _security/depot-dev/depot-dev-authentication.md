@@ -1,30 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: depot-dev-openapi.yml
+- filename: depot-dev-buildkitservice-api-openapi.yml
   format: yaml
-  label: Depot Project API
-  slug: depot-dev-project-api
+  label: Depot BuildKitService API
+  slug: depot-dev-buildkitservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/openapi/depot-dev-openapi.yml
-- filename: depot-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/openapi/depot-dev-buildkitservice-api-openapi.yml
+- filename: depot-dev-buildservice-api-openapi.yml
   format: yaml
-  label: Depot Build API
-  slug: depot-dev-build-api
+  label: Depot BuildService API
+  slug: depot-dev-buildservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/openapi/depot-dev-openapi.yml
-- filename: depot-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/openapi/depot-dev-buildservice-api-openapi.yml
+- filename: depot-dev-projectservice-api-openapi.yml
   format: yaml
-  label: Depot BuildKit API
-  slug: depot-dev-buildkit-api
+  label: Depot ProjectService API
+  slug: depot-dev-projectservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/openapi/depot-dev-openapi.yml
-- filename: depot-dev-openapi.yml
-  format: yaml
-  label: Depot Tokens API
-  slug: depot-dev-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/openapi/depot-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/openapi/depot-dev-projectservice-api-openapi.yml
 auth_types:
 - http
 description: ''

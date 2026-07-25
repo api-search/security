@@ -1,47 +1,53 @@
 ---
 api_specs:
-- filename: scalablepress-openapi.yml
-  format: yaml
-  label: Scalable Press Product API
-  slug: scalablepress-product-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-openapi.yml
-- filename: scalablepress-openapi.yml
-  format: yaml
-  label: Scalable Press Quote API
-  slug: scalablepress-quote-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-openapi.yml
-- filename: scalablepress-openapi.yml
-  format: yaml
-  label: Scalable Press Order API
-  slug: scalablepress-order-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-openapi.yml
-- filename: scalablepress-openapi.yml
-  format: yaml
-  label: Scalable Press Event API
-  slug: scalablepress-event-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-openapi.yml
-- filename: scalablepress-openapi.yml
-  format: yaml
-  label: Scalable Press Design API
-  slug: scalablepress-design-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-openapi.yml
-- filename: scalablepress-openapi.yml
-  format: yaml
-  label: Scalable Press Mockup API
-  slug: scalablepress-mockup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-openapi.yml
-- filename: scalablepress-openapi.yml
+- filename: scalablepress-billing-api-openapi.yml
   format: yaml
   label: Scalable Press Billing API
   slug: scalablepress-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-billing-api-openapi.yml
+- filename: scalablepress-customization-api-openapi.yml
+  format: yaml
+  label: Scalable Press Customization API
+  slug: scalablepress-customization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-customization-api-openapi.yml
+- filename: scalablepress-design-api-openapi.yml
+  format: yaml
+  label: Scalable Press Design API
+  slug: scalablepress-design-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-design-api-openapi.yml
+- filename: scalablepress-event-api-openapi.yml
+  format: yaml
+  label: Scalable Press Event API
+  slug: scalablepress-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-event-api-openapi.yml
+- filename: scalablepress-mockup-api-openapi.yml
+  format: yaml
+  label: Scalable Press Mockup API
+  slug: scalablepress-mockup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-mockup-api-openapi.yml
+- filename: scalablepress-order-api-openapi.yml
+  format: yaml
+  label: Scalable Press Order API
+  slug: scalablepress-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-order-api-openapi.yml
+- filename: scalablepress-product-api-openapi.yml
+  format: yaml
+  label: Scalable Press Product API
+  slug: scalablepress-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-product-api-openapi.yml
+- filename: scalablepress-quote-api-openapi.yml
+  format: yaml
+  label: Scalable Press Quote API
+  slug: scalablepress-quote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-quote-api-openapi.yml
 description: ''
 domains:
 - caa: []

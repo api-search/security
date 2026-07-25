@@ -1,59 +1,59 @@
 ---
 api_specs:
-- filename: open-meteo-forecast-openapi.yml
+- filename: open-meteo-air-quality-apis-api-openapi.yml
   format: yaml
-  label: Weather Forecast API
-  slug: weather-forecast-api
+  label: Open-Meteo Air Quality APIs API
+  slug: open-meteo-air-quality-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-forecast-openapi.yml
-- filename: open-meteo-historical-weather-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-air-quality-apis-api-openapi.yml
+- filename: open-meteo-climate-change-apis-api-openapi.yml
   format: yaml
-  label: Historical Weather API
-  slug: historical-weather-api
+  label: Open-Meteo Climate Change APIs API
+  slug: open-meteo-climate-change-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-historical-weather-openapi.yml
-- filename: open-meteo-ensemble-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-climate-change-apis-api-openapi.yml
+- filename: open-meteo-elevation-api-api-openapi.yml
   format: yaml
-  label: Ensemble API
-  slug: ensemble-api
+  label: Open-Meteo Elevation API API
+  slug: open-meteo-elevation-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-ensemble-openapi.yml
-- filename: open-meteo-climate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-elevation-api-api-openapi.yml
+- filename: open-meteo-ensemble-forecast-apis-api-openapi.yml
   format: yaml
-  label: Climate Change API
-  slug: climate-change-api
+  label: Open-Meteo Ensemble Forecast APIs API
+  slug: open-meteo-ensemble-forecast-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-climate-openapi.yml
-- filename: open-meteo-marine-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-ensemble-forecast-apis-api-openapi.yml
+- filename: open-meteo-flood-apis-api-openapi.yml
   format: yaml
-  label: Marine Weather API
-  slug: marine-weather-api
+  label: Open-Meteo Flood APIs API
+  slug: open-meteo-flood-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-marine-openapi.yml
-- filename: open-meteo-air-quality-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-flood-apis-api-openapi.yml
+- filename: open-meteo-historical-weather-apis-api-openapi.yml
   format: yaml
-  label: Air Quality API
-  slug: air-quality-api
+  label: Open-Meteo Historical Weather APIs API
+  slug: open-meteo-historical-weather-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-air-quality-openapi.yml
-- filename: open-meteo-flood-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-historical-weather-apis-api-openapi.yml
+- filename: open-meteo-marine-weather-apis-api-openapi.yml
   format: yaml
-  label: Flood API
-  slug: flood-api
+  label: Open-Meteo Marine Weather APIs API
+  slug: open-meteo-marine-weather-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-flood-openapi.yml
-- filename: open-meteo-seasonal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-marine-weather-apis-api-openapi.yml
+- filename: open-meteo-seasonal-forecast-apis-api-openapi.yml
   format: yaml
-  label: Seasonal Forecast API
-  slug: seasonal-forecast-api
+  label: Open-Meteo Seasonal Forecast APIs API
+  slug: open-meteo-seasonal-forecast-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-seasonal-openapi.yml
-- filename: open-meteo-elevation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-seasonal-forecast-apis-api-openapi.yml
+- filename: open-meteo-weather-forecast-apis-api-openapi.yml
   format: yaml
-  label: Elevation API
-  slug: elevation-api
+  label: Open-Meteo Weather Forecast APIs API
+  slug: open-meteo-weather-forecast-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-elevation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-weather-forecast-apis-api-openapi.yml
 description: ''
 domains:
 - caa:

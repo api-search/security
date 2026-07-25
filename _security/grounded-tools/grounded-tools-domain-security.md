@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: grounded-tools-docs-mcp-server-openapi.yml
+- filename: grounded-tools-mcp-transport-api-openapi.yml
   format: yaml
-  label: Grounded.tools
-  slug: grounded-tools
+  label: Grounded.tools MCP Transport API
+  slug: grounded-tools-mcp-transport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grounded-tools/refs/heads/main/openapi/grounded-tools-docs-mcp-server-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/grounded-tools/refs/heads/main/openapi/grounded-tools-mcp-transport-api-openapi.yml
+- filename: grounded-tools-web-ui-api-openapi.yml
+  format: yaml
+  label: Grounded.tools Web UI API
+  slug: grounded-tools-web-ui-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grounded-tools/refs/heads/main/openapi/grounded-tools-web-ui-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: amazon-security-lake-openapi.yml
+- filename: amazon-security-lake-data-lakes-api-openapi.yml
   format: yaml
-  label: Amazon Security Lake API
-  slug: amazon-security-lake-api
+  label: Amazon Security Lake Data Lakes API
+  slug: amazon-security-lake-data-lakes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/openapi/amazon-security-lake-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/openapi/amazon-security-lake-data-lakes-api-openapi.yml
+- filename: amazon-security-lake-log-sources-api-openapi.yml
+  format: yaml
+  label: Amazon Security Lake Log Sources API
+  slug: amazon-security-lake-log-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/openapi/amazon-security-lake-log-sources-api-openapi.yml
+- filename: amazon-security-lake-subscribers-api-openapi.yml
+  format: yaml
+  label: Amazon Security Lake Subscribers API
+  slug: amazon-security-lake-subscribers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/openapi/amazon-security-lake-subscribers-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

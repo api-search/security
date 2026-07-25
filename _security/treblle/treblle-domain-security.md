@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: treblle-api-openapi.yml
+- filename: treblle-analytics-api-openapi.yml
   format: yaml
-  label: Treblle Platform API
-  slug: treblle-api
+  label: Treblle Analytics API
+  slug: treblle-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/openapi/treblle-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/openapi/treblle-analytics-api-openapi.yml
+- filename: treblle-endpoints-api-openapi.yml
+  format: yaml
+  label: Treblle Endpoints API
+  slug: treblle-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/openapi/treblle-endpoints-api-openapi.yml
+- filename: treblle-governance-api-openapi.yml
+  format: yaml
+  label: Treblle Governance API
+  slug: treblle-governance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/openapi/treblle-governance-api-openapi.yml
+- filename: treblle-members-api-openapi.yml
+  format: yaml
+  label: Treblle Members API
+  slug: treblle-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/openapi/treblle-members-api-openapi.yml
+- filename: treblle-projects-api-openapi.yml
+  format: yaml
+  label: Treblle Projects API
+  slug: treblle-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/openapi/treblle-projects-api-openapi.yml
+- filename: treblle-requests-api-openapi.yml
+  format: yaml
+  label: Treblle Requests API
+  slug: treblle-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/openapi/treblle-requests-api-openapi.yml
 description: ''
 domains:
 - caa: []

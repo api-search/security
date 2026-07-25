@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: radar-openapi.yml
+- filename: radar-events-api-openapi.yml
   format: yaml
-  label: Radar
-  slug: radar
+  label: Radar Events API
+  slug: radar-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radar/refs/heads/main/openapi/radar-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/radar/refs/heads/main/openapi/radar-events-api-openapi.yml
+- filename: radar-geocoding-api-openapi.yml
+  format: yaml
+  label: Radar Geocoding API
+  slug: radar-geocoding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radar/refs/heads/main/openapi/radar-geocoding-api-openapi.yml
+- filename: radar-geofences-api-openapi.yml
+  format: yaml
+  label: Radar Geofences API
+  slug: radar-geofences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radar/refs/heads/main/openapi/radar-geofences-api-openapi.yml
+- filename: radar-routing-api-openapi.yml
+  format: yaml
+  label: Radar Routing API
+  slug: radar-routing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radar/refs/heads/main/openapi/radar-routing-api-openapi.yml
+- filename: radar-search-api-openapi.yml
+  format: yaml
+  label: Radar Search API
+  slug: radar-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radar/refs/heads/main/openapi/radar-search-api-openapi.yml
+- filename: radar-track-api-openapi.yml
+  format: yaml
+  label: Radar Track API
+  slug: radar-track-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radar/refs/heads/main/openapi/radar-track-api-openapi.yml
+- filename: radar-users-api-openapi.yml
+  format: yaml
+  label: Radar Users API
+  slug: radar-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radar/refs/heads/main/openapi/radar-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,41 +1,65 @@
 ---
 api_specs:
-- filename: health-gorilla-openapi.yml
+- filename: health-gorilla-binary-api-openapi.yml
   format: yaml
-  label: Patients (FHIR)
-  slug: patients-fhir
+  label: Health Gorilla Binary API
+  slug: health-gorilla-binary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-openapi.yml
-- filename: health-gorilla-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-binary-api-openapi.yml
+- filename: health-gorilla-capabilitystatement-api-openapi.yml
   format: yaml
-  label: Record Query/Retrieval
-  slug: record-query
+  label: Health Gorilla CapabilityStatement API
+  slug: health-gorilla-capabilitystatement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-openapi.yml
-- filename: health-gorilla-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-capabilitystatement-api-openapi.yml
+- filename: health-gorilla-coverage-api-openapi.yml
   format: yaml
-  label: Lab Ordering
-  slug: lab-ordering
+  label: Health Gorilla Coverage API
+  slug: health-gorilla-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-openapi.yml
-- filename: health-gorilla-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-coverage-api-openapi.yml
+- filename: health-gorilla-diagnosticreport-api-openapi.yml
   format: yaml
-  label: Diagnostic Reports
-  slug: diagnostic-reports
+  label: Health Gorilla DiagnosticReport API
+  slug: health-gorilla-diagnosticreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-openapi.yml
-- filename: health-gorilla-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-diagnosticreport-api-openapi.yml
+- filename: health-gorilla-documentreference-api-openapi.yml
   format: yaml
-  label: Documents
-  slug: documents
+  label: Health Gorilla DocumentReference API
+  slug: health-gorilla-documentreference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-openapi.yml
-- filename: health-gorilla-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-documentreference-api-openapi.yml
+- filename: health-gorilla-observation-api-openapi.yml
   format: yaml
-  label: Eligibility
-  slug: eligibility
+  label: Health Gorilla Observation API
+  slug: health-gorilla-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-observation-api-openapi.yml
+- filename: health-gorilla-patient-api-openapi.yml
+  format: yaml
+  label: Health Gorilla Patient API
+  slug: health-gorilla-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-patient-api-openapi.yml
+- filename: health-gorilla-practitioner-api-openapi.yml
+  format: yaml
+  label: Health Gorilla Practitioner API
+  slug: health-gorilla-practitioner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-practitioner-api-openapi.yml
+- filename: health-gorilla-requestgroup-api-openapi.yml
+  format: yaml
+  label: Health Gorilla RequestGroup API
+  slug: health-gorilla-requestgroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-requestgroup-api-openapi.yml
+- filename: health-gorilla-servicerequest-api-openapi.yml
+  format: yaml
+  label: Health Gorilla ServiceRequest API
+  slug: health-gorilla-servicerequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-servicerequest-api-openapi.yml
 description: ''
 domains:
 - caa: []

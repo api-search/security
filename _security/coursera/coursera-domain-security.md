@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: coursera-openapi.yml
+- filename: coursera-catalog-api-openapi.yml
   format: yaml
   label: Coursera Catalog API
-  slug: catalog-api
+  slug: coursera-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coursera/refs/heads/main/openapi/coursera-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coursera/refs/heads/main/openapi/coursera-catalog-api-openapi.yml
 description: ''
 domains:
 - caa: []

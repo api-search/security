@@ -1,36 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: swoogo-openapi.yml
+- filename: swoogo-authentication-api-openapi.yml
   format: yaml
-  label: Swoogo Events API
-  slug: swoogo-events-api
+  label: Swoogo Authentication API
+  slug: swoogo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-openapi.yml
-- filename: swoogo-openapi.yml
-  format: yaml
-  label: Swoogo Registrants API
-  slug: swoogo-registrants-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-openapi.yml
-- filename: swoogo-openapi.yml
-  format: yaml
-  label: Swoogo Sessions API
-  slug: swoogo-sessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-openapi.yml
-- filename: swoogo-openapi.yml
-  format: yaml
-  label: Swoogo Speakers API
-  slug: swoogo-speakers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-openapi.yml
-- filename: swoogo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-authentication-api-openapi.yml
+- filename: swoogo-contacts-api-openapi.yml
   format: yaml
   label: Swoogo Contacts API
   slug: swoogo-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-contacts-api-openapi.yml
+- filename: swoogo-events-api-openapi.yml
+  format: yaml
+  label: Swoogo Events API
+  slug: swoogo-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-events-api-openapi.yml
+- filename: swoogo-registrants-api-openapi.yml
+  format: yaml
+  label: Swoogo Registrants API
+  slug: swoogo-registrants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-registrants-api-openapi.yml
+- filename: swoogo-sessions-api-openapi.yml
+  format: yaml
+  label: Swoogo Sessions API
+  slug: swoogo-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-sessions-api-openapi.yml
+- filename: swoogo-speakers-api-openapi.yml
+  format: yaml
+  label: Swoogo Speakers API
+  slug: swoogo-speakers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-speakers-api-openapi.yml
 auth_types:
 - http
 description: ''

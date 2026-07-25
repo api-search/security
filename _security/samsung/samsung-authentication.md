@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: samsung-smartthings-openapi.yml
+- filename: samsung-apps-api-openapi.yml
   format: yaml
-  label: SmartThings API
-  slug: smartthings
+  label: Samsung Apps API
+  slug: samsung-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samsung/refs/heads/main/openapi/samsung-smartthings-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/samsung/refs/heads/main/openapi/samsung-apps-api-openapi.yml
+- filename: samsung-devices-api-openapi.yml
+  format: yaml
+  label: Samsung Devices API
+  slug: samsung-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/samsung/refs/heads/main/openapi/samsung-devices-api-openapi.yml
+- filename: samsung-locations-api-openapi.yml
+  format: yaml
+  label: Samsung Locations API
+  slug: samsung-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/samsung/refs/heads/main/openapi/samsung-locations-api-openapi.yml
+- filename: samsung-rules-api-openapi.yml
+  format: yaml
+  label: Samsung Rules API
+  slug: samsung-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/samsung/refs/heads/main/openapi/samsung-rules-api-openapi.yml
+- filename: samsung-scenes-api-openapi.yml
+  format: yaml
+  label: Samsung Scenes API
+  slug: samsung-scenes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/samsung/refs/heads/main/openapi/samsung-scenes-api-openapi.yml
+- filename: samsung-subscriptions-api-openapi.yml
+  format: yaml
+  label: Samsung Subscriptions API
+  slug: samsung-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/samsung/refs/heads/main/openapi/samsung-subscriptions-api-openapi.yml
 auth_types:
 - http
 description: ''

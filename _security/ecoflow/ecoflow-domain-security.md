@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: ecoflow-iot-openapi.yml
+- filename: ecoflow-devices-api-openapi.yml
   format: yaml
-  label: EcoFlow IoT Open Platform
-  slug: ecoflow-iot-open-platform
+  label: EcoFlow Devices API
+  slug: ecoflow-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecoflow/refs/heads/main/openapi/ecoflow-iot-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ecoflow/refs/heads/main/openapi/ecoflow-devices-api-openapi.yml
+- filename: ecoflow-mqtt-api-openapi.yml
+  format: yaml
+  label: EcoFlow MQTT API
+  slug: ecoflow-mqtt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ecoflow/refs/heads/main/openapi/ecoflow-mqtt-api-openapi.yml
+- filename: ecoflow-quota-api-openapi.yml
+  format: yaml
+  label: EcoFlow Quota API
+  slug: ecoflow-quota-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ecoflow/refs/heads/main/openapi/ecoflow-quota-api-openapi.yml
 description: ''
 domains:
 - caa: []

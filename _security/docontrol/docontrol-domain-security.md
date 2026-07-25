@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: docontrol-openapi.yml
+- filename: docontrol-authentication-api-openapi.yml
   format: yaml
-  label: DoControl
-  slug: docontrol
+  label: DoControl Authentication API
+  slug: docontrol-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docontrol/refs/heads/main/openapi/docontrol-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/docontrol/refs/heads/main/openapi/docontrol-authentication-api-openapi.yml
+- filename: docontrol-graphql-api-openapi.yml
+  format: yaml
+  label: DoControl GraphQL API
+  slug: docontrol-graphql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docontrol/refs/heads/main/openapi/docontrol-graphql-api-openapi.yml
 description: ''
 domains:
 - caa: []

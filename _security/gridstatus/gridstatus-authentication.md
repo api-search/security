@@ -3,42 +3,72 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: gridstatus-openapi.yml
+- filename: gridstatus-api-info-api-openapi.yml
   format: yaml
-  label: Grid Status Datasets API
-  slug: gridstatus-datasets-api
+  label: Grid Status API Info API
+  slug: gridstatus-api-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-openapi.yml
-- filename: gridstatus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-api-info-api-openapi.yml
+- filename: gridstatus-api-usage-api-openapi.yml
   format: yaml
-  label: Grid Status Dataset Query API
-  slug: gridstatus-dataset-query-api
+  label: Grid Status API Usage API
+  slug: gridstatus-api-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-openapi.yml
-- filename: gridstatus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-api-usage-api-openapi.yml
+- filename: gridstatus-block-pricing-data-api-openapi.yml
   format: yaml
-  label: Grid Status Pricing Locations API
-  slug: gridstatus-pricing-locations-api
+  label: Grid Status Block Pricing Data API
+  slug: gridstatus-block-pricing-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-openapi.yml
-- filename: gridstatus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-block-pricing-data-api-openapi.yml
+- filename: gridstatus-constraints-api-openapi.yml
   format: yaml
   label: Grid Status Constraints API
   slug: gridstatus-constraints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-openapi.yml
-- filename: gridstatus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-constraints-api-openapi.yml
+- filename: gridstatus-csv-exports-api-openapi.yml
   format: yaml
-  label: Grid Status Reports and Block Pricing API
-  slug: gridstatus-reports-block-pricing-api
+  label: Grid Status CSV Exports API
+  slug: gridstatus-csv-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-openapi.yml
-- filename: gridstatus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-csv-exports-api-openapi.yml
+- filename: gridstatus-dataset-audit-api-openapi.yml
   format: yaml
-  label: Grid Status Bulk Exports and Usage API
-  slug: gridstatus-bulk-exports-usage-api
+  label: Grid Status Dataset Audit API
+  slug: gridstatus-dataset-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-dataset-audit-api-openapi.yml
+- filename: gridstatus-dataset-metadata-api-openapi.yml
+  format: yaml
+  label: Grid Status Dataset Metadata API
+  slug: gridstatus-dataset-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-dataset-metadata-api-openapi.yml
+- filename: gridstatus-dataset-updates-api-openapi.yml
+  format: yaml
+  label: Grid Status Dataset Updates API
+  slug: gridstatus-dataset-updates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-dataset-updates-api-openapi.yml
+- filename: gridstatus-pricing-locations-api-openapi.yml
+  format: yaml
+  label: Grid Status Pricing Locations API
+  slug: gridstatus-pricing-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-pricing-locations-api-openapi.yml
+- filename: gridstatus-query-data-api-openapi.yml
+  format: yaml
+  label: Grid Status Query Data API
+  slug: gridstatus-query-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-query-data-api-openapi.yml
+- filename: gridstatus-reports-api-openapi.yml
+  format: yaml
+  label: Grid Status Reports API
+  slug: gridstatus-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-reports-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: kalpa-labs-openapi-original.json
-  format: json
-  label: Kalpa Speech API
-  slug: kalpa-speech-api
+- filename: kalpa-labs-meta-api-openapi.yml
+  format: yaml
+  label: Kalpa Labs Meta API
+  slug: kalpa-labs-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/openapi/kalpa-labs-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/openapi/kalpa-labs-meta-api-openapi.yml
+- filename: kalpa-labs-speech-api-openapi.yml
+  format: yaml
+  label: Kalpa Labs Speech API
+  slug: kalpa-labs-speech-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/openapi/kalpa-labs-speech-api-openapi.yml
+- filename: kalpa-labs-usage-api-openapi.yml
+  format: yaml
+  label: Kalpa Labs Usage API
+  slug: kalpa-labs-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/openapi/kalpa-labs-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []

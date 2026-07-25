@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: apache-rocketmq-rest-api.yaml
+- filename: apache-rocketmq-brokers-api-openapi.yml
   format: yaml
-  label: Apache RocketMQ
-  slug: apache-rocketmq
+  label: Apache RocketMQ Brokers API
+  slug: apache-rocketmq-brokers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-rocketmq/refs/heads/main/openapi/apache-rocketmq-rest-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-rocketmq/refs/heads/main/openapi/apache-rocketmq-brokers-api-openapi.yml
+- filename: apache-rocketmq-consumergroups-api-openapi.yml
+  format: yaml
+  label: Apache RocketMQ ConsumerGroups API
+  slug: apache-rocketmq-consumergroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-rocketmq/refs/heads/main/openapi/apache-rocketmq-consumergroups-api-openapi.yml
+- filename: apache-rocketmq-messages-api-openapi.yml
+  format: yaml
+  label: Apache RocketMQ Messages API
+  slug: apache-rocketmq-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-rocketmq/refs/heads/main/openapi/apache-rocketmq-messages-api-openapi.yml
+- filename: apache-rocketmq-topics-api-openapi.yml
+  format: yaml
+  label: Apache RocketMQ Topics API
+  slug: apache-rocketmq-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-rocketmq/refs/heads/main/openapi/apache-rocketmq-topics-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: creditbenchmark-openapi-original.yml
+- filename: creditbenchmark-analytics-api-openapi.yml
   format: yaml
-  label: Credit Benchmark API
-  slug: credit-benchmark-api
+  label: Credit Benchmark Analytics API
+  slug: creditbenchmark-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/openapi/creditbenchmark-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/openapi/creditbenchmark-analytics-api-openapi.yml
+- filename: creditbenchmark-authentication-api-openapi.yml
+  format: yaml
+  label: Credit Benchmark Authentication API
+  slug: creditbenchmark-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/openapi/creditbenchmark-authentication-api-openapi.yml
+- filename: creditbenchmark-contributor-data-api-openapi.yml
+  format: yaml
+  label: Credit Benchmark Contributor Data API
+  slug: creditbenchmark-contributor-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/openapi/creditbenchmark-contributor-data-api-openapi.yml
+- filename: creditbenchmark-entity-data-api-openapi.yml
+  format: yaml
+  label: Credit Benchmark Entity Data API
+  slug: creditbenchmark-entity-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/openapi/creditbenchmark-entity-data-api-openapi.yml
+- filename: creditbenchmark-entity-matching-api-openapi.yml
+  format: yaml
+  label: Credit Benchmark Entity Matching API
+  slug: creditbenchmark-entity-matching-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/openapi/creditbenchmark-entity-matching-api-openapi.yml
+- filename: creditbenchmark-portfolio-analytics-api-openapi.yml
+  format: yaml
+  label: Credit Benchmark Portfolio Analytics API
+  slug: creditbenchmark-portfolio-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/openapi/creditbenchmark-portfolio-analytics-api-openapi.yml
 description: ''
 domains:
 - caa:

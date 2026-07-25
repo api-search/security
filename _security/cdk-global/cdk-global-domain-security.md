@@ -1,35 +1,5 @@
 ---
 api_specs:
-- filename: fortellis-appointments-openapi.yml
-  format: yaml
-  label: Fortellis Service Appointments API
-  slug: fortellis-appointments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/fortellis-appointments-openapi.yml
-- filename: fortellis-user-service-openapi.yml
-  format: yaml
-  label: Fortellis User / Booking Sessions API
-  slug: fortellis-user-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/fortellis-user-service-openapi.yml
-- filename: fortellis-parts-store-openapi.yml
-  format: yaml
-  label: Fortellis Parts Store API
-  slug: fortellis-parts-store-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/fortellis-parts-store-openapi.yml
-- filename: fortellis-pet-adoption-openapi.yml
-  format: yaml
-  label: Fortellis Reference Pet Adoption API
-  slug: fortellis-pet-adoption-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/fortellis-pet-adoption-openapi.yml
-- filename: fortellis-event-relay-webhook-openapi.yml
-  format: yaml
-  label: Fortellis Event Relay Webhook
-  slug: fortellis-event-relay-webhook
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/fortellis-event-relay-webhook-openapi.yml
 - filename: fortellis-event-relay-data-plane-proxy-asyncapi.yml
   format: yaml
   label: Fortellis Event Relay Data Plane Proxy (AsyncAPI)
@@ -42,6 +12,66 @@ api_specs:
   slug: fortellis-async-hello-world
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/asyncapi/fortellis-hello-world-asyncapi.yml
+- filename: cdk-global-adopt-api-openapi.yml
+  format: yaml
+  label: CDK Global adopt API
+  slug: cdk-global-adopt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-adopt-api-openapi.yml
+- filename: cdk-global-adopt-delete-api-openapi.yml
+  format: yaml
+  label: CDK Global adopt delete API
+  slug: cdk-global-adopt-delete-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-adopt-delete-api-openapi.yml
+- filename: cdk-global-adopt-update-api-openapi.yml
+  format: yaml
+  label: CDK Global adopt update API
+  slug: cdk-global-adopt-update-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-adopt-update-api-openapi.yml
+- filename: cdk-global-cancel-api-openapi.yml
+  format: yaml
+  label: CDK Global cancel API
+  slug: cdk-global-cancel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-cancel-api-openapi.yml
+- filename: cdk-global-create-api-openapi.yml
+  format: yaml
+  label: CDK Global create API
+  slug: cdk-global-create-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-create-api-openapi.yml
+- filename: cdk-global-events-api-openapi.yml
+  format: yaml
+  label: CDK Global events API
+  slug: cdk-global-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-events-api-openapi.yml
+- filename: cdk-global-manage-api-openapi.yml
+  format: yaml
+  label: CDK Global manage API
+  slug: cdk-global-manage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-manage-api-openapi.yml
+- filename: cdk-global-query-api-openapi.yml
+  format: yaml
+  label: CDK Global query API
+  slug: cdk-global-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-query-api-openapi.yml
+- filename: cdk-global-service-booking-api-openapi.yml
+  format: yaml
+  label: CDK Global Service Booking API
+  slug: cdk-global-service-booking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-service-booking-api-openapi.yml
+- filename: cdk-global-update-api-openapi.yml
+  format: yaml
+  label: CDK Global update API
+  slug: cdk-global-update-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-update-api-openapi.yml
 description: ''
 domains:
 - caa:

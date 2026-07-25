@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yml
+- filename: gett-authentication-api-openapi.yml
   format: yaml
-  label: Gett Business API
-  slug: gett-business-api
+  label: Gett Authentication API
+  slug: gett-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/openapi/gett-authentication-api-openapi.yml
+- filename: gett-employee-management-api-openapi.yml
+  format: yaml
+  label: Gett Employee Management API
+  slug: gett-employee-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/openapi/gett-employee-management-api-openapi.yml
+- filename: gett-finance-api-openapi.yml
+  format: yaml
+  label: Gett Finance API
+  slug: gett-finance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/openapi/gett-finance-api-openapi.yml
+- filename: gett-orders-api-openapi.yml
+  format: yaml
+  label: Gett Orders API
+  slug: gett-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/openapi/gett-orders-api-openapi.yml
+- filename: gett-products-api-openapi.yml
+  format: yaml
+  label: Gett Products API
+  slug: gett-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/openapi/gett-products-api-openapi.yml
+- filename: gett-webhooks-api-openapi.yml
+  format: yaml
+  label: Gett Webhooks API
+  slug: gett-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/openapi/gett-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

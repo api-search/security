@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: stablesea-openapi.json
-  format: json
-  label: Stable Sea Terminal API
-  slug: stable-sea-terminal-api
+- filename: stablesea-liquidity-providers-api-openapi.yml
+  format: yaml
+  label: Stablesea Liquidity Providers API
+  slug: stablesea-liquidity-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stablesea/refs/heads/main/openapi/stablesea-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/stablesea/refs/heads/main/openapi/stablesea-liquidity-providers-api-openapi.yml
+- filename: stablesea-organizations-api-openapi.yml
+  format: yaml
+  label: Stablesea Organizations API
+  slug: stablesea-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stablesea/refs/heads/main/openapi/stablesea-organizations-api-openapi.yml
 auth_types:
 - http
 description: ''

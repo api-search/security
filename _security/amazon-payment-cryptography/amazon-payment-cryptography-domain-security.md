@@ -1,11 +1,125 @@
 ---
 api_specs:
-- filename: amazon-payment-cryptography-openapi.yml
+- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-createalias-api-openapi.yml
   format: yaml
-  label: AWS Payment Cryptography API
-  slug: aws-payment-cryptography-api
+  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.CreateAlias API'
+  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-createalias-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-createalias-api-openapi.yml
+- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-createkey-api-openapi.yml
+  format: yaml
+  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.CreateKey API'
+  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-createkey-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-createkey-api-openapi.yml
+- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-deletealias-api-openapi.yml
+  format: yaml
+  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.DeleteAlias API'
+  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-deletealias-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-deletealias-api-openapi.yml
+- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-deletekey-api-openapi.yml
+  format: yaml
+  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.DeleteKey API'
+  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-deletekey-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-deletekey-api-openapi.yml
+- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-exportkey-api-openapi.yml
+  format: yaml
+  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.ExportKey API'
+  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-exportkey-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-exportkey-api-openapi.yml
+- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getalias-api-openapi.yml
+  format: yaml
+  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.GetAlias API'
+  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getalias-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getalias-api-openapi.yml
+- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getkey-api-openapi.yml
+  format: yaml
+  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.GetKey API'
+  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getkey-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getkey-api-openapi.yml
+- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getparametersforexport-api-openapi.yml
+  format: yaml
+  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.GetParametersForExport API'
+  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getparametersforexport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getparametersforexport-api-openapi.yml
+- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getparametersforimport-api-openapi.yml
+  format: yaml
+  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.GetParametersForImport API'
+  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getparametersforimport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getparametersforimport-api-openapi.yml
+- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getpublickeycertificate-api-openapi.yml
+  format: yaml
+  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.GetPublicKeyCertificate API'
+  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getpublickeycertificate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getpublickeycertificate-api-openapi.yml
+- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-importkey-api-openapi.yml
+  format: yaml
+  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.ImportKey API'
+  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-importkey-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-importkey-api-openapi.yml
+- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listaliases-api-openapi.yml
+  format: yaml
+  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.ListAliases API'
+  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listaliases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listaliases-api-openapi.yml
+- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listkeys-api-openapi.yml
+  format: yaml
+  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.ListKeys API'
+  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listkeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listkeys-api-openapi.yml
+- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listtagsforresource-api-openapi.yml
+  format: yaml
+  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.ListTagsForResource API'
+  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listtagsforresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listtagsforresource-api-openapi.yml
+- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-restorekey-api-openapi.yml
+  format: yaml
+  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.RestoreKey API'
+  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-restorekey-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-restorekey-api-openapi.yml
+- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-startkeyusage-api-openapi.yml
+  format: yaml
+  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.StartKeyUsage API'
+  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-startkeyusage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-startkeyusage-api-openapi.yml
+- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-stopkeyusage-api-openapi.yml
+  format: yaml
+  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.StopKeyUsage API'
+  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-stopkeyusage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-stopkeyusage-api-openapi.yml
+- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-tagresource-api-openapi.yml
+  format: yaml
+  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.TagResource API'
+  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-tagresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-tagresource-api-openapi.yml
+- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-untagresource-api-openapi.yml
+  format: yaml
+  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.UntagResource API'
+  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-untagresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-untagresource-api-openapi.yml
+- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-updatealias-api-openapi.yml
+  format: yaml
+  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.UpdateAlias API'
+  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-updatealias-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-updatealias-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: bureau-of-justice-statistics-openapi.yml
+- filename: bureau-of-justice-statistics-property-crime-api-openapi.yml
   format: yaml
-  label: NIBRS National Estimates API
-  slug: nibrs-national-estimates-api
+  label: Bureau of Justice Statistics Property Crime API
+  slug: bureau-of-justice-statistics-property-crime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/refs/heads/main/openapi/bureau-of-justice-statistics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/refs/heads/main/openapi/bureau-of-justice-statistics-property-crime-api-openapi.yml
+- filename: bureau-of-justice-statistics-victimization-api-openapi.yml
+  format: yaml
+  label: Bureau of Justice Statistics Victimization API
+  slug: bureau-of-justice-statistics-victimization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/refs/heads/main/openapi/bureau-of-justice-statistics-victimization-api-openapi.yml
+- filename: bureau-of-justice-statistics-violent-crime-api-openapi.yml
+  format: yaml
+  label: Bureau of Justice Statistics Violent Crime API
+  slug: bureau-of-justice-statistics-violent-crime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/refs/heads/main/openapi/bureau-of-justice-statistics-violent-crime-api-openapi.yml
 description: ''
 domains:
 - caa: []

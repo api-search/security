@@ -1,12 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: unitrends-public-api-openapi.json
-  format: json
-  label: Unitrends MSP Public API (UniView Portal)
-  slug: unitrends-msp-public-api-uniview-portal
+- filename: unitrends-agents-api-openapi.yml
+  format: yaml
+  label: Unitrends Agents API
+  slug: unitrends-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-public-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-agents-api-openapi.yml
+- filename: unitrends-appliances-api-openapi.yml
+  format: yaml
+  label: Unitrends Appliances API
+  slug: unitrends-appliances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-appliances-api-openapi.yml
+- filename: unitrends-assets-api-openapi.yml
+  format: yaml
+  label: Unitrends Assets API
+  slug: unitrends-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-assets-api-openapi.yml
+- filename: unitrends-backupiqalerts-api-openapi.yml
+  format: yaml
+  label: Unitrends BackupIqAlerts API
+  slug: unitrends-backupiqalerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-backupiqalerts-api-openapi.yml
+- filename: unitrends-backups-api-openapi.yml
+  format: yaml
+  label: Unitrends Backups API
+  slug: unitrends-backups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-backups-api-openapi.yml
+- filename: unitrends-customers-api-openapi.yml
+  format: yaml
+  label: Unitrends Customers API
+  slug: unitrends-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-customers-api-openapi.yml
+- filename: unitrends-domains-api-openapi.yml
+  format: yaml
+  label: Unitrends Domains API
+  slug: unitrends-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-domains-api-openapi.yml
+- filename: unitrends-domainsentra-api-openapi.yml
+  format: yaml
+  label: Unitrends DomainsEntra API
+  slug: unitrends-domainsentra-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-domainsentra-api-openapi.yml
+- filename: unitrends-domainsv2-api-openapi.yml
+  format: yaml
+  label: Unitrends DomainsV2 API
+  slug: unitrends-domainsv2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-domainsv2-api-openapi.yml
+- filename: unitrends-domainusers-api-openapi.yml
+  format: yaml
+  label: Unitrends DomainUsers API
+  slug: unitrends-domainusers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-domainusers-api-openapi.yml
+- filename: unitrends-domainusersv2-api-openapi.yml
+  format: yaml
+  label: Unitrends DomainUsersV2 API
+  slug: unitrends-domainusersv2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-domainusersv2-api-openapi.yml
 auth_types:
 - oauth2
 - http-bearer

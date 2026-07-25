@@ -2,18 +2,36 @@
 api_key_in:
 - query
 api_specs:
-- filename: liquid-m-reporting-openapi.yml
+- filename: liquid-m-ads-api-openapi.yml
   format: yaml
-  label: LiquidM Reporting API
-  slug: reporting
+  label: Liquid M Ads API
+  slug: liquid-m-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/openapi/liquid-m-reporting-openapi.yml
-- filename: liquid-m-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/openapi/liquid-m-ads-api-openapi.yml
+- filename: liquid-m-authentication-api-openapi.yml
   format: yaml
-  label: LiquidM Management API
-  slug: management
+  label: Liquid M Authentication API
+  slug: liquid-m-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/openapi/liquid-m-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/openapi/liquid-m-authentication-api-openapi.yml
+- filename: liquid-m-budgets-api-openapi.yml
+  format: yaml
+  label: Liquid M Budgets API
+  slug: liquid-m-budgets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/openapi/liquid-m-budgets-api-openapi.yml
+- filename: liquid-m-campaigns-api-openapi.yml
+  format: yaml
+  label: Liquid M Campaigns API
+  slug: liquid-m-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/openapi/liquid-m-campaigns-api-openapi.yml
+- filename: liquid-m-reporting-api-openapi.yml
+  format: yaml
+  label: Liquid M Reporting API
+  slug: liquid-m-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/openapi/liquid-m-reporting-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

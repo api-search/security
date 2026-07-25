@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: modern-partner-api-openapi.yml
+- filename: modern-dashboards-api-openapi.yml
   format: yaml
-  label: MODERN Partner API
-  slug: modern-partner-api
+  label: Modern Dashboards API
+  slug: modern-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modern/refs/heads/main/openapi/modern-partner-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modern/refs/heads/main/openapi/modern-dashboards-api-openapi.yml
+- filename: modern-events-api-openapi.yml
+  format: yaml
+  label: Modern Events API
+  slug: modern-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modern/refs/heads/main/openapi/modern-events-api-openapi.yml
+- filename: modern-federation-api-openapi.yml
+  format: yaml
+  label: Modern Federation API
+  slug: modern-federation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modern/refs/heads/main/openapi/modern-federation-api-openapi.yml
+- filename: modern-notes-api-openapi.yml
+  format: yaml
+  label: Modern Notes API
+  slug: modern-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modern/refs/heads/main/openapi/modern-notes-api-openapi.yml
+- filename: modern-notifications-api-openapi.yml
+  format: yaml
+  label: Modern Notifications API
+  slug: modern-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modern/refs/heads/main/openapi/modern-notifications-api-openapi.yml
+- filename: modern-technicians-api-openapi.yml
+  format: yaml
+  label: Modern Technicians API
+  slug: modern-technicians-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modern/refs/heads/main/openapi/modern-technicians-api-openapi.yml
+- filename: modern-users-api-openapi.yml
+  format: yaml
+  label: Modern Users API
+  slug: modern-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modern/refs/heads/main/openapi/modern-users-api-openapi.yml
+- filename: modern-work-orders-api-openapi.yml
+  format: yaml
+  label: Modern Work Orders API
+  slug: modern-work-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modern/refs/heads/main/openapi/modern-work-orders-api-openapi.yml
 auth_types:
 - http-basic
 - http-bearer

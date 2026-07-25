@@ -1,59 +1,59 @@
 ---
 api_specs:
-- filename: matillion-openapi.yml
+- filename: matillion-dpc-agents-api-openapi.yml
   format: yaml
-  label: DPC Projects
-  slug: dpc-projects
+  label: Matillion DPC Agents API
+  slug: matillion-dpc-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-openapi.yml
-- filename: matillion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-dpc-agents-api-openapi.yml
+- filename: matillion-dpc-environments-api-openapi.yml
   format: yaml
-  label: DPC Environments
-  slug: dpc-environments
+  label: Matillion DPC Environments API
+  slug: matillion-dpc-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-openapi.yml
-- filename: matillion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-dpc-environments-api-openapi.yml
+- filename: matillion-dpc-pipeline-executions-api-openapi.yml
   format: yaml
-  label: DPC Pipeline Executions
-  slug: dpc-pipeline-executions
+  label: Matillion DPC Pipeline Executions API
+  slug: matillion-dpc-pipeline-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-openapi.yml
-- filename: matillion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-dpc-pipeline-executions-api-openapi.yml
+- filename: matillion-dpc-projects-api-openapi.yml
   format: yaml
-  label: DPC Schedules
-  slug: dpc-schedules
+  label: Matillion DPC Projects API
+  slug: matillion-dpc-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-openapi.yml
-- filename: matillion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-dpc-projects-api-openapi.yml
+- filename: matillion-dpc-schedules-api-openapi.yml
   format: yaml
-  label: DPC Agents
-  slug: dpc-agents
+  label: Matillion DPC Schedules API
+  slug: matillion-dpc-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-openapi.yml
-- filename: matillion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-dpc-schedules-api-openapi.yml
+- filename: matillion-etl-groups-projects-api-openapi.yml
   format: yaml
-  label: ETL Groups & Projects (legacy)
-  slug: etl-groups-projects
+  label: Matillion ETL Groups & Projects API
+  slug: matillion-etl-groups-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-openapi.yml
-- filename: matillion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-etl-groups-projects-api-openapi.yml
+- filename: matillion-etl-jobs-runs-api-openapi.yml
   format: yaml
-  label: ETL Jobs & Runs (legacy)
-  slug: etl-jobs-runs
+  label: Matillion ETL Jobs & Runs API
+  slug: matillion-etl-jobs-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-openapi.yml
-- filename: matillion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-etl-jobs-runs-api-openapi.yml
+- filename: matillion-etl-schedules-api-openapi.yml
   format: yaml
-  label: ETL Tasks (legacy)
-  slug: etl-tasks
+  label: Matillion ETL Schedules API
+  slug: matillion-etl-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-openapi.yml
-- filename: matillion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-etl-schedules-api-openapi.yml
+- filename: matillion-etl-tasks-api-openapi.yml
   format: yaml
-  label: ETL Schedules (legacy)
-  slug: etl-schedules
+  label: Matillion ETL Tasks API
+  slug: matillion-etl-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-etl-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []

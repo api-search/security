@@ -1,47 +1,71 @@
 ---
 api_specs:
-- filename: kushki-card-payments-api-openapi.yml
-  format: yaml
-  label: Kushki Card Payments API
-  slug: kushki-card-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-card-payments-api-openapi.yml
 - filename: kushki-subscriptions-api-openapi.yml
   format: yaml
   label: Kushki Subscriptions API
   slug: kushki-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-subscriptions-api-openapi.yml
-- filename: kushki-transfer-payments-api-openapi.yml
-  format: yaml
-  label: Kushki Transfer Payments API
-  slug: kushki-transfer-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-transfer-payments-api-openapi.yml
-- filename: kushki-cash-payments-api-openapi.yml
-  format: yaml
-  label: Kushki Cash Payments API
-  slug: kushki-cash-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-cash-payments-api-openapi.yml
 - filename: kushki-payouts-api-openapi.yml
   format: yaml
   label: Kushki Payouts API
   slug: kushki-payouts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-payouts-api-openapi.yml
-- filename: kushki-card-present-api-openapi.yml
+- filename: kushki-branches-api-openapi.yml
   format: yaml
-  label: Kushki Card Present API
-  slug: kushki-card-present-api
+  label: Kushki Branches API
+  slug: kushki-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-card-present-api-openapi.yml
-- filename: kushki-merchants-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-branches-api-openapi.yml
+- filename: kushki-card-present-charges-api-openapi.yml
   format: yaml
-  label: Kushki Merchants and Branches API
-  slug: kushki-merchants-api
+  label: Kushki Card Present Charges API
+  slug: kushki-card-present-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-merchants-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-card-present-charges-api-openapi.yml
+- filename: kushki-cash-api-openapi.yml
+  format: yaml
+  label: Kushki Cash API
+  slug: kushki-cash-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-cash-api-openapi.yml
+- filename: kushki-charges-api-openapi.yml
+  format: yaml
+  label: Kushki Charges API
+  slug: kushki-charges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-charges-api-openapi.yml
+- filename: kushki-pre-authorization-api-openapi.yml
+  format: yaml
+  label: Kushki Pre-Authorization API
+  slug: kushki-pre-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-pre-authorization-api-openapi.yml
+- filename: kushki-terminals-api-openapi.yml
+  format: yaml
+  label: Kushki Terminals API
+  slug: kushki-terminals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-terminals-api-openapi.yml
+- filename: kushki-tokens-api-openapi.yml
+  format: yaml
+  label: Kushki Tokens API
+  slug: kushki-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-tokens-api-openapi.yml
+- filename: kushki-transfer-api-openapi.yml
+  format: yaml
+  label: Kushki Transfer API
+  slug: kushki-transfer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-transfer-api-openapi.yml
+- filename: kushki-voids-and-refunds-api-openapi.yml
+  format: yaml
+  label: Kushki Voids and Refunds API
+  slug: kushki-voids-and-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-voids-and-refunds-api-openapi.yml
 description: ''
 domains:
 - caa: []

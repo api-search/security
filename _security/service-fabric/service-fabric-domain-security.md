@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: service-fabric-cluster-openapi.yml
+- filename: service-fabric-applications-api-openapi.yml
   format: yaml
-  label: Service Fabric Cluster Management API
+  label: Service Fabric Applications API
+  slug: service-fabric-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/openapi/service-fabric-applications-api-openapi.yml
+- filename: service-fabric-cluster-api-openapi.yml
+  format: yaml
+  label: Service Fabric Cluster API
   slug: service-fabric-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/openapi/service-fabric-cluster-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/openapi/service-fabric-cluster-api-openapi.yml
+- filename: service-fabric-health-api-openapi.yml
+  format: yaml
+  label: Service Fabric Health API
+  slug: service-fabric-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/openapi/service-fabric-health-api-openapi.yml
+- filename: service-fabric-nodes-api-openapi.yml
+  format: yaml
+  label: Service Fabric Nodes API
+  slug: service-fabric-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/openapi/service-fabric-nodes-api-openapi.yml
+- filename: service-fabric-services-api-openapi.yml
+  format: yaml
+  label: Service Fabric Services API
+  slug: service-fabric-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/openapi/service-fabric-services-api-openapi.yml
 description: ''
 domains:
 - caa:

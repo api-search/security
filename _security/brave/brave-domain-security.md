@@ -1,17 +1,59 @@
 ---
 api_specs:
-- filename: brave-search-api.yml
+- filename: brave-campaigns-api-openapi.yml
   format: yaml
-  label: Brave Search API
-  slug: brave-search-api
+  label: Brave campaigns API
+  slug: brave-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brave/refs/heads/main/openapi/brave-search-api.yml
-- filename: brave-ads-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brave/refs/heads/main/openapi/brave-campaigns-api-openapi.yml
+- filename: brave-images-api-openapi.yml
   format: yaml
-  label: Brave Ads API
-  slug: brave-ads-api
+  label: Brave images API
+  slug: brave-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brave/refs/heads/main/openapi/brave-ads-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brave/refs/heads/main/openapi/brave-images-api-openapi.yml
+- filename: brave-local-api-openapi.yml
+  format: yaml
+  label: Brave local API
+  slug: brave-local-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brave/refs/heads/main/openapi/brave-local-api-openapi.yml
+- filename: brave-news-api-openapi.yml
+  format: yaml
+  label: Brave news API
+  slug: brave-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brave/refs/heads/main/openapi/brave-news-api-openapi.yml
+- filename: brave-reporting-api-openapi.yml
+  format: yaml
+  label: Brave reporting API
+  slug: brave-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brave/refs/heads/main/openapi/brave-reporting-api-openapi.yml
+- filename: brave-spellcheck-api-openapi.yml
+  format: yaml
+  label: Brave spellcheck API
+  slug: brave-spellcheck-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brave/refs/heads/main/openapi/brave-spellcheck-api-openapi.yml
+- filename: brave-suggest-api-openapi.yml
+  format: yaml
+  label: Brave suggest API
+  slug: brave-suggest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brave/refs/heads/main/openapi/brave-suggest-api-openapi.yml
+- filename: brave-videos-api-openapi.yml
+  format: yaml
+  label: Brave videos API
+  slug: brave-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brave/refs/heads/main/openapi/brave-videos-api-openapi.yml
+- filename: brave-web-api-openapi.yml
+  format: yaml
+  label: Brave web API
+  slug: brave-web-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brave/refs/heads/main/openapi/brave-web-api-openapi.yml
 description: ''
 domains:
 - caa:

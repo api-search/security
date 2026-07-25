@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: classic-shapeshift-openapi-original.json
-  format: json
-  label: ShapeShift Public API
-  slug: shapeshift-public-api
+- filename: classic-affiliate-api-openapi.yml
+  format: yaml
+  label: Classic Affiliate API
+  slug: classic-affiliate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/openapi/classic-shapeshift-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/openapi/classic-affiliate-api-openapi.yml
+- filename: classic-auth-api-openapi.yml
+  format: yaml
+  label: Classic Auth API
+  slug: classic-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/openapi/classic-auth-api-openapi.yml
+- filename: classic-supported-assets-api-openapi.yml
+  format: yaml
+  label: Classic Supported Assets API
+  slug: classic-supported-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/openapi/classic-supported-assets-api-openapi.yml
+- filename: classic-supported-chains-api-openapi.yml
+  format: yaml
+  label: Classic Supported Chains API
+  slug: classic-supported-chains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/openapi/classic-supported-chains-api-openapi.yml
+- filename: classic-swaps-api-openapi.yml
+  format: yaml
+  label: Classic Swaps API
+  slug: classic-swaps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/openapi/classic-swaps-api-openapi.yml
 description: ''
 domains:
 - caa: []

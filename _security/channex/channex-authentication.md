@@ -2,48 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: channex-openapi.yml
+- filename: channex-ari-api-openapi.yml
   format: yaml
-  label: Channex Properties API
-  slug: properties
+  label: Channex ARI API
+  slug: channex-ari-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-openapi.yml
-- filename: channex-openapi.yml
-  format: yaml
-  label: Channex Room Types API
-  slug: room-types
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-openapi.yml
-- filename: channex-openapi.yml
-  format: yaml
-  label: Channex Rate Plans API
-  slug: rate-plans
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-openapi.yml
-- filename: channex-openapi.yml
-  format: yaml
-  label: Channex Availability and Restrictions (ARI) API
-  slug: availability-restrictions-ari
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-openapi.yml
-- filename: channex-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-ari-api-openapi.yml
+- filename: channex-bookings-api-openapi.yml
   format: yaml
   label: Channex Bookings API
-  slug: bookings
+  slug: channex-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-openapi.yml
-- filename: channex-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-bookings-api-openapi.yml
+- filename: channex-channels-api-openapi.yml
   format: yaml
   label: Channex Channels API
-  slug: channels
+  slug: channex-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-openapi.yml
-- filename: channex-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-channels-api-openapi.yml
+- filename: channex-properties-api-openapi.yml
+  format: yaml
+  label: Channex Properties API
+  slug: channex-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-properties-api-openapi.yml
+- filename: channex-rate-plans-api-openapi.yml
+  format: yaml
+  label: Channex Rate Plans API
+  slug: channex-rate-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-rate-plans-api-openapi.yml
+- filename: channex-room-types-api-openapi.yml
+  format: yaml
+  label: Channex Room Types API
+  slug: channex-room-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-room-types-api-openapi.yml
+- filename: channex-webhooks-api-openapi.yml
   format: yaml
   label: Channex Webhooks API
-  slug: webhooks
+  slug: channex-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

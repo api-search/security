@@ -1,30 +1,96 @@
 ---
 api_key_in: []
 api_specs:
-- filename: lendkey-integration-openapi.yml
+- filename: lendkey-application-contracts-api-openapi.yml
   format: yaml
-  label: LendKey Integration API
-  slug: integration
+  label: LendKey Application Contracts API
+  slug: lendkey-application-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-integration-openapi.yml
-- filename: lendkey-treasury-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-application-contracts-api-openapi.yml
+- filename: lendkey-applications-api-openapi.yml
   format: yaml
-  label: LendKey Treasury Management API
-  slug: treasury-management
+  label: LendKey applications API
+  slug: lendkey-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-treasury-management-openapi.yml
-- filename: lendkey-esign-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-applications-api-openapi.yml
+- filename: lendkey-auth-api-openapi.yml
   format: yaml
-  label: LendKey E-Sign API
-  slug: esign
+  label: LendKey auth API
+  slug: lendkey-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-esign-openapi.yml
-- filename: lendkey-partner-integration-internal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-auth-api-openapi.yml
+- filename: lendkey-authentication-api-openapi.yml
   format: yaml
-  label: LendKey Partner Integration Internal API
-  slug: partner-integration-internal
+  label: LendKey Authentication API
+  slug: lendkey-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-partner-integration-internal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-authentication-api-openapi.yml
+- filename: lendkey-credit-risk-api-openapi.yml
+  format: yaml
+  label: LendKey Credit Risk API
+  slug: lendkey-credit-risk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-credit-risk-api-openapi.yml
+- filename: lendkey-disbursements-api-openapi.yml
+  format: yaml
+  label: LendKey Disbursements API
+  slug: lendkey-disbursements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-disbursements-api-openapi.yml
+- filename: lendkey-email-api-openapi.yml
+  format: yaml
+  label: LendKey email API
+  slug: lendkey-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-email-api-openapi.yml
+- filename: lendkey-internal-api-openapi.yml
+  format: yaml
+  label: LendKey internal API
+  slug: lendkey-internal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-internal-api-openapi.yml
+- filename: lendkey-leads-api-openapi.yml
+  format: yaml
+  label: LendKey leads API
+  slug: lendkey-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-leads-api-openapi.yml
+- filename: lendkey-ledger-management-api-openapi.yml
+  format: yaml
+  label: LendKey Ledger Management API
+  slug: lendkey-ledger-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-ledger-management-api-openapi.yml
+- filename: lendkey-lender-templates-api-openapi.yml
+  format: yaml
+  label: LendKey Lender Templates API
+  slug: lendkey-lender-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-lender-templates-api-openapi.yml
+- filename: lendkey-loans-api-openapi.yml
+  format: yaml
+  label: LendKey Loans API
+  slug: lendkey-loans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-loans-api-openapi.yml
+- filename: lendkey-onboarding-api-openapi.yml
+  format: yaml
+  label: LendKey onboarding API
+  slug: lendkey-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-onboarding-api-openapi.yml
+- filename: lendkey-payments-api-openapi.yml
+  format: yaml
+  label: LendKey Payments API
+  slug: lendkey-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-payments-api-openapi.yml
+- filename: lendkey-webhooks-api-openapi.yml
+  format: yaml
+  label: LendKey Webhooks API
+  slug: lendkey-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

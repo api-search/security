@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: llms.txt
+- filename: signwell-api-application-api-openapi.yml
   format: yaml
-  label: SignWell API
-  slug: signwell-api
+  label: SignWell API Application API
+  slug: signwell-api-application-api
   spec_type: OpenAPI
-  url: https://developers.signwell.com/llms.txt
+  url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/openapi/signwell-api-application-api-openapi.yml
+- filename: signwell-bulk-send-api-openapi.yml
+  format: yaml
+  label: SignWell Bulk Send API
+  slug: signwell-bulk-send-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/openapi/signwell-bulk-send-api-openapi.yml
+- filename: signwell-document-api-openapi.yml
+  format: yaml
+  label: SignWell Document API
+  slug: signwell-document-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/openapi/signwell-document-api-openapi.yml
+- filename: signwell-me-api-openapi.yml
+  format: yaml
+  label: SignWell Me API
+  slug: signwell-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/openapi/signwell-me-api-openapi.yml
+- filename: signwell-regional-api-openapi.yml
+  format: yaml
+  label: SignWell Regional API
+  slug: signwell-regional-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/openapi/signwell-regional-api-openapi.yml
+- filename: signwell-template-api-openapi.yml
+  format: yaml
+  label: SignWell Template API
+  slug: signwell-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/openapi/signwell-template-api-openapi.yml
+- filename: signwell-webhooks-api-openapi.yml
+  format: yaml
+  label: SignWell Webhooks API
+  slug: signwell-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/openapi/signwell-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

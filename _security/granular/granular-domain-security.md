@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: granular-farm-management-openapi.yml
+- filename: granular-activities-api-openapi.yml
   format: yaml
-  label: Granular Farm Management API
-  slug: granular-farm-management-api
+  label: Granular (Corteva Agriscience) Activities API
+  slug: granular-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/openapi/granular-farm-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/openapi/granular-activities-api-openapi.yml
+- filename: granular-crops-api-openapi.yml
+  format: yaml
+  label: Granular (Corteva Agriscience) Crops API
+  slug: granular-crops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/openapi/granular-crops-api-openapi.yml
+- filename: granular-farms-api-openapi.yml
+  format: yaml
+  label: Granular (Corteva Agriscience) Farms API
+  slug: granular-farms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/openapi/granular-farms-api-openapi.yml
+- filename: granular-fields-api-openapi.yml
+  format: yaml
+  label: Granular (Corteva Agriscience) Fields API
+  slug: granular-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/openapi/granular-fields-api-openapi.yml
+- filename: granular-financials-api-openapi.yml
+  format: yaml
+  label: Granular (Corteva Agriscience) Financials API
+  slug: granular-financials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/openapi/granular-financials-api-openapi.yml
 description: ''
 domains:
 - caa: []

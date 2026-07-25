@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: steel-dev-openapi.yml
+- filename: steel-dev-files-api-openapi.yml
+  format: yaml
+  label: Steel Files API
+  slug: steel-dev-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steel-dev/refs/heads/main/openapi/steel-dev-files-api-openapi.yml
+- filename: steel-dev-quick-actions-api-openapi.yml
+  format: yaml
+  label: Steel Quick Actions API
+  slug: steel-dev-quick-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steel-dev/refs/heads/main/openapi/steel-dev-quick-actions-api-openapi.yml
+- filename: steel-dev-session-actions-api-openapi.yml
+  format: yaml
+  label: Steel Session Actions API
+  slug: steel-dev-session-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steel-dev/refs/heads/main/openapi/steel-dev-session-actions-api-openapi.yml
+- filename: steel-dev-sessions-api-openapi.yml
   format: yaml
   label: Steel Sessions API
-  slug: steel-sessions-api
+  slug: steel-dev-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steel-dev/refs/heads/main/openapi/steel-dev-openapi.yml
-- filename: steel-dev-openapi.yml
-  format: yaml
-  label: Steel Scrape API
-  slug: steel-scrape-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steel-dev/refs/heads/main/openapi/steel-dev-openapi.yml
-- filename: steel-dev-openapi.yml
-  format: yaml
-  label: Steel Screenshot & PDF API
-  slug: steel-screenshot-pdf-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steel-dev/refs/heads/main/openapi/steel-dev-openapi.yml
-- filename: steel-dev-openapi.yml
-  format: yaml
-  label: Steel CDP / Browser Connect API
-  slug: steel-browser-connect-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steel-dev/refs/heads/main/openapi/steel-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/steel-dev/refs/heads/main/openapi/steel-dev-sessions-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,30 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: united-states-postal-service-addresses-openapi.yml
+- filename: united-states-postal-service-addresses-api-openapi.yml
   format: yaml
-  label: USPS Addresses API
-  slug: usps-addresses-api
+  label: United States Postal Service Addresses API
+  slug: united-states-postal-service-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-postal-service/refs/heads/main/openapi/united-states-postal-service-addresses-openapi.yml
-- filename: united-states-postal-service-tracking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-postal-service/refs/heads/main/openapi/united-states-postal-service-addresses-api-openapi.yml
+- filename: united-states-postal-service-carrier-pickup-api-openapi.yml
   format: yaml
-  label: USPS Tracking API
-  slug: usps-tracking-api
+  label: United States Postal Service Carrier Pickup API
+  slug: united-states-postal-service-carrier-pickup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-postal-service/refs/heads/main/openapi/united-states-postal-service-tracking-openapi.yml
-- filename: united-states-postal-service-domestic-prices-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-postal-service/refs/heads/main/openapi/united-states-postal-service-carrier-pickup-api-openapi.yml
+- filename: united-states-postal-service-domestic-prices-api-openapi.yml
   format: yaml
-  label: USPS Domestic Prices API
-  slug: usps-domestic-prices-api
+  label: United States Postal Service Domestic Prices API
+  slug: united-states-postal-service-domestic-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-postal-service/refs/heads/main/openapi/united-states-postal-service-domestic-prices-openapi.yml
-- filename: united-states-postal-service-carrier-pickup-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-postal-service/refs/heads/main/openapi/united-states-postal-service-domestic-prices-api-openapi.yml
+- filename: united-states-postal-service-tracking-api-openapi.yml
   format: yaml
-  label: USPS Carrier Pickup API
-  slug: usps-carrier-pickup-api
+  label: United States Postal Service Tracking API
+  slug: united-states-postal-service-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-postal-service/refs/heads/main/openapi/united-states-postal-service-carrier-pickup-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-postal-service/refs/heads/main/openapi/united-states-postal-service-tracking-api-openapi.yml
 auth_types:
 - http
 description: ''

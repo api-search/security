@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: united-rentals-total-control-openapi.yml
+- filename: united-rentals-equipment-api-openapi.yml
   format: yaml
-  label: United Rentals Total Control Integration API
-  slug: united-rentals-total-control-integration-api
+  label: United Rentals Equipment API
+  slug: united-rentals-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-rentals/main/openapi/united-rentals-total-control-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/openapi/united-rentals-equipment-api-openapi.yml
+- filename: united-rentals-fleet-api-openapi.yml
+  format: yaml
+  label: United Rentals Fleet API
+  slug: united-rentals-fleet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/openapi/united-rentals-fleet-api-openapi.yml
+- filename: united-rentals-invoices-api-openapi.yml
+  format: yaml
+  label: United Rentals Invoices API
+  slug: united-rentals-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/openapi/united-rentals-invoices-api-openapi.yml
+- filename: united-rentals-locations-api-openapi.yml
+  format: yaml
+  label: United Rentals Locations API
+  slug: united-rentals-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/openapi/united-rentals-locations-api-openapi.yml
+- filename: united-rentals-rentals-api-openapi.yml
+  format: yaml
+  label: United Rentals Rentals API
+  slug: united-rentals-rentals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/openapi/united-rentals-rentals-api-openapi.yml
 description: ''
 domains:
 - caa: []

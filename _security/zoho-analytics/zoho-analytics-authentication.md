@@ -1,12 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: analytics-oas
+- filename: zoho-analytics-bulk-export-asynchronous-api-openapi.yml
   format: yaml
-  label: Zoho Analytics API
-  slug: zoho-analytics-api
+  label: Zoho Analytics Bulk Export - Asynchronous API
+  slug: zoho-analytics-bulk-export-asynchronous-api
   spec_type: OpenAPI
-  url: https://github.com/zoho/analytics-oas
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-export-asynchronous-api-openapi.yml
+- filename: zoho-analytics-bulk-export-synchronous-api-openapi.yml
+  format: yaml
+  label: Zoho Analytics Bulk Export - Synchronous API
+  slug: zoho-analytics-bulk-export-synchronous-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-export-synchronous-api-openapi.yml
+- filename: zoho-analytics-bulk-import-asynchronous-api-openapi.yml
+  format: yaml
+  label: Zoho Analytics Bulk Import - Asynchronous API
+  slug: zoho-analytics-bulk-import-asynchronous-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-import-asynchronous-api-openapi.yml
+- filename: zoho-analytics-bulk-import-batch-api-openapi.yml
+  format: yaml
+  label: Zoho Analytics Bulk Import - Batch API
+  slug: zoho-analytics-bulk-import-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-import-batch-api-openapi.yml
+- filename: zoho-analytics-bulk-import-synchronous-api-openapi.yml
+  format: yaml
+  label: Zoho Analytics Bulk Import - Synchronous API
+  slug: zoho-analytics-bulk-import-synchronous-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-import-synchronous-api-openapi.yml
+- filename: zoho-analytics-data-apis-api-openapi.yml
+  format: yaml
+  label: Zoho Analytics Data APIs API
+  slug: zoho-analytics-data-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-data-apis-api-openapi.yml
+- filename: zoho-analytics-embed-apis-api-openapi.yml
+  format: yaml
+  label: Zoho Analytics Embed APIs API
+  slug: zoho-analytics-embed-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-embed-apis-api-openapi.yml
+- filename: zoho-analytics-metadata-apis-api-openapi.yml
+  format: yaml
+  label: Zoho Analytics Metadata APIs API
+  slug: zoho-analytics-metadata-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-metadata-apis-api-openapi.yml
+- filename: zoho-analytics-modeling-apis-api-openapi.yml
+  format: yaml
+  label: Zoho Analytics Modeling APIs API
+  slug: zoho-analytics-modeling-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-modeling-apis-api-openapi.yml
+- filename: zoho-analytics-sharing-collaboration-apis-api-openapi.yml
+  format: yaml
+  label: Zoho Analytics Sharing & Collaboration APIs API
+  slug: zoho-analytics-sharing-collaboration-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-sharing-collaboration-apis-api-openapi.yml
+- filename: zoho-analytics-user-management-apis-api-openapi.yml
+  format: yaml
+  label: Zoho Analytics User Management APIs API
+  slug: zoho-analytics-user-management-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-user-management-apis-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -7,24 +7,24 @@ api_specs:
   slug: listening
   spec_type: OpenAPI
   url: https://listening.api.npr.org/v2/swagger.json
-- filename: npr-station-finder-openapi-original.yml
+- filename: npr-authorization-api-openapi.yml
   format: yaml
-  label: NPR Station Finder
-  slug: station-finder
+  label: NPR Authorization API
+  slug: npr-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npr/main/openapi/npr-station-finder-openapi-original.yml
-- filename: npr-identity-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/npr/refs/heads/main/openapi/npr-authorization-api-openapi.yml
+- filename: npr-identity-api-openapi.yml
   format: yaml
-  label: NPR Identity
-  slug: identity
+  label: NPR Identity API
+  slug: npr-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npr/main/openapi/npr-identity-openapi-original.yml
-- filename: npr-authorization-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/npr/refs/heads/main/openapi/npr-identity-api-openapi.yml
+- filename: npr-stationfinder-api-openapi.yml
   format: yaml
-  label: NPR Authorization
-  slug: authorization
+  label: NPR Stationfinder API
+  slug: npr-stationfinder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npr/main/openapi/npr-authorization-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/npr/refs/heads/main/openapi/npr-stationfinder-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

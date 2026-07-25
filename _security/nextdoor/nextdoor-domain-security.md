@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: nextdoor-openapi.yml
+- filename: nextdoor-advertising-api-openapi.yml
   format: yaml
-  label: Nextdoor
-  slug: nextdoor
+  label: Nextdoor Advertising API
+  slug: nextdoor-advertising-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/openapi/nextdoor-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/openapi/nextdoor-advertising-api-openapi.yml
+- filename: nextdoor-conversions-api-openapi.yml
+  format: yaml
+  label: Nextdoor Conversions API
+  slug: nextdoor-conversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/openapi/nextdoor-conversions-api-openapi.yml
+- filename: nextdoor-creatives-api-openapi.yml
+  format: yaml
+  label: Nextdoor Creatives API
+  slug: nextdoor-creatives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/openapi/nextdoor-creatives-api-openapi.yml
+- filename: nextdoor-posts-api-openapi.yml
+  format: yaml
+  label: Nextdoor Posts API
+  slug: nextdoor-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/openapi/nextdoor-posts-api-openapi.yml
+- filename: nextdoor-search-api-openapi.yml
+  format: yaml
+  label: Nextdoor Search API
+  slug: nextdoor-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/openapi/nextdoor-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

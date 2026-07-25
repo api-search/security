@@ -1,17 +1,89 @@
 ---
 api_specs:
-- filename: dolby-io-realtime-streaming-api-openapi.yml
+- filename: dolby-io-abr-ladders-api-openapi.yml
   format: yaml
-  label: Dolby OptiView Real-time Streaming API
-  slug: dolby-io-realtime-streaming-api
+  label: Dolby.io ABR Ladders API
+  slug: dolby-io-abr-ladders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/openapi/dolby-io-realtime-streaming-api-openapi.yml
-- filename: swagger.json
-  format: json
-  label: Dolby OptiView Live (THEOlive) API
-  slug: dolby-io-theolive-api
+  url: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/openapi/dolby-io-abr-ladders-api-openapi.yml
+- filename: dolby-io-analytics-api-openapi.yml
+  format: yaml
+  label: Dolby.io Analytics API
+  slug: dolby-io-analytics-api
   spec_type: OpenAPI
-  url: https://api.theo.live/v2/api-docs/swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/openapi/dolby-io-analytics-api-openapi.yml
+- filename: dolby-io-channels-api-openapi.yml
+  format: yaml
+  label: Dolby.io Channels API
+  slug: dolby-io-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/openapi/dolby-io-channels-api-openapi.yml
+- filename: dolby-io-cluster-api-openapi.yml
+  format: yaml
+  label: Dolby.io Cluster API
+  slug: dolby-io-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/openapi/dolby-io-cluster-api-openapi.yml
+- filename: dolby-io-custom-endpoint-providers-api-openapi.yml
+  format: yaml
+  label: Dolby.io Custom Endpoint Providers API
+  slug: dolby-io-custom-endpoint-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/openapi/dolby-io-custom-endpoint-providers-api-openapi.yml
+- filename: dolby-io-custom-endpoints-api-openapi.yml
+  format: yaml
+  label: Dolby.io Custom Endpoints API
+  slug: dolby-io-custom-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/openapi/dolby-io-custom-endpoints-api-openapi.yml
+- filename: dolby-io-distributions-api-openapi.yml
+  format: yaml
+  label: Dolby.io Distributions API
+  slug: dolby-io-distributions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/openapi/dolby-io-distributions-api-openapi.yml
+- filename: dolby-io-engines-api-openapi.yml
+  format: yaml
+  label: Dolby.io Engines API
+  slug: dolby-io-engines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/openapi/dolby-io-engines-api-openapi.yml
+- filename: dolby-io-ingests-api-openapi.yml
+  format: yaml
+  label: Dolby.io Ingests API
+  slug: dolby-io-ingests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/openapi/dolby-io-ingests-api-openapi.yml
+- filename: dolby-io-publishtoken-api-openapi.yml
+  format: yaml
+  label: Dolby.io PublishToken API
+  slug: dolby-io-publishtoken-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/openapi/dolby-io-publishtoken-api-openapi.yml
+- filename: dolby-io-regions-api-openapi.yml
+  format: yaml
+  label: Dolby.io Regions API
+  slug: dolby-io-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/openapi/dolby-io-regions-api-openapi.yml
+- filename: dolby-io-subscribetoken-api-openapi.yml
+  format: yaml
+  label: Dolby.io SubscribeToken API
+  slug: dolby-io-subscribetoken-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/openapi/dolby-io-subscribetoken-api-openapi.yml
+- filename: dolby-io-webhook-api-openapi.yml
+  format: yaml
+  label: Dolby.io Webhook API
+  slug: dolby-io-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/openapi/dolby-io-webhook-api-openapi.yml
+- filename: dolby-io-webhooks-api-openapi.yml
+  format: yaml
+  label: Dolby.io Webhooks API
+  slug: dolby-io-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/openapi/dolby-io-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

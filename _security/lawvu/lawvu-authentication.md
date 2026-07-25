@@ -1,48 +1,162 @@
 ---
 api_key_in: []
 api_specs:
-- filename: lawvu-api-openapi-original.yml
+- filename: lawvu-auth-api-openapi.yml
   format: yaml
-  label: LawVu API
-  slug: lawvu-api
+  label: LawVu Auth API
+  slug: lawvu-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-api-openapi-original.yml
-- filename: lawvu-account-openapi-original.json
-  format: json
-  label: LawVu Account
-  slug: lawvu-account
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-auth-api-openapi.yml
+- filename: lawvu-contractfiles-api-openapi.yml
+  format: yaml
+  label: LawVu ContractFiles API
+  slug: lawvu-contractfiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-account-openapi-original.json
-- filename: lawvu-matters-openapi-original.json
-  format: json
-  label: LawVu Matters
-  slug: lawvu-matters
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-contractfiles-api-openapi.yml
+- filename: lawvu-contractkeydate-api-openapi.yml
+  format: yaml
+  label: LawVu ContractKeyDate API
+  slug: lawvu-contractkeydate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-matters-openapi-original.json
-- filename: lawvu-contracts-openapi-original.json
-  format: json
-  label: LawVu Contracts
-  slug: lawvu-contracts
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-contractkeydate-api-openapi.yml
+- filename: lawvu-contracts-api-openapi.yml
+  format: yaml
+  label: LawVu Contracts API
+  slug: lawvu-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-contracts-openapi-original.json
-- filename: lawvu-fields-openapi-original.json
-  format: json
-  label: LawVu Fields
-  slug: lawvu-fields
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-contracts-api-openapi.yml
+- filename: lawvu-contractstatusmessage-api-openapi.yml
+  format: yaml
+  label: LawVu ContractStatusMessage API
+  slug: lawvu-contractstatusmessage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-fields-openapi-original.json
-- filename: lawvu-files-openapi-original.json
-  format: json
-  label: LawVu Files
-  slug: lawvu-files
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-contractstatusmessage-api-openapi.yml
+- filename: lawvu-contracttemplates-api-openapi.yml
+  format: yaml
+  label: LawVu ContractTemplates API
+  slug: lawvu-contracttemplates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-files-openapi-original.json
-- filename: lawvu-invoices-openapi-original.json
-  format: json
-  label: LawVu Invoices
-  slug: lawvu-invoices
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-contracttemplates-api-openapi.yml
+- filename: lawvu-contractuser-api-openapi.yml
+  format: yaml
+  label: LawVu ContractUser API
+  slug: lawvu-contractuser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-invoices-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-contractuser-api-openapi.yml
+- filename: lawvu-emails-api-openapi.yml
+  format: yaml
+  label: LawVu Emails API
+  slug: lawvu-emails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-emails-api-openapi.yml
+- filename: lawvu-features-api-openapi.yml
+  format: yaml
+  label: LawVu Features API
+  slug: lawvu-features-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-features-api-openapi.yml
+- filename: lawvu-fields-api-openapi.yml
+  format: yaml
+  label: LawVu Fields API
+  slug: lawvu-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-fields-api-openapi.yml
+- filename: lawvu-files-api-openapi.yml
+  format: yaml
+  label: LawVu Files API
+  slug: lawvu-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-files-api-openapi.yml
+- filename: lawvu-folders-api-openapi.yml
+  format: yaml
+  label: LawVu Folders API
+  slug: lawvu-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-folders-api-openapi.yml
+- filename: lawvu-invoices-api-openapi.yml
+  format: yaml
+  label: LawVu Invoices API
+  slug: lawvu-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-invoices-api-openapi.yml
+- filename: lawvu-lookupfields-api-openapi.yml
+  format: yaml
+  label: LawVu LookupFields API
+  slug: lawvu-lookupfields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-lookupfields-api-openapi.yml
+- filename: lawvu-mattercategories-api-openapi.yml
+  format: yaml
+  label: LawVu MatterCategories API
+  slug: lawvu-mattercategories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-mattercategories-api-openapi.yml
+- filename: lawvu-matterfiles-api-openapi.yml
+  format: yaml
+  label: LawVu MatterFiles API
+  slug: lawvu-matterfiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-matterfiles-api-openapi.yml
+- filename: lawvu-matters-api-openapi.yml
+  format: yaml
+  label: LawVu Matters API
+  slug: lawvu-matters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-matters-api-openapi.yml
+- filename: lawvu-mattersinvoices-api-openapi.yml
+  format: yaml
+  label: LawVu MattersInvoices API
+  slug: lawvu-mattersinvoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-mattersinvoices-api-openapi.yml
+- filename: lawvu-matterstatusmessage-api-openapi.yml
+  format: yaml
+  label: LawVu MatterStatusMessage API
+  slug: lawvu-matterstatusmessage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-matterstatusmessage-api-openapi.yml
+- filename: lawvu-mattertasks-api-openapi.yml
+  format: yaml
+  label: LawVu MatterTasks API
+  slug: lawvu-mattertasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-mattertasks-api-openapi.yml
+- filename: lawvu-mattertasktemplates-api-openapi.yml
+  format: yaml
+  label: LawVu MatterTaskTemplates API
+  slug: lawvu-mattertasktemplates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-mattertasktemplates-api-openapi.yml
+- filename: lawvu-organisations-api-openapi.yml
+  format: yaml
+  label: LawVu Organisations API
+  slug: lawvu-organisations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-organisations-api-openapi.yml
+- filename: lawvu-recents-api-openapi.yml
+  format: yaml
+  label: LawVu Recents API
+  slug: lawvu-recents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-recents-api-openapi.yml
+- filename: lawvu-teams-api-openapi.yml
+  format: yaml
+  label: LawVu Teams API
+  slug: lawvu-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-teams-api-openapi.yml
+- filename: lawvu-users-api-openapi.yml
+  format: yaml
+  label: LawVu Users API
+  slug: lawvu-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-users-api-openapi.yml
+- filename: lawvu-webhooksubscriptions-api-openapi.yml
+  format: yaml
+  label: LawVu WebhookSubscriptions API
+  slug: lawvu-webhooksubscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-webhooksubscriptions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

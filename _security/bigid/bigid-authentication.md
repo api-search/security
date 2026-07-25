@@ -19,30 +19,48 @@ api_specs:
   slug: bigid-scans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/openapi/bigid-scans-api-openapi.yml
-- filename: bigid-data-catalog-api-openapi.yml
-  format: yaml
-  label: BigID Data Catalog API
-  slug: bigid-data-catalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/openapi/bigid-data-catalog-api-openapi.yml
-- filename: bigid-cluster-analysis-api-openapi.yml
-  format: yaml
-  label: BigID Cluster Analysis API
-  slug: bigid-cluster-analysis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/openapi/bigid-cluster-analysis-api-openapi.yml
-- filename: bigid-data-posture-api-openapi.yml
-  format: yaml
-  label: BigID Data Posture API
-  slug: bigid-data-posture-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/openapi/bigid-data-posture-api-openapi.yml
 - filename: bigid-dsar-api-openapi.yml
   format: yaml
   label: BigID DSAR API
   slug: bigid-dsar-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/openapi/bigid-dsar-api-openapi.yml
+- filename: bigid-actionable-insights-api-openapi.yml
+  format: yaml
+  label: BigID Actionable Insights API
+  slug: bigid-actionable-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/openapi/bigid-actionable-insights-api-openapi.yml
+- filename: bigid-catalog-api-openapi.yml
+  format: yaml
+  label: BigID Catalog API
+  slug: bigid-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/openapi/bigid-catalog-api-openapi.yml
+- filename: bigid-clusters-api-openapi.yml
+  format: yaml
+  label: BigID Clusters API
+  slug: bigid-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/openapi/bigid-clusters-api-openapi.yml
+- filename: bigid-connector-templates-api-openapi.yml
+  format: yaml
+  label: BigID Connector Templates API
+  slug: bigid-connector-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/openapi/bigid-connector-templates-api-openapi.yml
+- filename: bigid-metadata-export-api-openapi.yml
+  format: yaml
+  label: BigID Metadata Export API
+  slug: bigid-metadata-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/openapi/bigid-metadata-export-api-openapi.yml
+- filename: bigid-scan-profiles-api-openapi.yml
+  format: yaml
+  label: BigID Scan Profiles API
+  slug: bigid-scan-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/openapi/bigid-scan-profiles-api-openapi.yml
 auth_types:
 - http
 description: ''

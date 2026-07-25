@@ -2,30 +2,30 @@
 api_key_in:
 - query
 api_specs:
-- filename: gooten-openapi.yml
-  format: yaml
-  label: Gooten Products API
-  slug: gooten-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/openapi/gooten-openapi.yml
-- filename: gooten-openapi.yml
+- filename: gooten-orders-api-openapi.yml
   format: yaml
   label: Gooten Orders API
   slug: gooten-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/openapi/gooten-openapi.yml
-- filename: gooten-openapi.yml
-  format: yaml
-  label: Gooten Shipping API
-  slug: gooten-shipping-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/openapi/gooten-openapi.yml
-- filename: gooten-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/openapi/gooten-orders-api-openapi.yml
+- filename: gooten-print-assets-api-openapi.yml
   format: yaml
   label: Gooten Print Assets API
   slug: gooten-print-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/openapi/gooten-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/openapi/gooten-print-assets-api-openapi.yml
+- filename: gooten-products-api-openapi.yml
+  format: yaml
+  label: Gooten Products API
+  slug: gooten-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/openapi/gooten-products-api-openapi.yml
+- filename: gooten-shipping-api-openapi.yml
+  format: yaml
+  label: Gooten Shipping API
+  slug: gooten-shipping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/openapi/gooten-shipping-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

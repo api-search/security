@@ -1,41 +1,17 @@
 ---
 api_specs:
-- filename: reonomy-openapi.yml
+- filename: reonomy-property-api-openapi.yml
   format: yaml
-  label: Reonomy Property Search API
-  slug: property-search
+  label: Reonomy Property API
+  slug: reonomy-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reonomy/refs/heads/main/openapi/reonomy-openapi.yml
-- filename: reonomy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reonomy/refs/heads/main/openapi/reonomy-property-api-openapi.yml
+- filename: reonomy-search-api-openapi.yml
   format: yaml
-  label: Reonomy Property Detail API
-  slug: property-detail
+  label: Reonomy Search API
+  slug: reonomy-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reonomy/refs/heads/main/openapi/reonomy-openapi.yml
-- filename: reonomy-openapi.yml
-  format: yaml
-  label: Reonomy Ownership API
-  slug: ownership
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reonomy/refs/heads/main/openapi/reonomy-openapi.yml
-- filename: reonomy-openapi.yml
-  format: yaml
-  label: Reonomy Sales & Debt API
-  slug: sales-debt
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reonomy/refs/heads/main/openapi/reonomy-openapi.yml
-- filename: reonomy-openapi.yml
-  format: yaml
-  label: Reonomy Tenants API
-  slug: tenants
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reonomy/refs/heads/main/openapi/reonomy-openapi.yml
-- filename: reonomy-openapi.yml
-  format: yaml
-  label: Reonomy Contacts API
-  slug: contacts
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reonomy/refs/heads/main/openapi/reonomy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reonomy/refs/heads/main/openapi/reonomy-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

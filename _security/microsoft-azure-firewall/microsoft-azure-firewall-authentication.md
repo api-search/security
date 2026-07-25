@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: microsoft-azure-firewall-openapi.yml
+- filename: microsoft-azure-firewall-firewalls-api-openapi.yml
   format: yaml
-  label: Azure Firewall REST API
-  slug: rest-api
+  label: Azure Firewall Firewalls API
+  slug: microsoft-azure-firewall-firewalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-firewall/refs/heads/main/openapi/microsoft-azure-firewall-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-firewall/refs/heads/main/openapi/microsoft-azure-firewall-firewalls-api-openapi.yml
+- filename: microsoft-azure-firewall-operations-api-openapi.yml
+  format: yaml
+  label: Azure Firewall Operations API
+  slug: microsoft-azure-firewall-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-firewall/refs/heads/main/openapi/microsoft-azure-firewall-operations-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

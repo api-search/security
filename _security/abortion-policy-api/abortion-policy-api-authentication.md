@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: abortion-policy-api-openapi.yml
+- filename: abortion-policy-api-gestational-limits-api-openapi.yml
   format: yaml
-  label: Abortion Policy API
-  slug: abortion-policy-api
+  label: Abortion Policy API Gestational Limits API
+  slug: abortion-policy-api-gestational-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/openapi/abortion-policy-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/openapi/abortion-policy-api-gestational-limits-api-openapi.yml
+- filename: abortion-policy-api-insurance-coverage-api-openapi.yml
+  format: yaml
+  label: Abortion Policy API Insurance Coverage API
+  slug: abortion-policy-api-insurance-coverage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/openapi/abortion-policy-api-insurance-coverage-api-openapi.yml
+- filename: abortion-policy-api-minors-api-openapi.yml
+  format: yaml
+  label: Abortion Policy API Minors API
+  slug: abortion-policy-api-minors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/openapi/abortion-policy-api-minors-api-openapi.yml
+- filename: abortion-policy-api-waiting-periods-api-openapi.yml
+  format: yaml
+  label: Abortion Policy API Waiting Periods API
+  slug: abortion-policy-api-waiting-periods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/openapi/abortion-policy-api-waiting-periods-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

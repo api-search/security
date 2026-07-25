@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: nutritionix-track-openapi.yml
+- filename: nutritionix-brands-api-openapi.yml
   format: yaml
-  label: Nutritionix Track API v2
-  slug: nutritionix-track-api-v2
+  label: Nutritionix Brands API
+  slug: nutritionix-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutritionix/main/openapi/nutritionix-track-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nutritionix/refs/heads/main/openapi/nutritionix-brands-api-openapi.yml
+- filename: nutritionix-item-api-openapi.yml
+  format: yaml
+  label: Nutritionix Item API
+  slug: nutritionix-item-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nutritionix/refs/heads/main/openapi/nutritionix-item-api-openapi.yml
+- filename: nutritionix-natural-language-api-openapi.yml
+  format: yaml
+  label: Nutritionix Natural Language API
+  slug: nutritionix-natural-language-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nutritionix/refs/heads/main/openapi/nutritionix-natural-language-api-openapi.yml
+- filename: nutritionix-search-api-openapi.yml
+  format: yaml
+  label: Nutritionix Search API
+  slug: nutritionix-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nutritionix/refs/heads/main/openapi/nutritionix-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

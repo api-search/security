@@ -1,11 +1,101 @@
 ---
 api_specs:
-- filename: replicate-openapi.yml
+- filename: replicate-accounts-api-openapi.yml
   format: yaml
-  label: Replicate
-  slug: replicate
+  label: Replicate Accounts API
+  slug: replicate-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-accounts-api-openapi.yml
+- filename: replicate-cancel-api-openapi.yml
+  format: yaml
+  label: Replicate Cancel API
+  slug: replicate-cancel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-cancel-api-openapi.yml
+- filename: replicate-collections-api-openapi.yml
+  format: yaml
+  label: Replicate Collections API
+  slug: replicate-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-collections-api-openapi.yml
+- filename: replicate-deployments-api-openapi.yml
+  format: yaml
+  label: Replicate Deployments API
+  slug: replicate-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-deployments-api-openapi.yml
+- filename: replicate-hardware-api-openapi.yml
+  format: yaml
+  label: Replicate Hardware API
+  slug: replicate-hardware-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-hardware-api-openapi.yml
+- filename: replicate-model-api-openapi.yml
+  format: yaml
+  label: Replicate Model API
+  slug: replicate-model-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-model-api-openapi.yml
+- filename: replicate-models-api-openapi.yml
+  format: yaml
+  label: Replicate Models API
+  slug: replicate-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-models-api-openapi.yml
+- filename: replicate-name-api-openapi.yml
+  format: yaml
+  label: Replicate Name API
+  slug: replicate-name-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-name-api-openapi.yml
+- filename: replicate-owner-api-openapi.yml
+  format: yaml
+  label: Replicate Owner API
+  slug: replicate-owner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-owner-api-openapi.yml
+- filename: replicate-predictions-api-openapi.yml
+  format: yaml
+  label: Replicate Predictions API
+  slug: replicate-predictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-predictions-api-openapi.yml
+- filename: replicate-secrets-api-openapi.yml
+  format: yaml
+  label: Replicate Secrets API
+  slug: replicate-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-secrets-api-openapi.yml
+- filename: replicate-slug-api-openapi.yml
+  format: yaml
+  label: Replicate Slug API
+  slug: replicate-slug-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-slug-api-openapi.yml
+- filename: replicate-training-api-openapi.yml
+  format: yaml
+  label: Replicate Training API
+  slug: replicate-training-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-training-api-openapi.yml
+- filename: replicate-trainings-api-openapi.yml
+  format: yaml
+  label: Replicate Trainings API
+  slug: replicate-trainings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-trainings-api-openapi.yml
+- filename: replicate-version-api-openapi.yml
+  format: yaml
+  label: Replicate Version API
+  slug: replicate-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-version-api-openapi.yml
+- filename: replicate-webhooks-api-openapi.yml
+  format: yaml
+  label: Replicate Webhooks API
+  slug: replicate-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

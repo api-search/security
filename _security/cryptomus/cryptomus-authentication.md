@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi.yml
+- filename: cryptomus-recurring-payments-api-openapi.yml
   format: yaml
-  label: Cryptomus Merchant Payment API
-  slug: cryptomus-merchant-payment-api
+  label: Cryptomus Recurring Payments API
+  slug: cryptomus-recurring-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/openapi/cryptomus-recurring-payments-api-openapi.yml
+- filename: cryptomus-exchange-api-openapi.yml
+  format: yaml
+  label: Cryptomus Exchange API
+  slug: cryptomus-exchange-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/openapi/cryptomus-exchange-api-openapi.yml
+- filename: cryptomus-payments-api-openapi.yml
+  format: yaml
+  label: Cryptomus Payments API
+  slug: cryptomus-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/openapi/cryptomus-payments-api-openapi.yml
+- filename: cryptomus-payouts-api-openapi.yml
+  format: yaml
+  label: Cryptomus Payouts API
+  slug: cryptomus-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/openapi/cryptomus-payouts-api-openapi.yml
+- filename: cryptomus-recurring-payments-api-openapi.yml
+  format: yaml
+  label: Cryptomus Recurring Payments API
+  slug: cryptomus-recurring-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/openapi/cryptomus-recurring-payments-api-openapi.yml
+- filename: cryptomus-wallets-api-openapi.yml
+  format: yaml
+  label: Cryptomus Wallets API
+  slug: cryptomus-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/openapi/cryptomus-wallets-api-openapi.yml
+- filename: cryptomus-webhooks-api-openapi.yml
+  format: yaml
+  label: Cryptomus Webhooks API
+  slug: cryptomus-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/openapi/cryptomus-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

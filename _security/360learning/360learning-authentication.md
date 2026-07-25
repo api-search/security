@@ -1,36 +1,108 @@
 ---
 api_key_in: []
 api_specs:
-- filename: 360learning-core-api.json
-  format: json
-  label: 360Learning Core API v2
-  slug: 360learning-core-api-v2
+- filename: 360learning-authentication-api-openapi.yml
+  format: yaml
+  label: 360Learning Authentication API
+  slug: 360learning-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-core-api.json
-- filename: 360learning-bulk-api.json
-  format: json
-  label: 360Learning Bulk API v2
-  slug: 360learning-bulk-api-v2
+  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-authentication-api-openapi.yml
+- filename: 360learning-certificate-outlines-api-openapi.yml
+  format: yaml
+  label: 360Learning Certificate Outlines API
+  slug: 360learning-certificate-outlines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-bulk-api.json
-- filename: 360learning-webhook-api.json
-  format: json
-  label: 360Learning Webhook API v2
-  slug: 360learning-webhook-api-v2
+  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-certificate-outlines-api-openapi.yml
+- filename: 360learning-classrooms-api-openapi.yml
+  format: yaml
+  label: 360Learning Classrooms API
+  slug: 360learning-classrooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-webhook-api.json
-- filename: 360learning-plugin-api.json
-  format: json
-  label: 360Learning Plugin API v2
-  slug: 360learning-plugin-api-v2
+  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-classrooms-api-openapi.yml
+- filename: 360learning-courses-api-openapi.yml
+  format: yaml
+  label: 360Learning Courses API
+  slug: 360learning-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-plugin-api.json
-- filename: 360learning-user-authorized-api.json
-  format: json
-  label: 360Learning User Authorized API v2
-  slug: 360learning-user-authorized-api-v2
+  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-courses-api-openapi.yml
+- filename: 360learning-custom-fields-api-openapi.yml
+  format: yaml
+  label: 360Learning Custom Fields API
+  slug: 360learning-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-user-authorized-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-custom-fields-api-openapi.yml
+- filename: 360learning-custom-links-api-openapi.yml
+  format: yaml
+  label: 360Learning Custom Links API
+  slug: 360learning-custom-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-custom-links-api-openapi.yml
+- filename: 360learning-external-ids-api-openapi.yml
+  format: yaml
+  label: 360Learning External IDs API
+  slug: 360learning-external-ids-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-external-ids-api-openapi.yml
+- filename: 360learning-groups-api-openapi.yml
+  format: yaml
+  label: 360Learning Groups API
+  slug: 360learning-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-groups-api-openapi.yml
+- filename: 360learning-integrations-api-openapi.yml
+  format: yaml
+  label: 360Learning Integrations API
+  slug: 360learning-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-integrations-api-openapi.yml
+- filename: 360learning-learning-needs-api-openapi.yml
+  format: yaml
+  label: 360Learning Learning Needs API
+  slug: 360learning-learning-needs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-learning-needs-api-openapi.yml
+- filename: 360learning-operations-api-openapi.yml
+  format: yaml
+  label: 360Learning Operations API
+  slug: 360learning-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-operations-api-openapi.yml
+- filename: 360learning-paths-api-openapi.yml
+  format: yaml
+  label: 360Learning Paths API
+  slug: 360learning-paths-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-paths-api-openapi.yml
+- filename: 360learning-projects-api-openapi.yml
+  format: yaml
+  label: 360Learning Projects API
+  slug: 360learning-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-projects-api-openapi.yml
+- filename: 360learning-skills-api-openapi.yml
+  format: yaml
+  label: 360Learning Skills API
+  slug: 360learning-skills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-skills-api-openapi.yml
+- filename: 360learning-subscriptions-api-openapi.yml
+  format: yaml
+  label: 360Learning Subscriptions API
+  slug: 360learning-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-subscriptions-api-openapi.yml
+- filename: 360learning-tags-api-openapi.yml
+  format: yaml
+  label: 360Learning Tags API
+  slug: 360learning-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-tags-api-openapi.yml
+- filename: 360learning-users-api-openapi.yml
+  format: yaml
+  label: 360Learning Users API
+  slug: 360learning-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-users-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

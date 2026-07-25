@@ -1,29 +1,23 @@
 ---
 api_specs:
-- filename: kurly-kls-fulfillment-openapi.yml
+- filename: kurly-authentication-api-openapi.yml
   format: yaml
-  label: Kurly Logistics Services (KLS) Fulfillment API
-  slug: kurly-logistics-services-kls-fulfillment-api
+  label: Kurly Authentication API
+  slug: kurly-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/openapi/kurly-kls-fulfillment-openapi.yml
-- filename: kurly-kls-delivery-agency-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/openapi/kurly-authentication-api-openapi.yml
+- filename: kurly-default-api-openapi.yml
   format: yaml
-  label: Kurly Logistics Services (KLS) Delivery Agency API
-  slug: kurly-logistics-services-kls-delivery-agency-api
+  label: Kurly 배송운영 정책 API
+  slug: kurly-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/openapi/kurly-kls-delivery-agency-openapi.yml
-- filename: kurly-kls-delivery-tracking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/openapi/kurly-default-api-openapi.yml
+- filename: kurly-delivery-tracking-api-openapi.yml
   format: yaml
-  label: Kurly Logistics Services (KLS) Delivery Tracking API
-  slug: kurly-logistics-services-kls-delivery-tracking-api
+  label: Kurly Delivery Tracking (배송추적) API
+  slug: kurly-delivery-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/openapi/kurly-kls-delivery-tracking-openapi.yml
-- filename: kurly-kls-auth-openapi.yml
-  format: yaml
-  label: Kurly Logistics Services (KLS) Authentication API
-  slug: kurly-logistics-services-kls-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/openapi/kurly-kls-auth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/openapi/kurly-delivery-tracking-api-openapi.yml
 description: ''
 domains:
 - caa: []

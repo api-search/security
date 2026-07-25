@@ -1,18 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: restaurant365-r365-api-openapi.yml
+- filename: restaurant365-ap-invoices-api-openapi.yml
   format: yaml
-  label: R365 API
-  slug: rest-api
+  label: Restaurant365 AP Invoices API
+  slug: restaurant365-ap-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/openapi/restaurant365-r365-api-openapi.yml
-- filename: restaurant365-odata-connector-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/openapi/restaurant365-ap-invoices-api-openapi.yml
+- filename: restaurant365-audit-api-openapi.yml
   format: yaml
-  label: Restaurant365 OData Connector
-  slug: odata-connector
+  label: Restaurant365 Audit API
+  slug: restaurant365-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/openapi/restaurant365-odata-connector-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/openapi/restaurant365-audit-api-openapi.yml
+- filename: restaurant365-authentication-api-openapi.yml
+  format: yaml
+  label: Restaurant365 Authentication API
+  slug: restaurant365-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/openapi/restaurant365-authentication-api-openapi.yml
+- filename: restaurant365-general-ledger-api-openapi.yml
+  format: yaml
+  label: Restaurant365 General Ledger API
+  slug: restaurant365-general-ledger-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/openapi/restaurant365-general-ledger-api-openapi.yml
+- filename: restaurant365-labor-api-openapi.yml
+  format: yaml
+  label: Restaurant365 Labor API
+  slug: restaurant365-labor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/openapi/restaurant365-labor-api-openapi.yml
+- filename: restaurant365-metadata-api-openapi.yml
+  format: yaml
+  label: Restaurant365 Metadata API
+  slug: restaurant365-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/openapi/restaurant365-metadata-api-openapi.yml
+- filename: restaurant365-reference-data-api-openapi.yml
+  format: yaml
+  label: Restaurant365 Reference Data API
+  slug: restaurant365-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/openapi/restaurant365-reference-data-api-openapi.yml
+- filename: restaurant365-sales-api-openapi.yml
+  format: yaml
+  label: Restaurant365 Sales API
+  slug: restaurant365-sales-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/openapi/restaurant365-sales-api-openapi.yml
+- filename: restaurant365-transactions-api-openapi.yml
+  format: yaml
+  label: Restaurant365 Transactions API
+  slug: restaurant365-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/openapi/restaurant365-transactions-api-openapi.yml
 auth_types:
 - http
 description: ''

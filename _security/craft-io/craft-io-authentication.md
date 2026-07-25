@@ -20,6 +20,42 @@ api_specs:
   slug: craftio-feedback-portal-api
   spec_type: OpenAPI
   url: https://api.craft.io/docs
+- filename: craft-io-feedback-items-api-openapi.yml
+  format: yaml
+  label: Craft.io Feedback items API
+  slug: craft-io-feedback-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-feedback-items-api-openapi.yml
+- filename: craft-io-feedback-portals-api-openapi.yml
+  format: yaml
+  label: Craft.io Feedback Portals API
+  slug: craft-io-feedback-portals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-feedback-portals-api-openapi.yml
+- filename: craft-io-introspection-api-openapi.yml
+  format: yaml
+  label: Craft.io Introspection API
+  slug: craft-io-introspection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-introspection-api-openapi.yml
+- filename: craft-io-portfolios-api-openapi.yml
+  format: yaml
+  label: Craft.io Portfolios API
+  slug: craft-io-portfolios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-portfolios-api-openapi.yml
+- filename: craft-io-work-items-and-okrs-api-openapi.yml
+  format: yaml
+  label: Craft.io Work Items and OKRs API
+  slug: craft-io-work-items-and-okrs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-work-items-and-okrs-api-openapi.yml
+- filename: craft-io-workspaces-api-openapi.yml
+  format: yaml
+  label: Craft.io Workspaces API
+  slug: craft-io-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-workspaces-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

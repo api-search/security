@@ -18,24 +18,48 @@ api_specs:
   slug: task-history-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/openapi/paragon-task-history-api-openapi.yml
-- filename: paragon-actionkit-api-openapi.yml
-  format: yaml
-  label: ActionKit API
-  slug: actionkit-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/openapi/paragon-actionkit-api-openapi.yml
 - filename: paragon-triggers-api-openapi.yml
   format: yaml
   label: Triggers API
   slug: triggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/openapi/paragon-triggers-api-openapi.yml
-- filename: paragon-managed-sync-api-openapi.yml
+- filename: paragon-credentials-api-openapi.yml
   format: yaml
-  label: Managed Sync API
-  slug: managed-sync-api
+  label: Paragon Credentials API
+  slug: paragon-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/openapi/paragon-managed-sync-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/openapi/paragon-credentials-api-openapi.yml
+- filename: paragon-custom-integrations-api-openapi.yml
+  format: yaml
+  label: Paragon Custom Integrations API
+  slug: paragon-custom-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/openapi/paragon-custom-integrations-api-openapi.yml
+- filename: paragon-integrations-api-openapi.yml
+  format: yaml
+  label: Paragon Integrations API
+  slug: paragon-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/openapi/paragon-integrations-api-openapi.yml
+- filename: paragon-permissions-api-openapi.yml
+  format: yaml
+  label: Paragon Permissions API
+  slug: paragon-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/openapi/paragon-permissions-api-openapi.yml
+- filename: paragon-sync-api-openapi.yml
+  format: yaml
+  label: Paragon Sync API
+  slug: paragon-sync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/openapi/paragon-sync-api-openapi.yml
+- filename: paragon-tools-api-openapi.yml
+  format: yaml
+  label: Paragon Tools API
+  slug: paragon-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/openapi/paragon-tools-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,173 @@
 ---
 api_specs:
-- filename: fortify-software-fod-openapi.json
-  format: json
-  label: Fortify on Demand REST API (v3)
-  slug: fortify-on-demand-rest-api-v3
+- filename: fortify-software-apikeymanagement-api-openapi.yml
+  format: yaml
+  label: Fortify Software ApiKeyManagement API
+  slug: fortify-software-apikeymanagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-fod-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-apikeymanagement-api-openapi.yml
+- filename: fortify-software-applications-api-openapi.yml
+  format: yaml
+  label: Fortify Software Applications API
+  slug: fortify-software-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-applications-api-openapi.yml
+- filename: fortify-software-attributes-api-openapi.yml
+  format: yaml
+  label: Fortify Software Attributes API
+  slug: fortify-software-attributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-attributes-api-openapi.yml
+- filename: fortify-software-audittemplate-api-openapi.yml
+  format: yaml
+  label: Fortify Software AuditTemplate API
+  slug: fortify-software-audittemplate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-audittemplate-api-openapi.yml
+- filename: fortify-software-dastautomatedscans-api-openapi.yml
+  format: yaml
+  label: Fortify Software DastAutomatedScans API
+  slug: fortify-software-dastautomatedscans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-dastautomatedscans-api-openapi.yml
+- filename: fortify-software-dynamicscans-api-openapi.yml
+  format: yaml
+  label: Fortify Software DynamicScans API
+  slug: fortify-software-dynamicscans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-dynamicscans-api-openapi.yml
+- filename: fortify-software-eventlogs-api-openapi.yml
+  format: yaml
+  label: Fortify Software EventLogs API
+  slug: fortify-software-eventlogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-eventlogs-api-openapi.yml
+- filename: fortify-software-fortifyondemandconnectnetworks-api-openapi.yml
+  format: yaml
+  label: Fortify Software FortifyOnDemandConnectNetworks API
+  slug: fortify-software-fortifyondemandconnectnetworks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-fortifyondemandconnectnetworks-api-openapi.yml
+- filename: fortify-software-lookupitems-api-openapi.yml
+  format: yaml
+  label: Fortify Software LookupItems API
+  slug: fortify-software-lookupitems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-lookupitems-api-openapi.yml
+- filename: fortify-software-mobilescans-api-openapi.yml
+  format: yaml
+  label: Fortify Software MobileScans API
+  slug: fortify-software-mobilescans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-mobilescans-api-openapi.yml
+- filename: fortify-software-multifactorauthorizationcode-api-openapi.yml
+  format: yaml
+  label: Fortify Software MultiFactorAuthorizationCode API
+  slug: fortify-software-multifactorauthorizationcode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-multifactorauthorizationcode-api-openapi.yml
+- filename: fortify-software-notifications-api-openapi.yml
+  format: yaml
+  label: Fortify Software Notifications API
+  slug: fortify-software-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-notifications-api-openapi.yml
+- filename: fortify-software-opensourcecomponents-api-openapi.yml
+  format: yaml
+  label: Fortify Software OpenSourceComponents API
+  slug: fortify-software-opensourcecomponents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-opensourcecomponents-api-openapi.yml
+- filename: fortify-software-opensourcescans-api-openapi.yml
+  format: yaml
+  label: Fortify Software OpenSourceScans API
+  slug: fortify-software-opensourcescans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-opensourcescans-api-openapi.yml
+- filename: fortify-software-personalaccesstokens-api-openapi.yml
+  format: yaml
+  label: Fortify Software PersonalAccessTokens API
+  slug: fortify-software-personalaccesstokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-personalaccesstokens-api-openapi.yml
+- filename: fortify-software-releases-api-openapi.yml
+  format: yaml
+  label: Fortify Software Releases API
+  slug: fortify-software-releases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-releases-api-openapi.yml
+- filename: fortify-software-reports-api-openapi.yml
+  format: yaml
+  label: Fortify Software Reports API
+  slug: fortify-software-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-reports-api-openapi.yml
+- filename: fortify-software-scans-api-openapi.yml
+  format: yaml
+  label: Fortify Software Scans API
+  slug: fortify-software-scans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-scans-api-openapi.yml
+- filename: fortify-software-staticscans-api-openapi.yml
+  format: yaml
+  label: Fortify Software StaticScans API
+  slug: fortify-software-staticscans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-staticscans-api-openapi.yml
+- filename: fortify-software-tenantentitlements-api-openapi.yml
+  format: yaml
+  label: Fortify Software TenantEntitlements API
+  slug: fortify-software-tenantentitlements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-tenantentitlements-api-openapi.yml
+- filename: fortify-software-tenantheatmaps-api-openapi.yml
+  format: yaml
+  label: Fortify Software TenantHeatMaps API
+  slug: fortify-software-tenantheatmaps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-tenantheatmaps-api-openapi.yml
+- filename: fortify-software-tenants-api-openapi.yml
+  format: yaml
+  label: Fortify Software Tenants API
+  slug: fortify-software-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-tenants-api-openapi.yml
+- filename: fortify-software-tenantsummary-api-openapi.yml
+  format: yaml
+  label: Fortify Software TenantSummary API
+  slug: fortify-software-tenantsummary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-tenantsummary-api-openapi.yml
+- filename: fortify-software-userapplicationaccess-api-openapi.yml
+  format: yaml
+  label: Fortify Software UserApplicationAccess API
+  slug: fortify-software-userapplicationaccess-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-userapplicationaccess-api-openapi.yml
+- filename: fortify-software-usergroupapplicationaccess-api-openapi.yml
+  format: yaml
+  label: Fortify Software UserGroupApplicationAccess API
+  slug: fortify-software-usergroupapplicationaccess-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-usergroupapplicationaccess-api-openapi.yml
+- filename: fortify-software-usermanagement-api-openapi.yml
+  format: yaml
+  label: Fortify Software UserManagement API
+  slug: fortify-software-usermanagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-usermanagement-api-openapi.yml
+- filename: fortify-software-users-api-openapi.yml
+  format: yaml
+  label: Fortify Software Users API
+  slug: fortify-software-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-users-api-openapi.yml
+- filename: fortify-software-vulnerabilities-api-openapi.yml
+  format: yaml
+  label: Fortify Software Vulnerabilities API
+  slug: fortify-software-vulnerabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/openapi/fortify-software-vulnerabilities-api-openapi.yml
 description: ''
 domains:
 - caa:

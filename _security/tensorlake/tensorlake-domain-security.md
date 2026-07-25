@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: tensorlake-openapi.yml
-  format: yaml
-  label: Tensorlake Document Parse API
-  slug: tensorlake-document-parse-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-openapi.yml
-- filename: tensorlake-openapi.yml
-  format: yaml
-  label: Tensorlake Structured Extraction API
-  slug: tensorlake-structured-extraction-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-openapi.yml
-- filename: tensorlake-openapi.yml
-  format: yaml
-  label: Tensorlake Files API
-  slug: tensorlake-files-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-openapi.yml
-- filename: tensorlake-openapi.yml
+- filename: tensorlake-datasets-api-openapi.yml
   format: yaml
   label: Tensorlake Datasets API
   slug: tensorlake-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-openapi.yml
-- filename: tensorlake-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-datasets-api-openapi.yml
+- filename: tensorlake-files-api-openapi.yml
+  format: yaml
+  label: Tensorlake Files API
+  slug: tensorlake-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-files-api-openapi.yml
+- filename: tensorlake-parse-api-openapi.yml
+  format: yaml
+  label: Tensorlake Parse API
+  slug: tensorlake-parse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-parse-api-openapi.yml
+- filename: tensorlake-sandboxes-api-openapi.yml
   format: yaml
   label: Tensorlake Sandboxes API
   slug: tensorlake-sandboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-sandboxes-api-openapi.yml
+- filename: tensorlake-structured-extraction-api-openapi.yml
+  format: yaml
+  label: Tensorlake Structured Extraction API
+  slug: tensorlake-structured-extraction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-structured-extraction-api-openapi.yml
 description: ''
 domains:
 - caa: []

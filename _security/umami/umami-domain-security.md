@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: umami-openapi.yml
+- filename: umami-authentication-api-openapi.yml
   format: yaml
-  label: Umami API
-  slug: umami-api
+  label: Umami Authentication API
+  slug: umami-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-authentication-api-openapi.yml
+- filename: umami-events-api-openapi.yml
+  format: yaml
+  label: Umami Events API
+  slug: umami-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-events-api-openapi.yml
+- filename: umami-sessions-api-openapi.yml
+  format: yaml
+  label: Umami Sessions API
+  slug: umami-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-sessions-api-openapi.yml
+- filename: umami-teams-api-openapi.yml
+  format: yaml
+  label: Umami Teams API
+  slug: umami-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-teams-api-openapi.yml
+- filename: umami-users-api-openapi.yml
+  format: yaml
+  label: Umami Users API
+  slug: umami-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-users-api-openapi.yml
+- filename: umami-website-statistics-api-openapi.yml
+  format: yaml
+  label: Umami Website Statistics API
+  slug: umami-website-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-website-statistics-api-openapi.yml
+- filename: umami-websites-api-openapi.yml
+  format: yaml
+  label: Umami Websites API
+  slug: umami-websites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-websites-api-openapi.yml
 description: ''
 domains:
 - caa: []

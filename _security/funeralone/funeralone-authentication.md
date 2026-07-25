@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: funeralone-openapi.yml
+- filename: funeralone-cases-api-openapi.yml
   format: yaml
   label: funeralOne Cases API
   slug: funeralone-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/funeralone/refs/heads/main/openapi/funeralone-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/funeralone/refs/heads/main/openapi/funeralone-cases-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: dog-ceo-openapi.yml
+- filename: dog-ceo-breed-api-openapi.yml
   format: yaml
-  label: Dog CEO API
-  slug: dog-ceo-api
+  label: Dog CEO Breed API
+  slug: dog-ceo-breed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dog-ceo/refs/heads/main/openapi/dog-ceo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dog-ceo/refs/heads/main/openapi/dog-ceo-breed-api-openapi.yml
+- filename: dog-ceo-breeds-api-openapi.yml
+  format: yaml
+  label: Dog CEO Breeds API
+  slug: dog-ceo-breeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dog-ceo/refs/heads/main/openapi/dog-ceo-breeds-api-openapi.yml
+- filename: dog-ceo-random-api-openapi.yml
+  format: yaml
+  label: Dog CEO Random API
+  slug: dog-ceo-random-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dog-ceo/refs/heads/main/openapi/dog-ceo-random-api-openapi.yml
+- filename: dog-ceo-sub-breed-api-openapi.yml
+  format: yaml
+  label: Dog CEO Sub-Breed API
+  slug: dog-ceo-sub-breed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dog-ceo/refs/heads/main/openapi/dog-ceo-sub-breed-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-medialive-openapi-original.yml
+- filename: amazon-medialive-prod-api-openapi.yml
   format: yaml
-  label: Amazon MediaLive API
-  slug: medialive-api
+  label: Amazon MediaLive Prod API
+  slug: amazon-medialive-prod-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/openapi/amazon-medialive-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/openapi/amazon-medialive-prod-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

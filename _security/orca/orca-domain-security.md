@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: orca-openapi-original.json
-  format: json
-  label: Orca Public API
-  slug: orca-public-api
+- filename: orca-protocol-api-openapi.yml
+  format: yaml
+  label: Orca protocol API
+  slug: orca-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/openapi/orca-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/openapi/orca-protocol-api-openapi.yml
+- filename: orca-tokens-api-openapi.yml
+  format: yaml
+  label: Orca tokens API
+  slug: orca-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/openapi/orca-tokens-api-openapi.yml
+- filename: orca-whirlpools-api-openapi.yml
+  format: yaml
+  label: Orca whirlpools API
+  slug: orca-whirlpools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/openapi/orca-whirlpools-api-openapi.yml
 description: ''
 domains:
 - caa: []

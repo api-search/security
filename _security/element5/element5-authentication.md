@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: element5-openapi-original.json
-  format: json
-  label: Element5 API
-  slug: element5-api
+- filename: element5-authorization-api-openapi.yml
+  format: yaml
+  label: Element5 Authorization API
+  slug: element5-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/openapi/element5-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/openapi/element5-authorization-api-openapi.yml
+- filename: element5-eligibility-api-openapi.yml
+  format: yaml
+  label: Element5 Eligibility API
+  slug: element5-eligibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/openapi/element5-eligibility-api-openapi.yml
+- filename: element5-object-store-api-openapi.yml
+  format: yaml
+  label: Element5 Object Store API
+  slug: element5-object-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/openapi/element5-object-store-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

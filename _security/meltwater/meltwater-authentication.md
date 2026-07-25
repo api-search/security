@@ -2,12 +2,78 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi.yaml
+- filename: meltwater-account-management-api-openapi.yml
   format: yaml
-  label: Meltwater API
-  slug: meltwater-api
+  label: Meltwater Account Management API
+  slug: meltwater-account-management-api
   spec_type: OpenAPI
-  url: https://developer.meltwater.com/api-reference/api-reference-overview/
+  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-account-management-api-openapi.yml
+- filename: meltwater-bring-your-own-content-byoc-api-openapi.yml
+  format: yaml
+  label: Meltwater Bring Your Own Content (BYOC) API
+  slug: meltwater-bring-your-own-content-byoc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-bring-your-own-content-byoc-api-openapi.yml
+- filename: meltwater-explore-analytics-api-openapi.yml
+  format: yaml
+  label: Meltwater Explore+ Analytics API
+  slug: meltwater-explore-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-explore-analytics-api-openapi.yml
+- filename: meltwater-explore-assets-api-openapi.yml
+  format: yaml
+  label: Meltwater Explore+ Assets API
+  slug: meltwater-explore-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-explore-assets-api-openapi.yml
+- filename: meltwater-explore-search-api-openapi.yml
+  format: yaml
+  label: Meltwater Explore+ Search API
+  slug: meltwater-explore-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-explore-search-api-openapi.yml
+- filename: meltwater-listening-analytics-api-openapi.yml
+  format: yaml
+  label: Meltwater Listening Analytics API
+  slug: meltwater-listening-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-listening-analytics-api-openapi.yml
+- filename: meltwater-listening-exports-api-openapi.yml
+  format: yaml
+  label: Meltwater Listening Exports API
+  slug: meltwater-listening-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-listening-exports-api-openapi.yml
+- filename: meltwater-listening-search-api-openapi.yml
+  format: yaml
+  label: Meltwater Listening Search API
+  slug: meltwater-listening-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-listening-search-api-openapi.yml
+- filename: meltwater-listening-search-management-api-openapi.yml
+  format: yaml
+  label: Meltwater Listening Search Management API
+  slug: meltwater-listening-search-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-listening-search-management-api-openapi.yml
+- filename: meltwater-listening-streaming-api-openapi.yml
+  format: yaml
+  label: Meltwater Listening Streaming API
+  slug: meltwater-listening-streaming-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-listening-streaming-api-openapi.yml
+- filename: meltwater-mira-api-api-openapi.yml
+  format: yaml
+  label: Meltwater Mira API API
+  slug: meltwater-mira-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-mira-api-api-openapi.yml
+- filename: meltwater-owned-analytics-api-openapi.yml
+  format: yaml
+  label: Meltwater Owned Analytics API
+  slug: meltwater-owned-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-owned-analytics-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

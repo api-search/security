@@ -2,18 +2,78 @@
 api_key_in:
 - header
 api_specs:
-- filename: sambanova-systems-cloud-openapi-original.yml
+- filename: sambanova-systems-audio-api-openapi.yml
   format: yaml
-  label: SambaNova Cloud API
-  slug: sambanova-cloud-api
+  label: SambaNova Systems Audio API
+  slug: sambanova-systems-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-cloud-openapi-original.yml
-- filename: sambanova-systems-agents-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-audio-api-openapi.yml
+- filename: sambanova-systems-chat-completions-api-openapi.yml
   format: yaml
-  label: SambaNova Agents Service
-  slug: sambanova-agents-service
+  label: SambaNova Systems Chat completions API
+  slug: sambanova-systems-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-agents-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-chat-completions-api-openapi.yml
+- filename: sambanova-systems-completions-api-openapi.yml
+  format: yaml
+  label: SambaNova Systems Completions API
+  slug: sambanova-systems-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-completions-api-openapi.yml
+- filename: sambanova-systems-embeddings-api-openapi.yml
+  format: yaml
+  label: SambaNova Systems Embeddings API
+  slug: sambanova-systems-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-embeddings-api-openapi.yml
+- filename: sambanova-systems-file-management-api-openapi.yml
+  format: yaml
+  label: SambaNova Systems File Management API
+  slug: sambanova-systems-file-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-file-management-api-openapi.yml
+- filename: sambanova-systems-main-agent-api-openapi.yml
+  format: yaml
+  label: SambaNova Systems Main Agent API
+  slug: sambanova-systems-main-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-main-agent-api-openapi.yml
+- filename: sambanova-systems-main-agent-interactive-api-openapi.yml
+  format: yaml
+  label: SambaNova Systems Main Agent Interactive API
+  slug: sambanova-systems-main-agent-interactive-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-main-agent-interactive-api-openapi.yml
+- filename: sambanova-systems-messages-api-openapi.yml
+  format: yaml
+  label: SambaNova Systems Messages API
+  slug: sambanova-systems-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-messages-api-openapi.yml
+- filename: sambanova-systems-models-api-openapi.yml
+  format: yaml
+  label: SambaNova Systems Models API
+  slug: sambanova-systems-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-models-api-openapi.yml
+- filename: sambanova-systems-responses-api-openapi.yml
+  format: yaml
+  label: SambaNova Systems Responses API
+  slug: sambanova-systems-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-responses-api-openapi.yml
+- filename: sambanova-systems-subagents-api-openapi.yml
+  format: yaml
+  label: SambaNova Systems Subagents API
+  slug: sambanova-systems-subagents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-subagents-api-openapi.yml
+- filename: sambanova-systems-subagents-interactive-api-openapi.yml
+  format: yaml
+  label: SambaNova Systems Subagents Interactive API
+  slug: sambanova-systems-subagents-interactive-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-subagents-interactive-api-openapi.yml
 auth_types:
 - apiKey
 - http

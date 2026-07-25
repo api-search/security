@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: fingoal-insights-openapi-original.json
-  format: json
-  label: FinGoal Insights API
-  slug: fingoal-insights-api
+- filename: fingoal-enrichment-api-openapi.yml
+  format: yaml
+  label: FinGoal Enrichment API
+  slug: fingoal-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/openapi/fingoal-insights-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/openapi/fingoal-enrichment-api-openapi.yml
+- filename: fingoal-user-tagging-api-openapi.yml
+  format: yaml
+  label: FinGoal User Tagging API
+  slug: fingoal-user-tagging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/openapi/fingoal-user-tagging-api-openapi.yml
+- filename: fingoal-webhook-configurations-api-openapi.yml
+  format: yaml
+  label: FinGoal Webhook Configurations API
+  slug: fingoal-webhook-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/openapi/fingoal-webhook-configurations-api-openapi.yml
 certifications:
 - SOC 2 Type II
 - GDPR

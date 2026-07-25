@@ -1,47 +1,53 @@
 ---
 api_specs:
-- filename: stay-ai-openapi.yml
+- filename: stay-ai-account-api-openapi.yml
   format: yaml
-  label: Stay AI Subscriptions API
-  slug: stay-ai-subscriptions-api
+  label: Stay AI Account API
+  slug: stay-ai-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-openapi.yml
-- filename: stay-ai-openapi.yml
-  format: yaml
-  label: Stay AI Subscription Orders API
-  slug: stay-ai-subscription-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-openapi.yml
-- filename: stay-ai-openapi.yml
-  format: yaml
-  label: Stay AI Selling Plans API
-  slug: stay-ai-selling-plans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-openapi.yml
-- filename: stay-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-account-api-openapi.yml
+- filename: stay-ai-catalog-api-openapi.yml
   format: yaml
   label: Stay AI Catalog API
   slug: stay-ai-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-openapi.yml
-- filename: stay-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-catalog-api-openapi.yml
+- filename: stay-ai-customer-portal-api-openapi.yml
   format: yaml
   label: Stay AI Customer Portal API
   slug: stay-ai-customer-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-openapi.yml
-- filename: stay-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-customer-portal-api-openapi.yml
+- filename: stay-ai-data-export-api-openapi.yml
+  format: yaml
+  label: Stay AI Data Export API
+  slug: stay-ai-data-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-data-export-api-openapi.yml
+- filename: stay-ai-orders-api-openapi.yml
+  format: yaml
+  label: Stay AI Orders API
+  slug: stay-ai-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-orders-api-openapi.yml
+- filename: stay-ai-selling-plans-api-openapi.yml
+  format: yaml
+  label: Stay AI Selling Plans API
+  slug: stay-ai-selling-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-selling-plans-api-openapi.yml
+- filename: stay-ai-subscriptions-api-openapi.yml
+  format: yaml
+  label: Stay AI Subscriptions API
+  slug: stay-ai-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-subscriptions-api-openapi.yml
+- filename: stay-ai-webhooks-api-openapi.yml
   format: yaml
   label: Stay AI Webhooks API
   slug: stay-ai-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-openapi.yml
-- filename: stay-ai-openapi.yml
-  format: yaml
-  label: Stay AI Account and Data API
-  slug: stay-ai-account-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-webhooks-api-openapi.yml
 certifications:
 - SOC 2
 description: ''

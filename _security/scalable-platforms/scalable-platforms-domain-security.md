@@ -1,47 +1,41 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: scalable-platforms-artifacts-api-openapi.yml
   format: yaml
-  label: Vercel REST API
-  slug: vercel-rest-api
+  label: Scalable Platforms Artifacts API
+  slug: scalable-platforms-artifacts-api
   spec_type: OpenAPI
-  url: https://openapi.vercel.sh/
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/scalable-platforms/refs/heads/main/openapi/scalable-platforms-artifacts-api-openapi.yml
+- filename: scalable-platforms-deployments-api-openapi.yml
   format: yaml
-  label: Netlify API
-  slug: netlify-api
+  label: Scalable Platforms Deployments API
+  slug: scalable-platforms-deployments-api
   spec_type: OpenAPI
-  url: https://open-api.netlify.com/
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/scalable-platforms/refs/heads/main/openapi/scalable-platforms-deployments-api-openapi.yml
+- filename: scalable-platforms-domains-api-openapi.yml
   format: yaml
-  label: Cloudflare API
-  slug: cloudflare-api
+  label: Scalable Platforms Domains API
+  slug: scalable-platforms-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/cloudflare/api-schemas/main/openapi.yaml
-- filename: api-docs
+  url: https://raw.githubusercontent.com/api-evangelist/scalable-platforms/refs/heads/main/openapi/scalable-platforms-domains-api-openapi.yml
+- filename: scalable-platforms-environments-api-openapi.yml
   format: yaml
-  label: Heroku Platform API
-  slug: heroku-platform-api
+  label: Scalable Platforms Environments API
+  slug: scalable-platforms-environments-api
   spec_type: OpenAPI
-  url: https://devcenter.heroku.com/api-docs
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/scalable-platforms/refs/heads/main/openapi/scalable-platforms-environments-api-openapi.yml
+- filename: scalable-platforms-projects-api-openapi.yml
   format: yaml
-  label: Fly.io Machines API
-  slug: flyio-machines-api
+  label: Scalable Platforms Projects API
+  slug: scalable-platforms-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/superfly/fly-openapi/refs/heads/main/openapi.yaml
-- filename: openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/scalable-platforms/refs/heads/main/openapi/scalable-platforms-projects-api-openapi.yml
+- filename: scalable-platforms-teams-api-openapi.yml
   format: yaml
-  label: Render API
-  slug: render-api
+  label: Scalable Platforms Teams API
+  slug: scalable-platforms-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/renderinc/openapi-specs/main/openapi.yaml
-- filename: openapi.json
-  format: json
-  label: Northflank API
-  slug: northflank-api
-  spec_type: OpenAPI
-  url: https://api.northflank.com/v1/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/scalable-platforms/refs/heads/main/openapi/scalable-platforms-teams-api-openapi.yml
 description: ''
 domains:
 - caa:

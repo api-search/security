@@ -1,54 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: predibase-openapi.yml
-  format: yaml
-  label: Predibase Inference (OpenAI-Compatible) API
-  slug: predibase-inference-openai-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-openapi.yml
-- filename: predibase-openapi.yml
-  format: yaml
-  label: Predibase Prompt / Generate API
-  slug: predibase-prompt-generate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-openapi.yml
-- filename: predibase-openapi.yml
-  format: yaml
-  label: Predibase Fine-Tuning API
-  slug: predibase-fine-tuning-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-openapi.yml
-- filename: predibase-openapi.yml
+- filename: predibase-adapters-api-openapi.yml
   format: yaml
   label: Predibase Adapters API
   slug: predibase-adapters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-openapi.yml
-- filename: predibase-openapi.yml
-  format: yaml
-  label: Predibase Deployments API
-  slug: predibase-deployments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-openapi.yml
-- filename: predibase-openapi.yml
-  format: yaml
-  label: Predibase Datasets API
-  slug: predibase-datasets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-openapi.yml
-- filename: predibase-openapi.yml
-  format: yaml
-  label: Predibase Models API
-  slug: predibase-models-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-openapi.yml
-- filename: predibase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-adapters-api-openapi.yml
+- filename: predibase-batch-inference-api-openapi.yml
   format: yaml
   label: Predibase Batch Inference API
   slug: predibase-batch-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-batch-inference-api-openapi.yml
+- filename: predibase-datasets-api-openapi.yml
+  format: yaml
+  label: Predibase Datasets API
+  slug: predibase-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-datasets-api-openapi.yml
+- filename: predibase-deployments-api-openapi.yml
+  format: yaml
+  label: Predibase Deployments API
+  slug: predibase-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-deployments-api-openapi.yml
+- filename: predibase-fine-tuning-api-openapi.yml
+  format: yaml
+  label: Predibase Fine-Tuning API
+  slug: predibase-fine-tuning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-fine-tuning-api-openapi.yml
+- filename: predibase-inference-api-openapi.yml
+  format: yaml
+  label: Predibase Inference API
+  slug: predibase-inference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-inference-api-openapi.yml
+- filename: predibase-models-api-openapi.yml
+  format: yaml
+  label: Predibase Models API
+  slug: predibase-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-models-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: lens-openapi.yml
+- filename: lens-patents-api-openapi.yml
   format: yaml
-  label: Lens API
-  slug: lens-api
+  label: Lens Patents API
+  slug: lens-patents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lens/refs/heads/main/openapi/lens-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lens/refs/heads/main/openapi/lens-patents-api-openapi.yml
+- filename: lens-scholarly-api-openapi.yml
+  format: yaml
+  label: Lens Scholarly API
+  slug: lens-scholarly-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lens/refs/heads/main/openapi/lens-scholarly-api-openapi.yml
 auth_types:
 - http
 description: ''

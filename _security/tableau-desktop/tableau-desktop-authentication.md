@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: tableau-desktop-openapi.yml
+- filename: tableau-desktop-authentication-api-openapi.yml
   format: yaml
-  label: Tableau REST API
-  slug: rest-api
+  label: Tableau Desktop Authentication API
+  slug: tableau-desktop-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/openapi/tableau-desktop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/openapi/tableau-desktop-authentication-api-openapi.yml
+- filename: tableau-desktop-data-sources-api-openapi.yml
+  format: yaml
+  label: Tableau Desktop Data Sources API
+  slug: tableau-desktop-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/openapi/tableau-desktop-data-sources-api-openapi.yml
+- filename: tableau-desktop-projects-api-openapi.yml
+  format: yaml
+  label: Tableau Desktop Projects API
+  slug: tableau-desktop-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/openapi/tableau-desktop-projects-api-openapi.yml
+- filename: tableau-desktop-server-api-openapi.yml
+  format: yaml
+  label: Tableau Desktop Server API
+  slug: tableau-desktop-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/openapi/tableau-desktop-server-api-openapi.yml
+- filename: tableau-desktop-sites-api-openapi.yml
+  format: yaml
+  label: Tableau Desktop Sites API
+  slug: tableau-desktop-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/openapi/tableau-desktop-sites-api-openapi.yml
+- filename: tableau-desktop-users-api-openapi.yml
+  format: yaml
+  label: Tableau Desktop Users API
+  slug: tableau-desktop-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/openapi/tableau-desktop-users-api-openapi.yml
+- filename: tableau-desktop-workbooks-api-openapi.yml
+  format: yaml
+  label: Tableau Desktop Workbooks API
+  slug: tableau-desktop-workbooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/openapi/tableau-desktop-workbooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

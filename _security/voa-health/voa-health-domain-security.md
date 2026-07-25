@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: voa-health-rnds-openapi.yml
+- filename: voa-health-authentication-api-openapi.yml
   format: yaml
-  label: Voa RNDS Integration API
-  slug: voa-rnds-integration-api
+  label: VOA Health Authentication API
+  slug: voa-health-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/openapi/voa-health-rnds-openapi.yml
-- filename: voa-health-identify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/openapi/voa-health-authentication-api-openapi.yml
+- filename: voa-health-rnds-api-openapi.yml
   format: yaml
-  label: Voa Integration Identify API
-  slug: voa-integration-identify-api
+  label: VOA Health RNDS API
+  slug: voa-health-rnds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/openapi/voa-health-identify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/openapi/voa-health-rnds-api-openapi.yml
 description: ''
 domains:
 - caa: []

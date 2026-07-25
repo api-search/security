@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: botsociety-openapi.yml
+- filename: botsociety-conversations-api-openapi.yml
   format: yaml
-  label: Botsociety API
-  slug: botsociety-api
+  label: BotSociety Conversations API
+  slug: botsociety-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/botsociety/refs/heads/main/openapi/botsociety-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/botsociety/refs/heads/main/openapi/botsociety-conversations-api-openapi.yml
+- filename: botsociety-designs-api-openapi.yml
+  format: yaml
+  label: BotSociety Designs API
+  slug: botsociety-designs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/botsociety/refs/heads/main/openapi/botsociety-designs-api-openapi.yml
+- filename: botsociety-messages-api-openapi.yml
+  format: yaml
+  label: BotSociety Messages API
+  slug: botsociety-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/botsociety/refs/heads/main/openapi/botsociety-messages-api-openapi.yml
+- filename: botsociety-variables-api-openapi.yml
+  format: yaml
+  label: BotSociety Variables API
+  slug: botsociety-variables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/botsociety/refs/heads/main/openapi/botsociety-variables-api-openapi.yml
 description: ''
 domains:
 - caa:

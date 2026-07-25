@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: pin-payments-openapi.yaml
+- filename: pin-payments-cards-api-openapi.yml
   format: yaml
-  label: Pin Payments API
-  slug: pin-payments
+  label: Pin Payments Cards API
+  slug: pin-payments-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pin-payments/refs/heads/main/openapi/pin-payments-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/pin-payments/refs/heads/main/openapi/pin-payments-cards-api-openapi.yml
+- filename: pin-payments-charges-api-openapi.yml
+  format: yaml
+  label: Pin Payments Charges API
+  slug: pin-payments-charges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pin-payments/refs/heads/main/openapi/pin-payments-charges-api-openapi.yml
+- filename: pin-payments-customers-api-openapi.yml
+  format: yaml
+  label: Pin Payments Customers API
+  slug: pin-payments-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pin-payments/refs/heads/main/openapi/pin-payments-customers-api-openapi.yml
+- filename: pin-payments-refunds-api-openapi.yml
+  format: yaml
+  label: Pin Payments Refunds API
+  slug: pin-payments-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pin-payments/refs/heads/main/openapi/pin-payments-refunds-api-openapi.yml
 auth_types:
 - http
 description: ''

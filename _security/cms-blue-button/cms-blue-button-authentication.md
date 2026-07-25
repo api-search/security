@@ -1,30 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cms-blue-button-openapi.yml
-  format: yaml
-  label: CMS Blue Button 2.0 Explanation of Benefit API
-  slug: cms-blue-button-explanation-of-benefit-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/openapi/cms-blue-button-openapi.yml
-- filename: cms-blue-button-openapi.yml
-  format: yaml
-  label: CMS Blue Button 2.0 Patient API
-  slug: cms-blue-button-patient-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/openapi/cms-blue-button-openapi.yml
-- filename: cms-blue-button-openapi.yml
+- filename: cms-blue-button-coverage-api-openapi.yml
   format: yaml
   label: CMS Blue Button 2.0 Coverage API
   slug: cms-blue-button-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/openapi/cms-blue-button-openapi.yml
-- filename: cms-blue-button-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/openapi/cms-blue-button-coverage-api-openapi.yml
+- filename: cms-blue-button-explanationofbenefit-api-openapi.yml
   format: yaml
-  label: CMS Blue Button 2.0 Authorization and UserInfo API
-  slug: cms-blue-button-authorization-userinfo-api
+  label: CMS Blue Button 2.0 ExplanationOfBenefit API
+  slug: cms-blue-button-explanationofbenefit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/openapi/cms-blue-button-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/openapi/cms-blue-button-explanationofbenefit-api-openapi.yml
+- filename: cms-blue-button-metadata-api-openapi.yml
+  format: yaml
+  label: CMS Blue Button 2.0 Metadata API
+  slug: cms-blue-button-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/openapi/cms-blue-button-metadata-api-openapi.yml
+- filename: cms-blue-button-patient-api-openapi.yml
+  format: yaml
+  label: CMS Blue Button 2.0 Patient API
+  slug: cms-blue-button-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/openapi/cms-blue-button-patient-api-openapi.yml
+- filename: cms-blue-button-userinfo-api-openapi.yml
+  format: yaml
+  label: CMS Blue Button 2.0 UserInfo API
+  slug: cms-blue-button-userinfo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/openapi/cms-blue-button-userinfo-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: agify-openapi.json
-  format: json
-  label: Agify Age Prediction API
-  slug: agify-api
+- filename: agify-age-prediction-api-openapi.yml
+  format: yaml
+  label: Agify.io Age Prediction API
+  slug: agify-age-prediction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agify/refs/heads/main/openapi/agify-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/agify/refs/heads/main/openapi/agify-age-prediction-api-openapi.yml
 description: ''
 domains:
 - caa: []

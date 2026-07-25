@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: freetogame-openapi.yml
+- filename: freetogame-games-api-openapi.yml
   format: yaml
-  label: FreeToGame
-  slug: freetogame
+  label: FreeToGame Games API
+  slug: freetogame-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freetogame/refs/heads/main/openapi/freetogame-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freetogame/refs/heads/main/openapi/freetogame-games-api-openapi.yml
 description: ''
 domains:
 - caa: []

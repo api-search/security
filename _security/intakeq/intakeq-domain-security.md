@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: intakeq-openapi.yml
-  format: yaml
-  label: IntakeQ Clients API
-  slug: intakeq-clients-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-openapi.yml
-- filename: intakeq-openapi.yml
+- filename: intakeq-appointments-api-openapi.yml
   format: yaml
   label: IntakeQ Appointments API
   slug: intakeq-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-openapi.yml
-- filename: intakeq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-appointments-api-openapi.yml
+- filename: intakeq-clients-api-openapi.yml
   format: yaml
-  label: IntakeQ Intake Forms API
-  slug: intakeq-intake-forms-api
+  label: IntakeQ Clients API
+  slug: intakeq-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-openapi.yml
-- filename: intakeq-openapi.yml
-  format: yaml
-  label: IntakeQ Treatment Notes API
-  slug: intakeq-treatment-notes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-openapi.yml
-- filename: intakeq-openapi.yml
-  format: yaml
-  label: IntakeQ Invoices API
-  slug: intakeq-invoices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-openapi.yml
-- filename: intakeq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-clients-api-openapi.yml
+- filename: intakeq-files-api-openapi.yml
   format: yaml
   label: IntakeQ Files API
   slug: intakeq-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-files-api-openapi.yml
+- filename: intakeq-intake-forms-api-openapi.yml
+  format: yaml
+  label: IntakeQ Intake Forms API
+  slug: intakeq-intake-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-intake-forms-api-openapi.yml
+- filename: intakeq-invoices-api-openapi.yml
+  format: yaml
+  label: IntakeQ Invoices API
+  slug: intakeq-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-invoices-api-openapi.yml
+- filename: intakeq-treatment-notes-api-openapi.yml
+  format: yaml
+  label: IntakeQ Treatment Notes API
+  slug: intakeq-treatment-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-treatment-notes-api-openapi.yml
 description: ''
 domains:
 - caa: []

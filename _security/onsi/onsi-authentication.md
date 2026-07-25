@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: onsi-openapi-original.json
-  format: json
-  label: Onsi Partner API
-  slug: onsi-partner-api
+- filename: onsi-members-api-openapi.yml
+  format: yaml
+  label: Onsi members API
+  slug: onsi-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/openapi/onsi-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/openapi/onsi-members-api-openapi.yml
+- filename: onsi-pay-api-openapi.yml
+  format: yaml
+  label: Onsi pay API
+  slug: onsi-pay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/openapi/onsi-pay-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: humanloop-openapi.yml
+- filename: humanloop-datasets-api-openapi.yml
   format: yaml
-  label: Humanloop LLM Platform API
-  slug: llm-platform
+  label: Humanloop Datasets API
+  slug: humanloop-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/openapi/humanloop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/openapi/humanloop-datasets-api-openapi.yml
+- filename: humanloop-evaluators-api-openapi.yml
+  format: yaml
+  label: Humanloop Evaluators API
+  slug: humanloop-evaluators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/openapi/humanloop-evaluators-api-openapi.yml
+- filename: humanloop-logs-api-openapi.yml
+  format: yaml
+  label: Humanloop Logs API
+  slug: humanloop-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/openapi/humanloop-logs-api-openapi.yml
+- filename: humanloop-prompts-api-openapi.yml
+  format: yaml
+  label: Humanloop Prompts API
+  slug: humanloop-prompts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/openapi/humanloop-prompts-api-openapi.yml
+- filename: humanloop-sessions-api-openapi.yml
+  format: yaml
+  label: Humanloop Sessions API
+  slug: humanloop-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/openapi/humanloop-sessions-api-openapi.yml
+- filename: humanloop-tools-api-openapi.yml
+  format: yaml
+  label: Humanloop Tools API
+  slug: humanloop-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/openapi/humanloop-tools-api-openapi.yml
 description: ''
 domains:
 - caa: []

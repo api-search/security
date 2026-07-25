@@ -2,12 +2,18 @@
 api_key_in:
 - query
 api_specs:
-- filename: openapi.yml
+- filename: onebusaway-default-api-openapi.yml
   format: yaml
-  label: OneBusAway REST API
-  slug: onebusaway-rest-api
+  label: OneBusAway default API
+  slug: onebusaway-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/OneBusAway/sdk-config/main/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/onebusaway/refs/heads/main/openapi/onebusaway-default-api-openapi.yml
+- filename: onebusaway-where-api-openapi.yml
+  format: yaml
+  label: OneBusAway Where API
+  slug: onebusaway-where-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onebusaway/refs/heads/main/openapi/onebusaway-where-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

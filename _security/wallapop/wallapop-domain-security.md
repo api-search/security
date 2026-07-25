@@ -1,23 +1,41 @@
 ---
 api_specs:
-- filename: wallapop-items-openapi-original.yml
+- filename: wallapop-categories-api-openapi.yml
   format: yaml
-  label: Wallapop Items Connect API
-  slug: wallapop-items-connect-api
+  label: Wallapop Categories API
+  slug: wallapop-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wallapop/refs/heads/main/openapi/wallapop-items-openapi-original.yml
-- filename: wallapop-transactions-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wallapop/refs/heads/main/openapi/wallapop-categories-api-openapi.yml
+- filename: wallapop-delivery-api-openapi.yml
   format: yaml
-  label: Wallapop Transactions Connect API
-  slug: wallapop-transactions-connect-api
+  label: Wallapop Delivery API
+  slug: wallapop-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wallapop/refs/heads/main/openapi/wallapop-transactions-openapi-original.yml
-- filename: wallapop-webhooks-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wallapop/refs/heads/main/openapi/wallapop-delivery-api-openapi.yml
+- filename: wallapop-disputes-api-openapi.yml
   format: yaml
-  label: Wallapop Webhooks Connect API
-  slug: wallapop-webhooks-connect-api
+  label: Wallapop Disputes API
+  slug: wallapop-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wallapop/refs/heads/main/openapi/wallapop-webhooks-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wallapop/refs/heads/main/openapi/wallapop-disputes-api-openapi.yml
+- filename: wallapop-items-api-openapi.yml
+  format: yaml
+  label: Wallapop Items API
+  slug: wallapop-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wallapop/refs/heads/main/openapi/wallapop-items-api-openapi.yml
+- filename: wallapop-transactions-api-openapi.yml
+  format: yaml
+  label: Wallapop Transactions API
+  slug: wallapop-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wallapop/refs/heads/main/openapi/wallapop-transactions-api-openapi.yml
+- filename: wallapop-webhooks-api-openapi.yml
+  format: yaml
+  label: Wallapop Webhooks API
+  slug: wallapop-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wallapop/refs/heads/main/openapi/wallapop-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

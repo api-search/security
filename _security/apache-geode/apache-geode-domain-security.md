@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: apache-geode-rest-openapi.yml
+- filename: apache-geode-administration-api-openapi.yml
   format: yaml
-  label: Apache Geode REST API
-  slug: apache-geode-rest-api
+  label: Apache Geode Administration API
+  slug: apache-geode-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-geode/refs/heads/main/openapi/apache-geode-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-geode/refs/heads/main/openapi/apache-geode-administration-api-openapi.yml
+- filename: apache-geode-functions-api-openapi.yml
+  format: yaml
+  label: Apache Geode Functions API
+  slug: apache-geode-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-geode/refs/heads/main/openapi/apache-geode-functions-api-openapi.yml
+- filename: apache-geode-queries-api-openapi.yml
+  format: yaml
+  label: Apache Geode Queries API
+  slug: apache-geode-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-geode/refs/heads/main/openapi/apache-geode-queries-api-openapi.yml
+- filename: apache-geode-regions-api-openapi.yml
+  format: yaml
+  label: Apache Geode Regions API
+  slug: apache-geode-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-geode/refs/heads/main/openapi/apache-geode-regions-api-openapi.yml
 description: ''
 domains:
 - caa:

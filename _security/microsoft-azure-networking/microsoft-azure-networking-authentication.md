@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: microsoft-azure-networking-openapi.yml
+- filename: microsoft-azure-networking-backend-address-pools-api-openapi.yml
   format: yaml
-  label: Azure Virtual Networks API
-  slug: azure-virtual-networks-api
+  label: Azure Networking Backend Address Pools API
+  slug: microsoft-azure-networking-backend-address-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-networking/refs/heads/main/openapi/microsoft-azure-networking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-networking/refs/heads/main/openapi/microsoft-azure-networking-backend-address-pools-api-openapi.yml
+- filename: microsoft-azure-networking-load-balancer-probes-api-openapi.yml
+  format: yaml
+  label: Azure Networking Load Balancer Probes API
+  slug: microsoft-azure-networking-load-balancer-probes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-networking/refs/heads/main/openapi/microsoft-azure-networking-load-balancer-probes-api-openapi.yml
+- filename: microsoft-azure-networking-load-balancers-api-openapi.yml
+  format: yaml
+  label: Azure Networking Load Balancers API
+  slug: microsoft-azure-networking-load-balancers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-networking/refs/heads/main/openapi/microsoft-azure-networking-load-balancers-api-openapi.yml
+- filename: microsoft-azure-networking-load-balancing-rules-api-openapi.yml
+  format: yaml
+  label: Azure Networking Load Balancing Rules API
+  slug: microsoft-azure-networking-load-balancing-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-networking/refs/heads/main/openapi/microsoft-azure-networking-load-balancing-rules-api-openapi.yml
+- filename: microsoft-azure-networking-operations-api-openapi.yml
+  format: yaml
+  label: Azure Networking Operations API
+  slug: microsoft-azure-networking-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-networking/refs/heads/main/openapi/microsoft-azure-networking-operations-api-openapi.yml
+- filename: microsoft-azure-networking-subnets-api-openapi.yml
+  format: yaml
+  label: Azure Networking Subnets API
+  slug: microsoft-azure-networking-subnets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-networking/refs/heads/main/openapi/microsoft-azure-networking-subnets-api-openapi.yml
+- filename: microsoft-azure-networking-virtual-network-peerings-api-openapi.yml
+  format: yaml
+  label: Azure Networking Virtual Network Peerings API
+  slug: microsoft-azure-networking-virtual-network-peerings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-networking/refs/heads/main/openapi/microsoft-azure-networking-virtual-network-peerings-api-openapi.yml
+- filename: microsoft-azure-networking-virtual-networks-api-openapi.yml
+  format: yaml
+  label: Azure Networking Virtual Networks API
+  slug: microsoft-azure-networking-virtual-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-networking/refs/heads/main/openapi/microsoft-azure-networking-virtual-networks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

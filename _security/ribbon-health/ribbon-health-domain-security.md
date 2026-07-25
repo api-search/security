@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: ribbon-health-h1-api-openapi.yml
+- filename: ribbon-health-cost-estimates-api-openapi.yml
   format: yaml
-  label: H1 API (Ribbon Health)
-  slug: h1-api
+  label: Ribbon Health Cost Estimates API
+  slug: ribbon-health-cost-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-h1-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-cost-estimates-api-openapi.yml
+- filename: ribbon-health-filters-api-openapi.yml
+  format: yaml
+  label: Ribbon Health Filters API
+  slug: ribbon-health-filters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-filters-api-openapi.yml
+- filename: ribbon-health-focus-area-endpoints-api-openapi.yml
+  format: yaml
+  label: Ribbon Health Focus Area Endpoints API
+  slug: ribbon-health-focus-area-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-focus-area-endpoints-api-openapi.yml
+- filename: ribbon-health-locations-api-openapi.yml
+  format: yaml
+  label: Ribbon Health Locations API
+  slug: ribbon-health-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-locations-api-openapi.yml
+- filename: ribbon-health-networks-api-openapi.yml
+  format: yaml
+  label: Ribbon Health Networks API
+  slug: ribbon-health-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-networks-api-openapi.yml
+- filename: ribbon-health-organizations-api-openapi.yml
+  format: yaml
+  label: Ribbon Health Organizations API
+  slug: ribbon-health-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-organizations-api-openapi.yml
+- filename: ribbon-health-price-transparency-api-openapi.yml
+  format: yaml
+  label: Ribbon Health Price Transparency API
+  slug: ribbon-health-price-transparency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-price-transparency-api-openapi.yml
+- filename: ribbon-health-providers-api-openapi.yml
+  format: yaml
+  label: Ribbon Health Providers API
+  slug: ribbon-health-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-providers-api-openapi.yml
+- filename: ribbon-health-reference-endpoints-api-openapi.yml
+  format: yaml
+  label: Ribbon Health Reference Endpoints API
+  slug: ribbon-health-reference-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-reference-endpoints-api-openapi.yml
+- filename: ribbon-health-tins-api-openapi.yml
+  format: yaml
+  label: Ribbon Health TINs API
+  slug: ribbon-health-tins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-tins-api-openapi.yml
 description: ''
 domains:
 - caa: []

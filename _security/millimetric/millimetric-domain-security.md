@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: millimetric-openapi.yml
+- filename: millimetric-identity-api-openapi.yml
   format: yaml
-  label: Millimetric Analytics API
-  slug: millimetric-analytics-api
+  label: Millimetric Identity API
+  slug: millimetric-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/openapi/millimetric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/openapi/millimetric-identity-api-openapi.yml
+- filename: millimetric-ingest-api-openapi.yml
+  format: yaml
+  label: Millimetric Ingest API
+  slug: millimetric-ingest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/openapi/millimetric-ingest-api-openapi.yml
+- filename: millimetric-read-api-openapi.yml
+  format: yaml
+  label: Millimetric Read API
+  slug: millimetric-read-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/openapi/millimetric-read-api-openapi.yml
 description: ''
 domains:
 - caa:

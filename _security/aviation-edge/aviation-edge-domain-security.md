@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: aviation-edge-openapi.yml
+- filename: aviation-edge-real-time-api-openapi.yml
   format: yaml
-  label: Aviation Edge
-  slug: aviation-edge
+  label: Aviation Edge Real-Time API
+  slug: aviation-edge-real-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/openapi/aviation-edge-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/openapi/aviation-edge-real-time-api-openapi.yml
+- filename: aviation-edge-reference-api-openapi.yml
+  format: yaml
+  label: Aviation Edge Reference API
+  slug: aviation-edge-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/openapi/aviation-edge-reference-api-openapi.yml
+- filename: aviation-edge-satellites-api-openapi.yml
+  format: yaml
+  label: Aviation Edge Satellites API
+  slug: aviation-edge-satellites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/openapi/aviation-edge-satellites-api-openapi.yml
+- filename: aviation-edge-schedules-api-openapi.yml
+  format: yaml
+  label: Aviation Edge Schedules API
+  slug: aviation-edge-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/openapi/aviation-edge-schedules-api-openapi.yml
 description: ''
 domains:
 - caa: []

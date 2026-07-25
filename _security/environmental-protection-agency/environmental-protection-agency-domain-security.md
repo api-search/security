@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: environmental-protection-agency-openapi.yml
+- filename: environmental-protection-agency-envirofacts-api-openapi.yml
   format: yaml
-  label: EPA Envirofacts Data Service API
-  slug: envirofacts
+  label: Environmental Protection Agency Envirofacts API
+  slug: environmental-protection-agency-envirofacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/environmental-protection-agency/refs/heads/main/openapi/environmental-protection-agency-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/environmental-protection-agency/refs/heads/main/openapi/environmental-protection-agency-envirofacts-api-openapi.yml
+- filename: environmental-protection-agency-uvindex-api-openapi.yml
+  format: yaml
+  label: Environmental Protection Agency UVIndex API
+  slug: environmental-protection-agency-uvindex-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/environmental-protection-agency/refs/heads/main/openapi/environmental-protection-agency-uvindex-api-openapi.yml
 description: ''
 domains:
 - caa: []

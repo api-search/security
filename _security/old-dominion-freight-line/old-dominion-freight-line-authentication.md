@@ -19,12 +19,12 @@ api_specs:
   slug: tracking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/openapi/old-dominion-freight-line-tracking-api-openapi.yml
-- filename: old-dominion-freight-line-document-api-openapi.yml
+- filename: old-dominion-freight-line-documents-api-openapi.yml
   format: yaml
-  label: ODFL Document API
-  slug: document-api
+  label: Old Dominion Freight Line Documents API
+  slug: old-dominion-freight-line-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/openapi/old-dominion-freight-line-document-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/openapi/old-dominion-freight-line-documents-api-openapi.yml
 auth_types:
 - http
 description: ''

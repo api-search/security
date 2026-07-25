@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: qstash-api-openapi.yml
+- filename: qstash-dead-letter-queue-api-openapi.yml
   format: yaml
-  label: QStash API
-  slug: qstash-api
+  label: QStash Dead Letter Queue API
+  slug: qstash-dead-letter-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/openapi/qstash-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/openapi/qstash-dead-letter-queue-api-openapi.yml
+- filename: qstash-flow-control-api-openapi.yml
+  format: yaml
+  label: QStash Flow Control API
+  slug: qstash-flow-control-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/openapi/qstash-flow-control-api-openapi.yml
+- filename: qstash-logs-api-openapi.yml
+  format: yaml
+  label: QStash Logs API
+  slug: qstash-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/openapi/qstash-logs-api-openapi.yml
+- filename: qstash-messages-api-openapi.yml
+  format: yaml
+  label: QStash Messages API
+  slug: qstash-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/openapi/qstash-messages-api-openapi.yml
+- filename: qstash-queues-api-openapi.yml
+  format: yaml
+  label: QStash Queues API
+  slug: qstash-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/openapi/qstash-queues-api-openapi.yml
+- filename: qstash-schedules-api-openapi.yml
+  format: yaml
+  label: QStash Schedules API
+  slug: qstash-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/openapi/qstash-schedules-api-openapi.yml
+- filename: qstash-url-groups-api-openapi.yml
+  format: yaml
+  label: QStash URL Groups API
+  slug: qstash-url-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/openapi/qstash-url-groups-api-openapi.yml
 auth_types:
 - http
 description: ''

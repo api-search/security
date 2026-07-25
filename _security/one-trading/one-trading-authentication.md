@@ -2,18 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: one-trading-fast-openapi.yml
-  format: yaml
-  label: One Trading Fast API
-  slug: one-trading-fast-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/openapi/one-trading-fast-openapi.yml
 - filename: one-trading-streams-asyncapi.yml
   format: yaml
   label: One Trading WebSocket Streams API
   slug: one-trading-websocket-streams-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/asyncapi/one-trading-streams-asyncapi.yml
+- filename: one-trading-funding-api-openapi.yml
+  format: yaml
+  label: One Trading Funding API
+  slug: one-trading-funding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/openapi/one-trading-funding-api-openapi.yml
+- filename: one-trading-futures-api-openapi.yml
+  format: yaml
+  label: One Trading Futures API
+  slug: one-trading-futures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/openapi/one-trading-futures-api-openapi.yml
+- filename: one-trading-public-api-openapi.yml
+  format: yaml
+  label: One Trading Public API
+  slug: one-trading-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/openapi/one-trading-public-api-openapi.yml
+- filename: one-trading-trading-api-openapi.yml
+  format: yaml
+  label: One Trading Trading API
+  slug: one-trading-trading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/openapi/one-trading-trading-api-openapi.yml
 auth_types:
 - http
 description: ''

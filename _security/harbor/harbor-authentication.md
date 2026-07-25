@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: swagger.json
-  format: json
-  label: Harbor API
-  slug: harbor
+- filename: harbor-challenges-api-openapi.yml
+  format: yaml
+  label: Harbor Challenges API
+  slug: harbor-challenges-api
   spec_type: OpenAPI
-  url: https://api.harbor.gg/docs/v1/swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/openapi/harbor-challenges-api-openapi.yml
+- filename: harbor-communities-api-openapi.yml
+  format: yaml
+  label: Harbor Communities API
+  slug: harbor-communities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/openapi/harbor-communities-api-openapi.yml
+- filename: harbor-leaderboards-api-openapi.yml
+  format: yaml
+  label: Harbor Leaderboards API
+  slug: harbor-leaderboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/openapi/harbor-leaderboards-api-openapi.yml
+- filename: harbor-members-api-openapi.yml
+  format: yaml
+  label: Harbor Members API
+  slug: harbor-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/openapi/harbor-members-api-openapi.yml
+- filename: harbor-redemptions-api-openapi.yml
+  format: yaml
+  label: Harbor Redemptions API
+  slug: harbor-redemptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/openapi/harbor-redemptions-api-openapi.yml
+- filename: harbor-rewards-api-openapi.yml
+  format: yaml
+  label: Harbor Rewards API
+  slug: harbor-rewards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/openapi/harbor-rewards-api-openapi.yml
 auth_types:
 - http
 description: ''

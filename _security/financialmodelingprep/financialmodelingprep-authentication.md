@@ -1,48 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: financialmodelingprep-openapi.yml
-  format: yaml
-  label: Financial Modeling Prep Financial Statements API
-  slug: financialmodelingprep-financial-statements-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/financialmodelingprep/refs/heads/main/openapi/financialmodelingprep-openapi.yml
-- filename: financialmodelingprep-openapi.yml
-  format: yaml
-  label: Financial Modeling Prep Quotes and Prices API
-  slug: financialmodelingprep-quotes-prices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/financialmodelingprep/refs/heads/main/openapi/financialmodelingprep-openapi.yml
-- filename: financialmodelingprep-openapi.yml
-  format: yaml
-  label: Financial Modeling Prep SEC Filings API
-  slug: financialmodelingprep-sec-filings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/financialmodelingprep/refs/heads/main/openapi/financialmodelingprep-openapi.yml
-- filename: financialmodelingprep-openapi.yml
-  format: yaml
-  label: Financial Modeling Prep Fundamentals API
-  slug: financialmodelingprep-fundamentals-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/financialmodelingprep/refs/heads/main/openapi/financialmodelingprep-openapi.yml
-- filename: financialmodelingprep-openapi.yml
-  format: yaml
-  label: Financial Modeling Prep Analyst Estimates API
-  slug: financialmodelingprep-analyst-estimates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/financialmodelingprep/refs/heads/main/openapi/financialmodelingprep-openapi.yml
-- filename: financialmodelingprep-openapi.yml
-  format: yaml
-  label: Financial Modeling Prep Economic Data API
-  slug: financialmodelingprep-economic-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/financialmodelingprep/refs/heads/main/openapi/financialmodelingprep-openapi.yml
 - filename: financialmodelingprep-asyncapi.yml
   format: yaml
   label: Financial Modeling Prep Real-Time WebSocket API
   slug: financialmodelingprep-realtime-websocket-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/financialmodelingprep/refs/heads/main/asyncapi/financialmodelingprep-asyncapi.yml
+- filename: financialmodelingprep-analyst-estimates-api-openapi.yml
+  format: yaml
+  label: Financial Modeling Prep Analyst Estimates API
+  slug: financialmodelingprep-analyst-estimates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/financialmodelingprep/refs/heads/main/openapi/financialmodelingprep-analyst-estimates-api-openapi.yml
+- filename: financialmodelingprep-economic-data-api-openapi.yml
+  format: yaml
+  label: Financial Modeling Prep Economic Data API
+  slug: financialmodelingprep-economic-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/financialmodelingprep/refs/heads/main/openapi/financialmodelingprep-economic-data-api-openapi.yml
+- filename: financialmodelingprep-financial-statements-api-openapi.yml
+  format: yaml
+  label: Financial Modeling Prep Financial Statements API
+  slug: financialmodelingprep-financial-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/financialmodelingprep/refs/heads/main/openapi/financialmodelingprep-financial-statements-api-openapi.yml
+- filename: financialmodelingprep-fundamentals-api-openapi.yml
+  format: yaml
+  label: Financial Modeling Prep Fundamentals API
+  slug: financialmodelingprep-fundamentals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/financialmodelingprep/refs/heads/main/openapi/financialmodelingprep-fundamentals-api-openapi.yml
+- filename: financialmodelingprep-quotes-and-prices-api-openapi.yml
+  format: yaml
+  label: Financial Modeling Prep Quotes and Prices API
+  slug: financialmodelingprep-quotes-and-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/financialmodelingprep/refs/heads/main/openapi/financialmodelingprep-quotes-and-prices-api-openapi.yml
+- filename: financialmodelingprep-sec-filings-api-openapi.yml
+  format: yaml
+  label: Financial Modeling Prep SEC Filings API
+  slug: financialmodelingprep-sec-filings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/financialmodelingprep/refs/heads/main/openapi/financialmodelingprep-sec-filings-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

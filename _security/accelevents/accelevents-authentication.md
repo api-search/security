@@ -2,36 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: accelevents-openapi.yml
-  format: yaml
-  label: Accelevents Events API
-  slug: accelevents-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-openapi.yml
-- filename: accelevents-openapi.yml
+- filename: accelevents-attendees-api-openapi.yml
   format: yaml
   label: Accelevents Attendees API
   slug: accelevents-attendees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-openapi.yml
-- filename: accelevents-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-attendees-api-openapi.yml
+- filename: accelevents-events-api-openapi.yml
   format: yaml
-  label: Accelevents Ticketing Orders API
+  label: Accelevents Events API
+  slug: accelevents-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-events-api-openapi.yml
+- filename: accelevents-orders-api-openapi.yml
+  format: yaml
+  label: Accelevents Orders API
   slug: accelevents-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-openapi.yml
-- filename: accelevents-openapi.yml
-  format: yaml
-  label: Accelevents Tickets API
-  slug: accelevents-tickets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-openapi.yml
-- filename: accelevents-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-orders-api-openapi.yml
+- filename: accelevents-sessions-api-openapi.yml
   format: yaml
   label: Accelevents Sessions API
   slug: accelevents-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-sessions-api-openapi.yml
+- filename: accelevents-tickets-api-openapi.yml
+  format: yaml
+  label: Accelevents Tickets API
+  slug: accelevents-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-tickets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -2,42 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: codacy-openapi.yml
+- filename: codacy-account-api-openapi.yml
   format: yaml
-  label: Codacy Organizations API
-  slug: organizations
+  label: Codacy Account API
+  slug: codacy-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-openapi.yml
-- filename: codacy-openapi.yml
-  format: yaml
-  label: Codacy Repositories API
-  slug: repositories
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-openapi.yml
-- filename: codacy-openapi.yml
-  format: yaml
-  label: Codacy Issues API
-  slug: issues
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-openapi.yml
-- filename: codacy-openapi.yml
-  format: yaml
-  label: Codacy Pull Requests API
-  slug: pull-requests
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-openapi.yml
-- filename: codacy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-account-api-openapi.yml
+- filename: codacy-coverage-api-openapi.yml
   format: yaml
   label: Codacy Coverage API
-  slug: coverage
+  slug: codacy-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-openapi.yml
-- filename: codacy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-coverage-api-openapi.yml
+- filename: codacy-issues-api-openapi.yml
+  format: yaml
+  label: Codacy Issues API
+  slug: codacy-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-issues-api-openapi.yml
+- filename: codacy-organizations-api-openapi.yml
+  format: yaml
+  label: Codacy Organizations API
+  slug: codacy-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-organizations-api-openapi.yml
+- filename: codacy-pull-requests-api-openapi.yml
+  format: yaml
+  label: Codacy Pull Requests API
+  slug: codacy-pull-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-pull-requests-api-openapi.yml
+- filename: codacy-quality-settings-api-openapi.yml
+  format: yaml
+  label: Codacy Quality Settings API
+  slug: codacy-quality-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-quality-settings-api-openapi.yml
+- filename: codacy-repositories-api-openapi.yml
+  format: yaml
+  label: Codacy Repositories API
+  slug: codacy-repositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-repositories-api-openapi.yml
+- filename: codacy-security-api-openapi.yml
   format: yaml
   label: Codacy Security API
-  slug: security
+  slug: codacy-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-security-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

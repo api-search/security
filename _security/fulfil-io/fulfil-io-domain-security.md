@@ -1,59 +1,65 @@
 ---
 api_specs:
-- filename: fulfil-io-openapi.yml
+- filename: fulfil-io-authentication-api-openapi.yml
   format: yaml
-  label: Fulfil Sales Orders API
-  slug: fulfil-io-sales-orders-api
+  label: Fulfil Authentication API
+  slug: fulfil-io-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-openapi.yml
-- filename: fulfil-io-openapi.yml
-  format: yaml
-  label: Fulfil Products & Variants API
-  slug: fulfil-io-products-variants-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-openapi.yml
-- filename: fulfil-io-openapi.yml
-  format: yaml
-  label: Fulfil Inventory & Stock API
-  slug: fulfil-io-inventory-stock-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-openapi.yml
-- filename: fulfil-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-authentication-api-openapi.yml
+- filename: fulfil-io-customers-api-openapi.yml
   format: yaml
   label: Fulfil Customers API
   slug: fulfil-io-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-openapi.yml
-- filename: fulfil-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-customers-api-openapi.yml
+- filename: fulfil-io-inventory-stock-api-openapi.yml
   format: yaml
-  label: Fulfil Shipments API
-  slug: fulfil-io-shipments-api
+  label: Fulfil Inventory & Stock API
+  slug: fulfil-io-inventory-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-openapi.yml
-- filename: fulfil-io-openapi.yml
-  format: yaml
-  label: Fulfil Purchases API
-  slug: fulfil-io-purchases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-openapi.yml
-- filename: fulfil-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-inventory-stock-api-openapi.yml
+- filename: fulfil-io-manufacturing-api-openapi.yml
   format: yaml
   label: Fulfil Manufacturing API
   slug: fulfil-io-manufacturing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-openapi.yml
-- filename: fulfil-io-openapi.yml
-  format: yaml
-  label: Fulfil Webhooks API
-  slug: fulfil-io-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-openapi.yml
-- filename: fulfil-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-manufacturing-api-openapi.yml
+- filename: fulfil-io-model-interface-api-openapi.yml
   format: yaml
   label: Fulfil Model Interface API
   slug: fulfil-io-model-interface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-model-interface-api-openapi.yml
+- filename: fulfil-io-products-variants-api-openapi.yml
+  format: yaml
+  label: Fulfil Products & Variants API
+  slug: fulfil-io-products-variants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-products-variants-api-openapi.yml
+- filename: fulfil-io-purchases-api-openapi.yml
+  format: yaml
+  label: Fulfil Purchases API
+  slug: fulfil-io-purchases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-purchases-api-openapi.yml
+- filename: fulfil-io-sales-orders-api-openapi.yml
+  format: yaml
+  label: Fulfil Sales Orders API
+  slug: fulfil-io-sales-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-sales-orders-api-openapi.yml
+- filename: fulfil-io-shipments-api-openapi.yml
+  format: yaml
+  label: Fulfil Shipments API
+  slug: fulfil-io-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-shipments-api-openapi.yml
+- filename: fulfil-io-webhooks-api-openapi.yml
+  format: yaml
+  label: Fulfil Webhooks API
+  slug: fulfil-io-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

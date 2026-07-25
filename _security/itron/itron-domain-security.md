@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: starfish-data-platform-openapi.yml
+- filename: itron-device-templates-api-openapi.yml
   format: yaml
-  label: Itron Starfish Data Platform API
-  slug: itron-starfish-data-platform-api
+  label: Itron Device Templates API
+  slug: itron-device-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/openapi/starfish-data-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/openapi/itron-device-templates-api-openapi.yml
+- filename: itron-devices-api-openapi.yml
+  format: yaml
+  label: Itron Devices API
+  slug: itron-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/openapi/itron-devices-api-openapi.yml
+- filename: itron-observations-api-openapi.yml
+  format: yaml
+  label: Itron Observations API
+  slug: itron-observations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/openapi/itron-observations-api-openapi.yml
+- filename: itron-tokens-api-openapi.yml
+  format: yaml
+  label: Itron Tokens API
+  slug: itron-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/openapi/itron-tokens-api-openapi.yml
 description: ''
 domains:
 - caa: []

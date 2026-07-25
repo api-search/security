@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: uselemma-platform-api-openapi-original.json
-  format: json
-  label: Lemma Platform API
-  slug: uselemma-platform-api
+- filename: uselemma-artifacts-api-openapi.yml
+  format: yaml
+  label: Lemma Artifacts API
+  slug: uselemma-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/openapi/uselemma-platform-api-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/openapi/uselemma-artifacts-api-openapi.yml
+- filename: uselemma-issues-api-openapi.yml
+  format: yaml
+  label: Lemma Issues API
+  slug: uselemma-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/openapi/uselemma-issues-api-openapi.yml
+- filename: uselemma-projects-api-openapi.yml
+  format: yaml
+  label: Lemma Projects API
+  slug: uselemma-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/openapi/uselemma-projects-api-openapi.yml
+- filename: uselemma-traces-api-openapi.yml
+  format: yaml
+  label: Lemma Traces API
+  slug: uselemma-traces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/openapi/uselemma-traces-api-openapi.yml
 auth_types:
 - http
 description: ''

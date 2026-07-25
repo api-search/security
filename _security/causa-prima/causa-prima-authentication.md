@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: causa-prima-scribo-openapi.json
-  format: json
-  label: Scribo Invoice API
-  slug: causa-prima-scribo
+- filename: causa-prima-invoices-api-openapi.yml
+  format: yaml
+  label: Causa Prima Invoices API
+  slug: causa-prima-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/openapi/causa-prima-scribo-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/openapi/causa-prima-invoices-api-openapi.yml
+- filename: causa-prima-jurisdictions-api-openapi.yml
+  format: yaml
+  label: Causa Prima Jurisdictions API
+  slug: causa-prima-jurisdictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/openapi/causa-prima-jurisdictions-api-openapi.yml
+- filename: causa-prima-scribo-api-openapi.yml
+  format: yaml
+  label: Causa Prima Scribo API
+  slug: causa-prima-scribo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/openapi/causa-prima-scribo-api-openapi.yml
 auth_types:
 - http
 description: ''

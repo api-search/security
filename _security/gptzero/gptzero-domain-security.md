@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: gptzero-openapi-original.json
-  format: json
-  label: GPTZero API
-  slug: gptzero-api
+- filename: gptzero-batch-api-openapi.yml
+  format: yaml
+  label: GPTZero Batch API
+  slug: gptzero-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gptzero/refs/heads/main/openapi/gptzero-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/gptzero/refs/heads/main/openapi/gptzero-batch-api-openapi.yml
+- filename: gptzero-detection-api-openapi.yml
+  format: yaml
+  label: GPTZero Detection API
+  slug: gptzero-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gptzero/refs/heads/main/openapi/gptzero-detection-api-openapi.yml
+- filename: gptzero-documents-api-openapi.yml
+  format: yaml
+  label: GPTZero Documents API
+  slug: gptzero-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gptzero/refs/heads/main/openapi/gptzero-documents-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,23 +1,83 @@
 ---
 api_specs:
-- filename: toyota-vehicle-openapi.yml
+- filename: toyota-climate-api-openapi.yml
   format: yaml
-  label: Toyota Vehicle API
-  slug: toyota-vehicle
+  label: Toyota Climate API
+  slug: toyota-climate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-vehicle-openapi.yml
-- filename: toyota-telematics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-climate-api-openapi.yml
+- filename: toyota-electric-api-openapi.yml
   format: yaml
-  label: Toyota Telematics API
-  slug: toyota-telematics
+  label: Toyota Electric API
+  slug: toyota-electric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-telematics-openapi.yml
-- filename: toyota-connected-services-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-electric-api-openapi.yml
+- filename: toyota-fleet-api-openapi.yml
   format: yaml
-  label: Toyota Connected Services API
-  slug: toyota-connected-services
+  label: Toyota Fleet API
+  slug: toyota-fleet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-connected-services-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-fleet-api-openapi.yml
+- filename: toyota-health-api-openapi.yml
+  format: yaml
+  label: Toyota Health API
+  slug: toyota-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-health-api-openapi.yml
+- filename: toyota-history-api-openapi.yml
+  format: yaml
+  label: Toyota History API
+  slug: toyota-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-history-api-openapi.yml
+- filename: toyota-location-api-openapi.yml
+  format: yaml
+  label: Toyota Location API
+  slug: toyota-location-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-location-api-openapi.yml
+- filename: toyota-notifications-api-openapi.yml
+  format: yaml
+  label: Toyota Notifications API
+  slug: toyota-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-notifications-api-openapi.yml
+- filename: toyota-remote-api-openapi.yml
+  format: yaml
+  label: Toyota Remote API
+  slug: toyota-remote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-remote-api-openapi.yml
+- filename: toyota-status-api-openapi.yml
+  format: yaml
+  label: Toyota Status API
+  slug: toyota-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-status-api-openapi.yml
+- filename: toyota-subscriptions-api-openapi.yml
+  format: yaml
+  label: Toyota Subscriptions API
+  slug: toyota-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-subscriptions-api-openapi.yml
+- filename: toyota-telemetry-api-openapi.yml
+  format: yaml
+  label: Toyota Telemetry API
+  slug: toyota-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-telemetry-api-openapi.yml
+- filename: toyota-trips-api-openapi.yml
+  format: yaml
+  label: Toyota Trips API
+  slug: toyota-trips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-trips-api-openapi.yml
+- filename: toyota-vehicles-api-openapi.yml
+  format: yaml
+  label: Toyota Vehicles API
+  slug: toyota-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-vehicles-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,17 +1,143 @@
 ---
 api_specs:
-- filename: api-docs
+- filename: reactome-database-api-openapi.yml
   format: yaml
-  label: Reactome Content Service API
-  slug: content-service
+  label: Reactome database API
+  slug: reactome-database-api
   spec_type: OpenAPI
-  url: https://reactome.org/ContentService/v3/api-docs
-- filename: api-docs
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-database-api-openapi.yml
+- filename: reactome-discover-api-openapi.yml
   format: yaml
-  label: Reactome Analysis Service API
-  slug: analysis-service
+  label: Reactome discover API
+  slug: reactome-discover-api
   spec_type: OpenAPI
-  url: https://reactome.org/AnalysisService/v3/api-docs
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-discover-api-openapi.yml
+- filename: reactome-diseases-api-openapi.yml
+  format: yaml
+  label: Reactome diseases API
+  slug: reactome-diseases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-diseases-api-openapi.yml
+- filename: reactome-download-api-openapi.yml
+  format: yaml
+  label: Reactome download API
+  slug: reactome-download-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-download-api-openapi.yml
+- filename: reactome-entities-api-openapi.yml
+  format: yaml
+  label: Reactome entities API
+  slug: reactome-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-entities-api-openapi.yml
+- filename: reactome-events-api-openapi.yml
+  format: yaml
+  label: Reactome events API
+  slug: reactome-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-events-api-openapi.yml
+- filename: reactome-exporter-api-openapi.yml
+  format: yaml
+  label: Reactome exporter API
+  slug: reactome-exporter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-exporter-api-openapi.yml
+- filename: reactome-identifier-api-openapi.yml
+  format: yaml
+  label: Reactome identifier API
+  slug: reactome-identifier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-identifier-api-openapi.yml
+- filename: reactome-identifiers-api-openapi.yml
+  format: yaml
+  label: Reactome identifiers API
+  slug: reactome-identifiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-identifiers-api-openapi.yml
+- filename: reactome-import-api-openapi.yml
+  format: yaml
+  label: Reactome import API
+  slug: reactome-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-import-api-openapi.yml
+- filename: reactome-interactors-api-openapi.yml
+  format: yaml
+  label: Reactome interactors API
+  slug: reactome-interactors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-interactors-api-openapi.yml
+- filename: reactome-mapping-api-openapi.yml
+  format: yaml
+  label: Reactome mapping API
+  slug: reactome-mapping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-mapping-api-openapi.yml
+- filename: reactome-orthology-api-openapi.yml
+  format: yaml
+  label: Reactome orthology API
+  slug: reactome-orthology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-orthology-api-openapi.yml
+- filename: reactome-participants-api-openapi.yml
+  format: yaml
+  label: Reactome participants API
+  slug: reactome-participants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-participants-api-openapi.yml
+- filename: reactome-pathways-api-openapi.yml
+  format: yaml
+  label: Reactome pathways API
+  slug: reactome-pathways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-pathways-api-openapi.yml
+- filename: reactome-person-api-openapi.yml
+  format: yaml
+  label: Reactome person API
+  slug: reactome-person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-person-api-openapi.yml
+- filename: reactome-query-api-openapi.yml
+  format: yaml
+  label: Reactome query API
+  slug: reactome-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-query-api-openapi.yml
+- filename: reactome-references-api-openapi.yml
+  format: yaml
+  label: Reactome references API
+  slug: reactome-references-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-references-api-openapi.yml
+- filename: reactome-report-api-openapi.yml
+  format: yaml
+  label: Reactome report API
+  slug: reactome-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-report-api-openapi.yml
+- filename: reactome-schema-api-openapi.yml
+  format: yaml
+  label: Reactome schema API
+  slug: reactome-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-schema-api-openapi.yml
+- filename: reactome-search-api-openapi.yml
+  format: yaml
+  label: Reactome search API
+  slug: reactome-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-search-api-openapi.yml
+- filename: reactome-species-api-openapi.yml
+  format: yaml
+  label: Reactome species API
+  slug: reactome-species-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-species-api-openapi.yml
+- filename: reactome-token-api-openapi.yml
+  format: yaml
+  label: Reactome token API
+  slug: reactome-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-token-api-openapi.yml
 description: ''
 domains:
 - caa: []

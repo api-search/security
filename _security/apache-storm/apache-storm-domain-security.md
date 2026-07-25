@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: apache-storm-openapi.yml
+- filename: apache-storm-topology-api-openapi.yml
   format: yaml
-  label: Apache Storm REST API
-  slug: apache-storm-rest-api
+  label: Apache Storm Topology API
+  slug: apache-storm-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-topology-api-openapi.yml
+- filename: apache-storm-cluster-api-openapi.yml
+  format: yaml
+  label: Apache Storm Cluster API
+  slug: apache-storm-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-cluster-api-openapi.yml
+- filename: apache-storm-drpc-api-openapi.yml
+  format: yaml
+  label: Apache Storm Drpc API
+  slug: apache-storm-drpc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-drpc-api-openapi.yml
+- filename: apache-storm-history-api-openapi.yml
+  format: yaml
+  label: Apache Storm History API
+  slug: apache-storm-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-history-api-openapi.yml
+- filename: apache-storm-nimbus-api-openapi.yml
+  format: yaml
+  label: Apache Storm Nimbus API
+  slug: apache-storm-nimbus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-nimbus-api-openapi.yml
+- filename: apache-storm-owner-resources-api-openapi.yml
+  format: yaml
+  label: Apache Storm Owner Resources API
+  slug: apache-storm-owner-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-owner-resources-api-openapi.yml
+- filename: apache-storm-supervisor-api-openapi.yml
+  format: yaml
+  label: Apache Storm Supervisor API
+  slug: apache-storm-supervisor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-supervisor-api-openapi.yml
+- filename: apache-storm-topology-api-openapi.yml
+  format: yaml
+  label: Apache Storm Topology API
+  slug: apache-storm-topology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-topology-api-openapi.yml
+- filename: apache-storm-topology-workers-api-openapi.yml
+  format: yaml
+  label: Apache Storm Topology Workers API
+  slug: apache-storm-topology-workers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-topology-workers-api-openapi.yml
 description: ''
 domains:
 - caa:

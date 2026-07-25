@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: hivemapper-beemaps-openapi.yml
+- filename: hivemapper-account-api-openapi.yml
   format: yaml
-  label: Bee Maps (Hivemapper) Developer API
-  slug: bee-maps-hivemapper-developer-api
+  label: Hivemapper Account API
+  slug: hivemapper-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/openapi/hivemapper-beemaps-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/openapi/hivemapper-account-api-openapi.yml
+- filename: hivemapper-ai-events-api-openapi.yml
+  format: yaml
+  label: Hivemapper AI Events API
+  slug: hivemapper-ai-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/openapi/hivemapper-ai-events-api-openapi.yml
+- filename: hivemapper-bursts-api-openapi.yml
+  format: yaml
+  label: Hivemapper Bursts API
+  slug: hivemapper-bursts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/openapi/hivemapper-bursts-api-openapi.yml
+- filename: hivemapper-imagery-api-openapi.yml
+  format: yaml
+  label: Hivemapper Imagery API
+  slug: hivemapper-imagery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/openapi/hivemapper-imagery-api-openapi.yml
+- filename: hivemapper-map-features-api-openapi.yml
+  format: yaml
+  label: Hivemapper Map Features API
+  slug: hivemapper-map-features-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/openapi/hivemapper-map-features-api-openapi.yml
 description: ''
 domains:
 - caa: []

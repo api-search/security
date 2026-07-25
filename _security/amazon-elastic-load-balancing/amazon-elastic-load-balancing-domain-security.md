@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: amazon-elastic-load-balancing-openapi.yml
+- filename: amazon-elastic-load-balancing-listeners-api-openapi.yml
   format: yaml
-  label: Elastic Load Balancing v2 API
-  slug: elastic-load-balancing-v2-api
+  label: Amazon Elastic Load Balancing Listeners API
+  slug: amazon-elastic-load-balancing-listeners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/openapi/amazon-elastic-load-balancing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/openapi/amazon-elastic-load-balancing-listeners-api-openapi.yml
+- filename: amazon-elastic-load-balancing-load-balancers-api-openapi.yml
+  format: yaml
+  label: Amazon Elastic Load Balancing Load Balancers API
+  slug: amazon-elastic-load-balancing-load-balancers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/openapi/amazon-elastic-load-balancing-load-balancers-api-openapi.yml
+- filename: amazon-elastic-load-balancing-rules-api-openapi.yml
+  format: yaml
+  label: Amazon Elastic Load Balancing Rules API
+  slug: amazon-elastic-load-balancing-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/openapi/amazon-elastic-load-balancing-rules-api-openapi.yml
+- filename: amazon-elastic-load-balancing-target-groups-api-openapi.yml
+  format: yaml
+  label: Amazon Elastic Load Balancing Target Groups API
+  slug: amazon-elastic-load-balancing-target-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/openapi/amazon-elastic-load-balancing-target-groups-api-openapi.yml
+- filename: amazon-elastic-load-balancing-targets-api-openapi.yml
+  format: yaml
+  label: Amazon Elastic Load Balancing Targets API
+  slug: amazon-elastic-load-balancing-targets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/openapi/amazon-elastic-load-balancing-targets-api-openapi.yml
 description: ''
 domains:
 - caa: []

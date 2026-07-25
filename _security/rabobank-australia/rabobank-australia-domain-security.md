@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: rabobank-australia-cds-banking-products-openapi.yml
+- filename: rabobank-australia-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Rabobank Australia CDR Product Reference Data API
-  slug: rabobank-australia-cdr-product-reference-data-api
+  label: Rabobank Australia Banking Account Balances API
+  slug: rabobank-australia-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/openapi/rabobank-australia-cds-banking-products-openapi.yml
-- filename: rabobank-australia-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/openapi/rabobank-australia-banking-account-balances-api-openapi.yml
+- filename: rabobank-australia-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Rabobank Australia CDR Accounts & Balances API
-  slug: rabobank-australia-cdr-accounts-balances-api
+  label: Rabobank Australia Banking Account Direct Debits API
+  slug: rabobank-australia-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/openapi/rabobank-australia-cds-banking-products-openapi.yml
-- filename: rabobank-australia-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/openapi/rabobank-australia-banking-account-direct-debits-api-openapi.yml
+- filename: rabobank-australia-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Rabobank Australia CDR Transactions API
-  slug: rabobank-australia-cdr-transactions-api
+  label: Rabobank Australia Banking Account Scheduled Payments API
+  slug: rabobank-australia-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/openapi/rabobank-australia-cds-banking-products-openapi.yml
-- filename: rabobank-australia-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/openapi/rabobank-australia-banking-account-scheduled-payments-api-openapi.yml
+- filename: rabobank-australia-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Rabobank Australia CDR Direct Debits & Scheduled Payments API
-  slug: rabobank-australia-cdr-direct-debits-scheduled-payments-api
+  label: Rabobank Australia Banking Account Transactions API
+  slug: rabobank-australia-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/openapi/rabobank-australia-cds-banking-products-openapi.yml
-- filename: rabobank-australia-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/openapi/rabobank-australia-banking-account-transactions-api-openapi.yml
+- filename: rabobank-australia-banking-accounts-api-openapi.yml
   format: yaml
-  label: Rabobank Australia CDR Payees API
-  slug: rabobank-australia-cdr-payees-api
+  label: Rabobank Australia Banking Accounts API
+  slug: rabobank-australia-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/openapi/rabobank-australia-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/openapi/rabobank-australia-banking-accounts-api-openapi.yml
+- filename: rabobank-australia-banking-payees-api-openapi.yml
+  format: yaml
+  label: Rabobank Australia Banking Payees API
+  slug: rabobank-australia-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/openapi/rabobank-australia-banking-payees-api-openapi.yml
+- filename: rabobank-australia-banking-products-api-openapi.yml
+  format: yaml
+  label: Rabobank Australia Banking Products API
+  slug: rabobank-australia-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/openapi/rabobank-australia-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa:

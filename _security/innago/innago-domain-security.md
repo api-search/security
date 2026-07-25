@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: innago-expenses-api-openapi.yml
   format: yaml
-  label: Innago API
-  slug: innago-api
+  label: Innago Expenses API
+  slug: innago-expenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/openapi/innago-expenses-api-openapi.yml
+- filename: innago-external-references-api-openapi.yml
+  format: yaml
+  label: Innago External References API
+  slug: innago-external-references-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/openapi/innago-external-references-api-openapi.yml
+- filename: innago-health-api-openapi.yml
+  format: yaml
+  label: Innago Health API
+  slug: innago-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/openapi/innago-health-api-openapi.yml
+- filename: innago-invoices-api-openapi.yml
+  format: yaml
+  label: Innago Invoices API
+  slug: innago-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/openapi/innago-invoices-api-openapi.yml
+- filename: innago-leases-api-openapi.yml
+  format: yaml
+  label: Innago Leases API
+  slug: innago-leases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/openapi/innago-leases-api-openapi.yml
+- filename: innago-maintenance-api-openapi.yml
+  format: yaml
+  label: Innago Maintenance API
+  slug: innago-maintenance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/openapi/innago-maintenance-api-openapi.yml
+- filename: innago-payments-api-openapi.yml
+  format: yaml
+  label: Innago Payments API
+  slug: innago-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/openapi/innago-payments-api-openapi.yml
+- filename: innago-properties-api-openapi.yml
+  format: yaml
+  label: Innago Properties API
+  slug: innago-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/openapi/innago-properties-api-openapi.yml
+- filename: innago-tenants-api-openapi.yml
+  format: yaml
+  label: Innago Tenants API
+  slug: innago-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/openapi/innago-tenants-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: hyperline-openapi.yml
+- filename: hyperline-billable-events-api-openapi.yml
+  format: yaml
+  label: Hyperline Billable Events API
+  slug: hyperline-billable-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-billable-events-api-openapi.yml
+- filename: hyperline-customers-api-openapi.yml
   format: yaml
   label: Hyperline Customers API
   slug: hyperline-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-openapi.yml
-- filename: hyperline-openapi.yml
-  format: yaml
-  label: Hyperline Products & Plans API
-  slug: hyperline-products-plans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-openapi.yml
-- filename: hyperline-openapi.yml
-  format: yaml
-  label: Hyperline Subscriptions API
-  slug: hyperline-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-openapi.yml
-- filename: hyperline-openapi.yml
-  format: yaml
-  label: Hyperline Usage & Events API
-  slug: hyperline-usage-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-openapi.yml
-- filename: hyperline-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-customers-api-openapi.yml
+- filename: hyperline-invoices-api-openapi.yml
   format: yaml
   label: Hyperline Invoices API
   slug: hyperline-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-openapi.yml
-- filename: hyperline-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-invoices-api-openapi.yml
+- filename: hyperline-payments-api-openapi.yml
   format: yaml
   label: Hyperline Payments API
   slug: hyperline-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-openapi.yml
-- filename: hyperline-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-payments-api-openapi.yml
+- filename: hyperline-products-api-openapi.yml
+  format: yaml
+  label: Hyperline Products API
+  slug: hyperline-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-products-api-openapi.yml
+- filename: hyperline-subscriptions-api-openapi.yml
+  format: yaml
+  label: Hyperline Subscriptions API
+  slug: hyperline-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-subscriptions-api-openapi.yml
+- filename: hyperline-webhooks-api-openapi.yml
   format: yaml
   label: Hyperline Webhooks API
   slug: hyperline-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-webhooks-api-openapi.yml
 certifications:
 - ISO 27001
 - GDPR

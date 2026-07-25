@@ -1,65 +1,83 @@
 ---
 api_specs:
-- filename: neon-commerce-account-openapi.yml
+- filename: neon-commerce-account-api-openapi.yml
   format: yaml
-  label: Neon Account API
+  label: Neon Commerce Account API
   slug: neon-commerce-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-account-openapi.yml
-- filename: neon-commerce-assets-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-account-api-openapi.yml
+- filename: neon-commerce-assets-api-openapi.yml
   format: yaml
-  label: Neon Assets API
+  label: Neon Commerce Assets API
   slug: neon-commerce-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-assets-openapi.yml
-- filename: neon-commerce-auth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-assets-api-openapi.yml
+- filename: neon-commerce-auth-api-openapi.yml
   format: yaml
-  label: Neon Auth API
+  label: Neon Commerce Auth API
   slug: neon-commerce-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-auth-openapi.yml
-- filename: neon-commerce-checkout-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-auth-api-openapi.yml
+- filename: neon-commerce-checkout-api-openapi.yml
   format: yaml
-  label: Neon Checkout API
+  label: Neon Commerce Checkout API
   slug: neon-commerce-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-checkout-openapi.yml
-- filename: neon-commerce-payout-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-checkout-api-openapi.yml
+- filename: neon-commerce-client-api-openapi.yml
   format: yaml
-  label: Neon Payout API
-  slug: neon-commerce-payout-api
+  label: Neon Commerce Client API
+  slug: neon-commerce-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-payout-openapi.yml
-- filename: neon-commerce-purchase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-client-api-openapi.yml
+- filename: neon-commerce-payouts-api-openapi.yml
   format: yaml
-  label: Neon Purchase API
-  slug: neon-commerce-purchase-api
+  label: Neon Commerce Payouts API
+  slug: neon-commerce-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-purchase-openapi.yml
-- filename: neon-commerce-reports-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-payouts-api-openapi.yml
+- filename: neon-commerce-prices-api-openapi.yml
   format: yaml
-  label: Neon Reports API
+  label: Neon Commerce Prices API
+  slug: neon-commerce-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-prices-api-openapi.yml
+- filename: neon-commerce-pricing-sheet-api-openapi.yml
+  format: yaml
+  label: Neon Commerce Pricing Sheet API
+  slug: neon-commerce-pricing-sheet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-pricing-sheet-api-openapi.yml
+- filename: neon-commerce-purchases-api-openapi.yml
+  format: yaml
+  label: Neon Commerce Purchases API
+  slug: neon-commerce-purchases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-purchases-api-openapi.yml
+- filename: neon-commerce-reports-api-openapi.yml
+  format: yaml
+  label: Neon Commerce Reports API
   slug: neon-commerce-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-reports-openapi.yml
-- filename: neon-commerce-status-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-reports-api-openapi.yml
+- filename: neon-commerce-status-api-openapi.yml
   format: yaml
-  label: Neon Status API
+  label: Neon Commerce Status API
   slug: neon-commerce-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-status-openapi.yml
-- filename: neon-commerce-storefront-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-status-api-openapi.yml
+- filename: neon-commerce-storefront-api-openapi.yml
   format: yaml
-  label: Neon Storefront API
+  label: Neon Commerce Storefront API
   slug: neon-commerce-storefront-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-storefront-openapi.yml
-- filename: neon-commerce-subscriptions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-storefront-api-openapi.yml
+- filename: neon-commerce-subscriptions-api-openapi.yml
   format: yaml
-  label: Neon Subscriptions API
+  label: Neon Commerce Subscriptions API
   slug: neon-commerce-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-subscriptions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []

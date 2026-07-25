@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: products-api-openapi.yml
+- filename: products-api-products-api-openapi.yml
   format: yaml
-  label: Products API.
-  slug: products-api
+  label: Products Products API
+  slug: products-api-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-products/refs/heads/main/openapi/products-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-products/refs/heads/main/openapi/products-api-products-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: kickbox-openapi.yml
+- filename: kickbox-account-api-openapi.yml
   format: yaml
-  label: Kickbox Email Verification API
-  slug: verification-api
+  label: Kickbox Account API
+  slug: kickbox-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/openapi/kickbox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/openapi/kickbox-account-api-openapi.yml
+- filename: kickbox-batch-api-openapi.yml
+  format: yaml
+  label: Kickbox Batch API
+  slug: kickbox-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/openapi/kickbox-batch-api-openapi.yml
+- filename: kickbox-open-api-openapi.yml
+  format: yaml
+  label: Kickbox Open API
+  slug: kickbox-open-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/openapi/kickbox-open-api-openapi.yml
+- filename: kickbox-verification-api-openapi.yml
+  format: yaml
+  label: Kickbox Verification API
+  slug: kickbox-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/openapi/kickbox-verification-api-openapi.yml
 description: ''
 domains:
 - caa:

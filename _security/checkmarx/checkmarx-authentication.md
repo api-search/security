@@ -1,24 +1,96 @@
 ---
 api_key_in: []
 api_specs:
-- filename: 34965-8158-rest-api.html
+- filename: checkmarx-applications-api-openapi.yml
   format: yaml
-  label: Checkmarx SAST API
-  slug: checkmarx-sast-api
+  label: Checkmarx Applications API
+  slug: checkmarx-applications-api
   spec_type: OpenAPI
-  url: https://checkmarx.com/resource/documents/en/34965-8158-rest-api.html
-- filename: checkmarx-sca-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-applications-api-openapi.yml
+- filename: checkmarx-authentication-api-openapi.yml
   format: yaml
-  label: Checkmarx SCA API
-  slug: checkmarx-sca-api
+  label: Checkmarx Authentication API
+  slug: checkmarx-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-sca-openapi.yml
-- filename: checkmarx-one-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-authentication-api-openapi.yml
+- filename: checkmarx-configuration-api-openapi.yml
   format: yaml
-  label: Checkmarx One API
-  slug: checkmarx-one-api
+  label: Checkmarx Configuration API
+  slug: checkmarx-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-one-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-configuration-api-openapi.yml
+- filename: checkmarx-engines-api-openapi.yml
+  format: yaml
+  label: Checkmarx Engines API
+  slug: checkmarx-engines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-engines-api-openapi.yml
+- filename: checkmarx-groups-api-openapi.yml
+  format: yaml
+  label: Checkmarx Groups API
+  slug: checkmarx-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-groups-api-openapi.yml
+- filename: checkmarx-packages-api-openapi.yml
+  format: yaml
+  label: Checkmarx Packages API
+  slug: checkmarx-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-packages-api-openapi.yml
+- filename: checkmarx-presets-api-openapi.yml
+  format: yaml
+  label: Checkmarx Presets API
+  slug: checkmarx-presets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-presets-api-openapi.yml
+- filename: checkmarx-projects-api-openapi.yml
+  format: yaml
+  label: Checkmarx Projects API
+  slug: checkmarx-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-projects-api-openapi.yml
+- filename: checkmarx-queries-api-openapi.yml
+  format: yaml
+  label: Checkmarx Queries API
+  slug: checkmarx-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-queries-api-openapi.yml
+- filename: checkmarx-reports-api-openapi.yml
+  format: yaml
+  label: Checkmarx Reports API
+  slug: checkmarx-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-reports-api-openapi.yml
+- filename: checkmarx-results-api-openapi.yml
+  format: yaml
+  label: Checkmarx Results API
+  slug: checkmarx-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-results-api-openapi.yml
+- filename: checkmarx-risk-reports-api-openapi.yml
+  format: yaml
+  label: Checkmarx Risk Reports API
+  slug: checkmarx-risk-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-risk-reports-api-openapi.yml
+- filename: checkmarx-scans-api-openapi.yml
+  format: yaml
+  label: Checkmarx Scans API
+  slug: checkmarx-scans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-scans-api-openapi.yml
+- filename: checkmarx-settings-api-openapi.yml
+  format: yaml
+  label: Checkmarx Settings API
+  slug: checkmarx-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-settings-api-openapi.yml
+- filename: checkmarx-teams-api-openapi.yml
+  format: yaml
+  label: Checkmarx Teams API
+  slug: checkmarx-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-teams-api-openapi.yml
 auth_types:
 - http
 description: ''

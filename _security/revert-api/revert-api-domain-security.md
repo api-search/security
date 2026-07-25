@@ -1,53 +1,41 @@
 ---
 api_specs:
-- filename: revert-api-openapi.yml
+- filename: revert-api-chat-api-openapi.yml
   format: yaml
-  label: Revert Unified CRM API
-  slug: revert-api-unified-crm-api
+  label: Revert Chat API
+  slug: revert-api-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revert-api/refs/heads/main/openapi/revert-api-openapi.yml
-- filename: revert-api-openapi.yml
-  format: yaml
-  label: Revert Unified Chat API
-  slug: revert-api-unified-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revert-api/refs/heads/main/openapi/revert-api-openapi.yml
-- filename: revert-api-openapi.yml
-  format: yaml
-  label: Revert Unified Ticketing API
-  slug: revert-api-unified-ticketing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revert-api/refs/heads/main/openapi/revert-api-openapi.yml
-- filename: revert-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/revert-api/refs/heads/main/openapi/revert-api-chat-api-openapi.yml
+- filename: revert-api-connection-management-api-openapi.yml
   format: yaml
   label: Revert Connection Management API
   slug: revert-api-connection-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revert-api/refs/heads/main/openapi/revert-api-openapi.yml
-- filename: revert-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/revert-api/refs/heads/main/openapi/revert-api-connection-management-api-openapi.yml
+- filename: revert-api-crm-api-openapi.yml
+  format: yaml
+  label: Revert CRM API
+  slug: revert-api-crm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revert-api/refs/heads/main/openapi/revert-api-crm-api-openapi.yml
+- filename: revert-api-metadata-api-openapi.yml
   format: yaml
   label: Revert Metadata API
   slug: revert-api-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revert-api/refs/heads/main/openapi/revert-api-openapi.yml
-- filename: revert-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/revert-api/refs/heads/main/openapi/revert-api-metadata-api-openapi.yml
+- filename: revert-api-proxy-api-openapi.yml
   format: yaml
-  label: Revert Passthrough Proxy API
-  slug: revert-api-passthrough-proxy-api
+  label: Revert Proxy API
+  slug: revert-api-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revert-api/refs/heads/main/openapi/revert-api-openapi.yml
-- filename: revert-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/revert-api/refs/heads/main/openapi/revert-api-proxy-api-openapi.yml
+- filename: revert-api-ticketing-api-openapi.yml
   format: yaml
-  label: Revert Unified Accounting API
-  slug: revert-api-unified-accounting-api
+  label: Revert Ticketing API
+  slug: revert-api-ticketing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revert-api/refs/heads/main/openapi/revert-api-openapi.yml
-- filename: revert-api-openapi.yml
-  format: yaml
-  label: Revert Unified ATS API
-  slug: revert-api-unified-ats-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revert-api/refs/heads/main/openapi/revert-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/revert-api/refs/heads/main/openapi/revert-api-ticketing-api-openapi.yml
 description: ''
 domains:
 - apexARecord: false

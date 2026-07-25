@@ -1,36 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: fundraiseup-openapi.yml
+- filename: fundraiseup-donations-api-openapi.yml
   format: yaml
   label: Fundraise Up Donations API
   slug: fundraiseup-donations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-openapi.yml
-- filename: fundraiseup-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-donations-api-openapi.yml
+- filename: fundraiseup-donor-portal-api-openapi.yml
   format: yaml
-  label: Fundraise Up Recurring Plans API
-  slug: fundraiseup-recurring-plans-api
+  label: Fundraise Up Donor Portal API
+  slug: fundraiseup-donor-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-openapi.yml
-- filename: fundraiseup-openapi.yml
-  format: yaml
-  label: Fundraise Up Supporters API
-  slug: fundraiseup-supporters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-openapi.yml
-- filename: fundraiseup-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-donor-portal-api-openapi.yml
+- filename: fundraiseup-events-api-openapi.yml
   format: yaml
   label: Fundraise Up Events API
   slug: fundraiseup-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-openapi.yml
-- filename: fundraiseup-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-events-api-openapi.yml
+- filename: fundraiseup-recurring-plans-api-openapi.yml
   format: yaml
-  label: Fundraise Up Donor Portal Access Links API
-  slug: fundraiseup-donor-portal-access-links-api
+  label: Fundraise Up Recurring Plans API
+  slug: fundraiseup-recurring-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-recurring-plans-api-openapi.yml
+- filename: fundraiseup-supporters-api-openapi.yml
+  format: yaml
+  label: Fundraise Up Supporters API
+  slug: fundraiseup-supporters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-supporters-api-openapi.yml
 auth_types:
 - http
 description: ''

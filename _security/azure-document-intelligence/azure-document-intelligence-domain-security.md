@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: azure-document-intelligence-openapi.json
-  format: json
-  label: Azure AI Document Intelligence REST API
-  slug: rest
+- filename: azure-document-intelligence-documentclassifiers-api-openapi.yml
+  format: yaml
+  label: Azure AI Document Intelligence DocumentClassifiers API
+  slug: azure-document-intelligence-documentclassifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-documentclassifiers-api-openapi.yml
+- filename: azure-document-intelligence-documentclassifiers-authorizecopy-api-openapi.yml
+  format: yaml
+  label: Azure AI Document Intelligence DocumentClassifiers:authorizeCopy API
+  slug: azure-document-intelligence-documentclassifiers-authorizecopy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-documentclassifiers-authorizecopy-api-openapi.yml
+- filename: azure-document-intelligence-documentclassifiers-build-api-openapi.yml
+  format: yaml
+  label: Azure AI Document Intelligence DocumentClassifiers:build API
+  slug: azure-document-intelligence-documentclassifiers-build-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-documentclassifiers-build-api-openapi.yml
+- filename: azure-document-intelligence-documentmodels-api-openapi.yml
+  format: yaml
+  label: Azure AI Document Intelligence DocumentModels API
+  slug: azure-document-intelligence-documentmodels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-documentmodels-api-openapi.yml
+- filename: azure-document-intelligence-documentmodels-authorizecopy-api-openapi.yml
+  format: yaml
+  label: Azure AI Document Intelligence DocumentModels:authorizeCopy API
+  slug: azure-document-intelligence-documentmodels-authorizecopy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-documentmodels-authorizecopy-api-openapi.yml
+- filename: azure-document-intelligence-documentmodels-build-api-openapi.yml
+  format: yaml
+  label: Azure AI Document Intelligence DocumentModels:build API
+  slug: azure-document-intelligence-documentmodels-build-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-documentmodels-build-api-openapi.yml
+- filename: azure-document-intelligence-documentmodels-compose-api-openapi.yml
+  format: yaml
+  label: Azure AI Document Intelligence DocumentModels:compose API
+  slug: azure-document-intelligence-documentmodels-compose-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-documentmodels-compose-api-openapi.yml
+- filename: azure-document-intelligence-info-api-openapi.yml
+  format: yaml
+  label: Azure AI Document Intelligence Info API
+  slug: azure-document-intelligence-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-info-api-openapi.yml
+- filename: azure-document-intelligence-operations-api-openapi.yml
+  format: yaml
+  label: Azure AI Document Intelligence Operations API
+  slug: azure-document-intelligence-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-operations-api-openapi.yml
 description: ''
 domains:
 - caa:

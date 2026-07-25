@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: swagger.json
-  format: json
-  label: Hedera Mirror Node REST API
-  slug: hedera-mirror-node-rest-api
+- filename: hedera-accounts-api-openapi.yml
+  format: yaml
+  label: Hedera accounts API
+  slug: hedera-accounts-api
   spec_type: OpenAPI
-  url: https://mainnet.mirrornode.hedera.com/api/v1/docs/swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-accounts-api-openapi.yml
+- filename: hedera-airdrops-api-openapi.yml
+  format: yaml
+  label: Hedera airdrops API
+  slug: hedera-airdrops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-airdrops-api-openapi.yml
+- filename: hedera-balances-api-openapi.yml
+  format: yaml
+  label: Hedera balances API
+  slug: hedera-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-balances-api-openapi.yml
+- filename: hedera-blocks-api-openapi.yml
+  format: yaml
+  label: Hedera blocks API
+  slug: hedera-blocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-blocks-api-openapi.yml
+- filename: hedera-contracts-api-openapi.yml
+  format: yaml
+  label: Hedera contracts API
+  slug: hedera-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-contracts-api-openapi.yml
+- filename: hedera-network-api-openapi.yml
+  format: yaml
+  label: Hedera network API
+  slug: hedera-network-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-network-api-openapi.yml
+- filename: hedera-schedules-api-openapi.yml
+  format: yaml
+  label: Hedera schedules API
+  slug: hedera-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-schedules-api-openapi.yml
+- filename: hedera-tokens-api-openapi.yml
+  format: yaml
+  label: Hedera tokens API
+  slug: hedera-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-tokens-api-openapi.yml
+- filename: hedera-topics-api-openapi.yml
+  format: yaml
+  label: Hedera topics API
+  slug: hedera-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-topics-api-openapi.yml
+- filename: hedera-transactions-api-openapi.yml
+  format: yaml
+  label: Hedera transactions API
+  slug: hedera-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

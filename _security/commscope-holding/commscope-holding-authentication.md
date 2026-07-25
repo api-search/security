@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ruckus-one-api-openapi.yml
+- filename: commscope-holding-accesspoints-api-openapi.yml
   format: yaml
-  label: RUCKUS One API
-  slug: ruckus-one-api
+  label: CommScope Holding AccessPoints API
+  slug: commscope-holding-accesspoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/openapi/ruckus-one-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/openapi/commscope-holding-accesspoints-api-openapi.yml
+- filename: commscope-holding-activities-api-openapi.yml
+  format: yaml
+  label: CommScope Holding Activities API
+  slug: commscope-holding-activities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/openapi/commscope-holding-activities-api-openapi.yml
+- filename: commscope-holding-authentication-api-openapi.yml
+  format: yaml
+  label: CommScope Holding Authentication API
+  slug: commscope-holding-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/openapi/commscope-holding-authentication-api-openapi.yml
+- filename: commscope-holding-clients-api-openapi.yml
+  format: yaml
+  label: CommScope Holding Clients API
+  slug: commscope-holding-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/openapi/commscope-holding-clients-api-openapi.yml
+- filename: commscope-holding-msp-api-openapi.yml
+  format: yaml
+  label: CommScope Holding MSP API
+  slug: commscope-holding-msp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/openapi/commscope-holding-msp-api-openapi.yml
+- filename: commscope-holding-networks-api-openapi.yml
+  format: yaml
+  label: CommScope Holding Networks API
+  slug: commscope-holding-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/openapi/commscope-holding-networks-api-openapi.yml
+- filename: commscope-holding-switches-api-openapi.yml
+  format: yaml
+  label: CommScope Holding Switches API
+  slug: commscope-holding-switches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/openapi/commscope-holding-switches-api-openapi.yml
+- filename: commscope-holding-venues-api-openapi.yml
+  format: yaml
+  label: CommScope Holding Venues API
+  slug: commscope-holding-venues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/openapi/commscope-holding-venues-api-openapi.yml
 auth_types:
 - http
 description: ''

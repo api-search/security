@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: university-of-cambridge-lookup.yaml
+- filename: university-of-cambridge-group-api-openapi.yml
   format: yaml
-  label: Lookup / Ibis Web Service API
-  slug: lookup
+  label: University of Cambridge group API
+  slug: university-of-cambridge-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/openapi/university-of-cambridge-lookup.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/openapi/university-of-cambridge-group-api-openapi.yml
+- filename: university-of-cambridge-ibis-api-openapi.yml
+  format: yaml
+  label: University of Cambridge ibis API
+  slug: university-of-cambridge-ibis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/openapi/university-of-cambridge-ibis-api-openapi.yml
+- filename: university-of-cambridge-institution-api-openapi.yml
+  format: yaml
+  label: University of Cambridge institution API
+  slug: university-of-cambridge-institution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/openapi/university-of-cambridge-institution-api-openapi.yml
+- filename: university-of-cambridge-person-api-openapi.yml
+  format: yaml
+  label: University of Cambridge person API
+  slug: university-of-cambridge-person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/openapi/university-of-cambridge-person-api-openapi.yml
 auth_types:
 - http
 description: ''

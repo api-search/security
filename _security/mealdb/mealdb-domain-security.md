@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: TheMealDB Recipe API
-  slug: themealdb-recipe-api
+- filename: mealdb-categories-php-api-openapi.yml
+  format: yaml
+  label: TheMealDB Categories.php API
+  slug: mealdb-categories-php-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-categories-php-api-openapi.yml
+- filename: mealdb-filter-php-api-openapi.yml
+  format: yaml
+  label: TheMealDB Filter.php API
+  slug: mealdb-filter-php-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-filter-php-api-openapi.yml
+- filename: mealdb-list-php-api-openapi.yml
+  format: yaml
+  label: TheMealDB List.php API
+  slug: mealdb-list-php-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-list-php-api-openapi.yml
+- filename: mealdb-lookup-php-api-openapi.yml
+  format: yaml
+  label: TheMealDB Lookup.php API
+  slug: mealdb-lookup-php-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-lookup-php-api-openapi.yml
+- filename: mealdb-premium-api-openapi.yml
+  format: yaml
+  label: TheMealDB Premium API
+  slug: mealdb-premium-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-premium-api-openapi.yml
+- filename: mealdb-random-php-api-openapi.yml
+  format: yaml
+  label: TheMealDB Random.php API
+  slug: mealdb-random-php-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-random-php-api-openapi.yml
+- filename: mealdb-search-php-api-openapi.yml
+  format: yaml
+  label: TheMealDB Search.php API
+  slug: mealdb-search-php-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-search-php-api-openapi.yml
 description: ''
 domains:
 - caa: []

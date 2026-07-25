@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: uc-davis-peaks.yaml
+- filename: uc-davis-access-api-openapi.yml
   format: yaml
-  label: CAES PEAKS API
-  slug: peaks
+  label: University of California, Davis Access API
+  slug: uc-davis-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-peaks.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-access-api-openapi.yml
+- filename: uc-davis-documents-api-openapi.yml
+  format: yaml
+  label: University of California, Davis Documents API
+  slug: uc-davis-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-documents-api-openapi.yml
+- filename: uc-davis-equipment-api-openapi.yml
+  format: yaml
+  label: University of California, Davis Equipment API
+  slug: uc-davis-equipment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-equipment-api-openapi.yml
+- filename: uc-davis-keys-api-openapi.yml
+  format: yaml
+  label: University of California, Davis Keys API
+  slug: uc-davis-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-keys-api-openapi.yml
+- filename: uc-davis-keyserials-api-openapi.yml
+  format: yaml
+  label: University of California, Davis KeySerials API
+  slug: uc-davis-keyserials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-keyserials-api-openapi.yml
+- filename: uc-davis-people-api-openapi.yml
+  format: yaml
+  label: University of California, Davis People API
+  slug: uc-davis-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-people-api-openapi.yml
+- filename: uc-davis-peopleadmin-api-openapi.yml
+  format: yaml
+  label: University of California, Davis PeopleAdmin API
+  slug: uc-davis-peopleadmin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-peopleadmin-api-openapi.yml
+- filename: uc-davis-spaces-api-openapi.yml
+  format: yaml
+  label: University of California, Davis Spaces API
+  slug: uc-davis-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-spaces-api-openapi.yml
+- filename: uc-davis-workstations-api-openapi.yml
+  format: yaml
+  label: University of California, Davis Workstations API
+  slug: uc-davis-workstations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-workstations-api-openapi.yml
 description: ''
 domains:
 - caa: []

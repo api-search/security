@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: bny-mellon-treasury-services-api-openapi.yml
+- filename: bank-of-new-york-mellon-accounts-api-openapi.yml
   format: yaml
-  label: BNY Mellon Treasury Services API
-  slug: treasury-services-api
+  label: BNY Mellon Accounts API
+  slug: bank-of-new-york-mellon-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/openapi/bny-mellon-treasury-services-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/openapi/bank-of-new-york-mellon-accounts-api-openapi.yml
+- filename: bank-of-new-york-mellon-balances-api-openapi.yml
+  format: yaml
+  label: BNY Mellon Balances API
+  slug: bank-of-new-york-mellon-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/openapi/bank-of-new-york-mellon-balances-api-openapi.yml
+- filename: bank-of-new-york-mellon-funds-transfers-api-openapi.yml
+  format: yaml
+  label: BNY Mellon Funds Transfers API
+  slug: bank-of-new-york-mellon-funds-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/openapi/bank-of-new-york-mellon-funds-transfers-api-openapi.yml
+- filename: bank-of-new-york-mellon-payments-api-openapi.yml
+  format: yaml
+  label: BNY Mellon Payments API
+  slug: bank-of-new-york-mellon-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/openapi/bank-of-new-york-mellon-payments-api-openapi.yml
+- filename: bank-of-new-york-mellon-transactions-api-openapi.yml
+  format: yaml
+  label: BNY Mellon Transactions API
+  slug: bank-of-new-york-mellon-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/openapi/bank-of-new-york-mellon-transactions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

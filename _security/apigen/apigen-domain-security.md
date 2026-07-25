@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: apigen-apigen-openapi.yml
+- filename: apigen-connectors-api-openapi.yml
   format: yaml
-  label: APIGen
-  slug: apigen
+  label: APIGen Connectors API
+  slug: apigen-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/openapi/apigen-apigen-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/openapi/apigen-connectors-api-openapi.yml
+- filename: apigen-deployments-api-openapi.yml
+  format: yaml
+  label: APIGen Deployments API
+  slug: apigen-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/openapi/apigen-deployments-api-openapi.yml
+- filename: apigen-endpoints-api-openapi.yml
+  format: yaml
+  label: APIGen Endpoints API
+  slug: apigen-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/openapi/apigen-endpoints-api-openapi.yml
+- filename: apigen-projects-api-openapi.yml
+  format: yaml
+  label: APIGen Projects API
+  slug: apigen-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/openapi/apigen-projects-api-openapi.yml
+- filename: apigen-schemas-api-openapi.yml
+  format: yaml
+  label: APIGen Schemas API
+  slug: apigen-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/openapi/apigen-schemas-api-openapi.yml
+- filename: apigen-tests-api-openapi.yml
+  format: yaml
+  label: APIGen Tests API
+  slug: apigen-tests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/openapi/apigen-tests-api-openapi.yml
+- filename: apigen-tokens-api-openapi.yml
+  format: yaml
+  label: APIGen Tokens API
+  slug: apigen-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/openapi/apigen-tokens-api-openapi.yml
+- filename: apigen-users-api-openapi.yml
+  format: yaml
+  label: APIGen Users API
+  slug: apigen-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/openapi/apigen-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

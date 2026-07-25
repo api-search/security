@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: chartmetric-openapi.yml
-  format: yaml
-  label: Chartmetric Artists API
-  slug: artists
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/openapi/chartmetric-openapi.yml
-- filename: chartmetric-openapi.yml
-  format: yaml
-  label: Chartmetric Tracks API
-  slug: tracks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/openapi/chartmetric-openapi.yml
-- filename: chartmetric-openapi.yml
+- filename: chartmetric-albums-api-openapi.yml
   format: yaml
   label: Chartmetric Albums API
-  slug: albums
+  slug: chartmetric-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/openapi/chartmetric-openapi.yml
-- filename: chartmetric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/openapi/chartmetric-albums-api-openapi.yml
+- filename: chartmetric-artists-api-openapi.yml
   format: yaml
-  label: Chartmetric Playlists API
-  slug: playlists
+  label: Chartmetric Artists API
+  slug: chartmetric-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/openapi/chartmetric-openapi.yml
-- filename: chartmetric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/openapi/chartmetric-artists-api-openapi.yml
+- filename: chartmetric-authentication-api-openapi.yml
+  format: yaml
+  label: Chartmetric Authentication API
+  slug: chartmetric-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/openapi/chartmetric-authentication-api-openapi.yml
+- filename: chartmetric-charts-api-openapi.yml
   format: yaml
   label: Chartmetric Charts API
-  slug: charts
+  slug: chartmetric-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/openapi/chartmetric-openapi.yml
-- filename: chartmetric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/openapi/chartmetric-charts-api-openapi.yml
+- filename: chartmetric-playlists-api-openapi.yml
   format: yaml
-  label: Chartmetric Stats and Metrics API
-  slug: stats-metrics
+  label: Chartmetric Playlists API
+  slug: chartmetric-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/openapi/chartmetric-openapi.yml
-- filename: chartmetric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/openapi/chartmetric-playlists-api-openapi.yml
+- filename: chartmetric-search-api-openapi.yml
   format: yaml
   label: Chartmetric Search API
-  slug: search
+  slug: chartmetric-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/openapi/chartmetric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/openapi/chartmetric-search-api-openapi.yml
+- filename: chartmetric-tracks-api-openapi.yml
+  format: yaml
+  label: Chartmetric Tracks API
+  slug: chartmetric-tracks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/openapi/chartmetric-tracks-api-openapi.yml
 description: ''
 domains:
 - caa: []

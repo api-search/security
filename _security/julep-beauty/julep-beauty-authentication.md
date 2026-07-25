@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: julep-beauty-storefront-openapi.yml
+- filename: julep-beauty-cart-api-openapi.yml
   format: yaml
-  label: Julep Storefront Read-Only JSON API
-  slug: storefront
+  label: Julep Beauty Cart API
+  slug: julep-beauty-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/openapi/julep-beauty-storefront-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/openapi/julep-beauty-cart-api-openapi.yml
+- filename: julep-beauty-catalog-api-openapi.yml
+  format: yaml
+  label: Julep Beauty Catalog API
+  slug: julep-beauty-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/openapi/julep-beauty-catalog-api-openapi.yml
+- filename: julep-beauty-discovery-api-openapi.yml
+  format: yaml
+  label: Julep Beauty Discovery API
+  slug: julep-beauty-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/openapi/julep-beauty-discovery-api-openapi.yml
+- filename: julep-beauty-search-api-openapi.yml
+  format: yaml
+  label: Julep Beauty Search API
+  slug: julep-beauty-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/openapi/julep-beauty-search-api-openapi.yml
 auth_types: []
 description: Julep's storefront has two distinct authentication postures. The public read-only catalog surface requires no credentials at all. The customer-account surface is a full OpenID Connect deployment (Shopify Customer Accounts) whose discovery document is served on Julep's own domain, with the interactive endpoints branded on account.julep.com.
 kind: authentication

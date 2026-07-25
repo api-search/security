@@ -2,24 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: azure-log-analytics-query-api.yaml
-  format: yaml
-  label: Azure Log Analytics Query API
-  slug: azure-log-analytics-query-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-query-api.yaml
-- filename: azure-log-analytics-management-api.yaml
-  format: yaml
-  label: Azure Log Analytics Management API
-  slug: azure-log-analytics-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-management-api.yaml
-- filename: azure-log-analytics-ingestion-api.yaml
+- filename: azure-log-analytics-ingestion-api-openapi.yml
   format: yaml
   label: Azure Log Analytics Ingestion API
   slug: azure-log-analytics-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-ingestion-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-ingestion-api-openapi.yml
+- filename: azure-log-analytics-query-api-openapi.yml
+  format: yaml
+  label: Azure Log Analytics Query API
+  slug: azure-log-analytics-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-query-api-openapi.yml
+- filename: azure-log-analytics-saved-searches-api-openapi.yml
+  format: yaml
+  label: Azure Log Analytics Saved Searches API
+  slug: azure-log-analytics-saved-searches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-saved-searches-api-openapi.yml
+- filename: azure-log-analytics-tables-api-openapi.yml
+  format: yaml
+  label: Azure Log Analytics Tables API
+  slug: azure-log-analytics-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-tables-api-openapi.yml
+- filename: azure-log-analytics-workspaces-api-openapi.yml
+  format: yaml
+  label: Azure Log Analytics Workspaces API
+  slug: azure-log-analytics-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-workspaces-api-openapi.yml
 auth_types:
 - apiKey
 - http

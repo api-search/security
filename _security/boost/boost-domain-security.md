@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: boost-v2-openapi.json
-  format: json
-  label: Boost V2 API
-  slug: boost-v2-api
+- filename: boost-action-api-openapi.yml
+  format: yaml
+  label: Boost Action API
+  slug: boost-action-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/openapi/boost-v2-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/openapi/boost-action-api-openapi.yml
+- filename: boost-action-template-api-openapi.yml
+  format: yaml
+  label: Boost Action Template API
+  slug: boost-action-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/openapi/boost-action-template-api-openapi.yml
+- filename: boost-blocklist-api-openapi.yml
+  format: yaml
+  label: Boost Blocklist API
+  slug: boost-blocklist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/openapi/boost-blocklist-api-openapi.yml
+- filename: boost-boost-api-openapi.yml
+  format: yaml
+  label: Boost Boost API
+  slug: boost-boost-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/openapi/boost-boost-api-openapi.yml
+- filename: boost-budget-api-openapi.yml
+  format: yaml
+  label: Boost Budget API
+  slug: boost-budget-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/openapi/boost-budget-api-openapi.yml
+- filename: boost-contract-api-openapi.yml
+  format: yaml
+  label: Boost Contract API
+  slug: boost-contract-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/openapi/boost-contract-api-openapi.yml
+- filename: boost-rewardkit-api-openapi.yml
+  format: yaml
+  label: Boost RewardKit API
+  slug: boost-rewardkit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/openapi/boost-rewardkit-api-openapi.yml
+- filename: boost-rewardkittrending-api-openapi.yml
+  format: yaml
+  label: Boost RewardKitTrending API
+  slug: boost-rewardkittrending-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/openapi/boost-rewardkittrending-api-openapi.yml
 description: ''
 domains:
 - caa: []

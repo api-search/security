@@ -3,48 +3,66 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: frostbyte-ip-geolocation-openapi.yml
+- filename: frostbyte-agent-infrastructure-api-openapi.yml
   format: yaml
-  label: Frostbyte IP Geolocation API
-  slug: ip-geolocation
+  label: Frostbyte Agent Infrastructure API
+  slug: frostbyte-agent-infrastructure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-ip-geolocation-openapi.yml
-- filename: frostbyte-crypto-prices-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-agent-infrastructure-api-openapi.yml
+- filename: frostbyte-communication-api-openapi.yml
+  format: yaml
+  label: Frostbyte Communication API
+  slug: frostbyte-communication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-communication-api-openapi.yml
+- filename: frostbyte-crypto-prices-api-openapi.yml
   format: yaml
   label: Frostbyte Crypto Prices API
-  slug: crypto-prices
+  slug: frostbyte-crypto-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-crypto-prices-openapi.yml
-- filename: frostbyte-screenshot-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-crypto-prices-api-openapi.yml
+- filename: frostbyte-data-analytics-api-openapi.yml
   format: yaml
-  label: Frostbyte Screenshot API
-  slug: screenshot
+  label: Frostbyte Data & Analytics API
+  slug: frostbyte-data-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-screenshot-openapi.yml
-- filename: frostbyte-dns-lookup-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-data-analytics-api-openapi.yml
+- filename: frostbyte-defi-crypto-api-openapi.yml
   format: yaml
-  label: Frostbyte DNS Lookup API
-  slug: dns-lookup
+  label: Frostbyte DeFi & Crypto API
+  slug: frostbyte-defi-crypto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-dns-lookup-openapi.yml
-- filename: frostbyte-web-scraper-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-defi-crypto-api-openapi.yml
+- filename: frostbyte-gaming-api-openapi.yml
   format: yaml
-  label: Frostbyte Web Scraper API
-  slug: web-scraper
+  label: Frostbyte Gaming API
+  slug: frostbyte-gaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-web-scraper-openapi.yml
-- filename: frostbyte-code-execution-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-gaming-api-openapi.yml
+- filename: frostbyte-gateway-api-openapi.yml
   format: yaml
-  label: Frostbyte Code Execution API
-  slug: code-execution
+  label: Frostbyte Gateway API
+  slug: frostbyte-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-code-execution-openapi.yml
-- filename: frostbyte-agent-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-gateway-api-openapi.yml
+- filename: frostbyte-ip-geolocation-api-openapi.yml
   format: yaml
-  label: Frostbyte Agent Gateway (Full API)
-  slug: agent-gateway
+  label: Frostbyte IP Geolocation API
+  slug: frostbyte-ip-geolocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-agent-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-ip-geolocation-api-openapi.yml
+- filename: frostbyte-other-api-openapi.yml
+  format: yaml
+  label: Frostbyte Other API
+  slug: frostbyte-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-other-api-openapi.yml
+- filename: frostbyte-security-api-openapi.yml
+  format: yaml
+  label: Frostbyte Security API
+  slug: frostbyte-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-security-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: wahoo-cloud-api-openapi.yml
+- filename: wahoo-permissions-api-openapi.yml
   format: yaml
-  label: Wahoo Cloud API
-  slug: wahoo-cloud-api
+  label: Wahoo Fitness Permissions API
+  slug: wahoo-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-cloud-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-permissions-api-openapi.yml
+- filename: wahoo-plans-api-openapi.yml
+  format: yaml
+  label: Wahoo Fitness Plans API
+  slug: wahoo-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-plans-api-openapi.yml
+- filename: wahoo-power-zones-api-openapi.yml
+  format: yaml
+  label: Wahoo Fitness Power Zones API
+  slug: wahoo-power-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-power-zones-api-openapi.yml
+- filename: wahoo-routes-api-openapi.yml
+  format: yaml
+  label: Wahoo Fitness Routes API
+  slug: wahoo-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-routes-api-openapi.yml
+- filename: wahoo-users-api-openapi.yml
+  format: yaml
+  label: Wahoo Fitness Users API
+  slug: wahoo-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-users-api-openapi.yml
+- filename: wahoo-workout-file-uploads-api-openapi.yml
+  format: yaml
+  label: Wahoo Fitness Workout File Uploads API
+  slug: wahoo-workout-file-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-workout-file-uploads-api-openapi.yml
+- filename: wahoo-workout-summaries-api-openapi.yml
+  format: yaml
+  label: Wahoo Fitness Workout Summaries API
+  slug: wahoo-workout-summaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-workout-summaries-api-openapi.yml
+- filename: wahoo-workouts-api-openapi.yml
+  format: yaml
+  label: Wahoo Fitness Workouts API
+  slug: wahoo-workouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-workouts-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

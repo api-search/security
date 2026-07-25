@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: progressive-auto-quote-api-openapi.yml
+- filename: progressive-certificates-api-openapi.yml
   format: yaml
-  label: Progressive Auto Quote API
-  slug: auto-quote-api
+  label: Progressive Certificates API
+  slug: progressive-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/openapi/progressive-auto-quote-api-openapi.yml
-- filename: progressive-certificate-of-insurance-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/openapi/progressive-certificates-api-openapi.yml
+- filename: progressive-drivers-api-openapi.yml
   format: yaml
-  label: Progressive Certificate of Insurance API
-  slug: certificate-of-insurance-api
+  label: Progressive Drivers API
+  slug: progressive-drivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/openapi/progressive-certificate-of-insurance-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/openapi/progressive-drivers-api-openapi.yml
+- filename: progressive-policies-api-openapi.yml
+  format: yaml
+  label: Progressive Policies API
+  slug: progressive-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/openapi/progressive-policies-api-openapi.yml
+- filename: progressive-quotes-api-openapi.yml
+  format: yaml
+  label: Progressive Quotes API
+  slug: progressive-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/openapi/progressive-quotes-api-openapi.yml
+- filename: progressive-vehicles-api-openapi.yml
+  format: yaml
+  label: Progressive Vehicles API
+  slug: progressive-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/openapi/progressive-vehicles-api-openapi.yml
 description: ''
 domains:
 - caa: []

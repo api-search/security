@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: overview
+- filename: parea-parea-api-openapi.yml
   format: yaml
-  label: Parea REST API
-  slug: parea-rest-api
+  label: Parea AI Parea API
+  slug: parea-parea-api
   spec_type: OpenAPI
-  url: https://docs.parea.ai/api-reference/overview
+  url: https://raw.githubusercontent.com/api-evangelist/parea/refs/heads/main/openapi/parea-parea-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

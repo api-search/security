@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: licenseplatedata-openapi.yml
+- filename: licenseplatedata-images-api-openapi.yml
   format: yaml
-  label: LicensePlateData
-  slug: licenseplatedata
+  label: LicensePlateData Images API
+  slug: licenseplatedata-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/licenseplatedata/refs/heads/main/openapi/licenseplatedata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/licenseplatedata/refs/heads/main/openapi/licenseplatedata-images-api-openapi.yml
+- filename: licenseplatedata-plate-api-openapi.yml
+  format: yaml
+  label: LicensePlateData Plate API
+  slug: licenseplatedata-plate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/licenseplatedata/refs/heads/main/openapi/licenseplatedata-plate-api-openapi.yml
+- filename: licenseplatedata-vin-api-openapi.yml
+  format: yaml
+  label: LicensePlateData VIN API
+  slug: licenseplatedata-vin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/licenseplatedata/refs/heads/main/openapi/licenseplatedata-vin-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

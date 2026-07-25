@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: hazelcast-openapi.yml
+- filename: hazelcast-cluster-api-openapi.yml
   format: yaml
-  label: Hazelcast REST API
-  slug: hazelcast-rest-api
+  label: Hazelcast Cluster API
+  slug: hazelcast-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hazelcast/refs/heads/main/openapi/hazelcast-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hazelcast/refs/heads/main/openapi/hazelcast-cluster-api-openapi.yml
+- filename: hazelcast-configuration-api-openapi.yml
+  format: yaml
+  label: Hazelcast Configuration API
+  slug: hazelcast-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hazelcast/refs/heads/main/openapi/hazelcast-configuration-api-openapi.yml
+- filename: hazelcast-health-api-openapi.yml
+  format: yaml
+  label: Hazelcast Health API
+  slug: hazelcast-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hazelcast/refs/heads/main/openapi/hazelcast-health-api-openapi.yml
+- filename: hazelcast-maps-api-openapi.yml
+  format: yaml
+  label: Hazelcast Maps API
+  slug: hazelcast-maps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hazelcast/refs/heads/main/openapi/hazelcast-maps-api-openapi.yml
+- filename: hazelcast-queues-api-openapi.yml
+  format: yaml
+  label: Hazelcast Queues API
+  slug: hazelcast-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hazelcast/refs/heads/main/openapi/hazelcast-queues-api-openapi.yml
 description: ''
 domains:
 - caa:

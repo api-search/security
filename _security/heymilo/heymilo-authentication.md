@@ -2,12 +2,114 @@
 api_key_in:
 - header
 api_specs:
-- filename: heymilo-openapi-original.json
-  format: json
-  label: HeyMilo Public API
-  slug: heymilo-public-api
+- filename: heymilo-ats-api-openapi.yml
+  format: yaml
+  label: HeyMilo ATS API
+  slug: heymilo-ats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-ats-api-openapi.yml
+- filename: heymilo-candidates-api-openapi.yml
+  format: yaml
+  label: HeyMilo Candidates API
+  slug: heymilo-candidates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-candidates-api-openapi.yml
+- filename: heymilo-design-template-groups-api-openapi.yml
+  format: yaml
+  label: HeyMilo Design Template Groups API
+  slug: heymilo-design-template-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-design-template-groups-api-openapi.yml
+- filename: heymilo-design-templates-api-openapi.yml
+  format: yaml
+  label: HeyMilo Design Templates API
+  slug: heymilo-design-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-design-templates-api-openapi.yml
+- filename: heymilo-domains-api-openapi.yml
+  format: yaml
+  label: HeyMilo Domains API
+  slug: heymilo-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-domains-api-openapi.yml
+- filename: heymilo-email-template-groups-api-openapi.yml
+  format: yaml
+  label: HeyMilo Email Template Groups API
+  slug: heymilo-email-template-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-email-template-groups-api-openapi.yml
+- filename: heymilo-email-templates-api-openapi.yml
+  format: yaml
+  label: HeyMilo Email Templates API
+  slug: heymilo-email-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-email-templates-api-openapi.yml
+- filename: heymilo-health-api-openapi.yml
+  format: yaml
+  label: HeyMilo Health API
+  slug: heymilo-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-health-api-openapi.yml
+- filename: heymilo-interview-templates-api-openapi.yml
+  format: yaml
+  label: HeyMilo Interview Templates API
+  slug: heymilo-interview-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-interview-templates-api-openapi.yml
+- filename: heymilo-interviewers-api-openapi.yml
+  format: yaml
+  label: HeyMilo Interviewers API
+  slug: heymilo-interviewers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-interviewers-api-openapi.yml
+- filename: heymilo-interviews-api-openapi.yml
+  format: yaml
+  label: HeyMilo Interviews API
+  slug: heymilo-interviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-interviews-api-openapi.yml
+- filename: heymilo-phone-numbers-api-openapi.yml
+  format: yaml
+  label: HeyMilo Phone Numbers API
+  slug: heymilo-phone-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-phone-numbers-api-openapi.yml
+- filename: heymilo-questions-api-openapi.yml
+  format: yaml
+  label: HeyMilo Questions API
+  slug: heymilo-questions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-questions-api-openapi.yml
+- filename: heymilo-schema-discovery-api-openapi.yml
+  format: yaml
+  label: HeyMilo Schema Discovery API
+  slug: heymilo-schema-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-schema-discovery-api-openapi.yml
+- filename: heymilo-sender-emails-api-openapi.yml
+  format: yaml
+  label: HeyMilo Sender Emails API
+  slug: heymilo-sender-emails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-sender-emails-api-openapi.yml
+- filename: heymilo-voices-api-openapi.yml
+  format: yaml
+  label: HeyMilo Voices API
+  slug: heymilo-voices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-voices-api-openapi.yml
+- filename: heymilo-webhooks-api-openapi.yml
+  format: yaml
+  label: HeyMilo Webhooks API
+  slug: heymilo-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-webhooks-api-openapi.yml
+- filename: heymilo-workspaces-api-openapi.yml
+  format: yaml
+  label: HeyMilo Workspaces API
+  slug: heymilo-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-workspaces-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

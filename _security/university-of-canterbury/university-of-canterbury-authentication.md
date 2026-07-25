@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: university-of-canterbury-figshare-api.yaml
+- filename: university-of-canterbury-altmetric-api-openapi.yml
   format: yaml
-  label: Canterbury Figshare (figshare REST and OAI-PMH)
-  slug: figshare-api
+  label: University of Canterbury altmetric API
+  slug: university-of-canterbury-altmetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-canterbury/refs/heads/main/openapi/university-of-canterbury-figshare-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-canterbury/refs/heads/main/openapi/university-of-canterbury-altmetric-api-openapi.yml
+- filename: university-of-canterbury-articles-api-openapi.yml
+  format: yaml
+  label: University of Canterbury articles API
+  slug: university-of-canterbury-articles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-canterbury/refs/heads/main/openapi/university-of-canterbury-articles-api-openapi.yml
+- filename: university-of-canterbury-authors-api-openapi.yml
+  format: yaml
+  label: University of Canterbury authors API
+  slug: university-of-canterbury-authors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-canterbury/refs/heads/main/openapi/university-of-canterbury-authors-api-openapi.yml
+- filename: university-of-canterbury-collections-api-openapi.yml
+  format: yaml
+  label: University of Canterbury collections API
+  slug: university-of-canterbury-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-canterbury/refs/heads/main/openapi/university-of-canterbury-collections-api-openapi.yml
+- filename: university-of-canterbury-institutions-api-openapi.yml
+  format: yaml
+  label: University of Canterbury institutions API
+  slug: university-of-canterbury-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-canterbury/refs/heads/main/openapi/university-of-canterbury-institutions-api-openapi.yml
+- filename: university-of-canterbury-oauth-api-openapi.yml
+  format: yaml
+  label: University of Canterbury oauth API
+  slug: university-of-canterbury-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-canterbury/refs/heads/main/openapi/university-of-canterbury-oauth-api-openapi.yml
+- filename: university-of-canterbury-other-api-openapi.yml
+  format: yaml
+  label: University of Canterbury other API
+  slug: university-of-canterbury-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-canterbury/refs/heads/main/openapi/university-of-canterbury-other-api-openapi.yml
+- filename: university-of-canterbury-profiles-api-openapi.yml
+  format: yaml
+  label: University of Canterbury profiles API
+  slug: university-of-canterbury-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-canterbury/refs/heads/main/openapi/university-of-canterbury-profiles-api-openapi.yml
+- filename: university-of-canterbury-projects-api-openapi.yml
+  format: yaml
+  label: University of Canterbury projects API
+  slug: university-of-canterbury-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-canterbury/refs/heads/main/openapi/university-of-canterbury-projects-api-openapi.yml
+- filename: university-of-canterbury-symplectic-api-openapi.yml
+  format: yaml
+  label: University of Canterbury symplectic API
+  slug: university-of-canterbury-symplectic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-canterbury/refs/heads/main/openapi/university-of-canterbury-symplectic-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: dodo-trade-openapi.yml
+- filename: dodo-trade-api-openapi.yml
   format: yaml
-  label: DODO Trade / Route API
-  slug: dodo-trade-route-api
+  label: DODO Trade API
+  slug: dodo-trade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo/refs/heads/main/openapi/dodo-trade-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dodo/refs/heads/main/openapi/dodo-trade-api-openapi.yml
 description: ''
 domains:
 - caa: []

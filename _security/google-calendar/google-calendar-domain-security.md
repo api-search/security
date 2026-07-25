@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: google-calendar-calendars-api-openapi.yml
   format: yaml
-  label: Google Calendar API
-  slug: google-calendar-api
+  label: Google Calendar Calendars API
+  slug: google-calendar-calendars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-calendar/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-calendar/refs/heads/main/openapi/google-calendar-calendars-api-openapi.yml
+- filename: google-calendar-colors-api-openapi.yml
+  format: yaml
+  label: Google Calendar Colors API
+  slug: google-calendar-colors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-calendar/refs/heads/main/openapi/google-calendar-colors-api-openapi.yml
+- filename: google-calendar-freebusy-api-openapi.yml
+  format: yaml
+  label: Google Calendar freeBusy API
+  slug: google-calendar-freebusy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-calendar/refs/heads/main/openapi/google-calendar-freebusy-api-openapi.yml
+- filename: google-calendar-users-api-openapi.yml
+  format: yaml
+  label: Google Calendar Users API
+  slug: google-calendar-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-calendar/refs/heads/main/openapi/google-calendar-users-api-openapi.yml
 description: ''
 domains:
 - caa:

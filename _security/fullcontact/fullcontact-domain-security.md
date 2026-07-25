@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: fullcontact-openapi.yml
+- filename: fullcontact-address-api-openapi.yml
   format: yaml
-  label: FullContact V3 API
-  slug: v3-api
+  label: FullContact Address API
+  slug: fullcontact-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/openapi/fullcontact-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/openapi/fullcontact-address-api-openapi.yml
+- filename: fullcontact-audience-api-openapi.yml
+  format: yaml
+  label: FullContact Audience API
+  slug: fullcontact-audience-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/openapi/fullcontact-audience-api-openapi.yml
+- filename: fullcontact-enrich-api-openapi.yml
+  format: yaml
+  label: FullContact Enrich API
+  slug: fullcontact-enrich-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/openapi/fullcontact-enrich-api-openapi.yml
+- filename: fullcontact-identity-api-openapi.yml
+  format: yaml
+  label: FullContact Identity API
+  slug: fullcontact-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/openapi/fullcontact-identity-api-openapi.yml
+- filename: fullcontact-permission-api-openapi.yml
+  format: yaml
+  label: FullContact Permission API
+  slug: fullcontact-permission-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/openapi/fullcontact-permission-api-openapi.yml
+- filename: fullcontact-tags-api-openapi.yml
+  format: yaml
+  label: FullContact Tags API
+  slug: fullcontact-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/openapi/fullcontact-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

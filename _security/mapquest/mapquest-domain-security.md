@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: mapquest-openapi.yml
+- filename: mapquest-directions-api-openapi.yml
   format: yaml
   label: MapQuest Directions API
   slug: mapquest-directions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mapquest/refs/heads/main/openapi/mapquest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mapquest/refs/heads/main/openapi/mapquest-directions-api-openapi.yml
 description: ''
 domains:
 - caa:

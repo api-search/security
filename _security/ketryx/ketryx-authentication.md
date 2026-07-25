@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ketryx-build-api-openapi.yml
+- filename: ketryx-artifacts-api-openapi.yml
   format: yaml
-  label: Ketryx Build API
-  slug: ketryx-build-api
+  label: Ketryx Artifacts API
+  slug: ketryx-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/openapi/ketryx-build-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/openapi/ketryx-artifacts-api-openapi.yml
+- filename: ketryx-builds-api-openapi.yml
+  format: yaml
+  label: Ketryx Builds API
+  slug: ketryx-builds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/openapi/ketryx-builds-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: idrx-openapi.yml
+- filename: idrx-onboarding-api-openapi.yml
   format: yaml
-  label: IDRX API
-  slug: idrx-api
+  label: IDRX Onboarding API
+  slug: idrx-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/openapi/idrx-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/openapi/idrx-onboarding-api-openapi.yml
+- filename: idrx-transaction-api-openapi.yml
+  format: yaml
+  label: IDRX Transaction API
+  slug: idrx-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/openapi/idrx-transaction-api-openapi.yml
 description: ''
 domains:
 - caa: []

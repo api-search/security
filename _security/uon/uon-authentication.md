@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: uon-open-research-figshare.yaml
+- filename: uon-altmetric-api-openapi.yml
   format: yaml
-  label: Open Research Newcastle (Figshare REST API)
-  slug: open-research-figshare
+  label: University of Newcastle Australia altmetric API
+  slug: uon-altmetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/openapi/uon-open-research-figshare.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/openapi/uon-altmetric-api-openapi.yml
+- filename: uon-articles-api-openapi.yml
+  format: yaml
+  label: University of Newcastle Australia articles API
+  slug: uon-articles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/openapi/uon-articles-api-openapi.yml
+- filename: uon-authors-api-openapi.yml
+  format: yaml
+  label: University of Newcastle Australia authors API
+  slug: uon-authors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/openapi/uon-authors-api-openapi.yml
+- filename: uon-collections-api-openapi.yml
+  format: yaml
+  label: University of Newcastle Australia collections API
+  slug: uon-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/openapi/uon-collections-api-openapi.yml
+- filename: uon-institutions-api-openapi.yml
+  format: yaml
+  label: University of Newcastle Australia institutions API
+  slug: uon-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/openapi/uon-institutions-api-openapi.yml
+- filename: uon-oauth-api-openapi.yml
+  format: yaml
+  label: University of Newcastle Australia oauth API
+  slug: uon-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/openapi/uon-oauth-api-openapi.yml
+- filename: uon-other-api-openapi.yml
+  format: yaml
+  label: University of Newcastle Australia other API
+  slug: uon-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/openapi/uon-other-api-openapi.yml
+- filename: uon-profiles-api-openapi.yml
+  format: yaml
+  label: University of Newcastle Australia profiles API
+  slug: uon-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/openapi/uon-profiles-api-openapi.yml
+- filename: uon-projects-api-openapi.yml
+  format: yaml
+  label: University of Newcastle Australia projects API
+  slug: uon-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/openapi/uon-projects-api-openapi.yml
+- filename: uon-symplectic-api-openapi.yml
+  format: yaml
+  label: University of Newcastle Australia symplectic API
+  slug: uon-symplectic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/openapi/uon-symplectic-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

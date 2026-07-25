@@ -2,24 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: acast-openapi.yml
-  format: yaml
-  label: Acast Shows API
-  slug: acast-shows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acast/refs/heads/main/openapi/acast-openapi.yml
-- filename: acast-openapi.yml
-  format: yaml
-  label: Acast Episodes API
-  slug: acast-episodes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acast/refs/heads/main/openapi/acast-openapi.yml
-- filename: acast-openapi.yml
+- filename: acast-ad-markers-api-openapi.yml
   format: yaml
   label: Acast Ad Markers API
   slug: acast-ad-markers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acast/refs/heads/main/openapi/acast-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/acast/refs/heads/main/openapi/acast-ad-markers-api-openapi.yml
+- filename: acast-episodes-api-openapi.yml
+  format: yaml
+  label: Acast Episodes API
+  slug: acast-episodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acast/refs/heads/main/openapi/acast-episodes-api-openapi.yml
+- filename: acast-shows-api-openapi.yml
+  format: yaml
+  label: Acast Shows API
+  slug: acast-shows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acast/refs/heads/main/openapi/acast-shows-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

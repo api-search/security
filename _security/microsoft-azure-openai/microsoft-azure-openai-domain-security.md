@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: microsoft-azure-openai-openapi.yml
+- filename: microsoft-azure-openai-chat-api-openapi.yml
   format: yaml
-  label: Azure OpenAI Service API
-  slug: azure-openai-service-api
+  label: Azure OpenAI Service Chat API
+  slug: microsoft-azure-openai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/microsoft-azure-openai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/microsoft-azure-openai-chat-api-openapi.yml
+- filename: microsoft-azure-openai-completions-api-openapi.yml
+  format: yaml
+  label: Azure OpenAI Service Completions API
+  slug: microsoft-azure-openai-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/microsoft-azure-openai-completions-api-openapi.yml
+- filename: microsoft-azure-openai-embeddings-api-openapi.yml
+  format: yaml
+  label: Azure OpenAI Service Embeddings API
+  slug: microsoft-azure-openai-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/microsoft-azure-openai-embeddings-api-openapi.yml
+- filename: microsoft-azure-openai-images-api-openapi.yml
+  format: yaml
+  label: Azure OpenAI Service Images API
+  slug: microsoft-azure-openai-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/microsoft-azure-openai-images-api-openapi.yml
 description: ''
 domains:
 - caa:

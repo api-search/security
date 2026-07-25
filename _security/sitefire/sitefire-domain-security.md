@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: sitefire-book-demo-openapi.yml
+- filename: sitefire-book-demo-api-openapi.yml
   format: yaml
-  label: Sitefire Book-a-Demo API
-  slug: sitefire-book-a-demo-api
+  label: Sitefire Book Demo API
+  slug: sitefire-book-demo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/openapi/sitefire-book-demo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/openapi/sitefire-book-demo-api-openapi.yml
 description: ''
 domains:
 - caa: []

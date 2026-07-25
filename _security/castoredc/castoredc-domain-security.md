@@ -1,65 +1,71 @@
 ---
 api_specs:
-- filename: castoredc-openapi.yml
-  format: yaml
-  label: Castor Studies API
-  slug: castoredc-studies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-openapi.yml
-- filename: castoredc-openapi.yml
-  format: yaml
-  label: Castor Participants (Records) API
-  slug: castoredc-participants-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-openapi.yml
-- filename: castoredc-openapi.yml
-  format: yaml
-  label: Castor Institutes API
-  slug: castoredc-institutes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-openapi.yml
-- filename: castoredc-openapi.yml
-  format: yaml
-  label: Castor Users API
-  slug: castoredc-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-openapi.yml
-- filename: castoredc-openapi.yml
-  format: yaml
-  label: Castor Fields API
-  slug: castoredc-fields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-openapi.yml
-- filename: castoredc-openapi.yml
-  format: yaml
-  label: Castor Study Data Points API
-  slug: castoredc-study-data-points-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-openapi.yml
-- filename: castoredc-openapi.yml
-  format: yaml
-  label: Castor Reports (Repeating Data) API
-  slug: castoredc-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-openapi.yml
-- filename: castoredc-openapi.yml
-  format: yaml
-  label: Castor Surveys API
-  slug: castoredc-surveys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-openapi.yml
-- filename: castoredc-openapi.yml
+- filename: castoredc-audit-trail-api-openapi.yml
   format: yaml
   label: Castor Audit Trail API
   slug: castoredc-audit-trail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-openapi.yml
-- filename: castoredc-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-audit-trail-api-openapi.yml
+- filename: castoredc-data-export-api-openapi.yml
   format: yaml
   label: Castor Data Export API
   slug: castoredc-data-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-data-export-api-openapi.yml
+- filename: castoredc-fields-api-openapi.yml
+  format: yaml
+  label: Castor Fields API
+  slug: castoredc-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-fields-api-openapi.yml
+- filename: castoredc-institutes-api-openapi.yml
+  format: yaml
+  label: Castor Institutes API
+  slug: castoredc-institutes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-institutes-api-openapi.yml
+- filename: castoredc-metadata-api-openapi.yml
+  format: yaml
+  label: Castor Metadata API
+  slug: castoredc-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-metadata-api-openapi.yml
+- filename: castoredc-participants-api-openapi.yml
+  format: yaml
+  label: Castor Participants API
+  slug: castoredc-participants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-participants-api-openapi.yml
+- filename: castoredc-reports-api-openapi.yml
+  format: yaml
+  label: Castor Reports API
+  slug: castoredc-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-reports-api-openapi.yml
+- filename: castoredc-studies-api-openapi.yml
+  format: yaml
+  label: Castor Studies API
+  slug: castoredc-studies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-studies-api-openapi.yml
+- filename: castoredc-study-data-points-api-openapi.yml
+  format: yaml
+  label: Castor Study Data Points API
+  slug: castoredc-study-data-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-study-data-points-api-openapi.yml
+- filename: castoredc-surveys-api-openapi.yml
+  format: yaml
+  label: Castor Surveys API
+  slug: castoredc-surveys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-surveys-api-openapi.yml
+- filename: castoredc-users-api-openapi.yml
+  format: yaml
+  label: Castor Users API
+  slug: castoredc-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-users-api-openapi.yml
 description: ''
 domains:
 - caa:

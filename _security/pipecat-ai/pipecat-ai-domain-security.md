@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: pipecat-ai-openapi.yml
+- filename: pipecat-ai-agents-api-openapi.yml
   format: yaml
-  label: Pipecat Cloud (Agents/Sessions API)
-  slug: pipecat-cloud-agents-sessions-api
+  label: Pipecat Agents API
+  slug: pipecat-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipecat-ai/refs/heads/main/openapi/pipecat-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pipecat-ai/refs/heads/main/openapi/pipecat-ai-agents-api-openapi.yml
+- filename: pipecat-ai-builds-api-openapi.yml
+  format: yaml
+  label: Pipecat Builds API
+  slug: pipecat-ai-builds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pipecat-ai/refs/heads/main/openapi/pipecat-ai-builds-api-openapi.yml
+- filename: pipecat-ai-organization-api-openapi.yml
+  format: yaml
+  label: Pipecat Organization API
+  slug: pipecat-ai-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pipecat-ai/refs/heads/main/openapi/pipecat-ai-organization-api-openapi.yml
+- filename: pipecat-ai-secrets-api-openapi.yml
+  format: yaml
+  label: Pipecat Secrets API
+  slug: pipecat-ai-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pipecat-ai/refs/heads/main/openapi/pipecat-ai-secrets-api-openapi.yml
+- filename: pipecat-ai-sessions-api-openapi.yml
+  format: yaml
+  label: Pipecat Sessions API
+  slug: pipecat-ai-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pipecat-ai/refs/heads/main/openapi/pipecat-ai-sessions-api-openapi.yml
 description: ''
 domains:
 - caa: []

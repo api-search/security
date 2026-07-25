@@ -1,17 +1,71 @@
 ---
 api_specs:
-- filename: canvas-lms-rest-api-openapi.yml
-  format: yaml
-  label: Canvas REST API
-  slug: canvas-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/openapi/canvas-lms-rest-api-openapi.yml
 - filename: canvas-lms-live-events-asyncapi.yml
   format: yaml
   label: Canvas Live Events
   slug: canvas-live-events
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/openapi/canvas-lms-live-events-asyncapi.yml
+- filename: canvas-lms-accounts-api-openapi.yml
+  format: yaml
+  label: Canvas LMS Accounts API
+  slug: canvas-lms-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/openapi/canvas-lms-accounts-api-openapi.yml
+- filename: canvas-lms-assignments-api-openapi.yml
+  format: yaml
+  label: Canvas LMS Assignments API
+  slug: canvas-lms-assignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/openapi/canvas-lms-assignments-api-openapi.yml
+- filename: canvas-lms-courses-api-openapi.yml
+  format: yaml
+  label: Canvas LMS Courses API
+  slug: canvas-lms-courses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/openapi/canvas-lms-courses-api-openapi.yml
+- filename: canvas-lms-discussions-api-openapi.yml
+  format: yaml
+  label: Canvas LMS Discussions API
+  slug: canvas-lms-discussions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/openapi/canvas-lms-discussions-api-openapi.yml
+- filename: canvas-lms-enrollments-api-openapi.yml
+  format: yaml
+  label: Canvas LMS Enrollments API
+  slug: canvas-lms-enrollments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/openapi/canvas-lms-enrollments-api-openapi.yml
+- filename: canvas-lms-files-api-openapi.yml
+  format: yaml
+  label: Canvas LMS Files API
+  slug: canvas-lms-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/openapi/canvas-lms-files-api-openapi.yml
+- filename: canvas-lms-modules-api-openapi.yml
+  format: yaml
+  label: Canvas LMS Modules API
+  slug: canvas-lms-modules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/openapi/canvas-lms-modules-api-openapi.yml
+- filename: canvas-lms-outcomes-api-openapi.yml
+  format: yaml
+  label: Canvas LMS Outcomes API
+  slug: canvas-lms-outcomes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/openapi/canvas-lms-outcomes-api-openapi.yml
+- filename: canvas-lms-submissions-api-openapi.yml
+  format: yaml
+  label: Canvas LMS Submissions API
+  slug: canvas-lms-submissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/openapi/canvas-lms-submissions-api-openapi.yml
+- filename: canvas-lms-users-api-openapi.yml
+  format: yaml
+  label: Canvas LMS Users API
+  slug: canvas-lms-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/openapi/canvas-lms-users-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

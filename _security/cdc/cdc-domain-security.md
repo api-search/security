@@ -1,23 +1,65 @@
 ---
 api_specs:
-- filename: docs
+- filename: cdc-app-notifications-api-openapi.yml
   format: yaml
-  label: CDC Open Data API
-  slug: cdc-open-data-api
+  label: CDC app-notifications API
+  slug: cdc-app-notifications-api
   spec_type: OpenAPI
-  url: https://data.cdc.gov/api/docs
-- filename: dibbs-ecr-refiner-openapi.json
-  format: json
-  label: DIBBs eCR Refiner API
-  slug: dibbs-ecr-refiner-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/openapi/dibbs-ecr-refiner-openapi.json
-- filename: dibbs-query-connector-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/openapi/cdc-app-notifications-api-openapi.yml
+- filename: cdc-code-systems-api-openapi.yml
   format: yaml
-  label: DIBBs Query Connector API
-  slug: dibbs-query-connector-api
+  label: CDC code-systems API
+  slug: cdc-code-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/openapi/dibbs-query-connector-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/openapi/cdc-code-systems-api-openapi.yml
+- filename: cdc-conditions-api-openapi.yml
+  format: yaml
+  label: CDC conditions API
+  slug: cdc-conditions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/openapi/cdc-conditions-api-openapi.yml
+- filename: cdc-configurations-api-openapi.yml
+  format: yaml
+  label: CDC configurations API
+  slug: cdc-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/openapi/cdc-configurations-api-openapi.yml
+- filename: cdc-events-api-openapi.yml
+  format: yaml
+  label: CDC events API
+  slug: cdc-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/openapi/cdc-events-api-openapi.yml
+- filename: cdc-query-api-openapi.yml
+  format: yaml
+  label: CDC Query API
+  slug: cdc-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/openapi/cdc-query-api-openapi.yml
+- filename: cdc-query-connector-api-openapi-3-0-api-openapi.yml
+  format: yaml
+  label: CDC Query Connector API OpenAPI 3.0 API
+  slug: cdc-query-connector-api-openapi-3-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/openapi/cdc-query-connector-api-openapi-3-0-api-openapi.yml
+- filename: cdc-releases-api-openapi.yml
+  format: yaml
+  label: CDC releases API
+  slug: cdc-releases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/openapi/cdc-releases-api-openapi.yml
+- filename: cdc-simulator-api-openapi.yml
+  format: yaml
+  label: CDC simulator API
+  slug: cdc-simulator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/openapi/cdc-simulator-api-openapi.yml
+- filename: cdc-user-api-openapi.yml
+  format: yaml
+  label: CDC user API
+  slug: cdc-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/openapi/cdc-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

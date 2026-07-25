@@ -1,41 +1,47 @@
 ---
 api_specs:
-- filename: terminal49-openapi.yml
-  format: yaml
-  label: Terminal49 Tracking Requests API
-  slug: tracking-requests
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-openapi.yml
-- filename: terminal49-openapi.yml
-  format: yaml
-  label: Terminal49 Shipments API
-  slug: shipments
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-openapi.yml
-- filename: terminal49-openapi.yml
+- filename: terminal49-containers-api-openapi.yml
   format: yaml
   label: Terminal49 Containers API
-  slug: containers
+  slug: terminal49-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-openapi.yml
-- filename: terminal49-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-containers-api-openapi.yml
+- filename: terminal49-shipments-api-openapi.yml
+  format: yaml
+  label: Terminal49 Shipments API
+  slug: terminal49-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-shipments-api-openapi.yml
+- filename: terminal49-shipping-lines-api-openapi.yml
+  format: yaml
+  label: Terminal49 Shipping Lines API
+  slug: terminal49-shipping-lines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-shipping-lines-api-openapi.yml
+- filename: terminal49-terminals-api-openapi.yml
+  format: yaml
+  label: Terminal49 Terminals API
+  slug: terminal49-terminals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-terminals-api-openapi.yml
+- filename: terminal49-tracking-requests-api-openapi.yml
+  format: yaml
+  label: Terminal49 Tracking Requests API
+  slug: terminal49-tracking-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-tracking-requests-api-openapi.yml
+- filename: terminal49-transport-events-api-openapi.yml
   format: yaml
   label: Terminal49 Transport Events API
-  slug: transport-events
+  slug: terminal49-transport-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-openapi.yml
-- filename: terminal49-openapi.yml
-  format: yaml
-  label: Terminal49 Terminals & Shipping Lines API
-  slug: terminals-shipping-lines
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-openapi.yml
-- filename: terminal49-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-transport-events-api-openapi.yml
+- filename: terminal49-webhooks-api-openapi.yml
   format: yaml
   label: Terminal49 Webhooks API
-  slug: webhooks
+  slug: terminal49-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

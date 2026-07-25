@@ -1,18 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tradestation-api-openapi.yml
-  format: yaml
-  label: TradeStation API
-  slug: tradestation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/openapi/tradestation-api-openapi.yml
 - filename: tradestation-streaming-asyncapi.yml
   format: yaml
   label: TradeStation Streaming API
   slug: tradestation-streaming
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/asyncapi/tradestation-streaming-asyncapi.yml
+- filename: tradestation-accounts-api-openapi.yml
+  format: yaml
+  label: TradeStation Accounts API
+  slug: tradestation-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/openapi/tradestation-accounts-api-openapi.yml
+- filename: tradestation-market-data-api-openapi.yml
+  format: yaml
+  label: TradeStation Market Data API
+  slug: tradestation-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/openapi/tradestation-market-data-api-openapi.yml
+- filename: tradestation-options-api-openapi.yml
+  format: yaml
+  label: TradeStation Options API
+  slug: tradestation-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/openapi/tradestation-options-api-openapi.yml
+- filename: tradestation-order-execution-api-openapi.yml
+  format: yaml
+  label: TradeStation Order Execution API
+  slug: tradestation-order-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/openapi/tradestation-order-execution-api-openapi.yml
+- filename: tradestation-reference-data-api-openapi.yml
+  format: yaml
+  label: TradeStation Reference Data API
+  slug: tradestation-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/openapi/tradestation-reference-data-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

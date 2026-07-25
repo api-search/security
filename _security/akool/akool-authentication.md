@@ -1,42 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: akool-openapi.yml
+- filename: akool-authentication-api-openapi.yml
   format: yaml
-  label: Akool Talking Avatar API
-  slug: akool-talking-avatar-api
+  label: Akool Authentication API
+  slug: akool-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-openapi.yml
-- filename: akool-openapi.yml
-  format: yaml
-  label: Akool Talking Photo API
-  slug: akool-talking-photo-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-openapi.yml
-- filename: akool-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-authentication-api-openapi.yml
+- filename: akool-face-swap-api-openapi.yml
   format: yaml
   label: Akool Face Swap API
   slug: akool-face-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-openapi.yml
-- filename: akool-openapi.yml
-  format: yaml
-  label: Akool Video Translation API
-  slug: akool-video-translation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-openapi.yml
-- filename: akool-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-face-swap-api-openapi.yml
+- filename: akool-image-generation-api-openapi.yml
   format: yaml
   label: Akool Image Generation API
   slug: akool-image-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-openapi.yml
-- filename: akool-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-image-generation-api-openapi.yml
+- filename: akool-live-avatar-api-openapi.yml
   format: yaml
-  label: Akool Live Avatar (Streaming) API
+  label: Akool Live Avatar API
   slug: akool-live-avatar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-live-avatar-api-openapi.yml
+- filename: akool-talking-avatar-api-openapi.yml
+  format: yaml
+  label: Akool Talking Avatar API
+  slug: akool-talking-avatar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-talking-avatar-api-openapi.yml
+- filename: akool-talking-photo-api-openapi.yml
+  format: yaml
+  label: Akool Talking Photo API
+  slug: akool-talking-photo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-talking-photo-api-openapi.yml
+- filename: akool-video-translation-api-openapi.yml
+  format: yaml
+  label: Akool Video Translation API
+  slug: akool-video-translation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-video-translation-api-openapi.yml
 auth_types:
 - http
 - apiKey

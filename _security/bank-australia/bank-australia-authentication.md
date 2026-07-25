@@ -1,36 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: bank-australia-cds-banking-openapi.json
-  format: json
-  label: Bank Australia CDR Product Reference Data API
-  slug: bank-australia-cdr-product-reference-data-api
+- filename: bank-australia-banking-account-balances-api-openapi.yml
+  format: yaml
+  label: Bank Australia Banking Account Balances API
+  slug: bank-australia-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/openapi/bank-australia-cds-banking-openapi.json
-- filename: bank-australia-cds-banking-openapi.json
-  format: json
-  label: Bank Australia CDR Accounts & Balances API
-  slug: bank-australia-cdr-accounts-balances-api
+  url: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/openapi/bank-australia-banking-account-balances-api-openapi.yml
+- filename: bank-australia-banking-account-direct-debits-api-openapi.yml
+  format: yaml
+  label: Bank Australia Banking Account Direct Debits API
+  slug: bank-australia-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/openapi/bank-australia-cds-banking-openapi.json
-- filename: bank-australia-cds-banking-openapi.json
-  format: json
-  label: Bank Australia CDR Transactions API
-  slug: bank-australia-cdr-transactions-api
+  url: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/openapi/bank-australia-banking-account-direct-debits-api-openapi.yml
+- filename: bank-australia-banking-account-scheduled-payments-api-openapi.yml
+  format: yaml
+  label: Bank Australia Banking Account Scheduled Payments API
+  slug: bank-australia-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/openapi/bank-australia-cds-banking-openapi.json
-- filename: bank-australia-cds-banking-openapi.json
-  format: json
-  label: Bank Australia CDR Direct Debits & Scheduled Payments API
-  slug: bank-australia-cdr-direct-debits-scheduled-payments-api
+  url: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/openapi/bank-australia-banking-account-scheduled-payments-api-openapi.yml
+- filename: bank-australia-banking-account-transactions-api-openapi.yml
+  format: yaml
+  label: Bank Australia Banking Account Transactions API
+  slug: bank-australia-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/openapi/bank-australia-cds-banking-openapi.json
-- filename: bank-australia-cds-banking-openapi.json
-  format: json
-  label: Bank Australia CDR Payees API
-  slug: bank-australia-cdr-payees-api
+  url: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/openapi/bank-australia-banking-account-transactions-api-openapi.yml
+- filename: bank-australia-banking-accounts-api-openapi.yml
+  format: yaml
+  label: Bank Australia Banking Accounts API
+  slug: bank-australia-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/openapi/bank-australia-cds-banking-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/openapi/bank-australia-banking-accounts-api-openapi.yml
+- filename: bank-australia-banking-payees-api-openapi.yml
+  format: yaml
+  label: Bank Australia Banking Payees API
+  slug: bank-australia-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/openapi/bank-australia-banking-payees-api-openapi.yml
+- filename: bank-australia-banking-products-api-openapi.yml
+  format: yaml
+  label: Bank Australia Banking Products API
+  slug: bank-australia-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/openapi/bank-australia-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2

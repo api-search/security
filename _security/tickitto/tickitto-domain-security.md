@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: tickitto-openapi-original.json
-  format: json
-  label: Tickitto API
-  slug: tickitto-api
+- filename: tickitto-authentication-api-openapi.yml
+  format: yaml
+  label: Tickitto Authentication API
+  slug: tickitto-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/openapi/tickitto-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/openapi/tickitto-authentication-api-openapi.yml
+- filename: tickitto-availability-api-openapi.yml
+  format: yaml
+  label: Tickitto Availability API
+  slug: tickitto-availability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/openapi/tickitto-availability-api-openapi.yml
+- filename: tickitto-basket-api-openapi.yml
+  format: yaml
+  label: Tickitto Basket API
+  slug: tickitto-basket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/openapi/tickitto-basket-api-openapi.yml
+- filename: tickitto-events-api-openapi.yml
+  format: yaml
+  label: Tickitto Events API
+  slug: tickitto-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/openapi/tickitto-events-api-openapi.yml
+- filename: tickitto-metadata-api-openapi.yml
+  format: yaml
+  label: Tickitto Metadata API
+  slug: tickitto-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/openapi/tickitto-metadata-api-openapi.yml
+- filename: tickitto-search-api-openapi.yml
+  format: yaml
+  label: Tickitto Search API
+  slug: tickitto-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/openapi/tickitto-search-api-openapi.yml
+- filename: tickitto-system-status-api-openapi.yml
+  format: yaml
+  label: Tickitto System Status API
+  slug: tickitto-system-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/openapi/tickitto-system-status-api-openapi.yml
+- filename: tickitto-webhooks-api-openapi.yml
+  format: yaml
+  label: Tickitto Webhooks API
+  slug: tickitto-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/openapi/tickitto-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

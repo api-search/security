@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: axle-energy-openapi-original.json
-  format: json
-  label: Axle API
-  slug: axle-api
+- filename: axle-energy-1-authentication-api-openapi.yml
+  format: yaml
+  label: Axle Energy 1. Authentication API
+  slug: axle-energy-1-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/openapi/axle-energy-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/openapi/axle-energy-1-authentication-api-openapi.yml
+- filename: axle-energy-2-meters-api-openapi.yml
+  format: yaml
+  label: Axle Energy 2. Meters API
+  slug: axle-energy-2-meters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/openapi/axle-energy-2-meters-api-openapi.yml
+- filename: axle-energy-3-sites-api-openapi.yml
+  format: yaml
+  label: Axle Energy 3. Sites API
+  slug: axle-energy-3-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/openapi/axle-energy-3-sites-api-openapi.yml
+- filename: axle-energy-4-assets-api-openapi.yml
+  format: yaml
+  label: Axle Energy 4. Assets API
+  slug: axle-energy-4-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/openapi/axle-energy-4-assets-api-openapi.yml
+- filename: axle-energy-5-data-api-openapi.yml
+  format: yaml
+  label: Axle Energy 5. Data API
+  slug: axle-energy-5-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/openapi/axle-energy-5-data-api-openapi.yml
+- filename: axle-energy-6-rewards-api-openapi.yml
+  format: yaml
+  label: Axle Energy 6. Rewards API
+  slug: axle-energy-6-rewards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/openapi/axle-energy-6-rewards-api-openapi.yml
+- filename: axle-energy-7-validation-api-openapi.yml
+  format: yaml
+  label: Axle Energy 7. Validation API
+  slug: axle-energy-7-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/openapi/axle-energy-7-validation-api-openapi.yml
+- filename: axle-energy-8-examples-api-openapi.yml
+  format: yaml
+  label: Axle Energy 8. Examples API
+  slug: axle-energy-8-examples-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/openapi/axle-energy-8-examples-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

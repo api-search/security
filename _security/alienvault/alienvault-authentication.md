@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: alienvault-otx-openapi.yml
+- filename: alienvault-indicators-api-openapi.yml
   format: yaml
-  label: AlienVault OTX DirectConnect API
-  slug: alienvault-otx-directconnect-api
+  label: AlienVault Indicators API
+  slug: alienvault-indicators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/openapi/alienvault-otx-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/openapi/alienvault-indicators-api-openapi.yml
+- filename: alienvault-pulses-api-openapi.yml
+  format: yaml
+  label: AlienVault Pulses API
+  slug: alienvault-pulses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/openapi/alienvault-pulses-api-openapi.yml
+- filename: alienvault-search-api-openapi.yml
+  format: yaml
+  label: AlienVault Search API
+  slug: alienvault-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/openapi/alienvault-search-api-openapi.yml
+- filename: alienvault-users-api-openapi.yml
+  format: yaml
+  label: AlienVault Users API
+  slug: alienvault-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/openapi/alienvault-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

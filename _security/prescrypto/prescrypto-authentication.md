@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: prescrypto-openapi.yml
+- filename: prescrypto-hospitals-api-openapi.yml
   format: yaml
-  label: Prescrypto Integration API
-  slug: prescrypto-integration-api
+  label: Prescrypto Hospitals API
+  slug: prescrypto-hospitals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prescrypto/refs/heads/main/openapi/prescrypto-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prescrypto/refs/heads/main/openapi/prescrypto-hospitals-api-openapi.yml
+- filename: prescrypto-locations-api-openapi.yml
+  format: yaml
+  label: Prescrypto Locations API
+  slug: prescrypto-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prescrypto/refs/heads/main/openapi/prescrypto-locations-api-openapi.yml
+- filename: prescrypto-medics-api-openapi.yml
+  format: yaml
+  label: Prescrypto Medics API
+  slug: prescrypto-medics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prescrypto/refs/heads/main/openapi/prescrypto-medics-api-openapi.yml
+- filename: prescrypto-memberships-api-openapi.yml
+  format: yaml
+  label: Prescrypto Memberships API
+  slug: prescrypto-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prescrypto/refs/heads/main/openapi/prescrypto-memberships-api-openapi.yml
+- filename: prescrypto-patients-api-openapi.yml
+  format: yaml
+  label: Prescrypto Patients API
+  slug: prescrypto-patients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prescrypto/refs/heads/main/openapi/prescrypto-patients-api-openapi.yml
+- filename: prescrypto-pharmacy-api-openapi.yml
+  format: yaml
+  label: Prescrypto Pharmacy API
+  slug: prescrypto-pharmacy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prescrypto/refs/heads/main/openapi/prescrypto-pharmacy-api-openapi.yml
+- filename: prescrypto-prescriptions-api-openapi.yml
+  format: yaml
+  label: Prescrypto Prescriptions API
+  slug: prescrypto-prescriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prescrypto/refs/heads/main/openapi/prescrypto-prescriptions-api-openapi.yml
+- filename: prescrypto-products-api-openapi.yml
+  format: yaml
+  label: Prescrypto Products API
+  slug: prescrypto-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prescrypto/refs/heads/main/openapi/prescrypto-products-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: lmnt-speech-openapi.yml
+- filename: lmnt-ai-api-openapi.yml
+  format: yaml
+  label: LMNT Ai API
+  slug: lmnt-ai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lmnt/refs/heads/main/openapi/lmnt-ai-api-openapi.yml
+- filename: lmnt-health-check-api-openapi.yml
+  format: yaml
+  label: LMNT Health Check API
+  slug: lmnt-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lmnt/refs/heads/main/openapi/lmnt-health-check-api-openapi.yml
+- filename: lmnt-speech-api-openapi.yml
   format: yaml
   label: LMNT Speech API
   slug: lmnt-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lmnt/refs/heads/main/openapi/lmnt-speech-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lmnt/refs/heads/main/openapi/lmnt-speech-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

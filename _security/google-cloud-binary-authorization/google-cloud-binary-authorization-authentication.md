@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: binary-authorization-api-openapi.yml
+- filename: google-cloud-binary-authorization-attestations-api-openapi.yml
   format: yaml
-  label: Binary Authorization API
-  slug: binary-authorization-api
+  label: Google Cloud Binary Authorization Attestations API
+  slug: google-cloud-binary-authorization-attestations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-binary-authorization/refs/heads/main/openapi/binary-authorization-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-binary-authorization/refs/heads/main/openapi/google-cloud-binary-authorization-attestations-api-openapi.yml
+- filename: google-cloud-binary-authorization-attestors-api-openapi.yml
+  format: yaml
+  label: Google Cloud Binary Authorization Attestors API
+  slug: google-cloud-binary-authorization-attestors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-binary-authorization/refs/heads/main/openapi/google-cloud-binary-authorization-attestors-api-openapi.yml
+- filename: google-cloud-binary-authorization-policy-api-openapi.yml
+  format: yaml
+  label: Google Cloud Binary Authorization Policy API
+  slug: google-cloud-binary-authorization-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-binary-authorization/refs/heads/main/openapi/google-cloud-binary-authorization-policy-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

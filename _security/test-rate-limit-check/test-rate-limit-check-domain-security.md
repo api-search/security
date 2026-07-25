@@ -1,23 +1,41 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: test-rate-limit-check-consumers-api-openapi.yml
   format: yaml
-  label: Kong Gateway Admin API
-  slug: kong-gateway-admin-api
+  label: Test Rate Limit Check Consumers API
+  slug: test-rate-limit-check-consumers-api
   spec_type: OpenAPI
-  url: https://docs.konghq.com/gateway/latest/admin-api/
-- filename: x-tyk-gateway.json
-  format: json
-  label: Tyk API Management API
-  slug: tyk-api-management-api
+  url: https://raw.githubusercontent.com/api-evangelist/test-rate-limit-check/refs/heads/main/openapi/test-rate-limit-check-consumers-api-openapi.yml
+- filename: test-rate-limit-check-plugins-api-openapi.yml
+  format: yaml
+  label: Test Rate Limit Check Plugins API
+  slug: test-rate-limit-check-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/TykTechnologies/tyk/master/apidef/oas/schema/x-tyk-gateway.json
-- filename: api-spec.json
-  format: json
-  label: Grafana API
-  slug: grafana-api
+  url: https://raw.githubusercontent.com/api-evangelist/test-rate-limit-check/refs/heads/main/openapi/test-rate-limit-check-plugins-api-openapi.yml
+- filename: test-rate-limit-check-routes-api-openapi.yml
+  format: yaml
+  label: Test Rate Limit Check Routes API
+  slug: test-rate-limit-check-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/grafana/grafana/main/public/api-spec.json
+  url: https://raw.githubusercontent.com/api-evangelist/test-rate-limit-check/refs/heads/main/openapi/test-rate-limit-check-routes-api-openapi.yml
+- filename: test-rate-limit-check-schemas-api-openapi.yml
+  format: yaml
+  label: Test Rate Limit Check Schemas API
+  slug: test-rate-limit-check-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/test-rate-limit-check/refs/heads/main/openapi/test-rate-limit-check-schemas-api-openapi.yml
+- filename: test-rate-limit-check-services-api-openapi.yml
+  format: yaml
+  label: Test Rate Limit Check Services API
+  slug: test-rate-limit-check-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/test-rate-limit-check/refs/heads/main/openapi/test-rate-limit-check-services-api-openapi.yml
+- filename: test-rate-limit-check-status-api-openapi.yml
+  format: yaml
+  label: Test Rate Limit Check Status API
+  slug: test-rate-limit-check-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/test-rate-limit-check/refs/heads/main/openapi/test-rate-limit-check-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

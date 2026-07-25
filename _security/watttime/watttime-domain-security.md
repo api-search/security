@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: watttime-openapi.yml
+- filename: watttime-account-api-openapi.yml
   format: yaml
-  label: WattTime API
-  slug: watttime
+  label: WattTime Account API
+  slug: watttime-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/openapi/watttime-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/openapi/watttime-account-api-openapi.yml
+- filename: watttime-authentication-api-openapi.yml
+  format: yaml
+  label: WattTime Authentication API
+  slug: watttime-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/openapi/watttime-authentication-api-openapi.yml
+- filename: watttime-emissions-data-api-openapi.yml
+  format: yaml
+  label: WattTime Emissions Data API
+  slug: watttime-emissions-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/openapi/watttime-emissions-data-api-openapi.yml
+- filename: watttime-forecasts-api-openapi.yml
+  format: yaml
+  label: WattTime Forecasts API
+  slug: watttime-forecasts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/openapi/watttime-forecasts-api-openapi.yml
+- filename: watttime-grid-regions-api-openapi.yml
+  format: yaml
+  label: WattTime Grid Regions API
+  slug: watttime-grid-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/openapi/watttime-grid-regions-api-openapi.yml
 description: ''
 domains:
 - caa: []

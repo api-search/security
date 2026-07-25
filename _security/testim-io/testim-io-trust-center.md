@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: testim-io-openapi.yml
+- filename: testim-io-branches-api-openapi.yml
   format: yaml
-  label: Testim.io Public API
-  slug: testimio-public-api
+  label: Testim Io Branches API
+  slug: testim-io-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testim-io/refs/heads/main/openapi/testim-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/testim-io/refs/heads/main/openapi/testim-io-branches-api-openapi.yml
+- filename: testim-io-executions-api-openapi.yml
+  format: yaml
+  label: Testim Io Executions API
+  slug: testim-io-executions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testim-io/refs/heads/main/openapi/testim-io-executions-api-openapi.yml
+- filename: testim-io-labels-api-openapi.yml
+  format: yaml
+  label: Testim Io Labels API
+  slug: testim-io-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testim-io/refs/heads/main/openapi/testim-io-labels-api-openapi.yml
+- filename: testim-io-mobile-applications-api-openapi.yml
+  format: yaml
+  label: Testim Io Mobile Applications API
+  slug: testim-io-mobile-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testim-io/refs/heads/main/openapi/testim-io-mobile-applications-api-openapi.yml
+- filename: testim-io-suites-api-openapi.yml
+  format: yaml
+  label: Testim Io Suites API
+  slug: testim-io-suites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testim-io/refs/heads/main/openapi/testim-io-suites-api-openapi.yml
+- filename: testim-io-test-plans-api-openapi.yml
+  format: yaml
+  label: Testim Io Test plans API
+  slug: testim-io-test-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testim-io/refs/heads/main/openapi/testim-io-test-plans-api-openapi.yml
+- filename: testim-io-tests-api-openapi.yml
+  format: yaml
+  label: Testim Io Tests API
+  slug: testim-io-tests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testim-io/refs/heads/main/openapi/testim-io-tests-api-openapi.yml
 certifications:
 - SOC 2 Type 2
 - ISO/IEC 27001:2022

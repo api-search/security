@@ -1,23 +1,83 @@
 ---
 api_specs:
-- filename: readme-openapi.yml
-  format: yaml
-  label: ReadMe API
-  slug: readme-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/openapi/readme-openapi.yml
-- filename: readme-developer-metrics-openapi.yml
-  format: yaml
-  label: ReadMe Developer Metrics API
-  slug: developer-metrics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/openapi/readme-developer-metrics-openapi.yml
 - filename: readme-personalized-docs-webhook-asyncapi.yml
   format: yaml
   label: ReadMe Personalized Docs Webhook
   slug: personalized-docs-webhook
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/asyncapi/readme-personalized-docs-webhook-asyncapi.yml
+- filename: readme-analytics-api-openapi.yml
+  format: yaml
+  label: ReadMe Analytics API
+  slug: readme-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/openapi/readme-analytics-api-openapi.yml
+- filename: readme-api-keys-api-openapi.yml
+  format: yaml
+  label: ReadMe API Keys API
+  slug: readme-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/openapi/readme-api-keys-api-openapi.yml
+- filename: readme-apis-api-openapi.yml
+  format: yaml
+  label: ReadMe APIs API
+  slug: readme-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/openapi/readme-apis-api-openapi.yml
+- filename: readme-branches-api-openapi.yml
+  format: yaml
+  label: ReadMe Branches API
+  slug: readme-branches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/openapi/readme-branches-api-openapi.yml
+- filename: readme-categories-api-openapi.yml
+  format: yaml
+  label: ReadMe Categories API
+  slug: readme-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/openapi/readme-categories-api-openapi.yml
+- filename: readme-changelog-api-openapi.yml
+  format: yaml
+  label: ReadMe Changelog API
+  slug: readme-changelog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/openapi/readme-changelog-api-openapi.yml
+- filename: readme-custom-pages-api-openapi.yml
+  format: yaml
+  label: ReadMe Custom Pages API
+  slug: readme-custom-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/openapi/readme-custom-pages-api-openapi.yml
+- filename: readme-guides-api-openapi.yml
+  format: yaml
+  label: ReadMe Guides API
+  slug: readme-guides-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/openapi/readme-guides-api-openapi.yml
+- filename: readme-images-api-openapi.yml
+  format: yaml
+  label: ReadMe Images API
+  slug: readme-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/openapi/readme-images-api-openapi.yml
+- filename: readme-metrics-api-openapi.yml
+  format: yaml
+  label: ReadMe Metrics API
+  slug: readme-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/openapi/readme-metrics-api-openapi.yml
+- filename: readme-recipes-api-openapi.yml
+  format: yaml
+  label: ReadMe Recipes API
+  slug: readme-recipes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/openapi/readme-recipes-api-openapi.yml
+- filename: readme-search-api-openapi.yml
+  format: yaml
+  label: ReadMe Search API
+  slug: readme-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/openapi/readme-search-api-openapi.yml
 description: ''
 domains:
 - caa:

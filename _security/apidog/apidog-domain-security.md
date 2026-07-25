@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: apidog-apidog-openapi.yml
+- filename: apidog-import-and-export-api-openapi.yml
   format: yaml
-  label: Apidog
-  slug: apidog
+  label: Apidog Import And Export API
+  slug: apidog-import-and-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apidog/refs/heads/main/openapi/apidog-apidog-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apidog/refs/heads/main/openapi/apidog-import-and-export-api-openapi.yml
 description: ''
 domains:
 - caa: []

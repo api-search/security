@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: n3xt-openapi-original.json
-  format: json
-  label: N3XT API
-  slug: n3xt-api
+- filename: n3xt-approvals-api-openapi.yml
+  format: yaml
+  label: N3XT Approvals API
+  slug: n3xt-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/openapi/n3xt-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/openapi/n3xt-approvals-api-openapi.yml
+- filename: n3xt-audittrail-api-openapi.yml
+  format: yaml
+  label: N3XT AuditTrail API
+  slug: n3xt-audittrail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/openapi/n3xt-audittrail-api-openapi.yml
+- filename: n3xt-businesses-api-openapi.yml
+  format: yaml
+  label: N3XT Businesses API
+  slug: n3xt-businesses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/openapi/n3xt-businesses-api-openapi.yml
+- filename: n3xt-contacts-api-openapi.yml
+  format: yaml
+  label: N3XT Contacts API
+  slug: n3xt-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/openapi/n3xt-contacts-api-openapi.yml
+- filename: n3xt-ndd-routes-api-openapi.yml
+  format: yaml
+  label: N3XT Ndd Routes API
+  slug: n3xt-ndd-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/openapi/n3xt-ndd-routes-api-openapi.yml
+- filename: n3xt-payments-api-openapi.yml
+  format: yaml
+  label: N3XT Payments API
+  slug: n3xt-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/openapi/n3xt-payments-api-openapi.yml
+- filename: n3xt-programmable-api-openapi.yml
+  format: yaml
+  label: N3XT Programmable API
+  slug: n3xt-programmable-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/openapi/n3xt-programmable-api-openapi.yml
+- filename: n3xt-system-api-openapi.yml
+  format: yaml
+  label: N3XT System API
+  slug: n3xt-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/openapi/n3xt-system-api-openapi.yml
+- filename: n3xt-transfers-api-openapi.yml
+  format: yaml
+  label: N3XT Transfers API
+  slug: n3xt-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/openapi/n3xt-transfers-api-openapi.yml
+- filename: n3xt-users-api-openapi.yml
+  format: yaml
+  label: N3XT Users API
+  slug: n3xt-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/openapi/n3xt-users-api-openapi.yml
+- filename: n3xt-wallets-api-openapi.yml
+  format: yaml
+  label: N3XT Wallets API
+  slug: n3xt-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/openapi/n3xt-wallets-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

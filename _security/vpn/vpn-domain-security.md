@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: vpn-openapi.yml
+- filename: vpn-catalog-api-openapi.yml
   format: yaml
-  label: NordVPN API
-  slug: nordvpn-api
+  label: VPN Catalog API
+  slug: vpn-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vpn/refs/heads/main/openapi/vpn-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vpn/refs/heads/main/openapi/vpn-catalog-api-openapi.yml
+- filename: vpn-servers-api-openapi.yml
+  format: yaml
+  label: VPN Servers API
+  slug: vpn-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vpn/refs/heads/main/openapi/vpn-servers-api-openapi.yml
+- filename: vpn-stats-api-openapi.yml
+  format: yaml
+  label: VPN Stats API
+  slug: vpn-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vpn/refs/heads/main/openapi/vpn-stats-api-openapi.yml
 description: ''
 domains:
 - caa:

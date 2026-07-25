@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: metabase-openapi.yml
+- filename: metabase-cards-api-openapi.yml
   format: yaml
-  label: Metabase API
-  slug: metabase-api
+  label: Metabase Cards API
+  slug: metabase-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/openapi/metabase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/openapi/metabase-cards-api-openapi.yml
+- filename: metabase-collections-api-openapi.yml
+  format: yaml
+  label: Metabase Collections API
+  slug: metabase-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/openapi/metabase-collections-api-openapi.yml
+- filename: metabase-dashboards-api-openapi.yml
+  format: yaml
+  label: Metabase Dashboards API
+  slug: metabase-dashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/openapi/metabase-dashboards-api-openapi.yml
+- filename: metabase-databases-api-openapi.yml
+  format: yaml
+  label: Metabase Databases API
+  slug: metabase-databases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/openapi/metabase-databases-api-openapi.yml
+- filename: metabase-datasets-api-openapi.yml
+  format: yaml
+  label: Metabase Datasets API
+  slug: metabase-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/openapi/metabase-datasets-api-openapi.yml
+- filename: metabase-permissions-api-openapi.yml
+  format: yaml
+  label: Metabase Permissions API
+  slug: metabase-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/openapi/metabase-permissions-api-openapi.yml
+- filename: metabase-search-api-openapi.yml
+  format: yaml
+  label: Metabase Search API
+  slug: metabase-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/openapi/metabase-search-api-openapi.yml
+- filename: metabase-sessions-api-openapi.yml
+  format: yaml
+  label: Metabase Sessions API
+  slug: metabase-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/openapi/metabase-sessions-api-openapi.yml
+- filename: metabase-settings-api-openapi.yml
+  format: yaml
+  label: Metabase Settings API
+  slug: metabase-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/openapi/metabase-settings-api-openapi.yml
+- filename: metabase-users-api-openapi.yml
+  format: yaml
+  label: Metabase Users API
+  slug: metabase-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/openapi/metabase-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: unfi-supplier-openapi.yml
+- filename: united-natural-foods-insights-api-openapi.yml
   format: yaml
-  label: UNFI Harmony Core API
-  slug: unfi-harmony-core-api
+  label: United Natural Foods (UNFI) Insights API
+  slug: united-natural-foods-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/main/openapi/unfi-supplier-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/openapi/united-natural-foods-insights-api-openapi.yml
+- filename: united-natural-foods-orders-api-openapi.yml
+  format: yaml
+  label: United Natural Foods (UNFI) Orders API
+  slug: united-natural-foods-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/openapi/united-natural-foods-orders-api-openapi.yml
+- filename: united-natural-foods-products-api-openapi.yml
+  format: yaml
+  label: United Natural Foods (UNFI) Products API
+  slug: united-natural-foods-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/openapi/united-natural-foods-products-api-openapi.yml
+- filename: united-natural-foods-suppliers-api-openapi.yml
+  format: yaml
+  label: United Natural Foods (UNFI) Suppliers API
+  slug: united-natural-foods-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/openapi/united-natural-foods-suppliers-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

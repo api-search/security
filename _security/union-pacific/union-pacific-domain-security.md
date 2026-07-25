@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: union-pacific-api.yaml
+- filename: union-pacific-account-api-openapi.yml
   format: yaml
-  label: Union Pacific API
-  slug: union-pacific
+  label: Union Pacific Account API
+  slug: union-pacific-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-account-api-openapi.yml
+- filename: union-pacific-cases-api-openapi.yml
+  format: yaml
+  label: Union Pacific Cases API
+  slug: union-pacific-cases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-cases-api-openapi.yml
+- filename: union-pacific-equipment-api-openapi.yml
+  format: yaml
+  label: Union Pacific Equipment API
+  slug: union-pacific-equipment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-equipment-api-openapi.yml
+- filename: union-pacific-intermodal-api-openapi.yml
+  format: yaml
+  label: Union Pacific Intermodal API
+  slug: union-pacific-intermodal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-intermodal-api-openapi.yml
+- filename: union-pacific-location-api-openapi.yml
+  format: yaml
+  label: Union Pacific Location API
+  slug: union-pacific-location-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-location-api-openapi.yml
+- filename: union-pacific-shipment-actions-api-openapi.yml
+  format: yaml
+  label: Union Pacific Shipment Actions API
+  slug: union-pacific-shipment-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-shipment-actions-api-openapi.yml
+- filename: union-pacific-shipment-api-openapi.yml
+  format: yaml
+  label: Union Pacific Shipment API
+  slug: union-pacific-shipment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-shipment-api-openapi.yml
+- filename: union-pacific-waybill-api-openapi.yml
+  format: yaml
+  label: Union Pacific Waybill API
+  slug: union-pacific-waybill-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-waybill-api-openapi.yml
 description: ''
 domains:
 - caa: []

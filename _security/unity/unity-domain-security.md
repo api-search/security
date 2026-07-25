@@ -1,155 +1,191 @@
 ---
 api_specs:
-- filename: unity-player-authentication-openapi.yml
+- filename: unity-allocations-api-openapi.yml
   format: yaml
-  label: Unity Player Authentication API
-  slug: player-authentication
+  label: Unity Allocations API
+  slug: unity-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-player-authentication-openapi.yml
-- filename: unity-cloud-code-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-allocations-api-openapi.yml
+- filename: unity-authentication-api-openapi.yml
   format: yaml
-  label: Unity Cloud Code API
-  slug: cloud-code
+  label: Unity Authentication API
+  slug: unity-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-cloud-code-openapi.yml
-- filename: unity-cloud-save-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-authentication-api-openapi.yml
+- filename: unity-blocks-api-openapi.yml
   format: yaml
-  label: Unity Cloud Save API
-  slug: cloud-save
+  label: Unity Blocks API
+  slug: unity-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-cloud-save-openapi.yml
-- filename: unity-economy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-blocks-api-openapi.yml
+- filename: unity-build-targets-api-openapi.yml
   format: yaml
-  label: Unity Economy API
-  slug: economy
+  label: Unity Build Targets API
+  slug: unity-build-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-economy-openapi.yml
-- filename: unity-leaderboards-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-build-targets-api-openapi.yml
+- filename: unity-builds-api-openapi.yml
   format: yaml
-  label: Unity Leaderboards API
-  slug: leaderboards
+  label: Unity Builds API
+  slug: unity-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-leaderboards-openapi.yml
-- filename: unity-remote-config-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-builds-api-openapi.yml
+- filename: unity-config-api-openapi.yml
   format: yaml
-  label: Unity Remote Config API
-  slug: remote-config
+  label: Unity Config API
+  slug: unity-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-remote-config-openapi.yml
-- filename: unity-analytics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-config-api-openapi.yml
+- filename: unity-configuration-api-openapi.yml
   format: yaml
-  label: Unity Analytics API
-  slug: analytics
+  label: Unity Configuration API
+  slug: unity-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-analytics-openapi.yml
-- filename: unity-lobby-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-configuration-api-openapi.yml
+- filename: unity-currencies-api-openapi.yml
   format: yaml
-  label: Unity Lobby API
-  slug: lobby
+  label: Unity Currencies API
+  slug: unity-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-lobby-openapi.yml
-- filename: unity-matchmaker-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-currencies-api-openapi.yml
+- filename: unity-custom-data-api-openapi.yml
   format: yaml
-  label: Unity Matchmaker API
-  slug: matchmaker
+  label: Unity Custom Data API
+  slug: unity-custom-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-matchmaker-openapi.yml
-- filename: unity-relay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-custom-data-api-openapi.yml
+- filename: unity-events-api-openapi.yml
   format: yaml
-  label: Unity Relay API
-  slug: relay
+  label: Unity Events API
+  slug: unity-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-relay-openapi.yml
-- filename: unity-multiplay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-events-api-openapi.yml
+- filename: unity-executions-api-openapi.yml
   format: yaml
-  label: Unity Multiplay Game Server Hosting API
-  slug: multiplay-game-server-hosting
+  label: Unity Executions API
+  slug: unity-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-multiplay-openapi.yml
-- filename: unity-cloud-content-delivery-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-executions-api-openapi.yml
+- filename: unity-fleets-api-openapi.yml
   format: yaml
-  label: Unity Cloud Content Delivery API
-  slug: cloud-content-delivery
+  label: Unity Fleets API
+  slug: unity-fleets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-cloud-content-delivery-openapi.yml
-- filename: unity-triggers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-fleets-api-openapi.yml
+- filename: unity-friend-requests-api-openapi.yml
   format: yaml
-  label: Unity Triggers API
-  slug: triggers
+  label: Unity Friend Requests API
+  slug: unity-friend-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-triggers-openapi.yml
-- filename: unity-scheduler-openapi.yml
-  format: yaml
-  label: Unity Scheduler API
-  slug: scheduler
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-scheduler-openapi.yml
-- filename: unity-friends-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-friend-requests-api-openapi.yml
+- filename: unity-friends-api-openapi.yml
   format: yaml
   label: Unity Friends API
-  slug: friends
+  slug: unity-friends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-friends-openapi.yml
-- filename: unity-moderation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-friends-api-openapi.yml
+- filename: unity-identity-providers-api-openapi.yml
   format: yaml
-  label: Unity Moderation API
-  slug: moderation
+  label: Unity Identity Providers API
+  slug: unity-identity-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-moderation-openapi.yml
-- filename: unity-push-notifications-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-identity-providers-api-openapi.yml
+- filename: unity-inventory-api-openapi.yml
   format: yaml
-  label: Unity Push Notifications API
-  slug: push-notifications
+  label: Unity Inventory API
+  slug: unity-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-push-notifications-openapi.yml
-- filename: unity-build-automation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-inventory-api-openapi.yml
+- filename: unity-leaderboards-api-openapi.yml
   format: yaml
-  label: Unity Build Automation API
-  slug: build-automation
+  label: Unity Leaderboards API
+  slug: unity-leaderboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-build-automation-openapi.yml
-- filename: unity-version-control-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-leaderboards-api-openapi.yml
+- filename: unity-lobbies-api-openapi.yml
   format: yaml
-  label: Unity Version Control API
-  slug: version-control
+  label: Unity Lobbies API
+  slug: unity-lobbies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-version-control-openapi.yml
-- filename: unity-access-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-lobbies-api-openapi.yml
+- filename: unity-modules-api-openapi.yml
   format: yaml
-  label: Unity Access API
-  slug: access
+  label: Unity Modules API
+  slug: unity-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-access-openapi.yml
-- filename: unity-scim-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-modules-api-openapi.yml
+- filename: unity-override-rules-api-openapi.yml
   format: yaml
-  label: Unity SCIM API
-  slug: scim
+  label: Unity Override Rules API
+  slug: unity-override-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-scim-openapi.yml
-- filename: unity-distributed-authority-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-override-rules-api-openapi.yml
+- filename: unity-player-data-api-openapi.yml
   format: yaml
-  label: Unity Distributed Authority API
-  slug: distributed-authority
+  label: Unity Player Data API
+  slug: unity-player-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-distributed-authority-openapi.yml
-- filename: unity-safe-text-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-player-data-api-openapi.yml
+- filename: unity-players-api-openapi.yml
   format: yaml
-  label: Unity Safe Text API
-  slug: safe-text
+  label: Unity Players API
+  slug: unity-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-safe-text-openapi.yml
-- filename: unity-asset-manager-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-players-api-openapi.yml
+- filename: unity-purchases-api-openapi.yml
   format: yaml
-  label: Unity Asset Manager API
-  slug: asset-manager
+  label: Unity Purchases API
+  slug: unity-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-asset-manager-openapi.yml
-- filename: unity-monetize-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-purchases-api-openapi.yml
+- filename: unity-queries-api-openapi.yml
   format: yaml
-  label: Unity Monetize API
-  slug: monetize
+  label: Unity Queries API
+  slug: unity-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-monetize-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-queries-api-openapi.yml
+- filename: unity-queues-api-openapi.yml
+  format: yaml
+  label: Unity Queues API
+  slug: unity-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-queues-api-openapi.yml
+- filename: unity-scores-api-openapi.yml
+  format: yaml
+  label: Unity Scores API
+  slug: unity-scores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-scores-api-openapi.yml
+- filename: unity-scripts-api-openapi.yml
+  format: yaml
+  label: Unity Scripts API
+  slug: unity-scripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-scripts-api-openapi.yml
+- filename: unity-search-api-openapi.yml
+  format: yaml
+  label: Unity Search API
+  slug: unity-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-search-api-openapi.yml
+- filename: unity-servers-api-openapi.yml
+  format: yaml
+  label: Unity Servers API
+  slug: unity-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-servers-api-openapi.yml
+- filename: unity-settings-api-openapi.yml
+  format: yaml
+  label: Unity Settings API
+  slug: unity-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-settings-api-openapi.yml
+- filename: unity-tickets-api-openapi.yml
+  format: yaml
+  label: Unity Tickets API
+  slug: unity-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/openapi/unity-tickets-api-openapi.yml
 description: ''
 domains:
 - caa: []

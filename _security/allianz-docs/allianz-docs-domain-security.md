@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: allianz-api-connect.yaml
+- filename: allianz-docs-certificates-api-openapi.yml
   format: yaml
-  label: Allianz API Connect
-  slug: allianz-api-connect
+  label: Allianz Certificates API
+  slug: allianz-docs-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/openapi/allianz-api-connect.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/openapi/allianz-docs-certificates-api-openapi.yml
+- filename: allianz-docs-leads-api-openapi.yml
+  format: yaml
+  label: Allianz Leads API
+  slug: allianz-docs-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/openapi/allianz-docs-leads-api-openapi.yml
+- filename: allianz-docs-policy-details-api-openapi.yml
+  format: yaml
+  label: Allianz Policy Details API
+  slug: allianz-docs-policy-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/openapi/allianz-docs-policy-details-api-openapi.yml
+- filename: allianz-docs-price-estimates-api-openapi.yml
+  format: yaml
+  label: Allianz Price Estimates API
+  slug: allianz-docs-price-estimates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/openapi/allianz-docs-price-estimates-api-openapi.yml
 description: ''
 domains:
 - caa: []

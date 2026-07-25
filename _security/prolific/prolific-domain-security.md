@@ -1,11 +1,113 @@
 ---
 api_specs:
-- filename: prolific-openapi-original.yml
+- filename: prolific-aitaskbuilder-api-openapi.yml
   format: yaml
-  label: Prolific API
-  slug: prolific-api
+  label: Prolific aiTaskBuilder API
+  slug: prolific-aitaskbuilder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/openapi/prolific-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/openapi/prolific-aitaskbuilder-api-openapi.yml
+- filename: prolific-bonuses-api-openapi.yml
+  format: yaml
+  label: Prolific bonuses API
+  slug: prolific-bonuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/openapi/prolific-bonuses-api-openapi.yml
+- filename: prolific-credentials-api-openapi.yml
+  format: yaml
+  label: Prolific credentials API
+  slug: prolific-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/openapi/prolific-credentials-api-openapi.yml
+- filename: prolific-filters-api-openapi.yml
+  format: yaml
+  label: Prolific filters API
+  slug: prolific-filters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/openapi/prolific-filters-api-openapi.yml
+- filename: prolific-filtersets-api-openapi.yml
+  format: yaml
+  label: Prolific filterSets API
+  slug: prolific-filtersets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/openapi/prolific-filtersets-api-openapi.yml
+- filename: prolific-invitations-api-openapi.yml
+  format: yaml
+  label: Prolific invitations API
+  slug: prolific-invitations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/openapi/prolific-invitations-api-openapi.yml
+- filename: prolific-messages-api-openapi.yml
+  format: yaml
+  label: Prolific messages API
+  slug: prolific-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/openapi/prolific-messages-api-openapi.yml
+- filename: prolific-participantgroups-api-openapi.yml
+  format: yaml
+  label: Prolific participantGroups API
+  slug: prolific-participantgroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/openapi/prolific-participantgroups-api-openapi.yml
+- filename: prolific-projects-api-openapi.yml
+  format: yaml
+  label: Prolific projects API
+  slug: prolific-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/openapi/prolific-projects-api-openapi.yml
+- filename: prolific-rewardrecommendations-api-openapi.yml
+  format: yaml
+  label: Prolific rewardRecommendations API
+  slug: prolific-rewardrecommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/openapi/prolific-rewardrecommendations-api-openapi.yml
+- filename: prolific-studies-api-openapi.yml
+  format: yaml
+  label: Prolific studies API
+  slug: prolific-studies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/openapi/prolific-studies-api-openapi.yml
+- filename: prolific-submissionfeedbackupload-api-openapi.yml
+  format: yaml
+  label: Prolific submissionFeedbackUpload API
+  slug: prolific-submissionfeedbackupload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/openapi/prolific-submissionfeedbackupload-api-openapi.yml
+- filename: prolific-submissions-api-openapi.yml
+  format: yaml
+  label: Prolific submissions API
+  slug: prolific-submissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/openapi/prolific-submissions-api-openapi.yml
+- filename: prolific-surveys-api-openapi.yml
+  format: yaml
+  label: Prolific surveys API
+  slug: prolific-surveys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/openapi/prolific-surveys-api-openapi.yml
+- filename: prolific-users-api-openapi.yml
+  format: yaml
+  label: Prolific users API
+  slug: prolific-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/openapi/prolific-users-api-openapi.yml
+- filename: prolific-webhooks-api-openapi.yml
+  format: yaml
+  label: Prolific webhooks API
+  slug: prolific-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/openapi/prolific-webhooks-api-openapi.yml
+- filename: prolific-wellknownendpoints-api-openapi.yml
+  format: yaml
+  label: Prolific wellKnownEndpoints API
+  slug: prolific-wellknownendpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/openapi/prolific-wellknownendpoints-api-openapi.yml
+- filename: prolific-workspaces-api-openapi.yml
+  format: yaml
+  label: Prolific workspaces API
+  slug: prolific-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/openapi/prolific-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa:

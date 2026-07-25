@@ -1,71 +1,119 @@
 ---
 api_specs:
-- filename: lean-authentication-api-openapi.yml
+- filename: lean-tech-account-on-file-api-openapi.yml
   format: yaml
-  label: Lean Authentication API
-  slug: lean-authentication-api
+  label: Lean Technologies Account on File API
+  slug: lean-tech-account-on-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-authentication-api-openapi.yml
-- filename: lean-customers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-tech-account-on-file-api-openapi.yml
+- filename: lean-tech-account-verification-api-openapi.yml
   format: yaml
-  label: Lean Customers API
-  slug: lean-customers-api
+  label: Lean Technologies Account Verification API
+  slug: lean-tech-account-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-customers-api-openapi.yml
-- filename: lean-entities-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-tech-account-verification-api-openapi.yml
+- filename: lean-tech-accounts-api-openapi.yml
   format: yaml
-  label: Lean Entities API
-  slug: lean-entities-api
+  label: Lean Technologies Accounts API
+  slug: lean-tech-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-entities-api-openapi.yml
-- filename: lean-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-tech-accounts-api-openapi.yml
+- filename: lean-tech-authentication-api-openapi.yml
   format: yaml
-  label: Lean Data API
-  slug: lean-data-api
+  label: Lean Technologies Authentication API
+  slug: lean-tech-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-data-api-openapi.yml
-- filename: lean-insights-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-tech-authentication-api-openapi.yml
+- filename: lean-tech-balances-api-openapi.yml
   format: yaml
-  label: Lean Insights API
-  slug: lean-insights-api
+  label: Lean Technologies Balances API
+  slug: lean-tech-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-insights-api-openapi.yml
-- filename: lean-banks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-tech-balances-api-openapi.yml
+- filename: lean-tech-banks-api-openapi.yml
   format: yaml
-  label: Lean Banks API
-  slug: lean-banks-api
+  label: Lean Technologies Banks API
+  slug: lean-tech-banks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-banks-api-openapi.yml
-- filename: lean-verifications-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-tech-banks-api-openapi.yml
+- filename: lean-tech-consents-api-openapi.yml
   format: yaml
-  label: Lean Verifications API
-  slug: lean-verifications-api
+  label: Lean Technologies Consents API
+  slug: lean-tech-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-verifications-api-openapi.yml
-- filename: lean-payments-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-tech-consents-api-openapi.yml
+- filename: lean-tech-customers-api-openapi.yml
   format: yaml
-  label: Lean Payments API
-  slug: lean-payments-api
+  label: Lean Technologies Customers API
+  slug: lean-tech-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-payments-api-openapi.yml
-- filename: lean-payment-sources-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-tech-customers-api-openapi.yml
+- filename: lean-tech-entities-api-openapi.yml
   format: yaml
-  label: Lean Payment Sources API
-  slug: lean-payment-sources-api
+  label: Lean Technologies Entities API
+  slug: lean-tech-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-payment-sources-api-openapi.yml
-- filename: lean-payouts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-tech-entities-api-openapi.yml
+- filename: lean-tech-identity-api-openapi.yml
   format: yaml
-  label: Lean Payouts API
-  slug: lean-payouts-api
+  label: Lean Technologies Identity API
+  slug: lean-tech-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-payouts-api-openapi.yml
-- filename: lean-refunds-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-tech-identity-api-openapi.yml
+- filename: lean-tech-insights-api-openapi.yml
   format: yaml
-  label: Lean Refunds API
-  slug: lean-refunds-api
+  label: Lean Technologies Insights API
+  slug: lean-tech-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-refunds-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-tech-insights-api-openapi.yml
+- filename: lean-tech-name-verification-api-openapi.yml
+  format: yaml
+  label: Lean Technologies Name Verification API
+  slug: lean-tech-name-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-tech-name-verification-api-openapi.yml
+- filename: lean-tech-payment-intents-api-openapi.yml
+  format: yaml
+  label: Lean Technologies Payment Intents API
+  slug: lean-tech-payment-intents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-tech-payment-intents-api-openapi.yml
+- filename: lean-tech-payment-sources-api-openapi.yml
+  format: yaml
+  label: Lean Technologies Payment Sources API
+  slug: lean-tech-payment-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-tech-payment-sources-api-openapi.yml
+- filename: lean-tech-payout-destinations-api-openapi.yml
+  format: yaml
+  label: Lean Technologies Payout Destinations API
+  slug: lean-tech-payout-destinations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-tech-payout-destinations-api-openapi.yml
+- filename: lean-tech-payouts-api-openapi.yml
+  format: yaml
+  label: Lean Technologies Payouts API
+  slug: lean-tech-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-tech-payouts-api-openapi.yml
+- filename: lean-tech-refreshes-api-openapi.yml
+  format: yaml
+  label: Lean Technologies Refreshes API
+  slug: lean-tech-refreshes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-tech-refreshes-api-openapi.yml
+- filename: lean-tech-refunds-api-openapi.yml
+  format: yaml
+  label: Lean Technologies Refunds API
+  slug: lean-tech-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-tech-refunds-api-openapi.yml
+- filename: lean-tech-transactions-api-openapi.yml
+  format: yaml
+  label: Lean Technologies Transactions API
+  slug: lean-tech-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-tech-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

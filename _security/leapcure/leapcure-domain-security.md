@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: leapcure-blog-content-openapi.yml
+- filename: leapcure-categories-api-openapi.yml
   format: yaml
-  label: Leapcure Blog Content API
-  slug: leapcure-blog-content-api
+  label: Leapcure categories API
+  slug: leapcure-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapcure/refs/heads/main/openapi/leapcure-blog-content-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leapcure/refs/heads/main/openapi/leapcure-categories-api-openapi.yml
+- filename: leapcure-comments-api-openapi.yml
+  format: yaml
+  label: Leapcure comments API
+  slug: leapcure-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapcure/refs/heads/main/openapi/leapcure-comments-api-openapi.yml
+- filename: leapcure-media-api-openapi.yml
+  format: yaml
+  label: Leapcure media API
+  slug: leapcure-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapcure/refs/heads/main/openapi/leapcure-media-api-openapi.yml
+- filename: leapcure-pages-api-openapi.yml
+  format: yaml
+  label: Leapcure pages API
+  slug: leapcure-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapcure/refs/heads/main/openapi/leapcure-pages-api-openapi.yml
+- filename: leapcure-posts-api-openapi.yml
+  format: yaml
+  label: Leapcure posts API
+  slug: leapcure-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapcure/refs/heads/main/openapi/leapcure-posts-api-openapi.yml
+- filename: leapcure-search-api-openapi.yml
+  format: yaml
+  label: Leapcure search API
+  slug: leapcure-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapcure/refs/heads/main/openapi/leapcure-search-api-openapi.yml
+- filename: leapcure-statuses-api-openapi.yml
+  format: yaml
+  label: Leapcure statuses API
+  slug: leapcure-statuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapcure/refs/heads/main/openapi/leapcure-statuses-api-openapi.yml
+- filename: leapcure-tags-api-openapi.yml
+  format: yaml
+  label: Leapcure tags API
+  slug: leapcure-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapcure/refs/heads/main/openapi/leapcure-tags-api-openapi.yml
+- filename: leapcure-taxonomies-api-openapi.yml
+  format: yaml
+  label: Leapcure taxonomies API
+  slug: leapcure-taxonomies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapcure/refs/heads/main/openapi/leapcure-taxonomies-api-openapi.yml
+- filename: leapcure-types-api-openapi.yml
+  format: yaml
+  label: Leapcure types API
+  slug: leapcure-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapcure/refs/heads/main/openapi/leapcure-types-api-openapi.yml
+- filename: leapcure-users-api-openapi.yml
+  format: yaml
+  label: Leapcure users API
+  slug: leapcure-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapcure/refs/heads/main/openapi/leapcure-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

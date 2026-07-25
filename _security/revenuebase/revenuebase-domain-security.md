@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: revenuebase-openapi.json
-  format: json
-  label: Revenuebase API v2
-  slug: revenuebase-api-v2
+- filename: revenuebase-account-api-openapi.yml
+  format: yaml
+  label: RevenueBase Account API
+  slug: revenuebase-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-account-api-openapi.yml
+- filename: revenuebase-email-api-openapi.yml
+  format: yaml
+  label: RevenueBase Email API
+  slug: revenuebase-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-email-api-openapi.yml
+- filename: revenuebase-jobs-api-openapi.yml
+  format: yaml
+  label: RevenueBase Jobs API
+  slug: revenuebase-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-jobs-api-openapi.yml
+- filename: revenuebase-organization-api-openapi.yml
+  format: yaml
+  label: RevenueBase Organization API
+  slug: revenuebase-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-organization-api-openapi.yml
 description: ''
 domains:
 - caa: []

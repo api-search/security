@@ -1,24 +1,120 @@
 ---
 api_key_in: []
 api_specs:
-- filename: livepeer-studio-openapi.yml
+- filename: livepeer-com-accesscontrol-api-openapi.yml
   format: yaml
-  label: Livepeer Studio API
-  slug: studio
+  label: Livepeer accessControl API
+  slug: livepeer-com-accesscontrol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/openapi/livepeer-studio-openapi.yml
-- filename: livepeer-ai-worker-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/openapi/livepeer-com-accesscontrol-api-openapi.yml
+- filename: livepeer-com-asset-api-openapi.yml
   format: yaml
-  label: Livepeer AI Network
-  slug: ai-network
+  label: Livepeer asset API
+  slug: livepeer-com-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/openapi/livepeer-ai-worker-openapi.yml
-- filename: livepeer-cli-http-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/openapi/livepeer-com-asset-api-openapi.yml
+- filename: livepeer-com-ethereum-api-openapi.yml
   format: yaml
-  label: Livepeer Node CLI HTTP API
-  slug: cli-http
+  label: Livepeer Ethereum API
+  slug: livepeer-com-ethereum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/openapi/livepeer-cli-http-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/openapi/livepeer-com-ethereum-api-openapi.yml
+- filename: livepeer-com-gateway-api-openapi.yml
+  format: yaml
+  label: Livepeer Gateway API
+  slug: livepeer-com-gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/openapi/livepeer-com-gateway-api-openapi.yml
+- filename: livepeer-com-generate-api-openapi.yml
+  format: yaml
+  label: Livepeer generate API
+  slug: livepeer-com-generate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/openapi/livepeer-com-generate-api-openapi.yml
+- filename: livepeer-com-hardware-api-openapi.yml
+  format: yaml
+  label: Livepeer Hardware API
+  slug: livepeer-com-hardware-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/openapi/livepeer-com-hardware-api-openapi.yml
+- filename: livepeer-com-health-api-openapi.yml
+  format: yaml
+  label: Livepeer Health API
+  slug: livepeer-com-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/openapi/livepeer-com-health-api-openapi.yml
+- filename: livepeer-com-metrics-api-openapi.yml
+  format: yaml
+  label: Livepeer metrics API
+  slug: livepeer-com-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/openapi/livepeer-com-metrics-api-openapi.yml
+- filename: livepeer-com-multistream-api-openapi.yml
+  format: yaml
+  label: Livepeer multistream API
+  slug: livepeer-com-multistream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/openapi/livepeer-com-multistream-api-openapi.yml
+- filename: livepeer-com-orchestrator-api-openapi.yml
+  format: yaml
+  label: Livepeer Orchestrator API
+  slug: livepeer-com-orchestrator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/openapi/livepeer-com-orchestrator-api-openapi.yml
+- filename: livepeer-com-playback-api-openapi.yml
+  format: yaml
+  label: Livepeer playback API
+  slug: livepeer-com-playback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/openapi/livepeer-com-playback-api-openapi.yml
+- filename: livepeer-com-room-api-openapi.yml
+  format: yaml
+  label: Livepeer room API
+  slug: livepeer-com-room-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/openapi/livepeer-com-room-api-openapi.yml
+- filename: livepeer-com-session-api-openapi.yml
+  format: yaml
+  label: Livepeer session API
+  slug: livepeer-com-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/openapi/livepeer-com-session-api-openapi.yml
+- filename: livepeer-com-staking-api-openapi.yml
+  format: yaml
+  label: Livepeer Staking API
+  slug: livepeer-com-staking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/openapi/livepeer-com-staking-api-openapi.yml
+- filename: livepeer-com-status-api-openapi.yml
+  format: yaml
+  label: Livepeer Status API
+  slug: livepeer-com-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/openapi/livepeer-com-status-api-openapi.yml
+- filename: livepeer-com-stream-api-openapi.yml
+  format: yaml
+  label: Livepeer stream API
+  slug: livepeer-com-stream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/openapi/livepeer-com-stream-api-openapi.yml
+- filename: livepeer-com-task-api-openapi.yml
+  format: yaml
+  label: Livepeer task API
+  slug: livepeer-com-task-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/openapi/livepeer-com-task-api-openapi.yml
+- filename: livepeer-com-transcode-api-openapi.yml
+  format: yaml
+  label: Livepeer transcode API
+  slug: livepeer-com-transcode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/openapi/livepeer-com-transcode-api-openapi.yml
+- filename: livepeer-com-webhook-api-openapi.yml
+  format: yaml
+  label: Livepeer webhook API
+  slug: livepeer-com-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/openapi/livepeer-com-webhook-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,35 +1,29 @@
 ---
 api_specs:
-- filename: mintlify-openapi.yml
-  format: yaml
-  label: Mintlify
-  slug: mintlify
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/openapi/mintlify-openapi.yml
-- filename: mintlify-openapi.yml
-  format: yaml
-  label: Mintlify Update API
-  slug: update-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/openapi/mintlify-openapi.yml
-- filename: mintlify-openapi.yml
+- filename: mintlify-agent-api-openapi.yml
   format: yaml
   label: Mintlify Agent API
-  slug: agent-api
+  slug: mintlify-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/openapi/mintlify-openapi.yml
-- filename: mintlify-openapi.yml
-  format: yaml
-  label: Mintlify Assistant API
-  slug: assistant-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/openapi/mintlify-openapi.yml
-- filename: mintlify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/openapi/mintlify-agent-api-openapi.yml
+- filename: mintlify-analytics-api-openapi.yml
   format: yaml
   label: Mintlify Analytics API
-  slug: analytics-api
+  slug: mintlify-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/openapi/mintlify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/openapi/mintlify-analytics-api-openapi.yml
+- filename: mintlify-assistant-api-openapi.yml
+  format: yaml
+  label: Mintlify Assistant API
+  slug: mintlify-assistant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/openapi/mintlify-assistant-api-openapi.yml
+- filename: mintlify-update-api-openapi.yml
+  format: yaml
+  label: Mintlify Update API
+  slug: mintlify-update-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/openapi/mintlify-update-api-openapi.yml
 description: ''
 domains:
 - caa:

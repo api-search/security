@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: openphone-openapi-original.json
-  format: json
-  label: Quo Public API (OpenPhone)
-  slug: quo-public-api-openphone
+- filename: openphone-calls-api-openapi.yml
+  format: yaml
+  label: OpenPhone Calls API
+  slug: openphone-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/openapi/openphone-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/openapi/openphone-calls-api-openapi.yml
+- filename: openphone-contact-custom-fields-api-openapi.yml
+  format: yaml
+  label: OpenPhone Contact Custom Fields API
+  slug: openphone-contact-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/openapi/openphone-contact-custom-fields-api-openapi.yml
+- filename: openphone-contacts-api-openapi.yml
+  format: yaml
+  label: OpenPhone Contacts API
+  slug: openphone-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/openapi/openphone-contacts-api-openapi.yml
+- filename: openphone-conversations-api-openapi.yml
+  format: yaml
+  label: OpenPhone Conversations API
+  slug: openphone-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/openapi/openphone-conversations-api-openapi.yml
+- filename: openphone-messages-api-openapi.yml
+  format: yaml
+  label: OpenPhone Messages API
+  slug: openphone-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/openapi/openphone-messages-api-openapi.yml
+- filename: openphone-phone-numbers-api-openapi.yml
+  format: yaml
+  label: OpenPhone Phone Numbers API
+  slug: openphone-phone-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/openapi/openphone-phone-numbers-api-openapi.yml
+- filename: openphone-tasks-api-openapi.yml
+  format: yaml
+  label: OpenPhone Tasks API
+  slug: openphone-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/openapi/openphone-tasks-api-openapi.yml
+- filename: openphone-users-api-openapi.yml
+  format: yaml
+  label: OpenPhone Users API
+  slug: openphone-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/openapi/openphone-users-api-openapi.yml
+- filename: openphone-webhooks-api-openapi.yml
+  format: yaml
+  label: OpenPhone Webhooks API
+  slug: openphone-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/openapi/openphone-webhooks-api-openapi.yml
 certifications:
 - SOC 2
 - HIPAA

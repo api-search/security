@@ -1,59 +1,83 @@
 ---
 api_specs:
-- filename: codat-io-openapi.yml
-  format: yaml
-  label: Codat Platform API
-  slug: codat-io-platform-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/openapi/codat-io-openapi.yml
-- filename: codat-io-openapi.yml
+- filename: codat-io-accounting-api-openapi.yml
   format: yaml
   label: Codat Accounting API
   slug: codat-io-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/openapi/codat-io-openapi.yml
-- filename: codat-io-openapi.yml
-  format: yaml
-  label: Codat Banking API
-  slug: codat-io-banking-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/openapi/codat-io-openapi.yml
-- filename: codat-io-openapi.yml
-  format: yaml
-  label: Codat Commerce API
-  slug: codat-io-commerce-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/openapi/codat-io-openapi.yml
-- filename: codat-io-openapi.yml
-  format: yaml
-  label: Codat Lending API
-  slug: codat-io-lending-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/openapi/codat-io-openapi.yml
-- filename: codat-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/openapi/codat-io-accounting-api-openapi.yml
+- filename: codat-io-bank-feeds-api-openapi.yml
   format: yaml
   label: Codat Bank Feeds API
   slug: codat-io-bank-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/openapi/codat-io-openapi.yml
-- filename: codat-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/openapi/codat-io-bank-feeds-api-openapi.yml
+- filename: codat-io-banking-api-openapi.yml
   format: yaml
-  label: Codat Sync for Payables API
-  slug: codat-io-sync-for-payables-api
+  label: Codat Banking API
+  slug: codat-io-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/openapi/codat-io-openapi.yml
-- filename: codat-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/openapi/codat-io-banking-api-openapi.yml
+- filename: codat-io-commerce-api-openapi.yml
   format: yaml
-  label: Codat Sync for Expenses API
-  slug: codat-io-sync-for-expenses-api
+  label: Codat Commerce API
+  slug: codat-io-commerce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/openapi/codat-io-openapi.yml
-- filename: codat-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/openapi/codat-io-commerce-api-openapi.yml
+- filename: codat-io-companies-api-openapi.yml
+  format: yaml
+  label: Codat Companies API
+  slug: codat-io-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/openapi/codat-io-companies-api-openapi.yml
+- filename: codat-io-connections-api-openapi.yml
+  format: yaml
+  label: Codat Connections API
+  slug: codat-io-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/openapi/codat-io-connections-api-openapi.yml
+- filename: codat-io-expenses-api-openapi.yml
+  format: yaml
+  label: Codat Expenses API
+  slug: codat-io-expenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/openapi/codat-io-expenses-api-openapi.yml
+- filename: codat-io-integrations-api-openapi.yml
+  format: yaml
+  label: Codat Integrations API
+  slug: codat-io-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/openapi/codat-io-integrations-api-openapi.yml
+- filename: codat-io-lending-api-openapi.yml
+  format: yaml
+  label: Codat Lending API
+  slug: codat-io-lending-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/openapi/codat-io-lending-api-openapi.yml
+- filename: codat-io-manage-data-api-openapi.yml
+  format: yaml
+  label: Codat Manage data API
+  slug: codat-io-manage-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/openapi/codat-io-manage-data-api-openapi.yml
+- filename: codat-io-payables-api-openapi.yml
+  format: yaml
+  label: Codat Payables API
+  slug: codat-io-payables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/openapi/codat-io-payables-api-openapi.yml
+- filename: codat-io-sync-for-commerce-api-openapi.yml
   format: yaml
   label: Codat Sync for Commerce API
   slug: codat-io-sync-for-commerce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/openapi/codat-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/openapi/codat-io-sync-for-commerce-api-openapi.yml
+- filename: codat-io-webhooks-api-openapi.yml
+  format: yaml
+  label: Codat Webhooks API
+  slug: codat-io-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/openapi/codat-io-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

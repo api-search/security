@@ -1,72 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: barchart-openapi.yml
-  format: yaml
-  label: Barchart Quotes API
-  slug: barchart-quotes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-openapi.yml
-- filename: barchart-openapi.yml
-  format: yaml
-  label: Barchart History API
-  slug: barchart-history-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-openapi.yml
-- filename: barchart-openapi.yml
-  format: yaml
-  label: Barchart Reference & Equities API
-  slug: barchart-reference-equities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-openapi.yml
-- filename: barchart-openapi.yml
-  format: yaml
-  label: Barchart Futures & Options API
-  slug: barchart-futures-options-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-openapi.yml
-- filename: barchart-openapi.yml
-  format: yaml
-  label: Barchart Fundamentals API
-  slug: barchart-fundamentals-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-openapi.yml
-- filename: barchart-openapi.yml
-  format: yaml
-  label: Barchart Corporate Actions & Earnings API
-  slug: barchart-corporate-actions-earnings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-openapi.yml
-- filename: barchart-openapi.yml
-  format: yaml
-  label: Barchart Cryptocurrency API
-  slug: barchart-cryptocurrency-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-openapi.yml
-- filename: barchart-openapi.yml
+- filename: barchart-commodities-agriculture-api-openapi.yml
   format: yaml
   label: Barchart Commodities & Agriculture API
   slug: barchart-commodities-agriculture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-openapi.yml
-- filename: barchart-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-commodities-agriculture-api-openapi.yml
+- filename: barchart-corporate-actions-earnings-api-openapi.yml
   format: yaml
-  label: Barchart Technicals & Charts API
-  slug: barchart-technicals-charts-api
+  label: Barchart Corporate Actions & Earnings API
+  slug: barchart-corporate-actions-earnings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-openapi.yml
-- filename: barchart-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-corporate-actions-earnings-api-openapi.yml
+- filename: barchart-cryptocurrency-api-openapi.yml
+  format: yaml
+  label: Barchart Cryptocurrency API
+  slug: barchart-cryptocurrency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-cryptocurrency-api-openapi.yml
+- filename: barchart-fundamentals-api-openapi.yml
+  format: yaml
+  label: Barchart Fundamentals API
+  slug: barchart-fundamentals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-fundamentals-api-openapi.yml
+- filename: barchart-futures-options-api-openapi.yml
+  format: yaml
+  label: Barchart Futures & Options API
+  slug: barchart-futures-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-futures-options-api-openapi.yml
+- filename: barchart-history-api-openapi.yml
+  format: yaml
+  label: Barchart History API
+  slug: barchart-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-history-api-openapi.yml
+- filename: barchart-news-filings-api-openapi.yml
   format: yaml
   label: Barchart News & Filings API
   slug: barchart-news-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-openapi.yml
-- filename: barchart-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-news-filings-api-openapi.yml
+- filename: barchart-quotes-api-openapi.yml
+  format: yaml
+  label: Barchart Quotes API
+  slug: barchart-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-quotes-api-openapi.yml
+- filename: barchart-reference-equities-api-openapi.yml
+  format: yaml
+  label: Barchart Reference & Equities API
+  slug: barchart-reference-equities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-reference-equities-api-openapi.yml
+- filename: barchart-technicals-charts-api-openapi.yml
+  format: yaml
+  label: Barchart Technicals & Charts API
+  slug: barchart-technicals-charts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-technicals-charts-api-openapi.yml
+- filename: barchart-weather-api-openapi.yml
   format: yaml
   label: Barchart Weather API
   slug: barchart-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-weather-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

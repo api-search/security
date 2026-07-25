@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: searchstax-provisioning-openapi.yml
+- filename: searchstax-authentication-api-openapi.yml
   format: yaml
-  label: SearchStax Provisioning API
-  slug: searchstax-provisioning-api
+  label: SearchStax Authentication API
+  slug: searchstax-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/openapi/searchstax-provisioning-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/openapi/searchstax-authentication-api-openapi.yml
+- filename: searchstax-backup-api-openapi.yml
+  format: yaml
+  label: SearchStax Backup API
+  slug: searchstax-backup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/openapi/searchstax-backup-api-openapi.yml
+- filename: searchstax-deployments-api-openapi.yml
+  format: yaml
+  label: SearchStax Deployments API
+  slug: searchstax-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/openapi/searchstax-deployments-api-openapi.yml
+- filename: searchstax-nodes-api-openapi.yml
+  format: yaml
+  label: SearchStax Nodes API
+  slug: searchstax-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/openapi/searchstax-nodes-api-openapi.yml
+- filename: searchstax-plans-api-openapi.yml
+  format: yaml
+  label: SearchStax Plans API
+  slug: searchstax-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/openapi/searchstax-plans-api-openapi.yml
+- filename: searchstax-usage-api-openapi.yml
+  format: yaml
+  label: SearchStax Usage API
+  slug: searchstax-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/openapi/searchstax-usage-api-openapi.yml
 auth_types:
 - http
 description: ''

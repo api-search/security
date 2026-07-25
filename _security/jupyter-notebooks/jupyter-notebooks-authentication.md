@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: jupyter-notebooks-openapi.yml
+- filename: jupyter-notebooks-contents-api-openapi.yml
   format: yaml
-  label: Jupyter Notebook Server REST API
-  slug: notebook-rest-api
+  label: Jupyter Notebooks Contents API
+  slug: jupyter-notebooks-contents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-notebooks/refs/heads/main/openapi/jupyter-notebooks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jupyter-notebooks/refs/heads/main/openapi/jupyter-notebooks-contents-api-openapi.yml
+- filename: jupyter-notebooks-kernels-api-openapi.yml
+  format: yaml
+  label: Jupyter Notebooks Kernels API
+  slug: jupyter-notebooks-kernels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jupyter-notebooks/refs/heads/main/openapi/jupyter-notebooks-kernels-api-openapi.yml
+- filename: jupyter-notebooks-kernelspecs-api-openapi.yml
+  format: yaml
+  label: Jupyter Notebooks KernelSpecs API
+  slug: jupyter-notebooks-kernelspecs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jupyter-notebooks/refs/heads/main/openapi/jupyter-notebooks-kernelspecs-api-openapi.yml
+- filename: jupyter-notebooks-sessions-api-openapi.yml
+  format: yaml
+  label: Jupyter Notebooks Sessions API
+  slug: jupyter-notebooks-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jupyter-notebooks/refs/heads/main/openapi/jupyter-notebooks-sessions-api-openapi.yml
+- filename: jupyter-notebooks-terminals-api-openapi.yml
+  format: yaml
+  label: Jupyter Notebooks Terminals API
+  slug: jupyter-notebooks-terminals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jupyter-notebooks/refs/heads/main/openapi/jupyter-notebooks-terminals-api-openapi.yml
 auth_types:
 - http
 description: ''

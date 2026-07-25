@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: llms.txt
+- filename: workleap-attributes-api-openapi.yml
   format: yaml
-  label: Workleap API
-  slug: workleap-api
+  label: Workleap Attributes API
+  slug: workleap-attributes-api
   spec_type: OpenAPI
-  url: https://docs.api.workleap.com/llms.txt
+  url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/openapi/workleap-attributes-api-openapi.yml
+- filename: workleap-engagement-api-openapi.yml
+  format: yaml
+  label: Workleap Engagement API
+  slug: workleap-engagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/openapi/workleap-engagement-api-openapi.yml
+- filename: workleap-feedback-api-openapi.yml
+  format: yaml
+  label: Workleap Feedback API
+  slug: workleap-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/openapi/workleap-feedback-api-openapi.yml
+- filename: workleap-goodvibes-api-openapi.yml
+  format: yaml
+  label: Workleap GoodVibes API
+  slug: workleap-goodvibes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/openapi/workleap-goodvibes-api-openapi.yml
+- filename: workleap-groups-api-openapi.yml
+  format: yaml
+  label: Workleap Groups API
+  slug: workleap-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/openapi/workleap-groups-api-openapi.yml
+- filename: workleap-provisioning-api-openapi.yml
+  format: yaml
+  label: Workleap Provisioning API
+  slug: workleap-provisioning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/openapi/workleap-provisioning-api-openapi.yml
+- filename: workleap-users-api-openapi.yml
+  format: yaml
+  label: Workleap Users API
+  slug: workleap-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/openapi/workleap-users-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

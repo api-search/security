@@ -1,6 +1,13 @@
 ---
 api_key_in:
 - header
+api_specs:
+- filename: apiops-cycles-canvas-products-api-openapi.yml
+  format: yaml
+  label: APIOps Cycles Canvas Products API
+  slug: apiops-cycles-canvas-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiops-cycles-canvas/refs/heads/main/openapi/apiops-cycles-canvas-products-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

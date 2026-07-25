@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: tempo-openapi.yml
+- filename: tempo-health-api-openapi.yml
   format: yaml
-  label: Tempo HTTP API
-  slug: tempo-http-api
+  label: Tempo Health API
+  slug: tempo-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tempo/refs/heads/main/openapi/tempo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tempo/refs/heads/main/openapi/tempo-health-api-openapi.yml
+- filename: tempo-metrics-api-openapi.yml
+  format: yaml
+  label: Tempo Metrics API
+  slug: tempo-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tempo/refs/heads/main/openapi/tempo-metrics-api-openapi.yml
+- filename: tempo-search-api-openapi.yml
+  format: yaml
+  label: Tempo Search API
+  slug: tempo-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tempo/refs/heads/main/openapi/tempo-search-api-openapi.yml
+- filename: tempo-tags-api-openapi.yml
+  format: yaml
+  label: Tempo Tags API
+  slug: tempo-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tempo/refs/heads/main/openapi/tempo-tags-api-openapi.yml
+- filename: tempo-traces-api-openapi.yml
+  format: yaml
+  label: Tempo Traces API
+  slug: tempo-traces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tempo/refs/heads/main/openapi/tempo-traces-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

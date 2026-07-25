@@ -1,60 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yaml
+- filename: microsoft-office-365-calendar-api-openapi.yml
   format: yaml
-  label: Microsoft Graph API
-  slug: microsoft-graph-api
+  label: Microsoft Office 365 Calendar API
+  slug: microsoft-office-365-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/microsoftgraph/microsoft-graph-openapi/master/openapi/v1.0/openapi.yaml
-- filename: mail.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-office-365-calendar-api-openapi.yml
+- filename: microsoft-office-365-groups-api-openapi.yml
   format: yaml
-  label: Outlook Mail API
-  slug: outlook-mail-api
+  label: Microsoft Office 365 Groups API
+  slug: microsoft-office-365-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/microsoftgraph/microsoft-graph-openapi/master/openapi/v1.0/mail.yaml
-- filename: calendar.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-office-365-groups-api-openapi.yml
+- filename: microsoft-office-365-mail-api-openapi.yml
   format: yaml
-  label: Outlook Calendar API
-  slug: outlook-calendar-api
+  label: Microsoft Office 365 Mail API
+  slug: microsoft-office-365-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/microsoftgraph/microsoft-graph-openapi/master/openapi/v1.0/calendar.yaml
-- filename: files.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-office-365-mail-api-openapi.yml
+- filename: microsoft-office-365-users-api-openapi.yml
   format: yaml
-  label: OneDrive API
-  slug: onedrive-api
+  label: Microsoft Office 365 Users API
+  slug: microsoft-office-365-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/microsoftgraph/microsoft-graph-openapi/master/openapi/v1.0/files.yaml
-- filename: sites.yaml
-  format: yaml
-  label: SharePoint API
-  slug: sharepoint-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/microsoftgraph/microsoft-graph-openapi/master/openapi/v1.0/sites.yaml
-- filename: teams.yaml
-  format: yaml
-  label: Microsoft Teams API
-  slug: microsoft-teams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/microsoftgraph/microsoft-graph-openapi/master/openapi/v1.0/teams.yaml
-- filename: users.yaml
-  format: yaml
-  label: Office 365 Users API
-  slug: office-365-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/microsoftgraph/microsoft-graph-openapi/master/openapi/v1.0/users.yaml
-- filename: planner.yaml
-  format: yaml
-  label: Planner API
-  slug: planner-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/microsoftgraph/microsoft-graph-openapi/master/openapi/v1.0/planner.yaml
-- filename: microsoft-graph-api-openapi.yml
-  format: yaml
-  label: Office 365 Groups API
-  slug: office-365-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-graph-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-office-365-users-api-openapi.yml
 auth_types:
 - http
 - oauth2

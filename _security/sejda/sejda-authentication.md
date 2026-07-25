@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: sejda-openapi.yml
+- filename: sejda-html-to-pdf-api-openapi.yml
   format: yaml
   label: Sejda HTML to PDF API
   slug: sejda-html-to-pdf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sejda/refs/heads/main/openapi/sejda-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sejda/refs/heads/main/openapi/sejda-html-to-pdf-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

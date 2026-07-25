@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: cloudrf-openapi.yml
+- filename: cloudrf-3d-api-openapi.yml
   format: yaml
-  label: CloudRF API
-  slug: cloudrf-api
+  label: CloudRF 3D API
+  slug: cloudrf-3d-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-3d-api-openapi.yml
+- filename: cloudrf-account-api-openapi.yml
+  format: yaml
+  label: CloudRF Account API
+  slug: cloudrf-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-account-api-openapi.yml
+- filename: cloudrf-analyse-api-openapi.yml
+  format: yaml
+  label: CloudRF Analyse API
+  slug: cloudrf-analyse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-analyse-api-openapi.yml
+- filename: cloudrf-create-api-openapi.yml
+  format: yaml
+  label: CloudRF Create API
+  slug: cloudrf-create-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-create-api-openapi.yml
+- filename: cloudrf-manage-api-openapi.yml
+  format: yaml
+  label: CloudRF Manage API
+  slug: cloudrf-manage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-manage-api-openapi.yml
+- filename: cloudrf-satellite-api-openapi.yml
+  format: yaml
+  label: CloudRF Satellite API
+  slug: cloudrf-satellite-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-satellite-api-openapi.yml
+- filename: cloudrf-template-api-openapi.yml
+  format: yaml
+  label: CloudRF Template API
+  slug: cloudrf-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-template-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

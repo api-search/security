@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: apache-atlas-rest-openapi.yaml
+- filename: apache-atlas-discovery-api-openapi.yml
   format: yaml
-  label: Apache Atlas REST API
-  slug: apache-atlas-rest-api
+  label: Apache Atlas Discovery API
+  slug: apache-atlas-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/openapi/apache-atlas-rest-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/openapi/apache-atlas-discovery-api-openapi.yml
+- filename: apache-atlas-entities-api-openapi.yml
+  format: yaml
+  label: Apache Atlas Entities API
+  slug: apache-atlas-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/openapi/apache-atlas-entities-api-openapi.yml
+- filename: apache-atlas-glossary-api-openapi.yml
+  format: yaml
+  label: Apache Atlas Glossary API
+  slug: apache-atlas-glossary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/openapi/apache-atlas-glossary-api-openapi.yml
+- filename: apache-atlas-lineage-api-openapi.yml
+  format: yaml
+  label: Apache Atlas Lineage API
+  slug: apache-atlas-lineage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/openapi/apache-atlas-lineage-api-openapi.yml
+- filename: apache-atlas-relationships-api-openapi.yml
+  format: yaml
+  label: Apache Atlas Relationships API
+  slug: apache-atlas-relationships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/openapi/apache-atlas-relationships-api-openapi.yml
+- filename: apache-atlas-types-api-openapi.yml
+  format: yaml
+  label: Apache Atlas Types API
+  slug: apache-atlas-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/openapi/apache-atlas-types-api-openapi.yml
 auth_types:
 - http
 description: ''

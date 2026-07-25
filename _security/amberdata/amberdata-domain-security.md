@@ -1,35 +1,65 @@
 ---
 api_specs:
-- filename: amberdata-openapi.yml
-  format: yaml
-  label: Amberdata Spot Market Data API
-  slug: spot-market-data
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-openapi.yml
-- filename: amberdata-openapi.yml
-  format: yaml
-  label: Amberdata Derivatives API
-  slug: derivatives
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-openapi.yml
-- filename: amberdata-openapi.yml
-  format: yaml
-  label: Amberdata DeFi API
-  slug: defi
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-openapi.yml
-- filename: amberdata-openapi.yml
-  format: yaml
-  label: Amberdata On-Chain API
-  slug: on-chain
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-openapi.yml
 - filename: amberdata-asyncapi.yml
   format: yaml
   label: Amberdata WebSocket Streaming API
   slug: websocket-streaming
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/asyncapi/amberdata-asyncapi.yml
+- filename: amberdata-defi-openapi.yaml
+  format: yaml
+  label: Amberdata DeFi API
+  slug: amberdata-defi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-defi-openapi.yaml
+- filename: amberdata-derivatives-openapi.yaml
+  format: yaml
+  label: Amberdata Futures API
+  slug: amberdata-futures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-derivatives-openapi.yaml
+- filename: amberdata-blockchain-openapi.yaml
+  format: yaml
+  label: Amberdata On-Chain API
+  slug: amberdata-on-chain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-blockchain-openapi.yaml
+- filename: amberdata-derivatives-openapi.yaml
+  format: yaml
+  label: Amberdata Options API
+  slug: amberdata-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-derivatives-openapi.yaml
+- filename: amberdata-spot-openapi.yaml
+  format: yaml
+  label: Amberdata Spot API
+  slug: amberdata-spot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-spot-openapi.yaml
+- filename: amberdata-market-openapi.yaml
+  format: yaml
+  label: Amberdata Market Data API
+  slug: amberdata-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-market-openapi.yaml
+- filename: amberdata-price-openapi.yaml
+  format: yaml
+  label: Amberdata Price API
+  slug: amberdata-price-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-price-openapi.yaml
+- filename: amberdata-metrics-openapi.yaml
+  format: yaml
+  label: Amberdata Market Metrics API
+  slug: amberdata-market-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-metrics-openapi.yaml
+- filename: amberdata-arc-openapi.yaml
+  format: yaml
+  label: Amberdata ARC API
+  slug: amberdata-arc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-arc-openapi.yaml
 description: ''
 domains:
 - caa: []

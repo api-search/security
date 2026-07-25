@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: inth-c15t-consent-api.yml
+- filename: inth-consent-api-openapi.yml
   format: yaml
-  label: c15t Consent Backend API
-  slug: c15t-consent-backend-api
+  label: Inth Consent API
+  slug: inth-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/openapi/inth-c15t-consent-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/openapi/inth-consent-api-openapi.yml
+- filename: inth-init-api-openapi.yml
+  format: yaml
+  label: Inth Init API
+  slug: inth-init-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/openapi/inth-init-api-openapi.yml
+- filename: inth-legal-documents-api-openapi.yml
+  format: yaml
+  label: Inth Legal Documents API
+  slug: inth-legal-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/openapi/inth-legal-documents-api-openapi.yml
+- filename: inth-status-api-openapi.yml
+  format: yaml
+  label: Inth Status API
+  slug: inth-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/openapi/inth-status-api-openapi.yml
+- filename: inth-subjects-api-openapi.yml
+  format: yaml
+  label: Inth Subjects API
+  slug: inth-subjects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/openapi/inth-subjects-api-openapi.yml
 auth_types: []
 description: The c15t consent backend authenticates server-side requests with a Bearer API key. Browser-facing endpoints (init, status) are public and unauthenticated so the client SDK can bootstrap a banner without exposing a secret.
 kind: authentication

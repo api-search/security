@@ -1,23 +1,47 @@
 ---
 api_specs:
-- filename: dbt-cloud-administrative-api-openapi.yml
+- filename: dbt-accounts-api-openapi.yml
   format: yaml
-  label: dbt Cloud Administrative API
-  slug: dbt-cloud-administrative-api
+  label: dbt Accounts API
+  slug: dbt-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-cloud-administrative-api-openapi.yml
-- filename: dbt-cloud-discovery-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-accounts-api-openapi.yml
+- filename: dbt-environments-api-openapi.yml
   format: yaml
-  label: dbt Cloud Discovery API
-  slug: dbt-cloud-discovery-api
+  label: dbt Environments API
+  slug: dbt-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-cloud-discovery-api-openapi.yml
-- filename: dbt-cloud-semantic-layer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-environments-api-openapi.yml
+- filename: dbt-jobs-api-openapi.yml
   format: yaml
-  label: dbt Cloud Semantic Layer API
-  slug: dbt-cloud-semantic-layer-api
+  label: dbt Jobs API
+  slug: dbt-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-cloud-semantic-layer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-jobs-api-openapi.yml
+- filename: dbt-metadata-api-openapi.yml
+  format: yaml
+  label: dbt Metadata API
+  slug: dbt-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-metadata-api-openapi.yml
+- filename: dbt-metrics-api-openapi.yml
+  format: yaml
+  label: dbt Metrics API
+  slug: dbt-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-metrics-api-openapi.yml
+- filename: dbt-projects-api-openapi.yml
+  format: yaml
+  label: dbt Projects API
+  slug: dbt-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-projects-api-openapi.yml
+- filename: dbt-runs-api-openapi.yml
+  format: yaml
+  label: dbt Runs API
+  slug: dbt-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-runs-api-openapi.yml
 description: ''
 domains:
 - caa: []

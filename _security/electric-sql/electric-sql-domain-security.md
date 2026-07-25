@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: electric-sql-http-sync-api-openapi.yml
+- filename: electric-sql-shape-api-openapi.yml
   format: yaml
-  label: Electric HTTP Sync API
-  slug: http-sync-api
+  label: ElectricSQL Shape API
+  slug: electric-sql-shape-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electric-sql/refs/heads/main/openapi/electric-sql-http-sync-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/electric-sql/refs/heads/main/openapi/electric-sql-shape-api-openapi.yml
 description: ''
 domains:
 - caa: []

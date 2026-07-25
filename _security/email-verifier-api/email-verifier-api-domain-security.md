@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: email-verifier-api-openapi.yml
+- filename: email-verifier-api-verification-api-openapi.yml
   format: yaml
-  label: Email Verifier API Verification
-  slug: verification
+  label: Email Verifier API Verification API
+  slug: email-verifier-api-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/openapi/email-verifier-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/openapi/email-verifier-api-verification-api-openapi.yml
 description: ''
 domains:
 - caa: []

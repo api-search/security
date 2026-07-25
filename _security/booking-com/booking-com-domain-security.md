@@ -1,41 +1,149 @@
 ---
 api_specs:
-- filename: booking-com-demand-api-openapi.yml
+- filename: booking-com-accommodations-api-openapi.yml
   format: yaml
-  label: Booking.com Demand API
-  slug: demand-api
+  label: booking-com Accommodations API
+  slug: booking-com-accommodations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-demand-api-openapi.yml
-- filename: booking-com-car-rentals-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-accommodations-api-openapi.yml
+- filename: booking-com-availability-api-openapi.yml
   format: yaml
-  label: Booking.com Car Rentals API
-  slug: car-rentals-api
+  label: booking-com Availability API
+  slug: booking-com-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-car-rentals-api-openapi.yml
-- filename: booking-com-connectivity-content-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-availability-api-openapi.yml
+- filename: booking-com-cars-api-openapi.yml
   format: yaml
-  label: Booking.com Connectivity Content API
-  slug: connectivity-content-api
+  label: booking-com Cars API
+  slug: booking-com-cars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-connectivity-content-api-openapi.yml
-- filename: booking-com-connectivity-reservations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-cars-api-openapi.yml
+- filename: booking-com-constants-api-openapi.yml
   format: yaml
-  label: Booking.com Connectivity Reservations API
-  slug: connectivity-reservations-api
+  label: booking-com Constants API
+  slug: booking-com-constants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-connectivity-reservations-api-openapi.yml
-- filename: booking-com-connectivity-rates-availability-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-constants-api-openapi.yml
+- filename: booking-com-conversations-api-openapi.yml
   format: yaml
-  label: Booking.com Connectivity Rates and Availability API
-  slug: connectivity-rates-availability-api
+  label: booking-com Conversations API
+  slug: booking-com-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-connectivity-rates-availability-api-openapi.yml
-- filename: booking-com-connectivity-promotions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-conversations-api-openapi.yml
+- filename: booking-com-depots-api-openapi.yml
   format: yaml
-  label: Booking.com Connectivity Promotions API
-  slug: connectivity-promotions-api
+  label: booking-com Depots API
+  slug: booking-com-depots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-connectivity-promotions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-depots-api-openapi.yml
+- filename: booking-com-derived-pricing-api-openapi.yml
+  format: yaml
+  label: booking-com Derived Pricing API
+  slug: booking-com-derived-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-derived-pricing-api-openapi.yml
+- filename: booking-com-facilities-api-openapi.yml
+  format: yaml
+  label: booking-com Facilities API
+  slug: booking-com-facilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-facilities-api-openapi.yml
+- filename: booking-com-inventory-api-openapi.yml
+  format: yaml
+  label: booking-com Inventory API
+  slug: booking-com-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-inventory-api-openapi.yml
+- filename: booking-com-locations-api-openapi.yml
+  format: yaml
+  label: booking-com Locations API
+  slug: booking-com-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-locations-api-openapi.yml
+- filename: booking-com-messages-api-openapi.yml
+  format: yaml
+  label: booking-com Messages API
+  slug: booking-com-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-messages-api-openapi.yml
+- filename: booking-com-orders-api-openapi.yml
+  format: yaml
+  label: booking-com Orders API
+  slug: booking-com-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-orders-api-openapi.yml
+- filename: booking-com-ota-availability-api-openapi.yml
+  format: yaml
+  label: booking-com OTA Availability API
+  slug: booking-com-ota-availability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-ota-availability-api-openapi.yml
+- filename: booking-com-ota-legacy-api-openapi.yml
+  format: yaml
+  label: booking-com OTA Legacy API
+  slug: booking-com-ota-legacy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-ota-legacy-api-openapi.yml
+- filename: booking-com-ota-reservations-api-openapi.yml
+  format: yaml
+  label: booking-com OTA Reservations API
+  slug: booking-com-ota-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-ota-reservations-api-openapi.yml
+- filename: booking-com-payments-api-openapi.yml
+  format: yaml
+  label: booking-com Payments API
+  slug: booking-com-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-payments-api-openapi.yml
+- filename: booking-com-photos-api-openapi.yml
+  format: yaml
+  label: booking-com Photos API
+  slug: booking-com-photos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-photos-api-openapi.yml
+- filename: booking-com-promotions-api-openapi.yml
+  format: yaml
+  label: booking-com Promotions API
+  slug: booking-com-promotions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-promotions-api-openapi.yml
+- filename: booking-com-property-management-api-openapi.yml
+  format: yaml
+  label: booking-com Property Management API
+  slug: booking-com-property-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-property-management-api-openapi.yml
+- filename: booking-com-rates-api-openapi.yml
+  format: yaml
+  label: booking-com Rates API
+  slug: booking-com-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-rates-api-openapi.yml
+- filename: booking-com-recovery-api-openapi.yml
+  format: yaml
+  label: booking-com Recovery API
+  slug: booking-com-recovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-recovery-api-openapi.yml
+- filename: booking-com-reservations-api-openapi.yml
+  format: yaml
+  label: booking-com Reservations API
+  slug: booking-com-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-reservations-api-openapi.yml
+- filename: booking-com-rooms-api-openapi.yml
+  format: yaml
+  label: booking-com Rooms API
+  slug: booking-com-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-rooms-api-openapi.yml
+- filename: booking-com-suppliers-api-openapi.yml
+  format: yaml
+  label: booking-com Suppliers API
+  slug: booking-com-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/openapi/booking-com-suppliers-api-openapi.yml
 description: ''
 domains:
 - caa: []

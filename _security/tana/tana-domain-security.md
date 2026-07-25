@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: tana-input-api-openapi.yml
-  format: yaml
-  label: Tana Input API
-  slug: tana-input-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tana/refs/heads/main/openapi/tana-input-api-openapi.yml
 - filename: tana-docs-api-openapi.yml
   format: yaml
   label: Tana Documentation API
   slug: tana-documentation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tana/refs/heads/main/openapi/tana-docs-api-openapi.yml
+- filename: tana-addtonodev2-api-openapi.yml
+  format: yaml
+  label: Tana AddToNodeV2 API
+  slug: tana-addtonodev2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tana/refs/heads/main/openapi/tana-addtonodev2-api-openapi.yml
 description: ''
 domains:
 - caa: []

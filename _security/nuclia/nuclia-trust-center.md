@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: nuclia-openapi.yml
+- filename: nuclia-ask-api-openapi.yml
+  format: yaml
+  label: Nuclia Ask API
+  slug: nuclia-ask-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/openapi/nuclia-ask-api-openapi.yml
+- filename: nuclia-knowledge-boxes-api-openapi.yml
   format: yaml
   label: Nuclia Knowledge Boxes API
-  slug: knowledge-boxes-api
+  slug: nuclia-knowledge-boxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/openapi/nuclia-openapi.yml
-- filename: nuclia-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/openapi/nuclia-knowledge-boxes-api-openapi.yml
+- filename: nuclia-predict-api-openapi.yml
   format: yaml
-  label: Nuclia Resources & Ingestion API
-  slug: resources-ingestion-api
+  label: Nuclia Predict API
+  slug: nuclia-predict-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/openapi/nuclia-openapi.yml
-- filename: nuclia-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/openapi/nuclia-predict-api-openapi.yml
+- filename: nuclia-resources-api-openapi.yml
   format: yaml
-  label: Nuclia Search & Find API
-  slug: search-find-api
+  label: Nuclia Resources API
+  slug: nuclia-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/openapi/nuclia-openapi.yml
-- filename: nuclia-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/openapi/nuclia-resources-api-openapi.yml
+- filename: nuclia-search-api-openapi.yml
   format: yaml
-  label: Nuclia Ask & Chat (RAG) API
-  slug: ask-chat-rag-api
+  label: Nuclia Search API
+  slug: nuclia-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/openapi/nuclia-openapi.yml
-- filename: nuclia-openapi.yml
-  format: yaml
-  label: Nuclia Predict (NUA) API
-  slug: predict-nua-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/openapi/nuclia-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/openapi/nuclia-search-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

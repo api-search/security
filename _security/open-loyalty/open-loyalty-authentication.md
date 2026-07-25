@@ -2,42 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: open-loyalty-openapi.yml
+- filename: open-loyalty-authorization-api-openapi.yml
   format: yaml
-  label: Open Loyalty Customer API
-  slug: open-loyalty-customer-api
+  label: Open Loyalty Authorization API
+  slug: open-loyalty-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/openapi/open-loyalty-openapi.yml
-- filename: open-loyalty-openapi.yml
-  format: yaml
-  label: Open Loyalty Transactions API
-  slug: open-loyalty-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/openapi/open-loyalty-openapi.yml
-- filename: open-loyalty-openapi.yml
-  format: yaml
-  label: Open Loyalty Points Transfers API
-  slug: open-loyalty-points-transfers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/openapi/open-loyalty-openapi.yml
-- filename: open-loyalty-openapi.yml
-  format: yaml
-  label: Open Loyalty Reward Campaigns API
-  slug: open-loyalty-reward-campaigns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/openapi/open-loyalty-openapi.yml
-- filename: open-loyalty-openapi.yml
-  format: yaml
-  label: Open Loyalty Levels API
-  slug: open-loyalty-levels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/openapi/open-loyalty-openapi.yml
-- filename: open-loyalty-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/openapi/open-loyalty-authorization-api-openapi.yml
+- filename: open-loyalty-earning-rules-api-openapi.yml
   format: yaml
   label: Open Loyalty Earning Rules API
   slug: open-loyalty-earning-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/openapi/open-loyalty-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/openapi/open-loyalty-earning-rules-api-openapi.yml
+- filename: open-loyalty-members-api-openapi.yml
+  format: yaml
+  label: Open Loyalty Members API
+  slug: open-loyalty-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/openapi/open-loyalty-members-api-openapi.yml
+- filename: open-loyalty-points-api-openapi.yml
+  format: yaml
+  label: Open Loyalty Points API
+  slug: open-loyalty-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/openapi/open-loyalty-points-api-openapi.yml
+- filename: open-loyalty-rewards-api-openapi.yml
+  format: yaml
+  label: Open Loyalty Rewards API
+  slug: open-loyalty-rewards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/openapi/open-loyalty-rewards-api-openapi.yml
+- filename: open-loyalty-tiers-api-openapi.yml
+  format: yaml
+  label: Open Loyalty Tiers API
+  slug: open-loyalty-tiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/openapi/open-loyalty-tiers-api-openapi.yml
+- filename: open-loyalty-transactions-api-openapi.yml
+  format: yaml
+  label: Open Loyalty Transactions API
+  slug: open-loyalty-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/openapi/open-loyalty-transactions-api-openapi.yml
 auth_types:
 - apiKey
 - http

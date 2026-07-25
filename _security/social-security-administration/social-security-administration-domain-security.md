@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: ssa-field-office-openapi.yml
+- filename: social-security-administration-field-offices-api-openapi.yml
   format: yaml
-  label: SSA Field Office Address API
-  slug: field-office-address-api
+  label: Social Security Administration Field Offices API
+  slug: social-security-administration-field-offices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/openapi/ssa-field-office-openapi.yml
-- filename: ssa-resident-station-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/openapi/social-security-administration-field-offices-api-openapi.yml
+- filename: social-security-administration-resident-stations-api-openapi.yml
   format: yaml
-  label: SSA Resident Station Address API
-  slug: resident-station-address-api
+  label: Social Security Administration Resident Stations API
+  slug: social-security-administration-resident-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/openapi/ssa-resident-station-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/openapi/social-security-administration-resident-stations-api-openapi.yml
 description: ''
 domains:
 - caa: []

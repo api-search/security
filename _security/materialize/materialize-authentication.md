@@ -1,18 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: materialize-openapi.yml
-  format: yaml
-  label: Materialize HTTP API
-  slug: materialize-http-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/materialize/refs/heads/main/openapi/materialize-openapi.yml
 - filename: materialize-asyncapi.yml
   format: yaml
   label: Materialize Streaming Sources and Sinks (AsyncAPI)
   slug: materialize-streaming-asyncapi
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/materialize/refs/heads/main/asyncapi/materialize-asyncapi.yml
+- filename: materialize-sql-api-openapi.yml
+  format: yaml
+  label: Materialize Sql API
+  slug: materialize-sql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/materialize/refs/heads/main/openapi/materialize-sql-api-openapi.yml
 auth_types:
 - http
 description: ''

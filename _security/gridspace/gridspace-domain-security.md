@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: gridspace-guava-openapi.yml
+- filename: gridspace-conversations-api-openapi.yml
   format: yaml
-  label: Guava Voice Agent REST API
-  slug: guava-voice-agent-rest-api
+  label: Gridspace Conversations API
+  slug: gridspace-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/openapi/gridspace-guava-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/openapi/gridspace-conversations-api-openapi.yml
+- filename: gridspace-messages-api-openapi.yml
+  format: yaml
+  label: Gridspace Messages API
+  slug: gridspace-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/openapi/gridspace-messages-api-openapi.yml
+- filename: gridspace-sdk-api-openapi.yml
+  format: yaml
+  label: Gridspace SDK API
+  slug: gridspace-sdk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/openapi/gridspace-sdk-api-openapi.yml
 description: ''
 domains:
 - caa: []

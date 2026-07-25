@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: veeva-systems-openapi.yml
+- filename: veeva-systems-authentication-api-openapi.yml
   format: yaml
-  label: Veeva Systems API
-  slug: veeva-systems-api
+  label: Veeva Systems Authentication API
+  slug: veeva-systems-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeva-systems/refs/heads/main/openapi/veeva-systems-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/veeva-systems/refs/heads/main/openapi/veeva-systems-authentication-api-openapi.yml
+- filename: veeva-systems-directdata-api-openapi.yml
+  format: yaml
+  label: Veeva Systems DirectData API
+  slug: veeva-systems-directdata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veeva-systems/refs/heads/main/openapi/veeva-systems-directdata-api-openapi.yml
+- filename: veeva-systems-mdl-api-openapi.yml
+  format: yaml
+  label: Veeva Systems MDL API
+  slug: veeva-systems-mdl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veeva-systems/refs/heads/main/openapi/veeva-systems-mdl-api-openapi.yml
+- filename: veeva-systems-metadata-api-openapi.yml
+  format: yaml
+  label: Veeva Systems Metadata API
+  slug: veeva-systems-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veeva-systems/refs/heads/main/openapi/veeva-systems-metadata-api-openapi.yml
+- filename: veeva-systems-query-api-openapi.yml
+  format: yaml
+  label: Veeva Systems Query API
+  slug: veeva-systems-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veeva-systems/refs/heads/main/openapi/veeva-systems-query-api-openapi.yml
 description: ''
 domains:
 - caa:

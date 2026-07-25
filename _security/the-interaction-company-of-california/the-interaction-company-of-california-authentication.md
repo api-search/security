@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: the-interaction-company-of-california-poke-openapi.yml
+- filename: the-interaction-company-of-california-messaging-api-openapi.yml
   format: yaml
-  label: Poke API
-  slug: poke-api
+  label: The Interaction Company Of California Messaging API
+  slug: the-interaction-company-of-california-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-interaction-company-of-california/refs/heads/main/openapi/the-interaction-company-of-california-poke-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/the-interaction-company-of-california/refs/heads/main/openapi/the-interaction-company-of-california-messaging-api-openapi.yml
 auth_types:
 - http
 description: ''

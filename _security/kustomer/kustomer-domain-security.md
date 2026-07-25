@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: kustomer-openapi.yml
+- filename: kustomer-conversations-api-openapi.yml
   format: yaml
-  label: Kustomer REST API
-  slug: kustomer-api
+  label: Kustomer Conversations API
+  slug: kustomer-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kustomer/refs/heads/main/openapi/kustomer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kustomer/refs/heads/main/openapi/kustomer-conversations-api-openapi.yml
+- filename: kustomer-customers-api-openapi.yml
+  format: yaml
+  label: Kustomer Customers API
+  slug: kustomer-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kustomer/refs/heads/main/openapi/kustomer-customers-api-openapi.yml
 description: ''
 domains:
 - caa:

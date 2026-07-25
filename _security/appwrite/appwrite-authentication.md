@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: appwrite-openapi.yaml
+- filename: appwrite-account-api-openapi.yml
   format: yaml
-  label: Appwrite API
-  slug: appwrite-api
+  label: Appwrite Account API
+  slug: appwrite-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appwrite/refs/heads/main/openapi/appwrite-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/appwrite/refs/heads/main/openapi/appwrite-account-api-openapi.yml
+- filename: appwrite-databases-api-openapi.yml
+  format: yaml
+  label: Appwrite Databases API
+  slug: appwrite-databases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appwrite/refs/heads/main/openapi/appwrite-databases-api-openapi.yml
+- filename: appwrite-storage-api-openapi.yml
+  format: yaml
+  label: Appwrite Storage API
+  slug: appwrite-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appwrite/refs/heads/main/openapi/appwrite-storage-api-openapi.yml
+- filename: appwrite-users-api-openapi.yml
+  format: yaml
+  label: Appwrite Users API
+  slug: appwrite-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appwrite/refs/heads/main/openapi/appwrite-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

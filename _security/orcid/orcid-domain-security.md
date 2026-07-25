@@ -1,11 +1,95 @@
 ---
 api_specs:
-- filename: orcid-openapi.yml
+- filename: orcid-address-api-openapi.yml
   format: yaml
-  label: ORCID Public API
-  slug: orcid-public-api
+  label: ORCID Address API
+  slug: orcid-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orcid/refs/heads/main/openapi/orcid-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orcid/refs/heads/main/openapi/orcid-address-api-openapi.yml
+- filename: orcid-educations-api-openapi.yml
+  format: yaml
+  label: ORCID Educations API
+  slug: orcid-educations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orcid/refs/heads/main/openapi/orcid-educations-api-openapi.yml
+- filename: orcid-email-api-openapi.yml
+  format: yaml
+  label: ORCID Email API
+  slug: orcid-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orcid/refs/heads/main/openapi/orcid-email-api-openapi.yml
+- filename: orcid-employments-api-openapi.yml
+  format: yaml
+  label: ORCID Employments API
+  slug: orcid-employments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orcid/refs/heads/main/openapi/orcid-employments-api-openapi.yml
+- filename: orcid-external-identifiers-api-openapi.yml
+  format: yaml
+  label: ORCID External Identifiers API
+  slug: orcid-external-identifiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orcid/refs/heads/main/openapi/orcid-external-identifiers-api-openapi.yml
+- filename: orcid-fundings-api-openapi.yml
+  format: yaml
+  label: ORCID Fundings API
+  slug: orcid-fundings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orcid/refs/heads/main/openapi/orcid-fundings-api-openapi.yml
+- filename: orcid-keywords-api-openapi.yml
+  format: yaml
+  label: ORCID Keywords API
+  slug: orcid-keywords-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orcid/refs/heads/main/openapi/orcid-keywords-api-openapi.yml
+- filename: orcid-other-names-api-openapi.yml
+  format: yaml
+  label: ORCID Other Names API
+  slug: orcid-other-names-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orcid/refs/heads/main/openapi/orcid-other-names-api-openapi.yml
+- filename: orcid-peer-reviews-api-openapi.yml
+  format: yaml
+  label: ORCID Peer Reviews API
+  slug: orcid-peer-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orcid/refs/heads/main/openapi/orcid-peer-reviews-api-openapi.yml
+- filename: orcid-person-api-openapi.yml
+  format: yaml
+  label: ORCID Person API
+  slug: orcid-person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orcid/refs/heads/main/openapi/orcid-person-api-openapi.yml
+- filename: orcid-personal-details-api-openapi.yml
+  format: yaml
+  label: ORCID Personal Details API
+  slug: orcid-personal-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orcid/refs/heads/main/openapi/orcid-personal-details-api-openapi.yml
+- filename: orcid-record-api-openapi.yml
+  format: yaml
+  label: ORCID Record API
+  slug: orcid-record-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orcid/refs/heads/main/openapi/orcid-record-api-openapi.yml
+- filename: orcid-researcher-urls-api-openapi.yml
+  format: yaml
+  label: ORCID Researcher Urls API
+  slug: orcid-researcher-urls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orcid/refs/heads/main/openapi/orcid-researcher-urls-api-openapi.yml
+- filename: orcid-summary-api-openapi.yml
+  format: yaml
+  label: ORCID Summary API
+  slug: orcid-summary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orcid/refs/heads/main/openapi/orcid-summary-api-openapi.yml
+- filename: orcid-works-api-openapi.yml
+  format: yaml
+  label: ORCID Works API
+  slug: orcid-works-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orcid/refs/heads/main/openapi/orcid-works-api-openapi.yml
 description: ''
 domains:
 - caa:

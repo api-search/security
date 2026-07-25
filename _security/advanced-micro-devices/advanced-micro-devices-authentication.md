@@ -2,18 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: amd-developer-cloud-api-openapi.yml
+- filename: advanced-micro-devices-configuration-api-openapi.yml
   format: yaml
-  label: AMD Developer Cloud API
-  slug: amd-developer-cloud-api
+  label: Advanced Micro Devices Configuration API
+  slug: advanced-micro-devices-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/amd-developer-cloud-api-openapi.yml
-- filename: amd-rocm-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-configuration-api-openapi.yml
+- filename: advanced-micro-devices-credits-api-openapi.yml
   format: yaml
-  label: AMD ROCm API
-  slug: amd-rocm-api
+  label: Advanced Micro Devices Credits API
+  slug: advanced-micro-devices-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/amd-rocm-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-credits-api-openapi.yml
+- filename: advanced-micro-devices-devices-api-openapi.yml
+  format: yaml
+  label: Advanced Micro Devices Devices API
+  slug: advanced-micro-devices-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-devices-api-openapi.yml
+- filename: advanced-micro-devices-health-api-openapi.yml
+  format: yaml
+  label: Advanced Micro Devices Health API
+  slug: advanced-micro-devices-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-health-api-openapi.yml
+- filename: advanced-micro-devices-instances-api-openapi.yml
+  format: yaml
+  label: Advanced Micro Devices Instances API
+  slug: advanced-micro-devices-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-instances-api-openapi.yml
+- filename: advanced-micro-devices-models-api-openapi.yml
+  format: yaml
+  label: Advanced Micro Devices Models API
+  slug: advanced-micro-devices-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-models-api-openapi.yml
+- filename: advanced-micro-devices-monitoring-api-openapi.yml
+  format: yaml
+  label: Advanced Micro Devices Monitoring API
+  slug: advanced-micro-devices-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-monitoring-api-openapi.yml
+- filename: advanced-micro-devices-performance-api-openapi.yml
+  format: yaml
+  label: Advanced Micro Devices Performance API
+  slug: advanced-micro-devices-performance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-performance-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -1,60 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: shell-b2b-mobility-openapi.yml
+- filename: shell-accounts-api-openapi.yml
   format: yaml
-  label: Shell B2B Mobility Card Management API
-  slug: b2b-mobility-card-management
+  label: Shell Accounts API
+  slug: shell-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-b2b-mobility-openapi.yml
-- filename: shell-b2b-mobility-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-accounts-api-openapi.yml
+- filename: shell-cards-api-openapi.yml
   format: yaml
-  label: Shell B2B Mobility Card Transaction Data API
-  slug: b2b-mobility-card-transaction-data
+  label: Shell Cards API
+  slug: shell-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-b2b-mobility-openapi.yml
-- filename: shell-b2b-mobility-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-cards-api-openapi.yml
+- filename: shell-catalogue-api-openapi.yml
   format: yaml
-  label: Shell B2B Mobility Invoice API
-  slug: b2b-mobility-invoice
+  label: Shell Catalogue API
+  slug: shell-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-b2b-mobility-openapi.yml
-- filename: shell-loyalty-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-catalogue-api-openapi.yml
+- filename: shell-invoices-api-openapi.yml
   format: yaml
-  label: Shell Loyalty Catalogue API
-  slug: loyalty-catalogue
+  label: Shell Invoices API
+  slug: shell-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-loyalty-openapi.yml
-- filename: shell-loyalty-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-invoices-api-openapi.yml
+- filename: shell-limits-api-openapi.yml
   format: yaml
-  label: Shell Loyalty Account Management API
-  slug: loyalty-account-management
+  label: Shell Limits API
+  slug: shell-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-loyalty-openapi.yml
-- filename: shell-loyalty-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-limits-api-openapi.yml
+- filename: shell-offers-api-openapi.yml
   format: yaml
-  label: Shell Loyalty Points Balance API
-  slug: loyalty-points-balance
+  label: Shell Offers API
+  slug: shell-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-loyalty-openapi.yml
-- filename: shell-loyalty-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-offers-api-openapi.yml
+- filename: shell-orders-api-openapi.yml
   format: yaml
-  label: Shell Loyalty Points Redemption API
-  slug: loyalty-points-redemption
+  label: Shell Orders API
+  slug: shell-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-loyalty-openapi.yml
-- filename: shell-lubricants-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-orders-api-openapi.yml
+- filename: shell-points-api-openapi.yml
   format: yaml
-  label: Shell Lubricants Order Management API
-  slug: lubricants-order-management
+  label: Shell Points API
+  slug: shell-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-lubricants-openapi.yml
-- filename: shell-b2b-mobility-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-points-api-openapi.yml
+- filename: shell-products-api-openapi.yml
   format: yaml
-  label: Shell B2B Mobility Sites API
-  slug: b2b-mobility-sites
+  label: Shell Products API
+  slug: shell-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-b2b-mobility-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-products-api-openapi.yml
+- filename: shell-sites-api-openapi.yml
+  format: yaml
+  label: Shell Sites API
+  slug: shell-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-sites-api-openapi.yml
+- filename: shell-transactions-api-openapi.yml
+  format: yaml
+  label: Shell Transactions API
+  slug: shell-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-transactions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

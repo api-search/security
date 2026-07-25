@@ -1,53 +1,53 @@
 ---
 api_specs:
-- filename: estuary-openapi.yml
+- filename: estuary-auth-api-openapi.yml
+  format: yaml
+  label: Estuary Auth API
+  slug: estuary-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-auth-api-openapi.yml
+- filename: estuary-captures-api-openapi.yml
   format: yaml
   label: Estuary Captures API
   slug: estuary-captures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-openapi.yml
-- filename: estuary-openapi.yml
-  format: yaml
-  label: Estuary Materializations API
-  slug: estuary-materializations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-openapi.yml
-- filename: estuary-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-captures-api-openapi.yml
+- filename: estuary-collections-api-openapi.yml
   format: yaml
   label: Estuary Collections API
   slug: estuary-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-openapi.yml
-- filename: estuary-openapi.yml
-  format: yaml
-  label: Estuary Catalog Drafts API
-  slug: estuary-catalog-drafts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-openapi.yml
-- filename: estuary-openapi.yml
-  format: yaml
-  label: Estuary Publications API
-  slug: estuary-publications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-openapi.yml
-- filename: estuary-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-collections-api-openapi.yml
+- filename: estuary-connectors-api-openapi.yml
   format: yaml
   label: Estuary Connectors API
   slug: estuary-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-openapi.yml
-- filename: estuary-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-connectors-api-openapi.yml
+- filename: estuary-drafts-api-openapi.yml
   format: yaml
-  label: Estuary Tenants & Billing API
-  slug: estuary-tenants-billing-api
+  label: Estuary Drafts API
+  slug: estuary-drafts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-openapi.yml
-- filename: estuary-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-drafts-api-openapi.yml
+- filename: estuary-materializations-api-openapi.yml
   format: yaml
-  label: Estuary Auth & Tokens API
-  slug: estuary-auth-tokens-api
+  label: Estuary Materializations API
+  slug: estuary-materializations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-materializations-api-openapi.yml
+- filename: estuary-publications-api-openapi.yml
+  format: yaml
+  label: Estuary Publications API
+  slug: estuary-publications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-publications-api-openapi.yml
+- filename: estuary-tenants-api-openapi.yml
+  format: yaml
+  label: Estuary Tenants API
+  slug: estuary-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-tenants-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,23 +1,53 @@
 ---
 api_specs:
-- filename: figure-technology-solutions-heloc-inquiries-openapi.yml
+- filename: figure-technology-solutions-encryption-api-openapi.yml
   format: yaml
-  label: HELOC Inquiries API
-  slug: heloc-inquiries-api
+  label: Figure Technology Solutions Encryption API
+  slug: figure-technology-solutions-encryption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/openapi/figure-technology-solutions-heloc-inquiries-openapi.yml
-- filename: figure-technology-solutions-heloc-pre-qualification-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/openapi/figure-technology-solutions-encryption-api-openapi.yml
+- filename: figure-technology-solutions-heloc-application-requests-api-openapi.yml
   format: yaml
-  label: HELOC Pre-Qualification API
-  slug: heloc-pre-qualification-api
+  label: Figure Technology Solutions HELOC application requests API
+  slug: figure-technology-solutions-heloc-application-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/openapi/figure-technology-solutions-heloc-pre-qualification-openapi.yml
-- filename: figure-technology-solutions-portfolio-manager-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/openapi/figure-technology-solutions-heloc-application-requests-api-openapi.yml
+- filename: figure-technology-solutions-heloc-offers-api-openapi.yml
   format: yaml
-  label: Portfolio Manager API
-  slug: portfolio-manager-api
+  label: Figure Technology Solutions HELOC Offers API
+  slug: figure-technology-solutions-heloc-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/openapi/figure-technology-solutions-portfolio-manager-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/openapi/figure-technology-solutions-heloc-offers-api-openapi.yml
+- filename: figure-technology-solutions-loan-originator-requests-api-openapi.yml
+  format: yaml
+  label: Figure Technology Solutions Loan Originator requests API
+  slug: figure-technology-solutions-loan-originator-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/openapi/figure-technology-solutions-loan-originator-requests-api-openapi.yml
+- filename: figure-technology-solutions-loan-tape-v1-api-openapi.yml
+  format: yaml
+  label: Figure Technology Solutions Loan Tape V1 API
+  slug: figure-technology-solutions-loan-tape-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/openapi/figure-technology-solutions-loan-tape-v1-api-openapi.yml
+- filename: figure-technology-solutions-loan-tape-v2-api-openapi.yml
+  format: yaml
+  label: Figure Technology Solutions Loan Tape V2 API
+  slug: figure-technology-solutions-loan-tape-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/openapi/figure-technology-solutions-loan-tape-v2-api-openapi.yml
+- filename: figure-technology-solutions-payment-history-v1-api-openapi.yml
+  format: yaml
+  label: Figure Technology Solutions Payment History V1 API
+  slug: figure-technology-solutions-payment-history-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/openapi/figure-technology-solutions-payment-history-v1-api-openapi.yml
+- filename: figure-technology-solutions-payment-history-v2-api-openapi.yml
+  format: yaml
+  label: Figure Technology Solutions Payment History V2 API
+  slug: figure-technology-solutions-payment-history-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/openapi/figure-technology-solutions-payment-history-v2-api-openapi.yml
 description: ''
 domains:
 - caa: []

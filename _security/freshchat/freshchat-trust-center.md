@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: freshchat-openapi.yml
+- filename: freshchat-accounts-api-openapi.yml
   format: yaml
-  label: Freshchat REST API
-  slug: rest-api
+  label: Freshchat Accounts API
+  slug: freshchat-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-accounts-api-openapi.yml
+- filename: freshchat-agents-api-openapi.yml
+  format: yaml
+  label: Freshchat Agents API
+  slug: freshchat-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-agents-api-openapi.yml
+- filename: freshchat-businesshours-api-openapi.yml
+  format: yaml
+  label: Freshchat BusinessHours API
+  slug: freshchat-businesshours-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-businesshours-api-openapi.yml
+- filename: freshchat-channels-api-openapi.yml
+  format: yaml
+  label: Freshchat Channels API
+  slug: freshchat-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-channels-api-openapi.yml
+- filename: freshchat-conversations-api-openapi.yml
+  format: yaml
+  label: Freshchat Conversations API
+  slug: freshchat-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-conversations-api-openapi.yml
+- filename: freshchat-csat-api-openapi.yml
+  format: yaml
+  label: Freshchat CSAT API
+  slug: freshchat-csat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-csat-api-openapi.yml
+- filename: freshchat-files-api-openapi.yml
+  format: yaml
+  label: Freshchat Files API
+  slug: freshchat-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-files-api-openapi.yml
+- filename: freshchat-groups-api-openapi.yml
+  format: yaml
+  label: Freshchat Groups API
+  slug: freshchat-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-groups-api-openapi.yml
+- filename: freshchat-messages-api-openapi.yml
+  format: yaml
+  label: Freshchat Messages API
+  slug: freshchat-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-messages-api-openapi.yml
+- filename: freshchat-metrics-api-openapi.yml
+  format: yaml
+  label: Freshchat Metrics API
+  slug: freshchat-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-metrics-api-openapi.yml
+- filename: freshchat-outboundmessages-api-openapi.yml
+  format: yaml
+  label: Freshchat OutboundMessages API
+  slug: freshchat-outboundmessages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-outboundmessages-api-openapi.yml
+- filename: freshchat-roles-api-openapi.yml
+  format: yaml
+  label: Freshchat Roles API
+  slug: freshchat-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-roles-api-openapi.yml
+- filename: freshchat-users-api-openapi.yml
+  format: yaml
+  label: Freshchat Users API
+  slug: freshchat-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-users-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: interactive-brokers-web-api-openapi.yml
+- filename: interactive-brokers-accounts-api-openapi.yml
   format: yaml
-  label: Interactive Brokers Web API
-  slug: web-api
+  label: Interactive Brokers Accounts API
+  slug: interactive-brokers-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/openapi/interactive-brokers-web-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/openapi/interactive-brokers-accounts-api-openapi.yml
+- filename: interactive-brokers-contracts-api-openapi.yml
+  format: yaml
+  label: Interactive Brokers Contracts API
+  slug: interactive-brokers-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/openapi/interactive-brokers-contracts-api-openapi.yml
+- filename: interactive-brokers-market-data-api-openapi.yml
+  format: yaml
+  label: Interactive Brokers Market Data API
+  slug: interactive-brokers-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/openapi/interactive-brokers-market-data-api-openapi.yml
+- filename: interactive-brokers-orders-api-openapi.yml
+  format: yaml
+  label: Interactive Brokers Orders API
+  slug: interactive-brokers-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/openapi/interactive-brokers-orders-api-openapi.yml
+- filename: interactive-brokers-portfolio-api-openapi.yml
+  format: yaml
+  label: Interactive Brokers Portfolio API
+  slug: interactive-brokers-portfolio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/openapi/interactive-brokers-portfolio-api-openapi.yml
+- filename: interactive-brokers-sessions-api-openapi.yml
+  format: yaml
+  label: Interactive Brokers Sessions API
+  slug: interactive-brokers-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/openapi/interactive-brokers-sessions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: knostic-agentmesh-openapi.yml
+- filename: knostic-extensions-api-openapi.yml
   format: yaml
-  label: Knostic AgentMesh API
-  slug: agentmesh
+  label: Knostic extensions API
+  slug: knostic-extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/openapi/knostic-agentmesh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/openapi/knostic-extensions-api-openapi.yml
+- filename: knostic-mcp-api-openapi.yml
+  format: yaml
+  label: Knostic mcp API
+  slug: knostic-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/openapi/knostic-mcp-api-openapi.yml
+- filename: knostic-scans-api-openapi.yml
+  format: yaml
+  label: Knostic scans API
+  slug: knostic-scans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/openapi/knostic-scans-api-openapi.yml
+- filename: knostic-skills-api-openapi.yml
+  format: yaml
+  label: Knostic skills API
+  slug: knostic-skills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/openapi/knostic-skills-api-openapi.yml
 description: ''
 domains:
 - caa: []

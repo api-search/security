@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: western-union-mass-payments-openapi.yml
+- filename: western-union-balances-api-openapi.yml
   format: yaml
-  label: Western Union Mass Payments API
-  slug: mass-payments
+  label: western-union Balances API
+  slug: western-union-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/openapi/western-union-mass-payments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/openapi/western-union-balances-api-openapi.yml
+- filename: western-union-batches-api-openapi.yml
+  format: yaml
+  label: western-union Batches API
+  slug: western-union-batches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/openapi/western-union-batches-api-openapi.yml
+- filename: western-union-customers-api-openapi.yml
+  format: yaml
+  label: western-union Customers API
+  slug: western-union-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/openapi/western-union-customers-api-openapi.yml
+- filename: western-union-health-api-openapi.yml
+  format: yaml
+  label: western-union Health API
+  slug: western-union-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/openapi/western-union-health-api-openapi.yml
+- filename: western-union-orders-api-openapi.yml
+  format: yaml
+  label: western-union Orders API
+  slug: western-union-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/openapi/western-union-orders-api-openapi.yml
+- filename: western-union-payments-api-openapi.yml
+  format: yaml
+  label: western-union Payments API
+  slug: western-union-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/openapi/western-union-payments-api-openapi.yml
+- filename: western-union-quotes-api-openapi.yml
+  format: yaml
+  label: western-union Quotes API
+  slug: western-union-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/openapi/western-union-quotes-api-openapi.yml
 auth_types:
 - mutualTLS
 description: ''

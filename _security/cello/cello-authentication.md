@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cello-openapi-original.json
-  format: json
-  label: Cello API
-  slug: cello-api
+- filename: cello-events-api-openapi.yml
+  format: yaml
+  label: Cello Events API
+  slug: cello-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/openapi/cello-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/openapi/cello-events-api-openapi.yml
+- filename: cello-new-users-api-openapi.yml
+  format: yaml
+  label: Cello New Users API
+  slug: cello-new-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/openapi/cello-new-users-api-openapi.yml
+- filename: cello-referral-codes-api-openapi.yml
+  format: yaml
+  label: Cello Referral Codes API
+  slug: cello-referral-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/openapi/cello-referral-codes-api-openapi.yml
+- filename: cello-referrers-api-openapi.yml
+  format: yaml
+  label: Cello Referrers API
+  slug: cello-referrers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/openapi/cello-referrers-api-openapi.yml
+- filename: cello-token-api-openapi.yml
+  format: yaml
+  label: Cello Token API
+  slug: cello-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/openapi/cello-token-api-openapi.yml
 auth_types:
 - http
 description: ''

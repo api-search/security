@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: tivo-video-metadata-openapi.yml
+- filename: tivo-content-api-openapi.yml
   format: yaml
-  label: TiVo Video Metadata API
-  slug: tivo-video-metadata
+  label: Tivo Content API
+  slug: tivo-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tivo/refs/heads/main/openapi/tivo-video-metadata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tivo/refs/heads/main/openapi/tivo-content-api-openapi.yml
+- filename: tivo-lookup-api-openapi.yml
+  format: yaml
+  label: Tivo Lookup API
+  slug: tivo-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tivo/refs/heads/main/openapi/tivo-lookup-api-openapi.yml
 description: ''
 domains:
 - caa: []

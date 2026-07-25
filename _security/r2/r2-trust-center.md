@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: r2-openapi.json
-  format: json
-  label: R2 API
-  slug: r2-api
+- filename: r2-callbacks-api-openapi.yml
+  format: yaml
+  label: R2 callbacks API
+  slug: r2-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/r2/refs/heads/main/openapi/r2-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/r2/refs/heads/main/openapi/r2-callbacks-api-openapi.yml
+- filename: r2-collections-api-openapi.yml
+  format: yaml
+  label: R2 collections API
+  slug: r2-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/r2/refs/heads/main/openapi/r2-collections-api-openapi.yml
+- filename: r2-events-api-openapi.yml
+  format: yaml
+  label: R2 events API
+  slug: r2-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/r2/refs/heads/main/openapi/r2-events-api-openapi.yml
+- filename: r2-financings-api-openapi.yml
+  format: yaml
+  label: R2 financings API
+  slug: r2-financings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/r2/refs/heads/main/openapi/r2-financings-api-openapi.yml
+- filename: r2-merchants-api-openapi.yml
+  format: yaml
+  label: R2 merchants API
+  slug: r2-merchants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/r2/refs/heads/main/openapi/r2-merchants-api-openapi.yml
+- filename: r2-payments-api-openapi.yml
+  format: yaml
+  label: R2 payments API
+  slug: r2-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/r2/refs/heads/main/openapi/r2-payments-api-openapi.yml
+- filename: r2-sandbox-api-openapi.yml
+  format: yaml
+  label: R2 Sandbox API
+  slug: r2-sandbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/r2/refs/heads/main/openapi/r2-sandbox-api-openapi.yml
+- filename: r2-transactions-api-openapi.yml
+  format: yaml
+  label: R2 transactions API
+  slug: r2-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/r2/refs/heads/main/openapi/r2-transactions-api-openapi.yml
 certifications:
 - ISO 27001:2022
 description: ''

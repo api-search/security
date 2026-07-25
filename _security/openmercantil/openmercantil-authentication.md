@@ -2,12 +2,90 @@
 api_key_in:
 - cookie
 api_specs:
-- filename: openmercantil-openapi.yml
+- filename: openmercantil-billing-api-openapi.yml
   format: yaml
-  label: OpenMercantil Public API
-  slug: openmercantil-public-api
+  label: OpenMercantil Billing API
+  slug: openmercantil-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-billing-api-openapi.yml
+- filename: openmercantil-companies-api-openapi.yml
+  format: yaml
+  label: OpenMercantil Companies API
+  slug: openmercantil-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-companies-api-openapi.yml
+- filename: openmercantil-contracts-api-openapi.yml
+  format: yaml
+  label: OpenMercantil Contracts API
+  slug: openmercantil-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-contracts-api-openapi.yml
+- filename: openmercantil-daily-api-openapi.yml
+  format: yaml
+  label: OpenMercantil Daily API
+  slug: openmercantil-daily-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-daily-api-openapi.yml
+- filename: openmercantil-export-api-openapi.yml
+  format: yaml
+  label: OpenMercantil Export API
+  slug: openmercantil-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-export-api-openapi.yml
+- filename: openmercantil-geocode-api-openapi.yml
+  format: yaml
+  label: OpenMercantil Geocode API
+  slug: openmercantil-geocode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-geocode-api-openapi.yml
+- filename: openmercantil-network-api-openapi.yml
+  format: yaml
+  label: OpenMercantil Network API
+  slug: openmercantil-network-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-network-api-openapi.yml
+- filename: openmercantil-persons-api-openapi.yml
+  format: yaml
+  label: OpenMercantil Persons API
+  slug: openmercantil-persons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-persons-api-openapi.yml
+- filename: openmercantil-score-api-openapi.yml
+  format: yaml
+  label: OpenMercantil Score API
+  slug: openmercantil-score-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-score-api-openapi.yml
+- filename: openmercantil-search-api-openapi.yml
+  format: yaml
+  label: OpenMercantil Search API
+  slug: openmercantil-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-search-api-openapi.yml
+- filename: openmercantil-sectors-api-openapi.yml
+  format: yaml
+  label: OpenMercantil Sectors API
+  slug: openmercantil-sectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-sectors-api-openapi.yml
+- filename: openmercantil-sources-api-openapi.yml
+  format: yaml
+  label: OpenMercantil Sources API
+  slug: openmercantil-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-sources-api-openapi.yml
+- filename: openmercantil-stats-api-openapi.yml
+  format: yaml
+  label: OpenMercantil Stats API
+  slug: openmercantil-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-stats-api-openapi.yml
+- filename: openmercantil-system-api-openapi.yml
+  format: yaml
+  label: OpenMercantil System API
+  slug: openmercantil-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-system-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

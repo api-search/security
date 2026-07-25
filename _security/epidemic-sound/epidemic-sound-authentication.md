@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: epidemic-sound-partner-content-api-openapi.yml
+- filename: epidemic-sound-assets-api-openapi.yml
   format: yaml
-  label: Epidemic Sound Partner Content API
-  slug: epidemic-sound-partner-content-api
+  label: Epidemic Sound Assets API
+  slug: epidemic-sound-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-partner-content-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-assets-api-openapi.yml
+- filename: epidemic-sound-authentication-api-openapi.yml
+  format: yaml
+  label: Epidemic Sound Authentication API
+  slug: epidemic-sound-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-authentication-api-openapi.yml
+- filename: epidemic-sound-beta-api-openapi.yml
+  format: yaml
+  label: Epidemic Sound Beta API
+  slug: epidemic-sound-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-beta-api-openapi.yml
+- filename: epidemic-sound-browse-search-api-openapi.yml
+  format: yaml
+  label: Epidemic Sound Browse & search API
+  slug: epidemic-sound-browse-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-browse-search-api-openapi.yml
+- filename: epidemic-sound-reporting-api-openapi.yml
+  format: yaml
+  label: Epidemic Sound Reporting API
+  slug: epidemic-sound-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-reporting-api-openapi.yml
+- filename: epidemic-sound-safelisting-api-openapi.yml
+  format: yaml
+  label: Epidemic Sound Safelisting API
+  slug: epidemic-sound-safelisting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-safelisting-api-openapi.yml
+- filename: epidemic-sound-sound-effects-api-openapi.yml
+  format: yaml
+  label: Epidemic Sound Sound effects API
+  slug: epidemic-sound-sound-effects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-sound-effects-api-openapi.yml
+- filename: epidemic-sound-tracks-api-openapi.yml
+  format: yaml
+  label: Epidemic Sound Tracks API
+  slug: epidemic-sound-tracks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-tracks-api-openapi.yml
+- filename: epidemic-sound-users-api-openapi.yml
+  format: yaml
+  label: Epidemic Sound Users API
+  slug: epidemic-sound-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-users-api-openapi.yml
 auth_types:
 - http
 - oauth2

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: number26-xs2a-openapi-original.yml
+- filename: number26-default-api-openapi.yml
   format: yaml
-  label: N26 XS2A (Berlin Group PSD2)
-  slug: n26-xs2a-berlin-group-psd2
+  label: Number26 default API
+  slug: number26-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/number26/refs/heads/main/openapi/number26-xs2a-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/number26/refs/heads/main/openapi/number26-default-api-openapi.yml
 description: ''
 domains:
 - caa: []

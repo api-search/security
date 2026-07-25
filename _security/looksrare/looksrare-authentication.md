@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: looksrare-openapi.json
-  format: json
-  label: LooksRare Orders API
-  slug: orders-api
+- filename: looksrare-collections-api-openapi.yml
+  format: yaml
+  label: LooksRare Collections API
+  slug: looksrare-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looksrare/refs/heads/main/openapi/looksrare-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/looksrare/refs/heads/main/openapi/looksrare-collections-api-openapi.yml
+- filename: looksrare-events-api-openapi.yml
+  format: yaml
+  label: LooksRare Events API
+  slug: looksrare-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/looksrare/refs/heads/main/openapi/looksrare-events-api-openapi.yml
+- filename: looksrare-orders-api-openapi.yml
+  format: yaml
+  label: LooksRare Orders API
+  slug: looksrare-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/looksrare/refs/heads/main/openapi/looksrare-orders-api-openapi.yml
+- filename: looksrare-seaport-api-openapi.yml
+  format: yaml
+  label: LooksRare Seaport API
+  slug: looksrare-seaport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/looksrare/refs/heads/main/openapi/looksrare-seaport-api-openapi.yml
+- filename: looksrare-tokens-api-openapi.yml
+  format: yaml
+  label: LooksRare Tokens API
+  slug: looksrare-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/looksrare/refs/heads/main/openapi/looksrare-tokens-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

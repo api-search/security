@@ -1,11 +1,95 @@
 ---
 api_specs:
-- filename: moesif-openapi.yml
+- filename: moesif-applications-api-openapi.yml
   format: yaml
-  label: Moesif Management API
-  slug: moesif
+  label: Moesif Applications API
+  slug: moesif-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-applications-api-openapi.yml
+- filename: moesif-balance-transactions-api-openapi.yml
+  format: yaml
+  label: Moesif Balance Transactions API
+  slug: moesif-balance-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-balance-transactions-api-openapi.yml
+- filename: moesif-billing-meters-api-openapi.yml
+  format: yaml
+  label: Moesif Billing Meters API
+  slug: moesif-billing-meters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-billing-meters-api-openapi.yml
+- filename: moesif-billing-reports-api-openapi.yml
+  format: yaml
+  label: Moesif Billing Reports API
+  slug: moesif-billing-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-billing-reports-api-openapi.yml
+- filename: moesif-cohorts-api-openapi.yml
+  format: yaml
+  label: Moesif Cohorts API
+  slug: moesif-cohorts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-cohorts-api-openapi.yml
+- filename: moesif-companies-api-openapi.yml
+  format: yaml
+  label: Moesif Companies API
+  slug: moesif-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-companies-api-openapi.yml
+- filename: moesif-dashboards-api-openapi.yml
+  format: yaml
+  label: Moesif Dashboards API
+  slug: moesif-dashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-dashboards-api-openapi.yml
+- filename: moesif-email-templates-api-openapi.yml
+  format: yaml
+  label: Moesif Email Templates API
+  slug: moesif-email-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-email-templates-api-openapi.yml
+- filename: moesif-governance-rules-api-openapi.yml
+  format: yaml
+  label: Moesif Governance Rules API
+  slug: moesif-governance-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-governance-rules-api-openapi.yml
+- filename: moesif-metrics-api-openapi.yml
+  format: yaml
+  label: Moesif Metrics API
+  slug: moesif-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-metrics-api-openapi.yml
+- filename: moesif-product-catalog-api-openapi.yml
+  format: yaml
+  label: Moesif Product Catalog API
+  slug: moesif-product-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-product-catalog-api-openapi.yml
+- filename: moesif-properties-api-openapi.yml
+  format: yaml
+  label: Moesif Properties API
+  slug: moesif-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-properties-api-openapi.yml
+- filename: moesif-subscriptions-api-openapi.yml
+  format: yaml
+  label: Moesif Subscriptions API
+  slug: moesif-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-subscriptions-api-openapi.yml
+- filename: moesif-users-api-openapi.yml
+  format: yaml
+  label: Moesif Users API
+  slug: moesif-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-users-api-openapi.yml
+- filename: moesif-workspaces-api-openapi.yml
+  format: yaml
+  label: Moesif Workspaces API
+  slug: moesif-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []

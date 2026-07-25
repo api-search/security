@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: luminary-openapi-original.yml
+- filename: luminary-documents-api-openapi.yml
   format: yaml
-  label: Luminary API
-  slug: luminary-api
+  label: Luminary Documents API
+  slug: luminary-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-documents-api-openapi.yml
+- filename: luminary-entities-api-openapi.yml
+  format: yaml
+  label: Luminary Entities API
+  slug: luminary-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-entities-api-openapi.yml
+- filename: luminary-households-api-openapi.yml
+  format: yaml
+  label: Luminary Households API
+  slug: luminary-households-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-households-api-openapi.yml
+- filename: luminary-individuals-api-openapi.yml
+  format: yaml
+  label: Luminary Individuals API
+  slug: luminary-individuals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-individuals-api-openapi.yml
+- filename: luminary-users-api-openapi.yml
+  format: yaml
+  label: Luminary Users API
+  slug: luminary-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-users-api-openapi.yml
+- filename: luminary-valuations-api-openapi.yml
+  format: yaml
+  label: Luminary Valuations API
+  slug: luminary-valuations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-valuations-api-openapi.yml
 description: ''
 domains:
 - caa: []

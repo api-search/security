@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: denim-openapi-original.json
-  format: json
-  label: Denim Public API
-  slug: denim-public-api
+- filename: denim-companies-api-openapi.yml
+  format: yaml
+  label: Denim Companies API
+  slug: denim-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-companies-api-openapi.yml
+- filename: denim-debtors-api-openapi.yml
+  format: yaml
+  label: Denim Debtors API
+  slug: denim-debtors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-debtors-api-openapi.yml
+- filename: denim-jobs-api-openapi.yml
+  format: yaml
+  label: Denim Jobs API
+  slug: denim-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-jobs-api-openapi.yml
+- filename: denim-jobs-v2-api-openapi.yml
+  format: yaml
+  label: Denim Jobs V2 API
+  slug: denim-jobs-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-jobs-v2-api-openapi.yml
+- filename: denim-payees-api-openapi.yml
+  format: yaml
+  label: Denim Payees API
+  slug: denim-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-payees-api-openapi.yml
+- filename: denim-transactions-api-openapi.yml
+  format: yaml
+  label: Denim Transactions API
+  slug: denim-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

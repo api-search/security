@@ -1,30 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: crunchbase-data-openapi.yml
-  format: yaml
-  label: Crunchbase Entity Lookup API
-  slug: crunchbase-data-entity-lookup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-openapi.yml
-- filename: crunchbase-data-openapi.yml
-  format: yaml
-  label: Crunchbase Search API
-  slug: crunchbase-data-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-openapi.yml
-- filename: crunchbase-data-openapi.yml
+- filename: crunchbase-data-autocomplete-api-openapi.yml
   format: yaml
   label: Crunchbase Autocomplete API
   slug: crunchbase-data-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-openapi.yml
-- filename: crunchbase-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-autocomplete-api-openapi.yml
+- filename: crunchbase-data-deleted-entities-api-openapi.yml
   format: yaml
   label: Crunchbase Deleted Entities API
   slug: crunchbase-data-deleted-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-deleted-entities-api-openapi.yml
+- filename: crunchbase-data-entity-lookup-api-openapi.yml
+  format: yaml
+  label: Crunchbase Entity Lookup API
+  slug: crunchbase-data-entity-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-entity-lookup-api-openapi.yml
+- filename: crunchbase-data-search-api-openapi.yml
+  format: yaml
+  label: Crunchbase Search API
+  slug: crunchbase-data-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

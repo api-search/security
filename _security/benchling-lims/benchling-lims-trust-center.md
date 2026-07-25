@@ -1,71 +1,125 @@
 ---
 api_specs:
-- filename: benchling-lims-openapi.yml
+- filename: benchling-lims-aa-sequences-api-openapi.yml
   format: yaml
-  label: Benchling Registry API
-  slug: benchling-lims-registry-api
+  label: Benchling AA Sequences API
+  slug: benchling-lims-aa-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-openapi.yml
-- filename: benchling-lims-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-aa-sequences-api-openapi.yml
+- filename: benchling-lims-apps-api-openapi.yml
   format: yaml
-  label: Benchling Sequences API
-  slug: benchling-lims-sequences-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-openapi.yml
-- filename: benchling-lims-openapi.yml
-  format: yaml
-  label: Benchling Inventory API
-  slug: benchling-lims-inventory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-openapi.yml
-- filename: benchling-lims-openapi.yml
-  format: yaml
-  label: Benchling Notebook (Entries) API
-  slug: benchling-lims-notebook-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-openapi.yml
-- filename: benchling-lims-openapi.yml
-  format: yaml
-  label: Benchling Assay Results & Runs API
-  slug: benchling-lims-results-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-openapi.yml
-- filename: benchling-lims-openapi.yml
-  format: yaml
-  label: Benchling Workflows API
-  slug: benchling-lims-workflows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-openapi.yml
-- filename: benchling-lims-openapi.yml
-  format: yaml
-  label: Benchling Requests API
-  slug: benchling-lims-requests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-openapi.yml
-- filename: benchling-lims-openapi.yml
-  format: yaml
-  label: Benchling Events API
-  slug: benchling-lims-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-openapi.yml
-- filename: benchling-lims-openapi.yml
-  format: yaml
-  label: Benchling Apps & Webhooks API
+  label: Benchling Apps API
   slug: benchling-lims-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-openapi.yml
-- filename: benchling-lims-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-apps-api-openapi.yml
+- filename: benchling-lims-assay-results-api-openapi.yml
   format: yaml
-  label: Benchling Organizations & Users API
-  slug: benchling-lims-org-users-api
+  label: Benchling Assay Results API
+  slug: benchling-lims-assay-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-openapi.yml
-- filename: benchling-lims-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-assay-results-api-openapi.yml
+- filename: benchling-lims-assay-runs-api-openapi.yml
+  format: yaml
+  label: Benchling Assay Runs API
+  slug: benchling-lims-assay-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-assay-runs-api-openapi.yml
+- filename: benchling-lims-blobs-files-api-openapi.yml
   format: yaml
   label: Benchling Blobs & Files API
   slug: benchling-lims-blobs-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-blobs-files-api-openapi.yml
+- filename: benchling-lims-custom-entities-api-openapi.yml
+  format: yaml
+  label: Benchling Custom Entities API
+  slug: benchling-lims-custom-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-custom-entities-api-openapi.yml
+- filename: benchling-lims-dna-sequences-api-openapi.yml
+  format: yaml
+  label: Benchling DNA Sequences API
+  slug: benchling-lims-dna-sequences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-dna-sequences-api-openapi.yml
+- filename: benchling-lims-entries-api-openapi.yml
+  format: yaml
+  label: Benchling Entries API
+  slug: benchling-lims-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-entries-api-openapi.yml
+- filename: benchling-lims-events-api-openapi.yml
+  format: yaml
+  label: Benchling Events API
+  slug: benchling-lims-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-events-api-openapi.yml
+- filename: benchling-lims-inventory-api-openapi.yml
+  format: yaml
+  label: Benchling Inventory API
+  slug: benchling-lims-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-inventory-api-openapi.yml
+- filename: benchling-lims-lab-automation-api-openapi.yml
+  format: yaml
+  label: Benchling Lab Automation API
+  slug: benchling-lims-lab-automation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-lab-automation-api-openapi.yml
+- filename: benchling-lims-molecules-api-openapi.yml
+  format: yaml
+  label: Benchling Molecules API
+  slug: benchling-lims-molecules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-molecules-api-openapi.yml
+- filename: benchling-lims-oligos-api-openapi.yml
+  format: yaml
+  label: Benchling Oligos API
+  slug: benchling-lims-oligos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-oligos-api-openapi.yml
+- filename: benchling-lims-projects-folders-api-openapi.yml
+  format: yaml
+  label: Benchling Projects & Folders API
+  slug: benchling-lims-projects-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-projects-folders-api-openapi.yml
+- filename: benchling-lims-registry-api-openapi.yml
+  format: yaml
+  label: Benchling Registry API
+  slug: benchling-lims-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-registry-api-openapi.yml
+- filename: benchling-lims-requests-api-openapi.yml
+  format: yaml
+  label: Benchling Requests API
+  slug: benchling-lims-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-requests-api-openapi.yml
+- filename: benchling-lims-rna-sequences-api-openapi.yml
+  format: yaml
+  label: Benchling RNA Sequences API
+  slug: benchling-lims-rna-sequences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-rna-sequences-api-openapi.yml
+- filename: benchling-lims-teams-organizations-api-openapi.yml
+  format: yaml
+  label: Benchling Teams & Organizations API
+  slug: benchling-lims-teams-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-teams-organizations-api-openapi.yml
+- filename: benchling-lims-users-api-openapi.yml
+  format: yaml
+  label: Benchling Users API
+  slug: benchling-lims-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-users-api-openapi.yml
+- filename: benchling-lims-workflows-api-openapi.yml
+  format: yaml
+  label: Benchling Workflows API
+  slug: benchling-lims-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/openapi/benchling-lims-workflows-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

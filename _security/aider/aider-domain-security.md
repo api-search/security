@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: aider-cli-openapi.yml
+- filename: aider-chat-api-openapi.yml
   format: yaml
-  label: Aider CLI
-  slug: cli
+  label: Aider Chat API
+  slug: aider-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-cli-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-chat-api-openapi.yml
+- filename: aider-editing-api-openapi.yml
+  format: yaml
+  label: Aider Editing API
+  slug: aider-editing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-editing-api-openapi.yml
+- filename: aider-files-api-openapi.yml
+  format: yaml
+  label: Aider Files API
+  slug: aider-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-files-api-openapi.yml
+- filename: aider-git-api-openapi.yml
+  format: yaml
+  label: Aider Git API
+  slug: aider-git-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-git-api-openapi.yml
+- filename: aider-io-api-openapi.yml
+  format: yaml
+  label: Aider IO API
+  slug: aider-io-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-io-api-openapi.yml
+- filename: aider-launch-api-openapi.yml
+  format: yaml
+  label: Aider Launch API
+  slug: aider-launch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-launch-api-openapi.yml
+- filename: aider-map-api-openapi.yml
+  format: yaml
+  label: Aider Map API
+  slug: aider-map-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-map-api-openapi.yml
+- filename: aider-models-api-openapi.yml
+  format: yaml
+  label: Aider Models API
+  slug: aider-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-models-api-openapi.yml
+- filename: aider-modes-api-openapi.yml
+  format: yaml
+  label: Aider Modes API
+  slug: aider-modes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-modes-api-openapi.yml
+- filename: aider-quality-api-openapi.yml
+  format: yaml
+  label: Aider Quality API
+  slug: aider-quality-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-quality-api-openapi.yml
+- filename: aider-session-api-openapi.yml
+  format: yaml
+  label: Aider Session API
+  slug: aider-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-session-api-openapi.yml
+- filename: aider-settings-api-openapi.yml
+  format: yaml
+  label: Aider Settings API
+  slug: aider-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-settings-api-openapi.yml
+- filename: aider-voice-api-openapi.yml
+  format: yaml
+  label: Aider Voice API
+  slug: aider-voice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-voice-api-openapi.yml
+- filename: aider-web-api-openapi.yml
+  format: yaml
+  label: Aider Web API
+  slug: aider-web-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-web-api-openapi.yml
 description: ''
 domains:
 - caa:

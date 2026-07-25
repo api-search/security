@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: currencybeacon-openapi.yml
+- filename: currencybeacon-conversion-api-openapi.yml
   format: yaml
-  label: CurrencyBeacon API
-  slug: currencybeacon-api
+  label: CurrencyBeacon conversion API
+  slug: currencybeacon-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencybeacon/refs/heads/main/openapi/currencybeacon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/currencybeacon/refs/heads/main/openapi/currencybeacon-conversion-api-openapi.yml
+- filename: currencybeacon-currencies-api-openapi.yml
+  format: yaml
+  label: CurrencyBeacon currencies API
+  slug: currencybeacon-currencies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/currencybeacon/refs/heads/main/openapi/currencybeacon-currencies-api-openapi.yml
+- filename: currencybeacon-rates-api-openapi.yml
+  format: yaml
+  label: CurrencyBeacon rates API
+  slug: currencybeacon-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/currencybeacon/refs/heads/main/openapi/currencybeacon-rates-api-openapi.yml
 description: ''
 domains:
 - caa: []

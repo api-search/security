@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: coderabbit-openapi.yml
+- filename: coderabbit-reports-api-openapi.yml
   format: yaml
   label: CodeRabbit Reports API
   slug: coderabbit-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coderabbit/refs/heads/main/openapi/coderabbit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coderabbit/refs/heads/main/openapi/coderabbit-reports-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

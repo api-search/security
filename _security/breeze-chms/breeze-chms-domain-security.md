@@ -1,65 +1,65 @@
 ---
 api_specs:
-- filename: breeze-chms-openapi.yml
+- filename: breeze-chms-account-api-openapi.yml
   format: yaml
-  label: Breeze People API
-  slug: breeze-chms-people-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/openapi/breeze-chms-openapi.yml
-- filename: breeze-chms-openapi.yml
-  format: yaml
-  label: Breeze Tags API
-  slug: breeze-chms-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/openapi/breeze-chms-openapi.yml
-- filename: breeze-chms-openapi.yml
-  format: yaml
-  label: Breeze Events API
-  slug: breeze-chms-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/openapi/breeze-chms-openapi.yml
-- filename: breeze-chms-openapi.yml
-  format: yaml
-  label: Breeze Check-Ins and Attendance API
-  slug: breeze-chms-check-ins-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/openapi/breeze-chms-openapi.yml
-- filename: breeze-chms-openapi.yml
-  format: yaml
-  label: Breeze Giving and Contributions API
-  slug: breeze-chms-giving-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/openapi/breeze-chms-openapi.yml
-- filename: breeze-chms-openapi.yml
-  format: yaml
-  label: Breeze Funds API
-  slug: breeze-chms-funds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/openapi/breeze-chms-openapi.yml
-- filename: breeze-chms-openapi.yml
-  format: yaml
-  label: Breeze Pledges API
-  slug: breeze-chms-pledges-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/openapi/breeze-chms-openapi.yml
-- filename: breeze-chms-openapi.yml
-  format: yaml
-  label: Breeze Forms API
-  slug: breeze-chms-forms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/openapi/breeze-chms-openapi.yml
-- filename: breeze-chms-openapi.yml
-  format: yaml
-  label: Breeze Volunteers API
-  slug: breeze-chms-volunteers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/openapi/breeze-chms-openapi.yml
-- filename: breeze-chms-openapi.yml
-  format: yaml
-  label: Breeze Account API
+  label: Breeze ChMS Account API
   slug: breeze-chms-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/openapi/breeze-chms-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/openapi/breeze-chms-account-api-openapi.yml
+- filename: breeze-chms-attendance-api-openapi.yml
+  format: yaml
+  label: Breeze ChMS Attendance API
+  slug: breeze-chms-attendance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/openapi/breeze-chms-attendance-api-openapi.yml
+- filename: breeze-chms-events-api-openapi.yml
+  format: yaml
+  label: Breeze ChMS Events API
+  slug: breeze-chms-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/openapi/breeze-chms-events-api-openapi.yml
+- filename: breeze-chms-forms-api-openapi.yml
+  format: yaml
+  label: Breeze ChMS Forms API
+  slug: breeze-chms-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/openapi/breeze-chms-forms-api-openapi.yml
+- filename: breeze-chms-funds-api-openapi.yml
+  format: yaml
+  label: Breeze ChMS Funds API
+  slug: breeze-chms-funds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/openapi/breeze-chms-funds-api-openapi.yml
+- filename: breeze-chms-giving-api-openapi.yml
+  format: yaml
+  label: Breeze ChMS Giving API
+  slug: breeze-chms-giving-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/openapi/breeze-chms-giving-api-openapi.yml
+- filename: breeze-chms-people-api-openapi.yml
+  format: yaml
+  label: Breeze ChMS People API
+  slug: breeze-chms-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/openapi/breeze-chms-people-api-openapi.yml
+- filename: breeze-chms-pledges-api-openapi.yml
+  format: yaml
+  label: Breeze ChMS Pledges API
+  slug: breeze-chms-pledges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/openapi/breeze-chms-pledges-api-openapi.yml
+- filename: breeze-chms-tags-api-openapi.yml
+  format: yaml
+  label: Breeze ChMS Tags API
+  slug: breeze-chms-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/openapi/breeze-chms-tags-api-openapi.yml
+- filename: breeze-chms-volunteers-api-openapi.yml
+  format: yaml
+  label: Breeze ChMS Volunteers API
+  slug: breeze-chms-volunteers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/openapi/breeze-chms-volunteers-api-openapi.yml
 description: ''
 domains:
 - caa: []

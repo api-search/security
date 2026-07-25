@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: automat-extract-openapi.json
-  format: json
-  label: Automat Extract API
+- filename: automat-extract-api-openapi.yml
+  format: yaml
+  label: Automat extract API
   slug: automat-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automat/refs/heads/main/openapi/automat-extract-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/automat/refs/heads/main/openapi/automat-extract-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

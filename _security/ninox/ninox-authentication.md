@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ninox-public-openapi-original.json
-  format: json
-  label: Ninox Public API
-  slug: ninox-public-api
+- filename: ninox-fields-api-openapi.yml
+  format: yaml
+  label: Ninox Fields API
+  slug: ninox-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/openapi/ninox-public-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/openapi/ninox-fields-api-openapi.yml
+- filename: ninox-modules-api-openapi.yml
+  format: yaml
+  label: Ninox Modules API
+  slug: ninox-modules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/openapi/ninox-modules-api-openapi.yml
+- filename: ninox-records-api-openapi.yml
+  format: yaml
+  label: Ninox Records API
+  slug: ninox-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/openapi/ninox-records-api-openapi.yml
+- filename: ninox-tables-api-openapi.yml
+  format: yaml
+  label: Ninox Tables API
+  slug: ninox-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/openapi/ninox-tables-api-openapi.yml
+- filename: ninox-workspace-api-openapi.yml
+  format: yaml
+  label: Ninox Workspace API
+  slug: ninox-workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/openapi/ninox-workspace-api-openapi.yml
 auth_types:
 - http
 description: ''

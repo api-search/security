@@ -1,84 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: mpesa-openapi.yml
+- filename: mpesa-account-balance-api-openapi.yml
   format: yaml
-  label: M-Pesa Authorization API
-  slug: mpesa-authorization-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-openapi.yml
-- filename: mpesa-openapi.yml
-  format: yaml
-  label: M-Pesa Express (STK Push) API
-  slug: mpesa-express-stk-push-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-openapi.yml
-- filename: mpesa-openapi.yml
-  format: yaml
-  label: M-Pesa Customer To Business (C2B) API
-  slug: mpesa-c2b-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-openapi.yml
-- filename: mpesa-openapi.yml
-  format: yaml
-  label: M-Pesa Business To Customer (B2C) API
-  slug: mpesa-b2c-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-openapi.yml
-- filename: mpesa-openapi.yml
-  format: yaml
-  label: M-Pesa Business To Business (B2B) API
-  slug: mpesa-b2b-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-openapi.yml
-- filename: mpesa-openapi.yml
-  format: yaml
-  label: M-Pesa B2B Express Checkout (USSD Push) API
-  slug: mpesa-b2b-express-checkout-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-openapi.yml
-- filename: mpesa-openapi.yml
-  format: yaml
-  label: M-Pesa Transaction Status API
-  slug: mpesa-transaction-status-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-openapi.yml
-- filename: mpesa-openapi.yml
-  format: yaml
-  label: M-Pesa Account Balance API
+  label: M-Pesa (Safaricom Daraja) Account Balance API
   slug: mpesa-account-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-openapi.yml
-- filename: mpesa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-account-balance-api-openapi.yml
+- filename: mpesa-authorization-api-openapi.yml
   format: yaml
-  label: M-Pesa Reversal API
-  slug: mpesa-reversal-api
+  label: M-Pesa (Safaricom Daraja) Authorization API
+  slug: mpesa-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-openapi.yml
-- filename: mpesa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-authorization-api-openapi.yml
+- filename: mpesa-b2b-api-openapi.yml
   format: yaml
-  label: M-Pesa Dynamic QR Code API
+  label: M-Pesa (Safaricom Daraja) B2B API
+  slug: mpesa-b2b-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-b2b-api-openapi.yml
+- filename: mpesa-b2c-api-openapi.yml
+  format: yaml
+  label: M-Pesa (Safaricom Daraja) B2C API
+  slug: mpesa-b2c-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-b2c-api-openapi.yml
+- filename: mpesa-c2b-api-openapi.yml
+  format: yaml
+  label: M-Pesa (Safaricom Daraja) C2B API
+  slug: mpesa-c2b-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-c2b-api-openapi.yml
+- filename: mpesa-dynamic-qr-api-openapi.yml
+  format: yaml
+  label: M-Pesa (Safaricom Daraja) Dynamic QR API
   slug: mpesa-dynamic-qr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-openapi.yml
-- filename: mpesa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-dynamic-qr-api-openapi.yml
+- filename: mpesa-m-pesa-express-api-openapi.yml
   format: yaml
-  label: M-Pesa Tax Remittance API
+  label: M-Pesa (Safaricom Daraja) M-Pesa Express API
+  slug: mpesa-m-pesa-express-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-m-pesa-express-api-openapi.yml
+- filename: mpesa-reversal-api-openapi.yml
+  format: yaml
+  label: M-Pesa (Safaricom Daraja) Reversal API
+  slug: mpesa-reversal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-reversal-api-openapi.yml
+- filename: mpesa-standing-order-api-openapi.yml
+  format: yaml
+  label: M-Pesa (Safaricom Daraja) Standing Order API
+  slug: mpesa-standing-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-standing-order-api-openapi.yml
+- filename: mpesa-tax-remittance-api-openapi.yml
+  format: yaml
+  label: M-Pesa (Safaricom Daraja) Tax Remittance API
   slug: mpesa-tax-remittance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-openapi.yml
-- filename: mpesa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-tax-remittance-api-openapi.yml
+- filename: mpesa-transaction-status-api-openapi.yml
   format: yaml
-  label: M-Pesa Bill Manager API
-  slug: mpesa-bill-manager-api
+  label: M-Pesa (Safaricom Daraja) Transaction Status API
+  slug: mpesa-transaction-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-openapi.yml
-- filename: mpesa-openapi.yml
-  format: yaml
-  label: M-Pesa Ratiba (Standing Order) API
-  slug: mpesa-ratiba-standing-order-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-transaction-status-api-openapi.yml
 auth_types:
 - http
 description: ''

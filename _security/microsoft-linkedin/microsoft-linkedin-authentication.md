@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: microsoft-linkedin-openapi.yml
+- filename: microsoft-linkedin-adaccounts-api-openapi.yml
   format: yaml
-  label: LinkedIn Marketing API
-  slug: marketing-api
+  label: Microsoft LinkedIn AdAccounts API
+  slug: microsoft-linkedin-adaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-linkedin/refs/heads/main/openapi/microsoft-linkedin-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-linkedin/refs/heads/main/openapi/microsoft-linkedin-adaccounts-api-openapi.yml
+- filename: microsoft-linkedin-adaccountusers-api-openapi.yml
+  format: yaml
+  label: Microsoft LinkedIn AdAccountUsers API
+  slug: microsoft-linkedin-adaccountusers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-linkedin/refs/heads/main/openapi/microsoft-linkedin-adaccountusers-api-openapi.yml
+- filename: microsoft-linkedin-adcampaigngroups-api-openapi.yml
+  format: yaml
+  label: Microsoft LinkedIn AdCampaignGroups API
+  slug: microsoft-linkedin-adcampaigngroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-linkedin/refs/heads/main/openapi/microsoft-linkedin-adcampaigngroups-api-openapi.yml
+- filename: microsoft-linkedin-adcampaigns-api-openapi.yml
+  format: yaml
+  label: Microsoft LinkedIn AdCampaigns API
+  slug: microsoft-linkedin-adcampaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-linkedin/refs/heads/main/openapi/microsoft-linkedin-adcampaigns-api-openapi.yml
+- filename: microsoft-linkedin-adcreatives-api-openapi.yml
+  format: yaml
+  label: Microsoft LinkedIn AdCreatives API
+  slug: microsoft-linkedin-adcreatives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-linkedin/refs/heads/main/openapi/microsoft-linkedin-adcreatives-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

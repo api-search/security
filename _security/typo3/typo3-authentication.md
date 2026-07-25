@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: typo3-releases-openapi.json
-  format: json
-  label: TYPO3 Releases REST API
-  slug: releases-api
+- filename: typo3-cache-api-openapi.yml
+  format: yaml
+  label: TYPO3 Cache API
+  slug: typo3-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/openapi/typo3-releases-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/openapi/typo3-cache-api-openapi.yml
+- filename: typo3-major-api-openapi.yml
+  format: yaml
+  label: TYPO3 Major API
+  slug: typo3-major-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/openapi/typo3-major-api-openapi.yml
+- filename: typo3-release-api-openapi.yml
+  format: yaml
+  label: TYPO3 Release API
+  slug: typo3-release-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/openapi/typo3-release-api-openapi.yml
+- filename: typo3-sitepackage-api-openapi.yml
+  format: yaml
+  label: TYPO3 sitepackage API
+  slug: typo3-sitepackage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/openapi/typo3-sitepackage-api-openapi.yml
 auth_types:
 - http
 description: ''

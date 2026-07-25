@@ -1,53 +1,53 @@
 ---
 api_specs:
-- filename: akute-openapi.yml
+- filename: akute-appointments-api-openapi.yml
   format: yaml
-  label: Akute Patients API
-  slug: patients
+  label: Akute Health Appointments API
+  slug: akute-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-openapi.yml
-- filename: akute-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-appointments-api-openapi.yml
+- filename: akute-documents-api-openapi.yml
   format: yaml
-  label: Akute Appointments API
-  slug: appointments
+  label: Akute Health Documents API
+  slug: akute-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-openapi.yml
-- filename: akute-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-documents-api-openapi.yml
+- filename: akute-encounters-api-openapi.yml
   format: yaml
-  label: Akute Encounters API
-  slug: encounters
+  label: Akute Health Encounters API
+  slug: akute-encounters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-openapi.yml
-- filename: akute-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-encounters-api-openapi.yml
+- filename: akute-labs-api-openapi.yml
   format: yaml
-  label: Akute Tasks API
-  slug: tasks
+  label: Akute Health Labs API
+  slug: akute-labs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-openapi.yml
-- filename: akute-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-labs-api-openapi.yml
+- filename: akute-medications-api-openapi.yml
   format: yaml
-  label: Akute Documents API
-  slug: documents
+  label: Akute Health Medications API
+  slug: akute-medications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-openapi.yml
-- filename: akute-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-medications-api-openapi.yml
+- filename: akute-patients-api-openapi.yml
   format: yaml
-  label: Akute Medications API
-  slug: medications
+  label: Akute Health Patients API
+  slug: akute-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-openapi.yml
-- filename: akute-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-patients-api-openapi.yml
+- filename: akute-tasks-api-openapi.yml
   format: yaml
-  label: Akute Labs API
-  slug: labs
+  label: Akute Health Tasks API
+  slug: akute-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-openapi.yml
-- filename: akute-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-tasks-api-openapi.yml
+- filename: akute-webhooks-api-openapi.yml
   format: yaml
-  label: Akute Webhooks API
-  slug: webhooks
+  label: Akute Health Webhooks API
+  slug: akute-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,12 +2,78 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Robocorp Control Room API
-  slug: control-room-api
+- filename: robocorp-assets-api-openapi.yml
+  format: yaml
+  label: Robocorp Assets API
+  slug: robocorp-assets-api
   spec_type: OpenAPI
-  url: https://robocorp.com/api/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-assets-api-openapi.yml
+- filename: robocorp-assistants-api-openapi.yml
+  format: yaml
+  label: Robocorp Assistants API
+  slug: robocorp-assistants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-assistants-api-openapi.yml
+- filename: robocorp-process-runs-api-openapi.yml
+  format: yaml
+  label: Robocorp Process Runs API
+  slug: robocorp-process-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-process-runs-api-openapi.yml
+- filename: robocorp-processes-api-openapi.yml
+  format: yaml
+  label: Robocorp Processes API
+  slug: robocorp-processes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-processes-api-openapi.yml
+- filename: robocorp-step-runs-api-openapi.yml
+  format: yaml
+  label: Robocorp Step Runs API
+  slug: robocorp-step-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-step-runs-api-openapi.yml
+- filename: robocorp-task-packages-api-openapi.yml
+  format: yaml
+  label: Robocorp Task Packages API
+  slug: robocorp-task-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-task-packages-api-openapi.yml
+- filename: robocorp-vault-api-openapi.yml
+  format: yaml
+  label: Robocorp Vault API
+  slug: robocorp-vault-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-vault-api-openapi.yml
+- filename: robocorp-webhooks-api-openapi.yml
+  format: yaml
+  label: Robocorp Webhooks API
+  slug: robocorp-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-webhooks-api-openapi.yml
+- filename: robocorp-work-items-api-openapi.yml
+  format: yaml
+  label: Robocorp Work Items API
+  slug: robocorp-work-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-work-items-api-openapi.yml
+- filename: robocorp-worker-groups-api-openapi.yml
+  format: yaml
+  label: Robocorp Worker Groups API
+  slug: robocorp-worker-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-worker-groups-api-openapi.yml
+- filename: robocorp-workers-api-openapi.yml
+  format: yaml
+  label: Robocorp Workers API
+  slug: robocorp-workers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-workers-api-openapi.yml
+- filename: robocorp-workspace-api-openapi.yml
+  format: yaml
+  label: Robocorp Workspace API
+  slug: robocorp-workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-workspace-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: eigenpal-openapi-original.json
-  format: json
-  label: Eigenpal API
-  slug: eigenpal-api
+- filename: eigenpal-automations-api-openapi.yml
+  format: yaml
+  label: Eigenpal Automations API
+  slug: eigenpal-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-automations-api-openapi.yml
+- filename: eigenpal-evaluation-api-openapi.yml
+  format: yaml
+  label: Eigenpal Evaluation API
+  slug: eigenpal-evaluation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-evaluation-api-openapi.yml
+- filename: eigenpal-files-api-openapi.yml
+  format: yaml
+  label: Eigenpal Files API
+  slug: eigenpal-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-files-api-openapi.yml
+- filename: eigenpal-metadata-api-openapi.yml
+  format: yaml
+  label: Eigenpal Metadata API
+  slug: eigenpal-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-metadata-api-openapi.yml
+- filename: eigenpal-reviews-api-openapi.yml
+  format: yaml
+  label: Eigenpal Reviews API
+  slug: eigenpal-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-reviews-api-openapi.yml
+- filename: eigenpal-runs-api-openapi.yml
+  format: yaml
+  label: Eigenpal Runs API
+  slug: eigenpal-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-runs-api-openapi.yml
 auth_types:
 - http
 description: ''

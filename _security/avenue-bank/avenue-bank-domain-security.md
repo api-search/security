@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: avenue-bank-cds-banking-openapi.json
-  format: json
-  label: Avenue Bank CDR Product Reference Data API
-  slug: avenue-bank-cdr-product-reference-data-api
+- filename: avenue-bank-banking-account-balances-api-openapi.yml
+  format: yaml
+  label: Avenue Bank Banking Account Balances API
+  slug: avenue-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-cds-banking-openapi.json
-- filename: avenue-bank-cds-banking-openapi.json
-  format: json
-  label: Avenue Bank CDR Accounts & Balances API
-  slug: avenue-bank-cdr-accounts-balances-api
+  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-banking-account-balances-api-openapi.yml
+- filename: avenue-bank-banking-account-direct-debits-api-openapi.yml
+  format: yaml
+  label: Avenue Bank Banking Account Direct Debits API
+  slug: avenue-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-cds-banking-openapi.json
-- filename: avenue-bank-cds-banking-openapi.json
-  format: json
-  label: Avenue Bank CDR Transactions API
-  slug: avenue-bank-cdr-transactions-api
+  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-banking-account-direct-debits-api-openapi.yml
+- filename: avenue-bank-banking-account-scheduled-payments-api-openapi.yml
+  format: yaml
+  label: Avenue Bank Banking Account Scheduled Payments API
+  slug: avenue-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-cds-banking-openapi.json
-- filename: avenue-bank-cds-banking-openapi.json
-  format: json
-  label: Avenue Bank CDR Direct Debits & Scheduled Payments API
-  slug: avenue-bank-cdr-direct-debits-scheduled-payments-api
+  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: avenue-bank-banking-account-transactions-api-openapi.yml
+  format: yaml
+  label: Avenue Bank Banking Account Transactions API
+  slug: avenue-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-cds-banking-openapi.json
-- filename: avenue-bank-cds-banking-openapi.json
-  format: json
-  label: Avenue Bank CDR Payees API
-  slug: avenue-bank-cdr-payees-api
+  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-banking-account-transactions-api-openapi.yml
+- filename: avenue-bank-banking-accounts-api-openapi.yml
+  format: yaml
+  label: Avenue Bank Banking Accounts API
+  slug: avenue-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-cds-banking-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-banking-accounts-api-openapi.yml
+- filename: avenue-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: Avenue Bank Banking Payees API
+  slug: avenue-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-banking-payees-api-openapi.yml
+- filename: avenue-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: Avenue Bank Banking Products API
+  slug: avenue-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

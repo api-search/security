@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: packagex-openapi-original.yml
+- filename: packagex-shipments-api-openapi.yml
   format: yaml
-  label: PackageX Shipments API
+  label: PackageX shipments API
   slug: packagex-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/openapi/packagex-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/openapi/packagex-shipments-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

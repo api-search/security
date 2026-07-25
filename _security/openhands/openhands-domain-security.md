@@ -1,4 +1,65 @@
 ---
+api_specs:
+- filename: openhands-add-git-providers-api-openapi.yml
+  format: yaml
+  label: OpenHands Add Git Providers API
+  slug: openhands-add-git-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/openapi/openhands-add-git-providers-api-openapi.yml
+- filename: openhands-alive-api-openapi.yml
+  format: yaml
+  label: OpenHands Alive API
+  slug: openhands-alive-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/openapi/openhands-alive-api-openapi.yml
+- filename: openhands-conversations-api-openapi.yml
+  format: yaml
+  label: OpenHands Conversations API
+  slug: openhands-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/openapi/openhands-conversations-api-openapi.yml
+- filename: openhands-health-api-openapi.yml
+  format: yaml
+  label: OpenHands Health API
+  slug: openhands-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/openapi/openhands-health-api-openapi.yml
+- filename: openhands-options-api-openapi.yml
+  format: yaml
+  label: OpenHands Options API
+  slug: openhands-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/openapi/openhands-options-api-openapi.yml
+- filename: openhands-reset-settings-api-openapi.yml
+  format: yaml
+  label: OpenHands Reset Settings API
+  slug: openhands-reset-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/openapi/openhands-reset-settings-api-openapi.yml
+- filename: openhands-secrets-api-openapi.yml
+  format: yaml
+  label: OpenHands Secrets API
+  slug: openhands-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/openapi/openhands-secrets-api-openapi.yml
+- filename: openhands-settings-api-openapi.yml
+  format: yaml
+  label: OpenHands Settings API
+  slug: openhands-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/openapi/openhands-settings-api-openapi.yml
+- filename: openhands-unset-provider-tokens-api-openapi.yml
+  format: yaml
+  label: OpenHands Unset Provider Tokens API
+  slug: openhands-unset-provider-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/openapi/openhands-unset-provider-tokens-api-openapi.yml
+- filename: openhands-user-api-openapi.yml
+  format: yaml
+  label: OpenHands User API
+  slug: openhands-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/openapi/openhands-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

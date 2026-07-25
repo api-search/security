@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: preciser-api-openapi.yml
+- filename: preciser-chart-data-api-openapi.yml
   format: yaml
-  label: Preciser API
-  slug: preciser-api
+  label: Preciser Chart Data API
+  slug: preciser-chart-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preciser/refs/heads/main/openapi/preciser-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/preciser/refs/heads/main/openapi/preciser-chart-data-api-openapi.yml
+- filename: preciser-opp-team-data-api-openapi.yml
+  format: yaml
+  label: Preciser Opp Team Data API
+  slug: preciser-opp-team-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/preciser/refs/heads/main/openapi/preciser-opp-team-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

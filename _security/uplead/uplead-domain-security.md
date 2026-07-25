@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: uplead-openapi.json
-  format: json
-  label: UpLead API
-  slug: uplead-api
+- filename: uplead-account-api-openapi.yml
+  format: yaml
+  label: UpLead Account API
+  slug: uplead-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-account-api-openapi.yml
+- filename: uplead-combined-api-openapi.yml
+  format: yaml
+  label: UpLead Combined API
+  slug: uplead-combined-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-combined-api-openapi.yml
+- filename: uplead-company-api-openapi.yml
+  format: yaml
+  label: UpLead Company API
+  slug: uplead-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-company-api-openapi.yml
+- filename: uplead-lists-api-openapi.yml
+  format: yaml
+  label: UpLead Lists API
+  slug: uplead-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-lists-api-openapi.yml
+- filename: uplead-person-api-openapi.yml
+  format: yaml
+  label: UpLead Person API
+  slug: uplead-person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-person-api-openapi.yml
+- filename: uplead-prospector-api-openapi.yml
+  format: yaml
+  label: UpLead Prospector API
+  slug: uplead-prospector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-prospector-api-openapi.yml
+- filename: uplead-reference-api-openapi.yml
+  format: yaml
+  label: UpLead Reference API
+  slug: uplead-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-reference-api-openapi.yml
+- filename: uplead-search-api-openapi.yml
+  format: yaml
+  label: UpLead Search API
+  slug: uplead-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

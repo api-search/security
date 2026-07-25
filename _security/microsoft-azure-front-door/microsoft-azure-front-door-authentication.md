@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: microsoft-azure-front-door-openapi.yml
+- filename: microsoft-azure-front-door-operations-api-openapi.yml
   format: yaml
-  label: Azure Front Door REST API
-  slug: rest-api
+  label: Azure Front Door Operations API
+  slug: microsoft-azure-front-door-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/openapi/microsoft-azure-front-door-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/openapi/microsoft-azure-front-door-operations-api-openapi.yml
+- filename: microsoft-azure-front-door-profiles-api-openapi.yml
+  format: yaml
+  label: Azure Front Door Profiles API
+  slug: microsoft-azure-front-door-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/openapi/microsoft-azure-front-door-profiles-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

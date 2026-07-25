@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: weclapp-openapi.yml
-  format: yaml
-  label: weclapp Customer API
-  slug: weclapp-customer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-openapi.yml
-- filename: weclapp-openapi.yml
+- filename: weclapp-article-api-openapi.yml
   format: yaml
   label: weclapp Article API
   slug: weclapp-article-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-openapi.yml
-- filename: weclapp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-article-api-openapi.yml
+- filename: weclapp-customer-api-openapi.yml
   format: yaml
-  label: weclapp Sales Order API
-  slug: weclapp-sales-order-api
+  label: weclapp Customer API
+  slug: weclapp-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-openapi.yml
-- filename: weclapp-openapi.yml
-  format: yaml
-  label: weclapp Quotation API
-  slug: weclapp-quotation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-openapi.yml
-- filename: weclapp-openapi.yml
-  format: yaml
-  label: weclapp Sales Invoice API
-  slug: weclapp-sales-invoice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-openapi.yml
-- filename: weclapp-openapi.yml
-  format: yaml
-  label: weclapp Shipment API
-  slug: weclapp-shipment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-openapi.yml
-- filename: weclapp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-customer-api-openapi.yml
+- filename: weclapp-purchase-order-api-openapi.yml
   format: yaml
   label: weclapp Purchase Order API
   slug: weclapp-purchase-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-purchase-order-api-openapi.yml
+- filename: weclapp-quotation-api-openapi.yml
+  format: yaml
+  label: weclapp Quotation API
+  slug: weclapp-quotation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-quotation-api-openapi.yml
+- filename: weclapp-sales-invoice-api-openapi.yml
+  format: yaml
+  label: weclapp Sales Invoice API
+  slug: weclapp-sales-invoice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-sales-invoice-api-openapi.yml
+- filename: weclapp-sales-order-api-openapi.yml
+  format: yaml
+  label: weclapp Sales Order API
+  slug: weclapp-sales-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-sales-order-api-openapi.yml
+- filename: weclapp-shipment-api-openapi.yml
+  format: yaml
+  label: weclapp Shipment API
+  slug: weclapp-shipment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-shipment-api-openapi.yml
 description: ''
 domains:
 - caa: []

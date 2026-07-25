@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: liberate-innovations-orchestration-openapi.yml
+- filename: liberate-innovations-events-api-openapi.yml
   format: yaml
-  label: Liberate Orchestration Platform API
-  slug: orchestration-platform
+  label: Liberate Innovations Events API
+  slug: liberate-innovations-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liberate-innovations/refs/heads/main/openapi/liberate-innovations-orchestration-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/liberate-innovations/refs/heads/main/openapi/liberate-innovations-events-api-openapi.yml
+- filename: liberate-innovations-workflows-api-openapi.yml
+  format: yaml
+  label: Liberate Innovations Workflows API
+  slug: liberate-innovations-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liberate-innovations/refs/heads/main/openapi/liberate-innovations-workflows-api-openapi.yml
 auth_types: []
 description: The Liberate Orchestration Platform API authenticates with a bearer token issued by Liberate. Tokens are scoped per customer and per environment — every customer has both a production and a QA environment, and each has its own unique endpoint URL and token. The exact curl invocation including the correct host is published in the Start Event properties of each workflow inside the Liberate application.
 kind: authentication

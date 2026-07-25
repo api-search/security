@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yml
+- filename: google-business-messages-conversations-api-openapi.yml
   format: yaml
-  label: Google Business Messages API
-  slug: google-business-messages
+  label: Google Business Messages Conversations API
+  slug: google-business-messages-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-business-messages/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-business-messages/refs/heads/main/openapi/google-business-messages-conversations-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

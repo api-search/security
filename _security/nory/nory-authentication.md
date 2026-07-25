@@ -2,12 +2,66 @@
 api_key_in:
 - header
 api_specs:
-- filename: nory-middleware-openapi.json
-  format: json
-  label: Nory Middleware API
-  slug: nory-middleware
+- filename: nory-authorization-api-openapi.yml
+  format: yaml
+  label: Nory Authorization API
+  slug: nory-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/openapi/nory-middleware-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/openapi/nory-authorization-api-openapi.yml
+- filename: nory-branch-api-openapi.yml
+  format: yaml
+  label: Nory Branch API
+  slug: nory-branch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/openapi/nory-branch-api-openapi.yml
+- filename: nory-brands-api-openapi.yml
+  format: yaml
+  label: Nory Brands API
+  slug: nory-brands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/openapi/nory-brands-api-openapi.yml
+- filename: nory-employee-punch-api-openapi.yml
+  format: yaml
+  label: Nory Employee Punch API
+  slug: nory-employee-punch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/openapi/nory-employee-punch-api-openapi.yml
+- filename: nory-integration-api-openapi.yml
+  format: yaml
+  label: Nory Integration API
+  slug: nory-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/openapi/nory-integration-api-openapi.yml
+- filename: nory-inventory-api-openapi.yml
+  format: yaml
+  label: Nory Inventory API
+  slug: nory-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/openapi/nory-inventory-api-openapi.yml
+- filename: nory-inventory-orders-api-openapi.yml
+  format: yaml
+  label: Nory Inventory Orders API
+  slug: nory-inventory-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/openapi/nory-inventory-orders-api-openapi.yml
+- filename: nory-location-settings-api-openapi.yml
+  format: yaml
+  label: Nory Location Settings API
+  slug: nory-location-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/openapi/nory-location-settings-api-openapi.yml
+- filename: nory-refresh-token-api-openapi.yml
+  format: yaml
+  label: Nory Refresh token API
+  slug: nory-refresh-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/openapi/nory-refresh-token-api-openapi.yml
+- filename: nory-templates-api-openapi.yml
+  format: yaml
+  label: Nory Templates API
+  slug: nory-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/openapi/nory-templates-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

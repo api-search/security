@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: jentic-openapi.yml
+- filename: jentic-authentication-api-openapi.yml
   format: yaml
-  label: Jentic API
-  slug: jentic-api
+  label: Jentic Authentication API
+  slug: jentic-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jentic/refs/heads/main/openapi/jentic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jentic/refs/heads/main/openapi/jentic-authentication-api-openapi.yml
+- filename: jentic-execution-api-openapi.yml
+  format: yaml
+  label: Jentic Execution API
+  slug: jentic-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jentic/refs/heads/main/openapi/jentic-execution-api-openapi.yml
+- filename: jentic-search-api-openapi.yml
+  format: yaml
+  label: Jentic Search API
+  slug: jentic-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jentic/refs/heads/main/openapi/jentic-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

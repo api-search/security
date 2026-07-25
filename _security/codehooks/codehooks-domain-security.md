@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: codehooks-database-rest-api-openapi.yml
-  format: yaml
-  label: Codehooks Database REST API
-  slug: codehooks-database-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/openapi/codehooks-database-rest-api-openapi.yml
 - filename: codehooks-events-asyncapi.yml
   format: yaml
   label: Codehooks Events (AsyncAPI)
   slug: codehooks-events
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/asyncapi/codehooks-events-asyncapi.yml
+- filename: codehooks-documents-api-openapi.yml
+  format: yaml
+  label: Codehooks Documents API
+  slug: codehooks-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/openapi/codehooks-documents-api-openapi.yml
+- filename: codehooks-key-value-store-api-openapi.yml
+  format: yaml
+  label: Codehooks Key-Value Store API
+  slug: codehooks-key-value-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/openapi/codehooks-key-value-store-api-openapi.yml
+- filename: codehooks-queue-api-openapi.yml
+  format: yaml
+  label: Codehooks Queue API
+  slug: codehooks-queue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/openapi/codehooks-queue-api-openapi.yml
 description: ''
 domains:
 - caa:

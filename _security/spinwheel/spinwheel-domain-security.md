@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: spinwheel-openapi.yml
+- filename: spinwheel-bank-accounts-api-openapi.yml
+  format: yaml
+  label: Spinwheel Bank Accounts API
+  slug: spinwheel-bank-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-bank-accounts-api-openapi.yml
+- filename: spinwheel-credit-data-api-openapi.yml
   format: yaml
   label: Spinwheel Credit Data API
-  slug: credit-data
+  slug: spinwheel-credit-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-openapi.yml
-- filename: spinwheel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-credit-data-api-openapi.yml
+- filename: spinwheel-liabilities-api-openapi.yml
   format: yaml
-  label: Spinwheel Liabilities & Debt API
-  slug: liabilities-debt
+  label: Spinwheel Liabilities API
+  slug: spinwheel-liabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-openapi.yml
-- filename: spinwheel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-liabilities-api-openapi.yml
+- filename: spinwheel-payments-api-openapi.yml
   format: yaml
   label: Spinwheel Payments API
-  slug: payments
+  slug: spinwheel-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-openapi.yml
-- filename: spinwheel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-payments-api-openapi.yml
+- filename: spinwheel-reference-api-openapi.yml
   format: yaml
-  label: Spinwheel Users & Modules API
-  slug: users-modules
+  label: Spinwheel Reference API
+  slug: spinwheel-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-openapi.yml
-- filename: spinwheel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-reference-api-openapi.yml
+- filename: spinwheel-users-api-openapi.yml
+  format: yaml
+  label: Spinwheel Users API
+  slug: spinwheel-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-users-api-openapi.yml
+- filename: spinwheel-webhooks-api-openapi.yml
   format: yaml
   label: Spinwheel Webhooks API
-  slug: webhooks
+  slug: spinwheel-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

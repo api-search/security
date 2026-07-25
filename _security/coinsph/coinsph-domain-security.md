@@ -1,71 +1,161 @@
 ---
 api_specs:
-- filename: coinsph-account-openapi.json
-  format: json
-  label: Coins.ph Coins Pro — Account
-  slug: coinsph-coins-pro-account
+- filename: coinsph-account-api-openapi.yml
+  format: yaml
+  label: Coins.ph Account API
+  slug: coinsph-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-account-openapi.json
-- filename: coinsph-account-validation-openapi.json
-  format: json
-  label: Coins.ph Account Validation
-  slug: coinsph-account-validation
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-account-api-openapi.yml
+- filename: coinsph-account-validation-api-openapi.yml
+  format: yaml
+  label: Coins.ph Account Validation API
+  slug: coinsph-account-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-account-validation-openapi.json
-- filename: coinsph-convert-openapi.json
-  format: json
-  label: Coins.ph Coins Pro — Convert
-  slug: coinsph-coins-pro-convert
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-account-validation-api-openapi.yml
+- filename: coinsph-checkout-api-openapi.yml
+  format: yaml
+  label: Coins.ph Checkout API
+  slug: coinsph-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-convert-openapi.json
-- filename: coinsph-listenkey-openapi.json
-  format: json
-  label: Coins.ph Coins Pro — User Data Stream
-  slug: coinsph-coins-pro-user-data-stream
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-checkout-api-openapi.yml
+- filename: coinsph-checkout-refund-api-openapi.yml
+  format: yaml
+  label: Coins.ph Checkout Refund API
+  slug: coinsph-checkout-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-listenkey-openapi.json
-- filename: coinsph-markets-openapi.json
-  format: json
-  label: Coins.ph Coins Pro — Market Data
-  slug: coinsph-coins-pro-market-data
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-checkout-refund-api-openapi.yml
+- filename: coinsph-collections-crypto-api-openapi.yml
+  format: yaml
+  label: Coins.ph Collections - Crypto API
+  slug: coinsph-collections-crypto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-markets-openapi.json
-- filename: coinsph-payment-openapi.json
-  format: json
-  label: Coins.ph Payment / Partner Integration
-  slug: coinsph-payment-partner-integration
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-collections-crypto-api-openapi.yml
+- filename: coinsph-collections-qrph-api-openapi.yml
+  format: yaml
+  label: Coins.ph Collections - QRPH API
+  slug: coinsph-collections-qrph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-payment-openapi.json
-- filename: coinsph-ramp-openapi.json
-  format: json
-  label: Coins.ph ON/OFF Ramp
-  slug: coinsph-onoff-ramp
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-collections-qrph-api-openapi.yml
+- filename: coinsph-convert-api-openapi.yml
+  format: yaml
+  label: Coins.ph Convert API
+  slug: coinsph-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-ramp-openapi.json
-- filename: coinsph-spot-openapi.json
-  format: json
-  label: Coins.ph Coins Pro — Spot Trading
-  slug: coinsph-coins-pro-spot-trading
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-convert-api-openapi.yml
+- filename: coinsph-disbursements-api-openapi.yml
+  format: yaml
+  label: Coins.ph Disbursements API
+  slug: coinsph-disbursements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-spot-openapi.json
-- filename: coinsph-sub-account-openapi.json
-  format: json
-  label: Coins.ph Coins Pro — Sub-Account
-  slug: coinsph-coins-pro-sub-account
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-disbursements-api-openapi.yml
+- filename: coinsph-general-api-openapi.yml
+  format: yaml
+  label: Coins.ph General API
+  slug: coinsph-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-sub-account-openapi.json
-- filename: coinsph-system-openapi.json
-  format: json
-  label: Coins.ph Coins Pro — System
-  slug: coinsph-coins-pro-system
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-general-api-openapi.yml
+- filename: coinsph-listens-api-openapi.yml
+  format: yaml
+  label: Coins.ph Listens API
+  slug: coinsph-listens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-system-openapi.json
-- filename: coinsph-wallet-openapi.json
-  format: json
-  label: Coins.ph Coins Pro — Wallet
-  slug: coinsph-coins-pro-wallet
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-listens-api-openapi.yml
+- filename: coinsph-markets-api-openapi.yml
+  format: yaml
+  label: Coins.ph Markets API
+  slug: coinsph-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-wallet-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-markets-api-openapi.yml
+- filename: coinsph-on-off-ramp-api-openapi.yml
+  format: yaml
+  label: Coins.ph ON/OFF Ramp API
+  slug: coinsph-on-off-ramp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-on-off-ramp-api-openapi.yml
+- filename: coinsph-order-history-api-openapi.yml
+  format: yaml
+  label: Coins.ph Order History API
+  slug: coinsph-order-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-order-history-api-openapi.yml
+- filename: coinsph-ramp-callback-api-openapi.yml
+  format: yaml
+  label: Coins.ph Ramp Callback API
+  slug: coinsph-ramp-callback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-ramp-callback-api-openapi.yml
+- filename: coinsph-reconciliation-api-openapi.yml
+  format: yaml
+  label: Coins.ph Reconciliation API
+  slug: coinsph-reconciliation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-reconciliation-api-openapi.yml
+- filename: coinsph-refund-api-openapi.yml
+  format: yaml
+  label: Coins.ph Refund API
+  slug: coinsph-refund-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-refund-api-openapi.yml
+- filename: coinsph-scan-to-pay-api-openapi.yml
+  format: yaml
+  label: Coins.ph Scan to Pay API
+  slug: coinsph-scan-to-pay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-scan-to-pay-api-openapi.yml
+- filename: coinsph-spot-api-openapi.yml
+  format: yaml
+  label: Coins.ph Spot API
+  slug: coinsph-spot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-spot-api-openapi.yml
+- filename: coinsph-sub-account-api-openapi.yml
+  format: yaml
+  label: Coins.ph Sub Account API
+  slug: coinsph-sub-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-sub-account-api-openapi.yml
+- filename: coinsph-tokenized-checkout-api-openapi.yml
+  format: yaml
+  label: Coins.ph Tokenized Checkout API
+  slug: coinsph-tokenized-checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-tokenized-checkout-api-openapi.yml
+- filename: coinsph-trading-convert-api-openapi.yml
+  format: yaml
+  label: Coins.ph Trading - Convert API
+  slug: coinsph-trading-convert-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-trading-convert-api-openapi.yml
+- filename: coinsph-trading-otc-api-openapi.yml
+  format: yaml
+  label: Coins.ph Trading - OTC API
+  slug: coinsph-trading-otc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-trading-otc-api-openapi.yml
+- filename: coinsph-transfers-api-openapi.yml
+  format: yaml
+  label: Coins.ph Transfers API
+  slug: coinsph-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-transfers-api-openapi.yml
+- filename: coinsph-utility-api-openapi.yml
+  format: yaml
+  label: Coins.ph Utility API
+  slug: coinsph-utility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-utility-api-openapi.yml
+- filename: coinsph-virtual-account-api-openapi.yml
+  format: yaml
+  label: Coins.ph Virtual Account API
+  slug: coinsph-virtual-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-virtual-account-api-openapi.yml
+- filename: coinsph-wallet-api-openapi.yml
+  format: yaml
+  label: Coins.ph Wallet API
+  slug: coinsph-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-wallet-api-openapi.yml
 description: ''
 domains:
 - caa:

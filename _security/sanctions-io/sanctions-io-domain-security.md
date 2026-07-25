@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: sanctions-io-openapi.yml
-  format: yaml
-  label: sanctions.io Screening API
-  slug: sanctions-io-screening-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-openapi.yml
-- filename: sanctions-io-openapi.yml
-  format: yaml
-  label: sanctions.io Batch Screening API
-  slug: sanctions-io-batch-screening-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-openapi.yml
-- filename: sanctions-io-openapi.yml
-  format: yaml
-  label: sanctions.io Adverse Media API
-  slug: sanctions-io-adverse-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-openapi.yml
-- filename: sanctions-io-openapi.yml
-  format: yaml
-  label: sanctions.io Data Sources API
-  slug: sanctions-io-data-sources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-openapi.yml
-- filename: sanctions-io-openapi.yml
-  format: yaml
-  label: sanctions.io Monitoring API
-  slug: sanctions-io-monitoring-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-openapi.yml
-- filename: sanctions-io-openapi.yml
+- filename: sanctions-io-account-management-api-openapi.yml
   format: yaml
   label: sanctions.io Account Management API
   slug: sanctions-io-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-account-management-api-openapi.yml
+- filename: sanctions-io-adverse-media-api-openapi.yml
+  format: yaml
+  label: sanctions.io Adverse Media API
+  slug: sanctions-io-adverse-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-adverse-media-api-openapi.yml
+- filename: sanctions-io-batch-screening-api-openapi.yml
+  format: yaml
+  label: sanctions.io Batch Screening API
+  slug: sanctions-io-batch-screening-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-batch-screening-api-openapi.yml
+- filename: sanctions-io-data-sources-api-openapi.yml
+  format: yaml
+  label: sanctions.io Data Sources API
+  slug: sanctions-io-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-data-sources-api-openapi.yml
+- filename: sanctions-io-monitoring-api-openapi.yml
+  format: yaml
+  label: sanctions.io Monitoring API
+  slug: sanctions-io-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-monitoring-api-openapi.yml
+- filename: sanctions-io-screening-api-openapi.yml
+  format: yaml
+  label: sanctions.io Screening API
+  slug: sanctions-io-screening-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-screening-api-openapi.yml
 description: ''
 domains:
 - caa:

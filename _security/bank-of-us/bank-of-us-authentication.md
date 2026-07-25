@@ -1,36 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: bank-of-us-cds-banking-products-openapi.yml
+- filename: bank-of-us-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Bank of us CDR Product Reference Data API
-  slug: bank-of-us-cdr-product-reference-data-api
+  label: Bank of us Banking Account Balances API
+  slug: bank-of-us-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/openapi/bank-of-us-cds-banking-products-openapi.yml
-- filename: bank-of-us-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/openapi/bank-of-us-banking-account-balances-api-openapi.yml
+- filename: bank-of-us-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Bank of us CDR Accounts & Balances API
-  slug: bank-of-us-cdr-accounts-balances-api
+  label: Bank of us Banking Account Direct Debits API
+  slug: bank-of-us-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/openapi/bank-of-us-cds-banking-products-openapi.yml
-- filename: bank-of-us-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/openapi/bank-of-us-banking-account-direct-debits-api-openapi.yml
+- filename: bank-of-us-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Bank of us CDR Transactions API
-  slug: bank-of-us-cdr-transactions-api
+  label: Bank of us Banking Account Scheduled Payments API
+  slug: bank-of-us-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/openapi/bank-of-us-cds-banking-products-openapi.yml
-- filename: bank-of-us-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/openapi/bank-of-us-banking-account-scheduled-payments-api-openapi.yml
+- filename: bank-of-us-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Bank of us CDR Direct Debits & Scheduled Payments API
-  slug: bank-of-us-cdr-direct-debits-scheduled-payments-api
+  label: Bank of us Banking Account Transactions API
+  slug: bank-of-us-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/openapi/bank-of-us-cds-banking-products-openapi.yml
-- filename: bank-of-us-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/openapi/bank-of-us-banking-account-transactions-api-openapi.yml
+- filename: bank-of-us-banking-accounts-api-openapi.yml
   format: yaml
-  label: Bank of us CDR Payees API
-  slug: bank-of-us-cdr-payees-api
+  label: Bank of us Banking Accounts API
+  slug: bank-of-us-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/openapi/bank-of-us-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/openapi/bank-of-us-banking-accounts-api-openapi.yml
+- filename: bank-of-us-banking-payees-api-openapi.yml
+  format: yaml
+  label: Bank of us Banking Payees API
+  slug: bank-of-us-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/openapi/bank-of-us-banking-payees-api-openapi.yml
+- filename: bank-of-us-banking-products-api-openapi.yml
+  format: yaml
+  label: Bank of us Banking Products API
+  slug: bank-of-us-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/openapi/bank-of-us-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2

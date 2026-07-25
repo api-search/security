@@ -1,48 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi-general-ledger.yaml
+- filename: oracle-financials-budgetary-control-api-openapi.yml
   format: yaml
-  label: Oracle Financials General Ledger API
-  slug: oracle-financials-general-ledger-api
+  label: Oracle Financials Budgetary Control API
+  slug: oracle-financials-budgetary-control-api
   spec_type: OpenAPI
-  url: https://docs.oracle.com/en/cloud/saas/financials/23r3/farfa/openapi-general-ledger.yaml
-- filename: openapi-payables.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-budgetary-control-api-openapi.yml
+- filename: oracle-financials-chart-of-accounts-api-openapi.yml
   format: yaml
-  label: Oracle Financials Accounts Payable API
-  slug: oracle-financials-accounts-payable-api
+  label: Oracle Financials Chart of Accounts API
+  slug: oracle-financials-chart-of-accounts-api
   spec_type: OpenAPI
-  url: https://docs.oracle.com/en/cloud/saas/financials/23r3/farfa/openapi-payables.yaml
-- filename: openapi-receivables.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-chart-of-accounts-api-openapi.yml
+- filename: oracle-financials-currency-rates-api-openapi.yml
   format: yaml
-  label: Oracle Financials Accounts Receivable API
-  slug: oracle-financials-accounts-receivable-api
+  label: Oracle Financials Currency Rates API
+  slug: oracle-financials-currency-rates-api
   spec_type: OpenAPI
-  url: https://docs.oracle.com/en/cloud/saas/financials/23r3/farfa/openapi-receivables.yaml
-- filename: openapi-cash-management.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-currency-rates-api-openapi.yml
+- filename: oracle-financials-journal-batches-api-openapi.yml
   format: yaml
-  label: Oracle Financials Cash Management API
-  slug: oracle-financials-cash-management-api
+  label: Oracle Financials Journal Batches API
+  slug: oracle-financials-journal-batches-api
   spec_type: OpenAPI
-  url: https://docs.oracle.com/en/cloud/saas/financials/23r3/farfa/openapi-cash-management.yaml
-- filename: openapi-expenses.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-journal-batches-api-openapi.yml
+- filename: oracle-financials-ledger-balances-api-openapi.yml
   format: yaml
-  label: Oracle Financials Expense Management API
-  slug: oracle-financials-expense-management-api
+  label: Oracle Financials Ledger Balances API
+  slug: oracle-financials-ledger-balances-api
   spec_type: OpenAPI
-  url: https://docs.oracle.com/en/cloud/saas/financials/23r3/farfa/openapi-expenses.yaml
-- filename: openapi-fixed-assets.yaml
-  format: yaml
-  label: Oracle Financials Fixed Assets API
-  slug: oracle-financials-fixed-assets-api
-  spec_type: OpenAPI
-  url: https://docs.oracle.com/en/cloud/saas/financials/23r3/farfa/openapi-fixed-assets.yaml
-- filename: openapi-reporting.yaml
-  format: yaml
-  label: Oracle Financial Reporting API
-  slug: oracle-financial-reporting-api
-  spec_type: OpenAPI
-  url: https://docs.oracle.com/en/cloud/saas/financials/23r3/farfa/openapi-reporting.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-ledger-balances-api-openapi.yml
 auth_types:
 - http
 description: ''

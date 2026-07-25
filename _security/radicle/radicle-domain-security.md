@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: radicle-httpd-openapi.yml
+- filename: radicle-issues-api-openapi.yml
   format: yaml
-  label: Radicle HTTP API
-  slug: radicle-http-api
+  label: Radicle Issues API
+  slug: radicle-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radicle/refs/heads/main/openapi/radicle-httpd-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/radicle/refs/heads/main/openapi/radicle-issues-api-openapi.yml
+- filename: radicle-node-api-openapi.yml
+  format: yaml
+  label: Radicle Node API
+  slug: radicle-node-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radicle/refs/heads/main/openapi/radicle-node-api-openapi.yml
+- filename: radicle-patches-api-openapi.yml
+  format: yaml
+  label: Radicle Patches API
+  slug: radicle-patches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radicle/refs/heads/main/openapi/radicle-patches-api-openapi.yml
+- filename: radicle-repositories-api-openapi.yml
+  format: yaml
+  label: Radicle Repositories API
+  slug: radicle-repositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radicle/refs/heads/main/openapi/radicle-repositories-api-openapi.yml
+- filename: radicle-service-api-openapi.yml
+  format: yaml
+  label: Radicle Service API
+  slug: radicle-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radicle/refs/heads/main/openapi/radicle-service-api-openapi.yml
+- filename: radicle-source-api-openapi.yml
+  format: yaml
+  label: Radicle Source API
+  slug: radicle-source-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radicle/refs/heads/main/openapi/radicle-source-api-openapi.yml
+- filename: radicle-stats-api-openapi.yml
+  format: yaml
+  label: Radicle Stats API
+  slug: radicle-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radicle/refs/heads/main/openapi/radicle-stats-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,48 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: qase-openapi.yml
+- filename: qase-cases-api-openapi.yml
   format: yaml
-  label: Qase Test Runs API
-  slug: qase-test-runs-api
+  label: Qase cases API
+  slug: qase-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-openapi.yml
-- filename: qase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-cases-api-openapi.yml
+- filename: qase-defects-api-openapi.yml
   format: yaml
-  label: Qase Test Results API
-  slug: qase-test-results-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-openapi.yml
-- filename: qase-openapi.yml
-  format: yaml
-  label: Qase Test Cases API
-  slug: qase-test-cases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-openapi.yml
-- filename: qase-openapi.yml
-  format: yaml
-  label: Qase Test Suites API
-  slug: qase-test-suites-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-openapi.yml
-- filename: qase-openapi.yml
-  format: yaml
-  label: Qase Projects API
-  slug: qase-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-openapi.yml
-- filename: qase-openapi.yml
-  format: yaml
-  label: Qase Defects API
+  label: Qase defects API
   slug: qase-defects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-openapi.yml
-- filename: qase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-defects-api-openapi.yml
+- filename: qase-plans-api-openapi.yml
   format: yaml
-  label: Qase Test Plans API
-  slug: qase-test-plans-api
+  label: Qase plans API
+  slug: qase-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-plans-api-openapi.yml
+- filename: qase-projects-api-openapi.yml
+  format: yaml
+  label: Qase projects API
+  slug: qase-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-projects-api-openapi.yml
+- filename: qase-results-api-openapi.yml
+  format: yaml
+  label: Qase results API
+  slug: qase-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-results-api-openapi.yml
+- filename: qase-runs-api-openapi.yml
+  format: yaml
+  label: Qase runs API
+  slug: qase-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-runs-api-openapi.yml
+- filename: qase-suites-api-openapi.yml
+  format: yaml
+  label: Qase suites API
+  slug: qase-suites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-suites-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

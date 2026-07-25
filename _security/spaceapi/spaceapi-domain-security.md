@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: SpaceAPI Collector
-  slug: spaceapi-collector
+- filename: spaceapi-directory-api-openapi.yml
+  format: yaml
+  label: SpaceAPI Directory API
+  slug: spaceapi-directory-api
   spec_type: OpenAPI
-  url: https://api.spaceapi.io/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/spaceapi/refs/heads/main/openapi/spaceapi-directory-api-openapi.yml
 description: ''
 domains:
 - caa: []

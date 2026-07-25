@@ -2,12 +2,42 @@
 api_key_in:
 - query
 api_specs:
-- filename: gengo-openapi.yml
+- filename: gengo-account-api-openapi.yml
   format: yaml
-  label: Gengo API
-  slug: gengo-api
+  label: Gengo Account API
+  slug: gengo-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/openapi/gengo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/openapi/gengo-account-api-openapi.yml
+- filename: gengo-glossary-api-openapi.yml
+  format: yaml
+  label: Gengo Glossary API
+  slug: gengo-glossary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/openapi/gengo-glossary-api-openapi.yml
+- filename: gengo-job-api-openapi.yml
+  format: yaml
+  label: Gengo Job API
+  slug: gengo-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/openapi/gengo-job-api-openapi.yml
+- filename: gengo-jobs-api-openapi.yml
+  format: yaml
+  label: Gengo Jobs API
+  slug: gengo-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/openapi/gengo-jobs-api-openapi.yml
+- filename: gengo-order-api-openapi.yml
+  format: yaml
+  label: Gengo Order API
+  slug: gengo-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/openapi/gengo-order-api-openapi.yml
+- filename: gengo-service-api-openapi.yml
+  format: yaml
+  label: Gengo Service API
+  slug: gengo-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/openapi/gengo-service-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

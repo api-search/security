@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: renesas-web-data-openapi-original.yml
+- filename: renesas-board-kit-api-openapi.yml
   format: yaml
-  label: Renesas Web Data API
-  slug: renesas-web-data-api
+  label: Renesas Board & Kit API
+  slug: renesas-board-kit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/openapi/renesas-web-data-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/openapi/renesas-board-kit-api-openapi.yml
+- filename: renesas-document-api-openapi.yml
+  format: yaml
+  label: Renesas Document API
+  slug: renesas-document-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/openapi/renesas-document-api-openapi.yml
+- filename: renesas-package-api-openapi.yml
+  format: yaml
+  label: Renesas Package API
+  slug: renesas-package-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/openapi/renesas-package-api-openapi.yml
+- filename: renesas-product-api-openapi.yml
+  format: yaml
+  label: Renesas Product API
+  slug: renesas-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/openapi/renesas-product-api-openapi.yml
+- filename: renesas-product-part-api-openapi.yml
+  format: yaml
+  label: Renesas Product Part API
+  slug: renesas-product-part-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/openapi/renesas-product-part-api-openapi.yml
+- filename: renesas-software-tool-api-openapi.yml
+  format: yaml
+  label: Renesas Software Tool API
+  slug: renesas-software-tool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/openapi/renesas-software-tool-api-openapi.yml
 description: ''
 domains:
 - caa: []

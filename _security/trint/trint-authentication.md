@@ -1,42 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: trint-openapi.yml
-  format: yaml
-  label: Trint Upload and Transcribe API
-  slug: trint-upload-transcribe-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-openapi.yml
-- filename: trint-openapi.yml
-  format: yaml
-  label: Trint Transcripts and Files API
-  slug: trint-transcripts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-openapi.yml
-- filename: trint-openapi.yml
+- filename: trint-export-api-openapi.yml
   format: yaml
   label: Trint Export API
   slug: trint-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-openapi.yml
-- filename: trint-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-export-api-openapi.yml
+- filename: trint-realtime-api-openapi.yml
+  format: yaml
+  label: Trint Realtime API
+  slug: trint-realtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-realtime-api-openapi.yml
+- filename: trint-transcripts-and-files-api-openapi.yml
+  format: yaml
+  label: Trint Transcripts and Files API
+  slug: trint-transcripts-and-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-transcripts-and-files-api-openapi.yml
+- filename: trint-translations-api-openapi.yml
   format: yaml
   label: Trint Translations API
   slug: trint-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-openapi.yml
-- filename: trint-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-translations-api-openapi.yml
+- filename: trint-upload-and-transcribe-api-openapi.yml
   format: yaml
-  label: Trint Realtime Transcription API
-  slug: trint-realtime-transcription-api
+  label: Trint Upload and Transcribe API
+  slug: trint-upload-and-transcribe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-openapi.yml
-- filename: trint-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-upload-and-transcribe-api-openapi.yml
+- filename: trint-webhooks-api-openapi.yml
   format: yaml
   label: Trint Webhooks API
   slug: trint-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-webhooks-api-openapi.yml
 auth_types:
 - http
 - apiKey

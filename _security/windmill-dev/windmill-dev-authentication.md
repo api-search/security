@@ -2,96 +2,96 @@
 api_key_in:
 - cookie
 api_specs:
-- filename: windmill-dev-openapi.yml
-  format: yaml
-  label: Windmill Scripts API
-  slug: windmill-dev-scripts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-openapi.yml
-- filename: windmill-dev-openapi.yml
-  format: yaml
-  label: Windmill Flows API
-  slug: windmill-dev-flows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-openapi.yml
-- filename: windmill-dev-openapi.yml
+- filename: windmill-dev-apps-api-openapi.yml
   format: yaml
   label: Windmill Apps API
   slug: windmill-dev-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-openapi.yml
-- filename: windmill-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-apps-api-openapi.yml
+- filename: windmill-dev-audit-api-openapi.yml
   format: yaml
-  label: Windmill Jobs API
-  slug: windmill-dev-jobs-api
+  label: Windmill Audit API
+  slug: windmill-dev-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-openapi.yml
-- filename: windmill-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-audit-api-openapi.yml
+- filename: windmill-dev-flows-api-openapi.yml
   format: yaml
-  label: Windmill Schedules API
-  slug: windmill-dev-schedules-api
+  label: Windmill Flows API
+  slug: windmill-dev-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-openapi.yml
-- filename: windmill-dev-openapi.yml
-  format: yaml
-  label: Windmill Variables API
-  slug: windmill-dev-variables-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-openapi.yml
-- filename: windmill-dev-openapi.yml
-  format: yaml
-  label: Windmill Resources API
-  slug: windmill-dev-resources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-openapi.yml
-- filename: windmill-dev-openapi.yml
-  format: yaml
-  label: Windmill Workspaces API
-  slug: windmill-dev-workspaces-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-openapi.yml
-- filename: windmill-dev-openapi.yml
-  format: yaml
-  label: Windmill Users API
-  slug: windmill-dev-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-openapi.yml
-- filename: windmill-dev-openapi.yml
-  format: yaml
-  label: Windmill Groups API
-  slug: windmill-dev-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-openapi.yml
-- filename: windmill-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-flows-api-openapi.yml
+- filename: windmill-dev-folders-api-openapi.yml
   format: yaml
   label: Windmill Folders API
   slug: windmill-dev-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-openapi.yml
-- filename: windmill-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-folders-api-openapi.yml
+- filename: windmill-dev-groups-api-openapi.yml
   format: yaml
-  label: Windmill Audit Logs API
-  slug: windmill-dev-audit-api
+  label: Windmill Groups API
+  slug: windmill-dev-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-openapi.yml
-- filename: windmill-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-groups-api-openapi.yml
+- filename: windmill-dev-jobs-api-openapi.yml
   format: yaml
-  label: Windmill Workers API
-  slug: windmill-dev-workers-api
+  label: Windmill Jobs API
+  slug: windmill-dev-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-openapi.yml
-- filename: windmill-dev-openapi.yml
-  format: yaml
-  label: Windmill Triggers API
-  slug: windmill-dev-triggers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-openapi.yml
-- filename: windmill-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-jobs-api-openapi.yml
+- filename: windmill-dev-oidc-api-openapi.yml
   format: yaml
   label: Windmill OIDC API
   slug: windmill-dev-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-oidc-api-openapi.yml
+- filename: windmill-dev-resources-api-openapi.yml
+  format: yaml
+  label: Windmill Resources API
+  slug: windmill-dev-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-resources-api-openapi.yml
+- filename: windmill-dev-schedules-api-openapi.yml
+  format: yaml
+  label: Windmill Schedules API
+  slug: windmill-dev-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-schedules-api-openapi.yml
+- filename: windmill-dev-scripts-api-openapi.yml
+  format: yaml
+  label: Windmill Scripts API
+  slug: windmill-dev-scripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-scripts-api-openapi.yml
+- filename: windmill-dev-triggers-api-openapi.yml
+  format: yaml
+  label: Windmill Triggers API
+  slug: windmill-dev-triggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-triggers-api-openapi.yml
+- filename: windmill-dev-users-api-openapi.yml
+  format: yaml
+  label: Windmill Users API
+  slug: windmill-dev-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-users-api-openapi.yml
+- filename: windmill-dev-variables-api-openapi.yml
+  format: yaml
+  label: Windmill Variables API
+  slug: windmill-dev-variables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-variables-api-openapi.yml
+- filename: windmill-dev-workers-api-openapi.yml
+  format: yaml
+  label: Windmill Workers API
+  slug: windmill-dev-workers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-workers-api-openapi.yml
+- filename: windmill-dev-workspaces-api-openapi.yml
+  format: yaml
+  label: Windmill Workspaces API
+  slug: windmill-dev-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/openapi/windmill-dev-workspaces-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: motion-elements-openapi.yml
+- filename: motion-elements-account-api-openapi.yml
   format: yaml
-  label: MotionElements Marketplace API
-  slug: motion-elements-marketplace-api
+  label: Motion Elements Account API
+  slug: motion-elements-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/openapi/motion-elements-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/openapi/motion-elements-account-api-openapi.yml
+- filename: motion-elements-elements-api-openapi.yml
+  format: yaml
+  label: Motion Elements Elements API
+  slug: motion-elements-elements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/openapi/motion-elements-elements-api-openapi.yml
+- filename: motion-elements-media-types-api-openapi.yml
+  format: yaml
+  label: Motion Elements Media types API
+  slug: motion-elements-media-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/openapi/motion-elements-media-types-api-openapi.yml
+- filename: motion-elements-search-api-openapi.yml
+  format: yaml
+  label: Motion Elements Search API
+  slug: motion-elements-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/openapi/motion-elements-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

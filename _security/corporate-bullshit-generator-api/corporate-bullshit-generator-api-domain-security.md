@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: corporate-bullshit-generator-api-openapi.yml
+- filename: corporate-bullshit-generator-api-phrases-api-openapi.yml
   format: yaml
-  label: Corporate Bullshit Generator API
-  slug: cbsg-api
+  label: Corporate Bullshit Generator API Phrases API
+  slug: corporate-bullshit-generator-api-phrases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corporate-bullshit-generator-api/refs/heads/main/openapi/corporate-bullshit-generator-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/corporate-bullshit-generator-api/refs/heads/main/openapi/corporate-bullshit-generator-api-phrases-api-openapi.yml
 description: ''
 domains:
 - caa:

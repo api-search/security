@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: apache-bookkeeper-admin-openapi.yaml
+- filename: apache-bookkeeper-auto-recovery-api-openapi.yml
   format: yaml
-  label: Apache BookKeeper Admin API
-  slug: apache-bookkeeper-admin-api
+  label: Apache BookKeeper Auto Recovery API
+  slug: apache-bookkeeper-auto-recovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/openapi/apache-bookkeeper-admin-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/openapi/apache-bookkeeper-auto-recovery-api-openapi.yml
+- filename: apache-bookkeeper-bookies-api-openapi.yml
+  format: yaml
+  label: Apache BookKeeper Bookies API
+  slug: apache-bookkeeper-bookies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/openapi/apache-bookkeeper-bookies-api-openapi.yml
+- filename: apache-bookkeeper-configuration-api-openapi.yml
+  format: yaml
+  label: Apache BookKeeper Configuration API
+  slug: apache-bookkeeper-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/openapi/apache-bookkeeper-configuration-api-openapi.yml
+- filename: apache-bookkeeper-ledgers-api-openapi.yml
+  format: yaml
+  label: Apache BookKeeper Ledgers API
+  slug: apache-bookkeeper-ledgers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/openapi/apache-bookkeeper-ledgers-api-openapi.yml
+- filename: apache-bookkeeper-monitoring-api-openapi.yml
+  format: yaml
+  label: Apache BookKeeper Monitoring API
+  slug: apache-bookkeeper-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/openapi/apache-bookkeeper-monitoring-api-openapi.yml
 description: ''
 domains:
 - caa:

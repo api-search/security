@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: yelp-openapi.yml
+- filename: yelp-ai-api-openapi.yml
   format: yaml
-  label: Yelp Fusion API
-  slug: yelp-fusion
+  label: Yelp AI API
+  slug: yelp-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/openapi/yelp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/openapi/yelp-ai-api-openapi.yml
+- filename: yelp-businesses-api-openapi.yml
+  format: yaml
+  label: Yelp Businesses API
+  slug: yelp-businesses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/openapi/yelp-businesses-api-openapi.yml
+- filename: yelp-categories-api-openapi.yml
+  format: yaml
+  label: Yelp Categories API
+  slug: yelp-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/openapi/yelp-categories-api-openapi.yml
+- filename: yelp-events-api-openapi.yml
+  format: yaml
+  label: Yelp Events API
+  slug: yelp-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/openapi/yelp-events-api-openapi.yml
+- filename: yelp-reviews-api-openapi.yml
+  format: yaml
+  label: Yelp Reviews API
+  slug: yelp-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/openapi/yelp-reviews-api-openapi.yml
 auth_types:
 - http
 description: ''

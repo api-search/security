@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: athina-openapi.yml
+- filename: athina-datasets-api-openapi.yml
   format: yaml
-  label: Athina Logging & Inferences API
-  slug: athina-logging-inferences-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athina/refs/heads/main/openapi/athina-openapi.yml
-- filename: athina-openapi.yml
-  format: yaml
-  label: Athina Datasets API
+  label: Athina AI Datasets API
   slug: athina-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athina/refs/heads/main/openapi/athina-openapi.yml
-- filename: athina-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/athina/refs/heads/main/openapi/athina-datasets-api-openapi.yml
+- filename: athina-evaluations-api-openapi.yml
   format: yaml
-  label: Athina Evaluations API
+  label: Athina AI Evaluations API
   slug: athina-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athina/refs/heads/main/openapi/athina-openapi.yml
-- filename: athina-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/athina/refs/heads/main/openapi/athina-evaluations-api-openapi.yml
+- filename: athina-logging-api-openapi.yml
   format: yaml
-  label: Athina Prompts API
+  label: Athina AI Logging API
+  slug: athina-logging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athina/refs/heads/main/openapi/athina-logging-api-openapi.yml
+- filename: athina-prompts-api-openapi.yml
+  format: yaml
+  label: Athina AI Prompts API
   slug: athina-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athina/refs/heads/main/openapi/athina-openapi.yml
-- filename: athina-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/athina/refs/heads/main/openapi/athina-prompts-api-openapi.yml
+- filename: athina-tracing-api-openapi.yml
   format: yaml
-  label: Athina Experiments API
-  slug: athina-experiments-api
+  label: Athina AI Tracing API
+  slug: athina-tracing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athina/refs/heads/main/openapi/athina-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/athina/refs/heads/main/openapi/athina-tracing-api-openapi.yml
 description: ''
 domains:
 - caa: []

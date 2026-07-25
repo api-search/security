@@ -1,66 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: rest
+- filename: gcp-disks-api-openapi.yml
   format: yaml
-  label: Compute Engine API
-  slug: compute-engine
+  label: Google Cloud Platform APIs Disks API
+  slug: gcp-disks-api
   spec_type: OpenAPI
-  url: https://compute.googleapis.com/$discovery/rest?version=v1
-- filename: rest
+  url: https://raw.githubusercontent.com/api-evangelist/gcp/refs/heads/main/openapi/gcp-disks-api-openapi.yml
+- filename: gcp-firewalls-api-openapi.yml
   format: yaml
-  label: Cloud Storage API
-  slug: cloud-storage
+  label: Google Cloud Platform APIs Firewalls API
+  slug: gcp-firewalls-api
   spec_type: OpenAPI
-  url: https://storage.googleapis.com/$discovery/rest?version=v1
-- filename: rest
+  url: https://raw.githubusercontent.com/api-evangelist/gcp/refs/heads/main/openapi/gcp-firewalls-api-openapi.yml
+- filename: gcp-images-api-openapi.yml
   format: yaml
-  label: Cloud Functions API
-  slug: cloud-functions
+  label: Google Cloud Platform APIs Images API
+  slug: gcp-images-api
   spec_type: OpenAPI
-  url: https://cloudfunctions.googleapis.com/$discovery/rest?version=v1
-- filename: rest
+  url: https://raw.githubusercontent.com/api-evangelist/gcp/refs/heads/main/openapi/gcp-images-api-openapi.yml
+- filename: gcp-instances-api-openapi.yml
   format: yaml
-  label: Cloud Pub/Sub API
-  slug: cloud-pubsub
+  label: Google Cloud Platform APIs Instances API
+  slug: gcp-instances-api
   spec_type: OpenAPI
-  url: https://pubsub.googleapis.com/$discovery/rest?version=v1
-- filename: rest
+  url: https://raw.githubusercontent.com/api-evangelist/gcp/refs/heads/main/openapi/gcp-instances-api-openapi.yml
+- filename: gcp-machinetypes-api-openapi.yml
   format: yaml
-  label: BigQuery API
-  slug: bigquery
+  label: Google Cloud Platform APIs MachineTypes API
+  slug: gcp-machinetypes-api
   spec_type: OpenAPI
-  url: https://bigquery.googleapis.com/$discovery/rest?version=v2
-- filename: rest
+  url: https://raw.githubusercontent.com/api-evangelist/gcp/refs/heads/main/openapi/gcp-machinetypes-api-openapi.yml
+- filename: gcp-networks-api-openapi.yml
   format: yaml
-  label: Cloud Vision API
-  slug: cloud-vision
+  label: Google Cloud Platform APIs Networks API
+  slug: gcp-networks-api
   spec_type: OpenAPI
-  url: https://vision.googleapis.com/$discovery/rest?version=v1
-- filename: rest
+  url: https://raw.githubusercontent.com/api-evangelist/gcp/refs/heads/main/openapi/gcp-networks-api-openapi.yml
+- filename: gcp-snapshots-api-openapi.yml
   format: yaml
-  label: Cloud Natural Language API
-  slug: cloud-natural-language
+  label: Google Cloud Platform APIs Snapshots API
+  slug: gcp-snapshots-api
   spec_type: OpenAPI
-  url: https://language.googleapis.com/$discovery/rest?version=v1
-- filename: rest
-  format: yaml
-  label: Kubernetes Engine API
-  slug: kubernetes-engine
-  spec_type: OpenAPI
-  url: https://container.googleapis.com/$discovery/rest?version=v1
-- filename: rest
-  format: yaml
-  label: Cloud SQL Admin API
-  slug: cloud-sql
-  spec_type: OpenAPI
-  url: https://sqladmin.googleapis.com/$discovery/rest?version=v1
-- filename: rest
-  format: yaml
-  label: Cloud Firestore API
-  slug: cloud-firestore
-  spec_type: OpenAPI
-  url: https://firestore.googleapis.com/$discovery/rest?version=v1
+  url: https://raw.githubusercontent.com/api-evangelist/gcp/refs/heads/main/openapi/gcp-snapshots-api-openapi.yml
 auth_types:
 - http
 - oauth2

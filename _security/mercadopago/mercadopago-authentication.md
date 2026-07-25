@@ -1,5 +1,24 @@
 ---
 api_key_in: []
+api_specs:
+- filename: mercadopago-payments-api-openapi.yml
+  format: yaml
+  label: Mercado Pago Payments API
+  slug: mercadopago-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercadopago/refs/heads/main/openapi/mercadopago-payments-api-openapi.yml
+- filename: mercadopago-preferences-api-openapi.yml
+  format: yaml
+  label: Mercado Pago Preferences API
+  slug: mercadopago-preferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercadopago/refs/heads/main/openapi/mercadopago-preferences-api-openapi.yml
+- filename: mercadopago-subscriptions-api-openapi.yml
+  format: yaml
+  label: Mercado Pago Subscriptions API
+  slug: mercadopago-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercadopago/refs/heads/main/openapi/mercadopago-subscriptions-api-openapi.yml
 auth_types:
 - http
 description: ''

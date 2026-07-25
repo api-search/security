@@ -1,59 +1,77 @@
 ---
 api_specs:
-- filename: fourthwall-openapi.yml
+- filename: fourthwall-collections-api-openapi.yml
   format: yaml
-  label: Fourthwall Storefront Products API
-  slug: fourthwall-storefront-products-api
+  label: Fourthwall Collections API
+  slug: fourthwall-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-openapi.yml
-- filename: fourthwall-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-collections-api-openapi.yml
+- filename: fourthwall-gifting-api-openapi.yml
   format: yaml
-  label: Fourthwall Storefront Collections API
-  slug: fourthwall-storefront-collections-api
+  label: Fourthwall Gifting API
+  slug: fourthwall-gifting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-openapi.yml
-- filename: fourthwall-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-gifting-api-openapi.yml
+- filename: fourthwall-giveaways-api-openapi.yml
   format: yaml
-  label: Fourthwall Storefront Cart & Checkout API
-  slug: fourthwall-storefront-cart-checkout-api
+  label: Fourthwall Giveaways API
+  slug: fourthwall-giveaways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-openapi.yml
-- filename: fourthwall-openapi.yml
-  format: yaml
-  label: Fourthwall Orders API
-  slug: fourthwall-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-openapi.yml
-- filename: fourthwall-openapi.yml
-  format: yaml
-  label: Fourthwall Products API
-  slug: fourthwall-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-openapi.yml
-- filename: fourthwall-openapi.yml
-  format: yaml
-  label: Fourthwall Gifting & Giveaways API
-  slug: fourthwall-gifting-giveaways-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-openapi.yml
-- filename: fourthwall-openapi.yml
-  format: yaml
-  label: Fourthwall Promotions API
-  slug: fourthwall-promotions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-openapi.yml
-- filename: fourthwall-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-giveaways-api-openapi.yml
+- filename: fourthwall-memberships-api-openapi.yml
   format: yaml
   label: Fourthwall Memberships API
   slug: fourthwall-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-openapi.yml
-- filename: fourthwall-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-memberships-api-openapi.yml
+- filename: fourthwall-orders-api-openapi.yml
+  format: yaml
+  label: Fourthwall Orders API
+  slug: fourthwall-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-orders-api-openapi.yml
+- filename: fourthwall-products-api-openapi.yml
+  format: yaml
+  label: Fourthwall Products API
+  slug: fourthwall-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-products-api-openapi.yml
+- filename: fourthwall-promotions-api-openapi.yml
+  format: yaml
+  label: Fourthwall Promotions API
+  slug: fourthwall-promotions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-promotions-api-openapi.yml
+- filename: fourthwall-storefront-carts-api-openapi.yml
+  format: yaml
+  label: Fourthwall Storefront Carts API
+  slug: fourthwall-storefront-carts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-storefront-carts-api-openapi.yml
+- filename: fourthwall-storefront-collections-api-openapi.yml
+  format: yaml
+  label: Fourthwall Storefront Collections API
+  slug: fourthwall-storefront-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-storefront-collections-api-openapi.yml
+- filename: fourthwall-storefront-products-api-openapi.yml
+  format: yaml
+  label: Fourthwall Storefront Products API
+  slug: fourthwall-storefront-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-storefront-products-api-openapi.yml
+- filename: fourthwall-storefront-shop-api-openapi.yml
+  format: yaml
+  label: Fourthwall Storefront Shop API
+  slug: fourthwall-storefront-shop-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-storefront-shop-api-openapi.yml
+- filename: fourthwall-webhooks-api-openapi.yml
   format: yaml
   label: Fourthwall Webhooks API
   slug: fourthwall-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

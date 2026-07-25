@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: stainless-api-openapi.yml
+- filename: stainless-api-build-target-outputs-api-openapi.yml
   format: yaml
-  label: Stainless Platform API
-  slug: stainless-platform-api
+  label: Stainless Build Target Outputs API
+  slug: stainless-api-build-target-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stainless-api/refs/heads/main/openapi/stainless-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stainless-api/refs/heads/main/openapi/stainless-api-build-target-outputs-api-openapi.yml
+- filename: stainless-api-builds-api-openapi.yml
+  format: yaml
+  label: Stainless Builds API
+  slug: stainless-api-builds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stainless-api/refs/heads/main/openapi/stainless-api-builds-api-openapi.yml
+- filename: stainless-api-orgs-api-openapi.yml
+  format: yaml
+  label: Stainless Orgs API
+  slug: stainless-api-orgs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stainless-api/refs/heads/main/openapi/stainless-api-orgs-api-openapi.yml
+- filename: stainless-api-projects-api-openapi.yml
+  format: yaml
+  label: Stainless Projects API
+  slug: stainless-api-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stainless-api/refs/heads/main/openapi/stainless-api-projects-api-openapi.yml
+- filename: stainless-api-user-api-openapi.yml
+  format: yaml
+  label: Stainless User API
+  slug: stainless-api-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stainless-api/refs/heads/main/openapi/stainless-api-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

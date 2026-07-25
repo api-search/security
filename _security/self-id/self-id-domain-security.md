@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: index.ts
+- filename: self-id-commits-api-openapi.yml
   format: yaml
-  label: Self.ID Core API
-  slug: selfid-core-api
+  label: Self.ID Commits API
+  slug: self-id-commits-api
   spec_type: OpenAPI
-  url: https://github.com/ceramicstudio/self.id/blob/main/packages/core/src/index.ts
-- filename: ceramic-http-api.json
-  format: json
-  label: Ceramic HTTP API
-  slug: ceramic-http-api
+  url: https://raw.githubusercontent.com/api-evangelist/self-id/refs/heads/main/openapi/self-id-commits-api-openapi.yml
+- filename: self-id-multiqueries-api-openapi.yml
+  format: yaml
+  label: Self.ID Multiqueries API
+  slug: self-id-multiqueries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/self-id/refs/heads/main/openapi/ceramic-http-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/self-id/refs/heads/main/openapi/self-id-multiqueries-api-openapi.yml
+- filename: self-id-node-api-openapi.yml
+  format: yaml
+  label: Self.ID Node API
+  slug: self-id-node-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/self-id/refs/heads/main/openapi/self-id-node-api-openapi.yml
+- filename: self-id-pins-api-openapi.yml
+  format: yaml
+  label: Self.ID Pins API
+  slug: self-id-pins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/self-id/refs/heads/main/openapi/self-id-pins-api-openapi.yml
+- filename: self-id-streams-api-openapi.yml
+  format: yaml
+  label: Self.ID Streams API
+  slug: self-id-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/self-id/refs/heads/main/openapi/self-id-streams-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,125 @@
 ---
 api_specs:
-- filename: gencove-openapi-original.json
-  format: json
-  label: Gencove Back API
-  slug: gencove-back-api
+- filename: gencove-array-api-openapi.yml
+  format: yaml
+  label: Gencove array API
+  slug: gencove-array-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-array-api-openapi.yml
+- filename: gencove-basespace-api-openapi.yml
+  format: yaml
+  label: Gencove basespace API
+  slug: gencove-basespace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-basespace-api-openapi.yml
+- filename: gencove-batch-api-openapi.yml
+  format: yaml
+  label: Gencove batch API
+  slug: gencove-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-batch-api-openapi.yml
+- filename: gencove-billing-api-openapi.yml
+  format: yaml
+  label: Gencove billing API
+  slug: gencove-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-billing-api-openapi.yml
+- filename: gencove-explorer-api-openapi.yml
+  format: yaml
+  label: Gencove explorer API
+  slug: gencove-explorer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-explorer-api-openapi.yml
+- filename: gencove-file-api-openapi.yml
+  format: yaml
+  label: Gencove file API
+  slug: gencove-file-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-file-api-openapi.yml
+- filename: gencove-firstmile-api-openapi.yml
+  format: yaml
+  label: Gencove firstmile API
+  slug: gencove-firstmile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-firstmile-api-openapi.yml
+- filename: gencove-invitation-api-openapi.yml
+  format: yaml
+  label: Gencove invitation API
+  slug: gencove-invitation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-invitation-api-openapi.yml
+- filename: gencove-jwt-api-openapi.yml
+  format: yaml
+  label: Gencove jwt API
+  slug: gencove-jwt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-jwt-api-openapi.yml
+- filename: gencove-mfa-api-openapi.yml
+  format: yaml
+  label: Gencove mfa API
+  slug: gencove-mfa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-mfa-api-openapi.yml
+- filename: gencove-notification-api-openapi.yml
+  format: yaml
+  label: Gencove notification API
+  slug: gencove-notification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-notification-api-openapi.yml
+- filename: gencove-organization-api-openapi.yml
+  format: yaml
+  label: Gencove organization API
+  slug: gencove-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-organization-api-openapi.yml
+- filename: gencove-pipeline-api-openapi.yml
+  format: yaml
+  label: Gencove pipeline API
+  slug: gencove-pipeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-pipeline-api-openapi.yml
+- filename: gencove-project-api-openapi.yml
+  format: yaml
+  label: Gencove project API
+  slug: gencove-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-project-api-openapi.yml
+- filename: gencove-role-api-openapi.yml
+  format: yaml
+  label: Gencove role API
+  slug: gencove-role-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-role-api-openapi.yml
+- filename: gencove-s3-api-openapi.yml
+  format: yaml
+  label: Gencove s3 API
+  slug: gencove-s3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-s3-api-openapi.yml
+- filename: gencove-sample-api-openapi.yml
+  format: yaml
+  label: Gencove sample API
+  slug: gencove-sample-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-sample-api-openapi.yml
+- filename: gencove-social-api-openapi.yml
+  format: yaml
+  label: Gencove social API
+  slug: gencove-social-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-social-api-openapi.yml
+- filename: gencove-upload-api-openapi.yml
+  format: yaml
+  label: Gencove upload API
+  slug: gencove-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-upload-api-openapi.yml
+- filename: gencove-user-api-openapi.yml
+  format: yaml
+  label: Gencove user API
+  slug: gencove-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

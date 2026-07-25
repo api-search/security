@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: overshoot-openapi.yaml
+- filename: overshoot-billing-api-openapi.yml
   format: yaml
-  label: Overshoot API
-  slug: overshoot-api
+  label: Overshoot Billing API
+  slug: overshoot-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/openapi/overshoot-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/openapi/overshoot-billing-api-openapi.yml
+- filename: overshoot-chat-api-openapi.yml
+  format: yaml
+  label: Overshoot Chat API
+  slug: overshoot-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/openapi/overshoot-chat-api-openapi.yml
+- filename: overshoot-healthz-api-openapi.yml
+  format: yaml
+  label: Overshoot Healthz API
+  slug: overshoot-healthz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/openapi/overshoot-healthz-api-openapi.yml
+- filename: overshoot-metrics-api-openapi.yml
+  format: yaml
+  label: Overshoot Metrics API
+  slug: overshoot-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/openapi/overshoot-metrics-api-openapi.yml
+- filename: overshoot-models-api-openapi.yml
+  format: yaml
+  label: Overshoot Models API
+  slug: overshoot-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/openapi/overshoot-models-api-openapi.yml
+- filename: overshoot-readyz-api-openapi.yml
+  format: yaml
+  label: Overshoot Readyz API
+  slug: overshoot-readyz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/openapi/overshoot-readyz-api-openapi.yml
+- filename: overshoot-streams-api-openapi.yml
+  format: yaml
+  label: Overshoot Streams API
+  slug: overshoot-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/openapi/overshoot-streams-api-openapi.yml
+- filename: overshoot-v1beta-api-openapi.yml
+  format: yaml
+  label: Overshoot V1beta API
+  slug: overshoot-v1beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/openapi/overshoot-v1beta-api-openapi.yml
 description: ''
 domains:
 - caa: []

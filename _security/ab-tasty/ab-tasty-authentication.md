@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: decision-api-openapi.yml
+- filename: ab-tasty-activate-api-openapi.yml
   format: yaml
-  label: AB Tasty Decision API
-  slug: ab-tasty-decision-api
+  label: AB Tasty Activate API
+  slug: ab-tasty-activate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/openapi/decision-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/openapi/ab-tasty-activate-api-openapi.yml
+- filename: ab-tasty-campaigns-api-openapi.yml
+  format: yaml
+  label: AB Tasty Campaigns API
+  slug: ab-tasty-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/openapi/ab-tasty-campaigns-api-openapi.yml
+- filename: ab-tasty-environments-api-openapi.yml
+  format: yaml
+  label: AB Tasty Environments API
+  slug: ab-tasty-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/openapi/ab-tasty-environments-api-openapi.yml
+- filename: ab-tasty-flags-api-openapi.yml
+  format: yaml
+  label: AB Tasty Flags API
+  slug: ab-tasty-flags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/openapi/ab-tasty-flags-api-openapi.yml
+- filename: ab-tasty-post-api-openapi.yml
+  format: yaml
+  label: AB Tasty Post API
+  slug: ab-tasty-post-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/openapi/ab-tasty-post-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

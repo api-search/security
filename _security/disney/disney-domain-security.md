@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: disney-openapi.yml
+- filename: disney-characters-api-openapi.yml
   format: yaml
-  label: Disney API (REST)
-  slug: disney-api-rest
+  label: Disney API Characters API
+  slug: disney-characters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/openapi/disney-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/openapi/disney-characters-api-openapi.yml
+- filename: disney-index-api-openapi.yml
+  format: yaml
+  label: Disney API Index API
+  slug: disney-index-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/openapi/disney-index-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-detective-openapi.yml
+- filename: amazon-detective-datasources-api-openapi.yml
   format: yaml
-  label: Amazon Detective API
-  slug: amazon-detective-api
+  label: Amazon Detective Datasources API
+  slug: amazon-detective-datasources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/openapi/amazon-detective-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/openapi/amazon-detective-datasources-api-openapi.yml
+- filename: amazon-detective-graph-api-openapi.yml
+  format: yaml
+  label: Amazon Detective Graph API
+  slug: amazon-detective-graph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/openapi/amazon-detective-graph-api-openapi.yml
+- filename: amazon-detective-investigations-api-openapi.yml
+  format: yaml
+  label: Amazon Detective Investigations API
+  slug: amazon-detective-investigations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/openapi/amazon-detective-investigations-api-openapi.yml
+- filename: amazon-detective-invitations-api-openapi.yml
+  format: yaml
+  label: Amazon Detective Invitations API
+  slug: amazon-detective-invitations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/openapi/amazon-detective-invitations-api-openapi.yml
+- filename: amazon-detective-members-api-openapi.yml
+  format: yaml
+  label: Amazon Detective Members API
+  slug: amazon-detective-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/openapi/amazon-detective-members-api-openapi.yml
+- filename: amazon-detective-organizations-api-openapi.yml
+  format: yaml
+  label: Amazon Detective Organizations API
+  slug: amazon-detective-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/openapi/amazon-detective-organizations-api-openapi.yml
+- filename: amazon-detective-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Detective Tags API
+  slug: amazon-detective-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/openapi/amazon-detective-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

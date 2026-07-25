@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: bls-public-data-api-openapi.yaml
+- filename: u-s-bureau-of-labor-statistics-series-api-openapi.yml
   format: yaml
-  label: BLS Public Data API
-  slug: bls-api
+  label: U.S. Bureau of Labor Statistics Series API
+  slug: u-s-bureau-of-labor-statistics-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-bureau-of-labor-statistics/refs/heads/main/openapi/bls-public-data-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/u-s-bureau-of-labor-statistics/refs/heads/main/openapi/u-s-bureau-of-labor-statistics-series-api-openapi.yml
+- filename: u-s-bureau-of-labor-statistics-surveys-api-openapi.yml
+  format: yaml
+  label: U.S. Bureau of Labor Statistics Surveys API
+  slug: u-s-bureau-of-labor-statistics-surveys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/u-s-bureau-of-labor-statistics/refs/heads/main/openapi/u-s-bureau-of-labor-statistics-surveys-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: datocms-content-management-api.yml
+- filename: datocms-environments-api-openapi.yml
   format: yaml
-  label: DatoCMS Content Management API
-  slug: datocms
+  label: DatoCMS Environments API
+  slug: datocms-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/openapi/datocms-content-management-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/openapi/datocms-environments-api-openapi.yml
+- filename: datocms-fields-api-openapi.yml
+  format: yaml
+  label: DatoCMS Fields API
+  slug: datocms-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/openapi/datocms-fields-api-openapi.yml
+- filename: datocms-item-types-api-openapi.yml
+  format: yaml
+  label: DatoCMS Item Types API
+  slug: datocms-item-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/openapi/datocms-item-types-api-openapi.yml
+- filename: datocms-items-api-openapi.yml
+  format: yaml
+  label: DatoCMS Items API
+  slug: datocms-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/openapi/datocms-items-api-openapi.yml
+- filename: datocms-site-api-openapi.yml
+  format: yaml
+  label: DatoCMS Site API
+  slug: datocms-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/openapi/datocms-site-api-openapi.yml
+- filename: datocms-uploads-api-openapi.yml
+  format: yaml
+  label: DatoCMS Uploads API
+  slug: datocms-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/openapi/datocms-uploads-api-openapi.yml
+- filename: datocms-webhooks-api-openapi.yml
+  format: yaml
+  label: DatoCMS Webhooks API
+  slug: datocms-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/openapi/datocms-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

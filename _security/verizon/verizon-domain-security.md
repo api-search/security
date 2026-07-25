@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: verizon-thingspace-connectivity-openapi.yml
+- filename: verizon-accounts-api-openapi.yml
   format: yaml
-  label: Verizon ThingSpace
-  slug: thingspace
+  label: Verizon Accounts API
+  slug: verizon-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-thingspace-connectivity-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-accounts-api-openapi.yml
+- filename: verizon-callbacks-api-openapi.yml
+  format: yaml
+  label: Verizon Callbacks API
+  slug: verizon-callbacks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-callbacks-api-openapi.yml
+- filename: verizon-devices-api-openapi.yml
+  format: yaml
+  label: Verizon Devices API
+  slug: verizon-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-devices-api-openapi.yml
+- filename: verizon-session-api-openapi.yml
+  format: yaml
+  label: Verizon Session API
+  slug: verizon-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-session-api-openapi.yml
+- filename: verizon-sms-api-openapi.yml
+  format: yaml
+  label: Verizon SMS API
+  slug: verizon-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-sms-api-openapi.yml
 description: ''
 domains:
 - caa:

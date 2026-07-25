@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: unmade-embed-v2-openapi.json
-  format: json
-  label: Unmade Integration API (V2)
-  slug: unmade-integration-api-v2
+- filename: unmade-design-api-api-openapi.yml
+  format: yaml
+  label: Unmade Design API API
+  slug: unmade-design-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-embed-v2-openapi.json
-- filename: unmade-embed-v1-openapi.json
-  format: json
-  label: Unmade Integration API (V1)
-  slug: unmade-integration-api-v1
+  url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-design-api-api-openapi.yml
+- filename: unmade-ecommerce-orders-api-api-openapi.yml
+  format: yaml
+  label: Unmade Ecommerce Orders API API
+  slug: unmade-ecommerce-orders-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-embed-v1-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-ecommerce-orders-api-api-openapi.yml
+- filename: unmade-factory-api-api-openapi.yml
+  format: yaml
+  label: Unmade Factory API API
+  slug: unmade-factory-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-factory-api-api-openapi.yml
+- filename: unmade-outfit-api-api-openapi.yml
+  format: yaml
+  label: Unmade Outfit API API
+  slug: unmade-outfit-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-outfit-api-api-openapi.yml
+- filename: unmade-transfer-preview-api-api-openapi.yml
+  format: yaml
+  label: Unmade Transfer Preview API API
+  slug: unmade-transfer-preview-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-transfer-preview-api-api-openapi.yml
+- filename: unmade-unmade-editor-api-openapi.yml
+  format: yaml
+  label: Unmade Unmade Editor API
+  slug: unmade-unmade-editor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-unmade-editor-api-openapi.yml
 description: ''
 domains:
 - caa: []

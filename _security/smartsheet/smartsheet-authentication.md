@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: smartsheet-openapi.yml
+- filename: smartsheet-columns-api-openapi.yml
   format: yaml
-  label: Smartsheet REST API
-  slug: rest-api
+  label: Smartsheet Columns API
+  slug: smartsheet-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-columns-api-openapi.yml
+- filename: smartsheet-reports-api-openapi.yml
+  format: yaml
+  label: Smartsheet Reports API
+  slug: smartsheet-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-reports-api-openapi.yml
+- filename: smartsheet-rows-api-openapi.yml
+  format: yaml
+  label: Smartsheet Rows API
+  slug: smartsheet-rows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-rows-api-openapi.yml
+- filename: smartsheet-sheets-api-openapi.yml
+  format: yaml
+  label: Smartsheet Sheets API
+  slug: smartsheet-sheets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-sheets-api-openapi.yml
+- filename: smartsheet-webhooks-api-openapi.yml
+  format: yaml
+  label: Smartsheet Webhooks API
+  slug: smartsheet-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2

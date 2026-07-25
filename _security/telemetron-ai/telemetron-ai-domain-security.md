@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: telemetron-ai-ext-v1-openapi.yml
+- filename: telemetron-ai-customer-api-openapi.yml
   format: yaml
-  label: Telemetron External API (ext-v1)
-  slug: telemetron-external-api-ext-v1
+  label: Telemetron Customer API
+  slug: telemetron-ai-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/openapi/telemetron-ai-ext-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/openapi/telemetron-ai-customer-api-openapi.yml
+- filename: telemetron-ai-device-api-openapi.yml
+  format: yaml
+  label: Telemetron Device API
+  slug: telemetron-ai-device-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/openapi/telemetron-ai-device-api-openapi.yml
+- filename: telemetron-ai-device-assignment-api-openapi.yml
+  format: yaml
+  label: Telemetron Device Assignment API
+  slug: telemetron-ai-device-assignment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/openapi/telemetron-ai-device-assignment-api-openapi.yml
+- filename: telemetron-ai-ticket-api-openapi.yml
+  format: yaml
+  label: Telemetron Ticket API
+  slug: telemetron-ai-ticket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/openapi/telemetron-ai-ticket-api-openapi.yml
 description: ''
 domains:
 - caa:

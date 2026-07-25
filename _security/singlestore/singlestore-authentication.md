@@ -1,18 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: singlestore-data-api-openapi.yml
+- filename: singlestore-files-api-openapi.yml
   format: yaml
-  label: SingleStore Data API
-  slug: data-api
+  label: SingleStore Files API
+  slug: singlestore-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-data-api-openapi.yml
-- filename: singlestore-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-files-api-openapi.yml
+- filename: singlestore-health-api-openapi.yml
   format: yaml
-  label: SingleStore Management API
-  slug: management-api
+  label: SingleStore Health API
+  slug: singlestore-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-health-api-openapi.yml
+- filename: singlestore-jobs-api-openapi.yml
+  format: yaml
+  label: SingleStore Jobs API
+  slug: singlestore-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-jobs-api-openapi.yml
+- filename: singlestore-organizations-api-openapi.yml
+  format: yaml
+  label: SingleStore Organizations API
+  slug: singlestore-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-organizations-api-openapi.yml
+- filename: singlestore-queries-api-openapi.yml
+  format: yaml
+  label: SingleStore Queries API
+  slug: singlestore-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-queries-api-openapi.yml
+- filename: singlestore-regions-api-openapi.yml
+  format: yaml
+  label: SingleStore Regions API
+  slug: singlestore-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-regions-api-openapi.yml
+- filename: singlestore-secrets-api-openapi.yml
+  format: yaml
+  label: SingleStore Secrets API
+  slug: singlestore-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-secrets-api-openapi.yml
+- filename: singlestore-workspacegroups-api-openapi.yml
+  format: yaml
+  label: SingleStore WorkspaceGroups API
+  slug: singlestore-workspacegroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-workspacegroups-api-openapi.yml
+- filename: singlestore-workspaces-api-openapi.yml
+  format: yaml
+  label: SingleStore Workspaces API
+  slug: singlestore-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''

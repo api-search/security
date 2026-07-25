@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: amazon-cloudfront-openapi.yml
+- filename: amazon-cloudfront-distributions-api-openapi.yml
   format: yaml
-  label: Amazon CloudFront API
-  slug: amazon-cloudfront-api
+  label: Amazon CloudFront Distributions API
+  slug: amazon-cloudfront-distributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudfront/refs/heads/main/openapi/amazon-cloudfront-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudfront/refs/heads/main/openapi/amazon-cloudfront-distributions-api-openapi.yml
+- filename: amazon-cloudfront-functions-api-openapi.yml
+  format: yaml
+  label: Amazon CloudFront Functions API
+  slug: amazon-cloudfront-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudfront/refs/heads/main/openapi/amazon-cloudfront-functions-api-openapi.yml
+- filename: amazon-cloudfront-invalidations-api-openapi.yml
+  format: yaml
+  label: Amazon CloudFront Invalidations API
+  slug: amazon-cloudfront-invalidations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudfront/refs/heads/main/openapi/amazon-cloudfront-invalidations-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

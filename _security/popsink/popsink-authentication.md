@@ -1,18 +1,132 @@
 ---
 api_key_in: []
 api_specs:
-- filename: popsink-public-api-openapi-original.json
-  format: json
-  label: Popsink Public API
-  slug: popsink-public-api
+- filename: popsink-admin-api-openapi.yml
+  format: yaml
+  label: Popsink admin API
+  slug: popsink-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-public-api-openapi-original.json
-- filename: popsink-onprem-api-openapi-original.json
-  format: json
-  label: Popsink Control Plane API
-  slug: popsink-control-plane-api
+  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-admin-api-openapi.yml
+- filename: popsink-auth-api-openapi.yml
+  format: yaml
+  label: Popsink auth API
+  slug: popsink-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-onprem-api-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-auth-api-openapi.yml
+- filename: popsink-brokers-api-openapi.yml
+  format: yaml
+  label: Popsink brokers API
+  slug: popsink-brokers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-brokers-api-openapi.yml
+- filename: popsink-connector-types-api-openapi.yml
+  format: yaml
+  label: Popsink connector types API
+  slug: popsink-connector-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-connector-types-api-openapi.yml
+- filename: popsink-connectors-api-openapi.yml
+  format: yaml
+  label: Popsink connectors API
+  slug: popsink-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-connectors-api-openapi.yml
+- filename: popsink-env-member-api-openapi.yml
+  format: yaml
+  label: Popsink env_member API
+  slug: popsink-env-member-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-env-member-api-openapi.yml
+- filename: popsink-env-request-api-openapi.yml
+  format: yaml
+  label: Popsink env_request API
+  slug: popsink-env-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-env-request-api-openapi.yml
+- filename: popsink-envs-api-openapi.yml
+  format: yaml
+  label: Popsink envs API
+  slug: popsink-envs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-envs-api-openapi.yml
+- filename: popsink-healthchecks-api-openapi.yml
+  format: yaml
+  label: Popsink healthchecks API
+  slug: popsink-healthchecks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-healthchecks-api-openapi.yml
+- filename: popsink-jobs-smt-api-openapi.yml
+  format: yaml
+  label: Popsink jobs-smt API
+  slug: popsink-jobs-smt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-jobs-smt-api-openapi.yml
+- filename: popsink-organizations-api-openapi.yml
+  format: yaml
+  label: Popsink organizations API
+  slug: popsink-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-organizations-api-openapi.yml
+- filename: popsink-pipelines-api-openapi.yml
+  format: yaml
+  label: Popsink pipelines API
+  slug: popsink-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-pipelines-api-openapi.yml
+- filename: popsink-popsink-public-api-api-openapi.yml
+  format: yaml
+  label: Popsink Popsink Public API API
+  slug: popsink-popsink-public-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-popsink-public-api-api-openapi.yml
+- filename: popsink-probes-api-openapi.yml
+  format: yaml
+  label: Popsink probes API
+  slug: popsink-probes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-probes-api-openapi.yml
+- filename: popsink-saml-api-openapi.yml
+  format: yaml
+  label: Popsink saml API
+  slug: popsink-saml-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-saml-api-openapi.yml
+- filename: popsink-schemas-api-openapi.yml
+  format: yaml
+  label: Popsink schemas API
+  slug: popsink-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-schemas-api-openapi.yml
+- filename: popsink-team-member-api-openapi.yml
+  format: yaml
+  label: Popsink team_member API
+  slug: popsink-team-member-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-team-member-api-openapi.yml
+- filename: popsink-team-request-api-openapi.yml
+  format: yaml
+  label: Popsink team_request API
+  slug: popsink-team-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-team-request-api-openapi.yml
+- filename: popsink-teams-api-openapi.yml
+  format: yaml
+  label: Popsink teams API
+  slug: popsink-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-teams-api-openapi.yml
+- filename: popsink-user-logs-api-openapi.yml
+  format: yaml
+  label: Popsink user-logs API
+  slug: popsink-user-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-user-logs-api-openapi.yml
+- filename: popsink-users-api-openapi.yml
+  format: yaml
+  label: Popsink users API
+  slug: popsink-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-users-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

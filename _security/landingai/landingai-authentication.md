@@ -1,30 +1,84 @@
 ---
 api_key_in: []
 api_specs:
-- filename: landingai-ade-v2-openapi-original.json
-  format: json
-  label: LandingAI Agentic Document Extraction (ADE) API v2
-  slug: ade-v2
+- filename: landingai-classes-api-openapi.yml
+  format: yaml
+  label: Landing.ai Classes API
+  slug: landingai-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/openapi/landingai-ade-v2-openapi-original.json
-- filename: landingai-ade-v1-openapi-original.json
-  format: json
-  label: LandingAI Agentic Document Extraction (ADE) API v1
-  slug: ade-v1
+  url: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/openapi/landingai-classes-api-openapi.yml
+- filename: landingai-deployment-api-openapi.yml
+  format: yaml
+  label: Landing.ai Deployment API
+  slug: landingai-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/openapi/landingai-ade-v1-openapi-original.json
-- filename: landingai-vision-tools-openapi-original.json
-  format: json
-  label: LandingAI Vision Tools API
-  slug: vision-tools
+  url: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/openapi/landingai-deployment-api-openapi.yml
+- filename: landingai-extract-api-openapi.yml
+  format: yaml
+  label: Landing.ai Extract API
+  slug: landingai-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/openapi/landingai-vision-tools-openapi-original.json
-- filename: landingai-landinglens-openapi-original.json
-  format: json
-  label: LandingLens API
-  slug: landinglens
+  url: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/openapi/landingai-extract-api-openapi.yml
+- filename: landingai-image-api-openapi.yml
+  format: yaml
+  label: Landing.ai Image API
+  slug: landingai-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/openapi/landingai-landinglens-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/openapi/landingai-image-api-openapi.yml
+- filename: landingai-metadata-api-openapi.yml
+  format: yaml
+  label: Landing.ai Metadata API
+  slug: landingai-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/openapi/landingai-metadata-api-openapi.yml
+- filename: landingai-metrics-api-openapi.yml
+  format: yaml
+  label: Landing.ai Metrics API
+  slug: landingai-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/openapi/landingai-metrics-api-openapi.yml
+- filename: landingai-model-api-openapi.yml
+  format: yaml
+  label: Landing.ai Model API
+  slug: landingai-model-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/openapi/landingai-model-api-openapi.yml
+- filename: landingai-parse-api-openapi.yml
+  format: yaml
+  label: Landing.ai Parse API
+  slug: landingai-parse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/openapi/landingai-parse-api-openapi.yml
+- filename: landingai-project-api-openapi.yml
+  format: yaml
+  label: Landing.ai Project API
+  slug: landingai-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/openapi/landingai-project-api-openapi.yml
+- filename: landingai-snapshot-api-openapi.yml
+  format: yaml
+  label: Landing.ai Snapshot API
+  slug: landingai-snapshot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/openapi/landingai-snapshot-api-openapi.yml
+- filename: landingai-tags-api-openapi.yml
+  format: yaml
+  label: Landing.ai Tags API
+  slug: landingai-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/openapi/landingai-tags-api-openapi.yml
+- filename: landingai-tools-api-openapi.yml
+  format: yaml
+  label: Landing.ai Tools API
+  slug: landingai-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/openapi/landingai-tools-api-openapi.yml
+- filename: landingai-training-api-openapi.yml
+  format: yaml
+  label: Landing.ai Training API
+  slug: landingai-training-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/openapi/landingai-training-api-openapi.yml
 auth_types:
 - http
 description: ''

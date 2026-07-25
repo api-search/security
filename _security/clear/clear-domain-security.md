@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: clear-verification-openapi.json
-  format: json
-  label: CLEAR1 Verification Sessions API
-  slug: clear1-verification-sessions-api
+- filename: clear-verification-sessions-api-openapi.yml
+  format: yaml
+  label: CLEAR Verification Sessions API
+  slug: clear-verification-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/openapi/clear-verification-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/openapi/clear-verification-sessions-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,23 +1,41 @@
 ---
 api_specs:
-- filename: semantic-scholar-academic-graph-openapi.yml
+- filename: semantic-scholar-author-data-api-openapi.yml
   format: yaml
-  label: Semantic Scholar Academic Graph API
-  slug: semantic-scholar-academic-graph-api
+  label: Semantic Scholar Author Data API
+  slug: semantic-scholar-author-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/openapi/semantic-scholar-academic-graph-openapi.yml
-- filename: semantic-scholar-recommendations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/openapi/semantic-scholar-author-data-api-openapi.yml
+- filename: semantic-scholar-incremental-updates-api-openapi.yml
   format: yaml
-  label: Semantic Scholar Recommendations API
-  slug: semantic-scholar-recommendations-api
+  label: Semantic Scholar Incremental Updates API
+  slug: semantic-scholar-incremental-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/openapi/semantic-scholar-recommendations-openapi.yml
-- filename: semantic-scholar-datasets-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/openapi/semantic-scholar-incremental-updates-api-openapi.yml
+- filename: semantic-scholar-paper-data-api-openapi.yml
   format: yaml
-  label: Semantic Scholar Datasets API
-  slug: semantic-scholar-datasets-api
+  label: Semantic Scholar Paper Data API
+  slug: semantic-scholar-paper-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/openapi/semantic-scholar-datasets-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/openapi/semantic-scholar-paper-data-api-openapi.yml
+- filename: semantic-scholar-paper-recommendations-api-openapi.yml
+  format: yaml
+  label: Semantic Scholar Paper Recommendations API
+  slug: semantic-scholar-paper-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/openapi/semantic-scholar-paper-recommendations-api-openapi.yml
+- filename: semantic-scholar-release-data-api-openapi.yml
+  format: yaml
+  label: Semantic Scholar Release Data API
+  slug: semantic-scholar-release-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/openapi/semantic-scholar-release-data-api-openapi.yml
+- filename: semantic-scholar-snippet-text-api-openapi.yml
+  format: yaml
+  label: Semantic Scholar Snippet Text API
+  slug: semantic-scholar-snippet-text-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/openapi/semantic-scholar-snippet-text-api-openapi.yml
 description: ''
 domains:
 - caa:

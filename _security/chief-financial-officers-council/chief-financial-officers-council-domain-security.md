@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: chief-financial-officers-council-agencies-api-openapi.yml
+  format: yaml
+  label: Chief Financial Officers Council Agencies API
+  slug: chief-financial-officers-council-agencies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chief-financial-officers-council/refs/heads/main/openapi/chief-financial-officers-council-agencies-api-openapi.yml
+- filename: chief-financial-officers-council-awards-api-openapi.yml
+  format: yaml
+  label: Chief Financial Officers Council Awards API
+  slug: chief-financial-officers-council-awards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chief-financial-officers-council/refs/heads/main/openapi/chief-financial-officers-council-awards-api-openapi.yml
+- filename: chief-financial-officers-council-downloads-api-openapi.yml
+  format: yaml
+  label: Chief Financial Officers Council Downloads API
+  slug: chief-financial-officers-council-downloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chief-financial-officers-council/refs/heads/main/openapi/chief-financial-officers-council-downloads-api-openapi.yml
+- filename: chief-financial-officers-council-federal-accounts-api-openapi.yml
+  format: yaml
+  label: Chief Financial Officers Council Federal Accounts API
+  slug: chief-financial-officers-council-federal-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chief-financial-officers-council/refs/heads/main/openapi/chief-financial-officers-council-federal-accounts-api-openapi.yml
+- filename: chief-financial-officers-council-recipients-api-openapi.yml
+  format: yaml
+  label: Chief Financial Officers Council Recipients API
+  slug: chief-financial-officers-council-recipients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chief-financial-officers-council/refs/heads/main/openapi/chief-financial-officers-council-recipients-api-openapi.yml
+- filename: chief-financial-officers-council-references-api-openapi.yml
+  format: yaml
+  label: Chief Financial Officers Council References API
+  slug: chief-financial-officers-council-references-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chief-financial-officers-council/refs/heads/main/openapi/chief-financial-officers-council-references-api-openapi.yml
+- filename: chief-financial-officers-council-search-api-openapi.yml
+  format: yaml
+  label: Chief Financial Officers Council Search API
+  slug: chief-financial-officers-council-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chief-financial-officers-council/refs/heads/main/openapi/chief-financial-officers-council-search-api-openapi.yml
+- filename: chief-financial-officers-council-subawards-api-openapi.yml
+  format: yaml
+  label: Chief Financial Officers Council Subawards API
+  slug: chief-financial-officers-council-subawards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chief-financial-officers-council/refs/heads/main/openapi/chief-financial-officers-council-subawards-api-openapi.yml
 description: ''
 domains:
 - caa: []

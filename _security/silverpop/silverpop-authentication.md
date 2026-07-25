@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: silverpop-openapi.yml
+- filename: silverpop-authentication-api-openapi.yml
   format: yaml
-  label: Silverpop Engage XML API
-  slug: silverpop-engage-xml-api
+  label: Silverpop Authentication API
+  slug: silverpop-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/openapi/silverpop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/openapi/silverpop-authentication-api-openapi.yml
+- filename: silverpop-campaigns-api-openapi.yml
+  format: yaml
+  label: Silverpop Campaigns API
+  slug: silverpop-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/openapi/silverpop-campaigns-api-openapi.yml
+- filename: silverpop-contacts-api-openapi.yml
+  format: yaml
+  label: Silverpop Contacts API
+  slug: silverpop-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/openapi/silverpop-contacts-api-openapi.yml
+- filename: silverpop-programs-api-openapi.yml
+  format: yaml
+  label: Silverpop Programs API
+  slug: silverpop-programs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/openapi/silverpop-programs-api-openapi.yml
+- filename: silverpop-reports-api-openapi.yml
+  format: yaml
+  label: Silverpop Reports API
+  slug: silverpop-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/openapi/silverpop-reports-api-openapi.yml
+- filename: silverpop-transactional-api-openapi.yml
+  format: yaml
+  label: Silverpop Transactional API
+  slug: silverpop-transactional-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/openapi/silverpop-transactional-api-openapi.yml
 auth_types:
 - http
 description: ''

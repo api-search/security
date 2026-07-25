@@ -1,11 +1,95 @@
 ---
 api_specs:
-- filename: docker-openapi.yml
+- filename: docker-config-api-openapi.yml
   format: yaml
-  label: Docker
-  slug: docker
+  label: Docker Config API
+  slug: docker-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-config-api-openapi.yml
+- filename: docker-container-api-openapi.yml
+  format: yaml
+  label: Docker Container API
+  slug: docker-container-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-container-api-openapi.yml
+- filename: docker-distribution-api-openapi.yml
+  format: yaml
+  label: Docker Distribution API
+  slug: docker-distribution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-distribution-api-openapi.yml
+- filename: docker-exec-api-openapi.yml
+  format: yaml
+  label: Docker Exec API
+  slug: docker-exec-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-exec-api-openapi.yml
+- filename: docker-image-api-openapi.yml
+  format: yaml
+  label: Docker Image API
+  slug: docker-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-image-api-openapi.yml
+- filename: docker-network-api-openapi.yml
+  format: yaml
+  label: Docker Network API
+  slug: docker-network-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-network-api-openapi.yml
+- filename: docker-node-api-openapi.yml
+  format: yaml
+  label: Docker Node API
+  slug: docker-node-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-node-api-openapi.yml
+- filename: docker-plugin-api-openapi.yml
+  format: yaml
+  label: Docker Plugin API
+  slug: docker-plugin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-plugin-api-openapi.yml
+- filename: docker-secret-api-openapi.yml
+  format: yaml
+  label: Docker Secret API
+  slug: docker-secret-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-secret-api-openapi.yml
+- filename: docker-service-api-openapi.yml
+  format: yaml
+  label: Docker Service API
+  slug: docker-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-service-api-openapi.yml
+- filename: docker-session-api-openapi.yml
+  format: yaml
+  label: Docker Session API
+  slug: docker-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-session-api-openapi.yml
+- filename: docker-swarm-api-openapi.yml
+  format: yaml
+  label: Docker Swarm API
+  slug: docker-swarm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-swarm-api-openapi.yml
+- filename: docker-system-api-openapi.yml
+  format: yaml
+  label: Docker System API
+  slug: docker-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-system-api-openapi.yml
+- filename: docker-task-api-openapi.yml
+  format: yaml
+  label: Docker Task API
+  slug: docker-task-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-task-api-openapi.yml
+- filename: docker-volume-api-openapi.yml
+  format: yaml
+  label: Docker Volume API
+  slug: docker-volume-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-volume-api-openapi.yml
 description: ''
 domains:
 - caa:

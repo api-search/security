@@ -13,6 +13,72 @@ api_specs:
   slug: freshbooks-webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/asyncapi/freshbooks-webhooks-asyncapi.yml
+- filename: freshbooks-auth-api-openapi.yml
+  format: yaml
+  label: FreshBooks Auth API
+  slug: freshbooks-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-auth-api-openapi.yml
+- filename: freshbooks-clients-api-openapi.yml
+  format: yaml
+  label: FreshBooks Clients API
+  slug: freshbooks-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-clients-api-openapi.yml
+- filename: freshbooks-estimates-api-openapi.yml
+  format: yaml
+  label: FreshBooks Estimates API
+  slug: freshbooks-estimates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-estimates-api-openapi.yml
+- filename: freshbooks-expenses-api-openapi.yml
+  format: yaml
+  label: FreshBooks Expenses API
+  slug: freshbooks-expenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-expenses-api-openapi.yml
+- filename: freshbooks-invoices-api-openapi.yml
+  format: yaml
+  label: FreshBooks Invoices API
+  slug: freshbooks-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-invoices-api-openapi.yml
+- filename: freshbooks-items-api-openapi.yml
+  format: yaml
+  label: FreshBooks Items API
+  slug: freshbooks-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-items-api-openapi.yml
+- filename: freshbooks-payments-api-openapi.yml
+  format: yaml
+  label: FreshBooks Payments API
+  slug: freshbooks-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-payments-api-openapi.yml
+- filename: freshbooks-projects-api-openapi.yml
+  format: yaml
+  label: FreshBooks Projects API
+  slug: freshbooks-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-projects-api-openapi.yml
+- filename: freshbooks-tasks-api-openapi.yml
+  format: yaml
+  label: FreshBooks Tasks API
+  slug: freshbooks-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-tasks-api-openapi.yml
+- filename: freshbooks-taxes-api-openapi.yml
+  format: yaml
+  label: FreshBooks Taxes API
+  slug: freshbooks-taxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-taxes-api-openapi.yml
+- filename: freshbooks-timeentries-api-openapi.yml
+  format: yaml
+  label: FreshBooks TimeEntries API
+  slug: freshbooks-timeentries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-timeentries-api-openapi.yml
 auth_types:
 - http
 description: ''

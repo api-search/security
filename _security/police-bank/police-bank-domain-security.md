@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: police-bank-cds-banking-products-openapi.yml
+- filename: police-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Police Bank CDR Product Reference Data API
-  slug: police-bank-cds-banking-products-api
+  label: Police Bank Banking Account Balances API
+  slug: police-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-cds-banking-products-openapi.yml
-- filename: police-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-banking-account-balances-api-openapi.yml
+- filename: police-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Police Bank CDR Accounts & Balances API
-  slug: police-bank-cds-banking-accounts-api
+  label: Police Bank Banking Account Direct Debits API
+  slug: police-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-cds-banking-products-openapi.yml
-- filename: police-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-banking-account-direct-debits-api-openapi.yml
+- filename: police-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Police Bank CDR Transactions API
-  slug: police-bank-cds-banking-transactions-api
+  label: Police Bank Banking Account Scheduled Payments API
+  slug: police-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-cds-banking-products-openapi.yml
-- filename: police-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: police-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Police Bank CDR Direct Debits & Scheduled Payments API
-  slug: police-bank-cds-banking-direct-debits-scheduled-payments-api
+  label: Police Bank Banking Account Transactions API
+  slug: police-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-cds-banking-products-openapi.yml
-- filename: police-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-banking-account-transactions-api-openapi.yml
+- filename: police-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: Police Bank CDR Payees API
-  slug: police-bank-cds-banking-payees-api
+  label: Police Bank Banking Accounts API
+  slug: police-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-banking-accounts-api-openapi.yml
+- filename: police-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: Police Bank Banking Payees API
+  slug: police-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-banking-payees-api-openapi.yml
+- filename: police-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: Police Bank Banking Products API
+  slug: police-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

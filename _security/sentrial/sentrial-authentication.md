@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sentrial-openapi.yml
+- filename: sentrial-events-api-openapi.yml
   format: yaml
-  label: Sentrial SDK API
-  slug: sentrial-sdk-api
+  label: Sentrial Events API
+  slug: sentrial-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/openapi/sentrial-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/openapi/sentrial-events-api-openapi.yml
+- filename: sentrial-sessions-api-openapi.yml
+  format: yaml
+  label: Sentrial Sessions API
+  slug: sentrial-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/openapi/sentrial-sessions-api-openapi.yml
 auth_types:
 - http
 description: ''

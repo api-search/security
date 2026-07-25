@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Olympus Protocol Metrics API
-  slug: olympus-protocol-metrics-api
+- filename: olympusdao-health-api-openapi.yml
+  format: yaml
+  label: OlympusDAO Health API
+  slug: olympusdao-health-api
   spec_type: OpenAPI
-  url: https://treasury-subgraph-api.olympusdao.finance/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/openapi/olympusdao-health-api-openapi.yml
+- filename: olympusdao-legacy-api-openapi.yml
+  format: yaml
+  label: OlympusDAO Legacy API
+  slug: olympusdao-legacy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/openapi/olympusdao-legacy-api-openapi.yml
+- filename: olympusdao-metadata-api-openapi.yml
+  format: yaml
+  label: OlympusDAO Metadata API
+  slug: olympusdao-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/openapi/olympusdao-metadata-api-openapi.yml
+- filename: olympusdao-ohm-supply-api-openapi.yml
+  format: yaml
+  label: OlympusDAO OHM Supply API
+  slug: olympusdao-ohm-supply-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/openapi/olympusdao-ohm-supply-api-openapi.yml
+- filename: olympusdao-protocol-metrics-api-openapi.yml
+  format: yaml
+  label: OlympusDAO Protocol Metrics API
+  slug: olympusdao-protocol-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/openapi/olympusdao-protocol-metrics-api-openapi.yml
+- filename: olympusdao-treasury-api-openapi.yml
+  format: yaml
+  label: OlympusDAO Treasury API
+  slug: olympusdao-treasury-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/openapi/olympusdao-treasury-api-openapi.yml
 description: ''
 domains:
 - caa: []

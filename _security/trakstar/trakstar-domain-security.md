@@ -1,17 +1,77 @@
 ---
 api_specs:
-- filename: trakstar-hire-api-openapi.yml
+- filename: trakstar-auth-api-openapi.yml
   format: yaml
-  label: Trakstar Hire API
-  slug: trakstar-hire-api
+  label: Trakstar Auth API
+  slug: trakstar-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-hire-api-openapi.yml
-- filename: trakstar-learn-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-auth-api-openapi.yml
+- filename: trakstar-candidate-messages-api-openapi.yml
   format: yaml
-  label: Trakstar Learn API
-  slug: trakstar-learn-api
+  label: Trakstar Candidate Messages API
+  slug: trakstar-candidate-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-learn-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-candidate-messages-api-openapi.yml
+- filename: trakstar-candidates-api-openapi.yml
+  format: yaml
+  label: Trakstar Candidates API
+  slug: trakstar-candidates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-candidates-api-openapi.yml
+- filename: trakstar-courses-api-openapi.yml
+  format: yaml
+  label: Trakstar Courses API
+  slug: trakstar-courses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-courses-api-openapi.yml
+- filename: trakstar-evaluations-api-openapi.yml
+  format: yaml
+  label: Trakstar Evaluations API
+  slug: trakstar-evaluations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-evaluations-api-openapi.yml
+- filename: trakstar-groups-api-openapi.yml
+  format: yaml
+  label: Trakstar Groups API
+  slug: trakstar-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-groups-api-openapi.yml
+- filename: trakstar-internal-notes-api-openapi.yml
+  format: yaml
+  label: Trakstar Internal Notes API
+  slug: trakstar-internal-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-internal-notes-api-openapi.yml
+- filename: trakstar-interviews-api-openapi.yml
+  format: yaml
+  label: Trakstar Interviews API
+  slug: trakstar-interviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-interviews-api-openapi.yml
+- filename: trakstar-openings-api-openapi.yml
+  format: yaml
+  label: Trakstar Openings API
+  slug: trakstar-openings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-openings-api-openapi.yml
+- filename: trakstar-reviews-api-openapi.yml
+  format: yaml
+  label: Trakstar Reviews API
+  slug: trakstar-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-reviews-api-openapi.yml
+- filename: trakstar-to-dos-api-openapi.yml
+  format: yaml
+  label: Trakstar To-Dos API
+  slug: trakstar-to-dos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-to-dos-api-openapi.yml
+- filename: trakstar-users-api-openapi.yml
+  format: yaml
+  label: Trakstar Users API
+  slug: trakstar-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-users-api-openapi.yml
 description: ''
 domains:
 - caa:

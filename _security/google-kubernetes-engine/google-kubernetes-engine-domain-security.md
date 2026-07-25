@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: google-kubernetes-engine-openapi.yml
+- filename: google-kubernetes-engine-clusters-api-openapi.yml
   format: yaml
-  label: Google Kubernetes Engine
-  slug: google-kubernetes-engine
+  label: Google Kubernetes Engine Clusters API
+  slug: google-kubernetes-engine-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/openapi/google-kubernetes-engine-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/openapi/google-kubernetes-engine-clusters-api-openapi.yml
+- filename: google-kubernetes-engine-google-kubernetes-engine-api-api-openapi.yml
+  format: yaml
+  label: Google Kubernetes Engine Google Kubernetes Engine API API
+  slug: google-kubernetes-engine-google-kubernetes-engine-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/openapi/google-kubernetes-engine-google-kubernetes-engine-api-api-openapi.yml
+- filename: google-kubernetes-engine-nodepools-api-openapi.yml
+  format: yaml
+  label: Google Kubernetes Engine NodePools API
+  slug: google-kubernetes-engine-nodepools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/openapi/google-kubernetes-engine-nodepools-api-openapi.yml
+- filename: google-kubernetes-engine-operations-api-openapi.yml
+  format: yaml
+  label: Google Kubernetes Engine Operations API
+  slug: google-kubernetes-engine-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/openapi/google-kubernetes-engine-operations-api-openapi.yml
+- filename: google-kubernetes-engine-serverconfig-api-openapi.yml
+  format: yaml
+  label: Google Kubernetes Engine ServerConfig API
+  slug: google-kubernetes-engine-serverconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/openapi/google-kubernetes-engine-serverconfig-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,17 +1,65 @@
 ---
 api_specs:
-- filename: sanity-openapi.yml
+- filename: sanity-assets-api-openapi.yml
   format: yaml
-  label: Sanity Query API
-  slug: sanity-query-api
+  label: Sanity Assets API
+  slug: sanity-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-assets-api-openapi.yml
+- filename: sanity-projects-api-openapi.yml
+  format: yaml
+  label: Sanity Projects API
+  slug: sanity-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-projects-api-openapi.yml
 - filename: sanity-webhooks-asyncapi.yml
   format: yaml
   label: Sanity Webhooks API
   slug: sanity-webhooks-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/asyncapi/sanity-webhooks-asyncapi.yml
+- filename: sanity-listen-api-openapi.yml
+  format: yaml
+  label: Sanity Listen API
+  slug: sanity-listen-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-listen-api-openapi.yml
+- filename: sanity-assets-api-openapi.yml
+  format: yaml
+  label: Sanity Assets API
+  slug: sanity-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-assets-api-openapi.yml
+- filename: sanity-listen-api-openapi.yml
+  format: yaml
+  label: Sanity Listen API
+  slug: sanity-listen-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-listen-api-openapi.yml
+- filename: sanity-mutations-api-openapi.yml
+  format: yaml
+  label: Sanity Mutations API
+  slug: sanity-mutations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-mutations-api-openapi.yml
+- filename: sanity-projects-api-openapi.yml
+  format: yaml
+  label: Sanity Projects API
+  slug: sanity-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-projects-api-openapi.yml
+- filename: sanity-query-api-openapi.yml
+  format: yaml
+  label: Sanity Query API
+  slug: sanity-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-query-api-openapi.yml
+- filename: sanity-webhooks-api-openapi.yml
+  format: yaml
+  label: Sanity Webhooks API
+  slug: sanity-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

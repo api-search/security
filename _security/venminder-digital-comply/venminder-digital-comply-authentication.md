@@ -2,12 +2,96 @@
 api_key_in:
 - header
 api_specs:
-- filename: venminder-digital-comply-openapi-original.json
-  format: json
-  label: Venminder API
-  slug: venminder-api
+- filename: venminder-digital-comply-businessunit-api-openapi.yml
+  format: yaml
+  label: Venminder (Digital Comply) BusinessUnit API
+  slug: venminder-digital-comply-businessunit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-businessunit-api-openapi.yml
+- filename: venminder-digital-comply-clientinformation-api-openapi.yml
+  format: yaml
+  label: Venminder (Digital Comply) ClientInformation API
+  slug: venminder-digital-comply-clientinformation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-clientinformation-api-openapi.yml
+- filename: venminder-digital-comply-contact-api-openapi.yml
+  format: yaml
+  label: Venminder (Digital Comply) Contact API
+  slug: venminder-digital-comply-contact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-contact-api-openapi.yml
+- filename: venminder-digital-comply-contracts-api-openapi.yml
+  format: yaml
+  label: Venminder (Digital Comply) Contracts API
+  slug: venminder-digital-comply-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-contracts-api-openapi.yml
+- filename: venminder-digital-comply-data-api-openapi.yml
+  format: yaml
+  label: Venminder (Digital Comply) Data API
+  slug: venminder-digital-comply-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-data-api-openapi.yml
+- filename: venminder-digital-comply-documents-api-openapi.yml
+  format: yaml
+  label: Venminder (Digital Comply) Documents API
+  slug: venminder-digital-comply-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-documents-api-openapi.yml
+- filename: venminder-digital-comply-issues-api-openapi.yml
+  format: yaml
+  label: Venminder (Digital Comply) Issues API
+  slug: venminder-digital-comply-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-issues-api-openapi.yml
+- filename: venminder-digital-comply-oversightrequirement-api-openapi.yml
+  format: yaml
+  label: Venminder (Digital Comply) OversightRequirement API
+  slug: venminder-digital-comply-oversightrequirement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-oversightrequirement-api-openapi.yml
+- filename: venminder-digital-comply-oversighttask-api-openapi.yml
+  format: yaml
+  label: Venminder (Digital Comply) OversightTask API
+  slug: venminder-digital-comply-oversighttask-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-oversighttask-api-openapi.yml
+- filename: venminder-digital-comply-questionnaire-api-openapi.yml
+  format: yaml
+  label: Venminder (Digital Comply) Questionnaire API
+  slug: venminder-digital-comply-questionnaire-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-questionnaire-api-openapi.yml
+- filename: venminder-digital-comply-services-api-openapi.yml
+  format: yaml
+  label: Venminder (Digital Comply) Services API
+  slug: venminder-digital-comply-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-services-api-openapi.yml
+- filename: venminder-digital-comply-vendoronboarding-api-openapi.yml
+  format: yaml
+  label: Venminder (Digital Comply) VendorOnboarding API
+  slug: venminder-digital-comply-vendoronboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-vendoronboarding-api-openapi.yml
+- filename: venminder-digital-comply-vendors-api-openapi.yml
+  format: yaml
+  label: Venminder (Digital Comply) Vendors API
+  slug: venminder-digital-comply-vendors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-vendors-api-openapi.yml
+- filename: venminder-digital-comply-vendorspend-api-openapi.yml
+  format: yaml
+  label: Venminder (Digital Comply) VendorSpend API
+  slug: venminder-digital-comply-vendorspend-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-vendorspend-api-openapi.yml
+- filename: venminder-digital-comply-venmonitor-api-openapi.yml
+  format: yaml
+  label: Venminder (Digital Comply) Venmonitor API
+  slug: venminder-digital-comply-venmonitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-venmonitor-api-openapi.yml
 auth_types:
 - oauth2
 - apiKey

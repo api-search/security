@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: genius-openapi.yml
+- filename: genius-account-api-openapi.yml
   format: yaml
-  label: Genius
-  slug: genius
+  label: Genius Account API
+  slug: genius-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-account-api-openapi.yml
+- filename: genius-albums-api-openapi.yml
+  format: yaml
+  label: Genius Albums API
+  slug: genius-albums-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-albums-api-openapi.yml
+- filename: genius-annotations-api-openapi.yml
+  format: yaml
+  label: Genius Annotations API
+  slug: genius-annotations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-annotations-api-openapi.yml
+- filename: genius-artists-api-openapi.yml
+  format: yaml
+  label: Genius Artists API
+  slug: genius-artists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-artists-api-openapi.yml
+- filename: genius-referents-api-openapi.yml
+  format: yaml
+  label: Genius Referents API
+  slug: genius-referents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-referents-api-openapi.yml
+- filename: genius-search-api-openapi.yml
+  format: yaml
+  label: Genius Search API
+  slug: genius-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-search-api-openapi.yml
+- filename: genius-songs-api-openapi.yml
+  format: yaml
+  label: Genius Songs API
+  slug: genius-songs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-songs-api-openapi.yml
+- filename: genius-users-api-openapi.yml
+  format: yaml
+  label: Genius Users API
+  slug: genius-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-users-api-openapi.yml
+- filename: genius-web-pages-api-openapi.yml
+  format: yaml
+  label: Genius Web Pages API
+  slug: genius-web-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-web-pages-api-openapi.yml
 description: ''
 domains:
 - caa: []

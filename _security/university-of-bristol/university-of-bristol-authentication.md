@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Bristol Research Portal (Pure) API
-  slug: pure-research-api
+- filename: university-of-bristol-data-set-api-openapi.yml
+  format: yaml
+  label: University of Bristol data-set API
+  slug: university-of-bristol-data-set-api
   spec_type: OpenAPI
-  url: https://research-information.bris.ac.uk/ws/api/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-bristol/refs/heads/main/openapi/university-of-bristol-data-set-api-openapi.yml
+- filename: university-of-bristol-person-api-openapi.yml
+  format: yaml
+  label: University of Bristol person API
+  slug: university-of-bristol-person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-bristol/refs/heads/main/openapi/university-of-bristol-person-api-openapi.yml
+- filename: university-of-bristol-project-api-openapi.yml
+  format: yaml
+  label: University of Bristol project API
+  slug: university-of-bristol-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-bristol/refs/heads/main/openapi/university-of-bristol-project-api-openapi.yml
+- filename: university-of-bristol-research-output-api-openapi.yml
+  format: yaml
+  label: University of Bristol research-output API
+  slug: university-of-bristol-research-output-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-bristol/refs/heads/main/openapi/university-of-bristol-research-output-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

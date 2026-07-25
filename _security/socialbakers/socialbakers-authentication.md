@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: socialbakers-emplifi-public-api-openapi.yml
+- filename: socialbakers-ads-api-openapi.yml
   format: yaml
-  label: Emplifi (Socialbakers) Public API
-  slug: emplifi-socialbakers-public-api
+  label: Socialbakers Ads API
+  slug: socialbakers-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socialbakers/refs/heads/main/openapi/socialbakers-emplifi-public-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/socialbakers/refs/heads/main/openapi/socialbakers-ads-api-openapi.yml
+- filename: socialbakers-assets-api-openapi.yml
+  format: yaml
+  label: Socialbakers Assets API
+  slug: socialbakers-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socialbakers/refs/heads/main/openapi/socialbakers-assets-api-openapi.yml
+- filename: socialbakers-care-api-openapi.yml
+  format: yaml
+  label: Socialbakers Care API
+  slug: socialbakers-care-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socialbakers/refs/heads/main/openapi/socialbakers-care-api-openapi.yml
+- filename: socialbakers-community-api-openapi.yml
+  format: yaml
+  label: Socialbakers Community API
+  slug: socialbakers-community-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socialbakers/refs/heads/main/openapi/socialbakers-community-api-openapi.yml
+- filename: socialbakers-listening-api-openapi.yml
+  format: yaml
+  label: Socialbakers Listening API
+  slug: socialbakers-listening-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socialbakers/refs/heads/main/openapi/socialbakers-listening-api-openapi.yml
+- filename: socialbakers-posts-api-openapi.yml
+  format: yaml
+  label: Socialbakers Posts API
+  slug: socialbakers-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socialbakers/refs/heads/main/openapi/socialbakers-posts-api-openapi.yml
+- filename: socialbakers-profile-metrics-api-openapi.yml
+  format: yaml
+  label: Socialbakers Profile Metrics API
+  slug: socialbakers-profile-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socialbakers/refs/heads/main/openapi/socialbakers-profile-metrics-api-openapi.yml
+- filename: socialbakers-reference-api-openapi.yml
+  format: yaml
+  label: Socialbakers Reference API
+  slug: socialbakers-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/socialbakers/refs/heads/main/openapi/socialbakers-reference-api-openapi.yml
 auth_types:
 - http
 - oauth2

@@ -1,18 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: keap-openapi.yml
-  format: yaml
-  label: Keap REST API
-  slug: rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-openapi.yml
 - filename: keap-resthooks-asyncapi.yml
   format: yaml
   label: Keap REST Hooks
   slug: rest-hooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/asyncapi/keap-resthooks-asyncapi.yml
+- filename: keap-campaigns-api-openapi.yml
+  format: yaml
+  label: Keap Campaigns API
+  slug: keap-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-campaigns-api-openapi.yml
+- filename: keap-companies-api-openapi.yml
+  format: yaml
+  label: Keap Companies API
+  slug: keap-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-companies-api-openapi.yml
+- filename: keap-contacts-api-openapi.yml
+  format: yaml
+  label: Keap Contacts API
+  slug: keap-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-contacts-api-openapi.yml
+- filename: keap-opportunities-api-openapi.yml
+  format: yaml
+  label: Keap Opportunities API
+  slug: keap-opportunities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-opportunities-api-openapi.yml
+- filename: keap-orders-api-openapi.yml
+  format: yaml
+  label: Keap Orders API
+  slug: keap-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-orders-api-openapi.yml
+- filename: keap-products-api-openapi.yml
+  format: yaml
+  label: Keap Products API
+  slug: keap-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-products-api-openapi.yml
+- filename: keap-tags-api-openapi.yml
+  format: yaml
+  label: Keap Tags API
+  slug: keap-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-tags-api-openapi.yml
+- filename: keap-tasks-api-openapi.yml
+  format: yaml
+  label: Keap Tasks API
+  slug: keap-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-tasks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

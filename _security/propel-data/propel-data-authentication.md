@@ -1,36 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: propel-data-openapi.yml
+- filename: propel-data-graphql-api-openapi.yml
   format: yaml
-  label: Propel Metrics Queries API
-  slug: propel-data-metrics-queries-api
+  label: Propel GraphQL API
+  slug: propel-data-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propel-data/refs/heads/main/openapi/propel-data-openapi.yml
-- filename: propel-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/propel-data/refs/heads/main/openapi/propel-data-graphql-api-openapi.yml
+- filename: propel-data-oauth2-api-openapi.yml
   format: yaml
-  label: Propel Data Pools API
-  slug: propel-data-data-pools-api
+  label: Propel OAuth2 API
+  slug: propel-data-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propel-data/refs/heads/main/openapi/propel-data-openapi.yml
-- filename: propel-data-openapi.yml
-  format: yaml
-  label: Propel Data Sources API
-  slug: propel-data-data-sources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propel-data/refs/heads/main/openapi/propel-data-openapi.yml
-- filename: propel-data-openapi.yml
-  format: yaml
-  label: Propel Applications and Policies API
-  slug: propel-data-applications-policies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propel-data/refs/heads/main/openapi/propel-data-openapi.yml
-- filename: propel-data-openapi.yml
-  format: yaml
-  label: Propel OAuth2 Token API
-  slug: propel-data-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propel-data/refs/heads/main/openapi/propel-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/propel-data/refs/heads/main/openapi/propel-data-oauth2-api-openapi.yml
 auth_types:
 - http
 description: ''

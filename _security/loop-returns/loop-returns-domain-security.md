@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: loop-returns-returns-openapi.yml
+- filename: loop-returns-cart-api-openapi.yml
   format: yaml
-  label: Loop Returns API
-  slug: loop-returns-api
+  label: Loop Returns Cart API
+  slug: loop-returns-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-returns-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-cart-api-openapi.yml
+- filename: loop-returns-destinations-api-openapi.yml
+  format: yaml
+  label: Loop Returns Destinations API
+  slug: loop-returns-destinations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-destinations-api-openapi.yml
+- filename: loop-returns-fraud-reports-api-openapi.yml
+  format: yaml
+  label: Loop Returns Fraud Reports API
+  slug: loop-returns-fraud-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-fraud-reports-api-openapi.yml
+- filename: loop-returns-label-requests-api-openapi.yml
+  format: yaml
+  label: Loop Returns Label Requests API
+  slug: loop-returns-label-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-label-requests-api-openapi.yml
+- filename: loop-returns-programmatic-webhooks-api-openapi.yml
+  format: yaml
+  label: Loop Returns Programmatic Webhooks API
+  slug: loop-returns-programmatic-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-programmatic-webhooks-api-openapi.yml
+- filename: loop-returns-return-actions-api-openapi.yml
+  format: yaml
+  label: Loop Returns Return Actions API
+  slug: loop-returns-return-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-return-actions-api-openapi.yml
+- filename: loop-returns-return-data-api-openapi.yml
+  format: yaml
+  label: Loop Returns Return Data API
+  slug: loop-returns-return-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-return-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

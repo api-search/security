@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: realestateapi-openapi.yml
+- filename: realestateapi-avm-api-openapi.yml
   format: yaml
-  label: RealEstateAPI
-  slug: realestateapi
+  label: RealEstateAPI AVM API
+  slug: realestateapi-avm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realestateapi/refs/heads/main/openapi/realestateapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/realestateapi/refs/heads/main/openapi/realestateapi-avm-api-openapi.yml
+- filename: realestateapi-comparables-api-openapi.yml
+  format: yaml
+  label: RealEstateAPI Comparables API
+  slug: realestateapi-comparables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/realestateapi/refs/heads/main/openapi/realestateapi-comparables-api-openapi.yml
+- filename: realestateapi-liens-api-openapi.yml
+  format: yaml
+  label: RealEstateAPI Liens API
+  slug: realestateapi-liens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/realestateapi/refs/heads/main/openapi/realestateapi-liens-api-openapi.yml
+- filename: realestateapi-mls-api-openapi.yml
+  format: yaml
+  label: RealEstateAPI MLS API
+  slug: realestateapi-mls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/realestateapi/refs/heads/main/openapi/realestateapi-mls-api-openapi.yml
+- filename: realestateapi-parcel-api-openapi.yml
+  format: yaml
+  label: RealEstateAPI Parcel API
+  slug: realestateapi-parcel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/realestateapi/refs/heads/main/openapi/realestateapi-parcel-api-openapi.yml
+- filename: realestateapi-property-detail-api-openapi.yml
+  format: yaml
+  label: RealEstateAPI Property Detail API
+  slug: realestateapi-property-detail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/realestateapi/refs/heads/main/openapi/realestateapi-property-detail-api-openapi.yml
+- filename: realestateapi-property-search-api-openapi.yml
+  format: yaml
+  label: RealEstateAPI Property Search API
+  slug: realestateapi-property-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/realestateapi/refs/heads/main/openapi/realestateapi-property-search-api-openapi.yml
+- filename: realestateapi-skip-trace-api-openapi.yml
+  format: yaml
+  label: RealEstateAPI Skip Trace API
+  slug: realestateapi-skip-trace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/realestateapi/refs/heads/main/openapi/realestateapi-skip-trace-api-openapi.yml
 description: ''
 domains:
 - caa: []

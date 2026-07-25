@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: riak-openapi.yml
+- filename: riak-mapred-api-openapi.yml
   format: yaml
-  label: Riak KV HTTP API
-  slug: http-api
+  label: Riak KV Mapred API
+  slug: riak-mapred-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/openapi/riak-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/openapi/riak-mapred-api-openapi.yml
+- filename: riak-ping-api-openapi.yml
+  format: yaml
+  label: Riak KV Ping API
+  slug: riak-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/openapi/riak-ping-api-openapi.yml
+- filename: riak-riak-kv-http-api-api-openapi.yml
+  format: yaml
+  label: Riak KV Riak KV HTTP API API
+  slug: riak-riak-kv-http-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/openapi/riak-riak-kv-http-api-api-openapi.yml
+- filename: riak-search-api-openapi.yml
+  format: yaml
+  label: Riak KV Search API
+  slug: riak-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/openapi/riak-search-api-openapi.yml
+- filename: riak-stats-api-openapi.yml
+  format: yaml
+  label: Riak KV Stats API
+  slug: riak-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/openapi/riak-stats-api-openapi.yml
+- filename: riak-types-api-openapi.yml
+  format: yaml
+  label: Riak KV Types API
+  slug: riak-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/openapi/riak-types-api-openapi.yml
 auth_types:
 - http
 description: ''

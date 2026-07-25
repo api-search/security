@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: api-spec.json
-  format: json
-  label: Mux Video API
-  slug: video-api
+- filename: mux-assets-api-openapi.yml
+  format: yaml
+  label: Mux Assets API
+  slug: mux-assets-api
   spec_type: OpenAPI
-  url: https://www.mux.com/api-spec.json
-- filename: api-spec.json
-  format: json
-  label: Mux Data API
-  slug: data-api
+  url: https://raw.githubusercontent.com/api-evangelist/mux/refs/heads/main/openapi/mux-assets-api-openapi.yml
+- filename: mux-direct-uploads-api-openapi.yml
+  format: yaml
+  label: Mux Direct Uploads API
+  slug: mux-direct-uploads-api
   spec_type: OpenAPI
-  url: https://www.mux.com/api-spec.json
+  url: https://raw.githubusercontent.com/api-evangelist/mux/refs/heads/main/openapi/mux-direct-uploads-api-openapi.yml
+- filename: mux-live-streams-api-openapi.yml
+  format: yaml
+  label: Mux Live Streams API
+  slug: mux-live-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mux/refs/heads/main/openapi/mux-live-streams-api-openapi.yml
+- filename: mux-playback-ids-api-openapi.yml
+  format: yaml
+  label: Mux Playback IDs API
+  slug: mux-playback-ids-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mux/refs/heads/main/openapi/mux-playback-ids-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

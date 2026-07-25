@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: university-of-maryland-college-park-umdio.yaml
+- filename: university-of-maryland-college-park-bus-api-openapi.yml
   format: yaml
-  label: umd.io API
-  slug: umdio
+  label: University of Maryland College Park bus API
+  slug: university-of-maryland-college-park-bus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-umdio.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-bus-api-openapi.yml
+- filename: university-of-maryland-college-park-courses-api-openapi.yml
+  format: yaml
+  label: University of Maryland College Park courses API
+  slug: university-of-maryland-college-park-courses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-courses-api-openapi.yml
+- filename: university-of-maryland-college-park-majors-api-openapi.yml
+  format: yaml
+  label: University of Maryland College Park majors API
+  slug: university-of-maryland-college-park-majors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-majors-api-openapi.yml
+- filename: university-of-maryland-college-park-map-api-openapi.yml
+  format: yaml
+  label: University of Maryland College Park map API
+  slug: university-of-maryland-college-park-map-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-map-api-openapi.yml
+- filename: university-of-maryland-college-park-professors-api-openapi.yml
+  format: yaml
+  label: University of Maryland College Park professors API
+  slug: university-of-maryland-college-park-professors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-professors-api-openapi.yml
 description: ''
 domains:
 - caa: []

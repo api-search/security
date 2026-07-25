@@ -2,54 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: puzzle-io-openapi.yml
+- filename: puzzle-io-accounts-api-openapi.yml
   format: yaml
-  label: Puzzle Companies API
-  slug: puzzle-io-companies-api
+  label: Puzzle Accounts API
+  slug: puzzle-io-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-openapi.yml
-- filename: puzzle-io-openapi.yml
-  format: yaml
-  label: Puzzle Transactions API
-  slug: puzzle-io-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-openapi.yml
-- filename: puzzle-io-openapi.yml
-  format: yaml
-  label: Puzzle Ledger Accounts API
-  slug: puzzle-io-ledger-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-openapi.yml
-- filename: puzzle-io-openapi.yml
-  format: yaml
-  label: Puzzle Journal Entries API
-  slug: puzzle-io-journal-entries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-openapi.yml
-- filename: puzzle-io-openapi.yml
-  format: yaml
-  label: Puzzle Financial Reports API
-  slug: puzzle-io-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-openapi.yml
-- filename: puzzle-io-openapi.yml
-  format: yaml
-  label: Puzzle Metrics API
-  slug: puzzle-io-metrics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-openapi.yml
-- filename: puzzle-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-accounts-api-openapi.yml
+- filename: puzzle-io-categories-api-openapi.yml
   format: yaml
   label: Puzzle Categories API
   slug: puzzle-io-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-openapi.yml
-- filename: puzzle-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-categories-api-openapi.yml
+- filename: puzzle-io-companies-api-openapi.yml
+  format: yaml
+  label: Puzzle Companies API
+  slug: puzzle-io-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-companies-api-openapi.yml
+- filename: puzzle-io-integrations-api-openapi.yml
   format: yaml
   label: Puzzle Integrations API
   slug: puzzle-io-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-integrations-api-openapi.yml
+- filename: puzzle-io-journal-entries-api-openapi.yml
+  format: yaml
+  label: Puzzle Journal Entries API
+  slug: puzzle-io-journal-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-journal-entries-api-openapi.yml
+- filename: puzzle-io-metrics-api-openapi.yml
+  format: yaml
+  label: Puzzle Metrics API
+  slug: puzzle-io-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-metrics-api-openapi.yml
+- filename: puzzle-io-reports-api-openapi.yml
+  format: yaml
+  label: Puzzle Reports API
+  slug: puzzle-io-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-reports-api-openapi.yml
+- filename: puzzle-io-transactions-api-openapi.yml
+  format: yaml
+  label: Puzzle Transactions API
+  slug: puzzle-io-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-transactions-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

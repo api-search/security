@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: acko-apisetu-openapi-original.json
-  format: json
-  label: Acko General Insurance (API Setu / DigiLocker)
-  slug: acko-general-insurance-api-setu-digilocker
+- filename: acko-apis-api-openapi.yml
+  format: yaml
+  label: Acko APIs API
+  slug: acko-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/openapi/acko-apisetu-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/openapi/acko-apis-api-openapi.yml
 description: ''
 domains:
 - caa: []

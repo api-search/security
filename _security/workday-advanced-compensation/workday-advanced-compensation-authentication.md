@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: Compensation.yaml
+- filename: workday-advanced-compensation-bonus-plans-api-openapi.yml
   format: yaml
-  label: Workday Advanced Compensation API
-  slug: workday-advanced-compensation-api
+  label: Workday Advanced Compensation Bonus Plans API
+  slug: workday-advanced-compensation-bonus-plans-api
   spec_type: OpenAPI
-  url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Compensation/v41.1/Compensation.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-bonus-plans-api-openapi.yml
+- filename: workday-advanced-compensation-compensation-budgets-api-openapi.yml
+  format: yaml
+  label: Workday Advanced Compensation Compensation Budgets API
+  slug: workday-advanced-compensation-compensation-budgets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-compensation-budgets-api-openapi.yml
+- filename: workday-advanced-compensation-compensation-grades-api-openapi.yml
+  format: yaml
+  label: Workday Advanced Compensation Compensation Grades API
+  slug: workday-advanced-compensation-compensation-grades-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-compensation-grades-api-openapi.yml
+- filename: workday-advanced-compensation-compensation-plans-api-openapi.yml
+  format: yaml
+  label: Workday Advanced Compensation Compensation Plans API
+  slug: workday-advanced-compensation-compensation-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-compensation-plans-api-openapi.yml
+- filename: workday-advanced-compensation-compensation-reviews-api-openapi.yml
+  format: yaml
+  label: Workday Advanced Compensation Compensation Reviews API
+  slug: workday-advanced-compensation-compensation-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-compensation-reviews-api-openapi.yml
+- filename: workday-advanced-compensation-employee-compensation-api-openapi.yml
+  format: yaml
+  label: Workday Advanced Compensation Employee Compensation API
+  slug: workday-advanced-compensation-employee-compensation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-employee-compensation-api-openapi.yml
+- filename: workday-advanced-compensation-merit-plans-api-openapi.yml
+  format: yaml
+  label: Workday Advanced Compensation Merit Plans API
+  slug: workday-advanced-compensation-merit-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-merit-plans-api-openapi.yml
+- filename: workday-advanced-compensation-stock-plans-api-openapi.yml
+  format: yaml
+  label: Workday Advanced Compensation Stock Plans API
+  slug: workday-advanced-compensation-stock-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-stock-plans-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

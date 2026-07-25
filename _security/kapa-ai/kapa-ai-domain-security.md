@@ -1,35 +1,41 @@
 ---
 api_specs:
-- filename: kapa-ai-openapi.yml
-  format: yaml
-  label: kapa.ai Query Chat API
-  slug: kapa-ai-query-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-openapi.yml
-- filename: kapa-ai-openapi.yml
-  format: yaml
-  label: kapa.ai Threads Conversations API
-  slug: kapa-ai-threads-conversations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-openapi.yml
-- filename: kapa-ai-openapi.yml
-  format: yaml
-  label: kapa.ai Search and Retrieval API
-  slug: kapa-ai-search-retrieval-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-openapi.yml
-- filename: kapa-ai-openapi.yml
-  format: yaml
-  label: kapa.ai Projects API
-  slug: kapa-ai-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-openapi.yml
-- filename: kapa-ai-openapi.yml
+- filename: kapa-ai-analytics-api-openapi.yml
   format: yaml
   label: kapa.ai Analytics API
   slug: kapa-ai-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-analytics-api-openapi.yml
+- filename: kapa-ai-chat-api-openapi.yml
+  format: yaml
+  label: kapa.ai Chat API
+  slug: kapa-ai-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-chat-api-openapi.yml
+- filename: kapa-ai-feedback-api-openapi.yml
+  format: yaml
+  label: kapa.ai Feedback API
+  slug: kapa-ai-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-feedback-api-openapi.yml
+- filename: kapa-ai-projects-api-openapi.yml
+  format: yaml
+  label: kapa.ai Projects API
+  slug: kapa-ai-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-projects-api-openapi.yml
+- filename: kapa-ai-retrieval-api-openapi.yml
+  format: yaml
+  label: kapa.ai Retrieval API
+  slug: kapa-ai-retrieval-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-retrieval-api-openapi.yml
+- filename: kapa-ai-threads-api-openapi.yml
+  format: yaml
+  label: kapa.ai Threads API
+  slug: kapa-ai-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-threads-api-openapi.yml
 description: ''
 domains:
 - caa: []

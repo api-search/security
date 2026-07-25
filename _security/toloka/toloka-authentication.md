@@ -2,36 +2,78 @@
 api_key_in:
 - header
 api_specs:
-- filename: toloka-openapi.yml
-  format: yaml
-  label: Toloka Projects API
-  slug: projects
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toloka/refs/heads/main/openapi/toloka-openapi.yml
-- filename: toloka-openapi.yml
-  format: yaml
-  label: Toloka Pools API
-  slug: pools
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toloka/refs/heads/main/openapi/toloka-openapi.yml
-- filename: toloka-openapi.yml
-  format: yaml
-  label: Toloka Tasks & Task Suites API
-  slug: tasks-task-suites
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toloka/refs/heads/main/openapi/toloka-openapi.yml
-- filename: toloka-openapi.yml
+- filename: toloka-assignments-api-openapi.yml
   format: yaml
   label: Toloka Assignments API
-  slug: assignments
+  slug: toloka-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toloka/refs/heads/main/openapi/toloka-openapi.yml
-- filename: toloka-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toloka/refs/heads/main/openapi/toloka-assignments-api-openapi.yml
+- filename: toloka-attachments-api-openapi.yml
   format: yaml
-  label: Toloka Operations & Webhooks API
-  slug: operations
+  label: Toloka Attachments API
+  slug: toloka-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toloka/refs/heads/main/openapi/toloka-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toloka/refs/heads/main/openapi/toloka-attachments-api-openapi.yml
+- filename: toloka-operations-api-openapi.yml
+  format: yaml
+  label: Toloka Operations API
+  slug: toloka-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toloka/refs/heads/main/openapi/toloka-operations-api-openapi.yml
+- filename: toloka-pools-api-openapi.yml
+  format: yaml
+  label: Toloka Pools API
+  slug: toloka-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toloka/refs/heads/main/openapi/toloka-pools-api-openapi.yml
+- filename: toloka-projects-api-openapi.yml
+  format: yaml
+  label: Toloka Projects API
+  slug: toloka-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toloka/refs/heads/main/openapi/toloka-projects-api-openapi.yml
+- filename: toloka-skills-api-openapi.yml
+  format: yaml
+  label: Toloka Skills API
+  slug: toloka-skills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toloka/refs/heads/main/openapi/toloka-skills-api-openapi.yml
+- filename: toloka-task-suites-api-openapi.yml
+  format: yaml
+  label: Toloka Task Suites API
+  slug: toloka-task-suites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toloka/refs/heads/main/openapi/toloka-task-suites-api-openapi.yml
+- filename: toloka-tasks-api-openapi.yml
+  format: yaml
+  label: Toloka Tasks API
+  slug: toloka-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toloka/refs/heads/main/openapi/toloka-tasks-api-openapi.yml
+- filename: toloka-training-api-openapi.yml
+  format: yaml
+  label: Toloka Training API
+  slug: toloka-training-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toloka/refs/heads/main/openapi/toloka-training-api-openapi.yml
+- filename: toloka-user-bonuses-api-openapi.yml
+  format: yaml
+  label: Toloka User Bonuses API
+  slug: toloka-user-bonuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toloka/refs/heads/main/openapi/toloka-user-bonuses-api-openapi.yml
+- filename: toloka-user-restrictions-api-openapi.yml
+  format: yaml
+  label: Toloka User Restrictions API
+  slug: toloka-user-restrictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toloka/refs/heads/main/openapi/toloka-user-restrictions-api-openapi.yml
+- filename: toloka-webhook-subscriptions-api-openapi.yml
+  format: yaml
+  label: Toloka Webhook Subscriptions API
+  slug: toloka-webhook-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toloka/refs/heads/main/openapi/toloka-webhook-subscriptions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

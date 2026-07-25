@@ -2,12 +2,30 @@
 api_key_in:
 - query
 api_specs:
-- filename: revolutio-hazard-api-openapi.yml
+- filename: revolutio-combined-hazard-api-openapi.yml
   format: yaml
-  label: Revolutio Hazard API
-  slug: revolutio-hazard-api
+  label: Revolutio Combined Hazard API
+  slug: revolutio-combined-hazard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revolutio/refs/heads/main/openapi/revolutio-hazard-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/revolutio/refs/heads/main/openapi/revolutio-combined-hazard-api-openapi.yml
+- filename: revolutio-seismic-api-openapi.yml
+  format: yaml
+  label: Revolutio Seismic API
+  slug: revolutio-seismic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revolutio/refs/heads/main/openapi/revolutio-seismic-api-openapi.yml
+- filename: revolutio-snow-and-ice-api-openapi.yml
+  format: yaml
+  label: Revolutio Snow And Ice API
+  slug: revolutio-snow-and-ice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revolutio/refs/heads/main/openapi/revolutio-snow-and-ice-api-openapi.yml
+- filename: revolutio-wind-api-openapi.yml
+  format: yaml
+  label: Revolutio Wind API
+  slug: revolutio-wind-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revolutio/refs/heads/main/openapi/revolutio-wind-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

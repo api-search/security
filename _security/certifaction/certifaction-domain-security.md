@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: certifaction-local-api-openapi.yml
+- filename: certifaction-account-api-openapi.yml
   format: yaml
-  label: Certifaction Local API
-  slug: certifaction-local-api
+  label: Certifaction Account API
+  slug: certifaction-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/openapi/certifaction-local-api-openapi.yml
-- filename: certifaction-admin-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/openapi/certifaction-account-api-openapi.yml
+- filename: certifaction-documents-api-openapi.yml
   format: yaml
-  label: Certifaction Admin API
-  slug: certifaction-admin-api
+  label: Certifaction Documents API
+  slug: certifaction-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/openapi/certifaction-admin-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/openapi/certifaction-documents-api-openapi.yml
+- filename: certifaction-organization-api-openapi.yml
+  format: yaml
+  label: Certifaction Organization API
+  slug: certifaction-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/openapi/certifaction-organization-api-openapi.yml
+- filename: certifaction-server-api-openapi.yml
+  format: yaml
+  label: Certifaction Server API
+  slug: certifaction-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/openapi/certifaction-server-api-openapi.yml
+- filename: certifaction-signing-api-openapi.yml
+  format: yaml
+  label: Certifaction Signing API
+  slug: certifaction-signing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/openapi/certifaction-signing-api-openapi.yml
+- filename: certifaction-teamspace-api-openapi.yml
+  format: yaml
+  label: Certifaction Teamspace API
+  slug: certifaction-teamspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/openapi/certifaction-teamspace-api-openapi.yml
 description: ''
 domains:
 - caa: []

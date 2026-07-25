@@ -31,7 +31,11 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Banking
 - Financial Services
-- Fortune 500
-- Retail Banking
+- United States
+- Treasury Management
+- Payments
+- Real-Time Payments
 - Corporate Banking
+- Open Finance
+- Fortune 500
 ---

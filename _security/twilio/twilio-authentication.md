@@ -1,216 +1,696 @@
 ---
 api_key_in: []
 api_specs:
-- filename: accounts-openapi-original.yml
+- filename: twilio-a2p-api-openapi.yml
+  format: yaml
+  label: Twilio A2p API
+  slug: twilio-a2p-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-a2p-api-openapi.yml
+- filename: twilio-access-tokens-api-openapi.yml
+  format: yaml
+  label: Twilio Access Tokens API
+  slug: twilio-access-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-access-tokens-api-openapi.yml
+- filename: twilio-accounts-api-openapi.yml
   format: yaml
   label: Twilio Accounts API
   slug: twilio-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/accounts-openapi-original.yml
-- filename: assistant-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-accounts-api-openapi.yml
+- filename: twilio-alerts-api-openapi.yml
   format: yaml
-  label: Twilio Assistant API
-  slug: twilio-assistant-api
+  label: Twilio Alerts API
+  slug: twilio-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/assistant-openapi-original.yml
-- filename: autopilot-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-alerts-api-openapi.yml
+- filename: twilio-alpha-senders-api-openapi.yml
   format: yaml
-  label: Twilio Autopilot API
-  slug: twilio-autopilot-api
+  label: Twilio Alpha Senders API
+  slug: twilio-alpha-senders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/autopilot-openapi-original.yml
-- filename: bulk-exports-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-alpha-senders-api-openapi.yml
+- filename: twilio-apps-api-openapi.yml
   format: yaml
-  label: Twilio Bulk Exports API
-  slug: twilio-bulk-exports-api
+  label: Twilio Apps API
+  slug: twilio-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/bulk-exports-openapi-original.yml
-- filename: content-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-apps-api-openapi.yml
+- filename: twilio-archives-api-openapi.yml
+  format: yaml
+  label: Twilio Archives API
+  slug: twilio-archives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-archives-api-openapi.yml
+- filename: twilio-assistants-api-openapi.yml
+  format: yaml
+  label: Twilio Assistants API
+  slug: twilio-assistants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-assistants-api-openapi.yml
+- filename: twilio-attempts-api-openapi.yml
+  format: yaml
+  label: Twilio Attempts API
+  slug: twilio-attempts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-attempts-api-openapi.yml
+- filename: twilio-auth-tokens-api-openapi.yml
+  format: yaml
+  label: Twilio Auth Tokens API
+  slug: twilio-auth-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-auth-tokens-api-openapi.yml
+- filename: twilio-authtokens-api-openapi.yml
+  format: yaml
+  label: Twilio AuthTokens API
+  slug: twilio-authtokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-authtokens-api-openapi.yml
+- filename: twilio-byoctrunks-api-openapi.yml
+  format: yaml
+  label: Twilio ByocTrunks API
+  slug: twilio-byoctrunks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-byoctrunks-api-openapi.yml
+- filename: twilio-calls-api-openapi.yml
+  format: yaml
+  label: Twilio Calls API
+  slug: twilio-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-calls-api-openapi.yml
+- filename: twilio-challenges-api-openapi.yml
+  format: yaml
+  label: Twilio Challenges API
+  slug: twilio-challenges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-challenges-api-openapi.yml
+- filename: twilio-channels-api-openapi.yml
+  format: yaml
+  label: Twilio Channels API
+  slug: twilio-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-channels-api-openapi.yml
+- filename: twilio-commands-api-openapi.yml
+  format: yaml
+  label: Twilio Commands API
+  slug: twilio-commands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-commands-api-openapi.yml
+- filename: twilio-complianceinquiries-api-openapi.yml
+  format: yaml
+  label: Twilio ComplianceInquiries API
+  slug: twilio-complianceinquiries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-complianceinquiries-api-openapi.yml
+- filename: twilio-composition-hooks-api-openapi.yml
+  format: yaml
+  label: Twilio Composition Hooks API
+  slug: twilio-composition-hooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-composition-hooks-api-openapi.yml
+- filename: twilio-compositionhooks-api-openapi.yml
+  format: yaml
+  label: Twilio CompositionHooks API
+  slug: twilio-compositionhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-compositionhooks-api-openapi.yml
+- filename: twilio-compositions-api-openapi.yml
+  format: yaml
+  label: Twilio Compositions API
+  slug: twilio-compositions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-compositions-api-openapi.yml
+- filename: twilio-compositionsettings-api-openapi.yml
+  format: yaml
+  label: Twilio CompositionSettings API
+  slug: twilio-compositionsettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-compositionsettings-api-openapi.yml
+- filename: twilio-conferences-api-openapi.yml
+  format: yaml
+  label: Twilio Conferences API
+  slug: twilio-conferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-conferences-api-openapi.yml
+- filename: twilio-configs-api-openapi.yml
+  format: yaml
+  label: Twilio Configs API
+  slug: twilio-configs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-configs-api-openapi.yml
+- filename: twilio-configuration-api-openapi.yml
+  format: yaml
+  label: Twilio Configuration API
+  slug: twilio-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-configuration-api-openapi.yml
+- filename: twilio-connectionpolicies-api-openapi.yml
+  format: yaml
+  label: Twilio ConnectionPolicies API
+  slug: twilio-connectionpolicies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-connectionpolicies-api-openapi.yml
+- filename: twilio-contacts-api-openapi.yml
+  format: yaml
+  label: Twilio Contacts API
+  slug: twilio-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-contacts-api-openapi.yml
+- filename: twilio-content-api-openapi.yml
   format: yaml
   label: Twilio Content API
   slug: twilio-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/content-openapi-original.yml
-- filename: conversations-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-content-api-openapi.yml
+- filename: twilio-contentandapprovals-api-openapi.yml
+  format: yaml
+  label: Twilio ContentAndApprovals API
+  slug: twilio-contentandapprovals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-contentandapprovals-api-openapi.yml
+- filename: twilio-conversations-api-openapi.yml
   format: yaml
   label: Twilio Conversations API
   slug: twilio-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/conversations-openapi-original.yml
-- filename: events-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-conversations-api-openapi.yml
+- filename: twilio-credentials-api-openapi.yml
+  format: yaml
+  label: Twilio Credentials API
+  slug: twilio-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-credentials-api-openapi.yml
+- filename: twilio-customerprofiles-api-openapi.yml
+  format: yaml
+  label: Twilio CustomerProfiles API
+  slug: twilio-customerprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-customerprofiles-api-openapi.yml
+- filename: twilio-deactivations-api-openapi.yml
+  format: yaml
+  label: Twilio Deactivations API
+  slug: twilio-deactivations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-deactivations-api-openapi.yml
+- filename: twilio-devices-api-openapi.yml
+  format: yaml
+  label: Twilio Devices API
+  slug: twilio-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-devices-api-openapi.yml
+- filename: twilio-dialingpermissions-api-openapi.yml
+  format: yaml
+  label: Twilio DialingPermissions API
+  slug: twilio-dialingpermissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-dialingpermissions-api-openapi.yml
+- filename: twilio-email-validation-api-openapi.yml
+  format: yaml
+  label: Twilio Email Validation API
+  slug: twilio-email-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-email-validation-api-openapi.yml
+- filename: twilio-endusers-api-openapi.yml
+  format: yaml
+  label: Twilio EndUsers API
+  slug: twilio-endusers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-endusers-api-openapi.yml
+- filename: twilio-endusertypes-api-openapi.yml
+  format: yaml
+  label: Twilio EndUserTypes API
+  slug: twilio-endusertypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-endusertypes-api-openapi.yml
+- filename: twilio-entities-api-openapi.yml
+  format: yaml
+  label: Twilio Entities API
+  slug: twilio-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-entities-api-openapi.yml
+- filename: twilio-esimprofiles-api-openapi.yml
+  format: yaml
+  label: Twilio ESimProfiles API
+  slug: twilio-esimprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-esimprofiles-api-openapi.yml
+- filename: twilio-events-api-openapi.yml
   format: yaml
   label: Twilio Events API
   slug: twilio-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/events-openapi-original.yml
-- filename: frontline-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-events-api-openapi.yml
+- filename: twilio-exports-api-openapi.yml
   format: yaml
-  label: Twilio Frontline API
-  slug: twilio-frontline-api
+  label: Twilio Exports API
+  slug: twilio-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/frontline-openapi-original.yml
-- filename: insights-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-exports-api-openapi.yml
+- filename: twilio-factors-api-openapi.yml
+  format: yaml
+  label: Twilio Factors API
+  slug: twilio-factors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-factors-api-openapi.yml
+- filename: twilio-fleets-api-openapi.yml
+  format: yaml
+  label: Twilio Fleets API
+  slug: twilio-fleets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-fleets-api-openapi.yml
+- filename: twilio-flex-flows-api-openapi.yml
+  format: yaml
+  label: Twilio Flex Flows API
+  slug: twilio-flex-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-flex-flows-api-openapi.yml
+- filename: twilio-flows-api-openapi.yml
+  format: yaml
+  label: Twilio Flows API
+  slug: twilio-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-flows-api-openapi.yml
+- filename: twilio-forms-api-openapi.yml
+  format: yaml
+  label: Twilio Forms API
+  slug: twilio-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-forms-api-openapi.yml
+- filename: twilio-hostednumber-api-openapi.yml
+  format: yaml
+  label: Twilio HostedNumber API
+  slug: twilio-hostednumber-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-hostednumber-api-openapi.yml
+- filename: twilio-insights-api-openapi.yml
   format: yaml
   label: Twilio Insights API
   slug: twilio-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/insights-openapi-original.yml
-- filename: intelligence-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-insights-api-openapi.yml
+- filename: twilio-interactions-api-openapi.yml
   format: yaml
-  label: Twilio Intelligence API
-  slug: twilio-intelligence-api
+  label: Twilio Interactions API
+  slug: twilio-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/intelligence-openapi-original.yml
-- filename: ip-message-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-interactions-api-openapi.yml
+- filename: twilio-ipcommands-api-openapi.yml
   format: yaml
-  label: Twilio IP Messaging API
-  slug: twilio-ip-messaging-api
+  label: Twilio IpCommands API
+  slug: twilio-ipcommands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/ip-message-openapi-original.yml
-- filename: marketplace-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-ipcommands-api-openapi.yml
+- filename: twilio-iprecords-api-openapi.yml
+  format: yaml
+  label: Twilio IpRecords API
+  slug: twilio-iprecords-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-iprecords-api-openapi.yml
+- filename: twilio-keys-api-openapi.yml
+  format: yaml
+  label: Twilio Keys API
+  slug: twilio-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-keys-api-openapi.yml
+- filename: twilio-legacycontent-api-openapi.yml
+  format: yaml
+  label: Twilio LegacyContent API
+  slug: twilio-legacycontent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-legacycontent-api-openapi.yml
+- filename: twilio-linkshortening-api-openapi.yml
+  format: yaml
+  label: Twilio LinkShortening API
+  slug: twilio-linkshortening-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-linkshortening-api-openapi.yml
+- filename: twilio-lists-api-openapi.yml
+  format: yaml
+  label: Twilio Lists API
+  slug: twilio-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-lists-api-openapi.yml
+- filename: twilio-mail-send-api-openapi.yml
+  format: yaml
+  label: Twilio Mail Send API
+  slug: twilio-mail-send-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-mail-send-api-openapi.yml
+- filename: twilio-marketplace-api-openapi.yml
   format: yaml
   label: Twilio Marketplace API
   slug: twilio-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/marketplace-openapi-original.yml
-- filename: media-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-marketplace-api-openapi.yml
+- filename: twilio-media-api-openapi.yml
   format: yaml
   label: Twilio Media API
   slug: twilio-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/media-openapi-original.yml
-- filename: messaging-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-media-api-openapi.yml
+- filename: twilio-mediaprocessors-api-openapi.yml
   format: yaml
-  label: Twilio Messaging API
-  slug: twilio-messaging-api
+  label: Twilio MediaProcessors API
+  slug: twilio-mediaprocessors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/messaging-openapi-original.yml
-- filename: microvisor-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-mediaprocessors-api-openapi.yml
+- filename: twilio-mediarecordings-api-openapi.yml
   format: yaml
-  label: Twilio Microvisor API
-  slug: twilio-microvisor-api
+  label: Twilio MediaRecordings API
+  slug: twilio-mediarecordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/microvisor-openapi-original.yml
-- filename: monitor-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-mediarecordings-api-openapi.yml
+- filename: twilio-messages-api-openapi.yml
   format: yaml
-  label: Twilio Monitor API
-  slug: twilio-monitor-api
+  label: Twilio Messages API
+  slug: twilio-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/monitor-openapi-original.yml
-- filename: notify-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-messages-api-openapi.yml
+- filename: twilio-messaging-services-api-openapi.yml
   format: yaml
-  label: Twilio Notify API
-  slug: twilio-notify-api
+  label: Twilio Messaging Services API
+  slug: twilio-messaging-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/notify-openapi-original.yml
-- filename: numbers-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-messaging-services-api-openapi.yml
+- filename: twilio-networkaccessprofiles-api-openapi.yml
   format: yaml
-  label: Twilio Numbers API
-  slug: twilio-numbers-api
+  label: Twilio NetworkAccessProfiles API
+  slug: twilio-networkaccessprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/numbers-openapi-original.yml
-- filename: pricing-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-networkaccessprofiles-api-openapi.yml
+- filename: twilio-networks-api-openapi.yml
   format: yaml
-  label: Twilio Pricing API
-  slug: twilio-pricing-api
+  label: Twilio Networks API
+  slug: twilio-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/pricing-openapi-original.yml
-- filename: proxy-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-networks-api-openapi.yml
+- filename: twilio-participantconversations-api-openapi.yml
   format: yaml
-  label: Twilio Proxy API
-  slug: twilio-proxy-api
+  label: Twilio ParticipantConversations API
+  slug: twilio-participantconversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/proxy-openapi-original.yml
-- filename: routes-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-participantconversations-api-openapi.yml
+- filename: twilio-participants-api-openapi.yml
   format: yaml
-  label: Twilio Routes API
-  slug: twilio-routes-api
+  label: Twilio Participants API
+  slug: twilio-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/routes-openapi-original.yml
-- filename: serverless-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-participants-api-openapi.yml
+- filename: twilio-phone-numbers-api-openapi.yml
   format: yaml
-  label: Twilio Serverless API
-  slug: twilio-serverless-api
+  label: Twilio Phone Numbers API
+  slug: twilio-phone-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/serverless-openapi-original.yml
-- filename: studio-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-phone-numbers-api-openapi.yml
+- filename: twilio-phonenumbers-api-openapi.yml
   format: yaml
-  label: Twilio Studio API
-  slug: twilio-studio-api
+  label: Twilio PhoneNumbers API
+  slug: twilio-phonenumbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/studio-openapi-original.yml
-- filename: super-sim-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-phonenumbers-api-openapi.yml
+- filename: twilio-playerstreamers-api-openapi.yml
   format: yaml
-  label: Twilio Super SIM API
-  slug: twilio-super-sim-api
+  label: Twilio PlayerStreamers API
+  slug: twilio-playerstreamers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/super-sim-openapi-original.yml
-- filename: sync-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-playerstreamers-api-openapi.yml
+- filename: twilio-plugins-api-openapi.yml
   format: yaml
-  label: Twilio Sync API
-  slug: twilio-sync-api
+  label: Twilio Plugins API
+  slug: twilio-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/sync-openapi-original.yml
-- filename: task-router-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-plugins-api-openapi.yml
+- filename: twilio-policies-api-openapi.yml
   format: yaml
-  label: Twilio Task Router API
-  slug: twilio-task-router-api
+  label: Twilio Policies API
+  slug: twilio-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/task-router-openapi-original.yml
-- filename: trunking-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-policies-api-openapi.yml
+- filename: twilio-queues-api-openapi.yml
   format: yaml
-  label: Twilio Elastic SIP Trunking API
+  label: Twilio Queues API
+  slug: twilio-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-queues-api-openapi.yml
+- filename: twilio-rate-limits-api-openapi.yml
+  format: yaml
+  label: Twilio Rate Limits API
+  slug: twilio-rate-limits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-rate-limits-api-openapi.yml
+- filename: twilio-rateplans-api-openapi.yml
+  format: yaml
+  label: Twilio RatePlans API
+  slug: twilio-rateplans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-rateplans-api-openapi.yml
+- filename: twilio-recording-rules-api-openapi.yml
+  format: yaml
+  label: Twilio Recording Rules API
+  slug: twilio-recording-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-recording-rules-api-openapi.yml
+- filename: twilio-recordings-api-openapi.yml
+  format: yaml
+  label: Twilio Recordings API
+  slug: twilio-recordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-recordings-api-openapi.yml
+- filename: twilio-recordingsettings-api-openapi.yml
+  format: yaml
+  label: Twilio RecordingSettings API
+  slug: twilio-recordingsettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-recordingsettings-api-openapi.yml
+- filename: twilio-regulatorycompliance-api-openapi.yml
+  format: yaml
+  label: Twilio RegulatoryCompliance API
+  slug: twilio-regulatorycompliance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-regulatorycompliance-api-openapi.yml
+- filename: twilio-roles-api-openapi.yml
+  format: yaml
+  label: Twilio Roles API
+  slug: twilio-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-roles-api-openapi.yml
+- filename: twilio-rooms-api-openapi.yml
+  format: yaml
+  label: Twilio Rooms API
+  slug: twilio-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-rooms-api-openapi.yml
+- filename: twilio-safelist-api-openapi.yml
+  format: yaml
+  label: Twilio SafeList API
+  slug: twilio-safelist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-safelist-api-openapi.yml
+- filename: twilio-schemas-api-openapi.yml
+  format: yaml
+  label: Twilio Schemas API
+  slug: twilio-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-schemas-api-openapi.yml
+- filename: twilio-secrets-api-openapi.yml
+  format: yaml
+  label: Twilio Secrets API
+  slug: twilio-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-secrets-api-openapi.yml
+- filename: twilio-senders-api-openapi.yml
+  format: yaml
+  label: Twilio Senders API
+  slug: twilio-senders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-senders-api-openapi.yml
+- filename: twilio-services-api-openapi.yml
+  format: yaml
+  label: Twilio Services API
+  slug: twilio-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-services-api-openapi.yml
+- filename: twilio-settings-api-openapi.yml
+  format: yaml
+  label: Twilio Settings API
+  slug: twilio-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-settings-api-openapi.yml
+- filename: twilio-settingsupdates-api-openapi.yml
+  format: yaml
+  label: Twilio SettingsUpdates API
+  slug: twilio-settingsupdates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-settingsupdates-api-openapi.yml
+- filename: twilio-short-codes-api-openapi.yml
+  format: yaml
+  label: Twilio Short Codes API
+  slug: twilio-short-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-short-codes-api-openapi.yml
+- filename: twilio-sims-api-openapi.yml
+  format: yaml
+  label: Twilio Sims API
+  slug: twilio-sims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-sims-api-openapi.yml
+- filename: twilio-sinks-api-openapi.yml
+  format: yaml
+  label: Twilio Sinks API
+  slug: twilio-sinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-sinks-api-openapi.yml
+- filename: twilio-sipdomains-api-openapi.yml
+  format: yaml
+  label: Twilio SipDomains API
+  slug: twilio-sipdomains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-sipdomains-api-openapi.yml
+- filename: twilio-smscommands-api-openapi.yml
+  format: yaml
+  label: Twilio SmsCommands API
+  slug: twilio-smscommands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-smscommands-api-openapi.yml
+- filename: twilio-sourceipmappings-api-openapi.yml
+  format: yaml
+  label: Twilio SourceIpMappings API
+  slug: twilio-sourceipmappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-sourceipmappings-api-openapi.yml
+- filename: twilio-stats-api-openapi.yml
+  format: yaml
+  label: Twilio Stats API
+  slug: twilio-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-stats-api-openapi.yml
+- filename: twilio-subscriptions-api-openapi.yml
+  format: yaml
+  label: Twilio Subscriptions API
+  slug: twilio-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-subscriptions-api-openapi.yml
+- filename: twilio-supportingdocuments-api-openapi.yml
+  format: yaml
+  label: Twilio SupportingDocuments API
+  slug: twilio-supportingdocuments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-supportingdocuments-api-openapi.yml
+- filename: twilio-supportingdocumenttypes-api-openapi.yml
+  format: yaml
+  label: Twilio SupportingDocumentTypes API
+  slug: twilio-supportingdocumenttypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-supportingdocumenttypes-api-openapi.yml
+- filename: twilio-suppressions-api-openapi.yml
+  format: yaml
+  label: Twilio Suppressions API
+  slug: twilio-suppressions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-suppressions-api-openapi.yml
+- filename: twilio-templates-api-openapi.yml
+  format: yaml
+  label: Twilio Templates API
+  slug: twilio-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-templates-api-openapi.yml
+- filename: twilio-tollfree-api-openapi.yml
+  format: yaml
+  label: Twilio Tollfree API
+  slug: twilio-tollfree-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-tollfree-api-openapi.yml
+- filename: twilio-transcripts-api-openapi.yml
+  format: yaml
+  label: Twilio Transcripts API
+  slug: twilio-transcripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-transcripts-api-openapi.yml
+- filename: twilio-trunking-api-openapi.yml
+  format: yaml
+  label: Twilio Trunking API
   slug: twilio-trunking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/trunking-openapi-original.yml
-- filename: trust-hub-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-trunking-api-openapi.yml
+- filename: twilio-trunks-api-openapi.yml
   format: yaml
-  label: Twilio Trust Hub API
-  slug: twilio-trust-hub-api
+  label: Twilio Trunks API
+  slug: twilio-trunks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/trust-hub-openapi-original.yml
-- filename: verify-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-trunks-api-openapi.yml
+- filename: twilio-trustproducts-api-openapi.yml
   format: yaml
-  label: Twilio Verify API
-  slug: twilio-verify-api
+  label: Twilio TrustProducts API
+  slug: twilio-trustproducts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/verify-openapi-original.yml
-- filename: video-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-trustproducts-api-openapi.yml
+- filename: twilio-types-api-openapi.yml
+  format: yaml
+  label: Twilio Types API
+  slug: twilio-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-types-api-openapi.yml
+- filename: twilio-understand-api-openapi.yml
+  format: yaml
+  label: Twilio Understand API
+  slug: twilio-understand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-understand-api-openapi.yml
+- filename: twilio-usagerecords-api-openapi.yml
+  format: yaml
+  label: Twilio UsageRecords API
+  slug: twilio-usagerecords-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-usagerecords-api-openapi.yml
+- filename: twilio-users-api-openapi.yml
+  format: yaml
+  label: Twilio Users API
+  slug: twilio-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-users-api-openapi.yml
+- filename: twilio-verification-checks-api-openapi.yml
+  format: yaml
+  label: Twilio Verification Checks API
+  slug: twilio-verification-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-verification-checks-api-openapi.yml
+- filename: twilio-verifications-api-openapi.yml
+  format: yaml
+  label: Twilio Verifications API
+  slug: twilio-verifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-verifications-api-openapi.yml
+- filename: twilio-video-api-openapi.yml
   format: yaml
   label: Twilio Video API
   slug: twilio-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/video-openapi-original.yml
-- filename: voice-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-video-api-openapi.yml
+- filename: twilio-voice-api-openapi.yml
   format: yaml
   label: Twilio Voice API
   slug: twilio-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/voice-openapi-original.yml
-- filename: wireless-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-voice-api-openapi.yml
+- filename: twilio-web-channels-api-openapi.yml
   format: yaml
-  label: Twilio Wireless API
-  slug: twilio-wireless-api
+  label: Twilio Web Channels API
+  slug: twilio-web-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/wireless-openapi-original.yml
-- filename: twilio-lookup-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-web-channels-api-openapi.yml
+- filename: twilio-webhooks-api-openapi.yml
   format: yaml
-  label: Twilio Lookup API
-  slug: twilio-lookup-api
+  label: Twilio Webhooks API
+  slug: twilio-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-lookup-openapi.yml
-- filename: twilio-flex-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-webhooks-api-openapi.yml
+- filename: twilio-workspaces-api-openapi.yml
   format: yaml
-  label: Twilio Flex API
-  slug: twilio-flex-api
+  label: Twilio Workspaces API
+  slug: twilio-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-flex-openapi.yml
-- filename: twilio-sendgrid-openapi.yml
-  format: yaml
-  label: Twilio SendGrid Email API
-  slug: twilio-sendgrid-email-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-sendgrid-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''

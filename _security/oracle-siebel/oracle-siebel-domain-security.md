@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: swagger.json
-  format: json
-  label: Oracle Siebel REST API
+- filename: oracle-siebel-rest-api-openapi.yml
+  format: yaml
+  label: Oracle Siebel Siebel Rest API
   slug: oracle-siebel-rest-api
   spec_type: OpenAPI
-  url: https://{siebel-server}/siebel/v1.0/swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/openapi/oracle-siebel-rest-api-openapi.yml
 description: ''
 domains:
 - caa:

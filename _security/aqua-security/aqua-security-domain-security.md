@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: aqua-security-api.yaml
+- filename: aqua-security-authentication-api-openapi.yml
   format: yaml
-  label: Aqua Security
-  slug: aqua-security
+  label: Aqua Security Authentication API
+  slug: aqua-security-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/openapi/aqua-security-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/openapi/aqua-security-authentication-api-openapi.yml
+- filename: aqua-security-containers-api-openapi.yml
+  format: yaml
+  label: Aqua Security Containers API
+  slug: aqua-security-containers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/openapi/aqua-security-containers-api-openapi.yml
+- filename: aqua-security-images-api-openapi.yml
+  format: yaml
+  label: Aqua Security Images API
+  slug: aqua-security-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/openapi/aqua-security-images-api-openapi.yml
+- filename: aqua-security-policies-api-openapi.yml
+  format: yaml
+  label: Aqua Security Policies API
+  slug: aqua-security-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/openapi/aqua-security-policies-api-openapi.yml
+- filename: aqua-security-registries-api-openapi.yml
+  format: yaml
+  label: Aqua Security Registries API
+  slug: aqua-security-registries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/openapi/aqua-security-registries-api-openapi.yml
+- filename: aqua-security-users-api-openapi.yml
+  format: yaml
+  label: Aqua Security Users API
+  slug: aqua-security-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/openapi/aqua-security-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

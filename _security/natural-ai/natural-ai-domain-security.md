@@ -1,11 +1,95 @@
 ---
 api_specs:
-- filename: natural-ai-openapi-original.json
-  format: json
-  label: Natural API
-  slug: natural-api
+- filename: natural-ai-agent-keys-api-openapi.yml
+  format: yaml
+  label: Natural AI Agent Keys API
+  slug: natural-ai-agent-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-agent-keys-api-openapi.yml
+- filename: natural-ai-agents-api-openapi.yml
+  format: yaml
+  label: Natural AI Agents API
+  slug: natural-ai-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-agents-api-openapi.yml
+- filename: natural-ai-api-keys-api-openapi.yml
+  format: yaml
+  label: Natural AI API Keys API
+  slug: natural-ai-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-api-keys-api-openapi.yml
+- filename: natural-ai-approvals-api-openapi.yml
+  format: yaml
+  label: Natural AI Approvals API
+  slug: natural-ai-approvals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-approvals-api-openapi.yml
+- filename: natural-ai-customers-api-openapi.yml
+  format: yaml
+  label: Natural AI Customers API
+  slug: natural-ai-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-customers-api-openapi.yml
+- filename: natural-ai-events-api-openapi.yml
+  format: yaml
+  label: Natural AI Events API
+  slug: natural-ai-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-events-api-openapi.yml
+- filename: natural-ai-external-accounts-api-openapi.yml
+  format: yaml
+  label: Natural AI External Accounts API
+  slug: natural-ai-external-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-external-accounts-api-openapi.yml
+- filename: natural-ai-invitations-api-openapi.yml
+  format: yaml
+  label: Natural AI Invitations API
+  slug: natural-ai-invitations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-invitations-api-openapi.yml
+- filename: natural-ai-parties-api-openapi.yml
+  format: yaml
+  label: Natural AI Parties API
+  slug: natural-ai-parties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-parties-api-openapi.yml
+- filename: natural-ai-paymentrequests-api-openapi.yml
+  format: yaml
+  label: Natural AI PaymentRequests API
+  slug: natural-ai-paymentrequests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-paymentrequests-api-openapi.yml
+- filename: natural-ai-payments-api-openapi.yml
+  format: yaml
+  label: Natural AI Payments API
+  slug: natural-ai-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-payments-api-openapi.yml
+- filename: natural-ai-transactions-api-openapi.yml
+  format: yaml
+  label: Natural AI Transactions API
+  slug: natural-ai-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-transactions-api-openapi.yml
+- filename: natural-ai-transfers-api-openapi.yml
+  format: yaml
+  label: Natural AI Transfers API
+  slug: natural-ai-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-transfers-api-openapi.yml
+- filename: natural-ai-wallets-api-openapi.yml
+  format: yaml
+  label: Natural AI Wallets API
+  slug: natural-ai-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-wallets-api-openapi.yml
+- filename: natural-ai-webhooks-api-openapi.yml
+  format: yaml
+  label: Natural AI Webhooks API
+  slug: natural-ai-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

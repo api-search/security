@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: n2yo-openapi.yml
+- filename: n2yo-above-api-openapi.yml
   format: yaml
-  label: N2YO.com API
-  slug: n2yo-api
+  label: N2YO Above API
+  slug: n2yo-above-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n2yo/main/openapi/n2yo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/openapi/n2yo-above-api-openapi.yml
+- filename: n2yo-positions-api-openapi.yml
+  format: yaml
+  label: N2YO Positions API
+  slug: n2yo-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/openapi/n2yo-positions-api-openapi.yml
+- filename: n2yo-radio-passes-api-openapi.yml
+  format: yaml
+  label: N2YO Radio Passes API
+  slug: n2yo-radio-passes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/openapi/n2yo-radio-passes-api-openapi.yml
+- filename: n2yo-tle-api-openapi.yml
+  format: yaml
+  label: N2YO TLE API
+  slug: n2yo-tle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/openapi/n2yo-tle-api-openapi.yml
+- filename: n2yo-visual-passes-api-openapi.yml
+  format: yaml
+  label: N2YO Visual Passes API
+  slug: n2yo-visual-passes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/openapi/n2yo-visual-passes-api-openapi.yml
 description: ''
 domains:
 - caa: []

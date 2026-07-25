@@ -1,48 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: leap-meters-openapi-original.yml
+- filename: leap-create-meters-api-openapi.yml
+  format: yaml
+  label: Leap create meters API
+  slug: leap-create-meters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-create-meters-api-openapi.yml
+- filename: leap-group-dispatches-api-openapi.yml
+  format: yaml
+  label: Leap group-dispatches API
+  slug: leap-group-dispatches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-group-dispatches-api-openapi.yml
+- filename: leap-meter-details-api-openapi.yml
   format: yaml
   label: Leap Meter Details API
-  slug: meters
+  slug: leap-meter-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-meters-openapi-original.yml
-- filename: leap-enrollments-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-meter-details-api-openapi.yml
+- filename: leap-meter-dispatches-api-openapi.yml
   format: yaml
-  label: Leap Meter Enrollment API
-  slug: enrollments
+  label: Leap meter-dispatches API
+  slug: leap-meter-dispatches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-enrollments-openapi-original.yml
-- filename: leap-create-meters-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-meter-dispatches-api-openapi.yml
+- filename: leap-meter-enrollment-api-openapi.yml
   format: yaml
-  label: Leap Create Meters API
-  slug: create-meters
+  label: Leap meter enrollment API
+  slug: leap-meter-enrollment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-create-meters-openapi-original.yml
-- filename: leap-dispatching-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-meter-enrollment-api-openapi.yml
+- filename: leap-nominations-api-openapi.yml
   format: yaml
-  label: Leap Dispatch API v2
-  slug: dispatch
+  label: Leap nominations API
+  slug: leap-nominations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-dispatching-openapi-original.yml
-- filename: leap-nominations-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-nominations-api-openapi.yml
+- filename: leap-performance-api-openapi.yml
   format: yaml
-  label: Leap Meter Nomination API
-  slug: nominations
+  label: Leap performance API
+  slug: leap-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-nominations-openapi-original.yml
-- filename: leap-settlement-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-performance-api-openapi.yml
+- filename: leap-provisional-assets-api-openapi.yml
   format: yaml
-  label: Leap Revenue & Analytics API
-  slug: revenue
+  label: Leap provisional assets API
+  slug: leap-provisional-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-settlement-openapi-original.yml
-- filename: leap-webhooks-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-provisional-assets-api-openapi.yml
+- filename: leap-revenue-api-openapi.yml
   format: yaml
-  label: Leap Webhook Subscription API
-  slug: webhooks
+  label: Leap revenue API
+  slug: leap-revenue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-webhooks-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-revenue-api-openapi.yml
+- filename: leap-webhooks-api-openapi.yml
+  format: yaml
+  label: Leap webhooks API
+  slug: leap-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

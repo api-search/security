@@ -1,5 +1,48 @@
 ---
 api_key_in: []
+api_specs:
+- filename: one-inch-balance-api-openapi.yml
+  format: yaml
+  label: 1inch Balance API
+  slug: one-inch-balance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-balance-api-openapi.yml
+- filename: one-inch-gasprice-api-openapi.yml
+  format: yaml
+  label: 1inch GasPrice API
+  slug: one-inch-gasprice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-gasprice-api-openapi.yml
+- filename: one-inch-orderbook-api-openapi.yml
+  format: yaml
+  label: 1inch Orderbook API
+  slug: one-inch-orderbook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-orderbook-api-openapi.yml
+- filename: one-inch-portfolio-api-openapi.yml
+  format: yaml
+  label: 1inch Portfolio API
+  slug: one-inch-portfolio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-portfolio-api-openapi.yml
+- filename: one-inch-spotprice-api-openapi.yml
+  format: yaml
+  label: 1inch SpotPrice API
+  slug: one-inch-spotprice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-spotprice-api-openapi.yml
+- filename: one-inch-swap-api-openapi.yml
+  format: yaml
+  label: 1inch Swap API
+  slug: one-inch-swap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-swap-api-openapi.yml
+- filename: one-inch-token-api-openapi.yml
+  format: yaml
+  label: 1inch Token API
+  slug: one-inch-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-token-api-openapi.yml
 auth_types:
 - http
 description: ''

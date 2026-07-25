@@ -2,18 +2,108 @@
 api_key_in:
 - header
 api_specs:
-- filename: adobe-campaign-standard-openapi-original.yml
+- filename: adobe-campaign-custom-resources-api-openapi.yml
   format: yaml
-  label: Adobe Campaign Standard API
-  slug: standard-api
+  label: Adobe Campaign Custom Resources API
+  slug: adobe-campaign-custom-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/openapi/adobe-campaign-standard-openapi-original.yml
-- filename: adobe-campaign-classic-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/openapi/adobe-campaign-custom-resources-api-openapi.yml
+- filename: adobe-campaign-data-management-api-openapi.yml
   format: yaml
-  label: Adobe Campaign Classic API
-  slug: classic-api
+  label: Adobe Campaign Data Management API
+  slug: adobe-campaign-data-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/openapi/adobe-campaign-classic-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/openapi/adobe-campaign-data-management-api-openapi.yml
+- filename: adobe-campaign-delivery-api-openapi.yml
+  format: yaml
+  label: Adobe Campaign Delivery API
+  slug: adobe-campaign-delivery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/openapi/adobe-campaign-delivery-api-openapi.yml
+- filename: adobe-campaign-marketing-history-api-openapi.yml
+  format: yaml
+  label: Adobe Campaign Marketing History API
+  slug: adobe-campaign-marketing-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/openapi/adobe-campaign-marketing-history-api-openapi.yml
+- filename: adobe-campaign-metadata-api-openapi.yml
+  format: yaml
+  label: Adobe Campaign Metadata API
+  slug: adobe-campaign-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/openapi/adobe-campaign-metadata-api-openapi.yml
+- filename: adobe-campaign-organizational-units-api-openapi.yml
+  format: yaml
+  label: Adobe Campaign Organizational Units API
+  slug: adobe-campaign-organizational-units-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/openapi/adobe-campaign-organizational-units-api-openapi.yml
+- filename: adobe-campaign-privacy-api-openapi.yml
+  format: yaml
+  label: Adobe Campaign Privacy API
+  slug: adobe-campaign-privacy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/openapi/adobe-campaign-privacy-api-openapi.yml
+- filename: adobe-campaign-profileandservices-api-openapi.yml
+  format: yaml
+  label: Adobe Campaign ProfileAndServices API
+  slug: adobe-campaign-profileandservices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/openapi/adobe-campaign-profileandservices-api-openapi.yml
+- filename: adobe-campaign-profiles-api-openapi.yml
+  format: yaml
+  label: Adobe Campaign Profiles API
+  slug: adobe-campaign-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/openapi/adobe-campaign-profiles-api-openapi.yml
+- filename: adobe-campaign-query-definition-api-openapi.yml
+  format: yaml
+  label: Adobe Campaign Query Definition API
+  slug: adobe-campaign-query-definition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/openapi/adobe-campaign-query-definition-api-openapi.yml
+- filename: adobe-campaign-real-time-events-api-openapi.yml
+  format: yaml
+  label: Adobe Campaign Real-Time Events API
+  slug: adobe-campaign-real-time-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/openapi/adobe-campaign-real-time-events-api-openapi.yml
+- filename: adobe-campaign-session-management-api-openapi.yml
+  format: yaml
+  label: Adobe Campaign Session Management API
+  slug: adobe-campaign-session-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/openapi/adobe-campaign-session-management-api-openapi.yml
+- filename: adobe-campaign-subscription-api-openapi.yml
+  format: yaml
+  label: Adobe Campaign Subscription API
+  slug: adobe-campaign-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/openapi/adobe-campaign-subscription-api-openapi.yml
+- filename: adobe-campaign-subscriptions-api-openapi.yml
+  format: yaml
+  label: Adobe Campaign Subscriptions API
+  slug: adobe-campaign-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/openapi/adobe-campaign-subscriptions-api-openapi.yml
+- filename: adobe-campaign-transactional-messages-api-openapi.yml
+  format: yaml
+  label: Adobe Campaign Transactional Messages API
+  slug: adobe-campaign-transactional-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/openapi/adobe-campaign-transactional-messages-api-openapi.yml
+- filename: adobe-campaign-workflow-api-openapi.yml
+  format: yaml
+  label: Adobe Campaign Workflow API
+  slug: adobe-campaign-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/openapi/adobe-campaign-workflow-api-openapi.yml
+- filename: adobe-campaign-workflows-api-openapi.yml
+  format: yaml
+  label: Adobe Campaign Workflows API
+  slug: adobe-campaign-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/openapi/adobe-campaign-workflows-api-openapi.yml
 auth_types:
 - apiKey
 - http

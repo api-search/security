@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: rift-openapi.yml
+- filename: rift-orders-api-openapi.yml
   format: yaml
-  label: Rift Router API
-  slug: rift-router
+  label: Rift Orders API
+  slug: rift-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/openapi/rift-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/openapi/rift-orders-api-openapi.yml
+- filename: rift-quotes-api-openapi.yml
+  format: yaml
+  label: Rift Quotes API
+  slug: rift-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/openapi/rift-quotes-api-openapi.yml
+- filename: rift-status-api-openapi.yml
+  format: yaml
+  label: Rift Status API
+  slug: rift-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/openapi/rift-status-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

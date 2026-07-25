@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: pverify-openapi.yml
+- filename: pverify-authentication-api-openapi.yml
   format: yaml
-  label: pVerify Eligibility Inquiry API
-  slug: eligibility-inquiry
+  label: pVerify Authentication API
+  slug: pverify-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-openapi.yml
-- filename: pverify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-authentication-api-openapi.yml
+- filename: pverify-batch-api-openapi.yml
   format: yaml
-  label: pVerify Eligibility Summary API
-  slug: eligibility-summary
+  label: pVerify Batch API
+  slug: pverify-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-openapi.yml
-- filename: pverify-openapi.yml
-  format: yaml
-  label: pVerify Batch Eligibility API
-  slug: batch
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-openapi.yml
-- filename: pverify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-batch-api-openapi.yml
+- filename: pverify-claim-status-api-openapi.yml
   format: yaml
   label: pVerify Claim Status API
-  slug: claim-status
+  slug: pverify-claim-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-openapi.yml
-- filename: pverify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-claim-status-api-openapi.yml
+- filename: pverify-eligibility-api-openapi.yml
   format: yaml
-  label: pVerify Payers API
-  slug: payers
+  label: pVerify Eligibility API
+  slug: pverify-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-openapi.yml
-- filename: pverify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-eligibility-api-openapi.yml
+- filename: pverify-estimation-api-openapi.yml
   format: yaml
   label: pVerify Estimation API
-  slug: estimation
+  slug: pverify-estimation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-estimation-api-openapi.yml
+- filename: pverify-payers-api-openapi.yml
+  format: yaml
+  label: pVerify Payers API
+  slug: pverify-payers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-payers-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: nokia-netact-nbi-openapi.yml
+- filename: nokia-netact-configuration-management-api-openapi.yml
   format: yaml
-  label: Nokia NetAct / Ericsson OSS API
-  slug: nokia-netact-api
+  label: Nokia NetAct Configuration Management API
+  slug: nokia-netact-configuration-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nokia-netact/refs/heads/main/openapi/nokia-netact-nbi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-netact/refs/heads/main/openapi/nokia-netact-configuration-management-api-openapi.yml
+- filename: nokia-netact-fault-management-api-openapi.yml
+  format: yaml
+  label: Nokia NetAct Fault Management API
+  slug: nokia-netact-fault-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-netact/refs/heads/main/openapi/nokia-netact-fault-management-api-openapi.yml
+- filename: nokia-netact-performance-management-api-openapi.yml
+  format: yaml
+  label: Nokia NetAct Performance Management API
+  slug: nokia-netact-performance-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-netact/refs/heads/main/openapi/nokia-netact-performance-management-api-openapi.yml
+- filename: nokia-netact-topology-api-openapi.yml
+  format: yaml
+  label: Nokia NetAct Topology API
+  slug: nokia-netact-topology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-netact/refs/heads/main/openapi/nokia-netact-topology-api-openapi.yml
 auth_types:
 - http
 description: ''

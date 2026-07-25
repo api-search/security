@@ -42,18 +42,18 @@ api_specs:
   slug: filevine-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/openapi/filevine-tasks-api-openapi.yml
-- filename: filevine-time-entries-api-openapi.yml
-  format: yaml
-  label: Filevine Time Entries API
-  slug: filevine-time-entries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/openapi/filevine-time-entries-api-openapi.yml
 - filename: filevine-webhooks-api-openapi.yml
   format: yaml
   label: Filevine Webhooks API
   slug: filevine-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/openapi/filevine-webhooks-api-openapi.yml
+- filename: filevine-timeentries-api-openapi.yml
+  format: yaml
+  label: Filevine TimeEntries API
+  slug: filevine-timeentries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/openapi/filevine-timeentries-api-openapi.yml
 description: ''
 domains:
 - caa: []

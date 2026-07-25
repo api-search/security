@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: bank-of-queensland-cds-banking-products-openapi.yml
+- filename: bank-of-queensland-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Bank of Queensland (BOQ) CDR Product Reference Data API
-  slug: bank-of-queensland-cdr-product-reference-data-api
+  label: Bank of Queensland Banking Account Balances API
+  slug: bank-of-queensland-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-cds-banking-products-openapi.yml
-- filename: bank-of-queensland-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-banking-account-balances-api-openapi.yml
+- filename: bank-of-queensland-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Bank of Queensland (BOQ) CDR Accounts & Balances API
-  slug: bank-of-queensland-cdr-accounts-balances-api
+  label: Bank of Queensland Banking Account Direct Debits API
+  slug: bank-of-queensland-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-cds-banking-products-openapi.yml
-- filename: bank-of-queensland-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-banking-account-direct-debits-api-openapi.yml
+- filename: bank-of-queensland-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Bank of Queensland (BOQ) CDR Transactions API
-  slug: bank-of-queensland-cdr-transactions-api
+  label: Bank of Queensland Banking Account Scheduled Payments API
+  slug: bank-of-queensland-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-cds-banking-products-openapi.yml
-- filename: bank-of-queensland-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-banking-account-scheduled-payments-api-openapi.yml
+- filename: bank-of-queensland-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Bank of Queensland (BOQ) CDR Direct Debits & Scheduled Payments API
-  slug: bank-of-queensland-cdr-direct-debits-scheduled-payments-api
+  label: Bank of Queensland Banking Account Transactions API
+  slug: bank-of-queensland-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-cds-banking-products-openapi.yml
-- filename: bank-of-queensland-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-banking-account-transactions-api-openapi.yml
+- filename: bank-of-queensland-banking-accounts-api-openapi.yml
   format: yaml
-  label: Bank of Queensland (BOQ) CDR Payees API
-  slug: bank-of-queensland-cdr-payees-api
+  label: Bank of Queensland Banking Accounts API
+  slug: bank-of-queensland-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-banking-accounts-api-openapi.yml
+- filename: bank-of-queensland-banking-payees-api-openapi.yml
+  format: yaml
+  label: Bank of Queensland Banking Payees API
+  slug: bank-of-queensland-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-banking-payees-api-openapi.yml
+- filename: bank-of-queensland-banking-products-api-openapi.yml
+  format: yaml
+  label: Bank of Queensland Banking Products API
+  slug: bank-of-queensland-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

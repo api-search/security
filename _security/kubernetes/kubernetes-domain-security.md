@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: swagger.json
-  format: json
-  label: Kubernetes API
-  slug: kubernetes
+- filename: kubernetes-autoscaling-api-openapi.yml
+  format: yaml
+  label: Kubernetes Autoscaling API
+  slug: kubernetes-autoscaling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/kubernetes/kubernetes/master/api/openapi-spec/swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/openapi/kubernetes-autoscaling-api-openapi.yml
+- filename: kubernetes-cluster-api-openapi.yml
+  format: yaml
+  label: Kubernetes Cluster API
+  slug: kubernetes-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/openapi/kubernetes-cluster-api-openapi.yml
+- filename: kubernetes-config-api-openapi.yml
+  format: yaml
+  label: Kubernetes Config API
+  slug: kubernetes-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/openapi/kubernetes-config-api-openapi.yml
+- filename: kubernetes-events-api-openapi.yml
+  format: yaml
+  label: Kubernetes Events API
+  slug: kubernetes-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/openapi/kubernetes-events-api-openapi.yml
+- filename: kubernetes-namespaces-api-openapi.yml
+  format: yaml
+  label: Kubernetes Namespaces API
+  slug: kubernetes-namespaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/openapi/kubernetes-namespaces-api-openapi.yml
+- filename: kubernetes-rbac-api-openapi.yml
+  format: yaml
+  label: Kubernetes RBAC API
+  slug: kubernetes-rbac-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/openapi/kubernetes-rbac-api-openapi.yml
+- filename: kubernetes-workloads-api-openapi.yml
+  format: yaml
+  label: Kubernetes Workloads API
+  slug: kubernetes-workloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/openapi/kubernetes-workloads-api-openapi.yml
 description: ''
 domains:
 - caa:

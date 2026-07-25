@@ -2,24 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: uniblock-unified-api-openapi.yml
-  format: yaml
-  label: Uniblock Unified API
-  slug: unified-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/openapi/uniblock-unified-api-openapi.yml
-- filename: uniblock-direct-api-openapi.yml
-  format: yaml
-  label: Uniblock Direct API
-  slug: direct-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/openapi/uniblock-direct-api-openapi.yml
 - filename: uniblock-json-rpc-api-openapi.yml
   format: yaml
   label: Uniblock JSON-RPC API
   slug: json-rpc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/openapi/uniblock-json-rpc-api-openapi.yml
+- filename: uniblock-direct-pass-through-api-openapi.yml
+  format: yaml
+  label: Uniblock Direct Pass-Through API
+  slug: uniblock-direct-pass-through-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/openapi/uniblock-direct-pass-through-api-openapi.yml
+- filename: uniblock-market-data-api-openapi.yml
+  format: yaml
+  label: Uniblock Market Data API
+  slug: uniblock-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/openapi/uniblock-market-data-api-openapi.yml
+- filename: uniblock-nfts-api-openapi.yml
+  format: yaml
+  label: Uniblock NFTs API
+  slug: uniblock-nfts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/openapi/uniblock-nfts-api-openapi.yml
+- filename: uniblock-scan-api-openapi.yml
+  format: yaml
+  label: Uniblock Scan API
+  slug: uniblock-scan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/openapi/uniblock-scan-api-openapi.yml
+- filename: uniblock-tokens-api-openapi.yml
+  format: yaml
+  label: Uniblock Tokens API
+  slug: uniblock-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/openapi/uniblock-tokens-api-openapi.yml
+- filename: uniblock-transactions-api-openapi.yml
+  format: yaml
+  label: Uniblock Transactions API
+  slug: uniblock-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/openapi/uniblock-transactions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

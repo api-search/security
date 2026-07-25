@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: techcrunch-wordpress-rest-api-openapi.yml
+- filename: techcrunch-authors-api-openapi.yml
   format: yaml
-  label: TechCrunch WordPress REST API
-  slug: wordpress-rest-api
+  label: TechCrunch Authors API
+  slug: techcrunch-authors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/techcrunch/refs/heads/main/openapi/techcrunch-wordpress-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/techcrunch/refs/heads/main/openapi/techcrunch-authors-api-openapi.yml
+- filename: techcrunch-categories-api-openapi.yml
+  format: yaml
+  label: TechCrunch Categories API
+  slug: techcrunch-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/techcrunch/refs/heads/main/openapi/techcrunch-categories-api-openapi.yml
+- filename: techcrunch-comments-api-openapi.yml
+  format: yaml
+  label: TechCrunch Comments API
+  slug: techcrunch-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/techcrunch/refs/heads/main/openapi/techcrunch-comments-api-openapi.yml
+- filename: techcrunch-media-api-openapi.yml
+  format: yaml
+  label: TechCrunch Media API
+  slug: techcrunch-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/techcrunch/refs/heads/main/openapi/techcrunch-media-api-openapi.yml
+- filename: techcrunch-pages-api-openapi.yml
+  format: yaml
+  label: TechCrunch Pages API
+  slug: techcrunch-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/techcrunch/refs/heads/main/openapi/techcrunch-pages-api-openapi.yml
+- filename: techcrunch-posts-api-openapi.yml
+  format: yaml
+  label: TechCrunch Posts API
+  slug: techcrunch-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/techcrunch/refs/heads/main/openapi/techcrunch-posts-api-openapi.yml
+- filename: techcrunch-search-api-openapi.yml
+  format: yaml
+  label: TechCrunch Search API
+  slug: techcrunch-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/techcrunch/refs/heads/main/openapi/techcrunch-search-api-openapi.yml
+- filename: techcrunch-tags-api-openapi.yml
+  format: yaml
+  label: TechCrunch Tags API
+  slug: techcrunch-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/techcrunch/refs/heads/main/openapi/techcrunch-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

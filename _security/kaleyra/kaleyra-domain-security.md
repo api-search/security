@@ -1,41 +1,29 @@
 ---
 api_specs:
-- filename: kaleyra-openapi.yml
+- filename: kaleyra-messages-api-openapi.yml
   format: yaml
-  label: Kaleyra SMS API
-  slug: kaleyra-sms-api
+  label: Kaleyra Messages API
+  slug: kaleyra-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/openapi/kaleyra-openapi.yml
-- filename: kaleyra-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/openapi/kaleyra-messages-api-openapi.yml
+- filename: kaleyra-verify-api-openapi.yml
   format: yaml
-  label: Kaleyra WhatsApp API
-  slug: kaleyra-whatsapp-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/openapi/kaleyra-openapi.yml
-- filename: kaleyra-openapi.yml
-  format: yaml
-  label: Kaleyra RCS API
-  slug: kaleyra-rcs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/openapi/kaleyra-openapi.yml
-- filename: kaleyra-openapi.yml
-  format: yaml
-  label: Kaleyra Voice API
-  slug: kaleyra-voice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/openapi/kaleyra-openapi.yml
-- filename: kaleyra-openapi.yml
-  format: yaml
-  label: Kaleyra Verify (OTP) API
+  label: Kaleyra Verify API
   slug: kaleyra-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/openapi/kaleyra-openapi.yml
-- filename: kaleyra-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/openapi/kaleyra-verify-api-openapi.yml
+- filename: kaleyra-video-api-openapi.yml
   format: yaml
   label: Kaleyra Video API
   slug: kaleyra-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/openapi/kaleyra-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/openapi/kaleyra-video-api-openapi.yml
+- filename: kaleyra-voice-api-openapi.yml
+  format: yaml
+  label: Kaleyra Voice API
+  slug: kaleyra-voice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/openapi/kaleyra-voice-api-openapi.yml
 description: ''
 domains:
 - caa: []

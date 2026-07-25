@@ -1,42 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: efi-bank-openapi.yml
+- filename: efi-bank-authorization-api-openapi.yml
+  format: yaml
+  label: Efí Authorization API
+  slug: efi-bank-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-authorization-api-openapi.yml
+- filename: efi-bank-carn-api-openapi.yml
+  format: yaml
+  label: Efí Carnê API
+  slug: efi-bank-carn-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-carn-api-openapi.yml
+- filename: efi-bank-cobran-as-api-openapi.yml
+  format: yaml
+  label: Efí Cobranças API
+  slug: efi-bank-cobran-as-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-cobran-as-api-openapi.yml
+- filename: efi-bank-open-finance-api-openapi.yml
+  format: yaml
+  label: Efí Open Finance API
+  slug: efi-bank-open-finance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-open-finance-api-openapi.yml
+- filename: efi-bank-pix-charges-api-openapi.yml
   format: yaml
   label: Efí Pix Charges API
   slug: efi-bank-pix-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-openapi.yml
-- filename: efi-bank-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-pix-charges-api-openapi.yml
+- filename: efi-bank-pix-payments-api-openapi.yml
   format: yaml
   label: Efí Pix Payments API
   slug: efi-bank-pix-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-openapi.yml
-- filename: efi-bank-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-pix-payments-api-openapi.yml
+- filename: efi-bank-pix-webhooks-api-openapi.yml
   format: yaml
   label: Efí Pix Webhooks API
   slug: efi-bank-pix-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-openapi.yml
-- filename: efi-bank-openapi.yml
-  format: yaml
-  label: Efí Cobranças (Charges) API
-  slug: efi-bank-cobrancas-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-openapi.yml
-- filename: efi-bank-openapi.yml
-  format: yaml
-  label: Efí Carnê API
-  slug: efi-bank-carne-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-openapi.yml
-- filename: efi-bank-openapi.yml
-  format: yaml
-  label: Efí Pix via Open Finance API
-  slug: efi-bank-open-finance-pix-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-pix-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 - mutualTLS

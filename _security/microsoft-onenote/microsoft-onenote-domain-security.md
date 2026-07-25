@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: microsoft-onenote-openapi.yml
+- filename: microsoft-onenote-notebooks-api-openapi.yml
   format: yaml
-  label: Microsoft Graph OneNote API
-  slug: graph-onenote-api
+  label: Microsoft OneNote Notebooks API
+  slug: microsoft-onenote-notebooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onenote/refs/heads/main/openapi/microsoft-onenote-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onenote/refs/heads/main/openapi/microsoft-onenote-notebooks-api-openapi.yml
+- filename: microsoft-onenote-pages-api-openapi.yml
+  format: yaml
+  label: Microsoft OneNote Pages API
+  slug: microsoft-onenote-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onenote/refs/heads/main/openapi/microsoft-onenote-pages-api-openapi.yml
+- filename: microsoft-onenote-sectiongroups-api-openapi.yml
+  format: yaml
+  label: Microsoft OneNote SectionGroups API
+  slug: microsoft-onenote-sectiongroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onenote/refs/heads/main/openapi/microsoft-onenote-sectiongroups-api-openapi.yml
+- filename: microsoft-onenote-sections-api-openapi.yml
+  format: yaml
+  label: Microsoft OneNote Sections API
+  slug: microsoft-onenote-sections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onenote/refs/heads/main/openapi/microsoft-onenote-sections-api-openapi.yml
 description: ''
 domains:
 - caa:

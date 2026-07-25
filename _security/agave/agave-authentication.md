@@ -2,12 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: agave-unified-api-openapi.yml
+- filename: agave-budgets-api-openapi.yml
   format: yaml
-  label: Agave Unified Construction API
-  slug: unified-api
+  label: Agave Budgets API
+  slug: agave-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-unified-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-budgets-api-openapi.yml
+- filename: agave-contracts-api-openapi.yml
+  format: yaml
+  label: Agave Contracts API
+  slug: agave-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-contracts-api-openapi.yml
+- filename: agave-cost-codes-api-openapi.yml
+  format: yaml
+  label: Agave Cost Codes API
+  slug: agave-cost-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-cost-codes-api-openapi.yml
+- filename: agave-employees-api-openapi.yml
+  format: yaml
+  label: Agave Employees API
+  slug: agave-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-employees-api-openapi.yml
+- filename: agave-invoices-api-openapi.yml
+  format: yaml
+  label: Agave Invoices API
+  slug: agave-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-invoices-api-openapi.yml
+- filename: agave-link-sessions-api-openapi.yml
+  format: yaml
+  label: Agave Link Sessions API
+  slug: agave-link-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-link-sessions-api-openapi.yml
+- filename: agave-projects-api-openapi.yml
+  format: yaml
+  label: Agave Projects API
+  slug: agave-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-projects-api-openapi.yml
+- filename: agave-timesheets-api-openapi.yml
+  format: yaml
+  label: Agave Timesheets API
+  slug: agave-timesheets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-timesheets-api-openapi.yml
+- filename: agave-vendors-api-openapi.yml
+  format: yaml
+  label: Agave Vendors API
+  slug: agave-vendors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-vendors-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

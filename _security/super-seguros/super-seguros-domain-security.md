@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: super-seguros-openapi.json
-  format: json
-  label: Super Studio API
-  slug: super-studio-api
+- filename: super-seguros-quotes-api-openapi.yml
+  format: yaml
+  label: Super Seguros Quotes API
+  slug: super-seguros-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-seguros/refs/heads/main/openapi/super-seguros-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/super-seguros/refs/heads/main/openapi/super-seguros-quotes-api-openapi.yml
 description: ''
 domains:
 - caa: []

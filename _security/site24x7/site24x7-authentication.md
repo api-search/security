@@ -1,12 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.yaml
+- filename: site24x7-alarms-api-openapi.yml
   format: yaml
-  label: Site24x7 REST API
-  slug: site24x7-api
+  label: Site24x7 Alarms API
+  slug: site24x7-alarms-api
   spec_type: OpenAPI
-  url: https://www.site24x7.com/help/api/
+  url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-alarms-api-openapi.yml
+- filename: site24x7-current-status-api-openapi.yml
+  format: yaml
+  label: Site24x7 Current Status API
+  slug: site24x7-current-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-current-status-api-openapi.yml
+- filename: site24x7-maintenance-windows-api-openapi.yml
+  format: yaml
+  label: Site24x7 Maintenance Windows API
+  slug: site24x7-maintenance-windows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-maintenance-windows-api-openapi.yml
+- filename: site24x7-monitor-groups-api-openapi.yml
+  format: yaml
+  label: Site24x7 Monitor Groups API
+  slug: site24x7-monitor-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-monitor-groups-api-openapi.yml
+- filename: site24x7-monitors-api-openapi.yml
+  format: yaml
+  label: Site24x7 Monitors API
+  slug: site24x7-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-monitors-api-openapi.yml
+- filename: site24x7-notification-profiles-api-openapi.yml
+  format: yaml
+  label: Site24x7 Notification Profiles API
+  slug: site24x7-notification-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-notification-profiles-api-openapi.yml
+- filename: site24x7-outages-api-openapi.yml
+  format: yaml
+  label: Site24x7 Outages API
+  slug: site24x7-outages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-outages-api-openapi.yml
+- filename: site24x7-reports-api-openapi.yml
+  format: yaml
+  label: Site24x7 Reports API
+  slug: site24x7-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-reports-api-openapi.yml
+- filename: site24x7-tags-api-openapi.yml
+  format: yaml
+  label: Site24x7 Tags API
+  slug: site24x7-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-tags-api-openapi.yml
+- filename: site24x7-threshold-profiles-api-openapi.yml
+  format: yaml
+  label: Site24x7 Threshold Profiles API
+  slug: site24x7-threshold-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-threshold-profiles-api-openapi.yml
+- filename: site24x7-users-api-openapi.yml
+  format: yaml
+  label: Site24x7 Users API
+  slug: site24x7-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-users-api-openapi.yml
 auth_types:
 - http
 description: ''

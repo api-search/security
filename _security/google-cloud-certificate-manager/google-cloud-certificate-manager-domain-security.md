@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: certificate-manager-api-openapi.yml
+- filename: google-cloud-certificate-manager-certificatemaps-api-openapi.yml
   format: yaml
-  label: Certificate Manager API
-  slug: certificate-manager-api
+  label: Google Cloud Certificate Manager CertificateMaps API
+  slug: google-cloud-certificate-manager-certificatemaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-certificate-manager/refs/heads/main/openapi/certificate-manager-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-certificate-manager/refs/heads/main/openapi/google-cloud-certificate-manager-certificatemaps-api-openapi.yml
+- filename: google-cloud-certificate-manager-certificates-api-openapi.yml
+  format: yaml
+  label: Google Cloud Certificate Manager Certificates API
+  slug: google-cloud-certificate-manager-certificates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-certificate-manager/refs/heads/main/openapi/google-cloud-certificate-manager-certificates-api-openapi.yml
+- filename: google-cloud-certificate-manager-dnsauthorizations-api-openapi.yml
+  format: yaml
+  label: Google Cloud Certificate Manager DnsAuthorizations API
+  slug: google-cloud-certificate-manager-dnsauthorizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-certificate-manager/refs/heads/main/openapi/google-cloud-certificate-manager-dnsauthorizations-api-openapi.yml
 description: ''
 domains:
 - caa:

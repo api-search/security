@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: mastra-openapi.yml
+- filename: mastra-agents-api-openapi.yml
   format: yaml
-  label: Mastra
-  slug: mastra
+  label: Mastra Agents API
+  slug: mastra-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/openapi/mastra-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/openapi/mastra-agents-api-openapi.yml
+- filename: mastra-conversations-api-openapi.yml
+  format: yaml
+  label: Mastra Conversations API
+  slug: mastra-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/openapi/mastra-conversations-api-openapi.yml
+- filename: mastra-logs-api-openapi.yml
+  format: yaml
+  label: Mastra Logs API
+  slug: mastra-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/openapi/mastra-logs-api-openapi.yml
+- filename: mastra-mcp-api-openapi.yml
+  format: yaml
+  label: Mastra Mcp API
+  slug: mastra-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/openapi/mastra-mcp-api-openapi.yml
+- filename: mastra-memory-api-openapi.yml
+  format: yaml
+  label: Mastra Memory API
+  slug: mastra-memory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/openapi/mastra-memory-api-openapi.yml
+- filename: mastra-responses-api-openapi.yml
+  format: yaml
+  label: Mastra Responses API
+  slug: mastra-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/openapi/mastra-responses-api-openapi.yml
+- filename: mastra-telemetry-api-openapi.yml
+  format: yaml
+  label: Mastra Telemetry API
+  slug: mastra-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/openapi/mastra-telemetry-api-openapi.yml
+- filename: mastra-tools-api-openapi.yml
+  format: yaml
+  label: Mastra Tools API
+  slug: mastra-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/openapi/mastra-tools-api-openapi.yml
+- filename: mastra-vectors-api-openapi.yml
+  format: yaml
+  label: Mastra Vectors API
+  slug: mastra-vectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/openapi/mastra-vectors-api-openapi.yml
+- filename: mastra-workflows-api-openapi.yml
+  format: yaml
+  label: Mastra Workflows API
+  slug: mastra-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/openapi/mastra-workflows-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -2,12 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: wallarm-openapi.yml
+- filename: wallarm-applications-api-openapi.yml
   format: yaml
-  label: Wallarm API
-  slug: wallarm-api
+  label: Wallarm Applications API
+  slug: wallarm-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/openapi/wallarm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/openapi/wallarm-applications-api-openapi.yml
+- filename: wallarm-attacks-api-openapi.yml
+  format: yaml
+  label: Wallarm Attacks API
+  slug: wallarm-attacks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/openapi/wallarm-attacks-api-openapi.yml
+- filename: wallarm-integrations-api-openapi.yml
+  format: yaml
+  label: Wallarm Integrations API
+  slug: wallarm-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/openapi/wallarm-integrations-api-openapi.yml
+- filename: wallarm-ip-lists-api-openapi.yml
+  format: yaml
+  label: Wallarm IP Lists API
+  slug: wallarm-ip-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/openapi/wallarm-ip-lists-api-openapi.yml
+- filename: wallarm-nodes-api-openapi.yml
+  format: yaml
+  label: Wallarm Nodes API
+  slug: wallarm-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/openapi/wallarm-nodes-api-openapi.yml
+- filename: wallarm-rules-api-openapi.yml
+  format: yaml
+  label: Wallarm Rules API
+  slug: wallarm-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/openapi/wallarm-rules-api-openapi.yml
+- filename: wallarm-triggers-api-openapi.yml
+  format: yaml
+  label: Wallarm Triggers API
+  slug: wallarm-triggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/openapi/wallarm-triggers-api-openapi.yml
+- filename: wallarm-user-api-openapi.yml
+  format: yaml
+  label: Wallarm User API
+  slug: wallarm-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/openapi/wallarm-user-api-openapi.yml
+- filename: wallarm-vulnerabilities-api-openapi.yml
+  format: yaml
+  label: Wallarm Vulnerabilities API
+  slug: wallarm-vulnerabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/openapi/wallarm-vulnerabilities-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

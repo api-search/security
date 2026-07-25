@@ -1,53 +1,41 @@
 ---
 api_specs:
-- filename: superviz-openapi.yml
-  format: yaml
-  label: SuperViz Participants API
-  slug: superviz-participants-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-openapi.yml
-- filename: superviz-openapi.yml
+- filename: superviz-channels-api-openapi.yml
   format: yaml
   label: SuperViz Channels API
   slug: superviz-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-openapi.yml
-- filename: superviz-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-channels-api-openapi.yml
+- filename: superviz-comments-api-openapi.yml
   format: yaml
-  label: SuperViz Realtime Data API
-  slug: superviz-realtime-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-openapi.yml
-- filename: superviz-openapi.yml
-  format: yaml
-  label: SuperViz Rooms API
-  slug: superviz-rooms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-openapi.yml
-- filename: superviz-openapi.yml
-  format: yaml
-  label: SuperViz Contextual Comments API
+  label: SuperViz Comments API
   slug: superviz-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-openapi.yml
-- filename: superviz-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-comments-api-openapi.yml
+- filename: superviz-meetings-api-openapi.yml
   format: yaml
   label: SuperViz Meetings API
   slug: superviz-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-openapi.yml
-- filename: superviz-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-meetings-api-openapi.yml
+- filename: superviz-presence-api-openapi.yml
   format: yaml
-  label: SuperViz Webhooks API
-  slug: superviz-webhooks-api
+  label: SuperViz Presence API
+  slug: superviz-presence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-openapi.yml
-- filename: superviz-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-presence-api-openapi.yml
+- filename: superviz-realtime-api-openapi.yml
   format: yaml
-  label: SuperViz Authentication API
-  slug: superviz-authentication-api
+  label: SuperViz Realtime API
+  slug: superviz-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-realtime-api-openapi.yml
+- filename: superviz-rooms-api-openapi.yml
+  format: yaml
+  label: SuperViz Rooms API
+  slug: superviz-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-rooms-api-openapi.yml
 description: ''
 domains:
 - caa: []

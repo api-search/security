@@ -1,54 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: recvue-openapi.yml
+- filename: recvue-authentication-api-openapi.yml
   format: yaml
-  label: RecVue Revenue Recognition API
-  slug: recvue-revenue-recognition-api
+  label: RecVue Authentication API
+  slug: recvue-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-openapi.yml
-- filename: recvue-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-authentication-api-openapi.yml
+- filename: recvue-billing-api-openapi.yml
   format: yaml
   label: RecVue Billing API
   slug: recvue-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-openapi.yml
-- filename: recvue-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-billing-api-openapi.yml
+- filename: recvue-billing-schedules-api-openapi.yml
   format: yaml
   label: RecVue Billing Schedules API
   slug: recvue-billing-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-openapi.yml
-- filename: recvue-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-billing-schedules-api-openapi.yml
+- filename: recvue-customers-api-openapi.yml
+  format: yaml
+  label: RecVue Customers API
+  slug: recvue-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-customers-api-openapi.yml
+- filename: recvue-invoices-api-openapi.yml
+  format: yaml
+  label: RecVue Invoices API
+  slug: recvue-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-invoices-api-openapi.yml
+- filename: recvue-orders-api-openapi.yml
   format: yaml
   label: RecVue Orders API
   slug: recvue-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-openapi.yml
-- filename: recvue-openapi.yml
-  format: yaml
-  label: RecVue Usage and Deliveries API
-  slug: recvue-usage-deliveries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-openapi.yml
-- filename: recvue-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-orders-api-openapi.yml
+- filename: recvue-pricing-api-openapi.yml
   format: yaml
   label: RecVue Pricing API
   slug: recvue-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-openapi.yml
-- filename: recvue-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-pricing-api-openapi.yml
+- filename: recvue-programs-api-openapi.yml
   format: yaml
-  label: RecVue Customers and Accounts API
-  slug: recvue-customers-api
+  label: RecVue Programs API
+  slug: recvue-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-openapi.yml
-- filename: recvue-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-programs-api-openapi.yml
+- filename: recvue-revenue-recognition-api-openapi.yml
   format: yaml
-  label: RecVue Invoices and Adjustments API
-  slug: recvue-invoices-adjustments-api
+  label: RecVue Revenue Recognition API
+  slug: recvue-revenue-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-revenue-recognition-api-openapi.yml
+- filename: recvue-usage-api-openapi.yml
+  format: yaml
+  label: RecVue Usage API
+  slug: recvue-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-usage-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

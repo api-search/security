@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: plasmic-openapi.yml
+- filename: plasmic-items-api-openapi.yml
   format: yaml
-  label: Plasmic CMS API
-  slug: cms
+  label: Plasmic Items API
+  slug: plasmic-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plasmic/refs/heads/main/openapi/plasmic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/plasmic/refs/heads/main/openapi/plasmic-items-api-openapi.yml
+- filename: plasmic-rows-api-openapi.yml
+  format: yaml
+  label: Plasmic Rows API
+  slug: plasmic-rows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plasmic/refs/heads/main/openapi/plasmic-rows-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

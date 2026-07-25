@@ -1,30 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tealium-collect-http-openapi.yml
+- filename: tealium-auth-api-openapi.yml
   format: yaml
-  label: Tealium Collect HTTP API
-  slug: tealium-collect-http-api
+  label: Tealium Auth API
+  slug: tealium-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-collect-http-openapi.yml
-- filename: tealium-visitor-profile-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-auth-api-openapi.yml
+- filename: tealium-collect-api-openapi.yml
   format: yaml
-  label: Tealium Visitor Profile API
-  slug: tealium-visitor-profile-api
+  label: Tealium Collect API
+  slug: tealium-collect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-visitor-profile-openapi.yml
-- filename: tealium-visitor-privacy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-collect-api-openapi.yml
+- filename: tealium-customer-api-openapi.yml
   format: yaml
-  label: Tealium Visitor Privacy API
-  slug: tealium-visitor-privacy-api
+  label: Tealium Customer API
+  slug: tealium-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-visitor-privacy-openapi.yml
-- filename: tealium-moments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-customer-api-openapi.yml
+- filename: tealium-personalization-api-openapi.yml
   format: yaml
-  label: Tealium Moments API
-  slug: tealium-moments-api
+  label: Tealium Personalization API
+  slug: tealium-personalization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-moments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-personalization-api-openapi.yml
+- filename: tealium-privacy-api-openapi.yml
+  format: yaml
+  label: Tealium Privacy API
+  slug: tealium-privacy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-privacy-api-openapi.yml
 auth_types:
 - http
 description: ''

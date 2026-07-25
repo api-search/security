@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: google-ads-api-openapi.yml
+- filename: google-ads-ad-groups-api-openapi.yml
   format: yaml
-  label: Google Ads API
-  slug: google-ads-api
+  label: Google Ads Ad Groups API
+  slug: google-ads-ad-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-ad-groups-api-openapi.yml
+- filename: google-ads-ads-api-openapi.yml
+  format: yaml
+  label: Google Ads Ads API
+  slug: google-ads-ads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-ads-api-openapi.yml
+- filename: google-ads-bidding-strategies-api-openapi.yml
+  format: yaml
+  label: Google Ads Bidding Strategies API
+  slug: google-ads-bidding-strategies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-bidding-strategies-api-openapi.yml
+- filename: google-ads-campaigns-api-openapi.yml
+  format: yaml
+  label: Google Ads Campaigns API
+  slug: google-ads-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-campaigns-api-openapi.yml
+- filename: google-ads-customers-api-openapi.yml
+  format: yaml
+  label: Google Ads Customers API
+  slug: google-ads-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-customers-api-openapi.yml
+- filename: google-ads-keywords-api-openapi.yml
+  format: yaml
+  label: Google Ads Keywords API
+  slug: google-ads-keywords-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-keywords-api-openapi.yml
+- filename: google-ads-reporting-api-openapi.yml
+  format: yaml
+  label: Google Ads Reporting API
+  slug: google-ads-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-reporting-api-openapi.yml
 description: ''
 domains:
 - caa:

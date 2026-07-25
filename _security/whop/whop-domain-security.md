@@ -1,71 +1,71 @@
 ---
 api_specs:
-- filename: whop-openapi.yml
-  format: yaml
-  label: Whop Memberships API
-  slug: whop-memberships-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/openapi/whop-openapi.yml
-- filename: whop-openapi.yml
-  format: yaml
-  label: Whop Products API
-  slug: whop-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/openapi/whop-openapi.yml
-- filename: whop-openapi.yml
-  format: yaml
-  label: Whop Plans API
-  slug: whop-plans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/openapi/whop-openapi.yml
-- filename: whop-openapi.yml
-  format: yaml
-  label: Whop Payments API
-  slug: whop-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/openapi/whop-openapi.yml
-- filename: whop-openapi.yml
-  format: yaml
-  label: Whop Users API
-  slug: whop-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/openapi/whop-openapi.yml
-- filename: whop-openapi.yml
-  format: yaml
-  label: Whop Companies API
-  slug: whop-companies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/openapi/whop-openapi.yml
-- filename: whop-openapi.yml
-  format: yaml
-  label: Whop Checkout Configurations API
-  slug: whop-checkout-configurations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/openapi/whop-openapi.yml
-- filename: whop-openapi.yml
-  format: yaml
-  label: Whop Transfers API
-  slug: whop-transfers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/openapi/whop-openapi.yml
-- filename: whop-openapi.yml
-  format: yaml
-  label: Whop Webhooks API
-  slug: whop-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/openapi/whop-openapi.yml
-- filename: whop-openapi.yml
-  format: yaml
-  label: Whop Promo Codes API
-  slug: whop-promo-codes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/openapi/whop-openapi.yml
 - filename: whop-asyncapi.yml
   format: yaml
   label: Whop Realtime WebSocket API
   slug: whop-realtime-websocket-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/asyncapi/whop-asyncapi.yml
+- filename: whop-checkout-configurations-api-openapi.yml
+  format: yaml
+  label: Whop Checkout Configurations API
+  slug: whop-checkout-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/openapi/whop-checkout-configurations-api-openapi.yml
+- filename: whop-companies-api-openapi.yml
+  format: yaml
+  label: Whop Companies API
+  slug: whop-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/openapi/whop-companies-api-openapi.yml
+- filename: whop-memberships-api-openapi.yml
+  format: yaml
+  label: Whop Memberships API
+  slug: whop-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/openapi/whop-memberships-api-openapi.yml
+- filename: whop-payments-api-openapi.yml
+  format: yaml
+  label: Whop Payments API
+  slug: whop-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/openapi/whop-payments-api-openapi.yml
+- filename: whop-plans-api-openapi.yml
+  format: yaml
+  label: Whop Plans API
+  slug: whop-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/openapi/whop-plans-api-openapi.yml
+- filename: whop-products-api-openapi.yml
+  format: yaml
+  label: Whop Products API
+  slug: whop-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/openapi/whop-products-api-openapi.yml
+- filename: whop-promo-codes-api-openapi.yml
+  format: yaml
+  label: Whop Promo Codes API
+  slug: whop-promo-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/openapi/whop-promo-codes-api-openapi.yml
+- filename: whop-transfers-api-openapi.yml
+  format: yaml
+  label: Whop Transfers API
+  slug: whop-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/openapi/whop-transfers-api-openapi.yml
+- filename: whop-users-api-openapi.yml
+  format: yaml
+  label: Whop Users API
+  slug: whop-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/openapi/whop-users-api-openapi.yml
+- filename: whop-webhooks-api-openapi.yml
+  format: yaml
+  label: Whop Webhooks API
+  slug: whop-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/openapi/whop-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

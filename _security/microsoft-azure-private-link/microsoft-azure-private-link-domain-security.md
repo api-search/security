@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: microsoft-azure-private-link-openapi.yml
+- filename: microsoft-azure-private-link-operations-api-openapi.yml
   format: yaml
-  label: Azure Private Link REST API
-  slug: rest-api
+  label: microsoft-azure-private-link Operations API
+  slug: microsoft-azure-private-link-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/openapi/microsoft-azure-private-link-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/openapi/microsoft-azure-private-link-operations-api-openapi.yml
+- filename: microsoft-azure-private-link-private-endpoints-api-openapi.yml
+  format: yaml
+  label: microsoft-azure-private-link Private Endpoints API
+  slug: microsoft-azure-private-link-private-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/openapi/microsoft-azure-private-link-private-endpoints-api-openapi.yml
 description: ''
 domains:
 - caa:

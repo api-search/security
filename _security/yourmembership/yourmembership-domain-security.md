@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: yourmembership-openapi.yml
+- filename: yourmembership-authentication-api-openapi.yml
   format: yaml
-  label: YourMembership Members API
-  slug: yourmembership-members-api
+  label: YourMembership Authentication API
+  slug: yourmembership-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-openapi.yml
-- filename: yourmembership-openapi.yml
-  format: yaml
-  label: YourMembership Events API
-  slug: yourmembership-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-openapi.yml
-- filename: yourmembership-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-authentication-api-openapi.yml
+- filename: yourmembership-certifications-api-openapi.yml
   format: yaml
   label: YourMembership Certifications API
   slug: yourmembership-certifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-openapi.yml
-- filename: yourmembership-openapi.yml
-  format: yaml
-  label: YMCareers API
-  slug: yourmembership-careers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-openapi.yml
-- filename: yourmembership-openapi.yml
-  format: yaml
-  label: YourMembership Content and Community API
-  slug: yourmembership-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-openapi.yml
-- filename: yourmembership-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-certifications-api-openapi.yml
+- filename: yourmembership-commerce-and-sales-api-openapi.yml
   format: yaml
   label: YourMembership Commerce and Sales API
-  slug: yourmembership-commerce-api
+  slug: yourmembership-commerce-and-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-commerce-and-sales-api-openapi.yml
+- filename: yourmembership-content-and-community-api-openapi.yml
+  format: yaml
+  label: YourMembership Content and Community API
+  slug: yourmembership-content-and-community-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-content-and-community-api-openapi.yml
+- filename: yourmembership-events-api-openapi.yml
+  format: yaml
+  label: YourMembership Events API
+  slug: yourmembership-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-events-api-openapi.yml
+- filename: yourmembership-members-api-openapi.yml
+  format: yaml
+  label: YourMembership Members API
+  slug: yourmembership-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-members-api-openapi.yml
 description: ''
 domains:
 - caa: []

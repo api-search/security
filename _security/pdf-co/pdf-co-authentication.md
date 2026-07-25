@@ -2,60 +2,66 @@
 api_key_in:
 - header
 api_specs:
-- filename: pdf-co-openapi.yml
-  format: yaml
-  label: PDF.co Extraction API
-  slug: pdf-co-extraction-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-openapi.yml
-- filename: pdf-co-openapi.yml
-  format: yaml
-  label: PDF.co Conversion API
-  slug: pdf-co-conversion-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-openapi.yml
-- filename: pdf-co-openapi.yml
-  format: yaml
-  label: PDF.co Editing API
-  slug: pdf-co-editing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-openapi.yml
-- filename: pdf-co-openapi.yml
-  format: yaml
-  label: PDF.co Merging and Splitting API
-  slug: pdf-co-merging-splitting-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-openapi.yml
-- filename: pdf-co-openapi.yml
-  format: yaml
-  label: PDF.co Find and Search API
-  slug: pdf-co-find-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-openapi.yml
-- filename: pdf-co-openapi.yml
-  format: yaml
-  label: PDF.co Forms API
-  slug: pdf-co-forms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-openapi.yml
-- filename: pdf-co-openapi.yml
-  format: yaml
-  label: PDF.co Pages API
-  slug: pdf-co-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-openapi.yml
-- filename: pdf-co-openapi.yml
+- filename: pdf-co-barcodes-api-openapi.yml
   format: yaml
   label: PDF.co Barcodes API
   slug: pdf-co-barcodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-openapi.yml
-- filename: pdf-co-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-barcodes-api-openapi.yml
+- filename: pdf-co-document-file-system-api-openapi.yml
   format: yaml
-  label: PDF.co Document, File, and System API
+  label: PDF.co Document, File & System API
   slug: pdf-co-document-file-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-document-file-system-api-openapi.yml
+- filename: pdf-co-editing-api-openapi.yml
+  format: yaml
+  label: PDF.co Editing API
+  slug: pdf-co-editing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-editing-api-openapi.yml
+- filename: pdf-co-excel-conversion-api-openapi.yml
+  format: yaml
+  label: PDF.co Excel Conversion API
+  slug: pdf-co-excel-conversion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-excel-conversion-api-openapi.yml
+- filename: pdf-co-extraction-api-openapi.yml
+  format: yaml
+  label: PDF.co Extraction API
+  slug: pdf-co-extraction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-extraction-api-openapi.yml
+- filename: pdf-co-find-search-api-openapi.yml
+  format: yaml
+  label: PDF.co Find & Search API
+  slug: pdf-co-find-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-find-search-api-openapi.yml
+- filename: pdf-co-forms-api-openapi.yml
+  format: yaml
+  label: PDF.co Forms API
+  slug: pdf-co-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-forms-api-openapi.yml
+- filename: pdf-co-pages-api-openapi.yml
+  format: yaml
+  label: PDF.co Pages API
+  slug: pdf-co-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-pages-api-openapi.yml
+- filename: pdf-co-pdf-conversion-api-openapi.yml
+  format: yaml
+  label: PDF.co PDF Conversion API
+  slug: pdf-co-pdf-conversion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-pdf-conversion-api-openapi.yml
+- filename: pdf-co-pdf-merging-splitting-api-openapi.yml
+  format: yaml
+  label: PDF.co PDF Merging & Splitting API
+  slug: pdf-co-pdf-merging-splitting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-pdf-merging-splitting-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

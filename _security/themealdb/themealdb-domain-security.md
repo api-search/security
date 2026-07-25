@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: themealdb-openapi.yml
+- filename: themealdb-filter-api-openapi.yml
   format: yaml
-  label: TheMealDB API
-  slug: themealdb
+  label: TheMealDB Filter API
+  slug: themealdb-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/themealdb/refs/heads/main/openapi/themealdb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/themealdb/refs/heads/main/openapi/themealdb-filter-api-openapi.yml
+- filename: themealdb-list-api-openapi.yml
+  format: yaml
+  label: TheMealDB List API
+  slug: themealdb-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/themealdb/refs/heads/main/openapi/themealdb-list-api-openapi.yml
+- filename: themealdb-lookup-api-openapi.yml
+  format: yaml
+  label: TheMealDB Lookup API
+  slug: themealdb-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/themealdb/refs/heads/main/openapi/themealdb-lookup-api-openapi.yml
+- filename: themealdb-search-api-openapi.yml
+  format: yaml
+  label: TheMealDB Search API
+  slug: themealdb-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/themealdb/refs/heads/main/openapi/themealdb-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

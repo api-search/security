@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: aws-glue-openapi.yml
+- filename: aws-glue-aws-glue-api-api-openapi.yml
   format: yaml
-  label: AWS Glue API
-  slug: glue-api
+  label: AWS Glue AWS Glue API API
+  slug: aws-glue-aws-glue-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-glue/refs/heads/main/openapi/aws-glue-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aws-glue/refs/heads/main/openapi/aws-glue-aws-glue-api-api-openapi.yml
 certifications:
 - PCI DSS
 - HIPAA

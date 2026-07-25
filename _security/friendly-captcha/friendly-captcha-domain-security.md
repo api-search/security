@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: friendly-captcha-openapi.yml
+- filename: friendly-captcha-siteverify-api-openapi.yml
   format: yaml
   label: Friendly Captcha Siteverify API
-  slug: siteverify
+  slug: friendly-captcha-siteverify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/friendly-captcha/refs/heads/main/openapi/friendly-captcha-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/friendly-captcha/refs/heads/main/openapi/friendly-captcha-siteverify-api-openapi.yml
 description: ''
 domains:
 - caa: []

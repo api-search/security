@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: ice-consolidated-feed-api-openapi.yml
+- filename: intercontinental-exchange-instruments-api-openapi.yml
   format: yaml
   label: ICE Consolidated Feed API
   slug: consolidated-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/openapi/ice-consolidated-feed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/openapi/intercontinental-exchange-instruments-api-openapi.yml
 description: ''
 domains:
 - caa: []

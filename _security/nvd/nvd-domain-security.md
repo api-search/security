@@ -1,35 +1,35 @@
 ---
 api_specs:
-- filename: nvd-cve-openapi.yml
-  format: yaml
-  label: NVD CVE API
-  slug: nvd-cve
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvd/refs/heads/main/openapi/nvd-cve-openapi.yml
-- filename: nvd-cve-openapi.yml
-  format: yaml
-  label: NVD CVE Change History API
-  slug: nvd-cve-history
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvd/refs/heads/main/openapi/nvd-cve-openapi.yml
-- filename: nvd-cve-openapi.yml
+- filename: nvd-cpe-api-openapi.yml
   format: yaml
   label: NVD CPE API
-  slug: nvd-cpe
+  slug: nvd-cpe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvd/refs/heads/main/openapi/nvd-cve-openapi.yml
-- filename: nvd-cve-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nvd/refs/heads/main/openapi/nvd-cpe-api-openapi.yml
+- filename: nvd-cpe-match-api-openapi.yml
   format: yaml
-  label: NVD CPE Match Criteria API
-  slug: nvd-cpe-match
+  label: NVD CPE Match API
+  slug: nvd-cpe-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvd/refs/heads/main/openapi/nvd-cve-openapi.yml
-- filename: nvd-cve-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nvd/refs/heads/main/openapi/nvd-cpe-match-api-openapi.yml
+- filename: nvd-cve-api-openapi.yml
   format: yaml
-  label: NVD Source API
-  slug: nvd-source
+  label: NVD CVE API
+  slug: nvd-cve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvd/refs/heads/main/openapi/nvd-cve-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nvd/refs/heads/main/openapi/nvd-cve-api-openapi.yml
+- filename: nvd-cve-change-history-api-openapi.yml
+  format: yaml
+  label: NVD CVE Change History API
+  slug: nvd-cve-change-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nvd/refs/heads/main/openapi/nvd-cve-change-history-api-openapi.yml
+- filename: nvd-sources-api-openapi.yml
+  format: yaml
+  label: NVD Sources API
+  slug: nvd-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nvd/refs/heads/main/openapi/nvd-sources-api-openapi.yml
 description: ''
 domains:
 - caa: []

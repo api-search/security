@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: marinetraffic-ais-openapi.yml
+- filename: marinetraffic-port-operations-api-openapi.yml
   format: yaml
-  label: MarineTraffic AIS Vessel Tracking API
-  slug: marinetraffic-ais-api
+  label: MarineTraffic Port Operations API
+  slug: marinetraffic-port-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marinetraffic/refs/heads/main/openapi/marinetraffic-ais-openapi.yml
-- filename: marinetraffic-ais-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marinetraffic/refs/heads/main/openapi/marinetraffic-port-operations-api-openapi.yml
+- filename: marinetraffic-vessel-tracking-api-openapi.yml
   format: yaml
-  label: MarineTraffic AIS Vessel Tracking API
-  slug: marinetraffic-api
+  label: MarineTraffic Vessel Tracking API
+  slug: marinetraffic-vessel-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marinetraffic/refs/heads/main/openapi/marinetraffic-ais-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marinetraffic/refs/heads/main/openapi/marinetraffic-vessel-tracking-api-openapi.yml
+- filename: marinetraffic-vessels-api-openapi.yml
+  format: yaml
+  label: MarineTraffic Vessels API
+  slug: marinetraffic-vessels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marinetraffic/refs/heads/main/openapi/marinetraffic-vessels-api-openapi.yml
 description: ''
 domains:
 - caa: []

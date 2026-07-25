@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: mediastack-openapi.yml
+- filename: mediastack-news-api-openapi.yml
   format: yaml
   label: Mediastack News API
   slug: mediastack-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediastack/refs/heads/main/openapi/mediastack-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mediastack/refs/heads/main/openapi/mediastack-news-api-openapi.yml
+- filename: mediastack-sources-api-openapi.yml
+  format: yaml
+  label: Mediastack Sources API
+  slug: mediastack-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediastack/refs/heads/main/openapi/mediastack-sources-api-openapi.yml
 description: ''
 domains:
 - caa: []

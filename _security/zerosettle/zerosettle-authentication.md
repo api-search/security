@@ -2,12 +2,78 @@
 api_key_in:
 - header
 api_specs:
-- filename: zerosettle-openapi.json
-  format: json
-  label: ZeroSettle IAP API
-  slug: zerosettle-iap-api
+- filename: zerosettle-cancel-flow-api-openapi.yml
+  format: yaml
+  label: ZeroSettle Cancel Flow API
+  slug: zerosettle-cancel-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/openapi/zerosettle-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/openapi/zerosettle-cancel-flow-api-openapi.yml
+- filename: zerosettle-checkout-api-openapi.yml
+  format: yaml
+  label: ZeroSettle Checkout API
+  slug: zerosettle-checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/openapi/zerosettle-checkout-api-openapi.yml
+- filename: zerosettle-entitlements-api-openapi.yml
+  format: yaml
+  label: ZeroSettle Entitlements API
+  slug: zerosettle-entitlements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/openapi/zerosettle-entitlements-api-openapi.yml
+- filename: zerosettle-events-api-openapi.yml
+  format: yaml
+  label: ZeroSettle Events API
+  slug: zerosettle-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/openapi/zerosettle-events-api-openapi.yml
+- filename: zerosettle-migration-api-openapi.yml
+  format: yaml
+  label: ZeroSettle Migration API
+  slug: zerosettle-migration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/openapi/zerosettle-migration-api-openapi.yml
+- filename: zerosettle-products-api-openapi.yml
+  format: yaml
+  label: ZeroSettle Products API
+  slug: zerosettle-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/openapi/zerosettle-products-api-openapi.yml
+- filename: zerosettle-restore-api-openapi.yml
+  format: yaml
+  label: ZeroSettle Restore API
+  slug: zerosettle-restore-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/openapi/zerosettle-restore-api-openapi.yml
+- filename: zerosettle-storekit-api-openapi.yml
+  format: yaml
+  label: ZeroSettle StoreKit API
+  slug: zerosettle-storekit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/openapi/zerosettle-storekit-api-openapi.yml
+- filename: zerosettle-subscriptions-api-openapi.yml
+  format: yaml
+  label: ZeroSettle Subscriptions API
+  slug: zerosettle-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/openapi/zerosettle-subscriptions-api-openapi.yml
+- filename: zerosettle-transactions-api-openapi.yml
+  format: yaml
+  label: ZeroSettle Transactions API
+  slug: zerosettle-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/openapi/zerosettle-transactions-api-openapi.yml
+- filename: zerosettle-upgrade-offers-api-openapi.yml
+  format: yaml
+  label: ZeroSettle Upgrade Offers API
+  slug: zerosettle-upgrade-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/openapi/zerosettle-upgrade-offers-api-openapi.yml
+- filename: zerosettle-user-offer-api-openapi.yml
+  format: yaml
+  label: ZeroSettle User Offer API
+  slug: zerosettle-user-offer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/openapi/zerosettle-user-offer-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

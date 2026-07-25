@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: mealme-openapi.yml
+- filename: mealme-carts-api-openapi.yml
   format: yaml
-  label: MealMe Food Ordering API
-  slug: mealme-api
+  label: MealMe Carts API
+  slug: mealme-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/openapi/mealme-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/openapi/mealme-carts-api-openapi.yml
+- filename: mealme-connect-accounts-api-openapi.yml
+  format: yaml
+  label: MealMe Connect Accounts API
+  slug: mealme-connect-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/openapi/mealme-connect-accounts-api-openapi.yml
+- filename: mealme-geocoding-api-openapi.yml
+  format: yaml
+  label: MealMe Geocoding API
+  slug: mealme-geocoding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/openapi/mealme-geocoding-api-openapi.yml
+- filename: mealme-orders-api-openapi.yml
+  format: yaml
+  label: MealMe Orders API
+  slug: mealme-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/openapi/mealme-orders-api-openapi.yml
+- filename: mealme-payments-api-openapi.yml
+  format: yaml
+  label: MealMe Payments API
+  slug: mealme-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/openapi/mealme-payments-api-openapi.yml
+- filename: mealme-search-api-openapi.yml
+  format: yaml
+  label: MealMe Search API
+  slug: mealme-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/openapi/mealme-search-api-openapi.yml
+- filename: mealme-stores-api-openapi.yml
+  format: yaml
+  label: MealMe Stores API
+  slug: mealme-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/openapi/mealme-stores-api-openapi.yml
+- filename: mealme-support-chat-api-openapi.yml
+  format: yaml
+  label: MealMe Support Chat API
+  slug: mealme-support-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/openapi/mealme-support-chat-api-openapi.yml
+- filename: mealme-tracking-api-openapi.yml
+  format: yaml
+  label: MealMe Tracking API
+  slug: mealme-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/openapi/mealme-tracking-api-openapi.yml
 description: ''
 domains:
 - caa: []

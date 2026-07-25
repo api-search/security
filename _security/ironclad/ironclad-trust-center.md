@@ -1,23 +1,77 @@
 ---
 api_specs:
-- filename: ironclad-public-api-openapi.yml
+- filename: ironclad-authorization-api-openapi.yml
   format: yaml
-  label: Ironclad Public API
-  slug: ironclad-public-api
+  label: Ironclad Authorization API
+  slug: ironclad-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-public-api-openapi.yml
-- filename: ironclad-oauth-20-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-authorization-api-openapi.yml
+- filename: ironclad-entities-api-openapi.yml
   format: yaml
-  label: Ironclad OAuth 2.0 API
-  slug: ironclad-oauth-api
+  label: Ironclad Entities API
+  slug: ironclad-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-oauth-20-api-openapi.yml
-- filename: ironclad-scim-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-entities-api-openapi.yml
+- filename: ironclad-exports-api-openapi.yml
   format: yaml
-  label: Ironclad SCIM 2.0 API
-  slug: ironclad-scim-api
+  label: Ironclad Exports API
+  slug: ironclad-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-scim-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-exports-api-openapi.yml
+- filename: ironclad-groups-api-openapi.yml
+  format: yaml
+  label: Ironclad Groups API
+  slug: ironclad-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-groups-api-openapi.yml
+- filename: ironclad-obligations-api-openapi.yml
+  format: yaml
+  label: Ironclad Obligations API
+  slug: ironclad-obligations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-obligations-api-openapi.yml
+- filename: ironclad-records-api-openapi.yml
+  format: yaml
+  label: Ironclad Records API
+  slug: ironclad-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-records-api-openapi.yml
+- filename: ironclad-resources-api-openapi.yml
+  format: yaml
+  label: Ironclad Resources API
+  slug: ironclad-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-resources-api-openapi.yml
+- filename: ironclad-schemas-api-openapi.yml
+  format: yaml
+  label: Ironclad Schemas API
+  slug: ironclad-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-schemas-api-openapi.yml
+- filename: ironclad-search-api-openapi.yml
+  format: yaml
+  label: Ironclad Search API
+  slug: ironclad-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-search-api-openapi.yml
+- filename: ironclad-users-api-openapi.yml
+  format: yaml
+  label: Ironclad Users API
+  slug: ironclad-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-users-api-openapi.yml
+- filename: ironclad-webhooks-api-openapi.yml
+  format: yaml
+  label: Ironclad Webhooks API
+  slug: ironclad-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-webhooks-api-openapi.yml
+- filename: ironclad-workflows-api-openapi.yml
+  format: yaml
+  label: Ironclad Workflows API
+  slug: ironclad-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-workflows-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

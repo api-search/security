@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: university-of-auckland-figshare-rest.yaml
+- filename: university-of-auckland-altmetric-api-openapi.yml
   format: yaml
-  label: University of Auckland Figshare Research Repository API
-  slug: figshare-rest
+  label: University of Auckland altmetric API
+  slug: university-of-auckland-altmetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/university-of-auckland-figshare-rest.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/university-of-auckland-altmetric-api-openapi.yml
+- filename: university-of-auckland-articles-api-openapi.yml
+  format: yaml
+  label: University of Auckland articles API
+  slug: university-of-auckland-articles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/university-of-auckland-articles-api-openapi.yml
+- filename: university-of-auckland-authors-api-openapi.yml
+  format: yaml
+  label: University of Auckland authors API
+  slug: university-of-auckland-authors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/university-of-auckland-authors-api-openapi.yml
+- filename: university-of-auckland-collections-api-openapi.yml
+  format: yaml
+  label: University of Auckland collections API
+  slug: university-of-auckland-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/university-of-auckland-collections-api-openapi.yml
+- filename: university-of-auckland-institutions-api-openapi.yml
+  format: yaml
+  label: University of Auckland institutions API
+  slug: university-of-auckland-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/university-of-auckland-institutions-api-openapi.yml
+- filename: university-of-auckland-oauth-api-openapi.yml
+  format: yaml
+  label: University of Auckland oauth API
+  slug: university-of-auckland-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/university-of-auckland-oauth-api-openapi.yml
+- filename: university-of-auckland-other-api-openapi.yml
+  format: yaml
+  label: University of Auckland other API
+  slug: university-of-auckland-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/university-of-auckland-other-api-openapi.yml
+- filename: university-of-auckland-profiles-api-openapi.yml
+  format: yaml
+  label: University of Auckland profiles API
+  slug: university-of-auckland-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/university-of-auckland-profiles-api-openapi.yml
+- filename: university-of-auckland-projects-api-openapi.yml
+  format: yaml
+  label: University of Auckland projects API
+  slug: university-of-auckland-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/university-of-auckland-projects-api-openapi.yml
+- filename: university-of-auckland-symplectic-api-openapi.yml
+  format: yaml
+  label: University of Auckland symplectic API
+  slug: university-of-auckland-symplectic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/university-of-auckland-symplectic-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

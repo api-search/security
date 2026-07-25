@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: mubert-music-api-openapi.yml
+- filename: mubert-price-api-openapi.yml
   format: yaml
-  label: Mubert AI Music API
-  slug: mubert-music-api
+  label: Mubert Price API
+  slug: mubert-price-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/openapi/mubert-music-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/openapi/mubert-price-api-openapi.yml
+- filename: mubert-public-api-openapi.yml
+  format: yaml
+  label: Mubert Public API
+  slug: mubert-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/openapi/mubert-public-api-openapi.yml
+- filename: mubert-public-service-api-openapi.yml
+  format: yaml
+  label: Mubert Public Service API
+  slug: mubert-public-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/openapi/mubert-public-service-api-openapi.yml
+- filename: mubert-service-api-openapi.yml
+  format: yaml
+  label: Mubert Service API
+  slug: mubert-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/openapi/mubert-service-api-openapi.yml
+- filename: mubert-stripe-api-openapi.yml
+  format: yaml
+  label: Mubert Stripe API
+  slug: mubert-stripe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/openapi/mubert-stripe-api-openapi.yml
+- filename: mubert-subscription-api-openapi.yml
+  format: yaml
+  label: Mubert Subscription API
+  slug: mubert-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/openapi/mubert-subscription-api-openapi.yml
 description: ''
 domains:
 - caa: []

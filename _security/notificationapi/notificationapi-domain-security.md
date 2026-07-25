@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: notificationapi-openapi.yml
-  format: yaml
-  label: NotificationAPI Send API
-  slug: notificationapi-send-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-openapi.yml
-- filename: notificationapi-openapi.yml
-  format: yaml
-  label: NotificationAPI Schedule API
-  slug: notificationapi-schedule-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-openapi.yml
-- filename: notificationapi-openapi.yml
-  format: yaml
-  label: NotificationAPI Users Identify API
-  slug: notificationapi-users-identify-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-openapi.yml
-- filename: notificationapi-openapi.yml
-  format: yaml
-  label: NotificationAPI User Preferences API
-  slug: notificationapi-user-preferences-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-openapi.yml
-- filename: notificationapi-openapi.yml
-  format: yaml
-  label: NotificationAPI Notifications Config API
-  slug: notificationapi-notifications-config-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-openapi.yml
-- filename: notificationapi-openapi.yml
+- filename: notificationapi-in-app-inbox-api-openapi.yml
   format: yaml
   label: NotificationAPI In-App Inbox API
   slug: notificationapi-in-app-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-openapi.yml
-- filename: notificationapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-in-app-inbox-api-openapi.yml
+- filename: notificationapi-logs-api-openapi.yml
   format: yaml
   label: NotificationAPI Logs API
   slug: notificationapi-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-logs-api-openapi.yml
+- filename: notificationapi-notifications-api-openapi.yml
+  format: yaml
+  label: NotificationAPI Notifications API
+  slug: notificationapi-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-notifications-api-openapi.yml
+- filename: notificationapi-schedule-api-openapi.yml
+  format: yaml
+  label: NotificationAPI Schedule API
+  slug: notificationapi-schedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-schedule-api-openapi.yml
+- filename: notificationapi-send-api-openapi.yml
+  format: yaml
+  label: NotificationAPI Send API
+  slug: notificationapi-send-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-send-api-openapi.yml
+- filename: notificationapi-user-preferences-api-openapi.yml
+  format: yaml
+  label: NotificationAPI User Preferences API
+  slug: notificationapi-user-preferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-user-preferences-api-openapi.yml
+- filename: notificationapi-users-api-openapi.yml
+  format: yaml
+  label: NotificationAPI Users API
+  slug: notificationapi-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

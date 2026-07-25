@@ -1,11 +1,155 @@
 ---
 api_specs:
-- filename: shortcut-software-openapi-original.json
-  format: json
-  label: Shortcut API
-  slug: shortcut-api
+- filename: shortcut-software-categories-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Categories API
+  slug: shortcut-software-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-categories-api-openapi.yml
+- filename: shortcut-software-custom-fields-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Custom Fields API
+  slug: shortcut-software-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-custom-fields-api-openapi.yml
+- filename: shortcut-software-documents-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Documents API
+  slug: shortcut-software-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-documents-api-openapi.yml
+- filename: shortcut-software-entity-templates-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Entity Templates API
+  slug: shortcut-software-entity-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-entity-templates-api-openapi.yml
+- filename: shortcut-software-epic-workflow-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Epic Workflow API
+  slug: shortcut-software-epic-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-epic-workflow-api-openapi.yml
+- filename: shortcut-software-epics-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Epics API
+  slug: shortcut-software-epics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-epics-api-openapi.yml
+- filename: shortcut-software-external-link-api-openapi.yml
+  format: yaml
+  label: Shortcut Software External Link API
+  slug: shortcut-software-external-link-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-external-link-api-openapi.yml
+- filename: shortcut-software-files-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Files API
+  slug: shortcut-software-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-files-api-openapi.yml
+- filename: shortcut-software-groups-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Groups API
+  slug: shortcut-software-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-groups-api-openapi.yml
+- filename: shortcut-software-health-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Health API
+  slug: shortcut-software-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-health-api-openapi.yml
+- filename: shortcut-software-integrations-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Integrations API
+  slug: shortcut-software-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-integrations-api-openapi.yml
+- filename: shortcut-software-iterations-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Iterations API
+  slug: shortcut-software-iterations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-iterations-api-openapi.yml
+- filename: shortcut-software-key-results-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Key Results API
+  slug: shortcut-software-key-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-key-results-api-openapi.yml
+- filename: shortcut-software-labels-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Labels API
+  slug: shortcut-software-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-labels-api-openapi.yml
+- filename: shortcut-software-linked-files-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Linked Files API
+  slug: shortcut-software-linked-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-linked-files-api-openapi.yml
+- filename: shortcut-software-member-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Member API
+  slug: shortcut-software-member-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-member-api-openapi.yml
+- filename: shortcut-software-members-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Members API
+  slug: shortcut-software-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-members-api-openapi.yml
+- filename: shortcut-software-milestones-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Milestones API
+  slug: shortcut-software-milestones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-milestones-api-openapi.yml
+- filename: shortcut-software-objectives-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Objectives API
+  slug: shortcut-software-objectives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-objectives-api-openapi.yml
+- filename: shortcut-software-projects-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Projects API
+  slug: shortcut-software-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-projects-api-openapi.yml
+- filename: shortcut-software-repositories-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Repositories API
+  slug: shortcut-software-repositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-repositories-api-openapi.yml
+- filename: shortcut-software-search-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Search API
+  slug: shortcut-software-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-search-api-openapi.yml
+- filename: shortcut-software-stories-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Stories API
+  slug: shortcut-software-stories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-stories-api-openapi.yml
+- filename: shortcut-software-story-links-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Story Links API
+  slug: shortcut-software-story-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-story-links-api-openapi.yml
+- filename: shortcut-software-workflows-api-openapi.yml
+  format: yaml
+  label: Shortcut Software Workflows API
+  slug: shortcut-software-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-workflows-api-openapi.yml
 certifications:
 - SOC 2 Type 2
 - HIPAA (BAA on Business/Enterprise)

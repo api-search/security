@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: pika-labs-openapi.yml
+- filename: pika-labs-cancel-api-openapi.yml
   format: yaml
-  label: Pika via fal.ai
-  slug: fal
+  label: Pika Labs Cancel API
+  slug: pika-labs-cancel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/openapi/pika-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/openapi/pika-labs-cancel-api-openapi.yml
+- filename: pika-labs-result-api-openapi.yml
+  format: yaml
+  label: Pika Labs Result API
+  slug: pika-labs-result-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/openapi/pika-labs-result-api-openapi.yml
+- filename: pika-labs-status-api-openapi.yml
+  format: yaml
+  label: Pika Labs Status API
+  slug: pika-labs-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/openapi/pika-labs-status-api-openapi.yml
+- filename: pika-labs-submission-api-openapi.yml
+  format: yaml
+  label: Pika Labs Submission API
+  slug: pika-labs-submission-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/openapi/pika-labs-submission-api-openapi.yml
 description: ''
 domains:
 - caa: []

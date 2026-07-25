@@ -1,42 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: telr-openapi.yml
+- filename: telr-agreements-api-openapi.yml
+  format: yaml
+  label: Telr Agreements API
+  slug: telr-agreements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/openapi/telr-agreements-api-openapi.yml
+- filename: telr-hosted-payment-page-api-openapi.yml
   format: yaml
   label: Telr Hosted Payment Page API
   slug: telr-hosted-payment-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/openapi/telr-openapi.yml
-- filename: telr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/openapi/telr-hosted-payment-page-api-openapi.yml
+- filename: telr-payments-api-api-openapi.yml
+  format: yaml
+  label: Telr Payments API API
+  slug: telr-payments-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/openapi/telr-payments-api-api-openapi.yml
+- filename: telr-remote-api-openapi.yml
   format: yaml
   label: Telr Remote API
   slug: telr-remote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/openapi/telr-openapi.yml
-- filename: telr-openapi.yml
-  format: yaml
-  label: Telr Digital Wallets API
-  slug: telr-digital-wallets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/openapi/telr-openapi.yml
-- filename: telr-openapi.yml
-  format: yaml
-  label: Telr Repeat Billing API
-  slug: telr-repeat-billing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/openapi/telr-openapi.yml
-- filename: telr-openapi.yml
-  format: yaml
-  label: Telr Payments REST API
-  slug: telr-payments-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/openapi/telr-openapi.yml
-- filename: telr-openapi.yml
-  format: yaml
-  label: Telr Mobile API and SDKs
-  slug: telr-mobile-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/openapi/telr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/openapi/telr-remote-api-openapi.yml
 auth_types:
 - http
 - custom

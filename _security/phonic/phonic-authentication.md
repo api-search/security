@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: phonic-openapi-original.yaml
+- filename: phonic-agents-api-openapi.yml
   format: yaml
-  label: Phonic API
-  slug: phonic-api
+  label: Phonic agents API
+  slug: phonic-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-openapi-original.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-agents-api-openapi.yml
+- filename: phonic-apikeys-api-openapi.yml
+  format: yaml
+  label: Phonic apiKeys API
+  slug: phonic-apikeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-apikeys-api-openapi.yml
+- filename: phonic-auth-api-openapi.yml
+  format: yaml
+  label: Phonic auth API
+  slug: phonic-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-auth-api-openapi.yml
+- filename: phonic-conversationitems-api-openapi.yml
+  format: yaml
+  label: Phonic conversationItems API
+  slug: phonic-conversationitems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-conversationitems-api-openapi.yml
+- filename: phonic-conversations-api-openapi.yml
+  format: yaml
+  label: Phonic conversations API
+  slug: phonic-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-conversations-api-openapi.yml
+- filename: phonic-extractionschemas-api-openapi.yml
+  format: yaml
+  label: Phonic extractionSchemas API
+  slug: phonic-extractionschemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-extractionschemas-api-openapi.yml
+- filename: phonic-projects-api-openapi.yml
+  format: yaml
+  label: Phonic projects API
+  slug: phonic-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-projects-api-openapi.yml
+- filename: phonic-tools-api-openapi.yml
+  format: yaml
+  label: Phonic tools API
+  slug: phonic-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-tools-api-openapi.yml
+- filename: phonic-voices-api-openapi.yml
+  format: yaml
+  label: Phonic voices API
+  slug: phonic-voices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-voices-api-openapi.yml
+- filename: phonic-workspace-api-openapi.yml
+  format: yaml
+  label: Phonic workspace API
+  slug: phonic-workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-workspace-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: amazon-iam-openapi.yml
+- filename: amazon-iam-access-keys-api-openapi.yml
   format: yaml
-  label: AWS IAM API
-  slug: aws-iam-api
+  label: Amazon IAM Access Keys API
+  slug: amazon-iam-access-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/openapi/amazon-iam-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/openapi/amazon-iam-access-keys-api-openapi.yml
+- filename: amazon-iam-groups-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Groups API
+  slug: amazon-iam-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/openapi/amazon-iam-groups-api-openapi.yml
+- filename: amazon-iam-policies-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Policies API
+  slug: amazon-iam-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/openapi/amazon-iam-policies-api-openapi.yml
+- filename: amazon-iam-roles-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Roles API
+  slug: amazon-iam-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/openapi/amazon-iam-roles-api-openapi.yml
+- filename: amazon-iam-users-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Users API
+  slug: amazon-iam-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/openapi/amazon-iam-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: united-technologies-arinc-messaging-openapi.yml
+- filename: united-technologies-flights-api-openapi.yml
   format: yaml
-  label: Collins Aerospace ARINC Messaging API
-  slug: arinc-messaging-api
+  label: United Technologies Flights API
+  slug: united-technologies-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-technologies/refs/heads/main/openapi/united-technologies-arinc-messaging-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/united-technologies/refs/heads/main/openapi/united-technologies-flights-api-openapi.yml
+- filename: united-technologies-messages-api-openapi.yml
+  format: yaml
+  label: United Technologies Messages API
+  slug: united-technologies-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-technologies/refs/heads/main/openapi/united-technologies-messages-api-openapi.yml
+- filename: united-technologies-weather-api-openapi.yml
+  format: yaml
+  label: United Technologies Weather API
+  slug: united-technologies-weather-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-technologies/refs/heads/main/openapi/united-technologies-weather-api-openapi.yml
 description: ''
 domains:
 - caa:
